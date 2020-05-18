@@ -11,7 +11,7 @@ bioconductor-pocrcannotation.db
 
    A package containing metadata for POCRC arrays
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/POCRCannotation.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/POCRCannotation.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pocrcannotation.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pocrcannotation.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pocrcannotation.db/meta.yaml>`_
 

@@ -11,8 +11,8 @@ bioconductor-minet
 
    Mutual Information NETworks
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/minet.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/minet.html
+   :license: Artistic-2.0
    :recipe: /`bioconductor-minet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minet/meta.yaml>`_
    :links: biotools: :biotools:`minet`, doi: :doi:`10.1186/1471-2105-9-461`
 

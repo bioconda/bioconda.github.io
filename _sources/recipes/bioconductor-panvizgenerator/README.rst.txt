@@ -11,7 +11,7 @@ bioconductor-panvizgenerator
 
    Generate PanViz visualisations from your pangenome
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PanVizGenerator.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PanVizGenerator.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-panvizgenerator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panvizgenerator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panvizgenerator/meta.yaml>`_
 

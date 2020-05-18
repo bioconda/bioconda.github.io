@@ -11,7 +11,7 @@ bioconductor-r453plus1toolbox
 
    A package for importing and analyzing data from Roche\'s Genome Sequencer System
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/R453Plus1Toolbox.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/R453Plus1Toolbox.html
    :license: LGPL-3
    :recipe: /`bioconductor-r453plus1toolbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r453plus1toolbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r453plus1toolbox/meta.yaml>`_
 

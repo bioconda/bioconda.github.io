@@ -11,7 +11,7 @@ bioconductor-meebodata
 
    MEEBO set and MEEBO controls.
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MEEBOdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/MEEBOdata.html
    :license: LGPL
    :recipe: /`bioconductor-meebodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meebodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meebodata/meta.yaml>`_
 

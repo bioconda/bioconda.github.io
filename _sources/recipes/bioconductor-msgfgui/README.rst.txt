@@ -11,7 +11,7 @@ bioconductor-msgfgui
 
    A shiny GUI for MSGFplus
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MSGFgui.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MSGFgui.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-msgfgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgfgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgfgui/meta.yaml>`_
 

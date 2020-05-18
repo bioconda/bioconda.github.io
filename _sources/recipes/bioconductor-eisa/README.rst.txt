@@ -11,7 +11,7 @@ bioconductor-eisa
 
    Expression data analysis via the Iterative Signature Algorithm
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/eisa.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/eisa.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-eisa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eisa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eisa/meta.yaml>`_
 

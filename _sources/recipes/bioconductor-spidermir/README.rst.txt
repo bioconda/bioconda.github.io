@@ -11,12 +11,12 @@ bioconductor-spidermir
 
    SpidermiR\: An R\/Bioconductor package for integrative network analysis with miRNA data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SpidermiR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SpidermiR.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-spidermir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spidermir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spidermir/meta.yaml>`_
    :links: biotools: :biotools:`spidermir`, doi: :doi:`10.3390/ijms18020274`
 
-   The aims of SpidermiR are \: i\) facilitate the network open\-access data retrieval from GeneMania data\, ii\) prepare the data using the appropriate gene nomenclature\, iii\) integration of miRNA data in a specific network\, iv\) provide different standard analyses and v\) allow the user to visualize the results. In more detail\, the package provides multiple methods for query\, prepare and download network data \(GeneMania\)\, and the integration with validated and predicted miRNA data \(mirWalk\, miRTarBase\, miRandola\,Pharmaco\-miR\,DIANA\, Miranda\, PicTar and TargetScan\) and the use of standard analysis \(igraph\) and visualization methods \(networkD3\).
+   The aims of SpidermiR are \: i\) facilitate the network open\-access data retrieval from GeneMania data\, ii\) prepare the data using the appropriate gene nomenclature\, iii\) integration of miRNA data in a specific network\, iv\) provide different standard analyses and v\) allow the user to visualize the results. In more detail\, the package provides multiple methods for query\, prepare and download network data \(GeneMania\)\, and the integration with validated and predicted miRNA data \(mirWalk\, miRTarBase\, miRandola\, Miranda\, PicTar and TargetScan\). Furthermore\, we also present a statistical test to identify pharmaco\-mir relationships using the gene\-drug interactions derived by DGIdb and MATADOR database.
 
 
 .. conda:package:: bioconductor-spidermir

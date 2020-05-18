@@ -11,7 +11,7 @@ bioconductor-analysispageserver
 
    A framework for sharing interactive data and plots from R through the web
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AnalysisPageServer.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/AnalysisPageServer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-analysispageserver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-analysispageserver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-analysispageserver/meta.yaml>`_
 

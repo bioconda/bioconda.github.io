@@ -11,7 +11,7 @@ bioconductor-quasr
 
    Quantify and Annotate Short Reads in R
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/QuasR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/QuasR.html
    :license: GPL-2
    :recipe: /`bioconductor-quasr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quasr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quasr/meta.yaml>`_
    :links: biotools: :biotools:`quasr`

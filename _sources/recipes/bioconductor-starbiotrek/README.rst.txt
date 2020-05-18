@@ -11,7 +11,7 @@ bioconductor-starbiotrek
 
    StarBioTrek
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/StarBioTrek.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/StarBioTrek.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-starbiotrek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starbiotrek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starbiotrek/meta.yaml>`_
    :links: biotools: :biotools:`starbiotrek`, doi: :doi:`10.1186/s12918-015-0211-x`

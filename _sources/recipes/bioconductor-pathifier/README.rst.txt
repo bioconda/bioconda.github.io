@@ -11,7 +11,7 @@ bioconductor-pathifier
 
    Quantify deregulation of pathways in cancer
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pathifier.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/pathifier.html
    :license: Artistic-1.0
    :recipe: /`bioconductor-pathifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathifier/meta.yaml>`_
    :links: biotools: :biotools:`pathifier`, doi: :doi:`10.1073/pnas.1219651110`

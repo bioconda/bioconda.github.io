@@ -11,7 +11,7 @@ bioconductor-phosphonormalizer
 
    Compensates for the bias introduced by median normalization in phosphoproteomics
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/phosphonormalizer.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/phosphonormalizer.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-phosphonormalizer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phosphonormalizer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phosphonormalizer/meta.yaml>`_
 

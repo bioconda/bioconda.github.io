@@ -11,7 +11,7 @@ bioconductor-interest
 
    Intron\-Exon Retention Estimator
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/IntEREst.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/IntEREst.html
    :license: GPL-2
    :recipe: /`bioconductor-interest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interest/meta.yaml>`_
    :links: doi: :doi:`10.18129/B9.bioc.IntEREst`

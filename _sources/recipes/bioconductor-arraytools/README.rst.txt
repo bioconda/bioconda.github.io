@@ -11,7 +11,7 @@ bioconductor-arraytools
 
    geneChip Analysis Package
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ArrayTools.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ArrayTools.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-arraytools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraytools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraytools/meta.yaml>`_
    :links: biotools: :biotools:`arraytools`, doi: :doi:`10.1038/nmeth.3252`

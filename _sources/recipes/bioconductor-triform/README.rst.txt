@@ -11,7 +11,7 @@ bioconductor-triform
 
    Triform finds enriched regions \(peaks\) in transcription factor ChIP\-sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/triform.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/triform.html
    :license: GPL-2
    :recipe: /`bioconductor-triform <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triform>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triform/meta.yaml>`_
    :links: biotools: :biotools:`triform`

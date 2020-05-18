@@ -11,7 +11,7 @@ bioconductor-sscore
 
    S\-Score Algorithm for Affymetrix Oligonucleotide Microarrays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sscore.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sscore.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sscore/meta.yaml>`_
    :links: biotools: :biotools:`sscore`, doi: :doi:`10.1016/S1046-2023(03)00156-7`

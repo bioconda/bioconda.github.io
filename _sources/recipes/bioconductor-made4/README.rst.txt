@@ -11,7 +11,7 @@ bioconductor-made4
 
    Multivariate analysis of microarray data using ADE4
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/made4.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/made4.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-made4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-made4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-made4/meta.yaml>`_
    :links: biotools: :biotools:`made4`

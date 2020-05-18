@@ -11,7 +11,7 @@ bioconductor-consensusclusterplus
 
    ConsensusClusterPlus
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ConsensusClusterPlus.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ConsensusClusterPlus.html
    :license: GPL version 2
    :recipe: /`bioconductor-consensusclusterplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusclusterplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusclusterplus/meta.yaml>`_
    :links: biotools: :biotools:`consensusclusterplus`

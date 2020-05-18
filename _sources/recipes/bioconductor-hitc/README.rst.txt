@@ -11,7 +11,7 @@ bioconductor-hitc
 
    High Throughput Chromosome Conformation Capture analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HiTC.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HiTC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hitc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hitc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hitc/meta.yaml>`_
    :links: biotools: :biotools:`hitc`

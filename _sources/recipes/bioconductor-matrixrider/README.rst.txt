@@ -11,7 +11,7 @@ bioconductor-matrixrider
 
    Obtain total affinity and occupancies for binding site matrices on a given sequence
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MatrixRider.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MatrixRider.html
    :license: GPL-3
    :recipe: /`bioconductor-matrixrider <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixrider>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixrider/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-ceu1kg
 
    CEU \(N\=60\) genotypes from 1000 genomes pilot phase I
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ceu1kg.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/ceu1kg.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ceu1kg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceu1kg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceu1kg/meta.yaml>`_
 

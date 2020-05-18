@@ -11,7 +11,7 @@ bioconductor-normalize450k
 
    Preprocessing of Illumina Infinium 450K data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/normalize450K.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/normalize450K.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-normalize450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normalize450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normalize450k/meta.yaml>`_
 

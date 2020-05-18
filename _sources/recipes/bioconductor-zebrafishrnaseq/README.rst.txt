@@ -11,7 +11,7 @@ bioconductor-zebrafishrnaseq
 
    Zebrafish RNA\-Seq Experimental Data from Ferreira et al. \(2014\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/zebrafishRNASeq.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/zebrafishRNASeq.html
    :license: GPL
    :recipe: /`bioconductor-zebrafishrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishrnaseq/meta.yaml>`_
 

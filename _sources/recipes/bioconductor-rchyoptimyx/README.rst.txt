@@ -11,7 +11,7 @@ bioconductor-rchyoptimyx
 
    Optimyzed Cellular Hierarchies for Flow Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RchyOptimyx.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RchyOptimyx.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rchyoptimyx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rchyoptimyx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rchyoptimyx/meta.yaml>`_
 

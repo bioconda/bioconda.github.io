@@ -11,7 +11,7 @@ bioconductor-geneticsdesign
 
    Functions for designing genetics studies
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneticsDesign.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GeneticsDesign.html
    :license: GPL-2
    :recipe: /`bioconductor-geneticsdesign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsdesign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneticsdesign/meta.yaml>`_
    :links: biotools: :biotools:`geneticsdesign`, doi: :doi:`10.1038/nmeth.3252`

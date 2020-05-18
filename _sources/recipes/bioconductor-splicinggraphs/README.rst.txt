@@ -11,7 +11,7 @@ bioconductor-splicinggraphs
 
    Create\, manipulate\, visualize splicing graphs\, and assign RNA\-seq reads to them
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SplicingGraphs.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SplicingGraphs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-splicinggraphs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicinggraphs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicinggraphs/meta.yaml>`_
    :links: biotools: :biotools:`splicinggraphs`, doi: :doi:`10.1093/bioinformatics/18.suppl_1.s181`

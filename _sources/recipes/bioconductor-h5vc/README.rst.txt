@@ -11,7 +11,7 @@ bioconductor-h5vc
 
    Managing alignment tallies using a hdf5 backend
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/h5vc.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/h5vc.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-h5vc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h5vc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h5vc/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-simbindprofiles
 
    Similar Binding Profiles
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SimBindProfiles.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SimBindProfiles.html
    :license: GPL-3
    :recipe: /`bioconductor-simbindprofiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simbindprofiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simbindprofiles/meta.yaml>`_
    :links: biotools: :biotools:`simbindprofiles`, doi: :doi:`10.1038/nmeth.3252`

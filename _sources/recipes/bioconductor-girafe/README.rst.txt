@@ -11,7 +11,7 @@ bioconductor-girafe
 
    Genome Intervals and Read Alignments for Functional Exploration
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/girafe.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/girafe.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-girafe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-girafe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-girafe/meta.yaml>`_
    :links: biotools: :biotools:`girafe`

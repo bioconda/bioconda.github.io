@@ -11,7 +11,7 @@ bioconductor-xtropicalisprobe
 
    Probe sequence data for microarrays of type xtropicalis
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/xtropicalisprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/xtropicalisprobe.html
    :license: LGPL
    :recipe: /`bioconductor-xtropicalisprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtropicalisprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtropicalisprobe/meta.yaml>`_
 

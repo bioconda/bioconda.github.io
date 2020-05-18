@@ -11,7 +11,7 @@ bioconductor-snphooddata
 
    Additional and more complex example data for the SNPhood package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SNPhoodData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/SNPhoodData.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-snphooddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphooddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphooddata/meta.yaml>`_
 

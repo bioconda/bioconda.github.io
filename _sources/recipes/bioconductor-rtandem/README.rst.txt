@@ -11,7 +11,7 @@ bioconductor-rtandem
 
    Interfaces the tandem protein identification algorithm in R
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rTANDEM.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/rTANDEM.html
    :license: Artistic-1.0 | file LICENSE
    :recipe: /`bioconductor-rtandem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtandem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtandem/meta.yaml>`_
 

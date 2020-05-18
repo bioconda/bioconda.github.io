@@ -11,7 +11,7 @@ bioconductor-mircomp
 
    Tools to assess and compare miRNA expression estimatation methods
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/miRcomp.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/miRcomp.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-mircomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircomp/meta.yaml>`_
 

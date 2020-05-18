@@ -11,7 +11,7 @@ bioconductor-hyperdraw
 
    Visualizing Hypergaphs
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/hyperdraw.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/hyperdraw.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hyperdraw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hyperdraw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hyperdraw/meta.yaml>`_
    :links: biotools: :biotools:`hyperdraw`, doi: :doi:`10.1038/nmeth.3252`

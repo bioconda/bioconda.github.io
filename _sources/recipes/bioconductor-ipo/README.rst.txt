@@ -11,7 +11,7 @@ bioconductor-ipo
 
    Automated Optimization of XCMS Data Processing parameters
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/IPO.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/IPO.html
    :license: GPL (>= 2) + file LICENSE
    :recipe: /`bioconductor-ipo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipo/meta.yaml>`_
    :links: biotools: :biotools:`ipo`

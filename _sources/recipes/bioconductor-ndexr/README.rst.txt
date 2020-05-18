@@ -11,7 +11,7 @@ bioconductor-ndexr
 
    NDEx R client library
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ndexr.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ndexr.html
    :license: BSD
    :recipe: /`bioconductor-ndexr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ndexr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ndexr/meta.yaml>`_
 

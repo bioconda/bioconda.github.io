@@ -11,7 +11,7 @@ bioconductor-fem
 
    Identification of Functional Epigenetic Modules
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FEM.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/FEM.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-fem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fem/meta.yaml>`_
 

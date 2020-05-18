@@ -11,7 +11,7 @@ bioconductor-trnadbimport
 
    Importing from tRNAdb and mitotRNAdb as GRanges objects
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/tRNAdbImport.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/tRNAdbImport.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-trnadbimport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trnadbimport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trnadbimport/meta.yaml>`_
 

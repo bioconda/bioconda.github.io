@@ -11,7 +11,7 @@ bioconductor-imetagene
 
    A graphical interface for the metagene package
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Imetagene.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Imetagene.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-imetagene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imetagene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imetagene/meta.yaml>`_
 

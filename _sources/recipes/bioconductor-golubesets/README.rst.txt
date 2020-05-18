@@ -11,7 +11,7 @@ bioconductor-golubesets
 
    exprSets for golub leukemia data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/golubEsets.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/golubEsets.html
    :license: LGPL
    :recipe: /`bioconductor-golubesets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-golubesets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-golubesets/meta.yaml>`_
 

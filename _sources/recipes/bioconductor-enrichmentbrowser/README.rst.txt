@@ -11,7 +11,7 @@ bioconductor-enrichmentbrowser
 
    Seamless navigation through combined results of set\-based and network\-based enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EnrichmentBrowser.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EnrichmentBrowser.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-enrichmentbrowser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichmentbrowser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichmentbrowser/meta.yaml>`_
 

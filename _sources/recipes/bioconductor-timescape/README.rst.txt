@@ -11,7 +11,7 @@ bioconductor-timescape
 
    Patient Clonal Timescapes
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/timescape.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/timescape.html
    :license: GPL-3
    :recipe: /`bioconductor-timescape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timescape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timescape/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-polyphen.hsapiens.dbsnp131
 
    PolyPhen Predictions for Homo sapiens dbSNP build 131
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/PolyPhen.Hsapiens.dbSNP131.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/PolyPhen.Hsapiens.dbSNP131.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-polyphen.hsapiens.dbsnp131 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-polyphen.hsapiens.dbsnp131>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-polyphen.hsapiens.dbsnp131/meta.yaml>`_
 

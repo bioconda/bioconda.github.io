@@ -11,7 +11,7 @@ bioconductor-seqgsea
 
    Gene Set Enrichment Analysis \(GSEA\) of RNA\-Seq Data\: integrating differential expression and splicing
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SeqGSEA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SeqGSEA.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-seqgsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqgsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqgsea/meta.yaml>`_
    :links: biotools: :biotools:`seqgsea`

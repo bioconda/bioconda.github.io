@@ -11,7 +11,7 @@ bioconductor-focalcall
 
    Detection of focal aberrations in DNA copy number data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/focalCall.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/focalCall.html
    :license: GPL-2
    :recipe: /`bioconductor-focalcall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-focalcall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-focalcall/meta.yaml>`_
    :links: biotools: :biotools:`focalcall`, doi: :doi:`10.4137/cin.s19519`

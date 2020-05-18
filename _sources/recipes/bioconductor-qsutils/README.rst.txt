@@ -11,7 +11,7 @@ bioconductor-qsutils
 
    Quasispecies Diversity
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/QSutils.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/QSutils.html
    :license: file LICENSE
    :recipe: /`bioconductor-qsutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsutils/meta.yaml>`_
 

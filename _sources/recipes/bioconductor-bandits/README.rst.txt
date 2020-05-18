@@ -11,7 +11,7 @@ bioconductor-bandits
 
    BANDITS\: Bayesian ANalysis of DIfferenTial Splicing
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BANDITS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BANDITS.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-bandits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bandits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bandits/meta.yaml>`_
 

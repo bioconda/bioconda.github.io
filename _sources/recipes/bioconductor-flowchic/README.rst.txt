@@ -11,7 +11,7 @@ bioconductor-flowchic
 
    Analyze flow cytometric data using histogram information
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowCHIC.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowCHIC.html
    :license: GPL-2
    :recipe: /`bioconductor-flowchic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowchic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowchic/meta.yaml>`_
 
@@ -22,11 +22,11 @@ bioconductor-flowchic
 
    |downloads_bioconductor-flowchic| |docker_bioconductor-flowchic|
 
-   :versions: 1.20.0-0, 1.18.0-1, 1.16.0-0
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.0-0
    
-   :depends bioconductor-ebimage: >=4.28.0,<4.29.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-ggplot2: 
    :depends r-hexbin: 
    :depends r-vegan: 

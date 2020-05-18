@@ -11,7 +11,7 @@ bioconductor-gwascat
 
    representing and modeling data in the EMBL\-EBI GWAS catalog
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gwascat.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gwascat.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gwascat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwascat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwascat/meta.yaml>`_
 

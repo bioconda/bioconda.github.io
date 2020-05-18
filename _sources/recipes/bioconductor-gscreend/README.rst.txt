@@ -11,7 +11,7 @@ bioconductor-gscreend
 
    Analysis of pooled genetic screens
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gscreend.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gscreend.html
    :license: GPL-3
    :recipe: /`bioconductor-gscreend <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gscreend>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gscreend/meta.yaml>`_
 

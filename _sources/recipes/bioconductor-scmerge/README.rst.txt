@@ -11,7 +11,7 @@ bioconductor-scmerge
 
    scMerge\: Merging multiple batches of scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scMerge.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/scMerge.html
    :license: GPL-3
    :recipe: /`bioconductor-scmerge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmerge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmerge/meta.yaml>`_
 

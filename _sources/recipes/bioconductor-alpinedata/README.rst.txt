@@ -11,7 +11,7 @@ bioconductor-alpinedata
 
    Data for the alpine package vignette
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/alpineData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/alpineData.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-alpinedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpinedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpinedata/meta.yaml>`_
 

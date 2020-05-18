@@ -11,7 +11,7 @@ bioconductor-msmb
 
    Data sets for the book \'Modern Statistics for Biology\'
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MSMB.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/MSMB.html
    :license: LGPL
    :recipe: /`bioconductor-msmb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmb/meta.yaml>`_
 

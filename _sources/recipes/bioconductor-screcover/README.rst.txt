@@ -11,7 +11,7 @@ bioconductor-screcover
 
    scRecover for imputation of single\-cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scRecover.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/scRecover.html
    :license: GPL
    :recipe: /`bioconductor-screcover <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screcover>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screcover/meta.yaml>`_
 

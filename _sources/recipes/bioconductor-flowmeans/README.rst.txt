@@ -11,7 +11,7 @@ bioconductor-flowmeans
 
    Non\-parametric Flow Cytometry Data Gating
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowMeans.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowMeans.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowmeans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmeans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmeans/meta.yaml>`_
 

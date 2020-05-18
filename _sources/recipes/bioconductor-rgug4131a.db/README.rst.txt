@@ -11,7 +11,7 @@ bioconductor-rgug4131a.db
 
    Agilent \"Rat Genome\, Whole\" annotation data \(chip rgug4131a\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rgug4131a.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rgug4131a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgug4131a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgug4131a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgug4131a.db/meta.yaml>`_
 

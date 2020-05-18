@@ -11,7 +11,7 @@ bioconductor-samexplorer
 
    samExploreR package high\-performance read summarisation to count vectors with avaliability of sequencing depth reduction simulation
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/samExploreR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/samExploreR.html
    :license: GPL-3
    :recipe: /`bioconductor-samexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samexplorer/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-mcagui
 
    Microbial Community Analysis GUI
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mcaGUI.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/mcaGUI.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mcagui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcagui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcagui/meta.yaml>`_
 

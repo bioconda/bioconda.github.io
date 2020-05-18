@@ -11,7 +11,7 @@ bioconductor-igvr
 
    igvR\: integrative genomics viewer
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/igvR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/igvR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-igvr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igvr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igvr/meta.yaml>`_
 

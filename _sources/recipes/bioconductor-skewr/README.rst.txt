@@ -11,7 +11,7 @@ bioconductor-skewr
 
    Visualize Intensities Produced by Illumina\'s Human Methylation 450k BeadChip
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/skewr.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/skewr.html
    :license: GPL-2
    :recipe: /`bioconductor-skewr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-skewr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-skewr/meta.yaml>`_
 

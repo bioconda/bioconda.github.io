@@ -11,7 +11,7 @@ bioconductor-bitseq
 
    Transcript expression inference and differential expression analysis for RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BitSeq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BitSeq.html
    :license: Artistic-2.0 + file LICENSE
    :recipe: /`bioconductor-bitseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bitseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bitseq/meta.yaml>`_
    :links: biotools: :biotools:`bitseq`

@@ -11,7 +11,7 @@ bioconductor-bamsignals
 
    Extract read count signals from bam files
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bamsignals.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/bamsignals.html
    :license: GPL-2
    :recipe: /`bioconductor-bamsignals <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bamsignals>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bamsignals/meta.yaml>`_
    :links: biotools: :biotools:`bamsignals`, doi: :doi:`10.1038/nmeth.3252`

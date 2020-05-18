@@ -11,7 +11,7 @@ bioconductor-netsam
 
    Network Seriation And Modularization
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/NetSAM.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/NetSAM.html
    :license: LGPL
    :recipe: /`bioconductor-netsam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netsam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netsam/meta.yaml>`_
 

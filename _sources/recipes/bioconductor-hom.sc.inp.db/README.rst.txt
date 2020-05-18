@@ -11,7 +11,7 @@ bioconductor-hom.sc.inp.db
 
    Homology information for Saccharomyces cerevisiae from Inparanoid
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hom.Sc.inp.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hom.Sc.inp.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hom.sc.inp.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hom.sc.inp.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hom.sc.inp.db/meta.yaml>`_
 

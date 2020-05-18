@@ -11,7 +11,7 @@ bioconductor-metcirc
 
    Navigating mass spectral similarity in high\-resolution MS\/MS metabolomics data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MetCirc.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MetCirc.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-metcirc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metcirc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metcirc/meta.yaml>`_
    :links: biotools: :biotools:`metcirc`, doi: :doi:`10.1093/bioinformatics/btx159`

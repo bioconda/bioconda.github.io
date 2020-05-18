@@ -11,7 +11,7 @@ bioconductor-iterclust
 
    Iterative Clustering
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/iterClust.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/iterClust.html
    :license: file LICENSE
    :recipe: /`bioconductor-iterclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterclust/meta.yaml>`_
 

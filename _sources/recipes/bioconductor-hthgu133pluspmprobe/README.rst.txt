@@ -11,7 +11,7 @@ bioconductor-hthgu133pluspmprobe
 
    Probe sequence data for microarrays of type hthgu133pluspm
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hthgu133pluspmprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hthgu133pluspmprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hthgu133pluspmprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmprobe/meta.yaml>`_
 

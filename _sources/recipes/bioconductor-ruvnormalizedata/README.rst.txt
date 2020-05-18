@@ -11,7 +11,7 @@ bioconductor-ruvnormalizedata
 
    Gender data for the RUVnormalize package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RUVnormalizeData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/RUVnormalizeData.html
    :license: GPL-3
    :recipe: /`bioconductor-ruvnormalizedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvnormalizedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvnormalizedata/meta.yaml>`_
 

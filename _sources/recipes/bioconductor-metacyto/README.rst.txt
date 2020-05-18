@@ -11,7 +11,7 @@ bioconductor-metacyto
 
    MetaCyto\: A package for meta\-analysis of cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MetaCyto.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MetaCyto.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-metacyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacyto/meta.yaml>`_
 
@@ -22,11 +22,11 @@ bioconductor-metacyto
 
    |downloads_bioconductor-metacyto| |docker_bioconductor-metacyto|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.1-0, 1.4.0-0
+   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.1-0, 1.4.0-0
    
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowsom: >=1.18.0,<1.19.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowsom: >=1.20.0,<1.21.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :depends r-fastcluster: 
    :depends r-ggplot2: 

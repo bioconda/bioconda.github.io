@@ -11,11 +11,11 @@ bioconductor-immunoclust
 
    immunoClust \- Automated Pipeline for Population Detection in Flow Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/immunoClust.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/immunoClust.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-immunoclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunoclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunoclust/meta.yaml>`_
 
-   Model based clustering and meta\-clustering of Flow Cytometry Data
+   immunoClust is a model based clustering approach for Flow Cytometry samples. The cell\-events of single Flow Cytometry samples are modelled by a mixture of multinominal normal\- or t\-distributions. The cell\-event clusters of several samples are modelled by a mixture of multinominal normal\-distributions aiming stable co\-clusters across these samples.
 
 
 .. conda:package:: bioconductor-immunoclust

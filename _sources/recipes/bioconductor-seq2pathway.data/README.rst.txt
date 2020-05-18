@@ -11,7 +11,7 @@ bioconductor-seq2pathway.data
 
    data set for R package seq2pathway
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/seq2pathway.data.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/seq2pathway.data.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-seq2pathway.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway.data/meta.yaml>`_
 

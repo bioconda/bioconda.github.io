@@ -11,7 +11,7 @@ bioconductor-ularcirc
 
    Shiny app for canonical and back splicing analysis \(i.e. circular and mRNA analysis\)
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Ularcirc.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Ularcirc.html
    :license: file LICENSE
    :recipe: /`bioconductor-ularcirc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ularcirc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ularcirc/meta.yaml>`_
 

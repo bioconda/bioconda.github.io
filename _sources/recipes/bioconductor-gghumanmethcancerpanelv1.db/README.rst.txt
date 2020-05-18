@@ -11,7 +11,7 @@ bioconductor-gghumanmethcancerpanelv1.db
 
    Illumina Golden Gate Human Methylation Cancer Panel Version 1 annotation data \(chip GGHumanMethCancerPanelv1\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/GGHumanMethCancerPanelv1.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/GGHumanMethCancerPanelv1.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gghumanmethcancerpanelv1.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gghumanmethcancerpanelv1.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gghumanmethcancerpanelv1.db/meta.yaml>`_
 

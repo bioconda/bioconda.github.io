@@ -11,7 +11,7 @@ bioconductor-coseq
 
    Co\-Expression Analysis of Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/coseq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/coseq.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-coseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coseq/meta.yaml>`_
 

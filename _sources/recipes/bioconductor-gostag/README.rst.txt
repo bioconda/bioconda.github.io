@@ -11,7 +11,7 @@ bioconductor-gostag
 
    A tool to use GO Subtrees to Tag and Annotate Genes within a set
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/goSTAG.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/goSTAG.html
    :license: GPL-3
    :recipe: /`bioconductor-gostag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gostag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gostag/meta.yaml>`_
 

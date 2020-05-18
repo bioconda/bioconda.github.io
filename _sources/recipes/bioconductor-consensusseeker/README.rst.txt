@@ -11,7 +11,7 @@ bioconductor-consensusseeker
 
    Detection of consensus regions inside a group of experiences using genomic positions and genomic ranges
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/consensusSeekeR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/consensusSeekeR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-consensusseeker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusseeker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusseeker/meta.yaml>`_
    :links: biotools: :biotools:`consensusseeker`, doi: :doi:`10.1515/sagmb-2014-0098`

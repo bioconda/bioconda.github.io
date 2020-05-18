@@ -11,7 +11,7 @@ bioconductor-bsgenome.cjacchus.ucsc.caljac3
 
    Full genome sequences for Callithrix jacchus \(UCSC version calJac3\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Cjacchus.UCSC.calJac3.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Cjacchus.UCSC.calJac3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.cjacchus.ucsc.caljac3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cjacchus.ucsc.caljac3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cjacchus.ucsc.caljac3/meta.yaml>`_
 

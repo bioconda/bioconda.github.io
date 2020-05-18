@@ -11,11 +11,11 @@ bioconductor-fcoex
 
    FCBF\-based Co\-Expression Networks for Single Cells
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/fcoex.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/fcoex.html
    :license: GPL-3
    :recipe: /`bioconductor-fcoex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcoex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcoex/meta.yaml>`_
 
-   The fcoex package implements an easy\-to use interface to co\-expression analysisbased on the FCBF \(Fast Correlation\-Based Filter\) algorithm. it was implemented especifically to deal with single\-cell data. The modules found can be used to redefine cell populations\, unrevel novel gene associations and predict gene function by guilt\-by\-association. The package structure is based on the CEMiTool package.
+   The fcoex package implements an easy\-to use interface to co\-expression analysis based on the FCBF \(Fast Correlation\-Based Filter\) algorithm. it was implemented especifically to deal with single\-cell data. The modules found can be used to redefine cell populations\, unrevel novel gene associations and predict gene function by guilt\-by\-association. The package structure is adapted from the CEMiTool package\, relying on visualizations and code designed and written by CEMiTool\'s authors.
 
 
 .. conda:package:: bioconductor-fcoex

@@ -11,7 +11,7 @@ bioconductor-twilight
 
    Estimation of local false discovery rate
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/twilight.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/twilight.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-twilight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-twilight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-twilight/meta.yaml>`_
    :links: biotools: :biotools:`twilight`, doi: :doi:`10.1093/bioinformatics/bti436`

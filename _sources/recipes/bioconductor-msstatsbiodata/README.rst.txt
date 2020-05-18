@@ -11,7 +11,7 @@ bioconductor-msstatsbiodata
 
    Datasets of published biological studies with DDA or SRM experiments
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MSstatsBioData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/MSstatsBioData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatsbiodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsbiodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsbiodata/meta.yaml>`_
 

@@ -9,9 +9,9 @@ bioconductor-annotationtools
 .. conda:recipe:: bioconductor-annotationtools
    :replaces_section_title:
 
-   Annotate microarrays and perform cross\-species gene expression analyses using flat file databases.
+   Annotate microarrays and perform cross\-species gene expression analyses using flat file databases
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/annotationTools.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/annotationTools.html
    :license: GPL
    :recipe: /`bioconductor-annotationtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationtools/meta.yaml>`_
    :links: biotools: :biotools:`annotationtools`

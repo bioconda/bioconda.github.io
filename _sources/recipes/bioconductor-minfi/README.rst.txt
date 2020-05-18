@@ -11,7 +11,7 @@ bioconductor-minfi
 
    Analyze Illumina Infinium DNA methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/minfi.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/minfi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minfi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfi/meta.yaml>`_
    :links: biotools: :biotools:`minfi`

@@ -11,7 +11,7 @@ bioconductor-cssp
 
    ChIP\-Seq Statistical Power
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CSSP.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CSSP.html
    :license: GPL-2
    :recipe: /`bioconductor-cssp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cssp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cssp/meta.yaml>`_
 

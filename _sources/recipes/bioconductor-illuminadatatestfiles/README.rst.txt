@@ -11,7 +11,7 @@ bioconductor-illuminadatatestfiles
 
    Illumina microarray files \(IDAT\) for testing
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/IlluminaDataTestFiles.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/IlluminaDataTestFiles.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminadatatestfiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminadatatestfiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminadatatestfiles/meta.yaml>`_
 

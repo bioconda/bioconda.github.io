@@ -11,7 +11,7 @@ bioconductor-clumsiddata
 
    Data for the CluMSID package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CluMSIDdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/CluMSIDdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-clumsiddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clumsiddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clumsiddata/meta.yaml>`_
 

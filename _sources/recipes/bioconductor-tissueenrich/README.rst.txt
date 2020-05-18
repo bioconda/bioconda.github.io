@@ -11,7 +11,7 @@ bioconductor-tissueenrich
 
    Tissue\-specific gene enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TissueEnrich.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TissueEnrich.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tissueenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tissueenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tissueenrich/meta.yaml>`_
 

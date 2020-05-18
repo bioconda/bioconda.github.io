@@ -11,7 +11,7 @@ bioconductor-qsea
 
    IP\-seq data analysis and vizualization
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/qsea.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/qsea.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-qsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsea/meta.yaml>`_
    :links: biotools: :biotools:`qsea`

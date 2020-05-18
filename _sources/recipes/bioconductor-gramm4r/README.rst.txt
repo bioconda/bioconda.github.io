@@ -11,7 +11,7 @@ bioconductor-gramm4r
 
    Generalized correlation analysis and model construction strategy for metabolome and microbiome
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gramm4R.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gramm4R.html
    :license: GPL-2
    :recipe: /`bioconductor-gramm4r <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gramm4r>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gramm4r/meta.yaml>`_
 

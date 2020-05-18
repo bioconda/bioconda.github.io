@@ -11,7 +11,7 @@ bioconductor-raexexonprobesetlocation
 
    Probe sequence data for microarrays of type RaEx
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/RaExExonProbesetLocation.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/RaExExonProbesetLocation.html
    :license: LGPL
    :recipe: /`bioconductor-raexexonprobesetlocation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raexexonprobesetlocation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raexexonprobesetlocation/meta.yaml>`_
 

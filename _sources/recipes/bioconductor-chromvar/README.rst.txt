@@ -11,7 +11,7 @@ bioconductor-chromvar
 
    Chromatin Variation Across Regions
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/chromVAR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/chromVAR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-chromvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromvar/meta.yaml>`_
    :links: biotools: :biotools:`chromvar`

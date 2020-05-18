@@ -11,7 +11,7 @@ bioconductor-oppar
 
    Outlier profile and pathway analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/oppar.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/oppar.html
    :license: GPL-2
    :recipe: /`bioconductor-oppar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oppar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oppar/meta.yaml>`_
    :links: biotools: :biotools:`oppar`

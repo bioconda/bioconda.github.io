@@ -11,7 +11,7 @@ bioconductor-rtcga.pancan12
 
    PanCan 12 from Genome Cancer Browser
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RTCGA.PANCAN12.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/RTCGA.PANCAN12.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.pancan12 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.pancan12>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.pancan12/meta.yaml>`_
 

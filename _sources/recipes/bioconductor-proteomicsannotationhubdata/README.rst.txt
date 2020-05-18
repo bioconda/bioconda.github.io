@@ -11,7 +11,7 @@ bioconductor-proteomicsannotationhubdata
 
    Transform public proteomics data resources into Bioconductor Data Structures
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ProteomicsAnnotationHubData.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ProteomicsAnnotationHubData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-proteomicsannotationhubdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomicsannotationhubdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomicsannotationhubdata/meta.yaml>`_
    :links: biotools: :biotools:`proteomicsannotationhubdata`, doi: :doi:`10.1038/nmeth.3252`

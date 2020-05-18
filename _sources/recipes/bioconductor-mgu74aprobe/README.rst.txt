@@ -11,7 +11,7 @@ bioconductor-mgu74aprobe
 
    Probe sequence data for microarrays of type mgu74a
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mgu74aprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mgu74aprobe.html
    :license: LGPL
    :recipe: /`bioconductor-mgu74aprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74aprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74aprobe/meta.yaml>`_
 

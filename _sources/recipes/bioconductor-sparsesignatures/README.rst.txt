@@ -11,7 +11,7 @@ bioconductor-sparsesignatures
 
    SparseSignatures
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SparseSignatures.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SparseSignatures.html
    :license: file LICENSE
    :recipe: /`bioconductor-sparsesignatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsesignatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsesignatures/meta.yaml>`_
 

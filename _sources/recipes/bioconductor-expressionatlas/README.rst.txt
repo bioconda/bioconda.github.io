@@ -11,7 +11,7 @@ bioconductor-expressionatlas
 
    Download datasets from EMBL\-EBI Expression Atlas
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ExpressionAtlas.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ExpressionAtlas.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-expressionatlas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-expressionatlas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-expressionatlas/meta.yaml>`_
 

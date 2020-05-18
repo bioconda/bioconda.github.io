@@ -11,7 +11,7 @@ bioconductor-qckitfastq
 
    FASTQ Quality Control
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/qckitfastq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/qckitfastq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-qckitfastq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qckitfastq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qckitfastq/meta.yaml>`_
 

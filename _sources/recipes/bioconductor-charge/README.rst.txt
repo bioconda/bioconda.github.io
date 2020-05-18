@@ -11,7 +11,7 @@ bioconductor-charge
 
    CHARGE\: CHromosome Assessment in R from Gene Expression data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CHARGE.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CHARGE.html
    :license: GPL-2
    :recipe: /`bioconductor-charge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charge/meta.yaml>`_
 

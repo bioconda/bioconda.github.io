@@ -11,7 +11,7 @@ bioconductor-hiergwas
 
    Asessing statistical significance in predictive GWA studies
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/hierGWAS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/hierGWAS.html
    :license: GPL-3
    :recipe: /`bioconductor-hiergwas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiergwas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiergwas/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-logicfs
 
    Identification of SNP Interactions
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/logicFS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/logicFS.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-logicfs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logicfs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logicfs/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-curatedadipochip
 
    A Curated ChIP\-Seq Dataset of MDI\-induced Differentiated Adipocytes \(3T3\-L1\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/curatedAdipoChIP.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/curatedAdipoChIP.html
    :license: GPL-3
    :recipe: /`bioconductor-curatedadipochip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadipochip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadipochip/meta.yaml>`_
 

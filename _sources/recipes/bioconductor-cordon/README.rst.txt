@@ -11,7 +11,7 @@ bioconductor-cordon
 
    Codon Usage Analysis and Prediction of Gene Expressivity
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/coRdon.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/coRdon.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cordon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cordon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cordon/meta.yaml>`_
 

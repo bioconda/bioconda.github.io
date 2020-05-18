@@ -11,7 +11,7 @@ bioconductor-geecc
 
    Gene Set Enrichment Analysis Extended to Contingency Cubes
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/geecc.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/geecc.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-geecc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geecc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geecc/meta.yaml>`_
 

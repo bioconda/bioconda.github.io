@@ -11,8 +11,8 @@ bioconductor-scbfa
 
    A dimensionality reduction tool using gene detection pattern to mitigate noisy expression profile of scRNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scBFA.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/scBFA.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-scbfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbfa/meta.yaml>`_
 
    This package is designed to model gene detection pattern of scRNA\-seq through a binary factor analysis model. This model allows user to pass into a cell level covariate matrix X and gene level covariate matrix Q to account for nuisance variance\(e.g batch effect\)\, and it will output a low dimensional embedding matrix for downstream analysis.

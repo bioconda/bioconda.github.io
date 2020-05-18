@@ -11,7 +11,7 @@ bioconductor-mcsea
 
    Methylated CpGs Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mCSEA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/mCSEA.html
    :license: GPL-2
    :recipe: /`bioconductor-mcsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcsea/meta.yaml>`_
 

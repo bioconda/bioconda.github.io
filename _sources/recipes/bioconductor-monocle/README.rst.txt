@@ -11,7 +11,7 @@ bioconductor-monocle
 
    Clustering\, differential expression\, and trajectory analysis for single\- cell RNA\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/monocle.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/monocle.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-monocle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-monocle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-monocle/meta.yaml>`_
    :links: biotools: :biotools:`monocle`

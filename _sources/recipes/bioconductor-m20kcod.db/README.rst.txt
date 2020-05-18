@@ -11,7 +11,7 @@ bioconductor-m20kcod.db
 
    Codelink UniSet Mouse 20k I Bioarray annotation data \(chip m20kcod\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/m20kcod.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/m20kcod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-m20kcod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m20kcod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m20kcod.db/meta.yaml>`_
 

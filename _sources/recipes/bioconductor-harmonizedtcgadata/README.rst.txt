@@ -11,7 +11,7 @@ bioconductor-harmonizedtcgadata
 
    Processed Harmonized TCGA Data of Five Selected Cancer Types
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HarmonizedTCGAData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/HarmonizedTCGAData.html
    :license: GPL-3
    :recipe: /`bioconductor-harmonizedtcgadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmonizedtcgadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmonizedtcgadata/meta.yaml>`_
 

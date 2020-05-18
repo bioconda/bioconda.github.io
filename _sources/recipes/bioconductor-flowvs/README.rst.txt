@@ -11,7 +11,7 @@ bioconductor-flowvs
 
    Variance stabilization in flow cytometry \(and microarrays\)
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowVS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowVS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowvs/meta.yaml>`_
 
@@ -22,12 +22,12 @@ bioconductor-flowvs
 
    |downloads_bioconductor-flowvs| |docker_bioconductor-flowvs|
 
-   :versions: 1.18.0-0, 1.16.0-1, 1.14.1-0
+   :versions: 1.19.0-0, 1.18.0-0, 1.16.0-1, 1.14.1-0
    
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowstats: >=3.44.0,<3.45.0
-   :depends bioconductor-flowviz: >=1.50.0,<1.51.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowstats: >=4.0.0,<4.1.0
+   :depends bioconductor-flowviz: >=1.52.0,<1.53.0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

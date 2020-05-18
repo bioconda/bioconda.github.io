@@ -11,7 +11,7 @@ bioconductor-hicdatalymphoblast
 
    Human lymphoblastoid HiC data from Lieberman\-Aiden et al. 2009
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HiCDataLymphoblast.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/HiCDataLymphoblast.html
    :license: GPL-3
    :recipe: /`bioconductor-hicdatalymphoblast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatalymphoblast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatalymphoblast/meta.yaml>`_
 

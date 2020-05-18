@@ -11,7 +11,7 @@ bioconductor-ogsa
 
    Outlier Gene Set Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OGSA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/OGSA.html
    :license: GPL (== 2)
    :recipe: /`bioconductor-ogsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ogsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ogsa/meta.yaml>`_
    :links: biotools: :biotools:`ogsa`, doi: :doi:`10.1109/TCBB.2013.153`

@@ -11,7 +11,7 @@ bioconductor-flowplots
 
    flowPlots\: analysis plots and data class for gated flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowPlots.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowPlots.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowplots <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowplots>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowplots/meta.yaml>`_
 

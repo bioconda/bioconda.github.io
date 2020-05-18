@@ -11,7 +11,7 @@ bioconductor-gqtlbase
 
    gQTLBase\: infrastructure for eQTL\, mQTL and similar studies
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gQTLBase.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gQTLBase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gqtlbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gqtlbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gqtlbase/meta.yaml>`_
 

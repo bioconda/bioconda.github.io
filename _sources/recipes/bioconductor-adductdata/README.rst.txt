@@ -11,7 +11,7 @@ bioconductor-adductdata
 
    Data from untargeted MS of modifications to Cys34 of serum albumin
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/adductData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/adductData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-adductdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adductdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adductdata/meta.yaml>`_
 

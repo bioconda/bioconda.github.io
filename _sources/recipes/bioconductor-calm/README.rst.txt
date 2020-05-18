@@ -11,7 +11,7 @@ bioconductor-calm
 
    Covariate Assisted Large\-scale Multiple testing
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/calm.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/calm.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-calm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-calm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-calm/meta.yaml>`_
 

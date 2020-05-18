@@ -11,7 +11,7 @@ bioconductor-polyester
 
    Simulate RNA\-seq reads
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/polyester.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/polyester.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-polyester <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-polyester>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-polyester/meta.yaml>`_
 

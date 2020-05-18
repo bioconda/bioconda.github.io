@@ -9,9 +9,9 @@ bioconductor-rcellminer
 .. conda:recipe:: bioconductor-rcellminer
    :replaces_section_title:
 
-   rcellminer\: Molecular Profiles and Drug Response for the NCI\-60 Cell Lines
+   rcellminer\: Molecular Profiles\, Drug Response\, and Chemical Structures for the NCI\-60 Cell Lines
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rcellminer.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/rcellminer.html
    :license: LGPL-3 + file LICENSE
    :recipe: /`bioconductor-rcellminer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcellminer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcellminer/meta.yaml>`_
 

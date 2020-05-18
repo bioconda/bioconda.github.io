@@ -11,7 +11,7 @@ bioconductor-chipseqspike
 
    ChIP\-Seq data scaling according to spike\-in control
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ChIPSeqSpike.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ChIPSeqSpike.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chipseqspike <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseqspike>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseqspike/meta.yaml>`_
 

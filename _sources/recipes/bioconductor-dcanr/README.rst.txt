@@ -11,7 +11,7 @@ bioconductor-dcanr
 
    Differential co\-expression\/association network analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/dcanr.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/dcanr.html
    :license: GPL-3
    :recipe: /`bioconductor-dcanr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcanr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcanr/meta.yaml>`_
 

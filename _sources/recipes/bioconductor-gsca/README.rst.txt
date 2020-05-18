@@ -11,7 +11,7 @@ bioconductor-gsca
 
    GSCA\: Gene Set Context Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GSCA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GSCA.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-gsca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsca/meta.yaml>`_
    :links: biotools: :biotools:`gsca`

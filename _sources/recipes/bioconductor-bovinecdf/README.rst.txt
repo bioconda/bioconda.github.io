@@ -11,7 +11,7 @@ bioconductor-bovinecdf
 
    bovinecdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/bovinecdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/bovinecdf.html
    :license: LGPL
    :recipe: /`bioconductor-bovinecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovinecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovinecdf/meta.yaml>`_
 

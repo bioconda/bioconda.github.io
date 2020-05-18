@@ -11,7 +11,7 @@ bioconductor-phenstat
 
    Statistical analysis of phenotypic data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PhenStat.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PhenStat.html
    :license: file LICENSE
    :recipe: /`bioconductor-phenstat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenstat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenstat/meta.yaml>`_
 

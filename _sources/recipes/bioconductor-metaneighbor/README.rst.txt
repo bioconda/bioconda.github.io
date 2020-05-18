@@ -11,7 +11,7 @@ bioconductor-metaneighbor
 
    Single cell replicability analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MetaNeighbor.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MetaNeighbor.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-metaneighbor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaneighbor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaneighbor/meta.yaml>`_
 

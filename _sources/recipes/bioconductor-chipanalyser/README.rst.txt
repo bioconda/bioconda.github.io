@@ -11,7 +11,7 @@ bioconductor-chipanalyser
 
    ChIPanalyser\: Predicting Transcription Factor Binding Sites
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ChIPanalyser.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ChIPanalyser.html
    :license: GPL-3
    :recipe: /`bioconductor-chipanalyser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipanalyser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipanalyser/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-bcellviper
 
    Human B\-cell transcriptional interactome and normal human B\-cell expression data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/bcellViper.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/bcellViper.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-bcellviper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcellviper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcellviper/meta.yaml>`_
 

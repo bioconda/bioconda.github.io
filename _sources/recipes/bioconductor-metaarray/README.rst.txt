@@ -11,7 +11,7 @@ bioconductor-metaarray
 
    Integration of Microarray Data for Meta\-analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/metaArray.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/metaArray.html
    :license: LGPL-2
    :recipe: /`bioconductor-metaarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaarray/meta.yaml>`_
    :links: biotools: :biotools:`metaarray`, doi: :doi:`10.1186/1471-2105-8-364`

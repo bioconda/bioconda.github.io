@@ -11,7 +11,7 @@ bioconductor-narrowpeaks
 
    Shape\-based Analysis of Variation in ChIP\-seq using Functional PCA
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/NarrowPeaks.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/NarrowPeaks.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-narrowpeaks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-narrowpeaks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-narrowpeaks/meta.yaml>`_
 

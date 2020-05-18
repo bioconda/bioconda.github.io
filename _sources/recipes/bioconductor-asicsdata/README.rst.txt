@@ -11,7 +11,7 @@ bioconductor-asicsdata
 
    Example of 1D NMR spectra data for ASICS package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ASICSdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/ASICSdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-asicsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asicsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asicsdata/meta.yaml>`_
 

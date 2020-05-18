@@ -11,7 +11,7 @@ bioconductor-adacgh2
 
    Analysis of big data from aCGH experiments using parallel computing and ff objects
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ADaCGH2.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ADaCGH2.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-adacgh2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adacgh2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adacgh2/meta.yaml>`_
 

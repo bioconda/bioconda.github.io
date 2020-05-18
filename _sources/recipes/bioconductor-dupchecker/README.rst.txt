@@ -11,7 +11,7 @@ bioconductor-dupchecker
 
    a package for checking high\-throughput genomic data redundancy in meta\-analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DupChecker.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DupChecker.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dupchecker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupchecker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupchecker/meta.yaml>`_
    :links: biotools: :biotools:`dupchecker`

@@ -11,7 +11,7 @@ bioconductor-gsbenchmark
 
    Gene Set Benchmark
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/GSBenchMark.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/GSBenchMark.html
    :license: GPL-2
    :recipe: /`bioconductor-gsbenchmark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsbenchmark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsbenchmark/meta.yaml>`_
 

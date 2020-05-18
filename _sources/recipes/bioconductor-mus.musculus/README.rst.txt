@@ -11,7 +11,7 @@ bioconductor-mus.musculus
 
    Annotation package for the Mus.musculus object
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/Mus.musculus.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/Mus.musculus.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mus.musculus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mus.musculus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mus.musculus/meta.yaml>`_
 

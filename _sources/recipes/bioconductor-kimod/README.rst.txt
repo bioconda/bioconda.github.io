@@ -11,7 +11,7 @@ bioconductor-kimod
 
    A k\-tables approach to integrate multiple Omics\-Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/kimod.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/kimod.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-kimod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kimod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kimod/meta.yaml>`_
    :links: biotools: :biotools:`kimod`, doi: :doi:`10.1038/nmeth.3252`

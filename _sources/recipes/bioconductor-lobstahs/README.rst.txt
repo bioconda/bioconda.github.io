@@ -11,7 +11,7 @@ bioconductor-lobstahs
 
    Lipid and Oxylipin Biomarker Screening through Adduct Hierarchy Sequences
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/LOBSTAHS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/LOBSTAHS.html
    :license: GPL (>= 3) + file LICENSE
    :recipe: /`bioconductor-lobstahs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lobstahs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lobstahs/meta.yaml>`_
    :links: biotools: :biotools:`lobstahs`

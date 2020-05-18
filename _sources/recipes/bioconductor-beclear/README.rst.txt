@@ -11,7 +11,7 @@ bioconductor-beclear
 
    Correction of batch effects in DNA methylation data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BEclear.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BEclear.html
    :license: GPL-3
    :recipe: /`bioconductor-beclear <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beclear>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beclear/meta.yaml>`_
    :links: biotools: :biotools:`beclear`, doi: :doi:`10.1371/journal.pone.0159921`

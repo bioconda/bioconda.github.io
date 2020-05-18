@@ -11,7 +11,7 @@ bioconductor-rtu34cdf
 
    rtu34cdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rtu34cdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rtu34cdf.html
    :license: LGPL
    :recipe: /`bioconductor-rtu34cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtu34cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtu34cdf/meta.yaml>`_
 

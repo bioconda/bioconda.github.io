@@ -11,7 +11,7 @@ bioconductor-htqpcr
 
    Automated analysis of high\-throughput qPCR data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HTqPCR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HTqPCR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-htqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htqpcr/meta.yaml>`_
    :links: biotools: :biotools:`htqpcr`

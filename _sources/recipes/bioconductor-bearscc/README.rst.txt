@@ -11,7 +11,7 @@ bioconductor-bearscc
 
    BEARscc \(Bayesian ERCC Assesstment of Robustness of Single Cell Clusters\)
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BEARscc.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BEARscc.html
    :license: GPL-3
    :recipe: /`bioconductor-bearscc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bearscc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bearscc/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-sugarcanecdf
 
    sugarcanecdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/sugarcanecdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/sugarcanecdf.html
    :license: LGPL
    :recipe: /`bioconductor-sugarcanecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sugarcanecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sugarcanecdf/meta.yaml>`_
 

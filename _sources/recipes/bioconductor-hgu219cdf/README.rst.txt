@@ -11,7 +11,7 @@ bioconductor-hgu219cdf
 
    hgu219cdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu219cdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hgu219cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hgu219cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu219cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu219cdf/meta.yaml>`_
 

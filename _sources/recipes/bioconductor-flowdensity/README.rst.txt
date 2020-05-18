@@ -11,7 +11,7 @@ bioconductor-flowdensity
 
    Sequential Flow Cytometry Data Gating
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowDensity.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowDensity.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowdensity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowdensity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowdensity/meta.yaml>`_
    :links: biotools: :biotools:`flowdensity`, doi: :doi:`10.1093/bioinformatics/btu677`
@@ -23,13 +23,13 @@ bioconductor-flowdensity
 
    |downloads_bioconductor-flowdensity| |docker_bioconductor-flowdensity|
 
-   :versions: 1.20.0-0, 1.18.0-1, 1.16.1-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.6.0-0
+   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.1-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.6.0-0
    
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowviz: >=1.50.0,<1.51.0
-   :depends bioconductor-flowworkspace: >=3.34.0,<3.35.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowviz: >=1.52.0,<1.53.0
+   :depends bioconductor-flowworkspace: >=4.0.0,<4.1.0
    :depends libxml2: >=2.9.10,<2.10.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-car: 
    :depends r-gplots: 
    :depends r-rfoc: 

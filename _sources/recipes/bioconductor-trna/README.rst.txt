@@ -11,7 +11,7 @@ bioconductor-trna
 
    Analyzing tRNA sequences and structures
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/tRNA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/tRNA.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-trna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trna/meta.yaml>`_
 

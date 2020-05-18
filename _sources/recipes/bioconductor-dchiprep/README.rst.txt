@@ -11,7 +11,7 @@ bioconductor-dchiprep
 
    DChIPRep \- Analysis of chromatin modification ChIP\-Seq data with replication
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DChIPRep.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DChIPRep.html
    :license: MIT + file LICENCE
    :recipe: /`bioconductor-dchiprep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dchiprep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dchiprep/meta.yaml>`_
    :links: biotools: :biotools:`dchiprep`

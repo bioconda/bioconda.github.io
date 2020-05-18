@@ -11,7 +11,7 @@ bioconductor-ccrepe
 
    ccrepe\_and\_nc.score
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ccrepe.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ccrepe.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ccrepe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccrepe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccrepe/meta.yaml>`_
 

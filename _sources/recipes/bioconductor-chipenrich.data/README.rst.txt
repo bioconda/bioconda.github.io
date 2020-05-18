@@ -11,7 +11,7 @@ bioconductor-chipenrich.data
 
    Companion package to chipenrich
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/chipenrich.data.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/chipenrich.data.html
    :license: GPL-3
    :recipe: /`bioconductor-chipenrich.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich.data/meta.yaml>`_
 

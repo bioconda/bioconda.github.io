@@ -11,7 +11,7 @@ bioconductor-multihiccompare
 
    Normalize and detect differences between Hi\-C datasets when replicates of each experimental condition are available
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/multiHiCcompare.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/multiHiCcompare.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-multihiccompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multihiccompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multihiccompare/meta.yaml>`_
 

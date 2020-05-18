@@ -11,7 +11,7 @@ bioconductor-htratfocusprobe
 
    Probe sequence data for microarrays of type htratfocus
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/htratfocusprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/htratfocusprobe.html
    :license: LGPL
    :recipe: /`bioconductor-htratfocusprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htratfocusprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htratfocusprobe/meta.yaml>`_
 

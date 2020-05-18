@@ -11,7 +11,7 @@ bioconductor-cellmixs
 
    Evaluate Cellspecific Mixing
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CellMixS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CellMixS.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-cellmixs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmixs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmixs/meta.yaml>`_
 

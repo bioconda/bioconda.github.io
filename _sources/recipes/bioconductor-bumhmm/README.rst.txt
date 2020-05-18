@@ -11,7 +11,7 @@ bioconductor-bumhmm
 
    Computational pipeline for computing probability of modification from structure probing experiment data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BUMHMM.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BUMHMM.html
    :license: GPL-3
    :recipe: /`bioconductor-bumhmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bumhmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bumhmm/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-shinytandem
 
    Provides a GUI for rTANDEM
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/shinyTANDEM.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/shinyTANDEM.html
    :license: GPL-3
    :recipe: /`bioconductor-shinytandem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinytandem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinytandem/meta.yaml>`_
 

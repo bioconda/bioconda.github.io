@@ -11,7 +11,7 @@ bioconductor-bcrank
 
    Predicting binding site consensus from ranked DNA sequences
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BCRANK.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BCRANK.html
    :license: GPL-2
    :recipe: /`bioconductor-bcrank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcrank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcrank/meta.yaml>`_
    :links: biotools: :biotools:`bcrank`, doi: :doi:`10.1093/nar/gkp381`

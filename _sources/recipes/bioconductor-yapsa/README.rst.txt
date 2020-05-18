@@ -11,12 +11,12 @@ bioconductor-yapsa
 
    Yet Another Package for Signature Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/YAPSA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/YAPSA.html
    :license: GPL-3
    :recipe: /`bioconductor-yapsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yapsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yapsa/meta.yaml>`_
    :links: biotools: :biotools:`yapsa`, doi: :doi:`10.1038/nmeth.3252`
 
-   This package provides functions and routines useful in the analysis of somatic signatures \(cf. L. Alexandrov et al.\, Nature 2013\). In particular\, functions to perform a signature analysis with known signatures \(LCD \= linear combination decomposition\) and a signature analysis on stratified mutational catalogue \(SMC \= stratify mutational catalogue\) are provided.
+   This package provides functions and routines for supervised analyses of mutational signatures \(i.e.\, the signatures have to be known\, cf. L. Alexandrov et al.\, Nature 2013 and L. Alexandrov et al.\, Bioaxiv 2018\). In particular\, the family of functions LCD \(LCD \= linear combination decomposition\) can use optimal signature\-specific cutoffs which takes care of different detectability of the different signatures. Moreover\, the package provides different sets of mutational signatures\, including the COSMIC and PCAWG SNV signatures and the PCAWG Indel signatures\; the latter infering that with YAPSA\, the concept of supervised analysis of mutational signatures is extended to Indel signatures. YAPSA also provides confidence intervals as computed by profile likelihoods and can perform signature analysis on a stratified mutational catalogue \(SMC \= stratify mutational catalogue\) in order to analyze enrichment and depletion patterns for the signatures in different strata.
 
 
 .. conda:package:: bioconductor-yapsa

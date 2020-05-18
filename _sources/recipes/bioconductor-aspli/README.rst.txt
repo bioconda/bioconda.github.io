@@ -11,7 +11,7 @@ bioconductor-aspli
 
    Analysis of alternative splicing using RNA\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ASpli.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ASpli.html
    :license: GPL
    :recipe: /`bioconductor-aspli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aspli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aspli/meta.yaml>`_
    :links: biotools: :biotools:`aspli`, doi: :doi:`10.1038/nmeth.3252`

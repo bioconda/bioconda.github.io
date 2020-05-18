@@ -11,7 +11,7 @@ bioconductor-msa
 
    Multiple Sequence Alignment
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/msa.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/msa.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-msa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-fccac
 
    functional Canonical Correlation Analysis to evaluate Covariance between nucleic acid sequencing datasets
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/fCCAC.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/fCCAC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fccac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fccac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fccac/meta.yaml>`_
    :links: biotools: :biotools:`fccac`

@@ -11,7 +11,7 @@ bioconductor-cycle
 
    Significance of periodic expression pattern in time\-series data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cycle.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cycle.html
    :license: GPL-2
    :recipe: /`bioconductor-cycle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cycle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cycle/meta.yaml>`_
 

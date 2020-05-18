@@ -11,7 +11,7 @@ bioconductor-zebrafish.db
 
    Affymetrix zebrafish annotation data \(chip zebrafish\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/zebrafish.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/zebrafish.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-zebrafish.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafish.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafish.db/meta.yaml>`_
 

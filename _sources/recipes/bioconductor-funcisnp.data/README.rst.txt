@@ -11,7 +11,7 @@ bioconductor-funcisnp.data
 
    Various data sets for use with the FunciSNP package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/FunciSNP.data.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/FunciSNP.data.html
    :license: GPL-3
    :recipe: /`bioconductor-funcisnp.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp.data/meta.yaml>`_
 

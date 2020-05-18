@@ -11,7 +11,7 @@ bioconductor-clipper
 
    Gene Set Analysis Exploiting Pathway Topology
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/clipper.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/clipper.html
    :license: AGPL-3
    :recipe: /`bioconductor-clipper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clipper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clipper/meta.yaml>`_
 

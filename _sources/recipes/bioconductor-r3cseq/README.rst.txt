@@ -11,7 +11,7 @@ bioconductor-r3cseq
 
    Analysis of Chromosome Conformation Capture and Next\-generation Sequencing \(3C\-seq\)
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/r3Cseq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/r3Cseq.html
    :license: GPL-3
    :recipe: /`bioconductor-r3cseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cseq/meta.yaml>`_
    :links: biotools: :biotools:`r3cseq`, doi: :doi:`10.1093/nar/gkt373`

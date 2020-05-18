@@ -11,7 +11,7 @@ bioconductor-spectraltad
 
    SpectralTAD\: Hierarchical TAD detection using spectral clustering
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SpectralTAD.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SpectralTAD.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spectraltad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spectraltad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spectraltad/meta.yaml>`_
 

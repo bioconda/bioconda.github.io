@@ -11,7 +11,7 @@ bioconductor-chemminedrugs
 
    DrugBank data set
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ChemmineDrugs.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/ChemmineDrugs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chemminedrugs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemminedrugs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemminedrugs/meta.yaml>`_
 

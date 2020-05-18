@@ -11,7 +11,7 @@ bioconductor-prada
 
    Data analysis for cell\-based functional assays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/prada.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/prada.html
    :license: LGPL
    :recipe: /`bioconductor-prada <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prada>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prada/meta.yaml>`_
    :links: biotools: :biotools:`prada`, doi: :doi:`10.1038/nmeth.3252`

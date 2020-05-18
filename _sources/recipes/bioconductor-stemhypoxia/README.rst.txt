@@ -11,7 +11,7 @@ bioconductor-stemhypoxia
 
    Differentiation of Human Embryonic Stem Cells under Hypoxia gene expression dataset by Prado\-Lopez et al. \(2010\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/stemHypoxia.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/stemHypoxia.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-stemhypoxia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stemhypoxia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stemhypoxia/meta.yaml>`_
 

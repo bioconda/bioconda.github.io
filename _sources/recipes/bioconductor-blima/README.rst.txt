@@ -11,7 +11,7 @@ bioconductor-blima
 
    Tools for the preprocessing and analysis of the Illumina microarrays on the detector \(bead\) level
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/blima.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/blima.html
    :license: GPL-3
    :recipe: /`bioconductor-blima <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blima>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blima/meta.yaml>`_
    :links: biotools: :biotools:`blima`, doi: :doi:`10.1038/nmeth.3252`

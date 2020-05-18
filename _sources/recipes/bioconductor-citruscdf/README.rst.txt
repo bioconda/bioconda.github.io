@@ -11,7 +11,7 @@ bioconductor-citruscdf
 
    citruscdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/citruscdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/citruscdf.html
    :license: LGPL
    :recipe: /`bioconductor-citruscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citruscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citruscdf/meta.yaml>`_
 

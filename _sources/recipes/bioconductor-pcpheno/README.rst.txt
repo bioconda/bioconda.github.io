@@ -11,7 +11,7 @@ bioconductor-pcpheno
 
    Phenotypes and cellular organizational units
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PCpheno.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PCpheno.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pcpheno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcpheno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcpheno/meta.yaml>`_
    :links: biotools: :biotools:`pcpheno`, doi: :doi:`10.1038/nmeth.3252`

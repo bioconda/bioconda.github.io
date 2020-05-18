@@ -11,7 +11,7 @@ bioconductor-prince
 
    Predicting Interactomes from Co\-Elution
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PrInCE.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PrInCE.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-prince <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prince>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prince/meta.yaml>`_
 

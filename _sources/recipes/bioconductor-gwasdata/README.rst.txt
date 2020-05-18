@@ -11,7 +11,7 @@ bioconductor-gwasdata
 
    Data used in the examples and vignettes of the GWASTools package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/GWASdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/GWASdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gwasdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasdata/meta.yaml>`_
 

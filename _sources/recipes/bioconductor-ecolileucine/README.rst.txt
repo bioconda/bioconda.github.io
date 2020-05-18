@@ -11,7 +11,7 @@ bioconductor-ecolileucine
 
    Experimental data with Affymetrix E. coli chips
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ecoliLeucine.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/ecoliLeucine.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ecolileucine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolileucine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolileucine/meta.yaml>`_
 

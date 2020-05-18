@@ -11,7 +11,7 @@ bioconductor-chromheatmap
 
    Heat map plotting by genome coordinate
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ChromHeatMap.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ChromHeatMap.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chromheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromheatmap/meta.yaml>`_
    :links: biotools: :biotools:`chromheatmap`, doi: :doi:`10.1038/nmeth.3252`

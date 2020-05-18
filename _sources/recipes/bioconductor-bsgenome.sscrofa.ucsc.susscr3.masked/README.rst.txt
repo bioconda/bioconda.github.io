@@ -11,7 +11,7 @@ bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked
 
    Full masked genome sequences for Sus scrofa \(UCSC version susScr3\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr3.masked.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr3.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked/meta.yaml>`_
 

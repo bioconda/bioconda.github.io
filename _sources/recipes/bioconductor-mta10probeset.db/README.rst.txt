@@ -11,7 +11,7 @@ bioconductor-mta10probeset.db
 
    Affymetrix mta10 annotation data \(chip mta10probeset\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mta10probeset.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mta10probeset.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mta10probeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mta10probeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mta10probeset.db/meta.yaml>`_
 

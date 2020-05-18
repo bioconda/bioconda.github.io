@@ -11,7 +11,7 @@ bioconductor-simulatorz
 
    Simulator for Collections of Independent Genomic Data Sets
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/simulatorZ.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/simulatorZ.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-simulatorz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simulatorz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simulatorz/meta.yaml>`_
 

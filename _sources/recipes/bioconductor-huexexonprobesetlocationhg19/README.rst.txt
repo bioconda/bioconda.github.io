@@ -11,7 +11,7 @@ bioconductor-huexexonprobesetlocationhg19
 
    Exon\-level probeset chromosome location for microarrays of type HuEx
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/HuExExonProbesetLocationHg19.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/HuExExonProbesetLocationHg19.html
    :license: LGPL
    :recipe: /`bioconductor-huexexonprobesetlocationhg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocationhg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocationhg19/meta.yaml>`_
 

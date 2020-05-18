@@ -11,7 +11,7 @@ bioconductor-rhesusprobe
 
    Probe sequence data for microarrays of type rhesus
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rhesusprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rhesusprobe.html
    :license: LGPL
    :recipe: /`bioconductor-rhesusprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhesusprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhesusprobe/meta.yaml>`_
 

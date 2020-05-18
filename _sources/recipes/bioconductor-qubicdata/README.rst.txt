@@ -11,7 +11,7 @@ bioconductor-qubicdata
 
    Data employed in the vignette of the QUBIC package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/QUBICdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/QUBICdata.html
    :license: Unlimited | file LICENSE
    :recipe: /`bioconductor-qubicdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qubicdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qubicdata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-aldex2
 
    Analysis Of Differential Abundance Taking Sample Variation Into Account
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ALDEx2.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ALDEx2.html
    :license: file LICENSE
    :recipe: /`bioconductor-aldex2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aldex2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aldex2/meta.yaml>`_
    :links: biotools: :biotools:`aldex2`

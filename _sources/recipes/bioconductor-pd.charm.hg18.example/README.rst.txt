@@ -11,7 +11,7 @@ bioconductor-pd.charm.hg18.example
 
    Platform Design Info for NimbleGen charm\_hg18\_example
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.charm.hg18.example.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/pd.charm.hg18.example.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.charm.hg18.example <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.charm.hg18.example>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.charm.hg18.example/meta.yaml>`_
 

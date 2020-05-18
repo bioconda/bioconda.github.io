@@ -11,7 +11,7 @@ bioconductor-pathprint
 
    Pathway fingerprinting for analysis of gene expression arrays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pathprint.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/pathprint.html
    :license: GPL
    :recipe: /`bioconductor-pathprint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathprint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathprint/meta.yaml>`_
 

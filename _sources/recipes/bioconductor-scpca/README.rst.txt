@@ -11,7 +11,7 @@ bioconductor-scpca
 
    Sparse Contrastive Principal Component Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scPCA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/scPCA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scpca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scpca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scpca/meta.yaml>`_
 

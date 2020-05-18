@@ -11,7 +11,7 @@ bioconductor-oct4
 
    Conditional knockdown of OCT4 in mouse ESCs
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/oct4.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/oct4.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-oct4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oct4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oct4/meta.yaml>`_
 

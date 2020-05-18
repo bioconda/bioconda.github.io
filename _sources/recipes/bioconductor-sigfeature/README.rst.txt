@@ -11,7 +11,7 @@ bioconductor-sigfeature
 
    sigFeature\: Significant feature selection using SVM\-RFE \& t\-statistic
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sigFeature.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sigFeature.html
    :license: GPL
    :recipe: /`bioconductor-sigfeature <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigfeature>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigfeature/meta.yaml>`_
 

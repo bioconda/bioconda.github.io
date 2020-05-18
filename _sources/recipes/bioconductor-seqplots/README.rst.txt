@@ -11,7 +11,7 @@ bioconductor-seqplots
 
    An interactive tool for visualizing NGS signals and sequence motif densities along genomic features using average plots and heatmaps
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/seqplots.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/seqplots.html
    :license: GPL-3
    :recipe: /`bioconductor-seqplots <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqplots>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqplots/meta.yaml>`_
 

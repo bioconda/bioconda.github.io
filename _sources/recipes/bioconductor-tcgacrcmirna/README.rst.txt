@@ -11,7 +11,7 @@ bioconductor-tcgacrcmirna
 
    TCGA CRC 450 miRNA dataset
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TCGAcrcmiRNA.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/TCGAcrcmiRNA.html
    :license: GPL-2
    :recipe: /`bioconductor-tcgacrcmirna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgacrcmirna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgacrcmirna/meta.yaml>`_
 

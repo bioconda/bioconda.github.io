@@ -11,8 +11,8 @@ bioconductor-mimosa
 
    Mixture Models for Single\-Cell Assays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MIMOSA.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MIMOSA.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-mimosa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimosa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimosa/meta.yaml>`_
 
    Modeling count data using Dirichlet\-multinomial and beta\-binomial mixtures with applications to single\-cell assays.

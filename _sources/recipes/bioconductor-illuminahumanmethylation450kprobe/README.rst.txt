@@ -11,7 +11,7 @@ bioconductor-illuminahumanmethylation450kprobe
 
    Probe sequence data for microarrays of type IlluminaHumanMethylation450k
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/IlluminaHumanMethylation450kprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/IlluminaHumanMethylation450kprobe.html
    :license: LGPL
    :recipe: /`bioconductor-illuminahumanmethylation450kprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kprobe/meta.yaml>`_
 

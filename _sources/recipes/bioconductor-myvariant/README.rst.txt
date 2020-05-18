@@ -11,7 +11,7 @@ bioconductor-myvariant
 
    Accesses MyVariant.info variant query and annotation services
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/myvariant.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/myvariant.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-myvariant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-myvariant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-myvariant/meta.yaml>`_
    :links: biotools: :biotools:`myvariant`, doi: :doi:`10.1101/035667`

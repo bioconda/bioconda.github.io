@@ -11,7 +11,7 @@ bioconductor-prodata
 
    SELDI\-TOF data of Breast cancer samples
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ProData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/ProData.html
    :license: GPL
    :recipe: /`bioconductor-prodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prodata/meta.yaml>`_
 

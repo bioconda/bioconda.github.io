@@ -11,7 +11,7 @@ bioconductor-vitisviniferacdf
 
    vitisviniferacdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/vitisviniferacdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/vitisviniferacdf.html
    :license: LGPL
    :recipe: /`bioconductor-vitisviniferacdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vitisviniferacdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vitisviniferacdf/meta.yaml>`_
 

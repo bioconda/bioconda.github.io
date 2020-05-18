@@ -11,7 +11,7 @@ bioconductor-prostatecancercamcap
 
    Prostate Cancer Data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/prostateCancerCamcap.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/prostateCancerCamcap.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prostatecancercamcap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancercamcap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancercamcap/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-genegeneinter
 
    Tools for Testing Gene\-Gene Interaction at the Gene Level
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GeneGeneInteR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GeneGeneInteR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genegeneinter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter/meta.yaml>`_
 

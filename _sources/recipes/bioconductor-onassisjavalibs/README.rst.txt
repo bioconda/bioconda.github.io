@@ -11,7 +11,7 @@ bioconductor-onassisjavalibs
 
    OnassisJavaLibs\, java libraries to run conceptmapper and semantic similarity
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/OnassisJavaLibs.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/OnassisJavaLibs.html
    :license: GPL-2
    :recipe: /`bioconductor-onassisjavalibs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onassisjavalibs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onassisjavalibs/meta.yaml>`_
 

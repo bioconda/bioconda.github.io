@@ -11,11 +11,11 @@ bioconductor-mbpcr
 
    Bayesian Piecewise Constant Regression for DNA copy number estimation
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mBPCR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/mBPCR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mbpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbpcr/meta.yaml>`_
 
-   Estimates the DNA copy number profile using mBPCR to detect regions with copy number changes
+   It contains functions for estimating the DNA copy number profile using mBPCR with the aim of detecting regions with copy number changes.
 
 
 .. conda:package:: bioconductor-mbpcr

@@ -11,7 +11,7 @@ bioconductor-donapllp2013
 
    Supplementary data package for Dona et al. \(2013\) containing example images and tables
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/DonaPLLP2013.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/DonaPLLP2013.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-donapllp2013 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-donapllp2013>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-donapllp2013/meta.yaml>`_
 

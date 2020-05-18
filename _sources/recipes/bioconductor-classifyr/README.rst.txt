@@ -11,7 +11,7 @@ bioconductor-classifyr
 
    A framework for cross\-validated classification problems\, with applications to differential variability and differential distribution testing
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ClassifyR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ClassifyR.html
    :license: GPL-3
    :recipe: /`bioconductor-classifyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-classifyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-classifyr/meta.yaml>`_
    :links: biotools: :biotools:`classifyr`

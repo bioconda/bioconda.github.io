@@ -9,13 +9,13 @@ bioconductor-cbaf
 .. conda:recipe:: bioconductor-cbaf
    :replaces_section_title:
 
-   Automated functions for comparing various data from cbioportal.org
+   Automated functions for comparing various omic data from cbioportal.org
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cbaf.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cbaf.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cbaf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbaf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbaf/meta.yaml>`_
 
-   This package contains functions that allow analysing and comparing various gene groups from different cancers\/cancer subgroups easily. So far\, it is compatible with RNA\-seq\, microRNA\-seq\, microarray and methylation datasets that are stored on cbioportal.org.
+   This package contains functions that allow analysing and comparing omic data across various cancers\/cancer subgroups easily. So far\, it is compatible with RNA\-seq\, microRNA\-seq\, microarray and methylation datasets that are stored on cbioportal.org.
 
 
 .. conda:package:: bioconductor-cbaf

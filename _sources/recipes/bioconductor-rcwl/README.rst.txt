@@ -11,7 +11,7 @@ bioconductor-rcwl
 
    Wrap Command Tools and Pipelines Using CWL
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rcwl.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Rcwl.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-rcwl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcwl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcwl/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-cpvsnp
 
    Gene set analysis methods for SNP association p\-values that lie in genes in given gene sets
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cpvSNP.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cpvSNP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cpvsnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cpvsnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cpvsnp/meta.yaml>`_
    :links: biotools: :biotools:`cpvsnp`, doi: :doi:`10.1038/nmeth.3252`

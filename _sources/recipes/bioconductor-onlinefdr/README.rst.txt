@@ -11,7 +11,7 @@ bioconductor-onlinefdr
 
    Online error control
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/onlineFDR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/onlineFDR.html
    :license: GPL-3
    :recipe: /`bioconductor-onlinefdr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onlinefdr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onlinefdr/meta.yaml>`_
 

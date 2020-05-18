@@ -11,7 +11,7 @@ bioconductor-huo22.db
 
    FHCRC Genomics Shared Resource HuO22 Annotation Data \(HuO22\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/HuO22.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/HuO22.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-huo22.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huo22.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huo22.db/meta.yaml>`_
 

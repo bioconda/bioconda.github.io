@@ -11,7 +11,7 @@ bioconductor-ccpromise
 
    PROMISE analysis with Canonical Correlation for Two Forms of High Dimensional Genetic Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CCPROMISE.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CCPROMISE.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ccpromise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccpromise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccpromise/meta.yaml>`_
 

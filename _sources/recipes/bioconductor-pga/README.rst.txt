@@ -11,7 +11,7 @@ bioconductor-pga
 
    An package for identification of novel peptides by customized database derived from RNA\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PGA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PGA.html
    :license: GPL-2
    :recipe: /`bioconductor-pga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pga/meta.yaml>`_
 

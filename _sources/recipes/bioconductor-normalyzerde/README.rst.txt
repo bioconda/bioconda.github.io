@@ -11,7 +11,7 @@ bioconductor-normalyzerde
 
    Evaluation of normalization methods and calculation of differential expression analysis statistics
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/NormalyzerDE.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/NormalyzerDE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-normalyzerde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normalyzerde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normalyzerde/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-hdcytodata
 
    Collection of high\-dimensional cytometry benchmark datasets in Bioconductor object formats
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HDCytoData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/HDCytoData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hdcytodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata/meta.yaml>`_
 
@@ -22,13 +22,13 @@ bioconductor-hdcytodata
 
    |downloads_bioconductor-hdcytodata| |docker_bioconductor-hdcytodata|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.1-0
+   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.1-0
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

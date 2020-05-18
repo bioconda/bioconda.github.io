@@ -11,7 +11,7 @@ bioconductor-idiogram
 
    idiogram
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/idiogram.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/idiogram.html
    :license: GPL-2
    :recipe: /`bioconductor-idiogram <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idiogram>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idiogram/meta.yaml>`_
    :links: biotools: :biotools:`idiogram`, doi: :doi:`10.1038/nmeth.3252`

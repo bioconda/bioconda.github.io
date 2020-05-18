@@ -11,7 +11,7 @@ bioconductor-bader
 
    Bayesian Analysis of Differential Expression in RNA Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BADER.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BADER.html
    :license: GPL-2
    :recipe: /`bioconductor-bader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bader/meta.yaml>`_
    :links: biotools: :biotools:`bader`, doi: :doi:`10.1038/nmeth.3252`

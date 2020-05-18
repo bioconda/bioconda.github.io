@@ -9,13 +9,13 @@ bioconductor-sparsematrixstats
 .. conda:recipe:: bioconductor-sparsematrixstats
    :replaces_section_title:
 
-   High performance functions for row and column operations on sparse matrices. For example\: col \/ rowMeans2\, col \/ rowMedians\, col \/ rowVars etc. Currently\, the optimizations are limited to data in the column sparse format. This package is inspired by the matrixStats package by Henrik Bengtsson.
+   Summary Statistics for Rows and Columns of Sparse Matrices
 
    :homepage: https://bioconductor.org/packages/3.11/bioc/html/sparseMatrixStats.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sparsematrixstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsematrixstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsematrixstats/meta.yaml>`_
 
-   
+   High performance functions for row and column operations on sparse matrices. For example\: col \/ rowMeans2\, col \/ rowMedians\, col \/ rowVars etc. Currently\, the optimizations are limited to data in the column sparse format. This package is inspired by the matrixStats package by Henrik Bengtsson.
 
 
 .. conda:package:: bioconductor-sparsematrixstats

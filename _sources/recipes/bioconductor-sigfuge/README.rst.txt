@@ -11,7 +11,7 @@ bioconductor-sigfuge
 
    SigFuge
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SigFuge.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SigFuge.html
    :license: GPL-3
    :recipe: /`bioconductor-sigfuge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigfuge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigfuge/meta.yaml>`_
    :links: biotools: :biotools:`sigfuge`, doi: :doi:`10.1093/nar/gku521`

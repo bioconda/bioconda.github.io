@@ -11,7 +11,7 @@ bioconductor-pd.bovine
 
    Platform Design Info for The Manufacturer\'s Name Bovine
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.bovine.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/pd.bovine.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.bovine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.bovine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.bovine/meta.yaml>`_
 

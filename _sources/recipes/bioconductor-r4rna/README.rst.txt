@@ -11,7 +11,7 @@ bioconductor-r4rna
 
    An R package for RNA visualization and analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/R4RNA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/R4RNA.html
    :license: GPL-3
    :recipe: /`bioconductor-r4rna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r4rna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r4rna/meta.yaml>`_
    :links: biotools: :biotools:`r4rna`

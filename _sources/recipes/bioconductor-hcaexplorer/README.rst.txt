@@ -11,7 +11,7 @@ bioconductor-hcaexplorer
 
    Browse the Human Cell Atlas data portal
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HCAExplorer.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HCAExplorer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hcaexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcaexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcaexplorer/meta.yaml>`_
 

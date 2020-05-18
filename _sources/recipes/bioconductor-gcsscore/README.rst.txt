@@ -11,7 +11,7 @@ bioconductor-gcsscore
 
    GCSscore\: an R package for microarray analysis for Affymetrix\/Thermo Fisher arrays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GCSscore.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GCSscore.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-gcsscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcsscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcsscore/meta.yaml>`_
 

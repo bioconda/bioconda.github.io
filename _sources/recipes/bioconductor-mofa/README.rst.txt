@@ -11,7 +11,7 @@ bioconductor-mofa
 
    Multi\-Omics Factor Analysis \(MOFA\)
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MOFA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MOFA.html
    :license: LGPL-3 | file LICENSE
    :recipe: /`bioconductor-mofa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofa/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-vulcan
 
    VirtUaL ChIP\-Seq data Analysis using Networks
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/vulcan.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/vulcan.html
    :license: LGPL-3
    :recipe: /`bioconductor-vulcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcan/meta.yaml>`_
 

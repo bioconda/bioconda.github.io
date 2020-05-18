@@ -11,7 +11,7 @@ bioconductor-pchicdata
 
    Promoter Capture Hi\-C data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/PCHiCdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/PCHiCdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pchicdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pchicdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pchicdata/meta.yaml>`_
 

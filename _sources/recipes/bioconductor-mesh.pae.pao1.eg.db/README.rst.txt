@@ -11,7 +11,7 @@ bioconductor-mesh.pae.pao1.eg.db
 
    Mapping table for Pseudomonas aeruginosa PAO1 Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Pae.PAO1.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Pae.PAO1.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.pae.pao1.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.pae.pao1.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.pae.pao1.eg.db/meta.yaml>`_
 

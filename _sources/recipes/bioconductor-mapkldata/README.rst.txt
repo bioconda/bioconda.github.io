@@ -11,7 +11,7 @@ bioconductor-mapkldata
 
    Gene expression data for testing of the package mAPKL.
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/mAPKLData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/mAPKLData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mapkldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkldata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-sugarcaneprobe
 
    Probe sequence data for microarrays of type sugarcane
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/sugarcaneprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/sugarcaneprobe.html
    :license: LGPL
    :recipe: /`bioconductor-sugarcaneprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sugarcaneprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sugarcaneprobe/meta.yaml>`_
 

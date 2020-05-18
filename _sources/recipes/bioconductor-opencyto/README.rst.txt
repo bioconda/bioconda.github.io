@@ -11,7 +11,7 @@ bioconductor-opencyto
 
    Hierarchical Gating Pipeline for flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/openCyto.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/openCyto.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-opencyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opencyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opencyto/meta.yaml>`_
 
@@ -22,21 +22,23 @@ bioconductor-opencyto
 
    |downloads_bioconductor-opencyto| |docker_bioconductor-opencyto|
 
-   :versions: 1.24.0-0, 1.22.2-0, 1.20.1-0
+   :versions: 2.0.0-0, 1.24.0-0, 1.22.2-0, 1.20.1-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-flowclust: >=3.24.0,<3.25.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowstats: >=3.44.0,<3.45.0
-   :depends bioconductor-flowviz: >=1.50.0,<1.51.0
-   :depends bioconductor-flowworkspace: >=3.34.0,<3.35.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-ncdfflow: >=2.32.0,<2.33.0
-   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-flowclust: >=3.26.0,<3.27.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowstats: >=4.0.0,<4.1.0
+   :depends bioconductor-flowviz: >=1.52.0,<1.53.0
+   :depends bioconductor-flowworkspace: >=4.0.0,<4.1.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-ncdfflow: >=2.34.0,<2.35.0
+   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.5.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends libstdcxx-ng: >=7.5.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-clue: 
    :depends r-data.table: 
    :depends r-gtools: 

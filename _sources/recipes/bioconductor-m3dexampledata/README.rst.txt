@@ -11,7 +11,7 @@ bioconductor-m3dexampledata
 
    M3Drop Example Data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/M3DExampleData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/M3DExampleData.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-m3dexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3dexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3dexampledata/meta.yaml>`_
 

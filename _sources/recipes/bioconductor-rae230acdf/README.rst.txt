@@ -11,7 +11,7 @@ bioconductor-rae230acdf
 
    rae230acdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rae230acdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rae230acdf.html
    :license: LGPL
    :recipe: /`bioconductor-rae230acdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230acdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230acdf/meta.yaml>`_
 

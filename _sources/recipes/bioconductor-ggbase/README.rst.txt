@@ -11,7 +11,7 @@ bioconductor-ggbase
 
    GGBase infrastructure for genetics of gene expression package GGtools
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GGBase.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GGBase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggbase/meta.yaml>`_
    :links: biotools: :biotools:`ggbase`, doi: :doi:`10.1038/nmeth.3252`

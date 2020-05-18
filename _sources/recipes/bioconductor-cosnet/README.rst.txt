@@ -11,7 +11,7 @@ bioconductor-cosnet
 
    Cost Sensitive Network for node label prediction on graphs with highly unbalanced labelings
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/COSNet.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/COSNet.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cosnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosnet/meta.yaml>`_
 

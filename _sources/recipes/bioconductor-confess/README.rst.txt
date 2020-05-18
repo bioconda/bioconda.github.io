@@ -11,7 +11,7 @@ bioconductor-confess
 
    Cell OrderiNg by FluorEScence Signal
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CONFESS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CONFESS.html
    :license: GPL-2
    :recipe: /`bioconductor-confess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confess/meta.yaml>`_
 
@@ -22,17 +22,17 @@ bioconductor-confess
 
    |downloads_bioconductor-confess| |docker_bioconductor-confess|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.1-0
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.1-0
    
-   :depends bioconductor-ebimage: >=4.28.0,<4.29.0
-   :depends bioconductor-flowclust: >=3.24.0,<3.25.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowmeans: >=1.46.0,<1.47.0
-   :depends bioconductor-flowmerge: >=2.34.0,<2.35.0
-   :depends bioconductor-flowpeaks: >=1.32.0,<1.33.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-samspectral: >=1.40.0,<1.41.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
+   :depends bioconductor-flowclust: >=3.26.0,<3.27.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowmeans: >=1.48.0,<1.49.0
+   :depends bioconductor-flowmerge: >=2.36.0,<2.37.0
+   :depends bioconductor-flowpeaks: >=1.34.0,<1.35.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-samspectral: >=1.42.0,<1.43.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-changepoint: 
    :depends r-cluster: 
    :depends r-contrast: 

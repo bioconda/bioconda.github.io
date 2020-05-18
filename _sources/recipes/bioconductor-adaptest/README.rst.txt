@@ -11,7 +11,7 @@ bioconductor-adaptest
 
    Data\-Adaptive Statistics for High\-Dimensional Multiple Testing
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/adaptest.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/adaptest.html
    :license: GPL-2
    :recipe: /`bioconductor-adaptest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adaptest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adaptest/meta.yaml>`_
 

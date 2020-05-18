@@ -11,7 +11,7 @@ bioconductor-nugohs1a520180.db
 
    Affymetrix nugohs1a520180 annotation data \(chip nugohs1a520180\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/nugohs1a520180.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/nugohs1a520180.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-nugohs1a520180.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180.db/meta.yaml>`_
 

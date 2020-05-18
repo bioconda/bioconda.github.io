@@ -11,7 +11,7 @@ bioconductor-universalmotif
 
    Import\, Modify\, and Export Motifs with R
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/universalmotif.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/universalmotif.html
    :license: GPL-3
    :recipe: /`bioconductor-universalmotif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-universalmotif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-universalmotif/meta.yaml>`_
 

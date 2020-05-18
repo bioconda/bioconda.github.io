@@ -11,7 +11,7 @@ bioconductor-pd.rae230b
 
    Platform Design Info for The Manufacturer\'s Name RAE230B
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/pd.rae230b.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/pd.rae230b.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.rae230b <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rae230b>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rae230b/meta.yaml>`_
 

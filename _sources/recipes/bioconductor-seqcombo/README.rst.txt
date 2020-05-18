@@ -11,7 +11,7 @@ bioconductor-seqcombo
 
    Visualization Tool for Sequence Recombination and Reassortment
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/seqcombo.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/seqcombo.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-seqcombo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcombo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqcombo/meta.yaml>`_
 

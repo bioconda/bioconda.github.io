@@ -11,7 +11,7 @@ bioconductor-flowfit
 
    Estimate proliferation in cell\-tracking dye studies
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowFit.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowFit.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowfit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfit/meta.yaml>`_
 

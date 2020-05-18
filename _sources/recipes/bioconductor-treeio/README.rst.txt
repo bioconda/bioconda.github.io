@@ -11,7 +11,7 @@ bioconductor-treeio
 
    Base Classes and Functions for Phylogenetic Tree Input and Output
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/treeio.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/treeio.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-treeio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treeio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treeio/meta.yaml>`_
 

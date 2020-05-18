@@ -9,10 +9,10 @@ r-lme4qtl
 .. conda:recipe:: r-lme4qtl
    :replaces_section_title:
 
-   
+   Linear mixed models \(lme4\) with flexible covariance structure for qtl and association analysis.
 
-   :homepage: 
-   :license: 
+   :homepage: https://CRAN.R-project.org/package=lme4qtl
+   :license: GPL3 / GPL (>= 3)
    :recipe: /`r-lme4qtl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-lme4qtl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-lme4qtl/meta.yaml>`_
 
    

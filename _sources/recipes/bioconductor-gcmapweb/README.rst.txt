@@ -11,7 +11,7 @@ bioconductor-gcmapweb
 
    A web interface for gene\-set enrichment analyses
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gCMAPWeb.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gCMAPWeb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gcmapweb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcmapweb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcmapweb/meta.yaml>`_
 

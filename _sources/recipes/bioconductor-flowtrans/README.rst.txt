@@ -11,7 +11,7 @@ bioconductor-flowtrans
 
    Parameter Optimization for Flow Cytometry Data Transformation
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowTrans.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowTrans.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowtrans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtrans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtrans/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-biscuiteer
 
    Convenience Functions for Biscuit
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biscuiteer.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/biscuiteer.html
    :license: GPL-3
    :recipe: /`bioconductor-biscuiteer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biscuiteer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biscuiteer/meta.yaml>`_
 

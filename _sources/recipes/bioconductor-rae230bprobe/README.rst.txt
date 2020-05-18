@@ -11,7 +11,7 @@ bioconductor-rae230bprobe
 
    Probe sequence data for microarrays of type rae230b
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rae230bprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rae230bprobe.html
    :license: LGPL
    :recipe: /`bioconductor-rae230bprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230bprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230bprobe/meta.yaml>`_
 

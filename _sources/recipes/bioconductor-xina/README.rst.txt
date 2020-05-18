@@ -9,13 +9,13 @@ bioconductor-xina
 .. conda:recipe:: bioconductor-xina
    :replaces_section_title:
 
-   Multiplexes isobaric mass tagged\-based kinetics data for network analysis
+   Multiplexes Isobaric Mass Tagged\-based Kinetics Data for Network Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/XINA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/XINA.html
    :license: GPL-3
    :recipe: /`bioconductor-xina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xina/meta.yaml>`_
 
-   An intuitive R package simplifies network analyses output from multiplexed high\-dimensional proteomics\/trascriptomics kinetics data.
+   The aim of XINA is to determine which proteins exhibit similar patterns within and across experimental conditions\, since proteins with co\-abundance patterns may have common molecular functions. XINA imports multiple datasets\, tags dataset in silico\, and combines the data for subsequent subgrouping into multiple clusters. The result is a single output depicting the variation across all conditions. XINA\, not only extracts coabundance profiles within and across experiments\, but also incorporates protein\-protein interaction databases and integrative resources such as KEGG to infer interactors and molecular functions\, respectively\, and produces intuitive graphical outputs.
 
 
 .. conda:package:: bioconductor-xina

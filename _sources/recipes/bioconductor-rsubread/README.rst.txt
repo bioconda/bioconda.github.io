@@ -11,7 +11,7 @@ bioconductor-rsubread
 
    Subread Sequence Alignment and Counting for R
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rsubread.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Rsubread.html
    :license: GPL-3
    :recipe: /`bioconductor-rsubread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread/meta.yaml>`_
    :links: biotools: :biotools:`rsubread`

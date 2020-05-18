@@ -11,7 +11,7 @@ bioconductor-vega
 
    An R package for copy number data segmentation
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Vega.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Vega.html
    :license: GPL-2
    :recipe: /`bioconductor-vega <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vega>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vega/meta.yaml>`_
    :links: biotools: :biotools:`vega`, doi: :doi:`10.1093/bioinformatics/btq586`

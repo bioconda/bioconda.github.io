@@ -11,7 +11,7 @@ bioconductor-maser
 
    Mapping Alternative Splicing Events to pRoteins
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/maser.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/maser.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-maser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maser/meta.yaml>`_
 

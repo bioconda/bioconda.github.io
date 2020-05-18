@@ -11,7 +11,7 @@ bioconductor-spikein
 
    Affymetrix Spike\-In Experiment Data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SpikeIn.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/SpikeIn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spikein <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikein>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikein/meta.yaml>`_
 

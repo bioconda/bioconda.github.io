@@ -11,7 +11,7 @@ bioconductor-sdams
 
    Differential Abundant Analysis for Metabolomics and Proteomics Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SDAMS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SDAMS.html
    :license: GPL
    :recipe: /`bioconductor-sdams <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sdams>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sdams/meta.yaml>`_
 

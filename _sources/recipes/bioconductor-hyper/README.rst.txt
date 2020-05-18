@@ -11,7 +11,7 @@ bioconductor-hyper
 
    Hyper Enrichment
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/hypeR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/hypeR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-hyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hyper/meta.yaml>`_
 

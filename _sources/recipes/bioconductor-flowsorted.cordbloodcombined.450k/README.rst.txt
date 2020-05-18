@@ -11,7 +11,7 @@ bioconductor-flowsorted.cordbloodcombined.450k
 
    Illumina 450k\/EPIC data on FACS and MACS umbilical blood cells
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/FlowSorted.CordBloodCombined.450k.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/FlowSorted.CordBloodCombined.450k.html
    :license: GPL-3
    :recipe: /`bioconductor-flowsorted.cordbloodcombined.450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordbloodcombined.450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordbloodcombined.450k/meta.yaml>`_
 
@@ -22,16 +22,16 @@ bioconductor-flowsorted.cordbloodcombined.450k
 
    |downloads_bioconductor-flowsorted.cordbloodcombined.450k| |docker_bioconductor-flowsorted.cordbloodcombined.450k|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions: 1.4.1-0, 1.2.0-0, 1.0.0-1
    
-   :depends bioconductor-experimenthub: >=1.12.0,<1.13.0
-   :depends bioconductor-flowsorted.blood.epic: >=1.4.0,<1.5.0
+   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
+   :depends bioconductor-flowsorted.blood.epic: >=1.6.0,<1.7.0
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-minfi: >=1.32.0,<1.33.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends curl: >=7.65.3,<8.0a0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-minfi: >=1.34.0,<1.35.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

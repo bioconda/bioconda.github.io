@@ -11,7 +11,7 @@ bioconductor-attract
 
    Methods to Find the Gene Expression Modules that Represent the Drivers of Kauffman\'s Attractor Landscape
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/attract.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/attract.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-attract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-attract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-attract/meta.yaml>`_
 

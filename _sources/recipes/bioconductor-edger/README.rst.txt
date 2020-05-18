@@ -11,12 +11,12 @@ bioconductor-edger
 
    Empirical Analysis of Digital Gene Expression Data in R
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/edgeR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/edgeR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-edger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger/meta.yaml>`_
    :links: biotools: :biotools:`edger`
 
-   Differential expression analysis of RNA\-seq expression profiles with biological replication. Implements a range of statistical methodology based on the negative binomial distributions\, including empirical Bayes estimation\, exact tests\, generalized linear models and quasi\-likelihood tests. As well as RNA\-seq\, it be applied to differential signal analysis of other types of genomic data that produce counts\, including ChIP\-seq\, Bisulfite\-seq\, SAGE and CAGE.
+   Differential expression analysis of RNA\-seq expression profiles with biological replication. Implements a range of statistical methodology based on the negative binomial distributions\, including empirical Bayes estimation\, exact tests\, generalized linear models and quasi\-likelihood tests. As well as RNA\-seq\, it be applied to differential signal analysis of other types of genomic data that produce read counts\, including ChIP\-seq\, ATAC\-seq\, Bisulfite\-seq\, SAGE and CAGE.
 
 
 .. conda:package:: bioconductor-edger

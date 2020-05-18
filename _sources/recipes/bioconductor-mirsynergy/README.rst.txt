@@ -11,7 +11,7 @@ bioconductor-mirsynergy
 
    Mirsynergy
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Mirsynergy.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Mirsynergy.html
    :license: GPL-2
    :recipe: /`bioconductor-mirsynergy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsynergy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsynergy/meta.yaml>`_
    :links: biotools: :biotools:`mirsynergy`

@@ -11,7 +11,7 @@ bioconductor-flowstats
 
    Statistical methods for the analysis of flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowStats.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowStats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowstats/meta.yaml>`_
 
@@ -22,15 +22,15 @@ bioconductor-flowstats
 
    |downloads_bioconductor-flowstats| |docker_bioconductor-flowstats|
 
-   :versions: 3.44.0-0, 3.42.0-1, 3.40.1-0
+   :versions: 4.0.0-0, 3.44.0-0, 3.42.0-1, 3.40.1-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowviz: >=1.50.0,<1.51.0
-   :depends bioconductor-flowworkspace: >=3.34.0,<3.35.0
-   :depends bioconductor-ncdfflow: >=2.32.0,<2.33.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowviz: >=1.52.0,<1.53.0
+   :depends bioconductor-flowworkspace: >=4.0.0,<4.1.0
+   :depends bioconductor-ncdfflow: >=2.34.0,<2.35.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-cluster: 
    :depends r-fda: >=2.2.6
    :depends r-kernsmooth: 

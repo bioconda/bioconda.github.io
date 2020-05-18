@@ -11,7 +11,7 @@ bioconductor-cellmapperdata
 
    Pre\-processed data for use with the CellMapper package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CellMapperData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/CellMapperData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cellmapperdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmapperdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmapperdata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-ramwas
 
    Fast Methylome\-Wide Association Study Pipeline for Enrichment Platforms
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ramwas.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ramwas.html
    :license: LGPL-3
    :recipe: /`bioconductor-ramwas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramwas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramwas/meta.yaml>`_
 

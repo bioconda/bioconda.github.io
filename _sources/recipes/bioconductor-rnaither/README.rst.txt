@@ -11,7 +11,7 @@ bioconductor-rnaither
 
    Statistical analysis of high\-throughput RNAi screens
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RNAither.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RNAither.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnaither <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaither>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaither/meta.yaml>`_
    :links: biotools: :biotools:`rnaither`, doi: :doi:`10.1093/bioinformatics/btp014`

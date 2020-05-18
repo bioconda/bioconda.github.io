@@ -11,7 +11,7 @@ bioconductor-aracne.networks
 
    ARACNe\-inferred gene networks from TCGA tumor datasets
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/aracne.networks.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/aracne.networks.html
    :license: file LICENSE
    :recipe: /`bioconductor-aracne.networks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aracne.networks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aracne.networks/meta.yaml>`_
 

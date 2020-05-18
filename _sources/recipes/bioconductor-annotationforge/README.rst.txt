@@ -11,7 +11,7 @@ bioconductor-annotationforge
 
    Tools for building SQLite\-based annotation data packages
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/AnnotationForge.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/AnnotationForge.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-annotationforge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationforge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationforge/meta.yaml>`_
    :links: biotools: :biotools:`annotationforge`, doi: :doi:`10.1038/nmeth.3252`

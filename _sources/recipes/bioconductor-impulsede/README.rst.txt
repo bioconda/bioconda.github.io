@@ -11,7 +11,7 @@ bioconductor-impulsede
 
    Detection of DE genes in time series data using impulse models
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ImpulseDE.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ImpulseDE.html
    :license: GPL-3
    :recipe: /`bioconductor-impulsede <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impulsede>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impulsede/meta.yaml>`_
    :links: biotools: :biotools:`impulsede`, doi: :doi:`10.1093/bioinformatics/btw665`

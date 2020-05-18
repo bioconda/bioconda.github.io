@@ -11,7 +11,7 @@ bioconductor-org.pt.eg.db
 
    Genome wide annotation for Chimp
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/org.Pt.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/org.Pt.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.pt.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.pt.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.pt.eg.db/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-epihet
 
    Determining Epigenetic Heterogeneity from Bisulfite Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/epihet.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/epihet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epihet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epihet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epihet/meta.yaml>`_
 

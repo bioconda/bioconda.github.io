@@ -11,7 +11,7 @@ bioconductor-bprmeth
 
    Model higher\-order methylation profiles
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BPRMeth.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BPRMeth.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-bprmeth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bprmeth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bprmeth/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-camthc
 
    Convex Analysis of Mixtures for Tissue Heterogeneity Characterization
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CAMTHC.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CAMTHC.html
    :license: GPL-2
    :recipe: /`bioconductor-camthc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camthc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camthc/meta.yaml>`_
 

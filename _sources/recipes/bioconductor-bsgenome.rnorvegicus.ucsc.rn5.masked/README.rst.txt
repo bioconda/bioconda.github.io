@@ -11,7 +11,7 @@ bioconductor-bsgenome.rnorvegicus.ucsc.rn5.masked
 
    Full masked genome sequences for Rattus norvegicus \(UCSC version rn5\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn5.masked.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn5.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.rnorvegicus.ucsc.rn5.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.rnorvegicus.ucsc.rn5.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.rnorvegicus.ucsc.rn5.masked/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-illuminahumanv2beadid.db
 
    Illumina HumanWGv2 annotation data \(chip illuminaHumanv2BeadID\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/illuminaHumanv2BeadID.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/illuminaHumanv2BeadID.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanv2beadid.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanv2beadid.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanv2beadid.db/meta.yaml>`_
 

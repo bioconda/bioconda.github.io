@@ -11,7 +11,7 @@ bioconductor-pathvar
 
    Methods to Find Pathways with Significantly Different Variability
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pathVar.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/pathVar.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-pathvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathvar/meta.yaml>`_
    :links: biotools: :biotools:`pathvar`, doi: :doi:`10.7717/peerj.3334`

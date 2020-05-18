@@ -11,7 +11,7 @@ bioconductor-piano
 
    Platform for integrative analysis of omics data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/piano.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/piano.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-piano <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-piano>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-piano/meta.yaml>`_
    :links: biotools: :biotools:`piano`

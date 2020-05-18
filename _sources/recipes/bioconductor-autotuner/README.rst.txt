@@ -11,7 +11,7 @@ bioconductor-autotuner
 
    Automated parameter selection for untargeted metabolomics data processing
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Autotuner.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Autotuner.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-autotuner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-autotuner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-autotuner/meta.yaml>`_
 

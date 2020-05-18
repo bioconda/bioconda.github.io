@@ -11,7 +11,7 @@ bioconductor-mmpalatemirna
 
    Murine Palate miRNA Expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MmPalateMiRNA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MmPalateMiRNA.html
    :license: GPL-3
    :recipe: /`bioconductor-mmpalatemirna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmpalatemirna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmpalatemirna/meta.yaml>`_
 

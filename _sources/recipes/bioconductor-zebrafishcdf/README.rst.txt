@@ -11,7 +11,7 @@ bioconductor-zebrafishcdf
 
    zebrafishcdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/zebrafishcdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/zebrafishcdf.html
    :license: LGPL
    :recipe: /`bioconductor-zebrafishcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishcdf/meta.yaml>`_
 

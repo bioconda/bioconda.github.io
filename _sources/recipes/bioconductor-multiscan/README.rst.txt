@@ -11,7 +11,7 @@ bioconductor-multiscan
 
    R package for combining multiple scans
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/multiscan.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/multiscan.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-multiscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiscan/meta.yaml>`_
    :links: biotools: :biotools:`multiscan`, doi: :doi:`10.1038/nmeth.3252`

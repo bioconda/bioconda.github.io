@@ -11,7 +11,7 @@ bioconductor-bifet
 
    Bias\-free Footprint Enrichment Test
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiFET.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BiFET.html
    :license: GPL-3
    :recipe: /`bioconductor-bifet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bifet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bifet/meta.yaml>`_
 

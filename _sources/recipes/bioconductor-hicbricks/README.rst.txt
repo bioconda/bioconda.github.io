@@ -11,7 +11,7 @@ bioconductor-hicbricks
 
    Framework for Storing and Accessing Hi\-C Data Through HDF Files
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HiCBricks.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HiCBricks.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hicbricks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicbricks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicbricks/meta.yaml>`_
 

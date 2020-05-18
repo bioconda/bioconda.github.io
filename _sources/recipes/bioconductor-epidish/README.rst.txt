@@ -11,7 +11,7 @@ bioconductor-epidish
 
    Epigenetic Dissection of Intra\-Sample\-Heterogeneity
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EpiDISH.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EpiDISH.html
    :license: GPL-2
    :recipe: /`bioconductor-epidish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epidish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epidish/meta.yaml>`_
 

@@ -11,11 +11,11 @@ bioconductor-tcgabiolinksgui.data
 
    Data for the TCGAbiolinksGUI package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TCGAbiolinksGUI.data.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/TCGAbiolinksGUI.data.html
    :license: GPL-3
    :recipe: /`bioconductor-tcgabiolinksgui.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgabiolinksgui.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgabiolinksgui.data/meta.yaml>`_
 
-   Supporting data for the TCGAbiolinksGUI package. It includes the following objects\: glioma.gcimp.model\, glioma.idhwt.model glioma.idhmut.model\,glioma.idh.mode\, probes2rm\, maf.tumor\,GDCdisease.
+   Supporting data for the TCGAbiolinksGUI package.
 
 
 .. conda:package:: bioconductor-tcgabiolinksgui.data

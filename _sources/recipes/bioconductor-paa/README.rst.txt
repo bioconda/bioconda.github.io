@@ -11,7 +11,7 @@ bioconductor-paa
 
    PAA \(Protein Array Analyzer\)
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PAA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PAA.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-paa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paa/meta.yaml>`_
 

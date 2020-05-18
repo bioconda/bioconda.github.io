@@ -11,7 +11,7 @@ bioconductor-mergeomics
 
    Integrative network analysis of omics data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Mergeomics.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Mergeomics.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mergeomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mergeomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mergeomics/meta.yaml>`_
    :links: biotools: :biotools:`mergeomics`, doi: :doi:`10.1101/036012`

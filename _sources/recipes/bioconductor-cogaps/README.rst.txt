@@ -11,7 +11,7 @@ bioconductor-cogaps
 
    Coordinated Gene Activity in Pattern Sets
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CoGAPS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CoGAPS.html
    :license: GPL (==2)
    :recipe: /`bioconductor-cogaps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogaps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogaps/meta.yaml>`_
 

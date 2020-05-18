@@ -11,7 +11,7 @@ bioconductor-plgem
 
    Detect differential expression in microarray and proteomics datasets with the Power Law Global Error Model \(PLGEM\)
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/plgem.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/plgem.html
    :license: GPL-2
    :recipe: /`bioconductor-plgem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plgem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plgem/meta.yaml>`_
    :links: biotools: :biotools:`plgem`

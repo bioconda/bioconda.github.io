@@ -11,7 +11,7 @@ bioconductor-profileplyr
 
    Visualization and annotation of read signal over genomic ranges with profileplyr
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/profileplyr.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/profileplyr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-profileplyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profileplyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profileplyr/meta.yaml>`_
 

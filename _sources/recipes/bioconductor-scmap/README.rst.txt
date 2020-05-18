@@ -11,7 +11,7 @@ bioconductor-scmap
 
    A tool for unsupervised projection of single cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scmap.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/scmap.html
    :license: GPL-3
    :recipe: /`bioconductor-scmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmap/meta.yaml>`_
 

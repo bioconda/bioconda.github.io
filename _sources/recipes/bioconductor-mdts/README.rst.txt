@@ -11,7 +11,7 @@ bioconductor-mdts
 
    Detection of de novo deletion in targeted sequencing trios
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MDTS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MDTS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mdts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdts/meta.yaml>`_
 

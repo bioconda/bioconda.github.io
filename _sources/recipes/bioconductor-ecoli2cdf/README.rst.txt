@@ -11,7 +11,7 @@ bioconductor-ecoli2cdf
 
    ecoli2cdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ecoli2cdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/ecoli2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-ecoli2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2cdf/meta.yaml>`_
 

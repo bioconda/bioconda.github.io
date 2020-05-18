@@ -11,7 +11,7 @@ bioconductor-mafdb.gnomad.r3.0.grch38
 
    Minor allele frequency data from gnomAD release 3.0 for GRCh38
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MafDb.gnomAD.r3.0.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MafDb.gnomAD.r3.0.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.gnomad.r3.0.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.gnomad.r3.0.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.gnomad.r3.0.grch38/meta.yaml>`_
 
@@ -22,8 +22,16 @@ bioconductor-mafdb.gnomad.r3.0.grch38
 
    |downloads_bioconductor-mafdb.gnomad.r3.0.grch38| |docker_bioconductor-mafdb.gnomad.r3.0.grch38|
 
-   :versions: 
+   :versions: 3.11.0-0
    
+   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
+   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
+   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-genomicscores: >=2.0.0,<2.1.0
+   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :requirements:
 
    .. rubric:: Installation

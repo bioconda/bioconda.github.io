@@ -11,7 +11,7 @@ bioconductor-oncomix
 
    Identifying Genes Overexpressed in Subsets of Tumors from Tumor\-Normal mRNA Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/oncomix.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/oncomix.html
    :license: GPL-3
    :recipe: /`bioconductor-oncomix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncomix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncomix/meta.yaml>`_
 

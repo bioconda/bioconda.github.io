@@ -11,7 +11,7 @@ bioconductor-qpcrnorm
 
    Data\-driven normalization strategies for high\-throughput qPCR data.
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/qpcrNorm.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/qpcrNorm.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-qpcrnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpcrnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpcrnorm/meta.yaml>`_
    :links: biotools: :biotools:`qpcrnorm`, doi: :doi:`10.1186/1471-2105-10-110`

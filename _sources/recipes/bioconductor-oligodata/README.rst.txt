@@ -11,7 +11,7 @@ bioconductor-oligodata
 
    Dataset samples for the oligo package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/oligoData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/oligoData.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-oligodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligodata/meta.yaml>`_
 

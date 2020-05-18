@@ -11,7 +11,7 @@ bioconductor-starr
 
    Simple tiling array analysis of Affymetrix ChIP\-chip data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Starr.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Starr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-starr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starr/meta.yaml>`_
    :links: biotools: :biotools:`starr`, doi: :doi:`10.1186/1471-2105-11-194`

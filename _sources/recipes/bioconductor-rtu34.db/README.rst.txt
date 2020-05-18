@@ -11,7 +11,7 @@ bioconductor-rtu34.db
 
    Affymetrix Rat Toxicology U34 Array annotation data \(chip rtu34\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rtu34.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rtu34.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rtu34.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtu34.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtu34.db/meta.yaml>`_
 

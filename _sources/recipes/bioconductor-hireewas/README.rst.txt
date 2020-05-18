@@ -11,7 +11,7 @@ bioconductor-hireewas
 
    Detection of cell\-type\-specific risk\-CpG sites in epigenome\-wide association studies
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HIREewas.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HIREewas.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hireewas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireewas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireewas/meta.yaml>`_
 

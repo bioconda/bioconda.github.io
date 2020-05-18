@@ -11,7 +11,7 @@ bioconductor-meshr
 
    Tools for conducting enrichment analysis of MeSH
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/meshr.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/meshr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-meshr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshr/meta.yaml>`_
 
@@ -22,11 +22,11 @@ bioconductor-meshr
 
    |downloads_bioconductor-meshr| |docker_bioconductor-meshr|
 
-   :versions: 1.22.0-0, 1.20.0-1, 1.18.0-1, 1.18.0-0
+   :versions: 1.24.1-0, 1.22.0-0, 1.20.0-1, 1.18.0-1, 1.18.0-0
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-category: >=2.52.0,<2.53.0
-   :depends bioconductor-cummerbund: >=2.28.0,<2.29.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-category: >=2.54.0,<2.55.0
+   :depends bioconductor-cummerbund: >=2.30.0,<2.31.0
    :depends bioconductor-mesh.aca.eg.db: >=1.13.0,<1.14.0
    :depends bioconductor-mesh.aor.db: >=1.13.0,<1.14.0
    :depends bioconductor-mesh.bsu.168.eg.db: >=1.13.0,<1.14.0
@@ -34,10 +34,10 @@ bioconductor-meshr
    :depends bioconductor-mesh.hsa.eg.db: >=1.13.0,<1.14.0
    :depends bioconductor-mesh.pcr.db: >=1.13.0,<1.14.0
    :depends bioconductor-mesh.syn.eg.db: >=1.13.0,<1.14.0
-   :depends bioconductor-meshdbi: >=1.22.0,<1.23.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-meshdbi: >=1.24.0,<1.25.0
+   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-fdrtool: 
    :depends r-rsqlite: 
    :requirements:

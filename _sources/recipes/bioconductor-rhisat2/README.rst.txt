@@ -11,7 +11,7 @@ bioconductor-rhisat2
 
    R Wrapper for HISAT2 Aligner
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rhisat2.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Rhisat2.html
    :license: GPL-3
    :recipe: /`bioconductor-rhisat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhisat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhisat2/meta.yaml>`_
 

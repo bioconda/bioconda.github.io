@@ -11,8 +11,8 @@ bioconductor-flowworkspace
 
    Infrastructure for representing and interacting with gated and ungated cytometry data sets.
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowWorkspace.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowWorkspace.html
+   :license: file LICENSE
    :recipe: /`bioconductor-flowworkspace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspace/meta.yaml>`_
    :links: biotools: :biotools:`flowworkspace`, doi: :doi:`10.1186/1471-2105-13-252`
 
@@ -23,34 +23,37 @@ bioconductor-flowworkspace
 
    |downloads_bioconductor-flowworkspace| |docker_bioconductor-flowworkspace|
 
-   :versions: 3.34.0-0, 3.32.0-1, 3.30.2-0, 3.30.1-0, 3.28.2-0, 3.26.2-0, 3.24.4-0
+   :versions: 4.0.1-0, 3.34.0-0, 3.32.0-1, 3.30.2-0, 3.30.1-0, 3.28.2-0, 3.26.2-0, 3.24.4-0
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-cytolib: >=1.8.0,<1.9.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowviz: >=1.50.0,<1.51.0
-   :depends bioconductor-graph: >=1.64.0,<1.65.0
-   :depends bioconductor-ncdfflow: >=2.32.0,<2.33.0
-   :depends bioconductor-rbgl: >=1.62.0,<1.63.0
-   :depends bioconductor-rgraphviz: >=2.30.0,<2.31.0
-   :depends bioconductor-rprotobuflib: >=1.8.0,<1.9.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: >=2.48.0,<2.49.0
+   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
+   :depends bioconductor-cytolib: >=2.0.0,<2.1.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-graph: >=1.66.0,<1.67.0
+   :depends bioconductor-ncdfflow: >=2.34.0,<2.35.0
+   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
+   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
+   :depends bioconductor-rhdf5lib: >=1.10.0,<1.11.0
+   :depends bioconductor-rprotobuflib: >=2.0.0,<2.1.0
+   :depends libblas: >=3.8.0,<4.0a0
+   :depends libgcc-ng: >=7.5.0
+   :depends liblapack: >=3.8.0,<3.9.0a0
+   :depends libstdcxx-ng: >=7.5.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-bh: >=1.62.0-1
    :depends r-data.table: 
    :depends r-digest: 
    :depends r-dplyr: 
-   :depends r-gridextra: 
+   :depends r-ggplot2: 
    :depends r-lattice: 
    :depends r-latticeextra: 
    :depends r-matrixstats: 
-   :depends r-rcolorbrewer: 
    :depends r-rcpp: 
-   :depends r-rcppparallel: 
+   :depends r-rcpparmadillo: 
+   :depends r-rcppparallel: >=4.4.2-1
    :depends r-scales: 
    :depends r-stringr: 
+   :depends r-xml: 
    :requirements:
 
    .. rubric:: Installation

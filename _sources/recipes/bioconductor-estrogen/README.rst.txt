@@ -11,7 +11,7 @@ bioconductor-estrogen
 
    Microarray dataset that can be used as example for 2x2 factorial designs
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/estrogen.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/estrogen.html
    :license: LGPL
    :recipe: /`bioconductor-estrogen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-estrogen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-estrogen/meta.yaml>`_
 

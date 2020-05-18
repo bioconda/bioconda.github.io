@@ -11,7 +11,7 @@ bioconductor-biosvd
 
    Package for high\-throughput data processing\, outlier detection\, noise removal and dynamic modeling
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/biosvd.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/biosvd.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biosvd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biosvd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biosvd/meta.yaml>`_
    :links: biotools: :biotools:`biosvd`, doi: :doi:`10.1038/nmeth.3252`

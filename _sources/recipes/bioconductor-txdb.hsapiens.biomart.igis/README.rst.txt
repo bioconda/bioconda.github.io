@@ -11,7 +11,7 @@ bioconductor-txdb.hsapiens.biomart.igis
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/TxDb.Hsapiens.BioMart.igis.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/TxDb.Hsapiens.BioMart.igis.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.hsapiens.biomart.igis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.biomart.igis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.biomart.igis/meta.yaml>`_
 

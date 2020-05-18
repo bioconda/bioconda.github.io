@@ -11,7 +11,7 @@ bioconductor-mtseekerdata
 
    Supporting Data for the MTseeker Package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MTseekerData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/MTseekerData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mtseekerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtseekerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtseekerdata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-pwomics
 
    Pathway\-based data integration of omics data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pwOmics.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/pwOmics.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-pwomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwomics/meta.yaml>`_
    :links: biotools: :biotools:`pwomics`, doi: :doi:`10.1093/bioinformatics/btv323`

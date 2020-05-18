@@ -11,11 +11,11 @@ bioconductor-lipidr
 
    Data Mining and Analysis of Lipidomics Datasets
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/lipidr.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/lipidr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lipidr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lipidr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lipidr/meta.yaml>`_
 
-   lipidr an easy\-to\-use R package implementing a complete workflow for downstream analysis of targeted and untargeted lipidomics data. lipidomics results can be imported into lipidr as a numerical matrix or a Skyline export\, allowing integration into current analysis frameworks. Data mining of lipidomics datasets is enabled through integration with Metabolomics Workbench API. lipidr allows data inspection\, normalization\, univariate and multivariate analysis\, displaying informative visualizations. lipidr also implements a novel Lipid Set Enrichment Analysis \(LSEA\)\, harnessing molecular information such as lipid class\, chain length and unsaturation.
+   lipidr an easy\-to\-use R package implementing a complete workflow for downstream analysis of targeted and untargeted lipidomics data. lipidomics results can be imported into lipidr as a numerical matrix or a Skyline export\, allowing integration into current analysis frameworks. Data mining of lipidomics datasets is enabled through integration with Metabolomics Workbench API. lipidr allows data inspection\, normalization\, univariate and multivariate analysis\, displaying informative visualizations. lipidr also implements a novel Lipid Set Enrichment Analysis \(LSEA\)\, harnessing molecular information such as lipid class\, total chain length and unsaturation.
 
 
 .. conda:package:: bioconductor-lipidr

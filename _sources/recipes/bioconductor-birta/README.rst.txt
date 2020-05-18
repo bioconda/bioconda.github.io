@@ -11,7 +11,7 @@ bioconductor-birta
 
    Bayesian Inference of Regulation of Transcriptional Activity
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/birta.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/birta.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-birta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-birta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-birta/meta.yaml>`_
    :links: biotools: :biotools:`birta`, doi: :doi:`10.1093/bioinformatics/bts257`

@@ -11,7 +11,7 @@ bioconductor-empiricalbrownsmethod
 
    Uses Brown\'s method to combine p\-values from dependent tests
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EmpiricalBrownsMethod.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EmpiricalBrownsMethod.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-empiricalbrownsmethod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-empiricalbrownsmethod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-empiricalbrownsmethod/meta.yaml>`_
    :links: biotools: :biotools:`empiricalbrownsmethod`, doi: :doi:`10.1093/bioinformatics/btw438`

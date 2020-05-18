@@ -11,7 +11,7 @@ bioconductor-fission
 
    RangedSummarizedExperiment for time course RNA\-Seq of fission yeast in response to stress\, by Leong et al.\, Nat Commun 2014.
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/fission.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/fission.html
    :license: LGPL
    :recipe: /`bioconductor-fission <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fission>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fission/meta.yaml>`_
 

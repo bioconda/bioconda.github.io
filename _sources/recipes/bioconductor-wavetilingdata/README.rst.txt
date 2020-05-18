@@ -11,7 +11,7 @@ bioconductor-wavetilingdata
 
    waveTiling Example Data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/waveTilingData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/waveTilingData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-wavetilingdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavetilingdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavetilingdata/meta.yaml>`_
 

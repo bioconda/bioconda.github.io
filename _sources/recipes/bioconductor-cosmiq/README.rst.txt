@@ -11,7 +11,7 @@ bioconductor-cosmiq
 
    cosmiq \- COmbining Single Masses Into Quantities
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cosmiq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cosmiq.html
    :license: GPL-3
    :recipe: /`bioconductor-cosmiq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosmiq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosmiq/meta.yaml>`_
    :links: biotools: :biotools:`cosmiq`, doi: :doi:`10.5167/uzh-107947`

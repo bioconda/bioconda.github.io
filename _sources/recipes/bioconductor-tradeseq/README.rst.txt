@@ -11,11 +11,11 @@ bioconductor-tradeseq
 
    trajectory\-based differential expression analysis for sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/tradeSeq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/tradeSeq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tradeseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tradeseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tradeseq/meta.yaml>`_
 
-   tradeSeq provides a flexible method for finding genes that are differentially expressed along one or multiple trajectories\, using a variety of tests suited to answer questions of interest\, e.g. the discovery of genes that whose expression is associated with pseudotime\, or who are differentially expressed \(in a specific region\) along the trajectory. It fits a generalized additive model \(GAM\) for each gene\, and performs inference on the parameters of the GAM.
+   tradeSeq provides a flexible method for fitting regression models that can be used to find genes that are differentially expressed along one or multiple lineages in a trajectory. Based on the fitted models\, it uses a variety of tests suited to answer different questions of interest\, e.g. the discovery of genes for which expression is associated with pseudotime\, or which are differentially expressed \(in a specific region\) along the trajectory. It fits a negative binomial generalized additive model \(GAM\) for each gene\, and performs inference on the parameters of the GAM.
 
 
 .. conda:package:: bioconductor-tradeseq

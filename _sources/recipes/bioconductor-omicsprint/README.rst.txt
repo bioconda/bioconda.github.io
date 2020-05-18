@@ -11,7 +11,7 @@ bioconductor-omicsprint
 
    Cross omic genetic fingerprinting
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/omicsPrint.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/omicsPrint.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-omicsprint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicsprint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicsprint/meta.yaml>`_
 

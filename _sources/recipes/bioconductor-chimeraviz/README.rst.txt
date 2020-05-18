@@ -11,7 +11,7 @@ bioconductor-chimeraviz
 
    Visualization tools for gene fusions
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/chimeraviz.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/chimeraviz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chimeraviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimeraviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimeraviz/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-italicsdata
 
    ITALICSData
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ITALICSData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/ITALICSData.html
    :license: GPL
    :recipe: /`bioconductor-italicsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italicsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italicsdata/meta.yaml>`_
 

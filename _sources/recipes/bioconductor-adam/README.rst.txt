@@ -11,7 +11,7 @@ bioconductor-adam
 
    ADAM\: Activity and Diversity Analysis Module
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ADAM.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ADAM.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-adam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adam/meta.yaml>`_
 

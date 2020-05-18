@@ -11,7 +11,7 @@ bioconductor-phyloprofile
 
    PhyloProfile
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PhyloProfile.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PhyloProfile.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-phyloprofile <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phyloprofile>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phyloprofile/meta.yaml>`_
 

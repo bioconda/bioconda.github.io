@@ -11,7 +11,7 @@ bioconductor-breastcancerupp
 
    Gene expression dataset published by Miller et al. \[2005\] \(UPP\).
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/breastCancerUPP.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/breastCancerUPP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancerupp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancerupp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancerupp/meta.yaml>`_
 

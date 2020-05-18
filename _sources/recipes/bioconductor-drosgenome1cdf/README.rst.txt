@@ -11,7 +11,7 @@ bioconductor-drosgenome1cdf
 
    drosgenome1cdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/drosgenome1cdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/drosgenome1cdf.html
    :license: LGPL
    :recipe: /`bioconductor-drosgenome1cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drosgenome1cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drosgenome1cdf/meta.yaml>`_
 

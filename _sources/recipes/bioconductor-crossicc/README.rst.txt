@@ -11,7 +11,7 @@ bioconductor-crossicc
 
    An Interactive Consensus Clustering Framework for Multi\-platform Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CrossICC.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CrossICC.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-crossicc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crossicc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crossicc/meta.yaml>`_
 

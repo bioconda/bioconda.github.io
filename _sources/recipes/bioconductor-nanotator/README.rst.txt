@@ -11,7 +11,7 @@ bioconductor-nanotator
 
    nanotatoR\: next generation structural variant annotation and classification
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/nanotatoR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/nanotatoR.html
    :license: file LICENSE
    :recipe: /`bioconductor-nanotator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanotator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanotator/meta.yaml>`_
 

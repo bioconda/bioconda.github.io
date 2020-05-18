@@ -11,11 +11,11 @@ bioconductor-smad
 
    Statistical Modelling of AP\-MS Data \(SMAD\)
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SMAD.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SMAD.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-smad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smad/meta.yaml>`_
 
-   Assigning probability scores to prey proteins captured in affinity purification mass spectrometry \(AP\-MS\) expriments to infer protein\- protein interactions. The output would facilitate non\-specific background removal as contaminants are commonly found in AP\-MS data.
+   Assigning probability scores to prey proteins captured in affinity purification mass spectrometry \(AP\-MS\) expriments to infer protein\-protein interactions. The output would facilitate non\-specific background removal as contaminants are commonly found in AP\-MS data.
 
 
 .. conda:package:: bioconductor-smad

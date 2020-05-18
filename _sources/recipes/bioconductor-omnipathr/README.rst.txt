@@ -11,7 +11,7 @@ bioconductor-omnipathr
 
    Import Omnipath network
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OmnipathR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/OmnipathR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omnipathr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr/meta.yaml>`_
 

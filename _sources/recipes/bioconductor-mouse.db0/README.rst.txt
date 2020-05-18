@@ -11,7 +11,7 @@ bioconductor-mouse.db0
 
    Base Level Annotation databases for mouse
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mouse.db0.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mouse.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mouse.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse.db0/meta.yaml>`_
 

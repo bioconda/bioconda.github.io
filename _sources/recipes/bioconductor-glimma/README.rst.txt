@@ -11,7 +11,7 @@ bioconductor-glimma
 
    Interactive HTML graphics
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Glimma.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Glimma.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-glimma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glimma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glimma/meta.yaml>`_
    :links: biotools: :biotools:`glimma`, doi: :doi:`10.1101/096107`

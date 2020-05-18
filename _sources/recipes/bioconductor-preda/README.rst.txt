@@ -11,7 +11,7 @@ bioconductor-preda
 
    Position Related Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PREDA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PREDA.html
    :license: GPL-2
    :recipe: /`bioconductor-preda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-preda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-preda/meta.yaml>`_
    :links: biotools: :biotools:`preda`, doi: :doi:`10.1093/bioinformatics/btr404`

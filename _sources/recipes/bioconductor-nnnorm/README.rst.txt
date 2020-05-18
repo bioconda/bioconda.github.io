@@ -11,7 +11,7 @@ bioconductor-nnnorm
 
    Spatial and intensity based normalization of cDNA microarray data based on robust neural nets
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/nnNorm.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/nnNorm.html
    :license: LGPL
    :recipe: /`bioconductor-nnnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nnnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nnnorm/meta.yaml>`_
    :links: biotools: :biotools:`nnnorm`, doi: :doi:`10.1093/bioinformatics/bti397`

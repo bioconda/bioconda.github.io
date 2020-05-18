@@ -11,7 +11,7 @@ bioconductor-occugene
 
    Functions for Multinomial Occupancy Distribution
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/occugene.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/occugene.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-occugene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-occugene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-occugene/meta.yaml>`_
    :links: biotools: :biotools:`occugene`, doi: :doi:`10.1007/978-1-59745-321-9_22`

@@ -11,7 +11,7 @@ bioconductor-martini
 
    GWAS Incorporating Networks
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/martini.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/martini.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-martini <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-martini>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-martini/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-soggi
 
    Visualise ChIP\-seq\, MNase\-seq and motif occurrence as aggregate plots Summarised Over Grouped Genomic Intervals
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/soGGi.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/soGGi.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-soggi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soggi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soggi/meta.yaml>`_
    :links: biotools: :biotools:`soggi`, doi: :doi:`10.1038/nmeth.3252`

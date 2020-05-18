@@ -11,7 +11,7 @@ bioconductor-rama
 
    Robust Analysis of MicroArrays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rama.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/rama.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rama <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rama>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rama/meta.yaml>`_
    :links: biotools: :biotools:`rama`, doi: :doi:`10.1198/016214505000001096`

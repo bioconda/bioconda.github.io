@@ -11,7 +11,7 @@ bioconductor-targetsearch
 
    A package for the analysis of GC\-MS metabolite profiling data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TargetSearch.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TargetSearch.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-targetsearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearch/meta.yaml>`_
 

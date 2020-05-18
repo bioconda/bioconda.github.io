@@ -11,7 +11,7 @@ bioconductor-mnem
 
    Mixture Nested Effects Models
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mnem.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/mnem.html
    :license: GPL-3
    :recipe: /`bioconductor-mnem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mnem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mnem/meta.yaml>`_
 

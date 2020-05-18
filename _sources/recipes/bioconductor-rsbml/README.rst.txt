@@ -11,7 +11,7 @@ bioconductor-rsbml
 
    R support for SBML\, using libsbml
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rsbml.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/rsbml.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rsbml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsbml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsbml/meta.yaml>`_
 

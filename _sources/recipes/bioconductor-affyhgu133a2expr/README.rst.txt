@@ -11,7 +11,7 @@ bioconductor-affyhgu133a2expr
 
    Affymetrix Human Genome U133A 2.0 Array \(GPL571\) Expression Data Package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/Affyhgu133A2Expr.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/Affyhgu133A2Expr.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-affyhgu133a2expr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133a2expr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyhgu133a2expr/meta.yaml>`_
 

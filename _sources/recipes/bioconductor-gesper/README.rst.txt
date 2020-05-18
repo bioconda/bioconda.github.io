@@ -11,7 +11,7 @@ bioconductor-gesper
 
    Gene\-Specific Phenotype EstimatoR
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gespeR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gespeR.html
    :license: GPL-3
    :recipe: /`bioconductor-gesper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gesper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gesper/meta.yaml>`_
 

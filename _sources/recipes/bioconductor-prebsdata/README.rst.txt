@@ -11,7 +11,7 @@ bioconductor-prebsdata
 
    Data for \'prebs\' package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/prebsdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/prebsdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prebsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebsdata/meta.yaml>`_
 

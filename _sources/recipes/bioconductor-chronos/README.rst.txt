@@ -11,7 +11,7 @@ bioconductor-chronos
 
    CHRONOS\: A time\-varying method for microRNA\-mediated sub\-pathway enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CHRONOS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CHRONOS.html
    :license: GPL-2
    :recipe: /`bioconductor-chronos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chronos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chronos/meta.yaml>`_
    :links: biotools: :biotools:`CHRONOS`

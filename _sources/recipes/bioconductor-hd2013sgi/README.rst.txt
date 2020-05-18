@@ -11,7 +11,7 @@ bioconductor-hd2013sgi
 
    Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/HD2013SGI.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/HD2013SGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hd2013sgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hd2013sgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hd2013sgi/meta.yaml>`_
 

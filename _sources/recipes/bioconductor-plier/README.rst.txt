@@ -11,7 +11,7 @@ bioconductor-plier
 
    Implements the Affymetrix PLIER algorithm
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/plier.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/plier.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-plier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plier/meta.yaml>`_
    :links: biotools: :biotools:`plier`, doi: :doi:`10.1038/nmeth.3252`

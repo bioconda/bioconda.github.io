@@ -11,7 +11,7 @@ bioconductor-mitoodedata
 
    Experimental data associated to the paper \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\" \(submitted\).
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/mitoODEdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/mitoODEdata.html
    :license: LGPL
    :recipe: /`bioconductor-mitoodedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoodedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoodedata/meta.yaml>`_
 

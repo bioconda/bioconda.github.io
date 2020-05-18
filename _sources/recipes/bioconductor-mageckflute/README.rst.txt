@@ -9,13 +9,13 @@ bioconductor-mageckflute
 .. conda:recipe:: bioconductor-mageckflute
    :replaces_section_title:
 
-   Integrative analysis pipeline for pooled CRISPR functional genetic screens
+   Integrative Analysis Pipeline for Pooled CRISPR Functional Genetic Screens
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MAGeCKFlute.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MAGeCKFlute.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-mageckflute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mageckflute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mageckflute/meta.yaml>`_
 
-   MAGeCKFlute is designed to surporting downstream analysis\, utilizing the gene summary data provided through MAGeCK or MAGeCK\-VISPR. Quality control\, normalization\, and screen hit identification for CRISPR screen data are performed in pipeline. Identified hits within the pipeline are categorized based on experimental design\, and are subsequently interpreted by functional enrichment analysis.
+   CRISPR \(clustered regularly interspaced short palindrome repeats\) coupled with nuclease Cas9 \(CRISPR\/Cas9\) screens represent a promising technology to systematically evaluate gene functions. Data analysis for CRISPR\/Cas9 screens is a critical process that includes identifying screen hits and exploring biological functions for these hits in downstream analysis. We have previously developed two algorithms\, MAGeCK and MAGeCK\-VISPR\, to analyze CRISPR\/Cas9 screen data in various scenarios. These two algorithms allow users to perform quality control\, read count generation and normalization\, and calculate beta score to evaluate gene selection performance. In downstream analysis\, the biological functional analysis is required for understanding biological functions of these identified genes with different screening purposes. Here\, We developed MAGeCKFlute for supporting downstream analysis. MAGeCKFlute provides several strategies to remove potential biases within sgRNA\-level read counts and gene\-level beta scores. The downstream analysis with the package includes identifying essential\, non\-essential\, and target\-associated genes\, and performing biological functional category analysis\, pathway enrichment analysis and protein complex enrichment analysis of these genes. The package also visualizes genes in multiple ways to benefit users exploring screening data. Collectively\, MAGeCKFlute enables accurate identification of essential\, non\-essential\, and targeted genes\, as well as their related biological functions. This vignette explains the use of the package and demonstrates typical workflows.
 
 
 .. conda:package:: bioconductor-mageckflute

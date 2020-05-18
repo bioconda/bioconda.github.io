@@ -11,7 +11,7 @@ bioconductor-lumiratidmapping
 
    Illumina Identifier mapping for Rat
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/lumiRatIDMapping.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/lumiRatIDMapping.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-lumiratidmapping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumiratidmapping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumiratidmapping/meta.yaml>`_
 

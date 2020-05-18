@@ -11,7 +11,7 @@ bioconductor-hgu133afrmavecs
 
    Vectors used by frma for microarrays of type hgu133a
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu133afrmavecs.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hgu133afrmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hgu133afrmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133afrmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133afrmavecs/meta.yaml>`_
 

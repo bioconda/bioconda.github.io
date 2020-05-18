@@ -11,7 +11,7 @@ bioconductor-rbioinf
 
    RBioinf
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RBioinf.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RBioinf.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rbioinf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbioinf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbioinf/meta.yaml>`_
    :links: biotools: :biotools:`rbioinf`, doi: :doi:`10.1038/nmeth.3252`

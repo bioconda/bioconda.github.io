@@ -11,7 +11,7 @@ bioconductor-vsn
 
    Variance stabilization and calibration for microarray data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/vsn.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/vsn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-vsn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vsn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vsn/meta.yaml>`_
    :links: biotools: :biotools:`vsn`

@@ -11,7 +11,7 @@ bioconductor-mesh.dgr.eg.db
 
    Mapping table for Drosophila grimshawi Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Dgr.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dgr.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.dgr.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.dgr.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.dgr.eg.db/meta.yaml>`_
 

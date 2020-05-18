@@ -11,7 +11,7 @@ bioconductor-m3d
 
    Identifies differentially methylated regions across testing groups
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/M3D.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/M3D.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-m3d <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3d>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3d/meta.yaml>`_
    :links: biotools: :biotools:`m3d`, doi: :doi:`10.1093/bioinformatics/btu749`

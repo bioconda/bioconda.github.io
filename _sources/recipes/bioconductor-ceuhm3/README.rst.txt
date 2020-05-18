@@ -11,7 +11,7 @@ bioconductor-ceuhm3
 
    ceuhm3\: genotype \(HapMap phase III\) and expression data for CEPH CEU cohort
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ceuhm3.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/ceuhm3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ceuhm3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceuhm3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ceuhm3/meta.yaml>`_
 

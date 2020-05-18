@@ -11,7 +11,7 @@ bioconductor-meshes
 
    MeSH Enrichment and Semantic analyses
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/meshes.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/meshes.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-meshes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshes/meta.yaml>`_
    :links: biotools: :biotools:`meshes`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-singlecelltk
 
    Interactive Analysis of Single Cell RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/singleCellTK.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/singleCellTK.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-singlecelltk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecelltk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecelltk/meta.yaml>`_
 

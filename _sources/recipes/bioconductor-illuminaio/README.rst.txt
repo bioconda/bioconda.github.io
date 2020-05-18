@@ -11,7 +11,7 @@ bioconductor-illuminaio
 
    Parsing Illumina Microarray Output Files
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/illuminaio.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/illuminaio.html
    :license: GPL-2
    :recipe: /`bioconductor-illuminaio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminaio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminaio/meta.yaml>`_
    :links: biotools: :biotools:`illuminaio`

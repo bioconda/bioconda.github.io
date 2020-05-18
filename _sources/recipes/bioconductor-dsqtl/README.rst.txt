@@ -11,7 +11,7 @@ bioconductor-dsqtl
 
    dsQTL\, data excerpt from Degner et al. 2012 Nature letter
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/dsQTL.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/dsQTL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dsqtl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dsqtl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dsqtl/meta.yaml>`_
 

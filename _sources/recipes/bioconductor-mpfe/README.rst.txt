@@ -11,7 +11,7 @@ bioconductor-mpfe
 
    Estimation of the amplicon methylation pattern distribution from bisulphite sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MPFE.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MPFE.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-mpfe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpfe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpfe/meta.yaml>`_
    :links: biotools: :biotools:`mpfe`, doi: :doi:`10.1186/s12859-015-0600-6`

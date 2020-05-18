@@ -11,11 +11,11 @@ bioconductor-rprotobuflib
 
    C\+\+ headers and static libraries of Protocol buffers
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RProtoBufLib.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RProtoBufLib.html
    :license: BSD_3_clause
    :recipe: /`bioconductor-rprotobuflib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rprotobuflib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rprotobuflib/meta.yaml>`_
 
-   This package provides the headers and static library of Protocol buffers 2.6.0 for other R packages to compile and link against.
+   This package provides the headers and static library of Protocol buffers for other R packages to compile and link against.
 
 
 .. conda:package:: bioconductor-rprotobuflib

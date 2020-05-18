@@ -11,11 +11,11 @@ bioconductor-toast
 
    Tools for the analysis of heterogeneous tissues
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TOAST.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TOAST.html
    :license: GPL-2
    :recipe: /`bioconductor-toast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-toast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-toast/meta.yaml>`_
 
-   This package is devoted to analyzing high\-throughput data \(e.g. gene expression microarray\, DNA methylation microarray\, RNA\-seq\) from complex tissues. Current functionalities include 1. detect cell\-type specific or cross\-cell type differential signals 2. improve variable selection in reference\-free deconvolution.
+   This package is devoted to analyzing high\-throughput data \(e.g. gene expression microarray\, DNA methylation microarray\, RNA\-seq\) from complex tissues. Current functionalities include 1. detect cell\-type specific or cross\-cell type differential signals 2. improve variable selection in reference\-free deconvolution 3. partial reference\-free deconvolution with prior knowledge.
 
 
 .. conda:package:: bioconductor-toast

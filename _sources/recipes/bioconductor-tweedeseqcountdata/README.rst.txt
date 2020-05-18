@@ -11,7 +11,7 @@ bioconductor-tweedeseqcountdata
 
    RNA\-seq count data employed in the vignette of the tweeDEseq package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/tweeDEseqCountData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/tweeDEseqCountData.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-tweedeseqcountdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseqcountdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseqcountdata/meta.yaml>`_
 

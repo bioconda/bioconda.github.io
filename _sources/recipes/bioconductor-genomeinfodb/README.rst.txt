@@ -11,7 +11,7 @@ bioconductor-genomeinfodb
 
    Utilities for manipulating chromosome names\, including modifying them to follow a particular naming style
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GenomeInfoDb.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GenomeInfoDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomeinfodb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodb/meta.yaml>`_
    :links: biotools: :biotools:`genomeinfodb`, doi: :doi:`10.1038/nmeth.3252`

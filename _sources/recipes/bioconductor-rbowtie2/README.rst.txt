@@ -11,7 +11,7 @@ bioconductor-rbowtie2
 
    An R Wrapper for Bowtie2 and AdapterRemoval
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Rbowtie2.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Rbowtie2.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-rbowtie2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie2/meta.yaml>`_
 

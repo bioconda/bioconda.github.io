@@ -9,13 +9,13 @@ bioconductor-waddr
 .. conda:recipe:: bioconductor-waddr
    :replaces_section_title:
 
-   Statistical Test for Detecting Differential Distributions Based on the Wasserstein Metric
+   Statistical tests for detecting differential distributions based on the 2\-Wasserstein distance
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/waddR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/waddR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-waddr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-waddr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-waddr/meta.yaml>`_
 
-   Wasserstein distance based statistical test for detecting and describing differential distributions in one\-dimensional data. Functions for wasserstein distance calculation\, differential distribution testing\, and a specialized test for differential expression in scRNA data are provided.
+   The package offers statistical tests based on the 2\-Wasserstein distance for detecting and characterizing differences between two distributions given in the form of samples. Functions for calculating the 2\-Wasserstein distance and testing for differential distributions are provided\, as welll as specifically tailored test for differential expression in single\-cell RNA sequencing data.
 
 
 .. conda:package:: bioconductor-waddr

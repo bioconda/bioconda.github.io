@@ -9,9 +9,9 @@ bioconductor-saigegds
 .. conda:recipe:: bioconductor-saigegds
    :replaces_section_title:
 
-   Scalable Implementation of Generalized mixed models using GDS files in PheWAS
+   Scalable Implementation of Generalized mixed models using GDS files in Phenome\-Wide Association Studies
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SAIGEgds.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SAIGEgds.html
    :license: GPL-3
    :recipe: /`bioconductor-saigegds <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saigegds>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saigegds/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-easyqpcr
 
    EasyqpcR for low\-throughput real\-time quantitative PCR data analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EasyqpcR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EasyqpcR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-easyqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyqpcr/meta.yaml>`_
 

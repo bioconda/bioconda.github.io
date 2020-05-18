@@ -11,7 +11,7 @@ bioconductor-gofunction
 
    GO\-function\: deriving biologcially relevant functions from statistically significant functions
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GOFunction.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GOFunction.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gofunction <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gofunction>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gofunction/meta.yaml>`_
    :links: biotools: :biotools:`gofunction`, doi: :doi:`10.1093/bib/bbr041`

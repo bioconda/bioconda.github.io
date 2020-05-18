@@ -11,7 +11,7 @@ bioconductor-enrichedheatmap
 
    Making Enriched Heatmaps
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EnrichedHeatmap.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EnrichedHeatmap.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-enrichedheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichedheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichedheatmap/meta.yaml>`_
 

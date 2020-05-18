@@ -11,7 +11,7 @@ bioconductor-dart
 
    Denoising Algorithm based on Relevance network Topology
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DART.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DART.html
    :license: GPL-2
    :recipe: /`bioconductor-dart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dart/meta.yaml>`_
 

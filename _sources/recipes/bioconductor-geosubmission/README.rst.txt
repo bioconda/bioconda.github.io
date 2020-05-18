@@ -11,7 +11,7 @@ bioconductor-geosubmission
 
    Prepares microarray data for submission to GEO
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GEOsubmission.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GEOsubmission.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-geosubmission <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geosubmission>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geosubmission/meta.yaml>`_
    :links: biotools: :biotools:`geosubmission`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-metagxpancreas
 
    Transcriptomic Pancreatic Cancer Datasets
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MetaGxPancreas.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/MetaGxPancreas.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagxpancreas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxpancreas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxpancreas/meta.yaml>`_
 

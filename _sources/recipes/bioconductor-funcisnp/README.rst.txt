@@ -11,7 +11,7 @@ bioconductor-funcisnp
 
    Integrating Functional Non\-coding Datasets with Genetic Association Studies to Identify Candidate Regulatory SNPs
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/FunciSNP.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/FunciSNP.html
    :license: GPL-3
    :recipe: /`bioconductor-funcisnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp/meta.yaml>`_
 

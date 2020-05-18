@@ -11,7 +11,7 @@ bioconductor-sitepath
 
    Detection of sites with fixation of amino acid substitutions in protein evolution
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sitePath.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sitePath.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sitepath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath/meta.yaml>`_
 

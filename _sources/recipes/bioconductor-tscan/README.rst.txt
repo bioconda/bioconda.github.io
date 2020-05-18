@@ -11,7 +11,7 @@ bioconductor-tscan
 
    TSCAN\: Tools for Single\-Cell ANalysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TSCAN.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TSCAN.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-tscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tscan/meta.yaml>`_
    :links: biotools: :biotools:`tscan`, doi: :doi:`10.1093/nar/gkw430`

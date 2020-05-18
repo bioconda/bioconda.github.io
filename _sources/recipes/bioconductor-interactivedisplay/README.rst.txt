@@ -11,7 +11,7 @@ bioconductor-interactivedisplay
 
    Package for enabling powerful shiny web displays of Bioconductor objects
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/interactiveDisplay.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/interactiveDisplay.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-interactivedisplay <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactivedisplay>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactivedisplay/meta.yaml>`_
    :links: biotools: :biotools:`interactivedisplay`, doi: :doi:`10.1038/nmeth.3252`

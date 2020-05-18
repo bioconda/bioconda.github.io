@@ -11,7 +11,7 @@ bioconductor-hicrep
 
    Measuring the reproducibility of Hi\-C data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/hicrep.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/hicrep.html
    :license: GPL (>= 2.0)
    :recipe: /`bioconductor-hicrep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicrep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicrep/meta.yaml>`_
 

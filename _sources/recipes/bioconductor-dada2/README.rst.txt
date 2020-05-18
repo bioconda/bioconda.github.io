@@ -11,7 +11,7 @@ bioconductor-dada2
 
    Accurate\, high\-resolution sample inference from amplicon sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/dada2.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/dada2.html
    :license: LGPL-3
    :recipe: /`bioconductor-dada2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2/meta.yaml>`_
    :links: biotools: :biotools:`dada2`
@@ -23,7 +23,7 @@ bioconductor-dada2
 
    |downloads_bioconductor-dada2| |docker_bioconductor-dada2|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.4-0, 1.2-0, 1.0.3-0, 0.99.10-0, 0.10.4-0, 0.10.3-0, 0.10.1-0, 0.10.0-0
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4-0, 1.4.0-0, 1.2-0, 1.0.3-0, 0.99.10-0, 0.10.4-0, 0.10.3-0, 0.10.1-0, 0.10.0-0
    
    :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
    :depends bioconductor-biostrings: >=2.56.0,<2.57.0

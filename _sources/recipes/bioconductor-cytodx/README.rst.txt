@@ -11,7 +11,7 @@ bioconductor-cytodx
 
    Robust prediction of clinical outcomes using cytometry data without cell gating
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CytoDx.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CytoDx.html
    :license: GPL-2
    :recipe: /`bioconductor-cytodx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytodx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytodx/meta.yaml>`_
 

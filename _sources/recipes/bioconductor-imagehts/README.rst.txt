@@ -11,7 +11,7 @@ bioconductor-imagehts
 
    Analysis of high\-throughput microscopy\-based screens
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/imageHTS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/imageHTS.html
    :license: LGPL-2.1
    :recipe: /`bioconductor-imagehts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imagehts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imagehts/meta.yaml>`_
    :links: biotools: :biotools:`imagehts`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-polyfit
 
    Add\-on to DESeq to improve p\-values and q\-values
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Polyfit.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Polyfit.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-polyfit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-polyfit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-polyfit/meta.yaml>`_
    :links: biotools: :biotools:`polyfit`, doi: :doi:`10.7717/peerj.576`

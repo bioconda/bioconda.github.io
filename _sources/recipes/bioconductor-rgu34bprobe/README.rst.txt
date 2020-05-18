@@ -11,7 +11,7 @@ bioconductor-rgu34bprobe
 
    Probe sequence data for microarrays of type rgu34b
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rgu34bprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rgu34bprobe.html
    :license: LGPL
    :recipe: /`bioconductor-rgu34bprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34bprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34bprobe/meta.yaml>`_
 

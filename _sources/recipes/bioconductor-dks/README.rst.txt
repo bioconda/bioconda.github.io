@@ -11,7 +11,7 @@ bioconductor-dks
 
    The double Kolmogorov\-Smirnov package for evaluating multiple testing procedures.
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/dks.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/dks.html
    :license: GPL
    :recipe: /`bioconductor-dks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dks/meta.yaml>`_
 

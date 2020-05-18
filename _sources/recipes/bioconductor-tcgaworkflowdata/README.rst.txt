@@ -11,7 +11,7 @@ bioconductor-tcgaworkflowdata
 
    Data for TCGA Workflow
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/TCGAWorkflowData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/TCGAWorkflowData.html
    :license: GPL-3
    :recipe: /`bioconductor-tcgaworkflowdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgaworkflowdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgaworkflowdata/meta.yaml>`_
 

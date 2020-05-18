@@ -11,7 +11,7 @@ bioconductor-gsreg
 
    Gene Set Regulation \(GS\-Reg\)
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/GSReg.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GSReg.html
    :license: GPL-2
    :recipe: /`bioconductor-gsreg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsreg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsreg/meta.yaml>`_
    :links: biotools: :biotools:`gsreg`, doi: :doi:`10.4137/CIN.S14066`

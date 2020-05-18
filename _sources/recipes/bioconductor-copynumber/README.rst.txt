@@ -11,7 +11,7 @@ bioconductor-copynumber
 
    Segmentation of single\- and multi\-track copy number data by penalized least squares regression.
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/copynumber.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/copynumber.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-copynumber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copynumber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copynumber/meta.yaml>`_
    :links: biotools: :biotools:`copynumber`

@@ -11,7 +11,7 @@ bioconductor-abaenrichment
 
    Gene expression enrichment in human brain regions
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ABAEnrichment.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ABAEnrichment.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-abaenrichment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abaenrichment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abaenrichment/meta.yaml>`_
    :links: biotools: :biotools:`abaenrichment`

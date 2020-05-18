@@ -11,7 +11,7 @@ bioconductor-bayesknockdown
 
    BayesKnockdown\: Posterior Probabilities for Edges from Knockdown Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BayesKnockdown.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BayesKnockdown.html
    :license: GPL-3
    :recipe: /`bioconductor-bayesknockdown <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayesknockdown>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayesknockdown/meta.yaml>`_
 

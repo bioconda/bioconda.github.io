@@ -11,7 +11,7 @@ bioconductor-flowspecs
 
    Tools for processing of high\-dimensional cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowSpecs.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowSpecs.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-flowspecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowspecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowspecs/meta.yaml>`_
 

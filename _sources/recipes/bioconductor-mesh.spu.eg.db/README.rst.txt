@@ -11,7 +11,7 @@ bioconductor-mesh.spu.eg.db
 
    Mapping table for Strongylocentrotus purpuratus Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Spu.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Spu.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.spu.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.spu.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.spu.eg.db/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-sapfinder
 
    A package for variant peptides detection and visualization in shotgun proteomics.
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sapFinder.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sapFinder.html
    :license: GPL-2
    :recipe: /`bioconductor-sapfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sapfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sapfinder/meta.yaml>`_
 

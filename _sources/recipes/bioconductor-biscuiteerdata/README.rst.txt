@@ -11,7 +11,7 @@ bioconductor-biscuiteerdata
 
    Data Package for Biscuiteer
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/biscuiteerData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/biscuiteerData.html
    :license: GPL-3
    :recipe: /`bioconductor-biscuiteerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biscuiteerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biscuiteerdata/meta.yaml>`_
 

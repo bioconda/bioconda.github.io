@@ -11,7 +11,7 @@ bioconductor-mircompdata
 
    Data used in the miRcomp package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/miRcompData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/miRcompData.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-mircompdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircompdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircompdata/meta.yaml>`_
 

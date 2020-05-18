@@ -11,7 +11,7 @@ bioconductor-parathyroidse
 
    RangedSummarizedExperiment for RNA\-Seq of primary cultures of parathyroid tumors by Haglund et al.\, J Clin Endocrinol Metab 2012.
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/parathyroidSE.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/parathyroidSE.html
    :license: LGPL
    :recipe: /`bioconductor-parathyroidse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-parathyroidse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-parathyroidse/meta.yaml>`_
 

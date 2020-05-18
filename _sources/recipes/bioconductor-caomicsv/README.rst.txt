@@ -11,7 +11,7 @@ bioconductor-caomicsv
 
    Visualization of multi\-dimentional cancer genomics data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/caOmicsV.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/caOmicsV.html
    :license: GPL (>=2.0)
    :recipe: /`bioconductor-caomicsv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-caomicsv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-caomicsv/meta.yaml>`_
 

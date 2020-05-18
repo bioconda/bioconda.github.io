@@ -11,7 +11,7 @@ bioconductor-bsgenome.dmelanogaster.ucsc.dm3.masked
 
    Full masked genome sequences for Drosophila melanogaster \(UCSC version dm3\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm3.masked.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm3.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.dmelanogaster.ucsc.dm3.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.dmelanogaster.ucsc.dm3.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.dmelanogaster.ucsc.dm3.masked/meta.yaml>`_
 

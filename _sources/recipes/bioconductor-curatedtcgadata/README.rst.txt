@@ -11,7 +11,7 @@ bioconductor-curatedtcgadata
 
    Curated Data From The Cancer Genome Atlas \(TCGA\) as MultiAssayExperiment Objects
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/curatedTCGAData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/curatedTCGAData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedtcgadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtcgadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtcgadata/meta.yaml>`_
 

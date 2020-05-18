@@ -11,7 +11,7 @@ bioconductor-abseqr
 
    Reporting and data analysis functionalities for Rep\-Seq datasets of antibody libraries
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/abseqR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/abseqR.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-abseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abseqr/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-gcatest
 
    Genotype Conditional Association TEST
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gcatest.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gcatest.html
    :license: GPL-3
    :recipe: /`bioconductor-gcatest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcatest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcatest/meta.yaml>`_
    :links: biotools: :biotools:`gcatest`, doi: :doi:`10.1101/012682`

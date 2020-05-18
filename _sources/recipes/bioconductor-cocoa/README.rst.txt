@@ -11,7 +11,7 @@ bioconductor-cocoa
 
    Coordinate Covariation Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/COCOA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/COCOA.html
    :license: GPL-3
    :recipe: /`bioconductor-cocoa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cocoa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cocoa/meta.yaml>`_
 

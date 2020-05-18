@@ -9,13 +9,13 @@ bioconductor-metavolcanor
 .. conda:recipe:: bioconductor-metavolcanor
    :replaces_section_title:
 
-   Gene expression meta\-analysis visualization tool
+   Gene Expression Meta\-analysis Visualization Tool
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MetaVolcanoR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MetaVolcanoR.html
    :license: GPL-3
    :recipe: /`bioconductor-metavolcanor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavolcanor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavolcanor/meta.yaml>`_
 
-   This package combines differential gene expression results. It implements three strategies to summarize gene expression activities from different studies. i\) a naive vote\-counting approach\, ii\) a combining\-approach and iii\) Random Effects Model \(REM\) approach. In all cases\, MetaVolcano exploits the Volcano plot reasoning to visualize the gene expression meta\-analysis results.
+   MetaVolcanoR combines differential gene expression results. It implements three strategies to summarize differential gene expression from different studies. i\) Random Effects Model \(REM\) approach\, ii\) a p\-value combining\-approach\, and iii\) a vote\-counting approach. In all cases\, MetaVolcano exploits the Volcano plot reasoning to visualize the gene expression meta\-analysis results.
 
 
 .. conda:package:: bioconductor-metavolcanor

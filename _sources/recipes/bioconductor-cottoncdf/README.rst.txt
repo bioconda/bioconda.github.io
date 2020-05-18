@@ -11,7 +11,7 @@ bioconductor-cottoncdf
 
    cottoncdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/cottoncdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/cottoncdf.html
    :license: LGPL
    :recipe: /`bioconductor-cottoncdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cottoncdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cottoncdf/meta.yaml>`_
 

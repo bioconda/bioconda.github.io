@@ -11,7 +11,7 @@ bioconductor-rmassbankdata
 
    Test dataset for RMassBank
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RMassBankData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/RMassBankData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rmassbankdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmassbankdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmassbankdata/meta.yaml>`_
 

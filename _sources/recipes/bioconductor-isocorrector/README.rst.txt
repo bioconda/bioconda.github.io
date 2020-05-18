@@ -11,7 +11,7 @@ bioconductor-isocorrector
 
    Correction for natural isotope abundance and tracer purity in MS and MS\/MS data from stable isotope labeling experiments
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/IsoCorrectoR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/IsoCorrectoR.html
    :license: GPL-3
    :recipe: /`bioconductor-isocorrector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isocorrector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isocorrector/meta.yaml>`_
 

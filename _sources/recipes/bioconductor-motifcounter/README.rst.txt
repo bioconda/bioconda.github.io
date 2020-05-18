@@ -11,7 +11,7 @@ bioconductor-motifcounter
 
    R package for analysing TFBSs in DNA sequences
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/motifcounter.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/motifcounter.html
    :license: GPL-2
    :recipe: /`bioconductor-motifcounter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifcounter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifcounter/meta.yaml>`_
 

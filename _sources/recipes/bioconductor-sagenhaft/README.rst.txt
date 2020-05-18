@@ -11,7 +11,7 @@ bioconductor-sagenhaft
 
    Collection of functions for reading and comparing SAGE libraries
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sagenhaft.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sagenhaft.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sagenhaft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sagenhaft>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sagenhaft/meta.yaml>`_
    :links: biotools: :biotools:`sagenhaft`, doi: :doi:`10.1038/nmeth.3252`

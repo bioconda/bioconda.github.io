@@ -11,7 +11,7 @@ bioconductor-targetscan.mm.eg.db
 
    TargetScan miRNA target predictions for mouse
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/targetscan.Mm.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/targetscan.Mm.eg.db.html
    :license: file LICENSE
    :recipe: /`bioconductor-targetscan.mm.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscan.mm.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetscan.mm.eg.db/meta.yaml>`_
 

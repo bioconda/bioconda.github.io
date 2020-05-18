@@ -11,7 +11,7 @@ bioconductor-qcmetrics
 
    A Framework for Quality Control
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/qcmetrics.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/qcmetrics.html
    :license: GPL-2
    :recipe: /`bioconductor-qcmetrics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qcmetrics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qcmetrics/meta.yaml>`_
    :links: biotools: :biotools:`qcmetrics`, doi: :doi:`10.1038/nmeth.3252`

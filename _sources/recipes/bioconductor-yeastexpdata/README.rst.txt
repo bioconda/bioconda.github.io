@@ -11,7 +11,7 @@ bioconductor-yeastexpdata
 
    Yeast Experimental Data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/yeastExpData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/yeastExpData.html
    :license: GPL
    :recipe: /`bioconductor-yeastexpdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastexpdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastexpdata/meta.yaml>`_
 

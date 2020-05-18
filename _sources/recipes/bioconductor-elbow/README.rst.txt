@@ -11,7 +11,7 @@ bioconductor-elbow
 
    ELBOW \- Evaluating foLd change By the lOgit Way
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ELBOW.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ELBOW.html
    :license: file LICENSE
    :recipe: /`bioconductor-elbow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elbow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elbow/meta.yaml>`_
 

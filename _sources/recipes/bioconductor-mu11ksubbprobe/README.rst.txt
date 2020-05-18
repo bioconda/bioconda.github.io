@@ -11,7 +11,7 @@ bioconductor-mu11ksubbprobe
 
    Probe sequence data for microarrays of type mu11ksubb
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mu11ksubbprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mu11ksubbprobe.html
    :license: LGPL
    :recipe: /`bioconductor-mu11ksubbprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubbprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubbprobe/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-multiassayexperiment
 
    Software for the integration of multi\-omics experiments in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MultiAssayExperiment.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MultiAssayExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-multiassayexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment/meta.yaml>`_
    :links: biotools: :biotools:`multiassayexperiment`, doi: :doi:`10.1101/144774`

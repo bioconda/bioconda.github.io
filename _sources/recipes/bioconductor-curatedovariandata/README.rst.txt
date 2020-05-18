@@ -11,7 +11,7 @@ bioconductor-curatedovariandata
 
    Clinically Annotated Data for the Ovarian Cancer Transcriptome
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/curatedOvarianData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/curatedOvarianData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedovariandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedovariandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedovariandata/meta.yaml>`_
 

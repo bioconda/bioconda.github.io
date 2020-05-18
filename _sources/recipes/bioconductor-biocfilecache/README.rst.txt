@@ -11,7 +11,7 @@ bioconductor-biocfilecache
 
    Manage Files Across Sessions
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiocFileCache.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BiocFileCache.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocfilecache <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocfilecache>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocfilecache/meta.yaml>`_
 

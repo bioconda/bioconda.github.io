@@ -11,7 +11,7 @@ bioconductor-poplarcdf
 
    poplarcdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/poplarcdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/poplarcdf.html
    :license: LGPL
    :recipe: /`bioconductor-poplarcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poplarcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poplarcdf/meta.yaml>`_
 

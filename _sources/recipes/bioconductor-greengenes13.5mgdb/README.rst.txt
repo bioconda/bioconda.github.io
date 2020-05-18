@@ -11,7 +11,7 @@ bioconductor-greengenes13.5mgdb
 
    Greengenes 13.5 16S rRNA Database Annotation Data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/greengenes13.5MgDb.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/greengenes13.5MgDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-greengenes13.5mgdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-greengenes13.5mgdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-greengenes13.5mgdb/meta.yaml>`_
 

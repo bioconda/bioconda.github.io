@@ -11,7 +11,7 @@ bioconductor-singscore
 
    Rank\-based single\-sample gene set scoring method
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/singscore.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/singscore.html
    :license: GPL-3
    :recipe: /`bioconductor-singscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singscore/meta.yaml>`_
 

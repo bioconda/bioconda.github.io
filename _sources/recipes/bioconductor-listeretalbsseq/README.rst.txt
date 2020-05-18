@@ -11,7 +11,7 @@ bioconductor-listeretalbsseq
 
    BS\-seq data of H1 and IMR90 cell line excerpted from Lister et al. 2009
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ListerEtAlBSseq.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/ListerEtAlBSseq.html
    :license: Artistic 2.0
    :recipe: /`bioconductor-listeretalbsseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-listeretalbsseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-listeretalbsseq/meta.yaml>`_
 

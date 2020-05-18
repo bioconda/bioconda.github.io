@@ -11,7 +11,7 @@ bioconductor-rnbeads.hg19
 
    RnBeads.hg19
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RnBeads.hg19.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/RnBeads.hg19.html
    :license: GPL-3
    :recipe: /`bioconductor-rnbeads.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.hg19/meta.yaml>`_
 

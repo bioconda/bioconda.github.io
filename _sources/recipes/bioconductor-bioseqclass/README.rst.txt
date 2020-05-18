@@ -11,7 +11,7 @@ bioconductor-bioseqclass
 
    Classification for Biological Sequences
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BioSeqClass.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BioSeqClass.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-bioseqclass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioseqclass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioseqclass/meta.yaml>`_
 

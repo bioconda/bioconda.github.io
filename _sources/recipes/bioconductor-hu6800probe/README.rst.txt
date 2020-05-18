@@ -11,7 +11,7 @@ bioconductor-hu6800probe
 
    Probe sequence data for microarrays of type hu6800
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hu6800probe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hu6800probe.html
    :license: LGPL
    :recipe: /`bioconductor-hu6800probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu6800probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu6800probe/meta.yaml>`_
 

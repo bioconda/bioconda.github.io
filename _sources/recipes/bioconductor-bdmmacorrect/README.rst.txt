@@ -11,7 +11,7 @@ bioconductor-bdmmacorrect
 
    Meta\-analysis for the metagenomic read counts data from different cohorts
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BDMMAcorrect.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BDMMAcorrect.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-bdmmacorrect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bdmmacorrect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bdmmacorrect/meta.yaml>`_
 

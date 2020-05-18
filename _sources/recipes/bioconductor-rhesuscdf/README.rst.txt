@@ -11,7 +11,7 @@ bioconductor-rhesuscdf
 
    rhesuscdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rhesuscdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rhesuscdf.html
    :license: LGPL
    :recipe: /`bioconductor-rhesuscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhesuscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhesuscdf/meta.yaml>`_
 

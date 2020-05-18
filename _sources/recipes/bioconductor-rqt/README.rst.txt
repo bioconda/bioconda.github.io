@@ -11,7 +11,7 @@ bioconductor-rqt
 
    rqt\: utilities for gene\-level meta\-analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rqt.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/rqt.html
    :license: GPL
    :recipe: /`bioconductor-rqt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqt/meta.yaml>`_
 

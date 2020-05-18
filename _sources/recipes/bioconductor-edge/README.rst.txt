@@ -11,7 +11,7 @@ bioconductor-edge
 
    Extraction of Differential Gene Expression
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/edge.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/edge.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-edge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edge/meta.yaml>`_
 

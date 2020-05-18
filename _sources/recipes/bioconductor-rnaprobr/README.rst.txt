@@ -11,7 +11,7 @@ bioconductor-rnaprobr
 
    An R package for analysis of massive parallel sequencing based RNA structure probing data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/RNAprobR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RNAprobR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-rnaprobr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaprobr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaprobr/meta.yaml>`_
    :links: biotools: :biotools:`rnaprobr`

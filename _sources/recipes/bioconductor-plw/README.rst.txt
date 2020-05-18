@@ -11,7 +11,7 @@ bioconductor-plw
 
    Probe level Locally moderated Weighted t\-tests.
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/plw.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/plw.html
    :license: GPL-2
    :recipe: /`bioconductor-plw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plw/meta.yaml>`_
    :links: biotools: :biotools:`plw`

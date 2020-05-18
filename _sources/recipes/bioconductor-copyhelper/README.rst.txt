@@ -11,7 +11,7 @@ bioconductor-copyhelper
 
    Helper files for CopywriteR
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/CopyhelpeR.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/CopyhelpeR.html
    :license: GPL-2
    :recipe: /`bioconductor-copyhelper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyhelper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copyhelper/meta.yaml>`_
 

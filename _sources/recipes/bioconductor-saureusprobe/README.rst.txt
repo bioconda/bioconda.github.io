@@ -11,7 +11,7 @@ bioconductor-saureusprobe
 
    Probe sequence data for microarrays of type saureus
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/saureusprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/saureusprobe.html
    :license: LGPL
    :recipe: /`bioconductor-saureusprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saureusprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saureusprobe/meta.yaml>`_
 

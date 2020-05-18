@@ -11,7 +11,7 @@ bioconductor-quantro
 
    A test for when to use quantile normalization
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/quantro.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/quantro.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-quantro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quantro/meta.yaml>`_
    :links: biotools: :biotools:`quantro`

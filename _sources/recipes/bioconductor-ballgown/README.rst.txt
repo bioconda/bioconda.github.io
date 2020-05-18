@@ -11,7 +11,7 @@ bioconductor-ballgown
 
    Flexible\, isoform\-level differential expression analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ballgown.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ballgown.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ballgown <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ballgown>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ballgown/meta.yaml>`_
    :links: biotools: :biotools:`ballgown`, doi: :doi:`10.1038/nbt.3172`

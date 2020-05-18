@@ -11,7 +11,7 @@ bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5
 
    Minor allele frequency data from NHLBI ESP for hs37d5
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MafDb.ESP6500SI.V2.SSA137.hs37d5.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MafDb.ESP6500SI.V2.SSA137.hs37d5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5/meta.yaml>`_
 

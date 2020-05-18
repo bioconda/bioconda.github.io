@@ -11,7 +11,7 @@ bioconductor-chipxpressdata
 
    ChIPXpress Pre\-built Databases
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ChIPXpressData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/ChIPXpressData.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-chipxpressdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpressdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpressdata/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-metagxovarian
 
    Transcriptomic Ovarian Cancer Datasets
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/MetaGxOvarian.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/MetaGxOvarian.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagxovarian <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxovarian>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxovarian/meta.yaml>`_
 

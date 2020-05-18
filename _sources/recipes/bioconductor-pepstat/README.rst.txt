@@ -11,7 +11,7 @@ bioconductor-pepstat
 
    Statistical analysis of peptide microarrays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pepStat.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/pepStat.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pepstat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepstat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepstat/meta.yaml>`_
    :links: biotools: :biotools:`pepstat`, doi: :doi:`10.1007/978-1-4939-3037-1_10`

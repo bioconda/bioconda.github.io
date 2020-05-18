@@ -11,7 +11,7 @@ bioconductor-mousechrloc
 
    A data package containing annotation data for mouseCHRLOC
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mouseCHRLOC.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mouseCHRLOC.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-mousechrloc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousechrloc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousechrloc/meta.yaml>`_
 

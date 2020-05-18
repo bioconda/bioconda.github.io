@@ -11,7 +11,7 @@ bioconductor-deseq
 
    Differential gene expression analysis based on the negative binomial distribution
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DESeq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DESeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-deseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deseq/meta.yaml>`_
    :links: biotools: :biotools:`deseq`

@@ -11,7 +11,7 @@ bioconductor-rgadem
 
    de novo motif discovery
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/rGADEM.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/rGADEM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgadem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgadem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgadem/meta.yaml>`_
    :links: biotools: :biotools:`rgadem`, doi: :doi:`10.1371/journal.pone.0016432`

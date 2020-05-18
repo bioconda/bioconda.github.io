@@ -11,7 +11,7 @@ bioconductor-gtrellis
 
    Genome Level Trellis Layout
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gtrellis.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gtrellis.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gtrellis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gtrellis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gtrellis/meta.yaml>`_
    :links: biotools: :biotools:`gtrellis`

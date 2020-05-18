@@ -9,7 +9,7 @@ biobb_structure_manager
 .. conda:recipe:: biobb_structure_manager
    :replaces_section_title:
 
-   BioBB\_structure\_manager is la library to efficiently load and process biomolecular 3D structures.
+   BioBB\_structure\_manager is a library to efficiently load and process biomolecular 3D structures.
 
    :homepage: https://github.com/bioexcel/biobb_analysis
    :license: APACHE / Apache Software License

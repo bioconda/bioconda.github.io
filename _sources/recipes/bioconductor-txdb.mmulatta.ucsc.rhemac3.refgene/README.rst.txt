@@ -11,7 +11,7 @@ bioconductor-txdb.mmulatta.ucsc.rhemac3.refgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/TxDb.Mmulatta.UCSC.rheMac3.refGene.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/TxDb.Mmulatta.UCSC.rheMac3.refGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.mmulatta.ucsc.rhemac3.refgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmulatta.ucsc.rhemac3.refgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmulatta.ucsc.rhemac3.refgene/meta.yaml>`_
 

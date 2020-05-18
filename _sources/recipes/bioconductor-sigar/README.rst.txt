@@ -11,7 +11,7 @@ bioconductor-sigar
 
    Statistics for Integrative Genomics Analyses in R
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sigaR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sigaR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sigar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigar/meta.yaml>`_
    :links: biotools: :biotools:`sigar`, doi: :doi:`10.1038/nmeth.3252`

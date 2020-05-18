@@ -11,7 +11,7 @@ bioconductor-flowai
 
    Automatic and interactive quality control for flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowAI.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowAI.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-flowai <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowai>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowai/meta.yaml>`_
    :links: biotools: :biotools:`flowai`, doi: :doi:`10.1093/bioinformatics/btw191`
@@ -23,10 +23,10 @@ bioconductor-flowai
 
    |downloads_bioconductor-flowai| |docker_bioconductor-flowai|
 
-   :versions: 1.16.0-0, 1.14.0-1, 1.12.7-0, 1.12.1-0, 1.10.1-0, 1.6.2-0, 1.4.4-0, 1.2.9-0, 1.2.8-0
+   :versions: 1.18.1-0, 1.16.0-0, 1.14.0-1, 1.12.7-0, 1.12.1-0, 1.10.1-0, 1.6.2-0, 1.4.4-0, 1.2.9-0, 1.2.8-0
    
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-changepoint: 
    :depends r-ggplot2: 
    :depends r-knitr: 

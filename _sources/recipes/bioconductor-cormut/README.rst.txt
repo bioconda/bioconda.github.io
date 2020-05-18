@@ -11,7 +11,7 @@ bioconductor-cormut
 
    Detect the correlated mutations based on selection pressure
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CorMut.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CorMut.html
    :license: GPL-2
    :recipe: /`bioconductor-cormut <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cormut>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cormut/meta.yaml>`_
 

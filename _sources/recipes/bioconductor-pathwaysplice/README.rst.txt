@@ -11,7 +11,7 @@ bioconductor-pathwaysplice
 
    An R Package for Unbiased Splicing Pathway Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PathwaySplice.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PathwaySplice.html
    :license: LGPL(>=2)
    :recipe: /`bioconductor-pathwaysplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaysplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaysplice/meta.yaml>`_
 

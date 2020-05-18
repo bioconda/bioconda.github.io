@@ -11,7 +11,7 @@ bioconductor-powerexplorer
 
    Power Estimation Tool for RNA\-Seq and proteomics data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/PowerExplorer.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PowerExplorer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-powerexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powerexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powerexplorer/meta.yaml>`_
 

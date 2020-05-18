@@ -11,7 +11,7 @@ bioconductor-icetea
 
    Integrating Cap Enrichment with Transcript Expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/icetea.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/icetea.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-icetea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icetea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icetea/meta.yaml>`_
 

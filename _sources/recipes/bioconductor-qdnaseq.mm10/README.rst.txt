@@ -11,7 +11,7 @@ bioconductor-qdnaseq.mm10
 
    Bin annotation mm10
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/QDNAseq.mm10.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/QDNAseq.mm10.html
    :license: GPL
    :recipe: /`bioconductor-qdnaseq.mm10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qdnaseq.mm10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qdnaseq.mm10/meta.yaml>`_
 

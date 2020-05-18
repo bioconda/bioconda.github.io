@@ -11,7 +11,7 @@ bioconductor-envisionquery
 
    Retrieval from the ENVISION bioinformatics data portal into R
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ENVISIONQuery.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ENVISIONQuery.html
    :license: GPL-2
    :recipe: /`bioconductor-envisionquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-envisionquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-envisionquery/meta.yaml>`_
 

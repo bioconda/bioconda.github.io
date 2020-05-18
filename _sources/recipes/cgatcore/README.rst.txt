@@ -22,7 +22,7 @@ cgatcore
 
    |downloads_cgatcore| |docker_cgatcore|
 
-   :versions: 0.6.5-0, 0.6.4-0, 0.6.3-1, 0.6.3-0, 0.6.1-1, 0.6.1-0, 0.5.15-1, 0.5.15-0, 0.5.14-0, 0.5.13-0, 0.5.12-1, 0.5.11-0, 0.5.10-0, 0.5.6-0, 0.5.4-0, 0.5.2-0, 0.5.1-0
+   :versions: 0.6.5-1, 0.6.5-0, 0.6.4-0, 0.6.3-1, 0.6.3-0, 0.6.1-1, 0.6.1-0, 0.5.15-1, 0.5.15-0, 0.5.14-0, 0.5.13-0, 0.5.12-1, 0.5.11-0, 0.5.10-0, 0.5.6-0, 0.5.4-0, 0.5.2-0, 0.5.1-0
    
    :depends boto3: 
    :depends coreutils: 
@@ -36,7 +36,7 @@ cgatcore
    :depends paramiko: 
    :depends pysftp: 
    :depends python: >=3
-   :depends pyyaml: 
+   :depends pyyaml: >=5.1
    :depends ruffus: 
    :depends six: 
    :depends sqlalchemy: 

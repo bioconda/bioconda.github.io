@@ -11,7 +11,7 @@ bioconductor-cellscape
 
    Explores single cell copy number profiles in the context of a single cell tree
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cellscape.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cellscape.html
    :license: GPL-3
    :recipe: /`bioconductor-cellscape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellscape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellscape/meta.yaml>`_
 

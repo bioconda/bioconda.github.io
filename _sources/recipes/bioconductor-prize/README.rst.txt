@@ -11,7 +11,7 @@ bioconductor-prize
 
    Prize\: an R package for prioritization estimation based on analytic hierarchy process
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Prize.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Prize.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prize/meta.yaml>`_
    :links: biotools: :biotools:`prize`, doi: :doi:`10.1038/nmeth.3252`

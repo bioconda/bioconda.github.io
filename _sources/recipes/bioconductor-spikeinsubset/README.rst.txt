@@ -11,7 +11,7 @@ bioconductor-spikeinsubset
 
    Part of Affymetrix\'s Spike\-In Experiment Data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SpikeInSubset.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/SpikeInSubset.html
    :license: LGPL
    :recipe: /`bioconductor-spikeinsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeinsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spikeinsubset/meta.yaml>`_
 

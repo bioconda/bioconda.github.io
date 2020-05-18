@@ -11,7 +11,7 @@ bioconductor-edda
 
    Experimental Design in Differential Abundance analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EDDA.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EDDA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-edda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edda/meta.yaml>`_
    :links: biotools: :biotools:`edda`, doi: :doi:`10.1186/s13059-014-0527-7`

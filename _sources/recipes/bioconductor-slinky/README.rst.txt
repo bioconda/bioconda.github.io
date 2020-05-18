@@ -11,7 +11,7 @@ bioconductor-slinky
 
    Putting the fun in LINCS L1000 data analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/slinky.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/slinky.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-slinky <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slinky>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slinky/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-flowploidy
 
    Analyze flow cytometer data to determine sample ploidy
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/flowPloidy.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowPloidy.html
    :license: GPL-3
    :recipe: /`bioconductor-flowploidy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowploidy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowploidy/meta.yaml>`_
    :links: biotools: :biotools:`flowploidy`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-ggcyto
 
    Visualize Cytometry data with ggplot
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ggcyto.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ggcyto.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggcyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto/meta.yaml>`_
    :links: biotools: :biotools:`ggcyto`, doi: :doi:`10.1038/nmeth.3252`
@@ -23,15 +23,16 @@ bioconductor-ggcyto
 
    |downloads_bioconductor-ggcyto| |docker_bioconductor-ggcyto|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.2-0, 1.10.0-0, 1.8.2-0, 1.6.0-0, 1.4.1-0, 1.4.0-0
+   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.2-0, 1.10.0-0, 1.8.2-0, 1.6.0-0, 1.4.1-0, 1.4.0-0
    
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowworkspace: >=3.34.0,<3.35.0
-   :depends bioconductor-ncdfflow: >=2.32.0,<2.33.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowworkspace: >=4.0.0,<4.1.0
+   :depends bioconductor-ncdfflow: >=2.34.0,<2.35.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: 
-   :depends r-ggplot2: >=2.2.1.9000
+   :depends r-ggplot2: >=3.3.0
    :depends r-gridextra: 
+   :depends r-hexbin: 
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
    :depends r-rlang: 

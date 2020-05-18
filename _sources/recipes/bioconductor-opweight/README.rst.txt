@@ -11,7 +11,7 @@ bioconductor-opweight
 
    Optimal p\-value weighting with independent information
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/OPWeight.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/OPWeight.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-opweight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opweight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opweight/meta.yaml>`_
 

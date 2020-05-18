@@ -11,7 +11,7 @@ bioconductor-xps
 
    Processing and Analysis of Affymetrix Oligonucleotide Arrays including Exon Arrays\, Whole Genome Arrays and Plate Arrays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/xps.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/xps.html
    :license: GPL (>= 2.0)
    :recipe: /`bioconductor-xps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xps/meta.yaml>`_
 

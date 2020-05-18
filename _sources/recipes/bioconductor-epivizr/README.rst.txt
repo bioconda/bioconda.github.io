@@ -11,7 +11,7 @@ bioconductor-epivizr
 
    R Interface to epiviz web app
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/epivizr.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/epivizr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epivizr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizr/meta.yaml>`_
    :links: biotools: :biotools:`epivizr`, doi: :doi:`10.1038/nmeth.3038`

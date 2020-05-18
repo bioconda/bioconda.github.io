@@ -11,7 +11,7 @@ bioconductor-dirichletmultinomial
 
    Dirichlet\-Multinomial Mixture Model Machine Learning for Microbiome Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DirichletMultinomial.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DirichletMultinomial.html
    :license: LGPL-3
    :recipe: /`bioconductor-dirichletmultinomial <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dirichletmultinomial>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dirichletmultinomial/meta.yaml>`_
    :links: biotools: :biotools:`dirichletmultinomial`, doi: :doi:`10.1371/journal.pone.0030126`

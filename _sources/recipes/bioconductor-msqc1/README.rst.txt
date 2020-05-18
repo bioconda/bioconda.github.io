@@ -11,11 +11,11 @@ bioconductor-msqc1
 
    Sigma mix MSQC1 data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/msqc1.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/msqc1.html
    :license: GPL
    :recipe: /`bioconductor-msqc1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msqc1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msqc1/meta.yaml>`_
 
-   The data set contains an eight technical replicate data set and a three replicate dilution series of the MS Qual\/Quant QC Mix standard sample \(Sigma\-Aldrich\, Buchs\, Switzerland\) measured on five different mass spec platforms at the Functional Genomics Center Zurich.
+   contains eight technical replicate data set and a three replicate dilution series of the MS Qual\/Quant Quality Control Mix standard sample \(Sigma\-Aldrich\, Buchs\, Switzerland\) measured on five different mass spectrometer platforms at the Functional Genomics Center Zurich.
 
 
 .. conda:package:: bioconductor-msqc1

@@ -11,8 +11,8 @@ bioconductor-intansv
 
    Integrative analysis of structural variations
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/intansv.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/intansv.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-intansv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intansv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intansv/meta.yaml>`_
 
    This package provides efficient tools to read and integrate structural variations predicted by popular softwares. Annotation and visulation of structural variations are also implemented in the package.

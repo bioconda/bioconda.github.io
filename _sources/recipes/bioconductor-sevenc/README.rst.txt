@@ -11,7 +11,7 @@ bioconductor-sevenc
 
    Computational Chromosome Conformation Capture by Correlation of ChIP\-seq at CTCF motifs
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sevenC.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sevenC.html
    :license: GPL-3
    :recipe: /`bioconductor-sevenc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sevenc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sevenc/meta.yaml>`_
 

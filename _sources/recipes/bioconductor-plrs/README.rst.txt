@@ -11,7 +11,7 @@ bioconductor-plrs
 
    Piecewise Linear Regression Splines \(PLRS\) for the association between DNA copy number and gene expression
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/plrs.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/plrs.html
    :license: GPL (>=2.0)
    :recipe: /`bioconductor-plrs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plrs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plrs/meta.yaml>`_
 

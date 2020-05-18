@@ -11,7 +11,7 @@ bioconductor-scfind
 
    A search tool for single cell RNA\-seq data by gene lists
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/scfind.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/scfind.html
    :license: GPL-3
    :recipe: /`bioconductor-scfind <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfind>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfind/meta.yaml>`_
 

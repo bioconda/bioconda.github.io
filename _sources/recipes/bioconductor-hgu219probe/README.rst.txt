@@ -11,7 +11,7 @@ bioconductor-hgu219probe
 
    Probe sequence data for microarrays of type hgu219
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgu219probe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hgu219probe.html
    :license: LGPL
    :recipe: /`bioconductor-hgu219probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu219probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu219probe/meta.yaml>`_
 

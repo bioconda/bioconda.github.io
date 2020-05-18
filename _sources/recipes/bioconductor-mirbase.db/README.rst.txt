@@ -11,7 +11,7 @@ bioconductor-mirbase.db
 
    miRBase\: the microRNA database
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mirbase.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mirbase.db.html
    :license: file LICENSE
    :recipe: /`bioconductor-mirbase.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbase.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbase.db/meta.yaml>`_
 

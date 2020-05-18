@@ -11,7 +11,7 @@ bioconductor-mirage
 
    MiRNA Ranking by Gene Expression
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MiRaGE.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MiRaGE.html
    :license: GPL
    :recipe: /`bioconductor-mirage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirage/meta.yaml>`_
    :links: biotools: :biotools:`mirage`

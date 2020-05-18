@@ -11,7 +11,7 @@ bioconductor-viper
 
    Virtual Inference of Protein\-activity by Enriched Regulon analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/viper.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/viper.html
    :license: file LICENSE
    :recipe: /`bioconductor-viper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viper/meta.yaml>`_
    :links: biotools: :biotools:`viper`

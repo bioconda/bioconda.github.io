@@ -11,7 +11,7 @@ bioconductor-mirsponger
 
    Identification and analysis of miRNA sponge interaction networks and modules
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/miRspongeR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/miRspongeR.html
    :license: GPL-3
    :recipe: /`bioconductor-mirsponger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsponger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsponger/meta.yaml>`_
 

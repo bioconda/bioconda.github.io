@@ -11,7 +11,7 @@ bioconductor-biocancer
 
    Interactive Multi\-Omics Cancers Data Visualization and Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bioCancer.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/bioCancer.html
    :license: AGPL-3 | file LICENSE
    :recipe: /`bioconductor-biocancer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocancer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocancer/meta.yaml>`_
 

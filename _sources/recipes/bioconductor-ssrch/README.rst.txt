@@ -11,7 +11,7 @@ bioconductor-ssrch
 
    a simple search engine
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ssrch.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ssrch.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ssrch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssrch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssrch/meta.yaml>`_
 

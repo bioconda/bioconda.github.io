@@ -11,7 +11,7 @@ bioconductor-variantannotation
 
    Annotation of Genetic Variants
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/VariantAnnotation.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/VariantAnnotation.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-variantannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantannotation/meta.yaml>`_
    :links: biotools: :biotools:`variantannotation`

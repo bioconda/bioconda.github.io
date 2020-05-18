@@ -11,7 +11,7 @@ bioconductor-summarizedbenchmark
 
    Classes and methods for performing benchmark comparisons
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SummarizedBenchmark.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SummarizedBenchmark.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-summarizedbenchmark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedbenchmark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedbenchmark/meta.yaml>`_
 

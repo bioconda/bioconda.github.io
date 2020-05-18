@@ -11,7 +11,7 @@ bioconductor-tnt
 
    Interactive Visualization for Genomic Features
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/TnT.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TnT.html
    :license: AGPL-3
    :recipe: /`bioconductor-tnt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tnt/meta.yaml>`_
 

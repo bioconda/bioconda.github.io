@@ -11,7 +11,7 @@ bioconductor-mvcclass
 
    Model\-View\-Controller \(MVC\) Classes
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MVCClass.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MVCClass.html
    :license: LGPL
    :recipe: /`bioconductor-mvcclass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mvcclass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mvcclass/meta.yaml>`_
    :links: biotools: :biotools:`mvcclass`, doi: :doi:`10.1038/nmeth.3252`

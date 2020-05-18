@@ -11,7 +11,7 @@ bioconductor-idr2d
 
    Irreproducible Discovery Rate for Genomic Interactions Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/idr2d.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/idr2d.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-idr2d <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idr2d>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idr2d/meta.yaml>`_
 

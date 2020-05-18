@@ -11,7 +11,7 @@ bioconductor-biomm
 
    BioMM\: Biological\-informed Multi\-stage Machine learning framework for phenotype prediction using omics data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BioMM.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BioMM.html
    :license: GPL-3
    :recipe: /`bioconductor-biomm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomm/meta.yaml>`_
 

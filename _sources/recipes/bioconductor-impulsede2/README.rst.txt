@@ -11,7 +11,7 @@ bioconductor-impulsede2
 
    Differential expression analysis of longitudinal count data sets
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ImpulseDE2.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ImpulseDE2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-impulsede2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impulsede2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impulsede2/meta.yaml>`_
 

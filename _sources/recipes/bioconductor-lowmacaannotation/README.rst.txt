@@ -11,7 +11,7 @@ bioconductor-lowmacaannotation
 
    LowMACAAnnotation
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/LowMACAAnnotation.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/LowMACAAnnotation.html
    :license: GPL-3
    :recipe: /`bioconductor-lowmacaannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmacaannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmacaannotation/meta.yaml>`_
 

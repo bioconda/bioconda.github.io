@@ -11,7 +11,7 @@ bioconductor-mmappr2
 
    Mutation Mapping Analysis Pipeline for Pooled RNA\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MMAPPR2.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MMAPPR2.html
    :license: GPL-3
    :recipe: /`bioconductor-mmappr2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmappr2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmappr2/meta.yaml>`_
 

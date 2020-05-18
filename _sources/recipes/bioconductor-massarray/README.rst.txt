@@ -11,7 +11,7 @@ bioconductor-massarray
 
    Analytical Tools for MassArray Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MassArray.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MassArray.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-massarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massarray/meta.yaml>`_
    :links: biotools: :biotools:`massarray`, doi: :doi:`10.1093/bioinformatics/btp382`

@@ -11,7 +11,7 @@ bioconductor-cexor
 
    An R package to uncover high\-resolution protein\-DNA interactions in ChIP\-exo replicates
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CexoR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CexoR.html
    :license: Artistic-2.0 | GPL-2 + file LICENSE
    :recipe: /`bioconductor-cexor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cexor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cexor/meta.yaml>`_
    :links: biotools: :biotools:`cexor`, doi: :doi:`10.14806/ej.21.0.837`

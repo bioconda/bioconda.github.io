@@ -11,7 +11,7 @@ bioconductor-gemini
 
    GEMINI\: Variational inference approach to infer genetic interactions from pairwise CRISPR screens
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gemini.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gemini.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-gemini <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gemini>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gemini/meta.yaml>`_
 

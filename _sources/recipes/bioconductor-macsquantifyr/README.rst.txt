@@ -11,11 +11,11 @@ bioconductor-macsquantifyr
 
    Fast treatment of MACSQuantify FACS data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MACSQuantifyR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MACSQuantifyR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-macsquantifyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macsquantifyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macsquantifyr/meta.yaml>`_
 
-   Automatically process the metadata of MACSQuantify FACS sorter. It runs multiple modules\: i\) imports of raw file and graphical selection of duplicates in well plate\, ii\) computates statistics on data and iii\) can compute combination index.
+   Automatically process the metadata of MACSQuantify FACS sorter. It runs multiple modules\: i\) imports of raw file and graphical selection of duplicates in well plate\, ii\) computes statistics on data and iii\) can compute combination index.
 
 
 .. conda:package:: bioconductor-macsquantifyr

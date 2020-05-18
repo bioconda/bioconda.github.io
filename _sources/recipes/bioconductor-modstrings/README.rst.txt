@@ -9,9 +9,9 @@ bioconductor-modstrings
 .. conda:recipe:: bioconductor-modstrings
    :replaces_section_title:
 
-   Implementation of Biostrings to work with nucleotide sequences containing modified nucleotides
+   Working with modified nucleotide sequences
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Modstrings.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Modstrings.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-modstrings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-modstrings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-modstrings/meta.yaml>`_
 

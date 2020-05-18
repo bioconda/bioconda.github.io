@@ -11,7 +11,7 @@ bioconductor-cummerbund
 
    Analysis\, exploration\, manipulation\, and visualization of Cufflinks high\-throughput sequencing data.
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cummeRbund.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cummeRbund.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cummerbund <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cummerbund>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cummerbund/meta.yaml>`_
    :links: biotools: :biotools:`cummerbund`, doi: :doi:`10.1038/nprot.2012.016`

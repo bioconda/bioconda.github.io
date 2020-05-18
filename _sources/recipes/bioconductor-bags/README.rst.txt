@@ -11,7 +11,7 @@ bioconductor-bags
 
    A Bayesian Approach for Geneset Selection
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BAGS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BAGS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bags <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bags>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bags/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-mitoode
 
    Implementation of the differential equation model described in \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\"
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mitoODE.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/mitoODE.html
    :license: LGPL
    :recipe: /`bioconductor-mitoode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoode/meta.yaml>`_
 

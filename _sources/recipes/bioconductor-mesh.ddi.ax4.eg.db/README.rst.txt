@@ -11,7 +11,7 @@ bioconductor-mesh.ddi.ax4.eg.db
 
    Mapping table for Dictyostelium discoideum AX4 Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Ddi.AX4.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ddi.AX4.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.ddi.ax4.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.ddi.ax4.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.ddi.ax4.eg.db/meta.yaml>`_
 

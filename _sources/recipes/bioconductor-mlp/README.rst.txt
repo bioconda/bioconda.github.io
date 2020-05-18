@@ -11,7 +11,7 @@ bioconductor-mlp
 
    MLP
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MLP.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MLP.html
    :license: GPL-3
    :recipe: /`bioconductor-mlp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlp/meta.yaml>`_
    :links: biotools: :biotools:`mlp`, doi: :doi:`10.1007/978-3-642-24007-2_12`

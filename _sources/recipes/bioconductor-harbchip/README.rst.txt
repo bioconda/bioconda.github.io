@@ -11,7 +11,7 @@ bioconductor-harbchip
 
    Experimental Data Package\: harbChIP
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/harbChIP.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/harbChIP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-harbchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harbchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harbchip/meta.yaml>`_
 

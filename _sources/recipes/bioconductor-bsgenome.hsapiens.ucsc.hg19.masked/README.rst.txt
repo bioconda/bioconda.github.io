@@ -9,13 +9,13 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19.masked
 .. conda:recipe:: bioconductor-bsgenome.hsapiens.ucsc.hg19.masked
    :replaces_section_title:
 
-   Full masked genome sequences for Homo sapiens \(UCSC version hg19\)
+   Full masked genome sequences for Homo sapiens \(UCSC version hg19\, based on GRCh37.p13\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.masked.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg19.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg19.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg19.masked/meta.yaml>`_
 
-   Full genome sequences for Homo sapiens \(Human\) as provided by UCSC \(hg19\, Feb. 2009\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Hsapiens.UCSC.hg19\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default.
+   Full genome sequences for Homo sapiens \(Human\) as provided by UCSC \(hg19\, based on GRCh37.p13\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Hsapiens.UCSC.hg19\, except that each of them has the 4 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, \(2\) the mask of intra\-contig ambiguities \(AMB mask\)\, \(3\) the mask of repeats from RepeatMasker \(RM mask\)\, and \(4\) the mask of repeats from Tandem Repeats Finder \(TRF mask\). Only the AGAPS and AMB masks are \"active\" by default.
 
 
 .. conda:package:: bioconductor-bsgenome.hsapiens.ucsc.hg19.masked

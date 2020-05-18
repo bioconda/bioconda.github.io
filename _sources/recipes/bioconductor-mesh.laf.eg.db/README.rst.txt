@@ -11,7 +11,7 @@ bioconductor-mesh.laf.eg.db
 
    Mapping table for Loxodonta africana Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Laf.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Laf.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.laf.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.laf.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.laf.eg.db/meta.yaml>`_
 

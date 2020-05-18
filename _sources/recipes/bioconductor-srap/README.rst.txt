@@ -11,7 +11,7 @@ bioconductor-srap
 
    Simplified RNA\-Seq Analysis Pipeline
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sRAP.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sRAP.html
    :license: GPL-3
    :recipe: /`bioconductor-srap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srap/meta.yaml>`_
    :links: biotools: :biotools:`srap`

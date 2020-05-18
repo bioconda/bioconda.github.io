@@ -11,7 +11,7 @@ bioconductor-mesh.dpe.eg.db
 
    Mapping table for Drosophila persimilis Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MeSH.Dpe.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Dpe.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.dpe.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.dpe.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.dpe.eg.db/meta.yaml>`_
 

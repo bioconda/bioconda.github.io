@@ -1,0 +1,69 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'bioconductor-netdx.examples'
+.. highlight: bash
+
+bioconductor-netdx.examples
+===========================
+
+.. conda:recipe:: bioconductor-netdx.examples
+   :replaces_section_title:
+
+   Companion data package to netDx
+
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/netDx.examples.html
+   :license: MIT
+   :recipe: /`bioconductor-netdx.examples <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netdx.examples>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netdx.examples/meta.yaml>`_
+
+   Companion data package to run vignettes for netDx.
+
+
+.. conda:package:: bioconductor-netdx.examples
+
+   |downloads_bioconductor-netdx.examples| |docker_bioconductor-netdx.examples|
+
+   :versions: 0.99.3-0
+   
+   :depends curl: >=7.69.1,<8.0a0
+   :depends r-base: >=4.0,<4.1.0a0
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install bioconductor-netdx.examples
+
+   and update with::
+
+      conda update bioconductor-netdx.examples
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/bioconductor-netdx.examples:<tag>
+
+   (see `bioconductor-netdx.examples/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_bioconductor-netdx.examples| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-netdx.examples.svg?style=flat
+   :target: https://anaconda.org/bioconda/bioconductor-netdx.examples
+   :alt:   (downloads)
+.. |docker_bioconductor-netdx.examples| image:: https://quay.io/repository/biocontainers/bioconductor-netdx.examples/status
+   :target: https://quay.io/repository/biocontainers/bioconductor-netdx.examples
+.. _`bioconductor-netdx.examples/tags`: https://quay.io/repository/biocontainers/bioconductor-netdx.examples?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-netdx.examples/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/bioconductor-netdx.examples/README.html

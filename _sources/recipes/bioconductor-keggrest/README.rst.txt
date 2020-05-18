@@ -11,7 +11,7 @@ bioconductor-keggrest
 
    Client\-side REST access to KEGG
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/KEGGREST.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/KEGGREST.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-keggrest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggrest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggrest/meta.yaml>`_
    :links: biotools: :biotools:`keggrest`, doi: :doi:`10.1007/s11845-015-1283-8`

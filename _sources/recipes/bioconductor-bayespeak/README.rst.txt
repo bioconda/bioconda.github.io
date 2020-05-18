@@ -11,7 +11,7 @@ bioconductor-bayespeak
 
    Bayesian Analysis of ChIP\-seq Data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BayesPeak.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BayesPeak.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-bayespeak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayespeak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayespeak/meta.yaml>`_
    :links: biotools: :biotools:`bayespeak`

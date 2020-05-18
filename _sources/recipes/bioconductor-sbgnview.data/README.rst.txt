@@ -11,7 +11,7 @@ bioconductor-sbgnview.data
 
    Demo gene expression datasets for SBGNview package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/SBGNview.data.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/SBGNview.data.html
    :license: AGPL-3
    :recipe: /`bioconductor-sbgnview.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbgnview.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbgnview.data/meta.yaml>`_
 

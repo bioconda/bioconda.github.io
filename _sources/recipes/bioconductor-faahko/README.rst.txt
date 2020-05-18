@@ -11,7 +11,7 @@ bioconductor-faahko
 
    Saghatelian et al. \(2004\) FAAH knockout LC\/MS data
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/faahKO.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/faahKO.html
    :license: LGPL
    :recipe: /`bioconductor-faahko <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faahko>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faahko/meta.yaml>`_
 

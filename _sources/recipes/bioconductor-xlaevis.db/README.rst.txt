@@ -11,7 +11,7 @@ bioconductor-xlaevis.db
 
    Affymetrix Xenopus laevis annotation data \(chip xlaevis\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/xlaevis.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/xlaevis.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-xlaevis.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xlaevis.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xlaevis.db/meta.yaml>`_
 

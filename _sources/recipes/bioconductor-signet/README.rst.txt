@@ -11,7 +11,7 @@ bioconductor-signet
 
    signet\: Selection Inference in Gene NETworks
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/signet.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/signet.html
    :license: GPL-2
    :recipe: /`bioconductor-signet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signet/meta.yaml>`_
 

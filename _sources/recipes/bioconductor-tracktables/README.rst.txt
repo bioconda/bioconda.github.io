@@ -11,7 +11,7 @@ bioconductor-tracktables
 
    Build IGV tracks and HTML reports
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/tracktables.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/tracktables.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-tracktables <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tracktables>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tracktables/meta.yaml>`_
    :links: biotools: :biotools:`tracktables`, doi: :doi:`10.1038/nmeth.3252`

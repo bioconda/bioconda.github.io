@@ -11,7 +11,7 @@ bioconductor-lrbase.bta.eg.db
 
    An annotation package for the LRBaseDb object
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/LRBase.Bta.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/LRBase.Bta.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.bta.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.bta.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.bta.eg.db/meta.yaml>`_
 

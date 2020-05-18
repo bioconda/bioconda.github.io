@@ -11,7 +11,7 @@ bioconductor-globalseq
 
    Global Test for Counts
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/globalSeq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/globalSeq.html
    :license: GPL-3
    :recipe: /`bioconductor-globalseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalseq/meta.yaml>`_
    :links: biotools: :biotools:`globalseq`

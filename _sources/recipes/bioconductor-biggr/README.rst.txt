@@ -11,7 +11,7 @@ bioconductor-biggr
 
    Constraint based modeling in R using metabolic reconstruction databases
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BiGGR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BiGGR.html
    :license: file LICENSE
    :recipe: /`bioconductor-biggr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biggr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biggr/meta.yaml>`_
 

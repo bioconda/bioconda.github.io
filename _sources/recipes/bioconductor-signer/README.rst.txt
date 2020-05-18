@@ -11,7 +11,7 @@ bioconductor-signer
 
    Empirical Bayesian approach to mutational signature discovery
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/signeR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/signeR.html
    :license: GPL-3
    :recipe: /`bioconductor-signer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-signer/meta.yaml>`_
    :links: biotools: :biotools:`signer`

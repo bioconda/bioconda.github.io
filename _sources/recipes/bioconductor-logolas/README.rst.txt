@@ -11,7 +11,7 @@ bioconductor-logolas
 
    EDLogo Plots Featuring String Logos and Adaptive Scaling of Position\-Weight Matrices
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Logolas.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Logolas.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-logolas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logolas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logolas/meta.yaml>`_
 

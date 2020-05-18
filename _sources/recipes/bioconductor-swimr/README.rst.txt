@@ -11,7 +11,7 @@ bioconductor-swimr
 
    SwimR\: A Suite of Analytical Tools for Quantification of C. elegans Swimming Behavior
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/SwimR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SwimR.html
    :license: LGPL-2
    :recipe: /`bioconductor-swimr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swimr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swimr/meta.yaml>`_
    :links: biotools: :biotools:`swimr`, doi: :doi:`10.1016/j.jneumeth.2014.04.024`

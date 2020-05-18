@@ -11,7 +11,7 @@ bioconductor-bacon
 
    Controlling bias and inflation in association studies using the empirical null distribution
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/bacon.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/bacon.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-bacon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bacon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bacon/meta.yaml>`_
    :links: biotools: :biotools:`bacon`

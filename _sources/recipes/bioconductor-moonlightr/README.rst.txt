@@ -11,7 +11,7 @@ bioconductor-moonlightr
 
    Identify oncogenes and tumor suppressor genes from omics data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MoonlightR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MoonlightR.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-moonlightr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moonlightr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moonlightr/meta.yaml>`_
 

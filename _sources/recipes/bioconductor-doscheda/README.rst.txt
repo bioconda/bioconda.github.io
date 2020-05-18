@@ -11,7 +11,7 @@ bioconductor-doscheda
 
    A DownStream Chemo\-Proteomics Analysis Pipeline
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Doscheda.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Doscheda.html
    :license: GPL-3
    :recipe: /`bioconductor-doscheda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doscheda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doscheda/meta.yaml>`_
 

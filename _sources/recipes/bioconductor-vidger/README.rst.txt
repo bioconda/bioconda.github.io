@@ -11,7 +11,7 @@ bioconductor-vidger
 
    Create rapid visualizations of RNAseq data in R
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/vidger.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/vidger.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-vidger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vidger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vidger/meta.yaml>`_
 

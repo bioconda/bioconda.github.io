@@ -11,7 +11,7 @@ bioconductor-multiomicsviz
 
    Plot the effect of one omics data on other omics data along the chromosome
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/multiOmicsViz.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/multiOmicsViz.html
    :license: LGPL
    :recipe: /`bioconductor-multiomicsviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiomicsviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiomicsviz/meta.yaml>`_
 

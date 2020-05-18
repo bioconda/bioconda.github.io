@@ -11,7 +11,7 @@ bioconductor-csar
 
    Statistical tools for the analysis of ChIP\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CSAR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CSAR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-csar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csar/meta.yaml>`_
 

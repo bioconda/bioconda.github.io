@@ -11,7 +11,7 @@ bioconductor-gcmap
 
    Tools for Connectivity Map\-like analyses
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/gCMAP.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gCMAP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gcmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcmap/meta.yaml>`_
 

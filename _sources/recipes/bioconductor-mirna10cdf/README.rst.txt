@@ -11,7 +11,7 @@ bioconductor-mirna10cdf
 
    mirna10cdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mirna10cdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mirna10cdf.html
    :license: LGPL
    :recipe: /`bioconductor-mirna10cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10cdf/meta.yaml>`_
 

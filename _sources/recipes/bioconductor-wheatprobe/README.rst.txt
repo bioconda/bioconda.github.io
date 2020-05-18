@@ -11,7 +11,7 @@ bioconductor-wheatprobe
 
    Probe sequence data for microarrays of type wheat
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/wheatprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/wheatprobe.html
    :license: LGPL
    :recipe: /`bioconductor-wheatprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wheatprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wheatprobe/meta.yaml>`_
 

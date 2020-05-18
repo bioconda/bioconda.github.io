@@ -11,7 +11,7 @@ bioconductor-ricecdf
 
    ricecdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/ricecdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/ricecdf.html
    :license: LGPL
    :recipe: /`bioconductor-ricecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ricecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ricecdf/meta.yaml>`_
 

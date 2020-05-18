@@ -11,7 +11,7 @@ bioconductor-variantfiltering
 
    Filtering of coding and non\-coding genetic variants
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/VariantFiltering.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/VariantFiltering.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-variantfiltering <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantfiltering>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantfiltering/meta.yaml>`_
    :links: biotools: :biotools:`variantfiltering`, doi: :doi:`10.1038/nmeth.3252`

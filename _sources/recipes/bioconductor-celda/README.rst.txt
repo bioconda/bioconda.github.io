@@ -11,11 +11,11 @@ bioconductor-celda
 
    CEllular Latent Dirichlet Allocation
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/celda.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/celda.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-celda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celda/meta.yaml>`_
 
-   celda is a Bayesian hierarchical model that can co\-cluster features and cells in single cell sequencing data.
+   Utilizing Bayesian hierarchical models to analyze single\-cell genomic data.
 
 
 .. conda:package:: bioconductor-celda

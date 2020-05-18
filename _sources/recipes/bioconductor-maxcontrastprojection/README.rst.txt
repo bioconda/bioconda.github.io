@@ -11,7 +11,7 @@ bioconductor-maxcontrastprojection
 
    Perform a maximum contrast projection of 3D images along the z\-dimension into 2D
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/MaxContrastProjection.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MaxContrastProjection.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-maxcontrastprojection <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maxcontrastprojection>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maxcontrastprojection/meta.yaml>`_
 

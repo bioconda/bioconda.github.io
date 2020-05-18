@@ -11,7 +11,7 @@ bioconductor-ccfindr
 
    Cancer Clone Finder
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ccfindR.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ccfindR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ccfindr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccfindr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccfindr/meta.yaml>`_
 

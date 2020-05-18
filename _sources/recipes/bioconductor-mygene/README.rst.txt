@@ -11,7 +11,7 @@ bioconductor-mygene
 
    Access MyGene.Info\_ services
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/mygene.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/mygene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mygene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mygene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mygene/meta.yaml>`_
    :links: biotools: :biotools:`mygene`, doi: :doi:`10.1101/009333`

@@ -11,7 +11,7 @@ bioconductor-edaseq
 
    Exploratory Data Analysis and Normalization for RNA\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EDASeq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EDASeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-edaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edaseq/meta.yaml>`_
    :links: biotools: :biotools:`edaseq`

@@ -11,7 +11,7 @@ bioconductor-varianttoolsdata
 
    Data for the VariantTools tutorial
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/VariantToolsData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/VariantToolsData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-varianttoolsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttoolsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttoolsdata/meta.yaml>`_
 

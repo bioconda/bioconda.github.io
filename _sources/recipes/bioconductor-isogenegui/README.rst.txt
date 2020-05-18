@@ -11,7 +11,7 @@ bioconductor-isogenegui
 
    A graphical user interface to conduct a dose\-response analysis of microarray data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/IsoGeneGUI.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/IsoGeneGUI.html
    :license: GPL-2
    :recipe: /`bioconductor-isogenegui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isogenegui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isogenegui/meta.yaml>`_
 

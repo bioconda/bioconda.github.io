@@ -11,7 +11,7 @@ bioconductor-gp53cdf
 
    gp53cdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/gp53cdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/gp53cdf.html
    :license: LGPL
    :recipe: /`bioconductor-gp53cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gp53cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gp53cdf/meta.yaml>`_
 

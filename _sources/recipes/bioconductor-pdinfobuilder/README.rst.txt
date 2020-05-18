@@ -11,7 +11,7 @@ bioconductor-pdinfobuilder
 
    Platform Design Information Package Builder
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/pdInfoBuilder.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/pdInfoBuilder.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pdinfobuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pdinfobuilder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pdinfobuilder/meta.yaml>`_
    :links: biotools: :biotools:`pdinfobuilder`, doi: :doi:`10.1093/bioinformatics/btq431`

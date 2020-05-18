@@ -11,7 +11,7 @@ bioconductor-geneplast
 
    Evolutionary and plasticity analysis of orthologous groups
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/geneplast.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/geneplast.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-geneplast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast/meta.yaml>`_
    :links: biotools: :biotools:`geneplast`, doi: :doi:`10.1038/nmeth.3252`

@@ -11,7 +11,7 @@ bioconductor-rrbsdata
 
    An RRBS data set with 12 samples and 10\,000 simulated DMRs
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/RRBSdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/RRBSdata.html
    :license: LGPL-3
    :recipe: /`bioconductor-rrbsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrbsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrbsdata/meta.yaml>`_
 

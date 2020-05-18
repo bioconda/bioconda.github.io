@@ -11,7 +11,7 @@ bioconductor-cancerdata
 
    Development and validation of diagnostic tests from high\-dimensional molecular data\: Datasets
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/cancerdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/cancerdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cancerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerdata/meta.yaml>`_
 

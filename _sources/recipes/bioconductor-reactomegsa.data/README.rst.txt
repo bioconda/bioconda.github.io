@@ -11,11 +11,11 @@ bioconductor-reactomegsa.data
 
    Companion data package for the ReactomeGSA package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/ReactomeGSA.data.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/ReactomeGSA.data.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-reactomegsa.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomegsa.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomegsa.data/meta.yaml>`_
 
-   Companion data sets to showcase the functionality of the ReactomeGSA package. This package contains proteomics and RNA\-seq data of the melanoma B\-cell induction study by Griss et al.
+   Companion data sets to showcase the functionality of the ReactomeGSA package. This package contains proteomics and RNA\-seq data of the melanoma B\-cell induction study by Griss et al. and scRNA\-seq data from Jerby\-Arnon et al.
 
 
 .. conda:package:: bioconductor-reactomegsa.data

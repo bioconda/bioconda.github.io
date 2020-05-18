@@ -11,7 +11,7 @@ bioconductor-chemmineob
 
    R interface to a subset of OpenBabel functionalities
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ChemmineOB.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ChemmineOB.html
    :license: file LICENSE
    :recipe: /`bioconductor-chemmineob <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemmineob>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemmineob/meta.yaml>`_
 

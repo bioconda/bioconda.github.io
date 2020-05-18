@@ -11,7 +11,7 @@ bioconductor-chipseqdbdata
 
    Data for the chipseqDB Workflow
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/chipseqDBData.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/chipseqDBData.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-chipseqdbdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseqdbdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseqdbdata/meta.yaml>`_
 

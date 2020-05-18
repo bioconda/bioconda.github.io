@@ -11,7 +11,7 @@ bioconductor-probatch
 
    Tools for Diagnostics and Corrections of Batch Effects in Proteomics
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/proBatch.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/proBatch.html
    :license: GPL-3
    :recipe: /`bioconductor-probatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-probatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-probatch/meta.yaml>`_
 

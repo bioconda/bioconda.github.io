@@ -11,7 +11,7 @@ bioconductor-genotypeeval
 
    QA\/QC of a gVCF or VCF file
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/genotypeeval.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/genotypeeval.html
    :license: file LICENSE
    :recipe: /`bioconductor-genotypeeval <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genotypeeval>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genotypeeval/meta.yaml>`_
 

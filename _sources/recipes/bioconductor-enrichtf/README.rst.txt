@@ -11,7 +11,7 @@ bioconductor-enrichtf
 
    Transcription Factors Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/enrichTF.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/enrichTF.html
    :license: GPL-3
    :recipe: /`bioconductor-enrichtf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichtf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichtf/meta.yaml>`_
 

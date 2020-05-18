@@ -11,7 +11,7 @@ bioconductor-motifrg
 
    A package for discriminative motif discovery\, designed for high throughput sequencing dataset
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/motifRG.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/motifRG.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-motifrg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifrg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifrg/meta.yaml>`_
    :links: biotools: :biotools:`motifrg`, doi: :doi:`10.1093/bioinformatics/btt615`

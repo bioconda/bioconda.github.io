@@ -11,7 +11,7 @@ bioconductor-hgfocusprobe
 
    Probe sequence data for microarrays of type hgfocus
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hgfocusprobe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hgfocusprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hgfocusprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgfocusprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgfocusprobe/meta.yaml>`_
 

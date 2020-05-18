@@ -11,7 +11,7 @@ bioconductor-hilbertvis
 
    Hilbert curve visualization
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/HilbertVis.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HilbertVis.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-hilbertvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvis/meta.yaml>`_
    :links: biotools: :biotools:`hilbertvis`, doi: :doi:`10.1093/bioinformatics/btp152`

@@ -11,7 +11,7 @@ bioconductor-cnvtools
 
    A package to test genetic association with CNV data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CNVtools.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CNVtools.html
    :license: GPL-3
    :recipe: /`bioconductor-cnvtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvtools/meta.yaml>`_
    :links: biotools: :biotools:`cnvtools`, doi: :doi:`10.1038/ng.206`

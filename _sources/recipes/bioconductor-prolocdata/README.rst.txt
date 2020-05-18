@@ -11,7 +11,7 @@ bioconductor-prolocdata
 
    Data accompanying the pRoloc package
 
-   :homepage: https://bioconductor.org/packages/3.10/data/experiment/html/pRolocdata.html
+   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/pRolocdata.html
    :license: GPL-2
    :recipe: /`bioconductor-prolocdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocdata/meta.yaml>`_
 

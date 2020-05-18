@@ -11,7 +11,7 @@ bioconductor-roleswitch
 
    Infer miRNA\-mRNA interactions using paired expression data from a single sample
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Roleswitch.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Roleswitch.html
    :license: GPL-2
    :recipe: /`bioconductor-roleswitch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roleswitch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roleswitch/meta.yaml>`_
    :links: biotools: :biotools:`roleswitch`

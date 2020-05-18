@@ -11,7 +11,7 @@ bioconductor-mgu74acdf
 
    mgu74acdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mgu74acdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mgu74acdf.html
    :license: LGPL
    :recipe: /`bioconductor-mgu74acdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74acdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74acdf/meta.yaml>`_
 

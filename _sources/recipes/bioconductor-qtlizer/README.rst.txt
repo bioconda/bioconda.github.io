@@ -11,7 +11,7 @@ bioconductor-qtlizer
 
    Qtlizer\: comprehensive QTL annotation of GWAS results
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Qtlizer.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Qtlizer.html
    :license: GPL-3
    :recipe: /`bioconductor-qtlizer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qtlizer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qtlizer/meta.yaml>`_
 

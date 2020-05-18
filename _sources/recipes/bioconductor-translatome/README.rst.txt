@@ -11,7 +11,7 @@ bioconductor-translatome
 
    Comparison between multiple levels of gene expression
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/tRanslatome.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/tRanslatome.html
    :license: GPL-3
    :recipe: /`bioconductor-translatome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-translatome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-translatome/meta.yaml>`_
    :links: biotools: :biotools:`translatome`, doi: :doi:`10.1093/bioinformatics/btt634`

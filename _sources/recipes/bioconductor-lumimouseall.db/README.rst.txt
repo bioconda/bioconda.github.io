@@ -11,7 +11,7 @@ bioconductor-lumimouseall.db
 
    Illumina Mouse Illumina expression annotation data \(chip lumiMouseAll\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/lumiMouseAll.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/lumiMouseAll.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lumimouseall.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumimouseall.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumimouseall.db/meta.yaml>`_
 

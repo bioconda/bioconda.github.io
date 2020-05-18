@@ -11,7 +11,7 @@ bioconductor-biobase
 
    Biobase\: Base functions for Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Biobase.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Biobase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biobase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobase/meta.yaml>`_
    :links: biotools: :biotools:`biobase`

@@ -11,7 +11,7 @@ bioconductor-dmrcate
 
    Methylation array and sequencing spatial analysis methods
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DMRcate.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DMRcate.html
    :license: file LICENSE
    :recipe: /`bioconductor-dmrcate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcate/meta.yaml>`_
    :links: biotools: :biotools:`dmrcate`

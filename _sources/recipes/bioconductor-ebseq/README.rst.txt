@@ -11,7 +11,7 @@ bioconductor-ebseq
 
    An R package for gene and isoform differential expression analysis of RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/EBSeq.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EBSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ebseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebseq/meta.yaml>`_
    :links: biotools: :biotools:`ebseq`, doi: :doi:`10.1093/bioinformatics/btt087`

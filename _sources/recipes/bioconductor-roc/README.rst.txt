@@ -11,7 +11,7 @@ bioconductor-roc
 
    utilities for ROC\, with microarray focus
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ROC.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ROC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-roc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roc/meta.yaml>`_
    :links: biotools: :biotools:`roc`, doi: :doi:`10.1038/nmeth.3252`

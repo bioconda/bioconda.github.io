@@ -11,7 +11,7 @@ bioconductor-qrqc
 
    Quick Read Quality Control
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/qrqc.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/qrqc.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-qrqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qrqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qrqc/meta.yaml>`_
    :links: biotools: :biotools:`qrqc`, doi: :doi:`10.1038/nmeth.3252`

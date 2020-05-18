@@ -11,7 +11,7 @@ bioconductor-diffcyt
 
    Differential discovery in high\-dimensional cytometry via high\-resolution clustering
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/diffcyt.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/diffcyt.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-diffcyt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcyt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcyt/meta.yaml>`_
 
@@ -22,16 +22,16 @@ bioconductor-diffcyt
 
    |downloads_bioconductor-diffcyt| |docker_bioconductor-diffcyt|
 
-   :versions: 1.6.0-0, 1.4.3-0, 1.2.23-1, 1.2.0-0
+   :versions: 1.8.6-0, 1.6.0-0, 1.4.3-0, 1.2.23-1, 1.2.0-0
    
-   :depends bioconductor-complexheatmap: >=2.2.0,<2.3.0
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowsom: >=1.18.0,<1.19.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
+   :depends bioconductor-edger: >=3.30.0,<3.31.0
+   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
+   :depends bioconductor-flowsom: >=1.20.0,<1.21.0
+   :depends bioconductor-limma: >=3.44.0,<3.45.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-circlize: 
    :depends r-dplyr: 
    :depends r-lme4: 

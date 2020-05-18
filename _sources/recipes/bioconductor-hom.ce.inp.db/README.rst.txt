@@ -11,7 +11,7 @@ bioconductor-hom.ce.inp.db
 
    Homology information for Caenorhabditis elegans from Inparanoid
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/hom.Ce.inp.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hom.Ce.inp.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hom.ce.inp.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hom.ce.inp.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hom.ce.inp.db/meta.yaml>`_
 

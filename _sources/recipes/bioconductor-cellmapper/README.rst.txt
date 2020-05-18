@@ -11,7 +11,7 @@ bioconductor-cellmapper
 
    Predict genes expressed selectively in specific cell types
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/CellMapper.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CellMapper.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cellmapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmapper/meta.yaml>`_
    :links: biotools: :biotools:`cellmapper`

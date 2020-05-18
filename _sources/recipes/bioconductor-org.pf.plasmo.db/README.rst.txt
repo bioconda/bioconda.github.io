@@ -11,7 +11,7 @@ bioconductor-org.pf.plasmo.db
 
    Genome wide annotation for Malaria
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/org.Pf.plasmo.db.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/org.Pf.plasmo.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.pf.plasmo.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.pf.plasmo.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.pf.plasmo.db/meta.yaml>`_
 

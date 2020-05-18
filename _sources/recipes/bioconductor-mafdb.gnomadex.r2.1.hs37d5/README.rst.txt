@@ -11,7 +11,7 @@ bioconductor-mafdb.gnomadex.r2.1.hs37d5
 
    Minor allele frequency data from gnomAD exomes release 2.1 for hs37d5
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/MafDb.gnomADex.r2.1.hs37d5.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MafDb.gnomADex.r2.1.hs37d5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.gnomadex.r2.1.hs37d5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.gnomadex.r2.1.hs37d5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.gnomadex.r2.1.hs37d5/meta.yaml>`_
 

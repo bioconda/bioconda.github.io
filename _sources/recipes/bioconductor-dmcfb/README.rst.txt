@@ -11,7 +11,7 @@ bioconductor-dmcfb
 
    Differentially Methylated Cytosines via a Bayesian Functional Approach
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/DMCFB.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DMCFB.html
    :license: GPL-3
    :recipe: /`bioconductor-dmcfb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmcfb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmcfb/meta.yaml>`_
 

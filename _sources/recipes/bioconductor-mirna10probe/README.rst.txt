@@ -11,7 +11,7 @@ bioconductor-mirna10probe
 
    Probe sequence data for microarrays of type mirna10
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/mirna10probe.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mirna10probe.html
    :license: LGPL
    :recipe: /`bioconductor-mirna10probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirna10probe/meta.yaml>`_
 

@@ -11,7 +11,7 @@ bioconductor-msmstests
 
    LC\-MS\/MS Differential Expression Tests
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/msmsTests.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/msmsTests.html
    :license: GPL-2
    :recipe: /`bioconductor-msmstests <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmstests>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmstests/meta.yaml>`_
 

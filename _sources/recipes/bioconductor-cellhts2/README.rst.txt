@@ -11,7 +11,7 @@ bioconductor-cellhts2
 
    Analysis of cell\-based screens \- revised version of cellHTS
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/cellHTS2.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cellHTS2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cellhts2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellhts2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellhts2/meta.yaml>`_
    :links: biotools: :biotools:`cellhts2`

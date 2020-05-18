@@ -11,7 +11,7 @@ bioconductor-sesame
 
    Tools For Analyzing Illumina Infinium DNA Methylation Arrays
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/sesame.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sesame.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sesame <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesame>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesame/meta.yaml>`_
 

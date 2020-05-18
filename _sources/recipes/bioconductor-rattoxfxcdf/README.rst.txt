@@ -11,7 +11,7 @@ bioconductor-rattoxfxcdf
 
    rattoxfxcdf
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/rattoxfxcdf.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rattoxfxcdf.html
    :license: LGPL
    :recipe: /`bioconductor-rattoxfxcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rattoxfxcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rattoxfxcdf/meta.yaml>`_
 

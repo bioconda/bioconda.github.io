@@ -11,7 +11,7 @@ bioconductor-biotip
 
    BioTIP\: An R package for characterization of Biological Tipping\-Point
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/BioTIP.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BioTIP.html
    :license: GPL-2
    :recipe: /`bioconductor-biotip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotip/meta.yaml>`_
 

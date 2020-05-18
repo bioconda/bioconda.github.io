@@ -11,7 +11,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau3.masked
 
    Full masked genome sequences for Bos taurus \(UCSC version bosTau3\)
 
-   :homepage: https://bioconductor.org/packages/3.10/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau3.masked.html
+   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau3.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.btaurus.ucsc.bostau3.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau3.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau3.masked/meta.yaml>`_
 

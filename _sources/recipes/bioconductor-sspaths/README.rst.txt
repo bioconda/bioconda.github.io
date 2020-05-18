@@ -11,7 +11,7 @@ bioconductor-sspaths
 
    ssPATHS\: Single Sample PATHway Score
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/ssPATHS.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ssPATHS.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sspaths <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sspaths>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sspaths/meta.yaml>`_
 

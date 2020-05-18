@@ -11,7 +11,7 @@ bioconductor-panelcn.mops
 
    CNV detection tool for targeted NGS panel data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/panelcn.mops.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/panelcn.mops.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-panelcn.mops <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panelcn.mops>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panelcn.mops/meta.yaml>`_
 

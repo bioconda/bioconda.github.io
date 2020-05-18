@@ -9,9 +9,9 @@ bioconductor-messina
 .. conda:recipe:: bioconductor-messina
    :replaces_section_title:
 
-   Single\-gene classifiers and outlier\-resistant detection of differential expression for two\-group and survival problems.
+   Single\-gene classifiers and outlier\-resistant detection of differential expression for two\-group and survival problems
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/messina.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/messina.html
    :license: EPL (>= 1.0)
    :recipe: /`bioconductor-messina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-messina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-messina/meta.yaml>`_
    :links: biotools: :biotools:`messina`

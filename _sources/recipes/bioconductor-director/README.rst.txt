@@ -11,7 +11,7 @@ bioconductor-director
 
    A dynamic visualization tool of multi\-level data
 
-   :homepage: https://bioconductor.org/packages/3.10/bioc/html/Director.html
+   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Director.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-director <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-director>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-director/meta.yaml>`_
    :links: biotools: :biotools:`director`, doi: :doi:`10.1038/nmeth.3252`
