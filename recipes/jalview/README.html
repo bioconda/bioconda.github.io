@@ -102,7 +102,7 @@
 <dl class="conda recipe">
 <dt id="recipe-jalview">
 <em class="property">recipe </em><code class="sig-name descname">jalview</code><a class="headerlink" href="#recipe-jalview" title="Permalink to this definition">¶</a></dt>
-<dd><p>Jalview is a free program for multiple sequence alignment editing, visualisation and analysis.</p>
+<dd><p>Jalview is a free program for multiple sequence alignment editing, visualisation, analysis and figure generation.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="http://www.jalview.org/">http://www.jalview.org/</a></p>
@@ -114,9 +114,11 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jalview">jalview</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jalview/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>Jalview is a free program for multiple sequence alignment editing, visualisation and analysis.
+<p>Jalview is a free program for multiple sequence alignment editing, visualisation, analysis and figure generation.
 Use it to view and edit sequence alignments, analyse them with phylogenetic trees and principal
-components analysis (PCA) plots and explore molecular structures and annotation.</p>
+components analysis (PCA) plots and explore molecular structures and annotation. It is also able
+to import and annotate DNA and Protein products from VCF files and retrieve data and annotation from
+Uniprot, Ensembl, ENA, Rfam, Pfam and the PDBe.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -125,7 +127,7 @@ components analysis (PCA) plots and explore molecular structures and annotation.
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/jalview"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/jalview.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/jalview"><img alt="docker_jalview" src="https://quay.io/repository/biocontainers/jalview/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.11.0-1, 2.11.0-0, 2.10.5-3, 2.10.4-0, 2.10.4b1-2, 2.10.4b1-0, 2.10.3-1, 2.10.3-0, 2.10.3b1-0, 2.10.2b2-2, 2.10.2b2-1, 2.10.2b2-0</p>
+<dd class="field-odd"><p>2.11.1.0-0, 2.11.0-1, 2.11.0-0, 2.10.5-3, 2.10.4-0, 2.10.4b1-2, 2.10.4b1-0, 2.10.3-1, 2.10.3-0, 2.10.3b1-0, 2.10.2b2-2, 2.10.2b2-1, 2.10.2b2-0</p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -157,7 +159,8 @@ components analysis (PCA) plots and explore molecular structures and annotation.
 
 <div class="section" id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
-<p>This wrapper and installation is primarily for commandline-only use.</p>
+<p>This wrapper and installation is primarily for commandline-only use.
+Set JALVIEW_JRE=j1.8 or JALVIEW_JRE=j11 to specify the java runtime if you need jalview to start up as quickly as possible</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>

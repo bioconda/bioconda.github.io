@@ -23,7 +23,7 @@ macaron
 
    |downloads_macaron| |docker_macaron|
 
-   :versions: 0.7-0
+   :versions: 1.0-0, 0.7-0
    
    :depends gatk4: 
    :depends python: 

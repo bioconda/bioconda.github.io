@@ -11,7 +11,7 @@ biobb_structure_manager
 
    BioBB\_structure\_manager is a library to efficiently load and process biomolecular 3D structures.
 
-   :homepage: https://github.com/bioexcel/biobb_analysis
+   :homepage: https://github.com/bioexcel/BioBB_structure_manager
    :license: APACHE / Apache Software License
    :recipe: /`biobb_structure_manager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_structure_manager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_structure_manager/meta.yaml>`_
 
@@ -19,13 +19,6 @@ biobb_structure_manager
 
    \#\#\# Structure Manager package
    Python package to manage 3D structures. Wraps Bio.PDB with additional features.
-
-   \#\# Dependencies\:
-   \* python3
-   \* Bio.PDB \(Biopython\)
-   \* numpy
-
-
 
 
 

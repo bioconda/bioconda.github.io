@@ -9,7 +9,7 @@ motifscan
 .. conda:recipe:: motifscan
    :replaces_section_title:
 
-   A motif discovery tool to search for candidate targets of given motifs.
+   A package for motif discovery and motif enrichment analysis
 
    :homepage: https://github.com/shao-lab/MotifScan
    :license: BSD / BSD License
@@ -22,15 +22,17 @@ motifscan
 
    |downloads_motifscan| |docker_motifscan|
 
-   :versions: 1.1.2-1, 1.1.2-0, 1.1-1, 1.1-0
+   :versions: 1.2.1-0, 1.1.2-1, 1.1.2-0, 1.1-1, 1.1-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends matplotlib: 
-   :depends numpy: 
-   :depends pandas: >=0.17.0
-   :depends python: >=2.7,<2.8.0a0
-   :depends scipy: 
+   :depends libgcc-ng: >=7.5.0
+   :depends matplotlib-base: >=3.0.0
+   :depends numpy: >=1.15
+   :depends pysam: >=0.15.0
+   :depends python: >=3.6,<3.7.0a0
+   :depends python_abi: 3.6.* *_cp36m
+   :depends requests: 
+   :depends scipy: >=1.0
+   :depends tqdm: >=4.42.1
    :requirements:
 
    .. rubric:: Installation

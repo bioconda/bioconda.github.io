@@ -22,7 +22,7 @@ nucdiff
 
    |downloads_nucdiff| |docker_nucdiff|
 
-   :versions: 2.0.2-3, 2.0.2-2, 2.0.2-0, 0.1.1-0
+   :versions: 2.0.3-0, 2.0.2-3, 2.0.2-2, 2.0.2-0, 0.1.1-0
    
    :depends biopython: 
    :depends mummer: 

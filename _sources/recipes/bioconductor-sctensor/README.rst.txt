@@ -22,26 +22,28 @@ bioconductor-sctensor
 
    |downloads_bioconductor-sctensor| |docker_bioconductor-sctensor|
 
-   :versions: 1.2.0-0, 1.0.12-0
+   :versions: 1.4.0-0, 1.2.0-0, 1.0.12-0
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-biocstyle: >=2.14.0,<2.15.0
-   :depends bioconductor-category: >=2.52.0,<2.53.0
-   :depends bioconductor-dose: >=3.12.0,<3.13.0
-   :depends bioconductor-gostats: >=2.52.0,<2.53.0
-   :depends bioconductor-meshdbi: >=1.22.0,<1.23.0
-   :depends bioconductor-meshr: >=1.22.0,<1.23.0
+   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
+   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
+   :depends bioconductor-biocstyle: >=2.16.0,<2.17.0
+   :depends bioconductor-category: >=2.54.0,<2.55.0
+   :depends bioconductor-dose: >=3.14.0,<3.15.0
+   :depends bioconductor-gostats: >=2.54.0,<2.55.0
+   :depends bioconductor-meshdbi: >=1.24.0,<1.25.0
+   :depends bioconductor-meshr: >=1.24.0,<1.25.0
    :depends bioconductor-reactome.db: >=1.70.0,<1.71.0
-   :depends bioconductor-reactomepa: >=1.30.0,<1.31.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends bioconductor-singlecellexperiment: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
+   :depends bioconductor-reactomepa: >=1.32.0,<1.33.0
+   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-schex: >=1.2.0,<1.3.0
+   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
+   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
    :depends r-abind: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: >=4.0,<4.1.0a0
    :depends r-biocmanager: 
    :depends r-checkmate: 
    :depends r-crayon: 
+   :depends r-ggplot2: 
    :depends r-heatmaply: 
    :depends r-igraph: 
    :depends r-knitr: 
