@@ -9,7 +9,7 @@ mamotif
 .. conda:recipe:: mamotif
    :replaces_section_title:
 
-   An integrative toolkit for searching cell type\-specific co\-factors associated with differential binding.
+   An integrative toolkit for detecting cell type\-specific regulators
 
    :homepage: https://github.com/shao-lab/MAmotif
    :license: BSD / BSD License
@@ -22,11 +22,13 @@ mamotif
 
    |downloads_mamotif| |docker_mamotif|
 
-   :versions: 1.0.1-1, 1.0.1-0, 1.0-1, 1.0-0
+   :versions: 1.1.0-0, 1.0.1-1, 1.0.1-0, 1.0-1, 1.0-0
    
-   :depends manorm: >=1.1.4
-   :depends motifscan: >=1.1.2
-   :depends python: <3
+   :depends manorm: >=1.3.0
+   :depends motifscan: >=1.2.1
+   :depends numpy: >=1.15
+   :depends python: >=3.6
+   :depends scipy: >=1.0
    :requirements:
 
    .. rubric:: Installation

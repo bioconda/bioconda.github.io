@@ -9,9 +9,8 @@ qorts
 .. conda:recipe:: qorts
    :replaces_section_title:
 
-   The QoRTs software package is a fast\, efficient\, and portable multifunction
-   toolkit designed to assist in the analysis\, quality control\, and data
-   management of RNA\-Seq datasets.
+   QoRTs toolkit for analysis\, quality control\, and data management of RNA\-Seq
+   datasets.
 
 
    :homepage: http://hartleys.github.io/QoRTs/
@@ -25,11 +24,11 @@ qorts
 
    |downloads_qorts| |docker_qorts|
 
-   :versions: 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.1.8-0
+   :versions: 1.3.6-0, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.1.8-0
    
    :depends openjdk: 
    :depends python: 
-   :depends r-qorts: 1.3.0
+   :depends r-qorts: 1.3.6
    :requirements:
 
    .. rubric:: Installation
@@ -63,12 +62,11 @@ qorts
 
 Notes
 -----
-QoRTs is Java program that comes with a custom wrapper shell script.
-This shell wrapper is called \"qorts\" and is on \$PATH by default. By default
-\"\-Xms512m \-Xmx1g\" is set in the wrapper. If you want to overwrite it you can
-specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
-set globally this will take precedence.
-For example run it with \"qorts \-Xms512m \-Xmx1g\"
+Based on the Picard equivalent\, found in the BioConda recipies repo.
+Simplifies the call to the QoRTs JAVA utility so that you can just go \:\-
+  qorts \[Java Options\] QC \[QoRTs options\] input.bam annotation.gtf outputDir
+which is equivalent to \:\-
+  java \[Java Options\] \-jar \/path\/to\/jar\/QoRTs.jar QC \[QoRTs options\] input.bam annotation.gtf outputDir
 
 
 Link to this page

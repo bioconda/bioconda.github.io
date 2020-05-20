@@ -29,16 +29,12 @@ perl-obogaf-parser
 
    |downloads_perl-obogaf-parser| |docker_perl-obogaf-parser|
 
-   :versions: 1.272-0, 1.271-0, 1.016-0
+   :versions: 1.373-0, 1.272-0, 1.271-0, 1.016-0
    
    :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-extutils-makemaker: 
    :depends perl-graph: 
-   :depends perl-module-metadata: 
+   :depends perl-list-moreutils: 
    :depends perl-perlio-gzip: 
-   :depends perl-test-exception: 
-   :depends perl-test-files: 
-   :depends perl-test-more: 
    :requirements:
 
    .. rubric:: Installation
