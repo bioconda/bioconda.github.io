@@ -22,10 +22,10 @@ igphyml
 
    |downloads_igphyml| |docker_igphyml|
 
-   :versions: 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0
+   :versions: 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0
    
    :depends changeo: >=0.4.6
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
    :depends r-alakazam: >=0.3.0
    :requirements:
 

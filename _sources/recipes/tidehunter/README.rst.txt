@@ -12,7 +12,7 @@ tidehunter
    TideHunter\: efficient and sensitive tandem repeat detection from noisy long reads using seed\-and\-chain
 
    :homepage: https://github.com/yangao07/TideHunter
-   :license: GPL
+   :license: MIT
    :recipe: /`tidehunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidehunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidehunter/meta.yaml>`_
 
    
@@ -22,10 +22,10 @@ tidehunter
 
    |downloads_tidehunter| |docker_tidehunter|
 
-   :versions: 1.3.0-0, 1.2.2-1, 1.2.2-0
+   :versions: 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.2.2-1, 1.2.2-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

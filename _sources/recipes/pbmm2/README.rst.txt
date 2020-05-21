@@ -22,11 +22,11 @@ pbmm2
 
    |downloads_pbmm2| |docker_pbmm2|
 
-   :versions: 1.3.0-0, 1.2.1-0, 1.1.0-0, 1.0.0-0, 0.12.0-0, 0.11.0-0, 0.10.1-1, 0.10.1-0, 0.10.0-0, 0.9.0-0, 0.8.1-0, 0.7.0-0, 0.6.0-0, 0.5.1-0
+   :versions: 1.3.0-1, 1.3.0-0, 1.2.1-0, 1.1.0-0, 1.0.0-0, 0.12.0-0, 0.11.0-0, 0.10.1-1, 0.10.1-0, 0.10.0-0, 0.9.0-0, 0.8.1-0, 0.7.0-0, 0.6.0-0, 0.5.1-0
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends htslib: >=1.10.2,<1.11.0a0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
