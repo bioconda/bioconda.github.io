@@ -47,11 +47,11 @@ biobb_model
 
    |downloads_biobb_model| |docker_biobb_model|
 
-   :versions: 2.0.1-0, 2.0.0-0, 1.1.9-0, 0.1.8-0, 0.1.7-1, 0.1.6-1, 0.1.5-1, 0.1.5-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.6-0
+   :versions: 3.0.0-0, 2.0.1-0, 2.0.0-0, 1.1.9-0, 0.1.8-0, 0.1.7-1, 0.1.6-1, 0.1.5-1, 0.1.5-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.6-0
    
-   :depends biobb_common: 2.0.1
-   :depends biobb_structure_checking: 1.0.7
-   :depends python: 3.6.*
+   :depends biobb_common: 3.0.0
+   :depends biobb_structure_checking: 3.0.2
+   :depends python: 3.7.*
    :requirements:
 
    .. rubric:: Installation

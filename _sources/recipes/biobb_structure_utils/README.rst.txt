@@ -41,11 +41,11 @@ biobb_structure_utils
 
    |downloads_biobb_structure_utils| |docker_biobb_structure_utils|
 
-   :versions: 2.0.0-0
+   :versions: 3.0.0-0, 2.0.0-0
    
-   :depends biobb_common: 2.0.1
-   :depends biobb_structure_checking: 1.0.6
-   :depends python: 3.6.*
+   :depends biobb_common: 3.0.0
+   :depends biobb_structure_checking: 3.0.2
+   :depends python: 3.7.*
    :requirements:
 
    .. rubric:: Installation

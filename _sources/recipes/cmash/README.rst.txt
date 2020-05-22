@@ -23,7 +23,7 @@ cmash
 
    |downloads_cmash| |docker_cmash|
 
-   :versions: 0.5.0-0, 0.4.0-0
+   :versions: 0.5.1-0, 0.5.0-0, 0.4.0-0
    
    :depends blist: 
    :depends h5py: 

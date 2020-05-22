@@ -129,9 +129,10 @@ biobb_structure_checking
 
    |downloads_biobb_structure_checking| |docker_biobb_structure_checking|
 
-   :versions: 3.0.1-0, 3.0.0-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 0.0.1-0
+   :versions: 3.0.2-0, 3.0.1-0, 3.0.0-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 0.0.1-0
    
-   :depends biobb_structure_manager: 3.0.1
+   :depends biobb_structure_manager: 3.0.2
+   :depends psutil: 
    :depends python: 3.7.*
    :requirements:
 
