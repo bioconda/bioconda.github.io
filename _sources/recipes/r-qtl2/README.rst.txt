@@ -22,10 +22,10 @@ r-qtl2
 
    |downloads_r-qtl2| |docker_r-qtl2|
 
-   :versions: 0.20-1, 0.20-0
+   :versions: 0.22-0, 0.20-1, 0.20-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
    :depends r-base: >=4.0,<4.1.0a0
    :depends r-data.table: >=1.10.4_3
    :depends r-jsonlite: >=0.9.17

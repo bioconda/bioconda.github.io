@@ -22,7 +22,7 @@ genomepy
 
    |downloads_genomepy| |docker_genomepy|
 
-   :versions: 0.8.1-0, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.5-1, 0.5.5-0, 0.5.4-1, 0.5.4-0, 0.5.2-2, 0.5.2-1, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0
+   :versions: 0.8.1-1, 0.8.1-0, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.5-1, 0.5.5-0, 0.5.4-1, 0.5.4-0, 0.5.2-2, 0.5.2-1, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0
    
    :depends appdirs: 
    :depends biopython: >=1.73
@@ -34,6 +34,7 @@ genomepy
    :depends pyfaidx: >=0.5.1
    :depends python: >3
    :depends requests: 
+   :depends tabix: 
    :depends ucsc-bedtogenepred: 
    :depends ucsc-genepredtobed: 
    :depends ucsc-genepredtogtf: 
