@@ -22,7 +22,7 @@ checkv
 
    |downloads_checkv| |docker_checkv|
 
-   :versions: 0.6.0-0, 0.5.1-1, 0.5.1-0, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.0-0, 0.1.0-0
+   :versions: 0.6.0-1, 0.6.0-0, 0.5.1-1, 0.5.1-0, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.0-0, 0.1.0-0
    
    :depends biopython: 
    :depends blast: 
@@ -32,7 +32,6 @@ checkv
    :depends numpy: 
    :depends prodigal: 
    :depends psutil: 
-   :depends pytest: 
    :depends python: >=3.6
    :requirements:
 

@@ -24,9 +24,9 @@ scirpy
 
    |downloads_scirpy| |docker_scirpy|
 
-   :versions: 0.1.2-0, 0.1.1-0
+   :versions: 0.2-0, 0.1.2-0, 0.1.1-0
    
-   :depends anndata: >=0.7.1
+   :depends anndata: >=0.7.3
    :depends get_version: 
    :depends networkx: 
    :depends numpy: 
@@ -35,10 +35,11 @@ scirpy
    :depends python: >=3.6
    :depends python-igraph: 
    :depends python-levenshtein: 
-   :depends scanpy: >=1.4.6
+   :depends scanpy: >=1.5.1
    :depends scikit-learn: 
    :depends scipy: 
    :depends squarify: 
+   :depends tqdm: >=4.29.1
    :requirements:
 
    .. rubric:: Installation

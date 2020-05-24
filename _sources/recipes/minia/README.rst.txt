@@ -23,10 +23,10 @@ minia
 
    |downloads_minia| |docker_minia|
 
-   :versions: 3.2.2-0, 3.2.1-0
+   :versions: 3.2.3-0, 3.2.2-0, 3.2.1-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

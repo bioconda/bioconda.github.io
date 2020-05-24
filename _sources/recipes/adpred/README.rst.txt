@@ -22,7 +22,7 @@ adpred
 
    |downloads_adpred| |docker_adpred|
 
-   :versions: 1.2.5-0, 1.2.4-0, 1.1.3-0
+   :versions: 1.2.7-0, 1.2.5-0, 1.2.4-0, 1.1.3-0
    
    :depends keras: 2.2.4
    :depends numpy: 1.17.2
