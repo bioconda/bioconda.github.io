@@ -22,15 +22,14 @@ unitig-caller
 
    |downloads_unitig-caller| |docker_unitig-caller|
 
-   :versions: 1.0.1-0, 1.0.0-0, 0.2.0-0
+   :versions: 1.1.0-0, 1.0.1-0, 1.0.0-0, 0.2.0-0
    
+   :depends bifrost: 
    :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends mantis: >=0.2.0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
    :depends python: >=3.6,<3.7.0a0
    :depends python_abi: 3.6.* *_cp36m
-   :depends squeakr: >=0.6
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 
