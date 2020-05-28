@@ -22,7 +22,7 @@ artic
 
    |downloads_artic| |docker_artic|
 
-   :versions: 1.1.0_rc2-0
+   :versions: 1.1.1-0, 1.1.0_rc2-0
    
    :depends artic-porechop: 0.3.2pre.*
    :depends bcftools: 1.9.*
@@ -33,7 +33,7 @@ artic
    :depends medaka: >=0.12.1
    :depends minimap2: 2.17.*
    :depends muscle: >=3.8
-   :depends nanopolish: >=0.13.0
+   :depends nanopolish: >=0.13.2
    :depends pandas: <1
    :depends pysam: >=0.15.3
    :depends python: >=3

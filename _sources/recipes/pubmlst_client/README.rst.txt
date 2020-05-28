@@ -22,7 +22,7 @@ pubmlst_client
 
    |downloads_pubmlst_client| |docker_pubmlst_client|
 
-   :versions: 0.1.0-0
+   :versions: 0.2.0-0, 0.1.0-0
    
    :depends python: >=3
    :requirements:
