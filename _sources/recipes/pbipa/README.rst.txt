@@ -22,7 +22,7 @@ pbipa
 
    |downloads_pbipa| |docker_pbipa|
 
-   :versions: 0.0.1-0
+   :versions: 1.0.3-0, 0.0.1-0
    
    :depends htslib: >=1.9,<1.10.0a0
    :depends libgcc-ng: >=7.5.0

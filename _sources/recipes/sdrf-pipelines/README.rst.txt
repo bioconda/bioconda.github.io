@@ -22,7 +22,7 @@ sdrf-pipelines
 
    |downloads_sdrf-pipelines| |docker_sdrf-pipelines|
 
-   :versions: 0.0.4-0, 0.0.3-0, 0.0.2-0
+   :versions: 0.0.5-0, 0.0.4-0, 0.0.3-0, 0.0.2-0
    
    :depends click: 
    :depends pandas: 

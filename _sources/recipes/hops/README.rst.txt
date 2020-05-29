@@ -9,7 +9,7 @@ hops
 .. conda:recipe:: hops
    :replaces_section_title:
 
-   Java tool to work on ancient metagenomics
+   Java tool to work with ancient metagenomics
 
    :homepage: https://github.com/rhuebler/HOPS/
    :license: GPL >=3
@@ -22,7 +22,7 @@ hops
 
    |downloads_hops| |docker_hops|
 
-   :versions: 0.33-2, 0.33-1, 0.33-0, 0.31-1, 0.31-0
+   :versions: 0.34-0, 0.33-2, 0.33-1, 0.33-0, 0.31-1, 0.31-0
    
    :depends malt: 
    :depends openjdk: 8.0.144.*
@@ -32,6 +32,7 @@ hops
    :depends r-getopt: 
    :depends r-gridbase: 
    :depends r-gridextra: 
+   :depends r-jsonlite: 
    :requirements:
 
    .. rubric:: Installation
