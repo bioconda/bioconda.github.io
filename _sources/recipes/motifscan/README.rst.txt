@@ -22,7 +22,7 @@ motifscan
 
    |downloads_motifscan| |docker_motifscan|
 
-   :versions: 1.2.1-0, 1.1.2-1, 1.1.2-0, 1.1-1, 1.1-0
+   :versions: 1.2.2-0, 1.2.1-0, 1.1.2-1, 1.1.2-0, 1.1-1, 1.1-0
    
    :depends libgcc-ng: >=7.5.0
    :depends matplotlib-base: >=3.0.0

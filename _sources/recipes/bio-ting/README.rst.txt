@@ -22,7 +22,7 @@ bio-ting
 
    |downloads_bio-ting| |docker_bio-ting|
 
-   :versions: 1.0.1-0
+   :versions: 1.0.2-0, 1.0.1-0
    
    :depends networkx: >=2.4,<2.5
    :depends numpy: >=1.17,<1.18
