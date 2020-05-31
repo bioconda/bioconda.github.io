@@ -9,7 +9,7 @@ bellmans-gapc
 .. conda:recipe:: bellmans-gapc
    :replaces_section_title:
 
-   The Bellman\'s GAP Compiler \(GAP\-C\) is the novel ADP compiler which translates GAP\-L programs into efficient C\+\+ code. It implements several semantic analyses for optimization purposes\, error reporting\, type checking and automatic table design.
+   A language and compiler for algebraic dynamic programming.
 
    :homepage: https://bibiserv.cebitec.uni-bielefeld.de/gapc
    :license: GPLv3+
@@ -22,12 +22,13 @@ bellmans-gapc
 
    |downloads_bellmans-gapc| |docker_bellmans-gapc|
 
-   :versions: 0.1-2, 0.1-1, 0.1-0
+   :versions: 2020.01.08-0, 0.1-2, 0.1-1, 0.1-0
    
-   :depends boost: 1.64*
-   :depends gsl: 2.2*
-   :depends libgcc: 
-   :depends openblas: 
+   :depends boost: >=1.70.0,<1.70.1.0a0
+   :depends gsl: >=2.6,<2.7.0a0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
+   :depends openblas: >=0.3.6,<0.3.7.0a0
    :requirements:
 
    .. rubric:: Installation
