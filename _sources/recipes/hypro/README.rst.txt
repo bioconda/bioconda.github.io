@@ -1,0 +1,72 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'hypro'
+.. highlight: bash
+
+hypro
+=====
+
+.. conda:recipe:: hypro
+   :replaces_section_title:
+
+   Extend hypothetical prokka protein annotations using additional homology searches against larger databases
+
+   :homepage: https://github.com/hoelzer-lab/hypro.git
+   :license: GPL
+   :recipe: /`hypro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hypro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hypro/meta.yaml>`_
+
+   
+
+
+.. conda:package:: hypro
+
+   |downloads_hypro| |docker_hypro|
+
+   :versions: 0.1-0
+   
+   :depends mmseqs2: 10.6d92c.*
+   :depends mygene: 3.1.0.*
+   :depends pandas: 0.25.2.*
+   :depends prokka: >=1.14.6
+   :depends python: 3.7.*
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hypro
+
+   and update with::
+
+      conda update hypro
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/hypro:<tag>
+
+   (see `hypro/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_hypro| image:: https://img.shields.io/conda/dn/bioconda/hypro.svg?style=flat
+   :target: https://anaconda.org/bioconda/hypro
+   :alt:   (downloads)
+.. |docker_hypro| image:: https://quay.io/repository/biocontainers/hypro/status
+   :target: https://quay.io/repository/biocontainers/hypro
+.. _`hypro/tags`: https://quay.io/repository/biocontainers/hypro?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hypro/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hypro/README.html

@@ -22,7 +22,7 @@ pygtftk
 
    |downloads_pygtftk| |docker_pygtftk|
 
-   :versions: 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.9-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.2-0, 1.0.1-0
+   :versions: 1.1.4-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.9-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.2-0, 1.0.1-0
    
    :depends bedtools: >=2.23
    :depends biopython: >=1.69
@@ -31,8 +31,8 @@ pygtftk
    :depends cloudpickle: >=0.4.0
    :depends ftputil: >=3.3.1,<4.0.0
    :depends future: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
    :depends matplotlib-base: >=2.0.2
    :depends mpmath: 
    :depends nose: 

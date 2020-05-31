@@ -22,7 +22,7 @@ galru
 
    |downloads_galru| |docker_galru|
 
-   :versions: 0.0.2-1, 0.0.2-0
+   :versions: 1.0.0-0, 0.0.2-1, 0.0.2-0
    
    :depends bedtools: 
    :depends biopython: >=1.68

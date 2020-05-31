@@ -22,13 +22,13 @@ cdna_cupcake
 
    |downloads_cdna_cupcake| |docker_cdna_cupcake|
 
-   :versions: 12.0.0-0, 11.0.0-0, 10.0.1-0, 9.1.1-0, 9.0.3-0, 8.7.3-0, 5.8-0, 5.3-1, 5.3-0
+   :versions: 12.1.0-0, 12.0.0-0, 11.0.0-0, 10.0.1-0, 9.1.1-0, 9.0.3-0, 8.7.3-0, 5.8-0, 5.3-1, 5.3-0
    
    :depends bcbiogff: 
    :depends biopython: 
    :depends bx-python: >=0.7.3
    :depends graphviz: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
    :depends numpy: >=1.14.6,<2.0a0
    :depends pysam: 
    :depends python: >=3.7,<3.8.0a0
