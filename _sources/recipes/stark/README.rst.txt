@@ -22,7 +22,7 @@ stark
 
    |downloads_stark| |docker_stark|
 
-   :versions: 0.1-0
+   :versions: 0.1.1-0, 0.1-0
    
    :depends libgcc-ng: >=7.5.0
    :depends libstdcxx-ng: >=7.5.0

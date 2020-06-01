@@ -12,7 +12,7 @@ ont-fast5-api
    Oxford Nanopore Technologies fast5 API software
 
    :homepage: https://github.com/nanoporetech/ont_fast5_api
-   :license: OTHER / Mozilla Public 2.0 (MPL 2.0)
+   :license: MOZILLA / MPL-2.0
    :recipe: /`ont-fast5-api <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ont-fast5-api>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ont-fast5-api/meta.yaml>`_
 
    
@@ -22,12 +22,13 @@ ont-fast5-api
 
    |downloads_ont-fast5-api| |docker_ont-fast5-api|
 
-   :versions: 3.0.1-0, 3.0.0-0, 2.0.1-0, 2.0.0-0, 1.4.8-1, 1.4.8-0, 1.4.7-0, 1.4.4-0, 1.4.3-0, 1.4.0-0, 1.3.0-0, 1.2.0-0, 1.1.0-0, 1.0.1-1, 1.0.1-0, 0.4.1-1, 0.4.1-0
+   :versions: 3.1.3-0, 3.0.1-0, 3.0.0-0, 2.0.1-0, 2.0.0-0, 1.4.8-1, 1.4.8-0, 1.4.7-0, 1.4.4-0, 1.4.3-0, 1.4.0-0, 1.3.0-0, 1.2.0-0, 1.1.0-0, 1.0.1-1, 1.0.1-0, 0.4.1-1, 0.4.1-0
    
-   :depends h5py: >=2.2.1
-   :depends numpy: >=1.8.1
+   :depends h5py: >=2.6
+   :depends numpy: >=1.11
+   :depends packaging: 
    :depends progressbar33: >=2.3.1
-   :depends python: 
+   :depends python: >=3
    :depends six: >=1.9
    :requirements:
 

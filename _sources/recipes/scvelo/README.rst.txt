@@ -22,11 +22,11 @@ scvelo
 
    |downloads_scvelo| |docker_scvelo|
 
-   :versions: 0.1.25-0, 0.1.24-0
+   :versions: 0.2.1-0, 0.1.25-0, 0.1.24-0
    
    :depends anndata: >=0.6.18
    :depends loompy: >=2.0.12
-   :depends matplotlib: >=2.2
+   :depends matplotlib-base: >=2.2
    :depends numpy: >=1.17
    :depends pandas: >=0.23
    :depends python: >=3.6

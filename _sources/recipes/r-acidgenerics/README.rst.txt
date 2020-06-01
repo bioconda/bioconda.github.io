@@ -23,7 +23,7 @@ r-acidgenerics
 
    |downloads_r-acidgenerics| |docker_r-acidgenerics|
 
-   :versions: 0.3.4-1, 0.3.4-0, 0.3.0-0
+   :versions: 0.3.5-0, 0.3.4-1, 0.3.4-0, 0.3.0-0
    
    :depends r-base: >=4.0,<4.1.0a0
    :requirements:

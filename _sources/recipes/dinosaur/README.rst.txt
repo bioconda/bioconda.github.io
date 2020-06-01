@@ -22,7 +22,7 @@ dinosaur
 
    |downloads_dinosaur| |docker_dinosaur|
 
-   :versions: 1.1.3-0
+   :versions: 1.2.0-0, 1.1.3-0
    
    :depends openjdk: 
    :depends python: 

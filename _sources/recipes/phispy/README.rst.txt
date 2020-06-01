@@ -26,7 +26,7 @@ phispy
 
    |downloads_phispy| |docker_phispy|
 
-   :versions: 4.0.0-0, 3.7.8-0
+   :versions: 4.0.3-0, 4.0.0-0, 3.7.8-0
    
    :depends biopython: >=1.74
    :depends libgcc-ng: >=7.5.0
