@@ -26,11 +26,11 @@ tobias
 
    |downloads_tobias| |docker_tobias|
 
-   :versions: 0.11.2-0, 0.11.1-0, 0.11.0-0, 0.9.0-0, 0.8.0-0, 0.7.0-0, 0.6.4-0, 0.6.1-0, 0.5.0-0
+   :versions: 0.11.3-0, 0.11.2-0, 0.11.1-0, 0.11.0-0, 0.9.0-0, 0.8.0-0, 0.7.0-0, 0.6.4-0, 0.6.1-0, 0.5.0-0
    
    :depends adjusttext: 
    :depends boto3: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
    :depends logomaker: 
    :depends matplotlib-base: >=2
    :depends moods: 

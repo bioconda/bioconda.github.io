@@ -23,16 +23,10 @@ rxdock
 
    |downloads_rxdock| |docker_rxdock|
 
-   :versions: 2013.1.0_b93747f3-0
+   :versions: 2013.1.1_148c5bd1-0, 2013.1.0_b93747f3-0
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends numpy: 
-   :depends openbabel: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends popt: >=1.16,<2.0a0
-   :depends python: >=2.7,<2.8.0a0
-   :depends python_abi: 2.7.* *_cp27mu
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
    :requirements:
 
    .. rubric:: Installation

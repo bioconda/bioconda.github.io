@@ -24,13 +24,14 @@ sra-tools
 
    |downloads_sra-tools| |docker_sra-tools|
 
-   :versions: 2.10.3-0, 2.10.1-0, 2.10.0-0, 2.9.6-0, 2.9.1_1-0, 2.9.1-0, 2.9.0-1, 2.8.2-1, 2.8.2-0, 2.8.1-0, 2.8.0-0, 2.7.0-0, 2.6.3-0, 2.6.2-0
+   :versions: 2.10.7-0, 2.10.3-0, 2.10.1-0, 2.10.0-0, 2.9.6-0, 2.9.1_1-0, 2.9.1-0, 2.9.0-1, 2.8.2-1, 2.8.2-0, 2.8.1-0, 2.8.0-0, 2.7.0-0, 2.6.3-0, 2.6.2-0
    
    :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
    :depends libxml2: >=2.9.10,<2.10.0a0
    :depends ncbi-ngs-sdk: 
+   :depends ossuuid: 
    :depends perl: >=5.26.2,<5.26.3.0a0
    :depends perl-uri: 
    :depends perl-xml-libxml: 

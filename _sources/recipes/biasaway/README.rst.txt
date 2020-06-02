@@ -24,7 +24,7 @@ biasaway
 
    |downloads_biasaway| |docker_biasaway|
 
-   :versions: 2.1.0-0, 2.0.4-0, 2.0.1-0, 1.0.4-0, 1.0.2-0
+   :versions: 2.2.1-0, 2.1.0-0, 2.0.4-0, 2.0.1-0, 1.0.4-0, 1.0.2-0
    
    :depends biopython: 
    :depends numpy: <=1.16.5
