@@ -6,14 +6,14 @@
 fpa
 ===
 
-.. conda:recipe:: fpa/v0.4
+.. conda:recipe:: fpa
    :replaces_section_title:
 
    Filter Pairwise Alignment filter long read mapping information to save disk space
 
    :homepage: https://github.com/natir/yacrd
    :license: MIT / MIT
-   :recipe: /`fpa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fpa>`_/`v0.4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fpa/v0.4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fpa/v0.4/meta.yaml>`_
+   :recipe: /`fpa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fpa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fpa/meta.yaml>`_
 
    
 
@@ -22,11 +22,11 @@ fpa
 
    |downloads_fpa| |docker_fpa|
 
-   :versions: 0.5-2, 0.5-1, 0.4-2, 0.4-0, 0.3-0, 0.2-1, 0.1.1-1
+   :versions: 0.5.1-0, 0.5-2, 0.5-1, 0.4-2, 0.4-0, 0.3-0, 0.2-1, 0.1.1-1
    
    :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends xz: >=5.2.4,<5.3.0a0
+   :depends libgcc-ng: >=7.5.0
+   :depends xz: >=5.2.5,<5.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

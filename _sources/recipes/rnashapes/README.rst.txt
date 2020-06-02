@@ -22,13 +22,12 @@ rnashapes
 
    |downloads_rnashapes| |docker_rnashapes|
 
-   :versions: 3.3.0-0, 2.1.6-3, 2.1.6-2, 2.1.6-1, 2.1.6-0
+   :versions: 3.3.0-3, 3.3.0-0, 2.1.6-3, 2.1.6-2, 2.1.6-1, 2.1.6-0
    
-   :depends bellmans-gapc: 
-   :depends boost: 1.61*
-   :depends gsl: 1.16*
-   :depends libgcc: 
-   :depends perl: 5.22.0*
+   :depends bellmans-gapc: >=2020.01.08
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation

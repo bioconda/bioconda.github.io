@@ -13,7 +13,7 @@ htstream
    The difference between HTStream and other tools is that HTStream uses a tab delimited fastq format that allows for streaming from application to application.
    This streaming creates some awesome efficiencies when processing HTS data and makes it fully interoperable with other standard Linux tools. 
 
-   :homepage: https://ibest.github.io/HTStream
+   :homepage: https://s4hts.github.io/HTStream/
    :license: Apache / Apache 2.0
    :recipe: /`htstream <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htstream>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htstream/meta.yaml>`_
 
@@ -24,13 +24,13 @@ htstream
 
    |downloads_htstream| |docker_htstream|
 
-   :versions: 1.2.0-0, 1.1.0-0, 1.0.0-0
+   :versions: 1.3.1-0, 1.2.0-0, 1.1.0-0, 1.0.0-0
    
    :depends boost: >=1.70.0,<1.70.1.0a0
    :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends xz: >=5.2.4,<5.3.0a0
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
+   :depends xz: >=5.2.5,<5.3.0a0
    :depends zlib: >=1.2.11,<1.3.0a0
    :requirements:
 

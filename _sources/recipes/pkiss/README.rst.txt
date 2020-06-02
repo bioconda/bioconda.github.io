@@ -9,12 +9,12 @@ pkiss
 .. conda:recipe:: pkiss
    :replaces_section_title:
 
-   pKiss is a tool for folding RNA secondary structures\, including two limited classes of pseudoknots. As pKiss is the successor of pknotsRG\, the first pseudoknot class is the canonical simple recursive pseudoknot from pknotsRG. The new class are canonical simple recursive kissing hairpins.
+   RNA secondary structure prediction including K\-type and kissing hairpin\- pseudoknots.
 
    :homepage: https://bibiserv.cebitec.uni-bielefeld.de/pkiss
-   :license: Uknown - Please refer to the tool homepage
+   :license: GPLv3+
    :recipe: /`pkiss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pkiss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pkiss/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btu649`
+   :links: doi: :doi:`10.1007/978-3-642-15294-8_5`, doi: :doi:`10.1093/bioinformatics/btu649`
 
    
 
@@ -23,14 +23,12 @@ pkiss
 
    |downloads_pkiss| |docker_pkiss|
 
-   :versions: 2.2.12-1, 2.2.12-0
+   :versions: 2.2.12-3, 2.2.12-1, 2.2.12-0
    
-   :depends bellmans-gapc: 
-   :depends boost: 1.64*
-   :depends gsl: 2.2*
-   :depends libgcc: 
-   :depends openblas: 
-   :depends perl: 5.22.0*
+   :depends bellmans-gapc: >=2020.01.08
+   :depends libgcc-ng: >=7.5.0
+   :depends libstdcxx-ng: >=7.5.0
+   :depends perl: >=5.26.2,<5.26.3.0a0
    :requirements:
 
    .. rubric:: Installation

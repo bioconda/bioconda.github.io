@@ -22,7 +22,7 @@ cell-types-analysis
 
    |downloads_cell-types-analysis| |docker_cell-types-analysis|
 
-   :versions: 0.0.8-0
+   :versions: 0.0.9-0, 0.0.8-0
    
    :depends bats: 
    :depends bioconductor-onassis: 

@@ -22,12 +22,11 @@ airr
 
    |downloads_airr| |docker_airr|
 
-   :versions: 1.2.1-0
+   :versions: 1.3.0-0, 1.2.1-0
    
    :depends pandas: >=0.18.0
    :depends python: 
    :depends pyyaml: >=3.12
-   :depends setuptools: >=2.0
    :depends yamlordereddictloader: >=0.4.0
    :requirements:
 
