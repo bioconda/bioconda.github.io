@@ -24,7 +24,8 @@ hurry.filesize
 
    :versions: 0.9-0
    
-   :depends python: 
+   :depends python: 2.7*
+   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation

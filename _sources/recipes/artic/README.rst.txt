@@ -22,7 +22,7 @@ artic
 
    |downloads_artic| |docker_artic|
 
-   :versions: 1.1.1-1, 1.1.1-0, 1.1.0_rc2-0
+   :versions: 1.1.2-0, 1.1.1-1, 1.1.1-0, 1.1.0_rc2-0
    
    :depends artic-porechop: 0.3.2pre.*
    :depends bcftools: 1.9.*

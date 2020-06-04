@@ -23,7 +23,7 @@ seqsero2
 
    |downloads_seqsero2| |docker_seqsero2|
 
-   :versions: 1.1.1-0, 1.1.0-0, 1.01-0, 1.0.2-0, 1.0.1-0
+   :versions: 1.1.1-0, 1.01-0, 1.1.0-0, 1.0.2-0, 1.0.1-0
    
    :depends bedtools: 2.17.0.*
    :depends biopython: 1.73.*

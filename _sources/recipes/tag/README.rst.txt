@@ -22,7 +22,7 @@ tag
 
    |downloads_tag| |docker_tag|
 
-   :versions: 0.4-0
+   :versions: 0.5-0, 0.4-0
    
    :depends intervaltree: >=3.0
    :depends networkx: >=2.0
