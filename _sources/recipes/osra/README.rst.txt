@@ -8,6 +8,7 @@ osra
 
 .. conda:recipe:: osra/2.0.1
    :replaces_section_title:
+   :noindex:
 
    OSRA is a utility designed to convert graphical representations of chemical structures\, as they appear in journal articles\, patent documents\, textbooks\, trade magazines etc.\, into SMILES or SDF.
 
@@ -22,10 +23,17 @@ osra
 
    |downloads_osra| |docker_osra|
 
-   :versions: 2.1.0-0, 2.0.1-2, 2.0.1-1, 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.1.0-0``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
+
+      
+
    
    :depends gocr: 
-   :depends graphicsmagick: >=1.3.26
+   :depends graphicsmagick: ``>=1.3.26``
    :depends libgcc: 
    :depends ocrad: 
    :depends poppler: 

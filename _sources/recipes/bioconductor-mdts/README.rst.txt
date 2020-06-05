@@ -8,6 +8,7 @@ bioconductor-mdts
 
 .. conda:recipe:: bioconductor-mdts
    :replaces_section_title:
+   :noindex:
 
    Detection of de novo deletion in targeted sequencing trios
 
@@ -22,15 +23,22 @@ bioconductor-mdts
 
    |downloads_bioconductor-mdts| |docker_bioconductor-mdts|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-dnacopy: >=1.62.0,<1.63.0
-   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-dnacopy: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicalignments: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-stringr: 
    :requirements:
 

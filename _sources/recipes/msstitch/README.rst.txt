@@ -8,6 +8,7 @@ msstitch
 
 .. conda:recipe:: msstitch
    :replaces_section_title:
+   :noindex:
 
    MS proteomics post processing utilities
 
@@ -22,12 +23,27 @@ msstitch
 
    |downloads_msstitch| |docker_msstitch|
 
-   :versions: 3.0-0, 2.19-0, 2.18-0, 2.17-0, 2.16-0, 2.15-0, 2.14-0, 2.13-1, 2.13-0, 2.12-0, 2.11-0, 2.10-0, 2.9-0, 2.8-0, 2.7-0, 2.6-0, 2.5-0, 2.4-0, 2.3-0, 2.2-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0-0</code>,  <code>2.19-0</code>,  <code>2.18-0</code>,  <code>2.17-0</code>,  <code>2.16-0</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  <code>2.13-1</code>,  <code>2.13-0</code>,  </span></summary>
+      
+
+      ``3.0-0``,  ``2.19-0``,  ``2.18-0``,  ``2.17-0``,  ``2.16-0``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12-0``,  ``2.11-0``,  ``2.10-0``,  ``2.9-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: >=1.69
+   :depends biopython: ``>=1.69``
    :depends lxml: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

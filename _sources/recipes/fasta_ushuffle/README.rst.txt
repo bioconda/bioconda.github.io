@@ -8,6 +8,7 @@ fasta_ushuffle
 
 .. conda:recipe:: fasta_ushuffle
    :replaces_section_title:
+   :noindex:
 
    a wrapper for uShuffle
 
@@ -22,9 +23,16 @@ fasta_ushuffle
 
    |downloads_fasta_ushuffle| |docker_fasta_ushuffle|
 
-   :versions: 0.2-2, 0.2-1, 0.2-0
+   :versions:
+      
+      
+
+      ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

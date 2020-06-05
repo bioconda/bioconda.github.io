@@ -8,6 +8,7 @@ pneumocat
 
 .. conda:recipe:: pneumocat
    :replaces_section_title:
+   :noindex:
 
    PneumoCaT \(Pneumococcal Capsular Typing\) uses a two\-step step approach to assign capsular type to S.pneumoniae genomic data \(Illumina\)
 
@@ -22,16 +23,23 @@ pneumocat
 
    |downloads_pneumocat| |docker_pneumocat|
 
-   :versions: 1.2.1-0, 1.2-3, 1.2-2, 1.2-0, 1.1-0
+   :versions:
+      
+      
+
+      ``1.2.1-0``,  ``1.2-3``,  ``1.2-2``,  ``1.2-0``,  ``1.1-0``
+
+      
+
    
    :depends biopython: 
    :depends bowtie2: 
    :depends lxml: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends pyyaml: 
-   :depends samtools: >1.3
+   :depends samtools: ``>1.3``
    :requirements:
 
    .. rubric:: Installation

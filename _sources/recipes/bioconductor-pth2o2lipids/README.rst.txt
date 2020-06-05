@@ -8,6 +8,7 @@ bioconductor-pth2o2lipids
 
 .. conda:recipe:: bioconductor-pth2o2lipids
    :replaces_section_title:
+   :noindex:
 
    P. tricornutum HPLC\-ESI\-MS Lipid Data from van Creveld et al. \(2015\)
 
@@ -22,13 +23,20 @@ bioconductor-pth2o2lipids
 
    |downloads_bioconductor-pth2o2lipids| |docker_bioconductor-pth2o2lipids|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-camera: >=1.44.0,<1.45.0
-   :depends bioconductor-lobstahs: >=1.14.0,<1.15.0
-   :depends bioconductor-xcms: >=3.10.0,<3.11.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-camera: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-lobstahs: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-xcms: ``>=3.10.0,<3.11.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

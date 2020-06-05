@@ -8,6 +8,7 @@ bioconductor-gispa
 
 .. conda:recipe:: bioconductor-gispa
    :replaces_section_title:
+   :noindex:
 
    GISPA\: Method for Gene Integrated Set Profile Analysis
 
@@ -22,12 +23,19 @@ bioconductor-gispa
 
    |downloads_bioconductor-gispa| |docker_bioconductor-gispa|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-changepoint: 
    :depends r-data.table: 
    :depends r-hh: 

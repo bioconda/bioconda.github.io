@@ -8,6 +8,7 @@ pandaseq
 
 .. conda:recipe:: pandaseq
    :replaces_section_title:
+   :noindex:
 
    PANDASEQ is a program to align Illumina reads\, optionally with PCR primers embedded in the sequence\, and reconstruct an overlapping sequence.
 
@@ -22,11 +23,18 @@ pandaseq
 
    |downloads_pandaseq| |docker_pandaseq|
 
-   :versions: 2.11-3, 2.11-2, 2.11-1, 2.10-0, 2.8.1-2, 2.8.1-1
+   :versions:
+      
+      
+
+      ``2.11-3``,  ``2.11-2``,  ``2.11-1``,  ``2.10-0``,  ``2.8.1-2``,  ``2.8.1-1``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ covtobed
 
 .. conda:recipe:: covtobed
    :replaces_section_title:
+   :noindex:
 
    covtobed \- generate a BED file of covered regions from a BAM file
 
@@ -22,12 +23,19 @@ covtobed
 
    |downloads_covtobed| |docker_covtobed|
 
-   :versions: 1.1.2-0, 1.1.0-0, 1.0.1-0, 1.0.0-0, 0.6-0, 0.4-0, 0.3-0, 0.1-0
+   :versions:
+      
+      
+
+      ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6-0``,  ``0.4-0``,  ``0.3-0``,  ``0.1-0``
+
+      
+
    
-   :depends bamtools: >=2.5.1,<2.5.2.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

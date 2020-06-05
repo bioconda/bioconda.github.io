@@ -8,6 +8,7 @@ bioconductor-hpaanalyze
 
 .. conda:recipe:: bioconductor-hpaanalyze
    :replaces_section_title:
+   :noindex:
 
    Retrieve and analyze data from the Human Protein Atlas
 
@@ -22,9 +23,16 @@ bioconductor-hpaanalyze
 
    |downloads_bioconductor-hpaanalyze| |docker_bioconductor-hpaanalyze|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.1-0, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-gridextra: 

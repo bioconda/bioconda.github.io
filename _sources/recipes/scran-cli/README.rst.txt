@@ -8,6 +8,7 @@ scran-cli
 
 .. conda:recipe:: scran-cli
    :replaces_section_title:
+   :noindex:
 
    A set of wrappers for individual components of the scran R package. Scran implements functions for low\-level analyses of single\-cell RNA\-seq data.Functions R packages are hard to call when building workflows outside of R\, so this package adds a set of simple wrappers with robust argument parsing.
 
@@ -22,9 +23,16 @@ scran-cli
 
    |downloads_scran-cli| |docker_scran-cli|
 
-   :versions: v0.0.1-0
+   :versions:
+      
+      
+
+      ``v0.0.1-0``
+
+      
+
    
-   :depends bioconductor-scran: 1.12.1.*
+   :depends bioconductor-scran: ``1.12.1.*``
    :depends dropletutils-scripts: 
    :depends r-igraph: 
    :depends r-optparse: 

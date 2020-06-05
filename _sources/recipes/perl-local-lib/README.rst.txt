@@ -8,6 +8,7 @@ perl-local-lib
 
 .. conda:recipe:: perl-local-lib
    :replaces_section_title:
+   :noindex:
 
    create and use a local lib\/ for perl modules with PERL5LIB
 
@@ -22,9 +23,16 @@ perl-local-lib
 
    |downloads_perl-local-lib| |docker_perl-local-lib|
 
-   :versions: 2.000024-0
+   :versions:
+      
+      
+
+      ``2.000024-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-extutils-makemaker: 
    :depends perl-module-build: 
    :requirements:

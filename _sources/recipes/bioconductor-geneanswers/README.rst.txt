@@ -8,6 +8,7 @@ bioconductor-geneanswers
 
 .. conda:recipe:: bioconductor-geneanswers
    :replaces_section_title:
+   :noindex:
 
    Integrated Interpretation of Genes
 
@@ -22,13 +23,20 @@ bioconductor-geneanswers
 
    |downloads_bioconductor-geneanswers| |docker_bioconductor-geneanswers|
 
-   :versions: 2.30.0-0, 2.28.0-0, 2.26.0-1, 2.24.0-0
+   :versions:
+      
+      
+
+      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-heatplus: >=2.34.0,<2.35.0
-   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-heatplus: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-rbgl: ``>=1.64.0,<1.65.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-downloader: 
    :depends r-igraph: 
    :depends r-mass: 

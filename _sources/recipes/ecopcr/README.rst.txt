@@ -8,6 +8,7 @@ ecopcr
 
 .. conda:recipe:: ecopcr
    :replaces_section_title:
+   :noindex:
 
    ecoPCR is an electronic PCR software that helps you estimate Barcode primers quality.
 
@@ -22,12 +23,19 @@ ecopcr
 
    |downloads_ecopcr| |docker_ecopcr|
 
-   :versions: 0.5.0-1, 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-1``,  ``0.5.0-0``
+
+      
+
    
    :depends libgcc: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends reportlab: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

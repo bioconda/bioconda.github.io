@@ -8,6 +8,7 @@ bioconductor-acgh
 
 .. conda:recipe:: bioconductor-acgh
    :replaces_section_title:
+   :noindex:
 
    Classes and functions for Array Comparative Genomic Hybridization data
 
@@ -23,15 +24,22 @@ bioconductor-acgh
 
    |downloads_bioconductor-acgh| |docker_bioconductor-acgh|
 
-   :versions: 1.66.0-0, 1.64.0-0, 1.62.0-1, 1.60.0-0, 1.58.0-0, 1.56.0-0, 1.54.0-0
+   :versions:
+      
+      
+
+      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-multtest: >=2.44.0,<2.45.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-survival: 
    :requirements:

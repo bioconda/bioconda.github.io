@@ -8,6 +8,7 @@ perl-postscript
 
 .. conda:recipe:: perl-postscript
    :replaces_section_title:
+   :noindex:
 
    helper module for PostScript\:\:TextBlock
 
@@ -22,9 +23,16 @@ perl-postscript
 
    |downloads_perl-postscript| |docker_perl-postscript|
 
-   :versions: 0.06-2, 0.06-1, 0.06-0
+   :versions:
+      
+      
+
+      ``0.06-2``,  ``0.06-1``,  ``0.06-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

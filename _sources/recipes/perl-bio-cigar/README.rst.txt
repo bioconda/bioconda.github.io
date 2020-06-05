@@ -8,6 +8,7 @@ perl-bio-cigar
 
 .. conda:recipe:: perl-bio-cigar
    :replaces_section_title:
+   :noindex:
 
    Parse CIGAR strings and translate coordinates to\/from reference\/query
 
@@ -23,9 +24,16 @@ perl-bio-cigar
 
    |downloads_perl-bio-cigar| |docker_perl-bio-cigar|
 
-   :versions: 1.01-5, 1.01-4, 1.01-3, 1.01-2, 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-5``,  ``1.01-4``,  ``1.01-3``,  ``1.01-2``,  ``1.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-moo: 
    :depends perl-namespace-clean: 

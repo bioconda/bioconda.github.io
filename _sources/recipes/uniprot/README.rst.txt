@@ -8,6 +8,7 @@ uniprot
 
 .. conda:recipe:: uniprot
    :replaces_section_title:
+   :noindex:
 
    Retrieve protein sequence identifiers and metadata from http\:\/\/uniprot.org
 
@@ -22,7 +23,14 @@ uniprot
 
    |downloads_uniprot| |docker_uniprot|
 
-   :versions: 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-1``,  ``1.3-0``
+
+      
+
    
    :depends python: 
    :depends requests: 

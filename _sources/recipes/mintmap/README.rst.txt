@@ -8,6 +8,7 @@ mintmap
 
 .. conda:recipe:: mintmap
    :replaces_section_title:
+   :noindex:
 
    Generate tRF profiles from short RNA\-Seq datasets
 
@@ -22,7 +23,14 @@ mintmap
 
    |downloads_mintmap| |docker_mintmap|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends perl-base: 
    :requirements:

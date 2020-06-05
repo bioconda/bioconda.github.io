@@ -8,6 +8,7 @@ r-mixkernel
 
 .. conda:recipe:: r-mixkernel
    :replaces_section_title:
+   :noindex:
 
    Kernel\-based methods are powerful methods for integrating  heterogeneous types of data. mixKernel aims at providing methods to combine kernel for unsupervised exploratory analysis. Different solutions are  provided to compute a meta\-kernel\, in a consensus way or in a way that  best preserves the original topology of the data. mixKernel also integrates kernel PCA to visualize similarities between samples in a non linear space and from the multiple source point of view. Functions to assess and display important variables are also provided in the package. Jerome Mariette and  Nathalie Villa\-Vialaneix \(2017\) \<doi\:10.1093\/bioinformatics\/btx682\>.
 
@@ -22,18 +23,25 @@ r-mixkernel
 
    |downloads_r-mixkernel| |docker_r-mixkernel|
 
-   :versions: 0.4-1, 0.4-0, 0.3-1, 0.3-0
+   :versions:
+      
+      
+
+      ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+
+      
+
    
    :depends bioconductor-mixomics: 
    :depends bioconductor-phyloseq: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 
    :depends r-ggplot2: 
    :depends r-ldrtools: 
    :depends r-matrix: 
    :depends r-psych: 
    :depends r-quadprog: 
-   :depends r-reticulate: >=1.14
+   :depends r-reticulate: ``>=1.14``
    :depends r-vegan: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-isee
 
 .. conda:recipe:: bioconductor-isee
    :replaces_section_title:
+   :noindex:
 
    Interactive SummarizedExperiment Explorer
 
@@ -22,14 +23,21 @@ bioconductor-isee
 
    |downloads_bioconductor-isee| |docker_bioconductor-isee|
 
-   :versions: 2.0.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-colourpicker: 
    :depends r-dt: 

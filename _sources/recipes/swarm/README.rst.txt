@@ -8,6 +8,7 @@ swarm
 
 .. conda:recipe:: swarm
    :replaces_section_title:
+   :noindex:
 
    A robust and fast clustering method for amplicon\-based studies.
 
@@ -23,11 +24,18 @@ swarm
 
    |downloads_swarm| |docker_swarm|
 
-   :versions: 3.0.0-0, 2.2.2-2, 2.2.2-1, 2.2.2-0, 2.1.13-0, 2.1.10-0, 2.1.5-0, 1.2.19-1, 1.2.19-0
+   :versions:
+      
+      
+
+      ``3.0.0-0``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.1.13-0``,  ``2.1.10-0``,  ``2.1.5-0``,  ``1.2.19-1``,  ``1.2.19-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3``
    :depends python-igraph: 
    :requirements:
 

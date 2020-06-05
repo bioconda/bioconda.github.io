@@ -8,6 +8,7 @@ lofreq
 
 .. conda:recipe:: lofreq
    :replaces_section_title:
+   :noindex:
 
    A fast and sensitive variant\-caller for inferring SNVs and indels from next\-generation sequencing data
 
@@ -22,13 +23,20 @@ lofreq
 
    |downloads_lofreq| |docker_lofreq|
 
-   :versions: 2.1.4-2, 2.1.4-1, 2.1.4-0, 2.1.3.1-0, 2.1.2-0
+   :versions:
+      
+      
+
+      ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3.1-0``,  ``2.1.2-0``
+
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends samtools: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-spreadsheet-parseexcel
 
 .. conda:recipe:: perl-spreadsheet-parseexcel
    :replaces_section_title:
+   :noindex:
 
    Read information from an Excel file.
 
@@ -22,9 +23,16 @@ perl-spreadsheet-parseexcel
 
    |downloads_perl-spreadsheet-parseexcel| |docker_perl-spreadsheet-parseexcel|
 
-   :versions: 0.65-2, 0.65-1, 0.65-0
+   :versions:
+      
+      
+
+      ``0.65-2``,  ``0.65-1``,  ``0.65-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-crypt-rc4: 
    :depends perl-digest-perl-md5: 
    :depends perl-io-stringy: 

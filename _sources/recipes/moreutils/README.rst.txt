@@ -8,6 +8,7 @@ moreutils
 
 .. conda:recipe:: moreutils
    :replaces_section_title:
+   :noindex:
 
    a growing collection of the unix tools that nobody thought to write long ago when unix was young
 
@@ -22,7 +23,14 @@ moreutils
 
    |downloads_moreutils| |docker_moreutils|
 
-   :versions: 0.5.7-1, 0.5.7-0
+   :versions:
+      
+      
+
+      ``0.5.7-1``,  ``0.5.7-0``
+
+      
+
    
    :requirements:
 

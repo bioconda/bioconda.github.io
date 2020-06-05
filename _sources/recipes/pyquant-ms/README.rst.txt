@@ -8,6 +8,7 @@ pyquant-ms
 
 .. conda:recipe:: pyquant-ms
    :replaces_section_title:
+   :noindex:
 
    A framework for the analysis of quantitative mass spectrometry data
 
@@ -22,18 +23,25 @@ pyquant-ms
 
    |downloads_pyquant-ms| |docker_pyquant-ms|
 
-   :versions: 0.2.4-0, 0.2.3-0, 0.2.1-1, 0.2.1-0, 0.1.43rc3-0, 0.1.42-0
+   :versions:
+      
+      
+
+      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.43rc3-0``,  ``0.1.42-0``
+
+      
+
    
    :depends cython: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends lxml: 
-   :depends numpy: >=1.14.6,<2.0a0
+   :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pandas: 
    :depends patsy: 
-   :depends pythomics: >=0.3.41
-   :depends python: >=2.7,<2.8.0a0
+   :depends pythomics: ``>=0.3.41``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends scikit-learn: 
-   :depends scipy: >=0.18.*
+   :depends scipy: ``>=0.18.*``
    :depends simplejson: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-border-style
 
 .. conda:recipe:: perl-border-style
    :replaces_section_title:
+   :noindex:
 
    Border style structure
 
@@ -22,9 +23,16 @@ perl-border-style
 
    |downloads_perl-border-style| |docker_perl-border-style|
 
-   :versions: 0.01-2, 0.01-0
+   :versions:
+      
+      
+
+      ``0.01-2``,  ``0.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-module-list: 
    :depends perl-moo: 
    :depends perl-term-app-roles: 

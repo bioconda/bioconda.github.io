@@ -8,6 +8,7 @@ pyloh
 
 .. conda:recipe:: pyloh
    :replaces_section_title:
+   :noindex:
 
    Deconvolving tumor purity and ploidy by integrating copy number alterations and loss of heterozygosity
 
@@ -22,13 +23,20 @@ pyloh
 
    |downloads_pyloh| |docker_pyloh|
 
-   :versions: 1.4.3-2, 1.4.3-1, 1.4.3-0, 1.4.1-1
+   :versions:
+      
+      
+
+      ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.1-1``
+
+      
+
    
-   :depends matplotlib: >=1.2
-   :depends numpy: >=1.6.1
-   :depends pysam: >=0.7
-   :depends python: <3
-   :depends scipy: >=0.10
+   :depends matplotlib: ``>=1.2``
+   :depends numpy: ``>=1.6.1``
+   :depends pysam: ``>=0.7``
+   :depends python: ``<3``
+   :depends scipy: ``>=0.10``
    :requirements:
 
    .. rubric:: Installation

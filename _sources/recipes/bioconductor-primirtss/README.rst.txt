@@ -8,6 +8,7 @@ bioconductor-primirtss
 
 .. conda:recipe:: bioconductor-primirtss
    :replaces_section_title:
+   :noindex:
 
    Prediction of pri\-miRNA Transcription Start Site
 
@@ -22,28 +23,35 @@ bioconductor-primirtss
 
    |downloads_bioconductor-primirtss| |docker_bioconductor-primirtss|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: >=1.4.0,<1.5.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-genomicscores: >=2.0.0,<2.1.0
-   :depends bioconductor-gviz: >=1.32.0,<1.33.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-jaspar2018: >=1.1.0,<1.2.0
-   :depends bioconductor-phastcons100way.ucsc.hg38: >=3.7.0,<3.8.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-tfbstools: >=1.26.0,<1.27.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dplyr: >=0.7.6
-   :depends r-purrr: >=0.2.5
-   :depends r-r.utils: >=2.6.0
-   :depends r-shiny: >=1.0.5
-   :depends r-stringr: >=1.3.1
-   :depends r-tibble: >=1.4.2
-   :depends r-tidyr: >=0.8.1
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicscores: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-gviz: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-jaspar2018: ``>=1.1.0,<1.2.0``
+   :depends bioconductor-phastcons100way.ucsc.hg38: ``>=3.7.0,<3.8.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-tfbstools: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: ``>=0.7.6``
+   :depends r-purrr: ``>=0.2.5``
+   :depends r-r.utils: ``>=2.6.0``
+   :depends r-shiny: ``>=1.0.5``
+   :depends r-stringr: ``>=1.3.1``
+   :depends r-tibble: ``>=1.4.2``
+   :depends r-tidyr: ``>=0.8.1``
    :requirements:
 
    .. rubric:: Installation

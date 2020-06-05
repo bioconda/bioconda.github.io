@@ -8,6 +8,7 @@ fastq-dl
 
 .. conda:recipe:: fastq-dl
    :replaces_section_title:
+   :noindex:
 
    A tool to download FASTQs associated with Study\, Experiment\, or Run accessions.
 
@@ -22,11 +23,18 @@ fastq-dl
 
    |downloads_fastq-dl| |docker_fastq-dl|
 
-   :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
    :depends executor: 
    :depends pigz: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends requests: 
    :depends sra-tools: 
    :depends wget: 

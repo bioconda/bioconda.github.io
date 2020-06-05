@@ -8,6 +8,7 @@ perl-dumbbench
 
 .. conda:recipe:: perl-dumbbench/0.111
    :replaces_section_title:
+   :noindex:
 
    More reliable benchmarking with the least amount of thinking
 
@@ -22,9 +23,16 @@ perl-dumbbench
 
    |downloads_perl-dumbbench| |docker_perl-dumbbench|
 
-   :versions: 0.111-0
+   :versions:
+      
+      
+
+      ``0.111-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-capture-tiny: 
    :depends perl-carp: 
    :depends perl-class-xsaccessor: 

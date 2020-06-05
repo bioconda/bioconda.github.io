@@ -8,6 +8,7 @@ bioconductor-chemminedrugs
 
 .. conda:recipe:: bioconductor-chemminedrugs
    :replaces_section_title:
+   :noindex:
 
    DrugBank data set
 
@@ -22,12 +23,19 @@ bioconductor-chemminedrugs
 
    |downloads_bioconductor-chemminedrugs| |docker_bioconductor-chemminedrugs|
 
-   :versions: 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-chemminer: >=3.40.0,<3.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-chemminer: ``>=3.40.0,<3.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rsqlite: 
    :requirements:
 

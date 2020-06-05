@@ -8,6 +8,7 @@ r-classdiscovery
 
 .. conda:recipe:: r-classdiscovery
    :replaces_section_title:
+   :noindex:
 
    Defines the classes used for \"class discovery\" problems in the OOMPA project \(\<http\:\/\/oompa.r\-forge.r\-project.org\/\>\). Class discovery primarily consists of unsupervised clustering methods with attempts to assess their statistical significance. 
 
@@ -22,13 +23,20 @@ r-classdiscovery
 
    |downloads_r-classdiscovery| |docker_r-classdiscovery|
 
-   :versions: 3.3.12-2, 3.3.12-1, 3.3.12-0, 3.3.11-0, 3.3.9-1, 3.3.9-0
+   :versions:
+      
+      
+
+      ``3.3.12-2``,  ``3.3.12-1``,  ``3.3.12-0``,  ``3.3.11-0``,  ``3.3.9-1``,  ``3.3.9-0``
+
+      
+
    
    :depends bioconductor-biobase: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-mclust: 
-   :depends r-oompabase: >=3.0.1
+   :depends r-oompabase: ``>=3.0.1``
    :depends r-oompadata: 
    :requirements:
 

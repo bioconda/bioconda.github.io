@@ -8,6 +8,7 @@ tedna
 
 .. conda:recipe:: tedna
    :replaces_section_title:
+   :noindex:
 
    Tedna is a lightweight de novo transposable element assembler
 
@@ -22,10 +23,17 @@ tedna
 
    |downloads_tedna| |docker_tedna|
 
-   :versions: 1.2.2-2, 1.2.2-1, 1.2.2-0
+   :versions:
+      
+      
+
+      ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

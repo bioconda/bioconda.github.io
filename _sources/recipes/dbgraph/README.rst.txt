@@ -8,6 +8,7 @@ dbgraph
 
 .. conda:recipe:: dbgraph
    :replaces_section_title:
+   :noindex:
 
    A graph\-centric approach for metagenome\-guided peptide identification in metaproteomics. 
 
@@ -22,10 +23,17 @@ dbgraph
 
    |downloads_dbgraph| |docker_dbgraph|
 
-   :versions: 1.0.0-0, v1.0.0-1
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``v1.0.0-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

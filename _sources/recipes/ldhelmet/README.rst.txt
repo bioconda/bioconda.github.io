@@ -8,6 +8,7 @@ ldhelmet
 
 .. conda:recipe:: ldhelmet
    :replaces_section_title:
+   :noindex:
 
    Software program for statistical inference of fine\-scale crossover recombination rates from population genetic data.
 
@@ -23,12 +24,19 @@ ldhelmet
 
    |downloads_ldhelmet| |docker_ldhelmet|
 
-   :versions: 1.10-0
+   :versions:
+      
+      
+
+      ``1.10-0``
+
+      
+
    
-   :depends boost: >=1.66.0,<1.66.1.0a0
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends boost: ``>=1.66.0,<1.66.1.0a0``
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :requirements:
 
    .. rubric:: Installation

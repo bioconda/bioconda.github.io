@@ -8,6 +8,7 @@ haplotype-lso
 
 .. conda:recipe:: haplotype-lso
    :replaces_section_title:
+   :noindex:
 
    Haplotype Candidatus Liberibacter solanacearum \(Lso\) samples from targeted amplicon capillary sequencing data
 
@@ -22,13 +23,28 @@ haplotype-lso
 
    |downloads_haplotype-lso| |docker_haplotype-lso|
 
-   :versions: 0.4.4-0, 0.4.3-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.3.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  </span></summary>
+      
+
+      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends attrs: 
    :depends bioconvert: 
-   :depends biopython: >=1.75
+   :depends biopython: ``>=1.75``
    :depends blast: 
-   :depends dash: >=1.0
+   :depends dash: ``>=1.0``
    :depends dash-bootstrap-components: 
    :depends dash-core-components: 
    :depends dash-html-components: 

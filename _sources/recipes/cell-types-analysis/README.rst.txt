@@ -8,6 +8,7 @@ cell-types-analysis
 
 .. conda:recipe:: cell-types-analysis
    :replaces_section_title:
+   :noindex:
 
    A suite of scripts for analysis of scRNA\-seq cell type classification tools outputs.
 
@@ -22,18 +23,25 @@ cell-types-analysis
 
    |downloads_cell-types-analysis| |docker_cell-types-analysis|
 
-   :versions: 0.0.9-0, 0.0.8-0
+   :versions:
+      
+      
+
+      ``0.0.9-0``,  ``0.0.8-0``
+
+      
+
    
    :depends bats: 
    :depends bioconductor-onassis: 
-   :depends openjdk: 8.0.152.*
-   :depends r-data.table: 1.12.8.*
+   :depends openjdk: ``8.0.152.*``
+   :depends r-data.table: ``1.12.8.*``
    :depends r-doparallel: 
    :depends r-foreach: 
-   :depends r-hash: 2.2.6.1.*
+   :depends r-hash: ``2.2.6.1.*``
    :depends r-matrixstats: 
    :depends r-optparse: 
-   :depends r-reshape2: 1.4.3.*
+   :depends r-reshape2: ``1.4.3.*``
    :depends r-stringi: 
    :depends r-workflowscriptscommon: 
    :depends r-yaml: 

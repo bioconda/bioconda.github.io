@@ -8,6 +8,7 @@ ideas
 
 .. conda:recipe:: ideas/1.20
    :replaces_section_title:
+   :noindex:
 
    A method for jointly and quantitatively characterizing multivariate epigenetic landscapes in many cell types\, tissues or conditions.
 
@@ -22,9 +23,16 @@ ideas
 
    |downloads_ideas| |docker_ideas|
 
-   :versions: 1.20-1, 1.20-0
+   :versions:
+      
+      
+
+      ``1.20-1``,  ``1.20-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :depends mkl: 
    :requirements:
 

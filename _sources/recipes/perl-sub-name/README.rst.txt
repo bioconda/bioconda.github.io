@@ -8,6 +8,7 @@ perl-sub-name
 
 .. conda:recipe:: perl-sub-name/0.21
    :replaces_section_title:
+   :noindex:
 
    \(Re\)name a sub
 
@@ -22,9 +23,16 @@ perl-sub-name
 
    |downloads_perl-sub-name| |docker_perl-sub-name|
 
-   :versions: 0.21-1, 0.21-0
+   :versions:
+      
+      
+
+      ``0.21-1``,  ``0.21-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

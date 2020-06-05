@@ -8,6 +8,7 @@ bioconductor-medme
 
 .. conda:recipe:: bioconductor-medme
    :replaces_section_title:
+   :noindex:
 
    Modelling Experimental Data from MeDIP Enrichment
 
@@ -23,13 +24,20 @@ bioconductor-medme
 
    |downloads_bioconductor-medme| |docker_bioconductor-medme|
 
-   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0
+   :versions:
+      
+      
+
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-drc: 
    :depends r-mass: 
    :requirements:

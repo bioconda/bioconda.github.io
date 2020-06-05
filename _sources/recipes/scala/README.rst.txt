@@ -8,6 +8,7 @@ scala
 
 .. conda:recipe:: scala
    :replaces_section_title:
+   :noindex:
 
    Scala combines object\-oriented and functional programming in one concise\, high\-level language. Scala\'s static types help avoid bugs in complex applications\, and its JVM and JavaScript runtimes let you build high\-performance systems with easy access to huge ecosystems of libraries.
 
@@ -22,9 +23,16 @@ scala
 
    |downloads_scala| |docker_scala|
 
-   :versions: 2.11.8-1, 2.11.8-0
+   :versions:
+      
+      
+
+      ``2.11.8-1``,  ``2.11.8-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

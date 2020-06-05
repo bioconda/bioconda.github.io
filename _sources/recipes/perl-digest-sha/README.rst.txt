@@ -8,6 +8,7 @@ perl-digest-sha
 
 .. conda:recipe:: perl-digest-sha/5.88
    :replaces_section_title:
+   :noindex:
 
    Perl extension for SHA\-1\/224\/256\/384\/512
 
@@ -22,9 +23,16 @@ perl-digest-sha
 
    |downloads_perl-digest-sha| |docker_perl-digest-sha|
 
-   :versions: 5.88-1, 5.88-0
+   :versions:
+      
+      
+
+      ``5.88-1``,  ``5.88-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

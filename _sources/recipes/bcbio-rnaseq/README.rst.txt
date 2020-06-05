@@ -8,6 +8,7 @@ bcbio-rnaseq
 
 .. conda:recipe:: bcbio-rnaseq
    :replaces_section_title:
+   :noindex:
 
    Report generation for bcbio\-nextgen RNA\-seq runs
 
@@ -22,7 +23,14 @@ bcbio-rnaseq
 
    |downloads_bcbio-rnaseq| |docker_bcbio-rnaseq|
 
-   :versions: 1.2.0-3, 1.2.0-2, 1.2.0-1, 1.2.0-0, 1.1.1-1, 1.0.4-1, 1.0.3-1
+   :versions:
+      
+      
+
+      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.0.4-1``,  ``1.0.3-1``
+
+      
+
    
    :depends bioconductor-biomart: 
    :depends bioconductor-clusterprofiler: 
@@ -34,7 +42,7 @@ bcbio-rnaseq
    :depends bioconductor-tximport: 
    :depends bioconductor-vsn: 
    :depends openjdk: 
-   :depends r-base: 3.3.2*
+   :depends r-base: ``3.3.2*``
    :depends r-chbutils: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

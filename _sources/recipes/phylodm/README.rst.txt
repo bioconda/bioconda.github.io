@@ -8,6 +8,7 @@ phylodm
 
 .. conda:recipe:: phylodm
    :replaces_section_title:
+   :noindex:
 
    Efficient calculation of phylogenetic distance matrices.
 
@@ -22,12 +23,19 @@ phylodm
 
    |downloads_phylodm| |docker_phylodm|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
    :depends dendropy: 
    :depends h5py: 
    :depends numpy: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends tqdm: 
    :requirements:
 

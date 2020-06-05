@@ -8,6 +8,7 @@ maaslin2
 
 .. conda:recipe:: maaslin2
    :replaces_section_title:
+   :noindex:
 
    MaAsLin2 is comprehensive R package for efficiently determining multivariable association between microbial meta\'omic features and clinical metadata.
 
@@ -22,11 +23,18 @@ maaslin2
 
    |downloads_maaslin2| |docker_maaslin2|
 
-   :versions: 0.99.12-0, 0.99.2-0, 0.99.1-0, 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.99.12-0``,  ``0.99.2-0``,  ``0.99.1-0``,  ``0.3.0-0``
+
+      
+
    
    :depends bioconductor-edger: 
    :depends bioconductor-metagenomeseq: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-car: 
    :depends r-chemometrics: 
    :depends r-cplm: 

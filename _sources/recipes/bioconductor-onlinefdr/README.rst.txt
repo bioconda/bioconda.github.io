@@ -8,6 +8,7 @@ bioconductor-onlinefdr
 
 .. conda:recipe:: bioconductor-onlinefdr
    :replaces_section_title:
+   :noindex:
 
    Online error control
 
@@ -22,9 +23,16 @@ bioconductor-onlinefdr
 
    |downloads_bioconductor-onlinefdr| |docker_bioconductor-onlinefdr|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

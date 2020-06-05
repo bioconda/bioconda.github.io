@@ -8,6 +8,7 @@ perl-pcap
 
 .. conda:recipe:: perl-pcap
    :replaces_section_title:
+   :noindex:
 
    NGS reference implementations and helper code for the IGCG\/TCGA Pan\-Cancer Analysis Project
 
@@ -22,10 +23,17 @@ perl-pcap
 
    |downloads_perl-pcap| |docker_perl-pcap|
 
-   :versions: 3.5.2-0, 1.11.1-2, 1.11.1-1, 1.11.1-0
+   :versions:
+      
+      
+
+      ``3.5.2-0``,  ``1.11.1-2``,  ``1.11.1-1``,  ``1.11.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-db-hts: 
    :depends perl-bio-samtools: 
    :depends perl-bioperl: 

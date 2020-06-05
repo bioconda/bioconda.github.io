@@ -8,6 +8,7 @@ surpyvor
 
 .. conda:recipe:: surpyvor
    :replaces_section_title:
+   :noindex:
 
    Evaluating\, merging and plotting SV vcf files
 
@@ -23,14 +24,21 @@ surpyvor
 
    |downloads_surpyvor| |docker_surpyvor|
 
-   :versions: 0.8.1-0, 0.6.0-1, 0.6.0-0, 0.5.0-1, 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.8.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
+
+      
+
    
    :depends bcftools: 
    :depends cyvcf2: 
    :depends matplotlib-base: 
    :depends matplotlib-venn: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends survivor: 
    :depends tabix: 
    :depends upsetplot: 

@@ -8,6 +8,7 @@ parent-map
 
 .. conda:recipe:: parent-map
    :replaces_section_title:
+   :noindex:
 
    Analyze parental contributions to evolved or engineered protein or DNA sequences
 
@@ -22,11 +23,18 @@ parent-map
 
    |downloads_parent-map| |docker_parent-map|
 
-   :versions: 1.0.4-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.2-0``
+
+      
+
    
    :depends gooey: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

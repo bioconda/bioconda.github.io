@@ -8,6 +8,7 @@ gatk-framework
 
 .. conda:recipe:: gatk-framework
    :replaces_section_title:
+   :noindex:
 
    The core MIT\-licensed Genome Analysis Toolkit \(GATK\) framework\, free for all uses
 
@@ -22,9 +23,24 @@ gatk-framework
 
    |downloads_gatk-framework| |docker_gatk-framework|
 
-   :versions: 3.6.24-5, 3.6.24-4, 3.6.24-3, 3.6.24-2, 3.6.24-1, 3.6.24-0, 3.5.21-0, 3.4.46-3, 3.4.46-2, 3.4.46-1, 3.4.46-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.6.24-5</code>,  <code>3.6.24-4</code>,  <code>3.6.24-3</code>,  <code>3.6.24-2</code>,  <code>3.6.24-1</code>,  <code>3.6.24-0</code>,  <code>3.5.21-0</code>,  <code>3.4.46-3</code>,  <code>3.4.46-2</code>,  </span></summary>
+      
+
+      ``3.6.24-5``,  ``3.6.24-4``,  ``3.6.24-3``,  ``3.6.24-2``,  ``3.6.24-1``,  ``3.6.24-0``,  ``3.5.21-0``,  ``3.4.46-3``,  ``3.4.46-2``,  ``3.4.46-1``,  ``3.4.46-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-pod-escapes
 
 .. conda:recipe:: perl-pod-escapes/1.07
    :replaces_section_title:
+   :noindex:
 
    for resolving Pod Elt...gt sequences
 
@@ -22,9 +23,16 @@ perl-pod-escapes
 
    |downloads_perl-pod-escapes| |docker_perl-pod-escapes|
 
-   :versions: 1.07-1, 1.07-0
+   :versions:
+      
+      
+
+      ``1.07-1``,  ``1.07-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-exporter: 
    :requirements:
 

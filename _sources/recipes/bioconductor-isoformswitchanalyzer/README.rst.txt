@@ -8,6 +8,7 @@ bioconductor-isoformswitchanalyzer
 
 .. conda:recipe:: bioconductor-isoformswitchanalyzer
    :replaces_section_title:
+   :noindex:
 
    Identify\, Annotate and Visualize Alternative Splicing and Isoform Switches with Functional Consequences from both short\- and long\-read RNA\-seq data.
 
@@ -23,24 +24,31 @@ bioconductor-isoformswitchanalyzer
 
    |downloads_bioconductor-isoformswitchanalyzer| |docker_bioconductor-isoformswitchanalyzer|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-dexseq: >=1.34.0,<1.35.0
-   :depends bioconductor-drimseq: >=1.16.0,<1.17.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-tximport: >=1.16.0,<1.17.0
-   :depends bioconductor-xvector: >=0.28.0,<0.29.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-dexseq: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-drimseq: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-tximport: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-xvector: ``>=0.28.0,<0.29.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-dplyr: 
    :depends r-futile.logger: 

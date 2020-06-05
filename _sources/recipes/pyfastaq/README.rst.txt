@@ -8,6 +8,7 @@ pyfastaq
 
 .. conda:recipe:: pyfastaq
    :replaces_section_title:
+   :noindex:
 
    Script to manipulate FASTA and FASTQ files\, plus API for developers
 
@@ -22,9 +23,16 @@ pyfastaq
 
    |downloads_pyfastaq| |docker_pyfastaq|
 
-   :versions: 3.17.0-2, 3.17.0-1, 3.17.0-0, 3.14.0-0, 3.11.0-1, 3.11.0-0
+   :versions:
+      
+      
+
+      ``3.17.0-2``,  ``3.17.0-1``,  ``3.17.0-0``,  ``3.14.0-0``,  ``3.11.0-1``,  ``3.11.0-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

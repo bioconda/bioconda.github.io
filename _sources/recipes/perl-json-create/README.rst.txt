@@ -8,6 +8,7 @@ perl-json-create
 
 .. conda:recipe:: perl-json-create
    :replaces_section_title:
+   :noindex:
 
    fast\, minimal\, UTF\-8\-only serialization of data to JSON
 
@@ -22,9 +23,16 @@ perl-json-create
 
    |downloads_perl-json-create| |docker_perl-json-create|
 
-   :versions: 0.24-2, 0.24-1, 0.24-0
+   :versions:
+      
+      
+
+      ``0.24-2``,  ``0.24-1``,  ``0.24-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-json-parse: 
    :depends perl-unicode-utf8: 

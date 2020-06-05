@@ -8,6 +8,7 @@ bioconductor-gatefinder
 
 .. conda:recipe:: bioconductor-gatefinder
    :replaces_section_title:
+   :noindex:
 
    Projection\-based Gating Strategy Optimization for Flow and Mass Cytometry
 
@@ -22,11 +23,18 @@ bioconductor-gatefinder
 
    |downloads_bioconductor-gatefinder| |docker_bioconductor-gatefinder|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowfp: >=1.46.0,<1.47.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowfp: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-diptest: 
    :depends r-mvoutlier: 
    :depends r-splancs: 

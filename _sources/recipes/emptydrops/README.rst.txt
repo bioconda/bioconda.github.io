@@ -8,6 +8,7 @@ emptydrops
 
 .. conda:recipe:: emptydrops
    :replaces_section_title:
+   :noindex:
 
    Python implementation of emptydrops from 10X Cellranger v3.0.2
 
@@ -23,7 +24,14 @@ emptydrops
 
    |downloads_emptydrops| |docker_emptydrops|
 
-   :versions: 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.3-0``
+
+      
+
    
    :depends h5py: 
    :depends lz4: 

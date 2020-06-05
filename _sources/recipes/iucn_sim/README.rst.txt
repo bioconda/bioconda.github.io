@@ -8,6 +8,7 @@ iucn_sim
 
 .. conda:recipe:: iucn_sim
    :replaces_section_title:
+   :noindex:
 
    Simulate future extinctions and extinction rates for a given set of species\, based on IUCN threat assessments
 
@@ -22,13 +23,20 @@ iucn_sim
 
    |downloads_iucn_sim| |docker_iucn_sim|
 
-   :versions: 2.1-0, 2.0-0, 1.8-0, 1.7-0, 1.6-0, 1.5-0, 1.4-0, 1.3-0, 1.2-0
+   :versions:
+      
+      
+
+      ``2.1-0``,  ``2.0-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``
+
+      
+
    
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.6
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends python: ``>=3.6``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-rredlist: 
    :depends scipy: 
    :requirements:

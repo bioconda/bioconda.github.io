@@ -8,6 +8,7 @@ bioconductor-clusterexperiment
 
 .. conda:recipe:: bioconductor-clusterexperiment
    :replaces_section_title:
+   :noindex:
 
    Compare Clusterings for Single\-Cell Sequencing
 
@@ -22,23 +23,30 @@ bioconductor-clusterexperiment
 
    |downloads_bioconductor-clusterexperiment| |docker_bioconductor-clusterexperiment|
 
-   :versions: 2.8.0-0, 2.6.0-0, 2.4.4-0, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-hdf5array: >=1.16.0,<1.17.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-zinbwave: >=1.10.0,<1.11.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-ape: >=5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-hdf5array: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-zinbwave: ``>=1.10.0,<1.11.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-ape: ``>=5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-howmany: 
    :depends r-kernlab: 

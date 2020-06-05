@@ -8,6 +8,7 @@ bioconductor-jctseqdata
 
 .. conda:recipe:: bioconductor-jctseqdata
    :replaces_section_title:
+   :noindex:
 
    Example Junction Count data for use with JunctionSeq
 
@@ -22,10 +23,17 @@ bioconductor-jctseqdata
 
    |downloads_bioconductor-jctseqdata| |docker_bioconductor-jctseqdata|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ exonerate
 
 .. conda:recipe:: exonerate
    :replaces_section_title:
+   :noindex:
 
    Exonerate \- A generic tool for pairwise sequence comparison \/ alignment
 
@@ -23,11 +24,18 @@ exonerate
 
    |downloads_exonerate| |docker_exonerate|
 
-   :versions: 2.4.0-3, 2.4.0-2, 2.4.0-1, 2.4.0-0, 2.2.0-1, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``
+
+      
+
    
-   :depends glib: >=2.58.3,<3.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends pcre: >=8.43,<9.0a0
+   :depends glib: ``>=2.58.3,<3.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends pcre: ``>=8.43,<9.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ rnacode
 
 .. conda:recipe:: rnacode
    :replaces_section_title:
+   :noindex:
 
    RNAcode \- Analyze the protein coding potential in multiple sequence alignments RNAcode relies on evolutionary signatures including synonymous\/conservative mutations and conservation of the reading frame. It does not use any species specific sequence characteristics whatsoever and does not use any machine learning techniques.
 
@@ -22,7 +23,14 @@ rnacode
 
    |downloads_rnacode| |docker_rnacode|
 
-   :versions: 0.3-1, 0.3-0
+   :versions:
+      
+      
+
+      ``0.3-1``,  ``0.3-0``
+
+      
+
    
    :requirements:
 

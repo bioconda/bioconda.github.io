@@ -8,6 +8,7 @@ tbl2asn-forever
 
 .. conda:recipe:: tbl2asn-forever
    :replaces_section_title:
+   :noindex:
 
    tbl2asn is a program that automates the creation of sequence records for submission to GenBank
 
@@ -22,7 +23,14 @@ tbl2asn-forever
 
    |downloads_tbl2asn-forever| |docker_tbl2asn-forever|
 
-   :versions: 25.7.1f-0, 25.7f-0
+   :versions:
+      
+      
+
+      ``25.7.1f-0``,  ``25.7f-0``
+
+      
+
    
    :depends libfaketime: 
    :depends libidn11: 

@@ -8,6 +8,7 @@ samblaster
 
 .. conda:recipe:: samblaster
    :replaces_section_title:
+   :noindex:
 
    Mark duplicates in and extract discordant and split reads from SAM files.
 
@@ -22,10 +23,17 @@ samblaster
 
    |downloads_samblaster| |docker_samblaster|
 
-   :versions: 0.1.26-0, 0.1.25-0, 0.1.24-3, 0.1.24-2, 0.1.24-1, 0.1.24-0, 0.1.23-0, 0.1.22-0, 0.1.20-0
+   :versions:
+      
+      
+
+      ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-3``,  ``0.1.24-2``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.20-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

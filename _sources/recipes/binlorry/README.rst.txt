@@ -8,6 +8,7 @@ binlorry
 
 .. conda:recipe:: binlorry
    :replaces_section_title:
+   :noindex:
 
    BinLorry\, a flexible tool for binning and filtering sequencing reads
 
@@ -22,9 +23,16 @@ binlorry
 
    |downloads_binlorry| |docker_binlorry|
 
-   :versions: 1.3.1-0
+   :versions:
+      
+      
+
+      ``1.3.1-0``
+
+      
+
    
-   :depends python: >3
+   :depends python: ``>3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ gencore
 
 .. conda:recipe:: gencore
    :replaces_section_title:
+   :noindex:
 
    Generate consensus reads to reduce sequencing noises and remove duplications
 
@@ -22,12 +23,19 @@ gencore
 
    |downloads_gencore| |docker_gencore|
 
-   :versions: 0.13.0-0
+   :versions:
+      
+      
+
+      ``0.13.0-0``
+
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

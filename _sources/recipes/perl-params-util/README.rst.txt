@@ -8,6 +8,7 @@ perl-params-util
 
 .. conda:recipe:: perl-params-util
    :replaces_section_title:
+   :noindex:
 
    Simple\, compact and correct param\-checking functions
 
@@ -22,11 +23,18 @@ perl-params-util
 
    |downloads_perl-params-util| |docker_perl-params-util|
 
-   :versions: 1.07-4, 1.07-3, 1.07-2, 1.07-1, 1.07-0
+   :versions:
+      
+      
+
+      ``1.07-4``,  ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

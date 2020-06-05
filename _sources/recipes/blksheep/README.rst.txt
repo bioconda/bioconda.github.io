@@ -8,6 +8,7 @@ blksheep
 
 .. conda:recipe:: blksheep
    :replaces_section_title:
+   :noindex:
 
    A package for differential extreme values analysis
 
@@ -25,15 +26,22 @@ blksheep
 
    |downloads_blksheep| |docker_blksheep|
 
-   :versions: 0.0.6-0, 0.0.5-0, 0.0.3-0, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.2-0``
+
+      
+
    
-   :depends matplotlib: >=3.1.0
-   :depends numpy: >=1.16.4
-   :depends pandas: >=0.24.2
-   :depends scikit-learn: >=0.21.2
-   :depends scipy: >=1.2.1
-   :depends seaborn: >=0.9.0
-   :depends statsmodels: >=0.10.0
+   :depends matplotlib: ``>=3.1.0``
+   :depends numpy: ``>=1.16.4``
+   :depends pandas: ``>=0.24.2``
+   :depends scikit-learn: ``>=0.21.2``
+   :depends scipy: ``>=1.2.1``
+   :depends seaborn: ``>=0.9.0``
+   :depends statsmodels: ``>=0.10.0``
    :requirements:
 
    .. rubric:: Installation

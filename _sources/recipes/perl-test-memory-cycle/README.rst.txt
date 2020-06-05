@@ -8,6 +8,7 @@ perl-test-memory-cycle
 
 .. conda:recipe:: perl-test-memory-cycle
    :replaces_section_title:
+   :noindex:
 
    Verifies code hasn\'t left circular references
 
@@ -22,9 +23,16 @@ perl-test-memory-cycle
 
    |downloads_perl-test-memory-cycle| |docker_perl-test-memory-cycle|
 
-   :versions: 1.06-1, 1.06-0
+   :versions:
+      
+      
+
+      ``1.06-1``,  ``1.06-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-devel-cycle: 
    :depends perl-getopt-long: 
    :depends perl-padwalker: 

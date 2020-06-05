@@ -8,6 +8,7 @@ perl-config-autoconf
 
 .. conda:recipe:: perl-config-autoconf
    :replaces_section_title:
+   :noindex:
 
    A module to implement some of AutoConf macros in pure perl.
 
@@ -22,9 +23,16 @@ perl-config-autoconf
 
    |downloads_perl-config-autoconf| |docker_perl-config-autoconf|
 
-   :versions: 0.317-0, 0.311-2, 0.311-1, 0.311-0
+   :versions:
+      
+      
+
+      ``0.317-0``,  ``0.311-2``,  ``0.311-1``,  ``0.311-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-capture-tiny: 
    :depends perl-carp: 

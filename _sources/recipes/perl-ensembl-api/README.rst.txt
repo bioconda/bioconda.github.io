@@ -8,6 +8,7 @@ perl-ensembl-api
 
 .. conda:recipe:: perl-ensembl-api
    :replaces_section_title:
+   :noindex:
 
    The Ensembl Core Perl API and
 
@@ -22,13 +23,20 @@ perl-ensembl-api
 
    |downloads_perl-ensembl-api| |docker_perl-ensembl-api|
 
-   :versions: 98-0
+   :versions:
+      
+      
+
+      ``98-0``
+
+      
+
    
    :depends perl: 
-   :depends perl-ensembl-compara: 98.*
-   :depends perl-ensembl-funcgen: 98.*
-   :depends perl-ensembl-io: 98.*
-   :depends perl-ensembl-variation: 98.*
+   :depends perl-ensembl-compara: ``98.*``
+   :depends perl-ensembl-funcgen: ``98.*``
+   :depends perl-ensembl-io: ``98.*``
+   :depends perl-ensembl-variation: ``98.*``
    :requirements:
 
    .. rubric:: Installation

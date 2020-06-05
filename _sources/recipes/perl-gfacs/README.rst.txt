@@ -8,6 +8,7 @@ perl-gfacs
 
 .. conda:recipe:: perl-gfacs
    :replaces_section_title:
+   :noindex:
 
    gFACs is a filtering\, analysis\, and conversion tool to unify genome annotations across alignment and gene prediction frameworks.
 
@@ -23,9 +24,16 @@ perl-gfacs
 
    |downloads_perl-gfacs| |docker_perl-gfacs|
 
-   :versions: 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``
+
+      
+
    
-   :depends perl-bioperl: >=1.7.2
+   :depends perl-bioperl: ``>=1.7.2``
    :requirements:
 
    .. rubric:: Installation

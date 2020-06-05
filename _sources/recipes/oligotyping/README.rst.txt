@@ -8,6 +8,7 @@ oligotyping
 
 .. conda:recipe:: oligotyping
    :replaces_section_title:
+   :noindex:
 
    The oligotyping and minimum entropy decomposition \(MED\) pipeline for the analysis of marker gene amplicons
 
@@ -22,13 +23,20 @@ oligotyping
 
    |downloads_oligotyping| |docker_oligotyping|
 
-   :versions: 2.1-0, 2.0-0
+   :versions:
+      
+      
+
+      ``2.1-0``,  ``2.0-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
    :depends django: 
    :depends matplotlib: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends r-compute.es: 
    :depends r-ggplot2: 
    :depends r-gplots: 

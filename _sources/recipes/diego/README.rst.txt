@@ -8,6 +8,7 @@ diego
 
 .. conda:recipe:: diego
    :replaces_section_title:
+   :noindex:
 
    Detection of differential alternative splicing using Aitchinson\`s geometry
 
@@ -22,15 +23,22 @@ diego
 
    |downloads_diego| |docker_diego|
 
-   :versions: 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``
+
+      
+
    
-   :depends bedtools: >=2.20
-   :depends matplotlib-base: >=1.5.3
-   :depends numpy: >=1.11.2
-   :depends perl: >=5.26
-   :depends python: >=3
-   :depends samtools: >=1.3
-   :depends scipy: >=0.19.0
+   :depends bedtools: ``>=2.20``
+   :depends matplotlib-base: ``>=1.5.3``
+   :depends numpy: ``>=1.11.2``
+   :depends perl: ``>=5.26``
+   :depends python: ``>=3``
+   :depends samtools: ``>=1.3``
+   :depends scipy: ``>=0.19.0``
    :requirements:
 
    .. rubric:: Installation

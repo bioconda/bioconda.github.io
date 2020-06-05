@@ -8,6 +8,7 @@ bioconductor-monocle
 
 .. conda:recipe:: bioconductor-monocle
    :replaces_section_title:
+   :noindex:
 
    Clustering\, differential expression\, and trajectory analysis for single\- cell RNA\-Seq
 
@@ -23,42 +24,49 @@ bioconductor-monocle
 
    |downloads_bioconductor-monocle| |docker_bioconductor-monocle|
 
-   :versions: 2.16.0-0, 2.14.0-1, 2.12.0-1, 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.0-0
+   :versions:
+      
+      
+
+      ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocviews: >=1.56.0,<1.57.0
-   :depends bioconductor-hsmmsinglecell: >=1.8.0,<1.9.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocviews: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-hsmmsinglecell: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-combinat: 
-   :depends r-ddrtree: >=0.1.4
-   :depends r-densityclust: >=0.3
+   :depends r-ddrtree: ``>=0.1.4``
+   :depends r-densityclust: ``>=0.3``
    :depends r-dplyr: 
    :depends r-fastica: 
-   :depends r-ggplot2: >=1.0.0
-   :depends r-igraph: >=1.0.1
-   :depends r-irlba: >=2.0.0
+   :depends r-ggplot2: ``>=1.0.0``
+   :depends r-igraph: ``>=1.0.1``
+   :depends r-irlba: ``>=2.0.0``
    :depends r-mass: 
-   :depends r-matrix: >=1.2-6
+   :depends r-matrix: ``>=1.2-6``
    :depends r-matrixstats: 
    :depends r-pheatmap: 
    :depends r-plyr: 
    :depends r-proxy: 
    :depends r-qlcmatrix: 
-   :depends r-rann: >=2.5
-   :depends r-rcpp: >=0.12.0
+   :depends r-rann: ``>=2.5``
+   :depends r-rcpp: ``>=0.12.0``
    :depends r-reshape2: 
    :depends r-rtsne: 
    :depends r-slam: 
    :depends r-stringr: 
    :depends r-tibble: 
-   :depends r-vgam: >=1.0-6
+   :depends r-vgam: ``>=1.0-6``
    :depends r-viridis: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-ashkenazimsonchr21
 
 .. conda:recipe:: bioconductor-ashkenazimsonchr21
    :replaces_section_title:
+   :noindex:
 
    Annotated variants on the chromosome 21\, human genome 19\, Ashkenazim Trio son sample
 
@@ -22,10 +23,17 @@ bioconductor-ashkenazimsonchr21
 
    |downloads_bioconductor-ashkenazimsonchr21| |docker_bioconductor-ashkenazimsonchr21|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

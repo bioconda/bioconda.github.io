@@ -8,6 +8,7 @@ perl-text-levenshtein
 
 .. conda:recipe:: perl-text-levenshtein/0.13
    :replaces_section_title:
+   :noindex:
 
    calculate the Levenshtein edit distance between two strings
 
@@ -22,9 +23,16 @@ perl-text-levenshtein
 
    |downloads_perl-text-levenshtein| |docker_perl-text-levenshtein|
 
-   :versions: 0.13-0
+   :versions:
+      
+      
+
+      ``0.13-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :requirements:

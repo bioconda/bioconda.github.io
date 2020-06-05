@@ -8,6 +8,7 @@ perl-test-requires
 
 .. conda:recipe:: perl-test-requires
    :replaces_section_title:
+   :noindex:
 
    Checks to see if the module can be loaded
 
@@ -22,9 +23,16 @@ perl-test-requires
 
    |downloads_perl-test-requires| |docker_perl-test-requires|
 
-   :versions: 0.10-3, 0.10-2, 0.10-1, 0.10-0
+   :versions:
+      
+      
+
+      ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-org.cf.eg.db
 
 .. conda:recipe:: bioconductor-org.cf.eg.db
    :replaces_section_title:
+   :noindex:
 
    Genome wide annotation for Canine
 
@@ -22,11 +23,26 @@ bioconductor-org.cf.eg.db
 
    |downloads_bioconductor-org.cf.eg.db| |docker_bioconductor-org.cf.eg.db|
 
-   :versions: 3.11.1-0, 3.10.0-0, 3.8.2-1, 3.7.0-0, 3.6.0-0, 3.5.0-1, 3.5.0-0, 3.4.2-0, 3.4.1-1, 3.4.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.11.1-0</code>,  <code>3.10.0-0</code>,  <code>3.8.2-1</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-1</code>,  </span></summary>
+      
+
+      ``3.11.1-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

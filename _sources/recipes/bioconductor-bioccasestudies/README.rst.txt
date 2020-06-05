@@ -8,6 +8,7 @@ bioconductor-bioccasestudies
 
 .. conda:recipe:: bioconductor-bioccasestudies
    :replaces_section_title:
+   :noindex:
 
    BiocCaseStudies\: Support for the Case Studies Monograph
 
@@ -22,10 +23,17 @@ bioconductor-bioccasestudies
 
    |downloads_bioconductor-bioccasestudies| |docker_bioconductor-bioccasestudies|
 
-   :versions: 1.50.0-0, 1.48.0-0, 1.46.0-1, 1.44.0-1, 1.44.0-0
+   :versions:
+      
+      
+
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-1``,  ``1.44.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

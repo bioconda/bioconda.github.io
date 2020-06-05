@@ -8,6 +8,7 @@ bioconductor-ndexr
 
 .. conda:recipe:: bioconductor-ndexr
    :replaces_section_title:
+   :noindex:
 
    NDEx R client library
 
@@ -22,9 +23,16 @@ bioconductor-ndexr
 
    |downloads_bioconductor-ndexr| |docker_bioconductor-ndexr|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 
    :depends r-igraph: 
    :depends r-jsonlite: 

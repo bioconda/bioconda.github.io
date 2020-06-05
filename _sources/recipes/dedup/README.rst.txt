@@ -8,6 +8,7 @@ dedup
 
 .. conda:recipe:: dedup
    :replaces_section_title:
+   :noindex:
 
    DeDup is a tool for read deduplication in paired\-end read merging \(e.g. for ancient DNA experiments\).
 
@@ -22,7 +23,14 @@ dedup
 
    |downloads_dedup| |docker_dedup|
 
-   :versions: 0.12.6-0, 0.12.5-1, 0.12.4-1, 0.12.3-1, 0.12.3-0
+   :versions:
+      
+      
+
+      ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.4-1``,  ``0.12.3-1``,  ``0.12.3-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

@@ -8,6 +8,7 @@ wade
 
 .. conda:recipe:: wade
    :replaces_section_title:
+   :noindex:
 
    WADE provides a flexible and customizable method to extract specific genes from a large number of genomes at once.
 
@@ -22,11 +23,18 @@ wade
 
    |downloads_wade| |docker_wade|
 
-   :versions: 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0
+   :versions:
+      
+      
+
+      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
+
+      
+
    
    :depends bioconductor-biostrings: 
    :depends blast: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-biocmanager: 
    :depends r-dplyr: 
    :depends r-here: 

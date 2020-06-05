@@ -8,6 +8,7 @@ wgfast
 
 .. conda:recipe:: wgfast
    :replaces_section_title:
+   :noindex:
 
    The whole genome focused array SNP typing \(WG\-FAST\) pipeline
 
@@ -22,7 +23,14 @@ wgfast
 
    |downloads_wgfast| |docker_wgfast|
 
-   :versions: 1.0.4-0, 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+
    
    :depends bbmap: 
    :depends biopython: 
@@ -37,12 +45,12 @@ wgfast
    :depends pandas: 
    :depends pathos: 
    :depends picard: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends qt: 
    :depends raxml: 
    :depends retrying: 
    :depends samtools: 
-   :depends snakemake: >=5
+   :depends snakemake: ``>=5``
    :requirements:
 
    .. rubric:: Installation

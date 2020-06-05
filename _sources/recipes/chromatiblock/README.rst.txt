@@ -8,6 +8,7 @@ chromatiblock
 
 .. conda:recipe:: chromatiblock
    :replaces_section_title:
+   :noindex:
 
    Scalable\, whole\-genome visualisation of structural changes in prokaryotes.
 
@@ -22,11 +23,18 @@ chromatiblock
 
    |downloads_chromatiblock| |docker_chromatiblock|
 
-   :versions: 0.4.2-0, 0.4.1-0, 0.3.1-0, 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``,  ``0.3.0-0``
+
+      
+
    
-   :depends blast: >=2.2
+   :depends blast: ``>=2.2``
    :depends cairosvg: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends sibelia: 
    :requirements:
 

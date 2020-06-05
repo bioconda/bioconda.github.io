@@ -8,6 +8,7 @@ pybda
 
 .. conda:recipe:: pybda
    :replaces_section_title:
+   :noindex:
 
    Big biological data analytics powered by Apache Spark
 
@@ -24,19 +25,26 @@ pybda
 
    |downloads_pybda| |docker_pybda|
 
-   :versions: 0.1.0-0, 0.0.6-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``,  ``0.0.6-0``
+
+      
+
    
-   :depends click: >=6.7
-   :depends joypy: >=0.1.10
+   :depends click: ``>=6.7``
+   :depends joypy: ``>=0.1.10``
    :depends matplotlib: 
-   :depends numpy: >=1.15.0
-   :depends pandas: >=0.23.3
-   :depends pyspark: 2.4.0.*
-   :depends python: 3.6.*
-   :depends scipy: >=1.0.0
+   :depends numpy: ``>=1.15.0``
+   :depends pandas: ``>=0.23.3``
+   :depends pyspark: ``2.4.0.*``
+   :depends python: ``3.6.*``
+   :depends scipy: ``>=1.0.0``
    :depends seaborn: 
-   :depends snakemake: >=5.2.2
-   :depends sparkhpc: >=0.3.post4
+   :depends snakemake: ``>=5.2.2``
+   :depends sparkhpc: ``>=0.3.post4``
    :requirements:
 
    .. rubric:: Installation

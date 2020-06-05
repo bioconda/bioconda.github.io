@@ -8,6 +8,7 @@ bioconductor-rmir
 
 .. conda:recipe:: bioconductor-rmir
    :replaces_section_title:
+   :noindex:
 
    Package to work with miRNAs and miRNA targets with R
 
@@ -23,10 +24,17 @@ bioconductor-rmir
 
    |downloads_bioconductor-rmir| |docker_bioconductor-rmir|
 
-   :versions: 1.44.0-0, 1.42.0-0, 1.40.0-1, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions:
+      
+      
+
+      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
+
+      
+
    
-   :depends bioconductor-rmir.hs.mirna: >=1.0.0,<1.1.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rmir.hs.mirna: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-rsvgtipsdevice: 
    :requirements:

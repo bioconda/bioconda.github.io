@@ -8,6 +8,7 @@ seqfu
 
 .. conda:recipe:: seqfu
    :replaces_section_title:
+   :noindex:
 
    DNA sequence utilities \(N50\, de\/interleave FASTQ\, grep etc.\)
 
@@ -29,14 +30,21 @@ seqfu
 
    |downloads_seqfu| |docker_seqfu|
 
-   :versions: 0.5.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends interleafq: >=0.99
-   :depends n50: >=1.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends interleafq: ``>=0.99``
+   :depends n50: ``>=1.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter: 
    :depends perl-fastx-abi: 
-   :depends perl-fastx-reader: >=0.88
+   :depends perl-fastx-reader: ``>=0.88``
    :depends perl-file-which: 
    :depends perl-getopt-long: 
    :depends perl-json-pp: 

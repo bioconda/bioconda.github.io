@@ -8,6 +8,7 @@ comparem
 
 .. conda:recipe:: comparem
    :replaces_section_title:
+   :noindex:
 
    A toolbox for comparative genomics.
 
@@ -22,15 +23,22 @@ comparem
 
    |downloads_comparem| |docker_comparem|
 
-   :versions: 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``
+
+      
+
    
-   :depends biolib: >=0.1.0
-   :depends diamond: >=0.9.0
-   :depends matplotlib-base: >=1.3.1
-   :depends numpy: >=1.8.0
-   :depends prodigal: >=2.6.2
-   :depends python: >=3.6
-   :depends scipy: >=0.9.0
+   :depends biolib: ``>=0.1.0``
+   :depends diamond: ``>=0.9.0``
+   :depends matplotlib-base: ``>=1.3.1``
+   :depends numpy: ``>=1.8.0``
+   :depends prodigal: ``>=2.6.2``
+   :depends python: ``>=3.6``
+   :depends scipy: ``>=0.9.0``
    :requirements:
 
    .. rubric:: Installation

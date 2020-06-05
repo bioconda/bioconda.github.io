@@ -8,6 +8,7 @@ perl-cg-pipeline
 
 .. conda:recipe:: perl-cg-pipeline
    :replaces_section_title:
+   :noindex:
 
    Perl libraries required for CG\-Pipeline.
 
@@ -22,9 +23,16 @@ perl-cg-pipeline
 
    |downloads_perl-cg-pipeline| |docker_perl-cg-pipeline|
 
-   :versions: 0.5-0
+   :versions:
+      
+      
+
+      ``0.5-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl: 
    :depends perl-data-dumper: 
    :depends perl-dbi: 

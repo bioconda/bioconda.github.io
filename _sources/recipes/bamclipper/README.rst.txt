@@ -8,6 +8,7 @@ bamclipper
 
 .. conda:recipe:: bamclipper
    :replaces_section_title:
+   :noindex:
 
    Remove primer sequence from BAM alignments by soft\-clipping.
 
@@ -23,7 +24,14 @@ bamclipper
 
    |downloads_bamclipper| |docker_bamclipper|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
    :depends parallel: 
    :depends perl: 

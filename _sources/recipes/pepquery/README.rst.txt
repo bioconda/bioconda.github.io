@@ -8,6 +8,7 @@ pepquery
 
 .. conda:recipe:: pepquery
    :replaces_section_title:
+   :noindex:
 
    PepQuery is a peptide\-centric search engine for novel peptide identification and validation.
 
@@ -22,7 +23,14 @@ pepquery
 
    |downloads_pepquery| |docker_pepquery|
 
-   :versions: 1.3.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.3.0-0``,  ``1.2.0-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

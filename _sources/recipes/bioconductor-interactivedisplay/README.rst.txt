@@ -8,6 +8,7 @@ bioconductor-interactivedisplay
 
 .. conda:recipe:: bioconductor-interactivedisplay
    :replaces_section_title:
+   :noindex:
 
    Package for enabling powerful shiny web displays of Bioconductor objects
 
@@ -23,13 +24,20 @@ bioconductor-interactivedisplay
 
    |downloads_bioconductor-interactivedisplay| |docker_bioconductor-interactivedisplay|
 
-   :versions: 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.42.1,<1.44.0
-   :depends bioconductor-biocgenerics: >=0.26.0,<0.28.0
-   :depends bioconductor-category: >=2.46.0,<2.48.0
-   :depends bioconductor-interactivedisplaybase: >=1.18.0,<1.20.0
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends bioconductor-annotationdbi: ``>=1.42.1,<1.44.0``
+   :depends bioconductor-biocgenerics: ``>=0.26.0,<0.28.0``
+   :depends bioconductor-category: ``>=2.46.0,<2.48.0``
+   :depends bioconductor-interactivedisplaybase: ``>=1.18.0,<1.20.0``
+   :depends r-base: ``>=3.4.1,<3.4.2.0a0``
    :depends r-ggplot2: 
    :depends r-gridsvg: 
    :depends r-plyr: 

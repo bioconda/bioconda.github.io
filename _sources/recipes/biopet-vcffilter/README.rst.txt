@@ -8,6 +8,7 @@ biopet-vcffilter
 
 .. conda:recipe:: biopet-vcffilter
    :replaces_section_title:
+   :noindex:
 
    This tool enables a user to filter VCF files.
 
@@ -26,9 +27,16 @@ biopet-vcffilter
 
    |downloads_biopet-vcffilter| |docker_biopet-vcffilter|
 
-   :versions: 0.2-0
+   :versions:
+      
+      
+
+      ``0.2-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

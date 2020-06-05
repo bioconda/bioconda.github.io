@@ -8,6 +8,7 @@ monocle3-cli
 
 .. conda:recipe:: monocle3-cli
    :replaces_section_title:
+   :noindex:
 
    A set of wrappers for individual components of the monocle3 package. Functions R packages are hard to call when building workflows outside of R\, so this package adds a set of simple wrappers with robust argument parsing. Intermediate steps are currently monocle3 R objects\, but the ultimate objective is to have language\-agnostic intermediate formats allowing composite workflows using a variety of software packages.
 
@@ -22,11 +23,26 @@ monocle3-cli
 
    |downloads_monocle3-cli| |docker_monocle3-cli|
 
-   :versions: 0.0.9-0, 0.0.8-0, 0.0.7-1, 0.0.7-0, 0.0.6-0, 0.0.5-1, 0.0.5-0, 0.0.4-0, 0.0.3-1, 0.0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-1</code>,  </span></summary>
+      
+
+      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends fonts-conda-ecosystem: 
-   :depends r-base: >=3.6,<3.7.0a0
-   :depends r-monocle3: <=0.2.0
+   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-monocle3: ``<=0.2.0``
    :depends r-optparse: 
    :requirements:
 

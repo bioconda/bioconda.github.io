@@ -8,6 +8,7 @@ focus
 
 .. conda:recipe:: focus
    :replaces_section_title:
+   :noindex:
 
    FOCUS is an innovative and agile model to profile and report organisms present in metagenomic samples based on composition usage without sequence length dependencies.
 
@@ -23,12 +24,19 @@ focus
 
    |downloads_focus| |docker_focus|
 
-   :versions: 1.5-0, 1.4-2, 1.4-1, 1.4-0, 1.3-0
+   :versions:
+      
+      
+
+      ``1.5-0``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
+
+      
+
    
-   :depends kmer-jellyfish: >=2.2.6
-   :depends numpy: >=1.12.1
-   :depends python: >=3
-   :depends scipy: >=0.19.0
+   :depends kmer-jellyfish: ``>=2.2.6``
+   :depends numpy: ``>=1.12.1``
+   :depends python: ``>=3``
+   :depends scipy: ``>=0.19.0``
    :depends unzip: 
    :requirements:
 

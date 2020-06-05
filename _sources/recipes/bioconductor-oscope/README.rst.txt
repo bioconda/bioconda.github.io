@@ -8,6 +8,7 @@ bioconductor-oscope
 
 .. conda:recipe:: bioconductor-oscope
    :replaces_section_title:
+   :noindex:
 
    Oscope \- A statistical pipeline for identifying oscillatory genes in unsynchronized single cell RNA\-seq
 
@@ -23,11 +24,18 @@ bioconductor-oscope
 
    |downloads_bioconductor-oscope| |docker_bioconductor-oscope|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-ebseq: >=1.28.0,<1.29.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-ebseq: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-testthat: 
    :requirements:

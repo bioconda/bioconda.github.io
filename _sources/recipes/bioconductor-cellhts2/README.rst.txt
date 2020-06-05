@@ -8,6 +8,7 @@ bioconductor-cellhts2
 
 .. conda:recipe:: bioconductor-cellhts2
    :replaces_section_title:
+   :noindex:
 
    Analysis of cell\-based screens \- revised version of cellHTS
 
@@ -23,17 +24,24 @@ bioconductor-cellhts2
 
    |downloads_bioconductor-cellhts2| |docker_bioconductor-cellhts2|
 
-   :versions: 2.52.0-0, 2.50.0-0, 2.48.0-1, 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
+   :versions:
+      
+      
+
+      ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-category: >=2.54.0,<2.55.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-prada: >=1.63.0,<1.64.0
-   :depends bioconductor-splots: >=1.54.0,<1.55.0
-   :depends bioconductor-vsn: >=3.56.0,<3.57.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-prada: ``>=1.63.0,<1.64.0``
+   :depends bioconductor-splots: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hwriter: 
    :depends r-locfit: 
    :depends r-rcolorbrewer: 

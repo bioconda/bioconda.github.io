@@ -8,6 +8,7 @@ snoscan
 
 .. conda:recipe:: snoscan
    :replaces_section_title:
+   :noindex:
 
    Search for C\/D box methylation guide snoRNA genes in a genomic sequence
 
@@ -23,10 +24,17 @@ snoscan
 
    |downloads_snoscan| |docker_snoscan|
 
-   :versions: 0.9.1-0, 0.9b-3, 0.9b-2, 0.9b-1, 0.9b-0
+   :versions:
+      
+      
+
+      ``0.9.1-0``,  ``0.9b-3``,  ``0.9b-2``,  ``0.9b-1``,  ``0.9b-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

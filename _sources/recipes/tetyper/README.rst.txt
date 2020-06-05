@@ -8,6 +8,7 @@ tetyper
 
 .. conda:recipe:: tetyper
    :replaces_section_title:
+   :noindex:
 
    Typing of a specific transposable element \(TE\) of interest from paired\-end sequencing data.
 
@@ -23,7 +24,14 @@ tetyper
 
    |downloads_tetyper| |docker_tetyper|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
    :depends bcftools: 
    :depends biopython: 

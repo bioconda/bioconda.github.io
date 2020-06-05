@@ -8,6 +8,7 @@ bioconductor-scmageck
 
 .. conda:recipe:: bioconductor-scmageck
    :replaces_section_title:
+   :noindex:
 
    Identify genes associated with multiple expression phenotypes in single\-cell CRISPR screening data
 
@@ -22,9 +23,16 @@ bioconductor-scmageck
 
    |downloads_bioconductor-scmageck| |docker_bioconductor-scmageck|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-seurat: 
    :requirements:
 

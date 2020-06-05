@@ -8,6 +8,7 @@ smafa
 
 .. conda:recipe:: smafa
    :replaces_section_title:
+   :noindex:
 
    smafa is a tool for querying and clustering pre\-aligned small pre\-aligned DNA and amino acid sequences.
 
@@ -22,9 +23,16 @@ smafa
 
    |downloads_smafa| |docker_smafa|
 
-   :versions: 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

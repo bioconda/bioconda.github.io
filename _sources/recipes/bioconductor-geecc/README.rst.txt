@@ -8,6 +8,7 @@ bioconductor-geecc
 
 .. conda:recipe:: bioconductor-geecc
    :replaces_section_title:
+   :noindex:
 
    Gene Set Enrichment Analysis Extended to Contingency Cubes
 
@@ -22,17 +23,24 @@ bioconductor-geecc
 
    |downloads_bioconductor-geecc| |docker_bioconductor-geecc|
 
-   :versions: 1.21.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.1-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.21.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
-   :depends r-hypergea: >=1.3.0
+   :depends r-hypergea: ``>=1.3.0``
    :depends r-mass: 
-   :depends r-rcpp: >=0.11.3
+   :depends r-rcpp: ``>=0.11.3``
    :requirements:
 
    .. rubric:: Installation

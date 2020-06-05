@@ -8,6 +8,7 @@ escher
 
 .. conda:recipe:: escher
    :replaces_section_title:
+   :noindex:
 
    Escher\: A Web Application for Building\, Sharing\, and Embedding Data\-Rich Visualizations of Metabolic Pathways
 
@@ -22,14 +23,21 @@ escher
 
    |downloads_escher| |docker_escher|
 
-   :versions: 1.7.3-0
+   :versions:
+      
+      
+
+      ``1.7.3-0``
+
+      
+
    
-   :depends cobra: >=0.5.0
-   :depends ipywidgets: >=7.4.0,<8
-   :depends jinja2: >=2.7.3,<3
-   :depends jsonschema: >=3.0.1,<4
-   :depends pandas: >=0.18
-   :depends python: >=3.6
+   :depends cobra: ``>=0.5.0``
+   :depends ipywidgets: ``>=7.4.0,<8``
+   :depends jinja2: ``>=2.7.3,<3``
+   :depends jsonschema: ``>=3.0.1,<4``
+   :depends pandas: ``>=0.18``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-test-files
 
 .. conda:recipe:: perl-test-files
    :replaces_section_title:
+   :noindex:
 
    A Test\:\:Builder based module to ease testing with files and dirs
 
@@ -22,9 +23,16 @@ perl-test-files
 
    |downloads_perl-test-files| |docker_perl-test-files|
 
-   :versions: 0.14-2, 0.14-1, 0.14-0
+   :versions:
+      
+      
+
+      ``0.14-2``,  ``0.14-1``,  ``0.14-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-algorithm-diff: 
    :depends perl-test-builder-tester: 
    :depends perl-text-diff: 

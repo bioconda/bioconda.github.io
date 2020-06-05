@@ -8,6 +8,7 @@ makehub
 
 .. conda:recipe:: makehub
    :replaces_section_title:
+   :noindex:
 
    MakeHub is a command line tool for the fully automatic generation of of track data hubs for visualizing genomes with the UCSC genome browser.
 
@@ -22,11 +23,18 @@ makehub
 
    |downloads_makehub| |docker_makehub|
 
-   :versions: 1.0.5-1, 1.0.5-0, 1.0.4-0, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
+
+      
+
    
-   :depends augustus: >=3.3.1
+   :depends augustus: ``>=3.3.1``
    :depends biopython: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends samtools: 
    :depends ucsc-bedtobigbed: 
    :depends ucsc-fatotwobit: 

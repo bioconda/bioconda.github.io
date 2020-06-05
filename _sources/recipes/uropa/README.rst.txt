@@ -8,6 +8,7 @@ uropa
 
 .. conda:recipe:: uropa
    :replaces_section_title:
+   :noindex:
 
    UROPA \(Universal RObust Peak Annotator\) is a command line based tool\, intended for genomic region annotation from e.g. peak calling.
    It detects the most appropriate annotation by taking parameters such as feature type\, anchor\, direction and strand into account.
@@ -27,12 +28,27 @@ uropa
 
    |downloads_uropa| |docker_uropa|
 
-   :versions: 3.5.0-0, 3.4.0-0, 3.3.4-0, 3.3.3-0, 3.3.2-0, 3.3.0-0, 3.2.0-0, 3.1.0-0, 3.0.0-0, 2.0.3-0, 2.0.2a0-2, 2.0.2a0-0, 2.0.0a0-0, 1.2.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  </span></summary>
+      
+
+      ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.0.3-0``,  ``2.0.2a0-2``,  ``2.0.2a0-0``,  ``2.0.0a0-0``,  ``1.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bioconductor-graph: 
    :depends bioconductor-rbgl: 
-   :depends numpy: <1.16
-   :depends pysam: >=0.15.3
+   :depends numpy: ``<1.16``
+   :depends pysam: ``>=0.15.3``
    :depends python: 
    :depends r-base: 
    :depends r-getopt: 

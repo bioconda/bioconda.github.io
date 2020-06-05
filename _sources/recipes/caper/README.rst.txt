@@ -8,6 +8,7 @@ caper
 
 .. conda:recipe:: caper
    :replaces_section_title:
+   :noindex:
 
    Cromwell Assisted Pipeline ExecutoR
 
@@ -22,14 +23,29 @@ caper
 
    |downloads_caper| |docker_caper|
 
-   :versions: 0.8.2.1-0, 0.8.2-0, 0.8.1.1-0, 0.8.0-0, 0.7.0-0, 0.6.4-0, 0.6.3-0, 0.6.2-0, 0.6.1-0, 0.6.0-0, 0.5.6-0, 0.5.4-0, 0.5.2-0, 0.5.1-1, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.8.2.1-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  </span></summary>
+      
+
+      ``0.8.2.1-0``,  ``0.8.2-0``,  ``0.8.1.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends autouri: >=0.1.2.1
+   :depends autouri: ``>=0.1.2.1``
    :depends filelock: 
    :depends miniwdl: 
-   :depends pyhocon: >=0.3.53
+   :depends pyhocon: ``>=0.3.53``
    :depends pyopenssl: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends requests: 
    :requirements:
 

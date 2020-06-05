@@ -8,6 +8,7 @@ fastq-anonymous
 
 .. conda:recipe:: fastq-anonymous
    :replaces_section_title:
+   :noindex:
 
    Change the sequence of a fastq file to enable sharing of confidential information\, for troubleshooting￼ of tools.
 
@@ -22,10 +23,17 @@ fastq-anonymous
 
    |downloads_fastq-anonymous| |docker_fastq-anonymous|
 
-   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
    :depends biopython: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

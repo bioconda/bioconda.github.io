@@ -8,6 +8,7 @@ fgap
 
 .. conda:recipe:: fgap
    :replaces_section_title:
+   :noindex:
 
    FGAP\: an automated gap closing tool
 
@@ -22,7 +23,14 @@ fgap
 
    |downloads_fgap| |docker_fgap|
 
-   :versions: 1.8.1-1, 1.8.1-0
+   :versions:
+      
+      
+
+      ``1.8.1-1``,  ``1.8.1-0``
+
+      
+
    
    :depends blast: 
    :depends octave: 

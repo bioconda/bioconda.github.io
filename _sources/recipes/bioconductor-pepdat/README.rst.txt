@@ -8,6 +8,7 @@ bioconductor-pepdat
 
 .. conda:recipe:: bioconductor-pepdat
    :replaces_section_title:
+   :noindex:
 
    Peptide microarray data package
 
@@ -22,11 +23,18 @@ bioconductor-pepdat
 
    |downloads_bioconductor-pepdat| |docker_bioconductor-pepdat|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

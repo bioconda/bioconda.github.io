@@ -8,6 +8,7 @@ r-velocyto.r
 
 .. conda:recipe:: r-velocyto.r
    :replaces_section_title:
+   :noindex:
 
    RNA velocity estimation in R
 
@@ -22,21 +23,28 @@ r-velocyto.r
 
    |downloads_r-velocyto.r| |docker_r-velocyto.r|
 
-   :versions: 0.6-1, 0.6-0
+   :versions:
+      
+      
+
+      ``0.6-1``,  ``0.6-0``
+
+      
+
    
    :depends bioconductor-pcamethods: 
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends r-abind: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-hdf5r: 
    :depends r-igraph: 
    :depends r-mass: 
    :depends r-matrix: 
    :depends r-mgcv: 
-   :depends r-rcpp: >=0.12.13
+   :depends r-rcpp: ``>=0.12.13``
    :depends r-rcpparmadillo: 
    :requirements:
 

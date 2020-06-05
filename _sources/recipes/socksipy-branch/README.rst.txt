@@ -8,6 +8,7 @@ socksipy-branch
 
 .. conda:recipe:: socksipy-branch
    :replaces_section_title:
+   :noindex:
 
    A Python SOCKS module
 
@@ -22,7 +23,14 @@ socksipy-branch
 
    |downloads_socksipy-branch| |docker_socksipy-branch|
 
-   :versions: 1.01-1, 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-1``,  ``1.01-0``
+
+      
+
    
    :depends python: 
    :requirements:

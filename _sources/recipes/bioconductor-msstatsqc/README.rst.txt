@@ -8,6 +8,7 @@ bioconductor-msstatsqc
 
 .. conda:recipe:: bioconductor-msstatsqc
    :replaces_section_title:
+   :noindex:
 
    Longitudinal system suitability monitoring and quality control for proteomic experiments
 
@@ -22,11 +23,18 @@ bioconductor-msstatsqc
 
    |downloads_bioconductor-msstatsqc| |docker_bioconductor-msstatsqc|
 
-   :versions: 2.6.0-0, 2.4.0-0, 2.2.0-1, 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.0.1-0``
+
+      
+
    
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-qcmetrics: >=1.26.0,<1.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-qcmetrics: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggextra: 
    :depends r-ggplot2: 

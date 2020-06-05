@@ -8,6 +8,7 @@ mreps
 
 .. conda:recipe:: mreps
    :replaces_section_title:
+   :noindex:
 
    mreps is a flexible and efficient software for identifying serial repeats \(usually called tandem repeats\) in DNA sequences.
 
@@ -23,9 +24,16 @@ mreps
 
    |downloads_mreps| |docker_mreps|
 
-   :versions: 2.6.01-0, 0.1-0
+   :versions:
+      
+      
+
+      ``2.6.01-0``,  ``0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

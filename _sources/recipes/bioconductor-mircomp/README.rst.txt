@@ -8,6 +8,7 @@ bioconductor-mircomp
 
 .. conda:recipe:: bioconductor-mircomp
    :replaces_section_title:
+   :noindex:
 
    Tools to assess and compare miRNA expression estimatation methods
 
@@ -22,11 +23,18 @@ bioconductor-mircomp
 
    |downloads_bioconductor-mircomp| |docker_bioconductor-mircomp|
 
-   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-mircompdata: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-mircompdata: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-kernsmooth: 
    :requirements:
 

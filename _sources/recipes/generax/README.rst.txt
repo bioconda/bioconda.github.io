@@ -8,6 +8,7 @@ generax
 
 .. conda:recipe:: generax
    :replaces_section_title:
+   :noindex:
 
    GeneRax\: a parallel tool for species tree\-aware maximum likelihood based gene tree inference under gene duplication\, transfer\, and loss.
 
@@ -23,11 +24,18 @@ generax
 
    |downloads_generax| |docker_generax|
 
-   :versions: 1.2.0-0, 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openmpi: >=4.0.3,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openmpi: ``>=4.0.3,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

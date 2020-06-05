@@ -8,6 +8,7 @@ sharedmem
 
 .. conda:recipe:: sharedmem
    :replaces_section_title:
+   :noindex:
 
    Dispatch your trivially parallizable jobs with sharedmem. 
 
@@ -22,7 +23,14 @@ sharedmem
 
    |downloads_sharedmem| |docker_sharedmem|
 
-   :versions: 0.3.6-0, 0.3.5-2, 0.3.5-1, 0.3.5-0
+   :versions:
+      
+      
+
+      ``0.3.6-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``
+
+      
+
    
    :depends numpy: 
    :depends python: 

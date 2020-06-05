@@ -8,6 +8,7 @@ eukrep
 
 .. conda:recipe:: eukrep
    :replaces_section_title:
+   :noindex:
 
    Classification of Eukaryotic and Prokaryotic sequences from metagenomic datasets
 
@@ -22,7 +23,14 @@ eukrep
 
    |downloads_eukrep| |docker_eukrep|
 
-   :versions: 0.6.7-0
+   :versions:
+      
+      
+
+      ``0.6.7-0``
+
+      
+
    
    :depends biopython: 
    :depends kpal: 

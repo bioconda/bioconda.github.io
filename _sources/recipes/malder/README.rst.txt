@@ -8,6 +8,7 @@ malder
 
 .. conda:recipe:: malder
    :replaces_section_title:
+   :noindex:
 
    MALDER is a version of ALDER \(http\:\/\/groups.csail.mit.edu\/cb\/alder\/\) that has been modified to allow multiple admixture events.
 
@@ -23,14 +24,21 @@ malder
 
    |downloads_malder| |docker_malder|
 
-   :versions: 1.0.1e83d4e-0
+   :versions:
+      
+      
+
+      ``1.0.1e83d4e-0``
+
+      
+
    
    :depends fftw: 
-   :depends gsl: >=2.2.1,<2.3.0a0
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
    :depends lapack: 
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-string-escape
 
 .. conda:recipe:: perl-string-escape/2010.002
    :replaces_section_title:
+   :noindex:
 
    Backslash escapes\, quoted phrase\, word elision\, etc.
 
@@ -22,9 +23,16 @@ perl-string-escape
 
    |downloads_perl-string-escape| |docker_perl-string-escape|
 
-   :versions: 2010.002-0
+   :versions:
+      
+      
+
+      ``2010.002-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

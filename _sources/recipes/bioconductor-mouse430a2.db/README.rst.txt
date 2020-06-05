@@ -8,6 +8,7 @@ bioconductor-mouse430a2.db
 
 .. conda:recipe:: bioconductor-mouse430a2.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix Mouse Genome 430A 2.0 Array annotation data \(chip mouse430a2\)
 
@@ -22,12 +23,19 @@ bioconductor-mouse430a2.db
 
    |downloads_bioconductor-mouse430a2.db| |docker_bioconductor-mouse430a2.db|
 
-   :versions: 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

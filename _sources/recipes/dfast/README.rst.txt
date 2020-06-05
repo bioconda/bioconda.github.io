@@ -8,6 +8,7 @@ dfast
 
 .. conda:recipe:: dfast
    :replaces_section_title:
+   :noindex:
 
    DDBJ Fast Annotation and Submission Tool \- Prokaryotic genome annotation pipeline
 
@@ -24,20 +25,27 @@ dfast
 
    |downloads_dfast| |docker_dfast|
 
-   :versions: 1.2.6-1, 1.2.6-0, 1.2.5-0, 1.2.4-0, 1.2.3-2, 1.2.3-1, 1.2.3-0
+   :versions:
+      
+      
+
+      ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
+
+      
+
    
    :depends aragorn: 
    :depends barrnap: 
    :depends biopython: 
-   :depends blast: >=2.6.0
+   :depends blast: ``>=2.6.0``
    :depends ghostx: 
-   :depends hmmer: >=3.1b2
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends metagene_annotator: >=1.0
+   :depends hmmer: ``>=3.1b2``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends metagene_annotator: ``>=1.0``
    :depends openjdk: 
-   :depends python: >=3.6
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python: ``>=3.6``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

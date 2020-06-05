@@ -8,6 +8,7 @@ bioconductor-mtbls2
 
 .. conda:recipe:: bioconductor-mtbls2
    :replaces_section_title:
+   :noindex:
 
    MetaboLights MTBLS2\: Comparative LC\/MS\-based profiling of silver nitrate\-treated Arabidopsis thaliana leaves of wild\-type and cyp79B2 cyp79B3 double knockout plants. Böttcher et al. \(2004\)
 
@@ -22,10 +23,17 @@ bioconductor-mtbls2
 
    |downloads_bioconductor-mtbls2| |docker_bioconductor-mtbls2|
 
-   :versions: 1.17.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

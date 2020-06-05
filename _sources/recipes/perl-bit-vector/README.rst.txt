@@ -8,6 +8,7 @@ perl-bit-vector
 
 .. conda:recipe:: perl-bit-vector
    :replaces_section_title:
+   :noindex:
 
    Efficient bit vector\, set of integers and \"big int\" math library
 
@@ -22,9 +23,16 @@ perl-bit-vector
 
    |downloads_perl-bit-vector| |docker_perl-bit-vector|
 
-   :versions: 7.4-2, 7.4-1, 7.4-0
+   :versions:
+      
+      
+
+      ``7.4-2``,  ``7.4-1``,  ``7.4-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

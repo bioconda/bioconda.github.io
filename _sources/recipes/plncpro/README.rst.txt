@@ -8,13 +8,14 @@ plncpro
 
 .. conda:recipe:: plncpro
    :replaces_section_title:
+   :noindex:
 
    PlncPRO is a program to predict long non\-coding \(lncRNAs\) transcripts using Random Forests.
 
    :homepage: https://github.com/urmi-21/PLncPRO
    :license: GNU General Public License
    :recipe: /`plncpro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plncpro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plncpro/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1093/nar/gkx866`
+   :links: doi: :doi:`10.1093/nar/gkx866`
 
    
 
@@ -23,13 +24,20 @@ plncpro
 
    |downloads_plncpro| |docker_plncpro|
 
-   :versions: 1.2.2-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``
+
+      
+
    
    :depends biopython: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends regex: 
    :depends scikit-learn: 
    :requirements:

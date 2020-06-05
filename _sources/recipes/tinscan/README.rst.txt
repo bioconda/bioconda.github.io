@@ -8,6 +8,7 @@ tinscan
 
 .. conda:recipe:: tinscan
    :replaces_section_title:
+   :noindex:
 
    Find alignment signatures characteristic of transposon insertion sites.
 
@@ -22,10 +23,17 @@ tinscan
 
    |downloads_tinscan| |docker_tinscan|
 
-   :versions: 0.2.0-2, 0.2.0-1, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+
+      
+
    
-   :depends biopython: >=1.70
-   :depends python: >=3
+   :depends biopython: ``>=1.70``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

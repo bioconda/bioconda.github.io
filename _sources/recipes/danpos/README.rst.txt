@@ -8,6 +8,7 @@ danpos
 
 .. conda:recipe:: danpos
    :replaces_section_title:
+   :noindex:
 
    A toolkit for Dynamic Analysis of Nucleosome and Protein Occupancy by Sequencing\, version 2
 
@@ -22,11 +23,18 @@ danpos
 
    |downloads_danpos| |docker_danpos|
 
-   :versions: 2.2.2-0
+   :versions:
+      
+      
+
+      ``2.2.2-0``
+
+      
+
    
    :depends icu: 
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends r-base: 
    :depends rpy2: 
    :depends samtools: 

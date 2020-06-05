@@ -8,6 +8,7 @@ biopet-validatevcf
 
 .. conda:recipe:: biopet-validatevcf
    :replaces_section_title:
+   :noindex:
 
    ValidateVcf validates a VCF file against a reference genomes.
 
@@ -25,9 +26,16 @@ biopet-validatevcf
 
    |downloads_biopet-validatevcf| |docker_biopet-validatevcf|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

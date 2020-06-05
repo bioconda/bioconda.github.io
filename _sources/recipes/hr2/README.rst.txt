@@ -8,6 +8,7 @@ hr2
 
 .. conda:recipe:: hr2
    :replaces_section_title:
+   :noindex:
 
    HR2 is a program to calculate elemental compositions for a given mass. This program and its documentation are Copyright \(c\) 1992\-2005 by Joerg Hau
 
@@ -22,11 +23,18 @@ hr2
 
    |downloads_hr2| |docker_hr2|
 
-   :versions: 1.04-0
+   :versions:
+      
+      
+
+      ``1.04-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

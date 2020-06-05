@@ -8,6 +8,7 @@ bioconductor-enrichtf
 
 .. conda:recipe:: bioconductor-enrichtf
    :replaces_section_title:
+   :noindex:
 
    Transcription Factors Enrichment Analysis
 
@@ -22,21 +23,28 @@ bioconductor-enrichtf
 
    |downloads_bioconductor-enrichtf| |docker_bioconductor-enrichtf|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-jaspar2018: >=1.1.0,<1.2.0
-   :depends bioconductor-motifmatchr: >=1.10.0,<1.11.0
-   :depends bioconductor-pipeframe: >=1.4.0,<1.5.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-tfbstools: >=1.26.0,<1.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-jaspar2018: ``>=1.1.0,<1.2.0``
+   :depends bioconductor-motifmatchr: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-pipeframe: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-tfbstools: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-ggpubr: 
    :depends r-heatmap3: 

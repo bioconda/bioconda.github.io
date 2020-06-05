@@ -8,6 +8,7 @@ ucsc-estorient
 
 .. conda:recipe:: ucsc-estorient
    :replaces_section_title:
+   :noindex:
 
     Read ESTs from a database and determine orientation based on estOrientInfo table or direction in gbCdnaInfo table.  Update PSLs so that the strand reflects the direction of transcription. By default\, PSLs where the direction can\'t be determined are dropped. 
 
@@ -22,14 +23,21 @@ ucsc-estorient
 
    |downloads_ucsc-estorient| |docker_ucsc-estorient|
 
-   :versions: 377-0, 366-0, 357-2, 357-1, 357-0, 332-0
+   :versions:
+      
+      
+
+      ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libpng: >=1.6.35,<1.7.0a0
-   :depends libuuid: >=2.32.1,<3.0a0
-   :depends mysql-connector-c: >=6.1.11,<6.1.12.0a0
-   :depends openssl: >=1.0.2p,<1.0.3a
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libpng: ``>=1.6.35,<1.7.0a0``
+   :depends libuuid: ``>=2.32.1,<3.0a0``
+   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends openssl: ``>=1.0.2p,<1.0.3a``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

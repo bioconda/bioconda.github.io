@@ -8,6 +8,7 @@ bioconductor-huex.1.0.st.v2frmavecs
 
 .. conda:recipe:: bioconductor-huex.1.0.st.v2frmavecs
    :replaces_section_title:
+   :noindex:
 
    Vectors used by frma for microarrays of type huex.1.0.st.v2
 
@@ -22,10 +23,17 @@ bioconductor-huex.1.0.st.v2frmavecs
 
    |downloads_bioconductor-huex.1.0.st.v2frmavecs| |docker_bioconductor-huex.1.0.st.v2frmavecs|
 
-   :versions: 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

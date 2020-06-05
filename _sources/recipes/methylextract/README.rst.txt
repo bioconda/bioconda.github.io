@@ -8,6 +8,7 @@ methylextract
 
 .. conda:recipe:: methylextract
    :replaces_section_title:
+   :noindex:
 
    High\-Quality methylation maps and SNV calling from whole genome bisulfite sequencing data
 
@@ -22,7 +23,14 @@ methylextract
 
    |downloads_methylextract| |docker_methylextract|
 
-   :versions: 1.9.1-1, 1.9.1-0
+   :versions:
+      
+      
+
+      ``1.9.1-1``,  ``1.9.1-0``
+
+      
+
    
    :depends perl: 
    :depends samtools: 

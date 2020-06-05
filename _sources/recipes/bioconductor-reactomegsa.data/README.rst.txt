@@ -8,6 +8,7 @@ bioconductor-reactomegsa.data
 
 .. conda:recipe:: bioconductor-reactomegsa.data
    :replaces_section_title:
+   :noindex:
 
    Companion data package for the ReactomeGSA package
 
@@ -22,13 +23,20 @@ bioconductor-reactomegsa.data
 
    |downloads_bioconductor-reactomegsa.data| |docker_bioconductor-reactomegsa.data|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-reactomegsa: >=1.2.0,<1.3.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-reactomegsa: ``>=1.2.0,<1.3.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-seurat: 
    :requirements:
 

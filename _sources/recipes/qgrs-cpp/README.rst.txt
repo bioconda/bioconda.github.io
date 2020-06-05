@@ -8,6 +8,7 @@ qgrs-cpp
 
 .. conda:recipe:: qgrs-cpp
    :replaces_section_title:
+   :noindex:
 
    C\+\+ implementation of QGRS mapping.
 
@@ -23,10 +24,17 @@ qgrs-cpp
 
    |downloads_qgrs-cpp| |docker_qgrs-cpp|
 
-   :versions: 1.0-0, 0.0.2017.08.25-0
+   :versions:
+      
+      
+
+      ``1.0-0``,  ``0.0.2017.08.25-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

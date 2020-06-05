@@ -8,6 +8,7 @@ perl-locale
 
 .. conda:recipe:: perl-locale/1.03
    :replaces_section_title:
+   :noindex:
 
    Perl pragma to use or avoid POSIX locales for built\-in operations
 
@@ -22,9 +23,16 @@ perl-locale
 
    |downloads_perl-locale| |docker_perl-locale|
 
-   :versions: 1.03-1, 1.03-0
+   :versions:
+      
+      
+
+      ``1.03-1``,  ``1.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

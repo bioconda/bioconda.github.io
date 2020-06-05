@@ -8,6 +8,7 @@ r-tcr
 
 .. conda:recipe:: r-tcr
    :replaces_section_title:
+   :noindex:
 
    Platform for the advanced analysis of T cell receptor and Immunoglobulin repertoires data and visualisation of the analysis results.
 
@@ -22,21 +23,28 @@ r-tcr
 
    |downloads_r-tcr| |docker_r-tcr|
 
-   :versions: 2.2.4.1-1, 2.2.4.1-0, 2.2.4-1, 2.2.4-0, 2.2.2-0
+   :versions:
+      
+      
+
+      ``2.2.4.1-1``,  ``2.2.4.1-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-data.table: >=1.9.0
-   :depends r-dplyr: >=0.4.0
-   :depends r-ggplot2: >=1.0.0
-   :depends r-gridextra: >=0.9.0
-   :depends r-gtable: >=0.1.2
-   :depends r-igraph: >=0.7.1
-   :depends r-rcpp: >=0.11.1
-   :depends r-reshape2: >=1.2.0
-   :depends r-scales: >=0.3.0
-   :depends r-stringdist: >=0.7.3
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: ``>=1.9.0``
+   :depends r-dplyr: ``>=0.4.0``
+   :depends r-ggplot2: ``>=1.0.0``
+   :depends r-gridextra: ``>=0.9.0``
+   :depends r-gtable: ``>=0.1.2``
+   :depends r-igraph: ``>=0.7.1``
+   :depends r-rcpp: ``>=0.11.1``
+   :depends r-reshape2: ``>=1.2.0``
+   :depends r-scales: ``>=0.3.0``
+   :depends r-stringdist: ``>=0.7.3``
    :requirements:
 
    .. rubric:: Installation

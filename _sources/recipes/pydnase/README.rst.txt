@@ -8,6 +8,7 @@ pydnase
 
 .. conda:recipe:: pydnase
    :replaces_section_title:
+   :noindex:
 
    DNase\-seq analysis library
 
@@ -24,7 +25,14 @@ pydnase
 
    |downloads_pydnase| |docker_pydnase|
 
-   :versions: 0.3.0-1, 0.3.0-0, 0.2.6-1, 0.2.6-0
+   :versions:
+      
+      
+
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.6-1``,  ``0.2.6-0``
+
+      
+
    
    :depends bedtools: 
    :depends clint: 
@@ -32,7 +40,7 @@ pydnase
    :depends numpy: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: ``>=3.5,<3.6.0a0``
    :depends samtools: 
    :requirements:
 

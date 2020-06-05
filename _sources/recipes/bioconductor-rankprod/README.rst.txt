@@ -8,6 +8,7 @@ bioconductor-rankprod
 
 .. conda:recipe:: bioconductor-rankprod
    :replaces_section_title:
+   :noindex:
 
    Rank Product method for identifying differentially expressed genes with application in meta\-analysis
 
@@ -23,9 +24,16 @@ bioconductor-rankprod
 
    |downloads_bioconductor-rankprod| |docker_bioconductor-rankprod|
 
-   :versions: 3.14.0-0, 3.12.0-0, 3.10.0-1, 3.10.0-0, 3.8.0-0, 3.6.0-0, 3.4.0-0
+   :versions:
+      
+      
+
+      ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gmp: 
    :depends r-rmpfr: 
    :requirements:

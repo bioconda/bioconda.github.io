@@ -8,6 +8,7 @@ tantan
 
 .. conda:recipe:: tantan
    :replaces_section_title:
+   :noindex:
 
    tantan is a tool for masking simple regions \(low complexity and short\-period tandem repeats\) in biological sequences.
 
@@ -22,10 +23,17 @@ tantan
 
    |downloads_tantan| |docker_tantan|
 
-   :versions: 13-1, 13-0
+   :versions:
+      
+      
+
+      ``13-1``,  ``13-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

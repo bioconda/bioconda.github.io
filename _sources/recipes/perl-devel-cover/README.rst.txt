@@ -8,6 +8,7 @@ perl-devel-cover
 
 .. conda:recipe:: perl-devel-cover
    :replaces_section_title:
+   :noindex:
 
    Code coverage metrics for Perl
 
@@ -22,10 +23,17 @@ perl-devel-cover
 
    |downloads_perl-devel-cover| |docker_perl-devel-cover|
 
-   :versions: 1.33-0
+   :versions:
+      
+      
+
+      ``1.33-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-b-debug: 
    :depends perl-class-xsaccessor: 
    :depends perl-digest-md5: 

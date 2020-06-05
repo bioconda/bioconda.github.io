@@ -8,6 +8,7 @@ bioconductor-metacyto
 
 .. conda:recipe:: bioconductor-metacyto
    :replaces_section_title:
+   :noindex:
 
    MetaCyto\: A package for meta\-analysis of cytometry data
 
@@ -22,16 +23,23 @@ bioconductor-metacyto
 
    |downloads_bioconductor-metacyto| |docker_bioconductor-metacyto|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.1-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowsom: >=1.20.0,<1.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowsom: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-fastcluster: 
    :depends r-ggplot2: 
    :depends r-metafor: 
-   :depends r-tidyr: >=0.7
+   :depends r-tidyr: ``>=0.7``
    :requirements:
 
    .. rubric:: Installation

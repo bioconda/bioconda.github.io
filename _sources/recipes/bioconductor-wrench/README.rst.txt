@@ -8,6 +8,7 @@ bioconductor-wrench
 
 .. conda:recipe:: bioconductor-wrench
    :replaces_section_title:
+   :noindex:
 
    Wrench normalization for sparse count data
 
@@ -22,10 +23,17 @@ bioconductor-wrench
 
    |downloads_bioconductor-wrench| |docker_bioconductor-wrench|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-locfit: 
    :depends r-matrixstats: 
    :requirements:

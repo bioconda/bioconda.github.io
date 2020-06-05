@@ -8,6 +8,7 @@ pourrna
 
 .. conda:recipe:: pourrna
    :replaces_section_title:
+   :noindex:
 
    Compute local minima and respective transition rates of an RNA energy landscape.
 
@@ -23,12 +24,19 @@ pourrna
 
    |downloads_pourrna| |docker_pourrna|
 
-   :versions: 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends viennarna: >=2.4.14,<2.5.0a0
-   :depends viennarna: >=2.4.14,<3.0.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends viennarna: ``>=2.4.14,<2.5.0a0``
+   :depends viennarna: ``>=2.4.14,<3.0.0``
    :requirements:
 
    .. rubric:: Installation

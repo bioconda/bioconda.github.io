@@ -8,6 +8,7 @@ mosdepth
 
 .. conda:recipe:: mosdepth
    :replaces_section_title:
+   :noindex:
 
    Fast BAM\/CRAM depth calculation for WGS\, exome\, or targetted sequencing.
 
@@ -22,11 +23,26 @@ mosdepth
 
    |downloads_mosdepth| |docker_mosdepth|
 
-   :versions: 0.2.9-1, 0.2.9-0, 0.2.7-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-1, 0.2.3-0, 0.2.2-1, 0.2.1-1, 0.2.1-0, 0.2.0-0, 0.1.9-0, 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.4a-0, 0.1.3-0, 0.1.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.9-1</code>,  <code>0.2.9-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  </span></summary>
+      
+
+      ``0.2.9-1``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4a-0``,  ``0.1.3-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends pcre: >=8.44,<9.0a0
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends pcre: ``>=8.44,<9.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ mtb-snp-it
 
 .. conda:recipe:: mtb-snp-it
    :replaces_section_title:
+   :noindex:
 
    SNP\-IT\: Whole genome SNP based identification of members of the Mycobacterium tuberculosis complex.
 
@@ -27,7 +28,14 @@ mtb-snp-it
 
    |downloads_mtb-snp-it| |docker_mtb-snp-it|
 
-   :versions: 1.1-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``1.1-0``,  ``0.1.0-0``
+
+      
+
    
    :depends biopython: 
    :depends python: 

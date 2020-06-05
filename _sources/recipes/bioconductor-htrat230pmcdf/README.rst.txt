@@ -8,6 +8,7 @@ bioconductor-htrat230pmcdf
 
 .. conda:recipe:: bioconductor-htrat230pmcdf
    :replaces_section_title:
+   :noindex:
 
    htrat230pmcdf
 
@@ -22,11 +23,18 @@ bioconductor-htrat230pmcdf
 
    |downloads_bioconductor-htrat230pmcdf| |docker_bioconductor-htrat230pmcdf|
 
-   :versions: 2.18.0-5, 2.18.0-4, 2.18.0-3, 2.18.0-1, 2.18.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-5``,  ``2.18.0-4``,  ``2.18.0-3``,  ``2.18.0-1``,  ``2.18.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

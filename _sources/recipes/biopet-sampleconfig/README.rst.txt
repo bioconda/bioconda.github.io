@@ -8,6 +8,7 @@ biopet-sampleconfig
 
 .. conda:recipe:: biopet-sampleconfig
    :replaces_section_title:
+   :noindex:
 
    \#\#\#\# Tools \- ExtractTsv  This mean can extract samples\, libraries and readgroups from a sample config file.
 
@@ -46,9 +47,16 @@ biopet-sampleconfig
 
    |downloads_biopet-sampleconfig| |docker_biopet-sampleconfig|
 
-   :versions: 0.3-0, 0.2-0, 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.3-0``,  ``0.2-0``,  ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

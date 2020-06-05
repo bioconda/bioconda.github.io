@@ -8,6 +8,7 @@ jalview
 
 .. conda:recipe:: jalview
    :replaces_section_title:
+   :noindex:
 
    Jalview is a free program for multiple sequence alignment editing\, visualisation\, analysis and figure generation.
 
@@ -27,9 +28,24 @@ jalview
 
    |downloads_jalview| |docker_jalview|
 
-   :versions: 2.11.1.0-0, 2.11.0-1, 2.11.0-0, 2.10.5-3, 2.10.4-0, 2.10.4b1-2, 2.10.4b1-0, 2.10.3-1, 2.10.3-0, 2.10.3b1-0, 2.10.2b2-2, 2.10.2b2-1, 2.10.2b2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.11.1.0-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.5-3</code>,  <code>2.10.4-0</code>,  <code>2.10.4b1-2</code>,  <code>2.10.4b1-0</code>,  <code>2.10.3-1</code>,  <code>2.10.3-0</code>,  </span></summary>
+      
+
+      ``2.11.1.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.5-3``,  ``2.10.4-0``,  ``2.10.4b1-2``,  ``2.10.4b1-0``,  ``2.10.3-1``,  ``2.10.3-0``,  ``2.10.3b1-0``,  ``2.10.2b2-2``,  ``2.10.2b2-1``,  ``2.10.2b2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8.0.192
+   :depends openjdk: ``>=8.0.192``
    :depends psutil: 
    :depends xorg-libxtst: 
    :requirements:

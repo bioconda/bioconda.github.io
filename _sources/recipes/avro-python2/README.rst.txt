@@ -8,6 +8,7 @@ avro-python2
 
 .. conda:recipe:: avro-python2
    :replaces_section_title:
+   :noindex:
 
    Avro is a serialization and RPC framework.
 
@@ -22,7 +23,14 @@ avro-python2
 
    |downloads_avro-python2| |docker_avro-python2|
 
-   :versions: 1.9.0-0, 1.8.2-1, 1.8.2-0, 1.8.1-0
+   :versions:
+      
+      
+
+      ``1.9.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

@@ -8,6 +8,7 @@ perl-math-derivative
 
 .. conda:recipe:: perl-math-derivative
    :replaces_section_title:
+   :noindex:
 
    Numeric 1st and 2nd order differentiation.
 
@@ -22,9 +23,16 @@ perl-math-derivative
 
    |downloads_perl-math-derivative| |docker_perl-math-derivative|
 
-   :versions: 1.01-0, 0.04-1, 0.04-0
+   :versions:
+      
+      
+
+      ``1.01-0``,  ``0.04-1``,  ``0.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

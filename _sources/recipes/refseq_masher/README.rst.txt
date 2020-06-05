@@ -8,6 +8,7 @@ refseq_masher
 
 .. conda:recipe:: refseq_masher
    :replaces_section_title:
+   :noindex:
 
    refseq\_masher finds what NCBI RefSeq genomes match or are contained within your sequence data using Mash
 
@@ -22,13 +23,20 @@ refseq_masher
 
    |downloads_refseq_masher| |docker_refseq_masher|
 
-   :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+
+      
+
    
    :depends click: 
-   :depends mash: >=2.0
-   :depends numpy: >=1.12.1
-   :depends pandas: >=0.20.1
-   :depends python: >=3
+   :depends mash: ``>=2.0``
+   :depends numpy: ``>=1.12.1``
+   :depends pandas: ``>=0.20.1``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

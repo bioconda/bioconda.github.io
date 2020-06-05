@@ -8,6 +8,7 @@ bioconductor-hspec
 
 .. conda:recipe:: bioconductor-hspec
    :replaces_section_title:
+   :noindex:
 
    Hspec
 
@@ -22,11 +23,18 @@ bioconductor-hspec
 
    |downloads_bioconductor-hspec| |docker_bioconductor-hspec|
 
-   :versions: 0.99.1-4, 0.99.1-3, 0.99.1-2, 0.99.1-0
+   :versions:
+      
+      
+
+      ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-2``,  ``0.99.1-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

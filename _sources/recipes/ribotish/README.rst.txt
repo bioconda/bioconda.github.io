@@ -8,6 +8,7 @@ ribotish
 
 .. conda:recipe:: ribotish
    :replaces_section_title:
+   :noindex:
 
    Ribo TIS Hunter \(Ribo\-TISH\) identifies translation activities using ribosome profiling data.
 
@@ -22,7 +23,14 @@ ribotish
 
    |downloads_ribotish| |docker_ribotish|
 
-   :versions: 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+
+      
+
    
    :depends matplotlib-base: 
    :depends numpy: 

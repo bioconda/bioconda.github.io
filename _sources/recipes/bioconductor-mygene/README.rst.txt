@@ -8,6 +8,7 @@ bioconductor-mygene
 
 .. conda:recipe:: bioconductor-mygene
    :replaces_section_title:
+   :noindex:
 
    Access MyGene.Info\_ services
 
@@ -23,14 +24,21 @@ bioconductor-mygene
 
    |downloads_bioconductor-mygene| |docker_bioconductor-mygene|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.2-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hmisc: 
-   :depends r-httr: >=0.3
-   :depends r-jsonlite: >=0.9.7
+   :depends r-httr: ``>=0.3``
+   :depends r-jsonlite: ``>=0.9.7``
    :depends r-plyr: 
    :depends r-sqldf: 
    :requirements:

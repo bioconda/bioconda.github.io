@@ -8,6 +8,7 @@ perl-exception-class
 
 .. conda:recipe:: perl-exception-class
    :replaces_section_title:
+   :noindex:
 
    A module that allows you to declare real exception classes in Perl
 
@@ -22,9 +23,16 @@ perl-exception-class
 
    |downloads_perl-exception-class| |docker_perl-exception-class|
 
-   :versions: 1.44-0, 1.40-2, 1.40-1, 1.40-0
+   :versions:
+      
+      
+
+      ``1.44-0``,  ``1.40-2``,  ``1.40-1``,  ``1.40-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-class-data-inheritable: 
    :depends perl-devel-stacktrace: 
    :requirements:

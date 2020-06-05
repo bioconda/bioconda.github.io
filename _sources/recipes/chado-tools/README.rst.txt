@@ -8,6 +8,7 @@ chado-tools
 
 .. conda:recipe:: chado-tools
    :replaces_section_title:
+   :noindex:
 
    Tools to access CHADO databases
 
@@ -22,14 +23,29 @@ chado-tools
 
    |downloads_chado-tools| |docker_chado-tools|
 
-   :versions: 0.2.15-0, 0.2.14-0, 0.2.13-0, 0.2.12-0, 0.2.11-0, 0.2.10-0, 0.2.8-0, 0.2.5-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.15-0</code>,  <code>0.2.14-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.8-0</code>,  <code>0.2.5-0</code>,  <code>0.0.5-0</code>,  </span></summary>
+      
+
+      ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.8-0``,  ``0.2.5-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends gffutils: 
-   :depends postgresql: >=9.6
-   :depends pronto: >=0.11.0
+   :depends postgresql: ``>=9.6``
+   :depends pronto: ``>=0.11.0``
    :depends psycopg2: 
-   :depends python: 3.6.*
+   :depends python: ``3.6.*``
    :depends pyyaml: 
    :depends sqlalchemy: 
    :depends sqlalchemy-utils: 

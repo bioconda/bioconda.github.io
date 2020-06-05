@@ -8,6 +8,7 @@ tablet
 
 .. conda:recipe:: tablet
    :replaces_section_title:
+   :noindex:
 
    Tablet is a lightweight\, high\-performance graphical viewer for next generation sequence assemblies and alignments.
 
@@ -22,9 +23,16 @@ tablet
 
    |downloads_tablet| |docker_tablet|
 
-   :versions: 1.17.08.17-1, 1.17.08.17-0
+   :versions:
+      
+      
+
+      ``1.17.08.17-1``,  ``1.17.08.17-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :requirements:
 
    .. rubric:: Installation

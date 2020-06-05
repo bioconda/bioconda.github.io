@@ -8,6 +8,7 @@ gem3-mapper
 
 .. conda:recipe:: gem3-mapper
    :replaces_section_title:
+   :noindex:
 
    The GEM read mapper \(v3\).
 
@@ -23,11 +24,18 @@ gem3-mapper
 
    |downloads_gem3-mapper| |docker_gem3-mapper|
 
-   :versions: 3.6.1-7, 3.6.1-6, 3.6.1-5, 3.6.1-4, 3.6.1-3, 3.6.1-2, 3.6.1-1, 3.6.1-0
+   :versions:
+      
+      
+
+      ``3.6.1-7``,  ``3.6.1-6``,  ``3.6.1-5``,  ``3.6.1-4``,  ``3.6.1-3``,  ``3.6.1-2``,  ``3.6.1-1``,  ``3.6.1-0``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

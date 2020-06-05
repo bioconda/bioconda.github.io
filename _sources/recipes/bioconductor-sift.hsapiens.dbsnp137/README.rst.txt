@@ -8,6 +8,7 @@ bioconductor-sift.hsapiens.dbsnp137
 
 .. conda:recipe:: bioconductor-sift.hsapiens.dbsnp137
    :replaces_section_title:
+   :noindex:
 
    PROVEAN\/SIFT Predictions for Homo sapiens dbSNP build 137
 
@@ -22,13 +23,20 @@ bioconductor-sift.hsapiens.dbsnp137
 
    |downloads_bioconductor-sift.hsapiens.dbsnp137| |docker_bioconductor-sift.hsapiens.dbsnp137|
 
-   :versions: 1.0.0-4, 1.0.0-3, 1.0.0-2, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-rsqlite: >=0.11.0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-variantannotation: ``>=1.34.0,<1.35.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-rsqlite: ``>=0.11.0``
    :requirements:
 
    .. rubric:: Installation

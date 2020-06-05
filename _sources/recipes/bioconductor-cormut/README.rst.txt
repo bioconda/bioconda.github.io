@@ -8,6 +8,7 @@ bioconductor-cormut
 
 .. conda:recipe:: bioconductor-cormut
    :replaces_section_title:
+   :noindex:
 
    Detect the correlated mutations based on selection pressure
 
@@ -22,9 +23,16 @@ bioconductor-cormut
 
    |downloads_bioconductor-cormut| |docker_bioconductor-cormut|
 
-   :versions: 1.29.0-0, 1.28.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0
+   :versions:
+      
+      
+
+      ``1.29.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-seqinr: 
    :requirements:

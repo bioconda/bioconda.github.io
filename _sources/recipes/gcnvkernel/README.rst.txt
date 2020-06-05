@@ -8,6 +8,7 @@ gcnvkernel
 
 .. conda:recipe:: gcnvkernel
    :replaces_section_title:
+   :noindex:
 
    Python package to support GATK gCNV calling.
 
@@ -23,13 +24,20 @@ gcnvkernel
 
    |downloads_gcnvkernel| |docker_gcnvkernel|
 
-   :versions: 0.7-0
+   :versions:
+      
+      
+
+      ``0.7-0``
+
+      
+
    
    :depends mkl: 
    :depends numpy: 
-   :depends pymc3: 3.1.*
-   :depends python: 3.*
-   :depends scipy: <1.3.0
+   :depends pymc3: ``3.1.*``
+   :depends python: ``3.*``
+   :depends scipy: ``<1.3.0``
    :depends theano: 
    :depends tqdm: 
    :requirements:

@@ -8,6 +8,7 @@ perl-xml-semanticdiff
 
 .. conda:recipe:: perl-xml-semanticdiff
    :replaces_section_title:
+   :noindex:
 
    Perl extension for comparing XML documents.
 
@@ -22,9 +23,16 @@ perl-xml-semanticdiff
 
    |downloads_perl-xml-semanticdiff| |docker_perl-xml-semanticdiff|
 
-   :versions: 1.0007-0, 1.0004-2, 1.0004-1, 1.0004-0
+   :versions:
+      
+      
+
+      ``1.0007-0``,  ``1.0004-2``,  ``1.0004-1``,  ``1.0004-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-digest-md5: 
    :depends perl-encode: 
    :depends perl-xml-parser: 

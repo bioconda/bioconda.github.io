@@ -8,6 +8,7 @@ homer
 
 .. conda:recipe:: homer
    :replaces_section_title:
+   :noindex:
 
    Software for motif discovery and next generation sequencing analysis
 
@@ -22,12 +23,27 @@ homer
 
    |downloads_homer| |docker_homer|
 
-   :versions: 4.11-1, 4.11-0, 4.10-0, 4.9.1-6, 4.9.1-5, 4.9.1-4, 4.9.1-3, 4.9.1-2, 4.9.1-1, 4.9.1-0, 4.8.3-3, 4.8-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.11-1</code>,  <code>4.11-0</code>,  <code>4.10-0</code>,  <code>4.9.1-6</code>,  <code>4.9.1-5</code>,  <code>4.9.1-4</code>,  <code>4.9.1-3</code>,  <code>4.9.1-2</code>,  <code>4.9.1-1</code>,  </span></summary>
+      
+
+      ``4.11-1``,  ``4.11-0``,  ``4.10-0``,  ``4.9.1-6``,  ``4.9.1-5``,  ``4.9.1-4``,  ``4.9.1-3``,  ``4.9.1-2``,  ``4.9.1-1``,  ``4.9.1-0``,  ``4.8.3-3``,  ``4.8-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends python_abi: 3.7.* *_cp37m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :requirements:
 
    .. rubric:: Installation

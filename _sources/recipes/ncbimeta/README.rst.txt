@@ -8,6 +8,7 @@ ncbimeta
 
 .. conda:recipe:: ncbimeta
    :replaces_section_title:
+   :noindex:
 
    Efficient and comprehensive metadata acquisition from the NCBI databases \(includes SRA\).
 
@@ -22,13 +23,20 @@ ncbimeta
 
    |downloads_ncbimeta| |docker_ncbimeta|
 
-   :versions: 0.6.6-0, 0.6.5-0, 0.6.4-0, 0.6.3-0, 0.6.2-0, 0.6.1-0
+   :versions:
+      
+      
+
+      ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
+
+      
+
    
-   :depends biopython: >=1.74
-   :depends lxml: >=4.4.2
-   :depends numpy: >=1.16.4
-   :depends python: >3
-   :depends pyyaml: >=5.1.2
+   :depends biopython: ``>=1.74``
+   :depends lxml: ``>=4.4.2``
+   :depends numpy: ``>=1.16.4``
+   :depends python: ``>3``
+   :depends pyyaml: ``>=5.1.2``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ r-singlecellnet
 
 .. conda:recipe:: r-singlecellnet
    :replaces_section_title:
+   :noindex:
 
    SingleCellNet enables the classifcation of single cell RNA\-Seq data across
    species and platforms.
@@ -25,9 +26,16 @@ r-singlecellnet
 
    |downloads_r-singlecellnet| |docker_r-singlecellnet|
 
-   :versions: 0.4.1-1, 0.4.1-0
+   :versions:
+      
+      
+
+      ``0.4.1-1``,  ``0.4.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-data.tree: 
    :depends r-desctools: 

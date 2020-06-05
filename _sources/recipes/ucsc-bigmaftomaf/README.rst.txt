@@ -8,6 +8,7 @@ ucsc-bigmaftomaf
 
 .. conda:recipe:: ucsc-bigmaftomaf
    :replaces_section_title:
+   :noindex:
 
    convert bigMaf to maf file
 
@@ -22,14 +23,21 @@ ucsc-bigmaftomaf
 
    |downloads_ucsc-bigmaftomaf| |docker_ucsc-bigmaftomaf|
 
-   :versions: 377-0, 366-0, 357-2, 357-1, 357-0
+   :versions:
+      
+      
+
+      ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libpng: >=1.6.35,<1.7.0a0
-   :depends libuuid: >=2.32.1,<3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libpng: ``>=1.6.35,<1.7.0a0``
+   :depends libuuid: ``>=2.32.1,<3.0a0``
    :depends mysql-connector-c: 
-   :depends openssl: >=1.0.2p,<1.0.3a
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends openssl: ``>=1.0.2p,<1.0.3a``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

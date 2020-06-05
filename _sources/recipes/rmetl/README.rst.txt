@@ -8,6 +8,7 @@ rmetl
 
 .. conda:recipe:: rmetl
    :replaces_section_title:
+   :noindex:
 
    rMETL is a realignment\-based Mobile Element insertion detection Tool for Long read
 
@@ -22,13 +23,20 @@ rmetl
 
    |downloads_rmetl| |docker_rmetl|
 
-   :versions: 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``
+
+      
+
    
    :depends biopython: 
    :depends cigar: 
    :depends ngmlr: 
    :depends pysam: 
-   :depends python: 2.7.*
+   :depends python: ``2.7.*``
    :depends samtools: 
    :requirements:
 

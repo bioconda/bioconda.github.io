@@ -8,6 +8,7 @@ bioconductor-targetscore
 
 .. conda:recipe:: bioconductor-targetscore
    :replaces_section_title:
+   :noindex:
 
    TargetScore\: Infer microRNA targets using microRNA\-overexpression data and sequence information
 
@@ -23,9 +24,16 @@ bioconductor-targetscore
 
    |downloads_bioconductor-targetscore| |docker_bioconductor-targetscore|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrix: 
    :depends r-pracma: 
    :requirements:

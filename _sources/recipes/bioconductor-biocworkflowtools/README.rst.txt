@@ -8,6 +8,7 @@ bioconductor-biocworkflowtools
 
 .. conda:recipe:: bioconductor-biocworkflowtools
    :replaces_section_title:
+   :noindex:
 
    Tools to aid the development of Bioconductor Workflow packages
 
@@ -23,10 +24,17 @@ bioconductor-biocworkflowtools
 
    |downloads_bioconductor-biocworkflowtools| |docker_bioconductor-biocworkflowtools|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.2-0, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biocstyle: >=2.16.0,<2.17.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bookdown: 
    :depends r-git2r: 
    :depends r-httr: 

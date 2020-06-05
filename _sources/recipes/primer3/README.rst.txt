@@ -8,6 +8,7 @@ primer3
 
 .. conda:recipe:: primer3
    :replaces_section_title:
+   :noindex:
 
    Design PCR primers from DNA sequence. From mispriming libraries to sequence quality data to the generation of internal oligos\, primer3 does it.
 
@@ -23,11 +24,26 @@ primer3
 
    |downloads_primer3| |docker_primer3|
 
-   :versions: 2.5.0-0, 2.4.1a-2, 2.4.1a-1, 2.4.1a-0, 2.4.0-0, 2.3.7-1, 2.3.7-0, 2.0.0a-2, 2.0.0a-1, 2.0.0a-0, 1.1.4-1, 1.1.4-0, v2.5.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.1a-2</code>,  <code>2.4.1a-1</code>,  <code>2.4.1a-0</code>,  <code>2.4.0-0</code>,  <code>2.3.7-1</code>,  <code>2.3.7-0</code>,  <code>2.0.0a-2</code>,  <code>2.0.0a-1</code>,  </span></summary>
+      
+
+      ``2.5.0-0``,  ``2.4.1a-2``,  ``2.4.1a-1``,  ``2.4.1a-0``,  ``2.4.0-0``,  ``2.3.7-1``,  ``2.3.7-0``,  ``2.0.0a-2``,  ``2.0.0a-1``,  ``2.0.0a-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``v2.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

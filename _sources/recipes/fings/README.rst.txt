@@ -8,6 +8,7 @@ fings
 
 .. conda:recipe:: fings
    :replaces_section_title:
+   :noindex:
 
    Filters for Next Generation Sequencing
 
@@ -22,14 +23,21 @@ fings
 
    |downloads_fings| |docker_fings|
 
-   :versions: 1.6.7-0
+   :versions:
+      
+      
+
+      ``1.6.7-0``
+
+      
+
    
    :depends editdistance: 
    :depends joblib: 
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends pyvcf: 
    :depends scipy: 
    :depends seaborn: 

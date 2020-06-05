@@ -8,6 +8,7 @@ fastq-count
 
 .. conda:recipe:: fastq-count
    :replaces_section_title:
+   :noindex:
 
    Simple fastq read and base counter for paired data.
 
@@ -22,9 +23,16 @@ fastq-count
 
    |downloads_fastq-count| |docker_fastq-count|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

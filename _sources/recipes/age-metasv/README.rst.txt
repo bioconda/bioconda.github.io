@@ -8,6 +8,7 @@ age-metasv
 
 .. conda:recipe:: age-metasv
    :replaces_section_title:
+   :noindex:
 
    optimal alignment of sequences with structural variants \(SVs\)\, modifiied for MetaSV integration
 
@@ -22,9 +23,16 @@ age-metasv
 
    |downloads_age-metasv| |docker_age-metasv|
 
-   :versions: 2015.01.29.3-2, 2015.01.29.3-1, 2015.01.29.3-0
+   :versions:
+      
+      
+
+      ``2015.01.29.3-2``,  ``2015.01.29.3-1``,  ``2015.01.29.3-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

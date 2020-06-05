@@ -8,6 +8,7 @@ jvarkit-bam2svg
 
 .. conda:recipe:: jvarkit-bam2svg
    :replaces_section_title:
+   :noindex:
 
    BAM to Scalar Vector Graphics \(SVG\)
 
@@ -22,9 +23,16 @@ jvarkit-bam2svg
 
    |downloads_jvarkit-bam2svg| |docker_jvarkit-bam2svg|
 
-   :versions: 201904251722-1, 201904251722-0
+   :versions:
+      
+      
+
+      ``201904251722-1``,  ``201904251722-0``
+
+      
+
    
-   :depends openjdk: >=11
+   :depends openjdk: ``>=11``
    :requirements:
 
    .. rubric:: Installation

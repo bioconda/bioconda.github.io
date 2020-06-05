@@ -8,6 +8,7 @@ forked-path
 
 .. conda:recipe:: forked-path
    :replaces_section_title:
+   :noindex:
 
    An object oriented file path module
 
@@ -22,9 +23,16 @@ forked-path
 
    |downloads_forked-path| |docker_forked-path|
 
-   :versions: 0.2.3-2, 0.2.3-0
+   :versions:
+      
+      
+
+      ``0.2.3-2``,  ``0.2.3-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-rlmm
 
 .. conda:recipe:: bioconductor-rlmm
    :replaces_section_title:
+   :noindex:
 
    A Genotype Calling Algorithm for Affymetrix SNP Arrays
 
@@ -23,9 +24,16 @@ bioconductor-rlmm
 
    |downloads_bioconductor-rlmm| |docker_bioconductor-rlmm|
 
-   :versions: 1.50.0-0, 1.48.0-0, 1.46.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0
+   :versions:
+      
+      
+
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :requirements:
 

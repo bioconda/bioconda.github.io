@@ -8,6 +8,7 @@ bioconductor-sampleclassifierdata
 
 .. conda:recipe:: bioconductor-sampleclassifierdata
    :replaces_section_title:
+   :noindex:
 
    Pre\-processed data for use with the sampleClassifier package
 
@@ -22,11 +23,18 @@ bioconductor-sampleclassifierdata
 
    |downloads_bioconductor-sampleclassifierdata| |docker_bioconductor-sampleclassifierdata|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

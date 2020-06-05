@@ -8,6 +8,7 @@ dreamtools
 
 .. conda:recipe:: dreamtools
    :replaces_section_title:
+   :noindex:
 
    Scoring functions for the DREAM \/ SAGE challenges
 
@@ -22,17 +23,24 @@ dreamtools
 
    |downloads_dreamtools| |docker_dreamtools|
 
-   :versions: 1.3.0-0, 1.2.5-0
+   :versions:
+      
+      
+
+      ``1.3.0-0``,  ``1.2.5-0``
+
+      
+
    
    :depends biokit: 
-   :depends bioservices: >=1.4.5
+   :depends bioservices: ``>=1.4.5``
    :depends colormap: 
    :depends cython: 
-   :depends easydev: >=0.9.14
+   :depends easydev: ``>=0.9.14``
    :depends fitter: 
    :depends numexpr: 
    :depends pandas: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends scikit-learn: 
    :depends scipy: 
    :depends synapseclient: 

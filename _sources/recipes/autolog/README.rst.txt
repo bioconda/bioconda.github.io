@@ -8,6 +8,7 @@ autolog
 
 .. conda:recipe:: autolog
    :replaces_section_title:
+   :noindex:
 
    quick and easy logging setup
 
@@ -22,7 +23,14 @@ autolog
 
    |downloads_autolog| |docker_autolog|
 
-   :versions: 0.2-0, 0.1.3-2, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.2-0``,  ``0.1.3-2``,  ``0.1.3-0``
+
+      
+
    
    :depends path.py: 
    :depends python: 

@@ -8,6 +8,7 @@ ncbi-vdb
 
 .. conda:recipe:: ncbi-vdb
    :replaces_section_title:
+   :noindex:
 
    SRA tools database engine
 
@@ -24,10 +25,25 @@ ncbi-vdb
 
    |downloads_ncbi-vdb| |docker_ncbi-vdb|
 
-   :versions: 2.10.7-0, 2.10.6-0, 2.10.5-0, 2.10.4-0, 2.10.3-0, 2.10.2-0, 2.10.1-0, 2.10.0-0, 2.9.6-0, 2.9.3-0, 2.9.1-0, 2.9.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.10.7-0</code>,  <code>2.10.6-0</code>,  <code>2.10.5-0</code>,  <code>2.10.4-0</code>,  <code>2.10.3-0</code>,  <code>2.10.2-0</code>,  <code>2.10.1-0</code>,  <code>2.10.0-0</code>,  <code>2.9.6-0</code>,  </span></summary>
+      
+
+      ``2.10.7-0``,  ``2.10.6-0``,  ``2.10.5-0``,  ``2.10.4-0``,  ``2.10.3-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.6-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

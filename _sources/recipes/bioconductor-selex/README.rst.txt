@@ -8,6 +8,7 @@ bioconductor-selex
 
 .. conda:recipe:: bioconductor-selex
    :replaces_section_title:
+   :noindex:
 
    Functions for analyzing SELEX\-seq data
 
@@ -22,12 +23,19 @@ bioconductor-selex
 
    |downloads_bioconductor-selex| |docker_bioconductor-selex|
 
-   :versions: 1.18.0-0, 1.16.0-1, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
+   :depends bioconductor-biostrings: ``>=2.54.0,<2.55.0``
    :depends openjdk: 
-   :depends r-base: >=3.6,<3.7.0a0
-   :depends r-rjava: >=0.5-0
+   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-rjava: ``>=0.5-0``
    :requirements:
 
    .. rubric:: Installation

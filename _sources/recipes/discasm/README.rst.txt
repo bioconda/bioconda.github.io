@@ -8,6 +8,7 @@ discasm
 
 .. conda:recipe:: discasm
    :replaces_section_title:
+   :noindex:
 
    DISCASM aims to extract reads that map to reference genomes in a discordant fashion and optionally include reads that do not map to the genome at all\, and perform a de novo transcriptome assembly of these reads. DISCASM relies on the output from STAR \(as run via STAR\-Fusion\)\, and supports de novo transcriptome assembly using Trinity or Oases. \- https\:\/\/github.com\/DISCASM\/DISCASM\/wiki
 
@@ -22,14 +23,21 @@ discasm
 
    |downloads_discasm| |docker_discasm|
 
-   :versions: 0.1.3-1, 0.1.3-0, 0.1.2-2, 0.1.2-1, 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
+
+      
+
    
-   :depends oases: >=0.2
+   :depends oases: ``>=0.2``
    :depends perl: 
-   :depends pysam: >=0.10.0
-   :depends python: <3
-   :depends star: >=2.4
-   :depends trinity: >=2.4
+   :depends pysam: ``>=0.10.0``
+   :depends python: ``<3``
+   :depends star: ``>=2.4``
+   :depends trinity: ``>=2.4``
    :requirements:
 
    .. rubric:: Installation

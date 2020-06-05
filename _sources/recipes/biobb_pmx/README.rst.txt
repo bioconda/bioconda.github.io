@@ -8,6 +8,7 @@ biobb_pmx
 
 .. conda:recipe:: biobb_pmx
    :replaces_section_title:
+   :noindex:
 
    Biobb\_pmx is the Biobb module collection to perform PMX \(http\:\/\/pmx.mpibpc.mpg.de\) executions.
 
@@ -54,10 +55,17 @@ biobb_pmx
 
    |downloads_biobb_pmx| |docker_biobb_pmx|
 
-   :versions: 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends biobb_common: 2.0.1
-   :depends python: 3.6.*
+   :depends biobb_common: ``2.0.1``
+   :depends python: ``3.6.*``
    :requirements:
 
    .. rubric:: Installation

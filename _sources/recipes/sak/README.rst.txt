@@ -8,6 +8,7 @@ sak
 
 .. conda:recipe:: sak
    :replaces_section_title:
+   :noindex:
 
    This tool allows one to cut sequences and parts of sequences out of sequence files.
 
@@ -22,7 +23,14 @@ sak
 
    |downloads_sak| |docker_sak|
 
-   :versions: 0.4.6-1, 0.4.6-0
+   :versions:
+      
+      
+
+      ``0.4.6-1``,  ``0.4.6-0``
+
+      
+
    
    :requirements:
 

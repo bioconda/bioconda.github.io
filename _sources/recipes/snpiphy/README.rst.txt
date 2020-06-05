@@ -8,6 +8,7 @@ snpiphy
 
 .. conda:recipe:: snpiphy
    :replaces_section_title:
+   :noindex:
 
    An automated snp phylogeny pipeline
 
@@ -22,13 +23,20 @@ snpiphy
 
    |downloads_snpiphy| |docker_snpiphy|
 
-   :versions: 0.3-1, 0.3-0, 0.2-0, 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-1``,  ``0.1-0``
+
+      
+
    
    :depends biopython: 
    :depends gubbins: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends snippy: 
    :requirements:
 

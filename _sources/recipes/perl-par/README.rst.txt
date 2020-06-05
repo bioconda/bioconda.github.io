@@ -8,6 +8,7 @@ perl-par
 
 .. conda:recipe:: perl-par/1.014
    :replaces_section_title:
+   :noindex:
 
    Perl Archive Tookit
 
@@ -22,9 +23,16 @@ perl-par
 
    |downloads_perl-par| |docker_perl-par|
 
-   :versions: 1.014-1, 1.014-0
+   :versions:
+      
+      
+
+      ``1.014-1``,  ``1.014-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-archive-zip: 
    :depends perl-par-dist: 
    :requirements:

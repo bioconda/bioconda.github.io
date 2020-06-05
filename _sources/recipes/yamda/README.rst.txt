@@ -8,6 +8,7 @@ yamda
 
 .. conda:recipe:: yamda
    :replaces_section_title:
+   :noindex:
 
    A highly scalable GPU\-accelerated de novo motif discovery software package
 
@@ -23,13 +24,20 @@ yamda
 
    |downloads_yamda| |docker_yamda|
 
-   :versions: 0.1.00e9c9d-0
+   :versions:
+      
+      
+
+      ``0.1.00e9c9d-0``
+
+      
+
    
    :depends bedtools: 
    :depends biopython: 
    :depends numpy: 
    :depends pyfaidx: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pytorch: 
    :depends scipy: 
    :depends torchvision: 

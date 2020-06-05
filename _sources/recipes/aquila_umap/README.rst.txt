@@ -8,6 +8,7 @@ aquila_umap
 
 .. conda:recipe:: aquila_umap
    :replaces_section_title:
+   :noindex:
 
    This is a program to generate Umap for Aquila diploid assembly.
 
@@ -22,7 +23,14 @@ aquila_umap
 
    |downloads_aquila_umap| |docker_aquila_umap|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends bowtie2: 
    :depends pysam: 

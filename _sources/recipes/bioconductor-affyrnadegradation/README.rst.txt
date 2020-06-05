@@ -8,6 +8,7 @@ bioconductor-affyrnadegradation
 
 .. conda:recipe:: bioconductor-affyrnadegradation
    :replaces_section_title:
+   :noindex:
 
    Analyze and correct probe positional bias in microarray data due to RNA degradation
 
@@ -23,10 +24,17 @@ bioconductor-affyrnadegradation
 
    |downloads_bioconductor-affyrnadegradation| |docker_bioconductor-affyrnadegradation|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-1, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

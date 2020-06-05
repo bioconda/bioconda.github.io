@@ -8,6 +8,7 @@ bioconductor-bridge
 
 .. conda:recipe:: bioconductor-bridge
    :replaces_section_title:
+   :noindex:
 
    Bayesian Robust Inference for Differential Gene Expression
 
@@ -23,13 +24,20 @@ bioconductor-bridge
 
    |downloads_bioconductor-bridge| |docker_bioconductor-bridge|
 
-   :versions: 1.52.0-0, 1.50.0-0, 1.48.0-1, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0
+   :versions:
+      
+      
+
+      ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``
+
+      
+
    
-   :depends bioconductor-rama: >=1.62.0,<1.63.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rama: ``>=1.62.0,<1.63.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

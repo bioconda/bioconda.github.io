@@ -8,6 +8,7 @@ cwl2wdl
 
 .. conda:recipe:: cwl2wdl
    :replaces_section_title:
+   :noindex:
 
    Proof of concept converter from Common Workflow Language \(CWL\) to the Broad Institute\'s Workflow Definition Language \(WDL\).
 
@@ -22,7 +23,14 @@ cwl2wdl
 
    |downloads_cwl2wdl| |docker_cwl2wdl|
 
-   :versions: 0.1dev44-2, 0.1dev44-1, 0.1dev44-0, 0.1dev37-0
+   :versions:
+      
+      
+
+      ``0.1dev44-2``,  ``0.1dev44-1``,  ``0.1dev44-0``,  ``0.1dev37-0``
+
+      
+
    
    :depends python: 
    :depends pyyaml: 

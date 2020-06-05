@@ -8,6 +8,7 @@ bismark
 
 .. conda:recipe:: bismark
    :replaces_section_title:
+   :noindex:
 
    Bismark is a program to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step. The output can be easily imported into a genome viewer\, such as SeqMonk\, and enables a researcher to analyse the methylation levels of their samples straight away.
 
@@ -23,7 +24,22 @@ bismark
 
    |downloads_bismark| |docker_bismark|
 
-   :versions: 0.22.3-0, 0.22.2-0, 0.22.1-0, 0.22.0-0, 0.21.0-0, 0.20.0-0, 0.19.1-0, 0.19.0-1, 0.19.0-0, 0.18.1-0, 0.17.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.22.3-0</code>,  <code>0.22.2-0</code>,  <code>0.22.1-0</code>,  <code>0.22.0-0</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.1-0</code>,  <code>0.19.0-1</code>,  <code>0.19.0-0</code>,  </span></summary>
+      
+
+      ``0.22.3-0``,  ``0.22.2-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.1-0``,  ``0.19.0-1``,  ``0.19.0-0``,  ``0.18.1-0``,  ``0.17.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bowtie2: 
    :depends hisat2: 

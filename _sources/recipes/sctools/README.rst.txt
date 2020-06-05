@@ -8,6 +8,7 @@ sctools
 
 .. conda:recipe:: sctools
    :replaces_section_title:
+   :noindex:
 
    SCTools is a suite of tools performing utility operations over single\-cell samples
 
@@ -22,11 +23,18 @@ sctools
 
    |downloads_sctools| |docker_sctools|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

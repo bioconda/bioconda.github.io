@@ -8,6 +8,7 @@ scg
 
 .. conda:recipe:: scg
    :replaces_section_title:
+   :noindex:
 
    The single cell genotyper \(SCG\)\: \"Roth A\, McPherson A\, Laks E\, Biele J\, Yap D\, Wan A\, et al. Clonal genotype and population structure inference from single\-cell tumor sequencing. Nat Meth. 2016\;13\: 573–576. doi\:10.1038\/nmeth.3867\"
 
@@ -22,13 +23,20 @@ scg
 
    |downloads_scg| |docker_scg|
 
-   :versions: 0.3.1-2, 0.3.1-1, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
+
+      
+
    
-   :depends numpy: >=1.9.2
-   :depends pandas: >=0.16
-   :depends python: <3
+   :depends numpy: ``>=1.9.2``
+   :depends pandas: ``>=0.16``
+   :depends python: ``<3``
    :depends pyyaml: 
-   :depends scipy: >=0.15
+   :depends scipy: ``>=0.15``
    :requirements:
 
    .. rubric:: Installation

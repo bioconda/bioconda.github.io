@@ -8,6 +8,7 @@ r-mkmisc
 
 .. conda:recipe:: r-mkmisc
    :replaces_section_title:
+   :noindex:
 
    Contains several functions for statistical data analysis\; e.g. for sample size and power calculations\, computation of confidence intervals and tests\, and generation of similarity matrices.
 
@@ -22,10 +23,17 @@ r-mkmisc
 
    |downloads_r-mkmisc| |docker_r-mkmisc|
 
-   :versions: 1.6-1, 1.6-0
+   :versions:
+      
+      
+
+      ``1.6-1``,  ``1.6-0``
+
+      
+
    
    :depends bioconductor-limma: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-rcolorbrewer: 
    :depends r-robustbase: 

@@ -8,6 +8,7 @@ bioconductor-mofa
 
 .. conda:recipe:: bioconductor-mofa
    :replaces_section_title:
+   :noindex:
 
    Multi\-Omics Factor Analysis \(MOFA\)
 
@@ -22,13 +23,20 @@ bioconductor-mofa
 
    |downloads_bioconductor-mofa| |docker_bioconductor-mofa|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-rhdf5: >=2.32.0,<2.33.0
-   :depends python: >=2.7
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-rhdf5: ``>=2.32.0,<2.33.0``
+   :depends python: ``>=2.7``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 
    :depends r-cowplot: 
    :depends r-doparallel: 

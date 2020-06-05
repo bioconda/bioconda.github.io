@@ -8,6 +8,7 @@ flux-simulator
 
 .. conda:recipe:: flux-simulator
    :replaces_section_title:
+   :noindex:
 
    Tool for modeling RNA\-Seq experiments in silico
 
@@ -22,7 +23,14 @@ flux-simulator
 
    |downloads_flux-simulator| |docker_flux-simulator|
 
-   :versions: 1.2.1-2, 1.2.1-1, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

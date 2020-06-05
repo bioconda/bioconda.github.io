@@ -8,6 +8,7 @@ perl-module-implementation
 
 .. conda:recipe:: perl-module-implementation
    :replaces_section_title:
+   :noindex:
 
    Loads one of several alternate underlying implementations for a module
 
@@ -22,9 +23,16 @@ perl-module-implementation
 
    |downloads_perl-module-implementation| |docker_perl-module-implementation|
 
-   :versions: 0.09-2, 0.09-0
+   :versions:
+      
+      
+
+      ``0.09-2``,  ``0.09-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-carp: 
    :depends perl-module-runtime: 
    :depends perl-try-tiny: 

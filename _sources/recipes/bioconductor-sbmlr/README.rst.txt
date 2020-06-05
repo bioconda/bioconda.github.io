@@ -8,6 +8,7 @@ bioconductor-sbmlr
 
 .. conda:recipe:: bioconductor-sbmlr
    :replaces_section_title:
+   :noindex:
 
    SBML\-R Interface and Analysis Tools
 
@@ -22,9 +23,16 @@ bioconductor-sbmlr
 
    |downloads_bioconductor-sbmlr| |docker_bioconductor-sbmlr|
 
-   :versions: 1.84.0-0, 1.82.0-0, 1.80.0-1, 1.80.0-0, 1.78.0-0
+   :versions:
+      
+      
+
+      ``1.84.0-0``,  ``1.82.0-0``,  ``1.80.0-1``,  ``1.80.0-0``,  ``1.78.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-desolve: 
    :depends r-xml: 
    :requirements:

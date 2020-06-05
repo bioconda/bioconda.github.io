@@ -8,6 +8,7 @@ perl-scalar-util-numeric
 
 .. conda:recipe:: perl-scalar-util-numeric
    :replaces_section_title:
+   :noindex:
 
    numeric tests for perl scalars
 
@@ -22,9 +23,16 @@ perl-scalar-util-numeric
 
    |downloads_perl-scalar-util-numeric| |docker_perl-scalar-util-numeric|
 
-   :versions: 0.40-1, 0.40-0
+   :versions:
+      
+      
+
+      ``0.40-1``,  ``0.40-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

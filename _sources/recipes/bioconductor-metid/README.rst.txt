@@ -8,6 +8,7 @@ bioconductor-metid
 
 .. conda:recipe:: bioconductor-metid
    :replaces_section_title:
+   :noindex:
 
    Network\-based prioritization of putative metabolite IDs
 
@@ -22,14 +23,21 @@ bioconductor-metid
 
    |downloads_bioconductor-metid| |docker_bioconductor-metid|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-chemminer: >=3.40.0,<3.41.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-devtools: >=1.13.0
-   :depends r-igraph: >=1.2.1
-   :depends r-matrix: >=1.2-12
-   :depends r-stringr: >=1.3.0
+   :depends bioconductor-chemminer: ``>=3.40.0,<3.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-devtools: ``>=1.13.0``
+   :depends r-igraph: ``>=1.2.1``
+   :depends r-matrix: ``>=1.2-12``
+   :depends r-stringr: ``>=1.3.0``
    :requirements:
 
    .. rubric:: Installation

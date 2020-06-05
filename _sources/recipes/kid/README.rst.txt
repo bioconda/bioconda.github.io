@@ -8,6 +8,7 @@ kid
 
 .. conda:recipe:: kid
    :replaces_section_title:
+   :noindex:
 
    A simple and pythonic XML template language
 
@@ -22,9 +23,16 @@ kid
 
    |downloads_kid| |docker_kid|
 
-   :versions: 0.9.6-2, 0.9.6-1
+   :versions:
+      
+      
+
+      ``0.9.6-2``,  ``0.9.6-1``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

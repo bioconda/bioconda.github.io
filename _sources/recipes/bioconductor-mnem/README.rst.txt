@@ -8,6 +8,7 @@ bioconductor-mnem
 
 .. conda:recipe:: bioconductor-mnem
    :replaces_section_title:
+   :noindex:
 
    Mixture Nested Effects Models
 
@@ -22,16 +23,23 @@ bioconductor-mnem
 
    |downloads_bioconductor-mnem| |docker_bioconductor-mnem|
 
-   :versions: 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-linnorm: >=2.12.0,<2.13.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-linnorm: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-data.table: 
    :depends r-e1071: 

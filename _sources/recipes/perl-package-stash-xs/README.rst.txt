@@ -8,6 +8,7 @@ perl-package-stash-xs
 
 .. conda:recipe:: perl-package-stash-xs/0.28
    :replaces_section_title:
+   :noindex:
 
    faster and more correct implementation of the Package\:\:Stash API
 
@@ -22,11 +23,18 @@ perl-package-stash-xs
 
    |downloads_perl-package-stash-xs| |docker_perl-package-stash-xs|
 
-   :versions: 0.28-1, 0.28-0
+   :versions:
+      
+      
+
+      ``0.28-1``,  ``0.28-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xsloader: 
    :requirements:
 

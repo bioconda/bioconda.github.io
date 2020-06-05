@@ -8,6 +8,7 @@ bioconductor-netprior
 
 .. conda:recipe:: bioconductor-netprior
    :replaces_section_title:
+   :noindex:
 
    A model for network\-based prioritisation of genes
 
@@ -22,9 +23,16 @@ bioconductor-netprior
 
    |downloads_bioconductor-netprior| |docker_bioconductor-netprior|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.1-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-foreach: 

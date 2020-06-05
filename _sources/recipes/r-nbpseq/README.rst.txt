@@ -8,6 +8,7 @@ r-nbpseq
 
 .. conda:recipe:: r-nbpseq
    :replaces_section_title:
+   :noindex:
 
    Negative Binomial \(NB\) models for two\-group comparisons and regression inferences from RNA\-Sequencing Data.
 
@@ -22,11 +23,18 @@ r-nbpseq
 
    |downloads_r-nbpseq| |docker_r-nbpseq|
 
-   :versions: 0.3.0-3, 0.3.0-2, 0.3.0-1, 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
+
+      
+
    
    :depends bioconductor-qvalue: 
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

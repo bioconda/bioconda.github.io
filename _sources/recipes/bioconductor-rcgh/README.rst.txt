@@ -8,6 +8,7 @@ bioconductor-rcgh
 
 .. conda:recipe:: bioconductor-rcgh
    :replaces_section_title:
+   :noindex:
 
    Comprehensive Pipeline for Analyzing and Visualizing Array\-Based CGH Data
 
@@ -23,27 +24,34 @@ bioconductor-rcgh
 
    |downloads_bioconductor-rcgh| |docker_bioconductor-rcgh|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.1-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``
+
+      
+
    
-   :depends bioconductor-acgh: >=1.66.0,<1.67.0
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-dnacopy: >=1.62.0,<1.63.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: >=3.2.0,<3.3.0
-   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: >=3.2.0,<3.3.0
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: >=3.10.0,<3.11.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-acgh: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-dnacopy: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.10.0,<3.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-lattice: 
    :depends r-mclust: 
    :depends r-plyr: 
-   :depends r-shiny: >=0.11.1
+   :depends r-shiny: ``>=0.11.1``
    :requirements:
 
    .. rubric:: Installation

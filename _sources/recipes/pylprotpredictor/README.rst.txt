@@ -8,6 +8,7 @@ pylprotpredictor
 
 .. conda:recipe:: pylprotpredictor
    :replaces_section_title:
+   :noindex:
 
    A tool to predict PYL proteins
 
@@ -22,7 +23,14 @@ pylprotpredictor
 
    |downloads_pylprotpredictor| |docker_pylprotpredictor|
 
-   :versions: 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``
+
+      
+
    
    :depends biopython: 
    :depends codecov: 

@@ -8,6 +8,7 @@ cath-tools
 
 .. conda:recipe:: cath-tools
    :replaces_section_title:
+   :noindex:
 
    Protein structure comparison tools such as SSAP\, as used by the Orengo Group in curating CATH.
 
@@ -22,10 +23,17 @@ cath-tools
 
    |downloads_cath-tools| |docker_cath-tools|
 
-   :versions: 0.16.5-0
+   :versions:
+      
+      
+
+      ``0.16.5-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

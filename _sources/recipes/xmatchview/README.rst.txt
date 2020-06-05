@@ -8,6 +8,7 @@ xmatchview
 
 .. conda:recipe:: xmatchview
    :replaces_section_title:
+   :noindex:
 
    Genome sequence alignment visualization
 
@@ -24,12 +25,19 @@ xmatchview
 
    |downloads_xmatchview| |docker_xmatchview|
 
-   :versions: 1.2.2-0, 1.2.1-0, 1.2.0-0, 1.1.1-0, v1.1.1-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``v1.1.1-0``
+
+      
+
    
    :depends minimap2: 
    :depends pillow: 
    :depends pip: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ prefersim
 
 .. conda:recipe:: prefersim
    :replaces_section_title:
+   :noindex:
 
    PReFerSim is an ANSI C program that performs forward simulations under the PRF model
 
@@ -22,10 +23,17 @@ prefersim
 
    |downloads_prefersim| |docker_prefersim|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libgcc-ng: >=7.3.0
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

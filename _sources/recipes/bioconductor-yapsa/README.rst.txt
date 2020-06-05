@@ -8,6 +8,7 @@ bioconductor-yapsa
 
 .. conda:recipe:: bioconductor-yapsa
    :replaces_section_title:
+   :noindex:
 
    Yet Another Package for Signature Analysis
 
@@ -23,18 +24,25 @@ bioconductor-yapsa
 
    |downloads_bioconductor-yapsa| |docker_bioconductor-yapsa|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
-   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-gtrellis: >=1.20.0,<1.21.0
-   :depends bioconductor-keggrest: >=1.28.0,<1.29.0
-   :depends bioconductor-somaticsignatures: >=2.24.0,<2.25.0
-   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-gtrellis: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-keggrest: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-somaticsignatures: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-variantannotation: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-corrplot: 
    :depends r-dendextend: 

@@ -8,6 +8,7 @@ harvesttools
 
 .. conda:recipe:: harvesttools
    :replaces_section_title:
+   :noindex:
 
    HarvestTools is a part of the Harvest software suite and provides file conversion between Gingr files and various standard text formats
 
@@ -22,9 +23,16 @@ harvesttools
 
    |downloads_harvesttools| |docker_harvesttools|
 
-   :versions: 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-0``
+
+      
+
    
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

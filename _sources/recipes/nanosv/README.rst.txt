@@ -8,6 +8,7 @@ nanosv
 
 .. conda:recipe:: nanosv
    :replaces_section_title:
+   :noindex:
 
    Structural variation detection tool for Oxford Nanopore data.
 
@@ -23,10 +24,17 @@ nanosv
 
    |downloads_nanosv| |docker_nanosv|
 
-   :versions: 1.2.4-0, 1.2.3-0, 1.2.2-0, 1.2.0-1, 1.1.2-1, 1.1.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.0-1``,  ``1.1.2-1``,  ``1.1.2-0``,  ``0.0.1-0``
+
+      
+
    
    :depends pysam: 
-   :depends python: >3
+   :depends python: ``>3``
    :depends pyvcf: 
    :requirements:
 

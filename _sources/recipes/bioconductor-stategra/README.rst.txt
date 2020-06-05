@@ -8,6 +8,7 @@ bioconductor-stategra
 
 .. conda:recipe:: bioconductor-stategra
    :replaces_section_title:
+   :noindex:
 
    Classes and methods for multi\-omics data integration
 
@@ -23,13 +24,20 @@ bioconductor-stategra
 
    |downloads_bioconductor-stategra| |docker_bioconductor-stategra|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.1-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-calibrate: 
    :depends r-foreach: 
    :depends r-ggplot2: 

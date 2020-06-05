@@ -8,6 +8,7 @@ bioconductor-hicdatalymphoblast
 
 .. conda:recipe:: bioconductor-hicdatalymphoblast
    :replaces_section_title:
+   :noindex:
 
    Human lymphoblastoid HiC data from Lieberman\-Aiden et al. 2009
 
@@ -22,10 +23,17 @@ bioconductor-hicdatalymphoblast
 
    |downloads_bioconductor-hicdatalymphoblast| |docker_bioconductor-hicdatalymphoblast|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ break-point-inspector
 
 .. conda:recipe:: break-point-inspector
    :replaces_section_title:
+   :noindex:
 
    BPI uses Manta’s variant calls to re\-analyse BAM files and precisely determine the location of the breaks\, and applies a set of filters to remove false positives\, thereby increasing the accuracy of Manta’s calls.
 
@@ -22,7 +23,14 @@ break-point-inspector
 
    |downloads_break-point-inspector| |docker_break-point-inspector|
 
-   :versions: 1.5-1, 1.5-0
+   :versions:
+      
+      
+
+      ``1.5-1``,  ``1.5-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

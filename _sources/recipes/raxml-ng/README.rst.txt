@@ -8,6 +8,7 @@ raxml-ng
 
 .. conda:recipe:: raxml-ng
    :replaces_section_title:
+   :noindex:
 
    RAxML Next Generation\: faster\, easier\-to\-use and more flexible
 
@@ -23,12 +24,19 @@ raxml-ng
 
    |downloads_raxml-ng| |docker_raxml-ng|
 
-   :versions: 0.9.0-1, 0.9.0-0
+   :versions:
+      
+      
+
+      ``0.9.0-1``,  ``0.9.0-0``
+
+      
+
    
-   :depends gmp: >=6.1.2,<7.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openmpi: >=4.0.1,<4.1.0a0
+   :depends gmp: ``>=6.1.2,<7.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openmpi: ``>=4.0.1,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

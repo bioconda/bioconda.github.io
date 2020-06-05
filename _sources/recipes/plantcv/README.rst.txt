@@ -8,6 +8,7 @@ plantcv
 
 .. conda:recipe:: plantcv
    :replaces_section_title:
+   :noindex:
 
    An image processing package for plant phenotyping.
 
@@ -26,17 +27,32 @@ plantcv
 
    |downloads_plantcv| |docker_plantcv|
 
-   :versions: 3.8.0-0, 3.7-0, 3.6.2-0, 3.6.1-0, 3.6.0-0, 3.5.0-0, 3.4.1-0, 3.4.0-0, 3.3.0-0, 3.2.0-0, 3.1.0-0, 3.0.5-0, 3.0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.8.0-0</code>,  <code>3.7-0</code>,  <code>3.6.2-0</code>,  <code>3.6.1-0</code>,  <code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  </span></summary>
+      
+
+      ``3.8.0-0``,  ``3.7-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.5-0``,  ``3.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends matplotlib: >=1.5
-   :depends numpy: >=1.11
-   :depends opencv: <4
+   :depends matplotlib: ``>=1.5``
+   :depends numpy: ``>=1.11``
+   :depends opencv: ``<4``
    :depends pandas: 
-   :depends plotnine: <=0.5.1
+   :depends plotnine: ``<=0.5.1``
    :depends python: 
    :depends python-dateutil: 
-   :depends scikit-image: <0.15
-   :depends scipy: <1.3
+   :depends scikit-image: ``<0.15``
+   :depends scipy: ``<1.3``
    :requirements:
 
    .. rubric:: Installation

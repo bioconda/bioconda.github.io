@@ -8,6 +8,7 @@ structure
 
 .. conda:recipe:: structure
    :replaces_section_title:
+   :noindex:
 
    The program structure is a free software package for using multi\-locus genotype data to investigate population structure. Its uses include inferring the presence of distinct populations\, assigning individuals to populations\, studying hybrid zones\, identifying migrants and admixed individuals\, and estimating population allele frequencies in situations where many individuals are migrants or admixed. It can be applied to most of the commonly\-used genetic markers\, including SNPS\, microsatellites\, RFLPs and AFLPs.
 
@@ -23,9 +24,16 @@ structure
 
    |downloads_structure| |docker_structure|
 
-   :versions: 2.3.4-1, 2.3.4-0
+   :versions:
+      
+      
+
+      ``2.3.4-1``,  ``2.3.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

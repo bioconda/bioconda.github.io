@@ -8,6 +8,7 @@ illumina-interop
 
 .. conda:recipe:: illumina-interop
    :replaces_section_title:
+   :noindex:
 
    The Illumina InterOp libraries are a set of common routines used for reading and writing InterOp metric files. These metric files are binary files produced during a run providing detailed statistics about a run. In a few cases\, the metric files are produced after a run during secondary analysis \(index metrics\) or for faster display of a subset of the original data \(collapsed quality scores\).
 
@@ -23,10 +24,17 @@ illumina-interop
 
    |downloads_illumina-interop| |docker_illumina-interop|
 
-   :versions: 1.1.10-0, 1.1.9-0, 1.1.8-0, 1.1.7-0, 1.1.6-0, 1.1.4-3, 1.1.4-0, 1.0.25-1, 1.0.25-0
+   :versions:
+      
+      
+
+      ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-3``,  ``1.1.4-0``,  ``1.0.25-1``,  ``1.0.25-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

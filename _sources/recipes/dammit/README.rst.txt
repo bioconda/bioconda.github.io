@@ -8,6 +8,7 @@ dammit
 
 .. conda:recipe:: dammit
    :replaces_section_title:
+   :noindex:
 
    simple de novo transcriptome annotator
 
@@ -22,25 +23,40 @@ dammit
 
    |downloads_dammit| |docker_dammit|
 
-   :versions: 1.2-0, 1.1.1-0, 1.1-0, 1.0-4, 1.0-3, 1.0.rc0-0, 1.0rc2-2, 1.0rc2-0, 0.3.2-0, 0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1-0</code>,  <code>1.0-4</code>,  <code>1.0-3</code>,  <code>1.0.rc0-0</code>,  <code>1.0rc2-2</code>,  <code>1.0rc2-0</code>,  <code>0.3.2-0</code>,  </span></summary>
+      
+
+      ``1.2-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0.rc0-0``,  ``1.0rc2-2``,  ``1.0rc2-0``,  ``0.3.2-0``,  ``0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bioconductor-seqlogo: 
-   :depends busco: 3.0.2
-   :depends doit: >=0.29.0
+   :depends busco: ``3.0.2``
+   :depends doit: ``>=0.29.0``
    :depends hmmer: 
    :depends infernal: 
-   :depends khmer: >=2.1
+   :depends khmer: ``>=2.1``
    :depends last: 
    :depends matplotlib: 
-   :depends numexpr: >=2.3.1
+   :depends numexpr: ``>=2.3.1``
    :depends numpy: 
    :depends pandas: 
    :depends parallel: 
-   :depends python: >3
+   :depends python: ``>3``
    :depends sh: 
    :depends shmlast: 
-   :depends sphinx: >1.3.1
-   :depends sphinx_rtd_theme: >=0.1.9
+   :depends sphinx: ``>1.3.1``
+   :depends sphinx_rtd_theme: ``>=0.1.9``
    :depends transdecoder: 
    :requirements:
 

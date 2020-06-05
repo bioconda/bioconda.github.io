@@ -8,6 +8,7 @@ perl-statistics-basic
 
 .. conda:recipe:: perl-statistics-basic
    :replaces_section_title:
+   :noindex:
 
    
 
@@ -22,9 +23,16 @@ perl-statistics-basic
 
    |downloads_perl-statistics-basic| |docker_perl-statistics-basic|
 
-   :versions: 1.6611-2, 1.6611-1, 1.6611-0
+   :versions:
+      
+      
+
+      ``1.6611-2``,  ``1.6611-1``,  ``1.6611-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-number-format: 
    :depends perl-scalar-list-utils: 
    :requirements:

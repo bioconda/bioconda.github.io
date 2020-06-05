@@ -8,6 +8,7 @@ recalladapters
 
 .. conda:recipe:: recalladapters
    :replaces_section_title:
+   :noindex:
 
    recalladapters \- A tool to recall adapters for PacBio data
 
@@ -22,7 +23,14 @@ recalladapters
 
    |downloads_recalladapters| |docker_recalladapters|
 
-   :versions: 9.0.0-0, 7.1.0-0
+   :versions:
+      
+      
+
+      ``9.0.0-0``,  ``7.1.0-0``
+
+      
+
    
    :requirements:
 

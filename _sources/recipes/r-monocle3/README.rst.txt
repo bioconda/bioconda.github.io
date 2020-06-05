@@ -8,6 +8,7 @@ r-monocle3
 
 .. conda:recipe:: r-monocle3
    :replaces_section_title:
+   :noindex:
 
    An analysis toolkit for single\-cell RNA\-seq.
 
@@ -23,63 +24,70 @@ r-monocle3
 
    |downloads_r-monocle3| |docker_r-monocle3|
 
-   :versions: 0.2.1-1, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
+
+      
+
    
    :depends bioconductor-batchelor: 
    :depends bioconductor-biobase: 
-   :depends bioconductor-biocgenerics: >=0.28
-   :depends bioconductor-delayedarray: >=0.8
-   :depends bioconductor-delayedmatrixstats: >=1.4
-   :depends bioconductor-limma: >=3.38.3
+   :depends bioconductor-biocgenerics: ``>=0.28``
+   :depends bioconductor-delayedarray: ``>=0.8``
+   :depends bioconductor-delayedmatrixstats: ``>=1.4``
+   :depends bioconductor-limma: ``>=3.38.3``
    :depends bioconductor-s4vectors: 
    :depends bioconductor-singlecellexperiment: 
-   :depends bioconductor-summarizedexperiment: >=1.11.5
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-assertthat: >=0.2.1
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dplyr: >=0.8.0.1
-   :depends r-ggplot2: >=3.1.1
-   :depends r-ggrepel: >=0.8.1
+   :depends bioconductor-summarizedexperiment: ``>=1.11.5``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-assertthat: ``>=0.2.1``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: ``>=0.8.0.1``
+   :depends r-ggplot2: ``>=3.1.1``
+   :depends r-ggrepel: ``>=0.8.1``
    :depends r-grr: 
-   :depends r-htmlwidgets: >=1.3
-   :depends r-igraph: >=1.2.4
-   :depends r-irlba: >=2.3.3
+   :depends r-htmlwidgets: ``>=1.3``
+   :depends r-igraph: ``>=1.2.4``
+   :depends r-irlba: ``>=2.3.3``
    :depends r-knitr: 
    :depends r-leidenbase: 
-   :depends r-lmtest: >=0.9_36
-   :depends r-mass: >=7.3_51.4
-   :depends r-matrix: >=1.2_17
+   :depends r-lmtest: ``>=0.9_36``
+   :depends r-mass: ``>=7.3_51.4``
+   :depends r-matrix: ``>=1.2_17``
    :depends r-matrix.utils: 
-   :depends r-pbapply: >=1.4
-   :depends r-pbmcapply: >=1.4.1
+   :depends r-pbapply: ``>=1.4``
+   :depends r-pbmcapply: ``>=1.4.1``
    :depends r-pheatmap: 
-   :depends r-plotly: >=4.9
-   :depends r-plyr: >=1.8.4
-   :depends r-proxy: >=0.4_23
-   :depends r-pryr: >=0.1.4
-   :depends r-pscl: >=1.5.2
-   :depends r-purrr: >=0.3.2
-   :depends r-rann: >=2.6.1
-   :depends r-rcpp: >=1.0.1
+   :depends r-plotly: ``>=4.9``
+   :depends r-plyr: ``>=1.8.4``
+   :depends r-proxy: ``>=0.4_23``
+   :depends r-pryr: ``>=0.1.4``
+   :depends r-pscl: ``>=1.5.2``
+   :depends r-purrr: ``>=0.3.2``
+   :depends r-rann: ``>=2.6.1``
+   :depends r-rcpp: ``>=1.0.1``
    :depends r-rcppparallel: 
-   :depends r-reshape2: >=1.4.3
-   :depends r-reticulate: >=1.11.1
+   :depends r-reshape2: ``>=1.4.3``
+   :depends r-reticulate: ``>=1.11.1``
    :depends r-rhpcblasctl: 
    :depends r-rmarkdown: 
-   :depends r-rsample: >=0.0.5
-   :depends r-rtsne: >=0.15
+   :depends r-rsample: ``>=0.0.5``
+   :depends r-rtsne: ``>=0.15``
    :depends r-shiny: 
-   :depends r-slam: >=0.1_45
-   :depends r-spdep: >=1.1_2
-   :depends r-speedglm: >=0.3_2
+   :depends r-slam: ``>=0.1_45``
+   :depends r-spdep: ``>=1.1_2``
+   :depends r-speedglm: ``>=0.3_2``
    :depends r-spelling: 
-   :depends r-stringr: >=1.4
-   :depends r-testthat: >=2.1
-   :depends r-tibble: >=2.1.1
-   :depends r-tidyr: >=0.8.3
-   :depends r-uwot: >=0.1.3
-   :depends r-viridis: >=0.5.1
+   :depends r-stringr: ``>=1.4``
+   :depends r-testthat: ``>=2.1``
+   :depends r-tibble: ``>=2.1.1``
+   :depends r-tidyr: ``>=0.8.3``
+   :depends r-uwot: ``>=0.1.3``
+   :depends r-viridis: ``>=0.5.1``
    :requirements:
 
    .. rubric:: Installation

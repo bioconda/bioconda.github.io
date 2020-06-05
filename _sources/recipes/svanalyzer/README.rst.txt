@@ -8,6 +8,7 @@ svanalyzer
 
 .. conda:recipe:: svanalyzer
    :replaces_section_title:
+   :noindex:
 
    SVanalyzer\: tools for the analysis of structural variation in genomes
 
@@ -22,12 +23,19 @@ svanalyzer
 
    |downloads_svanalyzer| |docker_svanalyzer|
 
-   :versions: 0.35-0, 0.34-0, 0.33-0, 0.32-0, 0.31-0, 0.3-0
+   :versions:
+      
+      
+
+      ``0.35-0``,  ``0.34-0``,  ``0.33-0``,  ``0.32-0``,  ``0.31-0``,  ``0.3-0``
+
+      
+
    
    :depends bedtools: 
    :depends edlib: 
    :depends mummer: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-log-log4perl: 
    :depends samtools: 
    :requirements:

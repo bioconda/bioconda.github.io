@@ -8,6 +8,7 @@ bandage
 
 .. conda:recipe:: bandage
    :replaces_section_title:
+   :noindex:
 
    Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily
 
@@ -23,12 +24,19 @@ bandage
 
    |downloads_bandage| |docker_bandage|
 
-   :versions: 0.8.1-2, 0.8.1-1, 0.8.1-0
+   :versions:
+      
+      
+
+      ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``
+
+      
+
    
    :depends fonts-conda-ecosystem: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends qt: >=5.12.5
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends qt: ``>=5.12.5``
    :depends xorg-libxrender: 
    :requirements:
 

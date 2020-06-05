@@ -8,6 +8,7 @@ r-intego
 
 .. conda:recipe:: r-intego
    :replaces_section_title:
+   :noindex:
 
    An unsupervised gene clustering algorithm based on the integration of external biological knowledge\, such as Gene Ontology annotations\, into expression data.
 
@@ -23,9 +24,16 @@ r-intego
 
    |downloads_r-intego| |docker_r-intego|
 
-   :versions: 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-1``,  ``2.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-factominer: 
    :requirements:
 

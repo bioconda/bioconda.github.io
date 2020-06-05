@@ -8,6 +8,7 @@ bioconductor-batchelor
 
 .. conda:recipe:: bioconductor-batchelor
    :replaces_section_title:
+   :noindex:
 
    Single\-Cell Batch Correction Methods
 
@@ -22,24 +23,31 @@ bioconductor-batchelor
 
    |downloads_bioconductor-batchelor| |docker_bioconductor-batchelor|
 
-   :versions: 1.4.0-0, 1.2.1-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-beachmat: >=2.4.0,<2.5.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocneighbors: >=1.6.0,<1.7.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biocsingular: >=1.4.0,<1.5.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-delayedmatrixstats: >=1.10.0,<1.11.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-scater: >=1.16.0,<1.17.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-beachmat: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocneighbors: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocsingular: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-scater: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-matrix: 
    :depends r-rcpp: 

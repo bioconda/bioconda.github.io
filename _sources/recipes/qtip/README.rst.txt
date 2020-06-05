@@ -8,6 +8,7 @@ qtip
 
 .. conda:recipe:: qtip
    :replaces_section_title:
+   :noindex:
 
    A tandem simulation approach for accurately predicting read alignment
    mapping qualities.
@@ -24,12 +25,19 @@ qtip
 
    |downloads_qtip| |docker_qtip|
 
-   :versions: 1.6.2-2, 1.6.2-1, 1.6.2-0
+   :versions:
+      
+      
+
+      ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``
+
+      
+
    
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scikit-learn: 
    :requirements:
 

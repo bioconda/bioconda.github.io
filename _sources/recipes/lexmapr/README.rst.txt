@@ -8,6 +8,7 @@ lexmapr
 
 .. conda:recipe:: lexmapr
    :replaces_section_title:
+   :noindex:
 
    A Lexicon and Rule\-Based Tool for Translating Short Biomedical Specimen Descriptions into Semantic Web Ontology Terms
 
@@ -22,12 +23,27 @@ lexmapr
 
    |downloads_lexmapr| |docker_lexmapr|
 
-   :versions: 0.6.1-0, 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.0-0, 0.2.0-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  </span></summary>
+      
+
+      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends inflection: 
-   :depends nltk: 3.4.5.*
+   :depends nltk: ``3.4.5.*``
    :depends nltk_data: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends python-dateutil: 
    :depends rdflib: 
    :depends wikipedia: 

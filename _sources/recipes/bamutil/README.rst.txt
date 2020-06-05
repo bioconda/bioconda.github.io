@@ -8,6 +8,7 @@ bamutil
 
 .. conda:recipe:: bamutil
    :replaces_section_title:
+   :noindex:
 
    Programs that perform operations on SAM\/BAM files\, all built into a single executable\, bam.
 
@@ -23,11 +24,18 @@ bamutil
 
    |downloads_bamutil| |docker_bamutil|
 
-   :versions: 1.0.14-3, 1.0.14-2, 1.0.14-1, 1.0.14-0
+   :versions:
+      
+      
+
+      ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

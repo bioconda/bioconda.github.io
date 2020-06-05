@@ -8,6 +8,7 @@ bioconductor-alpinedata
 
 .. conda:recipe:: bioconductor-alpinedata
    :replaces_section_title:
+   :noindex:
 
    Data for the alpine package vignette
 
@@ -22,13 +23,20 @@ bioconductor-alpinedata
 
    |downloads_bioconductor-alpinedata| |docker_bioconductor-alpinedata|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-genomicalignments: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

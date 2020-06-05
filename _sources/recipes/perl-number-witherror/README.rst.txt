@@ -8,6 +8,7 @@ perl-number-witherror
 
 .. conda:recipe:: perl-number-witherror/1.01
    :replaces_section_title:
+   :noindex:
 
    Numbers with error propagation and scientific rounding
 
@@ -22,9 +23,16 @@ perl-number-witherror
 
    |downloads_perl-number-witherror| |docker_perl-number-witherror|
 
-   :versions: 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-params-util: 
    :depends perl-prefork: 
    :requirements:

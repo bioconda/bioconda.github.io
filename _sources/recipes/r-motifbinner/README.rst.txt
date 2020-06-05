@@ -8,6 +8,7 @@ r-motifbinner
 
 .. conda:recipe:: r-motifbinner
    :replaces_section_title:
+   :noindex:
 
    MotifBinner processes high\-throughput sequencing data of an RNA virus population.
 
@@ -22,14 +23,21 @@ r-motifbinner
 
    |downloads_r-motifbinner| |docker_r-motifbinner|
 
-   :versions: 2.0.0-1, 2.0.0-0
+   :versions:
+      
+      
+
+      ``2.0.0-1``,  ``2.0.0-0``
+
+      
+
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-biostrings: 
    :depends bioconductor-shortread: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-domc: 
    :depends r-dplyr: 

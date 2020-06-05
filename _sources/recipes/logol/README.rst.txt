@@ -8,6 +8,7 @@ logol
 
 .. conda:recipe:: logol
    :replaces_section_title:
+   :noindex:
 
    Logol is a pattern matching grammar language and a set of tools to search a pattern in a sequence \(nucleic or proteic\)
 
@@ -22,11 +23,18 @@ logol
 
    |downloads_logol| |docker_logol|
 
-   :versions: 1.7.8-2, 1.7.8-1
+   :versions:
+      
+      
+
+      ``1.7.8-2``,  ``1.7.8-1``
+
+      
+
    
    :depends cassiopee: 
    :depends openjdk: 
-   :depends ruby: >=2.4
+   :depends ruby: ``>=2.4``
    :depends swi-prolog: 
    :requirements:
 

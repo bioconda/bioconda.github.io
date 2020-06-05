@@ -8,6 +8,7 @@ mdasim
 
 .. conda:recipe:: mdasim
    :replaces_section_title:
+   :noindex:
 
    This is MDAsim 2\+\, a tool to simulate whole genome amplification of a DNA sequence with multiple displacement amplification. A citation for this version will be provided when available. MDAsim 2\+ extends MDAsim 1.2\, so please also always cite\: Tagliavi Z\, Draghici S. MDAsim\: A multiple displacement amplification simulator. 2012 IEEE International Conference on Bioinformatics and Biomedicine \(BIBM\). 2012. pp. 1–4. doi\:10.1109\/BIBM.2012.6392622
 
@@ -22,10 +23,17 @@ mdasim
 
    |downloads_mdasim| |docker_mdasim|
 
-   :versions: 2.1.1-0, 2.1.0-0, 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.2-0
+   :versions:
+      
+      
+
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends openmpi: >=3.1,<3.2.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends openmpi: ``>=3.1,<3.2.0a0``
    :requirements:
 
    .. rubric:: Installation

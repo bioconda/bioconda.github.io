@@ -8,6 +8,7 @@ perl-ipc-cmd
 
 .. conda:recipe:: perl-ipc-cmd
    :replaces_section_title:
+   :noindex:
 
    A cross platform way of running \(interactive\) commandline programs.
 
@@ -22,9 +23,16 @@ perl-ipc-cmd
 
    |downloads_perl-ipc-cmd| |docker_perl-ipc-cmd|
 
-   :versions: 1.02-0, 1.00-1, 1.00-0
+   :versions:
+      
+      
+
+      ``1.02-0``,  ``1.00-1``,  ``1.00-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-extutils-makemaker: 
    :depends perl-file-temp: 
    :depends perl-locale-maketext-simple: 

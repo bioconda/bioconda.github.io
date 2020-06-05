@@ -8,6 +8,7 @@ perl-path-class
 
 .. conda:recipe:: perl-path-class
    :replaces_section_title:
+   :noindex:
 
    Cross\-platform path specification manipulation
 
@@ -22,9 +23,16 @@ perl-path-class
 
    |downloads_perl-path-class| |docker_perl-path-class|
 
-   :versions: 0.37-1, 0.37-0, 0.36-0
+   :versions:
+      
+      
+
+      ``0.37-1``,  ``0.37-0``,  ``0.36-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-file-path: 

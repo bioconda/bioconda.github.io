@@ -8,6 +8,7 @@ abra2
 
 .. conda:recipe:: abra2
    :replaces_section_title:
+   :noindex:
 
    ABRA2 is an updated implementation of ABRA
 
@@ -22,12 +23,19 @@ abra2
 
    |downloads_abra2| |docker_abra2|
 
-   :versions: 2.22-0, 2.20-0
+   :versions:
+      
+      
+
+      ``2.22-0``,  ``2.20-0``
+
+      
+
    
    :depends coreutils: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openjdk: >=8
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

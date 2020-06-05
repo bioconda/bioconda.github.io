@@ -8,6 +8,7 @@ mlpy
 
 .. conda:recipe:: mlpy
    :replaces_section_title:
+   :noindex:
 
    mlpy is a Python module for Machine Learning built on top of NumPy\/SciPy and the GNU Scientific Libraries.
 
@@ -25,14 +26,21 @@ mlpy
 
    |downloads_mlpy| |docker_mlpy|
 
-   :versions: 3.5.0-0
+   :versions:
+      
+      
+
+      ``3.5.0-0``
+
+      
+
    
-   :depends gsl: >=2.4,<2.5.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends numpy: >=1.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends scipy: >=0.7.0
+   :depends gsl: ``>=2.4,<2.5.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends scipy: ``>=0.7.0``
    :requirements:
 
    .. rubric:: Installation

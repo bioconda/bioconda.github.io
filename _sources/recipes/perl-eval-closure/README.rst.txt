@@ -8,6 +8,7 @@ perl-eval-closure
 
 .. conda:recipe:: perl-eval-closure/0.14
    :replaces_section_title:
+   :noindex:
 
    safely and cleanly create closures via string eval
 
@@ -22,11 +23,18 @@ perl-eval-closure
 
    |downloads_perl-eval-closure| |docker_perl-eval-closure|
 
-   :versions: 0.14-4, 0.14-3, 0.14-1, 0.14-0
+   :versions:
+      
+      
+
+      ``0.14-4``,  ``0.14-3``,  ``0.14-1``,  ``0.14-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-exporter: 

@@ -8,6 +8,7 @@ perl-class-xsaccessor
 
 .. conda:recipe:: perl-class-xsaccessor/1.19
    :replaces_section_title:
+   :noindex:
 
    Generate fast XS accessors without runtime compilation
 
@@ -22,9 +23,16 @@ perl-class-xsaccessor
 
    |downloads_perl-class-xsaccessor| |docker_perl-class-xsaccessor|
 
-   :versions: 1.19-2, 1.19-1, 1.19-0
+   :versions:
+      
+      
+
+      ``1.19-2``,  ``1.19-1``,  ``1.19-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-time-hires: 
    :depends perl-xsloader: 
    :requirements:

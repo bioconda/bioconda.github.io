@@ -8,6 +8,7 @@ perl-moosex-singleton
 
 .. conda:recipe:: perl-moosex-singleton
    :replaces_section_title:
+   :noindex:
 
    Turn your Moose class into a singleton
 
@@ -22,9 +23,16 @@ perl-moosex-singleton
 
    |downloads_perl-moosex-singleton| |docker_perl-moosex-singleton|
 
-   :versions: 0.30-0
+   :versions:
+      
+      
+
+      ``0.30-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-moose: 
    :requirements:

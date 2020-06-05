@@ -8,6 +8,7 @@ hicbrowser
 
 .. conda:recipe:: hicbrowser
    :replaces_section_title:
+   :noindex:
 
    A simple web browser to visualize Hi\-C and other genomic tracks \(bigwig\, bed\, interactions\).
 
@@ -22,12 +23,19 @@ hicbrowser
 
    |downloads_hicbrowser| |docker_hicbrowser|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends bx-python: 
-   :depends flask: >=0.10.1
-   :depends hicexplorer: >=1.7
-   :depends python: >=2.7,<2.8.0a0
+   :depends flask: ``>=0.10.1``
+   :depends hicexplorer: ``>=1.7``
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

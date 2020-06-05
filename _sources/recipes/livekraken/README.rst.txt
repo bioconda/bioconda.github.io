@@ -8,6 +8,7 @@ livekraken
 
 .. conda:recipe:: livekraken
    :replaces_section_title:
+   :noindex:
 
    LiveKraken is a real\-time metagenomic classifier for Illumina sequencing data.
 
@@ -22,13 +23,20 @@ livekraken
 
    |downloads_livekraken| |docker_livekraken|
 
-   :versions: 1.0-5, 1.0-4, 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-5``,  ``1.0-4``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends kmer-jellyfish: 1.*
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends kmer-jellyfish: ``1.*``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends python: 
    :requirements:
 

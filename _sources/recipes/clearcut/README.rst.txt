@@ -8,6 +8,7 @@ clearcut
 
 .. conda:recipe:: clearcut
    :replaces_section_title:
+   :noindex:
 
    The reference implementation for Relaxed Neighbor Joining \(RNJ\).
 
@@ -22,7 +23,14 @@ clearcut
 
    |downloads_clearcut| |docker_clearcut|
 
-   :versions: 1.0.9-1, 1.0.9-0
+   :versions:
+      
+      
+
+      ``1.0.9-1``,  ``1.0.9-0``
+
+      
+
    
    :requirements:
 

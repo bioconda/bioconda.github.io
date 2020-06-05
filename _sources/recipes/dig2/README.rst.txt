@@ -8,6 +8,7 @@ dig2
 
 .. conda:recipe:: dig2
    :replaces_section_title:
+   :noindex:
 
    dig2 is a simple but flexible in silico digester of protein sequences in the FASTA format. It allows for almost any enzyme to be simulated\, including MS\/MS enzymes to generate CID or ECD\/ETD fragments.
 
@@ -23,9 +24,16 @@ dig2
 
    |downloads_dig2| |docker_dig2|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-absseq
 
 .. conda:recipe:: bioconductor-absseq
    :replaces_section_title:
+   :noindex:
 
    ABSSeq\: a new RNA\-Seq analysis method based on modelling absolute expression differences
 
@@ -23,10 +24,17 @@ bioconductor-absseq
 
    |downloads_bioconductor-absseq| |docker_bioconductor-absseq|
 
-   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-1, 1.38.0-0, 1.36.0-0, 1.34.1-0, 1.32.0-0, 1.22.8-0
+   :versions:
+      
+      
+
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-0``,  ``1.22.8-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-locfit: 
    :requirements:
 

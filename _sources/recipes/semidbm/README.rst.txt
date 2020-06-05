@@ -8,6 +8,7 @@ semidbm
 
 .. conda:recipe:: semidbm
    :replaces_section_title:
+   :noindex:
 
    Cross platform \(fast\) DBM interface in python
 
@@ -22,7 +23,14 @@ semidbm
 
    |downloads_semidbm| |docker_semidbm|
 
-   :versions: 0.5.1-2, 0.5.1-1, 0.5.1-0
+   :versions:
+      
+      
+
+      ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

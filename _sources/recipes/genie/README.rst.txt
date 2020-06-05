@@ -8,6 +8,7 @@ genie
 
 .. conda:recipe:: genie
    :replaces_section_title:
+   :noindex:
 
    A toolkit for working with next\-generation sequencing data
 
@@ -24,7 +25,14 @@ genie
 
    |downloads_genie| |docker_genie|
 
-   :versions: 0.7.0-0, 0.6.0-0, 0.5.0-1, 0.5.0-0, 0.4.2-1, 0.4.2-0, 0.4.1-0
+   :versions:
+      
+      
+
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``
+
+      
+
    
    :requirements:
 

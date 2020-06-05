@@ -8,6 +8,7 @@ perl-cpan-meta-requirements
 
 .. conda:recipe:: perl-cpan-meta-requirements
    :replaces_section_title:
+   :noindex:
 
    a set of version requirements for a CPAN dist
 
@@ -22,9 +23,16 @@ perl-cpan-meta-requirements
 
    |downloads_perl-cpan-meta-requirements| |docker_perl-cpan-meta-requirements|
 
-   :versions: 2.140-0
+   :versions:
+      
+      
+
+      ``2.140-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-version: 
    :requirements:

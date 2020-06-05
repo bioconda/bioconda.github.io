@@ -8,6 +8,7 @@ humann2
 
 .. conda:recipe:: humann2
    :replaces_section_title:
+   :noindex:
 
    HUMAnN2\: The HMP Unified Metabolic Analysis Network 2
 
@@ -22,15 +23,30 @@ humann2
 
    |downloads_humann2| |docker_humann2|
 
-   :versions: 2.8.1-0, 2.8.0-0, 0.11.2-1, 0.11.2-0, 0.11.1-3, 0.11.1-2, 0.11.1-1, 0.11.1-0, 0.9.9-2, 0.9.9-1, 0.9.9-0, 0.6.1-3, 0.6.1-2, 0.6.1-1, 0.6.1-0, 0.5.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>0.11.2-1</code>,  <code>0.11.2-0</code>,  <code>0.11.1-3</code>,  <code>0.11.1-2</code>,  <code>0.11.1-1</code>,  <code>0.11.1-0</code>,  <code>0.9.9-2</code>,  </span></summary>
+      
+
+      ``2.8.1-0``,  ``2.8.0-0``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.11.1-3``,  ``0.11.1-2``,  ``0.11.1-1``,  ``0.11.1-0``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biom-format: 
-   :depends bowtie2: >=2.2.5
-   :depends diamond: >=0.7.10,<0.9.0
+   :depends bowtie2: ``>=2.2.5``
+   :depends diamond: ``>=0.7.10,<0.9.0``
    :depends matplotlib: 
-   :depends metaphlan2: >=2.6.0
+   :depends metaphlan2: ``>=2.6.0``
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends samtools: 
    :depends scipy: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-ribosomaldatabaseproject11.5mgdb
 
 .. conda:recipe:: bioconductor-ribosomaldatabaseproject11.5mgdb
    :replaces_section_title:
+   :noindex:
 
    Ribosomal Database Project 16S rRNA release 11.5 Annotation Data
 
@@ -22,11 +23,18 @@ bioconductor-ribosomaldatabaseproject11.5mgdb
 
    |downloads_bioconductor-ribosomaldatabaseproject11.5mgdb| |docker_bioconductor-ribosomaldatabaseproject11.5mgdb|
 
-   :versions: 1.00.0-4, 1.00.0-3, 1.00.0-2, 1.00.0-0
+   :versions:
+      
+      
+
+      ``1.00.0-4``,  ``1.00.0-3``,  ``1.00.0-2``,  ``1.00.0-0``
+
+      
+
    
-   :depends bioconductor-metagenomefeatures: >=2.8.0,<2.9.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-metagenomefeatures: ``>=2.8.0,<2.9.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

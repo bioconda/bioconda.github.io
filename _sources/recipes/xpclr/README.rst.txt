@@ -8,6 +8,7 @@ xpclr
 
 .. conda:recipe:: xpclr
    :replaces_section_title:
+   :noindex:
 
    Code to compute xp\-clr values to detect selection as per Chen\, Patterson \& Reich 2010.
 
@@ -22,15 +23,22 @@ xpclr
 
    |downloads_xpclr| |docker_xpclr|
 
-   :versions: 1.1.2-0, 1.1.1-0, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``
+
+      
+
    
    :depends h5py: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.6
-   :depends scikit-allel: >=1.2
+   :depends python: ``>=3.6``
+   :depends scikit-allel: ``>=1.2``
    :depends scipy: 
-   :depends zarr: >=2.2
+   :depends zarr: ``>=2.2``
    :requirements:
 
    .. rubric:: Installation

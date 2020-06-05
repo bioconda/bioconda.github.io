@@ -8,6 +8,7 @@ ficus
 
 .. conda:recipe:: ficus
    :replaces_section_title:
+   :noindex:
 
    provides a context manager for matplotlib figures.
 
@@ -22,9 +23,16 @@ ficus
 
    |downloads_ficus| |docker_ficus|
 
-   :versions: 0.5-3, 0.5-2, 0.5-1, 0.5-0, 0.3-0
+   :versions:
+      
+      
+
+      ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.3-0``
+
+      
+
    
-   :depends matplotlib: >=1.4
+   :depends matplotlib: ``>=1.4``
    :depends python: 
    :requirements:
 

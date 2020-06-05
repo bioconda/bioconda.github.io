@@ -8,6 +8,7 @@ vtools
 
 .. conda:recipe:: vtools
    :replaces_section_title:
+   :noindex:
 
    Various tools operating over VCF files. Uses cyvcf2 and cython under the hood for speed
 
@@ -22,13 +23,20 @@ vtools
 
    |downloads_vtools| |docker_vtools|
 
-   :versions: 1.1.0-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
    :depends click: 
    :depends cyvcf2: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends tqdm: 
    :requirements:
 

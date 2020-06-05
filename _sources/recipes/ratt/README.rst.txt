@@ -8,6 +8,7 @@ ratt
 
 .. conda:recipe:: ratt
    :replaces_section_title:
+   :noindex:
 
    Rapid Annotation Transfer Tool
 
@@ -22,7 +23,14 @@ ratt
 
    |downloads_ratt| |docker_ratt|
 
-   :versions: 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``
+
+      
+
    
    :depends mummer: 
    :depends perl: 

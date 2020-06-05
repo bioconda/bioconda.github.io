@@ -8,6 +8,7 @@ r-ngsplot
 
 .. conda:recipe:: r-ngsplot
    :replaces_section_title:
+   :noindex:
 
    Quick mining and visualization of NGS data by integrating genomic databases
 
@@ -23,12 +24,19 @@ r-ngsplot
 
    |downloads_r-ngsplot| |docker_r-ngsplot|
 
-   :versions: 2.63-3, 2.63-2, 2.63-1, 2.63-0
+   :versions:
+      
+      
+
+      ``2.63-3``,  ``2.63-2``,  ``2.63-1``,  ``2.63-0``
+
+      
+
    
    :depends bioconductor-bsgenome: 
    :depends bioconductor-rsamtools: 
    :depends bioconductor-shortread: 
-   :depends python: <3.0a0
+   :depends python: ``<3.0a0``
    :depends r-base: 
    :depends r-catools: 
    :depends r-domc: 

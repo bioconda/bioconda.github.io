@@ -8,6 +8,7 @@ wheezy.template
 
 .. conda:recipe:: wheezy.template
    :replaces_section_title:
+   :noindex:
 
    A lightweight template library
 
@@ -22,7 +23,14 @@ wheezy.template
 
    |downloads_wheezy.template| |docker_wheezy.template|
 
-   :versions: 0.1.167-1, 0.1.167-0
+   :versions:
+      
+      
+
+      ``0.1.167-1``,  ``0.1.167-0``
+
+      
+
    
    :depends python: 
    :requirements:

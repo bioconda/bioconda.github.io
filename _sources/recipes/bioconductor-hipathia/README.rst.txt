@@ -8,6 +8,7 @@ bioconductor-hipathia
 
 .. conda:recipe:: bioconductor-hipathia
    :replaces_section_title:
+   :noindex:
 
    HiPathia\: High\-throughput Pathway Analysis
 
@@ -22,18 +23,25 @@ bioconductor-hipathia
 
    |downloads_bioconductor-hipathia| |docker_bioconductor-hipathia|
 
-   :versions: 2.4.0-0, 2.2.0-0, 2.0.0-1, 1.3.1-0
+   :versions:
+      
+      
+
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.3.1-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-coin: 
-   :depends r-igraph: >=1.0.1
+   :depends r-igraph: ``>=1.0.1``
    :depends r-matrixstats: 
    :depends r-servr: 
    :requirements:

@@ -8,6 +8,7 @@ repaq
 
 .. conda:recipe:: repaq
    :replaces_section_title:
+   :noindex:
 
    A fast lossless FASTQ compressor with ultra\-high compression ratio
 
@@ -22,11 +23,18 @@ repaq
 
    |downloads_repaq| |docker_repaq|
 
-   :versions: 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.3.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

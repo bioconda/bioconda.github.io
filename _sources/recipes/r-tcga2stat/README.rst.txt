@@ -8,6 +8,7 @@ r-tcga2stat
 
 .. conda:recipe:: r-tcga2stat
    :replaces_section_title:
+   :noindex:
 
    Automatically downloads and processes TCGA genomics and clinical data into a format convenient for statistical analyses in the R environment.
 
@@ -22,10 +23,17 @@ r-tcga2stat
 
    |downloads_r-tcga2stat| |docker_r-tcga2stat|
 
-   :versions: 1.2-6, 1.2-5, 1.2-4, 1.2-3, 1.2-2, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-0``
+
+      
+
    
    :depends bioconductor-cntools: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-xml: 
    :requirements:
 

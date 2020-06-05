@@ -8,6 +8,7 @@ perl-ole-storage_lite
 
 .. conda:recipe:: perl-ole-storage_lite
    :replaces_section_title:
+   :noindex:
 
    Read and write OLE storage files.
 
@@ -22,9 +23,16 @@ perl-ole-storage_lite
 
    |downloads_perl-ole-storage_lite| |docker_perl-ole-storage_lite|
 
-   :versions: 0.19-3, 0.19-2, 0.19-1, 0.19-0
+   :versions:
+      
+      
+
+      ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

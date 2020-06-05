@@ -8,6 +8,7 @@ perl-excel-writer-xlsx
 
 .. conda:recipe:: perl-excel-writer-xlsx
    :replaces_section_title:
+   :noindex:
 
    Create a new file in the Excel 2007\+ XLSX format.
 
@@ -22,9 +23,16 @@ perl-excel-writer-xlsx
 
    |downloads_perl-excel-writer-xlsx| |docker_perl-excel-writer-xlsx|
 
-   :versions: 1.00-0, 0.98-0, 0.95-1, 0.95-0
+   :versions:
+      
+      
+
+      ``1.00-0``,  ``0.98-0``,  ``0.95-1``,  ``0.95-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-archive-zip: 
    :depends perl-file-temp: 
    :requirements:

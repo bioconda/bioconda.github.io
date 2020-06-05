@@ -8,6 +8,7 @@ perl-bio-gff3
 
 .. conda:recipe:: perl-bio-gff3
    :replaces_section_title:
+   :noindex:
 
    fast\, low\-level GFF3 manipulation
 
@@ -22,9 +23,16 @@ perl-bio-gff3
 
    |downloads_perl-bio-gff3| |docker_perl-bio-gff3|
 
-   :versions: 2.0-3, 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-extutils-makemaker: 
    :depends perl-file-readbackwards: 
    :depends perl-io-string: 

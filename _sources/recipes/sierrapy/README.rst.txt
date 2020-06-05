@@ -8,6 +8,7 @@ sierrapy
 
 .. conda:recipe:: sierrapy
    :replaces_section_title:
+   :noindex:
 
    A Client of HIVdb Sierra GraphQL Webservice.
 
@@ -22,17 +23,24 @@ sierrapy
 
    |downloads_sierrapy| |docker_sierrapy|
 
-   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+
+      
+
    
-   :depends click: >=6.7
-   :depends gql: >=0.1.0
-   :depends graphql-core: >=0.5.3
-   :depends promise: >=0.4.2
+   :depends click: ``>=6.7``
+   :depends gql: ``>=0.1.0``
+   :depends graphql-core: ``>=0.5.3``
+   :depends promise: ``>=0.4.2``
    :depends python: 
-   :depends requests: >=2.11.1
-   :depends six: >=1.10.0
-   :depends tqdm: >=4.8.4
-   :depends voluptuous: >=0.10.5
+   :depends requests: ``>=2.11.1``
+   :depends six: ``>=1.10.0``
+   :depends tqdm: ``>=4.8.4``
+   :depends voluptuous: ``>=0.10.5``
    :requirements:
 
    .. rubric:: Installation

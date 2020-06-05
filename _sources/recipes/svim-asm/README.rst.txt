@@ -8,6 +8,7 @@ svim-asm
 
 .. conda:recipe:: svim-asm
    :replaces_section_title:
+   :noindex:
 
    SVIM\-asm is a fork of the SV caller SVIM for genome\-genome alignments.
 
@@ -22,12 +23,19 @@ svim-asm
 
    |downloads_svim-asm| |docker_svim-asm|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends matplotlib: 
    :depends numpy: 
-   :depends pysam: >=0.15
-   :depends python: >=3.6
+   :depends pysam: ``>=0.15``
+   :depends python: ``>=3.6``
    :depends python-edlib: 
    :depends scipy: 
    :requirements:

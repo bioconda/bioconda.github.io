@@ -8,6 +8,7 @@ pronto
 
 .. conda:recipe:: pronto
    :replaces_section_title:
+   :noindex:
 
    Python frontend to ontologies
 
@@ -22,14 +23,29 @@ pronto
 
    |downloads_pronto| |docker_pronto|
 
-   :versions: 2.1.0-0, 2.0.1-0, 2.0.0-0, 1.2.0-0, 0.12.2-0, 0.12.1-0, 0.12.0-0, 0.11.1-0, 0.11.0-0, 0.10.2-1, 0.10.2-0, 0.3.3-2, 0.3.3-1, 0.3.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  </span></summary>
+      
+
+      ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-1``,  ``0.10.2-0``,  ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends chardet: >=3.0
-   :depends fastobo: >=0.6.0
+   :depends chardet: ``>=3.0``
+   :depends fastobo: ``>=0.6.0``
    :depends frozendict: 
-   :depends networkx: >=2.3
-   :depends python: >=3.6
-   :depends python-dateutil: >=2.8
+   :depends networkx: ``>=2.3``
+   :depends python: ``>=3.6``
+   :depends python-dateutil: ``>=2.8``
    :requirements:
 
    .. rubric:: Installation

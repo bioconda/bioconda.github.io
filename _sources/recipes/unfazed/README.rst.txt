@@ -8,6 +8,7 @@ unfazed
 
 .. conda:recipe:: unfazed
    :replaces_section_title:
+   :noindex:
 
    Extended read\-backed and allele\-balance phasing for de novo variation \(SNVs\, INDELS\, SVs\, and CNVs\)
 
@@ -22,12 +23,19 @@ unfazed
 
    |downloads_unfazed| |docker_unfazed|
 
-   :versions: 0.2.3-0, 0.2.2-0, 0.1.5-0
+   :versions:
+      
+      
+
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.5-0``
+
+      
+
    
    :depends cyvcf2: 
    :depends numpy: 
    :depends pip: 
-   :depends pysam: >=0.15.2
+   :depends pysam: ``>=0.15.2``
    :depends python: 
    :requirements:
 

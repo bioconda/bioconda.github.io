@@ -8,6 +8,7 @@ umitools
 
 .. conda:recipe:: umitools
    :replaces_section_title:
+   :noindex:
 
    A toolset for handling sequencing data with unique molecular identifiers \(UMIs\)
 
@@ -23,12 +24,19 @@ umitools
 
    |downloads_umitools| |docker_umitools|
 
-   :versions: 0.3.4-2, 0.3.4-1, 0.3.4-0, 0.3.0-1, 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.0-1``,  ``0.3.0-0``
+
+      
+
    
    :depends editdistance: 
    :depends networkx: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

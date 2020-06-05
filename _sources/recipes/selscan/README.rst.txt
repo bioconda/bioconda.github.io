@@ -8,6 +8,7 @@ selscan
 
 .. conda:recipe:: selscan
    :replaces_section_title:
+   :noindex:
 
    a program to calculate EHH\-based scans for positive selection in genomes
 
@@ -23,10 +24,17 @@ selscan
 
    |downloads_selscan| |docker_selscan|
 
-   :versions: 1.2.0a-0, 1.1.0b-3, 1.1.0b-2, 1.1.0b-1, 1.1.0b-0
+   :versions:
+      
+      
+
+      ``1.2.0a-0``,  ``1.1.0b-3``,  ``1.1.0b-2``,  ``1.1.0b-1``,  ``1.1.0b-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

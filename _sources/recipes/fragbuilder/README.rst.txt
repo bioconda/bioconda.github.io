@@ -8,6 +8,7 @@ fragbuilder
 
 .. conda:recipe:: fragbuilder
    :replaces_section_title:
+   :noindex:
 
    FragBuilder is a tool to create\, setup and analyze QM calculations on peptides.
 
@@ -22,11 +23,18 @@ fragbuilder
 
    |downloads_fragbuilder| |docker_fragbuilder|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
    :depends numpy: 
-   :depends openbabel: 2.4.1.*
-   :depends python: 2.*
+   :depends openbabel: ``2.4.1.*``
+   :depends python: ``2.*``
    :requirements:
 
    .. rubric:: Installation

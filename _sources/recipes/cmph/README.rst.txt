@@ -8,6 +8,7 @@ cmph
 
 .. conda:recipe:: cmph
    :replaces_section_title:
+   :noindex:
 
    CMPH \- C Minimal Perfect Hashing Library
 
@@ -22,9 +23,16 @@ cmph
 
    |downloads_cmph| |docker_cmph|
 
-   :versions: 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-1``,  ``2.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

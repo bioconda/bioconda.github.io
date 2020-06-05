@@ -8,6 +8,7 @@ perl-xml-libxslt
 
 .. conda:recipe:: perl-xml-libxslt
    :replaces_section_title:
+   :noindex:
 
    Interface to GNOME libxslt library
 
@@ -22,10 +23,17 @@ perl-xml-libxslt
 
    |downloads_perl-xml-libxslt| |docker_perl-xml-libxslt|
 
-   :versions: 1.94-1, 1.94-0
+   :versions:
+      
+      
+
+      ``1.94-1``,  ``1.94-0``
+
+      
+
    
-   :depends libxslt: >=1.1.32,<2.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libxslt: ``>=1.1.32,<2.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xml-libxml: 
    :requirements:
 

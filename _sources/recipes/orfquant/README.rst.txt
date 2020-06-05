@@ -8,6 +8,7 @@ orfquant
 
 .. conda:recipe:: orfquant
    :replaces_section_title:
+   :noindex:
 
    SaTAnn is a method that annotates and quantifies translation at the single ORF level using Ribo\-seq data.
 
@@ -22,7 +23,14 @@ orfquant
 
    |downloads_orfquant| |docker_orfquant|
 
-   :versions: 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``
+
+      
+
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-biostrings: 
@@ -31,7 +39,7 @@ orfquant
    :depends bioconductor-genomicfeatures: 
    :depends bioconductor-genomicfiles: 
    :depends bioconductor-rtracklayer: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-cowplot: 
    :depends r-devtools: 
    :depends r-domc: 

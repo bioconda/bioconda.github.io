@@ -8,6 +8,7 @@ metaphyler
 
 .. conda:recipe:: metaphyler
    :replaces_section_title:
+   :noindex:
 
    Estimating Bacterial Composition from Metagenomic Sequences
 
@@ -22,10 +23,17 @@ metaphyler
 
    |downloads_metaphyler| |docker_metaphyler|
 
-   :versions: 1.25-1, 1.25-0
+   :versions:
+      
+      
+
+      ``1.25-1``,  ``1.25-0``
+
+      
+
    
    :depends blast-legacy: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends perl: 
    :requirements:
 

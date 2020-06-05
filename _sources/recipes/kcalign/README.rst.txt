@@ -8,6 +8,7 @@ kcalign
 
 .. conda:recipe:: kcalign
    :replaces_section_title:
+   :noindex:
 
    Kalgin\-based codon\-aware aligner for multiple sequences
 
@@ -24,12 +25,27 @@ kcalign
 
    |downloads_kcalign| |docker_kcalign|
 
-   :versions: 0.6.3-0, 0.6.1-0, 0.6-0, 0.5.16-0, 0.5.15-0, 0.5.14-0, 0.5.13-1, 0.5.13-0, 0.5.11-0, 0.5.9-0, 0.5.8-0, 0.5.7-0, 0.5.6-0, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.1-0</code>,  <code>0.6-0</code>,  <code>0.5.16-0</code>,  <code>0.5.15-0</code>,  <code>0.5.14-0</code>,  <code>0.5.13-1</code>,  <code>0.5.13-0</code>,  </span></summary>
+      
+
+      ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.1-0``,  ``0.6-0``,  ``0.5.16-0``,  ``0.5.15-0``,  ``0.5.14-0``,  ``0.5.13-1``,  ``0.5.13-0``,  ``0.5.11-0``,  ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends kalign3: 
    :depends mafft: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

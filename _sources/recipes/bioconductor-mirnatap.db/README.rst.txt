@@ -8,6 +8,7 @@ bioconductor-mirnatap.db
 
 .. conda:recipe:: bioconductor-mirnatap.db
    :replaces_section_title:
+   :noindex:
 
    Data for miRNAtap
 
@@ -22,12 +23,19 @@ bioconductor-mirnatap.db
 
    |downloads_bioconductor-mirnatap.db| |docker_bioconductor-mirnatap.db|
 
-   :versions: 0.99.10-7, 0.99.10-6, 0.99.10-5, 0.99.10-3, 0.99.10-2, 0.99.10-0
+   :versions:
+      
+      
+
+      ``0.99.10-7``,  ``0.99.10-6``,  ``0.99.10-5``,  ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-mirnatap: >=1.22.0,<1.23.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-mirnatap: ``>=1.22.0,<1.23.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 
    :requirements:

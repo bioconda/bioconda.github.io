@@ -8,6 +8,7 @@ rawtools
 
 .. conda:recipe:: rawtools
    :replaces_section_title:
+   :noindex:
 
    RawTools is an open\-source and freely available package designed to perform scan data parsing and quantification\, and quality control analysis of Thermo Orbitrap raw mass spectrometer files.
 
@@ -22,9 +23,16 @@ rawtools
 
    |downloads_rawtools| |docker_rawtools|
 
-   :versions: 2.0.2-0, 1.4.2-0, 1.4.1-0
+   :versions:
+      
+      
+
+      ``2.0.2-0``,  ``1.4.2-0``,  ``1.4.1-0``
+
+      
+
    
-   :depends mono: >=5.0.0
+   :depends mono: ``>=5.0.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ lorma
 
 .. conda:recipe:: lorma
    :replaces_section_title:
+   :noindex:
 
    LoRMA is a tool for correcting sequencing errors in long reads.
 
@@ -22,11 +23,18 @@ lorma
 
    |downloads_lorma| |docker_lorma|
 
-   :versions: 0.4-2, 0.4-1, 0.4-0
+   :versions:
+      
+      
+
+      ``0.4-2``,  ``0.4-1``,  ``0.4-0``
+
+      
+
    
    :depends libgcc: 
    :depends lordec: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

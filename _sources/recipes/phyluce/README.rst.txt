@@ -8,6 +8,7 @@ phyluce
 
 .. conda:recipe:: phyluce
    :replaces_section_title:
+   :noindex:
 
    Software for UCE \(and general\) phylogenomics.
 
@@ -23,17 +24,24 @@ phyluce
 
    |downloads_phyluce| |docker_phyluce|
 
-   :versions: 1.6.8-0, 1.6.7-0, 1.6.6-0, 1.6.5-0, 1.6.4-0, 1.6.3-2, 1.6.3-1, 1.6.3-0, 1.6.2-0
+   :versions:
+      
+      
+
+      ``1.6.8-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``
+
+      
+
    
-   :depends abyss: 1.5.*
+   :depends abyss: ``1.5.*``
    :depends bcftools: 
    :depends bedtools: 
    :depends biopython: 
    :depends bowtie: 
    :depends bwa: 
    :depends bx-python: 
-   :depends dendropy: 3.*
-   :depends gatk: 3.8.*
+   :depends dendropy: ``3.*``
+   :depends gatk: ``3.8.*``
    :depends gblocks: 
    :depends illumiprocessor: 
    :depends itero: 
@@ -43,15 +51,15 @@ phyluce
    :depends pandas: 
    :depends picard: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends pyvcf: 
    :depends raxml: 
    :depends samtools: 
    :depends seqtk: 
-   :depends spades: 3.12.*
+   :depends spades: ``3.12.*``
    :depends trimal: 
-   :depends trinity: 2.1.*
-   :depends velvet: 1.2.*
+   :depends trinity: ``2.1.*``
+   :depends velvet: ``1.2.*``
    :requirements:
 
    .. rubric:: Installation

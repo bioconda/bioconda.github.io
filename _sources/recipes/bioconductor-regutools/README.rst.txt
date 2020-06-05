@@ -8,6 +8,7 @@ bioconductor-regutools
 
 .. conda:recipe:: bioconductor-regutools
    :replaces_section_title:
+   :noindex:
 
    regutools\: an R package for data extraction from RegulonDB
 
@@ -22,18 +23,25 @@ bioconductor-regutools
 
    |downloads_bioconductor-regutools| |docker_bioconductor-regutools|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-gviz: >=1.32.0,<1.33.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rcy3: >=2.8.0,<2.9.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-gviz: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rcy3: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 
    :requirements:

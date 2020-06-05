@@ -8,6 +8,7 @@ bttcmp
 
 .. conda:recipe:: bttcmp
    :replaces_section_title:
+   :noindex:
 
    A toxin minging tool for Bacillus thuringiensis
 
@@ -24,7 +25,14 @@ bttcmp
 
    |downloads_bttcmp| |docker_bttcmp|
 
-   :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+
+      
+
    
    :depends blast: 
    :depends hmmer: 
@@ -32,7 +40,7 @@ bttcmp
    :depends perl-file-tee: 
    :depends perl-getopt-long: 
    :depends perl-pod-usage: 
-   :depends pgcgap: >=1.0.14
+   :depends pgcgap: ``>=1.0.14``
    :requirements:
 
    .. rubric:: Installation

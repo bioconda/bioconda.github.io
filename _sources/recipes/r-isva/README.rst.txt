@@ -8,6 +8,7 @@ r-isva
 
 .. conda:recipe:: r-isva
    :replaces_section_title:
+   :noindex:
 
    Independent Surrogate Variable Analysis is an algorithm for feature selection in the presence of potential confounding factors \(see Teschendorff AE et al 2011\, \<doi\: 10.1093\/bioinformatics\/btr171\>\).
 
@@ -22,10 +23,17 @@ r-isva
 
    |downloads_r-isva| |docker_r-isva|
 
-   :versions: 1.9-2, 1.9-1, 1.9-0
+   :versions:
+      
+      
+
+      ``1.9-2``,  ``1.9-1``,  ``1.9-0``
+
+      
+
    
    :depends bioconductor-qvalue: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fastica: 
    :depends r-jade: 
    :requirements:

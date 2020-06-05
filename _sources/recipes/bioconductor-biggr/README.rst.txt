@@ -8,6 +8,7 @@ bioconductor-biggr
 
 .. conda:recipe:: bioconductor-biggr
    :replaces_section_title:
+   :noindex:
 
    Constraint based modeling in R using metabolic reconstruction databases
 
@@ -22,7 +23,14 @@ bioconductor-biggr
 
    |downloads_bioconductor-biggr| |docker_bioconductor-biggr|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 

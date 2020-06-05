@@ -8,6 +8,7 @@ perl-version
 
 .. conda:recipe:: perl-version
    :replaces_section_title:
+   :noindex:
 
    Structured version objects
 
@@ -22,9 +23,16 @@ perl-version
 
    |downloads_perl-version| |docker_perl-version|
 
-   :versions: 0.9924-0
+   :versions:
+      
+      
+
+      ``0.9924-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

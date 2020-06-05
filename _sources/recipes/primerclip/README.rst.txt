@@ -8,6 +8,7 @@ primerclip
 
 .. conda:recipe:: primerclip
    :replaces_section_title:
+   :noindex:
 
    Swift Accel\-Amplicon primer trimming tool for fast alignment\-based primer trimming
 
@@ -22,9 +23,16 @@ primerclip
 
    |downloads_primerclip| |docker_primerclip|
 
-   :versions: 0.3.8-0
+   :versions:
+      
+      
+
+      ``0.3.8-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

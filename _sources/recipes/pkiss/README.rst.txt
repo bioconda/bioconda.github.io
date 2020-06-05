@@ -8,6 +8,7 @@ pkiss
 
 .. conda:recipe:: pkiss
    :replaces_section_title:
+   :noindex:
 
    RNA secondary structure prediction including K\-type and kissing hairpin\- pseudoknots.
 
@@ -23,12 +24,19 @@ pkiss
 
    |downloads_pkiss| |docker_pkiss|
 
-   :versions: 2.2.12-3, 2.2.12-1, 2.2.12-0
+   :versions:
+      
+      
+
+      ``2.2.12-3``,  ``2.2.12-1``,  ``2.2.12-0``
+
+      
+
    
-   :depends bellmans-gapc: >=2020.01.08
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends bellmans-gapc: ``>=2020.01.08``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

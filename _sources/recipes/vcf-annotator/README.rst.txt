@@ -8,6 +8,7 @@ vcf-annotator
 
 .. conda:recipe:: vcf-annotator
    :replaces_section_title:
+   :noindex:
 
    Use the reference GenBank file to add biological annotations to the variant calls in a VCF.
 
@@ -22,10 +23,17 @@ vcf-annotator
 
    |downloads_vcf-annotator| |docker_vcf-annotator|
 
-   :versions: 0.5-1, 0.5-0
+   :versions:
+      
+      
+
+      ``0.5-1``,  ``0.5-0``
+
+      
+
    
    :depends biopython: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyvcf: 
    :requirements:
 

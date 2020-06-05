@@ -8,6 +8,7 @@ bioconductor-stemhypoxia
 
 .. conda:recipe:: bioconductor-stemhypoxia
    :replaces_section_title:
+   :noindex:
 
    Differentiation of Human Embryonic Stem Cells under Hypoxia gene expression dataset by Prado\-Lopez et al. \(2010\)
 
@@ -22,10 +23,17 @@ bioconductor-stemhypoxia
 
    |downloads_bioconductor-stemhypoxia| |docker_bioconductor-stemhypoxia|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.19.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

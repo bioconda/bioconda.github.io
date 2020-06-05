@@ -8,6 +8,7 @@ compalignp
 
 .. conda:recipe:: compalignp
    :replaces_section_title:
+   :noindex:
 
    Compute fractional \"identity\" between trusted alignment and test alignment.
 
@@ -22,9 +23,16 @@ compalignp
 
    |downloads_compalignp| |docker_compalignp|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

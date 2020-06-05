@@ -8,6 +8,7 @@ bioconductor-ccdata
 
 .. conda:recipe:: bioconductor-ccdata
    :replaces_section_title:
+   :noindex:
 
    Data for Combination Connectivity Mapping \(ccmap\) Package
 
@@ -22,10 +23,17 @@ bioconductor-ccdata
 
    |downloads_bioconductor-ccdata| |docker_bioconductor-ccdata|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

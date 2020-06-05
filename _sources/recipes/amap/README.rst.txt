@@ -8,6 +8,7 @@ amap
 
 .. conda:recipe:: amap
    :replaces_section_title:
+   :noindex:
 
    AMAP is a multiple sequence alignment program based on sequence annealing.
 
@@ -24,11 +25,18 @@ amap
 
    |downloads_amap| |docker_amap|
 
-   :versions: 2.2-0
+   :versions:
+      
+      
+
+      ``2.2-0``
+
+      
+
    
    :depends blast: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

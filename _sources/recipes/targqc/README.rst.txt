@@ -8,6 +8,7 @@ targqc
 
 .. conda:recipe:: targqc
    :replaces_section_title:
+   :noindex:
 
    Target capture coverage QC
 
@@ -22,10 +23,17 @@ targqc
 
    |downloads_targqc| |docker_targqc|
 
-   :versions: 1.8.1-0, 1.4.4-1, 1.4.4-0
+   :versions:
+      
+      
+
+      ``1.8.1-0``,  ``1.4.4-1``,  ``1.4.4-0``
+
+      
+
    
    :depends beautifulsoup4: 
-   :depends bedtools: >=2.25
+   :depends bedtools: ``>=2.25``
    :depends bwa: 
    :depends click: 
    :depends coverage: 
@@ -34,20 +42,20 @@ targqc
    :depends ipython: 
    :depends ipython-cluster-helper: 
    :depends joblib: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends lxml: 
    :depends natsort: 
    :depends nose: 
-   :depends numpy: >=1.14.6,<2.0a0
+   :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pandas: 
    :depends pip: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=3.7,<3.8.0a0
+   :depends python: ``>=3.7,<3.8.0a0``
    :depends qualimap: 
-   :depends sambamba: >=0.7.0
-   :depends setuptools: >=18.5
+   :depends sambamba: ``>=0.7.0``
+   :depends setuptools: ``>=18.5``
    :depends six: 
    :depends tempita: 
    :requirements:

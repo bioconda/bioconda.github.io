@@ -8,6 +8,7 @@ bioconductor-isogenegui
 
 .. conda:recipe:: bioconductor-isogenegui
    :replaces_section_title:
+   :noindex:
 
    A graphical user interface to conduct a dose\-response analysis of microarray data
 
@@ -22,14 +23,21 @@ bioconductor-isogenegui
 
    |downloads_bioconductor-isogenegui| |docker_bioconductor-isogenegui|
 
-   :versions: 2.22.0-0, 2.20.0-1, 2.18.0-0
+   :versions:
+      
+      
+
+      ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-geneplotter: >=1.64.0,<1.65.0
-   :depends bioconductor-multtest: >=2.42.0,<2.43.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-geneplotter: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-multtest: ``>=2.42.0,<2.43.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-ff: 
    :depends r-goric: 
    :depends r-iso: 

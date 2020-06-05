@@ -8,6 +8,7 @@ bioconductor-macsquantifyr
 
 .. conda:recipe:: bioconductor-macsquantifyr
    :replaces_section_title:
+   :noindex:
 
    Fast treatment of MACSQuantify FACS data
 
@@ -22,9 +23,16 @@ bioconductor-macsquantifyr
 
    |downloads_bioconductor-macsquantifyr| |docker_bioconductor-macsquantifyr|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gridextra: 

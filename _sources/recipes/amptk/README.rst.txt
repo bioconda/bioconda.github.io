@@ -8,6 +8,7 @@ amptk
 
 .. conda:recipe:: amptk
    :replaces_section_title:
+   :noindex:
 
    AMPtk\: Amplicon tool kit for processing high throughput amplicon sequencing data.
 
@@ -25,9 +26,16 @@ amptk
 
    |downloads_amptk| |docker_amptk|
 
-   :versions: 1.4.2-0, 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.2.4-1, 1.2.4-0, 1.2.2-0, 1.2.0-0, 1.1.3-0
+   :versions:
+      
+      
+
+      ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.3-0``
+
+      
+
    
-   :depends bioconductor-dada2: >=1.4
+   :depends bioconductor-dada2: ``>=1.4``
    :depends bioconductor-phyloseq: 
    :depends biom-format: 
    :depends biopython: 
@@ -38,13 +46,13 @@ amptk
    :depends pigz: 
    :depends psutil: 
    :depends python: 
-   :depends python-edlib: >=1.2.1
+   :depends python-edlib: ``>=1.2.1``
    :depends r-base: 
    :depends r-dt: 
    :depends r-htmltools: 
    :depends r-plotly: 
    :depends seaborn: 
-   :depends vsearch: >=2.2.0
+   :depends vsearch: ``>=2.2.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ flaimapper
 
 .. conda:recipe:: flaimapper
    :replaces_section_title:
+   :noindex:
 
    FlaiMapper\: Detecting small ncRNA derived fragments in small RNA\-Seq data
 
@@ -22,10 +23,25 @@ flaimapper
 
    |downloads_flaimapper| |docker_flaimapper|
 
-   :versions: 3.0.0-2, 3.0.0-1, 3.0.0-0, 2.5.0-1, 2.5.0-0, 2.4.0-1, 2.4.0-0, 2.3.4-0, 2.3.3-0, 2.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.0-2</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  </span></summary>
+      
+
+      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends pysam: >=0.14.1
-   :depends python: >=3
+   :depends pysam: ``>=0.14.1``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

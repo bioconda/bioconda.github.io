@@ -8,6 +8,7 @@ bioconductor-scisi
 
 .. conda:recipe:: bioconductor-scisi
    :replaces_section_title:
+   :noindex:
 
    In Silico Interactome
 
@@ -23,15 +24,22 @@ bioconductor-scisi
 
    |downloads_bioconductor-scisi| |docker_bioconductor-scisi|
 
-   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0
+   :versions:
+      
+      
+
+      ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-apcomplex: >=2.54.0,<2.55.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-org.sc.sgd.db: >=3.11.0,<3.12.0
-   :depends bioconductor-rpsixml: >=2.30.0,<2.31.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-apcomplex: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-org.sc.sgd.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-rpsixml: ``>=2.30.0,<2.31.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

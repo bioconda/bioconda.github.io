@@ -8,6 +8,7 @@ seqlogo
 
 .. conda:recipe:: seqlogo
    :replaces_section_title:
+   :noindex:
 
    Python port of the R Bioconductor \`seqlogo\` package
 
@@ -22,12 +23,19 @@ seqlogo
 
    |downloads_seqlogo| |docker_seqlogo|
 
-   :versions: 5.29.7-0, 5.29.6-0, 5.29.5-0, 5.29.4-0, 5.29.1-0, 5.2.9-1, 0.2.0-0, 0.1.13-0, 0.1.12-0
+   :versions:
+      
+      
+
+      ``5.29.7-0``,  ``5.29.6-0``,  ``5.29.5-0``,  ``5.29.4-0``,  ``5.29.1-0``,  ``5.2.9-1``,  ``0.2.0-0``,  ``0.1.13-0``,  ``0.1.12-0``
+
+      
+
    
    :depends ghostscript: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends weblogo: 
    :requirements:
 

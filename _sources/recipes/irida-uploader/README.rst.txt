@@ -8,6 +8,7 @@ irida-uploader
 
 .. conda:recipe:: irida-uploader
    :replaces_section_title:
+   :noindex:
 
    Sequence file uploader for IRIDA
 
@@ -24,14 +25,21 @@ irida-uploader
 
    |downloads_irida-uploader| |docker_irida-uploader|
 
-   :versions: 0.4.1-0, 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.3.0-0, 0.2.1-0, 0.1-0
+   :versions:
+      
+      
+
+      ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1-0``
+
+      
+
    
-   :depends appdirs: >=1.4.3
+   :depends appdirs: ``>=1.4.3``
    :depends cerberus: 
-   :depends python: >=3.5.*
-   :depends rauth: >=0.7.3
-   :depends requests: >=2.21.0
-   :depends requests-toolbelt: >=0.9.1
+   :depends python: ``>=3.5.*``
+   :depends rauth: ``>=0.7.3``
+   :depends requests: ``>=2.21.0``
+   :depends requests-toolbelt: ``>=0.9.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ quantiprot
 
 .. conda:recipe:: quantiprot
    :replaces_section_title:
+   :noindex:
 
    Quantiprot is a Python package for quantitative analysis of protein sequences
 
@@ -22,11 +23,18 @@ quantiprot
 
    |downloads_quantiprot| |docker_quantiprot|
 
-   :versions: 0.2.4-0
+   :versions:
+      
+      
+
+      ``0.2.4-0``
+
+      
+
    
-   :depends numpy: >=1.11.0
+   :depends numpy: ``>=1.11.0``
    :depends python: 
-   :depends requests: >=2.10.0
+   :depends requests: ``>=2.10.0``
    :requirements:
 
    .. rubric:: Installation

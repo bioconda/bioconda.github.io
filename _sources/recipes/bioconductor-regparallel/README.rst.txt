@@ -8,6 +8,7 @@ bioconductor-regparallel
 
 .. conda:recipe:: bioconductor-regparallel
    :replaces_section_title:
+   :noindex:
 
    Standard regression functions in R enabled for parallel processing over large data\-frames
 
@@ -22,11 +23,18 @@ bioconductor-regparallel
 
    |downloads_bioconductor-regparallel| |docker_bioconductor-regparallel|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
    :depends r-arm: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-foreach: 

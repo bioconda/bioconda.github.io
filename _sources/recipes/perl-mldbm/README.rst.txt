@@ -8,6 +8,7 @@ perl-mldbm
 
 .. conda:recipe:: perl-mldbm
    :replaces_section_title:
+   :noindex:
 
    store multi\-level Perl hash structure in single level tied hash
 
@@ -22,9 +23,16 @@ perl-mldbm
 
    |downloads_perl-mldbm| |docker_perl-mldbm|
 
-   :versions: 2.05-1, 2.05-0
+   :versions:
+      
+      
+
+      ``2.05-1``,  ``2.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

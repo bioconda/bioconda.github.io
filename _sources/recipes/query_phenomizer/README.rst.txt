@@ -8,6 +8,7 @@ query_phenomizer
 
 .. conda:recipe:: query_phenomizer
    :replaces_section_title:
+   :noindex:
 
    Tool for query and parsing the phenomizer tool
 
@@ -22,7 +23,14 @@ query_phenomizer
 
    |downloads_query_phenomizer| |docker_query_phenomizer|
 
-   :versions: 1.2-0, 0.5-2, 0.5-0
+   :versions:
+      
+      
+
+      ``1.2-0``,  ``0.5-2``,  ``0.5-0``
+
+      
+
    
    :depends click: 
    :depends pytest: 

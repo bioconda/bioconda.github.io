@@ -8,6 +8,7 @@ terminus
 
 .. conda:recipe:: terminus
    :replaces_section_title:
+   :noindex:
 
    Terminus enables the discovery of data\-driven\, robust transcript groups from RNA\-seq data
 
@@ -22,13 +23,20 @@ terminus
 
    |downloads_terminus| |docker_terminus|
 
-   :versions: v0.1.0-0
+   :versions:
+      
+      
+
+      ``v0.1.0-0``
+
+      
+
    
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libblas: * *openblas
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openblas: >=0.3.6,<0.3.7.0a0
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libblas: ``* *openblas``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
    :requirements:
 
    .. rubric:: Installation

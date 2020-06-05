@@ -8,6 +8,7 @@ jamm
 
 .. conda:recipe:: jamm
    :replaces_section_title:
+   :noindex:
 
    JAMM is a peak finder for NGS datasets \(ChIP\-Seq\, ATAC\-Seq\, DNase\-Seq..etc.\) that can integrate replicates and assign peak boundaries accurately.
 
@@ -22,11 +23,26 @@ jamm
 
    |downloads_jamm| |docker_jamm|
 
-   :versions: 1.0.8.0-0, 1.0.7.6-0, 1.0.7.5-2, 1.0.7.5-1, 1.0.7.5-0, 1.0.7.4-0, 1.0.7.2-3, 1.0.7.2-2, 1.0.7.2-1, 1.0.7.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.8.0-0</code>,  <code>1.0.7.6-0</code>,  <code>1.0.7.5-2</code>,  <code>1.0.7.5-1</code>,  <code>1.0.7.5-0</code>,  <code>1.0.7.4-0</code>,  <code>1.0.7.2-3</code>,  <code>1.0.7.2-2</code>,  <code>1.0.7.2-1</code>,  </span></summary>
+      
+
+      ``1.0.8.0-0``,  ``1.0.7.6-0``,  ``1.0.7.5-2``,  ``1.0.7.5-1``,  ``1.0.7.5-0``,  ``1.0.7.4-0``,  ``1.0.7.2-3``,  ``1.0.7.2-2``,  ``1.0.7.2-1``,  ``1.0.7.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends gawk: 
    :depends perl: 
-   :depends r-mclust: >=5.3
+   :depends r-mclust: ``>=5.3``
    :depends r-signal: 
    :requirements:
 

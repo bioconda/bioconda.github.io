@@ -8,6 +8,7 @@ homoeditdistance
 
 .. conda:recipe:: homoeditdistance
    :replaces_section_title:
+   :noindex:
 
    An implementation of the homo\-edit distance algorithm.
 
@@ -22,10 +23,17 @@ homoeditdistance
 
    |downloads_homoeditdistance| |docker_homoeditdistance|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

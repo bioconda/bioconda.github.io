@@ -8,6 +8,7 @@ bioconductor-gcmap
 
 .. conda:recipe:: bioconductor-gcmap
    :replaces_section_title:
+   :noindex:
 
    Tools for Connectivity Map\-like analyses
 
@@ -22,21 +23,28 @@ bioconductor-gcmap
 
    |downloads_bioconductor-gcmap| |docker_bioconductor-gcmap|
 
-   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-1, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-bigmemoryextras: >=1.36.0,<1.37.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-category: >=2.54.0,<2.55.0
-   :depends bioconductor-deseq: >=1.39.0,<1.40.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-gsealm: >=1.48.0,<1.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-bigmemoryextras: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-deseq: ``>=1.39.0,<1.40.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-gsealm: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bigmemory: 
-   :depends r-matrix: >=1.0.9
+   :depends r-matrix: ``>=1.0.9``
    :requirements:
 
    .. rubric:: Installation

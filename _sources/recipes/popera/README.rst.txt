@@ -8,6 +8,7 @@ popera
 
 .. conda:recipe:: popera
    :replaces_section_title:
+   :noindex:
 
    A software for DNase I hypersensitive sites identification.
 
@@ -23,12 +24,19 @@ popera
 
    |downloads_popera| |docker_popera|
 
-   :versions: 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``
+
+      
+
    
    :depends numpy: 
    :depends pybigwig: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends samtools: 
    :depends scipy: 
    :requirements:

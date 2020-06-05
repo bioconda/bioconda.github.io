@@ -8,6 +8,7 @@ ncbi-util-legacy
 
 .. conda:recipe:: ncbi-util-legacy
    :replaces_section_title:
+   :noindex:
 
    NCBI software development toolkit
 
@@ -22,11 +23,18 @@ ncbi-util-legacy
 
    |downloads_ncbi-util-legacy| |docker_ncbi-util-legacy|
 
-   :versions: 6.1-0
+   :versions:
+      
+      
+
+      ``6.1-0``
+
+      
+
    
-   :depends gmp: >=6.1.2,<7.0a0
-   :depends gnutls: >=3.6.5,<3.7.0a0
-   :depends libgcc-ng: >=7.3.0
+   :depends gmp: ``>=6.1.2,<7.0a0``
+   :depends gnutls: ``>=3.6.5,<3.7.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends openmotif: 
    :depends tcsh: 
    :requirements:

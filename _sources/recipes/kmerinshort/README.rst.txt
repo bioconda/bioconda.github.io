@@ -8,6 +8,7 @@ kmerinshort
 
 .. conda:recipe:: kmerinshort
    :replaces_section_title:
+   :noindex:
 
    KmerInShort counts kmers from a fasta\/fastq file or list of files\, and outputs results in a text file. It is limited to short kmers \(k\<15\). It is a part of the FEELnc pipeline \(V.Wucher et al.\)
 
@@ -22,9 +23,16 @@ kmerinshort
 
    |downloads_kmerinshort| |docker_kmerinshort|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

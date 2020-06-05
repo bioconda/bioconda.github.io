@@ -8,6 +8,7 @@ piper
 
 .. conda:recipe:: piper
    :replaces_section_title:
+   :noindex:
 
    A lightweight python toolkit for gluing together restartable\, robust command line pipelines
 
@@ -22,14 +23,21 @@ piper
 
    |downloads_piper| |docker_piper|
 
-   :versions: 0.12.1-1, 0.12.1-0
+   :versions:
+      
+      
+
+      ``0.12.1-1``,  ``0.12.1-0``
+
+      
+
    
-   :depends attmap: >=0.12.5
-   :depends logmuse: >=0.2.4
+   :depends attmap: ``>=0.12.5``
+   :depends logmuse: ``>=0.2.4``
    :depends pandas: 
    :depends psutil: 
-   :depends python: >=3
-   :depends ubiquerg: >=0.4.5
+   :depends python: ``>=3``
+   :depends ubiquerg: ``>=0.4.5``
    :depends yacman: 
    :requirements:
 

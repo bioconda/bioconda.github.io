@@ -8,6 +8,7 @@ fastme
 
 .. conda:recipe:: fastme
    :replaces_section_title:
+   :noindex:
 
    a comprehensive\, accurate and fast distance\-based phylogeny inference program.
 
@@ -23,7 +24,14 @@ fastme
 
    |downloads_fastme| |docker_fastme|
 
-   :versions: 2.1.5-0
+   :versions:
+      
+      
+
+      ``2.1.5-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

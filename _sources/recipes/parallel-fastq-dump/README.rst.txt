@@ -8,6 +8,7 @@ parallel-fastq-dump
 
 .. conda:recipe:: parallel-fastq-dump
    :replaces_section_title:
+   :noindex:
 
    parallel fastq\-dump wrapper
 
@@ -22,9 +23,16 @@ parallel-fastq-dump
 
    |downloads_parallel-fastq-dump| |docker_parallel-fastq-dump|
 
-   :versions: 0.6.6-0, 0.6.5-0, 0.6.4-0, 0.6.3-1, 0.6.3-0, 0.6.2-0, 0.6.1-0, 0.6.0-0, 0.5.4-0
+   :versions:
+      
+      
+
+      ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.4-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends sra-tools: 
    :requirements:
 

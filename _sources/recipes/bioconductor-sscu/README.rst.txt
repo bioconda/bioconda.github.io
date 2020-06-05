@@ -8,6 +8,7 @@ bioconductor-sscu
 
 .. conda:recipe:: bioconductor-sscu
    :replaces_section_title:
+   :noindex:
 
    Strength of Selected Codon Usage
 
@@ -23,12 +24,19 @@ bioconductor-sscu
 
    |downloads_bioconductor-sscu| |docker_bioconductor-sscu|
 
-   :versions: 2.18.0-0, 2.16.0-0, 2.14.0-1, 2.12.0-0, 2.10.0-0, 2.8.0-0, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-seqinr: >=3.1-3
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-seqinr: ``>=3.1-3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ r-minems2
 
 .. conda:recipe:: r-minems2
    :replaces_section_title:
+   :noindex:
 
    Mine MS\-MS spectra using a frequent usbgraph mining approach.
 
@@ -22,15 +23,22 @@ r-minems2
 
    |downloads_r-minems2| |docker_r-minems2|
 
-   :versions: 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0, 0.9-0
+   :versions:
+      
+      
+
+      ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``
+
+      
+
    
    :depends bioconductor-msnbase: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-matrix: 
-   :depends r-rcpp: >=0.12.13
+   :depends r-rcpp: ``>=0.12.13``
    :depends r-stringr: 
    :requirements:
 

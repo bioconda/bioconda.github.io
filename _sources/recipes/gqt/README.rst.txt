@@ -8,6 +8,7 @@ gqt
 
 .. conda:recipe:: gqt
    :replaces_section_title:
+   :noindex:
 
    GQT is a genotype query interface.
 
@@ -22,10 +23,17 @@ gqt
 
    |downloads_gqt| |docker_gqt|
 
-   :versions: 1.1.3-4, 1.1.3-3, 1.1.3-2, 1.1.3-1, 1.1.3-0
+   :versions:
+      
+      
+
+      ``1.1.3-4``,  ``1.1.3-3``,  ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends sqlite: >=3.26.0,<4.0a0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends sqlite: ``>=3.26.0,<4.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-memoize
 
 .. conda:recipe:: perl-memoize
    :replaces_section_title:
+   :noindex:
 
    Make functions faster by trading space for time
 
@@ -22,9 +23,16 @@ perl-memoize
 
    |downloads_perl-memoize| |docker_perl-memoize|
 
-   :versions: 1.03-2, 1.03-1
+   :versions:
+      
+      
+
+      ``1.03-2``,  ``1.03-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-extutils-makemaker: 
    :requirements:
 

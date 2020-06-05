@@ -8,6 +8,7 @@ bioconductor-generecommender
 
 .. conda:recipe:: bioconductor-generecommender
    :replaces_section_title:
+   :noindex:
 
    A gene recommender algorithm to identify genes coexpressed with a query set of genes
 
@@ -23,10 +24,17 @@ bioconductor-generecommender
 
    |downloads_bioconductor-generecommender| |docker_bioconductor-generecommender|
 
-   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-1, 1.54.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0
+   :versions:
+      
+      
+
+      ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

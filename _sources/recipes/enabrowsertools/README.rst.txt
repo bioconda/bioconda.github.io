@@ -8,6 +8,7 @@ enabrowsertools
 
 .. conda:recipe:: enabrowsertools
    :replaces_section_title:
+   :noindex:
 
    enaBrowserTools is a set of scripts that interface with the ENA web services to download data from ENA easily
 
@@ -22,7 +23,14 @@ enabrowsertools
 
    |downloads_enabrowsertools| |docker_enabrowsertools|
 
-   :versions: 1.5.4-0
+   :versions:
+      
+      
+
+      ``1.5.4-0``
+
+      
+
    
    :depends python: 
    :requirements:

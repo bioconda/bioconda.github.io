@@ -8,6 +8,7 @@ consel
 
 .. conda:recipe:: consel
    :replaces_section_title:
+   :noindex:
 
    CONSEL calculates the probability value \(i.e.\, p\-value\) to assess the confidence in the selection problem. Although CONSEL is applicable to any selection problem\, it is mainly designed for the phylogenetic tree selection
 
@@ -22,9 +23,16 @@ consel
 
    |downloads_consel| |docker_consel|
 
-   :versions: 0.20-0
+   :versions:
+      
+      
+
+      ``0.20-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

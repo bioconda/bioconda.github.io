@@ -8,6 +8,7 @@ r-george
 
 .. conda:recipe:: r-george
    :replaces_section_title:
+   :noindex:
 
    geoRge\, a computational tool for stable isotope labelling detection in LC\/MS\-based untargeted metabolomics
 
@@ -22,11 +23,18 @@ r-george
 
    |downloads_r-george| |docker_r-george|
 
-   :versions: 1.0.1-2, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-0``
+
+      
+
    
    :depends bioconductor-mzr: 
    :depends bioconductor-xcms: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-optparse: 
    :requirements:
 

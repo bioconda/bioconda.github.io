@@ -8,6 +8,7 @@ plant_tribes_gene_family_aligner
 
 .. conda:recipe:: plant_tribes_gene_family_aligner
    :replaces_section_title:
+   :noindex:
 
    Gene family aligner pipeline
 
@@ -22,13 +23,20 @@ plant_tribes_gene_family_aligner
 
    |downloads_plant_tribes_gene_family_aligner| |docker_plant_tribes_gene_family_aligner|
 
-   :versions: 1.0.4-0, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends mafft: >=7,<8
-   :depends pasta: >=1.7.8
+   :depends mafft: ``>=7,<8``
+   :depends pasta: ``>=1.7.8``
    :depends perl: 
-   :depends python: <3
-   :depends trimal: >=1.4,<2
+   :depends python: ``<3``
+   :depends trimal: ``>=1.4,<2``
    :requirements:
 
    .. rubric:: Installation

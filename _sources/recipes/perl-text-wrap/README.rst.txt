@@ -8,6 +8,7 @@ perl-text-wrap
 
 .. conda:recipe:: perl-text-wrap
    :replaces_section_title:
+   :noindex:
 
    line wrapping to form simple paragraphs
 
@@ -22,9 +23,16 @@ perl-text-wrap
 
    |downloads_perl-text-wrap| |docker_perl-text-wrap|
 
-   :versions: 2013.0523-1, 2013.0523-0
+   :versions:
+      
+      
+
+      ``2013.0523-1``,  ``2013.0523-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

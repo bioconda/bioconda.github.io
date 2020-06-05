@@ -8,6 +8,7 @@ unitig-caller
 
 .. conda:recipe:: unitig-caller
    :replaces_section_title:
+   :noindex:
 
    Determines presence\/absence of sequence elements in bacterial sequence data.
 
@@ -22,15 +23,22 @@ unitig-caller
 
    |downloads_unitig-caller| |docker_unitig-caller|
 
-   :versions: 1.1.0-0, 1.0.1-0, 1.0.0-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.0-0``
+
+      
+
    
    :depends bifrost: 
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

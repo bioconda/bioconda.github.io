@@ -8,6 +8,7 @@ autodock-vina
 
 .. conda:recipe:: autodock-vina
    :replaces_section_title:
+   :noindex:
 
    AutoDock Vina is an open\-source program for doing molecular docking
 
@@ -22,7 +23,14 @@ autodock-vina
 
    |downloads_autodock-vina| |docker_autodock-vina|
 
-   :versions: 1.1.2-2, 1.1.2-1, 1.1.2-0
+   :versions:
+      
+      
+
+      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
+
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ raiss
 
 .. conda:recipe:: raiss
    :replaces_section_title:
+   :noindex:
 
    SNP summary statistics imputation package
 
@@ -22,11 +23,18 @@ raiss
 
    |downloads_raiss| |docker_raiss|
 
-   :versions: 2.0-0, 1.0-0
+   :versions:
+      
+      
+
+      ``2.0-0``,  ``1.0-0``
+
+      
+
    
    :depends joblib: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends scipy: 
    :requirements:
 

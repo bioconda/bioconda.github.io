@@ -8,6 +8,7 @@ comparative-annotation-toolkit
 
 .. conda:recipe:: comparative-annotation-toolkit
    :replaces_section_title:
+   :noindex:
 
    A straightforward end\-to\-end pipeline that takes as input a HAL\-format multiple whole genome alignment as well as a GFF3 file representing annotations on one high quality assembly in the HAL alignment\, and produces a output GFF3 annotation on all target genomes chosen
 
@@ -23,25 +24,32 @@ comparative-annotation-toolkit
 
    |downloads_comparative-annotation-toolkit| |docker_comparative-annotation-toolkit|
 
-   :versions: 0.1-2, 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends augustus: >=3.3
+   :depends augustus: ``>=3.3``
    :depends bamtools: 
-   :depends bx-python: >=0.7.1
-   :depends configobj: >=5.0
+   :depends bx-python: ``>=0.7.1``
+   :depends configobj: ``>=5.0``
    :depends ete3: 
    :depends frozendict: 
-   :depends luigi: >=2.5
-   :depends numpy: >=1.10
-   :depends pandas: >=0.18
-   :depends pyfasta: >=0.5.2
-   :depends pysam: >=0.10
-   :depends python: 2.7.*
-   :depends samtools: >=1.3
-   :depends scipy: >=0.18.1
-   :depends seaborn: >=0.7
-   :depends sqlalchemy: >=1.0
-   :depends toil: >=3.5
+   :depends luigi: ``>=2.5``
+   :depends numpy: ``>=1.10``
+   :depends pandas: ``>=0.18``
+   :depends pyfasta: ``>=0.5.2``
+   :depends pysam: ``>=0.10``
+   :depends python: ``2.7.*``
+   :depends samtools: ``>=1.3``
+   :depends scipy: ``>=0.18.1``
+   :depends seaborn: ``>=0.7``
+   :depends sqlalchemy: ``>=1.0``
+   :depends toil: ``>=3.5``
    :depends ucsc-axtchain: 
    :depends ucsc-bamtopsl: 
    :depends ucsc-bedsort: 

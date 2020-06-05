@@ -8,6 +8,7 @@ perl-business-isbn-data
 
 .. conda:recipe:: perl-business-isbn-data
    :replaces_section_title:
+   :noindex:
 
    data pack for Business\:\:ISBN
 
@@ -22,9 +23,16 @@ perl-business-isbn-data
 
    |downloads_perl-business-isbn-data| |docker_perl-business-isbn-data|
 
-   :versions: 20140910.003-0
+   :versions:
+      
+      
+
+      ``20140910.003-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :requirements:
 

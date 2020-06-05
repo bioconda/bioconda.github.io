@@ -8,6 +8,7 @@ perl-data-match
 
 .. conda:recipe:: perl-data-match/0.06
    :replaces_section_title:
+   :noindex:
 
    Complex data structure pattern matching
 
@@ -22,9 +23,16 @@ perl-data-match
 
    |downloads_perl-data-match| |docker_perl-data-match|
 
-   :versions: 0.06-0
+   :versions:
+      
+      
+
+      ``0.06-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-data-compare: 
    :depends perl-data-dumper: 
    :depends perl-string-escape: 

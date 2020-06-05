@@ -8,6 +8,7 @@ bioconductor-findmyfriends
 
 .. conda:recipe:: bioconductor-findmyfriends
    :replaces_section_title:
+   :noindex:
 
    Microbial Comparative Genomics in R
 
@@ -23,20 +24,27 @@ bioconductor-findmyfriends
 
    |downloads_bioconductor-findmyfriends| |docker_bioconductor-findmyfriends|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-kebabs: >=1.22.0,<1.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-kebabs: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-digest: 
    :depends r-dplyr: 
    :depends r-filehash: 

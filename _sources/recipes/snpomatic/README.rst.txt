@@ -8,6 +8,7 @@ snpomatic
 
 .. conda:recipe:: snpomatic
    :replaces_section_title:
+   :noindex:
 
    SNP\-o\-matic is a fast\, stringent short\-read mapping software.
 
@@ -22,9 +23,16 @@ snpomatic
 
    |downloads_snpomatic| |docker_snpomatic|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-netsmooth
 
 .. conda:recipe:: bioconductor-netsmooth
    :replaces_section_title:
+   :noindex:
 
    Network smoothing for scRNAseq
 
@@ -22,15 +23,22 @@ bioconductor-netsmooth
 
    |downloads_bioconductor-netsmooth| |docker_bioconductor-netsmooth|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-clusterexperiment: >=2.8.0,<2.9.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-hdf5array: >=1.16.0,<1.17.0
-   :depends bioconductor-scater: >=1.16.0,<1.17.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-clusterexperiment: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-hdf5array: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-scater: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-data.table: 
    :depends r-entropy: 

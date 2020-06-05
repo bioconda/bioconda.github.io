@@ -8,6 +8,7 @@ svtk
 
 .. conda:recipe:: svtk
    :replaces_section_title:
+   :noindex:
 
    Utilities for consolidating\, filtering\, resolving\, and annotating structural variants.
 
@@ -22,17 +23,24 @@ svtk
 
    |downloads_svtk| |docker_svtk|
 
-   :versions: 0.0.20190615-0
+   :versions:
+      
+      
+
+      ``0.0.20190615-0``
+
+      
+
    
    :depends boto3: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scikit-learn: 
    :requirements:
 

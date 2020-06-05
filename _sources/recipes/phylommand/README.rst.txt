@@ -8,6 +8,7 @@ phylommand
 
 .. conda:recipe:: phylommand
    :replaces_section_title:
+   :noindex:
 
    Command\-line phylogenetics tools.
 
@@ -22,11 +23,18 @@ phylommand
 
    |downloads_phylommand| |docker_phylommand|
 
-   :versions: 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends nlopt: >=2.5.0,<2.5.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends nlopt: ``>=2.5.0,<2.5.1.0a0``
    :requirements:
 
    .. rubric:: Installation

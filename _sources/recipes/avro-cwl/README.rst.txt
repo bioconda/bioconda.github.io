@@ -8,6 +8,7 @@ avro-cwl
 
 .. conda:recipe:: avro-cwl
    :replaces_section_title:
+   :noindex:
 
    Avro is a serialization and RPC framework. This package is a fork of regular avro made by the CWL team in order to fix some issues \(https\:\/\/github.com\/common\-workflow\-language\/cwltool\/issues\/524\)
 
@@ -22,7 +23,14 @@ avro-cwl
 
    |downloads_avro-cwl| |docker_avro-cwl|
 
-   :versions: 1.8.9-0, 1.8.4-1, 1.8.4-0
+   :versions:
+      
+      
+
+      ``1.8.9-0``,  ``1.8.4-1``,  ``1.8.4-0``
+
+      
+
    
    :depends python: 
    :requirements:

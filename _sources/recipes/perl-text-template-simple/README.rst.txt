@@ -8,6 +8,7 @@ perl-text-template-simple
 
 .. conda:recipe:: perl-text-template-simple
    :replaces_section_title:
+   :noindex:
 
    Simple text template engine
 
@@ -22,9 +23,16 @@ perl-text-template-simple
 
    |downloads_perl-text-template-simple| |docker_perl-text-template-simple|
 
-   :versions: 0.91-0
+   :versions:
+      
+      
+
+      ``0.91-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-digest-md5: 
    :requirements:
 

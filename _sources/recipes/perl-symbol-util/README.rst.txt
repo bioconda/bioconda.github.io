@@ -8,6 +8,7 @@ perl-symbol-util
 
 .. conda:recipe:: perl-symbol-util/0.0203
    :replaces_section_title:
+   :noindex:
 
    Additional utils for Perl symbols manipulation
 
@@ -22,9 +23,16 @@ perl-symbol-util
 
    |downloads_perl-symbol-util| |docker_perl-symbol-util|
 
-   :versions: 0.0203-1, 0.0203-0
+   :versions:
+      
+      
+
+      ``0.0203-1``,  ``0.0203-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-app-cpanminus: 
    :requirements:
 

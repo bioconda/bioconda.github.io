@@ -8,6 +8,7 @@ elector
 
 .. conda:recipe:: elector
    :replaces_section_title:
+   :noindex:
 
    ELECTOR EvaLuator of Error Correction Tools for lOng Reads
 
@@ -22,13 +23,20 @@ elector
 
    |downloads_elector| |docker_elector|
 
-   :versions: 1.0.2-1, 1.0.2-0, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
    :depends biopython: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends minimap2: 
-   :depends python: >=3.7,<3.8.0a0
+   :depends python: ``>=3.7,<3.8.0a0``
    :depends samtools: 
    :requirements:
 

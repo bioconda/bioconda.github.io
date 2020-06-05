@@ -8,6 +8,7 @@ pbbam
 
 .. conda:recipe:: pbbam
    :replaces_section_title:
+   :noindex:
 
    PacBio BAM C\+\+ library
 
@@ -22,12 +23,27 @@ pbbam
 
    |downloads_pbbam| |docker_pbbam|
 
-   :versions: 1.3.0-1, 1.3.0-0, 1.0.7-0, 1.0.6-1, 1.0.6-0, 0.23.0-0, 0.19.0-1, 0.19.0-0, 0.18.0-4, 0.18.0-1, 0.18.0-0, 0.1-2, 0.1-1, 0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>0.23.0-0</code>,  <code>0.19.0-1</code>,  <code>0.19.0-0</code>,  <code>0.18.0-4</code>,  </span></summary>
+      
+
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.0.7-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``0.23.0-0``,  ``0.19.0-1``,  ``0.19.0-0``,  ``0.18.0-4``,  ``0.18.0-1``,  ``0.18.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

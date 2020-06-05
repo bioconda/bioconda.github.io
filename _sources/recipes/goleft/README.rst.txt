@@ -8,6 +8,7 @@ goleft
 
 .. conda:recipe:: goleft
    :replaces_section_title:
+   :noindex:
 
    goleft is a collection of bioinformatics tools distributed under MIT license in a single static binary
 
@@ -22,7 +23,22 @@ goleft
 
    |downloads_goleft| |docker_goleft|
 
-   :versions: 0.2.0-0, 0.1.18-1, 0.1.18-0, 0.1.17-0, 0.1.16-1, 0.1.16-0, 0.1.14-0, 0.1.13-1, 0.1.12-1, 0.1.12-0, 0.1.11-0, 0.1.10-0, 0.1.9-0, 0.1.8-0, 0.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.0-0</code>,  <code>0.1.18-1</code>,  <code>0.1.18-0</code>,  <code>0.1.17-0</code>,  <code>0.1.16-1</code>,  <code>0.1.16-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-1</code>,  <code>0.1.12-1</code>,  </span></summary>
+      
+
+      ``0.2.0-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-1``,  ``0.1.16-0``,  ``0.1.14-0``,  ``0.1.13-1``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends samtools: 
    :requirements:

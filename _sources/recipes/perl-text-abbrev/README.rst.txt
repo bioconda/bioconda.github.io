@@ -8,6 +8,7 @@ perl-text-abbrev
 
 .. conda:recipe:: perl-text-abbrev
    :replaces_section_title:
+   :noindex:
 
    abbrev \- create an abbreviation table from a list
 
@@ -22,9 +23,16 @@ perl-text-abbrev
 
    |downloads_perl-text-abbrev| |docker_perl-text-abbrev|
 
-   :versions: 1.02-0
+   :versions:
+      
+      
+
+      ``1.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-exporter: 
    :requirements:
 

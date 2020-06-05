@@ -8,6 +8,7 @@ mrsfast
 
 .. conda:recipe:: mrsfast
    :replaces_section_title:
+   :noindex:
 
    mrsFAST \- micro\-read substitution\-only Fast Alignment Search Tool.
 
@@ -22,10 +23,17 @@ mrsfast
 
    |downloads_mrsfast| |docker_mrsfast|
 
-   :versions: 3.4.1-0
+   :versions:
+      
+      
+
+      ``3.4.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

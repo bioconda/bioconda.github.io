@@ -8,6 +8,7 @@ python-newick
 
 .. conda:recipe:: python-newick
    :replaces_section_title:
+   :noindex:
 
    A python module to read and write the Newick format
 
@@ -22,7 +23,14 @@ python-newick
 
    |downloads_python-newick| |docker_python-newick|
 
-   :versions: 1.0.0-0, 0.9.2-2, 0.9.2-0, 0.8.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``0.9.2-2``,  ``0.9.2-0``,  ``0.8.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

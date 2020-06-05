@@ -8,6 +8,7 @@ islandpath
 
 .. conda:recipe:: islandpath
    :replaces_section_title:
+   :noindex:
 
    IslandPath\-DIMOB is a standalone software to predict genomic islands in bacterial and archaeal genomes based on the presence of dinucleotide biases and mobility genes.
 
@@ -24,11 +25,18 @@ islandpath
 
    |downloads_islandpath| |docker_islandpath|
 
-   :versions: 1.0.4-1, 1.0.4-0, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+
+      
+
    
    :depends hmmer: 
    :depends perl: 
-   :depends perl-bioperl: >=1.7.2
+   :depends perl-bioperl: ``>=1.7.2``
    :depends perl-config-simple: 
    :depends perl-data-dumper: 
    :depends perl-log-log4perl: 

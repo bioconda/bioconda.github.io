@@ -8,6 +8,7 @@ mira
 
 .. conda:recipe:: mira
    :replaces_section_title:
+   :noindex:
 
    MIRA is a whole genome shotgun and EST sequence assembler for Sanger\, 454\, Solexa \(Illumina\)\, IonTorrent data and PacBio \(the later at the moment only CCS and error\-corrected CLR reads\)
 
@@ -23,7 +24,14 @@ mira
 
    |downloads_mira| |docker_mira|
 
-   :versions: 4.9.6-1, 4.9.6-0, 4.9.5-1, 4.9.5-0, 4.0.2-3, 4.0.2-2, 4.0.2-1, 3.4.1.1-1, 3.4.1.1-0
+   :versions:
+      
+      
+
+      ``4.9.6-1``,  ``4.9.6-0``,  ``4.9.5-1``,  ``4.9.5-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``3.4.1.1-1``,  ``3.4.1.1-0``
+
+      
+
    
    :requirements:
 

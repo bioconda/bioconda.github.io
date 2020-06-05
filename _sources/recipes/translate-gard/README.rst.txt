@@ -8,6 +8,7 @@ translate-gard
 
 .. conda:recipe:: translate-gard
    :replaces_section_title:
+   :noindex:
 
    Converts HyPhy 2.3.2 GARD output to JSON
 
@@ -22,9 +23,16 @@ translate-gard
 
    |downloads_translate-gard| |docker_translate-gard|
 
-   :versions: 1.0.4-0, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-0``
+
+      
+
    
-   :depends nodejs: 6.*
+   :depends nodejs: ``6.*``
    :requirements:
 
    .. rubric:: Installation

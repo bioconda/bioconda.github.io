@@ -8,6 +8,7 @@ bioconductor-biocstyle
 
 .. conda:recipe:: bioconductor-biocstyle
    :replaces_section_title:
+   :noindex:
 
    Standard styles for vignettes and other Bioconductor documents
 
@@ -23,13 +24,28 @@ bioconductor-biocstyle
 
    |downloads_bioconductor-biocstyle| |docker_bioconductor-biocstyle|
 
-   :versions: 2.16.0-0, 2.14.0-0, 2.12.0-1, 2.12.0-0, 2.10.0-0, 2.8.2-0, 2.6.0-0, 2.4.1-0, 2.0.3-1, 2.0.3-0, 2.0.2-0, 1.8.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.2-0</code>,  <code>2.6.0-0</code>,  <code>2.4.1-0</code>,  <code>2.0.3-1</code>,  </span></summary>
+      
+
+      ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.6.0-0``,  ``2.4.1-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``1.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-bookdown: 
-   :depends r-knitr: >=1.12
-   :depends r-rmarkdown: >=1.2
+   :depends r-knitr: ``>=1.12``
+   :depends r-rmarkdown: ``>=1.2``
    :depends r-yaml: 
    :requirements:
 

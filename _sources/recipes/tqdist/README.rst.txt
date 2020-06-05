@@ -8,6 +8,7 @@ tqdist
 
 .. conda:recipe:: tqdist/1.0.0
    :replaces_section_title:
+   :noindex:
 
    computes the triplet distance between rooted trees in O\(n log n\) time and the quartet distance between unrooted trees in O\(dn log n\) time\, where d degree of the tree with the smallest degree.
 
@@ -22,10 +23,17 @@ tqdist
 
    |downloads_tqdist| |docker_tqdist|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

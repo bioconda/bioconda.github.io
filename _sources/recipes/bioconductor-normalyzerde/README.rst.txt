@@ -8,6 +8,7 @@ bioconductor-normalyzerde
 
 .. conda:recipe:: bioconductor-normalyzerde
    :replaces_section_title:
+   :noindex:
 
    Evaluation of normalization methods and calculation of differential expression analysis statistics
 
@@ -22,15 +23,22 @@ bioconductor-normalyzerde
 
    |downloads_bioconductor-normalyzerde| |docker_bioconductor-normalyzerde|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-vsn: >=3.56.0,<3.57.0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-car: 
    :depends r-ggforce: 
    :depends r-ggplot2: 

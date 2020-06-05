@@ -8,6 +8,7 @@ tagore
 
 .. conda:recipe:: tagore
    :replaces_section_title:
+   :noindex:
 
    A simple way to visualize features on human chromosome ideograms
 
@@ -22,10 +23,17 @@ tagore
 
    |downloads_tagore| |docker_tagore|
 
-   :versions: 1.0.2-0, 1.0.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``
+
+      
+
    
    :depends click: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ msgf_plus
 
 .. conda:recipe:: msgf_plus
    :replaces_section_title:
+   :noindex:
 
    MS\-GF\+ is a new MS\/MS database search tool that is sensitive \(it identifies more peptides than other database search tools and as many peptides as spectral library search tools\) and universal \(works well for diverse types of spectra\, different configurations of MS instruments and different experimental protocols\).
 
@@ -23,9 +24,24 @@ msgf_plus
 
    |downloads_msgf_plus| |docker_msgf_plus|
 
-   :versions: 2020.03.14-0, 2020.03.12-0, 2020.01.15-0, 2019.07.03-0, 2019.06.28-0, 2019.04.18-0, 2019.02.28-3, 2017.07.21-3, 2017.07.21-2, 2017.07.21-1, 2017.07.21-0, 2016.10.26-2, 2016.10.26-1, 2016.10.26-0, 1.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2020.03.14-0</code>,  <code>2020.03.12-0</code>,  <code>2020.01.15-0</code>,  <code>2019.07.03-0</code>,  <code>2019.06.28-0</code>,  <code>2019.04.18-0</code>,  <code>2019.02.28-3</code>,  <code>2017.07.21-3</code>,  <code>2017.07.21-2</code>,  </span></summary>
+      
+
+      ``2020.03.14-0``,  ``2020.03.12-0``,  ``2020.01.15-0``,  ``2019.07.03-0``,  ``2019.06.28-0``,  ``2019.04.18-0``,  ``2019.02.28-3``,  ``2017.07.21-3``,  ``2017.07.21-2``,  ``2017.07.21-1``,  ``2017.07.21-0``,  ``2016.10.26-2``,  ``2016.10.26-1``,  ``2016.10.26-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: <9
+   :depends openjdk: ``<9``
    :depends python: 
    :requirements:
 

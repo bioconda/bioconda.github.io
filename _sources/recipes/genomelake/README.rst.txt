@@ -8,6 +8,7 @@ genomelake
 
 .. conda:recipe:: genomelake
    :replaces_section_title:
+   :noindex:
 
    Simple and efficient random access to genomic data for deep learning models.
 
@@ -22,17 +23,24 @@ genomelake
 
    |downloads_genomelake| |docker_genomelake|
 
-   :versions: 0.1.4-3, 0.1.4-2, 0.1.4-1, 0.1.4-0
+   :versions:
+      
+      
+
+      ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
+
+      
+
    
-   :depends bcolz: >=1.1
-   :depends libgcc-ng: >=7.3.0
+   :depends bcolz: ``>=1.1``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
    :depends pybedtools: 
    :depends pybigwig: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends six: >=1.9.0
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends six: ``>=1.9.0``
    :requirements:
 
    .. rubric:: Installation

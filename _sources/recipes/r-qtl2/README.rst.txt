@@ -8,6 +8,7 @@ r-qtl2
 
 .. conda:recipe:: r-qtl2
    :replaces_section_title:
+   :noindex:
 
    R\/qtl2 provides a set of tools to perform quantitative trait locus \(QTL\) analysis in experimental crosses. It is a reimplementation of the R\/qtl package to better handle high\-dimensional data and complex cross designs. This package is designed to make it easy to install and load multiple R\/qtl2 packages in a single step. Broman et al. \(2018\) \<doi\:10.1534\/genetics.118.301595\>.
 
@@ -22,17 +23,24 @@ r-qtl2
 
    |downloads_r-qtl2| |docker_r-qtl2|
 
-   :versions: 0.22-0, 0.20-1, 0.20-0
+   :versions:
+      
+      
+
+      ``0.22-0``,  ``0.20-1``,  ``0.20-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-data.table: >=1.10.4_3
-   :depends r-jsonlite: >=0.9.17
-   :depends r-rcpp: >=0.12.12
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: ``>=1.10.4_3``
+   :depends r-jsonlite: ``>=0.9.17``
+   :depends r-rcpp: ``>=0.12.12``
    :depends r-rcppeigen: 
    :depends r-rsqlite: 
-   :depends r-yaml: >=2.1.13
+   :depends r-yaml: ``>=2.1.13``
    :requirements:
 
    .. rubric:: Installation

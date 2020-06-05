@@ -8,6 +8,7 @@ r-cimpl
 
 .. conda:recipe:: r-cimpl
    :replaces_section_title:
+   :noindex:
 
    An analysis package for multi sample insertional mutagenesis data \(including viral\- and transposon\-based systems\) using Gaussian kernel convolution to identify common insertion sites.
 
@@ -22,11 +23,18 @@ r-cimpl
 
    |downloads_r-cimpl| |docker_r-cimpl|
 
-   :versions: 1.1-2, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-2``,  ``1.1-0``
+
+      
+
    
    :depends bioconductor-biomart: 
    :depends bioconductor-biostrings: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-kernsmooth: 
    :depends r-mass: 
    :depends r-xtable: 

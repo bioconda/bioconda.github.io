@@ -8,6 +8,7 @@ perl-pod-parser
 
 .. conda:recipe:: perl-pod-parser/1.63
    :replaces_section_title:
+   :noindex:
 
    Modules for parsing\/translating POD format documents
 
@@ -22,9 +23,16 @@ perl-pod-parser
 
    |downloads_perl-pod-parser| |docker_perl-pod-parser|
 
-   :versions: 1.63-1, 1.63-0
+   :versions:
+      
+      
+
+      ``1.63-1``,  ``1.63-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-app-cpanminus: 
    :requirements:
 

@@ -8,6 +8,7 @@ r-nabor
 
 .. conda:recipe:: r-nabor
    :replaces_section_title:
+   :noindex:
 
    An R wrapper for \'libnabo\'\, an exact or approximate k nearest neighbour library which is optimised for low dimensional spaces \(e.g. 3D\)
 
@@ -22,9 +23,16 @@ r-nabor
 
    |downloads_r-nabor| |docker_r-nabor|
 
-   :versions: 0.5.0-5, 0.5.0-4, 0.5.0-3, 0.5.0-2, 0.5.0-1, 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bh: 
    :depends r-rcpp: 
    :depends r-rcppeigen: 

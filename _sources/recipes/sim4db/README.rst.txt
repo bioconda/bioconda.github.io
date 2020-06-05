@@ -8,6 +8,7 @@ sim4db
 
 .. conda:recipe:: sim4db
    :replaces_section_title:
+   :noindex:
 
    Sim4db and leaff\: Utilities for fast batch spliced alignment and sequence indexing
 
@@ -22,7 +23,14 @@ sim4db
 
    |downloads_sim4db| |docker_sim4db|
 
-   :versions: 2008-0
+   :versions:
+      
+      
+
+      ``2008-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

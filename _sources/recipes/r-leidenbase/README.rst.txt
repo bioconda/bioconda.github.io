@@ -8,6 +8,7 @@ r-leidenbase
 
 .. conda:recipe:: r-leidenbase
    :replaces_section_title:
+   :noindex:
 
    An R to C interface that runs the Leiden community detection algorithm to find a basic partition
 
@@ -22,12 +23,19 @@ r-leidenbase
 
    |downloads_r-leidenbase| |docker_r-leidenbase|
 
-   :versions: 0.1.0-2, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :requirements:
 

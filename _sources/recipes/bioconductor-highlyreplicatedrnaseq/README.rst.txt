@@ -8,6 +8,7 @@ bioconductor-highlyreplicatedrnaseq
 
 .. conda:recipe:: bioconductor-highlyreplicatedrnaseq
    :replaces_section_title:
+   :noindex:
 
    Collection of Bulk RNA\-Seq Experiments With Many Replicates
 
@@ -22,13 +23,20 @@ bioconductor-highlyreplicatedrnaseq
 
    |downloads_bioconductor-highlyreplicatedrnaseq| |docker_bioconductor-highlyreplicatedrnaseq|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

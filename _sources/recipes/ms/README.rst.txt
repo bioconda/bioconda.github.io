@@ -8,6 +8,7 @@ ms
 
 .. conda:recipe:: ms
    :replaces_section_title:
+   :noindex:
 
    Generates random independent samples according to a simple Wright\-Fisher neutral model.
 
@@ -23,7 +24,14 @@ ms
 
    |downloads_ms| |docker_ms|
 
-   :versions: 2014_03_04-0
+   :versions:
+      
+      
+
+      ``2014_03_04-0``
+
+      
+
    
    :requirements:
 

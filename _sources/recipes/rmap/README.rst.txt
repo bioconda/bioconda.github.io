@@ -8,6 +8,7 @@ rmap
 
 .. conda:recipe:: rmap
    :replaces_section_title:
+   :noindex:
 
    rmap is a short reads mapper for next\-generation sequencing data
 
@@ -23,9 +24,16 @@ rmap
 
    |downloads_rmap| |docker_rmap|
 
-   :versions: 2.1-1, 2.1-0
+   :versions:
+      
+      
+
+      ``2.1-1``,  ``2.1-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

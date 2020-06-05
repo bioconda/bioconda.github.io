@@ -8,6 +8,7 @@ htsbox
 
 .. conda:recipe:: htsbox
    :replaces_section_title:
+   :noindex:
 
    HTSbox is a fork of early HTSlib. It is a collection of small experimental tools manipulating HTS\-related files.
 
@@ -22,10 +23,17 @@ htsbox
 
    |downloads_htsbox| |docker_htsbox|
 
-   :versions: r346-0, r340-2, r340-1, r340-0, r327-0, r315-0, r312-0
+   :versions:
+      
+      
+
+      ``r346-0``,  ``r340-2``,  ``r340-1``,  ``r340-0``,  ``r327-0``,  ``r315-0``,  ``r312-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

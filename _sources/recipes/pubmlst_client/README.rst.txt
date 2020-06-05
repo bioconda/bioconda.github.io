@@ -8,6 +8,7 @@ pubmlst_client
 
 .. conda:recipe:: pubmlst_client
    :replaces_section_title:
+   :noindex:
 
    List and download schemes from pubMLST.org
 
@@ -22,9 +23,16 @@ pubmlst_client
 
    |downloads_pubmlst_client| |docker_pubmlst_client|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

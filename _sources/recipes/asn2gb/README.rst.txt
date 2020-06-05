@@ -8,6 +8,7 @@ asn2gb
 
 .. conda:recipe:: asn2gb
    :replaces_section_title:
+   :noindex:
 
    asn2gb converts ASN1 format sequence records to Genbank format
 
@@ -22,7 +23,14 @@ asn2gb
 
    |downloads_asn2gb| |docker_asn2gb|
 
-   :versions: 18.2-2, 18.2-1, 18.2-0
+   :versions:
+      
+      
+
+      ``18.2-2``,  ``18.2-1``,  ``18.2-0``
+
+      
+
    
    :depends libidn11: 
    :depends zlib: 

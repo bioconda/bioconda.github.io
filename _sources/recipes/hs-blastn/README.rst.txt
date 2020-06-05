@@ -8,6 +8,7 @@ hs-blastn
 
 .. conda:recipe:: hs-blastn
    :replaces_section_title:
+   :noindex:
 
    hs\-blastn\, a fast and accurate nucleotide\-nucleotide sequences aligner.
 
@@ -22,10 +23,17 @@ hs-blastn
 
    |downloads_hs-blastn| |docker_hs-blastn|
 
-   :versions: 0.0.5-1, 0.0.5-0
+   :versions:
+      
+      
+
+      ``0.0.5-1``,  ``0.0.5-0``
+
+      
+
    
    :depends blast: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

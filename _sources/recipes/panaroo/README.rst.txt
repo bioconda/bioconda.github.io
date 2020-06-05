@@ -8,6 +8,7 @@ panaroo
 
 .. conda:recipe:: panaroo
    :replaces_section_title:
+   :noindex:
 
    panaroo \- an updated pipeline for pangenome investigation
 
@@ -22,7 +23,14 @@ panaroo
 
    |downloads_panaroo| |docker_panaroo|
 
-   :versions: 1.2.2-0, 1.2.0-0, 1.1.2-0, 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+
    
    :depends biopython: 
    :depends cd-hit: 
@@ -40,12 +48,12 @@ panaroo
    :depends openmp: 
    :depends plotly: 
    :depends prokka: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends python-edlib: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends tqdm: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ galaxy-containers
 
 .. conda:recipe:: galaxy-containers
    :replaces_section_title:
+   :noindex:
 
    Galaxy Container Modeling and Interaction Abstractions
 
@@ -26,9 +27,16 @@ galaxy-containers
 
    |downloads_galaxy-containers| |docker_galaxy-containers|
 
-   :versions: 19.9.0-0
+   :versions:
+      
+      
+
+      ``19.9.0-0``
+
+      
+
    
-   :depends galaxy-util: >=19.9
+   :depends galaxy-util: ``>=19.9``
    :depends python: 
    :depends requests: 
    :requirements:

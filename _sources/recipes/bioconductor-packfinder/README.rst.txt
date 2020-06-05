@@ -8,6 +8,7 @@ bioconductor-packfinder
 
 .. conda:recipe:: bioconductor-packfinder
    :replaces_section_title:
+   :noindex:
 
    de novo Annotation of Pack\-TYPE Transposable Elements
 
@@ -22,14 +23,21 @@ bioconductor-packfinder
 
    |downloads_bioconductor-packfinder| |docker_bioconductor-packfinder|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-kmer: 
    :requirements:
 

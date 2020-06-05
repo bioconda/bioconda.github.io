@@ -8,6 +8,7 @@ r-fastbaps
 
 .. conda:recipe:: r-fastbaps
    :replaces_section_title:
+   :noindex:
 
    A fast approximation to a Dirichlet Process Mixture model \(DPM\) for clustering genetic data
 
@@ -23,12 +24,19 @@ r-fastbaps
 
    |downloads_r-fastbaps| |docker_r-fastbaps|
 
-   :versions: 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+
+      
+
    
    :depends bioconductor-ggtree: 
    :depends r-adegenet: 
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-clusteval: 
    :depends r-doparallel: 
    :depends r-fastcluster: 

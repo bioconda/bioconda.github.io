@@ -8,6 +8,7 @@ cat
 
 .. conda:recipe:: cat
    :replaces_section_title:
+   :noindex:
 
    CAT\/BAT\: tool for taxonomic classification of contigs and metagenome\-assembled genomes \(MAGs\)
 
@@ -23,11 +24,18 @@ cat
 
    |downloads_cat| |docker_cat|
 
-   :versions: 5.0.5-0, 5.0.4-0, 5.0.3-0, 5.0.2-0, 5.0.1-0, 5.0-0, 4.6-0, 4.3.3-0, 4.3.1-1
+   :versions:
+      
+      
+
+      ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
+
+      
+
    
    :depends diamond: 
    :depends prodigal: 
-   :depends python: 3.*
+   :depends python: ``3.*``
    :requirements:
 
    .. rubric:: Installation

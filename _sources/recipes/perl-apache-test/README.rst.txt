@@ -8,6 +8,7 @@ perl-apache-test
 
 .. conda:recipe:: perl-apache-test
    :replaces_section_title:
+   :noindex:
 
    Special Tests Sequence Failure Finder
 
@@ -22,9 +23,16 @@ perl-apache-test
 
    |downloads_perl-apache-test| |docker_perl-apache-test|
 
-   :versions: 1.40-1, 1.40-0
+   :versions:
+      
+      
+
+      ``1.40-1``,  ``1.40-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-pathtools: 
    :requirements:
 

@@ -8,6 +8,7 @@ super-focus
 
 .. conda:recipe:: super-focus
    :replaces_section_title:
+   :noindex:
 
    SUPER\-FOCUS\: A tool for agile functional analysis of shotgun metagenomic data
 
@@ -23,13 +24,20 @@ super-focus
 
    |downloads_super-focus| |docker_super-focus|
 
-   :versions: 0.34-1, 0.34-0, 0.33-0, 0.32-1, 0.32-0, 0.31-0, 0.30-0, 0.29-0
+   :versions:
+      
+      
+
+      ``0.34-1``,  ``0.34-0``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.31-0``,  ``0.30-0``,  ``0.29-0``
+
+      
+
    
    :depends blast: 
    :depends diamond: 
    :depends kmer-jellyfish: 
-   :depends numpy: >=1.12.1
-   :depends python: >=3
+   :depends numpy: ``>=1.12.1``
+   :depends python: ``>=3``
    :depends rapsearch: 
    :depends scipy: 
    :requirements:

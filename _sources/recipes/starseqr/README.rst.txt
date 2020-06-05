@@ -8,6 +8,7 @@ starseqr
 
 .. conda:recipe:: starseqr
    :replaces_section_title:
+   :noindex:
 
    RNA Fusion Detection and Quantification
 
@@ -22,18 +23,25 @@ starseqr
 
    |downloads_starseqr| |docker_starseqr|
 
-   :versions: 0.6.7-1, 0.6.7-0, 0.6.6-0, 0.6.3-0, 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.3-0``,  ``0.5.0-0``
+
+      
+
    
    :depends gffread: 
    :depends intervaltree_bio: 
-   :depends libgcc-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
    :depends networkx: 
    :depends numpy: 
-   :depends pandas: >=0.18.1
+   :depends pandas: ``>=0.18.1``
    :depends primer3-py: 
-   :depends pysam: >=0.9.1.4
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends pysam: ``>=0.9.1.4``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends six: 
    :requirements:
 

@@ -8,6 +8,7 @@ tb-profiler
 
 .. conda:recipe:: tb-profiler
    :replaces_section_title:
+   :noindex:
 
    Profiling tool for Mycobacterium tuberculosis to detect drug resistance and lineage from WGS data
 
@@ -23,9 +24,24 @@ tb-profiler
 
    |downloads_tb-profiler| |docker_tb-profiler|
 
-   :versions: 2.8.9-0, 2.8.8-0, 2.8.6-0, 2.8.5-0, 2.8.4-0, 2.8.3-0, 2.8.2-0, 2.8.1-0, 2.8.0-1, 2.8.0-0, 2.7.4-0, 2.7.3-0, 2.7.2-0, 2.7.1-0, 2.7-0, 2.6.1-2, 2.6.1-1, 2.6.1-0, 2.6-0, 2.5-1, 2.5-0, 2.4-0, 2.3-0, 2.2-1, 2.2-0, 2.1-2, 2.1-1, 2.1-0, 2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.8.9-0</code>,  <code>2.8.8-0</code>,  <code>2.8.6-0</code>,  <code>2.8.5-0</code>,  <code>2.8.4-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-1</code>,  </span></summary>
+      
+
+      ``2.8.9-0``,  ``2.8.8-0``,  ``2.8.6-0``,  ``2.8.5-0``,  ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.4-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7-0``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6-0``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bcftools: >=1.9
+   :depends bcftools: ``>=1.9``
    :depends bedtools: 
    :depends biopython: 
    :depends bowtie2: 
@@ -36,8 +52,8 @@ tb-profiler
    :depends minimap2: 
    :depends parallel: 
    :depends python: 
-   :depends python: >=3.6
-   :depends samtools: >=1.9
+   :depends python: ``>=3.6``
+   :depends samtools: ``>=1.9``
    :depends tqdm: 
    :depends trimmomatic: 
    :requirements:

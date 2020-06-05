@@ -8,6 +8,7 @@ pirs
 
 .. conda:recipe:: pirs
    :replaces_section_title:
+   :noindex:
 
    pIRS is a program for simulating Illumina PE reads.
 
@@ -22,20 +23,27 @@ pirs
 
    |downloads_pirs| |docker_pirs|
 
-   :versions: 2.0.2-3, 2.0.2-2, 2.0.2-1, 2.0.2-0
+   :versions:
+      
+      
+
+      ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``
+
+      
+
    
-   :depends boost: >=1.68.0,<1.68.1.0a0
+   :depends boost: ``>=1.68.0,<1.68.1.0a0``
    :depends bwa: 
    :depends coreutils: 
    :depends gnuplot: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
    :depends samtools: 
    :depends soapaligner: 
    :depends soapcoverage: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
 
 .. conda:recipe:: bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
    :replaces_section_title:
+   :noindex:
 
    Annotation package for TxDb object\(s\)
 
@@ -22,12 +23,19 @@ bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
 
    |downloads_bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene| |docker_bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene|
 
-   :versions: 3.2.2-11, 3.2.2-10, 3.2.2-9, 3.2.2-7, 3.2.2-6, 3.2.2-5, 3.2.2-3, 3.2.2-2
+   :versions:
+      
+      
+
+      ``3.2.2-11``,  ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-7``,  ``3.2.2-6``,  ``3.2.2-5``,  ``3.2.2-3``,  ``3.2.2-2``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

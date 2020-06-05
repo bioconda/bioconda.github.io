@@ -8,6 +8,7 @@ bioconductor-ontoproc
 
 .. conda:recipe:: bioconductor-ontoproc
    :replaces_section_title:
+   :noindex:
 
    processing of ontologies of anatomy\, cell lines\, and so on
 
@@ -22,14 +23,21 @@ bioconductor-ontoproc
 
    |downloads_bioconductor-ontoproc| |docker_bioconductor-ontoproc|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-magrittr: 

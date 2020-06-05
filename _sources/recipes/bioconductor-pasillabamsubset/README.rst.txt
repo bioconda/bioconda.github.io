@@ -8,6 +8,7 @@ bioconductor-pasillabamsubset
 
 .. conda:recipe:: bioconductor-pasillabamsubset
    :replaces_section_title:
+   :noindex:
 
    Subset of BAM files from \"Pasilla\" experiment
 
@@ -22,10 +23,17 @@ bioconductor-pasillabamsubset
 
    |downloads_bioconductor-pasillabamsubset| |docker_bioconductor-pasillabamsubset|
 
-   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.22.0-0, 0.20.0-0
+   :versions:
+      
+      
+
+      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.22.0-0``,  ``0.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

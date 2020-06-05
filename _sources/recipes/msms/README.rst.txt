@@ -8,6 +8,7 @@ msms
 
 .. conda:recipe:: msms
    :replaces_section_title:
+   :noindex:
 
    MSMS is a program written in the C programming language to compute molecular surfaces.
 
@@ -22,7 +23,14 @@ msms
 
    |downloads_msms| |docker_msms|
 
-   :versions: 2.6.1-2, 2.6.1-1
+   :versions:
+      
+      
+
+      ``2.6.1-2``,  ``2.6.1-1``
+
+      
+
    
    :requirements:
 

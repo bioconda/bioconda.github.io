@@ -8,6 +8,7 @@ ngseqbasic
 
 .. conda:recipe:: ngseqbasic
    :replaces_section_title:
+   :noindex:
 
    Basic ChIP\/DNaseI\/ATAC analysis \- from FASTQ to visualisation of tracks\, in one command.
 
@@ -22,19 +23,26 @@ ngseqbasic
 
    |downloads_ngseqbasic| |docker_ngseqbasic|
 
-   :versions: 2.0.1-1, 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.0.1-1``,  ``2.0.1-0``
+
+      
+
    
-   :depends bedtools: ==2.17.0
-   :depends bowtie: ==1.0.0
-   :depends bowtie2: ==2.3.0
-   :depends flash: ==1.2.11
-   :depends perl: 5.22.0.1
-   :depends samtools: ==0.1.19
-   :depends trim-galore: ==0.4.1
-   :depends ucsc-bedclip: ==332
-   :depends ucsc-bedgraphpack: ==332
-   :depends ucsc-bedgraphtobigwig: ==332
-   :depends ucsc-bedtobigbed: ==332
+   :depends bedtools: ``==2.17.0``
+   :depends bowtie: ``==1.0.0``
+   :depends bowtie2: ``==2.3.0``
+   :depends flash: ``==1.2.11``
+   :depends perl: ``5.22.0.1``
+   :depends samtools: ``==0.1.19``
+   :depends trim-galore: ``==0.4.1``
+   :depends ucsc-bedclip: ``==332``
+   :depends ucsc-bedgraphpack: ``==332``
+   :depends ucsc-bedgraphtobigwig: ``==332``
+   :depends ucsc-bedtobigbed: ``==332``
    :requirements:
 
    .. rubric:: Installation

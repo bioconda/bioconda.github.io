@@ -8,6 +8,7 @@ bioconductor-derfinderplot
 
 .. conda:recipe:: bioconductor-derfinderplot
    :replaces_section_title:
+   :noindex:
 
    Plotting functions for derfinder
 
@@ -23,17 +24,24 @@ bioconductor-derfinderplot
 
    |downloads_bioconductor-derfinderplot| |docker_bioconductor-derfinderplot|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.1-0, 1.16.1-0, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-derfinder: >=1.22.0,<1.23.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-ggbio: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-derfinder: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-ggbio: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-plyr: 
    :depends r-rcolorbrewer: 

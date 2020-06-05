@@ -8,6 +8,7 @@ convert_zero_one_based
 
 .. conda:recipe:: convert_zero_one_based
    :replaces_section_title:
+   :noindex:
 
    Convert between zero and one based coordinate systems
 
@@ -22,7 +23,14 @@ convert_zero_one_based
 
    |downloads_convert_zero_one_based| |docker_convert_zero_one_based|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
    :depends click: 
    :depends python: 

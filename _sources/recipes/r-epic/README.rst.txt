@@ -8,6 +8,7 @@ r-epic
 
 .. conda:recipe:: r-epic
    :replaces_section_title:
+   :noindex:
 
    Estimate the Proportion of Immune and Cancer cells from bulk gene expression data.
 
@@ -23,9 +24,16 @@ r-epic
 
    |downloads_r-epic| |docker_r-epic|
 
-   :versions: 1.1-2, 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

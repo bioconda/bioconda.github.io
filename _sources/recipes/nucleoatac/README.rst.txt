@@ -8,6 +8,7 @@ nucleoatac
 
 .. conda:recipe:: nucleoatac
    :replaces_section_title:
+   :noindex:
 
    Python package for calling nucleosomes using ATAC\-Seq data. Also includes general scripts for working with paired\-end ATAC\-Seq data \(or potentially other paired\-end data\).
 
@@ -25,16 +26,23 @@ nucleoatac
 
    |downloads_nucleoatac| |docker_nucleoatac|
 
-   :versions: 0.3.4-3, 0.3.4-2, 0.3.4-1, 0.3.4-0, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.1-0``
+
+      
+
    
-   :depends cython: >=0.22
-   :depends libgcc-ng: >=7.3.0
+   :depends cython: ``>=0.22``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends matplotlib: 
-   :depends numpy: >=1.9.1
-   :depends pysam: >=0.8.1
-   :depends python: >=2.7,<2.8.0a0
+   :depends numpy: ``>=1.9.1``
+   :depends pysam: ``>=0.8.1``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends scipy: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

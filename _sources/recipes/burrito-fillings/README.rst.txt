@@ -8,6 +8,7 @@ burrito-fillings
 
 .. conda:recipe:: burrito-fillings
    :replaces_section_title:
+   :noindex:
 
    burrito\-fillings\: burrito application controllers for bioinformatics
 
@@ -22,11 +23,18 @@ burrito-fillings
 
    |downloads_burrito-fillings| |docker_burrito-fillings|
 
-   :versions: 0.1.1-3, 0.1.1-2, 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
-   :depends burrito: <1.0.0
-   :depends python: >=3.5
-   :depends scikit-bio: >=0.2.1,<0.3.0
+   :depends burrito: ``<1.0.0``
+   :depends python: ``>=3.5``
+   :depends scikit-bio: ``>=0.2.1,<0.3.0``
    :requirements:
 
    .. rubric:: Installation

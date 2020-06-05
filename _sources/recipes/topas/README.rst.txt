@@ -8,6 +8,7 @@ topas
 
 .. conda:recipe:: topas
    :replaces_section_title:
+   :noindex:
 
    This toolkit allows the efficient manipulation of sequence data in various ways. It is organized into modules\: The FASTA processing modules\, the FASTQ processing modules\, the GFF processing modules and the VCF processing modules.
 
@@ -22,7 +23,14 @@ topas
 
    |downloads_topas| |docker_topas|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

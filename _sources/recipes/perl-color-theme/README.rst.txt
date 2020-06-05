@@ -8,6 +8,7 @@ perl-color-theme
 
 .. conda:recipe:: perl-color-theme
    :replaces_section_title:
+   :noindex:
 
    Color theme structure
 
@@ -22,9 +23,16 @@ perl-color-theme
 
    |downloads_perl-color-theme| |docker_perl-color-theme|
 
-   :versions: 0.10.1-0, 0.01-0
+   :versions:
+      
+      
+
+      ``0.10.1-0``,  ``0.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ je-suite
 
 .. conda:recipe:: je-suite
    :replaces_section_title:
+   :noindex:
 
    Je is a suite to handle barcoded fastq files with \(or without\) Unique Molecule Identifiers \(UMIs\) and filter
    read duplicates using these UMIs
@@ -24,9 +25,16 @@ je-suite
 
    |downloads_je-suite| |docker_je-suite|
 
-   :versions: 2.0.RC-0, 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``2.0.RC-0``,  ``1.2-1``,  ``1.2-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

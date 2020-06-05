@@ -8,6 +8,7 @@ gprofiler-official
 
 .. conda:recipe:: gprofiler-official
    :replaces_section_title:
+   :noindex:
 
    Functional enrichment analysis and more via the g\:Profiler toolkit
 
@@ -22,9 +23,16 @@ gprofiler-official
 
    |downloads_gprofiler-official| |docker_gprofiler-official|
 
-   :versions: 1.0.0-0, 0.2.3-1, 0.2.3-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``0.2.3-1``,  ``0.2.3-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends requests: 
    :requirements:
 

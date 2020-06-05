@@ -8,6 +8,7 @@ bioconductor-harmonizedtcgadata
 
 .. conda:recipe:: bioconductor-harmonizedtcgadata
    :replaces_section_title:
+   :noindex:
 
    Processed Harmonized TCGA Data of Five Selected Cancer Types
 
@@ -22,11 +23,18 @@ bioconductor-harmonizedtcgadata
 
    |downloads_bioconductor-harmonizedtcgadata| |docker_bioconductor-harmonizedtcgadata|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

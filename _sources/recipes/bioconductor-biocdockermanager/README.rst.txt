@@ -8,6 +8,7 @@ bioconductor-biocdockermanager
 
 .. conda:recipe:: bioconductor-biocdockermanager
    :replaces_section_title:
+   :noindex:
 
    Access Bioconductor docker images
 
@@ -22,9 +23,16 @@ bioconductor-biocdockermanager
 
    |downloads_bioconductor-biocdockermanager| |docker_bioconductor-biocdockermanager|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-httr: 
    :depends r-readr: 

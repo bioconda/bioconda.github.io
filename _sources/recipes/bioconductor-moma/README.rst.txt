@@ -8,6 +8,7 @@ bioconductor-moma
 
 .. conda:recipe:: bioconductor-moma
    :replaces_section_title:
+   :noindex:
 
    Multi Omic Master Regulator Analysis
 
@@ -22,12 +23,19 @@ bioconductor-moma
 
    |downloads_bioconductor-moma| |docker_bioconductor-moma|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-cluster: 
    :depends r-dplyr: 

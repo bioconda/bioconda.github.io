@@ -8,6 +8,7 @@ scxa-plots
 
 .. conda:recipe:: scxa-plots
    :replaces_section_title:
+   :noindex:
 
    A set of wrappers to produce some bespoke plots used by the team behind Single\-cell Expresion Atlas \(SCXA\) in single\-cell RNA\-seq analysis. Not to be confused with the plots displayed in SCXA itself.
 
@@ -22,7 +23,14 @@ scxa-plots
 
    |downloads_scxa-plots| |docker_scxa-plots|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
    :depends bioconductor-delayedarray: 
    :depends bioconductor-dropletutils: 

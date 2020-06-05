@@ -8,6 +8,7 @@ bioconductor-rcyjs
 
 .. conda:recipe:: bioconductor-rcyjs
    :replaces_section_title:
+   :noindex:
 
    Display and manipulate graphs in cytoscape.js
 
@@ -22,14 +23,21 @@ bioconductor-rcyjs
 
    |downloads_bioconductor-rcyjs| |docker_bioconductor-rcyjs|
 
-   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.4.0-0
+   :versions:
+      
+      
+
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.4.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-browserviz: >=2.10.0,<2.11.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-browserviz: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-base64enc: 
-   :depends r-httpuv: >=1.5.0
+   :depends r-httpuv: ``>=1.5.0``
    :requirements:
 
    .. rubric:: Installation

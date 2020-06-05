@@ -8,6 +8,7 @@ perl-cpan-meta-validator
 
 .. conda:recipe:: perl-cpan-meta-validator/2.140640
    :replaces_section_title:
+   :noindex:
 
    validate CPAN distribution metadata structures
 
@@ -22,9 +23,16 @@ perl-cpan-meta-validator
 
    |downloads_perl-cpan-meta-validator| |docker_perl-cpan-meta-validator|
 
-   :versions: 2.140640-1, 2.140640-0
+   :versions:
+      
+      
+
+      ``2.140640-1``,  ``2.140640-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

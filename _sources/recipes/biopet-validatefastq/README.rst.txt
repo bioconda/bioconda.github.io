@@ -8,6 +8,7 @@ biopet-validatefastq
 
 .. conda:recipe:: biopet-validatefastq
    :replaces_section_title:
+   :noindex:
 
    This tool validates a FASTQ file.
 
@@ -30,9 +31,16 @@ biopet-validatefastq
 
    |downloads_biopet-validatefastq| |docker_biopet-validatefastq|
 
-   :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

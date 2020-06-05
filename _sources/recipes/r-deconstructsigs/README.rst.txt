@@ -8,6 +8,7 @@ r-deconstructsigs
 
 .. conda:recipe:: r-deconstructsigs
    :replaces_section_title:
+   :noindex:
 
    Takes sample information in the form of the fraction of mutations in each of 96 trinucleotide contexts and identifies the weighted combination of published signatures that\, when summed\, most closely reconstructs the mutational profile.
 
@@ -22,12 +23,19 @@ r-deconstructsigs
 
    |downloads_r-deconstructsigs| |docker_r-deconstructsigs|
 
-   :versions: 1.8.0.1-3, 1.8.0.1-2, 1.8.0.1-1, 1.8.0.1-0, 1.8.0-2, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.8.0.1-3``,  ``1.8.0.1-2``,  ``1.8.0.1-1``,  ``1.8.0.1-0``,  ``1.8.0-2``,  ``1.8.0-0``
+
+      
+
    
    :depends bioconductor-bsgenome: 
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
    :depends bioconductor-genomeinfodb: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-reshape2: 
    :requirements:
 

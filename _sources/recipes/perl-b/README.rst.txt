@@ -8,6 +8,7 @@ perl-b
 
 .. conda:recipe:: perl-b/1.48
    :replaces_section_title:
+   :noindex:
 
    The Perl Compiler Backend
 
@@ -22,9 +23,16 @@ perl-b
 
    |downloads_perl-b| |docker_perl-b|
 
-   :versions: 1.48-1, 1.48-0
+   :versions:
+      
+      
+
+      ``1.48-1``,  ``1.48-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

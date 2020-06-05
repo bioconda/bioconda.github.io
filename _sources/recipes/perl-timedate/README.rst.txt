@@ -8,6 +8,7 @@ perl-timedate
 
 .. conda:recipe:: perl-timedate
    :replaces_section_title:
+   :noindex:
 
    Date formating subroutines
 
@@ -22,9 +23,16 @@ perl-timedate
 
    |downloads_perl-timedate| |docker_perl-timedate|
 
-   :versions: 2.30-1, 2.30-0
+   :versions:
+      
+      
+
+      ``2.30-1``,  ``2.30-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

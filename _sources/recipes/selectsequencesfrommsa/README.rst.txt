@@ -8,6 +8,7 @@ selectsequencesfrommsa
 
 .. conda:recipe:: selectsequencesfrommsa
    :replaces_section_title:
+   :noindex:
 
    Tool to select representative sequences from a multiple sequence alignment
 
@@ -22,11 +23,18 @@ selectsequencesfrommsa
 
    |downloads_selectsequencesfrommsa| |docker_selectsequencesfrommsa|
 
-   :versions: 1.0.5-0, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.5-0``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
-   :depends gmp: >=6.1.2,<7.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends gmp: ``>=6.1.2,<7.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

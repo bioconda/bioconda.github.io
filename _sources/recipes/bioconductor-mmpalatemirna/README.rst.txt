@@ -8,6 +8,7 @@ bioconductor-mmpalatemirna
 
 .. conda:recipe:: bioconductor-mmpalatemirna
    :replaces_section_title:
+   :noindex:
 
    Murine Palate miRNA Expression Analysis
 
@@ -22,12 +23,19 @@ bioconductor-mmpalatemirna
 
    |downloads_bioconductor-mmpalatemirna| |docker_bioconductor-mmpalatemirna|
 
-   :versions: 1.37.0-0, 1.36.0-0, 1.34.0-1, 1.32.0-0
+   :versions:
+      
+      
+
+      ``1.37.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-vsn: >=3.56.0,<3.57.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-lattice: 
    :depends r-statmod: 
    :depends r-xtable: 

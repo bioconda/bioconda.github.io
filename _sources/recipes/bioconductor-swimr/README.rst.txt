@@ -8,6 +8,7 @@ bioconductor-swimr
 
 .. conda:recipe:: bioconductor-swimr
    :replaces_section_title:
+   :noindex:
 
    SwimR\: A Suite of Analytical Tools for Quantification of C. elegans Swimming Behavior
 
@@ -23,13 +24,20 @@ bioconductor-swimr
 
    |downloads_bioconductor-swimr| |docker_bioconductor-swimr|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-gplots: >=2.10.1
-   :depends r-heatmap.plus: >=1.3
-   :depends r-r2html: >=2.2.1
-   :depends r-signal: >=0.7
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-gplots: ``>=2.10.1``
+   :depends r-heatmap.plus: ``>=1.3``
+   :depends r-r2html: ``>=2.2.1``
+   :depends r-signal: ``>=0.7``
    :requirements:
 
    .. rubric:: Installation

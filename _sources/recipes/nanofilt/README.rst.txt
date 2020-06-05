@@ -8,6 +8,7 @@ nanofilt
 
 .. conda:recipe:: nanofilt
    :replaces_section_title:
+   :noindex:
 
    Filtering and trimming of Oxford Nanopore Sequencing data
 
@@ -22,12 +23,27 @@ nanofilt
 
    |downloads_nanofilt| |docker_nanofilt|
 
-   :versions: 2.7.0-0, 2.6.0-0, 2.5.0-0, 2.3.0-0, 2.2.0-1, 2.2.0-0, 2.0.1-0, 1.9.2-0, 1.8.0-0, 1.7.0-0, 1.2.0-0, 1.1.4-0, 1.1.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.0.1-0</code>,  <code>1.9.2-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+      
+
+      ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.9.2-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
-   :depends nanoget: >=0.15.0
-   :depends nanomath: >=0.13.3
-   :depends python: >=3
+   :depends nanoget: ``>=0.15.0``
+   :depends nanomath: ``>=0.13.3``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

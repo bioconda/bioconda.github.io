@@ -8,6 +8,7 @@ bioconductor-snphooddata
 
 .. conda:recipe:: bioconductor-snphooddata
    :replaces_section_title:
+   :noindex:
 
    Additional and more complex example data for the SNPhood package
 
@@ -22,10 +23,17 @@ bioconductor-snphooddata
 
    |downloads_bioconductor-snphooddata| |docker_bioconductor-snphooddata|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-version-next
 
 .. conda:recipe:: perl-version-next
    :replaces_section_title:
+   :noindex:
 
    increment module version numbers simply and correctly
 
@@ -22,9 +23,16 @@ perl-version-next
 
    |downloads_perl-version-next| |docker_perl-version-next|
 
-   :versions: 1.000-2, 1.000-1, 1.000-0
+   :versions:
+      
+      
+
+      ``1.000-2``,  ``1.000-1``,  ``1.000-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-apache-test: 
    :depends perl-perl-version: 
    :depends perl-sub-exporter: 

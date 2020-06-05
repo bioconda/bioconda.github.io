@@ -8,6 +8,7 @@ perl-date-format
 
 .. conda:recipe:: perl-date-format/2.30
    :replaces_section_title:
+   :noindex:
 
    Date formating subroutines
 
@@ -22,9 +23,16 @@ perl-date-format
 
    |downloads_perl-date-format| |docker_perl-date-format|
 
-   :versions: 2.30-2, 2.30-1, 2.30-0
+   :versions:
+      
+      
+
+      ``2.30-2``,  ``2.30-1``,  ``2.30-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

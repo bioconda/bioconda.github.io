@@ -8,6 +8,7 @@ kaptive
 
 .. conda:recipe:: kaptive
    :replaces_section_title:
+   :noindex:
 
    Kaptive reports information about capsular \(K\) loci found in genome assemblies
 
@@ -22,11 +23,18 @@ kaptive
 
    |downloads_kaptive| |docker_kaptive|
 
-   :versions: 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.1-2, 0.5.1-0, 0.3-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

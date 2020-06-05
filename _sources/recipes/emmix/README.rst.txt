@@ -8,6 +8,7 @@ emmix
 
 .. conda:recipe:: emmix/1.3
    :replaces_section_title:
+   :noindex:
 
    A tool that fits a mixture model of multivariate normal or t\-distributed components to a given data set.
 
@@ -22,9 +23,16 @@ emmix
 
    |downloads_emmix| |docker_emmix|
 
-   :versions: 1.3-3, 1.3-2, 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ tophat
 
 .. conda:recipe:: tophat
    :replaces_section_title:
+   :noindex:
 
    A spliced read mapper for RNA\-Seq
 
@@ -22,10 +23,17 @@ tophat
 
    |downloads_tophat| |docker_tophat|
 
-   :versions: 2.1.1-3, 2.1.1-2, 2.1.1-1, 2.1.1-0, 2.1.0-0, 2.0.13-4, 2.0.13-3, 2.0.13-2
+   :versions:
+      
+      
+
+      ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.13-4``,  ``2.0.13-3``,  ``2.0.13-2``
+
+      
+
    
-   :depends bowtie2: <=2.2.5
-   :depends python: >=2.7,<2.8.0a0
+   :depends bowtie2: ``<=2.2.5``
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

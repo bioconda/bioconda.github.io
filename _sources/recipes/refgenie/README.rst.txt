@@ -8,6 +8,7 @@ refgenie
 
 .. conda:recipe:: refgenie
    :replaces_section_title:
+   :noindex:
 
    Refgenie creates a standardized folder structure for reference genome files and indexes. You can download pre\-built genomes or build your own for any fasta file
 
@@ -22,13 +23,20 @@ refgenie
 
    |downloads_refgenie| |docker_refgenie|
 
-   :versions: 0.9.1-0, 0.9.0-0, 0.8.2-0, 0.8.1-0, 0.8.0-0, 0.7.2-0
+   :versions:
+      
+      
+
+      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``
+
+      
+
    
-   :depends logmuse: >=0.2
-   :depends piper: >=0.12.1
-   :depends pyfaidx: >=0.5.5.2
-   :depends python: >=3
-   :depends refgenconf: >=0.5.3
+   :depends logmuse: ``>=0.2``
+   :depends piper: ``>=0.12.1``
+   :depends pyfaidx: ``>=0.5.5.2``
+   :depends python: ``>=3``
+   :depends refgenconf: ``>=0.5.3``
    :requirements:
 
    .. rubric:: Installation

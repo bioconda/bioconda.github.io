@@ -8,6 +8,7 @@ mercat
 
 .. conda:recipe:: mercat
    :replaces_section_title:
+   :noindex:
 
    Mercat\: a versatile counter and diversity estimator for data base independent property analysis obtained from whole community sequencing data.
 
@@ -22,7 +23,14 @@ mercat
 
    |downloads_mercat| |docker_mercat|
 
-   :versions: 0.2-1, 0.2-0, 0.1-0
+   :versions:
+      
+      
+
+      ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+
+      
+
    
    :depends dask: 
    :depends humanize: 
@@ -33,7 +41,7 @@ mercat
    :depends prodigal: 
    :depends psutil: 
    :depends python: 
-   :depends scikit-bio: 0.2.3
+   :depends scikit-bio: ``0.2.3``
    :depends trimmomatic: 
    :requirements:
 

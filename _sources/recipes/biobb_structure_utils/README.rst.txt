@@ -8,6 +8,7 @@ biobb_structure_utils
 
 .. conda:recipe:: biobb_structure_utils
    :replaces_section_title:
+   :noindex:
 
    Biobb\_structure\_utils is the Biobb module collection to modify or extract information from a PDB structure file.
 
@@ -41,11 +42,18 @@ biobb_structure_utils
 
    |downloads_biobb_structure_utils| |docker_biobb_structure_utils|
 
-   :versions: 3.0.0-0, 2.0.0-0
+   :versions:
+      
+      
+
+      ``3.0.0-0``,  ``2.0.0-0``
+
+      
+
    
-   :depends biobb_common: 3.0.0
-   :depends biobb_structure_checking: 3.0.2
-   :depends python: 3.7.*
+   :depends biobb_common: ``3.0.0``
+   :depends biobb_structure_checking: ``3.0.2``
+   :depends python: ``3.7.*``
    :requirements:
 
    .. rubric:: Installation

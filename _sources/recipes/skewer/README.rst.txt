@@ -8,6 +8,7 @@ skewer
 
 .. conda:recipe:: skewer
    :replaces_section_title:
+   :noindex:
 
    A fast and accurate adapter trimmer for paired\-end reads.
 
@@ -23,9 +24,16 @@ skewer
 
    |downloads_skewer| |docker_skewer|
 
-   :versions: 0.2.2-2, 0.2.2-1, 0.2.2-0, 0.1.126-1, 0.1.126-0
+   :versions:
+      
+      
+
+      ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.126-1``,  ``0.1.126-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

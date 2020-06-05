@@ -8,6 +8,7 @@ bioconductor-mirsm
 
 .. conda:recipe:: bioconductor-mirsm
    :replaces_section_title:
+   :noindex:
 
    Inferring miRNA sponge modules by integrating expression data and miRNA\-target binding information
 
@@ -22,21 +23,28 @@ bioconductor-mirsm
 
    |downloads_bioconductor-mirsm| |docker_bioconductor-mirsm|
 
-   :versions: 1.4.0-0, 1.2.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-1``
+
+      
+
    
-   :depends bioconductor-bicare: >=1.44.0,<1.45.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-fabia: >=2.32.0,<2.33.0
-   :depends bioconductor-gseabase: >=1.48.0,<1.49.0
-   :depends bioconductor-ibbig: >=1.30.0,<1.31.0
-   :depends bioconductor-mirsponger: >=1.12.0,<1.13.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-rqubic: >=1.32.0,<1.33.0
-   :depends bioconductor-runibic: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-bicare: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biobase: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-fabia: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-gseabase: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-ibbig: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-mirsponger: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-rqubic: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-runibic: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.16.0,<1.17.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-bibitr: 
    :depends r-biclust: 
    :depends r-dbscan: 

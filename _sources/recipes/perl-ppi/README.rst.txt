@@ -8,6 +8,7 @@ perl-ppi
 
 .. conda:recipe:: perl-ppi/1.236
    :replaces_section_title:
+   :noindex:
 
    Parse\, Analyze and Manipulate Perl \(without perl\)
 
@@ -22,9 +23,16 @@ perl-ppi
 
    |downloads_perl-ppi| |docker_perl-ppi|
 
-   :versions: 1.236-2, 1.236-1, 1.236-0
+   :versions:
+      
+      
+
+      ``1.236-2``,  ``1.236-1``,  ``1.236-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-class-xsaccessor: 
    :depends perl-clone: 
    :depends perl-digest-md5: 

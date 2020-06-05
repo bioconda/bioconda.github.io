@@ -8,6 +8,7 @@ bioconductor-destiny
 
 .. conda:recipe:: bioconductor-destiny
    :replaces_section_title:
+   :noindex:
 
    Creates diffusion maps
 
@@ -22,18 +23,25 @@ bioconductor-destiny
 
    |downloads_bioconductor-destiny| |docker_bioconductor-destiny|
 
-   :versions: 3.2.0-0, 2.15.0-0, 2.14.0-1, 2.12.0-0
+   :versions:
+      
+      
+
+      ``3.2.0-0``,  ``2.15.0-0``,  ``2.14.0-1``,  ``2.12.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-pcamethods: >=1.80.0,<1.81.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-pcamethods: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot.multistats: 
    :depends r-ggplot2: 
    :depends r-ggthemes: 
@@ -41,10 +49,10 @@ bioconductor-destiny
    :depends r-knn.covertree: 
    :depends r-matrix: 
    :depends r-proxy: 
-   :depends r-rcpp: >=0.10.3
+   :depends r-rcpp: ``>=0.10.3``
    :depends r-rcppeigen: 
    :depends r-rcpphnsw: 
-   :depends r-rspectra: >=0.14-0
+   :depends r-rspectra: ``>=0.14-0``
    :depends r-scales: 
    :depends r-scatterplot3d: 
    :depends r-smoother: 

@@ -8,6 +8,7 @@ perl-mldbm-sync
 
 .. conda:recipe:: perl-mldbm-sync
    :replaces_section_title:
+   :noindex:
 
    safe concurrent access to MLDBM databases
 
@@ -22,9 +23,16 @@ perl-mldbm-sync
 
    |downloads_perl-mldbm-sync| |docker_perl-mldbm-sync|
 
-   :versions: 0.30-1, 0.30-0
+   :versions:
+      
+      
+
+      ``0.30-1``,  ``0.30-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-mldbm: 
    :depends perl-tie-cache: 
    :requirements:

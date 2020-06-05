@@ -8,6 +8,7 @@ compare-reads
 
 .. conda:recipe:: compare-reads
    :replaces_section_title:
+   :noindex:
 
    cythonized function to compare reads by name.
 
@@ -22,11 +23,18 @@ compare-reads
 
    |downloads_compare-reads| |docker_compare-reads|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

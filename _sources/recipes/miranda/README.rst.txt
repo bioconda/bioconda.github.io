@@ -8,6 +8,7 @@ miranda
 
 .. conda:recipe:: miranda
    :replaces_section_title:
+   :noindex:
 
    An algorithm for finding genomic targets for microRNAs
 
@@ -22,9 +23,16 @@ miranda
 
    |downloads_miranda| |docker_miranda|
 
-   :versions: 3.3a-1, 3.3a-0
+   :versions:
+      
+      
+
+      ``3.3a-1``,  ``3.3a-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

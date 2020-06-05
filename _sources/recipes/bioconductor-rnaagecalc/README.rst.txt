@@ -8,6 +8,7 @@ bioconductor-rnaagecalc
 
 .. conda:recipe:: bioconductor-rnaagecalc
    :replaces_section_title:
+   :noindex:
 
    A multi\-tissue transcriptional age calculator
 
@@ -22,14 +23,21 @@ bioconductor-rnaagecalc
 
    |downloads_bioconductor-rnaagecalc| |docker_bioconductor-rnaagecalc|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-impute: >=1.62.0,<1.63.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-recount: >=1.14.0,<1.15.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-recount: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :requirements:
 

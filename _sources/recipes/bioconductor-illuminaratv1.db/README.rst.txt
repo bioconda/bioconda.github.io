@@ -8,6 +8,7 @@ bioconductor-illuminaratv1.db
 
 .. conda:recipe:: bioconductor-illuminaratv1.db
    :replaces_section_title:
+   :noindex:
 
    Illumina Ratv1 annotation data \(chip illuminaRatv1\)
 
@@ -22,12 +23,19 @@ bioconductor-illuminaratv1.db
 
    |downloads_bioconductor-illuminaratv1.db| |docker_bioconductor-illuminaratv1.db|
 
-   :versions: 1.26.0-4, 1.26.0-3, 1.26.0-2, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-4``,  ``1.26.0-3``,  ``1.26.0-2``,  ``1.26.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.rn.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

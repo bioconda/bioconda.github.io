@@ -8,6 +8,7 @@ perl-uri
 
 .. conda:recipe:: perl-uri
    :replaces_section_title:
+   :noindex:
 
    Uniform Resource Identifiers \(absolute and relative\)
 
@@ -22,9 +23,24 @@ perl-uri
 
    |downloads_perl-uri| |docker_perl-uri|
 
-   :versions: 1.76-0, 1.74-0, 1.71-3, 1.71-2, 1.71-1, 1.71-0, 1.69-7, 1.69-6, 1.69-5, 1.69-4, 1.69-3, 1.69-2, 1.69-1, 1.69-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.76-0</code>,  <code>1.74-0</code>,  <code>1.71-3</code>,  <code>1.71-2</code>,  <code>1.71-1</code>,  <code>1.71-0</code>,  <code>1.69-7</code>,  <code>1.69-6</code>,  <code>1.69-5</code>,  </span></summary>
+      
+
+      ``1.76-0``,  ``1.74-0``,  ``1.71-3``,  ``1.71-2``,  ``1.71-1``,  ``1.71-0``,  ``1.69-7``,  ``1.69-6``,  ``1.69-5``,  ``1.69-4``,  ``1.69-3``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-business-isbn: 
    :depends perl-carp: 
    :depends perl-constant: 

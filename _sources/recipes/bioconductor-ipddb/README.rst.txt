@@ -8,6 +8,7 @@ bioconductor-ipddb
 
 .. conda:recipe:: bioconductor-ipddb
    :replaces_section_title:
+   :noindex:
 
    IPD IMGT\/HLA and IPD KIR database for Homo sapiens
 
@@ -22,15 +23,22 @@ bioconductor-ipddb
 
    |downloads_bioconductor-ipddb| |docker_bioconductor-ipddb|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 
    :requirements:

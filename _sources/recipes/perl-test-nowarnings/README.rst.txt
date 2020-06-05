@@ -8,6 +8,7 @@ perl-test-nowarnings
 
 .. conda:recipe:: perl-test-nowarnings
    :replaces_section_title:
+   :noindex:
 
    Make sure you didn\'t emit any warnings while testing
 
@@ -22,9 +23,16 @@ perl-test-nowarnings
 
    |downloads_perl-test-nowarnings| |docker_perl-test-nowarnings|
 
-   :versions: 1.04-3, 1.04-2, 1.04-1, 1.04-0
+   :versions:
+      
+      
+
+      ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

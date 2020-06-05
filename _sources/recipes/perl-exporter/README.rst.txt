@@ -8,6 +8,7 @@ perl-exporter
 
 .. conda:recipe:: perl-exporter/5.72
    :replaces_section_title:
+   :noindex:
 
    Implements default import method for modules
 
@@ -22,9 +23,16 @@ perl-exporter
 
    |downloads_perl-exporter| |docker_perl-exporter|
 
-   :versions: 5.72-1, 5.72-0
+   :versions:
+      
+      
+
+      ``5.72-1``,  ``5.72-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

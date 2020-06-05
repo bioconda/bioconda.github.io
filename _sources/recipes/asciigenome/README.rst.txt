@@ -8,6 +8,7 @@ asciigenome
 
 .. conda:recipe:: asciigenome
    :replaces_section_title:
+   :noindex:
 
    Command\-line genome browser running from terminal window and solely based on ASCII characters
 
@@ -22,7 +23,22 @@ asciigenome
 
    |downloads_asciigenome| |docker_asciigenome|
 
-   :versions: 1.15.0-0, 1.14.0-2, 1.14.0-0, 1.13.0-0, 1.12.0-0, 1.8.0-0, 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.6.4-0, 0.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.15.0-0</code>,  <code>1.14.0-2</code>,  <code>1.14.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+      
+
+      ``1.15.0-0``,  ``1.14.0-2``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.6.4-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends openjdk: 
    :depends zlib: 

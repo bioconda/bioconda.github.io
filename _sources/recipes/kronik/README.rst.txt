@@ -8,6 +8,7 @@ kronik
 
 .. conda:recipe:: kronik
    :replaces_section_title:
+   :noindex:
 
    Utility for processing Hardklor features to find candidate peptides by chromatographic profiling
 
@@ -23,9 +24,16 @@ kronik
 
    |downloads_kronik| |docker_kronik|
 
-   :versions: 2.20-1, 2.20-0
+   :versions:
+      
+      
+
+      ``2.20-1``,  ``2.20-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

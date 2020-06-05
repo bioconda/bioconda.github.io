@@ -8,6 +8,7 @@ bioconductor-genomeinfodbdata
 
 .. conda:recipe:: bioconductor-genomeinfodbdata
    :replaces_section_title:
+   :noindex:
 
    Species and taxonomy ID look up tables used by GenomeInfoDb
 
@@ -22,10 +23,25 @@ bioconductor-genomeinfodbdata
 
    |downloads_bioconductor-genomeinfodbdata| |docker_bioconductor-genomeinfodbdata|
 
-   :versions: 1.2.3-0, 1.2.2-0, 1.2.1-1, 1.2.1-0, 1.2.0-0, 1.1.0-0, 1.0.0-1, 1.0.0-0, 0.99.0-1, 0.99.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.99.0-1</code>,  </span></summary>
+      
+
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.99.0-1``,  ``0.99.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

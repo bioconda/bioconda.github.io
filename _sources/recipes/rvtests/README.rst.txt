@@ -8,6 +8,7 @@ rvtests
 
 .. conda:recipe:: rvtests
    :replaces_section_title:
+   :noindex:
 
    Rare variant test software for next generation sequencing data
 
@@ -23,11 +24,18 @@ rvtests
 
    |downloads_rvtests| |docker_rvtests|
 
-   :versions: 2.0.7-2, 2.0.6-1
+   :versions:
+      
+      
+
+      ``2.0.7-2``,  ``2.0.6-1``
+
+      
+
    
-   :depends libgfortran: >=3.0
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgfortran: ``>=3.0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

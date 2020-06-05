@@ -8,6 +8,7 @@ dxua
 
 .. conda:recipe:: dxua
    :replaces_section_title:
+   :noindex:
 
    command\-line tool for uploading files to the DNAnexus Platform
 
@@ -22,7 +23,14 @@ dxua
 
    |downloads_dxua| |docker_dxua|
 
-   :versions: 1.5.31-0, 1.5.26-1, 1.5.26-0, 1.5.11-0
+   :versions:
+      
+      
+
+      ``1.5.31-0``,  ``1.5.26-1``,  ``1.5.26-0``,  ``1.5.11-0``
+
+      
+
    
    :requirements:
 

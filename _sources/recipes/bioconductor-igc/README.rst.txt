@@ -8,6 +8,7 @@ bioconductor-igc
 
 .. conda:recipe:: bioconductor-igc
    :replaces_section_title:
+   :noindex:
 
    An integrated analysis package of Gene expression and Copy number alteration
 
@@ -22,9 +23,16 @@ bioconductor-igc
 
    |downloads_bioconductor-igc| |docker_bioconductor-igc|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-plyr: 
    :requirements:

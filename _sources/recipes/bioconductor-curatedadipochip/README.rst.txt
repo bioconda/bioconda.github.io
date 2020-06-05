@@ -8,6 +8,7 @@ bioconductor-curatedadipochip
 
 .. conda:recipe:: bioconductor-curatedadipochip
    :replaces_section_title:
+   :noindex:
 
    A Curated ChIP\-Seq Dataset of MDI\-induced Differentiated Adipocytes \(3T3\-L1\)
 
@@ -22,12 +23,19 @@ bioconductor-curatedadipochip
 
    |downloads_bioconductor-curatedadipochip| |docker_bioconductor-curatedadipochip|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

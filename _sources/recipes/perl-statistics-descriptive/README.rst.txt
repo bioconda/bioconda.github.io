@@ -8,6 +8,7 @@ perl-statistics-descriptive
 
 .. conda:recipe:: perl-statistics-descriptive
    :replaces_section_title:
+   :noindex:
 
    Module of basic descriptive statistical functions.
 
@@ -22,9 +23,16 @@ perl-statistics-descriptive
 
    |downloads_perl-statistics-descriptive| |docker_perl-statistics-descriptive|
 
-   :versions: 3.0702-0, 3.0612-2, 3.0612-1, 3.0612-0, 3.0609-4, 3.0609-3, 3.0609-2, 3.0609-1, 3.0609-0
+   :versions:
+      
+      
+
+      ``3.0702-0``,  ``3.0612-2``,  ``3.0612-1``,  ``3.0612-0``,  ``3.0609-4``,  ``3.0609-3``,  ``3.0609-2``,  ``3.0609-1``,  ``3.0609-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-list-moreutils: 
    :requirements:
 

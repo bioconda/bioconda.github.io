@@ -8,6 +8,7 @@ perl-onto-perl
 
 .. conda:recipe:: perl-onto-perl
    :replaces_section_title:
+   :noindex:
 
    PERL modules for manipulating OBO\-formatted ontologies\, such as the Gene Ontology \(GO\)
 
@@ -22,9 +23,16 @@ perl-onto-perl
 
    |downloads_perl-onto-perl| |docker_perl-onto-perl|
 
-   :versions: 1.45-2, 1.45-1, 1.45-0
+   :versions:
+      
+      
+
+      ``1.45-2``,  ``1.45-1``,  ``1.45-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-date-manip: 
    :depends perl-text-csv: 
    :depends perl-xml-parser: 

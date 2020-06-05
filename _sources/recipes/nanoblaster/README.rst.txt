@@ -8,6 +8,7 @@ nanoblaster
 
 .. conda:recipe:: nanoblaster
    :replaces_section_title:
+   :noindex:
 
    Basic Local Alignment and Search Tool for Oxford Nanopore Long Sequences
 
@@ -22,9 +23,16 @@ nanoblaster
 
    |downloads_nanoblaster| |docker_nanoblaster|
 
-   :versions: 0.16-1, 0.16-0
+   :versions:
+      
+      
+
+      ``0.16-1``,  ``0.16-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

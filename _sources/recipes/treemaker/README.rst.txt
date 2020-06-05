@@ -8,6 +8,7 @@ treemaker
 
 .. conda:recipe:: treemaker
    :replaces_section_title:
+   :noindex:
 
    A python tool for generating a Newick formatted tree from alist of classifications
 
@@ -22,7 +23,14 @@ treemaker
 
    |downloads_treemaker| |docker_treemaker|
 
-   :versions: 1.4-0, 1.3-0, 1.2-0, 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

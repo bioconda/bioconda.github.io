@@ -8,6 +8,7 @@ genometools
 
 .. conda:recipe:: genometools
    :replaces_section_title:
+   :noindex:
 
    GenomeTools\: Scripts and Classes For Working With Genomic Data.
 
@@ -22,11 +23,18 @@ genometools
 
    |downloads_genometools| |docker_genometools|
 
-   :versions: 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.2.1-0``
+
+      
+
    
    :depends ftputil: 
    :depends numpy: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends requests: 
    :depends unicodecsv: 
    :depends xmltodict: 

@@ -8,6 +8,7 @@ perl-file-find
 
 .. conda:recipe:: perl-file-find/1.27
    :replaces_section_title:
+   :noindex:
 
    Traverse a directory tree.
 
@@ -22,9 +23,16 @@ perl-file-find
 
    |downloads_perl-file-find| |docker_perl-file-find|
 
-   :versions: 1.27-1, 1.27-0
+   :versions:
+      
+      
+
+      ``1.27-1``,  ``1.27-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

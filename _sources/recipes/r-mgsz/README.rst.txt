@@ -8,6 +8,7 @@ r-mgsz
 
 .. conda:recipe:: r-mgsz
    :replaces_section_title:
+   :noindex:
 
    Performs gene set analysis based on GSZ scoring function and asymptotic p\-value. It is different from GSZ in that it implements asymptotic p\-values instead of empirical p\-values. Asymptotic p\-values are calculated by fitting suitable distribution model to the null distribution. Unlike empirical p\-values\, resolution of asymptotic p\-values are independent of the number of permutations and hence requires considerably fewer permutations. In addition\, this package allows gene set analysis with seven other popular gene set analysis methods.
 
@@ -22,11 +23,18 @@ r-mgsz
 
    |downloads_r-mgsz| |docker_r-mgsz|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends bioconductor-biobase: 
    :depends bioconductor-limma: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gsa: 
    :depends r-ismev: 
    :depends r-mass: 

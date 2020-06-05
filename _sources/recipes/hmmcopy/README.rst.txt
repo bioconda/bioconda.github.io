@@ -8,6 +8,7 @@ hmmcopy
 
 .. conda:recipe:: hmmcopy
    :replaces_section_title:
+   :noindex:
 
    C\+\+ based programs for analyzing BAM files and preparing read counts \-\- used with bioconductor\-hmmcopy
 
@@ -22,11 +23,18 @@ hmmcopy
 
    |downloads_hmmcopy| |docker_hmmcopy|
 
-   :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

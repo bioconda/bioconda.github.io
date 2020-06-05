@@ -8,6 +8,7 @@ perl-graphics-colorobject
 
 .. conda:recipe:: perl-graphics-colorobject
    :replaces_section_title:
+   :noindex:
 
    convert between color spaces
 
@@ -22,9 +23,16 @@ perl-graphics-colorobject
 
    |downloads_perl-graphics-colorobject| |docker_perl-graphics-colorobject|
 
-   :versions: 0.5.0-1
+   :versions:
+      
+      
+
+      ``0.5.0-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-graphics-colornames: 
    :requirements:
 

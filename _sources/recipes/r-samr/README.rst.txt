@@ -8,6 +8,7 @@ r-samr
 
 .. conda:recipe:: r-samr
    :replaces_section_title:
+   :noindex:
 
    Significance Analysis of Microarrays
 
@@ -22,11 +23,18 @@ r-samr
 
    |downloads_r-samr| |docker_r-samr|
 
-   :versions: 3.0-2, 3.0-1, 3.0-0, 2.0-3, 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``3.0-2``,  ``3.0-1``,  ``3.0-0``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+
    
-   :depends bioconductor-impute: >=1.56.0
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-impute: ``>=1.56.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gsa: 
    :depends r-matrixstats: 
    :depends r-openxlsx: 

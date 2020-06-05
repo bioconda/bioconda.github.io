@@ -8,6 +8,7 @@ bioconductor-estrogen
 
 .. conda:recipe:: bioconductor-estrogen
    :replaces_section_title:
+   :noindex:
 
    Microarray dataset that can be used as example for 2x2 factorial designs
 
@@ -22,10 +23,17 @@ bioconductor-estrogen
 
    |downloads_bioconductor-estrogen| |docker_bioconductor-estrogen|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-1, 1.30.0-0, 1.28.0-0
+   :versions:
+      
+      
+
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

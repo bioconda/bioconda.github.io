@@ -8,6 +8,7 @@ bioconductor-bloodcancermultiomics2017
 
 .. conda:recipe:: bioconductor-bloodcancermultiomics2017
    :replaces_section_title:
+   :noindex:
 
    \"Drug\-perturbation\-based stratification of blood cancer\" by Dietrich S\, Oles M\, Lu J et al. \- experimental data and complete analysis
 
@@ -22,13 +23,20 @@ bioconductor-bloodcancermultiomics2017
 
    |downloads_bioconductor-bloodcancermultiomics2017| |docker_bioconductor-bloodcancermultiomics2017|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-beeswarm: 
    :depends r-devtools: 
    :depends r-dplyr: 

@@ -8,6 +8,7 @@ metasv
 
 .. conda:recipe:: metasv
    :replaces_section_title:
+   :noindex:
 
    An accurate and integrative structural\-variant caller for next generation sequencing
 
@@ -22,13 +23,20 @@ metasv
 
    |downloads_metasv| |docker_metasv|
 
-   :versions: 0.5.4-1, 0.5.4-0, 0.4.0-4, 0.4.0-3
+   :versions:
+      
+      
+
+      ``0.5.4-1``,  ``0.5.4-0``,  ``0.4.0-4``,  ``0.4.0-3``
+
+      
+
    
    :depends age-metasv: 
-   :depends pybedtools: 0.6.9
-   :depends pysam: 0.7.7
-   :depends python: >=2.7,<2.8.0a0
-   :depends pyvcf: 0.6.7
+   :depends pybedtools: ``0.6.9``
+   :depends pysam: ``0.7.7``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends pyvcf: ``0.6.7``
    :depends spades: 
    :requirements:
 

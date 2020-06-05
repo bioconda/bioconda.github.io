@@ -8,6 +8,7 @@ bioconductor-lrbasedbi
 
 .. conda:recipe:: bioconductor-lrbasedbi
    :replaces_section_title:
+   :noindex:
 
    DBI to construct LRBase\-related package
 
@@ -22,11 +23,18 @@ bioconductor-lrbasedbi
 
    |downloads_bioconductor-lrbasedbi| |docker_bioconductor-lrbasedbi|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 
    :requirements:

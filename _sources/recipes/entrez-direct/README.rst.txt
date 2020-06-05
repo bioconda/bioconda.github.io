@@ -8,6 +8,7 @@ entrez-direct
 
 .. conda:recipe:: entrez-direct
    :replaces_section_title:
+   :noindex:
 
    Entrez Direct \(EDirect\) is an advanced method for accessing the NCBI\'s set of interconnected databases \(publication\, sequence\, structure\, gene\, variation\, expression\, etc.\) from a UNIX terminal window. Functions take search terms from command\-line arguments. Individual operations are combined to build multi\-step queries. Record retrieval and formatting normally complete the process.
 
@@ -22,9 +23,24 @@ entrez-direct
 
    |downloads_entrez-direct| |docker_entrez-direct|
 
-   :versions: 13.3-0, 11.0-2, 11.0-1, 11.0-0, 10.2-0, 10.0-0, 7.70-2, 7.70-1, 7.70-0, 7.00-1, 7.00-0, 5.80-0, 4.00-1, 4.00-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>13.3-0</code>,  <code>11.0-2</code>,  <code>11.0-1</code>,  <code>11.0-0</code>,  <code>10.2-0</code>,  <code>10.0-0</code>,  <code>7.70-2</code>,  <code>7.70-1</code>,  <code>7.70-0</code>,  </span></summary>
+      
+
+      ``13.3-0``,  ``11.0-2``,  ``11.0-1``,  ``11.0-0``,  ``10.2-0``,  ``10.0-0``,  ``7.70-2``,  ``7.70-1``,  ``7.70-0``,  ``7.00-1``,  ``7.00-0``,  ``5.80-0``,  ``4.00-1``,  ``4.00-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-html-parser: 
    :depends perl-html-tagset: 
    :depends perl-html-tree: 

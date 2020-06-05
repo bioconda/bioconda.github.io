@@ -8,6 +8,7 @@ bioconductor-imman
 
 .. conda:recipe:: bioconductor-imman
    :replaces_section_title:
+   :noindex:
 
    Interlog protein network reconstruction by Mapping and Mining ANalysis
 
@@ -22,11 +23,18 @@ bioconductor-imman
 
    |downloads_bioconductor-imman| |docker_bioconductor-imman|
 
-   :versions: 1.7.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-stringdb: >=2.0.0,<2.1.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-stringdb: ``>=2.0.0,<2.1.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-seqinr: 
    :requirements:

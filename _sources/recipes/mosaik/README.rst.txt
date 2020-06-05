@@ -8,6 +8,7 @@ mosaik
 
 .. conda:recipe:: mosaik
    :replaces_section_title:
+   :noindex:
 
    MOSAIK is a stable\, sensitive and open\-source program for mapping second and third\-generation sequencing reads to a reference genome.
 
@@ -23,10 +24,17 @@ mosaik
 
    |downloads_mosaik| |docker_mosaik|
 
-   :versions: 2.2.26-4, 2.2.26-3, 2.2.26-2, 2.2.26-1, 2.2.26-0
+   :versions:
+      
+      
+
+      ``2.2.26-4``,  ``2.2.26-3``,  ``2.2.26-2``,  ``2.2.26-1``,  ``2.2.26-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

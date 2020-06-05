@@ -8,6 +8,7 @@ biopet-scatterregions
 
 .. conda:recipe:: biopet-scatterregions
    :replaces_section_title:
+   :noindex:
 
    This tool breaks a reference or bed file into smaller scatter regions of equal size.
 
@@ -25,9 +26,16 @@ biopet-scatterregions
 
    |downloads_biopet-scatterregions| |docker_biopet-scatterregions|
 
-   :versions: 0.2-0, 0.1-0
+   :versions:
+      
+      
+
+      ``0.2-0``,  ``0.1-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

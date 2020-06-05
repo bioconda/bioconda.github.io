@@ -8,6 +8,7 @@ intarna
 
 .. conda:recipe:: intarna
    :replaces_section_title:
+   :noindex:
 
    Efficient RNA\-RNA interaction prediction incorporating seeding and accessibility of interacting sites
 
@@ -23,13 +24,28 @@ intarna
 
    |downloads_intarna| |docker_intarna|
 
-   :versions: 3.2.0-0, 3.1.5-0, 3.1.3-0, 3.1.2-0, 3.1.1-0, 3.1.0.2-1, 3.1.0.2-0, 3.0.0-0, 2.4.1-0, 2.3.1-2, 2.3.1-1, 2.3.1-0, 2.3.0-0, 2.2.1-0, 2.2.0-3, 2.2.0-2, 2.2.0-1, 2.1.0-2, 2.1.0-1, 2.1.0-0, 2.0.5-0, 2.0.4-1, 2.0.3-1, 2.0.3-0, 2.0.2-0, 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.2.5-2, 1.2.5-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.5-0</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0.2-1</code>,  <code>3.1.0.2-0</code>,  <code>3.0.0-0</code>,  <code>2.4.1-0</code>,  </span></summary>
+      
+
+      ``3.2.0-0``,  ``3.1.5-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0.2-1``,  ``3.1.0.2-0``,  ``3.0.0-0``,  ``2.4.1-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-2``,  ``1.2.5-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends viennarna: >=2.4.14,<2.5.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends viennarna: ``>=2.4.14,<2.5.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

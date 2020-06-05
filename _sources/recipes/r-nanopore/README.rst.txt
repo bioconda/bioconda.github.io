@@ -8,6 +8,7 @@ r-nanopore
 
 .. conda:recipe:: r-nanopore
    :replaces_section_title:
+   :noindex:
 
    R methods\, associated with Nanopore tutorials\, for analysis and presentation of Oxford Nanopore Technologies long\-read sequence data
 
@@ -22,7 +23,14 @@ r-nanopore
 
    |downloads_r-nanopore| |docker_r-nanopore|
 
-   :versions: 0.2.9-1, 0.2.9-0, 0.2.8-0, 0.2.5-0
+   :versions:
+      
+      
+
+      ``0.2.9-1``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.5-0``
+
+      
+
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-genomeinfodb: 
@@ -34,8 +42,8 @@ r-nanopore
    :depends bioconductor-s4vectors: 
    :depends bioconductor-shortread: 
    :depends bioconductor-variantannotation: 
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-digest: 
    :depends r-dplyr: 

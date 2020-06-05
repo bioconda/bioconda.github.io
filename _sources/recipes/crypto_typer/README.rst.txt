@@ -8,6 +8,7 @@ crypto_typer
 
 .. conda:recipe:: crypto_typer
    :replaces_section_title:
+   :noindex:
 
    This package crypto\_typer\: tool to subtype the parasite\, Cryptosporidium\, based on the 18S and gp60 markers.
 
@@ -22,12 +23,19 @@ crypto_typer
 
    |downloads_crypto_typer| |docker_crypto_typer|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends biopython: >=1.70
-   :depends blast: 2.9.0
-   :depends numpy: >=1.15.4
-   :depends python: >=3.4
+   :depends biopython: ``>=1.70``
+   :depends blast: ``2.9.0``
+   :depends numpy: ``>=1.15.4``
+   :depends python: ``>=3.4``
    :requirements:
 
    .. rubric:: Installation

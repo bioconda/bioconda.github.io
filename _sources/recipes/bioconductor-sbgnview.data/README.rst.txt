@@ -8,6 +8,7 @@ bioconductor-sbgnview.data
 
 .. conda:recipe:: bioconductor-sbgnview.data
    :replaces_section_title:
+   :noindex:
 
    Demo gene expression datasets for SBGNview package
 
@@ -22,10 +23,17 @@ bioconductor-sbgnview.data
 
    |downloads_bioconductor-sbgnview.data| |docker_bioconductor-sbgnview.data|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
    :depends r-rmarkdown: 
    :requirements:

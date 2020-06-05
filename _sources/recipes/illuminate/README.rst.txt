@@ -8,6 +8,7 @@ illuminate
 
 .. conda:recipe:: illuminate
    :replaces_section_title:
+   :noindex:
 
    Analytics toolkit for Illumina sequencer metrics.
 
@@ -23,14 +24,21 @@ illuminate
 
    |downloads_illuminate| |docker_illuminate|
 
-   :versions: 0.6.3-0
+   :versions:
+      
+      
+
+      ``0.6.3-0``
+
+      
+
    
-   :depends bitstring: >=3.1.0
+   :depends bitstring: ``>=3.1.0``
    :depends docopt: 
-   :depends numpy: >=1.6.2
-   :depends openpyxl: ==1.8.6
-   :depends pandas: >=0.14
-   :depends python: 2.7*
+   :depends numpy: ``>=1.6.2``
+   :depends openpyxl: ``==1.8.6``
+   :depends pandas: ``>=0.14``
+   :depends python: ``2.7*``
    :depends xmltodict: 
    :requirements:
 

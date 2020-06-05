@@ -8,6 +8,7 @@ gvcftools
 
 .. conda:recipe:: gvcftools
    :replaces_section_title:
+   :noindex:
 
    a set of utilities to help create and analyze Genome VCF \(gVCF\) files.
 
@@ -22,11 +23,18 @@ gvcftools
 
    |downloads_gvcftools| |docker_gvcftools|
 
-   :versions: 0.17.0-3, 0.17.0-2, 0.17.0-1, 0.17.0-0
+   :versions:
+      
+      
+
+      ``0.17.0-3``,  ``0.17.0-2``,  ``0.17.0-1``,  ``0.17.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :depends perl: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

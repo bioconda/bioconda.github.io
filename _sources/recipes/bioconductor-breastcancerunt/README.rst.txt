@@ -8,6 +8,7 @@ bioconductor-breastcancerunt
 
 .. conda:recipe:: bioconductor-breastcancerunt
    :replaces_section_title:
+   :noindex:
 
    Gene expression dataset published by Sotiriou et al. \[2007\] \(UNT\).
 
@@ -22,10 +23,17 @@ bioconductor-breastcancerunt
 
    |downloads_bioconductor-breastcancerunt| |docker_bioconductor-breastcancerunt|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

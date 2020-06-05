@@ -8,6 +8,7 @@ imseq
 
 .. conda:recipe:: imseq
    :replaces_section_title:
+   :noindex:
 
    IMSEQ is a fast\, PCR and sequencing error aware tool to analyze high throughput data from recombined T\-cell receptor or immunoglobulin gene sequencing experiments
 
@@ -23,10 +24,17 @@ imseq
 
    |downloads_imseq| |docker_imseq|
 
-   :versions: 1.1.0-2, 1.1.0-1, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

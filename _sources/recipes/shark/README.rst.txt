@@ -8,6 +8,7 @@ shark
 
 .. conda:recipe:: shark
    :replaces_section_title:
+   :noindex:
 
    Mapping\-free filtering of useless RNA\-Seq reads
 
@@ -23,12 +24,19 @@ shark
 
    |downloads_shark| |docker_shark|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends tbb: >=2019.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends tbb: ``>=2019.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

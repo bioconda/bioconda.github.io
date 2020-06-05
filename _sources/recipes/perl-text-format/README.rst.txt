@@ -8,6 +8,7 @@ perl-text-format
 
 .. conda:recipe:: perl-text-format
    :replaces_section_title:
+   :noindex:
 
    Format text
 
@@ -22,9 +23,16 @@ perl-text-format
 
    |downloads_perl-text-format| |docker_perl-text-format|
 
-   :versions: 0.59-2, 0.59-1, 0.59-0
+   :versions:
+      
+      
+
+      ``0.59-2``,  ``0.59-1``,  ``0.59-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

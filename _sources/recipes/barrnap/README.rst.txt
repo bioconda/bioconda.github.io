@@ -8,6 +8,7 @@ barrnap
 
 .. conda:recipe:: barrnap
    :replaces_section_title:
+   :noindex:
 
    Barrnap predicts the location of ribosomal RNA genes in genomes. \(bacteria\, archaea\, metazoan mitochondria and eukaryotes.\)
 
@@ -23,10 +24,25 @@ barrnap
 
    |downloads_barrnap| |docker_barrnap|
 
-   :versions: 0.9-3, 0.9-2, 0.9-1, 0.9-0, 0.8-1, 0.8-0, 0.7-4, 0.7-3, 0.7-2, 0.7-1, 0.7-0, 0.3-2, 0.3-1, 0.3-0, 0.2-1, 0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.9-3</code>,  <code>0.9-2</code>,  <code>0.9-1</code>,  <code>0.9-0</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-4</code>,  <code>0.7-3</code>,  <code>0.7-2</code>,  </span></summary>
+      
+
+      ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-4``,  ``0.7-3``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedtools: 
-   :depends hmmer: >=3.1b
+   :depends hmmer: ``>=3.1b``
    :depends perl: 
    :requirements:
 

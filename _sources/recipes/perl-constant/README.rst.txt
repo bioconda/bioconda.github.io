@@ -8,6 +8,7 @@ perl-constant
 
 .. conda:recipe:: perl-constant/1.33
    :replaces_section_title:
+   :noindex:
 
    Perl pragma to declare constants
 
@@ -22,9 +23,16 @@ perl-constant
 
    |downloads_perl-constant| |docker_perl-constant|
 
-   :versions: 1.33-1, 1.33-0
+   :versions:
+      
+      
+
+      ``1.33-1``,  ``1.33-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

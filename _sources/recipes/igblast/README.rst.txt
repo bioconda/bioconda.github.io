@@ -8,6 +8,7 @@ igblast
 
 .. conda:recipe:: igblast
    :replaces_section_title:
+   :noindex:
 
    A tool for analyzing immunoglobulin \(IG\) and T cell receptor \(TR\) sequences
 
@@ -23,15 +24,30 @@ igblast
 
    |downloads_igblast| |docker_igblast|
 
-   :versions: 1.15.0-0, 1.10.0-1, 1.10.0-0, 1.9.0-0, 1.7.0-1, 1.7.0-0, 1.5.0-2, 1.5.0-1, 1.4.0-6, 1.4.0-5, 1.4.0-4, 1.4.0-2, 1.4.0-1, 1.4.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.15.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.4.0-6</code>,  </span></summary>
+      
+
+      ``1.15.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.4.0-6``,  ``1.4.0-5``,  ``1.4.0-4``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends libxml2: >=2.9.10,<2.10.0a0
-   :depends ncbi-vdb: >=2.9.6
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libxml2: ``>=2.9.10,<2.10.0a0``
+   :depends ncbi-vdb: ``>=2.9.6``
    :depends perl: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

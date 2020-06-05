@@ -8,6 +8,7 @@ lorikeet-genome
 
 .. conda:recipe:: lorikeet-genome
    :replaces_section_title:
+   :noindex:
 
    Metagenomic Strain Resolver
 
@@ -22,21 +23,28 @@ lorikeet-genome
 
    |downloads_lorikeet-genome| |docker_lorikeet-genome|
 
-   :versions: 0.3.2-0
+   :versions:
+      
+      
+
+      ``0.3.2-0``
+
+      
+
    
-   :depends bwa: >=0.7.17
+   :depends bwa: ``>=0.7.17``
    :depends dashing: 
    :depends fastani: 
-   :depends gsl: >=2.6,<2.7.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends minimap2: 
-   :depends openblas: >=0.3.6,<0.3.7.0a0
-   :depends openssl: >=1.1.1g,<1.1.2a
-   :depends snippy: >=4.4.5
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends openssl: ``>=1.1.1g,<1.1.2a``
+   :depends snippy: ``>=4.4.5``
    :depends starcode: 
    :depends svim: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

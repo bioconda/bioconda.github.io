@@ -8,6 +8,7 @@ vawk
 
 .. conda:recipe:: vawk
    :replaces_section_title:
+   :noindex:
 
    An awk\-like VCF parser
 
@@ -22,7 +23,14 @@ vawk
 
    |downloads_vawk| |docker_vawk|
 
-   :versions: 0.0.2-4, 0.0.2-3, 0.0.2-1, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.2-4``,  ``0.0.2-3``,  ``0.0.2-1``,  ``0.0.2-0``
+
+      
+
    
    :depends gawk: 
    :depends python: 

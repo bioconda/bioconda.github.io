@@ -8,6 +8,7 @@ biskit
 
 .. conda:recipe:: biskit
    :replaces_section_title:
+   :noindex:
 
    A Python platform for structural bioinformatics
 
@@ -23,11 +24,18 @@ biskit
 
    |downloads_biskit| |docker_biskit|
 
-   :versions: 2.5.1-0, 2.4.3-1, 2.4.3-0
+   :versions:
+      
+      
+
+      ``2.5.1-0``,  ``2.4.3-1``,  ``2.4.3-0``
+
+      
+
    
    :depends biopython: 
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

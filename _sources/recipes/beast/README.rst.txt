@@ -8,6 +8,7 @@ beast
 
 .. conda:recipe:: beast
    :replaces_section_title:
+   :noindex:
 
    BEAST is a cross\-platform program for Bayesian analysis of molecular sequences using MCMC
 
@@ -24,7 +25,14 @@ beast
 
    |downloads_beast| |docker_beast|
 
-   :versions: 1.10.4-1, 1.10.4-0, 1.10.3-0, 1.10.2-0, 1.10.1-0, 1.10.0-2, 1.10.0-0, 1.8.4-0, 1.8.2-1
+   :versions:
+      
+      
+
+      ``1.10.4-1``,  ``1.10.4-0``,  ``1.10.3-0``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-2``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.8.2-1``
+
+      
+
    
    :depends beagle-lib: 
    :depends openjdk: 

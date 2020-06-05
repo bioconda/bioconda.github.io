@@ -8,6 +8,7 @@ perl-pod-usage
 
 .. conda:recipe:: perl-pod-usage
    :replaces_section_title:
+   :noindex:
 
    print a usage message from embedded pod documentation 
 
@@ -22,9 +23,16 @@ perl-pod-usage
 
    |downloads_perl-pod-usage| |docker_perl-pod-usage|
 
-   :versions: 1.69-1, 1.69-0
+   :versions:
+      
+      
+
+      ``1.69-1``,  ``1.69-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-carp: 
    :depends perl-getopt-long: 
    :depends perl-pod-escapes: 

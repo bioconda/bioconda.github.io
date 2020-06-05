@@ -8,6 +8,7 @@ perl-math-spline
 
 .. conda:recipe:: perl-math-spline
    :replaces_section_title:
+   :noindex:
 
    Cubic Spline Interpolation of data
 
@@ -22,9 +23,16 @@ perl-math-spline
 
    |downloads_perl-math-spline| |docker_perl-math-spline|
 
-   :versions: 0.02-2, 0.02-1, 0.02-0
+   :versions:
+      
+      
+
+      ``0.02-2``,  ``0.02-1``,  ``0.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-math-derivative: 
    :requirements:
 

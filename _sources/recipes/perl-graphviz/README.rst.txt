@@ -8,6 +8,7 @@ perl-graphviz
 
 .. conda:recipe:: perl-graphviz
    :replaces_section_title:
+   :noindex:
 
    Interface to AT\&T\'s GraphViz. Deprecated. See GraphViz2
 
@@ -22,10 +23,17 @@ perl-graphviz
 
    |downloads_perl-graphviz| |docker_perl-graphviz|
 
-   :versions: 2.24-0, 2.20-1
+   :versions:
+      
+      
+
+      ``2.24-0``,  ``2.20-1``
+
+      
+
    
-   :depends graphviz: >=2.38.0,<3.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends graphviz: ``>=2.38.0,<3.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-file-which: 
    :depends perl-getopt-long: 

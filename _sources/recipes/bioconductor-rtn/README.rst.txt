@@ -8,6 +8,7 @@ bioconductor-rtn
 
 .. conda:recipe:: bioconductor-rtn
    :replaces_section_title:
+   :noindex:
 
    RTN\: Reconstruction of Transcriptional regulatory Networks and analysis of regulons
 
@@ -22,16 +23,23 @@ bioconductor-rtn
 
    |downloads_bioconductor-rtn| |docker_bioconductor-rtn|
 
-   :versions: 2.12.0-0, 2.10.0-0, 2.8.1-0, 2.6.3-0, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.6.3-0``,  ``2.6.0-0``
+
+      
+
    
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-minet: >=3.46.0,<3.47.0
-   :depends bioconductor-reder: >=1.36.0,<1.37.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-viper: >=1.22.0,<1.23.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-minet: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-reder: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-viper: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-car: 
    :depends r-data.table: 
    :depends r-igraph: 

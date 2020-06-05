@@ -8,6 +8,7 @@ hint
 
 .. conda:recipe:: hint
    :replaces_section_title:
+   :noindex:
 
    HiNT is a computational method for detecting copy number variations and translocations from Hi\-C data
 
@@ -22,31 +23,38 @@ hint
 
    |downloads_hint| |docker_hint|
 
-   :versions: 2.2.8-0, 2.2.7-1, 2.2.7-0, 2.2.1-0, 2.1.9-1, 2.1.9-0, 2.1.7-0, 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.2.8-0``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.1-0``,  ``2.1.9-1``,  ``2.1.9-0``,  ``2.1.7-0``,  ``2.0.1-0``
+
+      
+
    
-   :depends argparse: >=1.1
-   :depends bwa: >=0.7.16
-   :depends cooler: 0.8.3
-   :depends h5py: >=2.8.0
-   :depends multiprocess: >=0.70.5
-   :depends numpy: >=1.16.1
-   :depends openjdk: >=8
-   :depends pairix: >=0.3.6
-   :depends pairtools: >=0.2.2
-   :depends pandas: >=0.23.0
-   :depends perl: >=5
+   :depends argparse: ``>=1.1``
+   :depends bwa: ``>=0.7.16``
+   :depends cooler: ``0.8.3``
+   :depends h5py: ``>=2.8.0``
+   :depends multiprocess: ``>=0.70.5``
+   :depends numpy: ``>=1.16.1``
+   :depends openjdk: ``>=8``
+   :depends pairix: ``>=0.3.6``
+   :depends pairtools: ``>=0.2.2``
+   :depends pandas: ``>=0.23.0``
+   :depends perl: ``>=5``
    :depends pytabix: 
-   :depends python: >=3.5
-   :depends r: >=3.4
+   :depends python: ``>=3.5``
+   :depends r: ``>=3.4``
    :depends r-base: 
    :depends r-cairo: 
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-mgcv: 
    :depends r-strucchange: 
-   :depends samtools: >=1.9
-   :depends scikit-learn: >=0.19.1
-   :depends scipy: >=1.0.1
+   :depends samtools: ``>=1.9``
+   :depends scikit-learn: ``>=0.19.1``
+   :depends scipy: ``>=1.0.1``
    :depends tabix: 
    :requirements:
 

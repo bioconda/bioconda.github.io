@@ -8,6 +8,7 @@ bioconductor-targetscoredata
 
 .. conda:recipe:: bioconductor-targetscoredata
    :replaces_section_title:
+   :noindex:
 
    TargetScoreData
 
@@ -22,10 +23,17 @@ bioconductor-targetscoredata
 
    |downloads_bioconductor-targetscoredata| |docker_bioconductor-targetscoredata|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ python-edlib
 
 .. conda:recipe:: python-edlib
    :replaces_section_title:
+   :noindex:
 
    Lightweight\, super fast C\/C\+\+ \(\& Python\) library for sequence alignment using edit \(Levenshtein\) distance.
 
@@ -22,12 +23,27 @@ python-edlib
 
    |downloads_python-edlib| |docker_python-edlib|
 
-   :versions: 1.3.8.post1-1, 1.3.8.post1-0, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.2.4.post1-0, 1.2.4-0, 1.2.3.post1-0, 1.2.3-1, 1.2.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.8.post1-1</code>,  <code>1.3.8.post1-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.2.4.post1-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3.post1-0</code>,  </span></summary>
+      
+
+      ``1.3.8.post1-1``,  ``1.3.8.post1-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.2.4.post1-0``,  ``1.2.4-0``,  ``1.2.3.post1-0``,  ``1.2.3-1``,  ``1.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

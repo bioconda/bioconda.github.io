@@ -8,6 +8,7 @@ perl-bio-phylo
 
 .. conda:recipe:: perl-bio-phylo
    :replaces_section_title:
+   :noindex:
 
    An object\-oriented Perl toolkit for analyzing and manipulating phyloinformatic data.
 
@@ -22,9 +23,16 @@ perl-bio-phylo
 
    |downloads_perl-bio-phylo| |docker_perl-bio-phylo|
 
-   :versions: 0.58-2, 0.58-1, 0.58-0
+   :versions:
+      
+      
+
+      ``0.58-2``,  ``0.58-1``,  ``0.58-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-gd: 
    :depends perl-html-treebuilder-xpath: 
    :depends perl-json: 

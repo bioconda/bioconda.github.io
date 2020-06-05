@@ -8,6 +8,7 @@ bioconductor-trio
 
 .. conda:recipe:: bioconductor-trio
    :replaces_section_title:
+   :noindex:
 
    Testing of SNPs and SNP Interactions in Case\-Parent Trio Studies
 
@@ -23,11 +24,18 @@ bioconductor-trio
 
    |downloads_bioconductor-trio| |docker_bioconductor-trio|
 
-   :versions: 3.26.0-0, 3.24.0-0, 3.22.0-1, 3.20.0-0, 3.18.0-0, 3.16.0-0, 3.14.0-0
+   :versions:
+      
+      
+
+      ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``
+
+      
+
    
-   :depends bioconductor-siggenes: >=1.62.0,<1.63.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-logicreg: >=1.6.1
+   :depends bioconductor-siggenes: ``>=1.62.0,<1.63.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-logicreg: ``>=1.6.1``
    :depends r-survival: 
    :requirements:
 

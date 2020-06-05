@@ -8,6 +8,7 @@ biobb_adapters
 
 .. conda:recipe:: biobb_adapters
    :replaces_section_title:
+   :noindex:
 
    Biobb\_adapters is the Biobb module collection to use the building blocks with several workflow managers.
 
@@ -53,11 +54,18 @@ biobb_adapters
 
    |downloads_biobb_adapters| |docker_biobb_adapters|
 
-   :versions: 0.1.4-0
+   :versions:
+      
+      
+
+      ``0.1.4-0``
+
+      
+
    
    :depends cwltool: 
    :depends jupyter: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

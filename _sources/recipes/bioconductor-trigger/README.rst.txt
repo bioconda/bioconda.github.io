@@ -8,6 +8,7 @@ bioconductor-trigger
 
 .. conda:recipe:: bioconductor-trigger
    :replaces_section_title:
+   :noindex:
 
    Transcriptional Regulatory Inference from Genetics of Gene ExpRession
 
@@ -23,14 +24,21 @@ bioconductor-trigger
 
    |downloads_bioconductor-trigger| |docker_bioconductor-trigger|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-1, 1.28.0-0, 1.26.0-0, 1.24.0-0
+   :versions:
+      
+      
+
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
+
+      
+
    
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends bioconductor-sva: >=3.36.0,<3.37.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corpcor: 
    :depends r-qtl: 
    :requirements:

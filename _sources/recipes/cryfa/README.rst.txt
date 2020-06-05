@@ -8,6 +8,7 @@ cryfa
 
 .. conda:recipe:: cryfa
    :replaces_section_title:
+   :noindex:
 
    A secure encryption tool for genomic data
 
@@ -22,10 +23,17 @@ cryfa
 
    |downloads_cryfa| |docker_cryfa|
 
-   :versions: 18.06-0
+   :versions:
+      
+      
+
+      ``18.06-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

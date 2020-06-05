@@ -8,6 +8,7 @@ rnaz
 
 .. conda:recipe:: rnaz
    :replaces_section_title:
+   :noindex:
 
    predicting structural noncoding RNAs
 
@@ -23,11 +24,18 @@ rnaz
 
    |downloads_rnaz| |docker_rnaz|
 
-   :versions: 2.1.1-1, 2.1.1-0, 2.1-4, 2.1-3, 2.1-2, 2.1-1, 2.1-0
+   :versions:
+      
+      
+
+      ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

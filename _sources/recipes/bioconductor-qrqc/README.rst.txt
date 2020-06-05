@@ -8,6 +8,7 @@ bioconductor-qrqc
 
 .. conda:recipe:: bioconductor-qrqc
    :replaces_section_title:
+   :noindex:
 
    Quick Read Quality Control
 
@@ -23,15 +24,22 @@ bioconductor-qrqc
 
    |downloads_bioconductor-qrqc| |docker_bioconductor-qrqc|
 
-   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   :versions:
+      
+      
+
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-biovizbase: >=1.36.0,<1.37.0
-   :depends bioconductor-rhtslib: >=1.20.0,<1.21.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-biovizbase: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-rhtslib: ``>=1.20.0,<1.21.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-brew: 
    :depends r-ggplot2: 
    :depends r-plyr: 

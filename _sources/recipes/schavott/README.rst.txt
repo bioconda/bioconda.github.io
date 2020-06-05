@@ -8,6 +8,7 @@ schavott
 
 .. conda:recipe:: schavott
    :replaces_section_title:
+   :noindex:
 
    Assembly and scaffolding of bacterial genomes in real time using MinION\-sequencing.
 
@@ -22,14 +23,21 @@ schavott
 
    |downloads_schavott| |docker_schavott|
 
-   :versions: 0.5.0-1, 0.5.0-0, 0.4.1-0, 0.3-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``
+
+      
+
    
    :depends bokeh: 
-   :depends h5py: >=2.2.0
+   :depends h5py: ``>=2.2.0``
    :depends numpy: 
    :depends pyfasta: 
    :depends python: 
-   :depends watchdog: >=0.8.3
+   :depends watchdog: ``>=0.8.3``
    :requirements:
 
    .. rubric:: Installation

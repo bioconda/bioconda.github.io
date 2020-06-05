@@ -8,6 +8,7 @@ biopet-vcfstats
 
 .. conda:recipe:: biopet-vcfstats
    :replaces_section_title:
+   :noindex:
 
    Vcfstats is a tool that can generate metrics from a vcf file.
 
@@ -32,9 +33,16 @@ biopet-vcfstats
 
    |downloads_biopet-vcfstats| |docker_biopet-vcfstats|
 
-   :versions: 1.2-0, 1.1-1, 1.1-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

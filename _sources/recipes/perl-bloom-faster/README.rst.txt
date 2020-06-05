@@ -8,6 +8,7 @@ perl-bloom-faster
 
 .. conda:recipe:: perl-bloom-faster
    :replaces_section_title:
+   :noindex:
 
    Perl extension for the c library libbloom.
 
@@ -22,10 +23,17 @@ perl-bloom-faster
 
    |downloads_perl-bloom-faster| |docker_perl-bloom-faster|
 
-   :versions: 1.7-2, 1.7-1, 1.7-0
+   :versions:
+      
+      
+
+      ``1.7-2``,  ``1.7-1``,  ``1.7-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

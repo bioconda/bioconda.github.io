@@ -8,6 +8,7 @@ mavis
 
 .. conda:recipe:: mavis
    :replaces_section_title:
+   :noindex:
 
    A Structural Variant Post\-Processing Package
 
@@ -24,19 +25,26 @@ mavis
 
    |downloads_mavis| |docker_mavis|
 
-   :versions: 2.2.6-0
+   :versions:
+      
+      
+
+      ``2.2.6-0``
+
+      
+
    
-   :depends biopython: >=1.70
-   :depends braceexpand: 0.1.2
+   :depends biopython: ``>=1.70``
+   :depends braceexpand: ``0.1.2``
    :depends colour: 
-   :depends distance: >=0.1.3
-   :depends networkx: 1.11.0
-   :depends numpy: >=1.13.1
-   :depends pysam: >=0.9
-   :depends python: >=3
-   :depends pyvcf: 0.6.8
-   :depends shapely: >=1.6.4
-   :depends shortuuid: >=0.5.0
+   :depends distance: ``>=0.1.3``
+   :depends networkx: ``1.11.0``
+   :depends numpy: ``>=1.13.1``
+   :depends pysam: ``>=0.9``
+   :depends python: ``>=3``
+   :depends pyvcf: ``0.6.8``
+   :depends shapely: ``>=1.6.4``
+   :depends shortuuid: ``>=0.5.0``
    :depends svgwrite: 
    :depends ucsc-blat: 
    :requirements:

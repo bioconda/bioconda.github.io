@@ -8,6 +8,7 @@ piret
 
 .. conda:recipe:: piret
    :replaces_section_title:
+   :noindex:
 
    A tool for conducting RNA seq analysis.
 
@@ -23,22 +24,29 @@ piret
 
    |downloads_piret| |docker_piret|
 
-   :versions: 0.3.4-1, 0.3.4-0
+   :versions:
+      
+      
+
+      ``0.3.4-1``,  ``0.3.4-0``
+
+      
+
    
    :depends argparse: 
-   :depends bamtools: >=2.4.0
-   :depends bioconductor-deseq2: >=1.20.0
-   :depends bioconductor-edger: >=3.22.5
-   :depends biopython: >=1.7.0
-   :depends hisat2: >=2.0.5
-   :depends luigi: >=2.7.9
-   :depends pandas: >=0.23.4
-   :depends plumbum: >=1.6.0
+   :depends bamtools: ``>=2.4.0``
+   :depends bioconductor-deseq2: ``>=1.20.0``
+   :depends bioconductor-edger: ``>=3.22.5``
+   :depends biopython: ``>=1.7.0``
+   :depends hisat2: ``>=2.0.5``
+   :depends luigi: ``>=2.7.9``
+   :depends pandas: ``>=0.23.4``
+   :depends plumbum: ``>=1.6.0``
    :depends python: 
    :depends r: 
-   :depends samtools: >=1.3.1
-   :depends stringtie: >=1.3.3
-   :depends subread: >=1.5.0
+   :depends samtools: ``>=1.3.1``
+   :depends stringtie: ``>=1.3.3``
+   :depends subread: ``>=1.5.0``
    :requirements:
 
    .. rubric:: Installation

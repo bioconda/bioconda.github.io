@@ -8,6 +8,7 @@ sambamba
 
 .. conda:recipe:: sambamba
    :replaces_section_title:
+   :noindex:
 
    Tools for working with SAM\/BAM data
 
@@ -22,14 +23,29 @@ sambamba
 
    |downloads_sambamba| |docker_sambamba|
 
-   :versions: 0.7.1-2, 0.7.1-1, 0.7.1-0, 0.7.0-1, 0.7.0-0, 0.6.9-0, 0.6.8-2, 0.6.8-1, 0.6.8-0, 0.6.6-2, 0.6.6-1, 0.6.6-0, 0.6.5-0, 0.6.3-0, 0.6.2-0, 0.6.1-0, 0.5.9-1, 0.5.9-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.9-0</code>,  <code>0.6.8-2</code>,  <code>0.6.8-1</code>,  <code>0.6.8-0</code>,  </span></summary>
+      
+
+      ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.9-0``,  ``0.6.8-2``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.6-2``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.9-1``,  ``0.5.9-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends ldc: >=1.20.0,<1.21.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends xz: >=5.2.4,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends ldc: ``>=1.20.0,<1.21.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-font-afm
 
 .. conda:recipe:: perl-font-afm
    :replaces_section_title:
+   :noindex:
 
    Interface to Adobe Font Metrics files
 
@@ -22,9 +23,16 @@ perl-font-afm
 
    |downloads_perl-font-afm| |docker_perl-font-afm|
 
-   :versions: 1.20-2, 1.20-0
+   :versions:
+      
+      
+
+      ``1.20-2``,  ``1.20-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

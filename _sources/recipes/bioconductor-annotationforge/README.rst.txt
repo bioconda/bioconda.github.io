@@ -8,6 +8,7 @@ bioconductor-annotationforge
 
 .. conda:recipe:: bioconductor-annotationforge
    :replaces_section_title:
+   :noindex:
 
    Tools for building SQLite\-based annotation data packages
 
@@ -23,13 +24,28 @@ bioconductor-annotationforge
 
    |downloads_bioconductor-annotationforge| |docker_bioconductor-annotationforge|
 
-   :versions: 1.30.1-0, 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.2-0, 1.20.0-0, 1.18.2-0, 1.14.2-0, 1.14.0-0, 1.12.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.30.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.2-0</code>,  <code>1.20.0-0</code>,  <code>1.18.2-0</code>,  <code>1.14.2-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+      
+
+      ``1.30.1-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.14.2-0``,  ``1.14.0-0``,  ``1.12.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-rcurl: 
    :depends r-rsqlite: 

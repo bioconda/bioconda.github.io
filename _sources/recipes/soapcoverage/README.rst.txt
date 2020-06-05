@@ -8,6 +8,7 @@ soapcoverage
 
 .. conda:recipe:: soapcoverage
    :replaces_section_title:
+   :noindex:
 
    SOAPcoverarge can calculate sequencing coverage or physical coverage as well as duplication rate and details of specific block for each segments and whole genome by using SOAP\, BLAT\, BLAST\, BlastZ\, mum\- mer and MAQ aligement results with multi\-thread.
 
@@ -22,10 +23,17 @@ soapcoverage
 
    |downloads_soapcoverage| |docker_soapcoverage|
 
-   :versions: 2.7.7-0
+   :versions:
+      
+      
+
+      ``2.7.7-0``
+
+      
+
    
    :depends libgcc: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ e-pcr
 
 .. conda:recipe:: e-pcr
    :replaces_section_title:
+   :noindex:
 
    e\-PCR identifies sequence tagged sites\(STSs\)within DNA sequences..
 
@@ -22,7 +23,14 @@ e-pcr
 
    |downloads_e-pcr| |docker_e-pcr|
 
-   :versions: 2.3.12-0
+   :versions:
+      
+      
+
+      ``2.3.12-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

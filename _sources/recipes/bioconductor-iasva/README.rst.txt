@@ -8,6 +8,7 @@ bioconductor-iasva
 
 .. conda:recipe:: bioconductor-iasva
    :replaces_section_title:
+   :noindex:
 
    Iteratively Adjusted Surrogate Variable Analysis
 
@@ -22,11 +23,18 @@ bioconductor-iasva
 
    |downloads_bioconductor-iasva| |docker_bioconductor-iasva|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-irlba: 
    :requirements:

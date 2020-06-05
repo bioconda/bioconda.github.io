@@ -8,6 +8,7 @@ damasker
 
 .. conda:recipe:: damasker
    :replaces_section_title:
+   :noindex:
 
    DAMASKER\: Module to determine where repeats are and make soft\-masks of said
 
@@ -22,9 +23,16 @@ damasker
 
    |downloads_damasker| |docker_damasker|
 
-   :versions: 1.0p1-1, 1.0p1-0
+   :versions:
+      
+      
+
+      ``1.0p1-1``,  ``1.0p1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

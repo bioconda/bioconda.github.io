@@ -8,6 +8,7 @@ perl-xml-regexp
 
 .. conda:recipe:: perl-xml-regexp
    :replaces_section_title:
+   :noindex:
 
    Regular expressions for XML tokens
 
@@ -22,9 +23,16 @@ perl-xml-regexp
 
    |downloads_perl-xml-regexp| |docker_perl-xml-regexp|
 
-   :versions: 0.04-2, 0.04-1, 0.04-0
+   :versions:
+      
+      
+
+      ``0.04-2``,  ``0.04-1``,  ``0.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

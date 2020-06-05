@@ -8,6 +8,7 @@ bioconductor-xps
 
 .. conda:recipe:: bioconductor-xps
    :replaces_section_title:
+   :noindex:
 
    Processing and Analysis of Affymetrix Oligonucleotide Arrays including Exon Arrays\, Whole Genome Arrays and Plate Arrays
 
@@ -22,7 +23,14 @@ bioconductor-xps
 
    |downloads_bioconductor-xps| |docker_bioconductor-xps|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ perl-string-rewriteprefix
 
 .. conda:recipe:: perl-string-rewriteprefix
    :replaces_section_title:
+   :noindex:
 
    rewrite strings based on a set of known prefixes
 
@@ -22,9 +23,16 @@ perl-string-rewriteprefix
 
    |downloads_perl-string-rewriteprefix| |docker_perl-string-rewriteprefix|
 
-   :versions: 0.007-0
+   :versions:
+      
+      
+
+      ``0.007-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-sub-exporter: 
    :requirements:

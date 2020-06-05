@@ -8,6 +8,7 @@ minnow
 
 .. conda:recipe:: minnow
    :replaces_section_title:
+   :noindex:
 
    A principled framework for rapid simulation of dscRNA\-seq data at the read level
 
@@ -22,12 +23,19 @@ minnow
 
    |downloads_minnow| |docker_minnow|
 
-   :versions: 1.2-0, 1.1-0, beta_1.3-0
+   :versions:
+      
+      
+
+      ``1.2-0``,  ``1.1-0``,  ``beta_1.3-0``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

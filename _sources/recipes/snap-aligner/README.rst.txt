@@ -8,6 +8,7 @@ snap-aligner
 
 .. conda:recipe:: snap-aligner
    :replaces_section_title:
+   :noindex:
 
    Scalable Nucleotide Alignment Program \-\- a fast and accurate read aligner for high\-throughput sequencing data
 
@@ -22,7 +23,14 @@ snap-aligner
 
    |downloads_snap-aligner| |docker_snap-aligner|
 
-   :versions: 1.0beta.23-0, 1.0beta.18-0, 1.0dev.97-1, 1.0dev.97-0
+   :versions:
+      
+      
+
+      ``1.0beta.23-0``,  ``1.0beta.18-0``,  ``1.0dev.97-1``,  ``1.0dev.97-0``
+
+      
+
    
    :requirements:
 

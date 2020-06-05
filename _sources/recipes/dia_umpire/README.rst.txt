@@ -8,6 +8,7 @@ dia_umpire
 
 .. conda:recipe:: dia_umpire
    :replaces_section_title:
+   :noindex:
 
    DIA\-Umpire is an open source Java program for computational analysis of data independent acquisition \(DIA\)
    mass spectrometry\-based proteomics data. It enables untargeted peptide and protein identification and quantitation
@@ -26,9 +27,16 @@ dia_umpire
 
    |downloads_dia_umpire| |docker_dia_umpire|
 
-   :versions: 2.1.6-0, 2.1.3-1, 2.1.3-0, 2.1.2-0
+   :versions:
+      
+      
+
+      ``2.1.6-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``
+
+      
+
    
-   :depends openjdk: >=7
+   :depends openjdk: ``>=7``
    :depends python: 
    :requirements:
 

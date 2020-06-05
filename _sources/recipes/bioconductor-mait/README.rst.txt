@@ -8,6 +8,7 @@ bioconductor-mait
 
 .. conda:recipe:: bioconductor-mait
    :replaces_section_title:
+   :noindex:
 
    Statistical Analysis of Metabolomic Data
 
@@ -22,16 +23,23 @@ bioconductor-mait
 
    |downloads_bioconductor-mait| |docker_bioconductor-mait|
 
-   :versions: 1.21.0-0, 1.20.0-0, 1.18.0-1, 1.16.1-1, 1.16.1-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.21.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.1-1``,  ``1.16.1-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-camera: >=1.44.0,<1.45.0
-   :depends bioconductor-xcms: >=3.10.0,<3.11.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-camera: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-xcms: ``>=3.10.0,<3.11.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends r-agricolae: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-caret: 
    :depends r-class: 
    :depends r-e1071: 

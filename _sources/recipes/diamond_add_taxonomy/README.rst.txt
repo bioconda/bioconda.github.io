@@ -8,6 +8,7 @@ diamond_add_taxonomy
 
 .. conda:recipe:: diamond_add_taxonomy
    :replaces_section_title:
+   :noindex:
 
    Utility to work with NCBI taxonomy database including tool to annotate DIAMOND results with taxonomy lineage
 
@@ -22,11 +23,18 @@ diamond_add_taxonomy
 
    |downloads_diamond_add_taxonomy| |docker_diamond_add_taxonomy|
 
-   :versions: 0.1.2-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``,  ``0.1.0-0``
+
+      
+
    
    :depends click: 
    :depends ete3: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
    :requirements:
 
    .. rubric:: Installation

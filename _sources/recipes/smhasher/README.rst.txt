@@ -8,6 +8,7 @@ smhasher
 
 .. conda:recipe:: smhasher
    :replaces_section_title:
+   :noindex:
 
    Python extension for smhasher hash functions
 
@@ -22,12 +23,19 @@ smhasher
 
    |downloads_smhasher| |docker_smhasher|
 
-   :versions: 0.150.1-3, 0.150.1-2, 0.150.1-1, 0.150.1-0
+   :versions:
+      
+      
+
+      ``0.150.1-3``,  ``0.150.1-2``,  ``0.150.1-1``,  ``0.150.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ anvio-minimal
 
 .. conda:recipe:: anvio-minimal
    :replaces_section_title:
+   :noindex:
 
    An interactive analysis and visualization platform for omics data
 
@@ -23,10 +24,25 @@ anvio-minimal
 
    |downloads_anvio-minimal| |docker_anvio-minimal|
 
-   :versions: 6.2-1, 6.2-0, 6.1-1, 6.1-0, 6-0, 5.5.0-0, 5.4.0-0, 5.3.0-0, 5.2.0-1, 5.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>6.2-1</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-1</code>,  </span></summary>
+      
+
+      ``6.2-1``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-1``,  ``5.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bottle: 
-   :depends cherrypy: 8.0.0
+   :depends cherrypy: ``8.0.0``
    :depends colored: 
    :depends django: 
    :depends ete3: 
@@ -35,16 +51,16 @@ anvio-minimal
    :depends mistune: 
    :depends numba: 
    :depends numpy: 
-   :depends pandas: 0.25.1
-   :depends psutil: 5.4.3
-   :depends pyani: 0.2.10
+   :depends pandas: ``0.25.1``
+   :depends psutil: ``5.4.3``
+   :depends pyani: ``0.2.10``
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends requests: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends six: 
-   :depends snakemake-minimal: 5.10.0
+   :depends snakemake-minimal: ``5.10.0``
    :depends statsmodels: 
    :depends tabulate: 
    :requirements:

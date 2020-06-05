@@ -8,6 +8,7 @@ bioconvert
 
 .. conda:recipe:: bioconvert
    :replaces_section_title:
+   :noindex:
 
    convert various bioinformatics formats
 
@@ -22,19 +23,26 @@ bioconvert
 
    |downloads_bioconvert| |docker_bioconvert|
 
-   :versions: 0.4.3-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.0-1, 0.2.0-2, 0.2.0-1, 0.0.10-1, 0.0.10-0
+   :versions:
+      
+      
+
+      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.0.10-1``,  ``0.0.10-0``
+
+      
+
    
    :depends bamtools: 
    :depends bcftools: 
    :depends bedops: 
    :depends bedtools: 
    :depends bioawk: 
-   :depends biopython: >=1.70
+   :depends biopython: ``>=1.70``
    :depends colorlog: 
    :depends deeptools: 
    :depends dsrc: 
-   :depends easydev: >=0.9.36
-   :depends go: 1.10.3
+   :depends easydev: ``>=0.9.36``
+   :depends go: ``1.10.3``
    :depends mappy: 
    :depends matplotlib: 
    :depends mawk: 
@@ -48,10 +56,10 @@ bioconvert
    :depends pyexcel-ods3: 
    :depends pyexcel-xls: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyyaml: 
    :depends sambamba: 
-   :depends samtools: >=1.9
+   :depends samtools: ``>=1.9``
    :depends sed: 
    :depends seqtk: 
    :depends squizz: 

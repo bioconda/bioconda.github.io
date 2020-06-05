@@ -8,6 +8,7 @@ ltr_finder
 
 .. conda:recipe:: ltr_finder
    :replaces_section_title:
+   :noindex:
 
    LTR\_Finder is an efficient program for finding full\-length LTR retrotranspsons in genome sequences.
 
@@ -22,10 +23,17 @@ ltr_finder
 
    |downloads_ltr_finder| |docker_ltr_finder|
 
-   :versions: 1.07-0
+   :versions:
+      
+      
+
+      ``1.07-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
    :depends perl-gd: 
    :requirements:

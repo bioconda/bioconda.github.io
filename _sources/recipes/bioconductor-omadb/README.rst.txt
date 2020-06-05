@@ -8,6 +8,7 @@ bioconductor-omadb
 
 .. conda:recipe:: bioconductor-omadb
    :replaces_section_title:
+   :noindex:
 
    R wrapper for the OMA REST API
 
@@ -22,17 +23,24 @@ bioconductor-omadb
 
    |downloads_bioconductor-omadb| |docker_bioconductor-omadb|
 
-   :versions: 2.4.0-0, 2.2.0-0, 2.0.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-topgo: >=2.40.0,<2.41.0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-topgo: ``>=2.40.0,<2.41.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-httr: >=1.2.1
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-httr: ``>=1.2.1``
    :depends r-jsonlite: 
-   :depends r-plyr: >=1.8.4
+   :depends r-plyr: ``>=1.8.4``
    :requirements:
 
    .. rubric:: Installation

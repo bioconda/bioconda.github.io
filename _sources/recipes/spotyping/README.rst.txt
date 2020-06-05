@@ -8,6 +8,7 @@ spotyping
 
 .. conda:recipe:: spotyping
    :replaces_section_title:
+   :noindex:
 
    SpoTyping\: fast and accurate in silico Mycobacterium spoligotyping from sequence reads
 
@@ -23,10 +24,17 @@ spotyping
 
    |downloads_spotyping| |docker_spotyping|
 
-   :versions: 2.1-3, 2.1-2, 2.1-1, 2.1-0
+   :versions:
+      
+      
+
+      ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
+
+      
+
    
    :depends blast: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends r-gdata: 
    :requirements:
 

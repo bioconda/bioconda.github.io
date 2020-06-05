@@ -8,6 +8,7 @@ fastuniq
 
 .. conda:recipe:: fastuniq
    :replaces_section_title:
+   :noindex:
 
    FastUniq\, A Fast De Novo Duplicates Removal Tool for Paired Short Reads
 
@@ -22,9 +23,16 @@ fastuniq
 
    |downloads_fastuniq| |docker_fastuniq|
 
-   :versions: 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

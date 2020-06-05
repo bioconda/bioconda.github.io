@@ -8,6 +8,7 @@ perl-git-wrapper-plus
 
 .. conda:recipe:: perl-git-wrapper-plus
    :replaces_section_title:
+   :noindex:
 
    A Toolkit for working with Git\:\:Wrapper in an Object Oriented Way.
 
@@ -22,9 +23,16 @@ perl-git-wrapper-plus
 
    |downloads_perl-git-wrapper-plus| |docker_perl-git-wrapper-plus|
 
-   :versions: 0.004011-0, 0.004010-0
+   :versions:
+      
+      
+
+      ``0.004011-0``,  ``0.004010-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-git-wrapper: 
    :depends perl-moo: 

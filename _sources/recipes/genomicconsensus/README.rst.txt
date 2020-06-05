@@ -8,6 +8,7 @@ genomicconsensus
 
 .. conda:recipe:: genomicconsensus
    :replaces_section_title:
+   :noindex:
 
    PacBio genomic consensus and variant caller for RSII and Sequel
 
@@ -22,14 +23,21 @@ genomicconsensus
 
    |downloads_genomicconsensus| |docker_genomicconsensus|
 
-   :versions: 2.3.3-1, 2.3.3-0, 2.3.2-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.3.1-0
+   :versions:
+      
+      
+
+      ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``
+
+      
+
    
-   :depends numpy: >=1.16.2
-   :depends pbcommand: >=1.1.1
-   :depends pbcore: >=1.6.5
-   :depends python: <3
-   :depends python-consensuscore: >=1.1.1
-   :depends python-consensuscore2: >=3.4.1
+   :depends numpy: ``>=1.16.2``
+   :depends pbcommand: ``>=1.1.1``
+   :depends pbcore: ``>=1.6.5``
+   :depends python: ``<3``
+   :depends python-consensuscore: ``>=1.1.1``
+   :depends python-consensuscore2: ``>=3.4.1``
    :requirements:
 
    .. rubric:: Installation

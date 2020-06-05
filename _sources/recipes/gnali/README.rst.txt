@@ -8,6 +8,7 @@ gnali
 
 .. conda:recipe:: gnali
    :replaces_section_title:
+   :noindex:
 
    gNALI \(gene nonessentiality and loss\-of\-function identifier\) is a tool for finding PLoF gene variants.
 
@@ -22,14 +23,21 @@ gnali
 
    |downloads_gnali| |docker_gnali|
 
-   :versions: 0.1.1-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``,  ``0.1.0-0``
+
+      
+
    
    :depends filelock: 
    :depends numpy: 
    :depends pandas: 
    :depends pybiomart: 
    :depends pysam: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

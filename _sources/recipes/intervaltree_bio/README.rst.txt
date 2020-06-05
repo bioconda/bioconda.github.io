@@ -8,6 +8,7 @@ intervaltree_bio
 
 .. conda:recipe:: intervaltree_bio
    :replaces_section_title:
+   :noindex:
 
    Interval tree convenience classes for genomic data
 
@@ -22,7 +23,14 @@ intervaltree_bio
 
    |downloads_intervaltree_bio| |docker_intervaltree_bio|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
    :depends intervaltree: 
    :depends python: 

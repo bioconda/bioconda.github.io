@@ -8,6 +8,7 @@ perl-term-detect-software
 
 .. conda:recipe:: perl-term-detect-software
    :replaces_section_title:
+   :noindex:
 
    Detect terminal \(emulator\) software and its capabilities
 
@@ -22,9 +23,16 @@ perl-term-detect-software
 
    |downloads_perl-term-detect-software| |docker_perl-term-detect-software|
 
-   :versions: 0.21-2, 0.21-1, 0.21-0
+   :versions:
+      
+      
+
+      ``0.21-2``,  ``0.21-1``,  ``0.21-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-experimental: 
    :depends perl-file-which: 
    :requirements:

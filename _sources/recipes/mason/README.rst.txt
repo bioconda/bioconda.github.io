@@ -8,6 +8,7 @@ mason
 
 .. conda:recipe:: mason
    :replaces_section_title:
+   :noindex:
 
    Mason is a collection of tools for the simulation of biological sequences.
 
@@ -23,7 +24,14 @@ mason
 
    |downloads_mason| |docker_mason|
 
-   :versions: 2.0.9-0, 2.0.8-1, 2.0.8-0, 2.0.7-0
+   :versions:
+      
+      
+
+      ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``
+
+      
+
    
    :requirements:
 

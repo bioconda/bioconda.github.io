@@ -8,6 +8,7 @@ bioconductor-metavolcanor
 
 .. conda:recipe:: bioconductor-metavolcanor
    :replaces_section_title:
+   :noindex:
 
    Gene Expression Meta\-analysis Visualization Tool
 
@@ -22,10 +23,17 @@ bioconductor-metavolcanor
 
    |downloads_bioconductor-metavolcanor| |docker_bioconductor-metavolcanor|
 
-   :versions: 1.2.0-0, 0.99.14-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``0.99.14-0``
+
+      
+
    
-   :depends bioconductor-topconfects: >=1.4.0,<1.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-topconfects: ``>=1.4.0,<1.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-dplyr: 

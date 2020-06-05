@@ -8,6 +8,7 @@ r-gmwt
 
 .. conda:recipe:: r-gmwt
    :replaces_section_title:
+   :noindex:
 
    Generalized Mann\-Whitney type tests based on probabilistic indices and new diagnostic plots.
 
@@ -22,13 +23,20 @@ r-gmwt
 
    |downloads_r-gmwt| |docker_r-gmwt|
 
-   :versions: 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-clinfun: 
-   :depends r-rcpp: >=0.9.13
+   :depends r-rcpp: ``>=0.9.13``
    :depends r-rcpparmadillo: 
    :requirements:
 

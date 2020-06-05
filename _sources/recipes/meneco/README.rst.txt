@@ -8,6 +8,7 @@ meneco
 
 .. conda:recipe:: meneco/1.5.2
    :replaces_section_title:
+   :noindex:
 
    Metabolic Network Completion. Compute minimal completions to your draft network with reactions from a repair network.
 
@@ -22,10 +23,17 @@ meneco
 
    |downloads_meneco| |docker_meneco|
 
-   :versions: 1.5.2-0
+   :versions:
+      
+      
+
+      ``1.5.2-0``
+
+      
+
    
-   :depends pyasp: >=1.4.3
-   :depends python: 3.5*
+   :depends pyasp: ``>=1.4.3``
+   :depends python: ``3.5*``
    :requirements:
 
    .. rubric:: Installation

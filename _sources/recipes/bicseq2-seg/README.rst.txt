@@ -8,6 +8,7 @@ bicseq2-seg
 
 .. conda:recipe:: bicseq2-seg
    :replaces_section_title:
+   :noindex:
 
    BICseq2\-seg is for detecting CNVs based on the normalized data given by BICseq2\-norm.
 
@@ -23,9 +24,16 @@ bicseq2-seg
 
    |downloads_bicseq2-seg| |docker_bicseq2-seg|
 
-   :versions: 0.7.2-0
+   :versions:
+      
+      
+
+      ``0.7.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends perl: 
    :depends r-base: 
    :requirements:

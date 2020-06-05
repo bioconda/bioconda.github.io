@@ -8,6 +8,7 @@ vardict-java
 
 .. conda:recipe:: vardict-java
    :replaces_section_title:
+   :noindex:
 
    Java port of the VarDict variant discovery program
 
@@ -22,7 +23,22 @@ vardict-java
 
    |downloads_vardict-java| |docker_vardict-java|
 
-   :versions: 1.7.0-0, 1.6.0-0, 1.5.8-1, 1.5.8-0, 1.5.7-0, 1.5.6-0, 1.5.5-0, 1.5.4-0, 1.5.3-0, 1.5.2-0, 1.5.1-1, 1.5.1-0, 1.5.0-0, 1.4.10-0, 1.4.9-0, 1.4.8-0, 1.4.7-0, 1.4.6-0, 1.4.5-1, 1.4.5-0, 1.4.3-1, 1.4.3-0, 1.4.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.0-0</code>,  <code>1.5.8-1</code>,  <code>1.5.8-0</code>,  <code>1.5.7-0</code>,  <code>1.5.6-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-0</code>,  </span></summary>
+      
+
+      ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.8-1``,  ``1.5.8-0``,  ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends openjdk: 
    :depends perl: 

@@ -8,11 +8,12 @@ esimsa
 
 .. conda:recipe:: esimsa
    :replaces_section_title:
+   :noindex:
 
    Simple deconvolution of electrospray ionization peak lists
 
    :homepage: http://www.ms-utils.org/esimsa.html
-   :license: GPL3
+   :license: GPL-2.0-or-later
    :recipe: /`esimsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esimsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esimsa/meta.yaml>`_
    :links: biotools: :biotools:`esimsa`, pmid: :pmid:`10861983`
 
@@ -23,9 +24,16 @@ esimsa
 
    |downloads_esimsa| |docker_esimsa|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

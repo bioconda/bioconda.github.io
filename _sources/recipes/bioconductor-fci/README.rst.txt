@@ -8,6 +8,7 @@ bioconductor-fci
 
 .. conda:recipe:: bioconductor-fci
    :replaces_section_title:
+   :noindex:
 
    f\-divergence Cutoff Index for Differential Expression Analysis in Transcriptomics and Proteomics
 
@@ -22,9 +23,16 @@ bioconductor-fci
 
    |downloads_bioconductor-fci| |docker_bioconductor-fci|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fnn: 
    :depends r-gtools: 
    :depends r-psych: 

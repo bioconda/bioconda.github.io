@@ -8,6 +8,7 @@ bioconductor-illuminahumanmethylation27k.db
 
 .. conda:recipe:: bioconductor-illuminahumanmethylation27k.db
    :replaces_section_title:
+   :noindex:
 
    Illumina Illumina Human Methylation 27k annotation data \(chip IlluminaHumanMethylation27k\)
 
@@ -22,12 +23,19 @@ bioconductor-illuminahumanmethylation27k.db
 
    |downloads_bioconductor-illuminahumanmethylation27k.db| |docker_bioconductor-illuminahumanmethylation27k.db|
 
-   :versions: 1.4.8-4, 1.4.8-3, 1.4.8-2, 1.4.8-0
+   :versions:
+      
+      
+
+      ``1.4.8-4``,  ``1.4.8-3``,  ``1.4.8-2``,  ``1.4.8-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ finestructure
 
 .. conda:recipe:: finestructure
    :replaces_section_title:
+   :noindex:
 
    fineSTRUCTURE is a fast and powerful algorithm for identifying population structure using dense sequencing data.
 
@@ -23,15 +24,22 @@ finestructure
 
    |downloads_finestructure| |docker_finestructure|
 
-   :versions: 2.1.3-0
+   :versions:
+      
+      
+
+      ``2.1.3-0``
+
+      
+
    
-   :depends blas: 1.1 openblas
-   :depends gsl: >=2.4,<2.5.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openblas: >=0.3.3,<0.3.4.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends blas: ``1.1 openblas``
+   :depends gsl: ``>=2.4,<2.5.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openblas: ``>=0.3.3,<0.3.4.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

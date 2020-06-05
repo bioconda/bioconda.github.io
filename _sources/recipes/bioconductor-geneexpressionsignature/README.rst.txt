@@ -8,6 +8,7 @@ bioconductor-geneexpressionsignature
 
 .. conda:recipe:: bioconductor-geneexpressionsignature
    :replaces_section_title:
+   :noindex:
 
    Gene Expression Signature based Similarity Metric
 
@@ -22,11 +23,18 @@ bioconductor-geneexpressionsignature
 
    |downloads_bioconductor-geneexpressionsignature| |docker_bioconductor-geneexpressionsignature|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-1, 1.28.0-0
+   :versions:
+      
+      
+
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-pgsea: >=1.61.0,<1.62.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-pgsea: ``>=1.61.0,<1.62.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-decipher
 
 .. conda:recipe:: bioconductor-decipher
    :replaces_section_title:
+   :noindex:
 
    Tools for curating\, analyzing\, and manipulating biological sequences
 
@@ -23,18 +24,25 @@ bioconductor-decipher
 
    |downloads_bioconductor-decipher| |docker_bioconductor-decipher|
 
-   :versions: 2.16.0-0, 2.14.0-0, 2.12.0-1, 2.10.0-0, 2.8.1-0, 2.6.0-1, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.6.0-1``,  ``2.6.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-xvector: >=0.28.0,<0.29.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-xvector: ``>=0.28.0,<0.29.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
-   :depends r-rsqlite: >=1.1
+   :depends r-rsqlite: ``>=1.1``
    :requirements:
 
    .. rubric:: Installation

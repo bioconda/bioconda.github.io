@@ -8,6 +8,7 @@ bioconductor-methylinheritance
 
 .. conda:recipe:: bioconductor-methylinheritance
    :replaces_section_title:
+   :noindex:
 
    Permutation\-Based Analysis associating Conserved Differentially Methylated Elements Across Multiple Generations to a Treatment Effect
 
@@ -22,14 +23,21 @@ bioconductor-methylinheritance
 
    |downloads_bioconductor-methylinheritance| |docker_bioconductor-methylinheritance|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.1-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-methylkit: >=1.14.0,<1.15.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-methylkit: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-rebus: 

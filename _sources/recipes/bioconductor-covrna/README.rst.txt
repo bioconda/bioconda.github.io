@@ -8,6 +8,7 @@ bioconductor-covrna
 
 .. conda:recipe:: bioconductor-covrna
    :replaces_section_title:
+   :noindex:
 
    Multivariate Analysis of Transcriptomic Data
 
@@ -23,12 +24,19 @@ bioconductor-covrna
 
    |downloads_bioconductor-covrna| |docker_bioconductor-covrna|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
    :depends r-ade4: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

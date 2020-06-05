@@ -8,6 +8,7 @@ bioconductor-circrnaprofiler
 
 .. conda:recipe:: bioconductor-circrnaprofiler
    :replaces_section_title:
+   :noindex:
 
    circRNAprofiler\: An R\-Based Computational Framework for the Downstream Analysis of Circular RNAs
 
@@ -22,21 +23,28 @@ bioconductor-circrnaprofiler
 
    |downloads_bioconductor-circrnaprofiler| |docker_bioconductor-circrnaprofiler|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-gwascat: >=2.20.0,<2.21.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-gwascat: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-magrittr: 

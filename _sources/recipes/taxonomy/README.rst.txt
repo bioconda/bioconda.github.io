@@ -8,6 +8,7 @@ taxonomy
 
 .. conda:recipe:: taxonomy
    :replaces_section_title:
+   :noindex:
 
    Python and Rust library for loading\, saving\, and manipulating taxonomic trees
 
@@ -22,11 +23,18 @@ taxonomy
 
    |downloads_taxonomy| |docker_taxonomy|
 
-   :versions: 0.4.0-0
+   :versions:
+      
+      
+
+      ``0.4.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

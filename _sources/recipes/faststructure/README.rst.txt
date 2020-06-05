@@ -8,6 +8,7 @@ faststructure
 
 .. conda:recipe:: faststructure
    :replaces_section_title:
+   :noindex:
 
    A variational framework for inferring population structure from SNP genotype data.
 
@@ -22,15 +23,22 @@ faststructure
 
    |downloads_faststructure| |docker_faststructure|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends cython: <0.28
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libgcc-ng: >=4.9
+   :depends cython: ``<0.28``
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libgcc-ng: ``>=4.9``
    :depends matplotlib: 
    :depends numpy: 
-   :depends openblas: >=0.2.20,<0.2.21.0a0
-   :depends python: >=2.7,<2.8.0a0
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends scipy: 
    :requirements:
 

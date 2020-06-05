@@ -8,6 +8,7 @@ bs-seeker2
 
 .. conda:recipe:: bs-seeker2
    :replaces_section_title:
+   :noindex:
 
    BS Seeker 2 is a seamless and versatile pipeline for accurately and fast mapping the bisulfite\-treated short reads.
 
@@ -22,11 +23,18 @@ bs-seeker2
 
    |downloads_bs-seeker2| |docker_bs-seeker2|
 
-   :versions: 2.1.7-0, 2.1.0-1, 2.1.0-0
+   :versions:
+      
+      
+
+      ``2.1.7-0``,  ``2.1.0-1``,  ``2.1.0-0``
+
+      
+
    
    :depends bowtie2: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

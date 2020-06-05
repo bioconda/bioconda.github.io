@@ -8,6 +8,7 @@ perl-bignum
 
 .. conda:recipe:: perl-bignum
    :replaces_section_title:
+   :noindex:
 
    Transparent BigNumber support for Perl
 
@@ -22,9 +23,16 @@ perl-bignum
 
    |downloads_perl-bignum| |docker_perl-bignum|
 
-   :versions: 0.51-0
+   :versions:
+      
+      
+
+      ``0.51-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-math-bigint: 
    :depends perl-math-bigrat: 
    :requirements:

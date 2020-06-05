@@ -8,6 +8,7 @@ rnasnp
 
 .. conda:recipe:: rnasnp
    :replaces_section_title:
+   :noindex:
 
    Efficient detection of local RNA secondary structure changes induced by SNPs.
 
@@ -23,9 +24,16 @@ rnasnp
 
    |downloads_rnasnp| |docker_rnasnp|
 
-   :versions: 1.2-4, 1.2-3, 1.2-2, 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

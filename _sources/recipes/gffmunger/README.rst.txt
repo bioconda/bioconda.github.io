@@ -8,6 +8,7 @@ gffmunger
 
 .. conda:recipe:: gffmunger
    :replaces_section_title:
+   :noindex:
 
    Munges GFF3 files exported from Chado database to make them suitable for loading into WebApollo
 
@@ -22,12 +23,19 @@ gffmunger
 
    |downloads_gffmunger| |docker_gffmunger|
 
-   :versions: 0.1.3-1, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.0.1-2, 0.0.1-1, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+
+      
+
    
-   :depends biopython: >=1.68
+   :depends biopython: ``>=1.68``
    :depends genometools-genometools: 
    :depends gffutils: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends pyyaml: 
    :requirements:
 

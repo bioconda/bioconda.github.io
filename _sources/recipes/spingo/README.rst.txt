@@ -8,6 +8,7 @@ spingo
 
 .. conda:recipe:: spingo
    :replaces_section_title:
+   :noindex:
 
    Species level IdentificatioN of metaGenOmic amplicons
 
@@ -22,9 +23,16 @@ spingo
 
    |downloads_spingo| |docker_spingo|
 
-   :versions: 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-0``
+
+      
+
    
-   :depends boost: 1.61*
+   :depends boost: ``1.61*``
    :depends libgcc: 
    :requirements:
 

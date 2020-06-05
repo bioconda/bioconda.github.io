@@ -8,6 +8,7 @@ textinput
 
 .. conda:recipe:: textinput
    :replaces_section_title:
+   :noindex:
 
    streamlined version of stdlib fileinput
 
@@ -22,7 +23,14 @@ textinput
 
    |downloads_textinput| |docker_textinput|
 
-   :versions: 0.2-0, 0.1.1-2, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.2-0``,  ``0.1.1-2``,  ``0.1.1-0``
+
+      
+
    
    :depends python: 
    :depends six: 

@@ -8,6 +8,7 @@ showit
 
 .. conda:recipe:: showit
    :replaces_section_title:
+   :noindex:
 
    simple and sensible display of images in python
 
@@ -22,10 +23,17 @@ showit
 
    |downloads_showit| |docker_showit|
 
-   :versions: 1.1.4-0
+   :versions:
+      
+      
+
+      ``1.1.4-0``
+
+      
+
    
    :depends matplotlib: 
-   :depends numpy: !=1.13.0
+   :depends numpy: ``!=1.13.0``
    :depends python: 
    :requirements:
 

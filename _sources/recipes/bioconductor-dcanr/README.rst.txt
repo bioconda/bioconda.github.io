@@ -8,6 +8,7 @@ bioconductor-dcanr
 
 .. conda:recipe:: bioconductor-dcanr
    :replaces_section_title:
+   :noindex:
 
    Differential co\-expression\/association network analysis
 
@@ -22,9 +23,16 @@ bioconductor-dcanr
 
    |downloads_bioconductor-dcanr| |docker_bioconductor-dcanr|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-dorng: 
    :depends r-foreach: 

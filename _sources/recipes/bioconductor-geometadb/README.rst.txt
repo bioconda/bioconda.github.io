@@ -8,6 +8,7 @@ bioconductor-geometadb
 
 .. conda:recipe:: bioconductor-geometadb
    :replaces_section_title:
+   :noindex:
 
    A compilation of metadata from NCBI GEO
 
@@ -23,10 +24,17 @@ bioconductor-geometadb
 
    |downloads_bioconductor-geometadb| |docker_bioconductor-geometadb|
 
-   :versions: 1.50.0-0, 1.48.0-0, 1.46.0-1, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   :versions:
+      
+      
+
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``
+
+      
+
    
-   :depends bioconductor-geoquery: >=2.56.0,<2.57.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-geoquery: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rsqlite: 
    :requirements:
 

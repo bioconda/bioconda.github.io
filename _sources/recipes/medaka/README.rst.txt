@@ -8,6 +8,7 @@ medaka
 
 .. conda:recipe:: medaka
    :replaces_section_title:
+   :noindex:
 
    Neural network sequence error correction.
 
@@ -24,30 +25,45 @@ medaka
 
    |downloads_medaka| |docker_medaka|
 
-   :versions: 1.0.1-0, 1.0.0-0, 0.12.1-0, 0.11.5-1, 0.11.5-0, 0.11.4-0, 0.11.3-0, 0.11.2-0, 0.11.1-0, 0.11.0-1, 0.11.0-0, 0.10.1-0, 0.10.0-1, 0.10.0-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.1-1, 0.8.1-0, 0.8.0-0, 0.7.1-1, 0.7.0-1, 0.7.0-0, 0.6.5-0, 0.6.4-0, 0.6.2-0, 0.6.0-0, 0.5.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.12.1-0</code>,  <code>0.11.5-1</code>,  <code>0.11.5-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  </span></summary>
+      
+
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.1-0``,  ``0.11.5-1``,  ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.6.0-0``,  ``0.5.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bcftools: 1.9
+   :depends bcftools: ``1.9``
    :depends biopython: 
-   :depends bzip2: >=1.0.8,<2.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cffi: 
-   :depends h5py: 2.7.1
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends intervaltree: >=3.0.0
-   :depends libgcc-ng: >=7.3.0
+   :depends h5py: ``2.7.1``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends intervaltree: ``>=3.0.0``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends mappy: 
-   :depends minimap2: 2.17
-   :depends numpy: 1.16.1
+   :depends minimap2: ``2.17``
+   :depends numpy: ``1.16.1``
    :depends ont-fast5-api: 
    :depends parasail-python: 
-   :depends pysam: >=0.15.2
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends pysam: ``>=0.15.2``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends requests: 
-   :depends samtools: 1.9
-   :depends tensorflow: 1.14.0
-   :depends whatshap: 0.18
-   :depends xz: >=5.2.5,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends samtools: ``1.9``
+   :depends tensorflow: ``1.14.0``
+   :depends whatshap: ``0.18``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

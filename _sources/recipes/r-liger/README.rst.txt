@@ -8,6 +8,7 @@ r-liger
 
 .. conda:recipe:: r-liger
    :replaces_section_title:
+   :noindex:
 
    R package for integrating and analyzing multiple single\-cell datasets
 
@@ -22,13 +23,20 @@ r-liger
 
    |downloads_r-liger| |docker_r-liger|
 
-   :versions: 0.5.0.9000-1, 0.5.0.9000-0, 0.4.2.9000-1, 0.4.2.9000-0
+   :versions:
+      
+      
+
+      ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends openjdk: >=6
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends openjdk: ``>=6``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-dosnow: 
    :depends r-dplyr: 
@@ -45,7 +53,7 @@ r-liger
    :depends r-psych: 
    :depends r-rann: 
    :depends r-rann.l1: 
-   :depends r-rcpp: >=0.12.10
+   :depends r-rcpp: ``>=0.12.10``
    :depends r-rcpparmadillo: 
    :depends r-rcppeigen: 
    :depends r-reticulate: 

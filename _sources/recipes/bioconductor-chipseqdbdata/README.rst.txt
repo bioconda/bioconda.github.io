@@ -8,6 +8,7 @@ bioconductor-chipseqdbdata
 
 .. conda:recipe:: bioconductor-chipseqdbdata
    :replaces_section_title:
+   :noindex:
 
    Data for the chipseqDB Workflow
 
@@ -22,13 +23,20 @@ bioconductor-chipseqdbdata
 
    |downloads_bioconductor-chipseqdbdata| |docker_bioconductor-chipseqdbdata|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

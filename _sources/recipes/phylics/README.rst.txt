@@ -8,6 +8,7 @@ phylics
 
 .. conda:recipe:: phylics
    :replaces_section_title:
+   :noindex:
 
    A tool to perform multi\-sample Phylogenetic analysis of Single Cell CNV profiles
 
@@ -22,7 +23,14 @@ phylics
 
    |downloads_phylics| |docker_phylics|
 
-   :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
    :depends aioeasywebdav: 
    :depends bioconductor-ctc: 
@@ -30,32 +38,32 @@ phylics
    :depends boto3: 
    :depends dicttoxml: 
    :depends filechunkio: 
-   :depends jupyter: 1.0.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends jupyter: ``1.0.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
    :depends patsy: 
    :depends plumbum: 
    :depends psutil: 
-   :depends pygraphviz: 1.3.1
+   :depends pygraphviz: ``1.3.1``
    :depends pysocks: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends python-irodsclient: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-gridextra: 
    :depends r-inline: 
    :depends r-plyr: 
    :depends r-scales: 
-   :depends scikit-learn: 0.21.3
+   :depends scikit-learn: ``0.21.3``
    :depends scipy: 
    :depends sctools: 
-   :depends seaborn: 0.9.0
-   :depends statsmodels: 0.9.0
-   :depends wheel: 0.33.6
+   :depends seaborn: ``0.9.0``
+   :depends statsmodels: ``0.9.0``
+   :depends wheel: ``0.33.6``
    :requirements:
 
    .. rubric:: Installation

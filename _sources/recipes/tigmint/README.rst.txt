@@ -8,6 +8,7 @@ tigmint
 
 .. conda:recipe:: tigmint
    :replaces_section_title:
+   :noindex:
 
    Correct misassemblies using linked reads
 
@@ -26,13 +27,20 @@ tigmint
 
    |downloads_tigmint| |docker_tigmint|
 
-   :versions: 1.1.2-0
+   :versions:
+      
+      
+
+      ``1.1.2-0``
+
+      
+
    
    :depends intervaltree: 
    :depends make: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

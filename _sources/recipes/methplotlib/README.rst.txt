@@ -8,6 +8,7 @@ methplotlib
 
 .. conda:recipe:: methplotlib
    :replaces_section_title:
+   :noindex:
 
    Plot methylation data obtained from nanopolish
 
@@ -22,17 +23,24 @@ methplotlib
 
    |downloads_methplotlib| |docker_methplotlib|
 
-   :versions: 0.14.0-0, 0.13.1-0, 0.13.0-0, 0.12.0-0, 0.8.0-0, 0.7.0-0, 0.6.0-0, 0.4.0-0
+   :versions:
+      
+      
+
+      ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
+
+      
+
    
    :depends biopython: 
-   :depends fisher: >=0.1.9
-   :depends numpy: >=1.14.3
-   :depends pandas: >=0.23.4
-   :depends plotly: >=4.1.1
+   :depends fisher: ``>=0.1.9``
+   :depends numpy: ``>=1.14.3``
+   :depends pandas: ``>=0.23.4``
+   :depends plotly: ``>=4.1.1``
    :depends pyfaidx: 
-   :depends pyranges: >=0.0.63
+   :depends pyranges: ``>=0.0.63``
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends scikit-learn: 
    :requirements:
 

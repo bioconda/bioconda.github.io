@@ -8,6 +8,7 @@ blastalign
 
 .. conda:recipe:: blastalign
    :replaces_section_title:
+   :noindex:
 
    BlastAlign uses NCBI Blast to align nucleotide sequences that have large indels or are otherwise difficult to align globally.
 
@@ -22,10 +23,17 @@ blastalign
 
    |downloads_blastalign| |docker_blastalign|
 
-   :versions: 1.4-5, 1.4-4, 1.4-3, 1.4-2, 1.4-1, 1.4-0
+   :versions:
+      
+      
+
+      ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``
+
+      
+
    
    :depends blast-legacy: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends perl: 
    :depends python: 
    :requirements:

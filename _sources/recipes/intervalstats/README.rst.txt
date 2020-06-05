@@ -8,6 +8,7 @@ intervalstats
 
 .. conda:recipe:: intervalstats
    :replaces_section_title:
+   :noindex:
 
    Tool for assessing similarity between sets of intervals
 
@@ -22,7 +23,14 @@ intervalstats
 
    |downloads_intervalstats| |docker_intervalstats|
 
-   :versions: 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-0``
+
+      
+
    
    :requirements:
 

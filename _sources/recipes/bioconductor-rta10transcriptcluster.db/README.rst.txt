@@ -8,6 +8,7 @@ bioconductor-rta10transcriptcluster.db
 
 .. conda:recipe:: bioconductor-rta10transcriptcluster.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix rta10 annotation data \(chip rta10transcriptcluster\)
 
@@ -22,12 +23,19 @@ bioconductor-rta10transcriptcluster.db
 
    |downloads_bioconductor-rta10transcriptcluster.db| |docker_bioconductor-rta10transcriptcluster.db|
 
-   :versions: 8.7.0-4, 8.7.0-3, 8.7.0-2, 8.7.0-0
+   :versions:
+      
+      
+
+      ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-2``,  ``8.7.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.rn.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

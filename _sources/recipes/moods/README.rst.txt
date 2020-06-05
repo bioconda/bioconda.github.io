@@ -8,6 +8,7 @@ moods
 
 .. conda:recipe:: moods
    :replaces_section_title:
+   :noindex:
 
    MOODS\, Motif Occurrence Detection Suite
 
@@ -23,11 +24,18 @@ moods
 
    |downloads_moods| |docker_moods|
 
-   :versions: 1.9.4.1-1, 1.9.4.1-0, 1.9.3-4, 1.9.3-2, 1.9.3-1, 1.9.3-0, 1.9.0-0
+   :versions:
+      
+      
+
+      ``1.9.4.1-1``,  ``1.9.4.1-0``,  ``1.9.3-4``,  ``1.9.3-2``,  ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.0-0``
+
+      
+
    
-   :depends libcxx: >=9.0.1
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libcxx: ``>=9.0.1``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends swig: 
    :requirements:
 

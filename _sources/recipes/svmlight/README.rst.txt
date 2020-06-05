@@ -8,6 +8,7 @@ svmlight
 
 .. conda:recipe:: svmlight
    :replaces_section_title:
+   :noindex:
 
    SVMLight Library by Thorsten Joachim
 
@@ -22,9 +23,16 @@ svmlight
 
    |downloads_svmlight| |docker_svmlight|
 
-   :versions: 6.02-1
+   :versions:
+      
+      
+
+      ``6.02-1``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

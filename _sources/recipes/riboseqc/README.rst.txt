@@ -8,6 +8,7 @@ riboseqc
 
 .. conda:recipe:: riboseqc
    :replaces_section_title:
+   :noindex:
 
    Read length specific QC of Ribo\-seq data
 
@@ -22,7 +23,14 @@ riboseqc
 
    |downloads_riboseqc| |docker_riboseqc|
 
-   :versions: 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``
+
+      
+
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-biostrings: 
@@ -32,7 +40,7 @@ riboseqc
    :depends bioconductor-genomicfiles: 
    :depends bioconductor-rtracklayer: 
    :depends r-ade4: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-devtools: 
    :depends r-domc: 
    :depends r-foreach: 

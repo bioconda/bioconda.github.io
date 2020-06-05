@@ -8,6 +8,7 @@ vcfkit
 
 .. conda:recipe:: vcfkit
    :replaces_section_title:
+   :noindex:
 
    VCF\-kit is a command\-line based collection of utilities for performing analysis on Variant Call Format \(VCF\) files.
 
@@ -22,29 +23,36 @@ vcfkit
 
    |downloads_vcfkit| |docker_vcfkit|
 
-   :versions: 0.1.6-3, 0.1.6-2, 0.1.6-0, 0.0.4-0
+   :versions:
+      
+      
+
+      ``0.1.6-3``,  ``0.1.6-2``,  ``0.1.6-0``,  ``0.0.4-0``
+
+      
+
    
    :depends awesome-slugify: 
-   :depends bcftools: >=1.3
+   :depends bcftools: ``>=1.3``
    :depends biopython: 
-   :depends blast: >=2.2.31
-   :depends bwa: >=0.7.12
+   :depends blast: ``>=2.2.31``
+   :depends bwa: ``>=0.7.12``
    :depends clint: 
-   :depends cyvcf2: >=0.6.5
+   :depends cyvcf2: ``>=0.6.5``
    :depends docopt: 
-   :depends intervaltree: 2.1.0
+   :depends intervaltree: ``2.1.0``
    :depends jinja2: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends matplotlib: 
-   :depends muscle: >=3.8.31
-   :depends networkx: 1.11
+   :depends muscle: ``>=3.8.31``
+   :depends networkx: ``1.11``
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends requests: 
-   :depends samtools: >=1.3
+   :depends samtools: ``>=1.3``
    :depends scipy: 
    :depends tabulate: 
-   :depends yahmm: >=1.1.2
+   :depends yahmm: ``>=1.1.2``
    :requirements:
 
    .. rubric:: Installation

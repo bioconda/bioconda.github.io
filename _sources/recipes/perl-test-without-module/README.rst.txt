@@ -8,6 +8,7 @@ perl-test-without-module
 
 .. conda:recipe:: perl-test-without-module
    :replaces_section_title:
+   :noindex:
 
    Test fallback behaviour in absence of modules
 
@@ -22,9 +23,16 @@ perl-test-without-module
 
    |downloads_perl-test-without-module| |docker_perl-test-without-module|
 
-   :versions: 0.20-0
+   :versions:
+      
+      
+
+      ``0.20-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

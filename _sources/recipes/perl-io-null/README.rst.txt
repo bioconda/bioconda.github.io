@@ -8,6 +8,7 @@ perl-io-null
 
 .. conda:recipe:: perl-io-null/1.01
    :replaces_section_title:
+   :noindex:
 
    class for null filehandles
 
@@ -22,9 +23,16 @@ perl-io-null
 
    |downloads_perl-io-null| |docker_perl-io-null|
 
-   :versions: 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

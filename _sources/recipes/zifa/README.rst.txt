@@ -8,6 +8,7 @@ zifa
 
 .. conda:recipe:: zifa
    :replaces_section_title:
+   :noindex:
 
    Dimensionality reduction for zero\-inflated single\-cell gene expression analysis
 
@@ -22,7 +23,14 @@ zifa
 
    |downloads_zifa| |docker_zifa|
 
-   :versions: 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

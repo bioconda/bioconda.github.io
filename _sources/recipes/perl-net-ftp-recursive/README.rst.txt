@@ -8,6 +8,7 @@ perl-net-ftp-recursive
 
 .. conda:recipe:: perl-net-ftp-recursive/2.04
    :replaces_section_title:
+   :noindex:
 
    Recursive FTP Client class
 
@@ -22,9 +23,16 @@ perl-net-ftp-recursive
 
    |downloads_perl-net-ftp-recursive| |docker_perl-net-ftp-recursive|
 
-   :versions: 2.04-2, 2.04-1, 2.04-0
+   :versions:
+      
+      
+
+      ``2.04-2``,  ``2.04-1``,  ``2.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-net-ftp: 
    :requirements:
 

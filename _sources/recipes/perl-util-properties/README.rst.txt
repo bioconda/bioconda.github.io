@@ -8,6 +8,7 @@ perl-util-properties
 
 .. conda:recipe:: perl-util-properties
    :replaces_section_title:
+   :noindex:
 
    Java.util.properties like class
 
@@ -22,7 +23,14 @@ perl-util-properties
 
    |downloads_perl-util-properties| |docker_perl-util-properties|
 
-   :versions: 0.18-0
+   :versions:
+      
+      
+
+      ``0.18-0``
+
+      
+
    
    :depends perl-digest-md5-file: 
    :depends perl-io-all: 

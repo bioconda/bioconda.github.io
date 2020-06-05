@@ -8,6 +8,7 @@ lordfast
 
 .. conda:recipe:: lordfast
    :replaces_section_title:
+   :noindex:
 
    Sensitive and Fast Alignment Search Tool for Long Read sequencing Data
 
@@ -22,11 +23,18 @@ lordfast
 
    |downloads_lordfast| |docker_lordfast|
 
-   :versions: 0.0.10-0, 0.0.9-0
+   :versions:
+      
+      
+
+      ``0.0.10-0``,  ``0.0.9-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

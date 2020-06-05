@@ -8,6 +8,7 @@ miniasm
 
 .. conda:recipe:: miniasm
    :replaces_section_title:
+   :noindex:
 
    Ultrafast de novo assembly for long noisy reads \(though having no consensus step\)
 
@@ -22,10 +23,17 @@ miniasm
 
    |downloads_miniasm| |docker_miniasm|
 
-   :versions: 0.3_r179-0, 0.2-0, 0.2_r168-3, 0.2_r168-2, 0.2_r168-1, 0.2_r168-0, 0.2_r159-0, 0.2_r137-0
+   :versions:
+      
+      
+
+      ``0.3_r179-0``,  ``0.2-0``,  ``0.2_r168-3``,  ``0.2_r168-2``,  ``0.2_r168-1``,  ``0.2_r168-0``,  ``0.2_r159-0``,  ``0.2_r137-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

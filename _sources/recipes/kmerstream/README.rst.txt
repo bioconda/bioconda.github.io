@@ -8,6 +8,7 @@ kmerstream
 
 .. conda:recipe:: kmerstream
    :replaces_section_title:
+   :noindex:
 
    Streaming algorithm for computing kmer statistics for massive genomics datasets
 
@@ -23,12 +24,19 @@ kmerstream
 
    |downloads_kmerstream| |docker_kmerstream|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends python: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

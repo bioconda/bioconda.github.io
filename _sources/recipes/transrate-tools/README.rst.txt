@@ -8,6 +8,7 @@ transrate-tools
 
 .. conda:recipe:: transrate-tools
    :replaces_section_title:
+   :noindex:
 
    Command\-line tools used by transrate for processing bam files.
 
@@ -22,10 +23,17 @@ transrate-tools
 
    |downloads_transrate-tools| |docker_transrate-tools|
 
-   :versions: 1.0.0-5, 1.0.0-4, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

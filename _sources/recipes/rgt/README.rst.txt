@@ -8,6 +8,7 @@ rgt
 
 .. conda:recipe:: rgt
    :replaces_section_title:
+   :noindex:
 
    Toolkit to perform regulatory genomics data analysis
 
@@ -25,16 +26,23 @@ rgt
 
    |downloads_rgt| |docker_rgt|
 
-   :versions: 0.12.3-0, 0.12.2-0, 0.11.4-2, 0.11.4-1, 0.11.4-0
+   :versions:
+      
+      
+
+      ``0.12.3-0``,  ``0.12.2-0``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``
+
+      
+
    
-   :depends biopython: >=1.64
+   :depends biopython: ``>=1.64``
    :depends configparser: 
-   :depends fisher: >=0.1.5
-   :depends hmmlearn: >=0.2
+   :depends fisher: ``>=0.1.5``
+   :depends hmmlearn: ``>=0.2``
    :depends htseq: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends logomaker: 
-   :depends matplotlib: >=1.1.0
+   :depends matplotlib: ``>=1.1.0``
    :depends matplotlib-venn: 
    :depends moods: 
    :depends mpmath: 
@@ -42,18 +50,18 @@ rgt
    :depends numpy: 
    :depends pandas: 
    :depends pybigwig: 
-   :depends pysam: >=0.12.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends pysam: ``>=0.12.0``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends pyvcf: 
    :depends pyx: 
-   :depends scikit-learn: >=0.19.0,<0.20.0
-   :depends scipy: >=1.0.0
+   :depends scikit-learn: ``>=0.19.0,<0.20.0``
+   :depends scipy: ``>=1.0.0``
    :depends ucsc-bedgraphtobigwig: 
    :depends ucsc-bedtobigbed: 
    :depends ucsc-bigbedtobed: 
    :depends ucsc-bigwigmerge: 
    :depends ucsc-wigtobigwig: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

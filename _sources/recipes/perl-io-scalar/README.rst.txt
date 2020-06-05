@@ -8,6 +8,7 @@ perl-io-scalar
 
 .. conda:recipe:: perl-io-scalar/2.111
    :replaces_section_title:
+   :noindex:
 
    IO\:\: interface for reading\/writing a scalar
 
@@ -22,9 +23,16 @@ perl-io-scalar
 
    |downloads_perl-io-scalar| |docker_perl-io-scalar|
 
-   :versions: 2.111-1, 2.111-0
+   :versions:
+      
+      
+
+      ``2.111-1``,  ``2.111-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

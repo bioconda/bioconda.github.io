@@ -8,6 +8,7 @@ pathogist
 
 .. conda:recipe:: pathogist
    :replaces_section_title:
+   :noindex:
 
    Calibrated multi\-criterion genomic analysis for public health microbiology
 
@@ -22,23 +23,30 @@ pathogist
 
    |downloads_pathogist| |docker_pathogist|
 
-   :versions: 0.3.6-1, 0.3.6-0, 0.3.2-0, 0.3.1-0, 0.3-0, 0.2.3-0
+   :versions:
+      
+      
+
+      ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2.3-0``
+
+      
+
    
-   :depends coincbc: >=2.9.9
+   :depends coincbc: ``>=2.9.9``
    :depends khmer: 
    :depends kwip: 
    :depends matplotlib: 
    :depends mentalist: 
    :depends networkx: 
-   :depends numpy: >=1.15.1
-   :depends pandas: >=0.23.4
+   :depends numpy: ``>=1.15.1``
+   :depends pandas: ``>=0.23.4``
    :depends prince: 
-   :depends pulp: >=1.6.8
+   :depends pulp: ``>=1.6.8``
    :depends python: 
-   :depends pyyaml: >=3.13
-   :depends scikit-learn: >=0.19.1
-   :depends scipy: >=1.1.0
-   :depends snippy: 3.2
+   :depends pyyaml: ``>=3.13``
+   :depends scikit-learn: ``>=0.19.1``
+   :depends scipy: ``>=1.1.0``
+   :depends snippy: ``3.2``
    :depends spotyping3: 
    :depends vcflib: 
    :requirements:

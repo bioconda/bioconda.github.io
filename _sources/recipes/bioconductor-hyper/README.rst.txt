@@ -8,6 +8,7 @@ bioconductor-hyper
 
 .. conda:recipe:: bioconductor-hyper
    :replaces_section_title:
+   :noindex:
 
    Hyper Enrichment
 
@@ -22,9 +23,16 @@ bioconductor-hyper
 
    |downloads_bioconductor-hyper| |docker_bioconductor-hyper|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.00.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.0-1``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggforce: 
    :depends r-ggplot2: 

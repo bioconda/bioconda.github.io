@@ -8,6 +8,7 @@ bioconductor-oncosimulr
 
 .. conda:recipe:: bioconductor-oncosimulr
    :replaces_section_title:
+   :noindex:
 
    Forward Genetic Simulation of Cancer Progression with Epistasis
 
@@ -23,15 +24,22 @@ bioconductor-oncosimulr
 
    |downloads_bioconductor-oncosimulr| |docker_bioconductor-oncosimulr|
 
-   :versions: 2.18.0-0, 2.16.0-0, 2.14.0-1, 2.12.0-0, 2.10.0-0, 2.8.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+
+      
+
    
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-car: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -40,7 +48,7 @@ bioconductor-oncosimulr
    :depends r-gtools: 
    :depends r-igraph: 
    :depends r-rcolorbrewer: 
-   :depends r-rcpp: >=0.12.4
+   :depends r-rcpp: ``>=0.12.4``
    :depends r-smatr: 
    :requirements:
 

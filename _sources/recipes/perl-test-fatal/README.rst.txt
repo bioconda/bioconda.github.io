@@ -8,6 +8,7 @@ perl-test-fatal
 
 .. conda:recipe:: perl-test-fatal
    :replaces_section_title:
+   :noindex:
 
    incredibly simple helpers for testing code with exceptions
 
@@ -22,9 +23,16 @@ perl-test-fatal
 
    |downloads_perl-test-fatal| |docker_perl-test-fatal|
 
-   :versions: 0.014-3, 0.014-2, 0.014-1, 0.014-0
+   :versions:
+      
+      
+
+      ``0.014-3``,  ``0.014-2``,  ``0.014-1``,  ``0.014-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-try-tiny: 

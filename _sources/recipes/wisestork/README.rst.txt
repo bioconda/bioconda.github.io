@@ -8,6 +8,7 @@ wisestork
 
 .. conda:recipe:: wisestork
    :replaces_section_title:
+   :noindex:
 
    Within\-sample CNV calling
 
@@ -22,7 +23,14 @@ wisestork
 
    |downloads_wisestork| |docker_wisestork|
 
-   :versions: 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``
+
+      
+
    
    :depends biopython: 
    :depends click: 
@@ -31,7 +39,7 @@ wisestork
    :depends progressbar2: 
    :depends pyfaidx: 
    :depends pysam: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends scipy: 
    :depends statsmodels: 
    :requirements:

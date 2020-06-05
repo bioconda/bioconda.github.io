@@ -8,6 +8,7 @@ bioconductor-tpp
 
 .. conda:recipe:: bioconductor-tpp
    :replaces_section_title:
+   :noindex:
 
    Analyze thermal proteome profiling \(TPP\) experiments
 
@@ -22,12 +23,19 @@ bioconductor-tpp
 
    |downloads_bioconductor-tpp| |docker_bioconductor-tpp|
 
-   :versions: 3.16.0-0, 3.14.0-0, 3.12.0-1, 3.10.1-0, 3.10.0-0
+   :versions:
+      
+      
+
+      ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.10.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biobroom: >=1.20.0,<1.21.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biobroom: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-broom: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -41,7 +49,7 @@ bioconductor-tpp
    :depends r-mass: 
    :depends r-mefa: 
    :depends r-nls2: 
-   :depends r-openxlsx: >=2.4.0
+   :depends r-openxlsx: ``>=2.4.0``
    :depends r-plyr: 
    :depends r-purrr: 
    :depends r-rcolorbrewer: 

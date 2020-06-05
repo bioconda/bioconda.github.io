@@ -8,6 +8,7 @@ blast
 
 .. conda:recipe:: blast
    :replaces_section_title:
+   :noindex:
 
    BLAST\+ is a new suite of BLAST tools that utilizes the NCBI C\+\+ Toolkit.
 
@@ -23,19 +24,34 @@ blast
 
    |downloads_blast| |docker_blast|
 
-   :versions: 2.9.0-4, 2.9.0-3, 2.9.0-2, 2.9.0-1, 2.9.0-0, 2.7.1-6, 2.7.1-5, 2.7.1-3, 2.7.1-2, 2.7.1-1, 2.6.0-2, 2.6.0-1, 2.6.0-0, 2.5.0-3, 2.5.0-2, 2.5.0-1, 2.2.31-3, 2.2.31-2, 2.2.31-1, 2.2.21-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.9.0-4</code>,  <code>2.9.0-3</code>,  <code>2.9.0-2</code>,  <code>2.9.0-1</code>,  <code>2.9.0-0</code>,  <code>2.7.1-6</code>,  <code>2.7.1-5</code>,  <code>2.7.1-3</code>,  <code>2.7.1-2</code>,  </span></summary>
+      
+
+      ``2.9.0-4``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.7.1-6``,  ``2.7.1-5``,  ``2.7.1-3``,  ``2.7.1-2``,  ``2.7.1-1``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.2.31-3``,  ``2.2.31-2``,  ``2.2.31-1``,  ``2.2.21-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends curl: >=7.64.1,<8.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends curl: ``>=7.64.1,<8.0a0``
    :depends entrez-direct: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends pcre: >=8.41,<9.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends pcre: ``>=8.41,<9.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-archive-tar: 
    :depends perl-json: 
    :depends perl-list-moreutils: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

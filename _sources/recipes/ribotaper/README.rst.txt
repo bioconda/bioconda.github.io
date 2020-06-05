@@ -8,6 +8,7 @@ ribotaper
 
 .. conda:recipe:: ribotaper
    :replaces_section_title:
+   :noindex:
 
    RiboTaper is a new analysis pipeline for Ribosome Profiling \(Ribo\-seq\) experiments\, which exploits the triplet periodicity of ribosomal footprints to call translated regions.
 
@@ -23,9 +24,16 @@ ribotaper
 
    |downloads_ribotaper| |docker_ribotaper|
 
-   :versions: 1.3.1-0, 1.3.1a-3, 1.3.1a-2, 1.3.1a-1, 1.3.1a-0
+   :versions:
+      
+      
+
+      ``1.3.1-0``,  ``1.3.1a-3``,  ``1.3.1a-2``,  ``1.3.1a-1``,  ``1.3.1a-0``
+
+      
+
    
-   :depends bedtools: ==2.17.0
+   :depends bedtools: ``==2.17.0``
    :depends r-ade4: 
    :depends r-domc: 
    :depends r-foreach: 

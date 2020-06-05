@@ -8,6 +8,7 @@ perl-set-scalar
 
 .. conda:recipe:: perl-set-scalar
    :replaces_section_title:
+   :noindex:
 
    basic set operations
 
@@ -22,9 +23,16 @@ perl-set-scalar
 
    |downloads_perl-set-scalar| |docker_perl-set-scalar|
 
-   :versions: 1.29-2, 1.29-1, 1.29-0
+   :versions:
+      
+      
+
+      ``1.29-2``,  ``1.29-1``,  ``1.29-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

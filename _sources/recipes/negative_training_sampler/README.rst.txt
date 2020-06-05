@@ -8,6 +8,7 @@ negative_training_sampler
 
 .. conda:recipe:: negative_training_sampler
    :replaces_section_title:
+   :noindex:
 
    Generates negative samples with the same GC distribution as the positive samples per chromosome.
 
@@ -22,14 +23,21 @@ negative_training_sampler
 
    |downloads_negative_training_sampler| |docker_negative_training_sampler|
 
-   :versions: 0.3.0-0, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
    :depends bedtools: 
    :depends click: 
    :depends dask: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

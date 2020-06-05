@@ -8,6 +8,7 @@ qiime
 
 .. conda:recipe:: qiime/1.9.1
    :replaces_section_title:
+   :noindex:
 
    Quantitative Insights Into Microbial Ecology
 
@@ -23,28 +24,35 @@ qiime
 
    |downloads_qiime| |docker_qiime|
 
-   :versions: 1.9.1-1, 1.9.1-0, 1.8.0-1, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.9.1-1``,  ``1.9.1-0``,  ``1.8.0-1``,  ``1.8.0-0``
+
+      
+
    
-   :depends biom-format: >=2.1.4,<2.2.0
-   :depends burrito: >=0.9.1,<1.0.0
-   :depends burrito-fillings: >=0.1.1,<0.2.0
-   :depends cogent: ==1.5.3
-   :depends emperor: >=0.9.51,<1.0.0
+   :depends biom-format: ``>=2.1.4,<2.2.0``
+   :depends burrito: ``>=0.9.1,<1.0.0``
+   :depends burrito-fillings: ``>=0.1.1,<0.2.0``
+   :depends cogent: ``==1.5.3``
+   :depends emperor: ``>=0.9.51,<1.0.0``
    :depends gdata: 
    :depends glib: 
    :depends libgcc: 
-   :depends matplotlib: >=1.1.0,!=1.4.2,<1.5.0
+   :depends matplotlib: ``>=1.1.0,!=1.4.2,<1.5.0``
    :depends mock: 
-   :depends natsort: <4.0.0
+   :depends natsort: ``<4.0.0``
    :depends nose: 
-   :depends numpy: 1.10*
-   :depends pandas: >=0.13.1
-   :depends pynast: ==1.2.2
-   :depends python: 2.7*
-   :depends qcli: >=0.1.1,<0.2.0
-   :depends qiime-default-reference: >=0.1.2,<0.2.0
-   :depends scikit-bio: >=0.2.3,<0.3.0
-   :depends scipy: >=0.14.0
+   :depends numpy: ``1.10*``
+   :depends pandas: ``>=0.13.1``
+   :depends pynast: ``==1.2.2``
+   :depends python: ``2.7*``
+   :depends qcli: ``>=0.1.1,<0.2.0``
+   :depends qiime-default-reference: ``>=0.1.2,<0.2.0``
+   :depends scikit-bio: ``>=0.2.3,<0.3.0``
+   :depends scipy: ``>=0.14.0``
    :depends xorg-libsm: 
    :depends xorg-libxau: 
    :depends xorg-libxdmcp: 

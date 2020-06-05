@@ -8,6 +8,7 @@ cmv
 
 .. conda:recipe:: cmv
    :replaces_section_title:
+   :noindex:
 
    A collection of tools for the visualisation of Hidden Markov Models \(HMMV\) and RNA\-family models \(CMV\).
 
@@ -22,10 +23,17 @@ cmv
 
    |downloads_cmv| |docker_cmv|
 
-   :versions: 1.0.8-1, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.2-0``
+
+      
+
    
    :depends cairo: 
-   :depends gmp: 5.1*
+   :depends gmp: ``5.1*``
    :depends libgcc: 
    :depends libxml2: 
    :depends pango: 
@@ -33,7 +41,7 @@ cmv
    :depends xorg-libsm: 
    :depends xorg-libxext: 
    :depends xorg-libxrender: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

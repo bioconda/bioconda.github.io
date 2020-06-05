@@ -8,6 +8,7 @@ ptrimmer
 
 .. conda:recipe:: ptrimmer
    :replaces_section_title:
+   :noindex:
 
    Used to trim off the primer sequence from mutiplex amplicon sequencing
 
@@ -22,11 +23,18 @@ ptrimmer
 
    |downloads_ptrimmer| |docker_ptrimmer|
 
-   :versions: 1.3.1-0
+   :versions:
+      
+      
+
+      ``1.3.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends ncurses: >=6.1,<6.2.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends ncurses: ``>=6.1,<6.2.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

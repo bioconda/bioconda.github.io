@@ -8,6 +8,7 @@ bpp-popgen
 
 .. conda:recipe:: bpp-popgen
    :replaces_section_title:
+   :noindex:
 
    Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 
@@ -22,10 +23,17 @@ bpp-popgen
 
    |downloads_bpp-popgen| |docker_bpp-popgen|
 
-   :versions: 2.4.1-0
+   :versions:
+      
+      
+
+      ``2.4.1-0``
+
+      
+
    
    :depends bpp-seq: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

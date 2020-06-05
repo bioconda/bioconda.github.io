@@ -8,6 +8,7 @@ impute2
 
 .. conda:recipe:: impute2
    :replaces_section_title:
+   :noindex:
 
    Genotype imputation and haplotype phasing
 
@@ -23,7 +24,14 @@ impute2
 
    |downloads_impute2| |docker_impute2|
 
-   :versions: 2.3.2-1, 2.3.2-0
+   :versions:
+      
+      
+
+      ``2.3.2-1``,  ``2.3.2-0``
+
+      
+
    
    :requirements:
 

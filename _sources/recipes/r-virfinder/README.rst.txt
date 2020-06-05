@@ -8,6 +8,7 @@ r-virfinder
 
 .. conda:recipe:: r-virfinder
    :replaces_section_title:
+   :noindex:
 
    VirFinder\: a novel k\-mer based tool for identifying viral sequences from assembled metagenomic data.
 
@@ -23,12 +24,19 @@ r-virfinder
 
    |downloads_r-virfinder| |docker_r-virfinder|
 
-   :versions: 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``
+
+      
+
    
    :depends bioconductor-qvalue: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-glmnet: 
    :depends r-rcpp: 
    :requirements:

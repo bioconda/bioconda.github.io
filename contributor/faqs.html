@@ -100,7 +100,7 @@
   
   <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
-  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  <li class="toctree-l1"><a href="../conda-package_index.html">Package Index</a></li>
   
   <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
@@ -155,7 +155,7 @@ contains the built software. Packages are uploaded to anaconda.org so that
 users can install them with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>.</p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
-<p>The <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/package-spec.html" title="(in conda-build v3.19.3+29.gba6cf7ab.dirty)"><code class="docutils literal notranslate"><span class="pre">Conda</span> <span class="pre">package</span> <span class="pre">specification</span></code></a> has details on exactly
+<p>The <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/package-spec.html" title="(in conda-build v3.19.3+41.g61624e60.dirty)"><code class="docutils literal notranslate"><span class="pre">Conda</span> <span class="pre">package</span> <span class="pre">specification</span></code></a> has details on exactly
 what a package contains and how it is installed into an
 environment.</p>
 </div>
@@ -175,7 +175,7 @@ a “build” means identifying any recipes that need to built, running
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">.circleci/config.yml</span></code> is read by the Circle CI worker.</p></li>
 <li><p>The worker runs <code class="docutils literal notranslate"><span class="pre">.circleci/setup.sh</span></code>. This installs conda, adds
-channels, and installs <span class="xref std std-doc">bioconda-utils</span></p></li>
+channels, and installs <a class="reference internal" href="../developer/bioconda-utils.html"><span class="doc">bioconda-utils</span></a></p></li>
 <li><p>The worker runs tests defined in <code class="docutils literal notranslate"><span class="pre">.circleci/config.yml</span></code>.</p></li>
 </ul>
 <p>A local version of the Circle CI tests can be executed via the
@@ -235,7 +235,7 @@ CircleCI on your fork (look for the big red “Stop Building” button at
 </div>
 <div class="section" id="testing-bioconda-utils-locally">
 <h2>Testing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally<a class="headerlink" href="#testing-bioconda-utils-locally" title="Permalink to this headline">¶</a></h2>
-<p>Follow the instructions at <span class="xref std std-ref">bootstrap</span> to create a separate Miniconda
+<p>Follow the instructions at <a class="reference internal" href="building-locally.html#bootstrap"><span class="std std-ref">Using the “Bootstrap” Method</span></a> to create a separate Miniconda
 installation using the <code class="docutils literal notranslate"><span class="pre">bootstrap.py</span></code> script in the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repo.</p>
 <p>Then, in the activated environment, install the bioconda-utils test
 requirements, from the top-level directory of the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> repo.

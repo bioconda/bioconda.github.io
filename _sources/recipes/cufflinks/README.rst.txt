@@ -8,6 +8,7 @@ cufflinks
 
 .. conda:recipe:: cufflinks
    :replaces_section_title:
+   :noindex:
 
    Transcriptome assembly and differential expression analysis for RNA\-Seq.
 
@@ -23,9 +24,16 @@ cufflinks
 
    |downloads_cufflinks| |docker_cufflinks|
 
-   :versions: 2.2.1-2, 2.2.1-1, 2.2.1-0
+   :versions:
+      
+      
+
+      ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

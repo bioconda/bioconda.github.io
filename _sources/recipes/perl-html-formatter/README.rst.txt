@@ -8,6 +8,7 @@ perl-html-formatter
 
 .. conda:recipe:: perl-html-formatter
    :replaces_section_title:
+   :noindex:
 
    Base class for HTML formatters
 
@@ -22,9 +23,16 @@ perl-html-formatter
 
    |downloads_perl-html-formatter| |docker_perl-html-formatter|
 
-   :versions: 2.16-0, 2.14-1, 2.14-0
+   :versions:
+      
+      
+
+      ``2.16-0``,  ``2.14-1``,  ``2.14-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-data-dumper: 

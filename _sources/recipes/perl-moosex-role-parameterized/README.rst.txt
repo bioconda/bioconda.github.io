@@ -8,6 +8,7 @@ perl-moosex-role-parameterized
 
 .. conda:recipe:: perl-moosex-role-parameterized
    :replaces_section_title:
+   :noindex:
 
    Moose roles with composition parameters
 
@@ -22,12 +23,19 @@ perl-moosex-role-parameterized
 
    |downloads_perl-moosex-role-parameterized| |docker_perl-moosex-role-parameterized|
 
-   :versions: 1.10-0
+   :versions:
+      
+      
+
+      ``1.10-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-module-runtime: 
-   :depends perl-moose: >=2.0300
+   :depends perl-moose: ``>=2.0300``
    :depends perl-namespace-autoclean: 
    :depends perl-namespace-clean: 
    :requirements:

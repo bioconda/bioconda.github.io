@@ -8,6 +8,7 @@ perl-pbkdf2-tiny
 
 .. conda:recipe:: perl-pbkdf2-tiny
    :replaces_section_title:
+   :noindex:
 
    Minimalist PBKDF2 \(RFC 2898\) with HMAC\-SHA1 or HMAC\-SHA2
 
@@ -22,9 +23,16 @@ perl-pbkdf2-tiny
 
    |downloads_perl-pbkdf2-tiny| |docker_perl-pbkdf2-tiny|
 
-   :versions: 0.005-1, 0.005-0
+   :versions:
+      
+      
+
+      ``0.005-1``,  ``0.005-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

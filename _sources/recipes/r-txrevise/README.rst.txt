@@ -8,6 +8,7 @@ r-txrevise
 
 .. conda:recipe:: r-txrevise
    :replaces_section_title:
+   :noindex:
 
    Construct custom transcript annotations for Salmon and kallisto
 
@@ -27,12 +28,19 @@ r-txrevise
 
    |downloads_r-txrevise| |docker_r-txrevise|
 
-   :versions: 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-1``,  ``0.1-0``
+
+      
+
    
    :depends bioconductor-genomicfeatures: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-purrr: 

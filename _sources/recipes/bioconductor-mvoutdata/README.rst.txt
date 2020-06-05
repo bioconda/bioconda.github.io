@@ -8,6 +8,7 @@ bioconductor-mvoutdata
 
 .. conda:recipe:: bioconductor-mvoutdata
    :replaces_section_title:
+   :noindex:
 
    affy and illumina raw data for assessing outlier detector performance
 
@@ -22,13 +23,20 @@ bioconductor-mvoutdata
 
    |downloads_bioconductor-mvoutdata| |docker_bioconductor-mvoutdata|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-lumi: >=2.40.0,<2.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-lumi: ``>=2.40.0,<2.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

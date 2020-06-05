@@ -8,6 +8,7 @@ pygresql
 
 .. conda:recipe:: pygresql
    :replaces_section_title:
+   :noindex:
 
    Python PostgreSQL Interfaces
 
@@ -22,10 +23,17 @@ pygresql
 
    |downloads_pygresql| |docker_pygresql|
 
-   :versions: 5.0.1-1, 5.0.1-0
+   :versions:
+      
+      
+
+      ``5.0.1-1``,  ``5.0.1-0``
+
+      
+
    
    :depends postgresql: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

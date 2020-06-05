@@ -8,6 +8,7 @@ assemblyutility
 
 .. conda:recipe:: assemblyutility
    :replaces_section_title:
+   :noindex:
 
    Tools for DBG2OLC genoome assembler
 
@@ -22,10 +23,17 @@ assemblyutility
 
    |downloads_assemblyutility| |docker_assemblyutility|
 
-   :versions: 20160209-2, 20160209-1, 20160209-0
+   :versions:
+      
+      
+
+      ``20160209-2``,  ``20160209-1``,  ``20160209-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

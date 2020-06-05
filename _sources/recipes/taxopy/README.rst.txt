@@ -8,6 +8,7 @@ taxopy
 
 .. conda:recipe:: taxopy
    :replaces_section_title:
+   :noindex:
 
    A Python package for obtaining complete lineages and the lowest common ancestor \(LCA\) from a set of taxonomic identifiers.
 
@@ -22,9 +23,16 @@ taxopy
 
    |downloads_taxopy| |docker_taxopy|
 
-   :versions: 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :requirements:
 
    .. rubric:: Installation

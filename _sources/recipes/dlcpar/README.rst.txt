@@ -8,6 +8,7 @@ dlcpar
 
 .. conda:recipe:: dlcpar
    :replaces_section_title:
+   :noindex:
 
    Accurate inference of orthogroups\, orthologues\, gene trees and rooted species tree made easy\!
 
@@ -22,10 +23,17 @@ dlcpar
 
    |downloads_dlcpar| |docker_dlcpar|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

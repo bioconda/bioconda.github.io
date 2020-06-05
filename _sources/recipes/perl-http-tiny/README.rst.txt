@@ -8,6 +8,7 @@ perl-http-tiny
 
 .. conda:recipe:: perl-http-tiny/0.076
    :replaces_section_title:
+   :noindex:
 
    A small\, simple\, correct HTTP\/1.1 client
 
@@ -22,9 +23,16 @@ perl-http-tiny
 
    |downloads_perl-http-tiny| |docker_perl-http-tiny|
 
-   :versions: 0.076-0
+   :versions:
+      
+      
+
+      ``0.076-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-mime-base64: 
    :depends perl-socket: 

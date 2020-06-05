@@ -8,6 +8,7 @@ xmlbuilder
 
 .. conda:recipe:: xmlbuilder
    :replaces_section_title:
+   :noindex:
 
    pythonic way to crate xml\/\(x\)html files
 
@@ -22,9 +23,16 @@ xmlbuilder
 
    |downloads_xmlbuilder| |docker_xmlbuilder|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

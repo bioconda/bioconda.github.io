@@ -8,6 +8,7 @@ t_coffee
 
 .. conda:recipe:: t_coffee
    :replaces_section_title:
+   :noindex:
 
    A collection of tools for Computing\, Evaluating and Manipulating Multiple Alignments of DNA\, RNA\, Protein Sequences and Structures.
 
@@ -22,15 +23,22 @@ t_coffee
 
    |downloads_t_coffee| |docker_t_coffee|
 
-   :versions: 11.0.8-8, 11.0.8-7, 11.0.8-5, 11.0.8-4, 11.0.8-3, 11.0.8-2, 11.0.8-1
+   :versions:
+      
+      
+
+      ``11.0.8-8``,  ``11.0.8-7``,  ``11.0.8-5``,  ``11.0.8-4``,  ``11.0.8-3``,  ``11.0.8-2``,  ``11.0.8-1``
+
+      
+
    
-   :depends curl: >=7.64.1,<8.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openssl: >=1.1.1a,<1.1.2a
+   :depends curl: ``>=7.64.1,<8.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openssl: ``>=1.1.1a,<1.1.2a``
    :depends perl: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

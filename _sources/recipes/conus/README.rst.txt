@@ -8,6 +8,7 @@ conus
 
 .. conda:recipe:: conus
    :replaces_section_title:
+   :noindex:
 
    CONUS is an implementation of simple stochastic context\-free grammars for RNA secondary structure analysis.CONUS developed for exploring the consequences of different single sequence SCFG designs in predicting RNA secondary structure.
 
@@ -23,9 +24,16 @@ conus
 
    |downloads_conus| |docker_conus|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

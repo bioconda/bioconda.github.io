@@ -8,6 +8,7 @@ pepgenome
 
 .. conda:recipe:: pepgenome
    :replaces_section_title:
+   :noindex:
 
    A java tool to map peptide and peptidoform evideces to ENSEMBL Genome Coordinates
 
@@ -22,9 +23,16 @@ pepgenome
 
    |downloads_pepgenome| |docker_pepgenome|
 
-   :versions: 1.1.beta-0, 1.0.beta-0
+   :versions:
+      
+      
+
+      ``1.1.beta-0``,  ``1.0.beta-0``
+
+      
+
    
-   :depends openjdk: >=6
+   :depends openjdk: ``>=6``
    :depends python: 
    :requirements:
 

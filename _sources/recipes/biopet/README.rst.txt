@@ -8,6 +8,7 @@ biopet
 
 .. conda:recipe:: biopet
    :replaces_section_title:
+   :noindex:
 
    Biopet \(Bio Pipeline Execution Toolkit\) is the main pipeline development framework of the LUMC Sequencing Analysis Support Core team.
 
@@ -22,7 +23,14 @@ biopet
 
    |downloads_biopet| |docker_biopet|
 
-   :versions: 0.9.0-1, 0.9.0-0, 0.8.0-1, 0.8.0-0, 0.7.0-0
+   :versions:
+      
+      
+
+      ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

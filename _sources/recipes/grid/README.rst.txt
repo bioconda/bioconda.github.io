@@ -8,6 +8,7 @@ grid
 
 .. conda:recipe:: grid
    :replaces_section_title:
+   :noindex:
 
    Growth Rate Index \(GRiD\) measures bacterial growth rate from reference genomes \(including draft quality genomes\) and metagenomic bins at ultra\-low sequencing coverage \(\> 0.2x\).
 
@@ -22,7 +23,22 @@ grid
 
    |downloads_grid| |docker_grid|
 
-   :versions: 1.3-2, 1.3-1, 1.3-0, 1.2-0, 1.1-4, 1.1-3, 1.1-2, 1.1-1, 1.1-0, 1.0.6-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1-4</code>,  <code>1.1-3</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  </span></summary>
+      
+
+      ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-0``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0.6-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bamtools: 
    :depends bedtools: 
@@ -36,7 +52,7 @@ grid
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-gsubfn: 
-   :depends readline: >=6.2
+   :depends readline: ``>=6.2``
    :depends samtools: 
    :depends seqtk: 
    :requirements:

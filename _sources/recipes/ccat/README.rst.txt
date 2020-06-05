@@ -8,6 +8,7 @@ ccat
 
 .. conda:recipe:: ccat
    :replaces_section_title:
+   :noindex:
 
    CCAT is a software package for the analysis of ChIP\-seq data with negative control.
 
@@ -23,7 +24,14 @@ ccat
 
    |downloads_ccat| |docker_ccat|
 
-   :versions: 3.0-2, 3.0-1, 3.0-0
+   :versions:
+      
+      
+
+      ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+
+      
+
    
    :requirements:
 

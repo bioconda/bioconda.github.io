@@ -8,6 +8,7 @@ bioconductor-treeio
 
 .. conda:recipe:: bioconductor-treeio
    :replaces_section_title:
+   :noindex:
 
    Base Classes and Functions for Phylogenetic Tree Input and Output
 
@@ -22,16 +23,31 @@ bioconductor-treeio
 
    |downloads_bioconductor-treeio| |docker_bioconductor-treeio|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.1-0, 1.8.0-0, 1.6.2-0, 1.6.1-0, 1.4.3-0, 1.2.1-0, 1.2.0-0, 1.0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.4.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-jsonlite: 
    :depends r-magrittr: 
    :depends r-rlang: 
    :depends r-tibble: 
-   :depends r-tidytree: >=0.2.6
+   :depends r-tidytree: ``>=0.2.6``
    :requirements:
 
    .. rubric:: Installation

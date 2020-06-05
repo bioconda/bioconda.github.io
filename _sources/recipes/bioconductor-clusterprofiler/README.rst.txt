@@ -8,6 +8,7 @@ bioconductor-clusterprofiler
 
 .. conda:recipe:: bioconductor-clusterprofiler
    :replaces_section_title:
+   :noindex:
 
    statistical analysis and visualization of functional profiles for genes and gene clusters
 
@@ -23,15 +24,30 @@ bioconductor-clusterprofiler
 
    |downloads_bioconductor-clusterprofiler| |docker_bioconductor-clusterprofiler|
 
-   :versions: 3.16.0-0, 3.14.0-0, 3.12.0-1, 3.10.1-0, 3.8.1-0, 3.6.0-0, 3.4.4-0, 3.0.5-0, 3.0.4-1, 2.4.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  <code>3.10.1-0</code>,  <code>3.8.1-0</code>,  <code>3.6.0-0</code>,  <code>3.4.4-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-1</code>,  </span></summary>
+      
+
+      ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.8.1-0``,  ``3.6.0-0``,  ``3.4.4-0``,  ``3.0.5-0``,  ``3.0.4-1``,  ``2.4.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-dose: >=3.14.0,<3.15.0
-   :depends bioconductor-enrichplot: >=1.8.0,<1.9.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-gosemsim: >=2.14.0,<2.15.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-enrichplot: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-gosemsim: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-downloader: 
    :depends r-dplyr: 
    :depends r-magrittr: 

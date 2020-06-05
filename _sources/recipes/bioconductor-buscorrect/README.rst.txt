@@ -8,6 +8,7 @@ bioconductor-buscorrect
 
 .. conda:recipe:: bioconductor-buscorrect
    :replaces_section_title:
+   :noindex:
 
    Batch Effects Correction with Unknown Subtypes
 
@@ -22,13 +23,20 @@ bioconductor-buscorrect
 
    |downloads_bioconductor-buscorrect| |docker_bioconductor-buscorrect|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :requirements:
 

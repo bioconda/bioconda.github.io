@@ -8,6 +8,7 @@ watchdog-wms
 
 .. conda:recipe:: watchdog-wms
    :replaces_section_title:
+   :noindex:
 
    Watchdog\, a WMS for the automated and distributed analysis of large\-scale experimental data. The software is implemented in Java and is thus platform\-independent. Main feature include \+ straightforward processing of replicate data \+ support for distributed computer systems \+ remote storage support \+ customizable error detection \+ manual intervention into workflow execution \+ GUI for workflow construction using pre\-defined modules \+ a helper script for creating new module definitions \+ no restriction to specific programming languages \+ provides a flexible plugin system for extending without modifying the original sources
 
@@ -22,11 +23,26 @@ watchdog-wms
 
    |downloads_watchdog-wms| |docker_watchdog-wms|
 
-   :versions: 2.0.7-0, 2.0.6-1, 2.0.6-0, 2.0.5-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.2.7-1, 1.2.6-1, 1.2.6-0, 1.2.5-1, 1.2.5-0, 1.2.4b-0, 1.2.3b-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.7-0</code>,  <code>2.0.6-1</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  </span></summary>
+      
+
+      ``2.0.7-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.7-1``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4b-0``,  ``1.2.3b-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends coreutils: >=8
-   :depends javafx-sdk: >=11
-   :depends openjdk: >=11
+   :depends coreutils: ``>=8``
+   :depends javafx-sdk: ``>=11``
+   :depends openjdk: ``>=11``
    :depends wget: 
    :requirements:
 

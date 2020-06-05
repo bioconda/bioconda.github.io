@@ -8,6 +8,7 @@ perl-file-sort
 
 .. conda:recipe:: perl-file-sort
    :replaces_section_title:
+   :noindex:
 
    Sort a file or merge sort multiple files
 
@@ -22,9 +23,16 @@ perl-file-sort
 
    |downloads_perl-file-sort| |docker_perl-file-sort|
 
-   :versions: 1.01-2, 1.01-1, 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-2``,  ``1.01-1``,  ``1.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

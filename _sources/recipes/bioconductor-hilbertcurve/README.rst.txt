@@ -8,6 +8,7 @@ bioconductor-hilbertcurve
 
 .. conda:recipe:: bioconductor-hilbertcurve
    :replaces_section_title:
+   :noindex:
 
    Making 2D Hilbert Curve
 
@@ -22,13 +23,20 @@ bioconductor-hilbertcurve
 
    |downloads_bioconductor-hilbertcurve| |docker_bioconductor-hilbertcurve|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-hilbertvis: >=1.46.0,<1.47.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-circlize: >=0.3.3
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-hilbertvis: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-circlize: ``>=0.3.3``
    :depends r-png: 
    :depends r-polylabelr: 
    :requirements:

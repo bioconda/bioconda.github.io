@@ -8,6 +8,7 @@ cgat-report
 
 .. conda:recipe:: cgat-report
    :replaces_section_title:
+   :noindex:
 
    A report generator in python based on sphinx
 
@@ -22,12 +23,19 @@ cgat-report
 
    |downloads_cgat-report| |docker_cgat-report|
 
-   :versions: 0.9.1-0, 0.9.0-0, 0.8.4-0, 0.8.1-0, 0.8.0-1, 0.8.0-0, 0.7.6.1-1, 0.3.7-1, 0.3.7-0
+   :versions:
+      
+      
+
+      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.6.1-1``,  ``0.3.7-1``,  ``0.3.7-0``
+
+      
+
    
    :depends bokeh: 
    :depends docutils: 
    :depends future: 
-   :depends matplotlib-base: >=2.0
+   :depends matplotlib-base: ``>=2.0``
    :depends matplotlib-venn: 
    :depends nose: 
    :depends numpy: 

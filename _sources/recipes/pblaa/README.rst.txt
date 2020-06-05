@@ -8,6 +8,7 @@ pblaa
 
 .. conda:recipe:: pblaa
    :replaces_section_title:
+   :noindex:
 
    PacBio tool to deconvolute mixtures of alleles and loci into phased consensus sequences.
 
@@ -22,7 +23,14 @@ pblaa
 
    |downloads_pblaa| |docker_pblaa|
 
-   :versions: 2.4.2-2, 2.4.2-1, 2.4.2-0
+   :versions:
+      
+      
+
+      ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``
+
+      
+
    
    :requirements:
 

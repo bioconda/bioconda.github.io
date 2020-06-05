@@ -8,6 +8,7 @@ bioconductor-mouse4302frmavecs
 
 .. conda:recipe:: bioconductor-mouse4302frmavecs
    :replaces_section_title:
+   :noindex:
 
    Vectors used by frma for microarrays of type mouse4302
 
@@ -22,10 +23,17 @@ bioconductor-mouse4302frmavecs
 
    |downloads_bioconductor-mouse4302frmavecs| |docker_bioconductor-mouse4302frmavecs|
 
-   :versions: 1.5.0-4, 1.5.0-3, 1.5.0-2, 1.5.0-1, 1.5.0-0
+   :versions:
+      
+      
+
+      ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

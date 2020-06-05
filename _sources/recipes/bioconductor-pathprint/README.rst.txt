@@ -8,6 +8,7 @@ bioconductor-pathprint
 
 .. conda:recipe:: bioconductor-pathprint
    :replaces_section_title:
+   :noindex:
 
    Pathway fingerprinting for analysis of gene expression arrays
 
@@ -22,9 +23,16 @@ bioconductor-pathprint
 
    |downloads_bioconductor-pathprint| |docker_bioconductor-pathprint|
 
-   :versions: 1.17.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.4-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.4-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

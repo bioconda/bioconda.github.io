@@ -8,6 +8,7 @@ perl-ms
 
 .. conda:recipe:: perl-ms
    :replaces_section_title:
+   :noindex:
 
    Namespace for mass spectrometry\-related libraries
 
@@ -22,9 +23,16 @@ perl-ms
 
    |downloads_perl-ms| |docker_perl-ms|
 
-   :versions: 0.204003-0, 0.204001-0
+   :versions:
+      
+      
+
+      ``0.204003-0``,  ``0.204001-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-biox-seq: 
    :depends perl-compress-bgzf: 
    :depends perl-data-lock: 

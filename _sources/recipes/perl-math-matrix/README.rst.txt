@@ -8,6 +8,7 @@ perl-math-matrix
 
 .. conda:recipe:: perl-math-matrix
    :replaces_section_title:
+   :noindex:
 
    Multiply and invert Matrices
 
@@ -22,9 +23,16 @@ perl-math-matrix
 
    |downloads_perl-math-matrix| |docker_perl-math-matrix|
 
-   :versions: 0.8-0
+   :versions:
+      
+      
+
+      ``0.8-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

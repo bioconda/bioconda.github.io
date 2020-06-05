@@ -8,6 +8,7 @@ hapbin
 
 .. conda:recipe:: hapbin
    :replaces_section_title:
+   :noindex:
 
    hapbin is a collection of tools for efficiently calculating Extended Haplotype Homozygosity \(EHH\)\, the Integrated Haplotype Score \(iHS\) and the Cross Population Extended Haplotype Homozogysity \(XP\-EHH\) statistic.
 
@@ -22,10 +23,17 @@ hapbin
 
    |downloads_hapbin| |docker_hapbin|
 
-   :versions: 1.3.0-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.3.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

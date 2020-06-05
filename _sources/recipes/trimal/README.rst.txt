@@ -8,6 +8,7 @@ trimal
 
 .. conda:recipe:: trimal
    :replaces_section_title:
+   :noindex:
 
    A tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment
 
@@ -23,10 +24,17 @@ trimal
 
    |downloads_trimal| |docker_trimal|
 
-   :versions: 1.4.1-3, 1.4.1-2, 1.4.1-1, 1.4.1-0
+   :versions:
+      
+      
+
+      ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-clustersignificance
 
 .. conda:recipe:: bioconductor-clustersignificance
    :replaces_section_title:
+   :noindex:
 
    The ClusterSignificance package provides tools to assess if class clusters in dimensionality reduced data representations have a separation different from permuted data
 
@@ -23,11 +24,18 @@ bioconductor-clustersignificance
 
    |downloads_bioconductor-clustersignificance| |docker_bioconductor-clustersignificance|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.2-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-pracma: 
-   :depends r-princurve: >=2.0.5
+   :depends r-princurve: ``>=2.0.5``
    :depends r-rcolorbrewer: 
    :depends r-scatterplot3d: 
    :requirements:

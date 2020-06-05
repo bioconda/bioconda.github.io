@@ -8,6 +8,7 @@ bioconductor-bioseqclass
 
 .. conda:recipe:: bioconductor-bioseqclass
    :replaces_section_title:
+   :noindex:
 
    Classification for Biological Sequences
 
@@ -22,11 +23,18 @@ bioconductor-bioseqclass
 
    |downloads_bioconductor-bioseqclass| |docker_bioconductor-bioseqclass|
 
-   :versions: 1.45.0-0, 1.44.0-0, 1.42.0-1, 1.40.0-0
+   :versions:
+      
+      
+
+      ``1.45.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.40.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-class: 
    :depends r-e1071: 
    :depends r-foreign: 

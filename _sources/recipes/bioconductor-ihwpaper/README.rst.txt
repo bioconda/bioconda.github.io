@@ -8,6 +8,7 @@ bioconductor-ihwpaper
 
 .. conda:recipe:: bioconductor-ihwpaper
    :replaces_section_title:
+   :noindex:
 
    Reproduce figures in IHW paper
 
@@ -22,21 +23,28 @@ bioconductor-ihwpaper
 
    |downloads_bioconductor-ihwpaper| |docker_bioconductor-ihwpaper|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-ihw: >=1.16.0,<1.17.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libcxx: >=9.0.1
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-ihw: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libcxx: ``>=9.0.1``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-fdrtool: 

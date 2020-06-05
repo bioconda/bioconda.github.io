@@ -8,6 +8,7 @@ bioconductor-metabosignal
 
 .. conda:recipe:: bioconductor-metabosignal
    :replaces_section_title:
+   :noindex:
 
    MetaboSignal\: a network\-based approach to overlay and explore metabolic and signaling KEGG pathways
 
@@ -23,18 +24,25 @@ bioconductor-metabosignal
 
    |downloads_bioconductor-metabosignal| |docker_bioconductor-metabosignal|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends bioconductor-ensdb.hsapiens.v75: >=2.99.0,<2.100.0
-   :depends bioconductor-hpar: >=1.30.0,<1.31.0
-   :depends bioconductor-kegggraph: >=1.48.0,<1.49.0
-   :depends bioconductor-keggrest: >=1.28.0,<1.29.0
-   :depends bioconductor-mwastools: >=1.12.0,<1.13.0
-   :depends bioconductor-mygene: >=1.24.0,<1.25.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
+   :depends bioconductor-hpar: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-kegggraph: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-keggrest: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-mwastools: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-mygene: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-rcurl: 
    :requirements:

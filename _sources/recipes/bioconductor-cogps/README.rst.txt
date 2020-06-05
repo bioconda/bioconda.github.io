@@ -8,6 +8,7 @@ bioconductor-cogps
 
 .. conda:recipe:: bioconductor-cogps
    :replaces_section_title:
+   :noindex:
 
    cancer outlier Gene Profile Sets
 
@@ -23,9 +24,16 @@ bioconductor-cogps
 
    |downloads_bioconductor-cogps| |docker_bioconductor-cogps|
 
-   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-1, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-file-slurper
 
 .. conda:recipe:: perl-file-slurper
    :replaces_section_title:
+   :noindex:
 
    A simple\, sane and efficient module to slurp a file
 
@@ -22,9 +23,16 @@ perl-file-slurper
 
    |downloads_perl-file-slurper| |docker_perl-file-slurper|
 
-   :versions: 0.012-0, 0.008-2, 0.008-1, 0.008-0
+   :versions:
+      
+      
+
+      ``0.012-0``,  ``0.008-2``,  ``0.008-1``,  ``0.008-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-encode: 

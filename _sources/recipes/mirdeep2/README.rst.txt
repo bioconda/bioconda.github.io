@@ -8,6 +8,7 @@ mirdeep2
 
 .. conda:recipe:: mirdeep2
    :replaces_section_title:
+   :noindex:
 
    A completely overhauled tool which discovers microRNA genes by analyzing sequenced RNAs
 
@@ -22,7 +23,22 @@ mirdeep2
 
    |downloads_mirdeep2| |docker_mirdeep2|
 
-   :versions: 2.0.1.2-0, 2.0.0.8-5, 2.0.0.8-4, 2.0.0.8-3, 2.0.0.8-2, 2.0.0.8-1, 2.0.0.8-0, 2.0.0.7-8, 2.0.0.7-7, 2.0.0.7-6, 2.0.0.7-5, 2.0.0.7-4, 2.0.0.7-3, 2.0.0.7-2, 2.0.0.7-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.1.2-0</code>,  <code>2.0.0.8-5</code>,  <code>2.0.0.8-4</code>,  <code>2.0.0.8-3</code>,  <code>2.0.0.8-2</code>,  <code>2.0.0.8-1</code>,  <code>2.0.0.8-0</code>,  <code>2.0.0.7-8</code>,  <code>2.0.0.7-7</code>,  </span></summary>
+      
+
+      ``2.0.1.2-0``,  ``2.0.0.8-5``,  ``2.0.0.8-4``,  ``2.0.0.8-3``,  ``2.0.0.8-2``,  ``2.0.0.8-1``,  ``2.0.0.8-0``,  ``2.0.0.7-8``,  ``2.0.0.7-7``,  ``2.0.0.7-6``,  ``2.0.0.7-5``,  ``2.0.0.7-4``,  ``2.0.0.7-3``,  ``2.0.0.7-2``,  ``2.0.0.7-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bowtie: 
    :depends perl: 

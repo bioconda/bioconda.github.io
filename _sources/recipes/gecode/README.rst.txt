@@ -8,6 +8,7 @@ gecode
 
 .. conda:recipe:: gecode
    :replaces_section_title:
+   :noindex:
 
    Generic constraint development environment
 
@@ -22,10 +23,17 @@ gecode
 
    |downloads_gecode| |docker_gecode|
 
-   :versions: 5.1.0-1, 5.1.0-0, 5.0.0-1, 5.0.0-0, 4.4.0-2, 4.4.0-1
+   :versions:
+      
+      
+
+      ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.4.0-2``,  ``4.4.0-1``
+
+      
+
    
    :depends gmp: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends mpfr: 
    :requirements:
 

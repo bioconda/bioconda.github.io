@@ -8,6 +8,7 @@ mapgl
 
 .. conda:recipe:: mapgl
    :replaces_section_title:
+   :noindex:
 
    Prediction of lineage\-specific gain and loss of sequence elements using phylogenetic maximum parsimony.
 
@@ -22,11 +23,18 @@ mapgl
 
    |downloads_mapgl| |docker_mapgl|
 
-   :versions: 1.0.1-0, 0.1.1-0, 0.0.6-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``0.1.1-0``,  ``0.0.6-0``
+
+      
+
    
    :depends bx-python: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends six: 
    :requirements:
 

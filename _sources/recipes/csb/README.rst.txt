@@ -8,6 +8,7 @@ csb
 
 .. conda:recipe:: csb
    :replaces_section_title:
+   :noindex:
 
    Computational Structural Biology Toolbox
 
@@ -22,7 +23,14 @@ csb
 
    |downloads_csb| |docker_csb|
 
-   :versions: 1.2.5-2, 1.2.5-0
+   :versions:
+      
+      
+
+      ``1.2.5-2``,  ``1.2.5-0``
+
+      
+
    
    :depends matplotlib: 
    :depends numpy: 

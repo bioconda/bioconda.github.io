@@ -8,6 +8,7 @@ perl-btlib
 
 .. conda:recipe:: perl-btlib/0.19
    :replaces_section_title:
+   :noindex:
 
    Binary Search Tree library
 
@@ -22,9 +23,16 @@ perl-btlib
 
    |downloads_perl-btlib| |docker_perl-btlib|
 
-   :versions: 0.19-1, 0.19-0
+   :versions:
+      
+      
+
+      ``0.19-1``,  ``0.19-0``
+
+      
+
    
-   :depends perl: 5.22.0*
+   :depends perl: ``5.22.0*``
    :requirements:
 
    .. rubric:: Installation

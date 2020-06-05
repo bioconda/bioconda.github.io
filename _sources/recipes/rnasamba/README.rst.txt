@@ -8,6 +8,7 @@ rnasamba
 
 .. conda:recipe:: rnasamba
    :replaces_section_title:
+   :noindex:
 
    A tool for computing the coding potential of RNA transcript sequences using deep learning.
 
@@ -22,14 +23,29 @@ rnasamba
 
    |downloads_rnasamba| |docker_rnasamba|
 
-   :versions: 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  </span></summary>
+      
+
+      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
-   :depends keras: >=2.1.0,<2.3.0
-   :depends libgcc-ng: >=7.3.0
-   :depends numpy: <1.17
-   :depends python: >=3.6,<3.7.0a0
-   :depends tensorflow: >=1.5.0,<2.0
+   :depends keras: ``>=2.1.0,<2.3.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends numpy: ``<1.17``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends tensorflow: ``>=1.5.0,<2.0``
    :requirements:
 
    .. rubric:: Installation

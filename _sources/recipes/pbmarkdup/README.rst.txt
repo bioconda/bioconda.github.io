@@ -8,6 +8,7 @@ pbmarkdup
 
 .. conda:recipe:: pbmarkdup
    :replaces_section_title:
+   :noindex:
 
    pbmarkdup \- Mark duplicate reads from PacBio sequencing of an amplified library
 
@@ -22,7 +23,14 @@ pbmarkdup
 
    |downloads_pbmarkdup| |docker_pbmarkdup|
 
-   :versions: 1.0.0-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``0.2.0-0``
+
+      
+
    
    :requirements:
 

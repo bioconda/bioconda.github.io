@@ -8,6 +8,7 @@ soapdenovo2
 
 .. conda:recipe:: soapdenovo2
    :replaces_section_title:
+   :noindex:
 
    SOAPdenovo is a novel short\-read assembly method that can build a de novo draft assembly for the human\-sized genomes.
 
@@ -22,10 +23,17 @@ soapdenovo2
 
    |downloads_soapdenovo2| |docker_soapdenovo2|
 
-   :versions: 2.40-2, 2.40-1, 2.40-0
+   :versions:
+      
+      
+
+      ``2.40-2``,  ``2.40-1``,  ``2.40-0``
+
+      
+
    
-   :depends samtools: 0.1.19.*
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends samtools: ``0.1.19.*``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

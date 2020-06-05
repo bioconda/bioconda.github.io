@@ -8,6 +8,7 @@ bioconductor-rmassbankdata
 
 .. conda:recipe:: bioconductor-rmassbankdata
    :replaces_section_title:
+   :noindex:
 
    Test dataset for RMassBank
 
@@ -22,10 +23,17 @@ bioconductor-rmassbankdata
 
    |downloads_bioconductor-rmassbankdata| |docker_bioconductor-rmassbankdata|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

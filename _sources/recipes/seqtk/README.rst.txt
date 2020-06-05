@@ -8,6 +8,7 @@ seqtk
 
 .. conda:recipe:: seqtk
    :replaces_section_title:
+   :noindex:
 
    Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
 
@@ -23,10 +24,17 @@ seqtk
 
    |downloads_seqtk| |docker_seqtk|
 
-   :versions: 1.3-2, 1.3-1, 1.3-0, 1.2-1, 1.2-0, r93-0, r82-1, r82-0, r75-0
+   :versions:
+      
+      
+
+      ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``,  ``r93-0``,  ``r82-1``,  ``r82-0``,  ``r75-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

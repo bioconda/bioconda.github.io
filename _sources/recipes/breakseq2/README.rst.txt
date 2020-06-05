@@ -8,6 +8,7 @@ breakseq2
 
 .. conda:recipe:: breakseq2
    :replaces_section_title:
+   :noindex:
 
    BreakSeq2\: Ultrafast and accurate nucleotide\-resolution analysis of structural variants.
 
@@ -22,14 +23,21 @@ breakseq2
 
    |downloads_breakseq2| |docker_breakseq2|
 
-   :versions: 2.2-2, 2.2-1, 2.2-0
+   :versions:
+      
+      
+
+      ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+
+      
+
    
-   :depends biopython: 1.65
+   :depends biopython: ``1.65``
    :depends bwa: 
    :depends cython: 
-   :depends pysam: 0.7.7
-   :depends python: >=2.7,<2.8.0a0
-   :depends samtools: 0.1.19
+   :depends pysam: ``0.7.7``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends samtools: ``0.1.19``
    :requirements:
 
    .. rubric:: Installation

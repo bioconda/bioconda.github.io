@@ -8,6 +8,7 @@ rdock
 
 .. conda:recipe:: rdock
    :replaces_section_title:
+   :noindex:
 
    A Fast\, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids
 
@@ -22,12 +23,19 @@ rdock
 
    |downloads_rdock| |docker_rdock|
 
-   :versions: 2013.1-1, 2013.1-0
+   :versions:
+      
+      
+
+      ``2013.1-1``,  ``2013.1-0``
+
+      
+
    
    :depends libgcc: 
    :depends numpy: 
    :depends openbabel: 
-   :depends perl: 5.22.0*
+   :depends perl: ``5.22.0*``
    :depends popt: 
    :requirements:
 

@@ -8,6 +8,7 @@ coils
 
 .. conda:recipe:: coils
    :replaces_section_title:
+   :noindex:
 
    A generalized profile syntax for biomolecular sequence motifs and its function in automatic sequence interpretation.
 
@@ -22,9 +23,16 @@ coils
 
    |downloads_coils| |docker_coils|
 
-   :versions: 2.2.1-0
+   :versions:
+      
+      
+
+      ``2.2.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

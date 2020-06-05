@@ -8,6 +8,7 @@ expressbetadiversity
 
 .. conda:recipe:: expressbetadiversity
    :replaces_section_title:
+   :noindex:
 
    Taxon\- and phylogenetic\-based beta diversity measures.
 
@@ -23,13 +24,20 @@ expressbetadiversity
 
    |downloads_expressbetadiversity| |docker_expressbetadiversity|
 
-   :versions: 1.0.10-0
+   :versions:
+      
+      
+
+      ``1.0.10-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

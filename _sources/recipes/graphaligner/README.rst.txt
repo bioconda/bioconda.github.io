@@ -8,6 +8,7 @@ graphaligner
 
 .. conda:recipe:: graphaligner
    :replaces_section_title:
+   :noindex:
 
    Sequence to graph aligner for long reads
 
@@ -22,11 +23,26 @@ graphaligner
 
    |downloads_graphaligner| |docker_graphaligner|
 
-   :versions: 1.0.11-0, 1.0.10-0, 1.0.9-1, 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  </span></summary>
+      
+
+      ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

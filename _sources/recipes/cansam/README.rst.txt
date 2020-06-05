@@ -8,6 +8,7 @@ cansam
 
 .. conda:recipe:: cansam
    :replaces_section_title:
+   :noindex:
 
    C\+\+ binding for SAM\/BAM files
 
@@ -22,11 +23,18 @@ cansam
 
    |downloads_cansam| |docker_cansam|
 
-   :versions: 21d64bb-2, 21d64bb-1, 21d64bb-0
+   :versions:
+      
+      
+
+      ``21d64bb-2``,  ``21d64bb-1``,  ``21d64bb-0``
+
+      
+
    
-   :depends boost: >=1.67.0,<1.67.1.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost: ``>=1.67.0,<1.67.1.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

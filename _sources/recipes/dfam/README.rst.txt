@@ -8,6 +8,7 @@ dfam
 
 .. conda:recipe:: dfam
    :replaces_section_title:
+   :noindex:
 
    The Dfam database is a collection of Repetitive DNA element sequence alignments\, hidden Markov models \(HMMs\) and matches lists for complete Eukaryote genomes
 
@@ -22,7 +23,14 @@ dfam
 
    |downloads_dfam| |docker_dfam|
 
-   :versions: 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+
    
    :depends hmmer: 
    :depends perl: 

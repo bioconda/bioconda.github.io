@@ -8,6 +8,7 @@ bioconductor-rcpi
 
 .. conda:recipe:: bioconductor-rcpi
    :replaces_section_title:
+   :noindex:
 
    Molecular Informatics Toolkit for Compound\-Protein Interaction in Drug Discovery
 
@@ -22,16 +23,23 @@ bioconductor-rcpi
 
    |downloads_bioconductor-rcpi| |docker_bioconductor-rcpi|
 
-   :versions: 1.22.0-0, 1.20.1-0, 1.18.1-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.1-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-chemminer: >=3.38.0,<3.39.0
-   :depends bioconductor-fmcsr: >=1.28.0,<1.29.0
-   :depends bioconductor-gosemsim: >=2.12.0,<2.13.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biostrings: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-chemminer: ``>=3.38.0,<3.39.0``
+   :depends bioconductor-fmcsr: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-gosemsim: ``>=2.12.0,<2.13.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 
-   :depends r-rcdk: >=3.3.8
+   :depends r-rcdk: ``>=3.3.8``
    :depends r-rcurl: 
    :depends r-rjson: 
    :requirements:

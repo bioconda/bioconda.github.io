@@ -8,6 +8,7 @@ decoypyrat
 
 .. conda:recipe:: decoypyrat
    :replaces_section_title:
+   :noindex:
 
    Fast Hybrid Decoy Sequence Database Creation for Proteomic Mass Spectrometery Analyses
 
@@ -22,7 +23,14 @@ decoypyrat
 
    |downloads_decoypyrat| |docker_decoypyrat|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

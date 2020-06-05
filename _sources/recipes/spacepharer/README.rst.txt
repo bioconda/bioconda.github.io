@@ -8,6 +8,7 @@ spacepharer
 
 .. conda:recipe:: spacepharer
    :replaces_section_title:
+   :noindex:
 
    SpacePHARER\: Sensitive identification of phages from CRISPR spacers in prokaryotic hosts
 
@@ -22,15 +23,22 @@ spacepharer
 
    |downloads_spacepharer| |docker_spacepharer|
 
-   :versions: 1.56925d2-0
+   :versions:
+      
+      
+
+      ``1.56925d2-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openmp: 
    :depends wget: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ disty
 
 .. conda:recipe:: disty
    :replaces_section_title:
+   :noindex:
 
    Disty McMatrixface \- compute a distance matrix from a core genome alignment file.
 
@@ -22,10 +23,17 @@ disty
 
    |downloads_disty| |docker_disty|
 
-   :versions: 0.1.0-2, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

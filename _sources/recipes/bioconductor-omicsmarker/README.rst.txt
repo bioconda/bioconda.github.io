@@ -8,6 +8,7 @@ bioconductor-omicsmarker
 
 .. conda:recipe:: bioconductor-omicsmarker
    :replaces_section_title:
+   :noindex:
 
    Classification and Feature Selection for \'Omics\' Datasets
 
@@ -22,23 +23,30 @@ bioconductor-omicsmarker
 
    |downloads_bioconductor-omicsmarker| |docker_bioconductor-omicsmarker|
 
-   :versions: 1.19.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends r-assertive: >=0.3-0
-   :depends r-assertive.base: >=0.0-1
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-caret: >=6.0-37
-   :depends r-catools: >=1.14
-   :depends r-data.table: >=1.9.4
-   :depends r-discriminer: >=0.1-29
-   :depends r-e1071: >=1.6-1
-   :depends r-foreach: >=1.4.1
-   :depends r-gbm: >=2.1
-   :depends r-glmnet: >=1.9-5
-   :depends r-pamr: >=1.54.1
-   :depends r-permute: >=0.7-0
-   :depends r-plyr: >=1.8
-   :depends r-randomforest: >=4.6-10
+   :depends r-assertive: ``>=0.3-0``
+   :depends r-assertive.base: ``>=0.0-1``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-caret: ``>=6.0-37``
+   :depends r-catools: ``>=1.14``
+   :depends r-data.table: ``>=1.9.4``
+   :depends r-discriminer: ``>=0.1-29``
+   :depends r-e1071: ``>=1.6-1``
+   :depends r-foreach: ``>=1.4.1``
+   :depends r-gbm: ``>=2.1``
+   :depends r-glmnet: ``>=1.9-5``
+   :depends r-pamr: ``>=1.54.1``
+   :depends r-permute: ``>=0.7-0``
+   :depends r-plyr: ``>=1.8``
+   :depends r-randomforest: ``>=4.6-10``
    :requirements:
 
    .. rubric:: Installation

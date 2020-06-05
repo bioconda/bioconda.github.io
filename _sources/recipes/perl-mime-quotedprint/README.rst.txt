@@ -8,6 +8,7 @@ perl-mime-quotedprint
 
 .. conda:recipe:: perl-mime-quotedprint/3.13
    :replaces_section_title:
+   :noindex:
 
    Encoding and decoding of quoted\-printable strings
 
@@ -22,9 +23,16 @@ perl-mime-quotedprint
 
    |downloads_perl-mime-quotedprint| |docker_perl-mime-quotedprint|
 
-   :versions: 3.13-1, 3.13-0
+   :versions:
+      
+      
+
+      ``3.13-1``,  ``3.13-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

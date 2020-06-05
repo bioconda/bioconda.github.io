@@ -8,6 +8,7 @@ perl-regexp-common
 
 .. conda:recipe:: perl-regexp-common
    :replaces_section_title:
+   :noindex:
 
    Provide commonly requested regular expressions
 
@@ -22,9 +23,16 @@ perl-regexp-common
 
    |downloads_perl-regexp-common| |docker_perl-regexp-common|
 
-   :versions: 2017060201-0, 2016060801-1, 2016060801-0
+   :versions:
+      
+      
+
+      ``2017060201-0``,  ``2016060801-1``,  ``2016060801-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

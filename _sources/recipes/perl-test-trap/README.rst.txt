@@ -8,6 +8,7 @@ perl-test-trap
 
 .. conda:recipe:: perl-test-trap
    :replaces_section_title:
+   :noindex:
 
    Trap exit codes\, exceptions\, output\, etc.
 
@@ -22,9 +23,16 @@ perl-test-trap
 
    |downloads_perl-test-trap| |docker_perl-test-trap|
 
-   :versions: 0.3.3-0, 0.3.2-4, 0.3.2-3
+   :versions:
+      
+      
+
+      ``0.3.3-0``,  ``0.3.2-4``,  ``0.3.2-3``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-constant: 

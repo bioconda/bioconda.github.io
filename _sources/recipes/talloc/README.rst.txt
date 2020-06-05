@@ -8,6 +8,7 @@ talloc
 
 .. conda:recipe:: talloc
    :replaces_section_title:
+   :noindex:
 
    talloc is a hierarchical\, reference counted memory pool system with destructors.
 
@@ -22,7 +23,14 @@ talloc
 
    |downloads_talloc| |docker_talloc|
 
-   :versions: 2.1.9-0
+   :versions:
+      
+      
+
+      ``2.1.9-0``
+
+      
+
    
    :requirements:
 

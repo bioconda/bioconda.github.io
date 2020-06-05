@@ -8,6 +8,7 @@ multivcfanalyzer
 
 .. conda:recipe:: multivcfanalyzer
    :replaces_section_title:
+   :noindex:
 
    MultiVCFAnalyzer is a VCF file post\-processing tool tailored for aDNA. License on Github repository.
 
@@ -22,7 +23,14 @@ multivcfanalyzer
 
    |downloads_multivcfanalyzer| |docker_multivcfanalyzer|
 
-   :versions: 0.85.1-0
+   :versions:
+      
+      
+
+      ``0.85.1-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

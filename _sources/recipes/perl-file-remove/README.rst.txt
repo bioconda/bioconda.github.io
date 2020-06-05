@@ -8,6 +8,7 @@ perl-file-remove
 
 .. conda:recipe:: perl-file-remove/1.57
    :replaces_section_title:
+   :noindex:
 
    Remove files and directories
 
@@ -22,10 +23,17 @@ perl-file-remove
 
    |downloads_perl-file-remove| |docker_perl-file-remove|
 
-   :versions: 1.57-2, 1.57-1, 1.57-0
+   :versions:
+      
+      
+
+      ``1.57-2``,  ``1.57-1``,  ``1.57-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-file-spec: 
    :depends perl-test-more: 
    :requirements:

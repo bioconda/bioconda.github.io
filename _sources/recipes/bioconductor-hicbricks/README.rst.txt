@@ -8,6 +8,7 @@ bioconductor-hicbricks
 
 .. conda:recipe:: bioconductor-hicbricks
    :replaces_section_title:
+   :noindex:
 
    Framework for Storing and Accessing Hi\-C Data Through HDF Files
 
@@ -22,15 +23,22 @@ bioconductor-hicbricks
 
    |downloads_bioconductor-hicbricks| |docker_bioconductor-hicbricks|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rhdf5: >=2.32.0,<2.33.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rhdf5: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-curl: 
    :depends r-data.table: 
    :depends r-digest: 

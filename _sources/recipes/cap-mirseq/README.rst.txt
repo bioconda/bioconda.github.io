@@ -8,6 +8,7 @@ cap-mirseq
 
 .. conda:recipe:: cap-mirseq
    :replaces_section_title:
+   :noindex:
 
    A comprehensive analysis pipeline for deep microRNA sequencing
 
@@ -22,20 +23,27 @@ cap-mirseq
 
    |downloads_cap-mirseq| |docker_cap-mirseq|
 
-   :versions: version-0
+   :versions:
+      
+      
+
+      ``version-0``
+
+      
+
    
-   :depends bedtools: >=2.17.0
-   :depends bioconductor-edger: >=3.14.0
-   :depends bowtie: >=1.1.2
-   :depends fastqc: >=0.11.5
+   :depends bedtools: ``>=2.17.0``
+   :depends bioconductor-edger: ``>=3.14.0``
+   :depends bowtie: ``>=1.1.2``
+   :depends fastqc: ``>=0.11.5``
    :depends java-jdk: 
-   :depends mirdeep2: >=2.0.0.7
+   :depends mirdeep2: ``>=2.0.0.7``
    :depends perl-threaded: 
-   :depends picard: >=1.97
-   :depends r-base: 3.2.2*
+   :depends picard: ``>=1.97``
+   :depends r-base: ``3.2.2*``
    :depends r-essentials: 
-   :depends samtools: >=0.1.19
-   :depends vcftools: >=0.1.11
+   :depends samtools: ``>=0.1.19``
+   :depends vcftools: ``>=0.1.11``
    :requirements:
 
    .. rubric:: Installation

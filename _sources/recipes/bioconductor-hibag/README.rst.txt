@@ -8,6 +8,7 @@ bioconductor-hibag
 
 .. conda:recipe:: bioconductor-hibag
    :replaces_section_title:
+   :noindex:
 
    HLA Genotype Imputation with Attribute Bagging
 
@@ -23,13 +24,20 @@ bioconductor-hibag
 
    |downloads_bioconductor-hibag| |docker_bioconductor-hibag|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.1-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

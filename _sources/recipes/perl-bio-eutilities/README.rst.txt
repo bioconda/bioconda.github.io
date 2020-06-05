@@ -8,6 +8,7 @@ perl-bio-eutilities
 
 .. conda:recipe:: perl-bio-eutilities
    :replaces_section_title:
+   :noindex:
 
    Webagent which interacts with and retrieves data from NCBI eUtils.
 
@@ -22,9 +23,16 @@ perl-bio-eutilities
 
    |downloads_perl-bio-eutilities| |docker_perl-bio-eutilities|
 
-   :versions: 1.75-2, 1.75-0
+   :versions:
+      
+      
+
+      ``1.75-2``,  ``1.75-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-asn1-entrezgene: 
    :depends perl-bioperl: 
    :depends perl-capture-tiny: 

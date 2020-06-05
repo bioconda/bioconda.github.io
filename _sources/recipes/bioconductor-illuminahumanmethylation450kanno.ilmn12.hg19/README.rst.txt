@@ -8,6 +8,7 @@ bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
 
 .. conda:recipe:: bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
    :replaces_section_title:
+   :noindex:
 
    Annotation for Illumina\'s 450k methylation arrays
 
@@ -22,11 +23,18 @@ bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
 
    |downloads_bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19| |docker_bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19|
 
-   :versions: 0.6.0-9, 0.6.0-8, 0.6.0-7, 0.6.0-5, 0.6.0-4, 0.6.0-2, 0.6.0-1, 0.6.0-0
+   :versions:
+      
+      
+
+      ``0.6.0-9``,  ``0.6.0-8``,  ``0.6.0-7``,  ``0.6.0-5``,  ``0.6.0-4``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``
+
+      
+
    
-   :depends bioconductor-minfi: >=1.34.0,<1.35.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-minfi: ``>=1.34.0,<1.35.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

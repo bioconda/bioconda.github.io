@@ -8,6 +8,7 @@ bioconductor-singlecellmultimodal
 
 .. conda:recipe:: bioconductor-singlecellmultimodal
    :replaces_section_title:
+   :noindex:
 
    Integrating Multi\-modal Single Cell Experiment datasets
 
@@ -22,14 +23,21 @@ bioconductor-singlecellmultimodal
 
    |downloads_bioconductor-singlecellmultimodal| |docker_bioconductor-singlecellmultimodal|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rappdirs: 
    :requirements:
 

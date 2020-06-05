@@ -8,6 +8,7 @@ soapdenovo2-gapcloser
 
 .. conda:recipe:: soapdenovo2-gapcloser
    :replaces_section_title:
+   :noindex:
 
    a tool named GapCloser for SOAPdenovo.
 
@@ -22,10 +23,17 @@ soapdenovo2-gapcloser
 
    |downloads_soapdenovo2-gapcloser| |docker_soapdenovo2-gapcloser|
 
-   :versions: 1.12-2, 1.12-1, 1.12-0
+   :versions:
+      
+      
+
+      ``1.12-2``,  ``1.12-1``,  ``1.12-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

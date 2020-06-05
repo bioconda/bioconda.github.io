@@ -8,6 +8,7 @@ bioconductor-stringdb
 
 .. conda:recipe:: bioconductor-stringdb
    :replaces_section_title:
+   :noindex:
 
    STRINGdb \(Search Tool for the Retrieval of Interacting proteins database\)
 
@@ -23,9 +24,16 @@ bioconductor-stringdb
 
    |downloads_bioconductor-stringdb| |docker_bioconductor-stringdb|
 
-   :versions: 2.0.0-0, 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends r-hash: 
    :depends r-igraph: 

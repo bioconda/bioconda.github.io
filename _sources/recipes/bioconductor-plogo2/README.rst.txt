@@ -8,6 +8,7 @@ bioconductor-plogo2
 
 .. conda:recipe:: bioconductor-plogo2
    :replaces_section_title:
+   :noindex:
 
    Plot Gene Ontology and KEGG pathway Annotation and Abundance
 
@@ -22,11 +23,18 @@ bioconductor-plogo2
 
    |downloads_bioconductor-plogo2| |docker_bioconductor-plogo2|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-gostats: >=2.54.0,<2.55.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-gostats: ``>=2.54.0,<2.55.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 
    :depends r-lattice: 
    :depends r-openxlsx: 

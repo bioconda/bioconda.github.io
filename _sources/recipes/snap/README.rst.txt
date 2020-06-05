@@ -8,6 +8,7 @@ snap
 
 .. conda:recipe:: snap
    :replaces_section_title:
+   :noindex:
 
    Semi\-HMM\-based Nucleic Acid Parser \-\- gene prediction tool
 
@@ -22,9 +23,16 @@ snap
 
    |downloads_snap| |docker_snap|
 
-   :versions: 2013_11_29-2, 2013_11_29-1, 2013_11_29-0
+   :versions:
+      
+      
+
+      ``2013_11_29-2``,  ``2013_11_29-1``,  ``2013_11_29-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends perl: 
    :requirements:
 

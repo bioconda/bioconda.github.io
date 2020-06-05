@@ -8,6 +8,7 @@ pyega3
 
 .. conda:recipe:: pyega3
    :replaces_section_title:
+   :noindex:
 
    EGA python client
 
@@ -22,12 +23,19 @@ pyega3
 
    |downloads_pyega3| |docker_pyega3|
 
-   :versions: 3.0.44-0, 3.0.40-0, 3.0.39-0, 3.0.38-0, 3.0.21-1, 3.0.21-0
+   :versions:
+      
+      
+
+      ``3.0.44-0``,  ``3.0.40-0``,  ``3.0.39-0``,  ``3.0.38-0``,  ``3.0.21-1``,  ``3.0.21-0``
+
+      
+
    
-   :depends python: >3
+   :depends python: ``>3``
    :depends python-htsget: 
    :depends requests: 
-   :depends tqdm: >=4.26.0
+   :depends tqdm: ``>=4.26.0``
    :requirements:
 
    .. rubric:: Installation

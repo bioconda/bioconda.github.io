@@ -8,6 +8,7 @@ snpsift
 
 .. conda:recipe:: snpsift
    :replaces_section_title:
+   :noindex:
 
    Toolbox that allows you to filter and manipulate annotated files
 
@@ -23,7 +24,22 @@ snpsift
 
    |downloads_snpsift| |docker_snpsift|
 
-   :versions: 4.3.1t-2, 4.3.1t-1, 4.3.1t-0, 4.3.1r-0, 4.3.1p-0, 4.3.1o-0, 4.3.1m-0, 4.3-2, 4.3-1, 4.2-4, 4.2-3, 4.2-2, 4.2-1, 4.1l-3, 4.1l-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.3.1t-2</code>,  <code>4.3.1t-1</code>,  <code>4.3.1t-0</code>,  <code>4.3.1r-0</code>,  <code>4.3.1p-0</code>,  <code>4.3.1o-0</code>,  <code>4.3.1m-0</code>,  <code>4.3-2</code>,  <code>4.3-1</code>,  </span></summary>
+      
+
+      ``4.3.1t-2``,  ``4.3.1t-1``,  ``4.3.1t-0``,  ``4.3.1r-0``,  ``4.3.1p-0``,  ``4.3.1o-0``,  ``4.3.1m-0``,  ``4.3-2``,  ``4.3-1``,  ``4.2-4``,  ``4.2-3``,  ``4.2-2``,  ``4.2-1``,  ``4.1l-3``,  ``4.1l-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends openjdk: 
    :depends perl: 

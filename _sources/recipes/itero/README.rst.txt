@@ -8,6 +8,7 @@ itero
 
 .. conda:recipe:: itero
    :replaces_section_title:
+   :noindex:
 
    A pipeline for iterative\, guided contig assembly that integrates spades\, bwa\, and samtools to produce assembled contigs.
 
@@ -22,7 +23,14 @@ itero
 
    |downloads_itero| |docker_itero|
 
-   :versions: 1.1.2-1, 1.1.2-0, 1.1.1-2, 1.1.1-0, 1.1.0-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
    :depends argcomplete: 
    :depends bedtools: 
@@ -33,11 +41,11 @@ itero
    :depends mpi4py: 
    :depends nomkl: 
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends samtools: 
    :depends schwimmbad: 
    :depends six: 
-   :depends spades: 3.12.*
+   :depends spades: ``3.12.*``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ gbsx
 
 .. conda:recipe:: gbsx
    :replaces_section_title:
+   :noindex:
 
    Toolkit for experimental design and demultiplexing genotyping by sequencing experiments
 
@@ -28,9 +29,16 @@ gbsx
 
    |downloads_gbsx| |docker_gbsx|
 
-   :versions: 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-0``
+
+      
+
    
-   :depends openjdk: >=6
+   :depends openjdk: ``>=6``
    :depends python: 
    :requirements:
 

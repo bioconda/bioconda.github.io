@@ -8,6 +8,7 @@ sirius-csifingerid
 
 .. conda:recipe:: sirius-csifingerid
    :replaces_section_title:
+   :noindex:
 
    SIRIUS is new java\-based software framework for discovering a landscape of de\-novo identification of metabolites using single and tandem mass spectrometry. SIRIUS uses isotope pattern analysis for detecting the molecular formula and further analyses the fragmentation pattern of a compound using fragmentation trees.
 
@@ -22,11 +23,18 @@ sirius-csifingerid
 
    |downloads_sirius-csifingerid| |docker_sirius-csifingerid|
 
-   :versions: 4.0.1-0
+   :versions:
+      
+      
+
+      ``4.0.1-0``
+
+      
+
    
-   :depends glpk: >=4.65,<4.66.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends openjdk: >=7
+   :depends glpk: ``>=4.65,<4.66.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends openjdk: ``>=7``
    :requirements:
 
    .. rubric:: Installation

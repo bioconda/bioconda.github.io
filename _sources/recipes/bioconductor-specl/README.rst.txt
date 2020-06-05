@@ -8,6 +8,7 @@ bioconductor-specl
 
 .. conda:recipe:: bioconductor-specl
    :replaces_section_title:
+   :noindex:
 
    specL \- Prepare Peptide Spectrum Matches for Use in Targeted Proteomics
 
@@ -23,13 +24,20 @@ bioconductor-specl
 
    |downloads_bioconductor-specl| |docker_bioconductor-specl|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.1-0, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.1-0``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dbi: >=0.5
-   :depends r-protviz: >=0.5
-   :depends r-rsqlite: >=1.1
-   :depends r-seqinr: >=3.3
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dbi: ``>=0.5``
+   :depends r-protviz: ``>=0.5``
+   :depends r-rsqlite: ``>=1.1``
+   :depends r-seqinr: ``>=3.3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ kalign2
 
 .. conda:recipe:: kalign2
    :replaces_section_title:
+   :noindex:
 
    Kalign is a fast and accurate multiple sequence alignment algorithm designed to align large numbers of protein sequences.
 
@@ -23,9 +24,16 @@ kalign2
 
    |downloads_kalign2| |docker_kalign2|
 
-   :versions: 2.04-0
+   :versions:
+      
+      
+
+      ``2.04-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

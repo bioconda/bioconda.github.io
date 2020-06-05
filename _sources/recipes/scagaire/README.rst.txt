@@ -8,6 +8,7 @@ scagaire
 
 .. conda:recipe:: scagaire
    :replaces_section_title:
+   :noindex:
 
    Scagaire allows you to take in gene predictions from a metagenomic sample and filter them by bacterial\/pathogenic species
 
@@ -22,11 +23,18 @@ scagaire
 
    |downloads_scagaire| |docker_scagaire|
 
-   :versions: 0.0.4-0
+   :versions:
+      
+      
+
+      ``0.0.4-0``
+
+      
+
    
-   :depends biopython: >=1.68
+   :depends biopython: ``>=1.68``
    :depends mash: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyyaml: 
    :requirements:
 

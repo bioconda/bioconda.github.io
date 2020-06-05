@@ -8,6 +8,7 @@ bioconductor-jaspar2018
 
 .. conda:recipe:: bioconductor-jaspar2018
    :replaces_section_title:
+   :noindex:
 
    Data package for JASPAR 2018
 
@@ -22,10 +23,17 @@ bioconductor-jaspar2018
 
    |downloads_bioconductor-jaspar2018| |docker_bioconductor-jaspar2018|
 
-   :versions: 1.1.1-4, 1.1.1-3, 1.1.1-2, 1.1.1-1, 1.1.1-0, 1.0.0-1, 1.0.0-0, 0.99.2-0
+   :versions:
+      
+      
+
+      ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.99.2-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

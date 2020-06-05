@@ -8,6 +8,7 @@ bioconductor-doscheda
 
 .. conda:recipe:: bioconductor-doscheda
    :replaces_section_title:
+   :noindex:
 
    A DownStream Chemo\-Proteomics Analysis Pipeline
 
@@ -22,12 +23,19 @@ bioconductor-doscheda
 
    |downloads_bioconductor-doscheda| |docker_bioconductor-doscheda|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-vsn: >=3.56.0,<3.57.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-calibrate: 
    :depends r-corrgram: 
    :depends r-d3heatmap: 

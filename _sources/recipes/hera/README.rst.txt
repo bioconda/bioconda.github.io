@@ -8,6 +8,7 @@ hera
 
 .. conda:recipe:: hera
    :replaces_section_title:
+   :noindex:
 
    hera is a bioinformatics tool that helps analyze RNA\-seq data\, providing base\-to\-base alignment BAM files\, transcript abundance estimation\, and fusion gene detection.
 
@@ -22,17 +23,24 @@ hera
 
    |downloads_hera| |docker_hera|
 
-   :versions: 1.1-3, 1.1-2, 1.1-1, 1.1-0, 1.0.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends hdf5: >=1.10.2,<1.10.3.0a0
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends jemalloc: >=4.5.0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends hdf5: ``>=1.10.2,<1.10.3.0a0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends jemalloc: ``>=4.5.0``
    :depends libdivsufsort: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends python: 
-   :depends xz: >=5.2.4,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

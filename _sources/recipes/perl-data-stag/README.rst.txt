@@ -8,6 +8,7 @@ perl-data-stag
 
 .. conda:recipe:: perl-data-stag
    :replaces_section_title:
+   :noindex:
 
    Structured Tags
 
@@ -22,9 +23,16 @@ perl-data-stag
 
    |downloads_perl-data-stag| |docker_perl-data-stag|
 
-   :versions: 0.14-1, 0.14-0
+   :versions:
+      
+      
+
+      ``0.14-1``,  ``0.14-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-graph: 
    :depends perl-io-string: 
    :depends perl-json: 

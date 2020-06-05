@@ -8,6 +8,7 @@ pypore
 
 .. conda:recipe:: pypore
    :replaces_section_title:
+   :noindex:
 
    Pythonic\/Cythonic Nanopore Translocation Analysis
 
@@ -22,11 +23,18 @@ pypore
 
    |downloads_pypore| |docker_pypore|
 
-   :versions: 0.0.6.dev20180702231556-1, 0.0.6.dev20180702231556-0, 0.0.6.dev20161116235131-1, 0.0.6.dev20161116235131-0, 0.0.5.dev20160304220337-1, 0.0.5.dev20160304220337-0
+   :versions:
+      
+      
+
+      ``0.0.6.dev20180702231556-1``,  ``0.0.6.dev20180702231556-0``,  ``0.0.6.dev20161116235131-1``,  ``0.0.6.dev20161116235131-0``,  ``0.0.5.dev20160304220337-1``,  ``0.0.5.dev20160304220337-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

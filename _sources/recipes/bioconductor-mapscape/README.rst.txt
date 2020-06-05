@@ -8,6 +8,7 @@ bioconductor-mapscape
 
 .. conda:recipe:: bioconductor-mapscape
    :replaces_section_title:
+   :noindex:
 
    mapscape
 
@@ -22,13 +23,20 @@ bioconductor-mapscape
 
    |downloads_bioconductor-mapscape| |docker_bioconductor-mapscape|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-base64enc: >=0.1-3
-   :depends r-htmlwidgets: >=0.5
-   :depends r-jsonlite: >=0.9.19
-   :depends r-stringr: >=1.0.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base64enc: ``>=0.1-3``
+   :depends r-htmlwidgets: ``>=0.5``
+   :depends r-jsonlite: ``>=0.9.19``
+   :depends r-stringr: ``>=1.0.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ isoseq3
 
 .. conda:recipe:: isoseq3
    :replaces_section_title:
+   :noindex:
 
    IsoSeq3 \- Scalable De Novo Isoform Discovery
 
@@ -22,7 +23,22 @@ isoseq3
 
    |downloads_isoseq3| |docker_isoseq3|
 
-   :versions: 3.3.0-0, 3.2.2-0, 3.2.1-3, 3.2.1-2, 3.2.1-1, 3.2.1-0, 3.2.0-0, 3.1.2-0, 3.1.0-0, 3.0.0-2, 3.0.0-1, 3.0.0-0, 0.7.2-2, 0.7.2-1, 0.7.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.3.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-3</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-0</code>,  </span></summary>
+      
+
+      ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-3``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :requirements:
 

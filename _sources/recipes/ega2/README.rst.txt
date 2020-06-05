@@ -8,6 +8,7 @@ ega2
 
 .. conda:recipe:: ega2
    :replaces_section_title:
+   :noindex:
 
    EGA download client v2
 
@@ -26,9 +27,16 @@ ega2
 
    |downloads_ega2| |docker_ega2|
 
-   :versions: 2.2.2-0
+   :versions:
+      
+      
+
+      ``2.2.2-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

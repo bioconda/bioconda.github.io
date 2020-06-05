@@ -8,6 +8,7 @@ fastqmetrics
 
 .. conda:recipe:: fastqmetrics
    :replaces_section_title:
+   :noindex:
 
    Extract metrics from a fastq file\, streaming
 
@@ -22,10 +23,17 @@ fastqmetrics
 
    |downloads_fastqmetrics| |docker_fastqmetrics|
 
-   :versions: 0.1.0-2, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
-   :depends nanoget: >=0.14.0,<1.8.0
-   :depends python: >=3
+   :depends nanoget: ``>=0.14.0,<1.8.0``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

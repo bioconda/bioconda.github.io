@@ -8,6 +8,7 @@ graphlite
 
 .. conda:recipe:: graphlite
    :replaces_section_title:
+   :noindex:
 
    embedded graph datastore
 
@@ -22,7 +23,14 @@ graphlite
 
    |downloads_graphlite| |docker_graphlite|
 
-   :versions: 1.0.5-2, 1.0.5-1, 1.0.5-0
+   :versions:
+      
+      
+
+      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+
+      
+
    
    :depends python: 
    :requirements:

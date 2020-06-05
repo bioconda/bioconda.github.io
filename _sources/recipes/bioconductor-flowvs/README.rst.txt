@@ -8,6 +8,7 @@ bioconductor-flowvs
 
 .. conda:recipe:: bioconductor-flowvs
    :replaces_section_title:
+   :noindex:
 
    Variance stabilization in flow cytometry \(and microarrays\)
 
@@ -22,12 +23,19 @@ bioconductor-flowvs
 
    |downloads_bioconductor-flowvs| |docker_bioconductor-flowvs|
 
-   :versions: 1.19.0-0, 1.18.0-0, 1.16.0-1, 1.14.1-0
+   :versions:
+      
+      
+
+      ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``
+
+      
+
    
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowstats: >=4.0.0,<4.1.0
-   :depends bioconductor-flowviz: >=1.52.0,<1.53.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowstats: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-flowviz: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

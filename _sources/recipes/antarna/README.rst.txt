@@ -8,6 +8,7 @@ antarna
 
 .. conda:recipe:: antarna
    :replaces_section_title:
+   :noindex:
 
    antaRNA is a python based implementation of ant\-colony optimization of the RNA inverse folding problem.
 
@@ -23,11 +24,18 @@ antarna
 
    |downloads_antarna| |docker_antarna|
 
-   :versions: 2.0.1.2-0
+   :versions:
+      
+      
+
+      ``2.0.1.2-0``
+
+      
+
    
    :depends networkx: 
    :depends numpy: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends scipy: 
    :depends uuid: 
    :depends viennarna: 

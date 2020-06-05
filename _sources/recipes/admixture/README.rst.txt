@@ -8,6 +8,7 @@ admixture
 
 .. conda:recipe:: admixture
    :replaces_section_title:
+   :noindex:
 
    ADMIXTURE is a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets.
 
@@ -23,7 +24,14 @@ admixture
 
    |downloads_admixture| |docker_admixture|
 
-   :versions: 1.3.0-0
+   :versions:
+      
+      
+
+      ``1.3.0-0``
+
+      
+
    
    :requirements:
 

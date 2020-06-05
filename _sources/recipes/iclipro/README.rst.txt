@@ -8,6 +8,7 @@ iclipro
 
 .. conda:recipe:: iclipro
    :replaces_section_title:
+   :noindex:
 
    iCLIPro is a Python package that can be used to control for systematic misassignments in iCLIP data.
 
@@ -22,11 +23,18 @@ iclipro
 
    |downloads_iclipro| |docker_iclipro|
 
-   :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
    :depends matplotlib: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

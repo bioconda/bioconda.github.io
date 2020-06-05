@@ -8,6 +8,7 @@ rappas
 
 .. conda:recipe:: rappas
    :replaces_section_title:
+   :noindex:
 
    RAPPAS \(Rapid Alignment\-free Phylogenetic PLacement via Ancestral Sequences\) is a program dedicated to Phylogenetic Placement of \(meta\)genomic reads on a reference tree. As apposed to previous PP programs\, RAPPAS is based on the phylo\-kmers idea\, detailed in tis manuscript and uses a 2 step approach divided into a\) the database build\, and b\) the placement itself. The main advantage of RAPPAS is that it is alignment free\, which means that after step \(a\) \(the DB build\) is performed\, metagenomic reads can be directly placed on a referene tree WITHOUT aligning them to the reference alignment on which the tree was built \(as required by other approaches\). The second advantage of RAPPAS is its algorithm based on phylo\-kmers matches\, making its execution time linear with respect to the length of the placed sequences.
 
@@ -22,11 +23,18 @@ rappas
 
    |downloads_rappas| |docker_rappas|
 
-   :versions: 1.20-0, 1.12-0
+   :versions:
+      
+      
+
+      ``1.20-0``,  ``1.12-0``
+
+      
+
    
    :depends font-ttf-dejavu-sans-mono: 
-   :depends openjdk: >=8.0.144
-   :depends phyml: 3.3.20190909.*
+   :depends openjdk: ``>=8.0.144``
+   :depends phyml: ``3.3.20190909.*``
    :requirements:
 
    .. rubric:: Installation

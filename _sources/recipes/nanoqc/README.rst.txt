@@ -8,6 +8,7 @@ nanoqc
 
 .. conda:recipe:: nanoqc
    :replaces_section_title:
+   :noindex:
 
    Create fastQC\-like plots for Oxford Nanopore sequencing data
 
@@ -22,12 +23,19 @@ nanoqc
 
    |downloads_nanoqc| |docker_nanoqc|
 
-   :versions: 0.9.2-0, 0.9.1-0, 0.8.1-1, 0.7.0-1, 0.7.0-0, 0.6.0-0, 0.5.0-0, 0.4.3-0, 0.3.3-0
+   :versions:
+      
+      
+
+      ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.1-1``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.3.3-0``
+
+      
+
    
    :depends biopython: 
    :depends bokeh: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

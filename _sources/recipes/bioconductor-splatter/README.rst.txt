@@ -8,6 +8,7 @@ bioconductor-splatter
 
 .. conda:recipe:: bioconductor-splatter
    :replaces_section_title:
+   :noindex:
 
    Simple Simulation of Single\-cell RNA Sequencing Data
 
@@ -22,18 +23,25 @@ bioconductor-splatter
 
    |downloads_bioconductor-splatter| |docker_bioconductor-splatter|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.1-0, 1.4.3-0, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.2.1-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-scater: >=1.16.0,<1.17.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-scater: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
    :depends r-akima: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-checkmate: >=2.0.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-checkmate: ``>=2.0.0``
    :depends r-crayon: 
    :depends r-fitdistrplus: 
    :depends r-ggplot2: 

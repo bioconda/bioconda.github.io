@@ -8,6 +8,7 @@ pycluster
 
 .. conda:recipe:: pycluster
    :replaces_section_title:
+   :noindex:
 
    Clustering module for Python
 
@@ -22,12 +23,19 @@ pycluster
 
    |downloads_pycluster| |docker_pycluster|
 
-   :versions: 1.54-2, 1.54-1, 1.54-0, 1.52-1
+   :versions:
+      
+      
+
+      ``1.54-2``,  ``1.54-1``,  ``1.54-0``,  ``1.52-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends numpy: >=1.14.6,<2.0a0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

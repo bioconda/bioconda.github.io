@@ -8,6 +8,7 @@ perl-scalar-list-utils
 
 .. conda:recipe:: perl-scalar-list-utils
    :replaces_section_title:
+   :noindex:
 
    Common Scalar and List utility subroutines
 
@@ -22,10 +23,25 @@ perl-scalar-list-utils
 
    |downloads_perl-scalar-list-utils| |docker_perl-scalar-list-utils|
 
-   :versions: 1.52-0, 1.51-0, 1.50-0, 1.45-4, 1.45-3, 1.45-2, 1.45-1, 1.45-0, 1.42-3, 1.42-2, 1.42-1, 1.42-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.52-0</code>,  <code>1.51-0</code>,  <code>1.50-0</code>,  <code>1.45-4</code>,  <code>1.45-3</code>,  <code>1.45-2</code>,  <code>1.45-1</code>,  <code>1.45-0</code>,  <code>1.42-3</code>,  </span></summary>
+      
+
+      ``1.52-0``,  ``1.51-0``,  ``1.50-0``,  ``1.45-4``,  ``1.45-3``,  ``1.45-2``,  ``1.45-1``,  ``1.45-0``,  ``1.42-3``,  ``1.42-2``,  ``1.42-1``,  ``1.42-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

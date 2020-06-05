@@ -8,6 +8,7 @@ genesplicer
 
 .. conda:recipe:: genesplicer
    :replaces_section_title:
+   :noindex:
 
    GeneSplicer \: A computational method for splice site prediction
 
@@ -23,7 +24,14 @@ genesplicer
 
    |downloads_genesplicer| |docker_genesplicer|
 
-   :versions: 1.0-1, 1.0-0, 0_2003.04.03-1, 0_2003.04.03-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``,  ``0_2003.04.03-1``,  ``0_2003.04.03-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

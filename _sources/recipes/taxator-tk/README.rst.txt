@@ -8,6 +8,7 @@ taxator-tk
 
 .. conda:recipe:: taxator-tk
    :replaces_section_title:
+   :noindex:
 
    Taxator\-tk sequence taxonomic annotaion
 
@@ -22,9 +23,16 @@ taxator-tk
 
    |downloads_taxator-tk| |docker_taxator-tk|
 
-   :versions: 1.3.3e-1, 1.3.3e-0
+   :versions:
+      
+      
+
+      ``1.3.3e-1``,  ``1.3.3e-0``
+
+      
+
    
-   :depends boost: 1.64.0 py27_4
+   :depends boost: ``1.64.0 py27_4``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ singlem
 
 .. conda:recipe:: singlem
    :replaces_section_title:
+   :noindex:
 
    SingleM is a tool to find the abundances of discrete operational taxonomic units \(OTUs\) directly from shotgun metagenome data\, without heavy reliance on reference sequence databases. It is able to differentiate closely related species even if those species are from lineages new to science.
 
@@ -22,28 +23,35 @@ singlem
 
    |downloads_singlem| |docker_singlem|
 
-   :versions: 0.13.2-0
+   :versions:
+      
+      
+
+      ``0.13.2-0``
+
+      
+
    
-   :depends biom-format: >=2.1.6
-   :depends biopython: >=1.64
-   :depends dendropy: >=0.4.0
-   :depends diamond: >=0.9
+   :depends biom-format: ``>=2.1.6``
+   :depends biopython: ``>=1.64``
+   :depends dendropy: ``>=0.4.0``
+   :depends diamond: ``>=0.9``
    :depends expressbetadiversity: 
-   :depends extern: >=0.0.4
-   :depends graftm: >=0.12.2
+   :depends extern: ``>=0.0.4``
+   :depends graftm: ``>=0.12.2``
    :depends h5py: 
-   :depends hmmer: >=3.1b1
-   :depends krona: >=2.4
-   :depends matplotlib-base: >=2.0.2
-   :depends mfqe: >=0.5.0
-   :depends orator: >=0.9.7
-   :depends orfm: >=0.2.0
+   :depends hmmer: ``>=3.1b1``
+   :depends krona: ``>=2.4``
+   :depends matplotlib-base: ``>=2.0.2``
+   :depends mfqe: ``>=0.5.0``
+   :depends orator: ``>=0.9.7``
+   :depends orfm: ``>=0.2.0``
    :depends pandas: 
-   :depends pplacer: >=1.1.alpha17
-   :depends python: >=3.6
-   :depends smafa: >=0.5.0
-   :depends squarify: >=0.3.0
-   :depends tempdir: >=0.6
+   :depends pplacer: ``>=1.1.alpha17``
+   :depends python: ``>=3.6``
+   :depends smafa: ``>=0.5.0``
+   :depends squarify: ``>=0.3.0``
+   :depends tempdir: ``>=0.6``
    :depends vsearch: 
    :requirements:
 

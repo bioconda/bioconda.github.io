@@ -8,6 +8,7 @@ salmid
 
 .. conda:recipe:: salmid
    :replaces_section_title:
+   :noindex:
 
    Rapid tool to check taxonomic ID of single isolate samples. Currently only IDs Salmonella species and subspecies\, and some common contaminants \(Listeria\, Escherichia\).
 
@@ -23,9 +24,16 @@ salmid
 
    |downloads_salmid| |docker_salmid|
 
-   :versions: 0.1.23-0
+   :versions:
+      
+      
+
+      ``0.1.23-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

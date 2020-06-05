@@ -8,6 +8,7 @@ refgenieserver
 
 .. conda:recipe:: refgenieserver
    :replaces_section_title:
+   :noindex:
 
    This server provides both a web interface and a RESTful API. Users may explore and download archived indexes from the web interface or develop tools that programmatically query the API.
 
@@ -22,15 +23,22 @@ refgenieserver
 
    |downloads_refgenieserver| |docker_refgenieserver|
 
-   :versions: 0.4.4-0, 0.4.3-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.4-0
+   :versions:
+      
+      
+
+      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
+
+      
+
    
    :depends aiofiles: 
    :depends fastapi: 
    :depends jinja2: 
-   :depends logmuse: >=0.2
+   :depends logmuse: ``>=0.2``
    :depends python: 
-   :depends refgenconf: >=0.5.2
-   :depends uvicorn: >=0.7.1
+   :depends refgenconf: ``>=0.5.2``
+   :depends uvicorn: ``>=0.7.1``
    :requirements:
 
    .. rubric:: Installation

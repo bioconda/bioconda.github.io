@@ -8,6 +8,7 @@ soapsplice
 
 .. conda:recipe:: soapsplice
    :replaces_section_title:
+   :noindex:
 
    We have developed a tool SOAPsplice for genome\-wide ab initio detection of splice junction sites from RNA\-Seq\, a method using new generation sequencing technologies to sequence the messenger RNA.
 
@@ -23,7 +24,14 @@ soapsplice
 
    |downloads_soapsplice| |docker_soapsplice|
 
-   :versions: 1.10-2, 1.10-1, 1.10-0
+   :versions:
+      
+      
+
+      ``1.10-2``,  ``1.10-1``,  ``1.10-0``
+
+      
+
    
    :depends zlib: 
    :requirements:

@@ -8,6 +8,7 @@ ngs-disambiguate
 
 .. conda:recipe:: ngs-disambiguate
    :replaces_section_title:
+   :noindex:
 
    Disambiguation algorithm for reads aligned to human and mouse genomes using Tophat or BWA mem
 
@@ -22,11 +23,18 @@ ngs-disambiguate
 
    |downloads_ngs-disambiguate| |docker_ngs-disambiguate|
 
-   :versions: 2018.05.03-4, 2018.05.03-3, 2018.05.03-2, 2018.05.03-1, 2018.05.03-0, 2016.11.10-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``2018.05.03-4``,  ``2018.05.03-3``,  ``2018.05.03-2``,  ``2018.05.03-1``,  ``2018.05.03-0``,  ``2016.11.10-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bamtools: >=2.5.1,<2.5.2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

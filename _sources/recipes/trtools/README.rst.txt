@@ -8,6 +8,7 @@ trtools
 
 .. conda:recipe:: trtools
    :replaces_section_title:
+   :noindex:
 
    Toolkit for genome\-wide analysis of tandem repeats https\:\/\/trtools.readthedocs.io\/
 
@@ -25,7 +26,14 @@ trtools
 
    |downloads_trtools| |docker_trtools|
 
-   :versions: 2.0.18-0
+   :versions:
+      
+      
+
+      ``2.0.18-0``
+
+      
+
    
    :depends argparse: 
    :depends matplotlib-base: 
@@ -33,7 +41,7 @@ trtools
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends pyvcf: 
    :depends scipy: 
    :requirements:

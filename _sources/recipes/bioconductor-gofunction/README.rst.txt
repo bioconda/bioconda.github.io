@@ -8,6 +8,7 @@ bioconductor-gofunction
 
 .. conda:recipe:: bioconductor-gofunction
    :replaces_section_title:
+   :noindex:
 
    GO\-function\: deriving biologcially relevant functions from statistically significant functions
 
@@ -23,16 +24,23 @@ bioconductor-gofunction
 
    |downloads_bioconductor-gofunction| |docker_bioconductor-gofunction|
 
-   :versions: 1.35.0-0, 1.34.0-0, 1.32.0-1, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.35.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
-   :depends r-sparsem: >=0.85
+   :depends r-sparsem: ``>=0.85``
    :requirements:
 
    .. rubric:: Installation

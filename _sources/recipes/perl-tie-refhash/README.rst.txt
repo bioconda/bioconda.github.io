@@ -8,6 +8,7 @@ perl-tie-refhash
 
 .. conda:recipe:: perl-tie-refhash/1.39
    :replaces_section_title:
+   :noindex:
 
    use references as hash keys
 
@@ -22,9 +23,16 @@ perl-tie-refhash
 
    |downloads_perl-tie-refhash| |docker_perl-tie-refhash|
 
-   :versions: 1.39-2, 1.39-1, 1.39-0
+   :versions:
+      
+      
+
+      ``1.39-2``,  ``1.39-1``,  ``1.39-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

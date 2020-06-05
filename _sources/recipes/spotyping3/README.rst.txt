@@ -8,6 +8,7 @@ spotyping3
 
 .. conda:recipe:: spotyping3
    :replaces_section_title:
+   :noindex:
 
    SpoTyping3\: fast and accurate in silico Mycobacterium spoligotyping from sequence reads\, compatible with Python3
 
@@ -23,10 +24,17 @@ spotyping3
 
    |downloads_spotyping3| |docker_spotyping3|
 
-   :versions: 3.0-0
+   :versions:
+      
+      
+
+      ``3.0-0``
+
+      
+
    
    :depends blast: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends r-gdata: 
    :requirements:
 

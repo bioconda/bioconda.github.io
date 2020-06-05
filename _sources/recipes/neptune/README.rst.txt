@@ -8,6 +8,7 @@ neptune
 
 .. conda:recipe:: neptune
    :replaces_section_title:
+   :noindex:
 
    Neptune\: Genomic Signature Discovery
 
@@ -22,13 +23,20 @@ neptune
 
    |downloads_neptune| |docker_neptune|
 
-   :versions: 1.2.5-3, 1.2.5-2, 1.2.5-1, 1.2.5-0, 1.2.3-0
+   :versions:
+      
+      
+
+      ``1.2.5-3``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
    :depends drmaa: 
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

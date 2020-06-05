@@ -8,6 +8,7 @@ monovar
 
 .. conda:recipe:: monovar
    :replaces_section_title:
+   :noindex:
 
    single cell joint genotyper
 
@@ -23,11 +24,18 @@ monovar
 
    |downloads_monovar| |docker_monovar|
 
-   :versions: 0.0.1-0, v0.0.1-2, v0.0.1-1, v0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``,  ``v0.0.1-2``,  ``v0.0.1-1``,  ``v0.0.1-0``
+
+      
+
    
    :depends numpy: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

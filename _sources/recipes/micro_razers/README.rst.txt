@@ -8,6 +8,7 @@ micro_razers
 
 .. conda:recipe:: micro_razers
    :replaces_section_title:
+   :noindex:
 
    MicroRazerS \- Rapid Alignment of Small RNA Reads
 
@@ -22,11 +23,18 @@ micro_razers
 
    |downloads_micro_razers| |docker_micro_razers|
 
-   :versions: 1.0.6-2, 1.0.6-1, 1.0.6-0
+   :versions:
+      
+      
+
+      ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

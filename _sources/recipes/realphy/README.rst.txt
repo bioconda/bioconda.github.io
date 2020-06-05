@@ -8,6 +8,7 @@ realphy
 
 .. conda:recipe:: realphy
    :replaces_section_title:
+   :noindex:
 
    The Reference sequence Alignment based Phylogeny
 
@@ -22,9 +23,16 @@ realphy
 
    |downloads_realphy| |docker_realphy|
 
-   :versions: 1.12-1, 1.12-0
+   :versions:
+      
+      
+
+      ``1.12-1``,  ``1.12-0``
+
+      
+
    
-   :depends openjdk: >8.0.121
+   :depends openjdk: ``>8.0.121``
    :requirements:
 
    .. rubric:: Installation

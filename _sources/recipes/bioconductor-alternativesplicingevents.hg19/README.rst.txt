@@ -8,6 +8,7 @@ bioconductor-alternativesplicingevents.hg19
 
 .. conda:recipe:: bioconductor-alternativesplicingevents.hg19
    :replaces_section_title:
+   :noindex:
 
    Alternative splicing event annotation for Human \(hg19\)
 
@@ -22,11 +23,18 @@ bioconductor-alternativesplicingevents.hg19
 
    |downloads_bioconductor-alternativesplicingevents.hg19| |docker_bioconductor-alternativesplicingevents.hg19|
 
-   :versions: 1.0.1-4, 1.0.1-3, 1.0.1-2, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

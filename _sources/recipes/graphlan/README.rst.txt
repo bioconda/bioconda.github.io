@@ -8,6 +8,7 @@ graphlan
 
 .. conda:recipe:: graphlan
    :replaces_section_title:
+   :noindex:
 
    GraPhlAn is a software tool for producing high\-quality circular representations of taxonomic and phylogenetic trees.
 
@@ -22,11 +23,18 @@ graphlan
 
    |downloads_graphlan| |docker_graphlan|
 
-   :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-1, 1.1.2-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends biopython: >=1.6
-   :depends matplotlib-base: >=1.1
-   :depends python: <3
+   :depends biopython: ``>=1.6``
+   :depends matplotlib-base: ``>=1.1``
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

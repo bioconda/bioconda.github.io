@@ -8,6 +8,7 @@ perl-sub-exporter-progressive
 
 .. conda:recipe:: perl-sub-exporter-progressive
    :replaces_section_title:
+   :noindex:
 
    Only use Sub\:\:Exporter if you need it
 
@@ -22,9 +23,16 @@ perl-sub-exporter-progressive
 
    |downloads_perl-sub-exporter-progressive| |docker_perl-sub-exporter-progressive|
 
-   :versions: 0.001013-0, 0.001011-3, 0.001011-2, 0.001011-1, 0.001011-0
+   :versions:
+      
+      
+
+      ``0.001013-0``,  ``0.001011-3``,  ``0.001011-2``,  ``0.001011-1``,  ``0.001011-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

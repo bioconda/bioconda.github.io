@@ -8,6 +8,7 @@ smcounter2
 
 .. conda:recipe:: smcounter2
    :replaces_section_title:
+   :noindex:
 
    smCounter2\: an accurate low\-frequency variant caller for targeted sequencing data with unique molecular identifiers
 
@@ -22,12 +23,19 @@ smcounter2
 
    |downloads_smcounter2| |docker_smcounter2|
 
-   :versions: 0.1.2018.08.28-2, 0.1.2018.08.28-1, 0.1.2018.08.28-0
+   :versions:
+      
+      
+
+      ``0.1.2018.08.28-2``,  ``0.1.2018.08.28-1``,  ``0.1.2018.08.28-0``
+
+      
+
    
    :depends bedtools: 
    :depends openpyxl: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends r-base: 
    :depends r-plyr: 
    :depends scipy: 

@@ -8,6 +8,7 @@ flash2
 
 .. conda:recipe:: flash2
    :replaces_section_title:
+   :noindex:
 
    Merge paired\-end reads from fragments that are shorter than twice the read length
 
@@ -22,10 +23,17 @@ flash2
 
    |downloads_flash2| |docker_flash2|
 
-   :versions: 2.2.00-1, 2.2.00-0
+   :versions:
+      
+      
+
+      ``2.2.00-1``,  ``2.2.00-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

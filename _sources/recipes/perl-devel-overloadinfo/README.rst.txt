@@ -8,6 +8,7 @@ perl-devel-overloadinfo
 
 .. conda:recipe:: perl-devel-overloadinfo
    :replaces_section_title:
+   :noindex:
 
    introspect overloaded operators
 
@@ -22,9 +23,16 @@ perl-devel-overloadinfo
 
    |downloads_perl-devel-overloadinfo| |docker_perl-devel-overloadinfo|
 
-   :versions: 0.005-0
+   :versions:
+      
+      
+
+      ``0.005-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter: 
    :depends perl-mro-compat: 
    :depends perl-package-stash: 

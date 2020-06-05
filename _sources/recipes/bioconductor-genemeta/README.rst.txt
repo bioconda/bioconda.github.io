@@ -8,6 +8,7 @@ bioconductor-genemeta
 
 .. conda:recipe:: bioconductor-genemeta
    :replaces_section_title:
+   :noindex:
 
    MetaAnalysis for High Throughput Experiments
 
@@ -23,11 +24,18 @@ bioconductor-genemeta
 
    |downloads_bioconductor-genemeta| |docker_bioconductor-genemeta|
 
-   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0
+   :versions:
+      
+      
+
+      ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ mutmap
 
 .. conda:recipe:: mutmap
    :replaces_section_title:
+   :noindex:
 
    MutMap\: pipeline to identify causative mutations responsible for a phenotype
 
@@ -23,16 +24,31 @@ mutmap
 
    |downloads_mutmap| |docker_mutmap|
 
-   :versions: 2.1.8-0, 2.1.7-0, 2.1.6-0, 2.1.3-0, 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.9-0, 2.0.8-0, 2.0.7-0, 2.0.6-0, 2.0.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.1.8-0</code>,  <code>2.1.7-0</code>,  <code>2.1.6-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.9-0</code>,  <code>2.0.8-0</code>,  </span></summary>
+      
+
+      ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bcftools: >=1.7
+   :depends bcftools: ``>=1.7``
    :depends bwa: 
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends openssl: >=1.1.1f,<1.1.2a
+   :depends openssl: ``>=1.1.1f,<1.1.2a``
    :depends pandas: 
-   :depends python: >=3.5
-   :depends samtools: >=1.7
+   :depends python: ``>=3.5``
+   :depends samtools: ``>=1.7``
    :depends seaborn: 
    :depends snpeff: 
    :depends tabix: 

@@ -8,6 +8,7 @@ crux-toolkit
 
 .. conda:recipe:: crux-toolkit
    :replaces_section_title:
+   :noindex:
 
    A cross\-platform suite of analysis tools for interpreting protein mass spectrometry data
 
@@ -23,10 +24,17 @@ crux-toolkit
 
    |downloads_crux-toolkit| |docker_crux-toolkit|
 
-   :versions: 3.2-0
+   :versions:
+      
+      
+
+      ``3.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

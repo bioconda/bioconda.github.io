@@ -8,6 +8,7 @@ minialign
 
 .. conda:recipe:: minialign
    :replaces_section_title:
+   :noindex:
 
    Fast and accurate alignment tool for PacBio and Nanopore long reads.
 
@@ -25,9 +26,16 @@ minialign
 
    |downloads_minialign| |docker_minialign|
 
-   :versions: 0.5.3-2, 0.5.3-1, 0.5.3-0, 0.5.2-0, 0.4.2-1, 0.4.2-0, 0.4.0-0, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.1-0``
+
+      
+
    
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

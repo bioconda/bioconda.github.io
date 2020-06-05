@@ -8,6 +8,7 @@ perl-xml-sax-expat
 
 .. conda:recipe:: perl-xml-sax-expat
    :replaces_section_title:
+   :noindex:
 
    SAX Driver for Expat
 
@@ -22,9 +23,16 @@ perl-xml-sax-expat
 
    |downloads_perl-xml-sax-expat| |docker_perl-xml-sax-expat|
 
-   :versions: 0.51-3, 0.51-2, 0.51-1, 0.51-0
+   :versions:
+      
+      
+
+      ``0.51-3``,  ``0.51-2``,  ``0.51-1``,  ``0.51-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xml-namespacesupport: 
    :depends perl-xml-parser: 
    :depends perl-xml-sax: 

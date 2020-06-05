@@ -8,6 +8,7 @@ fasttree
 
 .. conda:recipe:: fasttree
    :replaces_section_title:
+   :noindex:
 
    FastTree infers approximately\-maximum\-likelihood phylogenetic trees from alignments of nucleotide or protein sequences
 
@@ -23,9 +24,24 @@ fasttree
 
    |downloads_fasttree| |docker_fasttree|
 
-   :versions: 2.1.10-3, 2.1.10-2, 2.1.10-0, 2.1.9-2, 2.1.9-1, 2.1.9-0, 2.1.8-4, 2.1.8-2, 2.1.8-1, 2.1.3-2, 2.1.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.1.10-3</code>,  <code>2.1.10-2</code>,  <code>2.1.10-0</code>,  <code>2.1.9-2</code>,  <code>2.1.9-1</code>,  <code>2.1.9-0</code>,  <code>2.1.8-4</code>,  <code>2.1.8-2</code>,  <code>2.1.8-1</code>,  </span></summary>
+      
+
+      ``2.1.10-3``,  ``2.1.10-2``,  ``2.1.10-0``,  ``2.1.9-2``,  ``2.1.9-1``,  ``2.1.9-0``,  ``2.1.8-4``,  ``2.1.8-2``,  ``2.1.8-1``,  ``2.1.3-2``,  ``2.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

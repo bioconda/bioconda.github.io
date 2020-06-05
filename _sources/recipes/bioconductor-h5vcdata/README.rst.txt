@@ -8,6 +8,7 @@ bioconductor-h5vcdata
 
 .. conda:recipe:: bioconductor-h5vcdata
    :replaces_section_title:
+   :noindex:
 
    Example data for the h5vc package
 
@@ -22,10 +23,17 @@ bioconductor-h5vcdata
 
    |downloads_bioconductor-h5vcdata| |docker_bioconductor-h5vcdata|
 
-   :versions: 2.8.0-0, 2.6.0-0, 2.4.0-1, 2.4.0-0, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

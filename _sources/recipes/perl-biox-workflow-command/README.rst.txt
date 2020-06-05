@@ -8,6 +8,7 @@ perl-biox-workflow-command
 
 .. conda:recipe:: perl-biox-workflow-command
    :replaces_section_title:
+   :noindex:
 
    Opinionated Bioinformatics Genomics Workflow Creator
 
@@ -22,9 +23,16 @@ perl-biox-workflow-command
 
    |downloads_perl-biox-workflow-command| |docker_perl-biox-workflow-command|
 
-   :versions: 2.4.1-1, 2.4.1-0, 2.3.2-0, 2.3.0-0, 2.2.3-0, 2.2.1-0
+   :versions:
+      
+      
+
+      ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.2-0``,  ``2.3.0-0``,  ``2.2.3-0``,  ``2.2.1-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-algorithm-dependency: 
    :depends perl-app-cpanminus: 
    :depends perl-biosails: 
@@ -46,13 +54,13 @@ perl-biox-workflow-command
    :depends perl-io-interactive: 
    :depends perl-json: 
    :depends perl-list-compare: 
-   :depends perl-list-moreutils: >=0.428
+   :depends perl-list-moreutils: ``>=0.428``
    :depends perl-list-someutils: 
    :depends perl-list-uniq: 
    :depends perl-log-log4perl: 
    :depends perl-mce-shared: 
    :depends perl-moose: 
-   :depends perl-moosex-app: 1.39
+   :depends perl-moosex-app: ``1.39``
    :depends perl-moosex-app-role-log4perl: 
    :depends perl-moosex-getopt: 
    :depends perl-moosex-types: 

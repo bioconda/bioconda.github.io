@@ -8,6 +8,7 @@ bioconductor-cexor
 
 .. conda:recipe:: bioconductor-cexor
    :replaces_section_title:
+   :noindex:
 
    An R package to uncover high\-resolution protein\-DNA interactions in ChIP\-exo replicates
 
@@ -23,16 +24,23 @@ bioconductor-cexor
 
    |downloads_bioconductor-cexor| |docker_bioconductor-cexor|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-genomation: >=1.20.0,<1.21.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomation: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-idr: 
    :depends r-rcolorbrewer: 
    :requirements:

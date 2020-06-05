@@ -8,6 +8,7 @@ bioconductor-cntools
 
 .. conda:recipe:: bioconductor-cntools
    :replaces_section_title:
+   :noindex:
 
    Convert segment data into a region by sample matrix to allow for other high level computational analyses.
 
@@ -23,13 +24,20 @@ bioconductor-cntools
 
    |downloads_bioconductor-cntools| |docker_bioconductor-cntools|
 
-   :versions: 1.44.0-0, 1.42.0-0, 1.40.0-1, 1.38.0-0, 1.36.0-0, 1.34.0-0, 1.32.0-0
+   :versions:
+      
+      
+
+      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``
+
+      
+
    
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

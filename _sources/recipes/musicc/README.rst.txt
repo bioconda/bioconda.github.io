@@ -8,6 +8,7 @@ musicc
 
 .. conda:recipe:: musicc
    :replaces_section_title:
+   :noindex:
 
    MUSICC\: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.
 
@@ -22,13 +23,20 @@ musicc
 
    |downloads_musicc| |docker_musicc|
 
-   :versions: 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends numpy: >=1.17.0
-   :depends pandas: >=0.25.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends scikit-learn: >=0.21.3
-   :depends scipy: >=1.3.0
+   :depends numpy: ``>=1.17.0``
+   :depends pandas: ``>=0.25.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends scikit-learn: ``>=0.21.3``
+   :depends scipy: ``>=1.3.0``
    :requirements:
 
    .. rubric:: Installation

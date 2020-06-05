@@ -8,6 +8,7 @@ bioconductor-dittoseq
 
 .. conda:recipe:: bioconductor-dittoseq
    :replaces_section_title:
+   :noindex:
 
    User Friendly Single\-Cell and Bulk RNA Sequencing Visualization
 
@@ -22,14 +23,21 @@ bioconductor-dittoseq
 
    |downloads_bioconductor-dittoseq| |docker_bioconductor-dittoseq|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-colorspace: >=1.4
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-colorspace: ``>=1.4``
    :depends r-cowplot: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 

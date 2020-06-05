@@ -8,6 +8,7 @@ bioconductor-pmp
 
 .. conda:recipe:: bioconductor-pmp
    :replaces_section_title:
+   :noindex:
 
    Peak Matrix Processing and signal batch correction for metabolomics datasets
 
@@ -22,13 +23,20 @@ bioconductor-pmp
 
    |downloads_bioconductor-pmp| |docker_bioconductor-pmp|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-impute: >=1.62.0,<1.63.0
-   :depends bioconductor-pcamethods: >=1.80.0,<1.81.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-pcamethods: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-matrixstats: 
    :depends r-missforest: 

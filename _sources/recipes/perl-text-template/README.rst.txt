@@ -8,6 +8,7 @@ perl-text-template
 
 .. conda:recipe:: perl-text-template/1.46
    :replaces_section_title:
+   :noindex:
 
    Expand template text with embedded Perl
 
@@ -22,9 +23,16 @@ perl-text-template
 
    |downloads_perl-text-template| |docker_perl-text-template|
 
-   :versions: 1.46-1, 1.46-0
+   :versions:
+      
+      
+
+      ``1.46-1``,  ``1.46-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

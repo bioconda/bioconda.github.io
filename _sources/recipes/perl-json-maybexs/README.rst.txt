@@ -8,6 +8,7 @@ perl-json-maybexs
 
 .. conda:recipe:: perl-json-maybexs
    :replaces_section_title:
+   :noindex:
 
    Use Cpanel\:\:JSON\:\:XS with a fallback to JSON\:\:XS and JSON\:\:PP
 
@@ -22,9 +23,16 @@ perl-json-maybexs
 
    |downloads_perl-json-maybexs| |docker_perl-json-maybexs|
 
-   :versions: 1.004000-0, 1.003008-1, 1.003008-0
+   :versions:
+      
+      
+
+      ``1.004000-0``,  ``1.003008-1``,  ``1.003008-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-json-pp: 
    :requirements:

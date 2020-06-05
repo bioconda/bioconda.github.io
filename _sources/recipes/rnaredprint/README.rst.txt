@@ -8,6 +8,7 @@ rnaredprint
 
 .. conda:recipe:: rnaredprint
    :replaces_section_title:
+   :noindex:
 
    Tree\-decomposition based dynamic programming algorithm for multiple target RNA design
 
@@ -23,17 +24,24 @@ rnaredprint
 
    |downloads_rnaredprint| |docker_rnaredprint|
 
-   :versions: 0.3pre-1, 0.3pre-0
+   :versions:
+      
+      
+
+      ``0.3pre-1``,  ``0.3pre-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends openjdk: 
-   :depends python: >=3.7,<3.8.0a0
+   :depends python: ``>=3.7,<3.8.0a0``
    :depends scipy: 
-   :depends viennarna: >=2.4
-   :depends viennarna: >=2.4.14,<2.5.0a0
+   :depends viennarna: ``>=2.4``
+   :depends viennarna: ``>=2.4.14,<2.5.0a0``
    :requirements:
 
    .. rubric:: Installation

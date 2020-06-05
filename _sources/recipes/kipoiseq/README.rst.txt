@@ -8,6 +8,7 @@ kipoiseq
 
 .. conda:recipe:: kipoiseq
    :replaces_section_title:
+   :noindex:
 
    kipoiseq\: sequence\-based data\-laoders for Kipoi
 
@@ -24,11 +25,26 @@ kipoiseq
 
    |downloads_kipoiseq| |docker_kipoiseq|
 
-   :versions: 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-1, 0.3.0-0, 0.2.7-1, 0.2.7-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.7-1</code>,  </span></summary>
+      
+
+      ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends genomelake: >=0.1.4
+   :depends genomelake: ``>=0.1.4``
    :depends gffutils: 
-   :depends kipoi: >=0.5.5
+   :depends kipoi: ``>=0.5.5``
    :depends kipoi-conda: 
    :depends numpy: 
    :depends pandas: 

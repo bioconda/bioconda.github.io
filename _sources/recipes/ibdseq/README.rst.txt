@@ -8,6 +8,7 @@ ibdseq
 
 .. conda:recipe:: ibdseq
    :replaces_section_title:
+   :noindex:
 
    IBDseq is a software program for detecting segments of identity\-by\-descent \(IBD\) and homozygosity\-by\-descent \(HBD\) in unphased genetic sequence data.
 
@@ -23,9 +24,16 @@ ibdseq
 
    |downloads_ibdseq| |docker_ibdseq|
 
-   :versions: r1206-2, r1206-1, r1206-0
+   :versions:
+      
+      
+
+      ``r1206-2``,  ``r1206-1``,  ``r1206-0``
+
+      
+
    
-   :depends openjdk: >=6.0.77
+   :depends openjdk: ``>=6.0.77``
    :requirements:
 
    .. rubric:: Installation

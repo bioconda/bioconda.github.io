@@ -8,6 +8,7 @@ clark
 
 .. conda:recipe:: clark
    :replaces_section_title:
+   :noindex:
 
    Fast\, accurate and versatile k\-mer based classification system
 
@@ -23,10 +24,17 @@ clark
 
    |downloads_clark| |docker_clark|
 
-   :versions: 1.2.6.1-0, 1.2.5.1-0, 1.2.5-1, 1.2.5-0, 1.2.3.1-0, 1.2.3-2, 1.2.3-1, 1.2.2_b-0
+   :versions:
+      
+      
+
+      ``1.2.6.1-0``,  ``1.2.5.1-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3.1-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.2_b-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends tar: 
    :requirements:
 

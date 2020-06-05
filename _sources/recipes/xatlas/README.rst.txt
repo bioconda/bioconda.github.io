@@ -8,6 +8,7 @@ xatlas
 
 .. conda:recipe:: xatlas
    :replaces_section_title:
+   :noindex:
 
    xAtlas is a fast and retrainable small variant caller that has been developed at the Baylor College of Medicine Human Genome Sequencing Center.
 
@@ -23,11 +24,18 @@ xatlas
 
    |downloads_xatlas| |docker_xatlas|
 
-   :versions: 0.2.1-1, 0.2.1-0, 0.1-2, 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends pthread-stubs: 
    :requirements:
 

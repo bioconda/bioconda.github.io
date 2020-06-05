@@ -8,6 +8,7 @@ scanindel
 
 .. conda:recipe:: scanindel
    :replaces_section_title:
+   :noindex:
 
    ScanIndel is a python program to detect indels \(insertions and deletions\) from NGS data by re\-align and de novo assemble soft clipped reads.
 
@@ -22,18 +23,25 @@ scanindel
 
    |downloads_scanindel| |docker_scanindel|
 
-   :versions: 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-1``,  ``1.3-0``
+
+      
+
    
-   :depends bedtools: 2.17.0
-   :depends biopython: 1.64
+   :depends bedtools: ``2.17.0``
+   :depends biopython: ``1.64``
    :depends blat: 
-   :depends bwa: 0.7.12
-   :depends freebayes: 0.9.21.7
+   :depends bwa: ``0.7.12``
+   :depends freebayes: ``0.9.21.7``
    :depends numpy: 
-   :depends pysam: 0.7.7
-   :depends python: <3
-   :depends pyvcf: 0.6.7
-   :depends samtools: <=1.0
+   :depends pysam: ``0.7.7``
+   :depends python: ``<3``
+   :depends pyvcf: ``0.6.7``
+   :depends samtools: ``<=1.0``
    :depends scipy: 
    :requirements:
 

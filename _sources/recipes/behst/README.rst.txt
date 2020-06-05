@@ -8,6 +8,7 @@ behst
 
 .. conda:recipe:: behst
    :replaces_section_title:
+   :noindex:
 
    BEHST reads an input dataset of chromosome regions\, and intersects them with the chromatin interactions available in the Hi\-C dataset. Of these chromosome regions\, BEHST selects those that are presentthe regulatory regions of genes of APPRIS\, a dataset of principal isoform annotations. We defined these cis\-regulatory regions upon the position of their nearest transcription start site of the APPRIS genes\' principal transcripts \(obtained through GENCODE\)\, plus an upstream and downstream extension. Afterwards\, BEHST takes the genes of the resulting partner loci found in gene regulatory regions\, and performs a gene set enrichment analysis on them through g\:Profiler. BEHST\, finally\, outputs the list of the most significant Gene Ontology terms detected by g\:Profiler. Citation\: Davide Chicco\, Haixin Sarah Bi\, Juri Reimand\, and Michael M. Hoffman\, \'BEHST\: Genomic set enrichment analysis enhanced through integration of chromatin long\-range interactions\'\, 2018. In preparation. Website\: http\:\/\/behst.hoffmanlab.org\/ 
 
@@ -22,7 +23,22 @@ behst
 
    |downloads_behst| |docker_behst|
 
-   :versions: 3.8-0, 3.7-1, 3.7-0, 3.6-0, 3.5-0, 3.0-0, 2.9-0, 2.8-0, 2.7-0, 2.6-0, 2.5-0, 1.9-0, 1.8-0, 1.7-0, 1.6-0, 1.4-0, 0.9-0, 0.8-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.8-0</code>,  <code>3.7-1</code>,  <code>3.7-0</code>,  <code>3.6-0</code>,  <code>3.5-0</code>,  <code>3.0-0</code>,  <code>2.9-0</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  </span></summary>
+      
+
+      ``3.8-0``,  ``3.7-1``,  ``3.7-0``,  ``3.6-0``,  ``3.5-0``,  ``3.0-0``,  ``2.9-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.4-0``,  ``0.9-0``,  ``0.8-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedtools: 
    :depends pandas: 

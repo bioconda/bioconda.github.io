@@ -8,6 +8,7 @@ bioconductor-outlierd
 
 .. conda:recipe:: bioconductor-outlierd
    :replaces_section_title:
+   :noindex:
 
    Outlier detection using quantile regression on the M\-A scatterplots of high\-throughput data
 
@@ -23,10 +24,17 @@ bioconductor-outlierd
 
    |downloads_bioconductor-outlierd| |docker_bioconductor-outlierd|
 
-   :versions: 1.52.0-0, 1.50.0-0, 1.48.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   :versions:
+      
+      
+
+      ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-quantreg: 
    :requirements:
 

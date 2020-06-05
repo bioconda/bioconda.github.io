@@ -8,6 +8,7 @@ perl-padwalker
 
 .. conda:recipe:: perl-padwalker
    :replaces_section_title:
+   :noindex:
 
    play with other peoples\' lexical variables
 
@@ -22,11 +23,18 @@ perl-padwalker
 
    |downloads_perl-padwalker| |docker_perl-padwalker|
 
-   :versions: 2.3-1, 2.3-0
+   :versions:
+      
+      
+
+      ``2.3-1``,  ``2.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

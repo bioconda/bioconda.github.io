@@ -8,6 +8,7 @@ shapemapper
 
 .. conda:recipe:: shapemapper
    :replaces_section_title:
+   :noindex:
 
    ShapeMapper converts raw sequencing files into mutational profiles\, creates SHAPE reactivity plots\, and provides extensive diagnostic information useful for experiment analysis and troubleshooting.
 
@@ -22,13 +23,20 @@ shapemapper
 
    |downloads_shapemapper| |docker_shapemapper|
 
-   :versions: 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``
+
+      
+
    
    :depends bowtie2: 
    :depends httplib2: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends matplotlib: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends rnastructure: 
    :requirements:
 

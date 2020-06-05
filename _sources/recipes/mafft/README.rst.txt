@@ -8,6 +8,7 @@ mafft
 
 .. conda:recipe:: mafft
    :replaces_section_title:
+   :noindex:
 
    Multiple alignment program for amino acid or nucleotide sequences based on fast Fourier transform
 
@@ -23,9 +24,24 @@ mafft
 
    |downloads_mafft| |docker_mafft|
 
-   :versions: 7.467-0, 7.464-0, 7.463-0, 7.458-0, 7.455-0, 7.453-1, 7.453-0, 7.407-2, 7.407-1, 7.407-0, 7.402-0, 7.313-1, 7.313-0, 7.310-3, 7.310-2, 7.310-1, 7.310-0, 7.305-1, 7.305-0, 7.221-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>7.467-0</code>,  <code>7.464-0</code>,  <code>7.463-0</code>,  <code>7.458-0</code>,  <code>7.455-0</code>,  <code>7.453-1</code>,  <code>7.453-0</code>,  <code>7.407-2</code>,  <code>7.407-1</code>,  </span></summary>
+      
+
+      ``7.467-0``,  ``7.464-0``,  ``7.463-0``,  ``7.458-0``,  ``7.455-0``,  ``7.453-1``,  ``7.453-0``,  ``7.407-2``,  ``7.407-1``,  ``7.407-0``,  ``7.402-0``,  ``7.313-1``,  ``7.313-0``,  ``7.310-3``,  ``7.310-2``,  ``7.310-1``,  ``7.310-0``,  ``7.305-1``,  ``7.305-0``,  ``7.221-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

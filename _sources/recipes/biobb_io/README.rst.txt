@@ -8,6 +8,7 @@ biobb_io
 
 .. conda:recipe:: biobb_io
    :replaces_section_title:
+   :noindex:
 
    Biobb\_io is the Biobb module collection to fetch data to be consumed by the rest of the Biobb building blocks.
 
@@ -47,10 +48,25 @@ biobb_io
 
    |downloads_biobb_io| |docker_biobb_io|
 
-   :versions: 3.0.0-0, 2.0.1-0, 2.0.0-0, 1.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.8-0, 0.0.6-0, 0.0.5-2, 0.0.5-0, 0.0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.6-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.8-0</code>,  </span></summary>
+      
+
+      ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-0``,  ``0.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biobb_common: 3.0.0
-   :depends python: 3.7.*
+   :depends biobb_common: ``3.0.0``
+   :depends python: ``3.7.*``
    :requirements:
 
    .. rubric:: Installation

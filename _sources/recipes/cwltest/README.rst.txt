@@ -8,6 +8,7 @@ cwltest
 
 .. conda:recipe:: cwltest
    :replaces_section_title:
+   :noindex:
 
    Common workflow language testing framework
 
@@ -22,11 +23,26 @@ cwltest
 
    |downloads_cwltest| |docker_cwltest|
 
-   :versions: 2.0.20200220223835-0, 1.0.20190906212748-0, 1.0.20190228134645-0, 1.0.20180601100346-0, 1.0.20180209171722-1, 1.0.20180209171722-0, 1.0.20170214185319-0, 1.0.20161124105442-0, 1.0.20160907111242-1, 1.0.20160907111242-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.20200220223835-0</code>,  <code>1.0.20190906212748-0</code>,  <code>1.0.20190228134645-0</code>,  <code>1.0.20180601100346-0</code>,  <code>1.0.20180209171722-1</code>,  <code>1.0.20180209171722-0</code>,  <code>1.0.20170214185319-0</code>,  <code>1.0.20161124105442-0</code>,  <code>1.0.20160907111242-1</code>,  </span></summary>
+      
+
+      ``2.0.20200220223835-0``,  ``1.0.20190906212748-0``,  ``1.0.20190228134645-0``,  ``1.0.20180601100346-0``,  ``1.0.20180209171722-1``,  ``1.0.20180209171722-0``,  ``1.0.20170214185319-0``,  ``1.0.20161124105442-0``,  ``1.0.20160907111242-1``,  ``1.0.20160907111242-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends junit-xml: >=1.8
-   :depends python: >=3.5
-   :depends schema-salad: >=5.0.20200220195218
+   :depends junit-xml: ``>=1.8``
+   :depends python: ``>=3.5``
+   :depends schema-salad: ``>=5.0.20200220195218``
    :requirements:
 
    .. rubric:: Installation

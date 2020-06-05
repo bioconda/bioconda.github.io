@@ -8,6 +8,7 @@ bioconductor-ace
 
 .. conda:recipe:: bioconductor-ace
    :replaces_section_title:
+   :noindex:
 
    Absolute Copy Number Estimation from Low\-coverage Whole Genome Sequencing
 
@@ -22,12 +23,19 @@ bioconductor-ace
 
    |downloads_bioconductor-ace| |docker_bioconductor-ace|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-qdnaseq: >=1.24.0,<1.25.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-qdnaseq: ``>=1.24.0,<1.25.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :requirements:
 

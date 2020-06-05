@@ -8,6 +8,7 @@ bioconductor-organism.dplyr
 
 .. conda:recipe:: bioconductor-organism.dplyr
    :replaces_section_title:
+   :noindex:
 
    dplyr\-based Access to Bioconductor Annotation Resources
 
@@ -22,20 +23,27 @@ bioconductor-organism.dplyr
 
    |downloads_bioconductor-organism.dplyr| |docker_bioconductor-organism.dplyr|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.1-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-annotationfilter: >=1.12.0,<1.13.0
-   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-annotationfilter: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-dbplyr: 
-   :depends r-dplyr: >=0.7.0
+   :depends r-dplyr: ``>=0.7.0``
    :depends r-rsqlite: 
    :depends r-tibble: 
    :requirements:

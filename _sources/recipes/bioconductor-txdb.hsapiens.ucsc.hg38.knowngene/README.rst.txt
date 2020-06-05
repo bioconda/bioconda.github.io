@@ -8,6 +8,7 @@ bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
 
 .. conda:recipe:: bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
    :replaces_section_title:
+   :noindex:
 
    Annotation package for TxDb object\(s\)
 
@@ -22,12 +23,19 @@ bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
 
    |downloads_bioconductor-txdb.hsapiens.ucsc.hg38.knowngene| |docker_bioconductor-txdb.hsapiens.ucsc.hg38.knowngene|
 
-   :versions: 3.10.0-1, 3.10.0-0, 3.4.6-1, 3.4.0-4, 3.4.0-3, 3.4.0-1, 3.4.0-0
+   :versions:
+      
+      
+
+      ``3.10.0-1``,  ``3.10.0-0``,  ``3.4.6-1``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

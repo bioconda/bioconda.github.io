@@ -8,6 +8,7 @@ gemini
 
 .. conda:recipe:: gemini
    :replaces_section_title:
+   :noindex:
 
    a lightweight db framework for disease and population genetics.
 
@@ -23,14 +24,29 @@ gemini
 
    |downloads_gemini| |docker_gemini|
 
-   :versions: 0.30.2-0, 0.30.1-0, 0.20.1-2, 0.20.1-1, 0.20.1-0, 0.20.0-0, 0.20.0a0-0, 0.19.2a-2, 0.19.2a-1, 0.19.2a-0, 0.19.1-3, 0.19.1-2, 0.19.1-1, 0.19.1-0, 0.19.0-0, 0.18.3-1, 0.18.2-1, 0.18.1-3, 0.18.1-2, 0.18.1-1, 0.18.0-8, 0.18.0-7, 0.18.0-6, 0.18.0-5, 0.18.0-4, 0.18a-4, 0.17.3dev1-4, 0.17.3dev1-3, 0.17.3dev0-2, 0.17.3dev0-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.30.2-0</code>,  <code>0.30.1-0</code>,  <code>0.20.1-2</code>,  <code>0.20.1-1</code>,  <code>0.20.1-0</code>,  <code>0.20.0-0</code>,  <code>0.20.0a0-0</code>,  <code>0.19.2a-2</code>,  <code>0.19.2a-1</code>,  </span></summary>
+      
+
+      ``0.30.2-0``,  ``0.30.1-0``,  ``0.20.1-2``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.20.0-0``,  ``0.20.0a0-0``,  ``0.19.2a-2``,  ``0.19.2a-1``,  ``0.19.2a-0``,  ``0.19.1-3``,  ``0.19.1-2``,  ``0.19.1-1``,  ``0.19.1-0``,  ``0.19.0-0``,  ``0.18.3-1``,  ``0.18.2-1``,  ``0.18.1-3``,  ``0.18.1-2``,  ``0.18.1-1``,  ``0.18.0-8``,  ``0.18.0-7``,  ``0.18.0-6``,  ``0.18.0-5``,  ``0.18.0-4``,  ``0.18a-4``,  ``0.17.3dev1-4``,  ``0.17.3dev1-3``,  ``0.17.3dev0-2``,  ``0.17.3dev0-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bcolz: 
    :depends bottle: 
    :depends bx-python: 
    :depends cyordereddict: 
    :depends cython: 
-   :depends cyvcf2: >0.6.5
+   :depends cyvcf2: ``>0.6.5``
    :depends geneimpacts: 
    :depends grabix: 
    :depends inheritance: 
@@ -44,11 +60,11 @@ gemini
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends python-snappy: 
    :depends pyyaml: 
    :depends scipy: 
-   :depends snappy: >=1.1.7,<1.1.8.0a0
+   :depends snappy: ``>=1.1.7,<1.1.8.0a0``
    :depends sqlalchemy: 
    :depends unidecode: 
    :requirements:

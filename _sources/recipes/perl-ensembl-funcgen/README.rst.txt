@@ -8,6 +8,7 @@ perl-ensembl-funcgen
 
 .. conda:recipe:: perl-ensembl-funcgen
    :replaces_section_title:
+   :noindex:
 
    The Ensembl Core Perl API and
 
@@ -22,7 +23,14 @@ perl-ensembl-funcgen
 
    |downloads_perl-ensembl-funcgen| |docker_perl-ensembl-funcgen|
 
-   :versions: 98-0
+   :versions:
+      
+      
+
+      ``98-0``
+
+      
+
    
    :depends perl-ensembl-core: 
    :depends perl-role-tiny: 

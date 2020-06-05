@@ -8,6 +8,7 @@ perl-data-lock
 
 .. conda:recipe:: perl-data-lock/1.03
    :replaces_section_title:
+   :noindex:
 
    makes variables \(im\)\?mutable
 
@@ -22,9 +23,16 @@ perl-data-lock
 
    |downloads_perl-data-lock| |docker_perl-data-lock|
 
-   :versions: 1.03-0
+   :versions:
+      
+      
+
+      ``1.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

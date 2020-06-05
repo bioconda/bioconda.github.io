@@ -8,6 +8,7 @@ misopy
 
 .. conda:recipe:: misopy
    :replaces_section_title:
+   :noindex:
 
    Mixture of Isoforms model \(MISO\) for isoform quantitation using RNA\-Seq
 
@@ -22,16 +23,23 @@ misopy
 
    |downloads_misopy| |docker_misopy|
 
-   :versions: 0.5.4-2, 0.5.4-1, 0.5.4-0
+   :versions:
+      
+      
+
+      ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``
+
+      
+
    
    :depends bedtools: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends matplotlib: 
-   :depends numpy: >=1.5.0
-   :depends pysam: >=0.6.0
-   :depends python: >=2.7,<2.8.0a0
-   :depends samtools: <=1.2
-   :depends scipy: >=0.9.0
+   :depends numpy: ``>=1.5.0``
+   :depends pysam: ``>=0.6.0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends samtools: ``<=1.2``
+   :depends scipy: ``>=0.9.0``
    :requirements:
 
    .. rubric:: Installation

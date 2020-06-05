@@ -8,6 +8,7 @@ bioconductor-diffgeneanalysis
 
 .. conda:recipe:: bioconductor-diffgeneanalysis
    :replaces_section_title:
+   :noindex:
 
    Performs differential gene expression Analysis
 
@@ -23,10 +24,17 @@ bioconductor-diffgeneanalysis
 
    |downloads_bioconductor-diffgeneanalysis| |docker_bioconductor-diffgeneanalysis|
 
-   :versions: 1.70.0-0, 1.68.0-0, 1.66.0-1, 1.66.0-0, 1.64.0-0, 1.62.0-0, 1.60.0-0
+   :versions:
+      
+      
+
+      ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-minpack.lm: >=1.0-4
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-minpack.lm: ``>=1.0-4``
    :requirements:
 
    .. rubric:: Installation

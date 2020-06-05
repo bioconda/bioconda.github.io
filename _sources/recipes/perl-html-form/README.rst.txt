@@ -8,6 +8,7 @@ perl-html-form
 
 .. conda:recipe:: perl-html-form
    :replaces_section_title:
+   :noindex:
 
    Class that represents an HTML form element
 
@@ -22,9 +23,16 @@ perl-html-form
 
    |downloads_perl-html-form| |docker_perl-html-form|
 
-   :versions: 6.04-0, 6.03-1, 6.03-0
+   :versions:
+      
+      
+
+      ``6.04-0``,  ``6.03-1``,  ``6.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-cpan-meta: 
    :depends perl-data-dumper: 
    :depends perl-extutils-cbuilder: 

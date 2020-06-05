@@ -8,6 +8,7 @@ bioconductor-pogos
 
 .. conda:recipe:: bioconductor-pogos
    :replaces_section_title:
+   :noindex:
 
    PharmacOGenomics Ontology Support
 
@@ -22,14 +23,21 @@ bioconductor-pogos
 
    |downloads_bioconductor-pogos| |docker_bioconductor-pogos|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-ontoproc: >=1.10.0,<1.11.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ontoproc: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
-   :depends r-httr: >=1.3.1
-   :depends r-rjson: >=0.2.15
+   :depends r-httr: ``>=1.3.1``
+   :depends r-rjson: ``>=0.2.15``
    :depends r-shiny: 
    :requirements:
 

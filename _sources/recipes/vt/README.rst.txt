@@ -8,6 +8,7 @@ vt
 
 .. conda:recipe:: vt
    :replaces_section_title:
+   :noindex:
 
    A tool set for manipulating and generating VCF files
 
@@ -22,10 +23,17 @@ vt
 
    |downloads_vt| |docker_vt|
 
-   :versions: 2015.11.10-3, 2015.11.10-2, 2015.11.10-1, 2015.11.10-0, 0.57721-2, 0.57721-1, 0.57721-0
+   :versions:
+      
+      
+
+      ``2015.11.10-3``,  ``2015.11.10-2``,  ``2015.11.10-1``,  ``2015.11.10-0``,  ``0.57721-2``,  ``0.57721-1``,  ``0.57721-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

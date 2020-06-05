@@ -8,6 +8,7 @@ jobtree
 
 .. conda:recipe:: jobtree
    :replaces_section_title:
+   :noindex:
 
    Python based pipeline management software for clusters that makes running recursive and dynamically scheduled computations straightforward
 
@@ -22,9 +23,16 @@ jobtree
 
    |downloads_jobtree| |docker_jobtree|
 
-   :versions: 09.04.2017-2, 3.0.3-1
+   :versions:
+      
+      
+
+      ``09.04.2017-2``,  ``3.0.3-1``
+
+      
+
    
-   :depends python: 2.7.*
+   :depends python: ``2.7.*``
    :depends sonlib: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-mac-systemdirectory
 
 .. conda:recipe:: perl-mac-systemdirectory
    :replaces_section_title:
+   :noindex:
 
    Locate Mac OS X Standard System Directories
 
@@ -22,9 +23,16 @@ perl-mac-systemdirectory
 
    |downloads_perl-mac-systemdirectory| |docker_perl-mac-systemdirectory|
 
-   :versions: 0.10-0
+   :versions:
+      
+      
+
+      ``0.10-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter: 
    :depends perl-xsloader: 
    :requirements:

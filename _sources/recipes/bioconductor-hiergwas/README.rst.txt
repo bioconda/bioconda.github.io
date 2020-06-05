@@ -8,6 +8,7 @@ bioconductor-hiergwas
 
 .. conda:recipe:: bioconductor-hiergwas
    :replaces_section_title:
+   :noindex:
 
    Asessing statistical significance in predictive GWA studies
 
@@ -22,9 +23,16 @@ bioconductor-hiergwas
 
    |downloads_bioconductor-hiergwas| |docker_bioconductor-hiergwas|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fastcluster: 
    :depends r-fmsb: 
    :depends r-glmnet: 

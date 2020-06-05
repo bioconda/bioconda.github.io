@@ -8,6 +8,7 @@ perl-clone-choose
 
 .. conda:recipe:: perl-clone-choose
    :replaces_section_title:
+   :noindex:
 
    Choose appropriate clone utility
 
@@ -22,9 +23,16 @@ perl-clone-choose
 
    |downloads_perl-clone-choose| |docker_perl-clone-choose|
 
-   :versions: 0.010-0
+   :versions:
+      
+      
+
+      ``0.010-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-storable: 
    :requirements:
 

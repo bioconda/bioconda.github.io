@@ -8,6 +8,7 @@ picrust
 
 .. conda:recipe:: picrust
    :replaces_section_title:
+   :noindex:
 
    PICRUSt\: Phylogenetic Investigation of Communities by Reconstruction of Unobserved States
 
@@ -22,15 +23,22 @@ picrust
 
    |downloads_picrust| |docker_picrust|
 
-   :versions: 1.1.4-0, 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.1.4-0``,  ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends biom-format: >=2.1.4,<2.2.0
-   :depends cogent: >=1.5.3
-   :depends future: >=0.16
-   :depends h5py: >=2.7.1
+   :depends biom-format: ``>=2.1.4,<2.2.0``
+   :depends cogent: ``>=1.5.3``
+   :depends future: ``>=0.16``
+   :depends h5py: ``>=2.7.1``
    :depends numpy: 
-   :depends python: 2.7.*
-   :depends r-ape: >=5.0
+   :depends python: ``2.7.*``
+   :depends r-ape: ``>=5.0``
    :requirements:
 
    .. rubric:: Installation

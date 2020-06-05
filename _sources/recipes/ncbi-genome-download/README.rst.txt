@@ -8,6 +8,7 @@ ncbi-genome-download
 
 .. conda:recipe:: ncbi-genome-download
    :replaces_section_title:
+   :noindex:
 
    Download genome files from the NCBI FTP server.
 
@@ -22,12 +23,27 @@ ncbi-genome-download
 
    |downloads_ncbi-genome-download| |docker_ncbi-genome-download|
 
-   :versions: 0.2.12-0, 0.2.11-0, 0.2.10-0, 0.2.9-0, 0.2.8-1, 0.2.8-0, 0.2.7-0, 0.2.6-1, 0.2.6-0, 0.2.5-1, 0.2.5-0, 0.2.4-0, 0.2.2-0, 0.2.0-0, 0.1.8-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-1</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-1</code>,  <code>0.2.6-0</code>,  </span></summary>
+      
+
+      ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.8-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends appdirs: 
    :depends enum34: 
    :depends python: 
-   :depends requests: >=2.4.3
+   :depends requests: ``>=2.4.3``
    :requirements:
 
    .. rubric:: Installation

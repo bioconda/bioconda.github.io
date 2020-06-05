@@ -8,6 +8,7 @@ locus_processing
 
 .. conda:recipe:: locus_processing
    :replaces_section_title:
+   :noindex:
 
    Tools for working with locus definition files
 
@@ -22,13 +23,20 @@ locus_processing
 
    |downloads_locus_processing| |docker_locus_processing|
 
-   :versions: 0.0.4-0
+   :versions:
+      
+      
+
+      ``0.0.4-0``
+
+      
+
    
-   :depends click: >=6.7
-   :depends marshmallow: 2.13.5
-   :depends python: >=3.6
-   :depends pyyaml: >=3.12
-   :depends requests: >=2.18.1
+   :depends click: ``>=6.7``
+   :depends marshmallow: ``2.13.5``
+   :depends python: ``>=3.6``
+   :depends pyyaml: ``>=3.12``
+   :depends requests: ``>=2.18.1``
    :requirements:
 
    .. rubric:: Installation

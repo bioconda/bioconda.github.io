@@ -8,6 +8,7 @@ deepstats
 
 .. conda:recipe:: deepstats
    :replaces_section_title:
+   :noindex:
 
    A statistical and dataviz toolbox for deeptools\, genomic signals\, and more.
 
@@ -23,12 +24,19 @@ deepstats
 
    |downloads_deepstats| |docker_deepstats|
 
-   :versions: 0.4-0, 0.3.1-0, 0.3-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.4-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2-0``
+
+      
+
    
    :depends bioconductor-iranges: 
    :depends bioconductor-rsamtools: 
    :depends r-argparse: 
-   :depends r-base: >=3.5.1
+   :depends r-base: ``>=3.5.1``
    :depends r-boot: 
    :depends r-cowplot: 
    :depends r-dichromat: 

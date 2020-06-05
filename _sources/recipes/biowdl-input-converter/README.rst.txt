@@ -8,6 +8,7 @@ biowdl-input-converter
 
 .. conda:recipe:: biowdl-input-converter
    :replaces_section_title:
+   :noindex:
 
    Converting various input formats into WDL structs for BioWDL pipelines.
 
@@ -24,9 +25,16 @@ biowdl-input-converter
 
    |downloads_biowdl-input-converter| |docker_biowdl-input-converter|
 
-   :versions: 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends python: >=3.7
+   :depends python: ``>=3.7``
    :depends pyyaml: 
    :requirements:
 

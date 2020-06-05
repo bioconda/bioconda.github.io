@@ -8,6 +8,7 @@ bioconductor-openstats
 
 .. conda:recipe:: bioconductor-openstats
    :replaces_section_title:
+   :noindex:
 
    A Robust and Scalable Software Package for Reproducible Analysis of High\-Throughput genotype\-phenotype association
 
@@ -22,10 +23,17 @@ bioconductor-openstats
 
    |downloads_bioconductor-openstats| |docker_bioconductor-openstats|
 
-   :versions: 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``
+
+      
+
    
    :depends r-aiccmodavg: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-car: 
    :depends r-hmisc: 
    :depends r-jsonlite: 

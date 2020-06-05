@@ -8,6 +8,7 @@ agat
 
 .. conda:recipe:: agat
    :replaces_section_title:
+   :noindex:
 
    Another Gff Analysis Toolkit \(AGAT\). Suite of tools to handle gene annotations in any GTF\/GFF format.
 
@@ -22,11 +23,26 @@ agat
 
    |downloads_agat| |docker_agat|
 
-   :versions: 0.3.0-0, 0.2.3-1, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.1-0, 0.1.0-0, 0.0.3-1, 0.0.3-0, 0.0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.3-1</code>,  </span></summary>
+      
+
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends libdb: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-bioperl: >=1.7
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-bioperl: ``>=1.7``
    :depends perl-clone: 
    :depends perl-extutils-makemaker: 
    :depends perl-file-share: 
@@ -36,7 +52,7 @@ agat
    :depends perl-lwp-simple: 
    :depends perl-sort-naturally: 
    :depends perl-statistics-r: 
-   :depends r-base: >=3.5,<3.6.0a0
+   :depends r-base: ``>=3.5,<3.6.0a0``
    :requirements:
 
    .. rubric:: Installation

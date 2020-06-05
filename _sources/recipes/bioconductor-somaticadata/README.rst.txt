@@ -8,6 +8,7 @@ bioconductor-somaticadata
 
 .. conda:recipe:: bioconductor-somaticadata
    :replaces_section_title:
+   :noindex:
 
    An example cancer whole genome sequencing data for the SomatiCA package
 
@@ -22,10 +23,17 @@ bioconductor-somaticadata
 
    |downloads_bioconductor-somaticadata| |docker_bioconductor-somaticadata|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

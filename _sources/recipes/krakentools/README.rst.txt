@@ -8,6 +8,7 @@ krakentools
 
 .. conda:recipe:: krakentools
    :replaces_section_title:
+   :noindex:
 
    KrakenTools is a suite of scripts to be used for post\-analysis of Kraken\/KrakenUniq\/Kraken2\/Bracken results. Please cite the relevant paper if using KrakenTools with any of the listed programs.
 
@@ -22,7 +23,14 @@ krakentools
 
    |downloads_krakentools| |docker_krakentools|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
    :depends biopython: 
    :depends python: 

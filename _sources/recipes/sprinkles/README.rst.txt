@@ -8,6 +8,7 @@ sprinkles
 
 .. conda:recipe:: sprinkles
    :replaces_section_title:
+   :noindex:
 
    Plugins\! Easy\!
 
@@ -22,9 +23,16 @@ sprinkles
 
    |downloads_sprinkles| |docker_sprinkles|
 
-   :versions: 0.4.6-1, 0.4.6-0
+   :versions:
+      
+      
+
+      ``0.4.6-1``,  ``0.4.6-0``
+
+      
+
    
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

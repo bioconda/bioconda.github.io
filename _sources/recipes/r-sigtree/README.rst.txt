@@ -8,6 +8,7 @@ r-sigtree
 
 .. conda:recipe:: r-sigtree
    :replaces_section_title:
+   :noindex:
 
    Provides tools to identify and visualize branches in a phylogenetic tree that are significantly responsive to some intervention\, taking as primary inputs a phylogenetic tree \(of class phylo\) and a data frame \(or matrix\) of corresponding tip \(OTU\) labels and p\-values.
 
@@ -22,12 +23,19 @@ r-sigtree
 
    |downloads_r-sigtree| |docker_r-sigtree|
 
-   :versions: 1.10.6-6, 1.10.6-5, 1.10.6-4, 1.10.6-3, 1.10.6-2, 1.10.6-1, 1.10.6-0
+   :versions:
+      
+      
+
+      ``1.10.6-6``,  ``1.10.6-5``,  ``1.10.6-4``,  ``1.10.6-3``,  ``1.10.6-2``,  ``1.10.6-1``,  ``1.10.6-0``
+
+      
+
    
    :depends bioconductor-phyloseq: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :depends r-phyext2: 
    :depends r-phylobase: 

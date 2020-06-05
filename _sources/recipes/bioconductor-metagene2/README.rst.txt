@@ -8,6 +8,7 @@ bioconductor-metagene2
 
 .. conda:recipe:: bioconductor-metagene2
    :replaces_section_title:
+   :noindex:
 
    A package to produce metagene plots
 
@@ -22,23 +23,30 @@ bioconductor-metagene2
 
    |downloads_bioconductor-metagene2| |docker_bioconductor-metagene2|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-dbchip: >=1.32.0,<1.33.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-dbchip: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicalignments: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
    :depends r-purrr: 
-   :depends r-r6: >=2.0
+   :depends r-r6: ``>=2.0``
    :depends r-reshape2: 
    :requirements:
 

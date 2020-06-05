@@ -8,6 +8,7 @@ pbcopper
 
 .. conda:recipe:: pbcopper
    :replaces_section_title:
+   :noindex:
 
    Core C\+\+ library for data structures\, algorithms\, and utilities
 
@@ -22,10 +23,17 @@ pbcopper
 
    |downloads_pbcopper| |docker_pbcopper|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.3.0-0, 0.4.2-1, 0.4.2-0, 0.4.1-2, 0.4.1-1, 0.4.1-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

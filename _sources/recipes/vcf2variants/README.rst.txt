@@ -8,6 +8,7 @@ vcf2variants
 
 .. conda:recipe:: vcf2variants
    :replaces_section_title:
+   :noindex:
 
    Convert vcf files to varda variant files.
 
@@ -22,10 +23,17 @@ vcf2variants
 
    |downloads_vcf2variants| |docker_vcf2variants|
 
-   :versions: 0.3-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.3-0``,  ``0.2-0``
+
+      
+
    
    :depends cyvcf2: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

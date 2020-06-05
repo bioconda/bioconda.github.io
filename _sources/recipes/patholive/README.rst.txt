@@ -8,6 +8,7 @@ patholive
 
 .. conda:recipe:: patholive
    :replaces_section_title:
+   :noindex:
 
    A real\-time pathogen diagnostics tool for metagenomic Illumina sequencing data.
 
@@ -22,14 +23,21 @@ patholive
 
    |downloads_patholive| |docker_patholive|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends argparse: 
    :depends hilive2: 
    :depends matplotlib: 
-   :depends numpy: >=1.11
+   :depends numpy: ``>=1.11``
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

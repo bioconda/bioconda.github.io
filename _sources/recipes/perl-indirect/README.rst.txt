@@ -8,6 +8,7 @@ perl-indirect
 
 .. conda:recipe:: perl-indirect
    :replaces_section_title:
+   :noindex:
 
    Lexically warn about using the indirect method call syntax.
 
@@ -22,9 +23,16 @@ perl-indirect
 
    |downloads_perl-indirect| |docker_perl-indirect|
 
-   :versions: 0.38-1, 0.38-0
+   :versions:
+      
+      
+
+      ``0.38-1``,  ``0.38-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-carp: 
    :depends perl-xsloader: 
    :requirements:

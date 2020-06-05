@@ -8,6 +8,7 @@ haploclique
 
 .. conda:recipe:: haploclique/1.3.1
    :replaces_section_title:
+   :noindex:
 
    Viral quasispecies assembly via maximal clique finding. A method to reconstruct viral haplotypes and detect large insertions and deletions from NGS data.
 
@@ -22,12 +23,19 @@ haploclique
 
    |downloads_haploclique| |docker_haploclique|
 
-   :versions: 1.3.1-2, 1.3.1-1, 1.3.1-0
+   :versions:
+      
+      
+
+      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
+
+      
+
    
-   :depends boost: >=1.66.0,<1.66.1.0a0
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost: ``>=1.66.0,<1.66.1.0a0``
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

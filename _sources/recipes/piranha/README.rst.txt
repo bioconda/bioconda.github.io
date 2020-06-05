@@ -8,6 +8,7 @@ piranha
 
 .. conda:recipe:: piranha
    :replaces_section_title:
+   :noindex:
 
    Piranha is a peak\-caller for CLIP\- and RIP\-Seq data.
 
@@ -22,12 +23,19 @@ piranha
 
    |downloads_piranha| |docker_piranha|
 
-   :versions: 1.2.1-7, 1.2.1-6, 1.2.1-5, 1.2.1-3, 1.2.1-2, 1.2.1-1, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``
+
+      
+
    
-   :depends bamtools: >=2.5.1,<2.5.2.0a0
-   :depends gsl: >=2.4,<2.5.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends gsl: ``>=2.4,<2.5.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

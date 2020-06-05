@@ -8,6 +8,7 @@ segemehl
 
 .. conda:recipe:: segemehl
    :replaces_section_title:
+   :noindex:
 
    Short read mapping with gaps
 
@@ -23,13 +24,20 @@ segemehl
 
    |downloads_segemehl| |docker_segemehl|
 
-   :versions: 0.3.4-1, 0.3.4-0, 0.3.1-0, 0.2.0-5, 0.2.0-4, 0.2.0-3, 0.2.0-2, 0.2.0-1, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.1-0``,  ``0.2.0-5``,  ``0.2.0-4``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends ncurses: >=6.1,<6.2.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends ncurses: ``>=6.1,<6.2.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

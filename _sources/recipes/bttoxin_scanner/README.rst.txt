@@ -8,6 +8,7 @@ bttoxin_scanner
 
 .. conda:recipe:: bttoxin_scanner
    :replaces_section_title:
+   :noindex:
 
    A toxin exploration tool for Bacillus thuringiensis
 
@@ -24,7 +25,14 @@ bttoxin_scanner
 
    |downloads_bttoxin_scanner| |docker_bttoxin_scanner|
 
-   :versions: 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.0.1-0``
+
+      
+
    
    :depends blast: 
    :depends hmmer: 
@@ -32,7 +40,7 @@ bttoxin_scanner
    :depends perl-file-tee: 
    :depends perl-getopt-long: 
    :depends perl-pod-usage: 
-   :depends pgcgap: >=1.0.13
+   :depends pgcgap: ``>=1.0.13``
    :requirements:
 
    .. rubric:: Installation

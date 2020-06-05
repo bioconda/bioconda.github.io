@@ -8,6 +8,7 @@ iced
 
 .. conda:recipe:: iced
    :replaces_section_title:
+   :noindex:
 
    The python module iced implements the ICE normalization of hic data.
 
@@ -22,17 +23,24 @@ iced
 
    |downloads_iced| |docker_iced|
 
-   :versions: 0.5.6-1, 0.5.6-0, 0.5.4-0, 0.5.2-0, 0.5.0-0, 0.4.2-0
+   :versions:
+      
+      
+
+      ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends matplotlib-base: 
-   :depends numpy: >=1.14.6,<2.0a0
+   :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pandas: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scikit-learn: 
-   :depends scipy: >=0.13.3
+   :depends scipy: ``>=0.13.3``
    :requirements:
 
    .. rubric:: Installation

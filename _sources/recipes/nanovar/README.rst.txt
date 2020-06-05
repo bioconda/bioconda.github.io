@@ -8,6 +8,7 @@ nanovar
 
 .. conda:recipe:: nanovar
    :replaces_section_title:
+   :noindex:
 
    Structural variant caller using low\-depth long reads
 
@@ -22,24 +23,39 @@ nanovar
 
    |downloads_nanovar| |docker_nanovar|
 
-   :versions: 1.3.8-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.7-0, 1.2.6-0, 1.2.5-0, 1.2.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.8-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  </span></summary>
+      
+
+      ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bedtools: >=2.26.0
-   :depends biopython: >=1.74
-   :depends blast: >=2.5.0
-   :depends hs-blastn: >=0.0.5
-   :depends libgcc-ng: >=7.5.0
-   :depends matplotlib-base: >=2.2.3
-   :depends minimap2: >=2.17
-   :depends natsort: >=6.2.0
-   :depends numpy: >=1.17.3
-   :depends progress: >=1.4
-   :depends pybedtools: >=0.8.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends samtools: >=1.3
-   :depends scipy: >=1.2.1
-   :depends tensorflow: >=2.0.0
+   :depends bedtools: ``>=2.26.0``
+   :depends biopython: ``>=1.74``
+   :depends blast: ``>=2.5.0``
+   :depends hs-blastn: ``>=0.0.5``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends matplotlib-base: ``>=2.2.3``
+   :depends minimap2: ``>=2.17``
+   :depends natsort: ``>=6.2.0``
+   :depends numpy: ``>=1.17.3``
+   :depends progress: ``>=1.4``
+   :depends pybedtools: ``>=0.8.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends samtools: ``>=1.3``
+   :depends scipy: ``>=1.2.1``
+   :depends tensorflow: ``>=2.0.0``
    :requirements:
 
    .. rubric:: Installation

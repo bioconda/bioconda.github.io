@@ -8,6 +8,7 @@ maskrc-svg
 
 .. conda:recipe:: maskrc-svg
    :replaces_section_title:
+   :noindex:
 
    Masks recombinant regions in an alignment based on ClonalFrameML or Gubbins output Option to draw SVG of recombinant regions.
 
@@ -22,7 +23,14 @@ maskrc-svg
 
    |downloads_maskrc-svg| |docker_maskrc-svg|
 
-   :versions: 0.5-1, 0.5-0
+   :versions:
+      
+      
+
+      ``0.5-1``,  ``0.5-0``
+
+      
+
    
    :depends bcbio-gff: 
    :depends biopython: 

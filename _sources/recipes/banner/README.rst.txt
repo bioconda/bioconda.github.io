@@ -8,6 +8,7 @@ banner
 
 .. conda:recipe:: banner
    :replaces_section_title:
+   :noindex:
 
    BANNER is a tool that lives inside HULK and aims to make sense of hulk histosketches.
 
@@ -22,14 +23,21 @@ banner
 
    |downloads_banner| |docker_banner|
 
-   :versions: 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.2-0``,  ``0.0.1-0``
+
+      
+
    
-   :depends numpy: 1.15.0
-   :depends pandas: 0.23.4
-   :depends pytest: 3.7.1
+   :depends numpy: ``1.15.0``
+   :depends pandas: ``0.23.4``
+   :depends pytest: ``3.7.1``
    :depends python: 
    :depends scikit-learn: 
-   :depends scipy: 1.1.0
+   :depends scipy: ``1.1.0``
    :requirements:
 
    .. rubric:: Installation

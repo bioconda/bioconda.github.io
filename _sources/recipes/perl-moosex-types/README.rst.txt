@@ -8,6 +8,7 @@ perl-moosex-types
 
 .. conda:recipe:: perl-moosex-types
    :replaces_section_title:
+   :noindex:
 
    Organise your Moose types in libraries
 
@@ -22,9 +23,16 @@ perl-moosex-types
 
    |downloads_perl-moosex-types| |docker_perl-moosex-types|
 
-   :versions: 0.50-1, 0.50-0, 0.46-2, 0.46-1, 0.46-0
+   :versions:
+      
+      
+
+      ``0.50-1``,  ``0.50-0``,  ``0.46-2``,  ``0.46-1``,  ``0.46-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-carp-clan: 

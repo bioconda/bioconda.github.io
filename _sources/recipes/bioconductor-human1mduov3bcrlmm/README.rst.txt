@@ -8,6 +8,7 @@ bioconductor-human1mduov3bcrlmm
 
 .. conda:recipe:: bioconductor-human1mduov3bcrlmm
    :replaces_section_title:
+   :noindex:
 
    Metadata for fast genotyping with the \'crlmm\' package
 
@@ -22,10 +23,17 @@ bioconductor-human1mduov3bcrlmm
 
    |downloads_bioconductor-human1mduov3bcrlmm| |docker_bioconductor-human1mduov3bcrlmm|
 
-   :versions: 1.0.4-4, 1.0.4-3, 1.0.4-2, 1.0.4-1, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

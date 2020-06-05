@@ -8,6 +8,7 @@ lace
 
 .. conda:recipe:: lace
    :replaces_section_title:
+   :noindex:
 
    Building SuperTranscripts\: A linear representation of transcriptome data
 
@@ -22,10 +23,17 @@ lace
 
    |downloads_lace| |docker_lace|
 
-   :versions: 1.00-1, 1.00-0, 0.99-0, 0.80-0
+   :versions:
+      
+      
+
+      ``1.00-1``,  ``1.00-0``,  ``0.99-0``,  ``0.80-0``
+
+      
+
    
    :depends blat: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends matplotlib: 
    :depends networkx: 
    :depends numpy: 

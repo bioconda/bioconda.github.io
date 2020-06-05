@@ -8,6 +8,7 @@ bioconductor-impcdata
 
 .. conda:recipe:: bioconductor-impcdata
    :replaces_section_title:
+   :noindex:
 
    Retrieves data from IMPC database
 
@@ -22,9 +23,16 @@ bioconductor-impcdata
 
    |downloads_bioconductor-impcdata| |docker_bioconductor-impcdata|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rjson: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-scfeaturefilter
 
 .. conda:recipe:: bioconductor-scfeaturefilter
    :replaces_section_title:
+   :noindex:
 
    A correlation\-based method for quality filtering of single\-cell RNAseq data
 
@@ -22,14 +23,21 @@ bioconductor-scfeaturefilter
 
    |downloads_bioconductor-scfeaturefilter| |docker_bioconductor-scfeaturefilter|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dplyr: >=0.7.3
-   :depends r-ggplot2: >=2.1.0
-   :depends r-magrittr: >=1.5
-   :depends r-rlang: >=0.1.2
-   :depends r-tibble: >=1.3.4
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: ``>=0.7.3``
+   :depends r-ggplot2: ``>=2.1.0``
+   :depends r-magrittr: ``>=1.5``
+   :depends r-rlang: ``>=0.1.2``
+   :depends r-tibble: ``>=1.3.4``
    :requirements:
 
    .. rubric:: Installation

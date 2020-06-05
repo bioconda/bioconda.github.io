@@ -8,6 +8,7 @@ zorro
 
 .. conda:recipe:: zorro
    :replaces_section_title:
+   :noindex:
 
    ZORRO is a probabilistic masking program that assigns confidence scores to each column in a multiple sequence alignment.
 
@@ -22,10 +23,17 @@ zorro
 
    |downloads_zorro| |docker_zorro|
 
-   :versions: 2011.12.01-0
+   :versions:
+      
+      
+
+      ``2011.12.01-0``
+
+      
+
    
    :depends fasttree: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends perl: 
    :requirements:
 

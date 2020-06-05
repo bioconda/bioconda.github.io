@@ -8,6 +8,7 @@ perl-hpc-runner-command
 
 .. conda:recipe:: perl-hpc-runner-command/3.2.13
    :replaces_section_title:
+   :noindex:
 
    Create composable bioinformatics hpc analyses.
 
@@ -22,9 +23,24 @@ perl-hpc-runner-command
 
    |downloads_perl-hpc-runner-command| |docker_perl-hpc-runner-command|
 
-   :versions: 3.2.13-1, 3.2.13-0, 3.2.11-0, 3.2.10-0, 3.2.9-0, 3.2.8-0, 3.2.7-0, 3.2.6-0, 3.2.5-0, 3.2.4-0, 3.2.2-0, 3.2.0-1, 3.2.0-0, 3.1.4-1, 3.1.4-0, 3.1.1-0, 3.0.1-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.2.13-1</code>,  <code>3.2.13-0</code>,  <code>3.2.11-0</code>,  <code>3.2.10-0</code>,  <code>3.2.9-0</code>,  <code>3.2.8-0</code>,  <code>3.2.7-0</code>,  <code>3.2.6-0</code>,  <code>3.2.5-0</code>,  </span></summary>
+      
+
+      ``3.2.13-1``,  ``3.2.13-0``,  ``3.2.11-0``,  ``3.2.10-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``,  ``3.2.6-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.2-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.4-1``,  ``3.1.4-0``,  ``3.1.1-0``,  ``3.0.1-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-algorithm-dependency: 
    :depends perl-app-cpanminus: 
    :depends perl-archive-tar: 
@@ -43,7 +59,7 @@ perl-hpc-runner-command
    :depends perl-io-interactive: 
    :depends perl-json: 
    :depends perl-json-xs: 
-   :depends perl-list-moreutils: >=0.428
+   :depends perl-list-moreutils: ``>=0.428``
    :depends perl-list-uniq: 
    :depends perl-log-log4perl: 
    :depends perl-mce: 

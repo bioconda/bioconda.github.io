@@ -8,6 +8,7 @@ pplacer
 
 .. conda:recipe:: pplacer
    :replaces_section_title:
+   :noindex:
 
    Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment.
 
@@ -23,7 +24,14 @@ pplacer
 
    |downloads_pplacer| |docker_pplacer|
 
-   :versions: 1.1.alpha19-1, 1.1.alpha19-0, 1.1.alpha17-0
+   :versions:
+      
+      
+
+      ``1.1.alpha19-1``,  ``1.1.alpha19-0``,  ``1.1.alpha17-0``
+
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-ldblock
 
 .. conda:recipe:: bioconductor-ldblock
    :replaces_section_title:
+   :noindex:
 
    data structures for linkage disequilibrium measures in populations
 
@@ -22,17 +23,24 @@ bioconductor-ldblock
 
    |downloads_bioconductor-ldblock| |docker_bioconductor-ldblock|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-ensdb.hsapiens.v75: >=2.99.0,<2.100.0
-   :depends bioconductor-ensembldb: >=2.12.0,<2.13.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicfiles: >=1.24.0,<1.25.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-snpstats: >=1.38.0,<1.39.0
-   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
+   :depends bioconductor-ensembldb: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicfiles: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-snpstats: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-variantannotation: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 
    :depends r-matrix: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-phyloprofile
 
 .. conda:recipe:: bioconductor-phyloprofile
    :replaces_section_title:
+   :noindex:
 
    PhyloProfile
 
@@ -22,15 +23,22 @@ bioconductor-phyloprofile
 
    |downloads_bioconductor-phyloprofile| |docker_bioconductor-phyloprofile|
 
-   :versions: 1.2.2-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-biocstyle: >=2.16.0,<2.17.0
-   :depends bioconductor-biodist: >=1.60.0,<1.61.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-omadb: >=2.4.0,<2.5.0
+   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-biodist: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-omadb: ``>=2.4.0,<2.5.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-colourpicker: 
    :depends r-data.table: 
    :depends r-dt: 

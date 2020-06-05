@@ -8,6 +8,7 @@ bioconductor-xeva
 
 .. conda:recipe:: bioconductor-xeva
    :replaces_section_title:
+   :noindex:
 
    Analysis of patient\-derived xenograft \(PDX\) data
 
@@ -22,12 +23,19 @@ bioconductor-xeva
 
    |downloads_bioconductor-xeva| |docker_bioconductor-xeva|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
-   :depends bioconductor-pharmacogx: >=2.0.0,<2.1.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-pharmacogx: ``>=2.0.0,<2.1.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bbmisc: 
    :depends r-doparallel: 
    :depends r-downloader: 

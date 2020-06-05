@@ -8,6 +8,7 @@ r-fgwas
 
 .. conda:recipe:: r-fgwas
    :replaces_section_title:
+   :noindex:
 
    GWAS tools for longitudinal genetic traits based on fGWAS statistical model.
 
@@ -23,11 +24,18 @@ r-fgwas
 
    |downloads_r-fgwas| |docker_r-fgwas|
 
-   :versions: 0.3.6-3, 0.3.6-2, 0.3.6-1, 0.3.6-0, 0.3.5-0
+   :versions:
+      
+      
+
+      ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``
+
+      
+
    
    :depends bioconductor-snpstats: 
    :depends parallel: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-devtools: 
    :depends r-minpack.lm: 
    :depends r-mvtnorm: 

@@ -8,6 +8,7 @@ phispy
 
 .. conda:recipe:: phispy
    :replaces_section_title:
+   :noindex:
 
    Prophage finder using multiple metrics
 
@@ -26,15 +27,22 @@ phispy
 
    |downloads_phispy| |docker_phispy|
 
-   :versions: 4.0.3-0, 4.0.0-0, 3.7.8-0
+   :versions:
+      
+      
+
+      ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
+
+      
+
    
-   :depends biopython: >=1.74
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends numpy: >=1.17.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends scikit-learn: >=0.21.3
+   :depends biopython: ``>=1.74``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends numpy: ``>=1.17.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends scikit-learn: ``>=0.21.3``
    :requirements:
 
    .. rubric:: Installation

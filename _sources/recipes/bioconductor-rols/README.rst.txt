@@ -8,6 +8,7 @@ bioconductor-rols
 
 .. conda:recipe:: bioconductor-rols
    :replaces_section_title:
+   :noindex:
 
    An R interface to the Ontology Lookup Service
 
@@ -23,11 +24,18 @@ bioconductor-rols
 
    |downloads_bioconductor-rols| |docker_bioconductor-rols|
 
-   :versions: 2.16.1-0, 2.14.0-0, 2.12.0-1, 2.10.1-0, 2.10.0-0, 2.8.2-0, 2.6.0-0, 2.4.0-0
+   :versions:
+      
+      
+
+      ``2.16.1-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.6.0-0``,  ``2.4.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 
    :depends r-jsonlite: 
    :depends r-progress: 

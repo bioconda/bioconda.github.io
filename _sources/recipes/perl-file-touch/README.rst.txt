@@ -8,6 +8,7 @@ perl-file-touch
 
 .. conda:recipe:: perl-file-touch
    :replaces_section_title:
+   :noindex:
 
    update file access and modification times\, optionally creating files if needed
 
@@ -22,9 +23,16 @@ perl-file-touch
 
    |downloads_perl-file-touch| |docker_perl-file-touch|
 
-   :versions: 0.11-1, 0.11-0
+   :versions:
+      
+      
+
+      ``0.11-1``,  ``0.11-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :requirements:

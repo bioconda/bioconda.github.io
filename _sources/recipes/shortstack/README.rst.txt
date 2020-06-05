@@ -8,6 +8,7 @@ shortstack
 
 .. conda:recipe:: shortstack
    :replaces_section_title:
+   :noindex:
 
    ShortStack\: Comprehensive annotation and quantification of small RNA genes
 
@@ -22,12 +23,19 @@ shortstack
 
    |downloads_shortstack| |docker_shortstack|
 
-   :versions: 3.8.5-2, 3.8.5-1, 3.8.5-0, 3.8.3-0, 3.6-0
+   :versions:
+      
+      
+
+      ``3.8.5-2``,  ``3.8.5-1``,  ``3.8.5-0``,  ``3.8.3-0``,  ``3.6-0``
+
+      
+
    
    :depends bowtie: 
    :depends perl: 
-   :depends samtools: 1.*
-   :depends viennarna: 2.*
+   :depends samtools: ``1.*``
+   :depends viennarna: ``2.*``
    :requirements:
 
    .. rubric:: Installation

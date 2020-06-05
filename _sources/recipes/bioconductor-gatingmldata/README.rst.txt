@@ -8,6 +8,7 @@ bioconductor-gatingmldata
 
 .. conda:recipe:: bioconductor-gatingmldata
    :replaces_section_title:
+   :noindex:
 
    Data and XML files for Gating\-ML Test suite
 
@@ -22,10 +23,17 @@ bioconductor-gatingmldata
 
    |downloads_bioconductor-gatingmldata| |docker_bioconductor-gatingmldata|
 
-   :versions: 2.28.0-0, 2.26.0-0, 2.24.0-1, 2.24.0-0, 2.22.0-0
+   :versions:
+      
+      
+
+      ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

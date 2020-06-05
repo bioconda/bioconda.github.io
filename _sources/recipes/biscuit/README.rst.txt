@@ -8,6 +8,7 @@ biscuit
 
 .. conda:recipe:: biscuit
    :replaces_section_title:
+   :noindex:
 
    A utility for analyzing sodium bisulfite conversion\-based DNA methylation\/modification data
 
@@ -22,12 +23,19 @@ biscuit
 
    |downloads_biscuit| |docker_biscuit|
 
-   :versions: 0.3.16.20200420-0, 0.3.15.20200318-0
+   :versions:
+      
+      
+
+      ``0.3.16.20200420-0``,  ``0.3.15.20200318-0``
+
+      
+
    
-   :depends libcurl: >=7.64.1,<8.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends ncurses: >=6.1,<6.2.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libcurl: ``>=7.64.1,<8.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends ncurses: ``>=6.1,<6.2.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

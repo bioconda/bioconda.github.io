@@ -8,6 +8,7 @@ ac-diamond
 
 .. conda:recipe:: ac-diamond
    :replaces_section_title:
+   :noindex:
 
    AC\-DIAMOND is a DNA\-protein alignment tool
 
@@ -22,10 +23,17 @@ ac-diamond
 
    |downloads_ac-diamond| |docker_ac-diamond|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends boost: >=1.67.0,<1.67.1.0a0
-   :depends libstdcxx-ng: >=4.9
+   :depends boost: ``>=1.67.0,<1.67.1.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

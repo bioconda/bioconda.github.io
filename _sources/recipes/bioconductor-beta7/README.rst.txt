@@ -8,6 +8,7 @@ bioconductor-beta7
 
 .. conda:recipe:: bioconductor-beta7
    :replaces_section_title:
+   :noindex:
 
    Rodriguez et al. \(2004\) Differential Gene Expression by Memory\/Effector T Helper Cells Bearing the Gut\-Homing Receptor Integrin alpha4 beta7.
 
@@ -22,11 +23,18 @@ bioconductor-beta7
 
    |downloads_bioconductor-beta7| |docker_bioconductor-beta7|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-marray: >=1.66.0,<1.67.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-marray: ``>=1.66.0,<1.67.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

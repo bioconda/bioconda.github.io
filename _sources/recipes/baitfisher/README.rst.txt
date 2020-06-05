@@ -8,6 +8,7 @@ baitfisher
 
 .. conda:recipe:: baitfisher
    :replaces_section_title:
+   :noindex:
 
    The BaitFisher\-package is a software package for designing hybrid enrichment probes.
 
@@ -22,9 +23,16 @@ baitfisher
 
    |downloads_baitfisher| |docker_baitfisher|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-mime-types
 
 .. conda:recipe:: perl-mime-types
    :replaces_section_title:
+   :noindex:
 
    Definition of MIME types
 
@@ -22,9 +23,16 @@ perl-mime-types
 
    |downloads_perl-mime-types| |docker_perl-mime-types|
 
-   :versions: 2.17-0, 2.12-1, 2.12-0
+   :versions:
+      
+      
+
+      ``2.17-0``,  ``2.12-1``,  ``2.12-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

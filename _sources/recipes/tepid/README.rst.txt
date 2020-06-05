@@ -8,6 +8,7 @@ tepid
 
 .. conda:recipe:: tepid
    :replaces_section_title:
+   :noindex:
 
    TEPID uses paired\-end illumina sequencing reads to identify novel TE variants.
 
@@ -22,18 +23,25 @@ tepid
 
    |downloads_tepid| |docker_tepid|
 
-   :versions: 0.8-3, 0.8-2, 0.8-1, 0.8-0, 0.7-0
+   :versions:
+      
+      
+
+      ``0.8-3``,  ``0.8-2``,  ``0.8-1``,  ``0.8-0``,  ``0.7-0``
+
+      
+
    
-   :depends bedtools: >=2.25.0
+   :depends bedtools: ``>=2.25.0``
    :depends bowtie2: 
    :depends nose: 
-   :depends numpy: >=1.9.2
+   :depends numpy: ``>=1.9.2``
    :depends pandas: 
    :depends pybedtools: 
-   :depends pysam: <0.9,>0.8
-   :depends python: <3
+   :depends pysam: ``<0.9,>0.8``
+   :depends python: ``<3``
    :depends samblaster: 
-   :depends samtools: >=1.4
+   :depends samtools: ``>=1.4``
    :depends yaha: 
    :requirements:
 

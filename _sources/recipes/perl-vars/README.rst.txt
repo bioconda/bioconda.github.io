@@ -8,6 +8,7 @@ perl-vars
 
 .. conda:recipe:: perl-vars/1.03
    :replaces_section_title:
+   :noindex:
 
    Perl pragma to predeclare global variable names
 
@@ -22,9 +23,16 @@ perl-vars
 
    |downloads_perl-vars| |docker_perl-vars|
 
-   :versions: 1.03-1, 1.03-0
+   :versions:
+      
+      
+
+      ``1.03-1``,  ``1.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

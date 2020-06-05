@@ -8,6 +8,7 @@ perl-mac-propertylist
 
 .. conda:recipe:: perl-mac-propertylist
    :replaces_section_title:
+   :noindex:
 
    work with Mac plists at a low level
 
@@ -22,9 +23,16 @@ perl-mac-propertylist
 
    |downloads_perl-mac-propertylist| |docker_perl-mac-propertylist|
 
-   :versions: 1.413-0
+   :versions:
+      
+      
+
+      ``1.413-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-math-bigint: 
    :depends perl-mime-base64: 
    :depends perl-parent: 

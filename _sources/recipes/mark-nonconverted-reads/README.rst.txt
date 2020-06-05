@@ -8,6 +8,7 @@ mark-nonconverted-reads
 
 .. conda:recipe:: mark-nonconverted-reads
    :replaces_section_title:
+   :noindex:
 
    A simple filter to mark potential nonconverted reads from methylation experiments
 
@@ -22,10 +23,17 @@ mark-nonconverted-reads
 
    |downloads_mark-nonconverted-reads| |docker_mark-nonconverted-reads|
 
-   :versions: 1.1-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.0-0``
+
+      
+
    
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

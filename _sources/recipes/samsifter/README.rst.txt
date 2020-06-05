@@ -8,6 +8,7 @@ samsifter
 
 .. conda:recipe:: samsifter
    :replaces_section_title:
+   :noindex:
 
    Workflow editor for metagenomic analysis
 
@@ -22,13 +23,20 @@ samsifter
 
    |downloads_samsifter| |docker_samsifter|
 
-   :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends matplotlib: >=1.3.1
-   :depends numpy: >=1.6.1
-   :depends pandas: >=0.14.1
-   :depends pyqt: >=4.11.4,<4.12.0a0
-   :depends python: >=3.5,<3.6.0a0
+   :depends matplotlib: ``>=1.3.1``
+   :depends numpy: ``>=1.6.1``
+   :depends pandas: ``>=0.14.1``
+   :depends pyqt: ``>=4.11.4,<4.12.0a0``
+   :depends python: ``>=3.5,<3.6.0a0``
    :depends python-dateutil: 
    :depends pytz: 
    :depends xorg-libsm: 

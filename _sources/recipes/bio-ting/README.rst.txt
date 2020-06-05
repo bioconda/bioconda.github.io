@@ -8,6 +8,7 @@ bio-ting
 
 .. conda:recipe:: bio-ting
    :replaces_section_title:
+   :noindex:
 
    ting is a tool clustering large scale T cell receptor repertoires by antigen\-specificity
 
@@ -22,12 +23,19 @@ bio-ting
 
    |downloads_bio-ting| |docker_bio-ting|
 
-   :versions: 1.0.2-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends networkx: >=2.4,<2.5
-   :depends numpy: >=1.17,<1.18
-   :depends python: >=3.7
-   :depends scipy: >=1.3,<1.4
+   :depends networkx: ``>=2.4,<2.5``
+   :depends numpy: ``>=1.17,<1.18``
+   :depends python: ``>=3.7``
+   :depends scipy: ``>=1.3,<1.4``
    :requirements:
 
    .. rubric:: Installation

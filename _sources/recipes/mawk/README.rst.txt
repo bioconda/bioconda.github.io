@@ -8,6 +8,7 @@ mawk
 
 .. conda:recipe:: mawk
    :replaces_section_title:
+   :noindex:
 
    mawk is an interpreter for the AWK Programming Language.
 
@@ -22,9 +23,16 @@ mawk
 
    |downloads_mawk| |docker_mawk|
 
-   :versions: 1.3.4-2, 1.3.4-1, 1.3.4-0
+   :versions:
+      
+      
+
+      ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.2.0
+   :depends libgcc-ng: ``>=7.2.0``
    :requirements:
 
    .. rubric:: Installation

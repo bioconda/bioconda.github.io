@@ -8,6 +8,7 @@ bioconductor-msstatsqcgui
 
 .. conda:recipe:: bioconductor-msstatsqcgui
    :replaces_section_title:
+   :noindex:
 
    A graphical user interface for MSstatsQC package
 
@@ -22,10 +23,17 @@ bioconductor-msstatsqcgui
 
    |downloads_bioconductor-msstatsqcgui| |docker_bioconductor-msstatsqcgui|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``
+
+      
+
    
-   :depends bioconductor-msstatsqc: >=2.6.0,<2.7.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-msstatsqc: ``>=2.6.0,<2.7.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggextra: 
    :depends r-gridextra: 

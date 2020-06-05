@@ -8,6 +8,7 @@ bioconductor-acde
 
 .. conda:recipe:: bioconductor-acde
    :replaces_section_title:
+   :noindex:
 
    Artificial Components Detection of Differentially Expressed Genes
 
@@ -23,10 +24,17 @@ bioconductor-acde
 
    |downloads_bioconductor-acde| |docker_bioconductor-acde|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-boot: >=1.3
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-boot: ``>=1.3``
    :requirements:
 
    .. rubric:: Installation

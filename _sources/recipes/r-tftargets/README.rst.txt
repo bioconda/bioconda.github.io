@@ -8,6 +8,7 @@ r-tftargets
 
 .. conda:recipe:: r-tftargets
    :replaces_section_title:
+   :noindex:
 
    Human transcription factor target genes.
 
@@ -22,9 +23,16 @@ r-tftargets
 
    |downloads_r-tftargets| |docker_r-tftargets|
 
-   :versions: 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-1``,  ``1.3-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

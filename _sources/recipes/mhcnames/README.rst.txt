@@ -8,6 +8,7 @@ mhcnames
 
 .. conda:recipe:: mhcnames
    :replaces_section_title:
+   :noindex:
 
    Python library for MHC nomenclature parsing
 
@@ -22,10 +23,17 @@ mhcnames
 
    |downloads_mhcnames| |docker_mhcnames|
 
-   :versions: 0.4.8-0
+   :versions:
+      
+      
+
+      ``0.4.8-0``
+
+      
+
    
    :depends python: 
-   :depends six: >=1.9.0
+   :depends six: ``>=1.9.0``
    :requirements:
 
    .. rubric:: Installation

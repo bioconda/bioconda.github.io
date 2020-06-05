@@ -8,6 +8,7 @@ fast5
 
 .. conda:recipe:: fast5
    :replaces_section_title:
+   :noindex:
 
    A C\+\+ header\-only library for reading Oxford Nanopore Fast5 files.
 
@@ -22,7 +23,22 @@ fast5
 
    |downloads_fast5| |docker_fast5|
 
-   :versions: 0.6.5-2, 0.6.5-1, 0.6.5-0, 0.6.4-0, 0.6.3.p1-0, 0.6.2-0, 0.6.2.p1-3, 0.6.2.p1-2, 0.6.2.p1-1, 0.6.2.p1-0, 0.6.1-0, 0.5.10a-0, 0.5.9-0, 0.5.8-0, 0.5.6-0, 0.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.6.5-2</code>,  <code>0.6.5-1</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3.p1-0</code>,  <code>0.6.2-0</code>,  <code>0.6.2.p1-3</code>,  <code>0.6.2.p1-2</code>,  <code>0.6.2.p1-1</code>,  </span></summary>
+      
+
+      ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3.p1-0``,  ``0.6.2-0``,  ``0.6.2.p1-3``,  ``0.6.2.p1-2``,  ``0.6.2.p1-1``,  ``0.6.2.p1-0``,  ``0.6.1-0``,  ``0.5.10a-0``,  ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.6-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends hdf5: 
    :requirements:

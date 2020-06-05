@@ -8,6 +8,7 @@ bioconductor-preda
 
 .. conda:recipe:: bioconductor-preda
    :replaces_section_title:
+   :noindex:
 
    Position Related Data Analysis
 
@@ -23,13 +24,20 @@ bioconductor-preda
 
    |downloads_bioconductor-preda| |docker_bioconductor-preda|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-1, 1.28.0-0, 1.26.1-0, 1.24.0-0
+   :versions:
+      
+      
+
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.24.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-multtest: >=2.44.0,<2.45.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-lokern: >=1.0.9
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-lokern: ``>=1.0.9``
    :requirements:
 
    .. rubric:: Installation

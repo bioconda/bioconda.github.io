@@ -8,6 +8,7 @@ fastx_toolkit
 
 .. conda:recipe:: fastx_toolkit
    :replaces_section_title:
+   :noindex:
 
    The FASTX\-Toolkit is a collection of command line tools for
    Short\-Reads FASTA\/FASTQ files preprocessing.
@@ -39,12 +40,19 @@ fastx_toolkit
 
    |downloads_fastx_toolkit| |docker_fastx_toolkit|
 
-   :versions: 0.0.14-8, 0.0.14-7, 0.0.14-6, 0.0.14-5, 0.0.14-4, 0.0.14-3, 0.0.14-2, 0.0.14-1, 0.0.14-0
+   :versions:
+      
+      
+
+      ``0.0.14-8``,  ``0.0.14-7``,  ``0.0.14-6``,  ``0.0.14-5``,  ``0.0.14-4``,  ``0.0.14-3``,  ``0.0.14-2``,  ``0.0.14-1``,  ``0.0.14-0``
+
+      
+
    
-   :depends gnuplot: >=5.0.5
-   :depends libgcc-ng: >=7.3.0
+   :depends gnuplot: ``>=5.0.5``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends libgtextutils: 
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
    :depends perl-gd: 
    :depends perl-gdgraph-histogram: 

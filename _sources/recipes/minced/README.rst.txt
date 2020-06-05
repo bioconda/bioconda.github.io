@@ -8,6 +8,7 @@ minced
 
 .. conda:recipe:: minced
    :replaces_section_title:
+   :noindex:
 
    MinCED \- Mining CRISPRs in Environmental Datasets
 
@@ -22,9 +23,24 @@ minced
 
    |downloads_minced| |docker_minced|
 
-   :versions: 0.4.2-0, 0.4.1-0, 0.4.0-2, 0.4.0-1, 0.4.0-0, 0.3.2-0, 0.3.0-1, 0.3.0-0, 0.2.0-2, 0.2.0-1, 0.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.0-2</code>,  </span></summary>
+      
+
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

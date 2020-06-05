@@ -8,6 +8,7 @@ bioconductor-yamss
 
 .. conda:recipe:: bioconductor-yamss
    :replaces_section_title:
+   :noindex:
 
    Tools for high\-throughput metabolomics
 
@@ -23,16 +24,23 @@ bioconductor-yamss
 
    |downloads_bioconductor-yamss| |docker_bioconductor-yamss|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.1-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-mzr: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-matrix: 
    :requirements:

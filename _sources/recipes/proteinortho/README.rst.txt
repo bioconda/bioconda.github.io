@@ -8,6 +8,7 @@ proteinortho
 
 .. conda:recipe:: proteinortho
    :replaces_section_title:
+   :noindex:
 
    Proteinortho is a tool to detect orthologous genes within different species.
 
@@ -22,13 +23,28 @@ proteinortho
 
    |downloads_proteinortho| |docker_proteinortho|
 
-   :versions: 6.0.16-1, 6.0.16-0, 6.0.15-0, 6.0.14-0, 6.0.13-0, 6.0.12-0, 6.0.11-0, 6.0.10-0, 6.0.9-0, 6.0.8-0, 6.0.7-0, 6.0.6-0, 6.0.5-0, 6.0.4-0, 6.0.3-0, 6.0.2c-0, 6.0.1-0, 6.0-0, 6.0b-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>6.0.16-1</code>,  <code>6.0.16-0</code>,  <code>6.0.15-0</code>,  <code>6.0.14-0</code>,  <code>6.0.13-0</code>,  <code>6.0.12-0</code>,  <code>6.0.11-0</code>,  <code>6.0.10-0</code>,  <code>6.0.9-0</code>,  </span></summary>
+      
+
+      ``6.0.16-1``,  ``6.0.16-0``,  ``6.0.15-0``,  ``6.0.14-0``,  ``6.0.13-0``,  ``6.0.12-0``,  ``6.0.11-0``,  ``6.0.10-0``,  ``6.0.9-0``,  ``6.0.8-0``,  ``6.0.7-0``,  ``6.0.6-0``,  ``6.0.5-0``,  ``6.0.4-0``,  ``6.0.3-0``,  ``6.0.2c-0``,  ``6.0.1-0``,  ``6.0-0``,  ``6.0b-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends diamond: 
-   :depends libgcc-ng: >=7.5.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends liblapacke: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends liblapacke: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openmp: 
    :depends perl: 
    :depends python: 

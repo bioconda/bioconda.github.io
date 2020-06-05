@@ -8,6 +8,7 @@ bioconductor-hmp2data
 
 .. conda:recipe:: bioconductor-hmp2data
    :replaces_section_title:
+   :noindex:
 
    16s rRNA sequencing data from the Human Microbiome Project 2
 
@@ -22,17 +23,24 @@ bioconductor-hmp2data
 
    |downloads_bioconductor-hmp2data| |docker_bioconductor-hmp2data|
 
-   :versions: 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-phyloseq: >=1.32.0,<1.33.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-phyloseq: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-kableextra: 

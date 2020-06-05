@@ -8,6 +8,7 @@ perl-digest-md5
 
 .. conda:recipe:: perl-digest-md5
    :replaces_section_title:
+   :noindex:
 
    Perl interface to the MD\-5 algorithm
 
@@ -22,9 +23,16 @@ perl-digest-md5
 
    |downloads_perl-digest-md5| |docker_perl-digest-md5|
 
-   :versions: 2.55-0, 2.52-3, 2.52-2, 2.52-1, 2.52-0
+   :versions:
+      
+      
+
+      ``2.55-0``,  ``2.52-3``,  ``2.52-2``,  ``2.52-1``,  ``2.52-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

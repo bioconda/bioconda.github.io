@@ -8,6 +8,7 @@ bioconductor-mesh.dda.3937.eg.db
 
 .. conda:recipe:: bioconductor-mesh.dda.3937.eg.db
    :replaces_section_title:
+   :noindex:
 
    Mapping table for Dickeya dadantii 3937 Gene ID to MeSH
 
@@ -22,11 +23,18 @@ bioconductor-mesh.dda.3937.eg.db
 
    |downloads_bioconductor-mesh.dda.3937.eg.db| |docker_bioconductor-mesh.dda.3937.eg.db|
 
-   :versions: 1.12.0-3, 1.12.0-2, 1.12.0-1, 1.11.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-3``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.11.0-0``
+
+      
+
    
-   :depends bioconductor-meshdbi: >=1.24.0,<1.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-meshdbi: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

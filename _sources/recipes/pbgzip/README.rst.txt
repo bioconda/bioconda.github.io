@@ -8,6 +8,7 @@ pbgzip
 
 .. conda:recipe:: pbgzip
    :replaces_section_title:
+   :noindex:
 
    Parallel Block GZIP
 
@@ -22,11 +23,18 @@ pbgzip
 
    |downloads_pbgzip| |docker_pbgzip|
 
-   :versions: 2016.08.04-1, 2016.08.04-0, 2015.10.28-1, 2015.10.28-0
+   :versions:
+      
+      
+
+      ``2016.08.04-1``,  ``2016.08.04-0``,  ``2015.10.28-1``,  ``2015.10.28-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

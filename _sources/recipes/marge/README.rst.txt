@@ -8,6 +8,7 @@ marge
 
 .. conda:recipe:: marge
    :replaces_section_title:
+   :noindex:
 
    Model\-based Analysis of Regulation of Gene Expression
 
@@ -22,15 +23,22 @@ marge
 
    |downloads_marge| |docker_marge|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends hdf5: 
    :depends numpy: 
    :depends pytables: 
-   :depends python: >3
+   :depends python: ``>3``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends snakemake: 3.*
+   :depends snakemake: ``3.*``
    :depends twobitreader: 
    :depends ucsc-bedclip: 
    :depends ucsc-bigwigaverageoverbed: 

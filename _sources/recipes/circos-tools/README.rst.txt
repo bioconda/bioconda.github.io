@@ -8,6 +8,7 @@ circos-tools
 
 .. conda:recipe:: circos-tools
    :replaces_section_title:
+   :noindex:
 
    circos\-tools provides several utility add\-on scripts\, such as for bundling links
 
@@ -22,10 +23,17 @@ circos-tools
 
    |downloads_circos-tools| |docker_circos-tools|
 
-   :versions: 0.23-2, 0.23-1, 0.23-0
+   :versions:
+      
+      
+
+      ``0.23-2``,  ``0.23-1``,  ``0.23-0``
+
+      
+
    
    :depends perl: 
-   :depends perl-bioperl: >=1.7
+   :depends perl-bioperl: ``>=1.7``
    :depends perl-carp: 
    :depends perl-config-general: 
    :depends perl-data-dumper: 

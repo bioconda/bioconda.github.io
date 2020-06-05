@@ -8,6 +8,7 @@ perl-extutils-makemaker
 
 .. conda:recipe:: perl-extutils-makemaker
    :replaces_section_title:
+   :noindex:
 
    Create a module Makefile
 
@@ -22,9 +23,24 @@ perl-extutils-makemaker
 
    |downloads_perl-extutils-makemaker| |docker_perl-extutils-makemaker|
 
-   :versions: 7.36-1, 7.36-0, 7.34-3, 7.34-2, 7.34-1, 7.34-0, 7.24-3, 7.24-1, 7.24-0, 6.66-2, 6.66-1, 6.66-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>7.36-1</code>,  <code>7.36-0</code>,  <code>7.34-3</code>,  <code>7.34-2</code>,  <code>7.34-1</code>,  <code>7.34-0</code>,  <code>7.24-3</code>,  <code>7.24-1</code>,  <code>7.24-0</code>,  </span></summary>
+      
+
+      ``7.36-1``,  ``7.36-0``,  ``7.34-3``,  ``7.34-2``,  ``7.34-1``,  ``7.34-0``,  ``7.24-3``,  ``7.24-1``,  ``7.24-0``,  ``6.66-2``,  ``6.66-1``,  ``6.66-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

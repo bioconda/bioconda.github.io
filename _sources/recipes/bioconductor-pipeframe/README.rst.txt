@@ -8,6 +8,7 @@ bioconductor-pipeframe
 
 .. conda:recipe:: bioconductor-pipeframe
    :replaces_section_title:
+   :noindex:
 
    Pipeline framework for bioinformatics in R
 
@@ -22,12 +23,19 @@ bioconductor-pipeframe
 
    |downloads_bioconductor-pipeframe| |docker_bioconductor-pipeframe|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-digest: 
    :depends r-magrittr: 
    :depends r-visnetwork: 

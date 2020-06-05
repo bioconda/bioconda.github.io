@@ -8,6 +8,7 @@ colombo
 
 .. conda:recipe:: colombo
    :replaces_section_title:
+   :noindex:
 
    A software framework equipped with a GUI for the prediction of genomic islands \(GIs\) in prokaryotes.
 
@@ -35,7 +36,14 @@ colombo
 
    |downloads_colombo| |docker_colombo|
 
-   :versions: 4.0-0, 3.8-0, v4.0-1, v4.0-0, v3.8-0
+   :versions:
+      
+      
+
+      ``4.0-0``,  ``3.8-0``,  ``v4.0-1``,  ``v4.0-0``,  ``v3.8-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

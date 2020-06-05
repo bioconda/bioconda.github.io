@@ -8,6 +8,7 @@ bioconductor-plier
 
 .. conda:recipe:: bioconductor-plier
    :replaces_section_title:
+   :noindex:
 
    Implements the Affymetrix PLIER algorithm
 
@@ -23,15 +24,22 @@ bioconductor-plier
 
    |downloads_bioconductor-plier| |docker_bioconductor-plier|
 
-   :versions: 1.58.0-0, 1.56.0-0, 1.54.0-1, 1.52.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   :versions:
+      
+      
+
+      ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

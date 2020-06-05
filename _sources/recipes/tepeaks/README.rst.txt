@@ -8,6 +8,7 @@ tepeaks
 
 .. conda:recipe:: tepeaks
    :replaces_section_title:
+   :noindex:
 
    Package for including repetitive regions in peak calling from ChIP\-seq datasets.
 
@@ -22,13 +23,20 @@ tepeaks
 
    |downloads_tepeaks| |docker_tepeaks|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends ncurses: >=6.1,<6.2.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends ncurses: ``>=6.1,<6.2.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

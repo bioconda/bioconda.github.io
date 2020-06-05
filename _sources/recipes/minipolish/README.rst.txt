@@ -8,6 +8,7 @@ minipolish
 
 .. conda:recipe:: minipolish
    :replaces_section_title:
+   :noindex:
 
    A tool for Racon polishing of miniasm assemblies
 
@@ -22,10 +23,17 @@ minipolish
 
    |downloads_minipolish| |docker_minipolish|
 
-   :versions: 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``
+
+      
+
    
    :depends minimap2: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends python-edlib: 
    :depends racon: 
    :requirements:

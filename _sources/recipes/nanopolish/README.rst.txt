@@ -8,6 +8,7 @@ nanopolish
 
 .. conda:recipe:: nanopolish
    :replaces_section_title:
+   :noindex:
 
    Signal\-level algorithms for MinION data.
 
@@ -22,23 +23,38 @@ nanopolish
 
    |downloads_nanopolish| |docker_nanopolish|
 
-   :versions: 0.13.2-0, 0.13.1-0, 0.13.0-0, 0.12.5-2, 0.12.5-1, 0.12.5-0, 0.12.4-0, 0.12.3-0, 0.12.2-0, 0.12.0-0, 0.11.3-0, 0.11.2-0, 0.11.1-0, 0.11.0-1, 0.11.0-0, 0.10.2-0, 0.10.1-0, 0.9.2-5, 0.9.2-4, 0.9.2-0, 0.9.0-2, 0.9.0-1, 0.9.0-0, 0.8.5-4, 0.8.5-3, 0.8.1-3, 0.7.1-3, 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.0-0, 0.6.0.dev-0, 0.4.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.5-2</code>,  <code>0.12.5-1</code>,  <code>0.12.5-0</code>,  <code>0.12.4-0</code>,  <code>0.12.3-0</code>,  <code>0.12.2-0</code>,  </span></summary>
+      
+
+      ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.5-2``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.0-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.9.2-5``,  ``0.9.2-4``,  ``0.9.2-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.5-4``,  ``0.8.5-3``,  ``0.8.1-3``,  ``0.7.1-3``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.6.0.dev-0``,  ``0.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends bwa: 
-   :depends bzip2: >=1.0.8,<2.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends eigen: 
-   :depends hdf5: 1.8.18
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libcurl: >=7.64.1,<8.0a0
+   :depends hdf5: ``1.8.18``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libcurl: ``>=7.64.1,<8.0a0``
    :depends libdeflate: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends minimap2: 
-   :depends ncurses: >=6.1,<6.2.0a0
+   :depends ncurses: ``>=6.1,<6.2.0a0``
    :depends openmp: 
    :depends python: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

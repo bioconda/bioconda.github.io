@@ -8,6 +8,7 @@ perl-devel-symdump
 
 .. conda:recipe:: perl-devel-symdump/2.18
    :replaces_section_title:
+   :noindex:
 
    dump symbol names or the symbol table
 
@@ -22,9 +23,16 @@ perl-devel-symdump
 
    |downloads_perl-devel-symdump| |docker_perl-devel-symdump|
 
-   :versions: 2.18-1, 2.18-0
+   :versions:
+      
+      
+
+      ``2.18-1``,  ``2.18-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

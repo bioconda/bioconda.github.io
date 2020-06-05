@@ -8,6 +8,7 @@ bioconductor-struct
 
 .. conda:recipe:: bioconductor-struct
    :replaces_section_title:
+   :noindex:
 
    Statistics in R Using Class\-based Templates
 
@@ -22,11 +23,18 @@ bioconductor-struct
 
    |downloads_bioconductor-struct| |docker_bioconductor-struct|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
    :depends r-ontologyindex: 
    :requirements:

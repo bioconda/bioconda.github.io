@@ -8,6 +8,7 @@ perl-lockfile-simple
 
 .. conda:recipe:: perl-lockfile-simple
    :replaces_section_title:
+   :noindex:
 
    simple file locking scheme
 
@@ -22,7 +23,14 @@ perl-lockfile-simple
 
    |downloads_perl-lockfile-simple| |docker_perl-lockfile-simple|
 
-   :versions: 0.208-0
+   :versions:
+      
+      
+
+      ``0.208-0``
+
+      
+
    
    :requirements:
 

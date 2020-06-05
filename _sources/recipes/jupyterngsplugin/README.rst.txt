@@ -8,6 +8,7 @@ jupyterngsplugin
 
 .. conda:recipe:: jupyterngsplugin
    :replaces_section_title:
+   :noindex:
 
    Jupyter notebook plugin Bioinformatics NGS data analysis
 
@@ -22,7 +23,14 @@ jupyterngsplugin
 
    |downloads_jupyterngsplugin| |docker_jupyterngsplugin|
 
-   :versions: 0.0.13a3-0, 0.0.11a3-0, 0.0.10a3-0
+   :versions:
+      
+      
+
+      ``0.0.13a3-0``,  ``0.0.11a3-0``,  ``0.0.10a3-0``
+
+      
+
    
    :depends biopython: 
    :depends jupyter: 

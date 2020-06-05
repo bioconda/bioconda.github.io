@@ -8,6 +8,7 @@ r-orqa
 
 .. conda:recipe:: r-orqa
    :replaces_section_title:
+   :noindex:
 
    Assess repeatability\, accuracy and corss\-platform agreement of titration microarray data based on order restricted inference procedures
 
@@ -22,15 +23,22 @@ r-orqa
 
    |downloads_r-orqa| |docker_r-orqa|
 
-   :versions: 0.2.1-4, 0.2.1-3, 0.2.1-2, 0.2.1-1, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+
+      
+
    
-   :depends bioconductor-genefilter: >=1.24.3
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-gtools: >=2.6.1
-   :depends r-nlme: >=3.1_96
-   :depends r-rcpp: >=0.8.9
+   :depends bioconductor-genefilter: ``>=1.24.3``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-gtools: ``>=2.6.1``
+   :depends r-nlme: ``>=3.1_96``
+   :depends r-rcpp: ``>=0.8.9``
    :requirements:
 
    .. rubric:: Installation

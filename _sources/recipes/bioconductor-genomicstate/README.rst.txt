@@ -8,6 +8,7 @@ bioconductor-genomicstate
 
 .. conda:recipe:: bioconductor-genomicstate
    :replaces_section_title:
+   :noindex:
 
    Build and access GenomicState objects for use with derfinder tools from sources like Gencode
 
@@ -22,19 +23,26 @@ bioconductor-genomicstate
 
    |downloads_bioconductor-genomicstate| |docker_bioconductor-genomicstate|
 
-   :versions: 0.99.9-0
+   :versions:
+      
+      
+
+      ``0.99.9-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-bumphunter: >=1.30.0,<1.31.0
-   :depends bioconductor-derfinder: >=1.22.0,<1.23.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-bumphunter: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-derfinder: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

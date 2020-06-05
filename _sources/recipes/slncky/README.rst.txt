@@ -8,6 +8,7 @@ slncky
 
 .. conda:recipe:: slncky
    :replaces_section_title:
+   :noindex:
 
    slncky is a tool for lncRNA discovery from RNA\-Seq data. slncky filters a high\-quality set of noncoding transcripts\, discovers lncRNA orthologs\, and characterizes conserved lncRNA evolution. slncky was developed as a collaboration between the Garber Lab at UMass Medical and the Regev Lab at the Broad Institute.
 
@@ -22,12 +23,19 @@ slncky
 
    |downloads_slncky| |docker_slncky|
 
-   :versions: 1.0.4-1, 1.0.4-0, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+
+      
+
    
-   :depends bedtools: >=2.17.0,<=2.24.0
+   :depends bedtools: ``>=2.17.0,<=2.24.0``
    :depends lastz: 
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends ucsc-liftover: 
    :requirements:
 

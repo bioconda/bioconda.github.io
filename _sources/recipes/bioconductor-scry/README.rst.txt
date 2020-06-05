@@ -8,6 +8,7 @@ bioconductor-scry
 
 .. conda:recipe:: bioconductor-scry
    :replaces_section_title:
+   :noindex:
 
    Small\-Count Analysis Methods for High\-Dimensional Data
 
@@ -22,11 +23,18 @@ bioconductor-scry
 
    |downloads_bioconductor-scry| |docker_bioconductor-scry|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-glmpca: 
    :depends r-matrix: 
    :requirements:

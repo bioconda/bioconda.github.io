@@ -8,6 +8,7 @@ seroba
 
 .. conda:recipe:: seroba
    :replaces_section_title:
+   :noindex:
 
    SeroBA is a k\-mer based Pipeline to identify the Serotype from Illumina NGS reads for given references.
 
@@ -25,19 +26,26 @@ seroba
 
    |downloads_seroba| |docker_seroba|
 
-   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends ariba: >=2.9.1
-   :depends biopython: >=1.68
+   :depends ariba: ``>=2.9.1``
+   :depends biopython: ``>=1.68``
    :depends bowtie2: 
    :depends cd-hit: 
-   :depends kmc: >=3.0
+   :depends kmc: ``>=3.0``
    :depends mummer: 
-   :depends pyfastaq: >=3.14.0
-   :depends pymummer: >=0.10.2
-   :depends pysam: >=0.15.3
-   :depends python: >=3
-   :depends pyyaml: >=3.12
+   :depends pyfastaq: ``>=3.14.0``
+   :depends pymummer: ``>=0.10.2``
+   :depends pysam: ``>=0.15.3``
+   :depends python: ``>=3``
+   :depends pyyaml: ``>=3.12``
    :depends setuptools: 
    :requirements:
 

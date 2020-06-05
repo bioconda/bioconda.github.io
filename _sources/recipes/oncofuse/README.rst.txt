@@ -8,6 +8,7 @@ oncofuse
 
 .. conda:recipe:: oncofuse
    :replaces_section_title:
+   :noindex:
 
    Predicting oncogenic potential of gene fusions
 
@@ -22,7 +23,14 @@ oncofuse
 
    |downloads_oncofuse| |docker_oncofuse|
 
-   :versions: 1.1.1-1, 1.1.1-0, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

@@ -8,6 +8,7 @@ r-tidygenomics
 
 .. conda:recipe:: r-tidygenomics
    :replaces_section_title:
+   :noindex:
 
    Handle genomic data within data frames just as you would with \'GRanges\'. This packages provides method to deal with genomic intervals the \"tidy\-way\" which makes it simpler to integrate in the the general data munging process. The API is inspired by the popular \'bedtools\' and the genome\_join\(\) method from the \'fuzzyjoin\' package.
 
@@ -22,14 +23,21 @@ r-tidygenomics
 
    |downloads_r-tidygenomics| |docker_r-tidygenomics|
 
-   :versions: 0.1.2-1, 0.1.2-0, 0.1.0-3, 0.1.0-2, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-0``
+
+      
+
    
    :depends bioconductor-iranges: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
-   :depends r-fuzzyjoin: >=0.1.3
+   :depends r-fuzzyjoin: ``>=0.1.3``
    :depends r-purrr: 
    :depends r-rcpp: 
    :depends r-rlang: 

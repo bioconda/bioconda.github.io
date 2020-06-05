@@ -8,6 +8,7 @@ fastq-pair
 
 .. conda:recipe:: fastq-pair
    :replaces_section_title:
+   :noindex:
 
    fastq\-pair\: efficient synchronization of paired\-end fastq files
 
@@ -23,10 +24,17 @@ fastq-pair
 
    |downloads_fastq-pair| |docker_fastq-pair|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

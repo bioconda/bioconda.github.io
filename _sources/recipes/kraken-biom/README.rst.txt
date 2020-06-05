@@ -8,6 +8,7 @@ kraken-biom
 
 .. conda:recipe:: kraken-biom
    :replaces_section_title:
+   :noindex:
 
    Create BIOM\-format tables from Kraken output.
 
@@ -22,9 +23,16 @@ kraken-biom
 
    |downloads_kraken-biom| |docker_kraken-biom|
 
-   :versions: 1.0.1-2, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-0``
+
+      
+
    
-   :depends biom-format: >=2.1.5
+   :depends biom-format: ``>=2.1.5``
    :depends python: 
    :requirements:
 

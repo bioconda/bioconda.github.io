@@ -8,6 +8,7 @@ cannoli
 
 .. conda:recipe:: cannoli
    :replaces_section_title:
+   :noindex:
 
    Distributed execution of bioinformatics tools on Apache Spark
 
@@ -22,9 +23,16 @@ cannoli
 
    |downloads_cannoli| |docker_cannoli|
 
-   :versions: 0.9.0-0, 0.8.0-0, 0.7.0-0, 0.6.0-1, 0.6.0-0, 0.2.0-1, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.2.0-1``,  ``0.2.0-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends pyspark: 
    :requirements:
 

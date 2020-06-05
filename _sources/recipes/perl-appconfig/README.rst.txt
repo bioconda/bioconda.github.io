@@ -8,6 +8,7 @@ perl-appconfig
 
 .. conda:recipe:: perl-appconfig
    :replaces_section_title:
+   :noindex:
 
    AppConfig is a bundle of Perl5 modules for reading configuration files and parsing command line arguments.
 
@@ -22,9 +23,16 @@ perl-appconfig
 
    |downloads_perl-appconfig| |docker_perl-appconfig|
 
-   :versions: 1.71-1, 1.71-0
+   :versions:
+      
+      
+
+      ``1.71-1``,  ``1.71-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

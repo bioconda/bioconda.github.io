@@ -8,6 +8,7 @@ bioconductor-icnv
 
 .. conda:recipe:: bioconductor-icnv
    :replaces_section_title:
+   :noindex:
 
    Integrated Copy Number Variation detection
 
@@ -22,10 +23,17 @@ bioconductor-icnv
 
    |downloads_bioconductor-icnv| |docker_bioconductor-icnv|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.1-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-codex: >=1.20.0,<1.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-codex: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-fields: 

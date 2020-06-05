@@ -8,6 +8,7 @@ kpal
 
 .. conda:recipe:: kpal
    :replaces_section_title:
+   :noindex:
 
    Analysis toolkit and programming library for k\-mer profiles
 
@@ -22,11 +23,18 @@ kpal
 
    |downloads_kpal| |docker_kpal|
 
-   :versions: 2.1.1-2, 2.1.1-1, 2.1.1-0
+   :versions:
+      
+      
+
+      ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``
+
+      
+
    
    :depends biopython: 
    :depends future: 
-   :depends h5py: >=2.1
+   :depends h5py: ``>=2.1``
    :depends python: 
    :depends semantic_version: 
    :requirements:

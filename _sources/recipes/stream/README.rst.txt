@@ -8,6 +8,7 @@ stream
 
 .. conda:recipe:: stream
    :replaces_section_title:
+   :noindex:
 
    STREAM Single\-cell Trajectories Reconstruction\, Exploration And Mapping of single\-cell data http\:\/\/stream.pinellolab.org
 
@@ -22,17 +23,32 @@ stream
 
    |downloads_stream| |docker_stream|
 
-   :versions: 1.0-0, 0.4.1-0, 0.4.0-0, 0.3.9-3, 0.3.9-2, 0.3.9-1, 0.3.9-0, 0.3.8-0, 0.3.7-1, 0.3.7-0, 0.3.6-1, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.9-3</code>,  <code>0.3.9-2</code>,  <code>0.3.9-1</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-1</code>,  </span></summary>
+      
+
+      ``1.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.9-3``,  ``0.3.9-2``,  ``0.3.9-1``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends anndata: 
    :depends gunicorn: 
-   :depends matplotlib-base: >=3.2
-   :depends networkx: 2.1.*
+   :depends matplotlib-base: ``>=3.2``
+   :depends networkx: ``2.1.*``
    :depends numpy: 
    :depends plotly: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends python-slugify: 
-   :depends r-base: 3.6.*
+   :depends r-base: ``3.6.*``
    :depends r-devtools: 
    :depends r-distutils: 
    :depends r-elpigraph.r: 
@@ -43,8 +59,8 @@ stream
    :depends r-rcpparmadillo: 
    :depends r-vgam: 
    :depends r-xml: 
-   :depends rpy2: 2.9.*
-   :depends scikit-learn: >=0.23
+   :depends rpy2: ``2.9.*``
+   :depends scikit-learn: ``>=0.23``
    :depends scipy: 
    :depends seaborn: 
    :depends shapely: 

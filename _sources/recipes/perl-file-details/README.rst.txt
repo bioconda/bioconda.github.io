@@ -8,6 +8,7 @@ perl-file-details
 
 .. conda:recipe:: perl-file-details
    :replaces_section_title:
+   :noindex:
 
    File details in an object\, stat\, hash\, etc..
 
@@ -22,9 +23,16 @@ perl-file-details
 
    |downloads_perl-file-details| |docker_perl-file-details|
 
-   :versions: 0.003-1, 0.003-0
+   :versions:
+      
+      
+
+      ``0.003-1``,  ``0.003-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-class-accessor: 
    :requirements:
 

@@ -8,6 +8,7 @@ kmer-jellyfish
 
 .. conda:recipe:: kmer-jellyfish
    :replaces_section_title:
+   :noindex:
 
    Jellyfish is a tool for fast\, memory\-efficient counting of k\-mers in DNA. A k\-mer is a substring of length k\, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
 
@@ -24,10 +25,17 @@ kmer-jellyfish
 
    |downloads_kmer-jellyfish| |docker_kmer-jellyfish|
 
-   :versions: 2.3.0-1, 2.3.0-0, 1.1.12-0
+   :versions:
+      
+      
+
+      ``2.3.0-1``,  ``2.3.0-0``,  ``1.1.12-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

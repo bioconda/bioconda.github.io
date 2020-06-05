@@ -8,6 +8,7 @@ perl-moosex-app-role-log4perl
 
 .. conda:recipe:: perl-moosex-app-role-log4perl
    :replaces_section_title:
+   :noindex:
 
    Add basic Log\:\:Log4perl logging to a MooseX\:\:App application as a role.
 
@@ -22,9 +23,16 @@ perl-moosex-app-role-log4perl
 
    |downloads_perl-moosex-app-role-log4perl| |docker_perl-moosex-app-role-log4perl|
 
-   :versions: 0.03-1, 0.03-0
+   :versions:
+      
+      
+
+      ``0.03-1``,  ``0.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-log-log4perl: 
    :depends perl-moosex-app: 
    :requirements:

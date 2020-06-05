@@ -8,6 +8,7 @@ eagle
 
 .. conda:recipe:: eagle
    :replaces_section_title:
+   :noindex:
 
    Eagle is a webtool for genome variants and snp analysis
 
@@ -22,7 +23,14 @@ eagle
 
    |downloads_eagle| |docker_eagle|
 
-   :versions: 0.9.4.6-0, 0.9.3.3-3, 0.9.3.3-2, 0.9.3.3-0, 0.9.0-0
+   :versions:
+      
+      
+
+      ``0.9.4.6-0``,  ``0.9.3.3-3``,  ``0.9.3.3-2``,  ``0.9.3.3-0``,  ``0.9.0-0``
+
+      
+
    
    :depends cyvcf2: 
    :depends flask: 
@@ -30,7 +38,7 @@ eagle
    :depends numpy: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends scipy: 
    :depends sqt: 
    :requirements:

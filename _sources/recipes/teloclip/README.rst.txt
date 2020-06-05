@@ -8,6 +8,7 @@ teloclip
 
 .. conda:recipe:: teloclip
    :replaces_section_title:
+   :noindex:
 
    A tool for the recovery of unassembled telomeres from soft\-clipped read alignments.
 
@@ -22,9 +23,16 @@ teloclip
 
    |downloads_teloclip| |docker_teloclip|
 
-   :versions: 0.0.3-1, 0.0.3-0, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

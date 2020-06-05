@@ -8,6 +8,7 @@ perl-file-homedir
 
 .. conda:recipe:: perl-file-homedir
    :replaces_section_title:
+   :noindex:
 
    Find your home and other directories on any platform
 
@@ -22,9 +23,16 @@ perl-file-homedir
 
    |downloads_perl-file-homedir| |docker_perl-file-homedir|
 
-   :versions: 1.004-2, 1.00-2, 1.00-1, 1.00-0
+   :versions:
+      
+      
+
+      ``1.004-2``,  ``1.00-2``,  ``1.00-1``,  ``1.00-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-file-path: 
    :depends perl-file-temp: 

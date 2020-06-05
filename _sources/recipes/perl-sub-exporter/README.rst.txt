@@ -8,6 +8,7 @@ perl-sub-exporter
 
 .. conda:recipe:: perl-sub-exporter
    :replaces_section_title:
+   :noindex:
 
    a sophisticated exporter for custom\-built routines
 
@@ -22,9 +23,16 @@ perl-sub-exporter
 
    |downloads_perl-sub-exporter| |docker_perl-sub-exporter|
 
-   :versions: 0.987-2, 0.987-1, 0.987-0
+   :versions:
+      
+      
+
+      ``0.987-2``,  ``0.987-1``,  ``0.987-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-data-optlist: 
    :depends perl-params-util: 

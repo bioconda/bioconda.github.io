@@ -8,6 +8,7 @@ gotree
 
 .. conda:recipe:: gotree
    :replaces_section_title:
+   :noindex:
 
    gotree is a set of command line tools to manipulate phylogenetic trees
 
@@ -22,7 +23,14 @@ gotree
 
    |downloads_gotree| |docker_gotree|
 
-   :versions: 0.4.0-0, 0.2.10-1, 0.2.10-0
+   :versions:
+      
+      
+
+      ``0.4.0-0``,  ``0.2.10-1``,  ``0.2.10-0``
+
+      
+
    
    :requirements:
 

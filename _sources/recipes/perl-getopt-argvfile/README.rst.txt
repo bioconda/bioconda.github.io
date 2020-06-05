@@ -8,6 +8,7 @@ perl-getopt-argvfile
 
 .. conda:recipe:: perl-getopt-argvfile/1.11
    :replaces_section_title:
+   :noindex:
 
    interpolates script options from files into \@ARGV or another array
 
@@ -22,9 +23,16 @@ perl-getopt-argvfile
 
    |downloads_perl-getopt-argvfile| |docker_perl-getopt-argvfile|
 
-   :versions: 1.11-1, 1.11-0
+   :versions:
+      
+      
+
+      ``1.11-1``,  ``1.11-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-test-harness: 
    :depends perl-test-simple: 
    :depends perl-text-parsewords: 

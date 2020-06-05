@@ -8,6 +8,7 @@ tiddit
 
 .. conda:recipe:: tiddit
    :replaces_section_title:
+   :noindex:
 
    TIDDIT \- structural variant calling.
 
@@ -22,14 +23,29 @@ tiddit
 
    |downloads_tiddit| |docker_tiddit|
 
-   :versions: 2.12.0-0, 2.11.0-1, 2.11.0-0, 2.10.0-0, 2.8.1-2, 2.8.1-1, 2.8.1-0, 2.8.0-0, 2.7.1-1, 2.7.1-0, 2.6.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.1-2</code>,  <code>2.8.1-1</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.1-1</code>,  </span></summary>
+      
+
+      ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.8.1-2``,  ``2.8.1-1``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

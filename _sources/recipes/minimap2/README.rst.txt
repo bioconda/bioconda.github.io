@@ -8,6 +8,7 @@ minimap2
 
 .. conda:recipe:: minimap2
    :replaces_section_title:
+   :noindex:
 
    A versatile pairwise aligner for genomic and spliced nucleotide sequences.
 
@@ -22,11 +23,26 @@ minimap2
 
    |downloads_minimap2| |docker_minimap2|
 
-   :versions: 2.17-1, 2.17-0, 2.16-1, 2.16-0, 2.15-1, 2.15-0, 2.14-0, 2.13-0, 2.12-0, 2.11-0, 2.10-1, 2.9-1, 2.8-1, 2.8-0, 2.7-1, 2.7-0, 2.6.1-0, 2.6-0, 2.5-0, 2.4-0, 2.3-0, 2.1.1-0, 2.1.r311-0, 2.0.r191-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.16-1</code>,  <code>2.16-0</code>,  <code>2.15-1</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  <code>2.13-0</code>,  <code>2.12-0</code>,  </span></summary>
+      
+
+      ``2.17-1``,  ``2.17-0``,  ``2.16-1``,  ``2.16-0``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.13-0``,  ``2.12-0``,  ``2.11-0``,  ``2.10-1``,  ``2.9-1``,  ``2.8-1``,  ``2.8-0``,  ``2.7-1``,  ``2.7-0``,  ``2.6.1-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.1.1-0``,  ``2.1.r311-0``,  ``2.0.r191-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

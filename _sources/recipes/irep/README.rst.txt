@@ -8,6 +8,7 @@ irep
 
 .. conda:recipe:: irep
    :replaces_section_title:
+   :noindex:
 
    calculate iRep replication rates from metagenome sequencing
 
@@ -22,7 +23,14 @@ irep
 
    |downloads_irep| |docker_irep|
 
-   :versions: 1.1.7-1, 1.1.7-0
+   :versions:
+      
+      
+
+      ``1.1.7-1``,  ``1.1.7-0``
+
+      
+
    
    :depends lmfit: 
    :depends matplotlib: 

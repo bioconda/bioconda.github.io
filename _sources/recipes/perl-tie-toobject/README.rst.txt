@@ -8,6 +8,7 @@ perl-tie-toobject
 
 .. conda:recipe:: perl-tie-toobject/0.03
    :replaces_section_title:
+   :noindex:
 
    Tie to an existing object.
 
@@ -22,9 +23,16 @@ perl-tie-toobject
 
    |downloads_perl-tie-toobject| |docker_perl-tie-toobject|
 
-   :versions: 0.03-2, 0.03-1, 0.03-0
+   :versions:
+      
+      
+
+      ``0.03-2``,  ``0.03-1``,  ``0.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-test-more: 
    :depends perl-tie-refhash: 
    :requirements:

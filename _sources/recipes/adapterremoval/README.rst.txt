@@ -8,6 +8,7 @@ adapterremoval
 
 .. conda:recipe:: adapterremoval
    :replaces_section_title:
+   :noindex:
 
    The AdapterRemoval v2 tool for merging and clipping reads.
 
@@ -22,12 +23,19 @@ adapterremoval
 
    |downloads_adapterremoval| |docker_adapterremoval|
 
-   :versions: 2.3.1-0, 2.3.0-0, 2.2.2-4, 2.2.2-3, 2.2.2-2
+   :versions:
+      
+      
+
+      ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

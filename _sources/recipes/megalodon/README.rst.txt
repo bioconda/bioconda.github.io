@@ -8,6 +8,7 @@ megalodon
 
 .. conda:recipe:: megalodon
    :replaces_section_title:
+   :noindex:
 
    Nanopore modified base and sequence variant detection.
 
@@ -24,17 +25,24 @@ megalodon
 
    |downloads_megalodon| |docker_megalodon|
 
-   :versions: 2.0.0-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``,  ``1.0.2-0``
+
+      
+
    
-   :depends h5py: >=2.2.1
-   :depends libgcc-ng: >=7.3.0
-   :depends mappy: >=2.16
-   :depends numpy: >=1.9.0
-   :depends ont-fast5-api: >=1.1
-   :depends pysam: >=0.15
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends scipy: >=1.1.0
+   :depends h5py: ``>=2.2.1``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends mappy: ``>=2.16``
+   :depends numpy: ``>=1.9.0``
+   :depends ont-fast5-api: ``>=1.1``
+   :depends pysam: ``>=0.15``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends scipy: ``>=1.1.0``
    :depends setuptools: 
    :depends tqdm: 
    :requirements:

@@ -8,6 +8,7 @@ perl-test-cpan-meta
 
 .. conda:recipe:: perl-test-cpan-meta
    :replaces_section_title:
+   :noindex:
 
    Validate your CPAN META.json files
 
@@ -22,9 +23,16 @@ perl-test-cpan-meta
 
    |downloads_perl-test-cpan-meta| |docker_perl-test-cpan-meta|
 
-   :versions: 0.25-2, 0.25-1, 0.25-0
+   :versions:
+      
+      
+
+      ``0.25-2``,  ``0.25-1``,  ``0.25-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

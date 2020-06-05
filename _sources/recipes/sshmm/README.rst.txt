@@ -8,6 +8,7 @@ sshmm
 
 .. conda:recipe:: sshmm
    :replaces_section_title:
+   :noindex:
 
    ssHMM is an RNA motif finder that recovers sequence\-structure motifs from RNA\-binding protein data\, such as CLIP\-Seq data.
 
@@ -22,18 +23,25 @@ sshmm
 
    |downloads_sshmm| |docker_sshmm|
 
-   :versions: 1.0.7-2, 1.0.7-1, 1.0.7-0
+   :versions:
+      
+      
+
+      ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``
+
+      
+
    
    :depends bedtools: 
    :depends forgi: 
    :depends ghmm: 
    :depends graphviz: 
-   :depends libgcc-ng: >=4.9
-   :depends libxml2: >=2.9.8,<2.10.0a0
-   :depends numpy: 1.11.*
+   :depends libgcc-ng: ``>=4.9``
+   :depends libxml2: ``>=2.9.8,<2.10.0a0``
+   :depends numpy: ``1.11.*``
    :depends pygraphviz: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends rnashapes: 2.1.6.*
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends rnashapes: ``2.1.6.*``
    :depends rnastructure: 
    :depends weblogo: 
    :requirements:

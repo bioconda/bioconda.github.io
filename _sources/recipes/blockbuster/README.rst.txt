@@ -8,6 +8,7 @@ blockbuster
 
 .. conda:recipe:: blockbuster
    :replaces_section_title:
+   :noindex:
 
    Blockbuster detects blocks of overlapping reads using a gaussian\-distribution approach.
 
@@ -22,9 +23,16 @@ blockbuster
 
    |downloads_blockbuster| |docker_blockbuster|
 
-   :versions: 0.0.1.1-2, 0.0.1.1-1
+   :versions:
+      
+      
+
+      ``0.0.1.1-2``,  ``0.0.1.1-1``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

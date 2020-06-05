@@ -8,6 +8,7 @@ bioconductor-arrayqualitymetrics
 
 .. conda:recipe:: bioconductor-arrayqualitymetrics
    :replaces_section_title:
+   :noindex:
 
    Quality metrics report for microarray data sets
 
@@ -23,17 +24,24 @@ bioconductor-arrayqualitymetrics
 
    |downloads_bioconductor-arrayqualitymetrics| |docker_bioconductor-arrayqualitymetrics|
 
-   :versions: 3.44.0-0, 3.42.0-0, 3.40.0-1, 3.38.0-0, 3.36.0-0, 3.34.0-0
+   :versions:
+      
+      
+
+      ``3.44.0-0``,  ``3.42.0-0``,  ``3.40.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-affyplm: >=1.64.0,<1.65.0
-   :depends bioconductor-beadarray: >=2.38.0,<2.39.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-vsn: >=3.56.0,<3.57.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-gridsvg: >=1.4-3
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-affyplm: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-beadarray: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-gridsvg: ``>=1.4-3``
    :depends r-hmisc: 
    :depends r-hwriter: 
    :depends r-lattice: 

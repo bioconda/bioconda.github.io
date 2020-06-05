@@ -8,6 +8,7 @@ libmuscle
 
 .. conda:recipe:: libmuscle
    :replaces_section_title:
+   :noindex:
 
    libMuscle header files.
 
@@ -22,9 +23,16 @@ libmuscle
 
    |downloads_libmuscle| |docker_libmuscle|
 
-   :versions: 3.7-1, 3.7-0
+   :versions:
+      
+      
+
+      ``3.7-1``,  ``3.7-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

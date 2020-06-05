@@ -8,6 +8,7 @@ bioconductor-stroma4
 
 .. conda:recipe:: bioconductor-stroma4
    :replaces_section_title:
+   :noindex:
 
    Assign Properties to TNBC Patients
 
@@ -22,11 +23,18 @@ bioconductor-stroma4
 
    |downloads_bioconductor-stroma4| |docker_bioconductor-stroma4|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.1-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-matrixstats: 
    :requirements:

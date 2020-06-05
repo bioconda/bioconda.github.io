@@ -8,6 +8,7 @@ remurna
 
 .. conda:recipe:: remurna
    :replaces_section_title:
+   :noindex:
 
    Measurement of Single\-Nucleotide Polymorphism\-induced Changes of RNA Conformation
 
@@ -22,7 +23,14 @@ remurna
 
    |downloads_remurna| |docker_remurna|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

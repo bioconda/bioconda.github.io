@@ -8,6 +8,7 @@ r-ngsplotdb-hg19
 
 .. conda:recipe:: r-ngsplot-hg19
    :replaces_section_title:
+   :noindex:
 
    HG19 genome database for NGSplot
 
@@ -22,9 +23,16 @@ r-ngsplotdb-hg19
 
    |downloads_r-ngsplotdb-hg19| |docker_r-ngsplotdb-hg19|
 
-   :versions: 3.00-5, 3.00-2, 3.00-1
+   :versions:
+      
+      
+
+      ``3.00-5``,  ``3.00-2``,  ``3.00-1``
+
+      
+
    
-   :depends python: <3.0a0
+   :depends python: ``<3.0a0``
    :depends r-base: 
    :depends r-ngsplot: 
    :depends wget: 

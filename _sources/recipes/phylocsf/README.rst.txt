@@ -8,6 +8,7 @@ phylocsf
 
 .. conda:recipe:: phylocsf
    :replaces_section_title:
+   :noindex:
 
    Phylogenetic analysis of multi\-species genome sequence alignments to identify conserved protein\-coding regions
 
@@ -23,12 +24,19 @@ phylocsf
 
    |downloads_phylocsf| |docker_phylocsf|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends ocaml: >=4.6.1,<5.0a0
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends ocaml: ``>=4.6.1,<5.0a0``
    :requirements:
 
    .. rubric:: Installation

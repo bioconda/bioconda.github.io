@@ -8,6 +8,7 @@ fiji
 
 .. conda:recipe:: fiji/20151222
    :replaces_section_title:
+   :noindex:
 
    Fiji is an image processing package—a \"batteries\-included\" distribution of ImageJ\, bundling a lot of plugins which facilitate scientific image analysis.
 
@@ -22,9 +23,24 @@ fiji
 
    |downloads_fiji| |docker_fiji|
 
-   :versions: 20170530-1, 20170530-0, 20151222-2, 20151222-1, 20151222-0, 20141125-6, 20141125-5, 20141125-4, 20141125-3, 20141125-2, 20141125-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>20170530-1</code>,  <code>20170530-0</code>,  <code>20151222-2</code>,  <code>20151222-1</code>,  <code>20151222-0</code>,  <code>20141125-6</code>,  <code>20141125-5</code>,  <code>20141125-4</code>,  <code>20141125-3</code>,  </span></summary>
+      
+
+      ``20170530-1``,  ``20170530-0``,  ``20151222-2``,  ``20151222-1``,  ``20151222-0``,  ``20141125-6``,  ``20141125-5``,  ``20141125-4``,  ``20141125-3``,  ``20141125-2``,  ``20141125-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8.0
+   :depends openjdk: ``>=8.0``
    :requirements:
 
    .. rubric:: Installation

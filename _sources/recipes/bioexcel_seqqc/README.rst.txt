@@ -8,6 +8,7 @@ bioexcel_seqqc
 
 .. conda:recipe:: bioexcel_seqqc
    :replaces_section_title:
+   :noindex:
 
    Sequence Quality Control pipeline\/modules
 
@@ -22,11 +23,18 @@ bioexcel_seqqc
 
    |downloads_bioexcel_seqqc| |docker_bioexcel_seqqc|
 
-   :versions: 0.6-0, 0.5-0
+   :versions:
+      
+      
+
+      ``0.6-0``,  ``0.5-0``
+
+      
+
    
    :depends cutadapt: 
    :depends fastqc: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyyaml: 
    :requirements:
 

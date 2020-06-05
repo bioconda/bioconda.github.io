@@ -8,6 +8,7 @@ maxquant
 
 .. conda:recipe:: maxquant
    :replaces_section_title:
+   :noindex:
 
    MaxQuant is a quantitative proteomics software package designed for analyzing large mass\-spectrometric data sets. License restricted.
 
@@ -23,9 +24,16 @@ maxquant
 
    |downloads_maxquant| |docker_maxquant|
 
-   :versions: 1.6.10.43-0, 1.6.3.4-1, 1.6.3.4-0, 1.6.2.10-0
+   :versions:
+      
+      
+
+      ``1.6.10.43-0``,  ``1.6.3.4-1``,  ``1.6.3.4-0``,  ``1.6.2.10-0``
+
+      
+
    
-   :depends mono: >=5.4.1
+   :depends mono: ``>=5.4.1``
    :requirements:
 
    .. rubric:: Installation

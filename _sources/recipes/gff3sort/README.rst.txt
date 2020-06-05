@@ -8,6 +8,7 @@ gff3sort
 
 .. conda:recipe:: gff3sort
    :replaces_section_title:
+   :noindex:
 
    A Perl Script to sort gff3 files and produce suitable results for tabix tools
 
@@ -22,7 +23,14 @@ gff3sort
 
    |downloads_gff3sort| |docker_gff3sort|
 
-   :versions: 0.1.a1a2bc9-1, 0.1.a1a2bc9-0
+   :versions:
+      
+      
+
+      ``0.1.a1a2bc9-1``,  ``0.1.a1a2bc9-0``
+
+      
+
    
    :depends perl: 
    :depends perl-data-match: 

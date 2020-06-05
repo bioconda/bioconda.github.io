@@ -8,6 +8,7 @@ bioconductor-rgmql
 
 .. conda:recipe:: bioconductor-rgmql
    :replaces_section_title:
+   :noindex:
 
    GenoMetric Query Language for R\/Bioconductor
 
@@ -22,14 +23,21 @@ bioconductor-rgmql
 
    |downloads_bioconductor-rgmql| |docker_bioconductor-rgmql|
 
-   :versions: 1.6.0-1, 1.4.1-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-1``,  ``1.4.1-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-rgmqllib: >=1.6.0,<1.7.0
-   :depends bioconductor-rtracklayer: >=1.46.0,<1.47.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-genomicranges: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-rgmqllib: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-rtracklayer: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-s4vectors: ``>=0.24.0,<0.25.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-glue: 

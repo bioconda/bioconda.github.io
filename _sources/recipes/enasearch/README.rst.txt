@@ -8,6 +8,7 @@ enasearch
 
 .. conda:recipe:: enasearch
    :replaces_section_title:
+   :noindex:
 
    A Python library for interacting with ENA\'s API
 
@@ -22,13 +23,28 @@ enasearch
 
    |downloads_enasearch| |docker_enasearch|
 
-   :versions: 0.2.2-2, 0.2.2-1, 0.2.2-0, 0.1.1-1, 0.1.1-0, 0.0.6-1, 0.0.6-0, 0.0.5-1, 0.0.5-0, 0.0.4-1, 0.0.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.1.1-1</code>,  <code>0.1.1-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  </span></summary>
+      
+
+      ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends click: 
    :depends dicttoxml: 
    :depends flake8: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends requests: 
    :depends xmltodict: 
    :requirements:

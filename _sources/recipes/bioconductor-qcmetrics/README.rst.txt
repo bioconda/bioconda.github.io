@@ -8,6 +8,7 @@ bioconductor-qcmetrics
 
 .. conda:recipe:: bioconductor-qcmetrics
    :replaces_section_title:
+   :noindex:
 
    A Framework for Quality Control
 
@@ -23,11 +24,18 @@ bioconductor-qcmetrics
 
    |downloads_bioconductor-qcmetrics| |docker_bioconductor-qcmetrics|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
    :depends r-nozzle.r1: 
    :depends r-pander: 

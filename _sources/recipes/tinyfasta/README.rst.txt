@@ -8,6 +8,7 @@ tinyfasta
 
 .. conda:recipe:: tinyfasta
    :replaces_section_title:
+   :noindex:
 
    Tiny Python package\, with no external dependencies\, for parsing FASTA sequence files.
 
@@ -22,7 +23,14 @@ tinyfasta
 
    |downloads_tinyfasta| |docker_tinyfasta|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

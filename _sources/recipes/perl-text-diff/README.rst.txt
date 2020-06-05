@@ -8,6 +8,7 @@ perl-text-diff
 
 .. conda:recipe:: perl-text-diff
    :replaces_section_title:
+   :noindex:
 
    Perform diffs on files and record sets
 
@@ -22,9 +23,16 @@ perl-text-diff
 
    |downloads_perl-text-diff| |docker_perl-text-diff|
 
-   :versions: 1.45-0, 1.44-2, 1.44-1, 1.44-0
+   :versions:
+      
+      
+
+      ``1.45-0``,  ``1.44-2``,  ``1.44-1``,  ``1.44-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-algorithm-diff: 
    :requirements:
 

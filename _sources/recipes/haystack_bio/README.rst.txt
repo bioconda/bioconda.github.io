@@ -8,6 +8,7 @@ haystack_bio
 
 .. conda:recipe:: haystack_bio
    :replaces_section_title:
+   :noindex:
 
    Epigenetic Variability and Transcription Factor Motifs Analysis Pipeline
 
@@ -22,14 +23,29 @@ haystack_bio
 
    |downloads_haystack_bio| |docker_haystack_bio|
 
-   :versions: 0.5.5-0, 0.5.4-1, 0.5.3-1, 0.5.3-0, 0.5.2-8, 0.5.2-7, 0.5.2-6, 0.5.2-5, 0.5.2-4, 0.5.2-3, 0.5.2-2, 0.5.2-1, 0.5.2-0, v0.5.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.5.5-0</code>,  <code>0.5.4-1</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-8</code>,  <code>0.5.2-7</code>,  <code>0.5.2-6</code>,  <code>0.5.2-5</code>,  <code>0.5.2-4</code>,  </span></summary>
+      
+
+      ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-8``,  ``0.5.2-7``,  ``0.5.2-6``,  ``0.5.2-5``,  ``0.5.2-4``,  ``0.5.2-3``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``v0.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedtools: 
    :depends bx-python: 
    :depends jinja2: 
    :depends matplotlib: 
-   :depends meme: 4.11.2.*
-   :depends numpy: 1.15.*
+   :depends meme: ``4.11.2.*``
+   :depends numpy: ``1.15.*``
    :depends openjdk: 
    :depends pandas: 
    :depends sambamba: 

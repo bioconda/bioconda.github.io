@@ -8,6 +8,7 @@ kipoi
 
 .. conda:recipe:: kipoi
    :replaces_section_title:
+   :noindex:
 
    Kipoi\: model zoo for genomics
 
@@ -25,26 +26,41 @@ kipoi
 
    |downloads_kipoi| |docker_kipoi|
 
-   :versions: 0.6.25-0, 0.6.24-1, 0.6.24-0, 0.6.17-0, 0.6.16-0, 0.6.14-0, 0.6.13-0, 0.6.12-0, 0.6.5-0, 0.6.3-0, 0.6.0-0, 0.5.7-0, 0.3.6-1, 0.3.6-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.6.25-0</code>,  <code>0.6.24-1</code>,  <code>0.6.24-0</code>,  <code>0.6.17-0</code>,  <code>0.6.16-0</code>,  <code>0.6.14-0</code>,  <code>0.6.13-0</code>,  <code>0.6.12-0</code>,  <code>0.6.5-0</code>,  </span></summary>
+      
+
+      ``0.6.25-0``,  ``0.6.24-1``,  ``0.6.24-0``,  ``0.6.17-0``,  ``0.6.16-0``,  ``0.6.14-0``,  ``0.6.13-0``,  ``0.6.12-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.3.6-1``,  ``0.3.6-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends attrs: >=17.4.0
+   :depends attrs: ``>=17.4.0``
    :depends colorlog: 
-   :depends cookiecutter: >=1.6.0
-   :depends deprecation: >=2.0.6
+   :depends cookiecutter: ``>=1.6.0``
+   :depends deprecation: ``>=2.0.6``
    :depends enum34: 
    :depends future: 
    :depends h5py: 
    :depends jinja2: 
-   :depends kipoi-conda: >=0.1.6
-   :depends kipoi-utils: >=0.1.12
+   :depends kipoi-conda: ``>=0.1.6``
+   :depends kipoi-utils: ``>=0.1.12``
    :depends numpy: 
-   :depends pandas: >=0.21.0
+   :depends pandas: ``>=0.21.0``
    :depends python: 
    :depends pyyaml: 
-   :depends related: >=0.6.0
+   :depends related: ``>=0.6.0``
    :depends tinydb: 
    :depends tqdm: 
-   :depends urllib3: >=1.21.1
+   :depends urllib3: ``>=1.21.1``
    :requirements:
 
    .. rubric:: Installation

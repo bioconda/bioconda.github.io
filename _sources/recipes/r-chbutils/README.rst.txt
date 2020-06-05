@@ -8,6 +8,7 @@ r-chbutils
 
 .. conda:recipe:: r-chbutils
    :replaces_section_title:
+   :noindex:
 
    Useful utility functions used at the Harvard Chan School Bioinformatics core
 
@@ -22,9 +23,16 @@ r-chbutils
 
    |downloads_r-chbutils| |docker_r-chbutils|
 
-   :versions: 0.1_2017_10_26-2, 0.1_2017_10_26-1, 0.1_2017_10_26-0, 0.1_2015_12_21-0
+   :versions:
+      
+      
+
+      ``0.1_2017_10_26-2``,  ``0.1_2017_10_26-1``,  ``0.1_2017_10_26-0``,  ``0.1_2015_12_21-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mvtnorm: 
    :depends r-rcolorbrewer: 
    :requirements:

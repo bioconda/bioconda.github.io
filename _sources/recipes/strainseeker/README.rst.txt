@@ -8,6 +8,7 @@ strainseeker
 
 .. conda:recipe:: strainseeker
    :replaces_section_title:
+   :noindex:
 
    A bacterial identification program for fast identification of bacterial strains from raw sequencing reads
 
@@ -23,9 +24,16 @@ strainseeker
 
    |downloads_strainseeker| |docker_strainseeker|
 
-   :versions: 1.5.1-0
+   :versions:
+      
+      
+
+      ``1.5.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends perl: 
    :depends r-base: 
    :depends zlib: 

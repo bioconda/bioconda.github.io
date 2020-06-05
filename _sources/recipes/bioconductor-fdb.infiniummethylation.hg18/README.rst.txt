@@ -8,6 +8,7 @@ bioconductor-fdb.infiniummethylation.hg18
 
 .. conda:recipe:: bioconductor-fdb.infiniummethylation.hg18
    :replaces_section_title:
+   :noindex:
 
    Annotation package for Illumina Infinium DNA methylation probes
 
@@ -22,15 +23,22 @@ bioconductor-fdb.infiniummethylation.hg18
 
    |downloads_bioconductor-fdb.infiniummethylation.hg18| |docker_bioconductor-fdb.infiniummethylation.hg18|
 
-   :versions: 2.2.0-4, 2.2.0-3, 2.2.0-2, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: >=3.2.0,<3.3.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: ``>=3.2.0,<3.3.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ tb_variant_filter
 
 .. conda:recipe:: tb_variant_filter
    :replaces_section_title:
+   :noindex:
 
    VCF variant filter optimised for filter M. tuberculosis H37Rv variants
 
@@ -23,13 +24,20 @@ tb_variant_filter
 
    |downloads_tb_variant_filter| |docker_tb_variant_filter|
 
-   :versions: 0.2.0-1, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
+
+      
+
    
    :depends intervaltree: 
    :depends lxml: 
    :depends pandas: 
-   :depends py2neo: >=4.2.0
-   :depends python: >=3.7
+   :depends py2neo: ``>=4.2.0``
+   :depends python: ``>=3.7``
    :depends requests: 
    :depends vcfpy: 
    :requirements:

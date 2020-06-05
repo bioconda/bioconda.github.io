@@ -8,6 +8,7 @@ perl-statistics-distributions
 
 .. conda:recipe:: perl-statistics-distributions
    :replaces_section_title:
+   :noindex:
 
    Perl module for calculating critical values and upper probabilities of common statistical distributions
 
@@ -22,9 +23,16 @@ perl-statistics-distributions
 
    |downloads_perl-statistics-distributions| |docker_perl-statistics-distributions|
 
-   :versions: 1.02-1, 1.02-0
+   :versions:
+      
+      
+
+      ``1.02-1``,  ``1.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

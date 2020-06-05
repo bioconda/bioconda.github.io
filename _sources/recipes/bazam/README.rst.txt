@@ -8,6 +8,7 @@ bazam
 
 .. conda:recipe:: bazam
    :replaces_section_title:
+   :noindex:
 
    A tool to extract paired reads in FASTQ format from coordinate sorted BAM files
 
@@ -22,7 +23,14 @@ bazam
 
    |downloads_bazam| |docker_bazam|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

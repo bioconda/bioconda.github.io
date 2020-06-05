@@ -8,6 +8,7 @@ python-mailund-newick
 
 .. conda:recipe:: python-mailund-newick
    :replaces_section_title:
+   :noindex:
 
    Another python module to read and write the Newick format
 
@@ -22,9 +23,16 @@ python-mailund-newick
 
    |downloads_python-mailund-newick| |docker_python-mailund-newick|
 
-   :versions: 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-1``,  ``1.3-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-iggeneusage
 
 .. conda:recipe:: bioconductor-iggeneusage
    :replaces_section_title:
+   :noindex:
 
    Differential gene usage in immune repertoires
 
@@ -22,18 +23,25 @@ bioconductor-iggeneusage
 
    |downloads_bioconductor-iggeneusage| |docker_bioconductor-iggeneusage|
 
-   :versions: 1.2.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-rcpp: >=0.12.0
-   :depends r-reshape2: >=1.4.3
-   :depends r-rstan: >=2.19.2
-   :depends r-stanheaders: >2.18.1
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-rcpp: ``>=0.12.0``
+   :depends r-reshape2: ``>=1.4.3``
+   :depends r-rstan: ``>=2.19.2``
+   :depends r-stanheaders: ``>2.18.1``
    :requirements:
 
    .. rubric:: Installation

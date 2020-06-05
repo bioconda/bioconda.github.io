@@ -8,6 +8,7 @@ bioconductor-lionessr
 
 .. conda:recipe:: bioconductor-lionessr
    :replaces_section_title:
+   :noindex:
 
    Modeling networks for individual samples using LIONESS
 
@@ -22,11 +23,18 @@ bioconductor-lionessr
 
    |downloads_bioconductor-lionessr| |docker_bioconductor-lionessr|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

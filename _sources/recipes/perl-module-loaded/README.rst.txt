@@ -8,6 +8,7 @@ perl-module-loaded
 
 .. conda:recipe:: perl-module-loaded
    :replaces_section_title:
+   :noindex:
 
    Mark modules as loaded\/unloaded
 
@@ -22,9 +23,16 @@ perl-module-loaded
 
    |downloads_perl-module-loaded| |docker_perl-module-loaded|
 
-   :versions: 0.08-0
+   :versions:
+      
+      
+
+      ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

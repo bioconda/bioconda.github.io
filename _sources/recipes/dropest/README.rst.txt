@@ -8,6 +8,7 @@ dropest
 
 .. conda:recipe:: dropest
    :replaces_section_title:
+   :noindex:
 
    Pipeline for initial analysis of droplet\-based single\-cell RNA\-seq data
 
@@ -22,13 +23,20 @@ dropest
 
    |downloads_dropest| |docker_dropest|
 
-   :versions: 0.8.6-0, 0.8.5-1, 0.8.5-0
+   :versions:
+      
+      
+
+      ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``
+
+      
+
    
-   :depends boost: >=1.70.0,<1.70.1.0a0
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends boost: ``>=1.70.0,<1.70.1.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ks: 
@@ -39,7 +47,7 @@ dropest
    :depends r-rcppeigen: 
    :depends r-rcppprogress: 
    :depends r-rinside: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

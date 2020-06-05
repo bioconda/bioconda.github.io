@@ -8,6 +8,7 @@ besst
 
 .. conda:recipe:: besst
    :replaces_section_title:
+   :noindex:
 
    Scaffolder for genomic assemblies.
 
@@ -23,13 +24,20 @@ besst
 
    |downloads_besst| |docker_besst|
 
-   :versions: 2.2.8-3, 2.2.8-2, 2.2.8-0, 2.2.7-0, 2.2.3-0
+   :versions:
+      
+      
+
+      ``2.2.8-3``,  ``2.2.8-2``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.3-0``
+
+      
+
    
-   :depends mathstats: >=0.2.6
-   :depends networkx: >=1.9
-   :depends pysam: >=0.7
-   :depends python: <3
-   :depends scipy: >=0.9
+   :depends mathstats: ``>=0.2.6``
+   :depends networkx: ``>=1.9``
+   :depends pysam: ``>=0.7``
+   :depends python: ``<3``
+   :depends scipy: ``>=0.9``
    :requirements:
 
    .. rubric:: Installation

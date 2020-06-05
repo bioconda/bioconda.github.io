@@ -8,6 +8,7 @@ r-poppr
 
 .. conda:recipe:: r-poppr
    :replaces_section_title:
+   :noindex:
 
    An R package for genetic analysis of populations with mixed \(clonal\/sexual\) reproduction
 
@@ -22,13 +23,20 @@ r-poppr
 
    |downloads_r-poppr| |docker_r-poppr|
 
-   :versions: 2.8.5-1, 2.8.5-0, 2.8.4-0, 2.8.3-0, 2.8.2-0, 2.8.1-1, 2.8.1-0
+   :versions:
+      
+      
+
+      ``2.8.5-1``,  ``2.8.5-0``,  ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-1``,  ``2.8.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends r-ade4: 
    :depends r-adegenet: 
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-boot: 
    :depends r-cowplot: 
    :depends r-dplyr: 

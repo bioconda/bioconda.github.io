@@ -8,6 +8,7 @@
 
 .. conda:recipe:: 2pg_cartesian
    :replaces_section_title:
+   :noindex:
 
    2pg cartesian is a framework of optimization algorithms for protein structure prediction.
 
@@ -22,11 +23,18 @@
 
    |downloads_2pg_cartesian| |docker_2pg_cartesian|
 
-   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
    :depends gromacs: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

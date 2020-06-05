@@ -8,6 +8,7 @@ samsum
 
 .. conda:recipe:: samsum
    :replaces_section_title:
+   :noindex:
 
    A light\-weight python package for summarizing sequence coverage from SAM and BAM files
 
@@ -22,14 +23,21 @@ samsum
 
    |downloads_samsum| |docker_samsum|
 
-   :versions: 0.1.2-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``,  ``0.1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends numpy: >=1.14.6,<2.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pytest: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

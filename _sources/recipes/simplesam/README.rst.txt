@@ -8,6 +8,7 @@ simplesam
 
 .. conda:recipe:: simplesam
    :replaces_section_title:
+   :noindex:
 
    Simple pure Python SAM parser and objects for working with SAM records
 
@@ -25,7 +26,14 @@ simplesam
 
    |downloads_simplesam| |docker_simplesam|
 
-   :versions: 0.1.3.1-0
+   :versions:
+      
+      
+
+      ``0.1.3.1-0``
+
+      
+
    
    :depends pip: 
    :depends python: 

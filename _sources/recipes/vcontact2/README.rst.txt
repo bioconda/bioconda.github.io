@@ -8,6 +8,7 @@ vcontact2
 
 .. conda:recipe:: vcontact2
    :replaces_section_title:
+   :noindex:
 
    Viral Contig Automatic Clustering and Taxonomy
 
@@ -24,17 +25,24 @@ vcontact2
 
    |downloads_vcontact2| |docker_vcontact2|
 
-   :versions: 0.9.16-0, 0.9.15-0, 0.9.12-0
+   :versions:
+      
+      
+
+      ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.12-0``
+
+      
+
    
-   :depends biopython: >=1.68
-   :depends networkx: >=1.11
-   :depends pandas: >=0.21.0,<=0.25.3
-   :depends psutil: >=5.5.0
-   :depends pyparsing: >=2.4.2
-   :depends pytables: >=3.3.0
-   :depends python: >=3.7
-   :depends scikit-learn: >=0.18.1
-   :depends scipy: >=0.19.0
+   :depends biopython: ``>=1.68``
+   :depends networkx: ``>=1.11``
+   :depends pandas: ``>=0.21.0,<=0.25.3``
+   :depends psutil: ``>=5.5.0``
+   :depends pyparsing: ``>=2.4.2``
+   :depends pytables: ``>=3.3.0``
+   :depends python: ``>=3.7``
+   :depends scikit-learn: ``>=0.18.1``
+   :depends scipy: ``>=0.19.0``
    :requirements:
 
    .. rubric:: Installation

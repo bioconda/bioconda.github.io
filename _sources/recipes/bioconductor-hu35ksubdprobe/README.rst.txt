@@ -8,6 +8,7 @@ bioconductor-hu35ksubdprobe
 
 .. conda:recipe:: bioconductor-hu35ksubdprobe
    :replaces_section_title:
+   :noindex:
 
    Probe sequence data for microarrays of type hu35ksubd
 
@@ -22,11 +23,18 @@ bioconductor-hu35ksubdprobe
 
    |downloads_bioconductor-hu35ksubdprobe| |docker_bioconductor-hu35ksubdprobe|
 
-   :versions: 2.18.0-4, 2.18.0-3, 2.18.0-2, 2.18.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-4``,  ``2.18.0-3``,  ``2.18.0-2``,  ``2.18.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

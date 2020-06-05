@@ -8,15 +8,16 @@ srax
 
 .. conda:recipe:: srax
    :replaces_section_title:
+   :noindex:
 
    Systematic Resistome Analysis
 
    :homepage: https://github.com/lgpdevtools/sraX
    :documentation: https://github.com/lgpdevtools/sraX/blob/master/doc/sraX_user_manual.pdf
    
-   :license: GPL-3.0
+   :license: GPL-3.0-only
    :recipe: /`srax <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srax>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srax/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.3389/fmicb.2020.00052`
+   :links: doi: :doi:`10.3389/fmicb.2020.00052`
 
    
 
@@ -25,14 +26,21 @@ srax
 
    |downloads_srax| |docker_srax|
 
-   :versions: 1.5-0, 1.4-0
+   :versions:
+      
+      
+
+      ``1.5-0``,  ``1.4-0``
+
+      
+
    
-   :depends blast: >=2.9
-   :depends clustalo: >=1.2.4
-   :depends diamond: >=0.9.29
-   :depends mafft: >=7.455
+   :depends blast: ``>=2.9``
+   :depends clustalo: ``>=1.2.4``
+   :depends diamond: ``>=0.9.29``
+   :depends mafft: ``>=7.455``
    :depends muscle: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-env-path: 
    :depends perl-file-path: 
    :depends perl-file-slurp: 
@@ -48,7 +56,7 @@ srax
    :depends perl-parallel-forkmanager: 
    :depends perl-text-csv: 
    :depends unzip: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

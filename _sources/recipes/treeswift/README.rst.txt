@@ -8,6 +8,7 @@ treeswift
 
 .. conda:recipe:: treeswift
    :replaces_section_title:
+   :noindex:
 
    TreeSwift\: Fast tree module for Python 2 and 3
 
@@ -22,7 +23,14 @@ treeswift
 
    |downloads_treeswift| |docker_treeswift|
 
-   :versions: 1.1.14-0, 1.1.13-0, 1.1.12-0, 1.1.11-0, 1.1.10-0, 1.1.6-0, 1.1.5-0, 1.1.3-0, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

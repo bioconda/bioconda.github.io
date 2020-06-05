@@ -8,6 +8,7 @@ perl-socket6
 
 .. conda:recipe:: perl-socket6
    :replaces_section_title:
+   :noindex:
 
    IPv6 related part of the C socket.h defines and structure manipulators
 
@@ -22,9 +23,16 @@ perl-socket6
 
    |downloads_perl-socket6| |docker_perl-socket6|
 
-   :versions: 0.29-0, 0.25-1, 0.25-0
+   :versions:
+      
+      
+
+      ``0.29-0``,  ``0.25-1``,  ``0.25-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bpp-phyl
 
 .. conda:recipe:: bpp-phyl
    :replaces_section_title:
+   :noindex:
 
    Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 
@@ -22,10 +23,17 @@ bpp-phyl
 
    |downloads_bpp-phyl| |docker_bpp-phyl|
 
-   :versions: 2.4.1-0, 2.2.0-1, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
+
+      
+
    
    :depends bpp-seq: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

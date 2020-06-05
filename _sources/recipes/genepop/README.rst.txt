@@ -8,6 +8,7 @@ genepop
 
 .. conda:recipe:: genepop
    :replaces_section_title:
+   :noindex:
 
    The Genepop population genetics package.
 
@@ -22,7 +23,14 @@ genepop
 
    |downloads_genepop| |docker_genepop|
 
-   :versions: 4.6-0, 4.5.1-0
+   :versions:
+      
+      
+
+      ``4.6-0``,  ``4.5.1-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

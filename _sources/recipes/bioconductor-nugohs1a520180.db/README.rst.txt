@@ -8,6 +8,7 @@ bioconductor-nugohs1a520180.db
 
 .. conda:recipe:: bioconductor-nugohs1a520180.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix nugohs1a520180 annotation data \(chip nugohs1a520180\)
 
@@ -22,12 +23,19 @@ bioconductor-nugohs1a520180.db
 
    |downloads_bioconductor-nugohs1a520180.db| |docker_bioconductor-nugohs1a520180.db|
 
-   :versions: 3.4.0-4, 3.4.0-3, 3.4.0-2, 3.4.0-0
+   :versions:
+      
+      
+
+      ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

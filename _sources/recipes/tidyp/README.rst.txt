@@ -8,6 +8,7 @@ tidyp
 
 .. conda:recipe:: tidyp
    :replaces_section_title:
+   :noindex:
 
    Program for cleaning up and validating HTML
 
@@ -22,7 +23,14 @@ tidyp
 
    |downloads_tidyp| |docker_tidyp|
 
-   :versions: 1.04-1, 1.04-0
+   :versions:
+      
+      
+
+      ``1.04-1``,  ``1.04-0``
+
+      
+
    
    :requirements:
 

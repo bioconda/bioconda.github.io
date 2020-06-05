@@ -8,6 +8,7 @@ r-genomictools
 
 .. conda:recipe:: r-genomictools
    :replaces_section_title:
+   :noindex:
 
    A loose collection of tools for the analysis of expression and genotype data\, currently with the main focus on \(e\)QTL and MDR analysis.
 
@@ -22,17 +23,24 @@ r-genomictools
 
    |downloads_r-genomictools| |docker_r-genomictools|
 
-   :versions: 0.2.9.7-0
+   :versions:
+      
+      
+
+      ``0.2.9.7-0``
+
+      
+
    
    :depends bioconductor-snpstats: 
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
-   :depends r-data.table: >=1.9.6
-   :depends r-genomictools.filehandler: >=0.1.5.8
-   :depends r-gmwt: >=1.1
-   :depends r-rcpp: >=0.9.13
+   :depends r-data.table: ``>=1.9.6``
+   :depends r-genomictools.filehandler: ``>=0.1.5.8``
+   :depends r-gmwt: ``>=1.1``
+   :depends r-rcpp: ``>=0.9.13``
    :depends r-rcpparmadillo: 
    :depends r-stringr: 
    :requirements:

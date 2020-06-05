@@ -8,6 +8,7 @@ perl-class-accessor
 
 .. conda:recipe:: perl-class-accessor
    :replaces_section_title:
+   :noindex:
 
    Automated accessor generation
 
@@ -22,9 +23,16 @@ perl-class-accessor
 
    |downloads_perl-class-accessor| |docker_perl-class-accessor|
 
-   :versions: 0.51-0, 0.34-1, 0.34-0
+   :versions:
+      
+      
+
+      ``0.51-0``,  ``0.34-1``,  ``0.34-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

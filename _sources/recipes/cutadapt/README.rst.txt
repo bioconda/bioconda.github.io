@@ -8,6 +8,7 @@ cutadapt
 
 .. conda:recipe:: cutadapt
    :replaces_section_title:
+   :noindex:
 
    Trim adapters from high\-throughput sequencing reads
 
@@ -23,14 +24,29 @@ cutadapt
 
    |downloads_cutadapt| |docker_cutadapt|
 
-   :versions: 2.10-0, 2.9-0, 2.8-0, 2.7-0, 2.6-0, 2.5-0, 2.4-0, 2.3-0, 2.2-0, 2.1-0, 2.0-0, 1.18-1, 1.18-0, 1.17-0, 1.16-2, 1.16-1, 1.16-0, 1.15-0, 1.14-0, 1.13-0, 1.12-1, 1.12-0, 1.11-0, 1.10-0, 1.9.1-0, 1.8.3-0, 1.8.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.10-0</code>,  <code>2.9-0</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  <code>2.6-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-0</code>,  <code>2.2-0</code>,  </span></summary>
+      
+
+      ``2.10-0``,  ``2.9-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.18-1``,  ``1.18-0``,  ``1.17-0``,  ``1.16-2``,  ``1.16-1``,  ``1.16-0``,  ``1.15-0``,  ``1.14-0``,  ``1.13-0``,  ``1.12-1``,  ``1.12-0``,  ``1.11-0``,  ``1.10-0``,  ``1.9.1-0``,  ``1.8.3-0``,  ``1.8.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends dnaio: >=0.4.2
-   :depends libgcc-ng: >=7.3.0
+   :depends dnaio: ``>=0.4.2``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends pigz: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends xopen: >=0.8.4
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends xopen: ``>=0.8.4``
    :requirements:
 
    .. rubric:: Installation

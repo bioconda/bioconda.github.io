@@ -8,6 +8,7 @@ gff3toembl
 
 .. conda:recipe:: gff3toembl
    :replaces_section_title:
+   :noindex:
 
    Submitting annotated genomes to EMBL is a very difficult and time consuming process. This software converts GFF3 files from the most commonly use prokaryote annotation tool Prokka into a format that is suitable for submission to EMBL. It has been used to prepare more than 30\% of all annotated genomes in EMBL\/GenBank.
 
@@ -22,7 +23,14 @@ gff3toembl
 
    |downloads_gff3toembl| |docker_gff3toembl|
 
-   :versions: 1.1.4-1, 1.1.4-0
+   :versions:
+      
+      
+
+      ``1.1.4-1``,  ``1.1.4-0``
+
+      
+
    
    :depends genometools-genometools: 
    :depends python: 

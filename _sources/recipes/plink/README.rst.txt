@@ -8,6 +8,7 @@ plink
 
 .. conda:recipe:: plink
    :replaces_section_title:
+   :noindex:
 
    Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
 
@@ -22,13 +23,20 @@ plink
 
    |downloads_plink| |docker_plink|
 
-   :versions: 1.90b6.12-1, 1.90b6.12-0, 1.90b5-1, 1.90b5-0, 1.90b4-3, 1.90b4-2, 1.90b4-1, 1.90b4-0
+   :versions:
+      
+      
+
+      ``1.90b6.12-1``,  ``1.90b6.12-0``,  ``1.90b5-1``,  ``1.90b5-0``,  ``1.90b4-3``,  ``1.90b4-2``,  ``1.90b4-1``,  ``1.90b4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends openblas: >=0.3.6,<0.3.7.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ workspace
 
 .. conda:recipe:: workspace
    :replaces_section_title:
+   :noindex:
 
    Workspace Overmind
 
@@ -22,10 +23,17 @@ workspace
 
    |downloads_workspace| |docker_workspace|
 
-   :versions: 0.3.1-2, 0.3.1-1, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
-   :depends sprinkles: >=0.4.4
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends sprinkles: ``>=0.4.4``
    :requirements:
 
    .. rubric:: Installation

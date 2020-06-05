@@ -8,6 +8,7 @@ pmdtools
 
 .. conda:recipe:: pmdtools
    :replaces_section_title:
+   :noindex:
 
    Compute postmortem damage patterns and decontaminate ancient genomes
 
@@ -23,7 +24,14 @@ pmdtools
 
    |downloads_pmdtools| |docker_pmdtools|
 
-   :versions: 0.60-1
+   :versions:
+      
+      
+
+      ``0.60-1``
+
+      
+
    
    :depends python: 
    :depends r-base: 

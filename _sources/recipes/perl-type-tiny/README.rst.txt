@@ -8,6 +8,7 @@ perl-type-tiny
 
 .. conda:recipe:: perl-type-tiny
    :replaces_section_title:
+   :noindex:
 
    tiny\, yet Moo\(se\)\-compatible type constraint
 
@@ -22,10 +23,17 @@ perl-type-tiny
 
    |downloads_perl-type-tiny| |docker_perl-type-tiny|
 
-   :versions: 1.004004-0, 1.004003-0, 1.004002-0, 1.002002-0, 1.000005-1, 1.000005-0
+   :versions:
+      
+      
+
+      ``1.004004-0``,  ``1.004003-0``,  ``1.004002-0``,  ``1.002002-0``,  ``1.000005-1``,  ``1.000005-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-exporter-tiny: >=0.040
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-exporter-tiny: ``>=0.040``
    :requirements:
 
    .. rubric:: Installation

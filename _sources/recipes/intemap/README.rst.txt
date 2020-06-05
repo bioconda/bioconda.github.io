@@ -8,6 +8,7 @@ intemap
 
 .. conda:recipe:: intemap
    :replaces_section_title:
+   :noindex:
 
    Integrated metagenomic assembly pipeline for short reads
 
@@ -22,7 +23,14 @@ intemap
 
    |downloads_intemap| |docker_intemap|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends abyss: 
    :depends bowtie2: 
@@ -30,7 +38,7 @@ intemap
    :depends jellyfish: 
    :depends libgcc: 
    :depends mummer: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends quake: 
    :depends wgs-assembler: 
    :requirements:

@@ -8,6 +8,7 @@ stellar
 
 .. conda:recipe:: stellar
    :replaces_section_title:
+   :noindex:
 
    STELLAR is a tool for finding pairwise local alignments between long genomic or very many short sequences.
 
@@ -22,7 +23,14 @@ stellar
 
    |downloads_stellar| |docker_stellar|
 
-   :versions: 1.4.9-2, 1.4.9-1, 1.4.9-0
+   :versions:
+      
+      
+
+      ``1.4.9-2``,  ``1.4.9-1``,  ``1.4.9-0``
+
+      
+
    
    :requirements:
 

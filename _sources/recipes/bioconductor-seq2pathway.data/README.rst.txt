@@ -8,6 +8,7 @@ bioconductor-seq2pathway.data
 
 .. conda:recipe:: bioconductor-seq2pathway.data
    :replaces_section_title:
+   :noindex:
 
    data set for R package seq2pathway
 
@@ -22,10 +23,17 @@ bioconductor-seq2pathway.data
 
    |downloads_bioconductor-seq2pathway.data| |docker_bioconductor-seq2pathway.data|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-2, 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

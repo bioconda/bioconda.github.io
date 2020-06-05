@@ -8,6 +8,7 @@ hops
 
 .. conda:recipe:: hops
    :replaces_section_title:
+   :noindex:
 
    Java tool to work with ancient metagenomics
 
@@ -22,12 +23,19 @@ hops
 
    |downloads_hops| |docker_hops|
 
-   :versions: 0.34-0, 0.33-2, 0.33-1, 0.33-0, 0.31-1, 0.31-0
+   :versions:
+      
+      
+
+      ``0.34-0``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.31-1``,  ``0.31-0``
+
+      
+
    
    :depends malt: 
-   :depends openjdk: 8.0.144.*
+   :depends openjdk: ``8.0.144.*``
    :depends python: 
-   :depends r-base: >=3.5
+   :depends r-base: ``>=3.5``
    :depends r-doparallel: 
    :depends r-getopt: 
    :depends r-gridbase: 

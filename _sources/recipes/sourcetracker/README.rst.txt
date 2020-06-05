@@ -8,6 +8,7 @@ sourcetracker
 
 .. conda:recipe:: sourcetracker
    :replaces_section_title:
+   :noindex:
 
    Python implementation of the SourceTracker R package.
 
@@ -25,9 +26,16 @@ sourcetracker
 
    |downloads_sourcetracker| |docker_sourcetracker|
 
-   :versions: 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.0.1-0``
+
+      
+
    
-   :depends biom-format: >=2.1.5,<2.2.0
+   :depends biom-format: ``>=2.1.5,<2.2.0``
    :depends click: 
    :depends h5py: 
    :depends ipyparallel: 

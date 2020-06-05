@@ -8,6 +8,7 @@ cpinsim
 
 .. conda:recipe:: cpinsim
    :replaces_section_title:
+   :noindex:
 
    CPINSim is a package for the simulation of protein complex assembly with constrained
    protein interaction networks.
@@ -24,11 +25,18 @@ cpinsim
 
    |downloads_cpinsim| |docker_cpinsim|
 
-   :versions: 0.5.2-2, 0.5.2-1, 0.5.2-0
+   :versions:
+      
+      
+
+      ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``
+
+      
+
    
    :depends bitarray: 
    :depends networkx: 
-   :depends python: >3
+   :depends python: ``>3``
    :depends scipy: 
    :requirements:
 

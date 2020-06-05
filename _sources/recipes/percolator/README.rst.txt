@@ -8,6 +8,7 @@ percolator
 
 .. conda:recipe:: percolator
    :replaces_section_title:
+   :noindex:
 
    Semi\-supervised learning for peptide identification from shotgun proteomics datasets
 
@@ -23,15 +24,22 @@ percolator
 
    |downloads_percolator| |docker_percolator|
 
-   :versions: 3.4-1, 3.4-0, 3.1-4, 3.1-3, 3.1-2, 3.0-1, 3.0-0
+   :versions:
+      
+      
+
+      ``3.4-1``,  ``3.4-0``,  ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.0-1``,  ``3.0-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends sqlite: >=3.30.1,<4.0a0
-   :depends xerces-c: >=3.2.2,<3.2.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends sqlite: ``>=3.30.1,<4.0a0``
+   :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
    :depends xsd: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

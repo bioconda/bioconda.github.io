@@ -8,6 +8,7 @@ crisprbact
 
 .. conda:recipe:: crisprbact
    :replaces_section_title:
+   :noindex:
 
    Tools to design and analyse CRISPRi experiments
 
@@ -22,15 +23,30 @@ crisprbact
 
    |downloads_crisprbact| |docker_crisprbact|
 
-   :versions: 0.3.11-0, 0.3.10-0, 0.3.9-0, 0.3.8-0, 0.3.6-0, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  </span></summary>
+      
+
+      ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: >=1.75,<2.0
-   :depends click: >=7.0,<8.0
-   :depends numpy: >=1.17,<2.0
-   :depends pandas: >=0.25.3
+   :depends biopython: ``>=1.75,<2.0``
+   :depends click: ``>=7.0,<8.0``
+   :depends numpy: ``>=1.17,<2.0``
+   :depends pandas: ``>=0.25.3``
    :depends poetry: 
-   :depends python: >=3.7
-   :depends rope: >=0.16.0
+   :depends python: ``>=3.7``
+   :depends rope: ``>=0.16.0``
    :requirements:
 
    .. rubric:: Installation

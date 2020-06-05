@@ -8,6 +8,7 @@ perl-math-bezier
 
 .. conda:recipe:: perl-math-bezier
    :replaces_section_title:
+   :noindex:
 
    solution of Bezier Curves
 
@@ -22,9 +23,16 @@ perl-math-bezier
 
    |downloads_perl-math-bezier| |docker_perl-math-bezier|
 
-   :versions: 0.01-1, 0.01-0
+   :versions:
+      
+      
+
+      ``0.01-1``,  ``0.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

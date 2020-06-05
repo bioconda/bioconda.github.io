@@ -8,6 +8,7 @@ perl-dbd-mysql
 
 .. conda:recipe:: perl-dbd-mysql
    :replaces_section_title:
+   :noindex:
 
    A MySQL driver for the Perl5 Database Interface \(DBI\)
 
@@ -23,12 +24,19 @@ perl-dbd-mysql
 
    |downloads_perl-dbd-mysql| |docker_perl-dbd-mysql|
 
-   :versions: 4.046-1, 4.046-0, 4.033-3, 4.033-2, 4.033-1, 4.033-0
+   :versions:
+      
+      
+
+      ``4.046-1``,  ``4.046-0``,  ``4.033-3``,  ``4.033-2``,  ``4.033-1``,  ``4.033-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends mysql-connector-c: >=6.1.11,<6.1.12.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-dbi: 
    :requirements:
 

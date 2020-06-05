@@ -8,6 +8,7 @@ r-tigger
 
 .. conda:recipe:: r-tigger
    :replaces_section_title:
+   :noindex:
 
    Infers the V genotype of an individual from immunoglobulin \(Ig\) repertoire sequencing data \(AIRR\-Seq\, Rep\-Seq\). Includes detection of  any novel alleles. This information is then used to correct existing V  allele calls from among the sample sequences. Citations\: Gadala\-Maria\, et al \(2015\) \<doi\:10.1073\/pnas.1417683112\>.
 
@@ -22,20 +23,27 @@ r-tigger
 
    |downloads_r-tigger| |docker_r-tigger|
 
-   :versions: 0.4.0-2, 0.4.0-1, 0.4.0-0, 0.3.1-1, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``
+
+      
+
    
-   :depends r-alakazam: >=0.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-alakazam: ``>=0.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
-   :depends r-dplyr: >=0.8.1
+   :depends r-dplyr: ``>=0.8.1``
    :depends r-foreach: 
-   :depends r-ggplot2: >=3.1.1
+   :depends r-ggplot2: ``>=3.1.1``
    :depends r-gridextra: 
    :depends r-gtools: 
    :depends r-iterators: 
    :depends r-lazyeval: 
    :depends r-rlang: 
-   :depends r-shazam: >=0.2.0
+   :depends r-shazam: ``>=0.2.0``
    :depends r-stringi: 
    :depends r-tidyr: 
    :requirements:

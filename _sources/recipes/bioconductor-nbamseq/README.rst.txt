@@ -8,6 +8,7 @@ bioconductor-nbamseq
 
 .. conda:recipe:: bioconductor-nbamseq
    :replaces_section_title:
+   :noindex:
 
    Negative Binomial Additive Model for RNA\-Seq Data
 
@@ -22,15 +23,22 @@ bioconductor-nbamseq
 
    |downloads_bioconductor-nbamseq| |docker_bioconductor-nbamseq|
 
-   :versions: 1.4.1-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-mgcv: >=1.8-24
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-mgcv: ``>=1.8-24``
    :requirements:
 
    .. rubric:: Installation

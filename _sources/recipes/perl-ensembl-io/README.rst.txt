@@ -8,6 +8,7 @@ perl-ensembl-io
 
 .. conda:recipe:: perl-ensembl-io
    :replaces_section_title:
+   :noindex:
 
    The Ensembl Core Perl API and
 
@@ -22,7 +23,14 @@ perl-ensembl-io
 
    |downloads_perl-ensembl-io| |docker_perl-ensembl-io|
 
-   :versions: 98-0
+   :versions:
+      
+      
+
+      ``98-0``
+
+      
+
    
    :depends perl: 
    :depends perl-bio-bigfile: 

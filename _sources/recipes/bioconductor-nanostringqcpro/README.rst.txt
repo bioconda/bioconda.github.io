@@ -8,6 +8,7 @@ bioconductor-nanostringqcpro
 
 .. conda:recipe:: bioconductor-nanostringqcpro
    :replaces_section_title:
+   :noindex:
 
    Quality metrics and data processing methods for NanoString mRNA gene expression data
 
@@ -22,16 +23,23 @@ bioconductor-nanostringqcpro
 
    |downloads_bioconductor-nanostringqcpro| |docker_bioconductor-nanostringqcpro|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-knitr: >=1.12
-   :depends r-nmf: >=0.20.5
-   :depends r-png: >=0.1-7
-   :depends r-rcolorbrewer: >=1.0-5
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-knitr: ``>=1.12``
+   :depends r-nmf: ``>=0.20.5``
+   :depends r-png: ``>=0.1-7``
+   :depends r-rcolorbrewer: ``>=1.0-5``
    :requirements:
 
    .. rubric:: Installation

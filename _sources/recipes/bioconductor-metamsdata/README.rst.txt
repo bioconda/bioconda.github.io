@@ -8,6 +8,7 @@ bioconductor-metamsdata
 
 .. conda:recipe:: bioconductor-metamsdata
    :replaces_section_title:
+   :noindex:
 
    Example CDF data for the metaMS package
 
@@ -22,10 +23,17 @@ bioconductor-metamsdata
 
    |downloads_bioconductor-metamsdata| |docker_bioconductor-metamsdata|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

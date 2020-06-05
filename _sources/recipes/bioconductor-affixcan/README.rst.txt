@@ -8,6 +8,7 @@ bioconductor-affixcan
 
 .. conda:recipe:: bioconductor-affixcan
    :replaces_section_title:
+   :noindex:
 
    A Functional Approach To Impute Genetically Regulated Expression
 
@@ -22,12 +23,19 @@ bioconductor-affixcan
 
    |downloads_bioconductor-affixcan| |docker_bioconductor-affixcan|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-crayon: 
    :requirements:
 

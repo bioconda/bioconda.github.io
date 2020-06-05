@@ -8,6 +8,7 @@ r-dpeak
 
 .. conda:recipe:: r-dpeak
    :replaces_section_title:
+   :noindex:
 
    This package provides functions for fitting dPeak\, a statistical framework to deconvolve ChIP\-seq peaks.
 
@@ -22,14 +23,21 @@ r-dpeak
 
    |downloads_r-dpeak| |docker_r-dpeak|
 
-   :versions: 2.0.1-3, 2.0.1-1, 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.0.1-3``,  ``2.0.1-1``,  ``2.0.1-0``
+
+      
+
    
    :depends bioconductor-bsgenome: 
    :depends bioconductor-iranges: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :depends r-rcpp: 
    :requirements:

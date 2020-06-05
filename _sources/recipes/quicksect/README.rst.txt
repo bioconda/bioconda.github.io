@@ -8,6 +8,7 @@ quicksect
 
 .. conda:recipe:: quicksect
    :replaces_section_title:
+   :noindex:
 
    A cythonized\, extended version of the interval search tree in bx
 
@@ -22,11 +23,18 @@ quicksect
 
    |downloads_quicksect| |docker_quicksect|
 
-   :versions: 0.2.2-2, 0.2.2-1, 0.2.2-0, 0.2.0-2, 0.2.0-1, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

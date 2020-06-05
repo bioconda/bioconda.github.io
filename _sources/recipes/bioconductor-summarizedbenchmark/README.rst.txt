@@ -8,6 +8,7 @@ bioconductor-summarizedbenchmark
 
 .. conda:recipe:: bioconductor-summarizedbenchmark
    :replaces_section_title:
+   :noindex:
 
    Classes and methods for performing benchmark comparisons
 
@@ -22,13 +23,20 @@ bioconductor-summarizedbenchmark
 
    |downloads_bioconductor-summarizedbenchmark| |docker_bioconductor-summarizedbenchmark|
 
-   :versions: 2.6.0-0, 2.4.0-0, 2.2.2-0, 2.0.0-0
+   :versions:
+      
+      
+
+      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.2-0``,  ``2.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-crayon: 
    :depends r-digest: 
    :depends r-dplyr: 

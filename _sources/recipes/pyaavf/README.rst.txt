@@ -8,6 +8,7 @@ pyaavf
 
 .. conda:recipe:: pyaavf
    :replaces_section_title:
+   :noindex:
 
    An amino acid variant format parser for Python.
 
@@ -22,7 +23,14 @@ pyaavf
 
    |downloads_pyaavf| |docker_pyaavf|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

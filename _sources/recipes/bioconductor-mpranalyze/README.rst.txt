@@ -8,6 +8,7 @@ bioconductor-mpranalyze
 
 .. conda:recipe:: bioconductor-mpranalyze
    :replaces_section_title:
+   :noindex:
 
    Statistical Analysis of MPRA data
 
@@ -22,11 +23,18 @@ bioconductor-mpranalyze
 
    |downloads_bioconductor-mpranalyze| |docker_bioconductor-mpranalyze|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-progress: 
    :requirements:
 

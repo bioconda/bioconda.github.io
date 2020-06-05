@@ -8,6 +8,7 @@ bioconductor-pcagopromoter.mm.mm9
 
 .. conda:recipe:: bioconductor-pcagopromoter.mm.mm9
    :replaces_section_title:
+   :noindex:
 
    pcaGoPromoter.Mm.mm9 is a data package used by pcaGoPromoter
 
@@ -22,10 +23,17 @@ bioconductor-pcagopromoter.mm.mm9
 
    |downloads_bioconductor-pcagopromoter.mm.mm9| |docker_bioconductor-pcagopromoter.mm.mm9|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

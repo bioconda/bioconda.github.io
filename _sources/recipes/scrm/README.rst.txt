@@ -8,6 +8,7 @@ scrm
 
 .. conda:recipe:: scrm
    :replaces_section_title:
+   :noindex:
 
    A coalescent simulator for genome\-scale sequences
 
@@ -22,10 +23,17 @@ scrm
 
    |downloads_scrm| |docker_scrm|
 
-   :versions: 1.7.4-0, 1.7.3-1, 1.7.3-0, 1.7.2-1, 1.7.2-0, 1.7.1-0, 1.6.1-0
+   :versions:
+      
+      
+
+      ``1.7.4-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-clumsid
 
 .. conda:recipe:: bioconductor-clumsid
    :replaces_section_title:
+   :noindex:
 
    Clustering of MS2 Spectra for Metabolite Identification
 
@@ -22,14 +23,21 @@ bioconductor-clumsid
 
    |downloads_bioconductor-clumsid| |docker_bioconductor-clumsid|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-mzr: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbscan: 
    :depends r-ggally: 
    :depends r-ggplot2: 

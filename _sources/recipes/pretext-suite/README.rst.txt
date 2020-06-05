@@ -8,6 +8,7 @@ pretext-suite
 
 .. conda:recipe:: pretext-suite
    :replaces_section_title:
+   :noindex:
 
    Meta\-package for Pretext Hi\-C contact map tools.
 
@@ -23,7 +24,14 @@ pretext-suite
 
    |downloads_pretext-suite| |docker_pretext-suite|
 
-   :versions: 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.2-0``,  ``0.0.1-0``
+
+      
+
    
    :depends pretextgraph: 
    :depends pretextmap: 

@@ -8,6 +8,7 @@ mathstats
 
 .. conda:recipe:: mathstats
    :replaces_section_title:
+   :noindex:
 
    Statistical functions\, goodness\-of\-fit tests and special and special distributions not implemented in scipy\/numpy .
 
@@ -22,10 +23,17 @@ mathstats
 
    |downloads_mathstats| |docker_mathstats|
 
-   :versions: 0.2.6.5-0, 0.2.6-1, 0.2.6-0, 0.2.4-0
+   :versions:
+      
+      
+
+      ``0.2.6.5-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.4-0``
+
+      
+
    
    :depends python: 
-   :depends scipy: >=0.9
+   :depends scipy: ``>=0.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-params-validationcompiler
 
 .. conda:recipe:: perl-params-validationcompiler/0.23
    :replaces_section_title:
+   :noindex:
 
    Build an optimized subroutine parameter validator once\, use it forever
 
@@ -22,10 +23,17 @@ perl-params-validationcompiler
 
    |downloads_perl-params-validationcompiler| |docker_perl-params-validationcompiler|
 
-   :versions: 0.23-2, 0.23-1, 0.23-0
+   :versions:
+      
+      
+
+      ``0.23-2``,  ``0.23-1``,  ``0.23-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-b: 
    :depends perl-devel-stacktrace: 

@@ -8,6 +8,7 @@ perl-convert-binhex
 
 .. conda:recipe:: perl-convert-binhex
    :replaces_section_title:
+   :noindex:
 
    extract data from Macintosh BinHex files
 
@@ -22,9 +23,16 @@ perl-convert-binhex
 
    |downloads_perl-convert-binhex| |docker_perl-convert-binhex|
 
-   :versions: 1.125-1, 1.125-0
+   :versions:
+      
+      
+
+      ``1.125-1``,  ``1.125-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

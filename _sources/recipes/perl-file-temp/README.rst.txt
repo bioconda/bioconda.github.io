@@ -8,6 +8,7 @@ perl-file-temp
 
 .. conda:recipe:: perl-file-temp/0.2304
    :replaces_section_title:
+   :noindex:
 
    return name and handle of a temporary file safely
 
@@ -22,9 +23,16 @@ perl-file-temp
 
    |downloads_perl-file-temp| |docker_perl-file-temp|
 
-   :versions: 0.2304-2, 0.2304-1, 0.2304-0
+   :versions:
+      
+      
+
+      ``0.2304-2``,  ``0.2304-1``,  ``0.2304-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-carp: 
    :depends perl-constant: 

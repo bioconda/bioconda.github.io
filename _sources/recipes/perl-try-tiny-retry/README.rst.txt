@@ -8,6 +8,7 @@ perl-try-tiny-retry
 
 .. conda:recipe:: perl-try-tiny-retry
    :replaces_section_title:
+   :noindex:
 
    Just like Try\:\:Tiny\, but with retry instead of try.
 
@@ -22,9 +23,16 @@ perl-try-tiny-retry
 
    |downloads_perl-try-tiny-retry| |docker_perl-try-tiny-retry|
 
-   :versions: 0.004-0, 0.002-1, 0.002-0
+   :versions:
+      
+      
+
+      ``0.004-0``,  ``0.002-1``,  ``0.002-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-try-tiny: 
    :requirements:
 

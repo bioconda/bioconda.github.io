@@ -8,6 +8,7 @@ hurry.filesize
 
 .. conda:recipe:: hurry.filesize
    :replaces_section_title:
+   :noindex:
 
    A simple Python library for human readable file sizes \(or anything sized in bytes\).
 
@@ -22,7 +23,14 @@ hurry.filesize
 
    |downloads_hurry.filesize| |docker_hurry.filesize|
 
-   :versions: 0.9-0
+   :versions:
+      
+      
+
+      ``0.9-0``
+
+      
+
    
    :depends python: 
    :requirements:

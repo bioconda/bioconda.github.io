@@ -8,6 +8,7 @@ wg-blimp
 
 .. conda:recipe:: wg-blimp
    :replaces_section_title:
+   :noindex:
 
    wg\-blimp \(Whole Genome BisuLfIte sequencing Methylation analysis Pipeline\)
 
@@ -24,11 +25,18 @@ wg-blimp
 
    |downloads_wg-blimp| |docker_wg-blimp|
 
-   :versions: 0.9.5-1, 0.9.5-0, 0.9.4-0, 0.9.3-0, 0.9.2-0, 0.9.1-1, 0.9.1-0, 0.9.0-0
+   :versions:
+      
+      
+
+      ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
+
+      
+
    
    :depends bedtools: 
    :depends bwa: 
-   :depends bwameth: 0.2.0.*
+   :depends bwameth: ``0.2.0.*``
    :depends click: 
    :depends fastqc: 
    :depends git: 
@@ -43,7 +51,7 @@ wg-blimp
    :depends r-base: 
    :depends ruamel.yaml: 
    :depends samtools: 
-   :depends snakemake-minimal: >=5.8
+   :depends snakemake-minimal: ``>=5.8``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ optimir
 
 .. conda:recipe:: optimir
    :replaces_section_title:
+   :noindex:
 
    Integrating genetic variations in miRNA alignment
 
@@ -23,7 +24,14 @@ optimir
 
    |downloads_optimir| |docker_optimir|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends biopython: 
    :depends bowtie2: 

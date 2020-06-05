@@ -8,6 +8,7 @@ bioconductor-birta
 
 .. conda:recipe:: bioconductor-birta
    :replaces_section_title:
+   :noindex:
 
    Bayesian Inference of Regulation of Transcriptional Activity
 
@@ -23,15 +24,22 @@ bioconductor-birta
 
    |downloads_bioconductor-birta| |docker_bioconductor-birta|
 
-   :versions: 1.31.0-0, 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.31.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :requirements:
 

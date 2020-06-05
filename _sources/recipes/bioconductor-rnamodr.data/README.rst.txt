@@ -8,6 +8,7 @@ bioconductor-rnamodr.data
 
 .. conda:recipe:: bioconductor-rnamodr.data
    :replaces_section_title:
+   :noindex:
 
    Example data for the RNAmodR package
 
@@ -22,12 +23,19 @@ bioconductor-rnamodr.data
 
    |downloads_bioconductor-rnamodr.data| |docker_bioconductor-rnamodr.data|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-experimenthubdata: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-experimenthubdata: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

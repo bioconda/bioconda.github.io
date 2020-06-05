@@ -8,6 +8,7 @@ epic
 
 .. conda:recipe:: epic
    :replaces_section_title:
+   :noindex:
 
    Chip\-Seq broad peak\/domain finder.
 
@@ -22,19 +23,34 @@ epic
 
    |downloads_epic| |docker_epic|
 
-   :versions: 0.2.12-3, 0.2.12-2, 0.2.12-1, 0.2.12-0, 0.2.9-1, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.5-0, 0.2.4-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.28-0, 0.1.27-0, 0.1.26-0, 0.1.25-0, 0.1.24-0, 0.1.20-0, 0.1.17-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.12-3</code>,  <code>0.2.12-2</code>,  <code>0.2.12-1</code>,  <code>0.2.12-0</code>,  <code>0.2.9-1</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.5-0</code>,  </span></summary>
+      
+
+      ``0.2.12-3``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.9-1``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.28-0``,  ``0.1.27-0``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-0``,  ``0.1.20-0``,  ``0.1.17-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedtools: 
    :depends docopt: 
    :depends joblib: 
-   :depends libgcc-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
    :depends pybigwig: 
    :depends pyfaidx: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
    :depends typing: 
    :requirements:

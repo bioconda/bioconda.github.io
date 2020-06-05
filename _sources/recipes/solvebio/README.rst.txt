@@ -8,6 +8,7 @@ solvebio
 
 .. conda:recipe:: solvebio
    :replaces_section_title:
+   :noindex:
 
    The SolveBio Python client
 
@@ -22,12 +23,27 @@ solvebio
 
    |downloads_solvebio| |docker_solvebio|
 
-   :versions: 2.11.0-0, 2.10.1-0, 2.10.0-0, 2.9.0-0, 2.8.9-0, 2.8.8-0, 2.8.7-0, 2.8.6-0, 2.8.5-0, 2.8.4-0, 2.8.0-0, 2.7.0-0, 2.6.1-0, 2.5.1-2, 2.5.1-0, 2.4.6-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.11.0-0</code>,  <code>2.10.1-0</code>,  <code>2.10.0-0</code>,  <code>2.9.0-0</code>,  <code>2.8.9-0</code>,  <code>2.8.8-0</code>,  <code>2.8.7-0</code>,  <code>2.8.6-0</code>,  <code>2.8.5-0</code>,  </span></summary>
+      
+
+      ``2.11.0-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.8.9-0``,  ``2.8.8-0``,  ``2.8.7-0``,  ``2.8.6-0``,  ``2.8.5-0``,  ``2.8.4-0``,  ``2.8.0-0``,  ``2.7.0-0``,  ``2.6.1-0``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.4.6-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends pycurl: >=7.0.0
+   :depends pycurl: ``>=7.0.0``
    :depends pyprind: 
    :depends python: 
-   :depends requests: >=2.0.0
+   :depends requests: ``>=2.0.0``
    :depends six: 
    :requirements:
 

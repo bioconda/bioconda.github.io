@@ -8,6 +8,7 @@ bioconductor-eudysbiome
 
 .. conda:recipe:: bioconductor-eudysbiome
    :replaces_section_title:
+   :noindex:
 
    Cartesian plot and contingency test on 16S Microbial data
 
@@ -23,11 +24,18 @@ bioconductor-eudysbiome
 
    |downloads_bioconductor-eudysbiome| |docker_bioconductor-eudysbiome|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-plyr: 
    :depends r-r.utils: 
    :requirements:

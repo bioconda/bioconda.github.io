@@ -8,6 +8,7 @@ newick_utils
 
 .. conda:recipe:: newick_utils
    :replaces_section_title:
+   :noindex:
 
    The Newick Utilities are a suite of Unix shell tools for processing phylogenetic trees. We distribute the package under the BSD License. Functions include re\-rooting\, extracting subtrees\, trimming\, pruning\, condensing\, drawing \(ASCII graphics or SVG\).
 
@@ -22,10 +23,17 @@ newick_utils
 
    |downloads_newick_utils| |docker_newick_utils|
 
-   :versions: 1.6-2, 1.6-1, 1.6-0
+   :versions:
+      
+      
+
+      ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libxml2: 2.9.*
+   :depends libgcc-ng: ``>=4.9``
+   :depends libxml2: ``2.9.*``
    :requirements:
 
    .. rubric:: Installation

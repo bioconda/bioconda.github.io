@@ -8,6 +8,7 @@ perl-io-handle
 
 .. conda:recipe:: perl-io-handle/1.35
    :replaces_section_title:
+   :noindex:
 
    supply object methods for I\/O handles
 
@@ -22,9 +23,16 @@ perl-io-handle
 
    |downloads_perl-io-handle| |docker_perl-io-handle|
 
-   :versions: 1.36-1, 1.35-1, 1.35-0
+   :versions:
+      
+      
+
+      ``1.36-1``,  ``1.35-1``,  ``1.35-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

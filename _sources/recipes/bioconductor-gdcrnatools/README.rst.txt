@@ -8,6 +8,7 @@ bioconductor-gdcrnatools
 
 .. conda:recipe:: bioconductor-gdcrnatools
    :replaces_section_title:
+   :noindex:
 
    GDCRNATools\: an R\/Bioconductor package for integrative analysis of lncRNA\, mRNA\, and miRNA data in GDC
 
@@ -22,19 +23,26 @@ bioconductor-gdcrnatools
 
    |downloads_bioconductor-gdcrnatools| |docker_bioconductor-gdcrnatools|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-dose: >=3.14.0,<3.15.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-genomicdatacommons: >=1.12.0,<1.13.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-pathview: >=1.28.0,<1.29.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-genomicdatacommons: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-pathview: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-gplots: 

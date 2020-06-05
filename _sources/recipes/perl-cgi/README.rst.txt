@@ -8,6 +8,7 @@ perl-cgi
 
 .. conda:recipe:: perl-cgi
    :replaces_section_title:
+   :noindex:
 
    A generic file fetching mechanism
 
@@ -22,10 +23,25 @@ perl-cgi
 
    |downloads_perl-cgi| |docker_perl-cgi|
 
-   :versions: 4.44-1, 4.44-0, 4.43-0, 4.40-2, 4.40-1, 4.40-0, 4.22-4, 4.22-3, 4.22-2, 4.22-1, 4.22-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.44-1</code>,  <code>4.44-0</code>,  <code>4.43-0</code>,  <code>4.40-2</code>,  <code>4.40-1</code>,  <code>4.40-0</code>,  <code>4.22-4</code>,  <code>4.22-3</code>,  <code>4.22-2</code>,  </span></summary>
+      
+
+      ``4.44-1``,  ``4.44-0``,  ``4.43-0``,  ``4.40-2``,  ``4.40-1``,  ``4.40-0``,  ``4.22-4``,  ``4.22-3``,  ``4.22-2``,  ``4.22-1``,  ``4.22-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-encode: 

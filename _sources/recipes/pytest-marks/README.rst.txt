@@ -8,6 +8,7 @@ pytest-marks
 
 .. conda:recipe:: pytest-marks
    :replaces_section_title:
+   :noindex:
 
    set marks on py.test test methods
 
@@ -22,10 +23,17 @@ pytest-marks
 
    |downloads_pytest-marks| |docker_pytest-marks|
 
-   :versions: 0.4-0
+   :versions:
+      
+      
+
+      ``0.4-0``
+
+      
+
    
-   :depends pytest: >2.0.2
-   :depends python: 2.7*
+   :depends pytest: ``>2.0.2``
+   :depends python: ``2.7*``
    :depends setuptools: 
    :requirements:
 

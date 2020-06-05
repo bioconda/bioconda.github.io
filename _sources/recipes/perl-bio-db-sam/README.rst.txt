@@ -8,6 +8,7 @@ perl-bio-db-sam
 
 .. conda:recipe:: perl-bio-db-sam
    :replaces_section_title:
+   :noindex:
 
    Read SAM\/BAM database files
 
@@ -22,7 +23,14 @@ perl-bio-db-sam
 
    |downloads_perl-bio-db-sam| |docker_perl-bio-db-sam|
 
-   :versions: 1.41-2, 1.41-1, 1.41-0
+   :versions:
+      
+      
+
+      ``1.41-2``,  ``1.41-1``,  ``1.41-0``
+
+      
+
    
    :depends libgcc: 
    :depends perl-bioperl: 

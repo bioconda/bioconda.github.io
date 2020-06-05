@@ -8,6 +8,7 @@ extract-codon-alignment
 
 .. conda:recipe:: extract-codon-alignment
    :replaces_section_title:
+   :noindex:
 
    To extract some codon positions \(1st\, 2nd\, 3rd\) from a CDS alignment.
 
@@ -22,10 +23,17 @@ extract-codon-alignment
 
    |downloads_extract-codon-alignment| |docker_extract-codon-alignment|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
-   :depends biopython: >=1.54
-   :depends python: >=3
+   :depends biopython: ``>=1.54``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

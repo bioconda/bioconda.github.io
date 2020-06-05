@@ -8,6 +8,7 @@ imsindel
 
 .. conda:recipe:: imsindel
    :replaces_section_title:
+   :noindex:
 
    An accurate intermediate\-size indel detection tool incorporating de novo assembly and gapped global\-local alignment with split read analysis
 
@@ -22,7 +23,14 @@ imsindel
 
    |downloads_imsindel| |docker_imsindel|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
    :depends fasta3: 
    :depends mafft: 

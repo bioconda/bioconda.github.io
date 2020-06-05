@@ -8,6 +8,7 @@ ssu-align
 
 .. conda:recipe:: ssu-align
    :replaces_section_title:
+   :noindex:
 
    SSU\-ALIGN\: structural alignment of SSU rRNA sequences
 
@@ -22,9 +23,16 @@ ssu-align
 
    |downloads_ssu-align| |docker_ssu-align|
 
-   :versions: 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends perl: 
    :requirements:
 

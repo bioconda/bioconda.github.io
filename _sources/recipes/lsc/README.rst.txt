@@ -8,6 +8,7 @@ lsc
 
 .. conda:recipe:: lsc
    :replaces_section_title:
+   :noindex:
 
    LSC is a long read error correction tool that offers fast correction with high sensitivity and good accuracy.
 
@@ -22,11 +23,18 @@ lsc
 
    |downloads_lsc| |docker_lsc|
 
-   :versions: 2.0-2, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-2``,  ``2.0-0``
+
+      
+
    
    :depends bowtie2: 
    :depends perl: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends samtools: 
    :requirements:
 

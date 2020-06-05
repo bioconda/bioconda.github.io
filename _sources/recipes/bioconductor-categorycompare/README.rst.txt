@@ -8,6 +8,7 @@ bioconductor-categorycompare
 
 .. conda:recipe:: bioconductor-categorycompare
    :replaces_section_title:
+   :noindex:
 
    Meta\-analysis of high\-throughput experiments using feature annotations
 
@@ -22,19 +23,26 @@ bioconductor-categorycompare
 
    |downloads_bioconductor-categorycompare| |docker_bioconductor-categorycompare|
 
-   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-1, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-category: >=2.54.0,<2.55.0
-   :depends bioconductor-gostats: >=2.54.0,<2.55.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-rcy3: >=2.8.0,<2.9.0
-   :depends cytoscape: >=3.6.1
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-gostats: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-rcy3: ``>=2.8.0,<2.9.0``
+   :depends cytoscape: ``>=3.6.1``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-colorspace: 
    :depends r-hwriter: 
    :requirements:

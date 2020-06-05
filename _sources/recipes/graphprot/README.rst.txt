@@ -8,6 +8,7 @@ graphprot
 
 .. conda:recipe:: graphprot
    :replaces_section_title:
+   :noindex:
 
    GraphProt is a tool for modelling binding preferences of RNA\-binding proteins from high\-throughput experiments such as CLIP\-seq and RNAcompete.
 
@@ -22,21 +23,28 @@ graphprot
 
    |downloads_graphprot| |docker_graphprot|
 
-   :versions: 1.1.7-4, 1.1.7-2, 1.1.7-1, 1.1.7-0, 1.1.6-0
+   :versions:
+      
+      
+
+      ``1.1.7-4``,  ``1.1.7-2``,  ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-0``
+
+      
+
    
    :depends coreutils: 
-   :depends curl: >=7.61.0,<8.0a0
+   :depends curl: ``>=7.61.0,<8.0a0``
    :depends gawk: 
-   :depends libstdcxx-ng: >=4.9
-   :depends libsvm: >=3.21,<3.22.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends libsvm: ``>=3.21,<3.22.0a0``
    :depends make: 
    :depends openmp: 
    :depends perl-getopt-long: 
    :depends r-plyr: 
    :depends r-prroc: 
-   :depends rnashapes: <3
-   :depends weblogo: >=3
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends rnashapes: ``<3``
+   :depends weblogo: ``>=3``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

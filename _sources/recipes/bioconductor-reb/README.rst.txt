@@ -8,6 +8,7 @@ bioconductor-reb
 
 .. conda:recipe:: bioconductor-reb
    :replaces_section_title:
+   :noindex:
 
    Regional Expression Biases
 
@@ -22,14 +23,21 @@ bioconductor-reb
 
    |downloads_bioconductor-reb| |docker_bioconductor-reb|
 
-   :versions: 1.65.0-0, 1.64.0-0, 1.62.0-1, 1.60.0-0
+   :versions:
+      
+      
+
+      ``1.65.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-idiogram: >=1.64.0,<1.65.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-idiogram: ``>=1.64.0,<1.65.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

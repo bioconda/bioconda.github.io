@@ -8,6 +8,7 @@ cmsip
 
 .. conda:recipe:: cmsip
    :replaces_section_title:
+   :noindex:
 
    A package for detecting differential 5hmC regions from CMS\-IP sequencing data.
 
@@ -22,7 +23,22 @@ cmsip
 
    |downloads_cmsip| |docker_cmsip|
 
-   :versions: 0.0.2.3-0, 0.0.2.1-1, 0.0.2.1-0, 0.0.2.0-0, 0.0.1.8-0, 0.0.1.7-0, 0.0.1.4-1, 0.0.1.4-0, 0.0.1.3-0, 0.0.1.2-0, 0.0.1.1.9-0, 0.0.1.1.1-0, 0.0.0.9-0, 0.0.0.6-0, 0.0.0.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.0.2.3-0</code>,  <code>0.0.2.1-1</code>,  <code>0.0.2.1-0</code>,  <code>0.0.2.0-0</code>,  <code>0.0.1.8-0</code>,  <code>0.0.1.7-0</code>,  <code>0.0.1.4-1</code>,  <code>0.0.1.4-0</code>,  <code>0.0.1.3-0</code>,  </span></summary>
+      
+
+      ``0.0.2.3-0``,  ``0.0.2.1-1``,  ``0.0.2.1-0``,  ``0.0.2.0-0``,  ``0.0.1.8-0``,  ``0.0.1.7-0``,  ``0.0.1.4-1``,  ``0.0.1.4-0``,  ``0.0.1.3-0``,  ``0.0.1.2-0``,  ``0.0.1.1.9-0``,  ``0.0.1.1.1-0``,  ``0.0.0.9-0``,  ``0.0.0.6-0``,  ``0.0.0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedtools: 
    :depends bioconductor-deseq2: 
@@ -30,7 +46,7 @@ cmsip
    :depends gawk: 
    :depends matplotlib: 
    :depends moabs: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyyaml: 
    :depends r-base: 
    :depends r-rvaidememoire: 

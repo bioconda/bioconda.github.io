@@ -8,6 +8,7 @@ mobster
 
 .. conda:recipe:: mobster
    :replaces_section_title:
+   :noindex:
 
    NGS tool for detecting MEI and gene retrotransposition events in WGS and WES data\, see Thung et al. Genome Biol. 2014 for more information.
 
@@ -22,7 +23,14 @@ mobster
 
    |downloads_mobster| |docker_mobster|
 
-   :versions: 0.2.4.1-1, 0.2.4.1-0, 0.2.3.1-0, 0.2.2-1, 0.2.2-0, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.4.1-1``,  ``0.2.4.1-0``,  ``0.2.3.1-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``
+
+      
+
    
    :depends mosaik: 
    :depends openjdk: 

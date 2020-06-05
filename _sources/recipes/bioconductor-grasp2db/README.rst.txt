@@ -8,6 +8,7 @@ bioconductor-grasp2db
 
 .. conda:recipe:: bioconductor-grasp2db
    :replaces_section_title:
+   :noindex:
 
    grasp2db\, sqlite wrap of GRASP 2.0
 
@@ -22,12 +23,19 @@ bioconductor-grasp2db
 
    |downloads_bioconductor-grasp2db| |docker_bioconductor-grasp2db|
 
-   :versions: 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbplyr: 
    :depends r-digest: 
    :depends r-dplyr: 

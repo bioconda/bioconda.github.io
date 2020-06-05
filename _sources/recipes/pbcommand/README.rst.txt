@@ -8,6 +8,7 @@ pbcommand
 
 .. conda:recipe:: pbcommand
    :replaces_section_title:
+   :noindex:
 
    Library for generating the CLI of various PacBio tools
 
@@ -22,12 +23,19 @@ pbcommand
 
    |downloads_pbcommand| |docker_pbcommand|
 
-   :versions: 2.1.1-1, 2.1.1-0, 1.1.1-3, 1.1.1-2, 1.1.1-1, 1.1.1-0, 0.3.29-0, 0.2.17-0
+   :versions:
+      
+      
+
+      ``2.1.1-1``,  ``2.1.1-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``0.3.29-0``,  ``0.2.17-0``
+
+      
+
    
    :depends avro-python3: 
    :depends iso8601: 
-   :depends numpy: >=1.17
-   :depends python: >=3.7,<3.8
+   :depends numpy: ``>=1.17``
+   :depends python: ``>=3.7,<3.8``
    :depends pytz: 
    :depends requests: 
    :depends setuptools: 

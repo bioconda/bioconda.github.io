@@ -8,6 +8,7 @@ bioconductor-ensdb.hsapiens.v75
 
 .. conda:recipe:: bioconductor-ensdb.hsapiens.v75
    :replaces_section_title:
+   :noindex:
 
    Ensembl based annotation package
 
@@ -22,11 +23,18 @@ bioconductor-ensdb.hsapiens.v75
 
    |downloads_bioconductor-ensdb.hsapiens.v75| |docker_bioconductor-ensdb.hsapiens.v75|
 
-   :versions: 2.99.0-7, 2.99.0-6, 2.99.0-5, 2.99.0-3, 2.99.0-2, 2.99.0-0
+   :versions:
+      
+      
+
+      ``2.99.0-7``,  ``2.99.0-6``,  ``2.99.0-5``,  ``2.99.0-3``,  ``2.99.0-2``,  ``2.99.0-0``
+
+      
+
    
-   :depends bioconductor-ensembldb: >=2.12.0,<2.13.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ensembldb: ``>=2.12.0,<2.13.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

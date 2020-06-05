@@ -8,6 +8,7 @@ mtnucratio
 
 .. conda:recipe:: mtnucratio
    :replaces_section_title:
+   :noindex:
 
    A small tool to determine MT to Nuclear ratios for NGS data.
 
@@ -22,7 +23,14 @@ mtnucratio
 
    |downloads_mtnucratio| |docker_mtnucratio|
 
-   :versions: 0.7-1, 0.7-0, 0.6-1, 0.6-0, 0.5-1
+   :versions:
+      
+      
+
+      ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``,  ``0.5-1``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

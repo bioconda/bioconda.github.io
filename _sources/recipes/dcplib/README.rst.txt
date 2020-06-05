@@ -8,6 +8,7 @@ dcplib
 
 .. conda:recipe:: dcplib
    :replaces_section_title:
+   :noindex:
 
    Modules shared among multiple Data Coordination Platform components.
 
@@ -25,13 +26,28 @@ dcplib
 
    |downloads_dcplib| |docker_dcplib|
 
-   :versions: 3.12.0-0, 3.11.0-0, 3.9.0-0, 3.8.0-0, 3.7.0-0, 3.3.0-0, 3.2.1-0, 3.2.0-0, 3.1.0-0, 3.0.0-0, 2.1.2-0, 2.1.1-0, 2.0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.12.0-0</code>,  <code>3.11.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  </span></summary>
+      
+
+      ``3.12.0-0``,  ``3.11.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends boto3: >=1.7.13
+   :depends boto3: ``>=1.7.13``
    :depends crc32c: 
-   :depends puremagic: 1.4
-   :depends python: >=3
-   :depends requests: >=2.18.4,<3
+   :depends puremagic: ``1.4``
+   :depends python: ``>=3``
+   :depends requests: ``>=2.18.4,<3``
    :requirements:
 
    .. rubric:: Installation

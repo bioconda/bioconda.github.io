@@ -8,6 +8,7 @@ perl-xml-simple
 
 .. conda:recipe:: perl-xml-simple
    :replaces_section_title:
+   :noindex:
 
    An API for simple XML files
 
@@ -22,9 +23,16 @@ perl-xml-simple
 
    |downloads_perl-xml-simple| |docker_perl-xml-simple|
 
-   :versions: 2.25-1, 2.25-0, 2.22-3, 2.22-2, 2.22-1, 2.22-0
+   :versions:
+      
+      
+
+      ``2.25-1``,  ``2.25-0``,  ``2.22-3``,  ``2.22-2``,  ``2.22-1``,  ``2.22-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xml-namespacesupport: 
    :depends perl-xml-sax: 
    :depends perl-xml-sax-expat: 

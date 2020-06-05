@@ -8,6 +8,7 @@ bioconductor-gsean
 
 .. conda:recipe:: bioconductor-gsean
    :replaces_section_title:
+   :noindex:
 
    Gene Set Enrichment Analysis with Networks
 
@@ -22,11 +23,18 @@ bioconductor-gsean
 
    |downloads_bioconductor-gsean| |docker_bioconductor-gsean|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-fgsea: >=1.14.0,<1.15.0
-   :depends bioconductor-ppinfer: >=1.14.0,<1.15.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-fgsea: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-ppinfer: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

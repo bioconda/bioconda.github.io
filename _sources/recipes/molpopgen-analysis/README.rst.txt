@@ -8,6 +8,7 @@ molpopgen-analysis
 
 .. conda:recipe:: molpopgen-analysis
    :replaces_section_title:
+   :noindex:
 
    Deprecated and no longer maintained programs for the \(pre\-NGS\-era\) analysis of population\-genetic data. Unless you work with Sanger data\, results will be wrong. Please check the software homepage for more details.
 
@@ -22,12 +23,19 @@ molpopgen-analysis
 
    |downloads_molpopgen-analysis| |docker_molpopgen-analysis|
 
-   :versions: 0.8.8-3, 0.8.8-2, 0.8.8-1, 0.8.8-0
+   :versions:
+      
+      
+
+      ``0.8.8-3``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``
+
+      
+
    
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libsequence: 1.8.4.*
-   :depends libstdcxx-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libsequence: ``1.8.4.*``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :requirements:
 
    .. rubric:: Installation

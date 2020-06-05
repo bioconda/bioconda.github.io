@@ -8,6 +8,7 @@ kggseq
 
 .. conda:recipe:: kggseq
    :replaces_section_title:
+   :noindex:
 
    KGGSeq is a software platform constituted of Bioinformatics and statistical genetics functions making use of valuable biologic resources and knowledge for sequencing\-based genetic mapping of variants\/genes responsible for human diseases\/traits.
 
@@ -22,9 +23,16 @@ kggseq
 
    |downloads_kggseq| |docker_kggseq|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

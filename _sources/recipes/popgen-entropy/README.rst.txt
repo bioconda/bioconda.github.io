@@ -8,6 +8,7 @@ popgen-entropy
 
 .. conda:recipe:: popgen-entropy
    :replaces_section_title:
+   :noindex:
 
    This program is for inferring population structure from autopolyploid and mixed\-ploidy individuals\, similar to structure\, but using genotype\-likelihood data for low\- to medium\-coverage sequencing depth.
 
@@ -23,14 +24,21 @@ popgen-entropy
 
    |downloads_popgen-entropy| |docker_popgen-entropy|
 
-   :versions: 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-0``
+
+      
+
    
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends mkl: >=2019.5,<2020.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends mkl: ``>=2019.5,<2020.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

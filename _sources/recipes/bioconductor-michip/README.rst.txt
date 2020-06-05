@@ -8,6 +8,7 @@ bioconductor-michip
 
 .. conda:recipe:: bioconductor-michip
    :replaces_section_title:
+   :noindex:
 
    MiChip Parsing and Summarizing Functions
 
@@ -23,10 +24,17 @@ bioconductor-michip
 
    |downloads_bioconductor-michip| |docker_bioconductor-michip|
 
-   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   :versions:
+      
+      
+
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

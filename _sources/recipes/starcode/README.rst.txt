@@ -8,6 +8,7 @@ starcode
 
 .. conda:recipe:: starcode
    :replaces_section_title:
+   :noindex:
 
    Starcode\: sequence clustering based on all\-pairs search
 
@@ -22,9 +23,16 @@ starcode
 
    |downloads_starcode| |docker_starcode|
 
-   :versions: 1.3-1, 1.3-0, 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.3-1``,  ``1.3-0``,  ``1.1-1``,  ``1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

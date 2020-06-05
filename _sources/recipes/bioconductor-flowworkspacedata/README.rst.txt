@@ -8,6 +8,7 @@ bioconductor-flowworkspacedata
 
 .. conda:recipe:: bioconductor-flowworkspacedata
    :replaces_section_title:
+   :noindex:
 
    A data package containing two flowJo\, one diva xml workspace and the associated fcs files as well as three GatingSets for testing the flowWorkspace\, openCyto and CytoML packages.
 
@@ -22,10 +23,17 @@ bioconductor-flowworkspacedata
 
    |downloads_bioconductor-flowworkspacedata| |docker_bioconductor-flowworkspacedata|
 
-   :versions: 3.0.0-0, 2.22.0-0, 2.20.0-1, 2.20.0-0, 2.18.0-0
+   :versions:
+      
+      
+
+      ``3.0.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

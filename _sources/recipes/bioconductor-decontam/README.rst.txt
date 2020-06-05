@@ -8,6 +8,7 @@ bioconductor-decontam
 
 .. conda:recipe:: bioconductor-decontam
    :replaces_section_title:
+   :noindex:
 
    Identify Contaminants in Marker\-gene and Metagenomics Sequencing Data
 
@@ -22,11 +23,18 @@ bioconductor-decontam
 
    |downloads_bioconductor-decontam| |docker_bioconductor-decontam|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-ggplot2: >=2.1.0
-   :depends r-reshape2: >=1.4.1
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ggplot2: ``>=2.1.0``
+   :depends r-reshape2: ``>=1.4.1``
    :requirements:
 
    .. rubric:: Installation

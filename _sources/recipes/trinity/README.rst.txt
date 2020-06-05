@@ -8,6 +8,7 @@ trinity
 
 .. conda:recipe:: trinity
    :replaces_section_title:
+   :noindex:
 
    Trinity assembles transcript sequences from Illumina RNA\-Seq data.
 
@@ -25,21 +26,36 @@ trinity
 
    |downloads_trinity| |docker_trinity|
 
-   :versions: 2.9.1-1, 2.9.1-0, 2.8.5-5, 2.8.5-4, 2.8.5-3, 2.8.5-2, 2.8.5-1, 2.8.5-0, 2.8.4-1, 2.8.4-0, 2.8.3-0, 2.8.2-2, 2.8.2-1, 2.8.2-0, 2.6.6-2, 2.6.6-1, 2.6.6-0, 2.5.1-1, 2.5.1-0, 2.4.0-5, 2.4.0-4, 2.4.0-3, 2.3.2-2, 2.3.2-1, 2.3.2-0, 2.2.0-7, 2.2.0-6, 2.2.0-5, 2.2.0-4, 2.2.0-3, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.1-6, date.2011_11_26-8, date.2011_11_26-7, date.2011_11_26-6, date.2011_11_26-5, date.2011_11_26-4, date.2011_11_26-3
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.8.5-5</code>,  <code>2.8.5-4</code>,  <code>2.8.5-3</code>,  <code>2.8.5-2</code>,  <code>2.8.5-1</code>,  <code>2.8.5-0</code>,  <code>2.8.4-1</code>,  </span></summary>
+      
+
+      ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.5-5``,  ``2.8.5-4``,  ``2.8.5-3``,  ``2.8.5-2``,  ``2.8.5-1``,  ``2.8.5-0``,  ``2.8.4-1``,  ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-2``,  ``2.8.2-1``,  ``2.8.2-0``,  ``2.6.6-2``,  ``2.6.6-1``,  ``2.6.6-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.0-5``,  ``2.4.0-4``,  ``2.4.0-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.0-7``,  ``2.2.0-6``,  ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-6``,  ``date.2011_11_26-8``,  ``date.2011_11_26-7``,  ``date.2011_11_26-6``,  ``date.2011_11_26-5``,  ``date.2011_11_26-4``,  ``date.2011_11_26-3``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bowtie: 
-   :depends bowtie2: >=2.3.0
-   :depends kmer-jellyfish: >=2.2
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bowtie2: ``>=2.3.0``
+   :depends kmer-jellyfish: ``>=2.2``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends perl: 
-   :depends python: >=3.6
-   :depends salmon: >=1.0
-   :depends samtools: >=1.9
-   :depends trimmomatic: >=0.36
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python: ``>=3.6``
+   :depends salmon: ``>=1.0``
+   :depends samtools: ``>=1.9``
+   :depends trimmomatic: ``>=0.36``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

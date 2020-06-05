@@ -8,6 +8,7 @@ grabix
 
 .. conda:recipe:: grabix
    :replaces_section_title:
+   :noindex:
 
    a wee tool for random access into BGZF files.
 
@@ -22,10 +23,17 @@ grabix
 
    |downloads_grabix| |docker_grabix|
 
-   :versions: 0.1.8-4, 0.1.8-3, 0.1.8-2, 0.1.8-1, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.3-1, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.1.8-4``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.3-1``,  ``0.1.3-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

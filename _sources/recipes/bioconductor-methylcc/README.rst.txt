@@ -8,6 +8,7 @@ bioconductor-methylcc
 
 .. conda:recipe:: bioconductor-methylcc
    :replaces_section_title:
+   :noindex:
 
    Estimate the cell composition of whole blood in DNA methylation samples
 
@@ -22,21 +23,28 @@ bioconductor-methylcc
 
    |downloads_bioconductor-methylcc| |docker_bioconductor-methylcc|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-bsseq: >=1.24.0,<1.25.0
-   :depends bioconductor-bumphunter: >=1.30.0,<1.31.0
-   :depends bioconductor-flowsorted.blood.450k: >=1.26.0,<1.27.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: >=0.6.0,<0.7.0
-   :depends bioconductor-illuminahumanmethylation450kmanifest: >=0.4.0,<0.5.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-minfi: >=1.34.0,<1.35.0
-   :depends bioconductor-plyranges: >=1.8.0,<1.9.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-bsseq: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-bumphunter: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-flowsorted.blood.450k: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
+   :depends bioconductor-illuminahumanmethylation450kmanifest: ``>=0.4.0,<0.5.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-minfi: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-plyranges: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
    :depends r-quadprog: 

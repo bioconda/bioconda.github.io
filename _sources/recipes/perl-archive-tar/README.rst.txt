@@ -8,6 +8,7 @@ perl-archive-tar
 
 .. conda:recipe:: perl-archive-tar
    :replaces_section_title:
+   :noindex:
 
    Manipulates TAR archives
 
@@ -22,9 +23,16 @@ perl-archive-tar
 
    |downloads_perl-archive-tar| |docker_perl-archive-tar|
 
-   :versions: 2.32-0, 2.18-3, 2.18-2, 2.18-1
+   :versions:
+      
+      
+
+      ``2.32-0``,  ``2.18-3``,  ``2.18-2``,  ``2.18-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-io-compress: 
    :depends perl-io-zlib: 
    :depends perl-pathtools: 

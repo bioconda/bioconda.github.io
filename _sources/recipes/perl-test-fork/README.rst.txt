@@ -8,6 +8,7 @@ perl-test-fork
 
 .. conda:recipe:: perl-test-fork
    :replaces_section_title:
+   :noindex:
 
    test code which forks
 
@@ -22,9 +23,16 @@ perl-test-fork
 
    |downloads_perl-test-fork| |docker_perl-test-fork|
 
-   :versions: 0.02-0
+   :versions:
+      
+      
+
+      ``0.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

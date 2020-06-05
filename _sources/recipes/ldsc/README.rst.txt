@@ -8,6 +8,7 @@ ldsc
 
 .. conda:recipe:: ldsc
    :replaces_section_title:
+   :noindex:
 
    ldsc is a tool for estimating heritability and genetic correlation from GWAS summary statistics. It also computes LD Scores.
 
@@ -22,14 +23,21 @@ ldsc
 
    |downloads_ldsc| |docker_ldsc|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
    :depends bitarray: 
-   :depends nose: 1.3
+   :depends nose: ``1.3``
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

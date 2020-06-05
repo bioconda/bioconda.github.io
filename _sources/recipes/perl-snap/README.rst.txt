@@ -8,6 +8,7 @@ perl-snap
 
 .. conda:recipe:: perl-snap
    :replaces_section_title:
+   :noindex:
 
    SNAP calculates pairwise synonymous and nonsynonymous distances according to the Nei and Gojobori method for an alignment in table format.
 
@@ -22,9 +23,16 @@ perl-snap
 
    |downloads_perl-snap| |docker_perl-snap|
 
-   :versions: 2.1.1-0
+   :versions:
+      
+      
+
+      ``2.1.1-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

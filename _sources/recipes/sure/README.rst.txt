@@ -8,6 +8,7 @@ sure
 
 .. conda:recipe:: sure
    :replaces_section_title:
+   :noindex:
 
    utility belt for automated testing in python for python
 
@@ -22,7 +23,14 @@ sure
 
    |downloads_sure| |docker_sure|
 
-   :versions: 1.4.11-0, 1.2.24-0
+   :versions:
+      
+      
+
+      ``1.4.11-0``,  ``1.2.24-0``
+
+      
+
    
    :depends mock: 
    :depends python: 

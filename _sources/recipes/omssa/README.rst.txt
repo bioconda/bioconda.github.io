@@ -8,6 +8,7 @@ omssa
 
 .. conda:recipe:: omssa
    :replaces_section_title:
+   :noindex:
 
    Open Mass Spectrometry Search Algorithm \(OMSSA\)
 
@@ -22,7 +23,14 @@ omssa
 
    |downloads_omssa| |docker_omssa|
 
-   :versions: 2.1.9-0
+   :versions:
+      
+      
+
+      ``2.1.9-0``
+
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ plek
 
 .. conda:recipe:: plek
    :replaces_section_title:
+   :noindex:
 
    Predictor of long non\-coding RNAs and mRNAs based on k\-mer scheme.
 
@@ -23,12 +24,19 @@ plek
 
    |downloads_plek| |docker_plek|
 
-   :versions: 1.2-2, 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

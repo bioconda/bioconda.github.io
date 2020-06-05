@@ -8,6 +8,7 @@ bioconductor-jazaerimetadata.db
 
 .. conda:recipe:: bioconductor-jazaerimetadata.db
    :replaces_section_title:
+   :noindex:
 
    A data package containing annotation data for JazaeriMetaData
 
@@ -22,12 +23,19 @@ bioconductor-jazaerimetadata.db
 
    |downloads_bioconductor-jazaerimetadata.db| |docker_bioconductor-jazaerimetadata.db|
 
-   :versions: 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

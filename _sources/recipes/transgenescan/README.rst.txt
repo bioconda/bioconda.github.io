@@ -8,6 +8,7 @@ transgenescan
 
 .. conda:recipe:: transgenescan
    :replaces_section_title:
+   :noindex:
 
    Software tool for finding genes in assembled transcripts from metatranscriptomic sequences.
 
@@ -23,9 +24,16 @@ transgenescan
 
    |downloads_transgenescan| |docker_transgenescan|
 
-   :versions: 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.2.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

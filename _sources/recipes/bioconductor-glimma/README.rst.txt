@@ -8,6 +8,7 @@ bioconductor-glimma
 
 .. conda:recipe:: bioconductor-glimma
    :replaces_section_title:
+   :noindex:
 
    Interactive HTML graphics
 
@@ -23,11 +24,18 @@ bioconductor-glimma
 
    |downloads_bioconductor-glimma| |docker_bioconductor-glimma|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.1-0, 1.10.0-0, 1.8.2-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-jsonlite: 
    :requirements:
 

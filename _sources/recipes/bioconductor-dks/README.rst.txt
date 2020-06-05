@@ -8,6 +8,7 @@ bioconductor-dks
 
 .. conda:recipe:: bioconductor-dks
    :replaces_section_title:
+   :noindex:
 
    The double Kolmogorov\-Smirnov package for evaluating multiple testing procedures.
 
@@ -22,9 +23,16 @@ bioconductor-dks
 
    |downloads_bioconductor-dks| |docker_bioconductor-dks|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-1, 1.30.0-0, 1.28.0-0
+   :versions:
+      
+      
+
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cubature: 
    :requirements:
 

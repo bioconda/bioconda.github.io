@@ -8,6 +8,7 @@ perl-encode-locale
 
 .. conda:recipe:: perl-encode-locale
    :replaces_section_title:
+   :noindex:
 
    Determine the locale encoding
 
@@ -22,9 +23,16 @@ perl-encode-locale
 
    |downloads_perl-encode-locale| |docker_perl-encode-locale|
 
-   :versions: 1.05-6, 1.05-5, 1.05-4, 1.05-3, 1.05-2, 1.05-1, 1.05-0
+   :versions:
+      
+      
+
+      ``1.05-6``,  ``1.05-5``,  ``1.05-4``,  ``1.05-3``,  ``1.05-2``,  ``1.05-1``,  ``1.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-encode: 
    :requirements:
 

@@ -8,6 +8,7 @@ krbalancing
 
 .. conda:recipe:: krbalancing
    :replaces_section_title:
+   :noindex:
 
    This is a c\+\+ extension for python which computes K.R. balanced matrices.
 
@@ -22,14 +23,21 @@ krbalancing
 
    |downloads_krbalancing| |docker_krbalancing|
 
-   :versions: 0.0.5-1, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+
+      
+
    
-   :depends eigen: >=3.3.7
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends pybind11: >=2.2.4
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends eigen: ``>=3.3.7``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends pybind11: ``>=2.2.4``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

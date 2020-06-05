@@ -8,6 +8,7 @@ bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts
 
 .. conda:recipe:: bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts
    :replaces_section_title:
+   :noindex:
 
    Annotation package for TxDb object\(s\)
 
@@ -22,12 +23,19 @@ bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts
 
    |downloads_bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts| |docker_bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts|
 
-   :versions: 3.2.2-10, 3.2.2-9, 3.2.2-8, 3.2.2-6, 3.2.2-5, 3.2.2-3, 3.2.2-2
+   :versions:
+      
+      
+
+      ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-8``,  ``3.2.2-6``,  ``3.2.2-5``,  ``3.2.2-3``,  ``3.2.2-2``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

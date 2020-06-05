@@ -8,6 +8,7 @@ sga
 
 .. conda:recipe:: sga
    :replaces_section_title:
+   :noindex:
 
    SGA \- String Graph Assembler. SGA is a de novo assembler for DNA sequence reads. It is based on Gene Myers string graph formulation of assembly and uses the FM\-index\/Burrows\-Wheeler transform to efficiently find overlaps between sequence reads.
 
@@ -23,13 +24,20 @@ sga
 
    |downloads_sga| |docker_sga|
 
-   :versions: 0.10.15-5, 0.10.15-4, 0.10.15-3, 0.10.15-2, 0.10.15-1, 0.10.15-0, 0.10.13-0
+   :versions:
+      
+      
+
+      ``0.10.15-5``,  ``0.10.15-4``,  ``0.10.15-3``,  ``0.10.15-2``,  ``0.10.15-1``,  ``0.10.15-0``,  ``0.10.13-0``
+
+      
+
    
-   :depends bamtools: >=2.5.1,<2.5.2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends sparsehash: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-snapcount
 
 .. conda:recipe:: bioconductor-snapcount
    :replaces_section_title:
+   :noindex:
 
    R\/Bioconductor Package for interfacing with Snaptron for rapid querying of expression counts
 
@@ -22,13 +23,20 @@ bioconductor-snapcount
 
    |downloads_bioconductor-snapcount| |docker_bioconductor-snapcount|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-httr: 
    :depends r-jsonlite: 

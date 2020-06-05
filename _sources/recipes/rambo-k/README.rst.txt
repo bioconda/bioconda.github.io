@@ -8,6 +8,7 @@ rambo-k
 
 .. conda:recipe:: rambo-k
    :replaces_section_title:
+   :noindex:
 
    a reference\-based tool for rapid and sensitive extraction of one organism´s reads from a mixed NGS dataset
 
@@ -22,7 +23,14 @@ rambo-k
 
    |downloads_rambo-k| |docker_rambo-k|
 
-   :versions: 1.21-1, 1.21-0
+   :versions:
+      
+      
+
+      ``1.21-1``,  ``1.21-0``
+
+      
+
    
    :depends argparse: 
    :depends matplotlib: 

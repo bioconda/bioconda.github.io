@@ -8,6 +8,7 @@ targetfinder
 
 .. conda:recipe:: targetfinder
    :replaces_section_title:
+   :noindex:
 
    Plant small RNA target prediction tool
 
@@ -22,7 +23,14 @@ targetfinder
 
    |downloads_targetfinder| |docker_targetfinder|
 
-   :versions: 1.7-3, 1.7-2, 1.7-1, 1.7-0
+   :versions:
+      
+      
+
+      ``1.7-3``,  ``1.7-2``,  ``1.7-1``,  ``1.7-0``
+
+      
+
    
    :depends fasta3: 
    :depends perl: 

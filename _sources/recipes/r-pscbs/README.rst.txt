@@ -8,6 +8,7 @@ r-pscbs
 
 .. conda:recipe:: r-pscbs
    :replaces_section_title:
+   :noindex:
 
    Segmentation of allele\-specific DNA copy number data and detection of regions with abnormal copy number within each parental chromosome.  Both tumor\-normal paired and tumor\-only analyses are supported.
 
@@ -22,18 +23,33 @@ r-pscbs
 
    |downloads_r-pscbs| |docker_r-pscbs|
 
-   :versions: 0.65.0-3, 0.65.0-2, 0.65.0-1, 0.65.0-0, 0.64.0-2, 0.64.0-1, 0.64.0-0, 0.63.0-0, 0.61.0-0, 0.60.3-0, 0.60.0-2, 0.60.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.65.0-3</code>,  <code>0.65.0-2</code>,  <code>0.65.0-1</code>,  <code>0.65.0-0</code>,  <code>0.64.0-2</code>,  <code>0.64.0-1</code>,  <code>0.64.0-0</code>,  <code>0.63.0-0</code>,  <code>0.61.0-0</code>,  </span></summary>
+      
+
+      ``0.65.0-3``,  ``0.65.0-2``,  ``0.65.0-1``,  ``0.65.0-0``,  ``0.64.0-2``,  ``0.64.0-1``,  ``0.64.0-0``,  ``0.63.0-0``,  ``0.61.0-0``,  ``0.60.3-0``,  ``0.60.0-2``,  ``0.60.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bioconductor-aroma.light: 
    :depends bioconductor-dnacopy: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-future: >=1.12.0
-   :depends r-listenv: >=0.7.0
-   :depends r-matrixstats: >=0.54.0
-   :depends r-r.cache: >=0.13.0
-   :depends r-r.methodss3: >=1.7.1
-   :depends r-r.oo: >=1.22.0
-   :depends r-r.utils: >=2.8.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-future: ``>=1.12.0``
+   :depends r-listenv: ``>=0.7.0``
+   :depends r-matrixstats: ``>=0.54.0``
+   :depends r-r.cache: ``>=0.13.0``
+   :depends r-r.methodss3: ``>=1.7.1``
+   :depends r-r.oo: ``>=1.22.0``
+   :depends r-r.utils: ``>=2.8.0``
    :requirements:
 
    .. rubric:: Installation

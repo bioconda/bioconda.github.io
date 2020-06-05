@@ -8,6 +8,7 @@ bioconductor-dmrscan
 
 .. conda:recipe:: bioconductor-dmrscan
    :replaces_section_title:
+   :noindex:
 
    Detection of Differentially Methylated Regions
 
@@ -22,12 +23,19 @@ bioconductor-dmrscan
 
    |downloads_bioconductor-dmrscan| |docker_bioconductor-dmrscan|
 
-   :versions: 1.11.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.11.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-genomeinfodb: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-genomeinfodb: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomicranges: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-iranges: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-mass: 
    :depends r-matrix: 
    :depends r-mvtnorm: 

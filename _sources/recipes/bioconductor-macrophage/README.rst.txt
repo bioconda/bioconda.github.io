@@ -8,6 +8,7 @@ bioconductor-macrophage
 
 .. conda:recipe:: bioconductor-macrophage
    :replaces_section_title:
+   :noindex:
 
    Human macrophage immune response
 
@@ -22,10 +23,17 @@ bioconductor-macrophage
 
    |downloads_bioconductor-macrophage| |docker_bioconductor-macrophage|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

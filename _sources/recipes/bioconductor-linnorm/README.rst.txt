@@ -8,6 +8,7 @@ bioconductor-linnorm
 
 .. conda:recipe:: bioconductor-linnorm
    :replaces_section_title:
+   :noindex:
 
    Linear model and normality based normalization and transformation method \(Linnorm\)
 
@@ -22,16 +23,23 @@ bioconductor-linnorm
 
    |downloads_bioconductor-linnorm| |docker_bioconductor-linnorm|
 
-   :versions: 2.12.0-0, 2.10.0-0, 2.8.0-1, 2.8.0-0, 2.6.1-0, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends r-amap: 
    :depends r-apcluster: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ellipse: 
    :depends r-fastcluster: 
    :depends r-fpc: 
@@ -41,8 +49,8 @@ bioconductor-linnorm
    :depends r-igraph: 
    :depends r-mass: 
    :depends r-mclust: 
-   :depends r-rcpp: >=0.12.2
-   :depends r-rcpparmadillo: >=0.8.100.1.0
+   :depends r-rcpp: ``>=0.12.2``
+   :depends r-rcpparmadillo: ``>=0.8.100.1.0``
    :depends r-rtsne: 
    :depends r-statmod: 
    :depends r-vegan: 

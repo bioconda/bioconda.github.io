@@ -8,6 +8,7 @@ bioconductor-rrvgo
 
 .. conda:recipe:: bioconductor-rrvgo
    :replaces_section_title:
+   :noindex:
 
    Reduce \+ Visualize GO
 
@@ -22,12 +23,19 @@ bioconductor-rrvgo
 
    |downloads_bioconductor-rrvgo| |docker_bioconductor-rrvgo|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-gosemsim: >=2.14.0,<2.15.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-gosemsim: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-pheatmap: 

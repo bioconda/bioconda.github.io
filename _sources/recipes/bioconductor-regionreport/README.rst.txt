@@ -8,6 +8,7 @@ bioconductor-regionreport
 
 .. conda:recipe:: bioconductor-regionreport
    :replaces_section_title:
+   :noindex:
 
    Generate HTML or PDF reports for a set of genomic regions or DESeq2\/edgeR results
 
@@ -22,22 +23,29 @@ bioconductor-regionreport
 
    |downloads_bioconductor-regionreport| |docker_bioconductor-regionreport|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.2-0, 1.16.1-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.1-0``
+
+      
+
    
-   :depends bioconductor-biocstyle: >=2.16.0,<2.17.0
-   :depends bioconductor-deformats: >=1.16.0,<1.17.0
-   :depends bioconductor-derfinder: >=1.22.0,<1.23.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-knitcitations: >=1.0.1
-   :depends r-knitr: >=1.6
-   :depends r-knitrbootstrap: >=0.9.0
+   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-deformats: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-derfinder: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-knitcitations: ``>=1.0.1``
+   :depends r-knitr: ``>=1.6``
+   :depends r-knitrbootstrap: ``>=0.9.0``
    :depends r-refmanager: 
-   :depends r-rmarkdown: >=0.9.5
+   :depends r-rmarkdown: ``>=0.9.5``
    :requirements:
 
    .. rubric:: Installation

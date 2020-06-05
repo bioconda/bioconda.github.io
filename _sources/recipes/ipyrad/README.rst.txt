@@ -8,6 +8,7 @@ ipyrad
 
 .. conda:recipe:: ipyrad
    :replaces_section_title:
+   :noindex:
 
    Interactive assembly and analysis of RAD\-seq data sets.
 
@@ -22,26 +23,41 @@ ipyrad
 
    |downloads_ipyrad| |docker_ipyrad|
 
-   :versions: 0.9.54-0, 0.9.53-0, 0.9.52-0, 0.9.51-0, 0.9.50-0, 0.9.49-0, 0.9.48-0, 0.9.47-0, 0.9.46-0, 0.9.45-0, 0.9.44-0, 0.9.43-0, 0.9.42-0, 0.9.41-0, 0.9.40-0, 0.9.33-0, 0.9.32-0, 0.9.31-0, 0.9.30-0, 0.9.29-0, 0.9.28-0, 0.9.26-0, 0.9.25-0, 0.9.24-0, 0.9.20-0, 0.9.19-1, 0.9.19-0, 0.9.18-0, 0.9.17-0, 0.9.16-0, 0.9.15-0, 0.9.14-0, 0.9.13-0, 0.9.12-0, 0.9.11-1, 0.9.11-0, 0.9.10-0, 0.9.8-0, 0.9.7-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.9.54-0</code>,  <code>0.9.53-0</code>,  <code>0.9.52-0</code>,  <code>0.9.51-0</code>,  <code>0.9.50-0</code>,  <code>0.9.49-0</code>,  <code>0.9.48-0</code>,  <code>0.9.47-0</code>,  <code>0.9.46-0</code>,  </span></summary>
+      
+
+      ``0.9.54-0``,  ``0.9.53-0``,  ``0.9.52-0``,  ``0.9.51-0``,  ``0.9.50-0``,  ``0.9.49-0``,  ``0.9.48-0``,  ``0.9.47-0``,  ``0.9.46-0``,  ``0.9.45-0``,  ``0.9.44-0``,  ``0.9.43-0``,  ``0.9.42-0``,  ``0.9.41-0``,  ``0.9.40-0``,  ``0.9.33-0``,  ``0.9.32-0``,  ``0.9.31-0``,  ``0.9.30-0``,  ``0.9.29-0``,  ``0.9.28-0``,  ``0.9.26-0``,  ``0.9.25-0``,  ``0.9.24-0``,  ``0.9.20-0``,  ``0.9.19-1``,  ``0.9.19-0``,  ``0.9.18-0``,  ``0.9.17-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.14-0``,  ``0.9.13-0``,  ``0.9.12-0``,  ``0.9.11-1``,  ``0.9.11-0``,  ``0.9.10-0``,  ``0.9.8-0``,  ``0.9.7-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedtools: 
    :depends bwa: 
    :depends cutadapt: 
    :depends future: 
    :depends h5py: 
-   :depends ipyparallel: >=6.0.2
+   :depends ipyparallel: ``>=6.0.2``
    :depends muscle: 
    :depends notebook: 
-   :depends numba: >=0.37
+   :depends numba: ``>=0.37``
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: >=0.15
+   :depends pysam: ``>=0.15``
    :depends python: 
    :depends requests: 
    :depends samtools: 
    :depends scipy: 
    :depends toyplot: 
-   :depends vsearch: >=2.13
+   :depends vsearch: ``>=2.13``
    :requirements:
 
    .. rubric:: Installation

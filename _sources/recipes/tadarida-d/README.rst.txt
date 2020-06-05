@@ -8,6 +8,7 @@ tadarida-d
 
 .. conda:recipe:: tadarida-d
    :replaces_section_title:
+   :noindex:
 
    Tadarida\-D \(Toolbox for Animal Detection on Acoustic Recordings \- Detection and Feature extraction part\) for Galaxy use.
 
@@ -22,20 +23,27 @@ tadarida-d
 
    |downloads_tadarida-d| |docker_tadarida-d|
 
-   :versions: 1.03-3, 1.03-1, 1.03-0, 1.02-0, 1.01-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.03-3``,  ``1.03-1``,  ``1.03-0``,  ``1.02-0``,  ``1.01-0``,  ``1.0-0``
+
+      
+
    
    :depends fftw: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends libsndfile: 
-   :depends libstdcxx-ng: >=4.9
-   :depends qt: >=4.8.7,<4.9.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends qt: ``>=4.8.7,<4.9.0a0``
    :depends xorg-libsm: 
    :depends xorg-libx11: 
    :depends xorg-libxau: 
    :depends xorg-libxdmcp: 
    :depends xorg-libxext: 
    :depends xorg-libxrender: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

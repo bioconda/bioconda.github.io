@@ -8,6 +8,7 @@ r-coloc
 
 .. conda:recipe:: r-coloc
    :replaces_section_title:
+   :noindex:
 
    Performs the colocalisation tests described in Plagnol et al \(2009\) \<doi\:10.1093\/biostatistics\/kxn039\>\, Wallace et al \(2013\) \<doi\:10.1002\/gepi.21765\> and Giambartolomei et al \(2013\) \<doi\:10.1371\/journal.pgen.1004383\>.
 
@@ -22,10 +23,17 @@ r-coloc
 
    |downloads_r-coloc| |docker_r-coloc|
 
-   :versions: 3.1-3, 3.1-2, 3.1-1, 3.1-0, 2.3_1-0
+   :versions:
+      
+      
+
+      ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.3_1-0``
+
+      
+
    
    :depends bioconductor-snpstats: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bma: 
    :depends r-flashclust: 
    :depends r-ggplot2: 

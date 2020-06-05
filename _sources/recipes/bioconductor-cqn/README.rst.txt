@@ -8,6 +8,7 @@ bioconductor-cqn
 
 .. conda:recipe:: bioconductor-cqn
    :replaces_section_title:
+   :noindex:
 
    Conditional quantile normalization
 
@@ -23,10 +24,17 @@ bioconductor-cqn
 
    |downloads_bioconductor-cqn| |docker_bioconductor-cqn|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-1, 1.30.0-0, 1.28.1-0, 1.28.0-0, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mclust: 
    :depends r-nor1mix: 
    :depends r-quantreg: 

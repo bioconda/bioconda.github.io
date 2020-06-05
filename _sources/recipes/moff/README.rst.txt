@@ -8,6 +8,7 @@ moff
 
 .. conda:recipe:: moff
    :replaces_section_title:
+   :noindex:
 
    moFF is an OS independent tool designed to extract apex MS1 intensity using a set of identified MS2 peptides.
 
@@ -23,19 +24,34 @@ moff
 
    |downloads_moff| |docker_moff|
 
-   :versions: 2.0.3-4, 2.0.3-3, 2.0.3-2, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-0, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.3-4</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  </span></summary>
+      
+
+      ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends brain-isotopic-distribution: 
    :depends mono: 
-   :depends numpy: >=1.15
-   :depends pandas: >=0.23,<1.0.0
-   :depends pymzml: >=2.0.6
+   :depends numpy: ``>=1.15``
+   :depends pandas: ``>=0.23,<1.0.0``
+   :depends pymzml: ``>=2.0.6``
    :depends pynumpress: 
-   :depends pyteomics: >=3.5
-   :depends python: >=3.4,<3.7
-   :depends scikit-learn: >0.19
-   :depends scipy: >=1.1
-   :depends simplejson: >=3.16.1
+   :depends pyteomics: ``>=3.5``
+   :depends python: ``>=3.4,<3.7``
+   :depends scikit-learn: ``>0.19``
+   :depends scipy: ``>=1.1``
+   :depends simplejson: ``>=3.16.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-frgepistasis
 
 .. conda:recipe:: bioconductor-frgepistasis
    :replaces_section_title:
+   :noindex:
 
    Epistasis Analysis for Quantitative Traits by Functional Regression Model
 
@@ -22,9 +23,16 @@ bioconductor-frgepistasis
 
    |downloads_bioconductor-frgepistasis| |docker_bioconductor-frgepistasis|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fda: 
    :depends r-mass: 
    :requirements:

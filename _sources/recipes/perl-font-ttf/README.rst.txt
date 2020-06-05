@@ -8,6 +8,7 @@ perl-font-ttf
 
 .. conda:recipe:: perl-font-ttf
    :replaces_section_title:
+   :noindex:
 
    TTF font support for Perl
 
@@ -22,9 +23,16 @@ perl-font-ttf
 
    |downloads_perl-font-ttf| |docker_perl-font-ttf|
 
-   :versions: 1.06-0, 1.05-0
+   :versions:
+      
+      
+
+      ``1.06-0``,  ``1.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-io-string: 
    :depends perl-xml-parser: 
    :requirements:

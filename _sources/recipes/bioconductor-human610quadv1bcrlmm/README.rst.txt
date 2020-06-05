@@ -8,6 +8,7 @@ bioconductor-human610quadv1bcrlmm
 
 .. conda:recipe:: bioconductor-human610quadv1bcrlmm
    :replaces_section_title:
+   :noindex:
 
    Metadata for fast genotyping with the \'crlmm\' package
 
@@ -22,10 +23,17 @@ bioconductor-human610quadv1bcrlmm
 
    |downloads_bioconductor-human610quadv1bcrlmm| |docker_bioconductor-human610quadv1bcrlmm|
 
-   :versions: 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ super_distance
 
 .. conda:recipe:: super_distance
    :replaces_section_title:
+   :noindex:
 
    Supertree method with distances
 
@@ -23,10 +24,17 @@ super_distance
 
    |downloads_super_distance| |docker_super_distance|
 
-   :versions: 1.1.0-0, 0.1-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``,  ``0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

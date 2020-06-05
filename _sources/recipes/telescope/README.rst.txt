@@ -8,6 +8,7 @@ telescope
 
 .. conda:recipe:: telescope
    :replaces_section_title:
+   :noindex:
 
    Single locus resolution of Transposable ELEment expression.
 
@@ -23,17 +24,24 @@ telescope
 
    |downloads_telescope| |docker_telescope|
 
-   :versions: 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``
+
+      
+
    
    :depends cython: 
-   :depends future: >=0.17.1
-   :depends intervaltree: >=3.0.2
-   :depends libgcc-ng: >=7.3.0
-   :depends numpy: >=1.16.3
-   :depends pysam: >=0.15.2
-   :depends python: >=3.6,<3.7.0a0
-   :depends pyyaml: >=5.1
-   :depends scipy: >=1.2.1
+   :depends future: ``>=0.17.1``
+   :depends intervaltree: ``>=3.0.2``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.16.3``
+   :depends pysam: ``>=0.15.2``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends pyyaml: ``>=5.1``
+   :depends scipy: ``>=1.2.1``
    :requirements:
 
    .. rubric:: Installation

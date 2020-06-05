@@ -8,6 +8,7 @@ carna
 
 .. conda:recipe:: carna
    :replaces_section_title:
+   :noindex:
 
    Constraint\-based Alignment of RNA Ensembles
 
@@ -23,11 +24,26 @@ carna
 
    |downloads_carna| |docker_carna|
 
-   :versions: 1.3.3-2, 1.3.3-1, 1.3.2-2, 1.3.2-1, 1.3.2-0, 1.3.1-5, 1.3.1-4, 1.3.1-3, 1.3.1-2, 1.3.1-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.2-2</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-5</code>,  <code>1.3.1-4</code>,  <code>1.3.1-3</code>,  <code>1.3.1-2</code>,  </span></summary>
+      
+
+      ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends gecode: 5.0.0.*
-   :depends libgcc-ng: >=4.9
-   :depends locarna: 1.9.1.*
+   :depends gecode: ``5.0.0.*``
+   :depends libgcc-ng: ``>=4.9``
+   :depends locarna: ``1.9.1.*``
    :requirements:
 
    .. rubric:: Installation

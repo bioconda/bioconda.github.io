@@ -8,6 +8,7 @@ perl-cpan-meta-check
 
 .. conda:recipe:: perl-cpan-meta-check
    :replaces_section_title:
+   :noindex:
 
    Verify requirements in a CPAN\:\:Meta object
 
@@ -22,9 +23,16 @@ perl-cpan-meta-check
 
    |downloads_perl-cpan-meta-check| |docker_perl-cpan-meta-check|
 
-   :versions: 0.014-0, 0.012-3, 0.012-2, 0.012-1
+   :versions:
+      
+      
+
+      ``0.014-0``,  ``0.012-3``,  ``0.012-2``,  ``0.012-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-cpan-meta-requirements: 
    :depends perl-exporter: 

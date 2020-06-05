@@ -8,6 +8,7 @@ pybiomart
 
 .. conda:recipe:: pybiomart
    :replaces_section_title:
+   :noindex:
 
    A simple pythonic interface to biomart.
 
@@ -24,7 +25,14 @@ pybiomart
 
    |downloads_pybiomart| |docker_pybiomart|
 
-   :versions: 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-0``
+
+      
+
    
    :depends future: 
    :depends pandas: 

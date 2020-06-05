@@ -8,6 +8,7 @@ perl-importer
 
 .. conda:recipe:: perl-importer
    :replaces_section_title:
+   :noindex:
 
    Alternative but compatible interface to modules that export symbols.
 
@@ -22,9 +23,16 @@ perl-importer
 
    |downloads_perl-importer| |docker_perl-importer|
 
-   :versions: 0.025-1, 0.025-0, 0.024-1, 0.024-0
+   :versions:
+      
+      
+
+      ``0.025-1``,  ``0.025-0``,  ``0.024-1``,  ``0.024-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

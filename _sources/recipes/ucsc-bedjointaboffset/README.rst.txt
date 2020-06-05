@@ -8,6 +8,7 @@ ucsc-bedjointaboffset
 
 .. conda:recipe:: ucsc-bedjointaboffset
    :replaces_section_title:
+   :noindex:
 
    given a bed file and tab file where each have a column with matching values\: first get the value of column0\, the offset and line length from inTabFile. Then go over the bed file\, use the name field and append its offset and length to the bed file as two separate fields. Write the new bed file to outBed.
 
@@ -22,15 +23,22 @@ ucsc-bedjointaboffset
 
    |downloads_ucsc-bedjointaboffset| |docker_ucsc-bedjointaboffset|
 
-   :versions: 377-0, 366-0
+   :versions:
+      
+      
+
+      ``377-0``,  ``366-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libpng: >=1.6.35,<1.7.0a0
-   :depends libuuid: >=2.32.1,<3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libpng: ``>=1.6.35,<1.7.0a0``
+   :depends libuuid: ``>=2.32.1,<3.0a0``
    :depends mysql-connector-c: 
-   :depends openssl: >=1.0.2p,<1.0.3a
+   :depends openssl: ``>=1.0.2p,<1.0.3a``
    :depends python: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

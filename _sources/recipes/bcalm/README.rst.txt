@@ -8,6 +8,7 @@ bcalm
 
 .. conda:recipe:: bcalm
    :replaces_section_title:
+   :noindex:
 
    BCALM 2 is a bioinformatics tool for constructing the compacted de Bruijn graph from sequencing data.
 
@@ -22,11 +23,26 @@ bcalm
 
    |downloads_bcalm| |docker_bcalm|
 
-   :versions: 2.2.3-0, 2.2.2-1, 2.2.2-0, 2.2.1-3, 2.2.1-2, 2.2.1-1, 2.2.1-0, 2.2.0-3, 2.2.0-2, 2.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.3-0</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2.0-3</code>,  <code>2.2.0-2</code>,  </span></summary>
+      
+
+      ``2.2.3-0``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

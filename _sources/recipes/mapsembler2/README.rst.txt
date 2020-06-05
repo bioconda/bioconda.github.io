@@ -8,6 +8,7 @@ mapsembler2
 
 .. conda:recipe:: mapsembler2
    :replaces_section_title:
+   :noindex:
 
    Targeted assembly software
 
@@ -22,9 +23,16 @@ mapsembler2
 
    |downloads_mapsembler2| |docker_mapsembler2|
 
-   :versions: 2.2.4-3, 2.2.4-2, 2.2.4-1, 2.2.4-0
+   :versions:
+      
+      
+
+      ``2.2.4-3``,  ``2.2.4-2``,  ``2.2.4-1``,  ``2.2.4-0``
+
+      
+
    
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

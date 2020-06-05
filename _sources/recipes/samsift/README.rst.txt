@@ -8,6 +8,7 @@ samsift
 
 .. conda:recipe:: samsift
    :replaces_section_title:
+   :noindex:
 
    Advanced filtering and tagging of SAM\/BAM alignments using Python expressions.
 
@@ -22,10 +23,25 @@ samsift
 
    |downloads_samsift| |docker_samsift|
 
-   :versions: 0.2.5-3, 0.2.5-2, 0.2.5-1, 0.2.5-0, 0.2.3-1, 0.2.3-0, 0.2.2-1, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.5-3</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  </span></summary>
+      
+
+      ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends python-dateutil: 
    :requirements:
 

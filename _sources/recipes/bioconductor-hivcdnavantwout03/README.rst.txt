@@ -8,6 +8,7 @@ bioconductor-hivcdnavantwout03
 
 .. conda:recipe:: bioconductor-hivcdnavantwout03
    :replaces_section_title:
+   :noindex:
 
    T cell line infections with HIV\-1 LAI \(BRU\)
 
@@ -22,10 +23,17 @@ bioconductor-hivcdnavantwout03
 
    |downloads_bioconductor-hivcdnavantwout03| |docker_bioconductor-hivcdnavantwout03|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ virmet
 
 .. conda:recipe:: virmet
    :replaces_section_title:
+   :noindex:
 
    A pipeline for viral metagenomics
 
@@ -23,18 +24,33 @@ virmet
 
    |downloads_virmet| |docker_virmet|
 
-   :versions: 1.1.1-0, v1.1.1-5, v1.1.1-4, v1.1.1-3, v1.1.1-2, v1.1.1-1, v1.1.1-0, v1.1-2, v1.1-1, v1.1-0, v1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>v1.1.1-5</code>,  <code>v1.1.1-4</code>,  <code>v1.1.1-3</code>,  <code>v1.1.1-2</code>,  <code>v1.1.1-1</code>,  <code>v1.1.1-0</code>,  <code>v1.1-2</code>,  <code>v1.1-1</code>,  </span></summary>
+      
+
+      ``1.1.1-0``,  ``v1.1.1-5``,  ``v1.1.1-4``,  ``v1.1.1-3``,  ``v1.1.1-2``,  ``v1.1.1-1``,  ``v1.1.1-0``,  ``v1.1-2``,  ``v1.1-1``,  ``v1.1-0``,  ``v1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
-   :depends blast: >=2.3
+   :depends blast: ``>=2.3``
    :depends bwa: 
    :depends entrez-direct: 
    :depends htslib: 
    :depends pandas: 
    :depends prinseq: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends r-ggplot2: 
-   :depends samtools: >=1.3
+   :depends samtools: ``>=1.3``
    :depends seqtk: 
    :requirements:
 

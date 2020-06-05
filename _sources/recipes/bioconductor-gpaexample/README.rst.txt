@@ -8,6 +8,7 @@ bioconductor-gpaexample
 
 .. conda:recipe:: bioconductor-gpaexample
    :replaces_section_title:
+   :noindex:
 
    Example data for the GPA package \(Genetic analysis incorporating Pleiotropy and Annotation\)
 
@@ -22,10 +23,17 @@ bioconductor-gpaexample
 
    |downloads_bioconductor-gpaexample| |docker_bioconductor-gpaexample|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

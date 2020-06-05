@@ -8,6 +8,7 @@ bioconductor-hapmap370k
 
 .. conda:recipe:: bioconductor-hapmap370k
    :replaces_section_title:
+   :noindex:
 
    Example Illumina 370k HapMap Data
 
@@ -22,10 +23,17 @@ bioconductor-hapmap370k
 
    |downloads_bioconductor-hapmap370k| |docker_bioconductor-hapmap370k|
 
-   :versions: 1.0.1-4, 1.0.1-3, 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

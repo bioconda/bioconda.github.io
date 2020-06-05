@@ -8,6 +8,7 @@ bioconductor-gsvadata
 
 .. conda:recipe:: bioconductor-gsvadata
    :replaces_section_title:
+   :noindex:
 
    Data employed in the vignette of the GSVA package
 
@@ -22,13 +23,20 @@ bioconductor-gsvadata
 
    |downloads_bioconductor-gsvadata| |docker_bioconductor-gsvadata|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-hgu95a.db: >=3.2.0,<3.3.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-hgu95a.db: ``>=3.2.0,<3.3.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ asqcan
 
 .. conda:recipe:: asqcan
    :replaces_section_title:
+   :noindex:
 
    A combined pipeline for bacterial genome assembly\, quality control and annotation
 
@@ -22,14 +23,21 @@ asqcan
 
    |downloads_asqcan| |docker_asqcan|
 
-   :versions: 0.2-2, 0.2-1, 0.2-0, 0.1-0
+   :versions:
+      
+      
+
+      ``0.2-2``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+
+      
+
    
    :depends blast: 
    :depends blobtools: 
    :depends fastqc: 
    :depends parallel: 
    :depends prokka: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends quast: 
    :depends spades: 
    :requirements:

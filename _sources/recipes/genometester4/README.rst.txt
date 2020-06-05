@@ -8,6 +8,7 @@ genometester4
 
 .. conda:recipe:: genometester4
    :replaces_section_title:
+   :noindex:
 
    A toolkit for performing set operations \- union\, intersection and complement \- on k\-mer lists.
 
@@ -23,9 +24,16 @@ genometester4
 
    |downloads_genometester4| |docker_genometester4|
 
-   :versions: 4.0-2, 4.0-1, 4.0-0
+   :versions:
+      
+      
+
+      ``4.0-2``,  ``4.0-1``,  ``4.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

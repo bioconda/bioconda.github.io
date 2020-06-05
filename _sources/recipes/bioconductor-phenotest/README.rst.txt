@@ -8,6 +8,7 @@ bioconductor-phenotest
 
 .. conda:recipe:: bioconductor-phenotest
    :replaces_section_title:
+   :noindex:
 
    Tools to test association between gene expression and phenotype in a way that is efficient\, structured\, fast and scalable. We also provide tools to do GSEA \(Gene set enrichment analysis\) and copy number variation.
 
@@ -22,20 +23,27 @@ bioconductor-phenotest
 
    |downloads_bioconductor-phenotest| |docker_bioconductor-phenotest|
 
-   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-1, 1.30.0-0
+   :versions:
+      
+      
+
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends bioconductor-category: >=2.54.0,<2.55.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-heatplus: >=2.34.0,<2.35.0
-   :depends bioconductor-hgu133a.db: >=3.2.0,<3.3.0
-   :depends bioconductor-hopach: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-heatplus: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-hgu133a.db: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-hopach: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bma: 
    :depends r-ellipse: 
    :depends r-ggplot2: 

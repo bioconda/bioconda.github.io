@@ -8,6 +8,7 @@ raxml
 
 .. conda:recipe:: raxml
    :replaces_section_title:
+   :noindex:
 
    Phylogenetics \- Randomized Axelerated Maximum Likelihood.
 
@@ -23,9 +24,24 @@ raxml
 
    |downloads_raxml| |docker_raxml|
 
-   :versions: 8.2.12-1, 8.2.12-0, 8.2.10-1, 8.2.10-0, 8.2.9-2, 8.2.9-1, 8.2.9-0, 8.2.4-2, 8.2.4-1, 8.2.4-0, 7.3.0-1, 7.3.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>8.2.12-1</code>,  <code>8.2.12-0</code>,  <code>8.2.10-1</code>,  <code>8.2.10-0</code>,  <code>8.2.9-2</code>,  <code>8.2.9-1</code>,  <code>8.2.9-0</code>,  <code>8.2.4-2</code>,  <code>8.2.4-1</code>,  </span></summary>
+      
+
+      ``8.2.12-1``,  ``8.2.12-0``,  ``8.2.10-1``,  ``8.2.10-0``,  ``8.2.9-2``,  ``8.2.9-1``,  ``8.2.9-0``,  ``8.2.4-2``,  ``8.2.4-1``,  ``8.2.4-0``,  ``7.3.0-1``,  ``7.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

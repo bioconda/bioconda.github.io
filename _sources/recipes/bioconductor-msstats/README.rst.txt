@@ -8,6 +8,7 @@ bioconductor-msstats
 
 .. conda:recipe:: bioconductor-msstats
    :replaces_section_title:
+   :noindex:
 
    Protein Significance Analysis in DDA\, SRM and DIA for Label\-free or Label\-based Proteomics Experiments
 
@@ -22,12 +23,19 @@ bioconductor-msstats
 
    |downloads_bioconductor-msstats| |docker_bioconductor-msstats|
 
-   :versions: 3.20.0-0, 3.18.0-0, 3.16.0-1, 3.14.1-0, 3.14.0-0
+   :versions:
+      
+      
+
+      ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-marray: >=1.66.0,<1.67.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-marray: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-broom: 
    :depends r-data.table: 
    :depends r-dosnow: 

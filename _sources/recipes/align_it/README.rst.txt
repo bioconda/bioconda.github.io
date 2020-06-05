@@ -8,6 +8,7 @@ align_it
 
 .. conda:recipe:: align_it
    :replaces_section_title:
+   :noindex:
 
    Align\-it is a tool to align molecules according to their pharmacophores. A pharmacophore is an abstract concept based on the specific interactions observed in drug\-receptor interactions\: hydrogen bonding\, charge transfer\, electrostatic and hydrophobic interactions.
 
@@ -22,12 +23,19 @@ align_it
 
    |downloads_align_it| |docker_align_it|
 
-   :versions: 1.0.3-6, 1.0.3-5, 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openbabel: 2.4.1
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openbabel: ``2.4.1``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

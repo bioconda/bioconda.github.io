@@ -8,6 +8,7 @@ apt-probeset-summarize
 
 .. conda:recipe:: apt-probeset-summarize
    :replaces_section_title:
+   :noindex:
 
    From Affymetrix Power Tools package. apt\-probeset\-summarize is program for analyzing expression arrays including 3\' IVT and exon arrays. Supports background correction \(MAS5\,RMA\)\, normalization \(linear scaling\, quantile\, sketch\)\, and summarization \(PLIER\, RMA\, MAS5\) methods.
 
@@ -22,7 +23,14 @@ apt-probeset-summarize
 
    |downloads_apt-probeset-summarize| |docker_apt-probeset-summarize|
 
-   :versions: 2.10.0-0
+   :versions:
+      
+      
+
+      ``2.10.0-0``
+
+      
+
    
    :depends libstdcxx-ng: 
    :requirements:

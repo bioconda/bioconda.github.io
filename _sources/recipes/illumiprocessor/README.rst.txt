@@ -8,6 +8,7 @@ illumiprocessor
 
 .. conda:recipe:: illumiprocessor
    :replaces_section_title:
+   :noindex:
 
    illumiprocessor is a tool to batch process illumina sequencing reads using the excellent trimmomatic package.
 
@@ -22,9 +23,16 @@ illumiprocessor
 
    |downloads_illumiprocessor| |docker_illumiprocessor|
 
-   :versions: 2.0.9-2, 2.0.9-1, 2.0.9-0
+   :versions:
+      
+      
+
+      ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :depends trimmomatic: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-affyilm
 
 .. conda:recipe:: bioconductor-affyilm
    :replaces_section_title:
+   :noindex:
 
    Linear Model of background subtraction and the Langmuir isotherm
 
@@ -23,13 +24,20 @@ bioconductor-affyilm
 
    |downloads_bioconductor-affyilm| |docker_bioconductor-affyilm|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0
+   :versions:
+      
+      
+
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
+
+      
+
    
-   :depends bioconductor-affxparser: >=1.60.0,<1.61.0
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-gcrma: >=2.60.0,<2.61.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affxparser: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-gcrma: ``>=2.60.0,<2.61.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

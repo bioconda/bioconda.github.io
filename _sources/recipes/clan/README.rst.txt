@@ -8,6 +8,7 @@ clan
 
 .. conda:recipe:: clan
    :replaces_section_title:
+   :noindex:
 
    CLAN \- the CrossLinked reads ANalysis tool
 
@@ -23,10 +24,17 @@ clan
 
    |downloads_clan| |docker_clan|
 
-   :versions: 0.05-0
+   :versions:
+      
+      
+
+      ``0.05-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

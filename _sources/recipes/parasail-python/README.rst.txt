@@ -8,6 +8,7 @@ parasail-python
 
 .. conda:recipe:: parasail-python
    :replaces_section_title:
+   :noindex:
 
    pairwise sequence alignment library
 
@@ -22,15 +23,22 @@ parasail-python
 
    |downloads_parasail-python| |docker_parasail-python|
 
-   :versions: 1.2-1, 1.2-0, 1.1.19-0, 1.1.17-1, 1.1.17-0, 1.1.16-0, 1.1.12-2, 1.1.12-1
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``,  ``1.1.19-0``,  ``1.1.17-1``,  ``1.1.17-0``,  ``1.1.16-0``,  ``1.1.12-2``,  ``1.1.12-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends wheel: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

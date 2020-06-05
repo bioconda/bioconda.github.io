@@ -8,6 +8,7 @@ perl-class-inspector
 
 .. conda:recipe:: perl-class-inspector
    :replaces_section_title:
+   :noindex:
 
    Get information about a class and its structure
 
@@ -22,9 +23,16 @@ perl-class-inspector
 
    |downloads_perl-class-inspector| |docker_perl-class-inspector|
 
-   :versions: 1.34-0, 1.32-1, 1.32-0, 1.28-2, 1.28-1, 1.28-0
+   :versions:
+      
+      
+
+      ``1.34-0``,  ``1.32-1``,  ``1.32-0``,  ``1.28-2``,  ``1.28-1``,  ``1.28-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

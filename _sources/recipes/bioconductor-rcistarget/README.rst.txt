@@ -8,6 +8,7 @@ bioconductor-rcistarget
 
 .. conda:recipe:: bioconductor-rcistarget
    :replaces_section_title:
+   :noindex:
 
    RcisTarget\: Identify transcription factor binding motifs enriched on a gene list
 
@@ -22,13 +23,20 @@ bioconductor-rcistarget
 
    |downloads_bioconductor-rcistarget| |docker_bioconductor-rcistarget|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.1-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-aucell: >=1.10.0,<1.11.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-aucell: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-feather: 
    :depends r-r.utils: 

@@ -8,6 +8,7 @@ atlas-metadata-validator
 
 .. conda:recipe:: atlas-metadata-validator
    :replaces_section_title:
+   :noindex:
 
    A MAGE\-TAB validator for Expression Atlas and Single Cell Expression Atlas
 
@@ -28,10 +29,17 @@ atlas-metadata-validator
 
    |downloads_atlas-metadata-validator| |docker_atlas-metadata-validator|
 
-   :versions: 1.3.0-0, 1.2.1-0, 1.2.0-0, 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends python: >=3
-   :depends requests: >=2.20.1
+   :depends python: ``>=3``
+   :depends requests: ``>=2.20.1``
    :requirements:
 
    .. rubric:: Installation

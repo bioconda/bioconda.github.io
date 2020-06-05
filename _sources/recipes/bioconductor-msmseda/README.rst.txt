@@ -8,6 +8,7 @@ bioconductor-msmseda
 
 .. conda:recipe:: bioconductor-msmseda
    :replaces_section_title:
+   :noindex:
 
    Exploratory Data Analysis of LC\-MS\/MS data by spectral counts
 
@@ -23,10 +24,17 @@ bioconductor-msmseda
 
    |downloads_bioconductor-msmseda| |docker_bioconductor-msmseda|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends r-mass: 
    :depends r-rcolorbrewer: 

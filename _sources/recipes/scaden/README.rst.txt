@@ -8,6 +8,7 @@ scaden
 
 .. conda:recipe:: scaden
    :replaces_section_title:
+   :noindex:
 
    Cell type deconvolution using single cell data
 
@@ -22,18 +23,25 @@ scaden
 
    |downloads_scaden| |docker_scaden|
 
-   :versions: 0.9.4-0, 0.9.2-0, 0.9.0-0
+   :versions:
+      
+      
+
+      ``0.9.4-0``,  ``0.9.2-0``,  ``0.9.0-0``
+
+      
+
    
    :depends click: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends scanpy: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
-   :depends tensorflow: >=2
+   :depends tensorflow: ``>=2``
    :depends tqdm: 
    :requirements:
 

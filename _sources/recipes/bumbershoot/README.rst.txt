@@ -8,6 +8,7 @@ bumbershoot
 
 .. conda:recipe:: bumbershoot
    :replaces_section_title:
+   :noindex:
 
    The Bumbershoot tool suite for analyzing shotgun proteomic data
 
@@ -22,7 +23,14 @@ bumbershoot
 
    |downloads_bumbershoot| |docker_bumbershoot|
 
-   :versions: 3_0_11579-0, 3_0_11392-0, 3_0_11391-0, 3_0_11369-0, 3_0_10246-0, 3_0_10158-0
+   :versions:
+      
+      
+
+      ``3_0_11579-0``,  ``3_0_11392-0``,  ``3_0_11391-0``,  ``3_0_11369-0``,  ``3_0_10246-0``,  ``3_0_10158-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

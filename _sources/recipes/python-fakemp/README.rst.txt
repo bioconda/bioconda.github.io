@@ -8,6 +8,7 @@ python-fakemp
 
 .. conda:recipe:: python-fakemp
    :replaces_section_title:
+   :noindex:
 
    Fake multiprocessing pool objects
 
@@ -22,7 +23,14 @@ python-fakemp
 
    |downloads_python-fakemp| |docker_python-fakemp|
 
-   :versions: 0.9.1-2, 0.9.1-1, 0.9.1-0
+   :versions:
+      
+      
+
+      ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

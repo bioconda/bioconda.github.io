@@ -8,6 +8,7 @@ perl-test-most
 
 .. conda:recipe:: perl-test-most
    :replaces_section_title:
+   :noindex:
 
    Most commonly needed test functions and features
 
@@ -22,9 +23,16 @@ perl-test-most
 
    |downloads_perl-test-most| |docker_perl-test-most|
 
-   :versions: 0.35-0, 0.34-2, 0.34-1
+   :versions:
+      
+      
+
+      ``0.35-0``,  ``0.34-2``,  ``0.34-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exception-class: 
    :depends perl-test-deep: 
    :depends perl-test-differences: 

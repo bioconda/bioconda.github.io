@@ -8,6 +8,7 @@ ig-checkflowtypes
 
 .. conda:recipe:: ig-checkflowtypes
    :replaces_section_title:
+   :noindex:
 
    quick flow\-related datatype for galaxy checks
 
@@ -22,13 +23,20 @@ ig-checkflowtypes
 
    |downloads_ig-checkflowtypes| |docker_ig-checkflowtypes|
 
-   :versions: 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
    :depends bioconductor-flowcore: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :requirements:
 
    .. rubric:: Installation

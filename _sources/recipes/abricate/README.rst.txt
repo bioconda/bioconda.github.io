@@ -8,6 +8,7 @@ abricate
 
 .. conda:recipe:: abricate
    :replaces_section_title:
+   :noindex:
 
    Mass screening of contigs for antibiotic resistance genes
 
@@ -22,17 +23,32 @@ abricate
 
    |downloads_abricate| |docker_abricate|
 
-   :versions: 1.0.1-0, 1.0.0-0, 0.9.9-0, 0.9.8-0, 0.9.7-0, 0.9.3-0, 0.8.13-0, 0.8.10-0, 0.8.7-0, 0.8-1, 0.8-0, 0.7-2, 0.7-1, 0.7-0, 0.5-2, 0.5-1, 0.5-0, 0.4-2, 0.4-1, 0.4-0, 0.3-0, 0.2-1, 0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.9-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-0</code>,  <code>0.9.3-0</code>,  <code>0.8.13-0</code>,  <code>0.8.10-0</code>,  <code>0.8.7-0</code>,  </span></summary>
+      
+
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.3-0``,  ``0.8.13-0``,  ``0.8.10-0``,  ``0.8.7-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends any2fasta: 
-   :depends blast: >=2.7
-   :depends perl-bioperl: >=1.7
+   :depends blast: ``>=2.7``
+   :depends perl-bioperl: ``>=1.7``
    :depends perl-json: 
    :depends perl-list-moreutils: 
    :depends perl-lwp-simple: 
    :depends perl-path-tiny: 
    :depends unzip: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

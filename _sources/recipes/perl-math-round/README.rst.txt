@@ -8,6 +8,7 @@ perl-math-round
 
 .. conda:recipe:: perl-math-round
    :replaces_section_title:
+   :noindex:
 
    Perl extension for rounding numbers
 
@@ -22,9 +23,16 @@ perl-math-round
 
    |downloads_perl-math-round| |docker_perl-math-round|
 
-   :versions: 0.07-1, 0.07-0
+   :versions:
+      
+      
+
+      ``0.07-1``,  ``0.07-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

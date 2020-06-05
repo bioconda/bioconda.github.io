@@ -8,6 +8,7 @@ pyasp
 
 .. conda:recipe:: pyasp
    :replaces_section_title:
+   :noindex:
 
    A convenience wrapper for the ASP tools gringo\, gringo4 and clasp.
 
@@ -22,9 +23,16 @@ pyasp
 
    |downloads_pyasp| |docker_pyasp|
 
-   :versions: 1.4.3-1, 1.4.3-0
+   :versions:
+      
+      
+
+      ``1.4.3-1``,  ``1.4.3-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

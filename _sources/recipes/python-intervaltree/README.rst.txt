@@ -8,6 +8,7 @@ python-intervaltree
 
 .. conda:recipe:: python-intervaltree
    :replaces_section_title:
+   :noindex:
 
    Faster than intervaltree\_bio
 
@@ -22,7 +23,14 @@ python-intervaltree
 
    |downloads_python-intervaltree| |docker_python-intervaltree|
 
-   :versions: 3.0.2-0, 3.0.1-0, 2.1.0-0
+   :versions:
+      
+      
+
+      ``3.0.2-0``,  ``3.0.1-0``,  ``2.1.0-0``
+
+      
+
    
    :depends python: 
    :depends python-sortedcontainers: 

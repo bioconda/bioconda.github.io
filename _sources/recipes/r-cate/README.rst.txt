@@ -8,6 +8,7 @@ r-cate
 
 .. conda:recipe:: r-cate
    :replaces_section_title:
+   :noindex:
 
    Provides several methods for factor analysis in high dimension \(both n\,p \>\> 1\) and methods to adjust for possible confounders in multiple hypothesis testing.
 
@@ -22,10 +23,17 @@ r-cate
 
    |downloads_r-cate| |docker_r-cate|
 
-   :versions: 1.1-1, 1.1-0, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``,  ``1.0.4-0``
+
+      
+
    
    :depends bioconductor-sva: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corpcor: 
    :depends r-esabcv: 
    :depends r-leapp: 

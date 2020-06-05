@@ -8,6 +8,7 @@ alder
 
 .. conda:recipe:: alder
    :replaces_section_title:
+   :noindex:
 
    The ALDER software computes the weighted linkage disequilibrium \(LD\) statistic for making inference about population admixture
 
@@ -23,12 +24,19 @@ alder
 
    |downloads_alder| |docker_alder|
 
-   :versions: 1.03-0
+   :versions:
+      
+      
+
+      ``1.03-0``
+
+      
+
    
    :depends fftw: 
    :depends lapack: 
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ protmapper
 
 .. conda:recipe:: protmapper
    :replaces_section_title:
+   :noindex:
 
    Map protein sites to human reference sequence.
 
@@ -24,10 +25,17 @@ protmapper
 
    |downloads_protmapper| |docker_protmapper|
 
-   :versions: 0.0.16-0, 0.0.14-0, 0.0.13-0
+   :versions:
+      
+      
+
+      ``0.0.16-0``,  ``0.0.14-0``,  ``0.0.13-0``
+
+      
+
    
    :depends boto3: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends rdflib: 
    :depends requests: 
    :requirements:

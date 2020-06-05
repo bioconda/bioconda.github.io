@@ -8,6 +8,7 @@ primer3-py
 
 .. conda:recipe:: primer3-py
    :replaces_section_title:
+   :noindex:
 
    Primer3\-py is a Python\-abstracted API for the popular Primer3 library.
 
@@ -22,11 +23,18 @@ primer3-py
 
    |downloads_primer3-py| |docker_primer3-py|
 
-   :versions: 0.6.0-1, 0.6.0-0, 0.5.4-3, 0.5.4-2, 0.5.4-1, 0.5.1-0
+   :versions:
+      
+      
+
+      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

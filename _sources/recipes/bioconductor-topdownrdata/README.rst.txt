@@ -8,6 +8,7 @@ bioconductor-topdownrdata
 
 .. conda:recipe:: bioconductor-topdownrdata
    :replaces_section_title:
+   :noindex:
 
    Example Files for the topdownr R Package
 
@@ -22,11 +23,18 @@ bioconductor-topdownrdata
 
    |downloads_bioconductor-topdownrdata| |docker_bioconductor-topdownrdata|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-topdownr: >=1.10.0,<1.11.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-topdownr: ``>=1.10.0,<1.11.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-apcomplex
 
 .. conda:recipe:: bioconductor-apcomplex
    :replaces_section_title:
+   :noindex:
 
    Estimate protein complex membership using AP\-MS protein data
 
@@ -23,13 +24,20 @@ bioconductor-apcomplex
 
    |downloads_bioconductor-apcomplex| |docker_bioconductor-apcomplex|
 
-   :versions: 2.54.0-0, 2.52.0-0, 2.50.0-1, 2.48.0-0, 2.46.0-0, 2.44.0-0
+   :versions:
+      
+      
+
+      ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``
+
+      
+
    
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-org.sc.sgd.db: >=3.11.0,<3.12.0
-   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-org.sc.sgd.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-rbgl: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

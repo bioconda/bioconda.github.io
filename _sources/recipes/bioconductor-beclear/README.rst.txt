@@ -8,6 +8,7 @@ bioconductor-beclear
 
 .. conda:recipe:: bioconductor-beclear
    :replaces_section_title:
+   :noindex:
 
    Correction of batch effects in DNA methylation data
 
@@ -23,16 +24,23 @@ bioconductor-beclear
 
    |downloads_bioconductor-beclear| |docker_bioconductor-beclear|
 
-   :versions: 2.4.0-0, 2.2.0-0, 2.0.0-1, 2.0.0-0, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends r-abind: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-data.table: >=1.11.8
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: ``>=1.11.8``
    :depends r-futile.logger: 
    :depends r-matrix: 
    :depends r-outliers: 

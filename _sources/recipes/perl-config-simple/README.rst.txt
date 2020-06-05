@@ -8,6 +8,7 @@ perl-config-simple
 
 .. conda:recipe:: perl-config-simple
    :replaces_section_title:
+   :noindex:
 
    simple configuration file class
 
@@ -22,9 +23,16 @@ perl-config-simple
 
    |downloads_perl-config-simple| |docker_perl-config-simple|
 
-   :versions: 4.58-1, 4.58-0
+   :versions:
+      
+      
+
+      ``4.58-1``,  ``4.58-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

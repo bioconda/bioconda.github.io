@@ -8,6 +8,7 @@ rsidx
 
 .. conda:recipe:: rsidx
    :replaces_section_title:
+   :noindex:
 
    Library for indexing VCF files for random access searches by rsID
 
@@ -22,9 +23,16 @@ rsidx
 
    |downloads_rsidx| |docker_rsidx|
 
-   :versions: 0.2-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.2-0``,  ``0.1.1-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends tabix: 
    :requirements:
 

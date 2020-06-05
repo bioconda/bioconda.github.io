@@ -8,6 +8,7 @@ pymisc-utils
 
 .. conda:recipe:: pymisc-utils
    :replaces_section_title:
+   :noindex:
 
    Utility library for rp\-bp
 
@@ -22,15 +23,22 @@ pymisc-utils
 
    |downloads_pymisc-utils| |docker_pymisc-utils|
 
-   :versions: 0.2.11-0, 0.2.10-1, 0.2.10-0
+   :versions:
+      
+      
+
+      ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``
+
+      
+
    
    :depends cython: 
    :depends dask: 
    :depends docopt: 
    :depends fastparquet: 
-   :depends graphviz: >=2.38.0,<3.0a0
+   :depends graphviz: ``>=2.38.0,<3.0a0``
    :depends joblib: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends matplotlib: 
    :depends networkx: 
    :depends nltk: 
@@ -39,7 +47,7 @@ pymisc-utils
    :depends pandas: 
    :depends paramiko: 
    :depends pydot: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: ``>=3.5,<3.6.0a0``
    :depends scikit-learn: 
    :depends scipy: 
    :depends six: 

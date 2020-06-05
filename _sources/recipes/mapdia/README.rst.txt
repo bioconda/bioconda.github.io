@@ -8,6 +8,7 @@ mapdia
 
 .. conda:recipe:: mapdia
    :replaces_section_title:
+   :noindex:
 
    Performs essential data preprocessing\, including novel retention time\-based normalization method and a sequence of peptide\/fragment selection steps\, and more importantly\, hierarchical model\-based statistical significance analysis for multi\-group comparisons under representative experimental designs.
 
@@ -23,10 +24,17 @@ mapdia
 
    |downloads_mapdia| |docker_mapdia|
 
-   :versions: 3.1.0-0, 1.0-0
+   :versions:
+      
+      
+
+      ``3.1.0-0``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

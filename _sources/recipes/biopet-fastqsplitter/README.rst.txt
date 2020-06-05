@@ -8,6 +8,7 @@ biopet-fastqsplitter
 
 .. conda:recipe:: biopet-fastqsplitter
    :replaces_section_title:
+   :noindex:
 
    This tool divides a fastq file into smaller fastq files\, based on the number of output files specified.
 
@@ -44,9 +45,16 @@ biopet-fastqsplitter
 
    |downloads_biopet-fastqsplitter| |docker_biopet-fastqsplitter|
 
-   :versions: 0.1-2, 0.1-1
+   :versions:
+      
+      
+
+      ``0.1-2``,  ``0.1-1``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

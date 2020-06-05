@@ -8,6 +8,7 @@ pydpi
 
 .. conda:recipe:: pydpi
    :replaces_section_title:
+   :noindex:
 
    A powerful tool for chemoinformatics\, bioinforamtics and chemogenomics study
 
@@ -22,7 +23,14 @@ pydpi
 
    |downloads_pydpi| |docker_pydpi|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

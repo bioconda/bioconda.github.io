@@ -8,6 +8,7 @@ perl-obogaf-parser
 
 .. conda:recipe:: perl-obogaf-parser
    :replaces_section_title:
+   :noindex:
 
    a perl5 module to handle obo and gaf file
 
@@ -29,9 +30,16 @@ perl-obogaf-parser
 
    |downloads_perl-obogaf-parser| |docker_perl-obogaf-parser|
 
-   :versions: 1.373-0, 1.272-0, 1.271-0, 1.016-0
+   :versions:
+      
+      
+
+      ``1.373-0``,  ``1.272-0``,  ``1.271-0``,  ``1.016-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-graph: 
    :depends perl-list-moreutils: 
    :depends perl-perlio-gzip: 

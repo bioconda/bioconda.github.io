@@ -8,6 +8,7 @@ callstate
 
 .. conda:recipe:: callstate
    :replaces_section_title:
+   :noindex:
 
    A replacement for GATK3 CallableLoci
 
@@ -22,11 +23,18 @@ callstate
 
    |downloads_callstate| |docker_callstate|
 
-   :versions: 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.2-0``
+
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends pcre: >=8.43,<9.0a0
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends pcre: ``>=8.43,<9.0a0``
    :requirements:
 
    .. rubric:: Installation

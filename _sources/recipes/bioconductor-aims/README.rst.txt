@@ -8,6 +8,7 @@ bioconductor-aims
 
 .. conda:recipe:: bioconductor-aims
    :replaces_section_title:
+   :noindex:
 
    AIMS \: Absolute Assignment of Breast Cancer Intrinsic Molecular Subtype
 
@@ -23,10 +24,17 @@ bioconductor-aims
 
    |downloads_bioconductor-aims| |docker_bioconductor-aims|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 
    :requirements:
 

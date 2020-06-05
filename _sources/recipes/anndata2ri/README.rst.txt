@@ -8,6 +8,7 @@ anndata2ri
 
 .. conda:recipe:: anndata2ri
    :replaces_section_title:
+   :noindex:
 
    Convert between AnnData and SingleCellExperiment
 
@@ -22,12 +23,19 @@ anndata2ri
 
    |downloads_anndata2ri| |docker_anndata2ri|
 
-   :versions: 1.0.2-0, 1.0.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``
+
+      
+
    
    :depends anndata: 
    :depends get_version: 
-   :depends python: >=3.6
-   :depends rpy2: >=3.0.1
+   :depends python: ``>=3.6``
+   :depends rpy2: ``>=3.0.1``
    :depends tzlocal: 
    :requirements:
 

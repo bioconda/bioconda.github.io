@@ -8,6 +8,7 @@ bioconductor-enrichplot
 
 .. conda:recipe:: bioconductor-enrichplot
    :replaces_section_title:
+   :noindex:
 
    Visualization of Functional Enrichment Result
 
@@ -22,12 +23,19 @@ bioconductor-enrichplot
 
    |downloads_bioconductor-enrichplot| |docker_bioconductor-enrichplot|
 
-   :versions: 1.8.1-0, 1.6.0-0, 1.4.0-1, 1.2.0-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-dose: >=3.14.0,<3.15.0
-   :depends bioconductor-gosemsim: >=2.14.0,<2.15.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-gosemsim: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-europepmc: 
    :depends r-ggplot2: 

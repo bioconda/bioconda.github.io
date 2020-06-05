@@ -8,6 +8,7 @@ perl-dbi
 
 .. conda:recipe:: perl-dbi
    :replaces_section_title:
+   :noindex:
 
    Database independent interface for Perl
 
@@ -22,9 +23,16 @@ perl-dbi
 
    |downloads_perl-dbi| |docker_perl-dbi|
 
-   :versions: 1.642-0, 1.641-2, 1.641-1, 1.641-0, 1.640-0, 1.636-0, 1.634-2, 1.634-1, 1.634-0
+   :versions:
+      
+      
+
+      ``1.642-0``,  ``1.641-2``,  ``1.641-1``,  ``1.641-0``,  ``1.640-0``,  ``1.636-0``,  ``1.634-2``,  ``1.634-1``,  ``1.634-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

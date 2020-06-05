@@ -8,6 +8,7 @@ isescan
 
 .. conda:recipe:: isescan
    :replaces_section_title:
+   :noindex:
 
    A python pipeline to identify IS \(Insertion Sequence\) elements in genome and metagenome 
 
@@ -22,17 +23,24 @@ isescan
 
    |downloads_isescan| |docker_isescan|
 
-   :versions: 1.7.2.1-0, 1.7.2-0, 1.7.1-1, 1.7.1-0
+   :versions:
+      
+      
+
+      ``1.7.2.1-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``
+
+      
+
    
-   :depends biopython: >=1.62
-   :depends blast: >=2.2.31
+   :depends biopython: ``>=1.62``
+   :depends blast: ``>=2.2.31``
    :depends fastcluster: 
-   :depends fraggenescan: <=1.30
-   :depends hmmer: >=3.1b2
-   :depends libgcc-ng: >=7.3.0
-   :depends numpy: >=1.8
-   :depends python: >=3
-   :depends scipy: >=0.13.1
+   :depends fraggenescan: ``<=1.30``
+   :depends hmmer: ``>=3.1b2``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.8``
+   :depends python: ``>=3``
+   :depends scipy: ``>=0.13.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-fastx-abi
 
 .. conda:recipe:: perl-fastx-abi
    :replaces_section_title:
+   :noindex:
 
    FASTX\:\:Abi \- Read Sanger trace file \(.ab1 chromatograms\) in FASTQ format. For traces called with hetero option\, the ambiguities will be split into two sequences to allow usage from NGS tools that usually do not understand IUPAC ambiguities. 
 
@@ -25,9 +26,16 @@ perl-fastx-abi
 
    |downloads_perl-fastx-abi| |docker_perl-fastx-abi|
 
-   :versions: 0.11-0, 0.08-0
+   :versions:
+      
+      
+
+      ``0.11-0``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-trace-abif: 
    :depends perl-carp: 
    :requirements:

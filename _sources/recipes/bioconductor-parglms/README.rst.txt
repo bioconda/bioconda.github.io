@@ -8,6 +8,7 @@ bioconductor-parglms
 
 .. conda:recipe:: bioconductor-parglms
    :replaces_section_title:
+   :noindex:
 
    support for parallelized estimation of GLMs\/GEEs
 
@@ -22,10 +23,17 @@ bioconductor-parglms
 
    |downloads_bioconductor-parglms| |docker_bioconductor-parglms|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-batchjobs: 
    :depends r-doparallel: 
    :depends r-foreach: 

@@ -8,6 +8,7 @@ jarvis
 
 .. conda:recipe:: jarvis
    :replaces_section_title:
+   :noindex:
 
    Efficient lossless compression of genomic sequences
 
@@ -22,9 +23,16 @@ jarvis
 
    |downloads_jarvis| |docker_jarvis|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

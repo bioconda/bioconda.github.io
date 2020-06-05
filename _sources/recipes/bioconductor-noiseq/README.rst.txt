@@ -8,6 +8,7 @@ bioconductor-noiseq
 
 .. conda:recipe:: bioconductor-noiseq
    :replaces_section_title:
+   :noindex:
 
    Exploratory analysis and differential expression for RNA\-seq data
 
@@ -23,11 +24,18 @@ bioconductor-noiseq
 
    |downloads_bioconductor-noiseq| |docker_bioconductor-noiseq|
 
-   :versions: 2.31.0-0, 2.30.0-0, 2.28.0-1, 2.26.1-0, 2.26.0-0, 2.24.0-0, 2.22.0-0, 2.20.0-0, 2.18.0-0
+   :versions:
+      
+      
+
+      ``2.31.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.1-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-matrix: >=1.2
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-matrix: ``>=1.2``
    :requirements:
 
    .. rubric:: Installation

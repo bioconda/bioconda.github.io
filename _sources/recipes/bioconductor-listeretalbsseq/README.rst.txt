@@ -8,6 +8,7 @@ bioconductor-listeretalbsseq
 
 .. conda:recipe:: bioconductor-listeretalbsseq
    :replaces_section_title:
+   :noindex:
 
    BS\-seq data of H1 and IMR90 cell line excerpted from Lister et al. 2009
 
@@ -22,11 +23,18 @@ bioconductor-listeretalbsseq
 
    |downloads_bioconductor-listeretalbsseq| |docker_bioconductor-listeretalbsseq|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-1, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-1``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-methylpipe: >=1.22.0,<1.23.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-methylpipe: ``>=1.22.0,<1.23.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

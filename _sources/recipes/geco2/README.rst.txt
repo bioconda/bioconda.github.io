@@ -8,6 +8,7 @@ geco2
 
 .. conda:recipe:: geco2
    :replaces_section_title:
+   :noindex:
 
    A fast tool to compress DNA sequences
 
@@ -22,9 +23,16 @@ geco2
 
    |downloads_geco2| |docker_geco2|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

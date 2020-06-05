@@ -8,6 +8,7 @@ dx-cwl
 
 .. conda:recipe:: dx-cwl
    :replaces_section_title:
+   :noindex:
 
    Import and run CWL workflows on DNAnexus
 
@@ -22,12 +23,27 @@ dx-cwl
 
    |downloads_dx-cwl| |docker_dx-cwl|
 
-   :versions: 0.1.0a20180905-2, 0.1.0a20180905-1, 0.1.0a20180905-0, 0.1.0a20180829-0, 0.1.0a20180820-0, 0.1.0a20180119-1, 0.1.0a20180119-0, 0.1.0a20180116-0, 0.1.0a20171231-0, 0.1.0a20171222-0, 0.1.0a20171221-0, 0.1.0a20171213-0, 0.1.0a20171211-0, 0.1.0a20171206-0, 0.1.0a20171029-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.1.0a20180905-2</code>,  <code>0.1.0a20180905-1</code>,  <code>0.1.0a20180905-0</code>,  <code>0.1.0a20180829-0</code>,  <code>0.1.0a20180820-0</code>,  <code>0.1.0a20180119-1</code>,  <code>0.1.0a20180119-0</code>,  <code>0.1.0a20180116-0</code>,  <code>0.1.0a20171231-0</code>,  </span></summary>
+      
+
+      ``0.1.0a20180905-2``,  ``0.1.0a20180905-1``,  ``0.1.0a20180905-0``,  ``0.1.0a20180829-0``,  ``0.1.0a20180820-0``,  ``0.1.0a20180119-1``,  ``0.1.0a20180119-0``,  ``0.1.0a20180116-0``,  ``0.1.0a20171231-0``,  ``0.1.0a20171222-0``,  ``0.1.0a20171221-0``,  ``0.1.0a20171213-0``,  ``0.1.0a20171211-0``,  ``0.1.0a20171206-0``,  ``0.1.0a20171029-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends cwltool: 
    :depends dxpy: 
    :depends futures: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends pyyaml: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-list-compare
 
 .. conda:recipe:: perl-list-compare/0.53
    :replaces_section_title:
+   :noindex:
 
    Compare elements of two or more lists
 
@@ -22,9 +23,16 @@ perl-list-compare
 
    |downloads_perl-list-compare| |docker_perl-list-compare|
 
-   :versions: 0.53-1, 0.53-0
+   :versions:
+      
+      
+
+      ``0.53-1``,  ``0.53-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

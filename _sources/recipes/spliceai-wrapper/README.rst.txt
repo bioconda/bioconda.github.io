@@ -8,6 +8,7 @@ spliceai-wrapper
 
 .. conda:recipe:: spliceai-wrapper
    :replaces_section_title:
+   :noindex:
 
    A caching wrapper for Illumina SpliceAI.
 
@@ -22,7 +23,14 @@ spliceai-wrapper
 
    |downloads_spliceai-wrapper| |docker_spliceai-wrapper|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends bcftools: 
    :depends logzero: 

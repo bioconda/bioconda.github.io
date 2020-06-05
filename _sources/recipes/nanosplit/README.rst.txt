@@ -8,6 +8,7 @@ nanosplit
 
 .. conda:recipe:: nanosplit
    :replaces_section_title:
+   :noindex:
 
    Perform splitting of Oxford Nanopore sequencing data in a fail and pass dataset.
 
@@ -22,13 +23,20 @@ nanosplit
 
    |downloads_nanosplit| |docker_nanosplit|
 
-   :versions: 0.1.4-0
+   :versions:
+      
+      
+
+      ``0.1.4-0``
+
+      
+
    
    :depends biopython: 
    :depends nanoget: 
    :depends nanomath: 
    :depends pypandoc: 
-   :depends python: 3.5*
+   :depends python: ``3.5*``
    :requirements:
 
    .. rubric:: Installation

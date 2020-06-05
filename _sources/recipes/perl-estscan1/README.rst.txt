@@ -8,6 +8,7 @@ perl-estscan1
 
 .. conda:recipe:: perl-estscan1/1.3
    :replaces_section_title:
+   :noindex:
 
    Detects coding regions in DNA sequences even if they are of low quality. ESTScan.pm contains the Perl part of the code that reads in the matrices file. The C code that does the actual computation is located in estscan.c.
 
@@ -22,9 +23,16 @@ perl-estscan1
 
    |downloads_perl-estscan1| |docker_perl-estscan1|
 
-   :versions: 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-1``,  ``1.3-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-btlib: 
    :requirements:
 

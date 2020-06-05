@@ -8,6 +8,7 @@ bioconductor-metagenomefeatures
 
 .. conda:recipe:: bioconductor-metagenomefeatures
    :replaces_section_title:
+   :noindex:
 
    Exploration of marker\-gene sequence taxonomic annotations
 
@@ -22,21 +23,28 @@ bioconductor-metagenomefeatures
 
    |downloads_bioconductor-metagenomefeatures| |docker_bioconductor-metagenomefeatures|
 
-   :versions: 2.8.0-0, 2.6.0-0, 2.4.0-1, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.2.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-decipher: >=2.16.0,<2.17.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-ape: >=3.5
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dbplyr: >=1.0.0
-   :depends r-dplyr: >=0.7.0
-   :depends r-lattice: >=0.20.33
-   :depends r-lazyeval: >=0.1.10
-   :depends r-magrittr: >=1.5
-   :depends r-rsqlite: >=1.0.0
-   :depends r-stringr: >=1.0.0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-decipher: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-ape: ``>=3.5``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dbplyr: ``>=1.0.0``
+   :depends r-dplyr: ``>=0.7.0``
+   :depends r-lattice: ``>=0.20.33``
+   :depends r-lazyeval: ``>=0.1.10``
+   :depends r-magrittr: ``>=1.5``
+   :depends r-rsqlite: ``>=1.0.0``
+   :depends r-stringr: ``>=1.0.0``
    :requirements:
 
    .. rubric:: Installation

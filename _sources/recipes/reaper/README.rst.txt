@@ -8,6 +8,7 @@ reaper
 
 .. conda:recipe:: reaper
    :replaces_section_title:
+   :noindex:
 
    Tool for demultiplexing\, trimming and filtering sequencing data.
 
@@ -22,10 +23,17 @@ reaper
 
    |downloads_reaper| |docker_reaper|
 
-   :versions: 16.098-2, 16.098-1, 16.098-0
+   :versions:
+      
+      
+
+      ``16.098-2``,  ``16.098-1``,  ``16.098-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

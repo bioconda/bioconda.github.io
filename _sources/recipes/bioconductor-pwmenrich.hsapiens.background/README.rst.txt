@@ -8,6 +8,7 @@ bioconductor-pwmenrich.hsapiens.background
 
 .. conda:recipe:: bioconductor-pwmenrich.hsapiens.background
    :replaces_section_title:
+   :noindex:
 
    H. sapiens background for PWMEnrich
 
@@ -22,11 +23,18 @@ bioconductor-pwmenrich.hsapiens.background
 
    |downloads_bioconductor-pwmenrich.hsapiens.background| |docker_bioconductor-pwmenrich.hsapiens.background|
 
-   :versions: 4.22.0-0, 4.20.0-0, 4.18.0-1, 4.16.0-0
+   :versions:
+      
+      
+
+      ``4.22.0-0``,  ``4.20.0-0``,  ``4.18.0-1``,  ``4.16.0-0``
+
+      
+
    
-   :depends bioconductor-pwmenrich: >=4.23.0,<4.24.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-pwmenrich: ``>=4.23.0,<4.24.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

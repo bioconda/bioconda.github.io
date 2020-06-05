@@ -8,6 +8,7 @@ isonclust
 
 .. conda:recipe:: isonclust
    :replaces_section_title:
+   :noindex:
 
    De novo clustering of long\-read transcriptome reads.
 
@@ -23,11 +24,18 @@ isonclust
 
    |downloads_isonclust| |docker_isonclust|
 
-   :versions: 0.0.6-1, 0.0.6-0
+   :versions:
+      
+      
+
+      ``0.0.6-1``,  ``0.0.6-0``
+
+      
+
    
-   :depends parasail-python: >=1.1.11
-   :depends pysam: >=0.11
-   :depends python: >=3.4
+   :depends parasail-python: ``>=1.1.11``
+   :depends pysam: ``>=0.11``
+   :depends python: ``>=3.4``
    :requirements:
 
    .. rubric:: Installation

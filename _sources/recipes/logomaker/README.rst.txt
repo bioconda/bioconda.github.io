@@ -8,6 +8,7 @@ logomaker
 
 .. conda:recipe:: logomaker
    :replaces_section_title:
+   :noindex:
 
    Package for making Sequence Logos
 
@@ -22,7 +23,14 @@ logomaker
 
    |downloads_logomaker| |docker_logomaker|
 
-   :versions: 0.8-0
+   :versions:
+      
+      
+
+      ``0.8-0``
+
+      
+
    
    :depends matplotlib: 
    :depends numpy: 

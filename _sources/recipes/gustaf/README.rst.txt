@@ -8,6 +8,7 @@ gustaf
 
 .. conda:recipe:: gustaf
    :replaces_section_title:
+   :noindex:
 
    Gustaf is a tool primarily designed for multi\-split mapping of sequencing reads.
 
@@ -22,7 +23,14 @@ gustaf
 
    |downloads_gustaf| |docker_gustaf|
 
-   :versions: 1.0.8-1, 1.0.8-0
+   :versions:
+      
+      
+
+      ``1.0.8-1``,  ``1.0.8-0``
+
+      
+
    
    :requirements:
 

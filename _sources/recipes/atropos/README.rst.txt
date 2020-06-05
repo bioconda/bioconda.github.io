@@ -8,6 +8,7 @@ atropos
 
 .. conda:recipe:: atropos
    :replaces_section_title:
+   :noindex:
 
    trim adapters from high\-throughput sequencing reads
 
@@ -22,13 +23,28 @@ atropos
 
    |downloads_atropos| |docker_atropos|
 
-   :versions: 1.1.27-0, 1.1.26-0, 1.1.25-0, 1.1.24-0, 1.1.23-0, 1.1.22-1, 1.1.22-0, 1.1.21-0, 1.1.19-0, 1.1.18-1, 1.1.18-0, 1.1.16-0, 1.1.10-0, 1.1.5-0, 1.1.4-0, 1.1.2-0, 1.0.23-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.1.27-0</code>,  <code>1.1.26-0</code>,  <code>1.1.25-0</code>,  <code>1.1.24-0</code>,  <code>1.1.23-0</code>,  <code>1.1.22-1</code>,  <code>1.1.22-0</code>,  <code>1.1.21-0</code>,  <code>1.1.19-0</code>,  </span></summary>
+      
+
+      ``1.1.27-0``,  ``1.1.26-0``,  ``1.1.25-0``,  ``1.1.24-0``,  ``1.1.23-0``,  ``1.1.22-1``,  ``1.1.22-0``,  ``1.1.21-0``,  ``1.1.19-0``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.16-0``,  ``1.1.10-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.0.23-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends jinja2: 
-   :depends libgcc-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends tqdm: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-roseq
 
 .. conda:recipe:: bioconductor-roseq
    :replaces_section_title:
+   :noindex:
 
    A Rank Based Approach to Modeling Gene Expression
 
@@ -22,11 +23,18 @@ bioconductor-roseq
 
    |downloads_bioconductor-roseq| |docker_bioconductor-roseq|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-pbmcapply: 
    :requirements:
 

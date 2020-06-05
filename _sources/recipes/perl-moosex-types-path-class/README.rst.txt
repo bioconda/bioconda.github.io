@@ -8,6 +8,7 @@ perl-moosex-types-path-class
 
 .. conda:recipe:: perl-moosex-types-path-class
    :replaces_section_title:
+   :noindex:
 
    A Path\:\:Class type library for Moose
 
@@ -22,9 +23,16 @@ perl-moosex-types-path-class
 
    |downloads_perl-moosex-types-path-class| |docker_perl-moosex-types-path-class|
 
-   :versions: 0.09-4, 0.09-3, 0.09-2, 0.09-0
+   :versions:
+      
+      
+
+      ``0.09-4``,  ``0.09-3``,  ``0.09-2``,  ``0.09-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-moosex-types: 
    :depends perl-path-class: 
    :requirements:

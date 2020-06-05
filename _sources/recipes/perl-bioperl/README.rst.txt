@@ -8,6 +8,7 @@ perl-bioperl
 
 .. conda:recipe:: perl-bioperl
    :replaces_section_title:
+   :noindex:
 
    Bioinformatics Toolkit
 
@@ -23,9 +24,24 @@ perl-bioperl
 
    |downloads_perl-bioperl| |docker_perl-bioperl|
 
-   :versions: 1.7.2-11, 1.7.2-10, 1.7.2-9, 1.7.2-8, 1.6.924-7, 1.6.924-6, 1.6.924-5, 1.6.924-4, 1.6.924-3, 1.6.924-2, 1.6.924-1, 1.6.924-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.7.2-11</code>,  <code>1.7.2-10</code>,  <code>1.7.2-9</code>,  <code>1.7.2-8</code>,  <code>1.6.924-7</code>,  <code>1.6.924-6</code>,  <code>1.6.924-5</code>,  <code>1.6.924-4</code>,  <code>1.6.924-3</code>,  </span></summary>
+      
+
+      ``1.7.2-11``,  ``1.7.2-10``,  ``1.7.2-9``,  ``1.7.2-8``,  ``1.6.924-7``,  ``1.6.924-6``,  ``1.6.924-5``,  ``1.6.924-4``,  ``1.6.924-3``,  ``1.6.924-2``,  ``1.6.924-1``,  ``1.6.924-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-asn1-entrezgene: 
    :depends perl-bio-coordinate: 
    :depends perl-bio-featureio: 
@@ -33,7 +49,7 @@ perl-bioperl
    :depends perl-bio-tools-phylo-paml: 
    :depends perl-bio-tools-run-alignment-clustalw: 
    :depends perl-bio-tools-run-alignment-tcoffee: 
-   :depends perl-bioperl-core: 1.007002
+   :depends perl-bioperl-core: ``1.007002``
    :depends perl-bioperl-run: 
    :requirements:
 

@@ -8,6 +8,7 @@ r-scimpute
 
 .. conda:recipe:: r-scimpute
    :replaces_section_title:
+   :noindex:
 
    scImpute is accurate and robust imputation of single\-cell RNA sequencing data.
 
@@ -23,10 +24,17 @@ r-scimpute
 
    |downloads_r-scimpute| |docker_r-scimpute|
 
-   :versions: 0.0.8-1, 0.0.8-0, 0.0.6-1, 0.0.6-0
+   :versions:
+      
+      
+
+      ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.6-1``,  ``0.0.6-0``
+
+      
+
    
    :depends parallel: 
-   :depends r: >=3.3.2
+   :depends r: ``>=3.3.2``
    :depends r-devtools: 
    :depends r-doparallel: 
    :depends r-foreach: 

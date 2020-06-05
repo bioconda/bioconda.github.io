@@ -8,6 +8,7 @@ graphclust-wrappers
 
 .. conda:recipe:: graphclust-wrappers
    :replaces_section_title:
+   :noindex:
 
    The set of individual perl wrappers extracted from GraphClust pipeline
 
@@ -22,11 +23,26 @@ graphclust-wrappers
 
    |downloads_graphclust-wrappers| |docker_graphclust-wrappers|
 
-   :versions: 0.6.0-2, 0.6.0-1, 0.5.2-1, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.3.1-0, 0.3.0-0, 0.2.0-0, 0.1.12-0, 0.1.11-0, 0.1.10-0, 0.1.9-0, 0.1.8-1, 0.1.8-0, 0.1.7-0, 0.1-3, 0.1-2, 0.1-1, 0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
+
+      ``0.6.0-2``,  ``0.6.0-1``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: 1.70.0.*
-   :depends pandas: 0.23.0.*
-   :depends perl: >=5.22.0
+   :depends biopython: ``1.70.0.*``
+   :depends pandas: ``0.23.0.*``
+   :depends perl: ``>=5.22.0``
    :depends perl-array-utils: 
    :depends perl-math-round: 
    :requirements:

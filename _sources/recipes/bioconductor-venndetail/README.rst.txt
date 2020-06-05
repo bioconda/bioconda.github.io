@@ -8,6 +8,7 @@ bioconductor-venndetail
 
 .. conda:recipe:: bioconductor-venndetail
    :replaces_section_title:
+   :noindex:
 
    A package for visualization and extract details
 
@@ -22,9 +23,16 @@ bioconductor-venndetail
 
    |downloads_bioconductor-venndetail| |docker_bioconductor-venndetail|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-futile.logger: 
    :depends r-ggplot2: 

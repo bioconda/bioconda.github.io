@@ -8,6 +8,7 @@ perl-variable-magic
 
 .. conda:recipe:: perl-variable-magic/0.61
    :replaces_section_title:
+   :noindex:
 
    Associate user\-defined magic to variables from Perl.
 
@@ -22,9 +23,16 @@ perl-variable-magic
 
    |downloads_perl-variable-magic| |docker_perl-variable-magic|
 
-   :versions: 0.61-1, 0.61-0
+   :versions:
+      
+      
+
+      ``0.61-1``,  ``0.61-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-xsloader: 
    :requirements:
 

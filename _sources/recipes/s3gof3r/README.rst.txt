@@ -8,6 +8,7 @@ s3gof3r
 
 .. conda:recipe:: s3gof3r
    :replaces_section_title:
+   :noindex:
 
    Fast\, concurrent\, streaming access to Amazon S3\, including gof3r\, a CLI
 
@@ -22,7 +23,14 @@ s3gof3r
 
    |downloads_s3gof3r| |docker_s3gof3r|
 
-   :versions: 0.5.0-1, 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-1``,  ``0.5.0-0``
+
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ perl-socket
 
 .. conda:recipe:: perl-socket/2.027
    :replaces_section_title:
+   :noindex:
 
    networking constants and support functions
 
@@ -22,9 +23,16 @@ perl-socket
 
    |downloads_perl-socket| |docker_perl-socket|
 
-   :versions: 2.027-1, 2.027-0
+   :versions:
+      
+      
+
+      ``2.027-1``,  ``2.027-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

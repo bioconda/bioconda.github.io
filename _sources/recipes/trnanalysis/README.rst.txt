@@ -8,6 +8,7 @@ trnanalysis
 
 .. conda:recipe:: trnanalysis
    :replaces_section_title:
+   :noindex:
 
    tRNA analysis pipeline
 
@@ -22,25 +23,40 @@ trnanalysis
 
    |downloads_trnanalysis| |docker_trnanalysis|
 
-   :versions: 0.1.10-1, 0.1.10-0, 0.1.9-0, 0.1.8-1, 0.1.8-0, 0.1.7-2, 0.1.7-1, 0.1.7-0, 0.1.6-1, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.1.10-1</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-1</code>,  <code>0.1.8-0</code>,  <code>0.1.7-2</code>,  <code>0.1.7-1</code>,  <code>0.1.7-0</code>,  <code>0.1.6-1</code>,  </span></summary>
+      
+
+      ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bcftools: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-org.hs.eg.db: 
    :depends bowtie: 
    :depends cgat-apps: 
-   :depends cgatcore: >=0.6.5
+   :depends cgatcore: ``>=0.6.5``
    :depends configparser: 
    :depends ez_setup: 
    :depends fastq-screen: 
    :depends fastqc: 
    :depends multiqc: 
    :depends mysqlclient: 
-   :depends numpy: >=1.16.4
+   :depends numpy: ``>=1.16.4``
    :depends pandas: 
-   :depends pysam: 0.15.2.*
-   :depends python: >=3
-   :depends pyyaml: >=5.1
+   :depends pysam: ``0.15.2.*``
+   :depends python: ``>=3``
+   :depends pyyaml: ``>=5.1``
    :depends r-base: 
    :depends r-codetools: 
    :depends r-dplyr: 

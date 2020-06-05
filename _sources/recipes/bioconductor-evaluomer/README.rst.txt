@@ -8,6 +8,7 @@ bioconductor-evaluomer
 
 .. conda:recipe:: bioconductor-evaluomer
    :replaces_section_title:
+   :noindex:
 
    Evaluation of Bioinformatics Metrics
 
@@ -22,14 +23,21 @@ bioconductor-evaluomer
 
    |downloads_bioconductor-evaluomer| |docker_bioconductor-evaluomer|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-cluster: >=2.0.7-1
-   :depends r-corrplot: >=0.84
-   :depends r-fpc: >=2.2-3
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-cluster: ``>=2.0.7-1``
+   :depends r-corrplot: ``>=0.84``
+   :depends r-fpc: ``>=2.2-3``
    :depends r-ggdendro: 
    :depends r-ggplot2: 
    :depends r-matrixstats: 

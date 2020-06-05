@@ -8,6 +8,7 @@ bioconductor-splinetimer
 
 .. conda:recipe:: bioconductor-splinetimer
    :replaces_section_title:
+   :noindex:
 
    Time\-course differential gene expression data analysis using spline regression models followed by gene association network reconstruction
 
@@ -23,17 +24,24 @@ bioconductor-splinetimer
 
    |downloads_bioconductor-splinetimer| |docker_bioconductor-splinetimer|
 
-   :versions: 1.16.0-0, 1.14.0-1, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-fis: >=1.16.0,<1.17.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-genenet: >=1.2.13
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-fis: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-genenet: ``>=1.2.13``
    :depends r-gtools: 
    :depends r-igraph: 
-   :depends r-longitudinal: >=1.1.12
+   :depends r-longitudinal: ``>=1.1.12``
    :requirements:
 
    .. rubric:: Installation

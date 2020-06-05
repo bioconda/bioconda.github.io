@@ -8,6 +8,7 @@ bioconductor-prince
 
 .. conda:recipe:: bioconductor-prince
    :replaces_section_title:
+   :noindex:
 
    Predicting Interactomes from Co\-Elution
 
@@ -22,25 +23,32 @@ bioconductor-prince
 
    |downloads_bioconductor-prince| |docker_bioconductor-prince|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dplyr: >=0.7.4
-   :depends r-forecast: >=8.2
-   :depends r-hmisc: >=4.0
-   :depends r-liblinear: >=2.10-8
-   :depends r-magrittr: >=1.5
-   :depends r-naivebayes: >=0.9.1
-   :depends r-progress: >=1.1.2
-   :depends r-purrr: >=0.2.4
-   :depends r-ranger: >=0.8.0
-   :depends r-rdpack: >=0.7
-   :depends r-robustbase: >=0.92-7
-   :depends r-speedglm: >=0.3-2
-   :depends r-tester: >=0.1.7
-   :depends r-tidyr: >=0.8.99
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: ``>=0.7.4``
+   :depends r-forecast: ``>=8.2``
+   :depends r-hmisc: ``>=4.0``
+   :depends r-liblinear: ``>=2.10-8``
+   :depends r-magrittr: ``>=1.5``
+   :depends r-naivebayes: ``>=0.9.1``
+   :depends r-progress: ``>=1.1.2``
+   :depends r-purrr: ``>=0.2.4``
+   :depends r-ranger: ``>=0.8.0``
+   :depends r-rdpack: ``>=0.7``
+   :depends r-robustbase: ``>=0.92-7``
+   :depends r-speedglm: ``>=0.3-2``
+   :depends r-tester: ``>=0.1.7``
+   :depends r-tidyr: ``>=0.8.99``
    :requirements:
 
    .. rubric:: Installation

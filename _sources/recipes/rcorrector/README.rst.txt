@@ -8,6 +8,7 @@ rcorrector
 
 .. conda:recipe:: rcorrector
    :replaces_section_title:
+   :noindex:
 
    Rcorrector\(RNA\-seq error CORRECTOR\) is a kmer\-based error correction method for RNA\-seq data. Rcorrector can also be applied to other type of sequencing data where the read coverage is non\-uniform\, such as single\-cell sequencing.
 
@@ -22,13 +23,28 @@ rcorrector
 
    |downloads_rcorrector| |docker_rcorrector|
 
-   :versions: 1.0.4-1, 1.0.4-0, 1.0.3.1-1, 1.0.3.1-0, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-2, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3.1-1</code>,  <code>1.0.3.1-0</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  </span></summary>
+      
+
+      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3.1-1``,  ``1.0.3.1-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends kmer-jellyfish: 2.*
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends kmer-jellyfish: ``2.*``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

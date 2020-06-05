@@ -8,6 +8,7 @@ bellmans-gapc
 
 .. conda:recipe:: bellmans-gapc
    :replaces_section_title:
+   :noindex:
 
    A language and compiler for algebraic dynamic programming.
 
@@ -22,14 +23,21 @@ bellmans-gapc
 
    |downloads_bellmans-gapc| |docker_bellmans-gapc|
 
-   :versions: 2020.01.08-1, 2020.01.08-0, 0.1-2, 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``2020.01.08-1``,  ``2020.01.08-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends boost: >=1.70.0,<1.70.1.0a0
-   :depends gsl: >=2.6,<2.7.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends boost: ``>=1.70.0,<1.70.1.0a0``
+   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends make: 
-   :depends openblas: >=0.3.6,<0.3.7.0a0
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
    :requirements:
 
    .. rubric:: Installation

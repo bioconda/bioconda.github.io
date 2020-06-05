@@ -8,6 +8,7 @@ askocli
 
 .. conda:recipe:: askocli
    :replaces_section_title:
+   :noindex:
 
    Command line interface for a distant AskOmics
 
@@ -22,10 +23,17 @@ askocli
 
    |downloads_askocli| |docker_askocli|
 
-   :versions: 0.5-0, 0.4.3-1, 0.4.3-0, 0.4.1-0, 0.3.4-0, 0.3.2-0, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.1-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.2.1-0``
+
+      
+
    
    :depends python: 
-   :depends requests: >=2.4.3
+   :depends requests: ``>=2.4.3``
    :requirements:
 
    .. rubric:: Installation

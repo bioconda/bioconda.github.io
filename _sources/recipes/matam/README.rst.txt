@@ -8,6 +8,7 @@ matam
 
 .. conda:recipe:: matam
    :replaces_section_title:
+   :noindex:
 
    MATAM is a software dedicated to the fast and accurate targeted assembly of short reads.
 
@@ -23,22 +24,29 @@ matam
 
    |downloads_matam| |docker_matam|
 
-   :versions: 1.6.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-1``,  ``1.6.0-0``
+
+      
+
    
    :depends bzip2: 
    :depends coreutils: 
    :depends krona: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends rdptools: 
    :depends samtools: 
    :depends sga: 
-   :depends sortmerna: 2.1b
+   :depends sortmerna: ``2.1b``
    :depends vsearch: 
    :depends wget: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

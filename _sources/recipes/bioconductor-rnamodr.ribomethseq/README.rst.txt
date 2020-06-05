@@ -8,6 +8,7 @@ bioconductor-rnamodr.ribomethseq
 
 .. conda:recipe:: bioconductor-rnamodr.ribomethseq
    :replaces_section_title:
+   :noindex:
 
    Detection of 2\'\-O methylations by RiboMethSeq
 
@@ -22,15 +23,22 @@ bioconductor-rnamodr.ribomethseq
 
    |downloads_bioconductor-rnamodr.ribomethseq| |docker_bioconductor-rnamodr.ribomethseq|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-gviz: >=1.32.0,<1.33.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rnamodr: >=1.2.0,<1.3.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-gviz: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rnamodr: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

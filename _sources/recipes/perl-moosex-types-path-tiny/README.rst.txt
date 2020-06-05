@@ -8,6 +8,7 @@ perl-moosex-types-path-tiny
 
 .. conda:recipe:: perl-moosex-types-path-tiny
    :replaces_section_title:
+   :noindex:
 
    MooseX\:\:Types\:\:Path\:\:Tiny \- Path\:\:Tiny types and coercions for Moose
 
@@ -22,9 +23,16 @@ perl-moosex-types-path-tiny
 
    |downloads_perl-moosex-types-path-tiny| |docker_perl-moosex-types-path-tiny|
 
-   :versions: 0.012-2, 0.012-1, 0.012-0
+   :versions:
+      
+      
+
+      ``0.012-2``,  ``0.012-1``,  ``0.012-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-moose: 
    :depends perl-moosex-getopt: 
    :depends perl-moosex-types: 

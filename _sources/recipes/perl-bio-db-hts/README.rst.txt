@@ -8,6 +8,7 @@ perl-bio-db-hts
 
 .. conda:recipe:: perl-bio-db-hts
    :replaces_section_title:
+   :noindex:
 
    Read files using HTSlib including BAM\/CRAM\, Tabix and BCF database files
 
@@ -22,13 +23,20 @@ perl-bio-db-hts
 
    |downloads_perl-bio-db-hts| |docker_perl-bio-db-hts|
 
-   :versions: 3.01-0, 2.7-3, 2.7-2, 2.7-1, 2.7-0, 2.4-0
+   :versions:
+      
+      
+
+      ``3.01-0``,  ``2.7-3``,  ``2.7-2``,  ``2.7-1``,  ``2.7-0``,  ``2.4-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

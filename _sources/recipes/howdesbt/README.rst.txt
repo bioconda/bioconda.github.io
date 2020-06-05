@@ -8,6 +8,7 @@ howdesbt
 
 .. conda:recipe:: howdesbt
    :replaces_section_title:
+   :noindex:
 
    Sequence Bloom Tree\, supporting determined\/how split filters
 
@@ -22,12 +23,19 @@ howdesbt
 
    |downloads_howdesbt| |docker_howdesbt|
 
-   :versions: 2.00.02-0, 1.00.03-1, 1.00.03-0, 1.00.00-0
+   :versions:
+      
+      
+
+      ``2.00.02-0``,  ``1.00.03-1``,  ``1.00.03-0``,  ``1.00.00-0``
+
+      
+
    
-   :depends croaring: >=0.2.63,<0.2.64.0a0
-   :depends kmer-jellyfish: >=2.2
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends croaring: ``>=0.2.63,<0.2.64.0a0``
+   :depends kmer-jellyfish: ``>=2.2``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends sdsl-lite: 
    :requirements:
 

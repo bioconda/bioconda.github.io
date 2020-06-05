@@ -8,6 +8,7 @@ perl-test-lectrotest
 
 .. conda:recipe:: perl-test-lectrotest/0.5001
    :replaces_section_title:
+   :noindex:
 
    Easy\, automatic\, specification\-based tests
 
@@ -22,9 +23,16 @@ perl-test-lectrotest
 
    |downloads_perl-test-lectrotest| |docker_perl-test-lectrotest|
 
-   :versions: 0.5001-0
+   :versions:
+      
+      
+
+      ``0.5001-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-data-dumper: 

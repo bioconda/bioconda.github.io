@@ -8,6 +8,7 @@ perl-string-util
 
 .. conda:recipe:: perl-string-util/1.26
    :replaces_section_title:
+   :noindex:
 
    String\:\:Util \-\- String processing utilities
 
@@ -22,9 +23,16 @@ perl-string-util
 
    |downloads_perl-string-util| |docker_perl-string-util|
 
-   :versions: 1.26-1, 1.26-0
+   :versions:
+      
+      
+
+      ``1.26-1``,  ``1.26-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-number-misc: 
    :depends perl-test-toolbox: 
    :requirements:

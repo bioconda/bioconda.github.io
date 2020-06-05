@@ -8,6 +8,7 @@ roary
 
 .. conda:recipe:: roary
    :replaces_section_title:
+   :noindex:
 
    Rapid large\-scale prokaryote pan genome analysis
 
@@ -23,19 +24,26 @@ roary
 
    |downloads_roary| |docker_roary|
 
-   :versions: 3.13.0-0, 3.12.0-2, 3.12.0-1, 3.12.0-0, 3.10.2-0, 3.9.1-0, 3.8.2-0, 3.8.0-1, 3.7.0-0
+   :versions:
+      
+      
+
+      ``3.13.0-0``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.9.1-0``,  ``3.8.2-0``,  ``3.8.0-1``,  ``3.7.0-0``
+
+      
+
    
    :depends bedtools: 
    :depends blast: 
    :depends cd-hit: 
    :depends fasttree: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends mafft: 
    :depends mcl: 
-   :depends parallel: >=20180522
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends parallel: ``>=20180522``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-array-utils: 
-   :depends perl-bioperl: >=1.7.2
+   :depends perl-bioperl: ``>=1.7.2``
    :depends perl-digest-md5-file: 
    :depends perl-exception-class: 
    :depends perl-file-find-rule: 

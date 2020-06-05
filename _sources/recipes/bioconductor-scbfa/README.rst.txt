@@ -8,6 +8,7 @@ bioconductor-scbfa
 
 .. conda:recipe:: bioconductor-scbfa
    :replaces_section_title:
+   :noindex:
 
    A dimensionality reduction tool using gene detection pattern to mitigate noisy expression profile of scRNA\-seq
 
@@ -22,13 +23,20 @@ bioconductor-scbfa
 
    |downloads_bioconductor-scbfa| |docker_bioconductor-scbfa|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-zinbwave: >=1.10.0,<1.11.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-zinbwave: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-copula: 
    :depends r-ggplot2: 
    :depends r-mass: 

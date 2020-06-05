@@ -8,6 +8,7 @@ alignstats
 
 .. conda:recipe:: alignstats
    :replaces_section_title:
+   :noindex:
 
    Comprehensive alignment\, whole\-genome coverage\, and capture coverage statistics.
 
@@ -22,10 +23,17 @@ alignstats
 
    |downloads_alignstats| |docker_alignstats|
 
-   :versions: 0.9.1-0, 0.9-0, 0.8-0, 0.7-0, 0.5-1, 0.5-0, 0.3-1, 0.3-0
+   :versions:
+      
+      
+
+      ``0.9.1-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.5-1``,  ``0.5-0``,  ``0.3-1``,  ``0.3-0``
+
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.3.0
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-swath2stats
 
 .. conda:recipe:: bioconductor-swath2stats
    :replaces_section_title:
+   :noindex:
 
    Transform and Filter SWATH Data for Statistical Packages
 
@@ -23,10 +24,17 @@ bioconductor-swath2stats
 
    |downloads_bioconductor-swath2stats| |docker_bioconductor-swath2stats|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.1-0, 1.10.2-0, 1.8.1-0, 1.6.1-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.1-0``,  ``1.10.2-0``,  ``1.8.1-0``,  ``1.6.1-0``
+
+      
+
    
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-reshape2: 

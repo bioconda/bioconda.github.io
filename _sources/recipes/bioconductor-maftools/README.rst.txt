@@ -8,6 +8,7 @@ bioconductor-maftools
 
 .. conda:recipe:: bioconductor-maftools
    :replaces_section_title:
+   :noindex:
 
    Summarize\, Analyze and Visualize MAF Files
 
@@ -22,9 +23,16 @@ bioconductor-maftools
 
    |downloads_bioconductor-maftools| |docker_bioconductor-maftools|
 
-   :versions: 2.4.0-0, 2.2.0-0, 2.0.10-0, 2.0.0-0, 1.8.0-0, 1.6.15-0, 1.4.27-0
+   :versions:
+      
+      
+
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.10-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.15-0``,  ``1.4.27-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-rcolorbrewer: 
    :depends r-survival: 

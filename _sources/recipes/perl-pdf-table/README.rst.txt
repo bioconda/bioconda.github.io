@@ -8,6 +8,7 @@ perl-pdf-table
 
 .. conda:recipe:: perl-pdf-table
    :replaces_section_title:
+   :noindex:
 
    A utility class for building table layouts in a PDF\:\:API2 object.
 
@@ -22,9 +23,16 @@ perl-pdf-table
 
    |downloads_perl-pdf-table| |docker_perl-pdf-table|
 
-   :versions: 0.11.0-0
+   :versions:
+      
+      
+
+      ``0.11.0-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

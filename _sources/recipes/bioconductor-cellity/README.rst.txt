@@ -8,6 +8,7 @@ bioconductor-cellity
 
 .. conda:recipe:: bioconductor-cellity
    :replaces_section_title:
+   :noindex:
 
    Quality Control for Single\-Cell RNA\-seq Data
 
@@ -22,13 +23,20 @@ bioconductor-cellity
 
    |downloads_bioconductor-cellity| |docker_bioconductor-cellity|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-topgo: >=2.40.0,<2.41.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-topgo: ``>=2.40.0,<2.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 
    :depends r-ggplot2: 
    :depends r-mvoutlier: 

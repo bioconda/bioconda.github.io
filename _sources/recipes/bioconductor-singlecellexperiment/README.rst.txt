@@ -8,6 +8,7 @@ bioconductor-singlecellexperiment
 
 .. conda:recipe:: bioconductor-singlecellexperiment
    :replaces_section_title:
+   :noindex:
 
    S4 Classes for Single Cell Data
 
@@ -22,12 +23,19 @@ bioconductor-singlecellexperiment
 
    |downloads_bioconductor-singlecellexperiment| |docker_bioconductor-singlecellexperiment|
 
-   :versions: 1.10.1-0, 1.8.0-0, 1.6.0-1, 1.4.0-0, 1.2.0-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.10.1-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

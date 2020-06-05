@@ -8,6 +8,7 @@ figtree
 
 .. conda:recipe:: figtree
    :replaces_section_title:
+   :noindex:
 
    FigTree is designed as a graphical viewer of phylogenetic trees and as a program for producing publication\-ready figures.
 
@@ -22,9 +23,16 @@ figtree
 
    |downloads_figtree| |docker_figtree|
 
-   :versions: 1.4.4-0
+   :versions:
+      
+      
+
+      ``1.4.4-0``
+
+      
+
    
-   :depends openjdk: >=5
+   :depends openjdk: ``>=5``
    :depends python: 
    :depends xorg-libxtst: 
    :requirements:

@@ -8,6 +8,7 @@ r-loomr
 
 .. conda:recipe:: r-loomr
    :replaces_section_title:
+   :noindex:
 
    An interface for the single\-cell RNAseq\-oriented loom format. Loom files are an HDF5\-based
    format for storing and interacting with large single\-cell RNAseq datasets. loomR
@@ -27,10 +28,17 @@ r-loomr
 
    |downloads_r-loomr| |docker_r-loomr|
 
-   :versions: 0.2.0_beta-1, 0.2.0_beta-0
+   :versions:
+      
+      
+
+      ``0.2.0_beta-1``,  ``0.2.0_beta-0``
+
+      
+
    
    :depends hdf5: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hdf5r: 
    :depends r-iterators: 
    :depends r-itertools: 

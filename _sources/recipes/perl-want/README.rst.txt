@@ -8,6 +8,7 @@ perl-want
 
 .. conda:recipe:: perl-want
    :replaces_section_title:
+   :noindex:
 
    This module generalises the mechanism of the wantarray function\, allowing a function to determine in some detail how its return value is going to be immediately used.
 
@@ -22,9 +23,16 @@ perl-want
 
    |downloads_perl-want| |docker_perl-want|
 
-   :versions: 0.29-1, 0.29-0
+   :versions:
+      
+      
+
+      ``0.29-1``,  ``0.29-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ pycsg
 
 .. conda:recipe:: pycsg
    :replaces_section_title:
+   :noindex:
 
    Python port of csg.js from Evan Wallace
 
@@ -22,7 +23,14 @@ pycsg
 
    |downloads_pycsg| |docker_pycsg|
 
-   :versions: 0.3.12-1, 0.3.12-0
+   :versions:
+      
+      
+
+      ``0.3.12-1``,  ``0.3.12-0``
+
+      
+
    
    :depends python: 
    :requirements:

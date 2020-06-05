@@ -8,6 +8,7 @@ perl-parallel-loops
 
 .. conda:recipe:: perl-parallel-loops
    :replaces_section_title:
+   :noindex:
 
    Execute loops using parallel forked subprocesses
 
@@ -22,9 +23,16 @@ perl-parallel-loops
 
    |downloads_perl-parallel-loops| |docker_perl-parallel-loops|
 
-   :versions: 0.10-0, 0.08-0
+   :versions:
+      
+      
+
+      ``0.10-0``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-parallel-forkmanager: 
    :requirements:
 

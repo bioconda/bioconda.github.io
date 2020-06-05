@@ -8,6 +8,7 @@ r-wgcna
 
 .. conda:recipe:: r-wgcna
    :replaces_section_title:
+   :noindex:
 
    Functions necessary to perform Weighted Correlation Network Analysis on high\-dimensional data as originally described in Horvath and Zhang \(2005\) \<doi\:10.2202\/1544\-6115.1128\> and Langfelder and Horvath \(2008\) \<doi\:10.1186\/1471\-2105\-9\-559\>. Includes functions for rudimentary data cleaning\, construction of correlation networks\, module identification\, summarization\, and relating of variables and modules to sample traits. Also includes a number of utility functions for data manipulation and visualization.
 
@@ -23,22 +24,37 @@ r-wgcna
 
    |downloads_r-wgcna| |docker_r-wgcna|
 
-   :versions: 1.69-2, 1.69-1, 1.69-0, 1.68-1, 1.68-0, 1.67-0, 1.66-1, 1.66-0, 1.64_1-0, 1.61-0, 1.51-1, 1.51-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.69-2</code>,  <code>1.69-1</code>,  <code>1.69-0</code>,  <code>1.68-1</code>,  <code>1.68-0</code>,  <code>1.67-0</code>,  <code>1.66-1</code>,  <code>1.66-0</code>,  <code>1.64_1-0</code>,  </span></summary>
+      
+
+      ``1.69-2``,  ``1.69-1``,  ``1.69-0``,  ``1.68-1``,  ``1.68-0``,  ``1.67-0``,  ``1.66-1``,  ``1.66-0``,  ``1.64_1-0``,  ``1.61-0``,  ``1.51-1``,  ``1.51-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bioconductor-annotationdbi: 
    :depends bioconductor-go.db: 
    :depends bioconductor-impute: 
    :depends bioconductor-preprocesscore: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
-   :depends r-dynamictreecut: >=1.62
+   :depends r-dynamictreecut: ``>=1.62``
    :depends r-fastcluster: 
    :depends r-foreach: 
    :depends r-hmisc: 
-   :depends r-matrixstats: >=0.8.1
-   :depends r-rcpp: >=0.11.0
+   :depends r-matrixstats: ``>=0.8.1``
+   :depends r-rcpp: ``>=0.11.0``
    :depends r-robust: 
    :depends r-survival: 
    :requirements:

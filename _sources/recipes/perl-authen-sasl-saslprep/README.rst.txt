@@ -8,6 +8,7 @@ perl-authen-sasl-saslprep
 
 .. conda:recipe:: perl-authen-sasl-saslprep
    :replaces_section_title:
+   :noindex:
 
    A Stringprep Profile for User Names and Passwords \(RFC 4013\)
 
@@ -22,9 +23,16 @@ perl-authen-sasl-saslprep
 
    |downloads_perl-authen-sasl-saslprep| |docker_perl-authen-sasl-saslprep|
 
-   :versions: 1.100-0, 1.011-2, 1.011-1, 1.011-0
+   :versions:
+      
+      
+
+      ``1.100-0``,  ``1.011-2``,  ``1.011-1``,  ``1.011-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-unicode-stringprep: 
    :requirements:
 

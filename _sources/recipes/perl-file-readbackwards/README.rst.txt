@@ -8,6 +8,7 @@ perl-file-readbackwards
 
 .. conda:recipe:: perl-file-readbackwards
    :replaces_section_title:
+   :noindex:
 
    Read a file backwards by lines.
 
@@ -22,9 +23,16 @@ perl-file-readbackwards
 
    |downloads_perl-file-readbackwards| |docker_perl-file-readbackwards|
 
-   :versions: 1.05-1, 1.05-0
+   :versions:
+      
+      
+
+      ``1.05-1``,  ``1.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

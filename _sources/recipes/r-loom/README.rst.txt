@@ -8,6 +8,7 @@ r-loom
 
 .. conda:recipe:: r-loom
    :replaces_section_title:
+   :noindex:
 
    An interface for the single\-cell RNAseq\-oriented loom format. Loom files are an HDF5\-based format for storing and interacting with large single\-cell RNAseq datasets. loomR provides an interface for working with loom files in a loom\-specific way\; we provide routines for validating loom files\, iterating with chunks through data within the loom file\, and provide a platform for other packages to build support for loom files.
 
@@ -22,10 +23,17 @@ r-loom
 
    |downloads_r-loom| |docker_r-loom|
 
-   :versions: 0.2.0.2-2, 0.2.0.2-1, 0.2.0.2-0, 0.2.0.1-0
+   :versions:
+      
+      
+
+      ``0.2.0.2-2``,  ``0.2.0.2-1``,  ``0.2.0.2-0``,  ``0.2.0.1-0``
+
+      
+
    
-   :depends icu: >=64.2,<65.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends icu: ``>=64.2,<65.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hdf5r: 
    :depends r-iterators: 
    :depends r-itertools: 

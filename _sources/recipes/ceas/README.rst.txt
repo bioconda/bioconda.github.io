@@ -8,6 +8,7 @@ ceas
 
 .. conda:recipe:: ceas
    :replaces_section_title:
+   :noindex:
 
    CEAS\: Cis\-regulatory Element Annotation System
 
@@ -23,10 +24,17 @@ ceas
 
    |downloads_ceas| |docker_ceas|
 
-   :versions: 1.0.2-2, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
    :depends mysql-python: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ fido
 
 .. conda:recipe:: fido
    :replaces_section_title:
+   :noindex:
 
    A method for protein identification in MS\/MS proteomics. Think of it like a protein delivery dog. You bring it the scored matches between peptides and spectra\, and it fetches a list of proteins ranked by posterior probability by doing clever tricks.
 
@@ -22,9 +23,16 @@ fido
 
    |downloads_fido| |docker_fido|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

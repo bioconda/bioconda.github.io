@@ -8,6 +8,7 @@ bioconductor-dapardata
 
 .. conda:recipe:: bioconductor-dapardata
    :replaces_section_title:
+   :noindex:
 
    Data accompanying the DAPAR and Prostar packages
 
@@ -22,11 +23,18 @@ bioconductor-dapardata
 
    |downloads_bioconductor-dapardata| |docker_bioconductor-dapardata|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.1-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.1-0``
+
+      
+
    
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
    :requirements:
 

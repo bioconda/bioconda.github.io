@@ -8,6 +8,7 @@ gadem
 
 .. conda:recipe:: gadem
    :replaces_section_title:
+   :noindex:
 
    A Genetic Algorithm Guided Formation of Spaced Dyads Coupled with an EM Algorithm for Motif Discovery
 
@@ -22,9 +23,16 @@ gadem
 
    |downloads_gadem| |docker_gadem|
 
-   :versions: 1.3.1-1, 1.3.1-0
+   :versions:
+      
+      
+
+      ``1.3.1-1``,  ``1.3.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

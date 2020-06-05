@@ -8,6 +8,7 @@ bioconductor-moe430a.db
 
 .. conda:recipe:: bioconductor-moe430a.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix Mouse Expression Set 430 annotation data \(chip moe430a\)
 
@@ -22,12 +23,19 @@ bioconductor-moe430a.db
 
    |downloads_bioconductor-moe430a.db| |docker_bioconductor-moe430a.db|
 
-   :versions: 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

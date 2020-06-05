@@ -8,6 +8,7 @@ perl-math-matrixreal
 
 .. conda:recipe:: perl-math-matrixreal
    :replaces_section_title:
+   :noindex:
 
    Manipulate NxN matrices of real numbers
 
@@ -22,9 +23,16 @@ perl-math-matrixreal
 
    |downloads_perl-math-matrixreal| |docker_perl-math-matrixreal|
 
-   :versions: 2.13-0
+   :versions:
+      
+      
+
+      ``2.13-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

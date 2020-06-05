@@ -8,6 +8,7 @@ calour
 
 .. conda:recipe:: calour
    :replaces_section_title:
+   :noindex:
 
    exploratory and interactive microbiome analyses based on heatmaps
 
@@ -26,18 +27,25 @@ calour
 
    |downloads_calour| |docker_calour|
 
-   :versions: 2019.5.1-0, 2018.10.1-0
+   :versions:
+      
+      
+
+      ``2019.5.1-0``,  ``2018.10.1-0``
+
+      
+
    
    :depends biom-format: 
    :depends docrep: 
    :depends ipython: 
    :depends ipywidgets: 
-   :depends matplotlib: >=2.0
+   :depends matplotlib: ``>=2.0``
    :depends numpy: 
    :depends pandas: 
-   :depends pyqt: >5
-   :depends python: >=3.5
-   :depends scikit-bio: >=0.5.1
+   :depends pyqt: ``>5``
+   :depends python: ``>=3.5``
+   :depends scikit-bio: ``>=0.5.1``
    :depends scikit-learn: 
    :depends scipy: 
    :depends statsmodels: 

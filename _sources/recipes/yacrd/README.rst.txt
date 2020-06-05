@@ -8,6 +8,7 @@ yacrd
 
 .. conda:recipe:: yacrd
    :replaces_section_title:
+   :noindex:
 
    Yet Another Chimeric Read Detector\, with long\-read mapper result as input.
 
@@ -22,12 +23,19 @@ yacrd
 
    |downloads_yacrd| |docker_yacrd|
 
-   :versions: 0.6.1-0, 0.6.0-0, 0.5.1-1, 0.4.1-1, 0.4-1, 0.3-1, 0.2.1-0, 0.2-1, 0.2-0
+   :versions:
+      
+      
+
+      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.4.1-1``,  ``0.4-1``,  ``0.3-1``,  ``0.2.1-0``,  ``0.2-1``,  ``0.2-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends xz: >=5.2.5,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

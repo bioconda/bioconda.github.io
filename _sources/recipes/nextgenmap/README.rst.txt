@@ -8,6 +8,7 @@ nextgenmap
 
 .. conda:recipe:: nextgenmap
    :replaces_section_title:
+   :noindex:
 
    NextGenMap is a flexible highly sensitive short read mapping tool that handles much higher mismatch rates than comparable algorithms while still outperforming them in terms of runtime.
 
@@ -22,11 +23,18 @@ nextgenmap
 
    |downloads_nextgenmap| |docker_nextgenmap|
 
-   :versions: 0.5.5-3, 0.5.5-2, 0.5.5-0, 0.5.3-1, 0.5.3-0, 0.4.13-1, 0.4.13-0
+   :versions:
+      
+      
+
+      ``0.5.5-3``,  ``0.5.5-2``,  ``0.5.5-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.4.13-1``,  ``0.4.13-0``
+
+      
+
    
    :depends binutils: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

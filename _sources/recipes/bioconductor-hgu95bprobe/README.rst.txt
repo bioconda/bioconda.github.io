@@ -8,6 +8,7 @@ bioconductor-hgu95bprobe
 
 .. conda:recipe:: bioconductor-hgu95bprobe
    :replaces_section_title:
+   :noindex:
 
    Probe sequence data for microarrays of type hgu95b
 
@@ -22,11 +23,18 @@ bioconductor-hgu95bprobe
 
    |downloads_bioconductor-hgu95bprobe| |docker_bioconductor-hgu95bprobe|
 
-   :versions: 2.18.0-4, 2.18.0-3, 2.18.0-2, 2.18.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-4``,  ``2.18.0-3``,  ``2.18.0-2``,  ``2.18.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

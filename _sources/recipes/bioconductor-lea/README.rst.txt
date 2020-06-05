@@ -8,6 +8,7 @@ bioconductor-lea
 
 .. conda:recipe:: bioconductor-lea
    :replaces_section_title:
+   :noindex:
 
    LEA\: an R package for Landscape and Ecological Association Studies
 
@@ -22,12 +23,19 @@ bioconductor-lea
 
    |downloads_bioconductor-lea| |docker_bioconductor-lea|
 
-   :versions: 3.0.0-0, 2.8.0-0, 2.6.0-1, 2.6.0-0, 2.4.0-0
+   :versions:
+      
+      
+
+      ``3.0.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-medips
 
 .. conda:recipe:: bioconductor-medips
    :replaces_section_title:
+   :noindex:
 
    DNA IP\-seq data analysis
 
@@ -23,19 +24,26 @@ bioconductor-medips
 
    |downloads_bioconductor-medips| |docker_bioconductor-medips|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.24.0-0
+   :versions:
+      
+      
+
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``
+
+      
+
    
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-dnacopy: >=1.62.0,<1.63.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-dnacopy: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gtools: 
    :requirements:
 

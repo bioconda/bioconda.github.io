@@ -8,6 +8,7 @@ rmats
 
 .. conda:recipe:: rmats
    :replaces_section_title:
+   :noindex:
 
    MATS is a computational tool to detect differential alternative splicing events from RNA\-Seq data.
 
@@ -22,18 +23,33 @@ rmats
 
    |downloads_rmats| |docker_rmats|
 
-   :versions: 4.1.0-0, 4.0.2-4, 4.0.2-3, 4.0.2-2, 4.0.2-1, 4.0.2-0, 3.2.5-2, 3.2.5-1, 3.2.5-0, 3.2.2beta-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.1.0-0</code>,  <code>4.0.2-4</code>,  <code>4.0.2-3</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>4.0.2-0</code>,  <code>3.2.5-2</code>,  <code>3.2.5-1</code>,  <code>3.2.5-0</code>,  </span></summary>
+      
+
+      ``4.1.0-0``,  ``4.0.2-4``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``3.2.5-2``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.2beta-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends gsl: >=2.6,<2.7.0a0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends star: >=2.5
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends star: ``>=2.5``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

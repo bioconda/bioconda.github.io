@@ -8,6 +8,7 @@ weblogo
 
 .. conda:recipe:: weblogo
    :replaces_section_title:
+   :noindex:
 
    WebLogo3 \: Sequence Logos Redrawn
 
@@ -23,11 +24,26 @@ weblogo
 
    |downloads_weblogo| |docker_weblogo|
 
-   :versions: 3.7.5-0, 3.7.4-1, 3.7.4-0, 3.6.0-1, 3.6.0-0, 3.5.0-0, 2.8.2-7, 2.8.2-6, 2.8.2-5, 2.8.2-3, 2.8.2-2, 2.8.2-1, 2.8.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.7.5-0</code>,  <code>3.7.4-1</code>,  <code>3.7.4-0</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>2.8.2-7</code>,  <code>2.8.2-6</code>,  <code>2.8.2-5</code>,  </span></summary>
+      
+
+      ``3.7.5-0``,  ``3.7.4-1``,  ``3.7.4-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``,  ``2.8.2-7``,  ``2.8.2-6``,  ``2.8.2-5``,  ``2.8.2-3``,  ``2.8.2-2``,  ``2.8.2-1``,  ``2.8.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends ghostscript: 
    :depends numpy: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends scipy: 
    :requirements:
 

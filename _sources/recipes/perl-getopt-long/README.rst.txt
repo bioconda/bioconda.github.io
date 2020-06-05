@@ -8,6 +8,7 @@ perl-getopt-long
 
 .. conda:recipe:: perl-getopt-long
    :replaces_section_title:
+   :noindex:
 
    Module to handle parsing command line options
 
@@ -22,9 +23,16 @@ perl-getopt-long
 
    |downloads_perl-getopt-long| |docker_perl-getopt-long|
 
-   :versions: 2.50-1, 2.50-0, 2.49-0
+   :versions:
+      
+      
+
+      ``2.50-1``,  ``2.50-0``,  ``2.49-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

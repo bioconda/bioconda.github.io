@@ -8,6 +8,7 @@ cami-amber
 
 .. conda:recipe:: cami-amber
    :replaces_section_title:
+   :noindex:
 
    AMBER\: Assessment of Metagenome BinnERs
 
@@ -22,14 +23,21 @@ cami-amber
 
    |downloads_cami-amber| |docker_cami-amber|
 
-   :versions: 2.0.0.post0-0
+   :versions:
+      
+      
+
+      ``2.0.0.post0-0``
+
+      
+
    
-   :depends bokeh: 0.13.0
-   :depends matplotlib-base: >=3.1.0
-   :depends numpy: >=1.18.3
-   :depends pandas: >=1.0.3
-   :depends python: >=3.6
-   :depends seaborn: >=0.10.1
+   :depends bokeh: ``0.13.0``
+   :depends matplotlib-base: ``>=3.1.0``
+   :depends numpy: ``>=1.18.3``
+   :depends pandas: ``>=1.0.3``
+   :depends python: ``>=3.6``
+   :depends seaborn: ``>=0.10.1``
    :requirements:
 
    .. rubric:: Installation

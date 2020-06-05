@@ -8,6 +8,7 @@ bioconductor-cancersubtypes
 
 .. conda:recipe:: bioconductor-cancersubtypes
    :replaces_section_title:
+   :noindex:
 
    Cancer subtypes identification\, validation and visualization based on multiple genomic data sets
 
@@ -23,12 +24,19 @@ bioconductor-cancersubtypes
 
    |downloads_bioconductor-cancersubtypes| |docker_bioconductor-cancersubtypes|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-consensusclusterplus: >=1.52.0,<1.53.0
-   :depends bioconductor-impute: >=1.62.0,<1.63.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-consensusclusterplus: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-icluster: 
    :depends r-nmf: 

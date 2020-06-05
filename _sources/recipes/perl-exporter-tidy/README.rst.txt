@@ -8,6 +8,7 @@ perl-exporter-tidy
 
 .. conda:recipe:: perl-exporter-tidy
    :replaces_section_title:
+   :noindex:
 
    Another way of exporting symbols
 
@@ -22,9 +23,16 @@ perl-exporter-tidy
 
    |downloads_perl-exporter-tidy| |docker_perl-exporter-tidy|
 
-   :versions: 0.08-1, 0.08-0
+   :versions:
+      
+      
+
+      ``0.08-1``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

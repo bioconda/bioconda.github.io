@@ -8,6 +8,7 @@ openduck
 
 .. conda:recipe:: openduck
    :replaces_section_title:
+   :noindex:
 
    Open source library for dynamic undocking \(DUck\)
 
@@ -22,7 +23,14 @@ openduck
 
    |downloads_openduck| |docker_openduck|
 
-   :versions: 0.1.2-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``,  ``0.1.1-0``
+
+      
+
    
    :depends cudatoolkit: 
    :depends networkx: 

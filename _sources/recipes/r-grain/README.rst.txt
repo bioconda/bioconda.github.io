@@ -8,6 +8,7 @@ r-grain
 
 .. conda:recipe:: r-grain
    :replaces_section_title:
+   :noindex:
 
    Probability propagation in graphical independence networks\, also known as Bayesian networks or probabilistic expert systems.
 
@@ -22,17 +23,24 @@ r-grain
 
    |downloads_r-grain| |docker_r-grain|
 
-   :versions: 1.3_0-3, 1.3_0-2, 1.3_0-1, 1.3_0-0
+   :versions:
+      
+      
+
+      ``1.3_0-3``,  ``1.3_0-2``,  ``1.3_0-1``,  ``1.3_0-0``
+
+      
+
    
    :depends bioconductor-graph: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-functional: 
-   :depends r-grbase: >=1.7_2
+   :depends r-grbase: ``>=1.7_2``
    :depends r-igraph: 
    :depends r-magrittr: 
-   :depends r-rcpp: >=0.11.1
+   :depends r-rcpp: ``>=0.11.1``
    :depends r-rcpparmadillo: 
    :depends r-rcppeigen: 
    :requirements:

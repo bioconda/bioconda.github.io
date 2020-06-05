@@ -8,6 +8,7 @@ perl-file-slurp
 
 .. conda:recipe:: perl-file-slurp
    :replaces_section_title:
+   :noindex:
 
    Simple and Efficient Reading\/Writing\/Modifying of Complete Files
 
@@ -22,9 +23,16 @@ perl-file-slurp
 
    |downloads_perl-file-slurp| |docker_perl-file-slurp|
 
-   :versions: 9999.27-0, 9999.25-0, 9999.24-0, 9999.19-3, 9999.19-2, 9999.19-1, 9999.19-0
+   :versions:
+      
+      
+
+      ``9999.27-0``,  ``9999.25-0``,  ``9999.24-0``,  ``9999.19-3``,  ``9999.19-2``,  ``9999.19-1``,  ``9999.19-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :requirements:

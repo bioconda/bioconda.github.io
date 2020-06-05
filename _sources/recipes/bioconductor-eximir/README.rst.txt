@@ -8,6 +8,7 @@ bioconductor-eximir
 
 .. conda:recipe:: bioconductor-eximir
    :replaces_section_title:
+   :noindex:
 
    R functions for the normalization of Exiqon miRNA array data
 
@@ -23,14 +24,21 @@ bioconductor-eximir
 
    |downloads_bioconductor-eximir| |docker_bioconductor-eximir|
 
-   :versions: 2.30.0-0, 2.28.0-0, 2.26.0-1, 2.24.0-0, 2.22.0-0, 2.20.0-0
+   :versions:
+      
+      
+
+      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-affyio: >=1.58.0,<1.59.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-affyio: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ akt
 
 .. conda:recipe:: akt
    :replaces_section_title:
+   :noindex:
 
    Ancestry and Kinship Tools \(AKT\) provides a handful of useful statistical genetics routines using the htslib API for input\/output. This means it can seamlessly read BCF\/VCF files and play nicely with bcftools.
 
@@ -23,12 +24,19 @@ akt
 
    |downloads_akt| |docker_akt|
 
-   :versions: 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :depends openmp: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

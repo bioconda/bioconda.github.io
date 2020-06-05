@@ -8,6 +8,7 @@ revtrans
 
 .. conda:recipe:: revtrans
    :replaces_section_title:
+   :noindex:
 
    revtrans \- performs a reverse translation of a peptide alignment.
 
@@ -23,9 +24,16 @@ revtrans
 
    |downloads_revtrans| |docker_revtrans|
 
-   :versions: 1.4-1, 1.4-0
+   :versions:
+      
+      
+
+      ``1.4-1``,  ``1.4-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

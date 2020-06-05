@@ -8,6 +8,7 @@ bioconductor-htmg430bcdf
 
 .. conda:recipe:: bioconductor-htmg430bcdf
    :replaces_section_title:
+   :noindex:
 
    htmg430bcdf
 
@@ -22,11 +23,18 @@ bioconductor-htmg430bcdf
 
    |downloads_bioconductor-htmg430bcdf| |docker_bioconductor-htmg430bcdf|
 
-   :versions: 2.18.0-4, 2.18.0-3, 2.18.0-2, 2.18.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-4``,  ``2.18.0-3``,  ``2.18.0-2``,  ``2.18.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

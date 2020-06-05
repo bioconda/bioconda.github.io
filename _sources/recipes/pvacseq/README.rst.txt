@@ -8,6 +8,7 @@ pvacseq
 
 .. conda:recipe:: pvacseq
    :replaces_section_title:
+   :noindex:
 
    Personalized Variant Antigens by Cancer Sequencing \(pVAC\-Seq\)
 
@@ -24,11 +25,18 @@ pvacseq
 
    |downloads_pvacseq| |docker_pvacseq|
 
-   :versions: 4.0.10-3, 4.0.10-2, 4.0.10-0, 4.0.9-0
+   :versions:
+      
+      
+
+      ``4.0.10-3``,  ``4.0.10-2``,  ``4.0.10-0``,  ``4.0.9-0``
+
+      
+
    
    :depends connexion: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyvcf: 
    :depends pyyaml: 
    :depends requests: 

@@ -8,6 +8,7 @@ glimmer
 
 .. conda:recipe:: glimmer
    :replaces_section_title:
+   :noindex:
 
    Glimmer is a system for finding genes in microbial DNA
 
@@ -23,7 +24,14 @@ glimmer
 
    |downloads_glimmer| |docker_glimmer|
 
-   :versions: 3.02-3, 3.02-2, 3.02-1, 3.02-0
+   :versions:
+      
+      
+
+      ``3.02-3``,  ``3.02-2``,  ``3.02-1``,  ``3.02-0``
+
+      
+
    
    :requirements:
 

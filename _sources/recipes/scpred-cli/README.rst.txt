@@ -8,6 +8,7 @@ scpred-cli
 
 .. conda:recipe:: scpred-cli
    :replaces_section_title:
+   :noindex:
 
    A set of command\-line wrappers for the core functions in the scPred package.
 
@@ -22,7 +23,14 @@ scpred-cli
 
    |downloads_scpred-cli| |docker_scpred-cli|
 
-   :versions: 0.0.8-0, 0.0.7-0, 0.0.5-0, 0.0.4-0, 0.0.3-0, 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+
+      
+
    
    :depends r-optparse: 
    :depends r-scpred: 

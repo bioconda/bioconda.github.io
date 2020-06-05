@@ -8,6 +8,7 @@ perl-text-ansitable
 
 .. conda:recipe:: perl-text-ansitable/0.48
    :replaces_section_title:
+   :noindex:
 
    Create nice formatted tables using extended ASCII and ANSI colors
 
@@ -22,9 +23,16 @@ perl-text-ansitable
 
    |downloads_perl-text-ansitable| |docker_perl-text-ansitable|
 
-   :versions: 0.48-1, 0.48-0
+   :versions:
+      
+      
+
+      ``0.48-1``,  ``0.48-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-border-style: 
    :depends perl-color-theme: 

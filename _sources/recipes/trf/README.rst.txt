@@ -8,6 +8,7 @@ trf
 
 .. conda:recipe:: trf
    :replaces_section_title:
+   :noindex:
 
    Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences.
 
@@ -23,7 +24,14 @@ trf
 
    |downloads_trf| |docker_trf|
 
-   :versions: 4.09-2, 4.09-1, 4.09-0, 4.07b-0
+   :versions:
+      
+      
+
+      ``4.09-2``,  ``4.09-1``,  ``4.09-0``,  ``4.07b-0``
+
+      
+
    
    :requirements:
 

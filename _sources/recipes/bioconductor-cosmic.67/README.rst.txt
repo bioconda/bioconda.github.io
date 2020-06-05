@@ -8,6 +8,7 @@ bioconductor-cosmic.67
 
 .. conda:recipe:: bioconductor-cosmic.67
    :replaces_section_title:
+   :noindex:
 
    COSMIC.67
 
@@ -22,13 +23,20 @@ bioconductor-cosmic.67
 
    |downloads_bioconductor-cosmic.67| |docker_bioconductor-cosmic.67|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-variantannotation: ``>=1.34.0,<1.35.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

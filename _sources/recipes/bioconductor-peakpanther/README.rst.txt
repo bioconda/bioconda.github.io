@@ -8,6 +8,7 @@ bioconductor-peakpanther
 
 .. conda:recipe:: bioconductor-peakpanther
    :replaces_section_title:
+   :noindex:
 
    Peak Picking and Annotation of High Resolution Experiments
 
@@ -22,19 +23,26 @@ bioconductor-peakpanther
 
    |downloads_bioconductor-peakpanther| |docker_bioconductor-peakpanther|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-mzr: >=2.22.0,<2.23.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-doparallel: >=1.0.11
-   :depends r-foreach: >=1.4.4
-   :depends r-ggplot2: >=2.2.1
-   :depends r-gridextra: >=2.3
-   :depends r-minpack.lm: >=1.2.1
-   :depends r-scales: >=0.5.0
-   :depends r-stringr: >=1.2.0
-   :depends r-xml: >=3.98.1.10
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-doparallel: ``>=1.0.11``
+   :depends r-foreach: ``>=1.4.4``
+   :depends r-ggplot2: ``>=2.2.1``
+   :depends r-gridextra: ``>=2.3``
+   :depends r-minpack.lm: ``>=1.2.1``
+   :depends r-scales: ``>=0.5.0``
+   :depends r-stringr: ``>=1.2.0``
+   :depends r-xml: ``>=3.98.1.10``
    :requirements:
 
    .. rubric:: Installation

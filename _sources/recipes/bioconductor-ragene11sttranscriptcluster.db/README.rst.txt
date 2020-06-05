@@ -8,6 +8,7 @@ bioconductor-ragene11sttranscriptcluster.db
 
 .. conda:recipe:: bioconductor-ragene11sttranscriptcluster.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix ragene11 annotation data \(chip ragene11sttranscriptcluster\)
 
@@ -22,12 +23,19 @@ bioconductor-ragene11sttranscriptcluster.db
 
    |downloads_bioconductor-ragene11sttranscriptcluster.db| |docker_bioconductor-ragene11sttranscriptcluster.db|
 
-   :versions: 8.7.0-5, 8.7.0-4, 8.7.0-3, 8.7.0-1, 8.7.0-0
+   :versions:
+      
+      
+
+      ``8.7.0-5``,  ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-1``,  ``8.7.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.rn.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

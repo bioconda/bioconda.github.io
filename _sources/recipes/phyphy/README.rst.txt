@@ -8,6 +8,7 @@ phyphy
 
 .. conda:recipe:: phyphy
    :replaces_section_title:
+   :noindex:
 
    Facilitating the execution and parsing of standard HyPhy \(\>\=2.3.7\) analyses
 
@@ -22,9 +23,16 @@ phyphy
 
    |downloads_phyphy| |docker_phyphy|
 
-   :versions: 0.4.3-0
+   :versions:
+      
+      
+
+      ``0.4.3-0``
+
+      
+
    
-   :depends ete3: >=3.1
+   :depends ete3: ``>=3.1``
    :depends python: 
    :requirements:
 

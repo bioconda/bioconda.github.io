@@ -8,6 +8,7 @@ r-ddir
 
 .. conda:recipe:: r-ddir
    :replaces_section_title:
+   :noindex:
 
    An R package to access to Omics Discovery Index API
 
@@ -22,9 +23,16 @@ r-ddir
 
    |downloads_r-ddir| |docker_r-ddir|
 
-   :versions: 0.0.3-1, 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.3-1``,  ``0.0.3-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rjsonio: 
    :requirements:
 

@@ -8,6 +8,7 @@ clsify
 
 .. conda:recipe:: clsify
    :replaces_section_title:
+   :noindex:
 
    Haplotyping of C. Liberibacter solanacearum from Sanger data.
 
@@ -22,7 +23,14 @@ clsify
 
    |downloads_clsify| |docker_clsify|
 
-   :versions: 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``
+
+      
+
    
    :depends attrs: 
    :depends bcftools: 
@@ -41,7 +49,7 @@ clsify
    :depends pandas: 
    :depends plotly: 
    :depends pysam: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends requests: 
    :depends vcfpy: 
    :depends xlsxwriter: 

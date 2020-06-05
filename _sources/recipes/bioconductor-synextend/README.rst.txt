@@ -8,6 +8,7 @@ bioconductor-synextend
 
 .. conda:recipe:: bioconductor-synextend
    :replaces_section_title:
+   :noindex:
 
    Tools for Working With Synteny Objects
 
@@ -22,14 +23,21 @@ bioconductor-synextend
 
    |downloads_bioconductor-synextend| |docker_bioconductor-synextend|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-decipher: >=2.16.0,<2.17.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-igraph: >=1.2.4.1
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-decipher: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-igraph: ``>=1.2.4.1``
    :requirements:
 
    .. rubric:: Installation

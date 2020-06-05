@@ -8,6 +8,7 @@ bioconductor-goprofiles
 
 .. conda:recipe:: bioconductor-goprofiles
    :replaces_section_title:
+   :noindex:
 
    goProfiles\: an R package for the statistical analysis of functional profiles
 
@@ -22,12 +23,19 @@ bioconductor-goprofiles
 
    |downloads_bioconductor-goprofiles| |docker_bioconductor-goprofiles|
 
-   :versions: 1.50.0-0, 1.48.0-0, 1.46.0-1, 1.44.0-1, 1.44.0-0
+   :versions:
+      
+      
+
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-1``,  ``1.44.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-compquadform: 
    :depends r-stringr: 
    :requirements:

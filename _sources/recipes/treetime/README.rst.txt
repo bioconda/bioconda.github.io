@@ -8,6 +8,7 @@ treetime
 
 .. conda:recipe:: treetime
    :replaces_section_title:
+   :noindex:
 
    Maximum\-Likelihood dating and ancestral inference for phylogenetic trees
 
@@ -22,14 +23,29 @@ treetime
 
    |downloads_treetime| |docker_treetime|
 
-   :versions: 0.7.4-0, 0.7.3-0, 0.7.2-0, 0.7.0-0, 0.6.4.1-0, 0.6.3-0, 0.6.1-0, 0.5.6-0, 0.5.5-0, 0.5.3-0, 0.5.2-1, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.2.4-1, 0.2.4-0, 0.2.1-1, 0.2.1-0, 0.1-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.4.1-0</code>,  <code>0.6.3-0</code>,  <code>0.6.1-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  </span></summary>
+      
+
+      ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.4.1-0``,  ``0.6.3-0``,  ``0.6.1-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: >=1.66
+   :depends biopython: ``>=1.66``
    :depends matplotlib-base: 
-   :depends numpy: >=1.10.4
-   :depends pandas: >=0.17.1
+   :depends numpy: ``>=1.10.4``
+   :depends pandas: ``>=0.17.1``
    :depends python: 
-   :depends scipy: >=0.16.1
+   :depends scipy: ``>=0.16.1``
    :requirements:
 
    .. rubric:: Installation

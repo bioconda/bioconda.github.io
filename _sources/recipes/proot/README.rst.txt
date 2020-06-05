@@ -8,6 +8,7 @@ proot
 
 .. conda:recipe:: proot
    :replaces_section_title:
+   :noindex:
 
    chroot\, mount \-\-bind\, and binfmt\_misc without privilege\/setup
 
@@ -22,7 +23,14 @@ proot
 
    |downloads_proot| |docker_proot|
 
-   :versions: 5.1.0-0
+   :versions:
+      
+      
+
+      ``5.1.0-0``
+
+      
+
    
    :depends talloc: 
    :requirements:

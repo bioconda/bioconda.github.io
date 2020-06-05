@@ -8,6 +8,7 @@ bioconductor-hgu133plus2barcodevecs
 
 .. conda:recipe:: bioconductor-hgu133plus2barcodevecs
    :replaces_section_title:
+   :noindex:
 
    hgu133plus2 data for barcode
 
@@ -22,10 +23,17 @@ bioconductor-hgu133plus2barcodevecs
 
    |downloads_bioconductor-hgu133plus2barcodevecs| |docker_bioconductor-hgu133plus2barcodevecs|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

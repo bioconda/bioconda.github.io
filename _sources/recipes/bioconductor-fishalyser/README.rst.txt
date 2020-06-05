@@ -8,6 +8,7 @@ bioconductor-fishalyser
 
 .. conda:recipe:: bioconductor-fishalyser
    :replaces_section_title:
+   :noindex:
 
    FISHalyseR a package for automated FISH quantification
 
@@ -23,11 +24,18 @@ bioconductor-fishalyser
 
    |downloads_bioconductor-fishalyser| |docker_bioconductor-fishalyser|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
+   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
    :depends r-abind: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

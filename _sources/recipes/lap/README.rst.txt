@@ -8,6 +8,7 @@ lap
 
 .. conda:recipe:: lap
    :replaces_section_title:
+   :noindex:
 
    De novo genome assembly evaluation
 
@@ -22,11 +23,18 @@ lap
 
    |downloads_lap| |docker_lap|
 
-   :versions: 1.1.r186-0
+   :versions:
+      
+      
+
+      ``1.1.r186-0``
+
+      
+
    
    :depends bowtie2: 
    :depends libgcc: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

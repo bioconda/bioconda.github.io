@@ -8,6 +8,7 @@ bioconductor-depecher
 
 .. conda:recipe:: bioconductor-depecher
    :replaces_section_title:
+   :noindex:
 
    Determination of essential phenotypic elements of clusters in high\-dimensional entities
 
@@ -22,29 +23,36 @@ bioconductor-depecher
 
    |downloads_bioconductor-depecher| |docker_bioconductor-depecher|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``
+
+      
+
    
-   :depends bioconductor-mixomics: >=6.12.0,<6.13.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-beanplot: >=1.2
-   :depends r-dosnow: >=1.0.16
-   :depends r-dplyr: >=0.7.8
-   :depends r-fnn: >=1.1.3
-   :depends r-foreach: >=1.4.4
-   :depends r-ggplot2: >=3.1.0
-   :depends r-gplots: >=3.0.1
-   :depends r-mass: >=7.3.51
-   :depends r-matrixstats: >=0.54.0
-   :depends r-moments: >=0.14
-   :depends r-rcpp: >=1.0.0
+   :depends bioconductor-mixomics: ``>=6.12.0,<6.13.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-beanplot: ``>=1.2``
+   :depends r-dosnow: ``>=1.0.16``
+   :depends r-dplyr: ``>=0.7.8``
+   :depends r-fnn: ``>=1.1.3``
+   :depends r-foreach: ``>=1.4.4``
+   :depends r-ggplot2: ``>=3.1.0``
+   :depends r-gplots: ``>=3.0.1``
+   :depends r-mass: ``>=7.3.51``
+   :depends r-matrixstats: ``>=0.54.0``
+   :depends r-moments: ``>=0.14``
+   :depends r-rcpp: ``>=1.0.0``
    :depends r-rcppeigen: 
-   :depends r-reshape2: >=1.4.3
-   :depends r-robustbase: >=0.93.5
-   :depends r-viridis: >=0.5.1
+   :depends r-reshape2: ``>=1.4.3``
+   :depends r-robustbase: ``>=0.93.5``
+   :depends r-viridis: ``>=0.5.1``
    :requirements:
 
    .. rubric:: Installation

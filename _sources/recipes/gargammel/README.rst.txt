@@ -8,6 +8,7 @@ gargammel
 
 .. conda:recipe:: gargammel
    :replaces_section_title:
+   :noindex:
 
    Tool for simulating ancient DNA datasets
 
@@ -22,16 +23,23 @@ gargammel
 
    |downloads_gargammel| |docker_gargammel|
 
-   :versions: 1.1.2-0
+   :versions:
+      
+      
+
+      ``1.1.2-0``
+
+      
+
    
    :depends art: 
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openssl: >=1.0.2n,<1.0.3a
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openssl: ``>=1.0.2n,<1.0.3a``
    :depends perl: 
    :depends samtools: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

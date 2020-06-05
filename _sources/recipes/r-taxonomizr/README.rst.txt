@@ -8,6 +8,7 @@ r-taxonomizr
 
 .. conda:recipe:: r-taxonomizr
    :replaces_section_title:
+   :noindex:
 
    Functions for assigning taxonomy to NCBI accession numbers and taxon IDs based on NCBI\'s accession2taxid and taxdump files. This package allows the user to downloads NCBI data dumps and create a local database for fast and local taxonomic assignment.
 
@@ -22,11 +23,18 @@ r-taxonomizr
 
    |downloads_r-taxonomizr| |docker_r-taxonomizr|
 
-   :versions: 0.5.3-1, 0.5.3-0, 0.5.1-0
+   :versions:
+      
+      
+
+      ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends parallel: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-knitr: 
    :depends r-markdown: 

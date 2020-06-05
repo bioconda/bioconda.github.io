@@ -8,6 +8,7 @@ pysamstats
 
 .. conda:recipe:: pysamstats
    :replaces_section_title:
+   :noindex:
 
    Calculate read mapping stats from SAM\/BAM\/CRAM
 
@@ -23,15 +24,30 @@ pysamstats
 
    |downloads_pysamstats| |docker_pysamstats|
 
-   :versions: 1.1.2-6, 1.1.2-5, 1.1.2-4, 1.1.2-3, 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.0.1-2, 1.0.1-1, 1.0.1-0, 1.0.0-0, 0.24.3-0, 0.24.2-1, 0.24.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.1.2-6</code>,  <code>1.1.2-5</code>,  <code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  </span></summary>
+      
+
+      ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.24.3-0``,  ``0.24.2-1``,  ``0.24.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends pysam: >=0.15.4,<0.15.5.0a0
+   :depends pysam: ``>=0.15.4,<0.15.5.0a0``
    :depends pytables: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

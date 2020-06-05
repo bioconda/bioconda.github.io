@@ -8,6 +8,7 @@ fastqsplitter
 
 .. conda:recipe:: fastqsplitter
    :replaces_section_title:
+   :noindex:
 
    Splits FASTQ files evenly.
 
@@ -24,12 +25,19 @@ fastqsplitter
 
    |downloads_fastqsplitter| |docker_fastqsplitter|
 
-   :versions: 1.2.0-0, 1.1.0-1, 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends pigz: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends xopen: >=0.8.1
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends xopen: ``>=0.8.1``
    :requirements:
 
    .. rubric:: Installation

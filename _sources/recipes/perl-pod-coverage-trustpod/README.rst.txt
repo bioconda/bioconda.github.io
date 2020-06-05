@@ -8,6 +8,7 @@ perl-pod-coverage-trustpod
 
 .. conda:recipe:: perl-pod-coverage-trustpod/0.100003
    :replaces_section_title:
+   :noindex:
 
    allow a module\'s pod to contain Pod\:\:Coverage hints
 
@@ -22,9 +23,16 @@ perl-pod-coverage-trustpod
 
    |downloads_perl-pod-coverage-trustpod| |docker_perl-pod-coverage-trustpod|
 
-   :versions: 0.100003-1, 0.100003-0
+   :versions:
+      
+      
+
+      ``0.100003-1``,  ``0.100003-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-base: 
    :depends perl-lib: 

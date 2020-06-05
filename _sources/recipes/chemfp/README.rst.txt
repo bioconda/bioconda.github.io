@@ -8,6 +8,7 @@ chemfp
 
 .. conda:recipe:: chemfp
    :replaces_section_title:
+   :noindex:
 
    chemfp is a set of command\-lines tools for generating cheminformatics fingerprints and searching those
    fingerprints by Tanimoto similarity\, as well as a Python library which can be used to build new tools.
@@ -33,11 +34,18 @@ chemfp
 
    |downloads_chemfp| |docker_chemfp|
 
-   :versions: 1.5-0, 1.4-1, 1.4-0, 1.3-1, 1.3-0, 1.3a1-0, 1.1p1-0
+   :versions:
+      
+      
+
+      ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-1``,  ``1.3-0``,  ``1.3a1-0``,  ``1.1p1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends openbabel: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends rdkit: 
    :requirements:
 

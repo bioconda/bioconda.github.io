@@ -8,6 +8,7 @@ bigsi
 
 .. conda:recipe:: bigsi
    :replaces_section_title:
+   :noindex:
 
    BItsliced Genomic Signature Index \[BIGSI\]
 
@@ -23,7 +24,14 @@ bigsi
 
    |downloads_bigsi| |docker_bigsi|
 
-   :versions: 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.3.1-0``
+
+      
+
    
    :depends biopython: 
    :depends bitarray: 
@@ -34,7 +42,7 @@ bigsi
    :depends libdb: 
    :depends mmh3: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyyaml: 
    :depends redis-py: 
    :requirements:

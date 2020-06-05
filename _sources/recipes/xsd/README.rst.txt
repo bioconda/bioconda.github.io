@@ -8,6 +8,7 @@ xsd
 
 .. conda:recipe:: xsd
    :replaces_section_title:
+   :noindex:
 
    CodeSynthesis XSD is an open\-source\, cross\-platform W3C XML Schema to C\+\+ data binding compiler. Provided with an XML instance specification \(XML Schema\)\, it generates C\+\+ classes that represent the given vocabulary as well as XML parsing and serialization code.
 
@@ -22,11 +23,18 @@ xsd
 
    |downloads_xsd| |docker_xsd|
 
-   :versions: 4.0.0_dep-2, 4.0.0_dep-1, 4.0.0_dep-0
+   :versions:
+      
+      
+
+      ``4.0.0_dep-2``,  ``4.0.0_dep-1``,  ``4.0.0_dep-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends xerces-c: >=3.2.2,<3.2.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
    :requirements:
 
    .. rubric:: Installation

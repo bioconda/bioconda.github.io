@@ -8,6 +8,7 @@ wdltool
 
 .. conda:recipe:: wdltool
    :replaces_section_title:
+   :noindex:
 
    Command line utilities for interacting with WDL
 
@@ -22,9 +23,16 @@ wdltool
 
    |downloads_wdltool| |docker_wdltool|
 
-   :versions: 0.14-1, 0.14-0, 0.9-0, 0.6-0
+   :versions:
+      
+      
+
+      ``0.14-1``,  ``0.14-0``,  ``0.9-0``,  ``0.6-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-pubscore
 
 .. conda:recipe:: bioconductor-pubscore
    :replaces_section_title:
+   :noindex:
 
    Automatic calculation of literature relevance of genes
 
@@ -22,9 +23,16 @@ bioconductor-pubscore
 
    |downloads_bioconductor-pubscore| |docker_bioconductor-pubscore|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 

@@ -8,6 +8,7 @@ btrim
 
 .. conda:recipe:: btrim
    :replaces_section_title:
+   :noindex:
 
    This tool is made to remove \"tips\" \(short dead ends\) from a compacted de Bruijn graph and more generally to remove sequencing errors. Used in Bcool a short read corrector \(https\:\/\/arxiv.org\/abs\/1711.03336\)
 
@@ -22,10 +23,17 @@ btrim
 
    |downloads_btrim| |docker_btrim|
 
-   :versions: 1.0.1-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

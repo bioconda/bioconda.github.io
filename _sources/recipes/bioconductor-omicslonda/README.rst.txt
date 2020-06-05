@@ -8,6 +8,7 @@ bioconductor-omicslonda
 
 .. conda:recipe:: bioconductor-omicslonda
    :replaces_section_title:
+   :noindex:
 
    Omics Longitudinal Differential Analysis
 
@@ -22,12 +23,19 @@ bioconductor-omicslonda
 
    |downloads_bioconductor-omicslonda| |docker_bioconductor-omicslonda|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gss: 
    :depends r-plyr: 

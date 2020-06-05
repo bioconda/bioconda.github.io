@@ -8,6 +8,7 @@ quickmerge
 
 .. conda:recipe:: quickmerge
    :replaces_section_title:
+   :noindex:
 
    Quickmerge uses a simple concept to improve contiguity of genome assemblies based on long molecule sequences.
 
@@ -22,12 +23,19 @@ quickmerge
 
    |downloads_quickmerge| |docker_quickmerge|
 
-   :versions: 0.3-0
+   :versions:
+      
+      
+
+      ``0.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends mummer: 3.23.*
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends mummer: ``3.23.*``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends python: 
    :depends zlib: 
    :requirements:

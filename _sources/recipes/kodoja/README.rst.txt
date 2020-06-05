@@ -8,6 +8,7 @@ kodoja
 
 .. conda:recipe:: kodoja
    :replaces_section_title:
+   :noindex:
 
    Kodoja\: identifying viruses from plant RNA sequencing data
 
@@ -22,7 +23,22 @@ kodoja
 
    |downloads_kodoja| |docker_kodoja|
 
-   :versions: 0.0.10-0, 0.0.9-0, 0.0.8-0, 0.0.7-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-1, 0.0.3-0, 0.0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-1</code>,  <code>0.0.3-0</code>,  </span></summary>
+      
+
+      ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends fastqc: 

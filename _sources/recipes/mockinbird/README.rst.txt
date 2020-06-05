@@ -8,6 +8,7 @@ mockinbird
 
 .. conda:recipe:: mockinbird
    :replaces_section_title:
+   :noindex:
 
    A fully automatic and reproducible PAR\-CLIP analysis pipeline
 
@@ -24,17 +25,24 @@ mockinbird
 
    |downloads_mockinbird| |docker_mockinbird|
 
-   :versions: 1.0.0a1-3, 1.0.0a1-2, 1.0.0a1-1, 1.0.0a1-0
+   :versions:
+      
+      
+
+      ``1.0.0a1-3``,  ``1.0.0a1-2``,  ``1.0.0a1-1``,  ``1.0.0a1-0``
+
+      
+
    
    :depends bowtie: 
    :depends fastqc: 
    :depends jinja2: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends pyyaml: 
    :depends r-base: 
    :depends r-lsd: 

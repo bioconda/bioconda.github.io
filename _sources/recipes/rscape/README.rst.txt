@@ -8,6 +8,7 @@ rscape
 
 .. conda:recipe:: rscape
    :replaces_section_title:
+   :noindex:
 
    R\-scape \(RNA Structural Covariation Above Phylogenetic Expectation\) looks for evidence of a conserved RNA secondary structure by measuring pairwise covariations observed in an input multiple sequence alignment.
 
@@ -22,11 +23,26 @@ rscape
 
    |downloads_rscape| |docker_rscape|
 
-   :versions: 1.4.0-0, 1.2.2-2, 1.2.2-1, 1.2.2-0, 1.0.4-2, 1.0.4-1, 0.8.3-3, 0.8.3-2, 0.8.3-1, 0.8.3-0, 0.6.1-4, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.3.1-0, 0.2.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>0.8.3-3</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  </span></summary>
+      
+
+      ``1.4.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``0.8.3-3``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.3.1-0``,  ``0.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends gnuplot: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
    :requirements:
 

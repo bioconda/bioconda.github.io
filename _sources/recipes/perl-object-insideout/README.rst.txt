@@ -8,6 +8,7 @@ perl-object-insideout
 
 .. conda:recipe:: perl-object-insideout
    :replaces_section_title:
+   :noindex:
 
    Comprehensive inside\-out object support module
 
@@ -22,9 +23,16 @@ perl-object-insideout
 
    |downloads_perl-object-insideout| |docker_perl-object-insideout|
 
-   :versions: 4.05-0, 4.04-0
+   :versions:
+      
+      
+
+      ``4.05-0``,  ``4.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-data-dumper: 
    :depends perl-exception-class: 
    :requirements:

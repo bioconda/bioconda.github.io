@@ -8,6 +8,7 @@ clipandmerge
 
 .. conda:recipe:: clipandmerge
    :replaces_section_title:
+   :noindex:
 
    Clip\&Merge is a tool to clip off adapters from sequencing reads and merge overlapping paired end reads together.
 
@@ -22,7 +23,14 @@ clipandmerge
 
    |downloads_clipandmerge| |docker_clipandmerge|
 
-   :versions: 1.7.8-1, 1.7.8-0
+   :versions:
+      
+      
+
+      ``1.7.8-1``,  ``1.7.8-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

@@ -8,6 +8,7 @@ perl-go-perl
 
 .. conda:recipe:: perl-go-perl
    :replaces_section_title:
+   :noindex:
 
    perl modules for GO and other OBO ontologies
 
@@ -22,11 +23,18 @@ perl-go-perl
 
    |downloads_perl-go-perl| |docker_perl-go-perl|
 
-   :versions: 0.15-3, 0.15-1, 0.15-0
+   :versions:
+      
+      
+
+      ``0.15-3``,  ``0.15-1``,  ``0.15-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-data-dumper: 
-   :depends perl-data-stag: >=0.07
+   :depends perl-data-stag: ``>=0.07``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-file-copy-link
 
 .. conda:recipe:: perl-file-copy-link
    :replaces_section_title:
+   :noindex:
 
    Perl extension for replacing a link by a copy of the linked file.
 
@@ -22,10 +23,17 @@ perl-file-copy-link
 
    |downloads_perl-file-copy-link| |docker_perl-file-copy-link|
 
-   :versions: 0.140-2, 0.140-1, 0.140-0
+   :versions:
+      
+      
+
+      ``0.140-2``,  ``0.140-1``,  ``0.140-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

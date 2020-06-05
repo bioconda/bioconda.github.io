@@ -8,6 +8,7 @@ perl-tree-dag_node
 
 .. conda:recipe:: perl-tree-dag_node
    :replaces_section_title:
+   :noindex:
 
    An N\-ary tree
 
@@ -22,9 +23,16 @@ perl-tree-dag_node
 
    |downloads_perl-tree-dag_node| |docker_perl-tree-dag_node|
 
-   :versions: 1.31-0, 1.29-2, 1.29-1, 1.29-0
+   :versions:
+      
+      
+
+      ``1.31-0``,  ``1.29-2``,  ``1.29-1``,  ``1.29-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-file-slurp-tiny: 
    :requirements:
 

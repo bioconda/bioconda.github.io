@@ -8,6 +8,7 @@ sis
 
 .. conda:recipe:: sis
    :replaces_section_title:
+   :noindex:
 
    A tool that uses mummer to scaffold small genomes.
 
@@ -22,10 +23,17 @@ sis
 
    |downloads_sis| |docker_sis|
 
-   :versions: 0.1.2-3, 0.1.2-2, 0.1.2-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.0-0``
+
+      
+
    
    :depends mummer: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

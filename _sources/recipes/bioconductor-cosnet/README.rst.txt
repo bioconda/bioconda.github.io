@@ -8,6 +8,7 @@ bioconductor-cosnet
 
 .. conda:recipe:: bioconductor-cosnet
    :replaces_section_title:
+   :noindex:
 
    Cost Sensitive Network for node label prediction on graphs with highly unbalanced labelings
 
@@ -22,12 +23,19 @@ bioconductor-cosnet
 
    |downloads_bioconductor-cosnet| |docker_bioconductor-cosnet|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-ensembl-core
 
 .. conda:recipe:: perl-ensembl-core
    :replaces_section_title:
+   :noindex:
 
    The Ensembl Core Perl API and
 
@@ -22,7 +23,14 @@ perl-ensembl-core
 
    |downloads_perl-ensembl-core| |docker_perl-ensembl-core|
 
-   :versions: 98-0
+   :versions:
+      
+      
+
+      ``98-0``
+
+      
+
    
    :depends perl-list-moreutils: 
    :requirements:

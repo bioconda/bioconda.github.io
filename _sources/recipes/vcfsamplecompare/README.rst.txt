@@ -8,6 +8,7 @@ vcfsamplecompare
 
 .. conda:recipe:: vcfsamplecompare
    :replaces_section_title:
+   :noindex:
 
    This script sorts and \(optionally\) filters the rows\/variants of a VCF file \(containing data for 2 or more samples\) based on the differences in the variant data between samples or sample groups. Degree of \"difference\" is determined by either the best possible degree of separation of sample groups by genotype calls or the difference in average allelic frequency of each sample or sample group \(with a gap size threshold\). The pair of samples or sample groups used to represent the difference for a variant row is the one leading to the greatest difference in consistent genotype or average allelic frequencies \(i.e. observation ratios\, e.g. AO\/DP\) of the same variant state. If sample groups are not specified\, the pair of samples leading to the greatest difference is greedily discovered and chosen to represent the variant\/row.
 
@@ -23,9 +24,16 @@ vcfsamplecompare
 
    |downloads_vcfsamplecompare| |docker_vcfsamplecompare|
 
-   :versions: 2.013-0, v2.008-1, v2.008-0, v2.006-0
+   :versions:
+      
+      
+
+      ``2.013-0``,  ``v2.008-1``,  ``v2.008-0``,  ``v2.006-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

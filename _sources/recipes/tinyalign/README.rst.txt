@@ -8,6 +8,7 @@ tinyalign
 
 .. conda:recipe:: tinyalign
    :replaces_section_title:
+   :noindex:
 
    A small Python module providing edit distance and Hamming distance computation.
 
@@ -22,10 +23,17 @@ tinyalign
 
    |downloads_tinyalign| |docker_tinyalign|
 
-   :versions: 0.2-0
+   :versions:
+      
+      
+
+      ``0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
    :requirements:
 
    .. rubric:: Installation

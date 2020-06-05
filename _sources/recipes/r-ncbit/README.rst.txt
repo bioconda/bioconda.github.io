@@ -8,6 +8,7 @@ r-ncbit
 
 .. conda:recipe:: r-ncbit
    :replaces_section_title:
+   :noindex:
 
    making NCBI taxonomic data locally available and searchable as an R object
 
@@ -22,9 +23,16 @@ r-ncbit
 
    |downloads_r-ncbit| |docker_r-ncbit|
 
-   :versions: 2013.03.29-3, 2013.03.29-2, 2013.03.29-1, 2013.03.29-0
+   :versions:
+      
+      
+
+      ``2013.03.29-3``,  ``2013.03.29-2``,  ``2013.03.29-1``,  ``2013.03.29-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

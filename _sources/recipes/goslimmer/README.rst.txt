@@ -8,6 +8,7 @@ goslimmer
 
 .. conda:recipe:: goslimmer
    :replaces_section_title:
+   :noindex:
 
    GOSlimmer transforms GO annotations to a slimmed version of GO
 
@@ -22,9 +23,16 @@ goslimmer
 
    |downloads_goslimmer| |docker_goslimmer|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

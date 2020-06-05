@@ -8,6 +8,7 @@ perl-class-load
 
 .. conda:recipe:: perl-class-load
    :replaces_section_title:
+   :noindex:
 
    A working \(require \"Class\:\:Name\"\) and more
 
@@ -22,9 +23,16 @@ perl-class-load
 
    |downloads_perl-class-load| |docker_perl-class-load|
 
-   :versions: 0.25-0, 0.23-1, 0.23-0
+   :versions:
+      
+      
+
+      ``0.25-0``,  ``0.23-1``,  ``0.23-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-data-optlist: 

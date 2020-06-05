@@ -8,6 +8,7 @@ bioconductor-rnbeads
 
 .. conda:recipe:: bioconductor-rnbeads
    :replaces_section_title:
+   :noindex:
 
    RnBeads
 
@@ -22,20 +23,27 @@ bioconductor-rnbeads
 
    |downloads_bioconductor-rnbeads| |docker_bioconductor-rnbeads|
 
-   :versions: 2.4.0-0, 2.2.0-1, 2.0.0-0, 1.12.1-0, 1.10.8-0
+   :versions:
+      
+      
+
+      ``2.4.0-0``,  ``2.2.0-1``,  ``2.0.0-0``,  ``1.12.1-0``,  ``1.10.8-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-illuminaio: >=0.28.0,<0.29.0
-   :depends bioconductor-iranges: >=2.20.0,<2.21.0
-   :depends bioconductor-limma: >=3.42.0,<3.43.0
-   :depends bioconductor-methylumi: >=2.32.0,<2.33.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-genomicranges: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-illuminaio: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-iranges: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-limma: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-methylumi: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-s4vectors: ``>=0.24.0,<0.25.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-cluster: 
    :depends r-ff: 
    :depends r-fields: 
-   :depends r-ggplot2: >=0.9.2
+   :depends r-ggplot2: ``>=0.9.2``
    :depends r-gplots: 
    :depends r-gridextra: 
    :depends r-mass: 

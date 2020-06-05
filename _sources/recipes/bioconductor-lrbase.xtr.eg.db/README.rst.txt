@@ -8,6 +8,7 @@ bioconductor-lrbase.xtr.eg.db
 
 .. conda:recipe:: bioconductor-lrbase.xtr.eg.db
    :replaces_section_title:
+   :noindex:
 
    An annotation package for the LRBaseDb object
 
@@ -22,11 +23,18 @@ bioconductor-lrbase.xtr.eg.db
 
    |downloads_bioconductor-lrbase.xtr.eg.db| |docker_bioconductor-lrbase.xtr.eg.db|
 
-   :versions: 1.2.0-1, 1.2.0-0, 1.1.0-0, 0.99.1-0
+   :versions:
+      
+      
+
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``0.99.1-0``
+
+      
+
    
-   :depends bioconductor-lrbasedbi: >=1.6.0,<1.7.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-lrbasedbi: ``>=1.6.0,<1.7.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rsqlite: 
    :requirements:
 

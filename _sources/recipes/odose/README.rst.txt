@@ -8,6 +8,7 @@ odose
 
 .. conda:recipe:: odose
    :replaces_section_title:
+   :noindex:
 
    Ortholog Direction of Selection Engine.
 
@@ -22,15 +23,22 @@ odose
 
    |downloads_odose| |docker_odose|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends biopython: >=1.64
-   :depends matplotlib: >=1.4.2
+   :depends biopython: ``>=1.64``
+   :depends matplotlib: ``>=1.4.2``
    :depends mysql-connector-python: 
-   :depends numpy: >=1.9.1
-   :depends poster: >=0.8.1
-   :depends python: 2.7*
-   :depends rpy2: >=2.8.5
+   :depends numpy: ``>=1.9.1``
+   :depends poster: ``>=0.8.1``
+   :depends python: ``2.7*``
+   :depends rpy2: ``>=2.8.5``
    :requirements:
 
    .. rubric:: Installation

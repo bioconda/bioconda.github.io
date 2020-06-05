@@ -8,6 +8,7 @@ abritamr
 
 .. conda:recipe:: abritamr
    :replaces_section_title:
+   :noindex:
 
    Running AMRFinderPlus for MDU
 
@@ -22,14 +23,21 @@ abritamr
 
    |downloads_abritamr| |docker_abritamr|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends blast: 2.9 pl526h3066fca_4
+   :depends blast: ``2.9 pl526h3066fca_4``
    :depends click: 
    :depends jinja2: 
    :depends ncbi-amrfinderplus: 
    :depends pandas: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends snakemake: 
    :requirements:
 

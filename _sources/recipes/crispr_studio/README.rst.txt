@@ -8,6 +8,7 @@ crispr_studio
 
 .. conda:recipe:: crispr_studio
    :replaces_section_title:
+   :noindex:
 
    CRISPRStudio is a program developed to facilitate and accelerate CRISPR array visualization
 
@@ -22,14 +23,21 @@ crispr_studio
 
    |downloads_crispr_studio| |docker_crispr_studio|
 
-   :versions: 1-1, 1-0
+   :versions:
+      
+      
+
+      ``1-1``,  ``1-0``
+
+      
+
    
    :depends fasta3: 
-   :depends numpy: <=1.16.2
-   :depends pandas: >=0.24.1
-   :depends python: >=3.6,<3.7
-   :depends scikit-bio: >=0.4.2
-   :depends scipy: <=1.2.1
+   :depends numpy: ``<=1.16.2``
+   :depends pandas: ``>=0.24.1``
+   :depends python: ``>=3.6,<3.7``
+   :depends scikit-bio: ``>=0.4.2``
+   :depends scipy: ``<=1.2.1``
    :requirements:
 
    .. rubric:: Installation

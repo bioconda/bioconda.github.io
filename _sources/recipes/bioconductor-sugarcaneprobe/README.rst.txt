@@ -8,6 +8,7 @@ bioconductor-sugarcaneprobe
 
 .. conda:recipe:: bioconductor-sugarcaneprobe
    :replaces_section_title:
+   :noindex:
 
    Probe sequence data for microarrays of type sugarcane
 
@@ -22,11 +23,18 @@ bioconductor-sugarcaneprobe
 
    |downloads_bioconductor-sugarcaneprobe| |docker_bioconductor-sugarcaneprobe|
 
-   :versions: 2.18.0-5, 2.18.0-4, 2.18.0-3, 2.18.0-1, 2.18.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-5``,  ``2.18.0-4``,  ``2.18.0-3``,  ``2.18.0-1``,  ``2.18.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

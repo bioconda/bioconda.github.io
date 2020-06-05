@@ -8,6 +8,7 @@ tobias
 
 .. conda:recipe:: tobias
    :replaces_section_title:
+   :noindex:
 
    Transcription factor Occupancy prediction By Investigation of ATAC\-seq Signal
 
@@ -26,28 +27,43 @@ tobias
 
    |downloads_tobias| |docker_tobias|
 
-   :versions: 0.11.3-0, 0.11.2-0, 0.11.1-0, 0.11.0-0, 0.9.0-0, 0.8.0-0, 0.7.0-0, 0.6.4-0, 0.6.1-0, 0.5.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.4-0</code>,  <code>0.6.1-0</code>,  </span></summary>
+      
+
+      ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.1-0``,  ``0.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends adjusttext: 
    :depends boto3: 
-   :depends libgcc-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
    :depends logomaker: 
-   :depends matplotlib-base: >=2
+   :depends matplotlib-base: ``>=2``
    :depends moods: 
-   :depends numpy: >=1.14.6,<2.0a0
+   :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
    :depends pypdf2: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends pyyaml: >=5.1
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends pyyaml: ``>=5.1``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: >=0.9.1
-   :depends svist4get: 1.2.22
-   :depends xgboost: >=0.71
+   :depends seaborn: ``>=0.9.1``
+   :depends svist4get: ``1.2.22``
+   :depends xgboost: ``>=0.71``
    :depends xlsxwriter: 
    :requirements:
 

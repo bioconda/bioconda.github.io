@@ -8,6 +8,7 @@ slimm
 
 .. conda:recipe:: slimm
    :replaces_section_title:
+   :noindex:
 
    SLIMM \- Species Level Identification of Microbes from Metagenomes
 
@@ -23,10 +24,17 @@ slimm
 
    |downloads_slimm| |docker_slimm|
 
-   :versions: 0.3.4-0
+   :versions:
+      
+      
+
+      ``0.3.4-0``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

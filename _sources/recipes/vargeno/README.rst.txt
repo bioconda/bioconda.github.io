@@ -8,6 +8,7 @@ vargeno
 
 .. conda:recipe:: vargeno
    :replaces_section_title:
+   :noindex:
 
    Fast SNP genotyping tool for whole genome sequence data and large SNP database.
 
@@ -23,9 +24,16 @@ vargeno
 
    |downloads_vargeno| |docker_vargeno|
 
-   :versions: 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

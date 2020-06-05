@@ -8,6 +8,7 @@ pyscaf
 
 .. conda:recipe:: pyscaf
    :replaces_section_title:
+   :noindex:
 
    Genome assembly scaffolding using information from paired\-end\/mate\-pair libraries\, long reads\, and synteny to closely related species.
 
@@ -22,10 +23,17 @@ pyscaf
 
    |downloads_pyscaf| |docker_pyscaf|
 
-   :versions: 0.12a4-3, 0.12a4-2, 0.12a4-0
+   :versions:
+      
+      
+
+      ``0.12a4-3``,  ``0.12a4-2``,  ``0.12a4-0``
+
+      
+
    
    :depends fastaindex: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

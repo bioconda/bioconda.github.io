@@ -8,6 +8,7 @@ bioconductor-seqcombo
 
 .. conda:recipe:: bioconductor-seqcombo
    :replaces_section_title:
+   :noindex:
 
    Visualization Tool for Sequence Recombination and Reassortment
 
@@ -22,10 +23,17 @@ bioconductor-seqcombo
 
    |downloads_bioconductor-seqcombo| |docker_bioconductor-seqcombo|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

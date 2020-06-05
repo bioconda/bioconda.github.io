@@ -8,6 +8,7 @@ bioconductor-ppidata
 
 .. conda:recipe:: bioconductor-ppidata
    :replaces_section_title:
+   :noindex:
 
    A package that contains the bait to prey directed graphs for protein\-protein interactions.
 
@@ -22,12 +23,19 @@ bioconductor-ppidata
 
    |downloads_bioconductor-ppidata| |docker_bioconductor-ppidata|
 
-   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.20.0-0, 0.18.0-0, 0.16.0-0
+   :versions:
+      
+      
+
+      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

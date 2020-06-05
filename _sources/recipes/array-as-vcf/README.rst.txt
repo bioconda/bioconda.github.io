@@ -8,6 +8,7 @@ array-as-vcf
 
 .. conda:recipe:: array-as-vcf
    :replaces_section_title:
+   :noindex:
 
    Convert SNP array to VCF
 
@@ -22,10 +23,17 @@ array-as-vcf
 
    |downloads_array-as-vcf| |docker_array-as-vcf|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends python: >=3.6
-   :depends requests: >2
+   :depends python: ``>=3.6``
+   :depends requests: ``>2``
    :depends setuptools: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-text-asciitable
 
 .. conda:recipe:: perl-text-asciitable/0.22
    :replaces_section_title:
+   :noindex:
 
    Create a nice formatted table using ASCII characters.
 
@@ -22,9 +23,16 @@ perl-text-asciitable
 
    |downloads_perl-text-asciitable| |docker_perl-text-asciitable|
 
-   :versions: 0.22-2, 0.22-1, 0.22-0
+   :versions:
+      
+      
+
+      ``0.22-2``,  ``0.22-1``,  ``0.22-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-encode: 
    :requirements:

@@ -8,6 +8,7 @@ perl-cpan-meta
 
 .. conda:recipe:: perl-cpan-meta
    :replaces_section_title:
+   :noindex:
 
    the distribution metadata for a CPAN dist
 
@@ -22,9 +23,16 @@ perl-cpan-meta
 
    |downloads_perl-cpan-meta| |docker_perl-cpan-meta|
 
-   :versions: 2.150010-0, 2.120921-1, 2.120921-0
+   :versions:
+      
+      
+
+      ``2.150010-0``,  ``2.120921-1``,  ``2.120921-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-cpan-meta-requirements: 
    :depends perl-cpan-meta-yaml: 

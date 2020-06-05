@@ -8,6 +8,7 @@ lightstringgraph
 
 .. conda:recipe:: lightstringgraph
    :replaces_section_title:
+   :noindex:
 
    LightStringGraphs \(LSG\) is an external memory string graph construction tool.
 
@@ -23,10 +24,17 @@ lightstringgraph
 
    |downloads_lightstringgraph| |docker_lightstringgraph|
 
-   :versions: 0.4.0-0
+   :versions:
+      
+      
+
+      ``0.4.0-0``
+
+      
+
    
-   :depends boost: >=1.66.0,<1.66.1.0a0
-   :depends libstdcxx-ng: >=4.9
+   :depends boost: ``>=1.66.0,<1.66.1.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

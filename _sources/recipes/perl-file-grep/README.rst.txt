@@ -8,6 +8,7 @@ perl-file-grep
 
 .. conda:recipe:: perl-file-grep
    :replaces_section_title:
+   :noindex:
 
    Find matches to a pattern in a series of files and related functions
 
@@ -22,9 +23,16 @@ perl-file-grep
 
    |downloads_perl-file-grep| |docker_perl-file-grep|
 
-   :versions: 0.02-3, 0.02-2, 0.02-1, 0.02-0
+   :versions:
+      
+      
+
+      ``0.02-3``,  ``0.02-2``,  ``0.02-1``,  ``0.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-file-chdir
 
 .. conda:recipe:: perl-file-chdir
    :replaces_section_title:
+   :noindex:
 
    a more sensible way to change directories
 
@@ -22,9 +23,16 @@ perl-file-chdir
 
    |downloads_perl-file-chdir| |docker_perl-file-chdir|
 
-   :versions: 0.1010-2, 0.1010-1, 0.1010-0
+   :versions:
+      
+      
+
+      ``0.1010-2``,  ``0.1010-1``,  ``0.1010-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-pathtools: 
    :requirements:
 

@@ -8,6 +8,7 @@ comparems2
 
 .. conda:recipe:: comparems2
    :replaces_section_title:
+   :noindex:
 
    A simple tool developed to compare\, globally\, all MS\/MS spectra between two datasets \(in Mascot Generic Format or MGF\).
 
@@ -23,9 +24,16 @@ comparems2
 
    |downloads_comparems2| |docker_comparems2|
 
-   :versions: 1-0
+   :versions:
+      
+      
+
+      ``1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

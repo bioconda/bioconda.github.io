@@ -8,6 +8,7 @@ perl-inline-c
 
 .. conda:recipe:: perl-inline-c
    :replaces_section_title:
+   :noindex:
 
    C Language Support for Inline
 
@@ -22,12 +23,19 @@ perl-inline-c
 
    |downloads_perl-inline-c| |docker_perl-inline-c|
 
-   :versions: 0.78-1, 0.78-0, 0.76-1, 0.76-0
+   :versions:
+      
+      
+
+      ``0.78-1``,  ``0.78-0``,  ``0.76-1``,  ``0.76-0``
+
+      
+
    
    :depends compilers: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends make: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-extutils-makemaker: 
    :depends perl-inline: 
    :depends perl-parse-recdescent: 

@@ -8,6 +8,7 @@ perl-test-pod
 
 .. conda:recipe:: perl-test-pod
    :replaces_section_title:
+   :noindex:
 
    check for POD errors in files
 
@@ -22,9 +23,16 @@ perl-test-pod
 
    |downloads_perl-test-pod| |docker_perl-test-pod|
 
-   :versions: 1.52-0, 1.51-1, 1.51-0
+   :versions:
+      
+      
+
+      ``1.52-0``,  ``1.51-1``,  ``1.51-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ pyimzml
 
 .. conda:recipe:: pyimzml
    :replaces_section_title:
+   :noindex:
 
    Parser for conversion of imzML 1.1.0 files
 
@@ -22,7 +23,14 @@ pyimzml
 
    |downloads_pyimzml| |docker_pyimzml|
 
-   :versions: 1.2.6-1, 1.2.6-0, 1.2.4-0, 1.2.3-0, 1.2.1-1, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.1-1``,  ``1.2.1-0``
+
+      
+
    
    :depends numpy: 
    :depends python: 

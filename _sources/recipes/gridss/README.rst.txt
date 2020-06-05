@@ -8,6 +8,7 @@ gridss
 
 .. conda:recipe:: gridss
    :replaces_section_title:
+   :noindex:
 
    GRIDSS\: the Genomic Rearrangement IDentification Software Suite
 
@@ -23,17 +24,32 @@ gridss
 
    |downloads_gridss| |docker_gridss|
 
-   :versions: 2.9.2-0, 2.9.1-0, 2.8.3-0, 2.8.2-0, 2.8.1-0, 2.8.0-1, 2.8.0-0, 2.7.3-0, 2.7.2-0, 2.7.1-0, 2.7.0-0, 2.6.3-0, 2.6.2-0, 2.6.1-0, 2.6.0-0, 2.5.2-0, 2.5.1-0, 2.1.0-0, 2.0.1-0, 1.9.0-0, 1.8.1-0, 1.8.0-0, 1.7.2-2, 1.7.2-0, 1.3.4-0, 1.3.2-0, 1.3.0-0, 1.2.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.9.2-0</code>,  <code>2.9.1-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.3-0</code>,  <code>2.7.2-0</code>,  </span></summary>
+      
+
+      ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.2-2``,  ``1.7.2-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bioconductor-structuralvariantannotation: 
-   :depends bwa: >=0.7
-   :depends openjdk: >=8
+   :depends bwa: ``>=0.7``
+   :depends openjdk: ``>=8``
    :depends r-argparser: 
-   :depends r-base: >=3.6
+   :depends r-base: ``>=3.6``
    :depends r-stringdist: 
    :depends r-testthat: 
    :depends r-tidyverse: 
-   :depends samtools: >=1.10
+   :depends samtools: ``>=1.10``
    :requirements:
 
    .. rubric:: Installation

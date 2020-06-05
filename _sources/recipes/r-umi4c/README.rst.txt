@@ -8,6 +8,7 @@ r-umi4c
 
 .. conda:recipe:: r-umi4c
    :replaces_section_title:
+   :noindex:
 
    Process UMI\-4C data from scratch to produce nice plots.
 
@@ -22,9 +23,16 @@ r-umi4c
 
    |downloads_r-umi4c| |docker_r-umi4c|
 
-   :versions: 0.0.0.9000-2, 0.0.0.9000-1, 0.0.0.9000-0
+   :versions:
+      
+      
+
+      ``0.0.0.9000-2``,  ``0.0.0.9000-1``,  ``0.0.0.9000-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-misha: 
    :depends r-zoo: 
    :requirements:

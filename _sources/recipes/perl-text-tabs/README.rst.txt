@@ -8,6 +8,7 @@ perl-text-tabs
 
 .. conda:recipe:: perl-text-tabs/2013.0523
    :replaces_section_title:
+   :noindex:
 
    expand and unexpand tabs like unix expand\(1\) and unexpand\(1\)
 
@@ -22,9 +23,16 @@ perl-text-tabs
 
    |downloads_perl-text-tabs| |docker_perl-text-tabs|
 
-   :versions: 2013.0523-1, 2013.0523-0
+   :versions:
+      
+      
+
+      ``2013.0523-1``,  ``2013.0523-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

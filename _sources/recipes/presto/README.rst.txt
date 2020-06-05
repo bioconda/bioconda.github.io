@@ -8,6 +8,7 @@ presto
 
 .. conda:recipe:: presto
    :replaces_section_title:
+   :noindex:
 
    A bioinformatics toolkit for processing high\-throughput lymphocyte receptor sequencing data.
 
@@ -22,16 +23,23 @@ presto
 
    |downloads_presto| |docker_presto|
 
-   :versions: 0.6.0-0, 0.5.13-1, 0.5.13-0, 0.5.12-0, 0.5.10-0, 0.5.4-1, 0.5.4-0
+   :versions:
+      
+      
+
+      ``0.6.0-0``,  ``0.5.13-1``,  ``0.5.13-0``,  ``0.5.12-0``,  ``0.5.10-0``,  ``0.5.4-1``,  ``0.5.4-0``
+
+      
+
    
-   :depends biopython: >=1.65
-   :depends blast: >=2.5
-   :depends muscle: >=3.8
-   :depends numpy: >=1.8
-   :depends pandas: >=0.15
-   :depends python: >=3
-   :depends scipy: >=0.14
-   :depends vsearch: >=2.3.2
+   :depends biopython: ``>=1.65``
+   :depends blast: ``>=2.5``
+   :depends muscle: ``>=3.8``
+   :depends numpy: ``>=1.8``
+   :depends pandas: ``>=0.15``
+   :depends python: ``>=3``
+   :depends scipy: ``>=0.14``
+   :depends vsearch: ``>=2.3.2``
    :requirements:
 
    .. rubric:: Installation

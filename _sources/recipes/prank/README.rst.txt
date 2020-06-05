@@ -8,6 +8,7 @@ prank
 
 .. conda:recipe:: prank
    :replaces_section_title:
+   :noindex:
 
    PRANK is a probabilistic multiple alignment program for DNA\, codon and amino\-acid sequences.
 
@@ -23,10 +24,17 @@ prank
 
    |downloads_prank| |docker_prank|
 
-   :versions: v.170427-2, v.170427-1, v.170427-0, v.150803-0
+   :versions:
+      
+      
+
+      ``v.170427-2``,  ``v.170427-1``,  ``v.170427-0``,  ``v.150803-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

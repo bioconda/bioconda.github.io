@@ -8,6 +8,7 @@ soapdenovo-trans
 
 .. conda:recipe:: soapdenovo-trans
    :replaces_section_title:
+   :noindex:
 
    SOAPdenovo\-Trans is a de novo transcriptome assembler basing on the SOAPdenovo framework\, adapt to alternative splicing and different expression level among transcripts.
 
@@ -22,9 +23,16 @@ soapdenovo-trans
 
    |downloads_soapdenovo-trans| |docker_soapdenovo-trans|
 
-   :versions: 1.04-2, 1.04-1, 1.04-0
+   :versions:
+      
+      
+
+      ``1.04-2``,  ``1.04-1``,  ``1.04-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends zlib: 
    :requirements:
 

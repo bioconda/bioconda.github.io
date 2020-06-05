@@ -8,6 +8,7 @@ dca
 
 .. conda:recipe:: dca
    :replaces_section_title:
+   :noindex:
 
    Count autoencoder for scRNA\-seq denoising
 
@@ -23,17 +24,24 @@ dca
 
    |downloads_dca| |docker_dca|
 
-   :versions: 0.2.3-0, 0.2.2-1, 0.2.2-0
+   :versions:
+      
+      
+
+      ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``
+
+      
+
    
    :depends h5py: 
-   :depends keras: >=2.0.8
+   :depends keras: ``>=2.0.8``
    :depends kopt: 
-   :depends numpy: >=1.7
+   :depends numpy: ``>=1.7``
    :depends pandas: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends scanpy: 
    :depends scikit-learn: 
-   :depends six: >=1.10.0
+   :depends six: ``>=1.10.0``
    :requirements:
 
    .. rubric:: Installation

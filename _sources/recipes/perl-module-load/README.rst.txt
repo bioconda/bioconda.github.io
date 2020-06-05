@@ -8,6 +8,7 @@ perl-module-load
 
 .. conda:recipe:: perl-module-load/0.32
    :replaces_section_title:
+   :noindex:
 
    Load modules in a DWIM style
 
@@ -22,9 +23,16 @@ perl-module-load
 
    |downloads_perl-module-load| |docker_perl-module-load|
 
-   :versions: 0.32-1, 0.32-0
+   :versions:
+      
+      
+
+      ``0.32-1``,  ``0.32-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

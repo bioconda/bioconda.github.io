@@ -8,6 +8,7 @@ perl-xml-parser-lite
 
 .. conda:recipe:: perl-xml-parser-lite
    :replaces_section_title:
+   :noindex:
 
    Lightweight pure\-perl XML Parser \(based on regexps\)
 
@@ -22,9 +23,16 @@ perl-xml-parser-lite
 
    |downloads_perl-xml-parser-lite| |docker_perl-xml-parser-lite|
 
-   :versions: 0.722-0, 0.721-2, 0.721-1, 0.721-0
+   :versions:
+      
+      
+
+      ``0.722-0``,  ``0.721-2``,  ``0.721-1``,  ``0.721-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

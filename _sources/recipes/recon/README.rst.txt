@@ -8,6 +8,7 @@ recon
 
 .. conda:recipe:: recon
    :replaces_section_title:
+   :noindex:
 
    The RECON package performs de novo identification and classification of repeat sequence families from genomic sequences.
 
@@ -22,9 +23,16 @@ recon
 
    |downloads_recon| |docker_recon|
 
-   :versions: 1.08-2, 1.08-1, 1.08-0
+   :versions:
+      
+      
+
+      ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

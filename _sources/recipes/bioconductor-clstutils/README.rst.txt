@@ -8,6 +8,7 @@ bioconductor-clstutils
 
 .. conda:recipe:: bioconductor-clstutils
    :replaces_section_title:
+   :noindex:
 
    Tools for performing taxonomic assignment.
 
@@ -23,11 +24,18 @@ bioconductor-clstutils
 
    |downloads_bioconductor-clstutils| |docker_bioconductor-clstutils|
 
-   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-1, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+
    
-   :depends bioconductor-clst: >=1.36.0,<1.37.0
+   :depends bioconductor-clst: ``>=1.36.0,<1.37.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-lattice: 
    :depends r-rjson: 
    :depends r-rsqlite: 

@@ -8,6 +8,7 @@ lyner
 
 .. conda:recipe:: lyner
    :replaces_section_title:
+   :noindex:
 
    A chaining toolbox for working with dataframes
 
@@ -22,26 +23,33 @@ lyner
 
    |downloads_lyner| |docker_lyner|
 
-   :versions: 0.4.3-0, 0.4.2-0
+   :versions:
+      
+      
+
+      ``0.4.3-0``,  ``0.4.2-0``
+
+      
+
    
-   :depends click: >=7.0
-   :depends click-aliases: >=1.0
-   :depends joblib: >=0.14
-   :depends keras: >=2.3
-   :depends mlxtend: >=0.17
-   :depends natsort: >=6.2
-   :depends networkx: >=2.4
-   :depends numba: >=0.46
-   :depends numpy: >=1.17
-   :depends pandas: >=0.25
-   :depends plotly: >=4.3
-   :depends psutil: >=5.6
-   :depends pybedtools: >=0.8
-   :depends pymc3: >=3.7
-   :depends python: >=3.6
-   :depends scikit-learn: >=0.21
-   :depends scipy: >=1.3
-   :depends tensorflow: >=2.0
+   :depends click: ``>=7.0``
+   :depends click-aliases: ``>=1.0``
+   :depends joblib: ``>=0.14``
+   :depends keras: ``>=2.3``
+   :depends mlxtend: ``>=0.17``
+   :depends natsort: ``>=6.2``
+   :depends networkx: ``>=2.4``
+   :depends numba: ``>=0.46``
+   :depends numpy: ``>=1.17``
+   :depends pandas: ``>=0.25``
+   :depends plotly: ``>=4.3``
+   :depends psutil: ``>=5.6``
+   :depends pybedtools: ``>=0.8``
+   :depends pymc3: ``>=3.7``
+   :depends python: ``>=3.6``
+   :depends scikit-learn: ``>=0.21``
+   :depends scipy: ``>=1.3``
+   :depends tensorflow: ``>=2.0``
    :requirements:
 
    .. rubric:: Installation

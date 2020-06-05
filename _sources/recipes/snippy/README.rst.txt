@@ -8,6 +8,7 @@ snippy
 
 .. conda:recipe:: snippy
    :replaces_section_title:
+   :noindex:
 
    Rapid bacterial SNP calling and core genome alignments
 
@@ -23,25 +24,40 @@ snippy
 
    |downloads_snippy| |docker_snippy|
 
-   :versions: 4.6.0-0, 4.5.1-0, 4.5.0-0, 4.4.5-1, 4.4.5-0, 4.4.3-1, 4.4.3-0, 4.4.1-0, 4.4.0-2, 4.4.0-1, 4.4.0-0, 4.3.6-0, 4.3.5-0, 4.3.3-0, 4.2.3-0, 4.1.0-0, 4.0.7-0, 4.0.5-0, 4.0.2-0, 3.2-1, 3.1-4, 3.1-3, 3.1-2, 3.1-1, 3.1-0, 3.0-1, 3.0-0, 2.9-1, 2.9-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.6.0-0</code>,  <code>4.5.1-0</code>,  <code>4.5.0-0</code>,  <code>4.4.5-1</code>,  <code>4.4.5-0</code>,  <code>4.4.3-1</code>,  <code>4.4.3-0</code>,  <code>4.4.1-0</code>,  <code>4.4.0-2</code>,  </span></summary>
+      
+
+      ``4.6.0-0``,  ``4.5.1-0``,  ``4.5.0-0``,  ``4.4.5-1``,  ``4.4.5-0``,  ``4.4.3-1``,  ``4.4.3-0``,  ``4.4.1-0``,  ``4.4.0-2``,  ``4.4.0-1``,  ``4.4.0-0``,  ``4.3.6-0``,  ``4.3.5-0``,  ``4.3.3-0``,  ``4.2.3-0``,  ``4.1.0-0``,  ``4.0.7-0``,  ``4.0.5-0``,  ``4.0.2-0``,  ``3.2-1``,  ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0-1``,  ``3.0-0``,  ``2.9-1``,  ``2.9-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends any2fasta: >=0.4
-   :depends bcftools: >=1.10
-   :depends bedtools: >=2.28.0
-   :depends bwa: >=0.7.17
-   :depends freebayes: >=1.3.1
-   :depends minimap2: >=2.17
-   :depends openjdk: 8.*
-   :depends parallel: >=20170422
+   :depends any2fasta: ``>=0.4``
+   :depends bcftools: ``>=1.10``
+   :depends bedtools: ``>=2.28.0``
+   :depends bwa: ``>=0.7.17``
+   :depends freebayes: ``>=1.3.1``
+   :depends minimap2: ``>=2.17``
+   :depends openjdk: ``8.*``
+   :depends parallel: ``>=20170422``
    :depends perl: 
-   :depends perl-bioperl: >=1.7.2
-   :depends samclip: >=0.4
-   :depends samtools: >=1.10
-   :depends seqtk: >=1.3
-   :depends snp-sites: >=2.4
-   :depends snpeff: >=4.3
-   :depends vcflib: >=1.0.0_rc3
-   :depends vt: >=0.5772
+   :depends perl-bioperl: ``>=1.7.2``
+   :depends samclip: ``>=0.4``
+   :depends samtools: ``>=1.10``
+   :depends seqtk: ``>=1.3``
+   :depends snp-sites: ``>=2.4``
+   :depends snpeff: ``>=4.3``
+   :depends vcflib: ``>=1.0.0_rc3``
+   :depends vt: ``>=0.5772``
    :requirements:
 
    .. rubric:: Installation

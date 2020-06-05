@@ -8,6 +8,7 @@ perl-text-nsp
 
 .. conda:recipe:: perl-text-nsp
    :replaces_section_title:
+   :noindex:
 
    Extract collocations and Ngrams from text
 
@@ -22,9 +23,16 @@ perl-text-nsp
 
    |downloads_perl-text-nsp| |docker_perl-text-nsp|
 
-   :versions: 1.31-2, 1.31-1, 1.31-0
+   :versions:
+      
+      
+
+      ``1.31-2``,  ``1.31-1``,  ``1.31-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

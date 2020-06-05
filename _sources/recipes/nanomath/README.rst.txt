@@ -8,6 +8,7 @@ nanomath
 
 .. conda:recipe:: nanomath
    :replaces_section_title:
+   :noindex:
 
    A few simple math function for other Oxford Nanopore processing scripts
 
@@ -22,11 +23,26 @@ nanomath
 
    |downloads_nanomath| |docker_nanomath|
 
-   :versions: 0.23.2-0, 0.23.1-1, 0.23.1-0, 0.22.0-1, 0.22.0-0, 0.21.0-2, 0.21.0-0, 0.20.0-0, 0.18.1-0, 0.16.2-0, 0.14.2-0, 0.12.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.23.2-0</code>,  <code>0.23.1-1</code>,  <code>0.23.1-0</code>,  <code>0.22.0-1</code>,  <code>0.22.0-0</code>,  <code>0.21.0-2</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.18.1-0</code>,  </span></summary>
+      
+
+      ``0.23.2-0``,  ``0.23.1-1``,  ``0.23.1-0``,  ``0.22.0-1``,  ``0.22.0-0``,  ``0.21.0-2``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.18.1-0``,  ``0.16.2-0``,  ``0.14.2-0``,  ``0.12.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends numpy: >1.8
+   :depends numpy: ``>1.8``
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

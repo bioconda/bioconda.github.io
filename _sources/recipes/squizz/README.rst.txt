@@ -8,6 +8,7 @@ squizz
 
 .. conda:recipe:: squizz
    :replaces_section_title:
+   :noindex:
 
    Squizz is a sequence\/alignment format checker\, but it has some conversion capabilities too.
 
@@ -22,9 +23,16 @@ squizz
 
    |downloads_squizz| |docker_squizz|
 
-   :versions: 0.99d-1, 0.99d-0
+   :versions:
+      
+      
+
+      ``0.99d-1``,  ``0.99d-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

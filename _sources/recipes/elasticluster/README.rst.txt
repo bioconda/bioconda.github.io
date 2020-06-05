@@ -8,6 +8,7 @@ elasticluster
 
 .. conda:recipe:: elasticluster
    :replaces_section_title:
+   :noindex:
 
    Create\, manage and setup computing clusters hosted on a public or private cloud infrastructure.
 
@@ -22,7 +23,14 @@ elasticluster
 
    |downloads_elasticluster| |docker_elasticluster|
 
-   :versions: 0.1.3bcbio-12, 0.1.3bcbio-11
+   :versions:
+      
+      
+
+      ``0.1.3bcbio-12``,  ``0.1.3bcbio-11``
+
+      
+
    
    :depends ansible: 
    :depends azure: 
@@ -32,7 +40,7 @@ elasticluster
    :depends oauth2client: 
    :depends paramiko: 
    :depends pycli: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends python-gflags: 
    :depends voluptuous: 
    :requirements:

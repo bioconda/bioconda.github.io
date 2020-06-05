@@ -8,6 +8,7 @@ dascrubber
 
 .. conda:recipe:: dascrubber
    :replaces_section_title:
+   :noindex:
 
    Alignment\-based Scrubbing pipeline
 
@@ -22,9 +23,16 @@ dascrubber
 
    |downloads_dascrubber| |docker_dascrubber|
 
-   :versions: 0.0.1a2-1, 0.0.1a2-0, 0.0.1a1-0
+   :versions:
+      
+      
+
+      ``0.0.1a2-1``,  ``0.0.1a2-0``,  ``0.0.1a1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

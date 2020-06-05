@@ -8,6 +8,7 @@ ntjoin
 
 .. conda:recipe:: ntjoin
    :replaces_section_title:
+   :noindex:
 
    Genome assembly scaffolder using minimizer graphs
 
@@ -22,19 +23,26 @@ ntjoin
 
    |downloads_ntjoin| |docker_ntjoin|
 
-   :versions: 1.0.2-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends bedtools: >=2.21.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bedtools: ``>=2.21.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends make: 
    :depends pybedtools: 
    :depends pymannkendall: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends python-igraph: 
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends samtools: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

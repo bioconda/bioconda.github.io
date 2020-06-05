@@ -8,6 +8,7 @@ braker
 
 .. conda:recipe:: braker
    :replaces_section_title:
+   :noindex:
 
    BRAKER1\: Unsupervised RNA\-Seq\-based genome annotation with GeneMark\-ET and AUGUSTUS
 
@@ -22,9 +23,16 @@ braker
 
    |downloads_braker| |docker_braker|
 
-   :versions: 1.9-4, 1.9-3, 1.9-2, 1.9-1
+   :versions:
+      
+      
+
+      ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-parallel-forkmanager: 
    :depends perl-pathtools: 

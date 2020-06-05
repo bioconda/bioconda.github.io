@@ -8,6 +8,7 @@ oncotator
 
 .. conda:recipe:: oncotator
    :replaces_section_title:
+   :noindex:
 
    Oncotator is a tool for annotating human genomic point mutations and indels with data relevant to cancer researchers.
 
@@ -25,23 +26,30 @@ oncotator
 
    |downloads_oncotator| |docker_oncotator|
 
-   :versions: 1.9.9.0-2, 1.9.9.0-1, 1.9.9.0-0
+   :versions:
+      
+      
+
+      ``1.9.9.0-2``,  ``1.9.9.0-1``,  ``1.9.9.0-0``
+
+      
+
    
-   :depends bcbio-gff: 0.6.2
-   :depends biopython: 1.66
-   :depends enum34: 1.1.2
+   :depends bcbio-gff: ``0.6.2``
+   :depends biopython: ``1.66``
+   :depends enum34: ``1.1.2``
    :depends futures: 
-   :depends libgcc-ng: >=7.3.0
-   :depends more-itertools: 2.2
-   :depends natsort: 4.0.4
-   :depends numpy: 1.11.0
-   :depends pandas: 0.18.0
-   :depends pysam: 0.9.0
-   :depends python: >=2.7,<2.8.0a0
-   :depends python-memcached: 1.57
-   :depends pyvcf: 0.6.8
-   :depends shove: 0.6.6
-   :depends sqlalchemy: 1.0.12
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends more-itertools: ``2.2``
+   :depends natsort: ``4.0.4``
+   :depends numpy: ``1.11.0``
+   :depends pandas: ``0.18.0``
+   :depends pysam: ``0.9.0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python-memcached: ``1.57``
+   :depends pyvcf: ``0.6.8``
+   :depends shove: ``0.6.6``
+   :depends sqlalchemy: ``1.0.12``
    :requirements:
 
    .. rubric:: Installation

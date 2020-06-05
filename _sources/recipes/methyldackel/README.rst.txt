@@ -8,6 +8,7 @@ methyldackel
 
 .. conda:recipe:: methyldackel
    :replaces_section_title:
+   :noindex:
 
    A \(mostly\) universal methylation extractor for BS\-seq experiments. Formerly named PileOMeth.
 
@@ -22,11 +23,18 @@ methyldackel
 
    |downloads_methyldackel| |docker_methyldackel|
 
-   :versions: 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.0-3, 0.3.0-2, 0.3.0-1, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

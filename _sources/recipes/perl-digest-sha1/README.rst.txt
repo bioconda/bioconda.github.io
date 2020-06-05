@@ -8,6 +8,7 @@ perl-digest-sha1
 
 .. conda:recipe:: perl-digest-sha1
    :replaces_section_title:
+   :noindex:
 
    Perl interface to the SHA\-1 algorithm
 
@@ -22,11 +23,18 @@ perl-digest-sha1
 
    |downloads_perl-digest-sha1| |docker_perl-digest-sha1|
 
-   :versions: 2.13-1, 2.13-0
+   :versions:
+      
+      
+
+      ``2.13-1``,  ``2.13-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

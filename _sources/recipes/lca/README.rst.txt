@@ -8,6 +8,7 @@ lca
 
 .. conda:recipe:: lca
    :replaces_section_title:
+   :noindex:
 
    LCA \- Lowest Common Ancestor calculation tool
 
@@ -22,11 +23,18 @@ lca
 
    |downloads_lca| |docker_lca|
 
-   :versions: 0.18-0
+   :versions:
+      
+      
+
+      ``0.18-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

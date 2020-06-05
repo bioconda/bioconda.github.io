@@ -8,6 +8,7 @@ spine
 
 .. conda:recipe:: spine
    :replaces_section_title:
+   :noindex:
 
    Identification of conserved nucleotide core genome of bacteria and other small genome organisms
 
@@ -22,10 +23,17 @@ spine
 
    |downloads_spine| |docker_spine|
 
-   :versions: 0.3.2-0, 0.2.2-1, 0.2.2-0
+   :versions:
+      
+      
+
+      ``0.3.2-0``,  ``0.2.2-1``,  ``0.2.2-0``
+
+      
+
    
-   :depends mummer: >=3.22
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends mummer: ``>=3.22``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-file-which: 
    :requirements:
 

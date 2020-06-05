@@ -8,6 +8,7 @@ perl-test-object
 
 .. conda:recipe:: perl-test-object/0.08
    :replaces_section_title:
+   :noindex:
 
    Thoroughly testing objects via registered handlers
 
@@ -22,9 +23,16 @@ perl-test-object
 
    |downloads_perl-test-object| |docker_perl-test-object|
 
-   :versions: 0.08-2, 0.08-1, 0.08-0
+   :versions:
+      
+      
+
+      ``0.08-2``,  ``0.08-1``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :requirements:

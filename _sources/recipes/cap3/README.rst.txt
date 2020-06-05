@@ -8,6 +8,7 @@ cap3
 
 .. conda:recipe:: cap3
    :replaces_section_title:
+   :noindex:
 
    DNA sequence assembly program.
 
@@ -22,7 +23,14 @@ cap3
 
    |downloads_cap3| |docker_cap3|
 
-   :versions: 10.2011-1, 10.2011-0
+   :versions:
+      
+      
+
+      ``10.2011-1``,  ``10.2011-0``
+
+      
+
    
    :requirements:
 

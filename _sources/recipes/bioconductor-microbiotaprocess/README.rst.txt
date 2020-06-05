@@ -8,6 +8,7 @@ bioconductor-microbiotaprocess
 
 .. conda:recipe:: bioconductor-microbiotaprocess
    :replaces_section_title:
+   :noindex:
 
    an R package for analysis\, visualization and biomarker discovery of microbiome
 
@@ -22,15 +23,22 @@ bioconductor-microbiotaprocess
 
    |downloads_bioconductor-microbiotaprocess| |docker_bioconductor-microbiotaprocess|
 
-   :versions: 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``
+
+      
+
    
-   :depends bioconductor-biomformat: >=1.16.0,<1.17.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-decipher: >=2.16.0,<2.17.0
-   :depends bioconductor-ggtree: >=2.2.0,<2.3.0
-   :depends bioconductor-phyloseq: >=1.32.0,<1.33.0
+   :depends bioconductor-biomformat: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-decipher: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-ggtree: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-phyloseq: ``>=1.32.0,<1.33.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-coin: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

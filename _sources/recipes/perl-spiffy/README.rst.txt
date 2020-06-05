@@ -8,6 +8,7 @@ perl-spiffy
 
 .. conda:recipe:: perl-spiffy
    :replaces_section_title:
+   :noindex:
 
    Spiffy Perl Interface Framework For You
 
@@ -22,9 +23,16 @@ perl-spiffy
 
    |downloads_perl-spiffy| |docker_perl-spiffy|
 
-   :versions: 0.46-3, 0.46-2, 0.46-1, 0.46-0
+   :versions:
+      
+      
+
+      ``0.46-3``,  ``0.46-2``,  ``0.46-1``,  ``0.46-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ libstatgen
 
 .. conda:recipe:: libstatgen
    :replaces_section_title:
+   :noindex:
 
    Useful set of classes for creating statistical genetic programs.
 
@@ -23,10 +24,17 @@ libstatgen
 
    |downloads_libstatgen| |docker_libstatgen|
 
-   :versions: 1.0.14-0, 1.0.5-0
+   :versions:
+      
+      
+
+      ``1.0.14-0``,  ``1.0.5-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

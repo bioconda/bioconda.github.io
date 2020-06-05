@@ -8,6 +8,7 @@ bioconductor-ccfindr
 
 .. conda:recipe:: bioconductor-ccfindr
    :replaces_section_title:
+   :noindex:
 
    Cancer Clone Finder
 
@@ -22,24 +23,31 @@ bioconductor-ccfindr
 
    |downloads_bioconductor-ccfindr| |docker_bioconductor-ccfindr|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.2-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gtools: 
    :depends r-irlba: 
    :depends r-matrix: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: 
    :depends r-rcppeigen: 
-   :depends r-rdpack: >=0.7
+   :depends r-rdpack: ``>=0.7``
    :depends r-rmpi: 
    :depends r-rtsne: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-tidybulk
 
 .. conda:recipe:: bioconductor-tidybulk
    :replaces_section_title:
+   :noindex:
 
    Friendly tidy wrappers for streamlined bulk transcriptional analysis
 
@@ -22,10 +23,17 @@ bioconductor-tidybulk
 
    |downloads_bioconductor-tidybulk| |docker_bioconductor-tidybulk|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-lifecycle: 
    :depends r-magrittr: 

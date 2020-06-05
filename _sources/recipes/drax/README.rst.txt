@@ -8,6 +8,7 @@ drax
 
 .. conda:recipe:: drax
    :replaces_section_title:
+   :noindex:
 
    A pipeline for Detecting Resistome Associated taXa.
 
@@ -22,20 +23,27 @@ drax
 
    |downloads_drax| |docker_drax|
 
-   :versions: 0.0.0-3, 0.0.0-2, 0.0.0-1, 0.0.0-0
+   :versions:
+      
+      
+
+      ``0.0.0-3``,  ``0.0.0-2``,  ``0.0.0-1``,  ``0.0.0-0``
+
+      
+
    
-   :depends bbmap: 37.90
-   :depends fastp: 0.12.4
-   :depends fastqc: 0.11.7
-   :depends groot: 0.5
-   :depends kaiju: 1.6.2
-   :depends krona: 2.7
-   :depends metacherchant: 0.1.0
-   :depends multiqc: 1.4
-   :depends nextflow: 0.27.6
-   :depends r-essentials: 1.7.0
-   :depends samtools: 1.4
-   :depends seqkit: 0.7.2
+   :depends bbmap: ``37.90``
+   :depends fastp: ``0.12.4``
+   :depends fastqc: ``0.11.7``
+   :depends groot: ``0.5``
+   :depends kaiju: ``1.6.2``
+   :depends krona: ``2.7``
+   :depends metacherchant: ``0.1.0``
+   :depends multiqc: ``1.4``
+   :depends nextflow: ``0.27.6``
+   :depends r-essentials: ``1.7.0``
+   :depends samtools: ``1.4``
+   :depends seqkit: ``0.7.2``
    :requirements:
 
    .. rubric:: Installation

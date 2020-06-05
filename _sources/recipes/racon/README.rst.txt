@@ -8,6 +8,7 @@ racon
 
 .. conda:recipe:: racon
    :replaces_section_title:
+   :noindex:
 
    Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads.
 
@@ -22,12 +23,27 @@ racon
 
    |downloads_racon| |docker_racon|
 
-   :versions: 1.4.13-0, 1.4.12-0, 1.4.11-0, 1.4.10-0, 1.4.7-0, 1.4.3-0, 1.4.2-0, 1.4.0-0, 1.3.3-1, 1.3.2-1, 1.3.2-0, 1.3.1-5, 1.3.1-4, 1.3.1-1, 1.3.1-0, 1.3.0-1, 1.2.1-1, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.1-0, 1.0.0-1, 1.0.0-0, 0.5.0-2, 0.5.0-1, 0.5.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.4.13-0</code>,  <code>1.4.12-0</code>,  <code>1.4.11-0</code>,  <code>1.4.10-0</code>,  <code>1.4.7-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.0-0</code>,  <code>1.3.3-1</code>,  </span></summary>
+      
+
+      ``1.4.13-0``,  ``1.4.12-0``,  ``1.4.11-0``,  ``1.4.10-0``,  ``1.4.7-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.3-1``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.2.1-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends python: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

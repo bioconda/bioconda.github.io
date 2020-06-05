@@ -8,6 +8,7 @@ perl-tie-cache
 
 .. conda:recipe:: perl-tie-cache
    :replaces_section_title:
+   :noindex:
 
    LRU Cache in Memory
 
@@ -22,9 +23,16 @@ perl-tie-cache
 
    |downloads_perl-tie-cache| |docker_perl-tie-cache|
 
-   :versions: 0.21-1, 0.21-0
+   :versions:
+      
+      
+
+      ``0.21-1``,  ``0.21-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

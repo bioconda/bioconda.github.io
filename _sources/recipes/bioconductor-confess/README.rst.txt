@@ -8,6 +8,7 @@ bioconductor-confess
 
 .. conda:recipe:: bioconductor-confess
    :replaces_section_title:
+   :noindex:
 
    Cell OrderiNg by FluorEScence Signal
 
@@ -22,21 +23,28 @@ bioconductor-confess
 
    |downloads_bioconductor-confess| |docker_bioconductor-confess|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.1-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``
+
+      
+
    
-   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
-   :depends bioconductor-flowclust: >=3.26.0,<3.27.0
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowmeans: >=1.48.0,<1.49.0
-   :depends bioconductor-flowmerge: >=2.36.0,<2.37.0
-   :depends bioconductor-flowpeaks: >=1.34.0,<1.35.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-samspectral: >=1.42.0,<1.43.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
+   :depends bioconductor-flowclust: ``>=3.26.0,<3.27.0``
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowmeans: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-flowmerge: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-flowpeaks: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-samspectral: ``>=1.42.0,<1.43.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-changepoint: 
    :depends r-cluster: 
    :depends r-contrast: 
-   :depends r-data.table: >=1.9.7
+   :depends r-data.table: ``>=1.9.7``
    :depends r-ecp: 
    :depends r-flexmix: 
    :depends r-foreach: 

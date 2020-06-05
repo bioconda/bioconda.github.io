@@ -8,6 +8,7 @@ igvtools
 
 .. conda:recipe:: igvtools
    :replaces_section_title:
+   :noindex:
 
    command line tools for IGV
 
@@ -23,7 +24,14 @@ igvtools
 
    |downloads_igvtools| |docker_igvtools|
 
-   :versions: 2.5.3-0, 2.3.93-0, 2.3.75-1, 2.3.48-1, 2.3.16-0
+   :versions:
+      
+      
+
+      ``2.5.3-0``,  ``2.3.93-0``,  ``2.3.75-1``,  ``2.3.48-1``,  ``2.3.16-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

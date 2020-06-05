@@ -8,6 +8,7 @@ r-biodb
 
 .. conda:recipe:: r-biodb
    :replaces_section_title:
+   :noindex:
 
    An R package for connecting to chemical and biological databases.
 
@@ -22,11 +23,26 @@ r-biodb
 
    |downloads_r-biodb| |docker_r-biodb|
 
-   :versions: 1.2.2-1, 1.2.2-0, 1.2.1-0, 1.2.0-1, 1.2.0rc2-1, 1.2.0rc2-0, 1.2.0a-0, 1.1.0-1, 1.1.0-0, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0rc2-1</code>,  <code>1.2.0rc2-0</code>,  <code>1.2.0a-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
+
+      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0rc2-1``,  ``1.2.0rc2-0``,  ``1.2.0a-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bitops: 
    :depends r-digest: 
    :depends r-jsonlite: 

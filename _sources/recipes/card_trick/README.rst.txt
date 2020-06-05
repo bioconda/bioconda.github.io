@@ -8,6 +8,7 @@ card_trick
 
 .. conda:recipe:: card_trick
    :replaces_section_title:
+   :noindex:
 
    Utility package to find gene \<\-\> drug relationships within CARD
 
@@ -22,11 +23,18 @@ card_trick
 
    |downloads_card_trick| |docker_card_trick|
 
-   :versions: 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.0-0``
+
+      
+
    
    :depends pandas: 
    :depends pronto: 
-   :depends python: >3
+   :depends python: ``>3``
    :depends requests: 
    :requirements:
 

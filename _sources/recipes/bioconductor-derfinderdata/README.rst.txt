@@ -8,6 +8,7 @@ bioconductor-derfinderdata
 
 .. conda:recipe:: bioconductor-derfinderdata
    :replaces_section_title:
+   :noindex:
 
    Processed BigWigs from BrainSpan for examples
 
@@ -22,10 +23,17 @@ bioconductor-derfinderdata
 
    |downloads_bioconductor-derfinderdata| |docker_bioconductor-derfinderdata|
 
-   :versions: 2.6.0-0, 2.4.0-0, 2.2.1-0, 2.2.0-0, 2.0.0-0
+   :versions:
+      
+      
+
+      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

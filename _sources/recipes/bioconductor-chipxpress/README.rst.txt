@@ -8,6 +8,7 @@ bioconductor-chipxpress
 
 .. conda:recipe:: bioconductor-chipxpress
    :replaces_section_title:
+   :noindex:
 
    ChIPXpress\: enhanced transcription factor target gene identification from ChIP\-seq and ChIP\-chip data using publicly available gene expression profiles
 
@@ -23,14 +24,21 @@ bioconductor-chipxpress
 
    |downloads_bioconductor-chipxpress| |docker_bioconductor-chipxpress|
 
-   :versions: 1.30.0-1, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.30.0-1``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.64.0,<1.65.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-chipxpressdata: >=1.24.0,<1.25.0
-   :depends bioconductor-frma: >=1.38.0,<1.39.0
-   :depends bioconductor-geoquery: >=2.54.0,<2.55.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-affy: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-chipxpressdata: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-frma: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-geoquery: ``>=2.54.0,<2.55.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-biganalytics: 
    :depends r-bigmemory: 
    :requirements:

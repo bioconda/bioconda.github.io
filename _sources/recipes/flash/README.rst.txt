@@ -8,6 +8,7 @@ flash
 
 .. conda:recipe:: flash
    :replaces_section_title:
+   :noindex:
 
    Merge mates from fragments that are shorter than twice the read length
 
@@ -23,10 +24,17 @@ flash
 
    |downloads_flash| |docker_flash|
 
-   :versions: 1.2.11-5, 1.2.11-4, 1.2.11-3, 1.2.11-2, 1.2.11-1, 1.2.11-0
+   :versions:
+      
+      
+
+      ``1.2.11-5``,  ``1.2.11-4``,  ``1.2.11-3``,  ``1.2.11-2``,  ``1.2.11-1``,  ``1.2.11-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

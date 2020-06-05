@@ -8,6 +8,7 @@ bioconductor-deltacapturec
 
 .. conda:recipe:: bioconductor-deltacapturec
    :replaces_section_title:
+   :noindex:
 
    This Package Discovers Meso\-scale Chromatin Remodeling from 3C Data
 
@@ -22,13 +23,20 @@ bioconductor-deltacapturec
 
    |downloads_bioconductor-deltacapturec| |docker_bioconductor-deltacapturec|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :requirements:
 

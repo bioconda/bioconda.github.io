@@ -8,6 +8,7 @@ bioconductor-affymoe4302expr
 
 .. conda:recipe:: bioconductor-affymoe4302expr
    :replaces_section_title:
+   :noindex:
 
    Affymetrix Mouse Genome 430 2.0 Array \(GPL1261\) Expression Data Package
 
@@ -22,10 +23,17 @@ bioconductor-affymoe4302expr
 
    |downloads_bioconductor-affymoe4302expr| |docker_bioconductor-affymoe4302expr|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

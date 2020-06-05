@@ -8,6 +8,7 @@ bioconductor-omicspca
 
 .. conda:recipe:: bioconductor-omicspca
    :replaces_section_title:
+   :noindex:
 
    An R package for quantitative integration and analysis of multiple omics assays from heterogeneous samples
 
@@ -22,15 +23,22 @@ bioconductor-omicspca
 
    |downloads_bioconductor-omicspca| |docker_bioconductor-omicspca|
 
-   :versions: 1.5.0-0, 1.2.0-1
+   :versions:
+      
+      
+
+      ``1.5.0-0``,  ``1.2.0-1``
+
+      
+
    
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-helloranges: >=1.14.0,<1.15.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-omicspcadata: >=1.6.0,<1.7.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-helloranges: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-omicspcadata: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-clvalid: 
    :depends r-corrplot: 

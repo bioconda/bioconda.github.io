@@ -8,6 +8,7 @@ perl-if
 
 .. conda:recipe:: perl-if
    :replaces_section_title:
+   :noindex:
 
    use a Perl module if a condition holds
 
@@ -22,9 +23,16 @@ perl-if
 
    |downloads_perl-if| |docker_perl-if|
 
-   :versions: 0.0608-0
+   :versions:
+      
+      
+
+      ``0.0608-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

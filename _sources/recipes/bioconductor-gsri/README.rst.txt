@@ -8,6 +8,7 @@ bioconductor-gsri
 
 .. conda:recipe:: bioconductor-gsri
    :replaces_section_title:
+   :noindex:
 
    Gene Set Regulation Index
 
@@ -23,13 +24,20 @@ bioconductor-gsri
 
    |downloads_bioconductor-gsri| |docker_bioconductor-gsri|
 
-   :versions: 2.36.0-0, 2.34.0-0, 2.32.0-1, 2.30.0-0, 2.28.0-0, 2.26.0-0
+   :versions:
+      
+      
+
+      ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-les: >=1.38.0,<1.39.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-les: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fdrtool: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-genetonic
 
 .. conda:recipe:: bioconductor-genetonic
    :replaces_section_title:
+   :noindex:
 
    Enjoy Analyzing And Integrating The Results From Differential Expression Analysis And Functional Enrichment Analysis
 
@@ -22,15 +23,22 @@ bioconductor-genetonic
 
    |downloads_bioconductor-genetonic| |docker_bioconductor-genetonic|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bs4dash: 
    :depends r-dendextend: 
    :depends r-dplyr: 

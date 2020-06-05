@@ -8,6 +8,7 @@ python-rnacentral
 
 .. conda:recipe:: python-rnacentral
    :replaces_section_title:
+   :noindex:
 
    This tool exploits the RNAcentral public APIs to automatically retrieve sequences \(converted to the FASTA format\) and the related metadata\, starting with one or a list of RNAcentral IDs
 
@@ -22,9 +23,16 @@ python-rnacentral
 
    |downloads_python-rnacentral| |docker_python-rnacentral|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends python: >=2.7,<3
+   :depends python: ``>=2.7,<3``
    :requirements:
 
    .. rubric:: Installation

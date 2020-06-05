@@ -8,6 +8,7 @@ r-dnet
 
 .. conda:recipe:: r-dnet
    :replaces_section_title:
+   :noindex:
 
    The focus of the dnet by Fang and Gough \(2014\) \<doi\:10.1186\/s13073\-014\-0064\-8\> is to make sense of omics data \(such as gene expression and mutations\) from different angles including\: integration with molecular networks\, enrichments using ontologies\, and relevance to gene evolutionary ages. Integration is achieved to identify a gene subnetwork from the whole gene network whose nodes\/genes are labelled with informative data \(such as the significant levels of differential expression or survival risks\). To help make sense of identified gene networks\, enrichment analysis is also supported using a wide variety of pre\-compiled ontologies and phylostratific gene age information in major organisms including\: human\, mouse\, rat\, chicken\, C.elegans\, fruit fly\, zebrafish and arabidopsis. Add\-on functionalities are supports for calculating semantic similarity between ontology terms \(and between genes\) and for calculating network affinity based on random walk\; both can be done via high\-performance parallel computing.
 
@@ -22,12 +23,19 @@ r-dnet
 
    |downloads_r-dnet| |docker_r-dnet|
 
-   :versions: 1.1.7-1, 1.1.7-0, 1.1.6-0, 1.1.5-0, 1.1.4-1, 1.1.4-0
+   :versions:
+      
+      
+
+      ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``
+
+      
+
    
    :depends bioconductor-graph: 
    :depends bioconductor-rgraphviz: 
    :depends bioconductor-suprahex: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-matrix: 
    :requirements:

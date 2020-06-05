@@ -8,6 +8,7 @@ bioconductor-stager
 
 .. conda:recipe:: bioconductor-stager
    :replaces_section_title:
+   :noindex:
 
    stageR\: stage\-wise analysis of high throughput gene expression data in R
 
@@ -22,10 +23,17 @@ bioconductor-stager
 
    |downloads_bioconductor-stager| |docker_bioconductor-stager|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

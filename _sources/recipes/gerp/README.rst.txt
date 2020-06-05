@@ -8,6 +8,7 @@ gerp
 
 .. conda:recipe:: gerp
    :replaces_section_title:
+   :noindex:
 
    GERP identifies constrained elements in multiple alignments by quantifying substitution deficits.
 
@@ -22,10 +23,17 @@ gerp
 
    |downloads_gerp| |docker_gerp|
 
-   :versions: 2.1-0
+   :versions:
+      
+      
+
+      ``2.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

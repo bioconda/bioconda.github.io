@@ -8,6 +8,7 @@ bioconductor-gwasdata
 
 .. conda:recipe:: bioconductor-gwasdata
    :replaces_section_title:
+   :noindex:
 
    Data used in the examples and vignettes of the GWASTools package
 
@@ -22,11 +23,18 @@ bioconductor-gwasdata
 
    |downloads_bioconductor-gwasdata| |docker_bioconductor-gwasdata|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-gwastools: >=1.34.0,<1.35.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-gwastools: ``>=1.34.0,<1.35.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

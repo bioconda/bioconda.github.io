@@ -8,6 +8,7 @@ bioconductor-probatch
 
 .. conda:recipe:: bioconductor-probatch
    :replaces_section_title:
+   :noindex:
 
    Tools for Diagnostics and Corrections of Batch Effects in Proteomics
 
@@ -22,13 +23,20 @@ bioconductor-probatch
 
    |downloads_bioconductor-probatch| |docker_bioconductor-probatch|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends bioconductor-pvca: >=1.28.0,<1.29.0
-   :depends bioconductor-sva: >=3.36.0,<3.37.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-pvca: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 
    :depends r-data.table: 
    :depends r-dplyr: 

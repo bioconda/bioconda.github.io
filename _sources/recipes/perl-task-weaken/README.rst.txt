@@ -8,6 +8,7 @@ perl-task-weaken
 
 .. conda:recipe:: perl-task-weaken
    :replaces_section_title:
+   :noindex:
 
    Ensure that a platform has weaken support
 
@@ -22,9 +23,16 @@ perl-task-weaken
 
    |downloads_perl-task-weaken| |docker_perl-task-weaken|
 
-   :versions: 1.06-0, 1.04-1, 1.04-0
+   :versions:
+      
+      
+
+      ``1.06-0``,  ``1.04-1``,  ``1.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

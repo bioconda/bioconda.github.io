@@ -8,6 +8,7 @@ stringmeup
 
 .. conda:recipe:: stringmeup
    :replaces_section_title:
+   :noindex:
 
    A post\-processing tool to reclassify Kraken 2 output based on the confidence score and\/or minimum minimizer hit groups.
 
@@ -22,9 +23,16 @@ stringmeup
 
    |downloads_stringmeup| |docker_stringmeup|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends python: >3
+   :depends python: ``>3``
    :requirements:
 
    .. rubric:: Installation

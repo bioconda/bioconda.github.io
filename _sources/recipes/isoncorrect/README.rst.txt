@@ -8,6 +8,7 @@ isoncorrect
 
 .. conda:recipe:: isoncorrect
    :replaces_section_title:
+   :noindex:
 
    De novo error\-correction of long\-read transcriptome reads.
 
@@ -22,11 +23,18 @@ isoncorrect
 
    |downloads_isoncorrect| |docker_isoncorrect|
 
-   :versions: 0.0.6-0, 0.0.5-0, 0.0.4-0
+   :versions:
+      
+      
+
+      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
+
+      
+
    
-   :depends numpy: >=1.16.2
-   :depends python: >=3
-   :depends python-edlib: >=1.1.2
+   :depends numpy: ``>=1.16.2``
+   :depends python: ``>=3``
+   :depends python-edlib: ``>=1.1.2``
    :requirements:
 
    .. rubric:: Installation

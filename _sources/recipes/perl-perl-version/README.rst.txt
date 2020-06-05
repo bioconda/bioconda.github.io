@@ -8,6 +8,7 @@ perl-perl-version
 
 .. conda:recipe:: perl-perl-version
    :replaces_section_title:
+   :noindex:
 
    Parse and manipulate Perl version strings
 
@@ -22,9 +23,16 @@ perl-perl-version
 
    |downloads_perl-perl-version| |docker_perl-perl-version|
 
-   :versions: 1.013-3, 1.013-2, 1.013-1, 1.013-0
+   :versions:
+      
+      
+
+      ``1.013-3``,  ``1.013-2``,  ``1.013-1``,  ``1.013-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-data-dumper: 
    :depends perl-file-slurp-tiny: 

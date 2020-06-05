@@ -8,6 +8,7 @@ perl-sanger-cgp-battenberg
 
 .. conda:recipe:: perl-sanger-cgp-battenberg
    :replaces_section_title:
+   :noindex:
 
    detect subclonality and copy number in matched NGS data
 
@@ -22,12 +23,19 @@ perl-sanger-cgp-battenberg
 
    |downloads_perl-sanger-cgp-battenberg| |docker_perl-sanger-cgp-battenberg|
 
-   :versions: 1.4.1-4, 1.4.1-3, 1.4.1-2, 1.4.1-1
+   :versions:
+      
+      
+
+      ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``
+
+      
+
    
    :depends cancerit-allelecount: 
    :depends impute2: 
-   :depends libgcc-ng: >=4.9
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-file-sharedir: 
    :depends perl-file-sharedir-install: 
    :depends perl-pcap: 

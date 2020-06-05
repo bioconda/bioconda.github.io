@@ -8,6 +8,7 @@ bioconductor-org.ecsakai.eg.db
 
 .. conda:recipe:: bioconductor-org.ecsakai.eg.db
    :replaces_section_title:
+   :noindex:
 
    Genome wide annotation for E coli strain Sakai
 
@@ -22,11 +23,18 @@ bioconductor-org.ecsakai.eg.db
 
    |downloads_bioconductor-org.ecsakai.eg.db| |docker_bioconductor-org.ecsakai.eg.db|
 
-   :versions: 3.11.1-0, 3.10.0-0, 3.8.2-1, 3.7.0-0
+   :versions:
+      
+      
+
+      ``3.11.1-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

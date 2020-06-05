@@ -8,6 +8,7 @@ flock
 
 .. conda:recipe:: flock
    :replaces_section_title:
+   :noindex:
 
    FLOCK \- Flow Cytometry Clustering without K.
 
@@ -22,9 +23,16 @@ flock
 
    |downloads_flock| |docker_flock|
 
-   :versions: 1.0-2, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

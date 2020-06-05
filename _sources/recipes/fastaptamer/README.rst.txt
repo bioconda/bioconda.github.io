@@ -8,6 +8,7 @@ fastaptamer
 
 .. conda:recipe:: fastaptamer
    :replaces_section_title:
+   :noindex:
 
    A Bioinformatic Toolkit for High\-Throughput Sequence Analysis of Combinatorial Selections
 
@@ -22,7 +23,14 @@ fastaptamer
 
    |downloads_fastaptamer| |docker_fastaptamer|
 
-   :versions: 1.0.14-0
+   :versions:
+      
+      
+
+      ``1.0.14-0``
+
+      
+
    
    :depends perl: 
    :requirements:

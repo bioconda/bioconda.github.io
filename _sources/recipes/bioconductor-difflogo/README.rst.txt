@@ -8,6 +8,7 @@ bioconductor-difflogo
 
 .. conda:recipe:: bioconductor-difflogo
    :replaces_section_title:
+   :noindex:
 
    DiffLogo\: A comparative visualisation of biooligomer motifs
 
@@ -22,9 +23,16 @@ bioconductor-difflogo
 
    |downloads_bioconductor-difflogo| |docker_bioconductor-difflogo|
 
-   :versions: 2.11.0-0, 2.10.0-0, 2.8.0-1, 2.8.0-0, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.11.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cba: 
    :requirements:
 

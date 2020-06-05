@@ -8,6 +8,7 @@ perl-rest-client
 
 .. conda:recipe:: perl-rest-client
    :replaces_section_title:
+   :noindex:
 
    A simple client for interacting with RESTful http\/https resources
 
@@ -22,7 +23,14 @@ perl-rest-client
 
    |downloads_perl-rest-client| |docker_perl-rest-client|
 
-   :versions: 273-0
+   :versions:
+      
+      
+
+      ``273-0``
+
+      
+
    
    :depends perl-lwp-protocol-https: 
    :depends perl-uri: 

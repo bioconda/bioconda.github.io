@@ -8,6 +8,7 @@ qcat
 
 .. conda:recipe:: qcat
    :replaces_section_title:
+   :noindex:
 
    Qcat is Python command\-line tool for demultiplexing Oxford Nanopore reads from FASTQ files.
 
@@ -22,7 +23,14 @@ qcat
 
    |downloads_qcat| |docker_qcat|
 
-   :versions: 1.1.0-0, 1.0.7-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
    :depends biopython: 
    :depends mappy: 

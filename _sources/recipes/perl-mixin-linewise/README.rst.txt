@@ -8,6 +8,7 @@ perl-mixin-linewise
 
 .. conda:recipe:: perl-mixin-linewise
    :replaces_section_title:
+   :noindex:
 
    write your linewise code for handles\; this does the rest
 
@@ -22,9 +23,16 @@ perl-mixin-linewise
 
    |downloads_perl-mixin-linewise| |docker_perl-mixin-linewise|
 
-   :versions: 0.108-2, 0.108-1, 0.108-0
+   :versions:
+      
+      
+
+      ``0.108-2``,  ``0.108-1``,  ``0.108-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-extutils-makemaker: 
    :depends perl-pathtools: 
    :depends perl-perlio-utf8_strict: 

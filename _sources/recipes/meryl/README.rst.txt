@@ -8,6 +8,7 @@ meryl
 
 .. conda:recipe:: meryl
    :replaces_section_title:
+   :noindex:
 
    meryl is a multi\-threaded\, multi\-process\, out\-of\-core k\-mer counter
 
@@ -22,7 +23,14 @@ meryl
 
    |downloads_meryl| |docker_meryl|
 
-   :versions: 2013-0
+   :versions:
+      
+      
+
+      ``2013-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

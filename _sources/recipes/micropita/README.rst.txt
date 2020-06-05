@@ -8,6 +8,7 @@ micropita
 
 .. conda:recipe:: micropita
    :replaces_section_title:
+   :noindex:
 
    microPITA is a computational tool enabling sample selection in two\-stage \(tiered\) studies.
 
@@ -23,7 +24,14 @@ micropita
 
    |downloads_micropita| |docker_micropita|
 
-   :versions: 1.1.0-1, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-1``,  ``1.1.0-0``
+
+      
+
    
    :depends biom-format: 
    :depends blist: 
@@ -31,7 +39,7 @@ micropita
    :depends machine-learning-py: 
    :depends mpi4py: 
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-archive-zip
 
 .. conda:recipe:: perl-archive-zip
    :replaces_section_title:
+   :noindex:
 
    Provide an interface to ZIP archive files.
 
@@ -22,9 +23,16 @@ perl-archive-zip
 
    |downloads_perl-archive-zip| |docker_perl-archive-zip|
 
-   :versions: 1.64-0, 1.60-0, 1.55-4, 1.55-3, 1.55-2, 1.55-1, 1.55-0
+   :versions:
+      
+      
+
+      ``1.64-0``,  ``1.60-0``,  ``1.55-4``,  ``1.55-3``,  ``1.55-2``,  ``1.55-1``,  ``1.55-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-compress-raw-zlib: 
    :depends perl-file-path: 
    :depends perl-file-temp: 

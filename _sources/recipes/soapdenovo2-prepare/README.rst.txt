@@ -8,6 +8,7 @@ soapdenovo2-prepare
 
 .. conda:recipe:: soapdenovo2-prepare
    :replaces_section_title:
+   :noindex:
 
    SoapDenovo2 data prepare module using assembled contig to do scaffold assembly.
 
@@ -22,10 +23,17 @@ soapdenovo2-prepare
 
    |downloads_soapdenovo2-prepare| |docker_soapdenovo2-prepare|
 
-   :versions: 2.0-3, 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-3``,  ``2.0-1``,  ``2.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ rnftools
 
 .. conda:recipe:: rnftools
    :replaces_section_title:
+   :noindex:
 
    RNF framework for NGS\: simulation of reads\, evaluation of mappers\, conversion of RNF\-compliant data.
 
@@ -22,22 +23,37 @@ rnftools
 
    |downloads_rnftools| |docker_rnftools|
 
-   :versions: 0.3.1.3-0, 0.3.1.2-2, 0.3.1.2-1, 0.3.1.1-2, 0.3.1.1-1, 0.3.1.0-2, 0.3.1.0-1, 0.3.0.2-2, 0.3.0.2-1, 0.3.0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.3.1.3-0</code>,  <code>0.3.1.2-2</code>,  <code>0.3.1.2-1</code>,  <code>0.3.1.1-2</code>,  <code>0.3.1.1-1</code>,  <code>0.3.1.0-2</code>,  <code>0.3.1.0-1</code>,  <code>0.3.0.2-2</code>,  <code>0.3.0.2-1</code>,  </span></summary>
+      
+
+      ``0.3.1.3-0``,  ``0.3.1.2-2``,  ``0.3.1.2-1``,  ``0.3.1.1-2``,  ``0.3.1.1-1``,  ``0.3.1.0-2``,  ``0.3.1.0-1``,  ``0.3.0.2-2``,  ``0.3.0.2-1``,  ``0.3.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends art: 
    :depends beautifulsoup4: 
    :depends bwa: 
    :depends curesim: 
    :depends dwgsim: 
-   :depends gnuplot: >=5.0
+   :depends gnuplot: ``>=5.0``
    :depends mason: 
    :depends pyfaidx: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends reportlab: 3.3.0
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends reportlab: ``3.3.0``
    :depends samtools: 
    :depends snakemake-minimal: 
-   :depends svg42pdf: >=0.2.2
+   :depends svg42pdf: ``>=0.2.2``
    :depends wgsim: 
    :requirements:
 

@@ -8,6 +8,7 @@ deepacstrain
 
 .. conda:recipe:: deepacstrain
    :replaces_section_title:
+   :noindex:
 
    Predicting pathogenic potentials of novel strains of known bacterial species.
 
@@ -25,13 +26,20 @@ deepacstrain
 
    |downloads_deepacstrain| |docker_deepacstrain|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends deepac: >=0.11.0
-   :depends numpy: >=1.18.1
-   :depends python: >=3.6
-   :depends scikit-learn: >=0.22.1
-   :depends tensorflow: >=2.1
+   :depends deepac: ``>=0.11.0``
+   :depends numpy: ``>=1.18.1``
+   :depends python: ``>=3.6``
+   :depends scikit-learn: ``>=0.22.1``
+   :depends tensorflow: ``>=2.1``
    :requirements:
 
    .. rubric:: Installation

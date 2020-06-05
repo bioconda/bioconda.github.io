@@ -8,6 +8,7 @@ burrito
 
 .. conda:recipe:: burrito/0.9.1
    :replaces_section_title:
+   :noindex:
 
    Framework for wrapping and controlling command\-line applications.
 
@@ -22,7 +23,14 @@ burrito
 
    |downloads_burrito| |docker_burrito|
 
-   :versions: 0.9.1-2, 0.9.1-1, 0.9.1-0
+   :versions:
+      
+      
+
+      ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``
+
+      
+
    
    :depends future: 
    :depends python: 

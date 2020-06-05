@@ -8,6 +8,7 @@ knock-knock
 
 .. conda:recipe:: knock-knock
    :replaces_section_title:
+   :noindex:
 
    toolkit for analyzing CRISPR knock\-in experiments
 
@@ -22,27 +23,34 @@ knock-knock
 
    |downloads_knock-knock| |docker_knock-knock|
 
-   :versions: 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.1-0``
+
+      
+
    
-   :depends biopython: >=1.70
-   :depends blast: 2.7.1
-   :depends bokeh: >=0.12.14
-   :depends hits: >=0.1
-   :depends ipywidgets: >=7.1.2
-   :depends matplotlib: >=2.1.2
-   :depends minimap2: 2.16
-   :depends nbconvert: >=5.3.1
-   :depends nbformat: >=4.4.0
-   :depends numpy: >=1.14.2
-   :depends pandas: >=0.22.0
-   :depends parallel: >=20190522
-   :depends pillow: >=5.0.0
-   :depends pysam: >=0.14
-   :depends python: >=3.6
-   :depends pyyaml: >=3.12
-   :depends samtools: >=1.9
-   :depends star: >=2.7.1
-   :depends tqdm: >=4.31.1
+   :depends biopython: ``>=1.70``
+   :depends blast: ``2.7.1``
+   :depends bokeh: ``>=0.12.14``
+   :depends hits: ``>=0.1``
+   :depends ipywidgets: ``>=7.1.2``
+   :depends matplotlib: ``>=2.1.2``
+   :depends minimap2: ``2.16``
+   :depends nbconvert: ``>=5.3.1``
+   :depends nbformat: ``>=4.4.0``
+   :depends numpy: ``>=1.14.2``
+   :depends pandas: ``>=0.22.0``
+   :depends parallel: ``>=20190522``
+   :depends pillow: ``>=5.0.0``
+   :depends pysam: ``>=0.14``
+   :depends python: ``>=3.6``
+   :depends pyyaml: ``>=3.12``
+   :depends samtools: ``>=1.9``
+   :depends star: ``>=2.7.1``
+   :depends tqdm: ``>=4.31.1``
    :requirements:
 
    .. rubric:: Installation

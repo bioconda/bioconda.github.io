@@ -8,6 +8,7 @@ domclust
 
 .. conda:recipe:: domclust
    :replaces_section_title:
+   :noindex:
 
    Effective tool for orthologous grouping in multiple genomes
 
@@ -22,9 +23,16 @@ domclust
 
    |downloads_domclust| |docker_domclust|
 
-   :versions: 1.2.8a-1, 1.2.8a-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.2.8a-1``,  ``1.2.8a-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends perl: 
    :requirements:
 

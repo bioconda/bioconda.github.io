@@ -8,6 +8,7 @@ bioconductor-rsweep
 
 .. conda:recipe:: bioconductor-rsweep
    :replaces_section_title:
+   :noindex:
 
    Functions to creation of low dimensional comparative matrices of Amino Acid Sequence occurrences
 
@@ -22,9 +23,16 @@ bioconductor-rsweep
 
    |downloads_bioconductor-rsweep| |docker_bioconductor-rsweep|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-pracma: 
    :requirements:
 

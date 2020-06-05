@@ -8,6 +8,7 @@ perl-test-unit-lite
 
 .. conda:recipe:: perl-test-unit-lite/0.1202
    :replaces_section_title:
+   :noindex:
 
    Unit testing without external dependencies
 
@@ -22,9 +23,16 @@ perl-test-unit-lite
 
    |downloads_perl-test-unit-lite| |docker_perl-test-unit-lite|
 
-   :versions: 0.1202-1, 0.1202-0
+   :versions:
+      
+      
+
+      ``0.1202-1``,  ``0.1202-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

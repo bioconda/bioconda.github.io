@@ -8,6 +8,7 @@ perl-bio-featureio
 
 .. conda:recipe:: perl-bio-featureio
    :replaces_section_title:
+   :noindex:
 
    Modules for reading\, writing\, and manipulating sequence features
 
@@ -22,9 +23,16 @@ perl-bio-featureio
 
    |downloads_perl-bio-featureio| |docker_perl-bio-featureio|
 
-   :versions: 1.6.905-2, 1.6.905-1, 1.6.905-0
+   :versions:
+      
+      
+
+      ``1.6.905-2``,  ``1.6.905-1``,  ``1.6.905-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl-core: 
    :depends perl-tree-dag_node: 
    :depends perl-uri: 

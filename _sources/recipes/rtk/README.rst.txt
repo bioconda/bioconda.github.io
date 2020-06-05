@@ -8,6 +8,7 @@ rtk
 
 .. conda:recipe:: rtk
    :replaces_section_title:
+   :noindex:
 
    rtk \- rarefaction toolkit for OTU tables
 
@@ -22,11 +23,18 @@ rtk
 
    |downloads_rtk| |docker_rtk|
 
-   :versions: 0.93.2-0, 0.93.1-0
+   :versions:
+      
+      
+
+      ``0.93.2-0``,  ``0.93.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

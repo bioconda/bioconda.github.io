@@ -8,6 +8,7 @@ seq-gen
 
 .. conda:recipe:: seq-gen
    :replaces_section_title:
+   :noindex:
 
    Seq\-Gen is a program that will simulate the evolution of nucleotide or amino acid sequences along a phylogeny\, using common models of the substitution process.
 
@@ -23,9 +24,16 @@ seq-gen
 
    |downloads_seq-gen| |docker_seq-gen|
 
-   :versions: 1.3.4-2, 1.3.4-0, 1.3.3-0
+   :versions:
+      
+      
+
+      ``1.3.4-2``,  ``1.3.4-0``,  ``1.3.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

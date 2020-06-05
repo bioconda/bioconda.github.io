@@ -8,6 +8,7 @@ ghost-tree
 
 .. conda:recipe:: ghost-tree
    :replaces_section_title:
+   :noindex:
 
    ghost\-tree is a bioinformatics tool that combines sequence data from two
    genetic marker databases into one phylogenetic tree that can be used for
@@ -25,15 +26,22 @@ ghost-tree
 
    |downloads_ghost-tree| |docker_ghost-tree|
 
-   :versions: 0.2.2-1, 0.2.2-0
+   :versions:
+      
+      
+
+      ``0.2.2-1``,  ``0.2.2-0``
+
+      
+
    
-   :depends click: >=4.0
+   :depends click: ``>=4.0``
    :depends fasttree: 
    :depends muscle: 
    :depends numpy: 
-   :depends python: >=3.4
-   :depends scikit-bio: >=0.5.1
-   :depends sumaclust: >=1.0.31
+   :depends python: ``>=3.4``
+   :depends scikit-bio: ``>=0.5.1``
+   :depends sumaclust: ``>=1.0.31``
    :requirements:
 
    .. rubric:: Installation

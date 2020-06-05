@@ -8,6 +8,7 @@ perl-ensembl-variation
 
 .. conda:recipe:: perl-ensembl-variation
    :replaces_section_title:
+   :noindex:
 
    The Ensembl Core Perl API and
 
@@ -22,7 +23,14 @@ perl-ensembl-variation
 
    |downloads_perl-ensembl-variation| |docker_perl-ensembl-variation|
 
-   :versions: 98-0
+   :versions:
+      
+      
+
+      ``98-0``
+
+      
+
    
    :depends perl: 
    :depends perl-bio-bigfile: 

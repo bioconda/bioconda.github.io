@@ -8,6 +8,7 @@ mirfix
 
 .. conda:recipe:: mirfix
    :replaces_section_title:
+   :noindex:
 
    MIRfix automatically curates miRNA datasets by improving alignments of their precursors\, the consistency of the annotation of mature miR and miR\* sequence\, and the phylogenetic coverage. MIRfix produces alignments that are comparable across families and sets the stage for improved homology search as well as quantitative analyses.
 
@@ -22,15 +23,22 @@ mirfix
 
    |downloads_mirfix| |docker_mirfix|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
    :depends biopython: 
    :depends clustalw: 
    :depends dialign2: 
    :depends matplotlib: 
    :depends numpy: 
-   :depends python: <3
-   :depends tk: >=8.6.9,<8.7.0a0
+   :depends python: ``<3``
+   :depends tk: ``>=8.6.9,<8.7.0a0``
    :depends viennarna: 
    :requirements:
 

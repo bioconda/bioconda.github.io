@@ -8,6 +8,7 @@ metaxa
 
 .. conda:recipe:: metaxa
    :replaces_section_title:
+   :noindex:
 
    Improved Identification and Taxonomic Classification of Small and Large Subunit rRNA in Metagenomic Data.
 
@@ -23,13 +24,20 @@ metaxa
 
    |downloads_metaxa| |docker_metaxa|
 
-   :versions: 2.2-1, 2.2-0
+   :versions:
+      
+      
+
+      ``2.2-1``,  ``2.2-0``
+
+      
+
    
-   :depends blast: 2.2.*
-   :depends hmmer: 3.1.*
-   :depends mafft: 7.*
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends vsearch: 2.7.0.*
+   :depends blast: ``2.2.*``
+   :depends hmmer: ``3.1.*``
+   :depends mafft: ``7.*``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends vsearch: ``2.7.0.*``
    :requirements:
 
    .. rubric:: Installation

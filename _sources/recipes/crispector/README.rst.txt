@@ -8,6 +8,7 @@ crispector
 
 .. conda:recipe:: crispector
    :replaces_section_title:
+   :noindex:
 
    Accurate estimation of off\-target editing activity from comparative NGS data
 
@@ -22,21 +23,28 @@ crispector
 
    |downloads_crispector| |docker_crispector|
 
-   :versions: 1.0.4-0, 1.0.3-0, 1.0.2b9-0, 1.0.2b7-0, 1.0.2b6-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2b9-0``,  ``1.0.2b7-0``,  ``1.0.2b6-0``
+
+      
+
    
-   :depends biopython: >=1.74
-   :depends click: >=7.0
+   :depends biopython: ``>=1.74``
+   :depends click: ``>=7.0``
    :depends fastp: 
    :depends jinja2: 
-   :depends matplotlib-base: >=3.1.2
-   :depends numpy: >=1.12.1
-   :depends pandas: >=0.24.2
-   :depends plotly: >=4.3.0
-   :depends python: 3.7.*
+   :depends matplotlib-base: ``>=3.1.2``
+   :depends numpy: ``>=1.12.1``
+   :depends pandas: ``>=0.24.2``
+   :depends plotly: ``>=4.3.0``
+   :depends python: ``3.7.*``
    :depends python-edlib: 
-   :depends pyyaml: >=5.1.2
-   :depends scipy: >=1.2.1
-   :depends seaborn: >=0.9.0
+   :depends pyyaml: ``>=5.1.2``
+   :depends scipy: ``>=1.2.1``
+   :depends seaborn: ``>=0.9.0``
    :depends statsmodels: 
    :requirements:
 

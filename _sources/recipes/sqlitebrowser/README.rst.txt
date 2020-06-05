@@ -8,6 +8,7 @@ sqlitebrowser
 
 .. conda:recipe:: sqlitebrowser
    :replaces_section_title:
+   :noindex:
 
    DB Browser for SQLite is a high quality\, visual\, open source tool to create\, design\, and edit database files compatible with SQLite.
 
@@ -22,7 +23,14 @@ sqlitebrowser
 
    |downloads_sqlitebrowser| |docker_sqlitebrowser|
 
-   :versions: 3.8.0-0
+   :versions:
+      
+      
+
+      ``3.8.0-0``
+
+      
+
    
    :depends libgcc: 
    :depends qt: 

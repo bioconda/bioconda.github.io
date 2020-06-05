@@ -8,6 +8,7 @@ visceral-evaluatesegmentation
 
 .. conda:recipe:: visceral-evaluatesegmentation
    :replaces_section_title:
+   :noindex:
 
    EvaluateSegmentation is a tool that compares two volumes \(a test segmentation and a ground truth segmentation\) using 22 different metrics that were selected as a result of a comprehensive research into the metrics used in the medical volume segmentations.
 
@@ -22,10 +23,17 @@ visceral-evaluatesegmentation
 
    |downloads_visceral-evaluatesegmentation| |docker_visceral-evaluatesegmentation|
 
-   :versions: 2015.07.03-0, 2015.07.02-1, 2015.07.02-0
+   :versions:
+      
+      
+
+      ``2015.07.03-0``,  ``2015.07.02-1``,  ``2015.07.02-0``
+
+      
+
    
-   :depends jpeg: >=9c,<10a
-   :depends libgcc-ng: >=7.3.0
+   :depends jpeg: ``>=9c,<10a``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends libitk: 
    :requirements:
 

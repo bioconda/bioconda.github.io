@@ -8,6 +8,7 @@ bioconductor-trena
 
 .. conda:recipe:: bioconductor-trena
    :replaces_section_title:
+   :noindex:
 
    Fit transcriptional regulatory networks using gene expression\, priors\, machine learning
 
@@ -22,24 +23,31 @@ bioconductor-trena
 
    |downloads_bioconductor-trena| |docker_bioconductor-trena|
 
-   :versions: 1.8.0-0, 1.6.1-0, 1.4.2-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.2-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-biocparallel: >=1.20.0,<1.21.0
-   :depends bioconductor-biomart: >=2.42.0,<2.43.0
-   :depends bioconductor-biostrings: >=2.54.0,<2.55.0
-   :depends bioconductor-bsgenome: >=1.54.0,<1.55.0
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: >=1.4.0,<1.5.0
-   :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: >=1.4.0,<1.5.0
-   :depends bioconductor-genomicranges: >=1.38.0,<1.39.0
-   :depends bioconductor-motifdb: >=1.28.0,<1.29.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-snplocs.hsapiens.dbsnp150.grch38: >=0.99.0,<0.100.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotationdbi: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-biocparallel: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-biomart: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-biostrings: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-bsgenome: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-genomicranges: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-motifdb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-snplocs.hsapiens.dbsnp150.grch38: ``>=0.99.0,<0.100.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-dbi: 
    :depends r-flare: 
-   :depends r-glmnet: >=2.0.3
+   :depends r-glmnet: ``>=2.0.3``
    :depends r-lassopv: 
    :depends r-randomforest: 
    :depends r-rmysql: 

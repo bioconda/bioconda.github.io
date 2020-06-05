@@ -8,6 +8,7 @@ instrain
 
 .. conda:recipe:: instrain
    :replaces_section_title:
+   :noindex:
 
    Calculation of strain\-level metrics
 
@@ -22,7 +23,22 @@ instrain
 
    |downloads_instrain| |docker_instrain|
 
-   :versions: 1.2.14-0, 1.2.13-0, 1.2.12-0, 1.2.10-0, 1.2.9-0, 1.2.8-0, 1.2.7-0, 1.2.4-0, 1.2.3-0, 1.2.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.14-0</code>,  <code>1.2.13-0</code>,  <code>1.2.12-0</code>,  <code>1.2.10-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  </span></summary>
+      
+
+      ``1.2.14-0``,  ``1.2.13-0``,  ``1.2.12-0``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends drep: 
@@ -30,11 +46,11 @@ instrain
    :depends matplotlib-base: 
    :depends networkx: 
    :depends numpy: 
-   :depends pandas: >=0.25
+   :depends pandas: ``>=0.25``
    :depends psutil: 
    :depends pysam: 
    :depends pytest: 
-   :depends python: >=3.4
+   :depends python: ``>=3.4``
    :depends scikit-learn: 
    :depends seaborn: 
    :depends tqdm: 

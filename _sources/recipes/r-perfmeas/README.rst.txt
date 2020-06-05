@@ -8,6 +8,7 @@ r-perfmeas
 
 .. conda:recipe:: r-perfmeas
    :replaces_section_title:
+   :noindex:
 
    Package that implements different performance measures for classification and ranking tasks. AUC\, precision at a given recall\, F\-score for single and multiple classes are available.
 
@@ -22,13 +23,20 @@ r-perfmeas
 
    |downloads_r-perfmeas| |docker_r-perfmeas|
 
-   :versions: 1.2.1-4, 1.2.1-3, 1.2.1-2, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
+
+      
+
    
    :depends bioconductor-graph: 
    :depends bioconductor-limma: 
    :depends bioconductor-rbgl: 
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ pypiper
 
 .. conda:recipe:: pypiper
    :replaces_section_title:
+   :noindex:
 
    Pypiper is a lightweight python toolkit that helps you write slick pipelines in python.
 
@@ -23,9 +24,16 @@ pypiper
 
    |downloads_pypiper| |docker_pypiper|
 
-   :versions: 0.8-0, 0.7.2-2, 0.7.2-0, 0.6-0
+   :versions:
+      
+      
+
+      ``0.8-0``,  ``0.7.2-2``,  ``0.7.2-0``,  ``0.6-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-mirlab
 
 .. conda:recipe:: bioconductor-mirlab
    :replaces_section_title:
+   :noindex:
 
    Dry lab for exploring miRNA\-mRNA relationships
 
@@ -22,7 +23,14 @@ bioconductor-mirlab
 
    |downloads_bioconductor-mirlab| |docker_bioconductor-mirlab|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 

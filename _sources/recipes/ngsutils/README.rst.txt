@@ -8,6 +8,7 @@ ngsutils
 
 .. conda:recipe:: ngsutils
    :replaces_section_title:
+   :noindex:
 
    Tools for next\-generation sequencing analysis http\:\/\/ngsutils.org
 
@@ -23,13 +24,20 @@ ngsutils
 
    |downloads_ngsutils| |docker_ngsutils|
 
-   :versions: 0.5.9-2, 0.5.9-1, 0.5.9-0
+   :versions:
+      
+      
+
+      ``0.5.9-2``,  ``0.5.9-1``,  ``0.5.9-0``
+
+      
+
    
    :depends coverage: 
    :depends eta: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends samtools: 
    :depends swalign: 
    :requirements:

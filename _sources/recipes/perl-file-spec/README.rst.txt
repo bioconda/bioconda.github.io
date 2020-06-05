@@ -8,6 +8,7 @@ perl-file-spec
 
 .. conda:recipe:: perl-file-spec/3.48_01
    :replaces_section_title:
+   :noindex:
 
    portably perform operations on file names
 
@@ -22,9 +23,16 @@ perl-file-spec
 
    |downloads_perl-file-spec| |docker_perl-file-spec|
 
-   :versions: 3.48_01-1, 3.48_01-0
+   :versions:
+      
+      
+
+      ``3.48_01-1``,  ``3.48_01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-hgu2beta7
 
 .. conda:recipe:: bioconductor-hgu2beta7
    :replaces_section_title:
+   :noindex:
 
    A data package containing annotation data for hgu2beta7
 
@@ -22,10 +23,17 @@ bioconductor-hgu2beta7
 
    |downloads_bioconductor-hgu2beta7| |docker_bioconductor-hgu2beta7|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

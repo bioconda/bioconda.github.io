@@ -8,6 +8,7 @@ bioconductor-receptloss
 
 .. conda:recipe:: bioconductor-receptloss
    :replaces_section_title:
+   :noindex:
 
    Unsupervised Identification of Genes with Expression Loss in Subsets of Tumors
 
@@ -22,10 +23,17 @@ bioconductor-receptloss
 
    |downloads_bioconductor-receptloss| |docker_bioconductor-receptloss|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-magrittr: 

@@ -8,6 +8,7 @@ ecmwfapi
 
 .. conda:recipe:: ecmwfapi
    :replaces_section_title:
+   :noindex:
 
    ECMWF API is a set of services developed by ECMWF http\:\/\/www.ecmwf.int to allow users from the outside to access some internal features and data of the centre.
 
@@ -22,7 +23,14 @@ ecmwfapi
 
    |downloads_ecmwfapi| |docker_ecmwfapi|
 
-   :versions: 1.4.1-2, 1.4.1-1, 1.4.1-0
+   :versions:
+      
+      
+
+      ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

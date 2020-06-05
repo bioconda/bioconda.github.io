@@ -8,6 +8,7 @@ bioconductor-meb
 
 .. conda:recipe:: bioconductor-meb
    :replaces_section_title:
+   :noindex:
 
    A normalization\-invariant minimum enclosing ball method to detect differentially expressed genes for RNA\-seq data
 
@@ -22,10 +23,17 @@ bioconductor-meb
 
    |downloads_bioconductor-meb| |docker_bioconductor-meb|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 
    :requirements:
 

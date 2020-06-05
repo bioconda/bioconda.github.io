@@ -8,6 +8,7 @@ r-facets
 
 .. conda:recipe:: r-facets
    :replaces_section_title:
+   :noindex:
 
    Cellular Fraction and Copy Numbers from Tumor Sequencing
 
@@ -23,11 +24,18 @@ r-facets
 
    |downloads_r-facets| |docker_r-facets|
 
-   :versions: 0.5.14-3, 0.5.14-2, 0.5.14-1, 0.5.14-0
+   :versions:
+      
+      
+
+      ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-pctgcdata: 
    :requirements:
 

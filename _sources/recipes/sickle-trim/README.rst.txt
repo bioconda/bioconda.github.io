@@ -8,6 +8,7 @@ sickle-trim
 
 .. conda:recipe:: sickle-trim
    :replaces_section_title:
+   :noindex:
 
    Windowed Adaptive Trimming for fastq files using quality
 
@@ -22,10 +23,17 @@ sickle-trim
 
    |downloads_sickle-trim| |docker_sickle-trim|
 
-   :versions: 1.33-5, 1.33-4, 1.33-3, 1.33-2, 1.33-1, 1.33-0
+   :versions:
+      
+      
+
+      ``1.33-5``,  ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ thesias
 
 .. conda:recipe:: thesias
    :replaces_section_title:
+   :noindex:
 
    Testing Haplotype Effects In Association Studies
 
@@ -23,10 +24,17 @@ thesias
 
    |downloads_thesias| |docker_thesias|
 
-   :versions: 3.1.1-1, 3.1.1-0
+   :versions:
+      
+      
+
+      ``3.1.1-1``,  ``3.1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends openjdk: >=11
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends openjdk: ``>=11``
    :depends python: 
    :requirements:
 

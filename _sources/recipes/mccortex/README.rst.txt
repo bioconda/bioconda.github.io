@@ -8,6 +8,7 @@ mccortex
 
 .. conda:recipe:: mccortex
    :replaces_section_title:
+   :noindex:
 
    De novo genome assembly and multisample variant calling 
 
@@ -23,11 +24,18 @@ mccortex
 
    |downloads_mccortex| |docker_mccortex|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

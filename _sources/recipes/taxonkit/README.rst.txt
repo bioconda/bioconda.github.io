@@ -8,6 +8,7 @@ taxonkit
 
 .. conda:recipe:: taxonkit
    :replaces_section_title:
+   :noindex:
 
    A Cross\-platform and Efficient NCBI Taxonomy Toolkit
 
@@ -22,7 +23,14 @@ taxonkit
 
    |downloads_taxonkit| |docker_taxonkit|
 
-   :versions: 0.6.0-0, 0.5.0-0, 0.3.0-1, 0.2.5-1, 0.2.4-1, 0.2.4-0, 0.2.0-0, 0.1.8-0, 0.1.7-0
+   :versions:
+      
+      
+
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-1``,  ``0.2.5-1``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
+
+      
+
    
    :requirements:
 

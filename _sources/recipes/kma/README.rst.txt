@@ -8,6 +8,7 @@ kma
 
 .. conda:recipe:: kma
    :replaces_section_title:
+   :noindex:
 
    KMA is mapping a method designed to map raw reads directly against redundant databases\, in an ultra\-fast manner using seed and extend.
 
@@ -23,10 +24,25 @@ kma
 
    |downloads_kma| |docker_kma|
 
-   :versions: 1.2.26-0, 1.2.25-0, 1.2.22-0, 1.2.21-0, 1.2.20-0, 1.2.19-0, 1.2.18-0, 1.2.17-0, 1.2.16-0, 1.2.15-0, 1.2.14-0, 1.2.12-0, 1.2.11-0, 1.2.9-0, 1.2.7-0, 1.2.6-0, 1.2.5-0, 1.2.3-0, 1.2.1-0, 1.2.0-0, 1.1.7-0, 1.0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.26-0</code>,  <code>1.2.25-0</code>,  <code>1.2.22-0</code>,  <code>1.2.21-0</code>,  <code>1.2.20-0</code>,  <code>1.2.19-0</code>,  <code>1.2.18-0</code>,  <code>1.2.17-0</code>,  <code>1.2.16-0</code>,  </span></summary>
+      
+
+      ``1.2.26-0``,  ``1.2.25-0``,  ``1.2.22-0``,  ``1.2.21-0``,  ``1.2.20-0``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.17-0``,  ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.9-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

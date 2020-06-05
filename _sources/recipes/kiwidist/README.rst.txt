@@ -8,6 +8,7 @@ kiwidist
 
 .. conda:recipe:: kiwidist
    :replaces_section_title:
+   :noindex:
 
    Combining gene\-set analysis with network properties
 
@@ -22,16 +23,23 @@ kiwidist
 
    |downloads_kiwidist| |docker_kiwidist|
 
-   :versions: 0.3.6-3, 0.3.6-2, 0.3.6-0, 0.3.5-0, 0.3.4-0
+   :versions:
+      
+      
+
+      ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``
+
+      
+
    
-   :depends matplotlib: >=1.3.1,<=1.4.3
-   :depends mygene: >=2.1.0
-   :depends networkx: >=1.8.1
-   :depends numpy: >=1.8.0
-   :depends pandas: >=0.13.1
-   :depends python: <3
-   :depends scipy: >=0.13.3,<=0.16.0
-   :depends six: >=1.5
+   :depends matplotlib: ``>=1.3.1,<=1.4.3``
+   :depends mygene: ``>=2.1.0``
+   :depends networkx: ``>=1.8.1``
+   :depends numpy: ``>=1.8.0``
+   :depends pandas: ``>=0.13.1``
+   :depends python: ``<3``
+   :depends scipy: ``>=0.13.3,<=0.16.0``
+   :depends six: ``>=1.5``
    :requirements:
 
    .. rubric:: Installation

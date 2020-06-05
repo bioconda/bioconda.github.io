@@ -8,6 +8,7 @@ cyvcf2
 
 .. conda:recipe:: cyvcf2
    :replaces_section_title:
+   :noindex:
 
    A cython wrapper around htslib built for fast parsing of Variant Call Format \(VCF\) files
 
@@ -22,18 +23,33 @@ cyvcf2
 
    |downloads_cyvcf2| |docker_cyvcf2|
 
-   :versions: 0.20.0-1, 0.20.0-0, 0.11.7-0, 0.11.6-0, 0.11.5-1, 0.11.5-0, 0.11.4-0, 0.11.2-0, 0.10.10-0, 0.10.8-2, 0.10.8-1, 0.10.8-0, 0.10.0-0, 0.8.4-4, 0.8.4-3, 0.8.4-2, 0.8.4-1, 0.8.4-0, 0.8.0-0, 0.7.2-3, 0.7.2-2, 0.7.2-1, 0.7.2-0, 0.6.6a-0, 0.6.5-0, 0.5.5-0, 0.5.3-0, 0.5.1-0, 0.5.0-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.2-0, 0.3.0-0, 0.2.8-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.20.0-1</code>,  <code>0.20.0-0</code>,  <code>0.11.7-0</code>,  <code>0.11.6-0</code>,  <code>0.11.5-1</code>,  <code>0.11.5-0</code>,  <code>0.11.4-0</code>,  <code>0.11.2-0</code>,  <code>0.10.10-0</code>,  </span></summary>
+      
+
+      ``0.20.0-1``,  ``0.20.0-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.5-1``,  ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.2-0``,  ``0.10.10-0``,  ``0.10.8-2``,  ``0.10.8-1``,  ``0.10.8-0``,  ``0.10.0-0``,  ``0.8.4-4``,  ``0.8.4-3``,  ``0.8.4-2``,  ``0.8.4-1``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.2-3``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.6.6a-0``,  ``0.6.5-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends click: 
    :depends coloredlogs: 
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libcurl: >=7.69.1,<8.0a0
-   :depends libgcc-ng: >=7.3.0
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libcurl: ``>=7.69.1,<8.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends openssl: >=1.1.1g,<1.1.2a
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends openssl: ``>=1.1.1g,<1.1.2a``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ melt
 
 .. conda:recipe:: melt
    :replaces_section_title:
+   :noindex:
 
    A nucleotide melt temp calculator
 
@@ -22,7 +23,14 @@ melt
 
    |downloads_melt| |docker_melt|
 
-   :versions: 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+
    
    :depends python: 
    :requirements:

@@ -8,6 +8,7 @@ tapestry
 
 .. conda:recipe:: tapestry
    :replaces_section_title:
+   :noindex:
 
    Validate and edit small eukaryotic genome assemblies
 
@@ -22,7 +23,14 @@ tapestry
 
    |downloads_tapestry| |docker_tapestry|
 
-   :versions: 1.0.0-0, 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``
+
+      
+
    
    :depends biopython: 
    :depends intervaltree: 
@@ -32,7 +40,7 @@ tapestry
    :depends pandas: 
    :depends plumbum: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends samtools: 
    :depends sqlalchemy: 
    :depends tqdm: 

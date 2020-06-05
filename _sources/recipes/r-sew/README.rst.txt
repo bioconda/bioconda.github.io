@@ -8,6 +8,7 @@ r-sew
 
 .. conda:recipe:: r-sew
    :replaces_section_title:
+   :noindex:
 
    SEW
 
@@ -22,21 +23,28 @@ r-sew
 
    |downloads_r-sew| |docker_r-sew|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
    :depends coreutils: 
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-data.table: >=1.11.8
-   :depends r-rcpp: >=0.12.18
-   :depends r-rcpparmadillo: >=0.8.600.0.0
-   :depends r-rrbgen: >=0.0.6
-   :depends r-stitch: 1.5.5
-   :depends r-testthat: >=2.0.0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
+   :depends r-data.table: ``>=1.11.8``
+   :depends r-rcpp: ``>=0.12.18``
+   :depends r-rcpparmadillo: ``>=0.8.600.0.0``
+   :depends r-rrbgen: ``>=0.0.6``
+   :depends r-stitch: ``1.5.5``
+   :depends r-testthat: ``>=2.0.0``
    :depends rsync: 
-   :depends samtools: >=1.4
+   :depends samtools: ``>=1.4``
    :requirements:
 
    .. rubric:: Installation

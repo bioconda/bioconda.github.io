@@ -8,6 +8,7 @@ assembly-scan
 
 .. conda:recipe:: assembly-scan
    :replaces_section_title:
+   :noindex:
 
    Assembly summary statistics in JSON format
 
@@ -22,9 +23,16 @@ assembly-scan
 
    |downloads_assembly-scan| |docker_assembly-scan|
 
-   :versions: 0.3.0-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.3.0-0``,  ``0.2-0``
+
+      
+
    
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

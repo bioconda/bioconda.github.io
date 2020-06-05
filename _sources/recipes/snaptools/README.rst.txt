@@ -8,6 +8,7 @@ snaptools
 
 .. conda:recipe:: snaptools
    :replaces_section_title:
+   :noindex:
 
    A module for working with snap files in Python
 
@@ -22,12 +23,19 @@ snaptools
 
    |downloads_snaptools| |docker_snaptools|
 
-   :versions: 1.4.8-0
+   :versions:
+      
+      
+
+      ``1.4.8-0``
+
+      
+
    
    :depends future: 
    :depends h5py: 
    :depends numpy: 
-   :depends pybedtools: >=0.7
+   :depends pybedtools: ``>=0.7``
    :depends pysam: 
    :depends python: 
    :depends python-louvain: 

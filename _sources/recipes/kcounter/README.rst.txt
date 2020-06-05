@@ -8,6 +8,7 @@ kcounter
 
 .. conda:recipe:: kcounter
    :replaces_section_title:
+   :noindex:
 
    A simple package for counting DNA k\-mers in Python. Written in Rust.
 
@@ -22,11 +23,18 @@ kcounter
 
    |downloads_kcounter| |docker_kcounter|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

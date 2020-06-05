@@ -8,6 +8,7 @@ bioconductor-scthi
 
 .. conda:recipe:: bioconductor-scthi
    :replaces_section_title:
+   :noindex:
 
    Indentification of significantly activated ligand\-receptor interactions across clusters of cells from single\-cell RNA sequencing data
 
@@ -22,10 +23,17 @@ bioconductor-scthi
 
    |downloads_bioconductor-scthi| |docker_bioconductor-scthi|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rtsne: 
    :requirements:
 

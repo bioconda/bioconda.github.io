@@ -8,6 +8,7 @@ macaron
 
 .. conda:recipe:: macaron
    :replaces_section_title:
+   :noindex:
 
    Multi\-bAse Codon\-Associated variant Re\-annotatiON
 
@@ -23,7 +24,14 @@ macaron
 
    |downloads_macaron| |docker_macaron|
 
-   :versions: 1.0-0, 0.7-0
+   :versions:
+      
+      
+
+      ``1.0-0``,  ``0.7-0``
+
+      
+
    
    :depends gatk4: 
    :depends python: 

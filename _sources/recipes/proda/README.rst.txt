@@ -8,6 +8,7 @@ proda
 
 .. conda:recipe:: proda
    :replaces_section_title:
+   :noindex:
 
    ProDA \- Multiple alignment of protein sequences with repeated and shuffled elements
 
@@ -23,10 +24,17 @@ proda
 
    |downloads_proda| |docker_proda|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

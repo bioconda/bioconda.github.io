@@ -8,6 +8,7 @@ lorikeet
 
 .. conda:recipe:: lorikeet
    :replaces_section_title:
+   :noindex:
 
    Tool for digital spoligotyping of MTB strains from Illumina read data
 
@@ -23,7 +24,14 @@ lorikeet
 
    |downloads_lorikeet| |docker_lorikeet|
 
-   :versions: 20-0, 19-0, 17-0
+   :versions:
+      
+      
+
+      ``20-0``,  ``19-0``,  ``17-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

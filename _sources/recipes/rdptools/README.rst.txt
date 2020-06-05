@@ -8,6 +8,7 @@ rdptools
 
 .. conda:recipe:: rdptools
    :replaces_section_title:
+   :noindex:
 
    Metaproject for RDP Tools
 
@@ -22,9 +23,16 @@ rdptools
 
    |downloads_rdptools| |docker_rdptools|
 
-   :versions: 2.0.3-0, 2.0.2-1, 2.0.2-0
+   :versions:
+      
+      
+
+      ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``
+
+      
+
    
-   :depends openjdk: 8.0.*
+   :depends openjdk: ``8.0.*``
    :depends python: 
    :requirements:
 

@@ -8,6 +8,7 @@ bold-identification
 
 .. conda:recipe:: bold-identification
    :replaces_section_title:
+   :noindex:
 
    A tool for taxonomic assignment for given sequences using the BOLD database \(http\:\/\/www.boldsystems.org\/index.php\)
 
@@ -23,12 +24,19 @@ bold-identification
 
    |downloads_bold-identification| |docker_bold-identification|
 
-   :versions: 0.0.25-0
+   :versions:
+      
+      
+
+      ``0.0.25-0``
+
+      
+
    
    :depends beautifulsoup4: 
-   :depends biopython: >1.5
+   :depends biopython: ``>1.5``
    :depends html5lib: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends requests: 
    :requirements:
 

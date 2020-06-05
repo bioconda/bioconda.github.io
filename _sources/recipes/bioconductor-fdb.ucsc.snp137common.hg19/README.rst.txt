@@ -8,6 +8,7 @@ bioconductor-fdb.ucsc.snp137common.hg19
 
 .. conda:recipe:: bioconductor-fdb.ucsc.snp137common.hg19
    :replaces_section_title:
+   :noindex:
 
    UCSC common SNPs track for dbSNP build 137
 
@@ -22,12 +23,19 @@ bioconductor-fdb.ucsc.snp137common.hg19
 
    |downloads_bioconductor-fdb.ucsc.snp137common.hg19| |docker_bioconductor-fdb.ucsc.snp137common.hg19|
 
-   :versions: 1.0.0-4, 1.0.0-3, 1.0.0-2, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

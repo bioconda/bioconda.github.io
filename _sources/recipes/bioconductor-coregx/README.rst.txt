@@ -8,6 +8,7 @@ bioconductor-coregx
 
 .. conda:recipe:: bioconductor-coregx
    :replaces_section_title:
+   :noindex:
 
    Classes and Functions to Serve as the Basis for Other \'Gx\' Packages
 
@@ -22,14 +23,21 @@ bioconductor-coregx
 
    |downloads_bioconductor-coregx| |docker_bioconductor-coregx|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-piano: >=2.4.0,<2.5.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-piano: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-lsa: 
    :requirements:
 

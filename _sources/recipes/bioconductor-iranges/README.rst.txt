@@ -8,6 +8,7 @@ bioconductor-iranges
 
 .. conda:recipe:: bioconductor-iranges
    :replaces_section_title:
+   :noindex:
 
    Foundation of integer range manipulation in Bioconductor
 
@@ -23,14 +24,29 @@ bioconductor-iranges
 
    |downloads_bioconductor-iranges| |docker_bioconductor-iranges|
 
-   :versions: 2.22.1-0, 2.20.0-0, 2.18.2-0, 2.18.1-0, 2.16.0-0, 2.14.12-0, 2.12.0-0, 2.10.5-0, 2.8.2-0, 2.8.0-0, 2.6.1-0, 2.6.0-0, 2.4.8-0, 2.4.7-0, 2.4.6-0, 2.4.1-0, 2.4.0-0, 2.2.9-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.22.1-0</code>,  <code>2.20.0-0</code>,  <code>2.18.2-0</code>,  <code>2.18.1-0</code>,  <code>2.16.0-0</code>,  <code>2.14.12-0</code>,  <code>2.12.0-0</code>,  <code>2.10.5-0</code>,  <code>2.8.2-0</code>,  </span></summary>
+      
+
+      ``2.22.1-0``,  ``2.20.0-0``,  ``2.18.2-0``,  ``2.18.1-0``,  ``2.16.0-0``,  ``2.14.12-0``,  ``2.12.0-0``,  ``2.10.5-0``,  ``2.8.2-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.4.8-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.9-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

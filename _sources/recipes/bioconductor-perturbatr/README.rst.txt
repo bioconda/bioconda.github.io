@@ -8,6 +8,7 @@ bioconductor-perturbatr
 
 .. conda:recipe:: bioconductor-perturbatr
    :replaces_section_title:
+   :noindex:
 
    Statistical Analysis of High\-Throughput Genetic Perturbation Screens
 
@@ -22,10 +23,17 @@ bioconductor-perturbatr
 
    |downloads_bioconductor-perturbatr| |docker_bioconductor-perturbatr|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``
+
+      
+
    
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-diffusr: 
    :depends r-doparallel: 
    :depends r-dplyr: 

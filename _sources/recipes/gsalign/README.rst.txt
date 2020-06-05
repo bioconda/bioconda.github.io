@@ -8,6 +8,7 @@ gsalign
 
 .. conda:recipe:: gsalign
    :replaces_section_title:
+   :noindex:
 
    GSAlign\: an ultra\-fast sequence alignment tool
 
@@ -23,12 +24,27 @@ gsalign
 
    |downloads_gsalign| |docker_gsalign|
 
-   :versions: 1.0.22-0, 1.0.21-0, 1.0.20-0, 1.0.16-0, 1.0.15-0, 1.0.14-0, 1.0.13-0, 1.0.12-0, 1.0.11-0, 1.0.10-0, 1.0.9-0, 1.0.8-0, 1.0.7-1, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.22-0</code>,  <code>1.0.21-0</code>,  <code>1.0.20-0</code>,  <code>1.0.16-0</code>,  <code>1.0.15-0</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  </span></summary>
+      
+
+      ``1.0.22-0``,  ``1.0.21-0``,  ``1.0.20-0``,  ``1.0.16-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends xz: >=5.2.5,<5.3.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
    :requirements:
 
    .. rubric:: Installation

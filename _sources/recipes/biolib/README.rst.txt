@@ -8,6 +8,7 @@ biolib
 
 .. conda:recipe:: biolib
    :replaces_section_title:
+   :noindex:
 
    Package for common tasks in bioinformatics.
 
@@ -22,10 +23,25 @@ biolib
 
    |downloads_biolib| |docker_biolib|
 
-   :versions: 0.1.5-0, 0.1.3-0, 0.1.2-1, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.52-0, 0.0.51-0, 0.0.46-1, 0.0.46-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.1.5-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.52-0</code>,  <code>0.0.51-0</code>,  <code>0.0.46-1</code>,  </span></summary>
+      
+
+      ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.52-0``,  ``0.0.51-0``,  ``0.0.46-1``,  ``0.0.46-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends future: >=0.16.0
-   :depends python: >=3.6
+   :depends future: ``>=0.16.0``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

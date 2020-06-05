@@ -8,6 +8,7 @@ eta
 
 .. conda:recipe:: eta
    :replaces_section_title:
+   :noindex:
 
    ETA Progress bar for command\-line utilities
 
@@ -22,7 +23,14 @@ eta
 
    |downloads_eta| |docker_eta|
 
-   :versions: 0.9.7-2, 0.9.7-1, 0.9.7-0
+   :versions:
+      
+      
+
+      ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+
+      
+
    
    :depends python: 
    :requirements:

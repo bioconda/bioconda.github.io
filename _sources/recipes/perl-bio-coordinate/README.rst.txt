@@ -8,6 +8,7 @@ perl-bio-coordinate
 
 .. conda:recipe:: perl-bio-coordinate
    :replaces_section_title:
+   :noindex:
 
    Methods for dealing with genomic coordinates.
 
@@ -22,9 +23,16 @@ perl-bio-coordinate
 
    |downloads_perl-bio-coordinate| |docker_perl-bio-coordinate|
 
-   :versions: 1.007001-1, 1.007001-0
+   :versions:
+      
+      
+
+      ``1.007001-1``,  ``1.007001-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl-core: 
    :depends perl-parent: 
    :depends perl-test-most: 

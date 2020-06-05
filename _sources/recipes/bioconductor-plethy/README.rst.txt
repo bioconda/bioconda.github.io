@@ -8,6 +8,7 @@ bioconductor-plethy
 
 .. conda:recipe:: bioconductor-plethy
    :replaces_section_title:
+   :noindex:
 
    R framework for exploration and analysis of respirometry data
 
@@ -23,20 +24,27 @@ bioconductor-plethy
 
    |downloads_bioconductor-plethy| |docker_bioconductor-plethy|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-streamer: >=1.34.0,<1.35.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dbi: >=0.5-1
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-streamer: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dbi: ``>=0.5-1``
    :depends r-ggplot2: 
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
-   :depends r-rsqlite: >=1.1
+   :depends r-rsqlite: ``>=1.1``
    :requirements:
 
    .. rubric:: Installation

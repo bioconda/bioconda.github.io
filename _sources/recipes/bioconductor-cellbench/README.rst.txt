@@ -8,6 +8,7 @@ bioconductor-cellbench
 
 .. conda:recipe:: bioconductor-cellbench
    :replaces_section_title:
+   :noindex:
 
    Construct Benchmarks for Single Cell Analysis Methods
 
@@ -22,18 +23,25 @@ bioconductor-cellbench
 
    |downloads_bioconductor-cellbench| |docker_bioconductor-cellbench|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-glue: 
    :depends r-lubridate: 
    :depends r-magrittr: 
    :depends r-memoise: 
-   :depends r-purrr: >=0.3.0
+   :depends r-purrr: ``>=0.3.0``
    :depends r-rappdirs: 
    :depends r-rlang: 
    :depends r-tibble: 

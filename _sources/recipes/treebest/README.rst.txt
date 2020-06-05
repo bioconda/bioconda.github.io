@@ -8,6 +8,7 @@ treebest
 
 .. conda:recipe:: treebest
    :replaces_section_title:
+   :noindex:
 
    TreeBeST\: Tree Building guided by Species Tree\, used in the Ensembl Compara pipeline.
 
@@ -22,10 +23,17 @@ treebest
 
    |downloads_treebest| |docker_treebest|
 
-   :versions: 1.9.2.post1-0, 1.9.2.post0-0, 1.9.2_ep78-2, 1.9.2_ep78-1, 1.9.2_ep78-0
+   :versions:
+      
+      
+
+      ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

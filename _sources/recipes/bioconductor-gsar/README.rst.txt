@@ -8,6 +8,7 @@ bioconductor-gsar
 
 .. conda:recipe:: bioconductor-gsar
    :replaces_section_title:
+   :noindex:
 
    Gene Set Analysis in R
 
@@ -22,10 +23,17 @@ bioconductor-gsar
 
    |downloads_bioconductor-gsar| |docker_bioconductor-gsar|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-igraph: >=0.7.1
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-igraph: ``>=0.7.1``
    :requirements:
 
    .. rubric:: Installation

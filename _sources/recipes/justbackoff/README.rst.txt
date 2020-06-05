@@ -8,6 +8,7 @@ justbackoff
 
 .. conda:recipe:: justbackoff
    :replaces_section_title:
+   :noindex:
 
    Simple backoff algorithm in Python
 
@@ -22,7 +23,14 @@ justbackoff
 
    |downloads_justbackoff| |docker_justbackoff|
 
-   :versions: 0.4.0-1, 0.4.0-0
+   :versions:
+      
+      
+
+      ``0.4.0-1``,  ``0.4.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

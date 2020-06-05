@@ -8,6 +8,7 @@ umis
 
 .. conda:recipe:: umis
    :replaces_section_title:
+   :noindex:
 
    Tools for processing UMI RNA\-tag data
 
@@ -22,14 +23,29 @@ umis
 
    |downloads_umis| |docker_umis|
 
-   :versions: 1.0.7-1, 1.0.7-0, 1.0.6-0, 1.0.4-1, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.9.0b-2, 0.9.0b-1, 0.9.0b-0, 0.9.0a-0, 0.7.0-1, 0.7.0a-1, 0.6.0a-2, 0.6.0a-1, 0.6.0a-0, 0.5.0a-3, 0.5.0a-2, 0.5.0a-1, 0.5.0a-0, 0.4.0a-0, 0.3.1a0-2, 0.3.1a0-1, 0.3.1a0-0, 0.2.2a0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-2</code>,  </span></summary>
+      
+
+      ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0b-2``,  ``0.9.0b-1``,  ``0.9.0b-0``,  ``0.9.0a-0``,  ``0.7.0-1``,  ``0.7.0a-1``,  ``0.6.0a-2``,  ``0.6.0a-1``,  ``0.6.0a-0``,  ``0.5.0a-3``,  ``0.5.0a-2``,  ``0.5.0a-1``,  ``0.5.0a-0``,  ``0.4.0a-0``,  ``0.3.1a0-2``,  ``0.3.1a0-1``,  ``0.3.1a0-0``,  ``0.2.2a0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends click: >=7.0
-   :depends libgcc-ng: >=7.3.0
+   :depends click: ``>=7.0``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends regex: 
    :depends scipy: 
    :depends setuptools: 

@@ -8,6 +8,7 @@ r-bcbiornaseq
 
 .. conda:recipe:: r-bcbiornaseq
    :replaces_section_title:
+   :noindex:
 
    R package for bcbio RNA\-seq analysis.
 
@@ -23,42 +24,57 @@ r-bcbiornaseq
 
    |downloads_r-bcbiornaseq| |docker_r-bcbiornaseq|
 
-   :versions: 0.3.33-1, 0.3.33-0, 0.3.32-0, 0.3.31-0, 0.3.30-0, 0.3.29-0, 0.3.28-0, 0.3.27-0, 0.3.26-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.4-0, 0.2.4a-0, 0.2.3a-0, 0.1.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.3.33-1</code>,  <code>0.3.33-0</code>,  <code>0.3.32-0</code>,  <code>0.3.31-0</code>,  <code>0.3.30-0</code>,  <code>0.3.29-0</code>,  <code>0.3.28-0</code>,  <code>0.3.27-0</code>,  <code>0.3.26-0</code>,  </span></summary>
+      
+
+      ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.32
-   :depends bioconductor-biocstyle: >=2.14
-   :depends bioconductor-clusterprofiler: >=3.14
-   :depends bioconductor-degreport: >=1.22
-   :depends bioconductor-deseq2: >=1.26
-   :depends bioconductor-dose: >=3.12
-   :depends bioconductor-edger: >=3.28
-   :depends bioconductor-ensdb.hsapiens.v75: >=2.99
-   :depends bioconductor-org.hs.eg.db: >=3.10
-   :depends bioconductor-org.mm.eg.db: >=3.10
-   :depends bioconductor-pathview: >=1.26
-   :depends bioconductor-rhdf5: >=2.30
-   :depends bioconductor-s4vectors: >=0.24
-   :depends bioconductor-summarizedexperiment: >=1.16
-   :depends bioconductor-tximport: >=1.14
-   :depends bioconductor-vsn: >=3.54
-   :depends r-acidgenerics: >=0.3.4
-   :depends r-acidplots: >=0.2.26
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-basejump: >=0.12.6
-   :depends r-bcbiobase: >=0.6.13
-   :depends r-cli: >=2.0
-   :depends r-cowplot: >=1.0
-   :depends r-deseqanalysis: >=0.2.19
-   :depends r-ggplot2: >=3.2
-   :depends r-goalie: >=0.4.2
-   :depends r-hexbin: >=1.28
-   :depends r-knitr: >=1.26
-   :depends r-rlang: >=0.4
-   :depends r-rmarkdown: >=2.0
-   :depends r-scales: >=1.1
-   :depends r-sessioninfo: >=1.1
-   :depends r-tidyverse: >=1.3
-   :depends r-viridis: >=0.5
+   :depends bioconductor-biocgenerics: ``>=0.32``
+   :depends bioconductor-biocstyle: ``>=2.14``
+   :depends bioconductor-clusterprofiler: ``>=3.14``
+   :depends bioconductor-degreport: ``>=1.22``
+   :depends bioconductor-deseq2: ``>=1.26``
+   :depends bioconductor-dose: ``>=3.12``
+   :depends bioconductor-edger: ``>=3.28``
+   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99``
+   :depends bioconductor-org.hs.eg.db: ``>=3.10``
+   :depends bioconductor-org.mm.eg.db: ``>=3.10``
+   :depends bioconductor-pathview: ``>=1.26``
+   :depends bioconductor-rhdf5: ``>=2.30``
+   :depends bioconductor-s4vectors: ``>=0.24``
+   :depends bioconductor-summarizedexperiment: ``>=1.16``
+   :depends bioconductor-tximport: ``>=1.14``
+   :depends bioconductor-vsn: ``>=3.54``
+   :depends r-acidgenerics: ``>=0.3.4``
+   :depends r-acidplots: ``>=0.2.26``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-basejump: ``>=0.12.6``
+   :depends r-bcbiobase: ``>=0.6.13``
+   :depends r-cli: ``>=2.0``
+   :depends r-cowplot: ``>=1.0``
+   :depends r-deseqanalysis: ``>=0.2.19``
+   :depends r-ggplot2: ``>=3.2``
+   :depends r-goalie: ``>=0.4.2``
+   :depends r-hexbin: ``>=1.28``
+   :depends r-knitr: ``>=1.26``
+   :depends r-rlang: ``>=0.4``
+   :depends r-rmarkdown: ``>=2.0``
+   :depends r-scales: ``>=1.1``
+   :depends r-sessioninfo: ``>=1.1``
+   :depends r-tidyverse: ``>=1.3``
+   :depends r-viridis: ``>=0.5``
    :requirements:
 
    .. rubric:: Installation

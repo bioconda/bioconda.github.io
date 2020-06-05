@@ -8,6 +8,7 @@ perl-term-app-roles
 
 .. conda:recipe:: perl-term-app-roles
    :replaces_section_title:
+   :noindex:
 
    Collection of roles for terminal\-based application
 
@@ -22,9 +23,16 @@ perl-term-app-roles
 
    |downloads_perl-term-app-roles| |docker_perl-term-app-roles|
 
-   :versions: 0.030-0, 0.02-0, 0.01-2, 0.01-0
+   :versions:
+      
+      
+
+      ``0.030-0``,  ``0.02-0``,  ``0.01-2``,  ``0.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-moo: 
    :depends perl-term-detect-software: 
    :requirements:

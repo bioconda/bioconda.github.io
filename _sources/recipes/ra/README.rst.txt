@@ -8,6 +8,7 @@ ra
 
 .. conda:recipe:: ra
    :replaces_section_title:
+   :noindex:
 
    Ra is short for RNA Assembler and it is a C\+\+ implementation of an overlap\-layout\-consensus transcriptome assembler.
 
@@ -22,10 +23,17 @@ ra
 
    |downloads_ra| |docker_ra|
 
-   :versions: 0.9-1, 0.9-0
+   :versions:
+      
+      
+
+      ``0.9-1``,  ``0.9-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

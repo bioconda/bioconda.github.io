@@ -8,6 +8,7 @@ ganon
 
 .. conda:recipe:: ganon
    :replaces_section_title:
+   :noindex:
 
    ganon\: a read classification tool using Interleaved Bloom Filters
 
@@ -25,16 +26,31 @@ ganon
 
    |downloads_ganon| |docker_ganon|
 
-   :versions: 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.1.5-1, 0.1.5-0, 0.1.4-0, 0.1.3-1, 0.1.3-0, 0.1.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.5-1</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-1</code>,  <code>0.1.3-0</code>,  </span></summary>
+      
+
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends coreutils: 
    :depends gawk: 
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends pandas: >=1.0.0
-   :depends python: >=3.4
-   :depends taxsbp: 0.1.2
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends pandas: ``>=1.0.0``
+   :depends python: ``>=3.4``
+   :depends taxsbp: ``0.1.2``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ r-metama
 
 .. conda:recipe:: r-metama
    :replaces_section_title:
+   :noindex:
 
    Combines either p\-values or modified effect sizes from different studies to find differentially expressed genes
 
@@ -22,10 +23,17 @@ r-metama
 
    |downloads_r-metama| |docker_r-metama|
 
-   :versions: 3.1.2-5, 3.1.2-4, 3.1.2-3, 3.1.2-2, 3.1.2-0
+   :versions:
+      
+      
+
+      ``3.1.2-5``,  ``3.1.2-4``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-0``
+
+      
+
    
    :depends bioconductor-limma: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-smvar: 
    :requirements:
 

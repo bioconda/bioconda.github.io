@@ -8,6 +8,7 @@ spectrum_utils
 
 .. conda:recipe:: spectrum_utils
    :replaces_section_title:
+   :noindex:
 
    Mass spectrometry utility functions
 
@@ -24,15 +25,22 @@ spectrum_utils
 
    |downloads_spectrum_utils| |docker_spectrum_utils|
 
-   :versions: 0.3.3-0, 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
    :depends altair: 
    :depends matplotlib: 
-   :depends numba: >=0.47
+   :depends numba: ``>=0.47``
    :depends numpy: 
    :depends pandas: 
    :depends pyteomics: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends rdkit: 
    :requirements:
 

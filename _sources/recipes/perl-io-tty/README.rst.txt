@@ -8,6 +8,7 @@ perl-io-tty
 
 .. conda:recipe:: perl-io-tty
    :replaces_section_title:
+   :noindex:
 
    Pseudo ttys and constants
 
@@ -22,9 +23,16 @@ perl-io-tty
 
    |downloads_perl-io-tty| |docker_perl-io-tty|
 
-   :versions: 1.12-1, 1.12-0
+   :versions:
+      
+      
+
+      ``1.12-1``,  ``1.12-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

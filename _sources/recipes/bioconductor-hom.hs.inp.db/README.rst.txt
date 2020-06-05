@@ -8,6 +8,7 @@ bioconductor-hom.hs.inp.db
 
 .. conda:recipe:: bioconductor-hom.hs.inp.db
    :replaces_section_title:
+   :noindex:
 
    Homology information for Homo Sapiens from Inparanoid
 
@@ -22,11 +23,18 @@ bioconductor-hom.hs.inp.db
 
    |downloads_bioconductor-hom.hs.inp.db| |docker_bioconductor-hom.hs.inp.db|
 
-   :versions: 3.1.3-0, 3.1.2-8, 3.1.2-7, 3.1.2-5, 3.1.2-4, 3.1.2-2, 3.1.2-1, 3.1.2-0
+   :versions:
+      
+      
+
+      ``3.1.3-0``,  ``3.1.2-8``,  ``3.1.2-7``,  ``3.1.2-5``,  ``3.1.2-4``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.2-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

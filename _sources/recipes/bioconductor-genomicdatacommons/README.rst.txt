@@ -8,6 +8,7 @@ bioconductor-genomicdatacommons
 
 .. conda:recipe:: bioconductor-genomicdatacommons
    :replaces_section_title:
+   :noindex:
 
    NIH \/ NCI Genomic Data Commons Access
 
@@ -22,13 +23,20 @@ bioconductor-genomicdatacommons
 
    |downloads_bioconductor-genomicdatacommons| |docker_bioconductor-genomicdatacommons|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0, 1.4.3-0, 1.2.0-0, 1.0.5-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.2.0-0``,  ``1.0.5-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-httr: 
    :depends r-jsonlite: 

@@ -8,6 +8,7 @@ reago
 
 .. conda:recipe:: reago
    :replaces_section_title:
+   :noindex:
 
    An assembly tool for 16S ribosomal RNA recovery from metagenomic data
 
@@ -22,12 +23,19 @@ reago
 
    |downloads_reago| |docker_reago|
 
-   :versions: 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``
+
+      
+
    
    :depends genometools-genometools: 
-   :depends infernal: ==1.1.1
+   :depends infernal: ``==1.1.1``
    :depends networkx: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

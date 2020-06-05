@@ -8,6 +8,7 @@ perl-ipc-run3
 
 .. conda:recipe:: perl-ipc-run3
    :replaces_section_title:
+   :noindex:
 
    run a subprocess with input\/ouput redirection
 
@@ -22,9 +23,16 @@ perl-ipc-run3
 
    |downloads_perl-ipc-run3| |docker_perl-ipc-run3|
 
-   :versions: 0.048-0
+   :versions:
+      
+      
+
+      ``0.048-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-time-hires: 
    :requirements:
 

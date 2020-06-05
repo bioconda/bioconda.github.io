@@ -8,6 +8,7 @@ pisces
 
 .. conda:recipe:: pisces
    :replaces_section_title:
+   :noindex:
 
    Somatic and germline variant caller for amplicon data. Recommended caller for tumor\-only workflows.
 
@@ -22,7 +23,14 @@ pisces
 
    |downloads_pisces| |docker_pisces|
 
-   :versions: 5.2.10.49-0, 5.2.9.122-0, 5.2.7.47-2, 5.2.7.47-1, 5.2.7.47-0
+   :versions:
+      
+      
+
+      ``5.2.10.49-0``,  ``5.2.9.122-0``,  ``5.2.7.47-2``,  ``5.2.7.47-1``,  ``5.2.7.47-0``
+
+      
+
    
    :requirements:
 

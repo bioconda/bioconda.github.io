@@ -8,6 +8,7 @@ blastbesties
 
 .. conda:recipe:: blastbesties
    :replaces_section_title:
+   :noindex:
 
    Rapid discovery of reciprocal best blast pairs from BLAST output files.
 
@@ -22,7 +23,14 @@ blastbesties
 
    |downloads_blastbesties| |docker_blastbesties|
 
-   :versions: 1.1.1-2, 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-2``,  ``1.1.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

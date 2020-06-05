@@ -8,6 +8,7 @@ bioconductor-nucpos
 
 .. conda:recipe:: bioconductor-nucpos
    :replaces_section_title:
+   :noindex:
 
    An R package for prediction of nucleosome positions
 
@@ -22,13 +23,20 @@ bioconductor-nucpos
 
    |downloads_bioconductor-nucpos| |docker_bioconductor-nucpos|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-2, 1.2.0-1, 1.2.0-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

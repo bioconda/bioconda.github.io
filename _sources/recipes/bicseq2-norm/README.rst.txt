@@ -8,6 +8,7 @@ bicseq2-norm
 
 .. conda:recipe:: bicseq2-norm
    :replaces_section_title:
+   :noindex:
 
    BICseq2\-norm is for normalizing potential biases in the sequencing data.
 
@@ -23,9 +24,16 @@ bicseq2-norm
 
    |downloads_bicseq2-norm| |docker_bicseq2-norm|
 
-   :versions: 0.2.4-0
+   :versions:
+      
+      
+
+      ``0.2.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends perl: 
    :depends r-base: 
    :requirements:

@@ -8,6 +8,7 @@ hmftools-linx
 
 .. conda:recipe:: hmftools-linx
    :replaces_section_title:
+   :noindex:
 
    LINX is an annotation\, interpretation and visualisation tool for structural variants
 
@@ -22,12 +23,19 @@ hmftools-linx
 
    |downloads_hmftools-linx| |docker_hmftools-linx|
 
-   :versions: 1.7-0, 1.6-0, 1.5-0, 1.4-0
+   :versions:
+      
+      
+
+      ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
+
+      
+
    
    :depends bioconductor-gviz: 
-   :depends circos: >=0.69.6
-   :depends openjdk: >=8
-   :depends r-base: 3.6.*
+   :depends circos: ``>=0.69.6``
+   :depends openjdk: ``>=8``
+   :depends r-base: ``3.6.*``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

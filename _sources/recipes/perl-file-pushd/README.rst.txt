@@ -8,6 +8,7 @@ perl-file-pushd
 
 .. conda:recipe:: perl-file-pushd
    :replaces_section_title:
+   :noindex:
 
    change directory temporarily for a limited scope
 
@@ -22,9 +23,16 @@ perl-file-pushd
 
    |downloads_perl-file-pushd| |docker_perl-file-pushd|
 
-   :versions: 1.016-1, 1.016-0
+   :versions:
+      
+      
+
+      ``1.016-1``,  ``1.016-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-file-path: 

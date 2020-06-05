@@ -8,6 +8,7 @@ perl-ipc-run
 
 .. conda:recipe:: perl-ipc-run
    :replaces_section_title:
+   :noindex:
 
    system\(\) and background procs w\/ piping\, redirs\, ptys \(Unix\, Win32\)
 
@@ -22,9 +23,16 @@ perl-ipc-run
 
    |downloads_perl-ipc-run| |docker_perl-ipc-run|
 
-   :versions: 20180523.0-0, 0.94-1, 0.94-0
+   :versions:
+      
+      
+
+      ``20180523.0-0``,  ``0.94-1``,  ``0.94-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-io-tty: 
    :requirements:
 

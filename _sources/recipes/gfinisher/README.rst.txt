@@ -8,6 +8,7 @@ gfinisher
 
 .. conda:recipe:: gfinisher
    :replaces_section_title:
+   :noindex:
 
    GFinisher is an application tools for refinement and finalization of prokaryotic genomes assemblies using the bias of GC Skew to identify assembly errors and organizes the contigs\/scaffolds with genomes references.
 
@@ -22,10 +23,17 @@ gfinisher
 
    |downloads_gfinisher| |docker_gfinisher|
 
-   :versions: 1.4-0
+   :versions:
+      
+      
+
+      ``1.4-0``
+
+      
+
    
-   :depends java-jdk: >=6
-   :depends python: 2.7*
+   :depends java-jdk: ``>=6``
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-rnits
 
 .. conda:recipe:: bioconductor-rnits
    :replaces_section_title:
+   :noindex:
 
    R Normalization and Inference of Time Series data
 
@@ -23,14 +24,21 @@ bioconductor-rnits
 
    |downloads_bioconductor-rnits| |docker_bioconductor-rnits|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.11.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-impute: >=1.62.0,<1.63.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-boot: 
    :depends r-ggplot2: 
    :depends r-reshape2: 

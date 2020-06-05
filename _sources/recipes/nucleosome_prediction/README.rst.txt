@@ -8,6 +8,7 @@ nucleosome_prediction
 
 .. conda:recipe:: nucleosome_prediction
    :replaces_section_title:
+   :noindex:
 
    This tool allows you to submit a genomic sequence and to recieve a prediction of the nucleosomes positions on it\,
 
@@ -22,11 +23,18 @@ nucleosome_prediction
 
    |downloads_nucleosome_prediction| |docker_nucleosome_prediction|
 
-   :versions: 3.0-0
+   :versions:
+      
+      
+
+      ``3.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

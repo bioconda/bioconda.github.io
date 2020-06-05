@@ -8,6 +8,7 @@ scnic
 
 .. conda:recipe:: scnic
    :replaces_section_title:
+   :noindex:
 
    SCNIC\: Sparse Cooccurence Network Investigation for Compositional data
 
@@ -22,16 +23,23 @@ scnic
 
    |downloads_scnic| |docker_scnic|
 
-   :versions: 0.6.1-0, 0.6.0-0, 0.5.3-0, 0.5.1-0
+   :versions:
+      
+      
+
+      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.1-0``
+
+      
+
    
    :depends biom-format: 
    :depends fastspar: 
    :depends h5py: 
    :depends matplotlib: 
-   :depends networkx: >2
+   :depends networkx: ``>2``
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends scikit-bio: 
    :depends scipy: 
    :depends seaborn: 

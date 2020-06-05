@@ -8,6 +8,7 @@ ncbitk
 
 .. conda:recipe:: ncbitk
    :replaces_section_title:
+   :noindex:
 
    A tool kit for accessing NCBI\'s GenBank
 
@@ -22,16 +23,23 @@ ncbitk
 
    |downloads_ncbitk| |docker_ncbitk|
 
-   :versions: 1.0a17-0
+   :versions:
+      
+      
+
+      ``1.0a17-0``
+
+      
+
    
-   :depends biopython: >=1.68
+   :depends biopython: ``>=1.68``
    :depends click: 
-   :depends numpy: >=1.12.0
-   :depends pandas: >=0.19.2
-   :depends python: >=3
-   :depends python-dateutil: >=2.6.0
-   :depends pytz: >=2016.10
-   :depends six: >=1.10.0
+   :depends numpy: ``>=1.12.0``
+   :depends pandas: ``>=0.19.2``
+   :depends python: ``>=3``
+   :depends python-dateutil: ``>=2.6.0``
+   :depends pytz: ``>=2016.10``
+   :depends six: ``>=1.10.0``
    :requirements:
 
    .. rubric:: Installation

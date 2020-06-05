@@ -8,6 +8,7 @@ perl-types-serialiser
 
 .. conda:recipe:: perl-types-serialiser
    :replaces_section_title:
+   :noindex:
 
    Simple data types for common serialisation formats
 
@@ -22,9 +23,16 @@ perl-types-serialiser
 
    |downloads_perl-types-serialiser| |docker_perl-types-serialiser|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-common-sense: 
    :requirements:
 

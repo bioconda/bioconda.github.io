@@ -8,6 +8,7 @@ metacherchant
 
 .. conda:recipe:: metacherchant
    :replaces_section_title:
+   :noindex:
 
    genomic environment analysis tool
 
@@ -22,9 +23,16 @@ metacherchant
 
    |downloads_metacherchant| |docker_metacherchant|
 
-   :versions: 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
-   :depends openjdk: >=7.0
+   :depends openjdk: ``>=7.0``
    :requirements:
 
    .. rubric:: Installation

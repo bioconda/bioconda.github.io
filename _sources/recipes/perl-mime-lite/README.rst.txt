@@ -8,6 +8,7 @@ perl-mime-lite
 
 .. conda:recipe:: perl-mime-lite
    :replaces_section_title:
+   :noindex:
 
    Handy\-dandy MIME mailing class
 
@@ -22,9 +23,16 @@ perl-mime-lite
 
    |downloads_perl-mime-lite| |docker_perl-mime-lite|
 
-   :versions: 3.030-1, 3.030-0
+   :versions:
+      
+      
+
+      ``3.030-1``,  ``3.030-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-email-date-format: 
    :depends perl-mailtools: 
    :depends perl-mime-types: 

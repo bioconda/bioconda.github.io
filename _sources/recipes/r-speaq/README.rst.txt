@@ -8,6 +8,7 @@ r-speaq
 
 .. conda:recipe:: r-speaq
    :replaces_section_title:
+   :noindex:
 
    Makes Nuclear Magnetic Resonance spectroscopy \(NMR spectroscopy\) data analysis as easy as possible by only requiring a small set of functions to perform an entire analysis. \'speaq\' offers the possibility of raw spectra alignment and quantitation but also an analysis based on features whereby the spectra are converted to peaks which are then grouped and turned into features. These features can be processed with any number of statistical tools either included in \'speaq\' or available elsewhere on CRAN. More detail can be found in Vu et al. \(2011\) \<doi\:10.1186\/1471\-2105\-12\-405\> and Beirnaert et al. \(2018\) \<doi\:10.1371\/journal.pcbi.1006018\>. 
 
@@ -22,11 +23,18 @@ r-speaq
 
    |downloads_r-speaq| |docker_r-speaq|
 
-   :versions: 2.6.1-1, 2.6.1-0, 2.6.0-0, 2.3.3-1, 2.3.3-0, 2.1.0-0, 1.2.3-0, 1.2.1-1, 1.2.1-0
+   :versions:
+      
+      
+
+      ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.1.0-0``,  ``1.2.3-0``,  ``1.2.1-1``,  ``1.2.1-0``
+
+      
+
    
    :depends bioconductor-impute: 
    :depends bioconductor-massspecwavelet: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-data.table: 
    :depends r-dosnow: 

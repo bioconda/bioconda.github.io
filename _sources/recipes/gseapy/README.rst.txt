@@ -8,6 +8,7 @@ gseapy
 
 .. conda:recipe:: gseapy
    :replaces_section_title:
+   :noindex:
 
    Gene Set Enrichment Analysis in Python
 
@@ -22,17 +23,32 @@ gseapy
 
    |downloads_gseapy| |docker_gseapy|
 
-   :versions: 0.9.18-0, 0.9.17-0, 0.9.16-0, 0.9.15-0, 0.9.13-0, 0.9.9-0, 0.9.8-0, 0.9.7-0, 0.9.5-1, 0.9.3-1, 0.9.3-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.11-0, 0.8.6-0, 0.8.3-0, 0.8.2-0, 0.7.4-3, 0.7.4-0, 0.7.3-0, 0.7.2-0, 0.6.2-0, 0.6.0-0, 0.5.3-0, 0.5.2a0-0, 0.4.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.9.18-0</code>,  <code>0.9.17-0</code>,  <code>0.9.16-0</code>,  <code>0.9.15-0</code>,  <code>0.9.13-0</code>,  <code>0.9.9-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-0</code>,  <code>0.9.5-1</code>,  </span></summary>
+      
+
+      ``0.9.18-0``,  ``0.9.17-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.13-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.5-1``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.11-0``,  ``0.8.6-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.7.4-3``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.6.2-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2a0-0``,  ``0.4.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends beautifulsoup4: >=4.4.1
+   :depends beautifulsoup4: ``>=4.4.1``
    :depends bioservices: 
    :depends html5lib: 
    :depends joblib: 
    :depends lxml: 
-   :depends matplotlib-base: >=1.4.3
-   :depends numpy: >=1.13.0
-   :depends pandas: >=0.16
-   :depends python: >3
+   :depends matplotlib-base: ``>=1.4.3``
+   :depends numpy: ``>=1.13.0``
+   :depends pandas: ``>=0.16``
+   :depends python: ``>3``
    :depends requests: 
    :depends scipy: 
    :requirements:

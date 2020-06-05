@@ -8,6 +8,7 @@ booster
 
 .. conda:recipe:: booster
    :replaces_section_title:
+   :noindex:
 
    BOOSTER is a new way of computing bootstrap supports in large phylogenies.
 
@@ -22,9 +23,16 @@ booster
 
    |downloads_booster| |docker_booster|
 
-   :versions: 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

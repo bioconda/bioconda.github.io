@@ -8,6 +8,7 @@ bioconductor-geneselectmmd
 
 .. conda:recipe:: bioconductor-geneselectmmd
    :replaces_section_title:
+   :noindex:
 
    Gene selection based on the marginal distributions of gene profiles that characterized by a mixture of three\-component multivariate distributions
 
@@ -22,15 +23,22 @@ bioconductor-geneselectmmd
 
    |downloads_bioconductor-geneselectmmd| |docker_bioconductor-geneselectmmd|
 
-   :versions: 2.32.0-0, 2.30.0-0, 2.28.0-1, 2.26.0-1, 2.26.0-0
+   :versions:
+      
+      
+
+      ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.26.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :requirements:
 

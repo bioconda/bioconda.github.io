@@ -8,6 +8,7 @@ pyani
 
 .. conda:recipe:: pyani
    :replaces_section_title:
+   :noindex:
 
    pyani provides a package and script for calculation of genome\-scale average nucleotide identity.
 
@@ -22,7 +23,14 @@ pyani
 
    |downloads_pyani| |docker_pyani|
 
-   :versions: 0.2.10-0, 0.2.9-0, 0.2.7-1, 0.2.7-0, 0.2.3-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.3-0``,  ``0.2.0-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
@@ -31,7 +39,7 @@ pyani
    :depends mummer: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >3
+   :depends python: ``>3``
    :depends scipy: 
    :depends seaborn: 
    :requirements:

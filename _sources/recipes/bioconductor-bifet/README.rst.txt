@@ -8,6 +8,7 @@ bioconductor-bifet
 
 .. conda:recipe:: bioconductor-bifet
    :replaces_section_title:
+   :noindex:
 
    Bias\-free Footprint Enrichment Test
 
@@ -22,10 +23,17 @@ bioconductor-bifet
 
    |downloads_bioconductor-bifet| |docker_bioconductor-bifet|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-poibin: 
    :requirements:
 

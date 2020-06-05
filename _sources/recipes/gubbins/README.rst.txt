@@ -8,6 +8,7 @@ gubbins
 
 .. conda:recipe:: gubbins
    :replaces_section_title:
+   :noindex:
 
    Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins.
 
@@ -22,17 +23,32 @@ gubbins
 
    |downloads_gubbins| |docker_gubbins|
 
-   :versions: 2.4.1-0, 2.4.0-0, 2.3.5-0, 2.3.4-2, 2.3.4-1, 2.3.4-0, 2.3.2-0, 2.3.1-2, 2.3.1-1, 2.3.1-0, 2.2.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  </span></summary>
+      
+
+      ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: >=1.59
-   :depends dendropy: >=4.0.2
+   :depends biopython: ``>=1.59``
+   :depends dendropy: ``>=4.0.2``
    :depends fasttree: 
-   :depends libgcc-ng: >=7.3.0
-   :depends nose: >=1.3
-   :depends python: >=3.6,<3.7.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends nose: ``>=1.3``
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends raxml: 
-   :depends reportlab: >=3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends reportlab: ``>=3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

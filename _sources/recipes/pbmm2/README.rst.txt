@@ -8,6 +8,7 @@ pbmm2
 
 .. conda:recipe:: pbmm2
    :replaces_section_title:
+   :noindex:
 
    A minimap2 frontend for PacBio native data formats
 
@@ -22,12 +23,27 @@ pbmm2
 
    |downloads_pbmm2| |docker_pbmm2|
 
-   :versions: 1.3.0-1, 1.3.0-0, 1.2.1-0, 1.1.0-0, 1.0.0-0, 0.12.0-0, 0.11.0-0, 0.10.1-1, 0.10.1-0, 0.10.0-0, 0.9.0-0, 0.8.1-0, 0.7.0-0, 0.6.0-0, 0.5.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  </span></summary>
+      
+
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

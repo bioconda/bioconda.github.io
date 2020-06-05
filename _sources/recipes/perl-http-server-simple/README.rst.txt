@@ -8,6 +8,7 @@ perl-http-server-simple
 
 .. conda:recipe:: perl-http-server-simple
    :replaces_section_title:
+   :noindex:
 
    Lightweight HTTP server
 
@@ -22,9 +23,16 @@ perl-http-server-simple
 
    |downloads_perl-http-server-simple| |docker_perl-http-server-simple|
 
-   :versions: 0.52-2, 0.52-1, 0.52-0
+   :versions:
+      
+      
+
+      ``0.52-2``,  ``0.52-1``,  ``0.52-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-cgi: 
    :depends perl-socket: 
    :requirements:

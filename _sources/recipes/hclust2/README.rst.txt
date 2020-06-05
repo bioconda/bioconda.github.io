@@ -8,6 +8,7 @@ hclust2
 
 .. conda:recipe:: hclust2
    :replaces_section_title:
+   :noindex:
 
    hclust2 is a handy tool for plotting heat\-maps
 
@@ -22,13 +23,20 @@ hclust2
 
    |downloads_hclust2| |docker_hclust2|
 
-   :versions: 0.99-3, 0.99-2, 0.99-1, 0.99-0, 0.98.3d589ab-1, 0.98.3d589ab-0
+   :versions:
+      
+      
+
+      ``0.99-3``,  ``0.99-2``,  ``0.99-1``,  ``0.99-0``,  ``0.98.3d589ab-1``,  ``0.98.3d589ab-0``
+
+      
+
    
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: <3
-   :depends scipy: 0.18.1
+   :depends python: ``<3``
+   :depends scipy: ``0.18.1``
    :requirements:
 
    .. rubric:: Installation

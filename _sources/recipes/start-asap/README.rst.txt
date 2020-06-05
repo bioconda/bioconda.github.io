@@ -8,6 +8,7 @@ start-asap
 
 .. conda:recipe:: start-asap
    :replaces_section_title:
+   :noindex:
 
    Prepare project directory and project sheet for ASA3P
 
@@ -26,7 +27,14 @@ start-asap
 
    |downloads_start-asap| |docker_start-asap|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
    :depends perl: 
    :depends perl-getopt-long: 

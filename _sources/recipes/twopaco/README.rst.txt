@@ -8,6 +8,7 @@ twopaco
 
 .. conda:recipe:: twopaco
    :replaces_section_title:
+   :noindex:
 
    A fast constructor of the compressed de Bruijn graph from many genomes.
 
@@ -22,11 +23,18 @@ twopaco
 
    |downloads_twopaco| |docker_twopaco|
 
-   :versions: 0.9.2-2, 0.9.2-0
+   :versions:
+      
+      
+
+      ``0.9.2-2``,  ``0.9.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends tbb: >=2019.1
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends tbb: ``>=2019.1``
    :requirements:
 
    .. rubric:: Installation

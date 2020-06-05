@@ -8,6 +8,7 @@ bioconductor-ffpe
 
 .. conda:recipe:: bioconductor-ffpe
    :replaces_section_title:
+   :noindex:
 
    Quality assessment and control for FFPE microarray expression data
 
@@ -23,14 +24,21 @@ bioconductor-ffpe
 
    |downloads_bioconductor-ffpe| |docker_bioconductor-ffpe|
 
-   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-lumi: >=2.40.0,<2.41.0
-   :depends bioconductor-methylumi: >=2.34.0,<2.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-lumi: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-methylumi: ``>=2.34.0,<2.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-sfsmisc: 
    :depends r-ttr: 
    :requirements:

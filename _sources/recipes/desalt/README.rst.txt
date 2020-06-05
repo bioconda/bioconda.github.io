@@ -8,6 +8,7 @@ desalt
 
 .. conda:recipe:: desalt
    :replaces_section_title:
+   :noindex:
 
    De Bruijn graph\-based Spliced Aligner for Long Transcriptome reads
 
@@ -22,10 +23,17 @@ desalt
 
    |downloads_desalt| |docker_desalt|
 
-   :versions: 1.5.4-0, 1.5.3-0, 1.5.2-0, 1.5.1-0, 1.5-0, 1.4-1, 1.4-0, 1.3-0
+   :versions:
+      
+      
+
+      ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

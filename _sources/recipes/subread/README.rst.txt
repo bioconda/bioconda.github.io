@@ -8,6 +8,7 @@ subread
 
 .. conda:recipe:: subread
    :replaces_section_title:
+   :noindex:
 
    High\-performance read alignment\, quantification\, and mutation discovery
 
@@ -23,10 +24,25 @@ subread
 
    |downloads_subread| |docker_subread|
 
-   :versions: 2.0.1-0, 2.0.0-0, 1.6.4-1, 1.6.3-1, 1.6.3-0, 1.6.2-0, 1.6.1-1, 1.6.1-0, 1.6.0-2, 1.6.0-1, 1.6.0-0, 1.5.3-1, 1.5.3-0, 1.5.2-0, 1.5.0.post3-0, 1.5.0-0, 1.5.0p3-0, 1.4.6p5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.6.4-1</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-2</code>,  </span></summary>
+      
+
+      ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.4-1``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.0.post3-0``,  ``1.5.0-0``,  ``1.5.0p3-0``,  ``1.4.6p5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ flowcraft
 
 .. conda:recipe:: flowcraft
    :replaces_section_title:
+   :noindex:
 
    A Nextflow pipeline assembler for genomics. Pick your modules. Assemble them. Run the pipeline.
 
@@ -25,12 +26,27 @@ flowcraft
 
    |downloads_flowcraft| |docker_flowcraft|
 
-   :versions: 1.4.1-2, 1.4.1-1, 1.4.0-1, 1.4.0-0, 1.3.1-1, 1.3.0-1, 1.2.2-1, 1.2.1-1, 1.2.0.post1-1, 1.2.0.post1-0, 1.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.1-1</code>,  <code>1.3.0-1</code>,  <code>1.2.2-1</code>,  <code>1.2.1-1</code>,  <code>1.2.0.post1-1</code>,  </span></summary>
+      
+
+      ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-1``,  ``1.3.0-1``,  ``1.2.2-1``,  ``1.2.1-1``,  ``1.2.0.post1-1``,  ``1.2.0.post1-0``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends jinja2: 
-   :depends nextflow: >=0.28
+   :depends nextflow: ``>=0.28``
    :depends pympler: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends python-dateutil: 
    :depends requests: 
    :requirements:

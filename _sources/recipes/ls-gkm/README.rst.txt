@@ -8,6 +8,7 @@ ls-gkm
 
 .. conda:recipe:: ls-gkm
    :replaces_section_title:
+   :noindex:
 
    gkm\-SVM\, a sequence\-based method for predicting regulatory DNA elements\, is a useful tool for studying gene regulatory mechanisms. In continuous efforts to improve the method\, new software\, LS\-GKM\, is introduced. It offers much better scalability and provides further advanced gapped k\-mer based kernel functions. As a result\, LS\-GKM achieves considerably higher accuracy than the original gkm\-SVM.
 
@@ -22,9 +23,16 @@ ls-gkm
 
    |downloads_ls-gkm| |docker_ls-gkm|
 
-   :versions: 0.0.1-1, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-1``,  ``0.0.1-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

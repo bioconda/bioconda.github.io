@@ -8,6 +8,7 @@ bioconductor-subcellbarcode
 
 .. conda:recipe:: bioconductor-subcellbarcode
    :replaces_section_title:
+   :noindex:
 
    SubCellBarCode\: Integrated workflow for robust mapping and visualizing whole human spatial proteome
 
@@ -22,11 +23,18 @@ bioconductor-subcellbarcode
 
    |downloads_bioconductor-subcellbarcode| |docker_bioconductor-subcellbarcode|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-caret: 
    :depends r-e1071: 
    :depends r-ggplot2: 

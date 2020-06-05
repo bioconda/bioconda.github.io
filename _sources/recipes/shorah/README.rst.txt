@@ -8,6 +8,7 @@ shorah
 
 .. conda:recipe:: shorah/1.99.0
    :replaces_section_title:
+   :noindex:
 
    The Short Reads Assembly into Haplotypes \(ShoRAH\) program for inferring viral haplotypes from NGS data
 
@@ -23,19 +24,34 @@ shorah
 
    |downloads_shorah| |docker_shorah|
 
-   :versions: 1.99.0-0, 1.1.3-5, 1.1.3-4, 1.1.3-2, 1.1.3-1, 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.99.0-0</code>,  <code>1.1.3-5</code>,  <code>1.1.3-4</code>,  <code>1.1.3-2</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-2</code>,  </span></summary>
+      
+
+      ``1.99.0-0``,  ``1.1.3-5``,  ``1.1.3-4``,  ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
-   :depends blas: 1.1 openblas
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends blas: ``1.1 openblas``
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends setuptools: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

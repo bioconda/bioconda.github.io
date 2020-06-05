@@ -8,6 +8,7 @@ hivtrace
 
 .. conda:recipe:: hivtrace
    :replaces_section_title:
+   :noindex:
 
    HIV TRACE is an application that identifies potential transmission clusters within a supplied FASTA file with an option to find potential links against the Los Alamos HIV Sequence Database.
 
@@ -22,15 +23,22 @@ hivtrace
 
    |downloads_hivtrace| |docker_hivtrace|
 
-   :versions: 1.5.0-0, 0.5.0-0, 0.1.6-0
+   :versions:
+      
+      
+
+      ``1.5.0-0``,  ``0.5.0-0``,  ``0.1.6-0``
+
+      
+
    
-   :depends biopython: >=1.58
-   :depends python: >=3
-   :depends python-bioext: >=0.19.7
+   :depends biopython: ``>=1.58``
+   :depends python: ``>=3``
+   :depends python-bioext: ``>=0.19.7``
    :depends python-hivclustering: 
-   :depends python-hppy: >=0.9.8
-   :depends python-hyphy-python: >=0.1.6
-   :depends tornado: >=4.3
+   :depends python-hppy: ``>=0.9.8``
+   :depends python-hyphy-python: ``>=0.1.6``
+   :depends tornado: ``>=4.3``
    :requirements:
 
    .. rubric:: Installation

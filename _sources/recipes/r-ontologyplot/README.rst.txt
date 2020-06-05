@@ -8,6 +8,7 @@ r-ontologyplot
 
 .. conda:recipe:: r-ontologyplot
    :replaces_section_title:
+   :noindex:
 
    Functions for visualising sets of ontological terms using the \'graphviz\' layout system.
 
@@ -22,10 +23,17 @@ r-ontologyplot
 
    |downloads_r-ontologyplot| |docker_r-ontologyplot|
 
-   :versions: 1.4-1, 1.4-0
+   :versions:
+      
+      
+
+      ``1.4-1``,  ``1.4-0``
+
+      
+
    
    :depends bioconductor-rgraphviz: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ontologyindex: 
    :depends r-paintmap: 
    :requirements:

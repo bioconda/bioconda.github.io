@@ -8,6 +8,7 @@ kmergenie
 
 .. conda:recipe:: kmergenie
    :replaces_section_title:
+   :noindex:
 
    KmerGenie estimates the best k\-mer length for genome de novo assembly
 
@@ -23,12 +24,19 @@ kmergenie
 
    |downloads_kmergenie| |docker_kmergenie|
 
-   :versions: 1.7016-4, 1.7016-3, 1.7016-2, 1.7016-1, 1.7016-0
+   :versions:
+      
+      
+
+      ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends python: >=2.7,<2.8.0a0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

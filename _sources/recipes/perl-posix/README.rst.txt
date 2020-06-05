@@ -8,6 +8,7 @@ perl-posix
 
 .. conda:recipe:: perl-posix/1.38_03
    :replaces_section_title:
+   :noindex:
 
    
 
@@ -22,9 +23,16 @@ perl-posix
 
    |downloads_perl-posix| |docker_perl-posix|
 
-   :versions: 1.38_03-1, 1.38_03-0
+   :versions:
+      
+      
+
+      ``1.38_03-1``,  ``1.38_03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

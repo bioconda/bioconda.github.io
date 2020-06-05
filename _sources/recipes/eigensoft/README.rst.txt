@@ -8,6 +8,7 @@ eigensoft
 
 .. conda:recipe:: eigensoft
    :replaces_section_title:
+   :noindex:
 
    The EIGENSOFT package implements methods for analzing population structure and performing stratification correction
 
@@ -23,11 +24,18 @@ eigensoft
 
    |downloads_eigensoft| |docker_eigensoft|
 
-   :versions: 7.2.1-0, 6.0.1-3, 6.0.1-1, 6.0.1-0
+   :versions:
+      
+      
+
+      ``7.2.1-0``,  ``6.0.1-3``,  ``6.0.1-1``,  ``6.0.1-0``
+
+      
+
    
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libgcc-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libgcc-ng: ``>=4.9``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :depends perl: 
    :requirements:
 

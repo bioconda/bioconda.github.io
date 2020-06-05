@@ -8,6 +8,7 @@ gtdbtk
 
 .. conda:recipe:: gtdbtk
    :replaces_section_title:
+   :noindex:
 
    A toolkit for assigning objective taxonomic classifications to bacterial and archaeal genomes.
 
@@ -23,17 +24,32 @@ gtdbtk
 
    |downloads_gtdbtk| |docker_gtdbtk|
 
-   :versions: 1.2.0-0, 1.1.1-0, 1.1.0-0, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0, 1.0.1-1, 1.0.1-0, 1.0.0-0, 0.3.3-0, 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.3.1-0, 0.3.0-1, 0.3.0-0, 0.2.2-0, 0.1.6-0, 0.1.5-0, 0.1.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-3</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
+
+      ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends dendropy: >=4.1.0
-   :depends fastani: >=1.2
-   :depends fasttree: >=2.1.9
-   :depends hmmer: 3.1b2
-   :depends mash: >=2.0
-   :depends numpy: >=1.9.0
-   :depends pplacer: >=1.1.alpha17
-   :depends prodigal: >=2.6.2
-   :depends python: >=3.6
+   :depends dendropy: ``>=4.1.0``
+   :depends fastani: ``>=1.2``
+   :depends fasttree: ``>=2.1.9``
+   :depends hmmer: ``3.1b2``
+   :depends mash: ``>=2.0``
+   :depends numpy: ``>=1.9.0``
+   :depends pplacer: ``>=1.1.alpha17``
+   :depends prodigal: ``>=2.6.2``
+   :depends python: ``>=3.6``
    :depends tqdm: 
    :requirements:
 

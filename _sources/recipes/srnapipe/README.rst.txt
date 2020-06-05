@@ -8,6 +8,7 @@ srnapipe
 
 .. conda:recipe:: srnapipe
    :replaces_section_title:
+   :noindex:
 
    Pipeline for bioinformatic in\-depth exploration of small RNA\-seq data
 
@@ -22,24 +23,31 @@ srnapipe
 
    |downloads_srnapipe| |docker_srnapipe|
 
-   :versions: 1.1.1-0, 1.1-3, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``,  ``1.1-3``,  ``1.1-0``
+
+      
+
    
-   :depends bedtools: >=2.24.0
+   :depends bedtools: ``>=2.24.0``
    :depends bioconductor-sushi: 
-   :depends bwa: >=0.7.12
+   :depends bwa: ``>=0.7.12``
    :depends fonts-conda-ecosystem: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-file-copy-recursive: 
    :depends perl-getopt-long: 
    :depends perl-math-cdf: 
    :depends perl-parallel-forkmanager: 
    :depends perl-statistics-r: 
    :depends perl-string-random: 
-   :depends r-base: >=3.5,<3.6.0a0
+   :depends r-base: ``>=3.5,<3.6.0a0``
    :depends r-ggplot2: 
    :depends r-plotrix: 
    :depends r-rcolorbrewer: 
-   :depends samtools: >=1.5
+   :depends samtools: ``>=1.5``
    :requirements:
 
    .. rubric:: Installation

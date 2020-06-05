@@ -8,6 +8,7 @@ metavelvet-sl
 
 .. conda:recipe:: metavelvet-sl
    :replaces_section_title:
+   :noindex:
 
    MetaVelvet\-SL \: An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning
 
@@ -22,18 +23,25 @@ metavelvet-sl
 
    |downloads_metavelvet-sl| |docker_metavelvet-sl|
 
-   :versions: 1.0-3, 1.0-2, 1.0-1
+   :versions:
+      
+      
+
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``
+
+      
+
    
    :depends dwgsim: 
    :depends libgcc: 
    :depends libsvm: 
    :depends metaphlan2: 
    :depends metavelvet-sl-feature-extraction: 
-   :depends perl: 5.22.0*
+   :depends perl: ``5.22.0*``
    :depends perl-app-cpanminus: 
    :depends perl-module-build: 
    :depends velvet: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

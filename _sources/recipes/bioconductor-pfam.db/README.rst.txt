@@ -8,6 +8,7 @@ bioconductor-pfam.db
 
 .. conda:recipe:: bioconductor-pfam.db
    :replaces_section_title:
+   :noindex:
 
    A set of protein ID mappings for PFAM
 
@@ -22,11 +23,18 @@ bioconductor-pfam.db
 
    |downloads_bioconductor-pfam.db| |docker_bioconductor-pfam.db|
 
-   :versions: 3.10.0-1, 3.10.0-0, 3.8.2-1, 3.7.0-0, 3.6.0-0, 3.5.0-0
+   :versions:
+      
+      
+
+      ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

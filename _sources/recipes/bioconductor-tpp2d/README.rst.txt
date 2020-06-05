@@ -8,6 +8,7 @@ bioconductor-tpp2d
 
 .. conda:recipe:: bioconductor-tpp2d
    :replaces_section_title:
+   :noindex:
 
    Detection of ligand\-protein interactions from 2D thermal profiles \(DLPTP\)
 
@@ -22,11 +23,18 @@ bioconductor-tpp2d
 
    |downloads_bioconductor-tpp2d| |docker_bioconductor-tpp2d|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-foreach: 

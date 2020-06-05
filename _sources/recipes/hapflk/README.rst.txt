@@ -8,6 +8,7 @@ hapflk
 
 .. conda:recipe:: hapflk
    :replaces_section_title:
+   :noindex:
 
    hapflk is a software implementing the hapFLK and FLK tests for the detection of selection signatures based on multiple population genotyping data.
 
@@ -22,11 +23,18 @@ hapflk
 
    |downloads_hapflk| |docker_hapflk|
 
-   :versions: 1.3.0-1, 1.3.0-0
+   :versions:
+      
+      
+
+      ``1.3.0-1``,  ``1.3.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends scipy: 
    :requirements:
 

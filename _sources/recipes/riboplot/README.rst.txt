@@ -8,6 +8,7 @@ riboplot
 
 .. conda:recipe:: riboplot
    :replaces_section_title:
+   :noindex:
 
    Plot read counts of RiboSeq data from BAM format alignment files
 
@@ -22,13 +23,20 @@ riboplot
 
    |downloads_riboplot| |docker_riboplot|
 
-   :versions: 0.3.1-2, 0.3.1-1, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
+
+      
+
    
-   :depends bedtools: <=2.24.0
-   :depends matplotlib: <=1.4.3
-   :depends mock: 1.0.1
-   :depends pysam: <=0.8.3
-   :depends python: >=2.7,<2.8.0a0
+   :depends bedtools: ``<=2.24.0``
+   :depends matplotlib: ``<=1.4.3``
+   :depends mock: ``1.0.1``
+   :depends pysam: ``<=0.8.3``
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ tadbit
 
 .. conda:recipe:: tadbit
    :replaces_section_title:
+   :noindex:
 
    TADbit is a complete Python library to deal with all steps to analyze\, model and explore 3C\-based data.
 
@@ -23,17 +24,24 @@ tadbit
 
    |downloads_tadbit| |docker_tadbit|
 
-   :versions: 0.5-0
+   :versions:
+      
+      
+
+      ``0.5-0``
+
+      
+
    
    :depends gem3-mapper: 
    :depends h5py: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends matplotlib-base: 
    :depends mcl: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends scipy: 
    :requirements:
 

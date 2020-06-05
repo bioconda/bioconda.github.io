@@ -8,6 +8,7 @@ perl-moosex-clone
 
 .. conda:recipe:: perl-moosex-clone/0.06
    :replaces_section_title:
+   :noindex:
 
    Fine\-grained cloning support for Moose objects.
 
@@ -22,9 +23,16 @@ perl-moosex-clone
 
    |downloads_perl-moosex-clone| |docker_perl-moosex-clone|
 
-   :versions: 0.06-2, 0.06-1, 0.06-0
+   :versions:
+      
+      
+
+      ``0.06-2``,  ``0.06-1``,  ``0.06-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-data-visitor: 
    :depends perl-hash-util-fieldhash-compat: 

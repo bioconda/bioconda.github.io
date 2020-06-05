@@ -8,6 +8,7 @@ bioconductor-adsplit
 
 .. conda:recipe:: bioconductor-adsplit
    :replaces_section_title:
+   :noindex:
 
    Annotation\-Driven Clustering
 
@@ -22,19 +23,26 @@ bioconductor-adsplit
 
    |downloads_bioconductor-adsplit| |docker_bioconductor-adsplit|
 
-   :versions: 1.58.0-0, 1.56.0-0, 1.54.0-1, 1.52.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   :versions:
+      
+      
+
+      ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-kegg.db: >=3.2.0,<3.3.0
-   :depends bioconductor-multtest: >=2.44.0,<2.45.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-cluster: >=1.9.1
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-kegg.db: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-cluster: ``>=1.9.1``
    :requirements:
 
    .. rubric:: Installation

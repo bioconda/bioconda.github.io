@@ -8,6 +8,7 @@ bioconductor-toast
 
 .. conda:recipe:: bioconductor-toast
    :replaces_section_title:
+   :noindex:
 
    Tools for the analysis of heterogeneous tissues
 
@@ -22,12 +23,19 @@ bioconductor-toast
 
    |downloads_bioconductor-toast| |docker_bioconductor-toast|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-epidish: >=2.4.0,<2.5.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-epidish: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-nnls: 
    :depends r-reffreeewas: 
    :requirements:

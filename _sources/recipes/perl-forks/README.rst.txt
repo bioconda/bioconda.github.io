@@ -8,6 +8,7 @@ perl-forks
 
 .. conda:recipe:: perl-forks
    :replaces_section_title:
+   :noindex:
 
    drop\-in replacement for Perl threads using fork\(\)
 
@@ -22,9 +23,16 @@ perl-forks
 
    |downloads_perl-forks| |docker_perl-forks|
 
-   :versions: 0.36-4, 0.36-3, 0.36-2, 0.36-1
+   :versions:
+      
+      
+
+      ``0.36-4``,  ``0.36-3``,  ``0.36-2``,  ``0.36-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-acme-damn: 
    :depends perl-attribute-handlers: 
    :depends perl-devel-symdump: 

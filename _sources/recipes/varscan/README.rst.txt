@@ -8,6 +8,7 @@ varscan
 
 .. conda:recipe:: varscan
    :replaces_section_title:
+   :noindex:
 
    variant detection in massively parallel sequencing data
 
@@ -23,7 +24,22 @@ varscan
 
    |downloads_varscan| |docker_varscan|
 
-   :versions: 2.4.4-0, 2.4.3-2, 2.4.3-1, 2.4.3-0, 2.4.2-2, 2.4.2-1, 2.4.2-0, 2.4.1-0, 2.4.0-1, 2.4.0-0, 2.3.7-3, 2.3.7-2, 2.3.7-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.4.4-0</code>,  <code>2.4.3-2</code>,  <code>2.4.3-1</code>,  <code>2.4.3-0</code>,  <code>2.4.2-2</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-1</code>,  </span></summary>
+      
+
+      ``2.4.4-0``,  ``2.4.3-2``,  ``2.4.3-1``,  ``2.4.3-0``,  ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.7-3``,  ``2.3.7-2``,  ``2.3.7-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends openjdk: 
    :depends zlib: 

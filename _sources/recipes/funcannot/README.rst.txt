@@ -8,6 +8,7 @@ funcannot
 
 .. conda:recipe:: funcannot
    :replaces_section_title:
+   :noindex:
 
    Annotates cDNA\, protein\, mutation type\, and other funcational changes to variants in a VCF file with pre\-existing gene annotations \(see\:genepender\).
 
@@ -22,10 +23,17 @@ funcannot
 
    |downloads_funcannot| |docker_funcannot|
 
-   :versions: v2.8-1, v2.8-0
+   :versions:
+      
+      
+
+      ``v2.8-1``,  ``v2.8-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends qt: 4.8.7.*
+   :depends libgcc-ng: ``>=4.9``
+   :depends qt: ``4.8.7.*``
    :requirements:
 
    .. rubric:: Installation

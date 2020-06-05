@@ -8,6 +8,7 @@ perl-env
 
 .. conda:recipe:: perl-env
    :replaces_section_title:
+   :noindex:
 
    perl module that imports environment variables as scalars or arrays
 
@@ -22,9 +23,16 @@ perl-env
 
    |downloads_perl-env| |docker_perl-env|
 
-   :versions: 1.04-1, 1.04-0
+   :versions:
+      
+      
+
+      ``1.04-1``,  ``1.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

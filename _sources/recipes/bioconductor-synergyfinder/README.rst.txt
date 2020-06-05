@@ -8,6 +8,7 @@ bioconductor-synergyfinder
 
 .. conda:recipe:: bioconductor-synergyfinder
    :replaces_section_title:
+   :noindex:
 
    Calculate and Visualize Synergy Scores for Drug Combinations
 
@@ -23,17 +24,24 @@ bioconductor-synergyfinder
 
    |downloads_bioconductor-synergyfinder| |docker_bioconductor-synergyfinder|
 
-   :versions: 2.2.0-0, 2.0.1-0, 1.10.2-0, 1.10.0-0, 1.8.0-0, 1.6.1-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``2.2.0-0``,  ``2.0.1-0``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-drc: >=2.5-12
-   :depends r-ggplot2: >=2.1.0
-   :depends r-lattice: >=0.20-33
-   :depends r-nleqslv: >=3.0
-   :depends r-reshape2: >=1.4.1
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-drc: ``>=2.5-12``
+   :depends r-ggplot2: ``>=2.1.0``
+   :depends r-lattice: ``>=0.20-33``
+   :depends r-nleqslv: ``>=3.0``
+   :depends r-reshape2: ``>=1.4.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ r-sigqc
 
 .. conda:recipe:: r-sigqc
    :replaces_section_title:
+   :noindex:
 
    Provides gene signature quality control metrics in publication ready plots. Namely\, enables the visualization of properties such as expression\, variability\, correlation\, and comparison of methods of standardisation and scoring metrics.
 
@@ -22,12 +23,19 @@ r-sigqc
 
    |downloads_r-sigqc| |docker_r-sigqc|
 
-   :versions: 0.1.21-3, 0.1.21-2, 0.1.21-1, 0.1.21-0, 0.1.14-0
+   :versions:
+      
+      
+
+      ``0.1.21-3``,  ``0.1.21-2``,  ``0.1.21-1``,  ``0.1.21-0``,  ``0.1.14-0``
+
+      
+
    
    :depends bioconductor-complexheatmap: 
    :depends bioconductor-gsva: 
    :depends bioconductor-rankprod: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biclust: 
    :depends r-circlize: 
    :depends r-class: 

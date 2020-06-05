@@ -8,6 +8,7 @@ tagger
 
 .. conda:recipe:: tagger
    :replaces_section_title:
+   :noindex:
 
    tagger allows you to tag a corpus of documents with search terms that you provide. It is often used to find mentions of proteins\, species\, diseases\, tissues\, chemicals and drugs\, GO terms\, and so forth\, in articles in the Medline corpus.
 
@@ -22,11 +23,18 @@ tagger
 
    |downloads_tagger| |docker_tagger|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
-   :depends boost: >=1.67.0,<1.67.1.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends python: >=2.7,<2.8.0a0
+   :depends boost: ``>=1.67.0,<1.67.1.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends swig: 
    :requirements:
 

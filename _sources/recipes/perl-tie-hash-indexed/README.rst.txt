@@ -8,6 +8,7 @@ perl-tie-hash-indexed
 
 .. conda:recipe:: perl-tie-hash-indexed
    :replaces_section_title:
+   :noindex:
 
    Ordered hashes for Perl
 
@@ -22,9 +23,16 @@ perl-tie-hash-indexed
 
    |downloads_perl-tie-hash-indexed| |docker_perl-tie-hash-indexed|
 
-   :versions: 0.05-1, 0.05-0
+   :versions:
+      
+      
+
+      ``0.05-1``,  ``0.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-targetsearchdata
 
 .. conda:recipe:: bioconductor-targetsearchdata
    :replaces_section_title:
+   :noindex:
 
    Example GC\-MS data for TargetSearch Package
 
@@ -22,10 +23,17 @@ bioconductor-targetsearchdata
 
    |downloads_bioconductor-targetsearchdata| |docker_bioconductor-targetsearchdata|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

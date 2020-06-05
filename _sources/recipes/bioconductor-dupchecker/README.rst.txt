@@ -8,6 +8,7 @@ bioconductor-dupchecker
 
 .. conda:recipe:: bioconductor-dupchecker
    :replaces_section_title:
+   :noindex:
 
    a package for checking high\-throughput genomic data redundancy in meta\-analysis
 
@@ -23,9 +24,16 @@ bioconductor-dupchecker
 
    |downloads_bioconductor-dupchecker| |docker_bioconductor-dupchecker|
 
-   :versions: 1.25.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.25.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-r.utils: 
    :depends r-rcurl: 
    :requirements:

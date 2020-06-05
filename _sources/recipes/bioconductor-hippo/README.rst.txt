@@ -8,6 +8,7 @@ bioconductor-hippo
 
 .. conda:recipe:: bioconductor-hippo
    :replaces_section_title:
+   :noindex:
 
    Heterogeneity\-Induced Pre\-Processing tOol
 
@@ -22,10 +23,17 @@ bioconductor-hippo
 
    |downloads_bioconductor-hippo| |docker_bioconductor-hippo|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 

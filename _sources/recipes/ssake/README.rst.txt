@@ -8,6 +8,7 @@ ssake
 
 .. conda:recipe:: ssake
    :replaces_section_title:
+   :noindex:
 
    SSAKE is a genomics application for de novo assembly of millions of very short DNA sequences.
 
@@ -23,11 +24,18 @@ ssake
 
    |downloads_ssake| |docker_ssake|
 
-   :versions: 4.0-4, 4.0-2, 4.0-1
+   :versions:
+      
+      
+
+      ``4.0-4``,  ``4.0-2``,  ``4.0-1``
+
+      
+
    
    :depends perl: 
    :depends perl-statistics-descriptive: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

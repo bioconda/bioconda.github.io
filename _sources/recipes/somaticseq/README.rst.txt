@@ -8,6 +8,7 @@ somaticseq
 
 .. conda:recipe:: somaticseq
    :replaces_section_title:
+   :noindex:
 
    An ensemble approach to accurately detect somatic mutations
 
@@ -22,7 +23,14 @@ somaticseq
 
    |downloads_somaticseq| |docker_somaticseq|
 
-   :versions: 3.4.2-0, 3.4.1-0, 3.4.0-0, 3.3.0-0, 3.2.1-0, 2.8.1-0
+   :versions:
+      
+      
+
+      ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``2.8.1-0``
+
+      
+
    
    :depends bedtools: 
    :depends gatk4: 
@@ -30,13 +38,13 @@ somaticseq
    :depends muse: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends r-ada: 
    :depends r-base: 
    :depends scalpel: 
    :depends scipy: 
    :depends vardict: 
-   :depends varscan: >=2
+   :depends varscan: ``>=2``
    :requirements:
 
    .. rubric:: Installation

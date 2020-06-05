@@ -8,6 +8,7 @@ bioconductor-projectr
 
 .. conda:recipe:: bioconductor-projectr
    :replaces_section_title:
+   :noindex:
 
    Functions for the projection of weights from PCA\, CoGAPS\, NMF\, correlation\, and clustering
 
@@ -22,11 +23,18 @@ bioconductor-projectr
 
    |downloads_bioconductor-projectr| |docker_bioconductor-projectr|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-cogaps: >=3.8.0,<3.9.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-cogaps: ``>=3.8.0,<3.9.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-dplyr: 
    :depends r-ggalluvial: 

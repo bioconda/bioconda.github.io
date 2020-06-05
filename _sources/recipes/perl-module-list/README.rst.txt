@@ -8,6 +8,7 @@ perl-module-list
 
 .. conda:recipe:: perl-module-list
    :replaces_section_title:
+   :noindex:
 
    module \`directory\' listing
 
@@ -22,9 +23,16 @@ perl-module-list
 
    |downloads_perl-module-list| |docker_perl-module-list|
 
-   :versions: 0.004-0
+   :versions:
+      
+      
+
+      ``0.004-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-parent: 

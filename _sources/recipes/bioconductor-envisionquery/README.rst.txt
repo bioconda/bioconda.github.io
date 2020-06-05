@@ -8,6 +8,7 @@ bioconductor-envisionquery
 
 .. conda:recipe:: bioconductor-envisionquery
    :replaces_section_title:
+   :noindex:
 
    Retrieval from the ENVISION bioinformatics data portal into R
 
@@ -22,9 +23,16 @@ bioconductor-envisionquery
 
    |downloads_bioconductor-envisionquery| |docker_bioconductor-envisionquery|
 
-   :versions: 1.34.0-0, 1.32.0-1, 1.32.0-0, 1.30.0-0
+   :versions:
+      
+      
+
+      ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``
+
+      
+
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-rjava: 
    :depends r-xml: 
    :requirements:

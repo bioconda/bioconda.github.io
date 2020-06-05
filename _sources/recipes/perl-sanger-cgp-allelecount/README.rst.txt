@@ -8,6 +8,7 @@ perl-sanger-cgp-allelecount
 
 .. conda:recipe:: perl-sanger-cgp-allelecount
    :replaces_section_title:
+   :noindex:
 
    Support code for NGS copy number algorithm
 
@@ -22,10 +23,17 @@ perl-sanger-cgp-allelecount
 
    |downloads_perl-sanger-cgp-allelecount| |docker_perl-sanger-cgp-allelecount|
 
-   :versions: 4.1.0-0, 4.0.0-2, 4.0.0-1, 4.0.0-0, 2.1.2-3, 2.1.2-2, 2.1.2-1
+   :versions:
+      
+      
+
+      ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-samtools: 
    :depends perl-bioperl: 
    :depends perl-sanger-cgp-vcf: 

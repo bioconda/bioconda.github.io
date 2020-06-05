@@ -8,6 +8,7 @@ sccaller
 
 .. conda:recipe:: sccaller
    :replaces_section_title:
+   :noindex:
 
    Dong X et al. Accurate identification of single\-nucleotide variants in whole\-genome\-amplified single cells. Nat Methods. 2017 May\;14\(5\)\:491\-493. doi\: 10.1038\/nmeth.4227
 
@@ -23,12 +24,19 @@ sccaller
 
    |downloads_sccaller| |docker_sccaller|
 
-   :versions: 2.0.0-0, 1.21-0, 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``,  ``1.21-0``,  ``1.2-1``,  ``1.2-0``
+
+      
+
    
    :depends numpy: 
-   :depends pysam: >=0.15.1
-   :depends python: <3
-   :depends samtools: >=1.9
+   :depends pysam: ``>=0.15.1``
+   :depends python: ``<3``
+   :depends samtools: ``>=1.9``
    :requirements:
 
    .. rubric:: Installation

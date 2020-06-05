@@ -8,6 +8,7 @@ bioconductor-crossmeta
 
 .. conda:recipe:: bioconductor-crossmeta
    :replaces_section_title:
+   :noindex:
 
    Cross Platform Meta\-Analysis of Microarray Data
 
@@ -22,42 +23,49 @@ bioconductor-crossmeta
 
    |downloads_bioconductor-crossmeta| |docker_bioconductor-crossmeta|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-affxparser: >=1.60.0,<1.61.0
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-ccmap: >=1.14.0,<1.15.0
-   :depends bioconductor-geoquery: >=2.56.0,<2.57.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-oligo: >=1.52.0,<1.53.0
-   :depends bioconductor-sva: >=3.36.0,<3.37.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-biocmanager: >=1.30.4
-   :depends r-data.table: >=1.10.4
-   :depends r-dbi: >=1.0.0
-   :depends r-doparallel: >=1.0.10
-   :depends r-dorng: >=1.6
-   :depends r-dt: >=0.2
-   :depends r-fdrtool: >=1.2.15
-   :depends r-foreach: >=1.4.3
-   :depends r-ggplot2: >=2.2.1
-   :depends r-matrixstats: >=0.51.0
-   :depends r-metama: >=3.1.2
-   :depends r-metap: >=0.8
-   :depends r-miniui: >=0.1.1
-   :depends r-plotly: >=4.5.6
-   :depends r-rcolorbrewer: >=1.1.2
-   :depends r-rcurl: >=1.95.4.11
-   :depends r-rdrop2: >=0.7.0
-   :depends r-reader: >=1.0.6
-   :depends r-reshape: >=0.8.6
-   :depends r-rsqlite: >=2.1.1
-   :depends r-shiny: >=1.0.0
-   :depends r-stringr: >=1.2.0
-   :depends r-xml: >=3.98.1.17
+   :depends bioconductor-affxparser: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-ccmap: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-geoquery: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-biocmanager: ``>=1.30.4``
+   :depends r-data.table: ``>=1.10.4``
+   :depends r-dbi: ``>=1.0.0``
+   :depends r-doparallel: ``>=1.0.10``
+   :depends r-dorng: ``>=1.6``
+   :depends r-dt: ``>=0.2``
+   :depends r-fdrtool: ``>=1.2.15``
+   :depends r-foreach: ``>=1.4.3``
+   :depends r-ggplot2: ``>=2.2.1``
+   :depends r-matrixstats: ``>=0.51.0``
+   :depends r-metama: ``>=3.1.2``
+   :depends r-metap: ``>=0.8``
+   :depends r-miniui: ``>=0.1.1``
+   :depends r-plotly: ``>=4.5.6``
+   :depends r-rcolorbrewer: ``>=1.1.2``
+   :depends r-rcurl: ``>=1.95.4.11``
+   :depends r-rdrop2: ``>=0.7.0``
+   :depends r-reader: ``>=1.0.6``
+   :depends r-reshape: ``>=0.8.6``
+   :depends r-rsqlite: ``>=2.1.1``
+   :depends r-shiny: ``>=1.0.0``
+   :depends r-stringr: ``>=1.2.0``
+   :depends r-xml: ``>=3.98.1.17``
    :requirements:
 
    .. rubric:: Installation

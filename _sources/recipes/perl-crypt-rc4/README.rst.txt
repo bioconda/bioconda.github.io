@@ -8,6 +8,7 @@ perl-crypt-rc4
 
 .. conda:recipe:: perl-crypt-rc4
    :replaces_section_title:
+   :noindex:
 
    Perl implementation of the RC4 encryption algorithm
 
@@ -22,9 +23,16 @@ perl-crypt-rc4
 
    |downloads_perl-crypt-rc4| |docker_perl-crypt-rc4|
 
-   :versions: 2.02-1, 2.02-0
+   :versions:
+      
+      
+
+      ``2.02-1``,  ``2.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

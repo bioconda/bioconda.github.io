@@ -8,6 +8,7 @@ perl-sub-attribute
 
 .. conda:recipe:: perl-sub-attribute/0.05
    :replaces_section_title:
+   :noindex:
 
    Reliable subroutine attribute handlers
 
@@ -22,9 +23,16 @@ perl-sub-attribute
 
    |downloads_perl-sub-attribute| |docker_perl-sub-attribute|
 
-   :versions: 0.05-1, 0.05-0
+   :versions:
+      
+      
+
+      ``0.05-1``,  ``0.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-xsloader: 
    :requirements:
 

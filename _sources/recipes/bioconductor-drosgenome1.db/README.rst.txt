@@ -8,6 +8,7 @@ bioconductor-drosgenome1.db
 
 .. conda:recipe:: bioconductor-drosgenome1.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix Drosophila Genome Array annotation data \(chip drosgenome1\)
 
@@ -22,12 +23,19 @@ bioconductor-drosgenome1.db
 
    |downloads_bioconductor-drosgenome1.db| |docker_bioconductor-drosgenome1.db|
 
-   :versions: 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.dm.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.dm.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

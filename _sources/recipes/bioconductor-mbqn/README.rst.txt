@@ -8,6 +8,7 @@ bioconductor-mbqn
 
 .. conda:recipe:: bioconductor-mbqn
    :replaces_section_title:
+   :noindex:
 
    Mean\/Median\-balanced quantile normalization
 
@@ -22,14 +23,21 @@ bioconductor-mbqn
 
    |downloads_bioconductor-mbqn| |docker_bioconductor-mbqn|
 
-   :versions: 2.0.0-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends bioconductor-rpx: >=1.24.0,<1.25.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-rpx: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-paireddata: 
    :depends r-rappdirs: 

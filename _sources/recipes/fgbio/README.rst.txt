@@ -8,6 +8,7 @@ fgbio
 
 .. conda:recipe:: fgbio
    :replaces_section_title:
+   :noindex:
 
    A set of tools for working with genomic and high throughput sequencing data\, including UMIs
 
@@ -22,9 +23,24 @@ fgbio
 
    |downloads_fgbio| |docker_fgbio|
 
-   :versions: 1.2.0-0, 1.1.0-0, 1.0.0-0, 0.8.1-1, 0.8.1-0, 0.8.0-0, 0.7.0-0, 0.6.1-1, 0.6.1-0, 0.5.0a-0, 0.4.0-1, 0.4.0-0, 0.2.1b-0, 0.2.1a-0, 0.2.0-0, 0.1.5a-0, 0.1.3a-0, 0.1.2a-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  </span></summary>
+      
+
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.0a-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.2.1b-0``,  ``0.2.1a-0``,  ``0.2.0-0``,  ``0.1.5a-0``,  ``0.1.3a-0``,  ``0.1.2a-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

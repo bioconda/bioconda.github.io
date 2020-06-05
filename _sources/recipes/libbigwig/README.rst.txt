@@ -8,6 +8,7 @@ libbigwig
 
 .. conda:recipe:: libbigwig
    :replaces_section_title:
+   :noindex:
 
    A C library for handling bigWig files
 
@@ -22,11 +23,18 @@ libbigwig
 
    |downloads_libbigwig| |docker_libbigwig|
 
-   :versions: 0.4.4-0, 0.4.3-0, 0.4.2-1, 0.4.2-0, 0.4.1-2, 0.4.1-1, 0.4.1-0, 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.0-0``
+
+      
+
    
-   :depends curl: >=7.64.1,<8.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends curl: ``>=7.64.1,<8.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-rhdf5client
 
 .. conda:recipe:: bioconductor-rhdf5client
    :replaces_section_title:
+   :noindex:
 
    Access HDF5 content from h5serv
 
@@ -22,14 +23,21 @@ bioconductor-rhdf5client
 
    |downloads_bioconductor-rhdf5client| |docker_bioconductor-rhdf5client|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.1-0, 1.4.1-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 
    :depends r-r6: 
    :depends r-rjson: 

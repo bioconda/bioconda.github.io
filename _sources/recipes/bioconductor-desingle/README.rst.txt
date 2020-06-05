@@ -8,6 +8,7 @@ bioconductor-desingle
 
 .. conda:recipe:: bioconductor-desingle
    :replaces_section_title:
+   :noindex:
 
    DEsingle for detecting three types of differential expression in single\-cell RNA\-seq data
 
@@ -22,17 +23,24 @@ bioconductor-desingle
 
    |downloads_bioconductor-desingle| |docker_bioconductor-desingle|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-bbmle: >=1.0.18
-   :depends r-gamlss: >=4.4-0
-   :depends r-mass: >=7.3-45
-   :depends r-matrix: >=1.2-14
-   :depends r-maxlik: >=1.3-4
-   :depends r-pscl: >=1.4.9
-   :depends r-vgam: >=1.0-2
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bbmle: ``>=1.0.18``
+   :depends r-gamlss: ``>=4.4-0``
+   :depends r-mass: ``>=7.3-45``
+   :depends r-matrix: ``>=1.2-14``
+   :depends r-maxlik: ``>=1.3-4``
+   :depends r-pscl: ``>=1.4.9``
+   :depends r-vgam: ``>=1.0-2``
    :requirements:
 
    .. rubric:: Installation

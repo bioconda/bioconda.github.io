@@ -8,6 +8,7 @@ perl-hook-lexwrap
 
 .. conda:recipe:: perl-hook-lexwrap/0.26
    :replaces_section_title:
+   :noindex:
 
    Lexically scoped subroutine wrappers
 
@@ -22,9 +23,16 @@ perl-hook-lexwrap
 
    |downloads_perl-hook-lexwrap| |docker_perl-hook-lexwrap|
 
-   :versions: 0.26-1, 0.26-0
+   :versions:
+      
+      
+
+      ``0.26-1``,  ``0.26-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-carp: 
    :requirements:
 

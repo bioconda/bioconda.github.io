@@ -8,6 +8,7 @@ strip_it
 
 .. conda:recipe:: strip_it/1.0.2
    :replaces_section_title:
+   :noindex:
 
    Strip\-it is a program that extracts predefined scaffolds from organic small molecules.
 
@@ -22,11 +23,18 @@ strip_it
 
    |downloads_strip_it| |docker_strip_it|
 
-   :versions: 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openbabel: 2.4.1.*
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openbabel: ``2.4.1.*``
    :requirements:
 
    .. rubric:: Installation

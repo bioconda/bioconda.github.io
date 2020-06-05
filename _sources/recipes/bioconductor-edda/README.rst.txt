@@ -8,6 +8,7 @@ bioconductor-edda
 
 .. conda:recipe:: bioconductor-edda
    :replaces_section_title:
+   :noindex:
 
    Experimental Design in Differential Abundance analysis
 
@@ -23,17 +24,24 @@ bioconductor-edda
 
    |downloads_bioconductor-edda| |docker_bioconductor-edda|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-bayseq: >=2.22.0,<2.23.0
-   :depends bioconductor-deseq: >=1.39.0,<1.40.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-rcpp: >=0.10.4
+   :depends bioconductor-bayseq: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-deseq: ``>=1.39.0,<1.40.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-rcpp: ``>=0.10.4``
    :depends r-rocr: 
    :depends r-snow: 
    :requirements:

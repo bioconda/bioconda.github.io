@@ -8,6 +8,7 @@ taeper
 
 .. conda:recipe:: taeper
    :replaces_section_title:
+   :noindex:
 
    Simulate repeating a nanopore experiment.
 
@@ -22,11 +23,18 @@ taeper
 
    |downloads_taeper| |docker_taeper|
 
-   :versions: 0.1.0-2, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
    :depends numpy: 
    :depends ont-fast5-api: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

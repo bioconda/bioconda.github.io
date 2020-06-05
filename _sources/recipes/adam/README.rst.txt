@@ -8,6 +8,7 @@ adam
 
 .. conda:recipe:: adam
    :replaces_section_title:
+   :noindex:
 
    Genomics analysis platform built on Apache Avro\, Apache Spark\, and Apache Parquet
 
@@ -22,9 +23,24 @@ adam
 
    |downloads_adam| |docker_adam|
 
-   :versions: 0.31.0-0, 0.30.0-0, 0.29.0-0, 0.28.0-0, 0.27.0-1, 0.26.0-1, 0.25.0-1, 0.24.0-1, 0.24.0-0, 0.23.0-0, 0.22.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.31.0-0</code>,  <code>0.30.0-0</code>,  <code>0.29.0-0</code>,  <code>0.28.0-0</code>,  <code>0.27.0-1</code>,  <code>0.26.0-1</code>,  <code>0.25.0-1</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  </span></summary>
+      
+
+      ``0.31.0-0``,  ``0.30.0-0``,  ``0.29.0-0``,  ``0.28.0-0``,  ``0.27.0-1``,  ``0.26.0-1``,  ``0.25.0-1``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.0-0``,  ``0.22.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends pyspark: 
    :requirements:
 

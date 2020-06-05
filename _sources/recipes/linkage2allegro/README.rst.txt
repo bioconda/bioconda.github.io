@@ -8,6 +8,7 @@ linkage2allegro
 
 .. conda:recipe:: linkage2allegro
    :replaces_section_title:
+   :noindex:
 
    Converts between the output linkage formats of Merlin\, Simwalk\, Genehunter\, and Swiftlink into Allegro.
 
@@ -22,7 +23,14 @@ linkage2allegro
 
    |downloads_linkage2allegro| |docker_linkage2allegro|
 
-   :versions: 2017.3-1, 2017.3-0, 2017.2-0, 2017.1-0
+   :versions:
+      
+      
+
+      ``2017.3-1``,  ``2017.3-0``,  ``2017.2-0``,  ``2017.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

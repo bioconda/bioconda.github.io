@@ -8,6 +8,7 @@ sift4g
 
 .. conda:recipe:: sift4g
    :replaces_section_title:
+   :noindex:
 
    SIFT 4G is a faster version of SIFT that enables us to scale up and provide SIFT predictions for more organisms.
 
@@ -22,9 +23,16 @@ sift4g
 
    |downloads_sift4g| |docker_sift4g|
 
-   :versions: 2.0.0-1, 2.0.0-0
+   :versions:
+      
+      
+
+      ``2.0.0-1``,  ``2.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

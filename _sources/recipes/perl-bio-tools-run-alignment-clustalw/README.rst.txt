@@ -8,6 +8,7 @@ perl-bio-tools-run-alignment-clustalw
 
 .. conda:recipe:: perl-bio-tools-run-alignment-clustalw
    :replaces_section_title:
+   :noindex:
 
    Object for the calculation of a multiple sequence alignment from a set of unaligned sequences or alignments using the Clustalw program
 
@@ -22,10 +23,17 @@ perl-bio-tools-run-alignment-clustalw
 
    |downloads_perl-bio-tools-run-alignment-clustalw| |docker_perl-bio-tools-run-alignment-clustalw|
 
-   :versions: 1.7.4-1, 1.7.4-0
+   :versions:
+      
+      
+
+      ``1.7.4-1``,  ``1.7.4-0``
+
+      
+
    
    :depends clustalw: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-bioperl-run: 
    :requirements:

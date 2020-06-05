@@ -8,6 +8,7 @@ perl-lwp-simple
 
 .. conda:recipe:: perl-lwp-simple
    :replaces_section_title:
+   :noindex:
 
    simple procedural interface to LWP
 
@@ -22,10 +23,17 @@ perl-lwp-simple
 
    |downloads_perl-lwp-simple| |docker_perl-lwp-simple|
 
-   :versions: 6.15-4, 6.15-3, 6.15-2, 6.15-1, 6.15-0
+   :versions:
+      
+      
+
+      ``6.15-4``,  ``6.15-3``,  ``6.15-2``,  ``6.15-1``,  ``6.15-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-encode-locale: 
    :requirements:
 

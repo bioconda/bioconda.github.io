@@ -8,6 +8,7 @@ r-rphast
 
 .. conda:recipe:: r-rphast
    :replaces_section_title:
+   :noindex:
 
    Provides an R interface to the \'PHAST\'\(\<http\:\/\/compgen.cshl.edu\/phast\/\>\) software \(Phylogenetic Analysis with Space\/Time Models\).  It can be used for many types of analysis in comparative and evolutionary genomics\, such as estimating models of evolution from sequence data\, scoring alignments for conservation or acceleration\, and predicting elements based on conservation or custom phylogenetic hidden Markov models.  It can also perform many basic operations on multiple sequence alignments and phylogenetic trees.
 
@@ -22,10 +23,17 @@ r-rphast
 
    |downloads_r-rphast| |docker_r-rphast|
 
-   :versions: 1.6.9-4, 1.6.9-3, 1.6.9-2, 1.6.9-1, 1.6.9-0
+   :versions:
+      
+      
+
+      ``1.6.9-4``,  ``1.6.9-3``,  ``1.6.9-2``,  ``1.6.9-1``,  ``1.6.9-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

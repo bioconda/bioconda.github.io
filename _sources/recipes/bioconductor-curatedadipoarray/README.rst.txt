@@ -8,6 +8,7 @@ bioconductor-curatedadipoarray
 
 .. conda:recipe:: bioconductor-curatedadipoarray
    :replaces_section_title:
+   :noindex:
 
    A Curated Microarrays Dataset of MDI\-induced Differentiated Adipocytes \(3T3\-L1\) Under Genetic and Pharmacological Perturbations
 
@@ -22,10 +23,17 @@ bioconductor-curatedadipoarray
 
    |downloads_bioconductor-curatedadipoarray| |docker_bioconductor-curatedadipoarray|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

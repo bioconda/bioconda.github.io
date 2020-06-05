@@ -8,6 +8,7 @@ perl-exporter-tiny
 
 .. conda:recipe:: perl-exporter-tiny
    :replaces_section_title:
+   :noindex:
 
    Exporter with the features of Sub\:\:Exporter but only core dependencies
 
@@ -22,9 +23,16 @@ perl-exporter-tiny
 
    |downloads_perl-exporter-tiny| |docker_perl-exporter-tiny|
 
-   :versions: 1.002001-0, 1.000000-0, 0.042-2, 0.042-1
+   :versions:
+      
+      
+
+      ``1.002001-0``,  ``1.000000-0``,  ``0.042-2``,  ``0.042-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-const-fast
 
 .. conda:recipe:: perl-const-fast
    :replaces_section_title:
+   :noindex:
 
    Facility for creating read\-only scalars\, arrays\, and hashes
 
@@ -22,9 +23,16 @@ perl-const-fast
 
    |downloads_perl-const-fast| |docker_perl-const-fast|
 
-   :versions: 0.014-0
+   :versions:
+      
+      
+
+      ``0.014-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-storable: 
    :depends perl-sub-exporter-progressive: 

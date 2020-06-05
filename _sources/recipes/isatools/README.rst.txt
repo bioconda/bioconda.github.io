@@ -8,6 +8,7 @@ isatools
 
 .. conda:recipe:: isatools
    :replaces_section_title:
+   :noindex:
 
    Metadata tracking tools help to manage an increasingly diverse set of life science\, environmental and biomedical experiments
 
@@ -22,7 +23,14 @@ isatools
 
    |downloads_isatools| |docker_isatools|
 
-   :versions: 0.11.0-0, 0.10.3-1, 0.10.3-0, 0.10.2-0, 0.10.0-1, 0.10.0-0, 0.9.5-0, 0.9.4-0, 0.9.3-0
+   :versions:
+      
+      
+
+      ``0.11.0-0``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``
+
+      
+
    
    :depends beautifulsoup4: 
    :depends biopython: 
@@ -36,7 +44,7 @@ isatools
    :depends numpy: 
    :depends pandas: 
    :depends progressbar2: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends requests: 
    :requirements:
 

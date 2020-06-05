@@ -8,6 +8,7 @@ circos
 
 .. conda:recipe:: circos
    :replaces_section_title:
+   :noindex:
 
    Circos is a software package for visualizing data and information. It visualizes data in a circular layout
 
@@ -23,7 +24,14 @@ circos
 
    |downloads_circos| |docker_circos|
 
-   :versions: 0.69.8-0, 0.69.6-5, 0.69.6-4, 0.69.6-2, 0.69.6-1, 0.69.6-0, 0.69.5-0, 0.69.4-0, 0.69.2-0
+   :versions:
+      
+      
+
+      ``0.69.8-0``,  ``0.69.6-5``,  ``0.69.6-4``,  ``0.69.6-2``,  ``0.69.6-1``,  ``0.69.6-0``,  ``0.69.5-0``,  ``0.69.4-0``,  ``0.69.2-0``
+
+      
+
    
    :depends perl: 
    :depends perl-clone: 

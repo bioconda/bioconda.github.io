@@ -8,6 +8,7 @@ bioconductor-ebseqhmm
 
 .. conda:recipe:: bioconductor-ebseqhmm
    :replaces_section_title:
+   :noindex:
 
    Bayesian analysis for identifying gene or isoform expression changes in ordered RNA\-seq experiments
 
@@ -22,10 +23,17 @@ bioconductor-ebseqhmm
 
    |downloads_bioconductor-ebseqhmm| |docker_bioconductor-ebseqhmm|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.1-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-ebseq: >=1.28.0,<1.29.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ebseq: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-srgnet
 
 .. conda:recipe:: bioconductor-srgnet
    :replaces_section_title:
+   :noindex:
 
    SRGnet\: An R package for studying synergistic response to gene mutations from transcriptomics data
 
@@ -22,18 +23,25 @@ bioconductor-srgnet
 
    |downloads_bioconductor-srgnet| |docker_bioconductor-srgnet|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-ebcoexpress: >=1.32.0,<1.33.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dmwr: >=0.4.1
-   :depends r-gbm: >=2.1.1
+   :depends bioconductor-ebcoexpress: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dmwr: ``>=0.4.1``
+   :depends r-gbm: ``>=2.1.1``
    :depends r-hmisc: 
    :depends r-igraph: 
    :depends r-mass: 
    :depends r-matrixstats: 
-   :depends r-pvclust: >=2.0-0
+   :depends r-pvclust: ``>=2.0-0``
    :requirements:
 
    .. rubric:: Installation

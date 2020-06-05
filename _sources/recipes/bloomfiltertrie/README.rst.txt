@@ -8,6 +8,7 @@ bloomfiltertrie
 
 .. conda:recipe:: bloomfiltertrie
    :replaces_section_title:
+   :noindex:
 
    An alignment\-free\, reference\-free and incremental data structure for colored de Bruijn graph with application to pan\-genome indexing.
 
@@ -22,11 +23,18 @@ bloomfiltertrie
 
    |downloads_bloomfiltertrie| |docker_bloomfiltertrie|
 
-   :versions: 0.8.7-0, 0.8.1-0
+   :versions:
+      
+      
+
+      ``0.8.7-0``,  ``0.8.1-0``
+
+      
+
    
    :depends jemalloc: 
    :depends judy: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

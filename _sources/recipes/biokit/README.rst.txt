@@ -8,6 +8,7 @@ biokit
 
 .. conda:recipe:: biokit
    :replaces_section_title:
+   :noindex:
 
    Set of visualisation and analysis tools for biological data sets
 
@@ -22,13 +23,28 @@ biokit
 
    |downloads_biokit| |docker_biokit|
 
-   :versions: 0.4.6-0, 0.4.4-1, 0.4.4-0, 0.4.2-1, 0.4.2-0, 0.4.1-4, 0.4.1-2, 0.4.1-0, 0.2.1-0, 0.1.4-0, 0.1.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.6-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-4</code>,  <code>0.4.1-2</code>,  <code>0.4.1-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+      
+
+      ``0.4.6-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-4``,  ``0.4.1-2``,  ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.4-0``,  ``0.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
-   :depends bioservices: >=1.4.16
+   :depends bioservices: ``>=1.4.16``
    :depends colorlog: 
    :depends colormap: 
-   :depends easydev: >=0.9.34
+   :depends easydev: ``>=0.9.34``
    :depends matplotlib-base: 
    :depends mesalib: 
    :depends numpydoc: 

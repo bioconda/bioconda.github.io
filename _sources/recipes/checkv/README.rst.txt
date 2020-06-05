@@ -8,6 +8,7 @@ checkv
 
 .. conda:recipe:: checkv
    :replaces_section_title:
+   :noindex:
 
    Assess the quality of metagenome\-assembled viral genomes.
 
@@ -22,17 +23,24 @@ checkv
 
    |downloads_checkv| |docker_checkv|
 
-   :versions: 0.6.0-1, 0.6.0-0, 0.5.1-1, 0.5.1-0, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
-   :depends diamond: 0.9.32
+   :depends diamond: ``0.9.32``
    :depends hmmer: 
-   :depends importlib-metadata: >=0.12
+   :depends importlib-metadata: ``>=0.12``
    :depends numpy: 
    :depends prodigal: 
    :depends psutil: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

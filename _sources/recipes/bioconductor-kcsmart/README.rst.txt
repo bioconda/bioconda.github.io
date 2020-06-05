@@ -8,6 +8,7 @@ bioconductor-kcsmart
 
 .. conda:recipe:: bioconductor-kcsmart
    :replaces_section_title:
+   :noindex:
 
    Multi sample aCGH analysis package using kernel convolution
 
@@ -23,12 +24,19 @@ bioconductor-kcsmart
 
    |downloads_bioconductor-kcsmart| |docker_bioconductor-kcsmart|
 
-   :versions: 2.46.0-0, 2.44.0-0, 2.42.0-1, 2.40.0-0, 2.38.0-0, 2.36.0-0, 2.34.0-0, 2.32.0-0
+   :versions:
+      
+      
+
+      ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-multtest: >=2.44.0,<2.45.0
-   :depends bioconductor-siggenes: >=1.62.0,<1.63.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-siggenes: ``>=1.62.0,<1.63.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-kernsmooth: 
    :requirements:
 

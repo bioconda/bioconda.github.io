@@ -8,6 +8,7 @@ bioconductor-myvariant
 
 .. conda:recipe:: bioconductor-myvariant
    :replaces_section_title:
+   :noindex:
 
    Accesses MyVariant.info variant query and annotation services
 
@@ -23,12 +24,19 @@ bioconductor-myvariant
 
    |downloads_bioconductor-myvariant| |docker_bioconductor-myvariant|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-variantannotation: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hmisc: 
    :depends r-httr: 
    :depends r-jsonlite: 

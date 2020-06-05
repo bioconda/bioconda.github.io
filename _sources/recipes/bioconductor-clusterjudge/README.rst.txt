@@ -8,6 +8,7 @@ bioconductor-clusterjudge
 
 .. conda:recipe:: bioconductor-clusterjudge
    :replaces_section_title:
+   :noindex:
 
    Judging Quality of Clustering Methods using Mutual Information
 
@@ -22,9 +23,16 @@ bioconductor-clusterjudge
 
    |downloads_bioconductor-clusterjudge| |docker_bioconductor-clusterjudge|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 
    :depends r-infotheo: 
    :depends r-jsonlite: 

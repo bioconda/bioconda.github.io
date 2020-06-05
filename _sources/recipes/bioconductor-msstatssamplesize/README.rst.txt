@@ -8,6 +8,7 @@ bioconductor-msstatssamplesize
 
 .. conda:recipe:: bioconductor-msstatssamplesize
    :replaces_section_title:
+   :noindex:
 
    Simulation tool for optimal design of high\-dimensional MS\-based proteomics experiment
 
@@ -22,11 +23,18 @@ bioconductor-msstatssamplesize
 
    |downloads_bioconductor-msstatssamplesize| |docker_bioconductor-msstatssamplesize|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-msstats: >=3.20.0,<3.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-msstats: ``>=3.20.0,<3.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-caret: 
    :depends r-ggplot2: 
    :depends r-gridextra: 

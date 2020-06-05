@@ -8,6 +8,7 @@ bioconductor-scclassify
 
 .. conda:recipe:: bioconductor-scclassify
    :replaces_section_title:
+   :noindex:
 
    scClassify\: single\-cell Hierarchical Classification
 
@@ -22,13 +23,20 @@ bioconductor-scclassify
 
    |downloads_bioconductor-scclassify| |docker_bioconductor-scclassify|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-hopach: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-hopach: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-diptest: 
    :depends r-ggplot2: 

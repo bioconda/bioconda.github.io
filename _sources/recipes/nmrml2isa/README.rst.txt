@@ -8,6 +8,7 @@ nmrml2isa
 
 .. conda:recipe:: nmrml2isa
    :replaces_section_title:
+   :noindex:
 
    nmrml2isa \- nmrML to ISA\-Tab parsing tool
 
@@ -22,12 +23,19 @@ nmrml2isa
 
    |downloads_nmrml2isa| |docker_nmrml2isa|
 
-   :versions: 0.3.1-0, 0.3.0-1, 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``
+
+      
+
    
    :depends lxml: 
    :depends openpyxl: 
    :depends pronto: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends six: 
    :requirements:
 

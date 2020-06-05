@@ -8,6 +8,7 @@ bioconductor-oligodata
 
 .. conda:recipe:: bioconductor-oligodata
    :replaces_section_title:
+   :noindex:
 
    Dataset samples for the oligo package
 
@@ -22,11 +23,18 @@ bioconductor-oligodata
 
    |downloads_bioconductor-oligodata| |docker_bioconductor-oligodata|
 
-   :versions: 1.8.0-4, 1.8.0-3, 1.8.0-2, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-4``,  ``1.8.0-3``,  ``1.8.0-2``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-oligo: >=1.52.0,<1.53.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

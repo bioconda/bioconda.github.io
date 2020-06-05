@@ -8,6 +8,7 @@ yaggo
 
 .. conda:recipe:: yaggo
    :replaces_section_title:
+   :noindex:
 
    Yaggo is a tool to generate command line parsers for C\+\+. Yaggo stands for \"Yet Another GenGetOpt\" and is inspired by GNU Gengetopt.
 
@@ -22,9 +23,16 @@ yaggo
 
    |downloads_yaggo| |docker_yaggo|
 
-   :versions: 1.5.10-0, 1.5.9-1, 1.5.9-0, 1.5.8-0
+   :versions:
+      
+      
+
+      ``1.5.10-0``,  ``1.5.9-1``,  ``1.5.9-0``,  ``1.5.8-0``
+
+      
+
    
-   :depends ruby: >2.2.3
+   :depends ruby: ``>2.2.3``
    :requirements:
 
    .. rubric:: Installation

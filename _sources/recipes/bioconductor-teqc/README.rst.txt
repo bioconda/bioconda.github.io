@@ -8,6 +8,7 @@ bioconductor-teqc
 
 .. conda:recipe:: bioconductor-teqc
    :replaces_section_title:
+   :noindex:
 
    Quality control for target capture experiments
 
@@ -23,13 +24,20 @@ bioconductor-teqc
 
    |downloads_bioconductor-teqc| |docker_bioconductor-teqc|
 
-   :versions: 4.10.0-0, 4.8.0-0, 4.6.0-1, 4.4.0-0, 4.2.0-0, 3.18.0-0, 3.16.0-0
+   :versions:
+      
+      
+
+      ``4.10.0-0``,  ``4.8.0-0``,  ``4.6.0-1``,  ``4.4.0-0``,  ``4.2.0-0``,  ``3.18.0-0``,  ``3.16.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hwriter: 
    :requirements:
 

@@ -8,6 +8,7 @@ fastphylo
 
 .. conda:recipe:: fastphylo
    :replaces_section_title:
+   :noindex:
 
    Fastphylo is software project containing the implementations of the algorithms \"Fast Computation of Distance Estimators\" and \"Fast Neighbor Joining\".
 
@@ -23,10 +24,17 @@ fastphylo
 
    |downloads_fastphylo| |docker_fastphylo|
 
-   :versions: 1.0.3-1, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-1``,  ``1.0.3-0``
+
+      
+
    
-   :depends libxml2: >=2.9.8,<2.10.0a0
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends libxml2: ``>=2.9.8,<2.10.0a0``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :depends openmpi: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-bsseqdata
 
 .. conda:recipe:: bioconductor-bsseqdata
    :replaces_section_title:
+   :noindex:
 
    Example whole genome bisulfite data for the bsseq package
 
@@ -22,11 +23,18 @@ bioconductor-bsseqdata
 
    |downloads_bioconductor-bsseqdata| |docker_bioconductor-bsseqdata|
 
-   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.20.0-0
+   :versions:
+      
+      
+
+      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+
+      
+
    
-   :depends bioconductor-bsseq: >=1.24.0,<1.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsseq: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-human650v3acrlmm
 
 .. conda:recipe:: bioconductor-human650v3acrlmm
    :replaces_section_title:
+   :noindex:
 
    Metadata for fast genotyping with the \'crlmm\' package
 
@@ -22,10 +23,17 @@ bioconductor-human650v3acrlmm
 
    |downloads_bioconductor-human650v3acrlmm| |docker_bioconductor-human650v3acrlmm|
 
-   :versions: 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

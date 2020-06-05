@@ -8,6 +8,7 @@ lsd
 
 .. conda:recipe:: lsd
    :replaces_section_title:
+   :noindex:
 
    The LAPPS Grid Services DSL \(LSD\). Used to invoke LAPPS web services from the command line.
 
@@ -22,7 +23,14 @@ lsd
 
    |downloads_lsd| |docker_lsd|
 
-   :versions: 2.2.3-2, 2.2.3-1, 2.2.3-0
+   :versions:
+      
+      
+
+      ``2.2.3-2``,  ``2.2.3-1``,  ``2.2.3-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

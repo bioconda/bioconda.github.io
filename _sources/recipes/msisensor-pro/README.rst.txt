@@ -8,6 +8,7 @@ msisensor-pro
 
 .. conda:recipe:: msisensor-pro
    :replaces_section_title:
+   :noindex:
 
    Microsatellite Instability \(MSI\) detection using high\-throughput sequencing data.
 
@@ -22,13 +23,20 @@ msisensor-pro
 
    |downloads_msisensor-pro| |docker_msisensor-pro|
 
-   :versions: 1.0.a-1, 1.0.a-0, 0.1.1-6, 0.1.1-5, 0.1.1-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.a-1``,  ``1.0.a-0``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-0``,  ``0.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends ncurses: >=6.1,<6.2.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends ncurses: ``>=6.1,<6.2.0a0``
    :depends openmp: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

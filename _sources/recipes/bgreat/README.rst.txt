@@ -8,6 +8,7 @@ bgreat
 
 .. conda:recipe:: bgreat
    :replaces_section_title:
+   :noindex:
 
    BGREAT2 is a read mapping tool for NGS sequencing data that align reads on a de Bruijn graph. Preliminary version described at https\:\/\/bmcbioinformatics.biomedcentral.com\/articles\/10.1186\/s12859\-016\-1103\-9 and used in Bcool a short read corrector \(https\:\/\/arxiv.org\/abs\/1711.03336\)
 
@@ -22,11 +23,18 @@ bgreat
 
    |downloads_bgreat| |docker_bgreat|
 
-   :versions: 2.0.0-2, 2.0.0-1, 2.0.0-0
+   :versions:
+      
+      
+
+      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

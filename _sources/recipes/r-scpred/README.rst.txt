@@ -8,6 +8,7 @@ r-scpred
 
 .. conda:recipe:: r-scpred
    :replaces_section_title:
+   :noindex:
 
    Bioconda\-installable version of scPred cell type classification method.
 
@@ -23,9 +24,16 @@ r-scpred
 
    |downloads_r-scpred| |docker_r-scpred|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends bioconductor-singlecellexperiment: 1.6.0.*
+   :depends bioconductor-singlecellexperiment: ``1.6.0.*``
    :depends r-caret: 
    :depends r-cowplot: 
    :depends r-dplyr: 

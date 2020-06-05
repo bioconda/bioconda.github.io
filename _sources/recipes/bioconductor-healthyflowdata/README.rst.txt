@@ -8,6 +8,7 @@ bioconductor-healthyflowdata
 
 .. conda:recipe:: bioconductor-healthyflowdata
    :replaces_section_title:
+   :noindex:
 
    Healthy dataset used by the flowMatch package
 
@@ -22,11 +23,18 @@ bioconductor-healthyflowdata
 
    |downloads_bioconductor-healthyflowdata| |docker_bioconductor-healthyflowdata|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

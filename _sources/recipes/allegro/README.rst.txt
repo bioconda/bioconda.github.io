@@ -8,6 +8,7 @@ allegro
 
 .. conda:recipe:: allegro
    :replaces_section_title:
+   :noindex:
 
    A fast linkage and haplotype analysis utility making use of MTBDD to reduce complexity.
 
@@ -22,10 +23,17 @@ allegro
 
    |downloads_allegro| |docker_allegro|
 
-   :versions: 3-2, 3-1, 2-0
+   :versions:
+      
+      
+
+      ``3-2``,  ``3-1``,  ``2-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

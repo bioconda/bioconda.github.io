@@ -8,6 +8,7 @@ bioconductor-singlecellexperiment-scripts
 
 .. conda:recipe:: bioconductor-singlecellexperiment-scripts
    :replaces_section_title:
+   :noindex:
 
    A set of wrappers for operations associated with the SingleCellExperiment package. Functions in R packages are hard to call when building workflows outside of R\, so this package adds a set of simple wrappers with robust argument parsing. Intermediate steps are currently mainly serialized R objects\, but the ultimate objective is to have language\-agnostic intermediate formats allowing composite workflows using a variety of software packages.
 
@@ -22,7 +23,14 @@ bioconductor-singlecellexperiment-scripts
 
    |downloads_bioconductor-singlecellexperiment-scripts| |docker_bioconductor-singlecellexperiment-scripts|
 
-   :versions: 0.0.3-0, 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+
+      
+
    
    :depends bioconductor-singlecellexperiment: 
    :depends r-base: 

@@ -8,6 +8,7 @@ msaboot
 
 .. conda:recipe:: msaboot
    :replaces_section_title:
+   :noindex:
 
    Generate bootstrapping replicates for multiple sequence alignment data.
 
@@ -22,7 +23,14 @@ msaboot
 
    |downloads_msaboot| |docker_msaboot|
 
-   :versions: 0.1.2-1, 0.1.2-0, 0.1.1-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.0-0``
+
+      
+
    
    :depends biopython: 
    :depends numpy: 

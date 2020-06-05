@@ -8,6 +8,7 @@ bioconductor-geneclassifiers
 
 .. conda:recipe:: bioconductor-geneclassifiers
    :replaces_section_title:
+   :noindex:
 
    Application of gene classifiers
 
@@ -22,11 +23,18 @@ bioconductor-geneclassifiers
 
    |downloads_bioconductor-geneclassifiers| |docker_bioconductor-geneclassifiers|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

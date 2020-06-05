@@ -8,6 +8,7 @@ biopet-validateannotation
 
 .. conda:recipe:: biopet-validateannotation
    :replaces_section_title:
+   :noindex:
 
    ValidateAnnotationvalidates whether an annotation file is correct.
 
@@ -28,9 +29,16 @@ biopet-validateannotation
 
    |downloads_biopet-validateannotation| |docker_biopet-validateannotation|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

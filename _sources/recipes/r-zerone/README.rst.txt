@@ -8,6 +8,7 @@ r-zerone
 
 .. conda:recipe:: r-zerone
    :replaces_section_title:
+   :noindex:
 
    Zerone discretizes several ChIP\-seq replicates simultaneously and resolves conflicts between them.
 
@@ -22,9 +23,16 @@ r-zerone
 
    |downloads_r-zerone| |docker_r-zerone|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

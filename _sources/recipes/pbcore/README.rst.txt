@@ -8,6 +8,7 @@ pbcore
 
 .. conda:recipe:: pbcore
    :replaces_section_title:
+   :noindex:
 
    A Python library for reading and writing PacBio data files
 
@@ -22,12 +23,27 @@ pbcore
 
    |downloads_pbcore| |docker_pbcore|
 
-   :versions: 2.1.2-1, 2.1.2-0, 1.7.1-0, 1.6.5-0, 1.5.1-2, 1.5.1-1, 1.5.1-0, 1.2.10-2, 1.2.10-1, 1.2.10-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>1.7.1-0</code>,  <code>1.6.5-0</code>,  <code>1.5.1-2</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.2.10-2</code>,  <code>1.2.10-1</code>,  </span></summary>
+      
+
+      ``2.1.2-1``,  ``2.1.2-0``,  ``1.7.1-0``,  ``1.6.5-0``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: >=1.74
-   :depends numpy: >=1.17
-   :depends pysam: >=0.15.1
-   :depends python: >=3.7,<3.8
+   :depends biopython: ``>=1.74``
+   :depends numpy: ``>=1.17``
+   :depends pysam: ``>=0.15.1``
+   :depends python: ``>=3.7,<3.8``
    :depends setuptools: 
    :requirements:
 

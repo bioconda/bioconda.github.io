@@ -8,6 +8,7 @@ fwdpp
 
 .. conda:recipe:: fwdpp
    :replaces_section_title:
+   :noindex:
 
    A C\+\+ template library for forward\-time population genetic simulation. 
 
@@ -23,12 +24,19 @@ fwdpp
 
    |downloads_fwdpp| |docker_fwdpp|
 
-   :versions: 0.5.7-3, 0.5.7-2, 0.5.7-1, 0.5.7-0, 0.5.5-0, 0.5.4-3, 0.5.4-2, 0.5.3-1, 0.5.3-0
+   :versions:
+      
+      
+
+      ``0.5.7-3``,  ``0.5.7-2``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.5-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.3-1``,  ``0.5.3-0``
+
+      
+
    
-   :depends boost: >=1.66.0,<1.66.1.0a0
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends openblas: >=0.2.20,<0.2.21.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost: ``>=1.66.0,<1.66.1.0a0``
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

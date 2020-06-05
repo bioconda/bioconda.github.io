@@ -8,6 +8,7 @@ phylotoast
 
 .. conda:recipe:: phylotoast
    :replaces_section_title:
+   :noindex:
 
    Tools for phylogenetic data analysis including visualization and cluster\-computing support. 
 
@@ -22,17 +23,24 @@ phylotoast
 
    |downloads_phylotoast| |docker_phylotoast|
 
-   :versions: 1.4.0rc2-0, 1.3.0-1, 1.3.0-0
+   :versions:
+      
+      
+
+      ``1.4.0rc2-0``,  ``1.3.0-1``,  ``1.3.0-0``
+
+      
+
    
-   :depends biom-format: >=2.1.5
-   :depends biopython: >=1.60
+   :depends biom-format: ``>=2.1.5``
+   :depends biopython: ``>=1.60``
    :depends h5py: 
-   :depends matplotlib: <=1.5.3
+   :depends matplotlib: ``<=1.5.3``
    :depends numpy: 
    :depends palettable: 
    :depends pandas: 
-   :depends python: 2.7*
-   :depends scikit-bio: <=0.4.2
+   :depends python: ``2.7*``
+   :depends scikit-bio: ``<=0.4.2``
    :depends scikit-learn: 
    :depends scipy: 
    :depends statsmodels: 

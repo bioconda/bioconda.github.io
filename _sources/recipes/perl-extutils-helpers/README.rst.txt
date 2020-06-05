@@ -8,6 +8,7 @@ perl-extutils-helpers
 
 .. conda:recipe:: perl-extutils-helpers
    :replaces_section_title:
+   :noindex:
 
    Various portability utilities for module builders
 
@@ -22,9 +23,16 @@ perl-extutils-helpers
 
    |downloads_perl-extutils-helpers| |docker_perl-extutils-helpers|
 
-   :versions: 0.026-0, 0.022-0
+   :versions:
+      
+      
+
+      ``0.026-0``,  ``0.022-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-text-parsewords: 

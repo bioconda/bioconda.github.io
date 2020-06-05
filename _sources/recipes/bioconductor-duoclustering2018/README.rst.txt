@@ -8,6 +8,7 @@ bioconductor-duoclustering2018
 
 .. conda:recipe:: bioconductor-duoclustering2018
    :replaces_section_title:
+   :noindex:
 
    Data\, Clustering Results and Visualization Functions From Duò et al \(2018\)
 
@@ -22,11 +23,18 @@ bioconductor-duoclustering2018
 
    |downloads_bioconductor-duoclustering2018| |docker_bioconductor-duoclustering2018|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggthemes: 

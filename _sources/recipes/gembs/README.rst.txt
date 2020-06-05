@@ -8,6 +8,7 @@ gembs
 
 .. conda:recipe:: gembs
    :replaces_section_title:
+   :noindex:
 
    gemBS is a bioinformatics pipeline designed for high throughput analysis of DNA methylation from Whole Genome Bisulfite Sequencing data \(WGBS\).
 
@@ -23,24 +24,31 @@ gembs
 
    |downloads_gembs| |docker_gembs|
 
-   :versions: 3.2.0-3, 3.2.0-2, 3.2.0-1, 3.2.0-0
+   :versions:
+      
+      
+
+      ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``
+
+      
+
    
-   :depends bs_call: 2.02.*
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends curl: >=7.59.0,<8.0a0
-   :depends gem3-mapper: 3.6.1.*
-   :depends htslib: >=1.8,<1.9.0a0
-   :depends libgcc-ng: >=4.9
+   :depends bs_call: ``2.02.*``
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends curl: ``>=7.59.0,<8.0a0``
+   :depends gem3-mapper: ``3.6.1.*``
+   :depends htslib: ``>=1.8,<1.9.0a0``
+   :depends libgcc-ng: ``>=4.9``
    :depends matplotlib: 
    :depends multiprocess: 
    :depends pigz: 
-   :depends python: >=3.5,<3.6.0a0
-   :depends samtools: 1.8.*
+   :depends python: ``>=3.5,<3.6.0a0``
+   :depends samtools: ``1.8.*``
    :depends ucsc-bedtobigbed: 
    :depends ucsc-wigtobigwig: 
    :depends wget: 
-   :depends xz: >=5.2.4,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

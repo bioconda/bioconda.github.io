@@ -8,6 +8,7 @@ megan
 
 .. conda:recipe:: megan
    :replaces_section_title:
+   :noindex:
 
    A tool for studying the taxonomic content of a set of DNA reads
 
@@ -23,9 +24,16 @@ megan
 
    |downloads_megan| |docker_megan|
 
-   :versions: 6.12.3-0
+   :versions:
+      
+      
+
+      ``6.12.3-0``
+
+      
+
    
-   :depends openjdk: >=8.0.144
+   :depends openjdk: ``>=8.0.144``
    :requirements:
 
    .. rubric:: Installation

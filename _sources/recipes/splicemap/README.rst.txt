@@ -8,6 +8,7 @@ splicemap
 
 .. conda:recipe:: splicemap
    :replaces_section_title:
+   :noindex:
 
    Detects splice junctions from RNA\-seq data. This method does not depend on any existing annotation of gene structures and is capable of finding novel splice junctions with high sensitivity and specificity. It can handle long reads \(50–100 nt\) and can exploit paired\-read information to improve mapping accuracy.
 
@@ -23,7 +24,14 @@ splicemap
 
    |downloads_splicemap| |docker_splicemap|
 
-   :versions: 3.3.5.2-1, 3.3.5.2-0
+   :versions:
+      
+      
+
+      ``3.3.5.2-1``,  ``3.3.5.2-0``
+
+      
+
    
    :depends bowtie: 
    :depends libgcc: 

@@ -8,6 +8,7 @@ bioconductor-cellscape
 
 .. conda:recipe:: bioconductor-cellscape
    :replaces_section_title:
+   :noindex:
 
    Explores single cell copy number profiles in the context of a single cell tree
 
@@ -22,16 +23,23 @@ bioconductor-cellscape
 
    |downloads_bioconductor-cellscape| |docker_bioconductor-cellscape|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dplyr: >=0.4.3
-   :depends r-gtools: >=3.5.0
-   :depends r-htmlwidgets: >=0.5
-   :depends r-jsonlite: >=0.9.19
-   :depends r-plyr: >=1.8.3
-   :depends r-reshape2: >=1.4.1
-   :depends r-stringr: >=1.0.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: ``>=0.4.3``
+   :depends r-gtools: ``>=3.5.0``
+   :depends r-htmlwidgets: ``>=0.5``
+   :depends r-jsonlite: ``>=0.9.19``
+   :depends r-plyr: ``>=1.8.3``
+   :depends r-reshape2: ``>=1.4.1``
+   :depends r-stringr: ``>=1.0.0``
    :requirements:
 
    .. rubric:: Installation

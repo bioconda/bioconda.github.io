@@ -8,6 +8,7 @@ bioconductor-arraymvout
 
 .. conda:recipe:: bioconductor-arraymvout
    :replaces_section_title:
+   :noindex:
 
    multivariate outlier detection for expression array QA
 
@@ -22,16 +23,23 @@ bioconductor-arraymvout
 
    |downloads_bioconductor-arraymvout| |docker_bioconductor-arraymvout|
 
-   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-1, 1.40.0-0
+   :versions:
+      
+      
+
+      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.40.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-affycontam: >=1.46.0,<1.47.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-lumi: >=2.40.0,<2.41.0
-   :depends bioconductor-mdqc: >=1.50.0,<1.51.0
-   :depends bioconductor-parody: >=1.46.0,<1.47.0
-   :depends bioconductor-simpleaffy: >=2.64.0,<2.65.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-affycontam: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-lumi: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-mdqc: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-parody: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-simpleaffy: ``>=2.64.0,<2.65.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

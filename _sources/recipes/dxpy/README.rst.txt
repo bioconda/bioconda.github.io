@@ -8,6 +8,7 @@ dxpy
 
 .. conda:recipe:: dxpy
    :replaces_section_title:
+   :noindex:
 
    DNAnexus Platform API bindings for Python
 
@@ -24,17 +25,32 @@ dxpy
 
    |downloads_dxpy| |docker_dxpy|
 
-   :versions: 0.295.1-0, 0.294.0-0, 0.293.0-0, 0.292.0-0, 0.291.1-0, 0.290.1-0, 0.289.1-0, 0.288.0-0, 0.287.0-0, 0.286.1-0, 0.285.1-0, 0.285.0-0, 0.284.0-0, 0.283.0-0, 0.282.0-0, 0.273.0-0, 0.261.1-0, 0.257.3-0, 0.254.0-1, 0.254.0-0, 0.250.2-0, 0.247.0-0, 0.225.0-0, 0.223.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.295.1-0</code>,  <code>0.294.0-0</code>,  <code>0.293.0-0</code>,  <code>0.292.0-0</code>,  <code>0.291.1-0</code>,  <code>0.290.1-0</code>,  <code>0.289.1-0</code>,  <code>0.288.0-0</code>,  <code>0.287.0-0</code>,  </span></summary>
+      
+
+      ``0.295.1-0``,  ``0.294.0-0``,  ``0.293.0-0``,  ``0.292.0-0``,  ``0.291.1-0``,  ``0.290.1-0``,  ``0.289.1-0``,  ``0.288.0-0``,  ``0.287.0-0``,  ``0.286.1-0``,  ``0.285.1-0``,  ``0.285.0-0``,  ``0.284.0-0``,  ``0.283.0-0``,  ``0.282.0-0``,  ``0.273.0-0``,  ``0.261.1-0``,  ``0.257.3-0``,  ``0.254.0-1``,  ``0.254.0-0``,  ``0.250.2-0``,  ``0.247.0-0``,  ``0.225.0-0``,  ``0.223.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends argcomplete: >=1.9.4
-   :depends beautifulsoup4: >=4.4.1
-   :depends cryptography: <=2.2.2
-   :depends psutil: >=3.3.0
+   :depends argcomplete: ``>=1.9.4``
+   :depends beautifulsoup4: ``>=4.4.1``
+   :depends cryptography: ``<=2.2.2``
+   :depends psutil: ``>=3.3.0``
    :depends python: 
-   :depends python-dateutil: >=2.5
-   :depends python-magic: >=0.4.6
-   :depends requests: >=2.8.0
-   :depends websocket-client: >=0.53.0
+   :depends python-dateutil: ``>=2.5``
+   :depends python-magic: ``>=0.4.6``
+   :depends requests: ``>=2.8.0``
+   :depends websocket-client: ``>=0.53.0``
    :requirements:
 
    .. rubric:: Installation

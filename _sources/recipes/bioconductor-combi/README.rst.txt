@@ -8,6 +8,7 @@ bioconductor-combi
 
 .. conda:recipe:: bioconductor-combi
    :replaces_section_title:
+   :noindex:
 
    Compositional omics model based visual integration
 
@@ -22,14 +23,21 @@ bioconductor-combi
 
    |downloads_bioconductor-combi| |docker_bioconductor-combi|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-phyloseq: >=1.32.0,<1.33.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-phyloseq: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
    :depends r-alabama: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bb: 
    :depends r-cobs: 
    :depends r-ggplot2: 

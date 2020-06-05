@@ -8,6 +8,7 @@ bufet
 
 .. conda:recipe:: bufet
    :replaces_section_title:
+   :noindex:
 
    Tool that performs the unbiased miRNA functional enrichment analysis \(Bleazard et al.\) requiring significantly reduced excution times \(less than 10 minutes for 1 million iterations\).
 
@@ -23,10 +24,17 @@ bufet
 
    |downloads_bufet| |docker_bufet|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

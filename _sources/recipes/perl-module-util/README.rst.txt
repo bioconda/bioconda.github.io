@@ -8,6 +8,7 @@ perl-module-util
 
 .. conda:recipe:: perl-module-util
    :replaces_section_title:
+   :noindex:
 
    Module name tools and transformations
 
@@ -22,9 +23,16 @@ perl-module-util
 
    |downloads_perl-module-util| |docker_perl-module-util|
 
-   :versions: 1.09-0
+   :versions:
+      
+      
+
+      ``1.09-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

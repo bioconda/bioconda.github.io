@@ -8,6 +8,7 @@ music-deconvolution
 
 .. conda:recipe:: music-deconvolution
    :replaces_section_title:
+   :noindex:
 
    Multi\-subject single cell deconvolution
 
@@ -22,10 +23,17 @@ music-deconvolution
 
    |downloads_music-deconvolution| |docker_music-deconvolution|
 
-   :versions: 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``
+
+      
+
    
    :depends bioconductor-biobase: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
    :depends r-ggplot2: 
    :depends r-mcmcpack: 
    :depends r-nnls: 

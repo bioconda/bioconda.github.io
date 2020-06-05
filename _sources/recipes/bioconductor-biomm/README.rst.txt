@@ -8,6 +8,7 @@ bioconductor-biomm
 
 .. conda:recipe:: bioconductor-biomm
    :replaces_section_title:
+   :noindex:
 
    BioMM\: Biological\-informed Multi\-stage Machine learning framework for phenotype prediction using omics data
 
@@ -22,11 +23,18 @@ bioconductor-biomm
 
    |downloads_bioconductor-biomm| |docker_bioconductor-biomm|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-variancepartition: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-variancepartition: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cmplot: 
    :depends r-e1071: 
    :depends r-ggplot2: 

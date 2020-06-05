@@ -8,6 +8,7 @@ pairsnp
 
 .. conda:recipe:: pairsnp
    :replaces_section_title:
+   :noindex:
 
    pairsnp calculates pairwise SNP distance matrices from multiple sequence alignment fasta files.
 
@@ -22,12 +23,19 @@ pairsnp
 
    |downloads_pairsnp| |docker_pairsnp|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends armadillo: >=9.200,<10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openblas: >=0.3.6,<0.3.7.0a0
+   :depends armadillo: ``>=9.200,<10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
    :depends openmp: 
    :requirements:
 

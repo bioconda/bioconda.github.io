@@ -8,6 +8,7 @@ pygmes
 
 .. conda:recipe:: pygmes
    :replaces_section_title:
+   :noindex:
 
    Run GeneMark\-ES using pretrained models
 
@@ -22,13 +23,20 @@ pygmes
 
    |downloads_pygmes| |docker_pygmes|
 
-   :versions: 0.1.3.4-0
+   :versions:
+      
+      
+
+      ``0.1.3.4-0``
+
+      
+
    
-   :depends diamond: >=0.8
+   :depends diamond: ``>=0.8``
    :depends ete3: 
-   :depends prodigal: >=2
-   :depends pyfaidx: >=0.5.8
-   :depends python: >=3.6
+   :depends prodigal: ``>=2``
+   :depends pyfaidx: ``>=0.5.8``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

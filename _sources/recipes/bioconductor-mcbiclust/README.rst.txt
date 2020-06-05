@@ -8,6 +8,7 @@ bioconductor-mcbiclust
 
 .. conda:recipe:: bioconductor-mcbiclust
    :replaces_section_title:
+   :noindex:
 
    Massive correlating biclusters for gene expression data and associated methods
 
@@ -22,13 +23,20 @@ bioconductor-mcbiclust
 
    |downloads_bioconductor-mcbiclust| |docker_bioconductor-mcbiclust|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-ggally: 
    :depends r-ggplot2: 

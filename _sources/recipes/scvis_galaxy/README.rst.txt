@@ -8,6 +8,7 @@ scvis_galaxy
 
 .. conda:recipe:: scvis_galaxy
    :replaces_section_title:
+   :noindex:
 
    scvis is a python package for dimension reduction of high\-dimensional biological data\, especially single\-cell RNA\-sequencing \(scRNA\-seq\) data.
 
@@ -22,17 +23,24 @@ scvis_galaxy
 
    |downloads_scvis_galaxy| |docker_scvis_galaxy|
 
-   :versions: 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``
+
+      
+
    
-   :depends matplotlib: >=1.5.1
+   :depends matplotlib: ``>=1.5.1``
    :depends nomkl: 
-   :depends numpy: >=1.11.1
-   :depends pandas: >=0.19.1
+   :depends numpy: ``>=1.11.1``
+   :depends pandas: ``>=0.19.1``
    :depends pip: 
    :depends python: 
-   :depends pyyaml: >=3.11
+   :depends pyyaml: ``>=3.11``
    :depends setuptools: 
-   :depends tensorflow: >=1.13
+   :depends tensorflow: ``>=1.13``
    :depends wheel: 
    :requirements:
 

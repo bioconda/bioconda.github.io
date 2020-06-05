@@ -8,6 +8,7 @@ bioconductor-keggorthology
 
 .. conda:recipe:: bioconductor-keggorthology
    :replaces_section_title:
+   :noindex:
 
    graph support for KO\, KEGG Orthology
 
@@ -23,12 +24,19 @@ bioconductor-keggorthology
 
    |downloads_bioconductor-keggorthology| |docker_bioconductor-keggorthology|
 
-   :versions: 2.40.0-0, 2.38.0-0, 2.36.0-1, 2.34.0-0, 2.32.0-0, 2.30.0-0
+   :versions:
+      
+      
+
+      ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-hgu95av2.db: >=3.2.0,<3.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-hgu95av2.db: ``>=3.2.0,<3.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :requirements:
 

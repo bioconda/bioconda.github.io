@@ -8,6 +8,7 @@ perl-tie-cacher
 
 .. conda:recipe:: perl-tie-cacher
    :replaces_section_title:
+   :noindex:
 
    Cache a \(sub\)set of key\/value pairs. Tie and OO interface.
 
@@ -22,9 +23,16 @@ perl-tie-cacher
 
    |downloads_perl-tie-cacher| |docker_perl-tie-cacher|
 
-   :versions: 0.09-3, 0.09-2, 0.09-1
+   :versions:
+      
+      
+
+      ``0.09-3``,  ``0.09-2``,  ``0.09-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-test-simple: 
    :requirements:
 

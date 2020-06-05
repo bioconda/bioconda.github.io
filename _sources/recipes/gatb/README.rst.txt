@@ -8,6 +8,7 @@ gatb
 
 .. conda:recipe:: gatb
    :replaces_section_title:
+   :noindex:
 
    The Genome Analysis Toolbox with de\-Bruijn graph
 
@@ -22,13 +23,20 @@ gatb
 
    |downloads_gatb| |docker_gatb|
 
-   :versions: 1.4.1-1, 1.4.1-0
+   :versions:
+      
+      
+
+      ``1.4.1-1``,  ``1.4.1-0``
+
+      
+
    
-   :depends boost: >=1.70.0,<1.70.1.0a0
-   :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost: ``>=1.70.0,<1.70.1.0a0``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ nonpareil
 
 .. conda:recipe:: nonpareil
    :replaces_section_title:
+   :noindex:
 
    Estimate average coverage and create curves for metagenomic datasets
 
@@ -23,10 +24,17 @@ nonpareil
 
    |downloads_nonpareil| |docker_nonpareil|
 
-   :versions: 3.3.3-1, 3.3.3-0, 3.3.1-0, 3.2-0, 3.1.1-0, 2.4.01-0, 2.4-0
+   :versions:
+      
+      
+
+      ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.2-0``,  ``3.1.1-0``,  ``2.4.01-0``,  ``2.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
    :requirements:
 
    .. rubric:: Installation

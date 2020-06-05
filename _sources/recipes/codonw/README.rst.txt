@@ -8,6 +8,7 @@ codonw
 
 .. conda:recipe:: codonw
    :replaces_section_title:
+   :noindex:
 
    CodonW is a programme designed to simplify the Multivariate analysis \(correspondence analysis\) of codon and amino acid usage.
 
@@ -22,9 +23,16 @@ codonw
 
    |downloads_codonw| |docker_codonw|
 
-   :versions: 1.4.4-1, 1.4.4-0
+   :versions:
+      
+      
+
+      ``1.4.4-1``,  ``1.4.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

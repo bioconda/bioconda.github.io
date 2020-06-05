@@ -8,6 +8,7 @@ bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
 
 .. conda:recipe:: bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
    :replaces_section_title:
+   :noindex:
 
    1000genomes Reference Genome Sequence \(hs37d5\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
 
    |downloads_bioconductor-bsgenome.hsapiens.1000genomes.hs37d5| |docker_bioconductor-bsgenome.hsapiens.1000genomes.hs37d5|
 
-   :versions: 0.99.1-4, 0.99.1-3, 0.99.1-2, 0.99.1-0
+   :versions:
+      
+      
+
+      ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-2``,  ``0.99.1-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

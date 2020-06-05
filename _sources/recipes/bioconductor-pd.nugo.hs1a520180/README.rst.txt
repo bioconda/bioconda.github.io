@@ -8,6 +8,7 @@ bioconductor-pd.nugo.hs1a520180
 
 .. conda:recipe:: bioconductor-pd.nugo.hs1a520180
    :replaces_section_title:
+   :noindex:
 
    Platform Design Info for The Manufacturer\'s Name NuGO\_Hs1a520180
 
@@ -22,17 +23,24 @@ bioconductor-pd.nugo.hs1a520180
 
    |downloads_bioconductor-pd.nugo.hs1a520180| |docker_bioconductor-pd.nugo.hs1a520180|
 
-   :versions: 3.4.0-5, 3.4.0-4, 3.4.0-3, 3.4.0-1, 3.4.0-0
+   :versions:
+      
+      
+
+      ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-oligo: >=1.52.0,<1.53.0
-   :depends bioconductor-oligoclasses: >=1.50.0,<1.51.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dbi: >=0.3.1
-   :depends r-rsqlite: >=1.0.0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-oligoclasses: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dbi: ``>=0.3.1``
+   :depends r-rsqlite: ``>=1.0.0``
    :requirements:
 
    .. rubric:: Installation

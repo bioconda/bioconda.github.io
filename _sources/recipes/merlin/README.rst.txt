@@ -8,6 +8,7 @@ merlin
 
 .. conda:recipe:: merlin
    :replaces_section_title:
+   :noindex:
 
    MERLIN uses sparse trees to represent gene flow in pedigrees and is a fast pedigree analysis package
 
@@ -23,10 +24,17 @@ merlin
 
    |downloads_merlin| |docker_merlin|
 
-   :versions: 1.1.2-2, 1.1.2-1, 1.1.2-0
+   :versions:
+      
+      
+
+      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

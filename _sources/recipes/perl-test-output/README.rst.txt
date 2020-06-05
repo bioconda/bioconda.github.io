@@ -8,6 +8,7 @@ perl-test-output
 
 .. conda:recipe:: perl-test-output
    :replaces_section_title:
+   :noindex:
 
    Utilities to test STDOUT and STDERR messages.
 
@@ -22,9 +23,16 @@ perl-test-output
 
    |downloads_perl-test-output| |docker_perl-test-output|
 
-   :versions: 1.031-0, 1.03-1, 1.03-0
+   :versions:
+      
+      
+
+      ``1.031-0``,  ``1.03-1``,  ``1.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-capture-tiny: 
    :depends perl-file-temp: 
    :requirements:

@@ -8,6 +8,7 @@ rapidnj
 
 .. conda:recipe:: rapidnj
    :replaces_section_title:
+   :noindex:
 
    RapidNJ is an algorithmic engineered implementation of canonical neighbour\-joining. It uses an efficient search heuristic to speed\-up the core computations of the neighbour\-joining method that enables RapidNJ to outperform other state\-of\-the\-art neighbour\-joining implementations.
 
@@ -23,10 +24,17 @@ rapidnj
 
    |downloads_rapidnj| |docker_rapidnj|
 
-   :versions: v2.3.2-1, v2.3.2-0
+   :versions:
+      
+      
+
+      ``v2.3.2-1``,  ``v2.3.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

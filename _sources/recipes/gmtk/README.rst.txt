@@ -8,6 +8,7 @@ gmtk
 
 .. conda:recipe:: gmtk
    :replaces_section_title:
+   :noindex:
 
    A publicly available toolkit for rapidly prototyping statistical models using dynamic graphical models \(DGMs\) and dynamic Bayesian networks \(DBNs\)
 
@@ -22,13 +23,20 @@ gmtk
 
    |downloads_gmtk| |docker_gmtk|
 
-   :versions: 1.4.4-6, 1.4.4-5, 1.4.4-4, 1.4.4-3, 1.4.4-2, 1.4.4-1, 1.4.4-0
+   :versions:
+      
+      
+
+      ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
+
+      
+
    
-   :depends gxx_linux-64: 7.*
-   :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends gxx_linux-64: ``7.*``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

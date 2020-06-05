@@ -8,6 +8,7 @@ bioconductor-cytodx
 
 .. conda:recipe:: bioconductor-cytodx
    :replaces_section_title:
+   :noindex:
 
    Robust prediction of clinical outcomes using cytometry data without cell gating
 
@@ -22,10 +23,17 @@ bioconductor-cytodx
 
    |downloads_bioconductor-cytodx| |docker_bioconductor-cytodx|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.1-1, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-1``,  ``1.2.1-0``
+
+      
+
    
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-glmnet: 

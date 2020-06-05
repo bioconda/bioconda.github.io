@@ -8,6 +8,7 @@ perl-io-all
 
 .. conda:recipe:: perl-io-all
    :replaces_section_title:
+   :noindex:
 
    Combines all of the best Perl IO modules into a single nifty object oriented interface
 
@@ -22,9 +23,16 @@ perl-io-all
 
    |downloads_perl-io-all| |docker_perl-io-all|
 
-   :versions: 0.87-0, 0.86-1, 0.86-0
+   :versions:
+      
+      
+
+      ``0.87-0``,  ``0.86-1``,  ``0.86-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-scalar-list-utils: 
    :requirements:
 

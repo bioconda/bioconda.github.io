@@ -8,6 +8,7 @@ nanocomp
 
 .. conda:recipe:: nanocomp
    :replaces_section_title:
+   :noindex:
 
    Comparing runs of Oxford Nanopore sequencing data and alignments
 
@@ -22,18 +23,33 @@ nanocomp
 
    |downloads_nanocomp| |docker_nanocomp|
 
-   :versions: 1.10.1-0, 1.10.0-0, 1.9.2-1, 1.9.2-0, 1.9.1-0, 1.9.0-0, 1.8.0-0, 1.7.0-0, 1.6.0-0, 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.23.1-0, 0.23.0-1, 0.19.0-1, 0.19.0-0, 0.16.0-0, 0.15.0-0, 0.12.4-0, 0.7.0-0, 0.5.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.10.1-0</code>,  <code>1.10.0-0</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+      
+
+      ``1.10.1-0``,  ``1.10.0-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.23.1-0``,  ``0.23.0-1``,  ``0.19.0-1``,  ``0.19.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.12.4-0``,  ``0.7.0-0``,  ``0.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends joypy: 
-   :depends nanoget: >=1.12.0
-   :depends nanomath: >=0.15.3
-   :depends nanoplot: >=1.28.1
+   :depends nanoget: ``>=1.12.0``
+   :depends nanomath: ``>=0.15.3``
+   :depends nanoplot: ``>=1.28.1``
    :depends numpy: 
    :depends orca: 
    :depends pandas: 
-   :depends plotly: >=4.1.1
-   :depends pysam: >=0.15
-   :depends python: >=3
+   :depends plotly: ``>=4.1.1``
+   :depends pysam: ``>=0.15``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

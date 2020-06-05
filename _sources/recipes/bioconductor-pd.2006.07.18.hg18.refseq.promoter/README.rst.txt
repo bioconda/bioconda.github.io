@@ -8,6 +8,7 @@ bioconductor-pd.2006.07.18.hg18.refseq.promoter
 
 .. conda:recipe:: bioconductor-pd.2006.07.18.hg18.refseq.promoter
    :replaces_section_title:
+   :noindex:
 
    Platform Design Info for NimbleGen 2006\-07\-18\_hg18\_refseq\_promoter
 
@@ -22,16 +23,23 @@ bioconductor-pd.2006.07.18.hg18.refseq.promoter
 
    |downloads_bioconductor-pd.2006.07.18.hg18.refseq.promoter| |docker_bioconductor-pd.2006.07.18.hg18.refseq.promoter|
 
-   :versions: 1.8.1-4, 1.8.1-3, 1.8.1-2, 1.8.1-0
+   :versions:
+      
+      
+
+      ``1.8.1-4``,  ``1.8.1-3``,  ``1.8.1-2``,  ``1.8.1-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-oligo: >=1.52.0,<1.53.0
-   :depends bioconductor-oligoclasses: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-oligoclasses: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
-   :depends r-rsqlite: >=0.11.1
+   :depends r-rsqlite: ``>=0.11.1``
    :requirements:
 
    .. rubric:: Installation

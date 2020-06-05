@@ -8,6 +8,7 @@ im-pipelines
 
 .. conda:recipe:: im-pipelines
    :replaces_section_title:
+   :noindex:
 
    Components for cheminformatics and computational chemistry from InformaticsMatters.
 
@@ -22,7 +23,14 @@ im-pipelines
 
    |downloads_im-pipelines| |docker_im-pipelines|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
    :depends im-pipelines-utils: 
    :depends im-pipelines-utils-rdkit: 

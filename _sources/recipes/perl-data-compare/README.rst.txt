@@ -8,6 +8,7 @@ perl-data-compare
 
 .. conda:recipe:: perl-data-compare/1.25
    :replaces_section_title:
+   :noindex:
 
    compare perl data structures
 
@@ -22,9 +23,16 @@ perl-data-compare
 
    |downloads_perl-data-compare| |docker_perl-data-compare|
 
-   :versions: 1.25-0
+   :versions:
+      
+      
+
+      ``1.25-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-file-find-rule: 
    :requirements:
 

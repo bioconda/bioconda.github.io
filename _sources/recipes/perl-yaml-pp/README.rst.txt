@@ -8,6 +8,7 @@ perl-yaml-pp
 
 .. conda:recipe:: perl-yaml-pp/0.021
    :replaces_section_title:
+   :noindex:
 
    YAML 1.2 Processor
 
@@ -22,9 +23,16 @@ perl-yaml-pp
 
    |downloads_perl-yaml-pp| |docker_perl-yaml-pp|
 
-   :versions: 0.021-0
+   :versions:
+      
+      
+
+      ``0.021-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-constant: 

@@ -8,6 +8,7 @@ bioconductor-egseadata
 
 .. conda:recipe:: bioconductor-egseadata
    :replaces_section_title:
+   :noindex:
 
    Gene set collections for the EGSEA package
 
@@ -22,10 +23,17 @@ bioconductor-egseadata
 
    |downloads_bioconductor-egseadata| |docker_bioconductor-egseadata|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

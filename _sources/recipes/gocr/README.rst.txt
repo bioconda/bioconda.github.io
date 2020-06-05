@@ -8,6 +8,7 @@ gocr
 
 .. conda:recipe:: gocr/0.50
    :replaces_section_title:
+   :noindex:
 
    GOCR is an OCR \(Optical Character Recognition\) program
 
@@ -22,9 +23,16 @@ gocr
 
    |downloads_gocr| |docker_gocr|
 
-   :versions: 0.50-1, 0.50-0
+   :versions:
+      
+      
+
+      ``0.50-1``,  ``0.50-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

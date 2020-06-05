@@ -8,6 +8,7 @@ bioconductor-ritandata
 
 .. conda:recipe:: bioconductor-ritandata
    :replaces_section_title:
+   :noindex:
 
    This package contains the annotation and network data sets
 
@@ -22,10 +23,17 @@ bioconductor-ritandata
 
    |downloads_bioconductor-ritandata| |docker_bioconductor-ritandata|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

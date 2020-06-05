@@ -8,6 +8,7 @@ bioconductor-factdesign
 
 .. conda:recipe:: bioconductor-factdesign
    :replaces_section_title:
+   :noindex:
 
    Factorial designed microarray experiment analysis
 
@@ -22,10 +23,17 @@ bioconductor-factdesign
 
    |downloads_bioconductor-factdesign| |docker_bioconductor-factdesign|
 
-   :versions: 1.64.0-0, 1.62.0-0, 1.60.0-1, 1.58.0-0
+   :versions:
+      
+      
+
+      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.58.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ mgf-formatter
 
 .. conda:recipe:: mgf-formatter
    :replaces_section_title:
+   :noindex:
 
    Tools for convert peak lists into MGF files formatted for particular downstream applications
 
@@ -22,7 +23,14 @@ mgf-formatter
 
    |downloads_mgf-formatter| |docker_mgf-formatter|
 
-   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

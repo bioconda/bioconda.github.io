@@ -8,6 +8,7 @@ bioconductor-cnvranger
 
 .. conda:recipe:: bioconductor-cnvranger
    :replaces_section_title:
+   :noindex:
 
    Summarization and expression\/phenotype association of CNV ranges
 
@@ -22,21 +23,28 @@ bioconductor-cnvranger
 
    |downloads_bioconductor-cnvranger| |docker_bioconductor-cnvranger|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-gdsarray: >=1.8.0,<1.9.0
-   :depends bioconductor-gdsfmt: >=1.24.0,<1.25.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-raggedexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-snprelate: >=1.22.0,<1.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-gdsarray: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-gdsfmt: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-raggedexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-snprelate: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-lattice: 
    :depends r-plyr: 

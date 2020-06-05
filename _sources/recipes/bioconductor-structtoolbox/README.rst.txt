@@ -8,6 +8,7 @@ bioconductor-structtoolbox
 
 .. conda:recipe:: bioconductor-structtoolbox
    :replaces_section_title:
+   :noindex:
 
    Data processing \& analysis tools for Metabolomics and other omics
 
@@ -22,10 +23,17 @@ bioconductor-structtoolbox
 
    |downloads_bioconductor-structtoolbox| |docker_bioconductor-structtoolbox|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-struct: >=1.0.0,<1.1.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-struct: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-ggthemes: 
    :depends r-gridextra: 

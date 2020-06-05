@@ -8,6 +8,7 @@ rapclust
 
 .. conda:recipe:: rapclust
    :replaces_section_title:
+   :noindex:
 
    Accurate\, Fast and Lightweight Clustering of de novo Transcriptomes using Fragment Equivalence Classes
 
@@ -22,7 +23,14 @@ rapclust
 
    |downloads_rapclust| |docker_rapclust|
 
-   :versions: 0.1.2-1, 0.1.2-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+
    
    :depends click: 
    :depends coloredlogs: 

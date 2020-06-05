@@ -8,6 +8,7 @@ sparc
 
 .. conda:recipe:: sparc
    :replaces_section_title:
+   :noindex:
 
    A sparsity\-based consensus algorithm for long erroneous sequencing reads.
 
@@ -22,11 +23,18 @@ sparc
 
    |downloads_sparc| |docker_sparc|
 
-   :versions: 20160205-5, 20160205-4, 20160205-3, 20160205-2, 20160205-1, 20160205-0
+   :versions:
+      
+      
+
+      ``20160205-5``,  ``20160205-4``,  ``20160205-3``,  ``20160205-2``,  ``20160205-1``,  ``20160205-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

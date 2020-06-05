@@ -8,6 +8,7 @@ bioconductor-biocset
 
 .. conda:recipe:: bioconductor-biocset
    :replaces_section_title:
+   :noindex:
 
    Representing Different Biological Sets
 
@@ -22,12 +23,19 @@ bioconductor-biocset
 
    |downloads_bioconductor-biocset| |docker_bioconductor-biocset|
 
-   :versions: 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-keggrest: >=1.28.0,<1.29.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-keggrest: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-plyr: 
    :depends r-rlang: 

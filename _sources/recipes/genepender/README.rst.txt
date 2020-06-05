@@ -8,6 +8,7 @@ genepender
 
 .. conda:recipe:: genepender
    :replaces_section_title:
+   :noindex:
 
    Annotates overlapping BED\-defined regions to variants in a VCF file. Used primarily for providing a gene\/exon context to variants \(see\:bedtarget\).
 
@@ -22,10 +23,17 @@ genepender
 
    |downloads_genepender| |docker_genepender|
 
-   :versions: v2.6-1, v2.6-0
+   :versions:
+      
+      
+
+      ``v2.6-1``,  ``v2.6-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends qt: 4.8.7.*
+   :depends libgcc-ng: ``>=4.9``
+   :depends qt: ``4.8.7.*``
    :requirements:
 
    .. rubric:: Installation

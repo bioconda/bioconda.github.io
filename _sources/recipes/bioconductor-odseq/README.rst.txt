@@ -8,6 +8,7 @@ bioconductor-odseq
 
 .. conda:recipe:: bioconductor-odseq
    :replaces_section_title:
+   :noindex:
 
    Outlier detection in multiple sequence alignments
 
@@ -22,12 +23,19 @@ bioconductor-odseq
 
    |downloads_bioconductor-odseq| |docker_bioconductor-odseq|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-kebabs: >=1.22.0,<1.23.0
-   :depends bioconductor-msa: >=1.20.0,<1.21.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-mclust: >=5.1
+   :depends bioconductor-kebabs: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-msa: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-mclust: ``>=5.1``
    :requirements:
 
    .. rubric:: Installation

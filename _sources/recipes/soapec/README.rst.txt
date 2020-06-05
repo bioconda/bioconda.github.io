@@ -8,6 +8,7 @@ soapec
 
 .. conda:recipe:: soapec
    :replaces_section_title:
+   :noindex:
 
    a correction tool for SOAPdenovo
 
@@ -22,10 +23,17 @@ soapec
 
    |downloads_soapec| |docker_soapec|
 
-   :versions: 2.03-3, 2.03-1, 2.03-0
+   :versions:
+      
+      
+
+      ``2.03-3``,  ``2.03-1``,  ``2.03-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

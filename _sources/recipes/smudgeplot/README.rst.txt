@@ -8,6 +8,7 @@ smudgeplot
 
 .. conda:recipe:: smudgeplot
    :replaces_section_title:
+   :noindex:
 
    Inference of ploidy and heterozygosity structure using whole genome sequencing data
 
@@ -22,13 +23,20 @@ smudgeplot
 
    |downloads_smudgeplot| |docker_smudgeplot|
 
-   :versions: 0.2.3-0, 0.2.2-0, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends r-argparse: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-viridis: 
    :depends scipy: 
    :requirements:

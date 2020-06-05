@@ -8,6 +8,7 @@ bax2bam
 
 .. conda:recipe:: bax2bam
    :replaces_section_title:
+   :noindex:
 
    bax2bam converts the legacy PacBio basecall format \(bax.h5\) into the BAM basecall format
 
@@ -22,14 +23,21 @@ bax2bam
 
    |downloads_bax2bam| |docker_bax2bam|
 
-   :versions: 0.0.9-7, 0.0.9-6, 0.0.9-5, 0.0.9-4, 0.0.9-3, 0.0.9-1, 0.0.9-0
+   :versions:
+      
+      
+
+      ``0.0.9-7``,  ``0.0.9-6``,  ``0.0.9-5``,  ``0.0.9-4``,  ``0.0.9-3``,  ``0.0.9-1``,  ``0.0.9-0``
+
+      
+
    
-   :depends blasr_libcpp: 5.3.3.*
-   :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends pbbam: 1.0.6.*
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends blasr_libcpp: ``5.3.3.*``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends pbbam: ``1.0.6.*``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

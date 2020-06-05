@@ -8,6 +8,7 @@ deepmased
 
 .. conda:recipe:: deepmased
    :replaces_section_title:
+   :noindex:
 
    Deep learning for Metagenome Assembly Error Detection
 
@@ -23,18 +24,25 @@ deepmased
 
    |downloads_deepmased| |docker_deepmased|
 
-   :versions: 0.3.1-0, 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.3.1-0``,  ``0.3.0-0``
+
+      
+
    
    :depends ipython: 
    :depends keras: 
-   :depends numpy: >=1.17.0
+   :depends numpy: ``>=1.17.0``
    :depends pysam: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends scikit-learn: 
-   :depends scipy: >=1.3.1
+   :depends scipy: ``>=1.3.1``
    :depends snakemake: 
    :depends tensorboard: 
-   :depends tensorflow: >=2.0
+   :depends tensorflow: ``>=2.0``
    :requirements:
 
    .. rubric:: Installation

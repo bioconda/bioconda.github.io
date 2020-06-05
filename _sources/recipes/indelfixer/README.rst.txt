@@ -8,6 +8,7 @@ indelfixer
 
 .. conda:recipe:: indelfixer
    :replaces_section_title:
+   :noindex:
 
    A sensitive aligner for 454\, Illumina and PacBio data\, employing a full Smith\-Waterman alignment against a reference.
 
@@ -22,7 +23,14 @@ indelfixer
 
    |downloads_indelfixer| |docker_indelfixer|
 
-   :versions: 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-rprotobuflib
 
 .. conda:recipe:: bioconductor-rprotobuflib
    :replaces_section_title:
+   :noindex:
 
    C\+\+ headers and static libraries of Protocol buffers
 
@@ -22,14 +23,21 @@ bioconductor-rprotobuflib
 
    |downloads_bioconductor-rprotobuflib| |docker_bioconductor-rprotobuflib|
 
-   :versions: 2.0.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

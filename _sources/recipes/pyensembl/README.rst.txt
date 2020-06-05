@@ -8,6 +8,7 @@ pyensembl
 
 .. conda:recipe:: pyensembl
    :replaces_section_title:
+   :noindex:
 
    Python interface to ensembl reference genome metadata
 
@@ -22,20 +23,35 @@ pyensembl
 
    |downloads_pyensembl| |docker_pyensembl|
 
-   :versions: 1.8.7-0, 1.8.5-0, 1.8.4-1, 1.8.4-0, 1.8.3-0, 1.8.2-0, 1.8.0-0, 1.7.5-0, 1.7.4-0, 1.7.3-1, 1.7.3-0, 1.7.2-0, 1.2.6-2, 1.2.6-1, 1.2.6-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.8.7-0</code>,  <code>1.8.5-0</code>,  <code>1.8.4-1</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-0</code>,  <code>1.8.0-0</code>,  <code>1.7.5-0</code>,  <code>1.7.4-0</code>,  </span></summary>
+      
+
+      ``1.8.7-0``,  ``1.8.5-0``,  ``1.8.4-1``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends datacache: >=0.4.19
-   :depends gtfparse: >=0.0.3
-   :depends memoized-property: >=1.0.2
-   :depends numpy: >=1.7
-   :depends pandas: >=0.15
-   :depends pylint: >=1.4.4
+   :depends datacache: ``>=0.4.19``
+   :depends gtfparse: ``>=0.0.3``
+   :depends memoized-property: ``>=1.0.2``
+   :depends numpy: ``>=1.7``
+   :depends pandas: ``>=0.15``
+   :depends pylint: ``>=1.4.4``
    :depends python: 
-   :depends python-dateutil: >=2.5.0
+   :depends python-dateutil: ``>=2.5.0``
    :depends serializable: 
-   :depends six: >=1.9.0
+   :depends six: ``>=1.9.0``
    :depends tinytimer: 
-   :depends typechecks: >=0.0.2
+   :depends typechecks: ``>=0.0.2``
    :requirements:
 
    .. rubric:: Installation

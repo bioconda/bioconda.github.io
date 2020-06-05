@@ -8,6 +8,7 @@ gnu-wget
 
 .. conda:recipe:: gnu-wget
    :replaces_section_title:
+   :noindex:
 
    Retrieve files using HTTP\, HTTPS and FTP
 
@@ -22,13 +23,20 @@ gnu-wget
 
    |downloads_gnu-wget| |docker_gnu-wget|
 
-   :versions: 1.18-4, 1.18-3, 1.18-2, 1.18-1, 1.18-0
+   :versions:
+      
+      
+
+      ``1.18-4``,  ``1.18-3``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libidn2: >=2,<3.0a0
-   :depends libunistring: >=0,<1.0a0
-   :depends openssl: >=1.0.2n,<1.0.3a
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libidn2: ``>=2,<3.0a0``
+   :depends libunistring: ``>=0,<1.0a0``
+   :depends openssl: ``>=1.0.2n,<1.0.3a``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

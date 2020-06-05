@@ -8,6 +8,7 @@ metalign
 
 .. conda:recipe:: metalign
    :replaces_section_title:
+   :noindex:
 
    Metalign\: efficient alignment\-based metagenomic profiling via containment min hash
 
@@ -23,9 +24,16 @@ metalign
 
    |downloads_metalign| |docker_metalign|
 
-   :versions: 0.12.5-0, 0.12.3-0, 0.12.2-0
+   :versions:
+      
+      
+
+      ``0.12.5-0``,  ``0.12.3-0``,  ``0.12.2-0``
+
+      
+
    
-   :depends cmash: >=0.4.0
+   :depends cmash: ``>=0.4.0``
    :depends kmc: 
    :depends minimap2: 
    :depends python: 

@@ -8,6 +8,7 @@ bioconductor-genomes
 
 .. conda:recipe:: bioconductor-genomes
    :replaces_section_title:
+   :noindex:
 
    Genome sequencing project metadata
 
@@ -22,9 +23,16 @@ bioconductor-genomes
 
    |downloads_bioconductor-genomes| |docker_bioconductor-genomes|
 
-   :versions: 3.18.0-0, 3.16.0-0, 3.14.0-1, 3.14.0-0, 3.12.0-0
+   :versions:
+      
+      
+
+      ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-curl: 
    :depends r-readr: 
    :requirements:

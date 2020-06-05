@@ -8,6 +8,7 @@ bioconductor-indeed
 
 .. conda:recipe:: bioconductor-indeed
    :replaces_section_title:
+   :noindex:
 
    Interactive Visualization of Integrated Differential Expression and Differential Network Analysis for Biomarker Candidate Selection Package
 
@@ -22,13 +23,20 @@ bioconductor-indeed
 
    |downloads_bioconductor-indeed| |docker_bioconductor-indeed|
 
-   :versions: 2.2.0-0, 2.0.0-0, 1.2.0-1, 1.2.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``2.2.0-0``,  ``2.0.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-devtools: >=1.13.0
-   :depends r-glasso: >=1.8
-   :depends r-igraph: >=1.2.4
-   :depends r-visnetwork: >=2.0.6
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-devtools: ``>=1.13.0``
+   :depends r-glasso: ``>=1.8``
+   :depends r-igraph: ``>=1.2.4``
+   :depends r-visnetwork: ``>=2.0.6``
    :requirements:
 
    .. rubric:: Installation

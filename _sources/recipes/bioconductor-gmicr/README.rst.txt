@@ -8,6 +8,7 @@ bioconductor-gmicr
 
 .. conda:recipe:: bioconductor-gmicr
    :replaces_section_title:
+   :noindex:
 
    Combines WGCNA and xCell readouts with bayesian network learrning to generate a Gene\-Module Immune\-Cell network \(GMIC\)
 
@@ -22,16 +23,23 @@ bioconductor-gmicr
 
    |downloads_bioconductor-gmicr| |docker_bioconductor-gmicr|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-category: >=2.54.0,<2.55.0
-   :depends bioconductor-gostats: >=2.54.0,<2.55.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-gostats: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bnlearn: 
    :depends r-data.table: 
    :depends r-doparallel: 

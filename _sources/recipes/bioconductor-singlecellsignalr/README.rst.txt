@@ -8,6 +8,7 @@ bioconductor-singlecellsignalr
 
 .. conda:recipe:: bioconductor-singlecellsignalr
    :replaces_section_title:
+   :noindex:
 
    Cell Signalling Using Single Cell RNAseq Data Analysis
 
@@ -22,14 +23,21 @@ bioconductor-singlecellsignalr
 
    |downloads_bioconductor-singlecellsignalr| |docker_bioconductor-singlecellsignalr|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-multtest: >=2.44.0,<2.45.0
-   :depends bioconductor-scran: >=1.16.0,<1.17.0
-   :depends bioconductor-simlr: >=1.14.0,<1.15.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-scran: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-simlr: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-circlize: 
    :depends r-data.table: 

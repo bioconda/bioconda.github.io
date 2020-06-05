@@ -8,6 +8,7 @@ bioconductor-cnvtools
 
 .. conda:recipe:: bioconductor-cnvtools
    :replaces_section_title:
+   :noindex:
 
    A package to test genetic association with CNV data
 
@@ -23,13 +24,20 @@ bioconductor-cnvtools
 
    |downloads_bioconductor-cnvtools| |docker_bioconductor-cnvtools|
 
-   :versions: 1.81.0-0, 1.80.0-0, 1.78.0-1, 1.78.0-0, 1.76.0-0, 1.74.0-0, 1.72.0-0
+   :versions:
+      
+      
+
+      ``1.81.0-0``,  ``1.80.0-0``,  ``1.78.0-1``,  ``1.78.0-0``,  ``1.76.0-0``,  ``1.74.0-0``,  ``1.72.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-survival: 
    :requirements:
 

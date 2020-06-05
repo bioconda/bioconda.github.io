@@ -8,6 +8,7 @@ swalign
 
 .. conda:recipe:: swalign
    :replaces_section_title:
+   :noindex:
 
    Smith\-Waterman local aligner
 
@@ -22,9 +23,16 @@ swalign
 
    |downloads_swalign| |docker_swalign|
 
-   :versions: 0.3.4-1, 0.3.4-0, 0.3.3-2, 0.3.3-0
+   :versions:
+      
+      
+
+      ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-2``,  ``0.3.3-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

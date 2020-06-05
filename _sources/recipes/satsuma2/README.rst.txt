@@ -8,6 +8,7 @@ satsuma2
 
 .. conda:recipe:: satsuma2
    :replaces_section_title:
+   :noindex:
 
    FFT cross\-correlation based synteny aligner\, \(re\)designed to make full use of parallel computing
 
@@ -22,10 +23,17 @@ satsuma2
 
    |downloads_satsuma2| |docker_satsuma2|
 
-   :versions: 20161123-1, 20161123-0
+   :versions:
+      
+      
+
+      ``20161123-1``,  ``20161123-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.2.0
-   :depends libstdcxx-ng: >=7.2.0
+   :depends libgcc-ng: ``>=7.2.0``
+   :depends libstdcxx-ng: ``>=7.2.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ ra-integrate
 
 .. conda:recipe:: ra-integrate
    :replaces_section_title:
+   :noindex:
 
    Integration of the Ra assembler \- a de novo DNA assembler for third generation sequencing data.
 
@@ -22,7 +23,14 @@ ra-integrate
 
    |downloads_ra-integrate| |docker_ra-integrate|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
    :depends graphviz: 
    :depends libgcc: 

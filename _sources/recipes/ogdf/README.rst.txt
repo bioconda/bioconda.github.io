@@ -8,6 +8,7 @@ ogdf
 
 .. conda:recipe:: ogdf
    :replaces_section_title:
+   :noindex:
 
    The Open Graph Drawing Framework is a self\-contained C\+\+ class library for the automatic layout of diagrams.
 
@@ -22,9 +23,16 @@ ogdf
 
    |downloads_ogdf| |docker_ogdf|
 
-   :versions: 201207-1, 201207-0
+   :versions:
+      
+      
+
+      ``201207-1``,  ``201207-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

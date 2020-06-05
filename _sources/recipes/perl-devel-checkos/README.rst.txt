@@ -8,6 +8,7 @@ perl-devel-checkos
 
 .. conda:recipe:: perl-devel-checkos/1.81
    :replaces_section_title:
+   :noindex:
 
    check what OS we\'re running on
 
@@ -22,9 +23,16 @@ perl-devel-checkos
 
    |downloads_perl-devel-checkos| |docker_perl-devel-checkos|
 
-   :versions: 1.81-0
+   :versions:
+      
+      
+
+      ``1.81-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-data-compare: 
    :depends perl-file-find-rule: 
    :depends perl-file-temp: 

@@ -8,6 +8,7 @@ platon
 
 .. conda:recipe:: platon
    :replaces_section_title:
+   :noindex:
 
    Plasmid contig classification and characterization for short read draft assemblies.
 
@@ -23,16 +24,23 @@ platon
 
    |downloads_platon| |docker_platon|
 
-   :versions: 1.3.1-0, 1.3.0-0, 1.2.1-0, 1.2.0-0, 1.1.0-1, 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends biopython: >=1.71
-   :depends blast: >=2.7.1
-   :depends diamond: 0.9.32.*
-   :depends hmmer: >=3.2.1
-   :depends infernal: >=1.1.2
-   :depends mummer4: >=4.0.0beta2
-   :depends prodigal: >=2.6.1
-   :depends python: >=3
+   :depends biopython: ``>=1.71``
+   :depends blast: ``>=2.7.1``
+   :depends diamond: ``0.9.32.*``
+   :depends hmmer: ``>=3.2.1``
+   :depends infernal: ``>=1.1.2``
+   :depends mummer4: ``>=4.0.0beta2``
+   :depends prodigal: ``>=2.6.1``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

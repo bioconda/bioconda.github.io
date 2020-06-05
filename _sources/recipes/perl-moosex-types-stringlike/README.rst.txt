@@ -8,6 +8,7 @@ perl-moosex-types-stringlike
 
 .. conda:recipe:: perl-moosex-types-stringlike
    :replaces_section_title:
+   :noindex:
 
    Moose type constraints for strings or string\-like objects
 
@@ -22,9 +23,16 @@ perl-moosex-types-stringlike
 
    |downloads_perl-moosex-types-stringlike| |docker_perl-moosex-types-stringlike|
 
-   :versions: 0.003-0
+   :versions:
+      
+      
+
+      ``0.003-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-moosex-types: 
    :requirements:
 

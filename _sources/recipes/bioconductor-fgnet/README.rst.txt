@@ -8,6 +8,7 @@ bioconductor-fgnet
 
 .. conda:recipe:: bioconductor-fgnet
    :replaces_section_title:
+   :noindex:
 
    Functional Gene Networks derived from biological enrichment analyses
 
@@ -22,11 +23,18 @@ bioconductor-fgnet
 
    |downloads_bioconductor-fgnet| |docker_bioconductor-fgnet|
 
-   :versions: 3.22.0-0, 3.20.0-0, 3.18.0-1, 3.18.0-0, 3.16.0-0
+   :versions:
+      
+      
+
+      ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hwriter: 
-   :depends r-igraph: >=0.6
+   :depends r-igraph: ``>=0.6``
    :depends r-plotrix: 
    :depends r-png: 
    :depends r-r.utils: 

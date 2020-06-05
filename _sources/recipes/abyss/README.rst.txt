@@ -8,6 +8,7 @@ abyss
 
 .. conda:recipe:: abyss
    :replaces_section_title:
+   :noindex:
 
    Assembly By Short Sequences \- a de novo\, parallel\, paired\-end sequence assembler
 
@@ -26,12 +27,27 @@ abyss
 
    |downloads_abyss| |docker_abyss|
 
-   :versions: 2.2.4-0, 2.2.3-2, 2.2.3-1, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.1.5-1, 2.1.5-0, 2.1.4-0, 2.1.3-0, 2.1.1-0, 2.1.0-0, 2.0.2-5, 2.0.2-4, 2.0.2-3, 2.0.2-2, 2.0.2-1, 2.0.2-0, 2.0.1-2, 2.0.1-1, 2.0.1-0, 1.9.0-7, 1.9.0-6, 1.9.0-5, 1.9.0-4, 1.9.0-3, 1.9.0-2, 1.9.0-1, 1.9.0-0, 1.5.2-5, 1.5.2-4, 1.5.2-3, 1.5.2-2, 1.5.2-1, 1.5.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.4-0</code>,  <code>2.2.3-2</code>,  <code>2.2.3-1</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  </span></summary>
+      
+
+      ``2.2.4-0``,  ``2.2.3-2``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-5``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.9.0-7``,  ``1.9.0-6``,  ``1.9.0-5``,  ``1.9.0-4``,  ``1.9.0-3``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.5.2-5``,  ``1.5.2-4``,  ``1.5.2-3``,  ``1.5.2-2``,  ``1.5.2-1``,  ``1.5.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends make: 
-   :depends openmpi: >=4.0.2,<4.1.0a0
+   :depends openmpi: ``>=4.0.2,<4.1.0a0``
    :depends util-linux: 
    :requirements:
 

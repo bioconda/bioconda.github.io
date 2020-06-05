@@ -8,6 +8,7 @@ npyscreen
 
 .. conda:recipe:: npyscreen
    :replaces_section_title:
+   :noindex:
 
    Writing user interfaces without all that ugly mucking about in hyperspace
 
@@ -22,9 +23,16 @@ npyscreen
 
    |downloads_npyscreen| |docker_npyscreen|
 
-   :versions: 4.10.5-2, 4.10.5-1, 4.10.5-0
+   :versions:
+      
+      
+
+      ``4.10.5-2``,  ``4.10.5-1``,  ``4.10.5-0``
+
+      
+
    
-   :depends ncurses: >=6.1,<6.2.0a0
+   :depends ncurses: ``>=6.1,<6.2.0a0``
    :depends python: 
    :requirements:
 

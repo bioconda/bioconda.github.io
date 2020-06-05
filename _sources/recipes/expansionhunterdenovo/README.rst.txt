@@ -8,6 +8,7 @@ expansionhunterdenovo
 
 .. conda:recipe:: expansionhunterdenovo
    :replaces_section_title:
+   :noindex:
 
    ExpansionHunter Denovo \(EHdn\) is a suite of tools for detecting novel expansions of short tandem repeats \(STRs\).
 
@@ -22,17 +23,24 @@ expansionhunterdenovo
 
    |downloads_expansionhunterdenovo| |docker_expansionhunterdenovo|
 
-   :versions: 0.9.0-0
+   :versions:
+      
+      
+
+      ``0.9.0-0``
+
+      
+
    
    :depends backports.lzma: 
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends bzip2: >=1.0.8,<2.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cmake: 
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends spdlog: 1.4.2.*
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends spdlog: ``1.4.2.*``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

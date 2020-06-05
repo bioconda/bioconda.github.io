@@ -8,6 +8,7 @@ fishtaco
 
 .. conda:recipe:: fishtaco
    :replaces_section_title:
+   :noindex:
 
    FishTaco\: a metagenomic computational framework\, aiming to identify the taxa that are driving functional shifts in microbiomes.
 
@@ -22,15 +23,22 @@ fishtaco
 
    |downloads_fishtaco| |docker_fishtaco|
 
-   :versions: 1.0.5-1, 1.0.5-0
+   :versions:
+      
+      
+
+      ``1.0.5-1``,  ``1.0.5-0``
+
+      
+
    
-   :depends musicc: >=1.0.2
-   :depends numpy: >=1.6.1
-   :depends pandas: >=0.14
+   :depends musicc: ``>=1.0.2``
+   :depends numpy: ``>=1.6.1``
+   :depends pandas: ``>=0.14``
    :depends python: 
-   :depends scikit-learn: >=0.15.2
-   :depends scipy: >=0.9
-   :depends statsmodels: >=0.5.0
+   :depends scikit-learn: ``>=0.15.2``
+   :depends scipy: ``>=0.9``
+   :depends statsmodels: ``>=0.5.0``
    :requirements:
 
    .. rubric:: Installation

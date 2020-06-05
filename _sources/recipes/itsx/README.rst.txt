@@ -8,6 +8,7 @@ itsx
 
 .. conda:recipe:: itsx
    :replaces_section_title:
+   :noindex:
 
    ITSx is an open source software utility to extract the highly variable ITS1 and ITS2 subregions from ITS sequences\, which is commonly used as a molecular barcode for e.g. fungi.
 
@@ -22,9 +23,16 @@ itsx
 
    |downloads_itsx| |docker_itsx|
 
-   :versions: 1.1b-2, 1.1b-1, 1.1b-0
+   :versions:
+      
+      
+
+      ``1.1b-2``,  ``1.1b-1``,  ``1.1b-0``
+
+      
+
    
-   :depends hmmer: >=3.1b2
+   :depends hmmer: ``>=3.1b2``
    :depends perl: 
    :requirements:
 

@@ -8,6 +8,7 @@ rilseq
 
 .. conda:recipe:: rilseq
    :replaces_section_title:
+   :noindex:
 
    Processing RILSeq experiments results
 
@@ -22,14 +23,21 @@ rilseq
 
    |downloads_rilseq| |docker_rilseq|
 
-   :versions: 0.75-0, 0.74-0, 0.73-0, 0.72-0, 0.71-0, 0.70-0
+   :versions:
+      
+      
+
+      ``0.75-0``,  ``0.74-0``,  ``0.73-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-0``
+
+      
+
    
    :depends biopython: 
-   :depends bwa: >=0.7.12
+   :depends bwa: ``>=0.7.12``
    :depends numpy: 
-   :depends pysam: >=0.14.1
+   :depends pysam: ``>=0.14.1``
    :depends python: 
-   :depends samtools: >=1.2
+   :depends samtools: ``>=1.2``
    :depends scipy: 
    :requirements:
 

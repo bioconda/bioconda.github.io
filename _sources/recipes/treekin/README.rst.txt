@@ -8,6 +8,7 @@ treekin
 
 .. conda:recipe:: treekin/0.3.1
    :replaces_section_title:
+   :noindex:
 
    Compute folding dynamics on coarse grained version of an energy landscape by numeric integration of a Markov process
 
@@ -22,10 +23,17 @@ treekin
 
    |downloads_treekin| |docker_treekin|
 
-   :versions: 0.4.2-2, 0.4.2-1, 0.4.2-0, 0.3.1-1
+   :versions:
+      
+      
+
+      ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.1-1``
+
+      
+
    
    :depends lapack: 
-   :depends openblas: >=0.3.3,<0.3.4.0a0
+   :depends openblas: ``>=0.3.3,<0.3.4.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ drive
 
 .. conda:recipe:: drive
    :replaces_section_title:
+   :noindex:
 
    Google Drive client for the commandline
 
@@ -22,7 +23,14 @@ drive
 
    |downloads_drive| |docker_drive|
 
-   :versions: 0.3.9-1, 0.3.9-0, 0.3.8-0
+   :versions:
+      
+      
+
+      ``0.3.9-1``,  ``0.3.9-0``,  ``0.3.8-0``
+
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-dcgsa
 
 .. conda:recipe:: bioconductor-dcgsa
    :replaces_section_title:
+   :noindex:
 
    Distance\-correlation based Gene Set Analysis for longitudinal gene expression profiles
 
@@ -23,10 +24,17 @@ bioconductor-dcgsa
 
    |downloads_bioconductor-dcgsa| |docker_bioconductor-dcgsa|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrix: 
    :requirements:
 

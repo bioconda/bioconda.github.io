@@ -8,6 +8,7 @@ bioformats
 
 .. conda:recipe:: bioformats
    :replaces_section_title:
+   :noindex:
 
    A collection of Python classes to handle bioinformatics data.
 
@@ -22,7 +23,14 @@ bioformats
 
    |downloads_bioformats| |docker_bioformats|
 
-   :versions: 0.1.15-1, 0.1.15-0
+   :versions:
+      
+      
+
+      ``0.1.15-1``,  ``0.1.15-0``
+
+      
+
    
    :depends future: 
    :depends pyfaidx: 

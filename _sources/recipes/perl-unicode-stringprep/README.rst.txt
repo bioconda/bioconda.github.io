@@ -8,6 +8,7 @@ perl-unicode-stringprep
 
 .. conda:recipe:: perl-unicode-stringprep
    :replaces_section_title:
+   :noindex:
 
    Preparation of Internationalized Strings \(RFC 3454\)
 
@@ -22,9 +23,16 @@ perl-unicode-stringprep
 
    |downloads_perl-unicode-stringprep| |docker_perl-unicode-stringprep|
 
-   :versions: 1.105-2, 1.105-1, 1.105-0
+   :versions:
+      
+      
+
+      ``1.105-2``,  ``1.105-1``,  ``1.105-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

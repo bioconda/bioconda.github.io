@@ -8,6 +8,7 @@ perl-time-hires
 
 .. conda:recipe:: perl-time-hires
    :replaces_section_title:
+   :noindex:
 
    High resolution alarm\, sleep\, gettimeofday\, interval timers
 
@@ -22,10 +23,25 @@ perl-time-hires
 
    |downloads_perl-time-hires| |docker_perl-time-hires|
 
-   :versions: 1.9760-1, 1.9760-0, 1.9758-1, 1.9758-0, 1.9728-5, 1.9728-4, 1.9728-2, 1.9728-1, 1.9728-0, 1.9726-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.9760-1</code>,  <code>1.9760-0</code>,  <code>1.9758-1</code>,  <code>1.9758-0</code>,  <code>1.9728-5</code>,  <code>1.9728-4</code>,  <code>1.9728-2</code>,  <code>1.9728-1</code>,  <code>1.9728-0</code>,  </span></summary>
+      
+
+      ``1.9760-1``,  ``1.9760-0``,  ``1.9758-1``,  ``1.9758-0``,  ``1.9728-5``,  ``1.9728-4``,  ``1.9728-2``,  ``1.9728-1``,  ``1.9728-0``,  ``1.9726-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-extutils-makemaker: 

@@ -8,6 +8,7 @@ dunovo
 
 .. conda:recipe:: dunovo
    :replaces_section_title:
+   :noindex:
 
    Du Novo\: A pipeline for processing duplex sequencing data.
 
@@ -22,15 +23,30 @@ dunovo
 
    |downloads_dunovo| |docker_dunovo|
 
-   :versions: 2.15-2, 2.15-1, 2.15-0, 2.14-0, 2.0.12-0, 2.0.9-0, 2.0.8-0, 2.0.6-0, 0.8.1-0, 0.7.6-1, 0.7.6-0, 0.7.5-0, 0.7.4-0, 0.7.1-0, 0.7-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.15-2</code>,  <code>2.15-1</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  <code>2.0.12-0</code>,  <code>2.0.9-0</code>,  <code>2.0.8-0</code>,  <code>2.0.6-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+      
+
+      ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.0.12-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.6-0``,  ``0.8.1-0``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.1-0``,  ``0.7-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bowtie: >=1.1.2
+   :depends bowtie: ``>=1.1.2``
    :depends gawk: 
-   :depends libgcc-ng: >=7.3.0
-   :depends mafft: 7.221.*
-   :depends networkx: <2.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends mafft: ``7.221.*``
+   :depends networkx: ``<2.0``
    :depends paste: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

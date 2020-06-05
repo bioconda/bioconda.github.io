@@ -8,6 +8,7 @@ srprism
 
 .. conda:recipe:: srprism
    :replaces_section_title:
+   :noindex:
 
    SRPRISM \- Short Read Alignment Tool
 
@@ -22,12 +23,19 @@ srprism
 
    |downloads_srprism| |docker_srprism|
 
-   :versions: 2.4.24-3, 2.4.24-2
+   :versions:
+      
+      
+
+      ``2.4.24-3``,  ``2.4.24-2``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

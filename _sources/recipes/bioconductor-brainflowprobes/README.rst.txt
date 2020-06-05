@@ -8,6 +8,7 @@ bioconductor-brainflowprobes
 
 .. conda:recipe:: bioconductor-brainflowprobes
    :replaces_section_title:
+   :noindex:
 
    Plots and annotation for choosing BrainFlow target probe sequence
 
@@ -22,19 +23,26 @@ bioconductor-brainflowprobes
 
    |downloads_bioconductor-brainflowprobes| |docker_bioconductor-brainflowprobes|
 
-   :versions: 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
-   :depends bioconductor-bumphunter: >=1.30.0,<1.31.0
-   :depends bioconductor-derfinder: >=1.22.0,<1.23.0
-   :depends bioconductor-derfinderplot: >=1.22.0,<1.23.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-genomicstate: >=0.99.0,<0.100.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-cowplot: >=1.0.0
-   :depends r-ggplot2: >=3.1.1
-   :depends r-rcolorbrewer: >=1.1
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-bumphunter: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-derfinder: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-derfinderplot: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicstate: ``>=0.99.0,<0.100.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-cowplot: ``>=1.0.0``
+   :depends r-ggplot2: ``>=3.1.1``
+   :depends r-rcolorbrewer: ``>=1.1``
    :requirements:
 
    .. rubric:: Installation

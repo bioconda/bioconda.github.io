@@ -8,6 +8,7 @@ king
 
 .. conda:recipe:: king
    :replaces_section_title:
+   :noindex:
 
    \`Kinship\-based INference for Gwas \(KING\) is a toolset that makes use of high\-throughput SNP data typically seen in a genome\-wide association study \<http\:\/\/people.virginia.edu\/\~wc9c\/KING\/\>\`\_
 
@@ -22,12 +23,19 @@ king
 
    |downloads_king| |docker_king|
 
-   :versions: 2.2.4-0
+   :versions:
+      
+      
+
+      ``2.2.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openmp: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

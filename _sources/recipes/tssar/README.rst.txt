@@ -8,6 +8,7 @@ tssar
 
 .. conda:recipe:: tssar
    :replaces_section_title:
+   :noindex:
 
    TSSAR is a Web Service for predicting bacterial Transcription Start Sites from dRNA\-seq data.
 
@@ -22,9 +23,16 @@ tssar
 
    |downloads_tssar| |docker_tssar|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends perl: 
    :depends r-base: 
    :depends r-skellam: 

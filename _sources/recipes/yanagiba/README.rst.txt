@@ -8,6 +8,7 @@ yanagiba
 
 .. conda:recipe:: yanagiba
    :replaces_section_title:
+   :noindex:
 
    Filter short or low quality Oxford Nanopore reads which have been basecalled with Albacore.
 
@@ -22,12 +23,19 @@ yanagiba
 
    |downloads_yanagiba| |docker_yanagiba|
 
-   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends biopython: >=1.70
-   :depends nanomath: >=0.13.0
-   :depends pandas: >=0.20.3
-   :depends python: >=3
+   :depends biopython: ``>=1.70``
+   :depends nanomath: ``>=0.13.0``
+   :depends pandas: ``>=0.20.3``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

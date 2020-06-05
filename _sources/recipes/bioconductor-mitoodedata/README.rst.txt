@@ -8,6 +8,7 @@ bioconductor-mitoodedata
 
 .. conda:recipe:: bioconductor-mitoodedata
    :replaces_section_title:
+   :noindex:
 
    Experimental data associated to the paper \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\" \(submitted\).
 
@@ -22,10 +23,17 @@ bioconductor-mitoodedata
 
    |downloads_bioconductor-mitoodedata| |docker_bioconductor-mitoodedata|
 
-   :versions: 1.23.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.23.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

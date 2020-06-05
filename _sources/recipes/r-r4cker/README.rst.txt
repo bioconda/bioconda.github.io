@@ -8,6 +8,7 @@ r-r4cker
 
 .. conda:recipe:: r-r4cker
    :replaces_section_title:
+   :noindex:
 
    Analysis of 4C\-seq \(circularized chromosome conformation capture\) data
 
@@ -22,11 +23,18 @@ r-r4cker
 
    |downloads_r-r4cker| |docker_r-r4cker|
 
-   :versions: 1.0-1, 1.0-0, 0.0.0.9000-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``,  ``0.0.0.9000-0``
+
+      
+
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-genomeinfodbdata: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-depmixs4: 
    :depends r-ggplot2: 
    :depends r-mass: 

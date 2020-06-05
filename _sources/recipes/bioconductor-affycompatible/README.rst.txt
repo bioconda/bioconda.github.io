@@ -8,6 +8,7 @@ bioconductor-affycompatible
 
 .. conda:recipe:: bioconductor-affycompatible
    :replaces_section_title:
+   :noindex:
 
    Affymetrix GeneChip software compatibility
 
@@ -23,12 +24,19 @@ bioconductor-affycompatible
 
    |downloads_bioconductor-affycompatible| |docker_bioconductor-affycompatible|
 
-   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   :versions:
+      
+      
+
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-rcurl: >=0.8-1
-   :depends r-xml: >=2.8-1
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-rcurl: ``>=0.8-1``
+   :depends r-xml: ``>=2.8-1``
    :requirements:
 
    .. rubric:: Installation

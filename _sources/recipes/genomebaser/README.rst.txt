@@ -8,6 +8,7 @@ genomebaser
 
 .. conda:recipe:: genomebaser
    :replaces_section_title:
+   :noindex:
 
    GenomeBaser manages complete \(bacterial\) genomes from NCBI
 
@@ -22,11 +23,18 @@ genomebaser
 
    |downloads_genomebaser| |docker_genomebaser|
 
-   :versions: 0.1.2-1, 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.2-1``,  ``0.1.2-0``
+
+      
+
    
    :depends biopython: 
    :depends click: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

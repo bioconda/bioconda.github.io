@@ -8,6 +8,7 @@ socru
 
 .. conda:recipe:: socru
    :replaces_section_title:
+   :noindex:
 
    Order and orientation of complete bacterial genomes
 
@@ -22,14 +23,29 @@ socru
 
    |downloads_socru| |docker_socru|
 
-   :versions: 2.2.4-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.1.7-1, 2.1.7-0, 2.1.6-0, 2.1.4-0, 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.0-0, 1.0.1-0, 1.0.0-0, 0.0.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.1.7-1</code>,  <code>2.1.7-0</code>,  <code>2.1.6-0</code>,  <code>2.1.4-0</code>,  <code>2.1.2-0</code>,  </span></summary>
+      
+
+      ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.7-1``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.4-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends barrnap: 
-   :depends biopython: >=1.68
+   :depends biopython: ``>=1.68``
    :depends blast: 
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyyaml: 
    :requirements:
 

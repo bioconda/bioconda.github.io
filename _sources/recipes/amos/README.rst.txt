@@ -8,6 +8,7 @@ amos
 
 .. conda:recipe:: amos
    :replaces_section_title:
+   :noindex:
 
    A Modular\, Open\-Source whole genome assembler
 
@@ -23,7 +24,14 @@ amos
 
    |downloads_amos| |docker_amos|
 
-   :versions: 3.1.0-3
+   :versions:
+      
+      
+
+      ``3.1.0-3``
+
+      
+
    
    :depends jellyfish: 
    :depends mummer: 
@@ -31,7 +39,7 @@ amos
    :depends perl-statistics-descriptive: 
    :depends perl-threaded: 
    :depends perl-xml-parser: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

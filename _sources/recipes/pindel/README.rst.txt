@@ -8,6 +8,7 @@ pindel
 
 .. conda:recipe:: pindel
    :replaces_section_title:
+   :noindex:
 
    Pindel can detect breakpoints of large deletions\, medium sized insertions\, inversions\, tandem duplications and other structural variants at single\-based resolution from next\-gen sequence data
 
@@ -23,10 +24,17 @@ pindel
 
    |downloads_pindel| |docker_pindel|
 
-   :versions: 0.2.5b9-3, 0.2.5b9-2, 0.2.5b9-1, 0.2.5b9-0, 0.2.5b8-2
+   :versions:
+      
+      
+
+      ``0.2.5b9-3``,  ``0.2.5b9-2``,  ``0.2.5b9-1``,  ``0.2.5b9-0``,  ``0.2.5b8-2``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=4.9
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

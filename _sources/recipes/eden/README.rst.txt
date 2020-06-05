@@ -8,6 +8,7 @@ eden
 
 .. conda:recipe:: eden
    :replaces_section_title:
+   :noindex:
 
    The Explicit Decomposition with Neighborhoods \(EDeN\) is a decompositional kernel based on the Neighborhood Subgraph Pairwise Distance Kernel \(NSPDK\) that can be used to induce an explicit feature representation for graphs. This in turn allows the adoption of machine learning algorithm to perform supervised and unsupervised learning task in a scalable way \(e.g. using fast stochastic gradient descent methods in classification and approximate neighborhood queries in clustering\).
 
@@ -22,7 +23,14 @@ eden
 
    |downloads_eden| |docker_eden|
 
-   :versions: 2.0-3, 2.0-2, 2.0-1, 2.0-0, 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``,  ``1.1-1``,  ``1.1-0``
+
+      
+
    
    :depends biopython: 
    :depends cvxopt: 
@@ -31,19 +39,19 @@ eden
    :depends joblib: 
    :depends matplotlib: 
    :depends muscle: 
-   :depends networkx: <=1.10
+   :depends networkx: ``<=1.10``
    :depends numpy: 
    :depends openbabel: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends python-graphviz: 
    :depends rdkit: 
    :depends reportlab: 
    :depends requests: 
    :depends rnashapes: 
-   :depends scikit-learn: >=0.17.0,<0.20.0
-   :depends scipy: >=0.14.0
+   :depends scikit-learn: ``>=0.17.0,<0.20.0``
+   :depends scipy: ``>=0.14.0``
    :depends weblogo: 
    :requirements:
 

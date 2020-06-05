@@ -8,6 +8,7 @@ malt
 
 .. conda:recipe:: malt
    :replaces_section_title:
+   :noindex:
 
    A tool for mapping metagenomic data
 
@@ -23,9 +24,16 @@ malt
 
    |downloads_malt| |docker_malt|
 
-   :versions: 0.41-1, 0.41-0
+   :versions:
+      
+      
+
+      ``0.41-1``,  ``0.41-0``
+
+      
+
    
-   :depends openjdk: >=8.0.144,<9
+   :depends openjdk: ``>=8.0.144,<9``
    :requirements:
 
    .. rubric:: Installation

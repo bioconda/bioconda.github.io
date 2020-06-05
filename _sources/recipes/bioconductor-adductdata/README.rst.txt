@@ -8,6 +8,7 @@ bioconductor-adductdata
 
 .. conda:recipe:: bioconductor-adductdata
    :replaces_section_title:
+   :noindex:
 
    Data from untargeted MS of modifications to Cys34 of serum albumin
 
@@ -22,12 +23,19 @@ bioconductor-adductdata
 
    |downloads_bioconductor-adductdata| |docker_bioconductor-adductdata|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-2
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

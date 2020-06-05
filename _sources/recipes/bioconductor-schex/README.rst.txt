@@ -8,6 +8,7 @@ bioconductor-schex
 
 .. conda:recipe:: bioconductor-schex
    :replaces_section_title:
+   :noindex:
 
    Hexbin plots for single cell omics data
 
@@ -22,16 +23,23 @@ bioconductor-schex
 
    |downloads_bioconductor-schex| |docker_bioconductor-schex|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-concaveman: 
    :depends r-dplyr: 
    :depends r-entropy: 
    :depends r-ggforce: 
-   :depends r-ggplot2: >=3.2.1
+   :depends r-ggplot2: ``>=3.2.1``
    :depends r-hexbin: 
    :depends r-scales: 
    :depends r-seurat: 

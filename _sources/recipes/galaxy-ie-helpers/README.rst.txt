@@ -8,6 +8,7 @@ galaxy-ie-helpers
 
 .. conda:recipe:: galaxy-ie-helpers
    :replaces_section_title:
+   :noindex:
 
    Helper scripts to work with Galaxy\'s Interactive Environments
 
@@ -22,7 +23,14 @@ galaxy-ie-helpers
 
    |downloads_galaxy-ie-helpers| |docker_galaxy-ie-helpers|
 
-   :versions: 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.1-2, 0.2.1-1, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+
+      
+
    
    :depends bioblend: 
    :depends python: 

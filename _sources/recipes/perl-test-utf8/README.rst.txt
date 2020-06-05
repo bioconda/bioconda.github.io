@@ -8,6 +8,7 @@ perl-test-utf8
 
 .. conda:recipe:: perl-test-utf8
    :replaces_section_title:
+   :noindex:
 
    handy utf8 tests
 
@@ -22,9 +23,16 @@ perl-test-utf8
 
    |downloads_perl-test-utf8| |docker_perl-test-utf8|
 
-   :versions: 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

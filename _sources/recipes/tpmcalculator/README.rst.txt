@@ -8,6 +8,7 @@ tpmcalculator
 
 .. conda:recipe:: tpmcalculator
    :replaces_section_title:
+   :noindex:
 
    TPMCalculator quantifies mRNA abundance directly from the alignments by parsing BAM files.
 
@@ -22,11 +23,18 @@ tpmcalculator
 
    |downloads_tpmcalculator| |docker_tpmcalculator|
 
-   :versions: 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.3-0``
+
+      
+
    
-   :depends bamtools: >=2.5.1,<2.5.2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

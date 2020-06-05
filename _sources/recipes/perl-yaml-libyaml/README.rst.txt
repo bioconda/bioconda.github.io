@@ -8,6 +8,7 @@ perl-yaml-libyaml
 
 .. conda:recipe:: perl-yaml-libyaml/0.63
    :replaces_section_title:
+   :noindex:
 
    Perl YAML Serialization using XS and libyaml 
 
@@ -22,9 +23,16 @@ perl-yaml-libyaml
 
    |downloads_perl-yaml-libyaml| |docker_perl-yaml-libyaml|
 
-   :versions: 0.66-1, 0.66-0, 0.63-2, 0.63-1, 0.63-0
+   :versions:
+      
+      
+
+      ``0.66-1``,  ``0.66-0``,  ``0.63-2``,  ``0.63-1``,  ``0.63-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

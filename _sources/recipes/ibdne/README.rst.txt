@@ -8,6 +8,7 @@ ibdne
 
 .. conda:recipe:: ibdne
    :replaces_section_title:
+   :noindex:
 
    The IBDNe program estimates the historical effective population size of a homogenous population \(from the output of IDBseq\).
 
@@ -22,9 +23,16 @@ ibdne
 
    |downloads_ibdne| |docker_ibdne|
 
-   :versions: 04Sep15.e78-2, 04Sep15.e78-1, 04Sep15.e78-0
+   :versions:
+      
+      
+
+      ``04Sep15.e78-2``,  ``04Sep15.e78-1``,  ``04Sep15.e78-0``
+
+      
+
    
-   :depends openjdk: >=6.0.77
+   :depends openjdk: ``>=6.0.77``
    :requirements:
 
    .. rubric:: Installation

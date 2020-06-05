@@ -8,6 +8,7 @@ rpf-count-cds
 
 .. conda:recipe:: rpf-count-cds
    :replaces_section_title:
+   :noindex:
 
    A python script for counting RPF reads map to CDS region.
 
@@ -22,7 +23,14 @@ rpf-count-cds
 
    |downloads_rpf-count-cds| |docker_rpf-count-cds|
 
-   :versions: 0.0.1-1, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-1``,  ``0.0.1-0``
+
+      
+
    
    :depends htseq: 
    :depends python: 

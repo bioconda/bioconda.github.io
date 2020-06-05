@@ -8,6 +8,7 @@ perl-env-path
 
 .. conda:recipe:: perl-env-path
    :replaces_section_title:
+   :noindex:
 
    Advanced operations on path variables
 
@@ -22,9 +23,16 @@ perl-env-path
 
    |downloads_perl-env-path| |docker_perl-env-path|
 
-   :versions: 0.19-2, 0.19-1, 0.19-0
+   :versions:
+      
+      
+
+      ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

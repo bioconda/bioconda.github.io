@@ -8,6 +8,7 @@ maxentpy
 
 .. conda:recipe:: maxentpy
    :replaces_section_title:
+   :noindex:
 
    maxentpy is a python wrapper for MaxEntScan to calculate splice site strength.
 
@@ -22,12 +23,19 @@ maxentpy
 
    |downloads_maxentpy| |docker_maxentpy|
 
-   :versions: 0.0.1-3, 0.0.1-2, 0.0.1-1, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends msgpack-python: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

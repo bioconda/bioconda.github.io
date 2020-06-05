@@ -8,6 +8,7 @@ bioconductor-tissuetreg
 
 .. conda:recipe:: bioconductor-tissuetreg
    :replaces_section_title:
+   :noindex:
 
    TWGBS and RNA\-seq data from tissue T regulatory cells from mice
 
@@ -22,10 +23,17 @@ bioconductor-tissuetreg
 
    |downloads_bioconductor-tissuetreg| |docker_bioconductor-tissuetreg|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

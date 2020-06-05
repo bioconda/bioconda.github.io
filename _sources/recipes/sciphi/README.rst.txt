@@ -8,6 +8,7 @@ sciphi
 
 .. conda:recipe:: sciphi
    :replaces_section_title:
+   :noindex:
 
    Single\-cell mutation identification via phylogenetic inference
 
@@ -22,12 +23,19 @@ sciphi
 
    |downloads_sciphi| |docker_sciphi|
 
-   :versions: 0.1.7-0, 0.1.5-0, 0.1.4-0
+   :versions:
+      
+      
+
+      ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.4-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

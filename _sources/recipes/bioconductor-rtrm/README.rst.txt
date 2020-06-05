@@ -8,6 +8,7 @@ bioconductor-rtrm
 
 .. conda:recipe:: bioconductor-rtrm
    :replaces_section_title:
+   :noindex:
 
    Identification of transcriptional regulatory modules from PPI networks
 
@@ -23,12 +24,19 @@ bioconductor-rtrm
 
    |downloads_bioconductor-rtrm| |docker_bioconductor-rtrm|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
-   :depends r-igraph: >=1.0
+   :depends r-igraph: ``>=1.0``
    :depends r-rsqlite: 
    :requirements:
 

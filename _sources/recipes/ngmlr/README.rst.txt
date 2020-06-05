@@ -8,6 +8,7 @@ ngmlr
 
 .. conda:recipe:: ngmlr
    :replaces_section_title:
+   :noindex:
 
    ngmlr is a long\-read mapper designed to align PacBio or Oxford Nanopore reads to a reference genome and optimized for structural variation detection
 
@@ -22,11 +23,26 @@ ngmlr
 
    |downloads_ngmlr| |docker_ngmlr|
 
-   :versions: 0.2.7-1, 0.2.7-0, 0.2.6-1, 0.2.6-0, 0.2.5-0, 0.2.4-2, 0.2.4-1, 0.2.4-0, 0.2.3-2, 0.2.3-1, 0.2.3-0, 0.2.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.7-1</code>,  <code>0.2.7-0</code>,  <code>0.2.6-1</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-2</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.3-2</code>,  </span></summary>
+      
+
+      ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

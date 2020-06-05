@@ -8,6 +8,7 @@ bioconductor-timescape
 
 .. conda:recipe:: bioconductor-timescape
    :replaces_section_title:
+   :noindex:
 
    Patient Clonal Timescapes
 
@@ -22,14 +23,21 @@ bioconductor-timescape
 
    |downloads_bioconductor-timescape| |docker_bioconductor-timescape|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dplyr: >=0.4.3
-   :depends r-gtools: >=3.5.0
-   :depends r-htmlwidgets: >=0.5
-   :depends r-jsonlite: >=0.9.19
-   :depends r-stringr: >=1.0.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: ``>=0.4.3``
+   :depends r-gtools: ``>=3.5.0``
+   :depends r-htmlwidgets: ``>=0.5``
+   :depends r-jsonlite: ``>=0.9.19``
+   :depends r-stringr: ``>=1.0.0``
    :requirements:
 
    .. rubric:: Installation

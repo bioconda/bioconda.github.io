@@ -8,6 +8,7 @@ r-isogene
 
 .. conda:recipe:: r-isogene
    :replaces_section_title:
+   :noindex:
 
    Offers framework for testing for monotonic relationship between gene expression and doses in a microarray experiment. Several testing procedures including the global likelihood\-ratio test \(Bartholomew\, 1961\)\, Williams \(1971\, 1972\)\, Marcus \(1976\)\, M \(Hu et al. 2005\) and the modified M \(Lin et al. 2007\) are used to test for the monotonic trend in gene expression with respect to doses. BH \(Benjamini and Hochberg 1995\) and BY \(Benjamini and Yekutieli 2004\) FDR controlling procedures are applied to adjust the raw p\-values obtained from the permutations.   
 
@@ -22,12 +23,19 @@ r-isogene
 
    |downloads_r-isogene| |docker_r-isogene|
 
-   :versions: 1.0_24-3, 1.0_24-2, 1.0_24-1, 1.0_24-0
+   :versions:
+      
+      
+
+      ``1.0_24-3``,  ``1.0_24-2``,  ``1.0_24-1``,  ``1.0_24-0``
+
+      
+
    
    :depends bioconductor-affy: 
    :depends bioconductor-biobase: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-ff: >=2.0.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ff: ``>=2.0.0``
    :depends r-iso: 
    :depends r-xtable: 
    :requirements:

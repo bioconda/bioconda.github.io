@@ -8,6 +8,7 @@ r-clinfun
 
 .. conda:recipe:: r-clinfun
    :replaces_section_title:
+   :noindex:
 
    Utilities to make your clinical collaborations easier if not fun. It contains functions for designing studies such as Simon 2\-stage and group sequential designs and for data analysis such as Jonckheere\-Terpstra test and estimating survival quantiles.
 
@@ -22,11 +23,18 @@ r-clinfun
 
    |downloads_r-clinfun| |docker_r-clinfun|
 
-   :versions: 1.0.15-0
+   :versions:
+      
+      
+
+      ``1.0.15-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mvtnorm: 
    :requirements:
 

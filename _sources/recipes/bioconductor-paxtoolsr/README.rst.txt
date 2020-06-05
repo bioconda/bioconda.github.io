@@ -8,6 +8,7 @@ bioconductor-paxtoolsr
 
 .. conda:recipe:: bioconductor-paxtoolsr
    :replaces_section_title:
+   :noindex:
 
    PaxtoolsR\: Access Pathways from Multiple Databases through BioPAX and Pathway Commons
 
@@ -22,17 +23,24 @@ bioconductor-paxtoolsr
 
    |downloads_bioconductor-paxtoolsr| |docker_bioconductor-paxtoolsr|
 
-   :versions: 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
    :depends openjdk: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-httr: 
    :depends r-igraph: 
    :depends r-jsonlite: 
    :depends r-plyr: 
    :depends r-r.utils: 
    :depends r-readr: 
-   :depends r-rjava: >=0.9-8
+   :depends r-rjava: ``>=0.9-8``
    :depends r-rjson: 
    :depends r-xml: 
    :requirements:

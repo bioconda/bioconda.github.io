@@ -8,6 +8,7 @@ perl-text-parsewords
 
 .. conda:recipe:: perl-text-parsewords
    :replaces_section_title:
+   :noindex:
 
    parse text into an array of tokens or array of arrays
 
@@ -22,9 +23,16 @@ perl-text-parsewords
 
    |downloads_perl-text-parsewords| |docker_perl-text-parsewords|
 
-   :versions: 3.30-0, 3.29-3, 3.29-2, 3.29-1
+   :versions:
+      
+      
+
+      ``3.30-0``,  ``3.29-3``,  ``3.29-2``,  ``3.29-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-scalar-list-utils: 
    :requirements:
 

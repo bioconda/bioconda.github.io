@@ -8,6 +8,7 @@ hilive2
 
 .. conda:recipe:: hilive2
    :replaces_section_title:
+   :noindex:
 
    Tool for real\-time read alignment of Illumina sequencing data
 
@@ -22,13 +23,20 @@ hilive2
 
    |downloads_hilive2| |docker_hilive2|
 
-   :versions: 2.0a-0
+   :versions:
+      
+      
+
+      ``2.0a-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends lz4-c: >=1.8.3,<1.8.4.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends lz4-c: ``>=1.8.3,<1.8.4.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

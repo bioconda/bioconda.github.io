@@ -8,6 +8,7 @@ r-rblast
 
 .. conda:recipe:: r-rBLAST
    :replaces_section_title:
+   :noindex:
 
    Seamlessly interfaces the Basic Local Alignment Search Tool \(BLAST\) to search genetic sequence data bases. This work was partially supported by grant no. R21HG005912 from the National Human Genome Research Institute.
 
@@ -22,11 +23,18 @@ r-rblast
 
    |downloads_r-rblast| |docker_r-rblast|
 
-   :versions: 0.99.1-3, 0.99.1-0
+   :versions:
+      
+      
+
+      ``0.99.1-3``,  ``0.99.1-0``
+
+      
+
    
    :depends bioconductor-biostrings: 
    :depends blast: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

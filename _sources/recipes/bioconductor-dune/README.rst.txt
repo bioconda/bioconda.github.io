@@ -8,6 +8,7 @@ bioconductor-dune
 
 .. conda:recipe:: bioconductor-dune
    :replaces_section_title:
+   :noindex:
 
    Improving replicability in single\-cell RNA\-Seq cell type discovery
 
@@ -22,11 +23,18 @@ bioconductor-dune
 
    |downloads_bioconductor-dune| |docker_bioconductor-dune|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-gganimate: 
    :depends r-ggplot2: 

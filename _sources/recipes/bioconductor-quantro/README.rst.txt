@@ -8,6 +8,7 @@ bioconductor-quantro
 
 .. conda:recipe:: bioconductor-quantro
    :replaces_section_title:
+   :noindex:
 
    A test for when to use quantile normalization
 
@@ -23,11 +24,18 @@ bioconductor-quantro
 
    |downloads_bioconductor-quantro| |docker_bioconductor-quantro|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-minfi: >=1.34.0,<1.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-minfi: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-ggplot2: 

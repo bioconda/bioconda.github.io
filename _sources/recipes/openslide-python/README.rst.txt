@@ -8,6 +8,7 @@ openslide-python
 
 .. conda:recipe:: openslide-python
    :replaces_section_title:
+   :noindex:
 
    Python interface to OpenSlide
 
@@ -22,12 +23,19 @@ openslide-python
 
    |downloads_openslide-python| |docker_openslide-python|
 
-   :versions: 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends openslide: 
    :depends pillow: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

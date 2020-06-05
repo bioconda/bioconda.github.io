@@ -8,6 +8,7 @@ bioblend
 
 .. conda:recipe:: bioblend
    :replaces_section_title:
+   :noindex:
 
    CloudMan and Galaxy API library
 
@@ -22,13 +23,20 @@ bioblend
 
    |downloads_bioblend| |docker_bioblend|
 
-   :versions: 0.13.0-0, 0.12.0-1, 0.12.0-0, 0.11.0-0, 0.10.0-1, 0.10.0-0, 0.8.0-0, 0.7.0-1, 0.7.0-0
+   :versions:
+      
+      
+
+      ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``
+
+      
+
    
-   :depends boto: >=2.9.7
+   :depends boto: ``>=2.9.7``
    :depends python: 
    :depends pyyaml: 
-   :depends requests: >=2.20.0
-   :depends requests-toolbelt: >=0.5.1,!=0.9.0
+   :depends requests: ``>=2.20.0``
+   :depends requests-toolbelt: ``>=0.5.1,!=0.9.0``
    :depends six: 
    :requirements:
 

@@ -8,6 +8,7 @@ haploconduct
 
 .. conda:recipe:: haploconduct
    :replaces_section_title:
+   :noindex:
 
    HaploConduct is a package designed for reconstruction of individual haplotypes from next generation sequencing data\, in particular Illumina. It provides two methods\, SAVAGE and POLYTE\, which can be run through the haploconduct wrapper.
 
@@ -22,16 +23,23 @@ haploconduct
 
    |downloads_haploconduct| |docker_haploconduct|
 
-   :versions: 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.1-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
    :depends bwa: 
-   :depends kallisto: >=0.43.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends kallisto: ``>=0.43.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends rust-overlaps: 
-   :depends samtools: >=1.4
+   :depends samtools: ``>=1.4``
    :depends scipy: 
    :requirements:
 

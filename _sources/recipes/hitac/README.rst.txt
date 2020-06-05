@@ -8,6 +8,7 @@ hitac
 
 .. conda:recipe:: hitac
    :replaces_section_title:
+   :noindex:
 
    A hierarchical taxonomy classifier for fungal ITS sequences
 
@@ -23,13 +24,20 @@ hitac
 
    |downloads_hitac| |docker_hitac|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
    :depends biopython: 
-   :depends numpy: >=1.13.3
+   :depends numpy: ``>=1.13.3``
    :depends pandas: 
-   :depends python: >=3
-   :depends scikit-learn: >=0.21.3
+   :depends python: ``>=3``
+   :depends scikit-learn: ``>=0.21.3``
    :requirements:
 
    .. rubric:: Installation

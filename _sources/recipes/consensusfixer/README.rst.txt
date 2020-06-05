@@ -8,6 +8,7 @@ consensusfixer
 
 .. conda:recipe:: consensusfixer
    :replaces_section_title:
+   :noindex:
 
    Computes a consensus sequence with wobbles\, ambiguous bases\, and in\-frame insertions\, from a NGS read alignment.
 
@@ -22,7 +23,14 @@ consensusfixer
 
    |downloads_consensusfixer| |docker_consensusfixer|
 
-   :versions: 0.4-2, 0.4-0, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.4-2``,  ``0.4-0``,  ``0.3.1-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

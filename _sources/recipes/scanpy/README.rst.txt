@@ -8,6 +8,7 @@ scanpy
 
 .. conda:recipe:: scanpy
    :replaces_section_title:
+   :noindex:
 
    Single\-Cell Analysis in Python. Scales to \>1M cells.
 
@@ -24,29 +25,44 @@ scanpy
 
    |downloads_scanpy| |docker_scanpy|
 
-   :versions: 1.5.1-0, 1.5.0-0, 1.4.6-0, 1.4.4.post1-3, 1.4.4.post1-2, 1.4.4.post1-1, 1.4.4.post1-0, 1.4.4-1, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-0, 1.4-0, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.6-0</code>,  <code>1.4.4.post1-3</code>,  <code>1.4.4.post1-2</code>,  <code>1.4.4.post1-1</code>,  <code>1.4.4.post1-0</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  </span></summary>
+      
+
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.4.post1-3``,  ``1.4.4.post1-2``,  ``1.4.4.post1-1``,  ``1.4.4.post1-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends anndata: >=0.7
-   :depends h5py: >=2.10.0
-   :depends importlib_metadata: >=0.7
+   :depends anndata: ``>=0.7``
+   :depends h5py: ``>=2.10.0``
+   :depends importlib_metadata: ``>=0.7``
    :depends joblib: 
    :depends legacy-api-wrap: 
-   :depends matplotlib-base: >=3.1.2
+   :depends matplotlib-base: ``>=3.1.2``
    :depends natsort: 
    :depends networkx: 
-   :depends numba: >=0.41.0
+   :depends numba: ``>=0.41.0``
    :depends packaging: 
-   :depends pandas: >=0.21
+   :depends pandas: ``>=0.21``
    :depends patsy: 
    :depends pytables: 
-   :depends python: >=3.6
-   :depends scikit-learn: >=0.21.2
-   :depends scipy: >=1.3
+   :depends python: ``>=3.6``
+   :depends scikit-learn: ``>=0.21.2``
+   :depends scipy: ``>=1.3``
    :depends seaborn: 
    :depends setuptools_scm: 
-   :depends statsmodels: >=0.10.0rc2
+   :depends statsmodels: ``>=0.10.0rc2``
    :depends tqdm: 
-   :depends umap-learn: >=0.3.10
+   :depends umap-learn: ``>=0.3.10``
    :requirements:
 
    .. rubric:: Installation

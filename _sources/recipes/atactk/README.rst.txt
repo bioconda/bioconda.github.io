@@ -8,6 +8,7 @@ atactk
 
 .. conda:recipe:: atactk
    :replaces_section_title:
+   :noindex:
 
    A toolkit for working with ATAC\-seq data.
 
@@ -22,7 +23,14 @@ atactk
 
    |downloads_atactk| |docker_atactk|
 
-   :versions: 0.1.6-2, 0.1.6-1, 0.1.6-0
+   :versions:
+      
+      
+
+      ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+
+      
+
    
    :depends pysam: 
    :depends python: 

@@ -8,6 +8,7 @@ bioconductor-encodexplorer
 
 .. conda:recipe:: bioconductor-encodexplorer
    :replaces_section_title:
+   :noindex:
 
    A compilation of ENCODE metadata
 
@@ -23,15 +24,22 @@ bioconductor-encodexplorer
 
    |downloads_bioconductor-encodexplorer| |docker_bioconductor-encodexplorer|
 
-   :versions: 2.14.0-0, 2.12.0-0, 2.10.0-1, 2.8.0-0, 2.6.0-0, 2.4.0-0
+   :versions:
+      
+      
+
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-encodexplorerdata: >=0.99.0,<0.100.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-encodexplorerdata: ``>=0.99.0,<0.100.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-jsonlite: 

@@ -8,6 +8,7 @@ screamingbackpack
 
 .. conda:recipe:: screamingbackpack
    :replaces_section_title:
+   :noindex:
 
    ScreamingBackpack
 
@@ -22,7 +23,14 @@ screamingbackpack
 
    |downloads_screamingbackpack| |docker_screamingbackpack|
 
-   :versions: 0.2.333-1, 0.2.333-0
+   :versions:
+      
+      
+
+      ``0.2.333-1``,  ``0.2.333-0``
+
+      
+
    
    :depends python: 
    :requirements:

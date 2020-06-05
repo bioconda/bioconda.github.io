@@ -8,6 +8,7 @@ scallop-lr
 
 .. conda:recipe:: scallop-lr
    :replaces_section_title:
+   :noindex:
 
    Scallop\-LR is a reference\-based transcriptome assembler for long\-reads RNA\-seq data
 
@@ -22,12 +23,19 @@ scallop-lr
 
    |downloads_scallop-lr| |docker_scallop-lr|
 
-   :versions: 0.9.2-1, 0.9.2-0
+   :versions:
+      
+      
+
+      ``0.9.2-1``,  ``0.9.2-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ find_differential_primers
 
 .. conda:recipe:: find_differential_primers
    :replaces_section_title:
+   :noindex:
 
    Scripts to aid the design of differential primers for diagnostic PCR.
 
@@ -23,15 +24,22 @@ find_differential_primers
 
    |downloads_find_differential_primers| |docker_find_differential_primers|
 
-   :versions: 0.1.4-0, 0.1.3-3, 0.1.3-2, 0.1.3-1, 0.1.3-0, 0.1.3.p1-0
+   :versions:
+      
+      
+
+      ``0.1.4-0``,  ``0.1.3-3``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.3.p1-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
    :depends bx-python: 
    :depends emboss: 
-   :depends primer3: <=1.1.4
+   :depends primer3: ``<=1.1.4``
    :depends prodigal: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

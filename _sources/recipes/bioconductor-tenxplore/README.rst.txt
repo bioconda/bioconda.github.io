@@ -8,6 +8,7 @@ bioconductor-tenxplore
 
 .. conda:recipe:: bioconductor-tenxplore
    :replaces_section_title:
+   :noindex:
 
    ontological exploration of scRNA\-seq of 1.3 million mouse neurons from 10x genomics
 
@@ -22,14 +23,21 @@ bioconductor-tenxplore
 
    |downloads_bioconductor-tenxplore| |docker_bioconductor-tenxplore|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-ontoproc: >=1.10.0,<1.11.0
-   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-restfulse: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-ontoproc: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-restfulse: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrixstats: 
    :depends r-shiny: 
    :requirements:

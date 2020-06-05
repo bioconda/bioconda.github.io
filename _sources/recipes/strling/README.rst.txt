@@ -8,6 +8,7 @@ strling
 
 .. conda:recipe:: strling
    :replaces_section_title:
+   :noindex:
 
    STRling \(pronounced like “sterling”\) is a method to detect large STR expansions from short\-read sequencing data.
 
@@ -22,10 +23,17 @@ strling
 
    |downloads_strling| |docker_strling|
 
-   :versions: 0.2.1-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.1-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends htslib: 1.10.*
-   :depends libgcc-ng: >=7.3.0
+   :depends htslib: ``1.10.*``
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ yapc
 
 .. conda:recipe:: yapc
    :replaces_section_title:
+   :noindex:
 
    Yapc is a \(yet another\) peak caller for genomic high\-throughput sequencing data
 
@@ -23,13 +24,20 @@ yapc
 
    |downloads_yapc| |docker_yapc|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
    :depends idr: 
    :depends numpy: 
    :depends pandas: 
    :depends pybigwig: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

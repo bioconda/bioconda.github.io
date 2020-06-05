@@ -8,6 +8,7 @@ perl-heap-simple
 
 .. conda:recipe:: perl-heap-simple
    :replaces_section_title:
+   :noindex:
 
    Fast and easy to use classic heaps
 
@@ -22,9 +23,16 @@ perl-heap-simple
 
    |downloads_perl-heap-simple| |docker_perl-heap-simple|
 
-   :versions: 0.13-1, 0.13-0
+   :versions:
+      
+      
+
+      ``0.13-1``,  ``0.13-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-cgi: 
    :depends perl-heap-simple-perl: 
    :depends perl-heap-simple-xs: 

@@ -8,6 +8,7 @@ gmap-fusion
 
 .. conda:recipe:: gmap-fusion
    :replaces_section_title:
+   :noindex:
 
    GMAP\-fusion is a utility for identifying candidate fusion transcripts based on transcript sequences reconstructed via RNA\-Seq de novo transcriptome assembly.
 
@@ -22,14 +23,21 @@ gmap-fusion
 
    |downloads_gmap-fusion| |docker_gmap-fusion|
 
-   :versions: 0.4.0-2, 0.4.0-0, 0.3.0-1
+   :versions:
+      
+      
+
+      ``0.4.0-2``,  ``0.4.0-0``,  ``0.3.0-1``
+
+      
+
    
-   :depends bowtie2: >=2.1
-   :depends gmap: >=2017.11.15
+   :depends bowtie2: ``>=2.1``
+   :depends gmap: ``>=2017.11.15``
    :depends perl: 
    :depends perl-db-file: 
    :depends perl-set-intervaltree: 
-   :depends samtools: >=1.3
+   :depends samtools: ``>=1.3``
    :requirements:
 
    .. rubric:: Installation

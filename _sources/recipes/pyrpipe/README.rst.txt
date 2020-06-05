@@ -8,6 +8,7 @@ pyrpipe
 
 .. conda:recipe:: pyrpipe
    :replaces_section_title:
+   :noindex:
 
    pyrpipe is a lightweight python package for RNA\-Seq workflows.
 
@@ -24,13 +25,20 @@ pyrpipe
 
    |downloads_pyrpipe| |docker_pyrpipe|
 
-   :versions: 0.0.4-0
+   :versions:
+      
+      
+
+      ``0.0.4-0``
+
+      
+
    
    :depends dill: 
    :depends importlib_resources: 
    :depends jinja2: 
    :depends multiqc: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyyaml: 
    :depends seaborn: 
    :depends weasyprint: 

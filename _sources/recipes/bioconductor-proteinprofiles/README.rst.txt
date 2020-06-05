@@ -8,6 +8,7 @@ bioconductor-proteinprofiles
 
 .. conda:recipe:: bioconductor-proteinprofiles
    :replaces_section_title:
+   :noindex:
 
    Protein Profiling
 
@@ -22,9 +23,16 @@ bioconductor-proteinprofiles
 
    |downloads_bioconductor-proteinprofiles| |docker_bioconductor-proteinprofiles|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

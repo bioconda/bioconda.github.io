@@ -8,6 +8,7 @@ genform
 
 .. conda:recipe:: genform
    :replaces_section_title:
+   :noindex:
 
    Generation of molecular formulas by high\-resolution MS and MS\/MS data
 
@@ -23,10 +24,17 @@ genform
 
    |downloads_genform| |docker_genform|
 
-   :versions: r8-0
+   :versions:
+      
+      
+
+      ``r8-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

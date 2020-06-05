@@ -8,6 +8,7 @@ intervene
 
 .. conda:recipe:: intervene
    :replaces_section_title:
+   :noindex:
 
    A tool for intersection of multiple gene or genomic region sets and visualization as venn diagrams\, UpSet plots or pariwaise heatmaps
 
@@ -23,12 +24,19 @@ intervene
 
    |downloads_intervene| |docker_intervene|
 
-   :versions: 0.6.4-2, 0.6.4-1, 0.6.4-0, 0.6.2-0, 0.5.9-0, 0.5.8-0
+   :versions:
+      
+      
+
+      ``0.6.4-2``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.5.9-0``,  ``0.5.8-0``
+
+      
+
    
    :depends bedtools: 
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends pandas: <1
+   :depends pandas: ``<1``
    :depends pybedtools: 
    :depends python: 
    :depends r-base: 

@@ -8,6 +8,7 @@ perl-xml-dom-xpath
 
 .. conda:recipe:: perl-xml-dom-xpath
    :replaces_section_title:
+   :noindex:
 
    Perl extension to add XPath support to XML\:\:DOM\, using XML\:\:XPath engine
 
@@ -22,9 +23,16 @@ perl-xml-dom-xpath
 
    |downloads_perl-xml-dom-xpath| |docker_perl-xml-dom-xpath|
 
-   :versions: 0.14-1, 0.14-0
+   :versions:
+      
+      
+
+      ``0.14-1``,  ``0.14-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xml-dom: 
    :depends perl-xml-xpathengine: 
    :requirements:

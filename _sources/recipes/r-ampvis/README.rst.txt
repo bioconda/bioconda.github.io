@@ -8,6 +8,7 @@ r-ampvis
 
 .. conda:recipe:: r-ampvis
    :replaces_section_title:
+   :noindex:
 
    A package to visualise amplicon data
 
@@ -22,12 +23,19 @@ r-ampvis
 
    |downloads_r-ampvis| |docker_r-ampvis|
 
-   :versions: 1.27.0-2, 1.27.0-0
+   :versions:
+      
+      
+
+      ``1.27.0-2``,  ``1.27.0-0``
+
+      
+
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-phyloseq: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggdendro: 

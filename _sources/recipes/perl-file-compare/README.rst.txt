@@ -8,6 +8,7 @@ perl-file-compare
 
 .. conda:recipe:: perl-file-compare/1.1006
    :replaces_section_title:
+   :noindex:
 
    Compare files or filehandles
 
@@ -22,9 +23,16 @@ perl-file-compare
 
    |downloads_perl-file-compare| |docker_perl-file-compare|
 
-   :versions: 1.1006-1, 1.1006-0
+   :versions:
+      
+      
+
+      ``1.1006-1``,  ``1.1006-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

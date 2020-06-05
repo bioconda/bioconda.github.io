@@ -8,6 +8,7 @@ bioconductor-rvs
 
 .. conda:recipe:: bioconductor-rvs
    :replaces_section_title:
+   :noindex:
 
    Computes estimates of the probability of related individuals sharing a rare variant
 
@@ -22,10 +23,17 @@ bioconductor-rvs
 
    |downloads_bioconductor-rvs| |docker_bioconductor-rvs|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-snpstats: >=1.38.0,<1.39.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-snpstats: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-genlib: 
    :depends r-grain: 
    :depends r-kinship2: 

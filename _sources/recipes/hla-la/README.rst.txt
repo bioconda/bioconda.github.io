@@ -8,6 +8,7 @@ hla-la
 
 .. conda:recipe:: hla-la/1.0
    :replaces_section_title:
+   :noindex:
 
    HLA typing from short and long reads
 
@@ -23,12 +24,19 @@ hla-la
 
    |downloads_hla-la| |docker_hla-la|
 
-   :versions: 1.0.1-3, 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends boost-cpp: >=1.68.0,<1.68.1.0a0
+   :depends boost-cpp: ``>=1.68.0,<1.68.1.0a0``
    :depends bwa: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends mummer: 
    :depends perl-bio-db-hts: 
    :depends perl-bio-featureio: 
@@ -38,7 +46,7 @@ hla-la
    :depends perl-text-levenshtein: 
    :depends picard: 
    :depends samtools: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

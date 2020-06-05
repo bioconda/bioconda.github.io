@@ -8,6 +8,7 @@ admixtools
 
 .. conda:recipe:: admixtools
    :replaces_section_title:
+   :noindex:
 
    ADMIXTOOLS \(Patterson et al. 2012\) is a software package that supports formal tests of whether admixture occurred\, and makes it possible to infer admixture proportions and dates.
 
@@ -23,11 +24,18 @@ admixtools
 
    |downloads_admixtools| |docker_admixtools|
 
-   :versions: 6.0-0, 5.1-0, 5.0-0
+   :versions:
+      
+      
+
+      ``6.0-0``,  ``5.1-0``,  ``5.0-0``
+
+      
+
    
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends openblas: >=0.3.6,<0.3.7.0a0
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
    :requirements:
 
    .. rubric:: Installation

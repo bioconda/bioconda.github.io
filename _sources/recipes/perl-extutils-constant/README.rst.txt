@@ -8,6 +8,7 @@ perl-extutils-constant
 
 .. conda:recipe:: perl-extutils-constant
    :replaces_section_title:
+   :noindex:
 
    generate XS code to import C header constants
 
@@ -22,10 +23,17 @@ perl-extutils-constant
 
    |downloads_perl-extutils-constant| |docker_perl-extutils-constant|
 
-   :versions: 0.25-0, 0.24-1, 0.24-0
+   :versions:
+      
+      
+
+      ``0.25-0``,  ``0.24-1``,  ``0.24-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ lusstr
 
 .. conda:recipe:: lusstr
    :replaces_section_title:
+   :noindex:
 
    Tool for converting NGS sequence data of forensic STR loci to various annotation styles
 
@@ -22,11 +23,18 @@ lusstr
 
    |downloads_lusstr| |docker_lusstr|
 
-   :versions: 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``
+
+      
+
    
-   :depends pandas: >=1
-   :depends python: >=3
-   :depends xlrd: >=1.0
+   :depends pandas: ``>=1``
+   :depends python: ``>=3``
+   :depends xlrd: ``>=1.0``
    :requirements:
 
    .. rubric:: Installation

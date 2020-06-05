@@ -8,6 +8,7 @@ fastahack
 
 .. conda:recipe:: fastahack
    :replaces_section_title:
+   :noindex:
 
    fastahack \-\-\- \*fast\* FASTA file indexing\, subsequence and sequence extraction
 
@@ -22,9 +23,16 @@ fastahack
 
    |downloads_fastahack| |docker_fastahack|
 
-   :versions: 2016.07.2-1, 2016.07.2-0
+   :versions:
+      
+      
+
+      ``2016.07.2-1``,  ``2016.07.2-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

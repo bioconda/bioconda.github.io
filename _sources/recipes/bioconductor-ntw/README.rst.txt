@@ -8,6 +8,7 @@ bioconductor-ntw
 
 .. conda:recipe:: bioconductor-ntw
    :replaces_section_title:
+   :noindex:
 
    Predict gene network using an Ordinary Differential Equation \(ODE\) based method
 
@@ -23,9 +24,16 @@ bioconductor-ntw
 
    |downloads_bioconductor-ntw| |docker_bioconductor-ntw|
 
-   :versions: 1.38.0-0, 1.36.0-0, 1.34.0-1, 1.34.0-0, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mvtnorm: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-epivizrchart
 
 .. conda:recipe:: bioconductor-epivizrchart
    :replaces_section_title:
+   :noindex:
 
    R interface to epiviz web components
 
@@ -22,12 +23,19 @@ bioconductor-epivizrchart
 
    |downloads_bioconductor-epivizrchart| |docker_bioconductor-epivizrchart|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-epivizrdata: >=1.16.0,<1.17.0
-   :depends bioconductor-epivizrserver: >=1.16.0,<1.17.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-epivizrdata: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-epivizrserver: ``>=1.16.0,<1.17.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-htmltools: 
    :depends r-rjson: 
    :requirements:

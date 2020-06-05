@@ -8,6 +8,7 @@ perl-pod-simple
 
 .. conda:recipe:: perl-pod-simple/3.35
    :replaces_section_title:
+   :noindex:
 
    framework for parsing Pod
 
@@ -22,9 +23,16 @@ perl-pod-simple
 
    |downloads_perl-pod-simple| |docker_perl-pod-simple|
 
-   :versions: 3.35-1, 3.35-0
+   :versions:
+      
+      
+
+      ``3.35-1``,  ``3.35-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-carp: 
    :depends perl-pod-escapes: 
    :depends perl-test: 

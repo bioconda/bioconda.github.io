@@ -8,6 +8,7 @@ biobb_md
 
 .. conda:recipe:: biobb_md
    :replaces_section_title:
+   :noindex:
 
    Biobb\_md is the Biobb module collection to perform molecular dynamics simulations.
 
@@ -24,11 +25,26 @@ biobb_md
 
    |downloads_biobb_md| |docker_biobb_md|
 
-   :versions: 3.0.0-0, 2.0.0-0, 1.1.7-0, 1.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  </span></summary>
+      
+
+      ``3.0.0-0``,  ``2.0.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biobb_common: 3.0.0
-   :depends gromacs: 2019.1
-   :depends python: >=3.7
+   :depends biobb_common: ``3.0.0``
+   :depends gromacs: ``2019.1``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation

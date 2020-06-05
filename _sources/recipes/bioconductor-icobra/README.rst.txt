@@ -8,6 +8,7 @@ bioconductor-icobra
 
 .. conda:recipe:: bioconductor-icobra
    :replaces_section_title:
+   :noindex:
 
    Comparison and Visualization of Ranking and Assignment Methods
 
@@ -23,17 +24,24 @@ bioconductor-icobra
 
    |downloads_bioconductor-icobra| |docker_bioconductor-icobra|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
-   :depends r-ggplot2: >=2.0.0
+   :depends r-ggplot2: ``>=2.0.0``
    :depends r-reshape2: 
    :depends r-rocr: 
    :depends r-scales: 
-   :depends r-shiny: >=0.9.1.9008
+   :depends r-shiny: ``>=0.9.1.9008``
    :depends r-shinybs: 
    :depends r-shinydashboard: 
    :depends r-upsetr: 

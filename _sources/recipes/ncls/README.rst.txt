@@ -8,6 +8,7 @@ ncls
 
 .. conda:recipe:: ncls
    :replaces_section_title:
+   :noindex:
 
    Fast overlap datastructure.
 
@@ -22,12 +23,27 @@ ncls
 
    |downloads_ncls| |docker_ncls|
 
-   :versions: 0.0.53-1, 0.0.53-0, 0.0.52-0, 0.0.51-0, 0.0.50-0, 0.0.49-0, 0.0.48-0, 0.0.47-0, 0.0.46-0, 0.0.45-0, 0.0.44-0, 0.0.43-0, 0.0.42-3, 0.0.42-2, 0.0.42-1, 0.0.42-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.0.53-1</code>,  <code>0.0.53-0</code>,  <code>0.0.52-0</code>,  <code>0.0.51-0</code>,  <code>0.0.50-0</code>,  <code>0.0.49-0</code>,  <code>0.0.48-0</code>,  <code>0.0.47-0</code>,  <code>0.0.46-0</code>,  </span></summary>
+      
+
+      ``0.0.53-1``,  ``0.0.53-0``,  ``0.0.52-0``,  ``0.0.51-0``,  ``0.0.50-0``,  ``0.0.49-0``,  ``0.0.48-0``,  ``0.0.47-0``,  ``0.0.46-0``,  ``0.0.45-0``,  ``0.0.44-0``,  ``0.0.43-0``,  ``0.0.42-3``,  ``0.0.42-2``,  ``0.0.42-1``,  ``0.0.42-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-test-file-contents
 
 .. conda:recipe:: perl-test-file-contents/0.23
    :replaces_section_title:
+   :noindex:
 
    Test routines for examining the contents of files
 
@@ -22,9 +23,16 @@ perl-test-file-contents
 
    |downloads_perl-test-file-contents| |docker_perl-test-file-contents|
 
-   :versions: 0.23-2, 0.23-1, 0.23-0
+   :versions:
+      
+      
+
+      ``0.23-2``,  ``0.23-1``,  ``0.23-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-digest-md5: 
    :depends perl-file-spec: 
    :depends perl-test-pod: 

@@ -8,6 +8,7 @@ perl-statistics-lite
 
 .. conda:recipe:: perl-statistics-lite
    :replaces_section_title:
+   :noindex:
 
    Small stats stuff.
 
@@ -22,9 +23,16 @@ perl-statistics-lite
 
    |downloads_perl-statistics-lite| |docker_perl-statistics-lite|
 
-   :versions: 3.62-1, 3.62-0
+   :versions:
+      
+      
+
+      ``3.62-1``,  ``3.62-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

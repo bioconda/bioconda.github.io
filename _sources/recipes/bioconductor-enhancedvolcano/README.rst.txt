@@ -8,6 +8,7 @@ bioconductor-enhancedvolcano
 
 .. conda:recipe:: bioconductor-enhancedvolcano
    :replaces_section_title:
+   :noindex:
 
    Publication\-ready volcano plots with enhanced colouring and labeling
 
@@ -22,9 +23,16 @@ bioconductor-enhancedvolcano
 
    |downloads_bioconductor-enhancedvolcano| |docker_bioconductor-enhancedvolcano|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :requirements:

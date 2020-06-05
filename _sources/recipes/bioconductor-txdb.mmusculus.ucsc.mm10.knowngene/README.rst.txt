@@ -8,6 +8,7 @@ bioconductor-txdb.mmusculus.ucsc.mm10.knowngene
 
 .. conda:recipe:: bioconductor-txdb.mmusculus.ucsc.mm10.knowngene
    :replaces_section_title:
+   :noindex:
 
    Annotation package for TxDb object\(s\)
 
@@ -22,12 +23,19 @@ bioconductor-txdb.mmusculus.ucsc.mm10.knowngene
 
    |downloads_bioconductor-txdb.mmusculus.ucsc.mm10.knowngene| |docker_bioconductor-txdb.mmusculus.ucsc.mm10.knowngene|
 
-   :versions: 3.10.0-1, 3.10.0-0, 3.4.7-1, 3.4.4-0, 3.4.0-3, 3.4.0-1, 3.4.0-0
+   :versions:
+      
+      
+
+      ``3.10.0-1``,  ``3.10.0-0``,  ``3.4.7-1``,  ``3.4.4-0``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ cmseq
 
 .. conda:recipe:: cmseq
    :replaces_section_title:
+   :noindex:
 
    Set of utilities on sequences and BAM files
 
@@ -22,15 +23,22 @@ cmseq
 
    |downloads_cmseq| |docker_cmseq|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends bcbio-gff: 
    :depends biopython: 
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3
-   :depends samtools: >=1.0
+   :depends python: ``>=3``
+   :depends samtools: ``>=1.0``
    :depends scipy: 
    :requirements:
 

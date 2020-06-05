@@ -8,6 +8,7 @@ vsnp
 
 .. conda:recipe:: vsnp
    :replaces_section_title:
+   :noindex:
 
    Rapidly call\, validate\, and compare SNPs from FASTQ files in a timely manner utilizing large data sets.
 
@@ -22,7 +23,14 @@ vsnp
 
    |downloads_vsnp| |docker_vsnp|
 
-   :versions: 2.03-0, 0.2.02-0, 0.2.01-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``2.03-0``,  ``0.2.02-0``,  ``0.2.01-0``,  ``0.2.0-0``
+
+      
+
    
    :depends abyss: 
    :depends biopython: 
@@ -35,7 +43,7 @@ vsnp
    :depends picard: 
    :depends py-cpuinfo: 
    :depends pysam: 
-   :depends python: >=3.7
+   :depends python: ``>=3.7``
    :depends pyvcf: 
    :depends raxml: 
    :depends regex: 

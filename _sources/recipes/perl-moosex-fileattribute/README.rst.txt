@@ -8,6 +8,7 @@ perl-moosex-fileattribute
 
 .. conda:recipe:: perl-moosex-fileattribute
    :replaces_section_title:
+   :noindex:
 
    Sugar for classes that have file or directory attributes
 
@@ -22,9 +23,16 @@ perl-moosex-fileattribute
 
    |downloads_perl-moosex-fileattribute| |docker_perl-moosex-fileattribute|
 
-   :versions: 0.03-0, 0.02-1, 0.02-0
+   :versions:
+      
+      
+
+      ``0.03-0``,  ``0.02-1``,  ``0.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-moosex-types: 
    :depends perl-moosex-types-path-class: 
    :requirements:

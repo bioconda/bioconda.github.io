@@ -8,6 +8,7 @@ perl-escape-houdini
 
 .. conda:recipe:: perl-escape-houdini/0.3.0
    :replaces_section_title:
+   :noindex:
 
    Perl API to Houdini\, a zero\-dependency C web escaping library
 
@@ -22,10 +23,17 @@ perl-escape-houdini
 
    |downloads_perl-escape-houdini| |docker_perl-escape-houdini|
 
-   :versions: 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.3.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter: 
    :depends perl-parent: 
    :requirements:

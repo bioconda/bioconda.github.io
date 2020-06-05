@@ -8,6 +8,7 @@ stringtie
 
 .. conda:recipe:: stringtie
    :replaces_section_title:
+   :noindex:
 
    StringTie is a fast and highly efficient assembler of RNA\-Seq alignments into potential transcripts.
 
@@ -24,10 +25,25 @@ stringtie
 
    |downloads_stringtie| |docker_stringtie|
 
-   :versions: 2.1.2-0, 2.1.1-0, 2.0-0, 1.3.6-0, 1.3.5-0, 1.3.4-1, 1.3.4-0, 1.3.3-4, 1.3.3-3, 1.3.3-2, 1.3.3b-0, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.4-2, 1.2.4-1, 1.2.4-0, 1.2.3-0, 1.2.2-2, 1.2.2-1, 1.2.0-1, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.4-1, 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.1-0, 0.97-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.0-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.3-4</code>,  <code>1.3.3-3</code>,  </span></summary>
+      
+
+      ``2.1.2-0``,  ``2.1.1-0``,  ``2.0-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3b-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``,  ``0.97-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends python: 
    :requirements:
 

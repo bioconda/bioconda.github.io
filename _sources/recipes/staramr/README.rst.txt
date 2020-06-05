@@ -8,6 +8,7 @@ staramr
 
 .. conda:recipe:: staramr
    :replaces_section_title:
+   :noindex:
 
    Scan genome contigs against the ResFinder and PointFinder databases
 
@@ -22,19 +23,34 @@ staramr
 
    |downloads_staramr| |docker_staramr|
 
-   :versions: 0.7.1-1, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.0-2, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.2-0, 0.2.1-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  </span></summary>
+      
+
+      ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: >=1.70
-   :depends blast: >=2.2.31
-   :depends coloredlogs: >=10.0
+   :depends biopython: ``>=1.70``
+   :depends blast: ``>=2.2.31``
+   :depends coloredlogs: ``>=10.0``
    :depends git: 
-   :depends gitpython: >=2.1.3
-   :depends green: >=2.13.0
+   :depends gitpython: ``>=2.1.3``
+   :depends green: ``>=2.13.0``
    :depends mlst: 
-   :depends numpy: >=1.12.1
-   :depends pandas: >=0.23.0,<1
-   :depends python: >=3
-   :depends xlsxwriter: >=1.0.2
+   :depends numpy: ``>=1.12.1``
+   :depends pandas: ``>=0.23.0,<1``
+   :depends python: ``>=3``
+   :depends xlsxwriter: ``>=1.0.2``
    :requirements:
 
    .. rubric:: Installation

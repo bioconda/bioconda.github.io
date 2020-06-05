@@ -8,6 +8,7 @@ bioconductor-caomicsv
 
 .. conda:recipe:: bioconductor-caomicsv
    :replaces_section_title:
+   :noindex:
 
    Visualization of multi\-dimentional cancer genomics data
 
@@ -22,11 +23,18 @@ bioconductor-caomicsv
 
    |downloads_bioconductor-caomicsv| |docker_bioconductor-caomicsv|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.1-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-bc3net: >=1.0.2
-   :depends r-igraph: >=0.7.1
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bc3net: ``>=1.0.2``
+   :depends r-igraph: ``>=0.7.1``
    :requirements:
 
    .. rubric:: Installation

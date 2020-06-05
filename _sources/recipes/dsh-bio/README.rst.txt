@@ -8,6 +8,7 @@ dsh-bio
 
 .. conda:recipe:: dsh-bio
    :replaces_section_title:
+   :noindex:
 
    Tools for BED\, FASTA\, FASTQ\, GFA1\/2\, GFF3\, SAM\, and VCF files
 
@@ -22,9 +23,24 @@ dsh-bio
 
    |downloads_dsh-bio| |docker_dsh-bio|
 
-   :versions: 1.3.3-0, 1.3.2-0, 1.3.1-0, 1.3-0, 1.2.1-0, 1.2-1, 1.2-0, 1.1-1, 1.0.1-1, 1.0.1-0, 1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1-1</code>,  <code>1.0.1-1</code>,  </span></summary>
+      
+
+      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1-1``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends zlib: 
    :requirements:
 

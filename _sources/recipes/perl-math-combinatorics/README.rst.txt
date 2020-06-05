@@ -8,6 +8,7 @@ perl-math-combinatorics
 
 .. conda:recipe:: perl-math-combinatorics
    :replaces_section_title:
+   :noindex:
 
    Perform combinations and permutations on lists
 
@@ -22,9 +23,16 @@ perl-math-combinatorics
 
    |downloads_perl-math-combinatorics| |docker_perl-math-combinatorics|
 
-   :versions: 0.09-1, 0.09-0
+   :versions:
+      
+      
+
+      ``0.09-1``,  ``0.09-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

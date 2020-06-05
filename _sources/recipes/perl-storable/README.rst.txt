@@ -8,6 +8,7 @@ perl-storable
 
 .. conda:recipe:: perl-storable
    :replaces_section_title:
+   :noindex:
 
    persistence for Perl data structures
 
@@ -22,10 +23,17 @@ perl-storable
 
    |downloads_perl-storable| |docker_perl-storable|
 
-   :versions: 3.15-0, 3.11-0
+   :versions:
+      
+      
+
+      ``3.15-0``,  ``3.11-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xsloader: 
    :requirements:
 

@@ -8,6 +8,7 @@ paml
 
 .. conda:recipe:: paml
    :replaces_section_title:
+   :noindex:
 
    A package of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood.
 
@@ -23,9 +24,16 @@ paml
 
    |downloads_paml| |docker_paml|
 
-   :versions: 4.9-5, 4.9-4, 4.9-3, 4.9-2, 4.9-1, 4.9-0
+   :versions:
+      
+      
+
+      ``4.9-5``,  ``4.9-4``,  ``4.9-3``,  ``4.9-2``,  ``4.9-1``,  ``4.9-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

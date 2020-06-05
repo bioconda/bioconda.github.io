@@ -8,6 +8,7 @@ perl-getopt-long-descriptive
 
 .. conda:recipe:: perl-getopt-long-descriptive
    :replaces_section_title:
+   :noindex:
 
    Getopt\:\:Long\, but simpler and more powerful
 
@@ -22,9 +23,16 @@ perl-getopt-long-descriptive
 
    |downloads_perl-getopt-long-descriptive| |docker_perl-getopt-long-descriptive|
 
-   :versions: 0.104-0, 0.103-0
+   :versions:
+      
+      
+
+      ``0.104-0``,  ``0.103-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-getopt-long: 
    :depends perl-params-validate: 

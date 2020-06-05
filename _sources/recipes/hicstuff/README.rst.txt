@@ -8,6 +8,7 @@ hicstuff
 
 .. conda:recipe:: hicstuff
    :replaces_section_title:
+   :noindex:
 
    General purpose stuff to generate and handle Hi\-C data in its simplest form.
 
@@ -24,7 +25,14 @@ hicstuff
 
    |downloads_hicstuff| |docker_hicstuff|
 
-   :versions: 2.3.0-1, 2.3.0-0
+   :versions:
+      
+      
+
+      ``2.3.0-1``,  ``2.3.0-0``
+
+      
+
    
    :depends biopython: 
    :depends bowtie2: 
@@ -34,7 +42,7 @@ hicstuff
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3.6,<3.8
+   :depends python: ``>=3.6,<3.8``
    :depends requests: 
    :depends samtools: 
    :depends scikit-learn: 

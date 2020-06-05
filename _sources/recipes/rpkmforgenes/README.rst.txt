@@ -8,6 +8,7 @@ rpkmforgenes
 
 .. conda:recipe:: rpkmforgenes
    :replaces_section_title:
+   :noindex:
 
    Calculates gene expression from a read mapping file
 
@@ -22,11 +23,18 @@ rpkmforgenes
 
    |downloads_rpkmforgenes| |docker_rpkmforgenes|
 
-   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
    :depends numpy: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

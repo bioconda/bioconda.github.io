@@ -8,6 +8,7 @@ hic2cool
 
 .. conda:recipe:: hic2cool
    :replaces_section_title:
+   :noindex:
 
    A converter between .hic files \(from juicer\) and .cool files \(for cooler\).
 
@@ -22,11 +23,26 @@ hic2cool
 
    |downloads_hic2cool| |docker_hic2cool|
 
-   :versions: 0.8.3-1, 0.8.3-0, 0.8.2-0, 0.8.0-0, 0.7.3-0, 0.7.1-0, 0.6.0-0, 0.5.1-0, 0.4.2-0, 0.4.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.4.2-0</code>,  </span></summary>
+      
+
+      ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.4.2-0``,  ``0.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends cooler: >=0.8.5
-   :depends h5py: >=2.8.0
-   :depends numpy: >=1.10.1
+   :depends cooler: ``>=0.8.5``
+   :depends h5py: ``>=2.8.0``
+   :depends numpy: ``>=1.10.1``
    :depends pandas: 
    :depends python: 
    :depends scipy: 

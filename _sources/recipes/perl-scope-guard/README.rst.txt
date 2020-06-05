@@ -8,6 +8,7 @@ perl-scope-guard
 
 .. conda:recipe:: perl-scope-guard
    :replaces_section_title:
+   :noindex:
 
    lexically\-scoped resource management
 
@@ -22,9 +23,16 @@ perl-scope-guard
 
    |downloads_perl-scope-guard| |docker_perl-scope-guard|
 
-   :versions: 0.21-2, 0.21-0
+   :versions:
+      
+      
+
+      ``0.21-2``,  ``0.21-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

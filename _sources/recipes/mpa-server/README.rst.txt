@@ -8,6 +8,7 @@ mpa-server
 
 .. conda:recipe:: mpa-server
    :replaces_section_title:
+   :noindex:
 
    Independent platform for interpretation of proteomics identification results
 
@@ -26,10 +27,17 @@ mpa-server
 
    |downloads_mpa-server| |docker_mpa-server|
 
-   :versions: 3.4-1, 3.4-0, 3.3-1, 3.3-0
+   :versions:
+      
+      
+
+      ``3.4-1``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``
+
+      
+
    
    :depends mysql: 
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends perl: 
    :depends python: 
    :depends requests: 

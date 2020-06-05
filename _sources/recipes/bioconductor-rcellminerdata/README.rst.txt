@@ -8,6 +8,7 @@ bioconductor-rcellminerdata
 
 .. conda:recipe:: bioconductor-rcellminerdata
    :replaces_section_title:
+   :noindex:
 
    rcellminerData\: Molecular Profiles and Drug Response for the NCI\-60 Cell Lines
 
@@ -22,11 +23,18 @@ bioconductor-rcellminerdata
 
    |downloads_bioconductor-rcellminerdata| |docker_bioconductor-rcellminerdata|
 
-   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.4.0-0
+   :versions:
+      
+      
+
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.4.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

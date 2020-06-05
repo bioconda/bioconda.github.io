@@ -8,6 +8,7 @@ perl-data-dumper
 
 .. conda:recipe:: perl-data-dumper
    :replaces_section_title:
+   :noindex:
 
    seeds germane\, yet not germinated
 
@@ -22,9 +23,16 @@ perl-data-dumper
 
    |downloads_perl-data-dumper| |docker_perl-data-dumper|
 
-   :versions: 2.173-0, 2.161-2, 2.161-1, 2.161-0
+   :versions:
+      
+      
+
+      ``2.173-0``,  ``2.161-2``,  ``2.161-1``,  ``2.161-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

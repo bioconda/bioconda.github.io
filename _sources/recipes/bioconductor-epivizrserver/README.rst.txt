@@ -8,6 +8,7 @@ bioconductor-epivizrserver
 
 .. conda:recipe:: bioconductor-epivizrserver
    :replaces_section_title:
+   :noindex:
 
    WebSocket server infrastructure for epivizr apps and packages
 
@@ -23,12 +24,19 @@ bioconductor-epivizrserver
 
    |downloads_bioconductor-epivizrserver| |docker_bioconductor-epivizrserver|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0, 1.8.1-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-httpuv: >=1.3.0
-   :depends r-mime: >=0.2
-   :depends r-r6: >=2.0.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-httpuv: ``>=1.3.0``
+   :depends r-mime: ``>=0.2``
+   :depends r-r6: ``>=2.0.0``
    :depends r-rjson: 
    :requirements:
 

@@ -8,6 +8,7 @@ svim
 
 .. conda:recipe:: svim
    :replaces_section_title:
+   :noindex:
 
    SVIM is a structural variant caller for long reads.
 
@@ -22,15 +23,30 @@ svim
 
    |downloads_svim| |docker_svim|
 
-   :versions: 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.1-0, 1.1.0-0, 1.0.0-0, 0.5.0-0, 0.4.4-0, 0.4.3-0, 0.4.2-0, 0.4.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  </span></summary>
+      
+
+      ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends matplotlib-base: 
    :depends minimap2: 
    :depends networkx: 
    :depends ngmlr: 
    :depends numpy: 
-   :depends pysam: >=0.15
-   :depends python: >=3.6
+   :depends pysam: ``>=0.15``
+   :depends python: ``>=3.6``
    :depends samtools: 
    :depends scipy: 
    :requirements:

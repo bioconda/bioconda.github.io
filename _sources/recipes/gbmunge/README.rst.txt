@@ -8,6 +8,7 @@ gbmunge
 
 .. conda:recipe:: gbmunge
    :replaces_section_title:
+   :noindex:
 
    Munge GenBank files into FASTA and tab\-separated metadata.
 
@@ -22,9 +23,16 @@ gbmunge
 
    |downloads_gbmunge| |docker_gbmunge|
 
-   :versions: 2018.07.06-1, 2018.07.06-0
+   :versions:
+      
+      
+
+      ``2018.07.06-1``,  ``2018.07.06-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

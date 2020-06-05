@@ -8,6 +8,7 @@ npinv
 
 .. conda:recipe:: npinv
    :replaces_section_title:
+   :noindex:
 
    an accurate tool for detecting and genotyping inversion using multiple alignment long reads
 
@@ -23,9 +24,16 @@ npinv
 
    |downloads_npinv| |docker_npinv|
 
-   :versions: 1.24-1, 1.24-0
+   :versions:
+      
+      
+
+      ``1.24-1``,  ``1.24-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

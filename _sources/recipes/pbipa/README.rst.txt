@@ -8,6 +8,7 @@ pbipa
 
 .. conda:recipe:: pbipa
    :replaces_section_title:
+   :noindex:
 
    Improved Phased Assembly
 
@@ -22,18 +23,25 @@ pbipa
 
    |downloads_pbipa| |docker_pbipa|
 
-   :versions: 1.0.3-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``,  ``0.0.1-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.5.0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends networkx: 
    :depends nim-falcon: 
    :depends pbmm2: 
-   :depends pcre: >=8.44,<9.0a0
+   :depends pcre: ``>=8.44,<9.0a0``
    :depends racon: 
    :depends samtools: 
    :depends snakemake-minimal: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

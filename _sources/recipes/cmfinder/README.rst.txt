@@ -8,6 +8,7 @@ cmfinder
 
 .. conda:recipe:: cmfinder
    :replaces_section_title:
+   :noindex:
 
    CMfinder \- A Covariance Model Based RNA Motif Finding Algorithm
 
@@ -22,10 +23,17 @@ cmfinder
 
    |downloads_cmfinder| |docker_cmfinder|
 
-   :versions: 0.4.1.9-2, 0.4.1.9-1, 0.4.1.9-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.4.1.9-2``,  ``0.4.1.9-1``,  ``0.4.1.9-0``,  ``0.2-0``
+
+      
+
    
    :depends blast: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends perl: 
    :requirements:
 

@@ -8,6 +8,7 @@ ltr_retriever
 
 .. conda:recipe:: ltr_retriever
    :replaces_section_title:
+   :noindex:
 
    Identification of LTR retrotransposons
 
@@ -22,7 +23,14 @@ ltr_retriever
 
    |downloads_ltr_retriever| |docker_ltr_retriever|
 
-   :versions: 2.8.7-0, 2.8-0
+   :versions:
+      
+      
+
+      ``2.8.7-0``,  ``2.8-0``
+
+      
+
    
    :depends cd-hit: 
    :depends perl: 

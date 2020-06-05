@@ -8,6 +8,7 @@ clustergrammer
 
 .. conda:recipe:: clustergrammer
    :replaces_section_title:
+   :noindex:
 
    A python module for the Clustergrammer visualization project
 
@@ -22,7 +23,14 @@ clustergrammer
 
    |downloads_clustergrammer| |docker_clustergrammer|
 
-   :versions: 1.13.6-0, 1.13.5-2, 1.13.5-1, 1.13.5-0
+   :versions:
+      
+      
+
+      ``1.13.6-0``,  ``1.13.5-2``,  ``1.13.5-1``,  ``1.13.5-0``
+
+      
+
    
    :depends numpy: 
    :depends pandas: 

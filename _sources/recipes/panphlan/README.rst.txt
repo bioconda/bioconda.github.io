@@ -8,6 +8,7 @@ panphlan
 
 .. conda:recipe:: panphlan/1.2
    :replaces_section_title:
+   :noindex:
 
    PanPhlAn is a strain\-level metagenomic profiling tool for identifying the 
    gene composition and in\-vivo transcriptional activity of individual strains 
@@ -27,10 +28,17 @@ panphlan
 
    |downloads_panphlan| |docker_panphlan|
 
-   :versions: 1.2-5, 1.2-4, 1.2-3
+   :versions:
+      
+      
+
+      ``1.2-5``,  ``1.2-4``,  ``1.2-3``
+
+      
+
    
    :depends biopython: 
-   :depends bowtie2: >=2.0.0
+   :depends bowtie2: ``>=2.0.0``
    :depends matplotlib: 
    :depends numpy: 
    :depends python: 

@@ -8,6 +8,7 @@ pgcgap
 
 .. conda:recipe:: pgcgap
    :replaces_section_title:
+   :noindex:
 
    A prokaryotic genomics and comparative genomics analysis pipeline
 
@@ -24,56 +25,71 @@ pgcgap
 
    |downloads_pgcgap| |docker_pgcgap|
 
-   :versions: 1.0.17-0, 1.0.16-0, 1.0.15-0, 1.0.14-0, 1.0.13-1, 1.0.13-0, 1.0.12-1, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.10-2, 1.0.10-1, 1.0.10-0, 1.0.9-2, 1.0.9-1, 1.0.9-0, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.17-0</code>,  <code>1.0.16-0</code>,  <code>1.0.15-0</code>,  <code>1.0.14-0</code>,  <code>1.0.13-1</code>,  <code>1.0.13-0</code>,  <code>1.0.12-1</code>,  <code>1.0.12-0</code>,  <code>1.0.11-1</code>,  </span></summary>
+      
+
+      ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-1``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-2``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends abricate: 
-   :depends abyss: >=2.1.5
+   :depends abyss: ``>=2.1.5``
    :depends biopython: 
-   :depends canu: >=1.8
-   :depends cd-hit: >=4.8.1
+   :depends canu: ``>=1.8``
+   :depends cd-hit: ``>=4.8.1``
    :depends circlator: 
    :depends coreutils: 
-   :depends diamond: >=0.9.24
-   :depends fastani: >=1.1
-   :depends fastme: >=2.1.5
+   :depends diamond: ``>=0.9.24``
+   :depends fastani: ``>=1.1``
+   :depends fastme: ``>=2.1.5``
    :depends fastp: 
-   :depends fasttree: >=2.1.10
+   :depends fasttree: ``>=2.1.10``
    :depends gblocks: 
    :depends gubbins: 
-   :depends htslib: >=1.9
+   :depends htslib: ``>=1.9``
    :depends iqtree: 
-   :depends mafft: >=7.402
+   :depends mafft: ``>=7.402``
    :depends mash: 
    :depends matplotlib-base: 
-   :depends minced: 0.3.*
-   :depends mmseqs2: >=7-4e23d
+   :depends minced: ``0.3.*``
+   :depends mmseqs2: ``>=7-4e23d``
    :depends modeltest-ng: 
    :depends muscle: 
    :depends numpy: 
-   :depends openjdk: 8.*
-   :depends orthofinder: >=2.3.8
+   :depends openjdk: ``8.*``
+   :depends orthofinder: ``>=2.3.8``
    :depends pal2nal: 
    :depends pandas: 
-   :depends perl-data-dumper: >=2.173
+   :depends perl-data-dumper: ``>=2.173``
    :depends perl-file-tee: 
-   :depends perl-getopt-long: >=2.50
+   :depends perl-getopt-long: ``>=2.50``
    :depends perl-parallel-forkmanager: 
-   :depends perl-pod-usage: >=1.69
+   :depends perl-pod-usage: ``>=1.69``
    :depends perl-posix: 
    :depends perl-sys-info: 
-   :depends prokka: >=1.13.4
+   :depends prokka: ``>=1.13.4``
    :depends r-corrplot: 
-   :depends r-ggplot2: 3.1.1.*
+   :depends r-ggplot2: ``3.1.1.*``
    :depends r-gplots: 
    :depends r-pheatmap: 
    :depends r-plotrix: 
    :depends raxml-ng: 
-   :depends roary: >=3.12.0
+   :depends roary: ``>=3.12.0``
    :depends scoary: 
    :depends seaborn: 
-   :depends sickle-trim: >=1.33
-   :depends snippy: >=4.3.6
-   :depends unicycler: 0.4.7.*
+   :depends sickle-trim: ``>=1.33``
+   :depends snippy: ``>=4.3.6``
+   :depends unicycler: ``0.4.7.*``
    :depends wget: 
    :requirements:
 

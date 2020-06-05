@@ -8,6 +8,7 @@ ocrad
 
 .. conda:recipe:: ocrad/0.21
    :replaces_section_title:
+   :noindex:
 
    Ocrad is an optical character recognition program.
 
@@ -22,9 +23,16 @@ ocrad
 
    |downloads_ocrad| |docker_ocrad|
 
-   :versions: 0.21-1, 0.21-0
+   :versions:
+      
+      
+
+      ``0.21-1``,  ``0.21-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

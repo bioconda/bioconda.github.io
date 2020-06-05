@@ -8,6 +8,7 @@ perl-http-date
 
 .. conda:recipe:: perl-http-date
    :replaces_section_title:
+   :noindex:
 
    date conversion routines
 
@@ -22,9 +23,16 @@ perl-http-date
 
    |downloads_perl-http-date| |docker_perl-http-date|
 
-   :versions: 6.02-3, 6.02-2, 6.02-1, 6.02-0
+   :versions:
+      
+      
+
+      ``6.02-3``,  ``6.02-2``,  ``6.02-1``,  ``6.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-time-local: 
    :requirements:
 

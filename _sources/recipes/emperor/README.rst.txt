@@ -8,6 +8,7 @@ emperor
 
 .. conda:recipe:: emperor
    :replaces_section_title:
+   :noindex:
 
    Emperor a tool for the analysis and visualization of large microbial ecology datasets
 
@@ -22,12 +23,19 @@ emperor
 
    |downloads_emperor| |docker_emperor|
 
-   :versions: 0.9.51-0, 0.9.3-1, 0.9.3-0
+   :versions:
+      
+      
+
+      ``0.9.51-0``,  ``0.9.3-1``,  ``0.9.3-0``
+
+      
+
    
-   :depends numpy: >=1.7
-   :depends python: 2.7*
+   :depends numpy: ``>=1.7``
+   :depends python: ``2.7*``
    :depends qcli: 
-   :depends scikit-bio: >=0.2.1,<0.3.0
+   :depends scikit-bio: ``>=0.2.1,<0.3.0``
    :requirements:
 
    .. rubric:: Installation

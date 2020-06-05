@@ -8,6 +8,7 @@ seq-to-first-iso
 
 .. conda:recipe:: seq-to-first-iso
    :replaces_section_title:
+   :noindex:
 
    Compute first two isotopologues intensity from peptide sequence
 
@@ -28,11 +29,18 @@ seq-to-first-iso
 
    |downloads_seq-to-first-iso| |docker_seq-to-first-iso|
 
-   :versions: 1.1.0-0, 1.0.0-0, 0.5.1-0, 0.5.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
+
+      
+
    
    :depends pandas: 
    :depends pyteomics: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

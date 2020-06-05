@@ -8,6 +8,7 @@ biolite
 
 .. conda:recipe:: biolite
    :replaces_section_title:
+   :noindex:
 
    A lightweight bioinformatics framework with automated tracking of diagnostics and provenance.
 
@@ -22,22 +23,29 @@ biolite
 
    |downloads_biolite| |docker_biolite|
 
-   :versions: 1.2.0-0, 1.1.0-2, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-0``
+
+      
+
    
-   :depends biolite-tools: 0.4.0
-   :depends biopython: 1.68
-   :depends dendropy: 4.2.0
-   :depends docutils: 0.13.1
-   :depends ete3: 3.0.0b35
-   :depends lxml: 3.7.2
-   :depends matplotlib: 2.0.0
-   :depends networkx: 1.11
-   :depends numpy: 1.11.3
-   :depends pandas: 0.19.2
-   :depends python: >=2.7,<2.8.0a0
-   :depends python-wget: 3.2
+   :depends biolite-tools: ``0.4.0``
+   :depends biopython: ``1.68``
+   :depends dendropy: ``4.2.0``
+   :depends docutils: ``0.13.1``
+   :depends ete3: ``3.0.0b35``
+   :depends lxml: ``3.7.2``
+   :depends matplotlib: ``2.0.0``
+   :depends networkx: ``1.11``
+   :depends numpy: ``1.11.3``
+   :depends pandas: ``0.19.2``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python-wget: ``3.2``
    :depends setuptools: 
-   :depends sra-tools: 2.8.0
+   :depends sra-tools: ``2.8.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-carnival
 
 .. conda:recipe:: bioconductor-carnival
    :replaces_section_title:
+   :noindex:
 
    A CAusal Reasoning tool for Network Identification \(from gene expression data\) using Integer VALue programming
 
@@ -22,13 +23,20 @@ bioconductor-carnival
 
    |downloads_bioconductor-carnival| |docker_bioconductor-carnival|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-category: >=2.54.0,<2.55.0
-   :depends bioconductor-uniprot.ws: >=2.28.0,<2.29.0
-   :depends bioconductor-viper: >=1.22.0,<1.23.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-uniprot.ws: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-viper: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-ggplot2: 
    :depends r-igraph: 

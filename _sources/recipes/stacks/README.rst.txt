@@ -8,6 +8,7 @@ stacks
 
 .. conda:recipe:: stacks
    :replaces_section_title:
+   :noindex:
 
    Stacks is a software pipeline for building loci from RAD\-seq
 
@@ -23,20 +24,35 @@ stacks
 
    |downloads_stacks| |docker_stacks|
 
-   :versions: 2.52-0, 2.5-0, 2.4-1, 2.4-0, 2.3-3, 2.3d-1, 2.3d-0, 2.3c-0, 2.3b-0, 2.2-3, 2.2-2, 2.2-1, 2.2-0, 2.1-2, 2.1-1, 2.0-1, 2.0-0, 2.0Beta10a-0, 2.0Beta9-0, 2.0Beta8-1, 2.0Beta8-0, 2.0Beta8c-1, 2.0Beta8c-0, 2.0Beta7c-0, 1.47-2, 1.47-1, 1.47-0, 1.46-2, 1.46-1, 1.46-0, 1.44-3, 1.44-2, 1.44-1, 1.44-0, 1.43-2, 1.43-1, 1.43-0, 1.42-5, 1.42-4, 1.42-3, 1.42-2, 1.42-1, 1.40-3, 1.40-2, 1.40-1, 1.40-0, 1.37-3, 1.37-2, 1.37-1, 1.37-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.52-0</code>,  <code>2.5-0</code>,  <code>2.4-1</code>,  <code>2.4-0</code>,  <code>2.3-3</code>,  <code>2.3d-1</code>,  <code>2.3d-0</code>,  <code>2.3c-0</code>,  <code>2.3b-0</code>,  </span></summary>
+      
+
+      ``2.52-0``,  ``2.5-0``,  ``2.4-1``,  ``2.4-0``,  ``2.3-3``,  ``2.3d-1``,  ``2.3d-0``,  ``2.3c-0``,  ``2.3b-0``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``2.1-2``,  ``2.1-1``,  ``2.0-1``,  ``2.0-0``,  ``2.0Beta10a-0``,  ``2.0Beta9-0``,  ``2.0Beta8-1``,  ``2.0Beta8-0``,  ``2.0Beta8c-1``,  ``2.0Beta8c-0``,  ``2.0Beta7c-0``,  ``1.47-2``,  ``1.47-1``,  ``1.47-0``,  ``1.46-2``,  ``1.46-1``,  ``1.46-0``,  ``1.44-3``,  ``1.44-2``,  ``1.44-1``,  ``1.44-0``,  ``1.43-2``,  ``1.43-1``,  ``1.43-0``,  ``1.42-5``,  ``1.42-4``,  ``1.42-3``,  ``1.42-2``,  ``1.42-1``,  ``1.40-3``,  ``1.40-2``,  ``1.40-1``,  ``1.40-0``,  ``1.37-3``,  ``1.37-2``,  ``1.37-1``,  ``1.37-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends openmp: 
    :depends perl: 
    :depends perl-bioperl-core: 
    :depends perl-file-spec: 
    :depends perl-file-temp: 
    :depends perl-posix: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends samtools: 
    :depends velvet: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-hicrep
 
 .. conda:recipe:: bioconductor-hicrep
    :replaces_section_title:
+   :noindex:
 
    Measuring the reproducibility of Hi\-C data
 
@@ -22,9 +23,16 @@ bioconductor-hicrep
 
    |downloads_bioconductor-hicrep| |docker_bioconductor-hicrep|
 
-   :versions: 1.11.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.11.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

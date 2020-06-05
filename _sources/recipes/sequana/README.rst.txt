@@ -8,6 +8,7 @@ sequana
 
 .. conda:recipe:: sequana
    :replaces_section_title:
+   :noindex:
 
    A set of standalone application and snakemake pipelines dedicated to NGS \(new generation sequencing\) analysis
 
@@ -22,43 +23,58 @@ sequana
 
    |downloads_sequana| |docker_sequana|
 
-   :versions: 0.8.2-0, 0.7.1-2, 0.7.1-1, 0.7.0-0, 0.6.3.post1-0, 0.6.1-0, 0.6.0-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.8.2-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.0-0</code>,  <code>0.6.3.post1-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+      
+
+      ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends atropos: 
    :depends bcftools: 
    :depends bedtools: 
-   :depends bioservices: >=1.5.1
-   :depends colorlog: >=3.1.0
-   :depends cython: >=0.29.16
-   :depends easydev: >=0.9.36
-   :depends fastqc: 0.11.5
+   :depends bioservices: ``>=1.5.1``
+   :depends colorlog: ``>=3.1.0``
+   :depends cython: ``>=0.29.16``
+   :depends easydev: ``>=0.9.36``
+   :depends fastqc: ``0.11.5``
    :depends freebayes: 
-   :depends graphviz: >=2.42.3
+   :depends graphviz: ``>=2.42.3``
    :depends itolapi: 
    :depends khmer: 
-   :depends kraken: 1.1
+   :depends kraken: ``1.1``
    :depends krona: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends lxml: 
    :depends mock: 
-   :depends multiqc: >=1.8
+   :depends multiqc: ``>=1.8``
    :depends numexpr: 
    :depends packaging: 
-   :depends pandas: >=0.22
+   :depends pandas: ``>=0.22``
    :depends pigz: 
    :depends psutil: 
-   :depends pykwalify: >=1.6
-   :depends pysam: >=0.15.3
-   :depends python: >=3.7,<3.8.0a0
-   :depends pyvcf: >=0.6.8
-   :depends pyyaml: >=5.3.1
-   :depends qtconsole: >=4.7.2
+   :depends pykwalify: ``>=1.6``
+   :depends pysam: ``>=0.15.3``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends pyvcf: ``>=0.6.8``
+   :depends pyyaml: ``>=5.3.1``
+   :depends qtconsole: ``>=4.7.2``
    :depends ruamel.yaml: 
-   :depends samtools: >=1.10
-   :depends scipy: >=1.4.1
-   :depends snakemake: >=5.13.0
-   :depends xlrd: >=1.2.0
-   :depends xmltodict: >=0.12.0
+   :depends samtools: ``>=1.10``
+   :depends scipy: ``>=1.4.1``
+   :depends snakemake: ``>=5.13.0``
+   :depends xlrd: ``>=1.2.0``
+   :depends xmltodict: ``>=0.12.0``
    :requirements:
 
    .. rubric:: Installation

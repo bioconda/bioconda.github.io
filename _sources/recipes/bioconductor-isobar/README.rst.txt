@@ -8,6 +8,7 @@ bioconductor-isobar
 
 .. conda:recipe:: bioconductor-isobar
    :replaces_section_title:
+   :noindex:
 
    Analysis and quantitation of isobarically tagged MSMS proteomics data
 
@@ -22,11 +23,18 @@ bioconductor-isobar
 
    |downloads_bioconductor-isobar| |docker_bioconductor-isobar|
 
-   :versions: 1.34.0-0, 1.32.0-0, 1.30.0-1, 1.28.0-0
+   :versions:
+      
+      
+
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-distr: 
    :depends r-ggplot2: 
    :depends r-plyr: 

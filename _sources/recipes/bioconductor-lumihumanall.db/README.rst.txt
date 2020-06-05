@@ -8,6 +8,7 @@ bioconductor-lumihumanall.db
 
 .. conda:recipe:: bioconductor-lumihumanall.db
    :replaces_section_title:
+   :noindex:
 
    Illumina Human Illumina expression annotation data \(chip lumiHumanAll\)
 
@@ -22,12 +23,19 @@ bioconductor-lumihumanall.db
 
    |downloads_bioconductor-lumihumanall.db| |docker_bioconductor-lumihumanall.db|
 
-   :versions: 1.22.0-7, 1.22.0-6, 1.22.0-5, 1.22.0-3, 1.22.0-2, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-7``,  ``1.22.0-6``,  ``1.22.0-5``,  ``1.22.0-3``,  ``1.22.0-2``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

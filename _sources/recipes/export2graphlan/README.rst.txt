@@ -8,6 +8,7 @@ export2graphlan
 
 .. conda:recipe:: export2graphlan
    :replaces_section_title:
+   :noindex:
 
    Conversion software tool for annotating tree with GraPhlAn
 
@@ -26,13 +27,20 @@ export2graphlan
 
    |downloads_export2graphlan| |docker_export2graphlan|
 
-   :versions: 0.22-0, 0.20-0, 0.19-2, 0.19-1, 0.19-0
+   :versions:
+      
+      
+
+      ``0.22-0``,  ``0.20-0``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+
+      
+
    
    :depends hclust2: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: 2.7.*
+   :depends python: ``2.7.*``
    :depends scipy: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-chemmineob
 
 .. conda:recipe:: bioconductor-chemmineob
    :replaces_section_title:
+   :noindex:
 
    R interface to a subset of OpenBabel functionalities
 
@@ -22,7 +23,14 @@ bioconductor-chemmineob
 
    |downloads_bioconductor-chemmineob| |docker_bioconductor-chemmineob|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 

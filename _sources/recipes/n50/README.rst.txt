@@ -8,6 +8,7 @@ n50
 
 .. conda:recipe:: n50
    :replaces_section_title:
+   :noindex:
 
    calculate N50 from FASTA\/FASTQ files\, producing both machine and human friendly outputs
 
@@ -28,9 +29,24 @@ n50
 
    |downloads_n50| |docker_n50|
 
-   :versions: 1.3.0-0, 1.2.0-0, 1.0.0-0, 0.92-0, 0.90-0, 0.83-0, 0.82-0, 0.80-0, 0.60-1, 0.60-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-0</code>,  <code>0.92-0</code>,  <code>0.90-0</code>,  <code>0.83-0</code>,  <code>0.82-0</code>,  <code>0.80-0</code>,  <code>0.60-1</code>,  </span></summary>
+      
+
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.92-0``,  ``0.90-0``,  ``0.83-0``,  ``0.82-0``,  ``0.80-0``,  ``0.60-1``,  ``0.60-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter: 
    :depends perl-fastx-reader: 
    :depends perl-file-which: 

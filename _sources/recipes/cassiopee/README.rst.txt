@@ -8,6 +8,7 @@ cassiopee
 
 .. conda:recipe:: cassiopee
    :replaces_section_title:
+   :noindex:
 
    scan an input genomic sequence \(dna\/rna\/protein\) and search for a subsequence with exact match or allowing substitutions \(Hamming distance\) and\/or insertion\/deletions
 
@@ -22,14 +23,21 @@ cassiopee
 
    |downloads_cassiopee| |docker_cassiopee|
 
-   :versions: 1.0.5-2, 1.0.5-1, 1.0.5-0
+   :versions:
+      
+      
+
+      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+
+      
+
    
-   :depends boost: >=1.66.0,<1.66.1.0a0
-   :depends bzip2: >=1.0.6,<2.0a0
+   :depends boost: ``>=1.66.0,<1.66.1.0a0``
+   :depends bzip2: ``>=1.0.6,<2.0a0``
    :depends glog: 
-   :depends icu: >=58.2,<59.0a0
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends icu: ``>=58.2,<59.0a0``
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

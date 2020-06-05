@@ -8,6 +8,7 @@ pbcoretools
 
 .. conda:recipe:: pbcoretools
    :replaces_section_title:
+   :noindex:
 
    CLI tools and add\-ons for PacBio\'s core APIs
 
@@ -22,13 +23,20 @@ pbcoretools
 
    |downloads_pbcoretools| |docker_pbcoretools|
 
-   :versions: 0.8.1-0, 0.2.4-4, 0.2.4-3, 0.2.4-2, 0.2.4-1, 0.2.4-0
+   :versions:
+      
+      
+
+      ``0.8.1-0``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``
+
+      
+
    
-   :depends numpy: >=1.17
-   :depends pbcommand: >=2.1.1
-   :depends pbcore: >=2.1.2
-   :depends pysam: >=0.15.1
-   :depends python: >=3.7,<3.8
+   :depends numpy: ``>=1.17``
+   :depends pbcommand: ``>=2.1.1``
+   :depends pbcore: ``>=2.1.2``
+   :depends pysam: ``>=0.15.1``
+   :depends python: ``>=3.7,<3.8``
    :depends setuptools: 
    :requirements:
 

@@ -8,6 +8,7 @@ orthomcl
 
 .. conda:recipe:: orthomcl
    :replaces_section_title:
+   :noindex:
 
    Ortholog groups of protein sequences
 
@@ -22,7 +23,14 @@ orthomcl
 
    |downloads_orthomcl| |docker_orthomcl|
 
-   :versions: 2.0.9-4, 2.0.9-3, 2.0.9-2, 2.0.9-1, 2.0.9-0
+   :versions:
+      
+      
+
+      ``2.0.9-4``,  ``2.0.9-3``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``
+
+      
+
    
    :depends blast: 
    :depends mcl: 

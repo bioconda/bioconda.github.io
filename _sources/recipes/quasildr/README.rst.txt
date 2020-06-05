@@ -8,6 +8,7 @@ quasildr
 
 .. conda:recipe:: quasildr
    :replaces_section_title:
+   :noindex:
 
    Quasilinear data representations for single\-cell omics data analysis.
 
@@ -22,7 +23,14 @@ quasildr
 
    |downloads_quasildr| |docker_quasildr|
 
-   :versions: 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.1-0``
+
+      
+
    
    :depends docopt: 
    :depends multiprocess: 
@@ -32,7 +40,7 @@ quasildr
    :depends plotly: 
    :depends plotnine: 
    :depends pynndescent: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 

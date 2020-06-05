@@ -8,6 +8,7 @@ rna-cd
 
 .. conda:recipe:: rna-cd
    :replaces_section_title:
+   :noindex:
 
    RNA contamination detector
 
@@ -24,13 +25,20 @@ rna-cd
 
    |downloads_rna-cd| |docker_rna-cd|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
    :depends click: 
    :depends joblib: 
    :depends matplotlib: 
    :depends pysam: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends scikit-learn: 
    :requirements:
 

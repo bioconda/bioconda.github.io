@@ -8,6 +8,7 @@ bioconductor-flowai
 
 .. conda:recipe:: bioconductor-flowai
    :replaces_section_title:
+   :noindex:
 
    Automatic and interactive quality control for flow cytometry data
 
@@ -23,10 +24,25 @@ bioconductor-flowai
 
    |downloads_bioconductor-flowai| |docker_bioconductor-flowai|
 
-   :versions: 1.18.1-0, 1.16.0-0, 1.14.0-1, 1.12.7-0, 1.12.1-0, 1.10.1-0, 1.6.2-0, 1.4.4-0, 1.2.9-0, 1.2.8-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.7-0</code>,  <code>1.12.1-0</code>,  <code>1.10.1-0</code>,  <code>1.6.2-0</code>,  <code>1.4.4-0</code>,  <code>1.2.9-0</code>,  </span></summary>
+      
+
+      ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.7-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.6.2-0``,  ``1.4.4-0``,  ``1.2.9-0``,  ``1.2.8-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-changepoint: 
    :depends r-ggplot2: 
    :depends r-knitr: 

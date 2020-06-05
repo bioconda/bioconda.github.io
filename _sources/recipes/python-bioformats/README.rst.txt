@@ -8,6 +8,7 @@ python-bioformats
 
 .. conda:recipe:: python-bioformats
    :replaces_section_title:
+   :noindex:
 
    Python\-bioformats is a Python wrapper for Bio\-Formats\, a standalone Java library for reading and writing life sciences image file formats.
 
@@ -22,12 +23,19 @@ python-bioformats
 
    |downloads_python-bioformats| |docker_python-bioformats|
 
-   :versions: 1.5.2-0
+   :versions:
+      
+      
+
+      ``1.5.2-0``
+
+      
+
    
    :depends boto3: 
-   :depends javabridge: >=1.0
-   :depends openjdk: 8.*
-   :depends python: <3
+   :depends javabridge: ``>=1.0``
+   :depends openjdk: ``8.*``
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

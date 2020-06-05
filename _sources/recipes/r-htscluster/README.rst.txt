@@ -8,6 +8,7 @@ r-htscluster
 
 .. conda:recipe:: r-htscluster
    :replaces_section_title:
+   :noindex:
 
    A Poisson mixture model is implemented to cluster genes from high\- throughput transcriptome sequencing \(RNA\-seq\) data. Parameter estimation is performed using either the EM or CEM algorithm\, and the slope heuristics are used for model selection \(i.e.\, to choose the number of clusters\).
 
@@ -22,10 +23,17 @@ r-htscluster
 
    |downloads_r-htscluster| |docker_r-htscluster|
 
-   :versions: 2.0.8-3, 2.0.8-1, 2.0.8-0
+   :versions:
+      
+      
+
+      ``2.0.8-3``,  ``2.0.8-1``,  ``2.0.8-0``
+
+      
+
    
    :depends bioconductor-edger: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-capushe: 
    :depends r-plotrix: 
    :requirements:

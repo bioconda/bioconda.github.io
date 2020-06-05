@@ -8,6 +8,7 @@ r-garnett
 
 .. conda:recipe:: r-garnett
    :replaces_section_title:
+   :noindex:
 
    Bioconda\-installable version of Garnett cell classification tool.
 
@@ -23,31 +24,38 @@ r-garnett
 
    |downloads_r-garnett| |docker_r-garnett|
 
-   :versions: 0.2.8-1, 0.2.8-0, 0.1.4-0
+   :versions:
+      
+      
+
+      ``0.2.8-1``,  ``0.2.8-0``,  ``0.1.4-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.44.0
-   :depends bioconductor-biobase: >=2.42.0
-   :depends bioconductor-delayedarray: >=0.8.0
-   :depends bioconductor-delayedmatrixstats: >=1.4.0
-   :depends bioconductor-org.hs.eg.db: >=3.7.0
+   :depends bioconductor-annotationdbi: ``>=1.44.0``
+   :depends bioconductor-biobase: ``>=2.42.0``
+   :depends bioconductor-delayedarray: ``>=0.8.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.4.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.7.0``
    :depends bioconductor-org.mm.eg.db: 
-   :depends r-assertthat: >=0.2.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-doparallel: >=1.0.14
-   :depends r-forcats: >=0.3.0
-   :depends r-ggplot2: >=3.1.0
-   :depends r-ggrepel: >=0.8.0
-   :depends r-glmnet: >=2.0_16
-   :depends r-igraph: >=1.2.2
-   :depends r-irlba: >=2.3.2
-   :depends r-matrix: >=1.2_15
+   :depends r-assertthat: ``>=0.2.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-doparallel: ``>=1.0.14``
+   :depends r-forcats: ``>=0.3.0``
+   :depends r-ggplot2: ``>=3.1.0``
+   :depends r-ggrepel: ``>=0.8.0``
+   :depends r-glmnet: ``>=2.0_16``
+   :depends r-igraph: ``>=1.2.2``
+   :depends r-irlba: ``>=2.3.2``
+   :depends r-matrix: ``>=1.2_15``
    :depends r-monocle3: 
-   :depends r-plyr: >=1.8.4
-   :depends r-rann: >=2.6
-   :depends r-reshape2: >=1.4.3
-   :depends r-rly: >=1.6.2
-   :depends r-stringr: >=1.3.1
-   :depends r-viridis: >=0.5.1
+   :depends r-plyr: ``>=1.8.4``
+   :depends r-rann: ``>=2.6``
+   :depends r-reshape2: ``>=1.4.3``
+   :depends r-rly: ``>=1.6.2``
+   :depends r-stringr: ``>=1.3.1``
+   :depends r-viridis: ``>=0.5.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ plasmidid
 
 .. conda:recipe:: plasmidid
    :replaces_section_title:
+   :noindex:
 
    Pipeline for plasmid identification and reconstruction
 
@@ -22,7 +23,14 @@ plasmidid
 
    |downloads_plasmidid| |docker_plasmidid|
 
-   :versions: 1.5.2-0
+   :versions:
+      
+      
+
+      ``1.5.2-0``
+
+      
+
    
    :depends bedtools: 
    :depends biopython: 
@@ -31,7 +39,7 @@ plasmidid
    :depends cd-hit: 
    :depends circos: 
    :depends gawk: 
-   :depends mash: >=2
+   :depends mash: ``>=2``
    :depends numpy: 
    :depends pandas: 
    :depends prokka: 

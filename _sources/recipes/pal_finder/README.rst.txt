@@ -8,6 +8,7 @@ pal_finder
 
 .. conda:recipe:: pal_finder
    :replaces_section_title:
+   :noindex:
 
    Find microsatellite repeat elements from sequencing reads and design PCR primers to amplify them
 
@@ -27,10 +28,17 @@ pal_finder
 
    |downloads_pal_finder| |docker_pal_finder|
 
-   :versions: 0.02.04-3, 0.02.04-2, 0.02.04-1
+   :versions:
+      
+      
+
+      ``0.02.04-3``,  ``0.02.04-2``,  ``0.02.04-1``
+
+      
+
    
    :depends perl: 
-   :depends primer3: 2.0.0a
+   :depends primer3: ``2.0.0a``
    :requirements:
 
    .. rubric:: Installation

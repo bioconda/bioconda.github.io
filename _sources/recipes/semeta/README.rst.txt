@@ -8,6 +8,7 @@ semeta
 
 .. conda:recipe:: semeta
    :replaces_section_title:
+   :noindex:
 
    SeMeta is a new software for taxonomic assignment of metagenomic reads. It
    supports both single\-end and paired\-end reads. The software is implemented
@@ -26,7 +27,14 @@ semeta
 
    |downloads_semeta| |docker_semeta|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends blast: 
    :depends libgcc: 

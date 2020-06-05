@@ -8,6 +8,7 @@ graph_embed
 
 .. conda:recipe:: graph_embed
    :replaces_section_title:
+   :noindex:
 
    Compute a 2D embedding of a data matrix given supervised class information.
 
@@ -22,7 +23,14 @@ graph_embed
 
    |downloads_graph_embed| |docker_graph_embed|
 
-   :versions: 2.4-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``2.4-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends docopt: 
    :depends matplotlib: 
@@ -30,7 +38,7 @@ graph_embed
    :depends numpy: 
    :depends pygraphviz: 
    :depends python: 
-   :depends scikit-learn: 0.22
+   :depends scikit-learn: ``0.22``
    :depends toolz: 
    :requirements:
 

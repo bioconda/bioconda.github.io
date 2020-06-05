@@ -8,6 +8,7 @@ perl-string-truncate
 
 .. conda:recipe:: perl-string-truncate
    :replaces_section_title:
+   :noindex:
 
    a module for when strings are too long to be displayed in...
 
@@ -22,9 +23,16 @@ perl-string-truncate
 
    |downloads_perl-string-truncate| |docker_perl-string-truncate|
 
-   :versions: 1.100602-0
+   :versions:
+      
+      
+
+      ``1.100602-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-sub-exporter: 
    :depends perl-sub-install: 

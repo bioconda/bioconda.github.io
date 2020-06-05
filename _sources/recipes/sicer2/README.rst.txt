@@ -8,6 +8,7 @@ sicer2
 
 .. conda:recipe:: sicer2
    :replaces_section_title:
+   :noindex:
 
    Redesigned and improved ChIP\-seq broad peak calling tool SICER.
 
@@ -23,12 +24,19 @@ sicer2
 
    |downloads_sicer2| |docker_sicer2|
 
-   :versions: 1.0.2-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends numpy: >=1.14.6,<2.0a0
-   :depends python: >=3.6,<3.7.0a0
-   :depends scipy: >=1
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends scipy: ``>=1``
    :requirements:
 
    .. rubric:: Installation

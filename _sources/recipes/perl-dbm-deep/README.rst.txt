@@ -8,6 +8,7 @@ perl-dbm-deep
 
 .. conda:recipe:: perl-dbm-deep
    :replaces_section_title:
+   :noindex:
 
    A pure perl multi\-level hash\/array DBM that supports transactions
 
@@ -22,9 +23,16 @@ perl-dbm-deep
 
    |downloads_perl-dbm-deep| |docker_perl-dbm-deep|
 
-   :versions: 2.0013-1, 2.0013-0
+   :versions:
+      
+      
+
+      ``2.0013-1``,  ``2.0013-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-dbi: 
    :depends perl-digest-md5: 
    :depends perl-scalar-list-utils: 

@@ -8,6 +8,7 @@ tabview
 
 .. conda:recipe:: tabview
    :replaces_section_title:
+   :noindex:
 
    A curses command\-line CSV and list \(tabular data\) viewer
 
@@ -22,9 +23,16 @@ tabview
 
    |downloads_tabview| |docker_tabview|
 
-   :versions: 1.4.3-0, 1.4.2-2, 1.4.2-1
+   :versions:
+      
+      
+
+      ``1.4.3-0``,  ``1.4.2-2``,  ``1.4.2-1``
+
+      
+
    
-   :depends ncurses: >=6.1,<6.2.0a0
+   :depends ncurses: ``>=6.1,<6.2.0a0``
    :depends python: 
    :requirements:
 

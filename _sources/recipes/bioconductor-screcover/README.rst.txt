@@ -8,6 +8,7 @@ bioconductor-screcover
 
 .. conda:recipe:: bioconductor-screcover
    :replaces_section_title:
+   :noindex:
 
    scRecover for imputation of single\-cell RNA\-seq data
 
@@ -22,23 +23,30 @@ bioconductor-screcover
 
    |downloads_bioconductor-screcover| |docker_bioconductor-screcover|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-bbmle: >=1.0.18
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bbmle: ``>=1.0.18``
    :depends r-doparallel: 
    :depends r-foreach: 
-   :depends r-gamlss: >=4.4-0
+   :depends r-gamlss: ``>=4.4-0``
    :depends r-kernlab: 
-   :depends r-mass: >=7.3-45
-   :depends r-matrix: >=1.2-14
+   :depends r-mass: ``>=7.3-45``
+   :depends r-matrix: ``>=1.2-14``
    :depends r-penalized: 
-   :depends r-preseqr: >=4.0.0
-   :depends r-pscl: >=1.4.9
-   :depends r-rmagic: >=1.3.0
+   :depends r-preseqr: ``>=4.0.0``
+   :depends r-pscl: ``>=1.4.9``
+   :depends r-rmagic: ``>=1.3.0``
    :depends r-rsvd: 
-   :depends r-saver: >=1.1.1
+   :depends r-saver: ``>=1.1.1``
    :requirements:
 
    .. rubric:: Installation

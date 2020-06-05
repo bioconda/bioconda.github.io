@@ -8,6 +8,7 @@ tasmanian-mismatch
 
 .. conda:recipe:: tasmanian-mismatch
    :replaces_section_title:
+   :noindex:
 
    Tasmanian tool to analyze mismatches at read and position in high throughput sequencing data
 
@@ -22,19 +23,26 @@ tasmanian-mismatch
 
    |downloads_tasmanian-mismatch| |docker_tasmanian-mismatch|
 
-   :versions: 0.1.3-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.3-0``,  ``0.1.1-0``
+
+      
+
    
-   :depends matplotlib-base: 3.1.1
+   :depends matplotlib-base: ``3.1.1``
    :depends numpy: 
-   :depends numpy: 1.16.4
-   :depends pandas: 0.25.1
-   :depends plotly: 4.3.0
-   :depends python: >=3.6
-   :depends scikit-learn: 0.21.2
-   :depends scipy: 1.2.1
-   :depends seaborn: 0.9.0
-   :depends statsmodels: 0.10.1
-   :depends termcolor: 1.1.0
+   :depends numpy: ``1.16.4``
+   :depends pandas: ``0.25.1``
+   :depends plotly: ``4.3.0``
+   :depends python: ``>=3.6``
+   :depends scikit-learn: ``0.21.2``
+   :depends scipy: ``1.2.1``
+   :depends seaborn: ``0.9.0``
+   :depends statsmodels: ``0.10.1``
+   :depends termcolor: ``1.1.0``
    :requirements:
 
    .. rubric:: Installation

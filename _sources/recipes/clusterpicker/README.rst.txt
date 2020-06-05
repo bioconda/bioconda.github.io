@@ -8,6 +8,7 @@ clusterpicker
 
 .. conda:recipe:: clusterpicker
    :replaces_section_title:
+   :noindex:
 
    The Cluster Picker identifies clusters in newick\-formatted trees containing thousands of sequences within a few minutes.
 
@@ -22,9 +23,16 @@ clusterpicker
 
    |downloads_clusterpicker| |docker_clusterpicker|
 
-   :versions: 1.2.5-0, 1.2.3-2
+   :versions:
+      
+      
+
+      ``1.2.5-0``,  ``1.2.3-2``
+
+      
+
    
-   :depends openjdk: >=6
+   :depends openjdk: ``>=6``
    :requirements:
 
    .. rubric:: Installation

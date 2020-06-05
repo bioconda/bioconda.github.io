@@ -8,6 +8,7 @@ phast
 
 .. conda:recipe:: phast
    :replaces_section_title:
+   :noindex:
 
    PHAST is a freely available software package for comparative and evolutionary genomics.
 
@@ -22,9 +23,16 @@ phast
 
    |downloads_phast| |docker_phast|
 
-   :versions: 1.5-2, 1.5-1, 1.5-0
+   :versions:
+      
+      
+
+      ``1.5-2``,  ``1.5-1``,  ``1.5-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

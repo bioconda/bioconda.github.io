@@ -8,6 +8,7 @@ hapcut2
 
 .. conda:recipe:: hapcut2
    :replaces_section_title:
+   :noindex:
 
    Tools for haplotype assembly from sequence data
 
@@ -22,13 +23,20 @@ hapcut2
 
    |downloads_hapcut2| |docker_hapcut2|
 
-   :versions: 1.2-0, 1.1-0
+   :versions:
+      
+      
+
+      ``1.2-0``,  ``1.1-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends pysam: 
-   :depends python: >=3.5
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python: ``>=3.5``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

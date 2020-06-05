@@ -8,6 +8,7 @@ bioconductor-scran
 
 .. conda:recipe:: bioconductor-scran
    :replaces_section_title:
+   :noindex:
 
    Methods for Single\-Cell RNA\-Seq Data Analysis
 
@@ -23,27 +24,34 @@ bioconductor-scran
 
    |downloads_bioconductor-scran| |docker_bioconductor-scran|
 
-   :versions: 1.16.0-0, 1.14.1-0, 1.14.0-0, 1.12.1-0, 1.10.1-0, 1.8.4-0, 1.6.2-0, 1.4.5-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.4-0``,  ``1.6.2-0``,  ``1.4.5-0``
+
+      
+
    
-   :depends bioconductor-beachmat: >=2.4.0,<2.5.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocneighbors: >=1.6.0,<1.7.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biocsingular: >=1.4.0,<1.5.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-delayedmatrixstats: >=1.10.0,<1.11.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-scater: >=1.16.0,<1.17.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-beachmat: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocneighbors: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocsingular: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-scater: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bh: 
    :depends r-dqrng: 
    :depends r-igraph: 

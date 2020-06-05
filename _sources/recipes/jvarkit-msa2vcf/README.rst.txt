@@ -8,6 +8,7 @@ jvarkit-msa2vcf
 
 .. conda:recipe:: jvarkit-msa2vcf
    :replaces_section_title:
+   :noindex:
 
    Writes a VCF from a multiple sequence alignment \(MSA\) in CLUSTAW or a FASTA format
 
@@ -22,9 +23,16 @@ jvarkit-msa2vcf
 
    |downloads_jvarkit-msa2vcf| |docker_jvarkit-msa2vcf|
 
-   :versions: 201904251722-1, 201904251722-0
+   :versions:
+      
+      
+
+      ``201904251722-1``,  ``201904251722-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

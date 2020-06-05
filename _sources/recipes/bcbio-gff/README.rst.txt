@@ -8,6 +8,7 @@ bcbio-gff
 
 .. conda:recipe:: bcbio-gff
    :replaces_section_title:
+   :noindex:
 
    A python library to read and write Generic Feature Format \(GFF\).
 
@@ -22,7 +23,14 @@ bcbio-gff
 
    |downloads_bcbio-gff| |docker_bcbio-gff|
 
-   :versions: 0.6.6-0, 0.6.4-0, 0.6.2-0
+   :versions:
+      
+      
+
+      ``0.6.6-0``,  ``0.6.4-0``,  ``0.6.2-0``
+
+      
+
    
    :depends biopython: 
    :depends bx-python: 

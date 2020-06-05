@@ -8,6 +8,7 @@ bioconductor-metnet
 
 .. conda:recipe:: bioconductor-metnet
    :replaces_section_title:
+   :noindex:
 
    Inferring metabolic networks from untargeted high\-resolution mass spectrometry data
 
@@ -22,17 +23,24 @@ bioconductor-metnet
 
    |downloads_bioconductor-metnet| |docker_bioconductor-metnet|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-genie3: >=1.10.0,<1.11.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-bnlearn: >=4.3
-   :depends r-mpmi: >=0.42
-   :depends r-parmigene: >=1.0.2
-   :depends r-ppcor: >=1.1
-   :depends r-sna: >=2.4
-   :depends r-stabs: >=0.6
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genie3: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bnlearn: ``>=4.3``
+   :depends r-mpmi: ``>=0.42``
+   :depends r-parmigene: ``>=1.0.2``
+   :depends r-ppcor: ``>=1.1``
+   :depends r-sna: ``>=2.4``
+   :depends r-stabs: ``>=0.6``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-pcpheno
 
 .. conda:recipe:: bioconductor-pcpheno
    :replaces_section_title:
+   :noindex:
 
    Phenotypes and cellular organizational units
 
@@ -23,21 +24,28 @@ bioconductor-pcpheno
 
    |downloads_bioconductor-pcpheno| |docker_bioconductor-pcpheno|
 
-   :versions: 1.50.0-0, 1.48.0-1, 1.46.0-1, 1.44.0-0, 1.42.0-0, 1.40.0-0
+   :versions:
+      
+      
+
+      ``1.50.0-0``,  ``1.48.0-1``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-category: >=2.54.0,<2.55.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-kegg.db: >=3.2.0,<3.3.0
-   :depends bioconductor-ppidata: >=0.26.0,<0.27.0
-   :depends bioconductor-ppistats: >=1.54.0,<1.55.0
-   :depends bioconductor-scisi: >=1.60.0,<1.61.0
-   :depends bioconductor-slgi: >=1.48.0,<1.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-kegg.db: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-ppidata: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-ppistats: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-scisi: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-slgi: ``>=1.48.0,<1.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-flowsorted.cordbloodnorway.450k
 
 .. conda:recipe:: bioconductor-flowsorted.cordbloodnorway.450k
    :replaces_section_title:
+   :noindex:
 
    Illumina HumanMethylation data on sorted cord blood cell populations
 
@@ -22,11 +23,18 @@ bioconductor-flowsorted.cordbloodnorway.450k
 
    |downloads_bioconductor-flowsorted.cordbloodnorway.450k| |docker_bioconductor-flowsorted.cordbloodnorway.450k|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-minfi: >=1.34.0,<1.35.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-minfi: ``>=1.34.0,<1.35.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

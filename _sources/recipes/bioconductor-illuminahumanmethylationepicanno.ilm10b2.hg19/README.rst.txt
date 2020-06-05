@@ -8,6 +8,7 @@ bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19
 
 .. conda:recipe:: bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19
    :replaces_section_title:
+   :noindex:
 
    Annotation for Illumina\'s EPIC methylation arrays
 
@@ -22,11 +23,18 @@ bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19
 
    |downloads_bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19| |docker_bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19|
 
-   :versions: 0.6.0-7, 0.6.0-6, 0.6.0-5, 0.6.0-3, 0.6.0-2, 0.6.0-0
+   :versions:
+      
+      
+
+      ``0.6.0-7``,  ``0.6.0-6``,  ``0.6.0-5``,  ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-0``
+
+      
+
    
-   :depends bioconductor-minfi: >=1.34.0,<1.35.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-minfi: ``>=1.34.0,<1.35.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

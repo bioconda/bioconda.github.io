@@ -8,6 +8,7 @@ bioconductor-biosvd
 
 .. conda:recipe:: bioconductor-biosvd
    :replaces_section_title:
+   :noindex:
 
    Package for high\-throughput data processing\, outlier detection\, noise removal and dynamic modeling
 
@@ -23,11 +24,18 @@ bioconductor-biosvd
 
    |downloads_bioconductor-biosvd| |docker_bioconductor-biosvd|
 
-   :versions: 2.23.0-0, 2.22.0-0, 2.20.0-1, 2.18.0-1, 2.18.0-0, 2.16.0-0, 2.14.0-0
+   :versions:
+      
+      
+
+      ``2.23.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-nmf: 
    :requirements:
 

@@ -8,6 +8,7 @@ fingerprintscan
 
 .. conda:recipe:: fingerprintscan
    :replaces_section_title:
+   :noindex:
 
    Search against FingerPRINTScan with a protein query sequence to identify the closest matching PRINTS sequence motif fingerprints in a protein sequence.
 
@@ -22,10 +23,17 @@ fingerprintscan
 
    |downloads_fingerprintscan| |docker_fingerprintscan|
 
-   :versions: 3_597-0
+   :versions:
+      
+      
+
+      ``3_597-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

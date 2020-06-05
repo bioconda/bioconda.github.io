@@ -8,6 +8,7 @@ virsorter
 
 .. conda:recipe:: virsorter
    :replaces_section_title:
+   :noindex:
 
    Mining viral signal from microbial genomic data.
 
@@ -23,16 +24,23 @@ virsorter
 
    |downloads_virsorter| |docker_virsorter|
 
-   :versions: 1.0.6-1, 1.0.6-0, 1.0.5-4, 1.0.5-3, 1.0.5-2, 1.0.5-1, 1.0.5-0
+   :versions:
+      
+      
+
+      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+
+      
+
    
    :depends blast: 
-   :depends diamond: 0.9.14.*
-   :depends hmmer: 3.1b2.*
-   :depends libgcc-ng: >=7.3.0
-   :depends mcl: 14.137.*
+   :depends diamond: ``0.9.14.*``
+   :depends hmmer: ``3.1b2.*``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends mcl: ``14.137.*``
    :depends metagene_annotator: 
    :depends muscle: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl: 
    :depends perl-file-which: 
    :depends perl-list-moreutils: 

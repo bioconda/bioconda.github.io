@@ -8,6 +8,7 @@ bioconductor-prolocgui
 
 .. conda:recipe:: bioconductor-prolocgui
    :replaces_section_title:
+   :noindex:
 
    Interactive visualisation of spatial proteomics data
 
@@ -23,17 +24,24 @@ bioconductor-prolocgui
 
    |downloads_bioconductor-prolocgui| |docker_bioconductor-prolocgui|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-proloc: >=1.28.0,<1.29.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-proloc: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
-   :depends r-dt: >=0.1.40
+   :depends r-dt: ``>=0.1.40``
    :depends r-ggplot2: 
    :depends r-scales: 
-   :depends r-shiny: >=0.9.1
+   :depends r-shiny: ``>=0.9.1``
    :requirements:
 
    .. rubric:: Installation

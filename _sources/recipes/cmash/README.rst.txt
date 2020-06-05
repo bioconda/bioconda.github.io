@@ -8,6 +8,7 @@ cmash
 
 .. conda:recipe:: cmash
    :replaces_section_title:
+   :noindex:
 
    Fast and accurate set similarity estimation via containment min hash \(for genomic datasets\).
 
@@ -23,20 +24,27 @@ cmash
 
    |downloads_cmash| |docker_cmash|
 
-   :versions: 0.5.1-0, 0.5.0-0, 0.4.0-0
+   :versions:
+      
+      
+
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``
+
+      
+
    
    :depends blist: 
    :depends h5py: 
    :depends hydra: 
-   :depends khmer: >=2.1.1
+   :depends khmer: ``>=2.1.1``
    :depends marisa-trie: 
    :depends matplotlib-base: 
-   :depends numpy: >=1.14
-   :depends pandas: >=0.21.1
+   :depends numpy: ``>=1.14``
+   :depends pandas: ``>=0.21.1``
    :depends pycairo: 
    :depends python: 
    :depends scipy: 
-   :depends screed: >=0.9
+   :depends screed: ``>=0.9``
    :depends six: 
    :requirements:
 

@@ -8,6 +8,7 @@ smof
 
 .. conda:recipe:: smof
    :replaces_section_title:
+   :noindex:
 
    UNIX\-style utilities for FASTA file exploration
 
@@ -22,9 +23,16 @@ smof
 
    |downloads_smof| |docker_smof|
 
-   :versions: 2.18.0-0, 2.17.0-0, 2.16.0-0, 2.14.3-0
+   :versions:
+      
+      
+
+      ``2.18.0-0``,  ``2.17.0-0``,  ``2.16.0-0``,  ``2.14.3-0``
+
+      
+
    
-   :depends python: >3
+   :depends python: ``>3``
    :requirements:
 
    .. rubric:: Installation

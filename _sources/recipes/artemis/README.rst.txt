@@ -8,6 +8,7 @@ artemis
 
 .. conda:recipe:: artemis
    :replaces_section_title:
+   :noindex:
 
    A set of Java genome visualization tools including the Artemis genome browser \& annotation tool\, ACT DNA sequence comparison viewer\, DNA Plotter image generation tool and the BamView BAM\/CRAM file viewer.
 
@@ -23,9 +24,16 @@ artemis
 
    |downloads_artemis| |docker_artemis|
 
-   :versions: 18.1.0-0, 18.0.3-0, 18.0.2-0, 18.0.1-0
+   :versions:
+      
+      
+
+      ``18.1.0-0``,  ``18.0.3-0``,  ``18.0.2-0``,  ``18.0.1-0``
+
+      
+
    
-   :depends openjdk: >=9
+   :depends openjdk: ``>=9``
    :requirements:
 
    .. rubric:: Installation

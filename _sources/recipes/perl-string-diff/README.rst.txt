@@ -8,6 +8,7 @@ perl-string-diff
 
 .. conda:recipe:: perl-string-diff
    :replaces_section_title:
+   :noindex:
 
    Simple diff to String
 
@@ -22,9 +23,16 @@ perl-string-diff
 
    |downloads_perl-string-diff| |docker_perl-string-diff|
 
-   :versions: 0.07-0
+   :versions:
+      
+      
+
+      ``0.07-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-algorithm-diff: 
    :requirements:
 

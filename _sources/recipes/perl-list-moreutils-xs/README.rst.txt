@@ -8,6 +8,7 @@ perl-list-moreutils-xs
 
 .. conda:recipe:: perl-list-moreutils-xs
    :replaces_section_title:
+   :noindex:
 
    Provide the stuff missing in List\:\:Util in XS
 
@@ -22,9 +23,16 @@ perl-list-moreutils-xs
 
    |downloads_perl-list-moreutils-xs| |docker_perl-list-moreutils-xs|
 
-   :versions: 0.428-0
+   :versions:
+      
+      
+
+      ``0.428-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-xsloader: 
    :requirements:
 

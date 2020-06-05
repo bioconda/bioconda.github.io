@@ -8,6 +8,7 @@ pasa
 
 .. conda:recipe:: pasa
    :replaces_section_title:
+   :noindex:
 
    PASA\, acronym for Program to Assemble Spliced Alignments \(and pronounced \'pass\-uh\'\)\, is a eukaryotic genome annotation tool that exploits spliced alignments of expressed transcript sequences to automatically model gene structures\, and to maintain gene structure annotation consistent with the most recently available experimental sequence data. PASA also identifies and classifies all splicing variations supported by the transcript alignments.
 
@@ -23,14 +24,21 @@ pasa
 
    |downloads_pasa| |docker_pasa|
 
-   :versions: 2.4.1-0, 2.3.3-2, 2.3.3-1, 2.3.3-0
+   :versions:
+      
+      
+
+      ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+
+      
+
    
    :depends blat: 
    :depends cdbtools: 
    :depends fasta3: 
-   :depends gmap: 2017.11.15
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends gmap: ``2017.11.15``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends lighttpd: 
    :depends perl: 
    :depends perl-cgi: 
@@ -40,7 +48,7 @@ pasa
    :depends r-base: 
    :depends samtools: 
    :depends slclust: 
-   :depends transdecoder: >=5.5.0
+   :depends transdecoder: ``>=5.5.0``
    :requirements:
 
    .. rubric:: Installation

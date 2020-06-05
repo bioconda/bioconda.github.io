@@ -8,6 +8,7 @@ perl-io-stringy
 
 .. conda:recipe:: perl-io-stringy
    :replaces_section_title:
+   :noindex:
 
    write a file which is updated atomically
 
@@ -22,9 +23,16 @@ perl-io-stringy
 
    |downloads_perl-io-stringy| |docker_perl-io-stringy|
 
-   :versions: 2.111-1, 2.111-0
+   :versions:
+      
+      
+
+      ``2.111-1``,  ``2.111-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

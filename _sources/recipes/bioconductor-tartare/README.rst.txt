@@ -8,6 +8,7 @@ bioconductor-tartare
 
 .. conda:recipe:: bioconductor-tartare
    :replaces_section_title:
+   :noindex:
 
    Raw ground spectra recorded on Thermo Fisher Scientific mass spectrometers
 
@@ -22,12 +23,19 @@ bioconductor-tartare
 
    |downloads_bioconductor-tartare| |docker_bioconductor-tartare|
 
-   :versions: 1.2.0-0, 0.99.14-1
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``0.99.14-1``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

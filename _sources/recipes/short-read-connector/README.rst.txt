@@ -8,6 +8,7 @@ shortreadconnector
 
 .. conda:recipe:: short-read-connector
    :replaces_section_title:
+   :noindex:
 
    Short read connector enables the comparisons of two read sets
 
@@ -22,10 +23,17 @@ shortreadconnector
 
    |downloads_shortreadconnector| |docker_shortreadconnector|
 
-   :versions: 1.1.3-2, 1.1.3-1, 1.1.3-0
+   :versions:
+      
+      
+
+      ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``
+
+      
+
    
    :depends dsk: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

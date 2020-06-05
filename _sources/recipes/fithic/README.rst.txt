@@ -8,6 +8,7 @@ fithic
 
 .. conda:recipe:: fithic
    :replaces_section_title:
+   :noindex:
 
    Fit\-Hi\-C is a tool for assigning statistical confidence estimates to chromosomal contact maps produced by genome architecture assays.
 
@@ -22,12 +23,19 @@ fithic
 
    |downloads_fithic| |docker_fithic|
 
-   :versions: 2.0.7-0, 2.0.6-0, 2.0.5-0
+   :versions:
+      
+      
+
+      ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``
+
+      
+
    
    :depends argparse: 
    :depends matplotlib: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends scikit-learn: 
    :depends scipy: 
    :depends sortedcontainers: 

@@ -8,6 +8,7 @@ clonalframeml
 
 .. conda:recipe:: clonalframeml
    :replaces_section_title:
+   :noindex:
 
    Efficient inferencing of recombination in bacterial genomes
 
@@ -22,10 +23,17 @@ clonalframeml
 
    |downloads_clonalframeml| |docker_clonalframeml|
 
-   :versions: 1.12-0, 1.11-1, 1.11-0
+   :versions:
+      
+      
+
+      ``1.12-0``,  ``1.11-1``,  ``1.11-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

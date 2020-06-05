@@ -8,6 +8,7 @@ arem
 
 .. conda:recipe:: arem
    :replaces_section_title:
+   :noindex:
 
    Aligning Reads by Expectation\-Maximization.\\nBased on MACS \(Model Based Analysis for ChIP\-Seq data\)
 
@@ -23,9 +24,16 @@ arem
 
    |downloads_arem| |docker_arem|
 
-   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

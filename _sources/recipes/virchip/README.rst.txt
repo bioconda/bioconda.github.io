@@ -8,6 +8,7 @@ virchip
 
 .. conda:recipe:: virchip
    :replaces_section_title:
+   :noindex:
 
    Virtual ChIP\-seq predicts transcription factor binding in any cell type with chromatin accessibility and transcriptome data. Manuscript DOI\: https\:\/\/doi.org\/10.1101\/168419
 
@@ -22,14 +23,21 @@ virchip
 
    |downloads_virchip| |docker_virchip|
 
-   :versions: 1.2.2-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``
+
+      
+
    
-   :depends numpy: >=1.4.15
-   :depends pandas: 0.23.*
-   :depends python: <3
+   :depends numpy: ``>=1.4.15``
+   :depends pandas: ``0.23.*``
+   :depends python: ``<3``
    :depends r-base: 
-   :depends scikit-learn: >=0.18.1
-   :depends scipy: 1.1.0.*
+   :depends scikit-learn: ``>=0.18.1``
+   :depends scipy: ``1.1.0.*``
    :requirements:
 
    .. rubric:: Installation

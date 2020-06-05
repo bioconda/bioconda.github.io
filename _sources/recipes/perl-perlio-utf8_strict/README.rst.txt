@@ -8,6 +8,7 @@ perl-perlio-utf8_strict
 
 .. conda:recipe:: perl-perlio-utf8_strict
    :replaces_section_title:
+   :noindex:
 
    Fast and correct UTF\-8 IO
 
@@ -22,11 +23,18 @@ perl-perlio-utf8_strict
 
    |downloads_perl-perlio-utf8_strict| |docker_perl-perlio-utf8_strict|
 
-   :versions: 0.007-1, 0.007-0, 0.006-1, 0.006-0
+   :versions:
+      
+      
+
+      ``0.007-1``,  ``0.007-0``,  ``0.006-1``,  ``0.006-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xsloader: 
    :requirements:
 

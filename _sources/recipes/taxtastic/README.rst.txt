@@ -8,6 +8,7 @@ taxtastic
 
 .. conda:recipe:: taxtastic
    :replaces_section_title:
+   :noindex:
 
    Tools for taxonomic naming and annotation
 
@@ -22,12 +23,19 @@ taxtastic
 
    |downloads_taxtastic| |docker_taxtastic|
 
-   :versions: 0.8.11-0, 0.8.9-0, 0.8.5-2, 0.8.5-0, 0.5.4-0
+   :versions:
+      
+      
+
+      ``0.8.11-0``,  ``0.8.9-0``,  ``0.8.5-2``,  ``0.8.5-0``,  ``0.5.4-0``
+
+      
+
    
    :depends biopython: 
    :depends decorator: 
-   :depends python: >3
-   :depends sqlalchemy: >=0.7
+   :depends python: ``>3``
+   :depends sqlalchemy: ``>=0.7``
    :depends xlrd: 
    :requirements:
 

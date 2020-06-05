@@ -8,6 +8,7 @@ perl-cache-cache
 
 .. conda:recipe:: perl-cache-cache
    :replaces_section_title:
+   :noindex:
 
    extends Cache\:\:SizeAwareMemoryCache
 
@@ -22,9 +23,16 @@ perl-cache-cache
 
    |downloads_perl-cache-cache| |docker_perl-cache-cache|
 
-   :versions: 1.08-0
+   :versions:
+      
+      
+
+      ``1.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-digest-sha1: 
    :depends perl-error: 
    :depends perl-ipc-sharelite: 

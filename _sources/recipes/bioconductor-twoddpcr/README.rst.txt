@@ -8,6 +8,7 @@ bioconductor-twoddpcr
 
 .. conda:recipe:: bioconductor-twoddpcr
    :replaces_section_title:
+   :noindex:
 
    Classify 2\-d Droplet Digital PCR \(ddPCR\) data and quantify the number of starting molecules
 
@@ -22,10 +23,17 @@ bioconductor-twoddpcr
 
    |downloads_bioconductor-twoddpcr| |docker_bioconductor-twoddpcr|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-class: 
    :depends r-ggplot2: 
    :depends r-hexbin: 

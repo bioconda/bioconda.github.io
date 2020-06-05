@@ -8,6 +8,7 @@ bioconductor-scale4c
 
 .. conda:recipe:: bioconductor-scale4c
    :replaces_section_title:
+   :noindex:
 
    Scale4C\: an R\/Bioconductor package for scale\-space transformation of 4C\-seq data
 
@@ -22,12 +23,19 @@ bioconductor-scale4c
 
    |downloads_bioconductor-scale4c| |docker_bioconductor-scale4c|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-smoothie: 
    :requirements:
 

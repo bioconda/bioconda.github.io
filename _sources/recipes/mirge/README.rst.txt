@@ -8,6 +8,7 @@ mirge
 
 .. conda:recipe:: mirge
    :replaces_section_title:
+   :noindex:
 
    comprehensive analysis of miRNA sequencing data
 
@@ -22,14 +23,21 @@ mirge
 
    |downloads_mirge| |docker_mirge|
 
-   :versions: 2.0.6-6, 2.0.6-5, 2.0.6-4, 2.0.5-3, 2.0.4-2, 2.0.3-0, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0.6-6``,  ``2.0.6-5``,  ``2.0.6-4``,  ``2.0.5-3``,  ``2.0.4-2``,  ``2.0.3-0``,  ``2.0-0``
+
+      
+
    
-   :depends biopython: >=1.68
-   :depends cutadapt: 1.16
+   :depends biopython: ``>=1.68``
+   :depends cutadapt: ``1.16``
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends reportlab: 
    :depends scikit-learn: 
    :depends scipy: 

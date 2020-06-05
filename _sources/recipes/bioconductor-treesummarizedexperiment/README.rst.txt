@@ -8,6 +8,7 @@ bioconductor-treesummarizedexperiment
 
 .. conda:recipe:: bioconductor-treesummarizedexperiment
    :replaces_section_title:
+   :noindex:
 
    TreeSummarizedExperiment\: a S4 Class for Data with Tree Structures
 
@@ -22,13 +23,20 @@ bioconductor-treesummarizedexperiment
 
    |downloads_bioconductor-treesummarizedexperiment| |docker_bioconductor-treesummarizedexperiment|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``
+
+      
+
    
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :requirements:
 

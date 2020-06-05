@@ -8,6 +8,7 @@ bioconductor-silva128.1mgdb
 
 .. conda:recipe:: bioconductor-silva128.1mgdb
    :replaces_section_title:
+   :noindex:
 
    SILVA SSR rRNA release 128.1 Annotation Data
 
@@ -22,11 +23,18 @@ bioconductor-silva128.1mgdb
 
    |downloads_bioconductor-silva128.1mgdb| |docker_bioconductor-silva128.1mgdb|
 
-   :versions: 1.00.0-4, 1.00.0-3, 1.00.0-2, 1.00.0-0
+   :versions:
+      
+      
+
+      ``1.00.0-4``,  ``1.00.0-3``,  ``1.00.0-2``,  ``1.00.0-0``
+
+      
+
    
-   :depends bioconductor-metagenomefeatures: >=2.8.0,<2.9.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-metagenomefeatures: ``>=2.8.0,<2.9.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

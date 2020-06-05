@@ -8,6 +8,7 @@ bioconductor-viper
 
 .. conda:recipe:: bioconductor-viper
    :replaces_section_title:
+   :noindex:
 
    Virtual Inference of Protein\-activity by Enriched Regulon analysis
 
@@ -23,10 +24,17 @@ bioconductor-viper
 
    |downloads_bioconductor-viper| |docker_bioconductor-viper|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.1-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 
    :depends r-kernsmooth: 
    :depends r-mixtools: 

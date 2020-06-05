@@ -8,6 +8,7 @@ bioconductor-chipexoqual
 
 .. conda:recipe:: bioconductor-chipexoqual
    :replaces_section_title:
+   :noindex:
 
    ChIPexoQual
 
@@ -22,26 +23,33 @@ bioconductor-chipexoqual
 
    |downloads_bioconductor-chipexoqual| |docker_bioconductor-chipexoqual|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biovizbase: >=1.36.0,<1.37.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-broom: >=0.4
-   :depends r-data.table: >=1.9.6
-   :depends r-dplyr: >=0.5
-   :depends r-ggplot2: >=1.0
-   :depends r-hexbin: >=1.27
-   :depends r-rcolorbrewer: >=1.1
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biovizbase: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicalignments: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-broom: ``>=0.4``
+   :depends r-data.table: ``>=1.9.6``
+   :depends r-dplyr: ``>=0.5``
+   :depends r-ggplot2: ``>=1.0``
+   :depends r-hexbin: ``>=1.27``
+   :depends r-rcolorbrewer: ``>=1.1``
    :depends r-rmarkdown: 
-   :depends r-scales: >=0.4.0
-   :depends r-viridis: >=0.3
+   :depends r-scales: ``>=0.4.0``
+   :depends r-viridis: ``>=0.3``
    :requirements:
 
    .. rubric:: Installation

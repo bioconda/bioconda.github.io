@@ -8,6 +8,7 @@ genologics
 
 .. conda:recipe:: genologics
    :replaces_section_title:
+   :noindex:
 
    Python interface to the GenoLogics LIMS \(Laboratory Information Management System\) server via its REST API.
 
@@ -22,7 +23,14 @@ genologics
 
    |downloads_genologics| |docker_genologics|
 
-   :versions: 0.4.1-0, 0.3.12.post0-1, 0.3.12.post0-0
+   :versions:
+      
+      
+
+      ``0.4.1-0``,  ``0.3.12.post0-1``,  ``0.3.12.post0-0``
+
+      
+
    
    :depends python: 
    :depends requests: 

@@ -8,6 +8,7 @@ mykatlas
 
 .. conda:recipe:: mykatlas
    :replaces_section_title:
+   :noindex:
 
    Assists in discoveries of antibiotic\-resistance with mykrobe
 
@@ -22,14 +23,21 @@ mykatlas
 
    |downloads_mykatlas| |docker_mykatlas|
 
-   :versions: 0.6.1-3, 0.6.1-2, 0.6.1-1, 0.6.1-0
+   :versions:
+      
+      
+
+      ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``
+
+      
+
    
    :depends biopython: 
    :depends future: 
    :depends ga4ghmongo: 
    :depends mongoengine: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends pyvcf: 
    :depends redis-py: 
    :requirements:

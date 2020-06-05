@@ -8,6 +8,7 @@ bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked
 
 .. conda:recipe:: bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked
    :replaces_section_title:
+   :noindex:
 
    Full masked genome sequences for Gasterosteus aculeatus \(UCSC version gasAcu1\)
 
@@ -22,12 +23,19 @@ bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked
 
    |downloads_bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked| |docker_bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked|
 
-   :versions: 1.3.99-5, 1.3.99-4, 1.3.99-3, 1.3.99-0
+   :versions:
+      
+      
+
+      ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-bsgenome.gaculeatus.ucsc.gasacu1: >=1.4.0,<1.5.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-bsgenome.gaculeatus.ucsc.gasacu1: ``>=1.4.0,<1.5.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

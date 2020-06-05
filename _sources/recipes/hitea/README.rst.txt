@@ -8,6 +8,7 @@ hitea
 
 .. conda:recipe:: hitea
    :replaces_section_title:
+   :noindex:
 
    computational tool to identify trasposable element insertions using Hi\-C data
 
@@ -22,30 +23,37 @@ hitea
 
    |downloads_hitea| |docker_hitea|
 
-   :versions: 0.1.4-0
+   :versions:
+      
+      
+
+      ``0.1.4-0``
+
+      
+
    
-   :depends bedtools: 2.27.1
-   :depends bioconductor-enrichedheatmap: >=1.16.0
-   :depends bioconductor-genomicranges: >=1.38.0
-   :depends bwa: >=0.7.17
-   :depends pairtools: 0.3.0.*
+   :depends bedtools: ``2.27.1``
+   :depends bioconductor-enrichedheatmap: ``>=1.16.0``
+   :depends bioconductor-genomicranges: ``>=1.38.0``
+   :depends bwa: ``>=0.7.17``
+   :depends pairtools: ``0.3.0.*``
    :depends pandoc: 
    :depends parallel: 
-   :depends perl: >=5.24
+   :depends perl: ``>=5.24``
    :depends python: 
-   :depends r-base: >=3.5.0
-   :depends r-circlize: >=0.4.8
-   :depends r-data.table: >=1.12.8
-   :depends r-dt: >=0.13
-   :depends r-ggplot2: >=3.3.0
+   :depends r-base: ``>=3.5.0``
+   :depends r-circlize: ``>=0.4.8``
+   :depends r-data.table: ``>=1.12.8``
+   :depends r-dt: ``>=0.13``
+   :depends r-ggplot2: ``>=3.3.0``
    :depends r-kableextra: 
-   :depends r-kernsmooth: >=2.23_17
-   :depends r-knitr: >=1.28
-   :depends r-mass: >=7.3
-   :depends r-rcolorbrewer: >=1.1
-   :depends r-rmarkdown: >=2.1
-   :depends r-xtable: >=1.8
-   :depends samtools: >=1.10
+   :depends r-kernsmooth: ``>=2.23_17``
+   :depends r-knitr: ``>=1.28``
+   :depends r-mass: ``>=7.3``
+   :depends r-rcolorbrewer: ``>=1.1``
+   :depends r-rmarkdown: ``>=2.1``
+   :depends r-xtable: ``>=1.8``
+   :depends samtools: ``>=1.10``
    :requirements:
 
    .. rubric:: Installation

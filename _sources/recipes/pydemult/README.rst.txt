@@ -8,6 +8,7 @@ pydemult
 
 .. conda:recipe:: pydemult
    :replaces_section_title:
+   :noindex:
 
    Streamed and parallel demultiplexing of fastq files in python
 
@@ -22,11 +23,18 @@ pydemult
 
    |downloads_pydemult| |docker_pydemult|
 
-   :versions: 0.6-0, 0.5-1, 0.5-0, 0.4.1-1, 0.4.1-0
+   :versions:
+      
+      
+
+      ``0.6-0``,  ``0.5-1``,  ``0.5-0``,  ``0.4.1-1``,  ``0.4.1-0``
+
+      
+
    
    :depends mputil: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

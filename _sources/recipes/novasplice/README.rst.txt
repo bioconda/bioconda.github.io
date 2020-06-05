@@ -8,6 +8,7 @@ novasplice
 
 .. conda:recipe:: novasplice
    :replaces_section_title:
+   :noindex:
 
    NovaSplice is a python tool to predict novel intronic splice sites from a given VCF file
 
@@ -22,12 +23,19 @@ novasplice
 
    |downloads_novasplice| |docker_novasplice|
 
-   :versions: 0.0.4-0, 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.4-0``,  ``0.0.3-0``
+
+      
+
    
    :depends argparse: 
    :depends maxentpy: 
    :depends pybedtools: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

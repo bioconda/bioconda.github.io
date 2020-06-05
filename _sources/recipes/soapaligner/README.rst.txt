@@ -8,6 +8,7 @@ soapaligner
 
 .. conda:recipe:: soapaligner
    :replaces_section_title:
+   :noindex:
 
    SOAPaligner\/soap2 is an updated version of SOAP software for short oligonucleotide alignment.
 
@@ -22,10 +23,17 @@ soapaligner
 
    |downloads_soapaligner| |docker_soapaligner|
 
-   :versions: 2.21-0
+   :versions:
+      
+      
+
+      ``2.21-0``
+
+      
+
    
    :depends libgcc: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

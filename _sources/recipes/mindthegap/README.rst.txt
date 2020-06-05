@@ -8,6 +8,7 @@ mindthegap
 
 .. conda:recipe:: mindthegap
    :replaces_section_title:
+   :noindex:
 
    MindTheGap performs detection and assembly of DNA insertion variants in NGS read datasets with respect to a reference genome. MindTheGap can also be used as a genome assembly finishing tool\, it can fill the gaps between a set of input contigs without any a priori on their relative order and orientation.
 
@@ -23,11 +24,18 @@ mindthegap
 
    |downloads_mindthegap| |docker_mindthegap|
 
-   :versions: 2.2.1-1, 2.2.1-0, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

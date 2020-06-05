@@ -8,6 +8,7 @@ bioconductor-agimicrorna
 
 .. conda:recipe:: bioconductor-agimicrorna
    :replaces_section_title:
+   :noindex:
 
    Processing and Differential Expression Analysis of Agilent microRNA chips
 
@@ -22,14 +23,21 @@ bioconductor-agimicrorna
 
    |downloads_bioconductor-agimicrorna| |docker_bioconductor-agimicrorna|
 
-   :versions: 2.38.0-0, 2.36.0-0, 2.34.0-1, 2.32.0-1, 2.32.0-0
+   :versions:
+      
+      
+
+      ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-1``,  ``2.32.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-affycoretools: >=1.60.0,<1.61.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-affycoretools: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

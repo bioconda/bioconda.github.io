@@ -8,6 +8,7 @@ perl-moosex-nonmoose
 
 .. conda:recipe:: perl-moosex-nonmoose
    :replaces_section_title:
+   :noindex:
 
    MooseX\:\:NonMoose \- easy subclassing of non\-Moose classes
 
@@ -22,9 +23,16 @@ perl-moosex-nonmoose
 
    |downloads_perl-moosex-nonmoose| |docker_perl-moosex-nonmoose|
 
-   :versions: 0.26-3, 0.26-2, 0.26-1, 0.26-0
+   :versions:
+      
+      
+
+      ``0.26-3``,  ``0.26-2``,  ``0.26-1``,  ``0.26-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-list-moreutils: 
    :depends perl-module-runtime: 
    :depends perl-moose: 

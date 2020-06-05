@@ -8,6 +8,7 @@ strike
 
 .. conda:recipe:: strike
    :replaces_section_title:
+   :noindex:
 
    A program to evaluate protein multiple sequence alignments using a single protein structure.
 
@@ -23,9 +24,16 @@ strike
 
    |downloads_strike| |docker_strike|
 
-   :versions: 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

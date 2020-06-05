@@ -8,6 +8,7 @@ collectl
 
 .. conda:recipe:: collectl
    :replaces_section_title:
+   :noindex:
 
    collectl monitoring tool
 
@@ -22,10 +23,17 @@ collectl
 
    |downloads_collectl| |docker_collectl|
 
-   :versions: 4.0.4-3, 4.0.4-2, 4.0.4-1, 4.0.4-0
+   :versions:
+      
+      
+
+      ``4.0.4-3``,  ``4.0.4-2``,  ``4.0.4-1``,  ``4.0.4-0``
+
+      
+
    
-   :depends perl: 5.22.0*
-   :depends zlib: 1.2.11*
+   :depends perl: ``5.22.0*``
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

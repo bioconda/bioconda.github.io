@@ -8,6 +8,7 @@ cmappy
 
 .. conda:recipe:: cmappy
    :replaces_section_title:
+   :noindex:
 
    Assorted tools for interacting with .gct\, .gctx\, .grp\, and .gmt files as well as other Connectivity Map \(Broad Institute\) data\/tools
 
@@ -22,15 +23,30 @@ cmappy
 
    |downloads_cmappy| |docker_cmappy|
 
-   :versions: 4.0.1-0, 3.3.3-0, 3.3.0-0, 3.2.0-0, 3.1.1-0, 3.0.0-0, 2.2.2-0, 2.2.1-0, 2.2.0-0, 2.1.0-0, 2.0.1-0, 1.1.1-0, 1.0.9-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>3.3.3-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.0.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  </span></summary>
+      
+
+      ``4.0.1-0``,  ``3.3.3-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.1.1-0``,  ``1.0.9-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends h5py: >=2.6.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends numpy: >=1.11.2
-   :depends pandas: >=0.18
-   :depends python: >=3.7,<3.8.0a0
-   :depends requests: >=2.13.0
+   :depends h5py: ``>=2.6.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.11.2``
+   :depends pandas: ``>=0.18``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends requests: ``>=2.13.0``
    :requirements:
 
    .. rubric:: Installation

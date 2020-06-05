@@ -8,6 +8,7 @@ perl-parent
 
 .. conda:recipe:: perl-parent/0.236
    :replaces_section_title:
+   :noindex:
 
    Establish an ISA relationship with base classes at compile time
 
@@ -22,9 +23,16 @@ perl-parent
 
    |downloads_perl-parent| |docker_perl-parent|
 
-   :versions: 0.236-1, 0.236-0
+   :versions:
+      
+      
+
+      ``0.236-1``,  ``0.236-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

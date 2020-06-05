@@ -8,6 +8,7 @@ bioconductor-mirbaseconverter
 
 .. conda:recipe:: bioconductor-mirbaseconverter
    :replaces_section_title:
+   :noindex:
 
    A comprehensive and high\-efficiency tool for converting and retrieving the information of miRNAs in different miRBase versions
 
@@ -22,9 +23,16 @@ bioconductor-mirbaseconverter
 
    |downloads_bioconductor-mirbaseconverter| |docker_bioconductor-mirbaseconverter|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

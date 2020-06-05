@@ -8,6 +8,7 @@ tmalign
 
 .. conda:recipe:: tmalign
    :replaces_section_title:
+   :noindex:
 
    TM\-align sequence\-order independent protein structure alignment
 
@@ -23,10 +24,17 @@ tmalign
 
    |downloads_tmalign| |docker_tmalign|
 
-   :versions: 20170708-2, 20170708-1, 20170708-0
+   :versions:
+      
+      
+
+      ``20170708-2``,  ``20170708-1``,  ``20170708-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libgfortran-ng: >=7,<8.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
    :requirements:
 
    .. rubric:: Installation

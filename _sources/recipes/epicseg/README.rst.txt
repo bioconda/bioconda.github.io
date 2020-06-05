@@ -8,6 +8,7 @@ epicseg
 
 .. conda:recipe:: epicseg
    :replaces_section_title:
+   :noindex:
 
    EpiCSeg \(Epigenome Count\-based Segmentation\) is a software for annotating the genome based on the state of the chromatin. It provides tools for extracting count data from BAM files\, typlically corresponding to ChIP\-seq experiments for histone marks \(but other choices are possible\) it learns a statistical model for the read counts based on a HMM\, it annotates the genome\, and it provides tools for displaying and analyzing the obtained models and segmentations. EpiCSeg can be used as an R package or from the command line via Rscript.
 
@@ -22,7 +23,14 @@ epicseg
 
    |downloads_epicseg| |docker_epicseg|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends bioconductor-bamsignals: 
    :depends bioconductor-edger: 
@@ -30,10 +38,10 @@ epicseg
    :depends bioconductor-iranges: 
    :depends bioconductor-s4vectors: 
    :depends kfoots: 
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
    :depends r-rcolorbrewer: 
-   :depends r-rcpp: >=0.10.6
+   :depends r-rcpp: ``>=0.10.6``
    :requirements:
 
    .. rubric:: Installation

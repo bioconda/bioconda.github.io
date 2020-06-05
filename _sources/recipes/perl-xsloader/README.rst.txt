@@ -8,6 +8,7 @@ perl-xsloader
 
 .. conda:recipe:: perl-xsloader
    :replaces_section_title:
+   :noindex:
 
    Dynamically load C libraries into Perl code
 
@@ -22,9 +23,16 @@ perl-xsloader
 
    |downloads_perl-xsloader| |docker_perl-xsloader|
 
-   :versions: 0.24-0, 0.22-1, 0.22-0, 0.16-0
+   :versions:
+      
+      
+
+      ``0.24-0``,  ``0.22-1``,  ``0.22-0``,  ``0.16-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

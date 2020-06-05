@@ -8,6 +8,7 @@ repeatmasker
 
 .. conda:recipe:: repeatmasker
    :replaces_section_title:
+   :noindex:
 
    RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences.
 
@@ -23,10 +24,25 @@ repeatmasker
 
    |downloads_repeatmasker| |docker_repeatmasker|
 
-   :versions: 4.0.9_p2-2, 4.0.9_p2-1, 4.0.9_p2-0, 4.0.8-14, 4.0.8-13, 4.0.7-13, 4.0.7-11, 4.0.7-10, 4.0.6-10, 4.0.6-9, 4.0.6-8, 4.0.6-7, 4.0.6-6, 4.0.6-5, 4.0.6-4
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.0.9_p2-2</code>,  <code>4.0.9_p2-1</code>,  <code>4.0.9_p2-0</code>,  <code>4.0.8-14</code>,  <code>4.0.8-13</code>,  <code>4.0.7-13</code>,  <code>4.0.7-11</code>,  <code>4.0.7-10</code>,  <code>4.0.6-10</code>,  </span></summary>
+      
+
+      ``4.0.9_p2-2``,  ``4.0.9_p2-1``,  ``4.0.9_p2-0``,  ``4.0.8-14``,  ``4.0.8-13``,  ``4.0.7-13``,  ``4.0.7-11``,  ``4.0.7-10``,  ``4.0.6-10``,  ``4.0.6-9``,  ``4.0.6-8``,  ``4.0.6-7``,  ``4.0.6-6``,  ``4.0.6-5``,  ``4.0.6-4``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends hmmer: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-text-soundex: 
    :depends rmblast: 
    :depends trf: 

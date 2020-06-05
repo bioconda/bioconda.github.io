@@ -8,6 +8,7 @@ bioconductor-lobstahs
 
 .. conda:recipe:: bioconductor-lobstahs
    :replaces_section_title:
+   :noindex:
 
    Lipid and Oxylipin Biomarker Screening through Adduct Hierarchy Sequences
 
@@ -23,11 +24,18 @@ bioconductor-lobstahs
 
    |downloads_bioconductor-lobstahs| |docker_bioconductor-lobstahs|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.1-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-camera: >=1.44.0,<1.45.0
-   :depends bioconductor-xcms: >=3.10.0,<3.11.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-camera: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-xcms: ``>=3.10.0,<3.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

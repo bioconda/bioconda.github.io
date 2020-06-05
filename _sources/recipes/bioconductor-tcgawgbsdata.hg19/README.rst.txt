@@ -8,6 +8,7 @@ bioconductor-tcgawgbsdata.hg19
 
 .. conda:recipe:: bioconductor-tcgawgbsdata.hg19
    :replaces_section_title:
+   :noindex:
 
    Data
 
@@ -22,12 +23,19 @@ bioconductor-tcgawgbsdata.hg19
 
    |downloads_bioconductor-tcgawgbsdata.hg19| |docker_bioconductor-tcgawgbsdata.hg19|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-bsseq: >=1.24.0,<1.25.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsseq: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
    :requirements:
 

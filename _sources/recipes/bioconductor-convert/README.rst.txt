@@ -8,6 +8,7 @@ bioconductor-convert
 
 .. conda:recipe:: bioconductor-convert
    :replaces_section_title:
+   :noindex:
 
    Convert Microarray Data Objects
 
@@ -23,12 +24,19 @@ bioconductor-convert
 
    |downloads_bioconductor-convert| |docker_bioconductor-convert|
 
-   :versions: 1.64.0-0, 1.62.0-0, 1.60.0-1, 1.58.0-0, 1.56.0-0, 1.54.0-0
+   :versions:
+      
+      
+
+      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-marray: >=1.66.0,<1.67.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-marray: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

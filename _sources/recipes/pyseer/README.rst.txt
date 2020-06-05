@@ -8,6 +8,7 @@ pyseer
 
 .. conda:recipe:: pyseer
    :replaces_section_title:
+   :noindex:
 
    Sequence Element Enrichment Analysis \(SEER\)\, python implementation
 
@@ -23,7 +24,22 @@ pyseer
 
    |downloads_pyseer| |docker_pyseer|
 
-   :versions: 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.3.3-0, 1.3.2-0, 1.3.1-1, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.2-0, 0.3.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
+
+      ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``0.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedops: 
    :depends bedtools: 
@@ -35,12 +51,12 @@ pyseer
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends pysam: >=0.15.3
+   :depends pysam: ``>=0.15.3``
    :depends python: 
-   :depends python-dateutil: >=2.5.0
+   :depends python-dateutil: ``>=2.5.0``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends statsmodels: >=0.10
+   :depends statsmodels: ``>=0.10``
    :depends tqdm: 
    :requirements:
 

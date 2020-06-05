@@ -8,6 +8,7 @@ bioconductor-hilbertvisgui
 
 .. conda:recipe:: bioconductor-hilbertvisgui
    :replaces_section_title:
+   :noindex:
 
    HilbertVisGUI
 
@@ -22,7 +23,14 @@ bioconductor-hilbertvisgui
 
    |downloads_bioconductor-hilbertvisgui| |docker_bioconductor-hilbertvisgui|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 

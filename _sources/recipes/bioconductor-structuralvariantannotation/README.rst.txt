@@ -8,6 +8,7 @@ bioconductor-structuralvariantannotation
 
 .. conda:recipe:: bioconductor-structuralvariantannotation
    :replaces_section_title:
+   :noindex:
 
    Variant annotations for structural variants
 
@@ -22,15 +23,22 @@ bioconductor-structuralvariantannotation
 
    |downloads_bioconductor-structuralvariantannotation| |docker_bioconductor-structuralvariantannotation|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-variantannotation: ``>=1.34.0,<1.35.0``
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-rlang: 
    :depends r-stringr: 

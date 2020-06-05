@@ -8,6 +8,7 @@ perl-namespace-autoclean
 
 .. conda:recipe:: perl-namespace-autoclean/0.28
    :replaces_section_title:
+   :noindex:
 
    Keep imports out of your namespace
 
@@ -22,10 +23,17 @@ perl-namespace-autoclean
 
    |downloads_perl-namespace-autoclean| |docker_perl-namespace-autoclean|
 
-   :versions: 0.28-2, 0.28-0
+   :versions:
+      
+      
+
+      ``0.28-2``,  ``0.28-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-b-hooks-endofscope: 
    :depends perl-namespace-clean: 
    :depends perl-sub-identify: 

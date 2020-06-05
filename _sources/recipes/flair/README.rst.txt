@@ -8,6 +8,7 @@ flair
 
 .. conda:recipe:: flair
    :replaces_section_title:
+   :noindex:
 
    Correction\, isoform definition\, and alternative splicing analysis of noisy reads \(ONT and PacBio\).
 
@@ -23,7 +24,14 @@ flair
 
    |downloads_flair| |docker_flair|
 
-   :versions: 1.5-0, 1.4-0
+   :versions:
+      
+      
+
+      ``1.5-0``,  ``1.4-0``
+
+      
+
    
    :depends bedtools: 
    :depends bioconductor-deseq2: 
@@ -37,8 +45,8 @@ flair
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=3.6
-   :depends r-ggplot2: 2.2.1.*
+   :depends python: ``>=3.6``
+   :depends r-ggplot2: ``2.2.1.*``
    :depends r-qqman: 
    :depends rpy2: 
    :depends samtools: 

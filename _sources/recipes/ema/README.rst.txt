@@ -8,6 +8,7 @@ ema
 
 .. conda:recipe:: ema
    :replaces_section_title:
+   :noindex:
 
    Fast \& accurate alignment of barcoded short\-reads
 
@@ -23,11 +24,18 @@ ema
 
    |downloads_ema| |docker_ema|
 
-   :versions: 0.6.2-1, 0.6.2-0, v0.6.2-1, v0.6.1-1, v0.6.1-0
+   :versions:
+      
+      
+
+      ``0.6.2-1``,  ``0.6.2-0``,  ``v0.6.2-1``,  ``v0.6.1-1``,  ``v0.6.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

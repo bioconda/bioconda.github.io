@@ -8,6 +8,7 @@ bioconductor-mosaicsexample
 
 .. conda:recipe:: bioconductor-mosaicsexample
    :replaces_section_title:
+   :noindex:
 
    Example data for the mosaics package\, which implements MOSAiCS and MOSAiCS\-HMM\, a statistical framework to analyze one\-sample or two\-sample ChIP\-seq data for transcription factor binding and histone modification
 
@@ -22,10 +23,17 @@ bioconductor-mosaicsexample
 
    |downloads_bioconductor-mosaicsexample| |docker_bioconductor-mosaicsexample|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

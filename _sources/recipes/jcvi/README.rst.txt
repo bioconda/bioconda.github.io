@@ -8,6 +8,7 @@ jcvi
 
 .. conda:recipe:: jcvi
    :replaces_section_title:
+   :noindex:
 
    Python utility libraries on genome assembly\, annotation and comparative genomics
 
@@ -22,18 +23,33 @@ jcvi
 
    |downloads_jcvi| |docker_jcvi|
 
-   :versions: 1.0.6-0, 1.0.5-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 0.9.14-0, 0.9.13-0, 0.9.12-0, 0.9.11-0, 0.9.10-0, 0.9.9-0, 0.9.6-0, 0.8.12-1, 0.8.12-0, 0.8.4-1, 0.8.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>0.9.14-0</code>,  <code>0.9.13-0</code>,  <code>0.9.12-0</code>,  <code>0.9.11-0</code>,  </span></summary>
+      
+
+      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.14-0``,  ``0.9.13-0``,  ``0.9.12-0``,  ``0.9.11-0``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.6-0``,  ``0.8.12-1``,  ``0.8.12-0``,  ``0.8.4-1``,  ``0.8.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends deap: 
    :depends gffutils: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends matplotlib-base: 
    :depends networkx: 
-   :depends numpy: >=1.14.6,<2.0a0
-   :depends python: >=2.7,<2.8.0a0
-   :depends python_abi: 2.7.* *_cp27mu
-   :depends r-ggplot2: >=3.0.0
+   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends r-ggplot2: ``>=3.0.0``
    :requirements:
 
    .. rubric:: Installation

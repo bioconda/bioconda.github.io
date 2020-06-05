@@ -8,6 +8,7 @@ bioconductor-fgsea
 
 .. conda:recipe:: bioconductor-fgsea
    :replaces_section_title:
+   :noindex:
 
    Fast Gene Set Enrichment Analysis
 
@@ -23,18 +24,25 @@ bioconductor-fgsea
 
    |downloads_bioconductor-fgsea| |docker_bioconductor-fgsea|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bh: 
    :depends r-data.table: 
    :depends r-fastmatch: 
-   :depends r-ggplot2: >=2.2.0
+   :depends r-ggplot2: ``>=2.2.0``
    :depends r-gridextra: 
    :depends r-matrix: 
    :depends r-rcpp: 

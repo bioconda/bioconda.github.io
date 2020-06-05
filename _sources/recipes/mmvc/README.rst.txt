@@ -8,6 +8,7 @@ mmvc
 
 .. conda:recipe:: mmvc
    :replaces_section_title:
+   :noindex:
 
    Call variants based on a Bayesian multinomial mixture model.
 
@@ -22,9 +23,16 @@ mmvc
 
    |downloads_mmvc| |docker_mmvc|
 
-   :versions: 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
-   :depends julia: 0.6.1.*
+   :depends julia: ``0.6.1.*``
    :requirements:
 
    .. rubric:: Installation

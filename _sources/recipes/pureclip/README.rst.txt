@@ -8,6 +8,7 @@ pureclip
 
 .. conda:recipe:: pureclip
    :replaces_section_title:
+   :noindex:
 
    PureCLIP is a tool to detect protein\-RNA interaction footprints from single\-nucleotide CLIP\-seq data\, such as iCLIP and eCLIP.
 
@@ -23,7 +24,14 @@ pureclip
 
    |downloads_pureclip| |docker_pureclip|
 
-   :versions: 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.2-0, 1.1.1-1, 1.0.4-1, 1.0.4-0, 1.0.3-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+
+      
+
    
    :depends bedtools: 
    :depends meme: 

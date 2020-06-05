@@ -8,6 +8,7 @@ bioconductor-flowtrans
 
 .. conda:recipe:: bioconductor-flowtrans
    :replaces_section_title:
+   :noindex:
 
    Parameter Optimization for Flow Cytometry Data Transformation
 
@@ -22,12 +23,19 @@ bioconductor-flowtrans
 
    |downloads_bioconductor-flowtrans| |docker_bioconductor-flowtrans|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.34.0-0
+   :versions:
+      
+      
+
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
+
+      
+
    
-   :depends bioconductor-flowclust: >=3.26.0,<3.27.0
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowviz: >=1.52.0,<1.53.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowclust: ``>=3.26.0,<3.27.0``
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowviz: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

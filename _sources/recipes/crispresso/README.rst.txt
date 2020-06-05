@@ -8,6 +8,7 @@ crispresso
 
 .. conda:recipe:: crispresso
    :replaces_section_title:
+   :noindex:
 
    A software pipeline for the analysis of targeted CRISPR\-Cas9 sequencing data
 
@@ -22,21 +23,28 @@ crispresso
 
    |downloads_crispresso| |docker_crispresso|
 
-   :versions: 1.0.13-2, 1.0.13-1, 1.0.8-0, 1.0.7-0, 1.0.6-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0-0``
+
+      
+
    
    :depends argparse: 
-   :depends biopython: >=1.6.5
+   :depends biopython: ``>=1.6.5``
    :depends bowtie2: 
    :depends emboss: 
    :depends flash: 
-   :depends libgcc-ng: >=7.3.0
-   :depends matplotlib: >=1.3.1
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends matplotlib: ``>=1.3.1``
    :depends mock: 
    :depends nose: 
-   :depends numpy: >=1.10.4
-   :depends openjdk: >=8
-   :depends pandas: >=0.16
-   :depends python: >=2.7,<2.8.0a0
+   :depends numpy: ``>=1.10.4``
+   :depends openjdk: ``>=8``
+   :depends pandas: ``>=0.16``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends samtools: 
    :depends seaborn: 
    :depends trimmomatic: 

@@ -8,6 +8,7 @@ hca
 
 .. conda:recipe:: hca
    :replaces_section_title:
+   :noindex:
 
    Human Cell Atlas Data Storage System Command Line Interface. This repository is a Command Line Interface \(CLI\) and Python library \(API\) for interacting with the Data Coordination Platform \(DCP\) of the Human Cell Atlas \(HCA\). Currently the hca package supports interaction with the Upload Service and Data Storage Service \(DSS\) for services such as uploading\, downloading\, and querying data.
 
@@ -22,28 +23,35 @@ hca
 
    |downloads_hca| |docker_hca|
 
-   :versions: 7.0.1-0, 7.0.0-0, 6.5.1-0, 6.5.0-0, 6.4.0-0, 6.3.0-0
+   :versions:
+      
+      
+
+      ``7.0.1-0``,  ``7.0.0-0``,  ``6.5.1-0``,  ``6.5.0-0``,  ``6.4.0-0``,  ``6.3.0-0``
+
+      
+
    
-   :depends argcomplete: >=1.9.3,<2
-   :depends atomicwrites: >=1.3.0,<2
-   :depends boto3: >=1.9.86,<2
-   :depends botocore: >=1.12.208,<2
-   :depends commonmark: >=0.9.0,<1
-   :depends cryptography: >=2.6.1,<3
-   :depends dcplib: >=2.0.2,<3
+   :depends argcomplete: ``>=1.9.3,<2``
+   :depends atomicwrites: ``>=1.3.0,<2``
+   :depends boto3: ``>=1.9.86,<2``
+   :depends botocore: ``>=1.12.208,<2``
+   :depends commonmark: ``>=0.9.0,<1``
+   :depends cryptography: ``>=2.6.1,<3``
+   :depends dcplib: ``>=2.0.2,<3``
    :depends docutils: 
-   :depends google-auth: >=1.3.0,<2
-   :depends google-auth-oauthlib: >=0.4.1,<2
-   :depends jinja2: >=2.10,<3
-   :depends jsonpointer: >=1.10,<2
-   :depends jsonschema: >=2.6,<3
-   :depends puremagic: >=1.4,<1.5
-   :depends pyjwt: >=1.6.4,<2
-   :depends python: >=3
-   :depends requests: >=2.20.0,<3
-   :depends tenacity: >=5.0.2,<5.1
-   :depends tqdm: >=4.33.0,<5
-   :depends tweak: >=1.0.3,<2
+   :depends google-auth: ``>=1.3.0,<2``
+   :depends google-auth-oauthlib: ``>=0.4.1,<2``
+   :depends jinja2: ``>=2.10,<3``
+   :depends jsonpointer: ``>=1.10,<2``
+   :depends jsonschema: ``>=2.6,<3``
+   :depends puremagic: ``>=1.4,<1.5``
+   :depends pyjwt: ``>=1.6.4,<2``
+   :depends python: ``>=3``
+   :depends requests: ``>=2.20.0,<3``
+   :depends tenacity: ``>=5.0.2,<5.1``
+   :depends tqdm: ``>=4.33.0,<5``
+   :depends tweak: ``>=1.0.3,<2``
    :requirements:
 
    .. rubric:: Installation

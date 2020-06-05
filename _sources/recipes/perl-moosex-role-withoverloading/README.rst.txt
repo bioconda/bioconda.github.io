@@ -8,6 +8,7 @@ perl-moosex-role-withoverloading
 
 .. conda:recipe:: perl-moosex-role-withoverloading
    :replaces_section_title:
+   :noindex:
 
    \(DEPRECATED\) Roles which support overloading
 
@@ -22,11 +23,18 @@ perl-moosex-role-withoverloading
 
    |downloads_perl-moosex-role-withoverloading| |docker_perl-moosex-role-withoverloading|
 
-   :versions: 0.17-1, 0.17-0
+   :versions:
+      
+      
+
+      ``0.17-1``,  ``0.17-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-aliased: 
    :depends perl-moose: 
    :depends perl-namespace-autoclean: 

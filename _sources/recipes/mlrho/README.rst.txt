@@ -8,6 +8,7 @@ mlrho
 
 .. conda:recipe:: mlrho
    :replaces_section_title:
+   :noindex:
 
    Takes as input a file with assembled reads from a single diploid individual and returns maximum likelihood estimates of the population mutation rate\, \, the sequencing error \, the zygosity correlation\, and the population recombination rate.
 
@@ -23,11 +24,18 @@ mlrho
 
    |downloads_mlrho| |docker_mlrho|
 
-   :versions: 2.9-1, 2.9-0
+   :versions:
+      
+      
+
+      ``2.9-1``,  ``2.9-0``
+
+      
+
    
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libgcc-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libgcc-ng: ``>=4.9``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :requirements:
 
    .. rubric:: Installation

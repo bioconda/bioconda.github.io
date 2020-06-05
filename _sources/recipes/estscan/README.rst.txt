@@ -8,6 +8,7 @@ estscan
 
 .. conda:recipe:: estscan/3.0
    :replaces_section_title:
+   :noindex:
 
    Detects coding regions in DNA sequences even if they are of low quality
 
@@ -22,9 +23,16 @@ estscan
 
    |downloads_estscan| |docker_estscan|
 
-   :versions: 3.0-2, 3.0-1, 3.0-0
+   :versions:
+      
+      
+
+      ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

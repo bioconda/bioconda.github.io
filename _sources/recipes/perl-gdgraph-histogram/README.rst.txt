@@ -8,6 +8,7 @@ perl-gdgraph-histogram
 
 .. conda:recipe:: perl-gdgraph-histogram
    :replaces_section_title:
+   :noindex:
 
    Histogram plotting module for Perl5
 
@@ -22,10 +23,17 @@ perl-gdgraph-histogram
 
    |downloads_perl-gdgraph-histogram| |docker_perl-gdgraph-histogram|
 
-   :versions: 1.1-3, 1.1-2, 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+
+      
+
    
    :depends libgd: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-gdgraph: 
    :requirements:
 

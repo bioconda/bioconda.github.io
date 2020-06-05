@@ -8,6 +8,7 @@ bioconductor-celltree
 
 .. conda:recipe:: bioconductor-celltree
    :replaces_section_title:
+   :noindex:
 
    Inference and visualisation of Single\-Cell RNA\-seq data as a hierarchical tree structure
 
@@ -22,10 +23,17 @@ bioconductor-celltree
 
    |downloads_bioconductor-celltree| |docker_bioconductor-celltree|
 
-   :versions: 1.17.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-topgo: >=2.40.0,<2.41.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-topgo: ``>=2.40.0,<2.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends r-igraph: 
    :depends r-maptpx: 

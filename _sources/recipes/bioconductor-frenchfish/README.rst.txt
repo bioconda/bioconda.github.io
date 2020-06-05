@@ -8,6 +8,7 @@ bioconductor-frenchfish
 
 .. conda:recipe:: bioconductor-frenchfish
    :replaces_section_title:
+   :noindex:
 
    Poisson Models for Quantifying DNA Copy\-number from FISH Images of Tissue Sections
 
@@ -22,9 +23,16 @@ bioconductor-frenchfish
 
    |downloads_bioconductor-frenchfish| |docker_bioconductor-frenchfish|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mcmcpack: 
    :depends r-nhpoisson: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-mdgsa
 
 .. conda:recipe:: bioconductor-mdgsa
    :replaces_section_title:
+   :noindex:
 
    Multi Dimensional Gene Set Analysis.
 
@@ -23,12 +24,19 @@ bioconductor-mdgsa
 
    |downloads_bioconductor-mdgsa| |docker_bioconductor-mdgsa|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends bioconductor-kegg.db: >=3.2.0,<3.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-kegg.db: ``>=3.2.0,<3.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-dbi: 
    :depends r-matrix: 

@@ -8,6 +8,7 @@ scallop
 
 .. conda:recipe:: scallop
    :replaces_section_title:
+   :noindex:
 
    Scallop is a reference\-based transcriptome assembler for RNA\-seq
 
@@ -22,12 +23,19 @@ scallop
 
    |downloads_scallop| |docker_scallop|
 
-   :versions: 0.10.5-0, 0.10.4-2, 0.10.4-1, 0.10.4-0
+   :versions:
+      
+      
+
+      ``0.10.5-0``,  ``0.10.4-2``,  ``0.10.4-1``,  ``0.10.4-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

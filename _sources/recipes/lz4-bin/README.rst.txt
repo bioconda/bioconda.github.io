@@ -8,6 +8,7 @@ lz4-bin
 
 .. conda:recipe:: lz4-bin
    :replaces_section_title:
+   :noindex:
 
    Extremely Fast Compression Application
 
@@ -22,9 +23,16 @@ lz4-bin
 
    |downloads_lz4-bin| |docker_lz4-bin|
 
-   :versions: 131-2, 131-1
+   :versions:
+      
+      
+
+      ``131-2``,  ``131-1``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

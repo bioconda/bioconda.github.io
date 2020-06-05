@@ -8,6 +8,7 @@ abawaca
 
 .. conda:recipe:: abawaca
    :replaces_section_title:
+   :noindex:
 
    abawaca is a binning program for metagenomics
 
@@ -23,9 +24,16 @@ abawaca
 
    |downloads_abawaca| |docker_abawaca|
 
-   :versions: 1.00-1, 1.00-0
+   :versions:
+      
+      
+
+      ``1.00-1``,  ``1.00-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

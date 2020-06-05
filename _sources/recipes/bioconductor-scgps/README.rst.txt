@@ -8,6 +8,7 @@ bioconductor-scgps
 
 .. conda:recipe:: bioconductor-scgps
    :replaces_section_title:
+   :noindex:
 
    A complete analysis of single cell subpopulations\, from identifying subpopulations to analysing their relationship \(scGPS \= single cell Global Predictions of Subpopulation\)
 
@@ -22,22 +23,29 @@ bioconductor-scgps
 
    |downloads_bioconductor-scgps| |docker_bioconductor-scgps|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-deseq: >=1.39.0,<1.40.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-caret: >=6.0
+   :depends bioconductor-deseq: ``>=1.39.0,<1.40.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-caret: ``>=6.0``
    :depends r-dplyr: 
    :depends r-dynamictreecut: 
    :depends r-fastcluster: 
-   :depends r-ggplot2: >=2.2.1
-   :depends r-glmnet: >2.0
+   :depends r-ggplot2: ``>=2.2.1``
+   :depends r-glmnet: ``>2.0``
    :depends r-locfit: 
    :depends r-rcpp: 
    :depends r-rcpparmadillo: 

@@ -8,6 +8,7 @@ perl-test-exec
 
 .. conda:recipe:: perl-test-exec
    :replaces_section_title:
+   :noindex:
 
    Test that some code calls exec without terminating testing
 
@@ -22,9 +23,16 @@ perl-test-exec
 
    |downloads_perl-test-exec| |docker_perl-test-exec|
 
-   :versions: 0.04-1, 0.04-0
+   :versions:
+      
+      
+
+      ``0.04-1``,  ``0.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-return-multilevel: 
    :requirements:
 

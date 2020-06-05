@@ -8,6 +8,7 @@ bioconductor-lpnet
 
 .. conda:recipe:: bioconductor-lpnet
    :replaces_section_title:
+   :noindex:
 
    Linear Programming Model for Network Inference
 
@@ -23,10 +24,17 @@ bioconductor-lpnet
 
    |downloads_bioconductor-lpnet| |docker_bioconductor-lpnet|
 
-   :versions: 2.18.0-0, 2.16.0-1, 2.14.0-0, 2.12.0-0, 2.10.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+
+      
+
    
-   :depends bioconductor-nem: >=2.60.0,<2.61.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-nem: ``>=2.60.0,<2.61.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-lpsolve: 
    :requirements:
 

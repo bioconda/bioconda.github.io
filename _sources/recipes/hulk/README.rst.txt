@@ -8,6 +8,7 @@ hulk
 
 .. conda:recipe:: hulk
    :replaces_section_title:
+   :noindex:
 
    Histosketching Using Little Kmers
 
@@ -22,7 +23,14 @@ hulk
 
    |downloads_hulk| |docker_hulk|
 
-   :versions: 1.0.0-0, 0.1.2-1, 0.1.0-1, 0.0.2-1, 0.0.1-1
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``0.1.2-1``,  ``0.1.0-1``,  ``0.0.2-1``,  ``0.0.1-1``
+
+      
+
    
    :requirements:
 

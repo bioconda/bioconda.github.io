@@ -8,6 +8,7 @@ data_hacks
 
 .. conda:recipe:: data_hacks
    :replaces_section_title:
+   :noindex:
 
    Command line utilities for data analysis.
 
@@ -22,9 +23,16 @@ data_hacks
 
    |downloads_data_hacks| |docker_data_hacks|
 
-   :versions: 0.3.1-2, 0.3.1-1, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

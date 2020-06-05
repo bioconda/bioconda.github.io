@@ -8,6 +8,7 @@ adapterremovalfixprefix
 
 .. conda:recipe:: adapterremovalfixprefix
    :replaces_section_title:
+   :noindex:
 
     Fixes adapter removal prefixes to make sure no clashing read names are in the output.
 
@@ -22,7 +23,14 @@ adapterremovalfixprefix
 
    |downloads_adapterremovalfixprefix| |docker_adapterremovalfixprefix|
 
-   :versions: 0.0.5-0, 0.0.4-1, 0.0.4-0
+   :versions:
+      
+      
+
+      ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

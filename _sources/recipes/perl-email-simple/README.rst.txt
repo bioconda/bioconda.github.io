@@ -8,6 +8,7 @@ perl-email-simple
 
 .. conda:recipe:: perl-email-simple
    :replaces_section_title:
+   :noindex:
 
    simple parsing of RFC2822 message format and headers
 
@@ -22,7 +23,14 @@ perl-email-simple
 
    |downloads_perl-email-simple| |docker_perl-email-simple|
 
-   :versions: 2.216-0
+   :versions:
+      
+      
+
+      ``2.216-0``
+
+      
+
    
    :depends perl-carp: 
    :depends perl-email-date-format: 

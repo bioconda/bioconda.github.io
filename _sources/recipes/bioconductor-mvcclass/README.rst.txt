@@ -8,6 +8,7 @@ bioconductor-mvcclass
 
 .. conda:recipe:: bioconductor-mvcclass
    :replaces_section_title:
+   :noindex:
 
    Model\-View\-Controller \(MVC\) Classes
 
@@ -23,9 +24,16 @@ bioconductor-mvcclass
 
    |downloads_bioconductor-mvcclass| |docker_bioconductor-mvcclass|
 
-   :versions: 1.62.0-0, 1.60.0-0, 1.58.0-1, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.50.0-0
+   :versions:
+      
+      
+
+      ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

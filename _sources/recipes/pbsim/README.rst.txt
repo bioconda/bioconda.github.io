@@ -8,6 +8,7 @@ pbsim
 
 .. conda:recipe:: pbsim
    :replaces_section_title:
+   :noindex:
 
    PBSIM simulates PacBio reads
 
@@ -22,9 +23,16 @@ pbsim
 
    |downloads_pbsim| |docker_pbsim|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

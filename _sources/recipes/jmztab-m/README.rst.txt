@@ -8,6 +8,7 @@ jmztab-m
 
 .. conda:recipe:: jmztab-m
    :replaces_section_title:
+   :noindex:
 
    This project is the reference reader\, writer and validator implementation for mzTab for metabolomics 2.0\+.
 
@@ -35,9 +36,16 @@ jmztab-m
 
    |downloads_jmztab-m| |docker_jmztab-m|
 
-   :versions: 1.0.5-0, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.0.5-0``,  ``1.0.4-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

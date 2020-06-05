@@ -8,6 +8,7 @@ bctools
 
 .. conda:recipe:: bctools
    :replaces_section_title:
+   :noindex:
 
    Tools for handling barcodes in NGS data.
 
@@ -22,7 +23,14 @@ bctools
 
    |downloads_bctools| |docker_bctools|
 
-   :versions: 0.2.2-2, 0.2.2-1, 0.2.2-0, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``
+
+      
+
    
    :depends bedtools: 
    :depends biopython: 

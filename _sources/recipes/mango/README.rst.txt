@@ -8,6 +8,7 @@ mango
 
 .. conda:recipe:: mango
    :replaces_section_title:
+   :noindex:
 
    A scalable genomic visualization tool
 
@@ -25,23 +26,30 @@ mango
 
    |downloads_mango| |docker_mango|
 
-   :versions: 0.0.5-3, 0.0.5-2, 0.0.5-1, 0.0.5-0
+   :versions:
+      
+      
+
+      ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``
+
+      
+
    
-   :depends cigar: 0.1.3
+   :depends cigar: ``0.1.3``
    :depends dask: 
    :depends distributed: 
-   :depends ipykernel: >=5.1.2
-   :depends ipython: 7.8.0
-   :depends ipywidgets: 7.0.0
-   :depends matplotlib: 2.0.2
-   :depends openjdk: >=8,<9
-   :depends pandas: 0.25.1
+   :depends ipykernel: ``>=5.1.2``
+   :depends ipython: ``7.8.0``
+   :depends ipywidgets: ``7.0.0``
+   :depends matplotlib: ``2.0.2``
+   :depends openjdk: ``>=8,<9``
+   :depends pandas: ``0.25.1``
    :depends psutil: 
-   :depends pyspark: 2.4.4
-   :depends python: >3
-   :depends traitlets: >=4.3.0,<5.0
-   :depends traittypes: >=0.0.6
-   :depends widgetsnbextension: >=3.5.0
+   :depends pyspark: ``2.4.4``
+   :depends python: ``>3``
+   :depends traitlets: ``>=4.3.0,<5.0``
+   :depends traittypes: ``>=0.0.6``
+   :depends widgetsnbextension: ``>=3.5.0``
    :requirements:
 
    .. rubric:: Installation

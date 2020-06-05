@@ -8,6 +8,7 @@ bioconductor-meigor
 
 .. conda:recipe:: bioconductor-meigor
    :replaces_section_title:
+   :noindex:
 
    MEIGO \- MEtaheuristics for bIoinformatics Global Optimization
 
@@ -23,10 +24,17 @@ bioconductor-meigor
 
    |downloads_bioconductor-meigor| |docker_bioconductor-meigor|
 
-   :versions: 1.21.0-0, 1.20.0-0, 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.21.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-cnorode: >=1.30.0,<1.31.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-cnorode: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-desolve: 
    :depends r-rsolnp: 
    :depends r-snowfall: 

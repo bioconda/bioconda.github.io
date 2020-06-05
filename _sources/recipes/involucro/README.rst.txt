@@ -8,6 +8,7 @@ involucro
 
 .. conda:recipe:: involucro
    :replaces_section_title:
+   :noindex:
 
    Build and Deliver Software with Containers
 
@@ -22,7 +23,14 @@ involucro
 
    |downloads_involucro| |docker_involucro|
 
-   :versions: 1.1.2-1, 1.1.2-0
+   :versions:
+      
+      
+
+      ``1.1.2-1``,  ``1.1.2-0``
+
+      
+
    
    :requirements:
 

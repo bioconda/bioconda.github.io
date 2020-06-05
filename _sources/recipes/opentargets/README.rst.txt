@@ -8,6 +8,7 @@ opentargets
 
 .. conda:recipe:: opentargets
    :replaces_section_title:
+   :noindex:
 
    Client for Open Targets REST API at targetvalidation.org
 
@@ -22,7 +23,14 @@ opentargets
 
    |downloads_opentargets| |docker_opentargets|
 
-   :versions: 3.1.16-0
+   :versions:
+      
+      
+
+      ``3.1.16-0``
+
+      
+
    
    :depends addict: 
    :depends cachecontrol: 

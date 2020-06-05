@@ -8,6 +8,7 @@ guessmylt
 
 .. conda:recipe:: guessmylt
    :replaces_section_title:
+   :noindex:
 
    Software to guess the RNA\-Seq library type.
 
@@ -22,17 +23,24 @@ guessmylt
 
    |downloads_guessmylt| |docker_guessmylt|
 
-   :versions: 0.2.5-0
+   :versions:
+      
+      
+
+      ``0.2.5-0``
+
+      
+
    
-   :depends bcbio-gff: 0.6.4
-   :depends biopython: 1.67
-   :depends bowtie2: >=2
-   :depends busco: 3.0.2
-   :depends git: >=2.11.1
-   :depends pysam: >=0.13.0
-   :depends python: >3
-   :depends snakemake: 5.4.*
-   :depends trinity: 2.8.4
+   :depends bcbio-gff: ``0.6.4``
+   :depends biopython: ``1.67``
+   :depends bowtie2: ``>=2``
+   :depends busco: ``3.0.2``
+   :depends git: ``>=2.11.1``
+   :depends pysam: ``>=0.13.0``
+   :depends python: ``>3``
+   :depends snakemake: ``5.4.*``
+   :depends trinity: ``2.8.4``
    :requirements:
 
    .. rubric:: Installation

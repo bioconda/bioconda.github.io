@@ -8,6 +8,7 @@ imctools
 
 .. conda:recipe:: imctools
    :replaces_section_title:
+   :noindex:
 
    An Image Mass Cytometry \(IMC\) file conversion tool that aims to convert IMC rawfiles \(.mcd\, .txt\) into an intermediary ome.tiff\, containing all the relevant metadata. Further it contains tools to generate simpler tiff files that can be directly be used as input files for e.g. CellProfiller\, Ilastik\, Fiji etc
 
@@ -24,14 +25,21 @@ imctools
 
    |downloads_imctools| |docker_imctools|
 
-   :versions: 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.1-0, 0.2-0
+   :versions:
+      
+      
+
+      ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``,  ``0.2-0``
+
+      
+
    
    :depends numpy: 
    :depends pandas: 
    :depends python: 
    :depends scikit-image: 
    :depends scipy: 
-   :depends tifffile: >=0.13.5
+   :depends tifffile: ``>=0.13.5``
    :requirements:
 
    .. rubric:: Installation

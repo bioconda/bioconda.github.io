@@ -8,6 +8,7 @@ vcfanno
 
 .. conda:recipe:: vcfanno
    :replaces_section_title:
+   :noindex:
 
    annotate a VCF with other VCFs\/BEDs\/tabixed files
 
@@ -22,7 +23,22 @@ vcfanno
 
    |downloads_vcfanno| |docker_vcfanno|
 
-   :versions: 0.3.2-0, 0.3.1-0, 0.3.0-0, 0.2.9-0, 0.2.8-1, 0.2.8-0, 0.2.6-0, 0.2.4-0, 0.2.2-1, 0.2.1-1, 0.2.0-1, 0.1.1-1, 0.1.1-0, 0.1.0-0, 0.0.11-0, 0.0.10-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-1</code>,  <code>0.2.8-0</code>,  <code>0.2.6-0</code>,  <code>0.2.4-0</code>,  <code>0.2.2-1</code>,  </span></summary>
+      
+
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.0-1``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.11-0``,  ``0.0.10-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :requirements:
 

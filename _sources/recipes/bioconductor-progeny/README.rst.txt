@@ -8,6 +8,7 @@ bioconductor-progeny
 
 .. conda:recipe:: bioconductor-progeny
    :replaces_section_title:
+   :noindex:
 
    Pathway RespOnsive GENes for activity inference from gene expression
 
@@ -22,10 +23,17 @@ bioconductor-progeny
 
    |downloads_bioconductor-progeny| |docker_bioconductor-progeny|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.1-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 

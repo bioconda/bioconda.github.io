@@ -8,6 +8,7 @@ ndex-python
 
 .. conda:recipe:: ndex-python
    :replaces_section_title:
+   :noindex:
 
    NDEx Python includes a client and a data model.
 
@@ -22,13 +23,20 @@ ndex-python
 
    |downloads_ndex-python| |docker_ndex-python|
 
-   :versions: 3.0.11.23-2, 3.0.11.23-1, 3.0.11.23-0
+   :versions:
+      
+      
+
+      ``3.0.11.23-2``,  ``3.0.11.23-1``,  ``3.0.11.23-0``
+
+      
+
    
    :depends networkx: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends requests: 
    :depends requests-toolbelt: 
-   :depends urllib3: >=1.16
+   :depends urllib3: ``>=1.16``
    :requirements:
 
    .. rubric:: Installation

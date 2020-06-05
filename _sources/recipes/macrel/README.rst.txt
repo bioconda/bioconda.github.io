@@ -8,6 +8,7 @@ macrel
 
 .. conda:recipe:: macrel
    :replaces_section_title:
+   :noindex:
 
    A pipeline for AMP \(antimicrobial peptide\) prediction
 
@@ -24,15 +25,22 @@ macrel
 
    |downloads_macrel| |docker_macrel|
 
-   :versions: 0.5.0-0, 0.4.0-0, 0.3.1-1, 0.3.1-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends megahit: 
    :depends ngless: 
    :depends paladin: 
    :depends pandas: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends r-base: 
    :depends r-essentials: 
    :depends r-peptides: 

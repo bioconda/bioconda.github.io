@@ -8,6 +8,7 @@ bioconductor-arrayexpress
 
 .. conda:recipe:: bioconductor-arrayexpress
    :replaces_section_title:
+   :noindex:
 
    Access the ArrayExpress Microarray Database at EBI and build Bioconductor data structures\: ExpressionSet\, AffyBatch\, NChannelSet
 
@@ -22,12 +23,19 @@ bioconductor-arrayexpress
 
    |downloads_bioconductor-arrayexpress| |docker_bioconductor-arrayexpress|
 
-   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.1-0
+   :versions:
+      
+      
+
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.1-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-oligo: >=1.52.0,<1.53.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-xml: 
    :requirements:
 

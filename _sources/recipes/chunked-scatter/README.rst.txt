@@ -8,6 +8,7 @@ chunked-scatter
 
 .. conda:recipe:: chunked-scatter
    :replaces_section_title:
+   :noindex:
 
    Chunk and scatter the regions in a bed or sequence dict file
 
@@ -22,9 +23,16 @@ chunked-scatter
 
    |downloads_chunked-scatter| |docker_chunked-scatter|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :requirements:
 
    .. rubric:: Installation

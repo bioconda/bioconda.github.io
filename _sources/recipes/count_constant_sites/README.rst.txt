@@ -8,6 +8,7 @@ count_constant_sites
 
 .. conda:recipe:: count_constant_sites
    :replaces_section_title:
+   :noindex:
 
    Compute the count of cases in constant sites in a \(FASTA\) multiple sequence alignment
 
@@ -26,7 +27,14 @@ count_constant_sites
 
    |downloads_count_constant_sites| |docker_count_constant_sites|
 
-   :versions: 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``
+
+      
+
    
    :requirements:
 

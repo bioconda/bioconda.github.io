@@ -8,6 +8,7 @@ libidn
 
 .. conda:recipe:: libidn
    :replaces_section_title:
+   :noindex:
 
    Library for internationalized domain name support
 
@@ -22,7 +23,14 @@ libidn
 
    |downloads_libidn| |docker_libidn|
 
-   :versions: 7.45.0-2, 7.45.0-1
+   :versions:
+      
+      
+
+      ``7.45.0-2``,  ``7.45.0-1``
+
+      
+
    
    :requirements:
 

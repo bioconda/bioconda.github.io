@@ -8,6 +8,7 @@ bioconductor-ribor
 
 .. conda:recipe:: bioconductor-ribor
    :replaces_section_title:
+   :noindex:
 
    An R Interface for Ribo Files
 
@@ -22,11 +23,18 @@ bioconductor-ribor
 
    |downloads_bioconductor-ribor| |docker_bioconductor-ribor|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-rhdf5: >=2.32.0,<2.33.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rhdf5: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-hash: 

@@ -8,6 +8,7 @@ mhap
 
 .. conda:recipe:: mhap
    :replaces_section_title:
+   :noindex:
 
    MHAP\: MinHash Alignment Protocol. A tool for finding overlaps of long\-read sequences \(such as PacBio or Nanopore\) in bioinformatics.
 
@@ -22,7 +23,14 @@ mhap
 
    |downloads_mhap| |docker_mhap|
 
-   :versions: 2.1.3-0, 2.1.1-0, 2.0-0
+   :versions:
+      
+      
+
+      ``2.1.3-0``,  ``2.1.1-0``,  ``2.0-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

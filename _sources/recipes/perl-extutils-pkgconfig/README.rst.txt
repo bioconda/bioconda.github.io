@@ -8,6 +8,7 @@ perl-extutils-pkgconfig
 
 .. conda:recipe:: perl-extutils-pkgconfig
    :replaces_section_title:
+   :noindex:
 
    simplistic interface to pkg\-config
 
@@ -22,9 +23,16 @@ perl-extutils-pkgconfig
 
    |downloads_perl-extutils-pkgconfig| |docker_perl-extutils-pkgconfig|
 
-   :versions: 1.16-1, 1.16-0
+   :versions:
+      
+      
+
+      ``1.16-1``,  ``1.16-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

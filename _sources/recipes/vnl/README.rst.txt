@@ -8,6 +8,7 @@ vnl
 
 .. conda:recipe:: vnl
    :replaces_section_title:
+   :noindex:
 
    A multi\-platform collection of C\+\+ software libraries for Computer Vision and Image Understanding.
 
@@ -22,7 +23,14 @@ vnl
 
    |downloads_vnl| |docker_vnl|
 
-   :versions: 1.17.0-0
+   :versions:
+      
+      
+
+      ``1.17.0-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

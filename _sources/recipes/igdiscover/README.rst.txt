@@ -8,6 +8,7 @@ igdiscover
 
 .. conda:recipe:: igdiscover
    :replaces_section_title:
+   :noindex:
 
    Analyze antibody repertoires and discover new V genes
 
@@ -23,24 +24,39 @@ igdiscover
 
    |downloads_igdiscover| |docker_igdiscover|
 
-   :versions: 0.12.3-0, 0.12.2-0, 0.12.1-0, 0.12-0, 0.11-0, 0.10-3, 0.10-2, 0.10-1, 0.9-1, 0.9-0, 0.8.0-1, 0.8.0-0, 0.7.0-0, 0.6.0-1, 0.5-1, 0.4-1, 0.3-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.12.3-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12-0</code>,  <code>0.11-0</code>,  <code>0.10-3</code>,  <code>0.10-2</code>,  <code>0.10-1</code>,  <code>0.9-1</code>,  </span></summary>
+      
+
+      ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12-0``,  ``0.11-0``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.9-1``,  ``0.9-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.5-1``,  ``0.4-1``,  ``0.3-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends cutadapt: >=2.5
-   :depends dnaio: >=0.4.1
-   :depends flash: 1.2.*
-   :depends igblast: 1.10.*
-   :depends matplotlib-base: 3.1.*
-   :depends muscle: 3.8.*
-   :depends numpy: >=1.17.5
-   :depends pandas: 0.25.*
-   :depends pear: 0.9.6.*
-   :depends python: >=3.6
-   :depends ruamel.yaml: 0.16.*
-   :depends scipy: >=1.4.1
-   :depends seaborn: 0.9.*
-   :depends snakemake-minimal: 5.9.*
-   :depends tinyalign: >=0.2
-   :depends xopen: >=0.8.2
+   :depends cutadapt: ``>=2.5``
+   :depends dnaio: ``>=0.4.1``
+   :depends flash: ``1.2.*``
+   :depends igblast: ``1.10.*``
+   :depends matplotlib-base: ``3.1.*``
+   :depends muscle: ``3.8.*``
+   :depends numpy: ``>=1.17.5``
+   :depends pandas: ``0.25.*``
+   :depends pear: ``0.9.6.*``
+   :depends python: ``>=3.6``
+   :depends ruamel.yaml: ``0.16.*``
+   :depends scipy: ``>=1.4.1``
+   :depends seaborn: ``0.9.*``
+   :depends snakemake-minimal: ``5.9.*``
+   :depends tinyalign: ``>=0.2``
+   :depends xopen: ``>=0.8.2``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ mergenotcombined
 
 .. conda:recipe:: mergenotcombined
    :replaces_section_title:
+   :noindex:
 
    Merge Forward and reverse reads from fastq files
 
@@ -22,10 +23,17 @@ mergenotcombined
 
    |downloads_mergenotcombined| |docker_mergenotcombined|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

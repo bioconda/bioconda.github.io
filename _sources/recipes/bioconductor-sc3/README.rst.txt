@@ -8,6 +8,7 @@ bioconductor-sc3
 
 .. conda:recipe:: bioconductor-sc3
    :replaces_section_title:
+   :noindex:
 
    Single\-Cell Consensus Clustering
 
@@ -23,25 +24,32 @@ bioconductor-sc3
 
    |downloads_bioconductor-sc3| |docker_bioconductor-sc3|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.7.6-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.6-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-doparallel: 
    :depends r-dorng: 
    :depends r-e1071: 
    :depends r-foreach: 
    :depends r-ggplot2: 
-   :depends r-pheatmap: >=1.0.8
-   :depends r-rcpp: >=0.11.1
+   :depends r-pheatmap: ``>=1.0.8``
+   :depends r-rcpp: ``>=0.11.1``
    :depends r-rcpparmadillo: 
    :depends r-robustbase: 
    :depends r-rocr: 

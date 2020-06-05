@@ -8,6 +8,7 @@ bioconductor-hgug4845a.db
 
 .. conda:recipe:: bioconductor-hgug4845a.db
    :replaces_section_title:
+   :noindex:
 
    agilent AMADID 026652 annotation data \(chip hgug4845a\)
 
@@ -22,12 +23,19 @@ bioconductor-hgug4845a.db
 
    |downloads_bioconductor-hgug4845a.db| |docker_bioconductor-hgug4845a.db|
 
-   :versions: 0.0.3-4, 0.0.3-3, 0.0.3-2, 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.3-4``,  ``0.0.3-3``,  ``0.0.3-2``,  ``0.0.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

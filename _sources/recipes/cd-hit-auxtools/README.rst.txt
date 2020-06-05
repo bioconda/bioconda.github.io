@@ -8,6 +8,7 @@ cd-hit-auxtools
 
 .. conda:recipe:: cd-hit-auxtools
    :replaces_section_title:
+   :noindex:
 
    Clusters and compares protein or nucleotide sequences
 
@@ -22,9 +23,16 @@ cd-hit-auxtools
 
    |downloads_cd-hit-auxtools| |docker_cd-hit-auxtools|
 
-   :versions: 4.6.8-1, 4.6.8-0
+   :versions:
+      
+      
+
+      ``4.6.8-1``,  ``4.6.8-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

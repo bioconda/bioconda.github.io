@@ -8,6 +8,7 @@ cdbtools
 
 .. conda:recipe:: cdbtools
    :replaces_section_title:
+   :noindex:
 
    CDB \(Constant DataBase\) indexing and retrieval tools for FASTA files
 
@@ -22,10 +23,17 @@ cdbtools
 
    |downloads_cdbtools| |docker_cdbtools|
 
-   :versions: 0.99-4, 0.99-3, 0.99-2, 0.99-1, 0.99-0
+   :versions:
+      
+      
+
+      ``0.99-4``,  ``0.99-3``,  ``0.99-2``,  ``0.99-1``,  ``0.99-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

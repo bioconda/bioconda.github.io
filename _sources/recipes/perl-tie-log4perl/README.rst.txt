@@ -8,6 +8,7 @@ perl-tie-log4perl
 
 .. conda:recipe:: perl-tie-log4perl
    :replaces_section_title:
+   :noindex:
 
    Tie a filehandle to log via Log4perl
 
@@ -22,9 +23,16 @@ perl-tie-log4perl
 
    |downloads_perl-tie-log4perl| |docker_perl-tie-log4perl|
 
-   :versions: 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-log-log4perl: 
    :requirements:
 

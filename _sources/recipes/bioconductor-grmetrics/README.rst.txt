@@ -8,6 +8,7 @@ bioconductor-grmetrics
 
 .. conda:recipe:: bioconductor-grmetrics
    :replaces_section_title:
+   :noindex:
 
    Calculate growth\-rate inhibition \(GR\) metrics
 
@@ -23,11 +24,18 @@ bioconductor-grmetrics
 
    |downloads_bioconductor-grmetrics| |docker_bioconductor-grmetrics|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.1-0, 1.8.0-0, 1.6.1-0, 1.4.1-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.1-0``
+
+      
+
    
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-drc: 
    :depends r-ggplot2: 
    :depends r-plotly: 

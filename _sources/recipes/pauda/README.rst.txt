@@ -8,6 +8,7 @@ pauda
 
 .. conda:recipe:: pauda
    :replaces_section_title:
+   :noindex:
 
    PAUDA is a new approach toward the problem of comparing DNA reads against a database of protein reference sequences that is applicable to very large datasets consisting of hundreds of millions or billions of reads.
 
@@ -22,7 +23,14 @@ pauda
 
    |downloads_pauda| |docker_pauda|
 
-   :versions: 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
    :depends bowtie2: 
    :depends java-jdk: 

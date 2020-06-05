@@ -8,6 +8,7 @@ pynast
 
 .. conda:recipe:: pynast/1.2.2
    :replaces_section_title:
+   :noindex:
 
    The Python Nearest Alignment Space Termination tool
 
@@ -22,11 +23,18 @@ pynast
 
    |downloads_pynast| |docker_pynast|
 
-   :versions: 1.2.2-2, 1.2.2-1, 1.2.2-0
+   :versions:
+      
+      
+
+      ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``
+
+      
+
    
-   :depends cogent: >=1.5.3
-   :depends numpy: >=1.5.1
-   :depends python: <3
+   :depends cogent: ``>=1.5.3``
+   :depends numpy: ``>=1.5.1``
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

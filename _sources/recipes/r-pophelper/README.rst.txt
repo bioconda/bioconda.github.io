@@ -8,6 +8,7 @@ r-pophelper
 
 .. conda:recipe:: r-pophelper
    :replaces_section_title:
+   :noindex:
 
    A set of useful functions for processing admixture proportion files from the population structure analysis softwares STRUCTURE\, TESS\, ADMIXTURE\, BAPS\, fastSTRUCTURE etc. The package contains functions to read runs\, tabulate runs\, summarise runs\, plot runs\, estimate K using Evanno method\, export clumpp files\, export distruct files and generate barplots.
 
@@ -22,9 +23,16 @@ r-pophelper
 
    |downloads_r-pophelper| |docker_r-pophelper|
 
-   :versions: 2.3.0-1, 2.3.0-0, 2.2.7-0
+   :versions:
+      
+      
+
+      ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.7-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cairo: 
    :depends r-ggplot2: 
    :depends r-gridextra: 

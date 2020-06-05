@@ -8,6 +8,7 @@ sourmash
 
 .. conda:recipe:: sourmash
    :replaces_section_title:
+   :noindex:
 
    Compute and compare MinHash signatures for DNA data sets.
 
@@ -25,14 +26,29 @@ sourmash
 
    |downloads_sourmash| |docker_sourmash|
 
-   :versions: 3.3.1-0, 3.3.0-1, 3.3.0-0, 3.2.3-0, 3.2.2-1, 3.2.2-0, 3.2.1-1, 3.2.1-0, 3.2.0-0, 3.1.0-0, 3.0.1-0, 3.0.0-0, 2.3.1-0, 2.3.0-0, 2.2.0-1, 2.2.0-0, 2.1.0-0, 2.0.1-0, 2.0.0-1, 2.0.0-0, 2.0.0a11-0, 2.0.0a10-0, 2.0.0a9-0, 2.0.0a8-2, 2.0.0a8-1, 2.0.0a8-0, 2.0.0a7-0, 2.0.0a6-0, 2.0.0a5-0, 2.0.0a4-0, 2.0.0a3-0, 2.0.0a2-0, 2.0.0a1-3, 2.0.0a1-2, 2.0.0a1-1, 2.0.0a1-0, 1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.3.1-0</code>,  <code>3.3.0-1</code>,  <code>3.3.0-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  </span></summary>
+      
+
+      ``3.3.1-0``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.3-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``2.0.0a11-0``,  ``2.0.0a10-0``,  ``2.0.0a9-0``,  ``2.0.0a8-2``,  ``2.0.0a8-1``,  ``2.0.0a8-0``,  ``2.0.0a7-0``,  ``2.0.0a6-0``,  ``2.0.0a5-0``,  ``2.0.0a4-0``,  ``2.0.0a3-0``,  ``2.0.0a2-0``,  ``2.0.0a1-3``,  ``2.0.0a1-2``,  ``2.0.0a1-1``,  ``2.0.0a1-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bam2fasta: >=1.0.1
+   :depends bam2fasta: ``>=1.0.1``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends python: 
    :depends scipy: 
-   :depends sourmash-minimal: 3.3.1.*
+   :depends sourmash-minimal: ``3.3.1.*``
    :requirements:
 
    .. rubric:: Installation

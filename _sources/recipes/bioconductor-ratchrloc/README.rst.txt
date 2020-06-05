@@ -8,6 +8,7 @@ bioconductor-ratchrloc
 
 .. conda:recipe:: bioconductor-ratchrloc
    :replaces_section_title:
+   :noindex:
 
    A data package containing annotation data for ratCHRLOC
 
@@ -22,10 +23,17 @@ bioconductor-ratchrloc
 
    |downloads_bioconductor-ratchrloc| |docker_bioconductor-ratchrloc|
 
-   :versions: 2.1.6-4, 2.1.6-3, 2.1.6-2, 2.1.6-1, 2.1.6-0
+   :versions:
+      
+      
+
+      ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

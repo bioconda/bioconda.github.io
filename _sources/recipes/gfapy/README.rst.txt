@@ -8,6 +8,7 @@ gfapy
 
 .. conda:recipe:: gfapy
    :replaces_section_title:
+   :noindex:
 
    Library for handling data in the GFA1 and GFA2 formats
 
@@ -22,9 +23,16 @@ gfapy
 
    |downloads_gfapy| |docker_gfapy|
 
-   :versions: 1.1.0-0, 1.0.0-2, 1.0.0-1, 1.0.0-0, 1.0.0rc10-0, 1.0.0rc9-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

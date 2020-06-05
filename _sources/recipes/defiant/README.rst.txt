@@ -8,6 +8,7 @@ defiant
 
 .. conda:recipe:: defiant
    :replaces_section_title:
+   :noindex:
 
    Differential methylation\, Easy\, Fast\, Identification and ANnoTation.
 
@@ -22,10 +23,17 @@ defiant
 
    |downloads_defiant| |docker_defiant|
 
-   :versions: 1.1.4-0
+   :versions:
+      
+      
+
+      ``1.1.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends mpc: >=1.1.0,<2.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends mpc: ``>=1.1.0,<2.0a0``
    :requirements:
 
    .. rubric:: Installation

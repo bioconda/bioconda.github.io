@@ -8,6 +8,7 @@ nimnexus
 
 .. conda:recipe:: nimnexus
    :replaces_section_title:
+   :noindex:
 
    command\-line tools for processing ChIP\-nexus data
 
@@ -22,11 +23,18 @@ nimnexus
 
    |downloads_nimnexus| |docker_nimnexus|
 
-   :versions: 0.1.1-0, 0.1.0-2
+   :versions:
+      
+      
+
+      ``0.1.1-0``,  ``0.1.0-2``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends pcre: >=8.41,<9.0a0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends pcre: ``>=8.41,<9.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ libmems
 
 .. conda:recipe:: libmems
    :replaces_section_title:
+   :noindex:
 
    libMems is a freely available software development library to support DNA string matching and comparative genomics.
 
@@ -22,9 +23,16 @@ libmems
 
    |downloads_libmems| |docker_libmems|
 
-   :versions: 1.6.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

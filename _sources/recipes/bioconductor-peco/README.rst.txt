@@ -8,6 +8,7 @@ bioconductor-peco
 
 .. conda:recipe:: bioconductor-peco
    :replaces_section_title:
+   :noindex:
 
    A Supervised Approach for \*\*P\*\*r\*\*e\*\*dicting \*\*c\*\*ell Cycle Pr\*\*o\*\*gression using scRNA\-seq data
 
@@ -22,18 +23,25 @@ bioconductor-peco
 
    |downloads_bioconductor-peco| |docker_bioconductor-peco|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-scater: >=1.16.0,<1.17.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-scater: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circular: 
    :depends r-conicfit: 
    :depends r-doparallel: 
    :depends r-foreach: 
-   :depends r-genlasso: >=1.4
+   :depends r-genlasso: ``>=1.4``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ lima
 
 .. conda:recipe:: lima
    :replaces_section_title:
+   :noindex:
 
    lima \- The PacBio Barcode Demultiplexer
 
@@ -22,7 +23,14 @@ lima
 
    |downloads_lima| |docker_lima|
 
-   :versions: 1.11.0-0, 1.10.0-0, 1.9.0-0, 1.8.0-0, 1.7.1-1, 1.7.1-0, 1.7.0-0, 1.6.2-0, 1.6.1-0
+   :versions:
+      
+      
+
+      ``1.11.0-0``,  ``1.10.0-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``
+
+      
+
    
    :requirements:
 

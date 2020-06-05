@@ -8,6 +8,7 @@ bioconductor-hthgu133afrmavecs
 
 .. conda:recipe:: bioconductor-hthgu133afrmavecs
    :replaces_section_title:
+   :noindex:
 
    Vectors used by frma for microarrays of type hthgu133a
 
@@ -22,10 +23,17 @@ bioconductor-hthgu133afrmavecs
 
    |downloads_bioconductor-hthgu133afrmavecs| |docker_bioconductor-hthgu133afrmavecs|
 
-   :versions: 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0
+   :versions:
+      
+      
+
+      ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

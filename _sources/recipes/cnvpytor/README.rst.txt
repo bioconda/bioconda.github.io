@@ -8,6 +8,7 @@ cnvpytor
 
 .. conda:recipe:: cnvpytor
    :replaces_section_title:
+   :noindex:
 
    Python extension of CNVnator
 
@@ -22,16 +23,23 @@ cnvpytor
 
    |downloads_cnvpytor| |docker_cnvpytor|
 
-   :versions: 1.0b3-1, 1.0b3-0
+   :versions:
+      
+      
+
+      ``1.0b3-1``,  ``1.0b3-0``
+
+      
+
    
-   :depends h5py: >=2.9
-   :depends matplotlib-base: >=2.2
-   :depends numpy: >=1.16
-   :depends pathlib: >=1.0
-   :depends pysam: >=0.15
-   :depends python: >=3
-   :depends requests: >=2.0
-   :depends scipy: >=1.1
+   :depends h5py: ``>=2.9``
+   :depends matplotlib-base: ``>=2.2``
+   :depends numpy: ``>=1.16``
+   :depends pathlib: ``>=1.0``
+   :depends pysam: ``>=0.15``
+   :depends python: ``>=3``
+   :depends requests: ``>=2.0``
+   :depends scipy: ``>=1.1``
    :requirements:
 
    .. rubric:: Installation

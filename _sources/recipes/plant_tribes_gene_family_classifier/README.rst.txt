@@ -8,6 +8,7 @@ plant_tribes_gene_family_classifier
 
 .. conda:recipe:: plant_tribes_gene_family_classifier
    :replaces_section_title:
+   :noindex:
 
    Gene family classifier pipeline
 
@@ -22,10 +23,25 @@ plant_tribes_gene_family_classifier
 
    |downloads_plant_tribes_gene_family_classifier| |docker_plant_tribes_gene_family_classifier|
 
-   :versions: 1.0.4-1, 1.0.4-0, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.3-1, 0.2-0, 0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
+
+      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3-1``,  ``0.2-0``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends blast: >=2.5.0
-   :depends hmmer: >=3
+   :depends blast: ``>=2.5.0``
+   :depends hmmer: ``>=3``
    :depends perl: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-heap
 
 .. conda:recipe:: perl-heap
    :replaces_section_title:
+   :noindex:
 
    Perl extensions for keeping data partially sorted
 
@@ -22,9 +23,16 @@ perl-heap
 
    |downloads_perl-heap| |docker_perl-heap|
 
-   :versions: 0.80-0
+   :versions:
+      
+      
+
+      ``0.80-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

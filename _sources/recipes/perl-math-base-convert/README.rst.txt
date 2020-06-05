@@ -8,6 +8,7 @@ perl-math-base-convert
 
 .. conda:recipe:: perl-math-base-convert
    :replaces_section_title:
+   :noindex:
 
    very fast base to base conversion
 
@@ -22,9 +23,16 @@ perl-math-base-convert
 
    |downloads_perl-math-base-convert| |docker_perl-math-base-convert|
 
-   :versions: 0.11-1, 0.11-0
+   :versions:
+      
+      
+
+      ``0.11-1``,  ``0.11-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

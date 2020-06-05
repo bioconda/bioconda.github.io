@@ -8,6 +8,7 @@ swipe
 
 .. conda:recipe:: swipe
    :replaces_section_title:
+   :noindex:
 
    Tool for performing rapid local alignment searches in amino acid or nucleotide sequence databases. It is a highly optimized implementation of the Smith\-Waterman algoritm using SIMD parallel computing technology available on common CPUs.
 
@@ -24,9 +25,16 @@ swipe
 
    |downloads_swipe| |docker_swipe|
 
-   :versions: 2.1.0-0, 2.0.12-1, 2.0.12-0
+   :versions:
+      
+      
+
+      ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends openmpi: 
    :depends tbb: 
    :requirements:

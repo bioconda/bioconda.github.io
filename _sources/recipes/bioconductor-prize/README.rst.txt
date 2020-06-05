@@ -8,6 +8,7 @@ bioconductor-prize
 
 .. conda:recipe:: bioconductor-prize
    :replaces_section_title:
+   :noindex:
 
    Prize\: an R package for prioritization estimation based on analytic hierarchy process
 
@@ -23,9 +24,16 @@ bioconductor-prize
 
    |downloads_bioconductor-prize| |docker_bioconductor-prize|
 
-   :versions: 1.17.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-diagram: 
    :depends r-ggplot2: 
    :depends r-gplots: 

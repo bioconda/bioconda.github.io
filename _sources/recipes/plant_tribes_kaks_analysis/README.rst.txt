@@ -8,6 +8,7 @@ plant_tribes_kaks_analysis
 
 .. conda:recipe:: plant_tribes_kaks_analysis
    :replaces_section_title:
+   :noindex:
 
    KaKs Analysis pipeline
 
@@ -22,12 +23,19 @@ plant_tribes_kaks_analysis
 
    |downloads_plant_tribes_kaks_analysis| |docker_plant_tribes_kaks_analysis|
 
-   :versions: 1.0.4-0, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends blast: >=2.2.29
+   :depends blast: ``>=2.2.29``
    :depends crb-blast: 
    :depends emmix: 
-   :depends mafft: >=7,<8
+   :depends mafft: ``>=7,<8``
    :depends paml: 
    :depends perl: 
    :requirements:

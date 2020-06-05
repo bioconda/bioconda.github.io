@@ -8,6 +8,7 @@ ezclermont
 
 .. conda:recipe:: ezclermont
    :replaces_section_title:
+   :noindex:
 
    easily determine the Clermont 2013 E coli phylotype
 
@@ -23,11 +24,18 @@ ezclermont
 
    |downloads_ezclermont| |docker_ezclermont|
 
-   :versions: 0.6.2-0, 0.6.1-0, 0.5.0-0, 0.4.3-0
+   :versions:
+      
+      
+
+      ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.3-0``
+
+      
+
    
    :depends biopython: 
    :depends coverage: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :requirements:
 
    .. rubric:: Installation

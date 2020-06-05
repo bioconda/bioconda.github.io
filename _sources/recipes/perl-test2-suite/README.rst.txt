@@ -8,6 +8,7 @@ perl-test2-suite
 
 .. conda:recipe:: perl-test2-suite
    :replaces_section_title:
+   :noindex:
 
    Distribution with a rich set of tools built upon the Test2 framework.
 
@@ -22,9 +23,16 @@ perl-test2-suite
 
    |downloads_perl-test2-suite| |docker_perl-test2-suite|
 
-   :versions: 0.000117-0, 0.000116-0, 0.000115-0, 0.000061-1, 0.000061-0
+   :versions:
+      
+      
+
+      ``0.000117-0``,  ``0.000116-0``,  ``0.000115-0``,  ``0.000061-1``,  ``0.000061-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-data-dumper: 
    :depends perl-exporter: 

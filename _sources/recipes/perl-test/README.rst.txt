@@ -8,6 +8,7 @@ perl-test
 
 .. conda:recipe:: perl-test/1.26
    :replaces_section_title:
+   :noindex:
 
    provides a simple framework for writing test scripts
 
@@ -22,9 +23,16 @@ perl-test
 
    |downloads_perl-test| |docker_perl-test|
 
-   :versions: 1.26-1, 1.26-0
+   :versions:
+      
+      
+
+      ``1.26-1``,  ``1.26-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-test-harness: 
    :requirements:
 

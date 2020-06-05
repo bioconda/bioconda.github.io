@@ -8,6 +8,7 @@ hmmer2
 
 .. conda:recipe:: hmmer2
    :replaces_section_title:
+   :noindex:
 
    Biosequence analysis using profile hidden Markov models
 
@@ -22,9 +23,16 @@ hmmer2
 
    |downloads_hmmer2| |docker_hmmer2|
 
-   :versions: 2.3.2-3, 2.3.2-2, 2.3.2-1
+   :versions:
+      
+      
+
+      ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

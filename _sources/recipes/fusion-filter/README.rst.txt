@@ -8,6 +8,7 @@ fusion-filter
 
 .. conda:recipe:: fusion-filter
    :replaces_section_title:
+   :noindex:
 
    FusionFilter provides a common fusion\-finding\, filtering\, and annotation framework for the Trinity Cancer Transcriptome Analysis Toolkit \(CTAT\).
 
@@ -22,10 +23,17 @@ fusion-filter
 
    |downloads_fusion-filter| |docker_fusion-filter|
 
-   :versions: 0.5.0-2, 0.5.0-1, 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+
+      
+
    
-   :depends blast: >=2.7.1
-   :depends gmap: >=2017.10.30
+   :depends blast: ``>=2.7.1``
+   :depends gmap: ``>=2017.10.30``
    :depends perl: 
    :depends perl-carp: 
    :depends perl-db-file: 
@@ -33,9 +41,9 @@ fusion-filter
    :depends perl-perlio-gzip: 
    :depends perl-set-intervaltree: 
    :depends perl-uri: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends samtools: 
-   :depends star: >=2.5.4a
+   :depends star: ``>=2.5.4a``
    :requirements:
 
    .. rubric:: Installation

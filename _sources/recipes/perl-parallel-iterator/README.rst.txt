@@ -8,6 +8,7 @@ perl-parallel-iterator
 
 .. conda:recipe:: perl-parallel-iterator
    :replaces_section_title:
+   :noindex:
 
    Simple parallel execution
 
@@ -22,9 +23,16 @@ perl-parallel-iterator
 
    |downloads_perl-parallel-iterator| |docker_perl-parallel-iterator|
 
-   :versions: 1.00-0
+   :versions:
+      
+      
+
+      ``1.00-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-storable: 
    :requirements:
 

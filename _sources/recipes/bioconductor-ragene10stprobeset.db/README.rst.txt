@@ -8,6 +8,7 @@ bioconductor-ragene10stprobeset.db
 
 .. conda:recipe:: bioconductor-ragene10stprobeset.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix ragene10 annotation data \(chip ragene10stprobeset\)
 
@@ -22,12 +23,19 @@ bioconductor-ragene10stprobeset.db
 
    |downloads_bioconductor-ragene10stprobeset.db| |docker_bioconductor-ragene10stprobeset.db|
 
-   :versions: 8.7.0-4, 8.7.0-3, 8.7.0-2, 8.7.0-0
+   :versions:
+      
+      
+
+      ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-2``,  ``8.7.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.rn.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

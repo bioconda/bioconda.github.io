@@ -8,6 +8,7 @@ fastspar
 
 .. conda:recipe:: fastspar
    :replaces_section_title:
+   :noindex:
 
    Rapid and scalable correlation estimation for compositional data
 
@@ -29,16 +30,23 @@ fastspar
 
    |downloads_fastspar| |docker_fastspar|
 
-   :versions: 0.0.10-0, 0.0.9-0, 0.0.6-0
+   :versions:
+      
+      
+
+      ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``
+
+      
+
    
-   :depends armadillo: >=7.800.1
-   :depends armadillo: >=9.200,<10.0a0
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openblas: >=0.3.6,<0.3.7.0a0
-   :depends openmp: >=4.0
+   :depends armadillo: ``>=7.800.1``
+   :depends armadillo: ``>=9.200,<10.0a0``
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends openmp: ``>=4.0``
    :requirements:
 
    .. rubric:: Installation

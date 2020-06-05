@@ -8,6 +8,7 @@ perl-safe
 
 .. conda:recipe:: perl-safe/2.37
    :replaces_section_title:
+   :noindex:
 
    Compile and execute code in restricted compartments
 
@@ -22,9 +23,16 @@ perl-safe
 
    |downloads_perl-safe| |docker_perl-safe|
 
-   :versions: 2.37-1, 2.37-0
+   :versions:
+      
+      
+
+      ``2.37-1``,  ``2.37-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

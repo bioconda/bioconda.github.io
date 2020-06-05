@@ -8,6 +8,7 @@ perl-params-check
 
 .. conda:recipe:: perl-params-check/0.38
    :replaces_section_title:
+   :noindex:
 
    Templated based param validation
 
@@ -22,9 +23,16 @@ perl-params-check
 
    |downloads_perl-params-check| |docker_perl-params-check|
 
-   :versions: 0.38-1, 0.38-0
+   :versions:
+      
+      
+
+      ``0.38-1``,  ``0.38-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

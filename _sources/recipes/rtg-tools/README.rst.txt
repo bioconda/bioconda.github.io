@@ -8,6 +8,7 @@ rtg-tools
 
 .. conda:recipe:: rtg-tools
    :replaces_section_title:
+   :noindex:
 
    RealTimeGenomics Tools \-\- Utilities for accurate VCF comparison and manipulation
 
@@ -22,7 +23,22 @@ rtg-tools
 
    |downloads_rtg-tools| |docker_rtg-tools|
 
-   :versions: 3.11-0, 3.10.1-0, 3.10-0, 3.9.1-1, 3.9.1-0, 3.9-0, 3.8.4-0, 3.8.2-0, 3.7.1-0, 3.6-1, 3.6-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.11-0</code>,  <code>3.10.1-0</code>,  <code>3.10-0</code>,  <code>3.9.1-1</code>,  <code>3.9.1-0</code>,  <code>3.9-0</code>,  <code>3.8.4-0</code>,  <code>3.8.2-0</code>,  <code>3.7.1-0</code>,  </span></summary>
+      
+
+      ``3.11-0``,  ``3.10.1-0``,  ``3.10-0``,  ``3.9.1-1``,  ``3.9.1-0``,  ``3.9-0``,  ``3.8.4-0``,  ``3.8.2-0``,  ``3.7.1-0``,  ``3.6-1``,  ``3.6-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends font-ttf-dejavu-sans-mono: 
    :depends fontconfig: 

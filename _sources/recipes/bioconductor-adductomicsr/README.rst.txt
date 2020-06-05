@@ -8,6 +8,7 @@ bioconductor-adductomicsr
 
 .. conda:recipe:: bioconductor-adductomicsr
    :replaces_section_title:
+   :noindex:
 
    Processing of adductomic mass spectral datasets
 
@@ -22,30 +23,37 @@ bioconductor-adductomicsr
 
    |downloads_bioconductor-adductomicsr| |docker_bioconductor-adductomicsr|
 
-   :versions: 1.4.0-0, 1.2.0-1, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-adductdata: >=1.4.0,<1.5.0
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-mzr: >=2.22.0,<2.23.0
-   :depends r-ade4: >=1.7.6
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-bootstrap: >=2017.2
-   :depends r-data.table: >=1.10.4
-   :depends r-dosnow: >=1.0.14
-   :depends r-dplyr: >=0.7.5
-   :depends r-dt: >=0.2
-   :depends r-fastcluster: >=1.1.22
-   :depends r-foreach: >=1.4.3
-   :depends r-fpc: >=2.1.10
-   :depends r-orgmassspecr: >=0.4.6
-   :depends r-pastecs: >=1.3.18
-   :depends r-pracma: >=2.0.4
-   :depends r-rcppeigen: >=0.3.3.3.0
-   :depends r-reshape2: >=1.4.2
-   :depends r-rvest: >=0.3.2
-   :depends r-smoother: >=1.1
-   :depends r-zoo: >=1.8
+   :depends bioconductor-adductdata: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends r-ade4: ``>=1.7.6``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bootstrap: ``>=2017.2``
+   :depends r-data.table: ``>=1.10.4``
+   :depends r-dosnow: ``>=1.0.14``
+   :depends r-dplyr: ``>=0.7.5``
+   :depends r-dt: ``>=0.2``
+   :depends r-fastcluster: ``>=1.1.22``
+   :depends r-foreach: ``>=1.4.3``
+   :depends r-fpc: ``>=2.1.10``
+   :depends r-orgmassspecr: ``>=0.4.6``
+   :depends r-pastecs: ``>=1.3.18``
+   :depends r-pracma: ``>=2.0.4``
+   :depends r-rcppeigen: ``>=0.3.3.3.0``
+   :depends r-reshape2: ``>=1.4.2``
+   :depends r-rvest: ``>=0.3.2``
+   :depends r-smoother: ``>=1.1``
+   :depends r-zoo: ``>=1.8``
    :requirements:
 
    .. rubric:: Installation

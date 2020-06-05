@@ -8,6 +8,7 @@ bioconductor-illuminahumanmethylation450kprobe
 
 .. conda:recipe:: bioconductor-illuminahumanmethylation450kprobe
    :replaces_section_title:
+   :noindex:
 
    Probe sequence data for microarrays of type IlluminaHumanMethylation450k
 
@@ -22,11 +23,18 @@ bioconductor-illuminahumanmethylation450kprobe
 
    |downloads_bioconductor-illuminahumanmethylation450kprobe| |docker_bioconductor-illuminahumanmethylation450kprobe|
 
-   :versions: 2.0.6-4, 2.0.6-3, 2.0.6-2, 2.0.6-0
+   :versions:
+      
+      
+
+      ``2.0.6-4``,  ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

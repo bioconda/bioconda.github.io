@@ -8,6 +8,7 @@ prophasm
 
 .. conda:recipe:: prophasm
    :replaces_section_title:
+   :noindex:
 
    ProPhasm – ProPhyle Assembler. Compressing k\-mer sets via assembling contigs.
 
@@ -22,10 +23,17 @@ prophasm
 
    |downloads_prophasm| |docker_prophasm|
 
-   :versions: 0.1.0-4, 0.1.0-3
+   :versions:
+      
+      
+
+      ``0.1.0-4``,  ``0.1.0-3``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

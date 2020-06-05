@@ -8,6 +8,7 @@ sloika
 
 .. conda:recipe:: sloika
    :replaces_section_title:
+   :noindex:
 
    Sloika is Oxford Nanopore Technologies\' software for training neural network models for base calling
 
@@ -22,14 +23,21 @@ sloika
 
    |downloads_sloika| |docker_sloika|
 
-   :versions: 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.0.1-0``
+
+      
+
    
-   :depends biopython: >=1.63
-   :depends h5py: >=2.2.1,<=2.6.0
-   :depends hdf5: 1.8.17*
+   :depends biopython: ``>=1.63``
+   :depends h5py: ``>=2.2.1,<=2.6.0``
+   :depends hdf5: ``1.8.17*``
    :depends libgcc: 
-   :depends numpy: 1.12*
-   :depends theano: 0.8.2
+   :depends numpy: ``1.12*``
+   :depends theano: ``0.8.2``
    :requirements:
 
    .. rubric:: Installation

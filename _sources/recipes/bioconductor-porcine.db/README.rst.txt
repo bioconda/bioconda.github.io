@@ -8,6 +8,7 @@ bioconductor-porcine.db
 
 .. conda:recipe:: bioconductor-porcine.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix porcine annotation data \(chip porcine\)
 
@@ -22,12 +23,19 @@ bioconductor-porcine.db
 
    |downloads_bioconductor-porcine.db| |docker_bioconductor-porcine.db|
 
-   :versions: 3.2.3-5, 3.2.3-4, 3.2.3-3, 3.2.3-1, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-1``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.ss.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.ss.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

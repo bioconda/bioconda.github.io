@@ -8,6 +8,7 @@ bioconductor-chimeraviz
 
 .. conda:recipe:: bioconductor-chimeraviz
    :replaces_section_title:
+   :noindex:
 
    Visualization tools for gene fusions
 
@@ -22,27 +23,34 @@ bioconductor-chimeraviz
 
    |downloads_bioconductor-chimeraviz| |docker_bioconductor-chimeraviz|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.2-0, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.0.4-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-annotationfilter: >=1.12.0,<1.13.0
-   :depends bioconductor-biocstyle: >=2.16.0,<2.17.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-ensembldb: >=2.12.0,<2.13.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-gviz: >=1.32.0,<1.33.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-annotationfilter: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-ensembldb: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicalignments: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-gviz: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
    :depends bowtie2: 
    :depends r-argumentcheck: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-dt: 

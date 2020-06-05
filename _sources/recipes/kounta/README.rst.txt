@@ -8,6 +8,7 @@ kounta
 
 .. conda:recipe:: kounta
    :replaces_section_title:
+   :noindex:
 
    Generate multi\-sample k\-mer count matrix
 
@@ -22,12 +23,19 @@ kounta
 
    |downloads_kounta| |docker_kounta|
 
-   :versions: 0.2.3-1, 0.2.3-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.0-0``
+
+      
+
    
    :depends coreutils: 
-   :depends kmc: >=3.1
+   :depends kmc: ``>=3.1``
    :depends parallel: 
-   :depends perl: >=5.26
+   :depends perl: ``>=5.26``
    :requirements:
 
    .. rubric:: Installation

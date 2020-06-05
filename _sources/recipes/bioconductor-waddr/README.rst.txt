@@ -8,6 +8,7 @@ bioconductor-waddr
 
 .. conda:recipe:: bioconductor-waddr
    :replaces_section_title:
+   :noindex:
 
    Statistical tests for detecting differential distributions based on the 2\-Wasserstein distance
 
@@ -22,18 +23,25 @@ bioconductor-waddr
 
    |downloads_bioconductor-waddr| |docker_bioconductor-waddr|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-arm: >=1.10-1
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-rcpp: >=1.0.1
+   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-arm: ``>=1.10-1``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-rcpp: ``>=1.0.1``
    :depends r-rcpparmadillo: 
    :requirements:
 

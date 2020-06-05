@@ -8,6 +8,7 @@ bioconductor-levi
 
 .. conda:recipe:: bioconductor-levi
    :replaces_section_title:
+   :noindex:
 
    Landscape Expression Visualization Interface
 
@@ -22,28 +23,35 @@ bioconductor-levi
 
    |downloads_bioconductor-levi| |docker_bioconductor-levi|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-colorspace: >=1.3-2
-   :depends r-dplyr: >=0.7.4
-   :depends r-dt: >=0.4
-   :depends r-ggplot2: >=2.2.1
-   :depends r-httr: >=1.3.1
-   :depends r-igraph: >=1.2.1
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-colorspace: ``>=1.3-2``
+   :depends r-dplyr: ``>=0.7.4``
+   :depends r-dt: ``>=0.4``
+   :depends r-ggplot2: ``>=2.2.1``
+   :depends r-httr: ``>=1.3.1``
+   :depends r-igraph: ``>=1.2.1``
    :depends r-knitr: 
-   :depends r-rcolorbrewer: >=1.1-2
-   :depends r-rcpp: >=0.12.18
-   :depends r-reshape2: >=1.4.3
-   :depends r-shiny: >=1.0.5
-   :depends r-shinydashboard: >=0.7.0
-   :depends r-shinyjs: >=1.0
+   :depends r-rcolorbrewer: ``>=1.1-2``
+   :depends r-rcpp: ``>=0.12.18``
+   :depends r-reshape2: ``>=1.4.3``
+   :depends r-shiny: ``>=1.0.5``
+   :depends r-shinydashboard: ``>=0.7.0``
+   :depends r-shinyjs: ``>=1.0``
    :depends r-testthat: 
-   :depends r-xml2: >=1.2.0
+   :depends r-xml2: ``>=1.2.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-ihw
 
 .. conda:recipe:: bioconductor-ihw
    :replaces_section_title:
+   :noindex:
 
    Independent Hypothesis Weighting
 
@@ -23,11 +24,18 @@ bioconductor-ihw
 
    |downloads_bioconductor-ihw| |docker_bioconductor-ihw|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.1-0, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-lpsymphony: >=1.14.0,<1.15.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocgenerics: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-lpsymphony: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-fdrtool: 
    :depends r-slam: 
    :requirements:

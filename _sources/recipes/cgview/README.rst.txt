@@ -8,6 +8,7 @@ cgview
 
 .. conda:recipe:: cgview
    :replaces_section_title:
+   :noindex:
 
    CGView is a Java package for generating high quality\, zoomable maps of circular genomes.
    Its primary purpose is to serve as a component of sequence annotation pipelines\, as a
@@ -24,11 +25,18 @@ cgview
 
    |downloads_cgview| |docker_cgview|
 
-   :versions: 1.0-5, 1.0-4, 1.0-3, 1.0-2, 1.0-1
+   :versions:
+      
+      
+
+      ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``
+
+      
+
    
-   :depends openjdk: >=6
+   :depends openjdk: ``>=6``
    :depends perl: 
-   :depends perl-bioperl: >=1.7.2
+   :depends perl-bioperl: ``>=1.7.2``
    :depends python: 
    :requirements:
 

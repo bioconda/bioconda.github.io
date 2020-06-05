@@ -8,6 +8,7 @@ qorts
 
 .. conda:recipe:: qorts
    :replaces_section_title:
+   :noindex:
 
    QoRTs toolkit for analysis\, quality control\, and data management of RNA\-Seq
    datasets.
@@ -24,11 +25,18 @@ qorts
 
    |downloads_qorts| |docker_qorts|
 
-   :versions: 1.3.6-0, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.1.8-0
+   :versions:
+      
+      
+
+      ``1.3.6-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.1.8-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 
-   :depends r-qorts: 1.3.6
+   :depends r-qorts: ``1.3.6``
    :requirements:
 
    .. rubric:: Installation

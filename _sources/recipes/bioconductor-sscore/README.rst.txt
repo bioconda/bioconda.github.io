@@ -8,6 +8,7 @@ bioconductor-sscore
 
 .. conda:recipe:: bioconductor-sscore
    :replaces_section_title:
+   :noindex:
 
    S\-Score Algorithm for Affymetrix Oligonucleotide Microarrays
 
@@ -23,11 +24,18 @@ bioconductor-sscore
 
    |downloads_bioconductor-sscore| |docker_bioconductor-sscore|
 
-   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0, 1.48.0-0
+   :versions:
+      
+      
+
+      ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-affyio: >=1.58.0,<1.59.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-affyio: ``>=1.58.0,<1.59.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

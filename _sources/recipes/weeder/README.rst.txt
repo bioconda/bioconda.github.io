@@ -8,6 +8,7 @@ weeder
 
 .. conda:recipe:: weeder
    :replaces_section_title:
+   :noindex:
 
    Motif \(transcription factor binding sites\) discovery in sequences from coregulated genes of a single species. This is a new Weeder release rewritten to be faster and optimized for large ChIP\-Seq data.
 
@@ -23,10 +24,17 @@ weeder
 
    |downloads_weeder| |docker_weeder|
 
-   :versions: 2.0-3, 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends python: 
    :requirements:
 

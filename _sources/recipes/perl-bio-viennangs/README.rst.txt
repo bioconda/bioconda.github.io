@@ -8,6 +8,7 @@ perl-bio-viennangs
 
 .. conda:recipe:: perl-bio-viennangs
    :replaces_section_title:
+   :noindex:
 
    A Perl distribution for Next\-Generation Sequencing \(NGS\) data analysis
 
@@ -22,10 +23,17 @@ perl-bio-viennangs
 
    |downloads_perl-bio-viennangs| |docker_perl-bio-viennangs|
 
-   :versions: v0.19.2-5, v0.19-1, v0.18-2, v0.18-1, v0.18-0, v0.16-0
+   :versions:
+      
+      
+
+      ``v0.19.2-5``,  ``v0.19-1``,  ``v0.18-2``,  ``v0.18-1``,  ``v0.18-0``,  ``v0.16-0``
+
+      
+
    
-   :depends bedtools: >=2.24
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends bedtools: ``>=2.24``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-samtools: 
    :depends perl-bioperl: 
    :depends perl-carp: 

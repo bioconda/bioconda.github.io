@@ -8,6 +8,7 @@ biopet-seqstat
 
 .. conda:recipe:: biopet-seqstat
    :replaces_section_title:
+   :noindex:
 
    SeqStat is a package that contains tools to generate stats from a FastQ file\, merge those stats for multiple samples\, and validate the generated stats files.
 
@@ -61,9 +62,16 @@ biopet-seqstat
 
    |downloads_biopet-seqstat| |docker_biopet-seqstat|
 
-   :versions: 1.0.1-0, 1.0-0, 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0-0``,  ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

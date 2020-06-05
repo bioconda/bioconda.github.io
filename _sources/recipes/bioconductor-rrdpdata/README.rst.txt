@@ -8,6 +8,7 @@ bioconductor-rrdpdata
 
 .. conda:recipe:: bioconductor-rrdpdata
    :replaces_section_title:
+   :noindex:
 
    Database for the Default RDP Classifier
 
@@ -22,12 +23,19 @@ bioconductor-rrdpdata
 
    |downloads_bioconductor-rrdpdata| |docker_bioconductor-rrdpdata|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-rrdp: >=1.22.0,<1.23.0
-   :depends curl: >=7.69.1,<8.0a0
+   :depends bioconductor-rrdp: ``>=1.22.0,<1.23.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
    :depends openjdk: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

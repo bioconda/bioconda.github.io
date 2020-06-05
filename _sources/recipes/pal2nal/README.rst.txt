@@ -8,6 +8,7 @@ pal2nal
 
 .. conda:recipe:: pal2nal
    :replaces_section_title:
+   :noindex:
 
    robust conversion of protein sequence alignments into the corresponding codon alignments
 
@@ -23,9 +24,16 @@ pal2nal
 
    |downloads_pal2nal| |docker_pal2nal|
 
-   :versions: 14.1-1, 14.1-0, 14-0
+   :versions:
+      
+      
+
+      ``14.1-1``,  ``14.1-0``,  ``14-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-getopt-long: 
    :requirements:
 

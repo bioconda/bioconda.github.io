@@ -8,6 +8,7 @@ bioconductor-hthgu133a.db
 
 .. conda:recipe:: bioconductor-hthgu133a.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix HT Human Genome U133 Array Plate Set annotation data \(chip hthgu133a\)
 
@@ -22,12 +23,19 @@ bioconductor-hthgu133a.db
 
    |downloads_bioconductor-hthgu133a.db| |docker_bioconductor-hthgu133a.db|
 
-   :versions: 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

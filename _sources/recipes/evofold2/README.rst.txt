@@ -8,6 +8,7 @@ evofold2
 
 .. conda:recipe:: evofold2
    :replaces_section_title:
+   :noindex:
 
    Identifies functional RNA\-structure in multiple sequence alignments.
 
@@ -22,7 +23,14 @@ evofold2
 
    |downloads_evofold2| |docker_evofold2|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
    :requirements:
 

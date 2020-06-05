@@ -8,6 +8,7 @@ perl-array-compare
 
 .. conda:recipe:: perl-array-compare
    :replaces_section_title:
+   :noindex:
 
    Perl extension for comparing arrays.
 
@@ -22,9 +23,16 @@ perl-array-compare
 
    |downloads_perl-array-compare| |docker_perl-array-compare|
 
-   :versions: 3.0.1-1, 3.0.1-0, 2.11-0
+   :versions:
+      
+      
+
+      ``3.0.1-1``,  ``3.0.1-0``,  ``2.11-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-moo: 
    :depends perl-type-tiny: 

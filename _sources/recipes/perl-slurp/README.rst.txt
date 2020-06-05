@@ -8,6 +8,7 @@ perl-slurp
 
 .. conda:recipe:: perl-slurp
    :replaces_section_title:
+   :noindex:
 
    Slurp entire files into variables
 
@@ -22,9 +23,16 @@ perl-slurp
 
    |downloads_perl-slurp| |docker_perl-slurp|
 
-   :versions: 0.4-0
+   :versions:
+      
+      
+
+      ``0.4-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ tesorter
 
 .. conda:recipe:: tesorter
    :replaces_section_title:
+   :noindex:
 
    Lineage\-level classification of transposable elements using conserved protein domains.
 
@@ -22,14 +23,21 @@ tesorter
 
    |downloads_tesorter| |docker_tesorter|
 
-   :versions: 1.2.5.2-0
+   :versions:
+      
+      
+
+      ``1.2.5.2-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
    :depends drmaa: 
    :depends hmmer: 
    :depends pp: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-pwmenrich
 
 .. conda:recipe:: bioconductor-pwmenrich
    :replaces_section_title:
+   :noindex:
 
    PWM enrichment analysis
 
@@ -23,12 +24,19 @@ bioconductor-pwmenrich
 
    |downloads_bioconductor-pwmenrich| |docker_bioconductor-pwmenrich|
 
-   :versions: 4.23.0-0, 4.22.0-0, 4.20.0-1, 4.18.0-0, 4.16.0-0, 4.14.0-0
+   :versions:
+      
+      
+
+      ``4.23.0-0``,  ``4.22.0-0``,  ``4.20.0-1``,  ``4.18.0-0``,  ``4.16.0-0``,  ``4.14.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-seqlogo: >=1.54.0,<1.55.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-seqlogo: ``>=1.54.0,<1.55.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-evd: 
    :depends r-gdata: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-idr2d
 
 .. conda:recipe:: bioconductor-idr2d
    :replaces_section_title:
+   :noindex:
 
    Irreproducible Discovery Rate for Genomic Interactions Data
 
@@ -22,20 +23,27 @@ bioconductor-idr2d
 
    |downloads_bioconductor-idr2d| |docker_bioconductor-idr2d|
 
-   :versions: 1.2.2-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dplyr: >=0.7.6
-   :depends r-futile.logger: >=1.4.3
-   :depends r-ggplot2: >=3.1.1
-   :depends r-idr: >=1.2
-   :depends r-magrittr: >=1.5
-   :depends r-reticulate: >=1.13
-   :depends r-scales: >=1.0.0
-   :depends r-stringr: >=1.3.1
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: ``>=0.7.6``
+   :depends r-futile.logger: ``>=1.4.3``
+   :depends r-ggplot2: ``>=3.1.1``
+   :depends r-idr: ``>=1.2``
+   :depends r-magrittr: ``>=1.5``
+   :depends r-reticulate: ``>=1.13``
+   :depends r-scales: ``>=1.0.0``
+   :depends r-stringr: ``>=1.3.1``
    :requirements:
 
    .. rubric:: Installation

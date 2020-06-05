@@ -8,6 +8,7 @@ bioconductor-rocpai
 
 .. conda:recipe:: bioconductor-rocpai
    :replaces_section_title:
+   :noindex:
 
    Receiver Operating Characteristic Partial Area Indexes for evaluating classifiers
 
@@ -22,11 +23,18 @@ bioconductor-rocpai
 
    |downloads_bioconductor-rocpai| |docker_bioconductor-rocpai|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-fission: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-fission: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-boot: 
    :depends r-knitr: 
    :requirements:

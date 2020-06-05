@@ -8,6 +8,7 @@ cgcloud-lib
 
 .. conda:recipe:: cgcloud-lib
    :replaces_section_title:
+   :noindex:
 
    Components shared between cgcloud\-core and cgcloud\-agent
 
@@ -22,12 +23,19 @@ cgcloud-lib
 
    |downloads_cgcloud-lib| |docker_cgcloud-lib|
 
-   :versions: 1.6.0-4, 1.6.0-2, 1.6.0-1, 1.6.0-0, 1.4a1.dev195-0
+   :versions:
+      
+      
+
+      ``1.6.0-4``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4a1.dev195-0``
+
+      
+
    
    :depends bd2k-python-lib: 
-   :depends boto: >=2.38.0
+   :depends boto: ``>=2.38.0``
    :depends future: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

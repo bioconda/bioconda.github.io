@@ -8,6 +8,7 @@ perl-test-warnings
 
 .. conda:recipe:: perl-test-warnings
    :replaces_section_title:
+   :noindex:
 
    Test for warnings and the lack of them
 
@@ -22,9 +23,16 @@ perl-test-warnings
 
    |downloads_perl-test-warnings| |docker_perl-test-warnings|
 
-   :versions: 0.026-1, 0.026-0, 0.021-3, 0.021-2, 0.021-1
+   :versions:
+      
+      
+
+      ``0.026-1``,  ``0.026-0``,  ``0.021-3``,  ``0.021-2``,  ``0.021-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

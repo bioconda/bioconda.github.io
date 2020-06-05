@@ -8,6 +8,7 @@ perl-params-validate
 
 .. conda:recipe:: perl-params-validate
    :replaces_section_title:
+   :noindex:
 
    Validate method\/function parameters
 
@@ -22,10 +23,17 @@ perl-params-validate
 
    |downloads_perl-params-validate| |docker_perl-params-validate|
 
-   :versions: 1.29-1, 1.29-0, 1.26-1, 1.26-0, 1.08-2, 1.08-1, 1.08-0
+   :versions:
+      
+      
+
+      ``1.29-1``,  ``1.29-0``,  ``1.26-1``,  ``1.26-0``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-module-implementation: 

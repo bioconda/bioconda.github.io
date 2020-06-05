@@ -8,6 +8,7 @@ perl-app-cpanminus
 
 .. conda:recipe:: perl-app-cpanminus
    :replaces_section_title:
+   :noindex:
 
    get\, unpack\, build and install modules from CPAN
 
@@ -22,9 +23,16 @@ perl-app-cpanminus
 
    |downloads_perl-app-cpanminus| |docker_perl-app-cpanminus|
 
-   :versions: 1.7044-1, 1.7044-0, 1.7043-0, 1.7039-3, 1.7039-2, 1.7039-1, 1.7039-0
+   :versions:
+      
+      
+
+      ``1.7044-1``,  ``1.7044-0``,  ``1.7043-0``,  ``1.7039-3``,  ``1.7039-2``,  ``1.7039-1``,  ``1.7039-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

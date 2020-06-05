@@ -8,6 +8,7 @@ phylophlan
 
 .. conda:recipe:: phylophlan
    :replaces_section_title:
+   :noindex:
 
    Precise phylogenetic analysis of microbial isolates and genomes from metagenomes
 
@@ -30,23 +31,30 @@ phylophlan
 
    |downloads_phylophlan| |docker_phylophlan|
 
-   :versions: 3.0-5, 3.0-4, 3.0-2, 3.0-1, 3.0-0
+   :versions:
+      
+      
+
+      ``3.0-5``,  ``3.0-4``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+
+      
+
    
-   :depends biopython: >=1.73
-   :depends blast: >=2.6.0
-   :depends dendropy: >=4.4.0
-   :depends diamond: >=0.9
-   :depends fasttree: >=2.1.8
-   :depends iqtree: >=1.6.6
-   :depends mafft: >=7.310
-   :depends matplotlib-base: >=3.1.0
-   :depends muscle: >=3.8.1551
-   :depends numpy: >=1.15.4
-   :depends pandas: >=0.24.2
-   :depends python: >=3.7
-   :depends raxml: >=8.2.10
-   :depends seaborn: >=0.9.0
-   :depends trimal: >=1.4.1
+   :depends biopython: ``>=1.73``
+   :depends blast: ``>=2.6.0``
+   :depends dendropy: ``>=4.4.0``
+   :depends diamond: ``>=0.9``
+   :depends fasttree: ``>=2.1.8``
+   :depends iqtree: ``>=1.6.6``
+   :depends mafft: ``>=7.310``
+   :depends matplotlib-base: ``>=3.1.0``
+   :depends muscle: ``>=3.8.1551``
+   :depends numpy: ``>=1.15.4``
+   :depends pandas: ``>=0.24.2``
+   :depends python: ``>=3.7``
+   :depends raxml: ``>=8.2.10``
+   :depends seaborn: ``>=0.9.0``
+   :depends trimal: ``>=1.4.1``
    :requirements:
 
    .. rubric:: Installation

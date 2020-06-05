@@ -8,6 +8,7 @@ diapysef
 
 .. conda:recipe:: diapysef
    :replaces_section_title:
+   :noindex:
 
    Analysis\, conversion and visualization of diaPASEF data.
 
@@ -22,7 +23,14 @@ diapysef
 
    |downloads_diapysef| |docker_diapysef|
 
-   :versions: 0.3.5-0
+   :versions:
+      
+      
+
+      ``0.3.5-0``
+
+      
+
    
    :depends matplotlib-base: 
    :depends numpy: 

@@ -8,6 +8,7 @@ perl-text-tabs-wrap
 
 .. conda:recipe:: perl-text-tabs-wrap
    :replaces_section_title:
+   :noindex:
 
    Expand tabs and do simple line wrapping
 
@@ -22,9 +23,16 @@ perl-text-tabs-wrap
 
    |downloads_perl-text-tabs-wrap| |docker_perl-text-tabs-wrap|
 
-   :versions: 2013.0523-1, 2013.0523-0
+   :versions:
+      
+      
+
+      ``2013.0523-1``,  ``2013.0523-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

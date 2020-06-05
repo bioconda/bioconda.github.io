@@ -8,6 +8,7 @@ ditasic
 
 .. conda:recipe:: ditasic
    :replaces_section_title:
+   :noindex:
 
    DiTASiC is designed as a comprehensive approach for abundance estimation and differential abundance assessment of individual taxa in metagenomics samples.
 
@@ -22,14 +23,21 @@ ditasic
 
    |downloads_ditasic| |docker_ditasic|
 
-   :versions: 0.2-0
+   :versions:
+      
+      
+
+      ``0.2-0``
+
+      
+
    
-   :depends biopython: >=1.70
-   :depends kallisto: >=0.43.1
-   :depends libgcc-ng: >=4.9
-   :depends mason: >=2.0.7
-   :depends numpy: >=1.8.0
-   :depends python: >=3.7,<3.8.0a0
+   :depends biopython: ``>=1.70``
+   :depends kallisto: ``>=0.43.1``
+   :depends libgcc-ng: ``>=4.9``
+   :depends mason: ``>=2.0.7``
+   :depends numpy: ``>=1.8.0``
+   :depends python: ``>=3.7,<3.8.0a0``
    :requirements:
 
    .. rubric:: Installation

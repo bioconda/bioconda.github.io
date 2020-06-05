@@ -8,6 +8,7 @@ perl-number-range
 
 .. conda:recipe:: perl-number-range
    :replaces_section_title:
+   :noindex:
 
    Perl extension defining ranges of numbers and testing if a number is found in the range
 
@@ -22,9 +23,16 @@ perl-number-range
 
    |downloads_perl-number-range| |docker_perl-number-range|
 
-   :versions: 0.12-1, 0.12-0
+   :versions:
+      
+      
+
+      ``0.12-1``,  ``0.12-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-extutils-makemaker: 
    :requirements:
 

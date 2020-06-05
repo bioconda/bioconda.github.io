@@ -8,6 +8,7 @@ bioconductor-globalancova
 
 .. conda:recipe:: bioconductor-globalancova
    :replaces_section_title:
+   :noindex:
 
    Global test for groups of variables via model comparisons
 
@@ -23,17 +24,24 @@ bioconductor-globalancova
 
    |downloads_bioconductor-globalancova| |docker_bioconductor-globalancova|
 
-   :versions: 4.6.0-0, 4.4.0-0, 4.2.0-1, 4.0.0-0, 3.48.0-0, 3.46.0-0
+   :versions:
+      
+      
+
+      ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-globaltest: >=5.42.0,<5.43.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-globaltest: ``>=5.42.0,<5.43.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corpcor: 
    :depends r-dendextend: 
    :depends r-vgam: 

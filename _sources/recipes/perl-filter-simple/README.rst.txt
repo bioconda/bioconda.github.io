@@ -8,6 +8,7 @@ perl-filter-simple
 
 .. conda:recipe:: perl-filter-simple/0.91
    :replaces_section_title:
+   :noindex:
 
    Simplified source filtering
 
@@ -22,9 +23,16 @@ perl-filter-simple
 
    |downloads_perl-filter-simple| |docker_perl-filter-simple|
 
-   :versions: 0.91-1, 0.91-0
+   :versions:
+      
+      
+
+      ``0.91-1``,  ``0.91-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

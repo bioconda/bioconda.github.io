@@ -8,6 +8,7 @@ circularmapper
 
 .. conda:recipe:: circularmapper
    :replaces_section_title:
+   :noindex:
 
     A method to improve mappings on circular genomes\, using the BWA mapper.
 
@@ -22,7 +23,14 @@ circularmapper
 
    |downloads_circularmapper| |docker_circularmapper|
 
-   :versions: 1.93.4-1, 1.93.4-0
+   :versions:
+      
+      
+
+      ``1.93.4-1``,  ``1.93.4-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

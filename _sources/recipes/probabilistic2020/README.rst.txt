@@ -8,6 +8,7 @@ probabilistic2020
 
 .. conda:recipe:: probabilistic2020
    :replaces_section_title:
+   :noindex:
 
    Simulates somatic mutations\, and calls statistically significant oncogenes and tumor suppressor genes based on a randomization\-based test
 
@@ -22,16 +23,23 @@ probabilistic2020
 
    |downloads_probabilistic2020| |docker_probabilistic2020|
 
-   :versions: 1.2.3-1, 1.2.3-0
+   :versions:
+      
+      
+
+      ``1.2.3-1``,  ``1.2.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends numpy: >=1.14.6,<2.0a0
-   :depends pandas: >=0.17.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends pandas: ``>=0.17.0``
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends scipy: <1.3.0
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends scipy: ``<1.3.0``
    :requirements:
 
    .. rubric:: Installation

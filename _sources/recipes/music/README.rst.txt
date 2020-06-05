@@ -8,6 +8,7 @@ music
 
 .. conda:recipe:: music
    :replaces_section_title:
+   :noindex:
 
    MUltiScale enrIchment Calling for ChIP\-Seq Datasets
 
@@ -22,9 +23,16 @@ music
 
    |downloads_music| |docker_music|
 
-   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :depends samtools: 
    :requirements:
 

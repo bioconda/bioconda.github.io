@@ -8,6 +8,7 @@ bioconductor-ipac
 
 .. conda:recipe:: bioconductor-ipac
    :replaces_section_title:
+   :noindex:
 
    Identification of Protein Amino acid Clustering
 
@@ -23,11 +24,18 @@ bioconductor-ipac
 
    |downloads_bioconductor-ipac| |docker_bioconductor-ipac|
 
-   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-1, 1.26.0-1, 1.26.0-0, 1.24.2-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-multtest: >=2.44.0,<2.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gdata: 
    :depends r-scatterplot3d: 
    :requirements:

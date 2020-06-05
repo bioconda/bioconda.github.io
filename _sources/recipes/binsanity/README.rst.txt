@@ -8,6 +8,7 @@ binsanity
 
 .. conda:recipe:: binsanity
    :replaces_section_title:
+   :noindex:
 
    Method to cluster contigs based a biphasic method with coverage and composition
 
@@ -22,14 +23,29 @@ binsanity
 
    |downloads_binsanity| |docker_binsanity|
 
-   :versions: 0.4.1-0, 0.3.8-0, 0.3.6-0, 0.3.4-0, 0.3.1-0, 0.2.9.5-0, 0.2.9.4-0, 0.2.9.2-0, 0.2.9.1-0, 0.2.9-0, 0.2.8.2-0, 0.2.7.1-0, 0.2.6.3-0, 0.2.6.1-2, 0.2.6.1-1, 0.2.6.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.4-0</code>,  <code>0.3.1-0</code>,  <code>0.2.9.5-0</code>,  <code>0.2.9.4-0</code>,  <code>0.2.9.2-0</code>,  <code>0.2.9.1-0</code>,  </span></summary>
+      
+
+      ``0.4.1-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.1-0``,  ``0.2.9.5-0``,  ``0.2.9.4-0``,  ``0.2.9.2-0``,  ``0.2.9.1-0``,  ``0.2.9-0``,  ``0.2.8.2-0``,  ``0.2.7.1-0``,  ``0.2.6.3-0``,  ``0.2.6.1-2``,  ``0.2.6.1-1``,  ``0.2.6.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends checkm-genome: 
-   :depends pandas: >=0.13.0
+   :depends pandas: ``>=0.13.0``
    :depends python: 
    :depends scikit-learn: 
-   :depends scipy: >=0.13.0
+   :depends scipy: ``>=0.13.0``
    :depends subread: 
    :requirements:
 

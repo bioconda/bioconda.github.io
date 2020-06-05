@@ -8,6 +8,7 @@ k-slam
 
 .. conda:recipe:: k-slam
    :replaces_section_title:
+   :noindex:
 
    k\-SLAM is a program for alignment based metagenomic analysis of large sets of high\-throughput sequence data.
 
@@ -22,9 +23,16 @@ k-slam
 
    |downloads_k-slam| |docker_k-slam|
 
-   :versions: 1.0-1
+   :versions:
+      
+      
+
+      ``1.0-1``
+
+      
+
    
-   :depends boost: 1.64*
+   :depends boost: ``1.64*``
    :depends libgcc: 
    :requirements:
 

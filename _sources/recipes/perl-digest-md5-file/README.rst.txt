@@ -8,6 +8,7 @@ perl-digest-md5-file
 
 .. conda:recipe:: perl-digest-md5-file
    :replaces_section_title:
+   :noindex:
 
    Perl extension for getting MD5 sums for files and urls.
 
@@ -22,9 +23,16 @@ perl-digest-md5-file
 
    |downloads_perl-digest-md5-file| |docker_perl-digest-md5-file|
 
-   :versions: 0.08-2, 0.08-1, 0.08-0
+   :versions:
+      
+      
+
+      ``0.08-2``,  ``0.08-1``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-digest-md5: 
    :depends perl-libwww-perl: 
    :requirements:

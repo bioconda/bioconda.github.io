@@ -8,6 +8,7 @@ ruby-dna-tools
 
 .. conda:recipe:: ruby-dna-tools
    :replaces_section_title:
+   :noindex:
 
    Various libraries containing useful functions for working with DNA sequences\, written in ruby. Some tools are not specific to DNA.
 
@@ -22,11 +23,18 @@ ruby-dna-tools
 
    |downloads_ruby-dna-tools| |docker_ruby-dna-tools|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends jemalloc: 
    :depends python: 
-   :depends ruby: >=2.4
+   :depends ruby: ``>=2.4``
    :depends zlib: 
    :requirements:
 

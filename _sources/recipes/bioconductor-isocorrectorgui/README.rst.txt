@@ -8,6 +8,7 @@ bioconductor-isocorrectorgui
 
 .. conda:recipe:: bioconductor-isocorrectorgui
    :replaces_section_title:
+   :noindex:
 
    Graphical User Interface for IsoCorrectoR
 
@@ -22,10 +23,17 @@ bioconductor-isocorrectorgui
 
    |downloads_bioconductor-isocorrectorgui| |docker_bioconductor-isocorrectorgui|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
+
+      
+
    
-   :depends bioconductor-isocorrector: >=1.6.0,<1.7.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-isocorrector: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-readxl: 
    :depends r-tcltk2: 
    :requirements:

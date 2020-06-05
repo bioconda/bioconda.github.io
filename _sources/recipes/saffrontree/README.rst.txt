@@ -8,6 +8,7 @@ saffrontree
 
 .. conda:recipe:: saffrontree
    :replaces_section_title:
+   :noindex:
 
    SaffronTree\: Reference free rapid phylogenetic tree construction from raw read data
 
@@ -23,14 +24,21 @@ saffrontree
 
    |downloads_saffrontree| |docker_saffrontree|
 
-   :versions: 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``
+
+      
+
    
    :depends biopython: 
-   :depends dendropy: >=4.1.0
-   :depends kmc: >=2.3.0
+   :depends dendropy: ``>=4.1.0``
+   :depends kmc: ``>=2.3.0``
    :depends libgcc: 
-   :depends pyfastaq: >=3.12.0
-   :depends python: 3.5*
+   :depends pyfastaq: ``>=3.12.0``
+   :depends python: ``3.5*``
    :requirements:
 
    .. rubric:: Installation

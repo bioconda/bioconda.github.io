@@ -8,6 +8,7 @@ boutroslabplottinggeneral
 
 .. conda:recipe:: r-boutroslabplottinggeneral
    :replaces_section_title:
+   :noindex:
 
    
 
@@ -22,11 +23,18 @@ boutroslabplottinggeneral
 
    |downloads_boutroslabplottinggeneral| |docker_boutroslabplottinggeneral|
 
-   :versions: 5.3.4-2, 5.3.4-0
+   :versions:
+      
+      
+
+      ``5.3.4-2``,  ``5.3.4-0``
+
+      
+
    
    :depends r-argparse: 
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bh: 
    :depends r-cluster: 
    :depends r-dbi: 

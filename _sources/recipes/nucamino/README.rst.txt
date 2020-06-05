@@ -8,6 +8,7 @@ nucamino
 
 .. conda:recipe:: nucamino
    :replaces_section_title:
+   :noindex:
 
    A nucleotide to amino acid alignment program optimized for virus gene sequences
 
@@ -22,7 +23,14 @@ nucamino
 
    |downloads_nucamino| |docker_nucamino|
 
-   :versions: 0.1.3-1, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.1.3-1``,  ``0.1.3-0``
+
+      
+
    
    :requirements:
 

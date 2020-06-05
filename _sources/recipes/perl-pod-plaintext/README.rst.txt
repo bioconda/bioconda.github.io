@@ -8,6 +8,7 @@ perl-pod-plaintext
 
 .. conda:recipe:: perl-pod-plaintext/2.07
    :replaces_section_title:
+   :noindex:
 
    Convert POD data to formatted ASCII text
 
@@ -22,9 +23,16 @@ perl-pod-plaintext
 
    |downloads_perl-pod-plaintext| |docker_perl-pod-plaintext|
 
-   :versions: 2.07-1, 2.07-0
+   :versions:
+      
+      
+
+      ``2.07-1``,  ``2.07-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

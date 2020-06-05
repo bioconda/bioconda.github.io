@@ -8,6 +8,7 @@ perl-common-sense
 
 .. conda:recipe:: perl-common-sense
    :replaces_section_title:
+   :noindex:
 
    Sane defaults for Perl programs
 
@@ -22,9 +23,16 @@ perl-common-sense
 
    |downloads_perl-common-sense| |docker_perl-common-sense|
 
-   :versions: 3.74-2, 3.74-1, 3.74-0
+   :versions:
+      
+      
+
+      ``3.74-2``,  ``3.74-1``,  ``3.74-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

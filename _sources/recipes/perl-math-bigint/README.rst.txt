@@ -8,6 +8,7 @@ perl-math-bigint
 
 .. conda:recipe:: perl-math-bigint
    :replaces_section_title:
+   :noindex:
 
    Arbitrary size floating point math package
 
@@ -22,9 +23,16 @@ perl-math-bigint
 
    |downloads_perl-math-bigint| |docker_perl-math-bigint|
 
-   :versions: 1.999816-0, 1.999813-0
+   :versions:
+      
+      
+
+      ``1.999816-0``,  ``1.999813-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-math-complex: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-zebrafishrnaseq
 
 .. conda:recipe:: bioconductor-zebrafishrnaseq
    :replaces_section_title:
+   :noindex:
 
    Zebrafish RNA\-Seq Experimental Data from Ferreira et al. \(2014\)
 
@@ -22,10 +23,17 @@ bioconductor-zebrafishrnaseq
 
    |downloads_bioconductor-zebrafishrnaseq| |docker_bioconductor-zebrafishrnaseq|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

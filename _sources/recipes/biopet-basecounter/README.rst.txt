@@ -8,6 +8,7 @@ biopet-basecounter
 
 .. conda:recipe:: biopet-basecounter
    :replaces_section_title:
+   :noindex:
 
    BaseCounter counts the bases from genes and transcripts and outputs information on the counts in exonic and intronic regions as well as information on the counts on the sense and antisense strands.
 
@@ -27,9 +28,16 @@ biopet-basecounter
 
    |downloads_biopet-basecounter| |docker_biopet-basecounter|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

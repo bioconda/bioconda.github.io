@@ -8,6 +8,7 @@ bioconductor-qsmooth
 
 .. conda:recipe:: bioconductor-qsmooth
    :replaces_section_title:
+   :noindex:
 
    Smooth quantile normalization
 
@@ -22,11 +23,18 @@ bioconductor-qsmooth
 
    |downloads_bioconductor-qsmooth| |docker_bioconductor-qsmooth|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-sva: >=3.36.0,<3.37.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

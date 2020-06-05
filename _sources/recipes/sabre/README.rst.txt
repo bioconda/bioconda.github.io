@@ -8,6 +8,7 @@ sabre
 
 .. conda:recipe:: sabre
    :replaces_section_title:
+   :noindex:
 
    A barcode demultiplexing and trimming tool for FastQ files
 
@@ -37,10 +38,17 @@ sabre
 
    |downloads_sabre| |docker_sabre|
 
-   :versions: 1.000-0
+   :versions:
+      
+      
+
+      ``1.000-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

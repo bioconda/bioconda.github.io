@@ -8,6 +8,7 @@ bioconductor-hgu95c.db
 
 .. conda:recipe:: bioconductor-hgu95c.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix Human Genome U95 Set annotation data \(chip hgu95c\)
 
@@ -22,12 +23,19 @@ bioconductor-hgu95c.db
 
    |downloads_bioconductor-hgu95c.db| |docker_bioconductor-hgu95c.db|
 
-   :versions: 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

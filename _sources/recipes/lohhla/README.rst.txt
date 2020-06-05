@@ -8,6 +8,7 @@ lohhla
 
 .. conda:recipe:: lohhla
    :replaces_section_title:
+   :noindex:
 
    A computational tool to evaluate HLA loss using next\-generation sequencing data.
 
@@ -22,7 +23,14 @@ lohhla
 
    |downloads_lohhla| |docker_lohhla|
 
-   :versions: 20171108-2, 20171108-1, 20171108-0
+   :versions:
+      
+      
+
+      ``20171108-2``,  ``20171108-1``,  ``20171108-0``
+
+      
+
    
    :depends bedtools: 
    :depends bioconductor-biostrings: 
@@ -31,7 +39,7 @@ lohhla
    :depends picard: 
    :depends r-base: 
    :depends r-beeswarm: 
-   :depends r-optparse: <1.6.4
+   :depends r-optparse: ``<1.6.4``
    :depends r-seqinr: 
    :depends r-zoo: 
    :depends samtools: 

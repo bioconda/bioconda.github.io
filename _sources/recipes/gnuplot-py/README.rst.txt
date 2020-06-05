@@ -8,6 +8,7 @@ gnuplot-py
 
 .. conda:recipe:: gnuplot-py
    :replaces_section_title:
+   :noindex:
 
    A Python interface to the gnuplot plotting program.
 
@@ -22,11 +23,18 @@ gnuplot-py
 
    |downloads_gnuplot-py| |docker_gnuplot-py|
 
-   :versions: 1.8-1, 1.8-0
+   :versions:
+      
+      
+
+      ``1.8-1``,  ``1.8-0``
+
+      
+
    
    :depends gnuplot: 
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

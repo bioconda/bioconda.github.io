@@ -8,6 +8,7 @@ r-histonehmm
 
 .. conda:recipe:: r-histonehmm
    :replaces_section_title:
+   :noindex:
 
    histoneHMM is a software to analyse ChIP\-seq data of histone modifications with broad genomic footprints like H3K27me3. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples
 
@@ -23,15 +24,22 @@ r-histonehmm
 
    |downloads_r-histonehmm| |docker_r-histonehmm|
 
-   :versions: 1.8-1, 1.8-0, 1.7.1-1, 1.7.1-0, 1.7-1, 1.7-0, 1.6-1, 1.6-0
+   :versions:
+      
+      
+
+      ``1.8-1``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``
+
+      
+
    
    :depends bioconductor-biocstyle: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mvtnorm: 
    :depends r-optparse: 
    :depends r-rcpp: 

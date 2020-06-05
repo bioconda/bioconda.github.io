@@ -8,6 +8,7 @@ cthreepo
 
 .. conda:recipe:: cthreepo
    :replaces_section_title:
+   :noindex:
 
    A python script to interconvert seq\-ids in gff3\, gtf\, bed and other files.
 
@@ -22,7 +23,14 @@ cthreepo
 
    |downloads_cthreepo| |docker_cthreepo|
 
-   :versions: 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-1``,  ``0.1-0``
+
+      
+
    
    :depends python: 
    :depends requests: 

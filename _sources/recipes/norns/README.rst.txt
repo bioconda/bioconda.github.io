@@ -8,6 +8,7 @@ norns
 
 .. conda:recipe:: norns
    :replaces_section_title:
+   :noindex:
 
    Simple yaml\-based config module
 
@@ -22,7 +23,14 @@ norns
 
    |downloads_norns| |docker_norns|
 
-   :versions: 0.1.5-0, 0.1.4-0, 0.1.2-1, 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-1``,  ``0.1.2-0``
+
+      
+
    
    :depends appdirs: 
    :depends nose: 

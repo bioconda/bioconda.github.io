@@ -8,6 +8,7 @@ bioconductor-rtnduals
 
 .. conda:recipe:: bioconductor-rtnduals
    :replaces_section_title:
+   :noindex:
 
    Analysis of co\-regulation and inference of \'dual regulons\'
 
@@ -22,10 +23,17 @@ bioconductor-rtnduals
 
    |downloads_bioconductor-rtnduals| |docker_bioconductor-rtnduals|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.1-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-rtn: >=2.12.0,<2.13.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rtn: ``>=2.12.0,<2.13.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

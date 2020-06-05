@@ -8,6 +8,7 @@ bioconductor-erccdashboard
 
 .. conda:recipe:: bioconductor-erccdashboard
    :replaces_section_title:
+   :noindex:
 
    Assess Differential Gene Expression Experiments with ERCC Controls
 
@@ -22,15 +23,22 @@ bioconductor-erccdashboard
 
    |downloads_bioconductor-erccdashboard| |docker_bioconductor-erccdashboard|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.1-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-ggplot2: >=2.1.0
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ggplot2: ``>=2.1.0``
    :depends r-gplots: 
-   :depends r-gridextra: >=2.0.0
+   :depends r-gridextra: ``>=2.0.0``
    :depends r-gtools: 
    :depends r-locfit: 
    :depends r-mass: 

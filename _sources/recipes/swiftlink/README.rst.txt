@@ -8,6 +8,7 @@ swiftlink
 
 .. conda:recipe:: swiftlink
    :replaces_section_title:
+   :noindex:
 
    A multipoint parametric linkage analysis tool for large consanguineous pedigrees and is primarily targeted at pedigrees that cannot be analysed by a Lander\-Green algorithm based program\, i.e. many markers\, but larger pedigrees.
 
@@ -22,12 +23,19 @@ swiftlink
 
    |downloads_swiftlink| |docker_swiftlink|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :depends openmp: 
    :requirements:
 

@@ -8,6 +8,7 @@ masurca
 
 .. conda:recipe:: masurca
    :replaces_section_title:
+   :noindex:
 
    MaSuRCA \(Maryland Super\-Read Celera Assembler\) genome assembly software.
    MaSuRCA requires Illumina data\, and supports third\-generation PacBio\/Nanopore
@@ -26,15 +27,30 @@ masurca
 
    |downloads_masurca| |docker_masurca|
 
-   :versions: 3.4.1-0, 3.4.0-0, 3.3.9-0, 3.3.8-0, 3.3.7-0, 3.3.6-0, 3.3.5-0, 3.3.4-0, 3.3.3-0, 3.3.1-0, 3.3.0-0, 3.2.9-0, 3.2.8-0, 3.2.7-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  <code>3.3.7-0</code>,  <code>3.3.6-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  </span></summary>
+      
+
+      ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends bzip2: >=1.0.8,<2.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends grep: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

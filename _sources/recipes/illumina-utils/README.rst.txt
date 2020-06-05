@@ -8,6 +8,7 @@ illumina-utils
 
 .. conda:recipe:: illumina-utils
    :replaces_section_title:
+   :noindex:
 
    A library and collection of scripts to work with Illumina paired\-end data \(for CASAVA 1.8\+\).
 
@@ -22,11 +23,18 @@ illumina-utils
 
    |downloads_illumina-utils| |docker_illumina-utils|
 
-   :versions: 2.7-0, 2.6-0, 2.5-0, 2.4.1-0
+   :versions:
+      
+      
+
+      ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4.1-0``
+
+      
+
    
    :depends matplotlib: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends python-levenshtein: 
    :requirements:
 

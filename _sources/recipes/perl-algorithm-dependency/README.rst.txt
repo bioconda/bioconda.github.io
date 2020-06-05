@@ -8,6 +8,7 @@ perl-algorithm-dependency
 
 .. conda:recipe:: perl-algorithm-dependency
    :replaces_section_title:
+   :noindex:
 
    Base class for implementing various dependency trees
 
@@ -22,9 +23,16 @@ perl-algorithm-dependency
 
    |downloads_perl-algorithm-dependency| |docker_perl-algorithm-dependency|
 
-   :versions: 1.111-0, 1.110-2, 1.110-1, 1.110-0
+   :versions:
+      
+      
+
+      ``1.111-0``,  ``1.110-2``,  ``1.110-1``,  ``1.110-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-params-util: 
    :requirements:
 

@@ -8,6 +8,7 @@ openms-meta
 
 .. conda:recipe:: openms-meta
    :replaces_section_title:
+   :noindex:
 
    OpenMS is an open\-source software C\+\+ library for LC\-MS data management and analyses
 
@@ -23,16 +24,23 @@ openms-meta
 
    |downloads_libopenms| |docker_libopenms|
 
-   :versions: 2.5.0-3, 2.5.0-2, 2.5.0-1, 2.5.0-0, 2.4.0-3
+   :versions:
+      
+      
+
+      ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends qt: >=5.12.5,<5.13.0a0
-   :depends sqlite: >=3.30.1,<4.0a0
-   :depends xerces-c: >=3.2.2,<3.2.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends qt: ``>=5.12.5,<5.13.0a0``
+   :depends sqlite: ``>=3.30.1,<4.0a0``
+   :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,23 +73,38 @@ openms-meta
 
    |downloads_openms| |docker_openms|
 
-   :versions: 2.5.0-3, 2.5.0-2, 2.5.0-1, 2.5.0-0, 2.4.0-1, 2.4.0-0, 2.3.0-3, 2.3.0-2, 2.3.0-1, 2.3.0-0, 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.5.0-3</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-3</code>,  <code>2.3.0-2</code>,  <code>2.3.0-1</code>,  </span></summary>
+      
+
+      ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends coinmp: >=1.8.4,<1.9.0a0
-   :depends eigen: >=3.3.7,<3.4.0a0
-   :depends glpk: >=4.65,<4.66.0a0
-   :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends hdf5: >=1.10.5,<1.11.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libopenms: 2.5.0 h463af6b_3
-   :depends libstdcxx-ng: >=7.5.0
-   :depends libsvm: >=3.21,<3.22.0a0
-   :depends qt: >=5.12.5,<5.13.0a0
-   :depends sqlite: >=3.30.1,<4.0a0
-   :depends xerces-c: >=3.2.2,<3.2.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends coinmp: ``>=1.8.4,<1.9.0a0``
+   :depends eigen: ``>=3.3.7,<3.4.0a0``
+   :depends glpk: ``>=4.65,<4.66.0a0``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends hdf5: ``>=1.10.5,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libopenms: ``2.5.0 h463af6b_3``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libsvm: ``>=3.21,<3.22.0a0``
+   :depends qt: ``>=5.12.5,<5.13.0a0``
+   :depends sqlite: ``>=3.30.1,<4.0a0``
+   :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -114,7 +137,14 @@ openms-meta
 
    |downloads_openms-meta| |docker_openms-meta|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 
@@ -148,22 +178,29 @@ openms-meta
 
    |downloads_openms-thirdparty| |docker_openms-thirdparty|
 
-   :versions: 2.5.0-3, 2.5.0-2, 2.5.0-1, 2.5.0-0
+   :versions:
+      
+      
+
+      ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+
+      
+
    
-   :depends bumbershoot: 3_0_11579
-   :depends comet-ms: 2016013
-   :depends crux-toolkit: 3.2
-   :depends fido: 1.0
+   :depends bumbershoot: ``3_0_11579``
+   :depends comet-ms: ``2016013``
+   :depends crux-toolkit: ``3.2``
+   :depends fido: ``1.0``
    :depends gnuplot: 
-   :depends luciphor2: 2018_06_28
-   :depends msgf_plus: 2017.07.21
-   :depends omssa: 2.1.9
-   :depends openms: 2.5.0 h463af6b_3
-   :depends pepnovo: 20101117
-   :depends percolator: 3.4
-   :depends sirius-csifingerid: 4.0.1
-   :depends thermorawfileparser: 1.2.3
-   :depends xtandem: 15.12.15.2
+   :depends luciphor2: ``2018_06_28``
+   :depends msgf_plus: ``2017.07.21``
+   :depends omssa: ``2.1.9``
+   :depends openms: ``2.5.0 h463af6b_3``
+   :depends pepnovo: ``20101117``
+   :depends percolator: ``3.4``
+   :depends sirius-csifingerid: ``4.0.1``
+   :depends thermorawfileparser: ``1.2.3``
+   :depends xtandem: ``15.12.15.2``
    :requirements:
 
    .. rubric:: Installation
@@ -196,26 +233,33 @@ openms-meta
 
    |downloads_pyopenms| |docker_pyopenms|
 
-   :versions: 2.5.0-3, 2.5.0-2, 2.5.0-1, 2.5.0-0, 2.4.0-3, 2.4.0-0
+   :versions:
+      
+      
+
+      ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+
+      
+
    
-   :depends boost: >=1.70.0,<1.70.1.0a0
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends coinmp: >=1.8.4,<1.9.0a0
-   :depends eigen: >=3.3.7,<3.4.0a0
-   :depends glpk: >=4.65,<4.66.0a0
-   :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends hdf5: >=1.10.5,<1.11.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libopenms: 2.5.0 h463af6b_3
-   :depends libstdcxx-ng: >=7.5.0
-   :depends libsvm: >=3.21,<3.22.0a0
+   :depends boost: ``>=1.70.0,<1.70.1.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends coinmp: ``>=1.8.4,<1.9.0a0``
+   :depends eigen: ``>=3.3.7,<3.4.0a0``
+   :depends glpk: ``>=4.65,<4.66.0a0``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends hdf5: ``>=1.10.5,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libopenms: ``2.5.0 h463af6b_3``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libsvm: ``>=3.21,<3.22.0a0``
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0 *_cpython
-   :depends python_abi: 3.6.* *_cp36m
-   :depends qt: >=5.12.5,<5.13.0a0
-   :depends sqlite: >=3.30.1,<4.0a0
-   :depends xerces-c: >=3.2.2,<3.2.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python: ``>=3.6,<3.7.0a0 *_cpython``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends qt: ``>=5.12.5,<5.13.0a0``
+   :depends sqlite: ``>=3.30.1,<4.0a0``
+   :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-isocorrector
 
 .. conda:recipe:: bioconductor-isocorrector
    :replaces_section_title:
+   :noindex:
 
    Correction for natural isotope abundance and tracer purity in MS and MS\/MS data from stable isotope labeling experiments
 
@@ -22,9 +23,16 @@ bioconductor-isocorrector
 
    |downloads_bioconductor-isocorrector| |docker_bioconductor-isocorrector|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.1-0, 1.2.0-0, 1.0.5-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.5-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
    :depends r-pracma: 

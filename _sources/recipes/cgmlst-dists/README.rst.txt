@@ -8,6 +8,7 @@ cgmlst-dists
 
 .. conda:recipe:: cgmlst-dists
    :replaces_section_title:
+   :noindex:
 
    Convert cgMLST table to distance matrix
 
@@ -22,9 +23,16 @@ cgmlst-dists
 
    |downloads_cgmlst-dists| |docker_cgmlst-dists|
 
-   :versions: 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

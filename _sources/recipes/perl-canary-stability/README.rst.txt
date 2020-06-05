@@ -8,6 +8,7 @@ perl-canary-stability
 
 .. conda:recipe:: perl-canary-stability
    :replaces_section_title:
+   :noindex:
 
    canary to check perl compatibility for schmorp\'s modules
 
@@ -22,9 +23,16 @@ perl-canary-stability
 
    |downloads_perl-canary-stability| |docker_perl-canary-stability|
 
-   :versions: 2013-0, 2012-0, 2006-0
+   :versions:
+      
+      
+
+      ``2013-0``,  ``2012-0``,  ``2006-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

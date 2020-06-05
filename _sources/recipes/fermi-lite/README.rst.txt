@@ -8,6 +8,7 @@ fermi-lite
 
 .. conda:recipe:: fermi-lite
    :replaces_section_title:
+   :noindex:
 
    Fermi\-lite is a standalone C library as well as a command\-line tool for assembling Illumina short reads in regions from 100bp to 10 million bp in size.
 
@@ -22,10 +23,17 @@ fermi-lite
 
    |downloads_fermi-lite| |docker_fermi-lite|
 
-   :versions: 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

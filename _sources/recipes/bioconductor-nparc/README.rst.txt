@@ -8,6 +8,7 @@ bioconductor-nparc
 
 .. conda:recipe:: bioconductor-nparc
    :replaces_section_title:
+   :noindex:
 
    Non\-parametric analysis of response curves for thermal proteome profiling experiments
 
@@ -22,10 +23,17 @@ bioconductor-nparc
 
    |downloads_bioconductor-nparc| |docker_bioconductor-nparc|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-broom: 
    :depends r-dplyr: 
    :depends r-magrittr: 

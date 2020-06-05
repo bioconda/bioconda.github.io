@@ -8,6 +8,7 @@ phylopandas
 
 .. conda:recipe:: phylopandas
    :replaces_section_title:
+   :noindex:
 
    Pandas for phylogenetics
 
@@ -22,13 +23,20 @@ phylopandas
 
    |downloads_phylopandas| |docker_phylopandas|
 
-   :versions: 0.8.0-0, 0.7.4-0, 0.7.3-0, 0.7.2-0, 0.7.1-0, 0.1.4-1, 0.1.4-0, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``
+
+      
+
    
    :depends biopython: 
    :depends dendropy: 
    :depends pandas: 
    :depends pandas-flavor: 
-   :depends python: >3
+   :depends python: ``>3``
    :requirements:
 
    .. rubric:: Installation

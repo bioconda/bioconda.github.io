@@ -8,6 +8,7 @@ perl-git-wrapper
 
 .. conda:recipe:: perl-git-wrapper
    :replaces_section_title:
+   :noindex:
 
    Wrap git\(7\) command\-line interface
 
@@ -22,9 +23,16 @@ perl-git-wrapper
 
    |downloads_perl-git-wrapper| |docker_perl-git-wrapper|
 
-   :versions: 0.048-0, 0.047-1, 0.047-0
+   :versions:
+      
+      
+
+      ``0.048-0``,  ``0.047-1``,  ``0.047-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-file-chdir: 
    :depends perl-file-temp: 
    :depends perl-ipc-cmd: 

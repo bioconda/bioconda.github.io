@@ -8,6 +8,7 @@ mvicuna
 
 .. conda:recipe:: mvicuna
    :replaces_section_title:
+   :noindex:
 
    M\-Vicuna is a modularized version of VICUNA\, a de novo assembly program targeting populations with high mutation rates
 
@@ -22,9 +23,16 @@ mvicuna
 
    |downloads_mvicuna| |docker_mvicuna|
 
-   :versions: 1.0-5, 1.0-4, 1.0-1
+   :versions:
+      
+      
+
+      ``1.0-5``,  ``1.0-4``,  ``1.0-1``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

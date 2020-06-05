@@ -8,6 +8,7 @@ centreseq
 
 .. conda:recipe:: centreseq
    :replaces_section_title:
+   :noindex:
 
    Fast generation of core genome from bacterial strains
 
@@ -23,20 +24,27 @@ centreseq
 
    |downloads_centreseq| |docker_centreseq|
 
-   :versions: 0.3.8-0, 0.3.0-0, v0.2.3-0
+   :versions:
+      
+      
+
+      ``0.3.8-0``,  ``0.3.0-0``,  ``v0.2.3-0``
+
+      
+
    
-   :depends biopython: >=1.74
-   :depends click: >=7.0
-   :depends mmseqs2: 9-d36de
+   :depends biopython: ``>=1.74``
+   :depends click: ``>=7.0``
+   :depends mmseqs2: ``9-d36de``
    :depends muscle: 
-   :depends pandas: >=0.24.0
+   :depends pandas: ``>=0.24.0``
    :depends prokka: 
-   :depends pytest: >=5.0.1
-   :depends python: >=3.7
-   :depends scipy: >=1.1
-   :depends seaborn: >=0.9.0
-   :depends tqdm: >=4.39.0
-   :depends xlsxwriter: >=1.1.8
+   :depends pytest: ``>=5.0.1``
+   :depends python: ``>=3.7``
+   :depends scipy: ``>=1.1``
+   :depends seaborn: ``>=0.9.0``
+   :depends tqdm: ``>=4.39.0``
+   :depends xlsxwriter: ``>=1.1.8``
    :requirements:
 
    .. rubric:: Installation

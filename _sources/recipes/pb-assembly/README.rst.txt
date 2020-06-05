@@ -8,6 +8,7 @@ pb-assembly
 
 .. conda:recipe:: pb-assembly
    :replaces_section_title:
+   :noindex:
 
    Meta\-package for Falcon\/Unzip tool\-suite \(originally by Jason Chin\)
 
@@ -22,7 +23,22 @@ pb-assembly
 
    |downloads_pb-assembly| |docker_pb-assembly|
 
-   :versions: 0.0.8-0, 0.0.7-0, 0.0.6-7, 0.0.6-6, 0.0.6-5, 0.0.5-2, 0.0.5-1, 0.0.4-6, 0.0.4-5, 0.0.4-4, 0.0.4-3, 0.0.4-2, 0.0.3-2, 0.0.3-1, 0.0.2-0, 0.0.1-0, 0.0.0-8, 0.0.0-7, 0.0.0-6, 0.0.0-5, 0.0.0-4, 0.0.0-3
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-7</code>,  <code>0.0.6-6</code>,  <code>0.0.6-5</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.4-6</code>,  <code>0.0.4-5</code>,  </span></summary>
+      
+
+      ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-7``,  ``0.0.6-6``,  ``0.0.6-5``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.4-6``,  ``0.0.4-5``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.2-0``,  ``0.0.1-0``,  ``0.0.0-8``,  ``0.0.0-7``,  ``0.0.0-6``,  ``0.0.0-5``,  ``0.0.0-4``,  ``0.0.0-3``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedtools: 
    :depends blasr: 
@@ -31,7 +47,7 @@ pb-assembly
    :depends mummer4: 
    :depends nim-falcon: 
    :depends pb-dazzler: 
-   :depends pb-falcon: >=2.2.2
+   :depends pb-falcon: ``>=2.2.2``
    :depends pb-falcon-phase: 
    :depends pbgcpp: 
    :depends pbmm2: 

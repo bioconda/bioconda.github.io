@@ -8,6 +8,7 @@ bioconductor-fantom3and4cage
 
 .. conda:recipe:: bioconductor-fantom3and4cage
    :replaces_section_title:
+   :noindex:
 
    CAGE data from FANTOM3 and FANTOM4 projects
 
@@ -22,10 +23,17 @@ bioconductor-fantom3and4cage
 
    |downloads_bioconductor-fantom3and4cage| |docker_bioconductor-fantom3and4cage|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

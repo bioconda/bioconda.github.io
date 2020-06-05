@@ -8,6 +8,7 @@ pbdagcon
 
 .. conda:recipe:: pbdagcon
    :replaces_section_title:
+   :noindex:
 
    A sequence consensus algorithm implementation based on using directed acyclic graphs to encode multiple sequence alignment
 
@@ -22,7 +23,14 @@ pbdagcon
 
    |downloads_pbdagcon| |docker_pbdagcon|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
    :depends blasr_libcpp: 
    :depends daligner: 

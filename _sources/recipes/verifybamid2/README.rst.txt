@@ -8,6 +8,7 @@ verifybamid2
 
 .. conda:recipe:: verifybamid2
    :replaces_section_title:
+   :noindex:
 
    A robust tool for DNA contamination estimation from sequence reads using ancestry\-agnostic method.
 
@@ -22,16 +23,23 @@ verifybamid2
 
    |downloads_verifybamid2| |docker_verifybamid2|
 
-   :versions: 1.0.6-0, 1.0.5-3, 1.0.5-2, 1.0.5-0, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.4-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends curl: >=7.64.1,<8.0a0
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openssl: >=1.1.1a,<1.1.2a
-   :depends xz: >=5.2.4,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends curl: ``>=7.64.1,<8.0a0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openssl: ``>=1.1.1a,<1.1.2a``
+   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

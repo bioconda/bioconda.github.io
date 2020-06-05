@@ -8,6 +8,7 @@ perl-specio
 
 .. conda:recipe:: perl-specio
    :replaces_section_title:
+   :noindex:
 
    Type constraints and coercions for Perl
 
@@ -22,9 +23,16 @@ perl-specio
 
    |downloads_perl-specio| |docker_perl-specio|
 
-   :versions: 0.43-0, 0.42-0
+   :versions:
+      
+      
+
+      ``0.43-0``,  ``0.42-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-devel-stacktrace: 
    :depends perl-eval-closure: 

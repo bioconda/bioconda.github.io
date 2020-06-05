@@ -8,6 +8,7 @@ bioconductor-spacepac
 
 .. conda:recipe:: bioconductor-spacepac
    :replaces_section_title:
+   :noindex:
 
    Identification of Mutational Clusters in 3D Protein Space via Simulation.
 
@@ -23,10 +24,17 @@ bioconductor-spacepac
 
    |downloads_bioconductor-spacepac| |docker_bioconductor-spacepac|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.3-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.3-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-ipac: >=1.32.0,<1.33.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ipac: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

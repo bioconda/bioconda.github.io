@@ -8,6 +8,7 @@ outrigger
 
 .. conda:recipe:: outrigger
    :replaces_section_title:
+   :noindex:
 
    Outrigger detects \*de novo\* exons and quantifies their percent spliced\-in
 
@@ -22,17 +23,24 @@ outrigger
 
    |downloads_outrigger| |docker_outrigger|
 
-   :versions: 1.1.1-1, 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-1``,  ``1.1.1-0``
+
+      
+
    
    :depends biopython: 
    :depends coverage: 
-   :depends gffutils: >=0.8.7.1
+   :depends gffutils: ``>=0.8.7.1``
    :depends graphlite: 
    :depends joblib: 
-   :depends pandas: >=0.17.0
+   :depends pandas: ``>=0.17.0``
    :depends pybedtools: 
    :depends pysam: 
-   :depends pytest: >=3.0.0
+   :depends pytest: ``>=3.0.0``
    :depends python: 
    :requirements:
 

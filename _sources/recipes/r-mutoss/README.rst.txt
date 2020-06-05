@@ -8,6 +8,7 @@ r-mutoss
 
 .. conda:recipe:: r-mutoss
    :replaces_section_title:
+   :noindex:
 
    Designed to ease the application and comparison of multiple hypothesis testing procedures for FWER\, gFWER\, FDR and FDX. Methods are  standardized and usable by the accompanying \'mutossGUI\'.
 
@@ -22,11 +23,18 @@ r-mutoss
 
    |downloads_r-mutoss| |docker_r-mutoss|
 
-   :versions: 0.1_12-3, 0.1_12-2, 0.1_12-1, 0.1_12-0, 0.1_10-0
+   :versions:
+      
+      
+
+      ``0.1_12-3``,  ``0.1_12-2``,  ``0.1_12-1``,  ``0.1_12-0``,  ``0.1_10-0``
+
+      
+
    
-   :depends bioconductor-multtest: >=2.2.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-multcomp: >=1.1_0
+   :depends bioconductor-multtest: ``>=2.2.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-multcomp: ``>=1.1_0``
    :depends r-mvtnorm: 
    :depends r-plotrix: 
    :requirements:

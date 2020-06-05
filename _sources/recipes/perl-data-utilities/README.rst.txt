@@ -8,6 +8,7 @@ perl-data-utilities
 
 .. conda:recipe:: perl-data-utilities/0.04
    :replaces_section_title:
+   :noindex:
 
    recursively compare Perl datatypes
 
@@ -22,9 +23,16 @@ perl-data-utilities
 
    |downloads_perl-data-utilities| |docker_perl-data-utilities|
 
-   :versions: 0.04-1, 0.04-0
+   :versions:
+      
+      
+
+      ``0.04-1``,  ``0.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-clone: 
    :requirements:
 

@@ -8,6 +8,7 @@ porechop
 
 .. conda:recipe:: porechop
    :replaces_section_title:
+   :noindex:
 
    Adapter removal and demultiplexing of Oxford Nanopore reads
 
@@ -22,12 +23,19 @@ porechop
 
    |downloads_porechop| |docker_porechop|
 
-   :versions: 0.2.4-0, 0.2.3_seqan2.1.1-3, 0.2.3_seqan2.1.1-2, 0.2.3_seqan2.1.1-1, 0.2.3_seqan2.1.1-0
+   :versions:
+      
+      
+
+      ``0.2.4-0``,  ``0.2.3_seqan2.1.1-3``,  ``0.2.3_seqan2.1.1-2``,  ``0.2.3_seqan2.1.1-1``,  ``0.2.3_seqan2.1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

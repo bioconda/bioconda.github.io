@@ -8,6 +8,7 @@ deploid
 
 .. conda:recipe:: deploid
    :replaces_section_title:
+   :noindex:
 
    A software that deconvolutes mixed genomes with unknown proportions.
 
@@ -23,9 +24,16 @@ deploid
 
    |downloads_deploid| |docker_deploid|
 
-   :versions: v0.5-1, v0.5-0
+   :versions:
+      
+      
+
+      ``v0.5-1``,  ``v0.5-0``
+
+      
+
    
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

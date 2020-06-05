@@ -8,6 +8,7 @@ variant_tools
 
 .. conda:recipe:: variant_tools
    :replaces_section_title:
+   :noindex:
 
    Integrated annotation and analysis of next gen sequencing data
 
@@ -22,22 +23,29 @@ variant_tools
 
    |downloads_variant_tools| |docker_variant_tools|
 
-   :versions: 3.1.3-0, 3.1.2-0, 3.1.1-0, 3.1.0-0, 3.0.9-0, 3.0.8-0
+   :versions:
+      
+      
+
+      ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.9-0``,  ``3.0.8-0``
+
+      
+
    
-   :depends blosc: >=1.18.1,<2.0a0
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends blosc: ``>=1.18.1,<2.0a0``
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pycurl: 
    :depends pytables: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends pyzmq: 
    :depends scipy: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

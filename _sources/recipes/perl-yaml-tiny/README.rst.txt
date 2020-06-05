@@ -8,6 +8,7 @@ perl-yaml-tiny
 
 .. conda:recipe:: perl-yaml-tiny
    :replaces_section_title:
+   :noindex:
 
    Read\/Write YAML files with as little code as possible
 
@@ -22,9 +23,16 @@ perl-yaml-tiny
 
    |downloads_perl-yaml-tiny| |docker_perl-yaml-tiny|
 
-   :versions: 1.73-0, 1.70-1, 1.70-0
+   :versions:
+      
+      
+
+      ``1.73-0``,  ``1.70-1``,  ``1.70-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

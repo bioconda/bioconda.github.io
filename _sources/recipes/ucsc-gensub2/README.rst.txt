@@ -8,6 +8,7 @@ ucsc-gensub2
 
 .. conda:recipe:: ucsc-gensub2
    :replaces_section_title:
+   :noindex:
 
    version 12.18
 
@@ -22,14 +23,21 @@ ucsc-gensub2
 
    |downloads_ucsc-gensub2| |docker_ucsc-gensub2|
 
-   :versions: 377-0, 366-0
+   :versions:
+      
+      
+
+      ``377-0``,  ``366-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libpng: >=1.6.35,<1.7.0a0
-   :depends libuuid: >=2.32.1,<3.0a0
-   :depends mysql-connector-c: >=6.1.11,<6.1.12.0a0
-   :depends openssl: >=1.0.2p,<1.0.3a
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libpng: ``>=1.6.35,<1.7.0a0``
+   :depends libuuid: ``>=2.32.1,<3.0a0``
+   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends openssl: ``>=1.0.2p,<1.0.3a``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

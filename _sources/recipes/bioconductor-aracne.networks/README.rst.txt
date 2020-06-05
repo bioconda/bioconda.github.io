@@ -8,6 +8,7 @@ bioconductor-aracne.networks
 
 .. conda:recipe:: bioconductor-aracne.networks
    :replaces_section_title:
+   :noindex:
 
    ARACNe\-inferred gene networks from TCGA tumor datasets
 
@@ -22,11 +23,18 @@ bioconductor-aracne.networks
 
    |downloads_bioconductor-aracne.networks| |docker_bioconductor-aracne.networks|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-viper: >=1.22.0,<1.23.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-viper: ``>=1.22.0,<1.23.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

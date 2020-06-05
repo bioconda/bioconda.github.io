@@ -8,6 +8,7 @@ gifrop
 
 .. conda:recipe:: gifrop
    :replaces_section_title:
+   :noindex:
 
    Identify\, classify\, and cluster genomic islands from roary pangenomes
 
@@ -22,14 +23,21 @@ gifrop
 
    |downloads_gifrop| |docker_gifrop|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
-   :depends abricate: >=1.0.0
+   :depends abricate: ``>=1.0.0``
    :depends bioconductor-biostrings: 
    :depends bioconductor-bsgenome: 
    :depends parallel: 
-   :depends prokka: >=1.14.6
-   :depends r-base: >=3.6
+   :depends prokka: ``>=1.14.6``
+   :depends r-base: ``>=3.6``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-igraph: 
@@ -38,7 +46,7 @@ gifrop
    :depends r-readr: 
    :depends r-tibble: 
    :depends r-tidyr: 
-   :depends roary: >=3.13.0
+   :depends roary: ``>=3.13.0``
    :requirements:
 
    .. rubric:: Installation

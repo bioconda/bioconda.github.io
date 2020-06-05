@@ -8,6 +8,7 @@ cnvnator
 
 .. conda:recipe:: cnvnator
    :replaces_section_title:
+   :noindex:
 
    Tool for calling copy number variations.
 
@@ -22,12 +23,19 @@ cnvnator
 
    |downloads_cnvnator| |docker_cnvnator|
 
-   :versions: 0.4.1-0
+   :versions:
+      
+      
+
+      ``0.4.1-0``
+
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.3.0
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends root: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

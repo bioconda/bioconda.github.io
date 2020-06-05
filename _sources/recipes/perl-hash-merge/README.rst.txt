@@ -8,6 +8,7 @@ perl-hash-merge
 
 .. conda:recipe:: perl-hash-merge
    :replaces_section_title:
+   :noindex:
 
    Merges arbitrarily deep hashes into a single hash
 
@@ -22,9 +23,16 @@ perl-hash-merge
 
    |downloads_perl-hash-merge| |docker_perl-hash-merge|
 
-   :versions: 0.300-0, 0.200-1, 0.200-0
+   :versions:
+      
+      
+
+      ``0.300-0``,  ``0.200-1``,  ``0.200-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-clone-choose: 
    :requirements:
 

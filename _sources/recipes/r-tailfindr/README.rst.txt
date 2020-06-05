@@ -8,6 +8,7 @@ r-tailfindr
 
 .. conda:recipe:: r-tailfindr
    :replaces_section_title:
+   :noindex:
 
    An R package for estimating poly\(A\)\-tail lengths in Oxford Nanopore RNA and DNA reads.
 
@@ -22,13 +23,20 @@ r-tailfindr
 
    |downloads_r-tailfindr| |docker_r-tailfindr|
 
-   :versions: 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``
+
+      
+
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cli: 
    :depends r-crayon: 
    :depends r-data.table: 

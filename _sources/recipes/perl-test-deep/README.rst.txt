@@ -8,6 +8,7 @@ perl-test-deep
 
 .. conda:recipe:: perl-test-deep
    :replaces_section_title:
+   :noindex:
 
    Extremely flexible deep comparison
 
@@ -22,9 +23,16 @@ perl-test-deep
 
    |downloads_perl-test-deep| |docker_perl-test-deep|
 
-   :versions: 1.128-1, 1.128-0, 1.120-3, 1.120-2, 1.120-1
+   :versions:
+      
+      
+
+      ``1.128-1``,  ``1.128-0``,  ``1.120-3``,  ``1.120-2``,  ``1.120-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

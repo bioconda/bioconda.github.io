@@ -8,6 +8,7 @@ perl-libxml-perl
 
 .. conda:recipe:: perl-libxml-perl
    :replaces_section_title:
+   :noindex:
 
    Perl SAX parser using nsgmls
 
@@ -22,9 +23,16 @@ perl-libxml-perl
 
    |downloads_perl-libxml-perl| |docker_perl-libxml-perl|
 
-   :versions: 0.08-2, 0.08-1, 0.08-0
+   :versions:
+      
+      
+
+      ``0.08-2``,  ``0.08-1``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xml-parser: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-sqldataframe
 
 .. conda:recipe:: bioconductor-sqldataframe
    :replaces_section_title:
+   :noindex:
 
    Representation of SQL database in DataFrame metaphor
 
@@ -22,14 +23,21 @@ bioconductor-sqldataframe
 
    |downloads_bioconductor-sqldataframe| |docker_bioconductor-sqldataframe|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
-   :depends r-dbplyr: >=1.4.0
-   :depends r-dplyr: >=0.8.0.1
+   :depends r-dbplyr: ``>=1.4.0``
+   :depends r-dplyr: ``>=0.8.0.1``
    :depends r-lazyeval: 
    :depends r-rsqlite: 
    :depends r-tibble: 

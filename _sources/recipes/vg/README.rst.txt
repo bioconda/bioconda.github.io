@@ -8,6 +8,7 @@ vg
 
 .. conda:recipe:: vg
    :replaces_section_title:
+   :noindex:
 
    Variation graph data structures\, interchange formats\, alignment\, genotyping\, and variant calling methods
 
@@ -22,7 +23,14 @@ vg
 
    |downloads_vg| |docker_vg|
 
-   :versions: 1.24.0-0, 1.23.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.23.0-0``
+
+      
+
    
    :requirements:
 

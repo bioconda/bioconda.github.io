@@ -8,6 +8,7 @@ gaas
 
 .. conda:recipe:: gaas
    :replaces_section_title:
+   :noindex:
 
    Suite of tools related to Genome Assembly Annotation Service tasks at NBIS.
 
@@ -22,12 +23,19 @@ gaas
 
    |downloads_gaas| |docker_gaas|
 
-   :versions: 1.2.0-0, 1.1.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``
+
+      
+
    
    :depends libdb: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-eutilities: 
-   :depends perl-bioperl: >=1.7
+   :depends perl-bioperl: ``>=1.7``
    :depends perl-clone: 
    :depends perl-extutils-makemaker: 
    :depends perl-file-share: 
@@ -36,7 +44,7 @@ gaas
    :depends perl-lwp-simple: 
    :depends perl-sort-naturally: 
    :depends perl-statistics-r: 
-   :depends r-base: >=3.5,<3.6.0a0
+   :depends r-base: ``>=3.5,<3.6.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-mirsponger
 
 .. conda:recipe:: bioconductor-mirsponger
    :replaces_section_title:
+   :noindex:
 
    Identification and analysis of miRNA sponge interaction networks and modules
 
@@ -22,17 +23,24 @@ bioconductor-mirsponger
 
    |downloads_bioconductor-mirsponger| |docker_bioconductor-mirsponger|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.1-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-0``
+
+      
+
    
-   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
-   :depends bioconductor-dose: >=3.14.0,<3.15.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-reactomepa: >=1.32.0,<1.33.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-reactomepa: ``>=1.32.0,<1.33.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corpcor: 
    :depends r-igraph: 
    :depends r-linkcomm: 

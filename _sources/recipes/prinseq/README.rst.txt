@@ -8,6 +8,7 @@ prinseq
 
 .. conda:recipe:: prinseq
    :replaces_section_title:
+   :noindex:
 
    PRINSEQ can be used to filter\, reformat\, or trim your genomic and metagenomic sequence data
 
@@ -22,7 +23,14 @@ prinseq
 
    |downloads_prinseq| |docker_prinseq|
 
-   :versions: 0.20.4-4, 0.20.4-3, 0.20.4-2, 0.20.4-1, 0.20.4-0
+   :versions:
+      
+      
+
+      ``0.20.4-4``,  ``0.20.4-3``,  ``0.20.4-2``,  ``0.20.4-1``,  ``0.20.4-0``
+
+      
+
    
    :depends perl: 
    :requirements:

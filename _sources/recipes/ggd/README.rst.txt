@@ -8,6 +8,7 @@ ggd
 
 .. conda:recipe:: ggd
    :replaces_section_title:
+   :noindex:
 
    GoGetData \(GGD\) is a genomic data managment system. It provide simple and reproducible access to a repository of genomic data. Simply put\, it is \'Conda\' for genomic data
 
@@ -22,16 +23,23 @@ ggd
 
    |downloads_ggd| |docker_ggd|
 
-   :versions: 0.1.2-0, 0.1.1-1, 0.1.1-0, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
    :depends check-sort-order: 
-   :depends conda: 4.7.12.*
-   :depends conda-build: 3.18.11.*
+   :depends conda: ``4.7.12.*``
+   :depends conda-build: ``3.18.11.*``
    :depends future: 
    :depends fuzzywuzzy: 
    :depends git: 
    :depends gitpython: 
-   :depends gsort: >=0.1.3
+   :depends gsort: ``>=0.1.3``
    :depends htslib: 
    :depends krb5: 
    :depends oyaml: 
@@ -40,11 +48,11 @@ ggd
    :depends python: 
    :depends python-levenshtein: 
    :depends pyyaml: 
-   :depends requests: >=2.20.0
+   :depends requests: ``>=2.20.0``
    :depends ripgrep: 
    :depends samtools: 
    :depends wget: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

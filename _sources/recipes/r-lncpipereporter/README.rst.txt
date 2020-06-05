@@ -8,6 +8,7 @@ r-lncpipereporter
 
 .. conda:recipe:: r-lncpipereporter
    :replaces_section_title:
+   :noindex:
 
    Automatically Aggregating and Summarizing lncRNA Analysis Results for Interactive Report
 
@@ -22,13 +23,20 @@ r-lncpipereporter
 
    |downloads_r-lncpipereporter| |docker_r-lncpipereporter|
 
-   :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
-   :depends bioconductor-deseq2: 1.20.0.*
+   :depends bioconductor-deseq2: ``1.20.0.*``
    :depends bioconductor-edger: 
    :depends bioconductor-noiseq: 
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-devtools: 

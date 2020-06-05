@@ -8,6 +8,7 @@ perl-soap-lite
 
 .. conda:recipe:: perl-soap-lite
    :replaces_section_title:
+   :noindex:
 
    Perl\'s Web Services Toolkit
 
@@ -22,9 +23,16 @@ perl-soap-lite
 
    |downloads_perl-soap-lite| |docker_perl-soap-lite|
 
-   :versions: 1.19-1, 1.19-0
+   :versions:
+      
+      
+
+      ``1.19-1``,  ``1.19-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-class-inspector: 
    :depends perl-io-sessiondata: 
    :depends perl-io-socket-ssl: 

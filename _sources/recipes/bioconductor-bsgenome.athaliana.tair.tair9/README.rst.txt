@@ -8,6 +8,7 @@ bioconductor-bsgenome.athaliana.tair.tair9
 
 .. conda:recipe:: bioconductor-bsgenome.athaliana.tair.tair9
    :replaces_section_title:
+   :noindex:
 
    Full genome sequences for Arabidopsis thaliana \(TAIR9\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.athaliana.tair.tair9
 
    |downloads_bioconductor-bsgenome.athaliana.tair.tair9| |docker_bioconductor-bsgenome.athaliana.tair.tair9|
 
-   :versions: 1.3.1000-4, 1.3.1000-3, 1.3.1000-2, 1.3.1000-0
+   :versions:
+      
+      
+
+      ``1.3.1000-4``,  ``1.3.1000-3``,  ``1.3.1000-2``,  ``1.3.1000-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

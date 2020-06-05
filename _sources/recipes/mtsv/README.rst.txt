@@ -8,6 +8,7 @@ mtsv
 
 .. conda:recipe:: mtsv
    :replaces_section_title:
+   :noindex:
 
    MTSv is a suite of metagenomic binning and analysis tools.
 
@@ -22,7 +23,14 @@ mtsv
 
    |downloads_mtsv| |docker_mtsv|
 
-   :versions: 1.0.6-1, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+
+      
+
    
    :depends biopython: 
    :depends bwa: 
@@ -30,20 +38,20 @@ mtsv
    :depends concoct: 
    :depends ete3: 
    :depends gsl: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends megahit: 
    :depends mtsv-tools: 
    :depends numpy: 
-   :depends pandas: >=0.20.3
-   :depends python: >=3.6,<3.7.0a0
+   :depends pandas: ``>=0.20.3``
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends pyyaml: 
    :depends samtools: 
    :depends scipy: 
    :depends six: 
-   :depends snakemake: >=4.1.0
+   :depends snakemake: ``>=4.1.0``
    :depends wgfast: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

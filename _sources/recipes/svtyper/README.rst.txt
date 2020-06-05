@@ -8,6 +8,7 @@ svtyper
 
 .. conda:recipe:: svtyper
    :replaces_section_title:
+   :noindex:
 
    Bayesian genotyper for structural variants
 
@@ -22,12 +23,27 @@ svtyper
 
    |downloads_svtyper| |docker_svtyper|
 
-   :versions: 0.7.1-0, 0.7.0-1, 0.7.0-0, 0.6.1-1, 0.6.1-0, 0.1.4-0, 0.1.1-0, 0.0.4-0, 0.0.2-4, 0.0.2-3
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.1.4-0</code>,  <code>0.1.1-0</code>,  <code>0.0.4-0</code>,  <code>0.0.2-4</code>,  </span></summary>
+      
+
+      ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.1.4-0``,  ``0.1.1-0``,  ``0.0.4-0``,  ``0.0.2-4``,  ``0.0.2-3``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends cytoolz: >=0.8.2
+   :depends cytoolz: ``>=0.8.2``
    :depends numpy: 
-   :depends pysam: >=0.15.0
-   :depends python: <3
+   :depends pysam: ``>=0.15.0``
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

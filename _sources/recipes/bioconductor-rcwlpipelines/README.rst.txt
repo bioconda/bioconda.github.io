@@ -8,6 +8,7 @@ bioconductor-rcwlpipelines
 
 .. conda:recipe:: bioconductor-rcwlpipelines
    :replaces_section_title:
+   :noindex:
 
    Bioinformatics pipelines based on Rcwl
 
@@ -22,12 +23,19 @@ bioconductor-rcwlpipelines
 
    |downloads_bioconductor-rcwlpipelines| |docker_bioconductor-rcwlpipelines|
 
-   :versions: 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
-   :depends bioconductor-rcwl: >=1.4.0,<1.5.0
+   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-rcwl: ``>=1.4.0,<1.5.0``
    :depends nodejs: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rappdirs: 
    :requirements:
 

@@ -8,6 +8,7 @@ amas
 
 .. conda:recipe:: amas
    :replaces_section_title:
+   :noindex:
 
    Calculate various summary statistics on a multiple sequence alignment
 
@@ -22,7 +23,14 @@ amas
 
    |downloads_amas| |docker_amas|
 
-   :versions: 0.98-1, 0.98-0
+   :versions:
+      
+      
+
+      ``0.98-1``,  ``0.98-0``
+
+      
+
    
    :depends python: 
    :requirements:

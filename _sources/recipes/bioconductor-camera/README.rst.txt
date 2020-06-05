@@ -8,6 +8,7 @@ bioconductor-camera
 
 .. conda:recipe:: bioconductor-camera
    :replaces_section_title:
+   :noindex:
 
    Collection of annotation related methods for mass spectrometry data
 
@@ -23,16 +24,31 @@ bioconductor-camera
 
    |downloads_bioconductor-camera| |docker_bioconductor-camera|
 
-   :versions: 1.44.0-0, 1.42.0-0, 1.40.0-1, 1.38.1-0, 1.38.0-0, 1.34.0-2, 1.34.0-0, 1.32.0-0, 1.28.0-1, 1.26.0-1, 1.26.0-0, 1.22.0-1, 1.22.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-1</code>,  <code>1.38.1-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-2</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-1</code>,  </span></summary>
+      
+
+      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-1``,  ``1.22.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
-   :depends bioconductor-xcms: >=3.10.0,<3.11.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rbgl: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-xcms: ``>=3.10.0,<3.11.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hmisc: 
    :depends r-igraph: 
    :requirements:

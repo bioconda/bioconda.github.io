@@ -8,6 +8,7 @@ gromacs_py
 
 .. conda:recipe:: gromacs_py
    :replaces_section_title:
+   :noindex:
 
    Gromacs\_py is a python library allowing a simplified use of the gromacs MD simulation software.
 
@@ -25,16 +26,23 @@ gromacs_py
 
    |downloads_gromacs_py| |docker_gromacs_py|
 
-   :versions: 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``
+
+      
+
    
-   :depends gromacs: <2020
+   :depends gromacs: ``<2020``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends os_command_py: 
    :depends pandas: 
    :depends pdb2pqr_htmd_propka30: 
    :depends pdb_manip_py: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends scipy: 
    :requirements:
 

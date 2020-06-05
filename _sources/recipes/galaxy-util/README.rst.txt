@@ -8,6 +8,7 @@ galaxy-util
 
 .. conda:recipe:: galaxy-util
    :replaces_section_title:
+   :noindex:
 
    Galaxy Generic Utilities
 
@@ -26,18 +27,25 @@ galaxy-util
 
    |downloads_galaxy-util| |docker_galaxy-util|
 
-   :versions: 19.9.0-1, 19.9.0-0
+   :versions:
+      
+      
+
+      ``19.9.0-1``,  ``19.9.0-0``
+
+      
+
    
    :depends bleach: 
    :depends boltons: 
    :depends docutils: 
    :depends markupsafe: 
    :depends packaging: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends pyyaml: 
    :depends routes: 
-   :depends six: >=1.9.0
+   :depends six: ``>=1.9.0``
    :requirements:
 
    .. rubric:: Installation

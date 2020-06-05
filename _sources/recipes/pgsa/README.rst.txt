@@ -8,6 +8,7 @@ pgsa
 
 .. conda:recipe:: pgsa
    :replaces_section_title:
+   :noindex:
 
    Pseudogenome Suffix Array is a compact index for collections of reads from sequencing.
 
@@ -22,10 +23,17 @@ pgsa
 
    |downloads_pgsa| |docker_pgsa|
 
-   :versions: 1.2-2, 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

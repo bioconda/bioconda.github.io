@@ -8,6 +8,7 @@ bioconductor-comet
 
 .. conda:recipe:: bioconductor-comet
    :replaces_section_title:
+   :noindex:
 
    coMET\: visualisation of regional epigenome\-wide association scan \(EWAS\) results and DNA co\-methylation patterns
 
@@ -22,15 +23,22 @@ bioconductor-comet
 
    |downloads_bioconductor-comet| |docker_bioconductor-comet|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-gviz: >=1.32.0,<1.33.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-gviz: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-colortools: 
    :depends r-corrplot: 
    :depends r-gridextra: 

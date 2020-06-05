@@ -8,6 +8,7 @@ pythomics
 
 .. conda:recipe:: pythomics
    :replaces_section_title:
+   :noindex:
 
    A multi\-omic python package
 
@@ -22,7 +23,14 @@ pythomics
 
    |downloads_pythomics| |docker_pythomics|
 
-   :versions: 0.3.46-1, 0.3.46-0, 0.3.42-1, 0.3.42-0, 0.3.40-0
+   :versions:
+      
+      
+
+      ``0.3.46-1``,  ``0.3.46-0``,  ``0.3.42-1``,  ``0.3.42-0``,  ``0.3.40-0``
+
+      
+
    
    :depends lxml: 
    :depends python: 

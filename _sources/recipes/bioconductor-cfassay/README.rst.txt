@@ -8,6 +8,7 @@ bioconductor-cfassay
 
 .. conda:recipe:: bioconductor-cfassay
    :replaces_section_title:
+   :noindex:
 
    Statistical analysis for the Colony Formation Assay
 
@@ -23,9 +24,16 @@ bioconductor-cfassay
 
    |downloads_bioconductor-cfassay| |docker_bioconductor-cfassay|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

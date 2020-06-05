@@ -8,6 +8,7 @@ gatktool
 
 .. conda:recipe:: gatktool
    :replaces_section_title:
+   :noindex:
 
    Functions and classes used to extend a GATK tool with Python
 
@@ -22,7 +23,14 @@ gatktool
 
    |downloads_gatktool| |docker_gatktool|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

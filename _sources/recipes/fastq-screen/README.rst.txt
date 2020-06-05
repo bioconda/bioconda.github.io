@@ -8,6 +8,7 @@ fastq-screen
 
 .. conda:recipe:: fastq-screen
    :replaces_section_title:
+   :noindex:
 
    FastQ Screen allows you to screen a library of sequences in FastQ format against a set of sequence databases so you can see if the composition of the library matches with what you expect
 
@@ -22,11 +23,18 @@ fastq-screen
 
    |downloads_fastq-screen| |docker_fastq-screen|
 
-   :versions: 0.14.0-0, 0.13.0-1, 0.13.0-0, 0.11.3-1, 0.11.3-0, 0.11.1-1, 0.11.1-0, 0.5.2-1, 0.5.2-0
+   :versions:
+      
+      
+
+      ``0.14.0-0``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.11.3-1``,  ``0.11.3-0``,  ``0.11.1-1``,  ``0.11.1-0``,  ``0.5.2-1``,  ``0.5.2-0``
+
+      
+
    
    :depends bowtie: 
    :depends bowtie2: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-gdgraph: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-probe-perl
 
 .. conda:recipe:: perl-probe-perl
    :replaces_section_title:
+   :noindex:
 
    Information about the currently running perl
 
@@ -22,9 +23,16 @@ perl-probe-perl
 
    |downloads_perl-probe-perl| |docker_perl-probe-perl|
 
-   :versions: 0.03-0
+   :versions:
+      
+      
+
+      ``0.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

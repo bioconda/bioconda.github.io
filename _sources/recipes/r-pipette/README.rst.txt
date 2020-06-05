@@ -8,6 +8,7 @@ r-pipette
 
 .. conda:recipe:: r-pipette
    :replaces_section_title:
+   :noindex:
 
    Pipette biological data in and out of R.
 
@@ -23,31 +24,38 @@ r-pipette
 
    |downloads_r-pipette| |docker_r-pipette|
 
-   :versions: 0.4.5-0, 0.4.3-1, 0.4.3-0, 0.4.2-0, 0.4.1-0
+   :versions:
+      
+      
+
+      ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.32
-   :depends bioconductor-genomicranges: >=1.38
-   :depends bioconductor-iranges: >=2.20
-   :depends bioconductor-rtracklayer: >=1.46
-   :depends bioconductor-s4vectors: >=0.24
-   :depends bioconductor-singlecellexperiment: >=1.8
-   :depends bioconductor-summarizedexperiment: >=1.16
-   :depends r-acidbase: >=0.1.4
-   :depends r-acidgenerics: >=0.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-cli: >=2.0
-   :depends r-data.table: >=1.12.8
-   :depends r-gdata: >=2.18
-   :depends r-goalie: >=0.4.1
-   :depends r-jsonlite: >=1.6
-   :depends r-matrix: >=1.2
-   :depends r-readr: >=1.3.1
-   :depends r-readxl: >=1.3.1
-   :depends r-rio: >=0.5.16
-   :depends r-stringr: >=1.4
-   :depends r-tibble: >=2.1
-   :depends r-vroom: >=1.2
-   :depends r-yaml: >=2.2
+   :depends bioconductor-biocgenerics: ``>=0.32``
+   :depends bioconductor-genomicranges: ``>=1.38``
+   :depends bioconductor-iranges: ``>=2.20``
+   :depends bioconductor-rtracklayer: ``>=1.46``
+   :depends bioconductor-s4vectors: ``>=0.24``
+   :depends bioconductor-singlecellexperiment: ``>=1.8``
+   :depends bioconductor-summarizedexperiment: ``>=1.16``
+   :depends r-acidbase: ``>=0.1.4``
+   :depends r-acidgenerics: ``>=0.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-cli: ``>=2.0``
+   :depends r-data.table: ``>=1.12.8``
+   :depends r-gdata: ``>=2.18``
+   :depends r-goalie: ``>=0.4.1``
+   :depends r-jsonlite: ``>=1.6``
+   :depends r-matrix: ``>=1.2``
+   :depends r-readr: ``>=1.3.1``
+   :depends r-readxl: ``>=1.3.1``
+   :depends r-rio: ``>=0.5.16``
+   :depends r-stringr: ``>=1.4``
+   :depends r-tibble: ``>=2.1``
+   :depends r-vroom: ``>=1.2``
+   :depends r-yaml: ``>=2.2``
    :requirements:
 
    .. rubric:: Installation

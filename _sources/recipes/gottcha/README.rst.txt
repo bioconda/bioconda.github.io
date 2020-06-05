@@ -8,6 +8,7 @@ gottcha
 
 .. conda:recipe:: gottcha
    :replaces_section_title:
+   :noindex:
 
    Genomic Origin Through Taxonomic CHAllenge \(GOTTCHA\)
 
@@ -22,10 +23,17 @@ gottcha
 
    |downloads_gottcha| |docker_gottcha|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends bwa: 
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-yaml: 
    :requirements:
 

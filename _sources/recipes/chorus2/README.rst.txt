@@ -8,6 +8,7 @@ chorus2
 
 .. conda:recipe:: chorus2
    :replaces_section_title:
+   :noindex:
 
    A pipeline to select oligonucleotides for fluorescence in situ hbridization \(Oligo\-FISH\).
 
@@ -25,21 +26,28 @@ chorus2
 
    |downloads_chorus2| |docker_chorus2|
 
-   :versions: 2.0-5, 2.0-4, 2.0-3, 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+
    
-   :depends bwa: <=0.7.8
-   :depends bwa: >=0.7.3a
-   :depends kmer-jellyfish: 2.*
-   :depends libgcc-ng: >=7.3.0
-   :depends matplotlib: >=3
+   :depends bwa: ``<=0.7.8``
+   :depends bwa: ``>=0.7.3a``
+   :depends kmer-jellyfish: ``2.*``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends matplotlib: ``>=3``
    :depends numpy: 
    :depends pandas: 
-   :depends primer3-py: >=0.4.2
+   :depends primer3-py: ``>=0.4.2``
    :depends pybigwig: 
    :depends pyfasta: 
-   :depends pyqt: <5.11
-   :depends python: >=3.6,<3.7.0a0
-   :depends sip: >=4
+   :depends pyqt: ``<5.11``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends sip: ``>=4``
    :requirements:
 
    .. rubric:: Installation

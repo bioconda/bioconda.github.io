@@ -8,6 +8,7 @@ qiime-default-reference
 
 .. conda:recipe:: qiime-default-reference/0.1.3
    :replaces_section_title:
+   :noindex:
 
    Default reference data files for use with QIIME.
 
@@ -22,7 +23,14 @@ qiime-default-reference
 
    |downloads_qiime-default-reference| |docker_qiime-default-reference|
 
-   :versions: 0.1.3-1, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.1.3-1``,  ``0.1.3-0``
+
+      
+
    
    :depends python: 
    :depends six: 

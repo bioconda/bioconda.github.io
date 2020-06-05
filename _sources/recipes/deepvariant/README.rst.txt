@@ -8,6 +8,7 @@ deepvariant
 
 .. conda:recipe:: deepvariant
    :replaces_section_title:
+   :noindex:
 
    DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next\-generation DNA sequencing data
 
@@ -22,32 +23,47 @@ deepvariant
 
    |downloads_deepvariant| |docker_deepvariant|
 
-   :versions: 0.10.0-3, 0.10.0-2, 0.10.0-1, 0.10.0-0, 0.9.0-0, 0.8.0-0, 0.7.2-1, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-3, 0.6.1-2, 0.6.1-0, 0.6.0-0, 0.4.1-1, 0.4.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.10.0-3</code>,  <code>0.10.0-2</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  </span></summary>
+      
+
+      ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.1-1``,  ``0.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends absl-py: 
    :depends altair: 
    :depends boost: 
    :depends contextlib2: 
    :depends crcmod: 
-   :depends curl: >=7.64.1,<8.0a0
+   :depends curl: ``>=7.64.1,<8.0a0``
    :depends enum34: 
    :depends google-cloud-sdk: 
    :depends htslib: 
    :depends intervaltree: 
    :depends mock: 
-   :depends numpy: 1.16.*
+   :depends numpy: ``1.16.*``
    :depends oauth2client: 
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends parallel: 
    :depends protobuf: 
    :depends psutil: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends requests: 
    :depends scipy: 
    :depends six: 
-   :depends tensorflow: 2.0.*
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends tensorflow: ``2.0.*``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

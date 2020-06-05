@@ -8,6 +8,7 @@ pauvre
 
 .. conda:recipe:: pauvre
    :replaces_section_title:
+   :noindex:
 
    Tools for plotting Oxford Nanopore and other long\-read data.
 
@@ -22,13 +23,20 @@ pauvre
 
    |downloads_pauvre| |docker_pauvre|
 
-   :versions: 0.1924-0, 0.1923-1, 0.1923-0, 0.1.86-1, 0.1.86-0, 0.1.85-0, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.1924-0``,  ``0.1923-1``,  ``0.1923-0``,  ``0.1.86-1``,  ``0.1.86-0``,  ``0.1.85-0``,  ``0.1.3-0``
+
+      
+
    
-   :depends biopython: >=1.68
-   :depends matplotlib-base: >=2.0.2
-   :depends numpy: >=1.12.1
-   :depends pandas: >=0.20.1
-   :depends python: >=3
+   :depends biopython: ``>=1.68``
+   :depends matplotlib-base: ``>=2.0.2``
+   :depends numpy: ``>=1.12.1``
+   :depends pandas: ``>=0.20.1``
+   :depends python: ``>=3``
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:

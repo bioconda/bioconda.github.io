@@ -8,6 +8,7 @@ bioconductor-rhdf5filters
 
 .. conda:recipe:: bioconductor-rhdf5filters
    :replaces_section_title:
+   :noindex:
 
    HDF5 Compression Filters
 
@@ -22,13 +23,20 @@ bioconductor-rhdf5filters
 
    |downloads_bioconductor-rhdf5filters| |docker_bioconductor-rhdf5filters|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-rhdf5lib: >=1.10.0,<1.11.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libcxx: >=9.0.1
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rhdf5lib: ``>=1.10.0,<1.11.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libcxx: ``>=9.0.1``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

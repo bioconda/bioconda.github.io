@@ -8,6 +8,7 @@ perl-io-sessiondata
 
 .. conda:recipe:: perl-io-sessiondata
    :replaces_section_title:
+   :noindex:
 
    supporting module for SOAP\:\:Lite
 
@@ -22,9 +23,16 @@ perl-io-sessiondata
 
    |downloads_perl-io-sessiondata| |docker_perl-io-sessiondata|
 
-   :versions: 1.03-1, 1.03-0
+   :versions:
+      
+      
+
+      ``1.03-1``,  ``1.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ datma
 
 .. conda:recipe:: datma
    :replaces_section_title:
+   :noindex:
 
    DistributedAuTomaticMetagenomicAssembly andAnnotation framework
 
@@ -22,36 +23,43 @@ datma
 
    |downloads_datma| |docker_datma|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends blast: 2.6.0.*
-   :depends bowtie2: 2.3.5.*
-   :depends busco: 2.0.1.*
-   :depends bwa: 0.7.17.*
-   :depends checkm-genome: 1.0.12.*
-   :depends clame: 1.0 he1b5a44_1
-   :depends fastqc: 0.11.8.*
+   :depends blast: ``2.6.0.*``
+   :depends bowtie2: ``2.3.5.*``
+   :depends busco: ``2.0.1.*``
+   :depends bwa: ``0.7.17.*``
+   :depends checkm-genome: ``1.0.12.*``
+   :depends clame: ``1.0 he1b5a44_1``
+   :depends fastqc: ``0.11.8.*``
    :depends fastx_toolkit: 
    :depends flash2: 
    :depends gmp: 
    :depends kaiju: 
-   :depends kraken: 1.1.*
-   :depends krona: 2.7.*
+   :depends kraken: ``1.1.*``
+   :depends krona: ``2.7.*``
    :depends matplotlib-base: 
    :depends maven: 
-   :depends megahit: 1.1.3.*
+   :depends megahit: ``1.1.3.*``
    :depends mergenotcombined: 
    :depends openjdk: 
-   :depends pplacer: 1.1.alpha19.*
+   :depends pplacer: ``1.1.alpha19.*``
    :depends prinseq: 
    :depends prodigal: 
-   :depends python: >=2.7,<=3.6.5
-   :depends quast: 5.0.2.*
+   :depends python: ``>=2.7,<=3.6.5``
+   :depends quast: ``5.0.2.*``
    :depends rapifilt: 
    :depends rdp_classifier: 
-   :depends samtools: 1.9.*
+   :depends samtools: ``1.9.*``
    :depends selectfasta: 
-   :depends spades: 3.13.0.*
+   :depends spades: ``3.13.0.*``
    :depends trimmomatic: 
    :depends unmerge: 
    :depends velvet: 

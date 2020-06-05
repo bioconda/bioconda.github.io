@@ -8,6 +8,7 @@ pblat
 
 .. conda:recipe:: pblat
    :replaces_section_title:
+   :noindex:
 
    blat with multi\-threads support
 
@@ -24,11 +25,18 @@ pblat
 
    |downloads_pblat| |docker_pblat|
 
-   :versions: 2.3-0
+   :versions:
+      
+      
+
+      ``2.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends openssl: >=1.1.1g,<1.1.2a
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends openssl: ``>=1.1.1g,<1.1.2a``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

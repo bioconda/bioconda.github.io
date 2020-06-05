@@ -8,6 +8,7 @@ isocor
 
 .. conda:recipe:: isocor
    :replaces_section_title:
+   :noindex:
 
    A Isotope Correction for mass spectrometry labeling experiments
 
@@ -25,12 +26,19 @@ isocor
 
    |downloads_isocor| |docker_isocor|
 
-   :versions: 2.2.0-0, 2.1.4-0, 2.1.3-0, 2.1.2-0, 2.1.0-1, 2.1.0-0
+   :versions:
+      
+      
+
+      ``2.2.0-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.0-1``,  ``2.1.0-0``
+
+      
+
    
-   :depends numpy: >=1.15
-   :depends pandas: >=0.17.1
-   :depends python: >=3.6
-   :depends scipy: >=0.12.1
+   :depends numpy: ``>=1.15``
+   :depends pandas: ``>=0.17.1``
+   :depends python: ``>=3.6``
+   :depends scipy: ``>=0.12.1``
    :requirements:
 
    .. rubric:: Installation

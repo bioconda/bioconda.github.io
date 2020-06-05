@@ -8,6 +8,7 @@ bioconductor-cbaf
 
 .. conda:recipe:: bioconductor-cbaf
    :replaces_section_title:
+   :noindex:
 
    Automated functions for comparing various omic data from cbioportal.org
 
@@ -22,11 +23,18 @@ bioconductor-cbaf
 
    |downloads_bioconductor-cbaf| |docker_bioconductor-cbaf|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biocfilecache: >=1.10.0,<1.11.0
-   :depends bioconductor-genefilter: >=1.68.0,<1.69.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biocfilecache: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-genefilter: ``>=1.68.0,<1.69.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-cgdsr: 
    :depends r-gplots: 
    :depends r-rcolorbrewer: 

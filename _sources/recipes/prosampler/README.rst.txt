@@ -8,6 +8,7 @@ prosampler
 
 .. conda:recipe:: prosampler
    :replaces_section_title:
+   :noindex:
 
    An ultra\-fast motif finding program in large ChIP\-seq datasets.
 
@@ -23,10 +24,17 @@ prosampler
 
    |downloads_prosampler| |docker_prosampler|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

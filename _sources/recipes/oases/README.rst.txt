@@ -8,6 +8,7 @@ oases
 
 .. conda:recipe:: oases
    :replaces_section_title:
+   :noindex:
 
    De novo transcriptome assembler for short reads
 
@@ -23,9 +24,16 @@ oases
 
    |downloads_oases| |docker_oases|
 
-   :versions: 0.2.09-1, 0.2.09-0
+   :versions:
+      
+      
+
+      ``0.2.09-1``,  ``0.2.09-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends velvet: 
    :requirements:
 

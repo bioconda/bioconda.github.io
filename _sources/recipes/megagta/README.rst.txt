@@ -8,6 +8,7 @@ megagta
 
 .. conda:recipe:: megagta
    :replaces_section_title:
+   :noindex:
 
    HMM\-guided metagenomic gene\-targeted assembler using iterative de Bruijn graphs
 
@@ -22,11 +23,18 @@ megagta
 
    |downloads_megagta| |docker_megagta|
 
-   :versions: 0.1_alpha-0
+   :versions:
+      
+      
+
+      ``0.1_alpha-0``
+
+      
+
    
-   :depends hmmer: >=3.1b2
+   :depends hmmer: ``>=3.1b2``
    :depends libgcc: 
-   :depends python: >=2.7,<3
+   :depends python: ``>=2.7,<3``
    :depends zlib: 
    :requirements:
 

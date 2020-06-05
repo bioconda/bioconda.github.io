@@ -8,6 +8,7 @@ bioconductor-rgmqllib
 
 .. conda:recipe:: bioconductor-rgmqllib
    :replaces_section_title:
+   :noindex:
 
    RGMQLlib\, java libraries to run GMQL scala API
 
@@ -22,10 +23,17 @@ bioconductor-rgmqllib
 
    |downloads_bioconductor-rgmqllib| |docker_bioconductor-rgmqllib|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

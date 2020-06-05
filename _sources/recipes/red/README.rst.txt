@@ -8,6 +8,7 @@ red
 
 .. conda:recipe:: red
    :replaces_section_title:
+   :noindex:
 
    Red \(RepeatsDetector\)\: an intelligent\, rapid\, accurate tool for detecting repeats de\-novo on the genomic scale.
 
@@ -23,9 +24,16 @@ red
 
    |downloads_red| |docker_red|
 
-   :versions: 2015.05.22-0
+   :versions:
+      
+      
+
+      ``2015.05.22-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

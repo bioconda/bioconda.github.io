@@ -8,6 +8,7 @@ snpgenie
 
 .. conda:recipe:: snpgenie
    :replaces_section_title:
+   :noindex:
 
    Program for estimating πN\/πS\, dN\/dS\, and other diversity measures from next\-generation sequencing data
 
@@ -22,7 +23,14 @@ snpgenie
 
    |downloads_snpgenie| |docker_snpgenie|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends perl: 
    :depends perl-data-dumper: 

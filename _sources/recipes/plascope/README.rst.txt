@@ -8,6 +8,7 @@ plascope
 
 .. conda:recipe:: plascope
    :replaces_section_title:
+   :noindex:
 
    PlaScope is a targeted approach to assess the plasmidome of bacteria.
 
@@ -22,10 +23,17 @@ plascope
 
    |downloads_plascope| |docker_plascope|
 
-   :versions: 1.3.1-3, 1.3.1-2, 1.3.1-1, 1.3.1-0, 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-1``,  ``1.3-0``
+
+      
+
    
-   :depends centrifuge: 1.0.3
-   :depends spades: >=3.10.1
+   :depends centrifuge: ``1.0.3``
+   :depends spades: ``>=3.10.1``
    :requirements:
 
    .. rubric:: Installation

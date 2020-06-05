@@ -8,6 +8,7 @@ beagle-lib
 
 .. conda:recipe:: beagle-lib
    :replaces_section_title:
+   :noindex:
 
    general purpose library for evaluating the likelihood of sequence evolution on trees
 
@@ -22,10 +23,25 @@ beagle-lib
 
    |downloads_beagle-lib| |docker_beagle-lib|
 
-   :versions: 3.1.2-1, 3.1.2-0, 3.1.1-0, 3.1.0-0, 3.0.2-0, 2.1.2-7, 2.1.2-6, 2.1.2-5, 2.1.2-4, 2.1.2-3, 2.1.2-2, 2.1.2-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.1.2-1</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.2-0</code>,  <code>2.1.2-7</code>,  <code>2.1.2-6</code>,  <code>2.1.2-5</code>,  <code>2.1.2-4</code>,  </span></summary>
+      
+
+      ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``2.1.2-7``,  ``2.1.2-6``,  ``2.1.2-5``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends libtool: 
    :depends openjdk: 
    :requirements:

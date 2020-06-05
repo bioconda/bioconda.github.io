@@ -8,6 +8,7 @@ bioconductor-inpower
 
 .. conda:recipe:: bioconductor-inpower
    :replaces_section_title:
+   :noindex:
 
    An R package for computing the number of susceptibility SNPs
 
@@ -23,9 +24,16 @@ bioconductor-inpower
 
    |downloads_bioconductor-inpower| |docker_bioconductor-inpower|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mvtnorm: 
    :requirements:
 

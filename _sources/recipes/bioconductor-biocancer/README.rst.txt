@@ -8,6 +8,7 @@ bioconductor-biocancer
 
 .. conda:recipe:: bioconductor-biocancer
    :replaces_section_title:
+   :noindex:
 
    Interactive Multi\-Omics Cancers Data Visualization and Analysis
 
@@ -22,31 +23,38 @@ bioconductor-biocancer
 
    |downloads_bioconductor-biocancer| |docker_bioconductor-biocancer|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-annotationfuncs: >=1.38.0,<1.39.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
-   :depends bioconductor-dose: >=3.14.0,<3.15.0
-   :depends bioconductor-genetclassifier: >=1.28.0,<1.29.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-reactome.db: >=1.70.0,<1.71.0
-   :depends bioconductor-reactomepa: >=1.32.0,<1.33.0
-   :depends r-algdesign: >=1.1.7.3
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-cgdsr: >=1.2.6
-   :depends r-diagrammer: >=1.0.5
-   :depends r-dplyr: >=0.8.5
-   :depends r-dt: >=0.12
+   :depends bioconductor-annotationfuncs: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-genetclassifier: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-reactome.db: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-reactomepa: ``>=1.32.0,<1.33.0``
+   :depends r-algdesign: ``>=1.1.7.3``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-cgdsr: ``>=1.2.6``
+   :depends r-diagrammer: ``>=1.0.5``
+   :depends r-dplyr: ``>=0.8.5``
+   :depends r-dt: ``>=0.12``
    :depends r-htmlwidgets: 
-   :depends r-import: >=1.1.0
+   :depends r-import: ``>=1.1.0``
    :depends r-plyr: 
-   :depends r-radiant.data: >=1.0.6
-   :depends r-shiny: >=1.0.5
+   :depends r-radiant.data: ``>=1.0.6``
+   :depends r-shiny: ``>=1.0.5``
    :depends r-shinythemes: 
    :depends r-tibble: 
    :depends r-visnetwork: 
-   :depends r-xml: >=3.99
+   :depends r-xml: ``>=3.99``
    :requirements:
 
    .. rubric:: Installation

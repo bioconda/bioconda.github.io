@@ -8,6 +8,7 @@ bioconductor-netbiov
 
 .. conda:recipe:: bioconductor-netbiov
    :replaces_section_title:
+   :noindex:
 
    A package for visualizing complex biological network
 
@@ -23,10 +24,17 @@ bioconductor-netbiov
 
    |downloads_bioconductor-netbiov| |docker_bioconductor-netbiov|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-igraph: >=0.7.1
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-igraph: ``>=0.7.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-bsgenome.rnorvegicus.ucsc.rn5
 
 .. conda:recipe:: bioconductor-bsgenome.rnorvegicus.ucsc.rn5
    :replaces_section_title:
+   :noindex:
 
    Full genome sequences for Rattus norvegicus \(UCSC version rn5\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.rnorvegicus.ucsc.rn5
 
    |downloads_bioconductor-bsgenome.rnorvegicus.ucsc.rn5| |docker_bioconductor-bsgenome.rnorvegicus.ucsc.rn5|
 
-   :versions: 1.4.0-4, 1.4.0-3, 1.4.0-2, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-4``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

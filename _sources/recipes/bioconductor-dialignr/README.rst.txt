@@ -8,6 +8,7 @@ bioconductor-dialignr
 
 .. conda:recipe:: bioconductor-dialignr
    :replaces_section_title:
+   :noindex:
 
    Dynamic Programming Based Alignment of MS2 Chromatograms
 
@@ -22,14 +23,21 @@ bioconductor-dialignr
 
    |downloads_bioconductor-dialignr| |docker_bioconductor-dialignr|
 
-   :versions: 1.0.5-0
+   :versions:
+      
+      
+
+      ``1.0.5-0``
+
+      
+
    
-   :depends bioconductor-mzr: >=2.22.0,<2.23.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -40,7 +48,7 @@ bioconductor-dialignr
    :depends r-scales: 
    :depends r-signal: 
    :depends r-tidyr: 
-   :depends r-zoo: >=1.8-3
+   :depends r-zoo: ``>=1.8-3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ marvel
 
 .. conda:recipe:: marvel
    :replaces_section_title:
+   :noindex:
 
    MARVEL\: Metagenomic Analyses and Retrieval of Viral Elements 
 
@@ -22,7 +23,14 @@ marvel
 
    |downloads_marvel| |docker_marvel|
 
-   :versions: 0.2-0
+   :versions:
+      
+      
+
+      ``0.2-0``
+
+      
+
    
    :depends biopython: 
    :depends numpy: 

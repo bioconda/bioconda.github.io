@@ -8,6 +8,7 @@ bioconductor-sseq
 
 .. conda:recipe:: bioconductor-sseq
    :replaces_section_title:
+   :noindex:
 
    Shrinkage estimation of dispersion in Negative Binomial models for RNA\-seq experiments with small sample size
 
@@ -23,9 +24,16 @@ bioconductor-sseq
 
    |downloads_bioconductor-sseq| |docker_bioconductor-sseq|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-catools: 
    :depends r-rcolorbrewer: 
    :requirements:

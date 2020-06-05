@@ -8,6 +8,7 @@ solexaqa
 
 .. conda:recipe:: solexaqa
    :replaces_section_title:
+   :noindex:
 
    Quality statistics and visual representations for second\-generation sequencing data
 
@@ -23,13 +24,20 @@ solexaqa
 
    |downloads_solexaqa| |docker_solexaqa|
 
-   :versions: 3.1.7.1-0
+   :versions:
+      
+      
+
+      ``3.1.7.1-0``
+
+      
+
    
-   :depends boost: >=1.67.0,<1.67.1.0a0
-   :depends icu: >=58.2,<59.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost: ``>=1.67.0,<1.67.1.0a0``
+   :depends icu: ``>=58.2,<59.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

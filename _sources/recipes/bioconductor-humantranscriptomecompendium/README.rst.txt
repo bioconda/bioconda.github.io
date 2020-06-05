@@ -8,6 +8,7 @@ bioconductor-humantranscriptomecompendium
 
 .. conda:recipe:: bioconductor-humantranscriptomecompendium
    :replaces_section_title:
+   :noindex:
 
    Tools to work with a Compendium of 181000 human transcriptome sequencing studies
 
@@ -22,12 +23,19 @@ bioconductor-humantranscriptomecompendium
 
    |downloads_bioconductor-humantranscriptomecompendium| |docker_bioconductor-humantranscriptomecompendium|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-ssrch: >=1.4.0,<1.5.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-ssrch: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-shiny: 
    :requirements:
 

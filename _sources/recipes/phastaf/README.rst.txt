@@ -8,6 +8,7 @@ phastaf
 
 .. conda:recipe:: phastaf
    :replaces_section_title:
+   :noindex:
 
    Identify phage regions in bacterial genomes for masking purposes
 
@@ -22,12 +23,19 @@ phastaf
 
    |downloads_phastaf| |docker_phastaf|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends any2fasta: >=0.4
-   :depends bedtools: >=2.0
+   :depends any2fasta: ``>=0.4``
+   :depends bedtools: ``>=2.0``
    :depends coreutils: 
-   :depends diamond: >=0.9
+   :depends diamond: ``>=0.9``
    :depends perl: 
    :requirements:
 

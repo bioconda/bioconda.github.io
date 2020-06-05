@@ -8,6 +8,7 @@ bitstring
 
 .. conda:recipe:: bitstring
    :replaces_section_title:
+   :noindex:
 
    Simple construction\, analysis and modification of binary data.
 
@@ -22,9 +23,16 @@ bitstring
 
    |downloads_bitstring| |docker_bitstring|
 
-   :versions: 3.1.5-1, 3.1.5-0
+   :versions:
+      
+      
+
+      ``3.1.5-1``,  ``3.1.5-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

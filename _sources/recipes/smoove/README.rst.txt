@@ -8,6 +8,7 @@ smoove
 
 .. conda:recipe:: smoove
    :replaces_section_title:
+   :noindex:
 
    structural variant calling and genotyping with existing tools\, but\, smoothly
 
@@ -22,7 +23,22 @@ smoove
 
    |downloads_smoove| |docker_smoove|
 
-   :versions: 0.2.5-0, 0.2.4-0, 0.2.3-1, 0.2.3-0, 0.1.9-0, 0.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.1.9-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  </span></summary>
+      
+
+      ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.1.9-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bcftools: 
    :depends duphold: 

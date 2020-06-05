@@ -8,6 +8,7 @@ msisensor
 
 .. conda:recipe:: msisensor
    :replaces_section_title:
+   :noindex:
 
    MSIsensor is a C\+\+ program to detect replication slippage variants at microsatellite regions\, and differentiate them as somatic or germline.
 
@@ -22,13 +23,20 @@ msisensor
 
    |downloads_msisensor| |docker_msisensor|
 
-   :versions: 0.5-0
+   :versions:
+      
+      
+
+      ``0.5-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends ncurses: >=6.1,<6.2.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends ncurses: ``>=6.1,<6.2.0a0``
    :depends openmp: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ jolytree
 
 .. conda:recipe:: jolytree
    :replaces_section_title:
+   :noindex:
 
    Fast alignment\-free phylogenetic reconstruction from genome sequences
 
@@ -22,12 +23,19 @@ jolytree
 
    |downloads_jolytree| |docker_jolytree|
 
-   :versions: 1.1b-0
+   :versions:
+      
+      
+
+      ``1.1b-0``
+
+      
+
    
-   :depends fastme: >=2.1.5
-   :depends gawk: >=4.1.3
-   :depends mash: >=1.0.2
-   :depends req: >=v1.3.190304ac
+   :depends fastme: ``>=2.1.5``
+   :depends gawk: ``>=4.1.3``
+   :depends mash: ``>=1.0.2``
+   :depends req: ``>=v1.3.190304ac``
    :requirements:
 
    .. rubric:: Installation

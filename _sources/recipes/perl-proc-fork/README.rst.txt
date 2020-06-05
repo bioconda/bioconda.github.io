@@ -8,6 +8,7 @@ perl-proc-fork
 
 .. conda:recipe:: perl-proc-fork
    :replaces_section_title:
+   :noindex:
 
    simple\, intuitive interface to the fork\(\) system call
 
@@ -22,9 +23,16 @@ perl-proc-fork
 
    |downloads_perl-proc-fork| |docker_perl-proc-fork|
 
-   :versions: 0.806-0, 0.804-1, 0.804-0
+   :versions:
+      
+      
+
+      ``0.806-0``,  ``0.804-1``,  ``0.804-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter-tidy: 
    :requirements:
 

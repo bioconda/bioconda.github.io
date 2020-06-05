@@ -8,6 +8,7 @@ bioconductor-metcirc
 
 .. conda:recipe:: bioconductor-metcirc
    :replaces_section_title:
+   :noindex:
 
    Navigating mass spectral similarity in high\-resolution MS\/MS metabolomics data
 
@@ -23,16 +24,23 @@ bioconductor-metcirc
 
    |downloads_bioconductor-metcirc| |docker_bioconductor-metcirc|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.1-0, 1.10.0-0, 1.6.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-amap: >=0.8
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-circlize: >=0.3.9
-   :depends r-ggplot2: >=3.2.1
-   :depends r-scales: >=0.3.0
-   :depends r-shiny: >=1.0.0
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-amap: ``>=0.8``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-circlize: ``>=0.3.9``
+   :depends r-ggplot2: ``>=3.2.1``
+   :depends r-scales: ``>=0.3.0``
+   :depends r-shiny: ``>=1.0.0``
    :requirements:
 
    .. rubric:: Installation

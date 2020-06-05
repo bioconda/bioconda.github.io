@@ -8,6 +8,7 @@ eoulsan
 
 .. conda:recipe:: eoulsan
    :replaces_section_title:
+   :noindex:
 
    A pipeline and a framework for NGS analysis \(RNA\-Seq and Chip\-Seq\)
 
@@ -23,7 +24,14 @@ eoulsan
 
    |downloads_eoulsan| |docker_eoulsan|
 
-   :versions: 2.4-0, 2.3-1, 2.3-0, 2.2-0, 2.0_beta4-1
+   :versions:
+      
+      
+
+      ``2.4-0``,  ``2.3-1``,  ``2.3-0``,  ``2.2-0``,  ``2.0_beta4-1``
+
+      
+
    
    :depends openjdk: 
    :requirements:

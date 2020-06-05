@@ -8,6 +8,7 @@ bioconductor-ngsreports
 
 .. conda:recipe:: bioconductor-ngsreports
    :replaces_section_title:
+   :noindex:
 
    Load FastqQC reports and other NGS related files
 
@@ -22,16 +23,23 @@ bioconductor-ngsreports
 
    |downloads_bioconductor-ngsreports| |docker_bioconductor-ngsreports|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-shortread: >=1.46.0,<1.47.0
-   :depends bioconductor-xvector: >=0.28.0,<0.29.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-shortread: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-xvector: ``>=0.28.0,<0.29.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-checkmate: 
-   :depends r-dplyr: >=0.8.0
+   :depends r-dplyr: ``>=0.8.0``
    :depends r-dt: 
    :depends r-factominer: 
    :depends r-forcats: 
@@ -45,9 +53,9 @@ bioconductor-ngsreports
    :depends r-rmarkdown: 
    :depends r-scales: 
    :depends r-stringr: 
-   :depends r-tibble: >=1.3.1
+   :depends r-tibble: ``>=1.3.1``
    :depends r-tidyr: 
-   :depends r-tidyselect: >=0.2.3
+   :depends r-tidyselect: ``>=0.2.3``
    :depends r-truncnorm: 
    :depends r-viridislite: 
    :depends r-zoo: 

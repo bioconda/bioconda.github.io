@@ -8,13 +8,14 @@ sexdeterrmine
 
 .. conda:recipe:: sexdeterrmine
    :replaces_section_title:
+   :noindex:
 
    A python script carry out calculate the relative coverage of X and Y chromosomes\, and their associated error bars\, out of capture data.
 
    :homepage: https://github.com/TCLamnidis/Sex.DetERRmine
-   :license: GPL-3.0
+   :license: GPL-3.0-only
    :recipe: /`sexdeterrmine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sexdeterrmine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sexdeterrmine/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1038/s41467-018-07483-5`
+   :links: doi: :doi:`10.1038/s41467-018-07483-5`
 
    
 
@@ -23,9 +24,16 @@ sexdeterrmine
 
    |downloads_sexdeterrmine| |docker_sexdeterrmine|
 
-   :versions: 1.1.1-0, 1.1-0, 1.0-1
+   :versions:
+      
+      
+
+      ``1.1.1-0``,  ``1.1-0``,  ``1.0-1``
+
+      
+
    
-   :depends python: 3.7.1.*
+   :depends python: ``3.7.1.*``
    :requirements:
 
    .. rubric:: Installation

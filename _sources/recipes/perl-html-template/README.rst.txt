@@ -8,6 +8,7 @@ perl-html-template
 
 .. conda:recipe:: perl-html-template
    :replaces_section_title:
+   :noindex:
 
    Perl module to use HTML\-like templating language
 
@@ -22,9 +23,16 @@ perl-html-template
 
    |downloads_perl-html-template| |docker_perl-html-template|
 
-   :versions: 2.97-1, 2.95-1, 2.95-0
+   :versions:
+      
+      
+
+      ``2.97-1``,  ``2.95-1``,  ``2.95-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-cgi: 
    :depends perl-scalar-list-utils: 
    :requirements:

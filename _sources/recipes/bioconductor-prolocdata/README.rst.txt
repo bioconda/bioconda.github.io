@@ -8,6 +8,7 @@ bioconductor-prolocdata
 
 .. conda:recipe:: bioconductor-prolocdata
    :replaces_section_title:
+   :noindex:
 
    Data accompanying the pRoloc package
 
@@ -22,12 +23,19 @@ bioconductor-prolocdata
 
    |downloads_bioconductor-prolocdata| |docker_bioconductor-prolocdata|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ nmrpro
 
 .. conda:recipe:: nmrpro
    :replaces_section_title:
+   :noindex:
 
    NMRPro reads and processes different types of NMR spectra.
 
@@ -22,9 +23,16 @@ nmrpro
 
    |downloads_nmrpro| |docker_nmrpro|
 
-   :versions: 20161019-1, 20161019-0
+   :versions:
+      
+      
+
+      ``20161019-1``,  ``20161019-0``
+
+      
+
    
-   :depends nmrglue: >=0.5
+   :depends nmrglue: ``>=0.5``
    :depends numpy: 
    :depends python: 
    :depends scipy: 

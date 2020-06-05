@@ -8,6 +8,7 @@ bioconductor-brainstars
 
 .. conda:recipe:: bioconductor-brainstars
    :replaces_section_title:
+   :noindex:
 
    query gene expression data and plots from BrainStars \(B\*\)
 
@@ -23,10 +24,17 @@ bioconductor-brainstars
 
    |downloads_bioconductor-brainstars| |docker_bioconductor-brainstars|
 
-   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcurl: 
    :depends r-rjsonio: 
    :requirements:

@@ -8,6 +8,7 @@ minorseq
 
 .. conda:recipe:: minorseq
    :replaces_section_title:
+   :noindex:
 
    Minor Variant Calling and Phasing Tools
 
@@ -22,7 +23,14 @@ minorseq
 
    |downloads_minorseq| |docker_minorseq|
 
-   :versions: 1.12.0-0, 1.11.0-1, 1.11.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.11.0-1``,  ``1.11.0-0``
+
+      
+
    
    :depends pbccs: 
    :depends pbmm2: 

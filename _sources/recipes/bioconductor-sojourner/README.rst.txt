@@ -8,6 +8,7 @@ bioconductor-sojourner
 
 .. conda:recipe:: bioconductor-sojourner
    :replaces_section_title:
+   :noindex:
 
    sojourner\: An R package for statistical analysis of single molecule trajectories
 
@@ -22,14 +23,21 @@ bioconductor-sojourner
 
    |downloads_bioconductor-sojourner| |docker_bioconductor-sojourner|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-boot: 
    :depends r-dplyr: 
    :depends r-fitdistrplus: 

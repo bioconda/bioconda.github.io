@@ -8,6 +8,7 @@ bioconductor-shinymethyldata
 
 .. conda:recipe:: bioconductor-shinymethyldata
    :replaces_section_title:
+   :noindex:
 
    Example dataset of input data for shinyMethyl
 
@@ -22,10 +23,17 @@ bioconductor-shinymethyldata
 
    |downloads_bioconductor-shinymethyldata| |docker_bioconductor-shinymethyldata|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

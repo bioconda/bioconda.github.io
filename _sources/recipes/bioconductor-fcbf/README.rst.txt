@@ -8,6 +8,7 @@ bioconductor-fcbf
 
 .. conda:recipe:: bioconductor-fcbf
    :replaces_section_title:
+   :noindex:
 
    Fast Correlation Based Filter for Feature Selection
 
@@ -22,10 +23,17 @@ bioconductor-fcbf
 
    |downloads_bioconductor-fcbf| |docker_bioconductor-fcbf|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.2-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-mclust: 

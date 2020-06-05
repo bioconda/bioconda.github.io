@@ -8,6 +8,7 @@ bioconductor-qvalue
 
 .. conda:recipe:: bioconductor-qvalue
    :replaces_section_title:
+   :noindex:
 
    Q\-value estimation for false discovery rate control
 
@@ -22,9 +23,24 @@ bioconductor-qvalue
 
    |downloads_bioconductor-qvalue| |docker_bioconductor-qvalue|
 
-   :versions: 2.20.0-0, 2.18.0-1, 2.18.0-0, 2.16.0-1, 2.16.0-0, 2.14.1-0, 2.14.0-0, 2.12.0-0, 2.10.0-0, 2.8.0-0, 2.6.0-0, 2.4.2-0, 2.2.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.1-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  </span></summary>
+      
+
+      ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.2-0``,  ``2.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-reshape2: 
    :requirements:

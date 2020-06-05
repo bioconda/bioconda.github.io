@@ -8,6 +8,7 @@ bioconductor-animalcules
 
 .. conda:recipe:: bioconductor-animalcules
    :replaces_section_title:
+   :noindex:
 
    Interactive microbiome analysis toolkit
 
@@ -22,17 +23,24 @@ bioconductor-animalcules
 
    |downloads_bioconductor-animalcules| |docker_bioconductor-animalcules|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.6-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.6-0``
+
+      
+
    
-   :depends bioconductor-biomformat: >=1.16.0,<1.17.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-biomformat: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
    :depends r-ape: 
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-caret: 
    :depends r-covr: 
    :depends r-dmwr: 

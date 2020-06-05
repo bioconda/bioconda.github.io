@@ -8,6 +8,7 @@ genomepy
 
 .. conda:recipe:: genomepy
    :replaces_section_title:
+   :noindex:
 
    Download genomes the easy way.
 
@@ -22,17 +23,32 @@ genomepy
 
    |downloads_genomepy| |docker_genomepy|
 
-   :versions: 0.8.3-0, 0.8.2-0, 0.8.1-1, 0.8.1-0, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.1-0, 0.6.0-0, 0.5.5-1, 0.5.5-0, 0.5.4-1, 0.5.4-0, 0.5.2-2, 0.5.2-1, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+      
+
+      ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends appdirs: 
-   :depends biopython: >=1.73
-   :depends bucketcache: >=0.12.1
+   :depends biopython: ``>=1.73``
+   :depends bucketcache: ``>=0.12.1``
    :depends click: 
    :depends colorama: 
-   :depends norns: >=0.1.5
+   :depends norns: ``>=0.1.5``
    :depends psutil: 
-   :depends pyfaidx: >=0.5.1
-   :depends python: >=3
+   :depends pyfaidx: ``>=0.5.1``
+   :depends python: ``>=3``
    :depends requests: 
    :depends tabix: 
    :depends ucsc-bedtogenepred: 

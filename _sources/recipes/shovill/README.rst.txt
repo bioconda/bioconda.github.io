@@ -8,6 +8,7 @@ shovill
 
 .. conda:recipe:: shovill
    :replaces_section_title:
+   :noindex:
 
    Microbial assembly pipeline for Illumina paired\-end reads
 
@@ -22,25 +23,40 @@ shovill
 
    |downloads_shovill| |docker_shovill|
 
-   :versions: 1.1.0-0, 1.0.9-0, 1.0.4-1, 1.0.4-0, 1.0.1-0, 1.0.0-0, 0.9.0-1, 0.9.0-0, 0.8.0-0, 0.7.1-2, 0.7.1-1, 0.7.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  </span></summary>
+      
+
+      ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bwa: >=0.7.17
-   :depends flash: >=1.2
-   :depends kmc: >=3.1
-   :depends lighter: >=1.1
-   :depends megahit: >=1.2.7
+   :depends bwa: ``>=0.7.17``
+   :depends flash: ``>=1.2``
+   :depends kmc: ``>=3.1``
+   :depends lighter: ``>=1.1``
+   :depends megahit: ``>=1.2.7``
    :depends perl: 
    :depends perl-file-spec: 
    :depends perl-findbin: 
    :depends pigz: 
-   :depends pilon: >=1.22
-   :depends samclip: >=0.4
-   :depends samtools: >=1.10
-   :depends seqtk: >=1.3
-   :depends skesa: >=2.2
-   :depends spades: >=3.14
-   :depends trimmomatic: >=0.36
-   :depends velvet: >=1.2.10
+   :depends pilon: ``>=1.22``
+   :depends samclip: ``>=0.4``
+   :depends samtools: ``>=1.10``
+   :depends seqtk: ``>=1.3``
+   :depends skesa: ``>=2.2``
+   :depends spades: ``>=3.14``
+   :depends trimmomatic: ``>=0.36``
+   :depends velvet: ``>=1.2.10``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ microhapdb
 
 .. conda:recipe:: microhapdb
    :replaces_section_title:
+   :noindex:
 
    Portable database of microhaplotype marker and allele frequency data.
 
@@ -22,10 +23,17 @@ microhapdb
 
    |downloads_microhapdb| |docker_microhapdb|
 
-   :versions: 0.5-0, 0.4.3-0, 0.4.1-0, 0.3-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.5-0``,  ``0.4.3-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``
+
+      
+
    
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

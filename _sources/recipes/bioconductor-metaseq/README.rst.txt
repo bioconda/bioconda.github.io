@@ -8,6 +8,7 @@ bioconductor-metaseq
 
 .. conda:recipe:: bioconductor-metaseq
    :replaces_section_title:
+   :noindex:
 
    Meta\-analysis of RNA\-Seq count data in multiple studies
 
@@ -23,14 +24,21 @@ bioconductor-metaseq
 
    |downloads_bioconductor-metaseq| |docker_bioconductor-metaseq|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.22.1-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-noiseq: >=2.31.0,<2.32.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-noiseq: ``>=2.31.0,<2.32.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcpp: 
    :depends r-snow: 
    :requirements:

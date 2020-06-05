@@ -8,6 +8,7 @@ ngmerge
 
 .. conda:recipe:: ngmerge
    :replaces_section_title:
+   :noindex:
 
    Merging paired\-end reads and removing sequencing adapters.
 
@@ -23,11 +24,18 @@ ngmerge
 
    |downloads_ngmerge| |docker_ngmerge|
 
-   :versions: 0.3-1, 0.3-0
+   :versions:
+      
+      
+
+      ``0.3-1``,  ``0.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends openmp: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

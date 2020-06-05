@@ -8,6 +8,7 @@ r2r
 
 .. conda:recipe:: r2r
    :replaces_section_title:
+   :noindex:
 
    software to speed depiction of aesthetic consensus RNA secondary structures
 
@@ -22,11 +23,18 @@ r2r
 
    |downloads_r2r| |docker_r2r|
 
-   :versions: 1.0.5-1, 1.0.5-0, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-clone: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-maqcexpression4plex
 
 .. conda:recipe:: bioconductor-maqcexpression4plex
    :replaces_section_title:
+   :noindex:
 
    Sample Expression Data \- MAQC \/ HG18 \- NimbleGen
 
@@ -22,10 +23,17 @@ bioconductor-maqcexpression4plex
 
    |downloads_bioconductor-maqcexpression4plex| |docker_bioconductor-maqcexpression4plex|
 
-   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-1, 1.28.0-0, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

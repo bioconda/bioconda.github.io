@@ -8,6 +8,7 @@ perl-io-socket-inet6
 
 .. conda:recipe:: perl-io-socket-inet6
    :replaces_section_title:
+   :noindex:
 
    Object interface for AF\_INET\/AF\_INET6 domain sockets
 
@@ -22,9 +23,16 @@ perl-io-socket-inet6
 
    |downloads_perl-io-socket-inet6| |docker_perl-io-socket-inet6|
 
-   :versions: 2.72-2, 2.72-0
+   :versions:
+      
+      
+
+      ``2.72-2``,  ``2.72-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-socket: 

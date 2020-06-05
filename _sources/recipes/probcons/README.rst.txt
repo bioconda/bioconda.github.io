@@ -8,6 +8,7 @@ probcons
 
 .. conda:recipe:: probcons
    :replaces_section_title:
+   :noindex:
 
    PROBCONS is a probabilistic consistency\-based multiple sequence alignment
 
@@ -23,11 +24,18 @@ probcons
 
    |downloads_probcons| |docker_probcons|
 
-   :versions: 1.12-0
+   :versions:
+      
+      
+
+      ``1.12-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

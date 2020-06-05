@@ -8,6 +8,7 @@ r-eacon
 
 .. conda:recipe:: r-eacon
    :replaces_section_title:
+   :noindex:
 
    Easy Copy Number. EaCoN aims to be an all\-packed in\, user\-friendly solution to perform relative or absolute copy\-number analysis for multiple sources of data\, with three different segmenters available \(and corresponding three copy\-number modelization methods\)
 
@@ -22,7 +23,14 @@ r-eacon
 
    |downloads_r-eacon| |docker_r-eacon|
 
-   :versions: 0.3.4_1-0
+   :versions:
+      
+      
+
+      ``0.3.4_1-0``
+
+      
+
    
    :depends ascat: 
    :depends bioconductor-affxparser: 
@@ -34,7 +42,7 @@ r-eacon
    :depends bioconductor-limma: 
    :depends bioconductor-rhdf5: 
    :depends bioconductor-rsamtools: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-bedr: 
    :depends r-changepoint: 
    :depends r-data.table: 

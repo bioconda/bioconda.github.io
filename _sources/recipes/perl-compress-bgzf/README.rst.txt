@@ -8,6 +8,7 @@ perl-compress-bgzf
 
 .. conda:recipe:: perl-compress-bgzf/0.005
    :replaces_section_title:
+   :noindex:
 
    Read\/write blocked GZIP \(BGZF\) files
 
@@ -22,9 +23,16 @@ perl-compress-bgzf
 
    |downloads_perl-compress-bgzf| |docker_perl-compress-bgzf|
 
-   :versions: 0.005-0
+   :versions:
+      
+      
+
+      ``0.005-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

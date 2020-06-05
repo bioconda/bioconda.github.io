@@ -8,6 +8,7 @@ rxdock
 
 .. conda:recipe:: rxdock
    :replaces_section_title:
+   :noindex:
 
    RxDock is a fork of rDock \(GitLab\)\, a fast\, versatile and open\-source program for docking ligands to proteins and nucleic acids.
 
@@ -23,13 +24,20 @@ rxdock
 
    |downloads_rxdock| |docker_rxdock|
 
-   :versions: 2013.1.1_148c5bd1-1, 2013.1.1_148c5bd1-0, 2013.1.0_b93747f3-0
+   :versions:
+      
+      
+
+      ``2013.1.1_148c5bd1-1``,  ``2013.1.1_148c5bd1-0``,  ``2013.1.0_b93747f3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
    :depends openbabel: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends python: 
    :requirements:
 

@@ -8,6 +8,7 @@ sdrf-pipelines
 
 .. conda:recipe:: sdrf-pipelines
    :replaces_section_title:
+   :noindex:
 
    Translate\, convert SDRF to configuration pipelines
 
@@ -22,12 +23,19 @@ sdrf-pipelines
 
    |downloads_sdrf-pipelines| |docker_sdrf-pipelines|
 
-   :versions: 0.0.5-0, 0.0.4-0, 0.0.3-0, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+
+      
+
    
    :depends click: 
    :depends pandas: 
    :depends pandas_schema: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends requests: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-etec16s
 
 .. conda:recipe:: bioconductor-etec16s
    :replaces_section_title:
+   :noindex:
 
    Individual\-specific changes in the human gut microbiota after challenge with enterotoxigenic Escherichia coli and subsequent ciprofloxacin treatment
 
@@ -22,12 +23,19 @@ bioconductor-etec16s
 
    |downloads_bioconductor-etec16s| |docker_bioconductor-etec16s|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-metagenomeseq: >=1.30.0,<1.31.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-metagenomeseq: ``>=1.30.0,<1.31.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

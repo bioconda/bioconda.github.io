@@ -8,6 +8,7 @@ onto2nx
 
 .. conda:recipe:: onto2nx
    :replaces_section_title:
+   :noindex:
 
    A package for parsing ontologies in the OWL and OBO format into NetworkX graphs
 
@@ -24,12 +25,19 @@ onto2nx
 
    |downloads_onto2nx| |docker_onto2nx|
 
-   :versions: 0.1.1-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``,  ``0.1.0-0``
+
+      
+
    
    :depends click: 
-   :depends networkx: 1.11
+   :depends networkx: ``1.11``
    :depends python: 
-   :depends rdflib: 4.2.1
+   :depends rdflib: ``4.2.1``
    :depends rdflib-jsonld: 
    :depends requests: 
    :depends requests-file: 

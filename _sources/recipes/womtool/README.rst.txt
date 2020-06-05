@@ -8,6 +8,7 @@ womtool
 
 .. conda:recipe:: womtool
    :replaces_section_title:
+   :noindex:
 
    Command line utilities for interacting with WDL
 
@@ -23,9 +24,24 @@ womtool
 
    |downloads_womtool| |docker_womtool|
 
-   :versions: 51-0, 50-0, 49-0, 48-0, 47-0, 46.1-0, 46-0, 45.1-0, 45-0, 44-0, 43-0, 42-0, 41-0, 40-0, 38-0, 36-0, 31-1, 31-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>51-0</code>,  <code>50-0</code>,  <code>49-0</code>,  <code>48-0</code>,  <code>47-0</code>,  <code>46.1-0</code>,  <code>46-0</code>,  <code>45.1-0</code>,  <code>45-0</code>,  </span></summary>
+      
+
+      ``51-0``,  ``50-0``,  ``49-0``,  ``48-0``,  ``47-0``,  ``46.1-0``,  ``46-0``,  ``45.1-0``,  ``45-0``,  ``44-0``,  ``43-0``,  ``42-0``,  ``41-0``,  ``40-0``,  ``38-0``,  ``36-0``,  ``31-1``,  ``31-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: 8.*
+   :depends openjdk: ``8.*``
    :depends python: 
    :requirements:
 

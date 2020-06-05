@@ -8,6 +8,7 @@ hlama
 
 .. conda:recipe:: hlama
    :replaces_section_title:
+   :noindex:
 
    Simple matching of HTS samples based on HLA typing
 
@@ -22,11 +23,18 @@ hlama
 
    |downloads_hlama| |docker_hlama|
 
-   :versions: 3.0.1-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3-0
+   :versions:
+      
+      
+
+      ``3.0.1-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3-0``
+
+      
+
    
-   :depends optitype: >=1.2
-   :depends python: >=3.5,<3.6.0a0
-   :depends snakemake: 3.7.1
+   :depends optitype: ``>=1.2``
+   :depends python: ``>=3.5,<3.6.0a0``
+   :depends snakemake: ``3.7.1``
    :requirements:
 
    .. rubric:: Installation

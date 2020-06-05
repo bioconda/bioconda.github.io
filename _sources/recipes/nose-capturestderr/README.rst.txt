@@ -8,6 +8,7 @@ nose-capturestderr
 
 .. conda:recipe:: nose-capturestderr
    :replaces_section_title:
+   :noindex:
 
    Nose plugin for capturing stderr.
 
@@ -22,10 +23,17 @@ nose-capturestderr
 
    |downloads_nose-capturestderr| |docker_nose-capturestderr|
 
-   :versions: 1.2-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.2-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends nose: >=0.11.1
-   :depends python: >=2.7,<2.8.0a0
+   :depends nose: ``>=0.11.1``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends setuptools: 
    :requirements:
 

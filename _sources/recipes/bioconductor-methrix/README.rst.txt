@@ -8,6 +8,7 @@ bioconductor-methrix
 
 .. conda:recipe:: bioconductor-methrix
    :replaces_section_title:
+   :noindex:
 
    Fast and efficient summarization of generic bedGraph files from Bisufite sequencing
 
@@ -22,15 +23,22 @@ bioconductor-methrix
 
    |downloads_bioconductor-methrix| |docker_bioconductor-methrix|
 
-   :versions: 1.2.05-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.05-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-delayedmatrixstats: >=1.10.0,<1.11.0
-   :depends bioconductor-hdf5array: >=1.16.0,<1.17.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-data.table: >=1.12.4
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-hdf5array: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: ``>=1.12.4``
    :depends r-ggplot2: 
    :depends r-matrixstats: 
    :depends r-rjson: 

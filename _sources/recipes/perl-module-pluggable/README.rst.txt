@@ -8,6 +8,7 @@ perl-module-pluggable
 
 .. conda:recipe:: perl-module-pluggable
    :replaces_section_title:
+   :noindex:
 
    automatically give your module the ability to have plugins
 
@@ -22,9 +23,16 @@ perl-module-pluggable
 
    |downloads_perl-module-pluggable| |docker_perl-module-pluggable|
 
-   :versions: 5.2-1, 5.2-0
+   :versions:
+      
+      
+
+      ``5.2-1``,  ``5.2-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter: 
    :requirements:
 

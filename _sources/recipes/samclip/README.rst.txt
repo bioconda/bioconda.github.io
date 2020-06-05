@@ -8,6 +8,7 @@ samclip
 
 .. conda:recipe:: samclip
    :replaces_section_title:
+   :noindex:
 
    Filter SAM file for soft and hard clipped alignments
 
@@ -22,7 +23,14 @@ samclip
 
    |downloads_samclip| |docker_samclip|
 
-   :versions: 0.4.0-0, 0.3.0-0, 0.2-2, 0.2-1, 0.2-0
+   :versions:
+      
+      
+
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+
+      
+
    
    :depends perl: 
    :requirements:

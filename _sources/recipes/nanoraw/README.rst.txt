@@ -8,6 +8,7 @@ nanoraw
 
 .. conda:recipe:: nanoraw
    :replaces_section_title:
+   :noindex:
 
    Analysis of nanopore sequencing data.
 
@@ -22,18 +23,25 @@ nanoraw
 
    |downloads_nanoraw| |docker_nanoraw|
 
-   :versions: 0.5-3, 0.5-2, 0.5-1, 0.5-0, 0.4.2-0, 0.4.1-0, 0.3.1-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``,  ``0.2-0``
+
+      
+
    
    :depends bwa: 
    :depends graphmap: 
    :depends h5py: 
    :depends hdf5: 
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends r-base: 
    :depends r-cowplot: 
    :depends r-ggplot2: 
-   :depends rpy2: >=2.4.2
+   :depends rpy2: ``>=2.4.2``
    :depends scipy: 
    :requirements:
 

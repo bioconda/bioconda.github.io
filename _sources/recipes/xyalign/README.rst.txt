@@ -8,6 +8,7 @@ xyalign
 
 .. conda:recipe:: xyalign
    :replaces_section_title:
+   :noindex:
 
    Command line tools and python library to infer ploidy\, correct for sex chromosome complement\, and work with NGS data
 
@@ -22,7 +23,14 @@ xyalign
 
    |downloads_xyalign| |docker_xyalign|
 
-   :versions: 1.1.5-0, 1.1.4-2, 1.1.4-0, 1.1.3-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.1.5-0``,  ``1.1.4-2``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.0.0-0``
+
+      
+
    
    :depends bbmap: 
    :depends bedtools: 
@@ -33,7 +41,7 @@ xyalign
    :depends platypus-variant: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends sambamba: 
    :depends samtools: 
    :depends scipy: 

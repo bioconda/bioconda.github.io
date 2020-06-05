@@ -8,6 +8,7 @@ r-statvisual
 
 .. conda:recipe:: r-statvisual
    :replaces_section_title:
+   :noindex:
 
    Visualization functions in the applications of translational medicine \(TM\) and biomarker \(BM\) development to compare groups by statistically visualizing data and\/or results of analyses\, such as visualizing data by displaying in one figure different groups\' histograms\, boxplots\, densities\, scatter plots\, error\-bar plots\, or trajectory plots\, by displaying scatter plots of top principal components or dendrograms with data points colored based on group information\, or visualizing volcano plots to check the results of whole genome analyses for gene differential expression. 
 
@@ -22,12 +23,19 @@ r-statvisual
 
    |downloads_r-statvisual| |docker_r-statvisual|
 
-   :versions: 1.2.1-1, 1.2.1-0, 1.1.9-0, 1.1.8-0
+   :versions:
+      
+      
+
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.9-0``,  ``1.1.8-0``
+
+      
+
    
    :depends bioconductor-biobase: 
    :depends bioconductor-limma: 
    :depends bioconductor-pvca: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-factoextra: 
    :depends r-forestplot: 

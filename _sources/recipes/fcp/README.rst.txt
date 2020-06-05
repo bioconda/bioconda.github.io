@@ -8,6 +8,7 @@ fcp
 
 .. conda:recipe:: fcp
    :replaces_section_title:
+   :noindex:
 
    Homology\- and composition\-based classifiers for assigning a taxonomic attribution to metagenomic fragments.
 
@@ -22,11 +23,18 @@ fcp
 
    |downloads_fcp| |docker_fcp|
 
-   :versions: 1.0.7-0
+   :versions:
+      
+      
+
+      ``1.0.7-0``
+
+      
+
    
    :depends blast: 
    :depends libgcc: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

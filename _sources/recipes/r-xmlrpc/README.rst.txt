@@ -8,6 +8,7 @@ r-xmlrpc
 
 .. conda:recipe:: r-xmlrpc
    :replaces_section_title:
+   :noindex:
 
    A simple implementation of XML\-RPC for R.
 
@@ -22,9 +23,16 @@ r-xmlrpc
 
    |downloads_r-xmlrpc| |docker_r-xmlrpc|
 
-   :versions: 0.2_4-3, 0.2_4-0
+   :versions:
+      
+      
+
+      ``0.2_4-3``,  ``0.2_4-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcurl: 
    :depends r-xml: 
    :requirements:

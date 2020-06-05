@@ -8,6 +8,7 @@ mtsv-tools
 
 .. conda:recipe:: mtsv-tools
    :replaces_section_title:
+   :noindex:
 
    mtsv\_tools contains core tools for alignment\-based metagenomic binning
 
@@ -23,9 +24,16 @@ mtsv-tools
 
    |downloads_mtsv-tools| |docker_mtsv-tools|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

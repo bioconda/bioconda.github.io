@@ -8,6 +8,7 @@ shapeshifter-cli
 
 .. conda:recipe:: shapeshifter-cli
    :replaces_section_title:
+   :noindex:
 
    A command\-line tool for transforming large data sets
 
@@ -22,10 +23,17 @@ shapeshifter-cli
 
    |downloads_shapeshifter-cli| |docker_shapeshifter-cli|
 
-   :versions: 1.0.0-0, 0.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``0.0.3-0``
+
+      
+
    
    :depends pandas: 
-   :depends python: >3
+   :depends python: ``>3``
    :depends shapeshifter: 
    :requirements:
 

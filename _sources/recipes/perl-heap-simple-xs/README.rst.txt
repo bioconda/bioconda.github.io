@@ -8,6 +8,7 @@ perl-heap-simple-xs
 
 .. conda:recipe:: perl-heap-simple-xs
    :replaces_section_title:
+   :noindex:
 
    An XS implementation of the Heap\:\:Simple interface
 
@@ -22,10 +23,17 @@ perl-heap-simple-xs
 
    |downloads_perl-heap-simple-xs| |docker_perl-heap-simple-xs|
 
-   :versions: 0.10-2, 0.10-1, 0.10-0
+   :versions:
+      
+      
+
+      ``0.10-2``,  ``0.10-1``,  ``0.10-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

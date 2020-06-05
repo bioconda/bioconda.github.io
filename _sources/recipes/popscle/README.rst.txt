@@ -8,6 +8,7 @@ popscle
 
 .. conda:recipe:: popscle
    :replaces_section_title:
+   :noindex:
 
    A suite of population scale analysis tools for single\-cell genomics data including implementation of Demuxlet \/ Freemuxlet methods and auxilary tools
 
@@ -22,14 +23,21 @@ popscle
 
    |downloads_popscle| |docker_popscle|
 
-   :versions: 0.1beta-0
+   :versions:
+      
+      
+
+      ``0.1beta-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends samtools: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

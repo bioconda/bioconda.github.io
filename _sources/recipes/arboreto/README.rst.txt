@@ -8,6 +8,7 @@ arboreto
 
 .. conda:recipe:: arboreto
    :replaces_section_title:
+   :noindex:
 
    Scalable gene regulatory network inference using tree\-based ensemble regressors
 
@@ -22,7 +23,14 @@ arboreto
 
    |downloads_arboreto| |docker_arboreto|
 
-   :versions: 0.1.5-0
+   :versions:
+      
+      
+
+      ``0.1.5-0``
+
+      
+
    
    :depends dask: 
    :depends distributed: 

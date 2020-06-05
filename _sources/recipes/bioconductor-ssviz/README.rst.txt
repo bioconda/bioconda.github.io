@@ -8,6 +8,7 @@ bioconductor-ssviz
 
 .. conda:recipe:: bioconductor-ssviz
    :replaces_section_title:
+   :noindex:
 
    A small RNA\-seq visualizer and analysis toolkit
 
@@ -23,11 +24,18 @@ bioconductor-ssviz
 
    |downloads_bioconductor-ssviz| |docker_bioconductor-ssviz|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-rcolorbrewer: 
    :depends r-reshape: 

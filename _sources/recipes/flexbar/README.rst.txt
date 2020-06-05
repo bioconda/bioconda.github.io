@@ -8,6 +8,7 @@ flexbar
 
 .. conda:recipe:: flexbar/3.5.0
    :replaces_section_title:
+   :noindex:
 
    Flexible barcode and adapter removal
 
@@ -23,14 +24,21 @@ flexbar
 
    |downloads_flexbar| |docker_flexbar|
 
-   :versions: 3.5.0-3, 3.5.0-2, 3.3.0-1, 2.5.0-2, 2.5.0-1, 2.5.0-0
+   :versions:
+      
+      
+
+      ``3.5.0-3``,  ``3.5.0-2``,  ``3.3.0-1``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends seqan-library: 
-   :depends tbb: >=2019.7
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends tbb: ``>=2019.7``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

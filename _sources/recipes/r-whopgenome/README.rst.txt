@@ -8,6 +8,7 @@ r-whopgenome
 
 .. conda:recipe:: r-whopgenome
    :replaces_section_title:
+   :noindex:
 
    Provides very fast access to whole genome\, population scale variation data from VCF files and sequence data from FASTA\-formatted files. It also reads in alignments from FASTA\, Phylip\, MAF and other file formats. Provides easy\-to\-use interfaces to genome annotation from UCSC and Bioconductor and gene ontology data from AmiGO and is capable to read\, modify and write PLINK .PED\-format pedigree files.
 
@@ -22,11 +23,18 @@ r-whopgenome
 
    |downloads_r-whopgenome| |docker_r-whopgenome|
 
-   :versions: 0.9.7-3, 0.9.7-2, 0.9.7-1, 0.9.7-0
+   :versions:
+      
+      
+
+      ``0.9.7-3``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

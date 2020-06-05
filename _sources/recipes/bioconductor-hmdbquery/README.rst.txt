@@ -8,6 +8,7 @@ bioconductor-hmdbquery
 
 .. conda:recipe:: bioconductor-hmdbquery
    :replaces_section_title:
+   :noindex:
 
    utilities for exploration of human metabolome database
 
@@ -22,10 +23,17 @@ bioconductor-hmdbquery
 
    |downloads_bioconductor-hmdbquery| |docker_bioconductor-hmdbquery|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-xml: 
    :requirements:
 

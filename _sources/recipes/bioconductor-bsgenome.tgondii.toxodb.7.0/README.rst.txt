@@ -8,6 +8,7 @@ bioconductor-bsgenome.tgondii.toxodb.7.0
 
 .. conda:recipe:: bioconductor-bsgenome.tgondii.toxodb.7.0
    :replaces_section_title:
+   :noindex:
 
    Toxoplasma gondii ME49 \(ToxoDB\-7.0\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.tgondii.toxodb.7.0
 
    |downloads_bioconductor-bsgenome.tgondii.toxodb.7.0| |docker_bioconductor-bsgenome.tgondii.toxodb.7.0|
 
-   :versions: 0.99.0-4, 0.99.0-3, 0.99.0-2, 0.99.0-0
+   :versions:
+      
+      
+
+      ``0.99.0-4``,  ``0.99.0-3``,  ``0.99.0-2``,  ``0.99.0-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

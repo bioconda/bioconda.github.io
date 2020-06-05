@@ -8,6 +8,7 @@ libis
 
 .. conda:recipe:: libis
    :replaces_section_title:
+   :noindex:
 
    Low input Bisulfite sequencing alignment
 
@@ -22,17 +23,32 @@ libis
 
    |downloads_libis| |docker_libis|
 
-   :versions: 0.1.5.3-0, 0.1.5.2-0, 0.1.5.1-0, 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.15-2, 0.0.15-0, 0.0.14-0, 0.0.12-0, 0.0.11-0, 0.0.9-2, 0.0.9-1, 0.0.9-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.1.5.3-0</code>,  <code>0.1.5.2-0</code>,  <code>0.1.5.1-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  </span></summary>
+      
+
+      ``0.1.5.3-0``,  ``0.1.5.2-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.15-2``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.9-2``,  ``0.0.9-1``,  ``0.0.9-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedtools: 
    :depends cutadapt: 
    :depends fastqc: 
    :depends matplotlib-base: 
-   :depends moabs: >=1.3.8.5
+   :depends moabs: ``>=1.3.8.5``
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: >=0.15.3
-   :depends python: >=3
+   :depends pysam: ``>=0.15.3``
+   :depends python: ``>=3``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 

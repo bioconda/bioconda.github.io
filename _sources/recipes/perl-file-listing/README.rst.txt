@@ -8,6 +8,7 @@ perl-file-listing
 
 .. conda:recipe:: perl-file-listing
    :replaces_section_title:
+   :noindex:
 
    parse directory listing
 
@@ -22,9 +23,16 @@ perl-file-listing
 
    |downloads_perl-file-listing| |docker_perl-file-listing|
 
-   :versions: 6.04-1, 6.04-0
+   :versions:
+      
+      
+
+      ``6.04-1``,  ``6.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-http-date: 
    :requirements:
 

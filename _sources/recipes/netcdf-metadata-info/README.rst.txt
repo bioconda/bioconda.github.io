@@ -8,6 +8,7 @@ netcdf-metadata-info
 
 .. conda:recipe:: netcdf-metadata-info
    :replaces_section_title:
+   :noindex:
 
    Metadata information from netcdf file for Galaxy use.
 
@@ -22,10 +23,17 @@ netcdf-metadata-info
 
    |downloads_netcdf-metadata-info| |docker_netcdf-metadata-info|
 
-   :versions: 1.1.6-1, 1.1.6-0
+   :versions:
+      
+      
+
+      ``1.1.6-1``,  ``1.1.6-0``
+
+      
+
    
    :depends libgcc: 
-   :depends libnetcdf: >=4.4.1.1,<4.5.0a0
+   :depends libnetcdf: ``>=4.4.1.1,<4.5.0a0``
    :requirements:
 
    .. rubric:: Installation

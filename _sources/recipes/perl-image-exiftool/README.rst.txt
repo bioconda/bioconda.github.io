@@ -8,6 +8,7 @@ perl-image-exiftool
 
 .. conda:recipe:: perl-image-exiftool
    :replaces_section_title:
+   :noindex:
 
    ExifTool is a platform\-independent Perl library plus a command\-line application for reading\, writing and editing meta information in a wide variety of files.
 
@@ -22,9 +23,16 @@ perl-image-exiftool
 
    |downloads_perl-image-exiftool| |docker_perl-image-exiftool|
 
-   :versions: 11.50-0, 11.30-0, 11.11-0, 11.01-1, 11.01-0, 10.40-2, 10.40-0
+   :versions:
+      
+      
+
+      ``11.50-0``,  ``11.30-0``,  ``11.11-0``,  ``11.01-1``,  ``11.01-0``,  ``10.40-2``,  ``10.40-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

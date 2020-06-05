@@ -8,6 +8,7 @@ bioconductor-huexexonprobesetlocationhg18
 
 .. conda:recipe:: bioconductor-huexexonprobesetlocationhg18
    :replaces_section_title:
+   :noindex:
 
    Exon\-level probeset chromosome location for microarrays of type HuEx
 
@@ -22,11 +23,18 @@ bioconductor-huexexonprobesetlocationhg18
 
    |downloads_bioconductor-huexexonprobesetlocationhg18| |docker_bioconductor-huexexonprobesetlocationhg18|
 
-   :versions: 0.0.2-4, 0.0.2-3, 0.0.2-2, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.2-4``,  ``0.0.2-3``,  ``0.0.2-2``,  ``0.0.2-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

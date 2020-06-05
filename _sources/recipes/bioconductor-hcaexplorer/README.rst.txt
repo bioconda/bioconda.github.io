@@ -8,6 +8,7 @@ bioconductor-hcaexplorer
 
 .. conda:recipe:: bioconductor-hcaexplorer
    :replaces_section_title:
+   :noindex:
 
    Browse the Human Cell Atlas data portal
 
@@ -22,10 +23,17 @@ bioconductor-hcaexplorer
 
    |downloads_bioconductor-hcaexplorer| |docker_bioconductor-hcaexplorer|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-curl: 
    :depends r-dplyr: 
    :depends r-httr: 

@@ -8,6 +8,7 @@ bioconductor-rnainteractmapk
 
 .. conda:recipe:: bioconductor-rnainteractmapk
    :replaces_section_title:
+   :noindex:
 
    Mapping of Signalling Networks through Synthetic Genetic Interaction Analysis by RNAi
 
@@ -22,12 +23,19 @@ bioconductor-rnainteractmapk
 
    |downloads_bioconductor-rnainteractmapk| |docker_bioconductor-rnainteractmapk|
 
-   :versions: 1.25.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.25.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-rnainteract: >=1.36.0,<1.37.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-rnainteract: ``>=1.36.0,<1.37.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fields: 
    :depends r-gdata: 
    :depends r-mass: 

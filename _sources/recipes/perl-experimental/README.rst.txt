@@ -8,6 +8,7 @@ perl-experimental
 
 .. conda:recipe:: perl-experimental
    :replaces_section_title:
+   :noindex:
 
    Experimental features made easy
 
@@ -22,9 +23,16 @@ perl-experimental
 
    |downloads_perl-experimental| |docker_perl-experimental|
 
-   :versions: 0.020-0
+   :versions:
+      
+      
+
+      ``0.020-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-version: 
    :requirements:

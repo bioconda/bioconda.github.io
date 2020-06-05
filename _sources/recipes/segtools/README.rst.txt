@@ -8,6 +8,7 @@ segtools
 
 .. conda:recipe:: segtools
    :replaces_section_title:
+   :noindex:
 
    a python package for analyzing genomic segmentations
 
@@ -23,7 +24,14 @@ segtools
 
    |downloads_segtools| |docker_segtools|
 
-   :versions: 1.2.4-0, 1.2.3-0, 1.2.2-0, 1.2.1-2, 1.2.1-1, 1.2.1-0, 1.1.14-2, 1.1.14-1, 1.1.14-0
+   :versions:
+      
+      
+
+      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.14-2``,  ``1.1.14-1``,  ``1.1.14-0``
+
+      
+
    
    :depends genomedata: 
    :depends gmtk: 
@@ -31,12 +39,12 @@ segtools
    :depends numpy: 
    :depends pygraphviz: 
    :depends python: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-cairo: 
    :depends r-cluster: 
    :depends r-latticeextra: 
    :depends r-reshape2: 
-   :depends rpy2: >=2.6.0
+   :depends rpy2: ``>=2.6.0``
    :depends textinput: 
    :requirements:
 

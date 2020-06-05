@@ -8,6 +8,7 @@ goetia
 
 .. conda:recipe:: goetia
    :replaces_section_title:
+   :noindex:
 
    streaming de Bruijn graph compaction and sketching.
 
@@ -22,24 +23,31 @@ goetia
 
    |downloads_goetia| |docker_goetia|
 
-   :versions: 0.14-0, 0.13-0
+   :versions:
+      
+      
+
+      ``0.14-0``,  ``0.13-0``
+
+      
+
    
    :depends blessings: 
    :depends clangdev: 
-   :depends cppyy: >=1.5.5
+   :depends cppyy: ``>=1.5.5``
    :depends curio: 
    :depends jsonschema: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends numpy: 
    :depends openmp: 
    :depends py-cpuinfo: 
    :depends pyfiglet: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends screed: 
    :depends sourmash: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

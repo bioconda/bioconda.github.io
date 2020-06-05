@@ -8,6 +8,7 @@ bioconductor-cnvgsa
 
 .. conda:recipe:: bioconductor-cnvgsa
    :replaces_section_title:
+   :noindex:
 
    Gene Set Analysis of \(Rare\) Copy Number Variants
 
@@ -23,10 +24,17 @@ bioconductor-cnvgsa
 
    |downloads_bioconductor-cnvgsa| |docker_bioconductor-cnvgsa|
 
-   :versions: 1.32.0-0, 1.30.0-0, 1.28.0-1, 1.26.0-0, 1.24.0-0, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-brglm: 
    :depends r-doparallel: 
    :depends r-foreach: 

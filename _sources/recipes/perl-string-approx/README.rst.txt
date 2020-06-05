@@ -8,6 +8,7 @@ perl-string-approx
 
 .. conda:recipe:: perl-string-approx/3.27
    :replaces_section_title:
+   :noindex:
 
    Perl extension for approximate matching \(fuzzy matching\)
 
@@ -22,9 +23,16 @@ perl-string-approx
 
    |downloads_perl-string-approx| |docker_perl-string-approx|
 
-   :versions: 3.27-1, 3.27-0
+   :versions:
+      
+      
+
+      ``3.27-1``,  ``3.27-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-test-more: 
    :requirements:
 

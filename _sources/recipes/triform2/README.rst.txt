@@ -8,6 +8,7 @@ triform2
 
 .. conda:recipe:: triform2
    :replaces_section_title:
+   :noindex:
 
    Improved sensitivity\, specificity and control of false discovery rates in ChIP\-Seq peak finding.
 
@@ -22,7 +23,14 @@ triform2
 
    |downloads_triform2| |docker_triform2|
 
-   :versions: 0.0.5-1, 0.0.5-0
+   :versions:
+      
+      
+
+      ``0.0.5-1``,  ``0.0.5-0``
+
+      
+
    
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-genomicranges: 
@@ -32,9 +40,9 @@ triform2
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
-   :depends r-base: >=3.4.1,<3.4.2.0a0
-   :depends rpy2: >=2.4.2
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends r-base: ``>=3.4.1,<3.4.2.0a0``
+   :depends rpy2: ``>=2.4.2``
    :depends scipy: 
    :requirements:
 

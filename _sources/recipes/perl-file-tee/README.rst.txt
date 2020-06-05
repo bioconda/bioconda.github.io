@@ -8,6 +8,7 @@ perl-file-tee
 
 .. conda:recipe:: perl-file-tee/0.07
    :replaces_section_title:
+   :noindex:
 
    replicate data sent to a Perl stream
 
@@ -22,9 +23,16 @@ perl-file-tee
 
    |downloads_perl-file-tee| |docker_perl-file-tee|
 
-   :versions: 0.07-1, 0.07-0
+   :versions:
+      
+      
+
+      ``0.07-1``,  ``0.07-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

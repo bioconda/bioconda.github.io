@@ -8,6 +8,7 @@ shannon_cpp
 
 .. conda:recipe:: shannon_cpp
    :replaces_section_title:
+   :noindex:
 
    shannon\_cpp is command line tool for denovo rna assembly
 
@@ -22,21 +23,28 @@ shannon_cpp
 
    |downloads_shannon_cpp| |docker_shannon_cpp|
 
-   :versions: 0.5.0-0, 0.4.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-0``,  ``0.4.0-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
    :depends coreutils: 
-   :depends glpk: >=4.65,<4.66.0a0
-   :depends kmer-jellyfish: 2.*
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends metis: >=5.1.0,<5.2.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends python: >=2.7,<2.8.0a0
-   :depends rcorrector: 1.*
+   :depends glpk: ``>=4.65,<4.66.0a0``
+   :depends kmer-jellyfish: ``2.*``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends metis: ``>=5.1.0,<5.2.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends rcorrector: ``1.*``
    :depends sparsehash: 
    :depends wget: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

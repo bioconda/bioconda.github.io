@@ -8,6 +8,7 @@ bioconductor-flowplots
 
 .. conda:recipe:: bioconductor-flowplots
    :replaces_section_title:
+   :noindex:
 
    flowPlots\: analysis plots and data class for gated flow cytometry data
 
@@ -22,9 +23,16 @@ bioconductor-flowplots
 
    |downloads_bioconductor-flowplots| |docker_bioconductor-flowplots|
 
-   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-1, 1.32.0-0, 1.30.1-0
+   :versions:
+      
+      
+
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ fadapa
 
 .. conda:recipe:: fadapa
    :replaces_section_title:
+   :noindex:
 
    FAstqc DAta PArser \- A minimal parser to parse FastQC output data
 
@@ -22,7 +23,14 @@ fadapa
 
    |downloads_fadapa| |docker_fadapa|
 
-   :versions: 0.3.1-1, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.3.1-1``,  ``0.3.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

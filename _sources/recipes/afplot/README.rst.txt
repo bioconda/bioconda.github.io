@@ -8,6 +8,7 @@ afplot
 
 .. conda:recipe:: afplot
    :replaces_section_title:
+   :noindex:
 
    Plot allele frequencies in VCF files
 
@@ -22,7 +23,14 @@ afplot
 
    |downloads_afplot| |docker_afplot|
 
-   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+
+      
+
    
    :depends click: 
    :depends matplotlib: 
@@ -30,7 +38,7 @@ afplot
    :depends pandas: 
    :depends progressbar2: 
    :depends pysam: 
-   :depends python: >=3.4
+   :depends python: ``>=3.4``
    :depends pyvcf: 
    :depends seaborn: 
    :requirements:

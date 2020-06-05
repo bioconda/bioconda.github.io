@@ -8,6 +8,7 @@ bioconductor-variantexperiment
 
 .. conda:recipe:: bioconductor-variantexperiment
    :replaces_section_title:
+   :noindex:
 
    A RangedSummarizedExperiment Container for VCF\/GDS Data with GDS Backend
 
@@ -22,21 +23,28 @@ bioconductor-variantexperiment
 
    |downloads_bioconductor-variantexperiment| |docker_bioconductor-variantexperiment|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-delayeddataframe: >=1.4.0,<1.5.0
-   :depends bioconductor-gdsarray: >=1.8.0,<1.9.0
-   :depends bioconductor-gdsfmt: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-seqarray: >=1.28.0,<1.29.0
-   :depends bioconductor-seqvartools: >=1.26.0,<1.27.0
-   :depends bioconductor-snprelate: >=1.22.0,<1.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-delayeddataframe: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-gdsarray: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-gdsfmt: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-seqarray: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-seqvartools: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-snprelate: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

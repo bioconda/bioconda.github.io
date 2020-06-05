@@ -8,6 +8,7 @@ egglib
 
 .. conda:recipe:: egglib
    :replaces_section_title:
+   :noindex:
 
    EggLib is a C\+\+\/Python library and program package for evolutionary genetics and genomics. Main features are sequence data management\, sequence polymorphism analysis\, and coalescent simulations. EggLib is a flexible Python module with a performant underlying C\+\+ library and allows fast and intuitive development of Python programs and scripts.
 
@@ -23,10 +24,17 @@ egglib
 
    |downloads_egglib| |docker_egglib|
 
-   :versions: 3.0.0b21-1, 3.0.0b21-0
+   :versions:
+      
+      
+
+      ``3.0.0b21-1``,  ``3.0.0b21-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends python: >=2.7,<2.8.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

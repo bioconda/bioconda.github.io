@@ -8,6 +8,7 @@ cas-offinder
 
 .. conda:recipe:: cas-offinder
    :replaces_section_title:
+   :noindex:
 
    Cas\-OFFinder is OpenCL based\, ultrafast and versatile program that searches for potential off\-target sites of CRISPR\/Cas\-derived RNA\-guided endonucleases \(RGEN\).
 
@@ -22,7 +23,14 @@ cas-offinder
 
    |downloads_cas-offinder| |docker_cas-offinder|
 
-   :versions: 2.4-1, 2.4-0
+   :versions:
+      
+      
+
+      ``2.4-1``,  ``2.4-0``
+
+      
+
    
    :depends cmake: 
    :requirements:

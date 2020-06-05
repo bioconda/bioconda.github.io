@@ -8,6 +8,7 @@ bifrost
 
 .. conda:recipe:: bifrost
    :replaces_section_title:
+   :noindex:
 
    Highly parallel construction and indexing of colored and compacted de Bruijn graphs
 
@@ -23,12 +24,19 @@ bifrost
 
    |downloads_bifrost| |docker_bifrost|
 
-   :versions: 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends pthread-stubs: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

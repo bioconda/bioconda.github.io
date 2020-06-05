@@ -8,6 +8,7 @@ seqan3
 
 .. conda:recipe:: seqan3
    :replaces_section_title:
+   :noindex:
 
    SeqAn3 is the new version of the popular SeqAn template library for the analysis of biological sequences.
 
@@ -25,10 +26,17 @@ seqan3
 
    |downloads_seqan3| |docker_seqan3|
 
-   :versions: 3.0.1-0, 3.0.0-1, 3.0.0-0
+   :versions:
+      
+      
+
+      ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

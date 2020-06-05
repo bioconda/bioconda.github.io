@@ -8,6 +8,7 @@ bioconductor-netdx.examples
 
 .. conda:recipe:: bioconductor-netdx.examples
    :replaces_section_title:
+   :noindex:
 
    Companion data package to netDx
 
@@ -22,10 +23,17 @@ bioconductor-netdx.examples
 
    |downloads_bioconductor-netdx.examples| |docker_bioconductor-netdx.examples|
 
-   :versions: 0.99.3-0
+   :versions:
+      
+      
+
+      ``0.99.3-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

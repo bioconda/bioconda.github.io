@@ -8,6 +8,7 @@ bioconductor-qplexanalyzer
 
 .. conda:recipe:: bioconductor-qplexanalyzer
    :replaces_section_title:
+   :noindex:
 
    Tools for qPLEX\-RIME data analysis
 
@@ -22,18 +23,25 @@ bioconductor-qplexanalyzer
 
    |downloads_bioconductor-qplexanalyzer| |docker_bioconductor-qplexanalyzer|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggdendro: 
    :depends r-ggplot2: 

@@ -8,6 +8,7 @@ ped_parser
 
 .. conda:recipe:: ped_parser
    :replaces_section_title:
+   :noindex:
 
    A ped file parser.
 
@@ -22,7 +23,14 @@ ped_parser
 
    |downloads_ped_parser| |docker_ped_parser|
 
-   :versions: 1.6.6-2, 1.6.6-1, 1.6.6-0, 1.6.5-1, 1.6.5-0
+   :versions:
+      
+      
+
+      ``1.6.6-2``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``
+
+      
+
    
    :depends click: 
    :depends pytest: 

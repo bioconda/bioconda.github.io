@@ -8,6 +8,7 @@ eukcc
 
 .. conda:recipe:: eukcc
    :replaces_section_title:
+   :noindex:
 
    Check eukaryotic genomes or MAGs for completeness and contamination
 
@@ -24,15 +25,22 @@ eukcc
 
    |downloads_eukcc| |docker_eukcc|
 
-   :versions: 0.1.4.6-0
+   :versions:
+      
+      
+
+      ``0.1.4.6-0``
+
+      
+
    
    :depends configargparse: 
    :depends ete3: 
-   :depends hmmer: >=3.2
+   :depends hmmer: ``>=3.2``
    :depends pplacer: 
    :depends pyfaidx: 
    :depends pygmes: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends pyyaml: 
    :requirements:
 

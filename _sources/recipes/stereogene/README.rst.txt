@@ -8,6 +8,7 @@ stereogene
 
 .. conda:recipe:: stereogene
    :replaces_section_title:
+   :noindex:
 
    StereoGene\: Rapid Estimation of Genomewide Correlation of Continuous or Interval Feature Data
 
@@ -23,9 +24,16 @@ stereogene
 
    |downloads_stereogene| |docker_stereogene|
 
-   :versions: 2.20-1, 2.20-0
+   :versions:
+      
+      
+
+      ``2.20-1``,  ``2.20-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

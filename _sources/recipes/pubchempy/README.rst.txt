@@ -8,6 +8,7 @@ pubchempy
 
 .. conda:recipe:: pubchempy
    :replaces_section_title:
+   :noindex:
 
    A simple Python wrapper around the PubChem PUG REST API.
 
@@ -24,7 +25,14 @@ pubchempy
 
    |downloads_pubchempy| |docker_pubchempy|
 
-   :versions: 1.0.4-1, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.0.4-1``,  ``1.0.4-0``
+
+      
+
    
    :depends python: 
    :requirements:

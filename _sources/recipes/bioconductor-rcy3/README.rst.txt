@@ -8,6 +8,7 @@ bioconductor-rcy3
 
 .. conda:recipe:: bioconductor-rcy3
    :replaces_section_title:
+   :noindex:
 
    Functions to Access and Control Cytoscape
 
@@ -22,12 +23,19 @@ bioconductor-rcy3
 
    |downloads_bioconductor-rcy3| |docker_bioconductor-rcy3|
 
-   :versions: 2.8.0-0, 2.6.0-0, 2.4.3-0, 2.2.9-0, 2.2.6-0, 2.0.88-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.3-0``,  ``2.2.9-0``,  ``2.2.6-0``,  ``2.0.88-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends cytoscape: >=3.7.1
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends cytoscape: ``>=3.7.1``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 
    :depends r-igraph: 
    :depends r-r.utils: 

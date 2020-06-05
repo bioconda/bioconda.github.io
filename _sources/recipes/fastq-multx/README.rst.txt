@@ -8,6 +8,7 @@ fastq-multx
 
 .. conda:recipe:: fastq-multx
    :replaces_section_title:
+   :noindex:
 
    Demultiplexes a fastq. Capable of auto\-determining barcode id\'s based on a master set fields. Keeps multiple reads in\-sync during demultiplexing. Can verify that the reads are in\-sync as well\, and fail if they\'re not.
 
@@ -22,9 +23,16 @@ fastq-multx
 
    |downloads_fastq-multx| |docker_fastq-multx|
 
-   :versions: 1.3.1-3, 1.3.1-2, 1.3.0-2, 1.3.0-1
+   :versions:
+      
+      
+
+      ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.0-2``,  ``1.3.0-1``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

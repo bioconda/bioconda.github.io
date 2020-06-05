@@ -8,6 +8,7 @@ r-prestor
 
 .. conda:recipe:: r-prestor
    :replaces_section_title:
+   :noindex:
 
    A prototype package for generating quality control plots from pRESTO output.
 
@@ -22,15 +23,22 @@ r-prestor
 
    |downloads_r-prestor| |docker_r-prestor|
 
-   :versions: 0.0.5-0
+   :versions:
+      
+      
+
+      ``0.0.5-0``
+
+      
+
    
-   :depends r-alakazam: >=0.2.11
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-alakazam: ``>=0.2.11``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-bibtex: 
    :depends r-captioner: 
    :depends r-devtools: 
    :depends r-dplyr: 
-   :depends r-ggplot2: >=2
+   :depends r-ggplot2: ``>=2``
    :depends r-hexbin: 
    :depends r-knitr: 
    :depends r-lazyeval: 

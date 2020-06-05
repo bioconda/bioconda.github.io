@@ -8,6 +8,7 @@ contigtax
 
 .. conda:recipe:: contigtax
    :replaces_section_title:
+   :noindex:
 
    Assign taxonomy to metagenomic contigs \(previously know as tango\)
 
@@ -22,14 +23,21 @@ contigtax
 
    |downloads_contigtax| |docker_contigtax|
 
-   :versions: 0.5.9-0
+   :versions:
+      
+      
+
+      ``0.5.9-0``
+
+      
+
    
    :depends biopython: 
-   :depends diamond: >=0.8.37,<=0.9.24
+   :depends diamond: ``>=0.8.37,<=0.9.24``
    :depends ete3: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends tqdm: 
    :requirements:
 

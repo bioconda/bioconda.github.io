@@ -8,6 +8,7 @@ bioconductor-diffcyt
 
 .. conda:recipe:: bioconductor-diffcyt
    :replaces_section_title:
+   :noindex:
 
    Differential discovery in high\-dimensional cytometry via high\-resolution clustering
 
@@ -22,16 +23,23 @@ bioconductor-diffcyt
 
    |downloads_bioconductor-diffcyt| |docker_bioconductor-diffcyt|
 
-   :versions: 1.8.6-0, 1.6.0-0, 1.4.3-0, 1.2.23-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.6-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.2.23-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowsom: >=1.20.0,<1.21.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowsom: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-dplyr: 
    :depends r-lme4: 

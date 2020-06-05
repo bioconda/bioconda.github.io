@@ -8,6 +8,7 @@ cortexpy
 
 .. conda:recipe:: cortexpy
    :replaces_section_title:
+   :noindex:
 
    A Python API for manipulating \(Mc\)Cortex de novo assembly graph and link data
 
@@ -24,17 +25,24 @@ cortexpy
 
    |downloads_cortexpy| |docker_cortexpy|
 
-   :versions: 0.46.5-0, 0.46.4-0, 0.45.7-0, 0.45.6-0, 0.44.0-0, 0.41.1-0
+   :versions:
+      
+      
+
+      ``0.46.5-0``,  ``0.46.4-0``,  ``0.45.7-0``,  ``0.45.6-0``,  ``0.44.0-0``,  ``0.41.1-0``
+
+      
+
    
    :depends attrs: 
    :depends biopython: 
    :depends delegation: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends msgpack-python: 
    :depends networkx: 
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends pyyaml: 
    :depends schema: 
    :requirements:

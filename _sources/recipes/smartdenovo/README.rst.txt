@@ -8,6 +8,7 @@ smartdenovo
 
 .. conda:recipe:: smartdenovo
    :replaces_section_title:
+   :noindex:
 
    Ultra\-fast de novo assembler using long noisy reads
 
@@ -22,9 +23,16 @@ smartdenovo
 
    |downloads_smartdenovo| |docker_smartdenovo|
 
-   :versions: 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends perl: 
    :requirements:
 

@@ -8,6 +8,7 @@ readseq
 
 .. conda:recipe:: readseq
    :replaces_section_title:
+   :noindex:
 
    Read \& reformat biosequences\, Java command\-line version
 
@@ -22,7 +23,14 @@ readseq
 
    |downloads_readseq| |docker_readseq|
 
-   :versions: 2.1.30-1, 2.1.30-0
+   :versions:
+      
+      
+
+      ``2.1.30-1``,  ``2.1.30-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

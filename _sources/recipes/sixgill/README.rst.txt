@@ -8,6 +8,7 @@ sixgill
 
 .. conda:recipe:: sixgill
    :replaces_section_title:
+   :noindex:
 
    six\-frame genome\-inferred libraries for LC\-MS\/MS
 
@@ -23,11 +24,18 @@ sixgill
 
    |downloads_sixgill| |docker_sixgill|
 
-   :versions: 0.2.4-3, 0.2.4-2, 0.2.4-1, 0.2.4-0, 0.2.3-0
+   :versions:
+      
+      
+
+      ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``
+
+      
+
    
    :depends biopython: 
-   :depends pysam: >=0.9.0
-   :depends python: <3
+   :depends pysam: ``>=0.9.0``
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

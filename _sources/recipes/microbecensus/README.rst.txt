@@ -8,6 +8,7 @@ microbecensus
 
 .. conda:recipe:: microbecensus
    :replaces_section_title:
+   :noindex:
 
    A command\-line tool for estimating average genome size from shotgun sequence data
 
@@ -22,11 +23,18 @@ microbecensus
 
    |downloads_microbecensus| |docker_microbecensus|
 
-   :versions: 1.1.1-1, 1.1.1-0, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+
+      
+
    
    :depends biopython: 
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

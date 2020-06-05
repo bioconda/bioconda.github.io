@@ -8,6 +8,7 @@ fastp
 
 .. conda:recipe:: fastp
    :replaces_section_title:
+   :noindex:
 
    A FASTQ preprocessor with full features \(QC\/adapters\/trimming\/filtering\/splitting...\)
 
@@ -22,11 +23,26 @@ fastp
 
    |downloads_fastp| |docker_fastp|
 
-   :versions: 0.20.1-0, 0.20.0-0, 0.19.7-0, 0.19.6-0, 0.19.5-0, 0.19.4-0, 0.19.3-0, 0.18.0-0, 0.17.1-0, 0.17.0-0, 0.14.1-0, 0.13.1-0, 0.12.5-0, 0.12.4-0, 0.12.3-0, 0.12.2-1, 0.12.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.20.1-0</code>,  <code>0.20.0-0</code>,  <code>0.19.7-0</code>,  <code>0.19.6-0</code>,  <code>0.19.5-0</code>,  <code>0.19.4-0</code>,  <code>0.19.3-0</code>,  <code>0.18.0-0</code>,  <code>0.17.1-0</code>,  </span></summary>
+      
+
+      ``0.20.1-0``,  ``0.20.0-0``,  ``0.19.7-0``,  ``0.19.6-0``,  ``0.19.5-0``,  ``0.19.4-0``,  ``0.19.3-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.14.1-0``,  ``0.13.1-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-1``,  ``0.12.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

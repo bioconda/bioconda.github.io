@@ -8,6 +8,7 @@ nxtrim
 
 .. conda:recipe:: nxtrim
    :replaces_section_title:
+   :noindex:
 
    Software to remove Nextera Mate Pair adapters and categorise reads according to the orientation implied by the adapter location.
 
@@ -23,11 +24,18 @@ nxtrim
 
    |downloads_nxtrim| |docker_nxtrim|
 
-   :versions: 0.4.3-0
+   :versions:
+      
+      
+
+      ``0.4.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

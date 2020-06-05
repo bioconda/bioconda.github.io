@@ -8,6 +8,7 @@ biobasehttptools
 
 .. conda:recipe:: biobasehttptools
    :replaces_section_title:
+   :noindex:
 
    Tools for querying bioinformatics web resources
 
@@ -22,7 +23,14 @@ biobasehttptools
 
    |downloads_biobasehttptools| |docker_biobasehttptools|
 
-   :versions: 1.1.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``,  ``1.0.1-0``
+
+      
+
    
    :depends ca-certificates: 
    :depends openssl: 

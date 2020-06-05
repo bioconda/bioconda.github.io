@@ -8,6 +8,7 @@ perl-bio-das
 
 .. conda:recipe:: perl-bio-das
    :replaces_section_title:
+   :noindex:
 
    Client\-side library for Distributed Genome Annotation System
 
@@ -22,7 +23,14 @@ perl-bio-das
 
    |downloads_perl-bio-das| |docker_perl-bio-das|
 
-   :versions: 1.17-0
+   :versions:
+      
+      
+
+      ``1.17-0``
+
+      
+
    
    :depends perl-bioperl-core: 
    :depends perl-html-parser: 

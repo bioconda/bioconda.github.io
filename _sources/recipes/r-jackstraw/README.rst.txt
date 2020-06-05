@@ -8,6 +8,7 @@ r-jackstraw
 
 .. conda:recipe:: r-jackstraw
    :replaces_section_title:
+   :noindex:
 
    Test for association between the observed data and their systematic patterns of variations. Systematic patterns may be captured by latent variables using principal component analysis \(PCA\)\, factor analysis \(FA\)\, and related methods. The jackstraw enables statistical testing for association between observed variables and latent variables\, as captured by PCs or other estimates. Similarly\, unsupervised clustering\, such as K\-means clustering\, partition around medoids \(PAM\)\, and others\, finds subpopulations among the observed variables. The jackstraw estimates statistical significance of cluster membership\, including unsupervised evaluation of cell identities in single cell RNA\-seq. P\-values and posterior probabilities allows one to rigorously evaluate the strength of cluster membership assignments.
 
@@ -22,11 +23,18 @@ r-jackstraw
 
    |downloads_r-jackstraw| |docker_r-jackstraw|
 
-   :versions: 1.3-4, 1.3-3, 1.3-2, 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+
+      
+
    
    :depends bioconductor-lfa: 
    :depends bioconductor-qvalue: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-clusterr: 
    :depends r-corpcor: 

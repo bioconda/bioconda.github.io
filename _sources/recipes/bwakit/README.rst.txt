@@ -8,6 +8,7 @@ bwakit
 
 .. conda:recipe:: bwakit
    :replaces_section_title:
+   :noindex:
 
    A self\-consistent installation\-free package of scripts and precompiled binaries\, providing an end\-to\-end solution to read mapping
 
@@ -22,20 +23,27 @@ bwakit
 
    |downloads_bwakit| |docker_bwakit|
 
-   :versions: 0.7.15-2, 0.7.15-1, 0.7.15-0, 0.7.12-0
+   :versions:
+      
+      
+
+      ``0.7.15-2``,  ``0.7.15-1``,  ``0.7.15-0``,  ``0.7.12-0``
+
+      
+
    
-   :depends bwa: 0.7.15
-   :depends fermi2: r170
-   :depends htsbox: r315
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bwa: ``0.7.15``
+   :depends fermi2: ``r170``
+   :depends htsbox: ``r315``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
-   :depends ropebwt2: r187
-   :depends samblaster: 0.1.20
-   :depends samtools: 1.3
-   :depends seqtk: r82
-   :depends trimadap: r2
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends ropebwt2: ``r187``
+   :depends samblaster: ``0.1.20``
+   :depends samtools: ``1.3``
+   :depends seqtk: ``r82``
+   :depends trimadap: ``r2``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

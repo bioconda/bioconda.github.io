@@ -8,6 +8,7 @@ refinem
 
 .. conda:recipe:: refinem
    :replaces_section_title:
+   :noindex:
 
    A toolbox for improving population genomes.
 
@@ -25,21 +26,28 @@ refinem
 
    |downloads_refinem| |docker_refinem|
 
-   :versions: 0.1.1-0, 0.1.0-1, 0.1.0-0, 0.0.25-0, 0.0.24-3, 0.0.24-2
+   :versions:
+      
+      
+
+      ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.25-0``,  ``0.0.24-3``,  ``0.0.24-2``
+
+      
+
    
-   :depends biolib: >=0.0.45
-   :depends blast: >=2.6.0
+   :depends biolib: ``>=0.0.45``
+   :depends blast: ``>=2.6.0``
    :depends dendropy: 
-   :depends diamond: >=0.9.9
-   :depends jinja2: >=2.7.3
-   :depends krona: >=2.7
-   :depends matplotlib: >=1.4.0
-   :depends mpld3: >=0.2
-   :depends numpy: >=1.9.0
-   :depends prodigal: >=2.6.3
+   :depends diamond: ``>=0.9.9``
+   :depends jinja2: ``>=2.7.3``
+   :depends krona: ``>=2.7``
+   :depends matplotlib: ``>=1.4.0``
+   :depends mpld3: ``>=0.2``
+   :depends numpy: ``>=1.9.0``
+   :depends prodigal: ``>=2.6.3``
    :depends pysam: 
    :depends python: 
-   :depends scipy: >=1.0.0
+   :depends scipy: ``>=1.0.0``
    :depends weightedstats: 
    :requirements:
 

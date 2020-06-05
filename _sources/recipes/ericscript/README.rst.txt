@@ -8,6 +8,7 @@ ericscript
 
 .. conda:recipe:: ericscript
    :replaces_section_title:
+   :noindex:
 
    EricScript is a computational framework for the discovery of gene fusions in paired end RNA\-seq data. It is able to generate synthetic gene fusions by using the EricScript simulator and calculate a number of statistical measures for evaluating gene fusion detection methods performance with EricScript CalcStats.
 
@@ -22,7 +23,14 @@ ericscript
 
    |downloads_ericscript| |docker_ericscript|
 
-   :versions: 0.5.5-4, 0.5.5-3, 0.5.5-2, 0.5.5-1, 0.5.5-0
+   :versions:
+      
+      
+
+      ``0.5.5-4``,  ``0.5.5-3``,  ``0.5.5-2``,  ``0.5.5-1``,  ``0.5.5-0``
+
+      
+
    
    :depends bedtools: 
    :depends blat: 
@@ -30,7 +38,7 @@ ericscript
    :depends perl: 
    :depends r-ada: 
    :depends r-base: 
-   :depends samtools: 0.1.19.*
+   :depends samtools: ``0.1.19.*``
    :depends seqtk: 
    :requirements:
 

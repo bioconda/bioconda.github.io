@@ -8,6 +8,7 @@ perl-file-util
 
 .. conda:recipe:: perl-file-util
    :replaces_section_title:
+   :noindex:
 
    Easy\, versatile\, portable file handling
 
@@ -22,9 +23,16 @@ perl-file-util
 
    |downloads_perl-file-util| |docker_perl-file-util|
 
-   :versions: 4.161950-3, 4.161950-2, 4.161950-1, 4.161950-0
+   :versions:
+      
+      
+
+      ``4.161950-3``,  ``4.161950-2``,  ``4.161950-1``,  ``4.161950-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-constant: 
    :depends perl-exporter: 
    :depends perl-lib: 

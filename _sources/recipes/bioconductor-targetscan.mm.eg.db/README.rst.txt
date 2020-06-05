@@ -8,6 +8,7 @@ bioconductor-targetscan.mm.eg.db
 
 .. conda:recipe:: bioconductor-targetscan.mm.eg.db
    :replaces_section_title:
+   :noindex:
 
    TargetScan miRNA target predictions for mouse
 
@@ -22,11 +23,18 @@ bioconductor-targetscan.mm.eg.db
 
    |downloads_bioconductor-targetscan.mm.eg.db| |docker_bioconductor-targetscan.mm.eg.db|
 
-   :versions: 0.6.1-4, 0.6.1-3, 0.6.1-2, 0.6.1-0
+   :versions:
+      
+      
+
+      ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

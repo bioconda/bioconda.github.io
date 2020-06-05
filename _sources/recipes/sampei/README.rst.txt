@@ -8,6 +8,7 @@ sampei
 
 .. conda:recipe:: sampei
    :replaces_section_title:
+   :noindex:
 
    SAMPEI\, a searching method leveraging high quality query spectra within the same or different dataset to assign target spectra with peptide sequence and undefined modification \(mass shift\)
 
@@ -22,13 +23,20 @@ sampei
 
    |downloads_sampei| |docker_sampei|
 
-   :versions: 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.2-0``
+
+      
+
    
-   :depends numba: >=0.49.0
-   :depends numpy: >=1.18.1
-   :depends pandas: >=1.0.1
-   :depends pyteomics: >=4.2
-   :depends python: >=3.6
+   :depends numba: ``>=0.49.0``
+   :depends numpy: ``>=1.18.1``
+   :depends pandas: ``>=1.0.1``
+   :depends pyteomics: ``>=4.2``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

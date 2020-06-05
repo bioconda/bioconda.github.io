@@ -8,6 +8,7 @@ r-gwpcr
 
 .. conda:recipe:: r-gwpcr
    :replaces_section_title:
+   :noindex:
 
    Implements the necessary distributions and parameter estimation procedures for a model of amplification and high\-troughput sequencing. The model is based on a mechanistic model of PCR amplification as a Galton\-Watson branching process\, and on Poissonan sampling to model high\-throughput sequencing.
 
@@ -22,11 +23,18 @@ r-gwpcr
 
    |downloads_r-gwpcr| |docker_r-gwpcr|
 
-   :versions: 0.9.10-4, 0.9.10-3, 0.9.10-2, 0.9.10-1, 0.9.10-0, 0.9.9-0
+   :versions:
+      
+      
+
+      ``0.9.10-4``,  ``0.9.10-3``,  ``0.9.10-2``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends r-akima: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-statmod: 
    :requirements:

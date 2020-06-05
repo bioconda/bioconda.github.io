@@ -8,6 +8,7 @@ nanostat
 
 .. conda:recipe:: nanostat
    :replaces_section_title:
+   :noindex:
 
    Calculate statistics for Oxford Nanopore sequencing data and alignments
 
@@ -22,11 +23,26 @@ nanostat
 
    |downloads_nanostat| |docker_nanostat|
 
-   :versions: 1.2.0-0, 1.1.2-2, 1.1.2-1, 1.1.0-1, 1.1.0-0, 1.0.0-0, 0.8.1-0, 0.7.1-0, 0.2.0-0, 0.1.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.8.1-0</code>,  <code>0.7.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
+
+      ``1.2.0-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.8.1-0``,  ``0.7.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends nanoget: >=0.15.0
-   :depends nanomath: >=0.19.0
-   :depends python: >=3
+   :depends nanoget: ``>=0.15.0``
+   :depends nanomath: ``>=0.19.0``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

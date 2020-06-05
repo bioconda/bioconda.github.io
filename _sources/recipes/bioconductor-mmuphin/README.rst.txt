@@ -8,6 +8,7 @@ bioconductor-mmuphin
 
 .. conda:recipe:: bioconductor-mmuphin
    :replaces_section_title:
+   :noindex:
 
    Meta\-analysis Methods with Uniform Pipeline for Heterogeneity in Microbiome Studies
 
@@ -22,10 +23,17 @@ bioconductor-mmuphin
 
    |downloads_bioconductor-mmuphin| |docker_bioconductor-mmuphin|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-maaslin2: >=1.0.0,<1.1.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-maaslin2: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-fpc: 

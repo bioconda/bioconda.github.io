@@ -8,6 +8,7 @@ bioconductor-mbkmeans
 
 .. conda:recipe:: bioconductor-mbkmeans
    :replaces_section_title:
+   :noindex:
 
    Mini\-batch K\-means Clustering for Single\-Cell RNA\-seq
 
@@ -22,24 +23,31 @@ bioconductor-mbkmeans
 
    |downloads_bioconductor-mbkmeans| |docker_bioconductor-mbkmeans|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-beachmat: >=2.4.0,<2.5.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-rhdf5lib: >=1.10.0,<1.11.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-beachmat: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-rhdf5lib: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-benchmarkme: 
    :depends r-clusterr: 
    :depends r-matrix: 
    :depends r-rcpp: 
-   :depends r-rcpparmadillo: >=0.7.2
+   :depends r-rcpparmadillo: ``>=0.7.2``
    :requirements:
 
    .. rubric:: Installation

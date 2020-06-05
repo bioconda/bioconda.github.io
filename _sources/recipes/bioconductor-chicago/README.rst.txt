@@ -8,6 +8,7 @@ bioconductor-chicago
 
 .. conda:recipe:: bioconductor-chicago
    :replaces_section_title:
+   :noindex:
 
    CHiCAGO\: Capture Hi\-C Analysis of Genomic Organization
 
@@ -23,9 +24,16 @@ bioconductor-chicago
 
    |downloads_bioconductor-chicago| |docker_bioconductor-chicago|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.1-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-delaporte: 
    :depends r-hmisc: 

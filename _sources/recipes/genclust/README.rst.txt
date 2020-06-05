@@ -8,6 +8,7 @@ genclust
 
 .. conda:recipe:: genclust
    :replaces_section_title:
+   :noindex:
 
    A genetic algorithm for clustering gene expression data.
 
@@ -23,9 +24,16 @@ genclust
 
    |downloads_genclust| |docker_genclust|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ nanopolishcomp
 
 .. conda:recipe:: nanopolishcomp
    :replaces_section_title:
+   :noindex:
 
    NanopolishComp is a Python3 package for downstream analyses of Nanopolish output files
 
@@ -22,11 +23,18 @@ nanopolishcomp
 
    |downloads_nanopolishcomp| |docker_nanopolishcomp|
 
-   :versions: 0.6.11-0
+   :versions:
+      
+      
+
+      ``0.6.11-0``
+
+      
+
    
-   :depends numpy: >=1.14.0
-   :depends python: >=3.6
-   :depends tqdm: >=4.23.4
+   :depends numpy: ``>=1.14.0``
+   :depends python: ``>=3.6``
+   :depends tqdm: ``>=4.23.4``
    :requirements:
 
    .. rubric:: Installation

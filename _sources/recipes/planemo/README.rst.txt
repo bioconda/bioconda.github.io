@@ -8,6 +8,7 @@ planemo
 
 .. conda:recipe:: planemo
    :replaces_section_title:
+   :noindex:
 
    Command\-line utilities to assist in building tools for the Galaxy project \(http\:\/\/galaxyproject.org\/\).
 
@@ -22,27 +23,42 @@ planemo
 
    |downloads_planemo| |docker_planemo|
 
-   :versions: 0.70.0-0, 0.62.1-2, 0.62.1-1, 0.62.1-0, 0.61.0-0, 0.60.0-0, 0.59.0-0, 0.57.1-1, 0.57.1-0, 0.57.0-0, 0.56.0-0, 0.55.0-1, 0.55.0-0, 0.54.0-1, 0.48.0-1, 0.48.0-0, 0.46.1-0, 0.40.1-0, 0.38.1-1, 0.34.1-2, 0.34.1-1, 0.34.1-0, 0.33.2-0, 0.29.1-0, 0.23.0-1, 0.23.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.70.0-0</code>,  <code>0.62.1-2</code>,  <code>0.62.1-1</code>,  <code>0.62.1-0</code>,  <code>0.61.0-0</code>,  <code>0.60.0-0</code>,  <code>0.59.0-0</code>,  <code>0.57.1-1</code>,  <code>0.57.1-0</code>,  </span></summary>
+      
+
+      ``0.70.0-0``,  ``0.62.1-2``,  ``0.62.1-1``,  ``0.62.1-0``,  ``0.61.0-0``,  ``0.60.0-0``,  ``0.59.0-0``,  ``0.57.1-1``,  ``0.57.1-0``,  ``0.57.0-0``,  ``0.56.0-0``,  ``0.55.0-1``,  ``0.55.0-0``,  ``0.54.0-1``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.1-0``,  ``0.40.1-0``,  ``0.38.1-1``,  ``0.34.1-2``,  ``0.34.1-1``,  ``0.34.1-0``,  ``0.33.2-0``,  ``0.29.1-0``,  ``0.23.0-1``,  ``0.23.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends aenum: 
    :depends beautifulsoup4: 
-   :depends bioblend: >=0.13.0
+   :depends bioblend: ``>=0.13.0``
    :depends click: 
-   :depends cwltool: 1.0.20191225192155.*
+   :depends cwltool: ``1.0.20191225192155.*``
    :depends docutils: 
-   :depends ephemeris: >=0.10.3
+   :depends ephemeris: ``>=0.10.3``
    :depends galaxy-containers: 
-   :depends galaxy-tool-util: >=19.9.1
-   :depends galaxy-util: >=19.9.0
+   :depends galaxy-tool-util: ``>=19.9.1``
+   :depends galaxy-util: ``>=19.9.0``
    :depends glob2: 
-   :depends gxformat2: >=0.8.0
+   :depends gxformat2: ``>=0.8.0``
    :depends jinja2: 
    :depends lxml: 
    :depends oyaml: 
    :depends pyaml: 
    :depends python: 
    :depends pyyaml: 
-   :depends six: >=1.7.0
+   :depends six: ``>=1.7.0``
    :depends virtualenv: 
    :requirements:
 

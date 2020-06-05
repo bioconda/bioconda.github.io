@@ -8,6 +8,7 @@ perl-graph
 
 .. conda:recipe:: perl-graph
    :replaces_section_title:
+   :noindex:
 
    a Perl extension for keeping data partially sorted
 
@@ -22,9 +23,16 @@ perl-graph
 
    |downloads_perl-graph| |docker_perl-graph|
 
-   :versions: 0.9704-1, 0.9704-0
+   :versions:
+      
+      
+
+      ``0.9704-1``,  ``0.9704-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

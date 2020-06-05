@@ -8,6 +8,7 @@ bioconductor-nugomm1a520177probe
 
 .. conda:recipe:: bioconductor-nugomm1a520177probe
    :replaces_section_title:
+   :noindex:
 
    Probe sequence data for microarrays of type nugomm1a520177
 
@@ -22,11 +23,18 @@ bioconductor-nugomm1a520177probe
 
    |downloads_bioconductor-nugomm1a520177probe| |docker_bioconductor-nugomm1a520177probe|
 
-   :versions: 3.4.0-4, 3.4.0-3, 3.4.0-2, 3.4.0-0
+   :versions:
+      
+      
+
+      ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

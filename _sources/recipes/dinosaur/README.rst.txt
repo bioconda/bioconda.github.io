@@ -8,6 +8,7 @@ dinosaur
 
 .. conda:recipe:: dinosaur
    :replaces_section_title:
+   :noindex:
 
    Feature finding algorithm for detection of isotope patterns in HPLC mass spectrometry data.
 
@@ -22,7 +23,14 @@ dinosaur
 
    |downloads_dinosaur| |docker_dinosaur|
 
-   :versions: 1.2.0-0, 1.1.3-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.1.3-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

@@ -8,6 +8,7 @@ perl-class-data-inheritable
 
 .. conda:recipe:: perl-class-data-inheritable
    :replaces_section_title:
+   :noindex:
 
    Inheritable\, overridable class data
 
@@ -22,9 +23,16 @@ perl-class-data-inheritable
 
    |downloads_perl-class-data-inheritable| |docker_perl-class-data-inheritable|
 
-   :versions: 0.08-1, 0.08-0
+   :versions:
+      
+      
+
+      ``0.08-1``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

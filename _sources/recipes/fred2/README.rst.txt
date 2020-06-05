@@ -8,6 +8,7 @@ fred2
 
 .. conda:recipe:: fred2
    :replaces_section_title:
+   :noindex:
 
    Python\-based framework for computational immunomics.
 
@@ -22,14 +23,21 @@ fred2
 
    |downloads_fred2| |docker_fred2|
 
-   :versions: 2.0.7-0, 2.0.6-0, 2.0.5-0, 2.0.4-1, 2.0.4-0, 2.0.3-3, 2.0.3-1, 2.0.2-2, 2.0.2-1
+   :versions:
+      
+      
+
+      ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-3``,  ``2.0.3-1``,  ``2.0.2-2``,  ``2.0.2-1``
+
+      
+
    
    :depends biopython: 
    :depends pandas: 
    :depends pymysql: 
    :depends pyomo: 
    :depends pysvmlight: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends pyvcf: 
    :depends svmlight: 
    :requirements:

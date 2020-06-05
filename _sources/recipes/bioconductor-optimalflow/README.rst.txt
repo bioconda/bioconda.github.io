@@ -8,6 +8,7 @@ bioconductor-optimalflow
 
 .. conda:recipe:: bioconductor-optimalflow
    :replaces_section_title:
+   :noindex:
 
    optimalFlow
 
@@ -22,11 +23,18 @@ bioconductor-optimalflow
 
    |downloads_bioconductor-optimalflow| |docker_bioconductor-optimalflow|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-flowmeans: >=1.48.0,<1.49.0
-   :depends bioconductor-optimalflowdata: >=1.0.0,<1.1.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowmeans: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-optimalflowdata: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbscan: 
    :depends r-doparallel: 
    :depends r-dplyr: 
@@ -35,7 +43,7 @@ bioconductor-optimalflow
    :depends r-randomforest: 
    :depends r-rfast: 
    :depends r-rgl: 
-   :depends r-rlang: >=0.4.0
+   :depends r-rlang: ``>=0.4.0``
    :depends r-robustbase: 
    :depends r-transport: 
    :requirements:

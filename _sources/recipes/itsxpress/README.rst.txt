@@ -8,6 +8,7 @@ itsxpress
 
 .. conda:recipe:: itsxpress
    :replaces_section_title:
+   :noindex:
 
    ITSxpress\: Software to rapidly trim the Internally Transcribed Spacer \(ITS\) region from FASTQ files
 
@@ -23,13 +24,28 @@ itsxpress
 
    |downloads_itsxpress| |docker_itsxpress|
 
-   :versions: 1.8.0-1, 1.8.0-0, 1.7.2-1, 1.7.2-0, 1.7.1-0, 1.6.4-0, 1.6.3-0, 1.6.1-1, 1.6.1-0, 1.5.6-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  </span></summary>
+      
+
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.5.6-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bbmap: 
-   :depends biopython: >=1.60
-   :depends hmmer: >=3.1b2
+   :depends biopython: ``>=1.60``
+   :depends hmmer: ``>=3.1b2``
    :depends pip: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends vsearch: 
    :requirements:
 

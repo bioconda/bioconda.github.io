@@ -8,6 +8,7 @@ bioconductor-lumihumanidmapping
 
 .. conda:recipe:: bioconductor-lumihumanidmapping
    :replaces_section_title:
+   :noindex:
 
    Illumina Identifier mapping for Human
 
@@ -22,12 +23,19 @@ bioconductor-lumihumanidmapping
 
    |downloads_bioconductor-lumihumanidmapping| |docker_bioconductor-lumihumanidmapping|
 
-   :versions: 1.10.1-4, 1.10.1-3, 1.10.1-2, 1.10.1-0
+   :versions:
+      
+      
+
+      ``1.10.1-4``,  ``1.10.1-3``,  ``1.10.1-2``,  ``1.10.1-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-lumi: >=2.40.0,<2.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-lumi: ``>=2.40.0,<2.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :requirements:
 

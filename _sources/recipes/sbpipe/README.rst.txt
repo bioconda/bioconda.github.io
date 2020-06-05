@@ -8,6 +8,7 @@ sbpipe
 
 .. conda:recipe:: sbpipe
    :replaces_section_title:
+   :noindex:
 
    SBpipe is a collection of pipelines for systems modelling of biological networks. It allows mathematical modellers to automatically repeat the tasks of model simulation and parameter estimation\, and extract robustness information from these repeat sequences in a solid and consistent manner\, facilitating model development and analysis. SBpipe can run models implemented in COPASI\, Python or coded in any other programming language using Python as a wrapper module. Pipelines can run on multicore computers\, Sun Grid Engine \(SGE\)\, Load Sharing Facility \(LSF\) clusters\, or via Snakemake.
 
@@ -23,12 +24,19 @@ sbpipe
 
    |downloads_sbpipe| |docker_sbpipe|
 
-   :versions: 4.21.0-0, 4.20.0-0, 4.18.0-0
+   :versions:
+      
+      
+
+      ``4.21.0-0``,  ``4.20.0-0``,  ``4.18.0-0``
+
+      
+
    
    :depends colorlog: 
    :depends python: 
    :depends pyyaml: 
-   :depends r-sbpiper: 1.8.*
+   :depends r-sbpiper: ``1.8.*``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ links
 
 .. conda:recipe:: links
    :replaces_section_title:
+   :noindex:
 
    Long Interval Nucleotide K\-mer Scaffolder
 
@@ -22,11 +23,18 @@ links
 
    |downloads_links| |docker_links|
 
-   :versions: 1.8.7-1, 1.8.7-0, 1.8.6-0, 1.8.4-0, 1.5.2-0
+   :versions:
+      
+      
+
+      ``1.8.7-1``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.4-0``,  ``1.5.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

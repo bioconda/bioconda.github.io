@@ -8,6 +8,7 @@ yaha
 
 .. conda:recipe:: yaha
    :replaces_section_title:
+   :noindex:
 
    yaha is an open source\, flexible\, sensitive and accurate DNA aligner designed for single\-end reads
 
@@ -22,10 +23,17 @@ yaha
 
    |downloads_yaha| |docker_yaha|
 
-   :versions: 0.1.83-1, 0.1.83-0
+   :versions:
+      
+      
+
+      ``0.1.83-1``,  ``0.1.83-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

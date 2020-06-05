@@ -8,6 +8,7 @@ bioconductor-banocc
 
 .. conda:recipe:: bioconductor-banocc
    :replaces_section_title:
+   :noindex:
 
    Bayesian ANalysis Of Compositional Covariance
 
@@ -22,12 +23,19 @@ bioconductor-banocc
 
    |downloads_bioconductor-banocc| |docker_bioconductor-banocc|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.1-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-coda: >=0.18.1
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-coda: ``>=0.18.1``
    :depends r-mvtnorm: 
-   :depends r-rstan: >=2.17.4
+   :depends r-rstan: ``>=2.17.4``
    :depends r-stringr: 
    :requirements:
 

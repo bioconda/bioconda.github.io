@@ -8,6 +8,7 @@ bioconductor-pcxn
 
 .. conda:recipe:: bioconductor-pcxn
    :replaces_section_title:
+   :noindex:
 
    Exploring\, analyzing and visualizing functions utilizing the pcxnData package
 
@@ -22,10 +23,17 @@ bioconductor-pcxn
 
    |downloads_bioconductor-pcxn| |docker_bioconductor-pcxn|
 
-   :versions: 2.10.0-0, 2.8.0-1, 2.6.0-1, 2.6.0-0, 2.4.0-0
+   :versions:
+      
+      
+
+      ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``
+
+      
+
    
-   :depends bioconductor-pcxndata: >=2.10.0,<2.11.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-pcxndata: ``>=2.10.0,<2.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-pheatmap: 
    :requirements:
 

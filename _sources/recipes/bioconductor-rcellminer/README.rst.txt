@@ -8,6 +8,7 @@ bioconductor-rcellminer
 
 .. conda:recipe:: bioconductor-rcellminer
    :replaces_section_title:
+   :noindex:
 
    rcellminer\: Molecular Profiles\, Drug Response\, and Chemical Structures for the NCI\-60 Cell Lines
 
@@ -22,11 +23,18 @@ bioconductor-rcellminer
 
    |downloads_bioconductor-rcellminer| |docker_bioconductor-rcellminer|
 
-   :versions: 2.10.0-0, 2.8.0-1, 2.6.0-1, 2.4.0-0
+   :versions:
+      
+      
+
+      ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-1``,  ``2.4.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-rcellminerdata: >=2.10.0,<2.11.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-rcellminerdata: ``>=2.10.0,<2.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-shiny: 

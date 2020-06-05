@@ -8,6 +8,7 @@ bioconductor-parathyroidse
 
 .. conda:recipe:: bioconductor-parathyroidse
    :replaces_section_title:
+   :noindex:
 
    RangedSummarizedExperiment for RNA\-Seq of primary cultures of parathyroid tumors by Haglund et al.\, J Clin Endocrinol Metab 2012.
 
@@ -22,11 +23,18 @@ bioconductor-parathyroidse
 
    |downloads_bioconductor-parathyroidse| |docker_bioconductor-parathyroidse|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

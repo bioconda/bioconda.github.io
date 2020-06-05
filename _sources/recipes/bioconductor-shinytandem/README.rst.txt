@@ -8,6 +8,7 @@ bioconductor-shinytandem
 
 .. conda:recipe:: bioconductor-shinytandem
    :replaces_section_title:
+   :noindex:
 
    Provides a GUI for rTANDEM
 
@@ -22,10 +23,17 @@ bioconductor-shinytandem
 
    |downloads_bioconductor-shinytandem| |docker_bioconductor-shinytandem|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-2, 1.22.0-0, 1.20.1-1, 1.20.1-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-2``,  ``1.22.0-0``,  ``1.20.1-1``,  ``1.20.1-0``
+
+      
+
    
-   :depends bioconductor-rtandem: >=1.27.0,<1.28.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rtandem: ``>=1.27.0,<1.28.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mixtools: 
    :depends r-shiny: 
    :depends r-xtable: 

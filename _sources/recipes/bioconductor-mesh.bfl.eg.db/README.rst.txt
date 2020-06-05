@@ -8,6 +8,7 @@ bioconductor-mesh.bfl.eg.db
 
 .. conda:recipe:: bioconductor-mesh.bfl.eg.db
    :replaces_section_title:
+   :noindex:
 
    Mapping table for Branchiostoma floridae Gene ID to MeSH
 
@@ -22,11 +23,18 @@ bioconductor-mesh.bfl.eg.db
 
    |downloads_bioconductor-mesh.bfl.eg.db| |docker_bioconductor-mesh.bfl.eg.db|
 
-   :versions: 1.13.0-1, 1.13.0-0, 1.12.0-1, 1.11.0-0
+   :versions:
+      
+      
+
+      ``1.13.0-1``,  ``1.13.0-0``,  ``1.12.0-1``,  ``1.11.0-0``
+
+      
+
    
-   :depends bioconductor-meshdbi: >=1.24.0,<1.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-meshdbi: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ r-diffcorr
 
 .. conda:recipe:: r-diffcorr
    :replaces_section_title:
+   :noindex:
 
    A method for identifying pattern changes between 2 experimental conditions in correlation networks \(e.g.\, gene co\-expression networks\)\, which builds on a commonly used association measure\, such as Pearson\'s correlation coefficient. This package includes functions to calculate correlation matrices for high\-dimensional dataset and to test differential correlation\, which means the changes in the correlation relationship among variables \(e.g.\, genes and metabolites\) between 2 experimental conditions. 
 
@@ -22,11 +23,18 @@ r-diffcorr
 
    |downloads_r-diffcorr| |docker_r-diffcorr|
 
-   :versions: 0.4.1-4, 0.4.1-3, 0.4.1-2, 0.4.1-1, 0.4.1-0
+   :versions:
+      
+      
+
+      ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+
+      
+
    
    :depends bioconductor-multtest: 
    :depends bioconductor-pcamethods: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fdrtool: 
    :depends r-igraph: 
    :requirements:

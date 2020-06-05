@@ -8,6 +8,7 @@ r-leapp
 
 .. conda:recipe:: r-leapp
    :replaces_section_title:
+   :noindex:
 
    These functions take a gene expression value matrix\, a primary covariate vector\, an additional known covariates matrix.  A two stage analysis is applied to counter the effects of latent variables on the rankings of hypotheses.  The estimation and adjustment of latent effects are proposed by Sun\, Zhang and Owen \(2011\).  \"leapp\" is developed in the context of microarray experiments\, but may be used as a general tool for high throughput data sets where dependence may be involved.
 
@@ -22,10 +23,17 @@ r-leapp
 
    |downloads_r-leapp| |docker_r-leapp|
 
-   :versions: 1.2-2, 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+
+      
+
    
    :depends bioconductor-sva: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corpcor: 
    :depends r-mass: 
    :requirements:

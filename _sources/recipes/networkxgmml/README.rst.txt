@@ -8,6 +8,7 @@ networkxgmml
 
 .. conda:recipe:: networkxgmml
    :replaces_section_title:
+   :noindex:
 
    XGMML parser for networkx
 
@@ -22,7 +23,14 @@ networkxgmml
 
    |downloads_networkxgmml| |docker_networkxgmml|
 
-   :versions: 0.1.6-2, 0.1.6-1
+   :versions:
+      
+      
+
+      ``0.1.6-2``,  ``0.1.6-1``
+
+      
+
    
    :depends networkx: 
    :depends python: 

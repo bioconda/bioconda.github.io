@@ -8,6 +8,7 @@ bioconductor-maaslin2
 
 .. conda:recipe:: bioconductor-maaslin2
    :replaces_section_title:
+   :noindex:
 
    Maaslin2
 
@@ -22,12 +23,19 @@ bioconductor-maaslin2
 
    |downloads_bioconductor-maaslin2| |docker_bioconductor-maaslin2|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-edger: >=3.28.0,<3.29.0
-   :depends bioconductor-lpsymphony: >=1.14.0,<1.15.0
-   :depends bioconductor-metagenomeseq: >=1.28.0,<1.29.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-edger: ``>=3.28.0,<3.29.0``
+   :depends bioconductor-lpsymphony: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-metagenomeseq: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-biglm: 
    :depends r-car: 
    :depends r-chemometrics: 

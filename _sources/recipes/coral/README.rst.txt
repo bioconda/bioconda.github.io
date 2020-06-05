@@ -8,6 +8,7 @@ coral
 
 .. conda:recipe:: coral
    :replaces_section_title:
+   :noindex:
 
    Coral is an efficient tool to bridge paire\-end RNA\-seq reads.
 
@@ -22,12 +23,19 @@ coral
 
    |downloads_coral| |docker_coral|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

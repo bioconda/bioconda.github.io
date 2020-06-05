@@ -8,6 +8,7 @@ abpoa
 
 .. conda:recipe:: abpoa
    :replaces_section_title:
+   :noindex:
 
    abPOA\: fast SIMD\-based partial order alignment using adaptive band
 
@@ -22,10 +23,17 @@ abpoa
 
    |downloads_abpoa| |docker_abpoa|
 
-   :versions: 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

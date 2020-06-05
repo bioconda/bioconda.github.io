@@ -8,6 +8,7 @@ gepard
 
 .. conda:recipe:: gepard
    :replaces_section_title:
+   :noindex:
 
    Genome Pair Rapid Dotter \(gepard\).
 
@@ -23,7 +24,14 @@ gepard
 
    |downloads_gepard| |docker_gepard|
 
-   :versions: 1.40.0-0
+   :versions:
+      
+      
+
+      ``1.40.0-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

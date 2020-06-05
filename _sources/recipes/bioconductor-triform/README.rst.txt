@@ -8,6 +8,7 @@ bioconductor-triform
 
 .. conda:recipe:: bioconductor-triform
    :replaces_section_title:
+   :noindex:
 
    Triform finds enriched regions \(peaks\) in transcription factor ChIP\-sequencing data
 
@@ -23,11 +24,18 @@ bioconductor-triform
 
    |downloads_bioconductor-triform| |docker_bioconductor-triform|
 
-   :versions: 1.29.0-0, 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.29.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-yaml: 
    :requirements:
 

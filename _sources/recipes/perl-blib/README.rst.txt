@@ -8,6 +8,7 @@ perl-blib
 
 .. conda:recipe:: perl-blib/1.06
    :replaces_section_title:
+   :noindex:
 
    Use MakeMaker\'s uninstalled version of a package
 
@@ -22,9 +23,16 @@ perl-blib
 
    |downloads_perl-blib| |docker_perl-blib|
 
-   :versions: 1.06-1, 1.06-0
+   :versions:
+      
+      
+
+      ``1.06-1``,  ``1.06-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

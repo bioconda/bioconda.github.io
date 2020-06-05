@@ -8,6 +8,7 @@ bioconductor-icheck
 
 .. conda:recipe:: bioconductor-icheck
    :replaces_section_title:
+   :noindex:
 
    QC Pipeline and Data Analysis Tools for High\-Dimensional Illumina mRNA Expression Data
 
@@ -22,15 +23,22 @@ bioconductor-icheck
 
    |downloads_bioconductor-icheck| |docker_bioconductor-icheck|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-geneselectmmd: >=2.32.0,<2.33.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-lumi: >=2.40.0,<2.41.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-geneselectmmd: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-lumi: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends r-lmtest: 
    :depends r-mass: 

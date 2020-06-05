@@ -8,6 +8,7 @@ bioconductor-crossicc
 
 .. conda:recipe:: bioconductor-crossicc
    :replaces_section_title:
+   :noindex:
 
    An Interactive Consensus Clustering Framework for Multi\-platform Data Analysis
 
@@ -22,13 +23,20 @@ bioconductor-crossicc
 
    |downloads_bioconductor-crossicc| |docker_bioconductor-crossicc|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-consensusclusterplus: >=1.52.0,<1.53.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-mergemaid: >=2.59.0,<2.60.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-mergemaid: ``>=2.59.0,<2.60.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-data.table: 
    :depends r-dplyr: 

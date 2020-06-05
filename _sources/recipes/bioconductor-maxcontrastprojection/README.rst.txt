@@ -8,6 +8,7 @@ bioconductor-maxcontrastprojection
 
 .. conda:recipe:: bioconductor-maxcontrastprojection
    :replaces_section_title:
+   :noindex:
 
    Perform a maximum contrast projection of 3D images along the z\-dimension into 2D
 
@@ -22,10 +23,17 @@ bioconductor-maxcontrastprojection
 
    |downloads_bioconductor-maxcontrastprojection| |docker_bioconductor-maxcontrastprojection|
 
-   :versions: 1.11.0-0, 1.10.0-0, 1.8.0-1, 1.6.1-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.11.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

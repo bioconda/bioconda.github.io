@@ -8,6 +8,7 @@ bioconductor-matter
 
 .. conda:recipe:: bioconductor-matter
    :replaces_section_title:
+   :noindex:
 
    A framework for rapid prototyping with file\-based data structures
 
@@ -23,16 +24,23 @@ bioconductor-matter
 
    |downloads_bioconductor-matter| |docker_bioconductor-matter|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.3-0, 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.1-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.3-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-protgenerics: >=1.20.0,<1.21.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-protgenerics: ``>=1.20.0,<1.21.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biglm: 
    :depends r-digest: 
    :depends r-irlba: 

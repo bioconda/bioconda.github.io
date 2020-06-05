@@ -8,6 +8,7 @@ r-acidplots
 
 .. conda:recipe:: r-acidplots
    :replaces_section_title:
+   :noindex:
 
    Functions for plotting genomic data.
 
@@ -23,30 +24,45 @@ r-acidplots
 
    |downloads_r-acidplots| |docker_r-acidplots|
 
-   :versions: 0.2.26-1, 0.2.26-0, 0.2.24-0, 0.2.23-0, 0.2.22-0, 0.2.20-0, 0.2.19-0, 0.2.18-0, 0.2.17-0, 0.2.16-0, 0.2.15-0, 0.2.14-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.26-1</code>,  <code>0.2.26-0</code>,  <code>0.2.24-0</code>,  <code>0.2.23-0</code>,  <code>0.2.22-0</code>,  <code>0.2.20-0</code>,  <code>0.2.19-0</code>,  <code>0.2.18-0</code>,  <code>0.2.17-0</code>,  </span></summary>
+      
+
+      ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.24-0``,  ``0.2.23-0``,  ``0.2.22-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.32
-   :depends bioconductor-dropletutils: >=1.6
-   :depends bioconductor-iranges: >=2.20
-   :depends bioconductor-s4vectors: >=0.24
-   :depends bioconductor-singlecellexperiment: >=1.8
-   :depends bioconductor-summarizedexperiment: >=1.16
-   :depends r-acidgenerics: >=0.3.4
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-basejump: >=0.12.2
-   :depends r-cowplot: >=1.0
-   :depends r-ggplot2: >=3.2
-   :depends r-ggrepel: >=0.8
-   :depends r-ggridges: >=0.5
-   :depends r-goalie: >=0.4.0
-   :depends r-matrix: >=1.2
-   :depends r-matrixstats: >=0.55
-   :depends r-pheatmap: >=1.0
-   :depends r-rcolorbrewer: >=1.1
-   :depends r-rlang: >=0.4
-   :depends r-stringr: >=1.4
-   :depends r-upsetr: >=1.4
-   :depends r-viridis: >=0.5
+   :depends bioconductor-biocgenerics: ``>=0.32``
+   :depends bioconductor-dropletutils: ``>=1.6``
+   :depends bioconductor-iranges: ``>=2.20``
+   :depends bioconductor-s4vectors: ``>=0.24``
+   :depends bioconductor-singlecellexperiment: ``>=1.8``
+   :depends bioconductor-summarizedexperiment: ``>=1.16``
+   :depends r-acidgenerics: ``>=0.3.4``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-basejump: ``>=0.12.2``
+   :depends r-cowplot: ``>=1.0``
+   :depends r-ggplot2: ``>=3.2``
+   :depends r-ggrepel: ``>=0.8``
+   :depends r-ggridges: ``>=0.5``
+   :depends r-goalie: ``>=0.4.0``
+   :depends r-matrix: ``>=1.2``
+   :depends r-matrixstats: ``>=0.55``
+   :depends r-pheatmap: ``>=1.0``
+   :depends r-rcolorbrewer: ``>=1.1``
+   :depends r-rlang: ``>=0.4``
+   :depends r-stringr: ``>=1.4``
+   :depends r-upsetr: ``>=1.4``
+   :depends r-viridis: ``>=0.5``
    :requirements:
 
    .. rubric:: Installation

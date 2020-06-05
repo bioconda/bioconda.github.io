@@ -8,6 +8,7 @@ r-popgenreport
 
 .. conda:recipe:: r-popgenreport
    :replaces_section_title:
+   :noindex:
 
    Provides beginner friendly framework to analyse population genetic data. Based on \'adegenet\' objects it uses \'knitr\' to create comprehensive reports on spatial genetic data.  For detailed information how to use the package refer to the comprehensive tutorials or visit \<http\:\/\/www.popgenreport.org\/\>.
 
@@ -22,11 +23,18 @@ r-popgenreport
 
    |downloads_r-popgenreport| |docker_r-popgenreport|
 
-   :versions: 3.0.4-2, 3.0.4-1, 3.0.4-0
+   :versions:
+      
+      
+
+      ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``
+
+      
+
    
    :depends r-ade4: 
-   :depends r-adegenet: >=2.0.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-adegenet: ``>=2.0.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-calibrate: 
    :depends r-data.table: 
    :depends r-dismo: 

@@ -8,6 +8,7 @@ deap
 
 .. conda:recipe:: deap
    :replaces_section_title:
+   :noindex:
 
    Distributed Evolutionary Algorithms in Python
 
@@ -22,7 +23,14 @@ deap
 
    |downloads_deap| |docker_deap|
 
-   :versions: 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
    :depends matplotlib: 
    :depends numpy: 

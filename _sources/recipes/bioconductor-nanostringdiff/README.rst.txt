@@ -8,6 +8,7 @@ bioconductor-nanostringdiff
 
 .. conda:recipe:: bioconductor-nanostringdiff
    :replaces_section_title:
+   :noindex:
 
    Differential Expression Analysis of NanoString nCounter Data
 
@@ -22,14 +23,21 @@ bioconductor-nanostringdiff
 
    |downloads_bioconductor-nanostringdiff| |docker_bioconductor-nanostringdiff|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrixstats: 
    :depends r-rcpp: 
    :requirements:

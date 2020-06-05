@@ -8,6 +8,7 @@ bioconductor-arraytools
 
 .. conda:recipe:: bioconductor-arraytools
    :replaces_section_title:
+   :noindex:
 
    geneChip Analysis Package
 
@@ -23,12 +24,19 @@ bioconductor-arraytools
 
    |downloads_bioconductor-arraytools| |docker_bioconductor-arraytools|
 
-   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   :versions:
+      
+      
+
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-xtable: 
    :requirements:
 

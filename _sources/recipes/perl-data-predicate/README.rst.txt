@@ -8,6 +8,7 @@ perl-data-predicate
 
 .. conda:recipe:: perl-data-predicate
    :replaces_section_title:
+   :noindex:
 
    Predicates are a way of composing logic so it eventually reports a true\/false for a given value
 
@@ -22,9 +23,16 @@ perl-data-predicate
 
    |downloads_perl-data-predicate| |docker_perl-data-predicate|
 
-   :versions: 2.1.1-0
+   :versions:
+      
+      
+
+      ``2.1.1-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-readonly: 
    :requirements:
 

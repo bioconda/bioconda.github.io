@@ -8,6 +8,7 @@ bioconductor-sepira
 
 .. conda:recipe:: bioconductor-sepira
    :replaces_section_title:
+   :noindex:
 
    Systems EPigenomics Inference of Regulatory Activity
 
@@ -22,11 +23,18 @@ bioconductor-sepira
 
    |downloads_bioconductor-sepira| |docker_bioconductor-sepira|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.1-0, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-corpcor: >=1.6.9
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-corpcor: ``>=1.6.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-bsgenome.ggallus.ucsc.galgal4.masked
 
 .. conda:recipe:: bioconductor-bsgenome.ggallus.ucsc.galgal4.masked
    :replaces_section_title:
+   :noindex:
 
    Full masked genome sequences for Gallus gallus \(UCSC version galGal4\)
 
@@ -22,12 +23,19 @@ bioconductor-bsgenome.ggallus.ucsc.galgal4.masked
 
    |downloads_bioconductor-bsgenome.ggallus.ucsc.galgal4.masked| |docker_bioconductor-bsgenome.ggallus.ucsc.galgal4.masked|
 
-   :versions: 1.3.99-5, 1.3.99-4, 1.3.99-3, 1.3.99-0
+   :versions:
+      
+      
+
+      ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-bsgenome.ggallus.ucsc.galgal4: >=1.4.0,<1.5.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-bsgenome.ggallus.ucsc.galgal4: ``>=1.4.0,<1.5.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

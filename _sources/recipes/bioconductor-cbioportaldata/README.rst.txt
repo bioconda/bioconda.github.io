@@ -8,6 +8,7 @@ bioconductor-cbioportaldata
 
 .. conda:recipe:: bioconductor-cbioportaldata
    :replaces_section_title:
+   :noindex:
 
    Exposes and makes available data from the cBioPortal web resources
 
@@ -22,20 +23,27 @@ bioconductor-cbioportaldata
 
    |downloads_bioconductor-cbioportaldata| |docker_bioconductor-cbioportaldata|
 
-   :versions: 2.0.3-0
+   :versions:
+      
+      
+
+      ``2.0.3-0``
+
+      
+
    
-   :depends bioconductor-anvil: >=1.0.0,<1.1.0
-   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-raggedexperiment: >=1.12.0,<1.13.0
-   :depends bioconductor-rtcgatoolbox: >=2.18.0,<2.19.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-tcgautils: >=1.8.0,<1.9.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-anvil: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-raggedexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-rtcgatoolbox: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-tcgautils: ``>=1.8.0,<1.9.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-digest: 
    :depends r-dplyr: 
    :depends r-httr: 

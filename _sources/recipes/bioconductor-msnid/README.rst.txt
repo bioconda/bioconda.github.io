@@ -8,6 +8,7 @@ bioconductor-msnid
 
 .. conda:recipe:: bioconductor-msnid
    :replaces_section_title:
+   :noindex:
 
    Utilities for Exploration and Assessment of Confidence of LC\-MSn Proteomics Identifications
 
@@ -23,18 +24,25 @@ bioconductor-msnid
 
    |downloads_bioconductor-msnid| |docker_bioconductor-msnid|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.1-0, 1.16.1-0, 1.12.1-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.12.1-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-mzid: >=1.26.0,<1.27.0
-   :depends bioconductor-mzr: >=2.22.0,<2.23.0
-   :depends bioconductor-protgenerics: >=1.20.0,<1.21.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-mzid: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-protgenerics: ``>=1.20.0,<1.21.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-dplyr: 

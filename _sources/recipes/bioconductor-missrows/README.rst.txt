@@ -8,6 +8,7 @@ bioconductor-missrows
 
 .. conda:recipe:: bioconductor-missrows
    :replaces_section_title:
+   :noindex:
 
    Handling Missing Individuals in Multi\-Omics Data Integration
 
@@ -22,11 +23,18 @@ bioconductor-missrows
 
    |downloads_bioconductor-missrows| |docker_bioconductor-missrows|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gtools: 
    :depends r-plyr: 

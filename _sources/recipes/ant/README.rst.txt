@@ -8,6 +8,7 @@ ant
 
 .. conda:recipe:: ant
    :replaces_section_title:
+   :noindex:
 
    Apache Ant is a Java library and command\-line tool that help building software.
 
@@ -22,7 +23,14 @@ ant
 
    |downloads_ant| |docker_ant|
 
-   :versions: 1.10.0-0, 1.9.6-1, 1.9.6-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.9.6-1``,  ``1.9.6-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

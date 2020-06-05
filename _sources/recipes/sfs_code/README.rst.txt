@@ -8,6 +8,7 @@ sfs_code
 
 .. conda:recipe:: sfs_code
    :replaces_section_title:
+   :noindex:
 
    This article introduces a new forward population genetic simulation program that can efficiently generate samples from populations with complex demographic histories under various models of natural selection. The program \(SFS\_CODE\) is highly flexible\, allowing the user to simulate realistic genomic regions with several loci evolving according to a variety of mutation models \(from simple to context\-dependent\)\, and allows for insertions and deletions. Each locus can be annotated as either coding or non\-coding\, sex\-linked or autosomal\, selected or neutral\, and have an arbitrary linkage structure \(from completely linked to independent\). © The Author 2008. Published by Oxford University Press. All rights reserved.
 
@@ -23,9 +24,16 @@ sfs_code
 
    |downloads_sfs_code| |docker_sfs_code|
 
-   :versions: 20150910-1, 20150910-0
+   :versions:
+      
+      
+
+      ``20150910-1``,  ``20150910-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

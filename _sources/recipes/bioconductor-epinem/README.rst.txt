@@ -8,6 +8,7 @@ bioconductor-epinem
 
 .. conda:recipe:: bioconductor-epinem
    :replaces_section_title:
+   :noindex:
 
    epiNEM
 
@@ -22,7 +23,14 @@ bioconductor-epinem
 
    |downloads_bioconductor-epinem| |docker_bioconductor-epinem|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 

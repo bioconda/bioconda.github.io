@@ -8,6 +8,7 @@ bioconductor-translatome
 
 .. conda:recipe:: bioconductor-translatome
    :replaces_section_title:
+   :noindex:
 
    Comparison between multiple levels of gene expression
 
@@ -23,20 +24,27 @@ bioconductor-translatome
 
    |downloads_bioconductor-translatome| |docker_bioconductor-translatome|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.5-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.5-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-anota: >=1.36.0,<1.37.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-deseq: >=1.39.0,<1.40.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-gosemsim: >=2.14.0,<2.15.0
-   :depends bioconductor-heatplus: >=2.34.0,<2.35.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-rankprod: >=3.14.0,<3.15.0
-   :depends bioconductor-sigpathway: >=1.56.0,<1.57.0
-   :depends bioconductor-topgo: >=2.40.0,<2.41.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-anota: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-deseq: ``>=1.39.0,<1.40.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-gosemsim: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-heatplus: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-rankprod: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-sigpathway: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-topgo: ``>=2.40.0,<2.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends r-plotrix: 
    :requirements:

@@ -8,6 +8,7 @@ r-smartsva
 
 .. conda:recipe:: r-smartsva
    :replaces_section_title:
+   :noindex:
 
    Introduces a fast and efficient Surrogate Variable Analysis algorithm that captures variation of unknown sources \(batch effects\) for high\-dimensional data sets. The algorithm is built on the \'irwsva.build\' function of the \'sva\' package and proposes a revision on it that achieves an order of magnitude faster running time while trading no accuracy loss in return.
 
@@ -22,12 +23,19 @@ r-smartsva
 
    |downloads_r-smartsva| |docker_r-smartsva|
 
-   :versions: 0.1.3-2, 0.1.3-1, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``
+
+      
+
    
    :depends bioconductor-sva: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-isva: 
    :depends r-rcpp: 
    :depends r-rcppeigen: 

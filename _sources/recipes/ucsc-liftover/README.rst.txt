@@ -8,6 +8,7 @@ ucsc-liftover
 
 .. conda:recipe:: ucsc-liftover
    :replaces_section_title:
+   :noindex:
 
    Move annotations from one assembly to another
 
@@ -22,14 +23,21 @@ ucsc-liftover
 
    |downloads_ucsc-liftover| |docker_ucsc-liftover|
 
-   :versions: 377-1, 377-0, 366-0, 357-3, 357-2, 357-1, 357-0, 332-0, 324-0
+   :versions:
+      
+      
+
+      ``377-1``,  ``377-0``,  ``366-0``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libpng: >=1.6.35,<1.7.0a0
-   :depends libuuid: >=2.32.1,<3.0a0
-   :depends mysql-connector-c: >=6.1.11,<6.1.12.0a0
-   :depends openssl: >=1.1.1a,<1.1.2a
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libpng: ``>=1.6.35,<1.7.0a0``
+   :depends libuuid: ``>=2.32.1,<3.0a0``
+   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends openssl: ``>=1.1.1a,<1.1.2a``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

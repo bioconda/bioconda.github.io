@@ -100,7 +100,7 @@
   
   <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
-  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  <li class="toctree-l1"><a href="../conda-package_index.html">Package Index</a></li>
   
   <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
@@ -154,7 +154,7 @@ docker container. For working with failures in mulled-build tests, see
 if anaconda.org returns an HTTP 500 error, that has nothing to do with
 the recipe but with anaconda.org’s servers. In this case, you can
 restart the build by posting a comment with the line:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@BiocondaBot</span> <span class="n">rebuild</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>@BiocondaBot rebuild
 </pre></div>
 </div>
 <p>This will retrigger the build for the latest commit made to the PR in
@@ -225,7 +225,7 @@ rather than the more portable <code class="docutils literal notranslate"><span c
 <code class="docutils literal notranslate"><span class="pre">sed</span></code> in the build script to edit the lines.</p>
 <p>Here is an example that will replace the first line of a file
 <code class="docutils literal notranslate"><span class="pre">$PREFIX/bin/alocal</span></code> with the proper shebang line</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>sed -i.bak &#39;1 s|^.*$|#!/usr/bin/env perl|g&#39; $PREFIX/bin/aclocal
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sed -i.bak <span class="s1">&#39;1 s|^.*$|#!/usr/bin/env perl|g&#39;</span> <span class="nv">$PREFIX</span>/bin/aclocal
 </pre></div>
 </div>
 <p>(note the <code class="docutils literal notranslate"><span class="pre">-i.bak</span></code>, which is needed to support both Linux and OSX
@@ -297,7 +297,7 @@ on this automatically, a lot of software has hard-coded compiler names
 in its <code class="docutils literal notranslate"><span class="pre">Makefile</span></code>s.</p>
 <p>Instead of using patches or <code class="docutils literal notranslate"><span class="pre">sed</span></code> to modify those Makefiles, you can
 often simply override Make variables from the command line:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>make CC=$CC
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make <span class="nv">CC</span><span class="o">=</span><span class="nv">$CC</span>
 </pre></div>
 </div>
 <p>Briefly, Makefile variables can be specified inside the Makefile with
@@ -326,19 +326,19 @@ as expected.</p>
 <ul>
 <li><p>This Makefile sets <code class="docutils literal notranslate"><span class="pre">CC</span></code> to <code class="docutils literal notranslate"><span class="pre">g++</span></code> which you can simply
 override:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>make CC=$CC
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make <span class="nv">CC</span><span class="o">=</span><span class="nv">$CC</span>
 </pre></div>
 </div>
 </li>
 <li><p>Since it <em>adds</em> <code class="docutils literal notranslate"><span class="pre">-lz</span></code> to <code class="docutils literal notranslate"><span class="pre">LDFLAGS</span></code> to enable linking against
-<code class="xref any docutils literal notranslate"><span class="pre">libz</span></code>, you do not need to do anything here.</p></li>
+<code class="docutils literal notranslate"><span class="pre">libz</span></code>, you do not need to do anything here.</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">CFLAGS</span></code> are more complicated. You can patch the
 Makefile to append to <code class="docutils literal notranslate"><span class="pre">CFLAGS</span></code> instead of overwriting:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sed</span> <span class="o">-</span><span class="n">i</span><span class="o">.</span><span class="n">bak</span> <span class="s1">&#39;s/CFLAGS =/CFLAGS +=/&#39;</span> <span class="n">Makefile</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sed -i.bak <span class="s1">&#39;s/CFLAGS =/CFLAGS +=/&#39;</span> Makefile
 </pre></div>
 </div>
 <p>Or you could override:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>make CC=$CC CFLAGS=&quot;$CFLAGS -DVERSION=1.2.3&quot;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make <span class="nv">CC</span><span class="o">=</span><span class="nv">$CC</span> <span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CFLAGS</span><span class="s2"> -DVERSION=1.2.3&quot;</span>
 </pre></div>
 </div>
 <p>In this case, the latter is not recommended as we would expect the

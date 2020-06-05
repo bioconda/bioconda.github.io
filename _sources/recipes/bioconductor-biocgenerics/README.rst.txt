@@ -8,6 +8,7 @@ bioconductor-biocgenerics
 
 .. conda:recipe:: bioconductor-biocgenerics
    :replaces_section_title:
+   :noindex:
 
    S4 generic functions used in Bioconductor
 
@@ -23,9 +24,24 @@ bioconductor-biocgenerics
 
    |downloads_bioconductor-biocgenerics| |docker_bioconductor-biocgenerics|
 
-   :versions: 0.34.0-0, 0.32.0-0, 0.30.0-1, 0.28.0-1, 0.28.0-0, 0.26.0-0, 0.24.0-1, 0.24.0-0, 0.22.1-0, 0.22.0-0, 0.20.0-0, 0.18.0-0, 0.16.1-0, 0.16.0-0, 0.14.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.34.0-0</code>,  <code>0.32.0-0</code>,  <code>0.30.0-1</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.22.1-0</code>,  </span></summary>
+      
+
+      ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.14.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

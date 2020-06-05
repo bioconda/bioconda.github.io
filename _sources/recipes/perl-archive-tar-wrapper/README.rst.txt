@@ -8,6 +8,7 @@ perl-archive-tar-wrapper
 
 .. conda:recipe:: perl-archive-tar-wrapper/0.33
    :replaces_section_title:
+   :noindex:
 
    API wrapper around the \'tar\' utility
 
@@ -22,9 +23,16 @@ perl-archive-tar-wrapper
 
    |downloads_perl-archive-tar-wrapper| |docker_perl-archive-tar-wrapper|
 
-   :versions: 0.33-0
+   :versions:
+      
+      
+
+      ``0.33-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-file-temp: 
    :depends perl-file-which: 
    :depends perl-ipc-run: 

@@ -8,6 +8,7 @@ riboseq-rust
 
 .. conda:recipe:: riboseq-rust
    :replaces_section_title:
+   :noindex:
 
    Ribo\-seq Unit Step Transformation. Tools to characterise the determinants of ribosome profiling read density across mRNA. May be used to examine relative decoding rates and and for quality assessment
 
@@ -22,13 +23,20 @@ riboseq-rust
 
    |downloads_riboseq-rust| |docker_riboseq-rust|
 
-   :versions: 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``
+
+      
+
    
    :depends argparse: 
    :depends matplotlib: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

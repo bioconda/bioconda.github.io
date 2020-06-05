@@ -8,6 +8,7 @@ embl-api-validator
 
 .. conda:recipe:: embl-api-validator
    :replaces_section_title:
+   :noindex:
 
    ENA flat file validator for submission
 
@@ -22,7 +23,14 @@ embl-api-validator
 
    |downloads_embl-api-validator| |docker_embl-api-validator|
 
-   :versions: 1.1.180-1, 1.1.180-0, 1.1.173-0
+   :versions:
+      
+      
+
+      ``1.1.180-1``,  ``1.1.180-0``,  ``1.1.173-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

@@ -8,6 +8,7 @@ minia
 
 .. conda:recipe:: minia
    :replaces_section_title:
+   :noindex:
 
    Minia is a short\-read assembler based on a de Bruijn graph\, capable of assembling a human genome on a desktop computer in a day.
 
@@ -23,11 +24,18 @@ minia
 
    |downloads_minia| |docker_minia|
 
-   :versions: 3.2.3-0, 3.2.2-0, 3.2.1-0
+   :versions:
+      
+      
+
+      ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

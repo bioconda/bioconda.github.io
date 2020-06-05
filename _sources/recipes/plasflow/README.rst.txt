@@ -8,6 +8,7 @@ plasflow
 
 .. conda:recipe:: plasflow
    :replaces_section_title:
+   :noindex:
 
    PlasFlow \- predicting plasmid sequences in metagenomic data
 
@@ -23,13 +24,20 @@ plasflow
 
    |downloads_plasflow| |docker_plasflow|
 
-   :versions: 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``
+
+      
+
    
    :depends bioconductor-biostrings: 
    :depends biopython: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: ``>=3.5,<3.6.0a0``
    :depends rpy2: 
    :depends scikit-learn: 
    :depends scipy: 

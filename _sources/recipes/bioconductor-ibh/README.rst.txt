@@ -8,6 +8,7 @@ bioconductor-ibh
 
 .. conda:recipe:: bioconductor-ibh
    :replaces_section_title:
+   :noindex:
 
    Interaction Based Homogeneity for Evaluating Gene Lists
 
@@ -23,10 +24,17 @@ bioconductor-ibh
 
    |downloads_bioconductor-ibh| |docker_bioconductor-ibh|
 
-   :versions: 1.36.0-0, 1.34.0-1, 1.32.0-1, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+
    
-   :depends bioconductor-simpintlists: >=1.24.0,<1.25.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-simpintlists: ``>=1.24.0,<1.25.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

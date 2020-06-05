@@ -8,6 +8,7 @@ ncbi-ngs-sdk
 
 .. conda:recipe:: ncbi-ngs-sdk
    :replaces_section_title:
+   :noindex:
 
    NGS is a new\, domain\-specific API for accessing reads\, alignments and pileups produced from Next Generation Sequencing.
 
@@ -22,12 +23,19 @@ ncbi-ngs-sdk
 
    |downloads_ncbi-ngs-sdk| |docker_ncbi-ngs-sdk|
 
-   :versions: 2.10.4-0, 2.10.2-0, 2.10.1-0, 2.10.0-0, 2.9.3-0, 2.9.1-0, 2.9.0-0
+   :versions:
+      
+      
+
+      ``2.10.4-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libiconv: >=1.15,<1.16.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends libxml2: >=2.9.10,<2.10.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libiconv: ``>=1.15,<1.16.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libxml2: ``>=2.9.10,<2.10.0a0``
    :requirements:
 
    .. rubric:: Installation

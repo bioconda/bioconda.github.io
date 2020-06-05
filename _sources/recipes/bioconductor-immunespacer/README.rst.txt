@@ -8,6 +8,7 @@ bioconductor-immunespacer
 
 .. conda:recipe:: bioconductor-immunespacer
    :replaces_section_title:
+   :noindex:
 
    A Thin Wrapper around the ImmuneSpace Database
 
@@ -22,25 +23,32 @@ bioconductor-immunespacer
 
    |downloads_bioconductor-immunespacer| |docker_bioconductor-immunespacer|
 
-   :versions: 1.14.0-0, 1.12.2-0, 1.10.5-0, 1.10.1-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.5-0``,  ``1.10.1-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-flowcore: >=1.52.0,<1.53.0
-   :depends bioconductor-flowworkspace: >=3.34.0,<3.35.0
-   :depends bioconductor-preprocesscore: >=1.48.0,<1.49.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-biobase: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-flowcore: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-flowworkspace: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-preprocesscore: ``>=1.48.0,<1.49.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-curl: 
    :depends r-data.table: 
    :depends r-digest: 
-   :depends r-ggplot2: >=3.2.0
+   :depends r-ggplot2: ``>=3.2.0``
    :depends r-gplots: 
-   :depends r-heatmaply: >=0.7.0
+   :depends r-heatmaply: ``>=0.7.0``
    :depends r-httr: 
    :depends r-jsonlite: 
    :depends r-pheatmap: 
    :depends r-plotly: 
    :depends r-r6: 
-   :depends r-rlabkey: >=2.3.1
+   :depends r-rlabkey: ``>=2.3.1``
    :depends r-rmarkdown: 
    :depends r-scales: 
    :requirements:

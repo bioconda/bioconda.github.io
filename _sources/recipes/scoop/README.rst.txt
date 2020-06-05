@@ -8,6 +8,7 @@ scoop
 
 .. conda:recipe:: scoop
    :replaces_section_title:
+   :noindex:
 
    Scalable COncurrent Operations in Python
 
@@ -22,11 +23,18 @@ scoop
 
    |downloads_scoop| |docker_scoop|
 
-   :versions: 0.7.1.1-3, 0.7.1.1-2, 0.7.1.1-1, 0.7.1.1-0
+   :versions:
+      
+      
+
+      ``0.7.1.1-3``,  ``0.7.1.1-2``,  ``0.7.1.1-1``,  ``0.7.1.1-0``
+
+      
+
    
-   :depends greenlet: >=0.3.4
+   :depends greenlet: ``>=0.3.4``
    :depends python: 
-   :depends pyzmq: >=13.1.0
+   :depends pyzmq: ``>=13.1.0``
    :requirements:
 
    .. rubric:: Installation

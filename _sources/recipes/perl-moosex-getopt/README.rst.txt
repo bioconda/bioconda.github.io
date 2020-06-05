@@ -8,6 +8,7 @@ perl-moosex-getopt
 
 .. conda:recipe:: perl-moosex-getopt
    :replaces_section_title:
+   :noindex:
 
    A Moose role for processing command line options
 
@@ -22,9 +23,16 @@ perl-moosex-getopt
 
    |downloads_perl-moosex-getopt| |docker_perl-moosex-getopt|
 
-   :versions: 0.74-0, 0.72-0, 0.71-2, 0.71-1, 0.71-0
+   :versions:
+      
+      
+
+      ``0.74-0``,  ``0.72-0``,  ``0.71-2``,  ``0.71-1``,  ``0.71-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-getopt-long: 
    :depends perl-getopt-long-descriptive: 

@@ -8,6 +8,7 @@ azure-cli
 
 .. conda:recipe:: azure-cli
    :replaces_section_title:
+   :noindex:
 
    Microsoft Azure Cross Platform Command Line
 
@@ -22,7 +23,14 @@ azure-cli
 
    |downloads_azure-cli| |docker_azure-cli|
 
-   :versions: 0.10.3-0
+   :versions:
+      
+      
+
+      ``0.10.3-0``
+
+      
+
    
    :depends nodejs: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-r4rna
 
 .. conda:recipe:: bioconductor-r4rna
    :replaces_section_title:
+   :noindex:
 
    An R package for RNA visualization and analysis
 
@@ -23,10 +24,17 @@ bioconductor-r4rna
 
    |downloads_bioconductor-r4rna| |docker_bioconductor-r4rna|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

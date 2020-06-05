@@ -8,6 +8,7 @@ gsort
 
 .. conda:recipe:: gsort
    :replaces_section_title:
+   :noindex:
 
    sort genomic files according to a genomefile
 
@@ -22,7 +23,14 @@ gsort
 
    |downloads_gsort| |docker_gsort|
 
-   :versions: 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.0.6-1, 0.0.6-0, 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.2-0``,  ``0.0.1-0``
+
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ curlywhirly
 
 .. conda:recipe:: curlywhirly
    :replaces_section_title:
+   :noindex:
 
    CurlyWhirly is an application for viewing multi\-dimensional data\, with a particular focus on the outputs of Principle Coordinate Analysis and Principal Components Analysis
 
@@ -22,9 +23,16 @@ curlywhirly
 
    |downloads_curlywhirly| |docker_curlywhirly|
 
-   :versions: 1.17.08.31-1, 1.17.08.31-0
+   :versions:
+      
+      
+
+      ``1.17.08.31-1``,  ``1.17.08.31-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :requirements:
 
    .. rubric:: Installation

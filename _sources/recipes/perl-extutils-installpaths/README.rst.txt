@@ -8,6 +8,7 @@ perl-extutils-installpaths
 
 .. conda:recipe:: perl-extutils-installpaths
    :replaces_section_title:
+   :noindex:
 
    Build.PL install path logic made easy
 
@@ -22,9 +23,16 @@ perl-extutils-installpaths
 
    |downloads_perl-extutils-installpaths| |docker_perl-extutils-installpaths|
 
-   :versions: 0.012-0, 0.011-1, 0.011-0
+   :versions:
+      
+      
+
+      ``0.012-0``,  ``0.011-1``,  ``0.011-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-extutils-config: 
    :requirements:

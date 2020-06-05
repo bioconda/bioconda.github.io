@@ -8,6 +8,7 @@ r-rubic
 
 .. conda:recipe:: r-rubic
    :replaces_section_title:
+   :noindex:
 
    RUBIC detects recurrent copy number aberrations using copy number breaks\, rather than recurrently amplified or deleted regions. This allows for a vastly simplified approach as recursive peak splitting procedures and repeated re\-estimation of the background model are avoided. Furthermore\, the false discovery rate is controlled on the level of called regions\, rather than at the probe level.
 
@@ -22,10 +23,17 @@ r-rubic
 
    |downloads_r-rubic| |docker_r-rubic|
 
-   :versions: 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-data.table: >1.9.6
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: ``>1.9.6``
    :depends r-digest: 
    :depends r-ggplot2: 
    :depends r-gtable: 

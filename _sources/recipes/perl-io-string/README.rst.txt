@@ -8,6 +8,7 @@ perl-io-string
 
 .. conda:recipe:: perl-io-string
    :replaces_section_title:
+   :noindex:
 
    Emulate file interface for in\-core strings
 
@@ -22,9 +23,16 @@ perl-io-string
 
    |downloads_perl-io-string| |docker_perl-io-string|
 
-   :versions: 1.08-3, 1.08-2, 1.08-1, 1.08-0
+   :versions:
+      
+      
+
+      ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ rdp_classifier
 
 .. conda:recipe:: rdp_classifier
    :replaces_section_title:
+   :noindex:
 
    Naive Bayesian classifier that can rapidly and accurately provide taxonomic assignments from domain to genus
 
@@ -22,7 +23,14 @@ rdp_classifier
 
    |downloads_rdp_classifier| |docker_rdp_classifier|
 
-   :versions: 2.2-2, 2.2-1, 2.2-0
+   :versions:
+      
+      
+
+      ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

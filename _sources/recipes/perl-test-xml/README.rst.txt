@@ -8,6 +8,7 @@ perl-test-xml
 
 .. conda:recipe:: perl-test-xml
    :replaces_section_title:
+   :noindex:
 
    Compare XML in perl tests
 
@@ -22,9 +23,16 @@ perl-test-xml
 
    |downloads_perl-test-xml| |docker_perl-test-xml|
 
-   :versions: 0.08-1, 0.08-0
+   :versions:
+      
+      
+
+      ``0.08-1``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xml-parser: 
    :depends perl-xml-sax: 
    :depends perl-xml-sax-writer: 

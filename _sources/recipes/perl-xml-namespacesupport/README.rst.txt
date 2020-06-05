@@ -8,6 +8,7 @@ perl-xml-namespacesupport
 
 .. conda:recipe:: perl-xml-namespacesupport
    :replaces_section_title:
+   :noindex:
 
    a simple generic namespace support class
 
@@ -22,9 +23,16 @@ perl-xml-namespacesupport
 
    |downloads_perl-xml-namespacesupport| |docker_perl-xml-namespacesupport|
 
-   :versions: 1.12-0, 1.11-1, 1.11-0
+   :versions:
+      
+      
+
+      ``1.12-0``,  ``1.11-1``,  ``1.11-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-constant: 
    :requirements:
 

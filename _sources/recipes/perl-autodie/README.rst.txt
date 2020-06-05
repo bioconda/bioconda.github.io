@@ -8,6 +8,7 @@ perl-autodie
 
 .. conda:recipe:: perl-autodie
    :replaces_section_title:
+   :noindex:
 
    Replace functions with ones that succeed or die with lexical scope
 
@@ -22,9 +23,16 @@ perl-autodie
 
    |downloads_perl-autodie| |docker_perl-autodie|
 
-   :versions: 2.29-0
+   :versions:
+      
+      
+
+      ``2.29-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-exporter: 

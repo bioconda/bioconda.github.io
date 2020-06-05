@@ -8,6 +8,7 @@ bioconductor-ggpa
 
 .. conda:recipe:: bioconductor-ggpa
    :replaces_section_title:
+   :noindex:
 
    graph\-GPA\: A graphical model for prioritizing GWAS results and investigating pleiotropic architecture
 
@@ -22,17 +23,24 @@ bioconductor-ggpa
 
    |downloads_bioconductor-ggpa| |docker_bioconductor-ggpa|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggally: 
    :depends r-matrixstats: 
    :depends r-network: 
-   :depends r-rcpp: >=0.11.3
+   :depends r-rcpp: ``>=0.11.3``
    :depends r-rcpparmadillo: 
    :depends r-scales: 
    :depends r-sna: 

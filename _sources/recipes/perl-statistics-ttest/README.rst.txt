@@ -8,6 +8,7 @@ perl-statistics-ttest
 
 .. conda:recipe:: perl-statistics-ttest
    :replaces_section_title:
+   :noindex:
 
    Perl module to perform T\-test on 2 independent samples Statistics\:\:TTest\:\:Sufficient \- Perl module to perfrom T\-Test on 2 indepdent samples using sufficient statistics
 
@@ -22,9 +23,16 @@ perl-statistics-ttest
 
    |downloads_perl-statistics-ttest| |docker_perl-statistics-ttest|
 
-   :versions: 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-statistics-descriptive: 
    :depends perl-statistics-distributions: 
    :requirements:

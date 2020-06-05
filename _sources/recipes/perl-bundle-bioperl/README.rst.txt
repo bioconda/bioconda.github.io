@@ -8,6 +8,7 @@ perl-bundle-bioperl
 
 .. conda:recipe:: perl-bundle-bioperl
    :replaces_section_title:
+   :noindex:
 
    A bundle to install external CPAN modules used by BioPerl 1.5.2
 
@@ -22,9 +23,16 @@ perl-bundle-bioperl
 
    |downloads_perl-bundle-bioperl| |docker_perl-bundle-bioperl|
 
-   :versions: 2.1.9-0
+   :versions:
+      
+      
+
+      ``2.1.9-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

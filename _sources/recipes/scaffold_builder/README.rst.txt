@@ -8,6 +8,7 @@ scaffold_builder
 
 .. conda:recipe:: scaffold_builder
    :replaces_section_title:
+   :noindex:
 
    Scaffold\_builder\: Combining de novo and reference\-guided assembly with Scaffold\_builder.
 
@@ -23,10 +24,17 @@ scaffold_builder
 
    |downloads_scaffold_builder| |docker_scaffold_builder|
 
-   :versions: 2.2-1, 2.2-0
+   :versions:
+      
+      
+
+      ``2.2-1``,  ``2.2-0``
+
+      
+
    
    :depends mummer: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

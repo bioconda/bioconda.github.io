@@ -8,6 +8,7 @@ perl-namespace-clean
 
 .. conda:recipe:: perl-namespace-clean/0.27
    :replaces_section_title:
+   :noindex:
 
    Keep imports and functions out of your namespace
 
@@ -22,11 +23,18 @@ perl-namespace-clean
 
    |downloads_perl-namespace-clean| |docker_perl-namespace-clean|
 
-   :versions: 0.27-3, 0.27-2, 0.27-0
+   :versions:
+      
+      
+
+      ``0.27-3``,  ``0.27-2``,  ``0.27-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-b-hooks-endofscope: 
    :depends perl-package-stash: 
    :requirements:

@@ -8,6 +8,7 @@ perl-test-file
 
 .. conda:recipe:: perl-test-file
    :replaces_section_title:
+   :noindex:
 
    test file attributes
 
@@ -22,9 +23,16 @@ perl-test-file
 
    |downloads_perl-test-file| |docker_perl-test-file|
 
-   :versions: 1.443-0
+   :versions:
+      
+      
+
+      ``1.443-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ mfqe
 
 .. conda:recipe:: mfqe
    :replaces_section_title:
+   :noindex:
 
    mfqe is a tool for quickly seperating fasta and fastq files
 
@@ -22,9 +23,16 @@ mfqe
 
    |downloads_mfqe| |docker_mfqe|
 
-   :versions: 0.5.0-0, 0.4.1-0, 0.3.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

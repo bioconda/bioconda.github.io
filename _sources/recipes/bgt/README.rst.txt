@@ -8,6 +8,7 @@ bgt
 
 .. conda:recipe:: bgt
    :replaces_section_title:
+   :noindex:
 
    Flexible genotype query among 30\,000\+ samples whole\-genome.
 
@@ -22,10 +23,17 @@ bgt
 
    |downloads_bgt| |docker_bgt|
 
-   :versions: r283-1, r283-0, r277-0
+   :versions:
+      
+      
+
+      ``r283-1``,  ``r283-0``,  ``r277-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

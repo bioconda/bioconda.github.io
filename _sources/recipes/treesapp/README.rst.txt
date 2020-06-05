@@ -8,6 +8,7 @@ treesapp
 
 .. conda:recipe:: treesapp
    :replaces_section_title:
+   :noindex:
 
    TreeSAPP is a functional and taxonomic annotation tool for microbial genomes and proteins
 
@@ -22,29 +23,36 @@ treesapp
 
    |downloads_treesapp| |docker_treesapp|
 
-   :versions: 0.6.8-0, 0.6.7-0, 0.6.6-0, 0.6.5-0
+   :versions:
+      
+      
+
+      ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
+
+      
+
    
-   :depends biopython: >=1.68
-   :depends bwa: >=0.7.3
-   :depends ete3: >=3.1.1
-   :depends fasttree: >=2.1.9
-   :depends hmmer: >=3.1
-   :depends joblib: >=0.14.1
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends mafft: >=7.407
-   :depends matplotlib-base: >=3.1.2
+   :depends biopython: ``>=1.68``
+   :depends bwa: ``>=0.7.3``
+   :depends ete3: ``>=3.1.1``
+   :depends fasttree: ``>=2.1.9``
+   :depends hmmer: ``>=3.1``
+   :depends joblib: ``>=0.14.1``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends mafft: ``>=7.407``
+   :depends matplotlib-base: ``>=3.1.2``
    :depends numpy: 
-   :depends prodigal: >=2.6.2
-   :depends pyfastx: 0.6.10
-   :depends pygtrie: >=2.3.2
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends raxml: 8.2.12
-   :depends samsum: 0.1.2
-   :depends scipy: >=1.4.1
-   :depends seaborn: >=0.9.0
-   :depends six: >=1.14.0
+   :depends prodigal: ``>=2.6.2``
+   :depends pyfastx: ``0.6.10``
+   :depends pygtrie: ``>=2.3.2``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends raxml: ``8.2.12``
+   :depends samsum: ``0.1.2``
+   :depends scipy: ``>=1.4.1``
+   :depends seaborn: ``>=0.9.0``
+   :depends six: ``>=1.14.0``
    :requirements:
 
    .. rubric:: Installation

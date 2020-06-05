@@ -8,6 +8,7 @@ perl-www-robotrules
 
 .. conda:recipe:: perl-www-robotrules
    :replaces_section_title:
+   :noindex:
 
    database of robots.txt\-derived permissions
 
@@ -22,9 +23,16 @@ perl-www-robotrules
 
    |downloads_perl-www-robotrules| |docker_perl-www-robotrules|
 
-   :versions: 6.02-3, 6.02-2, 6.02-1, 6.02-0
+   :versions:
+      
+      
+
+      ``6.02-3``,  ``6.02-2``,  ``6.02-1``,  ``6.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-uri: 
    :requirements:
 

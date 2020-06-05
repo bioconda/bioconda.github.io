@@ -8,6 +8,7 @@ combined-pvalues
 
 .. conda:recipe:: combined-pvalues
    :replaces_section_title:
+   :noindex:
 
    A library to combine\, analyze\, group and correct p\-values in BED files.
    Unique tools involve correction for spatial autocorrelation.
@@ -24,11 +25,18 @@ combined-pvalues
 
    |downloads_combined-pvalues| |docker_combined-pvalues|
 
-   :versions: 0.50.2-0, 0.50.0-0, 0.48-3, 0.48-2, 0.48-0, 0.46-0
+   :versions:
+      
+      
+
+      ``0.50.2-0``,  ``0.50.0-0``,  ``0.48-3``,  ``0.48-2``,  ``0.48-0``,  ``0.46-0``
+
+      
+
    
    :depends interlap: 
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :depends toolshed: 
    :requirements:

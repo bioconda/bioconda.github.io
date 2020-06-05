@@ -8,6 +8,7 @@ bioconductor-rcm
 
 .. conda:recipe:: bioconductor-rcm
    :replaces_section_title:
+   :noindex:
 
    Fit row\-column association models with the negative binomial distribution for the microbiome
 
@@ -22,13 +23,20 @@ bioconductor-rcm
 
    |downloads_bioconductor-rcm| |docker_bioconductor-rcm|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-phyloseq: >=1.32.0,<1.33.0
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-phyloseq: ``>=1.32.0,<1.33.0``
    :depends r-alabama: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-ggplot2: >=2.2.1.9000
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ggplot2: ``>=2.2.1.9000``
    :depends r-mass: 
    :depends r-nleqslv: 
    :depends r-rcolorbrewer: 

@@ -8,6 +8,7 @@ bioconductor-reconsi
 
 .. conda:recipe:: bioconductor-reconsi
    :replaces_section_title:
+   :noindex:
 
    Resampling Collapsed Null Distributions for Simultaneous Inference
 
@@ -22,10 +23,17 @@ bioconductor-reconsi
 
    |downloads_bioconductor-reconsi| |docker_bioconductor-reconsi|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-phyloseq: >=1.32.0,<1.33.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-phyloseq: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-kernsmooth: 
    :depends r-mass: 

@@ -8,6 +8,7 @@ bioconductor-rcwl
 
 .. conda:recipe:: bioconductor-rcwl
    :replaces_section_title:
+   :noindex:
 
    Wrap Command Tools and Pipelines Using CWL
 
@@ -22,13 +23,20 @@ bioconductor-rcwl
 
    |downloads_bioconductor-rcwl| |docker_bioconductor-rcwl|
 
-   :versions: 1.4.2-0
+   :versions:
+      
+      
+
+      ``1.4.2-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends cwltool: >=1.0.2018
-   :depends python: >=2.7
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends cwltool: ``>=1.0.2018``
+   :depends python: ``>=2.7``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-batchtools: 
    :depends r-codetools: 
    :depends r-diagrammer: 

@@ -8,6 +8,7 @@ qcumber
 
 .. conda:recipe:: qcumber
    :replaces_section_title:
+   :noindex:
 
    Quality control\, quality trimming\, adapter removal and sequence content check of NGS data.
 
@@ -22,31 +23,38 @@ qcumber
 
    |downloads_qcumber| |docker_qcumber|
 
-   :versions: 2.0.4-0
+   :versions:
+      
+      
+
+      ``2.0.4-0``
+
+      
+
    
    :depends bioconductor-savr: 
    :depends bitstring: 
-   :depends bowtie2: 2.3.*
+   :depends bowtie2: ``2.3.*``
    :depends docopt: 
-   :depends fastqc: 0.11.*
+   :depends fastqc: ``0.11.*``
    :depends jinja2: 
-   :depends kraken: 0.10.*
+   :depends kraken: ``0.10.*``
    :depends krona: 
-   :depends matplotlib: 2.0.*
+   :depends matplotlib: ``2.0.*``
    :depends numpy: 
    :depends pandas: 
-   :depends python: 3.6.*
-   :depends pyyaml: 3.12.*
-   :depends r: 3.3.*
-   :depends r-ggplot2: 2.2.*
+   :depends python: ``3.6.*``
+   :depends pyyaml: ``3.12.*``
+   :depends r: ``3.3.*``
+   :depends r-ggplot2: ``2.2.*``
    :depends r-quantreg: 
    :depends r-reshape2: 
    :depends r-stringi: 
-   :depends samtools: 1.3.*
+   :depends samtools: ``1.3.*``
    :depends seaborn: 
    :depends setuptools: 
-   :depends snakemake: 3.12.*
-   :depends trimmomatic: 0.36.*
+   :depends snakemake: ``3.12.*``
+   :depends trimmomatic: ``0.36.*``
    :depends xmltodict: 
    :requirements:
 

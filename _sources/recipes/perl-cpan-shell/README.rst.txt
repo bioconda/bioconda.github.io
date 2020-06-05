@@ -8,6 +8,7 @@ perl-cpan-shell
 
 .. conda:recipe:: perl-cpan-shell/5.5004
    :replaces_section_title:
+   :noindex:
 
    
 
@@ -22,9 +23,16 @@ perl-cpan-shell
 
    |downloads_perl-cpan-shell| |docker_perl-cpan-shell|
 
-   :versions: 5.5004-1, 5.5004-0
+   :versions:
+      
+      
+
+      ``5.5004-1``,  ``5.5004-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-omiccircos
 
 .. conda:recipe:: bioconductor-omiccircos
    :replaces_section_title:
+   :noindex:
 
    High\-quality circular visualization of omics data
 
@@ -23,10 +24,17 @@ bioconductor-omiccircos
 
    |downloads_bioconductor-omiccircos| |docker_bioconductor-omiccircos|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

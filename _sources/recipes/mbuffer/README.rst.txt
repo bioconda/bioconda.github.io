@@ -8,6 +8,7 @@ mbuffer
 
 .. conda:recipe:: mbuffer
    :replaces_section_title:
+   :noindex:
 
    mbuffer is a tool for buffering data streams with a large set of unique features
 
@@ -22,7 +23,14 @@ mbuffer
 
    |downloads_mbuffer| |docker_mbuffer|
 
-   :versions: 20160228-1, 20160228-0
+   :versions:
+      
+      
+
+      ``20160228-1``,  ``20160228-0``
+
+      
+
    
    :requirements:
 

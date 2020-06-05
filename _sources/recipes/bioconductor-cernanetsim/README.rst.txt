@@ -8,6 +8,7 @@ bioconductor-cernanetsim
 
 .. conda:recipe:: bioconductor-cernanetsim
    :replaces_section_title:
+   :noindex:
 
    Regulation Simulator of Interaction between miRNA and Competing RNAs \(ceRNA\)
 
@@ -22,9 +23,16 @@ bioconductor-cernanetsim
 
    |downloads_bioconductor-cernanetsim| |docker_bioconductor-cernanetsim|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-furrr: 
    :depends r-future: 

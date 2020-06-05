@@ -8,6 +8,7 @@ perl-test-cleannamespaces
 
 .. conda:recipe:: perl-test-cleannamespaces
    :replaces_section_title:
+   :noindex:
 
    Check for uncleaned imports
 
@@ -22,9 +23,16 @@ perl-test-cleannamespaces
 
    |downloads_perl-test-cleannamespaces| |docker_perl-test-cleannamespaces|
 
-   :versions: 0.24-0, 0.23-0
+   :versions:
+      
+      
+
+      ``0.24-0``,  ``0.23-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter: 
    :depends perl-module-runtime: 
    :depends perl-package-stash: 

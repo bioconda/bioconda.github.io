@@ -8,6 +8,7 @@ knot
 
 .. conda:recipe:: knot
    :replaces_section_title:
+   :noindex:
 
    Detection of knots in protein folds.
 
@@ -22,7 +23,14 @@ knot
 
    |downloads_knot| |docker_knot|
 
-   :versions: 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.0.0-1``
+
+      
+
    
    :requirements:
 

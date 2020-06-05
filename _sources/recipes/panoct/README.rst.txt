@@ -8,6 +8,7 @@ panoct
 
 .. conda:recipe:: panoct
    :replaces_section_title:
+   :noindex:
 
    PanOCT\, Pan\-genome Ortholog Clustering Tool\, is a program for pan\-genomic analysis of closely related prokaryotic species or strains
 
@@ -22,9 +23,16 @@ panoct
 
    |downloads_panoct| |docker_panoct|
 
-   :versions: 3.23-1, 3.23-0
+   :versions:
+      
+      
+
+      ``3.23-1``,  ``3.23-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ metaprokka
 
 .. conda:recipe:: metaprokka
    :replaces_section_title:
+   :noindex:
 
    A specialized version of Prokka to quickly annotate metagenome assemblies.
 
@@ -23,10 +24,17 @@ metaprokka
 
    |downloads_metaprokka| |docker_metaprokka|
 
-   :versions: 1.14.6_1-0
+   :versions:
+      
+      
+
+      ``1.14.6_1-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends prokka: 1.14.6.*
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends prokka: ``1.14.6.*``
    :requirements:
 
    .. rubric:: Installation

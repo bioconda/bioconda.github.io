@@ -8,6 +8,7 @@ effectivet3
 
 .. conda:recipe:: effectivet3
    :replaces_section_title:
+   :noindex:
 
    Command line NoD \(clinod\)\, for  predicting nucleolar localization sequences.
 
@@ -23,10 +24,17 @@ effectivet3
 
    |downloads_effectivet3| |docker_effectivet3|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
-   :depends openjdk: >=6
-   :depends python: 2.7*
+   :depends openjdk: ``>=6``
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

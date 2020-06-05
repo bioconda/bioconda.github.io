@@ -8,6 +8,7 @@ perl-html-element-extended
 
 .. conda:recipe:: perl-html-element-extended
    :replaces_section_title:
+   :noindex:
 
    Perl extension for manipulating a table composed of HTML\:\:Element style components.
 
@@ -22,9 +23,16 @@ perl-html-element-extended
 
    |downloads_perl-html-element-extended| |docker_perl-html-element-extended|
 
-   :versions: 1.18-1, 1.18-0
+   :versions:
+      
+      
+
+      ``1.18-1``,  ``1.18-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-html-tree: 
    :requirements:
 

@@ -8,6 +8,7 @@ ga4ghmongo
 
 .. conda:recipe:: ga4ghmongo
    :replaces_section_title:
+   :noindex:
 
    A document based Variant database inspired by ga4gh Variants schema
 
@@ -22,7 +23,14 @@ ga4ghmongo
 
    |downloads_ga4ghmongo| |docker_ga4ghmongo|
 
-   :versions: 0.0.1.2-1, 0.0.1.2-0
+   :versions:
+      
+      
+
+      ``0.0.1.2-1``,  ``0.0.1.2-0``
+
+      
+
    
    :depends mongoengine: 
    :depends python: 

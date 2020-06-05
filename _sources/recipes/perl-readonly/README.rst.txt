@@ -8,6 +8,7 @@ perl-readonly
 
 .. conda:recipe:: perl-readonly
    :replaces_section_title:
+   :noindex:
 
    Facility for creating read\-only scalars\, arrays\, hashes
 
@@ -22,9 +23,16 @@ perl-readonly
 
    |downloads_perl-readonly| |docker_perl-readonly|
 
-   :versions: 2.05-0, 1.04-2, 1.04-1, 1.04-0
+   :versions:
+      
+      
+
+      ``2.05-0``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

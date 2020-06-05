@@ -8,6 +8,7 @@ fwdpy
 
 .. conda:recipe:: fwdpy
    :replaces_section_title:
+   :noindex:
 
    Forward\-time population genetic simulation in Python.
 
@@ -22,13 +23,20 @@ fwdpy
 
    |downloads_fwdpy| |docker_fwdpy|
 
-   :versions: 0.0.4pre1-0
+   :versions:
+      
+      
+
+      ``0.0.4pre1-0``
+
+      
+
    
-   :depends gsl: 1.16*
+   :depends gsl: ``1.16*``
    :depends libsequence: 
-   :depends numpy: >=1.10
-   :depends pandas: >=0.18
-   :depends python: 2.7*
+   :depends numpy: ``>=1.10``
+   :depends pandas: ``>=0.18``
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

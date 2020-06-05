@@ -8,6 +8,7 @@ bioconductor-glmgampoi
 
 .. conda:recipe:: bioconductor-glmgampoi
    :replaces_section_title:
+   :noindex:
 
    Fit a Gamma\-Poisson Generalized Linear Model
 
@@ -22,18 +23,25 @@ bioconductor-glmgampoi
 
    |downloads_bioconductor-glmgampoi| |docker_bioconductor-glmgampoi|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-beachmat: >=2.4.0,<2.5.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-delayedmatrixstats: >=1.10.0,<1.11.0
-   :depends bioconductor-hdf5array: >=1.16.0,<1.17.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-beachmat: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-hdf5array: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-pracma: 
    :depends r-rcpp: 
    :depends r-rcpparmadillo: 

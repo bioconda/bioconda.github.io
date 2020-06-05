@@ -8,6 +8,7 @@ transcov
 
 .. conda:recipe:: transcov
    :replaces_section_title:
+   :noindex:
 
    A software for mapping coverage around transcription start sites
 
@@ -24,15 +25,22 @@ transcov
 
    |downloads_transcov| |docker_transcov|
 
-   :versions: 1.1.3-0, 1.1.2-0, 1.1.1-0, 1.0.7-0, 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``
+
+      
+
    
    :depends attrs: 
-   :depends click: >=7.0
+   :depends click: ``>=7.0``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends scipy: 
    :depends seaborn: 
    :requirements:

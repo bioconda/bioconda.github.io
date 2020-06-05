@@ -8,6 +8,7 @@ perl-crypt-openssl-random
 
 .. conda:recipe:: perl-crypt-openssl-random/0.11
    :replaces_section_title:
+   :noindex:
 
    OpenSSL\/LibreSSL pseudo\-random number generator access
 
@@ -22,10 +23,17 @@ perl-crypt-openssl-random
 
    |downloads_perl-crypt-openssl-random| |docker_perl-crypt-openssl-random|
 
-   :versions: 0.11-1, 0.11-0
+   :versions:
+      
+      
+
+      ``0.11-1``,  ``0.11-0``
+
+      
+
    
-   :depends openssl: >=1.0.2o,<1.0.3a
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends openssl: ``>=1.0.2o,<1.0.3a``
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

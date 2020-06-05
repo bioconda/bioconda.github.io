@@ -8,6 +8,7 @@ bioconductor-mirsynergy
 
 .. conda:recipe:: bioconductor-mirsynergy
    :replaces_section_title:
+   :noindex:
 
    Mirsynergy
 
@@ -23,9 +24,16 @@ bioconductor-mirsynergy
 
    |downloads_bioconductor-mirsynergy| |docker_bioconductor-mirsynergy|
 
-   :versions: 1.23.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.23.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-igraph: 

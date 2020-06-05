@@ -8,6 +8,7 @@ strainest
 
 .. conda:recipe:: strainest
    :replaces_section_title:
+   :noindex:
 
    Abundance estimation of strains
 
@@ -22,19 +23,26 @@ strainest
 
    |downloads_strainest| |docker_strainest|
 
-   :versions: 1.2.4-4, 1.2.4-3, 1.2.4-2, 1.2.4-0, 1.2.2-0
+   :versions:
+      
+      
+
+      ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-2``,  ``1.2.4-0``,  ``1.2.2-0``
+
+      
+
    
-   :depends biopython: >=1.50
-   :depends click: >=5.1
-   :depends libcxx: >=9.0.1
-   :depends matplotlib: >=1.3.0
-   :depends mummer: 3.23.*
-   :depends numpy: >=1.7.0
+   :depends biopython: ``>=1.50``
+   :depends click: ``>=5.1``
+   :depends libcxx: ``>=9.0.1``
+   :depends matplotlib: ``>=1.3.0``
+   :depends mummer: ``3.23.*``
+   :depends numpy: ``>=1.7.0``
    :depends pandas: 
-   :depends pysam: >=0.9
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends scikit-learn: >=0.16.1
+   :depends pysam: ``>=0.9``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends scikit-learn: ``>=0.16.1``
    :depends scipy: 
    :requirements:
 

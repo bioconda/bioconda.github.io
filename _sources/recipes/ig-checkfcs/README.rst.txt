@@ -8,6 +8,7 @@ ig-checkfcs
 
 .. conda:recipe:: ig-checkfcs
    :replaces_section_title:
+   :noindex:
 
    quick FCS datatype check
 
@@ -22,10 +23,17 @@ ig-checkfcs
 
    |downloads_ig-checkfcs| |docker_ig-checkfcs|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
    :depends bioconductor-flowcore: 
-   :depends r: >=2.10.0
+   :depends r: ``>=2.10.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ pyteomics
 
 .. conda:recipe:: pyteomics
    :replaces_section_title:
+   :noindex:
 
    A framework for proteomics data analysis.
 
@@ -23,7 +24,22 @@ pyteomics
 
    |downloads_pyteomics| |docker_pyteomics|
 
-   :versions: 4.3.2-0, 4.2-0, 4.1.2-0, 4.1.1-0, 4.1-0, 4.0.1-0, 3.5.1-2, 3.5.1-0, 3.4-1, 3.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.3.2-0</code>,  <code>4.2-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1-0</code>,  <code>4.0.1-0</code>,  <code>3.5.1-2</code>,  <code>3.5.1-0</code>,  <code>3.4-1</code>,  </span></summary>
+      
+
+      ``4.3.2-0``,  ``4.2-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.5.1-2``,  ``3.5.1-0``,  ``3.4-1``,  ``3.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends lxml: 
    :depends matplotlib-base: 

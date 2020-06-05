@@ -8,6 +8,7 @@ bioconductor-qubic
 
 .. conda:recipe:: bioconductor-qubic
    :replaces_section_title:
+   :noindex:
 
    An R package for qualitative biclustering in support of gene co\-expression analyses
 
@@ -22,16 +23,23 @@ bioconductor-qubic
 
    |downloads_bioconductor-qubic| |docker_bioconductor-qubic|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biclust: 
    :depends r-matrix: 
-   :depends r-rcpp: >=0.11.0
+   :depends r-rcpp: ``>=0.11.0``
    :depends r-rcpparmadillo: 
    :requirements:
 

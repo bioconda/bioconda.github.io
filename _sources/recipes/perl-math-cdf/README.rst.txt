@@ -8,6 +8,7 @@ perl-math-cdf
 
 .. conda:recipe:: perl-math-cdf
    :replaces_section_title:
+   :noindex:
 
    Generate probabilities and quantiles from several statistical probability functions
 
@@ -22,10 +23,17 @@ perl-math-cdf
 
    |downloads_perl-math-cdf| |docker_perl-math-cdf|
 
-   :versions: 0.1-5, 0.1-4, 0.1-3, 0.1-2, 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

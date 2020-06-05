@@ -8,6 +8,7 @@ nspdk
 
 .. conda:recipe:: nspdk
    :replaces_section_title:
+   :noindex:
 
    Neighborhood Subgraph Pairwise Distance Kernel \(NSPDK\).
 
@@ -22,7 +23,14 @@ nspdk
 
    |downloads_nspdk| |docker_nspdk|
 
-   :versions: 9.2-0
+   :versions:
+      
+      
+
+      ``9.2-0``
+
+      
+
    
    :depends libgcc: 
    :depends zlib: 

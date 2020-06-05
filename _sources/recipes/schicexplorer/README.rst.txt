@@ -8,6 +8,7 @@ schicexplorer
 
 .. conda:recipe:: schicexplorer
    :replaces_section_title:
+   :noindex:
 
    Set of programs to process\, analyze and visualize single\-cell Hi\-C data.
 
@@ -22,16 +23,23 @@ schicexplorer
 
    |downloads_schicexplorer| |docker_schicexplorer|
 
-   :versions: 4-0, 3-0, 2-0, 1-0
+   :versions:
+      
+      
+
+      ``4-0``,  ``3-0``,  ``2-0``,  ``1-0``
+
+      
+
    
-   :depends cooler: >=0.8.5
-   :depends hicexplorer: >=3.4.1
-   :depends hicmatrix: >=11
-   :depends numpy: >=1.18
-   :depends python: >=3.6
-   :depends scikit-learn: >=0.22
-   :depends scipy: >=1.4
-   :depends sparse-neighbors-search: >=0.5
+   :depends cooler: ``>=0.8.5``
+   :depends hicexplorer: ``>=3.4.1``
+   :depends hicmatrix: ``>=11``
+   :depends numpy: ``>=1.18``
+   :depends python: ``>=3.6``
+   :depends scikit-learn: ``>=0.22``
+   :depends scipy: ``>=1.4``
+   :depends sparse-neighbors-search: ``>=0.5``
    :requirements:
 
    .. rubric:: Installation

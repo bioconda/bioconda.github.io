@@ -8,6 +8,7 @@ bioconductor-chipseqspike
 
 .. conda:recipe:: bioconductor-chipseqspike
    :replaces_section_title:
+   :noindex:
 
    ChIP\-Seq data scaling according to spike\-in control
 
@@ -22,16 +23,23 @@ bioconductor-chipseqspike
 
    |downloads_bioconductor-chipseqspike| |docker_bioconductor-chipseqspike|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-seqplots: >=1.26.0,<1.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-seqplots: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 
    :depends r-ggplot2: 
    :depends r-lsd: 

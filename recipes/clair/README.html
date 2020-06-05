@@ -75,7 +75,7 @@
   
   <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
-  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  <li class="toctree-l1"><a href="../../conda-package_index.html">Package Index</a></li>
   
   <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
@@ -100,8 +100,8 @@
             
   <div class="section" id="clair">
 <dl class="conda recipe">
-<dt id="recipe-clair">
-<em class="property">recipe </em><code class="sig-name descname">clair</code><a class="headerlink" href="#recipe-clair" title="Permalink to this definition">¶</a></dt>
+<dt>
+<em class="property">recipe </em><code class="sig-name descname">clair</code></dt>
 <dd><p>Single-molecule sequencing technologies have emerged in recent years and revolutionized structural variant calling, complex genome assembly, and epigenetic mark detection. However, the lack of a highly accurate small variant caller has limited the new technologies from being more widely used. In this study, we present Clair, the successor to Clairvoyante, a program for fast and accurate germline small variant calling, using single molecule sequencing data. For ONT data, Clair achieves the best precision, recall and speed as compared to several competing programs, including Clairvoyante, Longshot and Medaka. Through studying the missed variants and benchmarking intentionally overfitted models, we found that Clair may be approaching the limit of possible accuracy for germline small variant calling using pileup data and deep neural networks.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -120,25 +120,25 @@
 <dt id="package-clair">
 <em class="property">package </em><code class="sig-name descname">clair</code><a class="headerlink" href="#package-clair" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/clair"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/clair.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/clair"><img alt="docker_clair" src="https://quay.io/repository/biocontainers/clair/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>2.1.0-1, 2.1.0-0, 2.0.7-0, 2.0.6-1, 2.0.6-0, 2.0.5-1, 2.0.5-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0</p>
-</dd>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-1</code>,  <code>2.0.6-0</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code></p>
+</details></dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
 <li><p><a class="conda-package reference internal" href="../bcftools/README.html#package-bcftools" title="bcftools package"><strong>bcftools</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/intervaltree-feedstock"><strong>intervaltree</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-base-feedstock"><strong>matplotlib-base</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> &gt;=1.17,&lt;1.18</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.17,&lt;1.18</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/parallel-feedstock"><strong>parallel</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pigz-feedstock"><strong>pigz</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pip-feedstock"><strong>pip</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pypy3.6-feedstock"><strong>pypy3.6</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> &gt;=3,&lt;3.8</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3,&lt;3.8</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-blosc-feedstock"><strong>python-blosc</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tensorflow-feedstock"><strong>tensorflow</strong></a> &gt;=1.13,&lt;1.14</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tensorflow-feedstock"><strong>tensorflow</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.13,&lt;1.14</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../vcflib/README.html#package-vcflib" title="vcflib package"><strong>vcflib</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zstd-feedstock"><strong>zstd</strong></a></p></li>
 </ul>

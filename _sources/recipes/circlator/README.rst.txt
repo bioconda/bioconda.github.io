@@ -8,6 +8,7 @@ circlator
 
 .. conda:recipe:: circlator
    :replaces_section_title:
+   :noindex:
 
    circlator\: a tool to circularise genome assemblies
 
@@ -22,19 +23,34 @@ circlator
 
    |downloads_circlator| |docker_circlator|
 
-   :versions: 1.5.5-3, 1.5.5-2, 1.5.5-1, 1.5.5-0, 1.5.2-1, 1.5.2-0, 1.5.1-0, 1.5.0-0, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.1.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.5.5-3</code>,  <code>1.5.5-2</code>,  <code>1.5.5-1</code>,  <code>1.5.5-0</code>,  <code>1.5.2-1</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+      
+
+      ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends amos: >=3.1.0
-   :depends bio_assembly_refinement: >=0.4.0
+   :depends amos: ``>=3.1.0``
+   :depends bio_assembly_refinement: ``>=0.4.0``
    :depends bwa: 
-   :depends canu: >=1.8
-   :depends mummer: >=3.23
+   :depends canu: ``>=1.8``
+   :depends mummer: ``>=3.23``
    :depends openpyxl: 
    :depends prodigal: 
-   :depends pyfastaq: >=3.12.1
-   :depends pymummer: >=0.9.0
-   :depends pysam: >=0.8.1
-   :depends python: >=3
+   :depends pyfastaq: ``>=3.12.1``
+   :depends pymummer: ``>=0.9.0``
+   :depends pysam: ``>=0.8.1``
+   :depends python: ``>=3``
    :depends samtools: 
    :depends spades: 
    :requirements:

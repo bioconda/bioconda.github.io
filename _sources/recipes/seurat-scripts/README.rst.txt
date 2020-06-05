@@ -8,6 +8,7 @@ seurat-scripts
 
 .. conda:recipe:: seurat-scripts
    :replaces_section_title:
+   :noindex:
 
    A set of wrappers for individual components of the Seurat package. Functions R packages are hard to call when building workflows outside of R\, so this package adds a set of simple wrappers with robust argument parsing. Intermediate steps are currently mainly serialized R objects\, but the ultimate objective is to have language\-agnostic intermediate formats allowing composite workflows using a variety of software packages.
 
@@ -22,16 +23,23 @@ seurat-scripts
 
    |downloads_seurat-scripts| |docker_seurat-scripts|
 
-   :versions: 0.0.6-0, 0.0.5-1, 0.0.5-0
+   :versions:
+      
+      
+
+      ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``
+
+      
+
    
    :depends bioconductor-scater: 
-   :depends libpng: >=1.6.37,<1.7.0a0
+   :depends libpng: ``>=1.6.37,<1.7.0a0``
    :depends mscorefonts: 
    :depends r-cairo: 
    :depends r-loom: 
    :depends r-optparse: 
-   :depends r-seurat: 3.1.1.*
-   :depends r-workflowscriptscommon: >=0.0.6
+   :depends r-seurat: ``3.1.1.*``
+   :depends r-workflowscriptscommon: ``>=0.0.6``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-xml-dom
 
 .. conda:recipe:: perl-xml-dom
    :replaces_section_title:
+   :noindex:
 
    A perl module for building DOM Level 1 compliant document structures
 
@@ -22,9 +23,16 @@ perl-xml-dom
 
    |downloads_perl-xml-dom| |docker_perl-xml-dom|
 
-   :versions: 1.46-0, 1.45-1, 1.45-0
+   :versions:
+      
+      
+
+      ``1.46-0``,  ``1.45-1``,  ``1.45-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-libwww-perl: 
    :depends perl-libxml-perl: 
    :depends perl-xml-parser: 

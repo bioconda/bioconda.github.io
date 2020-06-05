@@ -8,6 +8,7 @@ vmatch
 
 .. conda:recipe:: vmatch
    :replaces_section_title:
+   :noindex:
 
    The Vmatch large scale sequence analysis software
 
@@ -23,10 +24,17 @@ vmatch
 
    |downloads_vmatch| |docker_vmatch|
 
-   :versions: 2.3.0-2, 2.3.0-1, 2.3.0-0
+   :versions:
+      
+      
+
+      ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.10,<6
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.10,<6``
    :requirements:
 
    .. rubric:: Installation

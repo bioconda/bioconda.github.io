@@ -8,6 +8,7 @@ bioconductor-bsgenome.mfuro.ucsc.musfur1
 
 .. conda:recipe:: bioconductor-bsgenome.mfuro.ucsc.musfur1
    :replaces_section_title:
+   :noindex:
 
    Full genome sequences for Mustela putorius furo \(UCSC version musFur1\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.mfuro.ucsc.musfur1
 
    |downloads_bioconductor-bsgenome.mfuro.ucsc.musfur1| |docker_bioconductor-bsgenome.mfuro.ucsc.musfur1|
 
-   :versions: 1.4.1-4, 1.4.1-3, 1.4.1-2, 1.4.1-0
+   :versions:
+      
+      
+
+      ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

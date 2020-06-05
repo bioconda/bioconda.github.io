@@ -8,6 +8,7 @@ checkm-genome
 
 .. conda:recipe:: checkm-genome
    :replaces_section_title:
+   :noindex:
 
    Assess the quality of microbial genomes recovered from isolates\, single cells\, and metagenomes.
 
@@ -22,17 +23,32 @@ checkm-genome
 
    |downloads_checkm-genome| |docker_checkm-genome|
 
-   :versions: 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.18-0, 1.0.17-0, 1.0.16-0, 1.0.13-1, 1.0.13-0, 1.0.12-0, 1.0.11-1, 1.0.11-0, 1.0.7-0, 1.0.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.18-0</code>,  <code>1.0.17-0</code>,  <code>1.0.16-0</code>,  <code>1.0.13-1</code>,  </span></summary>
+      
+
+      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.7-0``,  ``1.0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends dendropy: >=4.4.0
-   :depends hmmer: >=3.1b1
-   :depends matplotlib: >=2.1.0
-   :depends numpy: >=1.13.1
-   :depends pplacer: 1.1.alpha19
-   :depends prodigal: >=2.6.1
-   :depends pysam: >=0.12.0.1
-   :depends python: >=3.6
-   :depends scipy: >=0.19.1
+   :depends dendropy: ``>=4.4.0``
+   :depends hmmer: ``>=3.1b1``
+   :depends matplotlib: ``>=2.1.0``
+   :depends numpy: ``>=1.13.1``
+   :depends pplacer: ``1.1.alpha19``
+   :depends prodigal: ``>=2.6.1``
+   :depends pysam: ``>=0.12.0.1``
+   :depends python: ``>=3.6``
+   :depends scipy: ``>=0.19.1``
    :depends wget: 
    :requirements:
 

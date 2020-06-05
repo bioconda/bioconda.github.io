@@ -8,6 +8,7 @@ assembly-stats
 
 .. conda:recipe:: assembly-stats
    :replaces_section_title:
+   :noindex:
 
    Get assembly statistics from FASTA and FASTQ files
 
@@ -22,9 +23,16 @@ assembly-stats
 
    |downloads_assembly-stats| |docker_assembly-stats|
 
-   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-gpart
 
 .. conda:recipe:: bioconductor-gpart
    :replaces_section_title:
+   :noindex:
 
    Human genome partitioning of dense sequencing data by identifying haplotype blocks
 
@@ -22,20 +23,27 @@ bioconductor-gpart
 
    |downloads_bioconductor-gpart| |docker_bioconductor-gpart|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-homo.sapiens: >=1.3.0,<1.4.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-organismdbi: >=1.30.0,<1.31.0
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: >=3.10.0,<3.11.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-organismdbi: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.10.0,<3.11.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-igraph: 
    :depends r-rcpp: 

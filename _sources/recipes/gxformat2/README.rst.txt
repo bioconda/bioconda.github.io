@@ -8,6 +8,7 @@ gxformat2
 
 .. conda:recipe:: gxformat2
    :replaces_section_title:
+   :noindex:
 
    Galaxy Workflow Format 2 Descriptions
 
@@ -22,7 +23,22 @@ gxformat2
 
    |downloads_gxformat2| |docker_gxformat2|
 
-   :versions: 0.11.1-0, 0.10.1-0, 0.10.0-0, 0.9.0-0, 0.8.4-0, 0.8.3-0, 0.8.2-0, 0.8.0-0, 0.2.0-2, 0.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.11.1-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.0-0</code>,  <code>0.2.0-2</code>,  </span></summary>
+      
+
+      ``0.11.1-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.0-2``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bioblend: 
    :depends python: 

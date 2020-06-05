@@ -8,6 +8,7 @@ perl-sub-info
 
 .. conda:recipe:: perl-sub-info
    :replaces_section_title:
+   :noindex:
 
    Tool for inspecting subroutines.
 
@@ -22,9 +23,16 @@ perl-sub-info
 
    |downloads_perl-sub-info| |docker_perl-sub-info|
 
-   :versions: 0.002-0
+   :versions:
+      
+      
+
+      ``0.002-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-importer: 
    :requirements:

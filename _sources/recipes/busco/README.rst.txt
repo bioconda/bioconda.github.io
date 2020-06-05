@@ -8,6 +8,7 @@ busco
 
 .. conda:recipe:: busco
    :replaces_section_title:
+   :noindex:
 
    BUSCO provides measures for quantitative assessment of genome assembly\, gene set\, and transcriptome completeness based on evolutionarily informed expectations of gene content from near\-universal single\-copy orthologs selected from OrthoDB.
 
@@ -23,18 +24,33 @@ busco
 
    |downloads_busco| |docker_busco|
 
-   :versions: 4.0.6-0, 4.0.5-0, 4.0.4-1, 4.0.4-0, 4.0.2-0, 4.0.1-0, 4.0.0-0, 4.0.beta1-0, 3.0.2-13, 3.0.2-12, 3.0.2-11, 3.0.2-10, 3.0.2-9, 3.0.2-8, 3.0.2-7, 3.0.2-6, 3.0.2-5, 3.0.2-4, 3.0.1-0, 2.0.1-0, 2.0-0, 1.2-1, 1.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.0.6-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-1</code>,  <code>4.0.4-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>4.0.beta1-0</code>,  <code>3.0.2-13</code>,  </span></summary>
+      
+
+      ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``4.0.beta1-0``,  ``3.0.2-13``,  ``3.0.2-12``,  ``3.0.2-11``,  ``3.0.2-10``,  ``3.0.2-9``,  ``3.0.2-8``,  ``3.0.2-7``,  ``3.0.2-6``,  ``3.0.2-5``,  ``3.0.2-4``,  ``3.0.1-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.2-1``,  ``1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends augustus: 3.2.3.*
+   :depends augustus: ``3.2.3.*``
    :depends biopython: 
-   :depends blast: >=2.2,<2.4
+   :depends blast: ``>=2.2,<2.4``
    :depends findutils: 
-   :depends hmmer: >=3.1b2
+   :depends hmmer: ``>=3.1b2``
    :depends prodigal: 
-   :depends python: >=3.3
-   :depends r-base: >=3.6,<3.7.0a0
-   :depends r-ggplot2: >=2.2.1
-   :depends sepp: >=4.3.10
+   :depends python: ``>=3.3``
+   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-ggplot2: ``>=2.2.1``
+   :depends sepp: ``>=4.3.10``
    :requirements:
 
    .. rubric:: Installation

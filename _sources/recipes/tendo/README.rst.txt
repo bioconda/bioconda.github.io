@@ -8,6 +8,7 @@ tendo
 
 .. conda:recipe:: tendo
    :replaces_section_title:
+   :noindex:
 
    Tendo is a python module that adds basic functionality that is not \(yet\) provided by Python.
 
@@ -24,7 +25,14 @@ tendo
 
    |downloads_tendo| |docker_tendo|
 
-   :versions: 0.2.15-0
+   :versions:
+      
+      
+
+      ``0.2.15-0``
+
+      
+
    
    :depends pbr: 
    :depends python: 

@@ -8,6 +8,7 @@ perl-bio-tools-phylo-paml
 
 .. conda:recipe:: perl-bio-tools-phylo-paml
    :replaces_section_title:
+   :noindex:
 
    Parses output from the PAML programs codeml\, baseml\, basemlg\, codemlsites and yn00
 
@@ -22,10 +23,17 @@ perl-bio-tools-phylo-paml
 
    |downloads_perl-bio-tools-phylo-paml| |docker_perl-bio-tools-phylo-paml|
 
-   :versions: 1.7.3-1, 1.7.3-0
+   :versions:
+      
+      
+
+      ``1.7.3-1``,  ``1.7.3-0``
+
+      
+
    
    :depends paml: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-bioperl-run: 
    :depends perl-getopt-long: 

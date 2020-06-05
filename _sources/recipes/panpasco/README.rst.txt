@@ -8,6 +8,7 @@ panpasco
 
 .. conda:recipe:: panpasco
    :replaces_section_title:
+   :noindex:
 
    Pipeline for pangenome mapping and pairwise SNP distance
 
@@ -24,22 +25,29 @@ panpasco
 
    |downloads_panpasco| |docker_panpasco|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bedtools: 2.27.*
+   :depends bedtools: ``2.27.*``
    :depends bioconductor-genomicranges: 
-   :depends bwa: 0.7.17.*
-   :depends flash: 1.2.11.*
-   :depends gatk: 3.8.*
-   :depends picard: 2.18.*
-   :depends python: >3
+   :depends bwa: ``0.7.17.*``
+   :depends flash: ``1.2.11.*``
+   :depends gatk: ``3.8.*``
+   :depends picard: ``2.18.*``
+   :depends python: ``>3``
    :depends r-argparse: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends samtools: 
    :depends seqtk: 
    :depends snakemake: 
    :depends tabix: 
-   :depends trimmomatic: 0.36.*
+   :depends trimmomatic: ``0.36.*``
    :requirements:
 
    .. rubric:: Installation

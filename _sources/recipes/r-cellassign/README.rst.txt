@@ -8,6 +8,7 @@ r-cellassign
 
 .. conda:recipe:: r-cellassign
    :replaces_section_title:
+   :noindex:
 
    Automated\, probabilistic assignment of cell types in scRNA\-seq data
 
@@ -22,12 +23,19 @@ r-cellassign
 
    |downloads_r-cellassign| |docker_r-cellassign|
 
-   :versions: 0.99.2-2, 0.99.2-1, 0.99.2-0, 0.99.1-0, 0.99.0-1, 0.99.0-0
+   :versions:
+      
+      
+
+      ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``,  ``0.99.1-0``,  ``0.99.0-1``,  ``0.99.0-0``
+
+      
+
    
    :depends bioconductor-genomeinfodbdata: 
    :depends bioconductor-scran: 
    :depends bioconductor-summarizedexperiment: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-glue: 
    :depends r-tensorflow: 
    :requirements:

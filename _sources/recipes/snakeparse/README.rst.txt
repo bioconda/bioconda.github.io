@@ -8,6 +8,7 @@ snakeparse
 
 .. conda:recipe:: snakeparse
    :replaces_section_title:
+   :noindex:
 
    Making Snakemake workflows into full\-fledged command line tools since 1999.
 
@@ -22,11 +23,18 @@ snakeparse
 
    |downloads_snakeparse| |docker_snakeparse|
 
-   :versions: 0.1.0-2, 0.1.0-1, 0.1.0-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.1-0``
+
+      
+
    
-   :depends pyhocon: >=0.3.38
-   :depends python: >=3.6
-   :depends pyyaml: >=3.12
+   :depends pyhocon: ``>=0.3.38``
+   :depends python: ``>=3.6``
+   :depends pyyaml: ``>=3.12``
    :requirements:
 
    .. rubric:: Installation

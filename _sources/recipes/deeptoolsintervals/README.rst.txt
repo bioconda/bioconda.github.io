@@ -8,6 +8,7 @@ deeptoolsintervals
 
 .. conda:recipe:: deeptoolsintervals
    :replaces_section_title:
+   :noindex:
 
    A python module creating\/accessing GTF\-based interval trees with associated meta\-data
 
@@ -22,11 +23,18 @@ deeptoolsintervals
 
    |downloads_deeptoolsintervals| |docker_deeptoolsintervals|
 
-   :versions: 0.1.9-1, 0.1.9-0, 0.1.8-0, 0.1.7-2, 0.1.7-1, 0.1.7-0
+   :versions:
+      
+      
+
+      ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

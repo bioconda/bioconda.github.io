@@ -8,6 +8,7 @@ xbioc
 
 .. conda:recipe:: xbioc
    :replaces_section_title:
+   :noindex:
 
    Extra Base Functions for Bioconductor
 
@@ -22,15 +23,22 @@ xbioc
 
    |downloads_xbioc| |docker_xbioc|
 
-   :versions: 0.1.18-0, 0.1.16-0
+   :versions:
+      
+      
+
+      ``0.1.18-0``,  ``0.1.16-0``
+
+      
+
    
    :depends bioconductor-annotationdbi: 
    :depends bioconductor-biobase: 
    :depends r-assertthat: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-biocmanager: 
    :depends r-digest: 
-   :depends r-pkgmaker: >=0.26.6
+   :depends r-pkgmaker: ``>=0.26.6``
    :depends r-plyr: 
    :depends r-reshape2: 
    :depends r-stringr: 

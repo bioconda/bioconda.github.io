@@ -8,6 +8,7 @@ bioconductor-ecolitk
 
 .. conda:recipe:: bioconductor-ecolitk
    :replaces_section_title:
+   :noindex:
 
    Meta\-data and tools for E. coli
 
@@ -22,10 +23,17 @@ bioconductor-ecolitk
 
    |downloads_bioconductor-ecolitk| |docker_bioconductor-ecolitk|
 
-   :versions: 1.60.0-0, 1.58.0-0, 1.56.0-1, 1.54.0-0
+   :versions:
+      
+      
+
+      ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

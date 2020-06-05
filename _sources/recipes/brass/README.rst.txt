@@ -8,6 +8,7 @@ brass
 
 .. conda:recipe:: brass
    :replaces_section_title:
+   :noindex:
 
    BRASS analyses one or more related BAM files of paired\-end sequencing to determine potential rearrangement breakpoints.
 
@@ -22,7 +23,14 @@ brass
 
    |downloads_brass| |docker_brass|
 
-   :versions: 5.1.6-7, 5.1.6-2
+   :versions:
+      
+      
+
+      ``5.1.6-7``,  ``5.1.6-2``
+
+      
+
    
    :depends bedtools: 
    :depends blat: 
@@ -31,7 +39,7 @@ brass
    :depends libgcc: 
    :depends perl-bio-db-hts: 
    :depends perl-bio-featureio: 
-   :depends perl-bioperl-core: ==1.6.924
+   :depends perl-bioperl-core: ``==1.6.924``
    :depends perl-capture-tiny: 
    :depends perl-file-sharedir: 
    :depends perl-file-sharedir-install: 

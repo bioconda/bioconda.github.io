@@ -8,6 +8,7 @@ changeo
 
 .. conda:recipe:: changeo
    :replaces_section_title:
+   :noindex:
 
    A bioinformatics toolkit for processing high\-throughput lymphocyte receptor sequencing data. Citations\: Gupta\, et al \(2015\) \<doi\:10.1093\/bioinformatics\/btv359\>.
 
@@ -22,16 +23,23 @@ changeo
 
    |downloads_changeo| |docker_changeo|
 
-   :versions: 1.0.0-0, 0.4.6-0, 0.4.5-0, 0.4.4-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``
+
+      
+
    
-   :depends airr: >=1.2.1
-   :depends biopython: >=1.65
-   :depends numpy: >=1.8
-   :depends pandas: >=0.15
-   :depends presto: >=0.5.10
-   :depends python: >=3.4
-   :depends pyyaml: >=3.12
-   :depends scipy: >=0.14
+   :depends airr: ``>=1.2.1``
+   :depends biopython: ``>=1.65``
+   :depends numpy: ``>=1.8``
+   :depends pandas: ``>=0.15``
+   :depends presto: ``>=0.5.10``
+   :depends python: ``>=3.4``
+   :depends pyyaml: ``>=3.12``
+   :depends scipy: ``>=0.14``
    :requirements:
 
    .. rubric:: Installation

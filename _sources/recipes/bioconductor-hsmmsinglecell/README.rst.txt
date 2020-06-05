@@ -8,6 +8,7 @@ bioconductor-hsmmsinglecell
 
 .. conda:recipe:: bioconductor-hsmmsinglecell
    :replaces_section_title:
+   :noindex:
 
    Single\-cell RNA\-Seq for differentiating human skeletal muscle myoblasts \(HSMM\)
 
@@ -22,10 +23,25 @@ bioconductor-hsmmsinglecell
 
    |downloads_bioconductor-hsmmsinglecell| |docker_bioconductor-hsmmsinglecell|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0, 0.114.0-0, 0.112.0-1, 0.112.0-0, 0.110.0-1, 0.110.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>0.114.0-0</code>,  <code>0.112.0-1</code>,  <code>0.112.0-0</code>,  <code>0.110.0-1</code>,  </span></summary>
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``0.114.0-0``,  ``0.112.0-1``,  ``0.112.0-0``,  ``0.110.0-1``,  ``0.110.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

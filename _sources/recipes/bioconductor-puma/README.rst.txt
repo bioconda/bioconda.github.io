@@ -8,6 +8,7 @@ bioconductor-puma
 
 .. conda:recipe:: bioconductor-puma
    :replaces_section_title:
+   :noindex:
 
    Propagating Uncertainty in Microarray Analysis\(including Affymetrix tranditional 3\' arrays and exon arrays and Human Transcriptome Array 2.0\)
 
@@ -23,17 +24,24 @@ bioconductor-puma
 
    |downloads_bioconductor-puma| |docker_bioconductor-puma|
 
-   :versions: 3.30.0-0, 3.28.0-0, 3.26.0-1, 3.24.0-0, 3.22.0-0, 3.20.0-0
+   :versions:
+      
+      
+
+      ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-1``,  ``3.24.0-0``,  ``3.22.0-0``,  ``3.20.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-affyio: >=1.58.0,<1.59.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-oligo: >=1.52.0,<1.53.0
-   :depends bioconductor-oligoclasses: >=1.50.0,<1.51.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-affyio: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-oligoclasses: ``>=1.50.0,<1.51.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mclust: 
    :requirements:
 

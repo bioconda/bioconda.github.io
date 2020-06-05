@@ -8,6 +8,7 @@ perl-lib
 
 .. conda:recipe:: perl-lib/0.63
    :replaces_section_title:
+   :noindex:
 
    manipulate \@INC at compile time
 
@@ -22,9 +23,16 @@ perl-lib
 
    |downloads_perl-lib| |docker_perl-lib|
 
-   :versions: 0.63-1, 0.63-0
+   :versions:
+      
+      
+
+      ``0.63-1``,  ``0.63-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ prokka
 
 .. conda:recipe:: prokka
    :replaces_section_title:
+   :noindex:
 
    Rapid annotation of prokaryotic genomes
 
@@ -23,20 +24,35 @@ prokka
 
    |downloads_prokka| |docker_prokka|
 
-   :versions: 1.14.6-0, 1.14.5-1, 1.14.5-0, 1.14.0-1, 1.14.0-0, 1.13.7-0, 1.13.4-0, 1.13.3-0, 1.13-4, 1.13-3, 1.13-2, 1.13-1, 1.13-0, 1.12-4, 1.12-3, 1.12-2, 1.12-1, 1.12-0, 1.11-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.14.6-0</code>,  <code>1.14.5-1</code>,  <code>1.14.5-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.13.7-0</code>,  <code>1.13.4-0</code>,  <code>1.13.3-0</code>,  <code>1.13-4</code>,  </span></summary>
+      
+
+      ``1.14.6-0``,  ``1.14.5-1``,  ``1.14.5-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.13.7-0``,  ``1.13.4-0``,  ``1.13.3-0``,  ``1.13-4``,  ``1.13-3``,  ``1.13-2``,  ``1.13-1``,  ``1.13-0``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends aragorn: >=1.2
-   :depends barrnap: >=0.7
-   :depends blast: >=2.7.1
-   :depends hmmer: >=3.1b2
-   :depends infernal: >=1.1.2
-   :depends minced: >=0.3
-   :depends parallel: >=20180522
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-bioperl: >=1.7.2
+   :depends aragorn: ``>=1.2``
+   :depends barrnap: ``>=0.7``
+   :depends blast: ``>=2.7.1``
+   :depends hmmer: ``>=3.1b2``
+   :depends infernal: ``>=1.1.2``
+   :depends minced: ``>=0.3``
+   :depends parallel: ``>=20180522``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-bioperl: ``>=1.7.2``
    :depends perl-xml-simple: 
-   :depends prodigal: >=2.6
-   :depends tbl2asn-forever: >=25.7
+   :depends prodigal: ``>=2.6``
+   :depends tbl2asn-forever: ``>=25.7``
    :requirements:
 
    .. rubric:: Installation

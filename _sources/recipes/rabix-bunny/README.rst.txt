@@ -8,6 +8,7 @@ rabix-bunny
 
 .. conda:recipe:: rabix-bunny
    :replaces_section_title:
+   :noindex:
 
    Open\-source development kit for the Common Workflow Language from Seven Bridges. The Rabix executor Bunny\, which can be used to execute apps locally from the command line.
 
@@ -22,9 +23,24 @@ rabix-bunny
 
    |downloads_rabix-bunny| |docker_rabix-bunny|
 
-   :versions: 1.0.4-8, 1.0.4-7, 1.0.4-6, 1.0.4-5, 1.0.4-0, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.1-2, 1.0.1-1, 1.0.1-0, 1.0.0rc5-1, 1.0.0rc5-0, 1.0.0rc4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.4-8</code>,  <code>1.0.4-7</code>,  <code>1.0.4-6</code>,  <code>1.0.4-5</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-2</code>,  </span></summary>
+      
+
+      ``1.0.4-8``,  ``1.0.4-7``,  ``1.0.4-6``,  ``1.0.4-5``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0rc5-1``,  ``1.0.0rc5-0``,  ``1.0.0rc4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :requirements:
 
    .. rubric:: Installation

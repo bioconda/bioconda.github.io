@@ -8,6 +8,7 @@ perl-pod-checker
 
 .. conda:recipe:: perl-pod-checker/1.60
    :replaces_section_title:
+   :noindex:
 
    Pod\:\:Checker verifies POD documentation contents for compliance with the POD format specifications
 
@@ -22,9 +23,16 @@ perl-pod-checker
 
    |downloads_perl-pod-checker| |docker_perl-pod-checker|
 
-   :versions: 1.60-2, 1.60-0
+   :versions:
+      
+      
+
+      ``1.60-2``,  ``1.60-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-pod-simple: 
    :requirements:
 

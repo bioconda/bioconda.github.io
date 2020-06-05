@@ -8,6 +8,7 @@ bioconductor-openprimerui
 
 .. conda:recipe:: bioconductor-openprimerui
    :replaces_section_title:
+   :noindex:
 
    Shiny Application for Multiplex PCR Primer Design and Analysis
 
@@ -22,15 +23,22 @@ bioconductor-openprimerui
 
    |downloads_bioconductor-openprimerui| |docker_bioconductor-openprimerui|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.1-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+
+      
+
    
-   :depends bioconductor-openprimer: >=1.10.0,<1.11.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dt: >=0.2
-   :depends r-rmarkdown: >=1.0
-   :depends r-shiny: >=1.0.2
-   :depends r-shinybs: >=0.61
-   :depends r-shinyjs: >=0.9
+   :depends bioconductor-openprimer: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dt: ``>=0.2``
+   :depends r-rmarkdown: ``>=1.0``
+   :depends r-shiny: ``>=1.0.2``
+   :depends r-shinybs: ``>=0.61``
+   :depends r-shinyjs: ``>=0.9``
    :requirements:
 
    .. rubric:: Installation

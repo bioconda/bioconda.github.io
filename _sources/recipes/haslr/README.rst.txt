@@ -8,6 +8,7 @@ haslr
 
 .. conda:recipe:: haslr
    :replaces_section_title:
+   :noindex:
 
    A fast tool for hybrid genome assembly of long and short reads
 
@@ -22,15 +23,22 @@ haslr
 
    |downloads_haslr| |docker_haslr|
 
-   :versions: 0.8a1-0
+   :versions:
+      
+      
+
+      ``0.8a1-0``
+
+      
+
    
-   :depends fastutils: >=0.2
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends minia: >=3.2.1
-   :depends minimap2: >=2.17
-   :depends python: >=3.6,<3.7.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends fastutils: ``>=0.2``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends minia: ``>=3.2.1``
+   :depends minimap2: ``>=2.17``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

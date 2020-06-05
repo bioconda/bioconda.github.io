@@ -8,6 +8,7 @@ parsnp
 
 .. conda:recipe:: parsnp
    :replaces_section_title:
+   :noindex:
 
    Parsnp is a command\-line\-tool for efficient microbial core genome alignment and SNP detection.
 
@@ -22,9 +23,26 @@ parsnp
 
    |downloads_parsnp| |docker_parsnp|
 
-   :versions: 1.2-0
+   :versions:
+      
+      
+
+      ``1.5.0-0``,  ``1.2-0``
+
+      
+
    
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends fastani: 
+   :depends fasttree: 
+   :depends harvesttools: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends mash: 
+   :depends numpy: 
+   :depends openmp: 
+   :depends phipack: 
+   :depends raxml: 
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

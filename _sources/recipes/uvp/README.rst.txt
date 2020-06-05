@@ -8,6 +8,7 @@ uvp
 
 .. conda:recipe:: uvp
    :replaces_section_title:
+   :noindex:
 
    A Unified Variant Pipeline to identify variants and assign lineage from MTBC sequence data.
 
@@ -22,26 +23,33 @@ uvp
 
    |downloads_uvp| |docker_uvp|
 
-   :versions: 2.7.0-0, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.7.0-0``,  ``2.6.0-0``
+
+      
+
    
-   :depends bcftools: 1.2.*
-   :depends bedtools: 2.17.0.*
-   :depends bwa: 0.7.12.*
-   :depends fastqc: 0.11.5.*
-   :depends fqtools: 2.0.*
-   :depends gatk: 3.6.*
-   :depends kraken: 0.10.5.*
-   :depends openjdk: 8.*
-   :depends perl-vcftools-vcf: 0.1.16.*
-   :depends picard: 1.141.*
-   :depends pigz: 2.3.4.*
-   :depends prinseq: 0.20.4.*
+   :depends bcftools: ``1.2.*``
+   :depends bedtools: ``2.17.0.*``
+   :depends bwa: ``0.7.12.*``
+   :depends fastqc: ``0.11.5.*``
+   :depends fqtools: ``2.0.*``
+   :depends gatk: ``3.6.*``
+   :depends kraken: ``0.10.5.*``
+   :depends openjdk: ``8.*``
+   :depends perl-vcftools-vcf: ``0.1.16.*``
+   :depends picard: ``1.141.*``
+   :depends pigz: ``2.3.4.*``
+   :depends prinseq: ``0.20.4.*``
    :depends python: 
-   :depends pyyaml: 5.1.*
-   :depends qualimap: 2.1.3.*
-   :depends samtools: 1.2.*
-   :depends snpeff: 4.1.*
-   :depends vcftools: 0.1.16.*
+   :depends pyyaml: ``5.1.*``
+   :depends qualimap: ``2.1.3.*``
+   :depends samtools: ``1.2.*``
+   :depends snpeff: ``4.1.*``
+   :depends vcftools: ``0.1.16.*``
    :requirements:
 
    .. rubric:: Installation

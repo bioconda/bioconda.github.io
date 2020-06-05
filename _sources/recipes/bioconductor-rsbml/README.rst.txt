@@ -8,6 +8,7 @@ bioconductor-rsbml
 
 .. conda:recipe:: bioconductor-rsbml
    :replaces_section_title:
+   :noindex:
 
    R support for SBML\, using libsbml
 
@@ -22,7 +23,14 @@ bioconductor-rsbml
 
    |downloads_bioconductor-rsbml| |docker_bioconductor-rsbml|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 

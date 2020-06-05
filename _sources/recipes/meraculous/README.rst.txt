@@ -8,6 +8,7 @@ meraculous
 
 .. conda:recipe:: meraculous
    :replaces_section_title:
+   :noindex:
 
    Meraculous is a whole genome assembler for Next Generation Sequencing data\, geared for large genomes. It\'s hybrid k\-mer\/read\-based approach capitalizes on the high accuracy of Illumina sequence by eschewing an explicit error correction step which we argue to be redundant with the assembly process. Meraculous achieves high performance with large datasets by utilizing lightweight data structures and multi\-threaded parallelization\, allowing to assemble human\-sized genomes on a high\-cpu cluster in under a day. The process pipeline implements a highly transparent and portable model of job control and monitoring where different assembly stages can be executed and re\-executed separately or in unison on a wide variety of architectures.
 
@@ -24,14 +25,21 @@ meraculous
 
    |downloads_meraculous| |docker_meraculous|
 
-   :versions: 2.2.6-0, 2.2.5.1.1.ga103cd6-0, 2.2.5-0, 2.2.4-1, 2.2.4-0
+   :versions:
+      
+      
+
+      ``2.2.6-0``,  ``2.2.5.1.1.ga103cd6-0``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``
+
+      
+
    
-   :depends boost-cpp: >=1.67.0,<1.67.1.0a0
-   :depends gnuplot: >=3.7
-   :depends libgcc-ng: >=4.9
-   :depends libgd: >=2.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-log-log4perl: >=1.31
+   :depends boost-cpp: ``>=1.67.0,<1.67.1.0a0``
+   :depends gnuplot: ``>=3.7``
+   :depends libgcc-ng: ``>=4.9``
+   :depends libgd: ``>=2.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-log-log4perl: ``>=1.31``
    :requirements:
 
    .. rubric:: Installation

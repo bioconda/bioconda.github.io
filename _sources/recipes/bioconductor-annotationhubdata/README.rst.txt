@@ -8,6 +8,7 @@ bioconductor-annotationhubdata
 
 .. conda:recipe:: bioconductor-annotationhubdata
    :replaces_section_title:
+   :noindex:
 
    Transform public data resources into Bioconductor Data Structures
 
@@ -23,28 +24,35 @@ bioconductor-annotationhubdata
 
    |downloads_bioconductor-annotationhubdata| |docker_bioconductor-annotationhubdata|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0, 1.10.3-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-annotationforge: >=1.30.0,<1.31.0
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocviews: >=1.56.0,<1.57.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-organismdbi: >=1.30.0,<1.31.0
-   :depends bioconductor-rbiopaxparser: >=2.28.0,<2.29.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-annotationforge: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocviews: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-organismdbi: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rbiopaxparser: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-dbi: 
-   :depends r-futile.logger: >=1.3.0
+   :depends r-futile.logger: ``>=1.3.0``
    :depends r-jsonlite: 
    :depends r-rcurl: 
    :depends r-rsqlite: 

@@ -8,6 +8,7 @@ ucsc-websync
 
 .. conda:recipe:: ucsc-websync
    :replaces_section_title:
+   :noindex:
 
    download from https server\, using files.txt on their end to get the list of files
 
@@ -22,15 +23,22 @@ ucsc-websync
 
    |downloads_ucsc-websync| |docker_ucsc-websync|
 
-   :versions: 377-0, 366-0
+   :versions:
+      
+      
+
+      ``377-0``,  ``366-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libpng: >=1.6.35,<1.7.0a0
-   :depends libuuid: >=2.32.1,<3.0a0
-   :depends mysql-connector-c: >=6.1.11,<6.1.12.0a0
-   :depends openssl: >=1.0.2p,<1.0.3a
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libpng: ``>=1.6.35,<1.7.0a0``
+   :depends libuuid: ``>=2.32.1,<3.0a0``
+   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends openssl: ``>=1.0.2p,<1.0.3a``
    :depends python: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

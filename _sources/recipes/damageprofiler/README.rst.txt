@@ -8,6 +8,7 @@ damageprofiler
 
 .. conda:recipe:: damageprofiler
    :replaces_section_title:
+   :noindex:
 
    A Java based tool to determine damage patterns on ancient DNA as a replacement for mapDamage
 
@@ -22,7 +23,22 @@ damageprofiler
 
    |downloads_damageprofiler| |docker_damageprofiler|
 
-   :versions: 0.4.9-0, 0.4.8-1, 0.4.8-0, 0.4.6-2, 0.4.6-1, 0.4.5-1, 0.4.4-1, 0.4.3-1, 0.4.2-1, 0.3.11-1, 0.3.11-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.9-0</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.6-2</code>,  <code>0.4.6-1</code>,  <code>0.4.5-1</code>,  <code>0.4.4-1</code>,  <code>0.4.3-1</code>,  <code>0.4.2-1</code>,  </span></summary>
+      
+
+      ``0.4.9-0``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.5-1``,  ``0.4.4-1``,  ``0.4.3-1``,  ``0.4.2-1``,  ``0.3.11-1``,  ``0.3.11-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends openjdk: 
    :depends python: 

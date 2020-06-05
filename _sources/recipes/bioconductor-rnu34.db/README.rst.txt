@@ -8,6 +8,7 @@ bioconductor-rnu34.db
 
 .. conda:recipe:: bioconductor-rnu34.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix Rat Neurobiology U34 Array annotation data \(chip rnu34\)
 
@@ -22,12 +23,19 @@ bioconductor-rnu34.db
 
    |downloads_bioconductor-rnu34.db| |docker_bioconductor-rnu34.db|
 
-   :versions: 3.2.3-5, 3.2.3-4, 3.2.3-3, 3.2.3-1, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-1``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.rn.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

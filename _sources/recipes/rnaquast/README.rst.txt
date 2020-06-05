@@ -8,6 +8,7 @@ rnaquast
 
 .. conda:recipe:: rnaquast
    :replaces_section_title:
+   :noindex:
 
    rnaQUAST is a tool for evaluating RNA\-Seq assemblies using reference genome and gene database. In addition\, rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using third\-party software.
 
@@ -22,11 +23,18 @@ rnaquast
 
    |downloads_rnaquast| |docker_rnaquast|
 
-   :versions: 2.0.1-0, 2.0.0-0, 1.5.1-0
+   :versions:
+      
+      
+
+      ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``
+
+      
+
    
    :depends blast: 
    :depends blat: 
-   :depends busco: >=2
+   :depends busco: ``>=2``
    :depends emboss: 
    :depends gffutils: 
    :depends gmap: 

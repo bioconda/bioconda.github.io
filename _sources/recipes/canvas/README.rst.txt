@@ -8,6 +8,7 @@ canvas
 
 .. conda:recipe:: canvas
    :replaces_section_title:
+   :noindex:
 
    Copy number variant \(CNV\) calling from DNA sequencing data
 
@@ -22,7 +23,14 @@ canvas
 
    |downloads_canvas| |docker_canvas|
 
-   :versions: 1.35.1.1316-0, 1.25.0-0
+   :versions:
+      
+      
+
+      ``1.35.1.1316-0``,  ``1.25.0-0``
+
+      
+
    
    :requirements:
 

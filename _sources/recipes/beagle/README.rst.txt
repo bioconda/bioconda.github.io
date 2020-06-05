@@ -8,6 +8,7 @@ beagle
 
 .. conda:recipe:: beagle
    :replaces_section_title:
+   :noindex:
 
    Beagle is a software package for phasing genotypes and for imputing ungenotyped markers.
 
@@ -25,9 +26,16 @@ beagle
 
    |downloads_beagle| |docker_beagle|
 
-   :versions: 5.1_24Aug19.3e8-0, 4.1_21Jan17.6cc.jar-1, 4.1_21Jan17.6cc.jar-0, 4.1_03May16.862.jar-0, 4.0_06Jun17-2, 4.0_06Jun17-1
+   :versions:
+      
+      
+
+      ``5.1_24Aug19.3e8-0``,  ``4.1_21Jan17.6cc.jar-1``,  ``4.1_21Jan17.6cc.jar-0``,  ``4.1_03May16.862.jar-0``,  ``4.0_06Jun17-2``,  ``4.0_06Jun17-1``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

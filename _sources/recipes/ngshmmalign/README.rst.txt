@@ -8,6 +8,7 @@ ngshmmalign
 
 .. conda:recipe:: ngshmmalign/0.1.1
    :replaces_section_title:
+   :noindex:
 
    ngshmmalign is a profile HMM aligner for NGS reads designed particularly for small genomes
 
@@ -22,10 +23,17 @@ ngshmmalign
 
    |downloads_ngshmmalign| |docker_ngshmmalign|
 
-   :versions: 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
-   :depends boost: >=1.66.0,<1.66.1.0a0
-   :depends libstdcxx-ng: >=4.9
+   :depends boost: ``>=1.66.0,<1.66.1.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

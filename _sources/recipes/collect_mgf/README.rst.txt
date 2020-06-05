@@ -8,6 +8,7 @@ collect_mgf
 
 .. conda:recipe:: collect_mgf
    :replaces_section_title:
+   :noindex:
 
    Collects MGF files and dd\_results from an XMass setup\_QDD.tcl experiment to a single MGF file.
 
@@ -23,9 +24,16 @@ collect_mgf
 
    |downloads_collect_mgf| |docker_collect_mgf|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

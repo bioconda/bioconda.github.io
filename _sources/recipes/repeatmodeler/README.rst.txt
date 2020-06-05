@@ -8,6 +8,7 @@ repeatmodeler
 
 .. conda:recipe:: repeatmodeler
    :replaces_section_title:
+   :noindex:
 
    RepeatModeler is a de\-novo repeat family identification and modeling package.
 
@@ -24,19 +25,26 @@ repeatmodeler
 
    |downloads_repeatmodeler| |docker_repeatmodeler|
 
-   :versions: 2.0.1-0, 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0, 1.0.8-1, 1.0.8-0
+   :versions:
+      
+      
+
+      ``2.0.1-0``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.8-1``,  ``1.0.8-0``
+
+      
+
    
-   :depends cd-hit: >=4.8.1
-   :depends genometools-genometools: >=1.5.9
-   :depends ltr_retriever: >=2.6
-   :depends mafft: >=7.407
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends cd-hit: ``>=4.8.1``
+   :depends genometools-genometools: ``>=1.5.9``
+   :depends ltr_retriever: ``>=2.6``
+   :depends mafft: ``>=7.407``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-text-soundex: 
-   :depends recon: >=1.08
+   :depends recon: ``>=1.08``
    :depends repeatmasker: 
-   :depends repeatscout: >=1.0.6
-   :depends rmblast: >=2.9.0
-   :depends trf: >=4.09
+   :depends repeatscout: ``>=1.0.6``
+   :depends rmblast: ``>=2.9.0``
+   :depends trf: ``>=4.09``
    :requirements:
 
    .. rubric:: Installation

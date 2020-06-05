@@ -8,6 +8,7 @@ bioconductor-gqtlbase
 
 .. conda:recipe:: bioconductor-gqtlbase
    :replaces_section_title:
+   :noindex:
 
    gQTLBase\: infrastructure for eQTL\, mQTL and similar studies
 
@@ -22,15 +23,22 @@ bioconductor-gqtlbase
 
    |downloads_bioconductor-gqtlbase| |docker_bioconductor-gqtlbase|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-genomicfiles: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-genomicfiles: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-batchjobs: 
    :depends r-bbmisc: 
    :depends r-bit: 

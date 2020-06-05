@@ -8,6 +8,7 @@ bioconductor-mspurity
 
 .. conda:recipe:: bioconductor-mspurity
    :replaces_section_title:
+   :noindex:
 
    Automated Evaluation of Precursor Ion Purity for Mass Spectrometry Based Fragmentation in Metabolomics
 
@@ -23,14 +24,29 @@ bioconductor-mspurity
 
    |downloads_bioconductor-mspurity| |docker_bioconductor-mspurity|
 
-   :versions: 1.14.0-0, 1.12.2-0, 1.12.1-0, 1.12.0-0, 1.10.0-1, 1.8.1-0, 1.8.0-0, 1.5.4-1, 1.5.4-0, 1.4.0-1, 1.4.0-0, 1.3.9-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.12.2-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.5.4-1</code>,  <code>1.5.4-0</code>,  </span></summary>
+      
+
+      ``1.14.0-0``,  ``1.12.2-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.9-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-mzr: >=2.22.0,<2.23.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-dbplyr: 
    :depends r-dosnow: 

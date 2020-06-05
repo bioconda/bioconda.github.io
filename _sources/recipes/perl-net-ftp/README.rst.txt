@@ -8,6 +8,7 @@ perl-net-ftp
 
 .. conda:recipe:: perl-net-ftp/2.79
    :replaces_section_title:
+   :noindex:
 
    FTP Client class
 
@@ -22,9 +23,16 @@ perl-net-ftp
 
    |downloads_perl-net-ftp| |docker_perl-net-ftp|
 
-   :versions: 2.79-1, 2.79-0
+   :versions:
+      
+      
+
+      ``2.79-1``,  ``2.79-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

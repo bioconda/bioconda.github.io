@@ -8,6 +8,7 @@ migmap
 
 .. conda:recipe:: migmap
    :replaces_section_title:
+   :noindex:
 
    A wrapper for IgBlast V\-\(D\)\-J mapping tool designed to facilitate analysis immune receptor libraries profiled using high\-throughput sequencing.
 
@@ -22,7 +23,14 @@ migmap
 
    |downloads_migmap| |docker_migmap|
 
-   :versions: 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-0, 1.0.2-0, 0.9.7-0
+   :versions:
+      
+      
+
+      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-0``,  ``1.0.2-0``,  ``0.9.7-0``
+
+      
+
    
    :depends igblast: 
    :depends openjdk: 

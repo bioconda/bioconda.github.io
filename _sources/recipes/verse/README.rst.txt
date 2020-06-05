@@ -8,6 +8,7 @@ verse
 
 .. conda:recipe:: verse
    :replaces_section_title:
+   :noindex:
 
    VERSE\: a versatile and efficient RNA\-Seq read counting tool
 
@@ -22,10 +23,17 @@ verse
 
    |downloads_verse| |docker_verse|
 
-   :versions: 0.1.5-3, 0.1.5-2, 0.1.5-1, 0.1.5-0
+   :versions:
+      
+      
+
+      ``0.1.5-3``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-rbsurv
 
 .. conda:recipe:: bioconductor-rbsurv
    :replaces_section_title:
+   :noindex:
 
    Robust likelihood\-based survival modeling with microarray data
 
@@ -23,10 +24,17 @@ bioconductor-rbsurv
 
    |downloads_bioconductor-rbsurv| |docker_bioconductor-rbsurv|
 
-   :versions: 2.46.0-0, 2.44.0-0, 2.42.0-1, 2.40.0-1, 2.40.0-0, 2.38.0-0, 2.36.0-0, 2.34.0-0
+   :versions:
+      
+      
+
+      ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-survival: 
    :requirements:
 

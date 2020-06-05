@@ -8,6 +8,7 @@ perl-time-local
 
 .. conda:recipe:: perl-time-local
    :replaces_section_title:
+   :noindex:
 
    Efficiently compute time from local and GMT time
 
@@ -22,9 +23,16 @@ perl-time-local
 
    |downloads_perl-time-local| |docker_perl-time-local|
 
-   :versions: 1.2300-0, 1.28-1, 1.28-0
+   :versions:
+      
+      
+
+      ``1.2300-0``,  ``1.28-1``,  ``1.28-0``
+
+      
+
    
-   :depends perl: 5.22.0*
+   :depends perl: ``5.22.0*``
    :requirements:
 
    .. rubric:: Installation

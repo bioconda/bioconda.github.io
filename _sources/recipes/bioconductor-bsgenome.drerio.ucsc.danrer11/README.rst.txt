@@ -8,6 +8,7 @@ bioconductor-bsgenome.drerio.ucsc.danrer11
 
 .. conda:recipe:: bioconductor-bsgenome.drerio.ucsc.danrer11
    :replaces_section_title:
+   :noindex:
 
    Full genome sequences for Danio rerio \(UCSC version danRer11\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.drerio.ucsc.danrer11
 
    |downloads_bioconductor-bsgenome.drerio.ucsc.danrer11| |docker_bioconductor-bsgenome.drerio.ucsc.danrer11|
 
-   :versions: 1.4.2-0
+   :versions:
+      
+      
+
+      ``1.4.2-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

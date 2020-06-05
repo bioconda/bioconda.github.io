@@ -8,6 +8,7 @@ bioconductor-massarray
 
 .. conda:recipe:: bioconductor-massarray
    :replaces_section_title:
+   :noindex:
 
    Analytical Tools for MassArray Data
 
@@ -23,9 +24,16 @@ bioconductor-massarray
 
    |downloads_bioconductor-massarray| |docker_bioconductor-massarray|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.36.0-0, 1.34.1-0, 1.32.0-0, 1.30.0-0, 1.28.0-0
+   :versions:
+      
+      
+
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

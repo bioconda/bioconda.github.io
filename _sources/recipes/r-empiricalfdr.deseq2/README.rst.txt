@@ -8,6 +8,7 @@ r-empiricalfdr.deseq2
 
 .. conda:recipe:: r-empiricalfdr.deseq2
    :replaces_section_title:
+   :noindex:
 
    Auxiliary functions for the DESeq2 package to simulate read counts according to the null hypothesis \(i.e.\, with empirical sample size factors\, per\-gene total counts and dispersions\, but without effects of predictor variables\) and to compute the empirical false discovery rate.
 
@@ -22,11 +23,18 @@ r-empiricalfdr.deseq2
 
    |downloads_r-empiricalfdr.deseq2| |docker_r-empiricalfdr.deseq2|
 
-   :versions: 1.0.3-6, 1.0.3-5, 1.0.3-4, 1.0.3-3, 1.0.3-2, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-0``
+
+      
+
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-genomicranges: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

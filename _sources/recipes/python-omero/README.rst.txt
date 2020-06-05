@@ -8,6 +8,7 @@ python-omero
 
 .. conda:recipe:: python-omero
    :replaces_section_title:
+   :noindex:
 
    Client library offering helper methods to access an OMERO server.
 
@@ -22,13 +23,28 @@ python-omero
 
    |downloads_python-omero| |docker_python-omero|
 
-   :versions: 5.6.2-0, 5.6.1-0, 5.6.0-0, 5.4.10-1, 5.4.10-0, 5.4.9-0, 5.4.8-1, 5.4.7-1, 5.4.6-1, 5.4.6-0, 5.4.5-0, 5.4.4-0, 5.4.3-0, 5.4.2-0, 5.4.1-0, 5.4.0-0, 5.3.3-0, 5.3.2-0, 5.3.1-0, 5.3.0-2, 5.2.8-2, 5.2.7-2, 5.2.7-1, 5.2.7-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>5.6.2-0</code>,  <code>5.6.1-0</code>,  <code>5.6.0-0</code>,  <code>5.4.10-1</code>,  <code>5.4.10-0</code>,  <code>5.4.9-0</code>,  <code>5.4.8-1</code>,  <code>5.4.7-1</code>,  <code>5.4.6-1</code>,  </span></summary>
+      
+
+      ``5.6.2-0``,  ``5.6.1-0``,  ``5.6.0-0``,  ``5.4.10-1``,  ``5.4.10-0``,  ``5.4.9-0``,  ``5.4.8-1``,  ``5.4.7-1``,  ``5.4.6-1``,  ``5.4.6-0``,  ``5.4.5-0``,  ``5.4.4-0``,  ``5.4.3-0``,  ``5.4.2-0``,  ``5.4.1-0``,  ``5.4.0-0``,  ``5.3.3-0``,  ``5.3.2-0``,  ``5.3.1-0``,  ``5.3.0-2``,  ``5.2.8-2``,  ``5.2.7-2``,  ``5.2.7-1``,  ``5.2.7-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends future: 
    :depends numpy: 
    :depends pillow: 
-   :depends python: >=3
-   :depends zeroc-ice: 3.6.5.*
+   :depends python: ``>=3``
+   :depends zeroc-ice: ``3.6.5.*``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-affyhgu133a2expr
 
 .. conda:recipe:: bioconductor-affyhgu133a2expr
    :replaces_section_title:
+   :noindex:
 
    Affymetrix Human Genome U133A 2.0 Array \(GPL571\) Expression Data Package
 
@@ -22,10 +23,17 @@ bioconductor-affyhgu133a2expr
 
    |downloads_bioconductor-affyhgu133a2expr| |docker_bioconductor-affyhgu133a2expr|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-2, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

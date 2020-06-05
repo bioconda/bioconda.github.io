@@ -8,6 +8,7 @@ plink2
 
 .. conda:recipe:: plink2
    :replaces_section_title:
+   :noindex:
 
    Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
 
@@ -22,7 +23,14 @@ plink2
 
    |downloads_plink2| |docker_plink2|
 
-   :versions: 1.90b3.35-0
+   :versions:
+      
+      
+
+      ``1.90b3.35-0``
+
+      
+
    
    :depends openblas: 
    :requirements:

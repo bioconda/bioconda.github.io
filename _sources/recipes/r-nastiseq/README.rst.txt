@@ -8,6 +8,7 @@ r-nastiseq
 
 .. conda:recipe:: r-nastiseq
    :replaces_section_title:
+   :noindex:
 
    Pairs of RNA molecules transcribed from partially or entirely complementary loci are called cis\-natural antisense transcripts \(cis\-NATs\)\, and they play key roles in the regulation of gene expression in many organisms. A promising experimental tool for profiling sense and antisense transcription is strand\-specific RNA sequencing \(ssRNA\-seq\). To identify cis\-NATs using ssRNA\-seq\, we developed a new computational method based on model comparison that incorporates the inherent variable efficiency of generating perfectly strand\-specific libraries. Applying the method to new ssRNA\-seq data from whole root and cell\-type specific Arabidopsis libraries confirmed most of the known cis\-NAT pairs and identified hundreds of additional cis\-NAT pairs.
 
@@ -23,10 +24,17 @@ r-nastiseq
 
    |downloads_r-nastiseq| |docker_r-nastiseq|
 
-   :versions: 1.0-3, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-3``,  ``1.0-0``
+
+      
+
    
    :depends bioconductor-deseq: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rocr: 
    :requirements:
 

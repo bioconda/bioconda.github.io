@@ -8,6 +8,7 @@ fusioncatcher
 
 .. conda:recipe:: fusioncatcher
    :replaces_section_title:
+   :noindex:
 
    Finder of Somatic Fusion Genes in RNA\-seq data.
 
@@ -23,34 +24,41 @@ fusioncatcher
 
    |downloads_fusioncatcher| |docker_fusioncatcher|
 
-   :versions: 1.20-2, 1.20-1, 1.20-0, 1.10-3, 1.10-2, 1.10-0, 1.00-1, 1.00-0
+   :versions:
+      
+      
+
+      ``1.20-2``,  ``1.20-1``,  ``1.20-0``,  ``1.10-3``,  ``1.10-2``,  ``1.10-0``,  ``1.00-1``,  ``1.00-0``
+
+      
+
    
-   :depends bbmap: 38.44.*
-   :depends biopython: >=1.50
-   :depends blat: 35.*
-   :depends bowtie: 1.2.3.*
-   :depends bowtie2: 2.3.5.*
-   :depends bwa: 0.7.12.*
+   :depends bbmap: ``38.44.*``
+   :depends biopython: ``>=1.50``
+   :depends blat: ``35.*``
+   :depends bowtie: ``1.2.3.*``
+   :depends bowtie2: ``2.3.5.*``
+   :depends bwa: ``0.7.12.*``
    :depends coreutils: 
-   :depends fusioncatcher-seqtk: 1.2.*
+   :depends fusioncatcher-seqtk: ``1.2.*``
    :depends grep: 
    :depends lzo: 
    :depends lzop: 
-   :depends numpy: 1.13.1.*
+   :depends numpy: ``1.13.1.*``
    :depends oases: 
    :depends openjdk: 
-   :depends openpyxl: 2.5.0a2.*
-   :depends parallel: 20171222.*
-   :depends picard: 2.10.6.*
-   :depends pigz: 2.3.*
-   :depends python: <3
-   :depends samtools: 0.1.19.*
-   :depends sra-tools: 2.9.6.*
-   :depends star: 2.7.2b.*
+   :depends openpyxl: ``2.5.0a2.*``
+   :depends parallel: ``20171222.*``
+   :depends picard: ``2.10.6.*``
+   :depends pigz: ``2.3.*``
+   :depends python: ``<3``
+   :depends samtools: ``0.1.19.*``
+   :depends sra-tools: ``2.9.6.*``
+   :depends star: ``2.7.2b.*``
    :depends ucsc-fatotwobit: 
    :depends ucsc-liftover: 
-   :depends velvet: 1.2.10.*
-   :depends xlrd: 1.0.0.*
+   :depends velvet: ``1.2.10.*``
+   :depends xlrd: ``1.0.0.*``
    :depends zip: 
    :requirements:
 

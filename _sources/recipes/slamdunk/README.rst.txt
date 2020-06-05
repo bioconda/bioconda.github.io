@@ -8,6 +8,7 @@ slamdunk
 
 .. conda:recipe:: slamdunk
    :replaces_section_title:
+   :noindex:
 
    Slamdunk is a software tool for SLAMseq data analysis.
 
@@ -53,21 +54,36 @@ slamdunk
 
    |downloads_slamdunk| |docker_slamdunk|
 
-   :versions: 0.4.3-0, 0.4.2-1, 0.4.2-0, 0.4.1-0, 0.4.0-1, 0.4.0-0, 0.3.4-1, 0.3.4-0, 0.3.3-0, 0.3.2-1, 0.3.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+      
+
+      ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: >=1.74
-   :depends intervaltree: >=3.0.2
-   :depends joblib: >=0.14.0
-   :depends nextgenmap: 0.5.5.*
-   :depends pandas: >=0.25.3
-   :depends pybedtools: >=0.8.0
-   :depends python: >=3
+   :depends biopython: ``>=1.74``
+   :depends intervaltree: ``>=3.0.2``
+   :depends joblib: ``>=0.14.0``
+   :depends nextgenmap: ``0.5.5.*``
+   :depends pandas: ``>=0.25.3``
+   :depends pybedtools: ``>=0.8.0``
+   :depends python: ``>=3``
    :depends r-getopt: 
    :depends r-gridextra: 
-   :depends r-matrixstats: >=0.55.0
-   :depends r-tidyverse: >=1.3.0
-   :depends samtools: >=1.9
-   :depends varscan: 2.4.4.*
+   :depends r-matrixstats: ``>=0.55.0``
+   :depends r-tidyverse: ``>=1.3.0``
+   :depends samtools: ``>=1.9``
+   :depends varscan: ``2.4.4.*``
    :requirements:
 
    .. rubric:: Installation

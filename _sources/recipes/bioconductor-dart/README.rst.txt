@@ -8,6 +8,7 @@ bioconductor-dart
 
 .. conda:recipe:: bioconductor-dart
    :replaces_section_title:
+   :noindex:
 
    Denoising Algorithm based on Relevance network Topology
 
@@ -22,10 +23,17 @@ bioconductor-dart
 
    |downloads_bioconductor-dart| |docker_bioconductor-dart|
 
-   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-1, 1.32.0-0, 1.30.0-0
+   :versions:
+      
+      
+
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-igraph: >=0.6.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-igraph: ``>=0.6.0``
    :requirements:
 
    .. rubric:: Installation

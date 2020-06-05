@@ -8,6 +8,7 @@ truvari
 
 .. conda:recipe:: truvari
    :replaces_section_title:
+   :noindex:
 
    Structural variant comparison tool for VCFs
 
@@ -22,12 +23,19 @@ truvari
 
    |downloads_truvari| |docker_truvari|
 
-   :versions: 0.1.2018.08.10-1, 0.1.2018.08.10-0
+   :versions:
+      
+      
+
+      ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
+
+      
+
    
    :depends intervaltree: 
    :depends progressbar2: 
    :depends pyfaidx: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends python-levenshtein: 
    :depends pyvcf: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-mpra
 
 .. conda:recipe:: bioconductor-mpra
    :replaces_section_title:
+   :noindex:
 
    Analyze massively parallel reporter assays
 
@@ -22,13 +23,20 @@ bioconductor-mpra
 
    |downloads_bioconductor-mpra| |docker_bioconductor-mpra|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.1-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-scales: 
    :depends r-statmod: 
    :requirements:

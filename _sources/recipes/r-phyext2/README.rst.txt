@@ -8,6 +8,7 @@ r-phyext2
 
 .. conda:recipe:: r-phyext2
    :replaces_section_title:
+   :noindex:
 
    Based on \(but not identical to\) the no\-longer\-maintained package \'phyext\'\, provides enhancements to \'phylobase\' classes\, specifically for use by package \'SigTree\'\; provides classes and methods which help users manipulate branch\-annotated trees \(as in \'SigTree\'\)\; also provides support for a few other extra features.
 
@@ -22,10 +23,17 @@ r-phyext2
 
    |downloads_r-phyext2| |docker_r-phyext2|
 
-   :versions: 0.0.4-5, 0.0.4-4, 0.0.4-3, 0.0.4-2, 0.0.4-1, 0.0.4-0
+   :versions:
+      
+      
+
+      ``0.0.4-5``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``
+
+      
+
    
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-phylobase: 
    :requirements:
 

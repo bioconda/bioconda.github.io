@@ -8,6 +8,7 @@ bioconductor-chetah
 
 .. conda:recipe:: bioconductor-chetah
    :replaces_section_title:
+   :noindex:
 
    Fast and accurate scRNA\-seq cell type identification
 
@@ -22,13 +23,20 @@ bioconductor-chetah
 
    |downloads_bioconductor-chetah| |docker_bioconductor-chetah|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.4-0``
+
+      
+
    
-   :depends bioconductor-biodist: >=1.60.0,<1.61.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biodist: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 
    :depends r-cowplot: 
    :depends r-dendextend: 

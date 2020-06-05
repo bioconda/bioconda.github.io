@@ -8,6 +8,7 @@ plasmidfinder
 
 .. conda:recipe:: plasmidfinder
    :replaces_section_title:
+   :noindex:
 
    PlasmidFinder allows identification of plasmids in total or partial sequenced isolates of bacteria.
 
@@ -23,13 +24,20 @@ plasmidfinder
 
    |downloads_plasmidfinder| |docker_plasmidfinder|
 
-   :versions: 2.1-1, 2.1-0, 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.1-1``,  ``2.1-0``,  ``2.0.1-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
    :depends cgecore: 
    :depends kma: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends tabulate: 
    :requirements:
 

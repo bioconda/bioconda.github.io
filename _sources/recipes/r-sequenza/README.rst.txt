@@ -8,6 +8,7 @@ r-sequenza
 
 .. conda:recipe:: r-sequenza
    :replaces_section_title:
+   :noindex:
 
    Tools to analyze genomic sequencing data from paired normal\-tumor samples\, including cellularity and ploidy estimation\; mutation and copy number \(allele\-specific and total copy number\) detection\, quantification and visualization.
 
@@ -23,10 +24,17 @@ r-sequenza
 
    |downloads_r-sequenza| |docker_r-sequenza|
 
-   :versions: 3.0.0-2, 3.0.0-1, 3.0.0-0, 2.1.2-2, 2.1.2-1, 2.1.2-0
+   :versions:
+      
+      
+
+      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
+
+      
+
    
    :depends bioconductor-copynumber: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-iotools: 
    :depends r-pbapply: 
    :depends r-readr: 

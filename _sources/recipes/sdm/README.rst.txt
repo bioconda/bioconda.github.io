@@ -8,6 +8,7 @@ sdm
 
 .. conda:recipe:: sdm
    :replaces_section_title:
+   :noindex:
 
    sdm \- simple demultiplex tool for FASTQ demultiplexing and dereplication
 
@@ -22,11 +23,18 @@ sdm
 
    |downloads_sdm| |docker_sdm|
 
-   :versions: 1.47-0
+   :versions:
+      
+      
+
+      ``1.47-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

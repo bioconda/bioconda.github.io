@@ -8,6 +8,7 @@ barcode_splitter
 
 .. conda:recipe:: barcode_splitter
    :replaces_section_title:
+   :noindex:
 
    Split multiple fastq files by matching barcodes in one or more of the sequence files. Barcodes in the tab\-delimited barcodes.txt file are matched against the beginning \(or end\) of the specified index read\(s\). By default\, barcodes must match exactly\, but \-\-mistmatches can be set higher if desired. Compressed input is read \(from all files\) if the first input file name ends in .gz. Reading of compressed input can be forced with the gzipin option.
 
@@ -23,7 +24,14 @@ barcode_splitter
 
    |downloads_barcode_splitter| |docker_barcode_splitter|
 
-   :versions: 0.18.6-0, 0.18.5-0, 0.18.4-0
+   :versions:
+      
+      
+
+      ``0.18.6-0``,  ``0.18.5-0``,  ``0.18.4-0``
+
+      
+
    
    :depends python: 
    :requirements:

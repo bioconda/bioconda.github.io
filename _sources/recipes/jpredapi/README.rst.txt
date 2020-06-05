@@ -8,6 +8,7 @@ jpredapi
 
 .. conda:recipe:: jpredapi
    :replaces_section_title:
+   :noindex:
 
    Python library for submitting jobs to JPRED \- A Protein Secondary Structure Prediction Server
 
@@ -22,12 +23,19 @@ jpredapi
 
    |downloads_jpredapi| |docker_jpredapi|
 
-   :versions: 1.5.6-0
+   :versions:
+      
+      
+
+      ``1.5.6-0``
+
+      
+
    
-   :depends docopt: >=0.6.2
+   :depends docopt: ``>=0.6.2``
    :depends python: 
-   :depends requests: >=2.13.0
-   :depends retrying: >=1.3.3
+   :depends requests: ``>=2.13.0``
+   :depends retrying: ``>=1.3.3``
    :requirements:
 
    .. rubric:: Installation

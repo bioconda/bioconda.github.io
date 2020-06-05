@@ -8,6 +8,7 @@ consan
 
 .. conda:recipe:: consan
    :replaces_section_title:
+   :noindex:
 
    Pairwise RNA structural alignment\, both unconstrained and constrained on alignment pins.
 
@@ -22,9 +23,16 @@ consan
 
    |downloads_consan| |docker_consan|
 
-   :versions: 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

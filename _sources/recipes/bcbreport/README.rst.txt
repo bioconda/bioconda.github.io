@@ -8,6 +8,7 @@ bcbreport
 
 .. conda:recipe:: bcbreport
    :replaces_section_title:
+   :noindex:
 
    Rmd templates for bcbio\-nextgen analysis
 
@@ -22,7 +23,22 @@ bcbreport
 
    |downloads_bcbreport| |docker_bcbreport|
 
-   :versions: 0.99.29-2, 0.99.29-1, 0.99.29-0, 0.99.28-0, 0.99.27-0, 0.99.26-0, 0.99.25-0, 0.99.24-0, 0.99.23-1, 0.99.22-1, 0.99.21-1, 0.99.20-1, 0.99.20-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.99.29-2</code>,  <code>0.99.29-1</code>,  <code>0.99.29-0</code>,  <code>0.99.28-0</code>,  <code>0.99.27-0</code>,  <code>0.99.26-0</code>,  <code>0.99.25-0</code>,  <code>0.99.24-0</code>,  <code>0.99.23-1</code>,  </span></summary>
+      
+
+      ``0.99.29-2``,  ``0.99.29-1``,  ``0.99.29-0``,  ``0.99.28-0``,  ``0.99.27-0``,  ``0.99.26-0``,  ``0.99.25-0``,  ``0.99.24-0``,  ``0.99.23-1``,  ``0.99.22-1``,  ``0.99.21-1``,  ``0.99.20-1``,  ``0.99.20-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends python: 
    :requirements:

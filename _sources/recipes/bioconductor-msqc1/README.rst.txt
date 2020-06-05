@@ -8,6 +8,7 @@ bioconductor-msqc1
 
 .. conda:recipe:: bioconductor-msqc1
    :replaces_section_title:
+   :noindex:
 
    Sigma mix MSQC1 data
 
@@ -22,10 +23,17 @@ bioconductor-msqc1
 
    |downloads_bioconductor-msqc1| |docker_bioconductor-msqc1|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-lattice: 
    :requirements:
 

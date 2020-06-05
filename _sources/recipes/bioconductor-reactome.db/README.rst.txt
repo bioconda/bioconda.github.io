@@ -8,6 +8,7 @@ bioconductor-reactome.db
 
 .. conda:recipe:: bioconductor-reactome.db
    :replaces_section_title:
+   :noindex:
 
    A set of annotation maps for reactome
 
@@ -22,11 +23,18 @@ bioconductor-reactome.db
 
    |downloads_bioconductor-reactome.db| |docker_bioconductor-reactome.db|
 
-   :versions: 1.70.0-1, 1.70.0-0, 1.68.0-1, 1.66.0-0, 1.64.0-0, 1.62.0-0
+   :versions:
+      
+      
+
+      ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

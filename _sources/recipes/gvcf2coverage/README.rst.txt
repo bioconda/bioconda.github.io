@@ -8,6 +8,7 @@ gvcf2coverage
 
 .. conda:recipe:: gvcf2coverage
    :replaces_section_title:
+   :noindex:
 
    Coverage extractor from gVCF files.
 
@@ -22,10 +23,17 @@ gvcf2coverage
 
    |downloads_gvcf2coverage| |docker_gvcf2coverage|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

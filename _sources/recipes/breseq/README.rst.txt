@@ -8,6 +8,7 @@ breseq
 
 .. conda:recipe:: breseq
    :replaces_section_title:
+   :noindex:
 
    A computational pipeline for finding mutations relative to a reference sequence in short\-read DNA re\-sequencing data.
 
@@ -22,13 +23,28 @@ breseq
 
    |downloads_breseq| |docker_breseq|
 
-   :versions: 0.35.1-0, 0.35.0-0, 0.34.1-0, 0.34.0-0, 0.33.2-0, 0.33.0-0, 0.31.1-3, 0.31.1-2, 0.31.1-1, 0.29.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.35.1-0</code>,  <code>0.35.0-0</code>,  <code>0.34.1-0</code>,  <code>0.34.0-0</code>,  <code>0.33.2-0</code>,  <code>0.33.0-0</code>,  <code>0.31.1-3</code>,  <code>0.31.1-2</code>,  <code>0.31.1-1</code>,  </span></summary>
+      
+
+      ``0.35.1-0``,  ``0.35.0-0``,  ``0.34.1-0``,  ``0.34.0-0``,  ``0.33.2-0``,  ``0.33.0-0``,  ``0.31.1-3``,  ``0.31.1-2``,  ``0.31.1-1``,  ``0.29.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bowtie2: >=2.0.0,!=2.0.3,!=2.0.4,!=2.3.1
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bowtie2: ``>=2.0.0,!=2.0.3,!=2.0.4,!=2.3.1``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends r-base: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

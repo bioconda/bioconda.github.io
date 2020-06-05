@@ -8,6 +8,7 @@ qfilt
 
 .. conda:recipe:: qfilt
    :replaces_section_title:
+   :noindex:
 
    Filter sequencing data using some simple heuristics
 
@@ -22,9 +23,16 @@ qfilt
 
    |downloads_qfilt| |docker_qfilt|
 
-   :versions: 0.0.1-1, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-1``,  ``0.0.1-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

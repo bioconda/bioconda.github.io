@@ -8,6 +8,7 @@ bioconductor-lbe
 
 .. conda:recipe:: bioconductor-lbe
    :replaces_section_title:
+   :noindex:
 
    Estimation of the false discovery rate.
 
@@ -23,9 +24,16 @@ bioconductor-lbe
 
    |downloads_bioconductor-lbe| |docker_bioconductor-lbe|
 
-   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-1, 1.52.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   :versions:
+      
+      
+
+      ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

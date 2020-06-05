@@ -8,6 +8,7 @@ trinotate
 
 .. conda:recipe:: trinotate
    :replaces_section_title:
+   :noindex:
 
    Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes\, particularly de novo assembled transcriptomes\, from model or non\-model organisms
 
@@ -22,11 +23,26 @@ trinotate
 
    |downloads_trinotate| |docker_trinotate|
 
-   :versions: 3.2.0-1, 3.2.0-0, 3.1.1-7, 3.1.1-6, 3.1.1-5, 3.1.1-4, 3.1.1-0, 3.1.0-0, 3.0.2-0, 3.0.1-1, 3.0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.1-7</code>,  <code>3.1.1-6</code>,  <code>3.1.1-5</code>,  <code>3.1.1-4</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.2-0</code>,  </span></summary>
+      
+
+      ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.1-7``,  ``3.1.1-6``,  ``3.1.1-5``,  ``3.1.1-4``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends blast: 
    :depends hmmer: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-dbd-sqlite: 
    :depends perl-dbi: 

@@ -8,6 +8,7 @@ bioconductor-phastcons30way.ucsc.hg38
 
 .. conda:recipe:: bioconductor-phastcons30way.ucsc.hg38
    :replaces_section_title:
+   :noindex:
 
    phastCons30way.UCSC.hg38 AnnotationHub Resource Metadata
 
@@ -22,12 +23,19 @@ bioconductor-phastcons30way.ucsc.hg38
 
    |downloads_bioconductor-phastcons30way.ucsc.hg38| |docker_bioconductor-phastcons30way.ucsc.hg38|
 
-   :versions: 3.11.1-0
+   :versions:
+      
+      
+
+      ``3.11.1-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-genomicscores: >=2.0.0,<2.1.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-genomicscores: ``>=2.0.0,<2.1.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

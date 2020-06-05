@@ -8,6 +8,7 @@ dazz_db
 
 .. conda:recipe:: dazz_db
    :replaces_section_title:
+   :noindex:
 
    DAZZ\_DB\: The Dazzler Data Base
 
@@ -22,7 +23,14 @@ dazz_db
 
    |downloads_dazz_db| |docker_dazz_db|
 
-   :versions: 1.0-0, 1.0p2-2, 1.0p2-1, 1.0p2-0, 1.0p1-1, 1.0p1-0
+   :versions:
+      
+      
+
+      ``1.0-0``,  ``1.0p2-2``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-1``,  ``1.0p1-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

@@ -8,6 +8,7 @@ perl-statistics-r
 
 .. conda:recipe:: perl-statistics-r
    :replaces_section_title:
+   :noindex:
 
    Statistics\:\:R \- Perl interface with the R statistical program
 
@@ -22,14 +23,21 @@ perl-statistics-r
 
    |downloads_perl-statistics-r| |docker_perl-statistics-r|
 
-   :versions: 0.34-3, 0.34-2, 0.34-1, 0.34-0
+   :versions:
+      
+      
+
+      ``0.34-3``,  ``0.34-2``,  ``0.34-1``,  ``0.34-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-ipc-run: 
    :depends perl-regexp-common: 
-   :depends perl-text-balanced: >=1.97
+   :depends perl-text-balanced: ``>=1.97``
    :depends perl-text-wrap: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
    :requirements:
 
    .. rubric:: Installation

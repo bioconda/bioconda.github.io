@@ -8,6 +8,7 @@ fastqe
 
 .. conda:recipe:: fastqe
    :replaces_section_title:
+   :noindex:
 
    A emoji based bioinformatics command line tool
 
@@ -25,9 +26,16 @@ fastqe
 
    |downloads_fastqe| |docker_fastqe|
 
-   :versions: 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
-   :depends biopython: >=1.66
+   :depends biopython: ``>=1.66``
    :depends pyemojify: 
    :depends python: 
    :requirements:

@@ -8,6 +8,7 @@ msproteomicstools
 
 .. conda:recipe:: msproteomicstools
    :replaces_section_title:
+   :noindex:
 
    msproteomicstools is a Python library that can be used in LC\-MS\/MS based proteomics. It features a core library called.
 
@@ -22,20 +23,27 @@ msproteomicstools
 
    |downloads_msproteomicstools| |docker_msproteomicstools|
 
-   :versions: 0.8.0-0, 0.5.0-1, 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.8.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
+
+      
+
    
    :depends biopython: 
    :depends configobj: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends lxml: 
    :depends numpy: 
-   :depends pymzml: 0.7.8
-   :depends pyteomics: >=2.4.0
-   :depends python: >=2.7,<2.8.0a0
-   :depends python-cluster: 1.3.3
+   :depends pymzml: ``0.7.8``
+   :depends pyteomics: ``>=2.4.0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python-cluster: ``1.3.3``
    :depends scikits-datasmooth: 
    :depends scipy: 
-   :depends xlsxwriter: >=0.5.3
+   :depends xlsxwriter: ``>=0.5.3``
    :depends xlwt: 
    :requirements:
 

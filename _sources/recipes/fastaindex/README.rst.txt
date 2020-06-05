@@ -8,6 +8,7 @@ fastaindex
 
 .. conda:recipe:: fastaindex
    :replaces_section_title:
+   :noindex:
 
    FastA indexing and sequence retrival.
 
@@ -22,9 +23,16 @@ fastaindex
 
    |downloads_fastaindex| |docker_fastaindex|
 
-   :versions: 0.11c-3, 0.11c-2, 0.11c-1, 0.11c-0
+   :versions:
+      
+      
+
+      ``0.11c-3``,  ``0.11c-2``,  ``0.11c-1``,  ``0.11c-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

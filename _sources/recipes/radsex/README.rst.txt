@@ -8,6 +8,7 @@ radsex
 
 .. conda:recipe:: radsex
    :replaces_section_title:
+   :noindex:
 
    The radsex software is part of RADSex\, a computational workflow for the analysis of sex\-determination using RAD\-Sequencing data.
 
@@ -22,11 +23,18 @@ radsex
 
    |downloads_radsex| |docker_radsex|
 
-   :versions: 1.1.2-0, 1.1.0-0, 1.0.0c-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.0c-0``,  ``0.2.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ kleborate
 
 .. conda:recipe:: kleborate
    :replaces_section_title:
+   :noindex:
 
    A tool to screen Klebiella genome assembiles for\: MLST sequence type\, species \(e.g. K. pneumoniae\, K. quasipneumoniae\, K. variicola\, etc.\)\, ICEKp associated virulence loci\: yersiniabactin \(ybt\)\, colibactin \(clb\)\, virulence plasmid associated loci\: salmochelin \(iro\)\, aerobactin \(iuc\)\, hypermucoidy \(rmpA\, rmpA2\)\, antimicrobial resistance genes\, including quinolone resistance SNPs and colistin resistance truncations\, and K \(capsule\) and O antigen \(LPS\) serotype prediction\, via wzi alleles and Kaptive.
 
@@ -22,10 +23,17 @@ kleborate
 
    |downloads_kleborate| |docker_kleborate|
 
-   :versions: 1.0.0-0, 0.3.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``0.3.0-0``
+
+      
+
    
    :depends biopython: 
-   :depends blast: >=2.2.31
+   :depends blast: ``>=2.2.31``
    :depends mash: 
    :depends python: 
    :requirements:

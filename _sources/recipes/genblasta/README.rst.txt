@@ -8,6 +8,7 @@ genblasta
 
 .. conda:recipe:: genblasta
    :replaces_section_title:
+   :noindex:
 
    genBlast is a program suite\, consisting of two programs\: genBlastA and genBlastG. genBlastA parses local alignments\, or high\-scoring segment pairs \(HSPs\) produced by local sequence alignment programs such as BLAST and WU\-BLAST and identify groups of HSPs.
 
@@ -22,7 +23,14 @@ genblasta
 
    |downloads_genblasta| |docker_genblasta|
 
-   :versions: 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``
+
+      
+
    
    :depends blast: 
    :requirements:

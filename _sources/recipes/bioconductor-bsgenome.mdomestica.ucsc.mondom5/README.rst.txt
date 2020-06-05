@@ -8,6 +8,7 @@ bioconductor-bsgenome.mdomestica.ucsc.mondom5
 
 .. conda:recipe:: bioconductor-bsgenome.mdomestica.ucsc.mondom5
    :replaces_section_title:
+   :noindex:
 
    Full genome sequences for Monodelphis domestica \(UCSC version monDom5\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.mdomestica.ucsc.mondom5
 
    |downloads_bioconductor-bsgenome.mdomestica.ucsc.mondom5| |docker_bioconductor-bsgenome.mdomestica.ucsc.mondom5|
 
-   :versions: 1.4.2-3, 1.4.2-2, 1.4.2-1
+   :versions:
+      
+      
+
+      ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

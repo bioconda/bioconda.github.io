@@ -8,6 +8,7 @@ assemblerflow
 
 .. conda:recipe:: assemblerflow
    :replaces_section_title:
+   :noindex:
 
    A Nextflow pipeline assembler for genomics. Pick your modules. Assemble them. Run the pipeline.
 
@@ -25,12 +26,19 @@ assemblerflow
 
    |downloads_assemblerflow| |docker_assemblerflow|
 
-   :versions: 1.1.0.post3-2, 1.1.0.post3-1, 1.1.0.post3-0, 1.1.0.post1-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.1.0.post3-2``,  ``1.1.0.post3-1``,  ``1.1.0.post3-0``,  ``1.1.0.post1-0``,  ``1.0.1-0``
+
+      
+
    
    :depends argparse: 
    :depends jinja2: 
-   :depends nextflow: >=0.27
-   :depends python: >=3
+   :depends nextflow: ``>=0.27``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

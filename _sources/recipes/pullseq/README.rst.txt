@@ -8,6 +8,7 @@ pullseq
 
 .. conda:recipe:: pullseq
    :replaces_section_title:
+   :noindex:
 
    Utility program for extracting sequences from a fasta\/fastq file.
 
@@ -22,11 +23,18 @@ pullseq
 
    |downloads_pullseq| |docker_pullseq|
 
-   :versions: 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends pcre: >=8.41,<9.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends pcre: ``>=8.41,<9.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

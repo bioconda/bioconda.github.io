@@ -8,6 +8,7 @@ pretextsnapshot
 
 .. conda:recipe:: pretextsnapshot
    :replaces_section_title:
+   :noindex:
 
    Commandline image generator for Pretext Hi\-C genome contact maps.
 
@@ -22,10 +23,17 @@ pretextsnapshot
 
    |downloads_pretextsnapshot| |docker_pretextsnapshot|
 
-   :versions: 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

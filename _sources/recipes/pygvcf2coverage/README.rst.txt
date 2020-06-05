@@ -8,6 +8,7 @@ pygvcf2coverage
 
 .. conda:recipe:: pygvcf2coverage
    :replaces_section_title:
+   :noindex:
 
    Python tool to extra coverage from gVCF files.
 
@@ -22,10 +23,17 @@ pygvcf2coverage
 
    |downloads_pygvcf2coverage| |docker_pygvcf2coverage|
 
-   :versions: 0.2-0
+   :versions:
+      
+      
+
+      ``0.2-0``
+
+      
+
    
    :depends cyvcf2: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-b-debug
 
 .. conda:recipe:: perl-b-debug
    :replaces_section_title:
+   :noindex:
 
    print debug info about ops
 
@@ -22,9 +23,16 @@ perl-b-debug
 
    |downloads_perl-b-debug| |docker_perl-b-debug|
 
-   :versions: 1.26-0
+   :versions:
+      
+      
+
+      ``1.26-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

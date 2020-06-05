@@ -8,6 +8,7 @@ readfq
 
 .. conda:recipe:: readfq
    :replaces_section_title:
+   :noindex:
 
    A high\-speed tool to calculate reads number and total base count in FASTQ file\, forked from Li Heng\'s original version
 
@@ -22,10 +23,17 @@ readfq
 
    |downloads_readfq| |docker_readfq|
 
-   :versions: 2015.08.30-0
+   :versions:
+      
+      
+
+      ``2015.08.30-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

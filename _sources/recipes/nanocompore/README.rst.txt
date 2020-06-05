@@ -8,6 +8,7 @@ nanocompore
 
 .. conda:recipe:: nanocompore
    :replaces_section_title:
+   :noindex:
 
    Nanocompore identifies raw signal changes between two conditions dRNA\-Seq data.
 
@@ -22,14 +23,21 @@ nanocompore
 
    |downloads_nanocompore| |docker_nanocompore|
 
-   :versions: 1.0.0rc3.post2-0, 1.0.0rc3.post1-0
+   :versions:
+      
+      
+
+      ``1.0.0rc3.post2-0``,  ``1.0.0rc3.post1-0``
+
+      
+
    
    :depends bedparse: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends pyfaidx: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends pyyaml: 
    :depends scikit-learn: 
    :depends scipy: 

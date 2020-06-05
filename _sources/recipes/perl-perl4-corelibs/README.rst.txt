@@ -8,6 +8,7 @@ perl-perl4-corelibs
 
 .. conda:recipe:: perl-perl4-corelibs/0.004
    :replaces_section_title:
+   :noindex:
 
    libraries historically supplied with Perl 4
 
@@ -22,9 +23,16 @@ perl-perl4-corelibs
 
    |downloads_perl-perl4-corelibs| |docker_perl-perl4-corelibs|
 
-   :versions: 0.004-1, 0.004-0
+   :versions:
+      
+      
+
+      ``0.004-1``,  ``0.004-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-getopt-long: 
    :depends perl-socket: 
    :depends perl-text-parsewords: 

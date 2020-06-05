@@ -8,6 +8,7 @@ bioconductor-pcagopromoter.rn.rn4
 
 .. conda:recipe:: bioconductor-pcagopromoter.rn.rn4
    :replaces_section_title:
+   :noindex:
 
    pcaGoPromoter.Rn.rn4 is a data package used by pcaGoPromoter
 
@@ -22,10 +23,17 @@ bioconductor-pcagopromoter.rn.rn4
 
    |downloads_bioconductor-pcagopromoter.rn.rn4| |docker_bioconductor-pcagopromoter.rn.rn4|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

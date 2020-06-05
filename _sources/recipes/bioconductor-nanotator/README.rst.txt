@@ -8,6 +8,7 @@ bioconductor-nanotator
 
 .. conda:recipe:: bioconductor-nanotator
    :replaces_section_title:
+   :noindex:
 
    nanotatoR\: next generation structural variant annotation and classification
 
@@ -22,17 +23,24 @@ bioconductor-nanotator
 
    |downloads_bioconductor-nanotator| |docker_bioconductor-nanotator|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-hash: >=2.2.6
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-hash: ``>=2.2.6``
    :depends r-httr: 
    :depends r-knitr: 
-   :depends r-openxlsx: >=4.0.17
-   :depends r-rentrez: >=1.1.0
+   :depends r-openxlsx: ``>=4.0.17``
+   :depends r-rentrez: ``>=1.1.0``
    :depends r-stringr: 
    :depends r-testthat: 
    :requirements:

@@ -8,6 +8,7 @@ prince
 
 .. conda:recipe:: prince
    :replaces_section_title:
+   :noindex:
 
    PRINCE estimates Variable Number Tandem Repeats \(VNTR\) copy number from raw next generation sequencing \(NGS\) data.
 
@@ -22,7 +23,14 @@ prince
 
    |downloads_prince| |docker_prince|
 
-   :versions: 2.3-0, 2.2-0, 2.1-0, 2.0-0, 1.2-0, 1.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+
+      
+
    
    :depends biopython: 
    :depends numpy: 

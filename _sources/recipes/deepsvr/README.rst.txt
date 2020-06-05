@@ -8,6 +8,7 @@ deepsvr
 
 .. conda:recipe:: deepsvr
    :replaces_section_title:
+   :noindex:
 
    DeepSVR stands for deep somatic variant refinement. It uses deep learning to classify real somatic and anomalous variants in paired tumor sequencing data.
 
@@ -22,20 +23,27 @@ deepsvr
 
    |downloads_deepsvr| |docker_deepsvr|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends bam-readcount: 
    :depends click: 
    :depends convert_zero_one_based: 
    :depends h5py: 
-   :depends keras: 2.0.4
+   :depends keras: ``2.0.4``
    :depends matplotlib: 
-   :depends numpy: 1.12.1
-   :depends pandas: 0.20.3
-   :depends python: 3.6.1
+   :depends numpy: ``1.12.1``
+   :depends pandas: ``0.20.3``
+   :depends python: ``3.6.1``
    :depends scikit-learn: 
    :depends seaborn: 
-   :depends tensorflow: <=1.0.1
+   :depends tensorflow: ``<=1.0.1``
    :requirements:
 
    .. rubric:: Installation

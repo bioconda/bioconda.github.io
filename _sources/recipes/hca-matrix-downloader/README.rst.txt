@@ -8,6 +8,7 @@ hca-matrix-downloader
 
 .. conda:recipe:: hca-matrix-downloader
    :replaces_section_title:
+   :noindex:
 
    Python client for the HCA DCP matrix service
 
@@ -22,9 +23,16 @@ hca-matrix-downloader
 
    |downloads_hca-matrix-downloader| |docker_hca-matrix-downloader|
 
-   :versions: 0.0.3-0, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.3-0``,  ``0.0.2-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends requests: 
    :requirements:
 

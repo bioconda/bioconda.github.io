@@ -8,6 +8,7 @@ perl-http-message
 
 .. conda:recipe:: perl-http-message
    :replaces_section_title:
+   :noindex:
 
    HTTP style message \(base class\)
 
@@ -22,9 +23,16 @@ perl-http-message
 
    |downloads_perl-http-message| |docker_perl-http-message|
 
-   :versions: 6.18-0, 6.11-1, 6.11-0
+   :versions:
+      
+      
+
+      ``6.18-0``,  ``6.11-1``,  ``6.11-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-compress-raw-zlib: 

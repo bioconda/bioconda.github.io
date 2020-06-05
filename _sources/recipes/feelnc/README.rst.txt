@@ -8,6 +8,7 @@ feelnc
 
 .. conda:recipe:: feelnc
    :replaces_section_title:
+   :noindex:
 
    FlExible Extraction of LncRNA
 
@@ -22,11 +23,18 @@ feelnc
 
    |downloads_feelnc| |docker_feelnc|
 
-   :versions: 0.1.1-5, 0.1.1-4, 0.1.1-3, 0.1.1-2, 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
    :depends fasta_ushuffle: 
    :depends kmerinshort: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-featureio: 
    :depends perl-bioperl: 
    :depends perl-db-file: 

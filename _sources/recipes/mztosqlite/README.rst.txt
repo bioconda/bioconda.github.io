@@ -8,6 +8,7 @@ mztosqlite
 
 .. conda:recipe:: mztosqlite
    :replaces_section_title:
+   :noindex:
 
    Convert proteomics data files into a SQLite database.
 
@@ -22,9 +23,16 @@ mztosqlite
 
    |downloads_mztosqlite| |docker_mztosqlite|
 
-   :versions: 2.0.2-0, 2.0.0-1, 2.0.0-0, 1.2.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``2.0.2-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

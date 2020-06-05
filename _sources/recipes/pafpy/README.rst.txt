@@ -8,6 +8,7 @@ pafpy
 
 .. conda:recipe:: pafpy
    :replaces_section_title:
+   :noindex:
 
    A lightweight library for working with PAF \(Pairwise mApping Format\) files
 
@@ -24,9 +25,16 @@ pafpy
 
    |downloads_pafpy| |docker_pafpy|
 
-   :versions: 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``
+
+      
+
    
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

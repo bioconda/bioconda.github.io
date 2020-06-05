@@ -8,6 +8,7 @@ perl-b-hooks-endofscope
 
 .. conda:recipe:: perl-b-hooks-endofscope/0.21
    :replaces_section_title:
+   :noindex:
 
    Execute code after a scope finished compilation
 
@@ -22,11 +23,18 @@ perl-b-hooks-endofscope
 
    |downloads_perl-b-hooks-endofscope| |docker_perl-b-hooks-endofscope|
 
-   :versions: 0.21-4, 0.21-3, 0.21-0
+   :versions:
+      
+      
+
+      ``0.21-4``,  ``0.21-3``,  ``0.21-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-module-implementation: 
    :depends perl-sub-exporter-progressive: 

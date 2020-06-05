@@ -8,6 +8,7 @@ nthits
 
 .. conda:recipe:: nthits
    :replaces_section_title:
+   :noindex:
 
    a method for identifying repeats in high\-throughput DNA sequencing data.
 
@@ -22,10 +23,17 @@ nthits
 
    |downloads_nthits| |docker_nthits|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

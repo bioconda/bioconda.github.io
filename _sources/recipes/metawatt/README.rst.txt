@@ -8,6 +8,7 @@ metawatt
 
 .. conda:recipe:: metawatt
    :replaces_section_title:
+   :noindex:
 
    MetaWatt is a metagenomic binning tool
 
@@ -30,12 +31,19 @@ metawatt
 
    |downloads_metawatt| |docker_metawatt|
 
-   :versions: 3.5.3-2, 3.5.3-1, 3.5.3-0
+   :versions:
+      
+      
+
+      ``3.5.3-2``,  ``3.5.3-1``,  ``3.5.3-0``
+
+      
+
    
    :depends aragorn: 
    :depends bbmap: 
    :depends blast: 
-   :depends diamond: 0.7.*
+   :depends diamond: ``0.7.*``
    :depends fasttree: 
    :depends hmmer: 
    :depends mafft: 

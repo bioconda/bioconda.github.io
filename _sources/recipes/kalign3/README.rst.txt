@@ -8,6 +8,7 @@ kalign3
 
 .. conda:recipe:: kalign3
    :replaces_section_title:
+   :noindex:
 
    Kalign is a fast and accurate multiple sequence alignment algorithm.
 
@@ -23,9 +24,16 @@ kalign3
 
    |downloads_kalign3| |docker_kalign3|
 
-   :versions: 3.2.2-1, 3.2.2-0
+   :versions:
+      
+      
+
+      ``3.2.2-1``,  ``3.2.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

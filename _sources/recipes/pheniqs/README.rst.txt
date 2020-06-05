@@ -8,6 +8,7 @@ pheniqs
 
 .. conda:recipe:: pheniqs
    :replaces_section_title:
+   :noindex:
 
    Pheniqs is a generic high throughput DNA sequence demultiplexer and quality analyzer written in multi threaded C\+\+11. Pheniqs is pronounced phoe·nix and stands for PHilology ENcoder wIth Quality Statistics.
 
@@ -23,16 +24,23 @@ pheniqs
 
    |downloads_pheniqs| |docker_pheniqs|
 
-   :versions: 2.0.6-2, 2.0.6-1, 2.0.6-0, 2.0.3-1, 2.0.3-0
+   :versions:
+      
+      
+
+      ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.3-1``,  ``2.0.3-0``
+
+      
+
    
-   :depends htslib: >=1.10.2,<1.11.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends rapidjson: 
    :depends samtools: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

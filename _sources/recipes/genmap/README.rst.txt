@@ -8,6 +8,7 @@ genmap
 
 .. conda:recipe:: genmap
    :replaces_section_title:
+   :noindex:
 
    Fast computation of genome mappability.
 
@@ -22,10 +23,17 @@ genmap
 
    |downloads_genmap| |docker_genmap|
 
-   :versions: 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends openmp: 
    :requirements:
 

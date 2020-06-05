@@ -8,6 +8,7 @@ bioconductor-ssrch
 
 .. conda:recipe:: bioconductor-ssrch
    :replaces_section_title:
+   :noindex:
 
    a simple search engine
 
@@ -22,9 +23,16 @@ bioconductor-ssrch
 
    |downloads_bioconductor-ssrch| |docker_bioconductor-ssrch|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dt: 
    :depends r-shiny: 
    :requirements:

@@ -8,6 +8,7 @@ kinamine_y_shaker
 
 .. conda:recipe:: kinamine_y_shaker
    :replaces_section_title:
+   :noindex:
 
    Kinamine is a tool to export all phospho\-peptides that were discovered by a mass spec search program
 
@@ -24,9 +25,16 @@ kinamine_y_shaker
 
    |downloads_kinamine_y_shaker| |docker_kinamine_y_shaker|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

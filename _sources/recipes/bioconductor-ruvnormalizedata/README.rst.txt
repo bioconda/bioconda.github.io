@@ -8,6 +8,7 @@ bioconductor-ruvnormalizedata
 
 .. conda:recipe:: bioconductor-ruvnormalizedata
    :replaces_section_title:
+   :noindex:
 
    Gender data for the RUVnormalize package
 
@@ -22,11 +23,18 @@ bioconductor-ruvnormalizedata
 
    |downloads_bioconductor-ruvnormalizedata| |docker_bioconductor-ruvnormalizedata|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0, 0.114.0-0, 0.112.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``0.114.0-0``,  ``0.112.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

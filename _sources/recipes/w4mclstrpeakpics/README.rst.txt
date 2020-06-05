@@ -8,6 +8,7 @@ w4mclstrpeakpics
 
 .. conda:recipe:: w4mclstrpeakpics
    :replaces_section_title:
+   :noindex:
 
    Visualize W4M sample\-cluster peaks \- Produce a figure to assess the similarities and differences among peaks in a cluster of samples using XCMS\-preprocessed data files as input. MIT Licence allows redistribution.
 
@@ -22,9 +23,16 @@ w4mclstrpeakpics
 
    |downloads_w4mclstrpeakpics| |docker_w4mclstrpeakpics|
 
-   :versions: 0.98.1-1, 0.98.1-0
+   :versions:
+      
+      
+
+      ``0.98.1-1``,  ``0.98.1-0``
+
+      
+
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: ``>=3.4.1,<3.4.2.0a0``
    :depends r-batch: 
    :depends r-reshape2: 
    :depends r-sqldf: 

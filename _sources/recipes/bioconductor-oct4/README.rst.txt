@@ -8,6 +8,7 @@ bioconductor-oct4
 
 .. conda:recipe:: bioconductor-oct4
    :replaces_section_title:
+   :noindex:
 
    Conditional knockdown of OCT4 in mouse ESCs
 
@@ -22,10 +23,17 @@ bioconductor-oct4
 
    |downloads_bioconductor-oct4| |docker_bioconductor-oct4|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

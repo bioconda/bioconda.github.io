@@ -8,6 +8,7 @@ emmtyper
 
 .. conda:recipe:: emmtyper
    :replaces_section_title:
+   :noindex:
 
    Streptococcus pyogenes in silico EMM typer
 
@@ -22,15 +23,22 @@ emmtyper
 
    |downloads_emmtyper| |docker_emmtyper|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends blast: >=2.6.0
+   :depends blast: ``>=2.6.0``
    :depends click: 
    :depends ispcr: 
-   :depends numpy: >=1.15.0
-   :depends python: >=3
+   :depends numpy: ``>=1.15.0``
+   :depends python: ``>=3``
    :depends python-dateutil: 
-   :depends scipy: >=1.1.0
+   :depends scipy: ``>=1.1.0``
    :requirements:
 
    .. rubric:: Installation

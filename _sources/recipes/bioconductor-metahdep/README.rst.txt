@@ -8,6 +8,7 @@ bioconductor-metahdep
 
 .. conda:recipe:: bioconductor-metahdep
    :replaces_section_title:
+   :noindex:
 
    Hierarchical Dependence in Meta\-Analysis
 
@@ -23,12 +24,19 @@ bioconductor-metahdep
 
    |downloads_bioconductor-metahdep| |docker_bioconductor-metahdep|
 
-   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions:
+      
+      
+
+      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

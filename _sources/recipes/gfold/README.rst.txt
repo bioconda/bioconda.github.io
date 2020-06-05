@@ -8,6 +8,7 @@ gfold
 
 .. conda:recipe:: gfold
    :replaces_section_title:
+   :noindex:
 
    Find differentially expressed genes from RNA\-seq data with few replicates using generalized fold changes.
 
@@ -22,9 +23,16 @@ gfold
 
    |downloads_gfold| |docker_gfold|
 
-   :versions: 1.1.4-2, 1.1.4-1, 1.1.4-0
+   :versions:
+      
+      
+
+      ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``
+
+      
+
    
-   :depends gsl: 2.2*
+   :depends gsl: ``2.2*``
    :depends libgcc: 
    :depends openblas: 
    :requirements:

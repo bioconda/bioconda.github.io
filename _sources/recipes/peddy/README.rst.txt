@@ -8,6 +8,7 @@ peddy
 
 .. conda:recipe:: peddy
    :replaces_section_title:
+   :noindex:
 
    genotype \:\: ped correspondence check\, ancestry check\, sex check. directly\, quickly on VCF
 
@@ -22,12 +23,27 @@ peddy
 
    |downloads_peddy| |docker_peddy|
 
-   :versions: 0.4.6-0, 0.4.5-0, 0.4.4-0, 0.4.3-1, 0.4.3-0, 0.4.2-0, 0.4.1-1, 0.4.1-0, 0.3.6a-0, 0.3.1-0, 0.2.9-0, 0.2.5-0, 0.2.2-0, 0.2.0-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.0.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.3.6a-0</code>,  </span></summary>
+      
+
+      ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.6a-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.5-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends click: 
    :depends coloredlogs: 
-   :depends cyvcf2: >=0.5.3
-   :depends matplotlib: >=1.5.0
+   :depends cyvcf2: ``>=0.5.3``
+   :depends matplotlib: ``>=1.5.0``
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 

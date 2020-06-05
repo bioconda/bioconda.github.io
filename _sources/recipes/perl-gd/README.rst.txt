@@ -8,6 +8,7 @@ perl-gd
 
 .. conda:recipe:: perl-gd
    :replaces_section_title:
+   :noindex:
 
    Perl interface to the gd2 graphics library
 
@@ -22,13 +23,28 @@ perl-gd
 
    |downloads_perl-gd| |docker_perl-gd|
 
-   :versions: 2.71-0, 2.70-1, 2.70-0, 2.69-0, 2.68-0, 2.56-9, 2.56-8, 2.56-7, 2.56-6, 2.56-5, 2.56-4, 2.56-3, 2.56-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.71-0</code>,  <code>2.70-1</code>,  <code>2.70-0</code>,  <code>2.69-0</code>,  <code>2.68-0</code>,  <code>2.56-9</code>,  <code>2.56-8</code>,  <code>2.56-7</code>,  <code>2.56-6</code>,  </span></summary>
+      
+
+      ``2.71-0``,  ``2.70-1``,  ``2.70-0``,  ``2.69-0``,  ``2.68-0``,  ``2.56-9``,  ``2.56-8``,  ``2.56-7``,  ``2.56-6``,  ``2.56-5``,  ``2.56-4``,  ``2.56-3``,  ``2.56-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libgd: >=2.2.5,<2.3.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgd: ``>=2.2.5,<2.3.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

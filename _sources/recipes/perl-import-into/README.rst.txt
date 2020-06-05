@@ -8,6 +8,7 @@ perl-import-into
 
 .. conda:recipe:: perl-import-into
    :replaces_section_title:
+   :noindex:
 
    Import packages into other packages
 
@@ -22,9 +23,16 @@ perl-import-into
 
    |downloads_perl-import-into| |docker_perl-import-into|
 
-   :versions: 1.002005-0
+   :versions:
+      
+      
+
+      ``1.002005-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-module-runtime: 
    :requirements:
 

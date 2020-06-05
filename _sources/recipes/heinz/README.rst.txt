@@ -8,6 +8,7 @@ heinz
 
 .. conda:recipe:: heinz
    :replaces_section_title:
+   :noindex:
 
    The algorithm for identification of the optimal scoring subnetwork.
 
@@ -22,7 +23,14 @@ heinz
 
    |downloads_heinz| |docker_heinz|
 
-   :versions: 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-1``,  ``2.0-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

@@ -8,6 +8,7 @@ perl-ensembl-compara
 
 .. conda:recipe:: perl-ensembl-compara
    :replaces_section_title:
+   :noindex:
 
    The Ensembl Core Perl API and
 
@@ -22,7 +23,14 @@ perl-ensembl-compara
 
    |downloads_perl-ensembl-compara| |docker_perl-ensembl-compara|
 
-   :versions: 98-0
+   :versions:
+      
+      
+
+      ``98-0``
+
+      
+
    
    :depends perl: 
    :depends perl-bioperl: 

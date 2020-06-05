@@ -8,6 +8,7 @@ collect-columns
 
 .. conda:recipe:: collect-columns
    :replaces_section_title:
+   :noindex:
 
    Retrieve a column for each in a set of tables\, placing them in a single output table.
 
@@ -22,11 +23,18 @@ collect-columns
 
    |downloads_collect-columns| |docker_collect-columns|
 
-   :versions: 0.2.0-1, 0.2.0-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-0``
+
+      
+
    
    :depends bcbio-gff: 
    :depends biopython: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :requirements:
 
    .. rubric:: Installation

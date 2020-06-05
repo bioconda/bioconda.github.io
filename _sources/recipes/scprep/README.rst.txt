@@ -8,6 +8,7 @@ scprep
 
 .. conda:recipe:: scprep
    :replaces_section_title:
+   :noindex:
 
    Tools for loading and preprocessing biological matrices in Python.
 
@@ -22,14 +23,29 @@ scprep
 
    |downloads_scprep| |docker_scprep|
 
-   :versions: 1.0.5.post2-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0, 0.12.2-0, 0.12.1-0, 0.12.0-0, 0.8.1-0, 0.7.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.5.post2-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  </span></summary>
+      
+
+      ``1.0.5.post2-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.8.1-0``,  ``0.7.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends decorator: >=4.3.0
-   :depends numpy: >=1.12.0
-   :depends pandas: >=0.25
-   :depends python: >=3.5
-   :depends scikit-learn: >=0.19.1
-   :depends scipy: >=0.18.1
+   :depends decorator: ``>=4.3.0``
+   :depends numpy: ``>=1.12.0``
+   :depends pandas: ``>=0.25``
+   :depends python: ``>=3.5``
+   :depends scikit-learn: ``>=0.19.1``
+   :depends scipy: ``>=0.18.1``
    :requirements:
 
    .. rubric:: Installation

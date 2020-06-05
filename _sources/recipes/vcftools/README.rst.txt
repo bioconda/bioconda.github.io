@@ -8,6 +8,7 @@ vcftools
 
 .. conda:recipe:: vcftools
    :replaces_section_title:
+   :noindex:
 
    A set of tools written in Perl and C\+\+ for working with VCF files. This package only contains the C\+\+ libraries whereas the package perl\-vcftools\-vcf contains the perl libraries
 
@@ -23,11 +24,26 @@ vcftools
 
    |downloads_vcftools| |docker_vcftools|
 
-   :versions: 0.1.16-3, 0.1.16-2, 0.1.15-2, 0.1.15-1, 0.1.15-0, 0.1.14-5, 0.1.14-4, 0.1.14-3, 0.1.14-2, 0.1.14-1, 0.1.14-0, 0.1.12b-0, 0.1.11-2, 0.1.11-1, 0.1.11-0, 0.1.10-1, 0.1.10-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.1.16-3</code>,  <code>0.1.16-2</code>,  <code>0.1.15-2</code>,  <code>0.1.15-1</code>,  <code>0.1.15-0</code>,  <code>0.1.14-5</code>,  <code>0.1.14-4</code>,  <code>0.1.14-3</code>,  <code>0.1.14-2</code>,  </span></summary>
+      
+
+      ``0.1.16-3``,  ``0.1.16-2``,  ``0.1.15-2``,  ``0.1.15-1``,  ``0.1.15-0``,  ``0.1.14-5``,  ``0.1.14-4``,  ``0.1.14-3``,  ``0.1.14-2``,  ``0.1.14-1``,  ``0.1.14-0``,  ``0.1.12b-0``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-1``,  ``0.1.10-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

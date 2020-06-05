@@ -8,6 +8,7 @@ wes-service-client
 
 .. conda:recipe:: wes-service-client
    :replaces_section_title:
+   :noindex:
 
    Implementation of the GA4GH Workflow Execution Service\, a REST service for running workflows\; client support only
 
@@ -22,11 +23,18 @@ wes-service-client
 
    |downloads_wes-service-client| |docker_wes-service-client|
 
-   :versions: 2.7-1, 2.5-1, 2.5-0
+   :versions:
+      
+      
+
+      ``2.7-1``,  ``2.5-1``,  ``2.5-0``
+
+      
+
    
    :depends future: 
    :depends python: 
-   :depends schema-salad: >=2.6.20170927145003,<3.0
+   :depends schema-salad: ``>=2.6.20170927145003,<3.0``
    :depends setuptools: 
    :depends subprocess32: 
    :requirements:

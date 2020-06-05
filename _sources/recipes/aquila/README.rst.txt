@@ -8,6 +8,7 @@ aquila
 
 .. conda:recipe:: aquila
    :replaces_section_title:
+   :noindex:
 
    Diploid personal genome assembly and comprehensive variant detection based on linked\-reads
 
@@ -22,12 +23,19 @@ aquila
 
    |downloads_aquila| |docker_aquila|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
    :depends minimap2: 
    :depends numpy: 
-   :depends pysam: >=0.15.2
-   :depends python: >=3
+   :depends pysam: ``>=0.15.2``
+   :depends python: ``>=3``
    :depends samtools: 
    :depends scipy: 
    :requirements:

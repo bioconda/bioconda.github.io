@@ -8,6 +8,7 @@ xtermcolor
 
 .. conda:recipe:: xtermcolor
    :replaces_section_title:
+   :noindex:
 
    Python library for terminal color support \(including 256\-color support
 
@@ -22,7 +23,14 @@ xtermcolor
 
    |downloads_xtermcolor| |docker_xtermcolor|
 
-   :versions: 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-1``,  ``1.3-0``
+
+      
+
    
    :depends python: 
    :requirements:

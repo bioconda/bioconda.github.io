@@ -8,6 +8,7 @@ bioconductor-seqcna.annot
 
 .. conda:recipe:: bioconductor-seqcna.annot
    :replaces_section_title:
+   :noindex:
 
    Annotation for the copy number analysis of deep sequencing cancer data with seqCNA
 
@@ -22,10 +23,17 @@ bioconductor-seqcna.annot
 
    |downloads_bioconductor-seqcna.annot| |docker_bioconductor-seqcna.annot|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-2, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

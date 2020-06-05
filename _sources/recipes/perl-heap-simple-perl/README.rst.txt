@@ -8,6 +8,7 @@ perl-heap-simple-perl
 
 .. conda:recipe:: perl-heap-simple-perl
    :replaces_section_title:
+   :noindex:
 
    A pure perl implementation of the Heap\:\:Simple interface
 
@@ -22,9 +23,16 @@ perl-heap-simple-perl
 
    |downloads_perl-heap-simple-perl| |docker_perl-heap-simple-perl|
 
-   :versions: 0.14-1, 0.14-0
+   :versions:
+      
+      
+
+      ``0.14-1``,  ``0.14-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ primedrpa
 
 .. conda:recipe:: primedrpa
    :replaces_section_title:
+   :noindex:
 
    RPA primer \& probe design tool.
 
@@ -22,12 +23,19 @@ primedrpa
 
    |downloads_primedrpa| |docker_primedrpa|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
    :depends blast: 
    :depends clustalo: 
    :depends pandas: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends samtools: 
    :requirements:
 

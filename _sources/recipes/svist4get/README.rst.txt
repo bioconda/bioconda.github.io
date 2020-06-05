@@ -8,6 +8,7 @@ svist4get
 
 .. conda:recipe:: svist4get
    :replaces_section_title:
+   :noindex:
 
    A simple visualization tool for genomic tracks from sequencing experiments
 
@@ -22,12 +23,27 @@ svist4get
 
    |downloads_svist4get| |docker_svist4get|
 
-   :versions: 1.2.22-0, 1.2.21-0, 1.2.20-0, 1.2.19-0, 1.2.18-0, 1.2.17.1-0, 1.2.16-0, 1.2.15-0, 1.2.14-1, 1.2.14-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.23-0</code>,  <code>1.2.22-0</code>,  <code>1.2.21-0</code>,  <code>1.2.20-0</code>,  <code>1.2.19-0</code>,  <code>1.2.18-0</code>,  <code>1.2.17.1-0</code>,  <code>1.2.16-0</code>,  <code>1.2.15-0</code>,  </span></summary>
+      
+
+      ``1.2.23-0``,  ``1.2.22-0``,  ``1.2.21-0``,  ``1.2.20-0``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.17.1-0``,  ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-1``,  ``1.2.14-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends configs: 
    :depends pybedtools: 
-   :depends python: >=3.4
+   :depends python: ``>=3.4``
    :depends reportlab: 
    :depends wand: 
    :requirements:

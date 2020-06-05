@@ -8,6 +8,7 @@ fermi
 
 .. conda:recipe:: fermi
    :replaces_section_title:
+   :noindex:
 
    A WGS de novo assembler based on the FMD\-index for large genomes
 
@@ -22,11 +23,18 @@ fermi
 
    |downloads_fermi| |docker_fermi|
 
-   :versions: 1.1_r751_beta-3, 1.1_r751_beta-2, 1.1_r751_beta-1, 1.1_r751_beta-0
+   :versions:
+      
+      
+
+      ``1.1_r751_beta-3``,  ``1.1_r751_beta-2``,  ``1.1_r751_beta-1``,  ``1.1_r751_beta-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends perl: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

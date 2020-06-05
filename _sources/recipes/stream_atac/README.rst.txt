@@ -8,6 +8,7 @@ stream_atac
 
 .. conda:recipe:: stream_atac
    :replaces_section_title:
+   :noindex:
 
    STREAM\-Single\-cell Trajectories Reconstruction\, Exploration And Mapping of single\-cell data. Preprocessing steps for single cell atac\-seq data.
 
@@ -22,20 +23,35 @@ stream_atac
 
    |downloads_stream_atac| |docker_stream_atac|
 
-   :versions: 0.3.5-4, 0.3.5-3, 0.3.5-2, 0.3.5-1, 0.3.5-0, 0.3.4-2, 0.3.4-1, 0.3.4-0, 0.3.3-0, 0.3.3a-0, 0.3.2-0, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.0-1, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.3.5-4</code>,  <code>0.3.5-3</code>,  <code>0.3.5-2</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+      
+
+      ``0.3.5-4``,  ``0.3.5-3``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.3a-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends anndata: 
    :depends bioconductor-chromvar: 
    :depends conda: 
-   :depends libcxx: >=9.0.1
-   :depends libgfortran: >=4.0.0,<5.0.0.a0
-   :depends openssl: >=1.1.1g,<1.1.2a
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libcxx: ``>=9.0.1``
+   :depends libgfortran: ``>=4.0.0,<5.0.0.a0``
+   :depends openssl: ``>=1.1.1g,<1.1.2a``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends r-essentials: 
    :depends r-optparse: 
-   :depends rpy2: 2.9.*
+   :depends rpy2: ``2.9.*``
    :depends scikit-learn: 
    :depends unzip: 
    :depends wget: 

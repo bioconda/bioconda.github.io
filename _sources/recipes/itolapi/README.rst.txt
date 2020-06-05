@@ -8,6 +8,7 @@ itolapi
 
 .. conda:recipe:: itolapi
    :replaces_section_title:
+   :noindex:
 
    API for interacting with itol.embl.de
 
@@ -22,10 +23,17 @@ itolapi
 
    |downloads_itolapi| |docker_itolapi|
 
-   :versions: 4.0.0-0
+   :versions:
+      
+      
+
+      ``4.0.0-0``
+
+      
+
    
-   :depends python: >=3.6
-   :depends requests: >=2.0,<3.0
+   :depends python: ``>=3.6``
+   :depends requests: ``>=2.0,<3.0``
    :requirements:
 
    .. rubric:: Installation

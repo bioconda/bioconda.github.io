@@ -8,6 +8,7 @@ trackhub
 
 .. conda:recipe:: trackhub
    :replaces_section_title:
+   :noindex:
 
    Create and manage UCSC track hubs from Python
 
@@ -22,7 +23,14 @@ trackhub
 
    |downloads_trackhub| |docker_trackhub|
 
-   :versions: 0.2.4-1, 0.2.4-0, 0.1.3-0, 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.2.4-1``,  ``0.2.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+
+      
+
    
    :depends docutils: 
    :depends python: 

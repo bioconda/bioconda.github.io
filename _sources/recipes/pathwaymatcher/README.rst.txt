@@ -8,6 +8,7 @@ pathwaymatcher
 
 .. conda:recipe:: pathwaymatcher
    :replaces_section_title:
+   :noindex:
 
    PathwayMatcher is a software tool writen in Java to search for pathways related to a list of proteins in Reactome.
 
@@ -23,9 +24,16 @@ pathwaymatcher
 
    |downloads_pathwaymatcher| |docker_pathwaymatcher|
 
-   :versions: 1.9.1-2, 1.9.1-1, 1.8.1-2, 1.8.1-1, 1.8-1, 1.7-0
+   :versions:
+      
+      
+
+      ``1.9.1-2``,  ``1.9.1-1``,  ``1.8.1-2``,  ``1.8.1-1``,  ``1.8-1``,  ``1.7-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

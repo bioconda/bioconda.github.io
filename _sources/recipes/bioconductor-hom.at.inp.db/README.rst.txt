@@ -8,6 +8,7 @@ bioconductor-hom.at.inp.db
 
 .. conda:recipe:: bioconductor-hom.at.inp.db
    :replaces_section_title:
+   :noindex:
 
    Homology information for Arabidopsis thaliana from Inparanoid
 
@@ -22,11 +23,18 @@ bioconductor-hom.at.inp.db
 
    |downloads_bioconductor-hom.at.inp.db| |docker_bioconductor-hom.at.inp.db|
 
-   :versions: 3.1.3-0, 3.1.2-3, 3.1.2-2, 3.1.2-0
+   :versions:
+      
+      
+
+      ``3.1.3-0``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

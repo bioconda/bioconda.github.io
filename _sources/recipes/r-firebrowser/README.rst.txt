@@ -8,6 +8,7 @@ r-firebrowser
 
 .. conda:recipe:: r-firebrowser
    :replaces_section_title:
+   :noindex:
 
    An R client for broads firehose pipeline\, providing TCGA data sets.
 
@@ -22,9 +23,16 @@ r-firebrowser
 
    |downloads_r-firebrowser| |docker_r-firebrowser|
 
-   :versions: 1.1.35-1, 1.1.35-0
+   :versions:
+      
+      
+
+      ``1.1.35-1``,  ``1.1.35-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

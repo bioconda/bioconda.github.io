@@ -8,6 +8,7 @@ bwread
 
 .. conda:recipe:: bwread
    :replaces_section_title:
+   :noindex:
 
    Read bigwig files quickly into PyRanges or DataFrames
 
@@ -22,16 +23,23 @@ bwread
 
    |downloads_bwread| |docker_bwread|
 
-   :versions: 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
    :depends pybigwig: 
    :depends pyranges: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends setuptools: 
    :requirements:
 

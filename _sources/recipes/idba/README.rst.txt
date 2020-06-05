@@ -8,6 +8,7 @@ idba
 
 .. conda:recipe:: idba
    :replaces_section_title:
+   :noindex:
 
    IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinformatics.
 
@@ -23,7 +24,14 @@ idba
 
    |downloads_idba| |docker_idba|
 
-   :versions: 1.1.3-1, 1.1.3-0, 1.1.1-2, 1.1.1-1
+   :versions:
+      
+      
+
+      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-2``,  ``1.1.1-1``
+
+      
+
    
    :depends libgcc: 
    :requirements:

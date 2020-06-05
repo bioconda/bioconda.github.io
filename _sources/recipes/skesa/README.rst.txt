@@ -8,6 +8,7 @@ skesa
 
 .. conda:recipe:: skesa
    :replaces_section_title:
+   :noindex:
 
    Strategic Kmer Extension for Scrupulous Assemblies
 
@@ -22,12 +23,19 @@ skesa
 
    |downloads_skesa| |docker_skesa|
 
-   :versions: 2.3.0-2, 2.3.0-1, 2.3.0-0, 2.2-2, 2.2-1, 2.1-0
+   :versions:
+      
+      
+
+      ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2-2``,  ``2.2-1``,  ``2.1-0``
+
+      
+
    
-   :depends boost: >=1.70.0,<1.70.1.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends boost: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

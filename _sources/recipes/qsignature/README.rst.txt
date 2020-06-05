@@ -8,6 +8,7 @@ qsignature
 
 .. conda:recipe:: qsignature
    :replaces_section_title:
+   :noindex:
 
    qsignature is a simple and highly effective method for detecting potential sample mix\-ups using distance measurements between SNP
 
@@ -22,7 +23,14 @@ qsignature
 
    |downloads_qsignature| |docker_qsignature|
 
-   :versions: 0.1pre-4, 0.1pre-3, 0.1pre-2, 0.1pre-1, 0.1pre-0
+   :versions:
+      
+      
+
+      ``0.1pre-4``,  ``0.1pre-3``,  ``0.1pre-2``,  ``0.1pre-1``,  ``0.1pre-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

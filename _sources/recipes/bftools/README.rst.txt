@@ -8,6 +8,7 @@ bftools
 
 .. conda:recipe:: bftools
    :replaces_section_title:
+   :noindex:
 
    Bio\-Formats Command line tools
 
@@ -22,9 +23,16 @@ bftools
 
    |downloads_bftools| |docker_bftools|
 
-   :versions: 5.7.1-0
+   :versions:
+      
+      
+
+      ``5.7.1-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

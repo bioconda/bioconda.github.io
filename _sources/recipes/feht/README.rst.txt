@@ -8,6 +8,7 @@ feht
 
 .. conda:recipe:: feht
    :replaces_section_title:
+   :noindex:
 
    A commandline program to automatically identify markers predictive of groups. Can be used with binary data\, genomic \(single nucleotide variant\) data\, or arbitrary character data.
 
@@ -22,7 +23,14 @@ feht
 
    |downloads_feht| |docker_feht|
 
-   :versions: 1.1.0-1, 1.1.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``
+
+      
+
    
    :requirements:
 

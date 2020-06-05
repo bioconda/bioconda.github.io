@@ -8,6 +8,7 @@ picard-slim
 
 .. conda:recipe:: picard-slim
    :replaces_section_title:
+   :noindex:
 
    Java tools for working with NGS data in the BAM format.
 
@@ -23,9 +24,24 @@ picard-slim
 
    |downloads_picard-slim| |docker_picard-slim|
 
-   :versions: 2.22.9-0, 2.22.8-0, 2.22.7-0, 2.22.6-0, 2.22.5-0, 2.22.4-0, 2.22.3-0, 2.22.2-0, 2.22.1-0, 2.22.0-0, 2.21.9-0, 2.21.8-0, 2.21.7-0, 2.21.6-0, 2.21.5-0, 2.21.4-0, 2.21.3-0, 2.21.2-0, 2.21.1-0, 2.20.8-0, 2.20.7-0, 2.20.6-0, 2.20.5-0, 2.20.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.22.9-0</code>,  <code>2.22.8-0</code>,  <code>2.22.7-0</code>,  <code>2.22.6-0</code>,  <code>2.22.5-0</code>,  <code>2.22.4-0</code>,  <code>2.22.3-0</code>,  <code>2.22.2-0</code>,  <code>2.22.1-0</code>,  </span></summary>
+      
+
+      ``2.22.9-0``,  ``2.22.8-0``,  ``2.22.7-0``,  ``2.22.6-0``,  ``2.22.5-0``,  ``2.22.4-0``,  ``2.22.3-0``,  ``2.22.2-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.21.9-0``,  ``2.21.8-0``,  ``2.21.7-0``,  ``2.21.6-0``,  ``2.21.5-0``,  ``2.21.4-0``,  ``2.21.3-0``,  ``2.21.2-0``,  ``2.21.1-0``,  ``2.20.8-0``,  ``2.20.7-0``,  ``2.20.6-0``,  ``2.20.5-0``,  ``2.20.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

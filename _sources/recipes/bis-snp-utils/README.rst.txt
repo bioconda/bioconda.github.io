@@ -8,6 +8,7 @@ bis-snp-utils
 
 .. conda:recipe:: bis-snp-utils
    :replaces_section_title:
+   :noindex:
 
    bis\-snp\-utils are support tools for Bis\-SNP
 
@@ -22,7 +23,14 @@ bis-snp-utils
 
    |downloads_bis-snp-utils| |docker_bis-snp-utils|
 
-   :versions: 0.0.1-3, 0.0.1-2, 0.0.1-1, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+
+      
+
    
    :depends perl: 
    :depends perl-getopt-long: 

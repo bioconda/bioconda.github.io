@@ -8,6 +8,7 @@ bcool
 
 .. conda:recipe:: bcool
    :replaces_section_title:
+   :noindex:
 
    BCOOL is a read corrector for NGS sequencing data that align reads on a de Bruijn graph. Version described at \(https\:\/\/arxiv.org\/abs\/1711.03336\) presented at RECOMB\-seq 2018
 
@@ -22,13 +23,20 @@ bcool
 
    |downloads_bcool| |docker_bcool|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
    :depends bcalm: 
    :depends bgreat: 
    :depends btrim: 
    :depends ntcard: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

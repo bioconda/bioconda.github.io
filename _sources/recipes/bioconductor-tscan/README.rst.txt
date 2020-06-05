@@ -8,6 +8,7 @@ bioconductor-tscan
 
 .. conda:recipe:: bioconductor-tscan
    :replaces_section_title:
+   :noindex:
 
    TSCAN\: Tools for Single\-Cell ANalysis
 
@@ -23,9 +24,16 @@ bioconductor-tscan
 
    |downloads_bioconductor-tscan| |docker_bioconductor-tscan|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-combinat: 
    :depends r-fastica: 
    :depends r-ggplot2: 

@@ -8,6 +8,7 @@ bioconductor-sights
 
 .. conda:recipe:: bioconductor-sights
    :replaces_section_title:
+   :noindex:
 
    Statistics and dIagnostic Graphs for HTS
 
@@ -23,14 +24,21 @@ bioconductor-sights
 
    |downloads_bioconductor-sights| |docker_bioconductor-sights|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.1-0, 1.8.0-0, 1.6.0-0, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-ggplot2: >=2.0
-   :depends r-lattice: >=0.2
-   :depends r-mass: >=7.3
-   :depends r-reshape2: >=1.4
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ggplot2: ``>=2.0``
+   :depends r-lattice: ``>=0.2``
+   :depends r-mass: ``>=7.3``
+   :depends r-reshape2: ``>=1.4``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-hicdatahumanimr90
 
 .. conda:recipe:: bioconductor-hicdatahumanimr90
    :replaces_section_title:
+   :noindex:
 
    Human IMR90 Fibroblast HiC data from Dixon et al. 2012
 
@@ -22,10 +23,17 @@ bioconductor-hicdatahumanimr90
 
    |downloads_bioconductor-hicdatahumanimr90| |docker_bioconductor-hicdatahumanimr90|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

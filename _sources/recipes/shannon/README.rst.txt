@@ -8,6 +8,7 @@ shannon
 
 .. conda:recipe:: shannon
    :replaces_section_title:
+   :noindex:
 
    A program for assembling transcripts from RNA\-Seq data.
 
@@ -23,14 +24,21 @@ shannon
 
    |downloads_shannon| |docker_shannon|
 
-   :versions: 0.0.2-1, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.2-1``,  ``0.0.2-0``
+
+      
+
    
    :depends cvxopt: 
    :depends kmer-jellyfish: 
    :depends metis: 
    :depends numpy: 
    :depends parallel: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends quorum: 
    :requirements:
 

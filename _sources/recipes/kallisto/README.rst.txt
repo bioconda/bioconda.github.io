@@ -8,6 +8,7 @@ kallisto
 
 .. conda:recipe:: kallisto
    :replaces_section_title:
+   :noindex:
 
    Quantifying abundances of transcripts from RNA\-Seq data\, or more generally of target sequences using high\-throughput sequencing reads.
 
@@ -23,12 +24,27 @@ kallisto
 
    |downloads_kallisto| |docker_kallisto|
 
-   :versions: 0.46.2-1, 0.46.2-0, 0.46.1-0, 0.46.0-1, 0.46.0-0, 0.45.1-0, 0.45.0-0, 0.44.0-2, 0.44.0-1, 0.43.1-1, 0.43.1-0, 0.43.0-2, 0.43.0-1, 0.42.4-2, 0.42.4-1, 0.42.3-1, 0.42.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.46.2-1</code>,  <code>0.46.2-0</code>,  <code>0.46.1-0</code>,  <code>0.46.0-1</code>,  <code>0.46.0-0</code>,  <code>0.45.1-0</code>,  <code>0.45.0-0</code>,  <code>0.44.0-2</code>,  <code>0.44.0-1</code>,  </span></summary>
+      
+
+      ``0.46.2-1``,  ``0.46.2-0``,  ``0.46.1-0``,  ``0.46.0-1``,  ``0.46.0-0``,  ``0.45.1-0``,  ``0.45.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.43.1-1``,  ``0.43.1-0``,  ``0.43.0-2``,  ``0.43.0-1``,  ``0.42.4-2``,  ``0.42.4-1``,  ``0.42.3-1``,  ``0.42.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends hdf5: >=1.10.5,<1.10.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

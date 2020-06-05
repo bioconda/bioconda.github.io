@@ -8,6 +8,7 @@ fasten
 
 .. conda:recipe:: fasten
    :replaces_section_title:
+   :noindex:
 
    Perform random operations on fastq files\, using unix streaming. Secure your analysis with Fasten\!
 
@@ -22,7 +23,14 @@ fasten
 
    |downloads_fasten| |docker_fasten|
 
-   :versions: 0.1.13-0
+   :versions:
+      
+      
+
+      ``0.1.13-0``
+
+      
+
    
    :requirements:
 

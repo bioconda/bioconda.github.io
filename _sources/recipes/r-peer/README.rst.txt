@@ -8,6 +8,7 @@ r-peer
 
 .. conda:recipe:: r-peer
    :replaces_section_title:
+   :noindex:
 
    PEER is a collection of Bayesian approaches to infer hidden determinants and their effects from gene expression profiles using factor analysis methods. Applications of PEER have \(i\) detected batch effects and experimental confounders \(ii\) increased the number of expression QTL findings by threefold and \(iii\) allowed inference of intermediate cellular traits\, such as transcription factor or pathway activations. This project offers an efficient and versatile C\+\+ implementation of the underlying algorithms with user\-friendly interfaces to R and python. 
 
@@ -22,10 +23,17 @@ r-peer
 
    |downloads_r-peer| |docker_r-peer|
 
-   :versions: 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-1``,  ``1.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends r-base: ``>=3.4.1,<3.4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

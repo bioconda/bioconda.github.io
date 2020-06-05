@@ -8,6 +8,7 @@ bioconductor-hireewas
 
 .. conda:recipe:: bioconductor-hireewas
    :replaces_section_title:
+   :noindex:
 
    Detection of cell\-type\-specific risk\-CpG sites in epigenome\-wide association studies
 
@@ -22,12 +23,19 @@ bioconductor-hireewas
 
    |downloads_bioconductor-hireewas| |docker_bioconductor-hireewas|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends r-quadprog: 
    :requirements:

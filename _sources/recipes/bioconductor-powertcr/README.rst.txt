@@ -8,6 +8,7 @@ bioconductor-powertcr
 
 .. conda:recipe:: bioconductor-powertcr
    :replaces_section_title:
+   :noindex:
 
    Model\-Based Comparative Analysis of the TCR Repertoire
 
@@ -22,9 +23,16 @@ bioconductor-powertcr
 
    |downloads_bioconductor-powertcr| |docker_bioconductor-powertcr|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cubature: 
    :depends r-doparallel: 
    :depends r-evmix: 

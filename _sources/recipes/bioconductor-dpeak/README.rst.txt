@@ -8,6 +8,7 @@ bioconductor-dpeak
 
 .. conda:recipe:: bioconductor-dpeak
    :replaces_section_title:
+   :noindex:
 
    dPeak \(Deconvolution of Peaks in ChIP\-seq Analysis\)
 
@@ -22,15 +23,22 @@ bioconductor-dpeak
 
    |downloads_bioconductor-dpeak| |docker_bioconductor-dpeak|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :depends r-rcpp: 
    :requirements:

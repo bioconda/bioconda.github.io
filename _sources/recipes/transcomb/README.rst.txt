@@ -8,6 +8,7 @@ transcomb
 
 .. conda:recipe:: transcomb
    :replaces_section_title:
+   :noindex:
 
    A sparse k\-mer graph based\, memory\-efficient genome assembler
 
@@ -22,11 +23,18 @@ transcomb
 
    |downloads_transcomb| |docker_transcomb|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends bamtools: 
-   :depends boost: 1.60*
-   :depends icu: ==56.1
+   :depends boost: ``1.60*``
+   :depends icu: ``==56.1``
    :depends libgcc: 
    :depends samtools: 
    :depends zlib: 

@@ -8,6 +8,7 @@ cvbio
 
 .. conda:recipe:: cvbio
    :replaces_section_title:
+   :noindex:
 
    Tools for working with genomic and sequencing data\, including multi\-species read disambiguation
 
@@ -22,9 +23,16 @@ cvbio
 
    |downloads_cvbio| |docker_cvbio|
 
-   :versions: 3.0.0-0, 2.1.0-0, 2.0.0-0, 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.2.0-0, 1.1.0-0
+   :versions:
+      
+      
+
+      ``3.0.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

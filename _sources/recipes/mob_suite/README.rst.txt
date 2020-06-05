@@ -8,6 +8,7 @@ mob_suite
 
 .. conda:recipe:: mob_suite
    :replaces_section_title:
+   :noindex:
 
    This package MOB\-suite\: software tools for clustering\, reconstruction and typing of plasmids from draft assemblies. The MOB\-suite is designed to be a modular set of tools for the typing and reconstruction of plasmid sequences from WGS assemblies.
 
@@ -22,20 +23,35 @@ mob_suite
 
    |downloads_mob_suite| |docker_mob_suite|
 
-   :versions: 3.0.0-0, 2.1.0-0, 2.0.5-0, 2.0.2-1, 2.0.2-0, 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.4.9.1-0, 1.4.9-1, 1.4.9-0, 1.4.8-0, 1.4.6-1, 1.4.5-1, 1.4.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.5-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.4.9.1-0</code>,  </span></summary>
+      
+
+      ``3.0.0-0``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.9.1-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.6-1``,  ``1.4.5-1``,  ``1.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends amos: 
-   :depends biopython: >=1.70
+   :depends biopython: ``>=1.70``
    :depends blast: 
    :depends circlator: 
-   :depends ete3: >=3.0
+   :depends ete3: ``>=3.0``
    :depends mash: 
-   :depends numpy: >=1.11.1
-   :depends pandas: >=0.22.0
-   :depends pycurl: >=7.43
-   :depends pytables: >=3.3
-   :depends python: >=3.6
-   :depends scipy: >=1.1
+   :depends numpy: ``>=1.11.1``
+   :depends pandas: ``>=0.22.0``
+   :depends pycurl: ``>=7.43``
+   :depends pytables: ``>=3.3``
+   :depends python: ``>=3.6``
+   :depends scipy: ``>=1.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ hotspot3d
 
 .. conda:recipe:: hotspot3d
    :replaces_section_title:
+   :noindex:
 
    This 3D proximity tool can be used to identify mutation hotspots from linear protein sequence and correlate the hotspots with known or potentially interacting domains\, mutations\, or drugs. Mutation\-mutation and mutation\-drug clusters can also be identified and viewed.
 
@@ -22,9 +23,16 @@ hotspot3d
 
    |downloads_hotspot3d| |docker_hotspot3d|
 
-   :versions: 1.8.2-1, 1.8.2-0, 0.6.0-0
+   :versions:
+      
+      
+
+      ``1.8.2-1``,  ``1.8.2-0``,  ``0.6.0-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-archive-extract: 
    :depends perl-json: 
    :depends perl-list-moreutils: 

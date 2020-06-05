@@ -8,6 +8,7 @@ bioconductor-cytomapper
 
 .. conda:recipe:: bioconductor-cytomapper
    :replaces_section_title:
+   :noindex:
 
    Visualization of highly multiplexed imaging cytometry data in R
 
@@ -22,13 +23,20 @@ bioconductor-cytomapper
 
    |downloads_bioconductor-cytomapper| |docker_bioconductor-cytomapper|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-raster: 
    :depends r-rcolorbrewer: 
    :depends r-viridis: 

@@ -8,6 +8,7 @@ bioconductor-lowmaca
 
 .. conda:recipe:: bioconductor-lowmaca
    :replaces_section_title:
+   :noindex:
 
    LowMACA \- Low frequency Mutation Analysis via Consensus Alignment
 
@@ -22,14 +23,21 @@ bioconductor-lowmaca
 
    |downloads_bioconductor-lowmaca| |docker_bioconductor-lowmaca|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.1-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-lowmacaannotation: >=0.99.0,<0.100.0
-   :depends bioconductor-motifstack: >=1.32.0,<1.33.0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-lowmacaannotation: ``>=0.99.0,<0.100.0``
+   :depends bioconductor-motifstack: ``>=1.32.0,<1.33.0``
    :depends clustalo: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cgdsr: 
    :depends r-data.table: 
    :depends r-gridbase: 

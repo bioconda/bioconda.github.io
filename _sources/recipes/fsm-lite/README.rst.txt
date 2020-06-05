@@ -8,6 +8,7 @@ fsm-lite
 
 .. conda:recipe:: fsm-lite
    :replaces_section_title:
+   :noindex:
 
    Frequency\-based String Mining \(lite\)
 
@@ -25,10 +26,17 @@ fsm-lite
 
    |downloads_fsm-lite| |docker_fsm-lite|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends sdsl-lite: 
    :requirements:
 

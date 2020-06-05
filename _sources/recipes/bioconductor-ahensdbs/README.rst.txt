@@ -8,6 +8,7 @@ bioconductor-ahensdbs
 
 .. conda:recipe:: bioconductor-ahensdbs
    :replaces_section_title:
+   :noindex:
 
    EnsDbs for AnnotationHub
 
@@ -22,12 +23,19 @@ bioconductor-ahensdbs
 
    |downloads_bioconductor-ahensdbs| |docker_bioconductor-ahensdbs|
 
-   :versions: 1.0.14-0, 1.0.12-0, 1.0.9-1, 1.0.8-0
+   :versions:
+      
+      
+
+      ``1.0.14-0``,  ``1.0.12-0``,  ``1.0.9-1``,  ``1.0.8-0``
+
+      
+
    
-   :depends bioconductor-annotationhubdata: >=1.18.0,<1.19.0
-   :depends bioconductor-ensembldb: >=2.12.0,<2.13.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhubdata: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-ensembldb: ``>=2.12.0,<2.13.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

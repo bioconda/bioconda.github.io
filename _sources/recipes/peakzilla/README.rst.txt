@@ -8,6 +8,7 @@ peakzilla
 
 .. conda:recipe:: peakzilla
    :replaces_section_title:
+   :noindex:
 
    Peakzilla identifies sites of enrichment and transcription factor binding sites from transcription factor ChIP\-seq and ChIP\-exo experiments at hight accuracy and resolution.
 
@@ -23,7 +24,14 @@ peakzilla
 
    |downloads_peakzilla| |docker_peakzilla|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

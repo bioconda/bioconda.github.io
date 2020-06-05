@@ -8,6 +8,7 @@ tabix
 
 .. conda:recipe:: tabix/0.2.5
    :replaces_section_title:
+   :noindex:
 
    A set of tools written in Perl and C\+\+ for working with VCF files.
 
@@ -22,10 +23,17 @@ tabix
 
    |downloads_tabix| |docker_tabix|
 
-   :versions: 0.2.6-0, 0.2.5-2, 0.2.5-1, 0.2.5-0
+   :versions:
+      
+      
+
+      ``0.2.6-0``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

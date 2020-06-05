@@ -8,6 +8,7 @@ rnashapes
 
 .. conda:recipe:: rnashapes/2.1.6
    :replaces_section_title:
+   :noindex:
 
    RNAshape abstraction maps structures to a tree\-like domain of shapes\, retaining adjacency and nesting of structural features\, but disregarding helix lengths. Shape abstraction integrates well with dynamic programming algorithms\, and hence it can be applied during structure prediction rather than afterwards. This avoids exponential explosion and can still give us a non\-heuristic and complete account of properties of the molecule\'s folding space.
 
@@ -22,12 +23,19 @@ rnashapes
 
    |downloads_rnashapes| |docker_rnashapes|
 
-   :versions: 3.3.0-3, 3.3.0-0, 2.1.6-3, 2.1.6-2, 2.1.6-1, 2.1.6-0
+   :versions:
+      
+      
+
+      ``3.3.0-3``,  ``3.3.0-0``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
+
+      
+
    
-   :depends bellmans-gapc: >=2020.01.08
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends bellmans-gapc: ``>=2020.01.08``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

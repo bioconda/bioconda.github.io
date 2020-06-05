@@ -8,6 +8,7 @@ bioconductor-randrotation
 
 .. conda:recipe:: bioconductor-randrotation
    :replaces_section_title:
+   :noindex:
 
    Random Rotation Methods for High Dimensional Data with Batch Structure
 
@@ -22,10 +23,17 @@ bioconductor-randrotation
 
    |downloads_bioconductor-randrotation| |docker_bioconductor-randrotation|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-rdpack: >=0.7
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-rdpack: ``>=0.7``
    :requirements:
 
    .. rubric:: Installation

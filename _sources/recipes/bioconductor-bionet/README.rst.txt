@@ -8,6 +8,7 @@ bioconductor-bionet
 
 .. conda:recipe:: bioconductor-bionet
    :replaces_section_title:
+   :noindex:
 
    Routines for the functional analysis of biological networks
 
@@ -23,14 +24,21 @@ bioconductor-bionet
 
    |downloads_bioconductor-bionet| |docker_bioconductor-bionet|
 
-   :versions: 1.47.0-0, 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions:
+      
+      
+
+      ``1.47.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-igraph: >=1.0.1
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rbgl: ``>=1.64.0,<1.65.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-igraph: ``>=1.0.1``
    :requirements:
 
    .. rubric:: Installation

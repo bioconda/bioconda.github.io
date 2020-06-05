@@ -8,6 +8,7 @@ bioconductor-sigfeature
 
 .. conda:recipe:: bioconductor-sigfeature
    :replaces_section_title:
+   :noindex:
 
    sigFeature\: Significant feature selection using SVM\-RFE \& t\-statistic
 
@@ -22,12 +23,19 @@ bioconductor-sigfeature
 
    |downloads_bioconductor-sigfeature| |docker_bioconductor-sigfeature|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biocviews: >=1.56.0,<1.57.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocviews: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 
    :depends r-matrix: 
    :depends r-nlme: 

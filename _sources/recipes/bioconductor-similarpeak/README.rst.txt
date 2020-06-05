@@ -8,6 +8,7 @@ bioconductor-similarpeak
 
 .. conda:recipe:: bioconductor-similarpeak
    :replaces_section_title:
+   :noindex:
 
    Metrics to estimate a level of similarity between two ChIP\-Seq profiles
 
@@ -23,10 +24,17 @@ bioconductor-similarpeak
 
    |downloads_bioconductor-similarpeak| |docker_bioconductor-similarpeak|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-r6: >=2.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-r6: ``>=2.0``
    :requirements:
 
    .. rubric:: Installation

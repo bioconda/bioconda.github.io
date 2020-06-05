@@ -8,6 +8,7 @@ cansnper2
 
 .. conda:recipe:: cansnper2
    :replaces_section_title:
+   :noindex:
 
    A toolkit for SNP\-typing bacterial genomes.
 
@@ -22,12 +23,19 @@ cansnper2
 
    |downloads_cansnper2| |docker_cansnper2|
 
-   :versions: 2.0.6-0
+   :versions:
+      
+      
+
+      ``2.0.6-0``
+
+      
+
    
    :depends ete3: 
-   :depends flextaxd: >=0.2.1
+   :depends flextaxd: ``>=0.2.1``
    :depends progressivemauve: 
-   :depends python: >3
+   :depends python: ``>3``
    :requirements:
 
    .. rubric:: Installation

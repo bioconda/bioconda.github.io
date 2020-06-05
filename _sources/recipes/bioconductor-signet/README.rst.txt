@@ -8,6 +8,7 @@ bioconductor-signet
 
 .. conda:recipe:: bioconductor-signet
    :replaces_section_title:
+   :noindex:
 
    signet\: Selection Inference in Gene NETworks
 
@@ -22,11 +23,18 @@ bioconductor-signet
 
    |downloads_bioconductor-signet| |docker_bioconductor-signet|
 
-   :versions: 1.7.0-0, 1.6.0-0, 1.4.0-1, 1.2.2-0
+   :versions:
+      
+      
+
+      ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.2-0``
+
+      
+
    
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rbgl: ``>=1.64.0,<1.65.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :requirements:
 

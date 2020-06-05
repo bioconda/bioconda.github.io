@@ -8,6 +8,7 @@ pgx-pipe-helper
 
 .. conda:recipe:: pgx-pipe-helper
    :replaces_section_title:
+   :noindex:
 
    A helper module for wrapping functionality which is common to all pipeline stages.
 
@@ -22,7 +23,14 @@ pgx-pipe-helper
 
    |downloads_pgx-pipe-helper| |docker_pgx-pipe-helper|
 
-   :versions: 0.0.4-0
+   :versions:
+      
+      
+
+      ``0.0.4-0``
+
+      
+
    
    :depends locus_processing: 
    :depends python: 

@@ -8,6 +8,7 @@ fann
 
 .. conda:recipe:: fann
    :replaces_section_title:
+   :noindex:
 
    Fast Artificial Neural Network Library
 
@@ -22,9 +23,16 @@ fann
 
    |downloads_fann| |docker_fann|
 
-   :versions: 2.2.0-1, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.2.0-1``,  ``2.2.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

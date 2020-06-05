@@ -8,6 +8,7 @@ bioconductor-metaseqr2
 
 .. conda:recipe:: bioconductor-metaseqr2
    :replaces_section_title:
+   :noindex:
 
    An R package for the analysis and result reporting of RNA\-Seq data by combining multiple statistical algorithms
 
@@ -22,34 +23,41 @@ bioconductor-metaseqr2
 
    |downloads_bioconductor-metaseqr2| |docker_bioconductor-metaseqr2|
 
-   :versions: 1.0.11-0
+   :versions:
+      
+      
+
+      ``1.0.11-0``
+
+      
+
    
-   :depends bioconductor-absseq: >=1.42.0,<1.43.0
-   :depends bioconductor-bayseq: >=2.22.0,<2.23.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-deseq: >=1.39.0,<1.40.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-dss: >=2.36.0,<2.37.0
-   :depends bioconductor-edaseq: >=2.22.0,<2.23.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-noiseq: >=2.31.0,<2.32.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-survcomp: >=1.38.0,<1.39.0
-   :depends bioconductor-vsn: >=3.56.0,<3.57.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-absseq: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-bayseq: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-deseq: ``>=1.39.0,<1.40.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-dss: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-edaseq: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicalignments: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-noiseq: ``>=2.31.0,<2.32.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-survcomp: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 
    :depends r-dt: 
    :depends r-gplots: 

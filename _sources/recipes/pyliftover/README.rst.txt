@@ -8,6 +8,7 @@ pyliftover
 
 .. conda:recipe:: pyliftover
    :replaces_section_title:
+   :noindex:
 
    Pure\-python implementation of UCSC \`\`liftOver\`\` genome coordinate conversion.
 
@@ -22,7 +23,14 @@ pyliftover
 
    |downloads_pyliftover| |docker_pyliftover|
 
-   :versions: 0.4-0, 0.3-2, 0.3-0
+   :versions:
+      
+      
+
+      ``0.4-0``,  ``0.3-2``,  ``0.3-0``
+
+      
+
    
    :depends python: 
    :requirements:

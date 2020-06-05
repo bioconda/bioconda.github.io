@@ -8,6 +8,7 @@ famsa
 
 .. conda:recipe:: famsa
    :replaces_section_title:
+   :noindex:
 
    Algorithm for large\-scale multiple sequence alignments
 
@@ -22,10 +23,17 @@ famsa
 
    |downloads_famsa| |docker_famsa|
 
-   :versions: 1.5.12-0, 1.3.2-0, 1.2.5-0
+   :versions:
+      
+      
+
+      ``1.5.12-0``,  ``1.3.2-0``,  ``1.2.5-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

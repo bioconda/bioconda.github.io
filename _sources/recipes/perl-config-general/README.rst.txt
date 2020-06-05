@@ -8,6 +8,7 @@ perl-config-general
 
 .. conda:recipe:: perl-config-general
    :replaces_section_title:
+   :noindex:
 
    Generic Config Module
 
@@ -22,9 +23,16 @@ perl-config-general
 
    |downloads_perl-config-general| |docker_perl-config-general|
 
-   :versions: 2.63-0, 2.61-1, 2.61-0
+   :versions:
+      
+      
+
+      ``2.63-0``,  ``2.61-1``,  ``2.61-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-pathtools: 
    :requirements:
 

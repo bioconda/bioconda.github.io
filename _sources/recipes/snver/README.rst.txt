@@ -8,6 +8,7 @@ snver
 
 .. conda:recipe:: snver
    :replaces_section_title:
+   :noindex:
 
    SNVer is a statistical tool for calling common and rare variants in analysis of pool or individual next\-generation sequencing data.
    It reports one single overall p\-value for evaluating the significance of a candidate locus being a variant\, based on which multiplicity control can be obtained.
@@ -26,9 +27,16 @@ snver
 
    |downloads_snver| |docker_snver|
 
-   :versions: 0.5.3-0
+   :versions:
+      
+      
+
+      ``0.5.3-0``
+
+      
+
    
-   :depends openjdk: >=6
+   :depends openjdk: ``>=6``
    :depends python: 
    :requirements:
 

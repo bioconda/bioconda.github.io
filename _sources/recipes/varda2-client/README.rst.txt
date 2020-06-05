@@ -8,6 +8,7 @@ varda2-client
 
 .. conda:recipe:: varda2-client
    :replaces_section_title:
+   :noindex:
 
    A python CLI to Varda2 frequency database server.
 
@@ -22,9 +23,16 @@ varda2-client
 
    |downloads_varda2-client| |docker_varda2-client|
 
-   :versions: 0.8-0, 0.7-0, 0.6-0, 0.5-0, 0.3-0
+   :versions:
+      
+      
+
+      ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.3-0``
+
+      
+
    
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends requests: 
    :requirements:
 

@@ -8,6 +8,7 @@ fqzcomp
 
 .. conda:recipe:: fqzcomp
    :replaces_section_title:
+   :noindex:
 
    Fqzcomp is a basic fastq compressor\, designed primarily for high performance.
 
@@ -22,10 +23,17 @@ fqzcomp
 
    |downloads_fqzcomp| |docker_fqzcomp|
 
-   :versions: 4.6-0
+   :versions:
+      
+      
+
+      ``4.6-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

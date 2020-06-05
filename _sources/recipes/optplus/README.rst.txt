@@ -8,6 +8,7 @@ optplus
 
 .. conda:recipe:: optplus
    :replaces_section_title:
+   :noindex:
 
    additional options for optparse
 
@@ -22,7 +23,14 @@ optplus
 
    |downloads_optplus| |docker_optplus|
 
-   :versions: 0.2-0, 0.1.1-2, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.2-0``,  ``0.1.1-2``,  ``0.1.1-0``
+
+      
+
    
    :depends python: 
    :depends six: 

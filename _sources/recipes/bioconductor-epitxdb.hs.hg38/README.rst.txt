@@ -8,6 +8,7 @@ bioconductor-epitxdb.hs.hg38
 
 .. conda:recipe:: bioconductor-epitxdb.hs.hg38
    :replaces_section_title:
+   :noindex:
 
    Annotation package for EpiTxDb objects
 
@@ -22,12 +23,19 @@ bioconductor-epitxdb.hs.hg38
 
    |downloads_bioconductor-epitxdb.hs.hg38| |docker_bioconductor-epitxdb.hs.hg38|
 
-   :versions: 0.99.3-0
+   :versions:
+      
+      
+
+      ``0.99.3-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-epitxdb: >=1.0.0,<1.1.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-epitxdb: ``>=1.0.0,<1.1.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

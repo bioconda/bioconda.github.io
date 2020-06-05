@@ -8,6 +8,7 @@ bioconductor-pathwaysplice
 
 .. conda:recipe:: bioconductor-pathwaysplice
    :replaces_section_title:
+   :noindex:
 
    An R Package for Unbiased Splicing Pathway Analysis
 
@@ -22,25 +23,32 @@ bioconductor-pathwaysplice
 
    |downloads_bioconductor-pathwaysplice| |docker_bioconductor-pathwaysplice|
 
-   :versions: 1.10.0-1, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-1``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.64.0,<1.65.0
-   :depends bioconductor-annotationdbi: >=1.48.0,<1.49.0
-   :depends bioconductor-annotationhub: >=2.18.0,<2.19.0
-   :depends bioconductor-biobase: >=2.46.0,<2.47.0
-   :depends bioconductor-biocgenerics: >=0.32.0,<0.33.0
-   :depends bioconductor-dose: >=3.12.0,<3.13.0
-   :depends bioconductor-enrichmentbrowser: >=2.16.0,<2.17.0
-   :depends bioconductor-ensembldb: >=2.10.0,<2.11.0
-   :depends bioconductor-genelendatabase: >=1.22.0,<1.23.0
-   :depends bioconductor-go.db: >=3.10.0,<3.11.0
-   :depends bioconductor-goseq: >=1.38.0,<1.39.0
-   :depends bioconductor-junctionseq: >=1.16.0,<1.17.0
-   :depends bioconductor-keggrest: >=1.26.0,<1.27.0
-   :depends bioconductor-org.hs.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-org.mm.eg.db: >=3.10.0,<3.11.0
-   :depends bioconductor-s4vectors: >=0.24.0,<0.25.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-annotate: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationdbi: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-annotationhub: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-biobase: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-biocgenerics: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-dose: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-enrichmentbrowser: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-ensembldb: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-genelendatabase: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-go.db: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-goseq: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-junctionseq: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-keggrest: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-s4vectors: ``>=0.24.0,<0.25.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-biasedurn: 
    :depends r-dplyr: 
    :depends r-gdata: 

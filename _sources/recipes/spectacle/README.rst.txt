@@ -8,6 +8,7 @@ spectacle
 
 .. conda:recipe:: spectacle
    :replaces_section_title:
+   :noindex:
 
    This software implements a spectral learning algorithm for hidden Markov models for epigenomic data. Please see our paper for further details\: Song\, J and Chen\, K. C. Spectacle\: fast chromatin state annotation using spectral learning. Genome Biology\, 16\:33\, 2015. http\:\/\/genomebiology.com\/2015\/16\/1\/33
 
@@ -22,7 +23,14 @@ spectacle
 
    |downloads_spectacle| |docker_spectacle|
 
-   :versions: 1.4-2, 1.4-1, 1.4-0
+   :versions:
+      
+      
+
+      ``1.4-2``,  ``1.4-1``,  ``1.4-0``
+
+      
+
    
    :depends numpy: 
    :depends openjdk: 

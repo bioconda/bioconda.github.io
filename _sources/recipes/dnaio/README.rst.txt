@@ -8,6 +8,7 @@ dnaio
 
 .. conda:recipe:: dnaio
    :replaces_section_title:
+   :noindex:
 
    Read FASTA and FASTQ files efficiently
 
@@ -22,12 +23,19 @@ dnaio
 
    |downloads_dnaio| |docker_dnaio|
 
-   :versions: 0.4.2-0, 0.4.1-0, 0.4-0, 0.3-1, 0.3-0
+   :versions:
+      
+      
+
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends xopen: >=0.8.2
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends xopen: ``>=0.8.2``
    :requirements:
 
    .. rubric:: Installation

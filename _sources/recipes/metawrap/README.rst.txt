@@ -8,6 +8,7 @@ metawrap
 
 .. conda:recipe:: metawrap
    :replaces_section_title:
+   :noindex:
 
    MetaWRAP is a pipeline for genome\-resolved metagenomic data analysis
 
@@ -22,34 +23,41 @@ metawrap
 
    |downloads_metawrap| |docker_metawrap|
 
-   :versions: 1.2-1, 1.2-0, 1.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+
+      
+
    
-   :depends biopython: 1.68.*
-   :depends blas: 2.5.*
-   :depends blast: 2.6.0.*
-   :depends bmtagger: 3.101.*
-   :depends bowtie2: 2.3.5.*
-   :depends bwa: 0.7.17.*
-   :depends checkm-genome: 1.0.12.*
-   :depends concoct: 1.0.0.*
-   :depends fastqc: 0.11.8.*
-   :depends kraken: 1.1.*
-   :depends krona: 2.7.*
-   :depends matplotlib: 2.2.3.*
-   :depends maxbin2: 2.2.6.*
-   :depends megahit: 1.1.3.*
-   :depends metabat2: 2.12.1.*
-   :depends pandas: 0.24.2.*
-   :depends pplacer: 1.1.alpha19.*
-   :depends prokka: 1.13.*
-   :depends quast: 5.0.2.*
-   :depends r-ggplot2: 3.1.0.*
-   :depends r-recommended: 3.5.1.*
-   :depends salmon: 0.13.1.*
-   :depends samtools: 1.9.*
-   :depends seaborn: 0.9.0.*
-   :depends spades: 3.13.0.*
-   :depends trim-galore: 0.5.0.*
+   :depends biopython: ``1.68.*``
+   :depends blas: ``2.5.*``
+   :depends blast: ``2.6.0.*``
+   :depends bmtagger: ``3.101.*``
+   :depends bowtie2: ``2.3.5.*``
+   :depends bwa: ``0.7.17.*``
+   :depends checkm-genome: ``1.0.12.*``
+   :depends concoct: ``1.0.0.*``
+   :depends fastqc: ``0.11.8.*``
+   :depends kraken: ``1.1.*``
+   :depends krona: ``2.7.*``
+   :depends matplotlib: ``2.2.3.*``
+   :depends maxbin2: ``2.2.6.*``
+   :depends megahit: ``1.1.3.*``
+   :depends metabat2: ``2.12.1.*``
+   :depends pandas: ``0.24.2.*``
+   :depends pplacer: ``1.1.alpha19.*``
+   :depends prokka: ``1.13.*``
+   :depends quast: ``5.0.2.*``
+   :depends r-ggplot2: ``3.1.0.*``
+   :depends r-recommended: ``3.5.1.*``
+   :depends salmon: ``0.13.1.*``
+   :depends samtools: ``1.9.*``
+   :depends seaborn: ``0.9.0.*``
+   :depends spades: ``3.13.0.*``
+   :depends trim-galore: ``0.5.0.*``
    :requirements:
 
    .. rubric:: Installation

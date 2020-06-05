@@ -8,6 +8,7 @@ albatradis
 
 .. conda:recipe:: albatradis
    :replaces_section_title:
+   :noindex:
 
    Comparative TraDIS analysis
 
@@ -22,20 +23,27 @@ albatradis
 
    |downloads_albatradis| |docker_albatradis|
 
-   :versions: 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0, 0.0.5-4
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.5-4``
+
+      
+
    
-   :depends biopython: >=1.68
-   :depends biotradis: >=1.4.5 1
+   :depends biopython: ``>=1.68``
+   :depends biotradis: ``>=1.4.5 1``
    :depends cython: 
    :depends dendropy: 
    :depends graphviz: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
    :depends pandas: 
-   :depends pyfastaq: >=3.12.0
-   :depends python: >=3.6,<3.7.0a0
+   :depends pyfastaq: ``>=3.12.0``
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends python-graphviz: 
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
    :depends seaborn: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-anaquin
 
 .. conda:recipe:: bioconductor-anaquin
    :replaces_section_title:
+   :noindex:
 
    Statistical analysis of sequins
 
@@ -22,12 +23,19 @@ bioconductor-anaquin
 
    |downloads_bioconductor-anaquin| |docker_bioconductor-anaquin|
 
-   :versions: 2.12.0-0, 2.10.0-0, 2.8.0-1, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``
+
+      
+
    
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-ggplot2: >=2.2.0
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ggplot2: ``>=2.2.0``
    :depends r-knitr: 
    :depends r-locfit: 
    :depends r-plyr: 

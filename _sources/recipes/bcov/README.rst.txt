@@ -8,6 +8,7 @@ bcov
 
 .. conda:recipe:: bcov
    :replaces_section_title:
+   :noindex:
 
    BCov is a software package designed for predicting protein beta\-sheet topology from amino acid sequence.
 
@@ -23,9 +24,16 @@ bcov
 
    |downloads_bcov| |docker_bcov|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends glpk: >=4.65,<4.66.0a0
+   :depends glpk: ``>=4.65,<4.66.0a0``
    :depends libgcc: 
    :requirements:
 

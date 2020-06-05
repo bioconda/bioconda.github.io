@@ -8,6 +8,7 @@ perl-text-balanced
 
 .. conda:recipe:: perl-text-balanced
    :replaces_section_title:
+   :noindex:
 
    Extract delimited text sequences from strings
 
@@ -22,9 +23,16 @@ perl-text-balanced
 
    |downloads_perl-text-balanced| |docker_perl-text-balanced|
 
-   :versions: 2.03-3, 2.03-2, 2.03-1, 2.03-0
+   :versions:
+      
+      
+
+      ``2.03-3``,  ``2.03-2``,  ``2.03-1``,  ``2.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

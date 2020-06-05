@@ -8,6 +8,7 @@ medusa
 
 .. conda:recipe:: medusa
    :replaces_section_title:
+   :noindex:
 
    A draft genome scaffolder that uses multiple reference genomes in a graph\-based approach.
 
@@ -22,12 +23,19 @@ medusa
 
    |downloads_medusa| |docker_medusa|
 
-   :versions: 1.6-1, 1.6-0
+   :versions:
+      
+      
+
+      ``1.6-1``,  ``1.6-0``
+
+      
+
    
    :depends biopython: 
    :depends networkx: 
    :depends numpy: 
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

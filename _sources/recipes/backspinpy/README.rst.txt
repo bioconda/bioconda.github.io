@@ -8,6 +8,7 @@ backspinpy
 
 .. conda:recipe:: backspinpy
    :replaces_section_title:
+   :noindex:
 
    backSPIN clustering algorythm
 
@@ -22,7 +23,14 @@ backspinpy
 
    |downloads_backspinpy| |docker_backspinpy|
 
-   :versions: 0.2.1-1, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.1-1``,  ``0.2.1-0``
+
+      
+
    
    :depends future: 
    :depends numpy: 

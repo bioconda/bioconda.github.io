@@ -75,7 +75,7 @@
   
   <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
-  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  <li class="toctree-l1"><a href="../../conda-package_index.html">Package Index</a></li>
   
   <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
@@ -375,7 +375,8 @@
     <span class="n">option_spec</span> <span class="o">=</span> <span class="p">{</span>
         <span class="s1">&#39;arch&#39;</span><span class="p">:</span> <span class="n">rst</span><span class="o">.</span><span class="n">directives</span><span class="o">.</span><span class="n">unchanged</span><span class="p">,</span>
         <span class="s1">&#39;badges&#39;</span><span class="p">:</span> <span class="n">rst</span><span class="o">.</span><span class="n">directives</span><span class="o">.</span><span class="n">unchanged</span><span class="p">,</span>
-        <span class="s1">&#39;replaces_section_title&#39;</span><span class="p">:</span> <span class="n">rst</span><span class="o">.</span><span class="n">directives</span><span class="o">.</span><span class="n">flag</span>
+        <span class="s1">&#39;replaces_section_title&#39;</span><span class="p">:</span> <span class="n">rst</span><span class="o">.</span><span class="n">directives</span><span class="o">.</span><span class="n">flag</span><span class="p">,</span>
+        <span class="s1">&#39;noindex&#39;</span><span class="p">:</span> <span class="n">rst</span><span class="o">.</span><span class="n">directives</span><span class="o">.</span><span class="n">flag</span><span class="p">,</span>
     <span class="p">}</span>
 
 <div class="viewcode-block" id="CondaObjectDescription.handle_signature"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaObjectDescription.handle_signature">[docs]</a>    <span class="k">def</span> <span class="nf">handle_signature</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sig</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">signode</span><span class="p">:</span> <span class="n">addnodes</span><span class="o">.</span><span class="n">desc</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
@@ -481,14 +482,14 @@
     <span class="p">]</span></div>
 
 
-<div class="viewcode-block" id="RecipeIndex"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RecipeIndex">[docs]</a><span class="k">class</span> <span class="nc">RecipeIndex</span><span class="p">(</span><span class="n">Index</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Index of Recipes&quot;&quot;&quot;</span>
+<div class="viewcode-block" id="PackageIndex"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.PackageIndex">[docs]</a><span class="k">class</span> <span class="nc">PackageIndex</span><span class="p">(</span><span class="n">Index</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Index of Packages&quot;&quot;&quot;</span>
 
-    <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;recipe_index&quot;</span>
-    <span class="n">localname</span> <span class="o">=</span> <span class="s2">&quot;Recipe Index&quot;</span>
-    <span class="n">shortname</span> <span class="o">=</span> <span class="s2">&quot;Recipes&quot;</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;package_index&quot;</span>
+    <span class="n">localname</span> <span class="o">=</span> <span class="s2">&quot;Package Index&quot;</span>
+    <span class="n">shortname</span> <span class="o">=</span> <span class="s2">&quot;Packages&quot;</span>
 
-<div class="viewcode-block" id="RecipeIndex.generate"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.RecipeIndex.generate">[docs]</a>    <span class="k">def</span> <span class="nf">generate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docnames</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="PackageIndex.generate"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.PackageIndex.generate">[docs]</a>    <span class="k">def</span> <span class="nf">generate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docnames</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;build index&quot;&quot;&quot;</span>
         <span class="n">content</span> <span class="o">=</span> <span class="p">{}</span>
 
@@ -499,7 +500,10 @@
             <span class="n">entries</span> <span class="o">=</span> <span class="n">content</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">name</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">(),</span> <span class="p">[])</span>
             <span class="n">subtype</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1"># 1 has subentries, 2 is subentry</span>
             <span class="n">entries</span><span class="o">.</span><span class="n">append</span><span class="p">((</span>
-                <span class="n">name</span><span class="p">,</span> <span class="n">subtype</span><span class="p">,</span> <span class="n">docname</span><span class="p">,</span> <span class="n">labelid</span><span class="p">,</span> <span class="s1">&#39;extra&#39;</span><span class="p">,</span> <span class="s1">&#39;qualifier&#39;</span><span class="p">,</span> <span class="s1">&#39;description&#39;</span>
+                <span class="c1"># TODO: Add meaningful info for extra/qualifier/description</span>
+                <span class="c1">#       fields, e.g., latest package version.</span>
+                <span class="c1"># name, subtype, docname, labelid, &#39;extra&#39;, &#39;qualifier&#39;, &#39;description&#39;,</span>
+                <span class="n">name</span><span class="p">,</span> <span class="n">subtype</span><span class="p">,</span> <span class="n">docname</span><span class="p">,</span> <span class="n">labelid</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
             <span class="p">))</span>
 
         <span class="n">collapse</span> <span class="o">=</span> <span class="kc">True</span>
@@ -529,7 +533,7 @@
         <span class="s1">&#39;backrefs&#39;</span><span class="p">:</span> <span class="p">{}</span>  <span class="c1">#: package_name -&gt; docname, package_name</span>
     <span class="p">}</span>
     <span class="n">indices</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="n">RecipeIndex</span>
+        <span class="n">PackageIndex</span>
     <span class="p">]</span>
 
 <div class="viewcode-block" id="CondaDomain.clear_doc"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.CondaDomain.clear_doc">[docs]</a>    <span class="k">def</span> <span class="nf">clear_doc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docname</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
@@ -891,9 +895,10 @@
 
     <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">finalize</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">app</span><span class="p">,</span> <span class="n">env</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">env</span><span class="o">.</span><span class="n">bioconda_lint_checks</span><span class="p">:</span>
-            <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="n">env</span><span class="o">.</span><span class="n">bioconda_lint_checks</span><span class="p">:</span>
-                <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Undocumented lint checks: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">check</span><span class="p">)</span></div>
+        <span class="c1"># TODO: Check why &#39;bioconda_lint_checks&#39; is not added to env in</span>
+        <span class="c1">#       parallel runs (i.e., raises AttributeError without getattr).</span>
+        <span class="k">for</span> <span class="n">check</span> <span class="ow">in</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="s1">&#39;bioconda_lint_checks&#39;</span><span class="p">,</span> <span class="p">{}):</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Undocumented lint checks: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">check</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="setup"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.sphinxext.html#bioconda_utils.sphinxext.setup">[docs]</a><span class="k">def</span> <span class="nf">setup</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>

@@ -8,6 +8,7 @@ vcftoolbox
 
 .. conda:recipe:: vcftoolbox
    :replaces_section_title:
+   :noindex:
 
    Tools for manipulating and parsing vcf files
 
@@ -22,7 +23,14 @@ vcftoolbox
 
    |downloads_vcftoolbox| |docker_vcftoolbox|
 
-   :versions: 1.5.1-0, 0.1-2, 0.1-0
+   :versions:
+      
+      
+
+      ``1.5.1-0``,  ``0.1-2``,  ``0.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

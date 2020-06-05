@@ -8,6 +8,7 @@ pathoscope
 
 .. conda:recipe:: pathoscope
    :replaces_section_title:
+   :noindex:
 
    Species identification and strain attribution with unassembled sequencing data
 
@@ -22,11 +23,18 @@ pathoscope
 
    |downloads_pathoscope| |docker_pathoscope|
 
-   :versions: 2.0.7-1, 2.0.7-0, 2.0.6-1, 2.0.6-0
+   :versions:
+      
+      
+
+      ``2.0.7-1``,  ``2.0.7-0``,  ``2.0.6-1``,  ``2.0.6-0``
+
+      
+
    
    :depends bowtie2: 
-   :depends python: <3
-   :depends samtools: <1.0
+   :depends python: ``<3``
+   :depends samtools: ``<1.0``
    :requirements:
 
    .. rubric:: Installation

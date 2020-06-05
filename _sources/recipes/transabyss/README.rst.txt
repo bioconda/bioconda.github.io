@@ -8,6 +8,7 @@ transabyss
 
 .. conda:recipe:: transabyss
    :replaces_section_title:
+   :noindex:
 
    de novo assembly of RNA\-Seq data using ABySS
 
@@ -22,12 +23,19 @@ transabyss
 
    |downloads_transabyss| |docker_transabyss|
 
-   :versions: 2.0.1-6, 2.0.1-5, 2.0.1-4, 2.0.1-3, 1.5.5-3, 1.5.5-2, 1.5.5-1, 1.5.4-1, 1.5.4-0
+   :versions:
+      
+      
+
+      ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.4-1``,  ``1.5.4-0``
+
+      
+
    
-   :depends abyss: 2.0.*
+   :depends abyss: ``2.0.*``
    :depends blat: 
    :depends python: 
-   :depends python-igraph: 0.7.*
+   :depends python-igraph: ``0.7.*``
    :depends samtools: 
    :requirements:
 

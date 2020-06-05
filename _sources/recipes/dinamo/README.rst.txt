@@ -8,6 +8,7 @@ dinamo
 
 .. conda:recipe:: dinamo
    :replaces_section_title:
+   :noindex:
 
    An exact and efficient method for IUPAC motif discovery in DNA sequences
 
@@ -23,11 +24,18 @@ dinamo
 
    |downloads_dinamo| |docker_dinamo|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

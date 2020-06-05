@@ -8,6 +8,7 @@ perl-test-script
 
 .. conda:recipe:: perl-test-script
    :replaces_section_title:
+   :noindex:
 
    Basic cross\-platform tests for scripts
 
@@ -22,9 +23,16 @@ perl-test-script
 
    |downloads_perl-test-script| |docker_perl-test-script|
 
-   :versions: 1.25-0
+   :versions:
+      
+      
+
+      ``1.25-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-capture-tiny: 
    :depends perl-probe-perl: 
    :depends perl-text-parsewords: 

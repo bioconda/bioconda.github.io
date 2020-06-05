@@ -8,6 +8,7 @@ perl-mce-shared
 
 .. conda:recipe:: perl-mce-shared
    :replaces_section_title:
+   :noindex:
 
    MCE extension for sharing data supporting threads and processes
 
@@ -22,13 +23,20 @@ perl-mce-shared
 
    |downloads_perl-mce-shared| |docker_perl-mce-shared|
 
-   :versions: 1.840-0, 1.839-0, 1.838-0, 1.836-1, 1.836-0
+   :versions:
+      
+      
+
+      ``1.840-0``,  ``1.839-0``,  ``1.838-0``,  ``1.836-1``,  ``1.836-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-constant: 
-   :depends perl-mce: >=1.836
+   :depends perl-mce: ``>=1.836``
    :depends perl-socket: 
    :depends perl-storable: 
    :depends perl-time-hires: 

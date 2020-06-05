@@ -8,6 +8,7 @@ bioconductor-singlecelltk
 
 .. conda:recipe:: bioconductor-singlecelltk
    :replaces_section_title:
+   :noindex:
 
    Interactive Analysis of Single Cell RNA\-Seq Data
 
@@ -22,26 +23,33 @@ bioconductor-singlecelltk
 
    |downloads_bioconductor-singlecelltk| |docker_bioconductor-singlecelltk|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.4.0-1, 1.2.3-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-celda: >=1.4.0,<1.5.0
-   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-ggtree: >=2.2.0,<2.3.0
-   :depends bioconductor-gsva: >=1.36.0,<1.37.0
-   :depends bioconductor-gsvadata: >=1.24.0,<1.25.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-mast: >=1.14.0,<1.15.0
-   :depends bioconductor-multtest: >=2.44.0,<2.45.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-sva: >=3.36.0,<3.37.0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-celda: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-ggtree: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-gsva: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-gsvadata: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-mast: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-cluster: 
    :depends r-colourpicker: 

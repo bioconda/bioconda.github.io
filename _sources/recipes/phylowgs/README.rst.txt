@@ -8,6 +8,7 @@ phylowgs
 
 .. conda:recipe:: phylowgs
    :replaces_section_title:
+   :noindex:
 
    Application for inferring subclonal composition and evolution from whole\-genome sequencing data
 
@@ -22,15 +23,22 @@ phylowgs
 
    |downloads_phylowgs| |docker_phylowgs|
 
-   :versions: 20181105-2, 20181105-1, 20181105-0, 20180317-2, 20180317-1, 20180317-0, 20150714-1
+   :versions:
+      
+      
+
+      ``20181105-2``,  ``20181105-1``,  ``20181105-0``,  ``20180317-2``,  ``20180317-1``,  ``20180317-0``,  ``20150714-1``
+
+      
+
    
    :depends ete2: 
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends openblas: >=0.3.6,<0.3.7.0a0
-   :depends python: >=2.7,<2.8.0a0
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends pyvcf: 
    :depends scipy: 
    :requirements:

@@ -8,6 +8,7 @@ perl-extutils-config
 
 .. conda:recipe:: perl-extutils-config
    :replaces_section_title:
+   :noindex:
 
    A wrapper for perl\'s configuration
 
@@ -22,9 +23,16 @@ perl-extutils-config
 
    |downloads_perl-extutils-config| |docker_perl-extutils-config|
 
-   :versions: 0.008-2, 0.008-1, 0.008-0
+   :versions:
+      
+      
+
+      ``0.008-2``,  ``0.008-1``,  ``0.008-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-data-dumper: 
    :requirements:
 

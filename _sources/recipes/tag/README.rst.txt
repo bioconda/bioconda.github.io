@@ -8,6 +8,7 @@ tag
 
 .. conda:recipe:: tag
    :replaces_section_title:
+   :noindex:
 
    Genome annotation data analysis and management implemented in pure Python.
 
@@ -22,11 +23,18 @@ tag
 
    |downloads_tag| |docker_tag|
 
-   :versions: 0.5-1, 0.5-0, 0.4-0
+   :versions:
+      
+      
+
+      ``0.5-1``,  ``0.5-0``,  ``0.4-0``
+
+      
+
    
-   :depends intervaltree: >=3.0
-   :depends networkx: >=2.0
-   :depends python: >=3
+   :depends intervaltree: ``>=3.0``
+   :depends networkx: ``>=2.0``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ pout2mzid
 
 .. conda:recipe:: pout2mzid
    :replaces_section_title:
+   :noindex:
 
    Adds percolator statistics to mzIdentML files that were used as input to percolator
 
@@ -22,9 +23,16 @@ pout2mzid
 
    |downloads_pout2mzid| |docker_pout2mzid|
 
-   :versions: 0.3.03-2
+   :versions:
+      
+      
+
+      ``0.3.03-2``
+
+      
+
    
-   :depends boost: ==1.62
+   :depends boost: ``==1.62``
    :depends libgcc: 
    :depends xerces-c: 
    :depends xsd: 

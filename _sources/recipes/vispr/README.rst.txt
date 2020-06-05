@@ -8,6 +8,7 @@ vispr
 
 .. conda:recipe:: vispr
    :replaces_section_title:
+   :noindex:
 
    VISPR is a visualization framework and analysis workflow for CRISPR\/Cas9 knockout screens. VISPR is designed to display results calculated by MAGeCK.
 
@@ -22,13 +23,28 @@ vispr
 
    |downloads_vispr| |docker_vispr|
 
-   :versions: 0.4.15-0, 0.4.14-2, 0.4.14-1, 0.4.14-0, 0.4.13-0, 0.4.12-0, 0.4.11-0, 0.4.10-0, 0.4.9-0, 0.4.8-0, 0.4.7-0, 0.4.6-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.15-0</code>,  <code>0.4.14-2</code>,  <code>0.4.14-1</code>,  <code>0.4.14-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  </span></summary>
+      
+
+      ``0.4.15-0``,  ``0.4.14-2``,  ``0.4.14-1``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends appdirs: 
    :depends flask: 
-   :depends numpy: >=1.10
+   :depends numpy: ``>=1.10``
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyyaml: 
    :depends scikit-learn: 
    :depends scipy: 

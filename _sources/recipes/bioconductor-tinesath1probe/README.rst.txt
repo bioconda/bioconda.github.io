@@ -8,6 +8,7 @@ bioconductor-tinesath1probe
 
 .. conda:recipe:: bioconductor-tinesath1probe
    :replaces_section_title:
+   :noindex:
 
    Probe sequence data for microarrays of type tinesath1
 
@@ -22,11 +23,18 @@ bioconductor-tinesath1probe
 
    |downloads_bioconductor-tinesath1probe| |docker_bioconductor-tinesath1probe|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

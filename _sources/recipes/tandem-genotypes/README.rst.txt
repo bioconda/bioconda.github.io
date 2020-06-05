@@ -8,6 +8,7 @@ tandem-genotypes
 
 .. conda:recipe:: tandem-genotypes
    :replaces_section_title:
+   :noindex:
 
    Find tandem repeat length changes\, from \"long\" DNA reads aligned to a genome
 
@@ -22,7 +23,14 @@ tandem-genotypes
 
    |downloads_tandem-genotypes| |docker_tandem-genotypes|
 
-   :versions: 1.5.0-0, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.5.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
    :depends python: 
    :depends r-base: 

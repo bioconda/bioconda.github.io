@@ -8,6 +8,7 @@ bioconductor-dyebias
 
 .. conda:recipe:: bioconductor-dyebias
    :replaces_section_title:
+   :noindex:
 
    The GASSCO method for correcting for slide\-dependent gene\-specific dye bias
 
@@ -23,11 +24,18 @@ bioconductor-dyebias
 
    |downloads_bioconductor-dyebias| |docker_bioconductor-dyebias|
 
-   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0
+   :versions:
+      
+      
+
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-marray: >=1.66.0,<1.67.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-marray: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

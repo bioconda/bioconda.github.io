@@ -8,6 +8,7 @@ fseq
 
 .. conda:recipe:: fseq
    :replaces_section_title:
+   :noindex:
 
    F\-Seq\: A feature density estimator for high\-throughput sequence tags
 
@@ -22,11 +23,18 @@ fseq
 
    |downloads_fseq| |docker_fseq|
 
-   :versions: 1.84-0
+   :versions:
+      
+      
+
+      ``1.84-0``
+
+      
+
    
-   :depends openjdk: >=6
-   :depends perl: 5.22.0*
-   :depends python: 2.7*
+   :depends openjdk: ``>=6``
+   :depends perl: ``5.22.0*``
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ sepp
 
 .. conda:recipe:: sepp
    :replaces_section_title:
+   :noindex:
 
    SATe\-enabled phylogenetic placement
 
@@ -23,12 +24,19 @@ sepp
 
    |downloads_sepp| |docker_sepp|
 
-   :versions: 4.3.10-0, 4.3.9-0, 4.3.8-0
+   :versions:
+      
+      
+
+      ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``
+
+      
+
    
    :depends dendropy: 
-   :depends hmmer: 3.1b2
+   :depends hmmer: ``3.1b2``
    :depends openjdk: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

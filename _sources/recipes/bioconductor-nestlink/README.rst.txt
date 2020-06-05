@@ -8,6 +8,7 @@ bioconductor-nestlink
 
 .. conda:recipe:: bioconductor-nestlink
    :replaces_section_title:
+   :noindex:
 
    NestLink an R data package to guide through Engineered Peptide Barcodes for In\-Depth Analyzes of Binding Protein Ensembles
 
@@ -22,16 +23,23 @@ bioconductor-nestlink
 
    |downloads_bioconductor-nestlink| |docker_bioconductor-nestlink|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-shortread: >=1.46.0,<1.47.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-gplots: >=3.0
-   :depends r-protviz: >=0.4
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-shortread: ``>=1.46.0,<1.47.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-gplots: ``>=3.0``
+   :depends r-protviz: ``>=0.4``
    :requirements:
 
    .. rubric:: Installation

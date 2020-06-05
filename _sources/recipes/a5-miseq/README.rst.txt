@@ -8,6 +8,7 @@ a5-miseq
 
 .. conda:recipe:: a5-miseq
    :replaces_section_title:
+   :noindex:
 
    A5\-miseq is a pipeline for assembling DNA sequence data generated on the Illumina sequencing platform. This README will take you through the steps necessary for running \_A5\-miseq\_
 
@@ -22,9 +23,16 @@ a5-miseq
 
    |downloads_a5-miseq| |docker_a5-miseq|
 
-   :versions: 20160825-1, 20160825-0
+   :versions:
+      
+      
+
+      ``20160825-1``,  ``20160825-0``
+
+      
+
    
-   :depends openjdk: >=8.0
+   :depends openjdk: ``>=8.0``
    :depends perl: 
    :requirements:
 

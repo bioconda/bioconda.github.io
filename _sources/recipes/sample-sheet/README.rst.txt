@@ -8,6 +8,7 @@ sample-sheet
 
 .. conda:recipe:: sample-sheet
    :replaces_section_title:
+   :noindex:
 
    An Illumina Sample Sheet parsing library
 
@@ -24,10 +25,17 @@ sample-sheet
 
    |downloads_sample-sheet| |docker_sample-sheet|
 
-   :versions: 0.12.0-0, 0.11.0-0, 0.10.0-0, 0.9.4-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.0-0
+   :versions:
+      
+      
+
+      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.4-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``
+
+      
+
    
    :depends click: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends requests: 
    :depends smart_open: 
    :depends tabulate: 

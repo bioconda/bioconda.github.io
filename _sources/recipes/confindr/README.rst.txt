@@ -8,6 +8,7 @@ confindr
 
 .. conda:recipe:: confindr
    :replaces_section_title:
+   :noindex:
 
    Detect intra\- and inter\-species bacterial contamination in NGS reads
 
@@ -24,19 +25,34 @@ confindr
 
    |downloads_confindr| |docker_confindr|
 
-   :versions: 0.7.2-0, 0.7.1-0, 0.7.0-1, 0.7.0-0, 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.8-0, 0.4.7-0, 0.4.6-0, 0.4.5-0, 0.4.4-0, 0.4.3-0, 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.4-0, 0.3.3-0, 0.3.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  </span></summary>
+      
+
+      ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bbmap: >=38
+   :depends bbmap: ``>=38``
    :depends biopython: 
-   :depends kma: 1.2.0.*
-   :depends mash: >=2
+   :depends kma: ``1.2.0.*``
+   :depends mash: ``>=2``
    :depends minimap2: 
-   :depends pluggy: 0.11.0.*
-   :depends pysam: >=0.15
+   :depends pluggy: ``0.11.0.*``
+   :depends pysam: ``>=0.15``
    :depends pytest: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends rauth: 
-   :depends samtools: >=1.6
+   :depends samtools: ``>=1.6``
    :requirements:
 
    .. rubric:: Installation

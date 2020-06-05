@@ -8,6 +8,7 @@ metilene
 
 .. conda:recipe:: metilene
    :replaces_section_title:
+   :noindex:
 
    Fast and sensitive detection of differential DNA methylation
 
@@ -22,13 +23,20 @@ metilene
 
    |downloads_metilene| |docker_metilene|
 
-   :versions: 0.2.8-0, 0.2.6-2, 0.2.6-1, 0.2.6-0
+   :versions:
+      
+      
+
+      ``0.2.8-0``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.6-0``
+
+      
+
    
-   :depends bedtools: >=2.24
-   :depends libgcc-ng: >=7.3.0
+   :depends bedtools: ``>=2.24``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends perl: 
    :depends r-base: 
-   :depends r-ggplot2: >=2.0.0
+   :depends r-ggplot2: ``>=2.0.0``
    :requirements:
 
    .. rubric:: Installation

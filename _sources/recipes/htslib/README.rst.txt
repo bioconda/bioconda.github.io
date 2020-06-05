@@ -8,6 +8,7 @@ htslib
 
 .. conda:recipe:: htslib
    :replaces_section_title:
+   :noindex:
 
    C library for high\-throughput sequencing data formats.
 
@@ -23,15 +24,30 @@ htslib
 
    |downloads_htslib| |docker_htslib|
 
-   :versions: 1.10.2-0, 1.10.1-0, 1.10-1, 1.10-0, 1.9-9, 1.9-8, 1.9-7, 1.9-6, 1.9-5, 1.9-4, 1.9-3, 1.9-2, 1.9-1, 1.9-0, 1.8-2, 1.8-1, 1.8-0, 1.7-0, 1.6-0, 1.5-0, 1.4.1-0, 1.4-0, 1.3.2-0, 1.3.1-2, 1.3.1-1, 1.3.1-0, 1.3-1, 1.3-0, 1.2.1-0, 1.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.10.2-0</code>,  <code>1.10.1-0</code>,  <code>1.10-1</code>,  <code>1.10-0</code>,  <code>1.9-9</code>,  <code>1.9-8</code>,  <code>1.9-7</code>,  <code>1.9-6</code>,  <code>1.9-5</code>,  </span></summary>
+      
+
+      ``1.10.2-0``,  ``1.10.1-0``,  ``1.10-1``,  ``1.10-0``,  ``1.9-9``,  ``1.9-8``,  ``1.9-7``,  ``1.9-6``,  ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``,  ``1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libcurl: >=7.64.1,<8.0a0
-   :depends libdeflate: >=1.3,<1.4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends openssl: >=1.1.1a,<1.1.2a
-   :depends xz: >=5.2.4,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libcurl: ``>=7.64.1,<8.0a0``
+   :depends libdeflate: ``>=1.3,<1.4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends openssl: ``>=1.1.1a,<1.1.2a``
+   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

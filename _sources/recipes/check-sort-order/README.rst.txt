@@ -8,6 +8,7 @@ check-sort-order
 
 .. conda:recipe:: check-sort-order
    :replaces_section_title:
+   :noindex:
 
    check sort\-order of genomic files according to a genomefile
 
@@ -22,7 +23,14 @@ check-sort-order
 
    |downloads_check-sort-order| |docker_check-sort-order|
 
-   :versions: 0.0.4-0, 0.0.3-1, 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
+
+      
+
    
    :requirements:
 

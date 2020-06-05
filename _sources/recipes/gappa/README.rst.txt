@@ -8,6 +8,7 @@ gappa
 
 .. conda:recipe:: gappa
    :replaces_section_title:
+   :noindex:
 
    Genesis Applications for Phylogenetic Placement Analysis
 
@@ -23,11 +24,18 @@ gappa
 
    |downloads_gappa| |docker_gappa|
 
-   :versions: 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

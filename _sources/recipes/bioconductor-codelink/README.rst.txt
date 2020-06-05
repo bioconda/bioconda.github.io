@@ -8,6 +8,7 @@ bioconductor-codelink
 
 .. conda:recipe:: bioconductor-codelink
    :replaces_section_title:
+   :noindex:
 
    Manipulation of Codelink microarray data
 
@@ -23,13 +24,20 @@ bioconductor-codelink
 
    |downloads_bioconductor-codelink| |docker_bioconductor-codelink|
 
-   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-1, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   :versions:
+      
+      
+
+      ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

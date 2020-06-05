@@ -8,6 +8,7 @@ bioconductor-gpa
 
 .. conda:recipe:: bioconductor-gpa
    :replaces_section_title:
+   :noindex:
 
    GPA \(Genetic analysis incorporating Pleiotropy and Annotation\)
 
@@ -22,13 +23,20 @@ bioconductor-gpa
 
    |downloads_bioconductor-gpa| |docker_bioconductor-gpa|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 

@@ -8,6 +8,7 @@ pizzly
 
 .. conda:recipe:: pizzly
    :replaces_section_title:
+   :noindex:
 
    Fast fusion detection using kallisto
 
@@ -22,10 +23,17 @@ pizzly
 
    |downloads_pizzly| |docker_pizzly|
 
-   :versions: 0.37.3-3, 0.37.3-2, 0.37.1-0
+   :versions:
+      
+      
+
+      ``0.37.3-3``,  ``0.37.3-2``,  ``0.37.1-0``
+
+      
+
    
    :depends h5py: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends numpy: 
    :depends python: 
    :requirements:

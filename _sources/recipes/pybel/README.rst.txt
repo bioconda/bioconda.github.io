@@ -8,6 +8,7 @@ pybel
 
 .. conda:recipe:: pybel
    :replaces_section_title:
+   :noindex:
 
    PyBEL is a Python package for parsing and handling biological networks encoded in the Biological Expression Language \(BEL\).
 
@@ -26,14 +27,21 @@ pybel
 
    |downloads_pybel| |docker_pybel|
 
-   :versions: 0.13.2-0, 0.9.3-1, 0.9.3-0, 0.5.4-0, 0.4.0-0
+   :versions:
+      
+      
+
+      ``0.13.2-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.5.4-0``,  ``0.4.0-0``
+
+      
+
    
    :depends bel-resources: 
    :depends click: 
    :depends click-plugins: 
-   :depends networkx: >=2.1
+   :depends networkx: ``>=2.1``
    :depends pyparsing: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends requests: 
    :depends requests-file: 
    :depends sqlalchemy: 

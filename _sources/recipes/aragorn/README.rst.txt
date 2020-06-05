@@ -8,6 +8,7 @@ aragorn
 
 .. conda:recipe:: aragorn
    :replaces_section_title:
+   :noindex:
 
    ARAGORN\, tRNA \(and tmRNA\) detection
 
@@ -22,9 +23,16 @@ aragorn
 
    |downloads_aragorn| |docker_aragorn|
 
-   :versions: 1.2.38-2, 1.2.38-1, 1.2.36-1, 1.2.36-0
+   :versions:
+      
+      
+
+      ``1.2.38-2``,  ``1.2.38-1``,  ``1.2.36-1``,  ``1.2.36-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

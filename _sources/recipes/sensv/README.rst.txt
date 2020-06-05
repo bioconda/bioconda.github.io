@@ -8,6 +8,7 @@ sensv
 
 .. conda:recipe:: sensv
    :replaces_section_title:
+   :noindex:
 
    SENSV
 
@@ -22,24 +23,31 @@ sensv
 
    |downloads_sensv| |docker_sensv|
 
-   :versions: 1.0.2-0, v1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``,  ``v1.0.1-0``
+
+      
+
    
-   :depends grabix: 0.1.8.*
-   :depends htslib: 1.10.2.*
-   :depends intervaltree: 3.0.2.*
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends minimap2: 2.17.*
-   :depends pandas: 1.0.1.*
-   :depends pigz: 2.3.4.*
-   :depends pyfaidx: 0.5.8.*
-   :depends pypy3.6: 7.3.0.*
-   :depends pysam: 0.15.3.*
-   :depends samtools: 1.7.*
-   :depends scipy: 1.4.1.*
-   :depends survivor: 1.0.6.*
-   :depends vcflib: 1.0.0.*
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends grabix: ``0.1.8.*``
+   :depends htslib: ``1.10.2.*``
+   :depends intervaltree: ``3.0.2.*``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends minimap2: ``2.17.*``
+   :depends pandas: ``1.0.1.*``
+   :depends pigz: ``2.3.4.*``
+   :depends pyfaidx: ``0.5.8.*``
+   :depends pypy3.6: ``7.3.0.*``
+   :depends pysam: ``0.15.3.*``
+   :depends samtools: ``1.7.*``
+   :depends scipy: ``1.4.1.*``
+   :depends survivor: ``1.0.6.*``
+   :depends vcflib: ``1.0.0.*``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

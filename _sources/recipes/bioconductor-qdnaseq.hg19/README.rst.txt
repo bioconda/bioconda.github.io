@@ -8,6 +8,7 @@ bioconductor-qdnaseq.hg19
 
 .. conda:recipe:: bioconductor-qdnaseq.hg19
    :replaces_section_title:
+   :noindex:
 
    QDNAseq bin annotation for hg19
 
@@ -22,11 +23,18 @@ bioconductor-qdnaseq.hg19
 
    |downloads_bioconductor-qdnaseq.hg19| |docker_bioconductor-qdnaseq.hg19|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-qdnaseq: >=1.24.0,<1.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-qdnaseq: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

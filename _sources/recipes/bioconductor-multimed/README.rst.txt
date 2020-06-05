@@ -8,6 +8,7 @@ bioconductor-multimed
 
 .. conda:recipe:: bioconductor-multimed
    :replaces_section_title:
+   :noindex:
 
    Testing multiple biological mediators simultaneously
 
@@ -23,9 +24,16 @@ bioconductor-multimed
 
    |downloads_bioconductor-multimed| |docker_bioconductor-multimed|
 
-   :versions: 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.6.0-0, 2.4.0-0, 2.2.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

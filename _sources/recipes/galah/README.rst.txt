@@ -8,6 +8,7 @@ galah
 
 .. conda:recipe:: galah
    :replaces_section_title:
+   :noindex:
 
    Galah aims to be a more scalable metagenome assembled genome \(MAG\) dereplication method.
 
@@ -22,11 +23,18 @@ galah
 
    |downloads_galah| |docker_galah|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends dashing: 
    :depends fastani: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

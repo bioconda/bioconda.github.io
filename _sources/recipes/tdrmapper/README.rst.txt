@@ -8,6 +8,7 @@ tdrmapper
 
 .. conda:recipe:: tdrmapper
    :replaces_section_title:
+   :noindex:
 
    tRNA detection and quantification
 
@@ -22,7 +23,14 @@ tdrmapper
 
    |downloads_tdrmapper| |docker_tdrmapper|
 
-   :versions: 1.1-4, 1.1-3, 1.1-2, 1.1-1, 1.0-1
+   :versions:
+      
+      
+
+      ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.0-1``
+
+      
+
    
    :depends perl: 
    :requirements:

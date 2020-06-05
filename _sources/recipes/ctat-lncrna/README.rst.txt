@@ -8,6 +8,7 @@ ctat-lncrna
 
 .. conda:recipe:: ctat-lncrna
    :replaces_section_title:
+   :noindex:
 
    ctat\-lncrna uses slncky
 
@@ -22,9 +23,16 @@ ctat-lncrna
 
    |downloads_ctat-lncrna| |docker_ctat-lncrna|
 
-   :versions: 1.0.1-2, 1.0.1-0, 1.0-1
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-0``,  ``1.0-1``
+
+      
+
    
-   :depends slncky: >=1.0.4 1
+   :depends slncky: ``>=1.0.4 1``
    :requirements:
 
    .. rubric:: Installation

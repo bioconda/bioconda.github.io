@@ -8,6 +8,7 @@ bioconductor-lungexpression
 
 .. conda:recipe:: bioconductor-lungexpression
    :replaces_section_title:
+   :noindex:
 
    ExpressionSets for Parmigiani et al.\, 2004 Clinical Cancer Research paper
 
@@ -22,11 +23,18 @@ bioconductor-lungexpression
 
    |downloads_bioconductor-lungexpression| |docker_bioconductor-lungexpression|
 
-   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.20.0-0
+   :versions:
+      
+      
+
+      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

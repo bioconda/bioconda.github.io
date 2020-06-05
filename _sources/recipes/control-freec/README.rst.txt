@@ -8,6 +8,7 @@ control-freec
 
 .. conda:recipe:: control-freec
    :replaces_section_title:
+   :noindex:
 
    Copy number and genotype annotation from whole genome and whole exome
    sequencing data.
@@ -25,11 +26,18 @@ control-freec
 
    |downloads_control-freec| |docker_control-freec|
 
-   :versions: 11.6-0, 11.5-1, 11.5-0, 11.4-0, 10.6-0, 10.5-0
+   :versions:
+      
+      
+
+      ``11.6-0``,  ``11.5-1``,  ``11.5-0``,  ``11.4-0``,  ``10.6-0``,  ``10.5-0``
+
+      
+
    
    :depends bioconductor-rtracklayer: 
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends perl: 
    :depends r-base: 
    :depends samtools: 

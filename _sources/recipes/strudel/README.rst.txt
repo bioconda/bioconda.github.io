@@ -8,6 +8,7 @@ strudel
 
 .. conda:recipe:: strudel
    :replaces_section_title:
+   :noindex:
 
    Strudel is a graphical tool for visualizing genetic and physical maps of genomes for comparative purposes.
 
@@ -22,9 +23,16 @@ strudel
 
    |downloads_strudel| |docker_strudel|
 
-   :versions: 1.15.08.25-1, 1.15.08.25-0
+   :versions:
+      
+      
+
+      ``1.15.08.25-1``,  ``1.15.08.25-0``
+
+      
+
    
-   :depends openjdk: >=6,<9
+   :depends openjdk: ``>=6,<9``
    :requirements:
 
    .. rubric:: Installation

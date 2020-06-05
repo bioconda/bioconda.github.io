@@ -8,6 +8,7 @@ perl-number-compare
 
 .. conda:recipe:: perl-number-compare
    :replaces_section_title:
+   :noindex:
 
    Numeric comparisons
 
@@ -22,9 +23,16 @@ perl-number-compare
 
    |downloads_perl-number-compare| |docker_perl-number-compare|
 
-   :versions: 0.03-2, 0.03-1, 0.03-0
+   :versions:
+      
+      
+
+      ``0.03-2``,  ``0.03-1``,  ``0.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

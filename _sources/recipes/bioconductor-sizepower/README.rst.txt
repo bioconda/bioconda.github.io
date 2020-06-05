@@ -8,6 +8,7 @@ bioconductor-sizepower
 
 .. conda:recipe:: bioconductor-sizepower
    :replaces_section_title:
+   :noindex:
 
    Sample Size and Power Calculation in Micorarray Studies
 
@@ -23,9 +24,16 @@ bioconductor-sizepower
 
    |downloads_bioconductor-sizepower| |docker_bioconductor-sizepower|
 
-   :versions: 1.58.0-0, 1.56.0-0, 1.54.0-1, 1.54.0-0, 1.52.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   :versions:
+      
+      
+
+      ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

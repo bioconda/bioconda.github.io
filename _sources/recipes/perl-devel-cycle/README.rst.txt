@@ -8,6 +8,7 @@ perl-devel-cycle
 
 .. conda:recipe:: perl-devel-cycle
    :replaces_section_title:
+   :noindex:
 
    Find memory cycles in objects
 
@@ -22,9 +23,16 @@ perl-devel-cycle
 
    |downloads_perl-devel-cycle| |docker_perl-devel-cycle|
 
-   :versions: 1.12-0
+   :versions:
+      
+      
+
+      ``1.12-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

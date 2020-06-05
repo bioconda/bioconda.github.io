@@ -8,6 +8,7 @@ perl-sort-versions
 
 .. conda:recipe:: perl-sort-versions
    :replaces_section_title:
+   :noindex:
 
    a perl 5 module for sorting of revision\-like numbers
 
@@ -22,9 +23,16 @@ perl-sort-versions
 
    |downloads_perl-sort-versions| |docker_perl-sort-versions|
 
-   :versions: 1.62-2, 1.62-1, 1.62-0
+   :versions:
+      
+      
+
+      ``1.62-2``,  ``1.62-1``,  ``1.62-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter: 
    :requirements:
 

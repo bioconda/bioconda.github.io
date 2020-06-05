@@ -8,6 +8,7 @@ bioconductor-meal
 
 .. conda:recipe:: bioconductor-meal
    :replaces_section_title:
+   :noindex:
 
    Perform methylation analysis
 
@@ -22,21 +23,28 @@ bioconductor-meal
 
    |downloads_bioconductor-meal| |docker_bioconductor-meal|
 
-   :versions: 1.18.0-0, 1.15.0-0, 1.14.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.15.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-gviz: >=1.32.0,<1.33.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-minfi: >=1.34.0,<1.35.0
-   :depends bioconductor-missmethyl: >=1.22.0,<1.23.0
-   :depends bioconductor-multidataset: >=1.16.0,<1.17.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-ggplot2: >=2.0.0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-gviz: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-minfi: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-missmethyl: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-multidataset: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ggplot2: ``>=2.0.0``
    :depends r-isva: 
    :depends r-matrixstats: 
    :depends r-permute: 

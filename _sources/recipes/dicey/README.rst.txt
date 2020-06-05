@@ -8,6 +8,7 @@ dicey
 
 .. conda:recipe:: dicey
    :replaces_section_title:
+   :noindex:
 
    In\-silico PCR and variant primer design
 
@@ -22,18 +23,25 @@ dicey
 
    |downloads_dicey| |docker_dicey|
 
-   :versions: 0.1.7-0, 0.1.6-2, 0.1.6-1, 0.1.6-0
+   :versions:
+      
+      
+
+      ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+
+      
+
    
-   :depends _openmp_mutex: * *_llvm
-   :depends _openmp_mutex: >=4.5
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends llvm-openmp: >=10.0.0
-   :depends llvm-openmp: >=8.0.1
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends _openmp_mutex: ``* *_llvm``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends llvm-openmp: ``>=10.0.0``
+   :depends llvm-openmp: ``>=8.0.1``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

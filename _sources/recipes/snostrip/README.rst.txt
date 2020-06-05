@@ -8,6 +8,7 @@ snostrip
 
 .. conda:recipe:: snostrip
    :replaces_section_title:
+   :noindex:
 
    Automatic snoRNA annotation pipeline
 
@@ -22,15 +23,22 @@ snostrip
 
    |downloads_snostrip| |docker_snostrip|
 
-   :versions: 2.0.2-0
+   :versions:
+      
+      
+
+      ``2.0.2-0``
+
+      
+
    
    :depends blast-legacy: 
    :depends infernal: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends muscle: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends viennarna: >=2.4.11,<2.5.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends viennarna: ``>=2.4.11,<2.5.0a0``
    :requirements:
 
    .. rubric:: Installation

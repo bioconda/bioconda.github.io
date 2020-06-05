@@ -8,6 +8,7 @@ dadaist2
 
 .. conda:recipe:: dadaist2
    :replaces_section_title:
+   :noindex:
 
    Command line wrapper to run DADA2 on a set of paired\-end reads
 
@@ -22,14 +23,21 @@ dadaist2
 
    |downloads_dadaist2| |docker_dadaist2|
 
-   :versions: 0.1.04-0
+   :versions:
+      
+      
+
+      ``0.1.04-0``
+
+      
+
    
    :depends bioconductor-dada2: 
    :depends clustalo: 
    :depends fastp: 
    :depends fasttree: 
    :depends perl: 
-   :depends perl-fastx-reader: >=0.90
+   :depends perl-fastx-reader: ``>=0.90``
    :depends vsearch: 
    :requirements:
 

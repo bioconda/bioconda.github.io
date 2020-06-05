@@ -8,6 +8,7 @@ fusioncatcher-seqtk
 
 .. conda:recipe:: fusioncatcher-seqtk
    :replaces_section_title:
+   :noindex:
 
    This is modified Seqtk version required for FusionCatcher.
 
@@ -22,10 +23,17 @@ fusioncatcher-seqtk
 
    |downloads_fusioncatcher-seqtk| |docker_fusioncatcher-seqtk|
 
-   :versions: 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

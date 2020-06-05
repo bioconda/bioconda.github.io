@@ -8,6 +8,7 @@ fastq-scan
 
 .. conda:recipe:: fastq-scan
    :replaces_section_title:
+   :noindex:
 
    FASTQ summary statistics in JSON format
 
@@ -22,10 +23,17 @@ fastq-scan
 
    |downloads_fastq-scan| |docker_fastq-scan|
 
-   :versions: 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3-1, 0.3-0, 0.2-0
+   :versions:
+      
+      
+
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

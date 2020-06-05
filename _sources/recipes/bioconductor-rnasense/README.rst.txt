@@ -8,6 +8,7 @@ bioconductor-rnasense
 
 .. conda:recipe:: bioconductor-rnasense
    :replaces_section_title:
+   :noindex:
 
    Analysis of Time\-Resolved RNA\-Seq Data
 
@@ -22,11 +23,18 @@ bioconductor-rnasense
 
    |downloads_bioconductor-rnasense| |docker_bioconductor-rnasense|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-nbpseq: 
    :requirements:

@@ -8,6 +8,7 @@ chira
 
 .. conda:recipe:: chira
    :replaces_section_title:
+   :noindex:
 
    An integrated framework for annotation and visualization of chimeric reads.
 
@@ -22,19 +23,34 @@ chira
 
    |downloads_chira| |docker_chira|
 
-   :versions: 1.3.1-1, 1.3.1-0, 1.2.0-0, 1.1.5-0, 1.1.4-0, 1.1.2-0, 1.1.1-0, 1.0.4-0, 1.0.3-0, 1.0.2-2, 1.0.2-1, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+      
+
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bcbiogff: >=0.6.6
-   :depends bedtools: >=2.29.2
-   :depends biopython: >=1.76
-   :depends blockbuster: >=0.0.1.1
-   :depends bwa: >=0.7.17
-   :depends clan: >=0.05
-   :depends coreutils: >=8.31
-   :depends intarna: >=3.2.0
-   :depends pysam: >=0.15.3
-   :depends python: >3
-   :depends samtools: >=1.9
+   :depends bcbiogff: ``>=0.6.6``
+   :depends bedtools: ``>=2.29.2``
+   :depends biopython: ``>=1.76``
+   :depends blockbuster: ``>=0.0.1.1``
+   :depends bwa: ``>=0.7.17``
+   :depends clan: ``>=0.05``
+   :depends coreutils: ``>=8.31``
+   :depends intarna: ``>=3.2.0``
+   :depends pysam: ``>=0.15.3``
+   :depends python: ``>3``
+   :depends samtools: ``>=1.9``
    :requirements:
 
    .. rubric:: Installation

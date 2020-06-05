@@ -8,6 +8,7 @@ xmltramp2
 
 .. conda:recipe:: xmltramp2
    :replaces_section_title:
+   :noindex:
 
    A modern refactoring of the venerable xmltramp application
 
@@ -22,7 +23,14 @@ xmltramp2
 
    |downloads_xmltramp2| |docker_xmltramp2|
 
-   :versions: 3.1.1-1, 3.1.1-0
+   :versions:
+      
+      
+
+      ``3.1.1-1``,  ``3.1.1-0``
+
+      
+
    
    :depends python: 
    :depends six: 

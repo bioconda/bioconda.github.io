@@ -8,6 +8,7 @@ wise2
 
 .. conda:recipe:: wise2
    :replaces_section_title:
+   :noindex:
 
    The Wise2.4 package is the \"revival\" release of Wise2
 
@@ -22,11 +23,18 @@ wise2
 
    |downloads_wise2| |docker_wise2|
 
-   :versions: 2.4.1-0
+   :versions:
+      
+      
+
+      ``2.4.1-0``
+
+      
+
    
-   :depends glib: >=2.58.3,<3.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends glib: ``>=2.58.3,<3.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

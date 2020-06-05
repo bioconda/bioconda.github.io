@@ -8,6 +8,7 @@ bioconductor-melissa
 
 .. conda:recipe:: bioconductor-melissa
    :replaces_section_title:
+   :noindex:
 
    Bayesian clustering and imputationa of single cell methylomes
 
@@ -22,13 +23,20 @@ bioconductor-melissa
 
    |downloads_bioconductor-melissa| |docker_bioconductor-melissa|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocstyle: >=2.16.0,<2.17.0
-   :depends bioconductor-bprmeth: >=1.14.0,<1.15.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
+   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-bprmeth: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-clues: 
    :depends r-cowplot: 
    :depends r-data.table: 

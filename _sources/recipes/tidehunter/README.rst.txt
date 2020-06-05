@@ -8,6 +8,7 @@ tidehunter
 
 .. conda:recipe:: tidehunter
    :replaces_section_title:
+   :noindex:
 
    TideHunter\: efficient and sensitive tandem repeat detection from noisy long reads using seed\-and\-chain
 
@@ -22,11 +23,18 @@ tidehunter
 
    |downloads_tidehunter| |docker_tidehunter|
 
-   :versions: 1.4.2-0, 1.4.1-0, 1.4.0-0, 1.3.0-0, 1.2.2-1, 1.2.2-0
+   :versions:
+      
+      
+
+      ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

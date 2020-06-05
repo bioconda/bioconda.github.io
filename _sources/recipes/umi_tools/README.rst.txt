@@ -8,6 +8,7 @@ umi_tools
 
 .. conda:recipe:: umi_tools
    :replaces_section_title:
+   :noindex:
 
    Tools for dealing with Unique Molecular Identifiers \(UMIs\) \/ Random Molecular Tags \(RMTs\)
 
@@ -22,15 +23,30 @@ umi_tools
 
    |downloads_umi_tools| |docker_umi_tools|
 
-   :versions: 1.0.1-1, 1.0.1-0, 1.0.0-1, 1.0.0-0, 0.5.5-1, 0.5.5-0, 0.5.4-3, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-1, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.4-0, 0.4.3-0, 0.2.3-2, 0.2.3-1, 0.2.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.5.4-3</code>,  <code>0.5.4-2</code>,  <code>0.5.4-1</code>,  </span></summary>
+      
+
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends future: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends matplotlib-base: 
-   :depends numpy: >=1.7
-   :depends pandas: >=0.12.0
-   :depends pysam: >=0.9
-   :depends python: >=3.6,<3.7.0a0
+   :depends numpy: ``>=1.7``
+   :depends pandas: ``>=0.12.0``
+   :depends pysam: ``>=0.9``
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends regex: 
    :depends scipy: 
    :requirements:

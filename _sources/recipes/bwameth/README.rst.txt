@@ -8,6 +8,7 @@ bwameth
 
 .. conda:recipe:: bwameth
    :replaces_section_title:
+   :noindex:
 
    A fast and accurate aligner of BS\-seq reads
 
@@ -22,12 +23,19 @@ bwameth
 
    |downloads_bwameth| |docker_bwameth|
 
-   :versions: 0.2.2-1, 0.2.1-1, 0.2.1-0, 0.2.0-1, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
+
+      
+
    
    :depends bwa: 
    :depends python: 
    :depends samtools: 
-   :depends toolshed: >=0.3.9
+   :depends toolshed: ``>=0.3.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ fgwas
 
 .. conda:recipe:: fgwas
    :replaces_section_title:
+   :noindex:
 
    fgwas is a command line tool for integrating functional genomic information into a genome\-wide association study \(GWAS\).
 
@@ -22,13 +23,20 @@ fgwas
 
    |downloads_fgwas| |docker_fgwas|
 
-   :versions: 0.3.6-0
+   :versions:
+      
+      
+
+      ``0.3.6-0``
+
+      
+
    
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

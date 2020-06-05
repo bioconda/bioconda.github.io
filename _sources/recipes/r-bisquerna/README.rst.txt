@@ -8,6 +8,7 @@ r-bisquerna
 
 .. conda:recipe:: r-bisquerna
    :replaces_section_title:
+   :noindex:
 
    Provides tools to accurately estimate cell type abundances from heterogeneous bulk expression.
 
@@ -22,10 +23,17 @@ r-bisquerna
 
    |downloads_r-bisquerna| |docker_r-bisquerna|
 
-   :versions: 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends bioconductor-biobase: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-limsolve: 
    :requirements:
 

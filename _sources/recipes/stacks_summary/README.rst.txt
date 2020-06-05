@@ -8,6 +8,7 @@ stacks_summary
 
 .. conda:recipe:: stacks_summary
    :replaces_section_title:
+   :noindex:
 
    Stacks reports generator
 
@@ -22,10 +23,17 @@ stacks_summary
 
    |downloads_stacks_summary| |docker_stacks_summary|
 
-   :versions: 1.1-1, 1.1-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

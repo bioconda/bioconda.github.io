@@ -8,6 +8,7 @@ bioconductor-sspaths
 
 .. conda:recipe:: bioconductor-sspaths
    :replaces_section_title:
+   :noindex:
 
    ssPATHS\: Single Sample PATHway Score
 
@@ -22,10 +23,17 @@ bioconductor-sspaths
 
    |downloads_bioconductor-sspaths| |docker_bioconductor-sspaths|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dml: 
    :depends r-mess: 
    :depends r-rocr: 

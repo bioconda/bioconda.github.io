@@ -8,6 +8,7 @@ metaprob
 
 .. conda:recipe:: metaprob
    :replaces_section_title:
+   :noindex:
 
    assembly\-assisted tool for un\-supervised metagenomic binning
 
@@ -32,9 +33,16 @@ metaprob
 
    |downloads_metaprob| |docker_metaprob|
 
-   :versions: 2-1, 2-0
+   :versions:
+      
+      
+
+      ``2-1``,  ``2-0``
+
+      
+
    
-   :depends boost: 1.61*
+   :depends boost: ``1.61*``
    :depends eigen: 
    :depends libgcc: 
    :requirements:

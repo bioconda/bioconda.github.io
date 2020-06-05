@@ -8,6 +8,7 @@ bioconductor-ggtree
 
 .. conda:recipe:: bioconductor-ggtree
    :replaces_section_title:
+   :noindex:
 
    an R package for visualization of tree and annotation data
 
@@ -23,20 +24,35 @@ bioconductor-ggtree
 
    |downloads_bioconductor-ggtree| |docker_bioconductor-ggtree|
 
-   :versions: 2.2.1-0, 2.0.0-0, 1.16.3-0, 1.16.0-0, 1.14.6-0, 1.14.4-0, 1.12.7-0, 1.10.0-0, 1.8.2-0, 1.4.20-0, 1.2.12-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.1-0</code>,  <code>2.0.0-0</code>,  <code>1.16.3-0</code>,  <code>1.16.0-0</code>,  <code>1.14.6-0</code>,  <code>1.14.4-0</code>,  <code>1.12.7-0</code>,  <code>1.10.0-0</code>,  <code>1.8.2-0</code>,  </span></summary>
+      
+
+      ``2.2.1-0``,  ``2.0.0-0``,  ``1.16.3-0``,  ``1.16.0-0``,  ``1.14.6-0``,  ``1.14.4-0``,  ``1.12.7-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.4.20-0``,  ``1.2.12-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-treeio: >=1.12.0,<1.13.0
+   :depends bioconductor-treeio: ``>=1.12.0,<1.13.0``
    :depends r-ape: 
-   :depends r-aplot: >=0.0.4
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-aplot: ``>=0.0.4``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
-   :depends r-ggplot2: >=3.0.0
+   :depends r-ggplot2: ``>=3.0.0``
    :depends r-magrittr: 
    :depends r-purrr: 
    :depends r-rlang: 
    :depends r-rvcheck: 
    :depends r-tidyr: 
-   :depends r-tidytree: >=0.2.6
+   :depends r-tidytree: ``>=0.2.6``
    :requirements:
 
    .. rubric:: Installation

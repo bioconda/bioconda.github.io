@@ -8,6 +8,7 @@ bioconductor-fdb.ucsc.trnas
 
 .. conda:recipe:: bioconductor-fdb.ucsc.trnas
    :replaces_section_title:
+   :noindex:
 
    Annotation package for FeatureDb object\(s\)
 
@@ -22,12 +23,19 @@ bioconductor-fdb.ucsc.trnas
 
    |downloads_bioconductor-fdb.ucsc.trnas| |docker_bioconductor-fdb.ucsc.trnas|
 
-   :versions: 1.0.1-4, 1.0.1-3, 1.0.1-2, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

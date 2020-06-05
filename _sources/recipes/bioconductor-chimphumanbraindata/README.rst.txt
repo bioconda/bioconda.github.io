@@ -8,6 +8,7 @@ bioconductor-chimphumanbraindata
 
 .. conda:recipe:: bioconductor-chimphumanbraindata
    :replaces_section_title:
+   :noindex:
 
    Chimp and human brain data package
 
@@ -22,13 +23,20 @@ bioconductor-chimphumanbraindata
 
    |downloads_bioconductor-chimphumanbraindata| |docker_bioconductor-chimphumanbraindata|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hexbin: 
    :depends r-statmod: 
    :requirements:

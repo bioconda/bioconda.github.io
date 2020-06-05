@@ -8,6 +8,7 @@ denovogear
 
 .. conda:recipe:: denovogear
    :replaces_section_title:
+   :noindex:
 
    A program to detect denovo\-variants using next\-generation sequencing data.
 
@@ -22,7 +23,14 @@ denovogear
 
    |downloads_denovogear| |docker_denovogear|
 
-   :versions: 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``
+
+      
+
    
    :depends boost: 
    :depends eigen: 

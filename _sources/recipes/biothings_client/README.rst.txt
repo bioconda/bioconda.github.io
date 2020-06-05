@@ -8,6 +8,7 @@ biothings_client
 
 .. conda:recipe:: biothings_client
    :replaces_section_title:
+   :noindex:
 
    Python Client for BioThings API services.
 
@@ -22,10 +23,17 @@ biothings_client
 
    |downloads_biothings_client| |docker_biothings_client|
 
-   :versions: 0.2.1-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.1-0``,  ``0.2.0-0``
+
+      
+
    
    :depends python: 
-   :depends requests: >=2.3.0
+   :depends requests: ``>=2.3.0``
    :requirements:
 
    .. rubric:: Installation

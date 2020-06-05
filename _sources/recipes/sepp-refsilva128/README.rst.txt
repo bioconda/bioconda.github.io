@@ -8,6 +8,7 @@ sepp-refsilva128
 
 .. conda:recipe:: sepp-refsilva128
    :replaces_section_title:
+   :noindex:
 
    SATe\-enabled phylogenetic placement
 
@@ -23,7 +24,14 @@ sepp-refsilva128
 
    |downloads_sepp-refsilva128| |docker_sepp-refsilva128|
 
-   :versions: 4.3.6-0
+   :versions:
+      
+      
+
+      ``4.3.6-0``
+
+      
+
    
    :requirements:
 

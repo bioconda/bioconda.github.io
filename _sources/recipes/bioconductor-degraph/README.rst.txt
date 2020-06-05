@@ -8,6 +8,7 @@ bioconductor-degraph
 
 .. conda:recipe:: bioconductor-degraph
    :replaces_section_title:
+   :noindex:
 
    Two\-sample tests on a graph
 
@@ -23,14 +24,21 @@ bioconductor-degraph
 
    |downloads_bioconductor-degraph| |docker_bioconductor-degraph|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   :versions:
+      
+      
+
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
+
+      
+
    
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-kegggraph: >=1.48.0,<1.49.0
-   :depends bioconductor-ncigraph: >=1.36.0,<1.37.0
-   :depends bioconductor-rbgl: >=1.64.0,<1.65.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-kegggraph: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-ncigraph: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-rbgl: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-lattice: 
    :depends r-mvtnorm: 
    :depends r-r.methodss3: 

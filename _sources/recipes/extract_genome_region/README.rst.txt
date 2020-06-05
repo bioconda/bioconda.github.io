@@ -8,6 +8,7 @@ extract_genome_region
 
 .. conda:recipe:: extract_genome_region
    :replaces_section_title:
+   :noindex:
 
    Given a CSV file of variable information defining the regions of interest\, return a file that contains a fasta\-formatted representation of these regions.
 
@@ -22,7 +23,14 @@ extract_genome_region
 
    |downloads_extract_genome_region| |docker_extract_genome_region|
 
-   :versions: 0.0.3-2, 0.0.3-1, 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``
+
+      
+
    
    :depends click: 
    :depends pyfaidx: 

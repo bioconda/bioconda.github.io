@@ -8,6 +8,7 @@ rasusa
 
 .. conda:recipe:: rasusa
    :replaces_section_title:
+   :noindex:
 
    Randomly subsample sequencing reads to a specified coverage
 
@@ -22,9 +23,16 @@ rasusa
 
    |downloads_rasusa| |docker_rasusa|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ yass
 
 .. conda:recipe:: yass
    :replaces_section_title:
+   :noindex:
 
    YASS is a genomic similarity search tool\, for nucleic \(DNA\/RNA\) sequences in fasta or plain text format.
 
@@ -23,9 +24,16 @@ yass
 
    |downloads_yass| |docker_yass|
 
-   :versions: 1.14-1, 1.14-0
+   :versions:
+      
+      
+
+      ``1.14-1``,  ``1.14-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-scalign
 
 .. conda:recipe:: bioconductor-scalign
    :replaces_section_title:
+   :noindex:
 
    An alignment and integration method for single cell genomics
 
@@ -22,18 +23,25 @@ bioconductor-scalign
 
    |downloads_bioconductor-scalign| |docker_bioconductor-scalign|
 
-   :versions: 1.3.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.3.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends python: <3.7
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends python: ``<3.7``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fnn: 
    :depends r-ggplot2: 
    :depends r-irlba: 
    :depends r-pma: 
    :depends r-purrr: 
    :depends r-rtsne: 
-   :depends r-seurat: >=2.3.4
+   :depends r-seurat: ``>=2.3.4``
    :depends r-tensorflow: 
    :depends tensorflow: 
    :requirements:

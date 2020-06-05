@@ -8,6 +8,7 @@ taxsbp
 
 .. conda:recipe:: taxsbp
    :replaces_section_title:
+   :noindex:
 
    TaxSBP\: taxonomic structured bin packing
 
@@ -26,10 +27,17 @@ taxsbp
 
    |downloads_taxsbp| |docker_taxsbp|
 
-   :versions: 0.1.2-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``,  ``0.1.1-0``
+
+      
+
    
-   :depends binpacking: >=1.4.1
-   :depends python: >=3.4
+   :depends binpacking: ``>=1.4.1``
+   :depends python: ``>=3.4``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-glmsparsenet
 
 .. conda:recipe:: bioconductor-glmsparsenet
    :replaces_section_title:
+   :noindex:
 
    Network Centrality Metrics for Elastic\-Net Regularized Models
 
@@ -22,19 +23,26 @@ bioconductor-glmsparsenet
 
    |downloads_bioconductor-glmsparsenet| |docker_bioconductor-glmsparsenet|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-stringdb: >=2.0.0,<2.1.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-stringdb: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-futile.logger: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
-   :depends r-loose.rock: >=1.0.12
+   :depends r-loose.rock: ``>=1.0.12``
    :depends r-matrix: 
    :depends r-readr: 
    :depends r-reshape2: 

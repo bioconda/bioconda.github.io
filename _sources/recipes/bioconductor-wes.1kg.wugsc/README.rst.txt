@@ -8,6 +8,7 @@ bioconductor-wes.1kg.wugsc
 
 .. conda:recipe:: bioconductor-wes.1kg.wugsc
    :replaces_section_title:
+   :noindex:
 
    Whole Exome Sequencing \(WES\) of chromosome 22 401st to 500th exon from the 1000 Genomes \(1KG\) Project by the Washington University Genome Sequencing Center \(WUGSC\).
 
@@ -22,10 +23,17 @@ bioconductor-wes.1kg.wugsc
 
    |downloads_bioconductor-wes.1kg.wugsc| |docker_bioconductor-wes.1kg.wugsc|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

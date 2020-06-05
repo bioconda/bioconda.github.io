@@ -8,6 +8,7 @@ biomaj
 
 .. conda:recipe:: biomaj
    :replaces_section_title:
+   :noindex:
 
    Automates the update cycle and the supervision of the locally mirrored databank repository
 
@@ -23,7 +24,14 @@ biomaj
 
    |downloads_biomaj| |docker_biomaj|
 
-   :versions: 3.0.19-0
+   :versions:
+      
+      
+
+      ``3.0.19-0``
+
+      
+
    
    :depends bcrypt: 
    :depends drmaa: 
@@ -32,7 +40,7 @@ biomaj
    :depends ldap3: 
    :depends pycurl: 
    :depends pymongo: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends tabulate: 
    :requirements:
 

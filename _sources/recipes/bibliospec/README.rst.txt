@@ -8,6 +8,7 @@ bibliospec
 
 .. conda:recipe:: bibliospec
    :replaces_section_title:
+   :noindex:
 
    The BiblioSpec Spetral Library tool suite
 
@@ -22,9 +23,16 @@ bibliospec
 
    |downloads_bibliospec| |docker_bibliospec|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

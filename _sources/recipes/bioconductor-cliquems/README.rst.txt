@@ -8,6 +8,7 @@ bioconductor-cliquems
 
 .. conda:recipe:: bioconductor-cliquems
    :replaces_section_title:
+   :noindex:
 
    Annotation of Isotopes\, Adducts and Fragmentation Adducts for in\-Source LC\/MS Metabolomics Data
 
@@ -22,20 +23,27 @@ bioconductor-cliquems
 
    |downloads_bioconductor-cliquems| |docker_bioconductor-cliquems|
 
-   :versions: 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-xcms: >=3.10.0,<3.11.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-xcms: ``>=3.10.0,<3.11.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bh: 
    :depends r-igraph: 
    :depends r-matrixstats: 
    :depends r-qlcmatrix: 
-   :depends r-rcpp: >=0.12.15
+   :depends r-rcpp: ``>=0.12.15``
    :depends r-rcpparmadillo: 
    :requirements:
 

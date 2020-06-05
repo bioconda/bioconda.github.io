@@ -8,6 +8,7 @@ bioconductor-slingshot
 
 .. conda:recipe:: bioconductor-slingshot
    :replaces_section_title:
+   :noindex:
 
    Tools for ordering single\-cell sequencing
 
@@ -22,15 +23,22 @@ bioconductor-slingshot
 
    |downloads_bioconductor-slingshot| |docker_bioconductor-slingshot|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-matrixstats: 
-   :depends r-princurve: >=2.0.4
+   :depends r-princurve: ``>=2.0.4``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-treeandleaf
 
 .. conda:recipe:: bioconductor-treeandleaf
    :replaces_section_title:
+   :noindex:
 
    An alternative to dendrogram visualization and insertion of multiple layers of information
 
@@ -22,11 +23,18 @@ bioconductor-treeandleaf
 
    |downloads_bioconductor-treeandleaf| |docker_bioconductor-treeandleaf|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-reder: >=1.36.0,<1.37.0
+   :depends bioconductor-reder: ``>=1.36.0,<1.37.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :requirements:
 

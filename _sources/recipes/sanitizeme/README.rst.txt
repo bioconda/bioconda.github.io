@@ -8,6 +8,7 @@ sanitizeme
 
 .. conda:recipe:: sanitizeme
    :replaces_section_title:
+   :noindex:
 
    GUI and CLI tool for removing host DNA from NGS data.
 
@@ -22,14 +23,21 @@ sanitizeme
 
    |downloads_sanitizeme| |docker_sanitizeme|
 
-   :versions: 1.1-1, 1.1-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends colored: 
    :depends gawk: 
    :depends gooey: 
    :depends grep: 
    :depends minimap2: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends samtools: 
    :requirements:
 

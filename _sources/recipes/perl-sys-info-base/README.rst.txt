@@ -8,6 +8,7 @@ perl-sys-info-base
 
 .. conda:recipe:: perl-sys-info-base
    :replaces_section_title:
+   :noindex:
 
    Base class for Sys\:\:Info
 
@@ -22,9 +23,16 @@ perl-sys-info-base
 
    |downloads_perl-sys-info-base| |docker_perl-sys-info-base|
 
-   :versions: 0.7807-0, 0.7804-0
+   :versions:
+      
+      
+
+      ``0.7807-0``,  ``0.7804-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-text-template-simple: 
    :requirements:
 

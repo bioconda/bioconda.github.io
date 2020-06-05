@@ -8,6 +8,7 @@ proteowizard
 
 .. conda:recipe:: proteowizard
    :replaces_section_title:
+   :noindex:
 
    Tools for dealing with mass spectrometry files \(e.g.\, mzML\, mzXML\, mzIdentML\, MGF\)
 
@@ -23,9 +24,16 @@ proteowizard
 
    |downloads_proteowizard| |docker_proteowizard|
 
-   :versions: 3_0_9992-2, 3_0_9992-0
+   :versions:
+      
+      
+
+      ``3_0_9992-2``,  ``3_0_9992-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

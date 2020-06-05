@@ -8,6 +8,7 @@ maxentscan
 
 .. conda:recipe:: maxentscan
    :replaces_section_title:
+   :noindex:
 
    MaxEntScan is based on the approach for modeling the sequences of short sequence motifs such as those involved in RNA splicing which simultaneously accounts for non\-adjacent as well as adjacent dependencies between positions. This method is based on the \'Maximum Entropy Principle\' and generalizes most previous probabilistic models of sequence motifs such as weight matrix models and inhomogeneous Markov models.
 
@@ -22,9 +23,16 @@ maxentscan
 
    |downloads_maxentscan| |docker_maxentscan|
 
-   :versions: 0_2004.04.21-2, 0_2004.04.21-1, 0_2004.04.21-0
+   :versions:
+      
+      
+
+      ``0_2004.04.21-2``,  ``0_2004.04.21-1``,  ``0_2004.04.21-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

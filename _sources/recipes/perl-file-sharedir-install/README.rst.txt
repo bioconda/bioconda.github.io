@@ -8,6 +8,7 @@ perl-file-sharedir-install
 
 .. conda:recipe:: perl-file-sharedir-install
    :replaces_section_title:
+   :noindex:
 
    Install shared files
 
@@ -22,9 +23,16 @@ perl-file-sharedir-install
 
    |downloads_perl-file-sharedir-install| |docker_perl-file-sharedir-install|
 
-   :versions: 0.13-0, 0.10-4, 0.10-3, 0.10-2, 0.10-1, 0.10-0
+   :versions:
+      
+      
+
+      ``0.13-0``,  ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :requirements:

@@ -8,6 +8,7 @@ cromshell
 
 .. conda:recipe:: cromshell
    :replaces_section_title:
+   :noindex:
 
    Command\-line interface to the Cromwell workflow manager
 
@@ -22,7 +23,22 @@ cromshell
 
    |downloads_cromshell| |docker_cromshell|
 
-   :versions: 0.4.2-0, 0.4.1-0, 0.4.0-0, 0.3.12-0, 0.3.11-0, 0.3.10-1, 0.3.10-0, 0.3.9-0, 0.3.8-0, 0.3.6-0, 0.3.4-0, 0.3.3-0, 0.2.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-1</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  </span></summary>
+      
+
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends jq: 
    :depends womtool: 

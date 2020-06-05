@@ -8,6 +8,7 @@ perl-prefork
 
 .. conda:recipe:: perl-prefork/1.05
    :replaces_section_title:
+   :noindex:
 
    Optimized module loading for forking or non\-forking processes
 
@@ -22,9 +23,16 @@ perl-prefork
 
    |downloads_perl-prefork| |docker_perl-prefork|
 
-   :versions: 1.05-0
+   :versions:
+      
+      
+
+      ``1.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :requirements:
 

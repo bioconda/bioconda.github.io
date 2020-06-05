@@ -8,6 +8,7 @@ perl-text-csv_xs
 
 .. conda:recipe:: perl-text-csv_xs
    :replaces_section_title:
+   :noindex:
 
    Text\:\:CSV\_XS \- comma\-separated values manipulation routines
 
@@ -22,10 +23,17 @@ perl-text-csv_xs
 
    |downloads_perl-text-csv_xs| |docker_perl-text-csv_xs|
 
-   :versions: 1.40-0
+   :versions:
+      
+      
+
+      ``1.40-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-test-harness: 
    :depends perl-text-csv: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-dorothea
 
 .. conda:recipe:: bioconductor-dorothea
    :replaces_section_title:
+   :noindex:
 
    Collection Of Human And Mouse TF Regulons
 
@@ -22,11 +23,18 @@ bioconductor-dorothea
 
    |downloads_bioconductor-dorothea| |docker_bioconductor-dorothea|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-bcellviper: >=1.24.0,<1.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bcellviper: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
    :requirements:

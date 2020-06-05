@@ -8,6 +8,7 @@ bioconductor-fastqcleaner
 
 .. conda:recipe:: bioconductor-fastqcleaner
    :replaces_section_title:
+   :noindex:
 
    A Shiny Application for Quality Control\, Filtering and Trimming of FASTQ Files
 
@@ -22,20 +23,27 @@ bioconductor-fastqcleaner
 
    |downloads_bioconductor-fastqcleaner| |docker_bioconductor-fastqcleaner|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-shortread: >=1.46.0,<1.47.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-shortread: ``>=1.46.0,<1.47.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dt: 
    :depends r-htmltools: 
-   :depends r-rcpp: >=0.12.12
+   :depends r-rcpp: ``>=0.12.12``
    :depends r-shiny: 
    :depends r-shinybs: 
    :requirements:

@@ -8,6 +8,7 @@ perl-image-info
 
 .. conda:recipe:: perl-image-info
    :replaces_section_title:
+   :noindex:
 
    Extract meta information from image files
 
@@ -22,9 +23,16 @@ perl-image-info
 
    |downloads_perl-image-info| |docker_perl-image-info|
 
-   :versions: 1.38-1, 1.38-0
+   :versions:
+      
+      
+
+      ``1.38-1``,  ``1.38-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-io-stringy: 
    :depends perl-xml-libxml: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-cola
 
 .. conda:recipe:: bioconductor-cola
    :replaces_section_title:
+   :noindex:
 
    A Framework for Consensus Partitioning
 
@@ -22,25 +23,32 @@ bioconductor-cola
 
    |downloads_bioconductor-cola| |docker_bioconductor-cola|
 
-   :versions: 1.4.1-0, 1.2.0-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
-   :depends bioconductor-impute: >=1.62.0,<1.63.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-brew: 
-   :depends r-circlize: >=0.4.7
+   :depends r-circlize: ``>=0.4.7``
    :depends r-clue: 
    :depends r-cluster: 
    :depends r-crayon: 
    :depends r-digest: 
    :depends r-eulerr: 
    :depends r-getoptlong: 
-   :depends r-globaloptions: >=0.1.0
+   :depends r-globaloptions: ``>=0.1.0``
    :depends r-httr: 
    :depends r-knitr: 
    :depends r-markdown: 
@@ -49,7 +57,7 @@ bioconductor-cola
    :depends r-microbenchmark: 
    :depends r-png: 
    :depends r-rcolorbrewer: 
-   :depends r-rcpp: >=0.11.0
+   :depends r-rcpp: ``>=0.11.0``
    :depends r-skmeans: 
    :depends r-xml2: 
    :requirements:

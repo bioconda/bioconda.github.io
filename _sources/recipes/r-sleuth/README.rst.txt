@@ -8,6 +8,7 @@ r-sleuth
 
 .. conda:recipe:: r-sleuth
    :replaces_section_title:
+   :noindex:
 
    Sleuth is an R library for analysis of RNA\-Seq experiments for which transcript abundances have been quantified with kallisto.
 
@@ -22,11 +23,18 @@ r-sleuth
 
    |downloads_r-sleuth| |docker_r-sleuth|
 
-   :versions: 0.30.0-3, 0.30.0-2, 0.30.0-1, 0.30.0-0, 0.29.0-0, 0.28.0-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.30.0-3``,  ``0.30.0-2``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.0-0``,  ``0.28.0-0``,  ``0.0.1-0``
+
+      
+
    
    :depends bioconductor-rhdf5: 
    :depends r-aggregation: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

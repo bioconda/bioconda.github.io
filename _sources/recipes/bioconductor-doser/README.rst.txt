@@ -8,6 +8,7 @@ bioconductor-doser
 
 .. conda:recipe:: bioconductor-doser
    :replaces_section_title:
+   :noindex:
 
    doseR
 
@@ -22,12 +23,19 @@ bioconductor-doser
 
    |downloads_bioconductor-doser| |docker_bioconductor-doser|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-digest: 
    :depends r-lme4: 
    :depends r-matrixstats: 

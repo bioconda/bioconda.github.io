@@ -8,6 +8,7 @@ hcluster_sg
 
 .. conda:recipe:: hcluster_sg
    :replaces_section_title:
+   :noindex:
 
    A tool for hierarchically clustering on a sparse graph
 
@@ -22,9 +23,16 @@ hcluster_sg
 
    |downloads_hcluster_sg| |docker_hcluster_sg|
 
-   :versions: 0.5.1-2, 0.5.1-1, 0.5.1-0
+   :versions:
+      
+      
+
+      ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-alsace
 
 .. conda:recipe:: bioconductor-alsace
    :replaces_section_title:
+   :noindex:
 
    ALS for the Automatic Chemical Exploration of mixtures
 
@@ -22,11 +23,18 @@ bioconductor-alsace
 
    |downloads_bioconductor-alsace| |docker_bioconductor-alsace|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
    :depends r-als: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-ptw: >=1.0.6
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ptw: ``>=1.0.6``
    :requirements:
 
    .. rubric:: Installation

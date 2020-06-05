@@ -8,6 +8,7 @@ deeptools
 
 .. conda:recipe:: deeptools
    :replaces_section_title:
+   :noindex:
 
    A set of user\-friendly tools for normalization and visualzation of deep\-sequencing data
 
@@ -23,17 +24,32 @@ deeptools
 
    |downloads_deeptools| |docker_deeptools|
 
-   :versions: 3.4.3-0, 3.4.2-0, 3.4.1-0, 3.4.0-0, 3.3.2-1, 3.3.2-0, 3.3.1-0, 3.3.0-0, 3.2.1-0, 3.2.0-0, 3.1.3-1, 3.1.3-0, 3.1.2-0, 3.1.1-0, 3.1.0-0, 3.0.2-0, 3.0.1-1, 3.0.1-0, 3.0.0-0, 2.5.7-0, 2.5.6-0, 2.5.5-0, 2.5.4-0, 2.5.3-0, 2.5.2-0, 2.5.1-0, 2.5.0-0, 2.4.3-0, 2.4.2-0, 2.4.1-1, 2.4.1-0, 2.4.0-0, 2.3.6-2, 2.3.6-1, 2.3.5-2, 2.3.5-1, 2.3.5-0, 2.3.4-0, 2.3.3-0, 2.3.2-0, 2.3.1-0, 2.2.4-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.2.0-0, 2.1.0-0, 2.0.1-0, 2.0.0-0, 1.5.9.1-0, 1.5.8.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.1-0</code>,  </span></summary>
+      
+
+      ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.6-2``,  ``2.3.6-1``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.9.1-0``,  ``1.5.8.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends deeptoolsintervals: >=0.1.8
-   :depends matplotlib-base: >=3.1.0
-   :depends numpy: >=1.9.0
-   :depends plotly: >=2.0.0
-   :depends py2bit: >=0.2.0
-   :depends pybigwig: >=0.2.3
-   :depends pysam: >=0.14.0
-   :depends python: >=3
-   :depends scipy: >=0.17.0
+   :depends deeptoolsintervals: ``>=0.1.8``
+   :depends matplotlib-base: ``>=3.1.0``
+   :depends numpy: ``>=1.9.0``
+   :depends plotly: ``>=2.0.0``
+   :depends py2bit: ``>=0.2.0``
+   :depends pybigwig: ``>=0.2.3``
+   :depends pysam: ``>=0.14.0``
+   :depends python: ``>=3``
+   :depends scipy: ``>=0.17.0``
    :requirements:
 
    .. rubric:: Installation

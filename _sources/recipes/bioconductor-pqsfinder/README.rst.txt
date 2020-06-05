@@ -8,6 +8,7 @@ bioconductor-pqsfinder
 
 .. conda:recipe:: bioconductor-pqsfinder
    :replaces_section_title:
+   :noindex:
 
    Identification of potential quadruplex forming sequences
 
@@ -23,19 +24,26 @@ bioconductor-pqsfinder
 
    |downloads_bioconductor-pqsfinder| |docker_bioconductor-pqsfinder|
 
-   :versions: 2.4.0-0, 2.2.0-0, 2.0.1-0, 1.10.0-0, 1.8.0-0, 1.6.3-0
+   :versions:
+      
+      
+
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.3-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-bh: >=1.69.0
-   :depends r-rcpp: >=0.12.3
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bh: ``>=1.69.0``
+   :depends r-rcpp: ``>=0.12.3``
    :requirements:
 
    .. rubric:: Installation

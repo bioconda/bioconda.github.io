@@ -8,6 +8,7 @@ bioconductor-procoil
 
 .. conda:recipe:: bioconductor-procoil
    :replaces_section_title:
+   :noindex:
 
    Prediction of Oligomerization of Coiled Coil Proteins
 
@@ -23,12 +24,19 @@ bioconductor-procoil
 
    |downloads_bioconductor-procoil| |docker_bioconductor-procoil|
 
-   :versions: 2.16.0-0, 2.14.0-0, 2.12.0-1, 2.10.0-0, 2.8.0-0, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-kebabs: >=1.22.0,<1.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-kebabs: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

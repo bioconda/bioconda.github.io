@@ -8,6 +8,7 @@ cameo
 
 .. conda:recipe:: cameo
    :replaces_section_title:
+   :noindex:
 
    cameo \- computer aided metabolic engineering \& optimization
 
@@ -22,29 +23,36 @@ cameo
 
    |downloads_cameo| |docker_cameo|
 
-   :versions: 0.11.15-0
+   :versions:
+      
+      
+
+      ``0.11.15-0``
+
+      
+
    
-   :depends blessings: >=1.5.1
-   :depends click: >=6.7
-   :depends cobra: >=0.11.1
-   :depends escher: >=1.1.2
-   :depends future: >=0.15.2
-   :depends gnomic: >=1.0.1
-   :depends inspyred: >=1.0
-   :depends iprogress: >=0.4
-   :depends lazy-object-proxy: >=1.2.0
-   :depends networkx: >=1.9.1
-   :depends numexpr: >=2.4
-   :depends numpy: >=1.9.1
-   :depends openpyxl: >=2.4.5
-   :depends optlang: >=1.2.1
-   :depends ordered-set: >=1.2
-   :depends palettable: >=2.1.1
-   :depends pandas: >=0.24.0
-   :depends python: >=3.6
-   :depends requests: >=2.10.0
-   :depends scipy: >=0.14.0
-   :depends six: >=1.9.0
+   :depends blessings: ``>=1.5.1``
+   :depends click: ``>=6.7``
+   :depends cobra: ``>=0.11.1``
+   :depends escher: ``>=1.1.2``
+   :depends future: ``>=0.15.2``
+   :depends gnomic: ``>=1.0.1``
+   :depends inspyred: ``>=1.0``
+   :depends iprogress: ``>=0.4``
+   :depends lazy-object-proxy: ``>=1.2.0``
+   :depends networkx: ``>=1.9.1``
+   :depends numexpr: ``>=2.4``
+   :depends numpy: ``>=1.9.1``
+   :depends openpyxl: ``>=2.4.5``
+   :depends optlang: ``>=1.2.1``
+   :depends ordered-set: ``>=1.2``
+   :depends palettable: ``>=2.1.1``
+   :depends pandas: ``>=0.24.0``
+   :depends python: ``>=3.6``
+   :depends requests: ``>=2.10.0``
+   :depends scipy: ``>=0.14.0``
+   :depends six: ``>=1.9.0``
    :requirements:
 
    .. rubric:: Installation

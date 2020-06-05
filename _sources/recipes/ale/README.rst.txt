@@ -8,6 +8,7 @@ ale
 
 .. conda:recipe:: ale
    :replaces_section_title:
+   :noindex:
 
    ALE\: Assembly Likelihood Estimator
 
@@ -22,15 +23,22 @@ ale
 
    |downloads_ale| |docker_ale|
 
-   :versions: 20180904-0, 20160127-1, 20160127-0
+   :versions:
+      
+      
+
+      ``20180904-0``,  ``20160127-1``,  ``20160127-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends matplotlib: 
    :depends mpmath: 
    :depends pymix: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends samtools: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ cortex_con
 
 .. conda:recipe:: cortex_con
    :replaces_section_title:
+   :noindex:
 
    cortex\_con \(primary contact Mario Caccamo\) is for consensus genome assembly
 
@@ -23,9 +24,16 @@ cortex_con
 
    |downloads_cortex_con| |docker_cortex_con|
 
-   :versions: 0.04c-1, 0.04c-0
+   :versions:
+      
+      
+
+      ``0.04c-1``,  ``0.04c-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

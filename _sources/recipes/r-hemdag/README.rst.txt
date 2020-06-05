@@ -8,6 +8,7 @@ r-hemdag
 
 .. conda:recipe:: r-hemdag
    :replaces_section_title:
+   :noindex:
 
    a collection of Hierarchical Ensemble Methods \(HEMs\) for Directed Acyclic Graphs \(DAGs\).
 
@@ -36,14 +37,29 @@ r-hemdag
 
    |downloads_r-hemdag| |docker_r-hemdag|
 
-   :versions: 2.6.1-1, 2.6.1-0, 2.6.0-0, 2.5.9-0, 2.4.8-0, 2.4.7-1, 2.4.7-0, 2.2.5-1, 2.2.5-0, 2.1.3-0, 2.1.2-0, 2.0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.9-0</code>,  <code>2.4.8-0</code>,  <code>2.4.7-1</code>,  <code>2.4.7-0</code>,  <code>2.2.5-1</code>,  <code>2.2.5-0</code>,  </span></summary>
+      
+
+      ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.9-0``,  ``2.4.8-0``,  ``2.4.7-1``,  ``2.4.7-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bioconductor-graph: 
    :depends bioconductor-preprocesscore: 
    :depends bioconductor-rbgl: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-plyr: 

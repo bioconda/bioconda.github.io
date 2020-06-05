@@ -8,6 +8,7 @@ bioconductor-tronco
 
 .. conda:recipe:: bioconductor-tronco
    :replaces_section_title:
+   :noindex:
 
    TRONCO\, an R package for TRanslational ONCOlogy
 
@@ -22,10 +23,17 @@ bioconductor-tronco
 
    |downloads_bioconductor-tronco| |docker_bioconductor-tronco|
 
-   :versions: 2.20.0-0, 2.18.0-0, 2.16.2-0, 2.14.2-0
+   :versions:
+      
+      
+
+      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.2-0``,  ``2.14.2-0``
+
+      
+
    
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bnlearn: 
    :depends r-cgdsr: 
    :depends r-circlize: 

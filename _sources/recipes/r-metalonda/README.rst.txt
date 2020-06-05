@@ -8,6 +8,7 @@ r-metalonda
 
 .. conda:recipe:: r-metalonda
    :replaces_section_title:
+   :noindex:
 
    Identify time intervals of differentially abundant metagenomics features in longitudinal studies.
 
@@ -22,12 +23,19 @@ r-metalonda
 
    |downloads_r-metalonda| |docker_r-metalonda|
 
-   :versions: 1.1.8-1, 1.1.8-0, 1.1.5-0, 1.1.0-5, 1.1.0-4, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.8-1``,  ``1.1.8-0``,  ``1.1.5-0``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+
+      
+
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-edger: 
    :depends bioconductor-metagenomeseq: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-ggplot2: 
    :depends r-gss: 

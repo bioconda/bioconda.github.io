@@ -8,6 +8,7 @@ simple_sv_annotation
 
 .. conda:recipe:: simple_sv_annotation
    :replaces_section_title:
+   :noindex:
 
    Simplify snpEff annotations for interesting cases
 
@@ -22,7 +23,22 @@ simple_sv_annotation
 
    |downloads_simple_sv_annotation| |docker_simple_sv_annotation|
 
-   :versions: 2019.02.18-0, 2018.05.29-1, 2018.05.29-0, 2017.05.14-0, 2017.02.17-0, 2016.07.08-1, 2016.07.08-0, 2016.06.15-1, 2016.06.15-0, 2015.11.24-0, 2015.11.16-0, 2015.11.05-0, 2015.10.23-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2019.02.18-0</code>,  <code>2018.05.29-1</code>,  <code>2018.05.29-0</code>,  <code>2017.05.14-0</code>,  <code>2017.02.17-0</code>,  <code>2016.07.08-1</code>,  <code>2016.07.08-0</code>,  <code>2016.06.15-1</code>,  <code>2016.06.15-0</code>,  </span></summary>
+      
+
+      ``2019.02.18-0``,  ``2018.05.29-1``,  ``2018.05.29-0``,  ``2017.05.14-0``,  ``2017.02.17-0``,  ``2016.07.08-1``,  ``2016.07.08-0``,  ``2016.06.15-1``,  ``2016.06.15-0``,  ``2015.11.24-0``,  ``2015.11.16-0``,  ``2015.11.05-0``,  ``2015.10.23-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends python: 
    :depends pyvcf: 

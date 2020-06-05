@@ -8,6 +8,7 @@ phylorank
 
 .. conda:recipe:: phylorank
    :replaces_section_title:
+   :noindex:
 
    PhyloRank provides functionality for calculating the relative evolutionary divergence \(RED\) of taxa in a tree and for finding the best placement of taxonomic labels in a tree.
 
@@ -22,15 +23,22 @@ phylorank
 
    |downloads_phylorank| |docker_phylorank|
 
-   :versions: 0.1.0-0, 0.0.43-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``,  ``0.0.43-0``
+
+      
+
    
-   :depends biolib: >=0.1.0
-   :depends dendropy: >=4.1.0
-   :depends jinja2: >=2.7.3
+   :depends biolib: ``>=0.1.0``
+   :depends dendropy: ``>=4.1.0``
+   :depends jinja2: ``>=2.7.3``
    :depends matplotlib-base: 
-   :depends mpld3: >=0.2
+   :depends mpld3: ``>=0.2``
    :depends numpy: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends scipy: 
    :requirements:
 

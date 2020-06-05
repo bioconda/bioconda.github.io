@@ -8,6 +8,7 @@ bioconductor-ye6100subccdf
 
 .. conda:recipe:: bioconductor-ye6100subccdf
    :replaces_section_title:
+   :noindex:
 
    ye6100subccdf
 
@@ -22,11 +23,18 @@ bioconductor-ye6100subccdf
 
    |downloads_bioconductor-ye6100subccdf| |docker_bioconductor-ye6100subccdf|
 
-   :versions: 2.18.0-4, 2.18.0-3, 2.18.0-2, 2.18.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-4``,  ``2.18.0-3``,  ``2.18.0-2``,  ``2.18.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

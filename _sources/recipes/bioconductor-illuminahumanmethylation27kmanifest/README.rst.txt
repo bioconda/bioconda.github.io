@@ -8,6 +8,7 @@ bioconductor-illuminahumanmethylation27kmanifest
 
 .. conda:recipe:: bioconductor-illuminahumanmethylation27kmanifest
    :replaces_section_title:
+   :noindex:
 
    Annotation for Illumina\'s 27k methylation arrays
 
@@ -22,11 +23,18 @@ bioconductor-illuminahumanmethylation27kmanifest
 
    |downloads_bioconductor-illuminahumanmethylation27kmanifest| |docker_bioconductor-illuminahumanmethylation27kmanifest|
 
-   :versions: 0.4.0-4, 0.4.0-3, 0.4.0-2, 0.4.0-0
+   :versions:
+      
+      
+
+      ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``
+
+      
+
    
-   :depends bioconductor-minfi: >=1.34.0,<1.35.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-minfi: ``>=1.34.0,<1.35.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

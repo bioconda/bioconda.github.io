@@ -8,6 +8,7 @@ perl-html-treebuilder-xpath
 
 .. conda:recipe:: perl-html-treebuilder-xpath
    :replaces_section_title:
+   :noindex:
 
    add XPath support to HTML\:\:TreeBuilder
 
@@ -22,9 +23,16 @@ perl-html-treebuilder-xpath
 
    |downloads_perl-html-treebuilder-xpath| |docker_perl-html-treebuilder-xpath|
 
-   :versions: 0.14-1, 0.14-0
+   :versions:
+      
+      
+
+      ``0.14-1``,  ``0.14-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-html-tree: 
    :depends perl-xml-xpathengine: 
    :requirements:

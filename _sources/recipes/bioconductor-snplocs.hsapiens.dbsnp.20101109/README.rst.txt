@@ -8,6 +8,7 @@ bioconductor-snplocs.hsapiens.dbsnp.20101109
 
 .. conda:recipe:: bioconductor-snplocs.hsapiens.dbsnp.20101109
    :replaces_section_title:
+   :noindex:
 
    SNP locations for Homo sapiens \(dbSNP Build 132\)
 
@@ -22,13 +23,20 @@ bioconductor-snplocs.hsapiens.dbsnp.20101109
 
    |downloads_bioconductor-snplocs.hsapiens.dbsnp.20101109| |docker_bioconductor-snplocs.hsapiens.dbsnp.20101109|
 
-   :versions: 0.99.7-4, 0.99.7-3, 0.99.7-2, 0.99.7-0
+   :versions:
+      
+      
+
+      ``0.99.7-4``,  ``0.99.7-3``,  ``0.99.7-2``,  ``0.99.7-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

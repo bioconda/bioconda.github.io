@@ -8,6 +8,7 @@ khmer
 
 .. conda:recipe:: khmer
    :replaces_section_title:
+   :noindex:
 
    khmer k\-mer counting library
 
@@ -24,13 +25,28 @@ khmer
 
    |downloads_khmer| |docker_khmer|
 
-   :versions: 3.0.0a3-0, 3.0.0a2-1, 3.0.0a2-0, 3.0.0a1-0, 2.1.2-0, 2.1-0, 2.1rc1-0, 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.0a3-0</code>,  <code>3.0.0a2-1</code>,  <code>3.0.0a2-0</code>,  <code>3.0.0a1-0</code>,  <code>2.1.2-0</code>,  <code>2.1-0</code>,  <code>2.1rc1-0</code>,  <code>2.0-2</code>,  <code>2.0-1</code>,  </span></summary>
+      
+
+      ``3.0.0a3-0``,  ``3.0.0a2-1``,  ``3.0.0a2-0``,  ``3.0.0a1-0``,  ``2.1.2-0``,  ``2.1-0``,  ``2.1rc1-0``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bz2file: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.7,<3.8.0a0
-   :depends screed: >=1.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends screed: ``>=1.0``
    :requirements:
 
    .. rubric:: Installation

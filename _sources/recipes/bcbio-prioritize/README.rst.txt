@@ -8,6 +8,7 @@ bcbio-prioritize
 
 .. conda:recipe:: bcbio-prioritize
    :replaces_section_title:
+   :noindex:
 
    Prioritize small variants\, structural variants and coverage based on biological inputs
 
@@ -22,7 +23,14 @@ bcbio-prioritize
 
    |downloads_bcbio-prioritize| |docker_bcbio-prioritize|
 
-   :versions: 0.0.8-2, 0.0.8-1, 0.0.8-0, 0.0.7-0, 0.0.6-1, 0.0.5-1, 0.0.5-0, 0.0.4-0, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

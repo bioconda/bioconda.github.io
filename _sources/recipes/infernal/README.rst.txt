@@ -8,6 +8,7 @@ infernal
 
 .. conda:recipe:: infernal
    :replaces_section_title:
+   :noindex:
 
    Infernal \(\"INFERence of RNA ALignment\"\) is for searching DNA sequence databases for RNA structure and sequence similarities.
 
@@ -22,9 +23,16 @@ infernal
 
    |downloads_infernal| |docker_infernal|
 
-   :versions: 1.1.2-2, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

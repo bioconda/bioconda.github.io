@@ -8,6 +8,7 @@ metacluster
 
 .. conda:recipe:: metacluster
    :replaces_section_title:
+   :noindex:
 
    MetaCluster5.1 is a new software for binning short pair\-end reads
 
@@ -27,9 +28,16 @@ metacluster
 
    |downloads_metacluster| |docker_metacluster|
 
-   :versions: 5.1-1, 5.1-0
+   :versions:
+      
+      
+
+      ``5.1-1``,  ``5.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

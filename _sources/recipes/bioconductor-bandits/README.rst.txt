@@ -8,6 +8,7 @@ bioconductor-bandits
 
 .. conda:recipe:: bioconductor-bandits
    :replaces_section_title:
+   :noindex:
 
    BANDITS\: Bayesian ANalysis of DIfferenTial Splicing
 
@@ -22,15 +23,22 @@ bioconductor-bandits
 
    |downloads_bioconductor-bandits| |docker_bioconductor-bandits|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-drimseq: >=1.16.0,<1.17.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-drimseq: ``>=1.16.0,<1.17.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-dorng: 

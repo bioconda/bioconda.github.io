@@ -8,6 +8,7 @@ sam
 
 .. conda:recipe:: sam
    :replaces_section_title:
+   :noindex:
 
    SAM \- Sequence Alignment and Modeling System
 
@@ -22,7 +23,14 @@ sam
 
    |downloads_sam| |docker_sam|
 
-   :versions: 3.5-1, 3.5-0
+   :versions:
+      
+      
+
+      ``3.5-1``,  ``3.5-0``
+
+      
+
    
    :requirements:
 

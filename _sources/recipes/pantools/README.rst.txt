@@ -8,6 +8,7 @@ pantools
 
 .. conda:recipe:: pantools
    :replaces_section_title:
+   :noindex:
 
    PanTools is a disk\-based java application for computational pan\-genomics.
 
@@ -23,11 +24,18 @@ pantools
 
    |downloads_pantools| |docker_pantools|
 
-   :versions: 1.2-1, 1.2-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+
+      
+
    
    :depends kmc: 
    :depends mcl: 
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

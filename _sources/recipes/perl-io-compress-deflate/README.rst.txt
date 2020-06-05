@@ -8,6 +8,7 @@ perl-io-compress-deflate
 
 .. conda:recipe:: perl-io-compress-deflate/2.064
    :replaces_section_title:
+   :noindex:
 
    Write RFC 1950 files\/buffers
 
@@ -22,9 +23,16 @@ perl-io-compress-deflate
 
    |downloads_perl-io-compress-deflate| |docker_perl-io-compress-deflate|
 
-   :versions: 2.064-1, 2.064-0
+   :versions:
+      
+      
+
+      ``2.064-1``,  ``2.064-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

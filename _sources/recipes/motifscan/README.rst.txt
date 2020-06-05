@@ -8,6 +8,7 @@ motifscan
 
 .. conda:recipe:: motifscan
    :replaces_section_title:
+   :noindex:
 
    A package for motif discovery and motif enrichment analysis
 
@@ -22,17 +23,24 @@ motifscan
 
    |downloads_motifscan| |docker_motifscan|
 
-   :versions: 1.2.2-0, 1.2.1-0, 1.1.2-1, 1.1.2-0, 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1-1``,  ``1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends matplotlib-base: >=3.0.0
-   :depends numpy: >=1.15
-   :depends pysam: >=0.15.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends matplotlib-base: ``>=3.0.0``
+   :depends numpy: ``>=1.15``
+   :depends pysam: ``>=0.15.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends requests: 
-   :depends scipy: >=1.0
-   :depends tqdm: >=4.42.1
+   :depends scipy: ``>=1.0``
+   :depends tqdm: ``>=4.42.1``
    :requirements:
 
    .. rubric:: Installation

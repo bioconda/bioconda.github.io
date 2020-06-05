@@ -8,6 +8,7 @@ kinsimriboswitch
 
 .. conda:recipe:: kinsimriboswitch
    :replaces_section_title:
+   :noindex:
 
    Pipeline for the simulation of RNA\-\-ligand interaction kinetics as
    outlined in Kuehnl et al. 2017\, https\:\/\/doi.org\/10.1186\/s12859\-017\-1823\-5
@@ -24,13 +25,20 @@ kinsimriboswitch
 
    |downloads_kinsimriboswitch| |docker_kinsimriboswitch|
 
-   :versions: 0.3-1, 0.3-0
+   :versions:
+      
+      
+
+      ``0.3-1``,  ``0.3-0``
+
+      
+
    
    :depends coreutils: 
-   :depends gmp: >=6.1.2,<7.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends gmp: ``>=6.1.2,<7.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-clone: 
    :depends perl-devel-assert: 
    :depends perl-file-slurp: 
@@ -48,7 +56,7 @@ kinsimriboswitch
    :depends r-argparser: 
    :depends r-rcolorbrewer: 
    :depends treekin: 
-   :depends viennarna: >=2.4.11,<2.5.0a0
+   :depends viennarna: ``>=2.4.11,<2.5.0a0``
    :requirements:
 
    .. rubric:: Installation

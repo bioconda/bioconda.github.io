@@ -8,6 +8,7 @@ clair
 
 .. conda:recipe:: clair
    :replaces_section_title:
+   :noindex:
 
    Single\-molecule sequencing technologies have emerged in recent years and revolutionized structural variant calling\, complex genome assembly\, and epigenetic mark detection. However\, the lack of a highly accurate small variant caller has limited the new technologies from being more widely used. In this study\, we present Clair\, the successor to Clairvoyante\, a program for fast and accurate germline small variant calling\, using single molecule sequencing data. For ONT data\, Clair achieves the best precision\, recall and speed as compared to several competing programs\, including Clairvoyante\, Longshot and Medaka. Through studying the missed variants and benchmarking intentionally overfitted models\, we found that Clair may be approaching the limit of possible accuracy for germline small variant calling using pileup data and deep neural networks.
 
@@ -22,21 +23,36 @@ clair
 
    |downloads_clair| |docker_clair|
 
-   :versions: 2.1.0-1, 2.1.0-0, 2.0.7-0, 2.0.6-1, 2.0.6-0, 2.0.5-1, 2.0.5-0, 2.0.4-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-1</code>,  <code>2.0.6-0</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  </span></summary>
+      
+
+      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.7-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bcftools: 
    :depends intervaltree: 
    :depends matplotlib-base: 
-   :depends numpy: >=1.17,<1.18
+   :depends numpy: ``>=1.17,<1.18``
    :depends parallel: 
    :depends pigz: 
    :depends pip: 
    :depends pypy3.6: 
    :depends pysam: 
-   :depends python: >=3,<3.8
+   :depends python: ``>=3,<3.8``
    :depends python-blosc: 
    :depends samtools: 
-   :depends tensorflow: >=1.13,<1.14
+   :depends tensorflow: ``>=1.13,<1.14``
    :depends vcflib: 
    :depends zstd: 
    :requirements:

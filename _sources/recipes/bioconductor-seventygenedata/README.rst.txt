@@ -8,6 +8,7 @@ bioconductor-seventygenedata
 
 .. conda:recipe:: bioconductor-seventygenedata
    :replaces_section_title:
+   :noindex:
 
    ExpressionSets from the van\'t Veer and Van de Vijver breast cancer studies
 
@@ -22,10 +23,17 @@ bioconductor-seventygenedata
 
    |downloads_bioconductor-seventygenedata| |docker_bioconductor-seventygenedata|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

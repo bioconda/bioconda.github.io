@@ -8,6 +8,7 @@ scmap-cli
 
 .. conda:recipe:: scmap-cli
    :replaces_section_title:
+   :noindex:
 
    CLI scripts for the scmap package
 
@@ -29,11 +30,18 @@ scmap-cli
 
    |downloads_scmap-cli| |docker_scmap-cli|
 
-   :versions: 0.0.9-0, 0.0.8-0, 0.0.5-0, 0.0.4-0, 0.0.3-0, 0.0.2-1, 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``,  ``0.0.1-0``
+
+      
+
    
    :depends bioconductor-biobase: 
    :depends bioconductor-loomexperiment: 
-   :depends bioconductor-scmap: >=1.6.0,<1.7
+   :depends bioconductor-scmap: ``>=1.6.0,<1.7``
    :depends bioconductor-singlecellexperiment: 
    :depends r-optparse: 
    :depends r-workflowscriptscommon: 

@@ -8,6 +8,7 @@ perl-return-multilevel
 
 .. conda:recipe:: perl-return-multilevel
    :replaces_section_title:
+   :noindex:
 
    return across multiple call levels
 
@@ -22,9 +23,16 @@ perl-return-multilevel
 
    |downloads_perl-return-multilevel| |docker_perl-return-multilevel|
 
-   :versions: 0.05-0
+   :versions:
+      
+      
+
+      ``0.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-data-munge: 
    :depends perl-exporter: 

@@ -8,6 +8,7 @@ sailfish
 
 .. conda:recipe:: sailfish
    :replaces_section_title:
+   :noindex:
 
    Rapid Mapping\-based Isoform Quantification from RNA\-Seq Reads
 
@@ -22,11 +23,18 @@ sailfish
 
    |downloads_sailfish| |docker_sailfish|
 
-   :versions: 0.10.1-3, 0.10.1-2, 0.10.1-1, 0.10.1-0, 0.9.0-1, 0.9.0-0, 0.7.6-0
+   :versions:
+      
+      
+
+      ``0.10.1-3``,  ``0.10.1-2``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.7.6-0``
+
+      
+
    
-   :depends boost: >=1.66.0,<1.66.1.0a0
-   :depends icu: >=58.2,<59.0a0
-   :depends libstdcxx-ng: >=4.9
+   :depends boost: ``>=1.66.0,<1.66.1.0a0``
+   :depends icu: ``>=58.2,<59.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
    :depends tbb: 
    :requirements:
 

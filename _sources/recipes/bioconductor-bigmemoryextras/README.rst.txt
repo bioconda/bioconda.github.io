@@ -8,6 +8,7 @@ bioconductor-bigmemoryextras
 
 .. conda:recipe:: bioconductor-bigmemoryextras
    :replaces_section_title:
+   :noindex:
 
    An extension of the bigmemory package with added safety\, convenience\, and a factor class
 
@@ -22,10 +23,17 @@ bioconductor-bigmemoryextras
 
    |downloads_bioconductor-bigmemoryextras| |docker_bioconductor-bigmemoryextras|
 
-   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-1, 1.32.0-0, 1.30.0-0
+   :versions:
+      
+      
+
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-bigmemory: >=4.5.31
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bigmemory: ``>=4.5.31``
    :requirements:
 
    .. rubric:: Installation

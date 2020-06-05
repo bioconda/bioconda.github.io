@@ -8,6 +8,7 @@ biobb_model
 
 .. conda:recipe:: biobb_model
    :replaces_section_title:
+   :noindex:
 
    Biobb\_model is the Biobb module collection to check and model 3d structures\, create mutations or reconstruct missing atoms.
 
@@ -47,11 +48,26 @@ biobb_model
 
    |downloads_biobb_model| |docker_biobb_model|
 
-   :versions: 3.0.0-0, 2.0.1-0, 2.0.0-0, 1.1.9-0, 0.1.8-0, 0.1.7-1, 0.1.6-1, 0.1.5-1, 0.1.5-0, 0.1.3-0, 0.1.1-0, 0.1.0-0, 0.0.6-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-1</code>,  <code>0.1.6-1</code>,  <code>0.1.5-1</code>,  <code>0.1.5-0</code>,  </span></summary>
+      
+
+      ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.6-1``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biobb_common: 3.0.0
-   :depends biobb_structure_checking: 3.0.2
-   :depends python: 3.7.*
+   :depends biobb_common: ``3.0.0``
+   :depends biobb_structure_checking: ``3.0.2``
+   :depends python: ``3.7.*``
    :requirements:
 
    .. rubric:: Installation

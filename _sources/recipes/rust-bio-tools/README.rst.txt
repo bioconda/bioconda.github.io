@@ -8,6 +8,7 @@ rust-bio-tools
 
 .. conda:recipe:: rust-bio-tools
    :replaces_section_title:
+   :noindex:
 
    A growing collection of fast and secure command line utilities for dealing with NGS data
    implemented on top of Rust\-Bio.
@@ -23,15 +24,30 @@ rust-bio-tools
 
    |downloads_rust-bio-tools| |docker_rust-bio-tools|
 
-   :versions: 0.10.2-0, 0.10.1-0, 0.10.0-0, 0.9.2-1, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.2-0, 0.8.1-0, 0.8.0-1, 0.8.0-0, 0.6.0-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.6-1, 0.2.5-1, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.3-0, 0.1.2-0, 0.1.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+      
+
+      ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-1``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libopenblas: >=0.3.9,<1.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openssl: >=1.1.1a,<1.1.2a
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libopenblas: ``>=0.3.9,<1.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openssl: ``>=1.1.1a,<1.1.2a``
    :depends starcode: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

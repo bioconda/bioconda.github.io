@@ -8,6 +8,7 @@ bioconductor-process
 
 .. conda:recipe:: bioconductor-process
    :replaces_section_title:
+   :noindex:
 
    Ciphergen SELDI\-TOF Processing
 
@@ -23,10 +24,17 @@ bioconductor-process
 
    |downloads_bioconductor-process| |docker_bioconductor-process|
 
-   :versions: 1.64.0-0, 1.62.0-0, 1.60.0-1, 1.60.0-0, 1.58.1-0, 1.56.0-0, 1.54.0-0
+   :versions:
+      
+      
+
+      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.1-0``,  ``1.56.0-0``,  ``1.54.0-0``
+
+      
+
    
-   :depends bioconductor-icens: >=1.60.0,<1.61.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-icens: ``>=1.60.0,<1.61.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

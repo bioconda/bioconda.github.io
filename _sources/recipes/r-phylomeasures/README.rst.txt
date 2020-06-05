@@ -8,6 +8,7 @@ r-phylomeasures
 
 .. conda:recipe:: r-phylomeasures
    :replaces_section_title:
+   :noindex:
 
    Given a phylogenetic tree T and an assemblage S of species represented as  a subset of tips in T\, we want to compute a measure of the diversity  of the species in S with respect to T. The current package offers  efficient algorithms that can process large phylogenetic data for several such measures.  Most importantly\, the package includes algorithms for computing  efficiently the standardized versions of phylogenetic measures and their p\-values\, which are  essential for null model comparisons. Among other functions\,  the package provides efficient computation of richness\-standardized versions  for indices such as the net relatedness index \(NRI\)\,  nearest taxon index \(NTI\)\, phylogenetic diversity index \(PDI\)\, and the corresponding indices of two\-sample measures.  The package also introduces a new single\-sample measure\, the Core Ancestor Cost \(CAC\)\; the package provides functions for computing the value and the standardised index of the CAC and\, more than that\, there is an extra function available that can compute exactly  any statistical moment of the measure. The package supports computations under different null models\, including abundance\-weighted models.
 
@@ -22,12 +23,19 @@ r-phylomeasures
 
    |downloads_r-phylomeasures| |docker_r-phylomeasures|
 
-   :versions: 2.1-3, 2.1-2, 2.1-1, 2.1-0
+   :versions:
+      
+      
+
+      ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

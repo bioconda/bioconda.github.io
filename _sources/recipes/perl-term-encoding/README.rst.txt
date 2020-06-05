@@ -8,6 +8,7 @@ perl-term-encoding
 
 .. conda:recipe:: perl-term-encoding
    :replaces_section_title:
+   :noindex:
 
    Detect encoding of the current terminal
 
@@ -22,9 +23,16 @@ perl-term-encoding
 
    |downloads_perl-term-encoding| |docker_perl-term-encoding|
 
-   :versions: 0.03-0, 0.02-1, 0.02-0
+   :versions:
+      
+      
+
+      ``0.03-0``,  ``0.02-1``,  ``0.02-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

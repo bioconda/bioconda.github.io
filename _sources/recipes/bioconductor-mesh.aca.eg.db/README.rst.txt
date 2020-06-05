@@ -8,6 +8,7 @@ bioconductor-mesh.aca.eg.db
 
 .. conda:recipe:: bioconductor-mesh.aca.eg.db
    :replaces_section_title:
+   :noindex:
 
    Mapping table for Anolis carolinensis Gene ID to MeSH
 
@@ -22,11 +23,18 @@ bioconductor-mesh.aca.eg.db
 
    |downloads_bioconductor-mesh.aca.eg.db| |docker_bioconductor-mesh.aca.eg.db|
 
-   :versions: 1.13.0-1, 1.13.0-0, 1.12.0-1, 1.11.0-0
+   :versions:
+      
+      
+
+      ``1.13.0-1``,  ``1.13.0-0``,  ``1.12.0-1``,  ``1.11.0-0``
+
+      
+
    
-   :depends bioconductor-meshdbi: >=1.24.0,<1.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-meshdbi: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-extutils-cbuilder
 
 .. conda:recipe:: perl-extutils-cbuilder/0.280230
    :replaces_section_title:
+   :noindex:
 
    Compile and link C code for Perl modules
 
@@ -22,9 +23,16 @@ perl-extutils-cbuilder
 
    |downloads_perl-extutils-cbuilder| |docker_perl-extutils-cbuilder|
 
-   :versions: 0.280230-1, 0.280230-0
+   :versions:
+      
+      
+
+      ``0.280230-1``,  ``0.280230-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-extutils-makemaker: 
    :depends perl-file-temp: 
    :depends perl-ipc-cmd: 

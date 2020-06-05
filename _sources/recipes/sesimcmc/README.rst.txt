@@ -8,6 +8,7 @@ sesimcmc
 
 .. conda:recipe:: sesimcmc
    :replaces_section_title:
+   :noindex:
 
    Motif finding with modified MCMC
 
@@ -22,10 +23,17 @@ sesimcmc
 
    |downloads_sesimcmc| |docker_sesimcmc|
 
-   :versions: 4.36-0
+   :versions:
+      
+      
+
+      ``4.36-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ json_collect_data_source
 
 .. conda:recipe:: json_collect_data_source
    :replaces_section_title:
+   :noindex:
 
    This tool is able to receive multiple datasets \(optionally with their metadata\) in a single query. As an extension of the galaxy\-json\-data\-source tool \(https\:\/\/github.com\/mdshw5\/galaxy\-json\-data\-source\)\, it allows to handle archives \(gz\, bz2\, tar\, and zip\) organizing their content in a collection.
 
@@ -22,9 +23,16 @@ json_collect_data_source
 
    |downloads_json_collect_data_source| |docker_json_collect_data_source|
 
-   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends python: >=2.7,<3
+   :depends python: ``>=2.7,<3``
    :requirements:
 
    .. rubric:: Installation

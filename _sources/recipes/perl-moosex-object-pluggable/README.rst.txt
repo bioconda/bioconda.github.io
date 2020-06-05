@@ -8,6 +8,7 @@ perl-moosex-object-pluggable
 
 .. conda:recipe:: perl-moosex-object-pluggable/0.0014
    :replaces_section_title:
+   :noindex:
 
    Make your classes pluggable
 
@@ -22,9 +23,16 @@ perl-moosex-object-pluggable
 
    |downloads_perl-moosex-object-pluggable| |docker_perl-moosex-object-pluggable|
 
-   :versions: 0.0014-0
+   :versions:
+      
+      
+
+      ``0.0014-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-module-runtime: 
    :depends perl-moose: 

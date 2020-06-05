@@ -8,6 +8,7 @@ bioconductor-methylkit
 
 .. conda:recipe:: bioconductor-methylkit
    :replaces_section_title:
+   :noindex:
 
    DNA methylation analysis from high\-throughput bisulfite sequencing results
 
@@ -23,25 +24,40 @@ bioconductor-methylkit
 
    |downloads_bioconductor-methylkit| |docker_bioconductor-methylkit|
 
-   :versions: 1.14.1-0, 1.12.0-0, 1.10.0-1, 1.8.1-0, 1.8.0-0, 1.6.3-0, 1.4.0-0, 1.2.4-0, 1.0.0-0, 0.99.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.14.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.6.3-0</code>,  <code>1.4.0-0</code>,  <code>1.2.4-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+      
+
+      ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.4.0-0``,  ``1.2.4-0``,  ``1.0.0-0``,  ``0.99.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-fastseg: >=1.34.0,<1.35.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends bioconductor-rhtslib: >=1.20.0,<1.21.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-rtracklayer: >=1.48.0,<1.49.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-zlibbioc: >=1.34.0,<1.35.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-data.table: >=1.9.6
+   :depends bioconductor-fastseg: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-rhtslib: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-zlibbioc: ``>=1.34.0,<1.35.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: ``>=1.9.6``
    :depends r-emdbook: 
    :depends r-gtools: 
    :depends r-kernsmooth: 

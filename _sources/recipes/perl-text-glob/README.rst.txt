@@ -8,6 +8,7 @@ perl-text-glob
 
 .. conda:recipe:: perl-text-glob
    :replaces_section_title:
+   :noindex:
 
    match globbing patterns against text
 
@@ -22,9 +23,16 @@ perl-text-glob
 
    |downloads_perl-text-glob| |docker_perl-text-glob|
 
-   :versions: 0.11-1, 0.11-0, 0.09-0
+   :versions:
+      
+      
+
+      ``0.11-1``,  ``0.11-0``,  ``0.09-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

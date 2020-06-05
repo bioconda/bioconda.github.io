@@ -8,6 +8,7 @@ bioconductor-genomewidesnp5crlmm
 
 .. conda:recipe:: bioconductor-genomewidesnp5crlmm
    :replaces_section_title:
+   :noindex:
 
    Metadata for fast genotyping with the \'crlmm\' package
 
@@ -22,10 +23,17 @@ bioconductor-genomewidesnp5crlmm
 
    |downloads_bioconductor-genomewidesnp5crlmm| |docker_bioconductor-genomewidesnp5crlmm|
 
-   :versions: 1.0.6-4, 1.0.6-3, 1.0.6-2, 1.0.6-1, 1.0.6-0
+   :versions:
+      
+      
+
+      ``1.0.6-4``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

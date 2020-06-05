@@ -8,6 +8,7 @@ vqsr_cnn
 
 .. conda:recipe:: vqsr_cnn
    :replaces_section_title:
+   :noindex:
 
    Variant quality score recalibration with Convolutional Neural Networks
 
@@ -22,18 +23,25 @@ vqsr_cnn
 
    |downloads_vqsr_cnn| |docker_vqsr_cnn|
 
-   :versions: 0.0.194-0, 0.0.132-1, 0.0.132-0
+   :versions:
+      
+      
+
+      ``0.0.194-0``,  ``0.0.132-1``,  ``0.0.132-0``
+
+      
+
    
-   :depends biopython: >=1.70
+   :depends biopython: ``>=1.70``
    :depends gatktool: 
-   :depends keras: >=2.0
-   :depends matplotlib: >=2.1.2
-   :depends numpy: >=1.13.1
-   :depends pysam: >=0.13
+   :depends keras: ``>=2.0``
+   :depends matplotlib: ``>=2.1.2``
+   :depends numpy: ``>=1.13.1``
+   :depends pysam: ``>=0.13``
    :depends python: 
-   :depends pyvcf: >=0.6.8
-   :depends scikit-learn: >=0.19.1
-   :depends scipy: >=0.19.1
+   :depends pyvcf: ``>=0.6.8``
+   :depends scikit-learn: ``>=0.19.1``
+   :depends scipy: ``>=0.19.1``
    :depends tensorflow: 
    :requirements:
 

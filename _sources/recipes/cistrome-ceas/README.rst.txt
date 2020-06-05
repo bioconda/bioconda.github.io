@@ -8,6 +8,7 @@ cistrome-ceas
 
 .. conda:recipe:: cistrome-ceas
    :replaces_section_title:
+   :noindex:
 
    Cistrome\-CEAS \-\- Cis\-regulatory Element Annotation System
 
@@ -27,10 +28,17 @@ cistrome-ceas
 
    |downloads_cistrome-ceas| |docker_cistrome-ceas|
 
-   :versions: 1.0.2b1-2, 1.0.2b1-1, 1.0.2b1-0
+   :versions:
+      
+      
+
+      ``1.0.2b1-2``,  ``1.0.2b1-1``,  ``1.0.2b1-0``
+
+      
+
    
    :depends bx-python: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends r-base: 
    :requirements:
 

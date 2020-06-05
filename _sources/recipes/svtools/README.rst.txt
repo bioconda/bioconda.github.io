@@ -8,6 +8,7 @@ svtools
 
 .. conda:recipe:: svtools
    :replaces_section_title:
+   :noindex:
 
    Tools for processing and analyzing structural variants
 
@@ -22,18 +23,33 @@ svtools
 
    |downloads_svtools| |docker_svtools|
 
-   :versions: 0.5.1-0, 0.4.0-2, 0.3.2-2, 0.3.2-0, 0.3.1-3, 0.3.1-2, 0.3.1-1, 0.3.0-2, 0.3.0-1, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.1-2, 0.1.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.4.0-2</code>,  <code>0.3.2-2</code>,  <code>0.3.2-0</code>,  <code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  </span></summary>
+      
+
+      ``0.5.1-0``,  ``0.4.0-2``,  ``0.3.2-2``,  ``0.3.2-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends crcmod: 
    :depends google-auth: 
    :depends google-compute-engine: 
    :depends logzero: 
    :depends numpy: 
-   :depends pandas: 0.19.2.*
-   :depends python: <3
+   :depends pandas: ``0.19.2.*``
+   :depends python: ``<3``
    :depends scipy: 
    :depends statsmodels: 
-   :depends svtyper: 0.7.1.*
+   :depends svtyper: ``0.7.1.*``
    :requirements:
 
    .. rubric:: Installation

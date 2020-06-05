@@ -8,6 +8,7 @@ trimadap
 
 .. conda:recipe:: trimadap
    :replaces_section_title:
+   :noindex:
 
    Fast but inaccurate adapter trimmer for Illumina reads.
 
@@ -22,10 +23,17 @@ trimadap
 
    |downloads_trimadap| |docker_trimadap|
 
-   :versions: r11-1, r11-0, r10-2, r10-1, r10-0, r9-0, r2-0
+   :versions:
+      
+      
+
+      ``r11-1``,  ``r11-0``,  ``r10-2``,  ``r10-1``,  ``r10-0``,  ``r9-0``,  ``r2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

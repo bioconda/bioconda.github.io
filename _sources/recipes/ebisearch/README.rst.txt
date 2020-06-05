@@ -8,6 +8,7 @@ ebisearch
 
 .. conda:recipe:: ebisearch
    :replaces_section_title:
+   :noindex:
 
    A Python library for interacting with EBI Search\'s API
 
@@ -22,11 +23,18 @@ ebisearch
 
    |downloads_ebisearch| |docker_ebisearch|
 
-   :versions: 0.0.3-2, 0.0.3-1, 0.0.3-0, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``
+
+      
+
    
    :depends click: 
    :depends flake8: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends requests: 
    :requirements:
 

@@ -8,6 +8,7 @@ iva
 
 .. conda:recipe:: iva
    :replaces_section_title:
+   :noindex:
 
    Iterative Virus Assembler
 
@@ -22,14 +23,21 @@ iva
 
    |downloads_iva| |docker_iva|
 
-   :versions: 1.0.9-2, 1.0.9-1, 1.0.9-0, 1.0.7-0, 1.0.6-0
+   :versions:
+      
+      
+
+      ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``
+
+      
+
    
    :depends kmc: 
    :depends mummer: 
-   :depends networkx: >=1.7
-   :depends pyfastaq: >=3.10.0
-   :depends pysam: >=0.8.1
-   :depends python: >=3
+   :depends networkx: ``>=1.7``
+   :depends pyfastaq: ``>=3.10.0``
+   :depends pysam: ``>=0.8.1``
+   :depends python: ``>=3``
    :depends samtools: 
    :depends smalt: 
    :requirements:

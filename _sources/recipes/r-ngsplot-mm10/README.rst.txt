@@ -8,6 +8,7 @@ r-ngsplotdb-mm10
 
 .. conda:recipe:: r-ngsplot-mm10
    :replaces_section_title:
+   :noindex:
 
    MM10 genome database for NGSplot
 
@@ -22,9 +23,16 @@ r-ngsplotdb-mm10
 
    |downloads_r-ngsplotdb-mm10| |docker_r-ngsplotdb-mm10|
 
-   :versions: 3.00-4, 3.00-1, 3.00-0
+   :versions:
+      
+      
+
+      ``3.00-4``,  ``3.00-1``,  ``3.00-0``
+
+      
+
    
-   :depends python: <3.0a0
+   :depends python: ``<3.0a0``
    :depends r-base: 
    :depends r-ngsplot: 
    :depends wget: 

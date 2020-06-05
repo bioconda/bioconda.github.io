@@ -8,6 +8,7 @@ fast5seek
 
 .. conda:recipe:: fast5seek
    :replaces_section_title:
+   :noindex:
 
    Get paths for fast5 files contained in BAM\, SAM\, or fastq.
 
@@ -22,11 +23,18 @@ fast5seek
 
    |downloads_fast5seek| |docker_fast5seek|
 
-   :versions: 0.1.1-1, 0.1.1-0, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
    :depends ont-fast5-api: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

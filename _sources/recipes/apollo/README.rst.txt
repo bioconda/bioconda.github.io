@@ -8,6 +8,7 @@ apollo
 
 .. conda:recipe:: apollo
    :replaces_section_title:
+   :noindex:
 
    WebApollo API library
 
@@ -22,12 +23,19 @@ apollo
 
    |downloads_apollo| |docker_apollo|
 
-   :versions: 4.2.2-0, 4.2.1-0, 4.2-0, 4.1-0, 4.0.1-0, 3.1-0, 3.0.4-0
+   :versions:
+      
+      
+
+      ``4.2.2-0``,  ``4.2.1-0``,  ``4.2-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.1-0``,  ``3.0.4-0``
+
+      
+
    
    :depends bcbio-gff: 
    :depends biopython: 
    :depends cachetools: 
-   :depends click: >=6.7
+   :depends click: ``>=6.7``
    :depends decorator: 
    :depends python: 
    :depends pyyaml: 

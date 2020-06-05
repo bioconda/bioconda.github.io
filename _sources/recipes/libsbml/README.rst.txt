@@ -8,6 +8,7 @@ libsbml
 
 .. conda:recipe:: libsbml
    :replaces_section_title:
+   :noindex:
 
    LibSBML is a free\, open\-source programming library to help you read\, write\, manipulate\, translate\, and validate SBML files and data streams.
 
@@ -22,12 +23,19 @@ libsbml
 
    |downloads_libsbml| |docker_libsbml|
 
-   :versions: 5.18.0-0
+   :versions:
+      
+      
+
+      ``5.18.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends libxml2: >=2.9.9,<2.10.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libxml2: ``>=2.9.9,<2.10.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

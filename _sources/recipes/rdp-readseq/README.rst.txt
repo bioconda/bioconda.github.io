@@ -8,6 +8,7 @@ rdp-readseq
 
 .. conda:recipe:: rdp-readseq
    :replaces_section_title:
+   :noindex:
 
    Java based common sequence file format reader and sequence file manipulation.
 
@@ -22,7 +23,14 @@ rdp-readseq
 
    |downloads_rdp-readseq| |docker_rdp-readseq|
 
-   :versions: 2.0.2-1, 2.0.2-0
+   :versions:
+      
+      
+
+      ``2.0.2-1``,  ``2.0.2-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

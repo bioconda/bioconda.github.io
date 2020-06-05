@@ -8,6 +8,7 @@ sortmerna
 
 .. conda:recipe:: sortmerna
    :replaces_section_title:
+   :noindex:
 
    SortMeRNA is a biological sequence analysis tool for filtering\, mapping and OTU\-picking NGS reads.
 
@@ -23,7 +24,22 @@ sortmerna
 
    |downloads_sortmerna| |docker_sortmerna|
 
-   :versions: 4.2.0-0, 2.1b-4, 2.1b-3, 2.1b-2, 2.1b-1, 2.1b-0, 2.0-4, 2.0-3, 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.2.0-0</code>,  <code>2.1b-4</code>,  <code>2.1b-3</code>,  <code>2.1b-2</code>,  <code>2.1b-1</code>,  <code>2.1b-0</code>,  <code>2.0-4</code>,  <code>2.0-3</code>,  <code>2.0-2</code>,  </span></summary>
+      
+
+      ``4.2.0-0``,  ``2.1b-4``,  ``2.1b-3``,  ``2.1b-2``,  ``2.1b-1``,  ``2.1b-0``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ cellprofiler
 
 .. conda:recipe:: cellprofiler
    :replaces_section_title:
+   :noindex:
 
    CellProfiler is free\, open\-source software for quantitative analysis of biological images
 
@@ -23,32 +24,39 @@ cellprofiler
 
    |downloads_cellprofiler| |docker_cellprofiler|
 
-   :versions: 3.1.9-1, 3.1.9-0
+   :versions:
+      
+      
+
+      ``3.1.9-1``,  ``3.1.9-0``
+
+      
+
    
    :depends boto3: 
    :depends centrosome: 
    :depends docutils: 
    :depends future: 
-   :depends h5py: >=2.10
+   :depends h5py: ``>=2.10``
    :depends inflect: 
    :depends javabridge: 
    :depends joblib: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends mahotas: 
-   :depends matplotlib-base: >=2.0.0,!=2.1.0,<3
+   :depends matplotlib-base: ``>=2.0.0,!=2.1.0,<3``
    :depends mysqlclient: 
-   :depends numpy: >=1.16
-   :depends openjdk: 8.*
+   :depends numpy: ``>=1.16``
+   :depends openjdk: ``8.*``
    :depends prokaryote: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends python-bioformats: 
-   :depends python_abi: 2.7.* *_cp27mu
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends pyzmq: 
    :depends raven: 
    :depends requests: 
-   :depends scikit-image: >=0.14
-   :depends scikit-learn: >=0.20
-   :depends scipy: >=1.2
+   :depends scikit-image: ``>=0.14``
+   :depends scikit-learn: ``>=0.20``
+   :depends scipy: ``>=1.2``
    :depends six: 
    :requirements:
 

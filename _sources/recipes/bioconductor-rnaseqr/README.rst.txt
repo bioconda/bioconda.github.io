@@ -8,6 +8,7 @@ bioconductor-rnaseqr
 
 .. conda:recipe:: bioconductor-rnaseqr
    :replaces_section_title:
+   :noindex:
 
    RNASeqR\: an R package for automated two\-group RNA\-Seq analysis workflow
 
@@ -22,21 +23,28 @@ bioconductor-rnaseqr
 
    |downloads_bioconductor-rnaseqr| |docker_bioconductor-rnaseqr|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.1-0, 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``,  ``1.0.3-0``
+
+      
+
    
-   :depends bioconductor-ballgown: >=2.20.0,<2.21.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-dose: >=3.14.0,<3.15.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-org.sc.sgd.db: >=3.11.0,<3.12.0
-   :depends bioconductor-pathview: >=1.28.0,<1.29.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-systempiper: >=1.22.0,<1.23.0
-   :depends bioconductor-systempiperdata: >=1.16.0,<1.17.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ballgown: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-org.sc.sgd.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-pathview: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-systempiper: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-systempiperdata: ``>=1.16.0,<1.17.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 
    :depends r-factoextra: 
    :depends r-factominer: 

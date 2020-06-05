@@ -8,6 +8,7 @@ srst2
 
 .. conda:recipe:: srst2
    :replaces_section_title:
+   :noindex:
 
    Short Read Sequence Typing for Bacterial Pathogens
 
@@ -22,13 +23,20 @@ srst2
 
    |downloads_srst2| |docker_srst2|
 
-   :versions: 0.2.0-4, 0.2.0-3, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.6-1, 0.1.6-0, 0.1.4.6-1, 0.1.4.6-0
+   :versions:
+      
+      
+
+      ``0.2.0-4``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.4.6-1``,  ``0.1.4.6-0``
+
+      
+
    
-   :depends bowtie2: <=2.2.9
-   :depends numpy: >=1.7.1
-   :depends python: <3
-   :depends samtools: 0.1.18
-   :depends scipy: >=0.12.0
+   :depends bowtie2: ``<=2.2.9``
+   :depends numpy: ``>=1.7.1``
+   :depends python: ``<3``
+   :depends samtools: ``0.1.18``
+   :depends scipy: ``>=0.12.0``
    :requirements:
 
    .. rubric:: Installation

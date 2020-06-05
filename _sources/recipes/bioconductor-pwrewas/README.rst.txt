@@ -8,6 +8,7 @@ bioconductor-pwrewas
 
 .. conda:recipe:: bioconductor-pwrewas
    :replaces_section_title:
+   :noindex:
 
    A user\-friendly tool for comprehensive power estimation for epigenome wide association studies \(EWAS\)
 
@@ -22,13 +23,20 @@ bioconductor-pwrewas
 
    |downloads_bioconductor-pwrewas| |docker_bioconductor-pwrewas|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-pwrewas.data: >=1.2.0,<1.3.0
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-pwrewas.data: ``>=1.2.0,<1.3.0``
    :depends r-abind: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-cpgassoc: 
    :depends r-doparallel: 

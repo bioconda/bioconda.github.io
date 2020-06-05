@@ -8,6 +8,7 @@ metfrag
 
 .. conda:recipe:: metfrag
    :replaces_section_title:
+   :noindex:
 
    MetFrag is a freely available software for the annotation of high precision tandem mass spectra of metabolites which is a first and critical step for the identification of a molecular structure. Candidate molecules of different databases are fragmented in silico and matched against mass to charge values. A score calculated using the fragment peak matches gives hints to the quality of the candidate spectrum assignment.
 
@@ -22,9 +23,16 @@ metfrag
 
    |downloads_metfrag| |docker_metfrag|
 
-   :versions: 2.4.5-4, 2.4.5-3, 2.4.5-1, 2.4.2-2, 2.4.2-1, 2.4.2-0, 2.3.1-1, 2.3.1-0
+   :versions:
+      
+      
+
+      ``2.4.5-4``,  ``2.4.5-3``,  ``2.4.5-1``,  ``2.4.2-2``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.3.1-1``,  ``2.3.1-0``
+
+      
+
    
-   :depends openjdk: >=7
+   :depends openjdk: ``>=7``
    :depends parallel: 
    :depends unzip: 
    :depends zip: 

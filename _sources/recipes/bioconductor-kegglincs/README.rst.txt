@@ -8,6 +8,7 @@ bioconductor-kegglincs
 
 .. conda:recipe:: bioconductor-kegglincs
    :replaces_section_title:
+   :noindex:
 
    Visualize all edges within a KEGG pathway and overlay LINCS data
 
@@ -23,16 +24,23 @@ bioconductor-kegglincs
 
    |downloads_bioconductor-kegglincs| |docker_bioconductor-kegglincs|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-1, 1.8.0-0, 1.6.2-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-hgu133a.db: >=3.2.0,<3.3.0
-   :depends bioconductor-kegggraph: >=1.48.0,<1.49.0
-   :depends bioconductor-keggrest: >=1.28.0,<1.29.0
-   :depends bioconductor-kodata: >=1.14.0,<1.15.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends cytoscape: >=3.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-hgu133a.db: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-kegggraph: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-keggrest: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-kodata: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends cytoscape: ``>=3.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gtools: 
    :depends r-httr: 
    :depends r-igraph: 

@@ -8,6 +8,7 @@ bioconductor-tweedeseqcountdata
 
 .. conda:recipe:: bioconductor-tweedeseqcountdata
    :replaces_section_title:
+   :noindex:
 
    RNA\-seq count data employed in the vignette of the tweeDEseq package
 
@@ -22,11 +23,18 @@ bioconductor-tweedeseqcountdata
 
    |downloads_bioconductor-tweedeseqcountdata| |docker_bioconductor-tweedeseqcountdata|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

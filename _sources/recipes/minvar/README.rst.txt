@@ -8,6 +8,7 @@ minvar
 
 .. conda:recipe:: minvar
    :replaces_section_title:
+   :noindex:
 
    A tool to detect minority variants in HIV\-1 and HCV populations
 
@@ -22,19 +23,34 @@ minvar
 
    |downloads_minvar| |docker_minvar|
 
-   :versions: 2.2.2-1, 2.2.2-0, 2.2.1-0, 2.2-0, 2.1.3-0, 2.1.2-1, 2.1.2-0, 2.1.1-2, 2.1.1-1, 2.1.1-0, 2.1-1, 2.1-0, 2.0-1, 2.0-0, 1.2b-1, 1.2b-0, 1.2a3-1, 1.2a3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  </span></summary>
+      
+
+      ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.3-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-1``,  ``2.1-0``,  ``2.0-1``,  ``2.0-0``,  ``1.2b-1``,  ``1.2b-0``,  ``1.2a3-1``,  ``1.2a3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bedtools: 
    :depends biopython: 
-   :depends blast: >=2.3
+   :depends blast: ``>=2.3``
    :depends bwa: 
    :depends emboss: 
    :depends htslib: 
-   :depends lofreq: >=2.1.3.1
+   :depends lofreq: ``>=2.1.3.1``
    :depends pandas: 
    :depends pandoc: 
-   :depends python: >=3
-   :depends samtools: >=1.3
+   :depends python: ``>=3``
+   :depends samtools: ``>=1.3``
    :depends seqtk: 
    :depends setuptools_scm_git_archive: 
    :depends sierrapy: 

@@ -8,6 +8,7 @@ hanselx
 
 .. conda:recipe:: hanselx
    :replaces_section_title:
+   :noindex:
 
    A graph\-inspired data structure for determining likely chains of sequences from breadcrumbs of evidence
 
@@ -23,7 +24,14 @@ hanselx
 
    |downloads_hanselx| |docker_hanselx|
 
-   :versions: 0.0.92-0, 0.0.81-1, 0.0.81-0
+   :versions:
+      
+      
+
+      ``0.0.92-0``,  ``0.0.81-1``,  ``0.0.81-0``
+
+      
+
    
    :depends numpy: 
    :depends python: 

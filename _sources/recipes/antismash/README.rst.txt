@@ -8,6 +8,7 @@ antismash
 
 .. conda:recipe:: antismash
    :replaces_section_title:
+   :noindex:
 
    antiSMASH allows the rapid genome\-wide identification\, annotation and analysis of secondary metabolite biosynthesis gene clusters.
 
@@ -23,27 +24,42 @@ antismash
 
    |downloads_antismash| |docker_antismash|
 
-   :versions: 5.1.2-0, 5.1.1-0, 4.2.0-2, 4.2.0-1, 4.1.0-1, 4.1.0-0, 4.0.2-3, 4.0.2-2, 4.0.2-1, 4.0.1-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.2-3</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  </span></summary>
+      
+
+      ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bcbio-gff: 
-   :depends biopython: >=1.71
-   :depends blast: 2.2.*
-   :depends diamond: 0.9.*
-   :depends fasttree: 2.1.*
-   :depends glimmerhmm: 3.0.*
+   :depends biopython: ``>=1.71``
+   :depends blast: ``2.2.*``
+   :depends diamond: ``0.9.*``
+   :depends fasttree: ``2.1.*``
+   :depends glimmerhmm: ``3.0.*``
    :depends helperlibs: 
-   :depends hmmer: 3.1b2
+   :depends hmmer: ``3.1b2``
    :depends hmmer2: 
    :depends jinja2: 
    :depends matplotlib: 
-   :depends meme: <=4.11.2
-   :depends muscle: 3.8.*
+   :depends meme: ``<=4.11.2``
+   :depends muscle: ``3.8.*``
    :depends numpy: 
    :depends prodigal: 
    :depends pyscss: 
    :depends pysvg-py3: 
-   :depends python: >=3
-   :depends scikit-learn: >=0.19
+   :depends python: ``>=3``
+   :depends scikit-learn: ``>=0.19``
    :depends scipy: 
    :requirements:
 

@@ -8,6 +8,7 @@ bioconductor-ledpred
 
 .. conda:recipe:: bioconductor-ledpred
    :replaces_section_title:
+   :noindex:
 
    Learning from DNA to Predict Enhancers
 
@@ -22,11 +23,18 @@ bioconductor-ledpred
 
    |downloads_bioconductor-ledpred| |docker_bioconductor-ledpred|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
    :depends r-akima: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-e1071: >=1.6
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-e1071: ``>=1.6``
    :depends r-ggplot2: 
    :depends r-irr: 
    :depends r-jsonlite: 

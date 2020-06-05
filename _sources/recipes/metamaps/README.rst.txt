@@ -8,6 +8,7 @@ metamaps
 
 .. conda:recipe:: metamaps
    :replaces_section_title:
+   :noindex:
 
    MetaMaps is a tool for long\-read metagenomic analysis
 
@@ -22,11 +23,18 @@ metamaps
 
    |downloads_metamaps| |docker_metamaps|
 
-   :versions: 0.1.98102e9-0
+   :versions:
+      
+      
+
+      ``0.1.98102e9-0``
+
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
    :depends perl-file-slurp: 
    :depends perl-http-message: 
@@ -38,7 +46,7 @@ metamaps
    :depends r-base: 
    :depends r-ggplot2: 
    :depends r-rcolorbrewer: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

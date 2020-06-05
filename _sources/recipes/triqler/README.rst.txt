@@ -8,6 +8,7 @@ triqler
 
 .. conda:recipe:: triqler
    :replaces_section_title:
+   :noindex:
 
    A combined identification and quantification error model of label\-free protein quantification
 
@@ -22,11 +23,18 @@ triqler
 
    |downloads_triqler| |docker_triqler|
 
-   :versions: 0.3.0-0, 0.2.1-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+
+      
+
    
-   :depends numpy: >=1.12
+   :depends numpy: ``>=1.12``
    :depends python: 
-   :depends scipy: >=0.17
+   :depends scipy: ``>=0.17``
    :requirements:
 
    .. rubric:: Installation

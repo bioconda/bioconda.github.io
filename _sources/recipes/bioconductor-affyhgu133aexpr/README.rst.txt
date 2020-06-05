@@ -8,6 +8,7 @@ bioconductor-affyhgu133aexpr
 
 .. conda:recipe:: bioconductor-affyhgu133aexpr
    :replaces_section_title:
+   :noindex:
 
    Affymetrix Human hgu133a Array \(GPL96\) Expression Data Package
 
@@ -22,10 +23,17 @@ bioconductor-affyhgu133aexpr
 
    |downloads_bioconductor-affyhgu133aexpr| |docker_bioconductor-affyhgu133aexpr|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-2, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

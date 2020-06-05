@@ -8,6 +8,7 @@ scelvis
 
 .. conda:recipe:: scelvis
    :replaces_section_title:
+   :noindex:
 
    SCelVis \- web\-based visualization of single\-cell data
 
@@ -22,7 +23,22 @@ scelvis
 
    |downloads_scelvis| |docker_scelvis|
 
-   :versions: 0.8.4-0, 0.8.3-0, 0.8.2-1, 0.8.2-0, 0.8.1-0, 0.8.0-0, 0.7.3-0, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.0-0, 0.5.0-1, 0.5.0-0, 0.4.1-0, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.1-0, 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  </span></summary>
+      
+
+      ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends anndata: 
    :depends attrs: 
@@ -41,8 +57,8 @@ scelvis
    :depends numpy: 
    :depends pandas: 
    :depends plotly: 
-   :depends python: >=3.6
-   :depends python-irodsclient: >=0.8.2
+   :depends python: ``>=3.6``
+   :depends python-irodsclient: ``>=0.8.2``
    :depends requests: 
    :depends ruamel.yaml: 
    :depends s3fs: 

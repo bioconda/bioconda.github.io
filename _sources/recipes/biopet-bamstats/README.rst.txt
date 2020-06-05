@@ -8,6 +8,7 @@ biopet-bamstats
 
 .. conda:recipe:: biopet-bamstats
    :replaces_section_title:
+   :noindex:
 
    BamStats is a package that contains tools to generate stats from a BAM file\, merge those stats for multiple samples\, and validate the generated stats files.
 
@@ -53,9 +54,16 @@ biopet-bamstats
 
    |downloads_biopet-bamstats| |docker_biopet-bamstats|
 
-   :versions: 1.0.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

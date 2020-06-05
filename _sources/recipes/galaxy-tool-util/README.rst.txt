@@ -8,6 +8,7 @@ galaxy-tool-util
 
 .. conda:recipe:: galaxy-tool-util
    :replaces_section_title:
+   :noindex:
 
    Galaxy Tool and Tool Dependency Utilities
 
@@ -26,10 +27,17 @@ galaxy-tool-util
 
    |downloads_galaxy-tool-util| |docker_galaxy-tool-util|
 
-   :versions: 19.9.1-0
+   :versions:
+      
+      
+
+      ``19.9.1-0``
+
+      
+
    
-   :depends galaxy-containers: >=19.9
-   :depends galaxy-util: >=19.9
+   :depends galaxy-containers: ``>=19.9``
+   :depends galaxy-util: ``>=19.9``
    :depends python: 
    :depends six: 
    :requirements:

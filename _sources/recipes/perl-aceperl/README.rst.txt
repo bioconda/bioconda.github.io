@@ -8,6 +8,7 @@ perl-aceperl
 
 .. conda:recipe:: perl-aceperl
    :replaces_section_title:
+   :noindex:
 
    Object\-Oriented Access to ACEDB Databases
 
@@ -22,9 +23,16 @@ perl-aceperl
 
    |downloads_perl-aceperl| |docker_perl-aceperl|
 
-   :versions: 1.92-2, 1.92-1, 1.92-0
+   :versions:
+      
+      
+
+      ``1.92-2``,  ``1.92-1``,  ``1.92-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-cache-cache: 
    :depends perl-digest-md5: 
    :requirements:

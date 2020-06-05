@@ -8,6 +8,7 @@ debwt
 
 .. conda:recipe:: debwt
    :replaces_section_title:
+   :noindex:
 
    A efficient method to construct BWT index of a given DNA sequence\, especially
    useful for gigantic and high similar genome.
@@ -27,10 +28,17 @@ debwt
 
    |downloads_debwt| |docker_debwt|
 
-   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

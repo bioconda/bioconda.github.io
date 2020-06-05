@@ -8,6 +8,7 @@ pyfaidx
 
 .. conda:recipe:: pyfaidx
    :replaces_section_title:
+   :noindex:
 
    pyfaidx\: efficient pythonic random access to fasta subsequences
 
@@ -23,7 +24,22 @@ pyfaidx
 
    |downloads_pyfaidx| |docker_pyfaidx|
 
-   :versions: 0.5.8-1, 0.5.8-0, 0.5.7-0, 0.5.6-0, 0.5.5.2-1, 0.5.5.2-0, 0.5.4.1-0, 0.5.3-0, 0.5.1-0, 0.5.0-0, 0.4.9.2-0, 0.4.8.1-3, 0.4.8.1-2, 0.4.8.1-0, 0.4.7.1-2, 0.4.7.1-0, 0.4.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5.2-1</code>,  <code>0.5.5.2-0</code>,  <code>0.5.4.1-0</code>,  <code>0.5.3-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+      
+
+      ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5.2-1``,  ``0.5.5.2-0``,  ``0.5.4.1-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.9.2-0``,  ``0.4.8.1-3``,  ``0.4.8.1-2``,  ``0.4.8.1-0``,  ``0.4.7.1-2``,  ``0.4.7.1-0``,  ``0.4.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends python: 
    :depends six: 

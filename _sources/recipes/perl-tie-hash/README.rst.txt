@@ -8,6 +8,7 @@ perl-tie-hash
 
 .. conda:recipe:: perl-tie-hash/1.05
    :replaces_section_title:
+   :noindex:
 
    
 
@@ -22,9 +23,16 @@ perl-tie-hash
 
    |downloads_perl-tie-hash| |docker_perl-tie-hash|
 
-   :versions: 1.05-1, 1.05-0
+   :versions:
+      
+      
+
+      ``1.05-1``,  ``1.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

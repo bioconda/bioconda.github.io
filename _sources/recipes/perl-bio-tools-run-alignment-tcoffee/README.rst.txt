@@ -8,6 +8,7 @@ perl-bio-tools-run-alignment-tcoffee
 
 .. conda:recipe:: perl-bio-tools-run-alignment-tcoffee
    :replaces_section_title:
+   :noindex:
 
    Object for the calculation of a multiple sequence alignment from a set of unaligned sequences or alignments using the TCoffee program
 
@@ -22,9 +23,16 @@ perl-bio-tools-run-alignment-tcoffee
 
    |downloads_perl-bio-tools-run-alignment-tcoffee| |docker_perl-bio-tools-run-alignment-tcoffee|
 
-   :versions: 1.7.4-2, 1.7.4-1, 1.7.4-0
+   :versions:
+      
+      
+
+      ``1.7.4-2``,  ``1.7.4-1``,  ``1.7.4-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl-run: 
    :depends t_coffee: 
    :requirements:

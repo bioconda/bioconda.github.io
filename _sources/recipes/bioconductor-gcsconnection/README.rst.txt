@@ -8,6 +8,7 @@ bioconductor-gcsconnection
 
 .. conda:recipe:: bioconductor-gcsconnection
    :replaces_section_title:
+   :noindex:
 
    Creating R Connection with Google Cloud Storage
 
@@ -22,18 +23,25 @@ bioconductor-gcsconnection
 
    |downloads_bioconductor-gcsconnection| |docker_bioconductor-gcsconnection|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-googleauthr: 
    :depends r-googlecloudstorager: 
    :depends r-httr: 
    :depends r-jsonlite: 
-   :depends r-rcpp: >=1.0.2
+   :depends r-rcpp: ``>=1.0.2``
    :requirements:
 
    .. rubric:: Installation

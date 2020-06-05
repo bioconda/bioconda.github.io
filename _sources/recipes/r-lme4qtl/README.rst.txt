@@ -8,6 +8,7 @@ r-lme4qtl
 
 .. conda:recipe:: r-lme4qtl
    :replaces_section_title:
+   :noindex:
 
    Linear mixed models \(lme4\) with flexible covariance structure for qtl and association analysis.
 
@@ -22,9 +23,16 @@ r-lme4qtl
 
    |downloads_r-lme4qtl| |docker_r-lme4qtl|
 
-   :versions: 0.1.10-2, 0.1.10-1, 0.1.10-0
+   :versions:
+      
+      
+
+      ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-kinship2: 
    :depends r-lme4: 

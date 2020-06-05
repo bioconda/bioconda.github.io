@@ -8,6 +8,7 @@ r-phewas
 
 .. conda:recipe:: r-phewas
    :replaces_section_title:
+   :noindex:
 
    Phenome Wide Association Studies \(PheWAS\) \- Functions to perform Phenome Wide Association Studies \(PheWAS\). These functions include the conversion of ICD9 codes to PheWAS codes \(v1.2\)\, statistical analysis\, and plotting.
 
@@ -23,14 +24,21 @@ r-phewas
 
    |downloads_r-phewas| |docker_r-phewas|
 
-   :versions: 0.12.1-1, 0.12.1-0
+   :versions:
+      
+      
+
+      ``0.12.1-1``,  ``0.12.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
-   :depends r-ggplot2: >=2.2.0
+   :depends r-ggplot2: ``>=2.2.0``
    :depends r-ggrepel: 
    :depends r-lmtest: 
    :depends r-logistf: 

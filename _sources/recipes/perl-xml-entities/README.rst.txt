@@ -8,6 +8,7 @@ perl-xml-entities
 
 .. conda:recipe:: perl-xml-entities
    :replaces_section_title:
+   :noindex:
 
    Mapping of XML entities to Unicode
 
@@ -22,9 +23,16 @@ perl-xml-entities
 
    |downloads_perl-xml-entities| |docker_perl-xml-entities|
 
-   :versions: 1.0002-1, 1.0002-0
+   :versions:
+      
+      
+
+      ``1.0002-1``,  ``1.0002-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :requirements:
 

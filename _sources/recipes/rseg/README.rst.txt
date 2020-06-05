@@ -8,6 +8,7 @@ rseg
 
 .. conda:recipe:: rseg
    :replaces_section_title:
+   :noindex:
 
    The RSEG software package is used to analyze ChIP\-Seq data\, especially for identifying genomic regions and their boundaries marked by diffusive histone modification markers\, such as H3K36me3 and H3K27me3.
 
@@ -22,10 +23,17 @@ rseg
 
    |downloads_rseg| |docker_rseg|
 
-   :versions: 0.4.9-1, 0.4.9-0
+   :versions:
+      
+      
+
+      ``0.4.9-1``,  ``0.4.9-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

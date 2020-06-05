@@ -8,6 +8,7 @@ bioconductor-gars
 
 .. conda:recipe:: bioconductor-gars
    :replaces_section_title:
+   :noindex:
 
    GARS\: Genetic Algorithm for the identification of Robust Subsets of variables in high\-dimensional and challenging datasets
 
@@ -22,12 +23,19 @@ bioconductor-gars
 
    |downloads_bioconductor-gars| |docker_bioconductor-gars|
 
-   :versions: 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-damirseq: >=1.10.0,<1.11.0
-   :depends bioconductor-mlseq: >=2.4.0,<2.5.0
-   :depends bioconductor-summarizedexperiment: >=1.16.0,<1.17.0
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends bioconductor-damirseq: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-mlseq: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.16.0,<1.17.0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-cluster: 
    :depends r-ggplot2: 
    :requirements:

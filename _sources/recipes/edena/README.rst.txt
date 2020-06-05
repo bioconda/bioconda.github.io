@@ -8,6 +8,7 @@ edena
 
 .. conda:recipe:: edena
    :replaces_section_title:
+   :noindex:
 
    de novo short reads assembler
 
@@ -23,9 +24,16 @@ edena
 
    |downloads_edena| |docker_edena|
 
-   :versions: 3.131028-1, 3.131028-0
+   :versions:
+      
+      
+
+      ``3.131028-1``,  ``3.131028-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

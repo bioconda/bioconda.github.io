@@ -8,6 +8,7 @@ perl-html-entities-numbered
 
 .. conda:recipe:: perl-html-entities-numbered
    :replaces_section_title:
+   :noindex:
 
    Conversion of numbered HTML entities
 
@@ -22,9 +23,16 @@ perl-html-entities-numbered
 
    |downloads_perl-html-entities-numbered| |docker_perl-html-entities-numbered|
 
-   :versions: 0.04-1, 0.04-0
+   :versions:
+      
+      
+
+      ``0.04-1``,  ``0.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

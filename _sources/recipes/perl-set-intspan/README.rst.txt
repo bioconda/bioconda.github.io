@@ -8,6 +8,7 @@ perl-set-intspan
 
 .. conda:recipe:: perl-set-intspan
    :replaces_section_title:
+   :noindex:
 
    Manages sets of integers\, newsrc style
 
@@ -22,9 +23,16 @@ perl-set-intspan
 
    |downloads_perl-set-intspan| |docker_perl-set-intspan|
 
-   :versions: 1.19-1, 1.19-0
+   :versions:
+      
+      
+
+      ``1.19-1``,  ``1.19-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

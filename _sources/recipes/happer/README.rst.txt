@@ -8,6 +8,7 @@ happer
 
 .. conda:recipe:: happer
    :replaces_section_title:
+   :noindex:
 
    Minimal Python library for generating haplotype sequences.
 
@@ -22,9 +23,16 @@ happer
 
    |downloads_happer| |docker_happer|
 
-   :versions: 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

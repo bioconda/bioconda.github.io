@@ -8,6 +8,7 @@ sarscov2formatter
 
 .. conda:recipe:: sarscov2formatter
    :replaces_section_title:
+   :noindex:
 
    Formatter for Galaxy SARS\-CoV2 Selection Analysis Workflow
 
@@ -24,11 +25,18 @@ sarscov2formatter
 
    |downloads_sarscov2formatter| |docker_sarscov2formatter|
 
-   :versions: 0.5.2-0
+   :versions:
+      
+      
+
+      ``0.5.2-0``
+
+      
+
    
    :depends biopython: 
    :depends pandas: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends pyyaml: 
    :depends requests: 
    :requirements:

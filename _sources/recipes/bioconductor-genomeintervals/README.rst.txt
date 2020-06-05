@@ -8,6 +8,7 @@ bioconductor-genomeintervals
 
 .. conda:recipe:: bioconductor-genomeintervals
    :replaces_section_title:
+   :noindex:
 
    Operations on genomic intervals
 
@@ -23,15 +24,22 @@ bioconductor-genomeintervals
 
    |downloads_bioconductor-genomeintervals| |docker_bioconductor-genomeintervals|
 
-   :versions: 1.43.0-0, 1.42.0-0, 1.40.0-1, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions:
+      
+      
+
+      ``1.43.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-intervals: >=0.14.0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-intervals: ``>=0.14.0``
    :requirements:
 
    .. rubric:: Installation

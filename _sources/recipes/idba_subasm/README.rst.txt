@@ -8,6 +8,7 @@ idba_subasm
 
 .. conda:recipe:: idba_subasm
    :replaces_section_title:
+   :noindex:
 
    Fork of IDBA with modifications to perform subassembly for the read cloud metagenomic assembler Athena
 
@@ -22,13 +23,20 @@ idba_subasm
 
    |downloads_idba_subasm| |docker_idba_subasm|
 
-   :versions: 1.1.3a2-1, 1.1.3a2-0, 1.1.3a1-0
+   :versions:
+      
+      
+
+      ``1.1.3a2-1``,  ``1.1.3a2-0``,  ``1.1.3a1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

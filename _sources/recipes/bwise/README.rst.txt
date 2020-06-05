@@ -8,6 +8,7 @@ bwise
 
 .. conda:recipe:: bwise
    :replaces_section_title:
+   :noindex:
 
    BWISE is a de Bruijn assembly Workflow using Integral information of Short paired\-End reads
 
@@ -22,15 +23,22 @@ bwise
 
    |downloads_bwise| |docker_bwise|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
    :depends bcalm: 
    :depends bgreat: 
    :depends btrim: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

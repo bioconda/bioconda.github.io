@@ -8,6 +8,7 @@ seq2hla
 
 .. conda:recipe:: seq2hla
    :replaces_section_title:
+   :noindex:
 
    Precision HLA typing and expression from next\-generation RNA sequencing data
 
@@ -23,11 +24,18 @@ seq2hla
 
    |downloads_seq2hla| |docker_seq2hla|
 
-   :versions: 2.2-2, 2.2-1, 2.2-0
+   :versions:
+      
+      
+
+      ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+
+      
+
    
-   :depends biopython: >=1.58
-   :depends bowtie: 1.1.2
-   :depends python: <3
+   :depends biopython: ``>=1.58``
+   :depends bowtie: ``1.1.2``
+   :depends python: ``<3``
    :depends r-base: 
    :requirements:
 

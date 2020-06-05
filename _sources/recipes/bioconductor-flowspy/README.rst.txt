@@ -8,6 +8,7 @@ bioconductor-flowspy
 
 .. conda:recipe:: bioconductor-flowspy
    :replaces_section_title:
+   :noindex:
 
    A Toolkit for Flow And Mass Cytometry Data
 
@@ -22,21 +23,28 @@ bioconductor-flowspy
 
    |downloads_bioconductor-flowspy| |docker_bioconductor-flowspy|
 
-   :versions: 1.2.2-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocneighbors: >=1.6.0,<1.7.0
-   :depends bioconductor-destiny: >=3.2.0,<3.3.0
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowsom: >=1.20.0,<1.21.0
-   :depends bioconductor-flowutils: >=1.52.0,<1.53.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-sva: >=3.36.0,<3.37.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocneighbors: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-destiny: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowsom: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-flowutils: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-ggplot2: 
    :depends r-gmodels: 
@@ -46,8 +54,8 @@ bioconductor-flowspy
    :depends r-mclust: 
    :depends r-pheatmap: 
    :depends r-prettydoc: 
-   :depends r-rann: >=2.5
-   :depends r-rcpp: >=0.12.0
+   :depends r-rann: ``>=2.5``
+   :depends r-rcpp: ``>=0.12.0``
    :depends r-rtsne: 
    :depends r-scatterpie: 
    :depends r-scatterplot3d: 

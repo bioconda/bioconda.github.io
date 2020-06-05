@@ -8,6 +8,7 @@ python-sortedcontainers
 
 .. conda:recipe:: python-sortedcontainers
    :replaces_section_title:
+   :noindex:
 
    sorted collections library\, written in pure\-Python\, and fast as C\-extensions
 
@@ -22,7 +23,14 @@ python-sortedcontainers
 
    |downloads_python-sortedcontainers| |docker_python-sortedcontainers|
 
-   :versions: 2.1.0-0, 2.0.5-0, 2.0.4-0
+   :versions:
+      
+      
+
+      ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.4-0``
+
+      
+
    
    :depends python: 
    :requirements:

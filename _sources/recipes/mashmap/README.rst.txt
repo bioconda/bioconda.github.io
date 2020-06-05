@@ -8,6 +8,7 @@ mashmap
 
 .. conda:recipe:: mashmap
    :replaces_section_title:
+   :noindex:
 
    A fast approximate aligner for long DNA sequences
 
@@ -22,12 +23,19 @@ mashmap
 
    |downloads_mashmap| |docker_mashmap|
 
-   :versions: 2.0-2, 2.0-1, 2.0-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``2.0-2``,  ``2.0-1``,  ``2.0-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

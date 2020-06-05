@@ -8,6 +8,7 @@ pythonpy
 
 .. conda:recipe:: pythonpy
    :replaces_section_title:
+   :noindex:
 
    the swiss army knife of the command line
 
@@ -22,7 +23,14 @@ pythonpy
 
    |downloads_pythonpy| |docker_pythonpy|
 
-   :versions: 0.4.11-0, 0.4.2-1, 0.4.2-0
+   :versions:
+      
+      
+
+      ``0.4.11-0``,  ``0.4.2-1``,  ``0.4.2-0``
+
+      
+
    
    :depends python: 
    :depends setuptools: 

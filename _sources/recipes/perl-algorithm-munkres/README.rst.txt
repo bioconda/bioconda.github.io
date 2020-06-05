@@ -8,6 +8,7 @@ perl-algorithm-munkres
 
 .. conda:recipe:: perl-algorithm-munkres
    :replaces_section_title:
+   :noindex:
 
    Munkres.pm
 
@@ -22,9 +23,16 @@ perl-algorithm-munkres
 
    |downloads_perl-algorithm-munkres| |docker_perl-algorithm-munkres|
 
-   :versions: 0.08-1, 0.08-0
+   :versions:
+      
+      
+
+      ``0.08-1``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

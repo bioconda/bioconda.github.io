@@ -8,6 +8,7 @@ quast
 
 .. conda:recipe:: quast
    :replaces_section_title:
+   :noindex:
 
    Quality Assessment Tool for Genome Assemblies
 
@@ -23,18 +24,33 @@ quast
 
    |downloads_quast| |docker_quast|
 
-   :versions: 5.0.2-1, 5.0.2-0, 5.0.1-0, 5.0.0-1, 5.0.0-0, 4.6.3-2, 4.6.3-1, 4.6.3-0, 4.6.1-0, 4.5-1, 4.4-1, 4.4-0, 4.3-2, 4.3-1, 4.1-1, 4.1-0, 3.2-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>5.0.2-1</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.6.3-2</code>,  <code>4.6.3-1</code>,  <code>4.6.3-0</code>,  <code>4.6.1-0</code>,  </span></summary>
+      
+
+      ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.6.3-2``,  ``4.6.3-1``,  ``4.6.3-0``,  ``4.6.1-0``,  ``4.5-1``,  ``4.4-1``,  ``4.4-0``,  ``4.3-2``,  ``4.3-1``,  ``4.1-1``,  ``4.1-0``,  ``3.2-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends blast: 
    :depends circos: 
    :depends glimmerhmm: 
    :depends joblib: 
    :depends matplotlib: 
-   :depends openjdk: >=8
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends python: >=2.7,<2.8.0a0
+   :depends openjdk: ``>=8``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends simplejson: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

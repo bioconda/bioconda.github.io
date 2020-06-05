@@ -8,6 +8,7 @@ bioconductor-trnadbimport
 
 .. conda:recipe:: bioconductor-trnadbimport
    :replaces_section_title:
+   :noindex:
 
    Importing from tRNAdb and mitotRNAdb as GRanges objects
 
@@ -22,18 +23,25 @@ bioconductor-trnadbimport
 
    |downloads_bioconductor-trnadbimport| |docker_bioconductor-trnadbimport|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.2-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-modstrings: >=1.4.0,<1.5.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-structstrings: >=1.4.0,<1.5.0
-   :depends bioconductor-trna: >=1.6.0,<1.7.0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-modstrings: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-structstrings: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-trna: ``>=1.6.0,<1.7.0``
    :depends r-assertive: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 
    :depends r-stringr: 
    :depends r-xml2: 

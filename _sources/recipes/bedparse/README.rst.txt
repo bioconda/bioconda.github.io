@@ -8,6 +8,7 @@ bedparse
 
 .. conda:recipe:: bedparse
    :replaces_section_title:
+   :noindex:
 
    A simple library and CLI tool to manipulate BED files
 
@@ -22,9 +23,16 @@ bedparse
 
    |downloads_bedparse| |docker_bedparse|
 
-   :versions: 0.2.3-0
+   :versions:
+      
+      
+
+      ``0.2.3-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

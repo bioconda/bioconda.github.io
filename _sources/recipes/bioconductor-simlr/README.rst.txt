@@ -8,6 +8,7 @@ bioconductor-simlr
 
 .. conda:recipe:: bioconductor-simlr
    :replaces_section_title:
+   :noindex:
 
    Single\-cell Interpretation via Multi\-kernel LeaRning \(SIMLR\)
 
@@ -23,13 +24,20 @@ bioconductor-simlr
 
    |downloads_bioconductor-simlr| |docker_bioconductor-simlr|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.1-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrix: 
    :depends r-pracma: 
    :depends r-rcpp: 

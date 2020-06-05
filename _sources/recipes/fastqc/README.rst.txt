@@ -8,6 +8,7 @@ fastqc
 
 .. conda:recipe:: fastqc
    :replaces_section_title:
+   :noindex:
 
    A quality control tool for high throughput sequence data.
 
@@ -23,11 +24,26 @@ fastqc
 
    |downloads_fastqc| |docker_fastqc|
 
-   :versions: 0.11.9-0, 0.11.8-2, 0.11.8-1, 0.11.8-0, 0.11.7-6, 0.11.7-5, 0.11.7-4, 0.11.7-2, 0.11.7-0, 0.11.6-2, 0.11.6-1, 0.11.6-0, 0.11.5-4, 0.11.5-3, 0.11.5-2, 0.11.5-1, 0.11.4-2, 0.11.4-1, 0.11.4-0, 0.11.3-1, 0.11.3-0, 0.11.2-1, 0.11.2-0, 0.10.1-1, 0.10.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.11.9-0</code>,  <code>0.11.8-2</code>,  <code>0.11.8-1</code>,  <code>0.11.8-0</code>,  <code>0.11.7-6</code>,  <code>0.11.7-5</code>,  <code>0.11.7-4</code>,  <code>0.11.7-2</code>,  <code>0.11.7-0</code>,  </span></summary>
+      
+
+      ``0.11.9-0``,  ``0.11.8-2``,  ``0.11.8-1``,  ``0.11.8-0``,  ``0.11.7-6``,  ``0.11.7-5``,  ``0.11.7-4``,  ``0.11.7-2``,  ``0.11.7-0``,  ``0.11.6-2``,  ``0.11.6-1``,  ``0.11.6-0``,  ``0.11.5-4``,  ``0.11.5-3``,  ``0.11.5-2``,  ``0.11.5-1``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``,  ``0.11.3-1``,  ``0.11.3-0``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.10.1-1``,  ``0.10.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends font-ttf-dejavu-sans-mono: 
    :depends fontconfig: 
-   :depends openjdk: >=8.0.144
+   :depends openjdk: ``>=8.0.144``
    :depends perl: 
    :requirements:
 

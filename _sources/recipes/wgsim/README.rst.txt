@@ -8,6 +8,7 @@ wgsim
 
 .. conda:recipe:: wgsim
    :replaces_section_title:
+   :noindex:
 
    Wgsim is a small tool for simulating sequence reads from a reference genome.
 
@@ -22,10 +23,17 @@ wgsim
 
    |downloads_wgsim| |docker_wgsim|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

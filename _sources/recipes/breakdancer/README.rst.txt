@@ -8,6 +8,7 @@ breakdancer
 
 .. conda:recipe:: breakdancer
    :replaces_section_title:
+   :noindex:
 
    SV detection from paired end reads mapping
 
@@ -23,13 +24,20 @@ breakdancer
 
    |downloads_breakdancer| |docker_breakdancer|
 
-   :versions: 1.4.5-2, 1.4.5-1, 1.4.5-0
+   :versions:
+      
+      
+
+      ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``
+
+      
+
    
    :depends libgcc: 
    :depends perl-gdgraph-histogram: 
    :depends perl-math-cdf: 
    :depends perl-statistics-descriptive: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

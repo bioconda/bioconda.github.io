@@ -8,6 +8,7 @@ emblmygff3
 
 .. conda:recipe:: emblmygff3
    :replaces_section_title:
+   :noindex:
 
    An efficient way to convert gff3 annotation files into EMBL format ready to submit.
 
@@ -22,12 +23,19 @@ emblmygff3
 
    |downloads_emblmygff3| |docker_emblmygff3|
 
-   :versions: 2-0, 1.3-0
+   :versions:
+      
+      
+
+      ``2-0``,  ``1.3-0``
+
+      
+
    
-   :depends bcbio-gff: >=0.6.4
-   :depends biopython: >=1.67
-   :depends numpy: <1.16.5
-   :depends python: >=3
+   :depends bcbio-gff: ``>=0.6.4``
+   :depends biopython: ``>=1.67``
+   :depends numpy: ``<1.16.5``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

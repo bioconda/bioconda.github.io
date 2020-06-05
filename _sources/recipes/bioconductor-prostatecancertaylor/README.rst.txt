@@ -8,6 +8,7 @@ bioconductor-prostatecancertaylor
 
 .. conda:recipe:: bioconductor-prostatecancertaylor
    :replaces_section_title:
+   :noindex:
 
    Prostate Cancer Data
 
@@ -22,11 +23,18 @@ bioconductor-prostatecancertaylor
 
    |downloads_bioconductor-prostatecancertaylor| |docker_bioconductor-prostatecancertaylor|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

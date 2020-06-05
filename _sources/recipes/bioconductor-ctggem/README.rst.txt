@@ -8,6 +8,7 @@ bioconductor-ctggem
 
 .. conda:recipe:: bioconductor-ctggem
    :replaces_section_title:
+   :noindex:
 
    Generating Tree Hierarchy Visualizations from Gene Expression Data
 
@@ -22,13 +23,20 @@ bioconductor-ctggem
 
    |downloads_bioconductor-ctggem| |docker_bioconductor-ctggem|
 
-   :versions: 0.99.3-0
+   :versions:
+      
+      
+
+      ``0.99.3-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-monocle: >=2.16.0,<2.17.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-monocle: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-igraph: 
    :depends r-matrix: 

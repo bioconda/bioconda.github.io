@@ -8,6 +8,7 @@ fusion-inspector
 
 .. conda:recipe:: fusion-inspector
    :replaces_section_title:
+   :noindex:
 
    FusionInspector is a component of the Trinity Cancer Transcriptome Analysis Toolkit \(CTAT\). FusionInspector assists in fusion transcript discovery by performing a supervised analysis of fusion predictions\, attempting to recover and re\-score evidence for such predictions. \- https\:\/\/github.com\/FusionInspector\/FusionInspector\/wiki
 
@@ -22,20 +23,27 @@ fusion-inspector
 
    |downloads_fusion-inspector| |docker_fusion-inspector|
 
-   :versions: 2.2.1-0, 1.3.1-1, 1.3.1-0, 1.2.0-0, 1.1.0-2, 1.1.0-1, 1.1.0-0
+   :versions:
+      
+      
+
+      ``2.2.1-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends gmap: >=2017.11.15
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends gmap: ``>=2017.11.15``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-db-file: 
    :depends perl-set-intervaltree: 
    :depends perl-uri: 
-   :depends python: >=3
-   :depends requests: >=2.19.1
-   :depends samtools: >=1.3
-   :depends star: >=2.6.1b
-   :depends trinity: >=2.4
+   :depends python: ``>=3``
+   :depends requests: ``>=2.19.1``
+   :depends samtools: ``>=1.3``
+   :depends star: ``>=2.6.1b``
+   :depends trinity: ``>=2.4``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-bio-trace-abif
 
 .. conda:recipe:: perl-bio-trace-abif
    :replaces_section_title:
+   :noindex:
 
    Bio\:\:Trace\:\:ABIF \- Perl extension for reading and parsing ABIF \(Applied Biosystems\, Inc. Format\) files 
 
@@ -22,9 +23,16 @@ perl-bio-trace-abif
 
    |downloads_perl-bio-trace-abif| |docker_perl-bio-trace-abif|
 
-   :versions: 1.06-0
+   :versions:
+      
+      
+
+      ``1.06-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :requirements:
 

@@ -8,6 +8,7 @@ plass
 
 .. conda:recipe:: plass
    :replaces_section_title:
+   :noindex:
 
    Plass \(Protein\-Level ASSembler\) is a software to assemble short read sequencing data on a protein level
 
@@ -22,14 +23,21 @@ plass
 
    |downloads_plass| |docker_plass|
 
-   :versions: 3.764a3-0, 2.c7e35-1
+   :versions:
+      
+      
+
+      ``3.764a3-0``,  ``2.c7e35-1``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends openmp: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

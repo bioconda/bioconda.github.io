@@ -8,6 +8,7 @@ nanoget
 
 .. conda:recipe:: nanoget
    :replaces_section_title:
+   :noindex:
 
    Functions to extract information from Oxford Nanopore sequencing data and alignments.
 
@@ -22,14 +23,29 @@ nanoget
 
    |downloads_nanoget| |docker_nanoget|
 
-   :versions: 1.13.1-0, 1.13.0-0, 1.12.2-0, 1.12.1-0, 1.12.0-0, 1.11.0-0, 1.10.0-0, 1.9.1-0, 1.9.0-0, 1.8.0-1, 1.8.0-0, 1.7.6-0, 1.7.4-0, 1.5.2-0, 1.5.0-1, 1.5.0-0, 1.2.2-0, 1.0.2-0, 1.0.0-0, 0.11.7-0, 0.11.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.13.1-0</code>,  <code>1.13.0-0</code>,  <code>1.12.2-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.11.0-0</code>,  <code>1.10.0-0</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  </span></summary>
+      
+
+      ``1.13.1-0``,  ``1.13.0-0``,  ``1.12.2-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.6-0``,  ``1.7.4-0``,  ``1.5.2-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2.2-0``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.11.7-0``,  ``0.11.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends nanomath: 
    :depends numpy: 
-   :depends pandas: >=0.22.0
-   :depends pysam: >0.10.0
-   :depends python: >=3
+   :depends pandas: ``>=0.22.0``
+   :depends pysam: ``>0.10.0``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

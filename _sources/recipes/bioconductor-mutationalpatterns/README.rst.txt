@@ -8,6 +8,7 @@ bioconductor-mutationalpatterns
 
 .. conda:recipe:: bioconductor-mutationalpatterns
    :replaces_section_title:
+   :noindex:
 
    Comprehensive genome\-wide analysis of mutational processes
 
@@ -22,24 +23,31 @@ bioconductor-mutationalpatterns
 
    |downloads_bioconductor-mutationalpatterns| |docker_bioconductor-mutationalpatterns|
 
-   :versions: 2.0.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.1-0, 1.4.3-0, 1.4.1-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.1-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-cowplot: >=0.9.2
-   :depends r-ggdendro: >=0.1-20
-   :depends r-ggplot2: >=2.1.0
-   :depends r-nmf: >=0.20.6
-   :depends r-plyr: >=1.8.3
-   :depends r-pracma: >=1.8.8
-   :depends r-reshape2: >=1.4.1
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-variantannotation: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-cowplot: ``>=0.9.2``
+   :depends r-ggdendro: ``>=0.1-20``
+   :depends r-ggplot2: ``>=2.1.0``
+   :depends r-nmf: ``>=0.20.6``
+   :depends r-plyr: ``>=1.8.3``
+   :depends r-pracma: ``>=1.8.8``
+   :depends r-reshape2: ``>=1.4.1``
    :requirements:
 
    .. rubric:: Installation

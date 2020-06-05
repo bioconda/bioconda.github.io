@@ -8,6 +8,7 @@ perl-module-runtime-conflicts
 
 .. conda:recipe:: perl-module-runtime-conflicts
    :replaces_section_title:
+   :noindex:
 
    Provide information on conflicts for Module\:\:Runtime
 
@@ -22,9 +23,16 @@ perl-module-runtime-conflicts
 
    |downloads_perl-module-runtime-conflicts| |docker_perl-module-runtime-conflicts|
 
-   :versions: 0.003-0
+   :versions:
+      
+      
+
+      ``0.003-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-dist-checkconflicts: 
    :depends perl-module-runtime: 
    :requirements:

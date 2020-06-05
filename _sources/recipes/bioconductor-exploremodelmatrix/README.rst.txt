@@ -8,6 +8,7 @@ bioconductor-exploremodelmatrix
 
 .. conda:recipe:: bioconductor-exploremodelmatrix
    :replaces_section_title:
+   :noindex:
 
    Graphical Exploration of Design Matrices
 
@@ -22,11 +23,18 @@ bioconductor-exploremodelmatrix
 
    |downloads_bioconductor-exploremodelmatrix| |docker_bioconductor-exploremodelmatrix|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-dt: 

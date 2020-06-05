@@ -8,6 +8,7 @@ motifraptor
 
 .. conda:recipe:: motifraptor
    :replaces_section_title:
+   :noindex:
 
    Motif\-centric analysis on GWAS data
 
@@ -22,18 +23,25 @@ motifraptor
 
    |downloads_motifraptor| |docker_motifraptor|
 
-   :versions: 0.3.0-1, 0.3.0-0, 0.2.4-0, 0.2.3-1, 0.2.3-0
+   :versions:
+      
+      
+
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends matplotlib-base: 
-   :depends numpy: >=1.14.6,<2.0a0
+   :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
-   :depends seaborn: 0.9.0.*
+   :depends seaborn: ``0.9.0.*``
    :depends twobitreader: 
    :requirements:
 

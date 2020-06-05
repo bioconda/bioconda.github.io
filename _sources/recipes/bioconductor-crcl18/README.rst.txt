@@ -8,6 +8,7 @@ bioconductor-crcl18
 
 .. conda:recipe:: bioconductor-crcl18
    :replaces_section_title:
+   :noindex:
 
    CRC cell line dataset
 
@@ -22,11 +23,18 @@ bioconductor-crcl18
 
    |downloads_bioconductor-crcl18| |docker_bioconductor-crcl18|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

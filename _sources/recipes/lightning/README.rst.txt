@@ -8,6 +8,7 @@ lightning
 
 .. conda:recipe:: lightning
    :replaces_section_title:
+   :noindex:
 
    lightning is a library for large\-scale linear classification\, regression and ranking in Python
 
@@ -22,10 +23,17 @@ lightning
 
    |downloads_lightning| |docker_lightning|
 
-   :versions: 0.2.dev0-0
+   :versions:
+      
+      
+
+      ``0.2.dev0-0``
+
+      
+
    
    :depends numpy: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:

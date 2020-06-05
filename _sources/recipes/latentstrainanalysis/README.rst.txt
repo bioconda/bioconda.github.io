@@ -8,6 +8,7 @@ latentstrainanalysis
 
 .. conda:recipe:: latentstrainanalysis
    :replaces_section_title:
+   :noindex:
 
    Partitioning and analysis methods for large\, complex sequence datasets
 
@@ -27,13 +28,20 @@ latentstrainanalysis
 
    |downloads_latentstrainanalysis| |docker_latentstrainanalysis|
 
-   :versions: 0.0.1-2, 0.0.1-1, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+
+      
+
    
    :depends gensim: 
    :depends numpy: 
    :depends parallel: 
    :depends pyro4: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

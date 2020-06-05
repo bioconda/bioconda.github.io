@@ -8,6 +8,7 @@ bioconductor-ddpcrclust
 
 .. conda:recipe:: bioconductor-ddpcrclust
    :replaces_section_title:
+   :noindex:
 
    Clustering algorithm for ddPCR data
 
@@ -22,13 +23,20 @@ bioconductor-ddpcrclust
 
    |downloads_bioconductor-ddpcrclust| |docker_bioconductor-ddpcrclust|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowdensity: >=1.22.0,<1.23.0
-   :depends bioconductor-flowpeaks: >=1.34.0,<1.35.0
-   :depends bioconductor-samspectral: >=1.42.0,<1.43.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowdensity: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-flowpeaks: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-samspectral: ``>=1.42.0,<1.43.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-clue: 
    :depends r-ggplot2: 
    :depends r-openxlsx: 

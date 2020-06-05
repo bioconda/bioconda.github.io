@@ -8,6 +8,7 @@ perl-class-std
 
 .. conda:recipe:: perl-class-std
    :replaces_section_title:
+   :noindex:
 
    Support for creating standard \"inside\-out\" classes
 
@@ -22,9 +23,16 @@ perl-class-std
 
    |downloads_perl-class-std| |docker_perl-class-std|
 
-   :versions: 0.013-1, 0.013-0
+   :versions:
+      
+      
+
+      ``0.013-1``,  ``0.013-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-scalar-list-utils: 
    :requirements:
 

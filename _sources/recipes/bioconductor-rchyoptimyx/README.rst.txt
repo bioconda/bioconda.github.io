@@ -8,6 +8,7 @@ bioconductor-rchyoptimyx
 
 .. conda:recipe:: bioconductor-rchyoptimyx
    :replaces_section_title:
+   :noindex:
 
    Optimyzed Cellular Hierarchies for Flow Cytometry
 
@@ -22,16 +23,23 @@ bioconductor-rchyoptimyx
 
    |downloads_bioconductor-rchyoptimyx| |docker_bioconductor-rchyoptimyx|
 
-   :versions: 2.28.0-0, 2.26.0-0, 2.24.0-1, 2.22.0-0
+   :versions:
+      
+      
+
+      ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.22.0-0``
+
+      
+
    
-   :depends bioconductor-flowtype: >=2.25.0,<2.26.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowtype: ``>=2.25.0,<2.26.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-sfsmisc: 
    :requirements:
 

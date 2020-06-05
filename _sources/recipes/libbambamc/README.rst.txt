@@ -8,6 +8,7 @@ libbambamc
 
 .. conda:recipe:: libbambamc/0.5.00
    :replaces_section_title:
+   :noindex:
 
    lightweight C implementation of name collating BAM file input and BAM file output
 
@@ -22,10 +23,17 @@ libbambamc
 
    |downloads_libbambamc| |docker_libbambamc|
 
-   :versions: 0.0.50-2, 0.0.50-1, 0.0.50-0
+   :versions:
+      
+      
+
+      ``0.0.50-2``,  ``0.0.50-1``,  ``0.0.50-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

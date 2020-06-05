@@ -8,6 +8,7 @@ perl-params-coerce
 
 .. conda:recipe:: perl-params-coerce/0.14
    :replaces_section_title:
+   :noindex:
 
    Allows your classes to do coercion of parameters
 
@@ -22,9 +23,16 @@ perl-params-coerce
 
    |downloads_perl-params-coerce| |docker_perl-params-coerce|
 
-   :versions: 0.14-2, 0.14-1, 0.14-0
+   :versions:
+      
+      
+
+      ``0.14-2``,  ``0.14-1``,  ``0.14-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-params-util: 
    :requirements:

@@ -8,6 +8,7 @@ spydrpick
 
 .. conda:recipe:: spydrpick
    :replaces_section_title:
+   :noindex:
 
    Mutual information based detection of pairs of genomic loci co\-evolving under a shared selective pressure
 
@@ -23,12 +24,19 @@ spydrpick
 
    |downloads_spydrpick| |docker_spydrpick|
 
-   :versions: 1.2.0-0, 1.1.1-0, 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends pthread-stubs: 
-   :depends tbb: >=2019.9
+   :depends tbb: ``>=2019.9``
    :requirements:
 
    .. rubric:: Installation

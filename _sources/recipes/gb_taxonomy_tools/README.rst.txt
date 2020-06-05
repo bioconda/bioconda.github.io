@@ -8,6 +8,7 @@ gb_taxonomy_tools
 
 .. conda:recipe:: gb_taxonomy_tools
    :replaces_section_title:
+   :noindex:
 
    These are four simple utilities which perform certain manipulations and  visualization tasks on GenBank taxonomic information.
 
@@ -22,7 +23,14 @@ gb_taxonomy_tools
 
    |downloads_gb_taxonomy_tools| |docker_gb_taxonomy_tools|
 
-   :versions: 1.0.1-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
    :requirements:
 

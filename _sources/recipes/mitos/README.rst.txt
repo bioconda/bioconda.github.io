@@ -8,6 +8,7 @@ mitos
 
 .. conda:recipe:: mitos
    :replaces_section_title:
+   :noindex:
 
    MITOS is a tool for the annotation of metazoan mitochondrial genomes.
 
@@ -23,19 +24,34 @@ mitos
 
    |downloads_mitos| |docker_mitos|
 
-   :versions: 2.0.8-0, 2.0.6-0, 2.0.5-0, 2.0.4-0, 2.0.3-0, 2.0.2-1, 2.0.2-0, 2.0.1-0, 1.0.5-0, 1.0.4-0, 1.0.2-0, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.8-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.0.5-0</code>,  </span></summary>
+      
+
+      ``2.0.8-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: 1.73
-   :depends blast: 2.9.*
-   :depends ete2: 2.3.*
-   :depends hmmer: 3.2.*
-   :depends infernal: 1.1.*
+   :depends biopython: ``1.73``
+   :depends blast: ``2.9.*``
+   :depends ete2: ``2.3.*``
+   :depends hmmer: ``3.2.*``
+   :depends infernal: ``1.1.*``
    :depends openjdk: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends r-base: 
-   :depends r-ggplot2: 3.1.*
+   :depends r-ggplot2: ``3.1.*``
    :depends reportlab: 
-   :depends viennarna: <2
+   :depends viennarna: ``<2``
    :requirements:
 
    .. rubric:: Installation

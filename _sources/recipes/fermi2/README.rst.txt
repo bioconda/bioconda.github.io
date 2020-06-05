@@ -8,6 +8,7 @@ fermi2
 
 .. conda:recipe:: fermi2
    :replaces_section_title:
+   :noindex:
 
    Fermi2 focuses on the exploration of FMD\-index as a graph.
 
@@ -22,15 +23,22 @@ fermi2
 
    |downloads_fermi2| |docker_fermi2|
 
-   :versions: r193-4, r193-3, r193-2, r193-1, r193-0, r188-0, r170-0
+   :versions:
+      
+      
+
+      ``r193-4``,  ``r193-3``,  ``r193-2``,  ``r193-1``,  ``r193-0``,  ``r188-0``,  ``r170-0``
+
+      
+
    
    :depends bfc: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends make: 
    :depends perl: 
    :depends ropebwt2: 
    :depends seqtk: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

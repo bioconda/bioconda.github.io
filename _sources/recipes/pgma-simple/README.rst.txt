@@ -8,6 +8,7 @@ pgma-simple
 
 .. conda:recipe:: pgma-simple
    :replaces_section_title:
+   :noindex:
 
    Pgma is a simple program for building WPGMA trees.
 
@@ -22,9 +23,16 @@ pgma-simple
 
    |downloads_pgma-simple| |docker_pgma-simple|
 
-   :versions: 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

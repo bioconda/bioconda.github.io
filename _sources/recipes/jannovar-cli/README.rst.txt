@@ -8,6 +8,7 @@ jannovar-cli
 
 .. conda:recipe:: jannovar-cli
    :replaces_section_title:
+   :noindex:
 
    Java tool for performing annotation of VCF files
 
@@ -22,9 +23,24 @@ jannovar-cli
 
    |downloads_jannovar-cli| |docker_jannovar-cli|
 
-   :versions: 0.34-0, 0.33-0, 0.31-0, 0.29-0, 0.28-0, 0.27-1, 0.26-1, 0.25-1, 0.25-0, 0.24-2, 0.24-1, 0.23-1, 0.23-0, 0.22-0, 0.21-0, 0.20-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.34-0</code>,  <code>0.33-0</code>,  <code>0.31-0</code>,  <code>0.29-0</code>,  <code>0.28-0</code>,  <code>0.27-1</code>,  <code>0.26-1</code>,  <code>0.25-1</code>,  <code>0.25-0</code>,  </span></summary>
+      
+
+      ``0.34-0``,  ``0.33-0``,  ``0.31-0``,  ``0.29-0``,  ``0.28-0``,  ``0.27-1``,  ``0.26-1``,  ``0.25-1``,  ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-0``,  ``0.20-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

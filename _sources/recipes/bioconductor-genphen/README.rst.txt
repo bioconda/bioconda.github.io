@@ -8,6 +8,7 @@ bioconductor-genphen
 
 .. conda:recipe:: bioconductor-genphen
    :replaces_section_title:
+   :noindex:
 
    A tool for quantification of associations between genotypes and phenotypes in genome wide association studies \(GWAS\) with Bayesian inference and statistical learning
 
@@ -22,21 +23,28 @@ bioconductor-genphen
 
    |downloads_bioconductor-genphen| |docker_bioconductor-genphen|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-e1071: 
    :depends r-foreach: 
    :depends r-ranger: 
-   :depends r-rcpp: >=0.12.17
+   :depends r-rcpp: ``>=0.12.17``
    :depends r-rpref: 
-   :depends r-rstan: >=2.17.3
+   :depends r-rstan: ``>=2.17.3``
    :requirements:
 
    .. rubric:: Installation

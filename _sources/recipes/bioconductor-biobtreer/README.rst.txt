@@ -8,6 +8,7 @@ bioconductor-biobtreer
 
 .. conda:recipe:: bioconductor-biobtreer
    :replaces_section_title:
+   :noindex:
 
    Using biobtree tool from R
 
@@ -22,9 +23,16 @@ bioconductor-biobtreer
 
    |downloads_bioconductor-biobtreer| |docker_bioconductor-biobtreer|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httpuv: 
    :depends r-httr: 
    :depends r-jsonlite: 

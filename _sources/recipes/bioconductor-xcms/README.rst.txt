@@ -8,6 +8,7 @@ bioconductor-xcms
 
 .. conda:recipe:: bioconductor-xcms
    :replaces_section_title:
+   :noindex:
 
    LC\-MS and GC\-MS Data Analysis
 
@@ -22,23 +23,38 @@ bioconductor-xcms
 
    |downloads_bioconductor-xcms| |docker_bioconductor-xcms|
 
-   :versions: 3.10.0-0, 3.8.0-0, 3.6.1-0, 3.4.4-0, 3.4.2-0, 3.4.1-0, 3.0.0-1, 3.0.0-0, 1.52.0-1, 1.52.0-0, 1.50.1-0, 1.48.0-1, 1.46.0-1, 1.46.0-0, 1.44.0-1, 1.44.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.6.1-0</code>,  <code>3.4.4-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>1.52.0-1</code>,  </span></summary>
+      
+
+      ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.4-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.1-0``,  ``1.48.0-1``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-massspecwavelet: >=1.54.0,<1.55.0
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-mzr: >=2.22.0,<2.23.0
-   :depends bioconductor-protgenerics: >=1.20.0,<1.21.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-massspecwavelet: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-protgenerics: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-lattice: 
    :depends r-plyr: 
    :depends r-rann: 

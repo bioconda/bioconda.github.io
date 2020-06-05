@@ -8,6 +8,7 @@ perl-io-compress
 
 .. conda:recipe:: perl-io-compress
    :replaces_section_title:
+   :noindex:
 
    IO Interface to compressed data files\/buffers
 
@@ -22,13 +23,20 @@ perl-io-compress
 
    |downloads_perl-io-compress| |docker_perl-io-compress|
 
-   :versions: 2.087-0, 2.086-0, 2.084-0, 2.083-0, 2.081-0, 2.069-5, 2.069-4, 2.069-2, 2.069-1
+   :versions:
+      
+      
+
+      ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-5``,  ``2.069-4``,  ``2.069-2``,  ``2.069-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-compress-raw-bzip2: >=2.087
-   :depends perl-compress-raw-zlib: >=2.087
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-compress-raw-bzip2: ``>=2.087``
+   :depends perl-compress-raw-zlib: ``>=2.087``
    :depends perl-scalar-list-utils: 
    :requirements:
 

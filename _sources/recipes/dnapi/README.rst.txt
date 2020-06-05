@@ -8,6 +8,7 @@ dnapi
 
 .. conda:recipe:: dnapi
    :replaces_section_title:
+   :noindex:
 
    De novo adapter prediction \(iterative\) algorithm for small RNA sequencing data.
 
@@ -22,7 +23,14 @@ dnapi
 
    |downloads_dnapi| |docker_dnapi|
 
-   :versions: 1.1-3, 1.1-2, 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

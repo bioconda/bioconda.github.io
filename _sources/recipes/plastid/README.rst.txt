@@ -8,6 +8,7 @@ plastid
 
 .. conda:recipe:: plastid
    :replaces_section_title:
+   :noindex:
 
    plastid is a Python library for genomic analysis \-\- in particular\, high\-throughput sequencing data
 
@@ -22,23 +23,30 @@ plastid
 
    |downloads_plastid| |docker_plastid|
 
-   :versions: 0.5.1-0, 0.4.8-5, 0.4.8-4, 0.4.8-1, 0.4.8-0, 0.4.7-1, 0.4.7-0
+   :versions:
+      
+      
+
+      ``0.5.1-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``
+
+      
+
    
-   :depends biopython: >=1.64
+   :depends biopython: ``>=1.64``
    :depends bowtie: 
-   :depends cython: >=0.22.0
+   :depends cython: ``>=0.22.0``
    :depends fastx_toolkit: 
-   :depends libgcc-ng: >=7.5.0
-   :depends matplotlib-base: >=1.4.0
-   :depends numpy: >=1.18.4,<2.0a0
-   :depends pandas: >=0.17.0
-   :depends pysam: >=0.15.4,<0.15.5.0a0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends scipy: >=0.15.1
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends matplotlib-base: ``>=1.4.0``
+   :depends numpy: ``>=1.18.4,<2.0a0``
+   :depends pandas: ``>=0.17.0``
+   :depends pysam: ``>=0.15.4,<0.15.5.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends scipy: ``>=0.15.1``
    :depends termcolor: 
-   :depends twobitreader: >=3.0.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends twobitreader: ``>=3.0.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

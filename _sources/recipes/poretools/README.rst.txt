@@ -8,6 +8,7 @@ poretools
 
 .. conda:recipe:: poretools
    :replaces_section_title:
+   :noindex:
 
    poretools\: a toolkit for working with nanopore sequencing data from Oxford Nanopore
 
@@ -22,13 +23,28 @@ poretools
 
    |downloads_poretools| |docker_poretools|
 
-   :versions: 0.6.1a1-8, 0.6.1a1-7, 0.6.1a1-6, 0.6.1a1-5, 0.6.1a1-4, 0.6.1a1-3, 0.6.1a0-0, 0.6.0-0, 0.5.1-1, 0.5.1-0, 0.5.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.6.1a1-8</code>,  <code>0.6.1a1-7</code>,  <code>0.6.1a1-6</code>,  <code>0.6.1a1-5</code>,  <code>0.6.1a1-4</code>,  <code>0.6.1a1-3</code>,  <code>0.6.1a0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  </span></summary>
+      
+
+      ``0.6.1a1-8``,  ``0.6.1a1-7``,  ``0.6.1a1-6``,  ``0.6.1a1-5``,  ``0.6.1a1-4``,  ``0.6.1a1-3``,  ``0.6.1a0-0``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends h5py: >=2.2.0
+   :depends h5py: ``>=2.2.0``
    :depends hdf5: 
    :depends matplotlib: 
    :depends pandas: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends seaborn: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-sys-info
 
 .. conda:recipe:: perl-sys-info
    :replaces_section_title:
+   :noindex:
 
    Fetch information from the host system
 
@@ -22,9 +23,16 @@ perl-sys-info
 
    |downloads_perl-sys-info| |docker_perl-sys-info|
 
-   :versions: 0.7811-0, 0.78-0
+   :versions:
+      
+      
+
+      ``0.7811-0``,  ``0.78-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-sys-info-base: 
    :depends perl-sys-info-driver-linux: 
    :requirements:

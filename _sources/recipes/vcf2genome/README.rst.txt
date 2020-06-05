@@ -8,6 +8,7 @@ vcf2genome
 
 .. conda:recipe:: vcf2genome
    :replaces_section_title:
+   :noindex:
 
    A tool to create a draft genome file out of a GATK VCF file and enabling users to filter the VCF in a single step.
 
@@ -22,7 +23,14 @@ vcf2genome
 
    |downloads_vcf2genome| |docker_vcf2genome|
 
-   :versions: 0.91-1, 0.91-0
+   :versions:
+      
+      
+
+      ``0.91-1``,  ``0.91-0``
+
+      
+
    
    :depends openjdk: 
    :depends python: 

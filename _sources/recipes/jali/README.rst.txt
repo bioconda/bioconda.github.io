@@ -8,6 +8,7 @@ jali
 
 .. conda:recipe:: jali
    :replaces_section_title:
+   :noindex:
 
    Alignment method for comparing a protein sequence to a protein family\, represented by a multiple alignment. It can also be used for sensitive protein database searches. The algorithm is a generalization of the Smith\-Waterman algorithm.
 
@@ -23,7 +24,14 @@ jali
 
    |downloads_jali| |docker_jali|
 
-   :versions: 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-1``,  ``1.3-0``
+
+      
+
    
    :requirements:
 

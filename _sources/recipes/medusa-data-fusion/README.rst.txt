@@ -8,6 +8,7 @@ medusa-data-fusion
 
 .. conda:recipe:: medusa-data-fusion
    :replaces_section_title:
+   :noindex:
 
    Medusa is an approach to detect size\-k modules of objects that\, taken together\,
    appear most significant to another set of objects. It builds on collective
@@ -26,10 +27,17 @@ medusa-data-fusion
 
    |downloads_medusa-data-fusion| |docker_medusa-data-fusion|
 
-   :versions: 0.1-3, 0.1-2, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-3``,  ``0.1-2``,  ``0.1-0``
+
+      
+
    
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

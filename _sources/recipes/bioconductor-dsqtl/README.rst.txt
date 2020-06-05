@@ -8,6 +8,7 @@ bioconductor-dsqtl
 
 .. conda:recipe:: bioconductor-dsqtl
    :replaces_section_title:
+   :noindex:
 
    dsQTL\, data excerpt from Degner et al. 2012 Nature letter
 
@@ -22,13 +23,20 @@ bioconductor-dsqtl
 
    |downloads_bioconductor-dsqtl| |docker_bioconductor-dsqtl|
 
-   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.20.0-0
+   :versions:
+      
+      
+
+      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-ggbase: >=3.50.0,<3.51.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-ggbase: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ phylogenetics
 
 .. conda:recipe:: phylogenetics
    :replaces_section_title:
+   :noindex:
 
    Python API for managing a phylogenetics projects.
 
@@ -22,7 +23,14 @@ phylogenetics
 
    |downloads_phylogenetics| |docker_phylogenetics|
 
-   :versions: 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-0``
+
+      
+
    
    :depends biopython: 
    :depends dendropy: 
@@ -30,7 +38,7 @@ phylogenetics
    :depends phylopandas: 
    :depends phylovega: 
    :depends pyasr: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

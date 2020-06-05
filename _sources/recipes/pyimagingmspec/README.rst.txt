@@ -8,6 +8,7 @@ pyimagingmspec
 
 .. conda:recipe:: pyimagingmspec
    :replaces_section_title:
+   :noindex:
 
    Python library for processing imaging mass spectrometry data
 
@@ -22,7 +23,14 @@ pyimagingmspec
 
    |downloads_pyimagingmspec| |docker_pyimagingmspec|
 
-   :versions: 0.1.4-1, 0.1.4-0
+   :versions:
+      
+      
+
+      ``0.1.4-1``,  ``0.1.4-0``
+
+      
+
    
    :depends python: 
    :requirements:

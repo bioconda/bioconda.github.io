@@ -8,6 +8,7 @@ bioconductor-italicsdata
 
 .. conda:recipe:: bioconductor-italicsdata
    :replaces_section_title:
+   :noindex:
 
    ITALICSData
 
@@ -22,10 +23,17 @@ bioconductor-italicsdata
 
    |downloads_bioconductor-italicsdata| |docker_bioconductor-italicsdata|
 
-   :versions: 2.26.0-0, 2.24.0-0, 2.22.0-1, 2.22.0-0, 2.20.0-0
+   :versions:
+      
+      
+
+      ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

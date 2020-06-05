@@ -8,6 +8,7 @@ perl-xml-parser
 
 .. conda:recipe:: perl-xml-parser
    :replaces_section_title:
+   :noindex:
 
    A perl module for parsing XML documents
 
@@ -22,11 +23,18 @@ perl-xml-parser
 
    |downloads_perl-xml-parser| |docker_perl-xml-parser|
 
-   :versions: 2.44-7, 2.44-6, 2.44-5, 2.44-4, 2.44-3, 2.44-2, 2.44-1, 2.44-0
+   :versions:
+      
+      
+
+      ``2.44-7``,  ``2.44-6``,  ``2.44-5``,  ``2.44-4``,  ``2.44-3``,  ``2.44-2``,  ``2.44-1``,  ``2.44-0``
+
+      
+
    
-   :depends expat: >=2.2.5,<2.3.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends expat: ``>=2.2.5,<2.3.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

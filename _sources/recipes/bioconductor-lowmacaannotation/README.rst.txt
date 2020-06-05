@@ -8,6 +8,7 @@ bioconductor-lowmacaannotation
 
 .. conda:recipe:: bioconductor-lowmacaannotation
    :replaces_section_title:
+   :noindex:
 
    LowMACAAnnotation
 
@@ -22,10 +23,17 @@ bioconductor-lowmacaannotation
 
    |downloads_bioconductor-lowmacaannotation| |docker_bioconductor-lowmacaannotation|
 
-   :versions: 0.99.3-4, 0.99.3-3, 0.99.3-2, 0.99.3-1, 0.99.3-0
+   :versions:
+      
+      
+
+      ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-1``,  ``0.99.3-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

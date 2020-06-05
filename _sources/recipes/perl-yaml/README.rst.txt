@@ -8,6 +8,7 @@ perl-yaml
 
 .. conda:recipe:: perl-yaml
    :replaces_section_title:
+   :noindex:
 
    YAML Ain\'t Markup Language™
 
@@ -22,9 +23,24 @@ perl-yaml
 
    |downloads_perl-yaml| |docker_perl-yaml|
 
-   :versions: 1.29-0, 1.28-0, 1.27-0, 1.26-1, 1.26-0, 1.24-1, 1.24-0, 1.18-2, 1.18-1, 1.18-0, 1.15-1, 1.15-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.29-0</code>,  <code>1.28-0</code>,  <code>1.27-0</code>,  <code>1.26-1</code>,  <code>1.26-0</code>,  <code>1.24-1</code>,  <code>1.24-0</code>,  <code>1.18-2</code>,  <code>1.18-1</code>,  </span></summary>
+      
+
+      ``1.29-0``,  ``1.28-0``,  ``1.27-0``,  ``1.26-1``,  ``1.26-0``,  ``1.24-1``,  ``1.24-0``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``,  ``1.15-1``,  ``1.15-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

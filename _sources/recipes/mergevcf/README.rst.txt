@@ -8,6 +8,7 @@ mergevcf
 
 .. conda:recipe:: mergevcf
    :replaces_section_title:
+   :noindex:
 
    Python package and routines for merging VCF files
 
@@ -22,9 +23,16 @@ mergevcf
 
    |downloads_mergevcf| |docker_mergevcf|
 
-   :versions: 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :depends pyvcf: 
    :requirements:
 

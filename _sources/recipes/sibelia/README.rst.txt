@@ -8,6 +8,7 @@ sibelia
 
 .. conda:recipe:: sibelia
    :replaces_section_title:
+   :noindex:
 
    Genome comparison via de Bruijn graph.
 
@@ -22,10 +23,17 @@ sibelia
 
    |downloads_sibelia| |docker_sibelia|
 
-   :versions: 3.0.7-2, 3.0.7-1, 3.0.7-0, 3.0.6-0
+   :versions:
+      
+      
+
+      ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

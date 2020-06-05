@@ -8,6 +8,7 @@ bioconductor-diggit
 
 .. conda:recipe:: bioconductor-diggit
    :replaces_section_title:
+   :noindex:
 
    Inference of Genetic Variants Driving Cellular Phenotypes
 
@@ -22,11 +23,18 @@ bioconductor-diggit
 
    |downloads_bioconductor-diggit| |docker_bioconductor-diggit|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-viper: >=1.22.0,<1.23.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-viper: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ks: 
    :requirements:
 

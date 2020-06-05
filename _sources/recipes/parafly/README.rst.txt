@@ -8,6 +8,7 @@ parafly
 
 .. conda:recipe:: parafly
    :replaces_section_title:
+   :noindex:
 
    Given a file containing a list of unix commands\, multithreading is used to process the commands in parallel on a single server. Success\/failure is captured\, and failed commands are retained and reported.
 
@@ -22,10 +23,17 @@ parafly
 
    |downloads_parafly| |docker_parafly|
 
-   :versions: r2013_01_21-1, r2013_01_21-0
+   :versions:
+      
+      
+
+      ``r2013_01_21-1``,  ``r2013_01_21-0``
+
+      
+
    
    :depends libgcc: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

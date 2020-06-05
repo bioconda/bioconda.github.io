@@ -8,6 +8,7 @@ arcs
 
 .. conda:recipe:: arcs
    :replaces_section_title:
+   :noindex:
 
    Scaffolding genome sequence assemblies using 10X Genomics data
 
@@ -22,11 +23,18 @@ arcs
 
    |downloads_arcs| |docker_arcs|
 
-   :versions: 1.1.1-0, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``,  ``1.1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-snm
 
 .. conda:recipe:: bioconductor-snm
    :replaces_section_title:
+   :noindex:
 
    Supervised Normalization of Microarrays
 
@@ -23,11 +24,18 @@ bioconductor-snm
 
    |downloads_bioconductor-snm| |docker_bioconductor-snm|
 
-   :versions: 1.36.0-0, 1.34.0-0, 1.32.0-1, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corpcor: 
-   :depends r-lme4: >=1.0
+   :depends r-lme4: ``>=1.0``
    :requirements:
 
    .. rubric:: Installation

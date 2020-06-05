@@ -8,6 +8,7 @@ perl-devel-globaldestruction
 
 .. conda:recipe:: perl-devel-globaldestruction
    :replaces_section_title:
+   :noindex:
 
    Provides function returning the equivalent of \$\{\^GLOBAL\_PHASE\} eq \'DESTRUCT\' for older perls.
 
@@ -22,9 +23,16 @@ perl-devel-globaldestruction
 
    |downloads_perl-devel-globaldestruction| |docker_perl-devel-globaldestruction|
 
-   :versions: 0.14-0, 0.13-2, 0.13-1, 0.13-0
+   :versions:
+      
+      
+
+      ``0.14-0``,  ``0.13-2``,  ``0.13-1``,  ``0.13-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-sub-exporter-progressive: 
    :requirements:
 

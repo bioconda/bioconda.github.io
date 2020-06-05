@@ -8,6 +8,7 @@ perl-biox-seq
 
 .. conda:recipe:: perl-biox-seq
    :replaces_section_title:
+   :noindex:
 
    a basic but fast biological sequence object and associated parsers
 
@@ -22,9 +23,16 @@ perl-biox-seq
 
    |downloads_perl-biox-seq| |docker_perl-biox-seq|
 
-   :versions: 0.006007-1, 0.006007-0, 0.008-0
+   :versions:
+      
+      
+
+      ``0.006007-1``,  ``0.006007-0``,  ``0.008-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-compress-bgzf: 
    :depends perl-file-which: 
    :requirements:

@@ -8,6 +8,7 @@ recycler
 
 .. conda:recipe:: recycler
    :replaces_section_title:
+   :noindex:
 
    Recycler is a tool designed for extracting circular sequences from de novo assembly graphs
 
@@ -22,13 +23,20 @@ recycler
 
    |downloads_recycler| |docker_recycler|
 
-   :versions: 0.7-3, 0.7-2, 0.7-0, 0.6.2-0, 0.6-0, 0.6p1-0
+   :versions:
+      
+      
+
+      ``0.7-3``,  ``0.7-2``,  ``0.7-0``,  ``0.6.2-0``,  ``0.6-0``,  ``0.6p1-0``
+
+      
+
    
    :depends networkx: 
    :depends nose: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

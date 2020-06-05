@@ -8,6 +8,7 @@ mapdamage2
 
 .. conda:recipe:: mapdamage2
    :replaces_section_title:
+   :noindex:
 
    mapDamage\: tracking and quantifying damage patterns in ancient DNA sequences http\:\/\/geogenetics.ku.dk\/all\_literature\/mapdamage\/
 
@@ -22,13 +23,28 @@ mapdamage2
 
    |downloads_mapdamage2| |docker_mapdamage2|
 
-   :versions: 2.2.1-0, 2.2.0-0, 2.1.1-1, 2.1.1-0, 2.1.0-0, 2.0.9-0, 2.0.8-0, 2.0.6-2, 2.0.6-1, 2.0.6-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.9-0</code>,  <code>2.0.8-0</code>,  <code>2.0.6-2</code>,  <code>2.0.6-1</code>,  </span></summary>
+      
+
+      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends pysam: 
-   :depends python: >=3.5
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends python: ``>=3.5``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gam: 
-   :depends r-ggplot2: >=2.1.0
+   :depends r-ggplot2: ``>=2.1.0``
    :depends r-inline: 
    :depends r-rcpp: 
    :depends r-rcppgsl: 

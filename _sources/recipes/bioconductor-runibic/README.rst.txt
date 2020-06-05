@@ -8,6 +8,7 @@ bioconductor-runibic
 
 .. conda:recipe:: bioconductor-runibic
    :replaces_section_title:
+   :noindex:
 
    runibic\: row\-based biclustering algorithm for analysis of gene expression data in R
 
@@ -22,16 +23,23 @@ bioconductor-runibic
 
    |downloads_bioconductor-runibic| |docker_bioconductor-runibic|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biclust: 
-   :depends r-rcpp: >=0.12.12
+   :depends r-rcpp: ``>=0.12.12``
    :depends r-testthat: 
    :requirements:
 

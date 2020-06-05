@@ -8,6 +8,7 @@ perl-bio-bigfile
 
 .. conda:recipe:: perl-bio-bigfile
    :replaces_section_title:
+   :noindex:
 
    Low\-level interface to BigWig \& BigBed files
 
@@ -22,15 +23,22 @@ perl-bio-bigfile
 
    |downloads_perl-bio-bigfile| |docker_perl-bio-bigfile|
 
-   :versions: 1.07-0
+   :versions:
+      
+      
+
+      ``1.07-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends mysql: 
-   :depends openssl: >=1.1.1a,<1.1.2a
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends openssl: ``>=1.1.1a,<1.1.2a``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl: 
    :depends perl-io-string: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

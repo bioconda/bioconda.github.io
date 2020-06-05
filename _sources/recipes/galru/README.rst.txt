@@ -8,6 +8,7 @@ galru
 
 .. conda:recipe:: galru
    :replaces_section_title:
+   :noindex:
 
    Rapid spoligotyping for Mycobacterium tuberculosis directly from long read sequencing
 
@@ -22,18 +23,25 @@ galru
 
    |downloads_galru| |docker_galru|
 
-   :versions: 1.0.0-0, 0.0.2-1, 0.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
+
+      
+
    
    :depends bedtools: 
-   :depends biopython: >=1.68
+   :depends biopython: ``>=1.68``
    :depends blast: 
    :depends cd-hit: 
    :depends minced: 
    :depends minimap2: 
    :depends mlst: 
    :depends ncbi-genome-download: 
-   :depends pyfastaq: >=3.12
-   :depends python: >=3
+   :depends pyfastaq: ``>=3.12``
+   :depends python: ``>=3``
    :depends pyyaml: 
    :depends samtools: 
    :requirements:

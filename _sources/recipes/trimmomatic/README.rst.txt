@@ -8,6 +8,7 @@ trimmomatic
 
 .. conda:recipe:: trimmomatic
    :replaces_section_title:
+   :noindex:
 
    A flexible read trimming tool for Illumina NGS data
 
@@ -23,7 +24,22 @@ trimmomatic
 
    |downloads_trimmomatic| |docker_trimmomatic|
 
-   :versions: 0.39-1, 0.39-0, 0.38-1, 0.38-0, 0.36-6, 0.36-5, 0.36-4, 0.36-3, 0.36-1, 0.35-6, 0.35-4, 0.35-3, 0.35-2, 0.35-1, 0.33-2, 0.33-1, 0.33-0, 0.32-3, 0.32-2, 0.32-1, 0.32-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.39-1</code>,  <code>0.39-0</code>,  <code>0.38-1</code>,  <code>0.38-0</code>,  <code>0.36-6</code>,  <code>0.36-5</code>,  <code>0.36-4</code>,  <code>0.36-3</code>,  <code>0.36-1</code>,  </span></summary>
+      
+
+      ``0.39-1``,  ``0.39-0``,  ``0.38-1``,  ``0.38-0``,  ``0.36-6``,  ``0.36-5``,  ``0.36-4``,  ``0.36-3``,  ``0.36-1``,  ``0.35-6``,  ``0.35-4``,  ``0.35-3``,  ``0.35-2``,  ``0.35-1``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-3``,  ``0.32-2``,  ``0.32-1``,  ``0.32-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends openjdk: 
    :depends python: 

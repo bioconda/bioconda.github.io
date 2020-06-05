@@ -8,6 +8,7 @@ perl-business-isbn
 
 .. conda:recipe:: perl-business-isbn
    :replaces_section_title:
+   :noindex:
 
    work with International Standard Book Numbers
 
@@ -22,9 +23,16 @@ perl-business-isbn
 
    |downloads_perl-business-isbn| |docker_perl-business-isbn|
 
-   :versions: 3.004-0
+   :versions:
+      
+      
+
+      ``3.004-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-business-isbn-data: 
    :requirements:
 

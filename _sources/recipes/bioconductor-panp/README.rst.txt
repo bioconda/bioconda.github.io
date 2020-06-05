@@ -8,6 +8,7 @@ bioconductor-panp
 
 .. conda:recipe:: bioconductor-panp
    :replaces_section_title:
+   :noindex:
 
    Presence\-Absence Calls from Negative Strand Matching Probesets
 
@@ -23,11 +24,18 @@ bioconductor-panp
 
    |downloads_bioconductor-panp| |docker_bioconductor-panp|
 
-   :versions: 1.58.0-0, 1.56.0-0, 1.54.0-1, 1.52.0-0, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   :versions:
+      
+      
+
+      ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

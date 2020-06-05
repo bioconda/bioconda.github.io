@@ -8,6 +8,7 @@ helperlibs
 
 .. conda:recipe:: helperlibs
    :replaces_section_title:
+   :noindex:
 
    A collection of bioinformatics\-related helper functions
 
@@ -22,9 +23,16 @@ helperlibs
 
    |downloads_helperlibs| |docker_helperlibs|
 
-   :versions: 0.1.9-0, 0.1.8-1, 0.1.8-0
+   :versions:
+      
+      
+
+      ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``
+
+      
+
    
-   :depends biopython: >=1.62
+   :depends biopython: ``>=1.62``
    :depends python: 
    :requirements:
 

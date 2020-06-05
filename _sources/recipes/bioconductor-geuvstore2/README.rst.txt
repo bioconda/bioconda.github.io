@@ -8,6 +8,7 @@ bioconductor-geuvstore2
 
 .. conda:recipe:: bioconductor-geuvstore2
    :replaces_section_title:
+   :noindex:
 
    demonstrate storage discipline for eQTL enumerations\, revised
 
@@ -22,12 +23,19 @@ bioconductor-geuvstore2
 
    |downloads_bioconductor-geuvstore2| |docker_bioconductor-geuvstore2|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-gqtlbase: >=1.20.0,<1.21.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-gqtlbase: ``>=1.20.0,<1.21.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-batchjobs: 
    :requirements:
 

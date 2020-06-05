@@ -8,6 +8,7 @@ pash
 
 .. conda:recipe:: pash
    :replaces_section_title:
+   :noindex:
 
    A versatile software package for read mapping and integrative analysis of genomic and epigenomic variation using massively parallel DNA sequencing
 
@@ -23,7 +24,14 @@ pash
 
    |downloads_pash| |docker_pash|
 
-   :versions: 3.0.6.2-0
+   :versions:
+      
+      
+
+      ``3.0.6.2-0``
+
+      
+
    
    :depends glib: 
    :depends libgcc: 

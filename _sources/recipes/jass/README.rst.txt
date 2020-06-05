@@ -8,6 +8,7 @@ jass
 
 .. conda:recipe:: jass
    :replaces_section_title:
+   :noindex:
 
    Computation of joint statistics over sets of GWAS results
 
@@ -22,7 +23,14 @@ jass
 
    |downloads_jass| |docker_jass|
 
-   :versions: 2.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``2.0-0``,  ``1.0.1-0``
+
+      
+
    
    :depends celery: 
    :depends connexion: 
@@ -30,7 +38,7 @@ jass
    :depends numpy: 
    :depends pandas: 
    :depends pytables: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends python-dateutil: 
    :depends scipy: 
    :requirements:

@@ -8,6 +8,7 @@ seqmap
 
 .. conda:recipe:: seqmap
    :replaces_section_title:
+   :noindex:
 
    SeqMap is a tool for mapping large amount of oligonucleotide to the genome.
 
@@ -23,9 +24,16 @@ seqmap
 
    |downloads_seqmap| |docker_seqmap|
 
-   :versions: 1.0.13-0
+   :versions:
+      
+      
+
+      ``1.0.13-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

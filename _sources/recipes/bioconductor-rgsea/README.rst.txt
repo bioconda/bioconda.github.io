@@ -8,6 +8,7 @@ bioconductor-rgsea
 
 .. conda:recipe:: bioconductor-rgsea
    :replaces_section_title:
+   :noindex:
 
    Random Gene Set Enrichment Analysis
 
@@ -23,10 +24,17 @@ bioconductor-rgsea
 
    |downloads_bioconductor-rgsea| |docker_bioconductor-rgsea|
 
-   :versions: 1.22.0-0, 1.20.0-0, 1.18.0-1, 1.16.0-1, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

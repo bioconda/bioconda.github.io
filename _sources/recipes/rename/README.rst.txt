@@ -8,6 +8,7 @@ rename
 
 .. conda:recipe:: rename
    :replaces_section_title:
+   :noindex:
 
    Perl\-powered file rename script with many helpful built\-ins
 
@@ -22,7 +23,14 @@ rename
 
    |downloads_rename| |docker_rename|
 
-   :versions: 1.601-0, 1.600-1, 1.600-0
+   :versions:
+      
+      
+
+      ``1.601-0``,  ``1.600-1``,  ``1.600-0``
+
+      
+
    
    :depends perl: 
    :requirements:

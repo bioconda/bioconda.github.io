@@ -8,6 +8,7 @@ cami-opal
 
 .. conda:recipe:: cami-opal
    :replaces_section_title:
+   :noindex:
 
    OPAL assesses and compares the performance of taxonomic metagenome profilers.
 
@@ -22,18 +23,25 @@ cami-opal
 
    |downloads_cami-opal| |docker_cami-opal|
 
-   :versions: 1.0.5-2, 1.0.5-0, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
-   :depends bokeh: 0.13.0
-   :depends dendropy: >=4.4.0
-   :depends docker-py: >=4.0.2
-   :depends h5py: >=2.9.0
-   :depends matplotlib: >=3.1.1
-   :depends numpy: >=1.16.4
-   :depends pandas: >=0.24.2
-   :depends python: >=3.6
-   :depends scikit-bio: >=0.5.5
-   :depends seaborn: >=0.9.0
+   :depends bokeh: ``0.13.0``
+   :depends dendropy: ``>=4.4.0``
+   :depends docker-py: ``>=4.0.2``
+   :depends h5py: ``>=2.9.0``
+   :depends matplotlib: ``>=3.1.1``
+   :depends numpy: ``>=1.16.4``
+   :depends pandas: ``>=0.24.2``
+   :depends python: ``>=3.6``
+   :depends scikit-bio: ``>=0.5.5``
+   :depends seaborn: ``>=0.9.0``
    :requirements:
 
    .. rubric:: Installation

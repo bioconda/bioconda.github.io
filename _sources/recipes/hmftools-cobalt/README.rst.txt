@@ -8,6 +8,7 @@ hmftools-cobalt
 
 .. conda:recipe:: hmftools-cobalt
    :replaces_section_title:
+   :noindex:
 
    Counts read starts within each 1000 base window to use in PURPLE
 
@@ -22,9 +23,16 @@ hmftools-cobalt
 
    |downloads_hmftools-cobalt| |docker_hmftools-cobalt|
 
-   :versions: 1.8-0, 1.7-0, 1.6-0, 1.5-0
+   :versions:
+      
+      
+
+      ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-compass
 
 .. conda:recipe:: bioconductor-compass
    :replaces_section_title:
+   :noindex:
 
    Combinatorial Polyfunctionality Analysis of Single Cells
 
@@ -23,15 +24,22 @@ bioconductor-compass
 
    |downloads_bioconductor-compass| |docker_bioconductor-compass|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.1-0, 1.20.0-0, 1.18.1-0, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends bioconductor-biocstyle: >=2.16.0,<2.17.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends r-abind: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-clue: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -40,7 +48,7 @@ bioconductor-compass
    :depends r-pdist: 
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
-   :depends r-rcpp: >=0.11.0
+   :depends r-rcpp: ``>=0.11.0``
    :depends r-reshape2: 
    :depends r-rlang: 
    :depends r-rmarkdown: 

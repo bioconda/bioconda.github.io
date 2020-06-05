@@ -8,6 +8,7 @@ var-agg
 
 .. conda:recipe:: var-agg
    :replaces_section_title:
+   :noindex:
 
    A simple helper for aggregating multi\-sample VCF files into \"site VCF\" files.
 
@@ -22,12 +23,19 @@ var-agg
 
    |downloads_var-agg| |docker_var-agg|
 
-   :versions: 0.1.1-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=4.9
-   :depends xz: >=5.2.4,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libgcc-ng: ``>=4.9``
+   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

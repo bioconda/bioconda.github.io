@@ -8,6 +8,7 @@ biobb_structure_manager
 
 .. conda:recipe:: biobb_structure_manager
    :replaces_section_title:
+   :noindex:
 
    BioBB\_structure\_manager is a library to efficiently load and process biomolecular 3D structures.
 
@@ -26,10 +27,17 @@ biobb_structure_manager
 
    |downloads_biobb_structure_manager| |docker_biobb_structure_manager|
 
-   :versions: 3.0.2-0, 3.0.1-0, 3.0.0-0, 1.0.0-0, 0.0.6-0, 0.0.5-0
+   :versions:
+      
+      
+
+      ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``1.0.0-0``,  ``0.0.6-0``,  ``0.0.5-0``
+
+      
+
    
-   :depends biopython: 1.76
-   :depends python: 3.7.*
+   :depends biopython: ``1.76``
+   :depends python: ``3.7.*``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ rnalien
 
 .. conda:recipe:: rnalien
    :replaces_section_title:
+   :noindex:
 
    A tool for unsupervised construction of RNA family models
 
@@ -23,19 +24,34 @@ rnalien
 
    |downloads_rnalien| |docker_rnalien|
 
-   :versions: 1.8.0-1, 1.8.0-0, 1.7.1-0, 1.7.0-0, 1.6.0-0, 1.3.8-5, 1.3.7-5, 1.3.7-4, 1.3.7-3, 1.3.7-2, 1.3.7-1, 1.3.7-0, 1.3.6-0, 1.3.5-0, 1.3.4-0, 1.2.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.0-0</code>,  <code>1.3.8-5</code>,  <code>1.3.7-5</code>,  <code>1.3.7-4</code>,  <code>1.3.7-3</code>,  </span></summary>
+      
+
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.3.8-5``,  ``1.3.7-5``,  ``1.3.7-4``,  ``1.3.7-3``,  ``1.3.7-2``,  ``1.3.7-1``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.2.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends blast: 2.9.0
+   :depends blast: ``2.9.0``
    :depends ca-certificates: 
    :depends entrez-direct: 
    :depends gmp: 
-   :depends infernal: 1.1.2
-   :depends locarna: 2.0.0RC8
+   :depends infernal: ``1.1.2``
+   :depends locarna: ``2.0.0RC8``
    :depends openssl: 
    :depends perl: 
-   :depends rnacode: 0.3
-   :depends rnaz: 2.1.1
-   :depends viennarna: 2.4.13
+   :depends rnacode: ``0.3``
+   :depends rnaz: ``2.1.1``
+   :depends viennarna: ``2.4.13``
    :depends zlib: 
    :requirements:
 

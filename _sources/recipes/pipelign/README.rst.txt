@@ -8,6 +8,7 @@ pipelign
 
 .. conda:recipe:: pipelign
    :replaces_section_title:
+   :noindex:
 
    A pipeline for automated multiple sequence alignment\, particularly of viral sequences.
 
@@ -22,7 +23,14 @@ pipelign
 
    |downloads_pipelign| |docker_pipelign|
 
-   :versions: 0.2-2, 0.2-1, 0.2-0
+   :versions:
+      
+      
+
+      ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+
+      
+
    
    :depends biopython: 
    :depends cd-hit: 
@@ -32,7 +40,7 @@ pipelign
    :depends joblib: 
    :depends mafft: 
    :depends parallel: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

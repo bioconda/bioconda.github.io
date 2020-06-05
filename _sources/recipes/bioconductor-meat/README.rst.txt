@@ -8,6 +8,7 @@ bioconductor-meat
 
 .. conda:recipe:: bioconductor-meat
    :replaces_section_title:
+   :noindex:
 
    Muscle Epigenetic Age Test
 
@@ -22,17 +23,24 @@ bioconductor-meat
 
    |downloads_bioconductor-meat| |docker_bioconductor-meat|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-impute: >=1.62.0,<1.63.0
-   :depends bioconductor-minfi: >=1.34.0,<1.35.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-watermelon: >=1.32.0,<1.33.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-minfi: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-watermelon: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
-   :depends r-dynamictreecut: >=1.63
-   :depends r-glmnet: >=2.0
-   :depends r-rpmm: >=1.25
+   :depends r-dynamictreecut: ``>=1.63``
+   :depends r-glmnet: ``>=2.0``
+   :depends r-rpmm: ``>=1.25``
    :depends r-stringr: 
    :depends r-tibble: 
    :requirements:

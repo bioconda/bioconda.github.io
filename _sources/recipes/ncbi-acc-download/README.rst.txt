@@ -8,6 +8,7 @@ ncbi-acc-download
 
 .. conda:recipe:: ncbi-acc-download
    :replaces_section_title:
+   :noindex:
 
    Download files from NCBI Entrez by accession.
 
@@ -22,11 +23,18 @@ ncbi-acc-download
 
    |downloads_ncbi-acc-download| |docker_ncbi-acc-download|
 
-   :versions: 0.2.6-0, 0.2.5-0
+   :versions:
+      
+      
+
+      ``0.2.6-0``,  ``0.2.5-0``
+
+      
+
    
    :depends biopython: 
    :depends python: 
-   :depends requests: >=2.4.3
+   :depends requests: ``>=2.4.3``
    :requirements:
 
    .. rubric:: Installation

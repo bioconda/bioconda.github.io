@@ -8,6 +8,7 @@ shmlast
 
 .. conda:recipe:: shmlast
    :replaces_section_title:
+   :noindex:
 
    conditional reciprocal best hits with LAST
 
@@ -22,21 +23,28 @@ shmlast
 
    |downloads_shmlast| |docker_shmlast|
 
-   :versions: 1.4-2, 1.4-1, 1.4-0, 1.3-0, 1.2.1-1, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``,  ``1.2.1-1``,  ``1.2.1-0``
+
+      
+
    
-   :depends doit: >=0.29.0
-   :depends ficus: >=0.5
-   :depends filelock: >=2.0.6
-   :depends last: <=874
+   :depends doit: ``>=0.29.0``
+   :depends ficus: ``>=0.5``
+   :depends filelock: ``>=2.0.6``
+   :depends last: ``<=874``
    :depends matplotlib: 
-   :depends numexpr: >=2.3.1
-   :depends numpy: >=1.9.0
-   :depends pandas: >=0.17.0
+   :depends numexpr: ``>=2.3.1``
+   :depends numpy: ``>=1.9.0``
+   :depends pandas: ``>=0.17.0``
    :depends parallel: 
-   :depends python: >=3
-   :depends scipy: >=0.16.0
-   :depends screed: >=0.9
-   :depends seaborn: >=0.6.0
+   :depends python: ``>=3``
+   :depends scipy: ``>=0.16.0``
+   :depends screed: ``>=0.9``
+   :depends seaborn: ``>=0.6.0``
    :requirements:
 
    .. rubric:: Installation

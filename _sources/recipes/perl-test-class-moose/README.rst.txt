@@ -8,6 +8,7 @@ perl-test-class-moose
 
 .. conda:recipe:: perl-test-class-moose
    :replaces_section_title:
+   :noindex:
 
    Serious testing for serious Perl
 
@@ -22,9 +23,16 @@ perl-test-class-moose
 
    |downloads_perl-test-class-moose| |docker_perl-test-class-moose|
 
-   :versions: 0.96-1, 0.96-0, 0.95-0, 0.94-0, 0.80-0
+   :versions:
+      
+      
+
+      ``0.96-1``,  ``0.96-0``,  ``0.95-0``,  ``0.94-0``,  ``0.80-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-import-into: 

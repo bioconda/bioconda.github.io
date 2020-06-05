@@ -8,6 +8,7 @@ transposonpsi
 
 .. conda:recipe:: transposonpsi
    :replaces_section_title:
+   :noindex:
 
    TransposonPSI is an analysis tool to identify protein or nucleic acid sequence homology to proteins encoded by diverse families of transposable elements.
 
@@ -22,11 +23,18 @@ transposonpsi
 
    |downloads_transposonpsi| |docker_transposonpsi|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends blast-legacy: 2.2.26.*
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-bioperl: >=1.7.2
+   :depends blast-legacy: ``2.2.26.*``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-bioperl: ``>=1.7.2``
    :requirements:
 
    .. rubric:: Installation

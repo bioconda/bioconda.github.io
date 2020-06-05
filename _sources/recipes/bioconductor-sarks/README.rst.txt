@@ -8,6 +8,7 @@ bioconductor-sarks
 
 .. conda:recipe:: bioconductor-sarks
    :replaces_section_title:
+   :noindex:
 
    Suffix Array Kernel Smoothing for discovery of correlative sequence motifs and multi\-motif domains
 
@@ -22,7 +23,14 @@ bioconductor-sarks
 
    |downloads_bioconductor-sarks| |docker_bioconductor-sarks|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 

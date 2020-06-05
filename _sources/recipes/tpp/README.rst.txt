@@ -8,6 +8,7 @@ tpp
 
 .. conda:recipe:: tpp
    :replaces_section_title:
+   :noindex:
 
    The Trans\-Proteomic Pipeline \(TPP\) is a collection of integrated tools for MS\/MS proteomics developed at the Seattle Proteome Center. The Bioconda package includes the command\-line versions of the TPP toolset. These programs include tools for validation \(PeptideProphet\, iProphet\, ProteinProphet\, Mayu\) and quantification \(XPRESS\, ASAPRatio\, Libra\) as well as a number of parsers and converters \(Out2XML\, Mascot2XML\, Tandem2XML\, etc\).
 
@@ -23,15 +24,22 @@ tpp
 
    |downloads_tpp| |docker_tpp|
 
-   :versions: 5.0.0-0
+   :versions:
+      
+      
+
+      ``5.0.0-0``
+
+      
+
    
-   :depends bzip2: 1.0*
+   :depends bzip2: ``1.0*``
    :depends hardklor: 
-   :depends libgcc: <=4.9
-   :depends perl: 5.22.0*
+   :depends libgcc: ``<=4.9``
+   :depends perl: ``5.22.0*``
    :depends perl-findbin-libs: 
    :depends perl-xml-parser: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

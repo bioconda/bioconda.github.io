@@ -8,6 +8,7 @@ snp-pileup
 
 .. conda:recipe:: snp-pileup
    :replaces_section_title:
+   :noindex:
 
    Compute SNP pileup at reference positions in one or more input bam files. Output is ready for the R package facets
 
@@ -22,11 +23,18 @@ snp-pileup
 
    |downloads_snp-pileup| |docker_snp-pileup|
 
-   :versions: 0.5.14-2, 0.5.14-1, 0.5.14-0, v0.5.14-0
+   :versions:
+      
+      
+
+      ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``,  ``v0.5.14-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-biotip
 
 .. conda:recipe:: bioconductor-biotip
    :replaces_section_title:
+   :noindex:
 
    BioTIP\: An R package for characterization of Biological Tipping\-Point
 
@@ -22,10 +23,17 @@ bioconductor-biotip
 
    |downloads_bioconductor-biotip| |docker_bioconductor-biotip|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-hmisc: 
    :depends r-igraph: 

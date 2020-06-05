@@ -8,6 +8,7 @@ genometreetk
 
 .. conda:recipe:: genometreetk
    :replaces_section_title:
+   :noindex:
 
    A toolbox for working with genome trees.
 
@@ -22,11 +23,18 @@ genometreetk
 
    |downloads_genometreetk| |docker_genometreetk|
 
-   :versions: 0.1.6-0
+   :versions:
+      
+      
+
+      ``0.1.6-0``
+
+      
+
    
-   :depends biolib: >=0.1.0
-   :depends dendropy: >=4.0.0
-   :depends numpy: >=1.8.0
+   :depends biolib: ``>=0.1.0``
+   :depends dendropy: ``>=4.0.0``
+   :depends numpy: ``>=1.8.0``
    :depends python: 
    :requirements:
 

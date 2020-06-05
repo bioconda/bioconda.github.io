@@ -8,6 +8,7 @@ last
 
 .. conda:recipe:: last
    :replaces_section_title:
+   :noindex:
 
    LAST finds similar regions between sequences\, and aligns them.
 
@@ -23,14 +24,29 @@ last
 
    |downloads_last| |docker_last|
 
-   :versions: 1060-0, 1047-0, 1021-0, 992-0, 982-0, 963-1, 963-0, 941-2, 941-0, 876-0, 874-3, 874-2, 874-1, 874-0, 847-0, 719-2, 719-1, 638-6, 638-5, 638-4, 638-3, 638-2, 638-1, 490-4, 490-3, 490-2, 490-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1060-0</code>,  <code>1047-0</code>,  <code>1021-0</code>,  <code>992-0</code>,  <code>982-0</code>,  <code>963-1</code>,  <code>963-0</code>,  <code>941-2</code>,  <code>941-0</code>,  </span></summary>
+      
+
+      ``1060-0``,  ``1047-0``,  ``1021-0``,  ``992-0``,  ``982-0``,  ``963-1``,  ``963-0``,  ``941-2``,  ``941-0``,  ``876-0``,  ``874-3``,  ``874-2``,  ``874-1``,  ``874-0``,  ``847-0``,  ``719-2``,  ``719-1``,  ``638-6``,  ``638-5``,  ``638-4``,  ``638-3``,  ``638-2``,  ``638-1``,  ``490-4``,  ``490-3``,  ``490-2``,  ``490-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends parallel: 
    :depends pillow: 
    :depends python: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

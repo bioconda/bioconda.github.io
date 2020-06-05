@@ -8,6 +8,7 @@ bioconductor-fastliquidassociation
 
 .. conda:recipe:: bioconductor-fastliquidassociation
    :replaces_section_title:
+   :noindex:
 
    functions for genome\-wide application of Liquid Association
 
@@ -22,12 +23,19 @@ bioconductor-fastliquidassociation
 
    |downloads_bioconductor-fastliquidassociation| |docker_bioconductor-fastliquidassociation|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-impute: >=1.62.0,<1.63.0
-   :depends bioconductor-liquidassociation: >=1.42.0,<1.43.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-liquidassociation: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-hmisc: 
    :depends r-wgcna: 

@@ -8,6 +8,7 @@ taxonomy_ranks
 
 .. conda:recipe:: taxonomy_ranks
    :replaces_section_title:
+   :noindex:
 
    To get taxonomy ranks information for taxid\, species name\, or higher ranks \(e.g.\, genus\, family\) with ETE3 from NCBI Taxonomy database.
 
@@ -23,10 +24,17 @@ taxonomy_ranks
 
    |downloads_taxonomy_ranks| |docker_taxonomy_ranks|
 
-   :versions: 0.0.7-0
+   :versions:
+      
+      
+
+      ``0.0.7-0``
+
+      
+
    
    :depends ete3: 
-   :depends python: >=2.7.15
+   :depends python: ``>=2.7.15``
    :depends six: 
    :requirements:
 

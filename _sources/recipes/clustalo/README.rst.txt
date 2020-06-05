@@ -8,6 +8,7 @@ clustalo
 
 .. conda:recipe:: clustalo
    :replaces_section_title:
+   :noindex:
 
    Latest version of Clustal\: a multiple sequence alignment program for DNA or proteins
 
@@ -22,11 +23,18 @@ clustalo
 
    |downloads_clustalo| |docker_clustalo|
 
-   :versions: 1.2.4-2, 1.2.4-1, 1.2.4-0, 1.2.3-0
+   :versions:
+      
+      
+
+      ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``
+
+      
+
    
    :depends argtable2: 
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ mobidic-mpa
 
 .. conda:recipe:: mobidic-mpa
    :replaces_section_title:
+   :noindex:
 
    MPA\: MoBiDiC Prioritization Algorithm
 
@@ -24,10 +25,17 @@ mobidic-mpa
 
    |downloads_mobidic-mpa| |docker_mobidic-mpa|
 
-   :versions: 1.1.2-0, 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.2-0``,  ``1.1.1-0``
+
+      
+
    
    :depends python: 
-   :depends pyvcf: 0.6.8
+   :depends pyvcf: ``0.6.8``
    :requirements:
 
    .. rubric:: Installation

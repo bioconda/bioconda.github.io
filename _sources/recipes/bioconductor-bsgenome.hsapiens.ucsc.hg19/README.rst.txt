@@ -8,6 +8,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19
 
 .. conda:recipe:: bioconductor-bsgenome.hsapiens.ucsc.hg19
    :replaces_section_title:
+   :noindex:
 
    Full genome sequences for Homo sapiens \(UCSC version hg19\, based on GRCh37.p13\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19
 
    |downloads_bioconductor-bsgenome.hsapiens.ucsc.hg19| |docker_bioconductor-bsgenome.hsapiens.ucsc.hg19|
 
-   :versions: 1.4.3-0, 1.4.0-8, 1.4.0-7, 1.4.0-5, 1.4.0-4, 1.4.0-2, 1.4.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.4.3-0``,  ``1.4.0-8``,  ``1.4.0-7``,  ``1.4.0-5``,  ``1.4.0-4``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

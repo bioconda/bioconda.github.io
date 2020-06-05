@@ -8,6 +8,7 @@ downpore
 
 .. conda:recipe:: downpore
    :replaces_section_title:
+   :noindex:
 
    Suite of tools for use in genome assembly and consensus.
 
@@ -22,7 +23,14 @@ downpore
 
    |downloads_downpore| |docker_downpore|
 
-   :versions: 0.3.3-0, 0.3.1-1, 0.3.1-0, 0.2-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.3.3-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2-0``,  ``0.1.1-0``
+
+      
+
    
    :requirements:
 

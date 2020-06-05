@@ -8,6 +8,7 @@ pymvpa
 
 .. conda:recipe:: pymvpa
    :replaces_section_title:
+   :noindex:
 
    PyMVPA \-\- Multivariate Pattern Analysis in Python
 
@@ -23,18 +24,25 @@ pymvpa
 
    |downloads_pymvpa| |docker_pymvpa|
 
-   :versions: 2.6.5-1, 2.6.5-0, 2.6.4-0, 2.6.0-2, 2.6.0-1, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.6.5-1``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends libsvm: >=3.21,<3.22.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libsvm: ``>=3.21,<3.22.0a0``
    :depends matplotlib: 
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
    :depends swig: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-tbsignatureprofiler
 
 .. conda:recipe:: bioconductor-tbsignatureprofiler
    :replaces_section_title:
+   :noindex:
 
    Profile RA\-Seq Data Using TB Pathway Signatures
 
@@ -22,19 +23,26 @@ bioconductor-tbsignatureprofiler
 
    |downloads_bioconductor-tbsignatureprofiler| |docker_bioconductor-tbsignatureprofiler|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-assign: >=1.24.0,<1.25.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biodist: >=1.60.0,<1.61.0
-   :depends bioconductor-complexheatmap: >=2.4.0,<2.5.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-gsva: >=1.36.0,<1.37.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singscore: >=1.8.0,<1.9.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-assign: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biodist: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-gsva: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singscore: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-boot: 
    :depends r-caret: 
    :depends r-circlize: 

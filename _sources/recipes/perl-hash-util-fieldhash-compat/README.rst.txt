@@ -8,6 +8,7 @@ perl-hash-util-fieldhash-compat
 
 .. conda:recipe:: perl-hash-util-fieldhash-compat/0.11
    :replaces_section_title:
+   :noindex:
 
    Use Hash\:\:Util\:\:FieldHash or ties\, depending on availability
 
@@ -22,9 +23,16 @@ perl-hash-util-fieldhash-compat
 
    |downloads_perl-hash-util-fieldhash-compat| |docker_perl-hash-util-fieldhash-compat|
 
-   :versions: 0.11-2, 0.11-1, 0.11-0
+   :versions:
+      
+      
+
+      ``0.11-2``,  ``0.11-1``,  ``0.11-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-constant: 
    :depends perl-exporter: 
    :depends perl-parent: 

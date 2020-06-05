@@ -8,6 +8,7 @@ genome_updater
 
 .. conda:recipe:: genome_updater
    :replaces_section_title:
+   :noindex:
 
    genome\_updater\: bash script to download and update snapshots of the NCBI genomes
 
@@ -25,7 +26,14 @@ genome_updater
 
    |downloads_genome_updater| |docker_genome_updater|
 
-   :versions: 0.2.2-0, 0.2.1-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+
+      
+
    
    :depends bc: 
    :depends coreutils: 

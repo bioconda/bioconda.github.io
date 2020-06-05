@@ -8,6 +8,7 @@ idr-py
 
 .. conda:recipe:: idr-py
    :replaces_section_title:
+   :noindex:
 
    Helper methods for accessing the Image Data Resource \(IDR\)
 
@@ -62,13 +63,20 @@ idr-py
 
    |downloads_idr-py| |docker_idr-py|
 
-   :versions: 0.4.0-0, 0.4.0.dev3-0, 0.3.0-1, 0.3.0-0, 0.2.1-0, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.4.0-0``,  ``0.4.0.dev3-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+
+      
+
    
    :depends ipython: 
    :depends ipywidgets: 
    :depends matplotlib-base: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends python-omero: 
    :depends requests: 
    :depends seaborn: 

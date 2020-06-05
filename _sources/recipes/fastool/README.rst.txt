@@ -8,6 +8,7 @@ fastool
 
 .. conda:recipe:: fastool
    :replaces_section_title:
+   :noindex:
 
    A simple and quick tool to read huge FastQ and FastA files \(both normal and gzipped\) and manipulate them.
 
@@ -23,10 +24,17 @@ fastool
 
    |downloads_fastool| |docker_fastool|
 
-   :versions: 0.1.4-3, 0.1.4-2, 0.1.4-1, 0.1.4-0
+   :versions:
+      
+      
+
+      ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

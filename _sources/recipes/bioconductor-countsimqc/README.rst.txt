@@ -8,6 +8,7 @@ bioconductor-countsimqc
 
 .. conda:recipe:: bioconductor-countsimqc
    :replaces_section_title:
+   :noindex:
 
    Compare Characteristic Features of Count Data Sets
 
@@ -22,20 +23,27 @@ bioconductor-countsimqc
 
    |downloads_bioconductor-countsimqc| |docker_bioconductor-countsimqc|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-genomeinfodbdata: >=1.2.0,<1.3.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-genomeinfodbdata: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-catools: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-randtests: 
-   :depends r-rmarkdown: >=0.9.5
+   :depends r-rmarkdown: ``>=0.9.5``
    :depends r-tidyr: 
    :requirements:
 

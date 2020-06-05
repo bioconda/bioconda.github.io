@@ -8,6 +8,7 @@ bioconductor-clonotyper
 
 .. conda:recipe:: bioconductor-clonotyper
    :replaces_section_title:
+   :noindex:
 
    High throughput analysis of T cell antigen receptor sequences
 
@@ -23,9 +24,16 @@ bioconductor-clonotyper
 
    |downloads_bioconductor-clonotyper| |docker_bioconductor-clonotyper|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

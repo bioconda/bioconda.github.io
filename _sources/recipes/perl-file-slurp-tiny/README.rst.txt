@@ -8,6 +8,7 @@ perl-file-slurp-tiny
 
 .. conda:recipe:: perl-file-slurp-tiny
    :replaces_section_title:
+   :noindex:
 
    A simple\, sane and efficient file slurper \[DISCOURAGED\]
 
@@ -22,9 +23,16 @@ perl-file-slurp-tiny
 
    |downloads_perl-file-slurp-tiny| |docker_perl-file-slurp-tiny|
 
-   :versions: 0.004-1, 0.004-0
+   :versions:
+      
+      
+
+      ``0.004-1``,  ``0.004-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

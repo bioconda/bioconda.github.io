@@ -8,6 +8,7 @@ extract_fasta_seq
 
 .. conda:recipe:: extract_fasta_seq
    :replaces_section_title:
+   :noindex:
 
    To extract specific fasta sequences from a fasta file.
 
@@ -23,9 +24,16 @@ extract_fasta_seq
 
    |downloads_extract_fasta_seq| |docker_extract_fasta_seq|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
-   :depends python: >=2.7.15
+   :depends python: ``>=2.7.15``
    :requirements:
 
    .. rubric:: Installation

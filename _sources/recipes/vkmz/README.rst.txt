@@ -8,6 +8,7 @@ vkmz
 
 .. conda:recipe:: vkmz
    :replaces_section_title:
+   :noindex:
 
    metabolomics formula prediction and van Krevelen diagram generation
 
@@ -22,9 +23,16 @@ vkmz
 
    |downloads_vkmz| |docker_vkmz|
 
-   :versions: 1.4.6-0, 1.4.5-0, 1.4.4-0, 1.4.2-0, 1.4dev2-0, v1.4dev1-0, v1.3.1-0
+   :versions:
+      
+      
+
+      ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.2-0``,  ``1.4dev2-0``,  ``v1.4dev1-0``,  ``v1.3.1-0``
+
+      
+
    
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

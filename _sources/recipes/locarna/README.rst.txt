@@ -8,6 +8,7 @@ locarna
 
 .. conda:recipe:: locarna
    :replaces_section_title:
+   :noindex:
 
    Multiple alignment of RNAs
 
@@ -23,13 +24,28 @@ locarna
 
    |downloads_locarna| |docker_locarna|
 
-   :versions: 2.0.0RC8-0, 2.0.0RC6-0, 1.9.2.3-0, 1.9.2-1, 1.9.2-0, 1.9.1-2, 1.9.1-1, 1.9.1-0, 1.9.0-0, 1.8.12-0, 1.8.11-1, 1.8.10-0, 1.8.9-3, 1.8.9-2, 1.8.9-1, 1.8.7-1, 1.8.7-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.0RC8-0</code>,  <code>2.0.0RC6-0</code>,  <code>1.9.2.3-0</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.1-2</code>,  <code>1.9.1-1</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  </span></summary>
+      
+
+      ``2.0.0RC8-0``,  ``2.0.0RC6-0``,  ``1.9.2.3-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-2``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.12-0``,  ``1.8.11-1``,  ``1.8.10-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.7-1``,  ``1.8.7-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
-   :depends viennarna: 2.4.13
-   :depends viennarna: >=2.4.13,<2.5.0a0
+   :depends viennarna: ``2.4.13``
+   :depends viennarna: ``>=2.4.13,<2.5.0a0``
    :requirements:
 
    .. rubric:: Installation

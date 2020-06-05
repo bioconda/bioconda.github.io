@@ -8,6 +8,7 @@ pypgatk
 
 .. conda:recipe:: pypgatk
    :replaces_section_title:
+   :noindex:
 
    The Pypgatk framework and library provides a set of tools to perform ProteoGenomics Analysis.
 
@@ -25,7 +26,14 @@ pypgatk
 
    |downloads_pypgatk| |docker_pypgatk|
 
-   :versions: 0.0.4-0
+   :versions:
+      
+      
+
+      ``0.0.4-0``
+
+      
+
    
    :depends argcomplete: 
    :depends argh: 
@@ -51,7 +59,7 @@ pypgatk
    :depends pylint: 
    :depends pynacl: 
    :depends pysftp: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends pyvcf: 
    :depends pyyaml: 
    :depends requests: 

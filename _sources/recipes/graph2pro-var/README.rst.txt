@@ -8,6 +8,7 @@ graph2pro-var
 
 .. conda:recipe:: graph2pro-var
    :replaces_section_title:
+   :noindex:
 
    meta\-proteogenomic identification from mass spec and metagenomic\/transcriptomic data
 
@@ -22,7 +23,14 @@ graph2pro-var
 
    |downloads_graph2pro-var| |docker_graph2pro-var|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
    :depends bowtie2: 
    :depends cd-hit: 

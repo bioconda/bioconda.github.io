@@ -8,13 +8,14 @@ coinfinder
 
 .. conda:recipe:: coinfinder
    :replaces_section_title:
+   :noindex:
 
    A tool for the identification of coincident \(associating and dissociating\) genes in pangenomes.
 
    :homepage: https://github.com/fwhelan/coinfinder
    :license: GPL / GPLv3
    :recipe: /`coinfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coinfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coinfinder/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1101/859371`
+   :links: doi: :doi:`10.1101/859371`
 
    
 
@@ -23,14 +24,29 @@ coinfinder
 
    |downloads_coinfinder| |docker_coinfinder|
 
-   :versions: 1.0.4-1, 1.0.4-0, 1.0.3-0, 1.0.2-1, 1.0.2-0, 1.0.1-0, 1.0.0-3, 1.0.0-2, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
+
+      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-ggtree: >=2.0.0,<2.1.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bioconductor-ggtree: ``>=2.0.0,<2.1.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends openmp: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends r-ape: 
    :depends r-base: 
    :depends r-caper: 
@@ -40,7 +56,7 @@ coinfinder
    :depends r-flock: 
    :depends r-future: 
    :depends r-getopt: 
-   :depends r-ggplot2: >=3.0.0
+   :depends r-ggplot2: ``>=3.0.0``
    :depends r-ggraph: 
    :depends r-igraph: 
    :depends r-magrittr: 
@@ -49,7 +65,7 @@ coinfinder
    :depends r-rlang: 
    :depends r-rvcheck: 
    :depends r-tidyr: 
-   :depends r-tidytree: >=0.2.6
+   :depends r-tidytree: ``>=0.2.6``
    :requirements:
 
    .. rubric:: Installation

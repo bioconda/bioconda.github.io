@@ -8,6 +8,7 @@ panx
 
 .. conda:recipe:: panx/1.5.0
    :replaces_section_title:
+   :noindex:
 
    Microbial pan\-genome analysis and exploration tool
 
@@ -22,7 +23,14 @@ panx
 
    |downloads_panx| |docker_panx|
 
-   :versions: 1.6.0-0, 1.5.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.5.0-0``
+
+      
+
    
    :depends biopython: 
    :depends diamond: 
@@ -32,7 +40,7 @@ panx
    :depends mcl: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends raxml: 
    :depends scipy: 
    :depends treetime: 

@@ -8,6 +8,7 @@ upimapi
 
 .. conda:recipe:: upimapi
    :replaces_section_title:
+   :noindex:
 
    UniProt Id Mapping through API
 
@@ -30,7 +31,14 @@ upimapi
 
    |downloads_upimapi| |docker_upimapi|
 
-   :versions: 1.0.3-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``,  ``1.0.2-0``
+
+      
+
    
    :depends openpyxl: 
    :depends pandas: 

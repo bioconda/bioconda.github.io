@@ -8,6 +8,7 @@ r-htssip
 
 .. conda:recipe:: r-htssip
    :replaces_section_title:
+   :noindex:
 
    Functions for analyzing high throughput sequencing  stable isotope probing \(HTS\-SIP\) data. Analyses include high resolution stable isotope probing \(HR\-SIP\)\, multi\-window high resolution stable isotope probing \(MW\-HR\-SIP\)\,  and quantitative stable isotope probing \(q\-SIP\). 
 
@@ -22,22 +23,29 @@ r-htssip
 
    |downloads_r-htssip| |docker_r-htssip|
 
-   :versions: 1.4.1-1, 1.4.1-0, 1.4.0-3, 1.4.0-2, 1.4.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-deseq2: >=1.16.1
-   :depends bioconductor-phyloseq: >=1.20.0
-   :depends r-ape: >=4.1
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-coenocliner: >=0.2.2
-   :depends r-dplyr: >=0.7.4
-   :depends r-ggplot2: >=2.2.1
-   :depends r-igraph: >=1.1.2
-   :depends r-lazyeval: >=0.2.0
-   :depends r-magrittr: >=1.5
-   :depends r-plyr: >=1.8.4
-   :depends r-stringr: >=1.2.0
-   :depends r-tidyr: >=0.7.2
-   :depends r-vegan: >=2.4.0
+   :depends bioconductor-deseq2: ``>=1.16.1``
+   :depends bioconductor-phyloseq: ``>=1.20.0``
+   :depends r-ape: ``>=4.1``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-coenocliner: ``>=0.2.2``
+   :depends r-dplyr: ``>=0.7.4``
+   :depends r-ggplot2: ``>=2.2.1``
+   :depends r-igraph: ``>=1.1.2``
+   :depends r-lazyeval: ``>=0.2.0``
+   :depends r-magrittr: ``>=1.5``
+   :depends r-plyr: ``>=1.8.4``
+   :depends r-stringr: ``>=1.2.0``
+   :depends r-tidyr: ``>=0.7.2``
+   :depends r-vegan: ``>=2.4.0``
    :requirements:
 
    .. rubric:: Installation

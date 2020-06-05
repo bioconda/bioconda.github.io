@@ -8,6 +8,7 @@ bioconductor-pcatools
 
 .. conda:recipe:: bioconductor-pcatools
    :replaces_section_title:
+   :noindex:
 
    PCAtools\: Everything Principal Components Analysis
 
@@ -22,18 +23,25 @@ bioconductor-pcatools
 
    |downloads_bioconductor-pcatools| |docker_bioconductor-pcatools|
 
-   :versions: 2.0.0-0, 1.2.0-0, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-beachmat: >=2.4.0,<2.5.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-biocsingular: >=1.4.0,<1.5.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-delayedmatrixstats: >=1.10.0,<1.11.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-beachmat: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocsingular: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.10.0,<1.11.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bh: 
    :depends r-cowplot: 
    :depends r-dqrng: 

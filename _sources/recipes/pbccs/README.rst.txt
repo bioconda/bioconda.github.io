@@ -8,6 +8,7 @@ pbccs
 
 .. conda:recipe:: pbccs
    :replaces_section_title:
+   :noindex:
 
    pbccs \- Generate Accurate Consensus Sequences from a Single SMRTbell
 
@@ -22,7 +23,22 @@ pbccs
 
    |downloads_pbccs| |docker_pbccs|
 
-   :versions: 4.2.0-1, 4.2.0-0, 4.1.0-0, 4.0.0-0, 3.4.1-0, 3.4.0-0, 3.3.0-0, 3.1.0-3, 3.1.0-2, 3.1.0-1, 3.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.1.0-3</code>,  <code>3.1.0-2</code>,  </span></summary>
+      
+
+      ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :requirements:
 

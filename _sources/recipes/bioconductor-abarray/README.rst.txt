@@ -8,6 +8,7 @@ bioconductor-abarray
 
 .. conda:recipe:: bioconductor-abarray
    :replaces_section_title:
+   :noindex:
 
    Microarray QA and statistical data analysis for Applied Biosystems Genome Survey Microrarray \(AB1700\) gene expression data.
 
@@ -22,11 +23,18 @@ bioconductor-abarray
 
    |downloads_bioconductor-abarray| |docker_bioconductor-abarray|
 
-   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-1, 1.50.0-0
+   :versions:
+      
+      
+
+      ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-multtest: >=2.44.0,<2.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

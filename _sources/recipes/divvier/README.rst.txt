@@ -8,6 +8,7 @@ divvier
 
 .. conda:recipe:: divvier
    :replaces_section_title:
+   :noindex:
 
    A program for removing MSA uncertainty
 
@@ -22,11 +23,18 @@ divvier
 
    |downloads_divvier| |docker_divvier|
 
-   :versions: 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

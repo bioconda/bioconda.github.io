@@ -8,6 +8,7 @@ biotdg
 
 .. conda:recipe:: biotdg
    :replaces_section_title:
+   :noindex:
 
    Bioinformatics Test Data Generator
 
@@ -22,12 +23,19 @@ biotdg
 
    |downloads_biotdg| |docker_biotdg|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends biopython: 
    :depends cyvcf2: 
    :depends dwgsim: 
-   :depends python: >=3.6,<3.8
+   :depends python: ``>=3.6,<3.8``
    :depends setuptools: 
    :requirements:
 

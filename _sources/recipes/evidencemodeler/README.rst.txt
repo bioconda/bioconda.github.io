@@ -8,6 +8,7 @@ evidencemodeler
 
 .. conda:recipe:: evidencemodeler
    :replaces_section_title:
+   :noindex:
 
    Evidence Modeler combines ab intio gene predictions\, protein alignments\, and transcript alignments into weighted consensus gene structures
 
@@ -22,7 +23,14 @@ evidencemodeler
 
    |downloads_evidencemodeler| |docker_evidencemodeler|
 
-   :versions: 1.1.1-2, 1.1.1-1, 1.1.1-0, v1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``v1.1.1-0``
+
+      
+
    
    :depends perl: 
    :depends perl-carp: 

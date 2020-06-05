@@ -8,6 +8,7 @@ perl-bio-automatedannotation
 
 .. conda:recipe:: perl-bio-automatedannotation/1.182770
    :replaces_section_title:
+   :noindex:
 
    Automated annotation of assemblies
 
@@ -22,12 +23,19 @@ perl-bio-automatedannotation
 
    |downloads_perl-bio-automatedannotation| |docker_perl-bio-automatedannotation|
 
-   :versions: 1.182770-1, 1.182770-0
+   :versions:
+      
+      
+
+      ``1.182770-1``,  ``1.182770-0``
+
+      
+
    
    :depends blast: 
    :depends hmmer: 
    :depends parallel: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl: 
    :depends perl-bioperl-run: 
    :depends perl-exception-class: 

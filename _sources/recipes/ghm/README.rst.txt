@@ -8,6 +8,7 @@ ghm
 
 .. conda:recipe:: ghm/3.0
    :replaces_section_title:
+   :noindex:
 
    A MOD\-score analysis in which parametric LOD scores are maximized over the parameters of the trait model
 
@@ -22,9 +23,16 @@ ghm
 
    |downloads_ghm| |docker_ghm|
 
-   :versions: 3.1-2, 3.1-1, 3.1-0, 3.0-2, 3.0-1, 3.0-0
+   :versions:
+      
+      
+
+      ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends zlib: 
    :requirements:
 

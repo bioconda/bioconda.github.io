@@ -8,6 +8,7 @@ xxmotif
 
 .. conda:recipe:: xxmotif
    :replaces_section_title:
+   :noindex:
 
    eXhaustive\, weight matriX\-based motif discovery in nucleotide sequences
 
@@ -22,9 +23,16 @@ xxmotif
 
    |downloads_xxmotif| |docker_xxmotif|
 
-   :versions: 1.6-2, 1.6-1, 1.6-0
+   :versions:
+      
+      
+
+      ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

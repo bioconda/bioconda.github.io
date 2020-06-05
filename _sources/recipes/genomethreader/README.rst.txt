@@ -8,6 +8,7 @@ genomethreader
 
 .. conda:recipe:: genomethreader
    :replaces_section_title:
+   :noindex:
 
    GenomeThreader is a software tool to compute gene structure predictions. The gene structure predictions are calculated using a similarity\-based approach where additional cDNA\/EST and\/or protein sequences are used to predict gene structures via spliced alignments.
 
@@ -23,10 +24,17 @@ genomethreader
 
    |downloads_genomethreader| |docker_genomethreader|
 
-   :versions: 1.7.1-1, 1.7.1-0
+   :versions:
+      
+      
+
+      ``1.7.1-1``,  ``1.7.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

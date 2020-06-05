@@ -8,6 +8,7 @@ bioconductor-typeinfo
 
 .. conda:recipe:: bioconductor-typeinfo
    :replaces_section_title:
+   :noindex:
 
    Optional Type Specification Prototype
 
@@ -22,9 +23,16 @@ bioconductor-typeinfo
 
    |downloads_bioconductor-typeinfo| |docker_bioconductor-typeinfo|
 
-   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-1, 1.50.0-0, 1.48.0-0
+   :versions:
+      
+      
+
+      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

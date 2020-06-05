@@ -8,6 +8,7 @@ bioconductor-hs25kresogen.db
 
 .. conda:recipe:: bioconductor-hs25kresogen.db
    :replaces_section_title:
+   :noindex:
 
    RNG\_MRC Human Pangenomic 25k Set annotation data \(chip hs25kresogen\)
 
@@ -22,12 +23,19 @@ bioconductor-hs25kresogen.db
 
    |downloads_bioconductor-hs25kresogen.db| |docker_bioconductor-hs25kresogen.db|
 
-   :versions: 2.5.0-4, 2.5.0-3, 2.5.0-2, 2.5.0-0
+   :versions:
+      
+      
+
+      ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

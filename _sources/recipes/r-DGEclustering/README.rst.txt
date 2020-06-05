@@ -8,6 +8,7 @@ r-dgeclustering
 
 .. conda:recipe:: r-DGEclustering
    :replaces_section_title:
+   :noindex:
 
    DGEclustering is an R package for multidimensional clustering of differential gene expression datasets\, and it integrates GO annotations to improve the clustering result.
 
@@ -22,13 +23,20 @@ r-dgeclustering
 
    |downloads_r-dgeclustering| |docker_r-dgeclustering|
 
-   :versions: 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
    :depends bioconductor-annotationdbi: 
    :depends bioconductor-clusterprofiler: 
    :depends bioconductor-genomicfeatures: 
    :depends bioconductor-gosemsim: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-factominer: 
    :depends r-ggplot2: 

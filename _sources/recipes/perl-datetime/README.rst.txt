@@ -8,6 +8,7 @@ perl-datetime
 
 .. conda:recipe:: perl-datetime/1.42
    :replaces_section_title:
+   :noindex:
 
    A date and time object for Perl
 
@@ -22,10 +23,17 @@ perl-datetime
 
    |downloads_perl-datetime| |docker_perl-datetime|
 
-   :versions: 1.42-2, 1.42-0
+   :versions:
+      
+      
+
+      ``1.42-2``,  ``1.42-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-cpan-meta-check: 
    :depends perl-datetime-locale: 
    :depends perl-datetime-timezone: 

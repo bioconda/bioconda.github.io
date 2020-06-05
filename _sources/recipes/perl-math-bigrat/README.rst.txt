@@ -8,6 +8,7 @@ perl-math-bigrat
 
 .. conda:recipe:: perl-math-bigrat
    :replaces_section_title:
+   :noindex:
 
    Arbitrary big rational numbers
 
@@ -22,9 +23,16 @@ perl-math-bigrat
 
    |downloads_perl-math-bigrat| |docker_perl-math-bigrat|
 
-   :versions: 0.2614-0
+   :versions:
+      
+      
+
+      ``0.2614-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-math-bigint: 
    :requirements:
 

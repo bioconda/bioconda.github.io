@@ -8,6 +8,7 @@ bioconductor-nanotubes
 
 .. conda:recipe:: bioconductor-nanotubes
    :replaces_section_title:
+   :noindex:
 
    Mouse nanotube CAGE data
 
@@ -22,10 +23,17 @@ bioconductor-nanotubes
 
    |downloads_bioconductor-nanotubes| |docker_bioconductor-nanotubes|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

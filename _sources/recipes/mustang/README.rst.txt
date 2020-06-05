@@ -8,6 +8,7 @@ mustang
 
 .. conda:recipe:: mustang
    :replaces_section_title:
+   :noindex:
 
    Mustang is a program that implements an algorithm for structural alignment of multiple protein structures.
 
@@ -23,9 +24,16 @@ mustang
 
    |downloads_mustang| |docker_mustang|
 
-   :versions: 3.2.3-1, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-1``,  ``3.2.3-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

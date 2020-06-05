@@ -8,6 +8,7 @@ bioconductor-hd2013sgi
 
 .. conda:recipe:: bioconductor-hd2013sgi
    :replaces_section_title:
+   :noindex:
 
    Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping
 
@@ -22,14 +23,21 @@ bioconductor-hd2013sgi
 
    |downloads_bioconductor-hd2013sgi| |docker_bioconductor-hd2013sgi|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
-   :depends bioconductor-geneplotter: >=1.66.0,<1.67.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-splots: >=1.54.0,<1.55.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
+   :depends bioconductor-geneplotter: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-splots: ``>=1.54.0,<1.55.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends r-lsd: 
    :depends r-rcolorbrewer: 

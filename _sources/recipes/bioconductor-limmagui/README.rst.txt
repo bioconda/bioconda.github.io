@@ -8,6 +8,7 @@ bioconductor-limmagui
 
 .. conda:recipe:: bioconductor-limmagui
    :replaces_section_title:
+   :noindex:
 
    GUI for limma Package With Two Color Microarrays
 
@@ -22,10 +23,17 @@ bioconductor-limmagui
 
    |downloads_bioconductor-limmagui| |docker_bioconductor-limmagui|
 
-   :versions: 1.64.0-0, 1.62.0-0, 1.60.0-1, 1.60.0-0, 1.58.0-0
+   :versions:
+      
+      
+
+      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-r2html: 
    :depends r-tkrplot: 
    :depends r-xtable: 

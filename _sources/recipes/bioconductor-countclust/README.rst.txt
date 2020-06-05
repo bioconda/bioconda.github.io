@@ -8,6 +8,7 @@ bioconductor-countclust
 
 .. conda:recipe:: bioconductor-countclust
    :replaces_section_title:
+   :noindex:
 
    Clustering and Visualizing RNA\-Seq Expression Data using Grade of Membership Models
 
@@ -22,17 +23,24 @@ bioconductor-countclust
 
    |downloads_bioconductor-countclust| |docker_bioconductor-countclust|
 
-   :versions: 1.15.0-0, 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.1-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.15.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-flexmix: 
-   :depends r-ggplot2: >=2.1.0
+   :depends r-ggplot2: ``>=2.1.0``
    :depends r-gtools: 
    :depends r-maptpx: 
    :depends r-picante: 
-   :depends r-plyr: >=1.7.1
+   :depends r-plyr: ``>=1.7.1``
    :depends r-reshape2: 
    :depends r-slam: 
    :depends r-squarem: 

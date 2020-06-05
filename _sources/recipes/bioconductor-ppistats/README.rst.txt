@@ -8,6 +8,7 @@ bioconductor-ppistats
 
 .. conda:recipe:: bioconductor-ppistats
    :replaces_section_title:
+   :noindex:
 
    Protein\-Protein Interaction Statistical Package
 
@@ -23,14 +24,21 @@ bioconductor-ppistats
 
    |downloads_bioconductor-ppistats| |docker_bioconductor-ppistats|
 
-   :versions: 1.54.0-0, 1.52.0-1, 1.50.0-1, 1.48.0-0, 1.46.0-0, 1.44.0-0
+   :versions:
+      
+      
+
+      ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-category: >=2.54.0,<2.55.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-ppidata: >=0.26.0,<0.27.0
-   :depends bioconductor-scisi: >=1.60.0,<1.61.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-ppidata: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-scisi: ``>=1.60.0,<1.61.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-lattice: 
    :depends r-rcolorbrewer: 
    :requirements:

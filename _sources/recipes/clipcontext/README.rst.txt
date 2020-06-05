@@ -8,6 +8,7 @@ clipcontext
 
 .. conda:recipe:: clipcontext
    :replaces_section_title:
+   :noindex:
 
    Extract CLIP\-seq binding regions with both genomic and transcript context
 
@@ -22,14 +23,21 @@ clipcontext
 
    |downloads_clipcontext| |docker_clipcontext|
 
-   :versions: 0.6-0, 0.3-0, 0.2-0, 0.1-0
+   :versions:
+      
+      
+
+      ``0.6-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+
+      
+
    
-   :depends bedtools: 2.29.0.*
-   :depends markdown: >=3.2.1
-   :depends matplotlib-base: >=3.1.3
-   :depends pandas: >=1.0.3
-   :depends python: >=3.6
-   :depends seaborn: >=0.10.0
+   :depends bedtools: ``2.29.0.*``
+   :depends markdown: ``>=3.2.1``
+   :depends matplotlib-base: ``>=3.1.3``
+   :depends pandas: ``>=1.0.3``
+   :depends python: ``>=3.6``
+   :depends seaborn: ``>=0.10.0``
    :depends ucsc-twobitinfo: 
    :depends ucsc-twobittofa: 
    :requirements:

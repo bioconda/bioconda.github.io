@@ -8,6 +8,7 @@ digestiflow-cli
 
 .. conda:recipe:: digestiflow-cli
    :replaces_section_title:
+   :noindex:
 
    Command line client for Digestiflow.
 
@@ -22,10 +23,25 @@ digestiflow-cli
 
    |downloads_digestiflow-cli| |docker_digestiflow-cli|
 
-   :versions: 0.5.8-0, 0.5.7-0, 0.5.6-0, 0.5.5-0, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.1-0, 0.4.0-0, 0.3.0-0, 0.2.0-0, 0.1.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+      
+
+      ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends openssl: >=1.1.1a,<1.1.2a
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends openssl: ``>=1.1.1a,<1.1.2a``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-pathvar
 
 .. conda:recipe:: bioconductor-pathvar
    :replaces_section_title:
+   :noindex:
 
    Methods to Find Pathways with Significantly Different Variability
 
@@ -23,9 +24,16 @@ bioconductor-pathvar
 
    |downloads_bioconductor-pathvar| |docker_bioconductor-pathvar|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-emt: 
    :depends r-ggplot2: 

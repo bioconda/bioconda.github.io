@@ -8,6 +8,7 @@ fasta-splitter
 
 .. conda:recipe:: fasta-splitter
    :replaces_section_title:
+   :noindex:
 
    Divides a large FASTA file into a set of smaller\, approximately equally sized files
 
@@ -22,7 +23,14 @@ fasta-splitter
 
    |downloads_fasta-splitter| |docker_fasta-splitter|
 
-   :versions: 0.2.6-0, 0.2.4-1, 0.2.4-0
+   :versions:
+      
+      
+
+      ``0.2.6-0``,  ``0.2.4-1``,  ``0.2.4-0``
+
+      
+
    
    :depends perl: 
    :depends perl-file-util: 

@@ -8,6 +8,7 @@ bioconductor-synapter
 
 .. conda:recipe:: bioconductor-synapter
    :replaces_section_title:
+   :noindex:
 
    Label\-free data analysis pipeline for optimal identification and quantitation
 
@@ -23,20 +24,27 @@ bioconductor-synapter
 
    |downloads_bioconductor-synapter| |docker_bioconductor-synapter|
 
-   :versions: 2.12.0-0, 2.10.0-0, 2.8.0-1, 2.6.1-0, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.1-0``,  ``2.2.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-cleaver: >=1.26.0,<1.27.0
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-multtest: >=2.44.0,<2.45.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-cleaver: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
    :depends r-lattice: 
    :depends r-rcolorbrewer: 
-   :depends r-readr: >=0.2
-   :depends r-rmarkdown: >=1.0
+   :depends r-readr: ``>=0.2``
+   :depends r-rmarkdown: ``>=1.0``
    :requirements:
 
    .. rubric:: Installation

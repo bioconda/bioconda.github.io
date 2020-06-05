@@ -8,6 +8,7 @@ perl-lyve-set
 
 .. conda:recipe:: perl-lyve-set
    :replaces_section_title:
+   :noindex:
 
    Perl libraries required for Lyve\-SET.
 
@@ -22,9 +23,16 @@ perl-lyve-set
 
    |downloads_perl-lyve-set| |docker_perl-lyve-set|
 
-   :versions: 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.0.1-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-data-dumper: 
    :depends perl-exporter: 
    :depends perl-number-range: 

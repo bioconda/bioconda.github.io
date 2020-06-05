@@ -8,6 +8,7 @@ pb-falcon-phase
 
 .. conda:recipe:: pb-falcon-phase
    :replaces_section_title:
+   :noindex:
 
    Non\-python parts of falcon\-phase \(Pacific Biosciences\)
 
@@ -22,12 +23,19 @@ pb-falcon-phase
 
    |downloads_pb-falcon-phase| |docker_pb-falcon-phase|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

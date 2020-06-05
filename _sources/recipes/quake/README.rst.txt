@@ -8,6 +8,7 @@ quake
 
 .. conda:recipe:: quake
    :replaces_section_title:
+   :noindex:
 
    Quake is a package to correct substitution sequencing errors in experiments with deep coverage \(e.g. \>15X\)\, specifically intended for Illumina sequencing reads
 
@@ -23,16 +24,23 @@ quake
 
    |downloads_quake| |docker_quake|
 
-   :versions: 0.3.5-3, 0.3.5-0
+   :versions:
+      
+      
+
+      ``0.3.5-3``,  ``0.3.5-0``
+
+      
+
    
    :depends kmer-jellyfish: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=2.7,<2.8.0a0
-   :depends python_abi: 2.7.* *_cp27mu
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends r-base: 
    :depends r-vgam: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

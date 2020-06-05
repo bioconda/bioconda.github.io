@@ -8,6 +8,7 @@ encode-blacklist
 
 .. conda:recipe:: encode-blacklist
    :replaces_section_title:
+   :noindex:
 
    The ENCODE Blacklist\: Identification of Problematic Regions of the Genome
 
@@ -23,12 +24,19 @@ encode-blacklist
 
    |downloads_encode-blacklist| |docker_encode-blacklist|
 
-   :versions: 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-1``,  ``2.0-0``
+
+      
+
    
-   :depends bamtools: >=2.5.1,<2.5.2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ spanki
 
 .. conda:recipe:: spanki
    :replaces_section_title:
+   :noindex:
 
    Spanki is a set of tools to facilitate analysis of alternative splicing from RNA\-Seq data. Spanki compiles quantitative and qualitative information about junction alignments from input BAM files\, and analyzes junction\-level splicing along with pairwise\-defined splicing events. A simulator is also included to evaluate junction detection performance.
 
@@ -22,7 +23,14 @@ spanki
 
    |downloads_spanki| |docker_spanki|
 
-   :versions: 0.5.1-1, 0.5.1-0
+   :versions:
+      
+      
+
+      ``0.5.1-1``,  ``0.5.1-0``
+
+      
+
    
    :depends biopython: 
    :depends cufflinks: 
@@ -30,7 +38,7 @@ spanki
    :depends numpy: 
    :depends pyfasta: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends samtools: 
    :depends statsmodels: 
    :requirements:

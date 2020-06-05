@@ -8,6 +8,7 @@ bioconductor-ngscopydata
 
 .. conda:recipe:: bioconductor-ngscopydata
    :replaces_section_title:
+   :noindex:
 
    Subset of BAM files of human tumor and pooled normal sequencing data \(Zhao et al. 2014\) for the NGScopy package
 
@@ -22,10 +23,17 @@ bioconductor-ngscopydata
 
    |downloads_bioconductor-ngscopydata| |docker_bioconductor-ngscopydata|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

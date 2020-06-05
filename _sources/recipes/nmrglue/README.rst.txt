@@ -8,6 +8,7 @@ nmrglue
 
 .. conda:recipe:: nmrglue
    :replaces_section_title:
+   :noindex:
 
    A module for working with NMR data in Python
 
@@ -22,12 +23,19 @@ nmrglue
 
    |downloads_nmrglue| |docker_nmrglue|
 
-   :versions: 0.7-1, 0.7-0, 0.6-0, 0.5-1, 0.5-0
+   :versions:
+      
+      
+
+      ``0.7-1``,  ``0.7-0``,  ``0.6-0``,  ``0.5-1``,  ``0.5-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
    :requirements:
 

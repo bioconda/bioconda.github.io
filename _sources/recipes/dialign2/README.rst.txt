@@ -8,6 +8,7 @@ dialign2
 
 .. conda:recipe:: dialign2
    :replaces_section_title:
+   :noindex:
 
    DIALIGN multiple sequence alignment using various sources of external information
 
@@ -23,9 +24,16 @@ dialign2
 
    |downloads_dialign2| |docker_dialign2|
 
-   :versions: 2.2.1-2, 2.2.1-1, 2.2.1-0
+   :versions:
+      
+      
+
+      ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

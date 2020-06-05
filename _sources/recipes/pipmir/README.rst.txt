@@ -8,6 +8,7 @@ pipmir
 
 .. conda:recipe:: pipmir
    :replaces_section_title:
+   :noindex:
 
    We developed the PIPmiR algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features.
 
@@ -23,11 +24,18 @@ pipmir
 
    |downloads_pipmir| |docker_pipmir|
 
-   :versions: 1.1-4, 1.1-3, 1.1-2, 1.1-1
+   :versions:
+      
+      
+
+      ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``
+
+      
+
    
    :depends openjdk: 
    :depends samtools: 
-   :depends viennarna: 1.8.5.*
+   :depends viennarna: ``1.8.5.*``
    :requirements:
 
    .. rubric:: Installation

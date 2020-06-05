@@ -8,6 +8,7 @@ extract_fullseq
 
 .. conda:recipe:: extract_fullseq
    :replaces_section_title:
+   :noindex:
 
    extract\_fullseq is part of BMTagger aka Best Match Tagger\, for removing human reads from metagenomics datasets
 
@@ -22,7 +23,14 @@ extract_fullseq
 
    |downloads_extract_fullseq| |docker_extract_fullseq|
 
-   :versions: 3.101-3, 3.101-2, 3.101-1
+   :versions:
+      
+      
+
+      ``3.101-3``,  ``3.101-2``,  ``3.101-1``
+
+      
+
    
    :requirements:
 

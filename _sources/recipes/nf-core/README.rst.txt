@@ -8,6 +8,7 @@ nf-core
 
 .. conda:recipe:: nf-core
    :replaces_section_title:
+   :noindex:
 
    Python package with helper tools for the nf\-core community.
 
@@ -22,7 +23,14 @@ nf-core
 
    |downloads_nf-core| |docker_nf-core|
 
-   :versions: 1.9-0, 1.8-0, 1.7-0, 1.6-0, 1.5-0, 1.4-0, 1.3-0, 1.2-0, 1.1-0
+   :versions:
+      
+      
+
+      ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
+
+      
+
    
    :depends click: 
    :depends cookiecutter: 

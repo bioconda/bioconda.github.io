@@ -8,6 +8,7 @@ refgenconf
 
 .. conda:recipe:: refgenconf
    :replaces_section_title:
+   :noindex:
 
    A standardized configuration object for reference genome assemblies
 
@@ -22,16 +23,23 @@ refgenconf
 
    |downloads_refgenconf| |docker_refgenconf|
 
-   :versions: 0.7.0-0, 0.6.2-0, 0.6.1-0, 0.6.0-0, 0.5.4-0
+   :versions:
+      
+      
+
+      ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.4-0``
+
+      
+
    
-   :depends attmap: >=0.12.5
+   :depends attmap: ``>=0.12.5``
    :depends future: 
    :depends python: 
    :depends pyyaml: 
    :depends requests: 
    :depends tqdm: 
-   :depends ubiquerg: >=0.5.0
-   :depends yacman: >=0.6.3
+   :depends ubiquerg: ``>=0.5.0``
+   :depends yacman: ``>=0.6.3``
    :requirements:
 
    .. rubric:: Installation

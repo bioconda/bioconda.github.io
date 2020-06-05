@@ -8,6 +8,7 @@ perl-perl-osnames
 
 .. conda:recipe:: perl-perl-osnames
    :replaces_section_title:
+   :noindex:
 
    List possible \$\^O \(\$OSNAME\) values\, with description
 
@@ -22,9 +23,16 @@ perl-perl-osnames
 
    |downloads_perl-perl-osnames| |docker_perl-perl-osnames|
 
-   :versions: 0.11-2, 0.11-1, 0.11-0
+   :versions:
+      
+      
+
+      ``0.11-2``,  ``0.11-1``,  ``0.11-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ takeabreak
 
 .. conda:recipe:: takeabreak
    :replaces_section_title:
+   :noindex:
 
    tool that can detect inversion breakpoints directly from raw NGS reads\, without the need of any reference genome and without de novo assembling the genomes
 
@@ -23,11 +24,18 @@ takeabreak
 
    |downloads_takeabreak| |docker_takeabreak|
 
-   :versions: 1.1.2-2, 1.1.2-1, 1.1.2-0
+   :versions:
+      
+      
+
+      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

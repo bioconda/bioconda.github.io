@@ -8,6 +8,7 @@ toolshed
 
 .. conda:recipe:: toolshed
    :replaces_section_title:
+   :noindex:
 
    flexible and easy file manipulation
 
@@ -22,7 +23,14 @@ toolshed
 
    |downloads_toolshed| |docker_toolshed|
 
-   :versions: 0.4.6-2, 0.4.6-1, 0.4.6-0
+   :versions:
+      
+      
+
+      ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.6-0``
+
+      
+
    
    :depends python: 
    :requirements:

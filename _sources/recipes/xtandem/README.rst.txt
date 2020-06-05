@@ -8,6 +8,7 @@ xtandem
 
 .. conda:recipe:: xtandem
    :replaces_section_title:
+   :noindex:
 
    X\! Tandem open source is software that can match tandem mass spectra with peptide sequences\, in a process that has come to be known as protein identification
 
@@ -23,11 +24,18 @@ xtandem
 
    |downloads_xtandem| |docker_xtandem|
 
-   :versions: 15.12.15.2-2, 15.12.15.2-1, 15.12.15.2-0
+   :versions:
+      
+      
+
+      ``15.12.15.2-2``,  ``15.12.15.2-1``,  ``15.12.15.2-0``
+
+      
+
    
-   :depends expat: >=2.2.5,<2.3.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends expat: ``>=2.2.5,<2.3.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

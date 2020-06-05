@@ -8,6 +8,7 @@ selectfasta
 
 .. conda:recipe:: selectfasta
    :replaces_section_title:
+   :noindex:
 
    FASTA or FASTQ select from a list of header names
 
@@ -22,10 +23,17 @@ selectfasta
 
    |downloads_selectfasta| |docker_selectfasta|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-spqn
 
 .. conda:recipe:: bioconductor-spqn
    :replaces_section_title:
+   :noindex:
 
    Spatial quantile normalization
 
@@ -22,11 +23,18 @@ bioconductor-spqn
 
    |downloads_bioconductor-spqn| |docker_bioconductor-spqn|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-ggridges: 
    :depends r-matrixstats: 

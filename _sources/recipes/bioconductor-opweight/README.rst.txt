@@ -8,6 +8,7 @@ bioconductor-opweight
 
 .. conda:recipe:: bioconductor-opweight
    :replaces_section_title:
+   :noindex:
 
    Optimal p\-value weighting with independent information
 
@@ -22,10 +23,17 @@ bioconductor-opweight
 
    |downloads_bioconductor-opweight| |docker_bioconductor-opweight|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.1-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :depends r-tibble: 
    :requirements:

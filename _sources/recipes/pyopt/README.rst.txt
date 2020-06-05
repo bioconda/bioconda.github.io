@@ -8,6 +8,7 @@ pyopt
 
 .. conda:recipe:: pyopt
    :replaces_section_title:
+   :noindex:
 
    a Python\-based package for formulating and solving nonlinear constrained optimization problems in an efficient\, reusable and portable manner.
 
@@ -22,11 +23,18 @@ pyopt
 
    |downloads_pyopt| |docker_pyopt|
 
-   :versions: 1.2.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-1``,  ``1.2.0-0``
+
+      
+
    
    :depends mpi4py: 
-   :depends numpy: >=1.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends numpy: ``>=1.0``
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

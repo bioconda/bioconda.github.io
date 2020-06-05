@@ -8,6 +8,7 @@ inheritance
 
 .. conda:recipe:: inheritance
    :replaces_section_title:
+   :noindex:
 
    inheritance models for mendelian diseases
 
@@ -22,7 +23,22 @@ inheritance
 
    |downloads_inheritance| |docker_inheritance|
 
-   :versions: 0.1.5-0, 0.1.4-0, 0.1.3-0, 0.1.2-1, 0.1.2-0, 0.0.9-0, 0.0.7-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.0.9-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  </span></summary>
+      
+
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.0.9-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends python: 
    :requirements:

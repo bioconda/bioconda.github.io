@@ -8,6 +8,7 @@ phizz
 
 .. conda:recipe:: phizz
    :replaces_section_title:
+   :noindex:
 
    Tool to query hpo database and some other sources
 
@@ -22,7 +23,14 @@ phizz
 
    |downloads_phizz| |docker_phizz|
 
-   :versions: 0.2.3-0, 0.0.1-2, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.2.3-0``,  ``0.0.1-2``,  ``0.0.1-0``
+
+      
+
    
    :depends click: 
    :depends configobj: 

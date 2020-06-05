@@ -8,6 +8,7 @@ crisper_recognition_tool
 
 .. conda:recipe:: crisper_recognition_tool
    :replaces_section_title:
+   :noindex:
 
    A tool for automatic detection of clustered regularly interspaced palindromic repeats \(CRISPR\).
 
@@ -22,9 +23,16 @@ crisper_recognition_tool
 
    |downloads_crisper_recognition_tool| |docker_crisper_recognition_tool|
 
-   :versions: 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``
+
+      
+
    
-   :depends openjdk: >=6
+   :depends openjdk: ``>=6``
    :depends python: 
    :requirements:
 

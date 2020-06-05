@@ -8,6 +8,7 @@ perl-unicode-map
 
 .. conda:recipe:: perl-unicode-map
    :replaces_section_title:
+   :noindex:
 
    An utility to map texts from and to unicode
 
@@ -22,11 +23,18 @@ perl-unicode-map
 
    |downloads_perl-unicode-map| |docker_perl-unicode-map|
 
-   :versions: 0.112-3, 0.112-2, 0.112-1, 0.112-0
+   :versions:
+      
+      
+
+      ``0.112-3``,  ``0.112-2``,  ``0.112-1``,  ``0.112-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

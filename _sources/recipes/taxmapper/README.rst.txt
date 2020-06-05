@@ -8,6 +8,7 @@ taxmapper
 
 .. conda:recipe:: taxmapper
    :replaces_section_title:
+   :noindex:
 
    Analysis pipeline for metagenomic\, microeukaryotic sequencing data.
 
@@ -22,13 +23,20 @@ taxmapper
 
    |downloads_taxmapper| |docker_taxmapper|
 
-   :versions: 1.0.2-3, 1.0.2-2, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
    :depends deepdish: 
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

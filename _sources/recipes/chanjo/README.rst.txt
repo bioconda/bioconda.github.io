@@ -8,6 +8,7 @@ chanjo
 
 .. conda:recipe:: chanjo
    :replaces_section_title:
+   :noindex:
 
    Coverage analysis tool for clinical sequencing
 
@@ -22,16 +23,23 @@ chanjo
 
    |downloads_chanjo| |docker_chanjo|
 
-   :versions: 3.3.0-0, 3.1.1-0
+   :versions:
+      
+      
+
+      ``3.3.0-0``,  ``3.1.1-0``
+
+      
+
    
    :depends click: 
    :depends path.py: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends pyyaml: 
    :depends sambamba: 
    :depends setuptools: 
    :depends setuptools: 
-   :depends sqlalchemy: >=0.8.2
+   :depends sqlalchemy: ``>=0.8.2``
    :depends toolz: 
    :requirements:
 

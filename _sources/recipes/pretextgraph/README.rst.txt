@@ -8,6 +8,7 @@ pretextgraph
 
 .. conda:recipe:: pretextgraph
    :replaces_section_title:
+   :noindex:
 
    Embeds bedgraph data into Pretext contact maps.
 
@@ -22,10 +23,17 @@ pretextgraph
 
    |downloads_pretextgraph| |docker_pretextgraph|
 
-   :versions: 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

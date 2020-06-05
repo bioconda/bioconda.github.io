@@ -8,6 +8,7 @@ ena-dl
 
 .. conda:recipe:: ena-dl
    :replaces_section_title:
+   :noindex:
 
    A tool to download FASTQs associated with Study\, Experiment\, or Run accessions.
 
@@ -22,9 +23,16 @@ ena-dl
 
    |downloads_ena-dl| |docker_ena-dl|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends requests: 
    :requirements:
 

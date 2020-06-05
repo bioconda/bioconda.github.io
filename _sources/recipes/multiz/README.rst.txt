@@ -8,6 +8,7 @@ multiz
 
 .. conda:recipe:: multiz
    :replaces_section_title:
+   :noindex:
 
    DNA multiple sequence aligner from Penn State\'s Miller lab.
 
@@ -23,9 +24,16 @@ multiz
 
    |downloads_multiz| |docker_multiz|
 
-   :versions: 11.2-0
+   :versions:
+      
+      
+
+      ``11.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

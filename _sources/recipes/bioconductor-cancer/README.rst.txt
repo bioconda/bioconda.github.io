@@ -8,6 +8,7 @@ bioconductor-cancer
 
 .. conda:recipe:: bioconductor-cancer
    :replaces_section_title:
+   :noindex:
 
    A Graphical User Interface for accessing and modeling the Cancer Genomics Data of MSKCC
 
@@ -22,7 +23,14 @@ bioconductor-cancer
 
    |downloads_bioconductor-cancer| |docker_bioconductor-cancer|
 
-   :versions: 
+   :versions:
+      
+      
+
+      
+
+      
+
    
    :requirements:
 

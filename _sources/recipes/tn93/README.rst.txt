@@ -8,6 +8,7 @@ tn93
 
 .. conda:recipe:: tn93
    :replaces_section_title:
+   :noindex:
 
    This is a simple program meant to compute pairwise distances between aligned nucleotide sequences in sequential FASTA format using the Tamura Nei 93 distance.
 
@@ -22,10 +23,17 @@ tn93
 
    |downloads_tn93| |docker_tn93|
 
-   :versions: 1.0.6-1, 1.0.6-0, 1.0.4-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

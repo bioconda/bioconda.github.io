@@ -8,6 +8,7 @@ readucks
 
 .. conda:recipe:: readucks
    :replaces_section_title:
+   :noindex:
 
    Readucks\: a simple demultiplexer for nanopore reads
 
@@ -22,11 +23,18 @@ readucks
 
    |downloads_readucks| |docker_readucks|
 
-   :versions: 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.2-0``,  ``0.0.1-0``
+
+      
+
    
    :depends biopython: 
    :depends parasail-python: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

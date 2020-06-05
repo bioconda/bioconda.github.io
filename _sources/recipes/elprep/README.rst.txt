@@ -8,6 +8,7 @@ elprep
 
 .. conda:recipe:: elprep
    :replaces_section_title:
+   :noindex:
 
    elPrep is a high\-performance tool for preparing .sam\/.bam files for variant calling in sequencing pipelines. It can be used as a drop\-in replacement for SAMtools\/Picard\/GATK4\, and was extensively tested with different pipelines for variant analysis with GATK. The key advantage of elPrep is that it only performs a single\-pass to process a .sam\/.bam file\, independent of the number of processing steps that need to be applied in a particular pipeline\, greatly improving runtime performance.
 
@@ -22,7 +23,22 @@ elprep
 
    |downloads_elprep| |docker_elprep|
 
-   :versions: 4.1.5-0, 4.1.4-0, 4.1.3-0, 4.1.2-0, 4.1.1-0, 4.1.0-0, 4.0.1-0, 4.0.0-0, 3.04-1, 3.04-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.1.5-0</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.04-1</code>,  </span></summary>
+      
+
+      ``4.1.5-0``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.04-1``,  ``3.04-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :requirements:
 

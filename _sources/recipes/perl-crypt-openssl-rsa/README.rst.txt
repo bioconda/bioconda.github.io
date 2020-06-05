@@ -8,6 +8,7 @@ perl-crypt-openssl-rsa
 
 .. conda:recipe:: perl-crypt-openssl-rsa/0.28
    :replaces_section_title:
+   :noindex:
 
    RSA encoding and decoding\, using the openSSL libraries
 
@@ -22,9 +23,16 @@ perl-crypt-openssl-rsa
 
    |downloads_perl-crypt-openssl-rsa| |docker_perl-crypt-openssl-rsa|
 
-   :versions: 0.28-1, 0.28-0
+   :versions:
+      
+      
+
+      ``0.28-1``,  ``0.28-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-crypt-openssl-random: 
    :requirements:
 

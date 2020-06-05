@@ -8,6 +8,7 @@ bioconductor-gskb
 
 .. conda:recipe:: bioconductor-gskb
    :replaces_section_title:
+   :noindex:
 
    Gene Set data for pathway analysis in mouse
 
@@ -22,10 +23,17 @@ bioconductor-gskb
 
    |downloads_bioconductor-gskb| |docker_bioconductor-gskb|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

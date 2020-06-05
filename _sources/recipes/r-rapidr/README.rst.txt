@@ -8,6 +8,7 @@ r-rapidr
 
 .. conda:recipe:: r-rapidr
    :replaces_section_title:
+   :noindex:
 
    Package to perform non\-invasive fetal testing for aneuploidies using sequencing count data from cell\-free DNA
 
@@ -22,13 +23,20 @@ r-rapidr
 
    |downloads_r-rapidr| |docker_r-rapidr|
 
-   :versions: 0.1.1-5, 0.1.1-4, 0.1.1-3, 0.1.1-2, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-0``
+
+      
+
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-genomicalignments: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-rsamtools: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-propcis: 
    :requirements:

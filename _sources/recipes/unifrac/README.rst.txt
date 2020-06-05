@@ -8,6 +8,7 @@ unifrac
 
 .. conda:recipe:: unifrac
    :replaces_section_title:
+   :noindex:
 
    Fast phylogenetic diversity calculations
 
@@ -22,15 +23,22 @@ unifrac
 
    |downloads_unifrac| |docker_unifrac|
 
-   :versions: 0.10.0-1, 0.10.0-0, 0.9.3-1, 0.9.3-0
+   :versions:
+      
+      
+
+      ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
+
+      
+
    
    :depends biom-format: 
-   :depends h5py: >=2.9.0,<3.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends numpy: >=1.16.4,<2.0a0
-   :depends python: >=3.6,<3.7.0a0
-   :depends scikit-bio: >=0.5.1
+   :depends h5py: ``>=2.9.0,<3.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.16.4,<2.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends scikit-bio: ``>=0.5.1``
    :requirements:
 
    .. rubric:: Installation

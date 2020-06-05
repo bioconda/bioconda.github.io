@@ -8,6 +8,7 @@ minimock
 
 .. conda:recipe:: minimock
    :replaces_section_title:
+   :noindex:
 
    The simplest possible mock library
 
@@ -22,9 +23,16 @@ minimock
 
    |downloads_minimock| |docker_minimock|
 
-   :versions: 1.2.8-1, 1.2.8-0
+   :versions:
+      
+      
+
+      ``1.2.8-1``,  ``1.2.8-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

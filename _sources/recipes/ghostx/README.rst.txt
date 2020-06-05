@@ -8,6 +8,7 @@ ghostx
 
 .. conda:recipe:: ghostx
    :replaces_section_title:
+   :noindex:
 
    GHOSTX is a homology search tool which can detect remote homologues like BLAST and is about 100 times more efficient than BLAST by using suffix arrays. GHOSTX outputs search results in the format similar to BLAST\-tabular format.
 
@@ -23,10 +24,17 @@ ghostx
 
    |downloads_ghostx| |docker_ghostx|
 
-   :versions: 1.3.7-1, 1.3.7-0
+   :versions:
+      
+      
+
+      ``1.3.7-1``,  ``1.3.7-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

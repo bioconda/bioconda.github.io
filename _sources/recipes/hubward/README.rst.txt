@@ -8,6 +8,7 @@ hubward
 
 .. conda:recipe:: hubward
    :replaces_section_title:
+   :noindex:
 
    Manage the visualization of large amounts of other people\'s \[often messy\] genomics data
 
@@ -22,7 +23,14 @@ hubward
 
    |downloads_hubward| |docker_hubward|
 
-   :versions: 0.2.2-1, 0.2.1-1, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.0-0``
+
+      
+
    
    :depends argh: 
    :depends bleach: 
@@ -36,7 +44,7 @@ hubward
    :depends pyaml: 
    :depends pybedtools: 
    :depends pycurl: 
-   :depends python: 2.7*
+   :depends python: ``2.7*``
    :depends pyyaml: 
    :depends trackhub: 
    :requirements:

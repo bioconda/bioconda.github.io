@@ -8,6 +8,7 @@ bioconductor-qdnaseq.mm10
 
 .. conda:recipe:: bioconductor-qdnaseq.mm10
    :replaces_section_title:
+   :noindex:
 
    Bin annotation mm10
 
@@ -22,11 +23,26 @@ bioconductor-qdnaseq.mm10
 
    |downloads_bioconductor-qdnaseq.mm10| |docker_bioconductor-qdnaseq.mm10|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-16, 1.4.0-1, 1.4.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-16</code>,  <code>1.4.0-1</code>,  </span></summary>
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-16``,  ``1.4.0-1``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-qdnaseq: >=1.24.0,<1.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-qdnaseq: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

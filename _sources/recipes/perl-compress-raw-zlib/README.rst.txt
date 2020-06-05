@@ -8,6 +8,7 @@ perl-compress-raw-zlib
 
 .. conda:recipe:: perl-compress-raw-zlib
    :replaces_section_title:
+   :noindex:
 
    Basic utilities for writing tests.
 
@@ -22,11 +23,26 @@ perl-compress-raw-zlib
 
    |downloads_perl-compress-raw-zlib| |docker_perl-compress-raw-zlib|
 
-   :versions: 2.087-0, 2.086-1, 2.086-0, 2.084-1, 2.084-0, 2.083-0, 2.081-0, 2.069-7, 2.069-6, 2.069-3, 2.069-2, 2.069-1, 2.069-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.087-0</code>,  <code>2.086-1</code>,  <code>2.086-0</code>,  <code>2.084-1</code>,  <code>2.084-0</code>,  <code>2.083-0</code>,  <code>2.081-0</code>,  <code>2.069-7</code>,  <code>2.069-6</code>,  </span></summary>
+      
+
+      ``2.087-0``,  ``2.086-1``,  ``2.086-0``,  ``2.084-1``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-7``,  ``2.069-6``,  ``2.069-3``,  ``2.069-2``,  ``2.069-1``,  ``2.069-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

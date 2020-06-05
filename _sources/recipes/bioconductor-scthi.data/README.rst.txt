@@ -8,6 +8,7 @@ bioconductor-scthi.data
 
 .. conda:recipe:: bioconductor-scthi.data
    :replaces_section_title:
+   :noindex:
 
    The package contains examples of single cell data used in vignettes and examples of the scTHI package\; data contain both tumor cells and immune cells from public dataset of glioma
 
@@ -22,10 +23,17 @@ bioconductor-scthi.data
 
    |downloads_bioconductor-scthi.data| |docker_bioconductor-scthi.data|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

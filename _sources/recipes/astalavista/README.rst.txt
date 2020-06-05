@@ -8,6 +8,7 @@ astalavista
 
 .. conda:recipe:: astalavista
    :replaces_section_title:
+   :noindex:
 
    AStalavista is a computer program to extract alternative splicing \(AS\) events from a given genomic annotation of exon\-intron gene coordinates. By comparing all given transcripts\, AStalavista detects the variations in their splicing structure and identify all AS events \(like exon skipping\, alternate donor\, etc\) by assigning to each of them an AS code.
 
@@ -23,7 +24,14 @@ astalavista
 
    |downloads_astalavista| |docker_astalavista|
 
-   :versions: 4.0-1, 4.0-0, 3.2-0
+   :versions:
+      
+      
+
+      ``4.0-1``,  ``4.0-0``,  ``3.2-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

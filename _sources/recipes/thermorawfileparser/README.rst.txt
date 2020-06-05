@@ -8,6 +8,7 @@ thermorawfileparser
 
 .. conda:recipe:: thermorawfileparser
    :replaces_section_title:
+   :noindex:
 
    Wrapper around the .net \(C\#\) ThermoFisher ThermoRawFileReader library for running on Linux with mono
 
@@ -24,9 +25,24 @@ thermorawfileparser
 
    |downloads_thermorawfileparser| |docker_thermorawfileparser|
 
-   :versions: 1.2.3-0, 1.2.2-0, 1.2.1-0, 1.2.0-0, 1.1.11-0, 1.1.10-0, 1.1.9-0, 1.1.8-0, 1.1.7-0, 1.1.2-0, 1.1.0-1, 1.1.0-0, 0.0.2018.09.07-1, 0.0.2018.09.07-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.11-0</code>,  <code>1.1.10-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-0</code>,  </span></summary>
+      
+
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``0.0.2018.09.07-1``,  ``0.0.2018.09.07-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends mono: >=5
+   :depends mono: ``>=5``
    :requirements:
 
    .. rubric:: Installation

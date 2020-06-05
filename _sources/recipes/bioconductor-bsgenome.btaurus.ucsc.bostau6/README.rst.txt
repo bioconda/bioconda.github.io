@@ -8,6 +8,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau6
 
 .. conda:recipe:: bioconductor-bsgenome.btaurus.ucsc.bostau6
    :replaces_section_title:
+   :noindex:
 
    Full genome sequences for Bos taurus \(UCSC version bosTau6\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.btaurus.ucsc.bostau6
 
    |downloads_bioconductor-bsgenome.btaurus.ucsc.bostau6| |docker_bioconductor-bsgenome.btaurus.ucsc.bostau6|
 
-   :versions: 1.4.0-5, 1.4.0-4, 1.4.0-3, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-5``,  ``1.4.0-4``,  ``1.4.0-3``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

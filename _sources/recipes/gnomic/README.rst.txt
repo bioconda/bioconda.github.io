@@ -8,6 +8,7 @@ gnomic
 
 .. conda:recipe:: gnomic
    :replaces_section_title:
+   :noindex:
 
    A grammar for describing microbial genotypes and phenotypes
 
@@ -22,11 +23,18 @@ gnomic
 
    |downloads_gnomic| |docker_gnomic|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
-   :depends grako: >=3.18.1
+   :depends grako: ``>=3.18.1``
    :depends python: 
-   :depends six: >=1.8.0
+   :depends six: ``>=1.8.0``
    :requirements:
 
    .. rubric:: Installation

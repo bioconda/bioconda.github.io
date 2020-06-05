@@ -8,6 +8,7 @@ bioconductor-hpar
 
 .. conda:recipe:: bioconductor-hpar
    :replaces_section_title:
+   :noindex:
 
    Human Protein Atlas in R
 
@@ -23,9 +24,24 @@ bioconductor-hpar
 
    |downloads_bioconductor-hpar| |docker_bioconductor-hpar|
 
-   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0, 1.22.2-0, 1.20.0-0, 1.18.1-0, 1.15.0-0, 1.14.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.2-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.15.0-0</code>,  </span></summary>
+      
+
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.15.0-0``,  ``1.14.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

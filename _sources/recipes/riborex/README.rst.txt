@@ -8,6 +8,7 @@ riborex
 
 .. conda:recipe:: riborex
    :replaces_section_title:
+   :noindex:
 
    Riborex is a R package for identification of differential translation from Ribo\-seq data.
 
@@ -22,12 +23,19 @@ riborex
 
    |downloads_riborex| |docker_riborex|
 
-   :versions: 2.4.0-0, 2.3.4-0
+   :versions:
+      
+      
+
+      ``2.4.0-0``,  ``2.3.4-0``
+
+      
+
    
    :depends bioconductor-biobase: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-edger: 
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: ``>=3.4.1,<3.4.2.0a0``
    :depends r-fdrtool: 
    :requirements:
 

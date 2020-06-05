@@ -8,6 +8,7 @@ biasaway
 
 .. conda:recipe:: biasaway
    :replaces_section_title:
+   :noindex:
 
    BiasAway\: a tool to generate composition\-matched background sequences
 
@@ -24,10 +25,17 @@ biasaway
 
    |downloads_biasaway| |docker_biasaway|
 
-   :versions: 2.2.1-0, 2.1.0-0, 2.0.4-0, 2.0.1-0, 1.0.4-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.1-0``,  ``1.0.4-0``,  ``1.0.2-0``
+
+      
+
    
    :depends biopython: 
-   :depends numpy: <=1.16.5
+   :depends numpy: ``<=1.16.5``
    :depends python: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
 .. conda:recipe:: perl-hpc-runner-command-plugin-logger-sqlite/0.0.3
    :replaces_section_title:
+   :noindex:
 
    Log HPC\:\:Runner workflows to a sqlite DB.
 
@@ -22,9 +23,16 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
    |downloads_perl-hpc-runner-command-plugin-logger-sqlite| |docker_perl-hpc-runner-command-plugin-logger-sqlite|
 
-   :versions: 0.0.3-2, 0.0.3-1, 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-base: 
    :depends perl-clone: 
@@ -38,7 +46,7 @@ perl-hpc-runner-command-plugin-logger-sqlite
    :depends perl-log-log4perl: 
    :depends perl-params-validate: 
    :depends perl-text-asciitable: 
-   :depends sqlite: >=3.26.0,<4.0a0
+   :depends sqlite: ``>=3.26.0,<4.0a0``
    :requirements:
 
    .. rubric:: Installation

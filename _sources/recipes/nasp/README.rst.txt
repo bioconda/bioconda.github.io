@@ -8,6 +8,7 @@ nasp
 
 .. conda:recipe:: nasp
    :replaces_section_title:
+   :noindex:
 
    NASP\: an accurate\, rapid method for the identification of SNPs in WGS datasets that supports flexible input and output formats
 
@@ -23,12 +24,19 @@ nasp
 
    |downloads_nasp| |docker_nasp|
 
-   :versions: 1.2.1-0, 1.2.0-0, 1.1.2-1, 1.1.2-0, 1.0.2a1-3, 1.0.2a1-2, 1.0.2a1-1, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.2a1-3``,  ``1.0.2a1-2``,  ``1.0.2a1-1``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
    :depends mummer: 
-   :depends python: >=3.8,<3.9.0a0
-   :depends python_abi: 3.8.* *_cp38
-   :depends samtools: <1.3
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
+   :depends samtools: ``<1.3``
    :depends trimmomatic: 
    :requirements:
 

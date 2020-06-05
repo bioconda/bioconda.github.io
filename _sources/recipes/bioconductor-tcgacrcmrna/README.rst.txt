@@ -8,6 +8,7 @@ bioconductor-tcgacrcmrna
 
 .. conda:recipe:: bioconductor-tcgacrcmrna
    :replaces_section_title:
+   :noindex:
 
    TCGA CRC 450 mRNA dataset
 
@@ -22,11 +23,18 @@ bioconductor-tcgacrcmrna
 
    |downloads_bioconductor-tcgacrcmrna| |docker_bioconductor-tcgacrcmrna|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

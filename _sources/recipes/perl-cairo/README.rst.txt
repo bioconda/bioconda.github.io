@@ -8,6 +8,7 @@ perl-cairo
 
 .. conda:recipe:: perl-cairo
    :replaces_section_title:
+   :noindex:
 
    Perl interface to the cairo 2d vector graphics library
 
@@ -22,10 +23,17 @@ perl-cairo
 
    |downloads_perl-cairo| |docker_perl-cairo|
 
-   :versions: 1.106-1, 1.106-0
+   :versions:
+      
+      
+
+      ``1.106-1``,  ``1.106-0``
+
+      
+
    
-   :depends cairo: >=1.14.12,<1.15.0a0
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends cairo: ``>=1.14.12,<1.15.0a0``
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-extutils-depends: 
    :depends perl-extutils-pkgconfig: 
    :depends xorg-libsm: 

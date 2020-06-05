@@ -8,6 +8,7 @@ bioconductor-txdb.celegans.ucsc.ce6.ensgene
 
 .. conda:recipe:: bioconductor-txdb.celegans.ucsc.ce6.ensgene
    :replaces_section_title:
+   :noindex:
 
    Annotation package for TxDb object\(s\)
 
@@ -22,12 +23,19 @@ bioconductor-txdb.celegans.ucsc.ce6.ensgene
 
    |downloads_bioconductor-txdb.celegans.ucsc.ce6.ensgene| |docker_bioconductor-txdb.celegans.ucsc.ce6.ensgene|
 
-   :versions: 3.2.2-8, 3.2.2-7, 3.2.2-6, 3.2.2-4, 3.2.2-3, 3.2.2-1, 3.2.2-0
+   :versions:
+      
+      
+
+      ``3.2.2-8``,  ``3.2.2-7``,  ``3.2.2-6``,  ``3.2.2-4``,  ``3.2.2-3``,  ``3.2.2-1``,  ``3.2.2-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

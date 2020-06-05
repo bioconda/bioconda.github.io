@@ -8,6 +8,7 @@ bioconductor-scde
 
 .. conda:recipe:: bioconductor-scde
    :replaces_section_title:
+   :noindex:
 
    Single Cell Differential Expression
 
@@ -23,16 +24,23 @@ bioconductor-scde
 
    |downloads_bioconductor-scde| |docker_bioconductor-scde|
 
-   :versions: 2.16.0-0, 2.14.0-0, 2.12.0-1, 2.10.0-0, 2.8.0-0, 2.6.0-1, 2.6.0-0
+   :versions:
+      
+      
+
+      ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-pcamethods: >=1.80.0,<1.81.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-pcamethods: ``>=1.80.0,<1.81.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cairo: 
    :depends r-extremes: 
    :depends r-flexmix: 
@@ -41,8 +49,8 @@ bioconductor-scde
    :depends r-nnet: 
    :depends r-quantreg: 
    :depends r-rcolorbrewer: 
-   :depends r-rcpp: >=0.10.4
-   :depends r-rcpparmadillo: >=0.5.400.2.0
+   :depends r-rcpp: ``>=0.10.4``
+   :depends r-rcpparmadillo: ``>=0.5.400.2.0``
    :depends r-rjson: 
    :depends r-rmtstat: 
    :depends r-rook: 

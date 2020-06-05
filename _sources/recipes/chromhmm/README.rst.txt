@@ -8,6 +8,7 @@ chromhmm
 
 .. conda:recipe:: chromhmm
    :replaces_section_title:
+   :noindex:
 
    ChromHMM is software for learning and characterizing chromatin states. ChromHMM can integrate multiple chromatin datasets such as ChIP\-seq data of various histone modifications to discover de novo the major re\-occuring combinatorial and spatial patterns of marks.
 
@@ -23,7 +24,14 @@ chromhmm
 
    |downloads_chromhmm| |docker_chromhmm|
 
-   :versions: 1.20-1, 1.20-0, 1.19-0, 1.15-0, 1.14-0, 1.12-0, 1.11-0
+   :versions:
+      
+      
+
+      ``1.20-1``,  ``1.20-0``,  ``1.19-0``,  ``1.15-0``,  ``1.14-0``,  ``1.12-0``,  ``1.11-0``
+
+      
+
    
    :depends fonts-conda-ecosystem: 
    :depends openjdk: 

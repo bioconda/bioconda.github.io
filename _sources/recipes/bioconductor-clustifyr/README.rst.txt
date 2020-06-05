@@ -8,6 +8,7 @@ bioconductor-clustifyr
 
 .. conda:recipe:: bioconductor-clustifyr
    :replaces_section_title:
+   :noindex:
 
    Classifier for Single\-cell RNA\-seq Using Cell Clusters
 
@@ -22,13 +23,20 @@ bioconductor-clustifyr
 
    |downloads_bioconductor-clustifyr| |docker_bioconductor-clustifyr|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-fgsea: >=1.14.0,<1.15.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-fgsea: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-entropy: 

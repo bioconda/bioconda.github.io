@@ -8,6 +8,7 @@ bioconductor-qusage
 
 .. conda:recipe:: bioconductor-qusage
    :replaces_section_title:
+   :noindex:
 
    qusage\: Quantitative Set Analysis for Gene Expression
 
@@ -23,11 +24,18 @@ bioconductor-qusage
 
    |downloads_bioconductor-qusage| |docker_bioconductor-qusage|
 
-   :versions: 2.22.0-0, 2.20.0-0, 2.18.0-1, 2.16.1-0, 2.16.0-0, 2.14.0-0, 2.12.0-0, 2.10.0-0
+   :versions:
+      
+      
+
+      ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-emmeans: 
    :depends r-fftw: 
    :depends r-nlme: 

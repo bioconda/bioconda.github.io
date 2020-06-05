@@ -8,6 +8,7 @@ kronos
 
 .. conda:recipe:: kronos
    :replaces_section_title:
+   :noindex:
 
    Kronos is a highly flexible Python\-based software tool that mainly enables bioinformatics developers\, i.e. bioinformaticians who develop workflows for analyzing genomic data\, to quickly make a workflow.
 
@@ -24,11 +25,18 @@ kronos
 
    |downloads_kronos| |docker_kronos|
 
-   :versions: 2.3.0-1, 2.3.0-0
+   :versions:
+      
+      
+
+      ``2.3.0-1``,  ``2.3.0-0``
+
+      
+
    
-   :depends python: <3
-   :depends pyyaml: >=3.11
-   :depends ruffus: 2.4.1
+   :depends python: ``<3``
+   :depends pyyaml: ``>=3.11``
+   :depends ruffus: ``2.4.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-html-tidy
 
 .. conda:recipe:: perl-html-tidy
    :replaces_section_title:
+   :noindex:
 
    \(X\)HTML validation in a Perl object
 
@@ -22,9 +23,16 @@ perl-html-tidy
 
    |downloads_perl-html-tidy| |docker_perl-html-tidy|
 
-   :versions: 1.60-0, 1.56-2, 1.56-1
+   :versions:
+      
+      
+
+      ``1.60-0``,  ``1.56-2``,  ``1.56-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-encode: 

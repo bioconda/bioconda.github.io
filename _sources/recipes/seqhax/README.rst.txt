@@ -8,6 +8,7 @@ seqhax
 
 .. conda:recipe:: seqhax
    :replaces_section_title:
+   :noindex:
 
    A collection of next\-gen sequence data utilities
 
@@ -22,11 +23,18 @@ seqhax
 
    |downloads_seqhax| |docker_seqhax|
 
-   :versions: 0.7.2-0
+   :versions:
+      
+      
+
+      ``0.7.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

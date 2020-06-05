@@ -8,6 +8,7 @@ ir
 
 .. conda:recipe:: ir
    :replaces_section_title:
+   :noindex:
 
    Program for Calculating the Repetitiveness of DNA Sequences
 
@@ -22,7 +23,14 @@ ir
 
    |downloads_ir| |docker_ir|
 
-   :versions: 2.8.0-1
+   :versions:
+      
+      
+
+      ``2.8.0-1``
+
+      
+
    
    :requirements:
 

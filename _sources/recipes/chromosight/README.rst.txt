@@ -8,6 +8,7 @@ chromosight
 
 .. conda:recipe:: chromosight
    :replaces_section_title:
+   :noindex:
 
    Detect loops \(and other patterns\) in Hi\-C contact maps.
 
@@ -22,16 +23,31 @@ chromosight
 
    |downloads_chromosight| |docker_chromosight|
 
-   :versions: 1.1.2-0, 1.1.1-0, 1.1.0-0, 1.0.0-0, 0.9.9-0, 0.9.8-0, 0.9.7-0, 0.9.5-0, 0.9.3-0, 0.9.2-0, 0.9.1-0, 0.9.0-0, 0.8.2-0, 0.8.0-0, 0.7.3-0, 0.7.2-0, 0.7.1-0, 0.7.0-0, 0.6.0-0, 0.5.2-0, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0, 0.3.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.9.9-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-0</code>,  <code>0.9.5-0</code>,  <code>0.9.3-0</code>,  </span></summary>
+      
+
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.5-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends cooler: 
    :depends docopt: 
    :depends jsonschema: 
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends scikit-learn: 
-   :depends scipy: >=1.3
+   :depends scipy: ``>=1.3``
    :requirements:
 
    .. rubric:: Installation

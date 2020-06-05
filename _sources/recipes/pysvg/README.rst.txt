@@ -8,6 +8,7 @@ pysvg
 
 .. conda:recipe:: pysvg
    :replaces_section_title:
+   :noindex:
 
    Python SVG Library
 
@@ -22,11 +23,18 @@ pysvg
 
    |downloads_pysvg| |docker_pysvg|
 
-   :versions: 0.2.2-2, 0.2.2-0
+   :versions:
+      
+      
+
+      ``0.2.2-2``,  ``0.2.2-0``
+
+      
+
    
    :depends cssselect: 
-   :depends lxml: >=2.1
-   :depends python: >=2.7,<2.8.0a0
+   :depends lxml: ``>=2.1``
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

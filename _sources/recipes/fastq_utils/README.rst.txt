@@ -8,6 +8,7 @@ fastq_utils
 
 .. conda:recipe:: fastq_utils
    :replaces_section_title:
+   :noindex:
 
    Validation and manipulation of FASTQ files\, scRNA\-seq barcode pre\-processing and UMI quantification.
 
@@ -22,11 +23,18 @@ fastq_utils
 
    |downloads_fastq_utils| |docker_fastq_utils|
 
-   :versions: 0.23.0-0, 0.22.1-0, 0.22.0-0, 0.21.0-0, 0.20.0-0, 0.19.3-0, 0.19.2-0, 0.18.2-1
+   :versions:
+      
+      
+
+      ``0.23.0-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.3-0``,  ``0.19.2-0``,  ``0.18.2-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends samtools: 1.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends samtools: ``1.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

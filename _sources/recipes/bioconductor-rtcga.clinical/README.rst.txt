@@ -8,6 +8,7 @@ bioconductor-rtcga.clinical
 
 .. conda:recipe:: bioconductor-rtcga.clinical
    :replaces_section_title:
+   :noindex:
 
    Clinical datasets from The Cancer Genome Atlas Project
 
@@ -22,11 +23,18 @@ bioconductor-rtcga.clinical
 
    |downloads_bioconductor-rtcga.clinical| |docker_bioconductor-rtcga.clinical|
 
-   :versions: 20151101.18.0-0, 20151101.16.0-0, 20151101.14.0-1, 20151101.14.0-0, 20151101.12.0-0
+   :versions:
+      
+      
+
+      ``20151101.18.0-0``,  ``20151101.16.0-0``,  ``20151101.14.0-1``,  ``20151101.14.0-0``,  ``20151101.12.0-0``
+
+      
+
    
-   :depends bioconductor-rtcga: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rtcga: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

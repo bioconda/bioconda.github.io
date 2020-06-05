@@ -8,6 +8,7 @@ emirge
 
 .. conda:recipe:: emirge
    :replaces_section_title:
+   :noindex:
 
    EMIRGE reconstructs full length sequences from short sequencing reads
 
@@ -22,18 +23,25 @@ emirge
 
    |downloads_emirge| |docker_emirge|
 
-   :versions: 0.61.1-3, 0.61.1-2, 0.61.1-1, 0.61.1-0
+   :versions:
+      
+      
+
+      ``0.61.1-3``,  ``0.61.1-2``,  ``0.61.1-1``,  ``0.61.1-0``
+
+      
+
    
    :depends biopython: 
    :depends bowtie: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends samtools: 
    :depends scipy: 
    :depends vsearch: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

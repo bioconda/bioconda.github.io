@@ -8,6 +8,7 @@ bioconductor-spicyr
 
 .. conda:recipe:: bioconductor-spicyr
    :replaces_section_title:
+   :noindex:
 
    Spatial analysis of in situ cytometry data
 
@@ -22,13 +23,20 @@ bioconductor-spicyr
 
    |downloads_bioconductor-spicyr| |docker_bioconductor-spicyr|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-class: 
    :depends r-concaveman: 
    :depends r-ggplot2: 

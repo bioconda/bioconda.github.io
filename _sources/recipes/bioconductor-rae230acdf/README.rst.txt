@@ -8,6 +8,7 @@ bioconductor-rae230acdf
 
 .. conda:recipe:: bioconductor-rae230acdf
    :replaces_section_title:
+   :noindex:
 
    rae230acdf
 
@@ -22,11 +23,18 @@ bioconductor-rae230acdf
 
    |downloads_bioconductor-rae230acdf| |docker_bioconductor-rae230acdf|
 
-   :versions: 2.18.0-5, 2.18.0-4, 2.18.0-3, 2.18.0-1, 2.18.0-0
+   :versions:
+      
+      
+
+      ``2.18.0-5``,  ``2.18.0-4``,  ``2.18.0-3``,  ``2.18.0-1``,  ``2.18.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

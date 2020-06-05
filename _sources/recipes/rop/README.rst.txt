@@ -8,6 +8,7 @@ rop
 
 .. conda:recipe:: rop
    :replaces_section_title:
+   :noindex:
 
    The Read Origin Protocol \(ROP\) is a computational protocol that aims to discover the source of all reads\, including those originating from repeat sequences\, recombinant B and T cell receptors\, and microbial communities. 
 
@@ -22,7 +23,14 @@ rop
 
    |downloads_rop| |docker_rop|
 
-   :versions: 1.1.2-1, 1.1.2-0, 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
@@ -31,11 +39,11 @@ rop
    :depends fastx_toolkit: 
    :depends intervaltree: 
    :depends kmer-jellyfish: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends samtools: 
    :depends scikit-learn: 
    :depends scipy: 

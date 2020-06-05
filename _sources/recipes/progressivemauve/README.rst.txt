@@ -8,6 +8,7 @@ progressivemauve
 
 .. conda:recipe:: progressivemauve
    :replaces_section_title:
+   :noindex:
 
    progressiveMauve computes multiple genome alignment with gene gain\, loss and rearrangement
 
@@ -22,7 +23,14 @@ progressivemauve
 
    |downloads_progressivemauve| |docker_progressivemauve|
 
-   :versions: snapshot_2015_02_13-2, snapshot_2015_02_13-1, snapshot_2015_02_13-0
+   :versions:
+      
+      
+
+      ``snapshot_2015_02_13-2``,  ``snapshot_2015_02_13-1``,  ``snapshot_2015_02_13-0``
+
+      
+
    
    :requirements:
 

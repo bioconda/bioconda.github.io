@@ -8,6 +8,7 @@ bioconductor-tfutils
 
 .. conda:recipe:: bioconductor-tfutils
    :replaces_section_title:
+   :noindex:
 
    TFutils
 
@@ -22,11 +23,18 @@ bioconductor-tfutils
 
    |downloads_bioconductor-tfutils| |docker_bioconductor-tfutils|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
    :depends r-miniui: 

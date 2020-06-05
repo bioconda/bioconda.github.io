@@ -8,6 +8,7 @@ dropseq_tools
 
 .. conda:recipe:: dropseq_tools
    :replaces_section_title:
+   :noindex:
 
    Package for the analysis of Drop\-seq data developed by Jim Nemesh in the McCarroll Lab
 
@@ -23,9 +24,16 @@ dropseq_tools
 
    |downloads_dropseq_tools| |docker_dropseq_tools|
 
-   :versions: 2.3.0-0, 2.0.0-0, 1.13-0
+   :versions:
+      
+      
+
+      ``2.3.0-0``,  ``2.0.0-0``,  ``1.13-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

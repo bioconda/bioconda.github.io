@@ -8,6 +8,7 @@ poppunk
 
 .. conda:recipe:: poppunk
    :replaces_section_title:
+   :noindex:
 
    PopPUNK \(POPulation Partitioning Using Nucleotide Kmers\)
 
@@ -23,18 +24,33 @@ poppunk
 
    |downloads_poppunk| |docker_poppunk|
 
-   :versions: 2.0.2-0, 2.0.1-0, 1.2.2-0, 1.2.0-0, 1.1.7-0, 1.1.6-0, 1.1.5-0, 1.1.4-0, 1.1.3-0, 1.1.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  </span></summary>
+      
+
+      ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends dendropy: 
    :depends hdbscan: 
-   :depends mash: >=2.0
+   :depends mash: ``>=2.0``
    :depends matplotlib-base: 
-   :depends networkx: >=2.1
+   :depends networkx: ``>=2.1``
    :depends numba: 
    :depends numpy: 
    :depends pandas: 
-   :depends pp-sketchlib: >=1.3
-   :depends python: >=3
+   :depends pp-sketchlib: ``>=1.3``
+   :depends python: ``>=3``
    :depends rapidnj: 
    :depends scikit-learn: 
    :depends scipy: 

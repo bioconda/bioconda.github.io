@@ -8,6 +8,7 @@ sccaf
 
 .. conda:recipe:: sccaf
    :replaces_section_title:
+   :noindex:
 
    Single\-Cell Clustering Assessment Framework
 
@@ -22,15 +23,30 @@ sccaf
 
    |downloads_sccaf| |docker_sccaf|
 
-   :versions: 0.0.10-0, 0.0.9-0, 0.0.8-0, 0.0.7.post1-1, 0.0.7.post1-0, 0.0.7-0, 0.0.6-0, 0.0.5-0, 0.0.3-0, 0.0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7.post1-1</code>,  <code>0.0.7.post1-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.3-0</code>,  </span></summary>
+      
+
+      ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7.post1-1``,  ``0.0.7.post1-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends h5py: <2.10
+   :depends h5py: ``<2.10``
    :depends louvain: 
    :depends numpy: 
    :depends pandas: 
    :depends psutil: 
-   :depends python: >=3
-   :depends scanpy: >=1.4.4
+   :depends python: ``>=3``
+   :depends scanpy: ``>=1.4.4``
    :depends scikit-learn: 
    :requirements:
 

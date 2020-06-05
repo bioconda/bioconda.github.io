@@ -8,6 +8,7 @@ perl-file-copy-recursive-reduced
 
 .. conda:recipe:: perl-file-copy-recursive-reduced
    :replaces_section_title:
+   :noindex:
 
    Recursive copying of files and directories within Perl 5 toolchain
 
@@ -22,9 +23,16 @@ perl-file-copy-recursive-reduced
 
    |downloads_perl-file-copy-recursive-reduced| |docker_perl-file-copy-recursive-reduced|
 
-   :versions: 0.006-0
+   :versions:
+      
+      
+
+      ``0.006-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-file-path: 
    :requirements:
 

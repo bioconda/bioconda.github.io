@@ -8,6 +8,7 @@ bloocoo
 
 .. conda:recipe:: bloocoo
    :replaces_section_title:
+   :noindex:
 
    Bloocoo is a k\-mer spectrum\-based read error corrector\, designed to correct large datasets with a very low memory footprint. As an example\, it can correct whole human genome re\-sequencing reads at 70 x coverage with less than 4GB of memory.
 
@@ -22,11 +23,18 @@ bloocoo
 
    |downloads_bloocoo| |docker_bloocoo|
 
-   :versions: 1.0.7-1, 1.0.7-0
+   :versions:
+      
+      
+
+      ``1.0.7-1``,  ``1.0.7-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

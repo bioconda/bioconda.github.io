@@ -8,6 +8,7 @@ sparcc
 
 .. conda:recipe:: sparcc
    :replaces_section_title:
+   :noindex:
 
    SparCC is a python module for computing correlations in compositional data \(16S\, metagenomics\, etc\).
 
@@ -23,11 +24,18 @@ sparcc
 
    |downloads_sparcc| |docker_sparcc|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends numpy: 
    :depends pandas: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

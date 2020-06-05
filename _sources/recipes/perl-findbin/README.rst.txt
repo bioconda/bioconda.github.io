@@ -8,6 +8,7 @@ perl-findbin
 
 .. conda:recipe:: perl-findbin/1.51
    :replaces_section_title:
+   :noindex:
 
    Locate directory of original perl script
 
@@ -22,9 +23,16 @@ perl-findbin
 
    |downloads_perl-findbin| |docker_perl-findbin|
 
-   :versions: 1.51-2, 1.51-1, 1.51-0
+   :versions:
+      
+      
+
+      ``1.51-2``,  ``1.51-1``,  ``1.51-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

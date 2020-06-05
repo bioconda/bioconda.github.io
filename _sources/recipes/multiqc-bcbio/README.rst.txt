@@ -8,6 +8,7 @@ multiqc-bcbio
 
 .. conda:recipe:: multiqc-bcbio
    :replaces_section_title:
+   :noindex:
 
    MultiQC plugin for bcbio report visualization.
 
@@ -22,9 +23,24 @@ multiqc-bcbio
 
    |downloads_multiqc-bcbio| |docker_multiqc-bcbio|
 
-   :versions: 0.2.8-0, 0.2.6-4, 0.2.6-3, 0.2.6-2, 0.2.6-0, 0.2.5-1, 0.2.5-0, 0.2.4-1, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0, 0.2.0dev-4, 0.2.0dev-3, 0.2.0dev-2, 0.2.0dev-1, 0.2.0dev-0, 0.1.9-1, 0.1.9-0, 0.1.8-0, 0.1.7-1, 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.4-1, 0.1.3-1, 0.1.2-2, 0.1.2-1, 0.1.1-1, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.8-0</code>,  <code>0.2.6-4</code>,  <code>0.2.6-3</code>,  <code>0.2.6-2</code>,  <code>0.2.6-0</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  </span></summary>
+      
+
+      ``0.2.8-0``,  ``0.2.6-4``,  ``0.2.6-3``,  ``0.2.6-2``,  ``0.2.6-0``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.2.0dev-4``,  ``0.2.0dev-3``,  ``0.2.0dev-2``,  ``0.2.0dev-1``,  ``0.2.0dev-0``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.3-1``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.1-1``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends multiqc: >=1.2
+   :depends multiqc: ``>=1.2``
    :depends python: 
    :requirements:
 

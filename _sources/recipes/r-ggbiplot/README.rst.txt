@@ -8,6 +8,7 @@ r-ggbiplot
 
 .. conda:recipe:: r-ggbiplot
    :replaces_section_title:
+   :noindex:
 
    A biplot based on ggplot2
 
@@ -22,10 +23,17 @@ r-ggbiplot
 
    |downloads_r-ggbiplot| |docker_r-ggbiplot|
 
-   :versions: 0.55-3, 0.55-2, 0.55-1
+   :versions:
+      
+      
+
+      ``0.55-3``,  ``0.55-2``,  ``0.55-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-devtools: 
    :depends r-ggplot2: 
    :depends r-gridbase: 

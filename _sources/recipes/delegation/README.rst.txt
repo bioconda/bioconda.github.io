@@ -8,6 +8,7 @@ delegation
 
 .. conda:recipe:: delegation
    :replaces_section_title:
+   :noindex:
 
    Simple implementation of the delegate pattern.
 
@@ -22,7 +23,14 @@ delegation
 
    |downloads_delegation| |docker_delegation|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

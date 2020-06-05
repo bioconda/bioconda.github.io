@@ -8,6 +8,7 @@ guidescan
 
 .. conda:recipe:: guidescan
    :replaces_section_title:
+   :noindex:
 
    Tools to create and interface genome\-wide CRISPR guideRNA databases
 
@@ -22,22 +23,29 @@ guidescan
 
    |downloads_guidescan| |docker_guidescan|
 
-   :versions: 1.2-1, 1.2-0, 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends biopython: >=1.66
-   :depends bx-python: 0.7.3
+   :depends biopython: ``>=1.66``
+   :depends bx-python: ``0.7.3``
    :depends coreutils: 
    :depends numpy: 
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :depends pandas: 
    :depends psutil: 
-   :depends pyfaidx: 0.4.7.1
-   :depends pysam: 0.8.3
-   :depends python: >=2.7,<2.8.0a0
-   :depends python-dateutil: >=2.5.0
+   :depends pyfaidx: ``0.4.7.1``
+   :depends pysam: ``0.8.3``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python-dateutil: ``>=2.5.0``
    :depends rename: 
-   :depends samtools: 1.3.1
-   :depends scikit-learn: >=0.16.1
+   :depends samtools: ``1.3.1``
+   :depends scikit-learn: ``>=0.16.1``
    :depends xlwt: 
    :requirements:
 

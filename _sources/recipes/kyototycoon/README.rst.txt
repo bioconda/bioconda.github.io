@@ -8,6 +8,7 @@ kyototycoon
 
 .. conda:recipe:: kyototycoon
    :replaces_section_title:
+   :noindex:
 
    a lightweight network server on top of the Kyoto Cabinet key\-value database\, built for high\-performance and concurrency
 
@@ -22,12 +23,19 @@ kyototycoon
 
    |downloads_kyototycoon| |docker_kyototycoon|
 
-   :versions: 2017.04.10-2, 2017.04.10-1
+   :versions:
+      
+      
+
+      ``2017.04.10-2``,  ``2017.04.10-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends lzo: >=2.10,<3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends lzo: ``>=2.10,<3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

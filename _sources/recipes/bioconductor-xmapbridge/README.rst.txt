@@ -8,6 +8,7 @@ bioconductor-xmapbridge
 
 .. conda:recipe:: bioconductor-xmapbridge
    :replaces_section_title:
+   :noindex:
 
    Export plotting files to the xmapBridge for visualisation in X\:Map
 
@@ -23,9 +24,16 @@ bioconductor-xmapbridge
 
    |downloads_bioconductor-xmapbridge| |docker_bioconductor-xmapbridge|
 
-   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-1, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions:
+      
+      
+
+      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

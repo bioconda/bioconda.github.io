@@ -8,6 +8,7 @@ brockman-pipeline
 
 .. conda:recipe:: brockman-pipeline
    :replaces_section_title:
+   :noindex:
 
    Brockman Representation Of Chromatin by K\-mers in Mark\-Associated Nucleotides
 
@@ -22,7 +23,14 @@ brockman-pipeline
 
    |downloads_brockman-pipeline| |docker_brockman-pipeline|
 
-   :versions: 1.0-3, 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends amused: 
    :depends bedtools: 
@@ -30,7 +38,7 @@ brockman-pipeline
    :depends bzip2: 
    :depends jemalloc: 
    :depends ncurses: 
-   :depends ruby: >=2.4
+   :depends ruby: ``>=2.4``
    :depends ruby-dna-tools: 
    :depends samtools: 
    :depends trimmomatic: 

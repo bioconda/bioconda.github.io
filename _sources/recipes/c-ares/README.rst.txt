@@ -8,6 +8,7 @@ c-ares
 
 .. conda:recipe:: c-ares
    :replaces_section_title:
+   :noindex:
 
    c\-ares is a C library for asynchronous DNS requests \(including name resolves\)
 
@@ -22,9 +23,16 @@ c-ares
 
    |downloads_c-ares| |docker_c-ares|
 
-   :versions: 1.11.0-1, 1.11.0-0
+   :versions:
+      
+      
+
+      ``1.11.0-1``,  ``1.11.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

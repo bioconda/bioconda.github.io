@@ -8,6 +8,7 @@ perl-perlio
 
 .. conda:recipe:: perl-perlio/1.09
    :replaces_section_title:
+   :noindex:
 
    On demand loader for PerlIO layers and root of PerlIO\:\:\* name space
 
@@ -22,9 +23,16 @@ perl-perlio
 
    |downloads_perl-perlio| |docker_perl-perlio|
 
-   :versions: 1.09-1, 1.09-0
+   :versions:
+      
+      
+
+      ``1.09-1``,  ``1.09-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ psascan
 
 .. conda:recipe:: psascan
    :replaces_section_title:
+   :noindex:
 
    A parallel external memory suffix array construction algorithm
 
@@ -22,11 +23,18 @@ psascan
 
    |downloads_psascan| |docker_psascan|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends libdivsufsort: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

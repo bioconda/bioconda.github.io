@@ -8,6 +8,7 @@ deeplc
 
 .. conda:recipe:: deeplc
    :replaces_section_title:
+   :noindex:
 
    DeepLC\: Retention time prediction for \(modified\) peptides using Deep Learning.
 
@@ -23,16 +24,31 @@ deeplc
 
    |downloads_deeplc| |docker_deeplc|
 
-   :versions: 0.1.16-0, 0.1.15-0, 0.1.14-0, 0.1.13-0, 0.1.12-0, 0.1.11-0, 0.1.10-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.2-0, 0.1.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.1.16-0</code>,  <code>0.1.15-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  </span></summary>
+      
+
+      ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends matplotlib-base: >=3,<4
-   :depends numpy: >=1.17,<2
-   :depends opt-einsum: >=2.3.2
-   :depends pandas: >=0.25,<1
-   :depends python: >=3.6,<3.8
-   :depends scipy: >=1.3.1,<2
-   :depends setuptools: >=42.0.1
-   :depends tensorflow: >=1.14.0,<3
+   :depends matplotlib-base: ``>=3,<4``
+   :depends numpy: ``>=1.17,<2``
+   :depends opt-einsum: ``>=2.3.2``
+   :depends pandas: ``>=0.25,<1``
+   :depends python: ``>=3.6,<3.8``
+   :depends scipy: ``>=1.3.1,<2``
+   :depends setuptools: ``>=42.0.1``
+   :depends tensorflow: ``>=1.14.0,<3``
    :requirements:
 
    .. rubric:: Installation

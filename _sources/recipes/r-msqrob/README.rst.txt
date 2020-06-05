@@ -8,6 +8,7 @@ r-msqrob
 
 .. conda:recipe:: r-msqrob
    :replaces_section_title:
+   :noindex:
 
    Robust statistical inference for quantitative LC\-MS proteomics.
 
@@ -22,7 +23,14 @@ r-msqrob
 
    |downloads_r-msqrob| |docker_r-msqrob|
 
-   :versions: 0.7.6-2, 0.7.6-1, 0.7.6-0, 0.7.5-1, 0.7.5-0
+   :versions:
+      
+      
+
+      ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-1``,  ``0.7.5-0``
+
+      
+
    
    :depends bioconductor-affyio: 
    :depends bioconductor-biobase: 
@@ -34,7 +42,7 @@ r-msqrob
    :depends bioconductor-mzid: 
    :depends bioconductor-mzr: 
    :depends bioconductor-protgenerics: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-colorspace: 
    :depends r-dichromat: 
    :depends r-dt: 

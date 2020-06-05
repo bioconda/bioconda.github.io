@@ -8,6 +8,7 @@ sv2
 
 .. conda:recipe:: sv2
    :replaces_section_title:
+   :noindex:
 
    Support Vector Structural Variation Genotyper
 
@@ -22,17 +23,24 @@ sv2
 
    |downloads_sv2| |docker_sv2|
 
-   :versions: 1.4.3.4-3, 1.4.3.4-2, 1.4.3.4-1, 1.4.3.4-0
+   :versions:
+      
+      
+
+      ``1.4.3.4-3``,  ``1.4.3.4-2``,  ``1.4.3.4-1``,  ``1.4.3.4-0``
+
+      
+
    
    :depends bedtools: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends pysam: >=0.9
-   :depends python: >=2.7,<2.8.0a0
+   :depends pysam: ``>=0.9``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends python-wget: 
-   :depends scikit-learn: >=0.19
+   :depends scikit-learn: ``>=0.19``
    :depends wget: 
    :requirements:
 

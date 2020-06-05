@@ -8,6 +8,7 @@ flashlfq
 
 .. conda:recipe:: flashlfq
    :replaces_section_title:
+   :noindex:
 
    ultrafast label\-free quantification algorithm for mass\-spectrometry proteomics
 
@@ -23,9 +24,24 @@ flashlfq
 
    |downloads_flashlfq| |docker_flashlfq|
 
-   :versions: 1.1.1-0, 1.1.0-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0, 0.1.112-0, 0.1.111-0, 0.1.110-0, 0.1.109-0, 0.1.108-1, 0.1.108-0, 0.1.105-2, 0.1.105-0, 0.1.101-0, 0.1.100-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.1.112-0</code>,  <code>0.1.111-0</code>,  </span></summary>
+      
+
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.112-0``,  ``0.1.111-0``,  ``0.1.110-0``,  ``0.1.109-0``,  ``0.1.108-1``,  ``0.1.108-0``,  ``0.1.105-2``,  ``0.1.105-0``,  ``0.1.101-0``,  ``0.1.100-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends mono: >=4.0.0
+   :depends mono: ``>=4.0.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ aquila_stlfr
 
 .. conda:recipe:: aquila_stlfr
    :replaces_section_title:
+   :noindex:
 
    Diploid assembly and variants calling for stLFR and hybrid assembler for both linked\-reads.
 
@@ -22,12 +23,19 @@ aquila_stlfr
 
    |downloads_aquila_stlfr| |docker_aquila_stlfr|
 
-   :versions: 1.2.11-0, 1.2.10-0, 1.2.9-0, 1.2.8-0, 1.2.4-0, 1.2.1-0, 1.1-2, 1.1-0
+   :versions:
+      
+      
+
+      ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.4-0``,  ``1.2.1-0``,  ``1.1-2``,  ``1.1-0``
+
+      
+
    
    :depends minimap2: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends samtools: 
    :depends scipy: 
    :requirements:

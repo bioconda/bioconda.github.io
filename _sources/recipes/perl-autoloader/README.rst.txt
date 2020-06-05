@@ -8,6 +8,7 @@ perl-autoloader
 
 .. conda:recipe:: perl-autoloader/5.74
    :replaces_section_title:
+   :noindex:
 
    load subroutines only on demand
 
@@ -22,9 +23,16 @@ perl-autoloader
 
    |downloads_perl-autoloader| |docker_perl-autoloader|
 
-   :versions: 5.74-2, 5.74-1, 5.74-0
+   :versions:
+      
+      
+
+      ``5.74-2``,  ``5.74-1``,  ``5.74-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ pepnovo
 
 .. conda:recipe:: pepnovo
    :replaces_section_title:
+   :noindex:
 
    PepNovo serves as a high throughput de novo peptide sequencing tool for tandem mass spectrometry data
 
@@ -23,9 +24,16 @@ pepnovo
 
    |downloads_pepnovo| |docker_pepnovo|
 
-   :versions: 20101117-1, 20101117-0
+   :versions:
+      
+      
+
+      ``20101117-1``,  ``20101117-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

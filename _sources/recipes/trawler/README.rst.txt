@@ -8,6 +8,7 @@ trawler
 
 .. conda:recipe:: trawler
    :replaces_section_title:
+   :noindex:
 
    Trawler is a motif discovery tool used to identify enriched motifs in a set of sequenced regions of DNA.
 
@@ -22,11 +23,18 @@ trawler
 
    |downloads_trawler| |docker_trawler|
 
-   :versions: 2.0-3, 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+
    
    :depends ghostscript: 
    :depends openjdk: 
-   :depends perl: >=5.22
+   :depends perl: ``>=5.22``
    :depends perl-algorithm-cluster: 
    :depends perl-cgi: 
    :requirements:

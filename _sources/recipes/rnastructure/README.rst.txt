@@ -8,6 +8,7 @@ rnastructure
 
 .. conda:recipe:: rnastructure
    :replaces_section_title:
+   :noindex:
 
    RNAstructure is a complete package for RNA and DNA secondary structure  prediction and analysis. It includes algorithms for   secondary structure  prediction\, including facility to predict base pairing probabilities. It  also can be used to predict bimolecular structures and can predict the  equilibrium binding affinity of an oligonucleotide to a structured RNA  target. This is useful for siRNA design. It can also predict secondary  structures common to two\, unaligned sequences\, which is much more accurate  than single sequence secondary structure prediction. Finally\, RNAstructure  can take a number of different types of experiment mapping data to constrain  or restrain structure prediction. These include chemical mapping\, enzymatic  mapping\, NMR\, and SHAPE data.
 
@@ -23,10 +24,17 @@ rnastructure
 
    |downloads_rnastructure| |docker_rnastructure|
 
-   :versions: 6.1-0, 6.0-1, 6.0-0, 5.7-2, 5.7-1, 5.7-0
+   :versions:
+      
+      
+
+      ``6.1-0``,  ``6.0-1``,  ``6.0-0``,  ``5.7-2``,  ``5.7-1``,  ``5.7-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

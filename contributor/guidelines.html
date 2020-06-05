@@ -121,7 +121,7 @@
   
   <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
-  <li class="toctree-l1"><a href="../conda-recipe_index.html">Recipe Index</a></li>
+  <li class="toctree-l1"><a href="../conda-package_index.html">Package Index</a></li>
   
   <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
@@ -191,7 +191,7 @@ and copy this into the recipe.</p>
 </div>
 <div class="section" id="build-numbers">
 <span id="buildnum"></span><h3>Build numbers<a class="headerlink" href="#build-numbers" title="Permalink to this headline">¶</a></h3>
-<p>The build number (see <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-build" title="(in conda-build v3.19.3+29.gba6cf7ab.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">docs</span></code></a>) can be
+<p>The build number (see <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-build" title="(in conda-build v3.19.3+41.g61624e60.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">docs</span></code></a>) can be
 used to trigger a new build for a package whose version has not
 changed.  This is useful for fixing errors in recipes. The first
 recipe for a new version should always have a build number of 0.</p>
@@ -307,7 +307,7 @@ guidelines in <a class="reference internal" href="cb3.html#cb3-main"><span class
 <p>By default, Python recipes (those that have <code class="docutils literal notranslate"><span class="pre">python</span></code> listed as a dependency)
 must be successfully built and tested on Python 2.7, 3.6, and 3.7 in order to
 pass. However, many Python packages are not fully compatible across all Python
-versions. Use the <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#preprocess-selectors" title="(in conda-build v3.19.3+29.gba6cf7ab.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">preprocessing</span> <span class="pre">selectors</span></code></a>
+versions. Use the <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#preprocess-selectors" title="(in conda-build v3.19.3+41.g61624e60.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">preprocessing</span> <span class="pre">selectors</span></code></a>
 in the meta.yaml file along with the <code class="docutils literal notranslate"><span class="pre">build/skip</span></code> entry to indicate that
 a recipe should be skipped.</p>
 <p>For example, a recipe that only runs on Python 2.7 should include the
@@ -321,7 +321,7 @@ following:</p>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">python &gt;=3.6</span>
 </pre></div>
 </div>
-<p>Alternatively, for straightforward compatibility fixes you can apply a <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-yaml" title="(in conda-build v3.19.3+29.gba6cf7ab.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">patch</span>
+<p>Alternatively, for straightforward compatibility fixes you can apply a <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-yaml" title="(in conda-build v3.19.3+41.g61624e60.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">patch</span>
 <span class="pre">in</span> <span class="pre">the</span> <span class="pre">meta.yaml</span></code></a>.</p>
 </div>
 <div class="section" id="r-cran">
@@ -377,7 +377,7 @@ performed for R packages.</p>
 <div class="section" id="r-bioconductor">
 <h2>R (Bioconductor)<a class="headerlink" href="#r-bioconductor" title="Permalink to this headline">¶</a></h2>
 <p>Use the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">bioconductor-skeleton</span></code> tool to build a Bioconductor
-skeleton. After using the <span class="xref std std-ref">bootstrap</span> method to set up a testing
+skeleton. After using the <a class="reference internal" href="building-locally.html#bootstrap"><span class="std std-ref">Using the “Bootstrap” Method</span></a> method to set up a testing
 environment and activating that environment (which will ensure the correct
 versions of bioconda-utils and conda-build), from the top level of the
 <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repository run:</p>
@@ -391,7 +391,7 @@ and a post-link script (see <a class="reference external" href="https://github.c
 for details). Typically the resulting recipe can be used without modification,
 though dependencies may also need recipes. Recipes for dependencies with an
 <code class="docutils literal notranslate"><span class="pre">r-</span></code> prefix should be created at Conda-Forge unless the CRAN package has a
-Bioconductor dependency; see <code class="xref any docutils literal notranslate"><span class="pre">guidelines:R</span> <span class="pre">(CRAN)</span></code> above.</p>
+Bioconductor dependency; see <a class="reference internal" href="#r-cran"><span class="std std-ref">R (CRAN)</span></a> above.</p>
 <ul class="simple">
 <li><p>typical bioconductor recipe: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma">bioconductor-limma/meta.yaml</a></p></li>
 </ul>

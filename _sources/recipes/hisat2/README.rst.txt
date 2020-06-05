@@ -8,6 +8,7 @@ hisat2
 
 .. conda:recipe:: hisat2
    :replaces_section_title:
+   :noindex:
 
    Graph\-based alignment of next generation sequencing reads to a population of genomes.
 
@@ -26,13 +27,28 @@ hisat2
 
    |downloads_hisat2| |docker_hisat2|
 
-   :versions: 2.2.0-2, 2.2.0-1, 2.2.0-0, 2.1.0-4, 2.1.0-3, 2.1.0-2, 2.1.0-1, 2.1.0-0, 2.0.5-2, 2.0.5-1, 2.0.4-1, 2.0.4-0, 2.0.3beta-0, 2.0.2beta-0, 2.0.1beta-0, 2.0.0beta-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-4</code>,  <code>2.1.0-3</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.5-2</code>,  </span></summary>
+      
+
+      ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-4``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3beta-0``,  ``2.0.2beta-0``,  ``2.0.1beta-0``,  ``2.0.0beta-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ transtermhp
 
 .. conda:recipe:: transtermhp
    :replaces_section_title:
+   :noindex:
 
    TransTermHP finds rho\-independent transcription terminators in bacterial genomes
 
@@ -22,9 +23,16 @@ transtermhp
 
    |downloads_transtermhp| |docker_transtermhp|
 
-   :versions: 2.09-1, 2.09-0
+   :versions:
+      
+      
+
+      ``2.09-1``,  ``2.09-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

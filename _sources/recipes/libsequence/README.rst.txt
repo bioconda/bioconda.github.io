@@ -8,6 +8,7 @@ libsequence
 
 .. conda:recipe:: libsequence
    :replaces_section_title:
+   :noindex:
 
    A C\+\+ class library for evolutionary genetics.
 
@@ -22,10 +23,25 @@ libsequence
 
    |downloads_libsequence| |docker_libsequence|
 
-   :versions: 1.9.8-0, 1.9.7-0, 1.9.6-0, 1.9.5-0, 1.9.4-0, 1.9.3-0, 1.9.2-2, 1.9.2-1, 1.9.2-0, 1.9.1-1, 1.9.0-1, 1.9.0-0, 1.8.4-2, 1.8.4-1, 1.8.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.9.8-0</code>,  <code>1.9.7-0</code>,  <code>1.9.6-0</code>,  <code>1.9.5-0</code>,  <code>1.9.4-0</code>,  <code>1.9.3-0</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  </span></summary>
+      
+
+      ``1.9.8-0``,  ``1.9.7-0``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-1``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.4-2``,  ``1.8.4-1``,  ``1.8.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

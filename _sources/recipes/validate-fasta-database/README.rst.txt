@@ -8,6 +8,7 @@ validate-fasta-database
 
 .. conda:recipe:: validate-fasta-database
    :replaces_section_title:
+   :noindex:
 
    Code for Galaxy tool for quality control on FASTA database
 
@@ -22,9 +23,16 @@ validate-fasta-database
 
    |downloads_validate-fasta-database| |docker_validate-fasta-database|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends openjdk: >=7
+   :depends openjdk: ``>=7``
    :depends python: 
    :requirements:
 

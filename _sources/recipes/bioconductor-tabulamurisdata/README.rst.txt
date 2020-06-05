@@ -8,6 +8,7 @@ bioconductor-tabulamurisdata
 
 .. conda:recipe:: bioconductor-tabulamurisdata
    :replaces_section_title:
+   :noindex:
 
    10x And SmartSeq2 Data From The Tabula Muris Consortium
 
@@ -22,11 +23,18 @@ bioconductor-tabulamurisdata
 
    |downloads_bioconductor-tabulamurisdata| |docker_bioconductor-tabulamurisdata|
 
-   :versions: 1.6.0-0, 1.3.0-0, 1.2.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

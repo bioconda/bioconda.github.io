@@ -8,6 +8,7 @@ menetools
 
 .. conda:recipe:: menetools
    :replaces_section_title:
+   :noindex:
 
    Python 3 Metabolic Network Topology Tools
 
@@ -22,10 +23,17 @@ menetools
 
    |downloads_menetools| |docker_menetools|
 
-   :versions: 2.0.6-0, 1.0.4_1-2, 1.0.4_1-1, 1.0.4_1-0
+   :versions:
+      
+      
+
+      ``2.0.6-0``,  ``1.0.4_1-2``,  ``1.0.4_1-1``,  ``1.0.4_1-0``
+
+      
+
    
    :depends clyngor: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

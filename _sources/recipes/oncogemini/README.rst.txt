@@ -8,6 +8,7 @@ oncogemini
 
 .. conda:recipe:: oncogemini
    :replaces_section_title:
+   :noindex:
 
    OncoGEMINI is an adaptation of GEMINI intended for the improved identification of biologically and clincally relevant tumor variants from multi\-sample and longitudinal tumor sequencing data
 
@@ -22,18 +23,25 @@ oncogemini
 
    |downloads_oncogemini| |docker_oncogemini|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends cyordereddict: 0.2.2
-   :depends inheritance: >=0.1.3
-   :depends numpy: >=1.7.1,<=1.15.4
-   :depends pybedtools: >=0.6.2
-   :depends pysam: >=0.6
+   :depends cyordereddict: ``0.2.2``
+   :depends inheritance: ``>=0.1.3``
+   :depends numpy: ``>=1.7.1,<=1.15.4``
+   :depends pybedtools: ``>=0.6.2``
+   :depends pysam: ``>=0.6``
    :depends python: 
-   :depends pyyaml: >=3.10
-   :depends scipy: >=0.12.0
-   :depends sqlalchemy: >=1
-   :depends unidecode: >=0.04.14
+   :depends pyyaml: ``>=3.10``
+   :depends scipy: ``>=0.12.0``
+   :depends sqlalchemy: ``>=1``
+   :depends unidecode: ``>=0.04.14``
    :depends vcf2db: 
    :depends vcfanno: 
    :requirements:

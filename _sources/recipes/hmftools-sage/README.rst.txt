@@ -8,6 +8,7 @@ hmftools-sage
 
 .. conda:recipe:: hmftools-sage
    :replaces_section_title:
+   :noindex:
 
    SAGE is a somatic SNV\, MNV and small INDEL caller optimised to call narrow regions of the genome with high prior chance of a variant with very high sensitivity.
 
@@ -22,9 +23,16 @@ hmftools-sage
 
    |downloads_hmftools-sage| |docker_hmftools-sage|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends zlib: 
    :requirements:
 

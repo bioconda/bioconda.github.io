@@ -8,6 +8,7 @@ enrichm
 
 .. conda:recipe:: enrichm
    :replaces_section_title:
+   :noindex:
 
    EnrichM is a toolbox for comparing the functional composition of population genomes
 
@@ -22,29 +23,36 @@ enrichm
 
    |downloads_enrichm| |docker_enrichm|
 
-   :versions: 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-0``
+
+      
+
    
-   :depends biopython: >=1.66
-   :depends diamond: 0.9.22
-   :depends hmmer: >=3.1b
-   :depends mcl: >=14.137
-   :depends mmseqs2: >=2.23394
+   :depends biopython: ``>=1.66``
+   :depends diamond: ``0.9.22``
+   :depends hmmer: ``>=3.1b``
+   :depends mcl: ``>=14.137``
+   :depends mmseqs2: ``>=2.23394``
    :depends moreutils: 
-   :depends numpy: >=1.9.1
+   :depends numpy: ``>=1.9.1``
    :depends openmp: 
-   :depends pandas: >=0.17.1
-   :depends parallel: >=20180222
-   :depends prodigal: >=2.6.3
-   :depends python: >=3.6
-   :depends python-dateutil: >=2.5.1
+   :depends pandas: ``>=0.17.1``
+   :depends parallel: ``>=20180222``
+   :depends prodigal: ``>=2.6.3``
+   :depends python: ``>=3.6``
+   :depends python-dateutil: ``>=2.5.1``
    :depends r-base: 
    :depends r-gridextra: 
    :depends r-optparse: 
    :depends scikit-learn: 
-   :depends scipy: >=0.17.0
+   :depends scipy: ``>=0.17.0``
    :depends seqmagick: 
-   :depends six: >=1.10.0
-   :depends statsmodels: >=0.8.0rc1
+   :depends six: ``>=1.10.0``
+   :depends statsmodels: ``>=0.8.0rc1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-ggcyto
 
 .. conda:recipe:: bioconductor-ggcyto
    :replaces_section_title:
+   :noindex:
 
    Visualize Cytometry data with ggplot
 
@@ -23,14 +24,21 @@ bioconductor-ggcyto
 
    |downloads_bioconductor-ggcyto| |docker_bioconductor-ggcyto|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.2-0, 1.10.0-0, 1.8.2-0, 1.6.0-0, 1.4.1-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowworkspace: >=4.0.0,<4.1.0
-   :depends bioconductor-ncdfflow: >=2.34.0,<2.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowworkspace: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-ncdfflow: ``>=2.34.0,<2.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
-   :depends r-ggplot2: >=3.3.0
+   :depends r-ggplot2: ``>=3.3.0``
    :depends r-gridextra: 
    :depends r-hexbin: 
    :depends r-plyr: 

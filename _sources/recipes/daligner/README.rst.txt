@@ -8,6 +8,7 @@ daligner
 
 .. conda:recipe:: daligner
    :replaces_section_title:
+   :noindex:
 
    DALIGNER\: Find all significant local alignments between reads
 
@@ -22,9 +23,16 @@ daligner
 
    |downloads_daligner| |docker_daligner|
 
-   :versions: 1.0.20200322-0, 1.0-0, 1.0p2-1, 1.0p2-0, 1.0p1-2, 1.0p1-1, 1.0p1-0
+   :versions:
+      
+      
+
+      ``1.0.20200322-0``,  ``1.0-0``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

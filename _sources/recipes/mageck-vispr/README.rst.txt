@@ -8,6 +8,7 @@ mageck-vispr
 
 .. conda:recipe:: mageck-vispr
    :replaces_section_title:
+   :noindex:
 
    MAGeCK\-VISPR is a comprehensive quality control\, analysis and visualization workflow for CRISPR\/Cas9 screens based on MAGeCK\, VISPR\, Snakemake\, FastQC and cutadapt.
 
@@ -22,14 +23,21 @@ mageck-vispr
 
    |downloads_mageck-vispr| |docker_mageck-vispr|
 
-   :versions: 0.5.4-3, 0.5.4-2, 0.5.4-1, 0.5.4-0, 0.5.3-0, 0.5.2-0, 0.4.7-0, 0.4.6-0, 0.4.5-0
+   :versions:
+      
+      
+
+      ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``
+
+      
+
    
    :depends bioconductor-sva: 
    :depends cutadapt: 
    :depends fastqc: 
    :depends jinja2: 
-   :depends mageck: >=0.5.9
-   :depends python: >=3
+   :depends mageck: ``>=0.5.9``
+   :depends python: ``>=3``
    :depends rpy2: 
    :depends snakemake: 
    :depends vispr: 

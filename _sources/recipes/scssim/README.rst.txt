@@ -8,6 +8,7 @@ scssim
 
 .. conda:recipe:: scssim
    :replaces_section_title:
+   :noindex:
 
    A bioinformatics tool for simulating single\-cell genome sequencing data
 
@@ -22,10 +23,17 @@ scssim
 
    |downloads_scssim| |docker_scssim|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

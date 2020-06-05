@@ -8,6 +8,7 @@ connor
 
 .. conda:recipe:: connor
    :replaces_section_title:
+   :noindex:
 
    A command\-line tool to deduplicate bam files based on custom\, inline barcoding.
 
@@ -22,13 +23,20 @@ connor
 
    |downloads_connor| |docker_connor|
 
-   :versions: 0.6.1-1, 0.6.1-0, 0.6-2, 0.6-0, 0.5.1-0
+   :versions:
+      
+      
+
+      ``0.6.1-1``,  ``0.6.1-0``,  ``0.6-2``,  ``0.6-0``,  ``0.5.1-0``
+
+      
+
    
-   :depends bcftools: 1.3.1.*
-   :depends htslib: 1.3.1.*
-   :depends pysam: 0.9.1.*
+   :depends bcftools: ``1.3.1.*``
+   :depends htslib: ``1.3.1.*``
+   :depends pysam: ``0.9.1.*``
    :depends python: 
-   :depends samtools: 1.3.1.*
+   :depends samtools: ``1.3.1.*``
    :depends sortedcontainers: 
    :requirements:
 

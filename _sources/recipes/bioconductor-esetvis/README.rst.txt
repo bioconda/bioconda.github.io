@@ -8,6 +8,7 @@ bioconductor-esetvis
 
 .. conda:recipe:: bioconductor-esetvis
    :replaces_section_title:
+   :noindex:
 
    Visualizations of expressionSet Bioconductor object
 
@@ -23,11 +24,18 @@ bioconductor-esetvis
 
    |downloads_bioconductor-esetvis| |docker_bioconductor-esetvis|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.8.0-0, 1.6.3-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-mlp: >=1.36.0,<1.37.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-mlp: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-hexbin: 
    :depends r-mass: 
    :depends r-mpm: 

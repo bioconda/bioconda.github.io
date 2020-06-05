@@ -8,6 +8,7 @@ bioconductor-dream4
 
 .. conda:recipe:: bioconductor-dream4
    :replaces_section_title:
+   :noindex:
 
    Synthetic Expression Data for Gene Regulatory Network Inference from the 2009 DREAM4 challenge
 
@@ -22,11 +23,18 @@ bioconductor-dream4
 
    |downloads_bioconductor-dream4| |docker_bioconductor-dream4|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

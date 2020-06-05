@@ -8,6 +8,7 @@ abeona
 
 .. conda:recipe:: abeona
    :replaces_section_title:
+   :noindex:
 
    A simple transcriptome assembler based on kallisto and Cortex graphs.
 
@@ -22,16 +23,31 @@ abeona
 
    |downloads_abeona| |docker_abeona|
 
-   :versions: 0.45.0-1, 0.45.0-0, 0.44.3-0, 0.44.0-0, 0.43.0-0, 0.42.1-0, 0.42.0-0, 0.41.1-0, 0.40.2-0, 0.40.0-0, 0.39.3-0, 0.37.2-0, 0.36.0-2, 0.36.0-1, 0.36.0-0, 0.31.2-0, 0.26.0-0, 0.24.0-2, 0.23.1-2, 0.23.1-0, 0.23.0-1, 0.23.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.45.0-1</code>,  <code>0.45.0-0</code>,  <code>0.44.3-0</code>,  <code>0.44.0-0</code>,  <code>0.43.0-0</code>,  <code>0.42.1-0</code>,  <code>0.42.0-0</code>,  <code>0.41.1-0</code>,  <code>0.40.2-0</code>,  </span></summary>
+      
+
+      ``0.45.0-1``,  ``0.45.0-0``,  ``0.44.3-0``,  ``0.44.0-0``,  ``0.43.0-0``,  ``0.42.1-0``,  ``0.42.0-0``,  ``0.41.1-0``,  ``0.40.2-0``,  ``0.40.0-0``,  ``0.39.3-0``,  ``0.37.2-0``,  ``0.36.0-2``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.31.2-0``,  ``0.26.0-0``,  ``0.24.0-2``,  ``0.23.1-2``,  ``0.23.1-0``,  ``0.23.0-1``,  ``0.23.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bwa: 
-   :depends cortexpy: 0.45.7
-   :depends kallisto: 0.44.0
-   :depends mccortex: 1.0
-   :depends nextflow: 19.01.0
+   :depends cortexpy: ``0.45.7``
+   :depends kallisto: ``0.44.0``
+   :depends mccortex: ``1.0``
+   :depends nextflow: ``19.01.0``
    :depends pandas: 
    :depends progressbar2: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

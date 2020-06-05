@@ -8,6 +8,7 @@ hg-color
 
 .. conda:recipe:: hg-color
    :replaces_section_title:
+   :noindex:
 
    HG\-CoLoR \(Hybrid Graph for the error Correction of Long Reads\) is a hybrid method for the error correction of long reads that follows the main idea from NaS to produce corrected long reads from assemblies of related accurate short reads.
 
@@ -22,13 +23,20 @@ hg-color
 
    |downloads_hg-color| |docker_hg-color|
 
-   :versions: 1.1.1-1, 1.1.1-0, 1.0.0-3, 1.0.0-2, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``
+
+      
+
    
    :depends coreutils: 
    :depends emboss: 
    :depends kmc: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends parallel: 
    :depends pgsa: 
    :depends python: 

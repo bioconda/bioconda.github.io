@@ -8,6 +8,7 @@ perl-ensembl-genomes
 
 .. conda:recipe:: perl-ensembl-genomes
    :replaces_section_title:
+   :noindex:
 
    The Ensembl Core Perl API and
 
@@ -22,7 +23,14 @@ perl-ensembl-genomes
 
    |downloads_perl-ensembl-genomes| |docker_perl-ensembl-genomes|
 
-   :versions: 44-0
+   :versions:
+      
+      
+
+      ``44-0``
+
+      
+
    
    :depends perl: 
    :depends perl-ensembl-core: 

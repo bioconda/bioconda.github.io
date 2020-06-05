@@ -8,6 +8,7 @@ axiome
 
 .. conda:recipe:: axiome
    :replaces_section_title:
+   :noindex:
 
    AXIOME2\: Automation Extension and Integration of Microbial Ecology
 
@@ -22,10 +23,17 @@ axiome
 
    |downloads_axiome| |docker_axiome|
 
-   :versions: 2.0.4-3, 2.0.4-2, 2.0.4-0
+   :versions:
+      
+      
+
+      ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-0``
+
+      
+
    
    :depends npyscreen: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

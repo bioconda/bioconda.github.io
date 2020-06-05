@@ -8,6 +8,7 @@ rnaclust
 
 .. conda:recipe:: rnaclust
    :replaces_section_title:
+   :noindex:
 
    A tool for clustering of RNAs based on their secondary structures using LocARNA
 
@@ -33,11 +34,18 @@ rnaclust
 
    |downloads_rnaclust| |docker_rnaclust|
 
-   :versions: 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-0``
+
+      
+
    
    :depends libgcc: 
    :depends locarna: 
-   :depends perl: 5.22.0*
+   :depends perl: ``5.22.0*``
    :depends viennarna: 
    :requirements:
 

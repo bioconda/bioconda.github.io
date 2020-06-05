@@ -8,6 +8,7 @@ bioconductor-delayedmatrixstats
 
 .. conda:recipe:: bioconductor-delayedmatrixstats
    :replaces_section_title:
+   :noindex:
 
    Functions that Apply to Rows and Columns of \'DelayedMatrix\' Objects
 
@@ -22,16 +23,23 @@ bioconductor-delayedmatrixstats
 
    |downloads_bioconductor-delayedmatrixstats| |docker_bioconductor-delayedmatrixstats|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-hdf5array: >=1.16.0,<1.17.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-hdf5array: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrix: 
-   :depends r-matrixstats: >=0.56.0
+   :depends r-matrixstats: ``>=0.56.0``
    :requirements:
 
    .. rubric:: Installation

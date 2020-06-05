@@ -8,6 +8,7 @@ sfld
 
 .. conda:recipe:: sfld
    :replaces_section_title:
+   :noindex:
 
    SFLD pre\/post\-processing
 
@@ -22,9 +23,16 @@ sfld
 
    |downloads_sfld| |docker_sfld|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

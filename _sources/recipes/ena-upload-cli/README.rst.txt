@@ -8,6 +8,7 @@ ena-upload-cli
 
 .. conda:recipe:: ena-upload-cli
    :replaces_section_title:
+   :noindex:
 
    Command Line Interface to upload data to the European Nucleotide Archive
 
@@ -22,7 +23,14 @@ ena-upload-cli
 
    |downloads_ena-upload-cli| |docker_ena-upload-cli|
 
-   :versions: 0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``
+
+      
+
    
    :depends genshi: 
    :depends lxml: 

@@ -8,6 +8,7 @@ bioconductor-donapllp2013
 
 .. conda:recipe:: bioconductor-donapllp2013
    :replaces_section_title:
+   :noindex:
 
    Supplementary data package for Dona et al. \(2013\) containing example images and tables
 
@@ -22,11 +23,18 @@ bioconductor-donapllp2013
 
    |downloads_bioconductor-donapllp2013| |docker_bioconductor-donapllp2013|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-ebimage: >=4.30.0,<4.31.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

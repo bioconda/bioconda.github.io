@@ -8,6 +8,7 @@ perl-tap-harness-env
 
 .. conda:recipe:: perl-tap-harness-env/3.30
    :replaces_section_title:
+   :noindex:
 
    Parsing harness related environmental variables where appropriate
 
@@ -22,9 +23,16 @@ perl-tap-harness-env
 
    |downloads_perl-tap-harness-env| |docker_perl-tap-harness-env|
 
-   :versions: 3.30-1, 3.30-0
+   :versions:
+      
+      
+
+      ``3.30-1``,  ``3.30-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

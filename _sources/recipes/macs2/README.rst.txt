@@ -8,6 +8,7 @@ macs2
 
 .. conda:recipe:: macs2
    :replaces_section_title:
+   :noindex:
 
    Model Based Analysis for ChIP\-Seq data
 
@@ -22,12 +23,27 @@ macs2
 
    |downloads_macs2| |docker_macs2|
 
-   :versions: 2.2.7.1-0, 2.2.6-0, 2.2.5-0, 2.2.4-0, 2.1.4-0, 2.1.3.3-0, 2.1.3.2-0, 2.1.2-1, 2.1.2-0, 2.1.1.20160309-3, 2.1.1.20160309-2, 2.1.1.20160309-1, 2.1.1.20160309-0, 2.1.1-0, 2.1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.7.1-0</code>,  <code>2.2.6-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3.3-0</code>,  <code>2.1.3.2-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  </span></summary>
+      
+
+      ``2.2.7.1-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.1.4-0``,  ``2.1.3.3-0``,  ``2.1.3.2-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1.20160309-3``,  ``2.1.1.20160309-2``,  ``2.1.1.20160309-1``,  ``2.1.1.20160309-0``,  ``2.1.1-0``,  ``2.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends numpy: >=1.17
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.17``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends r-base: 
    :requirements:
 

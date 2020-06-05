@@ -8,6 +8,7 @@ bioconductor-nnnorm
 
 .. conda:recipe:: bioconductor-nnnorm
    :replaces_section_title:
+   :noindex:
 
    Spatial and intensity based normalization of cDNA microarray data based on robust neural nets
 
@@ -23,10 +24,17 @@ bioconductor-nnnorm
 
    |downloads_bioconductor-nnnorm| |docker_bioconductor-nnnorm|
 
-   :versions: 2.52.0-0, 2.50.0-0, 2.48.0-1, 2.48.0-0, 2.46.0-0, 2.44.0-0, 2.42.0-0, 2.40.0-0
+   :versions:
+      
+      
+
+      ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+
+      
+
    
-   :depends bioconductor-marray: >=1.66.0,<1.67.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-marray: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-nnet: 
    :requirements:
 

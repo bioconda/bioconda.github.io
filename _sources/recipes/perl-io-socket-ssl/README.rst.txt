@@ -8,6 +8,7 @@ perl-io-socket-ssl
 
 .. conda:recipe:: perl-io-socket-ssl
    :replaces_section_title:
+   :noindex:
 
    Nearly transparent SSL encapsulation for IO\:\:Socket\:\:INET.
 
@@ -22,9 +23,16 @@ perl-io-socket-ssl
 
    |downloads_perl-io-socket-ssl| |docker_perl-io-socket-ssl|
 
-   :versions: 2.066-0, 2.060-0, 2.056-0, 2.024-1, 2.024-0
+   :versions:
+      
+      
+
+      ``2.066-0``,  ``2.060-0``,  ``2.056-0``,  ``2.024-1``,  ``2.024-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-net-ssleay: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-xml-sax-base
 
 .. conda:recipe:: perl-xml-sax-base
    :replaces_section_title:
+   :noindex:
 
    Base class for SAX Drivers and Filters
 
@@ -22,9 +23,16 @@ perl-xml-sax-base
 
    |downloads_perl-xml-sax-base| |docker_perl-xml-sax-base|
 
-   :versions: 1.09-0, 1.08-1, 1.08-0
+   :versions:
+      
+      
+
+      ``1.09-0``,  ``1.08-1``,  ``1.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-props
 
 .. conda:recipe:: bioconductor-props
    :replaces_section_title:
+   :noindex:
 
    PRObabilistic Pathway Score \(PROPS\)
 
@@ -22,11 +23,18 @@ bioconductor-props
 
    |downloads_bioconductor-props| |docker_bioconductor-props|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-sva: >=3.36.0,<3.37.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bnlearn: 
    :depends r-reshape2: 
    :requirements:

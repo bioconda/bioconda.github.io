@@ -8,6 +8,7 @@ bioconductor-iseeu
 
 .. conda:recipe:: bioconductor-iseeu
    :replaces_section_title:
+   :noindex:
 
    iSEE Universe
 
@@ -22,13 +23,20 @@ bioconductor-iseeu
 
    |downloads_bioconductor-iseeu| |docker_bioconductor-iseeu|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
-   :depends bioconductor-isee: >=2.0.0,<2.1.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-isee: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-shiny: 

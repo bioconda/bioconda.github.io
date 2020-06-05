@@ -8,6 +8,7 @@ perl-encode
 
 .. conda:recipe:: perl-encode/2.88
    :replaces_section_title:
+   :noindex:
 
    allows you to write your script in non\-ASCII and non\-UTF\-8
 
@@ -22,9 +23,16 @@ perl-encode
 
    |downloads_perl-encode| |docker_perl-encode|
 
-   :versions: 2.88-1, 2.88-0
+   :versions:
+      
+      
+
+      ``2.88-1``,  ``2.88-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-exporter: 
    :depends perl-parent: 
    :requirements:

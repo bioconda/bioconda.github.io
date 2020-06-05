@@ -8,6 +8,7 @@ bioconductor-cindex
 
 .. conda:recipe:: bioconductor-cindex
    :replaces_section_title:
+   :noindex:
 
    Chromosome Instability Index
 
@@ -23,13 +24,20 @@ bioconductor-cindex
 
    |downloads_bioconductor-cindex| |docker_bioconductor-cindex|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bitops: 
    :depends r-dplyr: 
    :depends r-gplots: 

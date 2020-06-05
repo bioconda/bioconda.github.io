@@ -8,6 +8,7 @@ stride
 
 .. conda:recipe:: stride
    :replaces_section_title:
+   :noindex:
 
    The StriDe Assembler integrates string and de Bruijn graph by decomposing reads within error\-prone regions\, while extending paire\-end read into long reads for assembly through repetitive regions.
 
@@ -22,11 +23,18 @@ stride
 
    |downloads_stride| |docker_stride|
 
-   :versions: 1.0-4, 1.0-3, 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-netresponse
 
 .. conda:recipe:: bioconductor-netresponse
    :replaces_section_title:
+   :noindex:
 
    Functional Network Analysis
 
@@ -22,16 +23,23 @@ bioconductor-netresponse
 
    |downloads_bioconductor-netresponse| |docker_bioconductor-netresponse|
 
-   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-1, 1.42.0-0
+   :versions:
+      
+      
+
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``
+
+      
+
    
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-minet: >=3.46.0,<3.47.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-minet: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dmt: 
    :depends r-ggplot2: 
    :depends r-igraph: 

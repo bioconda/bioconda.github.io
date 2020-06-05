@@ -8,6 +8,7 @@ perl-pegex
 
 .. conda:recipe:: perl-pegex
    :replaces_section_title:
+   :noindex:
 
    Pegex Grammar for the Pegex Grammar Language
 
@@ -22,9 +23,16 @@ perl-pegex
 
    |downloads_perl-pegex| |docker_perl-pegex|
 
-   :versions: 0.61-1, 0.61-0
+   :versions:
+      
+      
+
+      ``0.61-1``,  ``0.61-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-extutils-makemaker: 
    :depends perl-file-sharedir-install: 
    :depends perl-yaml-libyaml: 

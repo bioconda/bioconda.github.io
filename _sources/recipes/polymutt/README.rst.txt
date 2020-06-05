@@ -8,6 +8,7 @@ polymutt
 
 .. conda:recipe:: polymutt
    :replaces_section_title:
+   :noindex:
 
    Li B\, Chen W\, Zhan X\, Busonero F\, Sanna S\, et al. \(2012\) A Likelihood\-Based Framework for Variant Calling and De Novo Mutation Detection in Families. PLoS Genet 8\(10\)\: e1002944. doi\:10.1371\/journal.pgen.1002944
 
@@ -22,9 +23,16 @@ polymutt
 
    |downloads_polymutt| |docker_polymutt|
 
-   :versions: 0.18-0
+   :versions:
+      
+      
+
+      ``0.18-0``
+
+      
+
    
-   :depends bzip2: 1.0*
+   :depends bzip2: ``1.0*``
    :depends libgcc: 
    :depends openmp: 
    :requirements:

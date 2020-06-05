@@ -8,6 +8,7 @@ jasmine
 
 .. conda:recipe:: jasmine
    :replaces_section_title:
+   :noindex:
 
    Jasmine\: a Java pipeline for isomiR characterization in miRNA\-Seq Data
 
@@ -22,9 +23,16 @@ jasmine
 
    |downloads_jasmine| |docker_jasmine|
 
-   :versions: 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

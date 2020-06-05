@@ -8,6 +8,7 @@ bioconductor-segmentseq
 
 .. conda:recipe:: bioconductor-segmentseq
    :replaces_section_title:
+   :noindex:
 
    Methods for identifying small RNA loci from high\-throughput sequencing data
 
@@ -23,17 +24,24 @@ bioconductor-segmentseq
 
    |downloads_bioconductor-segmentseq| |docker_bioconductor-segmentseq|
 
-   :versions: 2.22.0-0, 2.20.0-0, 2.18.0-1, 2.16.0-0, 2.14.0-0, 2.12.0-0, 2.10.0-0
+   :versions:
+      
+      
+
+      ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+
+      
+
    
-   :depends bioconductor-bayseq: >=2.22.0,<2.23.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-shortread: >=1.46.0,<1.47.0
+   :depends bioconductor-bayseq: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-shortread: ``>=1.46.0,<1.47.0``
    :depends r-abind: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

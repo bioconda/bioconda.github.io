@@ -8,6 +8,7 @@ bioconductor-survtype
 
 .. conda:recipe:: bioconductor-survtype
    :replaces_section_title:
+   :noindex:
 
    Subtype Identification with Survival Data
 
@@ -22,10 +23,17 @@ bioconductor-survtype
 
    |downloads_bioconductor-survtype| |docker_bioconductor-survtype|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-clustvarsel: 
    :depends r-pheatmap: 
    :depends r-survival: 

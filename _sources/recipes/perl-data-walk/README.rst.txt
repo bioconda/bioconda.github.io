@@ -8,6 +8,7 @@ perl-data-walk
 
 .. conda:recipe:: perl-data-walk/2.01
    :replaces_section_title:
+   :noindex:
 
    Traverse Perl data structures.
 
@@ -22,9 +23,16 @@ perl-data-walk
 
    |downloads_perl-data-walk| |docker_perl-data-walk|
 
-   :versions: 2.01-1, 2.01-0
+   :versions:
+      
+      
+
+      ``2.01-1``,  ``2.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

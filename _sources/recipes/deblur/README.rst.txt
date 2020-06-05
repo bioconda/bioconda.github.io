@@ -8,6 +8,7 @@ deblur
 
 .. conda:recipe:: deblur
    :replaces_section_title:
+   :noindex:
 
    Deblur is a greedy deconvolution algorithm based on known read error profiles.
 
@@ -22,16 +23,23 @@ deblur
 
    |downloads_deblur| |docker_deblur|
 
-   :versions: 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.4-2, 1.0.4-1, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
+
+      
+
    
    :depends biom-format: 
    :depends click: 
    :depends h5py: 
-   :depends mafft: >=7.394
-   :depends python: >=3
-   :depends scikit-bio: >=0.5.0
-   :depends sortmerna: 2.0
-   :depends vsearch: >=2.0.3
+   :depends mafft: ``>=7.394``
+   :depends python: ``>=3``
+   :depends scikit-bio: ``>=0.5.0``
+   :depends sortmerna: ``2.0``
+   :depends vsearch: ``>=2.0.3``
    :requirements:
 
    .. rubric:: Installation

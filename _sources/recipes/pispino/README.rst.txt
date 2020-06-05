@@ -8,6 +8,7 @@ pispino
 
 .. conda:recipe:: pispino
    :replaces_section_title:
+   :noindex:
 
    PISPINO \(PIpits SPIN\-Off tools\)\: Bioinformatics toolkits for processing NGS data
 
@@ -22,7 +23,14 @@ pispino
 
    |downloads_pispino| |docker_pispino|
 
-   :versions: 1.1-2, 1.1-1, 1.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+
+      
+
    
    :depends fastx_toolkit: 
    :depends python: 

@@ -8,6 +8,7 @@ tbvcfreport
 
 .. conda:recipe:: tbvcfreport
    :replaces_section_title:
+   :noindex:
 
    Parses SnpEff annotated M.tb VCF\(s\) and generates an interactive HTML\-based report.
 
@@ -24,13 +25,20 @@ tbvcfreport
 
    |downloads_tbvcfreport| |docker_tbvcfreport|
 
-   :versions: 0.1.7-0
+   :versions:
+      
+      
+
+      ``0.1.7-0``
+
+      
+
    
    :depends click: 
    :depends jinja2: 
    :depends mtb-snp-it: 
-   :depends py2neo: >=4.2.0
-   :depends python: >=3.6
+   :depends py2neo: ``>=4.2.0``
+   :depends python: ``>=3.6``
    :depends pyvcf: 
    :depends tqdm: 
    :requirements:

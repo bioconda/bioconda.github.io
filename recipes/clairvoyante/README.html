@@ -75,7 +75,7 @@
   
   <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
   
-  <li class="toctree-l1"><a href="../../conda-recipe_index.html">Recipe Index</a></li>
+  <li class="toctree-l1"><a href="../../conda-package_index.html">Package Index</a></li>
   
   <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
   
@@ -100,8 +100,8 @@
             
   <div class="section" id="clairvoyante">
 <dl class="conda recipe">
-<dt id="recipe-clairvoyante">
-<em class="property">recipe </em><code class="sig-name descname">clairvoyante</code><a class="headerlink" href="#recipe-clairvoyante" title="Permalink to this definition">¶</a></dt>
+<dt>
+<em class="property">recipe </em><code class="sig-name descname">clairvoyante</code></dt>
 <dd><p>Identifying the variants of DNA sequences sensitively and accurately is an important but challenging task in the field of genomics. This task is particularly difficult when dealing with Single Molecule Sequencing, the error rate of which is still tens to hundreds of times higher than Next Generation Sequencing. With the increasing prevalence of Single Molecule Sequencing, an efficient variant caller will not only expedite basic research but also enable various downstream applications. To meet this demand, we developed Clairvoyante, a multi-task five-layer convolutional neural network model for predicting variant type, zygosity, alternative allele and Indel length. On NA12878, Clairvoyante achieved 99.73%, 97.68% and 95.36% accuracy on known variants, and achieved 98.65%, 92.57%, 77.89% F1 score on the whole genome, in Illumina, PacBio, and Oxford Nanopore data, respectively. Training Clairvoyante with a sample and call variant on another shows that Clairvoyante is sample agnostic and general for variant calling. A slim version of Clairvoyante with reduced model parameters produced a much lower F1, suggesting the full model’s power in disentangling subtle details in read alignment. Clairvoyante is the first method for Single Molecule Sequencing to finish a whole genome variant calling in two hours on a 28 CPU-core machine, with top-tier accuracy and sensitivity. A toolset was developed to train, utilize and visualize the Clairvoyante model easily, and is publically available here is this repo.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
@@ -122,17 +122,17 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/clairvoyante"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/clairvoyante.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/clairvoyante"><img alt="docker_clairvoyante" src="https://quay.io/repository/biocontainers/clairvoyante/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p>1.02-1, 1.02-0, 1.01-1, 1.01-0, 1.0-1, 1.0-0</p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.02-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.02-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/intervaltree-feedstock"><strong>intervaltree</strong></a> 2.1.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> 1.16.2</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pypy2.7-feedstock"><strong>pypy2.7</strong></a> 5.10.0</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> 2.7.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-blosc-feedstock"><strong>python-blosc</strong></a> 1.8.1</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tensorflow-feedstock"><strong>tensorflow</strong></a> 1.9.0.*</p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> 1.2.11.*</p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/intervaltree-feedstock"><strong>intervaltree</strong></a> <code class="docutils literal notranslate"><span class="pre">2.1.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">1.16.2</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pypy2.7-feedstock"><strong>pypy2.7</strong></a> <code class="docutils literal notranslate"><span class="pre">5.10.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">2.7.*</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-blosc-feedstock"><strong>python-blosc</strong></a> <code class="docutils literal notranslate"><span class="pre">1.8.1</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/tensorflow-feedstock"><strong>tensorflow</strong></a> <code class="docutils literal notranslate"><span class="pre">1.9.0.*</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> <code class="docutils literal notranslate"><span class="pre">1.2.11.*</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>

@@ -8,6 +8,7 @@ ephemeris
 
 .. conda:recipe:: ephemeris
    :replaces_section_title:
+   :noindex:
 
    Ephemeris is an opinionated library and set of scripts for managing the bootstrapping of Galaxy project plugins \- tools\, index data\, and workflows.
 
@@ -22,15 +23,22 @@ ephemeris
 
    |downloads_ephemeris| |docker_ephemeris|
 
-   :versions: 0.10.6-0, 0.10.5-0, 0.10.4-0, 0.10.2-0, 0.10.0-0, 0.9.0-0, 0.8.0-2, 0.8.0-0
+   :versions:
+      
+      
+
+      ``0.10.6-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.2-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-2``,  ``0.8.0-0``
+
+      
+
    
-   :depends bioblend: >=0.10.0
+   :depends bioblend: ``>=0.10.0``
    :depends futures: 
-   :depends galaxy-tool-util: >=19.9.1
+   :depends galaxy-tool-util: ``>=19.9.1``
    :depends jinja2: 
    :depends python: 
    :depends pyyaml: 
-   :depends six: >=1.9.0
+   :depends six: ``>=1.9.0``
    :requirements:
 
    .. rubric:: Installation

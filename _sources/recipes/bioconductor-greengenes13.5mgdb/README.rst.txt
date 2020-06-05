@@ -8,6 +8,7 @@ bioconductor-greengenes13.5mgdb
 
 .. conda:recipe:: bioconductor-greengenes13.5mgdb
    :replaces_section_title:
+   :noindex:
 
    Greengenes 13.5 16S rRNA Database Annotation Data
 
@@ -22,11 +23,18 @@ bioconductor-greengenes13.5mgdb
 
    |downloads_bioconductor-greengenes13.5mgdb| |docker_bioconductor-greengenes13.5mgdb|
 
-   :versions: 2.0.0-4, 2.0.0-3, 2.0.0-2, 2.0.0-0
+   :versions:
+      
+      
+
+      ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-0``
+
+      
+
    
-   :depends bioconductor-metagenomefeatures: >=2.8.0,<2.9.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-metagenomefeatures: ``>=2.8.0,<2.9.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ pbgcpp
 
 .. conda:recipe:: pbgcpp
    :replaces_section_title:
+   :noindex:
 
    pbgcpp \- GenomicConsensus in C\+\+
 
@@ -22,7 +23,14 @@ pbgcpp
 
    |downloads_pbgcpp| |docker_pbgcpp|
 
-   :versions: 1.9.0-0, 1.0.0-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``1.9.0-0``,  ``1.0.0-0``,  ``0.0.1-0``
+
+      
+
    
    :requirements:
 

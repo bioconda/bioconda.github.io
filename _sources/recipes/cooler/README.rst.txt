@@ -8,6 +8,7 @@ cooler
 
 .. conda:recipe:: cooler
    :replaces_section_title:
+   :noindex:
 
    Sparse binary format for genomic interaction matrices
 
@@ -22,7 +23,22 @@ cooler
 
    |downloads_cooler| |docker_cooler|
 
-   :versions: 0.8.6-0, 0.8.5-0, 0.8.3-0, 0.8.2-1, 0.8.2-0, 0.8.1-0, 0.7.11-0, 0.7.10-1, 0.7.10-0, 0.7.9-0, 0.7.8-0, 0.7.7-0, 0.7.6-3, 0.7.6-2, 0.7.6-1, 0.7.6-0, 0.7.4-0, 0.7.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.7.11-0</code>,  <code>0.7.10-1</code>,  <code>0.7.10-0</code>,  </span></summary>
+      
+
+      ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-3``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.4-0``,  ``0.7.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends asciitree: 
    :depends biopython: 
@@ -36,7 +52,7 @@ cooler
    :depends pairix: 
    :depends pandas: 
    :depends pyfaidx: 
-   :depends pysam: >0.8
+   :depends pysam: ``>0.8``
    :depends python: 
    :depends pyyaml: 
    :depends scipy: 

@@ -8,6 +8,7 @@ smalt
 
 .. conda:recipe:: smalt
    :replaces_section_title:
+   :noindex:
 
    SMALT aligns DNA sequencing reads with a reference genome.
 
@@ -23,11 +24,18 @@ smalt
 
    |downloads_smalt| |docker_smalt|
 
-   :versions: 0.7.6-1, 0.7.6-0
+   :versions:
+      
+      
+
+      ``0.7.6-1``,  ``0.7.6-0``
+
+      
+
    
    :depends bambamc: 
    :depends libgcc: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

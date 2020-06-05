@@ -8,6 +8,7 @@ gemoma
 
 .. conda:recipe:: gemoma
    :replaces_section_title:
+   :noindex:
 
    Gene Model Mapper \(GeMoMa\) is a homology\-based gene prediction program.
    GeMoMa uses the annotation of protein\-coding genes in a reference genome to infer the annotation of protein\-coding genes in a target genome.
@@ -27,12 +28,19 @@ gemoma
 
    |downloads_gemoma| |docker_gemoma|
 
-   :versions: 1.6.4-0
+   :versions:
+      
+      
+
+      ``1.6.4-0``
+
+      
+
    
-   :depends blast: >=2.2.31
-   :depends mmseqs2: >=8.fac81
-   :depends openjdk: >=8
-   :depends python: >=3.7
+   :depends blast: ``>=2.2.31``
+   :depends mmseqs2: ``>=8.fac81``
+   :depends openjdk: ``>=8``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation

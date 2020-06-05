@@ -8,6 +8,7 @@ pyexcelerator
 
 .. conda:recipe:: pyexcelerator
    :replaces_section_title:
+   :noindex:
 
    generating Excel 97\+ files\; importing Excel 95\+ files\; Excel files dumper\; OLE2 files dumper\; xls2txt\, xls2csv\, xls2html
 
@@ -22,9 +23,16 @@ pyexcelerator
 
    |downloads_pyexcelerator| |docker_pyexcelerator|
 
-   :versions: 0.6.4a-2, 0.6.4a-0
+   :versions:
+      
+      
+
+      ``0.6.4a-2``,  ``0.6.4a-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

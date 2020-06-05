@@ -8,6 +8,7 @@ bioconductor-kodata
 
 .. conda:recipe:: bioconductor-kodata
    :replaces_section_title:
+   :noindex:
 
    LINCS Knock\-Out Data Package
 
@@ -22,10 +23,17 @@ bioconductor-kodata
 
    |downloads_bioconductor-kodata| |docker_bioconductor-kodata|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

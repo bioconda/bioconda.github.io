@@ -8,6 +8,7 @@ ribotricer
 
 .. conda:recipe:: ribotricer
    :replaces_section_title:
+   :noindex:
 
    Python package to detect translating ORF from Ribo\-seq data
 
@@ -26,19 +27,26 @@ ribotricer
 
    |downloads_ribotricer| |docker_ribotricer|
 
-   :versions: 1.3.2-0, 1.3.1-0, 1.3.0-0, 1.2.0-0, 1.1.1-0, 1.1.0-0, 1.0.3-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``
+
+      
+
    
-   :depends click: >=6.0
-   :depends click-help-colors: >=0.3
-   :depends matplotlib-base: >=2.1.0
-   :depends numpy: >=1.11.0
-   :depends pandas: >=0.20.3
-   :depends pyfaidx: >=0.5.0
-   :depends pysam: >=0.11.2.2
-   :depends python: >3
-   :depends quicksect: >=0.2.0
-   :depends scipy: >=0.19.1
-   :depends tqdm: >=4.23.4
+   :depends click: ``>=6.0``
+   :depends click-help-colors: ``>=0.3``
+   :depends matplotlib-base: ``>=2.1.0``
+   :depends numpy: ``>=1.11.0``
+   :depends pandas: ``>=0.20.3``
+   :depends pyfaidx: ``>=0.5.0``
+   :depends pysam: ``>=0.11.2.2``
+   :depends python: ``>3``
+   :depends quicksect: ``>=0.2.0``
+   :depends scipy: ``>=0.19.1``
+   :depends tqdm: ``>=4.23.4``
    :requirements:
 
    .. rubric:: Installation

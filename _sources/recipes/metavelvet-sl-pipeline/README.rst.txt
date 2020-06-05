@@ -8,6 +8,7 @@ metavelvet-sl-pipeline
 
 .. conda:recipe:: metavelvet-sl-pipeline
    :replaces_section_title:
+   :noindex:
 
    Perl libraries that run the full pipeline for metavelvet\-sl
 
@@ -22,7 +23,14 @@ metavelvet-sl-pipeline
 
    |downloads_metavelvet-sl-pipeline| |docker_metavelvet-sl-pipeline|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends dwgsim: 
    :depends libgcc: 
@@ -30,7 +38,7 @@ metavelvet-sl-pipeline
    :depends metaphlan2: 
    :depends metavelvet-sl: 
    :depends metavelvet-sl-feature-extraction: 
-   :depends perl: 5.22.0*
+   :depends perl: ``5.22.0*``
    :depends perl-app-cpanminus: 
    :depends perl-module-build: 
    :depends velvet: 

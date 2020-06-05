@@ -8,6 +8,7 @@ opencontactcli
 
 .. conda:recipe:: opencontactcli
    :replaces_section_title:
+   :noindex:
 
    Static contact mapping algorithm to identify potential peptide biomimetics from protein interaction partner structure files.
 
@@ -22,13 +23,20 @@ opencontactcli
 
    |downloads_opencontactcli| |docker_opencontactcli|
 
-   :versions: 1.1-2, 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends numpy: >=1.14.6,<2.0a0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

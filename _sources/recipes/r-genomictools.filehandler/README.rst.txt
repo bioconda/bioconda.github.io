@@ -8,6 +8,7 @@ r-genomictools.filehandler
 
 .. conda:recipe:: r-genomictools.filehandler
    :replaces_section_title:
+   :noindex:
 
    A collection of I\/O tools for handling the most commonly used genomic datafiles\, like fasta\/\-q\, bed\, gff\, gtf\, ped\/map and vcf.
 
@@ -22,11 +23,18 @@ r-genomictools.filehandler
 
    |downloads_r-genomictools.filehandler| |docker_r-genomictools.filehandler|
 
-   :versions: 0.1.5.9-0
+   :versions:
+      
+      
+
+      ``0.1.5.9-0``
+
+      
+
    
    :depends bioconductor-snpstats: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-data.table: >=1.9.6
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: ``>=1.9.6``
    :requirements:
 
    .. rubric:: Installation

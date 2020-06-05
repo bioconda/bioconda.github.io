@@ -8,6 +8,7 @@ sweepfinder2
 
 .. conda:recipe:: sweepfinder2
    :replaces_section_title:
+   :noindex:
 
    The BWA read mapper.
 
@@ -22,9 +23,16 @@ sweepfinder2
 
    |downloads_sweepfinder2| |docker_sweepfinder2|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

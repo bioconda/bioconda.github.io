@@ -8,6 +8,7 @@ bioconductor-plrs
 
 .. conda:recipe:: bioconductor-plrs
    :replaces_section_title:
+   :noindex:
 
    Piecewise Linear Regression Splines \(PLRS\) for the association between DNA copy number and gene expression
 
@@ -22,13 +23,20 @@ bioconductor-plrs
 
    |downloads_bioconductor-plrs| |docker_bioconductor-plrs|
 
-   :versions: 1.27.0-0, 1.26.0-0, 1.24.0-1, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.27.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-cghbase: >=1.48.0,<1.49.0
-   :depends bioconductor-marray: >=1.66.0,<1.67.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-cghbase: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-marray: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ic.infer: 
    :depends r-quadprog: 
    :depends r-rcsdp: 

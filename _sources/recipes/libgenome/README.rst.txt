@@ -8,6 +8,7 @@ libgenome
 
 .. conda:recipe:: libgenome
    :replaces_section_title:
+   :noindex:
 
    A C\+\+ development library designed to make common operations on DNA and protein sequences easy. libGenome provides functionality to read\, write\, and manipulate sequence and annotation data in several file formats.
 
@@ -22,10 +23,17 @@ libgenome
 
    |downloads_libgenome| |docker_libgenome|
 
-   :versions: 1.3.1-1, 1.3.1-0
+   :versions:
+      
+      
+
+      ``1.3.1-1``,  ``1.3.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ msaconverter
 
 .. conda:recipe:: msaconverter
    :replaces_section_title:
+   :noindex:
 
    To convert multiple alignment alignments \(MSA\) into different formats
 
@@ -22,10 +23,17 @@ msaconverter
 
    |downloads_msaconverter| |docker_msaconverter|
 
-   :versions: 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.1-0``
+
+      
+
    
-   :depends biopython: >=1.54
-   :depends python: >=2.7.15
+   :depends biopython: ``>=1.54``
+   :depends python: ``>=2.7.15``
    :requirements:
 
    .. rubric:: Installation

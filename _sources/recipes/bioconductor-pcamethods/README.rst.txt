@@ -8,6 +8,7 @@ bioconductor-pcamethods
 
 .. conda:recipe:: bioconductor-pcamethods
    :replaces_section_title:
+   :noindex:
 
    A collection of PCA methods
 
@@ -23,17 +24,32 @@ bioconductor-pcamethods
 
    |downloads_bioconductor-pcamethods| |docker_bioconductor-pcamethods|
 
-   :versions: 1.80.0-0, 1.78.0-0, 1.76.0-1, 1.74.0-0, 1.72.0-0, 1.70.0-0, 1.68.0-0, 1.64.0-2, 1.64.0-1, 1.64.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.80.0-0</code>,  <code>1.78.0-0</code>,  <code>1.76.0-1</code>,  <code>1.74.0-0</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  </span></summary>
+      
+
+      ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-1``,  ``1.74.0-0``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
-   :depends r-rcpp: >=0.11.3
+   :depends r-rcpp: ``>=0.11.3``
    :requirements:
 
    .. rubric:: Installation

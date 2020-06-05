@@ -8,6 +8,7 @@ vcf2maf
 
 .. conda:recipe:: vcf2maf
    :replaces_section_title:
+   :noindex:
 
    Convert a VCF into a MAF where each variant is annotated to only one of all possible gene isoforms
 
@@ -22,7 +23,22 @@ vcf2maf
 
    |downloads_vcf2maf| |docker_vcf2maf|
 
-   :versions: 1.6.18-1, 1.6.18-0, 1.6.17-2, 1.6.17-1, 1.6.17-0, 1.6.16-4, 1.6.16-3, 1.6.16-0, 1.6.15-1, 1.6.15-0, 1.6.14-0, 1.6.12-0, 1.6.8-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.6.18-1</code>,  <code>1.6.18-0</code>,  <code>1.6.17-2</code>,  <code>1.6.17-1</code>,  <code>1.6.17-0</code>,  <code>1.6.16-4</code>,  <code>1.6.16-3</code>,  <code>1.6.16-0</code>,  <code>1.6.15-1</code>,  </span></summary>
+      
+
+      ``1.6.18-1``,  ``1.6.18-0``,  ``1.6.17-2``,  ``1.6.17-1``,  ``1.6.17-0``,  ``1.6.16-4``,  ``1.6.16-3``,  ``1.6.16-0``,  ``1.6.15-1``,  ``1.6.15-0``,  ``1.6.14-0``,  ``1.6.12-0``,  ``1.6.8-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends htslib: 
    :depends perl: 

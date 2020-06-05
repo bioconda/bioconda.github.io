@@ -8,6 +8,7 @@ bioconductor-lace
 
 .. conda:recipe:: bioconductor-lace
    :replaces_section_title:
+   :noindex:
 
    Longitudinal Analysis of Cancer Evolution \(LACE\)
 
@@ -22,10 +23,17 @@ bioconductor-lace
 
    |downloads_bioconductor-lace| |docker_bioconductor-lace|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-rcolorbrewer: 
    :depends r-rfast: 

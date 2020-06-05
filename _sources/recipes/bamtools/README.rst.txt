@@ -8,6 +8,7 @@ bamtools
 
 .. conda:recipe:: bamtools
    :replaces_section_title:
+   :noindex:
 
    C\+\+ API \& command\-line toolkit for working with BAM data
 
@@ -23,11 +24,26 @@ bamtools
 
    |downloads_bamtools| |docker_bamtools|
 
-   :versions: 2.5.1-5, 2.5.1-4, 2.5.1-3, 2.5.1-2, 2.5.1-0, 2.4.1-1, 2.4.1-0, 2.4.0-3, 2.4.0-2, 2.4.0-1, 2.4.0-0, 2.3.0-2, 2.3.0-1, 2.3.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.5.1-5</code>,  <code>2.5.1-4</code>,  <code>2.5.1-3</code>,  <code>2.5.1-2</code>,  <code>2.5.1-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  </span></summary>
+      
+
+      ``2.5.1-5``,  ``2.5.1-4``,  ``2.5.1-3``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

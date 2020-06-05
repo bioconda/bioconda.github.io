@@ -8,6 +8,7 @@ pymzml
 
 .. conda:recipe:: pymzml
    :replaces_section_title:
+   :noindex:
 
    high\-throughput mzML parsing
 
@@ -23,11 +24,26 @@ pymzml
 
    |downloads_pymzml| |docker_pymzml|
 
-   :versions: 2.4.6-0, 2.4.5-0, 2.4.4-0, 2.4.3-0, 2.4.2-0, 2.4.1-0, 2.4.0-0, 2.3.1-0, 2.2.5-0, 2.2.4-0, 2.2.3-0, 2.0.6-2, 2.0.6-1, 2.0.6-0, 2.0.5-0, 0.7.10-1, 0.7.10-0, 0.7.8-1, 0.7.8-0, 0.7.7-1, 0.7.7-0, 0.7.5-1, 0.7.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.4.6-0</code>,  <code>2.4.5-0</code>,  <code>2.4.4-0</code>,  <code>2.4.3-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.2.5-0</code>,  </span></summary>
+      
+
+      ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-1``,  ``0.7.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends numpy: 
    :depends plotly: 
-   :depends python: >3
+   :depends python: ``>3``
    :depends regex: 
    :requirements:
 

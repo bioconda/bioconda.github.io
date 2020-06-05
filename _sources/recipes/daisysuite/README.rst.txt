@@ -8,6 +8,7 @@ daisysuite
 
 .. conda:recipe:: daisysuite
    :replaces_section_title:
+   :noindex:
 
    DaisySuite \- mapping\-based pipeline for horizontal gene transfer \(HGT\) detection using sequencing data
 
@@ -22,22 +23,29 @@ daisysuite
 
    |downloads_daisysuite| |docker_daisysuite|
 
-   :versions: 1.3.0-1, 1.3.0-0, 1.2.1-1, 1.2.1-0, 1.2.0-1, 1.2.0-0, 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bedtools: 2.22
-   :depends biopython: 1.72
-   :depends bwa: 0.7.12
-   :depends clever-toolkit: 2.0rc3
-   :depends gustaf: 1.0.8
-   :depends mason: 2.0.7
-   :depends pandas: 0.18.1
-   :depends pysam: 0.9.1.4
-   :depends sak: 0.4.6
-   :depends samtools: 1.9
-   :depends scipy: 1.1.0
-   :depends snakemake: 3.9.0
-   :depends stellar: 1.4.9
-   :depends yara: 0.9.6
+   :depends bedtools: ``2.22``
+   :depends biopython: ``1.72``
+   :depends bwa: ``0.7.12``
+   :depends clever-toolkit: ``2.0rc3``
+   :depends gustaf: ``1.0.8``
+   :depends mason: ``2.0.7``
+   :depends pandas: ``0.18.1``
+   :depends pysam: ``0.9.1.4``
+   :depends sak: ``0.4.6``
+   :depends samtools: ``1.9``
+   :depends scipy: ``1.1.0``
+   :depends snakemake: ``3.9.0``
+   :depends stellar: ``1.4.9``
+   :depends yara: ``0.9.6``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ hgtools
 
 .. conda:recipe:: hgtools
    :replaces_section_title:
+   :noindex:
 
    Classes and setuptools plugin for Mercurial and Git repositories
 
@@ -22,7 +23,14 @@ hgtools
 
    |downloads_hgtools| |docker_hgtools|
 
-   :versions: 8.1.1-1, 8.1.1-0, 6.5.1-2, 6.5.1-0
+   :versions:
+      
+      
+
+      ``8.1.1-1``,  ``8.1.1-0``,  ``6.5.1-2``,  ``6.5.1-0``
+
+      
+
    
    :depends backports.unittest_mock: 
    :depends python: 

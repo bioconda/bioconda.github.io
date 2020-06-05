@@ -8,6 +8,7 @@ ucsc-cell-browser
 
 .. conda:recipe:: ucsc-cell-browser
    :replaces_section_title:
+   :noindex:
 
    A browser for single\-cell data\, main site at http\:\/\/cells.ucsc.edu
 
@@ -22,11 +23,26 @@ ucsc-cell-browser
 
    |downloads_ucsc-cell-browser| |docker_ucsc-cell-browser|
 
-   :versions: 0.7.10-0, 0.7.9-0, 0.7.8-0, 0.7.7-0, 0.7.6-0, 0.7.5-0, 0.7.4-0, 0.7.3-0, 0.7.2-0, 0.7.1-0, 0.7-0, 0.5.49-0, 0.5.46-0, 0.5.45-0, 0.5.43-1, 0.5.43-0, 0.5.38-0, 0.5.37-0, 0.5.21-0, 0.4.56-0, 0.4.38-0, 0.4.35-0, 0.4.23-1, 0.4.23-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.7.10-0</code>,  <code>0.7.9-0</code>,  <code>0.7.8-0</code>,  <code>0.7.7-0</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  </span></summary>
+      
+
+      ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7-0``,  ``0.5.49-0``,  ``0.5.46-0``,  ``0.5.45-0``,  ``0.5.43-1``,  ``0.5.43-0``,  ``0.5.38-0``,  ``0.5.37-0``,  ``0.5.21-0``,  ``0.4.56-0``,  ``0.4.38-0``,  ``0.4.35-0``,  ``0.4.23-1``,  ``0.4.23-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends anndata: 
    :depends numpy: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-role-tiny-with
 
 .. conda:recipe:: perl-role-tiny-with/2.000005
    :replaces_section_title:
+   :noindex:
 
    Neat interface for consumers of Role\:\:Tiny roles
 
@@ -22,9 +23,16 @@ perl-role-tiny-with
 
    |downloads_perl-role-tiny-with| |docker_perl-role-tiny-with|
 
-   :versions: 2.000005-1, 2.000005-0
+   :versions:
+      
+      
+
+      ``2.000005-1``,  ``2.000005-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

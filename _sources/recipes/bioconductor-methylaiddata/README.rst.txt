@@ -8,6 +8,7 @@ bioconductor-methylaiddata
 
 .. conda:recipe:: bioconductor-methylaiddata
    :replaces_section_title:
+   :noindex:
 
    MethylAid\-summarized data for 2800 Illumina 450k array samples and 2620 EPIC array samples
 
@@ -22,11 +23,18 @@ bioconductor-methylaiddata
 
    |downloads_bioconductor-methylaiddata| |docker_bioconductor-methylaiddata|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-methylaid: >=1.22.0,<1.23.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-methylaid: ``>=1.22.0,<1.23.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

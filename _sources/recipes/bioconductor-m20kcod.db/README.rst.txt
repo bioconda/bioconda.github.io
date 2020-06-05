@@ -8,6 +8,7 @@ bioconductor-m20kcod.db
 
 .. conda:recipe:: bioconductor-m20kcod.db
    :replaces_section_title:
+   :noindex:
 
    Codelink UniSet Mouse 20k I Bioarray annotation data \(chip m20kcod\)
 
@@ -22,12 +23,19 @@ bioconductor-m20kcod.db
 
    |downloads_bioconductor-m20kcod.db| |docker_bioconductor-m20kcod.db|
 
-   :versions: 3.4.0-4, 3.4.0-3, 3.4.0-2, 3.4.0-0
+   :versions:
+      
+      
+
+      ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

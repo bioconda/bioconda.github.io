@@ -8,6 +8,7 @@ lambda
 
 .. conda:recipe:: lambda
    :replaces_section_title:
+   :noindex:
 
    Lambda is a local aligner optimized for many query sequences and searches in protein space
 
@@ -22,12 +23,19 @@ lambda
 
    |downloads_lambda| |docker_lambda|
 
-   :versions: 2.0.0-0, 1.0.3-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``,  ``1.0.3-0``
+
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ pb-falcon
 
 .. conda:recipe:: pb-falcon
    :replaces_section_title:
+   :noindex:
 
    FALCON\/Unzip tool\-suite \(originally by Jason Chin\)
 
@@ -22,19 +23,34 @@ pb-falcon
 
    |downloads_pb-falcon| |docker_pb-falcon|
 
-   :versions: 2.2.4-0, 2.2.3-0, 2.2.2-0, 2.2.1-0, 2.2.0-1, 2.2.0-0, 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.3.0-1, 0.3.0-0, 0.2.7-1, 0.2.6-3, 0.2.6-2, 0.2.6-1, 0.2.5-3, 0.2.5-2, 0.2.5-1, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.2.0-2, 0.2.0-0, 0.0.2-0, 0.0.1-0, 0.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  </span></summary>
+      
+
+      ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.7-1``,  ``0.2.6-3``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-0``,  ``0.0.2-0``,  ``0.0.1-0``,  ``0.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends future: >=0.16.0
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends networkx: >=1.9.1
+   :depends future: ``>=0.16.0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends networkx: ``>=1.9.1``
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=3.7,<3.8.0a0
-   :depends python-edlib: >=1.2.4
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python-edlib: ``>=1.2.4``
    :depends python-intervaltree: 
-   :depends python-msgpack: >=0.6.1
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python-msgpack: ``>=0.6.1``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

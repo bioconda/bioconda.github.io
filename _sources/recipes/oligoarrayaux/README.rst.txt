@@ -8,6 +8,7 @@ oligoarrayaux
 
 .. conda:recipe:: oligoarrayaux
    :replaces_section_title:
+   :noindex:
 
    OligoArrayAux is a subset of the UNAFold package for use with OligoArray.
 
@@ -23,10 +24,17 @@ oligoarrayaux
 
    |downloads_oligoarrayaux| |docker_oligoarrayaux|
 
-   :versions: 3.8-0
+   :versions:
+      
+      
+
+      ``3.8-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

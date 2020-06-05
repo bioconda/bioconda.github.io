@@ -8,6 +8,7 @@ perl-par-dist
 
 .. conda:recipe:: perl-par-dist/0.49
    :replaces_section_title:
+   :noindex:
 
    Create and manipulate PAR distributions
 
@@ -22,9 +23,16 @@ perl-par-dist
 
    |downloads_perl-par-dist| |docker_perl-par-dist|
 
-   :versions: 0.49-1, 0.49-0
+   :versions:
+      
+      
+
+      ``0.49-1``,  ``0.49-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-file-find: 
    :depends perl-file-path: 
    :requirements:

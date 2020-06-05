@@ -8,6 +8,7 @@ fastalite
 
 .. conda:recipe:: fastalite
    :replaces_section_title:
+   :noindex:
 
    Simplest possible fasta parser
 
@@ -22,7 +23,14 @@ fastalite
 
    |downloads_fastalite| |docker_fastalite|
 
-   :versions: 0.3-0
+   :versions:
+      
+      
+
+      ``0.3-0``
+
+      
+
    
    :depends python: 
    :requirements:

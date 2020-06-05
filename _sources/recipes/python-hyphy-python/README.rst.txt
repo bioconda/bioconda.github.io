@@ -8,6 +8,7 @@ python-hyphy-python
 
 .. conda:recipe:: python-hyphy-python
    :replaces_section_title:
+   :noindex:
 
    HyPhy package interface library
 
@@ -22,13 +23,20 @@ python-hyphy-python
 
    |downloads_python-hyphy-python| |docker_python-hyphy-python|
 
-   :versions: 0.1.9-2, 0.1.9-1, 0.1.9-0, 0.1.6-1, 0.1.6-0, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.3-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

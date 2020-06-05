@@ -8,6 +8,7 @@ manta
 
 .. conda:recipe:: manta
    :replaces_section_title:
+   :noindex:
 
    Structural variant and indel caller for mapped sequencing data
 
@@ -23,9 +24,24 @@ manta
 
    |downloads_manta| |docker_manta|
 
-   :versions: 1.6.0-0, 1.5.0-0, 1.4.0-1, 1.4.0-0, 1.3.2-0, 1.3.0-0, 1.2.1-0, 1.1.0-0, 1.0.3-0, 1.0.0-0, 0.29.6-0, 0.29.3-0, 0.29.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+      
+
+      ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.29.6-0``,  ``0.29.3-0``,  ``0.29.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

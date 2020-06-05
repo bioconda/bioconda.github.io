@@ -8,6 +8,7 @@ perl-test-sys-info
 
 .. conda:recipe:: perl-test-sys-info
    :replaces_section_title:
+   :noindex:
 
    Centralized test suite for Sys\:\:Info.
 
@@ -22,9 +23,16 @@ perl-test-sys-info
 
    |downloads_perl-test-sys-info| |docker_perl-test-sys-info|
 
-   :versions: 0.23-0, 0.21-0
+   :versions:
+      
+      
+
+      ``0.23-0``,  ``0.21-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-constant: 

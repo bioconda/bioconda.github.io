@@ -8,6 +8,7 @@ perl-sub-quote
 
 .. conda:recipe:: perl-sub-quote
    :replaces_section_title:
+   :noindex:
 
    Efficient generation of subroutines via string eval
 
@@ -22,9 +23,16 @@ perl-sub-quote
 
    |downloads_perl-sub-quote| |docker_perl-sub-quote|
 
-   :versions: 2.006003-1, 2.006003-0, 2.005001-0
+   :versions:
+      
+      
+
+      ``2.006003-1``,  ``2.006003-0``,  ``2.005001-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

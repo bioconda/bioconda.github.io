@@ -8,6 +8,7 @@ bioconductor-liebermanaidenhic2009
 
 .. conda:recipe:: bioconductor-liebermanaidenhic2009
    :replaces_section_title:
+   :noindex:
 
    Selected data from the HiC paper of E. Lieberman\-Aiden et al. in Science \(2009\)
 
@@ -22,11 +23,18 @@ bioconductor-liebermanaidenhic2009
 
    |downloads_bioconductor-liebermanaidenhic2009| |docker_bioconductor-liebermanaidenhic2009|
 
-   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.20.0-0
+   :versions:
+      
+      
+
+      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+
+      
+
    
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-kernsmooth: 
    :requirements:
 

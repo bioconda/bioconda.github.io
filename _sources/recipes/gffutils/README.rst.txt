@@ -8,6 +8,7 @@ gffutils
 
 .. conda:recipe:: gffutils
    :replaces_section_title:
+   :noindex:
 
    Work with GFF and GTF files in a flexible database framework
 
@@ -25,14 +26,21 @@ gffutils
 
    |downloads_gffutils| |docker_gffutils|
 
-   :versions: 0.10.1-0, 0.9-1, 0.9-0, 0.8.7.1-2, 0.8.7.1-1, 0.8.7.1-0, 0.8.7-0, 0.8.6.1-0
+   :versions:
+      
+      
+
+      ``0.10.1-0``,  ``0.9-1``,  ``0.9-0``,  ``0.8.7.1-2``,  ``0.8.7.1-1``,  ``0.8.7.1-0``,  ``0.8.7-0``,  ``0.8.6.1-0``
+
+      
+
    
-   :depends argcomplete: >=1.9.4
-   :depends argh: >=0.26.2
-   :depends pyfaidx: >=0.5.5.2
+   :depends argcomplete: ``>=1.9.4``
+   :depends argh: ``>=0.26.2``
+   :depends pyfaidx: ``>=0.5.5.2``
    :depends python: 
    :depends simplejson: 
-   :depends six: >=1.12.0
+   :depends six: ``>=1.12.0``
    :requirements:
 
    .. rubric:: Installation

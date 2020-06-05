@@ -8,6 +8,7 @@ bioconductor-onassisjavalibs
 
 .. conda:recipe:: bioconductor-onassisjavalibs
    :replaces_section_title:
+   :noindex:
 
    OnassisJavaLibs\, java libraries to run conceptmapper and semantic similarity
 
@@ -22,11 +23,18 @@ bioconductor-onassisjavalibs
 
    |downloads_bioconductor-onassisjavalibs| |docker_bioconductor-onassisjavalibs|
 
-   :versions: 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.2-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.2-0``
+
+      
+
    
-   :depends curl: >=7.65.3,<8.0a0
+   :depends curl: ``>=7.65.3,<8.0a0``
    :depends openjdk: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-rjava: 
    :requirements:
 

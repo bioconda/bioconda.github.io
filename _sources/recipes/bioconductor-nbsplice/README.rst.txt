@@ -8,6 +8,7 @@ bioconductor-nbsplice
 
 .. conda:recipe:: bioconductor-nbsplice
    :replaces_section_title:
+   :noindex:
 
    Negative Binomial Models to detect Differential Splicing
 
@@ -22,11 +23,18 @@ bioconductor-nbsplice
 
    |downloads_bioconductor-nbsplice| |docker_bioconductor-nbsplice|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.1-0, 1.2.0-0, 1.0.6-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.6-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-car: 
    :depends r-ggplot2: 
    :depends r-mass: 

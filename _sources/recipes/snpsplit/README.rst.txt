@@ -8,6 +8,7 @@ snpsplit
 
 .. conda:recipe:: snpsplit
    :replaces_section_title:
+   :noindex:
 
    SNPsplit is an allele\-specific alignment sorter which is designed to read in alignment files in SAM\/BAM format and determine the allelic origin of reads that cover known SNP positions.
 
@@ -23,10 +24,17 @@ snpsplit
 
    |downloads_snpsplit| |docker_snpsplit|
 
-   :versions: 0.3.4-2, 0.3.4-1, 0.3.4-0, 0.3.3-1, 0.3.3-0
+   :versions:
+      
+      
+
+      ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``
+
+      
+
    
    :depends perl: 
-   :depends samtools: >=1.7
+   :depends samtools: ``>=1.7``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ rseqc
 
 .. conda:recipe:: rseqc
    :replaces_section_title:
+   :noindex:
 
    RNA\-seq QC Package
 
@@ -23,15 +24,22 @@ rseqc
 
    |downloads_rseqc| |docker_rseqc|
 
-   :versions: 3.0.1-1, 3.0.1-0, 3.0.0-3, 3.0.0-1, 3.0.0-0, 2.6.4-2, 2.6.4-1, 2.6.4-0, 2.6.2-0
+   :versions:
+      
+      
+
+      ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
+
+      
+
    
    :depends bx-python: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
    :depends pip: 
    :depends pybigwig: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends r-base: 
    :requirements:
 

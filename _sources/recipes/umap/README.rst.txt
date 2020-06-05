@@ -8,6 +8,7 @@ umap
 
 .. conda:recipe:: umap
    :replaces_section_title:
+   :noindex:
 
    Umap and Bismap\: tools for genome and methylome mappability
 
@@ -22,14 +23,21 @@ umap
 
    |downloads_umap| |docker_umap|
 
-   :versions: 1.1.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``
+
+      
+
    
    :depends argparse: 
    :depends bowtie: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: <3
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python: ``<3``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

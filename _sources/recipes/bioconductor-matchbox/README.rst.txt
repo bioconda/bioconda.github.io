@@ -8,6 +8,7 @@ bioconductor-matchbox
 
 .. conda:recipe:: bioconductor-matchbox
    :replaces_section_title:
+   :noindex:
 
    Utilities to compute\, compare\, and plot the agreement between ordered vectors of features \(ie. distinct genomic experiments\). The package includes Correspondence\-At\-the\-TOP \(CAT\) analysis.
 
@@ -22,9 +23,16 @@ bioconductor-matchbox
 
    |downloads_bioconductor-matchbox| |docker_bioconductor-matchbox|
 
-   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-1, 1.26.0-0, 1.24.0-0
+   :versions:
+      
+      
+
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

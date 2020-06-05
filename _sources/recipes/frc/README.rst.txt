@@ -8,6 +8,7 @@ frc
 
 .. conda:recipe:: frc
    :replaces_section_title:
+   :noindex:
 
    Computes FRC from SAM\/BAM file and not from afg files
 
@@ -22,10 +23,17 @@ frc
 
    |downloads_frc| |docker_frc|
 
-   :versions: 5b3f53e-0
+   :versions:
+      
+      
+
+      ``5b3f53e-0``
+
+      
+
    
    :depends bamtools: 
-   :depends boost: 1.61*
+   :depends boost: ``1.61*``
    :depends libgcc: 
    :depends samtools: 
    :requirements:

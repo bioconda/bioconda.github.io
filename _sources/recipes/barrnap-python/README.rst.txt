@@ -8,6 +8,7 @@ barrnap-python
 
 .. conda:recipe:: barrnap-python
    :replaces_section_title:
+   :noindex:
 
    python package for Torsten Seemann\'s barrnap package for annotating rRNAs
 
@@ -22,10 +23,17 @@ barrnap-python
 
    |downloads_barrnap-python| |docker_barrnap-python|
 
-   :versions: 0.0.5-2, 0.0.5-1, 0.0.5-0
+   :versions:
+      
+      
+
+      ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``
+
+      
+
    
-   :depends barrnap: >=0.8
-   :depends python: >=3
+   :depends barrnap: ``>=0.8``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

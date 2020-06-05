@@ -8,6 +8,7 @@ bioconductor-msstatstmt
 
 .. conda:recipe:: bioconductor-msstatstmt
    :replaces_section_title:
+   :noindex:
 
    Protein Significance Analysis in shotgun mass spectrometry\-based proteomic experiments with tandem mass tag \(TMT\) labeling
 
@@ -22,11 +23,18 @@ bioconductor-msstatstmt
 
    |downloads_bioconductor-msstatstmt| |docker_bioconductor-msstatstmt|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.5-0, 1.1.2-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.5-0``,  ``1.1.2-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-msstats: >=3.20.0,<3.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-msstats: ``>=3.20.0,<3.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

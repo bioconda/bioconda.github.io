@@ -8,6 +8,7 @@ hiline
 
 .. conda:recipe:: hiline
    :replaces_section_title:
+   :noindex:
 
    HiC alignment and classification pipeline.
 
@@ -22,19 +23,26 @@ hiline
 
    |downloads_hiline| |docker_hiline|
 
-   :versions: 0.0.5-0, 0.0.3-0, 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+
+      
+
    
-   :depends biopython: >=1.76
-   :depends bwa: >=0.7.17
-   :depends click: >=7.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends matplotlib-base: >=3.2.0
-   :depends numpy: >=1.18.1
-   :depends pandas: >=1.0.1
-   :depends python: >=3.8.2
-   :depends samtools: >=1.10
-   :depends seaborn: >=0.10.0
+   :depends biopython: ``>=1.76``
+   :depends bwa: ``>=0.7.17``
+   :depends click: ``>=7.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends matplotlib-base: ``>=3.2.0``
+   :depends numpy: ``>=1.18.1``
+   :depends pandas: ``>=1.0.1``
+   :depends python: ``>=3.8.2``
+   :depends samtools: ``>=1.10``
+   :depends seaborn: ``>=0.10.0``
    :requirements:
 
    .. rubric:: Installation

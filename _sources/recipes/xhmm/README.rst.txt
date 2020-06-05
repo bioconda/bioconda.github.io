@@ -8,6 +8,7 @@ xhmm
 
 .. conda:recipe:: xhmm
    :replaces_section_title:
+   :noindex:
 
    XHMM \(eXome\-Hidden Markov Model\).
 
@@ -23,11 +24,18 @@ xhmm
 
    |downloads_xhmm| |docker_xhmm|
 
-   :versions: 0.0.0.2016_01_04.cc14e52-0
+   :versions:
+      
+      
+
+      ``0.0.0.2016_01_04.cc14e52-0``
+
+      
+
    
    :depends lapack: 
-   :depends libgfortran: >=3.0
-   :depends libstdcxx-ng: >=4.9
+   :depends libgfortran: ``>=3.0``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ fast5-research
 
 .. conda:recipe:: fast5-research
    :replaces_section_title:
+   :noindex:
 
    ONT Research fast5 read\/write package
 
@@ -22,11 +23,26 @@ fast5-research
 
    |downloads_fast5-research| |docker_fast5-research|
 
-   :versions: 1.2.20-0, 1.2.19-0, 1.2.18-0, 1.2.17-0, 1.2.15-0, 1.2.11-0, 1.2.10-0, 1.2.8-0, 1.0.9-1, 1.0.9-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.20-0</code>,  <code>1.2.19-0</code>,  <code>1.2.18-0</code>,  <code>1.2.17-0</code>,  <code>1.2.15-0</code>,  <code>1.2.11-0</code>,  <code>1.2.10-0</code>,  <code>1.2.8-0</code>,  <code>1.0.9-1</code>,  </span></summary>
+      
+
+      ``1.2.20-0``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.17-0``,  ``1.2.15-0``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.8-0``,  ``1.0.9-1``,  ``1.0.9-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends futures: 
-   :depends h5py: <2.9.0
-   :depends numpy: >=1.14
+   :depends h5py: ``<2.9.0``
+   :depends numpy: ``>=1.14``
    :depends progressbar2: 
    :depends python: 
    :requirements:

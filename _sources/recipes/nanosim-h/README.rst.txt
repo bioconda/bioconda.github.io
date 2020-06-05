@@ -8,6 +8,7 @@ nanosim-h
 
 .. conda:recipe:: nanosim-h
    :replaces_section_title:
+   :noindex:
 
    NanoSim\-H is a simulator of Oxford Nanopore reads that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of Nanopore sequencing technology.
 
@@ -22,13 +23,20 @@ nanosim-h
 
    |downloads_nanosim-h| |docker_nanosim-h|
 
-   :versions: 1.1.0.4-1, 1.1.0.4-0, 1.1.0.3-3, 1.1.0.3-0, 1.1.0.2-1
+   :versions:
+      
+      
+
+      ``1.1.0.4-1``,  ``1.1.0.4-0``,  ``1.1.0.3-3``,  ``1.1.0.3-0``,  ``1.1.0.2-1``
+
+      
+
    
    :depends last: 
    :depends numpy: 
    :depends progressbar2: 
    :depends python: 
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
    :requirements:
 
    .. rubric:: Installation

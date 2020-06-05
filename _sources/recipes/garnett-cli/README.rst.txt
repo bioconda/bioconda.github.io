@@ -8,6 +8,7 @@ garnett-cli
 
 .. conda:recipe:: garnett-cli
    :replaces_section_title:
+   :noindex:
 
    Collection of wrapper scripts for the Garnett scRNAseq cell type classification tool.
 
@@ -22,13 +23,20 @@ garnett-cli
 
    |downloads_garnett-cli| |docker_garnett-cli|
 
-   :versions: 0.0.5-0, 0.0.4-0, 0.0.3-2, 0.0.3-1, 0.0.3-0, 0.0.2-0, 0.0.1-0, v0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``,  ``v0.0.1-0``
+
+      
+
    
    :depends bioconductor-org.hs.eg.db: 
    :depends bioconductor-org.mm.eg.db: 
-   :depends monocle3-cli: 0.0.7.*
-   :depends r-garnett: 0.2.8.*
-   :depends r-glmnet: 2.0_18.*
+   :depends monocle3-cli: ``0.0.7.*``
+   :depends r-garnett: ``0.2.8.*``
+   :depends r-glmnet: ``2.0_18.*``
    :depends r-optparse: 
    :depends r-workflowscriptscommon: 
    :requirements:

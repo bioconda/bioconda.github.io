@@ -8,6 +8,7 @@ berokka
 
 .. conda:recipe:: berokka
    :replaces_section_title:
+   :noindex:
 
    Trim\, circularise and orient long read bacterial genome assemblies.
 
@@ -22,11 +23,18 @@ berokka
 
    |downloads_berokka| |docker_berokka|
 
-   :versions: 0.2.3-1, 0.2.3-0, 0.2-3, 0.2-2, 0.2-0, 0.1-0
+   :versions:
+      
+      
+
+      ``0.2.3-1``,  ``0.2.3-0``,  ``0.2-3``,  ``0.2-2``,  ``0.2-0``,  ``0.1-0``
+
+      
+
    
-   :depends blast: >=2.7
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-bioperl: >=1.7.2
+   :depends blast: ``>=2.7``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-bioperl: ``>=1.7.2``
    :requirements:
 
    .. rubric:: Installation

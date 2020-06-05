@@ -8,6 +8,7 @@ migraine
 
 .. conda:recipe:: migraine
    :replaces_section_title:
+   :noindex:
 
    Implements coalescent algorithms for maximum likelihood analysis of population genetic data. The data currently  handled are allelic counts but sequences will be handled in the forthcoming version.
 
@@ -23,9 +24,16 @@ migraine
 
    |downloads_migraine| |docker_migraine|
 
-   :versions: 0.5.4-0, 0.5.2-0
+   :versions:
+      
+      
+
+      ``0.5.4-0``,  ``0.5.2-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ potrace
 
 .. conda:recipe:: potrace/1.11
    :replaces_section_title:
+   :noindex:
 
    A tool for tracing a bitmap\, which means\, transforming a bitmap into a smooth\, scalable image
 
@@ -22,10 +23,17 @@ potrace
 
    |downloads_potrace| |docker_potrace|
 
-   :versions: 1.11-1, 1.11-0
+   :versions:
+      
+      
+
+      ``1.11-1``,  ``1.11-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

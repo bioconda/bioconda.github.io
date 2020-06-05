@@ -8,6 +8,7 @@ valet
 
 .. conda:recipe:: valet
    :replaces_section_title:
+   :noindex:
 
    Pipeline for detecting mis\-assemblies in metagenomic assemblies
 
@@ -22,13 +23,20 @@ valet
 
    |downloads_valet| |docker_valet|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
    :depends bedtools: 
    :depends bowtie2: 
    :depends numpy: 
    :depends perl: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends r-base: 
    :depends samtools: 
    :depends scipy: 

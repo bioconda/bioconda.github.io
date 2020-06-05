@@ -8,6 +8,7 @@ ete2
 
 .. conda:recipe:: ete2
    :replaces_section_title:
+   :noindex:
 
    Phylogenetic tree analyses and exploration
 
@@ -22,13 +23,20 @@ ete2
 
    |downloads_ete2| |docker_ete2|
 
-   :versions: 2.3.10-4, 2.3.10-3, 2.3.10-2, 2.3.10-1, 2.3.10-0, 2.2.1072-2
+   :versions:
+      
+      
+
+      ``2.3.10-4``,  ``2.3.10-3``,  ``2.3.10-2``,  ``2.3.10-1``,  ``2.3.10-0``,  ``2.2.1072-2``
+
+      
+
    
    :depends lxml: 
    :depends mysql-python: 
    :depends numpy: 
-   :depends pyqt: 4.*
-   :depends python: <3
+   :depends pyqt: ``4.*``
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

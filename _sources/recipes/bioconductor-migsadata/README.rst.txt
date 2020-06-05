@@ -8,6 +8,7 @@ bioconductor-migsadata
 
 .. conda:recipe:: bioconductor-migsadata
    :replaces_section_title:
+   :noindex:
 
    MIGSA vignette data
 
@@ -22,10 +23,17 @@ bioconductor-migsadata
 
    |downloads_bioconductor-migsadata| |docker_bioconductor-migsadata|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ jaffa
 
 .. conda:recipe:: jaffa
    :replaces_section_title:
+   :noindex:
 
    JAFFA is a multi\-step pipeline that takes either raw RNA\-Seq reads\, or pre\-assembled transcripts then searches
    for gene fusions.  This package contains the wrappers jaffa\-direct\, jaffa\-assembly\, and jaffa\-hybrid.
@@ -26,7 +27,14 @@ jaffa
 
    |downloads_jaffa| |docker_jaffa|
 
-   :versions: 1.09-2, 1.09-1, 1.09-0, 1.08-0
+   :versions:
+      
+      
+
+      ``1.09-2``,  ``1.09-1``,  ``1.09-0``,  ``1.08-0``
+
+      
+
    
    :depends bbmap: 
    :depends bioconductor-iranges: 
@@ -35,7 +43,7 @@ jaffa
    :depends bpipe: 
    :depends fastx_toolkit: 
    :depends oases: 
-   :depends samtools: 1.1
+   :depends samtools: ``1.1``
    :depends trimmomatic: 
    :depends velvet: 
    :requirements:

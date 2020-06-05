@@ -8,6 +8,7 @@ transposcope
 
 .. conda:recipe:: transposcope
    :replaces_section_title:
+   :noindex:
 
    A package for visualizing read coverage in areas flanking mobile element insertions.
 
@@ -22,15 +23,22 @@ transposcope
 
    |downloads_transposcope| |docker_transposcope|
 
-   :versions: 2.0.1-0, 2.0.0-1, 2.0.0-0, 0.1.2-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``0.1.2-0``,  ``0.1.0-0``
+
+      
+
    
-   :depends biopython: >=1.76
-   :depends bowtie2: >=2.3.5
-   :depends numpy: >=1.17.4
-   :depends pandas: >=0.25.1
-   :depends pysam: >=0.15.3
-   :depends python: >=3
-   :depends samtools: >=1.10
+   :depends biopython: ``>=1.76``
+   :depends bowtie2: ``>=2.3.5``
+   :depends numpy: ``>=1.17.4``
+   :depends pandas: ``>=0.25.1``
+   :depends pysam: ``>=0.15.3``
+   :depends python: ``>=3``
+   :depends samtools: ``>=1.10``
    :requirements:
 
    .. rubric:: Installation

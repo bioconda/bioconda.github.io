@@ -8,6 +8,7 @@ randfold
 
 .. conda:recipe:: randfold
    :replaces_section_title:
+   :noindex:
 
    Minimum free energy of folding randomization test software
 
@@ -23,9 +24,16 @@ randfold
 
    |downloads_randfold| |docker_randfold|
 
-   :versions: 2.0.1-1, 2.0.1-0
+   :versions:
+      
+      
+
+      ``2.0.1-1``,  ``2.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

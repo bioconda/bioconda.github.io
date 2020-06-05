@@ -8,6 +8,7 @@ kraken-ea
 
 .. conda:recipe:: kraken-ea
    :replaces_section_title:
+   :noindex:
 
    Kraken is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies. This is a modified version allowing for splitting of fastq files based on read classifications.
 
@@ -22,12 +23,19 @@ kraken-ea
 
    |downloads_kraken-ea| |docker_kraken-ea|
 
-   :versions: 0.10.5ea.3-3, 0.10.5ea.3-2, 0.10.5ea.3-1, 0.10.5ea.3-0
+   :versions:
+      
+      
+
+      ``0.10.5ea.3-3``,  ``0.10.5ea.3-2``,  ``0.10.5ea.3-1``,  ``0.10.5ea.3-0``
+
+      
+
    
-   :depends jellyfish: 1.1.11.*
-   :depends libgcc-ng: >=4.9
-   :depends perl: >=5.26.2,<5.27.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends jellyfish: ``1.1.11.*``
+   :depends libgcc-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

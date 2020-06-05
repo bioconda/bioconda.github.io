@@ -8,6 +8,7 @@ virema
 
 .. conda:recipe:: virema
    :replaces_section_title:
+   :noindex:
 
    ViReMa \(Viral Recombination Mapper\) detects and reports recombination or fusion events in virus genomes using deep sequencing datasets.
 
@@ -22,10 +23,17 @@ virema
 
    |downloads_virema| |docker_virema|
 
-   :versions: 0.6-1, 0.6-0
+   :versions:
+      
+      
+
+      ``0.6-1``,  ``0.6-0``
+
+      
+
    
-   :depends bowtie: <=1.0.0
-   :depends python: <3
+   :depends bowtie: ``<=1.0.0``
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ novoplasty
 
 .. conda:recipe:: novoplasty
    :replaces_section_title:
+   :noindex:
 
    The organelle assembler and heteroplasmy caller
 
@@ -24,9 +25,16 @@ novoplasty
 
    |downloads_novoplasty| |docker_novoplasty|
 
-   :versions: 4.0-0, 3.8.3-0, 3.7.2-0, 3.7-0, 2.2.2-1, 2.2.2-0
+   :versions:
+      
+      
+
+      ``4.0-0``,  ``3.8.3-0``,  ``3.7.2-0``,  ``3.7-0``,  ``2.2.2-1``,  ``2.2.2-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

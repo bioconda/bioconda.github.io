@@ -8,6 +8,7 @@ perl-sub-exporter-formethods
 
 .. conda:recipe:: perl-sub-exporter-formethods
    :replaces_section_title:
+   :noindex:
 
    helper routines for using Sub\:\:Exporter to build methods
 
@@ -22,9 +23,16 @@ perl-sub-exporter-formethods
 
    |downloads_perl-sub-exporter-formethods| |docker_perl-sub-exporter-formethods|
 
-   :versions: 0.100052-1, 0.100052-0
+   :versions:
+      
+      
+
+      ``0.100052-1``,  ``0.100052-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-sub-exporter: 
    :depends perl-sub-name: 
    :requirements:

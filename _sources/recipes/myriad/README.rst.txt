@@ -8,6 +8,7 @@ myriad
 
 .. conda:recipe:: myriad
    :replaces_section_title:
+   :noindex:
 
    Simple distributed computing.
 
@@ -22,9 +23,16 @@ myriad
 
    |downloads_myriad| |docker_myriad|
 
-   :versions: 0.1.4-0, 0.1.3-2, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.1.4-0``,  ``0.1.3-2``,  ``0.1.3-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

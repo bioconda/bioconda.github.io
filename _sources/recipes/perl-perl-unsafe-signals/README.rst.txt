@@ -8,6 +8,7 @@ perl-perl-unsafe-signals
 
 .. conda:recipe:: perl-perl-unsafe-signals
    :replaces_section_title:
+   :noindex:
 
    Allow unsafe handling of signals in selected blocks
 
@@ -22,11 +23,18 @@ perl-perl-unsafe-signals
 
    |downloads_perl-perl-unsafe-signals| |docker_perl-perl-unsafe-signals|
 
-   :versions: 0.03-3, 0.03-2, 0.03-1, 0.03-0
+   :versions:
+      
+      
+
+      ``0.03-3``,  ``0.03-2``,  ``0.03-1``,  ``0.03-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

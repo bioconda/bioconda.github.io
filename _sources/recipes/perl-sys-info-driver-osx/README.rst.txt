@@ -8,6 +8,7 @@ perl-sys-info-driver-osx
 
 .. conda:recipe:: perl-sys-info-driver-osx
    :replaces_section_title:
+   :noindex:
 
    OSX driver for Sys\:\:Info
 
@@ -22,9 +23,16 @@ perl-sys-info-driver-osx
 
    |downloads_perl-sys-info-driver-osx| |docker_perl-sys-info-driver-osx|
 
-   :versions: 0.7959-0, 0.7958-0
+   :versions:
+      
+      
+
+      ``0.7959-0``,  ``0.7958-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-capture-tiny: 
    :depends perl-mac-propertylist: 
    :depends perl-sys-info-base: 

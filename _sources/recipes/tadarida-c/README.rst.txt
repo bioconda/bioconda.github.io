@@ -8,6 +8,7 @@ tadarida-c
 
 .. conda:recipe:: tadarida-c
    :replaces_section_title:
+   :noindex:
 
    Tadarida\-C \(Toolbox for Animal Detection on Acoustic Recordings \- Classification part\) for Galaxy use.
 
@@ -22,9 +23,16 @@ tadarida-c
 
    |downloads_tadarida-c| |docker_tadarida-c|
 
-   :versions: 1.2-1, 1.2-0, 1.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+
+      
+
    
-   :depends r-base: >=3.4.1,<3.4.2.0a0
+   :depends r-base: ``>=3.4.1,<3.4.2.0a0``
    :depends r-data.table: 
    :depends r-randomforest: 
    :requirements:

@@ -8,6 +8,7 @@ perl-html-tree
 
 .. conda:recipe:: perl-html-tree
    :replaces_section_title:
+   :noindex:
 
    Work with HTML in a DOM\-like tree structure
 
@@ -22,9 +23,16 @@ perl-html-tree
 
    |downloads_perl-html-tree| |docker_perl-html-tree|
 
-   :versions: 5.07-1, 5.07-0, 5.03-0
+   :versions:
+      
+      
+
+      ``5.07-1``,  ``5.07-0``,  ``5.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-html-parser: 

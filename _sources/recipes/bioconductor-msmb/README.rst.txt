@@ -8,6 +8,7 @@ bioconductor-msmb
 
 .. conda:recipe:: bioconductor-msmb
    :replaces_section_title:
+   :noindex:
 
    Data sets for the book \'Modern Statistics for Biology\'
 
@@ -22,10 +23,17 @@ bioconductor-msmb
 
    |downloads_bioconductor-msmb| |docker_bioconductor-msmb|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

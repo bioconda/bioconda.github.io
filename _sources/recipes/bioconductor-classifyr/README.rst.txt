@@ -8,6 +8,7 @@ bioconductor-classifyr
 
 .. conda:recipe:: bioconductor-classifyr
    :replaces_section_title:
+   :noindex:
 
    A framework for cross\-validated classification problems\, with applications to differential variability and differential distribution testing
 
@@ -23,12 +24,19 @@ bioconductor-classifyr
 
    |downloads_bioconductor-classifyr| |docker_bioconductor-classifyr|
 
-   :versions: 2.8.0-0, 2.6.0-0, 2.4.4-0, 2.2.6-0, 2.2.4-0, 2.0.10-0, 1.12.2-0
+   :versions:
+      
+      
+
+      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.6-0``,  ``2.2.4-0``,  ``2.0.10-0``,  ``1.12.2-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-locfit: 
    :depends r-plyr: 
    :requirements:

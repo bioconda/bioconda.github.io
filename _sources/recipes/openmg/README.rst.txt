@@ -8,6 +8,7 @@ openmg
 
 .. conda:recipe:: openmg
    :replaces_section_title:
+   :noindex:
 
    Exhaustive generation of chemical structures
 
@@ -22,9 +23,16 @@ openmg
 
    |downloads_openmg| |docker_openmg|
 
-   :versions: 0.1-3, 0.1-2, 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends openjdk: >=6,<=8
+   :depends openjdk: ``>=6,<=8``
    :requirements:
 
    .. rubric:: Installation

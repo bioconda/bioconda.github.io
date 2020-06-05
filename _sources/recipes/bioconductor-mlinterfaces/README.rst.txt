@@ -8,6 +8,7 @@ bioconductor-mlinterfaces
 
 .. conda:recipe:: bioconductor-mlinterfaces
    :replaces_section_title:
+   :noindex:
 
    Uniform interfaces to R machine learning procedures for data in Bioconductor containers
 
@@ -23,17 +24,24 @@ bioconductor-mlinterfaces
 
    |downloads_bioconductor-mlinterfaces| |docker_bioconductor-mlinterfaces|
 
-   :versions: 1.68.0-0, 1.66.0-0, 1.64.0-1, 1.62.0-0, 1.60.1-0, 1.58.0-0
+   :versions:
+      
+      
+
+      ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-fpc: 
    :depends r-gbm: 
@@ -48,7 +56,7 @@ bioconductor-mlinterfaces
    :depends r-rpart: 
    :depends r-sfsmisc: 
    :depends r-shiny: 
-   :depends r-threejs: >=0.2.2
+   :depends r-threejs: ``>=0.2.2``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-prostar
 
 .. conda:recipe:: bioconductor-prostar
    :replaces_section_title:
+   :noindex:
 
    Provides a GUI for DAPAR
 
@@ -22,11 +23,18 @@ bioconductor-prostar
 
    |downloads_bioconductor-prostar| |docker_bioconductor-prostar|
 
-   :versions: 1.20.0-0, 1.18.0-1, 1.16.7-0, 1.14.8-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
+
+      
+
    
-   :depends bioconductor-dapar: >=1.20.0,<1.21.0
-   :depends bioconductor-dapardata: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-dapar: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-dapardata: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-colourpicker: 
    :depends r-data.table: 

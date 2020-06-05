@@ -8,6 +8,7 @@ transrate
 
 .. conda:recipe:: transrate
    :replaces_section_title:
+   :noindex:
 
    Reference free quality assessment of de\-novo transcriptome assemblies
 
@@ -23,13 +24,20 @@ transrate
 
    |downloads_transrate| |docker_transrate|
 
-   :versions: 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``
+
+      
+
    
    :depends blast: 
-   :depends libgcc-ng: >=7.3.0
-   :depends ruby: >=2
-   :depends ruby: >=2.6.5,<2.7.0a0
-   :depends salmon: 0.6.*
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends ruby: ``>=2``
+   :depends ruby: ``>=2.6.5,<2.7.0a0``
+   :depends salmon: ``0.6.*``
    :depends snap: 
    :depends transrate-tools: 
    :requirements:

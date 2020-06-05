@@ -8,6 +8,7 @@ perl-bio-phylo-cipres
 
 .. conda:recipe:: perl-bio-phylo-cipres/v0.2.1
    :replaces_section_title:
+   :noindex:
 
    Reusable components for CIPRES REST API access
 
@@ -22,9 +23,16 @@ perl-bio-phylo-cipres
 
    |downloads_perl-bio-phylo-cipres| |docker_perl-bio-phylo-cipres|
 
-   :versions: v0.2.1-0
+   :versions:
+      
+      
+
+      ``v0.2.1-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-phylo: 
    :depends perl-xml-twig: 
    :depends perl-yaml: 

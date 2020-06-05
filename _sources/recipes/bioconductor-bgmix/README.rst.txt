@@ -8,6 +8,7 @@ bioconductor-bgmix
 
 .. conda:recipe:: bioconductor-bgmix
    :replaces_section_title:
+   :noindex:
 
    Bayesian models for differential gene expression
 
@@ -23,12 +24,19 @@ bioconductor-bgmix
 
    |downloads_bioconductor-bgmix| |docker_bioconductor-bgmix|
 
-   :versions: 1.48.0-0, 1.46.0-0, 1.44.0-1, 1.44.0-0, 1.42.0-0, 1.40.0-0, 1.38.0-0, 1.36.0-0
+   :versions:
+      
+      
+
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libcxx: >=9.0.1
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libcxx: ``>=9.0.1``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-kernsmooth: 
    :requirements:
 

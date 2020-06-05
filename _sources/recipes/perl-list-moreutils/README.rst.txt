@@ -8,6 +8,7 @@ perl-list-moreutils
 
 .. conda:recipe:: perl-list-moreutils
    :replaces_section_title:
+   :noindex:
 
    Provide the stuff missing in List\:\:Util
 
@@ -22,9 +23,16 @@ perl-list-moreutils
 
    |downloads_perl-list-moreutils| |docker_perl-list-moreutils|
 
-   :versions: 0.428-1, 0.428-0, 0.413-1, 0.15-1, 0.15-0
+   :versions:
+      
+      
+
+      ``0.428-1``,  ``0.428-0``,  ``0.413-1``,  ``0.15-1``,  ``0.15-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-exporter-tiny: 
    :depends perl-list-moreutils-xs: 
    :requirements:

@@ -8,6 +8,7 @@ kmc
 
 .. conda:recipe:: kmc
    :replaces_section_title:
+   :noindex:
 
    Tools for efficient k\-mer counting and filtering of reads based on k\-mer content
 
@@ -26,12 +27,27 @@ kmc
 
    |downloads_kmc| |docker_kmc|
 
-   :versions: 3.1.2rc1-0, 3.1.1-1, 3.1.1-0, 3.1.1rc1-2, 3.1.1rc1-1, 3.1.1rc1-0, 3.1.0-0, 3.0.1-2, 3.0.1-1, 3.0.1-0, 3.0.0-2, 3.0.0-1, 3.0.0-0, 2.3.0-3, 2.3.0-2, 2.3.0-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.1.2rc1-0</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.1.1rc1-2</code>,  <code>3.1.1rc1-1</code>,  <code>3.1.1rc1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  </span></summary>
+      
+
+      ``3.1.2rc1-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.1rc1-2``,  ``3.1.1rc1-1``,  ``3.1.1rc1-0``,  ``3.1.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

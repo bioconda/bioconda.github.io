@@ -8,6 +8,7 @@ perl-perl-ostype
 
 .. conda:recipe:: perl-ostype
    :replaces_section_title:
+   :noindex:
 
    Map Perl operating system names to generic types
 
@@ -22,9 +23,16 @@ perl-perl-ostype
 
    |downloads_perl-perl-ostype| |docker_perl-perl-ostype|
 
-   :versions: 1.010-1, 1.010-0
+   :versions:
+      
+      
+
+      ``1.010-1``,  ``1.010-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-exporter: 
    :requirements:
 

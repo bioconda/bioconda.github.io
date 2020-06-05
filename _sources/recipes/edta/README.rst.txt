@@ -8,6 +8,7 @@ edta
 
 .. conda:recipe:: edta
    :replaces_section_title:
+   :noindex:
 
    Extensive de\-novo TE Annotator
 
@@ -22,7 +23,14 @@ edta
 
    |downloads_edta| |docker_edta|
 
-   :versions: 1.8.3-0, 1.8.2-0, 1.7.8-0, 1.7.7-0
+   :versions:
+      
+      
+
+      ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
@@ -30,7 +38,7 @@ edta
    :depends genericrepeatfinder: 
    :depends genometools-genometools: 
    :depends glob2: 
-   :depends keras: >=2.2.4
+   :depends keras: ``>=2.2.4``
    :depends ltr_finder: 
    :depends ltr_retriever: 
    :depends mdust: 
@@ -40,11 +48,11 @@ edta
    :depends pandas: 
    :depends perl: 
    :depends perl-text-soundex: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends regex: 
    :depends repeatmodeler: 
-   :depends scikit-learn: >=0.19.0
-   :depends tensorflow: >=1.14.0
+   :depends scikit-learn: ``>=0.19.0``
+   :depends tensorflow: ``>=1.14.0``
    :depends tesorter: 
    :requirements:
 

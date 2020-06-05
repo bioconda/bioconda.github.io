@@ -8,6 +8,7 @@ minys
 
 .. conda:recipe:: minys
    :replaces_section_title:
+   :noindex:
 
    MinYS allows targeted assembly of bacterial genomes using a reference\-guided pipeline.
 
@@ -22,16 +23,23 @@ minys
 
    |downloads_minys| |docker_minys|
 
-   :versions: 1.1-2, 1.1-1, 1.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+
+      
+
    
    :depends bwa: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends mindthegap: 
    :depends minia: 
    :depends numpy: 
    :depends pyani: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends samtools: 
    :requirements:
 

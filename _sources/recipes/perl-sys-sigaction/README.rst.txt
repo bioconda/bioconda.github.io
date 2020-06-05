@@ -8,6 +8,7 @@ perl-sys-sigaction
 
 .. conda:recipe:: perl-sys-sigaction/0.23
    :replaces_section_title:
+   :noindex:
 
    Perl extension for Consistent Signal Handling
 
@@ -22,9 +23,16 @@ perl-sys-sigaction
 
    |downloads_perl-sys-sigaction| |docker_perl-sys-sigaction|
 
-   :versions: 0.23-1, 0.23-0
+   :versions:
+      
+      
+
+      ``0.23-1``,  ``0.23-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ gnu-getopt
 
 .. conda:recipe:: gnu-getopt
    :replaces_section_title:
+   :noindex:
 
    Command\-line option parsing library
 
@@ -22,7 +23,14 @@ gnu-getopt
 
    |downloads_gnu-getopt| |docker_gnu-getopt|
 
-   :versions: 1.1.6-4, 1.1.6-3, 1.1.6-2, 1.1.6-1
+   :versions:
+      
+      
+
+      ``1.1.6-4``,  ``1.1.6-3``,  ``1.1.6-2``,  ``1.1.6-1``
+
+      
+
    
    :depends gettext: 
    :depends libgcc: 

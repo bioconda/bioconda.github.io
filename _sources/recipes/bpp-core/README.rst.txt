@@ -8,6 +8,7 @@ bpp-core
 
 .. conda:recipe:: bpp-core
    :replaces_section_title:
+   :noindex:
 
    Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 
@@ -22,10 +23,17 @@ bpp-core
 
    |downloads_bpp-core| |docker_bpp-core|
 
-   :versions: 2.4.1-1, 2.4.1-0, 2.2.0-1, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.4.1-1``,  ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

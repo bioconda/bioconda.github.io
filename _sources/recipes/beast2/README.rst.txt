@@ -8,6 +8,7 @@ beast2
 
 .. conda:recipe:: beast2
    :replaces_section_title:
+   :noindex:
 
    BEAST 2 is a cross\-platform program for Bayesian phylogenetic analysis of molecular sequences.
 
@@ -22,13 +23,20 @@ beast2
 
    |downloads_beast2| |docker_beast2|
 
-   :versions: 2.6.2-0, 2.6.1-0, 2.6.0-0, 2.5.0-2, 2.5.0-1, 2.5.0-0, 2.4.5-2, 2.4.5-1, 2.4.5-0
+   :versions:
+      
+      
+
+      ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.5-2``,  ``2.4.5-1``,  ``2.4.5-0``
+
+      
+
    
    :depends beagle-lib: 
    :depends font-ttf-ubuntu: 
-   :depends fontconfig: >=2.13.1,<3.0a0
-   :depends freetype: >=2.9.1,<3.0a0
-   :depends openjdk: 8.0.* zulu8*
+   :depends fontconfig: ``>=2.13.1,<3.0a0``
+   :depends freetype: ``>=2.9.1,<3.0a0``
+   :depends openjdk: ``8.0.* zulu8*``
    :depends xorg-libxtst: 
    :requirements:
 

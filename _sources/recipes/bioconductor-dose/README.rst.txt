@@ -8,6 +8,7 @@ bioconductor-dose
 
 .. conda:recipe:: bioconductor-dose
    :replaces_section_title:
+   :noindex:
 
    Disease Ontology Semantic and Enrichment analysis
 
@@ -23,15 +24,30 @@ bioconductor-dose
 
    |downloads_bioconductor-dose| |docker_bioconductor-dose|
 
-   :versions: 3.14.0-0, 3.12.0-0, 3.10.2-0, 3.8.0-0, 3.6.1-0, 3.4.0-0, 3.2.0-0, 2.10.7-0, 2.10.6-0, 2.8.3-0, 2.8.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.14.0-0</code>,  <code>3.12.0-0</code>,  <code>3.10.2-0</code>,  <code>3.8.0-0</code>,  <code>3.6.1-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>2.10.7-0</code>,  <code>2.10.6-0</code>,  </span></summary>
+      
+
+      ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.10.7-0``,  ``2.10.6-0``,  ``2.8.3-0``,  ``2.8.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-do.db: 2.9.*
-   :depends bioconductor-fgsea: >=1.14.0,<1.15.0
-   :depends bioconductor-gosemsim: >=2.14.0,<2.15.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-do.db: ``2.9.*``
+   :depends bioconductor-fgsea: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-gosemsim: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-reshape2: 
    :requirements:

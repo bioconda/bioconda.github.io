@@ -8,6 +8,7 @@ perl-perlio-encoding
 
 .. conda:recipe:: perl-perlio-encoding/0.18
    :replaces_section_title:
+   :noindex:
 
    encoding layer
 
@@ -22,9 +23,16 @@ perl-perlio-encoding
 
    |downloads_perl-perlio-encoding| |docker_perl-perlio-encoding|
 
-   :versions: 0.18-1, 0.18-0
+   :versions:
+      
+      
+
+      ``0.18-1``,  ``0.18-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

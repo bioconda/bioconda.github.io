@@ -8,6 +8,7 @@ hap.py
 
 .. conda:recipe:: hap.py
    :replaces_section_title:
+   :noindex:
 
    Haplotype VCF comparison tools
 
@@ -22,23 +23,30 @@ hap.py
 
    |downloads_hap.py| |docker_hap.py|
 
-   :versions: 0.3.12-0, 0.3.10-0, 0.3.7-1, 0.3.7-0, 0.2.9-1, 0.2.9-0
+   :versions:
+      
+      
+
+      ``0.3.12-0``,  ``0.3.10-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.9-1``,  ``0.2.9-0``
+
+      
+
    
    :depends bcftools: 
    :depends bx-python: 
-   :depends bzip2: >=1.0.8,<2.0a0
-   :depends libdeflate: >=1.5,<1.6.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libdeflate: ``>=1.5,<1.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends nose: 
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends samtools: 
    :depends scipy: 
-   :depends xz: >=5.2.4,<5.3.0a0
+   :depends xz: ``>=5.2.4,<5.3.0a0``
    :requirements:
 
    .. rubric:: Installation

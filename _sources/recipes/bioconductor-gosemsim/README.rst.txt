@@ -8,6 +8,7 @@ bioconductor-gosemsim
 
 .. conda:recipe:: bioconductor-gosemsim
    :replaces_section_title:
+   :noindex:
 
    GO\-terms Semantic Similarity Measures
 
@@ -23,15 +24,30 @@ bioconductor-gosemsim
 
    |downloads_bioconductor-gosemsim| |docker_bioconductor-gosemsim|
 
-   :versions: 2.14.0-0, 2.12.0-0, 2.10.0-1, 2.8.0-0, 2.6.2-0, 2.4.0-0, 2.2.0-1, 2.2.0-0, 1.30.3-0, 1.29.0-0, 1.28.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.2-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>1.30.3-0</code>,  </span></summary>
+      
+
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.30.3-0``,  ``1.29.0-0``,  ``1.28.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-go.db: >=3.11.0,<3.12.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcpp: 
    :requirements:
 

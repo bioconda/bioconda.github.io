@@ -8,6 +8,7 @@ perl-statistics-frequency
 
 .. conda:recipe:: perl-statistics-frequency
    :replaces_section_title:
+   :noindex:
 
    simple counting of elements
 
@@ -22,9 +23,16 @@ perl-statistics-frequency
 
    |downloads_perl-statistics-frequency| |docker_perl-statistics-frequency|
 
-   :versions: 0.04-2, 0.04-1
+   :versions:
+      
+      
+
+      ``0.04-2``,  ``0.04-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

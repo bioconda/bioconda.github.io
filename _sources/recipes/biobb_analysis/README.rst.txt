@@ -8,6 +8,7 @@ biobb_analysis
 
 .. conda:recipe:: biobb_analysis
    :replaces_section_title:
+   :noindex:
 
    Biobb\_analysis is the Biobb module collection to perform analysis of molecular dynamics simulations.
 
@@ -46,12 +47,27 @@ biobb_analysis
 
    |downloads_biobb_analysis| |docker_biobb_analysis|
 
-   :versions: 3.0.1-0, 3.0.0-0, 2.0.3-0, 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0, 0.2.0-0, 0.1.9-0, 0.1.8-0, 0.1.7-0, 0.1.6-0, 0.1.4-0, 0.1.3-0, 0.1.2-0, 0.1.1-0, 0.1.0-0, 0.0.9-0, 0.0.8-0, 0.0.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+      
+
+      ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends ambertools: 20.0
-   :depends biobb_common: 3.0.0
-   :depends gromacs: 2019.1
-   :depends python: 3.7.*
+   :depends ambertools: ``20.0``
+   :depends biobb_common: ``3.0.0``
+   :depends gromacs: ``2019.1``
+   :depends python: ``3.7.*``
    :requirements:
 
    .. rubric:: Installation

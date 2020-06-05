@@ -8,6 +8,7 @@ sword
 
 .. conda:recipe:: sword
    :replaces_section_title:
+   :noindex:
 
    SWORD \- a highly efficient protein database search
 
@@ -22,10 +23,17 @@ sword
 
    |downloads_sword| |docker_sword|
 
-   :versions: 1.0.4-0, 1.0.3-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

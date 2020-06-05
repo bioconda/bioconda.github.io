@@ -8,6 +8,7 @@ pmmrcalculator
 
 .. conda:recipe:: pmmrcalculator
    :replaces_section_title:
+   :noindex:
 
    A small python tool to calculate pairwise mismatch rate between all individuals in an EigenStrat dataset.
 
@@ -22,9 +23,16 @@ pmmrcalculator
 
    |downloads_pmmrcalculator| |docker_pmmrcalculator|
 
-   :versions: 1.0.4-0, 1.0.3-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends python: 3.7.*
+   :depends python: ``3.7.*``
    :requirements:
 
    .. rubric:: Installation

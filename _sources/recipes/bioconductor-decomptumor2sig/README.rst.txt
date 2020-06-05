@@ -8,6 +8,7 @@ bioconductor-decomptumor2sig
 
 .. conda:recipe:: bioconductor-decomptumor2sig
    :replaces_section_title:
+   :noindex:
 
    Decomposition of individual tumors into mutational signatures by signature refitting
 
@@ -22,25 +23,32 @@ bioconductor-decomptumor2sig
 
    |downloads_bioconductor-decomptumor2sig| |docker_bioconductor-decomptumor2sig|
 
-   :versions: 2.4.0-0, 2.2.0-0, 2.0.0-1
+   :versions:
+      
+      
+
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: >=1.4.0,<1.5.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: >=3.2.0,<3.3.0
-   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-variantannotation: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-ggseqlogo: 
    :depends r-gridextra: 
    :depends r-matrix: 
    :depends r-plyr: 
-   :depends r-quadprog: >=1.5-5
+   :depends r-quadprog: ``>=1.5-5``
    :depends r-vcfr: 
    :requirements:
 

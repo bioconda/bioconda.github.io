@@ -8,6 +8,7 @@ bioconductor-flowtime
 
 .. conda:recipe:: bioconductor-flowtime
    :replaces_section_title:
+   :noindex:
 
    Annotation and analysis of biological dynamical systems using flow cytometry
 
@@ -22,10 +23,17 @@ bioconductor-flowtime
 
    |downloads_bioconductor-flowtime| |docker_bioconductor-flowtime|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-plyr: 
    :requirements:
 

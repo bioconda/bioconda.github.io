@@ -8,6 +8,7 @@ bioconductor-clariomshumantranscriptcluster.db
 
 .. conda:recipe:: bioconductor-clariomshumantranscriptcluster.db
    :replaces_section_title:
+   :noindex:
 
    Affymetrix clariomshuman annotation data \(chip clariomshumantranscriptcluster\)
 
@@ -22,12 +23,19 @@ bioconductor-clariomshumantranscriptcluster.db
 
    |downloads_bioconductor-clariomshumantranscriptcluster.db| |docker_bioconductor-clariomshumantranscriptcluster.db|
 
-   :versions: 8.7.0-4, 8.7.0-3, 8.7.0-2, 8.7.0-0
+   :versions:
+      
+      
+
+      ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-2``,  ``8.7.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

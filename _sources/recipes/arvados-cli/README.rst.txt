@@ -8,6 +8,7 @@ arvados-cli
 
 .. conda:recipe:: arvados-cli
    :replaces_section_title:
+   :noindex:
 
    Command line interface to Arvados\, a free and open source platform for big data science
 
@@ -22,7 +23,14 @@ arvados-cli
 
    |downloads_arvados-cli| |docker_arvados-cli|
 
-   :versions: 0.1.20151207150126-0
+   :versions:
+      
+      
+
+      ``0.1.20151207150126-0``
+
+      
+
    
    :depends curl: 
    :depends ruby: 

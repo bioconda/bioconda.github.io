@@ -8,6 +8,7 @@ clame
 
 .. conda:recipe:: clame
    :replaces_section_title:
+   :noindex:
 
    CLAME is a binning software for metagenomic reads. It immplements a fm\-index search algorithm for nucleotide sequence alignment. Then it uses strongly connected component strategy to bin sequences with similar DNA composition.
 
@@ -23,11 +24,18 @@ clame
 
    |downloads_clame| |docker_clame|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends _openmp_mutex: >=4.5
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

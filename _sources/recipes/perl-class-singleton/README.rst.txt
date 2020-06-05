@@ -8,6 +8,7 @@ perl-class-singleton
 
 .. conda:recipe:: perl-class-singleton
    :replaces_section_title:
+   :noindex:
 
    Base class for creating singleton objects
 
@@ -22,9 +23,16 @@ perl-class-singleton
 
    |downloads_perl-class-singleton| |docker_perl-class-singleton|
 
-   :versions: 1.5-0
+   :versions:
+      
+      
+
+      ``1.5-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

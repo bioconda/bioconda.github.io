@@ -8,6 +8,7 @@ bioconductor-flowbin
 
 .. conda:recipe:: bioconductor-flowbin
    :replaces_section_title:
+   :noindex:
 
    Combining multitube flow cytometry data by binning
 
@@ -22,13 +23,20 @@ bioconductor-flowbin
 
    |downloads_bioconductor-flowbin| |docker_bioconductor-flowbin|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowfp: >=1.46.0,<1.47.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowfp: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-class: 
    :depends r-snow: 
    :requirements:

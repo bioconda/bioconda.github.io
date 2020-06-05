@@ -8,6 +8,7 @@ perl-term-table
 
 .. conda:recipe:: perl-term-table
    :replaces_section_title:
+   :noindex:
 
    Format a header and rows into a table
 
@@ -22,9 +23,16 @@ perl-term-table
 
    |downloads_perl-term-table| |docker_perl-term-table|
 
-   :versions: 0.013-0, 0.012-0
+   :versions:
+      
+      
+
+      ``0.013-0``,  ``0.012-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-importer: 
    :requirements:

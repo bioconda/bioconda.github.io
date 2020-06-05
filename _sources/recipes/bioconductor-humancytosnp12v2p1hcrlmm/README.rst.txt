@@ -8,6 +8,7 @@ bioconductor-humancytosnp12v2p1hcrlmm
 
 .. conda:recipe:: bioconductor-humancytosnp12v2p1hcrlmm
    :replaces_section_title:
+   :noindex:
 
    Metadata for fast genotyping with the \'crlmm\' package
 
@@ -22,10 +23,17 @@ bioconductor-humancytosnp12v2p1hcrlmm
 
    |downloads_bioconductor-humancytosnp12v2p1hcrlmm| |docker_bioconductor-humancytosnp12v2p1hcrlmm|
 
-   :versions: 1.0.1-4, 1.0.1-3, 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

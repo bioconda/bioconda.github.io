@@ -8,6 +8,7 @@ perl-term-progressbar
 
 .. conda:recipe:: perl-term-progressbar
    :replaces_section_title:
+   :noindex:
 
    provide a progress meter on a standard terminal
 
@@ -22,9 +23,16 @@ perl-term-progressbar
 
    |downloads_perl-term-progressbar| |docker_perl-term-progressbar|
 
-   :versions: 2.22-0, 2.21-1, 2.21-0
+   :versions:
+      
+      
+
+      ``2.22-0``,  ``2.21-1``,  ``2.21-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-class-methodmaker: 
    :requirements:

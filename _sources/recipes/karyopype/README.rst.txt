@@ -8,6 +8,7 @@ karyopype
 
 .. conda:recipe:: karyopype
    :replaces_section_title:
+   :noindex:
 
    Chromosomal visualization in Python.
 
@@ -22,12 +23,19 @@ karyopype
 
    |downloads_karyopype| |docker_karyopype|
 
-   :versions: 0.1.6-0
+   :versions:
+      
+      
+
+      ``0.1.6-0``
+
+      
+
    
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >3
+   :depends python: ``>3``
    :requirements:
 
    .. rubric:: Installation

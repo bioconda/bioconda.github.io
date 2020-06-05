@@ -8,6 +8,7 @@ bioconductor-synlet
 
 .. conda:recipe:: bioconductor-synlet
    :replaces_section_title:
+   :noindex:
 
    Hits Selection for Synthetic Lethal RNAi Screen Data
 
@@ -23,10 +24,17 @@ bioconductor-synlet
 
    |downloads_bioconductor-synlet| |docker_bioconductor-synlet|
 
-   :versions: 1.18.0-0, 1.16.0-0, 1.14.0-1, 1.14.0-0, 1.12.1-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-rankprod: >=3.14.0,<3.15.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rankprod: ``>=3.14.0,<3.15.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doby: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

@@ -8,6 +8,7 @@ regional
 
 .. conda:recipe:: regional
    :replaces_section_title:
+   :noindex:
 
    simple manipulation and display of spatial regions in python
 
@@ -22,10 +23,17 @@ regional
 
    |downloads_regional| |docker_regional|
 
-   :versions: 1.1.2-0
+   :versions:
+      
+      
+
+      ``1.1.2-0``
+
+      
+
    
    :depends matplotlib: 
-   :depends numpy: !=1.13.0
+   :depends numpy: ``!=1.13.0``
    :depends python: 
    :depends scipy: 
    :requirements:

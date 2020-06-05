@@ -8,6 +8,7 @@ slclust
 
 .. conda:recipe:: slclust
    :replaces_section_title:
+   :noindex:
 
    A utility that performs single\-linkage clustering with the option of applying a Jaccard similarity coefficient to break weakly bound clusters into distinct clusters.
 
@@ -22,9 +23,16 @@ slclust
 
    |downloads_slclust| |docker_slclust|
 
-   :versions: 02022010-3, 02022010-2, 02022010-1, 02022010-0
+   :versions:
+      
+      
+
+      ``02022010-3``,  ``02022010-2``,  ``02022010-1``,  ``02022010-0``
+
+      
+
    
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

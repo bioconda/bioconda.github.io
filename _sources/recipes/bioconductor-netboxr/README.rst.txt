@@ -8,6 +8,7 @@ bioconductor-netboxr
 
 .. conda:recipe:: bioconductor-netboxr
    :replaces_section_title:
+   :noindex:
 
    netboxr
 
@@ -22,14 +23,21 @@ bioconductor-netboxr
 
    |downloads_bioconductor-netboxr| |docker_bioconductor-netboxr|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dt: 
    :depends r-gplots: 
-   :depends r-igraph: >=1.2.4.1
+   :depends r-igraph: ``>=1.2.4.1``
    :depends r-jsonlite: 
    :depends r-plyr: 
    :requirements:

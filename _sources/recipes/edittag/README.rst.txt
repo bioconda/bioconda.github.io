@@ -8,6 +8,7 @@ edittag
 
 .. conda:recipe:: edittag
    :replaces_section_title:
+   :noindex:
 
    Design and check sets of edit metric sequence tags.
 
@@ -22,9 +23,16 @@ edittag
 
    |downloads_edittag| |docker_edittag|
 
-   :versions: 1.1-2, 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+
+      
+
    
-   :depends numpy: >=1.3
+   :depends numpy: ``>=1.3``
    :depends python: 
    :requirements:
 

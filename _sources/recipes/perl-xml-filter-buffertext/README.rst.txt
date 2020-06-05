@@ -8,6 +8,7 @@ perl-xml-filter-buffertext
 
 .. conda:recipe:: perl-xml-filter-buffertext
    :replaces_section_title:
+   :noindex:
 
    Filter to put all characters\(\) in one event
 
@@ -22,9 +23,16 @@ perl-xml-filter-buffertext
 
    |downloads_perl-xml-filter-buffertext| |docker_perl-xml-filter-buffertext|
 
-   :versions: 1.01-2, 1.01-1, 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-2``,  ``1.01-1``,  ``1.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-xml-sax-base: 
    :requirements:
 

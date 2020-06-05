@@ -8,6 +8,7 @@ vcf2db
 
 .. conda:recipe:: vcf2db
    :replaces_section_title:
+   :noindex:
 
    Create a gemini\-compatible database from a VCF
 
@@ -22,13 +23,28 @@ vcf2db
 
    |downloads_vcf2db| |docker_vcf2db|
 
-   :versions: 2020.02.24-0, 2018.10.26-1, 2018.10.26-0, 2018.05.23-2, 2018.05.23-0, 2018.01.23-0, 2017.12.11-0, 2017.11.15-0, 2017.10.11-0, 2017.09.14-0, 2017.04.12-0, 2017.03.01-0, 2017.02.25-0, 2017.02.24-1, 2017.02.24-0, 2017.01.10-0, 2016.12.09-1, 2016.12.09-0, 2016.11.08-0, 2016.04.29-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2020.02.24-0</code>,  <code>2018.10.26-1</code>,  <code>2018.10.26-0</code>,  <code>2018.05.23-2</code>,  <code>2018.05.23-0</code>,  <code>2018.01.23-0</code>,  <code>2017.12.11-0</code>,  <code>2017.11.15-0</code>,  <code>2017.10.11-0</code>,  </span></summary>
+      
+
+      ``2020.02.24-0``,  ``2018.10.26-1``,  ``2018.10.26-0``,  ``2018.05.23-2``,  ``2018.05.23-0``,  ``2018.01.23-0``,  ``2017.12.11-0``,  ``2017.11.15-0``,  ``2017.10.11-0``,  ``2017.09.14-0``,  ``2017.04.12-0``,  ``2017.03.01-0``,  ``2017.02.25-0``,  ``2017.02.24-1``,  ``2017.02.24-0``,  ``2017.01.10-0``,  ``2016.12.09-1``,  ``2016.12.09-0``,  ``2016.11.08-0``,  ``2016.04.29-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends cyvcf2: 
-   :depends geneimpacts: >0.2.0
+   :depends geneimpacts: ``>0.2.0``
    :depends nomkl: 
    :depends numpy: 
-   :depends peddy: >=0.2.9
+   :depends peddy: ``>=0.2.9``
    :depends python: 
    :depends python-snappy: 
    :depends snappy: 

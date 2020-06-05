@@ -8,6 +8,7 @@ fastindep
 
 .. conda:recipe:: fastindep
    :replaces_section_title:
+   :noindex:
 
    A fast random heuristic algorithm for identifying large sets of unrelated individuals and unrelated markers
 
@@ -22,9 +23,16 @@ fastindep
 
    |downloads_fastindep| |docker_fastindep|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

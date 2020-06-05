@@ -8,6 +8,7 @@ bioconductor-aucell
 
 .. conda:recipe:: bioconductor-aucell
    :replaces_section_title:
+   :noindex:
 
    AUCell\: Analysis of \'gene set\' activity in single\-cell RNA\-seq data \(e.g. identify cells with specific gene signatures\)
 
@@ -22,13 +23,20 @@ bioconductor-aucell
 
    |downloads_bioconductor-aucell| |docker_bioconductor-aucell|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.1-0, 1.4.1-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-mixtools: 
    :depends r-r.utils: 

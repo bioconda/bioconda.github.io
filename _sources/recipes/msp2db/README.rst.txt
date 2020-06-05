@@ -8,6 +8,7 @@ msp2db
 
 .. conda:recipe:: msp2db
    :replaces_section_title:
+   :noindex:
 
    Python package to create an SQLite database from a collection of MSP mass spectromertry spectra files. Currently works with MSP files formated as MassBank records or as MoNA records. The resulting SQLite database can be used for spectral matching with msPurity Bioconductor R package\,
 
@@ -22,7 +23,14 @@ msp2db
 
    |downloads_msp2db| |docker_msp2db|
 
-   :versions: 0.0.9-0, 0.0.7-0, 0.0.6-0
+   :versions:
+      
+      
+
+      ``0.0.9-0``,  ``0.0.7-0``,  ``0.0.6-0``
+
+      
+
    
    :depends pubchempy: 
    :depends python: 

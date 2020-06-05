@@ -8,6 +8,7 @@ pycli
 
 .. conda:recipe:: pycli
    :replaces_section_title:
+   :noindex:
 
    Simple\, object\-oriented approach to Python CLI apps
 
@@ -22,9 +23,16 @@ pycli
 
    |downloads_pycli| |docker_pycli|
 
-   :versions: 2.0.3-1, 2.0.3-0
+   :versions:
+      
+      
+
+      ``2.0.3-1``,  ``2.0.3-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

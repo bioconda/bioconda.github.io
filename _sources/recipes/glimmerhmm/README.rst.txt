@@ -8,6 +8,7 @@ glimmerhmm
 
 .. conda:recipe:: glimmerhmm
    :replaces_section_title:
+   :noindex:
 
    GlimmerHMM is a gene finder based on a Generalized Hidden Markov Model \(GHMM\)
 
@@ -22,11 +23,18 @@ glimmerhmm
 
    |downloads_glimmerhmm| |docker_glimmerhmm|
 
-   :versions: 3.0.4-3, 3.0.4-2, 3.0.4-1, 3.0.4-0
+   :versions:
+      
+      
+
+      ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ epydoc
 
 .. conda:recipe:: epydoc
    :replaces_section_title:
+   :noindex:
 
    Edward Loper\'s API Documentation Generation Tool
 
@@ -22,9 +23,16 @@ epydoc
 
    |downloads_epydoc| |docker_epydoc|
 
-   :versions: 3.0.1-1, 3.0.1-0
+   :versions:
+      
+      
+
+      ``3.0.1-1``,  ``3.0.1-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

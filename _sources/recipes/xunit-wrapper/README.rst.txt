@@ -8,6 +8,7 @@ xunit-wrapper
 
 .. conda:recipe:: xunit-wrapper
    :replaces_section_title:
+   :noindex:
 
    Wrap python functions with a decorator to handle building XUnit reports
 
@@ -22,10 +23,17 @@ xunit-wrapper
 
    |downloads_xunit-wrapper| |docker_xunit-wrapper|
 
-   :versions: 0.12-1, 0.12-0
+   :versions:
+      
+      
+
+      ``0.12-1``,  ``0.12-0``
+
+      
+
    
    :depends future: 
-   :depends junit-xml: 1.7
+   :depends junit-xml: ``1.7``
    :depends python: 
    :requirements:
 

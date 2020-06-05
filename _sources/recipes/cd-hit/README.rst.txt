@@ -8,6 +8,7 @@ cd-hit
 
 .. conda:recipe:: cd-hit
    :replaces_section_title:
+   :noindex:
 
    Clusters and compares protein or nucleotide sequences
 
@@ -22,12 +23,27 @@ cd-hit
 
    |downloads_cd-hit| |docker_cd-hit|
 
-   :versions: 4.8.1-3, 4.8.1-2, 4.8.1-1, 4.8.1-0, 4.6.8-2, 4.6.8-1, 4.6.8-0, 4.6.6-0, 4.6.4-1, 4.6.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>4.8.1-3</code>,  <code>4.8.1-2</code>,  <code>4.8.1-1</code>,  <code>4.8.1-0</code>,  <code>4.6.8-2</code>,  <code>4.6.8-1</code>,  <code>4.6.8-0</code>,  <code>4.6.6-0</code>,  <code>4.6.4-1</code>,  </span></summary>
+      
+
+      ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``,  ``4.8.1-0``,  ``4.6.8-2``,  ``4.6.8-1``,  ``4.6.8-0``,  ``4.6.6-0``,  ``4.6.4-1``,  ``4.6.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends openmp: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

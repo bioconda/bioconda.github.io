@@ -8,6 +8,7 @@ rdfextras
 
 .. conda:recipe:: rdfextras
    :replaces_section_title:
+   :noindex:
 
    RDFExtras provide tools\, extra stores and such for RDFLib.
 
@@ -22,12 +23,19 @@ rdfextras
 
    |downloads_rdfextras| |docker_rdfextras|
 
-   :versions: 0.4-3, 0.4-2, 0.4-0
+   :versions:
+      
+      
+
+      ``0.4-3``,  ``0.4-2``,  ``0.4-0``
+
+      
+
    
    :depends isodate: 
-   :depends pyparsing: <=1.5.7
-   :depends python: >=2.7,<2.8.0a0
-   :depends rdflib: >=3.2.1
+   :depends pyparsing: ``<=1.5.7``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends rdflib: ``>=3.2.1``
    :requirements:
 
    .. rubric:: Installation

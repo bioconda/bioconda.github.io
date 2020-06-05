@@ -8,6 +8,7 @@ bioconductor-gcmapweb
 
 .. conda:recipe:: bioconductor-gcmapweb
    :replaces_section_title:
+   :noindex:
 
    A web interface for gene\-set enrichment analyses
 
@@ -22,15 +23,22 @@ bioconductor-gcmapweb
 
    |downloads_bioconductor-gcmapweb| |docker_bioconductor-gcmapweb|
 
-   :versions: 1.27.0-0, 1.26.0-0, 1.24.0-1, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.27.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-gcmap: >=1.32.0,<1.33.0
-   :depends bioconductor-gseabase: >=1.50.0,<1.51.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-gcmap: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-brew: 
    :depends r-hwriter: 
    :depends r-rook: 

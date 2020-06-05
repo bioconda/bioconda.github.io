@@ -8,6 +8,7 @@ perl-module-fromperlver
 
 .. conda:recipe:: perl-module-fromperlver/0.008002
    :replaces_section_title:
+   :noindex:
 
    install modules compatible with the running perl.
 
@@ -22,9 +23,16 @@ perl-module-fromperlver
 
    |downloads_perl-module-fromperlver| |docker_perl-module-fromperlver|
 
-   :versions: 0.008002-1, 0.008002-0
+   :versions:
+      
+      
+
+      ``0.008002-1``,  ``0.008002-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-archive-tar: 
    :depends perl-carp: 
    :depends perl-file-copy-recursive: 

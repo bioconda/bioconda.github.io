@@ -8,6 +8,7 @@ bioconductor-illuminamousev2.db
 
 .. conda:recipe:: bioconductor-illuminamousev2.db
    :replaces_section_title:
+   :noindex:
 
    Illumina MouseWG6v2 annotation data \(chip illuminaMousev2\)
 
@@ -22,12 +23,19 @@ bioconductor-illuminamousev2.db
 
    |downloads_bioconductor-illuminamousev2.db| |docker_bioconductor-illuminamousev2.db|
 
-   :versions: 1.26.0-9, 1.26.0-8, 1.26.0-7, 1.26.0-5, 1.26.0-4, 1.26.0-2, 1.26.0-1, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-9``,  ``1.26.0-8``,  ``1.26.0-7``,  ``1.26.0-5``,  ``1.26.0-4``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ snmf
 
 .. conda:recipe:: snmf
    :replaces_section_title:
+   :noindex:
 
    Fast and efficient program for estimating individual admixture coefficients based on sparse non\-negative matrix factorization and population genetics
 
@@ -22,7 +23,14 @@ snmf
 
    |downloads_snmf| |docker_snmf|
 
-   :versions: 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``
+
+      
+
    
    :requirements:
 

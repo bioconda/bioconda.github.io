@@ -8,6 +8,7 @@ eggnog-mapper
 
 .. conda:recipe:: eggnog-mapper
    :replaces_section_title:
+   :noindex:
 
    Fast genome\-wide functional annotation through orthology assignment.
 
@@ -25,11 +26,26 @@ eggnog-mapper
 
    |downloads_eggnog-mapper| |docker_eggnog-mapper|
 
-   :versions: 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.0.3-3, 1.0.3-2, 1.0.3-1, 1.0.3-0, 1.0.2-0, 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
+
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
-   :depends diamond: >0.9
-   :depends python: <3
+   :depends diamond: ``>0.9``
+   :depends python: ``<3``
    :depends wget: 
    :requirements:
 

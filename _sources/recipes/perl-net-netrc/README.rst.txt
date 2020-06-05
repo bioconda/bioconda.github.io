@@ -8,6 +8,7 @@ perl-net-netrc
 
 .. conda:recipe:: perl-net-netrc/2.14
    :replaces_section_title:
+   :noindex:
 
    OO interface to users netrc file
 
@@ -22,9 +23,16 @@ perl-net-netrc
 
    |downloads_perl-net-netrc| |docker_perl-net-netrc|
 
-   :versions: 2.14-1, 2.14-0
+   :versions:
+      
+      
+
+      ``2.14-1``,  ``2.14-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

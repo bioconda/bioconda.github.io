@@ -8,6 +8,7 @@ mirtop
 
 .. conda:recipe:: mirtop
    :replaces_section_title:
+   :noindex:
 
    Small RNA\-seq annotation
 
@@ -23,7 +24,22 @@ mirtop
 
    |downloads_mirtop| |docker_mirtop|
 
-   :versions: 0.4.23-0, 0.4.22-0, 0.4.21-0, 0.4.20-0, 0.4.19-0, 0.4.18a-2, 0.4.18a-1, 0.4.18a-0, 0.4.17a-0, 0.4.15a-0, 0.3.17-1, 0.3.17-0, 0.3.11a0-2, 0.3.11a0-0, 0.3.6a0-0, 0.3.2a0-0, 0.1.8a0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.23-0</code>,  <code>0.4.22-0</code>,  <code>0.4.21-0</code>,  <code>0.4.20-0</code>,  <code>0.4.19-0</code>,  <code>0.4.18a-2</code>,  <code>0.4.18a-1</code>,  <code>0.4.18a-0</code>,  <code>0.4.17a-0</code>,  </span></summary>
+      
+
+      ``0.4.23-0``,  ``0.4.22-0``,  ``0.4.21-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.18a-2``,  ``0.4.18a-1``,  ``0.4.18a-0``,  ``0.4.17a-0``,  ``0.4.15a-0``,  ``0.3.17-1``,  ``0.3.17-0``,  ``0.3.11a0-2``,  ``0.3.11a0-0``,  ``0.3.6a0-0``,  ``0.3.2a0-0``,  ``0.1.8a0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends pandas: 

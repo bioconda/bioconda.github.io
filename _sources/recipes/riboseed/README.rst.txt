@@ -8,6 +8,7 @@ riboseed
 
 .. conda:recipe:: riboseed
    :replaces_section_title:
+   :noindex:
 
    riboSeed\: assemble across rDNA regions
 
@@ -22,7 +23,22 @@ riboseed
 
    |downloads_riboseed| |docker_riboseed|
 
-   :versions: 0.4.90-0, 0.4.89-0, 0.4.88-0, 0.4.87-0, 0.4.86-0, 0.4.73-1, 0.4.73-0, 0.4.71-0, 0.4.70-2, 0.4.68-2, 0.4.67-2, 0.4.65-1, 0.4.47-1, 0.4.47-0, 0.4.16-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.90-0</code>,  <code>0.4.89-0</code>,  <code>0.4.88-0</code>,  <code>0.4.87-0</code>,  <code>0.4.86-0</code>,  <code>0.4.73-1</code>,  <code>0.4.73-0</code>,  <code>0.4.71-0</code>,  <code>0.4.70-2</code>,  </span></summary>
+      
+
+      ``0.4.90-0``,  ``0.4.89-0``,  ``0.4.88-0``,  ``0.4.87-0``,  ``0.4.86-0``,  ``0.4.73-1``,  ``0.4.73-0``,  ``0.4.71-0``,  ``0.4.70-2``,  ``0.4.68-2``,  ``0.4.67-2``,  ``0.4.65-1``,  ``0.4.47-1``,  ``0.4.47-0``,  ``0.4.16-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends barrnap: 
    :depends bcbiogff: 
@@ -40,11 +56,11 @@ riboseed
    :depends prank: 
    :depends pyaml: 
    :depends pysam: 
-   :depends python: 3.5.*
-   :depends quast: >=4.6.3
+   :depends python: ``3.5.*``
+   :depends quast: ``>=4.6.3``
    :depends samtools: 
    :depends skesa: 
-   :depends spades: 3.9.1
+   :depends spades: ``3.9.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-parse-recdescent
 
 .. conda:recipe:: perl-parse-recdescent
    :replaces_section_title:
+   :noindex:
 
    Generate Recursive\-Descent Parsers
 
@@ -22,9 +23,16 @@ perl-parse-recdescent
 
    |downloads_perl-parse-recdescent| |docker_perl-parse-recdescent|
 
-   :versions: 1.967015-0, 1.967013-1, 1.967013-0
+   :versions:
+      
+      
+
+      ``1.967015-0``,  ``1.967013-1``,  ``1.967013-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

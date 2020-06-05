@@ -8,6 +8,7 @@ fineradstructure
 
 .. conda:recipe:: fineradstructure
    :replaces_section_title:
+   :noindex:
 
    Inference of population structure from RAD datasets
 
@@ -22,12 +23,19 @@ fineradstructure
 
    |downloads_fineradstructure| |docker_fineradstructure|
 
-   :versions: 0.3.2r109-0
+   :versions:
+      
+      
+
+      ``0.3.2r109-0``
+
+      
+
    
-   :depends gsl: >=2.4,<2.5.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends gsl: ``>=2.4,<2.5.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

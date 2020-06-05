@@ -8,6 +8,7 @@ savage
 
 .. conda:recipe:: savage
    :replaces_section_title:
+   :noindex:
 
    SAVAGE \(Strain Aware VirAl GEnome assembly\) reconstructs individual \(viral\) haplotypes from a mixed sample.
 
@@ -22,14 +23,21 @@ savage
 
    |downloads_savage| |docker_savage|
 
-   :versions: 0.4.2-0, 0.4.1-0, 0.4.0-2, 0.4.0-1, 0.4.0-0, 0.3.0-0, 0.2.1-1, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``
+
+      
+
    
-   :depends boost: >=1.70.0,<1.70.1.0a0
+   :depends boost: ``>=1.70.0,<1.70.1.0a0``
    :depends bwa: 
-   :depends kallisto: >=0.43.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=2.7,<2.8.0a0
+   :depends kallisto: ``>=0.43.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends rust-overlaps: 
    :requirements:
 

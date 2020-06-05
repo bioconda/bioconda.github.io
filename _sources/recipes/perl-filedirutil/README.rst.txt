@@ -8,6 +8,7 @@ perl-filedirutil
 
 .. conda:recipe:: perl-filedirutil
    :replaces_section_title:
+   :noindex:
 
    A Moose Role for basic File IO
 
@@ -22,9 +23,16 @@ perl-filedirutil
 
    |downloads_perl-filedirutil| |docker_perl-filedirutil|
 
-   :versions: v0.04-0, v0.03-2, v0.03-1, v0.03-0
+   :versions:
+      
+      
+
+      ``v0.04-0``,  ``v0.03-2``,  ``v0.03-1``,  ``v0.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-moose: 
    :depends perl-namespace-autoclean: 
    :depends perl-params-coerce: 

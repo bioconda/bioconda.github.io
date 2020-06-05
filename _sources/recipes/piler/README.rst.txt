@@ -8,6 +8,7 @@ piler
 
 .. conda:recipe:: piler
    :replaces_section_title:
+   :noindex:
 
    PILER is public domain software for analyzing repetitive DNA found in genome sequences.
 
@@ -22,7 +23,14 @@ piler
 
    |downloads_piler| |docker_piler|
 
-   :versions: 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-1``,  ``0.1-0``
+
+      
+
    
    :requirements:
 

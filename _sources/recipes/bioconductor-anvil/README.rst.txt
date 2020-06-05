@@ -8,6 +8,7 @@ bioconductor-anvil
 
 .. conda:recipe:: bioconductor-anvil
    :replaces_section_title:
+   :noindex:
 
    Bioconductor on the AnVIL compute environment
 
@@ -22,16 +23,23 @@ bioconductor-anvil
 
    |downloads_bioconductor-anvil| |docker_bioconductor-anvil|
 
-   :versions: 1.0.3-0
+   :versions:
+      
+      
+
+      ``1.0.3-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-curl: 
    :depends r-dplyr: 
    :depends r-futile.logger: 
    :depends r-httr: 
    :depends r-jsonlite: 
-   :depends r-rapiclient: >=0.1.3
+   :depends r-rapiclient: ``>=0.1.3``
    :depends r-tibble: 
    :requirements:
 

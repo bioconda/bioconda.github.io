@@ -8,6 +8,7 @@ bioconductor-linc
 
 .. conda:recipe:: bioconductor-linc
    :replaces_section_title:
+   :noindex:
 
    co\-expression of lincRNAs and protein\-coding genes
 
@@ -23,25 +24,32 @@ bioconductor-linc
 
    |downloads_bioconductor-linc| |docker_bioconductor-linc|
 
-   :versions: 1.15.0-0, 1.14.0-0, 1.12.0-1, 1.10.0-0, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.15.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
-   :depends bioconductor-dose: >=3.14.0,<3.15.0
-   :depends bioconductor-ggtree: >=2.2.0,<2.3.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-reactomepa: >=1.32.0,<1.33.0
-   :depends bioconductor-sva: >=3.36.0,<3.37.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-ggtree: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-reactomepa: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-png: 
-   :depends r-rcpp: >=0.11.0
+   :depends r-rcpp: ``>=0.11.0``
    :depends r-reshape2: 
    :requirements:
 

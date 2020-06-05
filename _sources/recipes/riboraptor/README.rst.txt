@@ -8,6 +8,7 @@ riboraptor
 
 .. conda:recipe:: riboraptor
    :replaces_section_title:
+   :noindex:
 
    Python package to analyse ribosome profiling data
 
@@ -24,28 +25,35 @@ riboraptor
 
    |downloads_riboraptor| |docker_riboraptor|
 
-   :versions: 0.2.2-2, 0.2.2-1, 0.2.2-0
+   :versions:
+      
+      
+
+      ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``
+
+      
+
    
-   :depends biopython: >=1.70
-   :depends click: >=6.0
-   :depends click-help-colors: >=0.3
+   :depends biopython: ``>=1.70``
+   :depends click: ``>=6.0``
+   :depends click-help-colors: ``>=0.3``
    :depends fastqc: 
-   :depends htseq: >=0.9.1
-   :depends matplotlib: >=2.1.0
-   :depends numpy: >=1.11.0
-   :depends pandas: >=0.20.3
-   :depends pybedtools: >=0.7.10
-   :depends pybigwig: >=0.2.8
-   :depends pyfaidx: >=0.5.0
-   :depends pysam: >=0.11.2.2
-   :depends python: >=3
-   :depends scipy: >=0.19.1
-   :depends seaborn: >=0.8.1
-   :depends six: >=1.11.0
+   :depends htseq: ``>=0.9.1``
+   :depends matplotlib: ``>=2.1.0``
+   :depends numpy: ``>=1.11.0``
+   :depends pandas: ``>=0.20.3``
+   :depends pybedtools: ``>=0.7.10``
+   :depends pybigwig: ``>=0.2.8``
+   :depends pyfaidx: ``>=0.5.0``
+   :depends pysam: ``>=0.11.2.2``
+   :depends python: ``>=3``
+   :depends scipy: ``>=0.19.1``
+   :depends seaborn: ``>=0.8.1``
+   :depends six: ``>=1.11.0``
    :depends snakemake: 
    :depends sra-tools: 
    :depends star: 
-   :depends statsmodels: >=0.8.0
+   :depends statsmodels: ``>=0.8.0``
    :depends trim-galore: 
    :depends ucsc-bedgraphtobigwig: 
    :depends ucsc-bedsort: 

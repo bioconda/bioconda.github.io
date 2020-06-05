@@ -8,6 +8,7 @@ bioconductor-rat2302frmavecs
 
 .. conda:recipe:: bioconductor-rat2302frmavecs
    :replaces_section_title:
+   :noindex:
 
    Vectors used by frma for microarrays of type rat2302rnentrezg
 
@@ -22,12 +23,19 @@ bioconductor-rat2302frmavecs
 
    |downloads_bioconductor-rat2302frmavecs| |docker_bioconductor-rat2302frmavecs|
 
-   :versions: 0.99.11-3, 0.99.11-2, 0.99.11-1
+   :versions:
+      
+      
+
+      ``0.99.11-3``,  ``0.99.11-2``,  ``0.99.11-1``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-frma: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-frma: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

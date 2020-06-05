@@ -8,6 +8,7 @@ perl-test-requiresinternet
 
 .. conda:recipe:: perl-test-requiresinternet
    :replaces_section_title:
+   :noindex:
 
    Easily test network connectivity
 
@@ -22,9 +23,16 @@ perl-test-requiresinternet
 
    |downloads_perl-test-requiresinternet| |docker_perl-test-requiresinternet|
 
-   :versions: 0.05-0
+   :versions:
+      
+      
+
+      ``0.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-socket: 
    :requirements:
 

@@ -8,6 +8,7 @@ moabs
 
 .. conda:recipe:: moabs
    :replaces_section_title:
+   :noindex:
 
    Methylation analysis on Bisulfite\-Sequencing reads
 
@@ -22,20 +23,35 @@ moabs
 
    |downloads_moabs| |docker_moabs|
 
-   :versions: 1.3.9.4-0, 1.3.9.3-0, 1.3.9.2-0, 1.3.9.0-0, 1.3.8.9-0, 1.3.8.8-0, 1.3.8.7-0, 1.3.8.6-1, 1.3.8.6-0, 1.3.8.5-0, 1.3.8.4-2, 1.3.8.4-1, 1.3.8.4-0, 1.3.8.2-0, 1.3.8.1-1, 1.3.8.1-0, 1.3.7.9-1, 1.3.7.9-0, 1.3.7.8-0, 1.3.7.7-0, 1.3.7.6-0, 1.3.7.5-0, 1.3.4.6-0, 1.3.4.5-1, 1.3.4.5-0, 1.3.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.9.4-0</code>,  <code>1.3.9.3-0</code>,  <code>1.3.9.2-0</code>,  <code>1.3.9.0-0</code>,  <code>1.3.8.9-0</code>,  <code>1.3.8.8-0</code>,  <code>1.3.8.7-0</code>,  <code>1.3.8.6-1</code>,  <code>1.3.8.6-0</code>,  </span></summary>
+      
+
+      ``1.3.9.4-0``,  ``1.3.9.3-0``,  ``1.3.9.2-0``,  ``1.3.9.0-0``,  ``1.3.8.9-0``,  ``1.3.8.8-0``,  ``1.3.8.7-0``,  ``1.3.8.6-1``,  ``1.3.8.6-0``,  ``1.3.8.5-0``,  ``1.3.8.4-2``,  ``1.3.8.4-1``,  ``1.3.8.4-0``,  ``1.3.8.2-0``,  ``1.3.8.1-1``,  ``1.3.8.1-0``,  ``1.3.7.9-1``,  ``1.3.7.9-0``,  ``1.3.7.8-0``,  ``1.3.7.7-0``,  ``1.3.7.6-0``,  ``1.3.7.5-0``,  ``1.3.4.6-0``,  ``1.3.4.5-1``,  ``1.3.4.5-0``,  ``1.3.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends boost-cpp: >=1.70.0,<1.70.1.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libis: >=0.0.9
-   :depends libstdcxx-ng: >=7.5.0
-   :depends ncurses: >=6.1,<6.2.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libis: ``>=0.0.9``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends ncurses: ``>=6.1,<6.2.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-config-simple: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends wget: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

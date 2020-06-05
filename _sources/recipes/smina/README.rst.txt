@@ -8,6 +8,7 @@ smina
 
 .. conda:recipe:: smina
    :replaces_section_title:
+   :noindex:
 
    A fork of AutoDock Vina that is customized to better support scoring function development and high\-performance energy minimization.
 
@@ -22,7 +23,14 @@ smina
 
    |downloads_smina| |docker_smina|
 
-   :versions: 2017.11.9-0
+   :versions:
+      
+      
+
+      ``2017.11.9-0``
+
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ abacat
 
 .. conda:recipe:: abacat
    :replaces_section_title:
+   :noindex:
 
    abacat \- A BActerial genome Curation and Annotation Toolkit
 
@@ -23,14 +24,21 @@ abacat
 
    |downloads_abacat| |docker_abacat|
 
-   :versions: 0.0.4a-0
+   :versions:
+      
+      
+
+      ``0.0.4a-0``
+
+      
+
    
    :depends biopython: 
-   :depends fastani: >=1.3
+   :depends fastani: ``>=1.3``
    :depends matplotlib-base: 
    :depends pandas: 
-   :depends prodigal: >=2.6.2
-   :depends python: >=3.6
+   :depends prodigal: ``>=2.6.2``
+   :depends python: ``>=3.6``
    :depends scipy: 
    :requirements:
 

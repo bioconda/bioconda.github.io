@@ -8,6 +8,7 @@ cigar
 
 .. conda:recipe:: cigar
    :replaces_section_title:
+   :noindex:
 
    manipulate SAM cigar strings
 
@@ -22,7 +23,14 @@ cigar
 
    |downloads_cigar| |docker_cigar|
 
-   :versions: 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.1.3-0``
+
+      
+
    
    :depends python: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-universalmotif
 
 .. conda:recipe:: bioconductor-universalmotif
    :replaces_section_title:
+   :noindex:
 
    Import\, Modify\, and Export Motifs with R
 
@@ -22,25 +23,32 @@ bioconductor-universalmotif
 
    |downloads_bioconductor-universalmotif| |docker_bioconductor-universalmotif|
 
-   :versions: 1.6.3-0, 1.4.0-0, 1.2.1-0, 1.0.12-0
+   :versions:
+      
+      
+
+      ``1.6.3-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.12-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-ggtree: >=2.2.0,<2.3.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-ggtree: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-ggseqlogo: 
    :depends r-mass: 
    :depends r-processx: 
    :depends r-rcpp: 
    :depends r-rcppthread: 
-   :depends r-rdpack: >=0.7
+   :depends r-rdpack: ``>=0.7``
    :depends r-rlang: 
    :depends r-yaml: 
    :requirements:

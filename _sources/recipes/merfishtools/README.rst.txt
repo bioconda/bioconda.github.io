@@ -8,6 +8,7 @@ merfishtools
 
 .. conda:recipe:: merfishtools
    :replaces_section_title:
+   :noindex:
 
    MERFISHtools implement a Bayesian framework for accurately predicting gene or transcript expression from MERFISH data. On top\, differential expression analysis can be performed for two or multiple conditions\, including credible intervals for fold change and coefficient of variation\, and controlling the expected false discovery rate.
 
@@ -22,15 +23,30 @@ merfishtools
 
    |downloads_merfishtools| |docker_merfishtools|
 
-   :versions: 1.5.0-0, 1.4.0-0, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.2.0-1, 1.1.0-1, 1.0.0-1, 0.9.1-1, 0.9.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.2.0-1</code>,  <code>1.1.0-1</code>,  <code>1.0.0-1</code>,  <code>0.9.1-1</code>,  </span></summary>
+      
+
+      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.2.0-1``,  ``1.1.0-1``,  ``1.0.0-1``,  ``0.9.1-1``,  ``0.9.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libgcc-ng: >=4.9
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libgcc-ng: ``>=4.9``
    :depends matplotlib: 
    :depends numpy: 
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :depends pandas: 
-   :depends python: >=3.5,<3.6.0a0
+   :depends python: ``>=3.5,<3.6.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ tadtool
 
 .. conda:recipe:: tadtool
    :replaces_section_title:
+   :noindex:
 
    TADtool is an interactive tool for the identification of meaningful parameters in TAD\-calling algorithms for Hi\-C data
 
@@ -22,11 +23,18 @@ tadtool
 
    |downloads_tadtool| |docker_tadtool|
 
-   :versions: 0.81-0, 0.80-0, 0.79-0, 0.78-0, 0.77-0, 0.75-1, 0.75-0
+   :versions:
+      
+      
+
+      ``0.81-0``,  ``0.80-0``,  ``0.79-0``,  ``0.78-0``,  ``0.77-0``,  ``0.75-1``,  ``0.75-0``
+
+      
+
    
    :depends future: 
    :depends matplotlib: 
-   :depends numpy: >=1.9.0
+   :depends numpy: ``>=1.9.0``
    :depends progressbar2: 
    :depends python: 
    :requirements:

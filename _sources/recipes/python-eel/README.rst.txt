@@ -8,6 +8,7 @@ python-eel
 
 .. conda:recipe:: python-eel
    :replaces_section_title:
+   :noindex:
 
    Tool for finding evolutionarily conserved mammalian enhancer elements.
 
@@ -22,12 +23,19 @@ python-eel
 
    |downloads_python-eel| |docker_python-eel|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=2.7,<2.8.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

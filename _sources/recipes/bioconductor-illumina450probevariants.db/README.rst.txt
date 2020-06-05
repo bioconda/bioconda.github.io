@@ -8,6 +8,7 @@ bioconductor-illumina450probevariants.db
 
 .. conda:recipe:: bioconductor-illumina450probevariants.db
    :replaces_section_title:
+   :noindex:
 
    Annotation Package combining variant data from 1000 Genomes Project for Illumina HumanMethylation450 Bead Chip probes
 
@@ -22,10 +23,17 @@ bioconductor-illumina450probevariants.db
 
    |downloads_bioconductor-illumina450probevariants.db| |docker_bioconductor-illumina450probevariants.db|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

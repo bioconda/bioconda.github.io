@@ -8,6 +8,7 @@ wgs-assembler
 
 .. conda:recipe:: wgs-assembler
    :replaces_section_title:
+   :noindex:
 
    Celera Assembler \(wgs\-assembler\) is a de novo whole\-genome shotgun \(WGS\) DNA sequence assembler
 
@@ -22,7 +23,14 @@ wgs-assembler
 
    |downloads_wgs-assembler| |docker_wgs-assembler|
 
-   :versions: 8.3-0
+   :versions:
+      
+      
+
+      ``8.3-0``
+
+      
+
    
    :depends atac: 
    :depends blasr: 
@@ -32,7 +40,7 @@ wgs-assembler
    :depends libgcc: 
    :depends meryl: 
    :depends pbdagcon: 
-   :depends perl: 5.22.0*
+   :depends perl: ``5.22.0*``
    :depends samtools: 
    :depends sim4db: 
    :requirements:

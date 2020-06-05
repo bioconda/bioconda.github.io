@@ -8,6 +8,7 @@ perl-pod-coverage
 
 .. conda:recipe:: perl-pod-coverage/0.23
    :replaces_section_title:
+   :noindex:
 
    Checks if the documentation of a module is comprehensive
 
@@ -22,9 +23,16 @@ perl-pod-coverage
 
    |downloads_perl-pod-coverage| |docker_perl-pod-coverage|
 
-   :versions: 0.23-3, 0.23-2, 0.23-1, 0.23-0
+   :versions:
+      
+      
+
+      ``0.23-3``,  ``0.23-2``,  ``0.23-1``,  ``0.23-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-devel-symdump: 
    :depends perl-pod-parser: 
    :requirements:

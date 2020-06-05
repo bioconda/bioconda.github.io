@@ -8,6 +8,7 @@ bioconductor-linkhd
 
 .. conda:recipe:: bioconductor-linkhd
    :replaces_section_title:
+   :noindex:
 
    LinkHD\: a versatile framework to explore and integrate heterogeneous data
 
@@ -22,10 +23,17 @@ bioconductor-linkhd
 
    |downloads_bioconductor-linkhd| |docker_bioconductor-linkhd|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-multiassayexperiment: >=1.14.0,<1.15.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-data.table: 
    :depends r-emmeans: 

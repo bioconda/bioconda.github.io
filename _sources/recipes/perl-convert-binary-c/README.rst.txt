@@ -8,6 +8,7 @@ perl-convert-binary-c
 
 .. conda:recipe:: perl-convert-binary-c
    :replaces_section_title:
+   :noindex:
 
    Binary Data Conversion using C Types
 
@@ -22,11 +23,18 @@ perl-convert-binary-c
 
    |downloads_perl-convert-binary-c| |docker_perl-convert-binary-c|
 
-   :versions: 0.78-3, 0.78-2, 0.78-1, 0.78-0
+   :versions:
+      
+      
+
+      ``0.78-3``,  ``0.78-2``,  ``0.78-1``,  ``0.78-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

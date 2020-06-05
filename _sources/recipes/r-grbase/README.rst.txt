@@ -8,6 +8,7 @@ r-grbase
 
 .. conda:recipe:: r-grbase
    :replaces_section_title:
+   :noindex:
 
    The \'gRbase\' package provides general features which are used by other graphical modelling packages\, in particular by the packages \'gRain\'\, \'gRim\' and \'gRc\'. \'gRbase\' contains several data sets relevant for use in connection with graphical models. Almost all data sets used in the book Graphical Models with R \(2012\) are contained in \'gRbase\'. \'gRbase\' implements several graph algorithms \(based mainly on representing graphs as adjacency matrices \- either in the form of a standard matrix or a sparse matrix\). Some graph algorithms are\: \(i\) maximum cardinality search \(for marked and unmarked graphs\). \(ii\) moralize. \(iii\) triangulate. \(iv\) junction tree. \'gRbase\' facilitates array operations\, \'gRbase\' implements functions for testing for conditional independence. \'gRbase\' illustrates how hierarchical log\-linear models may be implemented and describes concept of graphical meta data. These features\, however\, are not maintained anymore and remains in \'gRbase\' only because there exists a paper describing these facilities\: A Common Platform for Graphical Models in R\: The \'gRbase\' Package\, Journal of Statistical Software\, Vol 14\, No 17\, 2005. NOTICE Proper functionality of \'gRbase\' requires that the packages graph\, \'Rgraphviz\' and \'RBGL\' are installed from \'bioconductor\'\; for installation instructions please refer to the web page given below.
 
@@ -22,18 +23,25 @@ r-grbase
 
    |downloads_r-grbase| |docker_r-grbase|
 
-   :versions: 1.8_3.4-4, 1.8_3.4-3, 1.8_3.4-2, 1.8_3.4-1, 1.8_3.4-0
+   :versions:
+      
+      
+
+      ``1.8_3.4-4``,  ``1.8_3.4-3``,  ``1.8_3.4-2``,  ``1.8_3.4-1``,  ``1.8_3.4-0``
+
+      
+
    
    :depends bioconductor-graph: 
    :depends bioconductor-rbgl: 
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-magrittr: 
    :depends r-matrix: 
-   :depends r-rcpp: >=0.11.1
+   :depends r-rcpp: ``>=0.11.1``
    :depends r-rcpparmadillo: 
    :depends r-rcppeigen: 
    :requirements:

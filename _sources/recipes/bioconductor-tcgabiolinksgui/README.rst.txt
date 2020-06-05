@@ -8,6 +8,7 @@ bioconductor-tcgabiolinksgui
 
 .. conda:recipe:: bioconductor-tcgabiolinksgui
    :replaces_section_title:
+   :noindex:
 
    \"TCGAbiolinksGUI\: A Graphical User Interface to analyze cancer molecular and clinical data\"
 
@@ -22,32 +23,39 @@ bioconductor-tcgabiolinksgui
 
    |downloads_bioconductor-tcgabiolinksgui| |docker_bioconductor-tcgabiolinksgui|
 
-   :versions: 1.14.0-0, 1.12.0-1, 1.10.0-1, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
-   :depends bioconductor-elmer: >=2.12.0,<2.13.0
-   :depends bioconductor-maftools: >=2.4.0,<2.5.0
-   :depends bioconductor-pathview: >=1.28.0,<1.29.0
-   :depends bioconductor-sesame: >=1.6.0,<1.7.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-tcgabiolinks: >=2.16.0,<2.17.0
-   :depends bioconductor-tcgabiolinksgui.data: >=1.8.0,<1.9.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-elmer: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-maftools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-pathview: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sesame: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-tcgabiolinks: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-tcgabiolinksgui.data: ``>=1.8.0,<1.9.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-caret: 
    :depends r-colourpicker: 
    :depends r-data.table: 
-   :depends r-downloader: >=0.4
+   :depends r-downloader: ``>=0.4``
    :depends r-dt: 
-   :depends r-ggplot2: >=2.1.0
+   :depends r-ggplot2: ``>=2.1.0``
    :depends r-ggrepel: 
    :depends r-plotly: 
    :depends r-readr: 
-   :depends r-shiny: >=0.14.1
-   :depends r-shinybs: >=0.61
-   :depends r-shinydashboard: >=0.5.3
-   :depends r-shinyfiles: >=0.6.2
-   :depends r-shinyjs: >=0.7
-   :depends r-stringr: >=1.1.0
+   :depends r-shiny: ``>=0.14.1``
+   :depends r-shinybs: ``>=0.61``
+   :depends r-shinydashboard: ``>=0.5.3``
+   :depends r-shinyfiles: ``>=0.6.2``
+   :depends r-shinyjs: ``>=0.7``
+   :depends r-stringr: ``>=1.1.0``
    :requirements:
 
    .. rubric:: Installation

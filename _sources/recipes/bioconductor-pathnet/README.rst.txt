@@ -8,6 +8,7 @@ bioconductor-pathnet
 
 .. conda:recipe:: bioconductor-pathnet
    :replaces_section_title:
+   :noindex:
 
    An R package for pathway analysis using topological information
 
@@ -23,9 +24,16 @@ bioconductor-pathnet
 
    |downloads_bioconductor-pathnet| |docker_bioconductor-pathnet|
 
-   :versions: 1.28.0-0, 1.23.0-1, 1.23.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0, 1.16.0-0
+   :versions:
+      
+      
+
+      ``1.28.0-0``,  ``1.23.0-1``,  ``1.23.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

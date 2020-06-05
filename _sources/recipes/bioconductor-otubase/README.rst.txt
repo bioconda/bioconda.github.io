@@ -8,6 +8,7 @@ bioconductor-otubase
 
 .. conda:recipe:: bioconductor-otubase
    :replaces_section_title:
+   :noindex:
 
    Provides structure and functions for the analysis of OTU data
 
@@ -23,14 +24,21 @@ bioconductor-otubase
 
    |downloads_bioconductor-otubase| |docker_bioconductor-otubase|
 
-   :versions: 1.38.0-0, 1.36.0-0, 1.34.0-1, 1.32.0-0, 1.30.0-0, 1.28.0-0, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-shortread: >=1.46.0,<1.47.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-shortread: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-vegan: 
    :requirements:
 

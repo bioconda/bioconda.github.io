@@ -8,6 +8,7 @@ bioconductor-easyreporting
 
 .. conda:recipe:: bioconductor-easyreporting
    :replaces_section_title:
+   :noindex:
 
    Helps creating report for improving Reproducible computational Research
 
@@ -22,9 +23,16 @@ bioconductor-easyreporting
 
    |downloads_bioconductor-easyreporting| |docker_bioconductor-easyreporting|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rmarkdown: 
    :requirements:
 

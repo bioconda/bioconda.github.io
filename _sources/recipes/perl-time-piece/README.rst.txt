@@ -8,6 +8,7 @@ perl-time-piece
 
 .. conda:recipe:: perl-time-piece/1.27
    :replaces_section_title:
+   :noindex:
 
    Object Oriented time objects
 
@@ -22,9 +23,16 @@ perl-time-piece
 
    |downloads_perl-time-piece| |docker_perl-time-piece|
 
-   :versions: 1.27-1, 1.27-0
+   :versions:
+      
+      
+
+      ``1.27-1``,  ``1.27-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

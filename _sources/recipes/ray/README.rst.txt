@@ -8,6 +8,7 @@ ray
 
 .. conda:recipe:: ray
    :replaces_section_title:
+   :noindex:
 
    Parallel genome assemblies for parallel DNA sequencing
 
@@ -23,11 +24,18 @@ ray
 
    |downloads_ray| |docker_ray|
 
-   :versions: 2.3.1-2, 2.3.1-1, 2.3.1-0
+   :versions:
+      
+      
+
+      ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openmpi: >=4.0.2,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openmpi: ``>=4.0.2,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

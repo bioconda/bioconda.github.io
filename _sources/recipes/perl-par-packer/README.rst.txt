@@ -8,6 +8,7 @@ perl-par-packer
 
 .. conda:recipe:: perl-par-packer/1.036
    :replaces_section_title:
+   :noindex:
 
    PAR Packager
 
@@ -22,9 +23,16 @@ perl-par-packer
 
    |downloads_perl-par-packer| |docker_perl-par-packer|
 
-   :versions: 1.036-2, 1.036-1, 1.036-0
+   :versions:
+      
+      
+
+      ``1.036-2``,  ``1.036-1``,  ``1.036-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-getopt-argvfile: 
    :depends perl-getopt-long: 
    :depends perl-module-scandeps: 

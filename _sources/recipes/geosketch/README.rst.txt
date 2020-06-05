@@ -8,6 +8,7 @@ geosketch
 
 .. conda:recipe:: geosketch
    :replaces_section_title:
+   :noindex:
 
    Geometry\-preserving random sampling
 
@@ -23,12 +24,19 @@ geosketch
 
    |downloads_geosketch| |docker_geosketch|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends fbpca: >=1
-   :depends numpy: >=1.12
-   :depends python: >=3.6
-   :depends scikit-learn: >=0.20
+   :depends fbpca: ``>=1``
+   :depends numpy: ``>=1.12``
+   :depends python: ``>=3.6``
+   :depends scikit-learn: ``>=0.20``
    :requirements:
 
    .. rubric:: Installation

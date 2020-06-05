@@ -8,6 +8,7 @@ np-likeness-scorer
 
 .. conda:recipe:: np-likeness-scorer
    :replaces_section_title:
+   :noindex:
 
    Calculates Natural Product\(NP\)\-likeness of a molecule\, i.e. the similarity of the molecule to the structure space covered by known natural products. NP\-likeness is a useful criterion to screen compound libraries and to design new lead compounds
 
@@ -22,10 +23,17 @@ np-likeness-scorer
 
    |downloads_np-likeness-scorer| |docker_np-likeness-scorer|
 
-   :versions: 2.1-0
+   :versions:
+      
+      
+
+      ``2.1-0``
+
+      
+
    
-   :depends openjdk: >=6
-   :depends python: 2.7*
+   :depends openjdk: ``>=6``
+   :depends python: ``2.7*``
    :requirements:
 
    .. rubric:: Installation

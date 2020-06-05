@@ -8,6 +8,7 @@ hail
 
 .. conda:recipe:: hail
    :replaces_section_title:
+   :noindex:
 
    Hail is an open\-source\, general\-purpose\, Python\-based data analysis tool with
    additional data types and methods for working with genomic data.
@@ -25,28 +26,35 @@ hail
 
    |downloads_hail| |docker_hail|
 
-   :versions: 0.2.33-0
+   :versions:
+      
+      
+
+      ``0.2.33-0``
+
+      
+
    
    :depends aiohttp: 
    :depends aiohttp-session: 
-   :depends bokeh: >1.1,<1.3
-   :depends decorator: <5
-   :depends gcsfs: 0.2.1
+   :depends bokeh: ``>1.1,<1.3``
+   :depends decorator: ``<5``
+   :depends gcsfs: ``0.2.1``
    :depends humanize: 
    :depends hurry.filesize: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends nest-asyncio: 
-   :depends openjdk: 8.*
+   :depends openjdk: ``8.*``
    :depends parsimonious: 
    :depends pyjwt: 
-   :depends pyspark: 2.4.*
-   :depends python: >=3.7,<3.8.0a0
-   :depends python-json-logger: 0.1.11
+   :depends pyspark: ``2.4.*``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python-json-logger: ``0.1.11``
    :depends requests: 
    :depends scipy: 
-   :depends tabulate: 0.8.3
-   :depends tqdm: 4.42.1
+   :depends tabulate: ``0.8.3``
+   :depends tqdm: ``4.42.1``
    :requirements:
 
    .. rubric:: Installation

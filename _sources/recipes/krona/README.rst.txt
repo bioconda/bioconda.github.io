@@ -8,6 +8,7 @@ krona
 
 .. conda:recipe:: krona
    :replaces_section_title:
+   :noindex:
 
    Krona Tools is a set of scripts to create Krona charts from several Bioinformatics tools as well as from text and XML files.
 
@@ -23,10 +24,25 @@ krona
 
    |downloads_krona| |docker_krona|
 
-   :versions: 2.7.1-2, 2.7.1-1, 2.7.1-0, 2.7-3, 2.7-2, 2.7-1, 2.7-0, 2.6.1-2, 2.6.1-1, 2.6-5, 2.6-4, 2.6-3, 2.6-2, 2.6-1, 2.6-0, 2.5-5, 2.5-4, 2.5-3, 2.5-2, 2.5-1, 2.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.7.1-2</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.7-3</code>,  <code>2.7-2</code>,  <code>2.7-1</code>,  <code>2.7-0</code>,  <code>2.6.1-2</code>,  <code>2.6.1-1</code>,  </span></summary>
+      
+
+      ``2.7.1-2``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7-3``,  ``2.7-2``,  ``2.7-1``,  ``2.7-0``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6-5``,  ``2.6-4``,  ``2.6-3``,  ``2.6-2``,  ``2.6-1``,  ``2.6-0``,  ``2.5-5``,  ``2.5-4``,  ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends curl: 
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

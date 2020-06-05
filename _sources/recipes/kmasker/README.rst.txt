@@ -8,6 +8,7 @@ kmasker
 
 .. conda:recipe:: kmasker
    :replaces_section_title:
+   :noindex:
 
    A tool for masking and exploring of sequences from plant species.
 
@@ -24,19 +25,26 @@ kmasker
 
    |downloads_kmasker| |docker_kmasker|
 
-   :versions: 1.1.1-0, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``,  ``1.1.0-0``
+
+      
+
    
    :depends blast: 
-   :depends coreutils: >=8.15
+   :depends coreutils: ``>=8.15``
    :depends ea-utils: 
    :depends gffread: 
-   :depends jellyfish: 2.2.10.*
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends python: >=3.6,<3.7.0a0
-   :depends r-base: >=3.6,<3.7.0a0
-   :depends which: >=2.21
+   :depends jellyfish: ``2.2.10.*``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends which: ``>=2.21``
    :requirements:
 
    .. rubric:: Installation

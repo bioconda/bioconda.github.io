@@ -8,6 +8,7 @@ bioconductor-atsnp
 
 .. conda:recipe:: bioconductor-atsnp
    :replaces_section_title:
+   :noindex:
 
    Affinity test for identifying regulatory SNPs
 
@@ -22,17 +23,24 @@ bioconductor-atsnp
 
    |downloads_bioconductor-atsnp| |docker_bioconductor-atsnp|
 
-   :versions: 1.3.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-biocfilecache: >=1.12.0,<1.13.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-motifstack: >=1.32.0,<1.33.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-motifstack: ``>=1.32.0,<1.33.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-rappdirs: 

@@ -8,6 +8,7 @@ bioconductor-reactomegsa
 
 .. conda:recipe:: bioconductor-reactomegsa
    :replaces_section_title:
+   :noindex:
 
    Client for the Reactome Analysis Service for comparative multi\-omics gene set analysis
 
@@ -22,9 +23,16 @@ bioconductor-reactomegsa
 
    |downloads_bioconductor-reactomegsa| |docker_bioconductor-reactomegsa|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-httr: 

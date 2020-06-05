@@ -8,6 +8,7 @@ svict
 
 .. conda:recipe:: svict
    :replaces_section_title:
+   :noindex:
 
    SViCT is a computational tool for detecting structural variations from cell free DNA \(cfDNA\) containing low dilutions of circulating tumor DNA \(ctDNA\).
 
@@ -22,11 +23,18 @@ svict
 
    |downloads_svict| |docker_svict|
 
-   :versions: 1.0.1-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

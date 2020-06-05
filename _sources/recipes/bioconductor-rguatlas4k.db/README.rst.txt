@@ -8,6 +8,7 @@ bioconductor-rguatlas4k.db
 
 .. conda:recipe:: bioconductor-rguatlas4k.db
    :replaces_section_title:
+   :noindex:
 
    Clontech BD Atlas Long Oligos Rat 4K annotation data \(chip rguatlas4k\)
 
@@ -22,12 +23,19 @@ bioconductor-rguatlas4k.db
 
    |downloads_bioconductor-rguatlas4k.db| |docker_bioconductor-rguatlas4k.db|
 
-   :versions: 3.2.3-5, 3.2.3-4, 3.2.3-3, 3.2.3-1, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-1``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.rn.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

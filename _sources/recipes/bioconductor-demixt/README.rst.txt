@@ -8,6 +8,7 @@ bioconductor-demixt
 
 .. conda:recipe:: bioconductor-demixt
    :replaces_section_title:
+   :noindex:
 
    Cell type\-specific deconvolution of heterogeneous tumor samples with two or three components using expression data from RNAseq or microarray platforms
 
@@ -22,21 +23,28 @@ bioconductor-demixt
 
    |downloads_bioconductor-demixt| |docker_bioconductor-demixt|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-base64enc: 
    :depends r-ggplot2: 
    :depends r-kernsmooth: 
    :depends r-knitr: 
    :depends r-matrixcalc: 
    :depends r-matrixstats: 
-   :depends r-rcpp: >=1.0.0
+   :depends r-rcpp: ``>=1.0.0``
    :depends r-truncdist: 
    :requirements:
 

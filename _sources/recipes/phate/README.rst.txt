@@ -8,6 +8,7 @@ phate
 
 .. conda:recipe:: phate
    :replaces_section_title:
+   :noindex:
 
    PHATE \(Potential of Heat\-diffusion for Affinity\-based Transition Embedding\) is a tool for visualizing high dimensional data.
 
@@ -25,19 +26,26 @@ phate
 
    |downloads_phate| |docker_phate|
 
-   :versions: 1.0.4-0, 1.0.3-0, 1.0.2-0, 0.4.5-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``0.4.5-0``
+
+      
+
    
    :depends deprecated: 
    :depends future: 
-   :depends graphtools: >=1.3.1
-   :depends matplotlib: >=3.0
-   :depends numpy: >=1.16.0
-   :depends python: >=3.5
-   :depends s_gd2: >=1.5
-   :depends scikit-learn: >=0.20.0
-   :depends scipy: >=1.1.0
-   :depends scprep: >=0.11.1
-   :depends tasklogger: >=1.0
+   :depends graphtools: ``>=1.3.1``
+   :depends matplotlib: ``>=3.0``
+   :depends numpy: ``>=1.16.0``
+   :depends python: ``>=3.5``
+   :depends s_gd2: ``>=1.5``
+   :depends scikit-learn: ``>=0.20.0``
+   :depends scipy: ``>=1.1.0``
+   :depends scprep: ``>=0.11.1``
+   :depends tasklogger: ``>=1.0``
    :requirements:
 
    .. rubric:: Installation

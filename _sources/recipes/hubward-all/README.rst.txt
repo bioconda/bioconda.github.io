@@ -8,6 +8,7 @@ hubward-all
 
 .. conda:recipe:: hubward-all
    :replaces_section_title:
+   :noindex:
 
    Meta\-package for hubward including bedtools and UCSC tools
 
@@ -22,7 +23,14 @@ hubward-all
 
    |downloads_hubward-all| |docker_hubward-all|
 
-   :versions: 0.2.1-2, 0.2.1-1, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+
+      
+
    
    :depends bedtools: 
    :depends crossmap: 

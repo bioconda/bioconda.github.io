@@ -8,6 +8,7 @@ metametamerge
 
 .. conda:recipe:: metametamerge
    :replaces_section_title:
+   :noindex:
 
    Merging module of the MetaMeta Pipeline
 
@@ -22,11 +23,18 @@ metametamerge
 
    |downloads_metametamerge| |docker_metametamerge|
 
-   :versions: 1.1-2, 1.1-1, 1.1-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends numpy: >=1.9.0
+   :depends numpy: ``>=1.9.0``
    :depends pandas: 
-   :depends python: >3
+   :depends python: ``>3``
    :requirements:
 
    .. rubric:: Installation

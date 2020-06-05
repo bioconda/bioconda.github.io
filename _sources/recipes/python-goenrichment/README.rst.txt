@@ -8,6 +8,7 @@ python-goenrichment
 
 .. conda:recipe:: python-goenrichment
    :replaces_section_title:
+   :noindex:
 
    GO enrichment analysis from a list of gene names using a precomputed database
 
@@ -22,7 +23,14 @@ python-goenrichment
 
    |downloads_python-goenrichment| |docker_python-goenrichment|
 
-   :versions: 0.0.10a3-0
+   :versions:
+      
+      
+
+      ``0.0.10a3-0``
+
+      
+
    
    :depends networkx: 
    :depends numpy: 

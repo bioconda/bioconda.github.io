@@ -8,6 +8,7 @@ rnabloom
 
 .. conda:recipe:: rnabloom
    :replaces_section_title:
+   :noindex:
 
    Java tool for RNA\-seq assembly
 
@@ -24,11 +25,18 @@ rnabloom
 
    |downloads_rnabloom| |docker_rnabloom|
 
-   :versions: 1.3.0-0, 1.2.3-0, 1.2.2-0
+   :versions:
+      
+      
+
+      ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+
+      
+
    
    :depends minimap2: 
-   :depends ntcard: >=1.2.1
-   :depends openjdk: >=8
+   :depends ntcard: ``>=1.2.1``
+   :depends openjdk: ``>=8``
    :depends racon: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-parallel-forkmanager
 
 .. conda:recipe:: perl-parallel-forkmanager
    :replaces_section_title:
+   :noindex:
 
    A simple parallel processing fork manager
 
@@ -22,9 +23,16 @@ perl-parallel-forkmanager
 
    |downloads_perl-parallel-forkmanager| |docker_perl-parallel-forkmanager|
 
-   :versions: 2.02-0, 1.17-1, 1.17-0
+   :versions:
+      
+      
+
+      ``2.02-0``,  ``1.17-1``,  ``1.17-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-file-path: 
    :depends perl-file-temp: 

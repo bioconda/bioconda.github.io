@@ -8,6 +8,7 @@ influx_si
 
 .. conda:recipe:: influx_si
    :replaces_section_title:
+   :noindex:
 
    Metabolic flux and concentration estimation based on stable isotope labeling
 
@@ -27,18 +28,25 @@ influx_si
 
    |downloads_influx_si| |docker_influx_si|
 
-   :versions: 5.2.0-0, 5.1.0-1, 5.1.0-0, 5.0.3-0, 5.0.2-0, 5.0.1-1, 5.0.1-0, 5.0-0
+   :versions:
+      
+      
+
+      ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0-0``
+
+      
+
    
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends python-libsbml: 
    :depends r-arrapply: 
    :depends r-base: 
    :depends r-limsolve: 
    :depends r-multbxxc: 
    :depends r-nnls: 
-   :depends r-rcpp: >=1.0.0
+   :depends r-rcpp: ``>=1.0.0``
    :depends r-rcpparmadillo: 
-   :depends r-rmumps: >=5.2.1_12
+   :depends r-rmumps: ``>=5.2.1_12``
    :depends r-slam: 
    :depends scipy: 
    :requirements:

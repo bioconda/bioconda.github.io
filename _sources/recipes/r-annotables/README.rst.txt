@@ -8,6 +8,7 @@ r-annotables
 
 .. conda:recipe:: r-annotables
    :replaces_section_title:
+   :noindex:
 
    Provides tables for converting and annotating Ensembl Gene IDs.
 
@@ -23,9 +24,16 @@ r-annotables
 
    |downloads_r-annotables| |docker_r-annotables|
 
-   :versions: 0.1.90-1, 0.1.90-0, v0.1.90-3, v0.1.90-2, v0.1.90-1, v0.1.90-0
+   :versions:
+      
+      
+
+      ``0.1.90-1``,  ``0.1.90-0``,  ``v0.1.90-3``,  ``v0.1.90-2``,  ``v0.1.90-1``,  ``v0.1.90-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-tibble: 
    :requirements:
 

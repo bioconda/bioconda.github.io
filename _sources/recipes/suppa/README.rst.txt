@@ -8,6 +8,7 @@ suppa
 
 .. conda:recipe:: suppa
    :replaces_section_title:
+   :noindex:
 
    A tool to study splicing across multiple conditions at high speed and accuracy.
 
@@ -22,14 +23,21 @@ suppa
 
    |downloads_suppa| |docker_suppa|
 
-   :versions: 2.3-2, 2.3-1, 2.3-0
+   :versions:
+      
+      
+
+      ``2.3-2``,  ``2.3-1``,  ``2.3-0``
+
+      
+
    
-   :depends numpy: >=1.11.0
-   :depends pandas: >=0.18.0
-   :depends python: >=3
-   :depends scikit-learn: >=0.16.1
-   :depends scipy: >=0.15.1
-   :depends statsmodels: >=0.6.1
+   :depends numpy: ``>=1.11.0``
+   :depends pandas: ``>=0.18.0``
+   :depends python: ``>=3``
+   :depends scikit-learn: ``>=0.16.1``
+   :depends scipy: ``>=0.15.1``
+   :depends statsmodels: ``>=0.6.1``
    :requirements:
 
    .. rubric:: Installation

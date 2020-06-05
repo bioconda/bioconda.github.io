@@ -8,8 +8,9 @@ sequencetools
 
 .. conda:recipe:: sequencetools
    :replaces_section_title:
+   :noindex:
 
-   Tools for population genetics on sequencing datas
+   Tools for population genetics on sequencing data
 
    :homepage: https://github.com/stschiff/sequenceTools
    :license: MIT
@@ -22,13 +23,20 @@ sequencetools
 
    |downloads_sequencetools| |docker_sequencetools|
 
-   :versions: 1.2.2-0
+   :versions:
+      
+      
+
+      ``1.4.0.6-0``,  ``1.2.2-0``
+
+      
+
    
-   :depends gmp: >=6.1.2,<7.0a0
-   :depends libgcc-ng: >=4.9
+   :depends gmp: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends samtools: 
-   :depends xz: >=5.2.3,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends xz: 
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

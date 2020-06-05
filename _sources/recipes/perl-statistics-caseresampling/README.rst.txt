@@ -8,6 +8,7 @@ perl-statistics-caseresampling
 
 .. conda:recipe:: perl-statistics-caseresampling/0.15
    :replaces_section_title:
+   :noindex:
 
    Efficient resampling and calculation of medians with confidence intervals
 
@@ -22,10 +23,17 @@ perl-statistics-caseresampling
 
    |downloads_perl-statistics-caseresampling| |docker_perl-statistics-caseresampling|
 
-   :versions: 0.15-0
+   :versions:
+      
+      
+
+      ``0.15-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

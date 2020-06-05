@@ -8,6 +8,7 @@ rnasketch
 
 .. conda:recipe:: rnasketch
    :replaces_section_title:
+   :noindex:
 
    RNAsketch Library for designing RNA molecules. Glue between RNAblueprint\/RNARedPrint and ViennaRNA\, Nupack\, Hotknots\, pKiss.
 
@@ -22,14 +23,21 @@ rnasketch
 
    |downloads_rnasketch| |docker_rnasketch|
 
-   :versions: 1.5-2, 1.5-1, 1.4-1, 1.4-0
+   :versions:
+      
+      
+
+      ``1.5-2``,  ``1.5-1``,  ``1.4-1``,  ``1.4-0``
+
+      
+
    
-   :depends numpy: >=1.15*
-   :depends python: <3
+   :depends numpy: ``>=1.15*``
+   :depends python: ``<3``
    :depends python-igraph: 
-   :depends rnablueprint: >=1.2
-   :depends scipy: >=1.1*
-   :depends viennarna: >=2.4*
+   :depends rnablueprint: ``>=1.2``
+   :depends scipy: ``>=1.1*``
+   :depends viennarna: ``>=2.4*``
    :requirements:
 
    .. rubric:: Installation

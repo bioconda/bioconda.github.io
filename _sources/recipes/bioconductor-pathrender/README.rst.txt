@@ -8,6 +8,7 @@ bioconductor-pathrender
 
 .. conda:recipe:: bioconductor-pathrender
    :replaces_section_title:
+   :noindex:
 
    Render molecular pathways
 
@@ -23,13 +24,20 @@ bioconductor-pathrender
 
    |downloads_bioconductor-pathrender| |docker_bioconductor-pathrender|
 
-   :versions: 1.56.0-0, 1.54.0-0, 1.52.0-1, 1.50.0-0, 1.48.0-0, 1.46.0-0
+   :versions:
+      
+      
+
+      ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-cmap: >=1.15.0,<1.16.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-rgraphviz: >=2.32.0,<2.33.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-cmap: ``>=1.15.0,<1.16.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcolorbrewer: 
    :requirements:
 

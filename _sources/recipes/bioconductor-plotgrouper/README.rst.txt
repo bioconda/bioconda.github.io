@@ -8,6 +8,7 @@ bioconductor-plotgrouper
 
 .. conda:recipe:: bioconductor-plotgrouper
    :replaces_section_title:
+   :noindex:
 
    Shiny app GUI wrapper for ggplot with built\-in statistical analysis
 
@@ -22,27 +23,34 @@ bioconductor-plotgrouper
 
    |downloads_bioconductor-plotgrouper| |docker_bioconductor-plotgrouper|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-colourpicker: >=1.0
-   :depends r-dplyr: >=0.7.6
-   :depends r-egg: >=0.4.0
-   :depends r-ggplot2: >=3.0.0
-   :depends r-ggpubr: >=0.1.8
-   :depends r-gridextra: >=2.3
-   :depends r-gtable: >=0.2.0
-   :depends r-hmisc: >=4.1.1
-   :depends r-magrittr: >=1.5
-   :depends r-readr: >=1.1.1
-   :depends r-readxl: >=1.1.0
-   :depends r-rlang: >=0.2.2
-   :depends r-scales: >=1.0.0
-   :depends r-shiny: >=1.1.0
-   :depends r-shinythemes: >=1.1.1
-   :depends r-stringr: >=1.3.1
-   :depends r-tibble: >=1.4.2
-   :depends r-tidyr: >=0.2.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-colourpicker: ``>=1.0``
+   :depends r-dplyr: ``>=0.7.6``
+   :depends r-egg: ``>=0.4.0``
+   :depends r-ggplot2: ``>=3.0.0``
+   :depends r-ggpubr: ``>=0.1.8``
+   :depends r-gridextra: ``>=2.3``
+   :depends r-gtable: ``>=0.2.0``
+   :depends r-hmisc: ``>=4.1.1``
+   :depends r-magrittr: ``>=1.5``
+   :depends r-readr: ``>=1.1.1``
+   :depends r-readxl: ``>=1.1.0``
+   :depends r-rlang: ``>=0.2.2``
+   :depends r-scales: ``>=1.0.0``
+   :depends r-shiny: ``>=1.1.0``
+   :depends r-shinythemes: ``>=1.1.1``
+   :depends r-stringr: ``>=1.3.1``
+   :depends r-tibble: ``>=1.4.2``
+   :depends r-tidyr: ``>=0.2.0``
    :requirements:
 
    .. rubric:: Installation

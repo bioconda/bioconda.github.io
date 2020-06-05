@@ -8,6 +8,7 @@ bioconductor-fission
 
 .. conda:recipe:: bioconductor-fission
    :replaces_section_title:
+   :noindex:
 
    RangedSummarizedExperiment for time course RNA\-Seq of fission yeast in response to stress\, by Leong et al.\, Nat Commun 2014.
 
@@ -22,11 +23,18 @@ bioconductor-fission
 
    |downloads_bioconductor-fission| |docker_bioconductor-fission|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

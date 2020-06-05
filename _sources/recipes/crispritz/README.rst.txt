@@ -8,6 +8,7 @@ crispritz
 
 .. conda:recipe:: crispritz
    :replaces_section_title:
+   :noindex:
 
    CRISPRitz\, tool package for CRISPR experiments assessment and analysis.
 
@@ -22,12 +23,27 @@ crispritz
 
    |downloads_crispritz| |docker_crispritz|
 
-   :versions: 2.2.0-0, 2.1.1-0, 2.1.0-0, 1.2.1-0, 1.2.0-0, 1.1.1-1, 1.1.1-0, 1.1.0-1, 1.1.0-0, 1.0.5-0, 1.0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
+
+      ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bcftools: 
    :depends bedtools: 
    :depends biopython: 
-   :depends boost: >=1.70.0,<1.70.1.0a0
+   :depends boost: ``>=1.70.0,<1.70.1.0a0``
    :depends dash: 
    :depends dash-bootstrap-components: 
    :depends dash-daq: 
@@ -36,21 +52,21 @@ crispritz
    :depends intervaltree: 
    :depends libcxx: 
    :depends libdeflate: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends matplotlib-base: 
    :depends more-itertools: 
    :depends numpy: 
    :depends openmp: 
    :depends pandas: 
    :depends poppler: 
-   :depends python: >=3.8,<3.9.0a0
-   :depends python_abi: 3.8.* *_cp38
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends rename: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends statsmodels: 
-   :depends tk: >=8.6.10,<8.7.0a0
+   :depends tk: ``>=8.6.10,<8.7.0a0``
    :requirements:
 
    .. rubric:: Installation

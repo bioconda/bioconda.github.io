@@ -8,6 +8,7 @@ ncfp
 
 .. conda:recipe:: ncfp
    :replaces_section_title:
+   :noindex:
 
    A program\/module to find nt sequences that code for aa sequences
 
@@ -25,10 +26,17 @@ ncfp
 
    |downloads_ncfp| |docker_ncfp|
 
-   :versions: 0.1.1-0, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
    :depends biopython: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends tqdm: 
    :requirements:
 

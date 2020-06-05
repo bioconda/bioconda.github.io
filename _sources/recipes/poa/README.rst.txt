@@ -8,6 +8,7 @@ poa
 
 .. conda:recipe:: poa
    :replaces_section_title:
+   :noindex:
 
    POA is Partial Order Alignment\, a fast program for multiple sequence alignment in bioinformatics. Its advantages are speed\, scalability\, sensitivity\, and the superior ability to handle branching \/ indels in the alignment.
 
@@ -22,10 +23,17 @@ poa
 
    |downloads_poa| |docker_poa|
 
-   :versions: 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+
    
    :depends blast-legacy: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

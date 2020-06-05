@@ -8,6 +8,7 @@ bioconductor-m3c
 
 .. conda:recipe:: bioconductor-m3c
    :replaces_section_title:
+   :noindex:
 
    Monte Carlo Reference\-based Consensus Clustering
 
@@ -22,9 +23,16 @@ bioconductor-m3c
 
    |downloads_bioconductor-m3c| |docker_bioconductor-m3c|
 
-   :versions: 1.10.0-0, 1.8.0-0, 1.6.0-1, 1.6.0-0, 1.4.1-0
+   :versions:
+      
+      
+
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-corpcor: 
    :depends r-doparallel: 

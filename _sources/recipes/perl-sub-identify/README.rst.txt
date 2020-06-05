@@ -8,6 +8,7 @@ perl-sub-identify
 
 .. conda:recipe:: perl-sub-identify
    :replaces_section_title:
+   :noindex:
 
    Retrieve names of code references
 
@@ -22,10 +23,17 @@ perl-sub-identify
 
    |downloads_perl-sub-identify| |docker_perl-sub-identify|
 
-   :versions: 0.14-0, 0.12-1, 0.12-0
+   :versions:
+      
+      
+
+      ``0.14-0``,  ``0.12-1``,  ``0.12-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

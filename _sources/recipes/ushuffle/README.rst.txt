@@ -8,6 +8,7 @@ ushuffle
 
 .. conda:recipe:: ushuffle
    :replaces_section_title:
+   :noindex:
 
    uShuffle\-\-\-a useful tool for shuffling biological sequences while preserving the k\-let counts
 
@@ -22,11 +23,18 @@ ushuffle
 
    |downloads_ushuffle| |docker_ushuffle|
 
-   :versions: 1.2.2-2, 1.2.2-1, 1.2.2-0, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

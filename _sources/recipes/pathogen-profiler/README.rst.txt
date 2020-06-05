@@ -8,6 +8,7 @@ pathogen-profiler
 
 .. conda:recipe:: pathogen-profiler
    :replaces_section_title:
+   :noindex:
 
    Library giving access to classes and functions to create a profiling tool to look for mutations from NGS data.
 
@@ -22,9 +23,24 @@ pathogen-profiler
 
    |downloads_pathogen-profiler| |docker_pathogen-profiler|
 
-   :versions: 1.7.3-0, 1.7.2-0, 1.7.1-1, 1.7.1-0, 1.7-0, 1.6.1-0, 1.6-0, 1.5-0, 1.3-0, 1.2-0, 1.1-2, 1.1-1, 1.1-0, 1.0-0, 0.1-3, 0.1-2, 0.1-1, 0.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.7.3-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7-0</code>,  <code>1.6.1-0</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.3-0</code>,  </span></summary>
+      
+
+      ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bcftools: >=1.9
+   :depends bcftools: ``>=1.9``
    :depends biopython: 
    :depends bowtie2: 
    :depends bwa: 
@@ -33,7 +49,7 @@ pathogen-profiler
    :depends minimap2: 
    :depends parallel: 
    :depends python: 
-   :depends samtools: >=1.9
+   :depends samtools: ``>=1.9``
    :depends tqdm: 
    :depends trimmomatic: 
    :requirements:

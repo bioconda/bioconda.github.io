@@ -8,6 +8,7 @@ nebulizer
 
 .. conda:recipe:: nebulizer
    :replaces_section_title:
+   :noindex:
 
    Command\-line utilities to help with managing users\, data libraries and tools in a Galaxy instance
 
@@ -24,10 +25,17 @@ nebulizer
 
    |downloads_nebulizer| |docker_nebulizer|
 
-   :versions: 0.5.0-2, 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.5.0-2``,  ``0.5.0-0``
+
+      
+
    
    :depends bioblend: 
-   :depends click: <=6.7
+   :depends click: ``<=6.7``
    :depends mako: 
    :depends python: 
    :requirements:

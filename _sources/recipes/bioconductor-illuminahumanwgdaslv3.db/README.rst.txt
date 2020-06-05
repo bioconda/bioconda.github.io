@@ -8,6 +8,7 @@ bioconductor-illuminahumanwgdaslv3.db
 
 .. conda:recipe:: bioconductor-illuminahumanwgdaslv3.db
    :replaces_section_title:
+   :noindex:
 
    Illumina HumanHT12WGDASLv3 annotation data \(chip illuminaHumanWGDASLv3\)
 
@@ -22,12 +23,19 @@ bioconductor-illuminahumanwgdaslv3.db
 
    |downloads_bioconductor-illuminahumanwgdaslv3.db| |docker_bioconductor-illuminahumanwgdaslv3.db|
 
-   :versions: 1.26.0-4, 1.26.0-3, 1.26.0-2, 1.26.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-4``,  ``1.26.0-3``,  ``1.26.0-2``,  ``1.26.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

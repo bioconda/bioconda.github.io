@@ -8,6 +8,7 @@ smallgenomeutilities
 
 .. conda:recipe:: smallgenomeutilities/0.3.0
    :replaces_section_title:
+   :noindex:
 
    A collection of scripts that are useful for dealing with viral RNA NGS data.
 
@@ -22,14 +23,21 @@ smallgenomeutilities
 
    |downloads_smallgenomeutilities| |docker_smallgenomeutilities|
 
-   :versions: 0.3.1-0, 0.3.0-0, 0.2.1-2, 0.2.1-1, 0.2.1-0, 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``,  ``0.1-0``
+
+      
+
    
    :depends biopython: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends progress: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:

@@ -8,6 +8,7 @@ libdivsufsort
 
 .. conda:recipe:: libdivsufsort
    :replaces_section_title:
+   :noindex:
 
    A lightweight suffix\-sorting library
 
@@ -22,9 +23,16 @@ libdivsufsort
 
    |downloads_libdivsufsort| |docker_libdivsufsort|
 
-   :versions: 2.0.2-2, 2.0.2-1, 2.0.2-0
+   :versions:
+      
+      
+
+      ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

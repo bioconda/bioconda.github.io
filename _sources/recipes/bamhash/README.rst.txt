@@ -8,6 +8,7 @@ bamhash
 
 .. conda:recipe:: bamhash/1.1
    :replaces_section_title:
+   :noindex:
 
    Hash BAM and FASTQ files to verify data integrity
 
@@ -22,12 +23,19 @@ bamhash
 
    |downloads_bamhash| |docker_bamhash|
 
-   :versions: 1.1-3, 1.1-2, 1.1-1, 1.1-0, 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openssl: >=1.1.1a,<1.1.2a
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openssl: ``>=1.1.1a,<1.1.2a``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

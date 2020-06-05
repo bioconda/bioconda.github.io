@@ -8,6 +8,7 @@ insilicoseq
 
 .. conda:recipe:: insilicoseq
    :replaces_section_title:
+   :noindex:
 
    A sequencing simulator.
 
@@ -22,13 +23,28 @@ insilicoseq
 
    |downloads_insilicoseq| |docker_insilicoseq|
 
-   :versions: 1.4.6-0, 1.4.5-0, 1.4.4-1, 1.4.4-0, 1.4.3-0, 1.4.2-0, 1.4.1-1, 1.4.1-0, 1.3.6-1, 1.3.5-1, 1.3.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.3.6-1</code>,  </span></summary>
+      
+
+      ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.6-1``,  ``1.3.5-1``,  ``1.3.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biopython: 
    :depends future: 
    :depends joblib: 
    :depends numpy: 
-   :depends pysam: >=0.15.1
+   :depends pysam: ``>=0.15.1``
    :depends python: 
    :depends requests: 
    :depends scipy: 

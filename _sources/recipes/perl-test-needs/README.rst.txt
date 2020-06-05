@@ -8,6 +8,7 @@ perl-test-needs
 
 .. conda:recipe:: perl-test-needs
    :replaces_section_title:
+   :noindex:
 
    Skip tests when modules not available
 
@@ -22,9 +23,16 @@ perl-test-needs
 
    |downloads_perl-test-needs| |docker_perl-test-needs|
 
-   :versions: 0.002006-0, 0.002005-0
+   :versions:
+      
+      
+
+      ``0.002006-0``,  ``0.002005-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

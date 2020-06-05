@@ -8,6 +8,7 @@ bioconductor-tcgamethylation450k
 
 .. conda:recipe:: bioconductor-tcgamethylation450k
    :replaces_section_title:
+   :noindex:
 
    The Cancer Genome Atlas Illumina 450k methylation example data
 
@@ -22,10 +23,17 @@ bioconductor-tcgamethylation450k
 
    |downloads_bioconductor-tcgamethylation450k| |docker_bioconductor-tcgamethylation450k|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-gemini
 
 .. conda:recipe:: bioconductor-gemini
    :replaces_section_title:
+   :noindex:
 
    GEMINI\: Variational inference approach to infer genetic interactions from pairwise CRISPR screens
 
@@ -22,9 +23,16 @@ bioconductor-gemini
 
    |downloads_bioconductor-gemini| |docker_bioconductor-gemini|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-magrittr: 

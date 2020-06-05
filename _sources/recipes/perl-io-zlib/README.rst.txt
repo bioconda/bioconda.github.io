@@ -8,6 +8,7 @@ perl-io-zlib
 
 .. conda:recipe:: perl-io-zlib
    :replaces_section_title:
+   :noindex:
 
    IO\:\: style interface to Compress\:\:Zlib
 
@@ -22,9 +23,16 @@ perl-io-zlib
 
    |downloads_perl-io-zlib| |docker_perl-io-zlib|
 
-   :versions: 1.10-2, 1.10-1
+   :versions:
+      
+      
+
+      ``1.10-2``,  ``1.10-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

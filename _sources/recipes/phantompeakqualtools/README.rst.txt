@@ -8,6 +8,7 @@ phantompeakqualtools
 
 .. conda:recipe:: phantompeakqualtools
    :replaces_section_title:
+   :noindex:
 
    This package computes informative enrichment and quality measures for ChIP\-seq\/DNase\-seq\/FAIRE\-seq\/MNase\-seq data. It can also be used to obtain robust estimates of the predominant fragment length or characteristic tag shift values in these assays.
 
@@ -23,17 +24,24 @@ phantompeakqualtools
 
    |downloads_phantompeakqualtools| |docker_phantompeakqualtools|
 
-   :versions: 1.2.2-0, 1.2.1.1-0, 1.2.1-0, 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``,  ``1.2.1.1-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``
+
+      
+
    
    :depends bioconductor-rsamtools: 
    :depends boost: 
    :depends gawk: 
-   :depends r-base: >=3.1
+   :depends r-base: ``>=3.1``
    :depends r-bitops: 
    :depends r-catools: 
    :depends r-snow: 
    :depends r-snowfall: 
-   :depends r-spp: >=1.13
+   :depends r-spp: ``>=1.13``
    :depends samtools: 
    :requirements:
 

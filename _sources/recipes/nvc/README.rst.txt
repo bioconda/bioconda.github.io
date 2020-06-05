@@ -8,6 +8,7 @@ nvc
 
 .. conda:recipe:: nvc
    :replaces_section_title:
+   :noindex:
 
    The Naive Variant Caller
 
@@ -22,12 +23,19 @@ nvc
 
    |downloads_nvc| |docker_nvc|
 
-   :versions: 0.0.4-2, 0.0.4-1, 0.0.4-0, 0.0.3-1, 0.0.3-0
+   :versions:
+      
+      
+
+      ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
+
+      
+
    
    :depends numpy: 
-   :depends pybamparser: 0.0.3
-   :depends pybamtools: 0.0.4
-   :depends python: <3
+   :depends pybamparser: ``0.0.3``
+   :depends pybamtools: ``0.0.4``
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

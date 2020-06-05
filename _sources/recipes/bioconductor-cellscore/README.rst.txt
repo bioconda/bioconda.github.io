@@ -8,6 +8,7 @@ bioconductor-cellscore
 
 .. conda:recipe:: bioconductor-cellscore
    :replaces_section_title:
+   :noindex:
 
    Tool for Evaluation of Cell Identity from Transcription Profiles
 
@@ -22,14 +23,21 @@ bioconductor-cellscore
 
    |downloads_bioconductor-cellscore| |docker_bioconductor-cellscore|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-gplots: >=3.0.1
-   :depends r-lsa: >=0.73.1
-   :depends r-rcolorbrewer: >=1.1-2
-   :depends r-squash: >=1.0.8
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-gplots: ``>=3.0.1``
+   :depends r-lsa: ``>=0.73.1``
+   :depends r-rcolorbrewer: ``>=1.1-2``
+   :depends r-squash: ``>=1.0.8``
    :requirements:
 
    .. rubric:: Installation

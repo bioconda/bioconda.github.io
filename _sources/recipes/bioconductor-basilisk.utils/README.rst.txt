@@ -8,6 +8,7 @@ bioconductor-basilisk.utils
 
 .. conda:recipe:: bioconductor-basilisk.utils
    :replaces_section_title:
+   :noindex:
 
    Basilisk Installation Utilities
 
@@ -22,9 +23,16 @@ bioconductor-basilisk.utils
 
    |downloads_bioconductor-basilisk.utils| |docker_bioconductor-basilisk.utils|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rappdirs: 
    :requirements:
 

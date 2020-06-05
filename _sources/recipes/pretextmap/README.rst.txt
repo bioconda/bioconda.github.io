@@ -8,6 +8,7 @@ pretextmap
 
 .. conda:recipe:: pretextmap
    :replaces_section_title:
+   :noindex:
 
    Paired REad TEXTure Mapper. Converts SAM formatted read pairs into genome contact maps.
 
@@ -22,10 +23,17 @@ pretextmap
 
    |downloads_pretextmap| |docker_pretextmap|
 
-   :versions: 0.1.2-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.2-0``,  ``0.1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

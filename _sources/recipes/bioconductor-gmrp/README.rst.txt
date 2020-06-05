@@ -8,6 +8,7 @@ bioconductor-gmrp
 
 .. conda:recipe:: bioconductor-gmrp
    :replaces_section_title:
+   :noindex:
 
    GWAS\-based Mendelian Randomization and Path Analyses
 
@@ -23,10 +24,17 @@ bioconductor-gmrp
 
    |downloads_bioconductor-gmrp| |docker_bioconductor-gmrp|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.10.1-0, 1.8.1-0, 1.5.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.5.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-diagram: 
    :depends r-plotrix: 
    :requirements:

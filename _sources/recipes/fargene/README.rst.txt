@@ -8,6 +8,7 @@ fargene
 
 .. conda:recipe:: fargene
    :replaces_section_title:
+   :noindex:
 
    Fragmented Antibiotic Resistance Gene iENntifiEr takes either fragmented metagenomic data or longer sequences as input and predicts and delivers full\-length antiobiotic resistance genes as output
 
@@ -22,9 +23,16 @@ fargene
 
    |downloads_fargene| |docker_fargene|
 
-   :versions: 0.1-2, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-2``,  ``0.1-0``
+
+      
+
    
-   :depends biopython: >=1.68
+   :depends biopython: ``>=1.68``
    :depends clustalo: 
    :depends emboss: 
    :depends hmmer: 
@@ -32,7 +40,7 @@ fargene
    :depends numpy: 
    :depends pip: 
    :depends prodigal: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends pyyaml: 
    :depends seqtk: 
    :depends spades: 

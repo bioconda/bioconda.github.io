@@ -8,6 +8,7 @@ wub
 
 .. conda:recipe:: wub
    :replaces_section_title:
+   :noindex:
 
    Tools and software library developed by the ONT Applications group
 
@@ -22,14 +23,21 @@ wub
 
    |downloads_wub| |docker_wub|
 
-   :versions: 0.4.0-2, 0.3.1-2, 0.3.0-2, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.0-1, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.4.0-2``,  ``0.3.1-2``,  ``0.3.0-2``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+
    
    :depends biopython: 
    :depends editdistance: 
    :depends htslib: 
    :depends matplotlib: 
    :depends numpy: 
-   :depends pandas: >=0.20.2
+   :depends pandas: ``>=0.20.2``
    :depends pysam: 
    :depends pytest: 
    :depends python: 

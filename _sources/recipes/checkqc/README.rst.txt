@@ -8,6 +8,7 @@ checkqc
 
 .. conda:recipe:: checkqc
    :replaces_section_title:
+   :noindex:
 
    A simple program to parse Illumina NGS data and check it for quality criteria.
 
@@ -22,12 +23,19 @@ checkqc
 
    |downloads_checkqc| |docker_checkqc|
 
-   :versions: 3.6.1-0
+   :versions:
+      
+      
+
+      ``3.6.1-0``
+
+      
+
    
    :depends click: 
-   :depends illumina-interop: >=1.1.10
-   :depends python: >=3.6
-   :depends pyyaml: >=3.12
+   :depends illumina-interop: ``>=1.1.10``
+   :depends python: ``>=3.6``
+   :depends pyyaml: ``>=3.12``
    :depends sample-sheet: 
    :depends tornado: 
    :depends xmltodict: 

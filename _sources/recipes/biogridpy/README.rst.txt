@@ -8,6 +8,7 @@ biogridpy
 
 .. conda:recipe:: biogridpy
    :replaces_section_title:
+   :noindex:
 
    Python client for the BioGRID REST API webservice
 
@@ -22,7 +23,14 @@ biogridpy
 
    |downloads_biogridpy| |docker_biogridpy|
 
-   :versions: 0.1.1-2, 0.1.1-1, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

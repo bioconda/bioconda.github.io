@@ -8,6 +8,7 @@ snp-dists
 
 .. conda:recipe:: snp-dists
    :replaces_section_title:
+   :noindex:
 
    Convert a FASTA alignment to SNP distance matrix
 
@@ -22,10 +23,25 @@ snp-dists
 
    |downloads_snp-dists| |docker_snp-dists|
 
-   :versions: 0.7.0-0, 0.6.3-1, 0.6.3-0, 0.6.2-0, 0.6-1, 0.6-0, 0.5-0, 0.2-2, 0.2-1, 0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5-0</code>,  <code>0.2-2</code>,  <code>0.2-1</code>,  </span></summary>
+      
+
+      ``0.7.0-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

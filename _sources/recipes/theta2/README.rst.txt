@@ -8,6 +8,7 @@ theta2
 
 .. conda:recipe:: theta2
    :replaces_section_title:
+   :noindex:
 
    Estimate tumor purity and clonal\/subclonal copy number aberrations directly from high\-throughput DNA sequencing data
 
@@ -22,13 +23,20 @@ theta2
 
    |downloads_theta2| |docker_theta2|
 
-   :versions: 0.7-2, 0.7-1, 0.7-0
+   :versions:
+      
+      
+
+      ``0.7-2``,  ``0.7-1``,  ``0.7-0``
+
+      
+
    
    :depends joblib: 
    :depends matplotlib: 
    :depends numexpr: 
    :depends numpy: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends scipy: 
    :requirements:
 

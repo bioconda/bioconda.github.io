@@ -8,6 +8,7 @@ sonlib
 
 .. conda:recipe:: sonlib
    :replaces_section_title:
+   :noindex:
 
    Small general purpose library for C and Python with focus on bioinformatics.
 
@@ -22,9 +23,16 @@ sonlib
 
    |downloads_sonlib| |docker_sonlib|
 
-   :versions: 1.1.0-2, 1.1.0-1, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

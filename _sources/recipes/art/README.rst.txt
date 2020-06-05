@@ -8,6 +8,7 @@ art
 
 .. conda:recipe:: art
    :replaces_section_title:
+   :noindex:
 
    Illumina\, 454 and Solid read simulator
 
@@ -22,12 +23,19 @@ art
 
    |downloads_art| |docker_art|
 
-   :versions: 2016.06.05-2, 2016.06.05-1, 2016.06.05-0, 3.19.15-1, 3.11.14-1, 3.11.14-0
+   :versions:
+      
+      
+
+      ``2016.06.05-2``,  ``2016.06.05-1``,  ``2016.06.05-0``,  ``3.19.15-1``,  ``3.11.14-1``,  ``3.11.14-0``
+
+      
+
    
    :depends blas: 
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends openblas: >=0.2.20,<0.2.21.0a0
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
    :requirements:
 
    .. rubric:: Installation

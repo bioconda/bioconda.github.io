@@ -8,6 +8,7 @@ bioconductor-pd.charm.hg18.example
 
 .. conda:recipe:: bioconductor-pd.charm.hg18.example
    :replaces_section_title:
+   :noindex:
 
    Platform Design Info for NimbleGen charm\_hg18\_example
 
@@ -22,16 +23,23 @@ bioconductor-pd.charm.hg18.example
 
    |downloads_bioconductor-pd.charm.hg18.example| |docker_bioconductor-pd.charm.hg18.example|
 
-   :versions: 0.99.4-4, 0.99.4-3, 0.99.4-2, 0.99.4-0
+   :versions:
+      
+      
+
+      ``0.99.4-4``,  ``0.99.4-3``,  ``0.99.4-2``,  ``0.99.4-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-oligo: >=1.52.0,<1.53.0
-   :depends bioconductor-oligoclasses: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-oligoclasses: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
-   :depends r-rsqlite: >=0.7-1
+   :depends r-rsqlite: ``>=0.7-1``
    :requirements:
 
    .. rubric:: Installation

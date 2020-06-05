@@ -8,6 +8,7 @@ probamconvert
 
 .. conda:recipe:: probamconvert
    :replaces_section_title:
+   :noindex:
 
    proBAMconvert is a conversion tool to convert common peptide identification files \(mzIdentML\, pepXML\, mzTAB\) to the proBAM or proBED format
 
@@ -22,18 +23,25 @@ probamconvert
 
    |downloads_probamconvert| |docker_probamconvert|
 
-   :versions: 1.0.2-2, 1.0.2-1, 1.0.1-1, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.1-1``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
    :depends bioservices: 
    :depends cogent: 
-   :depends icu: 58.*
+   :depends icu: ``58.*``
    :depends lxml: 
    :depends matplotlib: 
    :depends mysql-python: 
    :depends numpy: 
-   :depends pysam: >=0.9
+   :depends pysam: ``>=0.9``
    :depends pyteomics: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends xz: 
    :requirements:
 

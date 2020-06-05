@@ -8,6 +8,7 @@ skmer
 
 .. conda:recipe:: skmer
    :replaces_section_title:
+   :noindex:
 
    Assembly\-free and alignment\-free tool for estimating genomic distances between genome\-skims
 
@@ -22,15 +23,30 @@ skmer
 
    |downloads_skmer| |docker_skmer|
 
-   :versions: 3.0.2-0, 3.0.1-1, 3.0.1-0, 3.0.0-0, 2.0.2-3, 2.0.1-0, 2.0.0-0, 1.1.0-1, 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.2-0</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.2-3</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
+
+      ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.2-3``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends kmer-jellyfish: 2.*
-   :depends mash: 1.1
+   :depends kmer-jellyfish: ``2.*``
+   :depends mash: ``1.1``
    :depends numpy: 
    :depends pandas: 
    :depends python: 
    :depends scipy: 
-   :depends seqtk: 1.3
+   :depends seqtk: ``1.3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ mhcnuggets
 
 .. conda:recipe:: mhcnuggets
    :replaces_section_title:
+   :noindex:
 
    MHCnuggets\: Neoantigen peptide MHC binding prediction for class I and II
 
@@ -47,14 +48,21 @@ mhcnuggets
 
    |downloads_mhcnuggets| |docker_mhcnuggets|
 
-   :versions: 2.3.2-0, 2.3.1-0, 2.2-0
+   :versions:
+      
+      
+
+      ``2.3.2-0``,  ``2.3.1-0``,  ``2.2-0``
+
+      
+
    
    :depends keras: 
-   :depends numpy: >=1.16.1
+   :depends numpy: ``>=1.16.1``
    :depends python: 
    :depends scikit-learn: 
    :depends scipy: 
-   :depends tensorflow: 1.13.1.*
+   :depends tensorflow: ``1.13.1.*``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-mirbase.db
 
 .. conda:recipe:: bioconductor-mirbase.db
    :replaces_section_title:
+   :noindex:
 
    miRBase\: the microRNA database
 
@@ -22,11 +23,18 @@ bioconductor-mirbase.db
 
    |downloads_bioconductor-mirbase.db| |docker_bioconductor-mirbase.db|
 
-   :versions: 1.2.0-4, 1.2.0-3, 1.2.0-2, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

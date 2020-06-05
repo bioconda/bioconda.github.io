@@ -8,6 +8,7 @@ perl-mro-compat
 
 .. conda:recipe:: perl-mro-compat
    :replaces_section_title:
+   :noindex:
 
    mro\:\:\* interface compatibility for Perls \< 5.9.5
 
@@ -22,9 +23,16 @@ perl-mro-compat
 
    |downloads_perl-mro-compat| |docker_perl-mro-compat|
 
-   :versions: 0.13-0
+   :versions:
+      
+      
+
+      ``0.13-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

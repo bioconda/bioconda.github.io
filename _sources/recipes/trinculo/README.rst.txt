@@ -8,6 +8,7 @@ trinculo
 
 .. conda:recipe:: trinculo
    :replaces_section_title:
+   :noindex:
 
    A toolkit for carrying out genetic association for
    multi\-category phenotypes. Implements multinomial and ordinal
@@ -25,10 +26,17 @@ trinculo
 
    |downloads_trinculo| |docker_trinculo|
 
-   :versions: 0.96-2, 0.96-0
+   :versions:
+      
+      
+
+      ``0.96-2``,  ``0.96-0``
+
+      
+
    
    :depends lapack: 
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

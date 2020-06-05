@@ -8,6 +8,7 @@ wgs2ncbi
 
 .. conda:recipe:: wgs2ncbi
    :replaces_section_title:
+   :noindex:
 
    Toolkit for preparing genomes for submission to NCBI
 
@@ -22,9 +23,16 @@ wgs2ncbi
 
    |downloads_wgs2ncbi| |docker_wgs2ncbi|
 
-   :versions: 1.1.2-0, 1.0.3-1, 1.0.3-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.1.2-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-uri: 
    :depends tbl2asn: 
    :requirements:

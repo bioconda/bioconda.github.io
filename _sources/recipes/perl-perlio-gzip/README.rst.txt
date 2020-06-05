@@ -8,6 +8,7 @@ perl-perlio-gzip
 
 .. conda:recipe:: perl-perlio-gzip
    :replaces_section_title:
+   :noindex:
 
    PerlIO interface to gzip\/gunzip
 
@@ -22,11 +23,18 @@ perl-perlio-gzip
 
    |downloads_perl-perlio-gzip| |docker_perl-perlio-gzip|
 
-   :versions: 0.20-1, 0.20-0, 0.19-3, 0.19-2, 0.19-1, 0.19-0
+   :versions:
+      
+      
+
+      ``0.20-1``,  ``0.20-0``,  ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

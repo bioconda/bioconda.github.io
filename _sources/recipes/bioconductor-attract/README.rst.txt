@@ -8,6 +8,7 @@ bioconductor-attract
 
 .. conda:recipe:: bioconductor-attract
    :replaces_section_title:
+   :noindex:
 
    Methods to Find the Gene Expression Modules that Represent the Drivers of Kauffman\'s Attractor Landscape
 
@@ -22,16 +23,23 @@ bioconductor-attract
 
    |downloads_bioconductor-attract| |docker_bioconductor-attract|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.34.0-0
+   :versions:
+      
+      
+
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-gostats: >=2.54.0,<2.55.0
-   :depends bioconductor-keggrest: >=1.28.0,<1.29.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends bioconductor-reactome.db: >=1.70.0,<1.71.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-gostats: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-keggrest: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-reactome.db: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :requirements:
 

@@ -8,6 +8,7 @@ bmtool
 
 .. conda:recipe:: bmtool
    :replaces_section_title:
+   :noindex:
 
    bmtool is part of BMTagger aka Best Match Tagger\, for removing human reads from metagenomics datasets
 
@@ -22,10 +23,17 @@ bmtool
 
    |downloads_bmtool| |docker_bmtool|
 
-   :versions: 3.101-2, 3.101-1
+   :versions:
+      
+      
+
+      ``3.101-2``,  ``3.101-1``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

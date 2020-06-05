@@ -8,6 +8,7 @@ discovardenovo
 
 .. conda:recipe:: discovar-denovo
    :replaces_section_title:
+   :noindex:
 
    Suitable for de novo assembly of large and small genomes.
 
@@ -22,11 +23,18 @@ discovardenovo
 
    |downloads_discovardenovo| |docker_discovardenovo|
 
-   :versions: 52488-1, 52488-0
+   :versions:
+      
+      
+
+      ``52488-1``,  ``52488-0``
+
+      
+
    
    :depends jemalloc: 
    :depends libgcc: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

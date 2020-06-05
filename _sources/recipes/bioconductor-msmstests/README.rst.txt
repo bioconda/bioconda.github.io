@@ -8,6 +8,7 @@ bioconductor-msmstests
 
 .. conda:recipe:: bioconductor-msmstests
    :replaces_section_title:
+   :noindex:
 
    LC\-MS\/MS Differential Expression Tests
 
@@ -22,13 +23,20 @@ bioconductor-msmstests
 
    |downloads_bioconductor-msmstests| |docker_bioconductor-msmstests|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.1-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``
+
+      
+
    
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-msmseda: >=1.26.0,<1.27.0
-   :depends bioconductor-msnbase: >=2.14.0,<2.15.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-msmseda: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ gvcf-regions
 
 .. conda:recipe:: gvcf-regions
    :replaces_section_title:
+   :noindex:
 
    Convert a gVCF file in multiple formats into a BED file of callable regions
 
@@ -22,7 +23,14 @@ gvcf-regions
 
    |downloads_gvcf-regions| |docker_gvcf-regions|
 
-   :versions: 2016.06.23-1, 2016.06.23-0, 2016.06.21-0, 2016.05.24-0, 2016.05.20-0
+   :versions:
+      
+      
+
+      ``2016.06.23-1``,  ``2016.06.23-0``,  ``2016.06.21-0``,  ``2016.05.24-0``,  ``2016.05.20-0``
+
+      
+
    
    :depends python: 
    :requirements:

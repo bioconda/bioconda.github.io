@@ -8,6 +8,7 @@ rnachipintegrator
 
 .. conda:recipe:: rnachipintegrator
    :replaces_section_title:
+   :noindex:
 
    Analyse genes against peak data\, and vice versa
 
@@ -24,10 +25,17 @@ rnachipintegrator
 
    |downloads_rnachipintegrator| |docker_rnachipintegrator|
 
-   :versions: 2.0.0-1, 2.0.0-0, 1.2.0-0, 1.1.0-0, 1.0.3-1, 1.0.3-0
+   :versions:
+      
+      
+
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+
    
    :depends python: 
-   :depends xlsxwriter: >=0.8.4
+   :depends xlsxwriter: ``>=0.8.4``
    :requirements:
 
    .. rubric:: Installation

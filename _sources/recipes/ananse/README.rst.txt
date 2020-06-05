@@ -8,6 +8,7 @@ ananse
 
 .. conda:recipe:: ananse
    :replaces_section_title:
+   :noindex:
 
    ANANSE\: ANalysis Algorithm for Networks Specified by Enhancers \- Prediction of key transcription factors in cell fate determination using enhancer networks
 
@@ -23,14 +24,21 @@ ananse
 
    |downloads_ananse| |docker_ananse|
 
-   :versions: 0.1.1-0, v0.1.2-0
+   :versions:
+      
+      
+
+      ``0.1.1-0``,  ``v0.1.2-0``
+
+      
+
    
    :depends adjusttext: 
    :depends dask: 
-   :depends gimmemotifs: >=0.14.4
+   :depends gimmemotifs: ``>=0.14.4``
    :depends networkx: 
    :depends pytables: 
-   :depends python: >3
+   :depends python: ``>3``
    :requirements:
 
    .. rubric:: Installation

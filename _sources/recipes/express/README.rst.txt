@@ -8,6 +8,7 @@ express
 
 .. conda:recipe:: express
    :replaces_section_title:
+   :noindex:
 
    eXpress is a streaming DNA\/RNA sequence quantification tool.
 
@@ -22,9 +23,16 @@ express
 
    |downloads_express| |docker_express|
 
-   :versions: 1.5.1-1, 1.5.1-0
+   :versions:
+      
+      
+
+      ``1.5.1-1``,  ``1.5.1-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :depends zlib: 
    :requirements:
 

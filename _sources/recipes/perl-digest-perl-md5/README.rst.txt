@@ -8,6 +8,7 @@ perl-digest-perl-md5
 
 .. conda:recipe:: perl-digest-perl-md5
    :replaces_section_title:
+   :noindex:
 
    Perl Implementation of Rivest\'s MD5 algorithm
 
@@ -22,9 +23,16 @@ perl-digest-perl-md5
 
    |downloads_perl-digest-perl-md5| |docker_perl-digest-perl-md5|
 
-   :versions: 1.9-1, 1.9-0
+   :versions:
+      
+      
+
+      ``1.9-1``,  ``1.9-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

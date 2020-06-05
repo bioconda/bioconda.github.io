@@ -8,6 +8,7 @@ bioconductor-sangerseqr
 
 .. conda:recipe:: bioconductor-sangerseqr
    :replaces_section_title:
+   :noindex:
 
    Tools for Sanger Sequencing Data in R
 
@@ -23,10 +24,17 @@ bioconductor-sangerseqr
 
    |downloads_bioconductor-sangerseqr| |docker_bioconductor-sangerseqr|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-shiny: 
    :requirements:
 

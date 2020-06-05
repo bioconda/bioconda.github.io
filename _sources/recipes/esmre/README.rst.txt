@@ -8,6 +8,7 @@ esmre
 
 .. conda:recipe:: esmre
    :replaces_section_title:
+   :noindex:
 
    Regular expression accelerator
 
@@ -22,9 +23,16 @@ esmre
 
    |downloads_esmre| |docker_esmre|
 
-   :versions: 0.3.1-1, 0.3.1-0
+   :versions:
+      
+      
+
+      ``0.3.1-1``,  ``0.3.1-0``
+
+      
+
    
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

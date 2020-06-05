@@ -8,6 +8,7 @@ somatic-sniper
 
 .. conda:recipe:: somatic-sniper
    :replaces_section_title:
+   :noindex:
 
    A tool to call somatic single nucleotide variants.
 
@@ -22,9 +23,16 @@ somatic-sniper
 
    |downloads_somatic-sniper| |docker_somatic-sniper|
 
-   :versions: 1.0.5.0-1, 1.0.5.0-0
+   :versions:
+      
+      
+
+      ``1.0.5.0-1``,  ``1.0.5.0-0``
+
+      
+
    
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

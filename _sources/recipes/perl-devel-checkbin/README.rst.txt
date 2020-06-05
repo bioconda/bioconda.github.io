@@ -8,6 +8,7 @@ perl-devel-checkbin
 
 .. conda:recipe:: perl-devel-checkbin
    :replaces_section_title:
+   :noindex:
 
    check that a command is available
 
@@ -22,9 +23,16 @@ perl-devel-checkbin
 
    |downloads_perl-devel-checkbin| |docker_perl-devel-checkbin|
 
-   :versions: 0.04-2, 0.04-1, 0.04-0
+   :versions:
+      
+      
+
+      ``0.04-2``,  ``0.04-1``,  ``0.04-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

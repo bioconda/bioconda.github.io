@@ -8,6 +8,7 @@ fastq-tools
 
 .. conda:recipe:: fastq-tools
    :replaces_section_title:
+   :noindex:
 
    A collection of fastq manipulation scripts written in C for speed.
 
@@ -22,11 +23,18 @@ fastq-tools
 
    |downloads_fastq-tools| |docker_fastq-tools|
 
-   :versions: 0.8-2, 0.8-1, 0.8-0
+   :versions:
+      
+      
+
+      ``0.8-2``,  ``0.8-1``,  ``0.8-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends pcre: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

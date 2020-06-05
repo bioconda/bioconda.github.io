@@ -8,6 +8,7 @@ svjedi
 
 .. conda:recipe:: svjedi
    :replaces_section_title:
+   :noindex:
 
    SVJedi is a structural variation \(SV\) genotyper for long read data.
 
@@ -22,12 +23,19 @@ svjedi
 
    |downloads_svjedi| |docker_svjedi|
 
-   :versions: 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``
+
+      
+
    
    :depends biopython: 
    :depends minimap2: 
    :depends numpy: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

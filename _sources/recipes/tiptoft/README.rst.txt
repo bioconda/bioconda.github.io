@@ -8,6 +8,7 @@ tiptoft
 
 .. conda:recipe:: tiptoft
    :replaces_section_title:
+   :noindex:
 
    Predict plasmids from uncorrected long read data.
 
@@ -22,14 +23,21 @@ tiptoft
 
    |downloads_tiptoft| |docker_tiptoft|
 
-   :versions: 1.0.2-0, 1.0.0-0, 0.1.4-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``,  ``1.0.0-0``,  ``0.1.4-0``
+
+      
+
    
-   :depends biopython: >=1.68
+   :depends biopython: ``>=1.68``
    :depends cython: 
-   :depends libgcc-ng: >=7.3.0
-   :depends pyfastaq: >=3.12.0
-   :depends python: >=3.8,<3.9.0a0
-   :depends python_abi: 3.8.* *_cp38
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends pyfastaq: ``>=3.12.0``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends setuptools: 
    :requirements:
 

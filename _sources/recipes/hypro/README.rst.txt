@@ -8,6 +8,7 @@ hypro
 
 .. conda:recipe:: hypro
    :replaces_section_title:
+   :noindex:
 
    Extend hypothetical prokka protein annotations using additional homology searches against larger databases
 
@@ -22,13 +23,20 @@ hypro
 
    |downloads_hypro| |docker_hypro|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
-   :depends mmseqs2: 10.6d92c.*
-   :depends mygene: 3.1.0.*
-   :depends pandas: 0.25.2.*
-   :depends prokka: >=1.14.6
-   :depends python: 3.7.*
+   :depends mmseqs2: ``10.6d92c.*``
+   :depends mygene: ``3.1.0.*``
+   :depends pandas: ``0.25.2.*``
+   :depends prokka: ``>=1.14.6``
+   :depends python: ``3.7.*``
    :requirements:
 
    .. rubric:: Installation

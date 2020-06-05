@@ -8,6 +8,7 @@ bioconductor-benchmarkfdrdata2019
 
 .. conda:recipe:: bioconductor-benchmarkfdrdata2019
    :replaces_section_title:
+   :noindex:
 
    Data and Benchmarking Results from Korthauer and Kimes et al. \(2019\)
 
@@ -22,12 +23,19 @@ bioconductor-benchmarkfdrdata2019
 
    |downloads_bioconductor-benchmarkfdrdata2019| |docker_bioconductor-benchmarkfdrdata2019|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

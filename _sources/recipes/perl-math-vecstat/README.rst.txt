@@ -8,6 +8,7 @@ perl-math-vecstat
 
 .. conda:recipe:: perl-math-vecstat
    :replaces_section_title:
+   :noindex:
 
    Some basic numeric stats on vectors
 
@@ -22,9 +23,16 @@ perl-math-vecstat
 
    |downloads_perl-math-vecstat| |docker_perl-math-vecstat|
 
-   :versions: 0.08-1, 0.08-0
+   :versions:
+      
+      
+
+      ``0.08-1``,  ``0.08-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

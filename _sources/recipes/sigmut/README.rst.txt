@@ -8,6 +8,7 @@ sigmut
 
 .. conda:recipe:: sigmut
    :replaces_section_title:
+   :noindex:
 
    Wrapper of SigProfiler \(Copyright\(c\) 2019\, Erik Bergstrom \[Alexandrov Lab\]\)
 
@@ -22,12 +23,19 @@ sigmut
 
    |downloads_sigmut| |docker_sigmut|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends matplotlib-base: 
-   :depends numpy: >=1.17.5
+   :depends numpy: ``>=1.17.5``
    :depends pandas: 
-   :depends python: >=3.7
+   :depends python: ``>=3.7``
    :depends scipy: 
    :depends statsmodels: 
    :depends zlib: 

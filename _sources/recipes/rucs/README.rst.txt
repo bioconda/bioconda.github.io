@@ -8,6 +8,7 @@ rucs
 
 .. conda:recipe:: rucs
    :replaces_section_title:
+   :noindex:
 
    RUCS is a bioinformatics tool developed to ease the task of designing new primers.
 
@@ -25,13 +26,20 @@ rucs
 
    |downloads_rucs| |docker_rucs|
 
-   :versions: 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-0``
+
+      
+
    
    :depends blast: 
    :depends bwa: 
    :depends numpy: 
    :depends primer3-py: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends samtools: 
    :depends tabulate: 
    :requirements:

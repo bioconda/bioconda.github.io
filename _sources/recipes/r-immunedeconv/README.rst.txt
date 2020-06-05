@@ -8,6 +8,7 @@ r-immunedeconv
 
 .. conda:recipe:: r-immunedeconv
    :replaces_section_title:
+   :noindex:
 
    collection of methods for immune cell deconvolution of bulk RNA\-seq samples.
 
@@ -23,7 +24,14 @@ r-immunedeconv
 
    |downloads_r-immunedeconv| |docker_r-immunedeconv|
 
-   :versions: 2.0.2-1, 2.0.2-0, 2.0.1-0, 2.0.0-0, 1.1.1-0
+   :versions:
+      
+      
+
+      ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
+
+      
+
    
    :depends bioconductor-biobase: 
    :depends bioconductor-biocgenerics: 
@@ -32,19 +40,19 @@ r-immunedeconv
    :depends bioconductor-gsva: 
    :depends bioconductor-preprocesscore: 
    :depends bioconductor-sva: 
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-data.tree: >=0.7
-   :depends r-dplyr: >=0.7
-   :depends r-e1071: >=1.6
-   :depends r-epic: >=1.1
-   :depends r-limsolve: >=1.5.5.1
-   :depends r-magrittr: >=1.5
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.tree: ``>=0.7``
+   :depends r-dplyr: ``>=0.7``
+   :depends r-e1071: ``>=1.6``
+   :depends r-epic: ``>=1.1``
+   :depends r-limsolve: ``>=1.5.5.1``
+   :depends r-magrittr: ``>=1.5``
    :depends r-mcpcounter: 
-   :depends r-readr: >=1.1
-   :depends r-readxl: >=1.0
-   :depends r-testit: >=0.7
-   :depends r-tibble: >=1.4.2
-   :depends r-xcell: >=1.2
+   :depends r-readr: ``>=1.1``
+   :depends r-readxl: ``>=1.0``
+   :depends r-testit: ``>=0.7``
+   :depends r-tibble: ``>=1.4.2``
+   :depends r-xcell: ``>=1.2``
    :requirements:
 
    .. rubric:: Installation

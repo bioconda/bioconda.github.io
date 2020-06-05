@@ -8,6 +8,7 @@ perl-tie-refhash-weak
 
 .. conda:recipe:: perl-tie-refhash-weak/0.09
    :replaces_section_title:
+   :noindex:
 
    A Tie\:\:RefHash subclass with weakened references in the keys.
 
@@ -22,9 +23,16 @@ perl-tie-refhash-weak
 
    |downloads_perl-tie-refhash-weak| |docker_perl-tie-refhash-weak|
 
-   :versions: 0.09-2, 0.09-1, 0.09-0
+   :versions:
+      
+      
+
+      ``0.09-2``,  ``0.09-1``,  ``0.09-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-task-weaken: 
    :depends perl-tie-refhash: 
    :depends perl-variable-magic: 

@@ -8,6 +8,7 @@ bioconductor-perfect
 
 .. conda:recipe:: bioconductor-perfect
    :replaces_section_title:
+   :noindex:
 
    Permutation filtration for microbiome data
 
@@ -22,16 +23,23 @@ bioconductor-perfect
 
    |downloads_bioconductor-perfect| |docker_bioconductor-perfect|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-phyloseq: >=1.32.0,<1.33.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-fitdistrplus: >=1.0.12
-   :depends r-ggplot2: >=3.0.0
-   :depends r-matrix: >=1.2.14
-   :depends r-psych: >=1.8.4
-   :depends r-sn: >=1.5.2
-   :depends r-zoo: >=1.8.3
+   :depends bioconductor-phyloseq: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-fitdistrplus: ``>=1.0.12``
+   :depends r-ggplot2: ``>=3.0.0``
+   :depends r-matrix: ``>=1.2.14``
+   :depends r-psych: ``>=1.8.4``
+   :depends r-sn: ``>=1.5.2``
+   :depends r-zoo: ``>=1.8.3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-symbol
 
 .. conda:recipe:: perl-symbol/1.07
    :replaces_section_title:
+   :noindex:
 
    manipulate Perl symbols and their names
 
@@ -22,9 +23,16 @@ perl-symbol
 
    |downloads_perl-symbol| |docker_perl-symbol|
 
-   :versions: 1.07-1, 1.07-0
+   :versions:
+      
+      
+
+      ``1.07-1``,  ``1.07-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

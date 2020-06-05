@@ -8,6 +8,7 @@ bioconductor-rtracklayer
 
 .. conda:recipe:: bioconductor-rtracklayer
    :replaces_section_title:
+   :noindex:
 
    R interface to genome annotation files and the UCSC genome browser
 
@@ -23,24 +24,39 @@ bioconductor-rtracklayer
 
    |downloads_bioconductor-rtracklayer| |docker_bioconductor-rtracklayer|
 
-   :versions: 1.48.0-0, 1.46.0-0, 1.44.2-1, 1.44.2-0, 1.44.0-1, 1.42.1-1, 1.42.1-0, 1.40.6-0, 1.38.3-0, 1.38.0-0, 1.36.6-0, 1.34.2-1, 1.34.1-0, 1.32.2-1, 1.30.1-0, 1.30.0-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.2-1</code>,  <code>1.44.2-0</code>,  <code>1.44.0-1</code>,  <code>1.42.1-1</code>,  <code>1.42.1-0</code>,  <code>1.40.6-0</code>,  <code>1.38.3-0</code>,  </span></summary>
+      
+
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.2-1``,  ``1.44.2-0``,  ``1.44.0-1``,  ``1.42.1-1``,  ``1.42.1-0``,  ``1.40.6-0``,  ``1.38.3-0``,  ``1.38.0-0``,  ``1.36.6-0``,  ``1.34.2-1``,  ``1.34.1-0``,  ``1.32.2-1``,  ``1.30.1-0``,  ``1.30.0-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicalignments: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-xvector: >=0.28.0,<0.29.0
-   :depends bioconductor-zlibbioc: >=1.34.0,<1.35.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-rcurl: >=1.4-2
-   :depends r-xml: >=1.98-0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicalignments: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-xvector: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-zlibbioc: ``>=1.34.0,<1.35.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-rcurl: ``>=1.4-2``
+   :depends r-xml: ``>=1.98-0``
    :requirements:
 
    .. rubric:: Installation

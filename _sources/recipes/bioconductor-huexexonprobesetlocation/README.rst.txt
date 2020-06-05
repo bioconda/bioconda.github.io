@@ -8,6 +8,7 @@ bioconductor-huexexonprobesetlocation
 
 .. conda:recipe:: bioconductor-huexexonprobesetlocation
    :replaces_section_title:
+   :noindex:
 
    Probe sequence data for microarrays of type HuEx
 
@@ -22,11 +23,18 @@ bioconductor-huexexonprobesetlocation
 
    |downloads_bioconductor-huexexonprobesetlocation| |docker_bioconductor-huexexonprobesetlocation|
 
-   :versions: 1.15.0-4, 1.15.0-3, 1.15.0-2, 1.15.0-0
+   :versions:
+      
+      
+
+      ``1.15.0-4``,  ``1.15.0-3``,  ``1.15.0-2``,  ``1.15.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

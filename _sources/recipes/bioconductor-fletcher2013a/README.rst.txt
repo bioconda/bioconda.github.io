@@ -8,6 +8,7 @@ bioconductor-fletcher2013a
 
 .. conda:recipe:: bioconductor-fletcher2013a
    :replaces_section_title:
+   :noindex:
 
    Gene expression data from breast cancer cells under FGFR2 signalling perturbation
 
@@ -22,12 +23,19 @@ bioconductor-fletcher2013a
 
    |downloads_bioconductor-fletcher2013a| |docker_bioconductor-fletcher2013a|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends r-venndiagram: 
    :requirements:

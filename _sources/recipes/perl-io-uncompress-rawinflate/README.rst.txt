@@ -8,6 +8,7 @@ perl-io-uncompress-rawinflate
 
 .. conda:recipe:: perl-io-uncompress-rawinflate/2.064
    :replaces_section_title:
+   :noindex:
 
    Read RFC 1951 files\/buffers
 
@@ -22,9 +23,16 @@ perl-io-uncompress-rawinflate
 
    |downloads_perl-io-uncompress-rawinflate| |docker_perl-io-uncompress-rawinflate|
 
-   :versions: 2.064-1, 2.064-0
+   :versions:
+      
+      
+
+      ``2.064-1``,  ``2.064-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

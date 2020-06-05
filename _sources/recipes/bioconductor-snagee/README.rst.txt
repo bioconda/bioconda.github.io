@@ -8,6 +8,7 @@ bioconductor-snagee
 
 .. conda:recipe:: bioconductor-snagee
    :replaces_section_title:
+   :noindex:
 
    Signal\-to\-Noise applied to Gene Expression Experiments
 
@@ -23,10 +24,17 @@ bioconductor-snagee
 
    |downloads_bioconductor-snagee| |docker_bioconductor-snagee|
 
-   :versions: 1.28.0-0, 1.26.0-1, 1.24.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-snageedata: >=1.24.0,<1.25.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-snageedata: ``>=1.24.0,<1.25.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-clumsiddata
 
 .. conda:recipe:: bioconductor-clumsiddata
    :replaces_section_title:
+   :noindex:
 
    Data for the CluMSID package
 
@@ -22,10 +23,17 @@ bioconductor-clumsiddata
 
    |downloads_bioconductor-clumsiddata| |docker_bioconductor-clumsiddata|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

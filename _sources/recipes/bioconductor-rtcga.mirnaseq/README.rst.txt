@@ -8,6 +8,7 @@ bioconductor-rtcga.mirnaseq
 
 .. conda:recipe:: bioconductor-rtcga.mirnaseq
    :replaces_section_title:
+   :noindex:
 
    miRNASeq datasets from The Cancer Genome Atlas Project
 
@@ -22,11 +23,18 @@ bioconductor-rtcga.mirnaseq
 
    |downloads_bioconductor-rtcga.mirnaseq| |docker_bioconductor-rtcga.mirnaseq|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.0-1, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends bioconductor-rtcga: >=1.18.0,<1.19.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-rtcga: ``>=1.18.0,<1.19.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

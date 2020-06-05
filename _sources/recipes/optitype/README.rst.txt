@@ -8,6 +8,7 @@ optitype
 
 .. conda:recipe:: optitype
    :replaces_section_title:
+   :noindex:
 
    Precision HLA typing from next\-generation sequencing data
 
@@ -22,7 +23,14 @@ optitype
 
    |downloads_optitype| |docker_optitype|
 
-   :versions: 1.3.4-0, 1.3.2-3, 1.3.2-2, 1.3.2-1, 1.3.1-0, 1.2.1-1, 1.2.1-0, 1.2-0
+   :versions:
+      
+      
+
+      ``1.3.4-0``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.1-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``
+
+      
+
    
    :depends future: 
    :depends glpk: 

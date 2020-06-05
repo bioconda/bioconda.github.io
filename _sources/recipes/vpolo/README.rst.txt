@@ -8,6 +8,7 @@ vpolo
 
 .. conda:recipe:: vpolo
    :replaces_section_title:
+   :noindex:
 
    Support package for Alevin tools
 
@@ -22,7 +23,14 @@ vpolo
 
    |downloads_vpolo| |docker_vpolo|
 
-   :versions: 0.2.0-0, 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-0``,  ``0.1.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

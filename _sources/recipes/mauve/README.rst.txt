@@ -8,6 +8,7 @@ mauve
 
 .. conda:recipe:: mauve
    :replaces_section_title:
+   :noindex:
 
    Mauve is a system for constructing multiple genome alignments in the presence of large\-scale evolutionary events such as rearrangement and inversion
 
@@ -23,12 +24,19 @@ mauve
 
    |downloads_mauve| |docker_mauve|
 
-   :versions: 2.4.0.snapshot_2015_02_13-2, 2.4.0.snapshot_2015_02_13-1, 2.4.0.snapshot_2015_02_13-0, 2.4.0.r4736-1, 2.4.0.r4736-0
+   :versions:
+      
+      
+
+      ``2.4.0.snapshot_2015_02_13-2``,  ``2.4.0.snapshot_2015_02_13-1``,  ``2.4.0.snapshot_2015_02_13-0``,  ``2.4.0.r4736-1``,  ``2.4.0.r4736-0``
+
+      
+
    
    :depends font-ttf-dejavu-sans-mono: 
-   :depends fontconfig: >=2.13.1,<3.0a0
+   :depends fontconfig: ``>=2.13.1,<3.0a0``
    :depends mauvealigner: 
-   :depends openjdk: 8.0.192.*
+   :depends openjdk: ``8.0.192.*``
    :requirements:
 
    .. rubric:: Installation

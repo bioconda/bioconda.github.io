@@ -8,6 +8,7 @@ perl-module-extract-use
 
 .. conda:recipe:: perl-module-extract-use/1.043
    :replaces_section_title:
+   :noindex:
 
    Pull out the modules a module explicitly uses
 
@@ -22,9 +23,16 @@ perl-module-extract-use
 
    |downloads_perl-module-extract-use| |docker_perl-module-extract-use|
 
-   :versions: 1.043-2, 1.043-1, 1.043-0
+   :versions:
+      
+      
+
+      ``1.043-2``,  ``1.043-1``,  ``1.043-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-ppi: 
    :requirements:
 

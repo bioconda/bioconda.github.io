@@ -8,6 +8,7 @@ pylibseq
 
 .. conda:recipe:: pylibseq
    :replaces_section_title:
+   :noindex:
 
    A Python interface to libsequence
 
@@ -22,12 +23,19 @@ pylibseq
 
    |downloads_pylibseq| |docker_pylibseq|
 
-   :versions: 0.2.2-1, 0.2.2-0, 0.2.1-0, 0.2.0-2, 0.2.0-1, 0.2.0-0, 0.1.9.post0-0, 0.1.8-0
+   :versions:
+      
+      
+
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9.post0-0``,  ``0.1.8-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends msprime: >=0.7.0
-   :depends python: >=3.6,<3.7.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends msprime: ``>=0.7.0``
+   :depends python: ``>=3.6,<3.7.0a0``
    :requirements:
 
    .. rubric:: Installation

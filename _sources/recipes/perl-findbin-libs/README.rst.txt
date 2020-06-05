@@ -8,6 +8,7 @@ perl-findbin-libs
 
 .. conda:recipe:: perl-findbin-libs/2.017008
    :replaces_section_title:
+   :noindex:
 
    locate and a \'use lib\' or export directories based on \$FindBin\:\:Bin.
 
@@ -22,9 +23,16 @@ perl-findbin-libs
 
    |downloads_perl-findbin-libs| |docker_perl-findbin-libs|
 
-   :versions: 2.017008-1, 2.017008-0
+   :versions:
+      
+      
+
+      ``2.017008-1``,  ``2.017008-0``
+
+      
+
    
-   :depends perl: >=5.22.0.1,<5.23.0a0
+   :depends perl: ``>=5.22.0.1,<5.23.0a0``
    :depends perl-carp: 
    :depends perl-file-temp: 
    :depends perl-module-fromperlver: 

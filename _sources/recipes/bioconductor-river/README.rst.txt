@@ -8,6 +8,7 @@ bioconductor-river
 
 .. conda:recipe:: bioconductor-river
    :replaces_section_title:
+   :noindex:
 
    R package for RIVER \(RNA\-Informed Variant Effect on Regulation\)
 
@@ -22,10 +23,17 @@ bioconductor-river
 
    |downloads_bioconductor-river| |docker_bioconductor-river|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-glmnet: 
    :depends r-proc: 

@@ -8,6 +8,7 @@ r-workflowscriptscommon
 
 .. conda:recipe:: r-workflowscriptscommon
    :replaces_section_title:
+   :noindex:
 
    Common functions for making R function wapper scripts. Functions in R packages are hard to call when building workflows outside of R\, so this package is used by other packages \(e.g. r\-seurat\-scripts\) to add sets of simple wrappers with robust argument parsing.
 
@@ -22,9 +23,16 @@ r-workflowscriptscommon
 
    |downloads_r-workflowscriptscommon| |docker_r-workflowscriptscommon|
 
-   :versions: 0.0.7-1, 0.0.7-0, 0.0.6-0, 0.0.5-0, 0.0.4-1, 0.0.4-0, 0.0.2-0, 0.0.1-0
+   :versions:
+      
+      
+
+      ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-optparse: 
    :requirements:
 

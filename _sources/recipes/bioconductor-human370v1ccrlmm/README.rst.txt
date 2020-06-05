@@ -8,6 +8,7 @@ bioconductor-human370v1ccrlmm
 
 .. conda:recipe:: bioconductor-human370v1ccrlmm
    :replaces_section_title:
+   :noindex:
 
    Metadata for fast genotyping with the \'crlmm\' package
 
@@ -22,10 +23,17 @@ bioconductor-human370v1ccrlmm
 
    |downloads_bioconductor-human370v1ccrlmm| |docker_bioconductor-human370v1ccrlmm|
 
-   :versions: 1.0.2-4, 1.0.2-3, 1.0.2-2, 1.0.2-1, 1.0.2-0
+   :versions:
+      
+      
+
+      ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

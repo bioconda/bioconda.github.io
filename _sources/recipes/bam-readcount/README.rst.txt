@@ -8,6 +8,7 @@ bam-readcount
 
 .. conda:recipe:: bam-readcount
    :replaces_section_title:
+   :noindex:
 
    bam\-readcount generates metrics at single nucleotide positions.
 
@@ -22,13 +23,20 @@ bam-readcount
 
    |downloads_bam-readcount| |docker_bam-readcount|
 
-   :versions: 0.8-4, 0.8-3, 0.8-2, 0.8-1
+   :versions:
+      
+      
+
+      ``0.8-4``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends ncurses: >=6.1,<6.2.0a0
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends python: >=2.7,<2.8.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends ncurses: ``>=6.1,<6.2.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

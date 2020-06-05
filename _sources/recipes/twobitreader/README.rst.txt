@@ -8,6 +8,7 @@ twobitreader
 
 .. conda:recipe:: twobitreader
    :replaces_section_title:
+   :noindex:
 
    A fast python package for reading .2bit files \(used by the UCSC genome browser\)
 
@@ -22,7 +23,14 @@ twobitreader
 
    |downloads_twobitreader| |docker_twobitreader|
 
-   :versions: 3.1.7-0, 3.1.6-1, 3.1.6-0, 3.1.4-1, 3.1.4-0
+   :versions:
+      
+      
+
+      ``3.1.7-0``,  ``3.1.6-1``,  ``3.1.6-0``,  ``3.1.4-1``,  ``3.1.4-0``
+
+      
+
    
    :depends python: 
    :requirements:

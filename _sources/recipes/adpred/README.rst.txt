@@ -8,6 +8,7 @@ adpred
 
 .. conda:recipe:: adpred
    :replaces_section_title:
+   :noindex:
 
    python adpred module for prediction of Transcription activation domains from protein sequences
 
@@ -22,16 +23,23 @@ adpred
 
    |downloads_adpred| |docker_adpred|
 
-   :versions: 1.2.7-0, 1.2.5-0, 1.2.4-0, 1.1.3-0
+   :versions:
+      
+      
+
+      ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.1.3-0``
+
+      
+
    
-   :depends keras: 2.2.4
-   :depends numpy: 1.17.2
+   :depends keras: ``2.2.4``
+   :depends numpy: ``1.17.2``
    :depends pandas: 
-   :depends plotly: 4.1.1
-   :depends python: >=3.6
-   :depends requests: 2.23.0
-   :depends scikit-learn: 0.21.3
-   :depends tensorflow: 1.14.0
+   :depends plotly: ``4.1.1``
+   :depends python: ``>=3.6``
+   :depends requests: ``2.23.0``
+   :depends scikit-learn: ``0.21.3``
+   :depends tensorflow: ``1.14.0``
    :requirements:
 
    .. rubric:: Installation

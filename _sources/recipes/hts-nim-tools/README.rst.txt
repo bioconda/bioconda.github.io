@@ -8,6 +8,7 @@ hts-nim-tools
 
 .. conda:recipe:: hts-nim-tools
    :replaces_section_title:
+   :noindex:
 
    useful command\-line tools written to show\-case hts\-nim
 
@@ -22,10 +23,17 @@ hts-nim-tools
 
    |downloads_hts-nim-tools| |docker_hts-nim-tools|
 
-   :versions: 0.1.5-2, 0.1.5-1, 0.1.5-0
+   :versions:
+      
+      
+
+      ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``
+
+      
+
    
-   :depends htslib: >=1.9,<1.10.0a0
-   :depends libgcc-ng: >=4.9
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=4.9``
    :depends pcre: 
    :requirements:
 

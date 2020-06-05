@@ -8,6 +8,7 @@ recognizer
 
 .. conda:recipe:: recognizer
    :replaces_section_title:
+   :noindex:
 
    A tool for domain based annotation with the COG database
 
@@ -31,7 +32,14 @@ recognizer
 
    |downloads_recognizer| |docker_recognizer|
 
-   :versions: 1.2.2-0, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.2.2-0``,  ``1.2.1-0``
+
+      
+
    
    :depends blast: 
    :depends krona: 

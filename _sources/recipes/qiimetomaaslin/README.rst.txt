@@ -8,6 +8,7 @@ qiimetomaaslin
 
 .. conda:recipe:: qiimetomaaslin
    :replaces_section_title:
+   :noindex:
 
    Data munging script to change text Qiime OTU tables to pcl\-formatted\, maaslin\-compatible text files
 
@@ -22,10 +23,17 @@ qiimetomaaslin
 
    |downloads_qiimetomaaslin| |docker_qiimetomaaslin|
 
-   :versions: 1.1.0-1, 1.1.0-0
+   :versions:
+      
+      
+
+      ``1.1.0-1``,  ``1.1.0-0``
+
+      
+
    
    :depends blist: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

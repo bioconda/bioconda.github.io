@@ -8,6 +8,7 @@ bioconductor-elbow
 
 .. conda:recipe:: bioconductor-elbow
    :replaces_section_title:
+   :noindex:
 
    ELBOW \- Evaluating foLd change By the lOgit Way
 
@@ -22,9 +23,16 @@ bioconductor-elbow
 
    |downloads_bioconductor-elbow| |docker_bioconductor-elbow|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.20.0-0, 1.18.1-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

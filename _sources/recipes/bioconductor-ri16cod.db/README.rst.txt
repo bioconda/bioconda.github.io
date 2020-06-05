@@ -8,6 +8,7 @@ bioconductor-ri16cod.db
 
 .. conda:recipe:: bioconductor-ri16cod.db
    :replaces_section_title:
+   :noindex:
 
    Codelink Rat Inflammation 16 Bioarray annotation data \(chip ri16cod\)
 
@@ -22,12 +23,19 @@ bioconductor-ri16cod.db
 
    |downloads_bioconductor-ri16cod.db| |docker_bioconductor-ri16cod.db|
 
-   :versions: 3.4.0-4, 3.4.0-3, 3.4.0-2, 3.4.0-0
+   :versions:
+      
+      
+
+      ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.rn.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

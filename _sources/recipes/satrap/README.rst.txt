@@ -8,6 +8,7 @@ satrap
 
 .. conda:recipe:: satrap
    :replaces_section_title:
+   :noindex:
 
    A SOLiD assembly translation program.
 
@@ -23,9 +24,16 @@ satrap
 
    |downloads_satrap| |docker_satrap|
 
-   :versions: 0.2-1, 0.2-0
+   :versions:
+      
+      
+
+      ``0.2-1``,  ``0.2-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :depends openmp: 
    :requirements:
 

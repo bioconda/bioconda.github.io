@@ -8,6 +8,7 @@ targetdb
 
 .. conda:recipe:: targetdb
    :replaces_section_title:
+   :noindex:
 
    Package with an application to generate report on potential drug targets
 
@@ -22,7 +23,14 @@ targetdb
 
    |downloads_targetdb| |docker_targetdb|
 
-   :versions: 1.3.0-0
+   :versions:
+      
+      
+
+      ``1.3.0-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
@@ -33,7 +41,7 @@ targetdb
    :depends numpy: 
    :depends opencv: 
    :depends opentargets: 
-   :depends pandas: >=0.25.3
+   :depends pandas: ``>=0.25.3``
    :depends python: 
    :depends requests: 
    :depends scikit-learn: 

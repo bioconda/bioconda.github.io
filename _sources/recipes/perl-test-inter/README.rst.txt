@@ -8,6 +8,7 @@ perl-test-inter
 
 .. conda:recipe:: perl-test-inter
    :replaces_section_title:
+   :noindex:
 
    framework for more readable interactive test scripts
 
@@ -22,9 +23,16 @@ perl-test-inter
 
    |downloads_perl-test-inter| |docker_perl-test-inter|
 
-   :versions: 1.09-0, 1.07-0, 1.06-1, 1.06-0
+   :versions:
+      
+      
+
+      ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

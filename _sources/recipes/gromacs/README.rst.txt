@@ -8,13 +8,14 @@ gromacs
 
 .. conda:recipe:: gromacs/2019
    :replaces_section_title:
+   :noindex:
 
    GROMACS is a versatile package to perform molecular dynamics.
 
    :homepage: http://www.gromacs.org/
-   :license: GNU Lesser General Public License (LGPL)
+   :license: LGPL-2.1-or-later
    :recipe: /`gromacs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs>`_/`2019 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2019>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2019/meta.yaml>`_
-   :links: biotools: :biotools:`gromacs`, doi: :doi:`10.5281/zenodo.2564764`, doi: :doi:`10.5281/zenodo.2564761`, doi: :doi:`10.1016/j.softx.2015.06.001`, rrid: :rrid:`RRID:SCR_014565`
+   :links: biotools: :biotools:`gromacs`, doi: :doi:`10.5281/zenodo.2564764`, doi: :doi:`10.5281/zenodo.2564761`, doi: :doi:`10.1016/j.softx.2015.06.001`, rrid: :rrid:`SCR_014565`
 
    
 
@@ -23,16 +24,31 @@ gromacs
 
    |downloads_gromacs| |docker_gromacs|
 
-   :versions: 2020.2-0, 2020-2, 2020-1, 2020-0, 2019.5-0, 2019.1-3, 2019.1-2, 2019.1-1, 2019.1-0, 2019-0, 2018.6-1, 2018.6-0, 2018.5-0, 2018.4-0, 2018.3-0, 2018.2-0, 2018-3, 2018-2, 2018-1, 2018-0, 4.6.5-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2020.2-0</code>,  <code>2020-2</code>,  <code>2020-1</code>,  <code>2020-0</code>,  <code>2019.5-0</code>,  <code>2019.1-3</code>,  <code>2019.1-2</code>,  <code>2019.1-1</code>,  <code>2019.1-0</code>,  </span></summary>
+      
+
+      ``2020.2-0``,  ``2020-2``,  ``2020-1``,  ``2020-0``,  ``2019.5-0``,  ``2019.1-3``,  ``2019.1-2``,  ``2019.1-1``,  ``2019.1-0``,  ``2019-0``,  ``2018.6-1``,  ``2018.6-0``,  ``2018.5-0``,  ``2018.4-0``,  ``2018.3-0``,  ``2018.2-0``,  ``2018-3``,  ``2018-2``,  ``2018-1``,  ``2018-0``,  ``4.6.5-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends fftw: >=3.3.8,<4.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends libhwloc: 2.*
-   :depends libhwloc: >=2.1.0,<2.1.1.0a0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends ocl-icd: >=2.2.12,<3.0a0
+   :depends fftw: ``>=3.3.8,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libhwloc: ``2.*``
+   :depends libhwloc: ``>=2.1.0,<2.1.1.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends ocl-icd: ``>=2.2.12,<3.0a0``
    :depends openmp: 
-   :depends python_abi: 3.8.* *_cp38
+   :depends python_abi: ``3.8.* *_cp38``
    :requirements:
 
    .. rubric:: Installation

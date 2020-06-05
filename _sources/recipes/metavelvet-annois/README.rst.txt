@@ -8,6 +8,7 @@ metavelvet-annois
 
 .. conda:recipe:: metavelvet-annois
    :replaces_section_title:
+   :noindex:
 
    Metavelvet AnnoIS \- an extra package for metavelvet for versions \< 1.2.01
 
@@ -22,9 +23,16 @@ metavelvet-annois
 
    |downloads_metavelvet-annois| |docker_metavelvet-annois|
 
-   :versions: 0.2.01-4, 0.2.01-3, 0.2.01-2, 0.2.01-1, 0.2.01-0
+   :versions:
+      
+      
+
+      ``0.2.01-4``,  ``0.2.01-3``,  ``0.2.01-2``,  ``0.2.01-1``,  ``0.2.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-module-build: 
    :requirements:
 

@@ -8,6 +8,7 @@ perl-datetime-locale
 
 .. conda:recipe:: perl-datetime-locale/1.12
    :replaces_section_title:
+   :noindex:
 
    Localization support for DateTime.pm
 
@@ -22,10 +23,17 @@ perl-datetime-locale
 
    |downloads_perl-datetime-locale| |docker_perl-datetime-locale|
 
-   :versions: 1.12-2, 1.12-0
+   :versions:
+      
+      
+
+      ``1.12-2``,  ``1.12-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-dist-checkconflicts: 
    :depends perl-namespace-autoclean: 
    :depends perl-params-validationcompiler: 

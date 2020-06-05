@@ -8,6 +8,7 @@ bioconductor-biotmledata
 
 .. conda:recipe:: bioconductor-biotmledata
    :replaces_section_title:
+   :noindex:
 
    Example experimental microarray data set for the \"biotmle\" R package
 
@@ -22,10 +23,17 @@ bioconductor-biotmledata
 
    |downloads_bioconductor-biotmledata| |docker_bioconductor-biotmledata|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

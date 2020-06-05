@@ -8,6 +8,7 @@ mgltools
 
 .. conda:recipe:: mgltools
    :replaces_section_title:
+   :noindex:
 
    MGLTools is an program for visualization and analisys of molecular structures.
 
@@ -22,7 +23,14 @@ mgltools
 
    |downloads_mgltools| |docker_mgltools|
 
-   :versions: 1.5.7-0, 1.5.6-1, 1.5.6-0
+   :versions:
+      
+      
+
+      ``1.5.7-0``,  ``1.5.6-1``,  ``1.5.6-0``
+
+      
+
    
    :requirements:
 

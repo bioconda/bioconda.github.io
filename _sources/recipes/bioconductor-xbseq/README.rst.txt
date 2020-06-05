@@ -8,6 +8,7 @@ bioconductor-xbseq
 
 .. conda:recipe:: bioconductor-xbseq
    :replaces_section_title:
+   :noindex:
 
    Test for differential expression for RNA\-seq data
 
@@ -23,12 +24,19 @@ bioconductor-xbseq
 
    |downloads_bioconductor-xbseq| |docker_bioconductor-xbseq|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.14.0-0, 1.12.0-0, 1.8.0-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-roar: >=1.24.0,<1.25.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-roar: ``>=1.24.0,<1.25.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-locfit: 

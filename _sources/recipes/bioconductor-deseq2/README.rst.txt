@@ -8,6 +8,7 @@ bioconductor-deseq2
 
 .. conda:recipe:: bioconductor-deseq2
    :replaces_section_title:
+   :noindex:
 
    Differential gene expression analysis based on the negative binomial distribution
 
@@ -23,25 +24,40 @@ bioconductor-deseq2
 
    |downloads_bioconductor-deseq2| |docker_bioconductor-deseq2|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.22.1-0, 1.20.0-0, 1.18.1-1, 1.18.0-0, 1.16.1-3, 1.16.1-2, 1.16.1-0, 1.14.1-0, 1.12.4-5, 1.12.4-4, 1.12.4-3, 1.12.4-2, 1.12.4-1, 1.10.1-0, 1.10.0-1, 1.10.0-0, 1.8.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.22.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-1</code>,  <code>1.18.0-0</code>,  <code>1.16.1-3</code>,  <code>1.16.1-2</code>,  </span></summary>
+      
+
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.20.0-0``,  ``1.18.1-1``,  ``1.18.0-0``,  ``1.16.1-3``,  ``1.16.1-2``,  ``1.16.1-0``,  ``1.14.1-0``,  ``1.12.4-5``,  ``1.12.4-4``,  ``1.12.4-3``,  ``1.12.4-2``,  ``1.12.4-1``,  ``1.10.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-genefilter: >=1.70.0,<1.71.0
-   :depends bioconductor-geneplotter: >=1.66.0,<1.67.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-geneplotter: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-locfit: 
-   :depends r-rcpp: >=0.11.0
+   :depends r-rcpp: ``>=0.11.0``
    :depends r-rcpparmadillo: 
    :requirements:
 

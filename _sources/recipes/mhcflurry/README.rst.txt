@@ -8,6 +8,7 @@ mhcflurry
 
 .. conda:recipe:: mhcflurry
    :replaces_section_title:
+   :noindex:
 
    Peptide\-MHC I binding affinity prediction
 
@@ -25,18 +26,33 @@ mhcflurry
 
    |downloads_mhcflurry| |docker_mhcflurry|
 
-   :versions: 1.6.1-0, 1.6.0-0, 1.4.3-0, 1.4.2-1, 1.4.2-0, 1.4.0-1, 1.4.0-0, 1.3.1-0, 1.3.0-0, 1.2.4-0, 1.2.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+      
+
+      ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends appdirs: 
-   :depends keras: >=2.0.9
+   :depends keras: ``>=2.0.9``
    :depends mhcnames: 
-   :depends numpy: >=1.11
-   :depends pandas: >=0.20.3
+   :depends numpy: ``>=1.11``
+   :depends pandas: ``>=0.20.3``
    :depends python: 
    :depends pyyaml: 
    :depends scikit-learn: 
    :depends six: 
-   :depends tensorflow: >=1.1.0
+   :depends tensorflow: ``>=1.1.0``
    :depends tqdm: 
    :requirements:
 

@@ -8,6 +8,7 @@ bam2fasta
 
 .. conda:recipe:: bam2fasta
    :replaces_section_title:
+   :noindex:
 
    bam2fasta\: cli tool to convert bam to fastas
 
@@ -23,7 +24,14 @@ bam2fasta
 
    |downloads_bam2fasta| |docker_bam2fasta|
 
-   :versions: 1.0.4-0, 1.0.3-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+
+      
+
    
    :depends numpy: 
    :depends pathos: 

@@ -8,6 +8,7 @@ python-htsget
 
 .. conda:recipe:: python-htsget
    :replaces_section_title:
+   :noindex:
 
    Python API and command line interface for the GA4GH htsget API.
 
@@ -22,7 +23,14 @@ python-htsget
 
    |downloads_python-htsget| |docker_python-htsget|
 
-   :versions: 0.2.5-0
+   :versions:
+      
+      
+
+      ``0.2.5-0``
+
+      
+
    
    :depends humanize: 
    :depends python: 

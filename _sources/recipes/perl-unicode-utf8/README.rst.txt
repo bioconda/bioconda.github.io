@@ -8,6 +8,7 @@ perl-unicode-utf8
 
 .. conda:recipe:: perl-unicode-utf8
    :replaces_section_title:
+   :noindex:
 
    Encoding and decoding of UTF\-8 encoding form
 
@@ -22,11 +23,18 @@ perl-unicode-utf8
 
    |downloads_perl-unicode-utf8| |docker_perl-unicode-utf8|
 
-   :versions: 0.62-1, 0.62-0
+   :versions:
+      
+      
+
+      ``0.62-1``,  ``0.62-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-xsloader: 

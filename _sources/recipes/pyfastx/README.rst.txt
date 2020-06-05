@@ -8,6 +8,7 @@ pyfastx
 
 .. conda:recipe:: pyfastx
    :replaces_section_title:
+   :noindex:
 
    pyfastx is a python module for fast random
    access to sequences from plain and gzipped
@@ -24,12 +25,19 @@ pyfastx
 
    |downloads_pyfastx| |docker_pyfastx|
 
-   :versions: 0.6.11-0, 0.6.10-0, 0.6.9-0, 0.6.8-0, 0.6.7-0, 0.6.6-0, 0.6.5-0, 0.6.4-0
+   :versions:
+      
+      
+
+      ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.5.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

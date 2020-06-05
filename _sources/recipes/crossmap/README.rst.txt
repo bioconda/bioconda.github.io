@@ -8,6 +8,7 @@ crossmap
 
 .. conda:recipe:: crossmap
    :replaces_section_title:
+   :noindex:
 
    CrossMap is a program for convenient conversion of genome coordinates and genomeannotation files between assemblies.
 
@@ -22,14 +23,29 @@ crossmap
 
    |downloads_crossmap| |docker_crossmap|
 
-   :versions: 0.4.1-0, 0.3.9-0, 0.3.7-2, 0.3.7-1, 0.3.7-0, 0.3.6-0, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-0, 0.3.1-0, 0.2.8-0, 0.2.7-2, 0.2.7-1, 0.2.7-0, 0.2.5-1, 0.2.5-0, 0.2.2-3, 0.2.2-2, 0.2.2-1, 0.2.2-0, 0.2.1-1, 0.2.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.3.9-0</code>,  <code>0.3.7-2</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+      
+
+      ``0.4.1-0``,  ``0.3.9-0``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.8-0``,  ``0.2.7-2``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bx-python: 
-   :depends cython: >=0.17
+   :depends cython: ``>=0.17``
    :depends numpy: 
    :depends pybigwig: 
-   :depends pysam: >=0.11.1
-   :depends python: >=3
+   :depends pysam: ``>=0.11.1``
+   :depends python: ``>=3``
    :depends ucsc-wigtobigwig: 
    :requirements:
 

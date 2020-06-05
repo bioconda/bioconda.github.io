@@ -8,6 +8,7 @@ bioconductor-qdnaseq
 
 .. conda:recipe:: bioconductor-qdnaseq
    :replaces_section_title:
+   :noindex:
 
    Quantitative DNA Sequencing for Chromosomal Aberrations
 
@@ -23,20 +24,27 @@ bioconductor-qdnaseq
 
    |downloads_bioconductor-qdnaseq| |docker_bioconductor-qdnaseq|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0, 1.10.0-0, 1.8.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-cghbase: >=1.48.0,<1.49.0
-   :depends bioconductor-cghcall: >=2.50.0,<2.51.0
-   :depends bioconductor-dnacopy: >=1.62.0,<1.63.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rsamtools: >=2.4.0,<2.5.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-future: >=1.14.0
-   :depends r-future.apply: >=1.3.0
-   :depends r-matrixstats: >=0.54.0
-   :depends r-r.utils: >=2.9.0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-cghbase: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-cghcall: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-dnacopy: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-future: ``>=1.14.0``
+   :depends r-future.apply: ``>=1.3.0``
+   :depends r-matrixstats: ``>=0.54.0``
+   :depends r-r.utils: ``>=2.9.0``
    :requirements:
 
    .. rubric:: Installation

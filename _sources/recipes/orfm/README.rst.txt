@@ -8,6 +8,7 @@ orfm
 
 .. conda:recipe:: orfm
    :replaces_section_title:
+   :noindex:
 
    OrfM is a simple and not slow ORF caller
 
@@ -22,10 +23,17 @@ orfm
 
    |downloads_orfm| |docker_orfm|
 
-   :versions: 0.7.1-1, 0.7.1-0, 0.6.1-0
+   :versions:
+      
+      
+
+      ``0.7.1-1``,  ``0.7.1-0``,  ``0.6.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

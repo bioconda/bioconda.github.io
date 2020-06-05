@@ -8,6 +8,7 @@ spectra-cluster-cli
 
 .. conda:recipe:: spectra-cluster-cli
    :replaces_section_title:
+   :noindex:
 
    This is a stand\-alone implementation of the new updated PRIDE Cluster algorithm. It is based on the spectra\-cluster API and uses a highly similar logic as the Hadoop implementation spectra\-cluster\-hadoop used to build the PRIDE Cluster resource.
 
@@ -22,9 +23,16 @@ spectra-cluster-cli
 
    |downloads_spectra-cluster-cli| |docker_spectra-cluster-cli|
 
-   :versions: 1.1.2-0, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.1.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
-   :depends openjdk: >=6
+   :depends openjdk: ``>=6``
    :depends python: 
    :requirements:
 

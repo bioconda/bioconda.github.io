@@ -8,6 +8,7 @@ sepp-refgg138
 
 .. conda:recipe:: sepp-refgg138
    :replaces_section_title:
+   :noindex:
 
    SATe\-enabled phylogenetic placement
 
@@ -23,7 +24,14 @@ sepp-refgg138
 
    |downloads_sepp-refgg138| |docker_sepp-refgg138|
 
-   :versions: 4.3.6-0, v4.3.6-0
+   :versions:
+      
+      
+
+      ``4.3.6-0``,  ``v4.3.6-0``
+
+      
+
    
    :requirements:
 

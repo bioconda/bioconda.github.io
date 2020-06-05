@@ -8,6 +8,7 @@ whatsgnu
 
 .. conda:recipe:: whatsgnu
    :replaces_section_title:
+   :noindex:
 
    WhatsGNU A Tool For Identifying Proteomic Novelty
 
@@ -22,13 +23,20 @@ whatsgnu
 
    |downloads_whatsgnu| |docker_whatsgnu|
 
-   :versions: 1.2-0, 1.1-0, 1.0-0
+   :versions:
+      
+      
+
+      ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+
+      
+
    
-   :depends blast: >=2.9.0
-   :depends matplotlib-base: >=3.0.2
-   :depends numpy: >=1.15.3
-   :depends python: >=3.4
-   :depends scipy: >=1.2.0
+   :depends blast: ``>=2.9.0``
+   :depends matplotlib-base: ``>=3.0.2``
+   :depends numpy: ``>=1.15.3``
+   :depends python: ``>=3.4``
+   :depends scipy: ``>=1.2.0``
    :requirements:
 
    .. rubric:: Installation

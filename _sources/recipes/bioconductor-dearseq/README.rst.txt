@@ -8,6 +8,7 @@ bioconductor-dearseq
 
 .. conda:recipe:: bioconductor-dearseq
    :replaces_section_title:
+   :noindex:
 
    Differential Expression Analysis for RNA\-seq data through a robust variance component test
 
@@ -22,9 +23,16 @@ bioconductor-dearseq
 
    |downloads_bioconductor-dearseq| |docker_bioconductor-dearseq|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-compquadform: 
    :depends r-ggplot2: 
    :depends r-kernsmooth: 

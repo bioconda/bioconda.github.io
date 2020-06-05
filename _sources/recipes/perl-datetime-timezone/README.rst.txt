@@ -8,6 +8,7 @@ perl-datetime-timezone
 
 .. conda:recipe:: perl-datetime-timezone/2.09
    :replaces_section_title:
+   :noindex:
 
    Time zone object base class and factory
 
@@ -22,10 +23,17 @@ perl-datetime-timezone
 
    |downloads_perl-datetime-timezone| |docker_perl-datetime-timezone|
 
-   :versions: 2.09-2, 2.09-0
+   :versions:
+      
+      
+
+      ``2.09-2``,  ``2.09-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-module-runtime: 
    :depends perl-namespace-autoclean: 

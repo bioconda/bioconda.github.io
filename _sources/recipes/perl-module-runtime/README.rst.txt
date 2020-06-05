@@ -8,6 +8,7 @@ perl-module-runtime
 
 .. conda:recipe:: perl-module-runtime
    :replaces_section_title:
+   :noindex:
 
    runtime module handling
 
@@ -22,9 +23,16 @@ perl-module-runtime
 
    |downloads_perl-module-runtime| |docker_perl-module-runtime|
 
-   :versions: 0.016-1, 0.016-0, 0.014-1, 0.014-0
+   :versions:
+      
+      
+
+      ``0.016-1``,  ``0.016-0``,  ``0.014-1``,  ``0.014-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

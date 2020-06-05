@@ -8,6 +8,7 @@ bioconductor-mm24kresogen.db
 
 .. conda:recipe:: bioconductor-mm24kresogen.db
    :replaces_section_title:
+   :noindex:
 
    RNG\_MRC Mouse Pangenomic 24k Set annotation data \(chip mm24kresogen\)
 
@@ -22,12 +23,19 @@ bioconductor-mm24kresogen.db
 
    |downloads_bioconductor-mm24kresogen.db| |docker_bioconductor-mm24kresogen.db|
 
-   :versions: 2.5.0-4, 2.5.0-3, 2.5.0-2, 2.5.0-0
+   :versions:
+      
+      
+
+      ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.mm.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

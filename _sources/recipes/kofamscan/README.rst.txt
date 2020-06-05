@@ -8,6 +8,7 @@ kofamscan
 
 .. conda:recipe:: kofamscan
    :replaces_section_title:
+   :noindex:
 
    KofamKOALA assigns K numbers to the user\'s sequence data by HMMER\/HMMSEARCH against KOfam
 
@@ -27,11 +28,18 @@ kofamscan
 
    |downloads_kofamscan| |docker_kofamscan|
 
-   :versions: 1.3.0-0, 1.2.0-0, 1.1.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends hmmer: >=3.1
+   :depends hmmer: ``>=3.1``
    :depends parallel: 
-   :depends ruby: >=2.4
+   :depends ruby: ``>=2.4``
    :requirements:
 
    .. rubric:: Installation

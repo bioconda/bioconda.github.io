@@ -8,6 +8,7 @@ bioconductor-ceu1kg
 
 .. conda:recipe:: bioconductor-ceu1kg
    :replaces_section_title:
+   :noindex:
 
    CEU \(N\=60\) genotypes from 1000 genomes pilot phase I
 
@@ -22,13 +23,20 @@ bioconductor-ceu1kg
 
    |downloads_bioconductor-ceu1kg| |docker_bioconductor-ceu1kg|
 
-   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.20.0-0
+   :versions:
+      
+      
+
+      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-ggbase: >=3.50.0,<3.51.0
-   :depends bioconductor-ggtools: >=5.24.0,<5.25.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-ggbase: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-ggtools: ``>=5.24.0,<5.25.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

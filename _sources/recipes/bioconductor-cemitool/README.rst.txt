@@ -8,6 +8,7 @@ bioconductor-cemitool
 
 .. conda:recipe:: bioconductor-cemitool
    :replaces_section_title:
+   :noindex:
 
    Co\-expression Modules identification Tool
 
@@ -22,12 +23,19 @@ bioconductor-cemitool
 
    |downloads_bioconductor-cemitool| |docker_bioconductor-cemitool|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.3-0, 1.6.10-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.3-0``,  ``1.6.10-0``
+
+      
+
    
-   :depends bioconductor-clusterprofiler: >=3.16.0,<3.17.0
-   :depends bioconductor-fgsea: >=1.14.0,<1.15.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-data.table: >=1.9.4
+   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-fgsea: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: ``>=1.9.4``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggdendro: 

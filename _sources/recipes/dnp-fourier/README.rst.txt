@@ -8,6 +8,7 @@ dnp-fourier
 
 .. conda:recipe:: dnp-fourier
    :replaces_section_title:
+   :noindex:
 
    Periodogram of dinucleotide frequency pattern
 
@@ -22,10 +23,17 @@ dnp-fourier
 
    |downloads_dnp-fourier| |docker_dnp-fourier|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

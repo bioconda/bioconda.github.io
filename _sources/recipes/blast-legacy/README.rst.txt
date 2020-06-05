@@ -8,6 +8,7 @@ blast-legacy
 
 .. conda:recipe:: blast-legacy/2.2.19
    :replaces_section_title:
+   :noindex:
 
    The Basic Local Alignment Search Tool \(BLAST\) finds regions of local similarity between sequences.
 
@@ -22,7 +23,14 @@ blast-legacy
 
    |downloads_blast-legacy| |docker_blast-legacy|
 
-   :versions: 2.2.26-2, 2.2.26-1, 2.2.26-0, 2.2.22-1, 2.2.22-0, 2.2.19-0
+   :versions:
+      
+      
+
+      ``2.2.26-2``,  ``2.2.26-1``,  ``2.2.26-0``,  ``2.2.22-1``,  ``2.2.22-0``,  ``2.2.19-0``
+
+      
+
    
    :requirements:
 

@@ -8,6 +8,7 @@ perl-file-next
 
 .. conda:recipe:: perl-file-next
    :replaces_section_title:
+   :noindex:
 
    File\-finding iterator
 
@@ -22,9 +23,16 @@ perl-file-next
 
    |downloads_perl-file-next| |docker_perl-file-next|
 
-   :versions: 1.16-1, 1.16-0
+   :versions:
+      
+      
+
+      ``1.16-1``,  ``1.16-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-pathtools: 
    :depends perl-test-simple: 
    :requirements:

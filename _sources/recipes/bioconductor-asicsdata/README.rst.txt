@@ -8,6 +8,7 @@ bioconductor-asicsdata
 
 .. conda:recipe:: bioconductor-asicsdata
    :replaces_section_title:
+   :noindex:
 
    Example of 1D NMR spectra data for ASICS package
 
@@ -22,10 +23,17 @@ bioconductor-asicsdata
 
    |downloads_bioconductor-asicsdata| |docker_bioconductor-asicsdata|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-tinesath1cdf
 
 .. conda:recipe:: bioconductor-tinesath1cdf
    :replaces_section_title:
+   :noindex:
 
    tinesath1cdf
 
@@ -22,10 +23,17 @@ bioconductor-tinesath1cdf
 
    |downloads_bioconductor-tinesath1cdf| |docker_bioconductor-tinesath1cdf|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.21.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.21.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

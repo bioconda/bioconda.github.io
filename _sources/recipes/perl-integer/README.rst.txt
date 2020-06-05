@@ -8,6 +8,7 @@ perl-integer
 
 .. conda:recipe:: perl-integer/1.01
    :replaces_section_title:
+   :noindex:
 
    Perl pragma to use integer arithmetic instead of floating point
 
@@ -22,9 +23,16 @@ perl-integer
 
    |downloads_perl-integer| |docker_perl-integer|
 
-   :versions: 1.01-1, 1.01-0
+   :versions:
+      
+      
+
+      ``1.01-1``,  ``1.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

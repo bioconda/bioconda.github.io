@@ -8,6 +8,7 @@ shigatyper
 
 .. conda:recipe:: shigatyper
    :replaces_section_title:
+   :noindex:
 
    Typing tool for Shigella spp. from WGS Illumina sequencing
 
@@ -22,13 +23,20 @@ shigatyper
 
    |downloads_shigatyper| |docker_shigatyper|
 
-   :versions: 1.0.6-0, 1.0.5-3
+   :versions:
+      
+      
+
+      ``1.0.6-0``,  ``1.0.5-3``
+
+      
+
    
-   :depends bcftools: >=1.9
-   :depends minimap2: >=2.16
-   :depends pandas: >=0.24.2
-   :depends python: >=3.7
-   :depends samtools: >=1.9
+   :depends bcftools: ``>=1.9``
+   :depends minimap2: ``>=2.16``
+   :depends pandas: ``>=0.24.2``
+   :depends python: ``>=3.7``
+   :depends samtools: ``>=1.9``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ nseg
 
 .. conda:recipe:: nseg
    :replaces_section_title:
+   :noindex:
 
    nseg identifies and masks regions of low complexity in nucleic acid sequences
 
@@ -23,9 +24,16 @@ nseg
 
    |downloads_nseg| |docker_nseg|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

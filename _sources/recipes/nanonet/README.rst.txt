@@ -8,6 +8,7 @@ nanonet
 
 .. conda:recipe:: nanonet
    :replaces_section_title:
+   :noindex:
 
    Nanonet provides recurrent neural network basecalling for Oxford Nanopore MinION data.
 
@@ -22,19 +23,26 @@ nanonet
 
    |downloads_nanonet| |docker_nanonet|
 
-   :versions: 2.0.0-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``
+
+      
+
    
    :depends argh: 
-   :depends boost: 1.60*
+   :depends boost: ``1.60*``
    :depends cython: 
    :depends h5py: 
    :depends hdf5: 
    :depends libgcc: 
-   :depends myriad: >=0.1.2
+   :depends myriad: ``>=0.1.2``
    :depends numpy: 
-   :depends pathtools: >=0.1.1
-   :depends python: 2.7*
-   :depends pyyaml: >=3.10
+   :depends pathtools: ``>=0.1.1``
+   :depends python: ``2.7*``
+   :depends pyyaml: ``>=3.10``
    :depends six: 
    :depends watchdog: 
    :requirements:

@@ -8,6 +8,7 @@ w4mclassfilter
 
 .. conda:recipe:: w4mclassfilter
    :replaces_section_title:
+   :noindex:
 
    Filter Workflow4Metabolomics feature list\, optionally imputing NA values.
 
@@ -22,9 +23,24 @@ w4mclassfilter
 
    |downloads_w4mclassfilter| |docker_w4mclassfilter|
 
-   :versions: 0.98.18-0, 0.98.17-0, 0.98.16-0, 0.98.15-0, 0.98.14-0, 0.98.13-0, 0.98.12-0, 0.98.9-0, 0.98.8-1, 0.98.7-1, 0.98.7-0, 0.98.6-1, 0.98.6-0, 0.98.3-1, 0.98.3-0, 0.98.2-1, 0.98.2-0, 0.98.1-1, 0.98.1-0, 0.98.0-1, 0.98.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.98.18-0</code>,  <code>0.98.17-0</code>,  <code>0.98.16-0</code>,  <code>0.98.15-0</code>,  <code>0.98.14-0</code>,  <code>0.98.13-0</code>,  <code>0.98.12-0</code>,  <code>0.98.9-0</code>,  <code>0.98.8-1</code>,  </span></summary>
+      
+
+      ``0.98.18-0``,  ``0.98.17-0``,  ``0.98.16-0``,  ``0.98.15-0``,  ``0.98.14-0``,  ``0.98.13-0``,  ``0.98.12-0``,  ``0.98.9-0``,  ``0.98.8-1``,  ``0.98.7-1``,  ``0.98.7-0``,  ``0.98.6-1``,  ``0.98.6-0``,  ``0.98.3-1``,  ``0.98.3-0``,  ``0.98.2-1``,  ``0.98.2-0``,  ``0.98.1-1``,  ``0.98.1-0``,  ``0.98.0-1``,  ``0.98.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :requirements:
 
    .. rubric:: Installation

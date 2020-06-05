@@ -8,6 +8,7 @@ perl-sereal
 
 .. conda:recipe:: perl-sereal
    :replaces_section_title:
+   :noindex:
 
    Fast\, compact\, powerful binary \(de\-\)serialization
 
@@ -22,11 +23,18 @@ perl-sereal
 
    |downloads_perl-sereal| |docker_perl-sereal|
 
-   :versions: 4.007-0, 4.005-0, 3.015-1, 3.015-0
+   :versions:
+      
+      
+
+      ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-sereal-decoder: >=4.007
-   :depends perl-sereal-encoder: >=4.007
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-sereal-decoder: ``>=4.007``
+   :depends perl-sereal-encoder: ``>=4.007``
    :requirements:
 
    .. rubric:: Installation

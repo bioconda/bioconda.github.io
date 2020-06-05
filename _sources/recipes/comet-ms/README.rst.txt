@@ -8,6 +8,7 @@ comet-ms
 
 .. conda:recipe:: comet-ms
    :replaces_section_title:
+   :noindex:
 
    Comet is a command line tool that does MS\/MS database search.
 
@@ -23,10 +24,25 @@ comet-ms
 
    |downloads_comet-ms| |docker_comet-ms|
 
-   :versions: 2019015-0, 2019014-0, 2019013-0, 2019012-0, 2019011-0, 2019010-0, 2018014-0, 2018013-0, 2018012-1, 2018012-0, 2016013-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2019015-0</code>,  <code>2019014-0</code>,  <code>2019013-0</code>,  <code>2019012-0</code>,  <code>2019011-0</code>,  <code>2019010-0</code>,  <code>2018014-0</code>,  <code>2018013-0</code>,  <code>2018012-1</code>,  </span></summary>
+      
+
+      ``2019015-0``,  ``2019014-0``,  ``2019013-0``,  ``2019012-0``,  ``2019011-0``,  ``2019010-0``,  ``2018014-0``,  ``2018013-0``,  ``2018012-1``,  ``2018012-0``,  ``2016013-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

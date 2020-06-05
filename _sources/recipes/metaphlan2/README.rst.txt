@@ -8,6 +8,7 @@ metaphlan2
 
 .. conda:recipe:: metaphlan2
    :replaces_section_title:
+   :noindex:
 
    Metagenomic Phylogenetic Analysis
 
@@ -28,23 +29,38 @@ metaphlan2
 
    |downloads_metaphlan2| |docker_metaphlan2|
 
-   :versions: 2.96.1-0, 2.96-0, 2.9.22-0, 2.9.21-0, 2.9.20-0, 2.9.19-0, 2.9.18-0, 2.9.17-0, 2.9.15-0, 2.9.14-0, 2.9.13-0, 2.9.12-0, 2.9.11-0, 2.9.5-0, 2.9.1-0, 2.8-0, 2.7.8-0, 2.7.7-4, 2.7.7-3, 2.7.7-2, 2.7.7-1, 2.7.5-1, 2.7.5-0, 2.6.0-2, 2.6.0-1, 2.5.0-2, 2.5.0-0, 2.2.0-1, 2.2.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.96.1-0</code>,  <code>2.96-0</code>,  <code>2.9.22-0</code>,  <code>2.9.21-0</code>,  <code>2.9.20-0</code>,  <code>2.9.19-0</code>,  <code>2.9.18-0</code>,  <code>2.9.17-0</code>,  <code>2.9.15-0</code>,  </span></summary>
+      
+
+      ``2.96.1-0``,  ``2.96-0``,  ``2.9.22-0``,  ``2.9.21-0``,  ``2.9.20-0``,  ``2.9.19-0``,  ``2.9.18-0``,  ``2.9.17-0``,  ``2.9.15-0``,  ``2.9.14-0``,  ``2.9.13-0``,  ``2.9.12-0``,  ``2.9.11-0``,  ``2.9.5-0``,  ``2.9.1-0``,  ``2.8-0``,  ``2.7.8-0``,  ``2.7.7-4``,  ``2.7.7-3``,  ``2.7.7-2``,  ``2.7.7-1``,  ``2.7.5-1``,  ``2.7.5-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.5.0-2``,  ``2.5.0-0``,  ``2.2.0-1``,  ``2.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends biom-format: 
    :depends biopython: 
-   :depends blast: >=2.6.0
-   :depends bowtie2: >=2.0.0
+   :depends blast: ``>=2.6.0``
+   :depends bowtie2: ``>=2.0.0``
    :depends dendropy: 
    :depends matplotlib: 
    :depends msgpack-python: 
-   :depends muscle: >=3.8.1551
+   :depends muscle: ``>=3.8.1551``
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: >=0.8.3
-   :depends python: >=3
-   :depends raxml: >=8.2.10
+   :depends pysam: ``>=0.8.3``
+   :depends python: ``>=3``
+   :depends raxml: ``>=8.2.10``
    :depends requests: 
-   :depends samtools: >=0.1.19,<1.0
+   :depends samtools: ``>=0.1.19,<1.0``
    :depends scipy: 
    :requirements:
 

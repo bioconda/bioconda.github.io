@@ -8,6 +8,7 @@ bioconductor-bioassayr
 
 .. conda:recipe:: bioconductor-bioassayr
    :replaces_section_title:
+   :noindex:
 
    Cross\-target analysis of small molecule bioactivity
 
@@ -22,15 +23,22 @@ bioconductor-bioassayr
 
    |downloads_bioconductor-bioassayr| |docker_bioconductor-bioassayr|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.20.1-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-chemminer: >=3.40.0,<3.41.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-dbi: >=0.3.1
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-chemminer: ``>=3.40.0,<3.41.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dbi: ``>=0.3.1``
    :depends r-matrix: 
    :depends r-rjson: 
-   :depends r-rsqlite: >=1.0.0
+   :depends r-rsqlite: ``>=1.0.0``
    :depends r-xml: 
    :requirements:
 

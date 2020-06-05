@@ -8,6 +8,7 @@ scanpy-scripts
 
 .. conda:recipe:: scanpy-scripts
    :replaces_section_title:
+   :noindex:
 
    Scripts for using scanpy from the command line
 
@@ -22,21 +23,36 @@ scanpy-scripts
 
    |downloads_scanpy-scripts| |docker_scanpy-scripts|
 
-   :versions: 0.2.10-0, 0.2.9-0, 0.2.8-0, 0.2.7-0, 0.2.6-0, 0.2.5.post1-0, 0.2.5-0, 0.2.4.post4-3, 0.2.4.post4-2, 0.2.4.post4-1, 0.2.4.post4-0, 0.2.4.post3-0, 0.2.4.post1-0, 0.2.4-0, 0.2.2-0, 0.0.5-4, 0.0.5-3, 0.0.5-2, 0.0.5-1, 0.0.5-0, 0.0.4-2, 0.0.4-1, 0.0.3-1, 0.0.2-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5.post1-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4.post4-3</code>,  <code>0.2.4.post4-2</code>,  </span></summary>
+      
+
+      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5.post1-0``,  ``0.2.5-0``,  ``0.2.4.post4-3``,  ``0.2.4.post4-2``,  ``0.2.4.post4-1``,  ``0.2.4.post4-0``,  ``0.2.4.post3-0``,  ``0.2.4.post1-0``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.3-1``,  ``0.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends anndata: <0.6.20
+   :depends anndata: ``<0.6.20``
    :depends click: 
-   :depends h5py: <2.10
+   :depends h5py: ``<2.10``
    :depends leidenalg: 
-   :depends loompy: >=2.0.0,<3.0.0
+   :depends loompy: ``>=2.0.0,<3.0.0``
    :depends louvain: 
    :depends matplotlib: 
    :depends multicore-tsne: 
    :depends packaging: 
    :depends pandas: 
-   :depends python: >=3
-   :depends scanpy: >=1.4.2,<1.4.4
-   :depends scipy: >=1.2.0,<1.3.0
+   :depends python: ``>=3``
+   :depends scanpy: ``>=1.4.2,<1.4.4``
+   :depends scipy: ``>=1.2.0,<1.3.0``
    :requirements:
 
    .. rubric:: Installation

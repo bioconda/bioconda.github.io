@@ -8,6 +8,7 @@ pyrle
 
 .. conda:recipe:: pyrle
    :replaces_section_title:
+   :noindex:
 
    Genomic Rle\-objects for Python
 
@@ -22,14 +23,29 @@ pyrle
 
    |downloads_pyrle| |docker_pyrle|
 
-   :versions: 0.0.31-0, 0.0.30-0, 0.0.29-0, 0.0.28-0, 0.0.27-0, 0.0.26-0, 0.0.25-0, 0.0.24-1, 0.0.24-0, 0.0.23-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.0.31-0</code>,  <code>0.0.30-0</code>,  <code>0.0.29-0</code>,  <code>0.0.28-0</code>,  <code>0.0.27-0</code>,  <code>0.0.26-0</code>,  <code>0.0.25-0</code>,  <code>0.0.24-1</code>,  <code>0.0.24-0</code>,  </span></summary>
+      
+
+      ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-1``,  ``0.0.24-0``,  ``0.0.23-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends tabulate: 
    :requirements:
 

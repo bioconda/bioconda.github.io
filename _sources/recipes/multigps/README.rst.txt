@@ -8,6 +8,7 @@ multigps
 
 .. conda:recipe:: multigps
    :replaces_section_title:
+   :noindex:
 
    MultiGPS is a framework for analyzing collections of multi\-condition ChIP\-seq datasets and characterizing differential binding events between conditions.
 
@@ -22,11 +23,18 @@ multigps
 
    |downloads_multigps| |docker_multigps|
 
-   :versions: 0.74-2, 0.74-1, 0.74-0, 0.73-1, 0.73-0, 0.72-1, 0.72-0, 0.5-1
+   :versions:
+      
+      
+
+      ``0.74-2``,  ``0.74-1``,  ``0.74-0``,  ``0.73-1``,  ``0.73-0``,  ``0.72-1``,  ``0.72-0``,  ``0.5-1``
+
+      
+
    
    :depends bioconductor-edger: 
-   :depends meme: >=4.11.2
-   :depends openjdk: >=8
+   :depends meme: ``>=4.11.2``
+   :depends openjdk: ``>=8``
    :depends r-base: 
    :requirements:
 

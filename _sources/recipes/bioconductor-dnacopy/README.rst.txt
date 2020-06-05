@@ -8,6 +8,7 @@ bioconductor-dnacopy
 
 .. conda:recipe:: bioconductor-dnacopy
    :replaces_section_title:
+   :noindex:
 
    DNA copy number data analysis
 
@@ -23,13 +24,28 @@ bioconductor-dnacopy
 
    |downloads_bioconductor-dnacopy| |docker_bioconductor-dnacopy|
 
-   :versions: 1.62.0-0, 1.60.0-0, 1.58.0-2, 1.58.0-1, 1.58.0-0, 1.56.0-0, 1.54.0-0, 1.52.0-0, 1.50.1-0, 1.48.0-1, 1.48.0-0, 1.46.0-0, 1.44.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-2</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.1-0</code>,  </span></summary>
+      
+
+      ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-2``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.1-0``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

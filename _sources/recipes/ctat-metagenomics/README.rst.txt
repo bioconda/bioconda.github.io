@@ -8,6 +8,7 @@ ctat-metagenomics
 
 .. conda:recipe:: ctat-metagenomics
    :replaces_section_title:
+   :noindex:
 
    ctat\-metagenomics uses centrifuge
 
@@ -22,11 +23,18 @@ ctat-metagenomics
 
    |downloads_ctat-metagenomics| |docker_ctat-metagenomics|
 
-   :versions: 1.0.1-2, 1.0.1-1
+   :versions:
+      
+      
+
+      ``1.0.1-2``,  ``1.0.1-1``
+
+      
+
    
    :depends blast: 
    :depends centrifuge: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

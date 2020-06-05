@@ -8,6 +8,7 @@ phylovega
 
 .. conda:recipe:: phylovega
    :replaces_section_title:
+   :noindex:
 
    Interactive Phylogenetic trees in Vega.
 
@@ -22,10 +23,17 @@ phylovega
 
    |downloads_phylovega| |docker_phylovega|
 
-   :versions: 0.3-0, 0.2-0, 0.1-0
+   :versions:
+      
+      
+
+      ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+
+      
+
    
    :depends phylopandas: 
-   :depends python: >=3.4.0
+   :depends python: ``>=3.4.0``
    :depends vega: 
    :requirements:
 

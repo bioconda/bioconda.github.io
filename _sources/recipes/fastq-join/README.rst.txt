@@ -8,6 +8,7 @@ fastq-join
 
 .. conda:recipe:: fastq-join
    :replaces_section_title:
+   :noindex:
 
    Similar to audy\'s stitch program\, but in C\, more efficient and supports some automatic benchmarking and tuning. It uses the same \"squared distance for anchored alignment\" as other tools.
 
@@ -22,9 +23,16 @@ fastq-join
 
    |downloads_fastq-join| |docker_fastq-join|
 
-   :versions: 1.3.1-2, 1.3.1-1
+   :versions:
+      
+      
+
+      ``1.3.1-2``,  ``1.3.1-1``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

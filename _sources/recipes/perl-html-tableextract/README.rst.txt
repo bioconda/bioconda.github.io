@@ -8,6 +8,7 @@ perl-html-tableextract
 
 .. conda:recipe:: perl-html-tableextract
    :replaces_section_title:
+   :noindex:
 
    Perl module for extracting the content contained in tables within an HTML document\, either as text or encoded element trees.
 
@@ -22,9 +23,16 @@ perl-html-tableextract
 
    |downloads_perl-html-tableextract| |docker_perl-html-tableextract|
 
-   :versions: 2.13-2, 2.13-1, 2.13-0
+   :versions:
+      
+      
+
+      ``2.13-2``,  ``2.13-1``,  ``2.13-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-html-element-extended: 
    :depends perl-html-parser: 
    :requirements:

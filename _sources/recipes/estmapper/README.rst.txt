@@ -8,6 +8,7 @@ estmapper
 
 .. conda:recipe:: estmapper
    :replaces_section_title:
+   :noindex:
 
    Software package for the high\-throughput alignment of large cDNA \(EST\, mRNA\) sequence sets to a large eukaryotic genome of the same species.
 
@@ -22,13 +23,20 @@ estmapper
 
    |downloads_estmapper| |docker_estmapper|
 
-   :versions: 2008-2, 2008-1, 2008-0
+   :versions:
+      
+      
+
+      ``2008-2``,  ``2008-1``,  ``2008-0``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends python: >=2.7,<2.8.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends python: ``>=2.7,<2.8.0a0``
    :requirements:
 
    .. rubric:: Installation

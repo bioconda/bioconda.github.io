@@ -8,6 +8,7 @@ perl-http-negotiate
 
 .. conda:recipe:: perl-http-negotiate
    :replaces_section_title:
+   :noindex:
 
    choose a variant to serve
 
@@ -22,9 +23,16 @@ perl-http-negotiate
 
    |downloads_perl-http-negotiate| |docker_perl-http-negotiate|
 
-   :versions: 6.01-3, 6.01-2, 6.01-1, 6.01-0
+   :versions:
+      
+      
+
+      ``6.01-3``,  ``6.01-2``,  ``6.01-1``,  ``6.01-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-http-message: 
    :requirements:
 

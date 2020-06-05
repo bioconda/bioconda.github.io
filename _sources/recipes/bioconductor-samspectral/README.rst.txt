@@ -8,6 +8,7 @@ bioconductor-samspectral
 
 .. conda:recipe:: bioconductor-samspectral
    :replaces_section_title:
+   :noindex:
 
    Identifies cell population in flow cytometry data.
 
@@ -22,12 +23,19 @@ bioconductor-samspectral
 
    |downloads_bioconductor-samspectral| |docker_bioconductor-samspectral|
 
-   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-1, 1.38.0-0, 1.36.1-0, 1.36.0-0
+   :versions:
+      
+      
+
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.36.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

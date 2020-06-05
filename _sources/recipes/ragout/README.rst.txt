@@ -8,6 +8,7 @@ ragout
 
 .. conda:recipe:: ragout
    :replaces_section_title:
+   :noindex:
 
    Chromosome\-level scaffolding using multiple references
 
@@ -22,14 +23,21 @@ ragout
 
    |downloads_ragout| |docker_ragout|
 
-   :versions: 2.3-1, 2.3-0, 2.2-5, 2.1.1-5, 2.1-3, 2.0-3, 2.0-2, 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.3-1``,  ``2.3-0``,  ``2.2-5``,  ``2.1.1-5``,  ``2.1-3``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+
+      
+
    
-   :depends decorator: 4.3.0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends networkx: 2.2
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends decorator: ``4.3.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends networkx: ``2.2``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends setuptools: 
    :depends sibelia: 
    :requirements:

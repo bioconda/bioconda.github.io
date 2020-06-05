@@ -8,6 +8,7 @@ pymot
 
 .. conda:recipe:: pymot
    :replaces_section_title:
+   :noindex:
 
    This is a python implementation which determines the MOTP and MOTA metrics from a set of ground truth tracks and a set of hypothesis tracks given by the tracker to be evaluated.
 
@@ -22,10 +23,17 @@ pymot
 
    |downloads_pymot| |docker_pymot|
 
-   :versions: 13.09.2016-2, 13.09.2016-1, 13.09.2016-0
+   :versions:
+      
+      
+
+      ``13.09.2016-2``,  ``13.09.2016-1``,  ``13.09.2016-0``
+
+      
+
    
    :depends munkres: 
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

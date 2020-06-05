@@ -8,6 +8,7 @@ ddocent
 
 .. conda:recipe:: ddocent
    :replaces_section_title:
+   :noindex:
 
     dDocent is  an interactive bash wrapper to QC\, assemble\, map\, and call SNPs from all types of RAD data
 
@@ -22,12 +23,27 @@ ddocent
 
    |downloads_ddocent| |docker_ddocent|
 
-   :versions: 2.7.8-3, 2.7.8-2, 2.7.8-1, 2.7.8-0, 2.7.7-0, 2.7.6-0, 2.6.0-2, 2.6.0-1, 2.6.0-0, 2.5.6-0, 2.5.5-0, 2.5.2-1, 2.5.2-0, 2.5.1-0, 2.3.8-0, 2.2.25-2, 2.2.25-1, 2.2.25-0, 2.2.20-0, 2.2.19-0, 2.2.16-0, 2.2.15-0, 2.2.13-0, 2.2.8-0, 2.2.7-0, 2.2.4-0, 2.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.7.8-3</code>,  <code>2.7.8-2</code>,  <code>2.7.8-1</code>,  <code>2.7.8-0</code>,  <code>2.7.7-0</code>,  <code>2.7.6-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  </span></summary>
+      
+
+      ``2.7.8-3``,  ``2.7.8-2``,  ``2.7.8-1``,  ``2.7.8-0``,  ``2.7.7-0``,  ``2.7.6-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.3.8-0``,  ``2.2.25-2``,  ``2.2.25-1``,  ``2.2.25-0``,  ``2.2.20-0``,  ``2.2.19-0``,  ``2.2.16-0``,  ``2.2.15-0``,  ``2.2.13-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.4-0``,  ``2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bedtools: >=2.26.0
+   :depends bedtools: ``>=2.26.0``
    :depends bwa: 
    :depends cd-hit: 
-   :depends coreutils: >=8.22
+   :depends coreutils: ``>=8.22``
    :depends curl: 
    :depends fastp: 
    :depends freebayes: 
@@ -39,10 +55,10 @@ ddocent
    :depends rainbow: 
    :depends samtools: 
    :depends sed: 
-   :depends seqtk: >=1.3
+   :depends seqtk: ``>=1.3``
    :depends unzip: 
    :depends vcflib: 
-   :depends vcftools: >=0.1.15
+   :depends vcftools: ``>=0.1.15``
    :requirements:
 
    .. rubric:: Installation

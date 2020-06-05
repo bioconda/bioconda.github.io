@@ -8,6 +8,7 @@ bioconductor-dyebiasexamples
 
 .. conda:recipe:: bioconductor-dyebiasexamples
    :replaces_section_title:
+   :noindex:
 
    Example data for the dyebias package\, which implements the GASSCO method.
 
@@ -22,12 +23,19 @@ bioconductor-dyebiasexamples
 
    |downloads_bioconductor-dyebiasexamples| |docker_bioconductor-dyebiasexamples|
 
-   :versions: 1.28.0-0, 1.26.0-0, 1.24.0-1, 1.22.0-0
+   :versions:
+      
+      
+
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+
+      
+
    
-   :depends bioconductor-geoquery: >=2.56.0,<2.57.0
-   :depends bioconductor-marray: >=1.66.0,<1.67.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-geoquery: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-marray: ``>=1.66.0,<1.67.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

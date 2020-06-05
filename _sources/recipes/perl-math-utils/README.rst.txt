@@ -8,6 +8,7 @@ perl-math-utils
 
 .. conda:recipe:: perl-math-utils
    :replaces_section_title:
+   :noindex:
 
    Useful mathematical functions not in Perl
 
@@ -22,9 +23,16 @@ perl-math-utils
 
    |downloads_perl-math-utils| |docker_perl-math-utils|
 
-   :versions: 1.13-0
+   :versions:
+      
+      
+
+      ``1.13-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

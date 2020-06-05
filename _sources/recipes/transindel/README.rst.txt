@@ -8,6 +8,7 @@ transindel
 
 .. conda:recipe:: transindel
    :replaces_section_title:
+   :noindex:
 
    transIndel is used to detect indels \(insertions and deletions\) from DNA\-seq or RNA\-seq data by parsing chimeric alignments from BWA\-MEM..
 
@@ -22,12 +23,19 @@ transindel
 
    |downloads_transindel| |docker_transindel|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends htseq: >=0.6.1
-   :depends pysam: >=0.13.0
-   :depends python: <=3
-   :depends samtools: >=1.0
+   :depends htseq: ``>=0.6.1``
+   :depends pysam: ``>=0.13.0``
+   :depends python: ``<=3``
+   :depends samtools: ``>=1.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ embassy-phylip
 
 .. conda:recipe:: embassy-phylip
    :replaces_section_title:
+   :noindex:
 
    embassy\/emboss wrappers for phylip functions
 
@@ -22,11 +23,18 @@ embassy-phylip
 
    |downloads_embassy-phylip| |docker_embassy-phylip|
 
-   :versions: 3.69.650-2, 3.69.650-1, 3.69.650-0
+   :versions:
+      
+      
+
+      ``3.69.650-2``,  ``3.69.650-1``,  ``3.69.650-0``
+
+      
+
    
    :depends emboss: 
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

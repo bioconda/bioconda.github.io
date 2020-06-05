@@ -8,6 +8,7 @@ bioconductor-mitch
 
 .. conda:recipe:: bioconductor-mitch
    :replaces_section_title:
+   :noindex:
 
    Multi\-Contrast Gene Set Enrichment Analysis
 
@@ -22,9 +23,16 @@ bioconductor-mitch
 
    |downloads_bioconductor-mitch| |docker_bioconductor-mitch|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-beeswarm: 
    :depends r-echarts4r: 
    :depends r-ggally: 

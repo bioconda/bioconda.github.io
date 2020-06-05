@@ -8,6 +8,7 @@ colorbrewer
 
 .. conda:recipe:: colorbrewer
    :replaces_section_title:
+   :noindex:
 
    An easy way to get access to ColorBrewer schemes from within a Python program
 
@@ -22,7 +23,14 @@ colorbrewer
 
    |downloads_colorbrewer| |docker_colorbrewer|
 
-   :versions: 0.2-0, 0.1.1-2, 0.1.1-1
+   :versions:
+      
+      
+
+      ``0.2-0``,  ``0.1.1-2``,  ``0.1.1-1``
+
+      
+
    
    :depends python: 
    :depends six: 

@@ -8,6 +8,7 @@ nanocall
 
 .. conda:recipe:: nanocall
    :replaces_section_title:
+   :noindex:
 
    An Oxford Nanopore Basecaller
 
@@ -22,11 +23,18 @@ nanocall
 
    |downloads_nanocall| |docker_nanocall|
 
-   :versions: v0.7.4-1, v0.7.4-0, v0.6.14-0, v0.6.13-0, v0.6.5-0
+   :versions:
+      
+      
+
+      ``v0.7.4-1``,  ``v0.7.4-0``,  ``v0.6.14-0``,  ``v0.6.13-0``,  ``v0.6.5-0``
+
+      
+
    
-   :depends hdf5: >=1.10.2,<1.10.3.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends hdf5: ``>=1.10.2,<1.10.3.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

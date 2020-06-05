@@ -8,6 +8,7 @@ rkp
 
 .. conda:recipe:: rkp
    :replaces_section_title:
+   :noindex:
 
    Relative K\-mer Project
 
@@ -22,25 +23,32 @@ rkp
 
    |downloads_rkp| |docker_rkp|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
-   :depends argparse: >=1.4.0
-   :depends bedops: >=2.4.37
-   :depends bedtools: >=2.29.2
-   :depends biopython: >=1.76
-   :depends blast: >=2.9.0
-   :depends bowtie2: >=2.3.5
-   :depends kmc: >=3.1.1
-   :depends matplotlib-base: >=3.1.2
-   :depends numpy: >=1.17.3
-   :depends pandas: >=0.25.3
-   :depends python: >=3.6
-   :depends r: >=3.6
-   :depends r-gplots: >=3.0.1.1
-   :depends r-pheatmap: >=1.0.12
-   :depends samtools: >=1.10
-   :depends seqkit: >=0.11.0
-   :depends tqdm: >=4.41.1
+   :depends argparse: ``>=1.4.0``
+   :depends bedops: ``>=2.4.37``
+   :depends bedtools: ``>=2.29.2``
+   :depends biopython: ``>=1.76``
+   :depends blast: ``>=2.9.0``
+   :depends bowtie2: ``>=2.3.5``
+   :depends kmc: ``>=3.1.1``
+   :depends matplotlib-base: ``>=3.1.2``
+   :depends numpy: ``>=1.17.3``
+   :depends pandas: ``>=0.25.3``
+   :depends python: ``>=3.6``
+   :depends r: ``>=3.6``
+   :depends r-gplots: ``>=3.0.1.1``
+   :depends r-pheatmap: ``>=1.0.12``
+   :depends samtools: ``>=1.10``
+   :depends seqkit: ``>=0.11.0``
+   :depends tqdm: ``>=4.41.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ pymix
 
 .. conda:recipe:: pymix
    :replaces_section_title:
+   :noindex:
 
    Python mixture package
 
@@ -22,15 +23,22 @@ pymix
 
    |downloads_pymix| |docker_pymix|
 
-   :versions: 0.8-1, 0.8-0
+   :versions:
+      
+      
+
+      ``0.8-1``,  ``0.8-0``
+
+      
+
    
    :depends ghmm: 
    :depends glib: 
-   :depends gsl: >=2.2.1,<2.3.0a0
-   :depends libgcc-ng: >=4.9
-   :depends matplotlib: >=1.1.0,!=1.4.2,<1.5.0
+   :depends gsl: ``>=2.2.1,<2.3.0a0``
+   :depends libgcc-ng: ``>=4.9``
+   :depends matplotlib: ``>=1.1.0,!=1.4.2,<1.5.0``
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends xorg-libsm: 
    :depends xorg-libxau: 
    :depends xorg-libxdmcp: 

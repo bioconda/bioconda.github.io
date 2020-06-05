@@ -8,6 +8,7 @@ seqan
 
 .. conda:recipe:: seqan
    :replaces_section_title:
+   :noindex:
 
    SeqAn is an open source C\+\+ library of efficient algorithms and data structures for the analysis of sequences with the focus on biological data.
 
@@ -22,7 +23,14 @@ seqan
 
    |downloads_seqan| |docker_seqan|
 
-   :versions: 2.4.0-1, 2.4.0-0, 2.1.1-1, 2.1.1-0
+   :versions:
+      
+      
+
+      ``2.4.0-1``,  ``2.4.0-0``,  ``2.1.1-1``,  ``2.1.1-0``
+
+      
+
    
    :requirements:
 

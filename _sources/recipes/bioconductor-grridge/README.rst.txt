@@ -8,6 +8,7 @@ bioconductor-grridge
 
 .. conda:recipe:: bioconductor-grridge
    :replaces_section_title:
+   :noindex:
 
    Better prediction by use of co\-data\: Adaptive group\-regularized ridge regression
 
@@ -22,10 +23,17 @@ bioconductor-grridge
 
    |downloads_bioconductor-grridge| |docker_bioconductor-grridge|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-glmnet: 
    :depends r-iso: 
    :depends r-mvtnorm: 

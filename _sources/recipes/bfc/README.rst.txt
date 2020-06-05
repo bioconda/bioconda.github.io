@@ -8,6 +8,7 @@ bfc
 
 .. conda:recipe:: bfc
    :replaces_section_title:
+   :noindex:
 
    BFC is a standalone high\-performance tool for correcting sequencing errors from Illumina sequencing data.
 
@@ -22,10 +23,17 @@ bfc
 
    |downloads_bfc| |docker_bfc|
 
-   :versions: r181-4, r181-3, r181-2, r181-1, r181-0
+   :versions:
+      
+      
+
+      ``r181-4``,  ``r181-3``,  ``r181-2``,  ``r181-1``,  ``r181-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

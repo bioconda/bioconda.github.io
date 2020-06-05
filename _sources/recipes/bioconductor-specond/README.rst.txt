@@ -8,6 +8,7 @@ bioconductor-specond
 
 .. conda:recipe:: bioconductor-specond
    :replaces_section_title:
+   :noindex:
 
    Condition specific detection from expression data
 
@@ -23,13 +24,20 @@ bioconductor-specond
 
    |downloads_bioconductor-specond| |docker_bioconductor-specond|
 
-   :versions: 1.42.0-0, 1.40.0-0, 1.38.0-1, 1.36.0-0, 1.34.0-0, 1.32.0-0, 1.30.0-0
+   :versions:
+      
+      
+
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fields: 
-   :depends r-hwriter: >=1.1
-   :depends r-mclust: >=3.3.1
+   :depends r-hwriter: ``>=1.1``
+   :depends r-mclust: ``>=3.3.1``
    :depends r-rcolorbrewer: 
    :requirements:
 

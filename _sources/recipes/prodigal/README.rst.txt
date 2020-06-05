@@ -8,6 +8,7 @@ prodigal
 
 .. conda:recipe:: prodigal
    :replaces_section_title:
+   :noindex:
 
    Prodigal \(Prokaryotic Dynamic Programming Genefinding Algorithm\) is a microbial \(bacterial and archaeal\) gene finding program
 
@@ -22,9 +23,16 @@ prodigal
 
    |downloads_prodigal| |docker_prodigal|
 
-   :versions: 2.6.3-2, 2.6.3-1, 2.6.3-0, 2.6.2-3, 2.6.2-2, 2.6.2-1
+   :versions:
+      
+      
+
+      ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-3``,  ``2.6.2-2``,  ``2.6.2-1``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

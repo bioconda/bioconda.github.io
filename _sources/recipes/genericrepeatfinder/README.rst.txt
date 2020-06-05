@@ -8,6 +8,7 @@ genericrepeatfinder
 
 .. conda:recipe:: genericrepeatfinder
    :replaces_section_title:
+   :noindex:
 
    Generic Repeat Finder \(GRF\).
 
@@ -22,11 +23,18 @@ genericrepeatfinder
 
    |downloads_genericrepeatfinder| |docker_genericrepeatfinder|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
    :depends cd-hit: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

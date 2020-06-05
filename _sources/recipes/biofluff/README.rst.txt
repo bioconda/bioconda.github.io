@@ -8,6 +8,7 @@ biofluff
 
 .. conda:recipe:: biofluff
    :replaces_section_title:
+   :noindex:
 
    Exploratory analysis and visualization of high\-throughput sequencing data
 
@@ -22,15 +23,30 @@ biofluff
 
    |downloads_biofluff| |docker_biofluff|
 
-   :versions: 3.0.3-1, 3.0.3-0, 3.0.2-1, 3.0.2-0, 2.1.3-0, 2.1.2-0, 2.1.1-0, 2.1.0-0, 2.0.2-0, 2.0.1-1
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.3-1</code>,  <code>3.0.3-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  </span></summary>
+      
+
+      ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends htseq: 
-   :depends matplotlib: >=2
+   :depends matplotlib: ``>=2``
    :depends palettable: 
    :depends pybedtools: 
    :depends pybigwig: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:

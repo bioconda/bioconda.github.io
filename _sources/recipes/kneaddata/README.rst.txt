@@ -8,6 +8,7 @@ kneaddata
 
 .. conda:recipe:: kneaddata
    :replaces_section_title:
+   :noindex:
 
    KneadData is a tool designed to perform quality control on metagenomic and metatranscriptomic sequencing data\, especially data from microbiome experiments.
 
@@ -22,7 +23,14 @@ kneaddata
 
    |downloads_kneaddata| |docker_kneaddata|
 
-   :versions: 0.7.4-0, 0.7.3-0, 0.7.2-1, 0.7.2-0, 0.7.0-0, 0.6.1-2, 0.6.1-0, 0.5.2-0
+   :versions:
+      
+      
+
+      ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.5.2-0``
+
+      
+
    
    :depends bmtagger: 
    :depends bowtie2: 

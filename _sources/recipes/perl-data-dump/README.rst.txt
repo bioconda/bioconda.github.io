@@ -8,6 +8,7 @@ perl-data-dump
 
 .. conda:recipe:: perl-data-dump
    :replaces_section_title:
+   :noindex:
 
    Pretty printing of data structures
 
@@ -22,10 +23,17 @@ perl-data-dump
 
    |downloads_perl-data-dump| |docker_perl-data-dump|
 
-   :versions: 1.23-5, 1.23-4, 1.23-3
+   :versions:
+      
+      
+
+      ``1.23-5``,  ``1.23-4``,  ``1.23-3``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

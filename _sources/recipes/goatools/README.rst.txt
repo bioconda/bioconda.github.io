@@ -8,6 +8,7 @@ goatools
 
 .. conda:recipe:: goatools
    :replaces_section_title:
+   :noindex:
 
    Python scripts to find enrichment of GO terms
 
@@ -23,7 +24,22 @@ goatools
 
    |downloads_goatools| |docker_goatools|
 
-   :versions: 1.0.5-0, 1.0.3-0, 1.0.2-0, 0.9.9-0, 0.9.7-0, 0.9.5-0, 0.8.12-0, 0.8.11-0, 0.8.9-0, 0.8.4-0, 0.7.11-1, 0.7.11-0, 0.6.10-0, 0.6.4-0, 0.5.9-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>0.9.9-0</code>,  <code>0.9.7-0</code>,  <code>0.9.5-0</code>,  <code>0.8.12-0</code>,  <code>0.8.11-0</code>,  <code>0.8.9-0</code>,  </span></summary>
+      
+
+      ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``0.9.9-0``,  ``0.9.7-0``,  ``0.9.5-0``,  ``0.8.12-0``,  ``0.8.11-0``,  ``0.8.9-0``,  ``0.8.4-0``,  ``0.7.11-1``,  ``0.7.11-0``,  ``0.6.10-0``,  ``0.6.4-0``,  ``0.5.9-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends numpy: 
    :depends pydot: 

@@ -8,6 +8,7 @@ bioconductor-coseq
 
 .. conda:recipe:: bioconductor-coseq
    :replaces_section_title:
+   :noindex:
 
    Co\-Expression Analysis of Sequencing Data
 
@@ -22,21 +23,28 @@ bioconductor-coseq
 
    |downloads_bioconductor-coseq| |docker_bioconductor-coseq|
 
-   :versions: 1.12.0-0, 1.10.0-0, 1.8.0-1, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-deseq2: >=1.28.0,<1.29.0
-   :depends bioconductor-edger: >=3.30.0,<3.31.0
-   :depends bioconductor-htsfilter: >=1.28.0,<1.29.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
+   :depends bioconductor-htsfilter: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-capushe: 
    :depends r-compositions: 
    :depends r-corrplot: 
    :depends r-e1071: 
-   :depends r-ggplot2: >=2.1.0
-   :depends r-htscluster: >=2.0.8
+   :depends r-ggplot2: ``>=2.1.0``
+   :depends r-htscluster: ``>=2.0.8``
    :depends r-mvtnorm: 
    :depends r-rmixmod: 
    :depends r-scales: 

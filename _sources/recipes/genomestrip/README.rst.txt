@@ -8,6 +8,7 @@ genomestrip
 
 .. conda:recipe:: genomestrip
    :replaces_section_title:
+   :noindex:
 
    Genome STRiP \(Genome STRucture In Populations\) is a suite of tools for discovery and genotyping of structural variation using whole\-genome sequencing data
 
@@ -22,10 +23,17 @@ genomestrip
 
    |downloads_genomestrip| |docker_genomestrip|
 
-   :versions: 2.00.1833-2, 2.00.1833-1, 2.00.1833-0
+   :versions:
+      
+      
+
+      ``2.00.1833-2``,  ``2.00.1833-1``,  ``2.00.1833-0``
+
+      
+
    
-   :depends openjdk: >=8
-   :depends r-base: >=3.4
+   :depends openjdk: ``>=8``
+   :depends r-base: ``>=3.4``
    :depends samtools: 
    :depends tabix: 
    :requirements:

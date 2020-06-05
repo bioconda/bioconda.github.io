@@ -8,6 +8,7 @@ bioconductor-maigespack
 
 .. conda:recipe:: bioconductor-maigespack
    :replaces_section_title:
+   :noindex:
 
    Functions to handle cDNA microarray data\, including several methods of data analysis
 
@@ -23,16 +24,23 @@ bioconductor-maigespack
 
    |downloads_bioconductor-maigespack| |docker_bioconductor-maigespack|
 
-   :versions: 1.52.0-0, 1.50.0-0, 1.48.0-1, 1.46.0-0, 1.44.0-0, 1.42.0-0
+   :versions:
+      
+      
+
+      ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``
+
+      
+
    
-   :depends bioconductor-convert: >=1.64.0,<1.65.0
-   :depends bioconductor-graph: >=1.66.0,<1.67.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends bioconductor-marray: >=1.66.0,<1.67.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-convert: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-marray: ``>=1.66.0,<1.67.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

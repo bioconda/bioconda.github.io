@@ -8,6 +8,7 @@ gblocks
 
 .. conda:recipe:: gblocks
    :replaces_section_title:
+   :noindex:
 
    Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis.
 
@@ -22,7 +23,14 @@ gblocks
 
    |downloads_gblocks| |docker_gblocks|
 
-   :versions: 0.91b-1, 0.91b-0
+   :versions:
+      
+      
+
+      ``0.91b-1``,  ``0.91b-0``
+
+      
+
    
    :requirements:
 

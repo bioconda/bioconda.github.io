@@ -8,6 +8,7 @@ metavelvet-sl-feature-extraction
 
 .. conda:recipe:: metavelvet-sl-feature-extraction
    :replaces_section_title:
+   :noindex:
 
    Perl libraries that do feature extraction for metavelvet\-sl
 
@@ -22,9 +23,16 @@ metavelvet-sl-feature-extraction
 
    |downloads_metavelvet-sl-feature-extraction| |docker_metavelvet-sl-feature-extraction|
 
-   :versions: 1.0-3, 1.0-2, 1.0-1
+   :versions:
+      
+      
+
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-module-build: 
    :requirements:

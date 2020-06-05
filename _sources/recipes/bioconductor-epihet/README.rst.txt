@@ -8,6 +8,7 @@ bioconductor-epihet
 
 .. conda:recipe:: bioconductor-epihet
    :replaces_section_title:
+   :noindex:
 
    Determining Epigenetic Heterogeneity from Bisulfite Sequencing Data
 
@@ -22,14 +23,21 @@ bioconductor-epihet
 
    |downloads_bioconductor-epihet| |docker_bioconductor-epihet|
 
-   :versions: 1.4.0-0, 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-qvalue: >=2.20.0,<2.21.0
-   :depends bioconductor-reactomepa: >=1.32.0,<1.33.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-reactomepa: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-entropyexplorer: 

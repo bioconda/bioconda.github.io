@@ -8,6 +8,7 @@ neatms
 
 .. conda:recipe:: neatms
    :replaces_section_title:
+   :noindex:
 
    NeatMS is an open source python package for untargeted LCMS signal labelling and filtering
 
@@ -24,7 +25,14 @@ neatms
 
    |downloads_neatms| |docker_neatms|
 
-   :versions: 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-0``
+
+      
+
    
    :depends h5py: 
    :depends keras: 
@@ -32,7 +40,7 @@ neatms
    :depends pandas: 
    :depends pillow: 
    :depends pymzml: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends scikit-learn: 
    :depends tensorflow: 
    :requirements:

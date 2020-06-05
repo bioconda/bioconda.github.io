@@ -8,6 +8,7 @@ r-genometricorr
 
 .. conda:recipe:: r-genometricorr
    :replaces_section_title:
+   :noindex:
 
    Genometric Correlation \(GenometriCorr\) is an R package for spatial correlation of genome\-wide interval datasets.
 
@@ -23,7 +24,14 @@ r-genometricorr
 
    |downloads_r-genometricorr| |docker_r-genometricorr|
 
-   :versions: 1.1.17-0
+   :versions:
+      
+      
+
+      ``1.1.17-0``
+
+      
+
    
    :depends bioconductor-genomeinfodb: 
    :depends bioconductor-genomicfeatures: 
@@ -32,7 +40,7 @@ r-genometricorr
    :depends bioconductor-rtracklayer: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: 
-   :depends r-base: >=3.1.0
+   :depends r-base: ``>=3.1.0``
    :depends r-gdata: 
    :depends r-gplots: 
    :depends r-rcurl: 

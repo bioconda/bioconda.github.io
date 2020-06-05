@@ -8,6 +8,7 @@ tspex
 
 .. conda:recipe:: tspex
    :replaces_section_title:
+   :noindex:
 
    A Python package for calculating tissue\-specificity metrics for gene expression.
 
@@ -22,13 +23,28 @@ tspex
 
    |downloads_tspex| |docker_tspex|
 
-   :versions: 0.6.2-0, 0.6.1-0, 0.6.0-0, 0.5.1-0, 0.5.0-0, 0.4.0-0, 0.3.1-0, 0.3.0-0, 0.2.0-0, 0.1.1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
+
+      ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends matplotlib-base: >=2.2
+   :depends matplotlib-base: ``>=2.2``
    :depends numpy: 
-   :depends pandas: >=0.23
-   :depends python: >=3
-   :depends xlrd: >=1.1.0
+   :depends pandas: ``>=0.23``
+   :depends python: ``>=3``
+   :depends xlrd: ``>=1.1.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-test-base
 
 .. conda:recipe:: perl-test-base
    :replaces_section_title:
+   :noindex:
 
    A Data Driven Testing Framework
 
@@ -22,9 +23,16 @@ perl-test-base
 
    |downloads_perl-test-base| |docker_perl-test-base|
 
-   :versions: 0.89-0, 0.88-2, 0.88-1, 0.88-0
+   :versions:
+      
+      
+
+      ``0.89-0``,  ``0.88-2``,  ``0.88-1``,  ``0.88-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-spiffy: 
    :requirements:
 

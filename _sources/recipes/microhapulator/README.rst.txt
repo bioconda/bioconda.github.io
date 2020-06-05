@@ -8,6 +8,7 @@ microhapulator
 
 .. conda:recipe:: microhapulator
    :replaces_section_title:
+   :noindex:
 
    Software package for simulating and analyzing microhaplotype sequence data.
 
@@ -22,15 +23,22 @@ microhapulator
 
    |downloads_microhapulator| |docker_microhapulator|
 
-   :versions: 0.4.1-0, 0.3-0, 0.2-0, 0.1.3-0
+   :versions:
+      
+      
+
+      ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
+
+      
+
    
-   :depends happer: >=0.1
-   :depends insilicoseq: >=1.3.6
-   :depends jsonschema: >=3.1
-   :depends microhapdb: >=0.4.3
-   :depends numpy: >=1.15.4
-   :depends pysam: >=0.15.2
-   :depends python: >=3
+   :depends happer: ``>=0.1``
+   :depends insilicoseq: ``>=1.3.6``
+   :depends jsonschema: ``>=3.1``
+   :depends microhapdb: ``>=0.4.3``
+   :depends numpy: ``>=1.15.4``
+   :depends pysam: ``>=0.15.2``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ fgmp
 
 .. conda:recipe:: fgmp
    :replaces_section_title:
+   :noindex:
 
    FGMP\: assessing fungal genome completeness and gene content.
 
@@ -23,14 +24,21 @@ fgmp
 
    |downloads_fgmp| |docker_fgmp|
 
-   :versions: 1.0.3-1, 1.0.3-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends augustus: >=3.2.3
-   :depends blast: >=2.2.31
-   :depends emboss: >=6.5.7
-   :depends exonerate: >=2.2.0
-   :depends hmmer: >=3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends augustus: ``>=3.2.3``
+   :depends blast: ``>=2.2.31``
+   :depends emboss: ``>=6.5.7``
+   :depends exonerate: ``>=2.2.0``
+   :depends hmmer: ``>=3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-app-cpanminus: 
    :depends perl-bioperl: 
    :depends perl-ipc-run: 

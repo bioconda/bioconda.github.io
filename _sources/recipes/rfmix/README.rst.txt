@@ -8,6 +8,7 @@ rfmix
 
 .. conda:recipe:: rfmix
    :replaces_section_title:
+   :noindex:
 
    RFMix implements a fast discriminative approach to modeling ancestry along an admixed chromosome given observed haplotype sequences of known or inferred ancestry.
 
@@ -23,10 +24,17 @@ rfmix
 
    |downloads_rfmix| |docker_rfmix|
 
-   :versions: 2.03.r0.9505bfa-0
+   :versions:
+      
+      
+
+      ``2.03.r0.9505bfa-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
    :depends pthread-stubs: 
    :requirements:
 

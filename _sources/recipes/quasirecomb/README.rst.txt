@@ -8,6 +8,7 @@ quasirecomb
 
 .. conda:recipe:: quasirecomb
    :replaces_section_title:
+   :noindex:
 
    Software of Inference of Quasispecies subjected to Recombination
 
@@ -24,9 +25,16 @@ quasirecomb
 
    |downloads_quasirecomb| |docker_quasirecomb|
 
-   :versions: 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

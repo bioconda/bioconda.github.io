@@ -8,6 +8,7 @@ bioconductor-rnaseqdata.hnrnpc.bam.chr14
 
 .. conda:recipe:: bioconductor-rnaseqdata.hnrnpc.bam.chr14
    :replaces_section_title:
+   :noindex:
 
    Aligned reads from RNAseq experiment\: Transcription profiling by high throughput sequencing of HNRNPC knockdown and control HeLa cells
 
@@ -22,10 +23,17 @@ bioconductor-rnaseqdata.hnrnpc.bam.chr14
 
    |downloads_bioconductor-rnaseqdata.hnrnpc.bam.chr14| |docker_bioconductor-rnaseqdata.hnrnpc.bam.chr14|
 
-   :versions: 0.26.0-0, 0.24.0-0, 0.22.0-1, 0.22.0-0, 0.20.0-1, 0.20.0-0
+   :versions:
+      
+      
+
+      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.22.0-0``,  ``0.20.0-1``,  ``0.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

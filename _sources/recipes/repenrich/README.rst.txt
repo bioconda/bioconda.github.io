@@ -8,6 +8,7 @@ repenrich
 
 .. conda:recipe:: repenrich
    :replaces_section_title:
+   :noindex:
 
    RepEnrich is a method to estimate repetitive element enrichment using high\-throughput sequencing data.
 
@@ -22,12 +23,19 @@ repenrich
 
    |downloads_repenrich| |docker_repenrich|
 
-   :versions: 1.2-2, 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+
+      
+
    
-   :depends bedtools: <2.24.0
+   :depends bedtools: ``<2.24.0``
    :depends biopython: 
    :depends bowtie: 
-   :depends python: <3
+   :depends python: ``<3``
    :depends samtools: 
    :requirements:
 

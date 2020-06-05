@@ -8,6 +8,7 @@ rust-overlaps
 
 .. conda:recipe:: rust-overlaps
    :replaces_section_title:
+   :noindex:
 
    A fast and secure command line utilility for enumerating all suffix\-prefix
    overlaps within a set of sequences\, satisfying a user\-specified minimal
@@ -24,10 +25,17 @@ rust-overlaps
 
    |downloads_rust-overlaps| |docker_rust-overlaps|
 
-   :versions: 0.1.1-5, 0.1.1-4, 0.1.1-3, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

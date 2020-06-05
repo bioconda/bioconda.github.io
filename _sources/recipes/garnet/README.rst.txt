@@ -8,6 +8,7 @@ garnet
 
 .. conda:recipe:: garnet
    :replaces_section_title:
+   :noindex:
 
    GarNet uses gene expression and epigenetic data to impute transcription factors \(TFs\) that played an important role in a biological system.
 
@@ -22,7 +23,14 @@ garnet
 
    |downloads_garnet| |docker_garnet|
 
-   :versions: 0.4.5-0, 0.4.3-0, 0.4.0-0, 0.2.20-0, 0.2.17-0
+   :versions:
+      
+      
+
+      ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.0-0``,  ``0.2.20-0``,  ``0.2.17-0``
+
+      
+
    
    :depends intervaltree: 
    :depends jinja2: 
@@ -30,7 +38,7 @@ garnet
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: 3.5*
+   :depends python: ``3.5*``
    :depends statsmodels: 
    :requirements:
 

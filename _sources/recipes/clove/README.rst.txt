@@ -8,6 +8,7 @@ clove
 
 .. conda:recipe:: clove
    :replaces_section_title:
+   :noindex:
 
    CLOVE\: Classification of genomic fusions into structural variation events.
 
@@ -22,9 +23,16 @@ clove
 
    |downloads_clove| |docker_clove|
 
-   :versions: 0.17-1, 0.17-0
+   :versions:
+      
+      
+
+      ``0.17-1``,  ``0.17-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 

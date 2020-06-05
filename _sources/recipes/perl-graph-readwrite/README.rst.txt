@@ -8,6 +8,7 @@ perl-graph-readwrite
 
 .. conda:recipe:: perl-graph-readwrite
    :replaces_section_title:
+   :noindex:
 
    modules for reading and writing directed graphs
 
@@ -22,9 +23,16 @@ perl-graph-readwrite
 
    |downloads_perl-graph-readwrite| |docker_perl-graph-readwrite|
 
-   :versions: 2.09-2, 2.09-0
+   :versions:
+      
+      
+
+      ``2.09-2``,  ``2.09-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-graph: 

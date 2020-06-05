@@ -8,6 +8,7 @@ cofold
 
 .. conda:recipe:: cofold
    :replaces_section_title:
+   :noindex:
 
    An RNA secondary structure prediction method that takes co\-transcriptional folding into account.
 
@@ -22,9 +23,16 @@ cofold
 
    |downloads_cofold| |docker_cofold|
 
-   :versions: 2.0.4-2, 2.0.4-1
+   :versions:
+      
+      
+
+      ``2.0.4-2``,  ``2.0.4-1``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

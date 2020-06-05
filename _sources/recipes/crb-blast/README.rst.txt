@@ -8,6 +8,7 @@ crb-blast
 
 .. conda:recipe:: crb-blast
    :replaces_section_title:
+   :noindex:
 
    Conditional Reciprocal Best BLAST \- high confidence ortholog assignment.
 
@@ -22,11 +23,18 @@ crb-blast
 
    |downloads_crb-blast| |docker_crb-blast|
 
-   :versions: 0.6.6-2, 0.6.6-1, 0.6.6-0
+   :versions:
+      
+      
+
+      ``0.6.6-2``,  ``0.6.6-1``,  ``0.6.6-0``
+
+      
+
    
    :depends blast: 
-   :depends ruby: >=2.4.4
-   :depends ruby: >=2.6.5,<2.7.0a0
+   :depends ruby: ``>=2.4.4``
+   :depends ruby: ``>=2.6.5,<2.7.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ htseq
 
 .. conda:recipe:: htseq
    :replaces_section_title:
+   :noindex:
 
    HTSeq is a Python library to facilitate processing and analysis of data from high\-throughput sequencing \(HTS\) experiments.
 
@@ -23,15 +24,30 @@ htseq
 
    |downloads_htseq| |docker_htseq|
 
-   :versions: 0.12.4-0, 0.12.3-0, 0.11.3-0, 0.11.2-1, 0.11.2-0, 0.11.1-0, 0.11.0-1, 0.11.0-0, 0.9.1-2, 0.9.1-1, 0.9.1-0, 0.7.2-2, 0.7.2-1, 0.7.2-0, 0.6.1.post1-3, 0.6.1.post1-2, 0.6.1.post1-1, 0.6.1.post1-0, 0.6.1-2, 0.6.1-1, 0.6.1-0, 0.6.1p1-1, 0.6.1p1-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.12.4-0</code>,  <code>0.12.3-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-1</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.9.1-2</code>,  </span></summary>
+      
+
+      ``0.12.4-0``,  ``0.12.3-0``,  ``0.11.3-0``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.6.1.post1-3``,  ``0.6.1.post1-2``,  ``0.6.1.post1-1``,  ``0.6.1.post1-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.1p1-1``,  ``0.6.1p1-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends matplotlib-base: >=1.4
-   :depends numpy: >=1.14.6,<2.0a0
-   :depends pysam: >=0.9.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends matplotlib-base: ``>=1.4``
+   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends pysam: ``>=0.9.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

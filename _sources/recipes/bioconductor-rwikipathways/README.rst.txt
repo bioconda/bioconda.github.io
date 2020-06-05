@@ -8,6 +8,7 @@ bioconductor-rwikipathways
 
 .. conda:recipe:: bioconductor-rwikipathways
    :replaces_section_title:
+   :noindex:
 
    rWikiPathways \- R client library for the WikiPathways API
 
@@ -22,9 +23,16 @@ bioconductor-rwikipathways
 
    |downloads_bioconductor-rwikipathways| |docker_bioconductor-rwikipathways|
 
-   :versions: 1.8.2-0, 1.6.0-0, 1.4.0-1, 1.4.0-0, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-httr: 
    :depends r-rjson: 

@@ -8,6 +8,7 @@ quantwiz-iq
 
 .. conda:recipe:: quantwiz-iq
    :replaces_section_title:
+   :noindex:
 
    QuantWiz\-IQ is a tool for reporter based MS\/MS quantitation using iTRAQ or TMT tags from shotgun proteomics experiments.
 
@@ -22,13 +23,20 @@ quantwiz-iq
 
    |downloads_quantwiz-iq| |docker_quantwiz-iq|
 
-   :versions: 2.0-1, 2.0-0
+   :versions:
+      
+      
+
+      ``2.0-1``,  ``2.0-0``
+
+      
+
    
    :depends perl: 
-   :depends perl-math-matrix: 0.8.*
-   :depends perl-math-matrixreal: 2.13.*
-   :depends perl-mime-base64: 3.15.*
-   :depends perl-xml-twig: 3.52.*
+   :depends perl-math-matrix: ``0.8.*``
+   :depends perl-math-matrixreal: ``2.13.*``
+   :depends perl-mime-base64: ``3.15.*``
+   :depends perl-xml-twig: ``3.52.*``
    :requirements:
 
    .. rubric:: Installation

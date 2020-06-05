@@ -8,6 +8,7 @@ kipoi-utils
 
 .. conda:recipe:: kipoi-utils
    :replaces_section_title:
+   :noindex:
 
    kipoi\-utils\: utils used in various packages related to kipoi
 
@@ -22,14 +23,21 @@ kipoi-utils
 
    |downloads_kipoi-utils| |docker_kipoi-utils|
 
-   :versions: 0.3.8-0, 0.3.6-0, 0.3.5-0, 0.3.4-0, 0.3.2-0, 0.3.0-0, 0.1.12-2, 0.1.12-1, 0.1.12-0
+   :versions:
+      
+      
+
+      ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``
+
+      
+
    
    :depends attrs: 
    :depends numpy: 
-   :depends pandas: >=0.21.0
+   :depends pandas: ``>=0.21.0``
    :depends psutil: 
    :depends python: 
-   :depends pyyaml: >=5.1.0
+   :depends pyyaml: ``>=5.1.0``
    :depends related: 
    :depends six: 
    :depends tqdm: 

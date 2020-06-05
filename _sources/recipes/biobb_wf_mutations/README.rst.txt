@@ -8,6 +8,7 @@ biobb_wf_mutations
 
 .. conda:recipe:: biobb_wf_mutations
    :replaces_section_title:
+   :noindex:
 
    Lysozyme plus Mutations workflow built using BioBB Based on the official Gromacs tutorial\: http\:\/\/www.mdtutorials.com\/gmx\/lysozyme\/01\_pdb2gmx.html
 
@@ -53,14 +54,21 @@ biobb_wf_mutations
 
    |downloads_biobb_wf_mutations| |docker_biobb_wf_mutations|
 
-   :versions: 0.0.6-0, 0.0.5-0
+   :versions:
+      
+      
+
+      ``0.0.6-0``,  ``0.0.5-0``
+
+      
+
    
-   :depends biobb_adapters: >=0.1.4
-   :depends biobb_common: >=0.1.2
-   :depends biobb_io: >=0.1.4
-   :depends biobb_md: >=0.1.5
-   :depends biobb_model: >=0.1.5
-   :depends python: >=3
+   :depends biobb_adapters: ``>=0.1.4``
+   :depends biobb_common: ``>=0.1.2``
+   :depends biobb_io: ``>=0.1.4``
+   :depends biobb_md: ``>=0.1.5``
+   :depends biobb_model: ``>=0.1.5``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

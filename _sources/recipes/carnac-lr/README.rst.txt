@@ -8,6 +8,7 @@ carnac-lr
 
 .. conda:recipe:: carnac-lr
    :replaces_section_title:
+   :noindex:
 
    Clustering coefficient\-based Acquisition of RNA Communities in Long Read
 
@@ -22,11 +23,18 @@ carnac-lr
 
    |downloads_carnac-lr| |docker_carnac-lr|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

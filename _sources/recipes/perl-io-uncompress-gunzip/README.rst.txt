@@ -8,6 +8,7 @@ perl-io-uncompress-gunzip
 
 .. conda:recipe:: perl-io-uncompress-gunzip/2.064
    :replaces_section_title:
+   :noindex:
 
    Read RFC 1952 files\/buffers
 
@@ -22,9 +23,16 @@ perl-io-uncompress-gunzip
 
    |downloads_perl-io-uncompress-gunzip| |docker_perl-io-uncompress-gunzip|
 
-   :versions: 2.064-1, 2.064-0
+   :versions:
+      
+      
+
+      ``2.064-1``,  ``2.064-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

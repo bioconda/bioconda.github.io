@@ -8,6 +8,7 @@ sff2fastq
 
 .. conda:recipe:: sff2fastq
    :replaces_section_title:
+   :noindex:
 
    Extract 454 Genome Sequencer reads from a SFF file and convert them into a FASTQ formatted output
 
@@ -26,9 +27,16 @@ sff2fastq
 
    |downloads_sff2fastq| |docker_sff2fastq|
 
-   :versions: 0.9.2-1, 0.9.2-0
+   :versions:
+      
+      
+
+      ``0.9.2-1``,  ``0.9.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

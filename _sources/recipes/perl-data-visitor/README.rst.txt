@@ -8,6 +8,7 @@ perl-data-visitor
 
 .. conda:recipe:: perl-data-visitor/0.30
    :replaces_section_title:
+   :noindex:
 
    Visitor style traversal of Perl data structures
 
@@ -22,10 +23,17 @@ perl-data-visitor
 
    |downloads_perl-data-visitor| |docker_perl-data-visitor|
 
-   :versions: 0.30-2, 0.30-1, 0.30-0
+   :versions:
+      
+      
+
+      ``0.30-2``,  ``0.30-1``,  ``0.30-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
-   :depends perl-class-load: >=0.06
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-class-load: ``>=0.06``
    :depends perl-moose: 
    :depends perl-namespace-clean: 
    :depends perl-task-weaken: 

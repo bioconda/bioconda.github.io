@@ -8,6 +8,7 @@ prokaryote
 
 .. conda:recipe:: prokaryote
    :replaces_section_title:
+   :noindex:
 
    CellProfiler\'s Java dependencies
 
@@ -22,7 +23,14 @@ prokaryote
 
    |downloads_prokaryote| |docker_prokaryote|
 
-   :versions: 2.4.1-0
+   :versions:
+      
+      
+
+      ``2.4.1-0``
+
+      
+
    
    :depends python: 
    :requirements:

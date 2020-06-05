@@ -8,6 +8,7 @@ erds
 
 .. conda:recipe:: erds
    :replaces_section_title:
+   :noindex:
 
    Inferring copy number variants in high\-coverage human genomes with next\-generation sequencing data.
 
@@ -22,11 +23,18 @@ erds
 
    |downloads_erds| |docker_erds|
 
-   :versions: 1.1-1, 1.1-0
+   :versions:
+      
+      
+
+      ``1.1-1``,  ``1.1-0``
+
+      
+
    
    :depends libgcc: 
-   :depends perl: 5.22.0*
-   :depends samtools: ==0.1.19
+   :depends perl: ``5.22.0*``
+   :depends samtools: ``==0.1.19``
    :requirements:
 
    .. rubric:: Installation

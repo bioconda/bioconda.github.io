@@ -8,6 +8,7 @@ igor_vdj
 
 .. conda:recipe:: igor_vdj
    :replaces_section_title:
+   :noindex:
 
    IGoR is a C\+\+ software designed to infer V\(D\)J recombination related processes from sequencing data.
 
@@ -22,10 +23,17 @@ igor_vdj
 
    |downloads_igor_vdj| |docker_igor_vdj|
 
-   :versions: 1.4.0-0, 1.3.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-0``,  ``1.3.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

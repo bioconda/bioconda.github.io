@@ -8,6 +8,7 @@ perl-svg
 
 .. conda:recipe:: perl-svg
    :replaces_section_title:
+   :noindex:
 
    Perl extension for generating Scalable Vector Graphics \(SVG\) documents
 
@@ -22,9 +23,16 @@ perl-svg
 
    |downloads_perl-svg| |docker_perl-svg|
 
-   :versions: 2.84-0, 2.64-2, 2.64-1, 2.64-0
+   :versions:
+      
+      
+
+      ``2.84-0``,  ``2.64-2``,  ``2.64-1``,  ``2.64-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

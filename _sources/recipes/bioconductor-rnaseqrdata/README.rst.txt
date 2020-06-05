@@ -8,6 +8,7 @@ bioconductor-rnaseqrdata
 
 .. conda:recipe:: bioconductor-rnaseqrdata
    :replaces_section_title:
+   :noindex:
 
    RNASeqRData\: sample data for RNASeqR software package demonstration
 
@@ -22,10 +23,17 @@ bioconductor-rnaseqrdata
 
    |downloads_bioconductor-rnaseqrdata| |docker_bioconductor-rnaseqrdata|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-undo
 
 .. conda:recipe:: bioconductor-undo
    :replaces_section_title:
+   :noindex:
 
    Unsupervised Deconvolution of Tumor\-Stromal Mixed Expressions
 
@@ -23,11 +24,18 @@ bioconductor-undo
 
    |downloads_bioconductor-undo| |docker_bioconductor-undo|
 
-   :versions: 1.30.0-0, 1.28.0-0, 1.26.0-1, 1.24.0-0, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-boot: 
    :depends r-mass: 
    :depends r-nnls: 

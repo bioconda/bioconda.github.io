@@ -8,6 +8,7 @@ biobambam
 
 .. conda:recipe:: biobambam
    :replaces_section_title:
+   :noindex:
 
    Tools for early stage alignment file processing
 
@@ -22,7 +23,22 @@ biobambam
 
    |downloads_biobambam| |docker_biobambam|
 
-   :versions: 2.0.87-1, 2.0.87-0, 2.0.79-0, 2.0.78-0, 2.0.72-0, 2.0.62-0, 2.0.58-0, 2.0.57-0, 2.0.44-0, 2.0.42-0, 2.0.39-0, 2.0.25-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.0.87-1</code>,  <code>2.0.87-0</code>,  <code>2.0.79-0</code>,  <code>2.0.78-0</code>,  <code>2.0.72-0</code>,  <code>2.0.62-0</code>,  <code>2.0.58-0</code>,  <code>2.0.57-0</code>,  <code>2.0.44-0</code>,  </span></summary>
+      
+
+      ``2.0.87-1``,  ``2.0.87-0``,  ``2.0.79-0``,  ``2.0.78-0``,  ``2.0.72-0``,  ``2.0.62-0``,  ``2.0.58-0``,  ``2.0.57-0``,  ``2.0.44-0``,  ``2.0.42-0``,  ``2.0.39-0``,  ``2.0.25-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :requirements:
 

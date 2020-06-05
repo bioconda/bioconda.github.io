@@ -8,6 +8,7 @@ bioconductor-mergemaid
 
 .. conda:recipe:: bioconductor-mergemaid
    :replaces_section_title:
+   :noindex:
 
    Merge Maid
 
@@ -23,10 +24,17 @@ bioconductor-mergemaid
 
    |downloads_bioconductor-mergemaid| |docker_bioconductor-mergemaid|
 
-   :versions: 2.59.0-0, 2.58.0-0, 2.56.0-1, 2.54.0-0, 2.52.0-0, 2.50.0-0, 2.48.0-0
+   :versions:
+      
+      
+
+      ``2.59.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :depends r-survival: 
    :requirements:

@@ -8,6 +8,7 @@ samstats
 
 .. conda:recipe:: samstats
    :replaces_section_title:
+   :noindex:
 
    SAM file alignment statistics at the read level
 
@@ -22,7 +23,14 @@ samstats
 
    |downloads_samstats| |docker_samstats|
 
-   :versions: 0.2.2-0, 0.2.1-0
+   :versions:
+      
+      
+
+      ``0.2.2-0``,  ``0.2.1-0``
+
+      
+
    
    :depends multiprocess: 
    :depends python: 

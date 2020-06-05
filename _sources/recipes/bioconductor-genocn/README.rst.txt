@@ -8,6 +8,7 @@ bioconductor-genocn
 
 .. conda:recipe:: bioconductor-genocn
    :replaces_section_title:
+   :noindex:
 
    genotyping and copy number study tools
 
@@ -22,12 +23,19 @@ bioconductor-genocn
 
    |downloads_bioconductor-genocn| |docker_bioconductor-genocn|
 
-   :versions: 1.40.0-0, 1.38.0-0, 1.36.0-1, 1.36.0-0, 1.34.0-0
+   :versions:
+      
+      
+
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

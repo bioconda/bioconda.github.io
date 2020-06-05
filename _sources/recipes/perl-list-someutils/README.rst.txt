@@ -8,6 +8,7 @@ perl-list-someutils
 
 .. conda:recipe:: perl-list-someutils
    :replaces_section_title:
+   :noindex:
 
    Provide the stuff missing in List\:\:Util
 
@@ -22,11 +23,18 @@ perl-list-someutils
 
    |downloads_perl-list-someutils| |docker_perl-list-someutils|
 
-   :versions: 0.56-1, 0.56-0, 0.53-0
+   :versions:
+      
+      
+
+      ``0.56-1``,  ``0.56-0``,  ``0.53-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-module-implementation: 

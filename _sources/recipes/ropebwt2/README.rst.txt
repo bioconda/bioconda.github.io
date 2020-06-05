@@ -8,6 +8,7 @@ ropebwt2
 
 .. conda:recipe:: ropebwt2
    :replaces_section_title:
+   :noindex:
 
    Incremental construction of FM\-index for DNA sequences
 
@@ -22,10 +23,17 @@ ropebwt2
 
    |downloads_ropebwt2| |docker_ropebwt2|
 
-   :versions: r187-3, r187-2, r187-1, r187-0
+   :versions:
+      
+      
+
+      ``r187-3``,  ``r187-2``,  ``r187-1``,  ``r187-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

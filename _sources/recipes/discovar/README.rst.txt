@@ -8,6 +8,7 @@ discovar
 
 .. conda:recipe:: discovar
    :replaces_section_title:
+   :noindex:
 
    Suitable for variant calling with reference and de novo assembly of small genomes.
 
@@ -23,9 +24,16 @@ discovar
 
    |downloads_discovar| |docker_discovar|
 
-   :versions: 52488-1, 52488-0
+   :versions:
+      
+      
+
+      ``52488-1``,  ``52488-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

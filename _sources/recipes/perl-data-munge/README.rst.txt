@@ -8,6 +8,7 @@ perl-data-munge
 
 .. conda:recipe:: perl-data-munge
    :replaces_section_title:
+   :noindex:
 
    various utility functions
 
@@ -22,9 +23,16 @@ perl-data-munge
 
    |downloads_perl-data-munge| |docker_perl-data-munge|
 
-   :versions: 0.097-0
+   :versions:
+      
+      
+
+      ``0.097-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-exporter: 
    :requirements:

@@ -8,6 +8,7 @@ mirtrace
 
 .. conda:recipe:: mirtrace
    :replaces_section_title:
+   :noindex:
 
    miRTrace is a new quality control and taxonomic tracing tool developed specifically for small RNA sequencing data \(sRNA\-Seq\). 
    Each sample is characterized by profiling sequencing quality\, read length\, sequencing depth and miRNA complexity and also the 
@@ -30,9 +31,16 @@ mirtrace
 
    |downloads_mirtrace| |docker_mirtrace|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends openjdk: >=8.0.144
+   :depends openjdk: ``>=8.0.144``
    :depends python: 
    :requirements:
 

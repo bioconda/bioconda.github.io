@@ -8,6 +8,7 @@ funnel
 
 .. conda:recipe:: funnel
    :replaces_section_title:
+   :noindex:
 
    Funnel is a toolkit for distributed task execution via a simple\, standard API
 
@@ -22,7 +23,14 @@ funnel
 
    |downloads_funnel| |docker_funnel|
 
-   :versions: 0.9.0-0, 0.5.0-1, 0.5.0-0
+   :versions:
+      
+      
+
+      ``0.9.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
+
+      
+
    
    :requirements:
 

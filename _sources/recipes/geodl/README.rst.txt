@@ -8,6 +8,7 @@ geodl
 
 .. conda:recipe:: geodl
    :replaces_section_title:
+   :noindex:
 
    Download FASTQ files from GEO\-NCBI and ENA with ease
 
@@ -22,7 +23,14 @@ geodl
 
    |downloads_geodl| |docker_geodl|
 
-   :versions: 1.0b5.1-1, 1.0b5.1-0, 1.0b1-0
+   :versions:
+      
+      
+
+      ``1.0b5.1-1``,  ``1.0b5.1-0``,  ``1.0b1-0``
+
+      
+
    
    :depends beautifulsoup4: 
    :depends colorama: 

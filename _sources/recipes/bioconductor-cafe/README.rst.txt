@@ -8,6 +8,7 @@ bioconductor-cafe
 
 .. conda:recipe:: bioconductor-cafe
    :replaces_section_title:
+   :noindex:
 
    Chromosmal Aberrations Finder in Expression data
 
@@ -22,16 +23,23 @@ bioconductor-cafe
 
    |downloads_bioconductor-cafe| |docker_bioconductor-cafe|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-annotate: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biovizbase: >=1.36.0,<1.37.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-ggbio: >=1.36.0,<1.37.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biovizbase: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-ggbio: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :requirements:

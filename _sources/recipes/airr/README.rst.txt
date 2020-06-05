@@ -8,6 +8,7 @@ airr
 
 .. conda:recipe:: airr
    :replaces_section_title:
+   :noindex:
 
    AIRR Community Data Representation Standard reference library for antibody and TCR sequencing data. Citations\: AIRR standards \<doi\:10.5281\/zenodo.1185414\>.
 
@@ -22,12 +23,19 @@ airr
 
    |downloads_airr| |docker_airr|
 
-   :versions: 1.3.0-0, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.3.0-0``,  ``1.2.1-0``
+
+      
+
    
-   :depends pandas: >=0.18.0
+   :depends pandas: ``>=0.18.0``
    :depends python: 
-   :depends pyyaml: >=3.12
-   :depends yamlordereddictloader: >=0.4.0
+   :depends pyyaml: ``>=3.12``
+   :depends yamlordereddictloader: ``>=0.4.0``
    :requirements:
 
    .. rubric:: Installation

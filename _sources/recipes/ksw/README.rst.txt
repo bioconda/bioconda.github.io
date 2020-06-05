@@ -8,6 +8,7 @@ ksw
 
 .. conda:recipe:: ksw
    :replaces_section_title:
+   :noindex:
 
    Ksw\: \(interactive\) smith\-waterman in C
 
@@ -23,11 +24,18 @@ ksw
 
    |downloads_ksw| |docker_ksw|
 
-   :versions: 0.2.1-0, 0.2.0-0, 0.1.0a-0, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0a-0``,  ``0.0.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

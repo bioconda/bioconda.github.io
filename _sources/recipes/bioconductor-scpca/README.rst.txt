@@ -8,6 +8,7 @@ bioconductor-scpca
 
 .. conda:recipe:: bioconductor-scpca
    :replaces_section_title:
+   :noindex:
 
    Sparse Contrastive Principal Component Analysis
 
@@ -22,11 +23,18 @@ bioconductor-scpca
 
    |downloads_bioconductor-scpca| |docker_bioconductor-scpca|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
    :depends r-assertthat: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-dplyr: 
    :depends r-elasticnet: 

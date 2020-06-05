@@ -8,6 +8,7 @@ bioconductor-unifiedwmwqpcr
 
 .. conda:recipe:: bioconductor-unifiedwmwqpcr
    :replaces_section_title:
+   :noindex:
 
    Unified Wilcoxon\-Mann Whitney Test for testing differential expression in qPCR data
 
@@ -23,11 +24,18 @@ bioconductor-unifiedwmwqpcr
 
    |downloads_bioconductor-unifiedwmwqpcr| |docker_bioconductor-unifiedwmwqpcr|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-htqpcr: >=1.42.0,<1.43.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-htqpcr: ``>=1.42.0,<1.43.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-hdf5array
 
 .. conda:recipe:: bioconductor-hdf5array
    :replaces_section_title:
+   :noindex:
 
    HDF5 backend for DelayedArray objects
 
@@ -23,18 +24,25 @@ bioconductor-hdf5array
 
    |downloads_bioconductor-hdf5array| |docker_bioconductor-hdf5array|
 
-   :versions: 1.16.0-0, 1.14.0-0, 1.12.1-0, 1.10.1-0, 1.8.1-0, 1.6.0-0
+   :versions:
+      
+      
+
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-delayedarray: >=0.14.0,<0.15.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-rhdf5: >=2.32.0,<2.33.0
-   :depends bioconductor-rhdf5lib: >=1.10.0,<1.11.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rhdf5: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rhdf5lib: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrix: 
    :requirements:
 

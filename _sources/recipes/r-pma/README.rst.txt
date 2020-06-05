@@ -8,6 +8,7 @@ r-pma
 
 .. conda:recipe:: r-pma
    :replaces_section_title:
+   :noindex:
 
    Performs Penalized Multivariate Analysis\: a penalized matrix decomposition\, sparse principal components analysis\, and sparse canonical correlation analysis\, described in the following papers\: \(1\) Witten\, Tibshirani and Hastie \(2009\) A penalized matrix decomposition\, with applications to sparse principal components and canonical correlation analysis. Biostatistics 10\(3\)\:515\-534. \(2\) Witten and Tibshirani \(2009\) Extensions of sparse canonical correlation analysis\, with applications to genomic data. Statistical Applications in Genetics and Molecular Biology 8\(1\)\: Article 28.
 
@@ -22,12 +23,27 @@ r-pma
 
    |downloads_r-pma| |docker_r-pma|
 
-   :versions: 1.2.1-2, 1.2.1-1, 1.2.1-0, 1.2-0, 1.1-1, 1.1-0, 1.0.11-4, 1.0.11-3, 1.0.11-2, 1.0.11-1, 1.0.11-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2-0</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0.11-4</code>,  <code>1.0.11-3</code>,  <code>1.0.11-2</code>,  </span></summary>
+      
+
+      ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0.11-4``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bioconductor-impute: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

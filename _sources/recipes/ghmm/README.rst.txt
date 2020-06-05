@@ -8,6 +8,7 @@ ghmm
 
 .. conda:recipe:: ghmm
    :replaces_section_title:
+   :noindex:
 
    General Hidden Markov Model library \(GHMM\) is a freely available C library implementing efficient data structures and algorithms for basic and extended HMMs with discrete and continous emissions
 
@@ -22,11 +23,18 @@ ghmm
 
    |downloads_ghmm| |docker_ghmm|
 
-   :versions: 0.9-1, 0.9-0
+   :versions:
+      
+      
+
+      ``0.9-1``,  ``0.9-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libxml2: >=2.9.8,<2.10.0a0
-   :depends python: >=2.7,<2.8.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libxml2: ``>=2.9.8,<2.10.0a0``
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends swig: 
    :requirements:
 

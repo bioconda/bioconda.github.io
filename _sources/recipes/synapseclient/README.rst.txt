@@ -8,6 +8,7 @@ synapseclient
 
 .. conda:recipe:: synapseclient
    :replaces_section_title:
+   :noindex:
 
    Python client for Synapse
 
@@ -24,14 +25,21 @@ synapseclient
 
    |downloads_synapseclient| |docker_synapseclient|
 
-   :versions: 2.0.0-0, 1.9.4-0, 1.9.3-0, 1.7.5-1, 1.7.5-0, 1.7.1-0, 1.6.2-0, 1.5-0
+   :versions:
+      
+      
+
+      ``2.0.0-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.7.5-1``,  ``1.7.5-0``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.5-0``
+
+      
+
    
    :depends backports.csv: 
-   :depends deprecated: >=1.2.3
+   :depends deprecated: ``>=1.2.3``
    :depends future: 
-   :depends keyring: >=12.0.2
+   :depends keyring: ``>=12.0.2``
    :depends python: 
-   :depends requests: >=1.2
+   :depends requests: ``>=1.2``
    :depends six: 
    :requirements:
 

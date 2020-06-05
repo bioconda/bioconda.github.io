@@ -8,6 +8,7 @@ mp3treesim
 
 .. conda:recipe:: mp3treesim
    :replaces_section_title:
+   :noindex:
 
    Triplet\-based similarity score for fully multi\-labeled trees with poly\-occurring labels
 
@@ -22,12 +23,19 @@ mp3treesim
 
    |downloads_mp3treesim| |docker_mp3treesim|
 
-   :versions: 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``
+
+      
+
    
-   :depends networkx: >=2.4
-   :depends numpy: >=1.18.1
-   :depends pygraphviz: >=1.5
-   :depends python: >=3.6
+   :depends networkx: ``>=2.4``
+   :depends numpy: ``>=1.18.1``
+   :depends pygraphviz: ``>=1.5``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

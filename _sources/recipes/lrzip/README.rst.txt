@@ -8,6 +8,7 @@ lrzip
 
 .. conda:recipe:: lrzip
    :replaces_section_title:
+   :noindex:
 
    Long Range ZIP or Lzma RZIP. This is a compression program optimised for large files. The larger the file and the more memory you have\, the better the compression advantage this will provide\, especially once the files are larger than 100MB. The advantage can be chosen to be either size \(much smaller than bzip2\) or speed \(much faster than bzip2\).
 
@@ -22,12 +23,19 @@ lrzip
 
    |downloads_lrzip| |docker_lrzip|
 
-   :versions: 0.621-1, 0.621-0
+   :versions:
+      
+      
+
+      ``0.621-1``,  ``0.621-0``
+
+      
+
    
-   :depends bzip2: >=1.0.6,<2.0a0
-   :depends libstdcxx-ng: >=4.9
-   :depends lzo: >=2.10,<3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends bzip2: ``>=1.0.6,<2.0a0``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends lzo: ``>=2.10,<3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

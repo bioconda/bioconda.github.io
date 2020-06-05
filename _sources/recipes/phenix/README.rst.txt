@@ -8,6 +8,7 @@ phenix
 
 .. conda:recipe:: phenix
    :replaces_section_title:
+   :noindex:
 
    Public Health England SNP calling pipeline
 
@@ -23,7 +24,14 @@ phenix
 
    |downloads_phenix| |docker_phenix|
 
-   :versions: 1.4.1a-0
+   :versions:
+      
+      
+
+      ``1.4.1a-0``
+
+      
+
    
    :depends argparse: 
    :depends bcftools: 
@@ -38,7 +46,7 @@ phenix
    :depends picard: 
    :depends psycopg2: 
    :depends pysam: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends pyvcf: 
    :depends pyyaml: 
    :depends samtools: 

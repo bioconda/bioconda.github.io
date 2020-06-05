@@ -8,6 +8,7 @@ bioconductor-sparsenetgls
 
 .. conda:recipe:: bioconductor-sparsenetgls
    :replaces_section_title:
+   :noindex:
 
    Using Gaussian graphical structue learning estimation in generalized least squared regression for multivariate normal regression
 
@@ -22,9 +23,16 @@ bioconductor-sparsenetgls
 
    |downloads_bioconductor-sparsenetgls| |docker_bioconductor-sparsenetgls|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.2.0-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-glmnet: 
    :depends r-huge: 
    :depends r-mass: 

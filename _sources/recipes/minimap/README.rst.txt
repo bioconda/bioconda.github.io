@@ -8,6 +8,7 @@ minimap
 
 .. conda:recipe:: minimap
    :replaces_section_title:
+   :noindex:
 
    Experimental tool to find approximate mapping positions between long sequences
 
@@ -22,7 +23,14 @@ minimap
 
    |downloads_minimap| |docker_minimap|
 
-   :versions: 0.2-0, 0.2_r124-3, 0.2_r124-2, 0.2_r124-1, 0.2_r124-0
+   :versions:
+      
+      
+
+      ``0.2-0``,  ``0.2_r124-3``,  ``0.2_r124-2``,  ``0.2_r124-1``,  ``0.2_r124-0``
+
+      
+
    
    :depends libgcc: 
    :requirements:

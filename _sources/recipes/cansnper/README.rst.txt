@@ -8,6 +8,7 @@ cansnper
 
 .. conda:recipe:: cansnper
    :replaces_section_title:
+   :noindex:
 
    A hierarchical genotype classifier of clonal pathogens.
 
@@ -22,13 +23,20 @@ cansnper
 
    |downloads_cansnper| |docker_cansnper|
 
-   :versions: 1.0.10-1, 1.0.10-0, 1.0.8-1, 1.0.8-0
+   :versions:
+      
+      
+
+      ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.8-1``,  ``1.0.8-0``
+
+      
+
    
    :depends ete2: 
    :depends numpy: 
    :depends progressivemauve: 
-   :depends pyqt: 4.*
-   :depends python: <3
+   :depends pyqt: ``4.*``
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ curesim
 
 .. conda:recipe:: curesim
    :replaces_section_title:
+   :noindex:
 
    CuReSim \(Customized Read Simulator\) is a customized tool which generates synthetic New\-Generation Sequencing reads\, supporting read simulation for major letter\-base sequencing platforms..
 
@@ -22,10 +23,17 @@ curesim
 
    |downloads_curesim| |docker_curesim|
 
-   :versions: 1.3-2, 1.3-1, 1.3-0
+   :versions:
+      
+      
+
+      ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+
+      
+
    
    :depends coreutils: 
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

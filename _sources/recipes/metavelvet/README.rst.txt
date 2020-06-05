@@ -8,6 +8,7 @@ metavelvet
 
 .. conda:recipe:: metavelvet
    :replaces_section_title:
+   :noindex:
 
    MetaVelvet \: An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
 
@@ -22,13 +23,20 @@ metavelvet
 
    |downloads_metavelvet| |docker_metavelvet|
 
-   :versions: 1.2.02-2, 1.2.02-1, 1.1.01-1, 1.1.01-0
+   :versions:
+      
+      
+
+      ``1.2.02-2``,  ``1.2.02-1``,  ``1.1.01-1``,  ``1.1.01-0``
+
+      
+
    
    :depends libgcc: 
-   :depends perl: 5.22.0*
+   :depends perl: ``5.22.0*``
    :depends perl-module-build: 
    :depends velvet: 
-   :depends zlib: 1.2.11*
+   :depends zlib: ``1.2.11*``
    :requirements:
 
    .. rubric:: Installation

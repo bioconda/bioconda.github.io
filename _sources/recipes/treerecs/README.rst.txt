@@ -8,6 +8,7 @@ treerecs
 
 .. conda:recipe:: treerecs
    :replaces_section_title:
+   :noindex:
 
    correct\, rearrange and \(re\-\)root gene trees with regard to a given species tree
 
@@ -22,11 +23,18 @@ treerecs
 
    |downloads_treerecs| |docker_treerecs|
 
-   :versions: 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-0``
+
+      
+
    
-   :depends _openmp_mutex: >=4.5
-   :depends libgcc-ng: >=7.5.0
-   :depends libstdcxx-ng: >=7.5.0
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ perl-file-fetch
 
 .. conda:recipe:: perl-file-fetch
    :replaces_section_title:
+   :noindex:
 
    Generic file fetching code
 
@@ -22,9 +23,16 @@ perl-file-fetch
 
    |downloads_perl-file-fetch| |docker_perl-file-fetch|
 
-   :versions: 0.56-0, 0.48-4, 0.48-3, 0.48-2, 0.48-1, 0.48-0
+   :versions:
+      
+      
+
+      ``0.56-0``,  ``0.48-4``,  ``0.48-3``,  ``0.48-2``,  ``0.48-1``,  ``0.48-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-file-path: 
    :depends perl-ipc-cmd: 
    :depends perl-locale-maketext-simple: 

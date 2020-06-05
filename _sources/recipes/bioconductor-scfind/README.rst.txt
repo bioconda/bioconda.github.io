@@ -8,6 +8,7 @@ bioconductor-scfind
 
 .. conda:recipe:: bioconductor-scfind
    :replaces_section_title:
+   :noindex:
 
    A search tool for single cell RNA\-seq data by gene lists
 
@@ -22,19 +23,26 @@ bioconductor-scfind
 
    |downloads_bioconductor-scfind| |docker_bioconductor-scfind|
 
-   :versions: 1.9.0-0, 1.8.0-0, 1.6.0-1, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-singlecellexperiment: >=1.10.0,<1.11.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bit: 
    :depends r-dplyr: 
    :depends r-hash: 
-   :depends r-rcpp: >=0.12.12
+   :depends r-rcpp: ``>=0.12.12``
    :depends r-reshape2: 
    :requirements:
 

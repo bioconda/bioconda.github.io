@@ -8,6 +8,7 @@ perl-test-mockmodule
 
 .. conda:recipe:: perl-test-mockmodule
    :replaces_section_title:
+   :noindex:
 
    Override subroutines in a module for unit testing
 
@@ -22,9 +23,16 @@ perl-test-mockmodule
 
    |downloads_perl-test-mockmodule| |docker_perl-test-mockmodule|
 
-   :versions: 0.13-2, 0.13-1, 0.13-0
+   :versions:
+      
+      
+
+      ``0.13-2``,  ``0.13-1``,  ``0.13-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-super: 
    :requirements:

@@ -8,6 +8,7 @@ pgx-variant-tools
 
 .. conda:recipe:: pgx-variant-tools
    :replaces_section_title:
+   :noindex:
 
    This library contains various methods and utilities for the calling and manipulation of normalized variants.
 
@@ -22,14 +23,21 @@ pgx-variant-tools
 
    |downloads_pgx-variant-tools| |docker_pgx-variant-tools|
 
-   :versions: 0.0.5-0, 0.0.4-0, 0.0.3-0, 0.0.2-2, 0.0.2-1, 0.0.2-0
+   :versions:
+      
+      
+
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-2``,  ``0.0.2-1``,  ``0.0.2-0``
+
+      
+
    
    :depends biopython: 
    :depends click: 
    :depends cyvcf2: 
    :depends numpy: 
    :depends pyinterval: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends python-edlib: 
    :depends requests: 
    :depends suds-jurko: 

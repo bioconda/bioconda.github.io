@@ -8,6 +8,7 @@ rainbow
 
 .. conda:recipe:: rainbow
    :replaces_section_title:
+   :noindex:
 
    Efficient tool for clustering and assembling short reads\, especially for RAD
 
@@ -22,9 +23,16 @@ rainbow
 
    |downloads_rainbow| |docker_rainbow|
 
-   :versions: 2.0.4-3, 2.0.4-2, 2.0.4-0
+   :versions:
+      
+      
+
+      ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends perl: 
    :requirements:
 

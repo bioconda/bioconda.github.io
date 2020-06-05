@@ -8,6 +8,7 @@ bioconductor-metaneighbor
 
 .. conda:recipe:: bioconductor-metaneighbor
    :replaces_section_title:
+   :noindex:
 
    Single cell replicability analysis
 
@@ -22,20 +23,27 @@ bioconductor-metaneighbor
 
    |downloads_bioconductor-metaneighbor| |docker_bioconductor-metaneighbor|
 
-   :versions: 1.8.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-beanplot: >=1.2
-   :depends r-gplots: >=3.0.1
-   :depends r-matrix: >=1.2
-   :depends r-matrixstats: >=0.54
-   :depends r-rcolorbrewer: >=1.1
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-beanplot: ``>=1.2``
+   :depends r-gplots: ``>=3.0.1``
+   :depends r-matrix: ``>=1.2``
+   :depends r-matrixstats: ``>=0.54``
+   :depends r-rcolorbrewer: ``>=1.1``
    :depends r-rcpp: 
    :requirements:
 

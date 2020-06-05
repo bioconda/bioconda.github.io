@@ -8,6 +8,7 @@ perl-package-deprecationmanager
 
 .. conda:recipe:: perl-package-deprecationmanager
    :replaces_section_title:
+   :noindex:
 
    Manage deprecation warnings for your distribution
 
@@ -22,9 +23,16 @@ perl-package-deprecationmanager
 
    |downloads_perl-package-deprecationmanager| |docker_perl-package-deprecationmanager|
 
-   :versions: 0.17-0
+   :versions:
+      
+      
+
+      ``0.17-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-carp: 
    :depends perl-package-stash: 
    :depends perl-params-util: 

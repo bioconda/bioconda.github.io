@@ -8,6 +8,7 @@ hyphy
 
 .. conda:recipe:: hyphy
    :replaces_section_title:
+   :noindex:
 
    An open\-source software package for comparative sequence analysis using stochastic evolutionary models.
 
@@ -25,12 +26,27 @@ hyphy
 
    |downloads_hyphy| |docker_hyphy|
 
-   :versions: 2.5.14-0, 2.5.12-1, 2.5.12-0, 2.5.11-0, 2.5.10-0, 2.5.9-0, 2.5.8-1, 2.5.8-0, 2.5.7-0, 2.5.6-0, 2.5.5-0, 2.5.4-1, 2.5.4-0, 2.5.3-0, 2.5.2-1, 2.5.2-0, 2.5.1-1, 2.5.1-0, 2.5.0-1, 2.5.0-0, 2.3.14-1, 2.3.14-0, 2.3.12-1, 2.3.12-0, 2.3.11-1, 2.3.11-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.5.14-0</code>,  <code>2.5.12-1</code>,  <code>2.5.12-0</code>,  <code>2.5.11-0</code>,  <code>2.5.10-0</code>,  <code>2.5.9-0</code>,  <code>2.5.8-1</code>,  <code>2.5.8-0</code>,  <code>2.5.7-0</code>,  </span></summary>
+      
+
+      ``2.5.14-0``,  ``2.5.12-1``,  ``2.5.12-0``,  ``2.5.11-0``,  ``2.5.10-0``,  ``2.5.9-0``,  ``2.5.8-1``,  ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-1``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.3.14-1``,  ``2.3.14-0``,  ``2.3.12-1``,  ``2.3.12-0``,  ``2.3.11-1``,  ``2.3.11-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends curl: >=7.64.1,<8.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends openmpi: >=4.0.3,<4.1.0a0
+   :depends curl: ``>=7.64.1,<8.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends openmpi: ``>=4.0.3,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

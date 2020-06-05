@@ -8,6 +8,7 @@ r-pctgcdata
 
 .. conda:recipe:: r-pctgcdata
    :replaces_section_title:
+   :noindex:
 
    Provides GC percentage of a 1 kilobase window at a genomic position for different builds of human and mouse genomes.
 
@@ -22,9 +23,16 @@ r-pctgcdata
 
    |downloads_r-pctgcdata| |docker_r-pctgcdata|
 
-   :versions: 0.2.0-3, 0.2.0-2, 0.2.0-1, 0.2.0-0
+   :versions:
+      
+      
+
+      ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

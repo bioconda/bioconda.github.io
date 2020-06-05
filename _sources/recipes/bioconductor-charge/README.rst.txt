@@ -8,6 +8,7 @@ bioconductor-charge
 
 .. conda:recipe:: bioconductor-charge
    :replaces_section_title:
+   :noindex:
 
    CHARGE\: CHromosome Assessment in R from Gene Expression data
 
@@ -22,12 +23,19 @@ bioconductor-charge
 
    |downloads_bioconductor-charge| |docker_bioconductor-charge|
 
-   :versions: 1.7.0-0, 1.6.0-0, 1.4.0-1, 1.2.0-0
+   :versions:
+      
+      
+
+      ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+
    
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-diptest: 
    :depends r-factoextra: 

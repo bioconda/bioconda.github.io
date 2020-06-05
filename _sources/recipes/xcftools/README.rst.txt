@@ -8,6 +8,7 @@ xcftools
 
 .. conda:recipe:: xcftools
    :replaces_section_title:
+   :noindex:
 
    Provides xcf2pnm\, xcf2png\, and xcfinfo binaries
 
@@ -22,11 +23,18 @@ xcftools
 
    |downloads_xcftools| |docker_xcftools|
 
-   :versions: 1.0.7-1, 1.0.7-0
+   :versions:
+      
+      
+
+      ``1.0.7-1``,  ``1.0.7-0``
+
+      
+
    
    :depends gettext: 
    :depends libgcc: 
-   :depends libpng: >=1.2.13,<1.7
+   :depends libpng: ``>=1.2.13,<1.7``
    :requirements:
 
    .. rubric:: Installation

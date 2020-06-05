@@ -8,6 +8,7 @@ spectral_hk
 
 .. conda:recipe:: spectral_hk
    :replaces_section_title:
+   :noindex:
 
    NCGC Spectral HashKey
 
@@ -22,9 +23,16 @@ spectral_hk
 
    |downloads_spectral_hk| |docker_spectral_hk|
 
-   :versions: 0.1-1, 0.1-0
+   :versions:
+      
+      
+
+      ``0.1-1``,  ``0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

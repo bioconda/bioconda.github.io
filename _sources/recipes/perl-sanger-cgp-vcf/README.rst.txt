@@ -8,6 +8,7 @@ perl-sanger-cgp-vcf
 
 .. conda:recipe:: perl-sanger-cgp-vcf
    :replaces_section_title:
+   :noindex:
 
    a set of common perl utilities for generating consistent Vcf headers
 
@@ -22,16 +23,23 @@ perl-sanger-cgp-vcf
 
    |downloads_perl-sanger-cgp-vcf| |docker_perl-sanger-cgp-vcf|
 
-   :versions: 2.2.1-3, 2.2.1-2, 2.2.1-1, 2.2.1-0, 1.3.1-3, 1.3.1-2, 1.3.1-1, 1.3.1-0
+   :versions:
+      
+      
+
+      ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-const-fast: 
    :depends perl-data-uuid: 
    :depends perl-datetime: 
    :depends perl-ipc-system-simple: 
    :depends perl-test-fatal: 
-   :depends perl-vcftools-vcf: 0.1.16
+   :depends perl-vcftools-vcf: ``0.1.16``
    :requirements:
 
    .. rubric:: Installation

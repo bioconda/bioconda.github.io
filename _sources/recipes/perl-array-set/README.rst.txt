@@ -8,6 +8,7 @@ perl-array-set
 
 .. conda:recipe:: perl-array-set
    :replaces_section_title:
+   :noindex:
 
    Perform set operations on arrays
 
@@ -22,9 +23,16 @@ perl-array-set
 
    |downloads_perl-array-set| |docker_perl-array-set|
 
-   :versions: 0.05-0
+   :versions:
+      
+      
+
+      ``0.05-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-tie-ixhash: 
    :requirements:
 

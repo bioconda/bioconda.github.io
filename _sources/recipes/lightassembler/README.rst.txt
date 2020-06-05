@@ -8,6 +8,7 @@ lightassembler
 
 .. conda:recipe:: lightassembler
    :replaces_section_title:
+   :noindex:
 
    Lightweight assembly algorithm designed to be executed on a desktop machine. It uses a pair of cache oblivious Bloom filters\, one holding a uniform sample of g\-spaced sequenced k\-mers and the other holding k\-mers classified as likely correct\, using a simple statistical test.
 
@@ -23,11 +24,18 @@ lightassembler
 
    |downloads_lightassembler| |docker_lightassembler|
 
-   :versions: 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :depends libtool: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

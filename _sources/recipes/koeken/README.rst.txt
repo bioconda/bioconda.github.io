@@ -8,6 +8,7 @@ koeken
 
 .. conda:recipe:: koeken
    :replaces_section_title:
+   :noindex:
 
    A Linear Discriminant Analysis \(LEfSe\) wrapper.
 
@@ -22,13 +23,20 @@ koeken
 
    |downloads_koeken| |docker_koeken|
 
-   :versions: 0.2.6-1, 0.2.6-0
+   :versions:
+      
+      
+
+      ``0.2.6-1``,  ``0.2.6-0``
+
+      
+
    
    :depends biopython: 
    :depends matplotlib: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends qiime: 
    :depends r-coin: 
    :depends r-gtools: 

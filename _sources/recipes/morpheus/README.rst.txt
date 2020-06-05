@@ -8,6 +8,7 @@ morpheus
 
 .. conda:recipe:: morpheus
    :replaces_section_title:
+   :noindex:
 
    mass spectrometry–based proteomics database search algorithm
 
@@ -23,9 +24,16 @@ morpheus
 
    |downloads_morpheus| |docker_morpheus|
 
-   :versions: 272-1, 272-0, 255-0
+   :versions:
+      
+      
+
+      ``272-1``,  ``272-0``,  ``255-0``
+
+      
+
    
-   :depends mono: >=4.0.0
+   :depends mono: ``>=4.0.0``
    :requirements:
 
    .. rubric:: Installation

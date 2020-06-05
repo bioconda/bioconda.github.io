@@ -8,6 +8,7 @@ biobb_common
 
 .. conda:recipe:: biobb_common
    :replaces_section_title:
+   :noindex:
 
    Biobb\_common is the base package required to use the biobb packages.
 
@@ -48,10 +49,25 @@ biobb_common
 
    |downloads_biobb_common| |docker_biobb_common|
 
-   :versions: 3.0.0-0, 2.0.1-0, 2.0.0-0, 1.1.6-0, 0.1.5-0, 0.1.4-0, 0.1.2-0, 0.0.8-0, 0.0.6-0, 0.0.5-0, 0.0.4-0, 0.0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.2-0</code>,  <code>0.0.8-0</code>,  <code>0.0.6-0</code>,  </span></summary>
+      
+
+      ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends biopython: 1.76
-   :depends python: 3.7.*
+   :depends biopython: ``1.76``
+   :depends python: ``3.7.*``
    :depends pyyaml: 
    :depends requests: 
    :requirements:

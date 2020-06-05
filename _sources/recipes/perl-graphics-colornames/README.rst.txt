@@ -8,6 +8,7 @@ perl-graphics-colornames
 
 .. conda:recipe:: perl-graphics-colornames
    :replaces_section_title:
+   :noindex:
 
    defines RGB values for common color names
 
@@ -22,9 +23,16 @@ perl-graphics-colornames
 
    |downloads_perl-graphics-colornames| |docker_perl-graphics-colornames|
 
-   :versions: 2.11-0
+   :versions:
+      
+      
+
+      ``2.11-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-exporter: 

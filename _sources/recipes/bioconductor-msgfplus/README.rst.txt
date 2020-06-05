@@ -8,6 +8,7 @@ bioconductor-msgfplus
 
 .. conda:recipe:: bioconductor-msgfplus
    :replaces_section_title:
+   :noindex:
 
    An interface between R and MS\-GF\+
 
@@ -22,12 +23,19 @@ bioconductor-msgfplus
 
    |downloads_bioconductor-msgfplus| |docker_bioconductor-msgfplus|
 
-   :versions: 1.18.0-0, 1.16.1-0
+   :versions:
+      
+      
+
+      ``1.18.0-0``,  ``1.16.1-0``
+
+      
+
    
-   :depends bioconductor-mzid: >=1.22.0,<1.23.0
-   :depends bioconductor-protgenerics: >=1.16.0,<1.17.0
-   :depends openjdk: 8.*
-   :depends r-base: >=3.5.1,<3.5.2.0a0
+   :depends bioconductor-mzid: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-protgenerics: ``>=1.16.0,<1.17.0``
+   :depends openjdk: ``8.*``
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
    :requirements:
 
    .. rubric:: Installation

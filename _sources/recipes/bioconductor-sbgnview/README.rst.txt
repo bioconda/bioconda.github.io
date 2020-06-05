@@ -8,6 +8,7 @@ bioconductor-sbgnview
 
 .. conda:recipe:: bioconductor-sbgnview
    :replaces_section_title:
+   :noindex:
 
    Overlay omics data onto SBGN pathway diagram
 
@@ -22,13 +23,20 @@ bioconductor-sbgnview
 
    |downloads_bioconductor-sbgnview| |docker_bioconductor-sbgnview|
 
-   :versions: 1.2.0-0, 1.0.0-1
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-1``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-pathview: >=1.28.0,<1.29.0
-   :depends bioconductor-sbgnview.data: >=1.2.0,<1.3.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-pathview: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sbgnview.data: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-knitr: 
    :depends r-rdpack: 

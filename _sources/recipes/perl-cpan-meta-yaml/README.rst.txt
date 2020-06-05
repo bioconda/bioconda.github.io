@@ -8,6 +8,7 @@ perl-cpan-meta-yaml
 
 .. conda:recipe:: perl-cpan-meta-yaml
    :replaces_section_title:
+   :noindex:
 
    Read and write a subset of YAML for CPAN Meta files
 
@@ -22,9 +23,16 @@ perl-cpan-meta-yaml
 
    |downloads_perl-cpan-meta-yaml| |docker_perl-cpan-meta-yaml|
 
-   :versions: 0.018-0
+   :versions:
+      
+      
+
+      ``0.018-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-carp: 
    :depends perl-exporter: 
    :requirements:

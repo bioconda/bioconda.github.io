@@ -8,6 +8,7 @@ perl-digest-hmac
 
 .. conda:recipe:: perl-digest-hmac
    :replaces_section_title:
+   :noindex:
 
    Keyed\-Hashing for Message Authentication
 
@@ -22,9 +23,16 @@ perl-digest-hmac
 
    |downloads_perl-digest-hmac| |docker_perl-digest-hmac|
 
-   :versions: 1.03-3, 1.03-2, 1.03-1, 1.03-0
+   :versions:
+      
+      
+
+      ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

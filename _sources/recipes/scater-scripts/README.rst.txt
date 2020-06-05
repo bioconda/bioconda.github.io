@@ -8,6 +8,7 @@ scater-scripts
 
 .. conda:recipe:: scater-scripts
    :replaces_section_title:
+   :noindex:
 
    A set of wrappers for individual components of the Scater package. Functions R packages are hard to call when building workflows outside of R\, so this package adds a set of simple wrappers with robust argument parsing. Intermediate steps are currently mainly serialized R objects\, but the ultimate objective is to have language\-agnostic intermediate formats allowing composite workflows using a variety of software packages.
 
@@ -22,10 +23,17 @@ scater-scripts
 
    |downloads_scater-scripts| |docker_scater-scripts|
 
-   :versions: 0.0.5-1, 0.0.5-0
+   :versions:
+      
+      
+
+      ``0.0.5-1``,  ``0.0.5-0``
+
+      
+
    
    :depends bioconductor-biobase: 
-   :depends bioconductor-scater: >=1.10.0,<1.11.0
+   :depends bioconductor-scater: ``>=1.10.0,<1.11.0``
    :depends bioconductor-singlecellexperiment-scripts: 
    :depends r-optparse: 
    :depends r-rtsne: 

@@ -8,6 +8,7 @@ prophane
 
 .. conda:recipe:: prophane
    :replaces_section_title:
+   :noindex:
 
    Annotate your metaproteomic search results
 
@@ -22,13 +23,20 @@ prophane
 
    |downloads_prophane| |docker_prophane|
 
-   :versions: 4.0.5-0, 4.0.3-0, 4.0.2-0
+   :versions:
+      
+      
+
+      ``4.0.5-0``,  ``4.0.3-0``,  ``4.0.2-0``
+
+      
+
    
    :depends biopython: 
    :depends gitpython: 
    :depends pandas: 
    :depends pytools: 
-   :depends snakemake: >=5.7
+   :depends snakemake: ``>=5.7``
    :requirements:
 
    .. rubric:: Installation

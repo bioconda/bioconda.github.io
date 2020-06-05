@@ -8,6 +8,7 @@ bioconductor-roleswitch
 
 .. conda:recipe:: bioconductor-roleswitch
    :replaces_section_title:
+   :noindex:
 
    Infer miRNA\-mRNA interactions using paired expression data from a single sample
 
@@ -23,13 +24,20 @@ bioconductor-roleswitch
 
    |downloads_bioconductor-roleswitch| |docker_bioconductor-roleswitch|
 
-   :versions: 1.25.0-0, 1.24.0-0, 1.22.0-1, 1.20.0-0, 1.18.0-0, 1.16.0-0, 1.14.0-0
+   :versions:
+      
+      
+
+      ``1.25.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biomart: >=2.44.0,<2.45.0
-   :depends bioconductor-biostrings: >=2.56.0,<2.57.0
-   :depends bioconductor-microrna: >=1.46.0,<1.47.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-microrna: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-plotrix: 
    :depends r-pracma: 

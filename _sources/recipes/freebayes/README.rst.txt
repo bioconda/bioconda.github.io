@@ -8,6 +8,7 @@ freebayes
 
 .. conda:recipe:: freebayes
    :replaces_section_title:
+   :noindex:
 
    Bayesian haplotype\-based polymorphism discovery and genotyping
 
@@ -23,17 +24,32 @@ freebayes
 
    |downloads_freebayes| |docker_freebayes|
 
-   :versions: 1.3.2-1, 1.3.2-0, 1.3.1-0, 1.2.0-4, 1.2.0-3, 1.2.0-2, 1.2.0-0, 1.1.0.46-5, 1.1.0.46-4, 1.1.0.46-3, 1.1.0.46-2, 1.1.0.46-1, 1.1.0.46-0, 1.1.0-3, 1.1.0-2, 1.1.0-1, 1.1.0-0, 1.0.2.29-2, 1.0.2.29-1, 1.0.2.29-0, 1.0.2-0, 1.0.1-0, 0.9.21.26-0, 0.9.21.7-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-4</code>,  <code>1.2.0-3</code>,  <code>1.2.0-2</code>,  <code>1.2.0-0</code>,  <code>1.1.0.46-5</code>,  <code>1.1.0.46-4</code>,  </span></summary>
+      
+
+      ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-0``,  ``1.1.0.46-5``,  ``1.1.0.46-4``,  ``1.1.0.46-3``,  ``1.1.0.46-2``,  ``1.1.0.46-1``,  ``1.1.0.46-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2.29-2``,  ``1.0.2.29-1``,  ``1.0.2.29-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.21.26-0``,  ``0.9.21.7-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends bzip2: >=1.0.8,<2.0a0
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends parallel: 
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends xz: >=5.2.5,<5.3.0a0
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-geneplast
 
 .. conda:recipe:: bioconductor-geneplast
    :replaces_section_title:
+   :noindex:
 
    Evolutionary and plasticity analysis of orthologous groups
 
@@ -23,10 +24,17 @@ bioconductor-geneplast
 
    |downloads_bioconductor-geneplast| |docker_bioconductor-geneplast|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.3-0, 1.10.0-0, 1.8.0-0, 1.6.2-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
+
+      
+
    
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-igraph: 
    :depends r-snow: 

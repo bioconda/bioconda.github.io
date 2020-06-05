@@ -8,6 +8,7 @@ bioconductor-splots
 
 .. conda:recipe:: bioconductor-splots
    :replaces_section_title:
+   :noindex:
 
    Visualization of high\-throughput assays in microtitre plate or slide format
 
@@ -23,9 +24,16 @@ bioconductor-splots
 
    |downloads_bioconductor-splots| |docker_bioconductor-splots|
 
-   :versions: 1.54.0-0, 1.52.0-0, 1.50.0-1, 1.50.0-0, 1.48.0-0, 1.46.0-0, 1.44.0-0, 1.42.0-0
+   :versions:
+      
+      
+
+      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcolorbrewer: 
    :requirements:
 

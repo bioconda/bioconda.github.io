@@ -8,6 +8,7 @@ bioconductor-shdz.db
 
 .. conda:recipe:: bioconductor-shdz.db
    :replaces_section_title:
+   :noindex:
 
    SHDZ http\:\/\/genome\-www5.stanford.edu\/ Annotation Data \(SHDZ\)
 
@@ -22,12 +23,19 @@ bioconductor-shdz.db
 
    |downloads_bioconductor-shdz.db| |docker_bioconductor-shdz.db|
 
-   :versions: 3.2.3-4, 3.2.3-3, 3.2.3-2, 3.2.3-0
+   :versions:
+      
+      
+
+      ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-0``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-org.hs.eg.db: >=3.11.0,<3.12.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ inforna
 
 .. conda:recipe:: inforna
    :replaces_section_title:
+   :noindex:
 
    A server for the design of RNA sequences that fold into a given pseudo\-knot free RNA secondary structure.
 
@@ -23,9 +24,16 @@ inforna
 
    |downloads_inforna| |docker_inforna|
 
-   :versions: 2.1.2-2, 2.1.2-0
+   :versions:
+      
+      
+
+      ``2.1.2-2``,  ``2.1.2-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :depends viennarna: 
    :requirements:
 

@@ -8,6 +8,7 @@ pylca
 
 .. conda:recipe:: pylca
    :replaces_section_title:
+   :noindex:
 
    Lowest common ancestor \(LCA\) algorithm implementation in python
 
@@ -25,7 +26,14 @@ pylca
 
    |downloads_pylca| |docker_pylca|
 
-   :versions: 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
    
    :depends python: 
    :requirements:

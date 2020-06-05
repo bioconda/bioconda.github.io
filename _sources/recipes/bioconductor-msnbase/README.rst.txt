@@ -8,6 +8,7 @@ bioconductor-msnbase
 
 .. conda:recipe:: bioconductor-msnbase
    :replaces_section_title:
+   :noindex:
 
    Base Functions and Classes for Mass Spectrometry and Proteomics
 
@@ -23,30 +24,37 @@ bioconductor-msnbase
 
    |downloads_bioconductor-msnbase| |docker_bioconductor-msnbase|
 
-   :versions: 2.14.1-0, 2.12.0-0, 2.10.1-0, 2.8.3-0, 2.8.2-0, 2.4.0-1, 2.4.0-0, 2.2.0-0
+   :versions:
+      
+      
+
+      ``2.14.1-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
+
+      
+
    
-   :depends bioconductor-affy: >=1.66.0,<1.67.0
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-biocparallel: >=1.22.0,<1.23.0
-   :depends bioconductor-impute: >=1.62.0,<1.63.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-mzid: >=1.26.0,<1.27.0
-   :depends bioconductor-mzr: >=2.22.0,<2.23.0
-   :depends bioconductor-pcamethods: >=1.80.0,<1.81.0
-   :depends bioconductor-preprocesscore: >=1.50.0,<1.51.0
-   :depends bioconductor-protgenerics: >=1.20.0,<1.21.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends bioconductor-vsn: >=3.56.0,<3.57.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-mzid: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-pcamethods: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-protgenerics: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-digest: 
    :depends r-ggplot2: 
    :depends r-lattice: 
-   :depends r-maldiquant: >=1.16
+   :depends r-maldiquant: ``>=1.16``
    :depends r-mass: 
    :depends r-plyr: 
    :depends r-rcpp: 

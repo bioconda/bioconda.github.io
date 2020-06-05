@@ -8,6 +8,7 @@ perl-html-tagset
 
 .. conda:recipe:: perl-html-tagset
    :replaces_section_title:
+   :noindex:
 
    data tables useful in parsing HTML
 
@@ -22,9 +23,16 @@ perl-html-tagset
 
    |downloads_perl-html-tagset| |docker_perl-html-tagset|
 
-   :versions: 3.20-3, 3.20-2, 3.20-1, 3.20-0
+   :versions:
+      
+      
+
+      ``3.20-3``,  ``3.20-2``,  ``3.20-1``,  ``3.20-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

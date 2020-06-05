@@ -8,6 +8,7 @@ motus
 
 .. conda:recipe:: motus
    :replaces_section_title:
+   :noindex:
 
    Marker gene\-based OTU \(mOTU\) profiling
 
@@ -24,11 +25,26 @@ motus
 
    |downloads_motus| |docker_motus|
 
-   :versions: 2.5.1-0, 2.5.0-0, 2.1.1-3, 2.1.0-2, 2.1.0-1, 2.0.1-2, 2.0.1-1, 2.0.1-0, 2.0.0-0, 1.0-1, 1.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.1.1-3</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+      
+
+      ``2.5.1-0``,  ``2.5.0-0``,  ``2.1.1-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0-1``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends bwa: 
-   :depends metasnv: 1.0.3.*
-   :depends python: >3
+   :depends metasnv: ``1.0.3.*``
+   :depends python: ``>3``
    :depends samtools: 
    :requirements:
 

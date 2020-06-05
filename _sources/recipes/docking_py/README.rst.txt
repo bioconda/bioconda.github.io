@@ -8,6 +8,7 @@ docking_py
 
 .. conda:recipe:: docking_py
    :replaces_section_title:
+   :noindex:
 
    Docking\_py is a python library allowing a simplified use of the Smina\, vina\, qvina2 and qvinaw docking software. Docking\_py can be easily automatize and scripted.
 
@@ -25,15 +26,22 @@ docking_py
 
    |downloads_docking_py| |docker_docking_py|
 
-   :versions: 0.2.3-0
+   :versions:
+      
+      
+
+      ``0.2.3-0``
+
+      
+
    
    :depends autodock-vina: 
-   :depends mgltools: 1.5.6.*
+   :depends mgltools: ``1.5.6.*``
    :depends numpy: 
    :depends os_command_py: 
    :depends pdb2pqr_htmd_propka30: 
    :depends pdb_manip_py: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends qvina: 
    :depends smina: 
    :requirements:

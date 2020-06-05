@@ -8,6 +8,7 @@ sumaclust
 
 .. conda:recipe:: sumaclust
    :replaces_section_title:
+   :noindex:
 
    Sumaclust clusters sequences in a way that is fast and exact at the same time\, using the same clustering algorithm as UCLUST and CD\-HIT. For more information see url.
 
@@ -22,9 +23,16 @@ sumaclust
 
    |downloads_sumaclust| |docker_sumaclust|
 
-   :versions: 1.0.31-1, 1.0.31-0
+   :versions:
+      
+      
+
+      ``1.0.31-1``,  ``1.0.31-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ structureharvester
 
 .. conda:recipe:: structureharvester
    :replaces_section_title:
+   :noindex:
 
    structureHarvester.py is a Python script capable of extracting all the relevant data from STRUCTURE results files
 
@@ -22,9 +23,16 @@ structureharvester
 
    |downloads_structureharvester| |docker_structureharvester|
 
-   :versions: 0.6.94-2, 0.6.94-1, 0.6.94-0
+   :versions:
+      
+      
+
+      ``0.6.94-2``,  ``0.6.94-1``,  ``0.6.94-0``
+
+      
+
    
-   :depends python: <3
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

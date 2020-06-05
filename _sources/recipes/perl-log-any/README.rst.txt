@@ -8,6 +8,7 @@ perl-log-any
 
 .. conda:recipe:: perl-log-any
    :replaces_section_title:
+   :noindex:
 
    Bringing loggers and listeners together
 
@@ -22,9 +23,16 @@ perl-log-any
 
    |downloads_perl-log-any| |docker_perl-log-any|
 
-   :versions: 1.045-1, 1.045-0
+   :versions:
+      
+      
+
+      ``1.045-1``,  ``1.045-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :depends perl-apache-test: 
    :depends perl-test-simple: 
    :requirements:

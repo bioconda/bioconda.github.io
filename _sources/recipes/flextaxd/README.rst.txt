@@ -8,6 +8,7 @@ flextaxd
 
 .. conda:recipe:: flextaxd
    :replaces_section_title:
+   :noindex:
 
    Script that allows the creation of custom kraken databases from various sources \(NCBI\, QIIME\, CanSNPer\)
 
@@ -22,9 +23,16 @@ flextaxd
 
    |downloads_flextaxd| |docker_flextaxd|
 
-   :versions: 0.2.1-0, 0.2.0-0, 0.1.5-0
+   :versions:
+      
+      
+
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
+
+      
+
    
-   :depends python: >3
+   :depends python: ``>3``
    :requirements:
 
    .. rubric:: Installation

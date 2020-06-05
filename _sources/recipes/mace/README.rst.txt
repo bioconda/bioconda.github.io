@@ -8,6 +8,7 @@ mace
 
 .. conda:recipe:: mace
    :replaces_section_title:
+   :noindex:
 
    Model Based Analysis for ChIP\-exo data
 
@@ -22,15 +23,22 @@ mace
 
    |downloads_mace| |docker_mace|
 
-   :versions: 1.2-1, 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-1``,  ``1.2-0``
+
+      
+
    
    :depends bx-python: 
-   :depends gsl: >=2.5,<2.6.0a0
-   :depends libgcc-ng: >=7.3.0
+   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
-   :depends python: >=2.7,<2.8.0a0
+   :depends python: ``>=2.7,<2.8.0a0``
    :depends ucsc-wigtobigwig: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

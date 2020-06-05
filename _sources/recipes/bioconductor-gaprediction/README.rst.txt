@@ -8,6 +8,7 @@ bioconductor-gaprediction
 
 .. conda:recipe:: bioconductor-gaprediction
    :replaces_section_title:
+   :noindex:
 
    Prediction of gestational age with Illumina HumanMethylation450 data
 
@@ -23,9 +24,16 @@ bioconductor-gaprediction
 
    |downloads_bioconductor-gaprediction| |docker_bioconductor-gaprediction|
 
-   :versions: 1.14.0-0, 1.12.0-0, 1.10.0-1, 1.10.0-0, 1.8.1-0, 1.6.0-0, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-glmnet: 
    :depends r-matrix: 
    :requirements:

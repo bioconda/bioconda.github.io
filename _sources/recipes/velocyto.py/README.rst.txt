@@ -8,6 +8,7 @@ velocyto.py
 
 .. conda:recipe:: velocyto.py
    :replaces_section_title:
+   :noindex:
 
    A library for the analysis of RNA velocity.
 
@@ -23,18 +24,25 @@ velocyto.py
 
    |downloads_velocyto.py| |docker_velocyto.py|
 
-   :versions: 0.17.17-0
+   :versions:
+      
+      
+
+      ``0.17.17-0``
+
+      
+
    
    :depends click: 
    :depends h5py: 
-   :depends libgcc-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
    :depends loompy: 
    :depends matplotlib: 
    :depends numba: 
-   :depends numpy: >=1.14.6,<2.0a0
+   :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pandas: 
    :depends pysam: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:

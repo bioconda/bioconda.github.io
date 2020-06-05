@@ -8,6 +8,7 @@ bioconductor-pwrewas.data
 
 .. conda:recipe:: bioconductor-pwrewas.data
    :replaces_section_title:
+   :noindex:
 
    pwrEWAS.data\: Reference data accompanying pwrEWAS
 
@@ -22,11 +23,18 @@ bioconductor-pwrewas.data
 
    |downloads_bioconductor-pwrewas.data| |docker_bioconductor-pwrewas.data|
 
-   :versions: 1.2.0-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.0-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

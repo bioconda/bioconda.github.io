@@ -8,6 +8,7 @@ bioconductor-massir
 
 .. conda:recipe:: bioconductor-massir
    :replaces_section_title:
+   :noindex:
 
    massiR\: MicroArray Sample Sex Identifier
 
@@ -23,10 +24,17 @@ bioconductor-massir
 
    |downloads_bioconductor-massir| |docker_bioconductor-massir|
 
-   :versions: 1.24.0-0, 1.22.0-0, 1.20.0-1, 1.18.0-0, 1.16.0-0, 1.14.0-0, 1.12.0-0
+   :versions:
+      
+      
+
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-diptest: 
    :depends r-gplots: 

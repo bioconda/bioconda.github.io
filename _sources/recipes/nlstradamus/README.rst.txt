@@ -8,6 +8,7 @@ nlstradamus
 
 .. conda:recipe:: nlstradamus
    :replaces_section_title:
+   :noindex:
 
    NLStradamus\: a simple Hidden Markov Model for nuclear localization signal prediction.
 
@@ -23,9 +24,16 @@ nlstradamus
 
    |downloads_nlstradamus| |docker_nlstradamus|
 
-   :versions: 1.8-1, 1.8-0
+   :versions:
+      
+      
+
+      ``1.8-1``,  ``1.8-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

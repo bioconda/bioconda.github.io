@@ -8,6 +8,7 @@ rascaf
 
 .. conda:recipe:: rascaf
    :replaces_section_title:
+   :noindex:
 
    Scaffolding with RNA\-seq read alignment
 
@@ -22,11 +23,18 @@ rascaf
 
    |downloads_rascaf| |docker_rascaf|
 
-   :versions: 20161129-2, 20161129-1, 20161129-0
+   :versions:
+      
+      
+
+      ``20161129-2``,  ``20161129-1``,  ``20161129-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
-   :depends libstdcxx-ng: >=4.9
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends libgcc-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=4.9``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

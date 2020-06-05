@@ -8,6 +8,7 @@ ymp
 
 .. conda:recipe:: ymp
    :replaces_section_title:
+   :noindex:
 
    Create entire NGS pipelines with one command
 
@@ -34,7 +35,14 @@ ymp
 
    |downloads_ymp| |docker_ymp|
 
-   :versions: 0.1.0-0
+   :versions:
+      
+      
+
+      ``0.1.0-0``
+
+      
+
    
    :depends aiohttp: 
    :depends click: 
@@ -42,12 +50,12 @@ ymp
    :depends coloredlogs: 
    :depends conda: 
    :depends drmaa: 
-   :depends networkx: >=2
-   :depends pandas: >=0.20
-   :depends python: >=3.6
-   :depends ruamel.yaml: >0.15
-   :depends snakemake: 5.4.*
-   :depends tqdm: >=4.21.0
+   :depends networkx: ``>=2``
+   :depends pandas: ``>=0.20``
+   :depends python: ``>=3.6``
+   :depends ruamel.yaml: ``>0.15``
+   :depends snakemake: ``5.4.*``
+   :depends tqdm: ``>=4.21.0``
    :depends xdg: 
    :depends xlrd: 
    :requirements:

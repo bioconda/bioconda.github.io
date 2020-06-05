@@ -8,6 +8,7 @@ bioconductor-txdb.drerio.ucsc.danrer10.refgene
 
 .. conda:recipe:: bioconductor-txdb.drerio.ucsc.danrer10.refgene
    :replaces_section_title:
+   :noindex:
 
    Annotation package for TxDb object\(s\)
 
@@ -22,12 +23,19 @@ bioconductor-txdb.drerio.ucsc.danrer10.refgene
 
    |downloads_bioconductor-txdb.drerio.ucsc.danrer10.refgene| |docker_bioconductor-txdb.drerio.ucsc.danrer10.refgene|
 
-   :versions: 3.4.6-3, 3.4.6-2, 3.4.6-1, 3.4.4-0, 3.4.3-0, 3.4.2-1, 3.4.2-0, 3.4.0-2
+   :versions:
+      
+      
+
+      ``3.4.6-3``,  ``3.4.6-2``,  ``3.4.6-1``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.0-2``
+
+      
+
    
-   :depends bioconductor-annotationdbi: >=1.50.0,<1.51.0
-   :depends bioconductor-genomicfeatures: >=1.40.0,<1.41.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

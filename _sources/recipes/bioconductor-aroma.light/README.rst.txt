@@ -8,6 +8,7 @@ bioconductor-aroma.light
 
 .. conda:recipe:: bioconductor-aroma.light
    :replaces_section_title:
+   :noindex:
 
    Light\-Weight Methods for Normalization and Visualization of Microarray Data using Only Basic R Data Types
 
@@ -23,13 +24,28 @@ bioconductor-aroma.light
 
    |downloads_bioconductor-aroma.light| |docker_bioconductor-aroma.light|
 
-   :versions: 3.18.0-0, 3.16.0-0, 3.14.0-1, 3.14.0-0, 3.12.0-1, 3.12.0-0, 3.10.0-0, 3.8.0-0, 3.6.0-0, 3.4.0-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>3.18.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.6.0-0</code>,  </span></summary>
+      
+
+      ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-matrixstats: >=0.55.0
-   :depends r-r.methodss3: >=1.7.1
-   :depends r-r.oo: >=1.23.0
-   :depends r-r.utils: >=2.9.0
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-matrixstats: ``>=0.55.0``
+   :depends r-r.methodss3: ``>=1.7.1``
+   :depends r-r.oo: ``>=1.23.0``
+   :depends r-r.utils: ``>=2.9.0``
    :requirements:
 
    .. rubric:: Installation

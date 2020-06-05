@@ -8,6 +8,7 @@ scanorama
 
 .. conda:recipe:: scanorama
    :replaces_section_title:
+   :noindex:
 
    Panoramic stitching of heterogeneous single\-cell transcriptomic data
 
@@ -23,17 +24,24 @@ scanorama
 
    |downloads_scanorama| |docker_scanorama|
 
-   :versions: 1.6-0, 1.5.2-0, 1.5.1-0, 1.5-0
+   :versions:
+      
+      
+
+      ``1.6-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``
+
+      
+
    
-   :depends fbpca: >=1.0
-   :depends geosketch: >=1
-   :depends intervaltree: 2.1
-   :depends matplotlib-base: >=2.0.2
-   :depends numpy: >=1.12
-   :depends python: >=3.6
-   :depends python-annoy: >=1.11.5
+   :depends fbpca: ``>=1.0``
+   :depends geosketch: ``>=1``
+   :depends intervaltree: ``2.1``
+   :depends matplotlib-base: ``>=2.0.2``
+   :depends numpy: ``>=1.12``
+   :depends python: ``>=3.6``
+   :depends python-annoy: ``>=1.11.5``
    :depends scikit-learn: 
-   :depends scipy: >=1
+   :depends scipy: ``>=1``
    :requirements:
 
    .. rubric:: Installation

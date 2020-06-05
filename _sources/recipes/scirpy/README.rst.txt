@@ -8,6 +8,7 @@ scirpy
 
 .. conda:recipe:: scirpy
    :replaces_section_title:
+   :noindex:
 
    A Scanpy extension for analyzing single\-cell T\-cell receptor sequencing data.
 
@@ -24,22 +25,30 @@ scirpy
 
    |downloads_scirpy| |docker_scirpy|
 
-   :versions: 0.2-0, 0.1.2-0, 0.1.1-0
+   :versions:
+      
+      
+
+      ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+
    
-   :depends anndata: >=0.7.3
+   :depends airr: ``>=1.2``
+   :depends anndata: ``>=0.7.3``
    :depends get_version: 
    :depends networkx: 
    :depends numpy: 
-   :depends pandas: >=0.21
+   :depends pandas: ``>=0.21``
    :depends parasail-python: 
-   :depends python: >=3.6
+   :depends python: ``>=3.6``
    :depends python-igraph: 
    :depends python-levenshtein: 
-   :depends scanpy: >=1.5.1
+   :depends scanpy: ``>=1.5.1``
    :depends scikit-learn: 
    :depends scipy: 
    :depends squarify: 
-   :depends tqdm: >=4.29.1
+   :depends tqdm: ``>=4.29.1``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ unitig-counter
 
 .. conda:recipe:: unitig-counter
    :replaces_section_title:
+   :noindex:
 
    Uses a compressed de Bruijn graph \(implemented in GATB\) to count unitigs in bacterial populations.
 
@@ -23,12 +24,19 @@ unitig-counter
 
    |downloads_unitig-counter| |docker_unitig-counter|
 
-   :versions: 1.1.0-0, 1.0.5-0, 1.0.4-0
+   :versions:
+      
+      
+
+      ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends pthread-stubs: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

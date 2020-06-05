@@ -8,6 +8,7 @@ borf
 
 .. conda:recipe:: borf
    :replaces_section_title:
+   :noindex:
 
    ORF predictions from .fa files
 
@@ -22,12 +23,19 @@ borf
 
    |downloads_borf| |docker_borf|
 
-   :versions: 1.2-0
+   :versions:
+      
+      
+
+      ``1.2-0``
+
+      
+
    
    :depends biopython: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends scikit-bio: 
    :requirements:
 

@@ -8,6 +8,7 @@ bpipe
 
 .. conda:recipe:: bpipe
    :replaces_section_title:
+   :noindex:
 
    Bpipe \- a tool for running and managing bioinformatics pipelines
 
@@ -23,7 +24,14 @@ bpipe
 
    |downloads_bpipe| |docker_bpipe|
 
-   :versions: 0.9.9.9-0, 0.9.9.8-0, 0.9.9.7-0, 0.9.9.2-0
+   :versions:
+      
+      
+
+      ``0.9.9.9-0``,  ``0.9.9.8-0``,  ``0.9.9.7-0``,  ``0.9.9.2-0``
+
+      
+
    
    :depends coreutils: 
    :depends openjdk: 

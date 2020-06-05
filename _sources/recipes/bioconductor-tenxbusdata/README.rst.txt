@@ -8,6 +8,7 @@ bioconductor-tenxbusdata
 
 .. conda:recipe:: bioconductor-tenxbusdata
    :replaces_section_title:
+   :noindex:
 
    Single cell dataset from 10x in BUS format
 
@@ -22,13 +23,20 @@ bioconductor-tenxbusdata
 
    |downloads_bioconductor-tenxbusdata| |docker_bioconductor-tenxbusdata|
 
-   :versions: 1.2.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.2.1-0``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-annotationhub: >=2.20.0,<2.21.0
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-experimenthub: >=1.14.0,<1.15.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

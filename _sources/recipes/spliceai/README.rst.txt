@@ -8,6 +8,7 @@ spliceai
 
 .. conda:recipe:: spliceai
    :replaces_section_title:
+   :noindex:
 
    A deep learning\-based tool to identify splice variants.
 
@@ -22,15 +23,22 @@ spliceai
 
    |downloads_spliceai| |docker_spliceai|
 
-   :versions: 1.3.1-0, 1.3-1, 1.3-0, 1.2.1-1, 1.2.1-0
+   :versions:
+      
+      
+
+      ``1.3.1-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-1``,  ``1.2.1-0``
+
+      
+
    
-   :depends keras: >=2.0.5
-   :depends numpy: >=1.14.0
-   :depends pandas: >=0.24.2
-   :depends pyfaidx: >=0.5.0
-   :depends pysam: >=0.10.0
+   :depends keras: ``>=2.0.5``
+   :depends numpy: ``>=1.14.0``
+   :depends pandas: ``>=0.24.2``
+   :depends pyfaidx: ``>=0.5.0``
+   :depends pysam: ``>=0.10.0``
    :depends python: 
-   :depends tensorflow: >=1.13.0
+   :depends tensorflow: ``>=1.13.0``
    :requirements:
 
    .. rubric:: Installation

@@ -8,6 +8,7 @@ bioconductor-cghmcr
 
 .. conda:recipe:: bioconductor-cghmcr
    :replaces_section_title:
+   :noindex:
 
    Find chromosome regions showing common gains\/losses
 
@@ -23,13 +24,20 @@ bioconductor-cghmcr
 
    |downloads_bioconductor-cghmcr| |docker_bioconductor-cghmcr|
 
-   :versions: 1.46.0-0, 1.44.0-0, 1.42.0-1, 1.40.0-0, 1.38.0-0, 1.36.0-0, 1.34.0-0
+   :versions:
+      
+      
+
+      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``
+
+      
+
    
-   :depends bioconductor-biocgenerics: >=0.34.0,<0.35.0
-   :depends bioconductor-cntools: >=1.44.0,<1.45.0
-   :depends bioconductor-dnacopy: >=1.62.0,<1.63.0
-   :depends bioconductor-limma: >=3.44.0,<3.45.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-cntools: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-dnacopy: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

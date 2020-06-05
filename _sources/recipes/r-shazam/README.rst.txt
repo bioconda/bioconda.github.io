@@ -8,6 +8,7 @@ r-shazam
 
 .. conda:recipe:: r-shazam
    :replaces_section_title:
+   :noindex:
 
    Provides a computational framework for analyzing mutations in immunoglobulin \(Ig\) sequences. Includes methods for Bayesian estimation of antigen\-driven selection pressure\, mutational load quantification\, building of somatic hypermutation \(SHM\) models\, and model\-dependent distance calculations. Also includes empirically derived models of SHM for both mice and humans. Citations\:  Gupta and Vander Heiden\, et al \(2015\) \<doi\:10.1093\/bioinformatics\/btv359\>\,  Yaari\, et al \(2012\) \<doi\:10.1093\/nar\/gks457\>\,  Yaari\, et al \(2013\) \<doi\:10.3389\/fimmu.2013.00358\>\,  Cui\, et al \(2016\) \<doi\:10.4049\/jimmunol.1502263\>.
 
@@ -22,16 +23,23 @@ r-shazam
 
    |downloads_r-shazam| |docker_r-shazam|
 
-   :versions: 0.2.3-1, 0.2.3-0, 0.2.2-0, 0.2.1-1, 0.2.1-0, 0.1.11-0, 0.1.10-1, 0.1.10-0, 0.1.9-2
+   :versions:
+      
+      
+
+      ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.11-0``,  ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-2``
+
+      
+
    
-   :depends r-alakazam: >=0.2.11
+   :depends r-alakazam: ``>=0.2.11``
    :depends r-ape: 
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-diptest: 
    :depends r-doparallel: 
-   :depends r-dplyr: >=0.5.0
+   :depends r-dplyr: ``>=0.5.0``
    :depends r-foreach: 
-   :depends r-ggplot2: >=2.0.0
+   :depends r-ggplot2: ``>=2.0.0``
    :depends r-igraph: 
    :depends r-iterators: 
    :depends r-kedd: 
@@ -42,7 +50,7 @@ r-shazam
    :depends r-scales: 
    :depends r-sdmtools: 
    :depends r-seqinr: 
-   :depends r-stringi: >=1.1.3
+   :depends r-stringi: ``>=1.1.3``
    :depends r-tidyr: 
    :requirements:
 

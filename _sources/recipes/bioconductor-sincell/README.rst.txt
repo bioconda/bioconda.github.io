@@ -8,6 +8,7 @@ bioconductor-sincell
 
 .. conda:recipe:: bioconductor-sincell
    :replaces_section_title:
+   :noindex:
 
    R package for the statistical assessment of cell state hierarchies from single\-cell RNA\-seq data
 
@@ -23,13 +24,20 @@ bioconductor-sincell
 
    |downloads_bioconductor-sincell| |docker_bioconductor-sincell|
 
-   :versions: 1.20.0-0, 1.18.0-0, 1.16.0-1, 1.16.0-0, 1.14.1-0, 1.14.0-0, 1.12.0-0, 1.10.0-0
+   :versions:
+      
+      
+
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+
+      
+
    
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.3.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-entropy: 
    :depends r-fastica: 
@@ -38,7 +46,7 @@ bioconductor-sincell
    :depends r-igraph: 
    :depends r-mass: 
    :depends r-proxy: 
-   :depends r-rcpp: >=0.11.2
+   :depends r-rcpp: ``>=0.11.2``
    :depends r-reshape2: 
    :depends r-rtsne: 
    :depends r-scatterplot3d: 

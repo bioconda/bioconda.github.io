@@ -8,6 +8,7 @@ dgenies
 
 .. conda:recipe:: dgenies
    :replaces_section_title:
+   :noindex:
 
    Dotplot large Genomes in an Interactive\, Efficient and Simple way
 
@@ -25,7 +26,14 @@ dgenies
 
    |downloads_dgenies| |docker_dgenies|
 
-   :versions: 1.2.0.1-0
+   :versions:
+      
+      
+
+      ``1.2.0.1-0``
+
+      
+
    
    :depends argparse: 
    :depends biopython: 
@@ -36,7 +44,7 @@ dgenies
    :depends matplotlib-base: 
    :depends numpy: 
    :depends psutil: 
-   :depends python: >=3.5
+   :depends python: ``>=3.5``
    :depends python-crontab: 
    :depends pyyaml: 
    :depends requests: 

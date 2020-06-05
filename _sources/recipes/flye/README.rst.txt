@@ -8,6 +8,7 @@ flye
 
 .. conda:recipe:: flye
    :replaces_section_title:
+   :noindex:
 
    Fast and accurate de novo assembler for single molecule sequencing reads
 
@@ -22,14 +23,29 @@ flye
 
    |downloads_flye| |docker_flye|
 
-   :versions: 2.7.1-1, 2.7.1-0, 2.7-0, 2.6-0, 2.5-0, 2.4.2-0, 2.4.1-0, 2.4-0, 2.3.7-0, 2.3.6-3, 2.3.5-3, 2.3.4-2, 2.3.4-0, 2.3.3-0, 2.3.2-0, 2.3.1-0, 2.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.7-0</code>,  <code>2.6-0</code>,  <code>2.5-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4-0</code>,  <code>2.3.7-0</code>,  </span></summary>
+      
+
+      ``2.7.1-1``,  ``2.7.1-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-0``,  ``2.3.7-0``,  ``2.3.6-3``,  ``2.3.5-3``,  ``2.3.4-2``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends setuptools: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

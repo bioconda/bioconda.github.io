@@ -8,6 +8,7 @@ megahit
 
 .. conda:recipe:: megahit
    :replaces_section_title:
+   :noindex:
 
    MEGAHIT\: An ultra\-fast single\-node solution for large and complex
    metagenomics assembly via succinct de Bruijn graph
@@ -24,12 +25,27 @@ megahit
 
    |downloads_megahit| |docker_megahit|
 
-   :versions: 1.2.9-0, 1.2.8-0, 1.2.7-0, 1.2.6-0, 1.1.3-0, 1.1.2-1, 1.1.2-0, 1.1.1-0, 1.0.6-1, 1.0.3-1, 1.0.3-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.6-1</code>,  </span></summary>
+      
+
+      ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.6-1``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends python: 
-   :depends zlib: >=1.2.11,<1.3.0a0
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

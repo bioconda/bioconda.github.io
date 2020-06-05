@@ -8,6 +8,7 @@ cutesv
 
 .. conda:recipe:: cutesv
    :replaces_section_title:
+   :noindex:
 
    cuteSV is a long\-read based human genomic structural variation detection tool
 
@@ -22,13 +23,20 @@ cutesv
 
    |downloads_cutesv| |docker_cutesv|
 
-   :versions: 1.0.6-0, 1.0.5-0, 1.0.4-0, 1.0.3-0, 1.0.2-0, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+
+      
+
    
    :depends biopython: 
    :depends cigar: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :requirements:
 
    .. rubric:: Installation

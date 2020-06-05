@@ -8,6 +8,7 @@ perl-xml-writer
 
 .. conda:recipe:: perl-xml-writer
    :replaces_section_title:
+   :noindex:
 
    Easily generate well\-formed\, namespace\-aware XML.
 
@@ -22,9 +23,16 @@ perl-xml-writer
 
    |downloads_perl-xml-writer| |docker_perl-xml-writer|
 
-   :versions: 0.625-2, 0.625-1, 0.625-0
+   :versions:
+      
+      
+
+      ``0.625-2``,  ``0.625-1``,  ``0.625-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
    .. rubric:: Installation

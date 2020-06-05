@@ -8,6 +8,7 @@ fastml
 
 .. conda:recipe:: fastml
    :replaces_section_title:
+   :noindex:
 
    FastML is a bioinformatics tool for the reconstruction of ancestral sequences based on the phylogenetic relations between homologous sequences
 
@@ -22,10 +23,17 @@ fastml
 
    |downloads_fastml| |docker_fastml|
 
-   :versions: 3.11-0
+   :versions:
+      
+      
+
+      ``3.11-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends libstdcxx-ng: >=7.3.0
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
    :depends perl-bioperl: 
    :depends raxml: 

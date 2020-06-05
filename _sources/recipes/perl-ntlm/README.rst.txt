@@ -8,6 +8,7 @@ perl-ntlm
 
 .. conda:recipe:: perl-ntlm
    :replaces_section_title:
+   :noindex:
 
    An NTLM authentication module
 
@@ -22,9 +23,16 @@ perl-ntlm
 
    |downloads_perl-ntlm| |docker_perl-ntlm|
 
-   :versions: 1.09-4, 1.09-3, 1.09-2, 1.09-1
+   :versions:
+      
+      
+
+      ``1.09-4``,  ``1.09-3``,  ``1.09-2``,  ``1.09-1``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-digest-hmac: 
    :requirements:
 

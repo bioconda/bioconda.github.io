@@ -8,6 +8,7 @@ karect
 
 .. conda:recipe:: karect
    :replaces_section_title:
+   :noindex:
 
    Read error correction tool based on multiple alignment.
 
@@ -26,9 +27,16 @@ karect
 
    |downloads_karect| |docker_karect|
 
-   :versions: 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libstdcxx-ng: >=4.9
+   :depends libstdcxx-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

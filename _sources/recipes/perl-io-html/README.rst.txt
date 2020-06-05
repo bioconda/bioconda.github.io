@@ -8,6 +8,7 @@ perl-io-html
 
 .. conda:recipe:: perl-io-html
    :replaces_section_title:
+   :noindex:
 
    Open an HTML file with automatic charset detection
 
@@ -22,9 +23,16 @@ perl-io-html
 
    |downloads_perl-io-html| |docker_perl-io-html|
 
-   :versions: 1.001-2, 1.001-1, 1.001-0
+   :versions:
+      
+      
+
+      ``1.001-2``,  ``1.001-1``,  ``1.001-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.27.0a0
+   :depends perl: ``>=5.26.2,<5.27.0a0``
    :requirements:
 
    .. rubric:: Installation

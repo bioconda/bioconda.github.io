@@ -8,6 +8,7 @@ picrust2
 
 .. conda:recipe:: picrust2
    :replaces_section_title:
+   :noindex:
 
    PICRUSt\: Phylogenetic Investigation of Communities by Reconstruction of Unobserved States
 
@@ -22,23 +23,30 @@ picrust2
 
    |downloads_picrust2| |docker_picrust2|
 
-   :versions: 2.3.0_b-0, 2.2.0_b-0, 2.1.4_b-0, 2.1.3_b-0, 2.1.2_b-0, 2.1.1_b-0, 2.1.0_b-0, 2.0.3_b-0
+   :versions:
+      
+      
+
+      ``2.3.0_b-0``,  ``2.2.0_b-0``,  ``2.1.4_b-0``,  ``2.1.3_b-0``,  ``2.1.2_b-0``,  ``2.1.1_b-0``,  ``2.1.0_b-0``,  ``2.0.3_b-0``
+
+      
+
    
-   :depends biom-format: >=2.1.7
-   :depends epa-ng: 0.3.6.*
-   :depends gappa: 0.5.1.*
-   :depends glpk: 4.65.*
-   :depends h5py: >=2.9.0
-   :depends hmmer: >=3.1b2,<=3.2.1
-   :depends joblib: >=0.13.1
-   :depends numpy: >=1.16.2
-   :depends pandas: >=0.24.2,<=0.25.2
-   :depends pytest: >=4.4.1
-   :depends pytest-cov: >=2.6.1
-   :depends python: >=3.5,<3.7
-   :depends r-base: >=3.5.1
-   :depends r-castor: 1.5.0.*
-   :depends scipy: >=1.2.1
+   :depends biom-format: ``>=2.1.7``
+   :depends epa-ng: ``0.3.6.*``
+   :depends gappa: ``0.5.1.*``
+   :depends glpk: ``4.65.*``
+   :depends h5py: ``>=2.9.0``
+   :depends hmmer: ``>=3.1b2,<=3.2.1``
+   :depends joblib: ``>=0.13.1``
+   :depends numpy: ``>=1.16.2``
+   :depends pandas: ``>=0.24.2,<=0.25.2``
+   :depends pytest: ``>=4.4.1``
+   :depends pytest-cov: ``>=2.6.1``
+   :depends python: ``>=3.5,<3.7``
+   :depends r-base: ``>=3.5.1``
+   :depends r-castor: ``1.5.0.*``
+   :depends scipy: ``>=1.2.1``
    :depends wget: 
    :requirements:
 

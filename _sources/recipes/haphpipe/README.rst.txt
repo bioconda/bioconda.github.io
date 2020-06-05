@@ -8,6 +8,7 @@ haphpipe
 
 .. conda:recipe:: haphpipe
    :replaces_section_title:
+   :noindex:
 
    HAplotype and PHylodynamics pipeline for viral assembly\, population genetics\, and phylodynamics.
 
@@ -24,7 +25,14 @@ haphpipe
 
    |downloads_haphpipe| |docker_haphpipe|
 
-   :versions: 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
    :depends biopython: 
    :depends blast: 
@@ -33,15 +41,15 @@ haphpipe
    :depends flash: 
    :depends freebayes: 
    :depends future: 
-   :depends gatk: 3.8.*
+   :depends gatk: ``3.8.*``
    :depends mafft: 
    :depends modeltest-ng: 
    :depends mummer: 
    :depends picard: 
-   :depends python: >=3.7
+   :depends python: ``>=3.7``
    :depends pyyaml: 
    :depends raxml: 
-   :depends samtools: 1.9.*
+   :depends samtools: ``1.9.*``
    :depends seqtk: 
    :depends sierrapy: 
    :depends spades: 

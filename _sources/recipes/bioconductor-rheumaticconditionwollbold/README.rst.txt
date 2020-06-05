@@ -8,6 +8,7 @@ bioconductor-rheumaticconditionwollbold
 
 .. conda:recipe:: bioconductor-rheumaticconditionwollbold
    :replaces_section_title:
+   :noindex:
 
    Normalized gene expression dataset published by Wollbold et al. \[2009\] \(WOLLBOLD\).
 
@@ -22,10 +23,17 @@ bioconductor-rheumaticconditionwollbold
 
    |downloads_bioconductor-rheumaticconditionwollbold| |docker_bioconductor-rheumaticconditionwollbold|
 
-   :versions: 1.26.0-0, 1.24.0-0, 1.22.0-1, 1.22.0-0, 1.20.0-0
+   :versions:
+      
+      
+
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+
    
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

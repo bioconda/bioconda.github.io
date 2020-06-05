@@ -8,6 +8,7 @@ vamb
 
 .. conda:recipe:: vamb
    :replaces_section_title:
+   :noindex:
 
    Variational autoencoder for metagenomic binning
 
@@ -22,14 +23,21 @@ vamb
 
    |downloads_vamb| |docker_vamb|
 
-   :versions: 3.0.1-0, 2.1.0-0, 2.0.1-0
+   :versions:
+      
+      
+
+      ``3.0.1-0``,  ``2.1.0-0``,  ``2.0.1-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends numpy: >=1.15
-   :depends pysam: >=0.14
-   :depends python: >=3.6,<3.7.0a0
-   :depends python_abi: 3.6.* *_cp36m
-   :depends pytorch-cpu: >=0.4
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends numpy: ``>=1.15``
+   :depends pysam: ``>=0.14``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends pytorch-cpu: ``>=0.4``
    :requirements:
 
    .. rubric:: Installation

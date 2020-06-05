@@ -8,6 +8,7 @@ bioconductor-snplocs.hsapiens.dbsnp141.grch38
 
 .. conda:recipe:: bioconductor-snplocs.hsapiens.dbsnp141.grch38
    :replaces_section_title:
+   :noindex:
 
    SNP locations for Homo sapiens \(dbSNP Build 141\)
 
@@ -22,15 +23,22 @@ bioconductor-snplocs.hsapiens.dbsnp141.grch38
 
    |downloads_bioconductor-snplocs.hsapiens.dbsnp141.grch38| |docker_bioconductor-snplocs.hsapiens.dbsnp141.grch38|
 
-   :versions: 0.99.11-4, 0.99.11-3, 0.99.11-2, 0.99.11-0
+   :versions:
+      
+      
+
+      ``0.99.11-4``,  ``0.99.11-3``,  ``0.99.11-2``,  ``0.99.11-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends bioconductor-genomeinfodb: >=1.24.0,<1.25.0
-   :depends bioconductor-genomicranges: >=1.40.0,<1.41.0
-   :depends bioconductor-iranges: >=2.22.0,<2.23.0
-   :depends bioconductor-s4vectors: >=0.26.0,<0.27.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

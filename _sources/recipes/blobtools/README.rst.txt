@@ -8,6 +8,7 @@ blobtools
 
 .. conda:recipe:: blobtools
    :replaces_section_title:
+   :noindex:
 
    Modular command\-line solution for visualisation\, quality control and taxonomic partitioning of genome datasets
 
@@ -23,13 +24,20 @@ blobtools
 
    |downloads_blobtools| |docker_blobtools|
 
-   :versions: 1.1.1-1, 1.1.1-0, 1.0.1-3, 1.0.1-2, 1.0.1-1, 1.0.1-0
+   :versions:
+      
+      
+
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+
    
    :depends docopt: 
    :depends matplotlib: 
    :depends pysam: 
-   :depends python: >=3
-   :depends pyyaml: >=4.2b1
+   :depends python: ``>=3``
+   :depends pyyaml: ``>=4.2b1``
    :depends tqdm: 
    :requirements:
 

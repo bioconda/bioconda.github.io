@@ -8,6 +8,7 @@ shapeshifter
 
 .. conda:recipe:: shapeshifter
    :replaces_section_title:
+   :noindex:
 
    A tool for managing large datasets
 
@@ -22,13 +23,20 @@ shapeshifter
 
    |downloads_shapeshifter| |docker_shapeshifter|
 
-   :versions: 1.1.1-0, 0.0.3-0
+   :versions:
+      
+      
+
+      ``1.1.1-0``,  ``0.0.3-0``
+
+      
+
    
    :depends nbformat: 
    :depends numpy: 
    :depends pandas: 
    :depends pyarrow: 
-   :depends python: >=3
+   :depends python: ``>=3``
    :depends sqlalchemy: 
    :depends xlrd: 
    :depends xlsxwriter: 

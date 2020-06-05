@@ -8,6 +8,7 @@ perl-gd-svg
 
 .. conda:recipe:: perl-gd-svg
    :replaces_section_title:
+   :noindex:
 
    Seamlessly enable SVG output from scripts written using GD
 
@@ -22,9 +23,16 @@ perl-gd-svg
 
    |downloads_perl-gd-svg| |docker_perl-gd-svg|
 
-   :versions: 0.33-0
+   :versions:
+      
+      
+
+      ``0.33-0``
+
+      
+
    
-   :depends perl: >=5.26.2,<5.26.3.0a0
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-gd: 
    :depends perl-svg: 
    :requirements:

@@ -8,6 +8,7 @@ bioconductor-flowtype
 
 .. conda:recipe:: bioconductor-flowtype
    :replaces_section_title:
+   :noindex:
 
    Phenotyping Flow Cytometry Assays
 
@@ -22,20 +23,27 @@ bioconductor-flowtype
 
    |downloads_bioconductor-flowtype| |docker_bioconductor-flowtype|
 
-   :versions: 2.25.0-0, 2.24.0-0, 2.22.0-1, 2.20.1-0
+   :versions:
+      
+      
+
+      ``2.25.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.20.1-0``
+
+      
+
    
-   :depends bioconductor-biobase: >=2.48.0,<2.49.0
-   :depends bioconductor-flowclust: >=3.26.0,<3.27.0
-   :depends bioconductor-flowcore: >=2.0.0,<2.1.0
-   :depends bioconductor-flowmeans: >=1.48.0,<1.49.0
-   :depends bioconductor-flowmerge: >=2.36.0,<2.37.0
-   :depends libblas: >=3.8.0,<4.0a0
-   :depends libgcc-ng: >=7.5.0
-   :depends liblapack: >=3.8.0,<3.9.0a0
-   :depends libstdcxx-ng: >=7.5.0
-   :depends r-base: >=4.0,<4.1.0a0
-   :depends r-bh: >=1.51.0-3
-   :depends r-rcpp: >=0.10.4
+   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-flowclust: ``>=3.26.0,<3.27.0``
+   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-flowmeans: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-flowmerge: ``>=2.36.0,<2.37.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bh: ``>=1.51.0-3``
+   :depends r-rcpp: ``>=0.10.4``
    :depends r-rrcov: 
    :depends r-sfsmisc: 
    :requirements:

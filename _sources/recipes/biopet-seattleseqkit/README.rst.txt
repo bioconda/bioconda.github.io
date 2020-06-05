@@ -8,6 +8,7 @@ biopet-seattleseqkit
 
 .. conda:recipe:: biopet-seattleseqkit
    :replaces_section_title:
+   :noindex:
 
    \#\#\#\# Tool \- Filter  This tool can filter a seattle seq file.
 
@@ -42,9 +43,16 @@ biopet-seattleseqkit
 
    |downloads_biopet-seattleseqkit| |docker_biopet-seattleseqkit|
 
-   :versions: 0.2-0, 0.1-0
+   :versions:
+      
+      
+
+      ``0.2-0``,  ``0.1-0``
+
+      
+
    
-   :depends openjdk: >=8,<9
+   :depends openjdk: ``>=8,<9``
    :depends python: 
    :requirements:
 

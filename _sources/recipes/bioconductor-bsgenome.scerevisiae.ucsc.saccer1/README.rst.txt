@@ -8,6 +8,7 @@ bioconductor-bsgenome.scerevisiae.ucsc.saccer1
 
 .. conda:recipe:: bioconductor-bsgenome.scerevisiae.ucsc.saccer1
    :replaces_section_title:
+   :noindex:
 
    Saccharomyces cerevisiae \(Yeast\) full genome \(UCSC version sacCer1\)
 
@@ -22,11 +23,18 @@ bioconductor-bsgenome.scerevisiae.ucsc.saccer1
 
    |downloads_bioconductor-bsgenome.scerevisiae.ucsc.saccer1| |docker_bioconductor-bsgenome.scerevisiae.ucsc.saccer1|
 
-   :versions: 1.4.0-4, 1.4.0-3, 1.4.0-2, 1.4.0-0
+   :versions:
+      
+      
+
+      ``1.4.0-4``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-0``
+
+      
+
    
-   :depends bioconductor-bsgenome: >=1.56.0,<1.57.0
-   :depends curl: >=7.69.1,<8.0a0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

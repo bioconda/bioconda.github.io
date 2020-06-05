@@ -8,6 +8,7 @@ fasta3
 
 .. conda:recipe:: fasta3
    :replaces_section_title:
+   :noindex:
 
    The FASTA package \- protein and DNA sequence similarity searching and alignment programs
 
@@ -22,9 +23,16 @@ fasta3
 
    |downloads_fasta3| |docker_fasta3|
 
-   :versions: 36.3.8-4, 36.3.8-3, 36.3.8-2, 36.3.8-1, 36.3.8-0
+   :versions:
+      
+      
+
+      ``36.3.8-4``,  ``36.3.8-3``,  ``36.3.8-2``,  ``36.3.8-1``,  ``36.3.8-0``
+
+      
+
    
-   :depends libgcc-ng: >=4.9
+   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

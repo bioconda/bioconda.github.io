@@ -8,6 +8,7 @@ primedlamp
 
 .. conda:recipe:: primedlamp
    :replaces_section_title:
+   :noindex:
 
    LAMP primer design tool.
 
@@ -22,13 +23,20 @@ primedlamp
 
    |downloads_primedlamp| |docker_primedlamp|
 
-   :versions: 1.0.1-0, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.0.1-0``,  ``1.0.0-0``
+
+      
+
    
    :depends blast: 
    :depends clustalo: 
    :depends pandas: 
-   :depends python: >=3.5
-   :depends samtools: >=1.9
+   :depends python: ``>=3.5``
+   :depends samtools: ``>=1.9``
    :requirements:
 
    .. rubric:: Installation

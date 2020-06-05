@@ -8,6 +8,7 @@ bioconductor-gwasurvivr
 
 .. conda:recipe:: bioconductor-gwasurvivr
    :replaces_section_title:
+   :noindex:
 
    gwasurvivr\: an R package for genome wide survival analysis
 
@@ -22,13 +23,20 @@ bioconductor-gwasurvivr
 
    |downloads_bioconductor-gwasurvivr| |docker_bioconductor-gwasurvivr|
 
-   :versions: 1.6.0-0, 1.4.0-0, 1.2.0-1, 1.0.0-1, 1.0.0-0
+   :versions:
+      
+      
+
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+
    
-   :depends bioconductor-gwastools: >=1.34.0,<1.35.0
-   :depends bioconductor-snprelate: >=1.22.0,<1.23.0
-   :depends bioconductor-summarizedexperiment: >=1.18.0,<1.19.0
-   :depends bioconductor-variantannotation: >=1.34.0,<1.35.0
-   :depends r-base: >=4.0,<4.1.0a0
+   :depends bioconductor-gwastools: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-snprelate: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-variantannotation: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrixstats: 
    :depends r-survival: 
    :requirements:

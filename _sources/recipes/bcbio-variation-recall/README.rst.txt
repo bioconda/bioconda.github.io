@@ -8,6 +8,7 @@ bcbio-variation-recall
 
 .. conda:recipe:: bcbio-variation-recall
    :replaces_section_title:
+   :noindex:
 
    Parallel merging\, squaring off and ensemble calling for genomic variants
 
@@ -22,7 +23,22 @@ bcbio-variation-recall
 
    |downloads_bcbio-variation-recall| |docker_bcbio-variation-recall|
 
-   :versions: 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.1.9-1, 0.1.8-1, 0.1.8-0, 0.1.7-1, 0.1.7-0, 0.1.6-0, 0.1.5-0, 0.1.4-2, 0.1.4-1, 0.1.4-0
+   :versions:
+      
+      
+      .. raw:: html
+
+         <details><summary><span class="truncated-version-list"><code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.1.9-1</code>,  <code>0.1.8-1</code>,  <code>0.1.8-0</code>,  </span></summary>
+      
+
+      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.9-1``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
+      
+
    
    :depends openjdk: 
    :depends zlib: 

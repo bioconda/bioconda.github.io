@@ -8,6 +8,7 @@ kfoots
 
 .. conda:recipe:: kfoots
    :replaces_section_title:
+   :noindex:
 
    The package provides methods for fitting multivariate count data with a mixture model or a hidden markov model. Each mixture component is a negative multivariate random variable and an EM algorithm is used to maximize the likelihood.
 
@@ -22,11 +23,18 @@ kfoots
 
    |downloads_kfoots| |docker_kfoots|
 
-   :versions: 1.0-2, 1.0-1, 1.0-0
+   :versions:
+      
+      
+
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+
    
-   :depends libgcc-ng: >=7.3.0
-   :depends r-base: >=3.5.1,<3.5.2.0a0
-   :depends r-rcpp: >=0.10.6
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
+   :depends r-rcpp: ``>=0.10.6``
    :requirements:
 
    .. rubric:: Installation

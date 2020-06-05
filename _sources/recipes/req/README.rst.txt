@@ -8,6 +8,7 @@ req
 
 .. conda:recipe:: req
    :replaces_section_title:
+   :noindex:
 
    Estimating the rate of elementary quartets \(REQ\) of each internal branch of a phylogenetic tree from a distance matrix
 
@@ -22,9 +23,16 @@ req
 
    |downloads_req| |docker_req|
 
-   :versions: 1.3.190304ac-0, v1.3.190304ac-1, v1.3.190304ac-0
+   :versions:
+      
+      
+
+      ``1.3.190304ac-0``,  ``v1.3.190304ac-1``,  ``v1.3.190304ac-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :requirements:
 
    .. rubric:: Installation

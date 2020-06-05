@@ -8,6 +8,7 @@ bcbio-variation
 
 .. conda:recipe:: bcbio-variation
    :replaces_section_title:
+   :noindex:
 
    Toolkit to analyze genomic variation data\, built on the GATK with Clojure
 
@@ -22,7 +23,14 @@ bcbio-variation
 
    |downloads_bcbio-variation| |docker_bcbio-variation|
 
-   :versions: 0.2.6-3, 0.2.6-2, 0.2.6-1, 0.2.6-0
+   :versions:
+      
+      
+
+      ``0.2.6-3``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.6-0``
+
+      
+
    
    :depends openjdk: 
    :requirements:

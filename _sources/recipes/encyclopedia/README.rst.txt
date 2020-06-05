@@ -8,6 +8,7 @@ encyclopedia
 
 .. conda:recipe:: encyclopedia
    :replaces_section_title:
+   :noindex:
 
    EncyclopeDIA is library search engine comprised of several algorithms for DIA data analysis
 
@@ -30,9 +31,16 @@ encyclopedia
 
    |downloads_encyclopedia| |docker_encyclopedia|
 
-   :versions: 0.9.0-0
+   :versions:
+      
+      
+
+      ``0.9.0-0``
+
+      
+
    
-   :depends openjdk: >=8
+   :depends openjdk: ``>=8``
    :depends python: 
    :requirements:
 
