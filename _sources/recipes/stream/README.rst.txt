@@ -22,19 +22,17 @@ stream
 
    |downloads_stream| |docker_stream|
 
-   :versions: 0.4.1-0, 0.4.0-0, 0.3.9-3, 0.3.9-2, 0.3.9-1, 0.3.9-0, 0.3.8-0, 0.3.7-1, 0.3.7-0, 0.3.6-1, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0
+   :versions: 1.0-0, 0.4.1-0, 0.4.0-0, 0.3.9-3, 0.3.9-2, 0.3.9-1, 0.3.9-0, 0.3.8-0, 0.3.7-1, 0.3.7-0, 0.3.6-1, 0.3.5-0, 0.3.4-0, 0.3.3-0, 0.3.2-2, 0.3.2-1, 0.3.2-0, 0.3.1-2, 0.3.1-1, 0.3.1-0, 0.3.0-0, 0.2.6-0, 0.2.5-0, 0.2.4-0, 0.2.3-0, 0.2.2-0, 0.2.1-0, 0.2.0-0
    
    :depends anndata: 
    :depends gunicorn: 
-   :depends libgcc-ng: >=7.3.0
-   :depends libgfortran-ng: >=7,<8.0a0
-   :depends libstdcxx-ng: >=7.3.0
-   :depends matplotlib: 3.0.2.*
+   :depends matplotlib-base: >=3.2
    :depends networkx: 2.1.*
    :depends numpy: 
-   :depends python: >=3.6,<3.7.0a0
+   :depends plotly: 
+   :depends python: >=3
    :depends python-slugify: 
-   :depends r-base: >=3.6,<3.7.0a0
+   :depends r-base: 3.6.*
    :depends r-devtools: 
    :depends r-distutils: 
    :depends r-elpigraph.r: 
@@ -46,7 +44,7 @@ stream
    :depends r-vgam: 
    :depends r-xml: 
    :depends rpy2: 2.9.*
-   :depends scikit-learn: 
+   :depends scikit-learn: >=0.23
    :depends scipy: 
    :depends seaborn: 
    :depends shapely: 
