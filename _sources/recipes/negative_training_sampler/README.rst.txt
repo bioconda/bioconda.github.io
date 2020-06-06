@@ -27,7 +27,7 @@ negative_training_sampler
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -37,6 +37,7 @@ negative_training_sampler
    :depends dask: 
    :depends pandas: 
    :depends pybedtools: 
+   :depends pysam: ``>=0.15``
    :depends python: ``>=3.6``
    :requirements:
 
