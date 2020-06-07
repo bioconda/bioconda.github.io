@@ -28,12 +28,12 @@ sexdeterrmine
       
       
 
-      ``1.1.1-0``,  ``1.1-0``,  ``1.0-1``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0-1``
 
       
 
    
-   :depends python: ``3.7.1.*``
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation

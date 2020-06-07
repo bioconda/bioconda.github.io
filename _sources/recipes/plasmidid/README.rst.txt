@@ -27,7 +27,7 @@ plasmidid
       
       
 
-      ``1.5.2-0``
+      ``1.6.0-0``,  ``1.5.2-0``
 
       
 
@@ -36,18 +36,18 @@ plasmidid
    :depends biopython: 
    :depends blast: 
    :depends bowtie2: 
-   :depends cd-hit: 
    :depends circos: 
    :depends gawk: 
    :depends mash: ``>=2``
    :depends numpy: 
    :depends pandas: 
    :depends prokka: 
-   :depends python: 
+   :depends python: ``3.6.*``
    :depends samtools: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends spades: 
+   :depends tabulate: 
    :depends trimmomatic: 
    :depends wget: 
    :requirements:

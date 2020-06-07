@@ -27,7 +27,7 @@ hiline
       
       
 
-      ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -35,8 +35,8 @@ hiline
    :depends biopython: ``>=1.76``
    :depends bwa: ``>=0.7.17``
    :depends click: ``>=7.0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends matplotlib-base: ``>=3.2.0``
    :depends numpy: ``>=1.18.1``
    :depends pandas: ``>=1.0.1``
