@@ -10,12 +10,12 @@ virsorter
    :replaces_section_title:
    :noindex:
 
-   Mining viral signal from microbial genomic data.
+   VirSorter2 \-\- A multi\-classifier\, expert\-guided approach to detect diverse DNA and RNA virus genomes
 
-   :homepage: https://github.com/simroux/VirSorter
+   :homepage: https://github.com/jiarong/VirSorter2
+   :developer docs: https://github.com/jiarong/VirSorter2/virsorter
    :license: GPL / GPL-2.0
    :recipe: /`virsorter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virsorter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virsorter/meta.yaml>`_
-   :links: doi: :doi:`10.7717/peerj.985`
 
    
 
@@ -28,23 +28,17 @@ virsorter
       
       
 
-      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+      ``2.0.alpha-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
 
       
 
    
-   :depends blast: 
-   :depends diamond: ``0.9.14.*``
-   :depends hmmer: ``3.1b2.*``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends mcl: ``14.137.*``
-   :depends metagene_annotator: 
-   :depends muscle: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends perl-bioperl: 
-   :depends perl-file-which: 
-   :depends perl-list-moreutils: 
-   :depends perl-parallel-forkmanager: 
+   :depends click: ``>=7``
+   :depends cookiecutter: 
+   :depends git: 
+   :depends python: ``>3.6``
+   :depends ruamel.yaml: ``0.16.6.*``
+   :depends snakemake-minimal: ``5.16.0.*``
    :requirements:
 
    .. rubric:: Installation

@@ -18,7 +18,7 @@ biobb_pmx
 
    \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-pmx\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-pmx.readthedocs.io\/en\/latest\/\?badge\=latest\)
    \[\!\[\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_pmx\)
-   \[\!\[\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_pmx\/status\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_pmx\)
+   \[\!\[\]\(https\:\/\/img.shields.io\/badge\/docker\-Quay.io\-blue\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_pmx\)
    \[\!\[\]\(https\:\/\/www.singularity\-hub.org\/static\/img\/hosted\-singularity\-\-hub\-\%23e32929.svg\)\]\(https\:\/\/www.singularity\-hub.org\/collections\/2735\/usage\)
    \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
 
@@ -59,13 +59,13 @@ biobb_pmx
       
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends biobb_common: ``2.0.1``
-   :depends python: ``3.6.*``
+   :depends biobb_common: ``3.0.0``
+   :depends python: ``3.7.*``
    :requirements:
 
    .. rubric:: Installation
