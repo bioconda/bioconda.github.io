@@ -47,10 +47,10 @@ metagenome-atlas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.beta2-0</code>,  <code>2.2.0-0</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.1-0</code>,  <code>2.0.6-1</code>,  <code>2.0.5-1</code>,  <code>2.0.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.2-0</code>,  <code>2.3.beta2-0</code>,  <code>2.2.0-0</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.1-0</code>,  <code>2.0.6-1</code>,  <code>2.0.5-1</code>,  </span></summary>
       
 
-      ``2.3.beta2-0``,  ``2.2.0-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``,  ``2.0.6-1``,  ``2.0.5-1``,  ``2.0.4-1``,  ``2.0.3-1``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.3.2-0``,  ``2.3.beta2-0``,  ``2.2.0-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``,  ``2.0.6-1``,  ``2.0.5-1``,  ``2.0.4-1``,  ``2.0.3-1``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
       .. raw:: html
@@ -67,7 +67,7 @@ metagenome-atlas
    :depends pandas: ``>=0.23``
    :depends python: ``>3.6,<3.7``
    :depends ruamel.yaml: ``0.15.99.*``
-   :depends snakemake: ``>=5.4.5,<6``
+   :depends snakemake: ``>=5.4.5,<=5.9``
    :requirements:
 
    .. rubric:: Installation

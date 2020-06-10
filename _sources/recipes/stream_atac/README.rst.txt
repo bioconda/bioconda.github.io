@@ -28,10 +28,10 @@ stream_atac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.5-4</code>,  <code>0.3.5-3</code>,  <code>0.3.5-2</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.5-5</code>,  <code>0.3.5-4</code>,  <code>0.3.5-3</code>,  <code>0.3.5-2</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  </span></summary>
       
 
-      ``0.3.5-4``,  ``0.3.5-3``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.3a-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.5-5``,  ``0.3.5-4``,  ``0.3.5-3``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.3a-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,16 @@ stream_atac
 
    
    :depends anndata: 
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: 
+   :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: 
+   :depends bioconductor-bsgenome.mmusculus.ucsc.mm9: 
    :depends bioconductor-chromvar: 
-   :depends conda: 
-   :depends libcxx: ``>=9.0.1``
-   :depends libgfortran: ``>=4.0.0,<5.0.0.a0``
-   :depends openssl: ``>=1.1.1g,<1.1.2a``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends bioconductor-jaspar2016: 
+   :depends bioconductor-motifmatchr: 
+   :depends perl: 
+   :depends python: ``>=3``
+   :depends r-base: 
    :depends r-essentials: 
    :depends r-optparse: 
    :depends rpy2: ``2.9.*``

@@ -28,17 +28,18 @@ ananse
       
       
 
-      ``0.1.1-0``,  ``v0.1.2-0``
+      ``0.1.3-0``,  ``0.1.1-0``,  ``v0.1.2-0``
 
       
 
    
    :depends adjusttext: 
    :depends dask: 
-   :depends gimmemotifs: ``>=0.14.4``
+   :depends gimmemotifs: ``0.14.4 py37h516909a_1``
+   :depends loguru: 
    :depends networkx: 
    :depends pytables: 
-   :depends python: ``>3``
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation

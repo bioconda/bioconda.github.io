@@ -29,14 +29,16 @@ biasaway
       
       
 
-      ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.1-0``,  ``1.0.4-0``,  ``1.0.2-0``
+      ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.1-0``,  ``1.0.4-0``,  ``1.0.2-0``
 
       
 
    
    :depends biopython: 
+   :depends matplotlib-base: ``<=3.2.0``
    :depends numpy: ``<=1.16.5``
    :depends python: 
+   :depends seaborn: 
    :requirements:
 
    .. rubric:: Installation
