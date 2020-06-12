@@ -27,21 +27,21 @@ cgpbigwig
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gmp: ``>=6.2.0,<7.0a0``
-   :depends gnutls: ``>=3.6.5,<3.7.0a0``
-   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends gnutls: ``>=3.6.13,<3.7.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libbigwig: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends libtasn1: 
    :depends nettle: ``>=3.4.1,<3.5.0a0``
    :depends p11-kit: 
-   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

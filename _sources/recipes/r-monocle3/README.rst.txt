@@ -28,7 +28,7 @@ r-monocle3
       
       
 
-      ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
+      ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
 
@@ -42,8 +42,8 @@ r-monocle3
    :depends bioconductor-s4vectors: 
    :depends bioconductor-singlecellexperiment: 
    :depends bioconductor-summarizedexperiment: ``>=1.11.5``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-assertthat: ``>=0.2.1``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: ``>=0.8.0.1``
