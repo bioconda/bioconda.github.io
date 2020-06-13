@@ -53,10 +53,10 @@ biobb_model
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-1</code>,  <code>0.1.6-1</code>,  <code>0.1.5-1</code>,  <code>0.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-1</code>,  <code>0.1.6-1</code>,  <code>0.1.5-1</code>,  </span></summary>
       
 
-      ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.6-1``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
+      ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.6-1``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
       .. raw:: html
