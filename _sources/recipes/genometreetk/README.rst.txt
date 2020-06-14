@@ -27,13 +27,15 @@ genometreetk
       
       
 
-      ``0.1.6-0``
+      ``0.1.6-1``,  ``0.1.6-0``
 
       
 
    
    :depends biolib: ``>=0.1.0``
    :depends dendropy: ``>=4.0.0``
+   :depends fasttree: 
+   :depends hmmer: 
    :depends numpy: ``>=1.8.0``
    :depends python: 
    :requirements:

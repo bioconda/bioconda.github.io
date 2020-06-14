@@ -10,7 +10,7 @@ virsorter
    :replaces_section_title:
    :noindex:
 
-   VirSorter2 \-\- A multi\-classifier\, expert\-guided approach to detect diverse DNA and RNA virus genomes
+   VirSorter2 \-\-  A multi\-classifier\, expert\-guided approach to detect diverse DNA and RNA virus genomes
 
    :homepage: https://github.com/jiarong/VirSorter2
    :developer docs: https://github.com/jiarong/VirSorter2/virsorter
@@ -27,9 +27,17 @@ virsorter
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.alpha-1``,  ``2.0.alpha-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.alpha-2</code>,  <code>2.0.alpha-1</code>,  <code>2.0.alpha-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-4</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  </span></summary>
+      
 
+      ``2.0.alpha-2``,  ``2.0.alpha-1``,  ``2.0.alpha-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
