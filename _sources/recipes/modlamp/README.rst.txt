@@ -29,21 +29,21 @@ modlamp
       
       
 
-      ``4.1.2-0``
+      ``4.2.1-0``,  ``4.1.2-0``
 
       
 
    
+   :depends joblib: ``>=0.15.1``
    :depends lxml: ``>=3.6.4``
    :depends matplotlib-base: ``>=1.5.1``
-   :depends nose: ``>=1.3.7``
+   :depends mysql-connector-python: ``>=2.2.9``
    :depends numpy: ``>=1.10.4``
    :depends pandas: ``>=0.18.1``
    :depends python: 
    :depends requests: ``>=2.11.1``
    :depends scikit-learn: ``>=0.18.0``
    :depends scipy: ``>=0.17.0``
-   :depends setuptools: ``>=20.2.2``
    :requirements:
 
    .. rubric:: Installation

@@ -14,7 +14,7 @@ pblat
 
    :homepage: https://icebert.github.io/pblat
    :developer docs: https://github.com/icebert/pblat
-   :license: https://icebert.github.io/pblat
+   :license: OTHER
    :recipe: /`pblat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pblat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pblat/meta.yaml>`_
    :links: biotools: :biotools:`pblat`, doi: :doi:`10.1186/s12859-019-2597-8`
 
@@ -29,7 +29,7 @@ pblat
       
       
 
-      ``2.3-0``
+      ``2.5-0``,  ``2.4-0``,  ``2.3-0``
 
       
 
