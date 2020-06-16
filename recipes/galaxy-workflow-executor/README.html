@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Package Recipe &#39;primedlamp&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;galaxy-workflow-executor&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -98,39 +98,36 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="primedlamp">
+  <div class="section" id="galaxy-workflow-executor">
 <dl class="conda recipe">
 <dt>
-<em class="property">recipe </em><code class="sig-name descname">primedlamp</code></dt>
-<dd><p>LAMP primer design tool.</p>
+<em class="property">recipe </em><code class="sig-name descname">galaxy-workflow-executor</code></dt>
+<dd><p>Execute workflows on Galaxy through the CLI</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/MatthewHiggins2017/PrimedLAMP/">https://github.com/MatthewHiggins2017/PrimedLAMP/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/ebi-gene-expression-group/galaxy-workflow-executor">https://github.com/ebi-gene-expression-group/galaxy-workflow-executor</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL3</p>
+<dd class="field-even"><p>Apache / Apache-2.0</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primedlamp">primedlamp</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primedlamp/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-workflow-executor">galaxy-workflow-executor</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-workflow-executor/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt id="package-primedlamp">
-<em class="property">package </em><code class="sig-name descname">primedlamp</code><a class="headerlink" href="#package-primedlamp" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/primedlamp"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/primedlamp.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/primedlamp"><img alt="docker_primedlamp" src="https://quay.io/repository/biocontainers/primedlamp/status" /></a></p>
+<dt id="package-galaxy-workflow-executor">
+<em class="property">package </em><code class="sig-name descname">galaxy-workflow-executor</code><a class="headerlink" href="#package-galaxy-workflow-executor" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/galaxy-workflow-executor"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/galaxy-workflow-executor.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/galaxy-workflow-executor"><img alt="docker_galaxy-workflow-executor" src="https://quay.io/repository/biocontainers/galaxy-workflow-executor/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../blast/README.html#package-blast" title="blast package"><strong>blast</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../clustalo/README.html#package-clustalo" title="clustalo package"><strong>clustalo</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioblend/README.html#package-bioblend" title="bioblend package"><strong>bioblend</strong></a> <code class="docutils literal notranslate"><span class="pre">0.13.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -140,24 +137,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">primedlamp</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">galaxy</span><span class="o">-</span><span class="n">workflow</span><span class="o">-</span><span class="n">executor</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">primedlamp</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">galaxy</span><span class="o">-</span><span class="n">workflow</span><span class="o">-</span><span class="n">executor</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">primedlamp</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">galaxy</span><span class="o">-</span><span class="n">workflow</span><span class="o">-</span><span class="n">executor</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/primedlamp?tab=tags">primedlamp/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/galaxy-workflow-executor?tab=tags">galaxy-workflow-executor/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/primedlamp/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/primedlamp/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/galaxy-workflow-executor/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/galaxy-workflow-executor/README.html)
 </pre></div>
 </div>
 </div>
@@ -178,14 +175,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/primedlamp/README.rst.txt"
+      <a href="../../_sources/recipes/galaxy-workflow-executor/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/primedlamp/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/galaxy-workflow-executor/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

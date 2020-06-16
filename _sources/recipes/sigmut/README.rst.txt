@@ -12,7 +12,7 @@ sigmut
 
    Wrapper of SigProfiler \(Copyright\(c\) 2019\, Erik Bergstrom \[Alexandrov Lab\]\)
 
-   :homepage: https://github.com/lgpdv/sigmut
+   :homepage: https://github.com/artbio/sigmut
    :license: BSD / BSD 2-Clause
    :recipe: /`sigmut <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sigmut>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sigmut/meta.yaml>`_
 
@@ -27,7 +27,7 @@ sigmut
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
