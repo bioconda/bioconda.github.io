@@ -29,7 +29,7 @@ haphpipe
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -42,13 +42,14 @@ haphpipe
    :depends freebayes: 
    :depends future: 
    :depends gatk: ``3.8.*``
+   :depends gsutil: 
    :depends mafft: 
    :depends modeltest-ng: 
    :depends mummer: 
    :depends picard: 
    :depends python: ``>=3.7``
    :depends pyyaml: 
-   :depends raxml: 
+   :depends raxml-ng: 
    :depends samtools: ``1.9.*``
    :depends seqtk: 
    :depends sierrapy: 

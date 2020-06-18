@@ -31,10 +31,10 @@ igv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.5.2-0</code>,  <code>2.4.17-0</code>,  <code>2.4.16-0</code>,  <code>2.4.9-1</code>,  <code>2.4.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.4-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.5.2-0</code>,  <code>2.4.17-0</code>,  <code>2.4.16-0</code>,  <code>2.4.9-1</code>,  </span></summary>
       
 
-      ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.5.2-0``,  ``2.4.17-0``,  ``2.4.16-0``,  ``2.4.9-1``,  ``2.4.9-0``,  ``2.4.6-0``,  ``2.3.98-0``
+      ``2.8.4-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.5.2-0``,  ``2.4.17-0``,  ``2.4.16-0``,  ``2.4.9-1``,  ``2.4.9-0``,  ``2.4.6-0``,  ``2.3.98-0``
 
       
       .. raw:: html

@@ -28,10 +28,10 @@ rmats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.0-0</code>,  <code>4.0.2-4</code>,  <code>4.0.2-3</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>4.0.2-0</code>,  <code>3.2.5-2</code>,  <code>3.2.5-1</code>,  <code>3.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.2-4</code>,  <code>4.0.2-3</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>4.0.2-0</code>,  <code>3.2.5-2</code>,  <code>3.2.5-1</code>,  </span></summary>
       
 
-      ``4.1.0-0``,  ``4.0.2-4``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``3.2.5-2``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.2beta-0``
+      ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-4``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``3.2.5-2``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.2beta-0``
 
       
       .. raw:: html
@@ -46,8 +46,8 @@ rmats
    :depends libgfortran-ng: ``>=7,<8.0a0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends star: ``>=2.5``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

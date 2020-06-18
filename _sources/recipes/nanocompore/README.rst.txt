@@ -27,22 +27,22 @@ nanocompore
       
       
 
-      ``1.0.0rc3.post2-0``,  ``1.0.0rc3.post1-0``
+      ``1.0.0rc3.post2-1``,  ``1.0.0rc3.post2-0``,  ``1.0.0rc3.post1-0``
 
       
 
    
    :depends bedparse: 
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``>=1.16.0``
    :depends pandas: 
    :depends pyfaidx: 
-   :depends python: ``>=3.6``
+   :depends python: ``3.6.*``
    :depends pyyaml: 
-   :depends scikit-learn: 
-   :depends scipy: 
+   :depends scikit-learn: ``0.21.*``
+   :depends scipy: ``>=1.2.0``
    :depends seaborn: 
-   :depends statsmodels: 
+   :depends statsmodels: ``>=0.9.0``
    :depends tqdm: 
    :requirements:
 

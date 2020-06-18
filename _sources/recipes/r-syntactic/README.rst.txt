@@ -14,7 +14,7 @@ r-syntactic
 
    :homepage: https://syntactic.acidgenomics.com/
    :developer docs: https://github.com/acidgenomics/syntactic
-   :license: MIT
+   :license: GPL-3
    :recipe: /`r-syntactic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-syntactic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-syntactic/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-syntactic
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.9-1</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.10-0</code>,  <code>0.3.9-1</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  </span></summary>
       
 
-      ``0.3.9-1``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.3.10-0``,  ``0.3.9-1``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -41,11 +41,12 @@ r-syntactic
       
 
    
-   :depends r-acidbase: ``>=0.1.4``
-   :depends r-acidgenerics: ``>=0.3.1``
+   :depends r-acidbase: ``>=0.1.9``
+   :depends r-acidgenerics: ``>=0.3.6``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-goalie: ``>=0.4.1``
-   :depends r-stringi: ``>=1.4``
+   :depends r-goalie: ``>=0.4.4``
+   :depends r-stringi: ``>=1.4.6``
+   :depends r-stringr: ``>=1.4``
    :requirements:
 
    .. rubric:: Installation
