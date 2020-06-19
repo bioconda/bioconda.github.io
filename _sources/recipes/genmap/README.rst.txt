@@ -10,7 +10,7 @@ genmap
    :replaces_section_title:
    :noindex:
 
-   Fast computation of genome mappability.
+   Ultra\-fast computation of genome mappability.
 
    :homepage: https://github.com/cpockrandt/genmap
    :license: BSD
@@ -27,13 +27,13 @@ genmap
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openmp: 
    :requirements:
 

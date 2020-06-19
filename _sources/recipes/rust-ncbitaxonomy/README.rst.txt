@@ -13,7 +13,7 @@ rust-ncbitaxonomy
    A Rust crate for working with a local copy of the NCBI Taxonomy database\, which provides utilities for taxonomic filtering.
 
    :homepage: https://github.com/pvanheus/ncbitaxonomy
-   :documentation: https://docs.rs/crate/ncbitaxonomy/1.0.3
+   :documentation: https://docs.rs/crate/ncbitaxonomy/1.0.5
    
    :license: MIT
    :recipe: /`rust-ncbitaxonomy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-ncbitaxonomy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-ncbitaxonomy/meta.yaml>`_
@@ -29,12 +29,12 @@ rust-ncbitaxonomy
       
       
 
-      ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``1.0.5-0``,  ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends sqlite: ``>=3.30.1,<4.0a0``
    :requirements:
 
