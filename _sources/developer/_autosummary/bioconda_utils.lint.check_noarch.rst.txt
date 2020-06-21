@@ -1,5 +1,5 @@
-check\_noarch
-=============
+
+
 
 
 .. currentmodule:: bioconda_utils.lint.check_noarch

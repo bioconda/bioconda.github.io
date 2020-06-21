@@ -1,5 +1,5 @@
-update\_pinnings
-================
+
+
 
 
 .. currentmodule:: bioconda_utils.update_pinnings

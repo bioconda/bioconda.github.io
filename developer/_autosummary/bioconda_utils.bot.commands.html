@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>commands &#8212; Bioconda  documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;no title&gt; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -16,8 +17,8 @@
     <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="config" href="bioconda_utils.bot.config.html" />
-    <link rel="prev" title="chat" href="bioconda_utils.bot.chat.html" />
+    <link rel="next" title="&lt;no title&gt;" href="bioconda_utils.bot.config.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="bioconda_utils.bot.chat.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -67,26 +68,10 @@
 
 
 <h3>Navigation</h3>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.bot.html">bot</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.chat.html">chat</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">commands</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.config.html">config</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.events.html">events</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.tasks.html">tasks</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.views.html">views</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.web.html">web</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.worker.html">worker</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -116,9 +101,7 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="module-bioconda_utils.bot.commands">
-<span id="commands"></span><h1>commands<a class="headerlink" href="#module-bioconda_utils.bot.commands" title="Permalink to this headline">¶</a></h1>
-<p>Handlers for user commmands (<code class="docutils literal notranslate"><span class="pre">&#64;biocondabot</span> <span class="pre">do</span> <span class="pre">this</span></code>)</p>
+  <span class="target" id="module-bioconda_utils.bot.commands"></span><p>Handlers for user commmands (<code class="docutils literal notranslate"><span class="pre">&#64;biocondabot</span> <span class="pre">do</span> <span class="pre">this</span></code>)</p>
 <p class="rubric">Functions</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -126,10 +109,10 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_autobump" title="bioconda_utils.bot.commands.command_autobump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_autobump</span></code></a>(ghapi, _issue_number, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_autobump" title="bioconda_utils.bot.commands.command_autobump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_autobump</span></code></a>(ghapi, issue_number, user, …)</p></td>
 <td><p>Run immediate Autobump on recipes</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_bump" title="bioconda_utils.bot.commands.command_bump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_bump</span></code></a>(ghapi, issue_number, _user, *_args)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_bump" title="bioconda_utils.bot.commands.command_bump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_bump</span></code></a>(ghapi, issue_number, user, *args)</p></td>
 <td><p>Bump the build number of a recipe</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_hello" title="bioconda_utils.bot.commands.command_hello"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_hello</span></code></a>(ghapi, issue_number, user, *_args)</p></td>
@@ -138,10 +121,10 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_lint" title="bioconda_utils.bot.commands.command_lint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_lint</span></code></a>(ghapi, issue_number, _user, *_args)</p></td>
 <td><p>Lint the current recipe</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_merge" title="bioconda_utils.bot.commands.command_merge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_merge</span></code></a>(ghapi, issue_number, user, *_args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_merge" title="bioconda_utils.bot.commands.command_merge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_merge</span></code></a>(ghapi, issue_number, user, *args)</p></td>
 <td><p>Merge PR</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_rebuild" title="bioconda_utils.bot.commands.command_rebuild"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_rebuild</span></code></a>(ghapi, issue_number, _user, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_rebuild" title="bioconda_utils.bot.commands.command_rebuild"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_rebuild</span></code></a>(ghapi, issue_number, user, *args)</p></td>
 <td><p>Trigger rebuild of PR as of latest sha</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.commands.command_recheck" title="bioconda_utils.bot.commands.command_recheck"><code class="xref py py-obj docutils literal notranslate"><span class="pre">command_recheck</span></code></a>(ghapi, issue_number, _user, …)</p></td>
@@ -201,13 +184,13 @@
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.commands.command_autobump">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_autobump</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ghapi</span></em>, <em class="sig-param"><span class="n">_issue_number</span></em>, <em class="sig-param"><span class="n">_user</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/commands.html#command_autobump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_autobump" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_autobump</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ghapi</span></em>, <em class="sig-param"><span class="n">issue_number</span></em>, <em class="sig-param"><span class="n">user</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/commands.html#command_autobump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_autobump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run immediate Autobump on recipes</p>
 </dd></dl>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.commands.command_bump">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_bump</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ghapi</span></em>, <em class="sig-param"><span class="n">issue_number</span></em>, <em class="sig-param"><span class="n">_user</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">_args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/commands.html#command_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_bump" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_bump</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ghapi</span></em>, <em class="sig-param"><span class="n">issue_number</span></em>, <em class="sig-param"><span class="n">user</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/commands.html#command_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_bump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bump the build number of a recipe</p>
 </dd></dl>
 
@@ -226,13 +209,13 @@
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.commands.command_merge">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_merge</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ghapi</span></em>, <em class="sig-param"><span class="n">issue_number</span></em>, <em class="sig-param"><span class="n">user</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">_args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/commands.html#command_merge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_merge" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_merge</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ghapi</span></em>, <em class="sig-param"><span class="n">issue_number</span></em>, <em class="sig-param"><span class="n">user</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/commands.html#command_merge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_merge" title="Permalink to this definition">¶</a></dt>
 <dd><p>Merge PR</p>
 </dd></dl>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.commands.command_rebuild">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_rebuild</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ghapi</span></em>, <em class="sig-param"><span class="n">issue_number</span></em>, <em class="sig-param"><span class="n">_user</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">_args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/commands.html#command_rebuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_rebuild" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.commands.</code><code class="sig-name descname">command_rebuild</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ghapi</span></em>, <em class="sig-param"><span class="n">issue_number</span></em>, <em class="sig-param"><span class="n">user</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/commands.html#command_rebuild"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.commands.command_rebuild" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger rebuild of PR as of latest sha</p>
 </dd></dl>
 
@@ -270,7 +253,6 @@
 </dl>
 </dd></dl>
 
-</div>
 
 
           </div>
@@ -283,7 +265,7 @@
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

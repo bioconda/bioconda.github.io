@@ -4,6 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Package Recipe &#39;biobb_structure_checking&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -124,49 +125,49 @@ checking as residue quirality, amide orientation, or vdw clashes.</p>
 <p>```
 usage: checkStruc.py [-h] [-i INPUT_STRUCTURE_PATH] [-o OUTPUT_STRUCTURE_PATH]</p>
 <blockquote>
-<div><p>[–version] [–data_dir DATA_DIR]
-[–res_lib RES_LIB_PATH] [–data_lib DATA_LIBRARY_PATH]
-[–json JSON_OUTPUT_PATH] [–quiet] [–check_only]
-[–non_interactive] [–force_save]
-[–pdb_server PDB_SERVER]
+<div><p>[--version] [--data_dir DATA_DIR]
+[--res_lib RES_LIB_PATH] [--data_lib DATA_LIBRARY_PATH]
+[--json JSON_OUTPUT_PATH] [--quiet] [--check_only]
+[--non_interactive] [--force_save]
+[--pdb_server PDB_SERVER]
 command …</p>
 </div></blockquote>
 <dl>
 <dt>positional arguments:</dt><dd><p>command               Command to execute (help: checkStruc commands)
 options               Specific command options</p>
 </dd>
-<dt>optional arguments:</dt><dd><p>-h, –help            show this help message and exit
--i INPUT_STRUCTURE_PATH, –input INPUT_STRUCTURE_PATH</p>
+<dt>optional arguments:</dt><dd><p>-h, --help            show this help message and exit
+-i INPUT_STRUCTURE_PATH, --input INPUT_STRUCTURE_PATH</p>
 <blockquote>
 <div><p>Input structure. Formats PDB|mmCIF. Remote pdb:{pdbid}</p>
 </div></blockquote>
 <dl class="simple">
-<dt>-o OUTPUT_STRUCTURE_PATH, –output OUTPUT_STRUCTURE_PATH</dt><dd><p>Output structure. Format PDB</p>
+<dt>-o OUTPUT_STRUCTURE_PATH, --output OUTPUT_STRUCTURE_PATH</dt><dd><p>Output structure. Format PDB</p>
 </dd>
 </dl>
-<p>–version             show program’s version number and exit
-–data_dir DATA_DIR   Override settings default data dir
-–res_lib RES_LIB_PATH</p>
+<p>--version             show program's version number and exit
+--data_dir DATA_DIR   Override settings default data dir
+--res_lib RES_LIB_PATH</p>
 <blockquote>
 <div><p>Override settings default residue library (AMBER prep
 format)</p>
 </div></blockquote>
 <dl class="simple">
-<dt>–data_lib DATA_LIBRARY_PATH</dt><dd><p>Override settings default data library</p>
+<dt>--data_lib DATA_LIBRARY_PATH</dt><dd><p>Override settings default data library</p>
 </dd>
-<dt>–json JSON_OUTPUT_PATH</dt><dd><p>Cummulated checking results on a json file</p>
+<dt>--json JSON_OUTPUT_PATH</dt><dd><p>Cummulated checking results on a json file</p>
 </dd>
 </dl>
-<p>–quiet               Reduces output, removing labels and progress info
-–check_only          Perform checks, structure is not modified
-–non_interactive     Do not prompt for missing parameters
-–force_save          Force saving an output file even if no modification
-–pdb_server PDB_SERVER</p>
+<p>--quiet               Reduces output, removing labels and progress info
+--check_only          Perform checks, structure is not modified
+--non_interactive     Do not prompt for missing parameters
+--force_save          Force saving an output file even if no modification
+--pdb_server PDB_SERVER</p>
 <blockquote>
 <div><p>Server for retrieving structures (default: RCSB|mmb)</p>
 </div></blockquote>
-<p>–load                Loads structure from PDB server into the local cache
-–stats               Loads structure and get basic statistics and headers</p>
+<p>--load                Loads structure from PDB server into the local cache
+--stats               Loads structure and get basic statistics and headers</p>
 </dd>
 </dl>
 <p>Available commands:</p>
@@ -179,41 +180,41 @@ checkall:   Perform all checks without fixes
 load: Stores structure on local cache and provide basic statistics</p>
 <p>1. System Configuration
 =======================
-models [–select_model model_num]</p>
+models [--select_model model_num]</p>
 <blockquote>
 <div><p>Detect/Select Models</p>
 </div></blockquote>
 <dl class="simple">
-<dt>chains [–select_chains chain_ids]</dt><dd><p>Detect/Select Chains</p>
+<dt>chains [--select_chains chain_ids]</dt><dd><p>Detect/Select Chains</p>
 </dd>
 <dt>inscodes</dt><dd><p>Detects residues with insertion codes (no fix)</p>
 </dd>
-<dt>altloc [–select_altloc occupancy| alt_id | list of res_id:alt_id]</dt><dd><p>Detect/Select Alternative Locations</p>
+<dt>altloc [--select_altloc occupancy| alt_id | list of res_id:alt_id]</dt><dd><p>Detect/Select Alternative Locations</p>
 </dd>
-<dt>metals [–remove All | None | Met_ids_list | Residue_list]</dt><dd><p>Detect/Remove Metals</p>
+<dt>metals [--remove All | None | Met_ids_list | Residue_list]</dt><dd><p>Detect/Remove Metals</p>
 </dd>
-<dt>ligands [–remove All | None | Res_type_list | Residue_list]</dt><dd><p>Detect/Remove Ligands</p>
+<dt>ligands [--remove All | None | Res_type_list | Residue_list]</dt><dd><p>Detect/Remove Ligands</p>
 </dd>
-<dt>remwat [–remove Yes|No]</dt><dd><p>Remove Water molecules</p>
+<dt>remwat [--remove Yes|No]</dt><dd><p>Remove Water molecules</p>
 </dd>
-<dt>remh [remh –remove Yes|No]</dt><dd><p>Remove Hydrogen atoms from structure</p>
+<dt>remh [remh --remove Yes|No]</dt><dd><p>Remove Hydrogen atoms from structure</p>
 </dd>
-<dt>mutateside [–mut mutation_list]</dt><dd><p>Mutate side chain with minimal atom replacement. Allows multiple mutations</p>
+<dt>mutateside [--mut mutation_list]</dt><dd><p>Mutate side chain with minimal atom replacement. Allows multiple mutations</p>
 </dd>
-<dt>addH [–mode auto | pH | interactive | interactive_his]</dt><dd><p>Add Hydrogen Atoms</p>
+<dt>addH [--mode auto | pH | interactive | interactive_his]</dt><dd><p>Add Hydrogen Atoms</p>
 </dd>
 </dl>
 <ol class="arabic simple" start="2">
 <li><p>Fix Structure Errors</p></li>
 </ol>
 <dl class="simple">
-<dt>amide  [–fix All|None|Residue List]</dt><dd><p>Detect/Fix Amide atoms Assignment</p>
+<dt>amide  [--fix All|None|Residue List]</dt><dd><p>Detect/Fix Amide atoms Assignment</p>
 </dd>
-<dt>chiral [–fix All|None|Residue List]</dt><dd><p>Detect/Fix Improper quirality</p>
+<dt>chiral [--fix All|None|Residue List]</dt><dd><p>Detect/Fix Improper quirality</p>
 </dd>
-<dt>fixside [–fix All |None|Residue List]</dt><dd><p>Complete side chains</p>
+<dt>fixside [--fix All |None|Residue List]</dt><dd><p>Complete side chains</p>
 </dd>
-<dt>backbone [–fix All|None|Residue List]</dt><dd><p>Analyze main chain missing atoms and fragments. O, OXT atoms can be fixed</p>
+<dt>backbone [--fix All|None|Residue List]</dt><dd><p>Analyze main chain missing atoms and fragments. O, OXT atoms can be fixed</p>
 </dd>
 </dl>
 <ol class="arabic simple" start="3">
@@ -250,8 +251,8 @@ clashes    Steric clashes (Severe, Apolar, Polar Donors, Polar Acceptors,</p>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../biobb_structure_utils/README.html#biobb_structure_utils"><strong class="xref backref">biobb_structure_utils</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../biobb_model/README.html#biobb_model"><strong class="xref backref">biobb_model</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../biobb_structure_utils/README.html#biobb_structure_utils"><strong class="xref backref">biobb_structure_utils</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -291,7 +292,7 @@ clashes    Steric clashes (Severe, Apolar, Polar Donors, Polar Acceptors,</p>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>autobump &#8212; Bioconda  documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;no title&gt; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -16,8 +17,8 @@
     <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="update_pinnings" href="bioconda_utils.update_pinnings.html" />
-    <link rel="prev" title="sphinxext" href="bioconda_utils.sphinxext.html" />
+    <link rel="next" title="&lt;no title&gt;" href="bioconda_utils.update_pinnings.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="bioconda_utils.sphinxext.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -67,39 +68,10 @@
 
 
 <h3>Navigation</h3>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">circleci</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">cli</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cran_skeleton.html">cran_skeleton</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.docker_utils.html">docker_utils</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">githandler</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">githubhandler</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.recipe.html">recipe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">autobump</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -129,9 +101,7 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="module-bioconda_utils.autobump">
-<span id="autobump"></span><h1>autobump<a class="headerlink" href="#module-bioconda_utils.autobump" title="Permalink to this headline">¶</a></h1>
-<p>Updates packages when new upstream releases become available</p>
+  <span class="target" id="module-bioconda_utils.autobump"></span><p>Updates packages when new upstream releases become available</p>
 <p>Overview:</p>
 <ul class="simple">
 <li><p>The <a class="reference internal" href="#bioconda_utils.autobump.Scanner" title="bioconda_utils.autobump.Scanner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Scanner</span></code></a> initializes the <a class="reference external" href="https://docs.python.org/3/library/asyncio.html#module-asyncio" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">asyncio</span></code></a> loop and for each recipe,
@@ -168,7 +138,7 @@ have come past it, to avoid too many PRs opened at once.</p></li>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">AutoBumpConfigMixin</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">AutoBumpConfigMixin</span></code>()</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.autobump.CheckPinning" title="bioconda_utils.autobump.CheckPinning"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CheckPinning</span></code></a>(scanner, bump_only_python)</p></td>
@@ -234,7 +204,7 @@ have come past it, to avoid too many PRs opened at once.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.autobump.WriteRecipe" title="bioconda_utils.autobump.WriteRecipe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">WriteRecipe</span></code></a>(scanner)</p></td>
 <td><p>Write recipe to filesystem</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">WritingFilter</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">WritingFilter</span></code>()</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -529,7 +499,7 @@ in many cases (there is work to change this going on).</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.FetchUpstreamDependencies.build_config">
-<code class="sig-name descname">build_config</code><em class="property">: conda_build.config.Config</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.FetchUpstreamDependencies.build_config" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">build_config</code><em class="property">: conda_build.config.Config</em><a class="headerlink" href="#bioconda_utils.autobump.FetchUpstreamDependencies.build_config" title="Permalink to this definition">¶</a></dt>
 <dd><p>conda build config</p>
 </dd></dl>
 
@@ -606,7 +576,7 @@ Note: this will break if we have <code class="docutils literal notranslate"><spa
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.GitFilter.git">
-<code class="sig-name descname">git</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.GitFilter.git" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">git</code><a class="headerlink" href="#bioconda_utils.autobump.GitFilter.git" title="Permalink to this definition">¶</a></dt>
 <dd><p>The <a class="reference internal" href="bioconda_utils.githandler.html#bioconda_utils.githandler.GitHandler" title="bioconda_utils.githandler.GitHandler"><code class="xref any py py-class docutils literal notranslate"><span class="pre">GitHandler</span></code></a> class for accessing repo</p>
 </dd></dl>
 
@@ -748,13 +718,13 @@ work from there so that we don’t recreate the “same” update.</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.recipe_source">
-<code class="sig-name descname">recipe_source</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.recipe_source" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">recipe_source</code><a class="headerlink" href="#bioconda_utils.autobump.Scanner.recipe_source" title="Permalink to this definition">¶</a></dt>
 <dd><p>recipe source</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.req">
-<code class="sig-name descname">req</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.req" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">req</code><a class="headerlink" href="#bioconda_utils.autobump.Scanner.req" title="Permalink to this definition">¶</a></dt>
 <dd><p>async requests helper</p>
 </dd></dl>
 
@@ -771,19 +741,19 @@ work from there so that we don’t recreate the “same” update.</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.stats">
-<code class="sig-name descname">stats</code><em class="property">: Counter</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.stats" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">stats</code><em class="property">: Counter</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.stats" title="Permalink to this definition">¶</a></dt>
 <dd><p>counter to gather stats on various states</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.status">
-<code class="sig-name descname">status</code><em class="property">: List[Tuple[str, str]]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">status</code><em class="property">: List<span class="p">[</span>Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span><span class="p">]</span></em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status" title="Permalink to this definition">¶</a></dt>
 <dd><p>collect end status for each recipe</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.Scanner.status_fn">
-<code class="sig-name descname">status_fn</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status_fn" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">status_fn</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status_fn" title="Permalink to this definition">¶</a></dt>
 <dd><p>filename to write statuses to</p>
 </dd></dl>
 
@@ -849,13 +819,13 @@ file upon pipeline completion.</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateChecksums.failed_file">
-<code class="sig-name descname">failed_file</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_file" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">failed_file</code><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>unparsed urls - for later inspection</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateChecksums.failed_urls">
-<code class="sig-name descname">failed_urls</code><em class="property">: List[str]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_urls" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">failed_urls</code><em class="property">: List<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span></em><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_urls" title="Permalink to this definition">¶</a></dt>
 <dd><p>failed urls - for later inspection</p>
 </dd></dl>
 
@@ -965,7 +935,7 @@ the recipe</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.build_config">
-<code class="sig-name descname">build_config</code><em class="property">: conda_build.config.Config</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.build_config" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">build_config</code><em class="property">: conda_build.config.Config</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.build_config" title="Permalink to this definition">¶</a></dt>
 <dd><p>conda build config</p>
 </dd></dl>
 
@@ -1008,7 +978,7 @@ the recipe</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.hoster_factory">
-<code class="sig-name descname">hoster_factory</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.hoster_factory" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">hoster_factory</code><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.hoster_factory" title="Permalink to this definition">¶</a></dt>
 <dd><p>function selecting hoster</p>
 </dd></dl>
 
@@ -1032,13 +1002,13 @@ defined by parse_version)</p></li>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.unparsed_file">
-<code class="sig-name descname">unparsed_file</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_file" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">unparsed_file</code><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>output file name for failed urls</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.autobump.UpdateVersion.unparsed_urls">
-<code class="sig-name descname">unparsed_urls</code><em class="property">: List[str]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_urls" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">unparsed_urls</code><em class="property">: List<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span></em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_urls" title="Permalink to this definition">¶</a></dt>
 <dd><p>output file name for unparsed urls</p>
 </dd></dl>
 
@@ -1061,7 +1031,6 @@ defined by parse_version)</p></li>
 
 </dd></dl>
 
-</div>
 
 
           </div>
@@ -1074,7 +1043,7 @@ defined by parse_version)</p></li>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

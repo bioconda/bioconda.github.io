@@ -1,5 +1,5 @@
-check\_deprecation
-==================
+
+
 
 
 .. currentmodule:: bioconda_utils.lint.check_deprecation

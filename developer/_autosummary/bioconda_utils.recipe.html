@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>recipe &#8212; Bioconda  documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;no title&gt; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -16,8 +17,8 @@
     <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="sphinxext" href="bioconda_utils.sphinxext.html" />
-    <link rel="prev" title="pkg_test" href="bioconda_utils.pkg_test.html" />
+    <link rel="next" title="&lt;no title&gt;" href="bioconda_utils.sphinxext.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="bioconda_utils.pkg_test.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -67,39 +68,10 @@
 
 
 <h3>Navigation</h3>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.aiopipe.html">aiopipe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bioconductor_skeleton.html">bioconductor_skeleton</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.build.html">build</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.circleci.html">circleci</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cli.html">cli</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.cran_skeleton.html">cran_skeleton</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.docker_utils.html">docker_utils</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githandler.html">githandler</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.githubhandler.html">githubhandler</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.gitter.html">gitter</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.graph.html">graph</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.hosters.html">hosters</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.pkg_test.html">pkg_test</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">recipe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.sphinxext.html">sphinxext</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.autobump.html">autobump</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.update_pinnings.html">update_pinnings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.upload.html">upload</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.utils.html">utils</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
-<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Developer Docs</a></li>
 </ul>
 
 <ul>
@@ -129,9 +101,7 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="module-bioconda_utils.recipe">
-<span id="recipe"></span><h1>recipe<a class="headerlink" href="#module-bioconda_utils.recipe" title="Permalink to this headline">¶</a></h1>
-<p>Editable Recipe (<code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>)</p>
+  <span class="target" id="module-bioconda_utils.recipe"></span><p>Editable Recipe (<code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>)</p>
 <p>The <strong>meta.yaml</strong> format used by conda to describe how a package
 is built has diverged from standard YAML format significantly. This
 module implements a class <a class="reference internal" href="#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a> that in contrast to the <strong>Meta</strong>
@@ -278,7 +248,7 @@ handled by the representation in this class.</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.recipe.Recipe.basedir">
-<code class="sig-name descname">basedir</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.basedir" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">basedir</code><a class="headerlink" href="#bioconda_utils.recipe.Recipe.basedir" title="Permalink to this definition">¶</a></dt>
 <dd><p>path to folder containing recipes</p>
 </dd></dl>
 
@@ -352,7 +322,7 @@ to be informed about dependency problems.</p></li>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.recipe.Recipe.data">
-<code class="sig-name descname">data</code><em class="property">: Dict[str, Any]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.data" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">data</code><em class="property">: Dict<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span>Any<span class="p">]</span></em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.data" title="Permalink to this definition">¶</a></dt>
 <dd><p>For passing data around</p>
 </dd></dl>
 
@@ -493,13 +463,13 @@ meta.yaml at a specific key.</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.recipe.Recipe.meta">
-<code class="sig-name descname">meta</code><em class="property">: Dict[str, Any]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.meta" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">meta</code><em class="property">: Dict<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span>Any<span class="p">]</span></em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.meta" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parsed recipe YAML</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.recipe.Recipe.meta_yaml">
-<code class="sig-name descname">meta_yaml</code><em class="property">: List[str]</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.meta_yaml" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">meta_yaml</code><em class="property">: List<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span></em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.meta_yaml" title="Permalink to this definition">¶</a></dt>
 <dd><p>Lines of the raw recipe file</p>
 </dd></dl>
 
@@ -516,13 +486,13 @@ meta.yaml at a specific key.</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.recipe.Recipe.on_branch">
-<code class="sig-name descname">on_branch</code><em class="property">: bool</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.on_branch" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">on_branch</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)">bool</a></em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.on_branch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Whether the recipe was loaded from a branch (update in progress)</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.recipe.Recipe.orig">
-<code class="sig-name descname">orig</code><em class="property">: Recipe</em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.orig" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">orig</code><em class="property">: Recipe</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.orig" title="Permalink to this definition">¶</a></dt>
 <dd><p>Original recipe before modifications (updated by load_from_string)</p>
 </dd></dl>
 
@@ -545,7 +515,7 @@ meta.yaml at a specific key.</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.recipe.Recipe.reldir">
-<code class="sig-name descname">reldir</code><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.recipe.Recipe.reldir" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">reldir</code><a class="headerlink" href="#bioconda_utils.recipe.Recipe.reldir" title="Permalink to this definition">¶</a></dt>
 <dd><p>relative path to recipe dir from folder containing recipes</p>
 </dd></dl>
 
@@ -641,7 +611,6 @@ selectors.</p></li>
 <p>May have self.line</p>
 </dd></dl>
 
-</div>
 
 
           </div>
@@ -654,7 +623,7 @@ selectors.</p></li>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

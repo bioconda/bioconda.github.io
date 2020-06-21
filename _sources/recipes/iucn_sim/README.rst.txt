@@ -26,9 +26,17 @@ iucn_sim
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1-0``,  ``2.0-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.8-0</code>,  <code>1.7-0</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4-0</code>,  <code>1.3-0</code>,  </span></summary>
+      
 
+      ``2.1.1-0``,  ``2.1-0``,  ``2.0-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,7 +44,7 @@ iucn_sim
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.6``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rredlist: 
    :depends scipy: 
    :requirements:

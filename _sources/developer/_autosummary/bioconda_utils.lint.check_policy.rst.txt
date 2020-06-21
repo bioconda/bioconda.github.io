@@ -1,5 +1,5 @@
-check\_policy
-=============
+
+
 
 
 .. currentmodule:: bioconda_utils.lint.check_policy

@@ -4,6 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Package Recipe &#39;bioconductor-snplocs.hsapiens.dbsnp.20120608&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -114,7 +115,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp.20120608">bioconductor-snplocs.hsapiens.dbsnp.20120608</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp.20120608/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 137. The source data files used for this package were created by NCBI on June 7-8, 2012, and contain SNPs mapped to reference genome GRCh37.p5. WARNING: Note that the GRCh37.p5 genome is a patched version of GRCh37 but the patch doesn’t alter chromosomes 1-22, X, Y, MT. GRCh37 itself is the same as the hg19 genome from UCSC *except* for the mitochondrion chromosome. Therefore, the SNPs in this package can be “injected” in BSgenome.Hsapiens.UCSC.hg19 and they will land at the correct location but this injection will exclude chrM (i.e. nothing will be injected in that sequence). IMPORTANT NOTE: This package is deprecated. Please use a SNPlocs data package based on a more recent dbSNP BUILD instead (e.g. BUILD 144 or BUILD 149). You can call BSgenome::available.SNPs() from R to get the list of available SNPlocs data packages.</p>
+<p>SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 137. The source data files used for this package were created by NCBI on June 7-8, 2012, and contain SNPs mapped to reference genome GRCh37.p5. WARNING: Note that the GRCh37.p5 genome is a patched version of GRCh37 but the patch doesn't alter chromosomes 1-22, X, Y, MT. GRCh37 itself is the same as the hg19 genome from UCSC *except* for the mitochondrion chromosome. Therefore, the SNPs in this package can be &quot;injected&quot; in BSgenome.Hsapiens.UCSC.hg19 and they will land at the correct location but this injection will exclude chrM (i.e. nothing will be injected in that sequence). IMPORTANT NOTE: This package is deprecated. Please use a SNPlocs data package based on a more recent dbSNP BUILD instead (e.g. BUILD 144 or BUILD 149). You can call BSgenome::available.SNPs() from R to get the list of available SNPlocs data packages.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -175,7 +176,7 @@
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

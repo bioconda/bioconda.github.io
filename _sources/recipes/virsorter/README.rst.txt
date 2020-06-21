@@ -29,10 +29,10 @@ virsorter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.alpha-2</code>,  <code>2.0.alpha-1</code>,  <code>2.0.alpha-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-4</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.beta-0</code>,  <code>2.0.alpha-2</code>,  <code>2.0.alpha-1</code>,  <code>2.0.alpha-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-4</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  </span></summary>
       
 
-      ``2.0.alpha-2``,  ``2.0.alpha-1``,  ``2.0.alpha-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+      ``2.0.beta-0``,  ``2.0.alpha-2``,  ``2.0.alpha-1``,  ``2.0.alpha-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
 
       
       .. raw:: html

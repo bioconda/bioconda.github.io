@@ -4,6 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Package Recipe &#39;ensembl-vep&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -166,15 +167,15 @@
 <div class="section" id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
 <p>This package installs only the variant effect predictor (VEP) library
-code. To install data libraries, you can use the ‘vep_install’ command
+code. To install data libraries, you can use the 'vep_install' command
 installed along with it. For example, to install the VEP library for human
 GRCh38 to a directory</p>
-<p>vep_install -a cf -s homo_sapiens -y GRCh38 -c /output/path/to/GRCh38/vep –CONVERT</p>
+<p>vep_install -a cf -s homo_sapiens -y GRCh38 -c /output/path/to/GRCh38/vep --CONVERT</p>
 <dl class="simple">
 <dt>(note that vep_install is renamed from INSTALL.pl</dt><dd><p>to avoid having generic script names in the PATH)</p>
 </dd>
 </dl>
-<p>The –CONVERT flag is not required but improves lookup speeds during
+<p>The --CONVERT flag is not required but improves lookup speeds during
 runs. See the VEP documentation for more details</p>
 <p>http://www.ensembl.org/info/docs/tools/vep/script/vep_cache.html</p>
 </div>
@@ -198,7 +199,7 @@ runs. See the VEP documentation for more details</p>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
