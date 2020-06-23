@@ -14,7 +14,7 @@ cat
 
 
    :homepage: https://github.com/dutilh/CAT
-   :license: CC BY 3.0
+   :license: MIT
    :recipe: /`cat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cat/meta.yaml>`_
 
    
@@ -27,9 +27,17 @@ cat
    :versions:
       
       
+      .. raw:: html
 
-      ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
+         <details><summary><span class="truncated-version-list"><code>5.1-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0-0</code>,  <code>4.6-0</code>,  <code>4.3.3-0</code>,  </span></summary>
+      
 
+      ``5.1-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
