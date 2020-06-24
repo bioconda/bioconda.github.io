@@ -17,7 +17,7 @@ panphlan
    culture\-free infectious outbreak epidemiology and microbial population 
    studies.
 
-   :homepage: https://bitbucket.org/CibioCM/panphlan
+   :homepage: https://github.com/SegataLab/panphlan
    :license: MIT / MIT License
    :recipe: /`panphlan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panphlan>`_/`1.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panphlan/1.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panphlan/1.2/meta.yaml>`_
 
