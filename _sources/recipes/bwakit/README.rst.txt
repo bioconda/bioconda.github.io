@@ -27,19 +27,19 @@ bwakit
       
       
 
-      ``0.7.15-3``,  ``0.7.15-2``,  ``0.7.15-1``,  ``0.7.15-0``,  ``0.7.12-0``
+      ``0.7.17.dev1-0``,  ``0.7.15-3``,  ``0.7.15-2``,  ``0.7.15-1``,  ``0.7.15-0``,  ``0.7.12-0``
 
       
 
    
-   :depends bwa: ``0.7.15``
+   :depends bwa: ``0.7.17``
    :depends fermi2: ``r170``
    :depends htsbox: ``r315``
    :depends k8: 
    :depends perl: 
    :depends ropebwt2: ``r187``
    :depends samblaster: ``0.1.20``
-   :depends samtools: ``1.3``
+   :depends samtools: ``>=1.3``
    :depends seqtk: ``r82``
    :depends trimadap: ``r2``
    :requirements:

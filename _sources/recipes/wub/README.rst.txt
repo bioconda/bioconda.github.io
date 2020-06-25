@@ -27,7 +27,7 @@ wub
       
       
 
-      ``0.4.0-2``,  ``0.3.1-2``,  ``0.3.0-2``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.4.0-3``,  ``0.4.0-2``,  ``0.3.1-2``,  ``0.3.0-2``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -35,7 +35,7 @@ wub
    :depends biopython: 
    :depends editdistance: 
    :depends htslib: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: ``>=0.20.2``
    :depends pysam: 

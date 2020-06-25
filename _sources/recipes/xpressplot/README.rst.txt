@@ -27,12 +27,12 @@ xpressplot
       
       
 
-      ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.0.8b0-0``,  ``0.0.5b0-0``
+      ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.0.8b0-0``,  ``0.0.5b0-0``
 
       
 
    
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends plotly: ``>=4``

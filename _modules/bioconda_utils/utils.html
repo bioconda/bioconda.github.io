@@ -137,8 +137,16 @@
 <span class="kn">import</span> <span class="nn">yaml</span>
 <span class="kn">import</span> <span class="nn">jinja2</span>
 <span class="kn">from</span> <span class="nn">jinja2</span> <span class="kn">import</span> <span class="n">Environment</span><span class="p">,</span> <span class="n">PackageLoader</span>
+
+<span class="c1"># FIXME(upstream): For conda&gt;=4.7.0 initialize_logging is (erroneously) called</span>
+<span class="c1">#                  by conda.core.index.get_index which messes up our logging.</span>
+<span class="c1"># =&gt; Prevent custom conda logging init before importing anything conda-related.</span>
+<span class="kn">import</span> <span class="nn">conda.gateways.logging</span>
+<span class="n">conda</span><span class="o">.</span><span class="n">gateways</span><span class="o">.</span><span class="n">logging</span><span class="o">.</span><span class="n">initialize_logging</span> <span class="o">=</span> <span class="k">lambda</span><span class="p">:</span> <span class="kc">None</span>
+
 <span class="kn">from</span> <span class="nn">conda_build</span> <span class="kn">import</span> <span class="n">api</span>
 <span class="kn">from</span> <span class="nn">conda.exports</span> <span class="kn">import</span> <span class="n">VersionOrder</span>
+
 <span class="kn">from</span> <span class="nn">jsonschema</span> <span class="kn">import</span> <span class="n">validate</span>
 <span class="kn">from</span> <span class="nn">colorlog</span> <span class="kn">import</span> <span class="n">ColoredFormatter</span>
 <span class="kn">from</span> <span class="nn">boltons.funcutils</span> <span class="kn">import</span> <span class="n">FunctionBuilder</span>

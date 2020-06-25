@@ -27,14 +27,14 @@ wisestork
       
       
 
-      ``0.1.2-0``
+      ``0.1.2-1``,  ``0.1.2-0``
 
       
 
    
    :depends biopython: 
    :depends click: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends progressbar2: 
    :depends pyfaidx: 

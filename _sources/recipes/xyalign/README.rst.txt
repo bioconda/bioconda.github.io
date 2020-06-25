@@ -27,7 +27,7 @@ xyalign
       
       
 
-      ``1.1.5-0``,  ``1.1.4-2``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.0.0-0``
+      ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-2``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,7 @@ xyalign
    :depends bbmap: 
    :depends bedtools: 
    :depends bwa: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends platypus-variant: 

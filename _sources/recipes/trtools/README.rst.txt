@@ -30,12 +30,11 @@ trtools
       
       
 
-      ``2.0.18-0``
+      ``2.0.18-1``,  ``2.0.18-0``
 
       
 
    
-   :depends argparse: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 

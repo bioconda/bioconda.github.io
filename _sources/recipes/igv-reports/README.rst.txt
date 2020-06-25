@@ -28,10 +28,10 @@ igv-reports
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.8-1</code>,  <code>0.9.8-0</code>,  <code>0.9.7-1</code>,  <code>0.9.7-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.9.8-1</code>,  <code>0.9.8-0</code>,  <code>0.9.7-1</code>,  <code>0.9.7-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  </span></summary>
       
 
-      ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.2.1-0``
+      ``1.0.0-0``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.2.1-0``
 
       
       .. raw:: html

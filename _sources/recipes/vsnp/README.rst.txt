@@ -27,7 +27,7 @@ vsnp
       
       
 
-      ``2.03-0``,  ``0.2.02-0``,  ``0.2.01-0``,  ``0.2.0-0``
+      ``2.03-1``,  ``2.03-0``,  ``0.2.02-0``,  ``0.2.01-0``,  ``0.2.0-0``
 
       
 
@@ -38,7 +38,7 @@ vsnp
    :depends dask: 
    :depends freebayes: 
    :depends humanize: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends pandas: 
    :depends picard: 
    :depends py-cpuinfo: 
