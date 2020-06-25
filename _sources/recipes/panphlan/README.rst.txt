@@ -32,14 +32,14 @@ panphlan
       
       
 
-      ``1.2-5``,  ``1.2-4``,  ``1.2-3``
+      ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``
 
       
 
    
    :depends biopython: 
    :depends bowtie2: ``>=2.0.0``
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends python: 
    :depends samtools: 
