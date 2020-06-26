@@ -27,7 +27,7 @@ parsnp
       
       
 
-      ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2-0``
+      ``1.5.1-0``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2-0``
 
       
 
@@ -39,8 +39,9 @@ parsnp
    :depends numpy: 
    :depends openmp: 
    :depends phipack: 
+   :depends python: ``>=3``
    :depends raxml: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
