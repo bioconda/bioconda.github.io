@@ -28,10 +28,10 @@ ngs-bits
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2020_03-0</code>,  <code>2019_11-0</code>,  <code>2019_09-0</code>,  <code>2019_08-0</code>,  <code>2019_07-0</code>,  <code>2019_05-0</code>,  <code>2019_04-0</code>,  <code>2019_03-0</code>,  <code>2018_11-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2020_06-0</code>,  <code>2020_03-0</code>,  <code>2019_11-0</code>,  <code>2019_09-0</code>,  <code>2019_08-0</code>,  <code>2019_07-0</code>,  <code>2019_05-0</code>,  <code>2019_04-0</code>,  <code>2019_03-0</code>,  </span></summary>
       
 
-      ``2020_03-0``,  ``2019_11-0``,  ``2019_09-0``,  ``2019_08-0``,  ``2019_07-0``,  ``2019_05-0``,  ``2019_04-0``,  ``2019_03-0``,  ``2018_11-2``,  ``2018_10-2``,  ``2018_06-2``,  ``2018_06-1``,  ``2018_04-0``
+      ``2020_06-0``,  ``2020_03-0``,  ``2019_11-0``,  ``2019_09-0``,  ``2019_08-0``,  ``2019_07-0``,  ``2019_05-0``,  ``2019_04-0``,  ``2019_03-0``,  ``2018_11-2``,  ``2018_10-2``,  ``2018_06-2``,  ``2018_06-1``,  ``2018_04-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ ngs-bits
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.9,<1.10.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends matplotlib: 
-   :depends python: 
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends matplotlib-base: 
+   :depends python: ``>=3.8,<3.9.0a0``
    :depends qt: ``>=5.12.5,<5.13.0a0``
-   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
