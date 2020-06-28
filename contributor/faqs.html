@@ -87,6 +87,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#what-s-the-lifecycle-of-a-bioconda-package">What’s the lifecycle of a bioconda package?</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#circleci-macos-plans">CircleCI macOS plans</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#testing-bioconda-utils-locally">Testing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#where-can-i-find-more-info-on-meta-yaml">Where can I find more info on <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>?</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="updating.html">Updating recipes</a></li>
@@ -261,6 +262,14 @@ python setup.py develop
 pytest <span class="nb">test</span> -vv
 </pre></div>
 </div>
+</div>
+<div class="section" id="where-can-i-find-more-info-on-meta-yaml">
+<h2>Where can I find more info on <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>?<a class="headerlink" href="#where-can-i-find-more-info-on-meta-yaml" title="Permalink to this headline">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file is conda’s metadata definition file for recipes.
+If you are developing a new recipe or are trying to update or improve an existing one, it can be helpful to know
+which elements and values can appear in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
+<p>Conda has this information available [here](<a class="reference external" href="https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html">https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html</a>).
+Please check that you are looking at the correct version of the documentation for the current conda version used by bioconda.</p>
 </div>
 </div>
 
