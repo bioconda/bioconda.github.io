@@ -41,8 +41,9 @@ moabs
 
    
    :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends libis: ``>=0.0.9``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends ncurses: ``>=6.1,<6.2.0a0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-config-simple: 
