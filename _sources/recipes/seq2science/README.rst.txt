@@ -28,7 +28,7 @@ seq2science
       
       
 
-      ``0.0.1-0``,  ``0.0.0-0``
+      ``0.0.2-0``,  ``0.0.1-0``,  ``0.0.0-0``
 
       
 
@@ -37,6 +37,7 @@ seq2science
    :depends biopython: ``>=1.74``
    :depends entrez-direct: ``>=11.0``
    :depends filelock: ``>=3.0.12``
+   :depends genomepy: ``0.8.3.*``
    :depends norns: ``>=0.1.5``
    :depends pretty_html_table: ``0.9.dev0.*``
    :depends pysam: ``>0.15.3*``
