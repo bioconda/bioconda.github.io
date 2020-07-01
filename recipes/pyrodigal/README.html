@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Package Recipe &#39;r-qtl2&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;pyrodigal&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -99,43 +99,38 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-qtl2">
+  <div class="section" id="pyrodigal">
 <dl class="conda recipe">
 <dt>
-<em class="property">recipe </em><code class="sig-name descname">r-qtl2</code></dt>
-<dd><p>R/qtl2 provides a set of tools to perform quantitative trait locus (QTL) analysis in experimental crosses. It is a reimplementation of the R/qtl package to better handle high-dimensional data and complex cross designs. This package is designed to make it easy to install and load multiple R/qtl2 packages in a single step. Broman et al. (2018) &lt;doi:10.1534/genetics.118.301595&gt;.</p>
+<em class="property">recipe </em><code class="sig-name descname">pyrodigal</code></dt>
+<dd><p>Python bindings to Prodigal, an ORF finder for microbial sequences.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://kbroman.org/qtl2">https://kbroman.org/qtl2</a>, <a class="reference external" href="https://github.com/rqtl/qtl2">https://github.com/rqtl/qtl2</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/althonos/pyrodigal">https://github.com/althonos/pyrodigal</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL3 / GPL-3</p>
+<dd class="field-even"><p>GPL / GPL-3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qtl2">r-qtl2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qtl2/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyrodigal">pyrodigal</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyrodigal/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt id="package-r-qtl2">
-<em class="property">package </em><code class="sig-name descname">r-qtl2</code><a class="headerlink" href="#package-r-qtl2" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-qtl2"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-qtl2.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-qtl2"><img alt="docker_r-qtl2" src="https://quay.io/repository/biocontainers/r-qtl2/status" /></a></p>
+<dt id="package-pyrodigal">
+<em class="property">package </em><code class="sig-name descname">pyrodigal</code><a class="headerlink" href="#package-pyrodigal" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/pyrodigal"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pyrodigal.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pyrodigal"><img alt="docker_pyrodigal" src="https://quay.io/repository/biocontainers/pyrodigal/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.22-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.20-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.20-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.0,&lt;4.1.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-data.table-feedstock"><strong>r-data.table</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10.4_3</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-jsonlite-feedstock"><strong>r-jsonlite</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.9.17</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpp-feedstock"><strong>r-rcpp</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.12.12</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcppeigen-feedstock"><strong>r-rcppeigen</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rsqlite-feedstock"><strong>r-rsqlite</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-yaml-feedstock"><strong>r-yaml</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.1.13</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.6,&lt;3.7.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python_abi-feedstock"><strong>python_abi</strong></a> <code class="docutils literal notranslate"><span class="pre">3.6.* *_cp36m</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/setuptools-feedstock"><strong>setuptools</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -145,24 +140,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">qtl2</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pyrodigal</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">qtl2</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">pyrodigal</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">qtl2</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">pyrodigal</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-qtl2?tab=tags">r-qtl2/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/pyrodigal?tab=tags">pyrodigal/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-qtl2/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-qtl2/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/pyrodigal/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyrodigal/README.html)
 </pre></div>
 </div>
 </div>
@@ -183,14 +178,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-qtl2/README.rst.txt"
+      <a href="../../_sources/recipes/pyrodigal/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-qtl2/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/pyrodigal/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
