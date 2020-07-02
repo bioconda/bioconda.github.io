@@ -104,23 +104,40 @@
 <span class="sd">Determine which packages need updates after pinning change</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
-<span class="kn">import</span> <span class="nn">re</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="kn">import</span> <span class="nn">os.path</span>
-<span class="kn">import</span> <span class="nn">logging</span>
-<span class="kn">import</span> <span class="nn">collections</span>
 <span class="kn">import</span> <span class="nn">enum</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">string</span>
 
-<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
-
-<span class="kn">from</span> <span class="nn">.utils</span> <span class="kn">import</span> <span class="n">RepoData</span><span class="p">,</span> <span class="n">load_conda_build_config</span><span class="p">,</span> <span class="n">parallel_iter</span>
+<span class="kn">from</span> <span class="nn">.utils</span> <span class="kn">import</span> <span class="n">RepoData</span>
+<span class="c1"># FIXME: trim_build_only_deps is not exported via conda_build.api!</span>
+<span class="c1">#        Re-implement it here or ask upstream to export that functionality.</span>
+<span class="kn">from</span> <span class="nn">conda_build.metadata</span> <span class="kn">import</span> <span class="n">trim_build_only_deps</span>
 
 <span class="c1"># for type checking</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">AbstractSet</span>
 <span class="kn">from</span> <span class="nn">.recipe</span> <span class="kn">import</span> <span class="n">Recipe</span><span class="p">,</span> <span class="n">RecipeError</span>
 <span class="kn">from</span> <span class="nn">conda_build.metadata</span> <span class="kn">import</span> <span class="n">MetaData</span>
 
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<div class="viewcode-block" id="skip_for_variants"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.skip_for_variants">[docs]</a><span class="k">def</span> <span class="nf">skip_for_variants</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">,</span> <span class="n">variant_keys</span><span class="p">:</span> <span class="n">AbstractSet</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Check if the recipe uses any given variant keys</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      meta: Variant MetaData object</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">      True if any variant key from variant_keys is used</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># This is the same behavior as in</span>
+    <span class="c1"># conda_build.metadata.Metadata.get_hash_contents but without leaving out</span>
+    <span class="c1"># &quot;build_string_excludes&quot; (python, r_base, etc.).</span>
+    <span class="n">dependencies</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">get_used_vars</span><span class="p">())</span>
+    <span class="n">trim_build_only_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">dependencies</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="ow">not</span> <span class="n">dependencies</span><span class="o">.</span><span class="n">isdisjoint</span><span class="p">(</span><span class="n">variant_keys</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="will_build_variant"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.will_build_variant">[docs]</a><span class="k">def</span> <span class="nf">will_build_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
@@ -229,7 +246,22 @@
         <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">FAIL</span></div></div>
 
 
-<div class="viewcode-block" id="check"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.check">[docs]</a><span class="k">def</span> <span class="nf">check</span><span class="p">(</span><span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">,</span> <span class="n">build_config</span><span class="p">,</span> <span class="n">keep_metas</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">State</span><span class="p">:</span>
+<span class="n">allowed_build_string_characters</span> <span class="o">=</span> <span class="nb">frozenset</span><span class="p">(</span>
+    <span class="n">string</span><span class="o">.</span><span class="n">digits</span> <span class="o">+</span> <span class="n">string</span><span class="o">.</span><span class="n">ascii_uppercase</span> <span class="o">+</span> <span class="n">string</span><span class="o">.</span><span class="n">ascii_lowercase</span> <span class="o">+</span> <span class="s1">&#39;_.&#39;</span>
+<span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">has_invalid_build_string</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="n">build_string</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">()</span>
+    <span class="k">return</span> <span class="ow">not</span> <span class="p">(</span><span class="n">build_string</span> <span class="ow">and</span> <span class="nb">set</span><span class="p">(</span><span class="n">build_string</span><span class="p">)</span><span class="o">.</span><span class="n">issubset</span><span class="p">(</span><span class="n">allowed_build_string_characters</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="check"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.check">[docs]</a><span class="k">def</span> <span class="nf">check</span><span class="p">(</span>
+    <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">,</span>
+    <span class="n">build_config</span><span class="p">,</span>
+    <span class="n">keep_metas</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">skip_variant_keys</span><span class="p">:</span> <span class="n">AbstractSet</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="nb">frozenset</span><span class="p">(),</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">State</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;Determine if a given recipe should have its build number increments</span>
 <span class="sd">    (bumped) due to a recent change in pinnings.</span>
 
@@ -237,9 +269,10 @@
 <span class="sd">      recipe: The recipe to check</span>
 <span class="sd">      build_config: conda build config object</span>
 <span class="sd">      keep_metas: If true, `Recipe.conda_release` is not called</span>
+<span class="sd">      skip_variant_keys: Variant keys to skip a recipe for if they are used</span>
 
 <span class="sd">    Returns:</span>
-<span class="sd">      Tuple of state and a list of rendered MetaYaml variant objects</span>
+<span class="sd">      Tuple of state and a the input recipe</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Calling Conda to render </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
@@ -247,18 +280,26 @@
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Finished rendering </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
     <span class="k">except</span> <span class="n">RecipeError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="n">exc</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span>
+        <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span><span class="p">,</span> <span class="n">recipe</span>
     <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="s2">&quot;update_pinnings.check failed with exception in api.render(</span><span class="si">%s</span><span class="s2">):&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span>
+        <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span><span class="p">,</span> <span class="n">recipe</span>
 
     <span class="k">if</span> <span class="n">metas</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Failed to render </span><span class="si">%s</span><span class="s2">. Got &#39;None&#39; from recipe.conda_render()&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span>
+        <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span><span class="p">,</span> <span class="n">recipe</span>
+
+    <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">has_invalid_build_string</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span> <span class="k">for</span> <span class="n">meta</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">metas</span><span class="p">):</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+            <span class="s2">&quot;Failed to get build strings for </span><span class="si">%s</span><span class="s2"> with bypass_env_check. &quot;</span>
+            <span class="s2">&quot;Probably needs build/skip instead of dep constraint.&quot;</span><span class="p">,</span>
+            <span class="n">recipe</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span><span class="p">,</span> <span class="n">recipe</span>
 
     <span class="n">flags</span> <span class="o">=</span> <span class="n">State</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">meta</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">metas</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">meta</span><span class="o">.</span><span class="n">skip</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">meta</span><span class="o">.</span><span class="n">skip</span><span class="p">()</span> <span class="ow">or</span> <span class="n">skip_for_variants</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">skip_variant_keys</span><span class="p">):</span>
             <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">SKIP</span>
         <span class="k">elif</span> <span class="n">have_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
             <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">HAVE</span>
@@ -272,7 +313,7 @@
             <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">BUMP</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">keep_metas</span><span class="p">:</span>
         <span class="n">recipe</span><span class="o">.</span><span class="n">conda_release</span><span class="p">()</span>
-    <span class="k">return</span> <span class="n">flags</span></div>
+    <span class="k">return</span> <span class="n">flags</span><span class="p">,</span> <span class="n">recipe</span></div>
 </pre></div>
 
           </div>

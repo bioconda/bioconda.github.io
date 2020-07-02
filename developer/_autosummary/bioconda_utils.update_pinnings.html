@@ -109,14 +109,25 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.check" title="bioconda_utils.update_pinnings.check"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check</span></code></a>(recipe, build_config[, keep_metas])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.check" title="bioconda_utils.update_pinnings.check"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check</span></code></a>(recipe, build_config[, keep_metas, …])</p></td>
 <td><p>Determine if a given recipe should have its build number increments (bumped) due to a recent change in pinnings.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_variant" title="bioconda_utils.update_pinnings.have_variant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_variant</span></code></a>(meta)</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">has_invalid_build_string</span></code>(meta)</p></td>
+<td><p><dl class="field-list simple">
+<dt class="field-odd">rtype</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_variant" title="bioconda_utils.update_pinnings.have_variant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_variant</span></code></a>(meta)</p></td>
 <td><p>Checks if we have an exact match to name/version/buildstring</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_variant_but_for_python" title="bioconda_utils.update_pinnings.have_variant_but_for_python"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_variant_but_for_python</span></code></a>(meta)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_variant_but_for_python" title="bioconda_utils.update_pinnings.have_variant_but_for_python"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_variant_but_for_python</span></code></a>(meta)</p></td>
 <td><p>Checks if we have an exact or <code class="docutils literal notranslate"><span class="pre">py[23]_</span></code> prefixed match to name/version/buildstring</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.skip_for_variants" title="bioconda_utils.update_pinnings.skip_for_variants"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skip_for_variants</span></code></a>(meta, variant_keys)</p></td>
+<td><p>Check if the recipe uses any given variant keys</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.will_build_variant" title="bioconda_utils.update_pinnings.will_build_variant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">will_build_variant</span></code></a>(meta)</p></td>
 <td><p>Check if the recipe variant will be built as currently rendered</p></td>
@@ -205,7 +216,7 @@
 
 <dl class="py function">
 <dt id="bioconda_utils.update_pinnings.check">
-<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">check</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em>, <em class="sig-param"><span class="n">build_config</span></em>, <em class="sig-param"><span class="n">keep_metas</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.check" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">check</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em>, <em class="sig-param"><span class="n">build_config</span></em>, <em class="sig-param"><span class="n">keep_metas</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">skip_variant_keys</span><span class="o">=</span><span class="default_value">frozenset({})</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Determine if a given recipe should have its build number increments
 (bumped) due to a recent change in pinnings.</p>
 <dl class="field-list simple">
@@ -214,13 +225,14 @@
 <li><p><strong>recipe</strong> (<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>) – The recipe to check</p></li>
 <li><p><strong>build_config</strong> – conda build config object</p></li>
 <li><p><strong>keep_metas</strong> – If true, <a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_release" title="bioconda_utils.recipe.Recipe.conda_release"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">Recipe.conda_release</span></code></a> is not called</p></li>
+<li><p><strong>skip_variant_keys</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.AbstractSet" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AbstractSet</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Variant keys to skip a recipe for if they are used</p></li>
 </ul>
 </dd>
 <dt class="field-even">Return type</dt>
 <dd class="field-even"><p><a class="reference internal" href="#bioconda_utils.update_pinnings.State" title="bioconda_utils.update_pinnings.State"><code class="xref py py-class docutils literal notranslate"><span class="pre">State</span></code></a></p>
 </dd>
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>Tuple of state and a list of rendered MetaYaml variant objects</p>
+<dd class="field-odd"><p>Tuple of state and a the input recipe</p>
 </dd>
 </dl>
 </dd></dl>
@@ -257,6 +269,23 @@ name/version/buildstring</p>
 </dd>
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p>True if FIXME</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="bioconda_utils.update_pinnings.skip_for_variants">
+<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">skip_for_variants</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">meta</span></em>, <em class="sig-param"><span class="n">variant_keys</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#skip_for_variants"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.skip_for_variants" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if the recipe uses any given variant keys</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>meta</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>) – Variant MetaData object</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>True if any variant key from variant_keys is used</p>
 </dd>
 </dl>
 </dd></dl>

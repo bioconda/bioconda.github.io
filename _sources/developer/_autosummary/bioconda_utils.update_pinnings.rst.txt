@@ -13,8 +13,10 @@
    .. autosummary::
    
       check
+      has_invalid_build_string
       have_variant
       have_variant_but_for_python
+      skip_for_variants
       will_build_variant
    
    
