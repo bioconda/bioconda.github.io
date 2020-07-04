@@ -28,15 +28,15 @@ raxml-ng
       
       
 
-      ``0.9.0-1``,  ``0.9.0-0``
+      ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
    
-   :depends gmp: ``>=6.1.2,<7.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends openmpi: ``>=4.0.1,<4.1.0a0``
+   :depends gmp: ``>=6.2.0,<7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends openmpi: ``>=4.0.4,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

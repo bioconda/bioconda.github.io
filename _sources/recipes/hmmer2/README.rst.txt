@@ -27,12 +27,12 @@ hmmer2
       
       
 
-      ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``
+      ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

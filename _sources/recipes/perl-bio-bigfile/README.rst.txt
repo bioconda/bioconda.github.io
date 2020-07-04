@@ -27,14 +27,14 @@ perl-bio-bigfile
       
       
 
-      ``1.07-0``
+      ``1.07-1``,  ``1.07-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends mysql: 
-   :depends openssl: ``>=1.1.1a,<1.1.2a``
+   :depends openssl: ``>=1.1.1g,<1.1.2a``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl: 
    :depends perl-io-string: 

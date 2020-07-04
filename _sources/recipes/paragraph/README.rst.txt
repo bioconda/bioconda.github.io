@@ -27,17 +27,17 @@ paragraph
       
       
 
-      ``2.3-0``,  ``2.2b-0``,  ``2.2a-0``
+      ``2.3-1``,  ``2.3-0``,  ``2.2b-0``,  ``2.2a-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends intervaltree: 
    :depends jsonschema: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends pysam: 
    :depends python: ``>=3``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

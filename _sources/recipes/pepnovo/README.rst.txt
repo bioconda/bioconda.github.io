@@ -28,12 +28,12 @@ pepnovo
       
       
 
-      ``20101117-1``,  ``20101117-0``
+      ``20101117-2``,  ``20101117-1``,  ``20101117-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

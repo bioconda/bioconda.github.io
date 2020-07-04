@@ -27,12 +27,12 @@ libdivsufsort
       
       
 
-      ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``
+      ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

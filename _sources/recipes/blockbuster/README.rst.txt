@@ -27,12 +27,12 @@ blockbuster
       
       
 
-      ``0.0.1.1-2``,  ``0.0.1.1-1``
+      ``0.0.1.1-3``,  ``0.0.1.1-2``,  ``0.0.1.1-1``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

@@ -28,13 +28,12 @@ rapidnj
       
       
 
-      ``v2.3.2-1``,  ``v2.3.2-0``
+      ``v2.3.2-2``,  ``v2.3.2-1``,  ``v2.3.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

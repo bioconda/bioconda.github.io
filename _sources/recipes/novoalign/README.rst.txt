@@ -29,10 +29,10 @@ novoalign
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.02.02-0</code>,  <code>4.02.00-0</code>,  <code>3.09.04-1</code>,  <code>3.09.04-0</code>,  <code>3.09.00-2</code>,  <code>3.09.00-1</code>,  <code>3.09.00-0</code>,  <code>3.07.00-1</code>,  <code>3.07.00-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.02.02-1</code>,  <code>4.02.02-0</code>,  <code>4.02.00-0</code>,  <code>3.09.04-2</code>,  <code>3.09.04-1</code>,  <code>3.09.04-0</code>,  <code>3.09.00-2</code>,  <code>3.09.00-1</code>,  <code>3.09.00-0</code>,  </span></summary>
       
 
-      ``4.02.02-0``,  ``4.02.00-0``,  ``3.09.04-1``,  ``3.09.04-0``,  ``3.09.00-2``,  ``3.09.00-1``,  ``3.09.00-0``,  ``3.07.00-1``,  ``3.07.00-0``,  ``3.06.05-0``,  ``3.04.04-3``,  ``3.04.04-2``,  ``3.04.04-0``,  ``3.03.02-0``
+      ``4.02.02-1``,  ``4.02.02-0``,  ``4.02.00-0``,  ``3.09.04-2``,  ``3.09.04-1``,  ``3.09.04-0``,  ``3.09.00-2``,  ``3.09.00-1``,  ``3.09.00-0``,  ``3.07.00-1``,  ``3.07.00-0``,  ``3.06.05-0``,  ``3.04.04-3``,  ``3.04.04-2``,  ``3.04.04-0``,  ``3.03.02-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ novoalign
       
 
    
-   :depends curl: ``>=7.64.1,<8.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

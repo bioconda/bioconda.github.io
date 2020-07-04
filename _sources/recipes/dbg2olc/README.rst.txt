@@ -27,13 +27,12 @@ dbg2olc
       
       
 
-      ``20180222-0``,  ``20160205-1``,  ``20160205-0``
+      ``20180222-1``,  ``20180222-0``,  ``20160205-1``,  ``20160205-0``
 
       
 
    
    :depends assemblyutility: 
-   :depends libgcc-ng: ``>=4.9``
    :depends sparc: 
    :depends sparseassembler: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

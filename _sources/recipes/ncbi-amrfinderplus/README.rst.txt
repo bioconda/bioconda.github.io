@@ -33,10 +33,10 @@ ncbi-amrfinderplus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.4-0</code>,  <code>3.6.15-0</code>,  <code>3.6.10-0</code>,  <code>3.6.7-0</code>,  <code>3.6.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.1-0</code>,  <code>3.1.1b-0</code>,  <code>3.0.12-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.8.4-1</code>,  <code>3.8.4-0</code>,  <code>3.6.15-0</code>,  <code>3.6.10-0</code>,  <code>3.6.7-0</code>,  <code>3.6.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.1-0</code>,  <code>3.1.1b-0</code>,  </span></summary>
       
 
-      ``3.8.4-0``,  ``3.6.15-0``,  ``3.6.10-0``,  ``3.6.7-0``,  ``3.6.4-0``,  ``3.2.3-0``,  ``3.2.1-0``,  ``3.1.1b-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.9-0``,  ``3.0.8-0``
+      ``3.8.4-1``,  ``3.8.4-0``,  ``3.6.15-0``,  ``3.6.10-0``,  ``3.6.7-0``,  ``3.6.4-0``,  ``3.2.3-0``,  ``3.2.1-0``,  ``3.1.1b-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.9-0``,  ``3.0.8-0``
 
       
       .. raw:: html
@@ -48,9 +48,9 @@ ncbi-amrfinderplus
    :depends blast: ``>=2.9``
    :depends curl: 
    :depends hmmer: ``>=3.2``
-   :depends libcurl: ``>=7.64.1,<8.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcurl: ``>=7.71.1,<8.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

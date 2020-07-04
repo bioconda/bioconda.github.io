@@ -29,10 +29,10 @@ augustus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.3-2</code>,  <code>3.3.3-1</code>,  <code>3.3.3-0</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3-5</code>,  <code>3.3-4</code>,  <code>3.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.3-3</code>,  <code>3.3.3-2</code>,  <code>3.3.3-1</code>,  <code>3.3.3-0</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3-5</code>,  <code>3.3-4</code>,  </span></summary>
       
 
-      ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
+      ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -45,11 +45,11 @@ augustus
    :depends boost: ``>=1.70.0,<1.70.1.0a0``
    :depends cdbtools: 
    :depends diamond: 
-   :depends gsl: ``>=2.5,<2.6.0a0``
-   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends lp_solve: 
    :depends openblas: ``>=0.3.6,<0.3.7.0a0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
@@ -60,7 +60,7 @@ augustus
    :depends perl-parallel-forkmanager: 
    :depends perl-scalar-list-utils: 
    :depends perl-yaml: 
-   :depends sqlite: ``>=3.30.1,<4.0a0``
+   :depends sqlite: ``>=3.32.3,<4.0a0``
    :depends suitesparse: ``>=5.6.0,<6.0a0``
    :depends ucsc-fatotwobit: 
    :depends ucsc-twobitinfo: 

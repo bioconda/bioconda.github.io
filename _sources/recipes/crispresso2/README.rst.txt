@@ -27,25 +27,24 @@ crispresso2
       
       
 
-      ``2.0.32-0``,  ``2.0.31-0``,  ``2.0.30-0``,  ``2.0.29-0``,  ``2.0.28-0``,  ``2.0.27-3``,  ``2.0.23-1``,  ``2.0.23-0``
+      ``2.0.38-0``,  ``2.0.32-0``,  ``2.0.31-0``,  ``2.0.30-0``,  ``2.0.29-0``,  ``2.0.28-0``,  ``2.0.27-3``,  ``2.0.23-1``,  ``2.0.23-0``
 
       
 
    
-   :depends argparse: 
-   :depends biopython: ``>=1.6.5``
+   :depends argparse: ``>=1.3,<=1.4``
    :depends bowtie2: 
    :depends flash: 
-   :depends jinja2: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends matplotlib-base: ``>=1.3.1``
-   :depends networkx: ``2.2.*``
-   :depends numpy: ``>=1.9``
+   :depends jinja2: ``2.10``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends matplotlib-base: ``>=1.3.1,<=2.2.3``
+   :depends numpy: ``>=1.9,<=1.16.6``
    :depends pandas: ``>=0.15,<=0.24``
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends samtools: 
    :depends scipy: ``1.1.0.*``
-   :depends seaborn: ``0.7.1.*``
+   :depends seaborn: ``>0.7.1,<0.10``
    :depends trimmomatic: 
    :requirements:
 

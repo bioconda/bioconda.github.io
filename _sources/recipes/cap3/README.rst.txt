@@ -27,11 +27,12 @@ cap3
       
       
 
-      ``10.2011-1``,  ``10.2011-0``
+      ``10.2011-2``,  ``10.2011-1``,  ``10.2011-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

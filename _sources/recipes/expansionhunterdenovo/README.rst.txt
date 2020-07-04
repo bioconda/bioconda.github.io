@@ -27,7 +27,7 @@ expansionhunterdenovo
       
       
 
-      ``0.9.0-0``
+      ``0.9.0-1``,  ``0.9.0-0``
 
       
 
@@ -36,7 +36,7 @@ expansionhunterdenovo
    :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cmake: 
-   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends spdlog: ``1.4.2.*``

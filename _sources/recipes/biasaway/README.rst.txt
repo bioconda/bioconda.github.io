@@ -18,7 +18,7 @@ biasaway
    :license: GPL / GPLv3
    :recipe: /`biasaway <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biasaway>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biasaway/meta.yaml>`_
 
-   BiasAway provides user with six models for generating background sequences useful to enrichment analyses. These backgrounds derived from mono\- and di\- nucleotide shuffled sequences\, and genomic sequences matched to the GC content of the target data.
+   BiasAway provides user with four models for generating background sequences useful to enrichment analyses. These backgrounds derived from mono\- and di\- nucleotide shuffled sequences\, and genomic sequences matched to the GC content of the target data.
 
 
 .. conda:package:: biasaway
@@ -29,15 +29,16 @@ biasaway
       
       
 
-      ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.1-0``,  ``1.0.4-0``,  ``1.0.2-0``
+      ``3.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.1-0``,  ``1.0.4-0``,  ``1.0.2-0``
 
       
 
    
    :depends biopython: 
-   :depends matplotlib-base: ``<=3.2.0``
-   :depends numpy: ``<=1.16.5``
-   :depends python: 
+   :depends cyushuffle: 
+   :depends matplotlib-base: 
+   :depends numpy: 
+   :depends python: ``>=3.4``
    :depends seaborn: 
    :requirements:
 

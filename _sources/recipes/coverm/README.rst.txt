@@ -27,7 +27,7 @@ coverm
       
       
 
-      ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0.alpha7-0``
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0.alpha7-0``
 
       
 
@@ -35,9 +35,9 @@ coverm
    :depends bwa: ``>=0.7.17``
    :depends dashing: 
    :depends fastani: 
-   :depends gsl: ``>=2.5,<2.6.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends minimap2: 
    :depends openblas: ``>=0.3.6,<0.3.7.0a0``
    :depends samtools: ``>=1.9``

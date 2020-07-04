@@ -27,20 +27,20 @@ dammet
       
       
 
-      ``1.0.1a-1``,  ``1.0.1a-0``
+      ``1.0.1a-2``,  ``1.0.1a-1``,  ``1.0.1a-0``
 
       
 
    
-   :depends bzip2: ``>=1.0.6,<2.0a0``
-   :depends curl: ``>=7.64.1,<8.0a0``
-   :depends htslib: ``>=1.9,<1.10.0a0``
-   :depends libdeflate: ``>=1.0,<1.1.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libdeflate: ``>=1.6,<1.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends ncurses: ``>=6.1,<6.2.0a0``
-   :depends nlopt: ``>=2.5.0,<2.5.1.0a0``
-   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends nlopt: ``>=2.6.2,<2.6.3.0a0``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

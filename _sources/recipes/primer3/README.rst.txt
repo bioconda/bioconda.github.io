@@ -29,10 +29,10 @@ primer3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.1a-2</code>,  <code>2.4.1a-1</code>,  <code>2.4.1a-0</code>,  <code>2.4.0-0</code>,  <code>2.3.7-1</code>,  <code>2.3.7-0</code>,  <code>2.0.0a-2</code>,  <code>2.0.0a-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.1a-2</code>,  <code>2.4.1a-1</code>,  <code>2.4.1a-0</code>,  <code>2.4.0-0</code>,  <code>2.3.7-1</code>,  <code>2.3.7-0</code>,  <code>2.0.0a-3</code>,  <code>2.0.0a-2</code>,  </span></summary>
       
 
-      ``2.5.0-0``,  ``2.4.1a-2``,  ``2.4.1a-1``,  ``2.4.1a-0``,  ``2.4.0-0``,  ``2.3.7-1``,  ``2.3.7-0``,  ``2.0.0a-2``,  ``2.0.0a-1``,  ``2.0.0a-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``v2.5.0-0``
+      ``2.5.0-0``,  ``2.4.1a-2``,  ``2.4.1a-1``,  ``2.4.1a-0``,  ``2.4.0-0``,  ``2.3.7-1``,  ``2.3.7-0``,  ``2.0.0a-3``,  ``2.0.0a-2``,  ``2.0.0a-1``,  ``2.0.0a-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``v2.5.0-0``
 
       
       .. raw:: html

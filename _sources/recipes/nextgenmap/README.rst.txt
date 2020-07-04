@@ -27,14 +27,14 @@ nextgenmap
       
       
 
-      ``0.5.5-3``,  ``0.5.5-2``,  ``0.5.5-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.4.13-1``,  ``0.4.13-0``
+      ``0.5.5-4``,  ``0.5.5-3``,  ``0.5.5-2``,  ``0.5.5-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.4.13-1``,  ``0.4.13-0``
 
       
 
    
    :depends binutils: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation
