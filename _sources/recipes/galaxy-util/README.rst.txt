@@ -31,7 +31,7 @@ galaxy-util
       
       
 
-      ``19.9.0-1``,  ``19.9.0-0``
+      ``20.5.0-0``,  ``19.9.0-1``,  ``19.9.0-0``
 
       
 
@@ -41,9 +41,9 @@ galaxy-util
    :depends docutils: 
    :depends markupsafe: 
    :depends packaging: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.5``
    :depends pyyaml: 
+   :depends requests: 
    :depends routes: 
    :depends six: ``>=1.9.0``
    :requirements:

@@ -31,13 +31,13 @@ galaxy-containers
       
       
 
-      ``19.9.0-0``
+      ``20.5.0-0``,  ``19.9.0-0``
 
       
 
    
-   :depends galaxy-util: ``>=19.9``
-   :depends python: 
+   :depends galaxy-util: ``>=20.5``
+   :depends python: ``>=3.5``
    :depends requests: 
    :requirements:
 
