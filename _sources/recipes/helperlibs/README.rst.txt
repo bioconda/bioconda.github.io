@@ -27,13 +27,13 @@ helperlibs
       
       
 
-      ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``
+      ``0.2.1-0``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``
 
       
 
    
-   :depends biopython: ``>=1.62``
-   :depends python: 
+   :depends biopython: ``>=1.76``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
