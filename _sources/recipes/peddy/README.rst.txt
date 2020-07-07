@@ -13,7 +13,7 @@ peddy
    genotype \:\: ped correspondence check\, ancestry check\, sex check. directly\, quickly on VCF
 
    :homepage: https://github.com/brentp/peddy
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`peddy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peddy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peddy/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ peddy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.3.6a-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  </span></summary>
       
 
-      ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.6a-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.5-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.4-0``
+      ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.6a-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.5-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.4-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ peddy
    :depends click: 
    :depends coloredlogs: 
    :depends cyvcf2: ``>=0.5.3``
-   :depends matplotlib: ``>=1.5.0``
+   :depends matplotlib-base: ``>=1.5.0``
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 

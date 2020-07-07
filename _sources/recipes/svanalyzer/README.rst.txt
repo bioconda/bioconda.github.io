@@ -27,7 +27,7 @@ svanalyzer
       
       
 
-      ``0.35-0``,  ``0.34-0``,  ``0.33-0``,  ``0.32-0``,  ``0.31-0``,  ``0.3-0``
+      ``0.36-0``,  ``0.35-0``,  ``0.34-0``,  ``0.33-0``,  ``0.32-0``,  ``0.31-0``,  ``0.3-0``
 
       
 
@@ -36,6 +36,7 @@ svanalyzer
    :depends edlib: 
    :depends mummer: 
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-list-moreutils: 
    :depends perl-log-log4perl: 
    :depends samtools: 
    :requirements:
