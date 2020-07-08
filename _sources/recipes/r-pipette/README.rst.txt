@@ -14,7 +14,7 @@ r-pipette
 
    :homepage: https://pipette.acidgenomics.com/
    :developer docs: https://github.com/acidgenomics/pipette
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`r-pipette <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pipette>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pipette/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ r-pipette
       
       
 
-      ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 

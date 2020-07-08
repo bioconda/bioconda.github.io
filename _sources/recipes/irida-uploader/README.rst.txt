@@ -15,7 +15,7 @@ irida-uploader
    :homepage: https://github.com/phac-nml/irida-uploader
    :documentation: https://irida-uploader.readthedocs.io/en/latest
    
-   :license: APACHE / Apache Software License
+   :license: APACHE / Apache-2.0
    :recipe: /`irida-uploader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irida-uploader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irida-uploader/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ irida-uploader
       
       
 
-      ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1-0``
 
       
 
