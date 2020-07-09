@@ -17,7 +17,7 @@ wg-blimp
    :recipe: /`wg-blimp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wg-blimp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wg-blimp/meta.yaml>`_
 
    wg\-blimp \(Whole Genome BisuLfIte sequencing Methylation analysis Pipeline\) can be utilised to analyse WGBS data. 
-   It performs alignment\, qc\, methylation calling\, DMR calling and DMR annotation using a multitude of tools. 
+   It performs alignment\, qc\, methylation calling\, DMR calling\, segmentation and annotation using a multitude of tools. 
 
 
 
@@ -29,7 +29,7 @@ wg-blimp
       
       
 
-      ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``0.9.6-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
@@ -47,6 +47,7 @@ wg-blimp
    :depends multiqc: 
    :depends picard: 
    :depends pysam: 
+   :depends python: 
    :depends qualimap: 
    :depends r-base: 
    :depends ruamel.yaml: 

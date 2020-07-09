@@ -12,8 +12,8 @@ meryl
 
    meryl is a multi\-threaded\, multi\-process\, out\-of\-core k\-mer counter
 
-   :homepage: http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Meryl
-   :license: GPL
+   :homepage: https://github.com/marbl/meryl
+   :license: PUBLIC DOMAIN
    :recipe: /`meryl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meryl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meryl/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ meryl
       
       
 
-      ``2013-0``
+      ``2013-0``,  ``v1.0-0``
 
       
 

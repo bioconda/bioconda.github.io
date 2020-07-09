@@ -27,7 +27,7 @@ hclust2
       
       
 
-      ``1.0.0-0``,  ``0.99-3``,  ``0.99-2``,  ``0.99-1``,  ``0.99-0``,  ``0.98.3d589ab-1``,  ``0.98.3d589ab-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.99-3``,  ``0.99-2``,  ``0.99-1``,  ``0.99-0``,  ``0.98.3d589ab-1``,  ``0.98.3d589ab-0``
 
       
 
@@ -35,8 +35,8 @@ hclust2
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``<3``
-   :depends scipy: ``0.18.1``
+   :depends python: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
