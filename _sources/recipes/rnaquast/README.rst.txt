@@ -27,14 +27,14 @@ rnaquast
       
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``
+      ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``
 
       
 
    
    :depends blast: 
    :depends blat: 
-   :depends busco: ``>=2``
+   :depends busco: ``>=4``
    :depends emboss: 
    :depends gffutils: 
    :depends gmap: 

@@ -29,10 +29,10 @@ genomedata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.4-5</code>,  <code>1.4.4-4</code>,  <code>1.4.4-3</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  <code>1.4.1-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.4-6</code>,  <code>1.4.4-5</code>,  <code>1.4.4-4</code>,  <code>1.4.4-3</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  <code>1.4.1-0</code>,  </span></summary>
       
 
-      ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.5-0``
+      ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.5-0``
 
       
       .. raw:: html
@@ -43,11 +43,11 @@ genomedata
    
    :depends bedtools: 
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends path.py: 
    :depends pytables: ``>=3.4.3``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends six: 
    :depends textinput: 
    :depends ucsc-bigwigtobedgraph: 

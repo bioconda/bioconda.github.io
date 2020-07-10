@@ -28,10 +28,10 @@ sorted_nearest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.31-1</code>,  <code>0.0.31-0</code>,  <code>0.0.30-0</code>,  <code>0.0.29-0</code>,  <code>0.0.28-0</code>,  <code>0.0.24-0</code>,  <code>0.0.23-1</code>,  <code>0.0.22-1</code>,  <code>0.0.20-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.31-2</code>,  <code>0.0.31-1</code>,  <code>0.0.31-0</code>,  <code>0.0.30-0</code>,  <code>0.0.29-0</code>,  <code>0.0.28-0</code>,  <code>0.0.24-0</code>,  <code>0.0.23-1</code>,  <code>0.0.22-1</code>,  </span></summary>
       
 
-      ``0.0.31-1``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.24-0``,  ``0.0.23-1``,  ``0.0.22-1``,  ``0.0.20-1``,  ``0.0.19-1``,  ``0.0.18-1``,  ``0.0.17-1``,  ``0.0.17-0``
+      ``0.0.31-2``,  ``0.0.31-1``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.24-0``,  ``0.0.23-1``,  ``0.0.22-1``,  ``0.0.20-1``,  ``0.0.19-1``,  ``0.0.18-1``,  ``0.0.17-1``,  ``0.0.17-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ sorted_nearest
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    .. rubric:: Installation

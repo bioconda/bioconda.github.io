@@ -28,10 +28,10 @@ mappy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.16-0</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  <code>2.13-0</code>,  <code>2.12-0</code>,  <code>2.11-0</code>,  <code>2.10-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.17-2</code>,  <code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.16-0</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  <code>2.13-0</code>,  <code>2.12-0</code>,  <code>2.11-0</code>,  </span></summary>
       
 
-      ``2.17-1``,  ``2.17-0``,  ``2.16-0``,  ``2.15-0``,  ``2.14-0``,  ``2.13-0``,  ``2.12-0``,  ``2.11-0``,  ``2.10-1``,  ``2.9-1``,  ``2.8-1``,  ``2.8-0``,  ``2.7-1``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.2-0``
+      ``2.17-2``,  ``2.17-1``,  ``2.17-0``,  ``2.16-0``,  ``2.15-0``,  ``2.14-0``,  ``2.13-0``,  ``2.12-0``,  ``2.11-0``,  ``2.10-1``,  ``2.9-1``,  ``2.8-1``,  ``2.8-0``,  ``2.7-1``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.2-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ mappy
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

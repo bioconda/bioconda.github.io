@@ -27,7 +27,7 @@ capc-map
       
       
 
-      ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``1.1.3-3``,  ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
 
@@ -35,11 +35,11 @@ capc-map
    :depends biopython: ``>=1.70``
    :depends bowtie: ``>=1.1.1``
    :depends cutadapt: ``>=1.11``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends samtools: ``>=1.3.1``
    :requirements:
 

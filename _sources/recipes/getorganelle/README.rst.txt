@@ -27,7 +27,7 @@ getorganelle
       
       
 
-      ``1.6.4-1``,  ``1.6.4-0``
+      ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-1``,  ``1.6.4-0``
 
       
 
@@ -35,9 +35,10 @@ getorganelle
    :depends blast: ``>=2.3``
    :depends bowtie2: ``>=2.3``
    :depends numpy: ``>=1.16.4``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: 
    :depends pigz: 
    :depends python: 
+   :depends requests: 
    :depends scipy: ``>=1.3.0``
    :depends spades: ``>=3.9,<=3.13.0``
    :depends sympy: ``>=1.4``

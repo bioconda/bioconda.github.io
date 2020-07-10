@@ -27,14 +27,14 @@ ntjoin
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends bedtools: ``>=2.21.0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends make: 
    :depends pybedtools: 
    :depends pymannkendall: 

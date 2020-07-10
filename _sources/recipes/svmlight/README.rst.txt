@@ -27,12 +27,11 @@ svmlight
       
       
 
-      ``6.02-1``
+      ``6.02-2``,  ``6.02-1``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

@@ -27,7 +27,7 @@ batvi
       
       
 
-      ``1.04-1``
+      ``1.04-2``,  ``1.04-1``
 
       
 
@@ -35,7 +35,6 @@ batvi
    :depends bedtools: 
    :depends blast: 
    :depends bwa: 
-   :depends libgcc-ng: ``>=4.9``
    :depends openjdk: 
    :depends picard: 
    :depends samtools: 

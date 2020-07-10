@@ -27,7 +27,7 @@ frogs
       
       
 
-      ``3.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
@@ -44,7 +44,7 @@ frogs
    :depends perl: 
    :depends perl-io-gzip: ``>=0.20``
    :depends perl-io-zlib: 
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python: ``<3``
    :depends r-base: ``>=3.5.1``
    :depends r-gridextra: ``>=2.3``
    :depends r-phangorn: ``>=2.4.0``
