@@ -28,10 +28,10 @@ homer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.11-1</code>,  <code>4.11-0</code>,  <code>4.10-0</code>,  <code>4.9.1-6</code>,  <code>4.9.1-5</code>,  <code>4.9.1-4</code>,  <code>4.9.1-3</code>,  <code>4.9.1-2</code>,  <code>4.9.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.11-2</code>,  <code>4.11-1</code>,  <code>4.11-0</code>,  <code>4.10-0</code>,  <code>4.9.1-6</code>,  <code>4.9.1-5</code>,  <code>4.9.1-4</code>,  <code>4.9.1-3</code>,  <code>4.9.1-2</code>,  </span></summary>
       
 
-      ``4.11-1``,  ``4.11-0``,  ``4.10-0``,  ``4.9.1-6``,  ``4.9.1-5``,  ``4.9.1-4``,  ``4.9.1-3``,  ``4.9.1-2``,  ``4.9.1-1``,  ``4.9.1-0``,  ``4.8.3-3``,  ``4.8-1``
+      ``4.11-2``,  ``4.11-1``,  ``4.11-0``,  ``4.10-0``,  ``4.9.1-6``,  ``4.9.1-5``,  ``4.9.1-4``,  ``4.9.1-3``,  ``4.9.1-2``,  ``4.9.1-1``,  ``4.9.1-0``,  ``4.8.3-3``,  ``4.8-1``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ homer
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    .. rubric:: Installation

@@ -27,7 +27,7 @@ starseqr
       
       
 
-      ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.3-0``,  ``0.5.0-0``
+      ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.3-0``,  ``0.5.0-0``
 
       
 
@@ -40,8 +40,8 @@ starseqr
    :depends pandas: ``>=0.18.1``
    :depends primer3-py: 
    :depends pysam: ``>=0.9.1.4``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends six: 
    :requirements:
 

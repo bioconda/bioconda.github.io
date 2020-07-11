@@ -27,12 +27,12 @@ mawk
       
       
 
-      ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``
+      ``1.3.4-3``,  ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.2.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

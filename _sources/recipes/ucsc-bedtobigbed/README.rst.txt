@@ -26,17 +26,25 @@ ucsc-bedtobigbed
    :versions:
       
       
+      .. raw:: html
 
-      ``377-0``,  ``366-0``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``,  ``323-0``
+         <details><summary><span class="truncated-version-list"><code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-3</code>,  <code>357-2</code>,  <code>357-1</code>,  <code>357-0</code>,  <code>332-0</code>,  <code>324-0</code>,  </span></summary>
+      
 
+      ``377-1``,  ``377-0``,  ``366-0``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``,  ``323-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libpng: ``>=1.6.35,<1.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libpng: ``>=1.6.37,<1.7.0a0``
    :depends libuuid: ``>=2.32.1,<3.0a0``
-   :depends mysql-connector-c: 
-   :depends openssl: ``>=1.0.2p,<1.0.3a``
+   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends openssl: ``>=1.1.1g,<1.1.2a``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

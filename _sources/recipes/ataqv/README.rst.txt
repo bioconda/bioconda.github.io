@@ -30,7 +30,7 @@ ataqv
       
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -38,11 +38,11 @@ ataqv
    :depends boost: ``>=1.70.0,<1.70.1.0a0``
    :depends coreutils: 
    :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends ncurses: ``>=6.1,<6.2.0a0``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

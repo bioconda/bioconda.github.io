@@ -27,7 +27,7 @@ mykatlas
       
       
 
-      ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``
+      ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``
 
       
 
@@ -36,8 +36,8 @@ mykatlas
    :depends future: 
    :depends ga4ghmongo: 
    :depends mongoengine: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends pyvcf: 
    :depends redis-py: 
    :requirements:
