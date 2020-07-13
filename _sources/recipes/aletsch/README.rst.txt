@@ -13,7 +13,7 @@ aletsch
    Aletsch is a scalable\, accurate\, and versatile assembler for multiple RNA\-seq samples.
 
    :homepage: https://github.com/Shao-Group/aletsch
-   :license: BSD 3-Clause License
+   :license: BSD-3-Clause
    :recipe: /`aletsch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aletsch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aletsch/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ aletsch
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
