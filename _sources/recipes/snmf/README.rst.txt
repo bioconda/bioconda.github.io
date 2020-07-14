@@ -27,11 +27,15 @@ snmf
       
       
 
-      ``1.2-1``,  ``1.2-0``
+      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-bioperl: 
+   :depends perl-lib: 
    :requirements:
 
    .. rubric:: Installation

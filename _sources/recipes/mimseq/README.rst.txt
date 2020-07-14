@@ -27,7 +27,7 @@ mimseq
       
       
 
-      ``0.2.5.3-0``
+      ``0.2.5.4-0``,  ``0.2.5.3-0``
 
       
 
@@ -46,11 +46,11 @@ mimseq
    :depends pyfiglet: 
    :depends pysam: 
    :depends python: ``>=3``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-calibrate: 
    :depends r-devtools: 
    :depends r-dplyr: 
-   :depends r-ggplot2: 
+   :depends r-ggplot2: ``3.2.1.*``
    :depends r-gridextra: 
    :depends r-pheatmap: 
    :depends r-plyr: 

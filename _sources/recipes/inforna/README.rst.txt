@@ -28,13 +28,14 @@ inforna
       
       
 
-      ``2.1.2-2``,  ``2.1.2-0``
+      ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
-   :depends viennarna: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends viennarna: ``>=2.4.14,<2.5.0a0``
    :requirements:
 
    .. rubric:: Installation

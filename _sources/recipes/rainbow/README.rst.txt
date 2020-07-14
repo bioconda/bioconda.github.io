@@ -27,12 +27,12 @@ rainbow
       
       
 
-      ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-0``
+      ``2.0.4-4``,  ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends perl: 
    :requirements:
 

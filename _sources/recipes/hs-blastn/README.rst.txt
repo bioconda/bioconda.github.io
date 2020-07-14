@@ -27,13 +27,14 @@ hs-blastn
       
       
 
-      ``0.0.5-1``,  ``0.0.5-0``
+      ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``
 
       
 
    
    :depends blast: 
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

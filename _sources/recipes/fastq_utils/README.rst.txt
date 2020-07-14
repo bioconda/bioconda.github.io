@@ -13,7 +13,7 @@ fastq_utils
    Validation and manipulation of FASTQ files\, scRNA\-seq barcode pre\-processing and UMI quantification.
 
    :homepage: https://github.com/nunofonseca/fastq_utils
-   :license: GPL / GPL-3
+   :license: GPL / GPL-3.0-only
    :recipe: /`fastq_utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq_utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq_utils/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ fastq_utils
       
       
 
-      ``0.23.0-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.3-0``,  ``0.19.2-0``,  ``0.18.2-1``
+      ``0.24.0-0``,  ``0.23.0-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.3-0``,  ``0.19.2-0``,  ``0.18.2-1``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends samtools: ``1.9``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

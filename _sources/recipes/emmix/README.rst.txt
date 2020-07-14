@@ -27,12 +27,13 @@ emmix
       
       
 
-      ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+      ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
    :requirements:
 
    .. rubric:: Installation

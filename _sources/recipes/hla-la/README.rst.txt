@@ -28,15 +28,16 @@ hla-la
       
       
 
-      ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.68.0,<1.68.1.0a0``
+   :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
    :depends bwa: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends mummer: 
    :depends perl-bio-db-hts: 
    :depends perl-bio-featureio: 

@@ -14,7 +14,7 @@ phyml
 
    :homepage: http://www.atgc-montpellier.fr/phyml/
    :developer docs: https://github.com/stephaneguindon/phyml/
-   :license: GPL / GPLv2
+   :license: GPL / GPL-3.0-only
    :recipe: /`phyml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyml/meta.yaml>`_
    :links: biotools: :biotools:`phyml`, doi: :doi:`10.1093/sysbio/syq010`
 

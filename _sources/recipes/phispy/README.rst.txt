@@ -16,7 +16,7 @@ phispy
    :documentation: https://github.com/linsalrob/PhiSpy/blob/master/README.md
    
    :developer docs: https://github.com/linsalrob/PhiSpy/
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`phispy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phispy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phispy/meta.yaml>`_
    :links: doi: :doi:`10.5281/zenodo.3475717`
 
@@ -31,7 +31,7 @@ phispy
       
       
 
-      ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
+      ``4.1.14-0``,  ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
 
       
 

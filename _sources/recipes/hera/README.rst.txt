@@ -27,19 +27,18 @@ hera
       
       
 
-      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
    
-   :depends bzip2: ``>=1.0.6,<2.0a0``
-   :depends hdf5: ``>=1.10.2,<1.10.3.0a0``
-   :depends htslib: ``>=1.9,<1.10.0a0``
-   :depends jemalloc: ``>=4.5.0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libdivsufsort: 
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends python: 
-   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

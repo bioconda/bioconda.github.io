@@ -33,6 +33,8 @@ dbg2olc
 
    
    :depends assemblyutility: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends sparc: 
    :depends sparseassembler: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
