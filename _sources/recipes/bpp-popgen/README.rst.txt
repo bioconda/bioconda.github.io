@@ -27,13 +27,14 @@ bpp-popgen
       
       
 
-      ``2.4.1-0``
+      ``2.4.1-1``,  ``2.4.1-0``
 
       
 
    
    :depends bpp-seq: 
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

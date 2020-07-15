@@ -27,7 +27,7 @@ lorikeet-genome
       
       
 
-      ``0.3.4-0``,  ``0.3.2-0``
+      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
 
       
 
@@ -45,7 +45,10 @@ lorikeet-genome
    :depends openblas: ``>=0.3.6,<0.3.7.0a0``
    :depends openssl: ``>=1.1.1g,<1.1.2a``
    :depends parallel: 
+   :depends prokka: 
    :depends pysam: ``>=0.16``
+   :depends r-base: 
+   :depends samtools: 
    :depends starcode: 
    :depends svim: 
    :depends vt: 

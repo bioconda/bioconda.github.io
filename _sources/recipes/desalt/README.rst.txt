@@ -12,7 +12,7 @@ desalt
 
    De Bruijn graph\-based Spliced Aligner for Long Transcriptome reads
 
-   :homepage: https://github.com/ydLiu-HIT/
+   :homepage: https://github.com/ydLiu-HIT/deSALT
    :license: MIT
    :recipe: /`desalt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/desalt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/desalt/meta.yaml>`_
 
@@ -26,9 +26,17 @@ desalt
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.5.6-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  </span></summary>
+      
 
+      ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

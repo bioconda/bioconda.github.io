@@ -27,16 +27,16 @@ refgenie
       
       
 
-      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``
+      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``
 
       
 
    
-   :depends logmuse: ``>=0.2``
+   :depends logmuse: ``>=0.2.6``
    :depends piper: ``>=0.12.1``
    :depends pyfaidx: ``>=0.5.5.2``
    :depends python: ``>=3``
-   :depends refgenconf: ``>=0.5.3``
+   :depends refgenconf: ``>=0.9.0``
    :requirements:
 
    .. rubric:: Installation

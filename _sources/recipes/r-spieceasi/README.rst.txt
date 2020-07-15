@@ -13,7 +13,7 @@ r-spieceasi
    Estimate networks from the precision matrix of compositional microbial abundance data.
 
    :homepage: http://github.com/zdk123/SpiecEasi
-   :license: GPL (>= 2)
+   :license: GPL-2.0-or-later
    :recipe: /`r-spieceasi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spieceasi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spieceasi/meta.yaml>`_
 
    
@@ -27,16 +27,21 @@ r-spieceasi
       
       
 
-      ``1.0.7-1``,  ``1.0.7-0``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``1.1.0-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-glmnet: 
    :depends r-huge: ``>=1.3.2``
    :depends r-mass: 
    :depends r-matrix: 
-   :depends r-pulsar: 
+   :depends r-pulsar: ``>=0.3.4``
+   :depends r-rcpp: 
+   :depends r-rcpparmadillo: 
    :depends r-vgam: 
    :requirements:
 

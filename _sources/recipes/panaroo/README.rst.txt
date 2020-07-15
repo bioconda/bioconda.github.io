@@ -27,7 +27,7 @@ panaroo
       
       
 
-      ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -47,6 +47,7 @@ panaroo
    :depends numpy: 
    :depends openmp: 
    :depends plotly: 
+   :depends prank: 
    :depends prokka: 
    :depends python: ``>=3``
    :depends python-edlib: 

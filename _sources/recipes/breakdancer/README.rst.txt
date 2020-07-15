@@ -28,16 +28,18 @@ breakdancer
       
       
 
-      ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``
+      ``1.4.5-6``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``
 
       
 
    
-   :depends libgcc: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends perl-gdgraph-histogram: 
    :depends perl-math-cdf: 
    :depends perl-statistics-descriptive: 
-   :depends zlib: ``1.2.11*``
+   :depends samtools: ``0.1.19``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -28,17 +28,17 @@ mauvealigner
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.65.1,<1.65.2.0a0``
-   :depends libgcc-ng: ``>=4.9``
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends libgenome: 
    :depends libmems: 
    :depends libmuscle: 
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

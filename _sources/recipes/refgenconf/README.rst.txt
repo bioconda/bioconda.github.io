@@ -27,7 +27,7 @@ refgenconf
       
       
 
-      ``0.9.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.4-0``
+      ``0.9.0-1``,  ``0.9.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.4-0``
 
       
 
@@ -37,9 +37,8 @@ refgenconf
    :depends python: 
    :depends pyyaml: 
    :depends requests: 
-   :depends tqdm: 
-   :depends ubiquerg: ``>=0.5.0``
-   :depends yacman: ``>=0.6.3``
+   :depends tqdm: ``>=4.38.0``
+   :depends yacman: ``>=0.6.9``
    :requirements:
 
    .. rubric:: Installation

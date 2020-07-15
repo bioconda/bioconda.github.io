@@ -13,7 +13,7 @@ proteinortho
    Proteinortho is a tool to detect orthologous genes within different species.
 
    :homepage: https://gitlab.com/paulklemm_PHD/proteinortho/
-   :license: GPL / GNU GPL-3
+   :license: GPL / GPL-3.0-only
    :recipe: /`proteinortho <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proteinortho>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proteinortho/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ proteinortho
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.0.18-1</code>,  <code>6.0.18-0</code>,  <code>6.0.17-0</code>,  <code>6.0.16-1</code>,  <code>6.0.16-0</code>,  <code>6.0.15-0</code>,  <code>6.0.14-0</code>,  <code>6.0.13-0</code>,  <code>6.0.12-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.0.19-0</code>,  <code>6.0.18-1</code>,  <code>6.0.18-0</code>,  <code>6.0.17-0</code>,  <code>6.0.16-1</code>,  <code>6.0.16-0</code>,  <code>6.0.15-0</code>,  <code>6.0.14-0</code>,  <code>6.0.13-0</code>,  </span></summary>
       
 
-      ``6.0.18-1``,  ``6.0.18-0``,  ``6.0.17-0``,  ``6.0.16-1``,  ``6.0.16-0``,  ``6.0.15-0``,  ``6.0.14-0``,  ``6.0.13-0``,  ``6.0.12-0``,  ``6.0.11-0``,  ``6.0.10-0``,  ``6.0.9-0``,  ``6.0.8-0``,  ``6.0.7-0``,  ``6.0.6-0``,  ``6.0.5-0``,  ``6.0.4-0``,  ``6.0.3-0``,  ``6.0.2c-0``,  ``6.0.1-0``,  ``6.0-0``,  ``6.0b-0``
+      ``6.0.19-0``,  ``6.0.18-1``,  ``6.0.18-0``,  ``6.0.17-0``,  ``6.0.16-1``,  ``6.0.16-0``,  ``6.0.15-0``,  ``6.0.14-0``,  ``6.0.13-0``,  ``6.0.12-0``,  ``6.0.11-0``,  ``6.0.10-0``,  ``6.0.9-0``,  ``6.0.8-0``,  ``6.0.7-0``,  ``6.0.6-0``,  ``6.0.5-0``,  ``6.0.4-0``,  ``6.0.3-0``,  ``6.0.2c-0``,  ``6.0.1-0``,  ``6.0-0``,  ``6.0b-0``
 
       
       .. raw:: html

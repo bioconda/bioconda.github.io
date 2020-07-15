@@ -30,7 +30,7 @@ trtools
       
       
 
-      ``2.0.18-1``,  ``2.0.18-0``
+      ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
 
       
 
@@ -42,6 +42,7 @@ trtools
    :depends pysam: 
    :depends python: ``>=3.5``
    :depends pyvcf: 
+   :depends scikit-learn: 
    :depends scipy: 
    :requirements:
 
