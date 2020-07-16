@@ -27,11 +27,12 @@ vembrane
       
       
 
-      ``0.2.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
+   :depends importlib_metadata: ``>=1.7.0,<2.0.0``
    :depends pysam: ``>=0.16,<0.17``
    :depends python: ``>=3.7``
    :depends pyyaml: ``>=5.3,<6``

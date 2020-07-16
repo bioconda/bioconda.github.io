@@ -130,7 +130,7 @@ taking into account uncertainty in the velocities.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/cellrank"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/cellrank.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/cellrank"><img alt="docker_cellrank" src="https://quay.io/repository/biocontainers/cellrank/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0b3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0rc0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0b3-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -154,6 +154,7 @@ taking into account uncertainty in the velocities.</p>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="#cellrank-krylov"><strong class="xref backref">cellrank-krylov</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -171,6 +172,47 @@ taking into account uncertainty in the velocities.</p>
 </pre></div>
 </div>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/cellrank?tab=tags">cellrank/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+</dd></dl>
+
+<dl class="conda package">
+<dt id="package-cellrank-krylov">
+<em class="property">package </em><code class="sig-name descname">cellrank-krylov</code><a class="headerlink" href="#package-cellrank-krylov" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/cellrank-krylov"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/cellrank-krylov.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/cellrank"><img alt="docker_cellrank-krylov" src="https://quay.io/repository/biocontainers/cellrank/status" /></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Versions</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0rc0-0</span></code></p>
+</dd>
+<dt class="field-even">Depends</dt>
+<dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="#package-cellrank" title="cellrank package"><strong>cellrank</strong></a> <code class="docutils literal notranslate"><span class="pre">1.0.0rc0 py_0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/mpi4py-feedstock"><strong>mpi4py</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.0.3</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openmpi-feedstock"><strong>openmpi</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.0.3</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/petsc-feedstock"><strong>petsc</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.13.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/petsc4py-feedstock"><strong>petsc4py</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.13.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.6</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/slepc-feedstock"><strong>slepc</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.13.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/slepc4py-feedstock"><strong>slepc4py</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.13.0</span></code></p></li>
+</ul>
+</dd>
+<dt class="field-odd">Required By</dt>
+<dd class="field-odd"><ul class="simple">
+</ul>
+</dd>
+</dl>
+<p class="rubric">Installation</p>
+<p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">cellrank</span><span class="o">-</span><span class="n">krylov</span>
+</pre></div>
+</div>
+<p>and update with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">cellrank</span><span class="o">-</span><span class="n">krylov</span>
+</pre></div>
+</div>
+<p>or use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">cellrank</span><span class="o">-</span><span class="n">krylov</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/cellrank-krylov?tab=tags">cellrank-krylov/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">

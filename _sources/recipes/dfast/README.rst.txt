@@ -29,7 +29,7 @@ dfast
       
       
 
-      ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
+      ``1.2.7-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
 
       
 
@@ -40,8 +40,8 @@ dfast
    :depends blast: ``>=2.6.0``
    :depends ghostx: 
    :depends hmmer: ``>=3.1b2``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends metagene_annotator: ``>=1.0``
    :depends openjdk: 
    :depends python: ``>=3.6``

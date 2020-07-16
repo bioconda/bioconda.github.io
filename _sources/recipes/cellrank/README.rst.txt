@@ -33,7 +33,7 @@ cellrank
       
       
 
-      ``1.0.0b3-0``
+      ``1.0.0rc0-0``,  ``1.0.0b3-0``
 
       
 
@@ -79,6 +79,55 @@ cellrank
 .. |docker_cellrank| image:: https://quay.io/repository/biocontainers/cellrank/status
    :target: https://quay.io/repository/biocontainers/cellrank
 .. _`cellrank/tags`: https://quay.io/repository/biocontainers/cellrank?tab=tags
+
+
+
+.. conda:package:: cellrank-krylov
+
+   |downloads_cellrank-krylov| |docker_cellrank-krylov|
+
+   :versions:
+      
+      
+
+      ``1.0.0rc0-0``
+
+      
+
+   
+   :depends cellrank: ``1.0.0rc0 py_0``
+   :depends mpi4py: ``>=3.0.3``
+   :depends openmpi: ``>=3.0.3``
+   :depends petsc: ``>=3.13.0``
+   :depends petsc4py: ``>=3.13.0``
+   :depends python: ``>=3.6``
+   :depends slepc: ``>=3.13.0``
+   :depends slepc4py: ``>=3.13.0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install cellrank-krylov
+
+   and update with::
+
+      conda update cellrank-krylov
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/cellrank-krylov:<tag>
+
+   (see `cellrank-krylov/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_cellrank-krylov| image:: https://img.shields.io/conda/dn/bioconda/cellrank-krylov.svg?style=flat
+   :target: https://anaconda.org/bioconda/cellrank-krylov
+   :alt:   (downloads)
+.. |docker_cellrank-krylov| image:: https://quay.io/repository/biocontainers/cellrank/status
+   :target: https://quay.io/repository/biocontainers/cellrank
+.. _`cellrank-krylov/tags`: https://quay.io/repository/biocontainers/cellrank-krylov?tab=tags
 
 
 
