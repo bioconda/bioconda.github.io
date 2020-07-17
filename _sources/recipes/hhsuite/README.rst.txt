@@ -27,17 +27,17 @@ hhsuite
       
       
 
-      ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
+      ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openmp: 
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    .. rubric:: Installation

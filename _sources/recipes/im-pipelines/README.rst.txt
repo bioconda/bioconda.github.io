@@ -27,7 +27,7 @@ im-pipelines
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.3-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,6 +37,7 @@ im-pipelines
    :depends matplotlib-base: 
    :depends molvs: 
    :depends python: 
+   :depends scikit-learn: 
    :requirements:
 
    .. rubric:: Installation

@@ -27,11 +27,12 @@ chunked-scatter
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends pysam: ``>=0.11.2``
    :depends python: ``>=3.6``
    :requirements:
 

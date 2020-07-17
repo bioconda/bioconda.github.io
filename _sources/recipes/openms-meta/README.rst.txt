@@ -28,7 +28,7 @@ openms-meta
       
       
 
-      ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
+      ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
 
       
 
@@ -38,7 +38,7 @@ openms-meta
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends qt: ``>=5.12.5,<5.13.0a0``
-   :depends sqlite: ``>=3.30.1,<4.0a0``
+   :depends sqlite: ``>=3.32.3,<4.0a0``
    :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -78,10 +78,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-3</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-3</code>,  <code>2.3.0-2</code>,  <code>2.3.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-3</code>,  <code>2.3.0-2</code>,  </span></summary>
       
 
-      ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
+      ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -98,11 +98,11 @@ openms-meta
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
    :depends hdf5: ``>=1.10.5,<1.11.0a0``
    :depends libgcc-ng: ``>=7.5.0``
-   :depends libopenms: ``2.5.0 h463af6b_3``
+   :depends libopenms: ``2.5.0 h463af6b_4``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends libsvm: ``>=3.21,<3.22.0a0``
    :depends qt: ``>=5.12.5,<5.13.0a0``
-   :depends sqlite: ``>=3.30.1,<4.0a0``
+   :depends sqlite: ``>=3.32.3,<4.0a0``
    :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -182,7 +182,7 @@ openms-meta
       
       
 
-      ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
 
@@ -195,7 +195,7 @@ openms-meta
    :depends luciphor2: ``2018_06_28``
    :depends msgf_plus: ``2017.07.21``
    :depends omssa: ``2.1.9``
-   :depends openms: ``2.5.0 h463af6b_3``
+   :depends openms: ``2.5.0 h463af6b_4``
    :depends pepnovo: ``20101117``
    :depends percolator: ``3.4``
    :depends sirius-csifingerid: ``4.0.1``
@@ -237,7 +237,7 @@ openms-meta
       
       
 
-      ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+      ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
 
       
 
@@ -250,14 +250,14 @@ openms-meta
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
    :depends hdf5: ``>=1.10.5,<1.11.0a0``
    :depends libgcc-ng: ``>=7.5.0``
-   :depends libopenms: ``2.5.0 h463af6b_3``
+   :depends libopenms: ``2.5.0 h463af6b_4``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends libsvm: ``>=3.21,<3.22.0a0``
    :depends numpy: 
-   :depends python: ``>=3.6,<3.7.0a0 *_cpython``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0 *_cpython``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends qt: ``>=5.12.5,<5.13.0a0``
-   :depends sqlite: ``>=3.30.1,<4.0a0``
+   :depends sqlite: ``>=3.32.3,<4.0a0``
    :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

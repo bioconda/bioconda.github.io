@@ -28,7 +28,7 @@ breakdancer
       
       
 
-      ``1.4.5-6``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``
+      ``1.4.5-7``,  ``1.4.5-6``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``
 
       
 
@@ -38,7 +38,6 @@ breakdancer
    :depends perl-gdgraph-histogram: 
    :depends perl-math-cdf: 
    :depends perl-statistics-descriptive: 
-   :depends samtools: ``0.1.19``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

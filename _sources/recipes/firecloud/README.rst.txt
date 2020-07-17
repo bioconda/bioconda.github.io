@@ -29,7 +29,7 @@ firecloud
       
       
 
-      ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
+      ``0.16.27-1``,  ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
 
       
 
@@ -40,8 +40,8 @@ firecloud
    :depends nose: 
    :depends pydot: 
    :depends pylint: ``>=1.7.2``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends requests: 
    :depends six: 
    :requirements:
