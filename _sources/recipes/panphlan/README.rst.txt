@@ -6,20 +6,15 @@
 panphlan
 ========
 
-.. conda:recipe:: panphlan/1.2
+.. conda:recipe:: panphlan
    :replaces_section_title:
    :noindex:
 
-   PanPhlAn is a strain\-level metagenomic profiling tool for identifying the 
-   gene composition and in\-vivo transcriptional activity of individual strains 
-   in metagenomic samples. PanPhlAn\'s ability for strain\-tracking and 
-   functional analysis of unknown pathogens makes it an efficient tool for 
-   culture\-free infectious outbreak epidemiology and microbial population 
-   studies.
+   PanPhlAn is a strain\-level metagenomic profiling tool for identifying the gene composition and \*in\-vivo\* transcriptional activity of individual strains in metagenomic samples.
 
-   :homepage: https://github.com/SegataLab/panphlan
-   :license: MIT / MIT License
-   :recipe: /`panphlan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panphlan>`_/`1.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panphlan/1.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panphlan/1.2/meta.yaml>`_
+   :homepage: http://github.com/SegataLab/panphlan/
+   :license: MIT / MIT
+   :recipe: /`panphlan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panphlan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panphlan/meta.yaml>`_
 
    
 
@@ -32,17 +27,18 @@ panphlan
       
       
 
-      ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``
+      ``3.0-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``
 
       
 
    
-   :depends biopython: 
-   :depends bowtie2: ``>=2.0.0``
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends python: 
-   :depends samtools: 
+   :depends pandas: 
+   :depends python: ``>=3``
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seaborn: 
    :requirements:
 
    .. rubric:: Installation
