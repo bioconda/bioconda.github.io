@@ -1,5 +1,5 @@
-
-
+check\_repo
+===========
 
 
 .. currentmodule:: bioconda_utils.lint.check_repo

@@ -1,5 +1,5 @@
-
-
+lint
+====
 
 
 .. currentmodule:: bioconda_utils.lint

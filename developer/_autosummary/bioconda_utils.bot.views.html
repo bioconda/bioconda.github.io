@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>&lt;no title&gt; &#8212; Bioconda  documentation</title>
+    <title>views &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -17,8 +17,8 @@
     <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="bioconda_utils.bot.web.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="bioconda_utils.bot.tasks.html" />
+    <link rel="next" title="web" href="bioconda_utils.bot.web.html" />
+    <link rel="prev" title="tasks" href="bioconda_utils.bot.tasks.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -68,10 +68,26 @@
 
 
 <h3>Navigation</h3>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../index.html">Developer Docs</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="bioconda_utils.bot.html">bot</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.chat.html">chat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.commands.html">commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.config.html">config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.events.html">events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.tasks.html">tasks</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">views</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.web.html">web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.worker.html">worker</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.lint.html">lint</a></li>
+</ul>
+</li>
 </ul>
 
 <ul>
@@ -101,7 +117,9 @@
 
           <div class="body" role="main">
             
-  <span class="target" id="module-bioconda_utils.bot.views"></span><p>HTTP Views (accepts and parses webhooks)</p>
+  <div class="section" id="module-bioconda_utils.bot.views">
+<span id="views"></span><h1>views<a class="headerlink" href="#module-bioconda_utils.bot.views" title="Permalink to this headline">¶</a></h1>
+<p>HTTP Views (accepts and parses webhooks)</p>
 <p class="rubric">Functions</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -127,7 +145,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="bioconda_utils.bot.views.github_webhook_dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">github_webhook_dispatch</span></code></a>(request)</p></td>
 <td><p>View for incoming webhooks from Github</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.list_commands" title="bioconda_utils.bot.views.list_commands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list_commands</span></code></a>(*args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.list_commands" title="bioconda_utils.bot.views.list_commands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list_commands</span></code></a>(request)</p></td>
 <td><p>Self documents available commands</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.login" title="bioconda_utils.bot.views.login"><code class="xref py py-obj docutils literal notranslate"><span class="pre">login</span></code></a>(request)</p></td>
@@ -136,10 +154,10 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.logout" title="bioconda_utils.bot.views.logout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">logout</span></code></a>(request)</p></td>
 <td><p>View for logging out user</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.show_index" title="bioconda_utils.bot.views.show_index"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_index</span></code></a>(*args)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.show_index" title="bioconda_utils.bot.views.show_index"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_index</span></code></a>(_request)</p></td>
 <td><p>View for the Bot’s home page.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.show_status" title="bioconda_utils.bot.views.show_status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_status</span></code></a>(*args)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.bot.views.show_status" title="bioconda_utils.bot.views.show_status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">show_status</span></code></a>(request)</p></td>
 <td><p>View for checking in on the bots status</p></td>
 </tr>
 </tbody>
@@ -208,7 +226,7 @@ the event handlers defined in <a class="reference internal" href="bioconda_utils
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.list_commands">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">list_commands</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#list_commands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.list_commands" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">list_commands</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#list_commands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.list_commands" title="Permalink to this definition">¶</a></dt>
 <dd><p>Self documents available commands</p>
 </dd></dl>
 
@@ -236,14 +254,14 @@ sent back to (via HTTP redirect) after logging out.</p>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.show_index">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_index</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#show_index"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_index" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_index</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#show_index"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_index" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for the Bot’s home page.</p>
 <p>Renders nothing special at the moment, just the template.</p>
 </dd></dl>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.show_status">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_status</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#show_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_status" title="Permalink to this definition">¶</a></dt>
+<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_status</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#show_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_status" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for checking in on the bots status</p>
 <p>Shows the status of each responsding worker.  This page may take
 100ms extra to render. If workers are busy, they may not respons
@@ -256,6 +274,7 @@ within that time.</p>
 <dd><p>List of routes from url path to handler defined in this module</p>
 </dd></dl>
 
+</div>
 
 
           </div>
@@ -268,7 +287,7 @@ within that time.</p>
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

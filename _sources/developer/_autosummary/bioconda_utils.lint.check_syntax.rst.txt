@@ -1,5 +1,5 @@
-
-
+check\_syntax
+=============
 
 
 .. currentmodule:: bioconda_utils.lint.check_syntax

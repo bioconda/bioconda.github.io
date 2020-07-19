@@ -1,5 +1,5 @@
-
-
+check\_build\_help
+==================
 
 
 .. currentmodule:: bioconda_utils.lint.check_build_help

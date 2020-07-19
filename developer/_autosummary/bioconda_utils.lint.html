@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writing additional checks &#8212; Bioconda  documentation</title>
+    <title>lint &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -17,8 +17,8 @@
     <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="bioconda_utils.lint.check_build_help.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="bioconda_utils.bot.worker.html" />
+    <link rel="next" title="check_build_help" href="bioconda_utils.lint.check_build_help.html" />
+    <link rel="prev" title="worker" href="bioconda_utils.bot.worker.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
@@ -73,12 +73,20 @@
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Developer Docs</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../bioconda-utils.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Writing additional checks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-autodocs">Module Autodocs</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.html">bioconda_utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bioconda_utils.bot.html">bot</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">lint</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#writing-additional-checks">Writing additional checks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-autodocs">Module Autodocs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_build_help.html">check_build_help</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_completeness.html">check_completeness</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_deprecation.html">check_deprecation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_noarch.html">check_noarch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_policy.html">check_policy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_repo.html">check_repo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bioconda_utils.lint.check_syntax.html">check_syntax</a></li>
 </ul>
 </li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Writing additional checks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-autodocs">Module Autodocs</a><ul class="simple">
 </ul>
 </li>
 </ul>
@@ -112,9 +120,11 @@
 
           <div class="body" role="main">
             
-  <span class="target" id="module-bioconda_utils.lint"></span><p>Recipe Linter</p>
+  <div class="section" id="module-bioconda_utils.lint">
+<span id="lint"></span><h1>lint<a class="headerlink" href="#module-bioconda_utils.lint" title="Permalink to this headline">¶</a></h1>
+<p>Recipe Linter</p>
 <div class="section" id="writing-additional-checks">
-<h1>Writing additional checks<a class="headerlink" href="#writing-additional-checks" title="Permalink to this headline">¶</a></h1>
+<h2>Writing additional checks<a class="headerlink" href="#writing-additional-checks" title="Permalink to this headline">¶</a></h2>
 <p>Lint checks are defined in <code class="xref py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.lint.checks</span></code> as
 subclasses of <a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintCheck</span></code></a>. It might be easiest to have a look at that
 module and the already existing checks and go from there.</p>
@@ -168,7 +178,7 @@ specify the line number directly (<code class="docutils literal notranslate"><sp
 </ul>
 </div>
 <div class="section" id="module-autodocs">
-<h1>Module Autodocs<a class="headerlink" href="#module-autodocs" title="Permalink to this headline">¶</a></h1>
+<h2>Module Autodocs<a class="headerlink" href="#module-autodocs" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Environment Variables</p>
 <dl class="std envvar">
 <dt id="envvar-LINT_SKIP">
@@ -742,6 +752,7 @@ named <code class="docutils literal notranslate"><span class="pre">meta.yml</spa
 </dd></dl>
 
 </div>
+</div>
 
 
           </div>
@@ -754,7 +765,7 @@ named <code class="docutils literal notranslate"><span class="pre">meta.yml</spa
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

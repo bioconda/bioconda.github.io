@@ -327,6 +327,55 @@
     <span class="k">if</span> <span class="n">_lock</span><span class="p">:</span>
         <span class="n">_lock</span><span class="o">.</span><span class="n">release</span><span class="p">()</span>
 
+
+<span class="c1"># Prevent a held logging lock from blocking a child from logging.</span>
+
+<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">os</span><span class="p">,</span> <span class="s1">&#39;register_at_fork&#39;</span><span class="p">):</span>  <span class="c1"># Windows and friends.</span>
+    <span class="k">def</span> <span class="nf">_register_at_fork_acquire_release</span><span class="p">(</span><span class="n">instance</span><span class="p">):</span>
+        <span class="k">pass</span>  <span class="c1"># no-op when os.register_at_fork does not exist.</span>
+<span class="k">else</span><span class="p">:</span>  <span class="c1"># The os.register_at_fork API exists</span>
+    <span class="n">os</span><span class="o">.</span><span class="n">register_at_fork</span><span class="p">(</span><span class="n">before</span><span class="o">=</span><span class="n">_acquireLock</span><span class="p">,</span>
+                        <span class="n">after_in_child</span><span class="o">=</span><span class="n">_releaseLock</span><span class="p">,</span>
+                        <span class="n">after_in_parent</span><span class="o">=</span><span class="n">_releaseLock</span><span class="p">)</span>
+
+    <span class="c1"># A collection of instances with acquire and release methods (logging.Handler)</span>
+    <span class="c1"># to be called before and after fork.  The weakref avoids us keeping discarded</span>
+    <span class="c1"># Handler instances alive forever in case an odd program creates and destroys</span>
+    <span class="c1"># many over its lifetime.</span>
+    <span class="n">_at_fork_acquire_release_weakset</span> <span class="o">=</span> <span class="n">weakref</span><span class="o">.</span><span class="n">WeakSet</span><span class="p">()</span>
+
+
+    <span class="k">def</span> <span class="nf">_register_at_fork_acquire_release</span><span class="p">(</span><span class="n">instance</span><span class="p">):</span>
+        <span class="c1"># We put the instance itself in a single WeakSet as we MUST have only</span>
+        <span class="c1"># one atomic weak ref. used by both before and after atfork calls to</span>
+        <span class="c1"># guarantee matched pairs of acquire and release calls.</span>
+        <span class="n">_at_fork_acquire_release_weakset</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">instance</span><span class="p">)</span>
+
+
+    <span class="k">def</span> <span class="nf">_at_fork_weak_calls</span><span class="p">(</span><span class="n">method_name</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">instance</span> <span class="ow">in</span> <span class="n">_at_fork_acquire_release_weakset</span><span class="p">:</span>
+            <span class="n">method</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">instance</span><span class="p">,</span> <span class="n">method_name</span><span class="p">)</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">method</span><span class="p">()</span>
+            <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+                <span class="c1"># Similar to what PyErr_WriteUnraisable does.</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ignoring exception from logging atfork&quot;</span><span class="p">,</span> <span class="n">instance</span><span class="p">,</span>
+                      <span class="n">method_name</span><span class="p">,</span> <span class="s2">&quot;method:&quot;</span><span class="p">,</span> <span class="n">err</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="p">)</span>
+
+
+    <span class="k">def</span> <span class="nf">_before_at_fork_weak_calls</span><span class="p">():</span>
+        <span class="n">_at_fork_weak_calls</span><span class="p">(</span><span class="s1">&#39;acquire&#39;</span><span class="p">)</span>
+
+
+    <span class="k">def</span> <span class="nf">_after_at_fork_weak_calls</span><span class="p">():</span>
+        <span class="n">_at_fork_weak_calls</span><span class="p">(</span><span class="s1">&#39;release&#39;</span><span class="p">)</span>
+
+
+    <span class="n">os</span><span class="o">.</span><span class="n">register_at_fork</span><span class="p">(</span><span class="n">before</span><span class="o">=</span><span class="n">_before_at_fork_weak_calls</span><span class="p">,</span>
+                        <span class="n">after_in_child</span><span class="o">=</span><span class="n">_after_at_fork_weak_calls</span><span class="p">,</span>
+                        <span class="n">after_in_parent</span><span class="o">=</span><span class="n">_after_at_fork_weak_calls</span><span class="p">)</span>
+
+
 <span class="c1">#---------------------------------------------------------------------------</span>
 <span class="c1">#   The logging record</span>
 <span class="c1">#---------------------------------------------------------------------------</span>
@@ -526,7 +575,8 @@
 <span class="sd">    responsible for converting a LogRecord to (usually) a string which can</span>
 <span class="sd">    be interpreted by either a human or an external system. The base Formatter</span>
 <span class="sd">    allows a formatting string to be specified. If none is supplied, the</span>
-<span class="sd">    default value of &quot;%s(message)&quot; is used.</span>
+<span class="sd">    the style-dependent default value, &quot;%(message)s&quot;, &quot;{message}&quot;, or</span>
+<span class="sd">    &quot;${message}&quot;, is used.</span>
 
 <span class="sd">    The Formatter can be initialized with a format string which makes use of</span>
 <span class="sd">    knowledge of the LogRecord attributes - e.g. the default value mentioned</span>
@@ -896,6 +946,7 @@
 <span class="sd">        Acquire a thread lock for serializing access to the underlying I/O.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">lock</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">RLock</span><span class="p">()</span>
+        <span class="n">_register_at_fork_acquire_release</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">acquire</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
@@ -2175,7 +2226,7 @@
       &copy;2016-2020, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>
