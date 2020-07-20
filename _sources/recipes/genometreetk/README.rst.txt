@@ -10,9 +10,9 @@ genometreetk
    :replaces_section_title:
    :noindex:
 
-   A toolbox for working with genome trees.
+   The genome tree toolkit is a collection of methods for working with genome trees.
 
-   :homepage: http://pypi.python.org/pypi/genometreetk/
+   :homepage: https://github.com/dparks1134/GenomeTreeTk
    :license: GPL3 / GPL3
    :recipe: /`genometreetk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometreetk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometreetk/meta.yaml>`_
 
@@ -27,17 +27,26 @@ genometreetk
       
       
 
-      ``0.1.6-1``,  ``0.1.6-0``
+      ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
 
    
    :depends biolib: ``>=0.1.0``
+   :depends blast: 
    :depends dendropy: ``>=4.0.0``
+   :depends easel: 
+   :depends fastani: ``>=1.3``
    :depends fasttree: 
-   :depends hmmer: 
+   :depends future: 
+   :depends hmmer: ``>=3.1b2``
+   :depends infernal: 
+   :depends mash: 
+   :depends mothur: 
    :depends numpy: ``>=1.8.0``
-   :depends python: 
+   :depends python: ``>=3.6``
+   :depends scipy: ``>=0.16.0``
+   :depends ssu-align: 
    :requirements:
 
    .. rubric:: Installation
