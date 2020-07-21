@@ -15,7 +15,7 @@ firecloud
    :homepage: https://github.com/broadinstitute/fiss
    :documentation: https://software.broadinstitute.org/firecloud/
    
-   :license: BSD / BSD 3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`firecloud <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/firecloud>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/firecloud/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ firecloud
       
       
 
-      ``0.16.27-1``,  ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
+      ``0.16.28-0``,  ``0.16.27-1``,  ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
 
       
 

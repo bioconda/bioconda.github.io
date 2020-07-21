@@ -13,8 +13,9 @@ tophat-recondition
    Post\-processor for TopHat unmapped reads
 
    :homepage: https://github.com/cbrueffer/tophat-recondition
-   :license: BSD_2_clause
+   :license: BSD-2-Clause
    :recipe: /`tophat-recondition <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat-recondition>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat-recondition/meta.yaml>`_
+   :links: biotools: :biotools:`tophat-recondition`, doi: :doi:`10.1186/s12859-016-1058-x`
 
    
 
@@ -27,7 +28,7 @@ tophat-recondition
       
       
 
-      ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
+      ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
 
       
 

@@ -13,7 +13,7 @@ r-bisquerna
    Provides tools to accurately estimate cell type abundances from heterogeneous bulk expression.
 
    :homepage: https://www.biorxiv.org/content/10.1101/669911v1
-   :license: GPL3 / GPL-3
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`r-bisquerna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bisquerna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bisquerna/meta.yaml>`_
 
    A reference\-based method utilizes single\-cell information to generate a signature matrix and transformation of bulk expression for accurate regression based estimates. A marker\-based method utilizes known cell\-specific marker genes to measure relative abundances across samples. For more details\, see Jew and Alvarez et al \(2019\) \<doi\:10.1101\/669911\>.
@@ -27,7 +27,7 @@ r-bisquerna
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``
 
       
 

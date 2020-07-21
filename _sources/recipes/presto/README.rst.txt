@@ -12,8 +12,8 @@ presto
 
    A bioinformatics toolkit for processing high\-throughput lymphocyte receptor sequencing data.
 
-   :homepage: http://presto.readthedocs.io
-   :license: OTHER / Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+   :homepage: https://presto.readthedocs.io
+   :license: AGPL / AGPL-3.0
    :recipe: /`presto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/presto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/presto/meta.yaml>`_
 
    
@@ -27,16 +27,16 @@ presto
       
       
 
-      ``0.6.0-0``,  ``0.5.13-1``,  ``0.5.13-0``,  ``0.5.12-0``,  ``0.5.10-0``,  ``0.5.4-1``,  ``0.5.4-0``
+      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.13-1``,  ``0.5.13-0``,  ``0.5.12-0``,  ``0.5.10-0``,  ``0.5.4-1``,  ``0.5.4-0``
 
       
 
    
-   :depends biopython: ``>=1.65``
+   :depends biopython: ``>=1.71``
    :depends blast: ``>=2.5``
    :depends muscle: ``>=3.8``
    :depends numpy: ``>=1.8``
-   :depends pandas: ``>=0.15``
+   :depends pandas: ``>=0.24``
    :depends python: ``>=3``
    :depends scipy: ``>=0.14``
    :depends vsearch: ``>=2.3.2``

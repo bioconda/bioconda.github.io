@@ -16,7 +16,7 @@ biobb_ml
    :license: APACHE / Apache Software License
    :recipe: /`biobb_ml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_ml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_ml/meta.yaml>`_
 
-   \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-ml\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-ml.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_ml\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/docker\-Quay.io\-blue\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_ml\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
+   \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-ml\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-ml.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_ml\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/docker\-Quay.io\-blue\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_ml\) \[\!\[\]\(https\:\/\/www.singularity\-hub.org\/static\/img\/hosted\-singularity\-\-hub\-\%23e32929.svg\)\]\(https\:\/\/singularity\-hub.org\/collections\/4574\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
 
    \# biobb\_ml
 
@@ -51,7 +51,7 @@ biobb_ml
       
       
 
-      ``3.0.1-0``
+      ``3.0.1-1``,  ``3.0.1-0``
 
       
 
@@ -62,7 +62,7 @@ biobb_ml
    :depends python: ``>=3.7``
    :depends scikit-learn: 
    :depends seaborn: 
-   :depends tensorflow: 
+   :depends tensorflow: ``>=2``
    :requirements:
 
    .. rubric:: Installation
