@@ -51,18 +51,18 @@ biobb_ml
       
       
 
-      ``3.0.1-1``,  ``3.0.1-0``
+      ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
 
    
    :depends biobb_common: ``3.0.0``
-   :depends h5py: 
-   :depends pandas: 
+   :depends h5py: ``2.10.0``
+   :depends pandas: ``1.0.5``
    :depends python: ``>=3.7``
-   :depends scikit-learn: 
-   :depends seaborn: 
-   :depends tensorflow: ``>=2``
+   :depends scikit-learn: ``0.23.1``
+   :depends seaborn: ``0.10.1``
+   :depends tensorflow: ``2.2.0``
    :requirements:
 
    .. rubric:: Installation
