@@ -13,7 +13,7 @@ nanoget
    Functions to extract information from Oxford Nanopore sequencing data and alignments.
 
    :homepage: https://github.com/wdecoster/nanoget
-   :license: MIT / MIT License
+   :license: GPL / GPL-3.0-only
    :recipe: /`nanoget <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoget>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoget/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ nanoget
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.13.2-0</code>,  <code>1.13.1-0</code>,  <code>1.13.0-0</code>,  <code>1.12.2-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.11.0-0</code>,  <code>1.10.0-0</code>,  <code>1.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.13.2-0</code>,  <code>1.13.1-0</code>,  <code>1.13.0-0</code>,  <code>1.12.2-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.11.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.13.2-0``,  ``1.13.1-0``,  ``1.13.0-0``,  ``1.12.2-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.6-0``,  ``1.7.4-0``,  ``1.5.2-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2.2-0``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.11.7-0``,  ``0.11.5-0``
+      ``1.14.0-0``,  ``1.13.2-0``,  ``1.13.1-0``,  ``1.13.0-0``,  ``1.12.2-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.6-0``,  ``1.7.4-0``,  ``1.5.2-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2.2-0``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.11.7-0``,  ``0.11.5-0``
 
       
       .. raw:: html

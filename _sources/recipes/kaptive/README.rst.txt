@@ -13,7 +13,7 @@ kaptive
    Kaptive reports information about capsular \(K\) loci found in genome assemblies
 
    :homepage: https://github.com/katholt/Kaptive
-   :license: GPL / GPL-3.0
+   :license: GPL / GPL-3.0-only
    :recipe: /`kaptive <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaptive>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaptive/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ kaptive
       
       
 
-      ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
+      ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
 
       
 

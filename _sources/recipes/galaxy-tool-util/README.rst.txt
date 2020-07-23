@@ -31,15 +31,17 @@ galaxy-tool-util
       
       
 
-      ``20.5.0-0``,  ``19.9.1-0``
+      ``20.5.0-1``,  ``20.5.0-0``,  ``19.9.1-0``
 
       
 
    
+   :depends conda: 
    :depends galaxy-containers: ``>=20.5``
    :depends galaxy-util: ``>=20.5``
    :depends python: ``>=3.5``
    :depends six: 
+   :depends whoosh: 
    :requirements:
 
    .. rubric:: Installation

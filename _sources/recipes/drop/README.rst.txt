@@ -30,11 +30,12 @@ drop
       
       
 
-      ``0.9.0-0``
+      ``0.9.1-0``,  ``0.9.0-0``
 
       
 
    
+   :depends bc: 
    :depends bcftools: ``>=1.7``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
    :depends bioconductor-deseq2: 
@@ -45,7 +46,7 @@ drop
    :depends click: ``>=7.0``
    :depends click-log: 
    :depends gatk4: ``>=4.0.4``
-   :depends graphviz: ``>=2.38.0,<3.0a0``
+   :depends graphviz: 
    :depends pandas: 
    :depends pandoc: 
    :depends python: ``>=3.6``
@@ -67,6 +68,7 @@ drop
    :depends star: ``>=2.7``
    :depends tabix: 
    :depends wbuild: ``>=1.7.0``
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation
