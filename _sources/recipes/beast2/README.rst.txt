@@ -13,7 +13,7 @@ beast2
    BEAST 2 is a cross\-platform program for Bayesian phylogenetic analysis of molecular sequences.
 
    :homepage: http://www.beast2.org
-   :license: LGPL (>= 2.1)
+   :license: LGPL-2.1-or-later
    :recipe: /`beast2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast2/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ beast2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.5-2``,  ``2.4.5-1``,  ``2.4.5-0``
+         <details><summary><span class="truncated-version-list"><code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.5-2</code>,  <code>2.4.5-1</code>,  </span></summary>
+      
 
+      ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.5-2``,  ``2.4.5-1``,  ``2.4.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

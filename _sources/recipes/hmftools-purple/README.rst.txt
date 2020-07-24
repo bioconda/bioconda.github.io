@@ -28,10 +28,10 @@ hmftools-purple
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.43-0</code>,  <code>2.41-0</code>,  <code>2.40-0</code>,  <code>2.39-0</code>,  <code>2.38-0</code>,  <code>2.37-0</code>,  <code>2.36-0</code>,  <code>2.35-0</code>,  <code>2.34-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.44-0</code>,  <code>2.43-0</code>,  <code>2.41-0</code>,  <code>2.40-0</code>,  <code>2.39-0</code>,  <code>2.38-0</code>,  <code>2.37-0</code>,  <code>2.36-0</code>,  <code>2.35-0</code>,  </span></summary>
       
 
-      ``2.43-0``,  ``2.41-0``,  ``2.40-0``,  ``2.39-0``,  ``2.38-0``,  ``2.37-0``,  ``2.36-0``,  ``2.35-0``,  ``2.34-0``,  ``2.32-0``,  ``2.31-0``,  ``2.25-1``,  ``2.17-1``,  ``2.16-1``,  ``2.16-0``,  ``2.15-0``
+      ``2.44-0``,  ``2.43-0``,  ``2.41-0``,  ``2.40-0``,  ``2.39-0``,  ``2.38-0``,  ``2.37-0``,  ``2.36-0``,  ``2.35-0``,  ``2.34-0``,  ``2.32-0``,  ``2.31-0``,  ``2.25-1``,  ``2.17-1``,  ``2.16-1``,  ``2.16-0``,  ``2.15-0``
 
       
       .. raw:: html

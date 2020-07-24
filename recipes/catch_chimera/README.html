@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Package Recipe &#39;r-nabor&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;catch_chimera&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -99,66 +99,62 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-nabor">
+  <div class="section" id="catch-chimera">
 <dl class="conda recipe">
 <dt>
-<em class="property">recipe </em><code class="sig-name descname">r-nabor</code></dt>
-<dd><p>An R wrapper for 'libnabo', an exact or approximate k nearest neighbour library which is optimised for low dimensional spaces (e.g. 3D)</p>
+<em class="property">recipe </em><code class="sig-name descname">catch_chimera</code></dt>
+<dd><p>CATCh is an ensemble classifier for chimera detection in 16S rRNA sequencing studies. The present bioconda recipe installs the 'CATCh_v1.run' binary, as suggested on authors website.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://CRAN.R-project.org/package=nabor">https://CRAN.R-project.org/package=nabor</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://science.sckcen.be/en/Institutes/EHS/MCB/MIC/Bioinformatics/CATCh">https://science.sckcen.be/en/Institutes/EHS/MCB/MIC/Bioinformatics/CATCh</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>BSD</p>
+<dd class="field-even"><p>GPL3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nabor">r-nabor</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nabor/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/catch_chimera">catch_chimera</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/catch_chimera/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt id="package-r-nabor">
-<em class="property">package </em><code class="sig-name descname">r-nabor</code><a class="headerlink" href="#package-r-nabor" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-nabor"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-nabor.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-nabor"><img alt="docker_r-nabor" src="https://quay.io/repository/biocontainers/r-nabor/status" /></a></p>
+<dt id="package-catch_chimera">
+<em class="property">package </em><code class="sig-name descname">catch_chimera</code><a class="headerlink" href="#package-catch_chimera" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/catch_chimera"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/catch_chimera.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/catch_chimera"><img alt="docker_catch_chimera" src="https://quay.io/repository/biocontainers/catch_chimera/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.5.0-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.0,&lt;4.1.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-bh-feedstock"><strong>r-bh</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcpp-feedstock"><strong>r-rcpp</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rcppeigen-feedstock"><strong>r-rcppeigen</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-decipher/README.html#package-bioconductor-decipher" title="bioconductor-decipher package"><strong>bioconductor-decipher</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-chromvar/README.html#bioconductor-chromvar"><strong class="xref backref">bioconductor-chromvar</strong></a></p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">nabor</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">catch_chimera</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">nabor</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">catch_chimera</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">nabor</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">catch_chimera</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-nabor?tab=tags">r-nabor/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/catch_chimera?tab=tags">catch_chimera/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-nabor/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-nabor/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/catch_chimera/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/catch_chimera/README.html)
 </pre></div>
 </div>
 </div>
@@ -179,14 +175,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-nabor/README.rst.txt"
+      <a href="../../_sources/recipes/catch_chimera/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-nabor/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/catch_chimera/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

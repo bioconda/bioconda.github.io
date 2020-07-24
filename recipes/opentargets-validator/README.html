@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Package Recipe &#39;r-ncbit&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;opentargets-validator&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
@@ -99,35 +99,42 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="r-ncbit">
+  <div class="section" id="opentargets-validator">
 <dl class="conda recipe">
 <dt>
-<em class="property">recipe </em><code class="sig-name descname">r-ncbit</code></dt>
-<dd><p>making NCBI taxonomic data locally available and searchable as an R object</p>
+<em class="property">recipe </em><code class="sig-name descname">opentargets-validator</code></dt>
+<dd><p>Evidence validation at targetvalidation.org</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://CRAN.R-project.org/package=ncbit">https://CRAN.R-project.org/package=ncbit</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/opentargets/validator">https://github.com/opentargets/validator</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL3 / GPL (&gt;= 2)</p>
+<dd class="field-even"><p>APACHE / Apache, Version 2.0</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ncbit">r-ncbit</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ncbit/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opentargets-validator">opentargets-validator</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opentargets-validator/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt id="package-r-ncbit">
-<em class="property">package </em><code class="sig-name descname">r-ncbit</code><a class="headerlink" href="#package-r-ncbit" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-ncbit"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-ncbit.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-ncbit"><img alt="docker_r-ncbit" src="https://quay.io/repository/biocontainers/r-ncbit/status" /></a></p>
+<dt id="package-opentargets-validator">
+<em class="property">package </em><code class="sig-name descname">opentargets-validator</code><a class="headerlink" href="#package-opentargets-validator" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/opentargets-validator"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/opentargets-validator.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/opentargets-validator"><img alt="docker_opentargets-validator" src="https://quay.io/repository/biocontainers/opentargets-validator/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2013.03.29-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013.03.29-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013.03.29-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013.03.29-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.0,&lt;4.1.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/future-feedstock"><strong>future</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/jsonschema-feedstock"><strong>jsonschema</strong></a> <code class="docutils literal notranslate"><span class="pre">3.0.0a3.*</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../opentargets-urlzsource/README.html#package-opentargets-urlzsource" title="opentargets-urlzsource package"><strong>opentargets-urlzsource</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pypeln-feedstock"><strong>pypeln</strong></a> <code class="docutils literal notranslate"><span class="pre">0.1.6.*</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">3.7.*</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/rfc3987-feedstock"><strong>rfc3987</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/simplejson-feedstock"><strong>simplejson</strong></a></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -137,24 +144,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">ncbit</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">opentargets</span><span class="o">-</span><span class="n">validator</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">ncbit</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">opentargets</span><span class="o">-</span><span class="n">validator</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">ncbit</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">opentargets</span><span class="o">-</span><span class="n">validator</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/r-ncbit?tab=tags">r-ncbit/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/opentargets-validator?tab=tags">opentargets-validator/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-ncbit/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-ncbit/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/opentargets-validator/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/opentargets-validator/README.html)
 </pre></div>
 </div>
 </div>
@@ -175,14 +182,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/r-ncbit/README.rst.txt"
+      <a href="../../_sources/recipes/opentargets-validator/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/r-ncbit/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/opentargets-validator/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

@@ -16,7 +16,12 @@ unifrac
    :license: BSD / BSD-3-Clause
    :recipe: /`unifrac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unifrac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unifrac/meta.yaml>`_
 
-   
+   UniFrac is a commonly phylogenetic diversity distance metric used in 
+   microbiome research. The metric relates two microbiome samples together
+   within the context of an evolutionary history\, and produces a distance
+   that corresponds to how similar two samples by the amount of overlapping
+   branch length. 
+
 
 
 .. conda:package:: unifrac
@@ -27,17 +32,20 @@ unifrac
       
       
 
-      ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
+      ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
 
       
 
    
    :depends biom-format: 
    :depends h5py: ``>=2.9.0,<3.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends numpy: ``>=1.16.4,<2.0a0``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends lz4: 
+   :depends numpy: ``>=1.19.0,<2.0a0``
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scikit-bio: ``>=0.5.1``
    :requirements:
 

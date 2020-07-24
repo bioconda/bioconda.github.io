@@ -13,7 +13,7 @@ pauvre
    Tools for plotting Oxford Nanopore and other long\-read data.
 
    :homepage: https://github.com/conchoecia/pauvre
-   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`pauvre <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pauvre>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pauvre/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ pauvre
       
       
 
-      ``0.1924-0``,  ``0.1923-1``,  ``0.1923-0``,  ``0.1.86-1``,  ``0.1.86-0``,  ``0.1.85-0``,  ``0.1.3-0``
+      ``0.1924-0``,  ``0.1923-1``,  ``0.1923-0``,  ``0.2.2-0``,  ``0.1.86-1``,  ``0.1.86-0``,  ``0.1.85-0``,  ``0.1.3-0``
 
       
 
