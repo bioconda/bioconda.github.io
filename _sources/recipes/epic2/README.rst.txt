@@ -29,10 +29,10 @@ epic2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.41-2</code>,  <code>0.0.41-1</code>,  <code>0.0.41-0</code>,  <code>0.0.40-0</code>,  <code>0.0.39-0</code>,  <code>0.0.37-0</code>,  <code>0.0.36-0</code>,  <code>0.0.35-0</code>,  <code>0.0.34-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.41-3</code>,  <code>0.0.41-2</code>,  <code>0.0.41-1</code>,  <code>0.0.41-0</code>,  <code>0.0.40-0</code>,  <code>0.0.39-0</code>,  <code>0.0.37-0</code>,  <code>0.0.36-0</code>,  <code>0.0.35-0</code>,  </span></summary>
       
 
-      ``0.0.41-2``,  ``0.0.41-1``,  ``0.0.41-0``,  ``0.0.40-0``,  ``0.0.39-0``,  ``0.0.37-0``,  ``0.0.36-0``,  ``0.0.35-0``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.26-0``,  ``0.0.16-0``,  ``0.0.15-0``
+      ``0.0.41-3``,  ``0.0.41-2``,  ``0.0.41-1``,  ``0.0.41-0``,  ``0.0.40-0``,  ``0.0.39-0``,  ``0.0.37-0``,  ``0.0.36-0``,  ``0.0.35-0``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.26-0``,  ``0.0.16-0``,  ``0.0.15-0``
 
       
       .. raw:: html
@@ -41,14 +41,15 @@ epic2
       
 
    
+   :depends functools32: 
    :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends natsort: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scipy: 
    :requirements:
 

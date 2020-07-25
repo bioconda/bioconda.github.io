@@ -27,19 +27,25 @@ bioconductor-biocsklearn
       
       
 
-      ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.10.3-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-summarizedexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-basilisk: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
    :depends h5py: 
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pandas: 
-   :depends python: 
-   :depends r-base: ``>=3.6,<3.7.0a0``
-   :depends r-bbmisc: 
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
+   :depends r-rcpp: 
    :depends r-reticulate: 
    :depends scikit-learn: 
    :requirements:

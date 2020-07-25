@@ -13,7 +13,7 @@ bam2fasta
    bam2fasta\: cli tool to convert bam to fastas
 
    :homepage: https://github.com/czbiohub/bam2fasta
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`bam2fasta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bam2fasta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bam2fasta/meta.yaml>`_
    :links: biotools: :biotools:`bam2fasta`
 
@@ -28,17 +28,18 @@ bam2fasta
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
    :depends numpy: 
-   :depends pathos: 
-   :depends pysam: 
+   :depends pandas: ``>=0.24.1``
+   :depends pathos: ``>=0.2.5``
+   :depends pysam: ``>=0.15.3``
    :depends python: 
-   :depends screed: 
-   :depends tqdm: 
+   :depends screed: ``>=0.9``
+   :depends tqdm: ``>=4.36.1``
    :requirements:
 
    .. rubric:: Installation

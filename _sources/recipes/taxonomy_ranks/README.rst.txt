@@ -13,7 +13,7 @@ taxonomy_ranks
    To get taxonomy ranks information for taxid\, species name\, or higher ranks \(e.g.\, genus\, family\) with ETE3 from NCBI Taxonomy database.
 
    :homepage: https://github.com/linzhi2013/taxonomy_ranks
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`taxonomy_ranks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxonomy_ranks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxonomy_ranks/meta.yaml>`_
    :links: biotools: :biotools:`taxonomy_ranks`
 
@@ -28,7 +28,7 @@ taxonomy_ranks
       
       
 
-      ``0.0.8-0``,  ``0.0.7-0``
+      ``0.0.10-0``,  ``0.0.8-0``,  ``0.0.7-0``
 
       
 

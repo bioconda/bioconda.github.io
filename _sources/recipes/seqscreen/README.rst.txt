@@ -27,12 +27,12 @@ seqscreen
       
       
 
-      ``1.3.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``
 
       
 
    
-   :depends blast: 
+   :depends blast: ``>=2.9``
    :depends centrifuge-core: 
    :depends diamond: ``0.9.26.*``
    :depends jinja2: 

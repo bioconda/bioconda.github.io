@@ -13,7 +13,7 @@ gxformat2
    Galaxy Workflow Format 2 Descriptions
 
    :homepage: https://github.com/jmchilton/gxformat2
-   :license: OTHER / Academic Free License (AFL)
+   :license: OTHER / AFL-3.0-only
    :recipe: /`gxformat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gxformat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gxformat2/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ gxformat2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  </span></summary>
       
 
-      ``0.11.2-0``,  ``0.11.1-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.0-2``,  ``0.2.0-0``
+      ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.2.0-2``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ gxformat2
    :depends bioblend: 
    :depends python: 
    :depends pyyaml: 
+   :depends six: ``>=1.9.0``
    :requirements:
 
    .. rubric:: Installation
