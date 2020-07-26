@@ -15,7 +15,7 @@ vcontact2
    :homepage: https://bitbucket.org/MAVERICLab/vcontact2
    :documentation: https://bitbucket.org/MAVERICLab/vcontact2/src/master/README.md
    
-   :license: GPL / GPLv3
+   :license: GPL / GPL-3.0-only
    :recipe: /`vcontact2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcontact2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcontact2/meta.yaml>`_
 
    
@@ -29,20 +29,22 @@ vcontact2
       
       
 
-      ``0.9.18-0``,  ``0.9.17-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.12-0``
+      ``0.9.19-0``,  ``0.9.18-0``,  ``0.9.17-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.12-0``
 
       
 
    
-   :depends biopython: ``>=1.68``
-   :depends networkx: ``>=1.11``
-   :depends pandas: ``>=0.21.0,<=0.25.3``
+   :depends biopython: ``>=1.73``
+   :depends hdf5: ``>=1.10.4``
+   :depends networkx: ``>=2.2``
+   :depends numpy: ``>=1.15.4``
+   :depends pandas: ``>=0.25.0,<=0.25.3``
    :depends psutil: ``>=5.5.0``
-   :depends pyparsing: ``>=2.4.2``
-   :depends pytables: ``>=3.3.0``
+   :depends pyparsing: ``>=2.4.6``
+   :depends pytables: ``>=3.4.0``
    :depends python: ``>=3.7``
-   :depends scikit-learn: ``>=0.18.1``
-   :depends scipy: ``>=0.19.0``
+   :depends scikit-learn: ``>=0.20.2``
+   :depends scipy: ``>=1.2.0``
    :requirements:
 
    .. rubric:: Installation

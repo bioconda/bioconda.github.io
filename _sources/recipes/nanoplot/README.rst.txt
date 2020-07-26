@@ -13,7 +13,7 @@ nanoplot
    Plotting suite for long read sequencing data and alignments
 
    :homepage: https://github.com/wdecoster/NanoPlot
-   :license: MIT / MIT License
+   :license: GPL / GPL-3.0-only
    :recipe: /`nanoplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplot/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ nanoplot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.1-0</code>,  <code>1.30.0-0</code>,  <code>1.29.1-0</code>,  <code>1.29.0-0</code>,  <code>1.28.4-0</code>,  <code>1.28.2-0</code>,  <code>1.28.1-1</code>,  <code>1.28.1-0</code>,  <code>1.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.31.0-0</code>,  <code>1.30.1-0</code>,  <code>1.30.0-0</code>,  <code>1.29.1-0</code>,  <code>1.29.0-0</code>,  <code>1.28.4-0</code>,  <code>1.28.2-0</code>,  <code>1.28.1-1</code>,  <code>1.28.1-0</code>,  </span></summary>
       
 
-      ``1.30.1-0``,  ``1.30.0-0``,  ``1.29.1-0``,  ``1.29.0-0``,  ``1.28.4-0``,  ``1.28.2-0``,  ``1.28.1-1``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.27.0-0``,  ``1.26.3-0``,  ``1.26.2-0``,  ``1.26.1-0``,  ``1.25.1-0``,  ``1.25.0-0``,  ``1.24.0-0``,  ``1.23.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.2-1``,  ``1.13.0-1``,  ``1.13.0-0``,  ``1.11.0-0``,  ``1.10.4-0``,  ``1.8.1-0``,  ``1.2.2-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.16.4-0``,  ``0.16.2-0``
+      ``1.31.0-0``,  ``1.30.1-0``,  ``1.30.0-0``,  ``1.29.1-0``,  ``1.29.0-0``,  ``1.28.4-0``,  ``1.28.2-0``,  ``1.28.1-1``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.27.0-0``,  ``1.26.3-0``,  ``1.26.2-0``,  ``1.26.1-0``,  ``1.25.1-0``,  ``1.25.0-0``,  ``1.24.0-0``,  ``1.23.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.2-1``,  ``1.13.0-1``,  ``1.13.0-0``,  ``1.11.0-0``,  ``1.10.4-0``,  ``1.8.1-0``,  ``1.2.2-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.16.4-0``,  ``0.16.2-0``
 
       
       .. raw:: html
@@ -41,17 +41,18 @@ nanoplot
 
    
    :depends biopython: 
-   :depends nanoget: ``>=1.12.0``
-   :depends nanomath: ``>=0.21.0``
+   :depends nanoget: ``>=1.14.0``
+   :depends nanomath: ``>=0.23.1``
    :depends numpy: 
    :depends pandas: ``>=0.22.0``
-   :depends pauvre: ``0.1.86``
+   :depends pauvre: ``>=0.2.0``
    :depends plotly: ``>=4.1.1``
+   :depends pyarrow: 
    :depends pysam: ``>0.10.0.0``
    :depends python: ``>=3``
    :depends python-dateutil: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn: ``>=0.10.1``
    :requirements:
 
    .. rubric:: Installation

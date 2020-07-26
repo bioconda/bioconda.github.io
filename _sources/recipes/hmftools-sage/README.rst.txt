@@ -13,7 +13,7 @@ hmftools-sage
    SAGE is a somatic SNV\, MNV and small INDEL caller optimised to call narrow regions of the genome with high prior chance of a variant with very high sensitivity.
 
    :homepage: https://github.com/hartwigmedical/hmftools/tree/master/sage
-   :license: MIT / MIT
+   :license: GPL / GPL-3.0-only
    :recipe: /`hmftools-sage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-sage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-sage/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ hmftools-sage
       
       
 
-      ``1.0-0``
+      ``2.2-0``,  ``1.0-0``
 
       
 

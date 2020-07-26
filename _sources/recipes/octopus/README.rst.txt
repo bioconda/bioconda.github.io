@@ -28,10 +28,10 @@ octopus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.3b-1</code>,  <code>0.6.3b-0</code>,  <code>0.5.2b-2</code>,  <code>0.5.2b-1</code>,  <code>0.5.2b-0</code>,  <code>0.5.1b-0</code>,  <code>0.5.0b-0</code>,  <code>0.4.1a-1</code>,  <code>0.4.1a-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.3b-2</code>,  <code>0.6.3b-1</code>,  <code>0.6.3b-0</code>,  <code>0.5.2b-2</code>,  <code>0.5.2b-1</code>,  <code>0.5.2b-0</code>,  <code>0.5.1b-0</code>,  <code>0.5.0b-0</code>,  <code>0.4.1a-1</code>,  </span></summary>
       
 
-      ``0.6.3b-1``,  ``0.6.3b-0``,  ``0.5.2b-2``,  ``0.5.2b-1``,  ``0.5.2b-0``,  ``0.5.1b-0``,  ``0.5.0b-0``,  ``0.4.1a-1``,  ``0.4.1a-0``,  ``0.3.3a-1``,  ``0.3.3a-0``
+      ``0.6.3b-2``,  ``0.6.3b-1``,  ``0.6.3b-0``,  ``0.5.2b-2``,  ``0.5.2b-1``,  ``0.5.2b-0``,  ``0.5.1b-0``,  ``0.5.0b-0``,  ``0.4.1a-1``,  ``0.4.1a-0``,  ``0.3.3a-1``,  ``0.3.3a-0``
 
       
       .. raw:: html

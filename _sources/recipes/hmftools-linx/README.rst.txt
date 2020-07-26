@@ -13,7 +13,7 @@ hmftools-linx
    LINX is an annotation\, interpretation and visualisation tool for structural variants
 
    :homepage: https://github.com/hartwigmedical/hmftools/tree/master/sv-linx
-   :license: MIT / MIT
+   :license: GPL / GPL-3.0-only
    :recipe: /`hmftools-linx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-linx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-linx/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ hmftools-linx
       
       
 
-      ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
+      ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
 
       
 

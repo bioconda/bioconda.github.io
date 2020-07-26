@@ -30,12 +30,13 @@ ncfp
       
       
 
-      ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends biopython: 
+   :depends bioservices: 
    :depends python: ``>=3``
    :depends tqdm: 
    :requirements:
