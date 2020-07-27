@@ -28,14 +28,14 @@ bsmap
       
       
 
-      ``2.90-2``,  ``2.90-1``,  ``2.90-0``
+      ``2.90-3``,  ``2.90-2``,  ``2.90-1``,  ``2.90-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends python: 
+   :depends libcxx: ``>=9.0.1``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends samtools: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

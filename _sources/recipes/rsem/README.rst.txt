@@ -41,10 +41,10 @@ rsem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-4</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-4</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  </span></summary>
       
 
-      ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.28-2``,  ``1.2.28-0``,  ``1.2.22-0``,  ``1.2.21-5``,  ``1.2.21-4``,  ``1.2.21-3``
+      ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.28-2``,  ``1.2.28-0``,  ``1.2.22-0``,  ``1.2.21-5``,  ``1.2.21-4``,  ``1.2.21-3``
 
       
       .. raw:: html
@@ -55,9 +55,9 @@ rsem
    
    :depends bioconductor-biobase: 
    :depends bioconductor-ebseq: 
-   :depends htslib: ``>=1.9,<1.10.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-module-build: 
    :depends r-base: 

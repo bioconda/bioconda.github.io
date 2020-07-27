@@ -27,7 +27,7 @@ mikado
       
       
 
-      ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
 
@@ -44,8 +44,8 @@ mikado
    :depends intervaltree: 
    :depends jsonref: ``>=0.2``
    :depends jsonschema: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends msgpack-python: ``>=1.0.0``
    :depends networkx: ``>=2.3``
    :depends numpy: ``>=1.17``
@@ -64,7 +64,7 @@ mikado
    :depends snakemake-minimal: ``>=5.7.0``
    :depends sqlalchemy: ``>=1.3.9``
    :depends sqlalchemy-utils: ``>=0.34.1``
-   :depends sqlite: ``>=3.30.1,<4.0a0``
+   :depends sqlite: ``>=3.32.3,<4.0a0``
    :depends tabulate: ``>=0.8.5``
    :depends toml: ``>=0.10.0``
    :depends tomlkit: ``>=0.5.8``

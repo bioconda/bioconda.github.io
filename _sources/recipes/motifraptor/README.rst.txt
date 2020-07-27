@@ -27,12 +27,12 @@ motifraptor
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``
+      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pandas: 

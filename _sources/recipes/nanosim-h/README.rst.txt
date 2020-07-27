@@ -27,7 +27,7 @@ nanosim-h
       
       
 
-      ``1.1.0.4-1``,  ``1.1.0.4-0``,  ``1.1.0.3-3``,  ``1.1.0.3-0``,  ``1.1.0.2-1``
+      ``1.1.0.4-2``,  ``1.1.0.4-1``,  ``1.1.0.4-0``,  ``1.1.0.3-3``,  ``1.1.0.3-0``,  ``1.1.0.2-1``
 
       
 
@@ -36,7 +36,7 @@ nanosim-h
    :depends numpy: 
    :depends progressbar2: 
    :depends python: 
-   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,17 +27,16 @@ pyprophet
       
       
 
-      ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
+      ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
 
       
 
    
    :depends click: 
    :depends hyperopt: 
-   :depends libgcc-ng: ``>=7.3.0``
    :depends matplotlib-base: 
    :depends numexpr: ``>=2.1``
-   :depends numpy: ``>=1.18.1,<2.0a0``
+   :depends numpy: ``>=1.19.1,<2.0a0``
    :depends pandas: ``>=0.17``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``

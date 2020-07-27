@@ -27,19 +27,27 @@ rseqc
    :versions:
       
       
+      .. raw:: html
 
-      ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
+         <details><summary><span class="truncated-version-list"><code>3.0.1-2</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-3</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.6.4-2</code>,  <code>2.6.4-1</code>,  <code>2.6.4-0</code>,  </span></summary>
+      
 
+      ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bx-python: 
-   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
    :depends pip: 
    :depends pybigwig: 
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends r-base: 
    :requirements:
 

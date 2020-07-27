@@ -28,10 +28,10 @@ umi_tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.5.4-3</code>,  <code>0.5.4-2</code>,  <code>0.5.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.5.4-3</code>,  <code>0.5.4-2</code>,  </span></summary>
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``
 
       
       .. raw:: html
@@ -41,12 +41,13 @@ umi_tools
 
    
    :depends future: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.7``
    :depends pandas: ``>=0.12.0``
    :depends pysam: ``>=0.9``
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends regex: 
    :depends scipy: 
    :requirements:

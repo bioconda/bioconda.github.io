@@ -27,19 +27,20 @@ sv2
       
       
 
-      ``1.4.3.4-3``,  ``1.4.3.4-2``,  ``1.4.3.4-1``,  ``1.4.3.4-0``
+      ``1.4.3.4-4``,  ``1.4.3.4-3``,  ``1.4.3.4-2``,  ``1.4.3.4-1``,  ``1.4.3.4-0``
 
       
 
    
    :depends bedtools: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: ``>=0.9``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python-wget: 
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scikit-learn: ``>=0.19``
    :depends wget: 
    :requirements:

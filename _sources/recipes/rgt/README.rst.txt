@@ -30,7 +30,7 @@ rgt
       
       
 
-      ``0.12.3-0``,  ``0.12.2-0``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``
+      ``0.12.3-1``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.11.4-2``,  ``0.11.4-1``,  ``0.11.4-0``
 
       
 
@@ -40,7 +40,7 @@ rgt
    :depends fisher: ``>=0.1.5``
    :depends hmmlearn: ``>=0.2``
    :depends htseq: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends logomaker: 
    :depends matplotlib: ``>=1.1.0``
    :depends matplotlib-venn: 
@@ -52,6 +52,7 @@ rgt
    :depends pybigwig: 
    :depends pysam: ``>=0.12.0``
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends pyvcf: 
    :depends pyx: 
    :depends scikit-learn: ``>=0.19.0,<0.20.0``

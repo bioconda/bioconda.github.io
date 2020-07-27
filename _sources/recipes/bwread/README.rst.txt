@@ -27,12 +27,12 @@ bwread
       
       
 
-      ``0.0.3-0``
+      ``0.0.3-1``,  ``0.0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 

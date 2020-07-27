@@ -29,18 +29,18 @@ pairtools
       
       
 
-      ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
    :depends click: 
    :depends coreutils: 
-   :depends libgcc-ng: ``>=7.3.0``
    :depends lz4-c: 
-   :depends numpy: ``>=1.9.3,<2.0a0``
+   :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pbgzip: 
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends samtools: 
    :depends tabix: 
    :requirements:

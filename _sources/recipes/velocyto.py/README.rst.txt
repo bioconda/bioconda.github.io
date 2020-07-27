@@ -28,14 +28,13 @@ velocyto.py
       
       
 
-      ``0.17.17-0``
+      ``0.17.17-1``,  ``0.17.17-0``
 
       
 
    
    :depends click: 
    :depends h5py: 
-   :depends libgcc-ng: ``>=7.3.0``
    :depends loompy: 
    :depends matplotlib: 
    :depends numba: 
@@ -43,6 +42,7 @@ velocyto.py
    :depends pandas: 
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:

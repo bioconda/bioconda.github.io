@@ -27,14 +27,13 @@ metaseq
       
       
 
-      ``0.5.6-2``,  ``0.5.6-0``
+      ``0.5.6-3``,  ``0.5.6-2``,  ``0.5.6-0``
 
       
 
    
    :depends biopython: 
    :depends bx-python: ``>=0.7.1``
-   :depends cython: 
    :depends fisher: 
    :depends gffutils: ``>=0.8.2``
    :depends matplotlib: ``>=1.3.1``
@@ -43,6 +42,7 @@ metaseq
    :depends pybedtools: ``>=0.6.6``
    :depends pysam: ``>=0.7``
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends pyyaml: ``>=3.10``
    :depends scikit-learn: 
    :depends scipy: ``>=0.10.1``

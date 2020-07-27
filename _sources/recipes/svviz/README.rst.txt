@@ -27,18 +27,18 @@ svviz
       
       
 
-      ``1.6.2-2``,  ``1.6.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-0``
+      ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-0``
 
       
 
    
    :depends flask: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=7.3.0``
    :depends numpy: 
    :depends pyfaidx: 
    :depends pysam: ``>=0.7.8``
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends requests: 
    :requirements:
 

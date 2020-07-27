@@ -29,7 +29,7 @@ cortexpy
       
       
 
-      ``0.46.5-0``,  ``0.46.4-0``,  ``0.45.7-0``,  ``0.45.6-0``,  ``0.44.0-0``,  ``0.41.1-0``
+      ``0.46.5-1``,  ``0.46.5-0``,  ``0.46.4-0``,  ``0.45.7-0``,  ``0.45.6-0``,  ``0.44.0-0``,  ``0.41.1-0``
 
       
 
@@ -37,12 +37,12 @@ cortexpy
    :depends attrs: 
    :depends biopython: 
    :depends delegation: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=9.0.1``
    :depends msgpack-python: 
    :depends networkx: 
    :depends numpy: 
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends pyyaml: 
    :depends schema: 
    :requirements:

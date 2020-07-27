@@ -28,10 +28,10 @@ galaxy-ml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.12-0</code>,  <code>0.7.11-0</code>,  <code>0.7.10-1</code>,  <code>0.7.10-0</code>,  <code>0.7.9-0</code>,  <code>0.7.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.12-0</code>,  <code>0.7.11-0</code>,  <code>0.7.10-1</code>,  <code>0.7.10-0</code>,  <code>0.7.9-0</code>,  </span></summary>
       
 
-      ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
+      ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ galaxy-ml
    :depends imbalanced-learn: ``0.5.0``
    :depends joblib: ``>=0.13.2``
    :depends keras: ``2.3.1``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends matplotlib: ``>=2.2.4``
    :depends mlxtend: ``0.17.0``
    :depends numpy: ``1.17.3``
@@ -58,6 +58,7 @@ galaxy-ml
    :depends pyfaidx: 
    :depends pytabix: 
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends readme_renderer: ``>=24.0``
    :depends requests: ``>=2.22.0``
    :depends scikit-learn: ``0.21.3``

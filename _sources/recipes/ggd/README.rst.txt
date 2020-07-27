@@ -27,14 +27,15 @@ ggd
       
       
 
-      ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends check-sort-order: 
-   :depends conda: ``4.7.12.*``
-   :depends conda-build: ``3.18.11.*``
+   :depends conda: ``4.8.2.*``
+   :depends conda-build: ``3.18.12.*``
+   :depends cyvcf2: 
    :depends future: 
    :depends fuzzywuzzy: 
    :depends git: 
@@ -43,6 +44,7 @@ ggd
    :depends htslib: 
    :depends krb5: 
    :depends oyaml: 
+   :depends pysam: 
    :depends pytest: 
    :depends pytest-socket: 
    :depends python: 

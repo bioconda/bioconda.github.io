@@ -28,10 +28,10 @@ gubbins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-2</code>,  </span></summary>
       
 
-      ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
+      ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -43,9 +43,10 @@ gubbins
    :depends biopython: ``>=1.59``
    :depends dendropy: ``>=4.0.2``
    :depends fasttree: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends nose: ``>=1.3``
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends raxml: 
    :depends reportlab: ``>=3.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

@@ -28,14 +28,14 @@ quake
       
       
 
-      ``0.3.5-3``,  ``0.3.5-0``
+      ``0.3.5-4``,  ``0.3.5-3``,  ``0.3.5-0``
 
       
 
    
    :depends kmer-jellyfish: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :depends r-base: 

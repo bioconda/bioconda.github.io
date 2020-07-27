@@ -27,7 +27,7 @@ peakachu
       
       
 
-      ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -37,12 +37,13 @@ peakachu
    :depends bioconductor-edger: 
    :depends biopython: 
    :depends blockbuster: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib: 
    :depends numexpr: 
    :depends pandas: 
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends rpy2: 
    :depends statsmodels: 
    :requirements:

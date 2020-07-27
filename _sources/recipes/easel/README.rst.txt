@@ -27,12 +27,12 @@ easel
       
       
 
-      ``0.45-0``
+      ``0.45-1``,  ``0.45-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation
