@@ -28,10 +28,10 @@ haystack_bio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.5-0</code>,  <code>0.5.4-1</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-8</code>,  <code>0.5.2-7</code>,  <code>0.5.2-6</code>,  <code>0.5.2-5</code>,  <code>0.5.2-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.5.4-1</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-8</code>,  <code>0.5.2-7</code>,  <code>0.5.2-6</code>,  <code>0.5.2-5</code>,  </span></summary>
       
 
-      ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-8``,  ``0.5.2-7``,  ``0.5.2-6``,  ``0.5.2-5``,  ``0.5.2-4``,  ``0.5.2-3``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``v0.5.0-0``
+      ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-8``,  ``0.5.2-7``,  ``0.5.2-6``,  ``0.5.2-5``,  ``0.5.2-4``,  ``0.5.2-3``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``v0.5.0-0``
 
       
       .. raw:: html
@@ -48,6 +48,7 @@ haystack_bio
    :depends numpy: ``1.15.*``
    :depends openjdk: 
    :depends pandas: 
+   :depends python: ``>=2.7,<3.0a0``
    :depends sambamba: 
    :depends scipy: 
    :depends tqdm: 

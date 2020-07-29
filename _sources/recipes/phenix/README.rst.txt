@@ -28,7 +28,7 @@ phenix
       
       
 
-      ``1.4.1a-0``
+      ``1.4.1a-1``,  ``1.4.1a-0``
 
       
 
@@ -40,6 +40,7 @@ phenix
    :depends bowtie2: 
    :depends bwa: 
    :depends gatk: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib: 
    :depends matplotlib-venn: 
    :depends numpy: 
@@ -47,6 +48,7 @@ phenix
    :depends psycopg2: 
    :depends pysam: 
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends pyvcf: 
    :depends pyyaml: 
    :depends samtools: 

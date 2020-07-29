@@ -27,7 +27,7 @@ goetia
       
       
 
-      ``0.14-0``,  ``0.13-0``
+      ``0.14-1``,  ``0.14-0``,  ``0.13-0``
 
       
 
@@ -37,8 +37,8 @@ goetia
    :depends cppyy: ``>=1.5.5``
    :depends curio: 
    :depends jsonschema: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
    :depends openmp: 
    :depends py-cpuinfo: 

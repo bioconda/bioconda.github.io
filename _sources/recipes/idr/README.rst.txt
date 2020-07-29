@@ -41,6 +41,7 @@ idr
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib: 
    :depends numpy: 
    :depends python: ``>=3.6,<3.7.0a0``

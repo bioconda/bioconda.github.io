@@ -27,12 +27,12 @@ targetdb
       
       
 
-      ``1.3.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``<1.77``
    :depends blast: 
    :depends fpocket: 
    :depends intermine: 

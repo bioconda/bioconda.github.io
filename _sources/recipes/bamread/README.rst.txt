@@ -32,6 +32,7 @@ bamread
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 

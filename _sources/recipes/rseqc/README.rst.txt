@@ -42,6 +42,7 @@ rseqc
 
    
    :depends bx-python: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pip: 
    :depends pybigwig: 

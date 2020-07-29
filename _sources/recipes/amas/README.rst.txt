@@ -13,7 +13,7 @@ amas
    Calculate various summary statistics on a multiple sequence alignment
 
    :homepage: https://github.com/marekborowiec/AMAS
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`amas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amas/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ amas
       
       
 
-      ``0.98-1``,  ``0.98-0``
+      ``1.0-0``,  ``0.98-1``,  ``0.98-0``
 
       
 

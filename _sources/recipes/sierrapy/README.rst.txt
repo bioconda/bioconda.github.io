@@ -27,14 +27,14 @@ sierrapy
       
       
 
-      ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
 
    
    :depends click: ``>=6.7``
-   :depends gql: ``>=0.1.0``
-   :depends graphql-core: ``>=0.5.3``
+   :depends gql: ``>=0.1.0,<2.0a0``
+   :depends graphql-core: ``>=0.5.3,<2.0a0``
    :depends promise: ``>=0.4.2``
    :depends python: 
    :depends requests: ``>=2.11.1``

@@ -33,6 +33,7 @@ cpat
 
    
    :depends bx-python: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``

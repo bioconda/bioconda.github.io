@@ -27,13 +27,13 @@ convert_zero_one_based
       
       
 
-      ``0.0.1-0``
+      ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
    :depends click: 
-   :depends python: 
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation

@@ -30,7 +30,7 @@ mango
       
       
 
-      ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``
+      ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``
 
       
 
@@ -42,8 +42,8 @@ mango
    :depends ipython: ``7.8.0``
    :depends ipywidgets: ``7.0.0``
    :depends matplotlib: ``2.0.2``
+   :depends modin: 
    :depends openjdk: ``>=8,<9``
-   :depends pandas: ``0.25.1``
    :depends psutil: 
    :depends pyspark: ``2.4.4``
    :depends python: ``>3``

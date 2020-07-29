@@ -34,6 +34,7 @@ pyprophet
    
    :depends click: 
    :depends hyperopt: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib-base: 
    :depends numexpr: ``>=2.1``
    :depends numpy: ``>=1.19.1,<2.0a0``

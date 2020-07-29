@@ -27,7 +27,7 @@ cgat-apps
       
       
 
-      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+      ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
 
       
 
@@ -39,9 +39,8 @@ cgat-apps
    :depends coreutils: 
    :depends future: 
    :depends grep: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libcxx: ``>=9.0.1``
    :depends libpng: ``>=1.6.37,<1.7.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pandas: 

@@ -27,7 +27,7 @@ fishtaco
       
       
 
-      ``1.0.5-1``,  ``1.0.5-0``
+      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
 
       
 
@@ -36,7 +36,7 @@ fishtaco
    :depends numpy: ``>=1.6.1``
    :depends pandas: ``>=0.14``
    :depends python: 
-   :depends scikit-learn: ``>=0.15.2``
+   :depends scikit-learn: ``>=0.15.2,<0.18.0a0``
    :depends scipy: ``>=0.9``
    :depends statsmodels: ``>=0.5.0``
    :requirements:

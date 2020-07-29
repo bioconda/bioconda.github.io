@@ -33,13 +33,14 @@ fastlmm
 
    
    :depends dill: 
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends matplotlib: ``>=1.4.3``
    :depends numpy: ``>=1.9.3``
    :depends pandas: ``>=0.16.2``
    :depends pysnptools: ``>=0.3.13``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scikit-learn: ``>=0.16.1,<0.20``
    :depends scipy: ``>=0.16.0``
    :depends statsmodels: ``>=0.6.1``

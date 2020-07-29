@@ -27,17 +27,18 @@ haslr
       
       
 
-      ``0.8a1-0``
+      ``0.8a1-1``,  ``0.8a1-0``
 
       
 
    
    :depends fastutils: ``>=0.2``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends minia: ``>=3.2.1``
    :depends minimap2: ``>=2.17``
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

@@ -33,6 +33,7 @@ simlord
 
    
    :depends dinopy: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pysam: ``>=0.8.4``
    :depends python: ``>=3.6,<3.7.0a0``

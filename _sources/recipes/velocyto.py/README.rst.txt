@@ -35,6 +35,7 @@ velocyto.py
    
    :depends click: 
    :depends h5py: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends loompy: 
    :depends matplotlib: 
    :depends numba: 

@@ -36,6 +36,7 @@ pairtools
    
    :depends click: 
    :depends coreutils: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends lz4-c: 
    :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pbgzip: 

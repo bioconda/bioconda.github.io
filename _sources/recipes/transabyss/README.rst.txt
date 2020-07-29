@@ -26,14 +26,23 @@ transabyss
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.4-1``,  ``1.5.4-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.1-7</code>,  <code>2.0.1-6</code>,  <code>2.0.1-5</code>,  <code>2.0.1-4</code>,  <code>2.0.1-3</code>,  <code>1.5.5-3</code>,  <code>1.5.5-2</code>,  <code>1.5.5-1</code>,  <code>1.5.4-1</code>,  </span></summary>
+      
 
+      ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.4-1``,  ``1.5.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends abyss: ``2.0.*``
    :depends blat: 
+   :depends icu: ``58.*``
    :depends python: 
    :depends python-igraph: ``0.7.*``
    :depends samtools: 

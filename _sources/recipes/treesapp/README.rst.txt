@@ -27,7 +27,7 @@ treesapp
       
       
 
-      ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
+      ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
 
       
 
@@ -38,8 +38,8 @@ treesapp
    :depends fasttree: ``>=2.1.9``
    :depends hmmer: ``>=3.1``
    :depends joblib: ``>=0.14.1``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends mafft: ``>=7.407``
    :depends matplotlib-base: ``>=3.1.2``
    :depends numpy: 

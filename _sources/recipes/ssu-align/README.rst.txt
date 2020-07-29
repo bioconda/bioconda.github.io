@@ -32,6 +32,7 @@ ssu-align
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :depends perl: 
    :requirements:
 

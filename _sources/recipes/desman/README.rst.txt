@@ -28,7 +28,7 @@ desman
       
       
 
-      ``2.1-2``,  ``2.1-1``,  ``2.1-0``
+      ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
 
       
 
@@ -36,18 +36,20 @@ desman
    :depends bcbio-gff: 
    :depends biopython: 
    :depends cython: ``>=0.19.1``
-   :depends gsl: ``>=2.4,<2.5.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends numpy: ``>=1.7.1``
+   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends numpy: ``>=1.14.6,<2.0a0``
    :depends pandas: ``>=0.11.0``
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends r-getopt: 
    :depends r-ggplot2: ``>=2.2.2``
    :depends r-labeling: 
    :depends r-reshape: ``>=0.8.7``
    :depends scikit-learn: 
    :depends scipy: ``>=0.12.0``
+   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation

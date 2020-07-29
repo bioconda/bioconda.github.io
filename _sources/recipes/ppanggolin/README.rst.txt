@@ -36,6 +36,7 @@ ppanggolin
    :depends colorlover: ``0.3.*``
    :depends gmpy2: ``2.*``
    :depends infernal: ``1.1.*``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends mmseqs2: 
    :depends networkx: ``2.3.*``
    :depends numpy: ``1.16.*``

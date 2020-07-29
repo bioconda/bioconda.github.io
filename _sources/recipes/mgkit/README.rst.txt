@@ -36,6 +36,7 @@ mgkit
    :depends click: 
    :depends future: 
    :depends htseq: ``>=0.9.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib-base: ``>=2``
    :depends msgpack-python: ``>=0.4.6``
    :depends networkx: 

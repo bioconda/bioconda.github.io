@@ -30,17 +30,9 @@ genometools-genometools
    :versions:
       
       
-      .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.1-2</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.10-3</code>,  <code>1.5.10-2</code>,  <code>1.5.10-1</code>,  <code>1.5.10-0</code>,  <code>1.5.9-1</code>,  </span></summary>
-      
+      ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
 
-      ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``,  ``1.5.10-1``,  ``1.5.10-0``,  ``1.5.9-1``,  ``1.5.9-0``
-
-      
-      .. raw:: html
-
-         </details>
       
 
    
