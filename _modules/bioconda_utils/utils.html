@@ -902,11 +902,20 @@
                      <span class="n">recipe_folder</span><span class="p">,</span> <span class="n">package</span><span class="p">,</span> <span class="n">p</span><span class="p">)</span>
         <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">p</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">new_dir</span> <span class="ow">in</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+            <span class="n">meta_yaml_found</span> <span class="o">=</span> <span class="kc">False</span>
             <span class="k">for</span> <span class="n">dir_path</span><span class="p">,</span> <span class="n">dir_names</span><span class="p">,</span> <span class="n">file_names</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="n">new_dir</span><span class="p">):</span>
                 <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">fnmatch</span><span class="o">.</span><span class="n">fnmatch</span><span class="p">(</span><span class="n">dir_path</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">):],</span> <span class="n">pat</span><span class="p">)</span> <span class="k">for</span> <span class="n">pat</span> <span class="ow">in</span> <span class="n">exclude</span><span class="p">):</span>
                     <span class="k">continue</span>
                 <span class="k">if</span> <span class="s2">&quot;meta.yaml&quot;</span> <span class="ow">in</span> <span class="n">file_names</span><span class="p">:</span>
-                    <span class="k">yield</span> <span class="n">dir_path</span></div>
+                    <span class="n">meta_yaml_found</span> <span class="o">=</span> <span class="kc">True</span>
+                    <span class="k">yield</span> <span class="n">dir_path</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">meta_yaml_found</span> <span class="ow">and</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">new_dir</span><span class="p">):</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+                    <span class="s2">&quot;No meta.yaml found in </span><span class="si">%s</span><span class="s2">.&quot;</span>
+                    <span class="s2">&quot; If you want to ignore this directory, add it to the blacklist.&quot;</span><span class="p">,</span>
+                    <span class="n">new_dir</span>
+                <span class="p">)</span>
+                <span class="k">yield</span> <span class="n">new_dir</span></div>
 
 
 <div class="viewcode-block" id="get_latest_recipes"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.utils.html#bioconda_utils.utils.get_latest_recipes">[docs]</a><span class="k">def</span> <span class="nf">get_latest_recipes</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">package</span><span class="o">=</span><span class="s2">&quot;*&quot;</span><span class="p">):</span>

@@ -28,10 +28,10 @@ svist4get
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.23-0</code>,  <code>1.2.22-0</code>,  <code>1.2.21-0</code>,  <code>1.2.20-0</code>,  <code>1.2.19-0</code>,  <code>1.2.18-0</code>,  <code>1.2.17.1-0</code>,  <code>1.2.16-0</code>,  <code>1.2.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.24-0</code>,  <code>1.2.23-0</code>,  <code>1.2.22-0</code>,  <code>1.2.21-0</code>,  <code>1.2.20-0</code>,  <code>1.2.19-0</code>,  <code>1.2.18-0</code>,  <code>1.2.17.1-0</code>,  <code>1.2.16-0</code>,  </span></summary>
       
 
-      ``1.2.23-0``,  ``1.2.22-0``,  ``1.2.21-0``,  ``1.2.20-0``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.17.1-0``,  ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-1``,  ``1.2.14-0``
+      ``1.2.24-0``,  ``1.2.23-0``,  ``1.2.22-0``,  ``1.2.21-0``,  ``1.2.20-0``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.17.1-0``,  ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-1``,  ``1.2.14-0``
 
       
       .. raw:: html

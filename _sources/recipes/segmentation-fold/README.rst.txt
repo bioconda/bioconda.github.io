@@ -27,7 +27,7 @@ segmentation-fold
       
       
 
-      ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.8-0``
+      ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.8-0``
 
       
 
@@ -35,9 +35,11 @@ segmentation-fold
    :depends boost: ``>=1.63.0,<1.63.1.0a0``
    :depends click: ``>=4.0``
    :depends htseq: ``>=0.6.1``
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends pysam: ``>=0.8.1,<=0.8.3``
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    .. rubric:: Installation

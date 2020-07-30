@@ -26,13 +26,22 @@ nanosim
    :versions:
       
       
+      .. raw:: html
 
-      ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
+         <details><summary><span class="truncated-version-list"><code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>v1.3.0-0</code>,  <code>v1.2.0-0</code>,  </span></summary>
+      
 
+      ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends htseq: ``>=0.9.1``
+   :depends joblib: 
    :depends last: 
    :depends minimap2: 
    :depends numpy: ``>=1.13.3``
