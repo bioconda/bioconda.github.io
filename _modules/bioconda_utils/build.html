@@ -112,9 +112,8 @@
 
 <span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span>
 
-<span class="c1"># TODO: UnsatisfiableError is not yet in exports for conda 4.5.4</span>
-<span class="c1"># from conda.exports import UnsatisfiableError</span>
-<span class="kn">from</span> <span class="nn">conda.exceptions</span> <span class="kn">import</span> <span class="n">UnsatisfiableError</span>
+<span class="kn">from</span> <span class="nn">conda.exports</span> <span class="kn">import</span> <span class="n">UnsatisfiableError</span>
+<span class="kn">from</span> <span class="nn">conda_build.exceptions</span> <span class="kn">import</span> <span class="n">DependencyNeedsBuildingError</span>
 <span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
 <span class="kn">import</span> <span class="nn">pandas</span>
 
@@ -426,7 +425,7 @@
             <span class="k">for</span> <span class="n">pkg</span> <span class="ow">in</span> <span class="n">nx</span><span class="o">.</span><span class="n">algorithms</span><span class="o">.</span><span class="n">descendants</span><span class="p">(</span><span class="n">subdag</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
                 <span class="n">skip_dependent</span><span class="p">[</span><span class="n">pkg</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
             <span class="k">continue</span>
-        <span class="k">except</span> <span class="n">UnsatisfiableError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+        <span class="k">except</span> <span class="p">(</span><span class="n">UnsatisfiableError</span><span class="p">,</span> <span class="n">DependencyNeedsBuildingError</span><span class="p">)</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;BUILD ERROR: could not determine dependencies for recipe </span><span class="si">%s</span><span class="s1">: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span>
                          <span class="n">recipe</span><span class="p">,</span> <span class="n">exc</span><span class="p">)</span>
             <span class="n">failed</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>

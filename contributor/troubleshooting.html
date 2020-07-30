@@ -241,9 +241,10 @@ an example to work from.</p>
 <span id="mulled-build-troubleshooting"></span><h2><a class="toc-backref" href="#id6">Troubleshooting failed <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests</a><a class="headerlink" href="#troubleshooting-failed-mulled-build-tests" title="Permalink to this headline">¶</a></h2>
 <p>After conda sucessfully builds and tests a package, we then perform a
 more stringent test in a minimal Docker container using
-<code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>. Notably, this container does not have conda and has
-very few libraries. So this test can catch issues that the default
-conda test cannot. However the extra layer of abstraction makes it
+<code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>. Notably, this container is designed to include
+only the package’s runtime dependencies and as few other pieces of software
+as possible so this test can catch issues that the default conda test cannot.
+However the extra layer of abstraction makes it
 difficult to troubleshoot problems with the recipe. If the conda-build
 test works but the mulled-build test fails try these steps:</p>
 <ul class="simple">
@@ -256,6 +257,9 @@ Docker hashes, and cross-reference with the output of <code class="docutils lite
 <span class="pre">$hash</span></code>. You can now try running the tests in the recipe that
 failed, or otherwise poke around in the running container to see
 what the problem was.</p></li>
+<li><p>If the test is failing due to missing dependencies, read the guidance
+on <a class="reference internal" href="guidelines.html#test-dependencies"><span class="std std-ref">Test Dependencies</span></a> and move the tests with test dependencies
+into the <code class="docutils literal notranslate"><span class="pre">run_test.sh</span></code> file as necessary.</p></li>
 </ul>
 </div>
 <div class="section" id="using-the-extended-image">

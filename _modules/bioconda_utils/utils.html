@@ -1120,6 +1120,19 @@
 <span class="sd">    are already in channel_packages.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">platform</span><span class="p">,</span> <span class="n">metas</span> <span class="o">=</span> <span class="n">_load_platform_metas</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">finalize</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="c1"># The recipe likely defined skip: True</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">metas</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="c1"># If on CI, handle noarch.</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;CI&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;true&#39;</span><span class="p">:</span>
+        <span class="n">first_meta</span> <span class="o">=</span> <span class="n">metas</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">first_meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;build/noarch&#39;</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">platform</span> <span class="o">!=</span> <span class="s1">&#39;linux&#39;</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;FILTER: only building </span><span class="si">%s</span><span class="s1"> on &#39;</span>
+                             <span class="s1">&#39;linux because it defines noarch.&#39;</span><span class="p">,</span>
+                             <span class="n">recipe</span><span class="p">)</span>
+                <span class="k">return</span> <span class="kc">True</span>
+
     <span class="n">packages</span> <span class="o">=</span>  <span class="nb">set</span><span class="p">(</span>
         <span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="nb">int</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">build_number</span><span class="p">()</span> <span class="ow">or</span> <span class="mi">0</span><span class="p">))</span>
         <span class="k">for</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">metas</span>
@@ -1139,7 +1152,13 @@
         <span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="nb">int</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">build_number</span><span class="p">()</span> <span class="ow">or</span> <span class="mi">0</span><span class="p">),</span> <span class="n">_meta_subdir</span><span class="p">(</span><span class="n">meta</span><span class="p">))</span>
         <span class="k">for</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">metas</span>
     <span class="p">)</span>
-    <span class="k">return</span> <span class="n">num_new_pkg_builds</span> <span class="o">==</span> <span class="n">num_existing_pkg_builds</span></div>
+    <span class="k">if</span> <span class="n">num_new_pkg_builds</span> <span class="o">==</span> <span class="n">num_existing_pkg_builds</span><span class="p">:</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+            <span class="s1">&#39;FILTER: not building recipe </span><span class="si">%s</span><span class="s1"> because &#39;</span>
+            <span class="s1">&#39;the same number of builds are in channel(s) and it is not forced.&#39;</span><span class="p">,</span>
+            <span class="n">recipe</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">return</span> <span class="kc">False</span></div>
 
 
 <span class="k">def</span> <span class="nf">_filter_existing_packages</span><span class="p">(</span><span class="n">metas</span><span class="p">,</span> <span class="n">check_channels</span><span class="p">):</span>
@@ -1176,26 +1195,12 @@
     <span class="k">if</span> <span class="ow">not</span> <span class="n">force</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">check_recipe_skippable</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">check_channels</span><span class="p">):</span>
             <span class="c1"># NB: If we skip early here, we don&#39;t detect possible divergent builds.</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
-                <span class="s1">&#39;FILTER: not building recipe </span><span class="si">%s</span><span class="s1"> because &#39;</span>
-                <span class="s1">&#39;the same number of builds are in channel(s) and it is not forced.&#39;</span><span class="p">,</span>
-                <span class="n">recipe</span><span class="p">)</span>
             <span class="k">return</span> <span class="p">[]</span>
     <span class="n">platform</span><span class="p">,</span> <span class="n">metas</span> <span class="o">=</span> <span class="n">_load_platform_metas</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">finalize</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
     <span class="c1"># The recipe likely defined skip: True</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">metas</span><span class="p">:</span>
         <span class="k">return</span> <span class="p">[]</span>
-
-    <span class="c1"># If on CI, handle noarch.</span>
-    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;CI&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;true&#39;</span><span class="p">:</span>
-        <span class="n">first_meta</span> <span class="o">=</span> <span class="n">metas</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="k">if</span> <span class="n">first_meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;build/noarch&#39;</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">platform</span> <span class="o">!=</span> <span class="s1">&#39;linux&#39;</span><span class="p">:</span>
-                <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;FILTER: only building </span><span class="si">%s</span><span class="s1"> on &#39;</span>
-                             <span class="s1">&#39;linux because it defines noarch.&#39;</span><span class="p">,</span>
-                             <span class="n">recipe</span><span class="p">)</span>
-                <span class="k">return</span> <span class="p">[]</span>
 
     <span class="n">new_metas</span><span class="p">,</span> <span class="n">existing_metas</span><span class="p">,</span> <span class="n">divergent_builds</span> <span class="o">=</span> <span class="p">(</span>
         <span class="n">_filter_existing_packages</span><span class="p">(</span><span class="n">metas</span><span class="p">,</span> <span class="n">check_channels</span><span class="p">))</span>

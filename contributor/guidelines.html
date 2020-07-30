@@ -88,6 +88,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#packages-appropriate-for-bioconda">Packages appropriate for bioconda</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#noarch-packages">“Noarch” packages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#test-dependencies">Test Dependencies</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#patching">Patching</a></li>
 </ul>
 </li>
@@ -263,8 +264,20 @@ include them in the PR. One shortcut is to use <code class="docutils literal not
 recipes can give some clues into building a version of the dependency for
 bioconda.</p>
 </div>
+<div class="section" id="test-dependencies">
+<span id="id4"></span><h3>Test Dependencies<a class="headerlink" href="#test-dependencies" title="Permalink to this headline">¶</a></h3>
+<p>During a Bioconda package build, the stringent <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> test
+runs the tests listed in the <code class="docutils literal notranslate"><span class="pre">test</span></code> section of the recipe’s <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>
+file in an environment which does not have the dependencies listed in the
+<code class="docutils literal notranslate"><span class="pre">test:</span> <span class="pre">requires:</span></code> section. Because of this, all tests in that section
+must only rely on runtime dependencies or the build will fail.
+Tests that rely on the test-time dependencies listed in <code class="docutils literal notranslate"><span class="pre">test:</span> <span class="pre">requires:</span></code> should be put in
+the <code class="docutils literal notranslate"><span class="pre">run_test.sh</span></code> file in the same directory as the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file. This file is
+picked up and run by the standard build that occurs before the <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>, but is
+not passed on to and run by the <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>.</p>
+</div>
 <div class="section" id="patching">
-<span id="id4"></span><h3>Patching<a class="headerlink" href="#patching" title="Permalink to this headline">¶</a></h3>
+<span id="id5"></span><h3>Patching<a class="headerlink" href="#patching" title="Permalink to this headline">¶</a></h3>
 <p>Some recipes require small patches to get the tests to pass, for example,
 fixing hard-coded shebang lines (as described at
 <a class="reference internal" href="troubleshooting.html#perl-or-python-not-found"><span class="std std-ref">/usr/bin/perl or /usr/bin/python not found</span></a>). Other patches are more extensive. When
@@ -326,7 +339,7 @@ following:</p>
 <span class="pre">in</span> <span class="pre">the</span> <span class="pre">meta.yaml</span></code></a>.</p>
 </div>
 <div class="section" id="r-cran">
-<span id="id5"></span><h2>R (CRAN)<a class="headerlink" href="#r-cran" title="Permalink to this headline">¶</a></h2>
+<span id="id6"></span><h2>R (CRAN)<a class="headerlink" href="#r-cran" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Most R packages on CRAN should be submitted at Conda-Forge.
@@ -601,7 +614,7 @@ we prefixed the Python package with <code class="docutils literal notranslate"><
 issue, or ask <code class="docutils literal notranslate"><span class="pre">&#64;bioconda/core</span></code> in a PR.</p>
 </div>
 <div class="section" id="tests">
-<span id="id11"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<span id="id12"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
 <p>An adequate test must be included in the recipe. An “adequate” test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit
