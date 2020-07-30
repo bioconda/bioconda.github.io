@@ -27,17 +27,18 @@ bamm
       
       
 
-      ``1.7.3-6``,  ``1.7.3-5``,  ``1.7.3-4``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
+      ``1.7.3-7``,  ``1.7.3-6``,  ``1.7.3-5``,  ``1.7.3-4``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
 
       
 
    
    :depends bwa: ``>=0.7.12``
-   :depends htslib: ``>=1.9,<1.10.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends samtools: ``>=1.3.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

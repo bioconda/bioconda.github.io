@@ -38,6 +38,7 @@ epicseg
    :depends bioconductor-iranges: 
    :depends bioconductor-s4vectors: 
    :depends kfoots: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcolorbrewer: 
    :depends r-rcpp: ``>=0.10.6``

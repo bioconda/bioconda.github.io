@@ -27,7 +27,7 @@ xbioc
       
       
 
-      ``0.1.18-0``,  ``0.1.16-0``
+      ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.16-0``
 
       
 
@@ -35,7 +35,7 @@ xbioc
    :depends bioconductor-annotationdbi: 
    :depends bioconductor-biobase: 
    :depends r-assertthat: 
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-digest: 
    :depends r-pkgmaker: ``>=0.26.6``

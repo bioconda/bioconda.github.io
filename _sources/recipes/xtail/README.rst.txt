@@ -27,7 +27,7 @@ xtail
       
       
 
-      ``1.1.5-3``,  ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``
+      ``1.1.5-4``,  ``1.1.5-3``,  ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``
 
       
 
@@ -43,7 +43,7 @@ xtail
    :depends bioconductor-s4vectors: ``>=0.9.25``
    :depends bioconductor-summarizedexperiment: ``>=1.8.0``
    :depends bioconductor-tximport: 
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-getopt: 
    :depends r-ggplot2: 
    :depends r-gplots: 

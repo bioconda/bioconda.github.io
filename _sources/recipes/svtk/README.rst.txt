@@ -27,18 +27,18 @@ svtk
       
       
 
-      ``0.0.20190615-0``
+      ``0.0.20190615-1``,  ``0.0.20190615-0``
 
       
 
    
    :depends boto3: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends pysam: 
+   :depends pysam: ``>=0.11.2.2``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends scikit-learn: 

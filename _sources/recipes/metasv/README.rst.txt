@@ -27,15 +27,17 @@ metasv
       
       
 
-      ``0.5.4-1``,  ``0.5.4-0``,  ``0.4.0-4``,  ``0.4.0-3``
+      ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.4.0-4``,  ``0.4.0-3``
 
       
 
    
    :depends age-metasv: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends pybedtools: ``0.6.9``
    :depends pysam: ``0.7.7``
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends pyvcf: ``0.6.7``
    :depends spades: 
    :requirements:

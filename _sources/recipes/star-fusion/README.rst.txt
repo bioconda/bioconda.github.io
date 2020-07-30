@@ -10,10 +10,10 @@ star-fusion
    :replaces_section_title:
    :noindex:
 
-   STAR\-Fusion fusion variant caller.  All dependencies required to run FusionInspector and FusionAnnotator are included.
+   STAR\-Fusion fusion variant caller. All dependencies required to run FusionInspector and FusionAnnotator are included.
 
    :homepage: https://github.com/STAR-Fusion/STAR-Fusion
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`star-fusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star-fusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star-fusion/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ star-fusion
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.0-0</code>,  <code>1.8.1-2</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.1-2</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.9.0-0``,  ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.4.0-0``
+      ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -43,21 +43,22 @@ star-fusion
    :depends bbmap: 
    :depends blast: 
    :depends bzip2: 
-   :depends gmap: ``2019.09.12``
+   :depends gmap: 
    :depends htslib: 
-   :depends igv-reports: ``0.9.4``
+   :depends igv-reports: 
+   :depends openssl: ``<1.1``
    :depends perl: 
    :depends perl-carp: 
-   :depends perl-carp-assert: ``0.21``
+   :depends perl-carp-assert: 
    :depends perl-db-file: 
    :depends perl-io-gzip: 
    :depends perl-json-xs: 
    :depends perl-set-intervaltree: 
    :depends perl-uri: 
-   :depends python: ``3.7.4``
+   :depends python: 
    :depends samtools: ``<1.10``
-   :depends star: ``2.7.2b``
-   :depends trinity: ``2.8.5``
+   :depends star: 
+   :depends trinity: ``<2.9``
    :requirements:
 
    .. rubric:: Installation

@@ -13,7 +13,7 @@ tetranscripts
    A package for including transposable elements in differential enrichment analysis of sequencing datasets.
 
    :homepage: http://hammelllab.labsites.cshl.edu/software#TEToolkit
-   :license: GPL3 / GPL3
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`tetranscripts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tetranscripts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tetranscripts/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ tetranscripts
       
       
 
-      ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``
+      ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``
 
       
 

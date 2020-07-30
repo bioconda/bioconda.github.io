@@ -35,6 +35,7 @@ megalodon
 
    
    :depends h5py: ``>=2.2.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends mappy: ``>=2.16``
    :depends numpy: ``>=1.9.0``
    :depends ont-fast5-api: ``>=1.1``

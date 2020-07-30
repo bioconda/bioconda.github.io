@@ -28,18 +28,18 @@ telescope
       
       
 
-      ``1.0.3-0``
+      ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
-   :depends cython: 
    :depends future: ``>=0.17.1``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends intervaltree: ``>=3.0.2``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends numpy: ``>=1.16.3``
+   :depends numpy: ``>=1.19.1,<2.0a0``
    :depends pysam: ``>=0.15.2``
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends pyyaml: ``>=5.1``
    :depends scipy: ``>=1.2.1``
    :requirements:

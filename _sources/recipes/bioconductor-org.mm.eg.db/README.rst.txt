@@ -28,10 +28,10 @@ bioconductor-org.mm.eg.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.11.4-0</code>,  <code>3.11.1-0</code>,  <code>3.10.0-0</code>,  <code>3.8.2-1</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.11.4-1</code>,  <code>3.11.4-0</code>,  <code>3.11.1-0</code>,  <code>3.10.0-0</code>,  <code>3.8.2-1</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  </span></summary>
       
 
-      ``3.11.4-0``,  ``3.11.1-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.3-0``
+      ``3.11.4-1``,  ``3.11.4-0``,  ``3.11.1-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-org.mm.eg.db
 
    
    :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.71.0,<8.0a0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

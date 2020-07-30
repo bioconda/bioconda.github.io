@@ -27,7 +27,7 @@ rilseq
       
       
 
-      ``0.78-0``,  ``0.77-0``,  ``0.75-0``,  ``0.74-0``,  ``0.73-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-0``
+      ``0.78-1``,  ``0.78-0``,  ``0.77-0``,  ``0.75-0``,  ``0.74-0``,  ``0.73-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-0``
 
       
 
@@ -36,8 +36,8 @@ rilseq
    :depends bwa: ``>=0.7.12``
    :depends numpy: 
    :depends pysam: ``>=0.14.1``
-   :depends python: 
-   :depends samtools: ``>=1.2``
+   :depends python: ``>=3``
+   :depends samtools: ``>=1.9``
    :depends scipy: 
    :requirements:
 
