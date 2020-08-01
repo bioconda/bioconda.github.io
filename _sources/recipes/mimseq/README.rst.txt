@@ -13,7 +13,7 @@ mimseq
    Modification\-induced misincorporation tRNA sequencing.
 
    :homepage: https://github.com/nedialkova-lab/mim-tRNAseq
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`mimseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimseq/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ mimseq
       
       
 
-      ``0.2.5.4-0``,  ``0.2.5.3-0``
+      ``0.2.5.5-0``,  ``0.2.5.4-0``,  ``0.2.5.3-0``
 
       
 

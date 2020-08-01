@@ -28,10 +28,10 @@ sistr_cmd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-4</code>,  <code>1.0.2-3</code>,  <code>1.0.2-2</code>,  <code>1.0.2-0</code>,  <code>0.3.6-0</code>,  <code>0.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-4</code>,  <code>1.0.2-3</code>,  <code>1.0.2-2</code>,  <code>1.0.2-0</code>,  <code>0.3.6-0</code>,  </span></summary>
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``
+      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``,  ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ sistr_cmd
    :depends mafft: 
    :depends mash: 
    :depends numpy: ``>=1.11.1``
-   :depends pandas: ``>=0.18.1``
+   :depends pandas: ``>=0.18.1,<=1.0.5``
    :depends pycurl: ``>=7.43.0``
    :depends pytables: ``>=3.3.0``
    :depends python: 

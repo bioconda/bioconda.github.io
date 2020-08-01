@@ -10,7 +10,7 @@ wlogdate
    :replaces_section_title:
    :noindex:
 
-   An implementation of the wLogDate algorithm for dating phylogenies
+   An implementation of the wLogDate algorithm for dating phylogenetic trees
 
    :homepage: https://github.com/uym2/wLogDate
    :license: GNU GENERAL PUBLIC LICENSE
@@ -27,13 +27,16 @@ wlogdate
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
+   :depends bitsets: ``>=0.7.15``
    :depends numpy: 
-   :depends python: ``>=3.6``
+   :depends numpy: ``>=1.18.5``
+   :depends python: ``>=3.7``
+   :depends scipy: ``>=1.3.1``
    :requirements:
 
    .. rubric:: Installation
