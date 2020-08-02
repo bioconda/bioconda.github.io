@@ -10,7 +10,7 @@ cellsnp-lite
    :replaces_section_title:
    :noindex:
 
-   Pileup biallelic SNPs from single\-cell and bulk RNA\-seq data
+   Efficient genotyping bi\-allelic SNPs on single cells
 
    :homepage: https://github.com/single-cell-genetics/cellSNP
    :license: Apache-2.0
@@ -27,7 +27,7 @@ cellsnp-lite
       
       
 
-      ``0.3.1-0``
+      ``0.3.1-1``,  ``0.3.1-0``
 
       
 

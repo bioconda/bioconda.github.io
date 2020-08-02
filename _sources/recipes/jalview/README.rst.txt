@@ -33,10 +33,10 @@ jalview
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.1.0-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.5-3</code>,  <code>2.10.4-0</code>,  <code>2.10.4b1-2</code>,  <code>2.10.4b1-0</code>,  <code>2.10.3-1</code>,  <code>2.10.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11.1.0-1</code>,  <code>2.11.1.0-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.5-3</code>,  <code>2.10.4-0</code>,  <code>2.10.4b1-2</code>,  <code>2.10.4b1-0</code>,  <code>2.10.3-1</code>,  </span></summary>
       
 
-      ``2.11.1.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.5-3``,  ``2.10.4-0``,  ``2.10.4b1-2``,  ``2.10.4b1-0``,  ``2.10.3-1``,  ``2.10.3-0``,  ``2.10.3b1-0``,  ``2.10.2b2-2``,  ``2.10.2b2-1``,  ``2.10.2b2-0``
+      ``2.11.1.0-1``,  ``2.11.1.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.5-3``,  ``2.10.4-0``,  ``2.10.4b1-2``,  ``2.10.4b1-0``,  ``2.10.3-1``,  ``2.10.3-0``,  ``2.10.3b1-0``,  ``2.10.2b2-2``,  ``2.10.2b2-1``,  ``2.10.2b2-0``
 
       
       .. raw:: html
@@ -83,6 +83,7 @@ Notes
 -----
 This wrapper and installation is primarily for commandline\-only use.
 Set JALVIEW\_JRE\=j1.8 or JALVIEW\_JRE\=j11 to specify the java runtime if you need jalview to start up as quickly as possible
+Set JALVIEW\_MAXMEM\=2g to restrict jalviews maximal memory consumption \(here to 2G RAM\). Otherwise 90\% of physical memory is allocated.
 
 
 Link to this page
