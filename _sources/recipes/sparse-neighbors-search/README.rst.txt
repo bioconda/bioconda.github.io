@@ -12,7 +12,7 @@ sparse-neighbors-search
 
    Approximate k\-nearest neighbors search on sparse datasets
 
-   :homepage: https://github.com/joachimwolff/minHashNearestNeighbors
+   :homepage: https://github.com/joachimwolff/sparse-neighbors-search
    :license: MIT
    :recipe: /`sparse-neighbors-search <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparse-neighbors-search>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparse-neighbors-search/meta.yaml>`_
 
@@ -27,13 +27,13 @@ sparse-neighbors-search
       
       
 
-      ``0.5-0``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2.3-0``
+      ``0.6-0``,  ``0.5-0``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: ``>=1.17``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends scikit-learn: ``>=0.21``
