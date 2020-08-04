@@ -29,10 +29,10 @@ poppunk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  </span></summary>
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -42,19 +42,27 @@ poppunk
 
    
    :depends dendropy: 
+   :depends graph-tool: 
    :depends hdbscan: 
    :depends mash: ``>=2.0``
    :depends matplotlib-base: 
-   :depends networkx: ``>=2.1``
-   :depends numba: 
+   :depends networkx: 
    :depends numpy: 
    :depends pandas: 
-   :depends pp-sketchlib: ``>=1.3``
-   :depends python: ``>=3``
+   :depends pp-sketchlib: ``>=1.4``
+   :depends python: ``>=3.8``
    :depends rapidnj: 
    :depends scikit-learn: 
    :depends scipy: 
-   :depends sharedmem: 
+   :depends xorg-libxaw: 
+   :depends xorg-libxcomposite: 
+   :depends xorg-libxcursor: 
+   :depends xorg-libxdamage: 
+   :depends xorg-libxfixes: 
+   :depends xorg-libxi: 
+   :depends xorg-libxinerama: 
+   :depends xorg-libxpm: 
+   :depends xorg-libxrandr: 
    :requirements:
 
    .. rubric:: Installation

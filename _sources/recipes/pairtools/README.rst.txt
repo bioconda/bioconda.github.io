@@ -29,13 +29,14 @@ pairtools
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
    :depends click: 
    :depends coreutils: 
+   :depends htslib: 
    :depends libgcc-ng: ``>=7.5.0``
    :depends lz4-c: 
    :depends numpy: ``>=1.14.6,<2.0a0``
@@ -43,7 +44,6 @@ pairtools
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends samtools: 
-   :depends tabix: 
    :requirements:
 
    .. rubric:: Installation

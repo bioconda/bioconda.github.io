@@ -28,19 +28,19 @@ surpyvor
       
       
 
-      ``0.8.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.8.1-1``,  ``0.8.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
    :depends bcftools: 
    :depends cyvcf2: 
+   :depends htslib: 
    :depends matplotlib-base: 
    :depends matplotlib-venn: 
    :depends numpy: 
    :depends python: ``>=3``
    :depends survivor: 
-   :depends tabix: 
    :depends upsetplot: 
    :requirements:
 

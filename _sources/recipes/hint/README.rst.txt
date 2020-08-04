@@ -27,7 +27,7 @@ hint
       
       
 
-      ``2.2.8-0``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.1-0``,  ``2.1.9-1``,  ``2.1.9-0``,  ``2.1.7-0``,  ``2.0.1-0``
+      ``2.2.8-1``,  ``2.2.8-0``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.1-0``,  ``2.1.9-1``,  ``2.1.9-0``,  ``2.1.7-0``,  ``2.0.1-0``
 
       
 
@@ -36,6 +36,7 @@ hint
    :depends bwa: ``>=0.7.16``
    :depends cooler: ``0.8.3``
    :depends h5py: ``>=2.8.0``
+   :depends htslib: ``>=1.10``
    :depends multiprocess: ``>=0.70.5``
    :depends numpy: ``>=1.16.1``
    :depends openjdk: ``>=8``
@@ -52,10 +53,9 @@ hint
    :depends r-foreach: 
    :depends r-mgcv: 
    :depends r-strucchange: 
-   :depends samtools: ``>=1.9``
+   :depends samtools: ``>=1.10``
    :depends scikit-learn: ``>=0.19.1``
    :depends scipy: ``>=1.0.1``
-   :depends tabix: 
    :requirements:
 
    .. rubric:: Installation

@@ -26,14 +26,23 @@ biotradis
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.1-0``,  ``1.4.1.dev-4``,  ``1.4.1.dev-3``,  ``1.4.1.dev-2``,  ``1.4.1.dev-1``,  ``1.4.1.dev-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.5-3</code>,  <code>1.4.5-2</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.1-0</code>,  <code>1.4.1.dev-4</code>,  <code>1.4.1.dev-3</code>,  <code>1.4.1.dev-2</code>,  <code>1.4.1.dev-1</code>,  </span></summary>
+      
 
+      ``1.4.5-3``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.1-0``,  ``1.4.1.dev-4``,  ``1.4.1.dev-3``,  ``1.4.1.dev-2``,  ``1.4.1.dev-1``,  ``1.4.1.dev-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-edger: 
    :depends bwa: 
+   :depends htslib: 
    :depends perl: 
    :depends perl-app-cpanminus: 
    :depends perl-bioperl: ``>=1.7.2``
@@ -49,7 +58,6 @@ biotradis
    :depends r-mass: 
    :depends samtools: 
    :depends smalt: 
-   :depends tabix: 
    :requirements:
 
    .. rubric:: Installation
