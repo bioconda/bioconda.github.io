@@ -29,15 +29,13 @@ eukcc
       
       
 
-      ``0.1.5.1-0``,  ``0.1.4.6-0``
+      ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
 
       
 
    
    :depends configargparse: 
    :depends ete3: 
-   :depends hmmer: ``>=3.2``
-   :depends pplacer: 
    :depends pyfaidx: 
    :depends pygmes: 
    :depends python: ``>=3.6``

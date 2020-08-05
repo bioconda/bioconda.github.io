@@ -30,10 +30,10 @@ kipoiseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-1</code>,  </span></summary>
       
 
-      ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
+      ``0.4.1-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -42,16 +42,14 @@ kipoiseq
       
 
    
-   :depends genomelake: ``>=0.1.4``
    :depends gffutils: 
    :depends kipoi: ``>=0.5.5``
-   :depends kipoi-conda: 
+   :depends kipoi-conda: ``>=0.1.0``
+   :depends kipoi-utils: ``>=0.1.1``
    :depends numpy: 
    :depends pandas: 
-   :depends pybedtools: 
    :depends pyfaidx: 
-   :depends pyranges: 
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends tqdm: 
    :requirements:
 
