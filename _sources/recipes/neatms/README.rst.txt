@@ -10,7 +10,7 @@ neatms
    :replaces_section_title:
    :noindex:
 
-   NeatMS is an open source python package for untargeted LCMS signal labelling and filtering
+   NeatMS is an open source python package for untargeted LCMS deep learning peak curation
 
    :homepage: https://github.com/bihealth/NeatMS
    :documentation: https://neatms.readthedocs.io/
