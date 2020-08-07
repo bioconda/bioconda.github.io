@@ -10,7 +10,7 @@ chewbbaca
    :replaces_section_title:
    :noindex:
 
-   A complete suite for gene\-by\-gene schema creation and strain identification
+   A complete suite for gene\-by\-gene schema creation and strain identification.
 
    :homepage: https://github.com/B-UMMI/chewBBACA
    :license: GPL3 / GPL-3.0
@@ -28,10 +28,10 @@ chewbbaca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.17.2-0</code>,  <code>2.0.17.1-0</code>,  <code>2.0.16-0</code>,  <code>2.0.15-0</code>,  <code>2.0.12-2</code>,  <code>2.0.8-2</code>,  <code>2.0.8-0</code>,  <code>2.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.17.2-0</code>,  <code>2.0.17.1-0</code>,  <code>2.0.16-0</code>,  <code>2.0.15-0</code>,  <code>2.0.12-2</code>,  <code>2.0.8-2</code>,  <code>2.0.8-0</code>,  </span></summary>
       
 
-      ``2.1.0-0``,  ``2.0.17.2-0``,  ``2.0.17.1-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-2``,  ``2.0.8-2``,  ``2.0.8-0``,  ``2.0.6-0``,  ``1.0-0``
+      ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.17.2-0``,  ``2.0.17.1-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-2``,  ``2.0.8-2``,  ``2.0.8-0``,  ``2.0.6-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ chewbbaca
 
    
    :depends biopython: ``>=1.70``
-   :depends blast: ``>=2.5.0``
+   :depends blast: ``>=2.9.0``
    :depends clustalw: ``>=2.1``
    :depends mafft: 
    :depends numpy: ``>=1.14.0``
@@ -49,6 +49,7 @@ chewbbaca
    :depends plotly: ``>=1.12.9``
    :depends prodigal: ``>=2.6.0``
    :depends python: ``>=3``
+   :depends requests: ``>=2.2.1``
    :depends scipy: ``>=0.13.3``
    :depends sparqlwrapper: ``>=1.8.0``
    :requirements:

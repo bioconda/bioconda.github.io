@@ -27,12 +27,13 @@ cell-types-analysis
       
       
 
-      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``
+      ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``
 
       
 
    
    :depends bats: 
+   :depends bioconductor-dropletutils: 
    :depends bioconductor-onassis: 
    :depends openjdk: ``8.0.152.*``
    :depends r-data.table: ``1.12.8.*``

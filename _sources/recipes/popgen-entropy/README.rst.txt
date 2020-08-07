@@ -10,14 +10,14 @@ popgen-entropy
    :replaces_section_title:
    :noindex:
 
-   This program is for inferring population structure from autopolyploid and mixed\-ploidy individuals\, similar to structure\, but using genotype\-likelihood data for low\- to medium\-coverage sequencing depth.
+   This program is for inferring population structure from autopolyploid and mixed\-ploidy individuals\, similar to structure\, for low\- to medium\-coverage sequencing depth.
 
    :homepage: https://bitbucket.org/buerklelab/mixedploidy-entropy/src/master/
-   :license: BSD
+   :license: GPLv3
    :recipe: /`popgen-entropy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popgen-entropy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popgen-entropy/meta.yaml>`_
    :links: biotools: :biotools:`popgen-entropy`
 
-   
+   entropy performs model\-based genotype and ancestry estimation software for detecting hybridization in mixed\-ploidy species using genotype\-likelihood data as input. Information about the  model and testing can be found in the pre\-print at \[bioRxiv\]\(https\:\/\/biorxiv.org\/content\/10.1101\/2020.07.31.231514v1\). The vignette\_entropy.pdf file in the Bitbucket repo contains instructions on how to process and analyze genomic data.
 
 
 .. conda:package:: popgen-entropy
@@ -28,15 +28,15 @@ popgen-entropy
       
       
 
-      ``2.0-0``
+      ``2.0-1``,  ``2.0-0``
 
       
 
    
-   :depends gsl: ``>=2.5,<2.6.0a0``
+   :depends gsl: ``>=2.6,<2.7.0a0``
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends mkl: ``>=2019.5,<2020.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

@@ -30,10 +30,10 @@ scvi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.7-0</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-1</code>,  </span></summary>
       
 
-      ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.6.7-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -42,18 +42,16 @@ scvi
       
 
    
-   :depends anndata: ``>=0.6.22rc1``
+   :depends anndata: ``>=0.7``
    :depends h5py: ``>=2.9.0``
    :depends hyperopt: ``0.1.2``
-   :depends loompy: ``>=2.0.16``
    :depends matplotlib-base: ``>=3.0.3``
    :depends numpy: ``>=1.16.2``
-   :depends pandas: ``>=0.24.2``
+   :depends pandas: ``>=0.25``
    :depends python: ``>=3.6``
    :depends pytorch: ``>=1.1``
-   :depends scanpy: ``>=1.4``
+   :depends scanpy: ``>=1.4.6``
    :depends scikit-learn: ``>=0.20.3``
-   :depends statsmodels: 
    :depends tqdm: ``>=4.31.1``
    :depends xlrd: ``>=1.2.0``
    :requirements:

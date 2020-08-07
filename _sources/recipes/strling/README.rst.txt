@@ -27,13 +27,13 @@ strling
       
       
 
-      ``0.2.1-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends htslib: ``1.10.*``
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

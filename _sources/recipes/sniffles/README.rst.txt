@@ -26,14 +26,22 @@ sniffles
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.12-0</code>,  <code>1.0.11-1</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  </span></summary>
+      
 
+      ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends tclap: ``>=1.2.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

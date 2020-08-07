@@ -27,13 +27,13 @@ irissv
       
       
 
-      ``1.0.3-0``
+      ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
    :depends minimap2: 
-   :depends openjdk: ``>=8.0.144``
+   :depends openjdk: ``>=11.0.1``
    :depends racon: 
    :depends samtools: 
    :requirements:

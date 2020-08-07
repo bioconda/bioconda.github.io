@@ -27,19 +27,19 @@ schicexplorer
       
       
 
-      ``4-0``,  ``3-0``,  ``2-0``,  ``1-0``
+      ``5-0``,  ``4-0``,  ``3-0``,  ``2-0``,  ``1-0``
 
       
 
    
-   :depends cooler: ``>=0.8.5``
-   :depends hicexplorer: ``>=3.4.1``
-   :depends hicmatrix: ``>=11``
+   :depends cooler: ``>=0.8.9``
+   :depends hicexplorer: ``>=3.5``
+   :depends hicmatrix: ``>=14``
    :depends numpy: ``>=1.18``
    :depends python: ``>=3.6``
    :depends scikit-learn: ``>=0.22``
    :depends scipy: ``>=1.4``
-   :depends sparse-neighbors-search: ``>=0.5``
+   :depends sparse-neighbors-search: ``>=0.6``
    :requirements:
 
    .. rubric:: Installation

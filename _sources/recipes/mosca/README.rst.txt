@@ -41,11 +41,48 @@ mosca
       
       
 
-      
+      ``1.1.0-0``
 
       
 
    
+   :depends bioconductor-deseq2: ``1.22.1.*``
+   :depends bioconductor-edger: ``3.24.3.*``
+   :depends biopython: 
+   :depends blast: 
+   :depends bowtie2: 
+   :depends checkm-genome: ``>=1.1.0``
+   :depends diamond: 
+   :depends fastqc: 
+   :depends fraggenescan: 
+   :depends htseq: 
+   :depends krona: 
+   :depends lxml: 
+   :depends maxbin2: 
+   :depends maxquant: 
+   :depends megahit: 
+   :depends openpyxl: 
+   :depends pandas: 
+   :depends perl: 
+   :depends progressbar33: 
+   :depends python: 
+   :depends quast: 
+   :depends r-optparse: 
+   :depends r-pheatmap: 
+   :depends r-rcolorbrewer: 
+   :depends recognizer: 
+   :depends reportlab: 
+   :depends scikit-learn: 
+   :depends seqkit: 
+   :depends seqtk: 
+   :depends sortmerna: ``2.1.*``
+   :depends spades: 
+   :depends svn: 
+   :depends tqdm: ``>=4.33.0``
+   :depends trimmomatic: 
+   :depends upimapi: 
+   :depends xlrd: ``>=0.9.0``
+   :depends xlsxwriter: 
    :requirements:
 
    .. rubric:: Installation

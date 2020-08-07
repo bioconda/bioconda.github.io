@@ -47,9 +47,17 @@ sina
    :versions:
       
       
+      .. raw:: html
 
-      ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.5-2``,  ``1.3.4-2``,  ``1.3.1-2``,  ``1.3.1-0``,  ``1.3.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.5-2</code>,  <code>1.3.4-2</code>,  <code>1.3.1-2</code>,  <code>1.3.1-0</code>,  </span></summary>
+      
 
+      ``1.7.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.5-2``,  ``1.3.4-2``,  ``1.3.1-2``,  ``1.3.1-0``,  ``1.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -57,8 +65,8 @@ sina
    :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
    :depends glib: ``>=2.58.3,<3.0a0``
    :depends libarbdb: ``6.0.6 haa8b8d8_8``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends tbb: ``>=2020.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

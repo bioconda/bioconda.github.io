@@ -26,22 +26,31 @@ parsnp
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.5.3-0</code>,  <code>1.5.2-1</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-4</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  </span></summary>
+      
 
+      ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends fastani: 
    :depends fasttree: 
    :depends harvesttools: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends mash: 
    :depends numpy: 
    :depends openmp: 
    :depends phipack: 
-   :depends python: ``>=3``
    :depends raxml: 
-   :depends zlib: 
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
