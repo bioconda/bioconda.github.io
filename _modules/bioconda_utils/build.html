@@ -175,7 +175,7 @@
         <span class="n">linter</span><span class="o">.</span><span class="n">clear_messages</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">linter</span><span class="o">.</span><span class="n">lint</span><span class="p">([</span><span class="n">recipe</span><span class="p">]):</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">The recipe </span><span class="si">%s</span><span class="s1"> failed linting. See &#39;</span>
-                         <span class="s1">&#39;https://bioconda.github.io/linting.html for details:</span><span class="se">\n\n</span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span>
+                         <span class="s1">&#39;https://bioconda.github.io/contributor/linting.html for details:</span><span class="se">\n\n</span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span>
                          <span class="n">recipe</span><span class="p">,</span> <span class="n">linter</span><span class="o">.</span><span class="n">get_report</span><span class="p">())</span>
             <span class="k">return</span> <span class="n">BuildResult</span><span class="p">(</span><span class="kc">False</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Lint checks passed&quot;</span><span class="p">)</span>
