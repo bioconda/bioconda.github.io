@@ -28,10 +28,10 @@ ucsc-fatotwobit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>366-1</code>,  <code>366-0</code>,  <code>357-3</code>,  <code>357-2</code>,  <code>357-1</code>,  <code>357-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>366-1</code>,  <code>366-0</code>,  <code>357-4</code>,  <code>357-3</code>,  <code>357-2</code>,  <code>357-1</code>,  </span></summary>
       
 
-      ``377-3``,  ``377-2``,  ``377-1``,  ``366-1``,  ``366-0``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``353-0``,  ``332-0``,  ``324-2``,  ``324-0``
+      ``377-3``,  ``377-2``,  ``377-1``,  ``366-1``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``353-0``,  ``332-0``,  ``324-2``,  ``324-0``
 
       
       .. raw:: html

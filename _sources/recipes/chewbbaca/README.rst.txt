@@ -13,7 +13,7 @@ chewbbaca
    A complete suite for gene\-by\-gene schema creation and strain identification.
 
    :homepage: https://github.com/B-UMMI/chewBBACA
-   :license: GPL3 / GPL-3.0
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`chewbbaca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chewbbaca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chewbbaca/meta.yaml>`_
 
    chewBBACA is a comprehensive pipeline including a set of functions for the creation and validation of whole genome and core genome MultiLocus Sequence Typing \(wg\/cgMLST\) schemas\, providing an allele calling algorithm based on Blast Score Ratio that can be run in multiprocessor settings and a set of functions to visualize and validate allele variation in the loci.
@@ -28,10 +28,10 @@ chewbbaca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.17.2-0</code>,  <code>2.0.17.1-0</code>,  <code>2.0.16-0</code>,  <code>2.0.15-0</code>,  <code>2.0.12-2</code>,  <code>2.0.8-2</code>,  <code>2.0.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.17.2-0</code>,  <code>2.0.17.1-0</code>,  <code>2.0.16-0</code>,  <code>2.0.15-0</code>,  <code>2.0.12-2</code>,  <code>2.0.8-2</code>,  </span></summary>
       
 
-      ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.17.2-0``,  ``2.0.17.1-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-2``,  ``2.0.8-2``,  ``2.0.8-0``,  ``2.0.6-0``,  ``1.0-0``
+      ``2.5.2-0``,  ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.17.2-0``,  ``2.0.17.1-0``,  ``2.0.16-0``,  ``2.0.15-0``,  ``2.0.12-2``,  ``2.0.8-2``,  ``2.0.8-0``,  ``2.0.6-0``,  ``1.0-0``
 
       
       .. raw:: html

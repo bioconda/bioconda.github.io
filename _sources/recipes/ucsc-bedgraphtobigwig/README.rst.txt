@@ -28,10 +28,10 @@ ucsc-bedgraphtobigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-3</code>,  <code>357-1</code>,  <code>357-0</code>,  <code>332-0</code>,  <code>324-0</code>,  <code>308-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-4</code>,  <code>357-3</code>,  <code>357-1</code>,  <code>357-0</code>,  <code>332-0</code>,  <code>324-0</code>,  </span></summary>
       
 
-      ``377-1``,  ``377-0``,  ``366-0``,  ``357-3``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``,  ``308-1``,  ``308-0``
+      ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``,  ``308-1``,  ``308-0``
 
       
       .. raw:: html
