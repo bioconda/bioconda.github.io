@@ -34,10 +34,10 @@ antismash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.2-2</code>,  <code>5.1.2-1</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.2-3</code>,  <code>5.1.2-2</code>,  <code>5.1.2-1</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  </span></summary>
       
 
-      ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
+      ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
 
       
       .. raw:: html
@@ -60,6 +60,7 @@ antismash
    :depends meme: ``<=4.11.2``
    :depends muscle: ``3.8.*``
    :depends numpy: 
+   :depends openjdk: 
    :depends prodigal: 
    :depends pyscss: 
    :depends pysvg-py3: 

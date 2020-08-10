@@ -33,27 +33,30 @@ cellrank
       
       
 
-      ``1.0.0rc0-0``,  ``1.0.0b3-0``
+      ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
 
       
 
    
    :depends anndata: ``>=0.7.2``
+   :depends docrep: ``>=0.2.7``
    :depends future_fstrings: 
    :depends joblib: ``>=0.13.1``
-   :depends matplotlib-base: ``>=3.0.3``
+   :depends matplotlib-base: ``>=3.3.0``
    :depends networkx: ``>=2.2``
-   :depends numpy: ``>=1.16.4``
+   :depends numba: ``>=0.50.1``
+   :depends numpy: ``>=1.19.1``
    :depends pandas: ``>=0.23.4``
+   :depends pygam: ``>=0.8.0``
    :depends python: ``>=3.6``
-   :depends scanpy: ``>=1.5.0``
+   :depends scanpy: ``>=1.5.1``
    :depends scikit-learn: ``>=0.21.3``
    :depends scipy: ``>=1.2.0``
    :depends scvelo: ``>=0.2.1``
    :depends seaborn: ``>=0.10.0``
    :depends setuptools: ``>=41.0.1``
-   :depends tqdm: ``>=4.47.0``
    :depends tzlocal: ``>=1.5.1``
+   :depends wrapt: ``>=1.12.1``
    :requirements:
 
    .. rubric:: Installation
@@ -90,12 +93,12 @@ cellrank
       
       
 
-      ``1.0.0rc0-0``
+      ``1.0.0rc2-0``,  ``1.0.0rc0-0``
 
       
 
    
-   :depends cellrank: ``1.0.0rc0 py_0``
+   :depends cellrank: ``1.0.0rc2 py_0``
    :depends mpi4py: ``>=3.0.3``
    :depends openmpi: ``>=3.0.3``
    :depends petsc: ``>=3.13.0``
