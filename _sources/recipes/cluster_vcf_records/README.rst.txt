@@ -27,17 +27,17 @@ cluster_vcf_records
       
       
 
-      ``0.12.4-0``
+      ``0.12.4-1``,  ``0.12.4-0``
 
       
 
    
    :depends bitarray: 
-   :depends minimap2: ``>=2.17``
-   :depends mummer4: ``>=4.0.0beta2``
    :depends pyfastaq: ``>=3.14.0``
    :depends pysam: 
    :depends python: ``>=3.6``
+   :depends vcflib: 
+   :depends vt: 
    :requirements:
 
    .. rubric:: Installation
