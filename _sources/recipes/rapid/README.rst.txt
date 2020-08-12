@@ -6,7 +6,7 @@
 rapid
 =====
 
-.. conda:recipe:: rapid/0.8
+.. conda:recipe:: rapid
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ rapid
 
    :homepage: https://github.com/SchulzLab/RAPID
    :license: GPL2
-   :recipe: /`rapid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid>`_/`0.8 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid/0.8>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid/0.8/meta.yaml>`_
+   :recipe: /`rapid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid/meta.yaml>`_
 
    
 
@@ -28,10 +28,10 @@ rapid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0-0</code>,  <code>0.8-3</code>,  <code>0.8-2</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.6-0</code>,  <code>0.5-0</code>,  <code>0.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0-1</code>,  <code>1.0-0</code>,  <code>0.8-4</code>,  <code>0.8-3</code>,  <code>0.8-2</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.6-0</code>,  </span></summary>
       
 
-      ``1.0-0``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``,  ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-1``,  ``0.4-0``,  ``0.3-0``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
+      ``1.0-1``,  ``1.0-0``,  ``0.8-4``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``,  ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-1``,  ``0.4-0``,  ``0.3-0``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ rapid
    :depends bioconductor-deseq2: 
    :depends bowtie2: ``2.3.0``
    :depends pandoc: 
-   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
+   :depends r-base: 
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-knitr: 

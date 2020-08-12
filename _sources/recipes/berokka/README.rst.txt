@@ -12,7 +12,7 @@ berokka
 
    Trim\, circularise and orient long read bacterial genome assemblies.
 
-   :homepage: https://github.com/tseemann/[{name}}
+   :homepage: https://github.com/tseemann/berokka
    :license: GPL / GPL-3.0
    :recipe: /`berokka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/berokka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/berokka/meta.yaml>`_
 
@@ -27,13 +27,13 @@ berokka
       
       
 
-      ``0.2.3-1``,  ``0.2.3-0``,  ``0.2-3``,  ``0.2-2``,  ``0.2-0``,  ``0.1-0``
+      ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2-3``,  ``0.2-2``,  ``0.2-0``,  ``0.1-0``
 
       
 
    
    :depends blast: ``>=2.7``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.26``
    :depends perl-bioperl: ``>=1.7.2``
    :requirements:
 

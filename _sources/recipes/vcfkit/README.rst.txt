@@ -27,7 +27,7 @@ vcfkit
       
       
 
-      ``0.1.6-3``,  ``0.1.6-2``,  ``0.1.6-0``,  ``0.0.4-0``
+      ``0.1.6-4``,  ``0.1.6-3``,  ``0.1.6-2``,  ``0.1.6-0``,  ``0.0.4-0``
 
       
 
@@ -42,12 +42,11 @@ vcfkit
    :depends docopt: 
    :depends intervaltree: ``2.1.0``
    :depends jinja2: 
-   :depends libgcc-ng: ``>=7.3.0``
    :depends matplotlib: 
    :depends muscle: ``>=3.8.31``
    :depends networkx: ``1.11``
    :depends numpy: 
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python: ``<3``
    :depends requests: 
    :depends samtools: ``>=1.3``
    :depends scipy: 

@@ -28,10 +28,10 @@ pbcore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>1.7.1-0</code>,  <code>1.6.5-0</code>,  <code>1.5.1-2</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.2.10-2</code>,  <code>1.2.10-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-2</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>1.7.1-0</code>,  <code>1.6.5-0</code>,  <code>1.5.1-2</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.2.10-2</code>,  </span></summary>
       
 
-      ``2.1.2-1``,  ``2.1.2-0``,  ``1.7.1-0``,  ``1.6.5-0``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``
+      ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``1.7.1-0``,  ``1.6.5-0``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``
 
       
       .. raw:: html

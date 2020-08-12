@@ -27,7 +27,7 @@ sparse-neighbors-search
       
       
 
-      ``0.6-0``,  ``0.5-0``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2.3-0``
+      ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2.3-0``
 
       
 
@@ -36,6 +36,7 @@ sparse-neighbors-search
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: ``>=1.17``
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scikit-learn: ``>=0.21``
    :depends scipy: ``>=1.3``
    :requirements:

@@ -27,7 +27,7 @@ fargene
       
       
 
-      ``0.1-2``,  ``0.1-0``
+      ``0.1-3``,  ``0.1-2``,  ``0.1-0``
 
       
 
@@ -40,7 +40,8 @@ fargene
    :depends numpy: 
    :depends pip: 
    :depends prodigal: 
-   :depends python: ``<3``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends pyyaml: 
    :depends seqtk: 
    :depends spades: 

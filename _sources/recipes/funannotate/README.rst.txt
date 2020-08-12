@@ -29,7 +29,7 @@ funannotate
       
       
 
-      ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
+      ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
 
       
 
@@ -70,6 +70,7 @@ funannotate
    :depends proteinortho: ``>=6.0.9``
    :depends psutil: 
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends r-base: ``>=3.4.1``
    :depends raxml: 
    :depends requests: 

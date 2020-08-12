@@ -28,10 +28,10 @@ sequana
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.0-0</code>,  <code>0.6.3.post1-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.0-0</code>,  <code>0.6.3.post1-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  </span></summary>
       
 
-      ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ sequana
       
 
    
-   :depends atropos: 
+   :depends atropos: ``>=1.1.16``
    :depends bcftools: 
    :depends bedtools: 
    :depends bioservices: ``>=1.5.1``
@@ -54,8 +54,9 @@ sequana
    :depends khmer: 
    :depends kraken: ``1.1``
    :depends krona: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends lxml: 
+   :depends matplotlib: ``<3.1.2``
    :depends mock: 
    :depends multiqc: ``>=1.8``
    :depends numexpr: 
@@ -65,7 +66,8 @@ sequana
    :depends psutil: 
    :depends pykwalify: ``>=1.6``
    :depends pysam: ``>=0.15.3``
-   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends pyvcf: ``>=0.6.8``
    :depends pyyaml: ``>=5.3.1``
    :depends qtconsole: ``>=4.7.2``

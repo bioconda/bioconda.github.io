@@ -27,13 +27,13 @@ transposonpsi
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends blast-legacy: ``2.2.26.*``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.8``
    :depends perl-bioperl: ``>=1.7.2``
    :requirements:
 

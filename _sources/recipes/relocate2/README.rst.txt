@@ -27,7 +27,7 @@ relocate2
       
       
 
-      ``2.0.1-4``,  ``2.0.1-2``,  ``2.0.1-0``,  ``2.0.0-1``
+      ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-2``,  ``2.0.1-0``,  ``2.0.0-1``
 
       
 
@@ -36,7 +36,7 @@ relocate2
    :depends blat: ``35``
    :depends bowtie2: ``2.2.8``
    :depends bwa: ``0.6.2-0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.10.0``
    :depends pysam: ``0.9.0``
    :depends python: ``2.7.12``
    :depends samtools: ``1.3-0``

@@ -29,7 +29,7 @@ mtbseq
       
       
 
-      ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
@@ -37,7 +37,7 @@ mtbseq
    :depends bwa: ``0.7.17``
    :depends gatk: ``3.8``
    :depends openjdk: ``>=8,<9``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.22``
    :depends perl-mce: ``>=1.836``
    :depends perl-number-format: 
    :depends perl-statistics-basic: ``>=1.6611``

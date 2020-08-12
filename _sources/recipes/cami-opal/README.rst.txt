@@ -27,7 +27,7 @@ cami-opal
       
       
 
-      ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.8.post0-0``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -36,7 +36,7 @@ cami-opal
    :depends dendropy: ``>=4.4.0``
    :depends docker-py: ``>=4.0.2``
    :depends h5py: ``>=2.9.0``
-   :depends matplotlib: ``>=3.1.1``
+   :depends matplotlib-base: ``>=3.1.1``
    :depends numpy: ``>=1.16.4``
    :depends pandas: ``>=0.24.2``
    :depends python: ``>=3.6``

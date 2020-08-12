@@ -28,10 +28,10 @@ unicycler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.8-0</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.4-2</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.4.1-0</code>,  <code>0.3.0b-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.4-3</code>,  <code>0.4.4-2</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  </span></summary>
       
 
-      ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.1-0``,  ``0.3.0b-1``,  ``0.3.0b-0``,  ``0.2.0-0``
+      ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-3``,  ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.1-0``,  ``0.3.0b-1``,  ``0.3.0b-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -43,12 +43,13 @@ unicycler
    :depends blast: 
    :depends bowtie2: 
    :depends freebayes: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends miniasm: 
    :depends openjdk: 
    :depends pilon: 
-   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends racon: 
    :depends samtools: ``>=1.0``
    :depends spades: ``>=3.6.2``

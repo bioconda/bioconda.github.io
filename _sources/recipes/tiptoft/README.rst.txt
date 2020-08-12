@@ -27,17 +27,17 @@ tiptoft
       
       
 
-      ``1.0.2-0``,  ``1.0.0-0``,  ``0.1.4-0``
+      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.1.4-0``
 
       
 
    
    :depends biopython: ``>=1.68``
    :depends cython: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends pyfastaq: ``>=3.12.0``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends setuptools: 
    :requirements:
 

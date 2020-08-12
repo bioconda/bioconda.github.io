@@ -30,17 +30,18 @@ nucleoatac
       
       
 
-      ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.1-0``
+      ``0.3.4-4``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.1-0``
 
       
 
    
-   :depends cython: ``>=0.22``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends matplotlib: 
-   :depends numpy: ``>=1.9.1``
-   :depends pysam: ``>=0.8.1``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends matplotlib-base: 
+   :depends numpy: ``>=1.16.5,<2.0a0``
+   :depends pysam: ``>=0.10.0``
    :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scipy: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

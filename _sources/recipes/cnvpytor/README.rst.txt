@@ -27,7 +27,7 @@ cnvpytor
       
       
 
-      ``1.0-0``,  ``1.0b3-1``,  ``1.0b3-0``
+      ``1.0-1``,  ``1.0-0``,  ``1.0b3-1``,  ``1.0b3-0``
 
       
 
@@ -37,7 +37,8 @@ cnvpytor
    :depends numpy: ``>=1.16``
    :depends pathlib: ``>=1.0``
    :depends pysam: ``>=0.15``
-   :depends python: ``>=3``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends requests: ``>=2.0``
    :depends scipy: ``>=1.1``
    :requirements:
