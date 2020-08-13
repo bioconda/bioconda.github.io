@@ -13,7 +13,7 @@ dxpy
    DNAnexus Platform API bindings for Python
 
    :homepage: https://github.com/dnanexus/dx-toolkit
-   :documentation: https://wiki.dnanexus.com/downloads#DNAnexus-Platform-SDK
+   :documentation: http://autodoc.dnanexus.com/bindings/python/current/
    
    :license: Apache / Apache-2.0
    :recipe: /`dxpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dxpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dxpy/meta.yaml>`_
@@ -30,10 +30,10 @@ dxpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.297.1-0</code>,  <code>0.296.0-0</code>,  <code>0.295.1-0</code>,  <code>0.294.0-0</code>,  <code>0.293.0-0</code>,  <code>0.292.0-0</code>,  <code>0.291.1-0</code>,  <code>0.290.1-0</code>,  <code>0.289.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.298.1-0</code>,  <code>0.297.1-0</code>,  <code>0.296.0-0</code>,  <code>0.295.1-0</code>,  <code>0.294.0-0</code>,  <code>0.293.0-0</code>,  <code>0.292.0-0</code>,  <code>0.291.1-0</code>,  <code>0.290.1-0</code>,  </span></summary>
       
 
-      ``0.297.1-0``,  ``0.296.0-0``,  ``0.295.1-0``,  ``0.294.0-0``,  ``0.293.0-0``,  ``0.292.0-0``,  ``0.291.1-0``,  ``0.290.1-0``,  ``0.289.1-0``,  ``0.288.0-0``,  ``0.287.0-0``,  ``0.286.1-0``,  ``0.285.1-0``,  ``0.285.0-0``,  ``0.284.0-0``,  ``0.283.0-0``,  ``0.282.0-0``,  ``0.273.0-0``,  ``0.261.1-0``,  ``0.257.3-0``,  ``0.254.0-1``,  ``0.254.0-0``,  ``0.250.2-0``,  ``0.247.0-0``,  ``0.225.0-0``,  ``0.223.0-0``
+      ``0.298.1-0``,  ``0.297.1-0``,  ``0.296.0-0``,  ``0.295.1-0``,  ``0.294.0-0``,  ``0.293.0-0``,  ``0.292.0-0``,  ``0.291.1-0``,  ``0.290.1-0``,  ``0.289.1-0``,  ``0.288.0-0``,  ``0.287.0-0``,  ``0.286.1-0``,  ``0.285.1-0``,  ``0.285.0-0``,  ``0.284.0-0``,  ``0.283.0-0``,  ``0.282.0-0``,  ``0.273.0-0``,  ``0.261.1-0``,  ``0.257.3-0``,  ``0.254.0-1``,  ``0.254.0-0``,  ``0.250.2-0``,  ``0.247.0-0``,  ``0.225.0-0``,  ``0.223.0-0``
 
       
       .. raw:: html
@@ -44,13 +44,14 @@ dxpy
    
    :depends argcomplete: ``>=1.9.4``
    :depends beautifulsoup4: ``>=4.4.1``
-   :depends cryptography: ``<=2.2.2``
+   :depends cryptography: ``>=2.3,<3.0``
    :depends psutil: ``>=3.3.0``
    :depends python: 
    :depends python-dateutil: ``>=2.5``
    :depends python-magic: ``>=0.4.6``
-   :depends requests: ``>=2.8.0``
+   :depends requests: ``>=2.8.0,<2.24.0``
    :depends websocket-client: ``>=0.53.0``
+   :depends xattr: ``>=0.9.6``
    :requirements:
 
    .. rubric:: Installation

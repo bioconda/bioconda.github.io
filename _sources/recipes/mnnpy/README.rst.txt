@@ -13,7 +13,7 @@ mnnpy
    Mutual nearest neighbors correction in python.
 
    :homepage: http://github.com/chriscainx/mnnpy
-   :license: BSD / BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`mnnpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mnnpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mnnpy/meta.yaml>`_
 
    
@@ -27,18 +27,19 @@ mnnpy
       
       
 
-      ``0.1.9.5-0``
+      ``0.1.9.5-1``,  ``0.1.9.5-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends anndata: 
    :depends libgcc-ng: ``>=7.5.0``
    :depends numba: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
    :requirements:
 

@@ -27,13 +27,13 @@ jasminesv
       
       
 
-      ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
    :depends irissv: 
-   :depends openjdk: ``>=8.0.144``
+   :depends openjdk: ``>=11.0.1``
    :requirements:
 
    .. rubric:: Installation

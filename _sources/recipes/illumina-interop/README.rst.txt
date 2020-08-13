@@ -27,14 +27,22 @@ illumina-interop
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-3``,  ``1.1.4-0``,  ``1.0.25-1``,  ``1.0.25-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.11-0</code>,  <code>1.1.10-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.4-3</code>,  <code>1.1.4-0</code>,  <code>1.0.25-1</code>,  </span></summary>
+      
 
+      ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-3``,  ``1.1.4-0``,  ``1.0.25-1``,  ``1.0.25-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation
