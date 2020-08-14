@@ -28,10 +28,10 @@ cmappy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>3.3.3-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.0.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>3.3.3-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.0.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  </span></summary>
       
 
-      ``4.0.1-0``,  ``3.3.3-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.1.1-0``,  ``1.0.9-0``
+      ``4.0.1-1``,  ``4.0.1-0``,  ``3.3.3-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.0.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.1.1-0``,  ``1.0.9-0``
 
       
       .. raw:: html
@@ -41,11 +41,12 @@ cmappy
 
    
    :depends h5py: ``>=2.6.0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: ``>=1.11.2``
    :depends pandas: ``>=0.18``
-   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends requests: ``>=2.13.0``
    :requirements:
 

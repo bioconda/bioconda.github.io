@@ -28,12 +28,11 @@ collect_mgf
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

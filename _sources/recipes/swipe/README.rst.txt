@@ -29,13 +29,12 @@ swipe
       
       
 
-      ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
+      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
-   :depends openmpi: 
+   :depends openmpi: ``>=4.0.4,<4.1.0a0``
    :depends tbb: 
    :requirements:
 

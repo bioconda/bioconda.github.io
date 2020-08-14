@@ -28,12 +28,12 @@ abawaca
       
       
 
-      ``1.00-1``,  ``1.00-0``
+      ``1.00-2``,  ``1.00-1``,  ``1.00-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

@@ -29,10 +29,10 @@ kat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.2-0</code>,  <code>2.4.1-3</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.1-3</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.3.4-1</code>,  </span></summary>
       
 
-      ``2.4.2-0``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-2``,  ``2.0.8-1``,  ``2.0.8-0``
+      ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-2``,  ``2.0.8-1``,  ``2.0.8-0``
 
       
       .. raw:: html
@@ -42,11 +42,12 @@ kat
 
    
    :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends matplotlib: 
    :depends numpy: 
    :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
    :depends tabulate: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

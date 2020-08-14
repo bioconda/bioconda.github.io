@@ -29,10 +29,10 @@ bioconductor-diffbind
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-1</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.6-0</code>,  <code>2.6.5-0</code>,  <code>2.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-1</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.6-0</code>,  <code>2.6.5-0</code>,  </span></summary>
       
 
-      ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
+      ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ bioconductor-diffbind
       
 
    
+   :depends bioconductor-apeglm: ``>=1.10.0``
    :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
    :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
    :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
@@ -54,9 +55,9 @@ bioconductor-diffbind
    :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
    :depends bioconductor-systempiper: ``>=1.22.0,<1.23.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-amap: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 

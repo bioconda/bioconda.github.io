@@ -27,13 +27,12 @@ gerp
       
       
 
-      ``2.1-0``
+      ``2.1-1``,  ``2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

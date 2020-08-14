@@ -27,12 +27,12 @@ cd-hit-auxtools
       
       
 
-      ``4.6.8-1``,  ``4.6.8-0``
+      ``4.6.8-2``,  ``4.6.8-1``,  ``4.6.8-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

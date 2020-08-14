@@ -28,16 +28,16 @@ finestructure
       
       
 
-      ``2.1.3-0``
+      ``2.1.3-1``,  ``2.1.3-0``
 
       
 
    
    :depends blas: ``1.1 openblas``
-   :depends gsl: ``>=2.4,<2.5.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends openblas: ``>=0.3.3,<0.3.4.0a0``
+   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

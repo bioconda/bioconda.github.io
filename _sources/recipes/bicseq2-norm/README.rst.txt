@@ -28,12 +28,12 @@ bicseq2-norm
       
       
 
-      ``0.2.4-0``
+      ``0.2.4-1``,  ``0.2.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends perl: 
    :depends r-base: 
    :requirements:

@@ -27,12 +27,12 @@ fastindep
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

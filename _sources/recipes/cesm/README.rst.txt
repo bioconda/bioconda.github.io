@@ -29,7 +29,7 @@ cesm
       
       
 
-      ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``
+      ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``
 
       
 
@@ -46,8 +46,8 @@ cesm
    :depends mpich: ``>=3.3.2,<3.4.0a0``
    :depends netcdf-fortran: ``>=4.5.2,<4.6.0a0``
    :depends perl-xml-libxml: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends tcsh: 
    :requirements:
 

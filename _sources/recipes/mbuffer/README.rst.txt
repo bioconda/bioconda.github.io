@@ -27,11 +27,12 @@ mbuffer
       
       
 
-      ``20160228-1``,  ``20160228-0``
+      ``20160228-2``,  ``20160228-1``,  ``20160228-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

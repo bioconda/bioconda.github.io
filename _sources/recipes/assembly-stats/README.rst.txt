@@ -27,12 +27,13 @@ assembly-stats
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

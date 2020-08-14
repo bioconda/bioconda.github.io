@@ -27,13 +27,14 @@ lrzip
       
       
 
-      ``0.621-1``,  ``0.621-0``
+      ``0.621-2``,  ``0.621-1``,  ``0.621-0``
 
       
 
    
-   :depends bzip2: ``>=1.0.6,<2.0a0``
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends lzo: ``>=2.10,<3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

@@ -28,12 +28,12 @@ bicseq2-seg
       
       
 
-      ``0.7.2-0``
+      ``0.7.2-1``,  ``0.7.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends perl: 
    :depends r-base: 
    :requirements:

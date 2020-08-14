@@ -27,7 +27,7 @@ fastq-dl
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -36,7 +36,7 @@ fastq-dl
    :depends pigz: 
    :depends python: ``>=3.6``
    :depends requests: 
-   :depends sra-tools: 
+   :depends sra-tools: ``>=2.9``
    :depends wget: 
    :requirements:
 

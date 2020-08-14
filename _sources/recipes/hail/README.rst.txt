@@ -30,7 +30,7 @@ hail
       
       
 
-      ``0.2.33-0``
+      ``0.2.33-1``,  ``0.2.33-0``
 
       
 
@@ -42,15 +42,16 @@ hail
    :depends gcsfs: ``0.2.1``
    :depends humanize: 
    :depends hurry.filesize: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends nest-asyncio: 
    :depends openjdk: ``8.*``
    :depends parsimonious: 
    :depends pyjwt: 
    :depends pyspark: ``2.4.*``
-   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends python-json-logger: ``0.1.11``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends requests: 
    :depends scipy: 
    :depends tabulate: ``0.8.3``

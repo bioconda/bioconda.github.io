@@ -27,14 +27,14 @@ libsbml
       
       
 
-      ``5.18.0-0``
+      ``5.18.0-1``,  ``5.18.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends libxml2: ``>=2.9.9,<2.10.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libxml2: ``>=2.9.10,<2.10.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

@@ -28,14 +28,14 @@ faqcs
       
       
 
-      ``2.09-2``,  ``2.09-1``,  ``2.09-0``,  ``2.08-0``
+      ``2.09-3``,  ``2.09-2``,  ``2.09-1``,  ``2.09-0``,  ``2.08-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

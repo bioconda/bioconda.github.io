@@ -27,13 +27,14 @@ ngshmmalign
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends boost: ``>=1.66.0,<1.66.1.0a0``
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends boost: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

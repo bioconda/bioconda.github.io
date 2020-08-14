@@ -28,12 +28,11 @@ structure
       
       
 
-      ``2.3.4-1``,  ``2.3.4-0``
+      ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

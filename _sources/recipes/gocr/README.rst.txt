@@ -27,12 +27,12 @@ gocr
       
       
 
-      ``0.50-1``,  ``0.50-0``
+      ``0.50-2``,  ``0.50-1``,  ``0.50-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

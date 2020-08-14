@@ -27,12 +27,12 @@ gbmunge
       
       
 
-      ``2018.07.06-1``,  ``2018.07.06-0``
+      ``2018.07.06-2``,  ``2018.07.06-1``,  ``2018.07.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

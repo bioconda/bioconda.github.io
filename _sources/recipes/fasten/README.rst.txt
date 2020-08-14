@@ -27,11 +27,12 @@ fasten
       
       
 
-      ``0.1.13-0``
+      ``0.1.13-1``,  ``0.1.13-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

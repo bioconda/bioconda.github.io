@@ -27,18 +27,17 @@ ucsc-bedjointaboffset
       
       
 
-      ``377-0``,  ``366-0``
+      ``377-1``,  ``377-0``,  ``366-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libpng: ``>=1.6.35,<1.7.0a0``
-   :depends libuuid: ``>=2.32.1,<3.0a0``
+   :depends libpng: 
+   :depends libuuid: 
    :depends mysql-connector-c: 
-   :depends openssl: ``>=1.0.2p,<1.0.3a``
+   :depends openssl: 
    :depends python: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

@@ -27,12 +27,12 @@ tssar
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends perl: 
    :depends r-base: 
    :depends r-skellam: 

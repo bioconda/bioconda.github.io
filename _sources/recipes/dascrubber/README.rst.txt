@@ -27,12 +27,11 @@ dascrubber
       
       
 
-      ``0.0.1a2-1``,  ``0.0.1a2-0``,  ``0.0.1a1-0``
+      ``0.0.1a2-2``,  ``0.0.1a2-1``,  ``0.0.1a2-0``,  ``0.0.1a1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

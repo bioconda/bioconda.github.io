@@ -28,12 +28,12 @@ kronik
       
       
 
-      ``2.20-1``,  ``2.20-0``
+      ``2.20-2``,  ``2.20-1``,  ``2.20-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

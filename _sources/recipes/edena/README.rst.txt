@@ -28,12 +28,12 @@ edena
       
       
 
-      ``3.131028-1``,  ``3.131028-0``
+      ``3.131028-2``,  ``3.131028-1``,  ``3.131028-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

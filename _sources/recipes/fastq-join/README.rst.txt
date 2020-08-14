@@ -27,12 +27,12 @@ fastq-join
       
       
 
-      ``1.3.1-2``,  ``1.3.1-1``
+      ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

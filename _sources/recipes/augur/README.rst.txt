@@ -28,10 +28,10 @@ augur
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>9.0.0-0</code>,  <code>8.0.0-0</code>,  <code>7.0.2-0</code>,  <code>6.4.3-0</code>,  <code>6.4.2-0</code>,  <code>6.4.1-0</code>,  <code>6.4.0-0</code>,  <code>6.3.0-0</code>,  <code>6.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>9.0.0-1</code>,  <code>9.0.0-0</code>,  <code>8.0.0-0</code>,  <code>7.0.2-0</code>,  <code>6.4.3-0</code>,  <code>6.4.2-0</code>,  <code>6.4.1-0</code>,  <code>6.4.0-0</code>,  <code>6.3.0-0</code>,  </span></summary>
       
 
-      ``9.0.0-0``,  ``8.0.0-0``,  ``7.0.2-0``,  ``6.4.3-0``,  ``6.4.2-0``,  ``6.4.1-0``,  ``6.4.0-0``,  ``6.3.0-0``,  ``6.2.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.0-0``,  ``5.4.1-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``4.0.0-0``,  ``3.1.5-1``,  ``3.1.5-0``
+      ``9.0.0-1``,  ``9.0.0-0``,  ``8.0.0-0``,  ``7.0.2-0``,  ``6.4.3-0``,  ``6.4.2-0``,  ``6.4.1-0``,  ``6.4.0-0``,  ``6.3.0-0``,  ``6.2.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.0-0``,  ``5.4.1-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``4.0.0-0``,  ``3.1.5-1``,  ``3.1.5-0``
 
       
       .. raw:: html
@@ -42,17 +42,15 @@ augur
    
    :depends bcbio-gff: ``>=0.6.0``
    :depends biopython: ``>=1.67``
-   :depends cvxopt: ``>=1.1.9,<1.2``
+   :depends cvxopt: ``>=1.1.9,<2``
    :depends fasttree: 
    :depends iqtree: 
    :depends jsonschema: ``>=3.0.0``
    :depends mafft: 
-   :depends matplotlib-base: ``2.*``
    :depends packaging: ``>=19.2``
-   :depends pandas: ``>=0.20.0,<1``
-   :depends python: ``>=3``
+   :depends pandas: ``>=1.0.0,<2``
+   :depends python: ``>=3.6``
    :depends raxml: 
-   :depends seaborn: ``>=0.9.0,<0.10``
    :depends snakemake: ``>=5.4.0``
    :depends treetime: ``>=0.7.4``
    :depends vcftools: 
