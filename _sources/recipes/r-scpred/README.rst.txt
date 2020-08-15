@@ -28,7 +28,7 @@ r-scpred
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -36,7 +36,7 @@ r-scpred
    :depends bioconductor-singlecellexperiment: ``1.6.0.*``
    :depends r-caret: 
    :depends r-cowplot: 
-   :depends r-dplyr: 
+   :depends r-dplyr: ``<1``
    :depends r-ggplot2: 
    :depends r-irlba: 
    :depends r-kernlab: 
