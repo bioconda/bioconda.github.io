@@ -29,7 +29,7 @@ coconet-binning
       
       
 
-      ``0.52-0``
+      ``0.54-0``,  ``0.52-0``
 
       
 
@@ -39,11 +39,11 @@ coconet-binning
    :depends h5py: 
    :depends leidenalg: ``>=0.7.0``
    :depends numpy: 
-   :depends pandas: 
-   :depends python: 
+   :depends pandas: ``>=1.0``
+   :depends python: ``>=3.6``
    :depends python-igraph: ``>=0.7.1.post6``
-   :depends pytorch: 
-   :depends pyyaml: ``5.1``
+   :depends pytorch: ``>=1.0``
+   :depends pyyaml: ``5.1.0``
    :depends scikit-learn: 
    :depends tqdm: ``>=4.40.0``
    :requirements:
