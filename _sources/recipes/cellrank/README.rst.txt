@@ -33,7 +33,7 @@ cellrank
       
       
 
-      ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
+      ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
 
       
 
@@ -93,12 +93,12 @@ cellrank
       
       
 
-      ``1.0.0rc2-0``,  ``1.0.0rc0-0``
+      ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
 
       
 
    
-   :depends cellrank: ``1.0.0rc2 py_0``
+   :depends cellrank: ``1.0.0rc4 py_0``
    :depends mpi4py: ``>=3.0.3``
    :depends openmpi: ``>=3.0.3``
    :depends petsc: ``>=3.13.0``

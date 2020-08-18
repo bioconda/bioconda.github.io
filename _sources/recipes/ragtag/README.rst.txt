@@ -17,7 +17,7 @@ ragtag
    
    :license: MIT / MIT
    :recipe: /`ragtag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ragtag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ragtag/meta.yaml>`_
-   :links: doi: :doi:`10.5281/zenodo.3887140`
+   :links: doi: :doi:`10.5281/zenodo.3988490`
 
    
 
@@ -30,7 +30,7 @@ ragtag
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
