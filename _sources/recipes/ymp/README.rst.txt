@@ -39,7 +39,7 @@ ymp
       
       
 
-      ``0.1.0-0``
+      ``0.2.1-0``,  ``0.1.0-0``
 
       
 
@@ -54,7 +54,7 @@ ymp
    :depends pandas: ``>=0.20``
    :depends python: ``>=3.6``
    :depends ruamel.yaml: ``>0.15``
-   :depends snakemake: ``5.4.*``
+   :depends snakemake: ``>=5.20.1,<5.21.0a0``
    :depends tqdm: ``>=4.21.0``
    :depends xdg: 
    :depends xlrd: 
