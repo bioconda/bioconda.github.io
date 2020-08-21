@@ -17,6 +17,7 @@ medaka
    
    :license: OTHER / Mozilla Public License 2.0
    :recipe: /`medaka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medaka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medaka/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`medaka_consensus`
 
    
 

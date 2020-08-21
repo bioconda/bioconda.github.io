@@ -27,13 +27,13 @@ dextractor
       
       
 
-      ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-0``
+      ``1.0p2-2``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-0``
 
       
 
    
-   :depends hdf5: ``>=1.10.2,<1.10.3.0a0``
-   :depends libgcc-ng: ``>=4.9``
+   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

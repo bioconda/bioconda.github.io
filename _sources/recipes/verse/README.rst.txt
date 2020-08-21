@@ -32,6 +32,7 @@ verse
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

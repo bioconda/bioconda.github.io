@@ -15,7 +15,7 @@ samtools
    :homepage: https://github.com/samtools/samtools
    :license: MIT
    :recipe: /`samtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samtools/meta.yaml>`_
-   :links: biotools: :biotools:`samtools`
+   :links: biotools: :biotools:`samtools`, usegalaxy-eu: :usegalaxy-eu:`samtools_flagstat`
 
    
 

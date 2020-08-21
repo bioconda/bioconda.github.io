@@ -28,13 +28,14 @@ bcov
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends glpk: ``>=4.65,<4.66.0a0``
-   :depends libgcc: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran-ng: ``>=7,<8.0a0``
    :requirements:
 
    .. rubric:: Installation

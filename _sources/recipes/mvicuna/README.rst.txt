@@ -27,12 +27,12 @@ mvicuna
       
       
 
-      ``1.0-5``,  ``1.0-4``,  ``1.0-1``
+      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-1``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

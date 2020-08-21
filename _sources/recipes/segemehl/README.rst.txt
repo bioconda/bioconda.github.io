@@ -15,7 +15,7 @@ segemehl
    :homepage: http://www.bioinf.uni-leipzig.de/Software/segemehl/
    :license: GPL3
    :recipe: /`segemehl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segemehl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segemehl/meta.yaml>`_
-   :links: biotools: :biotools:`segemehl`
+   :links: biotools: :biotools:`segemehl`, usegalaxy-eu: :usegalaxy-eu:`segemehl`
 
    
 

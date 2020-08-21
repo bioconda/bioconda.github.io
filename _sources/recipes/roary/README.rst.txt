@@ -15,7 +15,7 @@ roary
    :homepage: https://github.com/sanger-pathogens/Roary
    :license: GPL-3.0
    :recipe: /`roary <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roary>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roary/meta.yaml>`_
-   :links: biotools: :biotools:`roary`
+   :links: biotools: :biotools:`roary`, usegalaxy-eu: :usegalaxy-eu:`roary`
 
    
 

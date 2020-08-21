@@ -15,7 +15,7 @@ bioconductor-edger
    :homepage: https://bioconductor.org/packages/3.11/bioc/html/edgeR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-edger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger/meta.yaml>`_
-   :links: biotools: :biotools:`edger`
+   :links: biotools: :biotools:`edger`, usegalaxy-eu: :usegalaxy-eu:`edger`
 
    Differential expression analysis of RNA\-seq expression profiles with biological replication. Implements a range of statistical methodology based on the negative binomial distributions\, including empirical Bayes estimation\, exact tests\, generalized linear models and quasi\-likelihood tests. As well as RNA\-seq\, it be applied to differential signal analysis of other types of genomic data that produce read counts\, including ChIP\-seq\, ATAC\-seq\, Bisulfite\-seq\, SAGE and CAGE.
 

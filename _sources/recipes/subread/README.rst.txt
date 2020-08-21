@@ -15,7 +15,7 @@ subread
    :homepage: http://subread.sourceforge.net/
    :license: GPLv3
    :recipe: /`subread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/subread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/subread/meta.yaml>`_
-   :links: biotools: :biotools:`subread`, doi: :doi:`10.1093/nar/gkt214`
+   :links: biotools: :biotools:`subread`, usegalaxy-eu: :usegalaxy-eu:`featurecounts`, doi: :doi:`10.1093/nar/gkt214`
 
    
 

@@ -15,6 +15,7 @@ nanocompore
    :homepage: https://github.com/tleonardi/nanocompore
    :license: GPL3 / GNU General Public v3 (GPLv3)
    :recipe: /`nanocompore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocompore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocompore/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`nanocompore_db`
 
    
 

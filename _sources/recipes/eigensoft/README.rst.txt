@@ -28,14 +28,15 @@ eigensoft
       
       
 
-      ``7.2.1-0``,  ``6.0.1-3``,  ``6.0.1-1``,  ``6.0.1-0``
+      ``7.2.1-1``,  ``7.2.1-0``,  ``6.0.1-3``,  ``6.0.1-1``,  ``6.0.1-0``
 
       
 
    
-   :depends gsl: ``>=2.2.1,<2.3.0a0``
-   :depends libgcc-ng: ``>=4.9``
-   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
+   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran: 
+   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
    :depends perl: 
    :requirements:
 

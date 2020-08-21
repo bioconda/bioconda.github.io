@@ -15,6 +15,7 @@ bwameth
    :homepage: https://github.com/brentp/bwa-meth
    :license: MIT
    :recipe: /`bwameth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwameth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwameth/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`bwameth`
 
    
 

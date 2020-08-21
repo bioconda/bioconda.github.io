@@ -27,14 +27,15 @@ visceral-evaluatesegmentation
       
       
 
-      ``2015.07.03-0``,  ``2015.07.02-1``,  ``2015.07.02-0``
+      ``2015.07.03-1``,  ``2015.07.03-0``,  ``2015.07.02-1``,  ``2015.07.02-0``
 
       
 
    
-   :depends jpeg: ``>=9c,<10a``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libitk: 
+   :depends jpeg: ``>=9d,<10a``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libitk: ``<5``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

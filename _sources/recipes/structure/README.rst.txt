@@ -33,6 +33,7 @@ structure
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

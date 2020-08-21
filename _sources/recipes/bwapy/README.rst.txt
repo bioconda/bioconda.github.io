@@ -27,14 +27,14 @@ bwapy
       
       
 
-      ``0.1.4-1``,  ``0.1.4-0``
+      ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
    
    :depends cffi: 
-   :depends libgcc-ng: ``>=4.9``
-   :depends python: ``>=3.5,<3.6.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

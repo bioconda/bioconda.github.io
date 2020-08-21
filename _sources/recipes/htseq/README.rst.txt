@@ -15,7 +15,7 @@ htseq
    :homepage: https://github.com/simon-anders/htseq
    :license: GPL-3.0
    :recipe: /`htseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htseq/meta.yaml>`_
-   :links: biotools: :biotools:`htseq`, doi: :doi:`10.1093/bioinformatics/btu638`
+   :links: biotools: :biotools:`htseq`, usegalaxy-eu: :usegalaxy-eu:`htseq_count`, doi: :doi:`10.1093/bioinformatics/btu638`
 
    
 

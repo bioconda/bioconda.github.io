@@ -15,7 +15,7 @@ prokka
    :homepage: https://github.com/tseemann/prokka
    :license: GPL / GPLv2
    :recipe: /`prokka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokka/meta.yaml>`_
-   :links: biotools: :biotools:`prokka`, doi: :doi:`10.1093/bioinformatics/btu153`
+   :links: biotools: :biotools:`prokka`, doi: :doi:`10.1093/bioinformatics/btu153`, usegalaxy-eu: :usegalaxy-eu:`prokka`
 
    
 

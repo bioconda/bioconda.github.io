@@ -15,6 +15,7 @@ autodock-vina
    :homepage: http://vina.scripps.edu/
    :license: Apache License 2.0
    :recipe: /`autodock-vina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autodock-vina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autodock-vina/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`docking`
 
    
 

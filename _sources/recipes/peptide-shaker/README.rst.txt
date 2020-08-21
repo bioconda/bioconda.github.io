@@ -15,7 +15,7 @@ peptide-shaker
    :homepage: https://github.com/compomics/peptide-shaker
    :license: APACHE / Apache License 2.0
    :recipe: /`peptide-shaker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker/meta.yaml>`_
-   :links: biotools: :biotools:`peptide-shaker`, doi: :doi:`10.1038/nbt.3109`
+   :links: biotools: :biotools:`peptide-shaker`, usegalaxy-eu: :usegalaxy-eu:`peptide_shaker`, doi: :doi:`10.1038/nbt.3109`
 
    PeptideShaker is a search engine independent platform for interpretation of proteomics identification results from multiple search engines\,
    currently supporting X\!Tandem\, MS\-GF\+\, MS Amanda\, OMSSA\, MyriMatch\, Comet\, Tide\, Mascot\, Andromeda and mzIdentML.

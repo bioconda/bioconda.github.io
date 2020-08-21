@@ -28,10 +28,10 @@ vcfpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.0-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-3</code>,  <code>0.11.2-3</code>,  <code>0.11.2-2</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.2-0</code>,  <code>0.13.0-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-3</code>,  <code>0.11.2-3</code>,  <code>0.11.2-2</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  </span></summary>
       
 
-      ``0.13.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-3``,  ``0.11.2-3``,  ``0.11.2-2``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``
+      ``0.13.2-0``,  ``0.13.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-3``,  ``0.11.2-3``,  ``0.11.2-2``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``
 
       
       .. raw:: html

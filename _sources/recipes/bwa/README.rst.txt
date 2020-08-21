@@ -15,7 +15,7 @@ bwa
    :homepage: https://github.com/lh3/bwa
    :license: GPL3
    :recipe: /`bwa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwa/meta.yaml>`_
-   :links: biotools: :biotools:`bwa`
+   :links: biotools: :biotools:`bwa`, usegalaxy-eu: :usegalaxy-eu:`bwa_mem`, usegalaxy-eu: :usegalaxy-eu:`bwa`
 
    
 

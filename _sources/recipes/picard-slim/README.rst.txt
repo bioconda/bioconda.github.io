@@ -16,6 +16,7 @@ picard-slim
    :developer docs: https://github.com/broadinstitute/picard
    :license: MIT / MIT
    :recipe: /`picard-slim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picard-slim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picard-slim/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`picard_MarkDuplicates`
 
    Java tools for working with NGS data in the BAM format. This package lacks the R dependency that is only required for some metrics tasks. This keeps the size of the package smaller\, at the cost of breaking some of Picards\'s commands. The \'picard\' package contains all the necessary dependencies.
 

@@ -15,6 +15,7 @@ chira
    :homepage: https://github.com/pavanvidem/chira/
    :license: GNU GENERAL PUBLIC LICENSE Version 3
    :recipe: /`chira <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chira>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chira/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`chira_quantify`
 
    
 

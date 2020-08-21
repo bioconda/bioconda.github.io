@@ -28,12 +28,12 @@ strike
       
       
 
-      ``1.2-0``
+      ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    .. rubric:: Installation

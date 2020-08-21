@@ -15,7 +15,7 @@ bioconductor-diffbind
    :homepage: https://bioconductor.org/packages/3.11/bioc/html/DiffBind.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-diffbind <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffbind>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffbind/meta.yaml>`_
-   :links: biotools: :biotools:`diffbind`
+   :links: biotools: :biotools:`diffbind`, usegalaxy-eu: :usegalaxy-eu:`diffbind`
 
    Compute differentially bound sites from multiple ChIP\-seq experiments using affinity \(quantitative\) data. Also enables occupancy \(overlap\) analysis and plotting functions.
 

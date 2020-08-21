@@ -30,16 +30,18 @@ mlpy
       
       
 
-      ``3.5.0-0``
+      ``3.5.0-1``,  ``3.5.0-0``
 
       
 
    
-   :depends gsl: ``>=2.4,<2.5.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends gsl: ``>=1.11``
+   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: ``>=1.3.0``
-   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scipy: ``>=0.7.0``
    :requirements:
 

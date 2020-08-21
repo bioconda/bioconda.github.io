@@ -15,7 +15,7 @@ searchgui
    :homepage: https://github.com/compomics/searchgui
    :license: APACHE / Apache License 2.0
    :recipe: /`searchgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/searchgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/searchgui/meta.yaml>`_
-   :links: biotools: :biotools:`searchgui`, doi: :doi:`10.1002/pmic.201000595`
+   :links: biotools: :biotools:`searchgui`, usegalaxy-eu: :usegalaxy-eu:`search_gui`, doi: :doi:`10.1002/pmic.201000595`
 
    SearchGUI is a user\-friendly open\-source graphical user interface for configuring and running proteomics identification search engines\, currently supporting X\!Tandem\, MS\-GF\+\, MS Amanda\, MyriMatch\, Comet\, Tide\, Andromeda and OMSSA.
 

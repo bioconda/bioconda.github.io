@@ -16,7 +16,7 @@ stringtie
    :developer docs: https://github.com/gpertea/stringtie
    :license: MIT / MIT
    :recipe: /`stringtie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie/meta.yaml>`_
-   :links: biotools: :biotools:`StringTie`, doi: :doi:`10.1038/nbt.3122`, doi: :doi:`10.1038/nprot.2016.095`, doi: :doi:`10.1186/s13059-019-1910-1`
+   :links: biotools: :biotools:`StringTie`, usegalaxy-eu: :usegalaxy-eu:`stringtie`, doi: :doi:`10.1038/nbt.3122`, doi: :doi:`10.1038/nprot.2016.095`, doi: :doi:`10.1186/s13059-019-1910-1`
 
    
 

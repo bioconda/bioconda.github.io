@@ -15,7 +15,7 @@ bcftools
    :homepage: https://github.com/samtools/bcftools
    :license: GPL
    :recipe: /`bcftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools/meta.yaml>`_
-   :links: biotools: :biotools:`bcftools`, doi: :doi:`10.1093/bioinformatics/btp352`
+   :links: biotools: :biotools:`bcftools`, usegalaxy-eu: :usegalaxy-eu:`bcftools_merge`, doi: :doi:`10.1093/bioinformatics/btp352`
 
    
 

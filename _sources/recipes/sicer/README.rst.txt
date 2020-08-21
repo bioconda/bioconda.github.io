@@ -15,6 +15,7 @@ sicer
    :homepage: http://home.gwu.edu/~wpeng/Software.htm
    :license: MIT / MIT
    :recipe: /`sicer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sicer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sicer/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`peakcalling_sicer`
 
    
 

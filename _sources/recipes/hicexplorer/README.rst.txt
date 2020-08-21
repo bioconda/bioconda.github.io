@@ -15,7 +15,7 @@ hicexplorer
    :homepage: https://github.com/deeptools/HiCExplorer
    :license: GPL3
    :recipe: /`hicexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer/meta.yaml>`_
-   :links: doi: :doi:`10.1093/nar/gky504`, doi: :doi:`10.1093/nar/gkaa220`
+   :links: doi: :doi:`10.1093/nar/gky504`, doi: :doi:`10.1093/nar/gkaa220`, usegalaxy-eu: :usegalaxy-eu:`hicexplorer_hicplotviewpoint`
 
    
 

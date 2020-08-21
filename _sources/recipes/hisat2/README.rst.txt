@@ -18,7 +18,7 @@ hisat2
    :developer docs: https://github.com/DaehwanKimLab/hisat2
    :license: GPL / GPL-3.0
    :recipe: /`hisat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hisat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hisat2/meta.yaml>`_
-   :links: biotools: :biotools:`HISAT2`, doi: :doi:`10.1038/nmeth.3317`, doi: :doi:`10.1038/s41587-019-0201-4`
+   :links: biotools: :biotools:`HISAT2`, doi: :doi:`10.1038/nmeth.3317`, doi: :doi:`10.1038/s41587-019-0201-4`, usegalaxy-eu: :usegalaxy-eu:`hisat2`
 
    HISAT2 is a fast and sensitive alignment program for mapping next\-generation sequencing reads \(both DNA and RNA\) to a population of human genomes as well as to a single reference genome.
 

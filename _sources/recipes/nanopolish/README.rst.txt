@@ -15,6 +15,7 @@ nanopolish
    :homepage: https://github.com/jts/nanopolish
    :license: MIT
    :recipe: /`nanopolish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanopolish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanopolish/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`nanopolish_eventalign`
 
    
 

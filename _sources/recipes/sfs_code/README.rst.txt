@@ -28,12 +28,11 @@ sfs_code
       
       
 
-      ``20150910-1``,  ``20150910-0``
+      ``20150910-2``,  ``20150910-1``,  ``20150910-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
    :requirements:
 
    .. rubric:: Installation

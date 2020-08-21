@@ -28,10 +28,10 @@ obitools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.13-1</code>,  <code>1.2.13-0</code>,  <code>1.2.11-1</code>,  <code>1.2.11-0</code>,  <code>1.2.10-2</code>,  <code>1.2.10-1</code>,  <code>1.2.10-0</code>,  <code>1.0.010-2</code>,  <code>1.0.010-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.13-2</code>,  <code>1.2.13-1</code>,  <code>1.2.13-0</code>,  <code>1.2.11-1</code>,  <code>1.2.11-0</code>,  <code>1.2.10-2</code>,  <code>1.2.10-1</code>,  <code>1.2.10-0</code>,  <code>1.0.010-2</code>,  </span></summary>
       
 
-      ``1.2.13-1``,  ``1.2.13-0``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.0.010-2``,  ``1.0.010-1``,  ``1.0.010-0``
+      ``1.2.13-2``,  ``1.2.13-1``,  ``1.2.13-0``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.0.010-2``,  ``1.0.010-1``,  ``1.0.010-0``
 
       
       .. raw:: html

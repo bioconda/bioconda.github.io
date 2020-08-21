@@ -15,6 +15,7 @@ mimodd
    :homepage: http://sourceforge.net/projects/mimodd
    :license: GPL3
    :recipe: /`mimodd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimodd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimodd/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`mimodd_align`
 
    
 

@@ -15,7 +15,7 @@ bismark
    :homepage: https://www.bioinformatics.babraham.ac.uk/projects/bismark/
    :license: GPL3 / GNU General Public License v3 (GPLv3)
    :recipe: /`bismark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bismark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bismark/meta.yaml>`_
-   :links: biotools: :biotools:`bismark`
+   :links: biotools: :biotools:`bismark`, usegalaxy-eu: :usegalaxy-eu:`bismark_bowtie2`
 
    
 

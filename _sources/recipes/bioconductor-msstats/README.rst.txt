@@ -15,6 +15,7 @@ bioconductor-msstats
    :homepage: https://bioconductor.org/packages/3.11/bioc/html/MSstats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstats/meta.yaml>`_
+   :links: biotools: :biotools:`msstats`
 
    A set of tools for statistical relative protein significance analysis in DDA\, SRM and DIA experiments.
 

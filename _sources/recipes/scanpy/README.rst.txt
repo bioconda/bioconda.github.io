@@ -16,7 +16,7 @@ scanpy
    :developer docs: http://github.com/theislab/scanpy
    :license: BSD / BSD-3
    :recipe: /`scanpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanpy/meta.yaml>`_
-   :links: doi: :doi:`10.1186/s13059-017-1382-0`
+   :links: doi: :doi:`10.1186/s13059-017-1382-0`, usegalaxy-eu: :usegalaxy-eu:`scanpy_cluster_reduce_dimension`
 
    
 

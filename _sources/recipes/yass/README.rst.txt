@@ -28,12 +28,12 @@ yass
       
       
 
-      ``1.14-1``,  ``1.14-0``
+      ``1.14-2``,  ``1.14-1``,  ``1.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

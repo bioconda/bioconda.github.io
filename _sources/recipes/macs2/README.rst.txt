@@ -15,6 +15,7 @@ macs2
    :homepage: http://github.com/taoliu/MACS/
    :license: BSD / BSD
    :recipe: /`macs2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macs2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macs2/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`peakcalling_macs`
 
    
 

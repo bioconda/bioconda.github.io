@@ -16,7 +16,7 @@ ivar
    :developer docs: https://github.com/andersen-lab/ivar
    :license: GPL-3.0
    :recipe: /`ivar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ivar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ivar/meta.yaml>`_
-   :links: biotools: :biotools:`ivar`
+   :links: biotools: :biotools:`ivar`, usegalaxy-eu: :usegalaxy-eu:`ivar_variants`
 
    
 

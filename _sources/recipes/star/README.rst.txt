@@ -15,7 +15,7 @@ star
    :homepage: https://github.com/alexdobin/STAR
    :license: GPLv3
    :recipe: /`star <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star/meta.yaml>`_
-   :links: biotools: :biotools:`star`
+   :links: biotools: :biotools:`star`, usegalaxy-eu: :usegalaxy-eu:`rna_starsolo`, usegalaxy-eu: :usegalaxy-eu:`rna_star`
 
    
 

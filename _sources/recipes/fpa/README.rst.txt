@@ -26,9 +26,17 @@ fpa
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.1-0``,  ``0.5-2``,  ``0.5-1``,  ``0.4-3``,  ``0.4-2``,  ``0.4-0``,  ``0.3-0``,  ``0.2-1``,  ``0.1.1-1``
+         <details><summary><span class="truncated-version-list"><code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5-2</code>,  <code>0.5-1</code>,  <code>0.4-4</code>,  <code>0.4-3</code>,  <code>0.4-2</code>,  <code>0.4-0</code>,  <code>0.3-0</code>,  </span></summary>
+      
 
+      ``0.5.1-1``,  ``0.5.1-0``,  ``0.5-2``,  ``0.5-1``,  ``0.4-4``,  ``0.4-3``,  ``0.4-2``,  ``0.4-0``,  ``0.3-0``,  ``0.2-1``,  ``0.1.1-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

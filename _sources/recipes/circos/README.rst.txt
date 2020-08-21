@@ -15,7 +15,7 @@ circos
    :homepage: http://circos.ca
    :license: GPL2 / GNU General Public License v2 (GPLv2)
    :recipe: /`circos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circos/meta.yaml>`_
-   :links: biotools: :biotools:`circos`, doi: :doi:`10.1101/gr.092759.109`
+   :links: biotools: :biotools:`circos`, usegalaxy-eu: :usegalaxy-eu:`circos`, doi: :doi:`10.1101/gr.092759.109`
 
    
 

@@ -15,7 +15,7 @@ ccat
    :homepage: http://cmb.gis.a-star.edu.sg/ChIPSeq/paperCCAT.htm
    :license: unknown
    :recipe: /`ccat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat/meta.yaml>`_
-   :links: biotools: :biotools:`CCAT`, doi: :doi:`10.1093/bioinformatics/btq128`
+   :links: biotools: :biotools:`CCAT`, doi: :doi:`10.1093/bioinformatics/btq128`, usegalaxy-eu: :usegalaxy-eu:`peakcalling_ccat`
 
    
 
@@ -28,11 +28,12 @@ ccat
       
       
 
-      ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+      ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

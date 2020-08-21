@@ -15,7 +15,7 @@ bioconductor-cardinal
    :homepage: https://bioconductor.org/packages/3.11/bioc/html/Cardinal.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cardinal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinal/meta.yaml>`_
-   :links: biotools: :biotools:`cardinal`
+   :links: biotools: :biotools:`cardinal`, usegalaxy-eu: :usegalaxy-eu:`cardinal_segmentations`
 
    Implements statistical \& computational tools for analyzing mass spectrometry imaging datasets\, including methods for efficient pre\-processing\, spatial segmentation\, and classification.
 
