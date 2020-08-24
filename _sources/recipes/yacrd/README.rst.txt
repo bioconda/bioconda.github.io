@@ -28,10 +28,10 @@ yacrd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  <code>0.4-1</code>,  <code>0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.4.1-3</code>,  <code>0.4.1-2</code>,  </span></summary>
       
 
-      ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4-1``,  ``0.3-1``,  ``0.2.1-0``,  ``0.2-1``,  ``0.2-0``
+      ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4-1``,  ``0.3-1``,  ``0.2.1-0``,  ``0.2-1``,  ``0.2-0``
 
       
       .. raw:: html

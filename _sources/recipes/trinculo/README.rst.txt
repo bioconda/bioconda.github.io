@@ -30,13 +30,14 @@ trinculo
       
       
 
-      ``0.96-2``,  ``0.96-0``
+      ``0.96-3``,  ``0.96-2``,  ``0.96-0``
 
       
 
    
-   :depends lapack: 
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

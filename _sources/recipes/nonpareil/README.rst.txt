@@ -33,6 +33,8 @@ nonpareil
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
