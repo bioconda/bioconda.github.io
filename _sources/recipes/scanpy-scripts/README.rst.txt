@@ -28,10 +28,10 @@ scanpy-scripts
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-1</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5.post1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-1</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  </span></summary>
       
 
-      ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5.post1-0``,  ``0.2.5-0``,  ``0.2.4.post4-3``,  ``0.2.4.post4-2``,  ``0.2.4.post4-1``,  ``0.2.4.post4-0``,  ``0.2.4.post3-0``,  ``0.2.4.post1-0``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.3-1``,  ``0.0.2-0``
+      ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5.post1-0``,  ``0.2.5-0``,  ``0.2.4.post4-3``,  ``0.2.4.post4-2``,  ``0.2.4.post4-1``,  ``0.2.4.post4-0``,  ``0.2.4.post3-0``,  ``0.2.4.post1-0``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.3-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -41,17 +41,20 @@ scanpy-scripts
 
    
    :depends anndata: 
+   :depends bbknn: ``>=1.3.12``
    :depends click: 
    :depends h5py: 
+   :depends harmonypy: ``>=0.0.5``
    :depends leidenalg: 
    :depends loompy: ``>=2.0.0,<3.0.0``
    :depends louvain: 
    :depends matplotlib-base: 
+   :depends mnnpy: ``>=0.1.9.5``
    :depends multicore-tsne: 
    :depends packaging: 
    :depends pandas: 
    :depends python: ``3.6.*``
-   :depends scanpy: ``>=1.5.1,<1.6.0``
+   :depends scanpy: ``>=1.6.0``
    :depends scipy: 
    :depends umap-learn: ``<0.4.0``
    :requirements:
