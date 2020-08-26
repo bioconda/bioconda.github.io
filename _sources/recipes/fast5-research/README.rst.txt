@@ -28,10 +28,10 @@ fast5-research
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.20-1</code>,  <code>1.2.20-0</code>,  <code>1.2.19-0</code>,  <code>1.2.18-0</code>,  <code>1.2.17-0</code>,  <code>1.2.15-0</code>,  <code>1.2.11-0</code>,  <code>1.2.10-0</code>,  <code>1.2.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.22-0</code>,  <code>1.2.20-1</code>,  <code>1.2.20-0</code>,  <code>1.2.19-0</code>,  <code>1.2.18-0</code>,  <code>1.2.17-0</code>,  <code>1.2.15-0</code>,  <code>1.2.11-0</code>,  <code>1.2.10-0</code>,  </span></summary>
       
 
-      ``1.2.20-1``,  ``1.2.20-0``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.17-0``,  ``1.2.15-0``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.8-0``,  ``1.0.9-1``,  ``1.0.9-0``
+      ``1.2.22-0``,  ``1.2.20-1``,  ``1.2.20-0``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.17-0``,  ``1.2.15-0``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.8-0``,  ``1.0.9-1``,  ``1.0.9-0``
 
       
       .. raw:: html
