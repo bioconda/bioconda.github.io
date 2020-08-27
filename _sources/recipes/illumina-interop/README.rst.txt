@@ -14,7 +14,7 @@ illumina-interop
 
    :homepage: http://illumina.github.io/interop/index.html
    :developer docs: https://github.com/Illumina/interop
-   :license: GPL / GPL-3.0
+   :license: GPL / GPL-3.0-only
    :recipe: /`illumina-interop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illumina-interop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illumina-interop/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ illumina-interop
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.11-0</code>,  <code>1.1.10-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.4-3</code>,  <code>1.1.4-0</code>,  <code>1.0.25-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.12-0</code>,  <code>1.1.11-0</code>,  <code>1.1.10-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.4-3</code>,  <code>1.1.4-0</code>,  </span></summary>
       
 
-      ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-3``,  ``1.1.4-0``,  ``1.0.25-1``,  ``1.0.25-0``
+      ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-3``,  ``1.1.4-0``,  ``1.0.25-1``,  ``1.0.25-0``
 
       
       .. raw:: html

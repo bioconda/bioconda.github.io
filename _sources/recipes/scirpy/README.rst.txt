@@ -29,14 +29,13 @@ scirpy
       
       
 
-      ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends airr: ``>=1.2``
    :depends anndata: ``>=0.7.3``
-   :depends get_version: 
    :depends networkx: 
    :depends numpy: 
    :depends pandas: ``>=0.21``

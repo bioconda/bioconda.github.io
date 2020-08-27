@@ -27,35 +27,43 @@ r-pipette
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.13-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  </span></summary>
+      
 
+      ``0.4.13-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.32``
-   :depends bioconductor-genomicranges: ``>=1.38``
-   :depends bioconductor-iranges: ``>=2.20``
-   :depends bioconductor-rtracklayer: ``>=1.46``
-   :depends bioconductor-s4vectors: ``>=0.24``
-   :depends bioconductor-singlecellexperiment: ``>=1.8``
-   :depends bioconductor-summarizedexperiment: ``>=1.16``
-   :depends r-acidbase: ``>=0.1.4``
-   :depends r-acidgenerics: ``>=0.3.0``
+   :depends bioconductor-biocgenerics: 
+   :depends bioconductor-genomicranges: 
+   :depends bioconductor-iranges: 
+   :depends bioconductor-rtracklayer: 
+   :depends bioconductor-s4vectors: 
+   :depends bioconductor-singlecellexperiment: 
+   :depends bioconductor-summarizedexperiment: 
+   :depends r-acidbase: ``>=0.1.13``
+   :depends r-acidgenerics: ``>=0.3.10``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cli: ``>=2.0``
    :depends r-data.table: ``>=1.12.8``
-   :depends r-gdata: ``>=2.18``
-   :depends r-goalie: ``>=0.4.1``
-   :depends r-jsonlite: ``>=1.6``
+   :depends r-goalie: ``>=0.4.6``
+   :depends r-jsonlite: ``>=1.7``
    :depends r-matrix: ``>=1.2``
    :depends r-readr: ``>=1.3.1``
    :depends r-readxl: ``>=1.3.1``
    :depends r-rio: ``>=0.5.16``
    :depends r-stringr: ``>=1.4``
-   :depends r-tibble: ``>=2.1``
-   :depends r-vroom: ``>=1.2``
-   :depends r-yaml: ``>=2.2``
+   :depends r-syntactic: ``>=0.4.2``
+   :depends r-tibble: ``>=3.0.3``
+   :depends r-vroom: ``>=1.2.1``
+   :depends r-yaml: ``>=2.2.1``
    :requirements:
 
    .. rubric:: Installation

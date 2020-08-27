@@ -35,7 +35,7 @@ phylophlan
       
       
 
-      ``3.0-5``,  ``3.0-4``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+      ``3.0-6``,  ``3.0-5``,  ``3.0-4``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
 
       
 
@@ -47,6 +47,7 @@ phylophlan
    :depends fasttree: ``>=2.1.8``
    :depends iqtree: ``>=1.6.6``
    :depends mafft: ``>=7.310``
+   :depends mash: 
    :depends matplotlib-base: ``>=3.1.0``
    :depends muscle: ``>=3.8.1551``
    :depends numpy: ``>=1.15.4``
