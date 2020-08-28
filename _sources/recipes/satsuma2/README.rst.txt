@@ -27,13 +27,13 @@ satsuma2
       
       
 
-      ``20161123-1``,  ``20161123-0``
+      ``20161123-2``,  ``20161123-1``,  ``20161123-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.2.0``
-   :depends libstdcxx-ng: ``>=7.2.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

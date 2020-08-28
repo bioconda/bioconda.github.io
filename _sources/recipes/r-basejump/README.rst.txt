@@ -29,10 +29,10 @@ r-basejump
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.10-0</code>,  <code>0.12.9-0</code>,  <code>0.12.8-1</code>,  <code>0.12.8-0</code>,  <code>0.12.7-0</code>,  <code>0.12.6-1</code>,  <code>0.12.6-0</code>,  <code>0.12.5-1</code>,  <code>0.12.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.13-0</code>,  <code>0.12.10-0</code>,  <code>0.12.9-0</code>,  <code>0.12.8-1</code>,  <code>0.12.8-0</code>,  <code>0.12.7-0</code>,  <code>0.12.6-1</code>,  <code>0.12.6-0</code>,  <code>0.12.5-1</code>,  </span></summary>
       
 
-      ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-1``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.23-0``,  ``0.11.22-0``,  ``0.11.21-0``,  ``0.11.20-1``,  ``0.11.20-0``,  ``0.11.19-0``,  ``0.11.18-0``,  ``0.11.17-0``,  ``0.11.16-0``,  ``0.11.15-0``,  ``0.11.14-0``,  ``0.11.13-0``,  ``0.11.12-0``,  ``0.11.11-0``,  ``0.11.10-0``,  ``0.11.8-0``,  ``0.11.7-0``,  ``0.11.5-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.9.11-0``,  ``0.9.9-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.5.9-0``,  ``0.5.3-0``,  ``0.1.1-0``
+      ``0.12.13-0``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-1``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.23-0``,  ``0.11.22-0``,  ``0.11.21-0``,  ``0.11.20-1``,  ``0.11.20-0``,  ``0.11.19-0``,  ``0.11.18-0``,  ``0.11.17-0``,  ``0.11.16-0``,  ``0.11.15-0``,  ``0.11.14-0``,  ``0.11.13-0``,  ``0.11.12-0``,  ``0.11.11-0``,  ``0.11.10-0``,  ``0.11.8-0``,  ``0.11.7-0``,  ``0.11.5-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.9.11-0``,  ``0.9.9-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.5.9-0``,  ``0.5.3-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,40 +41,38 @@ r-basejump
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.48``
-   :depends bioconductor-annotationhub: ``>=2.18``
-   :depends bioconductor-biobase: ``>=2.46``
-   :depends bioconductor-biocgenerics: ``>=0.32``
-   :depends bioconductor-biocparallel: ``>=1.20``
-   :depends bioconductor-biomart: ``>=2.42``
-   :depends bioconductor-biostrings: ``>=2.54``
-   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99``
-   :depends bioconductor-ensembldb: ``>=2.10``
-   :depends bioconductor-genomeinfodb: ``>=1.22``
-   :depends bioconductor-genomicfeatures: ``>=1.38``
-   :depends bioconductor-genomicranges: ``>=1.38``
-   :depends bioconductor-iranges: ``>=2.20``
-   :depends bioconductor-s4vectors: ``>=0.24``
-   :depends bioconductor-singlecellexperiment: ``>=1.8``
-   :depends bioconductor-summarizedexperiment: ``>=1.16``
-   :depends r-acidbase: ``>=0.1.9``
-   :depends r-acidgenerics: ``>=0.3.4``
+   :depends bioconductor-annotationhub: 
+   :depends bioconductor-biobase: 
+   :depends bioconductor-biocgenerics: 
+   :depends bioconductor-biocparallel: 
+   :depends bioconductor-biomart: 
+   :depends bioconductor-biostrings: 
+   :depends bioconductor-ensdb.hsapiens.v75: 
+   :depends bioconductor-ensembldb: 
+   :depends bioconductor-genomeinfodb: 
+   :depends bioconductor-genomicfeatures: 
+   :depends bioconductor-genomicranges: 
+   :depends bioconductor-iranges: 
+   :depends bioconductor-s4vectors: 
+   :depends bioconductor-singlecellexperiment: 
+   :depends bioconductor-summarizedexperiment: 
+   :depends r-acidbase: ``>=0.1.14``
+   :depends r-acidgenerics: ``>=0.3.10``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cli: ``>=2.0``
-   :depends r-goalie: ``>=0.4.4``
-   :depends r-knitr: ``>=1.26``
+   :depends r-goalie: ``>=0.4.8``
+   :depends r-knitr: 
    :depends r-magrittr: ``>=1.5``
    :depends r-matrix: ``>=1.2``
-   :depends r-matrixstats: ``>=0.55``
-   :depends r-pipette: ``>=0.4.5``
-   :depends r-r.utils: ``>=2.9``
-   :depends r-rcurl: ``>=1.95``
-   :depends r-rmarkdown: ``>=2.0``
+   :depends r-matrixstats: ``>=0.56``
+   :depends r-pipette: ``>=0.4.13``
+   :depends r-rcurl: 
+   :depends r-rmarkdown: 
    :depends r-scales: ``>=1.1``
    :depends r-sessioninfo: ``>=1.1``
    :depends r-stringr: ``>=1.4``
-   :depends r-syntactic: ``>=0.3.10``
-   :depends r-tibble: ``>=2.1``
+   :depends r-syntactic: ``>=0.4.2``
+   :depends r-tibble: ``>=3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,12 +27,13 @@ ogdf
       
       
 
-      ``201207-1``,  ``201207-0``
+      ``201207-2``,  ``201207-1``,  ``201207-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

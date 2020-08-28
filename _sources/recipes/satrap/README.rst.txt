@@ -28,13 +28,14 @@ satrap
       
       
 
-      ``0.2-1``,  ``0.2-0``
+      ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends openmp: 
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

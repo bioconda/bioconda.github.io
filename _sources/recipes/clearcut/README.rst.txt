@@ -27,11 +27,12 @@ clearcut
       
       
 
-      ``1.0.9-1``,  ``1.0.9-0``
+      ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

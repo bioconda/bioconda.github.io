@@ -30,7 +30,7 @@ cellxgene
       
       
 
-      ``0.16.0-0``
+      ``0.16.2-0``,  ``0.16.0-0``
 
       
 
@@ -58,7 +58,8 @@ cellxgene
    :depends requests: ``>=2.22.0``
    :depends s3fs: ``>=0.4.2``
    :depends scipy: ``>=1.3.0``
-   :depends tiledb: ``>=0.5.9,>=0.6.2``
+   :depends sqlalchemy: 
+   :depends tiledb-py: ``>=0.6.2``
    :requirements:
 
    .. rubric:: Installation

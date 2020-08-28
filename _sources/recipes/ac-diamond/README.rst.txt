@@ -27,13 +27,14 @@ ac-diamond
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends boost: ``>=1.67.0,<1.67.1.0a0``
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends boost-cpp: ``>=1.73.0,<1.73.1.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

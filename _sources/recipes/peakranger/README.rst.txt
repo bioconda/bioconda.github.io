@@ -28,13 +28,14 @@ peakranger
       
       
 
-      ``1.18-3``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``
+      ``1.18-4``,  ``1.18-3``,  ``1.18-2``,  ``1.18-1``,  ``1.18-0``
 
       
 
    
-   :depends boost: ``>=1.66.0,<1.66.1.0a0``
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

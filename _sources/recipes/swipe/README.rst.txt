@@ -34,8 +34,10 @@ swipe
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openmpi: ``>=4.0.4,<4.1.0a0``
-   :depends tbb: 
+   :depends tbb: ``>=2020.1``
    :requirements:
 
    .. rubric:: Installation

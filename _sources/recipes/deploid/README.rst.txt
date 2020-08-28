@@ -28,11 +28,13 @@ deploid
       
       
 
-      ``v0.5-1``,  ``v0.5-0``
+      ``0.5-0``,  ``v0.5-1``,  ``v0.5-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

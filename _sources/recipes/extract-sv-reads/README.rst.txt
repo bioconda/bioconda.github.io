@@ -27,16 +27,15 @@ extract-sv-reads
       
       
 
-      ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.2-0``,  ``1.1.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.2-0``,  ``1.1.0-0``
 
       
 
    
-   :depends bzip2: ``>=1.0.6,<2.0a0``
-   :depends curl: ``>=7.59.0,<8.0a0``
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends xz: ``>=5.2.4,<5.3.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

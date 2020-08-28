@@ -27,12 +27,12 @@ consel
       
       
 
-      ``0.20-0``
+      ``0.20-1``,  ``0.20-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

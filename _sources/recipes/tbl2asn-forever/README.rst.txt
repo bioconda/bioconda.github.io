@@ -27,12 +27,12 @@ tbl2asn-forever
       
       
 
-      ``25.7.1f-0``,  ``25.7f-0``
+      ``25.7.2f-0``,  ``25.7.1f-0``,  ``25.7f-0``
 
       
 
    
-   :depends libfaketime: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends libidn11: 
    :depends zlib: 
    :requirements:
