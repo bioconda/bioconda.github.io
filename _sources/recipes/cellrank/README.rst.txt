@@ -33,7 +33,7 @@ cellrank
       
       
 
-      ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
+      ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
 
       
 
@@ -41,10 +41,11 @@ cellrank
    :depends anndata: ``>=0.7.2``
    :depends docrep: ``>=0.2.7``
    :depends future_fstrings: 
+   :depends ipywidgets: ``>=7.5.1``
    :depends joblib: ``>=0.13.1``
    :depends matplotlib-base: ``>=3.3.0``
    :depends networkx: ``>=2.2``
-   :depends numba: ``>=0.50.1``
+   :depends numba: ``>=0.51.0``
    :depends numpy: ``>=1.19.1``
    :depends pandas: ``>=0.23.4``
    :depends pygam: ``>=0.8.0``
@@ -93,12 +94,12 @@ cellrank
       
       
 
-      ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
+      ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
 
       
 
    
-   :depends cellrank: ``1.0.0rc4 py_0``
+   :depends cellrank: ``1.0.0rc6 py_0``
    :depends mpi4py: ``>=3.0.3``
    :depends openmpi: ``>=3.0.3``
    :depends petsc: ``>=3.13.0``

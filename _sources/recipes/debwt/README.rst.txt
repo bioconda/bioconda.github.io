@@ -16,7 +16,6 @@ debwt
    It is well\-suited to run on multiple core servers or clusters to
    construct the BWT of large collections of genome sequences.
 
-
    :homepage: https://github.com/DixianZhu/deBWT
    :license: Unknown
    :recipe: /`debwt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/debwt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/debwt/meta.yaml>`_

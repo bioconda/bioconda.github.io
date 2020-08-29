@@ -27,12 +27,13 @@ apt-probeset-summarize
       
       
 
-      ``2.10.0-0``
+      ``2.10.0-1``,  ``2.10.0-0``
 
       
 
    
-   :depends libstdcxx-ng: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,13 +27,13 @@ soapdenovo-trans
       
       
 
-      ``1.04-2``,  ``1.04-1``,  ``1.04-0``
+      ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
-   :depends zlib: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

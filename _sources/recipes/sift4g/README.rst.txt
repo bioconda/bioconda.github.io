@@ -27,12 +27,13 @@ sift4g
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation
