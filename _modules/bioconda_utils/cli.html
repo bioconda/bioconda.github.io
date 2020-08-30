@@ -639,13 +639,13 @@
      <span class="n">help</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;Skip updating/bumping packges that are already built with</span>
 <span class="s2">     compatible pinnings in one of the given channels in addition to those</span>
 <span class="s2">     listed in &#39;config&#39;.&quot;&quot;&quot;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--bump-only-python&#39;</span><span class="p">,</span>
-     <span class="n">help</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;Bump package build numbers even if the only applicable pinning</span>
-<span class="s2">     change is the python version. This is generally required unless you plan</span>
-<span class="s2">     on building everything.&quot;&quot;&quot;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--skip-variants&#39;</span><span class="p">,</span>
      <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;*&#39;</span><span class="p">,</span>
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Skip packages that use one of the given variant keys.&#39;</span><span class="p">)</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--max-bumps&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span>
+     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Maximum number of recipes that will be updated.&#39;</span><span class="p">)</span>
+<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--no-leaves&#39;</span><span class="p">,</span>
+     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Only update recipes with dependent packages.&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--cache&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;To speed up debugging, use repodata cached locally in</span>
 <span class="s1">     the provided filename. If the file does not exist, it will be created the</span>
 <span class="s1">     first time.&#39;&#39;&#39;</span><span class="p">)</span>
@@ -654,8 +654,9 @@
 <span class="nd">@enable_debugging</span><span class="p">()</span>
 <span class="k">def</span> <span class="nf">update_pinning</span><span class="p">(</span><span class="n">recipe_folder</span><span class="p">,</span> <span class="n">config</span><span class="p">,</span> <span class="n">packages</span><span class="o">=</span><span class="s2">&quot;*&quot;</span><span class="p">,</span>
                    <span class="n">skip_additional_channels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-                   <span class="n">bump_only_python</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
                    <span class="n">skip_variants</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                   <span class="n">max_bumps</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                   <span class="n">no_leaves</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
                    <span class="n">cache</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Bump a package build number and all dependencies as required due</span>
 <span class="sd">    to a change in pinnings</span>
@@ -678,8 +679,15 @@
         <span class="k">if</span> <span class="n">recip</span><span class="o">.</span><span class="n">reldir</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">blacklist</span><span class="p">)</span>
 
     <span class="n">dag</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">filter_recipe_dag</span><span class="p">(</span><span class="n">dag</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="p">[])</span>
+    <span class="k">if</span> <span class="n">no_leaves</span><span class="p">:</span>
+        <span class="n">dag</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">subgraph</span><span class="p">(</span>
+            <span class="n">dag</span><span class="p">,</span>
+            <span class="p">(</span><span class="n">node</span> <span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">degree</span> <span class="ow">in</span> <span class="n">dag</span><span class="o">.</span><span class="n">out_degree_iter</span><span class="p">()</span> <span class="k">if</span> <span class="n">degree</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">),</span>
+        <span class="p">)</span>
 
     <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Considering </span><span class="si">%i</span><span class="s2"> recipes&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">dag</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">max_bumps</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">max_bumps</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">max_bumps</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">dag</span><span class="p">)</span>
 
     <span class="n">stats</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">()</span>
     <span class="n">hadErrors</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
@@ -691,16 +699,24 @@
 
     <span class="n">State</span> <span class="o">=</span> <span class="n">update_pinnings</span><span class="o">.</span><span class="n">State</span>
 
+    <span class="n">num_recipes_needing_bump</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="k">for</span> <span class="n">status</span><span class="p">,</span> <span class="n">recip</span> <span class="ow">in</span> <span class="n">utils</span><span class="o">.</span><span class="n">parallel_iter</span><span class="p">(</span><span class="n">needs_bump</span><span class="p">,</span> <span class="n">dag</span><span class="p">,</span> <span class="s2">&quot;Processing...&quot;</span><span class="p">):</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Recipe </span><span class="si">%s</span><span class="s2"> status: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recip</span><span class="p">,</span> <span class="n">status</span><span class="p">)</span>
         <span class="n">stats</span><span class="p">[</span><span class="n">status</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
-        <span class="k">if</span> <span class="n">status</span><span class="o">.</span><span class="n">needs_bump</span><span class="p">(</span><span class="n">bump_only_python</span><span class="p">):</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Bumping </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recip</span><span class="p">)</span>
-            <span class="n">recip</span><span class="o">.</span><span class="n">reset_buildnumber</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">recip</span><span class="p">[</span><span class="s1">&#39;build&#39;</span><span class="p">][</span><span class="s1">&#39;number&#39;</span><span class="p">])</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-            <span class="n">recip</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">status</span><span class="o">.</span><span class="n">needs_bump</span><span class="p">():</span>
+            <span class="n">num_recipes_needing_bump</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">num_recipes_needing_bump</span> <span class="o">&lt;=</span> <span class="n">max_bumps</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Bumping </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recip</span><span class="p">)</span>
+                <span class="n">recip</span><span class="o">.</span><span class="n">reset_buildnumber</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">recip</span><span class="p">[</span><span class="s1">&#39;build&#39;</span><span class="p">][</span><span class="s1">&#39;number&#39;</span><span class="p">])</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+                <span class="n">recip</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+                    <span class="s2">&quot;Bumping </span><span class="si">%s</span><span class="s2"> -- theoretically (</span><span class="si">%d</span><span class="s2"> out of </span><span class="si">%d</span><span class="s2"> allowed bumps)&quot;</span><span class="p">,</span>
+                    <span class="n">recip</span><span class="p">,</span> <span class="n">num_recipes_needing_bump</span><span class="p">,</span> <span class="n">max_bumps</span><span class="p">,</span>
+                <span class="p">)</span>
         <span class="k">elif</span> <span class="n">status</span><span class="o">.</span><span class="n">failed</span><span class="p">():</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Failed to inspect </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recip</span><span class="p">)</span>
-            <span class="n">hadErrors</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">recipe</span><span class="p">)</span>
+            <span class="n">hadErrors</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">recip</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;OK: </span><span class="si">%s</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">recip</span><span class="p">)</span>
 
@@ -711,6 +727,11 @@
     <span class="c1">#print(&quot;  A rebuild for a new python version: {}&quot;.format(stats[STATE.bump_python]))</span>
     <span class="c1">#print(&quot;  A build number increment: {}&quot;.format(stats[STATE.bump]))</span>
 
+    <span class="k">if</span> <span class="n">num_recipes_needing_bump</span> <span class="o">&gt;</span> <span class="n">max_bumps</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;Only bumped </span><span class="si">{</span><span class="n">max_bumps</span><span class="si">}</span><span class="s2"> out of </span><span class="si">{</span><span class="n">num_recipes_needing_bump</span><span class="si">}</span><span class="s2"> recipes&quot;</span>
+            <span class="s2">&quot; that needed a build number bump.&quot;</span>
+        <span class="p">)</span>
     <span class="k">if</span> <span class="n">hadErrors</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> packages produced an error &quot;</span>
               <span class="s2">&quot;in conda-build: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">hadErrors</span><span class="p">),</span> <span class="nb">list</span><span class="p">(</span><span class="n">hadErrors</span><span class="p">)))</span>
@@ -891,10 +912,6 @@
 <span class="s1">     Update all recipes, including those having deps in need or rebuild.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s2">&quot;--no-check-version-update&quot;</span><span class="p">,</span>
      <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Don&#39;t check for version updates to recipes&#39;&#39;&#39;</span><span class="p">)</span>
-<span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--bump-only-python&#39;</span><span class="p">,</span>
-     <span class="n">help</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;Bump package build numbers even if the only applicable pinning</span>
-<span class="s2">     change is the python version. This is generally required unless you plan</span>
-<span class="s2">     on building everything.&quot;&quot;&quot;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--sign&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s2">&quot;?&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Enable signing. Optionally takes keyid.&#39;&#39;&#39;</span><span class="p">)</span>
 <span class="nd">@arg</span><span class="p">(</span><span class="s1">&#39;--commit-as&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;Set user and email to use for committing. &#39;&#39;&#39;</span>
      <span class="sd">&#39;&#39;&#39;Takes exactly two arguments.&#39;&#39;&#39;</span><span class="p">)</span>
@@ -911,7 +928,7 @@
              <span class="n">max_updates</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">dry_run</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">no_check_pinnings</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">no_follow_graph</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">no_check_version_update</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-             <span class="n">no_check_pending_deps</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bump_only_python</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+             <span class="n">no_check_pending_deps</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
              <span class="n">sign</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">commit_as</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Updates recipes in recipe_folder</span>
@@ -992,7 +1009,7 @@
     <span class="c1"># Test if due to pinnings, the package hash would change and a rebuild</span>
     <span class="c1"># has become necessary. If so, bump the buildnumber.</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">no_check_pinnings</span><span class="p">:</span>
-        <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">CheckPinning</span><span class="p">,</span> <span class="n">bump_only_python</span><span class="p">)</span>
+        <span class="n">scanner</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">autobump</span><span class="o">.</span><span class="n">CheckPinning</span><span class="p">)</span>
 
     <span class="c1"># Check for new versions and update the SHA afterwards</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">no_check_version_update</span><span class="p">:</span>

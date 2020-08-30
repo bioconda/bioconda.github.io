@@ -14,9 +14,10 @@ update\_pinnings
    
       check
       has_invalid_build_string
+      have_noarch_python_build_number
       have_variant
-      have_variant_but_for_python
       skip_for_variants
+      will_build_only_missing
       will_build_variant
    
    

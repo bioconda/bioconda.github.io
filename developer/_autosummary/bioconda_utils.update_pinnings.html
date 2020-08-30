@@ -151,16 +151,19 @@
 </dl>
 </p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_variant" title="bioconda_utils.update_pinnings.have_variant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_variant</span></code></a>(meta)</p></td>
-<td><p>Checks if we have an exact match to name/version/buildstring</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_noarch_python_build_number" title="bioconda_utils.update_pinnings.have_noarch_python_build_number"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_noarch_python_build_number</span></code></a>(meta)</p></td>
+<td><p>Checks if we have a noarch:python build with same version+build_number</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_variant_but_for_python" title="bioconda_utils.update_pinnings.have_variant_but_for_python"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_variant_but_for_python</span></code></a>(meta)</p></td>
-<td><p>Checks if we have an exact or <code class="docutils literal notranslate"><span class="pre">py[23]_</span></code> prefixed match to name/version/buildstring</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.have_variant" title="bioconda_utils.update_pinnings.have_variant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">have_variant</span></code></a>(meta)</p></td>
+<td><p>Checks if we have an exact match to name/version/buildstring</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.skip_for_variants" title="bioconda_utils.update_pinnings.skip_for_variants"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skip_for_variants</span></code></a>(meta, variant_keys)</p></td>
 <td><p>Check if the recipe uses any given variant keys</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.will_build_variant" title="bioconda_utils.update_pinnings.will_build_variant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">will_build_variant</span></code></a>(meta)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.will_build_only_missing" title="bioconda_utils.update_pinnings.will_build_only_missing"><code class="xref py py-obj docutils literal notranslate"><span class="pre">will_build_only_missing</span></code></a>(metas)</p></td>
+<td><p>Checks if only new builds will be added (no divergent build ids exist)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.update_pinnings.will_build_variant" title="bioconda_utils.update_pinnings.will_build_variant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">will_build_variant</span></code></a>(meta)</p></td>
 <td><p>Check if the recipe variant will be built as currently rendered</p></td>
 </tr>
 </tbody>
@@ -195,12 +198,6 @@
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="bioconda_utils.update_pinnings.State.BUMP_PYTHON_ONLY">
-<code class="sig-name descname">BUMP_PYTHON_ONLY</code><em class="property"> = 32</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.BUMP_PYTHON_ONLY" title="Permalink to this definition">¶</a></dt>
-<dd><p>Recipe has a variant that needs bumping only for python</p>
-</dd></dl>
-
-<dl class="py attribute">
 <dt id="bioconda_utils.update_pinnings.State.FAIL">
 <code class="sig-name descname">FAIL</code><em class="property"> = 1</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.FAIL" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe had a failure rendering</p>
@@ -210,6 +207,17 @@
 <dt id="bioconda_utils.update_pinnings.State.HAVE">
 <code class="sig-name descname">HAVE</code><em class="property"> = 4</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.HAVE" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe has a variant that exists already</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="bioconda_utils.update_pinnings.State.HAVE_NOARCH_PYTHON">
+<code class="sig-name descname">HAVE_NOARCH_PYTHON</code><em class="property"> = 32</em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.HAVE_NOARCH_PYTHON" title="Permalink to this definition">¶</a></dt>
+<dd><p>python variant that exists already</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Recipe has a noarch</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py attribute">
@@ -231,14 +239,11 @@
 
 <dl class="py method">
 <dt id="bioconda_utils.update_pinnings.State.needs_bump">
-<code class="sig-name descname">needs_bump</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">bump_python_only</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State.needs_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.needs_bump" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">needs_bump</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State.needs_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.needs_bump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks if the state indicates that the recipe needs to be bumped</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>bump_python_only</strong> – FIXME</p>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -269,6 +274,23 @@
 </dd></dl>
 
 <dl class="py function">
+<dt id="bioconda_utils.update_pinnings.have_noarch_python_build_number">
+<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">have_noarch_python_build_number</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">meta</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#have_noarch_python_build_number"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.have_noarch_python_build_number" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if we have a noarch:python build with same version+build_number</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>meta</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>) – Variant MetaData object</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>python and version+build_number exists already in repodata</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>True if noarch</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
 <dt id="bioconda_utils.update_pinnings.have_variant">
 <code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">have_variant</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">meta</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#have_variant"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.have_variant" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks if we have an exact match to name/version/buildstring</p>
@@ -286,25 +308,6 @@
 </dd></dl>
 
 <dl class="py function">
-<dt id="bioconda_utils.update_pinnings.have_variant_but_for_python">
-<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">have_variant_but_for_python</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">meta</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#have_variant_but_for_python"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.have_variant_but_for_python" title="Permalink to this definition">¶</a></dt>
-<dd><p>Checks if we have an exact or <code class="docutils literal notranslate"><span class="pre">py[23]_</span></code> prefixed match to
-name/version/buildstring</p>
-<p>Ignores osx.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>meta</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>) – Variant MetaData object</p>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
-</dd>
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>True if FIXME</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
 <dt id="bioconda_utils.update_pinnings.skip_for_variants">
 <code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">skip_for_variants</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">meta</span></em>, <em class="sig-param"><span class="n">variant_keys</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#skip_for_variants"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.skip_for_variants" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if the recipe uses any given variant keys</p>
@@ -317,6 +320,23 @@ name/version/buildstring</p>
 </dd>
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p>True if any variant key from variant_keys is used</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="bioconda_utils.update_pinnings.will_build_only_missing">
+<code class="sig-prename descclassname">bioconda_utils.update_pinnings.</code><code class="sig-name descname">will_build_only_missing</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metas</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#will_build_only_missing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.will_build_only_missing" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if only new builds will be added (no divergent build ids exist)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>metas</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>]) – List of Variant MetaData objects</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>True if no divergent build strings exist in repodata</p>
 </dd>
 </dl>
 </dd></dl>

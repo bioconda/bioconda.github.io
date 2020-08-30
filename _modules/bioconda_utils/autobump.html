@@ -489,10 +489,9 @@
 <div class="viewcode-block" id="CheckPinning"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.CheckPinning">[docs]</a><span class="k">class</span> <span class="nc">CheckPinning</span><span class="p">(</span><span class="n">Filter</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Bump recipes in need of rebuild after pinning changes&quot;&quot;&quot;</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">,</span> <span class="n">bump_only_python</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">scanner</span><span class="p">:</span> <span class="n">Scanner</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">scanner</span> <span class="o">=</span> <span class="n">scanner</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">build_config</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_conda_build_config</span><span class="p">()</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">bump_only_python</span> <span class="o">=</span> <span class="n">bump_only_python</span>
 
 <div class="viewcode-block" id="CheckPinning.match_version"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.CheckPinning.match_version">[docs]</a>    <span class="nd">@staticmethod</span>
     <span class="k">def</span> <span class="nf">match_version</span><span class="p">(</span><span class="n">spec</span><span class="p">,</span> <span class="n">version</span><span class="p">):</span>
@@ -514,7 +513,7 @@
 <div class="viewcode-block" id="CheckPinning.apply"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.CheckPinning.apply">[docs]</a>    <span class="k">async</span> <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">:</span> <span class="n">Recipe</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">reason</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">scanner</span><span class="o">.</span><span class="n">run_sp</span><span class="p">(</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_sp_apply</span><span class="p">,</span>
-            <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">build_config</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bump_only_python</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
+            <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">build_config</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
         <span class="p">)</span>
         <span class="k">if</span> <span class="n">reason</span><span class="p">:</span>
             <span class="n">recipe</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;pinning&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">reason</span>
@@ -525,9 +524,9 @@
 
     <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">_sp_apply</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">config</span><span class="p">,</span> <span class="n">bop</span><span class="p">,</span> <span class="n">recipe</span> <span class="o">=</span> <span class="n">data</span>
+        <span class="n">config</span><span class="p">,</span> <span class="n">recipe</span> <span class="o">=</span> <span class="n">data</span>
         <span class="n">status</span> <span class="o">=</span> <span class="n">update_pinnings</span><span class="o">.</span><span class="n">check</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">build_config</span><span class="o">=</span><span class="n">config</span><span class="p">,</span> <span class="n">keep_metas</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">status</span><span class="o">.</span><span class="n">needs_bump</span><span class="p">(</span><span class="n">bop</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">status</span><span class="o">.</span><span class="n">needs_bump</span><span class="p">():</span>
             <span class="n">metas</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">conda_render</span><span class="p">(</span><span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">)</span>
             <span class="n">reason</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">find_reason</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span> <span class="n">metas</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>

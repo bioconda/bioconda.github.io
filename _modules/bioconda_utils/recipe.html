@@ -120,6 +120,7 @@
 <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
 <span class="kn">from</span> <span class="nn">contextlib</span> <span class="kn">import</span> <span class="n">redirect_stdout</span><span class="p">,</span> <span class="n">redirect_stderr</span>
 <span class="kn">from</span> <span class="nn">copy</span> <span class="kn">import</span> <span class="n">deepcopy</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
 <span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Pattern</span>
 
 
@@ -263,6 +264,9 @@
         <span class="c1">#: Parsed recipe YAML</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
 
+        <span class="bp">self</span><span class="o">.</span><span class="n">conda_build_config</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">build_scripts</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+
         <span class="c1"># These will be filled in by load_from_string()</span>
         <span class="c1">#: Lines of the raw recipe file</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">meta_yaml</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
@@ -308,6 +312,32 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">render</span><span class="p">()</span>
         <span class="k">return</span> <span class="bp">self</span></div>
 
+    <span class="k">def</span> <span class="nf">read_conda_build_config</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># Cache contents of conda_build_config.yaml for conda_render.</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="s1">&#39;conda_build_config.yaml&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">path</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">conda_build_config</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">read_text</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">conda_build_config</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+
+    <span class="k">def</span> <span class="nf">read_build_scripts</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># Cache contents of build scripts for conda_render since conda-build</span>
+        <span class="c1"># inspects build scripts for used variant variables.</span>
+        <span class="n">scripts</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;build.sh&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span>
+            <span class="n">output</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;script&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">output</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;outputs&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">()</span>
+        <span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">build_scripts</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">script</span> <span class="ow">in</span> <span class="n">scripts</span><span class="p">:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">script</span> <span class="ow">or</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">sep</span> <span class="ow">in</span> <span class="n">script</span><span class="p">:</span>
+                <span class="c1"># Only support flat folder structure.</span>
+                <span class="k">continue</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dir</span><span class="p">,</span> <span class="n">script</span><span class="p">)</span>
+                <span class="n">content</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">read_text</span><span class="p">()</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">build_scripts</span><span class="p">[</span><span class="n">script</span><span class="p">]</span> <span class="o">=</span> <span class="n">content</span>
+
 <div class="viewcode-block" id="Recipe.from_file"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.from_file">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_file</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">recipe_dir</span><span class="p">,</span> <span class="n">recipe_fname</span><span class="p">,</span> <span class="n">return_exceptions</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;Recipe&quot;</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Create new `Recipe` object from file</span>
@@ -327,6 +357,18 @@
             <span class="k">if</span> <span class="n">return_exceptions</span><span class="p">:</span>
                 <span class="k">return</span> <span class="n">exc</span>
             <span class="k">raise</span> <span class="n">exc</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">return_exceptions</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">exc</span>
+            <span class="k">raise</span> <span class="n">exc</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">read_conda_build_config</span><span class="p">()</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">return_exceptions</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">exc</span>
+            <span class="k">raise</span> <span class="n">exc</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">recipe</span><span class="o">.</span><span class="n">read_build_scripts</span><span class="p">()</span>
         <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
             <span class="k">if</span> <span class="n">return_exceptions</span><span class="p">:</span>
                 <span class="k">return</span> <span class="n">exc</span>
@@ -812,6 +854,14 @@
 
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s1">&#39;meta.yaml&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">tmpfile</span><span class="p">:</span>
                 <span class="n">tmpfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dump</span><span class="p">())</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">conda_build_config</span><span class="p">:</span>
+            <span class="n">cbc_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s2">&quot;conda_build_config.yaml&quot;</span><span class="p">)</span>
+            <span class="n">cbc_path</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">conda_build_config</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">script</span><span class="p">,</span> <span class="n">content</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_scripts</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">script_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_conda_tempdir</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">script</span><span class="p">)</span>
+            <span class="n">script_path</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
 
         <span class="n">old_exit</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">exit</span>
         <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">,</span> <span class="n">types</span><span class="o">.</span><span class="n">FunctionType</span><span class="p">):</span>

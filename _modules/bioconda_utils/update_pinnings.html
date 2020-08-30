@@ -105,7 +105,9 @@
 <span class="sd">&quot;&quot;&quot;</span>
 
 <span class="kn">import</span> <span class="nn">enum</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">chain</span>
 <span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">re</span>
 <span class="kn">import</span> <span class="nn">string</span>
 
 <span class="kn">from</span> <span class="nn">.utils</span> <span class="kn">import</span> <span class="n">RepoData</span>
@@ -114,12 +116,21 @@
 <span class="kn">from</span> <span class="nn">conda_build.metadata</span> <span class="kn">import</span> <span class="n">trim_build_only_deps</span>
 
 <span class="c1"># for type checking</span>
-<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">AbstractSet</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">AbstractSet</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Set</span>
 <span class="kn">from</span> <span class="nn">.recipe</span> <span class="kn">import</span> <span class="n">Recipe</span><span class="p">,</span> <span class="n">RecipeError</span>
 <span class="kn">from</span> <span class="nn">conda_build.metadata</span> <span class="kn">import</span> <span class="n">MetaData</span>
 
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>  <span class="c1"># pylint: disable=invalid-name</span>
+
+
+<span class="k">def</span> <span class="nf">_get_build_variants</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Set</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="c1"># This is the same behavior as in</span>
+    <span class="c1"># conda_build.metadata.Metadata.get_hash_contents but without leaving out</span>
+    <span class="c1"># &quot;build_string_excludes&quot; (python, r_base, etc.).</span>
+    <span class="n">dependencies</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">get_used_vars</span><span class="p">())</span>
+    <span class="n">trim_build_only_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">dependencies</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">dependencies</span>
 
 
 <div class="viewcode-block" id="skip_for_variants"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.skip_for_variants">[docs]</a><span class="k">def</span> <span class="nf">skip_for_variants</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">,</span> <span class="n">variant_keys</span><span class="p">:</span> <span class="n">AbstractSet</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
@@ -131,11 +142,7 @@
 <span class="sd">    Returns:</span>
 <span class="sd">      True if any variant key from variant_keys is used</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># This is the same behavior as in</span>
-    <span class="c1"># conda_build.metadata.Metadata.get_hash_contents but without leaving out</span>
-    <span class="c1"># &quot;build_string_excludes&quot; (python, r_base, etc.).</span>
-    <span class="n">dependencies</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">get_used_vars</span><span class="p">())</span>
-    <span class="n">trim_build_only_deps</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">dependencies</span><span class="p">)</span>
+    <span class="n">dependencies</span> <span class="o">=</span> <span class="n">_get_build_variants</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span>
 
     <span class="k">return</span> <span class="ow">not</span> <span class="n">dependencies</span><span class="o">.</span><span class="n">isdisjoint</span><span class="p">(</span><span class="n">variant_keys</span><span class="p">)</span></div>
 
@@ -165,6 +172,121 @@
     <span class="k">return</span> <span class="n">res</span></div>
 
 
+<span class="n">_legacy_build_string_prefixes</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    ^</span>
+<span class="sd">    (</span>
+<span class="sd">        (?P&lt;numpy&gt;    np   [0-9]{2,9}) |</span>
+<span class="sd">        (?P&lt;python&gt;   py   [0-9]{2,9}) |</span>
+<span class="sd">        (?P&lt;perl&gt;     pl   [0-9]{2,9}) |</span>
+<span class="sd">        (?P&lt;lua&gt;      lua  [0-9]{2,9}) |</span>
+<span class="sd">        (?P&lt;r_base&gt;   r    [0-9]{2,9}) |</span>
+<span class="sd">        (?P&lt;mro_base&gt; mro  [0-9]{3,9})</span>
+<span class="sd">    )*</span>
+<span class="sd">    &#39;&#39;&#39;</span><span class="p">,</span>
+    <span class="n">re</span><span class="o">.</span><span class="n">X</span><span class="p">,</span>
+<span class="p">)</span>
+
+
+<span class="c1"># TODO: clean this mess up</span>
+<span class="k">def</span> <span class="nf">_have_partially_matching_build_id</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+    <span class="c1"># Stupid legacy special handling:</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
+        <span class="s1">&#39;build&#39;</span><span class="p">,</span>
+        <span class="n">name</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">version</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span>
+        <span class="n">build_number</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">build_number</span><span class="p">(),</span>
+        <span class="n">platform</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;linux&#39;</span><span class="p">,</span> <span class="s1">&#39;noarch&#39;</span><span class="p">],</span>
+    <span class="p">)</span>
+    <span class="n">is_noarch</span> <span class="o">=</span> <span class="nb">bool</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">noarch</span><span class="p">)</span>
+    <span class="n">current_build_id</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">()</span>
+    <span class="n">current_matches</span> <span class="o">=</span> <span class="n">_legacy_build_string_prefixes</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">current_build_id</span><span class="p">)</span>
+    <span class="n">current_prefixes</span> <span class="o">=</span> <span class="n">current_matches</span><span class="o">.</span><span class="n">groupdict</span><span class="p">()</span>
+    <span class="c1"># conda-build add &quot;special&quot; substrings for some packages to the build</span>
+    <span class="c1"># string (e.g., &quot;py38&quot;, &quot;pl526&quot;, ...). When we use `bypass_env_check` then</span>
+    <span class="c1"># it does not add those substrings somehow (?).</span>
+    <span class="c1"># But during the actual build, it adds those substrings even for run-only</span>
+    <span class="c1"># dependencies (see &quot;blast&quot; recipe with its &quot;perl&quot; run-dep for example).</span>
+    <span class="c1">#</span>
+    <span class="c1"># FIXME: The following is probably how it _should_ be done.</span>
+    <span class="c1">#  But we still have a lot of recipes that only define a requirements/build</span>
+    <span class="c1">#  without a requirements/host section.  conda-build seems to do create</span>
+    <span class="c1">#  host/build env how it sees fit then.  E.g.:</span>
+    <span class="c1">#   conda search &#39;gmap=2017.10.30[build_number=6,subdir=linux-64]&#39;|tail -n1</span>
+    <span class="c1">#   Loading channels: done</span>
+    <span class="c1">#   # Name                       Version           Build  Channel</span>
+    <span class="c1">#   gmap                      2017.10.30      h2f06484_6  bioconda</span>
+    <span class="c1">#   $ conda search &#39;gmap=2017.10.30[build_number=6,subdir=osx-64]&#39;|tail -n1</span>
+    <span class="c1">#   Loading channels: done</span>
+    <span class="c1">#   # Name                       Version           Build  Channel</span>
+    <span class="c1">#   gmap                      2017.10.30 pl526h977ceac_6  bioconda</span>
+    <span class="c1">#</span>
+    <span class="c1"># build_deps = [</span>
+    <span class="c1">#     dep.split()[0].replace(&#39;-&#39;, &#39;_&#39;)</span>
+    <span class="c1">#     for dep in</span>
+    <span class="c1">#     chain(</span>
+    <span class="c1">#         meta.get_value(&#39;requirements/build&#39;, []),</span>
+    <span class="c1">#         meta.get_value(&#39;requirements/host&#39;, []),</span>
+    <span class="c1">#     )</span>
+    <span class="c1"># ]</span>
+    <span class="c1"># # noarch:python is handled in have_noarch_python_build_number</span>
+    <span class="c1"># # but we might have noarch:generic recipes that use python.</span>
+    <span class="c1"># # It probably doesn&#39;t matter which python is chosen then, so</span>
+    <span class="c1"># # we also trim the &quot;py*&quot; prefix in that case here.</span>
+    <span class="c1"># if is_noarch and current_prefixes[&#39;python&#39;]:</span>
+    <span class="c1">#     current_build_id = current_build_id.replace(current_prefixes[&#39;python&#39;], &#39;&#39;)</span>
+    <span class="c1">#</span>
+    <span class="c1"># def is_matching_trimmed_build_id(build_id, current_build_id):</span>
+    <span class="c1">#     matches = _legacy_build_string_prefixes.match(build_id)</span>
+    <span class="c1">#     trimmed_build_id = build_id</span>
+    <span class="c1">#     for prefix_key, prefix in matches.groupdict().items():</span>
+    <span class="c1">#         if prefix:</span>
+    <span class="c1">#             if prefix_key in build_deps:</span>
+    <span class="c1">#                 continue</span>
+    <span class="c1">#             if not (is_noarch and prefix_key == &#39;python&#39;):</span>
+    <span class="c1">#                 continue</span>
+    <span class="c1">#             trimmed_build_id = trimmed_build_id.replace(prefix, &#39;&#39;)</span>
+    <span class="c1">#     if trimmed_build_id.startswith(&#39;_&#39;):</span>
+    <span class="c1">#         # If we trimmed everything but the number, no &#39;_&#39; is inserted.</span>
+    <span class="c1">#         trimmed_build_id = trimmed_build_id[1:]</span>
+    <span class="c1">#     if trimmed_build_id == current_build_id:</span>
+    <span class="c1">#         return True</span>
+    <span class="c1">#     return False</span>
+    <span class="k">def</span> <span class="nf">is_matching_trimmed_build_id</span><span class="p">(</span><span class="n">build_id</span><span class="p">,</span> <span class="n">current_build_id</span><span class="p">):</span>
+        <span class="n">matches</span> <span class="o">=</span> <span class="n">_legacy_build_string_prefixes</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">build_id</span><span class="p">)</span>
+        <span class="n">trimmed_build_id</span> <span class="o">=</span> <span class="n">build_id</span>
+        <span class="n">trimmed_current_build_id</span> <span class="o">=</span> <span class="n">current_build_id</span>
+        <span class="k">for</span> <span class="n">prefix_key</span><span class="p">,</span> <span class="n">prefix</span> <span class="ow">in</span> <span class="n">matches</span><span class="o">.</span><span class="n">groupdict</span><span class="p">()</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">current_prefix</span> <span class="o">=</span> <span class="n">current_prefixes</span><span class="p">[</span><span class="n">prefix_key</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">prefix</span> <span class="o">!=</span> <span class="n">current_prefix</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">prefix</span> <span class="ow">and</span> <span class="n">current_prefix</span><span class="p">:</span>
+                    <span class="c1"># noarch:python is handled in have_noarch_python_build_number</span>
+                    <span class="c1"># but we might have noarch:generic recipes that use python.</span>
+                    <span class="c1"># It probably doesn&#39;t matter which python is chosen then, so</span>
+                    <span class="c1"># we also trim the &quot;py*&quot; prefix in that case here.</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">is_noarch</span> <span class="ow">and</span> <span class="n">prefix_key</span> <span class="o">==</span> <span class="s1">&#39;python&#39;</span><span class="p">):</span>
+                        <span class="k">return</span> <span class="kc">False</span>
+            <span class="k">if</span> <span class="n">prefix</span><span class="p">:</span>
+                <span class="n">trimmed_build_id</span> <span class="o">=</span> <span class="n">trimmed_build_id</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">current_prefix</span><span class="p">:</span>
+                <span class="n">trimmed_current_build_id</span> <span class="o">=</span> <span class="n">trimmed_current_build_id</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">current_prefix</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">trimmed_build_id</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">):</span>
+            <span class="c1"># If we trimmed everything but the number, no &#39;_&#39; is inserted.</span>
+            <span class="n">trimmed_build_id</span> <span class="o">=</span> <span class="n">trimmed_build_id</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+        <span class="k">if</span> <span class="n">trimmed_current_build_id</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">):</span>
+            <span class="c1"># If we trimmed everything but the number, no &#39;_&#39; is inserted.</span>
+            <span class="n">trimmed_current_build_id</span> <span class="o">=</span> <span class="n">trimmed_current_build_id</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+        <span class="k">if</span> <span class="n">trimmed_build_id</span> <span class="o">==</span> <span class="n">trimmed_current_build_id</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">True</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="k">for</span> <span class="n">build_id</span> <span class="ow">in</span> <span class="n">res</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">is_matching_trimmed_build_id</span><span class="p">(</span><span class="n">build_id</span><span class="p">,</span> <span class="n">current_build_id</span><span class="p">):</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Package </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2"> exists&quot;</span><span class="p">,</span>
+                         <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">build_id</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">return</span> <span class="kc">False</span>
+
+
 <div class="viewcode-block" id="have_variant"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.have_variant">[docs]</a><span class="k">def</span> <span class="nf">have_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;Checks if we have an exact match to name/version/buildstring</span>
 
@@ -181,38 +303,62 @@
     <span class="k">if</span> <span class="n">res</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Package </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2"> exists&quot;</span><span class="p">,</span>
                      <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">())</span>
-    <span class="k">return</span> <span class="n">res</span></div>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">return</span> <span class="n">_have_partially_matching_build_id</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="have_variant_but_for_python"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.have_variant_but_for_python">[docs]</a><span class="k">def</span> <span class="nf">have_variant_but_for_python</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;Checks if we have an exact or ``py[23]_`` prefixed match to</span>
-<span class="sd">    name/version/buildstring</span>
-
-<span class="sd">    Ignores osx.</span>
+<div class="viewcode-block" id="have_noarch_python_build_number"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.have_noarch_python_build_number">[docs]</a><span class="k">def</span> <span class="nf">have_noarch_python_build_number</span><span class="p">(</span><span class="n">meta</span><span class="p">:</span> <span class="n">MetaData</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Checks if we have a noarch:python build with same version+build_number</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">      meta: Variant MetaData object</span>
 
 <span class="sd">    Returns:</span>
-<span class="sd">      True if FIXME</span>
+<span class="sd">      True if noarch:python and version+build_number exists already in repodata</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">strip_py</span><span class="p">(</span><span class="n">build</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">build</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;py&quot;</span><span class="p">):</span>
-            <span class="k">return</span> <span class="n">build</span><span class="p">[</span><span class="mi">4</span><span class="p">:]</span>
-        <span class="k">return</span> <span class="n">build</span>
-
-    <span class="n">builds</span> <span class="o">=</span> <span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
-        <span class="s1">&#39;build&#39;</span><span class="p">,</span>
+    <span class="k">if</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;build/noarch&#39;</span><span class="p">)</span> <span class="o">!=</span> <span class="s1">&#39;python&#39;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
         <span class="n">name</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">version</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span>
-        <span class="n">platform</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;linux&#39;</span><span class="p">,</span> <span class="s1">&#39;noarch&#39;</span><span class="p">]</span>
+        <span class="n">build_number</span><span class="o">=</span><span class="n">meta</span><span class="o">.</span><span class="n">build_number</span><span class="p">(),</span>
+        <span class="n">platform</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;noarch&#39;</span><span class="p">],</span>
     <span class="p">)</span>
-    <span class="n">res</span> <span class="o">=</span> <span class="p">[</span><span class="n">build</span> <span class="k">for</span> <span class="n">build</span> <span class="ow">in</span> <span class="n">builds</span>
-           <span class="k">if</span> <span class="n">strip_py</span><span class="p">(</span><span class="n">build</span><span class="p">)</span> <span class="o">==</span> <span class="n">strip_py</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">())]</span>
     <span class="k">if</span> <span class="n">res</span><span class="p">:</span>
-        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Package </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2"> has </span><span class="si">%s</span><span class="s2"> (want </span><span class="si">%s</span><span class="s2">)&quot;</span><span class="p">,</span>
-                     <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">res</span><span class="p">,</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">())</span>
-    <span class="k">return</span> <span class="nb">bool</span><span class="p">(</span><span class="n">res</span><span class="p">)</span></div>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Package </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2">[build_number=</span><span class="si">%s</span><span class="s2">, subdir=noarch] exists&quot;</span><span class="p">,</span>
+                     <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_number</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">res</span></div>
 
+
+<div class="viewcode-block" id="will_build_only_missing"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.will_build_only_missing">[docs]</a><span class="k">def</span> <span class="nf">will_build_only_missing</span><span class="p">(</span><span class="n">metas</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">MetaData</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Checks if only new builds will be added (no divergent build ids exist)</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      metas: List of Variant MetaData objects</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">      True if no divergent build strings exist in repodata</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">builds</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_number</span><span class="p">())</span>
+        <span class="k">for</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">metas</span>
+    <span class="p">}</span>
+    <span class="n">existing_builds</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">version</span><span class="p">,</span> <span class="n">build_number</span> <span class="ow">in</span> <span class="n">builds</span><span class="p">:</span>
+        <span class="n">existing_builds</span><span class="o">.</span><span class="n">update</span><span class="p">(</span>
+            <span class="nb">map</span><span class="p">(</span>
+                <span class="nb">tuple</span><span class="p">,</span>
+                <span class="n">RepoData</span><span class="p">()</span><span class="o">.</span><span class="n">get_package_data</span><span class="p">(</span>
+                    <span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;version&quot;</span><span class="p">,</span> <span class="s2">&quot;build&quot;</span><span class="p">],</span>
+                    <span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="n">version</span><span class="p">,</span> <span class="n">build_number</span><span class="o">=</span><span class="n">build_number</span><span class="p">,</span>
+                    <span class="n">platform</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;linux&#39;</span><span class="p">,</span> <span class="s1">&#39;noarch&#39;</span><span class="p">],</span>
+                <span class="p">),</span>
+            <span class="p">),</span>
+        <span class="p">)</span>
+    <span class="n">new_builds</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">())</span>
+        <span class="k">for</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">metas</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">new_builds</span><span class="o">.</span><span class="n">issuperset</span><span class="p">(</span><span class="n">existing_builds</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="State"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.State">[docs]</a><span class="k">class</span> <span class="nc">State</span><span class="p">(</span><span class="n">enum</span><span class="o">.</span><span class="n">Flag</span><span class="p">):</span>
@@ -227,17 +373,12 @@
     <span class="n">BUMPED</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
     <span class="c1">#: Recipe has a variant that needs bumping</span>
     <span class="n">BUMP</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
-    <span class="c1">#: Recipe has a variant that needs bumping only for python</span>
-    <span class="n">BUMP_PYTHON_ONLY</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
+    <span class="c1">#: Recipe has a noarch:python variant that exists already</span>
+    <span class="n">HAVE_NOARCH_PYTHON</span> <span class="o">=</span> <span class="n">enum</span><span class="o">.</span><span class="n">auto</span><span class="p">()</span>
 
-<div class="viewcode-block" id="State.needs_bump"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.State.needs_bump">[docs]</a>    <span class="k">def</span> <span class="nf">needs_bump</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">bump_python_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+<div class="viewcode-block" id="State.needs_bump"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.update_pinnings.html#bioconda_utils.update_pinnings.State.needs_bump">[docs]</a>    <span class="k">def</span> <span class="nf">needs_bump</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
         <span class="sd">&quot;&quot;&quot;Checks if the state indicates that the recipe needs to be bumped</span>
-
-<span class="sd">        Args:</span>
-<span class="sd">          bump_python_only: FIXME</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="k">if</span> <span class="n">bump_python_only</span><span class="p">:</span>
-            <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">BUMP</span> <span class="o">|</span> <span class="bp">self</span><span class="o">.</span><span class="n">BUMP_PYTHON_ONLY</span><span class="p">)</span>
         <span class="k">return</span> <span class="bp">self</span> <span class="o">&amp;</span> <span class="bp">self</span><span class="o">.</span><span class="n">BUMP</span></div>
 
 
@@ -276,7 +417,7 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Calling Conda to render </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
-        <span class="n">metas</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">conda_render</span><span class="p">(</span><span class="n">config</span><span class="o">=</span><span class="n">build_config</span><span class="p">)</span>
+        <span class="n">maybe_metas</span> <span class="o">=</span> <span class="n">recipe</span><span class="o">.</span><span class="n">conda_render</span><span class="p">(</span><span class="n">config</span><span class="o">=</span><span class="n">build_config</span><span class="p">)</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Finished rendering </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
     <span class="k">except</span> <span class="n">RecipeError</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="n">exc</span><span class="p">)</span>
@@ -285,11 +426,12 @@
         <span class="n">logger</span><span class="o">.</span><span class="n">exception</span><span class="p">(</span><span class="s2">&quot;update_pinnings.check failed with exception in api.render(</span><span class="si">%s</span><span class="s2">):&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span><span class="p">,</span> <span class="n">recipe</span>
 
-    <span class="k">if</span> <span class="n">metas</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">maybe_metas</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Failed to render </span><span class="si">%s</span><span class="s2">. Got &#39;None&#39; from recipe.conda_render()&quot;</span><span class="p">,</span> <span class="n">recipe</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span><span class="p">,</span> <span class="n">recipe</span>
 
-    <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">has_invalid_build_string</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span> <span class="k">for</span> <span class="n">meta</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">metas</span><span class="p">):</span>
+    <span class="n">metas</span> <span class="o">=</span> <span class="p">[</span><span class="n">meta</span> <span class="k">for</span> <span class="n">meta</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">maybe_metas</span><span class="p">]</span>
+    <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">has_invalid_build_string</span><span class="p">(</span><span class="n">meta</span><span class="p">)</span> <span class="k">for</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">metas</span><span class="p">):</span>
         <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
             <span class="s2">&quot;Failed to get build strings for </span><span class="si">%s</span><span class="s2"> with bypass_env_check. &quot;</span>
             <span class="s2">&quot;Probably needs build/skip instead of dep constraint.&quot;</span><span class="p">,</span>
@@ -298,18 +440,25 @@
         <span class="k">return</span> <span class="n">State</span><span class="o">.</span><span class="n">FAIL</span><span class="p">,</span> <span class="n">recipe</span>
 
     <span class="n">flags</span> <span class="o">=</span> <span class="n">State</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">meta</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">metas</span><span class="p">:</span>
+    <span class="n">maybe_bump</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">for</span> <span class="n">meta</span> <span class="ow">in</span> <span class="n">metas</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">meta</span><span class="o">.</span><span class="n">skip</span><span class="p">()</span> <span class="ow">or</span> <span class="n">skip_for_variants</span><span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">skip_variant_keys</span><span class="p">):</span>
             <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">SKIP</span>
+        <span class="k">elif</span> <span class="n">have_noarch_python_build_number</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
+            <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">HAVE_NOARCH_PYTHON</span>
         <span class="k">elif</span> <span class="n">have_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
             <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">HAVE</span>
         <span class="k">elif</span> <span class="n">will_build_variant</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
             <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">BUMPED</span>
-        <span class="k">elif</span> <span class="n">have_variant_but_for_python</span><span class="p">(</span><span class="n">meta</span><span class="p">):</span>
-            <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">BUMP_PYTHON_ONLY</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Package </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2"> missing!&quot;</span><span class="p">,</span>
                          <span class="n">meta</span><span class="o">.</span><span class="n">name</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">version</span><span class="p">(),</span> <span class="n">meta</span><span class="o">.</span><span class="n">build_id</span><span class="p">())</span>
+            <span class="n">maybe_bump</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="k">if</span> <span class="n">maybe_bump</span><span class="p">:</span>
+        <span class="c1"># Skip bump if we only add to the build matrix.</span>
+        <span class="k">if</span> <span class="n">will_build_only_missing</span><span class="p">(</span><span class="n">metas</span><span class="p">):</span>
+            <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">BUMPED</span>
+        <span class="k">else</span><span class="p">:</span>
             <span class="n">flags</span> <span class="o">|=</span> <span class="n">State</span><span class="o">.</span><span class="n">BUMP</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">keep_metas</span><span class="p">:</span>
         <span class="n">recipe</span><span class="o">.</span><span class="n">conda_release</span><span class="p">()</span>
