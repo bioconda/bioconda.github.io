@@ -15,7 +15,7 @@ bedtools
    :homepage: http://bedtools.readthedocs.org/
    :license: GPL v2
    :recipe: /`bedtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtools/meta.yaml>`_
-   :links: biotools: :biotools:`bedtools`
+   :links: biotools: :biotools:`bedtools`, usegalaxy-eu: :usegalaxy-eu:`bedtools_intersectbed`
 
    
 

@@ -30,12 +30,14 @@ ragtag
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends intervaltree: 
+   :depends minimap2: 
+   :depends mummer: 
    :depends numpy: 
    :depends pysam: 
    :depends python: ``>3``

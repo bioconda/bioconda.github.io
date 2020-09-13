@@ -29,10 +29,10 @@ snpeff
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.5covid19-1</code>,  <code>4.5covid19-0</code>,  <code>4.3.1t-3</code>,  <code>4.3.1t-2</code>,  <code>4.3.1t-1</code>,  <code>4.3.1t-0</code>,  <code>4.3.1r-0</code>,  <code>4.3.1q-0</code>,  <code>4.3.1p-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0-0</code>,  <code>4.5covid19-1</code>,  <code>4.5covid19-0</code>,  <code>4.3.1t-4</code>,  <code>4.3.1t-3</code>,  <code>4.3.1t-2</code>,  <code>4.3.1t-1</code>,  <code>4.3.1t-0</code>,  <code>4.3.1r-0</code>,  </span></summary>
       
 
-      ``4.5covid19-1``,  ``4.5covid19-0``,  ``4.3.1t-3``,  ``4.3.1t-2``,  ``4.3.1t-1``,  ``4.3.1t-0``,  ``4.3.1r-0``,  ``4.3.1q-0``,  ``4.3.1p-1``,  ``4.3.1p-0``,  ``4.3.1o-0``,  ``4.3.1m-0``,  ``4.3.1k-0``,  ``4.3-3``,  ``4.3-2``,  ``4.3-1``,  ``4.3-0``,  ``4.3k-0``,  ``4.3i-0``,  ``4.3g-0``,  ``4.3b-0``,  ``4.2-0``,  ``4.1l-7``,  ``4.1l-6``,  ``4.1l-5``,  ``4.1l-4``,  ``4.1l-3``,  ``4.1l-2``,  ``4.1l-1``,  ``4.1l-0``
+      ``5.0-0``,  ``4.5covid19-1``,  ``4.5covid19-0``,  ``4.3.1t-4``,  ``4.3.1t-3``,  ``4.3.1t-2``,  ``4.3.1t-1``,  ``4.3.1t-0``,  ``4.3.1r-0``,  ``4.3.1q-0``,  ``4.3.1p-1``,  ``4.3.1p-0``,  ``4.3.1o-0``,  ``4.3.1m-0``,  ``4.3.1k-0``,  ``4.3-3``,  ``4.3-2``,  ``4.3-1``,  ``4.3-0``,  ``4.3k-0``,  ``4.3i-0``,  ``4.3g-0``,  ``4.3b-0``,  ``4.2-0``,  ``4.1l-7``,  ``4.1l-6``,  ``4.1l-5``,  ``4.1l-4``,  ``4.1l-3``,  ``4.1l-2``,  ``4.1l-1``,  ``4.1l-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ snpeff
    
    :depends openjdk: 
    :depends python: 
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

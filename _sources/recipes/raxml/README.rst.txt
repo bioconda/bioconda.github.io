@@ -15,7 +15,7 @@ raxml
    :homepage: http://sco.h-its.org/exelixis/web/software/raxml/index.html
    :license: GPL
    :recipe: /`raxml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/raxml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/raxml/meta.yaml>`_
-   :links: biotools: :biotools:`raxml`, doi: :doi:`10.1093/bioinformatics/btu033`
+   :links: biotools: :biotools:`raxml`, doi: :doi:`10.1093/bioinformatics/btu033`, usegalaxy-eu: :usegalaxy-eu:`raxml`
 
    
 

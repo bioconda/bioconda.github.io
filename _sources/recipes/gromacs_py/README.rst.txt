@@ -30,7 +30,7 @@ gromacs_py
       
       
 
-      ``1.1.1-0``
+      ``1.2.1-0``,  ``1.1.1-0``
 
       
 
@@ -44,6 +44,7 @@ gromacs_py
    :depends pdb_manip_py: 
    :depends python: ``>=3.5``
    :depends scipy: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation

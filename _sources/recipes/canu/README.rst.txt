@@ -16,6 +16,7 @@ canu
    :developer docs: https://github.com/marbl/canu
    :license: GPL / GPLv2 and others
    :recipe: /`canu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canu/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`canu`
 
    
 

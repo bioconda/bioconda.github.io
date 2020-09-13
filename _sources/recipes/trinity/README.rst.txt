@@ -17,7 +17,7 @@ trinity
    
    :license: BSD / BSD-3-Clause
    :recipe: /`trinity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity/meta.yaml>`_
-   :links: biotools: :biotools:`trinity`, doi: :doi:`10.1038/nbt.1883`
+   :links: biotools: :biotools:`trinity`, doi: :doi:`10.1038/nbt.1883`, usegalaxy-eu: :usegalaxy-eu:`trinity`
 
    
 

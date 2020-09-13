@@ -15,7 +15,7 @@ snippy
    :homepage: https://github.com/tseemann/snippy
    :license: GPL / GPL-2.0
    :recipe: /`snippy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snippy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snippy/meta.yaml>`_
-   :links: biotools: :biotools:`snippy`
+   :links: biotools: :biotools:`snippy`, usegalaxy-eu: :usegalaxy-eu:`snippy`
 
    
 

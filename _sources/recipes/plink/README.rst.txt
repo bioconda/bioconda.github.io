@@ -26,17 +26,21 @@ plink
    :versions:
       
       
+      .. raw:: html
 
-      ``1.90b6.12-1``,  ``1.90b6.12-0``,  ``1.90b5-1``,  ``1.90b5-0``,  ``1.90b4-3``,  ``1.90b4-2``,  ``1.90b4-1``,  ``1.90b4-0``
+         <details><summary><span class="truncated-version-list"><code>1.90b6.18-0</code>,  <code>1.90b6.12-2</code>,  <code>1.90b6.12-1</code>,  <code>1.90b6.12-0</code>,  <code>1.90b5-1</code>,  <code>1.90b5-0</code>,  <code>1.90b4-3</code>,  <code>1.90b4-2</code>,  <code>1.90b4-1</code>,  </span></summary>
+      
 
+      ``1.90b6.18-0``,  ``1.90b6.12-2``,  ``1.90b6.12-1``,  ``1.90b6.12-0``,  ``1.90b5-1``,  ``1.90b5-0``,  ``1.90b4-3``,  ``1.90b4-2``,  ``1.90b4-1``,  ``1.90b4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

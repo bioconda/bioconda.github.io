@@ -15,7 +15,7 @@ maker
    :homepage: http://www.yandell-lab.org/software/maker.html
    :license: GPL3
    :recipe: /`maker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maker/meta.yaml>`_
-   :links: biotools: :biotools:`maker`
+   :links: biotools: :biotools:`maker`, usegalaxy-eu: :usegalaxy-eu:`maker`
 
    
 

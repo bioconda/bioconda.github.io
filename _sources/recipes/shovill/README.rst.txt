@@ -15,6 +15,7 @@ shovill
    :homepage: https://github.com/tseemann/shovill
    :license: GPL2
    :recipe: /`shovill <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shovill>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shovill/meta.yaml>`_
+   :links: biotools: :biotools:`shovill`, usegalaxy-eu: :usegalaxy-eu:`shovill`
 
    
 

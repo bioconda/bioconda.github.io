@@ -15,6 +15,7 @@ align_it
    :homepage: http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/align-it/1.0.4/align-it.html
    :license: LGPL
    :recipe: /`align_it <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/align_it>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/align_it/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`ctb_alignit`
 
    
 

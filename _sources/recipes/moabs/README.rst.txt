@@ -15,6 +15,7 @@ moabs
    :homepage: https://github.com/sunnyisgalaxy/moabs
    :license: MIT
    :recipe: /`moabs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moabs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moabs/meta.yaml>`_
+   :links: doi: :doi:`10.1021/acs.jproteome.8b00708`, usegalaxy-eu: :usegalaxy-eu:`moabs`
 
    
 

@@ -15,7 +15,7 @@ fastqc
    :homepage: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
    :license: GPL >=3
    :recipe: /`fastqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc/meta.yaml>`_
-   :links: biotools: :biotools:`fastqc`
+   :links: biotools: :biotools:`fastqc`, usegalaxy-eu: :usegalaxy-eu:`fastqc`
 
    
 

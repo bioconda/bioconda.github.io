@@ -15,6 +15,7 @@ rdock
    :homepage: http://rdock.sourceforge.net/
    :license: LGPLv3
    :recipe: /`rdock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pcbi.1003571`, usegalaxy-eu: :usegalaxy-eu:`rdock_rbdock`
 
    
 

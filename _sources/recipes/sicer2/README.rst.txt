@@ -28,13 +28,13 @@ sicer2
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=7.5.0``
-   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends numpy: ``>=1.16.5,<2.0a0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: ``>=1``

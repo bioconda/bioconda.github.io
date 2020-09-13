@@ -8,6 +8,7 @@
     <title>Package Recipe &#39;genomepy&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
@@ -70,6 +71,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
 </ul>
 
 <ul>
@@ -123,7 +125,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/genomepy"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/genomepy.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/genomepy"><img alt="docker_genomepy" src="https://quay.io/repository/biocontainers/genomepy/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.8.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.2-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.9.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.2-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -132,12 +134,12 @@
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/bucketcache-feedstock"><strong>bucketcache</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.12.1</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/click-feedstock"><strong>click</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/colorama-feedstock"><strong>colorama</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../htslib/README.html#package-htslib" title="htslib package"><strong>htslib</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../norns/README.html#package-norns" title="norns package"><strong>norns</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.1.5</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/psutil-feedstock"><strong>psutil</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pyfaidx/README.html#package-pyfaidx" title="pyfaidx package"><strong>pyfaidx</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.5.1</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../tabix/README.html#package-tabix" title="tabix package"><strong>tabix</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ucsc-bedtogenepred/README.html#package-ucsc-bedtogenepred" title="ucsc-bedtogenepred package"><strong>ucsc-bedtogenepred</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ucsc-genepredtobed/README.html#package-ucsc-genepredtobed" title="ucsc-genepredtobed package"><strong>ucsc-genepredtobed</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ucsc-genepredtogtf/README.html#package-ucsc-genepredtogtf" title="ucsc-genepredtogtf package"><strong>ucsc-genepredtogtf</strong></a></p></li>
@@ -148,8 +150,8 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../gimmemotifs/README.html#gimmemotifs"><strong class="xref backref">gimmemotifs</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../seq2science/README.html#seq2science"><strong class="xref backref">seq2science</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../gimmemotifs/README.html#gimmemotifs"><strong class="xref backref">gimmemotifs</strong></a></p></li>
 </ul>
 </dd>
 </dl>

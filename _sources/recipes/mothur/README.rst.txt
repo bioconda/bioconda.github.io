@@ -16,7 +16,7 @@ mothur
    :developer docs: https://github.com/mothur/mothur
    :license: GPL / GPL-3.0
    :recipe: /`mothur <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur/meta.yaml>`_
-   :links: doi: :doi:`10.1128/AEM.01541-09`
+   :links: doi: :doi:`10.1128/AEM.01541-09`, usegalaxy-eu: :usegalaxy-eu:`mothur_get_label`
 
    
 

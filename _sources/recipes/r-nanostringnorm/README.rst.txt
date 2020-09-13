@@ -13,7 +13,7 @@ r-nanostringnorm
    A set of tools for normalizing\, diagnostics and visualization of NanoString nCounter data.
 
    :homepage: https://CRAN.R-project.org/package=NanoStringNorm
-   :license: GPL2 / GPL-2
+   :license: GPL2 / GPL-2.0-only
    :recipe: /`r-nanostringnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nanostringnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nanostringnorm/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-nanostringnorm
       
       
 
-      ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.21-2``,  ``1.1.21-1``,  ``1.1.21-0``
+      ``1.2.1.1-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.21-2``,  ``1.1.21-1``,  ``1.1.21-0``
 
       
 

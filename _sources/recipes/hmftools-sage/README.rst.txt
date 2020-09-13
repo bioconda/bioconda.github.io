@@ -27,12 +27,18 @@ hmftools-sage
       
       
 
-      ``2.2-0``,  ``1.0-0``
+      ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``1.0-0``
 
       
 
    
+   :depends bioconductor-genomicranges: 
+   :depends bioconductor-variantannotation: 
    :depends openjdk: ``>=8``
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-tidyr: 
+   :depends xorg-libxt: 
    :depends zlib: 
    :requirements:
 

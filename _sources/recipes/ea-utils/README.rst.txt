@@ -28,7 +28,7 @@ ea-utils
       
       
 
-      ``1.1.2.779-1``,  ``1.1.2.779-0``,  ``1.1.2.537-0``
+      ``1.1.2.779-2``,  ``1.1.2.779-1``,  ``1.1.2.779-0``,  ``1.1.2.537-0``
 
       
 
@@ -36,7 +36,7 @@ ea-utils
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends openblas: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

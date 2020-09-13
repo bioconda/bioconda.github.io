@@ -27,13 +27,13 @@ artic
       
       
 
-      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0_rc2-0``
+      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0_rc2-0``
 
       
 
    
    :depends artic-porechop: ``0.3.2pre.*``
-   :depends bcftools: ``1.9.*``
+   :depends bcftools: ``1.10.2.*``
    :depends biopython: ``>=1.76``
    :depends bwa: ``0.7.17.*``
    :depends clint: 
@@ -49,7 +49,7 @@ artic
    :depends python: ``>=3``
    :depends pyvcf: ``>=0.6.8``
    :depends requests: 
-   :depends samtools: ``1.9.*``
+   :depends samtools: ``1.10.*``
    :depends seaborn: 
    :depends tqdm: 
    :requirements:

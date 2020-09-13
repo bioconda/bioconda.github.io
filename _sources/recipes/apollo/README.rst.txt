@@ -28,10 +28,10 @@ apollo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.7-0</code>,  <code>4.2.5-0</code>,  <code>4.2.4-1</code>,  <code>4.2.4-0</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2-0</code>,  <code>4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.9-0</code>,  <code>4.2.8-0</code>,  <code>4.2.7-0</code>,  <code>4.2.5-0</code>,  <code>4.2.4-1</code>,  <code>4.2.4-0</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  </span></summary>
       
 
-      ``4.2.7-0``,  ``4.2.5-0``,  ``4.2.4-1``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.1-0``,  ``3.0.4-0``
+      ``4.2.9-0``,  ``4.2.8-0``,  ``4.2.7-0``,  ``4.2.5-0``,  ``4.2.4-1``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.1-0``,  ``3.0.4-0``
 
       
       .. raw:: html

@@ -32,15 +32,15 @@ mrbayes
       
       
 
-      ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
+      ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
 
       
 
    
    :depends beagle-lib: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends ncurses: ``>=6.1,<6.2.0a0``
-   :depends openmpi: ``>=4.0.2,<4.1.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends ncurses: ``>=6.2,<6.3.0a0``
+   :depends openmpi: ``>=4.0.5,<4.1.0a0``
    :depends readline: ``>=8.0,<9.0a0``
    :requirements:
 

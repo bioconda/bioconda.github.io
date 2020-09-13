@@ -27,7 +27,7 @@ scrappie
       
       
 
-      ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.2-2``,  ``1.3.2-0``
+      ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.2-2``,  ``1.3.2-0``
 
       
 
@@ -38,7 +38,7 @@ scrappie
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends numpy: 
-   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends openblas: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

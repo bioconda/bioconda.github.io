@@ -29,7 +29,7 @@ haphpipe
       
       
 
-      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -50,7 +50,7 @@ haphpipe
    :depends python: ``>=3.7``
    :depends pyyaml: 
    :depends raxml-ng: 
-   :depends samtools: ``1.9.*``
+   :depends samtools: ``>=1.9``
    :depends seqtk: 
    :depends sierrapy: 
    :depends spades: 

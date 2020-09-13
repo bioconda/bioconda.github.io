@@ -13,7 +13,7 @@ trf
    Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences.
 
    :homepage: https://tandem.bu.edu/trf/trf.html
-   :license: Custom
+   :license: AGPL-3.0
    :recipe: /`trf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf/meta.yaml>`_
    :links: biotools: :biotools:`Trf`
 
@@ -28,11 +28,12 @@ trf
       
       
 
-      ``4.09-2``,  ``4.09-1``,  ``4.09-0``,  ``4.07b-0``
+      ``4.09.1-0``,  ``4.09-2``,  ``4.09-1``,  ``4.09-0``,  ``4.07b-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

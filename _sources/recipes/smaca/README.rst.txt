@@ -28,7 +28,7 @@ smaca
       
       
 
-      ``1.2.3-0``
+      ``1.2.3-1``,  ``1.2.3-0``
 
       
 
@@ -37,7 +37,7 @@ smaca
    :depends joblib: 
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``

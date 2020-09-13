@@ -15,7 +15,7 @@ busco
    :homepage: http://busco.ezlab.org/
    :license: MIT
    :recipe: /`busco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/busco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/busco/meta.yaml>`_
-   :links: biotools: :biotools:`busco`, doi: :doi:`10.1093/bioinformatics/btv351`
+   :links: biotools: :biotools:`busco`, doi: :doi:`10.1093/bioinformatics/btv351`, usegalaxy-eu: :usegalaxy-eu:`busco`
 
    
 
@@ -29,10 +29,10 @@ busco
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.2-2</code>,  <code>4.1.2-1</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.0.6-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-1</code>,  <code>4.0.4-0</code>,  <code>4.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.2-3</code>,  <code>4.1.2-2</code>,  <code>4.1.2-1</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.0.6-0</code>,  <code>4.0.5-0</code>,  <code>4.0.4-1</code>,  <code>4.0.4-0</code>,  </span></summary>
       
 
-      ``4.1.2-2``,  ``4.1.2-1``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``4.0.beta1-0``,  ``3.0.2-13``,  ``3.0.2-12``,  ``3.0.2-11``,  ``3.0.2-10``,  ``3.0.2-9``,  ``3.0.2-8``,  ``3.0.2-7``,  ``3.0.2-6``,  ``3.0.2-5``,  ``3.0.2-4``,  ``3.0.1-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.2-1``,  ``1.2-0``
+      ``4.1.2-3``,  ``4.1.2-2``,  ``4.1.2-1``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``4.0.beta1-0``,  ``3.0.2-13``,  ``3.0.2-12``,  ``3.0.2-11``,  ``3.0.2-10``,  ``3.0.2-9``,  ``3.0.2-8``,  ``3.0.2-7``,  ``3.0.2-6``,  ``3.0.2-5``,  ``3.0.2-4``,  ``3.0.1-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.2-1``,  ``1.2-0``
 
       
       .. raw:: html
@@ -47,8 +47,7 @@ busco
    :depends findutils: 
    :depends hmmer: ``>=3.1b2``
    :depends prodigal: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.3``
    :depends r-base: 
    :depends r-ggplot2: ``>=2.2.1``
    :depends sepp: ``>=4.3.10``

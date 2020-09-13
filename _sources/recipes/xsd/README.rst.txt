@@ -27,14 +27,14 @@ xsd
       
       
 
-      ``4.0.0_dep-2``,  ``4.0.0_dep-1``,  ``4.0.0_dep-0``
+      ``4.0.0_dep-3``,  ``4.0.0_dep-2``,  ``4.0.0_dep-1``,  ``4.0.0_dep-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends xerces-c: ``>=3.2.3,<3.3.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,7 +27,7 @@ msisensor
       
       
 
-      ``0.5-1``,  ``0.5-0``
+      ``0.5-2``,  ``0.5-1``,  ``0.5-0``
 
       
 
@@ -35,7 +35,7 @@ msisensor
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends ncurses: ``>=6.1,<6.2.0a0``
+   :depends ncurses: ``>=6.2,<6.3.0a0``
    :depends openmp: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

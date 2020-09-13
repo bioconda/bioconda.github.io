@@ -29,10 +29,10 @@ coinfinder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
       
 
-      ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -47,12 +47,12 @@ coinfinder
    :depends openmp: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
-   :depends r-ape: 
+   :depends r-ape: ``>=5.4.1``
    :depends r-base: 
    :depends r-caper: 
    :depends r-cowplot: 
    :depends r-data.table: 
-   :depends r-dplyr: 
+   :depends r-dplyr: ``>=1.0.2``
    :depends r-flock: 
    :depends r-future: 
    :depends r-getopt: 
@@ -60,11 +60,11 @@ coinfinder
    :depends r-ggraph: 
    :depends r-igraph: 
    :depends r-magrittr: 
-   :depends r-phytools: 
+   :depends r-phytools: ``>=0.6_99``
    :depends r-purrr: 
    :depends r-rlang: 
    :depends r-rvcheck: 
-   :depends r-tidyr: 
+   :depends r-tidyr: ``>=1.1.2``
    :depends r-tidytree: ``>=0.2.6``
    :requirements:
 

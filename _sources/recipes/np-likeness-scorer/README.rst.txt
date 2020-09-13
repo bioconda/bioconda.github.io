@@ -15,6 +15,7 @@ np-likeness-scorer
    :homepage: https://sourceforge.net/projects/np-likeness/
    :license: None
    :recipe: /`np-likeness-scorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/np-likeness-scorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/np-likeness-scorer/meta.yaml>`_
+   :links: doi: :doi:`10.1186/1471-2105-13-106`, usegalaxy-eu: :usegalaxy-eu:`ctb_np-likeness-calculator`
 
    
 

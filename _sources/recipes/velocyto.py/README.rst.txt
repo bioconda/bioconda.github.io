@@ -28,7 +28,7 @@ velocyto.py
       
       
 
-      ``0.17.17-1``,  ``0.17.17-0``
+      ``0.17.17-2``,  ``0.17.17-1``,  ``0.17.17-0``
 
       
 
@@ -39,7 +39,7 @@ velocyto.py
    :depends loompy: 
    :depends matplotlib: 
    :depends numba: 
-   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pandas: 
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``

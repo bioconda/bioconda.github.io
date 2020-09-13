@@ -30,10 +30,10 @@ synapseclient
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.9.4-0</code>,  <code>1.9.3-0</code>,  <code>1.7.5-1</code>,  <code>1.7.5-0</code>,  <code>1.7.1-0</code>,  <code>1.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.9.4-0</code>,  <code>1.9.3-0</code>,  <code>1.7.5-1</code>,  <code>1.7.5-0</code>,  <code>1.7.1-0</code>,  </span></summary>
       
 
-      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.7.5-1``,  ``1.7.5-0``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.5-0``
+      ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.7.5-1``,  ``1.7.5-0``,  ``1.7.1-0``,  ``1.6.2-0``,  ``1.5-0``
 
       
       .. raw:: html

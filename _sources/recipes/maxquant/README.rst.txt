@@ -15,7 +15,7 @@ maxquant
    :homepage: http://www.coxdocs.org/doku.php?id=maxquant:start
    :license: http://www.coxdocs.org/lib/exe/fetch.php?media=license_agreement.pdf
    :recipe: /`maxquant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxquant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxquant/meta.yaml>`_
-   :links: biotools: :biotools:`MaxQuant`, doi: :doi:`10.1038/s41592-018-0018-y`
+   :links: biotools: :biotools:`MaxQuant`, biotools: :biotools:`maxquant`, doi: :doi:`10.1038/s41592-018-0018-y`
 
    
 

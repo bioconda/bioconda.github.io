@@ -28,14 +28,14 @@ admixtools
       
       
 
-      ``6.0-1``,  ``6.0-0``,  ``5.1-0``,  ``5.0-0``
+      ``6.0-2``,  ``6.0-1``,  ``6.0-0``,  ``5.1-0``,  ``5.0-0``
 
       
 
    
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libgcc-ng: ``>=7.5.0``
-   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends openblas: 
    :requirements:
 
    .. rubric:: Installation

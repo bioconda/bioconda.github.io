@@ -1,0 +1,919 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GCB 2020 Tutorial &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Tutorials" href="index.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">User Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Tutorials</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">GCB 2020 Tutorial</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-exactly-is-conda">What exactly is Conda?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conda-packages">Conda packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conda-channels">Conda channels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#finding-packages">Finding Packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#practical-1">Practical 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conda-environments">Conda environments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conda-environments-common-commands">Conda environments – common commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#introducing-mamba">Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#practical-2">Practical 2</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#practical-2-1">Practical 2.1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#practical-2-2">Practical 2.2</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Conda environments – common commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#common-pitfalls">Common pitfalls</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conda-package-recipes">Conda package recipes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#meta-yaml-sections"><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#package"><code class="docutils literal notranslate"><span class="pre">package</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#source"><code class="docutils literal notranslate"><span class="pre">source</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#build"><code class="docutils literal notranslate"><span class="pre">build</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#requirements"><code class="docutils literal notranslate"><span class="pre">requirements</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#a-note-on-pinnings">A note on “pinnings”</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#test"><code class="docutils literal notranslate"><span class="pre">test</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#about-extra"><code class="docutils literal notranslate"><span class="pre">about</span></code>/<code class="docutils literal notranslate"><span class="pre">extra</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#don-t-fear-skeletons">Don’t fear skeletons</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#practical-3">Practical 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#common-problems">Common problems</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#practical-4-and-or-q-a">Practical 4 and/or Q&amp;A</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="../conda-package_index.html">Package Index</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="gcb-2020-tutorial">
+<h1>GCB 2020 Tutorial<a class="headerlink" href="#gcb-2020-tutorial" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="what-exactly-is-conda">
+<h2>What exactly is Conda?<a class="headerlink" href="#what-exactly-is-conda" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>A package and environment manager</dt><dd><ul>
+<li><p>Like apt/yum, but much more flexible</p></li>
+<li><p>Environments are isolated from each other</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>User-contributed package recipes</dt><dd><ul>
+<li><p>Different “channels”, can create your own</p></li>
+<li><p>Updated constantly</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Prebuilt binaries</dt><dd><ul>
+<li><p>Linked to libraries in the same environment</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p><img alt="tutorial-conda-miniconda-anaconda" class="no-scaled-link align-middle" src="../_images/tutorial-conda-miniconda-anaconda.jpg" style="width: 75%;" /></p>
+</div>
+<div class="section" id="conda-packages">
+<h2>Conda packages<a class="headerlink" href="#conda-packages" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>Specific versions</p></li>
+<li><p>Various sources (“channels”)</p></li>
+<li><dl>
+<dt>Defined requirements</dt><dd><ul class="simple">
+<li><p>Usually from the same or predefined other channels</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.
+├── info
+│   └── recipe
+│       ├── conda_build_config.yaml
+│       ├── meta.yaml
+│       └── parent
+└── site-packages
+    ├── snakemake
+    └── snakemake-5.24.0.dist-info
+        └── LICENSE.md
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="conda-channels">
+<h2>Conda channels<a class="headerlink" href="#conda-channels" title="Permalink to this headline">¶</a></h2>
+<table class="tutorial docutils align-default" style="width: 100%">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><div class="graphviz"><img src="../_images/graphviz-57da9f255cd05e8c2e7469d3ba040a5351a4c160.png" alt="digraph {
+  &quot;Channel 1&quot;
+  [fillcolor=red style=filled];
+}" class="graphviz" /></div>
+</th>
+<th class="head"><div class="graphviz"><img src="../_images/graphviz-82c0143d827b27c2119f4ac4623fa9477690bce5.png" alt="digraph {
+  &quot;Channel 2&quot;
+  [fillcolor=red style=filled];
+}" class="graphviz" /></div>
+</th>
+<th class="head"><div class="graphviz"><img src="../_images/graphviz-7699e77eb8fe2f87eb90513f1776b20b6eea7741.png" alt="digraph {
+  &quot;Channel 3&quot;
+  [fillcolor=red style=filled];
+}" class="graphviz" /></div>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><div class="line-block">
+<div class="line">package-1.2.3</div>
+<div class="line">package-1.2.2</div>
+<div class="line">package-1.2.1</div>
+<div class="line">package-1.0.0alpha2</div>
+<div class="line">package-1.0.0alpha1</div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">dependency-1.1.2</div>
+<div class="line">package-1.2.3</div>
+<div class="line">package-1.2.0</div>
+<div class="line">package-1.2.1</div>
+<div class="line">package-1.2.0</div>
+<div class="line">pysam-0.16.0.1</div>
+<div class="line">samtools-1.10</div>
+<div class="line">snakemake-5.24.0</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">libgcc-ng-9.3.0</div>
+<div class="line">libcurl-7.71.1</div>
+<div class="line">zlib-1.2.11</div>
+<div class="line">numpy-1.19.1</div>
+<div class="line">scipy-1.5.2</div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>conda-forge: Most dependencies (numpy, scipy, zlib, CRAN packages, etc.)</p></li>
+<li><p>bioconda: Most bioinf packages (salmon, STAR, samtools, DESeq2, etc.)</p></li>
+<li><p>defaults: Packages built by Anaconda Inc.</p></li>
+<li><dl>
+<dt>Order matters! Use this one:</dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda config --show channels
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+$ conda config --prepend channels bioconda
+$ conda config --prepend channels conda-forge
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="finding-packages">
+<h2>Finding Packages<a class="headerlink" href="#finding-packages" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>Search <a class="reference external" href="https://anaconda.org">https://anaconda.org</a></p></li>
+<li><dl>
+<dt>Use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">search</span></code></dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda search pysam
+Loading channels: <span class="k">done</span>
+<span class="c1"># Name                       Version           Build  Channel</span>
+<span class="o">[</span>...<span class="o">]</span>
+pysam                         <span class="m">0</span>.16.0  py36h71d3148_1  bioconda
+pysam                         <span class="m">0</span>.16.0  py36h873a209_0  bioconda
+pysam                         <span class="m">0</span>.16.0  py37ha9a96c6_0  bioconda
+pysam                         <span class="m">0</span>.16.0  py37hc501bad_1  bioconda
+pysam                       <span class="m">0</span>.16.0.1  py27ha863e18_1  bioconda
+pysam                       <span class="m">0</span>.16.0.1  py36h4c34d4e_1  bioconda
+pysam                       <span class="m">0</span>.16.0.1  py36h71d3148_0  bioconda
+pysam                       <span class="m">0</span>.16.0.1  py37hc334e0b_1  bioconda
+pysam                       <span class="m">0</span>.16.0.1  py37hc501bad_0  bioconda
+pysam                       <span class="m">0</span>.16.0.1  py38hbdc2ae9_1  bioconda
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Packages have versions, build numbers, build hashes/strings</dt><dd><ul class="simple">
+<li><p>Build hashes include dependency information</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Bioconda packages are also listed at <a class="reference external" href="http://bioconda.github.io/conda-package_index.html">http://bioconda.github.io/conda-package_index.html</a></p></li>
+</ul>
+</div>
+<div class="section" id="practical-1">
+<h2>Practical 1<a class="headerlink" href="#practical-1" title="Permalink to this headline">¶</a></h2>
+<p>What are the most recent versions of samtools and Snakemake?</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda search samtools <span class="p">|</span> tail -n1
+samtools                        <span class="m">1</span>.10      h9402c20_2  bioconda
+
+$ conda search snakemake <span class="p">|</span> tail -n1
+snakemake                     <span class="m">5</span>.24.0               <span class="m">1</span>  bioconda
+</pre></div>
+</div>
+</div>
+<div class="section" id="conda-environments">
+<h2>Conda environments<a class="headerlink" href="#conda-environments" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>A (mostly) self-contained directory with a set of compatible packages</p></li>
+<li><p>Uses links to reduce disk space when possible</p></li>
+</ul>
+<table class="tutorial docutils align-default">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 73%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td rowspan="2"><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── bin
+├── conda-meta
+├── envs
+│   ├── tutorial
+│   ├── pysam
+│   ├── samtools
+│   └── snakemake
+├── etc
+├── include
+├── lib
+├── libexec
+├── pkgs
+└── share
+</pre></div>
+</div>
+</td>
+<td><div class="graphviz"><img src="../_images/graphviz-af8e1cd7ec9dbf56e4afcdb8c8776fe2894004f6.png" alt="digraph {
+  rankdir=&quot;LR&quot;;
+  node [fillcolor=red style=filled];
+  &quot;pkgs/foo&quot; -&gt; &quot;env1/foo&quot;;
+  &quot;pkgs/foo&quot; -&gt; &quot;env2/foo&quot;;
+  &quot;pkgs/foo&quot; -&gt; &quot;env3/foo&quot;;
+}" class="graphviz" /></div>
+</td>
+</tr>
+<tr class="row-even"><td><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ ls -1i **/bin/samtools
+<span class="m">116889197</span> envs/tutorial/bin/samtools
+<span class="m">116889197</span> envs/samtools/bin/samtools
+<span class="m">116889197</span> pkgs/samtools-1.10-h2e538c0_3/bin/samtools
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>Linking is relative to packages!</p></li>
+<li><p>No more conflicting dependencies between versions!</p></li>
+</ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ ldd -r envs/samtools/bin/samtools
+     linux-vdso.so.1 <span class="o">=</span>&gt;  <span class="o">(</span>0x00007ffc684ef000<span class="o">)</span>
+     libhts.so.3 <span class="o">=</span>&gt; /home/gcb2020/conda/envs/samtools/bin/../lib/libhts.so.3 <span class="o">(</span>0x00007f32c8eac000<span class="o">)</span>
+     libtinfow.so.6 <span class="o">=</span>&gt; /home/gcb2020/conda/envs/samtools/bin/../lib/libtinfow.so.6 <span class="o">(</span>0x00007f32c8e6c000<span class="o">)</span>
+     libncursesw.so.6 <span class="o">=</span>&gt; /home/gcb2020/conda/envs/samtools/bin/../lib/libncursesw.so.6 <span class="o">(</span>0x00007f32c8e2f000<span class="o">)</span>
+     libm.so.6 <span class="o">=</span>&gt; /lib64/libm.so.6 <span class="o">(</span>0x00007f32c8ad0000<span class="o">)</span>
+     libz.so.1 <span class="o">=</span>&gt; /home/gcb2020/conda/envs/samtools/bin/../lib/libz.so.1 <span class="o">(</span>0x00007f32c8e11000<span class="o">)</span>
+<span class="o">[</span>...<span class="o">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="conda-environments-common-commands">
+<h2>Conda environments – common commands<a class="headerlink" href="#conda-environments-common-commands" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">info</span> <span class="pre">--envs</span></code> (or <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>)</dt><dd><ul class="simple">
+<li><p>Lists available environments</p></li>
+</ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda info --envs
+<span class="c1"># conda environments:</span>
+<span class="c1">#</span>
+base                  *  /home/gcb2020/conda
+tutorial                 /home/gcb2020/conda/envs/tutorial
+pysam                    /home/gcb2020/conda/envs/pysam
+samtools                 /home/gcb2020/conda/envs/samtools
+snakemake                /home/gcb2020/conda/envs/snakemake
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>You start in <code class="docutils literal notranslate"><span class="pre">base</span></code></p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">*</span></code> indicates the active environment</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<ul>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">create</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">remove</span></code></dt><dd><ul class="simple">
+<li><p>Create/remove environments</p></li>
+</ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda create --name<span class="o">=</span>myenv <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8 numpy <span class="s1">&#39;pysam&gt;=0.16&#39;</span>
+$ conda env remove --name<span class="o">=</span>myenv
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Packages can have versions specified</p></li>
+<li><p>Min/max versions can be specified</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<ul>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">activate</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">deactivate</span></code></dt><dd><ul class="simple">
+<li><p>Activates/deactivates an environment</p></li>
+</ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">command</span> -v samtools
+$ conda activate samtools
+$ <span class="nb">command</span> -v samtools
+/home/gcb2020/conda/envs/samtools/bin/samtools
+$ conda deactivate
+$ <span class="nb">command</span> -v samtools
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>You can “stack” environments with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">activate</span> <span class="pre">--stack</span> <span class="pre">...</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">remove</span></code></p></li>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">list</span></code></dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda activate myenv
+$ conda install snakemake
+... a lot of status output ...
+$ conda list
+... many packages ...
+$ conda remove snakemake
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>Keep your <code class="docutils literal notranslate"><span class="pre">base</span></code> env clean! (only the package manager + its deps)</p></li>
+<li><p>Generously create/remove environments for different tools/workflows!</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="introducing-mamba">
+<h2>Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code><a class="headerlink" href="#introducing-mamba" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Newer package manager called <code class="docutils literal notranslate"><span class="pre">mamba</span></code></p></li>
+<li><p>A reimplementation of <code class="docutils literal notranslate"><span class="pre">conda</span></code></p></li>
+<li><dl class="simple">
+<dt>Compatible with <code class="docutils literal notranslate"><span class="pre">conda</span></code></dt><dd><ul>
+<li><p>Installed beside <code class="docutils literal notranslate"><span class="pre">conda</span></code> in the <code class="docutils literal notranslate"><span class="pre">base</span></code> environment</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Much faster than <code class="docutils literal notranslate"><span class="pre">conda</span></code></dt><dd><ul>
+<li><p>Native binary, C++ code</p></li>
+<li><p>Uses another dependency solver, <code class="docutils literal notranslate"><span class="pre">libsolv</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Does not suffer from a yet-to-be-fixed bug in <code class="docutils literal notranslate"><span class="pre">conda</span></code></dt><dd><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">conda</span></code> may install older versions of <code class="docutils literal notranslate"><span class="pre">snakemake</span></code></p></li>
+<li><p>unless <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span> <span class="pre">--prepend</span> <span class="pre">repodata_fns</span> <span class="pre">repodata.json</span></code> is set</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="practical-2">
+<h2>Practical 2<a class="headerlink" href="#practical-2" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>Let’s create some new environments!</p></li>
+<li><dl>
+<dt>But first make sure that</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">conda</span></code> is up to date</p></li>
+<li><p>The correct channel order is in place</p></li>
+</ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda activate base
+$ conda update --all
+$ conda --version
+conda <span class="m">4</span>.8.4
+$ conda config --show channels
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+$ conda config --show-sources
+<span class="o">==</span>&gt; /home/gcb2020/.condarc &lt;<span class="o">==</span>
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+$ conda info
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="section" id="practical-2-1">
+<h3>Practical 2.1<a class="headerlink" href="#practical-2-1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Create a new environment named “mapping” with <code class="docutils literal notranslate"><span class="pre">bwa-mem2</span></code> and <code class="docutils literal notranslate"><span class="pre">pysamstats</span></code></p></li>
+<li><p>What versions of <code class="docutils literal notranslate"><span class="pre">numpy</span></code> and <code class="docutils literal notranslate"><span class="pre">python</span></code> got installed in it?</p></li>
+</ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda create --name<span class="o">=</span>mapping bwa-mem2 pysamstats
+$ conda activate mapping
+$ conda list <span class="p">|</span> grep -E <span class="s1">&#39;^(python|numpy)\&gt;&#39;</span>
+numpy                     <span class="m">1</span>.19.1           py38hbc27379_2    conda-forge
+python                    <span class="m">3</span>.8.5           h1103e12_7_cpython    conda-forge
+$ conda list <span class="s1">&#39;^(numpy|python)$&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="practical-2-2">
+<h3>Practical 2.2<a class="headerlink" href="#practical-2-2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Create a new environment for Snakemake with <code class="docutils literal notranslate"><span class="pre">mamba</span></code></p></li>
+</ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda install --name<span class="o">=</span>base mamba
+$ mamba --version
+mamba <span class="m">0</span>.5.1
+conda <span class="m">4</span>.8.4
+$ mamba create --name<span class="o">=</span>snakemake snakemake
+$ conda activate snakemake
+$ snakemake --version
+<span class="m">5</span>.24.0
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id1">
+<h2>Conda environments – common commands<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">export</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span></code></dt><dd><ul class="simple">
+<li><p>Exports or creates an environment from a YAML file</p></li>
+</ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda env <span class="nb">export</span> --no-builds &gt; env.yaml
+$ conda env create --name<span class="o">=</span>more-map-and-call --file<span class="o">=</span>env.yaml
+$ head env.yaml
+name: map-and-call
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - <span class="nv">_libgcc_mutex</span><span class="o">=</span><span class="m">0</span>.1
+  - <span class="nv">_openmp_mutex</span><span class="o">=</span><span class="m">4</span>.5
+  - <span class="nv">bcftools</span><span class="o">=</span><span class="m">1</span>.10.2
+  - <span class="nv">blis</span><span class="o">=</span><span class="m">0</span>.7.0
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="common-pitfalls">
+<h2>Common pitfalls<a class="headerlink" href="#common-pitfalls" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Wrong channel order</p></li>
+<li><p>Installing packages in your <code class="docutils literal notranslate"><span class="pre">base</span></code> env</p></li>
+<li><p>Manually manipulating <code class="docutils literal notranslate"><span class="pre">$PYTHONPATH</span></code></p></li>
+<li><p>Avoid manually (i.e., not via <code class="docutils literal notranslate"><span class="pre">conda</span></code>/<code class="docutils literal notranslate"><span class="pre">mamba</span></code>) installed packages</p></li>
+</ul>
+</div>
+<div class="section" id="conda-package-recipes">
+<h2>Conda package recipes<a class="headerlink" href="#conda-package-recipes" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ tree -A recipes/varlociraptor
+recipes/varlociraptor/
+├── build.sh
+└── meta.yaml
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> is required</p></li>
+<li><dl class="simple">
+<dt>optional:</dt><dd><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">build.sh</span></code></p></li>
+<li><p>(small) test files</p></li>
+<li><p>license file</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="meta-yaml-sections">
+<h2><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections<a class="headerlink" href="#meta-yaml-sections" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">package</span></code>: name and version</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: url and SHA256/MD5 checksums</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">build</span></code>: build number, platforms to skip, “noarch” information</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">requirements</span></code>: packages for building, linking, running</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">test</span></code>: commands/imports</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">about</span></code>: webpage, license, summary of what the package does</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">extras</span></code>: comments, maintainers, etc.</p></li>
+</ul>
+<div class="section" id="package">
+<h3><code class="docutils literal notranslate"><span class="pre">package</span></code><a class="headerlink" href="#package" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">package</span><span class="p">:</span>
+  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">unifrac</span>
+  <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0.20.0</span>
+</pre></div>
+</div>
+<p>Can also use Jinja variables:</p>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="cp">{%</span> <span class="k">set</span> <span class="nv">version</span> <span class="o">=</span> <span class="s2">&quot;0.20.0&quot;</span> <span class="cp">%}</span>
+
+<span class="nt">package</span><span class="p">:</span>
+  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">unifrac</span>
+  <span class="nt">version</span><span class="p">:</span> <span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="source">
+<h3><code class="docutils literal notranslate"><span class="pre">source</span></code><a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span>
+  <span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://github.com/biocore/unifrac/archive/</span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span><span class="l l-Scalar l-Scalar-Plain">.tar.gz</span>
+  <span class="nt">sha256</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">e2692c683fddc6450ca4da049112b00264cf61aef1071d2ebc0f0539b86611b8</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Avoid <code class="docutils literal notranslate"><span class="pre">git_url</span></code>/<code class="docutils literal notranslate"><span class="pre">svn_url</span></code></p></li>
+<li><p>Only actual releases, no alpha/beta</p></li>
+</ul>
+</div>
+<div class="section" id="build">
+<h3><code class="docutils literal notranslate"><span class="pre">build</span></code><a class="headerlink" href="#build" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+</pre></div>
+</div>
+<ul>
+<li><p>Reset to <code class="docutils literal notranslate"><span class="pre">0</span></code> with new releases</p></li>
+<li><p>Increment with each change for same version</p></li>
+<li><dl>
+<dt>Can skip build on conditions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+  <span class="nt">skip</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>  <span class="c1"># [osx or py&lt;36]</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">noarch</span></code> is useful, but has special semantics</p>
+<blockquote>
+<div><ul>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">generic</span></code>: No platform-specific code (Java, pure Perl, pure R, etc.)</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+  <span class="nt">noarch</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">generic</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt><code class="docutils literal notranslate"><span class="pre">python</span></code>: Pure Python packages, one build -&gt; all versions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+  <span class="nt">noarch</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">python</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>Not usable with <code class="docutils literal notranslate"><span class="pre">#</span> <span class="pre">[condition]</span></code> selectors</p></li>
+<li><dl class="simple">
+<dt>Only if using <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code>:</dt><dd><ul class="simple">
+<li><p>use <code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">python</span> <span class="pre">&gt;=3.0</span></code> instead of <code class="docutils literal notranslate"><span class="pre">skip:</span> <span class="pre">True</span>&#160; <span class="pre">#</span> <span class="pre">[py&lt;30]</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<ul>
+<li><p>You can include entire build command</p>
+<blockquote>
+<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+  <span class="nt">noarch</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">python</span>
+  <span class="nt">script</span><span class="p">:</span> <span class="cp">{{</span> <span class="nv">PYTHON</span> <span class="cp">}}</span> <span class="l l-Scalar l-Scalar-Plain">-m pip install . --no-deps -vv</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>Alternatively, use <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> for “more involved” installs</p>
+<blockquote>
+<div><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ cat build.sh
+<span class="c1"># !/usr/bin/env bash</span>
+<span class="s2">&quot;</span><span class="si">${</span><span class="nv">PYTHON</span><span class="si">}</span><span class="s2">&quot;</span> -m pip install . --no-deps -vv
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>There are more predefined <a class="reference external" href="https://docs.conda.io/projects/conda-build/en/latest/user-guide/environment-variables.html#environment-variables-set-during-the-build-process">environment variables in conda-build</a></p></li>
+</ul>
+</div>
+<div class="section" id="requirements">
+<h3><code class="docutils literal notranslate"><span class="pre">requirements</span></code><a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">requirements</span><span class="p">:</span>
+  <span class="nt">build</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="cp">{{</span> <span class="nv">compiler</span><span class="o">(</span><span class="s1">&#39;c&#39;</span><span class="o">)</span> <span class="cp">}}</span>
+  <span class="nt">host</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">htslib</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib</span>
+  <span class="nt">run</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">htslib</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">build</span></code>: Compilers, preprocessors, etc.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">host</span></code>: Anything linked against</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">run</span></code>: All other dependencies</p></li>
+<li><p>Use compiler functions (<code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('cxx')</span> <span class="pre">}}</span></code> and such)</p></li>
+</ul>
+</div>
+<div class="section" id="a-note-on-pinnings">
+<h3>A note on “pinnings”<a class="headerlink" href="#a-note-on-pinnings" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Packages need to be compatible</p></li>
+<li><p>Same compiler per platform</p></li>
+<li><p>Same <code class="docutils literal notranslate"><span class="pre">htslib</span></code>/<code class="docutils literal notranslate"><span class="pre">numpy</span></code>/<code class="docutils literal notranslate"><span class="pre">zlib</span></code>/<code class="docutils literal notranslate"><span class="pre">libcurl</span></code>/etc. versions</p></li>
+<li><p>Above are “pinned”</p></li>
+</ul>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda search samtools <span class="p">|</span> tail -n1
+samtools                        <span class="m">1</span>.10      h9402c20_2  bioconda
+</pre></div>
+</div>
+<ul>
+<li><p>The hash <code class="docutils literal notranslate"><span class="pre">h9402c20</span></code> above is specific to the used pinning</p></li>
+<li><p>Bioconda uses <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda-forge-pinning</a></p></li>
+<li><p>Version ranges are very useful!</p>
+<blockquote>
+<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">importlib_metadata &gt;=1.7.0,&lt;2.0.0</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pysam &gt;=0.16,&lt;0.17</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">python &gt;=3.7</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pyyaml &gt;=5.3,&lt;6</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="test">
+<h3><code class="docutils literal notranslate"><span class="pre">test</span></code><a class="headerlink" href="#test" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span>
+  <span class="nt">imports</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">vembrane</span>
+  <span class="nt">commands</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">vembrane --help</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Keep it simple/quick but functional</p></li>
+<li><p>No large test files</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">imports</span></code> works for Python/Perl</p></li>
+</ul>
+</div>
+<div class="section" id="about-extra">
+<h3><code class="docutils literal notranslate"><span class="pre">about</span></code>/<code class="docutils literal notranslate"><span class="pre">extra</span></code><a class="headerlink" href="#about-extra" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-yaml-jinja notranslate"><div class="highlight"><pre><span></span>about:
+  home: https://github.com/vembrane/vembrane
+  license: MIT
+  license_file: LICENSE
+  summary: Filter VCF/BCF files with Python expressions.
+
+extra:
+  recipe-maintainers:
+    - felixmoelder
+    - mbargull
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Please include <code class="docutils literal notranslate"><span class="pre">license</span></code> and <code class="docutils literal notranslate"><span class="pre">license_file</span></code>!</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="don-t-fear-skeletons">
+<h2>Don’t fear skeletons<a class="headerlink" href="#don-t-fear-skeletons" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>Making recipes manually takes time</p></li>
+<li><dl>
+<dt>Many common sources are automated</dt><dd><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ mkdir recipe
+$ <span class="nb">cd</span> recipe
+$ conda-skeleton pypi vembrane
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Skeletons for: PyPI, CPAN, CRAN</dt><dd><ul class="simple">
+<li><p>For CRAN: <a class="reference external" href="https://github.com/bgruening/conda_r_skeleton_helper">https://github.com/bgruening/conda_r_skeleton_helper</a></p></li>
+<li><p>CRAN packages belong on conda-forge if possible!</p></li>
+<li><p>For PyPI: <code class="docutils literal notranslate"><span class="pre">grayskull</span></code> is a newer/improved implentation</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>We (Bioconda) already make ALL Bioconductor packages</p></li>
+<li><p>On <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a>, recipes are in <code class="docutils literal notranslate"><span class="pre">recipes/</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="practical-3">
+<h2>Practical 3<a class="headerlink" href="#practical-3" title="Permalink to this headline">¶</a></h2>
+<p>Make a new <code class="docutils literal notranslate"><span class="pre">cutadapt</span></code> recipe</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda create --name<span class="o">=</span>conda-build conda-build
+$ conda activate conda-build
+$ mkdir recipes
+$ <span class="nb">cd</span> recipes
+$ conda-skeleton pypi cutadapt
+$ <span class="nv">$EDITOR</span> cutadapt/meta.yaml  <span class="c1"># edit build, host requirements, license_file</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="common-problems">
+<h2>Common problems<a class="headerlink" href="#common-problems" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Compiling C/C++ packages can be troublesome</p></li>
+<li><p>The compiler is NOT called <code class="docutils literal notranslate"><span class="pre">gcc</span></code></p></li>
+<li><p>Installed into <code class="docutils literal notranslate"><span class="pre">$PREFIX</span></code></p></li>
+<li><p>Library dependencies are in <code class="docutils literal notranslate"><span class="pre">$PREFIX/lib</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="practical-4-and-or-q-a">
+<h2>Practical 4 and/or Q&amp;A<a class="headerlink" href="#practical-4-and-or-q-a" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a> tour?</p></li>
+<li><dl class="simple">
+<dt>Want to contribute new packages?</dt><dd><ul>
+<li><p>Anything you need but could not find in Bioconda?</p></li>
+<li><dl class="simple">
+<dt>Candidates from the GCB 2020 book of abstracts:</dt><dd><ul>
+<li><p><a class="reference external" href="https://github.com/biomedbigdata/BiCoN">BiCoN</a>: Python package</p></li>
+<li><p><a class="reference external" href="http://www.jstacs.de/index.php/MeDeMo">MeDeMo</a>: JAR file</p></li>
+<li><p><a class="reference external" href="https://github.com/SchulzLab/STITCHIT">STITCHIT</a>: C++/CMake</p></li>
+<li><p><a class="reference external" href="https://github.com/SchulzLab/TEPIC">TEPIC</a>: Python + R + C++</p></li>
+<li><p><a class="reference external" href="https://www.jstacs.de/index.php/PrediTALE">PrediTALE</a>: JAR file</p></li>
+<li><p><a class="reference external" href="https://github.com/marrlab/InstantDL">InstantDL</a>: Python package</p></li>
+<li><p><a class="reference external" href="https://github.com/LanyingWei/FilterFFPE">FilterFFPE</a>: pending addition to Bioconductor</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Questions?</p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2016-2020, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/tutorials/gcb2020.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-utils/edit/master/docs/source/tutorials/gcb2020.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

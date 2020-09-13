@@ -27,7 +27,7 @@ biopython.convert
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.0-0``
 
       
 
@@ -35,6 +35,7 @@ biopython.convert
    :depends biopython: ``>=1.73``
    :depends gffutils: ``>=0.9``
    :depends jmespath: ``>=0.9.4``
+   :depends pbr: 
    :depends python: 
    :requirements:
 

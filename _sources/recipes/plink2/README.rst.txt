@@ -10,13 +10,13 @@ plink2
    :replaces_section_title:
    :noindex:
 
-   Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
+   Whole genome association analysis toolset
 
    :homepage: https://www.cog-genomics.org/plink2
-   :license: GPL
+   :license: GPL-3
    :recipe: /`plink2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink2/meta.yaml>`_
 
-   
+   Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
 
 
 .. conda:package:: plink2
@@ -27,11 +27,13 @@ plink2
       
       
 
-      ``1.90b3.35-0``
+      ``2.00a2.3-0``,  ``1.90b3.35-0``
 
       
 
    
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openblas: 
    :requirements:
 

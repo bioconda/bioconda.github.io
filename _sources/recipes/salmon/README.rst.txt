@@ -15,7 +15,7 @@ salmon
    :homepage: https://github.com/COMBINE-lab/salmon
    :license: GPLv3
    :recipe: /`salmon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/salmon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/salmon/meta.yaml>`_
-   :links: biotools: :biotools:`salmon`, usegalaxy-eu: :usegalaxy-eu:`salmon`, doi: :doi:`10.1038/nmeth.4197`
+   :links: biotools: :biotools:`salmon`, usegalaxy-eu: :usegalaxy-eu:`salmon`, usegalaxy-eu: :usegalaxy-eu:`alevin`, doi: :doi:`10.1038/nmeth.4197`
 
    
 

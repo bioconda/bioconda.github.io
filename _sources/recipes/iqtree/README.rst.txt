@@ -15,6 +15,7 @@ iqtree
    :homepage: http://www.iqtree.org/
    :license: GPL-2.0
    :recipe: /`iqtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree/meta.yaml>`_
+   :links: biotools: :biotools:`iq-tree`, doi: :doi:`10.1093/molbev/msu300`, usegalaxy-eu: :usegalaxy-eu:`iqtree`
 
    
 

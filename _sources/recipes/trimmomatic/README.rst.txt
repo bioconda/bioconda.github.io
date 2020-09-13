@@ -15,7 +15,7 @@ trimmomatic
    :homepage: http://www.usadellab.org/cms/?page=trimmomatic
    :license: GPLv3
    :recipe: /`trimmomatic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimmomatic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimmomatic/meta.yaml>`_
-   :links: biotools: :biotools:`trimmomatic`, doi: :doi:`10.1093/bioinformatics/btu170`
+   :links: biotools: :biotools:`trimmomatic`, usegalaxy-eu: :usegalaxy-eu:`trimmomatic`, doi: :doi:`10.1093/bioinformatics/btu170`
 
    
 

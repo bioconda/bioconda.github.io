@@ -28,10 +28,10 @@ cdna_cupcake
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>12.4.0-0</code>,  <code>12.3.0-0</code>,  <code>12.1.0-1</code>,  <code>12.1.0-0</code>,  <code>12.0.0-0</code>,  <code>11.0.0-0</code>,  <code>10.0.1-0</code>,  <code>9.1.1-0</code>,  <code>9.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>12.4.0-1</code>,  <code>12.4.0-0</code>,  <code>12.3.0-0</code>,  <code>12.1.0-1</code>,  <code>12.1.0-0</code>,  <code>12.0.0-0</code>,  <code>11.0.0-0</code>,  <code>10.0.1-0</code>,  <code>9.1.1-0</code>,  </span></summary>
       
 
-      ``12.4.0-0``,  ``12.3.0-0``,  ``12.1.0-1``,  ``12.1.0-0``,  ``12.0.0-0``,  ``11.0.0-0``,  ``10.0.1-0``,  ``9.1.1-0``,  ``9.0.3-0``,  ``8.7.3-0``,  ``5.8-0``,  ``5.3-1``,  ``5.3-0``
+      ``12.4.0-1``,  ``12.4.0-0``,  ``12.3.0-0``,  ``12.1.0-1``,  ``12.1.0-0``,  ``12.0.0-0``,  ``11.0.0-0``,  ``10.0.1-0``,  ``9.1.1-0``,  ``9.0.3-0``,  ``8.7.3-0``,  ``5.8-0``,  ``5.3-1``,  ``5.3-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ cdna_cupcake
    :depends bx-python: ``>=0.7.3``
    :depends graphviz: 
    :depends libgcc-ng: ``>=7.5.0``
-   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pysam: 
    :depends python: ``>=3.7,<3.8.0a0``
    :depends python_abi: ``3.7.* *_cp37m``

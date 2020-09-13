@@ -8,6 +8,7 @@
     <title>Package Recipe &#39;plink2&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
@@ -70,6 +71,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
 </ul>
 
 <ul>
@@ -103,18 +105,19 @@
 <dl class="conda recipe">
 <dt>
 <em class="property">recipe </em><code class="sig-name descname">plink2</code></dt>
-<dd><p>Whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner.</p>
+<dd><p>Whole genome association analysis toolset</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="https://www.cog-genomics.org/plink2">https://www.cog-genomics.org/plink2</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL</p>
+<dd class="field-even"><p>GPL-3</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink2">plink2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink2/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>Whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -123,10 +126,12 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/plink2"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/plink2.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/plink2"><img alt="docker_plink2" src="https://quay.io/repository/biocontainers/plink2/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.90b3.35-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.00a2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.90b3.35-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/openblas-feedstock"><strong>openblas</strong></a></p></li>
 </ul>
 </dd>

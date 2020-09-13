@@ -16,6 +16,7 @@ rxdock
    :developer docs: https://gitlab.com/rxdock/rxdock/
    :license: LGPL-3.0
    :recipe: /`rxdock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rxdock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rxdock/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`rxdock_rbdock`
 
    
 

@@ -15,7 +15,7 @@ sortmerna
    :homepage: http://bioinfo.lifl.fr/RNA/sortmerna
    :license: LGPL
    :recipe: /`sortmerna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna/meta.yaml>`_
-   :links: biotools: :biotools:`sortmerna`, doi: :doi:`10.1093/bioinformatics/bts611`
+   :links: biotools: :biotools:`sortmerna`, doi: :doi:`10.1093/bioinformatics/bts611`, usegalaxy-eu: :usegalaxy-eu:`bg_sortmerna`
 
    
 

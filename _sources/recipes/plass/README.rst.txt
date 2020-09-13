@@ -27,15 +27,15 @@ plass
       
       
 
-      ``3.764a3-0``,  ``2.c7e35-1``
+      ``4.687d7-0``,  ``3.764a3-0``,  ``2.c7e35-1``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openmp: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

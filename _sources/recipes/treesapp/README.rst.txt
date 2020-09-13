@@ -27,32 +27,36 @@ treesapp
       
       
 
-      ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
+      ``0.8.9-0``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
 
       
 
    
-   :depends biopython: ``>=1.68``
+   :depends biopython: ``>=1.77``
    :depends bwa: ``>=0.7.3``
+   :depends epa-ng: ``>=0.3.6``
    :depends ete3: ``>=3.1.1``
    :depends fasttree: ``>=2.1.9``
    :depends hmmer: ``>=3.1``
-   :depends joblib: ``>=0.14.1``
+   :depends joblib: ``0.15.1``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends mafft: ``>=7.407``
    :depends matplotlib-base: ``>=3.1.2``
    :depends numpy: 
+   :depends packaging: ``>=20.3``
    :depends prodigal: ``>=2.6.2``
-   :depends pyfastx: ``0.6.10``
+   :depends pyfastx: ``>=0.6.15``
    :depends pygtrie: ``>=2.3.2``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
-   :depends raxml: ``8.2.12``
+   :depends raxml-ng: ``>=0.9.0``
    :depends samsum: ``0.1.2``
-   :depends scipy: ``>=1.4.1``
+   :depends scikit-learn: ``0.23.1``
+   :depends scipy: ``>=1.5.2``
    :depends seaborn: ``>=0.9.0``
    :depends six: ``>=1.14.0``
+   :depends tqdm: ``>=4.48.2``
    :requirements:
 
    .. rubric:: Installation

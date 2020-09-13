@@ -15,6 +15,7 @@ strip_it
    :homepage: http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/strip-it/1.0.2/strip-it.html
    :license: LGPL
    :recipe: /`strip_it <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strip_it>`_/`1.0.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strip_it/1.0.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strip_it/1.0.2/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`ctb_stripit`
 
    
 

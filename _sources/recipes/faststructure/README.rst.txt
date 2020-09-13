@@ -27,7 +27,7 @@ faststructure
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -36,7 +36,7 @@ faststructure
    :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib: 
    :depends numpy: 
-   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends openblas: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :depends scipy: 

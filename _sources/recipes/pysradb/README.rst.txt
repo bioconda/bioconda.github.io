@@ -31,10 +31,10 @@ pysradb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.4-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.9-0</code>,  <code>0.9.7-0</code>,  <code>0.9.6-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.0-0</code>,  <code>0.10.4-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.9-0</code>,  <code>0.9.7-0</code>,  <code>0.9.6-0</code>,  <code>0.9.0-0</code>,  </span></summary>
       
 
-      ``0.10.4-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.9-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``
+      ``0.11.0-0``,  ``0.10.4-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.9-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -46,8 +46,7 @@ pysradb
    :depends pandas: ``1.0.1.*``
    :depends python: ``>=3``
    :depends requests: ``2.23.0.*``
-   :depends sra-tools: 
-   :depends tqdm: ``4.43.0.*``
+   :depends tqdm: ``4.48.2.*``
    :depends xmltodict: ``0.12.0.*``
    :requirements:
 

@@ -28,13 +28,13 @@ ismapper
       
       
 
-      ``2.0.1-0``,  ``2.0-1``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-1``
 
       
 
    
    :depends bedtools: ``>=2.20``
-   :depends biopython: ``>=1.63``
+   :depends biopython: ``>=1.63,<1.78``
    :depends blast: ``>=2.2.28``
    :depends bwa: ``>=0.7.5a``
    :depends python: ``>=3.6``

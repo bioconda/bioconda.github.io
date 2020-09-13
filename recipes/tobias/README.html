@@ -8,6 +8,7 @@
     <title>Package Recipe &#39;tobias&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
@@ -70,6 +71,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
 </ul>
 
 <ul>
@@ -128,17 +130,19 @@ of command-line bioinformatics tools for performing footprinting analysis on ATA
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/tobias"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/tobias.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/tobias"><img alt="docker_tobias" src="https://quay.io/repository/biocontainers/tobias/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.11.6-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.11.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.12.0-0</code>,  <code>0.11.6-1</code>,  <code>0.11.6-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.9.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.12.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.11.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/adjusttext-feedstock"><strong>adjusttext</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/boto3-feedstock"><strong>boto3</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/importlib_metadata-feedstock"><strong>importlib_metadata</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/kneed-feedstock"><strong>kneed</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../logomaker/README.html#package-logomaker" title="logomaker package"><strong>logomaker</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-base-feedstock"><strong>matplotlib-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../moods/README.html#package-moods" title="moods package"><strong>moods</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.14.6,&lt;2.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.16.5,&lt;2.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pybedtools/README.html#package-pybedtools" title="pybedtools package"><strong>pybedtools</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pybigwig/README.html#package-pybigwig" title="pybigwig package"><strong>pybigwig</strong></a></p></li>
@@ -150,7 +154,7 @@ of command-line bioinformatics tools for performing footprinting analysis on ATA
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scikit-learn-feedstock"><strong>scikit-learn</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/seaborn-feedstock"><strong>seaborn</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.9.1</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../svist4get/README.html#package-svist4get" title="svist4get package"><strong>svist4get</strong></a> <code class="docutils literal notranslate"><span class="pre">1.2.22</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../svist4get/README.html#package-svist4get" title="svist4get package"><strong>svist4get</strong></a> <code class="docutils literal notranslate"><span class="pre">1.2.24</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xgboost-feedstock"><strong>xgboost</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.71</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xlsxwriter-feedstock"><strong>xlsxwriter</strong></a></p></li>
 </ul>

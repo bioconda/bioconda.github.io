@@ -15,6 +15,7 @@ shape_it
    :homepage: http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/shape-it/1.0.1/shape-it.html
    :license: LGPL
    :recipe: /`shape_it <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shape_it>`_/`1.0.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shape_it/1.0.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shape_it/1.0.1/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`ctb_shapeit`
 
    
 

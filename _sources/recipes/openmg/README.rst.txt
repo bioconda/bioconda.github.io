@@ -15,6 +15,7 @@ openmg
    :homepage: https://sourceforge.net/projects/openmg
    :license: GNU General Public License
    :recipe: /`openmg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openmg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openmg/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`ctb_openmg`
 
    
 

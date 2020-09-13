@@ -27,7 +27,7 @@ hmftools-linx
       
       
 
-      ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
+      ``1.10-1``,  ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
 
       
 
@@ -35,7 +35,6 @@ hmftools-linx
    :depends bioconductor-gviz: 
    :depends circos: ``>=0.69.6``
    :depends openjdk: ``>=8``
-   :depends r-base: ``3.6.*``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-ggplot2: 

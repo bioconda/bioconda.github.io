@@ -8,6 +8,7 @@
     <title>Package Recipe &#39;openms-meta&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
@@ -70,6 +71,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../user/index.html">User Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
 </ul>
 
 <ul>
@@ -115,7 +117,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openms-meta">openms-meta</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openms-meta/meta.yaml">meta.yaml</a></p>
 </dd>
 <dt class="field-even">Links</dt>
-<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/openms">openms</a>, doi: <a class="reference external" href="https://doi.org/10.1038/nmeth.3959">10.1038/nmeth.3959</a></p>
+<dd class="field-even"><p>biotools: <a class="reference external" href="https://bio.tools/openms">openms</a>, usegalaxy-eu: <a class="reference external" href="https://usegalaxy.eu/?tool_id=openms_fileconverter">openms_fileconverter</a>, doi: <a class="reference external" href="https://doi.org/10.1038/nmeth.3959">10.1038/nmeth.3959</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -126,7 +128,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/libopenms"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/libopenms.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/openms-meta"><img alt="docker_libopenms" src="https://quay.io/repository/biocontainers/openms-meta/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.5.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-3</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.5.0-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-3</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -134,16 +136,16 @@
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/hdf5-feedstock"><strong>hdf5</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10.5,&lt;1.10.6.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/qt-feedstock"><strong>qt</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.12.5,&lt;5.13.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlite-feedstock"><strong>sqlite</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.32.3,&lt;4.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xerces-c-feedstock"><strong>xerces-c</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.2.2,&lt;3.2.3.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/qt-feedstock"><strong>qt</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.12.9,&lt;5.13.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlite-feedstock"><strong>sqlite</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.33.0,&lt;4.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xerces-c-feedstock"><strong>xerces-c</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.2.3,&lt;3.3.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.11,&lt;1.3.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="#pyopenms"><strong class="xref backref">pyopenms</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="#openms"><strong class="xref backref">openms</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="#pyopenms"><strong class="xref backref">pyopenms</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -169,7 +171,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/openms"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/openms.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/openms-meta"><img alt="docker_openms" src="https://quay.io/repository/biocontainers/openms-meta/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-3</code>,  <code>2.3.0-2</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.5.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.5.0-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -181,12 +183,12 @@
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/hdf5-feedstock"><strong>hdf5</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10.5,&lt;1.10.6.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/hdf5-feedstock"><strong>hdf5</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10.5,&lt;1.11.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="#package-libopenms" title="libopenms package"><strong>libopenms</strong></a> <code class="docutils literal notranslate"><span class="pre">2.5.0 h463af6b_4</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="#package-libopenms" title="libopenms package"><strong>libopenms</strong></a> <code class="docutils literal notranslate"><span class="pre">2.5.0 h4afb90d_6</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libsvm-feedstock"><strong>libsvm</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.21,&lt;3.22.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/qt-feedstock"><strong>qt</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.12.5,&lt;5.13.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlite-feedstock"><strong>sqlite</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.32.3,&lt;4.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xerces-c-feedstock"><strong>xerces-c</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.2.2,&lt;3.2.3.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/qt-feedstock"><strong>qt</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.12.9,&lt;5.13.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlite-feedstock"><strong>sqlite</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.33.0,&lt;4.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xerces-c-feedstock"><strong>xerces-c</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.2.3,&lt;3.3.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.11,&lt;1.3.0a0</span></code></p></li>
 </ul>
 </dd>
@@ -246,7 +248,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/openms-thirdparty"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/openms-thirdparty.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/openms-meta"><img alt="docker_openms-thirdparty" src="https://quay.io/repository/biocontainers/openms-meta/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.5.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.5.0-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -258,9 +260,9 @@
 <li><p><a class="conda-package reference internal" href="../luciphor2/README.html#package-luciphor2" title="luciphor2 package"><strong>luciphor2</strong></a> <code class="docutils literal notranslate"><span class="pre">2018_06_28</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../msgf_plus/README.html#package-msgf_plus" title="msgf_plus package"><strong>msgf_plus</strong></a> <code class="docutils literal notranslate"><span class="pre">2017.07.21</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../omssa/README.html#package-omssa" title="omssa package"><strong>omssa</strong></a> <code class="docutils literal notranslate"><span class="pre">2.1.9</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="#package-openms" title="openms package"><strong>openms</strong></a> <code class="docutils literal notranslate"><span class="pre">2.5.0 h463af6b_4</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="#package-openms" title="openms package"><strong>openms</strong></a> <code class="docutils literal notranslate"><span class="pre">2.5.0 h4afb90d_6</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../pepnovo/README.html#package-pepnovo" title="pepnovo package"><strong>pepnovo</strong></a> <code class="docutils literal notranslate"><span class="pre">20101117</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../percolator/README.html#package-percolator" title="percolator package"><strong>percolator</strong></a> <code class="docutils literal notranslate"><span class="pre">3.4</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../percolator/README.html#package-percolator" title="percolator package"><strong>percolator</strong></a> <code class="docutils literal notranslate"><span class="pre">3.5</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../sirius-csifingerid/README.html#package-sirius-csifingerid" title="sirius-csifingerid package"><strong>sirius-csifingerid</strong></a> <code class="docutils literal notranslate"><span class="pre">4.0.1</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../thermorawfileparser/README.html#package-thermorawfileparser" title="thermorawfileparser package"><strong>thermorawfileparser</strong></a> <code class="docutils literal notranslate"><span class="pre">1.2.3</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../xtandem/README.html#package-xtandem" title="xtandem package"><strong>xtandem</strong></a> <code class="docutils literal notranslate"><span class="pre">15.12.15.2</span></code></p></li>
@@ -293,7 +295,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/pyopenms"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pyopenms.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/openms-meta"><img alt="docker_pyopenms" src="https://quay.io/repository/biocontainers/openms-meta/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.5.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.5.0-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -305,22 +307,22 @@
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/hdf5-feedstock"><strong>hdf5</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10.5,&lt;1.10.6.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/hdf5-feedstock"><strong>hdf5</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10.5,&lt;1.11.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="#package-libopenms" title="libopenms package"><strong>libopenms</strong></a> <code class="docutils literal notranslate"><span class="pre">2.5.0 h463af6b_4</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="#package-libopenms" title="libopenms package"><strong>libopenms</strong></a> <code class="docutils literal notranslate"><span class="pre">2.5.0 h4afb90d_6</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libsvm-feedstock"><strong>libsvm</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.21,&lt;3.22.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.7,&lt;2.8.0a0 *_cpython</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python_abi-feedstock"><strong>python_abi</strong></a> <code class="docutils literal notranslate"><span class="pre">2.7.* *_cp27mu</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/qt-feedstock"><strong>qt</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.12.5,&lt;5.13.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlite-feedstock"><strong>sqlite</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.32.3,&lt;4.0a0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xerces-c-feedstock"><strong>xerces-c</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.2.2,&lt;3.2.3.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/qt-feedstock"><strong>qt</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=5.12.9,&lt;5.13.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/sqlite-feedstock"><strong>sqlite</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.33.0,&lt;4.0a0</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/xerces-c-feedstock"><strong>xerces-c</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.2.3,&lt;3.3.0a0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.11,&lt;1.3.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../easypqp/README.html#easypqp"><strong class="xref backref">easypqp</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../diapysef/README.html#diapysef"><strong class="xref backref">diapysef</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../easypqp/README.html#easypqp"><strong class="xref backref">easypqp</strong></a></p></li>
 </ul>
 </dd>
 </dl>

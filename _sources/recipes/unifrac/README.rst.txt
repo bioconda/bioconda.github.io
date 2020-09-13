@@ -32,18 +32,18 @@ unifrac
       
       
 
-      ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
+      ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
 
       
 
    
    :depends biom-format: 
-   :depends h5py: ``>=2.9.0,<3.0a0``
+   :depends h5py: ``>=2.10.0,<3.0a0``
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends lz4: 
-   :depends numpy: ``>=1.19.0,<2.0a0``
+   :depends numpy: ``>=1.19.1,<2.0a0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends scikit-bio: ``>=0.5.1``

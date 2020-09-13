@@ -27,7 +27,7 @@ nemo
       
       
 
-      ``2.3.51-1``,  ``2.3.51-0``
+      ``2.3.51-2``,  ``2.3.51-1``,  ``2.3.51-0``
 
       
 
@@ -35,7 +35,7 @@ nemo
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends openblas: 
    :requirements:
 
    .. rubric:: Installation

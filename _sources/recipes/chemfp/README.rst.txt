@@ -27,6 +27,7 @@ chemfp
    :homepage: https://chemfp.com
    :license: MIT
    :recipe: /`chemfp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chemfp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chemfp/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13321-019-0398-8`, usegalaxy-eu: :usegalaxy-eu:`ctb_chemfp_mol2fps`
 
    
 

@@ -15,7 +15,7 @@ mafft
    :homepage: http://mafft.cbrc.jp/alignment/software/
    :license: BSD
    :recipe: /`mafft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft/meta.yaml>`_
-   :links: doi: :doi:`10.1093/nar/gkf436`
+   :links: doi: :doi:`10.1093/nar/gkf436`, usegalaxy-eu: :usegalaxy-eu:`rbc_mafft`
 
    
 

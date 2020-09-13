@@ -28,10 +28,10 @@ stringmlst
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.5.1-0</code>,  <code>0.5.1a-1</code>,  <code>0.5.1a-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.3-0</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.5.1-0</code>,  <code>0.5.1a-1</code>,  <code>0.5.1a-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  </span></summary>
       
 
-      ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.1-0``,  ``0.5.1a-1``,  ``0.5.1a-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3.7-0``,  ``0.3.6.1-0``
+      ``0.6.3-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.1-0``,  ``0.5.1a-1``,  ``0.5.1a-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3.7-0``,  ``0.3.6.1-0``
 
       
       .. raw:: html

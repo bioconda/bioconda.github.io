@@ -27,7 +27,7 @@ lorikeet-genome
       
       
 
-      ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
+      ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
 
       
 
@@ -42,7 +42,7 @@ lorikeet-genome
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends minimap2: 
    :depends ngmlr: 
-   :depends openblas: ``>=0.3.6,<0.3.7.0a0``
+   :depends openblas: 
    :depends openssl: ``>=1.1.1g,<1.1.2a``
    :depends parallel: 
    :depends prokka: 

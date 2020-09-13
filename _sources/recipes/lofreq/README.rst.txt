@@ -15,6 +15,7 @@ lofreq
    :homepage: http://csb5.github.io/lofreq/
    :license: MIT
    :recipe: /`lofreq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lofreq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lofreq/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`lofreq_call`
 
    
 

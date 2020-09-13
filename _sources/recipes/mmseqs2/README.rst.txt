@@ -28,10 +28,10 @@ mmseqs2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>11.e1a1c-0</code>,  <code>10.6d92c-0</code>,  <code>9.d36de-0</code>,  <code>8.fac81-1</code>,  <code>7.4e23d-1</code>,  <code>6.f5a1c-1</code>,  <code>5.9375b-1</code>,  <code>4.bff50-1</code>,  <code>4.0b8cc-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>12.113e3-0</code>,  <code>11.e1a1c-0</code>,  <code>10.6d92c-0</code>,  <code>9.d36de-0</code>,  <code>8.fac81-1</code>,  <code>7.4e23d-1</code>,  <code>6.f5a1c-1</code>,  <code>5.9375b-1</code>,  <code>4.bff50-1</code>,  </span></summary>
       
 
-      ``11.e1a1c-0``,  ``10.6d92c-0``,  ``9.d36de-0``,  ``8.fac81-1``,  ``7.4e23d-1``,  ``6.f5a1c-1``,  ``5.9375b-1``,  ``4.bff50-1``,  ``4.0b8cc-1``,  ``3.be8f6-1``,  ``3.be8f6-0``,  ``2.23394-0``
+      ``12.113e3-0``,  ``11.e1a1c-0``,  ``10.6d92c-0``,  ``9.d36de-0``,  ``8.fac81-1``,  ``7.4e23d-1``,  ``6.f5a1c-1``,  ``5.9375b-1``,  ``4.bff50-1``,  ``4.0b8cc-1``,  ``3.be8f6-1``,  ``3.be8f6-0``,  ``2.23394-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ mmseqs2
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openmp: 
    :depends wget: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

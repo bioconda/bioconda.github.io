@@ -15,6 +15,7 @@ tophat
    :homepage: http://ccb.jhu.edu/software/tophat/index.shtml
    :license: Boost Software License
    :recipe: /`tophat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat/meta.yaml>`_
+   :links: biotools: :biotools:`tophat2`, usegalaxy-eu: :usegalaxy-eu:`tophat2`
 
    
 

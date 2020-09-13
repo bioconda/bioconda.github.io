@@ -27,7 +27,7 @@ msproteomicstools
       
       
 
-      ``0.11.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.11.0-1``,  ``0.11.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
@@ -37,7 +37,7 @@ msproteomicstools
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends lxml: 
-   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pymzml: ``0.7.8``
    :depends pyteomics: ``>=2.4.0``
    :depends python: ``>=2.7,<2.8.0a0``

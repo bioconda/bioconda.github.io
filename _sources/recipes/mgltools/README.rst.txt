@@ -15,6 +15,7 @@ mgltools
    :homepage: http://mgltools.scripps.edu/
    :license: OTHER
    :recipe: /`mgltools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgltools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgltools/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`prepare_receptor`
 
    
 

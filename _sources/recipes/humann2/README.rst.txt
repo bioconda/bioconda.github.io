@@ -15,6 +15,7 @@ humann2
    :homepage: http://huttenhower.sph.harvard.edu/humann2
    :license: MIT / MIT
    :recipe: /`humann2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/humann2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/humann2/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`humann2`
 
    
 

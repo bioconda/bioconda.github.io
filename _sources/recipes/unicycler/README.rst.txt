@@ -15,6 +15,7 @@ unicycler
    :homepage: https://github.com/rrwick/Unicycler
    :license: GPL / GPL-3.0
    :recipe: /`unicycler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unicycler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unicycler/meta.yaml>`_
+   :links: biotools: :biotools:`unicycler`, usegalaxy-eu: :usegalaxy-eu:`unicycler`
 
    
 

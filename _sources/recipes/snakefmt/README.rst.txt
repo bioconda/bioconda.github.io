@@ -27,13 +27,14 @@ snakefmt
       
       
 
-      ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends black: ``>=19.10b0,<20.0``
    :depends click: ``>=7.1.1,<8.0.0``
+   :depends importlib_metadata: ``>=1.7,<2.0.0``
    :depends python: ``>=3.6``
    :depends toml: ``>=0.10.0,<0.11.0``
    :requirements:

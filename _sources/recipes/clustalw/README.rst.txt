@@ -15,6 +15,7 @@ clustalw
    :homepage: http://www.clustal.org/clustal2/
    :license: GNU Lesser GPL
    :recipe: /`clustalw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalw/meta.yaml>`_
+   :links: biotools: :biotools:`trinity`, doi: :doi:`10.1038/nbt.1883`, usegalaxy-eu: :usegalaxy-eu:`clustalw`
 
    
 

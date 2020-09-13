@@ -18,7 +18,7 @@ spades
    :developer docs: https://github.com/ablab/spades
    :license: GPL / GPLv2
    :recipe: /`spades <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spades>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spades/meta.yaml>`_
-   :links: biotools: :biotools:`spades`, doi: :doi:`10.1089/cmb.2012.0021`, doi: :doi:`10.1101/gr.213959.116`, doi: :doi:`10.1093/gigascience/giz100`, doi: :doi:`10.1093/bioinformatics/btz349`
+   :links: biotools: :biotools:`spades`, usegalaxy-eu: :usegalaxy-eu:`spades`, doi: :doi:`10.1089/cmb.2012.0021`, doi: :doi:`10.1101/gr.213959.116`, doi: :doi:`10.1093/gigascience/giz100`, doi: :doi:`10.1093/bioinformatics/btz349`
 
    SPAdes \(St. Petersburg genome assembler\) is a genome assembly algorithm which was designed for
    single cell and multi\-cells bacterial data sets. However\, it might not be suitable for large

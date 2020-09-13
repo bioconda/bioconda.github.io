@@ -15,7 +15,7 @@ moff
    :homepage: https://github.com/compomics/moFF
    :license: Apache 2.0
    :recipe: /`moff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moff/meta.yaml>`_
-   :links: doi: :doi:`10.1021/acs.jproteome.8b00708`
+   :links: doi: :doi:`10.1021/acs.jproteome.8b00708`, usegalaxy-eu: :usegalaxy-eu:`proteomics_moff`
 
    
 

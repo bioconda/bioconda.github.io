@@ -28,10 +28,10 @@ fastq_utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.24.1-0</code>,  <code>0.24.0-0</code>,  <code>0.23.0-0</code>,  <code>0.22.1-0</code>,  <code>0.22.0-0</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.3-0</code>,  <code>0.19.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.24.1-1</code>,  <code>0.24.1-0</code>,  <code>0.24.0-0</code>,  <code>0.23.0-0</code>,  <code>0.22.1-0</code>,  <code>0.22.0-0</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.3-0</code>,  </span></summary>
       
 
-      ``0.24.1-0``,  ``0.24.0-0``,  ``0.23.0-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.3-0``,  ``0.19.2-0``,  ``0.18.2-1``
+      ``0.24.1-1``,  ``0.24.1-0``,  ``0.24.0-0``,  ``0.23.0-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.3-0``,  ``0.19.2-0``,  ``0.18.2-1``
 
       
       .. raw:: html
