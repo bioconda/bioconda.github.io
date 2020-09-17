@@ -14,7 +14,7 @@ dropseq_tools
 
 
    :homepage: http://mccarrolllab.com/dropseq/
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`dropseq_tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropseq_tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropseq_tools/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ dropseq_tools
       
       
 
-      ``2.3.0-0``,  ``2.0.0-0``,  ``1.13-0``
+      ``2.4.0-0``,  ``2.3.0-0``,  ``2.0.0-0``,  ``1.13-0``
 
       
 
