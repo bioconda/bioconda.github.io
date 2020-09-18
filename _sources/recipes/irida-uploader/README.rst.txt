@@ -10,7 +10,7 @@ irida-uploader
    :replaces_section_title:
    :noindex:
 
-   Sequence file uploader for IRIDA
+   Upload NGS data to IRIDA system
 
    :homepage: https://github.com/phac-nml/irida-uploader
    :documentation: https://irida-uploader.readthedocs.io/en/latest

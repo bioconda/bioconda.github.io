@@ -27,21 +27,21 @@ scvelo
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.25-0``,  ``0.1.24-0``
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.25-0``,  ``0.1.24-0``
 
       
 
    
-   :depends anndata: ``>=0.6.18``
+   :depends anndata: ``>=0.7.0``
    :depends loompy: ``>=2.0.12``
-   :depends matplotlib-base: ``>=2.2``
+   :depends matplotlib-base: ``>=3.1.2``
    :depends numpy: ``>=1.17``
    :depends pandas: ``>=0.23``
    :depends python: ``>=3.6``
-   :depends scanpy: ``>=1.4``
+   :depends scanpy: ``>=1.5.0``
    :depends scikit-learn: ``>=0.21.2``
-   :depends scipy: ``>=1.0``
-   :depends umap-learn: ``>=0.3``
+   :depends scipy: ``>=1.4.1``
+   :depends umap-learn: ``>=0.3.10``
    :requirements:
 
    .. rubric:: Installation

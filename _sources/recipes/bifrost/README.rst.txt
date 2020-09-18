@@ -13,7 +13,7 @@ bifrost
    Highly parallel construction and indexing of colored and compacted de Bruijn graphs
 
    :homepage: https://github.com/pmelsted/bifrost
-   :license: BSD / BSD-2
+   :license: BSD / BSD-2-Clause
    :recipe: /`bifrost <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifrost>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifrost/meta.yaml>`_
    :links: doi: :doi:`10.1101/695338`
 
@@ -28,7 +28,7 @@ bifrost
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
