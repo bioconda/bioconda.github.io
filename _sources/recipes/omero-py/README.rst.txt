@@ -27,11 +27,12 @@ omero-py
       
       
 
-      ``5.7.1-0``
+      ``5.8.0-0``,  ``5.7.1-0``
 
       
 
    
+   :depends appdirs: 
    :depends future: 
    :depends numpy: 
    :depends pillow: 

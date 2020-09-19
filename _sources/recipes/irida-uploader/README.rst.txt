@@ -28,13 +28,22 @@ irida-uploader
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+      
 
+      ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends appdirs: ``>=1.4.3``
+   :depends argparse: 
    :depends cerberus: 
    :depends python: ``>=3.5.*``
    :depends rauth: ``>=0.7.3``

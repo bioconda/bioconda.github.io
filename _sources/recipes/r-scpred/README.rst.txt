@@ -12,8 +12,8 @@ r-scpred
 
    Bioconda\-installable version of scPred cell type classification method.
 
-   :homepage: https://github.com/IMB-Computational-Genomics-Lab/scPred
-   :developer docs: https://github.com/IMB-Computational-Genomics-Lab/scPred/tree/development
+   :homepage: https://github.com/powellgenomicslab/scPred
+   :developer docs: https://github.com/powellgenomicslab/scPred/tree/development
    :license: GPL-3
    :recipe: /`r-scpred <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scpred>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scpred/meta.yaml>`_
 
@@ -28,7 +28,7 @@ r-scpred
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``v1.9.0-0``
 
       
 
