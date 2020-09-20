@@ -13,7 +13,7 @@ mgkit
    Metagenomics Framework
 
    :homepage: https://github.com/frubino/mgkit
-   :license: GPL2 / GNU General Public License v2 or later (GPLv2+)
+   :license: GPL2 / GPL-2.0-or-later
    :recipe: /`mgkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgkit/meta.yaml>`_
    :links: biotools: :biotools:`mgkit`, doi: :doi:`10.6084/m9.figshare.1588384`
 
@@ -29,10 +29,10 @@ mgkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.4-0</code>,  </span></summary>
       
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.0-0``,  ``0.2.2-0``
+      ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.0-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ mgkit
       
 
    
-   :depends click: 
+   :depends click: ``>=6``
    :depends future: 
    :depends htseq: ``>=0.9.1``
    :depends libgcc-ng: ``>=7.5.0``
@@ -59,7 +59,7 @@ mgkit
    :depends scipy: ``>=0.15.1``
    :depends semidbm: ``>=0.5.1``
    :depends statsmodels: ``>=0.8``
-   :depends tqdm: 
+   :depends tqdm: ``>=4.0``
    :requirements:
 
    .. rubric:: Installation
