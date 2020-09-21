@@ -29,7 +29,7 @@ scvi-tools
       
       
 
-      ``0.7.0a4-0``
+      ``0.7.0a4-1``,  ``0.7.0a4-0``
 
       
 
@@ -37,7 +37,7 @@ scvi-tools
    :depends anndata: ``>=0.7.4``
    :depends h5py: ``>=2.9.0``
    :depends hyperopt: ``0.1.2``
-   :depends ipywidgets: 
+   :depends ipywidgets: ``>=7.5.1``
    :depends numba: ``>=0.41.0``
    :depends numpy: ``>=1.17.0``
    :depends pandas: ``>=1.0``
@@ -46,7 +46,7 @@ scvi-tools
    :depends pytorch: ``>=1.3``
    :depends rich: ``>=6.2.0``
    :depends scikit-learn: ``>=0.21.2``
-   :depends toml: 
+   :depends toml: ``>=0.10.1``
    :depends tqdm: ``>=4.31.1``
    :depends typing-extensions: ``>=3.7.4``
    :depends xlrd: ``>=1.2.0``

@@ -27,14 +27,14 @@ abra2
       
       
 
-      ``2.22-0``,  ``2.20-0``
+      ``2.23-0``,  ``2.22-0``,  ``2.20-0``
 
       
 
    
    :depends coreutils: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openjdk: ``>=8``
    :requirements:
 

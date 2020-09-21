@@ -12,7 +12,7 @@ entrez-direct
 
    Entrez Direct \(EDirect\) is an advanced method for accessing the NCBI\'s set of interconnected databases \(publication\, sequence\, structure\, gene\, variation\, expression\, etc.\) from a UNIX terminal window. Functions take search terms from command\-line arguments. Individual operations are combined to build multi\-step queries. Record retrieval and formatting normally complete the process.
 
-   :homepage: ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/13.8.20200831/README
+   :homepage: ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/13.9.20200916/README
    :license: PUBLIC DOMAIN
    :recipe: /`entrez-direct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/entrez-direct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/entrez-direct/meta.yaml>`_
 
@@ -28,10 +28,10 @@ entrez-direct
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>13.8-0</code>,  <code>13.3-0</code>,  <code>11.0-2</code>,  <code>11.0-1</code>,  <code>11.0-0</code>,  <code>10.2-0</code>,  <code>10.0-0</code>,  <code>7.70-2</code>,  <code>7.70-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>13.9-0</code>,  <code>13.8-0</code>,  <code>13.3-0</code>,  <code>11.0-2</code>,  <code>11.0-1</code>,  <code>11.0-0</code>,  <code>10.2-0</code>,  <code>10.0-0</code>,  <code>7.70-2</code>,  </span></summary>
       
 
-      ``13.8-0``,  ``13.3-0``,  ``11.0-2``,  ``11.0-1``,  ``11.0-0``,  ``10.2-0``,  ``10.0-0``,  ``7.70-2``,  ``7.70-1``,  ``7.70-0``,  ``7.00-1``,  ``7.00-0``,  ``5.80-0``,  ``4.00-1``,  ``4.00-0``
+      ``13.9-0``,  ``13.8-0``,  ``13.3-0``,  ``11.0-2``,  ``11.0-1``,  ``11.0-0``,  ``10.2-0``,  ``10.0-0``,  ``7.70-2``,  ``7.70-1``,  ``7.70-0``,  ``7.00-1``,  ``7.00-0``,  ``5.80-0``,  ``4.00-1``,  ``4.00-0``
 
       
       .. raw:: html

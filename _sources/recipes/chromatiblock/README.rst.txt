@@ -13,7 +13,7 @@ chromatiblock
    Scalable\, whole\-genome visualisation of structural changes in prokaryotes.
 
    :homepage: http://github.com/mjsull/chromatiblock/
-   :license: GPLv3
+   :license: GPL-3.0-only
    :recipe: /`chromatiblock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromatiblock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromatiblock/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ chromatiblock
       
       
 
-      ``0.5.1-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``1.0.0-0``,  ``0.5.1-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 

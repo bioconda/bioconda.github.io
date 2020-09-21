@@ -13,7 +13,7 @@ treecluster
    Identify clusters in phylogenetic trees based on a distance threshold and other constraints
 
    :homepage: https://github.com/niemasd/TreeCluster
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`treecluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treecluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treecluster/meta.yaml>`_
    :links: doi: :doi:`10.1371/journal.pone.0221068`
 
@@ -28,7 +28,7 @@ treecluster
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 

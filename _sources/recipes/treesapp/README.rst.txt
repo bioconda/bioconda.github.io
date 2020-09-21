@@ -13,7 +13,7 @@ treesapp
    TreeSAPP is a functional and taxonomic annotation tool for microbial genomes and proteins
 
    :homepage: https://github.com/hallamlab/TreeSAPP
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`treesapp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treesapp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treesapp/meta.yaml>`_
 
    
@@ -27,15 +27,15 @@ treesapp
       
       
 
-      ``0.8.9-0``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
+      ``0.9.0-0``,  ``0.8.9-0``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
 
       
 
    
-   :depends biopython: ``>=1.77``
+   :depends biopython: ``>=1.78``
    :depends bwa: ``>=0.7.3``
    :depends epa-ng: ``>=0.3.6``
-   :depends ete3: ``>=3.1.1``
+   :depends ete3: ``>=3.1.2``
    :depends fasttree: ``>=2.1.9``
    :depends hmmer: ``>=3.1``
    :depends joblib: ``0.15.1``
@@ -43,18 +43,18 @@ treesapp
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends mafft: ``>=7.407``
    :depends matplotlib-base: ``>=3.1.2``
-   :depends numpy: 
-   :depends packaging: ``>=20.3``
+   :depends numpy: ``>=1.18.1``
+   :depends packaging: ``>=20.4``
    :depends prodigal: ``>=2.6.2``
-   :depends pyfastx: ``>=0.6.15``
-   :depends pygtrie: ``>=2.3.2``
+   :depends pyfastx: ``>=0.6.17``
+   :depends pygtrie: ``>=2.3.3``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends raxml-ng: ``>=0.9.0``
    :depends samsum: ``0.1.2``
    :depends scikit-learn: ``0.23.1``
    :depends scipy: ``>=1.5.2``
-   :depends seaborn: ``>=0.9.0``
+   :depends seaborn: ``>=0.11.0``
    :depends six: ``>=1.14.0``
    :depends tqdm: ``>=4.48.2``
    :requirements:

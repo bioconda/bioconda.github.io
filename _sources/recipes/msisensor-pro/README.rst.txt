@@ -28,10 +28,10 @@ msisensor-pro
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.a-3</code>,  <code>1.0.a-2</code>,  <code>1.0.a-1</code>,  <code>1.0.a-0</code>,  <code>0.1.1-8</code>,  <code>0.1.1-7</code>,  <code>0.1.1-6</code>,  <code>0.1.1-5</code>,  <code>0.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.a-0</code>,  <code>1.0.a-7</code>,  <code>1.0.a-3</code>,  <code>1.0.a-2</code>,  <code>1.0.a-1</code>,  <code>1.0.a-0</code>,  <code>0.1.1-8</code>,  <code>0.1.1-7</code>,  <code>0.1.1-6</code>,  </span></summary>
       
 
-      ``1.0.a-3``,  ``1.0.a-2``,  ``1.0.a-1``,  ``1.0.a-0``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-0``,  ``0.0.1-0``
+      ``1.1.a-0``,  ``1.0.a-7``,  ``1.0.a-3``,  ``1.0.a-2``,  ``1.0.a-1``,  ``1.0.a-0``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-0``,  ``0.0.1-0``
 
       
       .. raw:: html
