@@ -13,7 +13,7 @@ r-gkmsvm
    Imports the \'gkmSVM\' v2.0 functionalities into R \<http\:\/\/www.beerlab.org\/gkmsvm\/\> It also uses the \'kernlab\' library \(separate R package by different authors\) for various SVM algorithms.
 
    :homepage: https://CRAN.R-project.org/package=gkmSVM
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL3 / GPL-2.0-or-later
    :recipe: /`r-gkmsvm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gkmsvm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gkmsvm/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-gkmsvm
       
       
 
-      ``0.80.0-1``,  ``0.80.0-0``,  ``0.79.0-1``,  ``0.79.0-0``,  ``0.71.0-0``
+      ``0.81.0-0``,  ``0.80.0-1``,  ``0.80.0-0``,  ``0.79.0-1``,  ``0.79.0-0``,  ``0.71.0-0``
 
       
 
@@ -39,8 +39,8 @@ r-gkmsvm
    :depends bioconductor-iranges: 
    :depends bioconductor-rtracklayer: 
    :depends bioconductor-s4vectors: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-kernlab: 
    :depends r-rcpp: 

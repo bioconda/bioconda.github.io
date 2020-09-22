@@ -13,7 +13,7 @@ fastmlst
    A Fast Multilocus Sequence Typing scan against PubMLST typing schemes
 
    :homepage: https://github.com/EnzoAndree/FastMLST
-   :license: LGPL-3.0
+   :license: LGPL-3.0-only
    :recipe: /`fastmlst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastmlst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastmlst/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ fastmlst
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 

@@ -12,7 +12,7 @@ kmergenie
 
    KmerGenie estimates the best k\-mer length for genome de novo assembly
 
-   :homepage: http://kmergenie.bx.psu.edu/
+   :homepage: http://kmergenie.bx.psu.edu
    :license: free software license
    :recipe: /`kmergenie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmergenie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmergenie/meta.yaml>`_
    :links: biotools: :biotools:`kmergenie`, doi: :doi:`10.1093/bioinformatics/btt310`
@@ -28,7 +28,7 @@ kmergenie
       
       
 
-      ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
+      ``1.7051-0``,  ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
 
       
 

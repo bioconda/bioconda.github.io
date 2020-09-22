@@ -27,16 +27,17 @@ pbipa
       
       
 
-      ``1.3.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.0.1-0``
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.0.1-0``
 
       
 
    
+   :depends htslib: ``>=1.10``
    :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends minimap2: 
    :depends networkx: 
-   :depends nim-falcon: 
+   :depends pb-falconc: 
    :depends pbmm2: 
    :depends pcre: ``>=8.44,<9.0a0``
    :depends racon: 
