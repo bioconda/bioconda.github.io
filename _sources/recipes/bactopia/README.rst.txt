@@ -28,10 +28,10 @@ bactopia
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.11-0</code>,  <code>1.4.10-0</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.11-1</code>,  <code>1.4.11-0</code>,  <code>1.4.10-0</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  </span></summary>
       
 
-      ``1.4.11-0``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``
+      ``1.4.11-1``,  ``1.4.11-0``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -47,6 +47,7 @@ bactopia
    :depends bowtie2: ``<2.4.0``
    :depends cd-hit: 
    :depends conda: 
+   :depends coreutils: 
    :depends executor: 
    :depends lxml: 
    :depends mash: 
@@ -55,6 +56,7 @@ bactopia
    :depends pysam: ``>=0.15.3``
    :depends python: ``>3.6``
    :depends requests: 
+   :depends sed: 
    :depends unzip: 
    :depends wget: 
    :requirements:

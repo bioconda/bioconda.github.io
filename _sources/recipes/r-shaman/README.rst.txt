@@ -12,7 +12,7 @@ r-shaman
 
    The shaman package \- sampling HiC contact matrices for a\-parametric normalization
 
-   :homepage: https://tanaylab.bitbucket.io/shaman/index.html
+   :homepage: https://tanaylab.github.io/shaman/
    :license: GPL
    :recipe: /`r-shaman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-shaman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-shaman/meta.yaml>`_
 

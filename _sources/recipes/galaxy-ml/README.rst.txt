@@ -28,10 +28,10 @@ galaxy-ml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.12-0</code>,  <code>0.7.11-0</code>,  <code>0.7.10-1</code>,  <code>0.7.10-0</code>,  <code>0.7.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.12-0</code>,  <code>0.7.11-0</code>,  <code>0.7.10-1</code>,  <code>0.7.10-0</code>,  </span></summary>
       
 
-      ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
+      ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
 
       
       .. raw:: html
@@ -40,21 +40,21 @@ galaxy-ml
       
 
    
-   :depends asteval: ``>=0.9.13``
-   :depends graphviz: ``>=2.38.0``
-   :depends imbalanced-learn: ``0.5.0``
-   :depends joblib: ``>=0.13.2``
+   :depends asteval: ``>=0.9``
+   :depends graphviz: ``>=2.38``
+   :depends imbalanced-learn: ``<0.6``
+   :depends joblib: 
    :depends keras: ``2.3.1``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends matplotlib: ``>=2.2.4``
-   :depends mlxtend: ``0.17.0``
-   :depends numpy: ``1.17.3``
-   :depends pandas: ``0.25.3``
-   :depends pillow: ``>=6.0.0``
-   :depends plotly: ``4.3.0``
-   :depends psutil: ``>=5.6.5``
-   :depends pydot: ``>=1.4.1``
+   :depends matplotlib-base: 
+   :depends mlxtend: ``<0.18``
+   :depends numpy: ``>=1.17``
+   :depends pandas: ``<0.26``
+   :depends pillow: ``>=6.0``
+   :depends plotly: ``4.3``
+   :depends psutil: ``>=5.6``
+   :depends pydot: ``>=1.4``
    :depends pyfaidx: 
    :depends pytabix: 
    :depends python: ``>=3.6,<3.7.0a0``
@@ -62,11 +62,12 @@ galaxy-ml
    :depends readme_renderer: ``>=24.0``
    :depends requests: ``>=2.22.0``
    :depends scikit-learn: ``0.21.3``
-   :depends scipy: ``>=1.3.1``
-   :depends skrebate: ``0.6``
+   :depends scipy: ``>=1.3``
+   :depends skrebate: ``<0.7``
    :depends tabix: 
    :depends tensorflow: ``1.15.0``
-   :depends xgboost: ``0.80``
+   :depends tensorflow-estimator: ``1.15.1``
+   :depends xgboost: ``<=0.80``
    :requirements:
 
    .. rubric:: Installation

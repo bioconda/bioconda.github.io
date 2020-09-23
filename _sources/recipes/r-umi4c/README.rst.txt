@@ -12,7 +12,7 @@ r-umi4c
 
    Process UMI\-4C data from scratch to produce nice plots.
 
-   :homepage: https://bitbucket.org/tanaylab/umi4cpackage
+   :homepage: https://tanaylab.github.io/umi4cpackage
    :license: GPL
    :recipe: /`r-umi4c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-umi4c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-umi4c/meta.yaml>`_
 
@@ -27,7 +27,7 @@ r-umi4c
       
       
 
-      ``0.0.0.9000-2``,  ``0.0.0.9000-1``,  ``0.0.0.9000-0``
+      ``0.0.0.9000-3``,  ``0.0.0.9000-2``,  ``0.0.0.9000-1``,  ``0.0.0.9000-0``
 
       
 

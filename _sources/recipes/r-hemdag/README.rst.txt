@@ -12,9 +12,10 @@ r-hemdag
 
    a collection of Hierarchical Ensemble Methods \(HEMs\) for Directed Acyclic Graphs \(DAGs\).
 
-   :homepage: https://github.com/marconotaro/HEMDAG
+   :homepage: https://CRAN.R-project.org/package=HEMDAG
    :documentation: https://hemdag.readthedocs.io
    
+   :developer docs: https://github.com/marconotaro/hemdag
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`r-hemdag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hemdag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hemdag/meta.yaml>`_
 
@@ -42,10 +43,10 @@ r-hemdag
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.3-0</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.9-0</code>,  <code>2.4.8-0</code>,  <code>2.4.7-1</code>,  <code>2.4.7-0</code>,  <code>2.2.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.3-2</code>,  <code>2.7.3-0</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.9-0</code>,  <code>2.4.8-0</code>,  <code>2.4.7-1</code>,  <code>2.4.7-0</code>,  </span></summary>
       
 
-      ``2.7.3-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.9-0``,  ``2.4.8-0``,  ``2.4.7-1``,  ``2.4.7-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.0.1-0``
+      ``2.7.3-2``,  ``2.7.3-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.9-0``,  ``2.4.8-0``,  ``2.4.7-1``,  ``2.4.7-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.0.1-0``
 
       
       .. raw:: html

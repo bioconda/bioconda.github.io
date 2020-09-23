@@ -12,7 +12,7 @@ r-misha
 
    Toolkit for analysis of genomic data
 
-   :homepage: https://bitbucket.org/tanaylab/misha-package
+   :homepage: https://tanaylab.github.io/misha/index.html
    :license: GPL-2
    :recipe: /`r-misha <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-misha>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-misha/meta.yaml>`_
 
