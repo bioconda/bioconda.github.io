@@ -28,10 +28,10 @@ scprep
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5.post2-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.6-0</code>,  <code>1.0.5.post2-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  </span></summary>
       
 
-      ``1.0.5.post2-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.8.1-0``,  ``0.7.1-0``
+      ``1.0.6-0``,  ``1.0.5.post2-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.8.1-0``,  ``0.7.1-0``
 
       
       .. raw:: html

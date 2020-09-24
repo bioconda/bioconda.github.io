@@ -10,7 +10,7 @@ pbccs
    :replaces_section_title:
    :noindex:
 
-   pbccs \- Generate Accurate Consensus Sequences from a Single SMRTbell
+   pbccs \- Generate Highly Accurate Single\-Molecule Consensus Reads \(HiFi Reads\)
 
    :homepage: https://github.com/PacificBiosciences/pbbioconda
    :license: BSD-3-Clause-Clear
@@ -28,10 +28,10 @@ pbccs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.1.0-3</code>,  <code>3.1.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.1.0-3</code>,  </span></summary>
       
 
-      ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``
+      ``5.0.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``
 
       
       .. raw:: html

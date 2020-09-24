@@ -27,12 +27,12 @@ scapp
       
       
 
-      ``0.1.3-0``
+      ``0.1.3-1``,  ``0.1.3-0``
 
       
 
    
-   :depends blast: 
+   :depends blast: ``>=2.10.1``
    :depends bwa: 
    :depends networkx: ``2.4.*``
    :depends plasclass: 

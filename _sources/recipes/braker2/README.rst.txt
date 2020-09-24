@@ -28,7 +28,7 @@ braker2
       
       
 
-      ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
+      ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
 
       
 
@@ -50,6 +50,7 @@ braker2
    :depends perl-file-spec: 
    :depends perl-file-which: 
    :depends perl-hash-merge: 
+   :depends perl-list-moreutils: 
    :depends perl-list-util: 
    :depends perl-logger-simple: 
    :depends perl-mce: 
