@@ -30,7 +30,7 @@ drop
       
       
 
-      ``0.9.1-0``,  ``0.9.0-0``
+      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
@@ -67,7 +67,7 @@ drop
    :depends snakemake: ``>=5.5.2``
    :depends star: ``>=2.7``
    :depends tabix: 
-   :depends wbuild: ``>=1.7.0``
+   :depends wbuild: ``1.7.0.*``
    :depends wget: 
    :requirements:
 
