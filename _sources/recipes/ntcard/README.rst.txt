@@ -13,7 +13,7 @@ ntcard
    Estimating k\-mer coverage histogram of genomics data
 
    :homepage: https://github.com/bcgsc/ntCard
-   :license: GPL-3.0
+   :license: MIT
    :recipe: /`ntcard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntcard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntcard/meta.yaml>`_
 
    
@@ -27,13 +27,13 @@ ntcard
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends llvm-openmp: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

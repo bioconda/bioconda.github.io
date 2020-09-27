@@ -14,7 +14,7 @@ r-basejump
 
    :homepage: https://basejump.acidgenomics.com/
    :developer docs: https://github.com/acidgenomics/basejump
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`r-basejump <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-basejump>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-basejump/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-basejump
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.14-0</code>,  <code>0.12.13-0</code>,  <code>0.12.10-0</code>,  <code>0.12.9-0</code>,  <code>0.12.8-1</code>,  <code>0.12.8-0</code>,  <code>0.12.7-0</code>,  <code>0.12.6-1</code>,  <code>0.12.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.15-0</code>,  <code>0.12.14-0</code>,  <code>0.12.13-0</code>,  <code>0.12.10-0</code>,  <code>0.12.9-0</code>,  <code>0.12.8-1</code>,  <code>0.12.8-0</code>,  <code>0.12.7-0</code>,  <code>0.12.6-1</code>,  </span></summary>
       
 
-      ``0.12.14-0``,  ``0.12.13-0``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-1``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.23-0``,  ``0.11.22-0``,  ``0.11.21-0``,  ``0.11.20-1``,  ``0.11.20-0``,  ``0.11.19-0``,  ``0.11.18-0``,  ``0.11.17-0``,  ``0.11.16-0``,  ``0.11.15-0``,  ``0.11.14-0``,  ``0.11.13-0``,  ``0.11.12-0``,  ``0.11.11-0``,  ``0.11.10-0``,  ``0.11.8-0``,  ``0.11.7-0``,  ``0.11.5-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.9.11-0``,  ``0.9.9-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.5.9-0``,  ``0.5.3-0``,  ``0.1.1-0``
+      ``0.12.15-0``,  ``0.12.14-0``,  ``0.12.13-0``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-1``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.23-0``,  ``0.11.22-0``,  ``0.11.21-0``,  ``0.11.20-1``,  ``0.11.20-0``,  ``0.11.19-0``,  ``0.11.18-0``,  ``0.11.17-0``,  ``0.11.16-0``,  ``0.11.15-0``,  ``0.11.14-0``,  ``0.11.13-0``,  ``0.11.12-0``,  ``0.11.11-0``,  ``0.11.10-0``,  ``0.11.8-0``,  ``0.11.7-0``,  ``0.11.5-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.9.11-0``,  ``0.9.9-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.5.9-0``,  ``0.5.3-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -57,7 +57,7 @@ r-basejump
    :depends bioconductor-singlecellexperiment: 
    :depends bioconductor-summarizedexperiment: 
    :depends r-acidbase: ``>=0.1.14``
-   :depends r-acidgenerics: ``>=0.3.10``
+   :depends r-acidgenerics: ``>=0.3.12``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cli: ``>=2.0``
    :depends r-goalie: ``>=0.4.8``
@@ -65,7 +65,7 @@ r-basejump
    :depends r-magrittr: ``>=1.5``
    :depends r-matrix: ``>=1.2``
    :depends r-matrixstats: ``>=0.56``
-   :depends r-pipette: ``>=0.4.13``
+   :depends r-pipette: ``>=0.4.14``
    :depends r-rcurl: 
    :depends r-rmarkdown: 
    :depends r-scales: ``>=1.1``
