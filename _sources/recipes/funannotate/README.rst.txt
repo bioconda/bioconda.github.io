@@ -15,7 +15,7 @@ funannotate
    :homepage: https://github.com/nextgenusfs/funannotate
    :documentation: funannotate.readthedocs.io
    
-   :license: BSD / BSD-2
+   :license: BSD / BSD-2-Clause
    :recipe: /`funannotate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funannotate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funannotate/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ funannotate
       
       
 
-      ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
+      ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
 
       
 
@@ -40,7 +40,8 @@ funannotate
    :depends biopython: 
    :depends blast: ``2.2.31``
    :depends codingquarry: 
-   :depends diamond: ``>0.9,<=0.9.24``
+   :depends diamond: ``>=2.0.3``
+   :depends ete3: 
    :depends evidencemodeler: 
    :depends exonerate: 
    :depends glimmerhmm: 
@@ -48,9 +49,9 @@ funannotate
    :depends hisat2: 
    :depends hmmer: 
    :depends iqtree: 
-   :depends kallisto: 
+   :depends kallisto: ``>=0.46.0,<0.46.2``
    :depends mafft: ``>=7``
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends minimap2: 
    :depends natsort: 
    :depends numpy: 
@@ -69,8 +70,7 @@ funannotate
    :depends perl-text-soundex: 
    :depends proteinortho: ``>=6.0.9``
    :depends psutil: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: 
    :depends r-base: ``>=3.4.1``
    :depends raxml: 
    :depends requests: 
