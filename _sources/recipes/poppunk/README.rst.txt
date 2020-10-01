@@ -29,10 +29,10 @@ poppunk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  </span></summary>
       
 
-      ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -44,12 +44,10 @@ poppunk
    :depends dendropy: 
    :depends graph-tool: 
    :depends hdbscan: 
-   :depends mash: ``>=2.0``
    :depends matplotlib-base: 
-   :depends networkx: 
    :depends numpy: 
    :depends pandas: 
-   :depends pp-sketchlib: ``>=1.4``
+   :depends pp-sketchlib: ``>=1.5.1``
    :depends python: ``>=3.8``
    :depends rapidnj: 
    :depends scikit-learn: 

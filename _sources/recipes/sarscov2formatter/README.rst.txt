@@ -15,7 +15,7 @@ sarscov2formatter
    :homepage: https://github.com/nickeener/sarscov2formatter
    :documentation: https://github.com/nickeener/sarscov2formatter/README.md
    
-   :license: OTHER / Academic Free (AFL)
+   :license: OTHER / AFL-3.0
    :recipe: /`sarscov2formatter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sarscov2formatter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sarscov2formatter/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ sarscov2formatter
       
       
 
-      ``0.5.2-0``
+      ``0.5.3-0``,  ``0.5.2-0``
 
       
 
