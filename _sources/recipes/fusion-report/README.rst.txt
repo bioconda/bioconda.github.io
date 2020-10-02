@@ -13,7 +13,7 @@ fusion-report
    Tool for parsing outputs from fusion detection tools. Part of a nf\-core\/rnafusion pipeline
 
    :homepage: https://github.com/matq007/fusion-report
-   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`fusion-report <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusion-report>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusion-report/meta.yaml>`_
    :links: DOI: :DOI:`10.5281/zenodo.2609024`
 
@@ -27,9 +27,17 @@ fusion-report
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>1.0.0-2</code>,  </span></summary>
+      
 
+      ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
