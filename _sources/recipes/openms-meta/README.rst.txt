@@ -28,7 +28,7 @@ openms-meta
       
       
 
-      ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
+      ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``
 
       
 
@@ -78,10 +78,10 @@ openms-meta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-1</code>,  </span></summary>
       
 
-      ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
+      ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ openms-meta
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
    :depends hdf5: ``>=1.10.5,<1.11.0a0``
    :depends libgcc-ng: ``>=7.5.0``
-   :depends libopenms: ``2.5.0 h4afb90d_6``
+   :depends libopenms: ``2.6.0 h4afb90d_0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends libsvm: ``>=3.21,<3.22.0a0``
    :depends qt: ``>=5.12.9,<5.13.0a0``
@@ -182,20 +182,20 @@ openms-meta
       
       
 
-      ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
 
    
    :depends bumbershoot: ``3_0_11579``
-   :depends comet-ms: ``2016013``
+   :depends comet-ms: ``2019015``
    :depends crux-toolkit: ``3.2``
    :depends fido: ``1.0``
    :depends gnuplot: 
-   :depends luciphor2: ``2018_06_28``
-   :depends msgf_plus: ``2017.07.21``
+   :depends luciphor2: ``2020_04_03``
+   :depends msgf_plus: ``2020.08.05``
    :depends omssa: ``2.1.9``
-   :depends openms: ``2.5.0 h4afb90d_6``
+   :depends openms: ``2.6.0 h4afb90d_0``
    :depends pepnovo: ``20101117``
    :depends percolator: ``3.5``
    :depends sirius-csifingerid: ``4.0.1``
@@ -236,9 +236,17 @@ openms-meta
    :versions:
       
       
+      .. raw:: html
 
-      ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-3</code>,  </span></summary>
+      
 
+      ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -250,7 +258,7 @@ openms-meta
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
    :depends hdf5: ``>=1.10.5,<1.11.0a0``
    :depends libgcc-ng: ``>=7.5.0``
-   :depends libopenms: ``2.5.0 h4afb90d_6``
+   :depends libopenms: ``2.6.0 h4afb90d_0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends libsvm: ``>=3.21,<3.22.0a0``
    :depends numpy: 

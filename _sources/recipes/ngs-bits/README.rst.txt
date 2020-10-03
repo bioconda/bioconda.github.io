@@ -28,10 +28,10 @@ ngs-bits
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2020_06-0</code>,  <code>2020_03-0</code>,  <code>2019_11-0</code>,  <code>2019_09-0</code>,  <code>2019_08-0</code>,  <code>2019_07-0</code>,  <code>2019_05-0</code>,  <code>2019_04-0</code>,  <code>2019_03-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2020_09-0</code>,  <code>2020_06-0</code>,  <code>2020_03-0</code>,  <code>2019_11-0</code>,  <code>2019_09-0</code>,  <code>2019_08-0</code>,  <code>2019_07-0</code>,  <code>2019_05-0</code>,  <code>2019_04-0</code>,  </span></summary>
       
 
-      ``2020_06-0``,  ``2020_03-0``,  ``2019_11-0``,  ``2019_09-0``,  ``2019_08-0``,  ``2019_07-0``,  ``2019_05-0``,  ``2019_04-0``,  ``2019_03-0``,  ``2018_11-2``,  ``2018_10-2``,  ``2018_06-2``,  ``2018_06-1``,  ``2018_04-0``
+      ``2020_09-0``,  ``2020_06-0``,  ``2020_03-0``,  ``2019_11-0``,  ``2019_09-0``,  ``2019_08-0``,  ``2019_07-0``,  ``2019_05-0``,  ``2019_04-0``,  ``2019_03-0``,  ``2018_11-2``,  ``2018_10-2``,  ``2018_06-2``,  ``2018_06-1``,  ``2018_04-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ ngs-bits
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends matplotlib-base: 
    :depends python: ``>=3.8,<3.9.0a0``
-   :depends qt: ``>=5.12.5,<5.13.0a0``
+   :depends qt: ``>=5.12.9,<5.13.0a0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
