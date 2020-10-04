@@ -27,17 +27,21 @@ seqscreen
       
       
 
-      ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``
+      ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``
 
       
 
    
    :depends blast: ``>=2.9``
+   :depends bowtie2: 
    :depends centrifuge-core: 
    :depends diamond: ``0.9.26.*``
+   :depends hmmer: 
    :depends jinja2: 
+   :depends mummer: 
    :depends nextflow: 
    :depends python: ``>=3``
+   :depends rapsearch: 
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:

@@ -29,7 +29,7 @@ funannotate
       
       
 
-      ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
+      ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
 
       
 
@@ -41,6 +41,7 @@ funannotate
    :depends blast: ``2.2.31``
    :depends codingquarry: 
    :depends diamond: ``>=2.0.3``
+   :depends distro: 
    :depends ete3: 
    :depends evidencemodeler: 
    :depends exonerate: 
@@ -60,6 +61,7 @@ funannotate
    :depends perl: 
    :depends perl-bioperl: ``>1.7``
    :depends perl-clone: 
+   :depends perl-db-file: 
    :depends perl-dbd-mysql: 
    :depends perl-hash-merge: 
    :depends perl-json: 
@@ -75,6 +77,7 @@ funannotate
    :depends raxml: 
    :depends requests: 
    :depends salmon: ``>=0.9``
+   :depends samtools: ``>=1.9``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 

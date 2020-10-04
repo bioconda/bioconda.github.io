@@ -26,9 +26,17 @@ rilseq
    :versions:
       
       
+      .. raw:: html
 
-      ``0.78-1``,  ``0.78-0``,  ``0.77-0``,  ``0.75-0``,  ``0.74-0``,  ``0.73-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-0``
+         <details><summary><span class="truncated-version-list"><code>0.80-0</code>,  <code>0.78-1</code>,  <code>0.78-0</code>,  <code>0.77-0</code>,  <code>0.75-0</code>,  <code>0.74-0</code>,  <code>0.73-0</code>,  <code>0.72-0</code>,  <code>0.71-0</code>,  </span></summary>
+      
 
+      ``0.80-0``,  ``0.78-1``,  ``0.78-0``,  ``0.77-0``,  ``0.75-0``,  ``0.74-0``,  ``0.73-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
