@@ -15,7 +15,7 @@ popgen-entropy
    :homepage: https://bitbucket.org/buerklelab/mixedploidy-entropy/src/master/
    :license: GPLv3
    :recipe: /`popgen-entropy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popgen-entropy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popgen-entropy/meta.yaml>`_
-   :links: biotools: :biotools:`popgen-entropy`
+   :links: biotools: :biotools:`popgen-entropy`, doi: :doi:`10.1101/2020.07.31.231514`
 
    entropy performs model\-based genotype and ancestry estimation software for detecting hybridization in mixed\-ploidy species using genotype\-likelihood data as input. Information about the  model and testing can be found in the pre\-print at \[bioRxiv\]\(https\:\/\/biorxiv.org\/content\/10.1101\/2020.07.31.231514v1\). The vignette\_entropy.pdf file in the Bitbucket repo contains instructions on how to process and analyze genomic data.
 
@@ -28,7 +28,7 @@ popgen-entropy
       
       
 
-      ``2.0-1``,  ``2.0-0``
+      ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 

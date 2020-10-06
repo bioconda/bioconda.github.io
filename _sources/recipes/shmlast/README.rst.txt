@@ -27,7 +27,7 @@ shmlast
       
       
 
-      ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``,  ``1.2.1-1``,  ``1.2.1-0``
+      ``1.6-0``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``,  ``1.2.1-1``,  ``1.2.1-0``
 
       
 
@@ -36,9 +36,10 @@ shmlast
    :depends ficus: ``>=0.5``
    :depends filelock: ``>=2.0.6``
    :depends last: ``<=874``
-   :depends matplotlib: 
+   :depends matplotlib-base: ``>=3``
    :depends numexpr: ``>=2.3.1``
    :depends numpy: ``>=1.9.0``
+   :depends ope: ``>=0.6``
    :depends pandas: ``>=0.17.0``
    :depends parallel: 
    :depends python: ``>=3``

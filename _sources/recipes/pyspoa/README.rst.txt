@@ -30,15 +30,15 @@ pyspoa
       
       
 
-      ``0.0.3-0``
+      ``0.0.3-1``,  ``0.0.3-0``
 
       
 
    
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation
