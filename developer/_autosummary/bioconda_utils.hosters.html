@@ -143,7 +143,7 @@ as simple as defining a regex to match the existing source URL, a
 formatting string creating the URL of the relases page and a regex
 to match links and extract their version.</p>
 <ul class="simple">
-<li><p>We need to use <a class="conda-forge reference external" href="https://github.com/conda-forge/regex-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">regex</span></code></a> rather than <a class="reference external" href="https://docs.python.org/3/library/re.html#module-re" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">re</span></code></a> to allow
+<li><p>We need to use <a class="conda-forge reference external" href="https://github.com/conda-forge/regex-feedstock"><code class="xref conda conda-package docutils literal notranslate"><span class="pre">regex</span></code></a> rather than <a class="reference external" href="https://docs.python.org/3/library/re.html#module-re" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">re</span></code></a> to allow
 recursive matching to manipulate capture groups in URL patterns as
 needed. (Technically, we could avoid this using a Snakemake wildcard
 type syntax to define the patterns - implementers welcome).</p></li>
@@ -386,7 +386,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.hosters.Hoster.ext_pattern">
-<code class="sig-name descname">ext_pattern</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></em><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.ext_pattern" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">ext_pattern</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a></em><em class="property"> = '(?P&lt;ext&gt;(?i)\\.(?:(?:(tar\\.|t)(?:xz|bz2|gz))|zip|jar))'</em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.ext_pattern" title="Permalink to this definition">¶</a></dt>
 <dd><p>matches archive file extensions</p>
 </dd></dl>
 
@@ -396,7 +396,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <dd><p>Gets list of versions from upstream hosting site</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Mapping" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Mapping</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Mapping" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Mapping</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.9)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -407,7 +407,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <dd><p>matches links on relase page</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -418,7 +418,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <dd><p>format template for release page URL</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -429,7 +429,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <dd><p>Creates hoster if <strong>url</strong> is matched by its <strong>url_pattern</strong></p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a>]</p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.9)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -440,20 +440,20 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <dd><p>matches upstream package url</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.hosters.Hoster.url_re">
-<code class="sig-name descname">url_re</code><em class="property">: Pattern<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span></em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.url_re" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">url_re</code><em class="property">: Pattern<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a><span class="p">]</span></em><em class="property"> = None</em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.url_re" title="Permalink to this definition">¶</a></dt>
 <dd><p>will be generated as each class is created</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.hosters.Hoster.version_pattern">
-<code class="sig-name descname">version_pattern</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></em><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.version_pattern" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">version_pattern</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a></em><em class="property"> = '(?:(?&lt;=[/._-])[rv])?(?P&lt;version&gt;\\d[\\da-zA-Z\\-+\\.:\\~_]{0,30})'</em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.version_pattern" title="Permalink to this definition">¶</a></dt>
 <dd><p>matches upstream version
 - begins with a number
 - then only numbers, characters or one of -, +, ., :, ~
@@ -465,7 +465,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 
 <dl class="py class">
 <dt id="bioconda_utils.hosters.HosterMeta">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.hosters.</code><code class="sig-name descname">HosterMeta</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></span></em>, <em class="sig-param"><span class="n">bases</span><span class="p">:</span> <span class="n">Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#type" title="(in Python v3.8)">type</a><span class="p">, </span><span class="p">…</span><span class="p">]</span></span></em>, <em class="sig-param"><span class="n">namespace</span><span class="p">:</span> <span class="n">Dict<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">, </span>Any<span class="p">]</span></span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/hosters.html#HosterMeta"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HosterMeta" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.hosters.</code><code class="sig-name descname">HosterMeta</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a></span></em>, <em class="sig-param"><span class="n">bases</span><span class="p">:</span> <span class="n">Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/functions.html#type" title="(in Python v3.9)">type</a><span class="p">, </span><span class="p">…</span><span class="p">]</span></span></em>, <em class="sig-param"><span class="n">namespace</span><span class="p">:</span> <span class="n">Dict<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a><span class="p">, </span>Any<span class="p">]</span></span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/hosters.html#HosterMeta"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HosterMeta" title="Permalink to this definition">¶</a></dt>
 <dd><p>Meta-Class for Hosters</p>
 <p>By making Hosters classes of a metaclass, rather than instances of a class,
 we leave the option to add functions to a Hoster.</p>
@@ -479,10 +479,10 @@ we leave the option to add functions to a Hoster.</p>
 <dt id="bioconda_utils.hosters.HosterMeta.select_hoster">
 <em class="property">classmethod </em><code class="sig-name descname">select_hoster</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">config</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/hosters.html#HosterMeta.select_hoster"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.hosters.HosterMeta.select_hoster" title="Permalink to this definition">¶</a></dt>
 <dd><p>Select <a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> able to handle <strong>url</strong></p>
-<p>Returns: <a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<p>Returns: <a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a>]</p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.9)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -502,7 +502,7 @@ are automatically converted to the corresponding Unicode characters.</p>
 <dd><p>Return matches found for <strong>link_re</strong> in href links</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Mapping" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Mapping</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Mapping" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Mapping</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.9)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -536,7 +536,7 @@ are automatically converted to the corresponding Unicode characters.</p>
 <dd><p>Extract matches from json data in <strong>data</strong></p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.9)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]]</p>
 </dd>
 </dl>
 </dd></dl>

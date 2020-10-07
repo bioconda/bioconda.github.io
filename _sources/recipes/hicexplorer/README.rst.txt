@@ -29,10 +29,10 @@ hicexplorer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.1-0</code>,  <code>3.5-0</code>,  <code>3.4.3-1</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4-0</code>,  <code>3.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.2-0</code>,  <code>3.5.1-0</code>,  <code>3.5-0</code>,  <code>3.4.3-1</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4-0</code>,  </span></summary>
       
 
-      ``3.5.1-0``,  ``3.5-0``,  ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-1``,  ``2.2-0``,  ``2.2beta-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-0``,  ``2.1alpha1-0``,  ``2.0-1``,  ``2.0-0``,  ``1.8.1-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1a-0``,  ``0.1-0``
+      ``3.5.2-0``,  ``3.5.1-0``,  ``3.5-0``,  ``3.4.3-1``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-1``,  ``2.2-0``,  ``2.2beta-0``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-0``,  ``2.1alpha1-0``,  ``2.0-1``,  ``2.0-0``,  ``1.8.1-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1a-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -41,30 +41,30 @@ hicexplorer
       
 
    
-   :depends biopython: 
-   :depends cooler: ``>=0.8.5``
+   :depends biopython: ``<1.77``
+   :depends cooler: ``>=0.8.10``
    :depends fit_nbinom: ``>=1.1``
    :depends future: 
    :depends hic2cool: ``>=0.8.3``
-   :depends hicmatrix: ``>=13``
+   :depends hicmatrix: ``>=15``
    :depends hyperopt: ``>=0.2.4``
    :depends intervaltree: 
    :depends ipykernel: ``>=5.3.0``
    :depends jinja2: 
    :depends krbalancing: ``>=0.0.5``
    :depends matplotlib-base: ``>=3.1.*``
-   :depends numpy: ``>=1.18``
-   :depends pandas: ``>=0.25.*``
+   :depends numpy: ``>=1.19``
+   :depends pandas: ``>=1.1.*``
    :depends psutil: 
    :depends pybedtools: ``>=0.8``
    :depends pybigwig: 
-   :depends pygenometracks: ``>=3.2``
+   :depends pygenometracks: ``>=3.5``
    :depends pysam: 
    :depends pytables: 
-   :depends python: ``>=3.5``
+   :depends python: ``>=3.6``
    :depends python-graphviz: ``>=0.14``
-   :depends scipy: ``>=1.3``
-   :depends tqdm: ``>=4.20``
+   :depends scipy: ``>=1.5``
+   :depends tqdm: ``>=4.50``
    :depends unidecode: 
    :requirements:
 

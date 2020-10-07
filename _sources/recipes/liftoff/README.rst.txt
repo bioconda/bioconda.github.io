@@ -27,7 +27,7 @@ liftoff
       
       
 
-      ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-0``
+      ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-0``
 
       
 
@@ -41,6 +41,7 @@ liftoff
    :depends pyfaidx: ``>=0.5.8``
    :depends pysam: ``>=0.16.0.1``
    :depends python: ``>=3``
+   :depends ujson: 
    :requirements:
 
    .. rubric:: Installation

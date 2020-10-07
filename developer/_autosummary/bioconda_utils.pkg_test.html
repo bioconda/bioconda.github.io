@@ -160,7 +160,7 @@
 <dd><p>Returns name of generated docker image.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Path to .tar.by2 package build by conda-build</p>
+<dd class="field-odd"><p><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Path to .tar.by2 package build by conda-build</p>
 </dd>
 </dl>
 </dd></dl>
@@ -178,11 +178,11 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Path to a .tar.bz2 package built by conda-build</p></li>
-<li><p><strong>name_override</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Passed as the –name-override argument to mulled-build</p></li>
-<li><p><strong>channels</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><em>list</em></a>) – List of Conda channels to use. Must include an entry “local” for the
+<li><p><strong>path</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Path to a .tar.bz2 package built by conda-build</p></li>
+<li><p><strong>name_override</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Passed as the –name-override argument to mulled-build</p></li>
+<li><p><strong>channels</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)"><em>list</em></a>) – List of Conda channels to use. Must include an entry “local” for the
 local build channel.</p></li>
-<li><p><strong>mulled_args</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Mechanism for passing arguments to the mulled-build command. They will
+<li><p><strong>mulled_args</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Mechanism for passing arguments to the mulled-build command. They will
 be split with shlex.split and passed to the mulled-build command. E.g.,
 mulled_args=”–dry-run –involucro-path /opt/involucro”</p></li>
 <li><p><strong>base_image</strong> (<em>None | str</em>) – Specify custom base image. Busybox is used in the default case.</p></li>

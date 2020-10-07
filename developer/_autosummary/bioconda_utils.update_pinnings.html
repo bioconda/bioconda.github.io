@@ -148,7 +148,7 @@
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">has_invalid_build_string</span></code>(meta)</p></td>
 <td><p><dl class="field-list simple">
 <dt class="field-odd">rtype</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </p></td>
@@ -234,7 +234,7 @@
 <dd><p>True if the update pinning check failed</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -245,7 +245,7 @@
 <dd><p>Checks if the state indicates that the recipe needs to be bumped</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -263,7 +263,7 @@
 <li><p><strong>recipe</strong> (<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>) – The recipe to check</p></li>
 <li><p><strong>build_config</strong> – conda build config object</p></li>
 <li><p><strong>keep_metas</strong> – If true, <a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe.conda_release" title="bioconda_utils.recipe.Recipe.conda_release"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">Recipe.conda_release</span></code></a> is not called</p></li>
-<li><p><strong>skip_variant_keys</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.AbstractSet" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AbstractSet</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Variant keys to skip a recipe for if they are used</p></li>
+<li><p><strong>skip_variant_keys</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.AbstractSet" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AbstractSet</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Variant keys to skip a recipe for if they are used</p></li>
 </ul>
 </dd>
 <dt class="field-even">Return type</dt>
@@ -301,7 +301,7 @@
 <dd class="field-odd"><p><strong>meta</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>) – Variant MetaData object</p>
 </dd>
 <dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p>True if the variant’s build string exists already in the repodata</p>
@@ -318,7 +318,7 @@
 <dd class="field-odd"><p><strong>meta</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>) – Variant MetaData object</p>
 </dd>
 <dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p>True if any variant key from variant_keys is used</p>
@@ -332,10 +332,10 @@
 <dd><p>Checks if only new builds will be added (no divergent build ids exist)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>metas</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>]) – List of Variant MetaData objects</p>
+<dd class="field-odd"><p><strong>metas</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>]) – List of Variant MetaData objects</p>
 </dd>
 <dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p>True if no divergent build strings exist in repodata</p>
@@ -352,7 +352,7 @@
 <dd class="field-odd"><p><strong>meta</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MetaData</span></code>) – Variant MetaData object</p>
 </dd>
 <dt class="field-even">Return type</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p>True if all extant build numbers are smaller than the one indicated
