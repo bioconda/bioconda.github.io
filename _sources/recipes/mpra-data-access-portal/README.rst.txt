@@ -27,22 +27,22 @@ mpra-data-access-portal
       
       
 
-      ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
 
    
-   :depends r-base: ``3.6.3.*``
-   :depends r-dplyr: ``0.8.5.*``
-   :depends r-dt: ``0.13.*``
-   :depends r-ggplot2: ``3.3.0.*``
-   :depends r-htmlwidgets: ``1.5.1.*``
+   :depends r-base: ``4.0.*``
+   :depends r-dplyr: ``1.0.*``
+   :depends r-dt: ``0.15.*``
+   :depends r-ggplot2: ``3.3.*``
+   :depends r-htmlwidgets: ``1.5.*``
    :depends r-markdown: ``1.1.*``
-   :depends r-plotly: ``4.9.2.1.*``
-   :depends r-readr: ``1.3.1.*``
-   :depends r-shiny: ``1.4.0.2.*``
-   :depends r-shinytest: ``1.3.1.*``
-   :depends r-stringr: ``1.4.0.*``
+   :depends r-plotly: ``4.9.2.*``
+   :depends r-readr: ``1.3.*``
+   :depends r-shiny: ``1.5.*``
+   :depends r-shinytest: ``1.4.*``
+   :depends r-stringr: ``1.4.*``
    :requirements:
 
    .. rubric:: Installation
