@@ -10,10 +10,10 @@ bowtie2
    :replaces_section_title:
    :noindex:
 
-   Fast and sensitive read alignment
+   Fast and sensitive gapped read alignment
 
    :homepage: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
-   :license: GPLv3
+   :license: GPL-3.0-only
    :recipe: /`bowtie2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie2/meta.yaml>`_
    :links: biotools: :biotools:`bowtie2`, doi: :doi:`10.1038/nmeth.1923`, debian: :debian:`bowtie2`, usegalaxy-eu: :usegalaxy-eu:`bowtie2`
 
@@ -29,10 +29,10 @@ bowtie2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.1-3</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.3.5.1-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4.3-1</code>,  <code>2.3.4.3-0</code>,  <code>2.3.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.2-0</code>,  <code>2.4.1-3</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.3.5.1-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4.3-1</code>,  <code>2.3.4.3-0</code>,  </span></summary>
       
 
-      ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.5.1-0``,  ``2.3.5-0``,  ``2.3.4.3-1``,  ``2.3.4.3-0``,  ``2.3.4.2-0``,  ``2.3.4.1-1``,  ``2.3.4.1-0``,  ``2.3.4-0``,  ``2.3.3.1-0``,  ``2.3.2-1``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.8-2``,  ``2.2.8-1``,  ``2.2.8-0``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-7``,  ``2.2.5-6``,  ``2.2.5-5``,  ``2.2.5-4``,  ``2.2.5-3``,  ``2.2.5-2``,  ``2.2.5-1``,  ``2.2.4-7``,  ``2.2.4-6``,  ``2.2.4-5``,  ``2.2.4-4``,  ``2.2.4-3``,  ``2.2.4-2``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
+      ``2.4.2-0``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.5.1-0``,  ``2.3.5-0``,  ``2.3.4.3-1``,  ``2.3.4.3-0``,  ``2.3.4.2-0``,  ``2.3.4.1-1``,  ``2.3.4.1-0``,  ``2.3.4-0``,  ``2.3.3.1-0``,  ``2.3.2-1``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.8-2``,  ``2.2.8-1``,  ``2.2.8-0``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-7``,  ``2.2.5-6``,  ``2.2.5-5``,  ``2.2.5-4``,  ``2.2.5-3``,  ``2.2.5-2``,  ``2.2.5-1``,  ``2.2.4-7``,  ``2.2.4-6``,  ``2.2.4-5``,  ``2.2.4-4``,  ``2.2.4-3``,  ``2.2.4-2``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ bowtie2
    :depends perl: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
-   :depends tbb: ``>=2020.1``
+   :depends tbb: ``>=2020.2``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

@@ -31,13 +31,14 @@ tigmint
       
       
 
-      ``1.1.2-0``
+      ``1.2.1-0``,  ``1.1.2-0``
 
       
 
    
    :depends intervaltree: 
    :depends make: 
+   :depends minimap2: 
    :depends pybedtools: 
    :depends pysam: 
    :depends python: ``>=3``
