@@ -12,7 +12,7 @@ scnic
 
    SCNIC\: Sparse Cooccurence Network Investigation for Compositional data
 
-   :homepage: https://github.com/shafferm/SCNIC
+   :homepage: https://github.com/lozuponelab/SCNIC
    :license: BSD
    :recipe: /`scnic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scnic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scnic/meta.yaml>`_
 

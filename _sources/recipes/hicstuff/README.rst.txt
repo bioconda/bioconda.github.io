@@ -15,7 +15,7 @@ hicstuff
    :homepage: https://github.com/koszullab/hicstuff
    :documentation: https://hicstuff.readthedocs.io/en/latest/
    
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`hicstuff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicstuff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicstuff/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ hicstuff
       
       
 
-      ``2.3.1-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
+      ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
 
       
 

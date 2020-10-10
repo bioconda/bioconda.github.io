@@ -27,12 +27,12 @@ svim-asm
       
       
 
-      ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pysam: ``>=0.15``
    :depends python: ``>=3.6``
