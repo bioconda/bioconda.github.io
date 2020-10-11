@@ -28,12 +28,12 @@ find_differential_primers
       
       
 
-      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-3``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.3.p1-0``
+      ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-3``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.3.p1-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``<1.78``
    :depends blast: 
    :depends bx-python: 
    :depends emboss: 

@@ -13,7 +13,7 @@ insilicoseq
    A sequencing simulator.
 
    :homepage: https://github.com/HadrienG/InSilicoSeq
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`insilicoseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/insilicoseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/insilicoseq/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ insilicoseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.6-1``,  ``1.3.5-1``,  ``1.3.5-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.6-1``,  ``1.3.5-1``,  ``1.3.5-0``
 
       
       .. raw:: html
