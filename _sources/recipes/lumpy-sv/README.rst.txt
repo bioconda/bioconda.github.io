@@ -28,10 +28,10 @@ lumpy-sv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-4</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.14a-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-4</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.3.1-0``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.14a-2``,  ``0.2.14a-1``,  ``0.2.14a-0``,  ``0.2.13-1``,  ``0.2.13-0``,  ``0.2.12-3``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.14a-2``,  ``0.2.14a-1``,  ``0.2.14a-0``,  ``0.2.13-1``,  ``0.2.13-0``,  ``0.2.12-3``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-0``
 
       
       .. raw:: html
@@ -42,12 +42,11 @@ lumpy-sv
    
    :depends bamkit: 
    :depends gawk: 
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends htslib: 
+   :depends lumpy-sv-minimal: ``0.3.1.*``
    :depends numpy: 
    :depends pysam: 
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python: ``2.7.*``
    :depends sambamba: 
    :depends samblaster: 
    :depends samtools: 
