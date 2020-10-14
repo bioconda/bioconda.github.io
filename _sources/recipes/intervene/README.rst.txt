@@ -28,21 +28,21 @@ intervene
       
       
 
-      ``0.6.4-3``,  ``0.6.4-2``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.5.9-0``,  ``0.5.8-0``
+      ``0.6.4-4``,  ``0.6.4-3``,  ``0.6.4-2``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.5.9-0``,  ``0.5.8-0``
 
       
 
    
-   :depends bedtools: 
+   :depends bedtools: ``>=2.29.1``
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends pandas: ``<1``
+   :depends pandas: 
    :depends pybedtools: 
    :depends python: 
    :depends r-base: 
    :depends r-cairo: 
    :depends r-corrplot: 
-   :depends r-upsetr: 
+   :depends r-upsetr: ``>=1.4.0``
    :depends scipy: 
    :depends seaborn: 
    :requirements:
