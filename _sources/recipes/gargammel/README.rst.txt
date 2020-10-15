@@ -16,7 +16,11 @@ gargammel
    :license: GPL-3.0-only
    :recipe: /`gargammel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gargammel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gargammel/meta.yaml>`_
 
-   
+   gargammel is a set of programs aimed at simulating ancient DNA
+   fragments. For ancient hominin samples our program can also 
+   simulate various levels of present\-day human contamination and 
+   microbial contamination.
+
 
 
 .. conda:package:: gargammel
@@ -27,7 +31,7 @@ gargammel
       
       
 
-      ``1.1.2-1``,  ``1.1.2-0``
+      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
 
       
 
@@ -36,7 +40,7 @@ gargammel
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openssl: ``>=1.0.2n,<1.0.3a``
+   :depends openssl: ``1.0.2n.*``
    :depends perl: 
    :depends samtools: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

@@ -26,37 +26,46 @@ treesapp
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.9-0</code>,  <code>0.6.8-1</code>,  <code>0.6.8-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  </span></summary>
+      
 
+      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends biopython: ``>=1.78``
-   :depends bwa: ``>=0.7.3``
-   :depends epa-ng: ``>=0.3.6``
+   :depends bwa: ``>=0.7.17``
+   :depends epa-ng: ``>=0.3.8``
    :depends ete3: ``>=3.1.2``
-   :depends fasttree: ``>=2.1.9``
-   :depends hmmer: ``>=3.1``
+   :depends fasttree: ``>=2.1.10``
+   :depends hmmer: ``>=3.3``
    :depends joblib: ``0.15.1``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends mafft: ``>=7.407``
+   :depends mafft: ``>=7.471``
    :depends matplotlib-base: ``>=3.1.2``
    :depends numpy: ``>=1.18.1``
    :depends packaging: ``>=20.4``
    :depends prodigal: ``>=2.6.2``
-   :depends pyfastx: ``>=0.6.17``
+   :depends pyfastx: ``>=0.7.0``
    :depends pygtrie: ``>=2.3.3``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
-   :depends raxml-ng: ``>=0.9.0``
+   :depends raxml-ng: ``>=1.0.1``
    :depends samsum: ``0.1.2``
    :depends scikit-learn: ``0.23.1``
    :depends scipy: ``>=1.5.2``
    :depends seaborn: ``>=0.11.0``
    :depends six: ``>=1.14.0``
    :depends tqdm: ``>=4.48.2``
+   :depends vsearch: ``>=2.15.0``
    :requirements:
 
    .. rubric:: Installation

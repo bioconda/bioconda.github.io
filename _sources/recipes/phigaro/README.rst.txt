@@ -16,7 +16,7 @@ phigaro
    :license: MIT / MIT
    :recipe: /`phigaro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phigaro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phigaro/meta.yaml>`_
 
-   
+   Phigaro is a standalone command\-line application that is able to detect prophage regions taking raw genome and metagenome assemblies as an input. It also produces dynamic annotated “prophage genome maps” and marks possible transposon insertion spots inside prophages. It is applicable for mining prophage regions from large metagenomic datasets.
 
 
 .. conda:package:: phigaro
@@ -27,7 +27,7 @@ phigaro
       
       
 
-      ``2.2.6-0``
+      ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.6-0``
 
       
 
