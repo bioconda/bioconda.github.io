@@ -27,13 +27,13 @@ emblmygff3
       
       
 
-      ``2-0``,  ``1.3-0``
+      ``2-1``,  ``2-0``,  ``1.3-0``
 
       
 
    
    :depends bcbio-gff: ``>=0.6.4``
-   :depends biopython: ``>=1.67``
+   :depends biopython: ``>=1.67,<=1.77``
    :depends numpy: ``<1.16.5``
    :depends python: ``>=3``
    :requirements:

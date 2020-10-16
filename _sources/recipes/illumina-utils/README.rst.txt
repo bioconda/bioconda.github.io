@@ -27,12 +27,12 @@ illumina-utils
       
       
 
-      ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4.1-0``
+      ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4.1-0``
 
       
 
    
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends python: ``>=3``
    :depends python-levenshtein: 

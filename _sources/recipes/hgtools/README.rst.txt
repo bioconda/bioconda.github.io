@@ -27,13 +27,13 @@ hgtools
       
       
 
-      ``8.1.1-2``,  ``8.1.1-1``,  ``8.1.1-0``,  ``6.5.1-2``,  ``6.5.1-0``
+      ``8.2.0-0``,  ``8.1.1-2``,  ``8.1.1-1``,  ``8.1.1-0``,  ``6.5.1-2``,  ``6.5.1-0``
 
       
 
    
    :depends backports.unittest_mock: 
-   :depends python: 
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
