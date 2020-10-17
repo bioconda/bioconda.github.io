@@ -12,7 +12,7 @@ cellsnp-lite
 
    Efficient genotyping bi\-allelic SNPs on single cells
 
-   :homepage: https://github.com/single-cell-genetics/cellSNP
+   :homepage: https://github.com/single-cell-genetics/cellsnp-lite
    :license: Apache-2.0
    :recipe: /`cellsnp-lite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellsnp-lite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellsnp-lite/meta.yaml>`_
 
@@ -27,7 +27,7 @@ cellsnp-lite
       
       
 
-      ``1.0.0-0``,  ``0.3.1-1``,  ``0.3.1-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.1-1``,  ``0.3.1-0``
 
       
 

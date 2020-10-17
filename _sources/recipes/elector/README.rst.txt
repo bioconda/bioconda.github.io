@@ -27,7 +27,7 @@ elector
       
       
 
-      ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -39,6 +39,8 @@ elector
    :depends minimap2: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
+   :depends r-base: 
+   :depends r-ggplot2: 
    :depends samtools: 
    :requirements:
 

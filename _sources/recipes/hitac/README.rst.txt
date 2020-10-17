@@ -13,7 +13,7 @@ hitac
    A hierarchical taxonomy classifier for fungal ITS sequences
 
    :homepage: https://gitlab.com/dacs-hpi/hitac
-   :license: GNU General Public License v3 (GPLv3)
+   :license: GPL-3.0-only
    :recipe: /`hitac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hitac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hitac/meta.yaml>`_
    :links: biotools: :biotools:`hitac`
 
@@ -28,16 +28,16 @@ hitac
       
       
 
-      ``1.1-0``
+      ``1.5.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
 
       
 
    
    :depends biopython: 
-   :depends numpy: ``>=1.13.3``
    :depends pandas: 
    :depends python: ``>=3``
    :depends scikit-learn: ``>=0.21.3``
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation

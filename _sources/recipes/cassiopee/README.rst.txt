@@ -27,16 +27,17 @@ cassiopee
       
       
 
-      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+      ``1.0.9-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
 
       
 
    
-   :depends boost: ``>=1.66.0,<1.66.1.0a0``
-   :depends bzip2: ``>=1.0.6,<2.0a0``
-   :depends glog: 
-   :depends icu: ``>=58.2,<59.0a0``
-   :depends libgcc-ng: ``>=4.9``
+   :depends boost: ``>=1.70.0,<1.70.1.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends glog: ``>=0.4.0,<0.5.0a0``
+   :depends icu: ``>=64.2,<65.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
