@@ -28,11 +28,12 @@ tadbit
       
       
 
-      ``0.5-1``,  ``0.5-0``
+      ``1.0-0``,  ``0.5-1``,  ``0.5-0``
 
       
 
    
+   :depends future: 
    :depends gem3-mapper: 
    :depends h5py: 
    :depends libgcc-ng: ``>=7.5.0``

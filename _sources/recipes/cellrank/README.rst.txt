@@ -34,10 +34,10 @@ cellrank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  <code>1.0.0rc7-0</code>,  <code>1.0.0rc6-0</code>,  <code>1.0.0rc4-0</code>,  <code>1.0.0rc2-0</code>,  <code>1.0.0rc0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  <code>1.0.0rc7-0</code>,  <code>1.0.0rc6-0</code>,  <code>1.0.0rc4-0</code>,  <code>1.0.0rc2-0</code>,  </span></summary>
       
 
-      ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
+      ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
 
       
       .. raw:: html
@@ -101,13 +101,21 @@ cellrank
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  <code>1.0.0rc7-0</code>,  <code>1.0.0rc6-0</code>,  <code>1.0.0rc4-0</code>,  <code>1.0.0rc2-0</code>,  </span></summary>
+      
 
+      ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends cellrank: ``1.0.0rc12 py_0``
+   :depends cellrank: ``1.0.0 py_0``
    :depends mpi4py: ``>=3.0.3``
    :depends openmpi: ``>=3.0.3``
    :depends petsc: ``>=3.13.0``

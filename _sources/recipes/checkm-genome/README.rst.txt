@@ -28,10 +28,10 @@ checkm-genome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.18-0</code>,  <code>1.0.17-0</code>,  <code>1.0.16-0</code>,  <code>1.0.13-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.18-0</code>,  <code>1.0.17-0</code>,  <code>1.0.16-0</code>,  </span></summary>
       
 
-      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.7-0``,  ``1.0.5-0``
+      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.7-0``,  ``1.0.5-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ checkm-genome
    
    :depends dendropy: ``>=4.4.0``
    :depends hmmer: ``>=3.1b1``
-   :depends matplotlib: ``>=2.1.0``
+   :depends matplotlib-base: ``>=2.1.0``
    :depends numpy: ``>=1.13.1``
    :depends pplacer: ``1.1.alpha19``
    :depends prodigal: ``>=2.6.1``
