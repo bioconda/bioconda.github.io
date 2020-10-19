@@ -54,10 +54,10 @@ biobb_common
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.2-0</code>,  <code>0.0.8-0</code>,  <code>0.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.2-0</code>,  <code>0.0.8-0</code>,  </span></summary>
       
 
-      ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
       .. raw:: html

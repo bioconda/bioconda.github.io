@@ -28,7 +28,7 @@ tadbit
       
       
 
-      ``1.0-0``,  ``0.5-1``,  ``0.5-0``
+      ``1.0-1``,  ``1.0-0``,  ``0.5-1``,  ``0.5-0``
 
       
 
@@ -44,6 +44,7 @@ tadbit
    :depends pysam: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
+   :depends samtools: 
    :depends scipy: 
    :requirements:
 
