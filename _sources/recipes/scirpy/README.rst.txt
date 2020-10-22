@@ -29,7 +29,7 @@ scirpy
       
       
 
-      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -43,7 +43,7 @@ scirpy
    :depends python: ``>=3.6``
    :depends python-igraph: 
    :depends python-levenshtein: 
-   :depends scanpy: ``>=1.5.1``
+   :depends scanpy: ``>=1.6.0``
    :depends scikit-learn: 
    :depends scipy: 
    :depends squarify: 

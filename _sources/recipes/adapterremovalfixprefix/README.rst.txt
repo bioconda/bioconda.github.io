@@ -10,7 +10,7 @@ adapterremovalfixprefix
    :replaces_section_title:
    :noindex:
 
-    Fixes adapter removal prefixes to make sure no clashing read names are in the output.
+   Fixes adapter removal prefixes to make sure no clashing read names are in the output.
 
    :homepage: https://github.com/apeltzer/AdapterRemovalFixPrefix
    :license: GPLv3
@@ -27,7 +27,7 @@ adapterremovalfixprefix
       
       
 
-      ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+      ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
 
       
 

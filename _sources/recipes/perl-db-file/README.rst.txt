@@ -26,14 +26,22 @@ perl-db-file
    :versions:
       
       
+      .. raw:: html
 
-      ``1.852-0``,  ``1.843-0``,  ``1.835-6``,  ``1.835-5``,  ``1.835-4``,  ``1.835-3``,  ``1.835-2``,  ``1.835-1``,  ``1.835-0``
+         <details><summary><span class="truncated-version-list"><code>1.852-1</code>,  <code>1.852-0</code>,  <code>1.843-0</code>,  <code>1.835-6</code>,  <code>1.835-5</code>,  <code>1.835-4</code>,  <code>1.835-3</code>,  <code>1.835-2</code>,  <code>1.835-1</code>,  </span></summary>
+      
 
+      ``1.852-1``,  ``1.852-0``,  ``1.843-0``,  ``1.835-6``,  ``1.835-5``,  ``1.835-4``,  ``1.835-3``,  ``1.835-2``,  ``1.835-1``,  ``1.835-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libdb: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libdb: ``>=6.2.32,<6.3.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 

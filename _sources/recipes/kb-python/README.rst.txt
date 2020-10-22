@@ -1,0 +1,82 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'kb-python'
+.. highlight: bash
+
+kb-python
+=========
+
+.. conda:recipe:: kb-python
+   :replaces_section_title:
+   :noindex:
+
+   A wrapper for the kallisto \| bustools workflow for single\-cell RNA\-seq pre\-processing 
+
+   :homepage: https://github.com/pachterlab/kb_python
+   :documentation: https://www.kallistobus.tools/
+   
+   :license: BSD / BSD
+   :recipe: /`kb-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kb-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kb-python/meta.yaml>`_
+
+   
+
+
+.. conda:package:: kb-python
+
+   |downloads_kb-python| |docker_kb-python|
+
+   :versions:
+      
+      
+
+      ``0.24.4-0``
+
+      
+
+   
+   :depends anndata: ``>=0.6.22.post1``
+   :depends loompy: ``>=3.0.6``
+   :depends python: ``>=3.6``
+   :depends requests: ``>=2.19.0``
+   :depends tqdm: ``>=4.39.0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install kb-python
+
+   and update with::
+
+      conda update kb-python
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/kb-python:<tag>
+
+   (see `kb-python/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_kb-python| image:: https://img.shields.io/conda/dn/bioconda/kb-python.svg?style=flat
+   :target: https://anaconda.org/bioconda/kb-python
+   :alt:   (downloads)
+.. |docker_kb-python| image:: https://quay.io/repository/biocontainers/kb-python/status
+   :target: https://quay.io/repository/biocontainers/kb-python
+.. _`kb-python/tags`: https://quay.io/repository/biocontainers/kb-python?tab=tags
+
+
+
+
+
+
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kb-python/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/kb-python/README.html
