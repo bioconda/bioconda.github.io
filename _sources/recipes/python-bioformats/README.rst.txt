@@ -10,10 +10,10 @@ python-bioformats
    :replaces_section_title:
    :noindex:
 
-   Python\-bioformats is a Python wrapper for Bio\-Formats\, a standalone Java library for reading and writing life sciences image file formats.
+   Read and write life sciences file formats
 
-   :homepage: https://github.com/CellProfiler/python-bioformats
-   :license: BSD / 3-clause BSD license
+   :homepage: http://github.com/CellProfiler/python-bioformats/
+   :license: GPL2 / GNU General Public v2 (GPLv2)
    :recipe: /`python-bioformats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-bioformats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-bioformats/meta.yaml>`_
 
    
@@ -27,15 +27,16 @@ python-bioformats
       
       
 
-      ``1.5.2-0``
+      ``4.0.0-0``,  ``1.5.2-0``
 
       
 
    
-   :depends boto3: 
-   :depends javabridge: ``>=1.0``
-   :depends openjdk: ``8.*``
-   :depends python: ``<3``
+   :depends boto3: ``>=1.14.23``
+   :depends future: ``>=0.18.2``
+   :depends openjdk: 
+   :depends python: 
+   :depends python-javabridge: ``4.0.0``
    :requirements:
 
    .. rubric:: Installation

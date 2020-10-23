@@ -10,8 +10,7 @@ hail
    :replaces_section_title:
    :noindex:
 
-   Hail is an open\-source\, general\-purpose\, Python\-based data analysis tool with
-   additional data types and methods for working with genomic data.
+   Hail is Python\-based data analysis tool for working with genomic data.
 
 
    :homepage: https://hail.is
@@ -30,7 +29,7 @@ hail
       
       
 
-      ``0.2.33-1``,  ``0.2.33-0``
+      ``0.2.58-0``,  ``0.2.33-1``,  ``0.2.33-0``
 
       
 
@@ -39,6 +38,7 @@ hail
    :depends aiohttp-session: 
    :depends bokeh: ``>1.1,<1.3``
    :depends decorator: ``<5``
+   :depends deprecated: 
    :depends gcsfs: ``0.2.1``
    :depends humanize: 
    :depends hurry.filesize: 
