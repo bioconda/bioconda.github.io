@@ -32,10 +32,10 @@ tobias
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.6-1</code>,  <code>0.11.6-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.3-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.6-1</code>,  <code>0.11.6-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  </span></summary>
       
 
-      ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.6-1``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.1-0``,  ``0.5.0-0``
+      ``0.12.3-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.6-1``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.1-0``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -64,7 +64,7 @@ tobias
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: ``>=0.9.1``
-   :depends svist4get: ``1.2.24``
+   :depends svist4get: ``>=1.2.24``
    :depends xgboost: ``>=0.71``
    :depends xlsxwriter: 
    :requirements:
