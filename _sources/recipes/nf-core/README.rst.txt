@@ -28,10 +28,10 @@ nf-core
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.2-0</code>,  <code>1.9-0</code>,  <code>1.8-0</code>,  <code>1.7-0</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.11-0</code>,  <code>1.10.2-0</code>,  <code>1.9-0</code>,  <code>1.8-0</code>,  <code>1.7-0</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4-0</code>,  <code>1.3-0</code>,  </span></summary>
       
 
-      ``1.10.2-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
+      ``1.11-0``,  ``1.10.2-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -51,7 +51,7 @@ nf-core
    :depends pyyaml: 
    :depends requests: 
    :depends requests-cache: 
-   :depends rich: ``>=4.0.0``
+   :depends rich: ``>=9``
    :depends tabulate: 
    :requirements:
 

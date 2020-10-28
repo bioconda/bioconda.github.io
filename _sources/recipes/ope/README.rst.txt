@@ -27,7 +27,7 @@ ope
       
       
 
-      ``0.6-0``
+      ``0.8-0``,  ``0.6-0``
 
       
 
@@ -35,7 +35,7 @@ ope
    :depends click: ``>=7.0``
    :depends numpy: 
    :depends pandas: 
-   :depends parallel: 
+   :depends parallel: ``>=20171222``
    :depends python: 
    :depends screed: 
    :requirements:
