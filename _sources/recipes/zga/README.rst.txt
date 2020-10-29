@@ -28,13 +28,13 @@ zga
       
       
 
-      ``0.0.7-0``
+      ``0.0.8-0``,  ``0.0.7-0``
 
       
 
    
    :depends bbmap: 
-   :depends biopython: 
+   :depends biopython: ``<=1.77``
    :depends blast: 
    :depends checkm-genome: ``>=1.1.0``
    :depends dfast: 
