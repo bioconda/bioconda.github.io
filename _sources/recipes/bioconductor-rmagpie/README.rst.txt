@@ -27,12 +27,12 @@ bioconductor-rmagpie
       
       
 
-      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-0``
+      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 
    :depends r-kernlab: 

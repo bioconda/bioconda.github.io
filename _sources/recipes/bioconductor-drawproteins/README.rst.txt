@@ -27,7 +27,7 @@ bioconductor-drawproteins
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
@@ -37,7 +37,6 @@ bioconductor-drawproteins
    :depends r-ggplot2: 
    :depends r-httr: 
    :depends r-readr: 
-   :depends r-stringr: 
    :depends r-tidyr: 
    :requirements:
 

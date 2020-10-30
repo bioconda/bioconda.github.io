@@ -27,7 +27,7 @@ r-eacon
       
       
 
-      ``0.3.4_1-0``
+      ``0.3.4_1-1``,  ``0.3.4_1-0``
 
       
 
@@ -42,7 +42,7 @@ r-eacon
    :depends bioconductor-limma: 
    :depends bioconductor-rhdf5: 
    :depends bioconductor-rsamtools: 
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bedr: 
    :depends r-changepoint: 
    :depends r-data.table: 

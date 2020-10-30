@@ -27,7 +27,7 @@ bioconductor-anvil
       
       
 
-      ``1.0.3-0``
+      ``1.2.0-0``,  ``1.0.3-0``
 
       
 
@@ -40,7 +40,9 @@ bioconductor-anvil
    :depends r-httr: 
    :depends r-jsonlite: 
    :depends r-rapiclient: ``>=0.1.3``
+   :depends r-rlang: 
    :depends r-tibble: 
+   :depends r-tidyselect: 
    :requirements:
 
    .. rubric:: Installation

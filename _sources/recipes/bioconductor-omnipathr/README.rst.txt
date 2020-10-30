@@ -27,7 +27,7 @@ bioconductor-omnipathr
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,9 @@ bioconductor-omnipathr
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-igraph: 
+   :depends r-jsonlite: 
    :depends r-rlang: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

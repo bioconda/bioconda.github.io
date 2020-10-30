@@ -28,13 +28,13 @@ bioconductor-anota
       
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
 
       
 
    
-   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -27,12 +27,12 @@ bioconductor-metid
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-chemminer: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-chemminer: ``>=3.42.0,<3.43.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-devtools: ``>=1.13.0``
    :depends r-igraph: ``>=1.2.1``

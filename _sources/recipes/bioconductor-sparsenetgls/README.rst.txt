@@ -27,7 +27,7 @@ bioconductor-sparsenetgls
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
@@ -37,7 +37,6 @@ bioconductor-sparsenetgls
    :depends r-huge: 
    :depends r-mass: 
    :depends r-matrix: 
-   :depends r-parcor: 
    :requirements:
 
    .. rubric:: Installation

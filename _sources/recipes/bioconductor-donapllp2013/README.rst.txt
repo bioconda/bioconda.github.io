@@ -27,13 +27,13 @@ bioconductor-donapllp2013
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.27.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-ebimage: ``>=4.32.0,<4.33.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -27,13 +27,13 @@ bioconductor-tkwidgets
       
       
 
-      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``
+      ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``
 
       
 
    
-   :depends bioconductor-dyndoc: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-widgettools: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-dyndoc: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-widgettools: ``>=1.68.0,<1.69.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -28,7 +28,7 @@ moments
       
       
 
-      ``1.0.6-0``
+      ``1.0.6-1``,  ``1.0.6-0``
 
       
 
@@ -39,8 +39,8 @@ moments
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: 
    :requirements:
 

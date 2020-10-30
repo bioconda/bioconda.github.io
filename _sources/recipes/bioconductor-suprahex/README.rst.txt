@@ -28,15 +28,22 @@ bioconductor-suprahex
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
 
    
    :depends r-ape: 
    :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: 
    :depends r-hexbin: 
+   :depends r-magrittr: 
    :depends r-mass: 
+   :depends r-purrr: 
+   :depends r-readr: 
+   :depends r-stringr: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

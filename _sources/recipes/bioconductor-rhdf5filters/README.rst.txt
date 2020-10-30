@@ -27,15 +27,16 @@ bioconductor-rhdf5filters
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-rhdf5lib: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-rhdf5lib: ``>=1.12.0,<1.13.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=9.0.1``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -27,13 +27,13 @@ bioconductor-bioassayr
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-chemminer: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-chemminer: ``>=3.42.0,<3.43.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-matrix: 

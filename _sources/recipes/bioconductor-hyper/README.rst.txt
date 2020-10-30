@@ -27,7 +27,7 @@ bioconductor-hyper
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.0-1``
 
       
 
@@ -36,6 +36,7 @@ bioconductor-hyper
    :depends r-dplyr: 
    :depends r-ggforce: 
    :depends r-ggplot2: 
+   :depends r-htmltools: 
    :depends r-httr: 
    :depends r-igraph: 
    :depends r-kableextra: 
@@ -45,9 +46,11 @@ bioconductor-hyper
    :depends r-purrr: 
    :depends r-r6: 
    :depends r-reactable: 
+   :depends r-reshape2: 
    :depends r-rlang: 
    :depends r-rmarkdown: 
    :depends r-scales: 
+   :depends r-shiny: 
    :depends r-stringr: 
    :depends r-visnetwork: 
    :requirements:

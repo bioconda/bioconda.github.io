@@ -27,19 +27,26 @@ bioconductor-sitepath
       
       
 
-      ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.2-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.2-0``
 
       
 
    
+   :depends bioconductor-ggtree: ``>=2.4.0,<2.5.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-ape: 
+   :depends r-aplot: 
    :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-gridextra: 
+   :depends r-rcolorbrewer: 
    :depends r-rcpp: 
    :depends r-seqinr: 
+   :depends r-tidytree: 
    :requirements:
 
    .. rubric:: Installation

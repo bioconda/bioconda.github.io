@@ -27,13 +27,13 @@ bioconductor-srgnet
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-ebcoexpress: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-ebcoexpress: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dmwr: ``>=0.4.1``
    :depends r-gbm: ``>=2.1.1``

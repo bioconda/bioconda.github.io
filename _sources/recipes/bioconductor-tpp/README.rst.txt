@@ -27,14 +27,14 @@ bioconductor-tpp
       
       
 
-      ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.10.0-0``
+      ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.10.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biobroom: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biobroom: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-broom: 
    :depends r-data.table: 
@@ -57,6 +57,7 @@ bioconductor-tpp
    :depends r-reshape2: 
    :depends r-rmarkdown: 
    :depends r-stringr: 
+   :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-venndiagram: 
    :depends r-vgam: 

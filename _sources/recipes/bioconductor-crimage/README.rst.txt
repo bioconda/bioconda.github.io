@@ -28,14 +28,14 @@ bioconductor-crimage
       
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
 
       
 
    
-   :depends bioconductor-acgh: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-dnacopy: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-ebimage: ``>=4.30.0,<4.31.0``
+   :depends bioconductor-acgh: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-dnacopy: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-ebimage: ``>=4.32.0,<4.33.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 
    :depends r-foreach: 

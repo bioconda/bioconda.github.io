@@ -28,12 +28,12 @@ bioconductor-browserviz
       
       
 
-      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.10.0-0``
+      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httpuv: ``>=1.5.0``
    :depends r-jsonlite: ``>=1.5``

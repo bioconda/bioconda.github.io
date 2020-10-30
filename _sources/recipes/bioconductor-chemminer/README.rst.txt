@@ -28,16 +28,15 @@ bioconductor-chemminer
       
       
 
-      ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-1``,  ``3.34.1-0``,  ``3.32.1-0``,  ``2.30.0-0``,  ``2.28.3-0``
+      ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-1``,  ``3.34.1-0``,  ``3.32.1-0``,  ``2.30.0-0``,  ``2.28.3-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=9.0.1``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-base64enc: 
    :depends r-bh: 

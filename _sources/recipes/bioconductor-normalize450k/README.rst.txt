@@ -27,13 +27,13 @@ bioconductor-normalize450k
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-illuminaio: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-illuminaio: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-quadprog: 
    :requirements:

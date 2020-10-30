@@ -27,7 +27,7 @@ bioconductor-mixomics
       
       
 
-      ``6.12.0-0``,  ``6.10.1-0``,  ``6.8.0-1``,  ``6.8.0-0``,  ``6.6.2-0``,  ``6.6.0-0``
+      ``6.14.0-0``,  ``6.12.0-0``,  ``6.10.1-0``,  ``6.8.0-1``,  ``6.8.0-0``,  ``6.6.2-0``,  ``6.6.0-0``
 
       
 
@@ -37,6 +37,7 @@ bioconductor-mixomics
    :depends r-dplyr: 
    :depends r-ellipse: 
    :depends r-ggplot2: 
+   :depends r-ggrepel: 
    :depends r-gridextra: 
    :depends r-igraph: 
    :depends r-lattice: 

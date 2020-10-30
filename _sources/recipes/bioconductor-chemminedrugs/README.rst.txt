@@ -27,14 +27,14 @@ bioconductor-chemminedrugs
       
       
 
-      ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``
+      ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-chemminer: ``>=3.40.0,<3.41.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-chemminer: ``>=3.42.0,<3.43.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rsqlite: 
    :requirements:

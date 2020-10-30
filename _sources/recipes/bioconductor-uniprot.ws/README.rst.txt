@@ -28,14 +28,14 @@ bioconductor-uniprot.ws
       
       
 
-      ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.4-0``,  ``2.18.0-0``,  ``2.16.0-0``
+      ``2.29.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.4-0``,  ``2.18.0-0``,  ``2.16.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rappdirs: 
    :depends r-rcurl: 

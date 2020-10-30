@@ -27,17 +27,16 @@ bioconductor-timeomics
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-mixomics: ``>=6.12.0,<6.13.0``
+   :depends bioconductor-mixomics: ``>=6.14.0,<6.15.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
-   :depends r-lmms: 
    :depends r-lmtest: 
    :depends r-magrittr: 
    :depends r-propr: 

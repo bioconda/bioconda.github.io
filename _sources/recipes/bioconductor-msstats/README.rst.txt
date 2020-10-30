@@ -28,14 +28,14 @@ bioconductor-msstats
       
       
 
-      ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
+      ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-marray: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-marray: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-broom: 
    :depends r-data.table: 
@@ -49,7 +49,6 @@ bioconductor-msstats
    :depends r-mass: 
    :depends r-minpack.lm: 
    :depends r-purrr: 
-   :depends r-randomforest: 
    :depends r-reshape2: 
    :depends r-snow: 
    :depends r-statmod: 

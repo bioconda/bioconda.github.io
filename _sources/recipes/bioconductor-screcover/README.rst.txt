@@ -27,12 +27,12 @@ bioconductor-screcover
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bbmle: ``>=1.0.18``
    :depends r-doparallel: 

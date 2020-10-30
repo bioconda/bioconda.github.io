@@ -27,13 +27,13 @@ bioconductor-emdomics
       
       
 
-      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.12.0-0``
+      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.12.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cdft: 
    :depends r-emdist: 

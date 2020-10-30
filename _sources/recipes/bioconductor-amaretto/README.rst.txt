@@ -27,21 +27,20 @@ bioconductor-amaretto
       
       
 
-      ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-curatedtcgadata: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-curatedtcgadata: ``>=1.11.0,<1.12.0``
+   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=9.0.1``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-callr: ``>=3.0.0.9001``
    :depends r-circlize: 

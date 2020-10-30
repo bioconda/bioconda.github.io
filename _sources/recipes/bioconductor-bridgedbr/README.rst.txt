@@ -27,13 +27,13 @@ bioconductor-bridgedbr
       
       
 
-      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``
+      ``2.0.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``
 
       
 
    
-   :depends r-base: ``>=3.6,<3.7.0a0``
-   :depends r-rcurl: 
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-curl: 
    :depends r-rjava: 
    :requirements:
 
