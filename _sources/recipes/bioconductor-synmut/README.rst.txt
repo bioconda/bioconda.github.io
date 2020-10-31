@@ -27,13 +27,13 @@ bioconductor-synmut
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-seqinr: 
    :depends r-stringr: 

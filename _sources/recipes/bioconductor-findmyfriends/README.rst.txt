@@ -28,22 +28,22 @@ bioconductor-findmyfriends
       
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-kebabs: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-kebabs: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-digest: 
    :depends r-dplyr: 

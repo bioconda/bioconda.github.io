@@ -27,13 +27,13 @@ bioconductor-agcdf
       
       
 
-      ``2.18.0-4``,  ``2.18.0-3``,  ``2.18.0-2``,  ``2.18.0-0``
+      ``2.18.0-5``,  ``2.18.0-4``,  ``2.18.0-3``,  ``2.18.0-2``,  ``2.18.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

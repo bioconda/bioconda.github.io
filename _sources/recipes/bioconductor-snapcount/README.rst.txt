@@ -27,14 +27,14 @@ bioconductor-snapcount
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 

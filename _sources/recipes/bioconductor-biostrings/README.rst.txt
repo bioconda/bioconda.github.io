@@ -29,10 +29,10 @@ bioconductor-biostrings
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.50.2-0</code>,  <code>2.50.1-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.2-0</code>,  <code>2.42.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.50.2-0</code>,  <code>2.50.1-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.2-0</code>,  </span></summary>
       
 
-      ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.2-0``,  ``2.50.1-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.2-0``,  ``2.42.1-0``,  ``2.40.2-0``,  ``2.40.0-0``,  ``2.38.4-0``,  ``2.38.3-0``,  ``2.38.2-0``,  ``2.38.0-0``
+      ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.2-0``,  ``2.50.1-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.2-0``,  ``2.42.1-0``,  ``2.40.2-0``,  ``2.40.0-0``,  ``2.38.4-0``,  ``2.38.3-0``,  ``2.38.2-0``,  ``2.38.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-biostrings
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-xvector: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-xvector: ``>=0.30.0,<0.31.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<3.9.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-crayon: 

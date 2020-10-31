@@ -27,13 +27,13 @@ bioconductor-lrbase.cel.eg.db
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``0.99.1-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``0.99.1-0``
 
       
 
    
-   :depends bioconductor-lrbasedbi: ``>=1.6.0,<1.7.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-lrbasedbi: ``>=2.0.0,<2.1.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rsqlite: 
    :requirements:

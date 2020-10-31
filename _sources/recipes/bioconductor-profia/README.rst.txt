@@ -28,18 +28,17 @@ bioconductor-profia
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.15.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-ropls: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-xcms: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-ropls: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-xcms: ``>=3.12.0,<3.13.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-minpack.lm: 
    :depends r-missforest: 

@@ -27,13 +27,13 @@ bioconductor-mouse.db0
       
       
 
-      ``3.11.2-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.1-0``
+      ``3.12.0-0``,  ``3.11.2-0``,  ``3.10.0-0``,  ``3.8.2-1``,  ``3.7.1-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

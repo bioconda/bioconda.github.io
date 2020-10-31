@@ -27,17 +27,19 @@ bioconductor-isogenegui
       
       
 
-      ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-0``
+      ``2.26.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-geneplotter: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-multtest: ``>=2.42.0,<2.43.0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-geneplotter: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ff: 
    :depends r-goric: 
    :depends r-iso: 

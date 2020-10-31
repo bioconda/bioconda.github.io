@@ -27,13 +27,13 @@ bioconductor-lrbasedbi
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 

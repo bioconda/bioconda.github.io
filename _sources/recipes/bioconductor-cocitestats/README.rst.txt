@@ -27,13 +27,13 @@ bioconductor-cocitestats
       
       
 
-      ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``
+      ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

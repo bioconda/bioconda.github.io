@@ -27,24 +27,24 @@ bioconductor-ngsreports
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-shortread: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-xvector: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-shortread: ``>=1.48.0,<1.49.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-checkmate: 
-   :depends r-dplyr: ``>=0.8.0``
+   :depends r-dplyr: ``>=1.0.0``
    :depends r-dt: 
    :depends r-factominer: 
    :depends r-forcats: 
    :depends r-ggdendro: 
    :depends r-ggplot2: 
+   :depends r-lifecycle: 
    :depends r-lubridate: 
    :depends r-pander: 
    :depends r-plotly: 
@@ -56,7 +56,6 @@ bioconductor-ngsreports
    :depends r-tibble: ``>=1.3.1``
    :depends r-tidyr: 
    :depends r-tidyselect: ``>=0.2.3``
-   :depends r-truncnorm: 
    :depends r-viridislite: 
    :depends r-zoo: 
    :requirements:

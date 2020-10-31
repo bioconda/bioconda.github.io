@@ -28,21 +28,19 @@ bioconductor-xde
       
       
 
-      ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``
+      ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-genemeta: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-mergemaid: ``>=2.59.0,<2.60.0``
-   :depends bioconductor-siggenes: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-genemeta: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-siggenes: ``>=1.64.0,<1.65.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=9.0.1``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gtools: 
    :depends r-mvtnorm: 

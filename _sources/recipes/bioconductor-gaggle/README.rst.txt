@@ -27,13 +27,13 @@ bioconductor-gaggle
       
       
 
-      ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``
+      ``1.58.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.64.0,<1.65.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rjava: ``>=0.4``
    :depends r-runit: ``>=0.4.17``
    :requirements:

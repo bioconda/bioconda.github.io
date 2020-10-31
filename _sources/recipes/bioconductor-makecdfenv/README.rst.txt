@@ -28,18 +28,17 @@ bioconductor-makecdfenv
       
       
 
-      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``
+      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-affyio: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-zlibbioc: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-affyio: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-zlibbioc: ``>=1.36.0,<1.37.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

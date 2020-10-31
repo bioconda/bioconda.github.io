@@ -28,12 +28,12 @@ bioconductor-tin
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
    :depends r-aroma.affymetrix: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 

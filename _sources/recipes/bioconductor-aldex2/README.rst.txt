@@ -28,17 +28,17 @@ bioconductor-aldex2
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-zcompositions: 
    :requirements:

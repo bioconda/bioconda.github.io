@@ -27,13 +27,21 @@ bioconductor-kegggraph
    :versions:
       
       
+      .. raw:: html
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.1-0</code>,  <code>1.38.0-0</code>,  <code>1.30.0-0</code>,  </span></summary>
+      
 
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcurl: 
    :depends r-xml: ``>=2.3-0``

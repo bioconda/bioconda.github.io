@@ -28,13 +28,13 @@ bioconductor-rols
       
       
 
-      ``2.16.1-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``2.18.0-0``,  ``2.16.1-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 
    :depends r-jsonlite: 

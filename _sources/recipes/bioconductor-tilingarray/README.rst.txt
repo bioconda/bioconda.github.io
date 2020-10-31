@@ -27,18 +27,17 @@ bioconductor-tilingarray
       
       
 
-      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``
+      ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-pixmap: 
    :depends r-rcolorbrewer: 

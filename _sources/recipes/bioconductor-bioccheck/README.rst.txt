@@ -27,13 +27,13 @@ bioconductor-bioccheck
       
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-biocviews: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biocviews: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-codetools: 

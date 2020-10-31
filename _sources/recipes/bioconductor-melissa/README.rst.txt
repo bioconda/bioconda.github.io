@@ -27,17 +27,16 @@ bioconductor-melissa
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-bprmeth: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-biocstyle: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-bprmeth: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-clues: 
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -45,6 +44,7 @@ bioconductor-melissa
    :depends r-ggplot2: 
    :depends r-magrittr: 
    :depends r-matrixcalc: 
+   :depends r-mclust: 
    :depends r-mcmcpack: 
    :depends r-mvtnorm: 
    :depends r-rocr: 

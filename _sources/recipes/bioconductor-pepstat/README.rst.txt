@@ -28,15 +28,15 @@ bioconductor-pepstat
       
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-fields: 

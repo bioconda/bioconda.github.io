@@ -27,16 +27,16 @@ bioconductor-normalyzerde
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
    :depends r-ape: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-car: 

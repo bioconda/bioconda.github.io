@@ -27,15 +27,15 @@ bioconductor-dmrscan
       
       
 
-      ``1.11.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-genomeinfodb: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-genomicranges: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-iranges: ``>=2.20.0,<2.21.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :depends r-matrix: 
    :depends r-mvtnorm: 

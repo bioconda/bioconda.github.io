@@ -28,13 +28,13 @@ bioconductor-macat
       
       
 
-      ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -27,7 +27,7 @@ edta
       
       
 
-      ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
+      ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
 
       
 
@@ -35,6 +35,7 @@ edta
    :depends biopython: 
    :depends blast: 
    :depends cd-hit: 
+   :depends coreutils: 
    :depends genericrepeatfinder: 
    :depends genometools-genometools: 
    :depends glob2: 

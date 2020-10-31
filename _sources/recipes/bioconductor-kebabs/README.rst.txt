@@ -27,19 +27,19 @@ bioconductor-kebabs
       
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-xvector: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-xvector: ``>=0.30.0,<0.31.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-apcluster: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 

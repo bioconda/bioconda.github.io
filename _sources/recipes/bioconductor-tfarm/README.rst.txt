@@ -27,12 +27,12 @@ bioconductor-tfarm
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
    :depends r-arules: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-fields: 

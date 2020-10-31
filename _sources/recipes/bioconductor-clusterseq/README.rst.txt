@@ -27,14 +27,14 @@ bioconductor-clusterseq
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-bayseq: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-bayseq: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -43,6 +43,7 @@ bioconductor-bacon
    
    :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ellipse: 

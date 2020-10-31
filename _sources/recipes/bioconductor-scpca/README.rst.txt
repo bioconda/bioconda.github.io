@@ -27,22 +27,26 @@ bioconductor-scpca
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-delayedarray: ``>=0.16.0,<0.17.0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
+   :depends r-coop: 
    :depends r-dplyr: 
    :depends r-elasticnet: 
    :depends r-kernlab: 
+   :depends r-matrix: 
    :depends r-matrixstats: 
    :depends r-origami: 
    :depends r-purrr: 
    :depends r-rdpack: 
+   :depends r-rspectra: 
    :depends r-sparsepca: 
    :depends r-stringr: 
    :depends r-tibble: 

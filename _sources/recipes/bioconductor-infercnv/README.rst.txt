@@ -27,15 +27,15 @@ bioconductor-infercnv
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends jags: ``4.*.*``
    :depends r-ape: 
    :depends r-argparse: 

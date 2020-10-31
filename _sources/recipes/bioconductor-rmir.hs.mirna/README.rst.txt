@@ -27,13 +27,13 @@ bioconductor-rmir.hs.mirna
       
       
 
-      ``1.0.7-7``,  ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-0``
+      ``1.0.7-8``,  ``1.0.7-7``,  ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

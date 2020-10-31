@@ -36,8 +36,9 @@ bioconductor-cola
    :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
    :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-brew: 
    :depends r-circlize: ``>=0.4.7``

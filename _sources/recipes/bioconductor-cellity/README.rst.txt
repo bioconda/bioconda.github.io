@@ -27,15 +27,15 @@ bioconductor-cellity
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-topgo: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-topgo: ``>=2.41.0,<2.42.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 
    :depends r-ggplot2: 

@@ -28,14 +28,14 @@ bioconductor-quartpac
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-graphpac: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-ipac: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-spacepac: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-graphpac: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-ipac: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-spacepac: ``>=1.28.0,<1.29.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :requirements:

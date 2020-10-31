@@ -27,15 +27,15 @@ bioconductor-msgfgui
       
       
 
-      ``1.16.1-0``
+      ``1.24.0-0``,  ``1.16.1-0``
 
       
 
    
-   :depends bioconductor-msgfplus: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-mzid: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-mzr: ``>=2.16.0,<2.17.0``
-   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
+   :depends bioconductor-msgfplus: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-mzid: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-mzr: ``>=2.24.0,<2.25.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-shiny: 
    :depends r-shinyfiles: ``>=0.4.0``
    :depends r-xlsx: 

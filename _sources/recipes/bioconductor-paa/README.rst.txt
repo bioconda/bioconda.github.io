@@ -27,17 +27,16 @@ bioconductor-paa
       
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=9.0.1``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-e1071: 
    :depends r-gplots: 

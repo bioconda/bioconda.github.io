@@ -27,15 +27,15 @@ bioconductor-past
       
       
 
-      ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 

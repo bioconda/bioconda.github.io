@@ -27,16 +27,15 @@ bioconductor-dialignr
       
       
 
-      ``1.0.5-0``
+      ``1.2.0-0``,  ``1.0.5-0``
 
       
 
    
-   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-mzr: ``>=2.24.0,<2.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=9.0.1``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-dplyr: 

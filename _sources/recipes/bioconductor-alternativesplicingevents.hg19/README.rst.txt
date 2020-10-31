@@ -27,13 +27,13 @@ bioconductor-alternativesplicingevents.hg19
       
       
 
-      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
+      ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

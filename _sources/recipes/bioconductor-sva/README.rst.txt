@@ -29,10 +29,10 @@ bioconductor-sva
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.1-0</code>,  <code>3.30.1-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.4-0</code>,  <code>3.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.38.0-0</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.1-0</code>,  <code>3.30.1-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.4-0</code>,  </span></summary>
       
 
-      ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.30.1-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.4-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.15.0-0``
+      ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.30.1-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.4-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.15.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,12 @@ bioconductor-sva
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
-   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrixstats: 
    :depends r-mgcv: 

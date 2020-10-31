@@ -27,19 +27,19 @@ bioconductor-genextender
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-org.rn.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biocstyle: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-go.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
