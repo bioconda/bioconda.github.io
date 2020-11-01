@@ -27,12 +27,12 @@ bioconductor-openprimerui
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
 
       
 
    
-   :depends bioconductor-openprimer: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-openprimer: ``>=1.12.0,<1.13.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dt: ``>=0.2``
    :depends r-rmarkdown: ``>=1.0``

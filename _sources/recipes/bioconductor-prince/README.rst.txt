@@ -27,13 +27,13 @@ bioconductor-prince
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: ``>=0.7.4``
    :depends r-forecast: ``>=8.2``

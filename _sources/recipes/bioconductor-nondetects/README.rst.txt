@@ -28,14 +28,14 @@ bioconductor-nondetects
       
       
 
-      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-htqpcr: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-htqpcr: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends r-arm: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mvtnorm: 

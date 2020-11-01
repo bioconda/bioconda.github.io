@@ -27,31 +27,33 @@ bioconductor-qplexanalyzer
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-dplyr: 
+   :depends r-dplyr: ``>=1.0.0``
    :depends r-ggdendro: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
    :depends r-purrr: 
    :depends r-rcolorbrewer: 
-   :depends r-statmod: 
+   :depends r-readr: 
+   :depends r-rlang: 
+   :depends r-scales: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-tidyselect: 
    :requirements:
 
    .. rubric:: Installation

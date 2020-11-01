@@ -27,12 +27,12 @@ bioconductor-tronco
       
       
 
-      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.2-0``,  ``2.14.2-0``
+      ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.2-0``,  ``2.14.2-0``
 
       
 
    
-   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-rgraphviz: ``>=2.34.0,<2.35.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bnlearn: 
    :depends r-cgdsr: 

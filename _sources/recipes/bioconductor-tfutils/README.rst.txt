@@ -27,17 +27,22 @@ bioconductor-tfutils
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-httr: 
    :depends r-magrittr: 
    :depends r-miniui: 
+   :depends r-readxl: 
+   :depends r-rjson: 
    :depends r-shiny: 
    :requirements:
 

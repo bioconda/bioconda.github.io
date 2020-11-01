@@ -39,8 +39,9 @@ bioconductor-xde
    :depends bioconductor-genemeta: ``>=1.62.0,<1.63.0``
    :depends bioconductor-siggenes: ``>=1.64.0,<1.65.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gtools: 
    :depends r-mvtnorm: 

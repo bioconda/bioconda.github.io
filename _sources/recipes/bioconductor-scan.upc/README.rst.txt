@@ -28,19 +28,19 @@ bioconductor-scan.upc
       
       
 
-      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``
+      ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-affyio: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-geoquery: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-affyio: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-geoquery: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-foreach: 
    :depends r-mass: 

@@ -28,19 +28,19 @@ bioconductor-batchqc
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
    :depends pandoc: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corpcor: 
-   :depends r-d3heatmap: 
    :depends r-ggvis: 
    :depends r-gplots: 
+   :depends r-heatmaply: 
    :depends r-knitr: 
    :depends r-matrix: 
    :depends r-matrixstats: 

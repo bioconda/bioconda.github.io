@@ -27,12 +27,12 @@ bioconductor-assign
       
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.1-1``,  ``1.18.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.1-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-gplots: 

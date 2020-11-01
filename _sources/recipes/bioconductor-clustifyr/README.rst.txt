@@ -27,22 +27,24 @@ bioconductor-clustifyr
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-fgsea: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-fgsea: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-entropy: 
    :depends r-ggplot2: 
+   :depends r-httr: 
    :depends r-matrix: 
    :depends r-matrixstats: 
+   :depends r-proxy: 
    :depends r-readr: 
    :depends r-rlang: 
    :depends r-scales: 

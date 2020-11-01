@@ -27,12 +27,12 @@ bioconductor-mbcb
       
       
 
-      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``
+      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``
 
       
 
    
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-tcltk2: 
    :requirements:

@@ -27,18 +27,18 @@ bioconductor-topdownr
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-protgenerics: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-mzr: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-protgenerics: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: ``>=2.2.1``
    :depends r-matrix: ``>=1.2.10``

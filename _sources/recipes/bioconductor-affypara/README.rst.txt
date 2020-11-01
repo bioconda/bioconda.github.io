@@ -27,14 +27,14 @@ bioconductor-affypara
       
       
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-affyio: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-affyio: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
    :depends r-aplpack: ``>=1.1.1``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-snow: ``>=0.2-3``

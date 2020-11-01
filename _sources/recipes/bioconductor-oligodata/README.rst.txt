@@ -27,13 +27,13 @@ bioconductor-oligodata
       
       
 
-      ``1.8.0-4``,  ``1.8.0-3``,  ``1.8.0-2``,  ``1.8.0-0``
+      ``1.8.0-5``,  ``1.8.0-4``,  ``1.8.0-3``,  ``1.8.0-2``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -27,13 +27,13 @@ bioconductor-rcy3
       
       
 
-      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.3-0``,  ``2.2.9-0``,  ``2.2.6-0``,  ``2.0.88-0``,  ``1.8.0-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.3-0``,  ``2.2.9-0``,  ``2.2.6-0``,  ``2.0.88-0``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
    :depends cytoscape: ``>=3.7.1``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: 

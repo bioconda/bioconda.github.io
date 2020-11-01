@@ -29,10 +29,10 @@ bioconductor-sradb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.2-0</code>,  <code>1.37.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-1</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.2-0</code>,  <code>1.37.0-0</code>,  <code>1.36.0-0</code>,  </span></summary>
       
 
-      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.2-0``,  ``1.37.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.28.0-0``
+      ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.2-0``,  ``1.37.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.28.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-sradb
       
 
    
-   :depends bioconductor-geoquery: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-geoquery: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcurl: 
    :depends r-rsqlite: 

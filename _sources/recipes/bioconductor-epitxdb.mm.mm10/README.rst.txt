@@ -27,14 +27,14 @@ bioconductor-epitxdb.mm.mm10
       
       
 
-      ``0.99.4-0``
+      ``0.99.6-0``,  ``0.99.4-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-epitxdb: ``>=1.0.0,<1.1.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-epitxdb: ``>=1.2.0,<1.3.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

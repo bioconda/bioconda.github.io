@@ -27,15 +27,15 @@ bioconductor-guitar
       
       
 
-      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
+      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 

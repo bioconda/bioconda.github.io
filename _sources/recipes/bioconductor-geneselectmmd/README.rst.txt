@@ -35,7 +35,8 @@ bioconductor-geneselectmmd
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgfortran: ``4.*``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran-ng: 
    :depends libgfortran4: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``

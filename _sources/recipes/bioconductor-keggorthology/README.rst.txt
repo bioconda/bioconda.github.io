@@ -28,13 +28,13 @@ bioconductor-keggorthology
       
       
 
-      ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
+      ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
    :depends bioconductor-hgu95av2.db: ``>=3.2.0,<3.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 

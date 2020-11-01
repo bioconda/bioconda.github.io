@@ -27,12 +27,12 @@ bioconductor-neighbornet
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

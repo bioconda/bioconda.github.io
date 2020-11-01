@@ -27,19 +27,18 @@ bioconductor-adacgh2
       
       
 
-      ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``
+      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``
 
       
 
    
-   :depends bioconductor-acgh: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-dnacopy: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-glad: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-snapcgh: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-tilingarray: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-acgh: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-dnacopy: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-glad: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-snapcgh: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-tilingarray: ``>=1.68.0,<1.69.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bit: 
    :depends r-cluster: 

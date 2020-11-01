@@ -27,16 +27,16 @@ bioconductor-eisa
       
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-category: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-isa2: 

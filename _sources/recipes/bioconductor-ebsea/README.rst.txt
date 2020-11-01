@@ -28,15 +28,14 @@ bioconductor-ebsea
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-empiricalbrownsmethod: ``>=1.18.0,<1.19.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-plyr: 
    :requirements:
 
    .. rubric:: Installation

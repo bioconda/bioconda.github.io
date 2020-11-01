@@ -27,13 +27,13 @@ bioconductor-anaquin
       
       
 
-      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: ``>=2.2.0``
    :depends r-knitr: 

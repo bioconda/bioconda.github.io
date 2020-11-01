@@ -27,14 +27,14 @@ bioconductor-pipeframe
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-digest: 
    :depends r-magrittr: 

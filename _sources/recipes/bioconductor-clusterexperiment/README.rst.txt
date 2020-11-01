@@ -43,8 +43,9 @@ bioconductor-clusterexperiment
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends bioconductor-zinbwave: ``>=1.12.0,<1.13.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-ape: ``>=5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 

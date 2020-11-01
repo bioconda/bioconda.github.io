@@ -27,13 +27,13 @@ bioconductor-rcm
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
-   :depends bioconductor-phyloseq: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-phyloseq: ``>=1.34.0,<1.35.0``
    :depends r-alabama: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: ``>=2.2.1.9000``
@@ -43,7 +43,6 @@ bioconductor-rcm
    :depends r-reshape2: 
    :depends r-tensor: 
    :depends r-tseries: 
-   :depends r-vegan: 
    :depends r-vgam: 
    :requirements:
 

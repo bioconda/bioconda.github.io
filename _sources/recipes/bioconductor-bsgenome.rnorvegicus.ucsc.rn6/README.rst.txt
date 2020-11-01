@@ -27,13 +27,13 @@ bioconductor-bsgenome.rnorvegicus.ucsc.rn6
       
       
 
-      ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``
+      ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
