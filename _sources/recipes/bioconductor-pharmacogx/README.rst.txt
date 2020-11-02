@@ -27,25 +27,25 @@ bioconductor-pharmacogx
       
       
 
-      ``2.0.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
+      ``2.2.0-0``,  ``2.0.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-coregx: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-coregx: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-catools: 
+   :depends r-data.table: 
    :depends r-downloader: 
    :depends r-ggplot2: 
    :depends r-jsonlite: 
    :depends r-magicaxis: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
-   :depends r-testthat: 
    :requirements:
 
    .. rubric:: Installation

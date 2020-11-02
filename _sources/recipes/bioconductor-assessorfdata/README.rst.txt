@@ -27,13 +27,13 @@ bioconductor-assessorfdata
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-decipher: ``>=2.16.0,<2.17.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-decipher: ``>=2.18.0,<2.19.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -28,14 +28,14 @@ bioconductor-chromstar
       
       
 
-      ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
+      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
 
       
 
    
    :depends bioconductor-bamsignals: ``>=1.22.0,<1.23.0``
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-chromstardata: ``>=1.15.0,<1.16.0``
+   :depends bioconductor-chromstardata: ``>=1.16.0,<1.17.0``
    :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
    :depends bioconductor-genomicalignments: ``>=1.26.0,<1.27.0``
    :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
@@ -43,8 +43,9 @@ bioconductor-chromstar
    :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 

@@ -28,15 +28,15 @@ bioconductor-rontotools
       
       
 
-      ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-kegggraph: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-keggrest: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-kegggraph: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-keggrest: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rgraphviz: ``>=2.34.0,<2.35.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-boot: 
    :requirements:

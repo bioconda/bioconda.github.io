@@ -27,15 +27,15 @@ bioconductor-biocpkgtools
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-biocviews: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-rbgl: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-biocviews: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-rbgl: ``>=1.66.0,<1.67.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-dplyr: 

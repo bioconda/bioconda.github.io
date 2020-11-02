@@ -28,15 +28,15 @@ bioconductor-chipsim
       
       
 
-      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``
+      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-shortread: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-xvector: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-shortread: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-xvector: ``>=0.30.0,<0.31.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

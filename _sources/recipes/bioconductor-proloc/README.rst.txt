@@ -40,8 +40,9 @@ bioconductor-proloc
    :depends bioconductor-mlinterfaces: ``>=1.70.0,<1.71.0``
    :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-caret: 
    :depends r-class: 

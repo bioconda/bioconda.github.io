@@ -27,22 +27,25 @@ bioconductor-sctgif
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocstyle: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-schex: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ggplot2: 
+   :depends r-igraph: 
    :depends r-knitr: 
    :depends r-msigdbr: 
    :depends r-nntensor: 
@@ -52,6 +55,7 @@ bioconductor-sctgif
    :depends r-rmarkdown: 
    :depends r-scales: 
    :depends r-tagcloud: 
+   :depends r-tibble: 
    :requirements:
 
    .. rubric:: Installation

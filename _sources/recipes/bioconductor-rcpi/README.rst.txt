@@ -27,16 +27,16 @@ bioconductor-rcpi
       
       
 
-      ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.1-0``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.1-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-chemminer: ``>=3.38.0,<3.39.0``
-   :depends bioconductor-fmcsr: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-gosemsim: ``>=2.12.0,<2.13.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-chemminer: ``>=3.42.0,<3.43.0``
+   :depends bioconductor-fmcsr: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-gosemsim: ``>=2.16.0,<2.17.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-rcdk: ``>=3.3.8``

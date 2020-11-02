@@ -27,18 +27,18 @@ bioconductor-omicrexposome
       
       
 
-      ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.12.0-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-multidataset: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-omicade4: ``>=1.27.0,<1.28.0``
-   :depends bioconductor-rexposome: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-multidataset: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-omicade4: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rexposome: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 

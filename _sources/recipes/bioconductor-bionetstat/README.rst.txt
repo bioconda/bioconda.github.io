@@ -27,14 +27,15 @@ bioconductor-bionetstat
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.2-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.2-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-pathview: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-pathview: ``>=1.30.0,<1.31.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-hmisc: 
    :depends r-igraph: 

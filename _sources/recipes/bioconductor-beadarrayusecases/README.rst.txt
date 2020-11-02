@@ -27,15 +27,15 @@ bioconductor-beadarrayusecases
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-beadarray: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-geoquery: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-beadarray: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-geoquery: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

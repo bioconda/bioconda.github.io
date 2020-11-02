@@ -27,15 +27,15 @@ bioconductor-pumadata
       
       
 
-      ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-0``
+      ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-puma: ``>=3.30.0,<3.31.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-puma: ``>=3.32.0,<3.33.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

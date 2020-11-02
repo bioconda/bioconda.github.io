@@ -27,16 +27,16 @@ bioconductor-microbiotaprocess
       
       
 
-      ``1.0.3-0``
+      ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biomformat: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-decipher: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-ggtree: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-phyloseq: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biomformat: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-decipher: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-ggtree: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-phyloseq: ``>=1.34.0,<1.35.0``
    :depends r-ape: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-coin: 
@@ -51,7 +51,6 @@ bioconductor-microbiotaprocess
    :depends r-phangorn: 
    :depends r-plyr: 
    :depends r-randomforest: 
-   :depends r-rentrez: 
    :depends r-reshape: 
    :depends r-rlang: 
    :depends r-rmisc: 

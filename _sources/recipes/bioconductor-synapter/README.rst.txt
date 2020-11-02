@@ -28,17 +28,17 @@ bioconductor-synapter
       
       
 
-      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.1-0``,  ``2.2.0-0``
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.1-0``,  ``2.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-cleaver: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-cleaver: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
    :depends r-lattice: 

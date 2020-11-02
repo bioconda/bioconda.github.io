@@ -27,24 +27,24 @@ bioconductor-metaneighbor
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-beanplot: ``>=1.2``
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
    :depends r-gplots: ``>=3.0.1``
+   :depends r-igraph: 
    :depends r-matrix: ``>=1.2``
    :depends r-matrixstats: ``>=0.54``
-   :depends r-rcolorbrewer: ``>=1.1``
-   :depends r-rcpp: 
+   :depends r-rcolorbrewer: ``>=1.1.2``
+   :depends r-tibble: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

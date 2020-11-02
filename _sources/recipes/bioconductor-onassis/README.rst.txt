@@ -27,22 +27,27 @@ bioconductor-onassis
       
       
 
-      ``1.8.0-1``,  ``1.6.0-1``,  ``1.4.5-0``
+      ``1.12.0-0``,  ``1.8.0-1``,  ``1.6.0-1``,  ``1.4.5-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-geometadb: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-onassisjavalibs: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-geometadb: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-onassisjavalibs: ``>=1.12.0,<1.13.0``
    :depends openjdk: 
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-clusteval: 
    :depends r-data.table: 
+   :depends r-dendextend: 
    :depends r-dt: 
+   :depends r-ggfortify: 
+   :depends r-ggplot2: 
    :depends r-knitr: 
    :depends r-rcurl: 
    :depends r-rjava: 
    :depends r-rsqlite: 
+   :depends r-rtsne: 
    :requirements:
 
    .. rubric:: Installation

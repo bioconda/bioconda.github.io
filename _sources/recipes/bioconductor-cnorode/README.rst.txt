@@ -35,6 +35,7 @@ bioconductor-cnorode
    
    :depends bioconductor-cellnoptr: ``>=1.36.0,<1.37.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-genalg: 

@@ -27,19 +27,19 @@ bioconductor-redseq
       
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
    :depends bioconductor-bsgenome.celegans.ucsc.ce2: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-chippeakanno: ``>=3.22.0,<3.23.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-chippeakanno: ``>=3.24.0,<3.25.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

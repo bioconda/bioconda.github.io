@@ -27,17 +27,16 @@ bioconductor-seqcna
       
       
 
-      ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``
 
       
 
    
-   :depends bioconductor-glad: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-seqcna.annot: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-glad: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-seqcna.annot: ``>=1.26.0,<1.27.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=9.0.1``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-adehabitatlt: ``>=0.3.4``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dosnow: ``>=1.0.5``

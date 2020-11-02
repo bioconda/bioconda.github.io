@@ -27,15 +27,15 @@ bioconductor-neve2006
       
       
 
-      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+      ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-hgu133a.db: ``>=3.2.0,<3.3.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

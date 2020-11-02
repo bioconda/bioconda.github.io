@@ -38,6 +38,7 @@ bioconductor-cellnoptr
    :depends bioconductor-rgraphviz: ``>=2.34.0,<2.35.0``
    :depends graphviz: ``>=2.42.3,<3.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 

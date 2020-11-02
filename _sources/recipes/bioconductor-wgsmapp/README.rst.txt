@@ -27,13 +27,13 @@ bioconductor-wgsmapp
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

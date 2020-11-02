@@ -27,14 +27,14 @@ bioconductor-moma
       
       
 
-      ``1.0.1-0``
+      ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-cluster: 

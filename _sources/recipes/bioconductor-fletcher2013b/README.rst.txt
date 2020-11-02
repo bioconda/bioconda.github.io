@@ -27,15 +27,15 @@ bioconductor-fletcher2013b
       
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-fletcher2013a: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-reder: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-rtn: ``>=2.12.0,<2.13.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-fletcher2013a: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-reder: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-rtn: ``>=2.14.0,<2.15.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
    :depends r-rcolorbrewer: 

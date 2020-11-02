@@ -27,13 +27,13 @@ bioconductor-bsseqdata
       
       
 
-      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+      ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
 
       
 
    
-   :depends bioconductor-bsseq: ``>=1.24.0,<1.25.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-bsseq: ``>=1.26.0,<1.27.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
