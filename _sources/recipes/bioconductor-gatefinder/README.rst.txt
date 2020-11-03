@@ -27,13 +27,13 @@ bioconductor-gatefinder
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-flowfp: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-flowfp: ``>=1.48.0,<1.49.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-diptest: 
    :depends r-mvoutlier: 

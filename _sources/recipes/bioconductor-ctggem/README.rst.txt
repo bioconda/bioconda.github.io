@@ -27,19 +27,21 @@ bioconductor-ctggem
       
       
 
-      ``0.99.3-0``
+      ``1.2.0-0``,  ``0.99.3-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-monocle: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-destiny: ``>=3.4.0,<3.5.0``
+   :depends bioconductor-hsmmsinglecell: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-monocle: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-sincell: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-tscan: ``>=1.28.0,<1.29.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-ggplot2: 
    :depends r-igraph: 
-   :depends r-matrix: 
    :requirements:
 
    .. rubric:: Installation

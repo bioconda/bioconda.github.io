@@ -27,15 +27,15 @@ bioconductor-eatonetalchipseq
       
       
 
-      ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+      ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-shortread: ``>=1.46.0,<1.47.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-shortread: ``>=1.48.0,<1.49.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

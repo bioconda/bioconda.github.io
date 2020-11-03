@@ -27,23 +27,23 @@ bioconductor-variantexperiment
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-delayedarray: ``>=0.14.0,<0.15.0``
-   :depends bioconductor-delayeddataframe: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-gdsarray: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-gdsfmt: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-seqarray: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-seqvartools: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-snprelate: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-delayedarray: ``>=0.16.0,<0.17.0``
+   :depends bioconductor-delayeddataframe: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-gdsarray: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-gdsfmt: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-seqarray: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-seqvartools: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-snprelate: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

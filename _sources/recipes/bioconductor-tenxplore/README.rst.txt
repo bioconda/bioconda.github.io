@@ -27,16 +27,16 @@ bioconductor-tenxplore
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-ontoproc: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-restfulse: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-ontoproc: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-restfulse: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrixstats: 
    :depends r-shiny: 

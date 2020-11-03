@@ -27,14 +27,14 @@ bioconductor-mofa
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-rhdf5: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-rhdf5: ``>=2.34.0,<2.35.0``
    :depends python: ``>=2.7``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 

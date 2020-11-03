@@ -27,15 +27,15 @@ bioconductor-transcriptogramer
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-reder: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-topgo: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-reder: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-topgo: ``>=2.42.0,<2.43.0``
    :depends openjdk: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 

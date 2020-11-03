@@ -27,19 +27,19 @@ bioconductor-compgo
       
       
 
-      ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-genomicfeatures: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-pathview: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-pcamethods: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-rdavidwebservice: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-rgraphviz: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-rtracklayer: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-pathview: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-pcamethods: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-rdavidwebservice: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-rgraphviz: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
    :depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene: ``>=3.2.0,<3.3.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-reshape2: 
    :requirements:

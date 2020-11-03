@@ -44,10 +44,11 @@ bioconductor-isoformswitchanalyzer
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-tximeta: ``>=1.7.0,<1.8.0``
+   :depends bioconductor-tximeta: ``>=1.8.0,<1.9.0``
    :depends bioconductor-tximport: ``>=1.18.0,<1.19.0``
    :depends bioconductor-xvector: ``>=0.30.0,<0.31.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 

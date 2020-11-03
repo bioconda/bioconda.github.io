@@ -29,10 +29,10 @@ bioconductor-topgo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.41.0-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  <code>2.36.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.24.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.42.0-0</code>,  <code>2.41.0-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  <code>2.36.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  </span></summary>
       
 
-      ``2.41.0-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-1``,  ``2.22.0-0``
+      ``2.42.0-0``,  ``2.41.0-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-1``,  ``2.22.0-0``
 
       
       .. raw:: html

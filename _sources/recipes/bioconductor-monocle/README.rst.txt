@@ -28,7 +28,7 @@ bioconductor-monocle
       
       
 
-      ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
 
@@ -39,8 +39,9 @@ bioconductor-monocle
    :depends bioconductor-hsmmsinglecell: ``>=1.10.0,<1.11.0``
    :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-combinat: 

@@ -27,17 +27,17 @@ bioconductor-metagxovarian
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-lattice: 
    :requirements:

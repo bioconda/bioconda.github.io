@@ -27,19 +27,21 @@ bioconductor-spatiallibd
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-scater: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-scater: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-spatialexperiment: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-benchmarkme: 
    :depends r-cowplot: 
@@ -47,13 +49,16 @@ bioconductor-spatiallibd
    :depends r-fields: 
    :depends r-ggplot2: 
    :depends r-golem: 
+   :depends r-jsonlite: 
    :depends r-plotly: 
    :depends r-png: 
    :depends r-polychrome: 
    :depends r-rcolorbrewer: 
+   :depends r-readbitmap: 
    :depends r-sessioninfo: 
    :depends r-shiny: 
    :depends r-shinywidgets: 
+   :depends r-tibble: 
    :depends r-viridislite: 
    :requirements:
 

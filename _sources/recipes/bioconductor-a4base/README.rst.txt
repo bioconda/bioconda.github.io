@@ -28,19 +28,18 @@ bioconductor-a4base
       
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
 
       
 
    
-   :depends bioconductor-a4core: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-a4preproc: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-annaffy: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-a4core: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-a4preproc: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-annaffy: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-glmnet: 
    :depends r-gplots: 

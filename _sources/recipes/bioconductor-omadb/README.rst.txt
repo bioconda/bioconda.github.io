@@ -27,7 +27,7 @@ bioconductor-omadb
       
       
 
-      ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.2.0-0``
+      ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.2.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-omadb
    :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
    :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-topgo: ``>=2.41.0,<2.42.0``
+   :depends bioconductor-topgo: ``>=2.42.0,<2.43.0``
    :depends r-ape: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-httr: ``>=1.2.1``

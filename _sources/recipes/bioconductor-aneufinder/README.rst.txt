@@ -32,7 +32,7 @@ bioconductor-aneufinder
       
 
    
-   :depends bioconductor-aneufinderdata: ``>=1.17.0,<1.18.0``
+   :depends bioconductor-aneufinderdata: ``>=1.18.0,<1.19.0``
    :depends bioconductor-bamsignals: ``>=1.22.0,<1.23.0``
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
@@ -44,8 +44,9 @@ bioconductor-aneufinder
    :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-doparallel: 

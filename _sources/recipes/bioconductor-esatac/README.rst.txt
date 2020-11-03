@@ -27,35 +27,37 @@ bioconductor-esatac
       
       
 
-      ``1.8.0-1``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.0-0``
+      ``1.12.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-biostrings: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-bsgenome: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-chipseeker: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-clusterprofiler: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-genomeinfodb: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-genomicfeatures: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-iranges: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-jaspar2016: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-motifmatchr: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-rbowtie2: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-rsamtools: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-rtracklayer: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-s4vectors: ``>=0.24.0,<0.25.0``
-   :depends bioconductor-shortread: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-tfbstools: ``>=1.24.0,<1.25.0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-chipseeker: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-jaspar2018: ``>=1.1.0,<1.2.0``
+   :depends bioconductor-motifmatchr: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-pipeframe: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-rbowtie2: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-shortread: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-tfbstools: ``>=1.28.0,<1.29.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-corrplot: 
-   :depends r-diagrammer: 
    :depends r-digest: 
    :depends r-ggplot2: 
    :depends r-igraph: 

@@ -27,28 +27,24 @@ bioconductor-enrichplot
       
       
 
-      ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-gosemsim: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-dose: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-gosemsim: ``>=2.16.0,<2.17.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
-   :depends r-europepmc: 
    :depends r-ggplot2: 
-   :depends r-ggplotify: 
    :depends r-ggraph: 
-   :depends r-ggridges: 
-   :depends r-gridextra: 
    :depends r-igraph: 
    :depends r-plyr: 
    :depends r-purrr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
    :depends r-scatterpie: 
+   :depends r-shadowtext: 
    :requirements:
 
    .. rubric:: Installation

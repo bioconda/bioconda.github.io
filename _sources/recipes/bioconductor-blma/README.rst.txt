@@ -27,18 +27,19 @@ bioconductor-blma
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-padog: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-rontotools: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-padog: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rontotools: ``>=2.18.0,<2.19.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gsa: 
+   :depends r-metafor: 
    :requirements:
 
    .. rubric:: Installation

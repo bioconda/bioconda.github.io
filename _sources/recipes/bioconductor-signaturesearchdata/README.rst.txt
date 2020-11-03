@@ -27,18 +27,18 @@ bioconductor-signaturesearchdata
       
       
 
-      ``1.2.0-0``,  ``0.99.14-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``0.99.14-1``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-rhdf5: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-signaturesearch: ``>=1.2.0,<1.3.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-rhdf5: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-signaturesearch: ``>=1.4.0,<1.5.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 

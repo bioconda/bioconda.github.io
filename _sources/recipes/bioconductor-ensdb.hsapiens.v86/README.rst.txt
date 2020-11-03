@@ -27,13 +27,13 @@ bioconductor-ensdb.hsapiens.v86
       
       
 
-      ``2.99.0-4``,  ``2.99.0-3``,  ``2.99.0-2``,  ``2.99.0-0``
+      ``2.99.0-5``,  ``2.99.0-4``,  ``2.99.0-3``,  ``2.99.0-2``,  ``2.99.0-0``
 
       
 
    
-   :depends bioconductor-ensembldb: ``>=2.12.0,<2.13.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-ensembldb: ``>=2.14.0,<2.15.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

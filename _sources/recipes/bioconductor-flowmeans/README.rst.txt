@@ -27,13 +27,13 @@ bioconductor-flowmeans
       
       
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.1-0``
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-feature: 
    :depends r-rrcov: 

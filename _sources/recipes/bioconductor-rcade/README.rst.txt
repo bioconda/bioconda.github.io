@@ -27,18 +27,18 @@ bioconductor-rcade
       
       
 
-      ``1.29.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-0``
+      ``1.32.0-0``,  ``1.29.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-0``
 
       
 
    
-   :depends bioconductor-bayseq: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-genomicalignments: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-bayseq: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicalignments: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-plotrix: 
    :depends r-rgl: 

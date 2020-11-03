@@ -27,14 +27,14 @@ bioconductor-fastliquidassociation
       
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-liquidassociation: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-liquidassociation: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-hmisc: 

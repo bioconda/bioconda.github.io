@@ -27,12 +27,12 @@ bioconductor-netboxr
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dt: 
@@ -40,6 +40,7 @@ bioconductor-netboxr
    :depends r-igraph: ``>=1.2.4.1``
    :depends r-jsonlite: 
    :depends r-plyr: 
+   :depends r-rcolorbrewer: 
    :requirements:
 
    .. rubric:: Installation

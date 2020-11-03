@@ -27,16 +27,16 @@ bioconductor-mapkl
       
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-multtest: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-reactome.db: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-reactome.db: ``>=1.74.0,<1.75.0``
    :depends r-apcluster: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-clustersim: 

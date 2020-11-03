@@ -27,12 +27,12 @@ bioconductor-mcagui
       
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``
+      ``1.37.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``
 
       
 
    
-   :depends bioconductor-otubase: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-otubase: ``>=1.40.0,<1.41.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bpca: 
    :depends r-foreign: 

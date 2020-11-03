@@ -32,12 +32,13 @@ bioconductor-adam
       
 
    
-   :depends bioconductor-go.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
    :depends bioconductor-keggrest: ``>=1.30.0,<1.31.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: ``>=0.7.6``
    :depends r-dt: ``>=0.4``

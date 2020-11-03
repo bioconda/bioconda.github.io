@@ -28,13 +28,13 @@ bioconductor-sispa
       
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-gsva: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-gsva: ``>=1.38.0,<1.39.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-changepoint: 
    :depends r-data.table: 

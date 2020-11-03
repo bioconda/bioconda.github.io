@@ -26,14 +26,22 @@ ggd
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.1.1-1</code>,  <code>0.1.1-0</code>,  <code>0.1.0-1</code>,  </span></summary>
+      
 
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends check-sort-order: ``>=0.0.7``
-   :depends conda: ``>=4.8.2,<=4.8.3``
+   :depends conda: ``>=4.8.2,<=4.9.0``
    :depends conda-build: ``>=3.18.12,<=3.19.3``
    :depends cyvcf2: 
    :depends future: 

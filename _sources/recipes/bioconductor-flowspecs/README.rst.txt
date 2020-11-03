@@ -27,14 +27,15 @@ bioconductor-flowspecs
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: ``>=3.1.0``
    :depends r-reshape2: ``>=1.4.3``

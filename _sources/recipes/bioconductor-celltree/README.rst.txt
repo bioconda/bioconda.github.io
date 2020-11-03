@@ -27,12 +27,12 @@ bioconductor-celltree
       
       
 
-      ``1.19.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+      ``1.20.0-0``,  ``1.19.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-topgo: ``>=2.41.0,<2.42.0``
+   :depends bioconductor-topgo: ``>=2.42.0,<2.43.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends r-igraph: 

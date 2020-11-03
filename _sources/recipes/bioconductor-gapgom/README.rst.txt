@@ -27,21 +27,21 @@ bioconductor-gapgom
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocfilecache: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-geoquery: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-gosemsim: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-rbgl: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-geoquery: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
+   :depends bioconductor-gosemsim: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-rbgl: ``>=1.66.0,<1.67.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 

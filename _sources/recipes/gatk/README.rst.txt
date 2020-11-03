@@ -10,10 +10,10 @@ gatk
    :replaces_section_title:
    :noindex:
 
-   The Genome Analysis Toolkit \(GATK\) v3\, license restricted.
+   The full Genome Analysis Toolkit \(GATK\) framework\, v3
 
-   :homepage: https://software.broadinstitute.org/gatk/download/archive
-   :license: https://software.broadinstitute.org/gatk/download/licensing
+   :homepage: https://www.broadinstitute.org/gatk/
+   :license: BSD
    :recipe: /`gatk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk/meta.yaml>`_
    :links: biotools: :biotools:`gatk`
 
@@ -29,10 +29,10 @@ gatk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8-7</code>,  <code>3.8-5</code>,  <code>3.8-4</code>,  <code>3.8-3</code>,  <code>3.8-2</code>,  <code>3.8-1</code>,  <code>3.8-0</code>,  <code>3.7-1</code>,  <code>3.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.8-8</code>,  <code>3.8-7</code>,  <code>3.8-5</code>,  <code>3.8-4</code>,  <code>3.8-3</code>,  <code>3.8-2</code>,  <code>3.8-1</code>,  <code>3.8-0</code>,  <code>3.7-1</code>,  </span></summary>
       
 
-      ``3.8-7``,  ``3.8-5``,  ``3.8-4``,  ``3.8-3``,  ``3.8-2``,  ``3.8-1``,  ``3.8-0``,  ``3.7-1``,  ``3.7-0``,  ``3.6-7``,  ``3.6-6``,  ``3.6-5``,  ``3.6-4``,  ``3.6-3``,  ``3.6-2``,  ``3.6-1``,  ``3.5-6``,  ``3.5-5``
+      ``3.8-8``,  ``3.8-7``,  ``3.8-5``,  ``3.8-4``,  ``3.8-3``,  ``3.8-2``,  ``3.8-1``,  ``3.8-0``,  ``3.7-1``,  ``3.7-0``,  ``3.6-8``,  ``3.6-7``,  ``3.6-6``,  ``3.6-5``,  ``3.6-4``,  ``3.6-3``,  ``3.6-2``,  ``3.6-1``,  ``3.5-6``,  ``3.5-5``
 
       
       .. raw:: html
@@ -41,7 +41,6 @@ gatk
       
 
    
-   :depends bzip2: 
    :depends openjdk: ``>=8,<9``
    :depends python: 
    :depends r-ggplot2: 
@@ -78,10 +77,6 @@ gatk
 
 
 
-
-Notes
------
-Due to license restrictions\, this recipe cannot distribute and install GATK v3 directly. To fully install GATK\, you must download a licensed copy of GATK from the Broad Institute \(https\:\/\/software.broadinstitute.org\/gatk\/download\/archive\)\, install this package\, and call \"gatk3\-register \/path\/to\/GenomeAnalysisTK\[\-\$PKG\_VERSION.tar.bz2\|.jar\]\"\, which will copy GATK into your conda environment. The main run script has been renamed to \"gatk3\" to allow compatibility with the new GATK 4 launch script \(which is now \"gatk\"\).
 
 
 Link to this page

@@ -27,19 +27,19 @@ bioconductor-moonlightr
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-clusterprofiler: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-dose: ``>=3.12.0,<3.13.0``
-   :depends bioconductor-geoquery: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-limma: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-tcgabiolinks: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-dose: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-geoquery: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-tcgabiolinks: ``>=2.18.0,<2.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-doparallel: 
    :depends r-foreach: 

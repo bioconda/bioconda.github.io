@@ -27,16 +27,16 @@ bioconductor-agimicrorna
       
       
 
-      ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-1``,  ``2.32.0-0``
+      ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-1``,  ``2.32.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-affycoretools: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-affycoretools: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -27,22 +27,22 @@ bioconductor-desousa2013
       
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-consensusclusterplus: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-frma: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-frmatools: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-frma: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-frmatools: ``>=1.42.0,<1.43.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.2.0,<3.3.0``
    :depends bioconductor-hgu133plus2frmavecs: ``>=1.5.0,<1.6.0``
-   :depends bioconductor-siggenes: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-siggenes: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-gplots: 

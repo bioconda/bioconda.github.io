@@ -27,17 +27,17 @@ bioconductor-flowstats
       
       
 
-      ``4.0.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.40.1-0``
+      ``4.2.0-0``,  ``4.0.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.40.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-flowviz: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-flowworkspace: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-ncdfflow: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-flowviz: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-flowworkspace: ``>=4.2.0,<4.3.0``
+   :depends bioconductor-ncdfflow: ``>=2.36.0,<2.37.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-fda: ``>=2.2.6``

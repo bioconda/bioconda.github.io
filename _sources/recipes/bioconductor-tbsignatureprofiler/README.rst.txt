@@ -27,21 +27,21 @@ bioconductor-tbsignatureprofiler
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-assign: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-biodist: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-complexheatmap: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
-   :depends bioconductor-gsva: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-singscore: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-assign: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biodist: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-gsva: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-singscore: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-boot: 
    :depends r-caret: 

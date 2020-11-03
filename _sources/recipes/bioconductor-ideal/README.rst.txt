@@ -27,35 +27,36 @@ bioconductor-ideal
       
       
 
-      ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-biocparallel: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-deseq2: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-go.db: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-goseq: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-gostats: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-ihw: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-iranges: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-limma: ``>=3.42.0,<3.43.0``
-   :depends bioconductor-pcaexplorer: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-s4vectors: ``>=0.24.0,<0.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-topgo: ``>=2.37.0,<2.38.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
+   :depends bioconductor-goseq: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-gostats: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-ihw: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-pcaexplorer: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-topgo: ``>=2.41.0,<2.42.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-base64enc: 
-   :depends r-d3heatmap: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggplot2: ``>=2.0.0``
    :depends r-ggrepel: 
    :depends r-gplots: 
+   :depends r-heatmaply: 
    :depends r-knitr: 
    :depends r-pheatmap: 
+   :depends r-plotly: 
    :depends r-rentrez: 
    :depends r-rintrojs: 
    :depends r-rmarkdown: 

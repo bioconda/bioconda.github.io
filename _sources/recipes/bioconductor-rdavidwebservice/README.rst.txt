@@ -27,17 +27,17 @@ bioconductor-rdavidwebservice
       
       
 
-      ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-category: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-go.db: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-gostats: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-graph: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-rbgl: ``>=1.62.0,<1.63.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-category: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
+   :depends bioconductor-gostats: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-rbgl: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-rjava: 
    :requirements:

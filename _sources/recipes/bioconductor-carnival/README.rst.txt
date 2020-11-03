@@ -27,15 +27,15 @@ bioconductor-carnival
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-uniprot.ws: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-viper: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-category: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-uniprot.ws: ``>=2.29.0,<2.30.0``
+   :depends bioconductor-viper: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-ggplot2: 
