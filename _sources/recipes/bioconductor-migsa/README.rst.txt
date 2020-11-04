@@ -27,33 +27,33 @@ bioconductor-migsa
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``
+      ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
-   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-gostats: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-gseabase: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-rbgl: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-rgraphviz: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-go.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-gostats: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-rbgl: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rgraphviz: ``>=2.34.0,<2.35.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-futile.logger: 
    :depends r-ggdendro: 
    :depends r-ggplot2: 
    :depends r-ismev: 
+   :depends r-jsonlite: 
    :depends r-matrixstats: 
    :depends r-reshape2: 
-   :depends r-rjsonio: 
    :depends r-vegan: 
    :requirements:
 

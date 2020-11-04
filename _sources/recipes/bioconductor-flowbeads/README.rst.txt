@@ -28,13 +28,13 @@ bioconductor-flowbeads
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
    :depends r-rrcov: 

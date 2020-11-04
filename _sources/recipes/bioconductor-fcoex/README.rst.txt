@@ -27,15 +27,15 @@ bioconductor-fcoex
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-fcbf: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-pathwaypca: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-fcbf: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-pathwaypca: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 

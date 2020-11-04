@@ -27,14 +27,14 @@ bioconductor-flowtrans
       
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
 
       
 
    
-   :depends bioconductor-flowclust: ``>=3.26.0,<3.27.0``
-   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-flowviz: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-flowclust: ``>=3.28.0,<3.29.0``
+   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-flowviz: ``>=1.54.0,<1.55.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

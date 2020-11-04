@@ -27,34 +27,19 @@ bioconductor-mageckflute
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-enrichplot: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-kegggraph: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-keggrest: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-pathview: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-enrichplot: ``>=1.10.0,<1.11.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-data.table: 
-   :depends r-dendextend: 
    :depends r-ggplot2: 
-   :depends r-ggpubr: 
    :depends r-ggrepel: 
-   :depends r-ggsci: 
    :depends r-gridextra: 
-   :depends r-msigdbr: 
-   :depends r-pheatmap: 
-   :depends r-png: 
-   :depends r-scales: 
-   :depends r-xml: 
+   :depends r-reshape2: 
    :requirements:
 
    .. rubric:: Installation

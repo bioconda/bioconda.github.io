@@ -27,23 +27,23 @@ bioconductor-enmix
       
       
 
-      ``1.25.1-0``,  ``1.22.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
+      ``1.26.0-0``,  ``1.25.1-0``,  ``1.22.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-genefilter: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-geneplotter: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-illuminaio: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-minfi: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-geneplotter: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-illuminaio: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-minfi: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-dynamictreecut: 

@@ -27,14 +27,14 @@ bioconductor-peco
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-scater: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-scater: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circular: 

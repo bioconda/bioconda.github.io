@@ -27,13 +27,13 @@ bioconductor-cytofast
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-flowsom: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-flowsom: ``>=1.22.0,<1.23.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-ggridges: 

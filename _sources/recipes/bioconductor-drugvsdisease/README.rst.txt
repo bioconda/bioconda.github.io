@@ -28,24 +28,24 @@ bioconductor-drugvsdisease
       
       
 
-      ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.24.2-0``,  ``2.22.0-0``,  ``2.20.1-0``
+      ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.24.2-0``,  ``2.22.0-0``,  ``2.20.1-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-annotate: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-arrayexpress: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-cmap2data: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-drugvsdiseasedata: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-geoquery: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-arrayexpress: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-cmap2data: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-drugvsdiseasedata: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-geoquery: ``>=2.58.0,<2.59.0``
    :depends bioconductor-hgu133a.db: ``>=3.2.0,<3.3.0``
    :depends bioconductor-hgu133a2.db: ``>=3.2.0,<3.3.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-qvalue: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-runit: 
    :depends r-xtable: 

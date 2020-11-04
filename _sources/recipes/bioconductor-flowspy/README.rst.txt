@@ -27,22 +27,22 @@ bioconductor-flowspy
       
       
 
-      ``1.2.2-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocneighbors: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-destiny: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-flowcore: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-flowsom: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-flowutils: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-sva: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocneighbors: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-destiny: ``>=3.4.0,<3.5.0``
+   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-flowsom: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-flowutils: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=7.5.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 

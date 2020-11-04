@@ -27,15 +27,15 @@ bioconductor-adductomicsr
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-adductdata: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-mzr: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-adductdata: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-mzr: ``>=2.24.0,<2.25.0``
    :depends r-ade4: ``>=1.7.6``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bootstrap: ``>=2017.2``

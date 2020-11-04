@@ -27,18 +27,18 @@ bioconductor-cicero
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.14-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.14-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-gviz: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-monocle: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-gviz: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-monocle: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends r-assertthat: ``>=0.2.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: ``>=1.10.4``
@@ -50,6 +50,7 @@ bioconductor-cicero
    :depends r-matrix: ``>=1.2-12``
    :depends r-plyr: ``>=1.8.4``
    :depends r-reshape2: ``>=1.4.3``
+   :depends r-stringi: 
    :depends r-stringr: ``>=1.2.0``
    :depends r-tibble: ``>=1.4.2``
    :depends r-tidyr: 

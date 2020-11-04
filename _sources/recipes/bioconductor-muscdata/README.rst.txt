@@ -27,14 +27,14 @@ bioconductor-muscdata
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-experimenthub: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
