@@ -18,7 +18,7 @@ mirge3
    :license: MIT / MIT
    :recipe: /`mirge3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirge3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirge3/meta.yaml>`_
 
-   
+   Comprehensive analysis of small RNA sequencing data
 
 
 .. conda:package:: mirge3
@@ -29,7 +29,7 @@ mirge3
       
       
 
-      ``0.0.1-0``
+      ``0.0.2-0``,  ``0.0.1-0``
 
       
 

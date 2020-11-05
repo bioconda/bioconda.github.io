@@ -27,13 +27,13 @@ bioconductor-prostar
       
       
 
-      ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
 
       
 
    
-   :depends bioconductor-dapar: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-dapardata: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-dapar: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-dapardata: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-colourpicker: 

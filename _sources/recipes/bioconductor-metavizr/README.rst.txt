@@ -27,19 +27,19 @@ bioconductor-metavizr
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.2.1-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.2.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-epivizr: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-epivizrdata: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-epivizrserver: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-epivizrstandalone: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-metagenomeseq: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-phyloseq: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-epivizr: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-epivizrdata: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-epivizrserver: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-epivizrstandalone: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-metagenomeseq: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-phyloseq: ``>=1.34.0,<1.35.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-digest: 

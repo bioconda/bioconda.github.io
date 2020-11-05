@@ -27,23 +27,23 @@ bioconductor-rnaseqr
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``,  ``1.0.3-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-ballgown: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-biostrings: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-deseq2: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-org.sc.sgd.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-pathview: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rsamtools: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-systempiper: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-systempiperdata: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-ballgown: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-dose: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-org.sc.sgd.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-pathview: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-systempiper: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-systempiperdata: ``>=1.18.0,<1.19.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 
    :depends r-factoextra: 

@@ -29,10 +29,10 @@ unicycler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.8-2</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.4-3</code>,  <code>0.4.4-2</code>,  <code>0.4.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.8-3</code>,  <code>0.4.8-2</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.4-3</code>,  <code>0.4.4-2</code>,  </span></summary>
       
 
-      ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-3``,  ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.1-0``,  ``0.3.0b-1``,  ``0.3.0b-0``,  ``0.2.0-0``
+      ``0.4.8-3``,  ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-3``,  ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.1-0``,  ``0.3.0b-1``,  ``0.3.0b-0``,  ``0.2.0-0``
 
       
       .. raw:: html

@@ -27,14 +27,14 @@ abnumber
       
       
 
-      ``0.1.1-0``
+      ``0.1.4-0``,  ``0.1.1-0``
 
       
 
    
    :depends anarci: ``>=2020.04.23``
+   :depends biopython: 
    :depends python: ``>=3.6``
-   :depends termcolor: ``>=1.1.0``
    :requirements:
 
    .. rubric:: Installation

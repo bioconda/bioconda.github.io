@@ -28,17 +28,17 @@ bioconductor-yarn
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-biomart: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-edger: ``>=3.30.0,<3.31.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-quantro: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-quantro: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-downloader: 
    :depends r-gplots: 

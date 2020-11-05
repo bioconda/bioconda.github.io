@@ -27,47 +27,57 @@ bioconductor-dapar
       
       
 
-      ``1.20.2-0``,  ``1.18.1-0``,  ``1.16.7-0``,  ``1.14.4-0``
+      ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.1-0``,  ``1.16.7-0``,  ``1.14.4-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-dapardata: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-graph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-impute: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-limma: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-msnbase: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-pcamethods: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-preprocesscore: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-siggenes: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-vsn: ``>=3.56.0,<3.57.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-dapardata: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-mfuzz: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-pcamethods: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-siggenes: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
+   :depends r-apcluster: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cairo: 
+   :depends r-cluster: 
    :depends r-cp4p: ``>=0.3.5``
+   :depends r-dendextend: 
+   :depends r-diptest: 
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-factoextra: 
    :depends r-factominer: 
+   :depends r-forcats: 
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-gplots: 
-   :depends r-highcharter: ``>=0.7.0``
+   :depends r-highcharter: 
    :depends r-igraph: 
    :depends r-imp4p: ``>=0.8``
    :depends r-knitr: 
    :depends r-lattice: 
    :depends r-lme4: 
    :depends r-matrix: 
+   :depends r-multcomp: 
    :depends r-norm: 
    :depends r-openxlsx: 
    :depends r-png: 
+   :depends r-purrr: 
    :depends r-rcolorbrewer: 
    :depends r-readxl: 
    :depends r-reshape2: 
    :depends r-scales: 
    :depends r-stringr: 
+   :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-tidyverse: 
    :depends r-tmvtnorm: 

@@ -27,17 +27,16 @@ bioconductor-rnamodr.ml
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rnamodr: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends r-assertive: 
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-rnamodr: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ranger: 
    :requirements:

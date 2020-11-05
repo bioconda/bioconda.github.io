@@ -27,21 +27,21 @@ bioconductor-genomicstate
       
       
 
-      ``0.99.9-0``
+      ``0.99.9-1``,  ``0.99.9-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-bumphunter: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-derfinder: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-genomicfeatures: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-rtracklayer: ``>=1.48.0,<1.49.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-bumphunter: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-derfinder: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

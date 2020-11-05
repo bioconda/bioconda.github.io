@@ -27,20 +27,20 @@ bioconductor-methylgsa
       
       
 
-      ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.3-0``,  ``1.0.2-0``
+      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.3-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-go.db: ``>=3.11.0,<3.12.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: ``>=0.6.0,<0.7.0``
-   :depends bioconductor-missmethyl: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.11.0,<3.12.0``
-   :depends bioconductor-reactome.db: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-missmethyl: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-reactome.db: ``>=1.74.0,<1.75.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 
    :depends r-robustrankaggreg: 
