@@ -27,25 +27,25 @@ bioconductor-sctensor
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.12-0``
+      ``2.0.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.12-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-annotationhub: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-biocstyle: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-category: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-dose: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-gostats: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-meshdbi: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-meshr: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-reactome.db: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-reactomepa: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-schex: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-biocstyle: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-category: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-dose: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-gostats: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-meshdbi: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-meshr: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-reactome.db: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-reactomepa: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-schex: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-abind: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 

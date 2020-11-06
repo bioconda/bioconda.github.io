@@ -27,7 +27,7 @@ maxbin2
       
       
 
-      ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
+      ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
 
       
 
@@ -36,8 +36,9 @@ maxbin2
    :depends fraggenescan: ``>=1.30``
    :depends hmmer: 
    :depends idba: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends perl: ``5.26.*``
    :depends perl-lwp-simple: 
    :depends r-base: 
    :depends r-gplots: 

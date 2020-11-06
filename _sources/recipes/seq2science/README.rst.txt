@@ -29,10 +29,10 @@ seq2science
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.0-0</code>,  <code>0.0.3-0</code>,  <code>0.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.0-0</code>,  <code>0.0.3-0</code>,  </span></summary>
       
 
-      ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``,  ``0.0.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``,  ``0.0.0-0``
 
       
       .. raw:: html
@@ -41,16 +41,17 @@ seq2science
       
 
    
-   :depends biopython: ``>=1.74``
-   :depends filelock: ``>=3.0.12``
-   :depends genomepy: ``0.9.0.*``
+   :depends biopython: ``1.74.*``
+   :depends conda: ``4.8.4.*``
+   :depends filelock: ``3.0.12.*``
+   :depends genomepy: ``0.9.1.*``
+   :depends matplotlib-base: ``3.3.2.*``
    :depends pandas_schema: ``0.3.5.*``
    :depends pretty_html_table: ``0.9.dev0.*``
-   :depends pysam: ``>0.15.3*``
+   :depends pysam: ``0.15.3.*``
    :depends pysradb: ``0.11.1.*``
    :depends python: ``>=3.6``
    :depends pyyaml: ``5.3.1.*``
-   :depends pyyaml: ``>=5.3.1``
    :depends snakemake: ``5.18.1.*``
    :depends trackhub: ``0.1.2019.12.24.*``
    :requirements:
