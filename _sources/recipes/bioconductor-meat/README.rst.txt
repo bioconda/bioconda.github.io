@@ -12,11 +12,11 @@ bioconductor-meat
 
    Muscle Epigenetic Age Test
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MEAT.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MEAT.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-meat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meat/meta.yaml>`_
 
-   This package estimates epigenetic age in skeletal muscle\, using DNA methylation data generated with Illumina Infinium technology \(HM27\, HM450 and HMEPIC\).
+   This package estimates epigenetic age in skeletal muscle\, using DNA methylation data generated with the Illumina Infinium technology \(HM27\, HM450 and HMEPIC\).
 
 
 .. conda:package:: bioconductor-meat

@@ -12,11 +12,11 @@ bioconductor-gcsconnection
 
    Creating R Connection with Google Cloud Storage
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GCSConnection.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GCSConnection.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gcsconnection <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcsconnection>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcsconnection/meta.yaml>`_
 
-   Create R \'connection\' objects to google cloud storage buckets using the Google REST interface. Both read and write connections are supported. The package also provide functions to view and manage files on Google Cloud.
+   Create R \'connection\' objects to google cloud storage buckets using the Google REST interface. Both read and write connections are supported. The package also provides functions to view and manage files on Google Cloud.
 
 
 .. conda:package:: bioconductor-gcsconnection

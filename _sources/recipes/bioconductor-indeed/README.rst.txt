@@ -12,7 +12,7 @@ bioconductor-indeed
 
    Interactive Visualization of Integrated Differential Expression and Differential Network Analysis for Biomarker Candidate Selection Package
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/INDEED.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/INDEED.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-indeed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-indeed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-indeed/meta.yaml>`_
 

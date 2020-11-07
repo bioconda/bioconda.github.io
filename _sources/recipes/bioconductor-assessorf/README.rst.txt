@@ -12,7 +12,7 @@ bioconductor-assessorf
 
    Assess Gene Predictions Using Proteomics and Evolutionary Conservation
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/AssessORF.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/AssessORF.html
    :license: GPL-3
    :recipe: /`bioconductor-assessorf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assessorf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assessorf/meta.yaml>`_
 

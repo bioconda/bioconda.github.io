@@ -12,7 +12,7 @@ bioconductor-derfinder
 
    Annotation\-agnostic differential expression analysis of RNA\-seq data at base\-pair resolution via the DER Finder approach
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/derfinder.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/derfinder.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-derfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinder/meta.yaml>`_
    :links: biotools: :biotools:`derfinder`

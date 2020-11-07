@@ -12,7 +12,7 @@ bioconductor-ffpe
 
    Quality assessment and control for FFPE microarray expression data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ffpe.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ffpe.html
    :license: GPL (>2)
    :recipe: /`bioconductor-ffpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpe/meta.yaml>`_
    :links: biotools: :biotools:`ffpe`

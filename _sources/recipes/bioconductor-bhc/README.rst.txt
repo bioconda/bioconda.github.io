@@ -12,7 +12,7 @@ bioconductor-bhc
 
    Bayesian Hierarchical Clustering
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BHC.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BHC.html
    :license: GPL-3
    :recipe: /`bioconductor-bhc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bhc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bhc/meta.yaml>`_
    :links: biotools: :biotools:`bhc`, doi: :doi:`10.1186/1471-2105-10-242`

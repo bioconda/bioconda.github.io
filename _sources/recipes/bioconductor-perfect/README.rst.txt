@@ -12,7 +12,7 @@ bioconductor-perfect
 
    Permutation filtration for microbiome data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PERFect.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PERFect.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-perfect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-perfect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-perfect/meta.yaml>`_
 

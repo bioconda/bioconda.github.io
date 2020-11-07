@@ -12,7 +12,7 @@ bioconductor-dexus
 
    DEXUS \- Identifying Differential Expression in RNA\-Seq Studies with Unknown Conditions or without Replicates
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/dexus.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/dexus.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-dexus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexus/meta.yaml>`_
    :links: biotools: :biotools:`dexus`

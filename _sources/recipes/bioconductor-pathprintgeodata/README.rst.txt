@@ -12,7 +12,7 @@ bioconductor-pathprintgeodata
 
    Pathway fingerprint vectors representing a subsection of arrays from the GEO data repository
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/pathprintGEOData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/pathprintGEOData.html
    :license: GPL
    :recipe: /`bioconductor-pathprintgeodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathprintgeodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathprintgeodata/meta.yaml>`_
 

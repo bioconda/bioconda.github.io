@@ -12,7 +12,7 @@ bioconductor-biomvrcns
 
    Copy Number study and Segmentation for multivariate biological data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/biomvRCNS.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/biomvRCNS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-biomvrcns <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvrcns>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvrcns/meta.yaml>`_
 

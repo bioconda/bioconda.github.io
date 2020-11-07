@@ -12,7 +12,7 @@ bioconductor-fishpond
 
    Fishpond\: differential transcript and gene expression with inferential replicates
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/fishpond.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/fishpond.html
    :license: GPL-2
    :recipe: /`bioconductor-fishpond <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fishpond>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fishpond/meta.yaml>`_
 

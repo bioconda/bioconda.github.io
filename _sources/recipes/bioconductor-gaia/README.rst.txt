@@ -12,7 +12,7 @@ bioconductor-gaia
 
    GAIA\: An R package for genomic analysis of significant chromosomal aberrations.
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gaia.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/gaia.html
    :license: GPL-2
    :recipe: /`bioconductor-gaia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaia/meta.yaml>`_
 

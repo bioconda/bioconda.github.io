@@ -12,7 +12,7 @@ bioconductor-compgo
 
    An R pipeline for .bed file annotation\, comparing GO term enrichment between gene sets and data visualisation
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CompGO.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CompGO.html
    :license: GPL-2
    :recipe: /`bioconductor-compgo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compgo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compgo/meta.yaml>`_
 

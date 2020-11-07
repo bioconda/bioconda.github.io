@@ -12,11 +12,11 @@ bioconductor-exploremodelmatrix
 
    Graphical Exploration of Design Matrices
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ExploreModelMatrix.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ExploreModelMatrix.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-exploremodelmatrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exploremodelmatrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exploremodelmatrix/meta.yaml>`_
 
-   Given a sample data table and a design formula\, generate an interactive application to explore the resulting design matrix.
+   Given a sample data table and a design formula\, ExploreModelMatrix generates an interactive application for exploration of the resulting design matrix. This can be helpful for interpreting model coefficients and constructing appropriate contrasts in \(generalized\) linear models. Static visualizations can also be generated.
 
 
 .. conda:package:: bioconductor-exploremodelmatrix

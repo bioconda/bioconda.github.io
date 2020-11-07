@@ -10,9 +10,9 @@ bioconductor-systempiperdata
    :replaces_section_title:
    :noindex:
 
-   systemPipeRdata\: NGS workflow templates and sample data
+   systemPipeRdata\: Workflow templates and sample data
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/systemPipeRdata.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/systemPipeRdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-systempiperdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiperdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiperdata/meta.yaml>`_
 

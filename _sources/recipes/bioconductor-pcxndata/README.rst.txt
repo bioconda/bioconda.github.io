@@ -12,7 +12,7 @@ bioconductor-pcxndata
 
    Correlation coefficients and p values between pre\-defined pathway\/gene sets
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/pcxnData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/pcxnData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pcxndata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxndata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcxndata/meta.yaml>`_
 

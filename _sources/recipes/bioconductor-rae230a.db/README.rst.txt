@@ -12,7 +12,7 @@ bioconductor-rae230a.db
 
    Affymetrix Rat Expression Set 230 annotation data \(chip rae230a\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rae230a.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/rae230a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rae230a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230a.db/meta.yaml>`_
 

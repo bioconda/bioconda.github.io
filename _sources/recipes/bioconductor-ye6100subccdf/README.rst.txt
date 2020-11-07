@@ -12,7 +12,7 @@ bioconductor-ye6100subccdf
 
    ye6100subccdf
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/ye6100subccdf.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/ye6100subccdf.html
    :license: LGPL
    :recipe: /`bioconductor-ye6100subccdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ye6100subccdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ye6100subccdf/meta.yaml>`_
 

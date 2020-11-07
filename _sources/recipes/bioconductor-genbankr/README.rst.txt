@@ -12,7 +12,7 @@ bioconductor-genbankr
 
    Parsing GenBank files into semantically useful objects
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/genbankr.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/genbankr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genbankr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genbankr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genbankr/meta.yaml>`_
    :links: biotools: :biotools:`genbankr`, doi: :doi:`10.1038/nmeth.3252`

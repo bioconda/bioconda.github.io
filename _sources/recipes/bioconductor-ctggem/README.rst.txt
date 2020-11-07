@@ -12,7 +12,7 @@ bioconductor-ctggem
 
    Generating Tree Hierarchy Visualizations from Gene Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ctgGEM.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ctgGEM.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-ctggem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctggem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctggem/meta.yaml>`_
 

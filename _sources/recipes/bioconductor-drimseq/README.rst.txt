@@ -12,7 +12,7 @@ bioconductor-drimseq
 
    Differential transcript usage and tuQTL analyses with Dirichlet\-multinomial model in RNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DRIMSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DRIMSeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-drimseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drimseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drimseq/meta.yaml>`_
    :links: biotools: :biotools:`drimseq`

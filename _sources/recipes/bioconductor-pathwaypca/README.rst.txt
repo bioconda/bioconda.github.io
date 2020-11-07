@@ -12,7 +12,7 @@ bioconductor-pathwaypca
 
    Integrative Pathway Analysis with Modern PCA Methodology and Gene Selection
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/pathwayPCA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/pathwayPCA.html
    :license: GPL-3
    :recipe: /`bioconductor-pathwaypca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaypca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaypca/meta.yaml>`_
 

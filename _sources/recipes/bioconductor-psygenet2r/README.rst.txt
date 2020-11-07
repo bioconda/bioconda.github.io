@@ -12,7 +12,7 @@ bioconductor-psygenet2r
 
    psygenet2r \- An R package for querying PsyGeNET and to perform comorbidity studies in psychiatric disorders
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/psygenet2r.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/psygenet2r.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-psygenet2r <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psygenet2r>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psygenet2r/meta.yaml>`_
    :links: biotools: :biotools:`psygenet2r`, doi: :doi:`10.1093/bioinformatics/btv301`

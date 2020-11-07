@@ -12,7 +12,7 @@ bioconductor-pathnetdata
 
    Experimental data for the PathNet package
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/PathNetData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/PathNetData.html
    :license: GPL-3
    :recipe: /`bioconductor-pathnetdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathnetdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathnetdata/meta.yaml>`_
 

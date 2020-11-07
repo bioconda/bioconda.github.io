@@ -12,7 +12,7 @@ bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch38
 
    Extra SNP locations for Homo sapiens \(dbSNP Build 144\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/XtraSNPlocs.Hsapiens.dbSNP144.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/XtraSNPlocs.Hsapiens.dbSNP144.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch38/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-huexexonprobesetlocation
 
    Probe sequence data for microarrays of type HuEx
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/HuExExonProbesetLocation.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/HuExExonProbesetLocation.html
    :license: LGPL
    :recipe: /`bioconductor-huexexonprobesetlocation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocation/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-parglms
 
    support for parallelized estimation of GLMs\/GEEs
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/parglms.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/parglms.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-parglms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-parglms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-parglms/meta.yaml>`_
 
-   support for parallelized estimation of GLMs\/GEEs\, catering for dispersed data
+   This package provides support for parallelized estimation of GLMs\/GEEs\, catering for dispersed data.
 
 
 .. conda:package:: bioconductor-parglms

@@ -12,7 +12,7 @@ bioconductor-lumihumanidmapping
 
    Illumina Identifier mapping for Human
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/lumiHumanIDMapping.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/lumiHumanIDMapping.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-lumihumanidmapping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumihumanidmapping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumihumanidmapping/meta.yaml>`_
 

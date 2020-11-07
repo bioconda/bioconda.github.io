@@ -12,7 +12,7 @@ bioconductor-fourcseq
 
    Package analyse 4C sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/FourCSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/FourCSeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-fourcseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fourcseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fourcseq/meta.yaml>`_
    :links: biotools: :biotools:`fourcseq`

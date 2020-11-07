@@ -12,7 +12,7 @@ bioconductor-xcir
 
    XCI\-inference
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/XCIR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/XCIR.html
    :license: GPL-2
    :recipe: /`bioconductor-xcir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcir/meta.yaml>`_
 

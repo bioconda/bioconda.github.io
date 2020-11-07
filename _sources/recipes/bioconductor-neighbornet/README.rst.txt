@@ -12,7 +12,7 @@ bioconductor-neighbornet
 
    Neighbor\_net analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/NeighborNet.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/NeighborNet.html
    :license: CC BY-NC-ND 4.0
    :recipe: /`bioconductor-neighbornet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-neighbornet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-neighbornet/meta.yaml>`_
 

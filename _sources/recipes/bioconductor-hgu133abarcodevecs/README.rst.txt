@@ -12,7 +12,7 @@ bioconductor-hgu133abarcodevecs
 
    hgu133a data for barcode
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/hgu133abarcodevecs.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/hgu133abarcodevecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-hgu133abarcodevecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133abarcodevecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133abarcodevecs/meta.yaml>`_
 

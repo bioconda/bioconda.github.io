@@ -12,7 +12,7 @@ bioconductor-geneplast.data.string.v91
 
    Input data for the geneplast package
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/geneplast.data.string.v91.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/geneplast.data.string.v91.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geneplast.data.string.v91 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast.data.string.v91>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast.data.string.v91/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-bioccheck
 
    Bioconductor\-specific package checks
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BiocCheck.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BiocCheck.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bioccheck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioccheck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioccheck/meta.yaml>`_
 

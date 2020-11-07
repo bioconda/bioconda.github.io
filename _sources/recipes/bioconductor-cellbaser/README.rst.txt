@@ -12,7 +12,7 @@ bioconductor-cellbaser
 
    Querying annotation data from the high performance Cellbase web
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cellbaseR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/cellbaseR.html
    :license: Apache License (== 2.0)
    :recipe: /`bioconductor-cellbaser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbaser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbaser/meta.yaml>`_
 

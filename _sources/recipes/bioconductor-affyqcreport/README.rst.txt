@@ -12,7 +12,7 @@ bioconductor-affyqcreport
 
    QC Report Generation for affyBatch objects
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/affyQCReport.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/affyQCReport.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-affyqcreport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyqcreport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyqcreport/meta.yaml>`_
 

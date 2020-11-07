@@ -12,7 +12,7 @@ bioconductor-chromswitch
 
    An R package to detect chromatin state switches from epigenomic data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/chromswitch.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/chromswitch.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-chromswitch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromswitch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromswitch/meta.yaml>`_
 

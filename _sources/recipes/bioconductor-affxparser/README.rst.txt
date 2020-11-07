@@ -12,7 +12,7 @@ bioconductor-affxparser
 
    Affymetrix File Parsing SDK
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/affxparser.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/affxparser.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-affxparser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affxparser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affxparser/meta.yaml>`_
 

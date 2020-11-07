@@ -10,14 +10,14 @@ bioconductor-tscan
    :replaces_section_title:
    :noindex:
 
-   TSCAN\: Tools for Single\-Cell ANalysis
+   Tools for Single\-Cell Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TSCAN.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/TSCAN.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-tscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tscan/meta.yaml>`_
    :links: biotools: :biotools:`tscan`, doi: :doi:`10.1093/nar/gkw430`
 
-   TSCAN enables users to easily construct and tune pseudotemporal cell ordering as well as analyzing differentially expressed genes. TSCAN comes with a user\-friendly GUI written in shiny. More features will come in the future.
+   Provides methods to perform trajectory analysis based on a minimum spanning tree constructed from cluster centroids. Computes pseudotemporal cell orderings by mapping cells in each cluster \(or new cells\) to the closest edge in the tree. Uses linear modelling to identify differentially expressed genes along each path through the tree. Several plotting and interactive visualization functions are also implemented.
 
 
 .. conda:package:: bioconductor-tscan

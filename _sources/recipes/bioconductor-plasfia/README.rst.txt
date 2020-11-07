@@ -12,7 +12,7 @@ bioconductor-plasfia
 
    FIA\-HRMS plasma dataset
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/plasFIA.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/plasFIA.html
    :license: LGPL
    :recipe: /`bioconductor-plasfia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasfia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasfia/meta.yaml>`_
 

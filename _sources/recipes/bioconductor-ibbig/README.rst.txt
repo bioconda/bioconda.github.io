@@ -12,7 +12,7 @@ bioconductor-ibbig
 
    Iterative Binary Biclustering of Genesets
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/iBBiG.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/iBBiG.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ibbig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibbig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibbig/meta.yaml>`_
 

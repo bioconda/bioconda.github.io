@@ -12,7 +12,7 @@ bioconductor-medipsdata
 
    Example data for MEDIPS and QSEA packages
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/MEDIPSData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/MEDIPSData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-medipsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medipsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medipsdata/meta.yaml>`_
 

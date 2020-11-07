@@ -12,7 +12,7 @@ bioconductor-pd.hg.u95a
 
    Platform Design Info for The Manufacturer\'s Name HG U95A
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/pd.hg.u95a.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/pd.hg.u95a.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hg.u95a <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.u95a>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.u95a/meta.yaml>`_
 

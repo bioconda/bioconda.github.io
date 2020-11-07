@@ -12,7 +12,7 @@ bioconductor-biocworkflowtools
 
    Tools to aid the development of Bioconductor Workflow packages
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BiocWorkflowTools.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BiocWorkflowTools.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biocworkflowtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocworkflowtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocworkflowtools/meta.yaml>`_
    :links: biotools: :biotools:`BiocWorkflowTools`

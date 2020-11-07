@@ -12,7 +12,7 @@ bioconductor-pepsnmrdata
 
    Datasets for the PepsNMR package
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/PepsNMRData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/PepsNMRData.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-pepsnmrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsnmrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsnmrdata/meta.yaml>`_
 

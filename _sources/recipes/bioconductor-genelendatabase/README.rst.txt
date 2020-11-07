@@ -12,7 +12,7 @@ bioconductor-genelendatabase
 
    Lengths of mRNA transcripts for a number of genomes
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/geneLenDataBase.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/geneLenDataBase.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-genelendatabase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genelendatabase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genelendatabase/meta.yaml>`_
 

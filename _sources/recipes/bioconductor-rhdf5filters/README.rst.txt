@@ -12,7 +12,7 @@ bioconductor-rhdf5filters
 
    HDF5 Compression Filters
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/rhdf5filters.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/rhdf5filters.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-rhdf5filters <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5filters>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5filters/meta.yaml>`_
 

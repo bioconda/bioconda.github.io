@@ -12,7 +12,7 @@ bioconductor-tkwidgets
 
    R based tk widgets
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/tkWidgets.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/tkWidgets.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tkwidgets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tkwidgets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tkwidgets/meta.yaml>`_
 

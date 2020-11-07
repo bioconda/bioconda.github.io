@@ -12,7 +12,7 @@ bioconductor-gapgom
 
    GAPGOM \(novel Gene Annotation Prediction and other GO Metrics\)
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GAPGOM.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GAPGOM.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gapgom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gapgom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gapgom/meta.yaml>`_
 

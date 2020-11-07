@@ -12,11 +12,11 @@ bioconductor-a4classif
 
    Automated Affymetrix Array Analysis Classification Package
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/a4Classif.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/a4Classif.html
    :license: GPL-3
    :recipe: /`bioconductor-a4classif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4classif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4classif/meta.yaml>`_
 
-   Automated Affymetrix Array Analysis Classification Package
+   Functionalities for classification of Affymetrix microarray data\, integrating within the Automated Affymetrix Array Analysis set of packages.
 
 
 .. conda:package:: bioconductor-a4classif

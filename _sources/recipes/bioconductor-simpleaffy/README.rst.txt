@@ -12,7 +12,7 @@ bioconductor-simpleaffy
 
    Very simple high level analysis of Affymetrix data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/simpleaffy.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/simpleaffy.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-simpleaffy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpleaffy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpleaffy/meta.yaml>`_
    :links: biotools: :biotools:`simpleaffy`, doi: :doi:`10.1093/bioinformatics/bti605`

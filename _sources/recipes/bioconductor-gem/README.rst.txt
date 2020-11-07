@@ -12,7 +12,7 @@ bioconductor-gem
 
    GEM\: fast association study for the interplay of Gene\, Environment and Methylation
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GEM.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GEM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gem/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-gmrp
 
    GWAS\-based Mendelian Randomization and Path Analyses
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GMRP.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GMRP.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gmrp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmrp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmrp/meta.yaml>`_
    :links: biotools: :biotools:`gmrp`, doi: :doi:`10.1038/nmeth.3252`

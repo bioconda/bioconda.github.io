@@ -12,7 +12,7 @@ bioconductor-mirsm
 
    Inferring miRNA sponge modules by integrating expression data and miRNA\-target binding information
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/miRSM.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/miRSM.html
    :license: GPL-3
    :recipe: /`bioconductor-mirsm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsm/meta.yaml>`_
 

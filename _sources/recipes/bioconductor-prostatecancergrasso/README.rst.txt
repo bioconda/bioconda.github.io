@@ -12,7 +12,7 @@ bioconductor-prostatecancergrasso
 
    Prostate Cancer Data
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/prostateCancerGrasso.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/prostateCancerGrasso.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-prostatecancergrasso <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancergrasso>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prostatecancergrasso/meta.yaml>`_
 

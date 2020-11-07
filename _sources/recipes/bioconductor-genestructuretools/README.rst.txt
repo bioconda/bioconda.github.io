@@ -12,7 +12,7 @@ bioconductor-genestructuretools
 
    Tools for spliced gene structure manipulation and analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GeneStructureTools.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GeneStructureTools.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-genestructuretools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genestructuretools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genestructuretools/meta.yaml>`_
 

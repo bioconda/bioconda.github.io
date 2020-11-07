@@ -12,7 +12,7 @@ bioconductor-tenxpbmcdata
 
    PBMC data from 10X Genomics
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/TENxPBMCData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/TENxPBMCData.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-tenxpbmcdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxpbmcdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxpbmcdata/meta.yaml>`_
 

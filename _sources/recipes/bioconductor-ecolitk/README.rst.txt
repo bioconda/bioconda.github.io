@@ -12,7 +12,7 @@ bioconductor-ecolitk
 
    Meta\-data and tools for E. coli
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ecolitk.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ecolitk.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ecolitk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolitk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecolitk/meta.yaml>`_
 

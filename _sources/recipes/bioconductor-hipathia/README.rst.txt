@@ -12,7 +12,7 @@ bioconductor-hipathia
 
    HiPathia\: High\-throughput Pathway Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/hipathia.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/hipathia.html
    :license: GPL-2
    :recipe: /`bioconductor-hipathia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hipathia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hipathia/meta.yaml>`_
 

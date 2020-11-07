@@ -12,7 +12,7 @@ bioconductor-subseq
 
    Subsampling of high\-throughput sequencing count data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/subSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/subSeq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-subseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-subseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-subseq/meta.yaml>`_
    :links: biotools: :biotools:`subseq`, doi: :doi:`10.1093/bioinformatics/btu552`

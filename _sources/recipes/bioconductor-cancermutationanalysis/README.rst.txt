@@ -12,7 +12,7 @@ bioconductor-cancermutationanalysis
 
    Cancer mutation analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CancerMutationAnalysis.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CancerMutationAnalysis.html
    :license: GPL (>= 2) + file LICENSE
    :recipe: /`bioconductor-cancermutationanalysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancermutationanalysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancermutationanalysis/meta.yaml>`_
    :links: biotools: :biotools:`cancermutationanalysis`, doi: :doi:`10.1007/978-1-62703-721-1_7`

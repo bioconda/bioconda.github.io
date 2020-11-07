@@ -12,7 +12,7 @@ bioconductor-rariant
 
    Identification and Assessment of Single Nucleotide Variants through Shifts in Non\-Consensus Base Call Frequencies
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Rariant.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Rariant.html
    :license: GPL-3
    :recipe: /`bioconductor-rariant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rariant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rariant/meta.yaml>`_
    :links: biotools: :biotools:`rariant`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-hivprtplus2cdf
 
    hivprtplus2cdf
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hivprtplus2cdf.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hivprtplus2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hivprtplus2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hivprtplus2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hivprtplus2cdf/meta.yaml>`_
 

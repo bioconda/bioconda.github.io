@@ -12,11 +12,11 @@ bioconductor-genomicozone
 
    Delineate outstanding genomic zones of differential gene activity
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GenomicOZone.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GenomicOZone.html
    :license: LGPL (>=3)
    :recipe: /`bioconductor-genomicozone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicozone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicozone/meta.yaml>`_
 
-   The package clusters gene activity along chromosome into zones\, detects differential zones as outstanding\, and visualizes maps of outstanding zones across the genome. The method guarantees cluster optimality\, linear runtime to sample size\, and reproducibility. It enables new characterization of effects due to genome reorganization\, structural variation\, and epigenome alteration.
+   The package clusters gene activity along chromosome into zones\, detects differential zones as outstanding\, and visualizes maps of outstanding zones across the genome. It enables characterization of effects on multiple genes within adaptive genomic neighborhoods\, which could arise from genome reorganization\, structural variation\, or epigenome alteration. It guarantees cluster optimality\, linear runtime to sample size\, and reproducibility. One can apply it on genome\-wide activity measurements such as copy number\, transcriptomic\, proteomic\, and methylation data.
 
 
 .. conda:package:: bioconductor-genomicozone

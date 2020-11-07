@@ -12,11 +12,11 @@ bioconductor-randrotation
 
    Random Rotation Methods for High Dimensional Data with Batch Structure
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/randRotation.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/randRotation.html
    :license: GPL-3
    :recipe: /`bioconductor-randrotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randrotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randrotation/meta.yaml>`_
 
-   A collection of methods for performing random orthogonal transformations \(random rotations\) on high\-dimensional data \(e.g. microarray or RNA\-seq data\) with batch structure. The random rotation approach allows exact testing of dependent test statistics with linear models following arbitrary\, particularly non\-linear\, batch effect correction methods. The package further provides methods for estimating the local degrees of freedom of data mappings.
+   A collection of methods for performing random rotations on high\-dimensional\, normally distributed data \(e.g. microarray or RNA\-seq data\) with batch structure. The random rotation approach allows exact testing of dependent test statistics with linear models following arbitrary \(also non\-linear\) batch effect correction methods.
 
 
 .. conda:package:: bioconductor-randrotation

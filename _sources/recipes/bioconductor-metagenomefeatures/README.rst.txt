@@ -12,7 +12,7 @@ bioconductor-metagenomefeatures
 
    Exploration of marker\-gene sequence taxonomic annotations
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/metagenomeFeatures.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/metagenomeFeatures.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagenomefeatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagenomefeatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagenomefeatures/meta.yaml>`_
 

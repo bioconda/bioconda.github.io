@@ -12,7 +12,7 @@ bioconductor-kidpack
 
    DKFZ kidney package
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/kidpack.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/kidpack.html
    :license: GPL-2
    :recipe: /`bioconductor-kidpack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kidpack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kidpack/meta.yaml>`_
 

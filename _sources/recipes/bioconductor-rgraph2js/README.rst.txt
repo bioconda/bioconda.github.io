@@ -12,7 +12,7 @@ bioconductor-rgraph2js
 
    Convert a Graph into a D3js Script
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RGraph2js.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RGraph2js.html
    :license: GPL-2
    :recipe: /`bioconductor-rgraph2js <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraph2js>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraph2js/meta.yaml>`_
    :links: biotools: :biotools:`rgraph2js`, doi: :doi:`10.1038/nmeth.3252`

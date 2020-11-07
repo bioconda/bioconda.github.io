@@ -12,7 +12,7 @@ bioconductor-coverageview
 
    Coverage visualization package for R
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CoverageView.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CoverageView.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-coverageview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coverageview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coverageview/meta.yaml>`_
 

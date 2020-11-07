@@ -12,7 +12,7 @@ bioconductor-cytofast
 
    cytofast \- A quick visualization and analysis tool for CyTOF data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cytofast.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/cytofast.html
    :license: GPL-3
    :recipe: /`bioconductor-cytofast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytofast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytofast/meta.yaml>`_
 

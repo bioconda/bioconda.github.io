@@ -12,7 +12,7 @@ bioconductor-annotate
 
    Annotation for microarrays
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/annotate.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/annotate.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-annotate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotate/meta.yaml>`_
    :links: biotools: :biotools:`annotate`, doi: :doi:`10.1038/nmeth.3252`

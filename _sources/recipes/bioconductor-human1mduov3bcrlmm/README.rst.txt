@@ -12,7 +12,7 @@ bioconductor-human1mduov3bcrlmm
 
    Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/human1mduov3bCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/human1mduov3bCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-human1mduov3bcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human1mduov3bcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human1mduov3bcrlmm/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-keggprofile
 
    An annotation and visualization package for multi\-types and multi\-groups expression data in KEGG pathway
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/KEGGprofile.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/KEGGprofile.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-keggprofile <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggprofile>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggprofile/meta.yaml>`_
 

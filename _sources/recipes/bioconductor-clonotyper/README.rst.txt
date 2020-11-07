@@ -12,7 +12,7 @@ bioconductor-clonotyper
 
    High throughput analysis of T cell antigen receptor sequences
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/clonotypeR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/clonotypeR.html
    :license: file LICENSE
    :recipe: /`bioconductor-clonotyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clonotyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clonotyper/meta.yaml>`_
    :links: biotools: :biotools:`clonotyper`

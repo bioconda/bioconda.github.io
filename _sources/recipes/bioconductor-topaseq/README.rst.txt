@@ -12,7 +12,7 @@ bioconductor-topaseq
 
    Topology\-based pathway analysis of RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ToPASeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ToPASeq.html
    :license: AGPL-3
    :recipe: /`bioconductor-topaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topaseq/meta.yaml>`_
 

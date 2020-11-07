@@ -12,7 +12,7 @@ bioconductor-matrixgenerics
 
    S4 Generic Summary Statistic Functions that Operate on Matrix\-Like Objects
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MatrixGenerics.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MatrixGenerics.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-matrixgenerics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixgenerics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixgenerics/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rcm
 
    Fit row\-column association models with the negative binomial distribution for the microbiome
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RCM.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RCM.html
    :license: GPL-2
    :recipe: /`bioconductor-rcm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcm/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-gskb
 
    Gene Set data for pathway analysis in mouse
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/gskb.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/gskb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gskb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gskb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gskb/meta.yaml>`_
 

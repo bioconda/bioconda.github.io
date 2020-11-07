@@ -12,7 +12,7 @@ bioconductor-liquidassociation
 
    LiquidAssociation
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/LiquidAssociation.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/LiquidAssociation.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-liquidassociation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation/meta.yaml>`_
    :links: biotools: :biotools:`liquidassociation`, doi: :doi:`10.1038/nmeth.3252`

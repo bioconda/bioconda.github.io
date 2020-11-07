@@ -12,7 +12,7 @@ bioconductor-jctseqdata
 
    Example Junction Count data for use with JunctionSeq
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/JctSeqData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/JctSeqData.html
    :license: file LICENSE
    :recipe: /`bioconductor-jctseqdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jctseqdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jctseqdata/meta.yaml>`_
 

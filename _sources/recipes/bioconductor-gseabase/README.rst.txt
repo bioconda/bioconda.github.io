@@ -12,7 +12,7 @@ bioconductor-gseabase
 
    Gene set enrichment data structures and methods
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GSEABase.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GSEABase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gseabase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabase/meta.yaml>`_
    :links: biotools: :biotools:`gseabase`, doi: :doi:`10.1038/nmeth.3252`

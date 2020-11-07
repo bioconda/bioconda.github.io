@@ -12,7 +12,7 @@ bioconductor-lrbase.gga.eg.db
 
    An annotation package for the LRBaseDb object
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/LRBase.Gga.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/LRBase.Gga.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.gga.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.gga.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.gga.eg.db/meta.yaml>`_
 

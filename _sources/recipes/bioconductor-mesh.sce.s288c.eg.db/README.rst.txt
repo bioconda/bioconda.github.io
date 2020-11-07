@@ -12,7 +12,7 @@ bioconductor-mesh.sce.s288c.eg.db
 
    Mapping table for Saccharomyces cerevisiae S288c Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Sce.S288c.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Sce.S288c.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.sce.s288c.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.sce.s288c.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.sce.s288c.eg.db/meta.yaml>`_
 

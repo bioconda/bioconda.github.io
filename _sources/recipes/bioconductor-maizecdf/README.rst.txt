@@ -12,7 +12,7 @@ bioconductor-maizecdf
 
    maizecdf
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/maizecdf.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/maizecdf.html
    :license: LGPL
    :recipe: /`bioconductor-maizecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maizecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maizecdf/meta.yaml>`_
 

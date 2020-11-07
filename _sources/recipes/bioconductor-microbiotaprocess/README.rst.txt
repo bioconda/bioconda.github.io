@@ -12,7 +12,7 @@ bioconductor-microbiotaprocess
 
    an R package for analysis\, visualization and biomarker discovery of microbiome
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MicrobiotaProcess.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MicrobiotaProcess.html
    :license: GPL (>= 3.0)
    :recipe: /`bioconductor-microbiotaprocess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiotaprocess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiotaprocess/meta.yaml>`_
 

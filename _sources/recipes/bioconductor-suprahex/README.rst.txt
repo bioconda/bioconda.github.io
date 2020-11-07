@@ -12,7 +12,7 @@ bioconductor-suprahex
 
    supraHex\: a supra\-hexagonal map for analysing tabular omics data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/supraHex.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/supraHex.html
    :license: GPL-2
    :recipe: /`bioconductor-suprahex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-suprahex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-suprahex/meta.yaml>`_
    :links: biotools: :biotools:`suprahex`

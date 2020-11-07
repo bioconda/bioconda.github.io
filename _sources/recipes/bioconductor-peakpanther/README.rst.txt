@@ -12,11 +12,11 @@ bioconductor-peakpanther
 
    Peak Picking and Annotation of High Resolution Experiments
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/peakPantheR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/peakPantheR.html
    :license: GPL-3
    :recipe: /`bioconductor-peakpanther <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peakpanther>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peakpanther/meta.yaml>`_
 
-   An automated pipeline for the detection\, integration and reporting of predefined features across a large number of mass spectrometry data files.
+   An automated pipeline for the detection\, integration and reporting of predefined features across a large number of mass spectrometry data files. It enables the real time annotation of multiple compounds in a single file\, or the parallel annotation of multiple compounds in multiple files. A graphical user interface as well as command line functions will assist in assessing the quality of annotation and update fitting parameters until a satisfactory result is obtained.
 
 
 .. conda:package:: bioconductor-peakpanther

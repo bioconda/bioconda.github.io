@@ -12,7 +12,7 @@ bioconductor-dune
 
    Improving replicability in single\-cell RNA\-Seq cell type discovery
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Dune.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Dune.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-dune <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dune>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dune/meta.yaml>`_
 

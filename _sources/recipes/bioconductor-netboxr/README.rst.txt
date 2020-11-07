@@ -12,11 +12,11 @@ bioconductor-netboxr
 
    netboxr
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/netboxr.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/netboxr.html
    :license: LGPL-3 + file LICENSE
    :recipe: /`bioconductor-netboxr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netboxr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netboxr/meta.yaml>`_
 
-   NetBox is a software tool for performing network analysis on human interaction networks. It is pre\-loaded with a Human Interaction Network \(HIN\) derived from four literature curated data sources\, including the Human Protein Reference Database \(HPRD\)\, Reactome\, NCI\-Nature Pathway Interaction \(PID\) Database\, and the MSKCC Cancer Cell Map.
+   NetBox is a network\-based approach that combines prior knowledge with a network clustering algorithm. The algorithm allows for the identification of functional modules and allows for combining multiple data types\, such as mutations and copy number alterations. NetBox performs network analysis on human interaction networks\, and comes pre\-loaded with a Human Interaction Network \(HIN\) derived from four literature curated data sources\, including the Human Protein Reference Database \(HPRD\)\, Reactome\, NCI\-Nature Pathway Interaction \(PID\) Database\, and the MSKCC Cancer Cell Map.
 
 
 .. conda:package:: bioconductor-netboxr

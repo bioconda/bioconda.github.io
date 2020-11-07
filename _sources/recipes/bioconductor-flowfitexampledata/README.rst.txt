@@ -12,7 +12,7 @@ bioconductor-flowfitexampledata
 
    Example data for the flowFit package
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/flowFitExampleData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/flowFitExampleData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowfitexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfitexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfitexampledata/meta.yaml>`_
 

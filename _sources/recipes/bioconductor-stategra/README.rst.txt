@@ -12,7 +12,7 @@ bioconductor-stategra
 
    Classes and methods for multi\-omics data integration
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/STATegRa.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/STATegRa.html
    :license: GPL-2
    :recipe: /`bioconductor-stategra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stategra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stategra/meta.yaml>`_
    :links: biotools: :biotools:`stategra`, doi: :doi:`10.14806/ej.20.a.768`

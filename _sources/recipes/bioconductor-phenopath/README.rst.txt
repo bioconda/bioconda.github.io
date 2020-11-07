@@ -12,7 +12,7 @@ bioconductor-phenopath
 
    Genomic trajectories with heterogeneous genetic and environmental backgrounds
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/phenopath.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/phenopath.html
    :license: Apache License (== 2.0)
    :recipe: /`bioconductor-phenopath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenopath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenopath/meta.yaml>`_
 

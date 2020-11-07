@@ -12,7 +12,7 @@ bioconductor-bioconcotk
 
    Bioconductor components for general cancer genomics
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BiocOncoTK.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BiocOncoTK.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bioconcotk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioconcotk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioconcotk/meta.yaml>`_
 

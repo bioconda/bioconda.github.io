@@ -12,7 +12,7 @@ bioconductor-karyoploter
 
    Plot customizable linear genomes displaying arbitrary data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/karyoploteR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/karyoploteR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-karyoploter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-karyoploter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-karyoploter/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-chimera
 
    A package for secondary analysis of fusion products
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/chimera.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/chimera.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chimera <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimera>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimera/meta.yaml>`_
 

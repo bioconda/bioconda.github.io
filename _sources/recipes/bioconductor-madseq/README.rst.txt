@@ -12,7 +12,7 @@ bioconductor-madseq
 
    Mosaic Aneuploidy Detection and Quantification using Massive Parallel Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MADSEQ.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MADSEQ.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-madseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-madseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-madseq/meta.yaml>`_
    :links: biotools: :biotools:`madseq`, doi: :doi:`10.1101/142299`

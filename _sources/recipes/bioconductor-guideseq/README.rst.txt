@@ -12,7 +12,7 @@ bioconductor-guideseq
 
    GUIDE\-seq analysis pipeline
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GUIDEseq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GUIDEseq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-guideseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-guideseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-guideseq/meta.yaml>`_
    :links: biotools: :biotools:`guideseq`, doi: :doi:`10.1186/s12864-017-3746-y`

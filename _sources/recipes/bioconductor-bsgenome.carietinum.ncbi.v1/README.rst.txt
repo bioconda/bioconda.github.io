@@ -12,7 +12,7 @@ bioconductor-bsgenome.carietinum.ncbi.v1
 
    Cicer arietinum \(Chickpea\) full genome \(NCBI version ASM33114v1\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Carietinum.NCBI.v1.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Carietinum.NCBI.v1.html
    :license: GPL-3
    :recipe: /`bioconductor-bsgenome.carietinum.ncbi.v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.carietinum.ncbi.v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.carietinum.ncbi.v1/meta.yaml>`_
 

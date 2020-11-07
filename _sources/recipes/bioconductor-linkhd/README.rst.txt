@@ -12,7 +12,7 @@ bioconductor-linkhd
 
    LinkHD\: a versatile framework to explore and integrate heterogeneous data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/LinkHD.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/LinkHD.html
    :license: GPL-3
    :recipe: /`bioconductor-linkhd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linkhd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linkhd/meta.yaml>`_
 

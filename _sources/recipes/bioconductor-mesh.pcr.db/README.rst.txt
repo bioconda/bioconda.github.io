@@ -12,7 +12,7 @@ bioconductor-mesh.pcr.db
 
    A set of annotation maps describing the entire MeSH
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.PCR.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.PCR.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.pcr.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.pcr.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.pcr.db/meta.yaml>`_
 

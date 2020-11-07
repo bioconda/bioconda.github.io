@@ -12,7 +12,7 @@ bioconductor-risa
 
    Converting experimental metadata from ISA\-tab into Bioconductor data structures
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Risa.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Risa.html
    :license: LGPL
    :recipe: /`bioconductor-risa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-risa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-risa/meta.yaml>`_
    :links: biotools: :biotools:`risa`

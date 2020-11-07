@@ -12,7 +12,7 @@ bioconductor-swathxtend
 
    SWATH extended library generation and statistical data analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SwathXtend.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SwathXtend.html
    :license: GPL-2
    :recipe: /`bioconductor-swathxtend <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swathxtend>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swathxtend/meta.yaml>`_
    :links: biotools: :biotools:`swathxtend`, doi: :doi:`10.1074/mcp.M115.055558`

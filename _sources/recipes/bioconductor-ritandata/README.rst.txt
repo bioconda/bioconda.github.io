@@ -12,7 +12,7 @@ bioconductor-ritandata
 
    This package contains the annotation and network data sets
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/RITANdata.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/RITANdata.html
    :license: file LICENSE
    :recipe: /`bioconductor-ritandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritandata/meta.yaml>`_
 

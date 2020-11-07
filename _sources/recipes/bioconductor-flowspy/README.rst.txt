@@ -12,7 +12,7 @@ bioconductor-flowspy
 
    A Toolkit for Flow And Mass Cytometry Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowSpy.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/flowSpy.html
    :license: GPL-3
    :recipe: /`bioconductor-flowspy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowspy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowspy/meta.yaml>`_
 

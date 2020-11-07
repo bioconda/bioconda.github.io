@@ -12,7 +12,7 @@ bioconductor-cogena
 
    co\-expressed gene\-set enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cogena.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/cogena.html
    :license: LGPL-3
    :recipe: /`bioconductor-cogena <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogena>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogena/meta.yaml>`_
    :links: biotools: :biotools:`cogena`, doi: :doi:`10.1186/s12864-016-2737-8`

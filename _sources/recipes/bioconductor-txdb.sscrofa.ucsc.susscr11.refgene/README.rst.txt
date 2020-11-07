@@ -12,7 +12,7 @@ bioconductor-txdb.sscrofa.ucsc.susscr11.refgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/TxDb.Sscrofa.UCSC.susScr11.refGene.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/TxDb.Sscrofa.UCSC.susScr11.refGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.sscrofa.ucsc.susscr11.refgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.sscrofa.ucsc.susscr11.refgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.sscrofa.ucsc.susscr11.refgene/meta.yaml>`_
 

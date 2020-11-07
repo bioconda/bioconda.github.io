@@ -12,7 +12,7 @@ bioconductor-bigmemoryextras
 
    An extension of the bigmemory package with added safety\, convenience\, and a factor class
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/bigmemoryExtras.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/bigmemoryExtras.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bigmemoryextras <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmemoryextras>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmemoryextras/meta.yaml>`_
 

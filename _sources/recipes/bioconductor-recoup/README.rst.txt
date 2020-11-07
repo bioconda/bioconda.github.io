@@ -12,7 +12,7 @@ bioconductor-recoup
 
    An R package for the creation of complex genomic profile plots
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/recoup.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/recoup.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-recoup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recoup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recoup/meta.yaml>`_
    :links: biotools: :biotools:`recoup`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-celegans.db
 
    Affymetrix celegans annotation data \(chip celegans\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/celegans.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/celegans.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-celegans.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celegans.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celegans.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tspair
 
    Top Scoring Pairs for Microarray Classification
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/tspair.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/tspair.html
    :license: GPL-2
    :recipe: /`bioconductor-tspair <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tspair>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tspair/meta.yaml>`_
    :links: biotools: :biotools:`tspair`, doi: :doi:`10.1093/bioinformatics/btp126`

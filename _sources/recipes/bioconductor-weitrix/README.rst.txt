@@ -10,13 +10,13 @@ bioconductor-weitrix
    :replaces_section_title:
    :noindex:
 
-   Weighted matrix manipulation\, finding components of variation with weighted or sparse data
+   Tools for matrices with precision weights\, test and explore weighted or sparse data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/weitrix.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/weitrix.html
    :license: LGPL-2.1 | file LICENSE
    :recipe: /`bioconductor-weitrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weitrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weitrix/meta.yaml>`_
 
-   Data type and tools for working with matrices having precision weights and missing data. This package provides a common representation and tools that can be used with many types of high\-throughput data. The meaning of the weights is compatible with usage in the base R function \"lm\" and the package \"limma\". Calibrate weights by scaling weights row\-wise to account for known predictors of precision. Find PCA\-like components of variation even with many missing values\, rotated so that individual components may be meaningfully interpreted. DelayedArray matrices and BiocParallel are supported.
+   Data type and tools for working with matrices having precision weights and missing data. This package provides a common representation and tools that can be used with many types of high\-throughput data. The meaning of the weights is compatible with usage in the base R function \"lm\" and the package \"limma\". Calibrate weights to account for known predictors of precision. Find rows with excess variability. Perform differential testing and find rows with the largest confident differences. Find PCA\-like components of variation even with many missing values\, rotated so that individual components may be meaningfully interpreted. DelayedArray matrices and BiocParallel are supported.
 
 
 .. conda:package:: bioconductor-weitrix

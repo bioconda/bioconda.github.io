@@ -12,7 +12,7 @@ bioconductor-sponge
 
    Sparse Partial Correlations On Gene Expression
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SPONGE.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SPONGE.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-sponge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sponge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sponge/meta.yaml>`_
 

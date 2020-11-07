@@ -12,7 +12,7 @@ bioconductor-lowmaca
 
    LowMACA \- Low frequency Mutation Analysis via Consensus Alignment
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/LowMACA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/LowMACA.html
    :license: GPL-3
    :recipe: /`bioconductor-lowmaca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmaca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lowmaca/meta.yaml>`_
 

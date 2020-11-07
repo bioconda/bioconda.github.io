@@ -12,12 +12,12 @@ bioconductor-crisprseek
 
    Design of target\-specific guide RNAs in CRISPR\-Cas9\, genome\-editing systems
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CRISPRseek.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CRISPRseek.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-crisprseek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek/meta.yaml>`_
    :links: biotools: :biotools:`crisprseek`
 
-   The package includes functions to find potential guide RNAs for the CRISPR editing system including Base Editors and the Prime Editor for input target sequences\, optionally filter guide RNAs without restriction enzyme cut site\, or without paired guide RNAs\, genome\-wide search for off\-targets\, score\, rank\, fetch flank sequence and indicate whether the target and off\-targets are located in exon region or not. Potential guide RNAs are annotated with total score of the top5 and topN off\-targets\, detailed topN mismatch sites\, restriction enzyme cut sites\, and paired guide RNAs. This package leverages Biostrings and BSgenome packages.
+   The package includes functions to find potential guide RNAs for the CRISPR editing system including Base Editors and the Prime Editor for input target sequences\, optionally filter guide RNAs without restriction enzyme cut site\, or without paired guide RNAs\, genome\-wide search for off\-targets\, score\, rank\, fetch flank sequence and indicate whether the target and off\-targets are located in exon region or not. Potential guide RNAs are annotated with total score of the top5 and topN off\-targets\, detailed topN mismatch sites\, restriction enzyme cut sites\, and paired guide RNAs. The package also output indels and their frequencies for Cas9 targeted sites.
 
 
 .. conda:package:: bioconductor-crisprseek

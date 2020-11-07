@@ -12,7 +12,7 @@ bioconductor-smite
 
    Significance\-based Modules Integrating the Transcriptome and Epigenome
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SMITE.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SMITE.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-smite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smite/meta.yaml>`_
    :links: biotools: :biotools:`smite`, doi: :doi:`10.1186/s12859-017-1477-3`

@@ -12,7 +12,7 @@ bioconductor-annotationfuncs
 
    Annotation translation functions
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/AnnotationFuncs.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/AnnotationFuncs.html
    :license: GPL-2
    :recipe: /`bioconductor-annotationfuncs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfuncs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfuncs/meta.yaml>`_
    :links: biotools: :biotools:`annotationfuncs`, doi: :doi:`10.1038/nmeth.3252`

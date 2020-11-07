@@ -12,7 +12,7 @@ bioconductor-srnadiff
 
    Finding differentially expressed unannotated genomic regions from RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/srnadiff.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/srnadiff.html
    :license: GPL-3
    :recipe: /`bioconductor-srnadiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srnadiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srnadiff/meta.yaml>`_
 

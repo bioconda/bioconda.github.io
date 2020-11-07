@@ -12,7 +12,7 @@ bioconductor-crlmm
 
    Genotype Calling \(CRLMM\) and Copy Number Analysis tool for Affymetrix SNP 5.0 and 6.0 and Illumina arrays
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/crlmm.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/crlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-crlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crlmm/meta.yaml>`_
    :links: biotools: :biotools:`crlmm`

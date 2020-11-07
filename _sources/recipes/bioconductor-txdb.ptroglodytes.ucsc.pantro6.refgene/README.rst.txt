@@ -12,7 +12,7 @@ bioconductor-txdb.ptroglodytes.ucsc.pantro6.refgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/TxDb.Ptroglodytes.UCSC.panTro6.refGene.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/TxDb.Ptroglodytes.UCSC.panTro6.refGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.ptroglodytes.ucsc.pantro6.refgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.ptroglodytes.ucsc.pantro6.refgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.ptroglodytes.ucsc.pantro6.refgene/meta.yaml>`_
 

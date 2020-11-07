@@ -12,7 +12,7 @@ bioconductor-hugene11sttranscriptcluster.db
 
    Affymetrix hugene11 annotation data \(chip hugene11sttranscriptcluster\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hugene11sttranscriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hugene11sttranscriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hugene11sttranscriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene11sttranscriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene11sttranscriptcluster.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tscr
 
    A time series clustering package combining slope and Frechet distances
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/tscR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/tscR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-tscr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tscr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tscr/meta.yaml>`_
 

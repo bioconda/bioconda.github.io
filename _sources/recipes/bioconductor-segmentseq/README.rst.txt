@@ -12,7 +12,7 @@ bioconductor-segmentseq
 
    Methods for identifying small RNA loci from high\-throughput sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/segmentSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/segmentSeq.html
    :license: GPL-3
    :recipe: /`bioconductor-segmentseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmentseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmentseq/meta.yaml>`_
    :links: biotools: :biotools:`segmentseq`, doi: :doi:`10.1093/bioinformatics/btr687`

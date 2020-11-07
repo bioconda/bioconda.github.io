@@ -12,7 +12,7 @@ bioconductor-zebrafishprobe
 
    Probe sequence data for microarrays of type zebrafish
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/zebrafishprobe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/zebrafishprobe.html
    :license: LGPL
    :recipe: /`bioconductor-zebrafishprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafishprobe/meta.yaml>`_
 

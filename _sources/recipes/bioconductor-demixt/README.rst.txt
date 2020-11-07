@@ -12,7 +12,7 @@ bioconductor-demixt
 
    Cell type\-specific deconvolution of heterogeneous tumor samples with two or three components using expression data from RNAseq or microarray platforms
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DeMixT.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DeMixT.html
    :license: GPL-3
    :recipe: /`bioconductor-demixt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demixt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demixt/meta.yaml>`_
 

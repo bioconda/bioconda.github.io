@@ -12,7 +12,7 @@ bioconductor-unifiedwmwqpcr
 
    Unified Wilcoxon\-Mann Whitney Test for testing differential expression in qPCR data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/unifiedWMWqPCR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/unifiedWMWqPCR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-unifiedwmwqpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-unifiedwmwqpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-unifiedwmwqpcr/meta.yaml>`_
    :links: biotools: :biotools:`unifiedwmwqpcr`

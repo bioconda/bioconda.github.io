@@ -10,13 +10,13 @@ bioconductor-roseq
    :replaces_section_title:
    :noindex:
 
-   A Rank Based Approach to Modeling Gene Expression
+   Modeling expression ranks for noise\-tolerant differential expression analysis of scRNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ROSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ROSeq.html
    :license: GPL-3
    :recipe: /`bioconductor-roseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roseq/meta.yaml>`_
 
-   A rank based approach to modeling gene expression with filtered and normalized read count matrix. Takes in the complete filtered and normalized read count matrix\, the location of the two sub\-populations and the number of cores to be used.
+   ROSeq \- A rank based approach to modeling gene expression with filtered and normalized read count matrix. ROSeq takes filtered and normalized read matrix and cell\-annotation\/condition as input and determines the differentially expressed genes between the contrasting groups of single cells. One of the input parameters is the number of cores to be used.
 
 
 .. conda:package:: bioconductor-roseq

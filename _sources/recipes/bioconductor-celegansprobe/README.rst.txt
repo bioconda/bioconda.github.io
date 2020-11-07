@@ -12,7 +12,7 @@ bioconductor-celegansprobe
 
    Probe sequence data for microarrays of type celegans
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/celegansprobe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/celegansprobe.html
    :license: LGPL
    :recipe: /`bioconductor-celegansprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celegansprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celegansprobe/meta.yaml>`_
 

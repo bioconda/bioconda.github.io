@@ -12,7 +12,7 @@ bioconductor-hgu95dprobe
 
    Probe sequence data for microarrays of type hgu95d
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hgu95dprobe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hgu95dprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hgu95dprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95dprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95dprobe/meta.yaml>`_
 

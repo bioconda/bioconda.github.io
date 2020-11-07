@@ -12,7 +12,7 @@ bioconductor-missrows
 
    Handling Missing Individuals in Multi\-Omics Data Integration
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/missRows.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/missRows.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-missrows <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missrows>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missrows/meta.yaml>`_
 

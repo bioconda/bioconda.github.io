@@ -12,7 +12,7 @@ bioconductor-spqndata
 
    Data for the spqn package
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/spqnData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/spqnData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spqndata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spqndata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spqndata/meta.yaml>`_
 

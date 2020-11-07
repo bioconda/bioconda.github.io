@@ -12,12 +12,12 @@ bioconductor-multiassayexperiment
 
    Software for the integration of multi\-omics experiments in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MultiAssayExperiment.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MultiAssayExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-multiassayexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment/meta.yaml>`_
    :links: biotools: :biotools:`multiassayexperiment`, doi: :doi:`10.1101/144774`
 
-   MultiAssayExperiment harmonizes data management of multiple assays performed on an overlapping set of specimens. It provides a familiar Bioconductor user experience by extending concepts from SummarizedExperiment\, supporting an open\-ended mix of standard data classes for individual assays\, and allowing subsetting by genomic ranges or rownames.
+   MultiAssayExperiment harmonizes data management of multiple experimental assays performed on an overlapping set of specimens. It provides a familiar Bioconductor user experience by extending concepts from SummarizedExperiment\, supporting an open\-ended mix of standard data classes for individual assays\, and allowing subsetting by genomic ranges or rownames. Facilities are provided for reshaping data into wide and long formats for adaptability to graphing and downstream analysis.
 
 
 .. conda:package:: bioconductor-multiassayexperiment

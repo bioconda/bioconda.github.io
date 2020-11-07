@@ -12,7 +12,7 @@ bioconductor-tarseqqc
 
    TARgeted SEQuencing Experiment Quality Control
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TarSeqQC.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/TarSeqQC.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-tarseqqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tarseqqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tarseqqc/meta.yaml>`_
    :links: biotools: :biotools:`tarseqqc`

@@ -12,7 +12,7 @@ bioconductor-reder
 
    Interactive visualization and manipulation of nested networks
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RedeR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RedeR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-reder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reder/meta.yaml>`_
    :links: biotools: :biotools:`reder`

@@ -12,7 +12,7 @@ bioconductor-canine.db0
 
    Base Level Annotation databases for canine
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/canine.db0.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/canine.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-canine.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canine.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canine.db0/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-factdesign
 
    Factorial designed microarray experiment analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/factDesign.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/factDesign.html
    :license: LGPL
    :recipe: /`bioconductor-factdesign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-factdesign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-factdesign/meta.yaml>`_
 

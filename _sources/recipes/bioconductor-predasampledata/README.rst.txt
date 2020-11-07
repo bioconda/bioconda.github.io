@@ -12,7 +12,7 @@ bioconductor-predasampledata
 
    expression and copy number data on clear cell renal carcinoma samples
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/PREDAsampledata.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/PREDAsampledata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-predasampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predasampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predasampledata/meta.yaml>`_
 

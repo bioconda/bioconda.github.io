@@ -12,7 +12,7 @@ bioconductor-potra
 
    PoTRA\: Pathways of Topological Rank Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PoTRA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PoTRA.html
    :license: LGPL
    :recipe: /`bioconductor-potra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-potra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-potra/meta.yaml>`_
 

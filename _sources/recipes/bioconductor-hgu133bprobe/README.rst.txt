@@ -12,7 +12,7 @@ bioconductor-hgu133bprobe
 
    Probe sequence data for microarrays of type hgu133b
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hgu133bprobe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hgu133bprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hgu133bprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133bprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133bprobe/meta.yaml>`_
 

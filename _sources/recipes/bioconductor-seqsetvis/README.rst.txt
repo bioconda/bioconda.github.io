@@ -12,11 +12,11 @@ bioconductor-seqsetvis
 
    Set Based Visualizations for Next\-Gen Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/seqsetvis.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/seqsetvis.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-seqsetvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsetvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsetvis/meta.yaml>`_
 
-   seqsetvis enables the visualization and analysis of multiple genomic samples. Although seqsetvis was designed for the comparison of mulitple ChIP\-seq samples\, this package is domain\-agnostic and allows the processing of multiple genomic coordinate files \(bed\-like files\) and signal files \(bigwig files or bam pileups\).
+   seqsetvis enables the visualization and analysis of sets of genomic sites in next gen sequencing data. Although seqsetvis was designed for the comparison of mulitple ChIP\-seq samples\, this package is domain\-agnostic and allows the processing of multiple genomic coordinate files \(bed\-like files\) and signal files \(bigwig files pileups from bam file\).
 
 
 .. conda:package:: bioconductor-seqsetvis

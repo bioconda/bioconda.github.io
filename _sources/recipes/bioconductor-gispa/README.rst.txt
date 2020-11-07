@@ -12,7 +12,7 @@ bioconductor-gispa
 
    GISPA\: Method for Gene Integrated Set Profile Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GISPA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GISPA.html
    :license: GPL-2
    :recipe: /`bioconductor-gispa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gispa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gispa/meta.yaml>`_
 

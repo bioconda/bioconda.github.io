@@ -12,7 +12,7 @@ bioconductor-microrna
 
    Data and functions for dealing with microRNAs
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/microRNA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/microRNA.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-microrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microrna/meta.yaml>`_
    :links: biotools: :biotools:`microrna`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-inpas
 
    InPAS\: a bioconductor package for the identification of novel alternative PolyAdenylation Sites \(PAS\) using RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/InPAS.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/InPAS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-inpas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpas/meta.yaml>`_
 

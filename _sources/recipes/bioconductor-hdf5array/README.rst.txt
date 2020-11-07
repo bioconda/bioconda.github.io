@@ -12,7 +12,7 @@ bioconductor-hdf5array
 
    HDF5 backend for DelayedArray objects
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HDF5Array.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/HDF5Array.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hdf5array <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdf5array>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdf5array/meta.yaml>`_
    :links: biotools: :biotools:`hdf5array`, doi: :doi:`10.1038/nmeth.3252`

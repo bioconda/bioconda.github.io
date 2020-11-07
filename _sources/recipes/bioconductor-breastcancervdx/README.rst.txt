@@ -12,7 +12,7 @@ bioconductor-breastcancervdx
 
    Gene expression datasets published by Wang et al. \[2005\] and Minn et al. \[2007\] \(VDX\).
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/breastCancerVDX.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/breastCancerVDX.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancervdx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancervdx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancervdx/meta.yaml>`_
 

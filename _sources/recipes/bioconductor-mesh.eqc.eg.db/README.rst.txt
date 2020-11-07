@@ -12,7 +12,7 @@ bioconductor-mesh.eqc.eg.db
 
    Mapping table for Equus caballus Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Eqc.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Eqc.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.eqc.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.eqc.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.eqc.eg.db/meta.yaml>`_
 

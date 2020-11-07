@@ -12,7 +12,7 @@ bioconductor-gosemsim
 
    GO\-terms Semantic Similarity Measures
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GOSemSim.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GOSemSim.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gosemsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosemsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosemsim/meta.yaml>`_
    :links: biotools: :biotools:`gosemsim`

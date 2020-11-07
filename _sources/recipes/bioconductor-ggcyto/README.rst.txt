@@ -12,7 +12,7 @@ bioconductor-ggcyto
 
    Visualize Cytometry data with ggplot
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ggcyto.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ggcyto.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggcyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto/meta.yaml>`_
    :links: biotools: :biotools:`ggcyto`, doi: :doi:`10.1038/nmeth.3252`

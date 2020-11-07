@@ -12,7 +12,7 @@ bioconductor-rgu34a.db
 
    Affymetrix Rat Genome U34 Set annotation data \(chip rgu34a\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rgu34a.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/rgu34a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgu34a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34a.db/meta.yaml>`_
 

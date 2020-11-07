@@ -10,9 +10,9 @@ bioconductor-sojourner
    :replaces_section_title:
    :noindex:
 
-   sojourner\: An R package for statistical analysis of single molecule trajectories
+   Statistical analysis of single molecule trajectories
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/sojourner.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/sojourner.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sojourner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sojourner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sojourner/meta.yaml>`_
 

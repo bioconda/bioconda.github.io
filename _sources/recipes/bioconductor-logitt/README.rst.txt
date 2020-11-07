@@ -12,7 +12,7 @@ bioconductor-logitt
 
    logit\-t Package
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/logitT.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/logitT.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-logitt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logitt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logitt/meta.yaml>`_
    :links: biotools: :biotools:`logitt`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-tenxbusdata
 
    Single cell dataset from 10x in BUS format
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/TENxBUSData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/TENxBUSData.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-tenxbusdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxbusdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxbusdata/meta.yaml>`_
 

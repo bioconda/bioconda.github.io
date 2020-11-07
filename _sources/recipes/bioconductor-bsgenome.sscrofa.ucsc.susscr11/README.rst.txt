@@ -12,7 +12,7 @@ bioconductor-bsgenome.sscrofa.ucsc.susscr11
 
    Full genome sequences for Sus scrofa \(UCSC version susScr11\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr11.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr11.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.sscrofa.ucsc.susscr11 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.sscrofa.ucsc.susscr11>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.sscrofa.ucsc.susscr11/meta.yaml>`_
 

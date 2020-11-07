@@ -12,7 +12,7 @@ bioconductor-rots
 
    Reproducibility\-Optimized Test Statistic
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ROTS.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ROTS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rots <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rots>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rots/meta.yaml>`_
    :links: biotools: :biotools:`rots`, doi: :doi:`10.1109/tcbb.2007.1078`

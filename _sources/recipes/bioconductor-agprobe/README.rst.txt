@@ -12,7 +12,7 @@ bioconductor-agprobe
 
    Probe sequence data for microarrays of type ag
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/agprobe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/agprobe.html
    :license: LGPL
    :recipe: /`bioconductor-agprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agprobe/meta.yaml>`_
 

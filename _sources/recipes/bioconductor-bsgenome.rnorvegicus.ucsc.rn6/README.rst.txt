@@ -12,7 +12,7 @@ bioconductor-bsgenome.rnorvegicus.ucsc.rn6
 
    Full genome sequences for Rattus norvegicus \(UCSC version rn6\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn6.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn6.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.rnorvegicus.ucsc.rn6 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.rnorvegicus.ucsc.rn6>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.rnorvegicus.ucsc.rn6/meta.yaml>`_
 

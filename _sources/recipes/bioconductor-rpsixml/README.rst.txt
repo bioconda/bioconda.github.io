@@ -12,7 +12,7 @@ bioconductor-rpsixml
 
    R interface to PSI\-MI 2.5 files
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RpsiXML.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RpsiXML.html
    :license: LGPL-3
    :recipe: /`bioconductor-rpsixml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpsixml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpsixml/meta.yaml>`_
    :links: biotools: :biotools:`rpsixml`, doi: :doi:`10.1007/978-1-60761-987-1_9`

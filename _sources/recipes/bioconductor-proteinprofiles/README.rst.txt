@@ -12,7 +12,7 @@ bioconductor-proteinprofiles
 
    Protein Profiling
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/proteinProfiles.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/proteinProfiles.html
    :license: GPL-3
    :recipe: /`bioconductor-proteinprofiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteinprofiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteinprofiles/meta.yaml>`_
 

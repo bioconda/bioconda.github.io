@@ -12,11 +12,11 @@ bioconductor-mutationalpatterns
 
    Comprehensive genome\-wide analysis of mutational processes
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MutationalPatterns.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MutationalPatterns.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mutationalpatterns <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns/meta.yaml>`_
 
-   An extensive toolset for the characterization and visualization of a wide range of mutational patterns in base substitution catalogs.
+   Mutational processes leave characteristic footprints in genomic DNA. This package provides a comprehensive set of flexible functions that allows researchers to easily evaluate and visualize a multitude of mutational patterns in base substitution catalogues of e.g. healthy samples\, tumour samples\, or DNA\-repair deficient cells. The package covers a wide range of patterns including\: mutational signatures\, transcriptional and replicative strand bias\, lesion segregation\, genomic distribution and association with genomic features\, which are collectively meaningful for studying the activity of mutational processes. The package works with single nucleotide variants \(SNVs\)\, insertions and deletions \(Indels\)\, double base substitutions \(DBSs\) and larger multi base substitutions \(MBSs\). The package provides functionalities for both extracting mutational signatures de novo and determining the contribution of previously identified mutational signatures on a single sample level. MutationalPatterns integrates with common R genomic analysis workflows and allows easy association with \(publicly available\) annotation data.
 
 
 .. conda:package:: bioconductor-mutationalpatterns

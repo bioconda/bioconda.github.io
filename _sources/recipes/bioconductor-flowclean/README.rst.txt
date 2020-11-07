@@ -12,7 +12,7 @@ bioconductor-flowclean
 
    flowClean
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowClean.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/flowClean.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowclean <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowclean>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowclean/meta.yaml>`_
    :links: biotools: :biotools:`flowclean`

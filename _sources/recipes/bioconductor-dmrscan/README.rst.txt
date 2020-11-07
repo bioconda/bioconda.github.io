@@ -12,7 +12,7 @@ bioconductor-dmrscan
 
    Detection of Differentially Methylated Regions
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DMRScan.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DMRScan.html
    :license: GPL-3
    :recipe: /`bioconductor-dmrscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrscan/meta.yaml>`_
 

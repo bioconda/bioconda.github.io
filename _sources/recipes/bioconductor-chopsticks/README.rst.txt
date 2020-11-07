@@ -12,7 +12,7 @@ bioconductor-chopsticks
 
    The \'snp.matrix\' and \'X.snp.matrix\' Classes
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/chopsticks.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/chopsticks.html
    :license: GPL-3
    :recipe: /`bioconductor-chopsticks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chopsticks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chopsticks/meta.yaml>`_
    :links: biotools: :biotools:`chopsticks`, doi: :doi:`10.1038/nmeth.3252`

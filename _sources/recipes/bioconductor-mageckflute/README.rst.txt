@@ -12,7 +12,7 @@ bioconductor-mageckflute
 
    Integrative Analysis Pipeline for Pooled CRISPR Functional Genetic Screens
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MAGeCKFlute.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MAGeCKFlute.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-mageckflute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mageckflute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mageckflute/meta.yaml>`_
 

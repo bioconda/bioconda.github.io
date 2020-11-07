@@ -12,7 +12,7 @@ bioconductor-lrbase.ath.eg.db
 
    An annotation package for the LRBaseDb object
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/LRBase.Ath.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/LRBase.Ath.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.ath.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ath.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ath.eg.db/meta.yaml>`_
 

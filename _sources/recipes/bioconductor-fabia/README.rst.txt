@@ -12,7 +12,7 @@ bioconductor-fabia
 
    FABIA\: Factor Analysis for Bicluster Acquisition
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/fabia.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/fabia.html
    :license: LGPL (>= 2.1)
    :recipe: /`bioconductor-fabia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabia/meta.yaml>`_
    :links: biotools: :biotools:`fabia`

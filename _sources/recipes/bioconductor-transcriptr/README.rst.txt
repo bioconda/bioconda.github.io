@@ -12,7 +12,7 @@ bioconductor-transcriptr
 
    An Integrative Tool for ChIP\- And RNA\-Seq Based Primary Transcripts Detection and Quantification
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/transcriptR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/transcriptR.html
    :license: GPL-3
    :recipe: /`bioconductor-transcriptr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transcriptr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transcriptr/meta.yaml>`_
    :links: biotools: :biotools:`transcriptr`, doi: :doi:`10.1038/nmeth.3252`

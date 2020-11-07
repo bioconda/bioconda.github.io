@@ -12,7 +12,7 @@ bioconductor-lrbase.hsa.eg.db
 
    An annotation package for the LRBaseDb object
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/LRBase.Hsa.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/LRBase.Hsa.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.hsa.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.hsa.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.hsa.eg.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-proloc
 
    A unifying bioinformatics framework for spatial proteomics
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/pRoloc.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/pRoloc.html
    :license: GPL-2
    :recipe: /`bioconductor-proloc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proloc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proloc/meta.yaml>`_
    :links: biotools: :biotools:`proloc`

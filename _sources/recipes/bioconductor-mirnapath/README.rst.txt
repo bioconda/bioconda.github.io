@@ -12,7 +12,7 @@ bioconductor-mirnapath
 
    miRNApath\: Pathway Enrichment for miRNA Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/miRNApath.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/miRNApath.html
    :license: LGPL-2.1
    :recipe: /`bioconductor-mirnapath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnapath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnapath/meta.yaml>`_
    :links: biotools: :biotools:`mirnapath`

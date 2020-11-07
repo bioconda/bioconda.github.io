@@ -12,7 +12,7 @@ bioconductor-structuralvariantannotation
 
    Variant annotations for structural variants
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/StructuralVariantAnnotation.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/StructuralVariantAnnotation.html
    :license: GPL-3
    :recipe: /`bioconductor-structuralvariantannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structuralvariantannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structuralvariantannotation/meta.yaml>`_
 

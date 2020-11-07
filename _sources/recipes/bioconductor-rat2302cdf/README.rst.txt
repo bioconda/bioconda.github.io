@@ -12,7 +12,7 @@ bioconductor-rat2302cdf
 
    rat2302cdf
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/rat2302cdf.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/rat2302cdf.html
    :license: LGPL
    :recipe: /`bioconductor-rat2302cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302cdf/meta.yaml>`_
 

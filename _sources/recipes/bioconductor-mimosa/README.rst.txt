@@ -12,7 +12,7 @@ bioconductor-mimosa
 
    Mixture Models for Single\-Cell Assays
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MIMOSA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MIMOSA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mimosa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimosa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimosa/meta.yaml>`_
 

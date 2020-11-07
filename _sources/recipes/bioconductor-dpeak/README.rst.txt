@@ -12,7 +12,7 @@ bioconductor-dpeak
 
    dPeak \(Deconvolution of Peaks in ChIP\-seq Analysis\)
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/dpeak.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/dpeak.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dpeak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dpeak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dpeak/meta.yaml>`_
 

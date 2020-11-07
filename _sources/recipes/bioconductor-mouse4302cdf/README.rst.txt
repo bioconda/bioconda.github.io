@@ -12,7 +12,7 @@ bioconductor-mouse4302cdf
 
    mouse4302cdf
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mouse4302cdf.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/mouse4302cdf.html
    :license: LGPL
    :recipe: /`bioconductor-mouse4302cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302cdf/meta.yaml>`_
 

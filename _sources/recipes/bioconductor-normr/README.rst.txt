@@ -12,7 +12,7 @@ bioconductor-normr
 
    Normalization and difference calling in ChIP\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/normr.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/normr.html
    :license: GPL-2
    :recipe: /`bioconductor-normr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-normr/meta.yaml>`_
 

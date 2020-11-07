@@ -10,13 +10,13 @@ bioconductor-mitoodedata
    :replaces_section_title:
    :noindex:
 
-   Experimental data associated to the paper \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\" \(submitted\).
+   Experimental data associated to the paper \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\"
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/mitoODEdata.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/mitoODEdata.html
    :license: LGPL
    :recipe: /`bioconductor-mitoodedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoodedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoodedata/meta.yaml>`_
 
-   This package contains the experimental data \(assay annotation\, siRNA annotation\, time\-lapse cell counts\) associated to the paper \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\" \(submitted\). The data ultimately come from the Mitocheck assay reported in \"Phenotypic profiling of the human genome by time\-lapse microscopy reveals cell division genes\" \(Neumann\, Walter et al\, Nature 2010\).
+   This package contains the experimental data \(assay annotation\, siRNA annotation\, time\-lapse cell counts\) associated to the paper \"Dynamical modelling of phenotypes in a genome\-wide RNAi live\-cell imaging assay\". The data ultimately come from the Mitocheck assay reported in \"Phenotypic profiling of the human genome by time\-lapse microscopy reveals cell division genes\" \(Neumann\, Walter et al\, Nature 2010\).
 
 
 .. conda:package:: bioconductor-mitoodedata

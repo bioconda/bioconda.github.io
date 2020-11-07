@@ -12,7 +12,7 @@ bioconductor-xbseq
 
    Test for differential expression for RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/XBSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/XBSeq.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-xbseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xbseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xbseq/meta.yaml>`_
    :links: biotools: :biotools:`xbseq`, doi: :doi:`10.1186/1471-2164-16-S7-S14`

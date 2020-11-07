@@ -12,7 +12,7 @@ bioconductor-affyexpress
 
    Affymetrix Quality Assessment and Analysis Tool
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/AffyExpress.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/AffyExpress.html
    :license: LGPL
    :recipe: /`bioconductor-affyexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyexpress/meta.yaml>`_
    :links: biotools: :biotools:`affyexpress`, doi: :doi:`10.1038/nmeth.3252`

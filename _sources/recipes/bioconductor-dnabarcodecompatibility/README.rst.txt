@@ -12,7 +12,7 @@ bioconductor-dnabarcodecompatibility
 
    A Tool for Optimizing Combinations of DNA Barcodes Used in Multiplexed Experiments on Next Generation Sequencing Platforms
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DNABarcodeCompatibility.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DNABarcodeCompatibility.html
    :license: file LICENSE
    :recipe: /`bioconductor-dnabarcodecompatibility <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodecompatibility>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnabarcodecompatibility/meta.yaml>`_
 

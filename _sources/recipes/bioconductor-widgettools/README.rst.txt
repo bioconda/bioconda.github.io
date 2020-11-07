@@ -12,7 +12,7 @@ bioconductor-widgettools
 
    Creates an interactive tcltk widget
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/widgetTools.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/widgetTools.html
    :license: LGPL
    :recipe: /`bioconductor-widgettools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-widgettools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-widgettools/meta.yaml>`_
 

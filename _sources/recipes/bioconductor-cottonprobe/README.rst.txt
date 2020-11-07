@@ -12,7 +12,7 @@ bioconductor-cottonprobe
 
    Probe sequence data for microarrays of type cotton
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/cottonprobe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/cottonprobe.html
    :license: LGPL
    :recipe: /`bioconductor-cottonprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cottonprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cottonprobe/meta.yaml>`_
 

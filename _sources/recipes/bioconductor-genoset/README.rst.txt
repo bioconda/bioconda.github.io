@@ -12,7 +12,7 @@ bioconductor-genoset
 
    A RangedSummarizedExperiment with methods for copy number analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/genoset.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/genoset.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genoset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genoset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genoset/meta.yaml>`_
    :links: biotools: :biotools:`genoset`, doi: :doi:`10.1038/nmeth.3252`

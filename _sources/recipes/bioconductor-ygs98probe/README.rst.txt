@@ -12,7 +12,7 @@ bioconductor-ygs98probe
 
    Probe sequence data for microarrays of type ygs98
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/ygs98probe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/ygs98probe.html
    :license: LGPL
    :recipe: /`bioconductor-ygs98probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98probe/meta.yaml>`_
 

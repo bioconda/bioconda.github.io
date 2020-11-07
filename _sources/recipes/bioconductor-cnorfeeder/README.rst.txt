@@ -12,7 +12,7 @@ bioconductor-cnorfeeder
 
    Integration of CellNOptR to add missing links
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CNORfeeder.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CNORfeeder.html
    :license: GPL-3
    :recipe: /`bioconductor-cnorfeeder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfeeder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorfeeder/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-reportingtools
 
    Tools for making reports in various formats
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ReportingTools.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ReportingTools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-reportingtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reportingtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reportingtools/meta.yaml>`_
    :links: biotools: :biotools:`reportingtools`

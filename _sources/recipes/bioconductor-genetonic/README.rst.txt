@@ -12,7 +12,7 @@ bioconductor-genetonic
 
    Enjoy Analyzing And Integrating The Results From Differential Expression Analysis And Functional Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GeneTonic.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GeneTonic.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-genetonic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genetonic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genetonic/meta.yaml>`_
 

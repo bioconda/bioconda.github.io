@@ -12,7 +12,7 @@ bioconductor-post
 
    Projection onto Orthogonal Space Testing for High Dimensional Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/POST.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/POST.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-post <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-post>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-post/meta.yaml>`_
 

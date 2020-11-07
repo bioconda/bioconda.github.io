@@ -12,7 +12,7 @@ bioconductor-nanostringqcpro
 
    Quality metrics and data processing methods for NanoString mRNA gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/NanoStringQCPro.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/NanoStringQCPro.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-nanostringqcpro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringqcpro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringqcpro/meta.yaml>`_
 

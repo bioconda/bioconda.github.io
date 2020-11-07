@@ -12,7 +12,7 @@ bioconductor-hybridmtest
 
    Hybrid Multiple Testing
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HybridMTest.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/HybridMTest.html
    :license: GPL Version 2 or later
    :recipe: /`bioconductor-hybridmtest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hybridmtest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hybridmtest/meta.yaml>`_
    :links: biotools: :biotools:`hybridmtest`, doi: :doi:`10.1038/nmeth.3252`

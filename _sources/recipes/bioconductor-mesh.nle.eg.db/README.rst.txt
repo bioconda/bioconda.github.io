@@ -12,7 +12,7 @@ bioconductor-mesh.nle.eg.db
 
    Mapping table for Normascus leucogenys Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Nle.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Nle.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.nle.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.nle.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.nle.eg.db/meta.yaml>`_
 

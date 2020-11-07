@@ -12,7 +12,7 @@ bioconductor-bioccasestudies
 
    BiocCaseStudies\: Support for the Case Studies Monograph
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BiocCaseStudies.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BiocCaseStudies.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bioccasestudies <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioccasestudies>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioccasestudies/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-migsadata
 
    MIGSA vignette data
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/MIGSAdata.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/MIGSAdata.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-migsadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-migsadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-migsadata/meta.yaml>`_
 

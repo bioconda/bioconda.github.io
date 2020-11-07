@@ -12,7 +12,7 @@ bioconductor-mirnatap.db
 
    Data for miRNAtap
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/miRNAtap.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/miRNAtap.db.html
    :license: GPL-2
    :recipe: /`bioconductor-mirnatap.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap.db/meta.yaml>`_
 

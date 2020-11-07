@@ -12,7 +12,7 @@ bioconductor-rols
 
    An R interface to the Ontology Lookup Service
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/rols.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/rols.html
    :license: GPL-2
    :recipe: /`bioconductor-rols <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rols>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rols/meta.yaml>`_
    :links: biotools: :biotools:`rols`, doi: :doi:`10.1038/nmeth.3252`

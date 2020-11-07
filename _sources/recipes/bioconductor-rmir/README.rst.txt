@@ -12,7 +12,7 @@ bioconductor-rmir
 
    Package to work with miRNAs and miRNA targets with R
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RmiR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RmiR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rmir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir/meta.yaml>`_
    :links: biotools: :biotools:`rmir`, doi: :doi:`10.1038/nmeth.3252`

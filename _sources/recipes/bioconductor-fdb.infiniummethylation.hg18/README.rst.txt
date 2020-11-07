@@ -12,7 +12,7 @@ bioconductor-fdb.infiniummethylation.hg18
 
    Annotation package for Illumina Infinium DNA methylation probes
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/FDb.InfiniumMethylation.hg18.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/FDb.InfiniumMethylation.hg18.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fdb.infiniummethylation.hg18 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.infiniummethylation.hg18>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.infiniummethylation.hg18/meta.yaml>`_
 

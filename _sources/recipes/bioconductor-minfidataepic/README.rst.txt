@@ -12,7 +12,7 @@ bioconductor-minfidataepic
 
    Example data for the Illumina Methylation EPIC array
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/minfiDataEPIC.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/minfiDataEPIC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minfidataepic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidataepic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidataepic/meta.yaml>`_
 

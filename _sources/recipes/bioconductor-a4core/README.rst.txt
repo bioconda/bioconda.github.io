@@ -12,12 +12,12 @@ bioconductor-a4core
 
    Automated Affymetrix Array Analysis Core Package
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/a4Core.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/a4Core.html
    :license: GPL-3
    :recipe: /`bioconductor-a4core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4core/meta.yaml>`_
    :links: biotools: :biotools:`a4core`, doi: :doi:`10.1038/nmeth.3252`
 
-   Automated Affymetrix Array Analysis Core Package
+   Utility functions for the Automated Affymetrix Array Analysis set of packages.
 
 
 .. conda:package:: bioconductor-a4core

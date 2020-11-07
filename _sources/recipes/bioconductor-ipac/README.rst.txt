@@ -12,7 +12,7 @@ bioconductor-ipac
 
    Identification of Protein Amino acid Clustering
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/iPAC.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/iPAC.html
    :license: GPL-2
    :recipe: /`bioconductor-ipac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipac/meta.yaml>`_
    :links: biotools: :biotools:`ipac`, doi: :doi:`10.1186/1471-2105-14-190`

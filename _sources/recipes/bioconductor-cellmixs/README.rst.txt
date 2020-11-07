@@ -12,11 +12,11 @@ bioconductor-cellmixs
 
    Evaluate Cellspecific Mixing
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CellMixS.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CellMixS.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-cellmixs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmixs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmixs/meta.yaml>`_
 
-   Evaluate Cellspecific Mixing Scores \(CMS\) for different batches\/groups in scRNA\-seq data.
+   CellMixS provides metrics and functions to evaluate batch effects\, data integration and batch effect correction in single cell trancriptome data with single cell resolution. Results can be visualized and summarised on different levels\, e.g. on cell\, celltype or dataset level.
 
 
 .. conda:package:: bioconductor-cellmixs

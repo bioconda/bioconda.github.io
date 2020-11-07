@@ -12,7 +12,7 @@ bioconductor-genomicfiles
 
    Distributed computing by file or by range
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GenomicFiles.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GenomicFiles.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicfiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfiles/meta.yaml>`_
    :links: biotools: :biotools:`genomicfiles`, doi: :doi:`10.1038/nmeth.3252`

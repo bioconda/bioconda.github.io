@@ -12,7 +12,7 @@ bioconductor-humantranscriptomecompendium
 
    Tools to work with a Compendium of 181000 human transcriptome sequencing studies
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HumanTranscriptomeCompendium.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/HumanTranscriptomeCompendium.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humantranscriptomecompendium <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humantranscriptomecompendium>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humantranscriptomecompendium/meta.yaml>`_
 

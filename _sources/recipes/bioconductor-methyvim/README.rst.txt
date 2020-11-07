@@ -12,7 +12,7 @@ bioconductor-methyvim
 
    Targeted\, Robust\, and Model\-free Differential Methylation Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/methyvim.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/methyvim.html
    :license: file LICENSE
    :recipe: /`bioconductor-methyvim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvim/meta.yaml>`_
 

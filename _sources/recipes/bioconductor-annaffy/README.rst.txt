@@ -12,7 +12,7 @@ bioconductor-annaffy
 
    Annotation tools for Affymetrix biological metadata
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/annaffy.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/annaffy.html
    :license: LGPL
    :recipe: /`bioconductor-annaffy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annaffy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annaffy/meta.yaml>`_
    :links: biotools: :biotools:`annaffy`, doi: :doi:`10.1038/nmeth.3252`

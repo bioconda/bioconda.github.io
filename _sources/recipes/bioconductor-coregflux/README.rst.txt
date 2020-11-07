@@ -12,7 +12,7 @@ bioconductor-coregflux
 
    CoRegFlux
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CoRegFlux.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CoRegFlux.html
    :license: GPL-3
    :recipe: /`bioconductor-coregflux <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coregflux>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coregflux/meta.yaml>`_
 

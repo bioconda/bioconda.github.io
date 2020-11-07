@@ -12,7 +12,7 @@ bioconductor-beadarrayusecases
 
    Analysing Illumina BeadArray expression data using Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/BeadArrayUseCases.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/BeadArrayUseCases.html
    :license: GPL-2
    :recipe: /`bioconductor-beadarrayusecases <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayusecases>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarrayusecases/meta.yaml>`_
 

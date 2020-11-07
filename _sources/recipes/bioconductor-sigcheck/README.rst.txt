@@ -12,7 +12,7 @@ bioconductor-sigcheck
 
    Check a gene signature\'s prognostic performance against random signatures\, known signatures\, and permuted data\/metadata
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SigCheck.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SigCheck.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sigcheck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigcheck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigcheck/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-breakpointr
 
    Find breakpoints in Strand\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/breakpointR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/breakpointR.html
    :license: file LICENSE
    :recipe: /`bioconductor-breakpointr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointr/meta.yaml>`_
 

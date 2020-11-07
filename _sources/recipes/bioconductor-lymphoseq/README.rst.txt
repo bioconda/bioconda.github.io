@@ -12,7 +12,7 @@ bioconductor-lymphoseq
 
    Analyze high\-throughput sequencing of T and B cell receptors
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/LymphoSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/LymphoSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lymphoseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lymphoseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lymphoseq/meta.yaml>`_
 

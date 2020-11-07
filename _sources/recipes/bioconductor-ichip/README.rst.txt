@@ -12,7 +12,7 @@ bioconductor-ichip
 
    Bayesian Modeling of ChIP\-chip Data Through Hidden Ising Models
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/iChip.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/iChip.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ichip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ichip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ichip/meta.yaml>`_
    :links: biotools: :biotools:`ichip`, doi: :doi:`10.1093/bioinformatics/btq032`

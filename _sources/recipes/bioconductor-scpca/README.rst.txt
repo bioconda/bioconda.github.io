@@ -12,11 +12,11 @@ bioconductor-scpca
 
    Sparse Contrastive Principal Component Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/scPCA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/scPCA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scpca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scpca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scpca/meta.yaml>`_
 
-   A toolbox for sparse contrastive principal component analysis \(scPCA\) of high\-dimensional biological data. scPCA combines the stability and interpretability of sparse PCA with contrastive PCA\'s ability to disentangle biological signal from techical noise through the use of control data. Also implements and extends cPCA.
+   A toolbox for sparse contrastive principal component analysis \(scPCA\) of high\-dimensional biological data. scPCA combines the stability and interpretability of sparse PCA with contrastive PCA\'s ability to disentangle biological signal from unwanted variation through the use of control data. Also implements and extends cPCA.
 
 
 .. conda:package:: bioconductor-scpca

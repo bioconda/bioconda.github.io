@@ -12,7 +12,7 @@ bioconductor-singlecellexperiment
 
    S4 Classes for Single Cell Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SingleCellExperiment.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SingleCellExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-singlecellexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment/meta.yaml>`_
 

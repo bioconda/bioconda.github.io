@@ -12,7 +12,7 @@ bioconductor-scbn
 
    A statistical normalization method and differential expression analysis for RNA\-seq data between different species
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SCBN.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SCBN.html
    :license: GPL-2
    :recipe: /`bioconductor-scbn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbn/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-gcapc
 
    GC Aware Peak Caller
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/gcapc.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/gcapc.html
    :license: GPL-3
    :recipe: /`bioconductor-gcapc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcapc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcapc/meta.yaml>`_
 

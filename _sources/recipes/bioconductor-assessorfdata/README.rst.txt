@@ -12,7 +12,7 @@ bioconductor-assessorfdata
 
    Data and Files for the AssessORF Package
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/AssessORFData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/AssessORFData.html
    :license: GPL-3
    :recipe: /`bioconductor-assessorfdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assessorfdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assessorfdata/meta.yaml>`_
 

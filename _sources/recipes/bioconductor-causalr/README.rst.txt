@@ -12,7 +12,7 @@ bioconductor-causalr
 
    Causal network analysis methods
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CausalR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CausalR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-causalr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-causalr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-causalr/meta.yaml>`_
    :links: biotools: :biotools:`causalr`, doi: :doi:`10.1038/nmeth.3252`

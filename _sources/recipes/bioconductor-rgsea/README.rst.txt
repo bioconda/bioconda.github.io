@@ -12,7 +12,7 @@ bioconductor-rgsea
 
    Random Gene Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RGSEA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RGSEA.html
    :license: GPL(>=3)
    :recipe: /`bioconductor-rgsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsea/meta.yaml>`_
    :links: biotools: :biotools:`rgsea`, doi: :doi:`10.1038/nmeth.3252`

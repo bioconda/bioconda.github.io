@@ -12,11 +12,11 @@ bioconductor-dewseq
 
    Differential Expressed Windows Based on Negative Binomial Distribution
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DEWSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DEWSeq.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-dewseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dewseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dewseq/meta.yaml>`_
 
-   Differential expression analysis of windows for next\-generation sequencing data like eCLIP or iCLIP data.
+   DEWSeq is a sliding window approach for the analysis of differentially enriched binding regions eCLIP or iCLIP next generation sequencing data.
 
 
 .. conda:package:: bioconductor-dewseq

@@ -12,7 +12,7 @@ bioconductor-expressionview
 
    Visualize biclusters identified in gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ExpressionView.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ExpressionView.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-expressionview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-expressionview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-expressionview/meta.yaml>`_
 

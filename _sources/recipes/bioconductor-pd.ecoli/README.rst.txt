@@ -12,7 +12,7 @@ bioconductor-pd.ecoli
 
    Platform Design Info for The Manufacturer\'s Name Ecoli
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/pd.ecoli.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/pd.ecoli.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.ecoli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ecoli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ecoli/meta.yaml>`_
 

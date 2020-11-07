@@ -12,7 +12,7 @@ bioconductor-spacepac
 
    Identification of Mutational Clusters in 3D Protein Space via Simulation.
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SpacePAC.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SpacePAC.html
    :license: GPL-2
    :recipe: /`bioconductor-spacepac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacepac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacepac/meta.yaml>`_
    :links: biotools: :biotools:`spacepac`, doi: :doi:`10.1186/1471-2105-15-231`

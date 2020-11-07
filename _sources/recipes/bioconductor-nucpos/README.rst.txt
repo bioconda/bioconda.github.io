@@ -12,7 +12,7 @@ bioconductor-nucpos
 
    An R package for prediction of nucleosome positions
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/nuCpos.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/nuCpos.html
    :license: file LICENSE
    :recipe: /`bioconductor-nucpos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucpos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucpos/meta.yaml>`_
 

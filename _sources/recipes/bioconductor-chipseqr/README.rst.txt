@@ -12,7 +12,7 @@ bioconductor-chipseqr
 
    Identifying Protein Binding Sites in High\-Throughput Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ChIPseqR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ChIPseqR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-chipseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseqr/meta.yaml>`_
 

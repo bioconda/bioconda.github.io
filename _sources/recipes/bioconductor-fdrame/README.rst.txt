@@ -12,7 +12,7 @@ bioconductor-fdrame
 
    FDR adjustments of Microarray Experiments \(FDR\-AME\)
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/fdrame.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/fdrame.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fdrame <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdrame>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdrame/meta.yaml>`_
 

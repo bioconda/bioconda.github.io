@@ -12,7 +12,7 @@ bioconductor-bladderbatch
 
    Bladder gene expression data illustrating batch effects
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/bladderbatch.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/bladderbatch.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bladderbatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bladderbatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bladderbatch/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-basilisk.utils
 
    Basilisk Installation Utilities
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/basilisk.utils.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/basilisk.utils.html
    :license: GPL-3
    :recipe: /`bioconductor-basilisk.utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basilisk.utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basilisk.utils/meta.yaml>`_
 
-   Implements utilities for installation of the basilisk package\, primarily to avoid re\-writing the same R code in both the configure script \(for centrally administered R installations\) and in the lazy installation mechanism \(for distributed binaries\). It is highly unlikely that developers \- or\, heaven forbid\, end\-users\! \- will need to interact with this package directly\; they should be using the basilisk package instead.
+   Implements utilities for installation of the basilisk package\, primarily for creation of the underlying Conda instance. This allows us to avoid re\-writing the same R code in both the configure script \(for centrally administered R installations\) and in the lazy installation mechanism \(for distributed package binaries\). It is highly unlikely that developers \- or\, heaven forbid\, end\-users\! \- will need to interact with this package directly\; they should be using the basilisk package instead.
 
 
 .. conda:package:: bioconductor-basilisk.utils

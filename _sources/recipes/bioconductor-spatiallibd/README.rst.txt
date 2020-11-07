@@ -12,7 +12,7 @@ bioconductor-spatiallibd
 
    LIBD Visium spatial transcriptomics human pilot data inspector
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/spatialLIBD.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/spatialLIBD.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spatiallibd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatiallibd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatiallibd/meta.yaml>`_
 

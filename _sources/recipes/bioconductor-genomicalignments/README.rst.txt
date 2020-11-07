@@ -12,7 +12,7 @@ bioconductor-genomicalignments
 
    Representation and manipulation of short genomic alignments
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GenomicAlignments.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GenomicAlignments.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicalignments <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicalignments>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicalignments/meta.yaml>`_
    :links: biotools: :biotools:`genomicalignments`

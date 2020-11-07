@@ -12,7 +12,7 @@ bioconductor-fabiadata
 
    Data sets for FABIA \(Factor Analysis for Bicluster Acquisition\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/fabiaData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/fabiaData.html
    :license: LGPL (>= 2.1)
    :recipe: /`bioconductor-fabiadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabiadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabiadata/meta.yaml>`_
 

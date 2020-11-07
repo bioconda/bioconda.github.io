@@ -12,7 +12,7 @@ bioconductor-snagee
 
    Signal\-to\-Noise applied to Gene Expression Experiments
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SNAGEE.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SNAGEE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-snagee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snagee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snagee/meta.yaml>`_
    :links: biotools: :biotools:`snagee`, doi: :doi:`10.1371/journal.pone.0051013`

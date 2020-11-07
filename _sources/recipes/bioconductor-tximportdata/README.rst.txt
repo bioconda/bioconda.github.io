@@ -12,7 +12,7 @@ bioconductor-tximportdata
 
    tximportData
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/tximportData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/tximportData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-tximportdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximportdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximportdata/meta.yaml>`_
 

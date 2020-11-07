@@ -12,7 +12,7 @@ bioconductor-explorase
 
    GUI for exploratory data analysis of systems biology data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/explorase.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/explorase.html
    :license: GPL-2
    :recipe: /`bioconductor-explorase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-explorase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-explorase/meta.yaml>`_
 

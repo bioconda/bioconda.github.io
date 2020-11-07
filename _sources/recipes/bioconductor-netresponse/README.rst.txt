@@ -12,7 +12,7 @@ bioconductor-netresponse
 
    Functional Network Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/netresponse.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/netresponse.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-netresponse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netresponse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netresponse/meta.yaml>`_
 

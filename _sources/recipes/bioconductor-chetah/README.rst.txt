@@ -12,7 +12,7 @@ bioconductor-chetah
 
    Fast and accurate scRNA\-seq cell type identification
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CHETAH.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CHETAH.html
    :license: file LICENSE
    :recipe: /`bioconductor-chetah <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chetah>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chetah/meta.yaml>`_
 

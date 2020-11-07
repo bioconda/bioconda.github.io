@@ -12,7 +12,7 @@ bioconductor-alternativesplicingevents.hg38
 
    Alternative splicing event annotation for Human \(hg38\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/alternativeSplicingEvents.hg38.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/alternativeSplicingEvents.hg38.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alternativesplicingevents.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alternativesplicingevents.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alternativesplicingevents.hg38/meta.yaml>`_
 

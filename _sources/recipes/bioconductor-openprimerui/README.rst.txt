@@ -12,7 +12,7 @@ bioconductor-openprimerui
 
    Shiny Application for Multiplex PCR Primer Design and Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/openPrimeRui.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/openPrimeRui.html
    :license: GPL-2
    :recipe: /`bioconductor-openprimerui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openprimerui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openprimerui/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-usort
 
    uSORT\: A self\-refining ordering pipeline for gene selection
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/uSORT.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/uSORT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-usort <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-usort>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-usort/meta.yaml>`_
 

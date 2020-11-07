@@ -12,7 +12,7 @@ bioconductor-multimir
 
    Integration of multiple microRNA\-target databases with their disease and drug associations
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/multiMiR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/multiMiR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-multimir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multimir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multimir/meta.yaml>`_
 

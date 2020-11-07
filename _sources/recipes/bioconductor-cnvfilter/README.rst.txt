@@ -12,7 +12,7 @@ bioconductor-cnvfilter
 
    Identifies false positives of CNV calling tools by using SNV calls
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CNVfilteR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CNVfilteR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cnvfilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvfilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvfilter/meta.yaml>`_
 

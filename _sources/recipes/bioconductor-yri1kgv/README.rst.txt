@@ -12,7 +12,7 @@ bioconductor-yri1kgv
 
    expression \+ genotype on 79 unrelated YRI individuals
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/yri1kgv.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/yri1kgv.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yri1kgv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yri1kgv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yri1kgv/meta.yaml>`_
 

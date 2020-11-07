@@ -12,7 +12,7 @@ bioconductor-txreginfra
 
    Metadata management for multiomic specification of transcriptional regulatory networks
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TxRegInfra.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/TxRegInfra.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txreginfra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txreginfra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txreginfra/meta.yaml>`_
 

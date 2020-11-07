@@ -12,7 +12,7 @@ bioconductor-bsgenome.celegans.ucsc.ce10
 
    Full genome sequences for Caenorhabditis elegans \(UCSC version ce10\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Celegans.UCSC.ce10.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Celegans.UCSC.ce10.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.celegans.ucsc.ce10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce10/meta.yaml>`_
 

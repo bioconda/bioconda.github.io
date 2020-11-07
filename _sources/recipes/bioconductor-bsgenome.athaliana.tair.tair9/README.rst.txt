@@ -12,7 +12,7 @@ bioconductor-bsgenome.athaliana.tair.tair9
 
    Full genome sequences for Arabidopsis thaliana \(TAIR9\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/BSgenome.Athaliana.TAIR.TAIR9.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Athaliana.TAIR.TAIR9.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.athaliana.tair.tair9 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.athaliana.tair.tair9>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.athaliana.tair.tair9/meta.yaml>`_
 

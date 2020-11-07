@@ -12,7 +12,7 @@ bioconductor-reqon
 
    Recalibrating Quality Of Nucleotides
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ReQON.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ReQON.html
    :license: GPL-2
    :recipe: /`bioconductor-reqon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reqon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reqon/meta.yaml>`_
 

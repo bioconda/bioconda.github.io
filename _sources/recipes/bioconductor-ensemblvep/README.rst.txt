@@ -12,7 +12,7 @@ bioconductor-ensemblvep
 
    R Interface to Ensembl Variant Effect Predictor
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ensemblVEP.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ensemblVEP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ensemblvep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensemblvep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensemblvep/meta.yaml>`_
    :links: biotools: :biotools:`ensemblvep`, doi: :doi:`10.1186/s13059-016-0974-4`

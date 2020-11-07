@@ -12,7 +12,7 @@ bioconductor-consensusde
 
    RNA\-seq analysis using multiple algorithms
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/consensusDE.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/consensusDE.html
    :license: GPL-3
    :recipe: /`bioconductor-consensusde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusde/meta.yaml>`_
 

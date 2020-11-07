@@ -10,13 +10,13 @@ bioconductor-rcwl
    :replaces_section_title:
    :noindex:
 
-   Wrap Command Tools and Pipelines Using CWL
+   An R interface to the Common Workflow Language
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Rcwl.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Rcwl.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-rcwl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcwl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcwl/meta.yaml>`_
 
-   The package can be a simple and user\-friendly way to manage command line tools and build data analysis pipelines in R using Common Workflow Language \(CWL\).
+   The Common Workflow Language \(CWL\) is an open standard for development of data analysis workflows that is portable and scalable across different tools and working environments. Rcwl provides a simple way to wrap command line tools and build CWL data analysis pipelines programmatically within R. It increases the ease of usage\, development\, and maintenance of CWL pipelines.
 
 
 .. conda:package:: bioconductor-rcwl

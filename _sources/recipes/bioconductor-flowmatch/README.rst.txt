@@ -12,7 +12,7 @@ bioconductor-flowmatch
 
    Matching and meta\-clustering in flow cytometry
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/flowMatch.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/flowMatch.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowmatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmatch/meta.yaml>`_
    :links: biotools: :biotools:`flowmatch`, doi: :doi:`10.1038/nmeth.3252`

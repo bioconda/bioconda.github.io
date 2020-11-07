@@ -12,7 +12,7 @@ bioconductor-onassis
 
    OnASSIs Ontology Annotation and Semantic SImilarity software
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Onassis.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Onassis.html
    :license: GPL-2
    :recipe: /`bioconductor-onassis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onassis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-onassis/meta.yaml>`_
 

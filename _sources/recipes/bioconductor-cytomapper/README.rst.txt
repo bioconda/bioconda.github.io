@@ -10,13 +10,13 @@ bioconductor-cytomapper
    :replaces_section_title:
    :noindex:
 
-   Visualization of highly multiplexed imaging cytometry data in R
+   Visualization of highly multiplexed imaging data in R
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cytomapper.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/cytomapper.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cytomapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytomapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytomapper/meta.yaml>`_
 
-   Highly multiplexed imaging cytometry acquires the single\-cell expression of selected proteins in a spatially\-resolved fashion. These measurements can be visualized across multiple length\-scales. First\, pixel\-level intensities represent the spatial distributions of feature expression with highest resolution. Second\, after segmentation\, expression values or cell\-level metadata \(e.g. cell\-type information\) can be visualized on segmented cell areas. This package contains functions for the visualization of multiplexed read\-outs and cell\-level information obtained by multiplexed imaging cytometry. The main functions of this package allow 1. the visualization of pixel\-level information across multiple channels and 2. the display of cell\-level information \(expression and\/or metadata\) on segmentation masks.
+   Highly multiplexed imaging acquires the single\-cell expression of selected proteins in a spatially\-resolved fashion. These measurements can be visualised across multiple length\-scales. First\, pixel\-level intensities represent the spatial distributions of feature expression with highest resolution. Second\, after segmentation\, expression values or cell\-level metadata \(e.g. cell\-type information\) can be visualised on segmented cell areas. This package contains functions for the visualisation of multiplexed read\-outs and cell\-level information obtained by multiplexed imaging technologies. The main functions of this package allow 1. the visualisation of pixel\-level information across multiple channels\, 2. the display of cell\-level information \(expression and\/or metadata\) on segmentation masks and 3. gating and visualisation of single cells.
 
 
 .. conda:package:: bioconductor-cytomapper

@@ -12,7 +12,7 @@ bioconductor-hugene11stprobeset.db
 
    Affymetrix hugene11 annotation data \(chip hugene11stprobeset\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hugene11stprobeset.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hugene11stprobeset.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hugene11stprobeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene11stprobeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene11stprobeset.db/meta.yaml>`_
 

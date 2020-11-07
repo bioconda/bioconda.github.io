@@ -12,7 +12,7 @@ bioconductor-paeg1aprobe
 
    Probe sequence data for microarrays of type paeg1a
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/paeg1aprobe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/paeg1aprobe.html
    :license: LGPL
    :recipe: /`bioconductor-paeg1aprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paeg1aprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paeg1aprobe/meta.yaml>`_
 

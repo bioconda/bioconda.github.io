@@ -12,7 +12,7 @@ bioconductor-pd.atdschip.tiling
 
    Platform Design Info for Affymetrix Atdschip\_tiling
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/pd.atdschip.tiling.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/pd.atdschip.tiling.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.atdschip.tiling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.atdschip.tiling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.atdschip.tiling/meta.yaml>`_
 

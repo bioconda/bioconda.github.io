@@ -12,7 +12,7 @@ bioconductor-cand
 
    Perform Chromosomal Ancestry Differences \(CAnD\) Analyses
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CAnD.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CAnD.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cand <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cand>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cand/meta.yaml>`_
    :links: biotools: :biotools:`cand`, doi: :doi:`10.1534/genetics.115.184184`

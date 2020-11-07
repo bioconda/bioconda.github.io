@@ -12,7 +12,7 @@ bioconductor-methyvimdata
 
    Example experimental data for use with the methyvim package
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/methyvimData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/methyvimData.html
    :license: file LICENSE
    :recipe: /`bioconductor-methyvimdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvimdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyvimdata/meta.yaml>`_
 

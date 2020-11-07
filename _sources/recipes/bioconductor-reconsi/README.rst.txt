@@ -12,7 +12,7 @@ bioconductor-reconsi
 
    Resampling Collapsed Null Distributions for Simultaneous Inference
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/reconsi.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/reconsi.html
    :license: GPL-2
    :recipe: /`bioconductor-reconsi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reconsi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reconsi/meta.yaml>`_
 

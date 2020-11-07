@@ -12,7 +12,7 @@ bioconductor-tcgabiolinksgui
 
    \"TCGAbiolinksGUI\: A Graphical User Interface to analyze cancer molecular and clinical data\"
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TCGAbiolinksGUI.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/TCGAbiolinksGUI.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-tcgabiolinksgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgabiolinksgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgabiolinksgui/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-topconfects
 
    Top Confident Effect Sizes
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/topconfects.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/topconfects.html
    :license: LGPL-2.1 | file LICENSE
    :recipe: /`bioconductor-topconfects <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topconfects>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topconfects/meta.yaml>`_
 
-   Rank results by confident effect sizes\, while maintaining False Discovery Rate and False Coverage\-statement Rate control. Topconfects is alternative presentation of TREAT results with improved usability\, eliminating p\-values and instead providing confidence bounds. The main application is differential gene expression analysis\, providing genes ranked in order of confident log2 fold change\, but it can be applied to any collection of effect sizes with associated standard errors.
+   Rank results by confident effect sizes\, while maintaining False Discovery Rate and False Coverage\-statement Rate control. Topconfects is an alternative presentation of TREAT results with improved usability\, eliminating p\-values and instead providing confidence bounds. The main application is differential gene expression analysis\, providing genes ranked in order of confident log2 fold change\, but it can be applied to any collection of effect sizes with associated standard errors.
 
 
 .. conda:package:: bioconductor-topconfects

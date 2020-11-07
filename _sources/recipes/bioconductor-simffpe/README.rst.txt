@@ -12,7 +12,7 @@ bioconductor-simffpe
 
    NGS Read Simulator for FFPE Tissue
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SimFFPE.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SimFFPE.html
    :license: LGPL-3
    :recipe: /`bioconductor-simffpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simffpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simffpe/meta.yaml>`_
 

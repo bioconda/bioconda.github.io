@@ -12,11 +12,11 @@ bioconductor-pharmacogx
 
    Analysis of Large\-Scale Pharmacogenomic Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PharmacoGx.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PharmacoGx.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pharmacogx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pharmacogx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pharmacogx/meta.yaml>`_
 
-   Contains a set of functions to perform large\-scale analysis of pharmacogenomic data.
+   Contains a set of functions to perform large\-scale analysis of pharmaco\-genomic data. These include the PharmacoSet object for storing the results of pharmacogenomic experiments\, as well as a number of functions for computing common summaries of drug\-dose response and correlating them with the molecular features in a cancer cell\-line.
 
 
 .. conda:package:: bioconductor-pharmacogx

@@ -12,7 +12,7 @@ bioconductor-deco
 
    Decomposing Heterogeneous Cohorts using Omic Data Profiling
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/deco.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/deco.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-deco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deco/meta.yaml>`_
 

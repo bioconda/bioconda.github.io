@@ -12,7 +12,7 @@ bioconductor-yaqcaffy
 
    Affymetrix expression data quality control and reproducibility analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/yaqcaffy.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/yaqcaffy.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yaqcaffy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yaqcaffy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yaqcaffy/meta.yaml>`_
    :links: biotools: :biotools:`yaqcaffy`, doi: :doi:`10.1038/nmeth.3252`

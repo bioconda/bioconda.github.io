@@ -12,7 +12,7 @@ bioconductor-rtopper
 
    This package is designed to perform Gene Set Analysis across multiple genomic platforms
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RTopper.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RTopper.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-rtopper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtopper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtopper/meta.yaml>`_
    :links: biotools: :biotools:`rtopper`

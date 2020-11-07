@@ -12,7 +12,7 @@ bioconductor-zlibbioc
 
    An R packaged zlib\-1.2.5
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/zlibbioc.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/zlibbioc.html
    :license: Artistic-2.0 + file LICENSE
    :recipe: /`bioconductor-zlibbioc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zlibbioc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zlibbioc/meta.yaml>`_
    :links: biotools: :biotools:`zlibbioc`, doi: :doi:`10.1038/nmeth.3252`

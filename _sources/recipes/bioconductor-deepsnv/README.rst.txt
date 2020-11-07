@@ -12,7 +12,7 @@ bioconductor-deepsnv
 
    Detection of subclonal SNVs in deep sequencing data.
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/deepSNV.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/deepSNV.html
    :license: GPL-3
    :recipe: /`bioconductor-deepsnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepsnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepsnv/meta.yaml>`_
    :links: biotools: :biotools:`deepsnv`

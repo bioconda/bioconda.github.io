@@ -12,7 +12,7 @@ bioconductor-siggenes
 
    Multiple Testing using SAM and Efron\'s Empirical Bayes Approaches
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/siggenes.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/siggenes.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-siggenes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-siggenes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-siggenes/meta.yaml>`_
    :links: biotools: :biotools:`siggenes`, doi: :doi:`10.1186/1471-2105-9-144`

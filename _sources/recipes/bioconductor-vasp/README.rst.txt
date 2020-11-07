@@ -12,7 +12,7 @@ bioconductor-vasp
 
    Quantification and Visulization of Variations of Splicing in Population
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/vasp.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/vasp.html
    :license: GPL (>= 2.0)
    :recipe: /`bioconductor-vasp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vasp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vasp/meta.yaml>`_
 

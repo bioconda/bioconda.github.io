@@ -12,7 +12,7 @@ bioconductor-dualks
 
    Dual KS Discriminant Analysis and Classification
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/dualKS.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/dualKS.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-dualks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dualks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dualks/meta.yaml>`_
 

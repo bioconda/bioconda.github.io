@@ -12,7 +12,7 @@ bioconductor-cnvpanelizer
 
    Reliable CNV detection in targeted sequencing applications
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CNVPanelizer.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CNVPanelizer.html
    :license: GPL-3
    :recipe: /`bioconductor-cnvpanelizer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvpanelizer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvpanelizer/meta.yaml>`_
    :links: biotools: :biotools:`cnvpanelizer`, doi: :doi:`10.1038/nmeth.3252`

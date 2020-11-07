@@ -12,7 +12,7 @@ bioconductor-ecoliasv2probe
 
    Probe sequence data for microarrays of type ecoliasv2
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/ecoliasv2probe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/ecoliasv2probe.html
    :license: LGPL
    :recipe: /`bioconductor-ecoliasv2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliasv2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliasv2probe/meta.yaml>`_
 

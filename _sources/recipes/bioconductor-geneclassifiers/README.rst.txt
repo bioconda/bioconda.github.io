@@ -12,7 +12,7 @@ bioconductor-geneclassifiers
 
    Application of gene classifiers
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/geneClassifiers.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/geneClassifiers.html
    :license: GPL-2
    :recipe: /`bioconductor-geneclassifiers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneclassifiers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneclassifiers/meta.yaml>`_
 

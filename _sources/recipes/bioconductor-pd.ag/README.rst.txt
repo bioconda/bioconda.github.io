@@ -12,7 +12,7 @@ bioconductor-pd.ag
 
    Platform Design Info for The Manufacturer\'s Name AG
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/pd.ag.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/pd.ag.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.ag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ag/meta.yaml>`_
 

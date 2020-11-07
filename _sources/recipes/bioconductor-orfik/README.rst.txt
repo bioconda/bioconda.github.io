@@ -12,11 +12,11 @@ bioconductor-orfik
 
    Open Reading Frames in Genomics
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ORFik.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ORFik.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-orfik <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orfik>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orfik/meta.yaml>`_
 
-   R package for analysis of transcript and translation features through manipulation of sequence\-\, RiboSeq\-\, RNASeq\-\, TCPseq\- and CAGE\-data. Focusing on 5\' UTRs \(leaders\)\, it is generalized in the sense that any transcript region can be analysed. ORFik is extremely fast through use of C\, data.table and GenomicRanges. Package allows to reassign starts of the transcripts with the use of CageSeq data\, automatic shifting of RiboSeq reads\, finding of Open Reading Frames for whole genomes and much more.
+   R package for analysis of transcript and translation features through manipulation of sequence\-\, RiboSeq\-\, RNASeq\-\, TCPseq\- and CAGE\-data. Focusing on 5\' UTRs \(leaders\)\, it is generalized in the sense that any transcript region can be analysed. ORFik is extremely fast through use of C\, data.table and GenomicRanges. Package allows to reassign starts of the transcripts with the use of CAGE\-Seq data\, automatic shifting of RiboSeq reads\, finding of Open Reading Frames for whole genomes and much more.
 
 
 .. conda:package:: bioconductor-orfik

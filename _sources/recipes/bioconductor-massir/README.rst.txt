@@ -12,7 +12,7 @@ bioconductor-massir
 
    massiR\: MicroArray Sample Sex Identifier
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/massiR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/massiR.html
    :license: GPL-3
    :recipe: /`bioconductor-massir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massir/meta.yaml>`_
    :links: biotools: :biotools:`massir`

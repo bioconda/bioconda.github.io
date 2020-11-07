@@ -12,7 +12,7 @@ bioconductor-genemeta
 
    MetaAnalysis for High Throughput Experiments
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/GeneMeta.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GeneMeta.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genemeta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genemeta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genemeta/meta.yaml>`_
    :links: biotools: :biotools:`genemeta`, doi: :doi:`10.1038/nmeth.3252`

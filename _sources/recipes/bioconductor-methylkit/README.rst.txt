@@ -12,7 +12,7 @@ bioconductor-methylkit
 
    DNA methylation analysis from high\-throughput bisulfite sequencing results
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/methylKit.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/methylKit.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-methylkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylkit/meta.yaml>`_
    :links: biotools: :biotools:`methylkit`

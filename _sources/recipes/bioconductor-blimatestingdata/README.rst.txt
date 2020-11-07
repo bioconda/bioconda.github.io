@@ -12,7 +12,7 @@ bioconductor-blimatestingdata
 
    Data for testing of the package blima.
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/blimaTestingData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/blimaTestingData.html
    :license: GPL-3
    :recipe: /`bioconductor-blimatestingdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blimatestingdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blimatestingdata/meta.yaml>`_
 

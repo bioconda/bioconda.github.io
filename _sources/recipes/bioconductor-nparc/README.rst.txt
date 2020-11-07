@@ -12,7 +12,7 @@ bioconductor-nparc
 
    Non\-parametric analysis of response curves for thermal proteome profiling experiments
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/NPARC.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/NPARC.html
    :license: GPL-3
    :recipe: /`bioconductor-nparc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nparc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nparc/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-mouse4302.db
 
    Affymetrix Mouse Genome 430 2.0 Array annotation data \(chip mouse4302\)
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mouse4302.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/mouse4302.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mouse4302.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302.db/meta.yaml>`_
 

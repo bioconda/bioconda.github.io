@@ -12,7 +12,7 @@ bioconductor-dyebias
 
    The GASSCO method for correcting for slide\-dependent gene\-specific dye bias
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/dyebias.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/dyebias.html
    :license: GPL-3
    :recipe: /`bioconductor-dyebias <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebias>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebias/meta.yaml>`_
    :links: biotools: :biotools:`dyebias`

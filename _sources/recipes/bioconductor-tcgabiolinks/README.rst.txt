@@ -12,7 +12,7 @@ bioconductor-tcgabiolinks
 
    TCGAbiolinks\: An R\/Bioconductor package for integrative analysis with GDC data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/TCGAbiolinks.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/TCGAbiolinks.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-tcgabiolinks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgabiolinks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgabiolinks/meta.yaml>`_
    :links: biotools: :biotools:`tcgabiolinks`, doi: :doi:`10.1093/nar/gkv1507`

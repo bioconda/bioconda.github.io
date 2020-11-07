@@ -12,7 +12,7 @@ bioconductor-illumina450probevariants.db
 
    Annotation Package combining variant data from 1000 Genomes Project for Illumina HumanMethylation450 Bead Chip probes
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/Illumina450ProbeVariants.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/Illumina450ProbeVariants.db.html
    :license: GPL-3
    :recipe: /`bioconductor-illumina450probevariants.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illumina450probevariants.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illumina450probevariants.db/meta.yaml>`_
 

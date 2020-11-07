@@ -12,8 +12,8 @@ bioconductor-netreg
 
    Network\-Regularized Regression Models
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/netReg.html
-   :license: GPL-3 | BSL-1.0 + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/netReg.html
+   :license: GPL-3
    :recipe: /`bioconductor-netreg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netreg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netreg/meta.yaml>`_
 
    netReg fits linear regression models using network\-penalization. Graph prior knowledge\, in the form of biological networks\, is being incorporated into the loss function of the linear model. The networks describe biological relationships such as co\-regulation or dependency of the same transcription factors\/metabolites\/etc. yielding a part sparse and part smooth solution for coefficient profiles.

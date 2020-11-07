@@ -12,7 +12,7 @@ bioconductor-macpet
 
    Model based analysis for paired\-end data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/MACPET.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MACPET.html
    :license: GPL-3
    :recipe: /`bioconductor-macpet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macpet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macpet/meta.yaml>`_
 

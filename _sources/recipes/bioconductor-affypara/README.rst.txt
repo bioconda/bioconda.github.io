@@ -12,7 +12,7 @@ bioconductor-affypara
 
    Parallelized preprocessing methods for Affymetrix Oligonucleotide Arrays
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/affyPara.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/affyPara.html
    :license: GPL-3
    :recipe: /`bioconductor-affypara <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affypara>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affypara/meta.yaml>`_
 

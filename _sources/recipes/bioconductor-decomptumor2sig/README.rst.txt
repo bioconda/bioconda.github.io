@@ -12,7 +12,7 @@ bioconductor-decomptumor2sig
 
    Decomposition of individual tumors into mutational signatures by signature refitting
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/decompTumor2Sig.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/decompTumor2Sig.html
    :license: GPL-2
    :recipe: /`bioconductor-decomptumor2sig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decomptumor2sig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decomptumor2sig/meta.yaml>`_
 

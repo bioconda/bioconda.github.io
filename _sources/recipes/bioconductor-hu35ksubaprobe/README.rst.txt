@@ -12,7 +12,7 @@ bioconductor-hu35ksubaprobe
 
    Probe sequence data for microarrays of type hu35ksuba
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/hu35ksubaprobe.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hu35ksubaprobe.html
    :license: LGPL
    :recipe: /`bioconductor-hu35ksubaprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubaprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubaprobe/meta.yaml>`_
 

@@ -12,12 +12,12 @@ bioconductor-a4preproc
 
    Automated Affymetrix Array Analysis Preprocessing Package
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/a4Preproc.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/a4Preproc.html
    :license: GPL-3
    :recipe: /`bioconductor-a4preproc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4preproc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4preproc/meta.yaml>`_
    :links: biotools: :biotools:`a4preproc`, doi: :doi:`10.1038/nmeth.3252`
 
-   Automated Affymetrix Array Analysis Preprocessing Package
+   Utility functions to pre\-process data for the Automated Affymetrix Array Analysis set of packages.
 
 
 .. conda:package:: bioconductor-a4preproc

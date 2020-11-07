@@ -12,7 +12,7 @@ bioconductor-eventpointer
 
    An effective identification of alternative splicing events using junction arrays and RNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EventPointer.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/EventPointer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-eventpointer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eventpointer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eventpointer/meta.yaml>`_
 

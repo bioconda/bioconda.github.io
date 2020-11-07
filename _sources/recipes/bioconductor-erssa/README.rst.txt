@@ -12,7 +12,7 @@ bioconductor-erssa
 
    Empirical RNA\-seq Sample Size Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ERSSA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ERSSA.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-erssa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erssa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erssa/meta.yaml>`_
 

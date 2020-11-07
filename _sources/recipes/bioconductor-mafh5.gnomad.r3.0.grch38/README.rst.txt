@@ -12,7 +12,7 @@ bioconductor-mafh5.gnomad.r3.0.grch38
 
    Minor allele frequency data from gnomAD release 3.0 for GRCh38 stored using a HDF5 backend
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MafH5.gnomAD.r3.0.GRCh38.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MafH5.gnomAD.r3.0.GRCh38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafh5.gnomad.r3.0.grch38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafh5.gnomad.r3.0.grch38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafh5.gnomad.r3.0.grch38/meta.yaml>`_
 
@@ -27,20 +27,20 @@ bioconductor-mafh5.gnomad.r3.0.grch38
       
       
 
-      ``3.11.0-0``
+      ``3.11.0-1``,  ``3.11.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-genomeinfodb: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-genomicranges: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-genomicscores: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-hdf5array: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-iranges: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rhdf5: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-s4vectors: ``>=0.26.0,<0.27.0``
-   :depends curl: ``>=7.69.1,<8.0a0``
+   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicscores: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-hdf5array: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-rhdf5: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

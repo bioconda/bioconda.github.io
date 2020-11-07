@@ -12,7 +12,7 @@ bioconductor-rtcga.methylation
 
    Methylation datasets from The Cancer Genome Atlas Project
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/RTCGA.methylation.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/RTCGA.methylation.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga.methylation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.methylation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.methylation/meta.yaml>`_
 

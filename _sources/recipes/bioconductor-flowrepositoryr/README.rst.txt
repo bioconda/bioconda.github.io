@@ -12,7 +12,7 @@ bioconductor-flowrepositoryr
 
    FlowRepository R Interface
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/FlowRepositoryR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/FlowRepositoryR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowrepositoryr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowrepositoryr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowrepositoryr/meta.yaml>`_
    :links: biotools: :biotools:`flowrepositoryr`, doi: :doi:`10.1002/cyto.a.22106`

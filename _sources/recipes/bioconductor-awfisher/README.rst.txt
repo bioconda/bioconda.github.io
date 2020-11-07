@@ -12,7 +12,7 @@ bioconductor-awfisher
 
    An R package for fast computing for adaptively weighted fisher\'s method
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/AWFisher.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/AWFisher.html
    :license: GPL-3
    :recipe: /`bioconductor-awfisher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-awfisher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-awfisher/meta.yaml>`_
 

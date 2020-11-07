@@ -12,7 +12,7 @@ bioconductor-rcgh
 
    Comprehensive Pipeline for Analyzing and Visualizing Array\-Based CGH Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/rCGH.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/rCGH.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rcgh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcgh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcgh/meta.yaml>`_
    :links: biotools: :biotools:`rcgh`, doi: :doi:`10.1093/bioinformatics/btv718`

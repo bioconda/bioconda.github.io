@@ -12,7 +12,7 @@ bioconductor-amplican
 
    Automated analysis of CRISPR experiments
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/amplican.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/amplican.html
    :license: GPL-3
    :recipe: /`bioconductor-amplican <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amplican>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amplican/meta.yaml>`_
 

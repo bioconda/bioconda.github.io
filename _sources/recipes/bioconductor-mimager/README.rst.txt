@@ -12,7 +12,7 @@ bioconductor-mimager
 
    mimager\: The Microarray Imager
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/mimager.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/mimager.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mimager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimager/meta.yaml>`_
 

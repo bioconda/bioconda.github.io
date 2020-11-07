@@ -12,7 +12,7 @@ bioconductor-rnamodr
 
    Detection of post\-transcriptional modifications in high throughput sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/RNAmodR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RNAmodR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnamodr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr/meta.yaml>`_
 

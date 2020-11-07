@@ -12,7 +12,7 @@ bioconductor-contibait
 
    Improves Early Build Genome Assemblies using Strand\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/contiBAIT.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/contiBAIT.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-contibait <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-contibait>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-contibait/meta.yaml>`_
    :links: biotools: :biotools:`contibait`, doi: :doi:`10.1093/bioinformatics/btx281`

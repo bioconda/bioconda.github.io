@@ -12,7 +12,7 @@ bioconductor-deconrnaseq
 
    Deconvolution of Heterogeneous Tissue Samples for mRNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/DeconRNASeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DeconRNASeq.html
    :license: GPL-2
    :recipe: /`bioconductor-deconrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deconrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deconrnaseq/meta.yaml>`_
 

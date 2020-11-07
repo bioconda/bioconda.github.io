@@ -12,7 +12,7 @@ bioconductor-affyplm
 
    Methods for fitting probe\-level models
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/affyPLM.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/affyPLM.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-affyplm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyplm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyplm/meta.yaml>`_
    :links: biotools: :biotools:`affyplm`

@@ -12,7 +12,7 @@ bioconductor-pcan
 
    Phenotype Consensus ANalysis \(PCAN\)
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PCAN.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PCAN.html
    :license: CC BY-NC-ND 4.0
    :recipe: /`bioconductor-pcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcan/meta.yaml>`_
    :links: biotools: :biotools:`pcan`

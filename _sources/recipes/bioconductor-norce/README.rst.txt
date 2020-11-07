@@ -12,7 +12,7 @@ bioconductor-norce
 
    NoRCE\: Noncoding RNA Sets Cis Annotation and Enrichment
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/NoRCE.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/NoRCE.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-norce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-norce>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-norce/meta.yaml>`_
 

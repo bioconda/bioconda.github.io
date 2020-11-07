@@ -12,7 +12,7 @@ bioconductor-pd.huex.1.0.st.v2
 
    Platform Design Info for Affymetrix HuEx\-1\_0\-st\-v2
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/pd.huex.1.0.st.v2.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/pd.huex.1.0.st.v2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.huex.1.0.st.v2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.huex.1.0.st.v2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.huex.1.0.st.v2/meta.yaml>`_
 

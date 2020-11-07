@@ -12,7 +12,7 @@ bioconductor-goprofiles
 
    goProfiles\: an R package for the statistical analysis of functional profiles
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/goProfiles.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/goProfiles.html
    :license: GPL-2
    :recipe: /`bioconductor-goprofiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goprofiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goprofiles/meta.yaml>`_
 

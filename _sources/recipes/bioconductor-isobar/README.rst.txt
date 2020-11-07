@@ -12,7 +12,7 @@ bioconductor-isobar
 
    Analysis and quantitation of isobarically tagged MSMS proteomics data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/isobar.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/isobar.html
    :license: LGPL-2
    :recipe: /`bioconductor-isobar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isobar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isobar/meta.yaml>`_
 

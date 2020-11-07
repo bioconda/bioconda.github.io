@@ -12,7 +12,7 @@ bioconductor-microbiomedasim
 
    Microbiome Differential Abundance Simulation
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/microbiomeDASim.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/microbiomeDASim.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-microbiomedasim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomedasim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomedasim/meta.yaml>`_
 

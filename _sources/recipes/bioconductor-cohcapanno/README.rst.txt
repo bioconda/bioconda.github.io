@@ -12,7 +12,7 @@ bioconductor-cohcapanno
 
    Annotations for City of Hope CpG Island Analysis Pipeline
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/COHCAPanno.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/COHCAPanno.html
    :license: GPL-3
    :recipe: /`bioconductor-cohcapanno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcapanno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcapanno/meta.yaml>`_
 

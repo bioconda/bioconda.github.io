@@ -12,7 +12,7 @@ bioconductor-ragene10stv1cdf
 
    ragene10stv1cdf
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/ragene10stv1cdf.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/ragene10stv1cdf.html
    :license: LGPL
    :recipe: /`bioconductor-ragene10stv1cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ragene10stv1cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ragene10stv1cdf/meta.yaml>`_
 

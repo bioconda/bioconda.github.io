@@ -12,7 +12,7 @@ bioconductor-rsamtools
 
    Binary alignment \(BAM\)\, FASTA\, variant call \(BCF\)\, and tabix file import
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Rsamtools.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Rsamtools.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-rsamtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsamtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsamtools/meta.yaml>`_
    :links: biotools: :biotools:`rsamtools`, doi: :doi:`10.1038/nmeth.3252`

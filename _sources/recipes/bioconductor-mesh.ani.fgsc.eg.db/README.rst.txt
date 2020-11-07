@@ -12,7 +12,7 @@ bioconductor-mesh.ani.fgsc.eg.db
 
    Mapping table for Aspergillus nidulans FGSC A4 Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Ani.FGSC.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Ani.FGSC.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.ani.fgsc.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.ani.fgsc.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.ani.fgsc.eg.db/meta.yaml>`_
 

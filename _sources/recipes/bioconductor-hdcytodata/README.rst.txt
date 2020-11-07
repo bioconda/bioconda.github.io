@@ -12,7 +12,7 @@ bioconductor-hdcytodata
 
    Collection of high\-dimensional cytometry benchmark datasets in Bioconductor object formats
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/HDCytoData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/HDCytoData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hdcytodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdcytodata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-gatingmldata
 
    Data and XML files for Gating\-ML Test suite
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/gatingMLData.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/gatingMLData.html
    :license: GPL
    :recipe: /`bioconductor-gatingmldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatingmldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatingmldata/meta.yaml>`_
 

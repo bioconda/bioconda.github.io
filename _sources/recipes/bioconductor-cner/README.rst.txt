@@ -12,7 +12,7 @@ bioconductor-cner
 
    CNE Detection and Visualization
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CNEr.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CNEr.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-cner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cner/meta.yaml>`_
    :links: biotools: :biotools:`cner`, doi: :doi:`10.1038/nmeth.3252`

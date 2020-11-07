@@ -12,7 +12,7 @@ bioconductor-cydar
 
    Using Mass Cytometry for Differential Abundance Analyses
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cydar.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/cydar.html
    :license: GPL-3
    :recipe: /`bioconductor-cydar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cydar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cydar/meta.yaml>`_
 

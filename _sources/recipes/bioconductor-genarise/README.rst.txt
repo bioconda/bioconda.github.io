@@ -12,7 +12,7 @@ bioconductor-genarise
 
    Microarray Analysis tool
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/genArise.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/genArise.html
    :license: file LICENSE
    :recipe: /`bioconductor-genarise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genarise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genarise/meta.yaml>`_
 

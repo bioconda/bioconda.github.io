@@ -12,11 +12,11 @@ bioconductor-setools
 
    SEtools\: tools for working with SummarizedExperiment
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SEtools.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SEtools.html
    :license: GPL
    :recipe: /`bioconductor-setools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-setools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-setools/meta.yaml>`_
 
-   This includes a set of tools for working with the SummarizedExperiment class\, including merging\, melting\, aggregation and plotting functions.
+   This includes a set of tools for working with the SummarizedExperiment class\, including merging\, melting\, aggregation and plotting functions. In particular\, SEtools offers a simple interface for plotting complex heatmaps from SE objects.
 
 
 .. conda:package:: bioconductor-setools

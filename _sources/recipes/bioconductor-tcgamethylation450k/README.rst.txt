@@ -12,7 +12,7 @@ bioconductor-tcgamethylation450k
 
    The Cancer Genome Atlas Illumina 450k methylation example data
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/TCGAMethylation450k.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/TCGAMethylation450k.html
    :license: GPL-2
    :recipe: /`bioconductor-tcgamethylation450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgamethylation450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgamethylation450k/meta.yaml>`_
 

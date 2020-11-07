@@ -10,13 +10,13 @@ bioconductor-singlecelltk
    :replaces_section_title:
    :noindex:
 
-   Interactive Analysis of Single Cell RNA\-Seq Data
+   Comprehensive and Interactive Analysis of Single Cell RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/singleCellTK.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/singleCellTK.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-singlecelltk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecelltk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecelltk/meta.yaml>`_
 
-   Run common single cell analysis directly through your browser including differential expression\, downsampling analysis\, and clustering.
+   Run common single cell analysis in the R console or directly through your browser. Includes many functions for import\, quality control\, normalization\, batch correction\, clustering\, differential expression\, and visualization..
 
 
 .. conda:package:: bioconductor-singlecelltk

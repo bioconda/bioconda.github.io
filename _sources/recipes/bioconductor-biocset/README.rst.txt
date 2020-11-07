@@ -12,7 +12,7 @@ bioconductor-biocset
 
    Representing Different Biological Sets
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BiocSet.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BiocSet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocset/meta.yaml>`_
 

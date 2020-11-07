@@ -12,7 +12,7 @@ bioconductor-ggdata
 
    all 90 hapmap CEU samples\, 47K expression\, 4mm SNP
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/GGdata.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/GGdata.html
    :license: LGPL
    :recipe: /`bioconductor-ggdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggdata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-graper
 
    Adaptive penalization in high\-dimensional regression and classification with external covariates using variational Bayes
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/graper.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/graper.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-graper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graper/meta.yaml>`_
 

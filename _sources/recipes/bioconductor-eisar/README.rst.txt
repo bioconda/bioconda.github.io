@@ -12,7 +12,7 @@ bioconductor-eisar
 
    Exon\-Intron Split Analysis \(EISA\) in R
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/eisaR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/eisaR.html
    :license: GPL-3
    :recipe: /`bioconductor-eisar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eisar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eisar/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-encodexplorer
 
    A compilation of ENCODE metadata
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ENCODExplorer.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ENCODExplorer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-encodexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-encodexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-encodexplorer/meta.yaml>`_
    :links: biotools: :biotools:`encodexplorer`, doi: :doi:`10.1038/nmeth.3252`

@@ -10,9 +10,9 @@ bioconductor-tidybulk
    :replaces_section_title:
    :noindex:
 
-   Friendly tidy wrappers for streamlined bulk transcriptional analysis
+   Brings transcriptomics to the tidyverse
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/tidybulk.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/tidybulk.html
    :license: GPL-3
    :recipe: /`bioconductor-tidybulk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidybulk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidybulk/meta.yaml>`_
 

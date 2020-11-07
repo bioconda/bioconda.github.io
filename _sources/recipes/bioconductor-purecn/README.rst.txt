@@ -12,7 +12,7 @@ bioconductor-purecn
 
    Copy number calling and SNV classification using targeted short read sequencing
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PureCN.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PureCN.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-purecn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-purecn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-purecn/meta.yaml>`_
    :links: biotools: :biotools:`purecn`

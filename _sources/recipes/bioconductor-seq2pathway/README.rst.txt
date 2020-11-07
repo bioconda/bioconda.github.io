@@ -12,7 +12,7 @@ bioconductor-seq2pathway
 
    a novel tool for functional gene\-set \(or termed as pathway\) analysis of next\-generation sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/seq2pathway.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/seq2pathway.html
    :license: GPL-2
    :recipe: /`bioconductor-seq2pathway <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway/meta.yaml>`_
    :links: biotools: :biotools:`seq2pathway`

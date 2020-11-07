@@ -12,7 +12,7 @@ bioconductor-mu19ksubbcdf
 
    mu19ksubbcdf
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/mu19ksubbcdf.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/mu19ksubbcdf.html
    :license: LGPL
    :recipe: /`bioconductor-mu19ksubbcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu19ksubbcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu19ksubbcdf/meta.yaml>`_
 

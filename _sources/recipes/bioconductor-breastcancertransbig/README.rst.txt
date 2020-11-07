@@ -12,7 +12,7 @@ bioconductor-breastcancertransbig
 
    Gene expression dataset published by Desmedt et al. \[2007\] \(TRANSBIG\).
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/breastCancerTRANSBIG.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/breastCancerTRANSBIG.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-breastcancertransbig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancertransbig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancertransbig/meta.yaml>`_
 

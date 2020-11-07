@@ -10,13 +10,13 @@ bioconductor-omnipathr
    :replaces_section_title:
    :noindex:
 
-   Import Omnipath network
+   OmniPath web service client
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/OmnipathR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/OmnipathR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omnipathr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr/meta.yaml>`_
 
-   Import data from https\:\/\/www.omnipathdb.org webservice. It also includes functions to transform and print this data.
+   A client for the OmniPath web service \(https\:\/\/www.omnipathdb.org\). It also includes functions to transform and pretty print some of the downloaded data.
 
 
 .. conda:package:: bioconductor-omnipathr

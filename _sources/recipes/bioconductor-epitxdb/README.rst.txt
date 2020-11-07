@@ -12,7 +12,7 @@ bioconductor-epitxdb
 
    Storing and accessing epitranscriptomic information using the AnnotationDbi interface
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/EpiTxDb.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/EpiTxDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epitxdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb/meta.yaml>`_
 

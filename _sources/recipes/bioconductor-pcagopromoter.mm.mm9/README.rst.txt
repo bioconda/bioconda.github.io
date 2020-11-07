@@ -12,7 +12,7 @@ bioconductor-pcagopromoter.mm.mm9
 
    pcaGoPromoter.Mm.mm9 is a data package used by pcaGoPromoter
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/pcaGoPromoter.Mm.mm9.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/pcaGoPromoter.Mm.mm9.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-pcagopromoter.mm.mm9 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter.mm.mm9>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter.mm.mm9/meta.yaml>`_
 

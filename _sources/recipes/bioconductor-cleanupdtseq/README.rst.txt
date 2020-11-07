@@ -12,7 +12,7 @@ bioconductor-cleanupdtseq
 
    This package classifies putative polyadenylation sites as true or false\/internally oligodT primed
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/cleanUpdTSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/cleanUpdTSeq.html
    :license: GPL-2
    :recipe: /`bioconductor-cleanupdtseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleanupdtseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleanupdtseq/meta.yaml>`_
    :links: biotools: :biotools:`cleanupdtseq`

@@ -12,7 +12,7 @@ bioconductor-perturbatr
 
    Statistical Analysis of High\-Throughput Genetic Perturbation Screens
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/perturbatr.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/perturbatr.html
    :license: GPL-3
    :recipe: /`bioconductor-perturbatr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-perturbatr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-perturbatr/meta.yaml>`_
 

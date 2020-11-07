@@ -12,7 +12,7 @@ bioconductor-cnordt
 
    Add\-on to CellNOptR\: Discretized time treatments
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/CNORdt.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CNORdt.html
    :license: GPL-2
    :recipe: /`bioconductor-cnordt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnordt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnordt/meta.yaml>`_
 

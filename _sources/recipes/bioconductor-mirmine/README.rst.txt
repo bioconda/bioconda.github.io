@@ -12,7 +12,7 @@ bioconductor-mirmine
 
    Data package with miRNA\-seq datasets from miRmine database as RangedSummarizedExperiment
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/miRmine.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/miRmine.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-mirmine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirmine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirmine/meta.yaml>`_
 

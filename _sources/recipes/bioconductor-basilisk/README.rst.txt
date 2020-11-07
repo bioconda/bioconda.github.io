@@ -10,13 +10,13 @@ bioconductor-basilisk
    :replaces_section_title:
    :noindex:
 
-   Freezing Python Versions Inside Bioconductor Packages
+   Freezing Python Dependencies Inside Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/basilisk.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/basilisk.html
    :license: GPL-3
    :recipe: /`bioconductor-basilisk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basilisk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basilisk/meta.yaml>`_
 
-   Installs a self\-contained Python instance that is managed by the R installation. This aims to provide a consistent Python version that can be used reliably by Bioconductor packages. Module versions are also controlled to guarantee consistent behavior on different user systems.
+   Installs a self\-contained conda instance that is managed by the R\/Bioconductor installation machinery. This aims to provide a consistent Python environment that can be used reliably by Bioconductor packages. Functions are also provided to enable smooth interoperability of multiple Python environments in a single R session.
 
 
 .. conda:package:: bioconductor-basilisk

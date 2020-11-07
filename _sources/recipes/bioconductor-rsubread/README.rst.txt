@@ -10,14 +10,14 @@ bioconductor-rsubread
    :replaces_section_title:
    :noindex:
 
-   Subread Sequence Alignment and Counting for R
+   Mapping\, quantification and variant analysis of sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Rsubread.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Rsubread.html
+   :license: GPL (>=3)
    :recipe: /`bioconductor-rsubread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread/meta.yaml>`_
    :links: biotools: :biotools:`rsubread`
 
-   Alignment\, quantification and analysis of second and third generation sequencing data. Includes functionality for read mapping\, read counting\, SNP calling\, structural variant detection and gene fusion discovery. Can be applied to all major sequencing techologies and to both short and long sequence reads.
+   Alignment\, quantification and analysis of RNA sequencing data \(including both bulk RNA\-seq and scRNA\-seq\) and DNA sequenicng data \(including ATAC\-seq\, ChIP\-seq\, WGS\, WES etc\). Includes functionality for read mapping\, read counting\, SNP calling\, structural variant detection and gene fusion discovery. Can be applied to all major sequencing techologies and to both short and long sequence reads.
 
 
 .. conda:package:: bioconductor-rsubread

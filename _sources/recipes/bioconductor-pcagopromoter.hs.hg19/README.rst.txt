@@ -12,7 +12,7 @@ bioconductor-pcagopromoter.hs.hg19
 
    pcaGoPromoter.Hs.hg19 is a data package used by pcaGoPromoter
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/pcaGoPromoter.Hs.hg19.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/pcaGoPromoter.Hs.hg19.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-pcagopromoter.hs.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter.hs.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter.hs.hg19/meta.yaml>`_
 

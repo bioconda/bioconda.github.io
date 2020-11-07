@@ -12,7 +12,7 @@ bioconductor-systempiper
 
    systemPipeR\: NGS workflow and report generation environment
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/systemPipeR.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/systemPipeR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-systempiper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiper/meta.yaml>`_
    :links: biotools: :biotools:`systempiper`

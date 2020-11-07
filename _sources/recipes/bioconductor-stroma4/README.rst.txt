@@ -12,7 +12,7 @@ bioconductor-stroma4
 
    Assign Properties to TNBC Patients
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/STROMA4.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/STROMA4.html
    :license: GPL-3
    :recipe: /`bioconductor-stroma4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stroma4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stroma4/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pd.ht.hg.u133.plus.pm
 
    Platform Design Info for The Manufacturer\'s Name HT\_HG\-U133\_Plus\_PM
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/pd.ht.hg.u133.plus.pm.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/pd.ht.hg.u133.plus.pm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.ht.hg.u133.plus.pm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ht.hg.u133.plus.pm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ht.hg.u133.plus.pm/meta.yaml>`_
 

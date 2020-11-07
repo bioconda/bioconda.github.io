@@ -12,7 +12,7 @@ bioconductor-msqc1
 
    Sigma mix MSQC1 data
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/msqc1.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/msqc1.html
    :license: GPL
    :recipe: /`bioconductor-msqc1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msqc1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msqc1/meta.yaml>`_
 

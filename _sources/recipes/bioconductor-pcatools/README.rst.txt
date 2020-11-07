@@ -12,7 +12,7 @@ bioconductor-pcatools
 
    PCAtools\: Everything Principal Components Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/PCAtools.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PCAtools.html
    :license: GPL-3
    :recipe: /`bioconductor-pcatools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcatools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcatools/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-hilda
 
    Conducting statistical inference on comparing the mutational exposures of mutational signatures by using hierarchical latent Dirichlet allocation
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/HiLDA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/HiLDA.html
    :license: GPL-3
    :recipe: /`bioconductor-hilda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilda/meta.yaml>`_
 

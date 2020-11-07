@@ -12,7 +12,7 @@ bioconductor-pasilla
 
    Data package with per\-exon and per\-gene read counts of RNA\-seq samples of Pasilla knock\-down by Brooks et al.\, Genome Research 2011.
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/pasilla.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/pasilla.html
    :license: LGPL
    :recipe: /`bioconductor-pasilla <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasilla>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasilla/meta.yaml>`_
 

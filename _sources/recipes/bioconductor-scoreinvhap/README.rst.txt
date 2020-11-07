@@ -12,7 +12,7 @@ bioconductor-scoreinvhap
 
    Get inversion status in predefined regions
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/scoreInvHap.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/scoreInvHap.html
    :license: file LICENSE
    :recipe: /`bioconductor-scoreinvhap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scoreinvhap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scoreinvhap/meta.yaml>`_
 

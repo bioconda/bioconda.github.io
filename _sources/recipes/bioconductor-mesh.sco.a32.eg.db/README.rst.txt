@@ -12,7 +12,7 @@ bioconductor-mesh.sco.a32.eg.db
 
    Mapping table for Streptomyces coelicolor A3\(2\) Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.11/data/annotation/html/MeSH.Sco.A32.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Sco.A32.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.sco.a32.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.sco.a32.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.sco.a32.eg.db/meta.yaml>`_
 

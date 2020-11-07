@@ -12,7 +12,7 @@ bioconductor-sispa
 
    SISPA\: Method for Sample Integrated Set Profile Analysis
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SISPA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SISPA.html
    :license: GPL-2
    :recipe: /`bioconductor-sispa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sispa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sispa/meta.yaml>`_
    :links: biotools: :biotools:`sispa`, doi: :doi:`10.1093/nar/gkv1503`

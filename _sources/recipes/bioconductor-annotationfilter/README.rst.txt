@@ -12,7 +12,7 @@ bioconductor-annotationfilter
 
    Facilities for Filtering Bioconductor Annotation Resources
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/AnnotationFilter.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/AnnotationFilter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-annotationfilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfilter/meta.yaml>`_
 

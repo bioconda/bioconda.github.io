@@ -12,7 +12,7 @@ bioconductor-generecommender
 
    A gene recommender algorithm to identify genes coexpressed with a query set of genes
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/geneRecommender.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/geneRecommender.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-generecommender <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generecommender>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generecommender/meta.yaml>`_
    :links: biotools: :biotools:`generecommender`, doi: :doi:`10.1101/gr.1125403`

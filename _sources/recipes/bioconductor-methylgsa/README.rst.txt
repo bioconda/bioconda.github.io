@@ -12,7 +12,7 @@ bioconductor-methylgsa
 
    Gene Set Analysis Using the Outcome of Differential Methylation
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/methylGSA.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/methylGSA.html
    :license: GPL-2
    :recipe: /`bioconductor-methylgsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylgsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylgsa/meta.yaml>`_
 

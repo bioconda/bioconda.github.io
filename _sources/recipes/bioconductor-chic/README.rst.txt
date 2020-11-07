@@ -12,7 +12,7 @@ bioconductor-chic
 
    Quality Control Pipeline for ChIP\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/ChIC.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ChIC.html
    :license: GPL-2
    :recipe: /`bioconductor-chic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chic/meta.yaml>`_
 

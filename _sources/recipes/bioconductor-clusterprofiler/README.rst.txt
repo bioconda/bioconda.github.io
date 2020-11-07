@@ -12,7 +12,7 @@ bioconductor-clusterprofiler
 
    statistical analysis and visualization of functional profiles for genes and gene clusters
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/clusterProfiler.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/clusterProfiler.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler/meta.yaml>`_
    :links: biotools: :biotools:`clusterprofiler`

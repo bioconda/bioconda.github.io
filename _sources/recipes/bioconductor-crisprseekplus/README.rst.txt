@@ -12,7 +12,7 @@ bioconductor-crisprseekplus
 
    crisprseekplus
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/crisprseekplus.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/crisprseekplus.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-crisprseekplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseekplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseekplus/meta.yaml>`_
    :links: biotools: :biotools:`crisprseekplus`, doi: :doi:`10.1371/journal.pone.0108424`

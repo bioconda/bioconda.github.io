@@ -12,7 +12,7 @@ bioconductor-iseq
 
    Bayesian Hierarchical Modeling of ChIP\-seq Data Through Hidden Ising Models
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/iSeq.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/iSeq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-iseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseq/meta.yaml>`_
    :links: biotools: :biotools:`iseq`, doi: :doi:`10.1111/j.1541-0420.2009.01379.x`

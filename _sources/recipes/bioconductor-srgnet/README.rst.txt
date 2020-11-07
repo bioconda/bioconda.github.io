@@ -12,7 +12,7 @@ bioconductor-srgnet
 
    SRGnet\: An R package for studying synergistic response to gene mutations from transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/SRGnet.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SRGnet.html
    :license: GPL-2
    :recipe: /`bioconductor-srgnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srgnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srgnet/meta.yaml>`_
 

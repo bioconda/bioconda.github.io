@@ -12,7 +12,7 @@ bioconductor-brgedata
 
    Exposures\, Gene Expression and Methylation data for ilustration purpouses
 
-   :homepage: https://bioconductor.org/packages/3.11/data/experiment/html/brgedata.html
+   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/brgedata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-brgedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brgedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brgedata/meta.yaml>`_
 

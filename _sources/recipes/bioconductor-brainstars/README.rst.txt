@@ -12,7 +12,7 @@ bioconductor-brainstars
 
    query gene expression data and plots from BrainStars \(B\*\)
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/BrainStars.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BrainStars.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-brainstars <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainstars>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainstars/meta.yaml>`_
    :links: biotools: :biotools:`brainstars`, doi: :doi:`10.1097/HTR.0b013e3181a7ecb0`

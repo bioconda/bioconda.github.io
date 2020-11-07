@@ -12,7 +12,7 @@ bioconductor-rtreemix
 
    Rtreemix\: Mutagenetic trees mixture models.
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/Rtreemix.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Rtreemix.html
    :license: LGPL
    :recipe: /`bioconductor-rtreemix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtreemix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtreemix/meta.yaml>`_
    :links: biotools: :biotools:`rtreemix`, doi: :doi:`10.1093/bioinformatics/btn410`

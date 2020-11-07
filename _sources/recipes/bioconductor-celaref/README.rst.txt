@@ -12,7 +12,7 @@ bioconductor-celaref
 
    Single\-cell RNAseq cell cluster labelling by reference
 
-   :homepage: https://bioconductor.org/packages/3.11/bioc/html/celaref.html
+   :homepage: https://bioconductor.org/packages/3.12/bioc/html/celaref.html
    :license: GPL-3
    :recipe: /`bioconductor-celaref <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celaref>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celaref/meta.yaml>`_
 
