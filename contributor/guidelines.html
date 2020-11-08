@@ -358,15 +358,22 @@ built for Windows as well, with lines like:</p>
 </pre></div>
 </div>
 <p>and</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span>
-  <span class="nt">commands</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">$R -e &quot;library(&#39;RNeXML&#39;)&quot;</span>  <span class="c1"># [not win]</span>
-    <span class="p p-Indicator">-</span> <span class="s">&quot;\&quot;%R%\&quot;</span><span class="nv"> </span><span class="s">-e</span><span class="nv"> </span><span class="s">\&quot;library(&#39;RNeXML&#39;)\&quot;&quot;</span>  <span class="c1"># [win]</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>   <span class="nt">test</span><span class="p">:</span>
+     <span class="nt">commands</span><span class="p">:</span>
+       <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">$R -e &quot;library(&#39;RNeXML&#39;)&quot;</span>  <span class="c1"># [not win]</span>
+       <span class="p p-Indicator">-</span> <span class="s">&quot;\&quot;%R%\&quot;</span><span class="nv"> </span><span class="s">-e</span><span class="nv"> </span><span class="s">\&quot;library(&#39;RNeXML&#39;)\&quot;&quot;</span>  <span class="c1"># [win]</span>
+<span class="l l-Scalar l-Scalar-Plain">and</span>
+<span class="l l-Scalar l-Scalar-Plain">.. code-block:</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">yaml</span>
+
+    <span class="l l-Scalar l-Scalar-Plain">requirements</span><span class="p p-Indicator">:</span>
+      <span class="nt">build</span><span class="p">:</span>
+        <span class="p p-Indicator">-</span> <span class="p p-Indicator">{{</span> <span class="nv">posix</span> <span class="p p-Indicator">}}</span><span class="l l-Scalar l-Scalar-Plain">zip</span>               <span class="c1"># [win]</span>
 </pre></div>
 </div>
 <p>The bioconda channel does not build for Windows. To keep recipes
 streamlined, please remove the “set posix” and “set native” lines described
-above and convert the <code class="docutils literal notranslate"><span class="pre">test:commands:</span></code> block to only:</p>
+above, remove the whole <code class="docutils literal notranslate"><span class="pre">build</span></code> entry under <code class="docutils literal notranslate"><span class="pre">requirements</span></code>, and convert
+the <code class="docutils literal notranslate"><span class="pre">test:commands:</span></code> block to only:</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span>
   <span class="nt">commands</span><span class="p">:</span>
     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">$R -e &quot;library(&#39;RNeXML&#39;)&quot;</span>
