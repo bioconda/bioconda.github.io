@@ -27,12 +27,12 @@ cgmlst-dists
       
       
 
-      ``0.2.0-0``
+      ``0.4.0-0``,  ``0.2.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

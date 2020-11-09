@@ -28,17 +28,17 @@ bioconductor-chipxpress
       
       
 
-      ``1.30.0-1``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.34.0-0``,  ``1.30.0-1``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-chipxpressdata: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-frma: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-geoquery: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-chipxpressdata: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-frma: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-geoquery: ``>=2.58.0,<2.59.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biganalytics: 
    :depends r-bigmemory: 
    :requirements:

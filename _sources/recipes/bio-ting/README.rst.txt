@@ -27,15 +27,14 @@ bio-ting
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends networkx: ``>=2.4,<2.5``
-   :depends numpy: ``>=1.17,<1.18``
+   :depends numpy: ``>=1.17,<=1.19``
    :depends python: ``>=3.7``
-   :depends scipy: ``>=1.3,<1.4``
+   :depends scipy: ``>=1.3,<=1.5``
    :requirements:
 
    .. rubric:: Installation
