@@ -27,11 +27,29 @@ r-biomartr
       
       
 
-      
+      ``0.9.2-0``
 
       
 
    
+   :depends bioconductor-biomart: 
+   :depends bioconductor-biostrings: 
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-curl: 
+   :depends r-data.table: ``>=1.9.4``
+   :depends r-downloader: ``>=0.3``
+   :depends r-dplyr: ``>=0.3.0``
+   :depends r-fs: ``>=1.3.1``
+   :depends r-httr: ``>=0.6.1``
+   :depends r-jsonlite: 
+   :depends r-philentropy: 
+   :depends r-purrr: 
+   :depends r-r.utils: 
+   :depends r-rcurl: ``>=1.95_4.5``
+   :depends r-readr: ``>=0.2.2``
+   :depends r-stringr: ``>=0.6.2``
+   :depends r-tibble: 
+   :depends r-xml: ``>=3.98_1.1``
    :requirements:
 
    .. rubric:: Installation

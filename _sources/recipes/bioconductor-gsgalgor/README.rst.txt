@@ -27,11 +27,19 @@ bioconductor-gsgalgor
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-cluster: 
+   :depends r-doparallel: 
+   :depends r-foreach: 
+   :depends r-matchingr: 
+   :depends r-nsga2r: 
+   :depends r-proxy: 
+   :depends r-survival: 
    :requirements:
 
    .. rubric:: Installation

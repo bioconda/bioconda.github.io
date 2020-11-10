@@ -28,7 +28,7 @@ intervene
       
       
 
-      ``0.6.4-4``,  ``0.6.4-3``,  ``0.6.4-2``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.5.9-0``,  ``0.5.8-0``
+      ``0.6.4-5``,  ``0.6.4-4``,  ``0.6.4-3``,  ``0.6.4-2``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.5.9-0``,  ``0.5.8-0``
 
       
 
@@ -36,7 +36,7 @@ intervene
    :depends bedtools: ``>=2.29.1``
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends pandas: 
+   :depends pandas: ``<1.0.0``
    :depends pybedtools: 
    :depends python: 
    :depends r-base: 

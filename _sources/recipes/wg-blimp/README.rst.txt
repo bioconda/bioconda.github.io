@@ -30,10 +30,10 @@ wg-blimp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.6-1</code>,  <code>0.9.6-0</code>,  <code>0.9.5-1</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.7-0</code>,  <code>0.9.6-1</code>,  <code>0.9.6-0</code>,  <code>0.9.5-1</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-1</code>,  </span></summary>
       
 
-      ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``0.9.7-0``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
       .. raw:: html
@@ -42,24 +42,19 @@ wg-blimp
       
 
    
-   :depends bedtools: 
-   :depends bwa: 
-   :depends bwameth: ``0.2.0.*``
    :depends click: 
-   :depends fastqc: 
-   :depends git: 
    :depends h5py: 
-   :depends methyldackel: 
-   :depends metilene: 
-   :depends mosdepth: 
-   :depends multiqc: 
-   :depends picard: 
    :depends pysam: 
    :depends python: 
-   :depends qualimap: 
    :depends r-base: 
+   :depends r-data.table: 
+   :depends r-dt: 
+   :depends r-ggplot2: 
+   :depends r-htmlwidgets: 
+   :depends r-httpuv: 
+   :depends r-shiny: 
+   :depends r-shinydashboard: 
    :depends ruamel.yaml: 
-   :depends samtools: 
    :depends snakemake-minimal: ``>=5.8``
    :requirements:
 
