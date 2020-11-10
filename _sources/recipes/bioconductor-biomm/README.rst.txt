@@ -27,24 +27,26 @@ bioconductor-biomm
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-variancepartition: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-topgo: ``>=2.41.0,<2.42.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cmplot: 
    :depends r-e1071: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
+   :depends r-imager: 
    :depends r-lattice: 
    :depends r-nsprcomp: 
-   :depends r-proc: 
+   :depends r-precrec: 
    :depends r-ranger: 
    :depends r-rms: 
    :depends r-vioplot: 
+   :depends r-xlsx: 
    :requirements:
 
    .. rubric:: Installation

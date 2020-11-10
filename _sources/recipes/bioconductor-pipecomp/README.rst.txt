@@ -27,11 +27,38 @@ bioconductor-pipecomp
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-scater: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-scran: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends r-aricode: 
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-circlize: 
+   :depends r-clue: 
+   :depends r-cluster: 
+   :depends r-cowplot: 
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-intrinsicdimension: 
+   :depends r-knitr: 
+   :depends r-matrix: 
+   :depends r-matrixstats: 
+   :depends r-randomcolor: 
+   :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
+   :depends r-rtsne: 
+   :depends r-scales: 
+   :depends r-seurat: 
+   :depends r-uwot: 
+   :depends r-viridislite: 
    :requirements:
 
    .. rubric:: Installation

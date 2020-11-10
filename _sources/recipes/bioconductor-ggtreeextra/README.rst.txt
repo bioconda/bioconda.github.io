@@ -27,11 +27,15 @@ bioconductor-ggtreeextra
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ggnewscale: 
+   :depends r-ggplot2: 
+   :depends r-rlang: 
    :requirements:
 
    .. rubric:: Installation

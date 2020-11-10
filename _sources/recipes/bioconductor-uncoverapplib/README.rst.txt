@@ -27,11 +27,37 @@ bioconductor-uncoverapplib
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
+   :depends bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-gviz: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-organismdbi: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.10.0,<3.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-condformat: 
+   :depends r-dt: 
+   :depends r-markdown: 
+   :depends r-openxlsx: 
+   :depends r-processx: 
+   :depends r-rappdirs: 
+   :depends r-rlist: 
+   :depends r-shiny: 
+   :depends r-shinybs: 
+   :depends r-shinycssloaders: 
+   :depends r-shinyjs: 
+   :depends r-shinywidgets: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

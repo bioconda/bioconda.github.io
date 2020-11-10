@@ -27,11 +27,26 @@ bioconductor-msprep
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-pcamethods: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-crmn: 
+   :depends r-ddpcr: 
+   :depends r-dplyr: ``>=0.7``
+   :depends r-magrittr: 
+   :depends r-rlang: 
+   :depends r-stringr: 
+   :depends r-tibble: ``>=1.2``
+   :depends r-tidyr: 
+   :depends r-vim: 
    :requirements:
 
    .. rubric:: Installation

@@ -30,7 +30,7 @@ r-saige
       
       
 
-      ``0.42.0-0``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
+      ``0.42.0-1``,  ``0.42.0-0``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
 
       
 
@@ -43,7 +43,7 @@ r-saige
    :depends libgfortran4: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-data.table: 
    :depends r-matrix: 
    :depends r-optparse: 

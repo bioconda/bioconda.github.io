@@ -28,7 +28,7 @@ flair
       
       
 
-      ``1.5-1``,  ``1.5-0``,  ``1.4-0``
+      ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``
 
       
 
@@ -38,6 +38,7 @@ flair
    :depends bioconductor-drimseq: 
    :depends bioconductor-stager: 
    :depends intervaltree: 
+   :depends kerneltree: 
    :depends matplotlib-base: 
    :depends minimap2: 
    :depends ncls: 
