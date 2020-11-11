@@ -27,11 +27,22 @@ bioconductor-anvilbilling
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bigrquery: 
+   :depends r-dbi: 
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-ggplot2: 
+   :depends r-lubridate: 
+   :depends r-magrittr: 
+   :depends r-plotly: 
+   :depends r-shiny: 
+   :depends r-shinytoastr: 
    :requirements:
 
    .. rubric:: Installation

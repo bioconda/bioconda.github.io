@@ -27,11 +27,22 @@ bioconductor-msimpute
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-scran: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: 
+   :depends r-fnn: 
+   :depends r-matrixstats: 
+   :depends r-mvtnorm: 
+   :depends r-pdist: 
+   :depends r-rdetools: 
+   :depends r-reticulate: 
+   :depends r-softimpute: 
    :requirements:
 
    .. rubric:: Installation

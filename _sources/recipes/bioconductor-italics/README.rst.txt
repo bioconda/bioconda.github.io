@@ -27,16 +27,16 @@ bioconductor-italics
       
       
 
-      ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-1``
+      ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-1``
 
       
 
    
-   :depends bioconductor-affxparser: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-glad: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-italicsdata: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-oligo: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-oligoclasses: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-affxparser: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-glad: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-italicsdata: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-oligoclasses: ``>=1.52.0,<1.53.0``
    :depends bioconductor-pd.mapping50k.xba240: ``>=3.12.0,<3.13.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 

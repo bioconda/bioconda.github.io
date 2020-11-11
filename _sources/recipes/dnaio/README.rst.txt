@@ -13,7 +13,7 @@ dnaio
    Read FASTA and FASTQ files efficiently
 
    :homepage: https://github.com/marcelm/dnaio/
-   :license: MIT License
+   :license: MIT
    :recipe: /`dnaio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnaio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnaio/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ dnaio
       
       
 
-      ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
 
       
 

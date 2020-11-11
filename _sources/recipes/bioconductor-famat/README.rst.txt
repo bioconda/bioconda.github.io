@@ -27,11 +27,30 @@ bioconductor-famat
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
+   :depends bioconductor-keggrest: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-reactome.db: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-rwikipathways: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-gprofiler2: 
+   :depends r-magrittr: 
+   :depends r-mpinet: 
+   :depends r-ontologyindex: 
+   :depends r-plotly: 
+   :depends r-shiny: 
+   :depends r-shinybs: 
+   :depends r-shinydashboard: 
+   :depends r-stringr: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

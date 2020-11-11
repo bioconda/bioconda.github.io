@@ -27,11 +27,28 @@ bioconductor-gwena
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dplyr: ``>=0.8.3``
+   :depends r-dynamictreecut: ``>=1.63-1``
+   :depends r-ggplot2: ``>=3.1.1``
+   :depends r-gprofiler2: ``>=0.1.6``
+   :depends r-igraph: ``>=1.2.4.1``
+   :depends r-magrittr: ``>=1.5``
+   :depends r-matrixstats: ``>=0.55.0``
+   :depends r-netrep: ``>=1.2.1``
+   :depends r-purrr: ``>=0.3.3``
+   :depends r-rcolorbrewer: ``>=1.1-2``
+   :depends r-rlist: ``>=0.4.6.1``
+   :depends r-stringr: ``>=1.4.0``
+   :depends r-tibble: ``>=2.1.1``
+   :depends r-tidyr: ``>=1.0.0``
+   :depends r-wgcna: ``>=1.67``
    :requirements:
 
    .. rubric:: Installation
