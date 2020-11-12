@@ -27,11 +27,36 @@ bioconductor-spatialheatmap
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-rols: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends r-av: 
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-dynamictreecut: 
+   :depends r-flashclust: 
+   :depends r-ggdendro: 
+   :depends r-ggplot2: 
+   :depends r-ggplotify: 
+   :depends r-gplots: 
+   :depends r-gridextra: 
+   :depends r-grimport: 
+   :depends r-htmlwidgets: 
+   :depends r-igraph: 
+   :depends r-plotly: 
+   :depends r-rsvg: 
+   :depends r-shiny: 
+   :depends r-shinydashboard: 
+   :depends r-visnetwork: 
+   :depends r-wgcna: 
+   :depends r-xml2: 
+   :depends r-yaml: 
    :requirements:
 
    .. rubric:: Installation

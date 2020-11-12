@@ -27,9 +27,17 @@ kraken2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.9beta-0</code>,  <code>2.0.8_beta-2</code>,  <code>2.0.8_beta-1</code>,  <code>2.0.8_beta-0</code>,  <code>2.0.7_beta-3</code>,  <code>2.0.7_beta-2</code>,  <code>2.0.7_beta-1</code>,  </span></summary>
+      
 
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

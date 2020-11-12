@@ -27,11 +27,37 @@ bioconductor-sangeranalyser
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-biocstyle: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-decipher: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-sangerseqr: ``>=1.26.0,<1.27.0``
+   :depends r-ape: 
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: 
+   :depends r-dt: 
+   :depends r-excelr: 
+   :depends r-ggdendro: 
+   :depends r-gridextra: 
+   :depends r-kableextra: 
+   :depends r-logger: 
+   :depends r-openxlsx: 
+   :depends r-phangorn: 
+   :depends r-plotly: 
+   :depends r-reshape2: 
+   :depends r-rmarkdown: 
+   :depends r-seqinr: 
+   :depends r-shiny: 
+   :depends r-shinycssloaders: 
+   :depends r-shinydashboard: 
+   :depends r-shinyjs: 
+   :depends r-shinywidgets: 
+   :depends r-stringr: 
+   :depends r-zeallot: 
    :requirements:
 
    .. rubric:: Installation
