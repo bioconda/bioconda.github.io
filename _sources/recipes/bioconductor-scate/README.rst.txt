@@ -27,11 +27,20 @@ bioconductor-scate
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-genomicalignments: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-scatedata: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-mclust: 
+   :depends r-rtsne: 
+   :depends r-splines2: 
+   :depends r-xgboost: 
    :requirements:
 
    .. rubric:: Installation

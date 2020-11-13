@@ -41,48 +41,51 @@ mosca
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``1.22.1.*``
-   :depends bioconductor-edger: ``3.24.3.*``
-   :depends biopython: 
-   :depends blast: 
-   :depends bowtie2: 
+   :depends bioconductor-deseq2: ``>=1.10.1``
+   :depends bioconductor-edger: ``>=3.14.0``
+   :depends biopython: ``>=1.78``
+   :depends blast: ``>=2.5.0``
+   :depends bowtie2: ``2.3.*``
    :depends checkm-genome: ``>=1.1.0``
-   :depends diamond: 
-   :depends fastqc: 
-   :depends fraggenescan: 
-   :depends htseq: 
-   :depends krona: 
-   :depends lxml: 
-   :depends maxbin2: 
-   :depends maxquant: 
-   :depends megahit: 
-   :depends openpyxl: 
-   :depends pandas: 
+   :depends diamond: ``>=2.0.2``
+   :depends fastqc: ``>=0.11.9``
+   :depends fraggenescan: ``>=1.31``
+   :depends htseq: ``>=0.12.4``
+   :depends keggcharter: ``>=0.1.1``
+   :depends krona: ``>=2.7.1``
+   :depends lxml: ``>=4.6.1``
+   :depends maxbin2: ``>=2.2.7``
+   :depends maxquant: ``>=1.6.10``
+   :depends megahit: ``>=1.2.9``
+   :depends openpyxl: ``>=3.0.3``
+   :depends pandas: ``>=1.1.4``
    :depends perl: 
-   :depends progressbar33: 
+   :depends progressbar33: ``>=2.4``
    :depends python: 
-   :depends quast: 
+   :depends quast: ``>=5.0.2``
    :depends r-optparse: 
    :depends r-pheatmap: 
-   :depends r-rcolorbrewer: 
-   :depends recognizer: 
-   :depends reportlab: 
-   :depends scikit-learn: 
-   :depends seqkit: 
+   :depends r-rcolorbrewer: ``>=1.1.2``
+   :depends recognizer: ``>=1.3.2``
+   :depends reportlab: ``>=3.5.45``
+   :depends samtools: ``>=1.11``
+   :depends scikit-learn: ``>=0.23.1``
+   :depends seqkit: ``>=0.13.2``
    :depends seqtk: 
-   :depends sortmerna: ``2.1.*``
-   :depends spades: 
-   :depends svn: 
+   :depends snakemake: ``>=5.27.4``
+   :depends sortmerna: ``2.1b.*``
+   :depends spades: ``>=3.14.1``
+   :depends svn: ``>=1.9.7``
    :depends tqdm: ``>=4.33.0``
-   :depends trimmomatic: 
-   :depends upimapi: 
+   :depends trimmomatic: ``>=0.39``
+   :depends upimapi: ``>=1.0.4``
    :depends xlrd: ``>=0.9.0``
-   :depends xlsxwriter: 
+   :depends xlsxwriter: ``>=1.3.7``
    :requirements:
 
    .. rubric:: Installation

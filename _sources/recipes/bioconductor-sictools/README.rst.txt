@@ -27,7 +27,7 @@ bioconductor-sictools
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
 
       
 
@@ -37,12 +37,14 @@ bioconductor-sictools
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: ``>=1.0.8``
    :depends r-matrixstats: ``>=0.10.0``
    :depends r-plyr: ``>=1.8.3``
    :depends r-stringr: ``>=0.6.2``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
