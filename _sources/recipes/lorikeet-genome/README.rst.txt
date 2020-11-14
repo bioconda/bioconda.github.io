@@ -27,7 +27,7 @@ lorikeet-genome
       
       
 
-      ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``
 
       
 
@@ -38,19 +38,27 @@ lorikeet-genome
    :depends fastani: 
    :depends freebayes: 
    :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends hdbscan: 
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
+   :depends matplotlib-base: 
    :depends minimap2: 
    :depends ngmlr: 
+   :depends numpy: 
    :depends openblas: 
    :depends openssl: ``>=1.1.1h,<1.1.2a``
    :depends parallel: 
    :depends prodigal: 
    :depends pysam: ``>=0.16``
+   :depends python: ``3.7.*``
    :depends r-base: 
    :depends samtools: ``1.9.*``
+   :depends scikit-bio: 
+   :depends scikit-learn: 
+   :depends seaborn: 
    :depends starcode: 
    :depends svim: 
+   :depends umap-learn: 
    :depends vt: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

@@ -27,19 +27,19 @@ bioconductor-snplocs.hsapiens.dbsnp151.grch38
       
       
 
-      ``0.99.20-3``,  ``0.99.20-2``,  ``0.99.20-0``
+      ``0.99.20-6``,  ``0.99.20-3``,  ``0.99.20-2``,  ``0.99.20-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-bsgenome: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomeinfodb: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-genomicranges: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-iranges: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-s4vectors: ``>=0.24.0,<0.25.0``
-   :depends curl: ``>=7.65.3,<8.0a0``
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

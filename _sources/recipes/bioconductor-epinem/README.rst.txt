@@ -27,11 +27,23 @@ bioconductor-epinem
       
       
 
-      
+      ``1.14.1-0``
 
       
 
    
+   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-minet: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-mnem: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-boolnet: 
+   :depends r-e1071: 
+   :depends r-gtools: 
+   :depends r-igraph: 
+   :depends r-lattice: 
+   :depends r-latticeextra: 
+   :depends r-pcalg: 
+   :depends r-rcolorbrewer: 
    :requirements:
 
    .. rubric:: Installation

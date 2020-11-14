@@ -13,7 +13,7 @@ r-pcalg
    Functions for causal structure learning and causal inference using graphical models. The main algorithms for causal structure learning are PC \(for observational data without hidden variables\)\, FCI and RFCI \(for observational data with hidden variables\)\, and GIES \(for a mix of data from observational studies \(i.e. observational data\) and data from experiments involving interventions \(i.e. interventional data\) without hidden variables\). For causal inference the IDA algorithm\, the Generalized Backdoor Criterion \(GBC\)\, the Generalized Adjustment Criterion \(GAC\) and some related functions are implemented. Functions for incorporating background knowledge are provided.
 
    :homepage: http://pcalg.r-forge.r-project.org/
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL2 / GPL-2
    :recipe: /`r-pcalg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pcalg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pcalg/meta.yaml>`_
 
    
@@ -27,11 +27,30 @@ r-pcalg
       
       
 
-      
+      ``2.6_12-0``
 
       
 
    
+   :depends bioconductor-graph: 
+   :depends bioconductor-rbgl: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends r-abind: 
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-bdsmatrix: 
+   :depends r-bh: 
+   :depends r-clue: 
+   :depends r-corpcor: 
+   :depends r-dagitty: 
+   :depends r-fastica: 
+   :depends r-ggm: 
+   :depends r-igraph: 
+   :depends r-rcpp: 
+   :depends r-rcpparmadillo: 
+   :depends r-robustbase: 
+   :depends r-sfsmisc: ``>=1.0_26``
+   :depends r-vcd: 
    :requirements:
 
    .. rubric:: Installation

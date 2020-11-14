@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Package Recipe &#39;bioconductor-mirlab&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;bioframe&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
@@ -101,57 +101,73 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-mirlab">
+  <div class="section" id="bioframe">
 <dl class="conda recipe">
 <dt>
-<em class="property">recipe </em><code class="sig-name descname">bioconductor-mirlab</code></dt>
-<dd><p>Dry lab for exploring miRNA-mRNA relationships</p>
+<em class="property">recipe </em><code class="sig-name descname">bioframe</code></dt>
+<dd><p>Pandas utilities for tab-delimited and other genomic files</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.12/bioc/html/miRLAB.html">https://bioconductor.org/packages/3.12/bioc/html/miRLAB.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/mirnylab/bioframe">https://github.com/mirnylab/bioframe</a></p>
 </dd>
-<dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL (&gt;=2)</p>
+<dt class="field-even">Documentation</dt>
+<dd class="field-even"><p><a class="reference external" href="https://bioframe.readthedocs.io/en/latest/">https://bioframe.readthedocs.io/en/latest/</a></p>
 </dd>
-<dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab">bioconductor-mirlab</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License</dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe</dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioframe">bioframe</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioframe/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>Provide tools exploring miRNA-mRNA relationships, including popular miRNA target prediction methods, ensemble methods that integrate individual methods, functions to get data from online resources, functions to validate the results, and functions to conduct enrichment analyses.</p>
 </dd></dl>
 
 <dl class="conda package">
-<dt id="package-bioconductor-mirlab">
-<em class="property">package </em><code class="sig-name descname">bioconductor-mirlab</code><a class="headerlink" href="#package-bioconductor-mirlab" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-mirlab"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-mirlab.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-mirlab"><img alt="docker_bioconductor-mirlab" src="https://quay.io/repository/biocontainers/bioconductor-mirlab/status" /></a></p>
+<dt id="package-bioframe">
+<em class="property">package </em><code class="sig-name descname">bioframe</code><a class="headerlink" href="#package-bioframe" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioframe"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioframe.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioframe"><img alt="docker_bioframe" src="https://quay.io/repository/biocontainers/bioframe/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">Required By</dt>
-<dd class="field-even"><ul class="simple">
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.0.12-0</span></code></p>
+</dd>
+<dt class="field-even">Depends</dt>
+<dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/cytoolz-feedstock"><strong>cytoolz</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../pairix/README.html#package-pairix" title="pairix package"><strong>pairix</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.17</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../pyfaidx/README.html#package-pyfaidx" title="pyfaidx package"><strong>pyfaidx</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/requests-feedstock"><strong>requests</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/six-feedstock"><strong>six</strong></a></p></li>
+</ul>
+</dd>
+<dt class="field-odd">Required By</dt>
+<dd class="field-odd"><ul class="simple">
 </ul>
 </dd>
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">mirlab</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioframe</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">mirlab</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioframe</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">bioconductor</span><span class="o">-</span><span class="n">mirlab</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">bioframe</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-mirlab?tab=tags">bioconductor-mirlab/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/bioframe?tab=tags">bioframe/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-mirlab/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioconductor-mirlab/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioframe/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioframe/README.html)
 </pre></div>
 </div>
 </div>
@@ -172,14 +188,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-mirlab/README.rst.txt"
+      <a href="../../_sources/recipes/bioframe/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/bioconductor-mirlab/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/bioframe/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
