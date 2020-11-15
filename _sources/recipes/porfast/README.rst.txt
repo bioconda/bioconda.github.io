@@ -27,13 +27,13 @@ porfast
       
       
 
-      ``0.8.0-0``
+      ``0.8.0-1``,  ``0.8.0-0``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libgcc-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

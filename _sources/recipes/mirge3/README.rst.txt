@@ -29,23 +29,21 @@ mirge3
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
-   :depends biopython: ``1.77``
-   :depends bowtie: ``1.2.3``
+   :depends biopython: ``1.78``
+   :depends bowtie: 
    :depends cutadapt: ``2.7``
    :depends future: ``>=0.18.2``
    :depends joblib: ``>=0.15.1``
    :depends matplotlib-base: 
    :depends pandas: ``>=1.0.3``
    :depends python: 
-   :depends r-base: 
-   :depends r-ggplot2: 
    :depends reportlab: ``>=3.5.42``
-   :depends samtools: ``1.7``
+   :depends samtools: 
    :depends scikit-learn: ``0.23.1``
    :depends scipy: ``>=1.4.1``
    :depends viennarna: ``2.4.14``
