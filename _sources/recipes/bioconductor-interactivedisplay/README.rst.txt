@@ -28,16 +28,17 @@ bioconductor-interactivedisplay
       
       
 
-      ``1.18.0-0``,  ``1.16.0-0``
+      ``1.28.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.42.1,<1.44.0``
-   :depends bioconductor-biocgenerics: ``>=0.26.0,<0.28.0``
-   :depends bioconductor-category: ``>=2.46.0,<2.48.0``
-   :depends bioconductor-interactivedisplaybase: ``>=1.18.0,<1.20.0``
-   :depends r-base: ``>=3.4.1,<3.4.2.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-category: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-interactivedisplaybase: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-biocmanager: 
    :depends r-ggplot2: 
    :depends r-gridsvg: 
    :depends r-plyr: 

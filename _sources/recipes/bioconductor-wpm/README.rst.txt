@@ -27,11 +27,28 @@ bioconductor-wpm
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-cli: 
+   :depends r-config: 
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-ggplot2: 
+   :depends r-golem: 
+   :depends r-logging: 
+   :depends r-rcolorbrewer: 
+   :depends r-rlang: 
+   :depends r-shiny: 
+   :depends r-shinycustomloader: 
+   :depends r-shinydashboard: 
+   :depends r-shinywidgets: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

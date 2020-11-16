@@ -27,19 +27,19 @@ bioconductor-tcgabiolinksgui
       
       
 
-      ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-elmer: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-maftools: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-pathview: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-sesame: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-tcgabiolinks: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-tcgabiolinksgui.data: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-elmer: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-maftools: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-pathview: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-sesame: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-tcgabiolinks: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-tcgabiolinksgui.data: ``>=1.10.0,<1.11.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-caret: 
    :depends r-colourpicker: 
