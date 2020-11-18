@@ -15,10 +15,10 @@ uropa
    Furthermore\, it allows filtering for GTF attribute values\, e.g. protein\_coding.
 
 
-   :homepage: https://github.molgen.mpg.de/loosolab/UROPA
+   :homepage: https://github.com/loosolab/UROPA
    :documentation: http://uropa-manual.readthedocs.io
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`uropa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/uropa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/uropa/meta.yaml>`_
 
    
@@ -33,10 +33,10 @@ uropa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.3-0</code>,  <code>3.5.2-0</code>,  <code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.5.3-0</code>,  <code>3.5.2-0</code>,  <code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.0-0</code>,  </span></summary>
       
 
-      ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.0.3-0``,  ``2.0.2a0-2``,  ``2.0.2a0-0``,  ``2.0.0a0-0``,  ``1.2.1-0``
+      ``4.0.0-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.0.3-0``,  ``2.0.2a0-2``,  ``2.0.2a0-0``,  ``2.0.0a0-0``,  ``1.2.1-0``
 
       
       .. raw:: html
@@ -47,9 +47,10 @@ uropa
    
    :depends bioconductor-graph: 
    :depends bioconductor-rbgl: 
-   :depends numpy: ``<1.16``
+   :depends numpy: 
+   :depends psutil: 
    :depends pysam: ``>=0.15.3``
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends r-base: 
    :depends r-getopt: 
    :depends r-ggplot2: 
