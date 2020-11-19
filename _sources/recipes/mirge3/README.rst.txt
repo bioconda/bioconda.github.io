@@ -29,14 +29,14 @@ mirge3
       
       
 
-      ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
-   :depends biopython: ``1.78``
+   :depends biopython: 
    :depends bowtie: 
-   :depends cutadapt: ``2.7``
+   :depends cutadapt: 
    :depends future: ``>=0.18.2``
    :depends joblib: ``>=0.15.1``
    :depends matplotlib-base: 

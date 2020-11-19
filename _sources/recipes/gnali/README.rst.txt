@@ -27,17 +27,22 @@ gnali
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends filelock: 
+   :depends libcurl: ``>=7.71.1,<8.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pandas: 
+   :depends py-bgzip: 
    :depends pybiomart: 
    :depends pysam: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
+   :depends pyyaml: 
    :requirements:
 
    .. rubric:: Installation

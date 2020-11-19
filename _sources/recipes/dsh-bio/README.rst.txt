@@ -10,7 +10,7 @@ dsh-bio
    :replaces_section_title:
    :noindex:
 
-   Tools for BED\, FASTA\, FASTQ\, GFA1\/2\, GFF3\, SAM\, and VCF files
+   Tools for BED\, FASTA\, FASTQ\, GAF\, GFA1\/2\, GFF3\, PAF\, SAM\, and VCF files
 
    :homepage: https://github.com/heuermh/dishevelled-bio
    :license: LGPL version 3 or later
@@ -28,10 +28,10 @@ dsh-bio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  </span></summary>
       
 
-      ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1-1``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.4-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1-1``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
