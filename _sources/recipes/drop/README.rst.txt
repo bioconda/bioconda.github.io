@@ -30,16 +30,15 @@ drop
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
    
    :depends bc: 
    :depends bcftools: ``>=1.7``
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
    :depends bioconductor-deseq2: 
-   :depends bioconductor-fraser: 
+   :depends bioconductor-fraser: ``>=1.2.0``
    :depends bioconductor-genomicscores: 
    :depends bioconductor-outrider: 
    :depends bioconductor-variantannotation: 

@@ -29,15 +29,23 @@ kb-python
       
       
 
-      ``0.24.4-0``
+      ``0.25.0-0``,  ``0.24.4-0``
 
       
 
    
    :depends anndata: ``>=0.6.22.post1``
+   :depends h5py: ``>=2.10.0``
+   :depends jinja2: ``>2.10.1``
    :depends loompy: ``>=3.0.6``
+   :depends nbconvert: ``>=5.6.0``
+   :depends nbformat: ``>=4.4.0``
+   :depends numpy: ``>=1.17.2``
+   :depends plotly: ``>=4.5.0``
    :depends python: ``>=3.6``
    :depends requests: ``>=2.19.0``
+   :depends scanpy: ``>=1.4.4.post1``
+   :depends scikit-learn: ``>=0.21.3``
    :depends tqdm: ``>=4.39.0``
    :requirements:
 

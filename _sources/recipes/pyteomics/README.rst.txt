@@ -29,10 +29,10 @@ pyteomics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.3-0</code>,  <code>4.3.2-1</code>,  <code>4.3.2-0</code>,  <code>4.2-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1-0</code>,  <code>4.0.1-0</code>,  <code>3.5.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.4.0-0</code>,  <code>4.3.3-0</code>,  <code>4.3.2-1</code>,  <code>4.3.2-0</code>,  <code>4.2-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1-0</code>,  <code>4.0.1-0</code>,  </span></summary>
       
 
-      ``4.3.3-0``,  ``4.3.2-1``,  ``4.3.2-0``,  ``4.2-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.5.1-2``,  ``3.5.1-0``,  ``3.4-1``,  ``3.4-0``
+      ``4.4.0-0``,  ``4.3.3-0``,  ``4.3.2-1``,  ``4.3.2-0``,  ``4.2-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0.1-0``,  ``3.5.1-2``,  ``3.5.1-0``,  ``3.4-1``,  ``3.4-0``
 
       
       .. raw:: html
