@@ -32,8 +32,7 @@ hurry.filesize
       
 
    
-   :depends python: ``2.7*``
-   :depends setuptools: 
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
