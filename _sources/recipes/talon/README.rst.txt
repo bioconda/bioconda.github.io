@@ -31,7 +31,7 @@ talon
       
       
 
-      ``v5.0-0``
+      ``v5.0-1``,  ``v5.0-0``
 
       
 
@@ -40,7 +40,7 @@ talon
    :depends pybedtools: 
    :depends pyfaidx: 
    :depends pysam: ``>=0.15.4``
-   :depends python: 
+   :depends python: ``>=3.6,<=3.7``
    :requirements:
 
    .. rubric:: Installation
