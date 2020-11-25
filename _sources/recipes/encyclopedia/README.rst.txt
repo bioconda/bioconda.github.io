@@ -35,12 +35,12 @@ encyclopedia
       
       
 
-      ``0.9.5-0``,  ``0.9.0-0``
+      ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.0-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=11``
    :depends python: 
    :requirements:
 

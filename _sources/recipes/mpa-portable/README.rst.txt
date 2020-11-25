@@ -27,12 +27,13 @@ mpa-portable
       
       
 
-      ``2.0.0-0``,  ``1.9.0-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.9.0-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
 
    
-   :depends openjdk: ``>=6``
+   :depends fonts-conda-ecosystem: 
+   :depends openjdk: ``>=11``
    :depends python: 
    :requirements:
 
