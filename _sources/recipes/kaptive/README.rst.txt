@@ -10,10 +10,10 @@ kaptive
    :replaces_section_title:
    :noindex:
 
-   Kaptive reports information about capsular \(K\) loci found in genome assemblies
+   Reports information about surface polysaccharide loci for Klebsiella and Acinetobacter baumannii genome assemblies
 
    :homepage: https://github.com/katholt/Kaptive
-   :license: GPL / GPL-3.0-only
+   :license: GPL3
    :recipe: /`kaptive <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaptive>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaptive/meta.yaml>`_
 
    
@@ -26,14 +26,23 @@ kaptive
    :versions:
       
       
+      .. raw:: html
 
-      ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-2</code>,  <code>0.5.1-0</code>,  <code>0.3-0</code>,  </span></summary>
+      
 
+      ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biopython: 
-   :depends blast: 
+   :depends biopython: ``<1.78``
+   :depends blast: ``>=2.3.0``
+   :depends numpy: 
    :depends python: ``>=3``
    :requirements:
 

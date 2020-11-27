@@ -27,7 +27,7 @@ variantbreak
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -37,6 +37,7 @@ variantbreak
    :depends numpy: ``>=1.18.3``
    :depends pandas: ``>=1.0.3``
    :depends pybedtools: ``>=0.8.1``
+   :depends pysam: ``>=0.15.3``
    :depends pytables: ``>=3.6.1``
    :depends python: ``>=3.6``
    :requirements:

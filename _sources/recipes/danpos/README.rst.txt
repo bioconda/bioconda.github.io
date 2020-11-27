@@ -27,7 +27,7 @@ danpos
       
       
 
-      ``2.2.2-0``
+      ``2.2.2-1``,  ``2.2.2-0``
 
       
 
@@ -37,7 +37,7 @@ danpos
    :depends python: ``<3``
    :depends r-base: 
    :depends rpy2: 
-   :depends samtools: 
+   :depends samtools: ``<1``
    :requirements:
 
    .. rubric:: Installation

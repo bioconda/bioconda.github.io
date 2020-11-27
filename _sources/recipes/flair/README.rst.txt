@@ -28,7 +28,7 @@ flair
       
       
 
-      ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``
+      ``1.5-3``,  ``1.4-0``
 
       
 
@@ -45,7 +45,7 @@ flair
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
-   :depends pysam: 
+   :depends pysam: ``>=0.16.0``
    :depends python: ``>=3.6``
    :depends r-ggplot2: 
    :depends r-qqman: 
