@@ -28,15 +28,14 @@ scepia
       
       
 
-      ``0.4.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``
 
       
 
    
    :depends adjusttext: 
-   :depends biofluff: 
    :depends geosketch: 
-   :depends gimmemotifs: ``>=0.15.1``
+   :depends gimmemotifs: ``>=0.15.2``
    :depends leidenalg: 
    :depends loguru: 
    :depends louvain: 

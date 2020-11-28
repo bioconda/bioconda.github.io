@@ -26,9 +26,17 @@ methplotlib
    :versions:
       
       
+      .. raw:: html
 
-      ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.17.0-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+      
 
+      ``0.17.0-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,9 +44,9 @@ methplotlib
    :depends fisher: ``>=0.1.9``
    :depends numpy: ``>=1.14.3``
    :depends pandas: ``>=0.23.4``
-   :depends plotly: ``>=4.1.1``
+   :depends plotly: ``>=4.9.0``
    :depends pyfaidx: 
-   :depends pyranges: ``>=0.0.63``
+   :depends pyranges: ``>=0.0.77``
    :depends pysam: 
    :depends python: ``>=3``
    :depends scikit-learn: 

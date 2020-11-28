@@ -35,11 +35,12 @@ encyclopedia
       
       
 
-      ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.0-0``
+      ``0.9.5-2``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.0-0``
 
       
 
    
+   :depends fonts-conda-ecosystem: 
    :depends openjdk: ``>=11``
    :depends python: 
    :requirements:
