@@ -27,14 +27,14 @@ shortstack
       
       
 
-      ``3.8.5-2``,  ``3.8.5-1``,  ``3.8.5-0``,  ``3.8.3-0``,  ``3.6-0``
+      ``3.8.5-3``,  ``3.8.5-2``,  ``3.8.5-1``,  ``3.8.5-0``,  ``3.8.3-0``,  ``3.6-0``
 
       
 
    
    :depends bowtie: 
    :depends perl: 
-   :depends samtools: ``1.*``
+   :depends samtools: ``>=1.10``
    :depends viennarna: ``2.*``
    :requirements:
 
