@@ -27,7 +27,7 @@ rmblast
       
       
 
-      ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
+      ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
 
       
 
@@ -36,10 +36,10 @@ rmblast
    :depends curl: 
    :depends entrez-direct: 
    :depends gnutls: ``>=3.5.19,<3.6.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends nettle: ``>=3.3,<3.4.0a0``
-   :depends pcre: ``>=8.41,<9.0a0``
+   :depends pcre: ``>=8.44,<9.0a0``
    :depends perl: 
    :depends perl-archive-tar: 
    :depends perl-json: 

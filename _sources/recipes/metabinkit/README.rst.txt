@@ -28,7 +28,7 @@ metabinkit
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
 
@@ -47,6 +47,7 @@ metabinkit
    :depends r-data.table: 
    :depends r-matrix: 
    :depends r-optparse: 
+   :depends r-stringr: 
    :depends taxonkit: ``0.6.0.*``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
