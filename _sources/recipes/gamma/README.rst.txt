@@ -10,7 +10,7 @@ gamma
    :replaces_section_title:
    :noindex:
 
-   Tool for Gene Annotation and Microbial Mutation Assessment
+   Tool for Gene Allele Mutation Microbial Assessment
 
    :homepage: https://github.com/rastanton/GAMMA
    :license: APACHE / Apache License 2.0
@@ -27,7 +27,7 @@ gamma
       
       
 
-      ``1.0-0``
+      ``1.1-0``,  ``1.0-0``
 
       
 
