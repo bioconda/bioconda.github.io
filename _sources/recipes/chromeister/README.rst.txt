@@ -28,14 +28,24 @@ chromeister
       
       
 
-      ``1.2-0``,  ``1.1.c-0``,  ``1.1.b-0``,  ``1.1.a-0``
+      ``1.3.c-0``,  ``1.2-0``,  ``1.1.c-0``,  ``1.1.b-0``,  ``1.1.a-0``
 
       
 
    
+   :depends cycler: 
+   :depends kiwisolver: 
    :depends libgcc-ng: ``>=7.5.0``
+   :depends numpy: 
+   :depends opencv: 
+   :depends pillow: 
+   :depends pyparsing: 
+   :depends python: ``>=3``
+   :depends python-dateutil: 
    :depends r-ape: 
    :depends r-base: 
+   :depends scikit-build: 
+   :depends six: 
    :requirements:
 
    .. rubric:: Installation
