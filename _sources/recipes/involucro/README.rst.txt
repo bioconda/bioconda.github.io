@@ -13,7 +13,7 @@ involucro
    Build and Deliver Software with Containers
 
    :homepage: https://github.com/involucro/involucro
-   :license: Apache 2.0
+   :license: Apache-2.0
    :recipe: /`involucro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/involucro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/involucro/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ involucro
       
       
 
-      ``1.1.2-1``,  ``1.1.2-0``
+      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
 
       
 

@@ -27,19 +27,23 @@ schicexplorer
       
       
 
-      ``6-0``,  ``5-0``,  ``4-0``,  ``3-0``,  ``2-0``,  ``1-0``
+      ``7-0``,  ``6-0``,  ``5-0``,  ``4-0``,  ``3-0``,  ``2-0``,  ``1-0``
 
       
 
    
-   :depends cooler: ``>=0.8.9``
-   :depends hicexplorer: ``>=3.5``
-   :depends hicmatrix: ``>=14``
+   :depends cooler: ``>=0.8.10``
+   :depends hicexplorer: ``>=3.6``
+   :depends hicmatrix: ``>=15``
+   :depends holoviews: 
+   :depends hyperopt: 
+   :depends matplotlib-base: 
    :depends numpy: ``>=1.18``
-   :depends python: ``>=3.6``
+   :depends python: ``>3``
    :depends scikit-learn: ``>=0.22``
    :depends scipy: ``>=1.4``
-   :depends sparse-neighbors-search: ``>=0.6``
+   :depends sparse-neighbors-search: ``>=0.7``
+   :depends umap-learn: 
    :requirements:
 
    .. rubric:: Installation
