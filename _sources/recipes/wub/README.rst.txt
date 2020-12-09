@@ -28,10 +28,10 @@ wub
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.0-4</code>,  <code>0.4.0-3</code>,  <code>0.4.0-2</code>,  <code>0.3.1-2</code>,  <code>0.3.0-2</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.4.0-4</code>,  <code>0.4.0-3</code>,  <code>0.4.0-2</code>,  <code>0.3.1-2</code>,  <code>0.3.0-2</code>,  <code>0.2.0-2</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.3.1-2``,  ``0.3.0-2``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.5.1-0``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.3.1-2``,  ``0.3.0-2``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ wub
    
    :depends biopython: 
    :depends editdistance: 
-   :depends htslib: 
+   :depends htslib: ``1.1.*``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: ``>=0.20.2``

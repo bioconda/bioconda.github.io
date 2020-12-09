@@ -14,7 +14,7 @@ r-bcbiobase
 
    :homepage: http://bioinformatics.sph.harvard.edu/bcbioBase/
    :developer docs: https://github.com/hbc/bcbioBase
-   :license: MIT
+   :license: GPL / GPL-3.0
    :recipe: /`r-bcbiobase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiobase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiobase/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-bcbiobase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.14-0</code>,  <code>0.6.13-1</code>,  <code>0.6.13-0</code>,  <code>0.6.12-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-0</code>,  <code>0.4.1-3</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.16-0</code>,  <code>0.6.14-0</code>,  <code>0.6.13-1</code>,  <code>0.6.13-0</code>,  <code>0.6.12-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-0</code>,  <code>0.4.1-3</code>,  <code>0.4.1-2</code>,  </span></summary>
       
 
-      ``0.6.14-0``,  ``0.6.13-1``,  ``0.6.13-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.2.15-1``,  ``0.2.15-0``,  ``0.2.12-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.0.3-0``
+      ``0.6.16-0``,  ``0.6.14-0``,  ``0.6.13-1``,  ``0.6.13-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.2.15-1``,  ``0.2.15-0``,  ``0.2.12-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ r-bcbiobase
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.24``
+   :depends bioconductor-s4vectors: 
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-basejump: ``>=0.12.0``
-   :depends r-cli: ``>=2.0``
-   :depends r-goalie: ``>=0.4.1``
+   :depends r-basejump: ``>=0.13.3``
+   :depends r-cli: ``>=2.2``
+   :depends r-goalie: ``>=0.4.11``
    :depends r-plyr: ``>=1.8``
-   :depends r-rdrop2: ``>=0.8``
+   :depends r-rdrop2: 
    :depends r-stringr: ``>=1.4``
    :requirements:
 
