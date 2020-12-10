@@ -27,13 +27,13 @@ ncrf
       
       
 
-      ``1.01.02-0``,  ``1.00.06-0``,  ``1.0.4-0``
+      ``1.01.02-1``,  ``1.01.02-0``,  ``1.00.06-0``,  ``1.0.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends python: ``>=3``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends python: ``<3``
    :requirements:
 
    .. rubric:: Installation

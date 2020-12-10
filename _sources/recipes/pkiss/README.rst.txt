@@ -28,12 +28,12 @@ pkiss
       
       
 
-      ``2.2.12-3``,  ``2.2.12-1``,  ``2.2.12-0``
+      ``2.2.12-4``,  ``2.2.12-3``,  ``2.2.12-1``,  ``2.2.12-0``
 
       
 
    
-   :depends bellmans-gapc: ``>=2020.01.08``
+   :depends bellmans-gapc: ``>=2020.12.08``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``

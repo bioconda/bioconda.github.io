@@ -10,7 +10,7 @@ kleborate
    :replaces_section_title:
    :noindex:
 
-   A tool to screen Klebiella genome assembiles for\: MLST sequence type\, species \(e.g. K. pneumoniae\, K. quasipneumoniae\, K. variicola\, etc.\)\, ICEKp associated virulence loci\: yersiniabactin \(ybt\)\, colibactin \(clb\)\, virulence plasmid associated loci\: salmochelin \(iro\)\, aerobactin \(iuc\)\, hypermucoidy \(rmpA\, rmpA2\)\, antimicrobial resistance genes\, including quinolone resistance SNPs and colistin resistance truncations\, and K \(capsule\) and O antigen \(LPS\) serotype prediction\, via wzi alleles and Kaptive.
+   Screening Klebsiella genome assemblies for MLST\, sub\-species\, and other Klebsiella related genes of interest
 
    :homepage: https://github.com/katholt/Kleborate
    :license: GPL3 / GNU General Public License v3 or later (GPLv3+)
@@ -27,7 +27,7 @@ kleborate
       
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
+      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
 
       
 

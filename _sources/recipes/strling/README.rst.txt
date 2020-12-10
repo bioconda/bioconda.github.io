@@ -27,13 +27,23 @@ strling
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
    
+   :depends biopython: 
+   :depends bpipe: 
    :depends htslib: ``1.10.*``
    :depends libgcc-ng: ``>=7.5.0``
+   :depends pandas: 
+   :depends pysam: 
+   :depends pytest: 
+   :depends pytest-runner: 
+   :depends python: 
+   :depends scikit-learn: 
+   :depends seaborn: 
+   :depends statsmodels: 
    :requirements:
 
    .. rubric:: Installation
