@@ -28,7 +28,7 @@ mavenn
       
       
 
-      ``0.23-0``
+      ``0.23-1``,  ``0.23-0``
 
       
 
@@ -39,7 +39,7 @@ mavenn
    :depends pandas: ``>=1.1.2``
    :depends python: ``>=3``
    :depends scikit-learn: ``>=0.22``
-   :depends tensorflow: ``>=2.0.0``
+   :depends tensorflow: ``>=2.3.0``
    :requirements:
 
    .. rubric:: Installation

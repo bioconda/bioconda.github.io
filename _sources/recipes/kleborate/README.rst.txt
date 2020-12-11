@@ -27,15 +27,16 @@ kleborate
       
       
 
-      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.73``
    :depends blast: ``>=2.2.31``
+   :depends kaptive: 
    :depends mash: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :requirements:
 
    .. rubric:: Installation
