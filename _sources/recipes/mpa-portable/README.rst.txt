@@ -27,14 +27,17 @@ mpa-portable
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.9.0-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.9.0-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
 
    
+   :depends comet-ms: ``2016013``
+   :depends fontconfig: 
    :depends fonts-conda-ecosystem: 
-   :depends openjdk: ``>=11``
+   :depends openjdk: 
    :depends python: 
+   :depends xtandem: ``15.12.15.2``
    :requirements:
 
    .. rubric:: Installation

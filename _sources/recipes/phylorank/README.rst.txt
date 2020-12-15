@@ -10,7 +10,9 @@ phylorank
    :replaces_section_title:
    :noindex:
 
-   PhyloRank provides functionality for calculating the relative evolutionary divergence \(RED\) of taxa in a tree and for finding the best placement of taxonomic labels in a tree.
+   PhyloRank provides functionality for calculating the relative evolutionary
+   divergence \(RED\) of taxa in a tree and for finding the best placement of
+   taxonomic labels in a tree.
 
    :homepage: https://github.com/dparks1134/PhyloRank
    :license: GPL3 / GNU General Public v3 (GPLv3)
@@ -27,7 +29,7 @@ phylorank
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.43-0``
+      ``0.1.6-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.43-0``
 
       
 
