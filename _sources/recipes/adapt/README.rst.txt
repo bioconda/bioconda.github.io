@@ -28,11 +28,15 @@ adapt
       
       
 
-      
+      ``1.1.1-0``
 
       
 
    
+   :depends numpy: ``>=1.18.2``
+   :depends python: ``>=3``
+   :depends scipy: ``>=1.4.1``
+   :depends tensorflow: ``>=2.3.0``
    :requirements:
 
    .. rubric:: Installation
