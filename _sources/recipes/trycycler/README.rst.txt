@@ -27,12 +27,13 @@ trycycler
       
       
 
-      ``0.3.1-0``
+      ``0.4.1-0``,  ``0.3.1-0``
 
       
 
    
    :depends mash: 
+   :depends miniasm: 
    :depends minimap2: 
    :depends muscle: 
    :depends numpy: 

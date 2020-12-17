@@ -28,10 +28,10 @@ pbccs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.1.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.0.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  </span></summary>
       
 
-      ``5.0.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``
+      ``6.0.0-0``,  ``5.0.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``
 
       
       .. raw:: html

@@ -27,7 +27,7 @@ isoquant
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -39,6 +39,7 @@ isoquant
    :depends minimap2: 
    :depends numpy: ``<=1.18.1``
    :depends pandas: ``<=1.0.1``
+   :depends pybedtools: ``0.8.1``
    :depends pyfaidx: ``<=0.5.8``
    :depends pysam: ``>=0.15``
    :depends python: 

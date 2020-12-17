@@ -29,17 +29,19 @@ gunc
       
       
 
-      ``0.1.2-0``
+      ``1.0.0-0``,  ``0.1.2-0``
 
       
 
    
-   :depends diamond: 
+   :depends diamond: ``2.0.4.*``
    :depends numpy: 
    :depends pandas: 
+   :depends plotly: 
    :depends prodigal: 
-   :depends python: 
-   :depends scikit-learn: 
+   :depends python: ``>=3.6``
+   :depends requests: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
