@@ -30,12 +30,12 @@ ncbi-vdb-py
       
       
 
-      ``2.10.8-0``
+      ``2.10.9-0``,  ``2.10.8-0``
 
       
 
    
-   :depends ncbi-vdb: ``2.10.8.*``
+   :depends ncbi-vdb: ``2.10.9.*``
    :depends python: ``>=3.5``
    :requirements:
 
