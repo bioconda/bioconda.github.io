@@ -27,7 +27,7 @@ chewiesnake
       
       
 
-      ``3.0.0-0``
+      ``3.0.0-1``,  ``3.0.0-0``
 
       
 
@@ -35,7 +35,7 @@ chewiesnake
    :depends bioconductor-biobase: ``>=2.46``
    :depends bioconductor-biostrings: ``>=2.54``
    :depends bioconductor-ggtree: ``>=2.0.0``
-   :depends biopython: ``>=1.76``
+   :depends biopython: ``1.76.*``
    :depends chewbbaca: ``2.0.12.*``
    :depends fastp: ``0.19.5.*``
    :depends grapetree: ``2.1.*``

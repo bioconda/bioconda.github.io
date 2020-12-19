@@ -27,15 +27,16 @@ perl-sanger-cgp-allelecount
       
       
 
-      ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
+      ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-samtools: 
    :depends perl-bioperl: 
+   :depends perl-devel-cover: 
    :depends perl-sanger-cgp-vcf: 
    :requirements:
 
