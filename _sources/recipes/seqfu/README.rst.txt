@@ -10,19 +10,16 @@ seqfu
    :replaces_section_title:
    :noindex:
 
-   DNA sequence utilities \(N50\, de\/interleave FASTQ\, grep etc.\)
+   DNA sequence utilities
 
-   :homepage: http://github.com/quadram-institute-bioscience/seqfu/
+   :homepage: http://github.com/telatin/seqfu/
    :license: mit
    :recipe: /`seqfu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqfu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqfu/meta.yaml>`_
    :links: biotools: :biotools:`seqfu`
 
    A collection of utilities to work with FASTX \(FASTA or FASTQ\) files
-   using the FASTX\:\:Reader module that accepts gzipped input.
-   \'n50\' will calculate N50\, minimum\, maximum and total size of the 
-   sequences in one or more files\, supporting CSV\, TSV\, JSON and screen
-   friendly output.
-   \'interleafq\' allows to interleave or deinterleave paired\-end sequences.
+   that accept gzipped input.
+   Tools to interleave and deinterleave
 
 
 
@@ -34,23 +31,14 @@ seqfu
       
       
 
-      ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.8.2-0``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends interleafq: ``>=0.99``
-   :depends n50: ``>=1.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends perl-biox-seq: 
-   :depends perl-exporter: 
-   :depends perl-fastx-abi: 
-   :depends perl-fastx-reader: ``>=0.88``
-   :depends perl-file-which: 
-   :depends perl-getopt-long: 
-   :depends perl-json-pp: 
-   :depends perl-pod-usage: 
-   :depends perl-text-asciitable: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends pcre: ``>=8.44,<9.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
