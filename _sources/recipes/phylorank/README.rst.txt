@@ -29,7 +29,7 @@ phylorank
       
       
 
-      ``0.1.6-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.43-0``
+      ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.43-0``
 
       
 
@@ -38,7 +38,7 @@ phylorank
    :depends dendropy: ``>=4.1.0``
    :depends jinja2: ``>=2.7.3``
    :depends matplotlib-base: 
-   :depends mpld3: ``>=0.2``
+   :depends mpld3: ``>=0.5.0``
    :depends numpy: 
    :depends python: ``>=3.6``
    :depends scipy: 
