@@ -51,13 +51,14 @@ biobb_ml
       
       
 
-      ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``3.5.0-1``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-3``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
 
    
-   :depends biobb_common: ``3.0.1``
+   :depends biobb_common: ``3.5.1``
    :depends h5py: ``2.10.0``
+   :depends imbalanced-learn: ``0.7.0``
    :depends pandas: ``1.0.5``
    :depends python: ``>=3.7``
    :depends scikit-learn: ``0.23.1``

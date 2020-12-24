@@ -29,7 +29,7 @@ scvi-tools
       
       
 
-      ``0.7.1-0``,  ``0.7.0-0``,  ``0.7.0b0-0``,  ``0.7.0a6-0``,  ``0.7.0a5-0``,  ``0.7.0a4-1``,  ``0.7.0a4-0``
+      ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.7.0b0-0``,  ``0.7.0a6-0``,  ``0.7.0a5-0``,  ``0.7.0a4-1``,  ``0.7.0a4-0``
 
       
 
@@ -41,6 +41,7 @@ scvi-tools
    :depends ipywidgets: ``>=7.5.1``
    :depends numba: ``>=0.41.0``
    :depends numpy: ``>=1.17.0``
+   :depends openpyxl: ``>=3.0``
    :depends pandas: ``>=1.0``
    :depends poetry: ``>=1.0.9``
    :depends python: ``>=3.6``
@@ -50,7 +51,6 @@ scvi-tools
    :depends toml: ``>=0.10.1``
    :depends tqdm: ``>=4.31.1``
    :depends typing-extensions: ``>=3.7.4``
-   :depends xlrd: ``>=1.2.0``
    :requirements:
 
    .. rubric:: Installation

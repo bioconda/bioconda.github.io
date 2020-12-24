@@ -10,7 +10,7 @@ pheniqs
    :replaces_section_title:
    :noindex:
 
-   Pheniqs is a generic high throughput DNA sequence demultiplexer and quality analyzer written in multi threaded C\+\+11. Pheniqs is pronounced phoe·nix and stands for PHilology ENcoder wIth Quality Statistics.
+   Pheniqs is a flexible generic barcode classifier for high\-throughput next\-gen sequencing written in multi threaded C\+\+11. It caters to a wide variety of experimental designs by addressing multiple combinatorial index tags in arbitrary locations along reads. Pheniqs implements a noise and quality aware probabilistic classifier with improved accuracy over standard edit distance methods and reports classification quality in standard SAM auxiliary tags. Please not configuation syntax has slightly changed for 2.1.x version.
 
    :homepage: http://biosails.github.io/pheniqs
    :developer docs: https://github.com/biosails/pheniqs
@@ -28,18 +28,18 @@ pheniqs
       
       
 
-      ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.3-1``,  ``2.0.3-0``
+      ``2.1.0-0``,  ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.3-1``,  ``2.0.3-0``
 
       
 
    
    :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libdeflate: ``>=1.6,<1.7.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :depends rapidjson: 
-   :depends samtools: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

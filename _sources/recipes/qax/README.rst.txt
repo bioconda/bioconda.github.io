@@ -27,13 +27,14 @@ qax
       
       
 
-      ``0.6.0-0``,  ``0.4.0-0``
+      ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=7.5.0``
    :depends libzip: ``>=1.7.3,<2.0a0``
+   :depends zip: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
