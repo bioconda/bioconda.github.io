@@ -29,7 +29,7 @@ hail
       
       
 
-      ``0.2.58-0``,  ``0.2.33-1``,  ``0.2.33-0``
+      ``0.2.61-0``,  ``0.2.58-0``,  ``0.2.33-1``,  ``0.2.33-0``
 
       
 
@@ -48,7 +48,7 @@ hail
    :depends openjdk: ``8.*``
    :depends parsimonious: 
    :depends pyjwt: 
-   :depends pyspark: ``2.4.*``
+   :depends pyspark: ``>=2.4,<2.4.2``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python-json-logger: ``0.1.11``
    :depends python_abi: ``3.6.* *_cp36m``
