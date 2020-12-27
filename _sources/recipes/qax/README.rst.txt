@@ -13,7 +13,7 @@ qax
    Extract data\, metadata\, bibliography and provenance from Qiime2 artifacts
 
    :homepage: https://github.com/telatin/qax
-   :license: GPL3
+   :license: GPL-3.0-only
    :recipe: /`qax <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qax>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qax/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ qax
       
       
 
-      ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.0-0``
+      ``0.9.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.0-0``
 
       
 
