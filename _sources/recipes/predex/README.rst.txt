@@ -27,14 +27,12 @@ predex
       
       
 
-      ``0.9.1-0``
+      ``0.9.2-0``,  ``0.9.1-0``
 
       
 
    
-   :depends bedtools: 
    :depends pandas: 
-   :depends pybedtools: 
    :depends pysam: ``>=0.15.1``
    :depends python: 
    :requirements:
