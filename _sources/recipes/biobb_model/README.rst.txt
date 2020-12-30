@@ -32,8 +32,8 @@ biobb_model
    \#\#\# Copyright \& Licensing
     This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2019 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2019 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2021 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2021 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
 
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
@@ -53,10 +53,10 @@ biobb_model
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-1</code>,  <code>0.1.6-1</code>,  <code>0.1.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-1</code>,  <code>0.1.6-1</code>,  </span></summary>
       
 
-      ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.6-1``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
+      ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.6-1``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
       .. raw:: html
@@ -65,8 +65,8 @@ biobb_model
       
 
    
-   :depends biobb_common: ``3.0.0``
-   :depends biobb_structure_checking: ``3.0.2``
+   :depends biobb_common: ``3.5.1``
+   :depends biobb_structure_checking: ``3.5.3``
    :depends python: ``3.7.*``
    :requirements:
 
