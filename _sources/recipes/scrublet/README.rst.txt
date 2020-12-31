@@ -27,15 +27,15 @@ scrublet
       
       
 
-      ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``0.2.3-0``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=7.5.0``
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numba: 
-   :depends numpy: ``>=1.13``
+   :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pandas: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python-annoy: 

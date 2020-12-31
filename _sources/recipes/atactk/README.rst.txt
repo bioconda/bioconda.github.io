@@ -27,12 +27,12 @@ atactk
       
       
 
-      ``0.1.6-3``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+      ``0.1.9-0``,  ``0.1.6-3``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
 
    
-   :depends pysam: 
+   :depends pysam: ``>=0.15.0``
    :depends python: 
    :depends python-levenshtein: 
    :depends r-base: 

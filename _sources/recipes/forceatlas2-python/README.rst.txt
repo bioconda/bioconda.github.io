@@ -10,14 +10,15 @@ forceatlas2-python
    :replaces_section_title:
    :noindex:
 
-   Multithreaded Gephi Force Atlas2 Layout algorithm in 2D and 3D\, which is used to calculate the pseudo\-temporal development trajectory of single\-cell data.
+   Multithreaded Gephi Force Atlas2 Layout algorithm in 2D and 3D.
 
    :homepage: https://github.com/klarman-cell-observatory/forceatlas2-python
    :developer docs: https://github.com/klarman-cell-observatory/forceatlas2
    :license: GPL3 / GNU General Public v3 (GPLv3)
    :recipe: /`forceatlas2-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forceatlas2-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forceatlas2-python/meta.yaml>`_
 
-   
+   This tool is used to calculate the pseudo\-temporal development trajectory of single\-cell data.
+
 
 
 .. conda:package:: forceatlas2-python
@@ -28,7 +29,7 @@ forceatlas2-python
       
       
 
-      ``1.1-0``
+      ``1.1-1``,  ``1.1-0``
 
       
 
@@ -37,6 +38,7 @@ forceatlas2-python
    :depends openjdk: ``>=8``
    :depends pandas: ``>=0.21``
    :depends python: ``>=3.6``
+   :depends setuptools: 
    :requirements:
 
    .. rubric:: Installation

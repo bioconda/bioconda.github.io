@@ -28,17 +28,19 @@ nanocompore
       
       
 
-      ``1.0.0rc3.post2-2``,  ``1.0.0rc3.post2-0``,  ``1.0.0rc3.post1-0``
+      ``1.0.2-0``,  ``1.0.0rc3.post2-2``,  ``1.0.0rc3.post2-0``,  ``1.0.0rc3.post1-0``
 
       
 
    
    :depends bedparse: 
+   :depends importlib_metadata: 
+   :depends loguru: 
    :depends matplotlib-base: 
    :depends numpy: ``>=1.16.0``
    :depends pandas: 
    :depends pyfaidx: 
-   :depends python: ``>=3.6.1,<3.7.0a0``
+   :depends python: ``>=3.6.1``
    :depends pyyaml: 
    :depends scikit-learn: ``0.21.*``
    :depends scipy: ``>=1.2.0``

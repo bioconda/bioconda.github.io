@@ -27,16 +27,20 @@ wiggletools
       
       
 
-      ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
+      ``1.2.6-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libbigwig: 
    :depends libcblas: ``>=3.8.0,<4.0a0``
+   :depends libcurl: ``>=7.71.1,<8.0a0``
+   :depends libdeflate: ``>=1.6,<1.7.0a0``
    :depends libgcc-ng: ``>=7.5.0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
