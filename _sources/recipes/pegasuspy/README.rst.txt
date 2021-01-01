@@ -32,7 +32,7 @@ pegasuspy
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -47,7 +47,7 @@ pegasuspy
    :depends hnswlib: 
    :depends importlib_metadata: ``>=0.7``
    :depends joblib: 
-   :depends leidenalg: 
+   :depends leidenalg: ``>=0.8.0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends lightgbm: 
    :depends loompy: 
@@ -60,9 +60,9 @@ pegasuspy
    :depends pegasusio: ``>=0.2.9``
    :depends pyarrow: 
    :depends pybind11: 
-   :depends pyfit-sne: 
+   :depends pyfit-sne: ``>=1.1.1``
    :depends python: ``>=3.7,<3.8.0a0``
-   :depends python-igraph: 
+   :depends python-igraph: ``>=0.8.0``
    :depends python_abi: ``3.7.* *_cp37m``
    :depends scanorama: 
    :depends scikit-learn: ``>=0.23.2``

@@ -27,7 +27,7 @@ orfipy
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -37,7 +37,7 @@ orfipy
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends psutil: 
    :depends pyahocorasick: 
-   :depends pyfaidx: 
+   :depends pyfastx: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
