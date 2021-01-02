@@ -29,10 +29,10 @@ augustus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.3-5</code>,  <code>3.3.3-4</code>,  <code>3.3.3-3</code>,  <code>3.3.3-2</code>,  <code>3.3.3-1</code>,  <code>3.3.3-0</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-0</code>,  <code>3.3.3-5</code>,  <code>3.3.3-4</code>,  <code>3.3.3-3</code>,  <code>3.3.3-2</code>,  <code>3.3.3-1</code>,  <code>3.3.3-0</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  </span></summary>
       
 
-      ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
+      ``3.4.0-0``,  ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -61,7 +61,7 @@ augustus
    :depends perl-parallel-forkmanager: 
    :depends perl-scalar-list-utils: 
    :depends perl-yaml: 
-   :depends sqlite: ``>=3.33.0,<4.0a0``
+   :depends sqlite: ``>=3.34.0,<4.0a0``
    :depends suitesparse: ``>=5.6.0,<6.0a0``
    :depends ucsc-fatotwobit: 
    :depends ucsc-twobitinfo: 
