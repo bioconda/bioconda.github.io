@@ -40,12 +40,12 @@ jmztab-m
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``
+      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
 
    
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=11``
    :depends python: 
    :requirements:
 

@@ -29,7 +29,7 @@ funannotate
       
       
 
-      ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
+      ``1.8.3-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
 
       
 
@@ -40,7 +40,7 @@ funannotate
    :depends biopython: 
    :depends blast: ``2.2.31``
    :depends codingquarry: 
-   :depends diamond: ``>=2.0.3``
+   :depends diamond: ``>=2.0.5``
    :depends distro: 
    :depends ete3: 
    :depends evidencemodeler: 
