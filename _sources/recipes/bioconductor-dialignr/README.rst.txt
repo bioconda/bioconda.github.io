@@ -15,6 +15,7 @@ bioconductor-dialignr
    :homepage: https://bioconductor.org/packages/3.12/bioc/html/DIAlignR.html
    :license: GPL-3
    :recipe: /`bioconductor-dialignr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dialignr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dialignr/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`dialignr`
 
    To obtain unbiased proteome coverage from a biological sample\, mass\-spectrometer is operated in Data Independent Acquisition \(DIA\) mode. Alignment of these DIA runs establishes consistency and less missing values in complete data\-matrix. This package implements dynamic programming with affine gap penalty based approach for pair\-wise alignment of analytes. A hybrid approach of global alignment \(through MS2 features\) and local alignment \(with MS2 chromatograms\) is implemented in this tool.
 

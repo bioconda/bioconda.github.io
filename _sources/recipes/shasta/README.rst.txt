@@ -17,6 +17,7 @@ shasta
    
    :license: MIT
    :recipe: /`shasta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shasta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shasta/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`shasta`
 
    
 

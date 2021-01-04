@@ -15,7 +15,6 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="bioconductor_skeleton" href="bioconda_utils.bioconductor_skeleton.html" />
@@ -220,20 +219,20 @@
 
 <dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.conda_sem">
-<code class="sig-name descname">conda_sem</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/asyncio-sync.html#asyncio.Semaphore" title="(in Python v3.9)">asyncio.Semaphore</a></em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.conda_sem" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">conda_sem</code><em class="property">: asyncio.locks.Semaphore</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.conda_sem" title="Permalink to this definition">¶</a></dt>
 <dd><p>must never run more than one conda at the same time
 (used by PyPi when running skeleton)</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.filters">
-<code class="sig-name descname">filters</code><em class="property">: List<span class="p">[</span><a class="reference internal" href="#bioconda_utils.aiopipe.AsyncFilter" title="bioconda_utils.aiopipe.AsyncFilter">AsyncFilter</a><span class="p">]</span></em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.filters" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">filters</code><em class="property">: List<span class="p">[</span><a class="reference internal" href="#bioconda_utils.aiopipe.AsyncFilter" title="bioconda_utils.aiopipe.AsyncFilter">bioconda_utils.aiopipe.AsyncFilter</a><span class="p">]</span></em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.filters" title="Permalink to this definition">¶</a></dt>
 <dd><p>the filters successively applied to each item</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncPipeline.io_sem">
-<code class="sig-name descname">io_sem</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/asyncio-sync.html#asyncio.Semaphore" title="(in Python v3.9)">asyncio.Semaphore</a></em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.io_sem" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">io_sem</code><em class="property">: asyncio.locks.Semaphore</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncPipeline.io_sem" title="Permalink to this definition">¶</a></dt>
 <dd><p>semaphore to limit io parallelism</p>
 </dd></dl>
 
@@ -378,7 +377,7 @@ increasing wait times according to fibonacci series.</p></li>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.aiopipe.AsyncRequests.session">
-<code class="sig-name descname">session</code><em class="property">: aiohttp.ClientSession</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.session" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">session</code><em class="property">: aiohttp.client.ClientSession</em><a class="headerlink" href="#bioconda_utils.aiopipe.AsyncRequests.session" title="Permalink to this definition">¶</a></dt>
 <dd><p>aiohttp session (only exists while running)</p>
 </dd></dl>
 
@@ -421,7 +420,7 @@ increasing wait times according to fibonacci series.</p></li>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.3.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

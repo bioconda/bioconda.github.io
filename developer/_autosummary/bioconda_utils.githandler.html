@@ -15,7 +15,6 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="githubhandler" href="bioconda_utils.githubhandler.html" />
@@ -327,7 +326,7 @@ latter may be a fork or may be the same as the primary.</p>
 </dl>
 <dl class="py attribute">
 <dt id="bioconda_utils.githandler.GitHandlerBase.actor">
-<code class="sig-name descname">actor</code><em class="property">: git.Actor</em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.actor" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">actor</code><em class="property">: git.util.Actor</em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.actor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Committer and Author</p>
 </dd></dl>
 
@@ -536,7 +535,7 @@ repository is shallow and the merge base commit not available.</p>
 
 <dl class="py attribute">
 <dt id="bioconda_utils.githandler.GitHandlerBase.repo">
-<code class="sig-name descname">repo</code><em class="property">: git.Repo</em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.repo" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">repo</code><em class="property">: git.repo.base.Repo</em><a class="headerlink" href="#bioconda_utils.githandler.GitHandlerBase.repo" title="Permalink to this definition">¶</a></dt>
 <dd><p>GitPython Repo object representing our repository</p>
 </dd></dl>
 
@@ -634,7 +633,7 @@ of the Python interpreter.</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.3.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
