@@ -10,7 +10,7 @@ hitac
    :replaces_section_title:
    :noindex:
 
-   A hierarchical taxonomy classifier for fungal ITS sequences
+   A hierarchical taxonomic classifier for fungal ITS sequences
 
    :homepage: https://gitlab.com/dacs-hpi/hitac
    :license: GPL-3.0-only
@@ -28,7 +28,7 @@ hitac
       
       
 
-      ``1.5.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
+      ``1.5.4-0``,  ``1.5.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
 
       
 

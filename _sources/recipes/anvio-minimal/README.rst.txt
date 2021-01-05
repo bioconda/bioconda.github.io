@@ -12,7 +12,7 @@ anvio-minimal
 
    An interactive analysis and visualization platform for omics data
 
-   :homepage: http://merenlab.org/software/anvio/index.html
+   :homepage: http://merenlab.org/software/anvio/
    :developer docs: https://github.com/merenlab/anvio
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`anvio-minimal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anvio-minimal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anvio-minimal/meta.yaml>`_
@@ -29,10 +29,10 @@ anvio-minimal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.2-1</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7-0</code>,  <code>6.2-1</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  </span></summary>
       
 
-      ``6.2-1``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-1``,  ``5.2.0-0``
+      ``7-0``,  ``6.2-1``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-1``,  ``5.2.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,6 @@ anvio-minimal
 
    
    :depends bottle: 
-   :depends cherrypy: ``8.0.0``
    :depends colored: 
    :depends django: 
    :depends ete3: 
@@ -52,15 +51,17 @@ anvio-minimal
    :depends numba: 
    :depends numpy: 
    :depends pandas: ``0.25.1``
+   :depends paste: 
    :depends psutil: ``5.4.3``
    :depends pyani: ``0.2.10``
    :depends pysam: 
    :depends python: ``>=3``
    :depends requests: 
-   :depends scikit-learn: 
+   :depends scikit-learn: ``<0.21``
    :depends scipy: 
    :depends six: 
    :depends snakemake-minimal: ``5.10.0``
+   :depends sqlite: ``>=3.34.0,<4.0a0``
    :depends statsmodels: 
    :depends tabulate: 
    :requirements:

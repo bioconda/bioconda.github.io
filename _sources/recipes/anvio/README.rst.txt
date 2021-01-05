@@ -10,9 +10,9 @@ anvio
    :replaces_section_title:
    :noindex:
 
-   An interactive analysis and visualization platform for omics data
+   A platform for integrated multi\-omics
 
-   :homepage: http://merenlab.org/software/anvio/index.html
+   :homepage: http://merenlab.org/software/anvio/
    :developer docs: https://github.com/merenlab/anvio
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`anvio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anvio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anvio/meta.yaml>`_
@@ -29,10 +29,10 @@ anvio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7-0</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  </span></summary>
       
 
-      ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.0.0-1``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.2-0``,  ``2.1.0-0``
+      ``7-0``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.0.0-1``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.2-0``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,15 @@ anvio
       
 
    
-   :depends anvio-minimal: ``6.2``
+   :depends anvio-minimal: ``7``
    :depends bioconductor-qvalue: 
    :depends blast: 
    :depends bowtie2: 
    :depends bwa: 
    :depends centrifuge: 
-   :depends diamond: ``0.9.14``
+   :depends diamond: 
    :depends fastani: 
+   :depends fasttree: 
    :depends hmmer: 
    :depends iqtree: 
    :depends mcl: 
@@ -61,6 +62,7 @@ anvio
    :depends r-stringi: 
    :depends r-tidyverse: 
    :depends samtools: 
+   :depends spades: 
    :depends trimal: 
    :depends trnascan-se: 
    :requirements:
