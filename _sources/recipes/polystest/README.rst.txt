@@ -29,7 +29,7 @@ polystest
       
       
 
-      ``1.01-1``,  ``1.01-0``
+      ``1.01-1``,  ``1.1-0``,  ``1.01-0``
 
       
 
@@ -83,7 +83,7 @@ polystest
 
 Notes
 -----
-VSClust is available as shiny app via run\_app.sh or as command\-line tool\: runPolySTestCLI.R
+PolySTest is available as shiny app via run\_polystest\_app.R or as command\-line tool\: runPolySTestCLI.R
 
 
 
