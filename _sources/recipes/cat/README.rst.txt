@@ -29,10 +29,10 @@ cat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.1-0</code>,  <code>5.2-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-0</code>,  </span></summary>
       
 
-      ``5.2-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
+      ``5.2.1-0``,  ``5.2-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
 
       
       .. raw:: html
