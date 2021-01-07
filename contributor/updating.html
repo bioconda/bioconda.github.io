@@ -130,14 +130,14 @@ submit a PR on your behalf. Note that the auto-updater does not yet know how to
 monitor changed dependencies, so it is important to verify that the updated
 recipe reflects all the changes. This tool is most useful when scanning
 packages to know when something has been updated.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils update recipes/ config.yml --packages &lt;my-package-name&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils autobump recipes/ config.yml --packages &lt;my-package-name&gt;
 </pre></div>
 </div>
 <p>will update the package’s recipe which you can then inspect. If you have
 a <a class="reference external" href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/">GitHub personal access token</a>
 set as the environment variable <code class="docutils literal notranslate"><span class="pre">GITHUB_TOKEN</span></code>, the following command will
 additionally submit a pull request on your behalf:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils update recipes/ config.yml <span class="se">\</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils autobump recipes/ config.yml <span class="se">\</span>
   --packages &lt;my-package-name&gt; <span class="se">\</span>
   --create-pr
 </pre></div>
