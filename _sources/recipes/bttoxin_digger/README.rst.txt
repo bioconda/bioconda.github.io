@@ -29,7 +29,7 @@ bttoxin_digger
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -40,7 +40,7 @@ bttoxin_digger
    :depends perl-file-tee: 
    :depends perl-getopt-long: 
    :depends perl-pod-usage: 
-   :depends pgcgap: ``>=1.0.14``
+   :depends pgcgap: ``>=1.0.24``
    :requirements:
 
    .. rubric:: Installation
