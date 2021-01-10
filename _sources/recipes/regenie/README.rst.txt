@@ -30,7 +30,7 @@ regenie
       
       
 
-      ``1.0.6.7-0``
+      ``1.0.6.9-0``,  ``1.0.6.7-0``
 
       
 
@@ -43,11 +43,11 @@ regenie
    :depends libgfortran4: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends llvm-openmp: 
-   :depends mkl: ``>=2020.2,<2021.0a0``
+   :depends mkl: ``>=2020.4,<2021.0a0``
    :depends mkl-include: 
-   :depends sqlite: ``>=3.33.0,<4.0a0``
+   :depends sqlite: ``>=3.34.0,<4.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
-   :depends zstd: ``>=1.4.5,<1.5.0a0``
+   :depends zstd: ``>=1.4.8,<1.5.0a0``
    :requirements:
 
    .. rubric:: Installation
