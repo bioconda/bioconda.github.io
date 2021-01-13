@@ -27,30 +27,32 @@ artic
       
       
 
-      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0_rc2-0``
+      ``1.2.0-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0_rc2-0``
 
       
 
    
    :depends artic-porechop: ``0.3.2pre.*``
+   :depends artic-tools: ``0.2.6.*``
    :depends bcftools: ``1.10.2.*``
    :depends biopython: ``>=1.76``
    :depends bwa: ``0.7.17.*``
    :depends clint: 
+   :depends htslib: ``1.10.2.*``
    :depends longshot: ``>=0.4.1``
-   :depends matplotlib-base: 
-   :depends medaka: ``>=0.12.1``
+   :depends medaka: ``>=1.0.3``
    :depends minimap2: ``2.17.*``
    :depends muscle: ``>=3.8``
    :depends nanopolish: ``>=0.13.2``
    :depends pandas: ``<1``
+   :depends pip: 
    :depends pysam: ``>=0.15.3``
+   :depends pysam: ``>=0.16.0.1``
    :depends pytest: 
    :depends python: ``>=3``
    :depends pyvcf: ``>=0.6.8``
    :depends requests: 
    :depends samtools: ``1.10.*``
-   :depends seaborn: 
    :depends tqdm: 
    :requirements:
 

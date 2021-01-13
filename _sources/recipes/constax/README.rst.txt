@@ -13,6 +13,8 @@ constax
    A software for accurate taxonomic classification of environmental DNA markers
 
    :homepage: https://github.com/liberjul/CONSTAXv2
+   :documentation: https://constax.readthedocs.io/en/latest/
+   
    :license: MIT
    :recipe: /`constax <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/constax>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/constax/meta.yaml>`_
 
@@ -27,12 +29,12 @@ constax
       
       
 
-      ``2.0.3-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
    
-   :depends blast: 
+   :depends blast: ``>=2.10``
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.6``
