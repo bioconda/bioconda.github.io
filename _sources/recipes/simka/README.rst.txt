@@ -13,7 +13,7 @@ simka
    Simka and simkaMin are de novo comparative metagenomics tools. Simka represents each dataset as a k\-mer spectrum and computes several classical ecological distances between them. SimkaMin outputs approximate \(but very similar\) results by subsampling the kmer space and requires much less computational resources.
 
    :homepage: https://github.com/GATB/simka
-   :license: file
+   :license: AGPL-3.0-or-later
    :recipe: /`simka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simka/meta.yaml>`_
    :links: biotools: :biotools:`Simka`, doi: :doi:`10.7717/peerj-cs.94`, doi: :doi:`10.1093/bioinformatics/btz685`
 
@@ -28,13 +28,13 @@ simka
       
       
 
-      ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
+      ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends python: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

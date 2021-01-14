@@ -12,7 +12,7 @@ moments
 
    Evolutionary inference using SFS and LD statistics.
 
-   :homepage: https://bitbucket.org/simon-gravel/moments
+   :homepage: https://bitbucket.org/simongravel/moments
    :license: MIT
    :recipe: /`moments <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moments>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moments/meta.yaml>`_
    :links: doi: :doi:`10.1534/genetics.117.200493`, doi: :doi:`10.1371/journal.pgen.1008204`, doi: :doi:`10.1093/molbev/msz265`
@@ -28,19 +28,16 @@ moments
       
       
 
-      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-1``,  ``1.0.6-0``
+      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-1``,  ``1.0.6-0``
 
       
 
    
    :depends libgcc-ng: ``>=7.5.0``
-   :depends matplotlib-base: 
    :depends mpmath: 
-   :depends networkx: 
    :depends numpy: 
-   :depends pandas: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends scipy: 
    :requirements:
 

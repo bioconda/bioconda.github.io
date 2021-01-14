@@ -30,10 +30,10 @@ scanpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.6-0</code>,  <code>1.4.4.post1-3</code>,  <code>1.4.4.post1-2</code>,  <code>1.4.4.post1-1</code>,  <code>1.4.4.post1-0</code>,  <code>1.4.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.6-0</code>,  <code>1.4.4.post1-3</code>,  <code>1.4.4.post1-2</code>,  <code>1.4.4.post1-1</code>,  <code>1.4.4.post1-0</code>,  </span></summary>
       
 
-      ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.4.post1-3``,  ``1.4.4.post1-2``,  ``1.4.4.post1-1``,  ``1.4.4.post1-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.4.post1-3``,  ``1.4.4.post1-2``,  ``1.4.4.post1-1``,  ``1.4.4.post1-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -49,21 +49,22 @@ scanpy
    :depends legacy-api-wrap: 
    :depends matplotlib-base: ``>=3.1.2``
    :depends natsort: 
-   :depends networkx: 
+   :depends networkx: ``>=2.3``
    :depends numba: ``>=0.41.0``
+   :depends numpy: ``>=1.17.0``
    :depends packaging: 
    :depends pandas: ``>=0.21``
    :depends patsy: 
    :depends pytables: 
    :depends python: ``>=3.6``
    :depends scikit-learn: ``>=0.21.2``
-   :depends scipy: ``>=1.3``
+   :depends scipy: ``>=1.4``
    :depends seaborn: 
    :depends setuptools_scm: 
    :depends sinfo: 
    :depends statsmodels: ``>=0.10.0rc2``
    :depends tqdm: 
-   :depends umap-learn: ``>=0.3.10``
+   :depends umap-learn: ``>=0.3.10,<0.5``
    :requirements:
 
    .. rubric:: Installation
