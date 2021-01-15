@@ -28,10 +28,10 @@ recentrifuge
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.29.0-0``,  ``0.28.14-0``,  ``0.28.13-0``
+      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.29.0-0``,  ``0.28.14-0``,  ``0.28.13-0``
 
       
       .. raw:: html
@@ -40,13 +40,12 @@ recentrifuge
       
 
    
-   :depends biopython: ``>=1.70``
-   :depends matplotlib-base: ``>3.0``
-   :depends numpy: ``>1.15``
-   :depends openpyxl: ``>2.5.0``
-   :depends pandas: ``>=0.23.2``
+   :depends biopython: ``>=1.78``
+   :depends matplotlib-base: ``>=3.3.3``
+   :depends numpy: ``>=1.19.4``
+   :depends openpyxl: ``>=3.0.5``
+   :depends pandas: ``>=1.1.5``
    :depends python: ``>=3``
-   :depends xlrd: ``>=0.9.0``
    :requirements:
 
    .. rubric:: Installation

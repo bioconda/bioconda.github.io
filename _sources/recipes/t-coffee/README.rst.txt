@@ -13,7 +13,7 @@ t-coffee
    A collection of tools for Multiple Alignments of DNA\, RNA\, Protein Sequence
 
    :homepage: http://www.tcoffee.org/Projects/tcoffee/
-   :license: GPL
+   :license: GPL-2.0-only
    :recipe: /`t-coffee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t-coffee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t-coffee/meta.yaml>`_
    :links: doi: :doi:`10.1006/jmbi.2000.4042`
 
@@ -29,10 +29,10 @@ t-coffee
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>13.45.0.4846264-2</code>,  <code>13.45.0.4846264-1</code>,  <code>13.45.0.4846264-0</code>,  <code>13.39.0.d675aed-2</code>,  <code>13.39.0.d675aed-1</code>,  <code>13.39.0.d675aed-0</code>,  <code>12.00.7fb08c2-2</code>,  <code>12.00.7fb08c2-1</code>,  <code>12.00.7fb08c2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>13.45.0.4846264-3</code>,  <code>13.45.0.4846264-2</code>,  <code>13.45.0.4846264-1</code>,  <code>13.45.0.4846264-0</code>,  <code>13.39.0.d675aed-2</code>,  <code>13.39.0.d675aed-1</code>,  <code>13.39.0.d675aed-0</code>,  <code>12.00.7fb08c2-2</code>,  <code>12.00.7fb08c2-1</code>,  </span></summary>
       
 
-      ``13.45.0.4846264-2``,  ``13.45.0.4846264-1``,  ``13.45.0.4846264-0``,  ``13.39.0.d675aed-2``,  ``13.39.0.d675aed-1``,  ``13.39.0.d675aed-0``,  ``12.00.7fb08c2-2``,  ``12.00.7fb08c2-1``,  ``12.00.7fb08c2-0``,  ``11.00.8cbe486-0``
+      ``13.45.0.4846264-3``,  ``13.45.0.4846264-2``,  ``13.45.0.4846264-1``,  ``13.45.0.4846264-0``,  ``13.39.0.d675aed-2``,  ``13.39.0.d675aed-1``,  ``13.39.0.d675aed-0``,  ``12.00.7fb08c2-2``,  ``12.00.7fb08c2-1``,  ``12.00.7fb08c2-0``,  ``11.00.8cbe486-0``
 
       
       .. raw:: html
@@ -47,6 +47,7 @@ t-coffee
    :depends consan: 
    :depends dca: 
    :depends dialign-tx: ``1.0.2.*``
+   :depends kalign2: 
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends mafft: ``7.310.*``
@@ -57,6 +58,8 @@ t-coffee
    :depends phylip: 
    :depends poa: ``2.0.*``
    :depends prank: 
+   :depends probcons: 
+   :depends probconsrna: 
    :depends ruby: 
    :depends sap: 
    :depends tmalign: 

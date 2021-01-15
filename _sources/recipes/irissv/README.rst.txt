@@ -27,7 +27,7 @@ irissv
       
       
 
-      ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
@@ -35,7 +35,7 @@ irissv
    :depends minimap2: 
    :depends openjdk: ``>=11.0.1``
    :depends racon: 
-   :depends samtools: 
+   :depends samtools: ``>=1.9.1``
    :requirements:
 
    .. rubric:: Installation

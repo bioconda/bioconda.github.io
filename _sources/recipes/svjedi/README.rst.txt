@@ -13,7 +13,7 @@ svjedi
    SVJedi is a structural variation \(SV\) genotyper for long read data.
 
    :homepage: https://github.com/llecompte/SVJedi
-   :license: file
+   :license: AGPL-3.0-or-later
    :recipe: /`svjedi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svjedi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svjedi/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ svjedi
       
       
 
-      ``1.1.0-0``
+      ``1.1.4-0``,  ``1.1.0-0``
 
       
 

@@ -16,7 +16,8 @@ bayesase
    :license: MIT / MIT License
    :recipe: /`bayesase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayesase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayesase/meta.yaml>`_
 
-   Allelic imbalance \(AI\) occurs when alleles in a diploid individual are differentially expressed and indicates cis acting regulatory variation. What is the distribution of allelic effects in a natural population\? Are all alleles the same\? Are all alleles distinct\? Tests of allelic effect are performed by crossing individuals and comparing expression between alleles directly in the F1. However\, a crossing scheme that compares alleles pairwise is a prohibitive cost for more than a handful of alleles as the number of crosses is at least \(n2\-n\)\/2 where n is the number of alleles. We show here that a testcross design followed by a hypothesis test of AI between testcrosses can be used to infer differences between non\-tester alleles\, allowing n alleles to be compared with n crosses. Using a mouse dataset where both testcrosses and direct comparisons have been performed\, we show that \~75\% of the predicted differences between non\-tester alleles are validated in a background of \~10\% differences in AI. The testing for AI involves several complex bioinformatics steps. BASE is a complete bioinformatics pipeline that incorporates state\-of\-the\-art error reduction techniques and a flexible Bayesian approach to estimating AI and formally comparing levels of AI between conditions. In the mouse data\, the direct test identifies more cis effects than the testcross. Cis\-by\-trans interactions with trans\-acting factors on the X contributing to observed cis effects in autosomal genes in the direct cross remains a possible explanation for the discrepancy.
+   Allelic imbalance \(AI\) indicates the presence of functional variation in cis regulatory regions. Detecting cis regulatory differences using AI is widespread\, yet there is no formal statistical methodology that tests whether AI differs between conditions. The testing for AI involves several complex bioinformatics steps. BayesASE is a complete bioinformatics pipeline that incorporates state\-of\-the\-art error reduction techniques and a flexible Bayesian approach to estimating AI and formally comparing levels of AI between conditions \(https\:\/\/www.g3journal.org\/content\/8\/2\/447.long\). The modular structure of BayeASE has been packaged as a python package \(https\:\/\/pypi.org\/project\/BayesASE\/\)\, bioconda package \(https\:\/\/anaconda.org\/bioconda\/bayesase\)\, Galaxy toolkit\, made available in Nextflow and as a collection of scripts for the SLURM workload manager in the BayesASE project repository on github\(https\:\/\/github.com\/McIntyre\-Lab\/BayesASE\).
+   The model included with the package can formally test AI within one condition for three or more replicates and can statistically compare differences in AI across conditions. This includes reciprocal crosses\, test\-crosses\, and comparisons of GxE for the same genotype in replicated experiments. As gene expression affects power for detection of AI\, and as expression may vary between conditions\, the model explicitly takes coverage into account. The proposed model has low type I and II error under several scenarios\, and is robust to large differences in coverage between conditions. The model included with the package reports estimates of AI for each condition\, and the corresponding Bayesian evidence as well as a formal statistical evaluation of AI between conditions. The package is completely modular and the bioinformatics steps needed to map reads in a genotype specific manner can be used as input for other statistical models of AI and other methods for read counting can be used and the model described in Novelo et al. 2018 deployed. This model represents an update to the R code provided with the publication as the MCMC algorithm is now implemented in RSTAN \(Stan Development Team \(2020\). \"RStan\: the R interface to Stan.\" R package \(http\:\/\/mc\-stan.org\/\) and bias is allowed to vary between conditions and more than 2 conditions can be compared. This is a very general implementation.
 
 
 .. conda:package:: bayesase
@@ -27,7 +28,7 @@ bayesase
       
       
 
-      ``21.1.7-0``
+      ``21.1.13.1-0``,  ``21.1.7-0``
 
       
 
@@ -37,7 +38,7 @@ bayesase
    :depends numpy: ``>=1.18.1``
    :depends pandas: ``>=1.0.3``
    :depends python: ``>=3.6``
-   :depends r-base: 
+   :depends r-bh: 
    :depends r-here: 
    :depends r-rstan: 
    :requirements:
