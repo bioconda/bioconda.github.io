@@ -104,7 +104,7 @@
 <dl class="conda recipe">
 <dt>
 <em class="property">recipe </em><code class="sig-name descname">frogs</code></dt>
-<dd><p>FROGS is a workflow designed to produce an OTUs count matrix from high depth sequencing amplicon data. This is the official release 3.1.0 of FROGS.</p>
+<dd><p>FROGS is a workflow designed to metabarcoding sequence analysis</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/geraldinepascal/FROGS">https://github.com/geraldinepascal/FROGS</a></p>
@@ -116,6 +116,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs">frogs</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>FROGS produces an OTUs count matrix from high depth sequencing amplicon data. This is the official release 3.2.0 of FROGS. To fully install FROGS dependencies, please refer to the frogs-conda-requirements.txt available at https://github.com/geraldinepascal/FROGS</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -124,33 +125,16 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/frogs"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/frogs.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/frogs"><img alt="docker_frogs" src="https://quay.io/repository/biocontainers/frogs/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-phyloseq/README.html#package-bioconductor-phyloseq" title="bioconductor-phyloseq package"><strong>bioconductor-phyloseq</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.24.2</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../blast/README.html#package-blast" title="blast package"><strong>blast</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.7.1</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../cutadapt/README.html#package-cutadapt" title="cutadapt package"><strong>cutadapt</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.18</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../emboss/README.html#package-emboss" title="emboss package"><strong>emboss</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=6.6.0</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../fasttree/README.html#package-fasttree" title="fasttree package"><strong>fasttree</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.1.10</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../flash/README.html#package-flash" title="flash package"><strong>flash</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.11</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../itsx/README.html#package-itsx" title="itsx package"><strong>itsx</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.1b</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../mafft/README.html#package-mafft" title="mafft package"><strong>mafft</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=7.407</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandoc-feedstock"><strong>pandoc</strong></a> <code class="docutils literal notranslate"><span class="pre">&lt;2.0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/perl-feedstock"><strong>perl</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-io-gzip/README.html#package-perl-io-gzip" title="perl-io-gzip package"><strong>perl-io-gzip</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.20</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-io-zlib/README.html#package-perl-io-zlib" title="perl-io-zlib package"><strong>perl-io-zlib</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&lt;3</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5.1</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-gridextra-feedstock"><strong>r-gridextra</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.3</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-phangorn-feedstock"><strong>r-phangorn</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.4.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-plotly-feedstock"><strong>r-plotly</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.8.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rmarkdown-feedstock"><strong>r-rmarkdown</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../rdptools/README.html#package-rdptools" title="rdptools package"><strong>rdptools</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.0.2</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.7,&lt;3.8.0a0</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../rdptools/README.html#package-rdptools" title="rdptools package"><strong>rdptools</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.0.3</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/scipy-feedstock"><strong>scipy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.1.0</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../swarm/README.html#package-swarm" title="swarm package"><strong>swarm</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.2.2</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/util-linux-feedstock"><strong>util-linux</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../vsearch/README.html#package-vsearch" title="vsearch package"><strong>vsearch</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.9.1</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>

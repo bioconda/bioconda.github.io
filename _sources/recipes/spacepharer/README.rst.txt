@@ -15,6 +15,7 @@ spacepharer
    :homepage: https://github.com/soedinglab/spacepharer
    :license: GPL / GPL-3
    :recipe: /`spacepharer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spacepharer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spacepharer/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2020.05.15.090266`, biotools: :biotools:`spacepharer`
 
    
 

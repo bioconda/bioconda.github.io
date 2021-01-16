@@ -15,6 +15,7 @@ plass
    :homepage: https://github.com/soedinglab/plass
    :license: GPLv3
    :recipe: /`plass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plass/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-019-0437-4`, biotools: :biotools:`plass`
 
    
 

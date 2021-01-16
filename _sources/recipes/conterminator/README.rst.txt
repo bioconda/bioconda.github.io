@@ -15,6 +15,7 @@ conterminator
    :homepage: https://github.com/martin-steinegger/conterminator
    :license: GPL3
    :recipe: /`conterminator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/conterminator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/conterminator/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-020-02023-1`, biotools: :biotools:`conterminator`
 
    
 

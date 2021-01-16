@@ -15,6 +15,7 @@ mmseqs2
    :homepage: https://github.com/soedinglab/mmseqs2
    :license: GPLv3
    :recipe: /`mmseqs2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmseqs2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmseqs2/meta.yaml>`_
+   :links: doi: :doi:`10.1038/nbt.3988`, doi: :doi:`10.1038/s41467-018-04964-5`, doi: :doi:`10.1093/bioinformatics/bty1057`, doi: :doi:`10.1101/2020.11.27.401018`, biotools: :biotools:`mmseqs2`, biotools: :biotools:`linclust`
 
    
 

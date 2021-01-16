@@ -10,13 +10,13 @@ frogs
    :replaces_section_title:
    :noindex:
 
-   FROGS is a workflow designed to produce an OTUs count matrix from high depth sequencing amplicon data. This is the official release 3.1.0 of FROGS.
+   FROGS is a workflow designed to metabarcoding sequence analysis
 
    :homepage: https://github.com/geraldinepascal/FROGS
    :license: GNU GPL v3
    :recipe: /`frogs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs/meta.yaml>`_
 
-   
+   FROGS produces an OTUs count matrix from high depth sequencing amplicon data. This is the official release 3.2.0 of FROGS. To fully install FROGS dependencies\, please refer to the frogs\-conda\-requirements.txt available at https\:\/\/github.com\/geraldinepascal\/FROGS
 
 
 .. conda:package:: frogs
@@ -27,34 +27,17 @@ frogs
       
       
 
-      ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``3.2.0-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
    
-   :depends bioconductor-phyloseq: ``>=1.24.2``
-   :depends blast: ``>=2.7.1``
-   :depends cutadapt: ``>=1.18``
-   :depends emboss: ``>=6.6.0``
-   :depends fasttree: ``>=2.1.10``
-   :depends flash: ``>=1.2.11``
-   :depends itsx: ``>=1.1b``
-   :depends mafft: ``>=7.407``
-   :depends pandoc: ``<2.0``
    :depends perl: 
    :depends perl-io-gzip: ``>=0.20``
    :depends perl-io-zlib: 
-   :depends python: ``<3``
-   :depends r-base: ``>=3.5.1``
-   :depends r-gridextra: ``>=2.3``
-   :depends r-phangorn: ``>=2.4.0``
-   :depends r-plotly: ``>=4.8.0``
-   :depends r-rmarkdown: ``>=1.10``
-   :depends rdptools: ``>=2.0.2``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends rdptools: ``>=2.0.3``
    :depends scipy: ``>=1.1.0``
-   :depends swarm: ``>=2.2.2``
-   :depends util-linux: 
-   :depends vsearch: ``>=2.9.1``
    :requirements:
 
    .. rubric:: Installation

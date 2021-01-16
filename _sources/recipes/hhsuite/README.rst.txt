@@ -15,6 +15,7 @@ hhsuite
    :homepage: https://github.com/soedinglab/hh-suite
    :license: GPLv3
    :recipe: /`hhsuite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hhsuite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hhsuite/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-019-3019-7`, biotools: :biotools:`hh-suite`
 
    
 

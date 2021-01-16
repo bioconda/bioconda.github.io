@@ -15,6 +15,7 @@ metaeuk
    :homepage: https://github.com/soedinglab/metaeuk
    :license: GPL / GPL-3
    :recipe: /`metaeuk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaeuk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaeuk/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s40168-020-00808-x`, biotools: :biotools:`metaeuk`
 
    
 

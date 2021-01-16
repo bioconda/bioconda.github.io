@@ -30,7 +30,7 @@ open-cravat
       
       
 
-      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
+      ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
 
       
 
@@ -45,6 +45,7 @@ open-cravat
    :depends psutil: 
    :depends pyliftover: 
    :depends python: 
+   :depends pyvcf: 
    :depends pyyaml: 
    :depends requests: 
    :depends requests-toolbelt: 

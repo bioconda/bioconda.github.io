@@ -27,7 +27,7 @@ rosella
       
       
 
-      ``0.2.3-0``
+      ``0.2.4-0``,  ``0.2.3-0``
 
       
 
@@ -35,6 +35,7 @@ rosella
    :depends biopython: 
    :depends blis: 
    :depends bwa: 
+   :depends flight-genome: 
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends hdbscan: 
    :depends libblas: ``>=3.8.0,<4.0a0``
@@ -47,7 +48,6 @@ rosella
    :depends openblas: 
    :depends openssl: ``>=1.1.1i,<1.1.2a``
    :depends parallel: 
-   :depends pip: 
    :depends pkg-config: 
    :depends pynndescent: 
    :depends pysam: ``>=0.16``
