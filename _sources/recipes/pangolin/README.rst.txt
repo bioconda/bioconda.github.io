@@ -12,7 +12,7 @@ pangolin
 
    Phylogenetic Assignment of Named Global Outbreak LINeages
 
-   :homepage: https://github.com/hCoV-2019/pangolin
+   :homepage: https://github.com/cov-lineages/pangolin
    :license: GPL-3.0
    :recipe: /`pangolin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin/meta.yaml>`_
 
@@ -27,20 +27,27 @@ pangolin
       
       
 
-      ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.11-0``,  ``1.1.5-0``,  ``1.1-0``
+      ``2.1.7-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.11-0``,  ``1.1.5-0``,  ``1.1-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.70``
+   :depends cov-lineages: 
+   :depends datafunk: 
    :depends dendropy: ``>=4.4.0``
    :depends iqtree: ``<2``
+   :depends joblib: ``>=0.11``
    :depends mafft: 
-   :depends pandas: 
-   :depends pip: 
+   :depends minimap2: 
+   :depends pandas: ``>=1.0.1``
+   :depends pangolearn: ``!=2020.12.17_2``
+   :depends pulp: ``>=2``
+   :depends pysam: ``>=0.15.4``
    :depends python: ``>=3.6``
-   :depends pytools: ``2020.1.*``
-   :depends snakemake-minimal: ``5.13.*``
+   :depends pytools: ``>=2020.1``
+   :depends scikit-learn: ``0.23.1``
+   :depends snakemake-minimal: ``>=5.13``
    :requirements:
 
    .. rubric:: Installation

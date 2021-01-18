@@ -13,7 +13,7 @@ pangolearn
    Store of the trained model for pangolin to access.
 
    :homepage: https://github.com/cov-lineages/pangoLEARN
-   :license: GPL3 / GPL-3
+   :license: GPL3 / GPL-3.0
    :recipe: /`pangolearn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolearn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolearn/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ pangolearn
       
       
 
-      ``2020.12.17_2-0``
+      ``2021.01.16-0``,  ``2020.12.17_2-0``
 
       
 
