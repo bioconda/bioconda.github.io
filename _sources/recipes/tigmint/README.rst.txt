@@ -31,7 +31,7 @@ tigmint
       
       
 
-      ``1.2.1-0``,  ``1.1.2-0``
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-0``
 
       
 
@@ -40,7 +40,7 @@ tigmint
    :depends make: 
    :depends minimap2: 
    :depends pybedtools: 
-   :depends pysam: 
+   :depends pysam: ``>=0.15.3``
    :depends python: ``>=3``
    :requirements:
 
