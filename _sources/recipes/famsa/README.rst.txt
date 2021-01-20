@@ -15,6 +15,7 @@ famsa
    :homepage: https://github.com/refresh-bio/FAMSA
    :license: GPL / GPL-3
    :recipe: /`famsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famsa/meta.yaml>`_
+   :links: doi: :doi:`10.1038/srep33964`, biotools: :biotools:`famsa`
 
    
 

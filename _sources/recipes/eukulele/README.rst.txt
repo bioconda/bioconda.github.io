@@ -27,19 +27,19 @@ eukulele
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends biopython: ``1.78``
-   :depends blast: ``2.10.1``
+   :depends blast: ``2.2.31``
    :depends boost-cpp: 
-   :depends busco: ``4.1.4``
+   :depends busco: ``4.0.6``
    :depends chardet: 
-   :depends diamond: ``2.0.6``
+   :depends diamond: ``0.9.24``
    :depends joblib: 
-   :depends matplotlib-base: 
+   :depends matplotlib-base: ``3.3.3``
    :depends numpy: ``1.19.5``
    :depends pandas: ``1.2.0``
    :depends python: ``>=3.6``

@@ -15,6 +15,7 @@ irissv
    :homepage: https://github.com/mkirsche/Iris
    :license: MIT
    :recipe: /`irissv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irissv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irissv/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`irissv`
 
    
 
