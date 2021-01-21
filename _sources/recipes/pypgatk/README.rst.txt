@@ -30,7 +30,7 @@ pypgatk
       
       
 
-      ``0.0.4-0``
+      ``0.0.8-0``,  ``0.0.4-0``
 
       
 
@@ -62,6 +62,7 @@ pypgatk
    :depends python: ``>=3``
    :depends pyvcf: 
    :depends pyyaml: 
+   :depends ratelimit: 
    :depends requests: 
    :depends simplejson: 
    :depends six: 

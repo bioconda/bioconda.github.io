@@ -27,7 +27,7 @@ balrog
       
       
 
-      ``0.2.19-0``
+      ``0.3.1-0``,  ``0.2.19-0``
 
       
 
@@ -35,6 +35,7 @@ balrog
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
+   :depends mmseqs2: 
    :depends python: ``>=3.7,<3.8.0a0``
    :depends python_abi: ``3.7.* *_cp37m``
    :depends pytorch: ``>=1.5.0``

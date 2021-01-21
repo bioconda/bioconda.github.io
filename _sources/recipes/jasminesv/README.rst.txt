@@ -15,6 +15,7 @@ jasminesv
    :homepage: https://github.com/mkirsche/Jasmine
    :license: MIT
    :recipe: /`jasminesv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jasminesv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jasminesv/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`jasminesv`
 
    
 

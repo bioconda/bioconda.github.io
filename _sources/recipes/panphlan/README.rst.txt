@@ -27,18 +27,17 @@ panphlan
       
       
 
-      ``3.0-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``
+      ``3.1-0``,  ``3.0-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``
 
       
 
    
-   :depends matplotlib-base: 
+   :depends bowtie2: ``>=2.3.0``
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3``
-   :depends scikit-learn: 
+   :depends python: ``>=3.7``
+   :depends samtools: ``>=1.9``
    :depends scipy: 
-   :depends seaborn: 
    :requirements:
 
    .. rubric:: Installation
