@@ -26,9 +26,17 @@ edta
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
+         <details><summary><span class="truncated-version-list"><code>1.9.6-1</code>,  <code>1.9.6-0</code>,  <code>1.9.5-0</code>,  <code>1.9.4-0</code>,  <code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-0</code>,  <code>1.7.8-0</code>,  </span></summary>
+      
 
+      ``1.9.6-1``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -39,6 +47,7 @@ edta
    :depends genericrepeatfinder: 
    :depends genometools-genometools: 
    :depends glob2: 
+   :depends h5py: ``<3``
    :depends keras: ``>=2.2.4``
    :depends ltr_finder: 
    :depends ltr_retriever: 
@@ -49,11 +58,11 @@ edta
    :depends pandas: 
    :depends perl: 
    :depends perl-text-soundex: 
-   :depends python: ``>=3.6``
+   :depends python: ``<3.7``
    :depends regex: 
    :depends repeatmodeler: 
    :depends scikit-learn: ``>=0.19.0``
-   :depends tensorflow: ``>=1.14.0``
+   :depends tensorflow: ``1.14``
    :depends tesorter: 
    :requirements:
 

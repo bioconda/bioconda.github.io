@@ -27,12 +27,14 @@ dadaist2
       
       
 
-      ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
+      ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
 
       
 
    
    :depends bioconductor-dada2: 
+   :depends bioconductor-microbiome: 
+   :depends bioconductor-phyloseq: 
    :depends clustalo: 
    :depends fastp: 
    :depends fasttree: 

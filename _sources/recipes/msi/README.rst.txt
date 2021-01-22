@@ -28,7 +28,7 @@ msi
       
       
 
-      ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -45,6 +45,8 @@ msi
    :depends r-base: 
    :depends r-data.table: 
    :depends r-optparse: 
+   :depends r-r.utils: 
+   :depends r-tidyr: 
    :depends racon: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

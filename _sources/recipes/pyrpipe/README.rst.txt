@@ -29,15 +29,17 @@ pyrpipe
       
       
 
-      ``0.0.4-0``
+      ``0.0.5-0``,  ``0.0.4-0``
 
       
 
    
+   :depends colorama: 
    :depends dill: 
    :depends importlib_resources: 
    :depends jinja2: 
    :depends multiqc: 
+   :depends psutil: 
    :depends python: ``>=3``
    :depends pyyaml: 
    :depends seaborn: 

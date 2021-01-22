@@ -28,10 +28,10 @@ taxonkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.3.0-1</code>,  <code>0.2.5-1</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.3.0-1</code>,  <code>0.2.5-1</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  </span></summary>
       
 
-      ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-1``,  ``0.2.5-1``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
+      ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-1``,  ``0.2.5-1``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
 
       
       .. raw:: html
