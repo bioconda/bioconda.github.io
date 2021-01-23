@@ -13,7 +13,7 @@ xtea
    TE insertion caller for both short and long reads
 
    :homepage: https://github.com/parklab/xTea
-   :license: Non-commercial use only
+   :license: AGPL-3.0-only
    :recipe: /`xtea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtea/meta.yaml>`_
 
    
@@ -27,15 +27,18 @@ xtea
       
       
 
-      ``0.1.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
    :depends bwa: 
    :depends minimap2: 
+   :depends numpy: 
+   :depends pandas: 
    :depends pysam: 
    :depends samtools: 
+   :depends scikit-learn: 
    :depends sortedcontainers: 
    :depends wtdbg: 
    :requirements:
