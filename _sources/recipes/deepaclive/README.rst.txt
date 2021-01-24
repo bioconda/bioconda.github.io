@@ -27,13 +27,14 @@ deepaclive
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends biopython: ``>=1.76``
    :depends deepac: ``>=0.12.0``
+   :depends matplotlib-base: ``>=3.1.3``
    :depends paramiko: ``>=2.7.1``
    :depends pysam: ``>=0.15.4``
    :depends python: ``>=3``

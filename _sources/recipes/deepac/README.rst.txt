@@ -30,10 +30,10 @@ deepac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.9.3-1</code>,  <code>0.9.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.9.3-1</code>,  </span></summary>
       
 
-      ``0.13.3-0``,  ``0.13.2-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``
+      ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``
 
       
       .. raw:: html
@@ -51,6 +51,8 @@ deepac
    :depends psutil: ``>=5.6.7``
    :depends pybedtools: ``>=0.8.1``
    :depends python: ``>=3.6``
+   :depends python-wget: ``>=3.2``
+   :depends requests: ``>=2.24``
    :depends scikit-learn: ``>=0.22.1``
    :depends scipy: ``>=1.4.1``
    :depends seaborn: ``>=0.11``
