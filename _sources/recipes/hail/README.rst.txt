@@ -29,17 +29,22 @@ hail
       
       
 
-      ``0.2.61-0``,  ``0.2.58-0``,  ``0.2.33-1``,  ``0.2.33-0``
+      ``0.2.61-1``,  ``0.2.61-0``,  ``0.2.58-0``,  ``0.2.33-1``,  ``0.2.33-0``
 
       
 
    
    :depends aiohttp: 
    :depends aiohttp-session: 
+   :depends asyncinit: 
    :depends bokeh: ``>1.1,<1.3``
    :depends decorator: ``<5``
    :depends deprecated: 
-   :depends gcsfs: ``0.2.1``
+   :depends dill: 
+   :depends gcsfs: 
+   :depends google-api-core: 
+   :depends google-cloud-sdk: 
+   :depends google-cloud-storage: 
    :depends humanize: 
    :depends hurry.filesize: 
    :depends libgcc-ng: ``>=7.5.0``

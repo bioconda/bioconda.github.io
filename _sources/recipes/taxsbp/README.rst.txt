@@ -31,14 +31,14 @@ taxsbp
       
       
 
-      ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends binpacking: ``1.4.3``
    :depends pylca: ``1.0.0``
-   :depends python: ``>=3.4``
+   :depends python: ``>=3.5``
    :requirements:
 
    .. rubric:: Installation
