@@ -41,13 +41,16 @@ mosca
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
    :depends bioconductor-deseq2: ``>=1.10.1``
    :depends bioconductor-edger: ``>=3.14.0``
+   :depends bioconductor-pcamethods: ``1.82.0.*``
+   :depends bioconductor-rots: ``1.18.0.*``
+   :depends bioconductor-vsn: ``3.58.0.*``
    :depends biopython: ``>=1.78``
    :depends blast: ``>=2.5.0``
    :depends bowtie2: ``2.3.*``
@@ -62,8 +65,10 @@ mosca
    :depends maxbin2: ``>=2.2.7``
    :depends maxquant: ``>=1.6.10``
    :depends megahit: ``>=1.2.9``
+   :depends metaphlan: ``3.*``
    :depends openpyxl: ``>=3.0.3``
    :depends pandas: ``>=1.1.4``
+   :depends peptide-shaker: ``1.16.*``
    :depends perl: 
    :depends progressbar33: ``>=2.4``
    :depends python: 
@@ -75,6 +80,7 @@ mosca
    :depends reportlab: ``>=3.5.45``
    :depends samtools: ``>=1.11``
    :depends scikit-learn: ``>=0.23.1``
+   :depends searchgui: ``3.3.*``
    :depends seqkit: ``>=0.13.2``
    :depends seqtk: 
    :depends snakemake: ``>=5.27.4``
