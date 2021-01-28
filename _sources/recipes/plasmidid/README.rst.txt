@@ -27,11 +27,12 @@ plasmidid
       
       
 
-      ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.5.2-0``
+      ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.5.2-0``
 
       
 
    
+   :depends bc: 
    :depends bedtools: 
    :depends biopython: 
    :depends blast: 

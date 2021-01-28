@@ -27,7 +27,7 @@ pytaxonkit
       
       
 
-      ``0.6.1-0``,  ``0.6-0``
+      ``0.7.2-0``,  ``0.6.1-0``,  ``0.6-0``
 
       
 
@@ -35,7 +35,7 @@ pytaxonkit
    :depends pandas: ``>=1.0``
    :depends pytest: ``>=5.4``
    :depends python: ``>=3``
-   :depends taxonkit: ``>=0.6.1``
+   :depends taxonkit: ``>=0.7.2,<0.8``
    :requirements:
 
    .. rubric:: Installation
