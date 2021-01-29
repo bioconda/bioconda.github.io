@@ -12,8 +12,8 @@ mikado
 
    A Python3 annotation program to select the best gene model in each locus
 
-   :homepage: https://github.com/lucventurini/mikado
-   :license: LGPL / GNU Lesser General Public License v3 or later (LGPLv3+)
+   :homepage: https://github.com/EI-CoreBioinformatics/mikado
+   :license: LGPLLR
    :recipe: /`mikado <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado/meta.yaml>`_
 
    
@@ -26,49 +26,53 @@ mikado
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.0-0</code>,  <code>2.0rc2-1</code>,  <code>2.0rc2-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.1.1-0</code>,  </span></summary>
+      
 
+      ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends appdirs: 
-   :depends args: 
-   :depends biopython: ``>=1.74``
+   :depends biopython: ``>=1.78``
+   :depends dataclasses: 
    :depends datrie: ``>=0.8``
    :depends decorator: 
    :depends docutils: 
    :depends drmaa: 
-   :depends fastnumbers: 
    :depends hypothesis: 
-   :depends intervaltree: 
-   :depends jsonref: ``>=0.2``
    :depends jsonschema: 
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
+   :depends marshmallow: 
+   :depends marshmallow-dataclass: 
    :depends msgpack-python: ``>=1.0.0``
    :depends networkx: ``>=2.3``
-   :depends numpy: ``>=1.17``
-   :depends pandas: ``>=0.25.1``
+   :depends numpy: ``>=1.17.2``
+   :depends pandas: ``>=1.0``
+   :depends pip: 
    :depends pyfaidx: ``>=0.5.8``
    :depends pysam: ``>=0.15.3``
    :depends pytest: ``>=5.4.1``
    :depends python: ``>=3.6,<3.7.0a0``
-   :depends python-rapidjson: ``>=0.9.1``
+   :depends python-rapidjson: ``>=1.0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends pyyaml: ``>=5.1.2``
-   :depends rapidjson: ``>=1.1.0``
-   :depends scikit-learn: ``>=0.21.3``
+   :depends rapidjson: ``>=1.0.0``
    :depends scipy: ``>=1.3.1``
    :depends six: ``>=1.12.0``
-   :depends snakemake-minimal: ``>=5.7.0``
+   :depends snakemake: ``>=5.7.0``
    :depends sqlalchemy: ``>=1.3.9``
    :depends sqlalchemy-utils: ``>=0.34.1``
-   :depends sqlite: ``>=3.32.3,<4.0a0``
    :depends tabulate: ``>=0.8.5``
    :depends toml: ``>=0.10.0``
-   :depends tomlkit: ``>=0.5.8``
-   :depends wheel: ``>=0.28.0``
+   :depends typeguard: 
    :requirements:
 
    .. rubric:: Installation

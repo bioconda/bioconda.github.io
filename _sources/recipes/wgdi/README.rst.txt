@@ -27,12 +27,13 @@ wgdi
       
       
 
-      ``0.4.1-0``
+      ``0.4.4-0``,  ``0.4.1-0``
 
       
 
    
    :depends biopython: 
+   :depends iqtree: 
    :depends mafft: 
    :depends matplotlib-base: 
    :depends muscle: 
@@ -40,7 +41,7 @@ wgdi
    :depends pal2nal: 
    :depends paml: 
    :depends pandas: ``>=1.1.0``
-   :depends python: 
+   :depends python: ``>=3``
    :depends scipy: 
    :requirements:
 
