@@ -27,7 +27,7 @@ mirfix
       
       
 
-      ``1.0.1-0``
+      ``2.0.0-0``,  ``1.0.1-0``
 
       
 
@@ -35,10 +35,10 @@ mirfix
    :depends biopython: 
    :depends clustalw: 
    :depends dialign2: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
-   :depends python: ``<3``
-   :depends tk: ``>=8.6.9,<8.7.0a0``
+   :depends python: ``>=3``
+   :depends tk: 
    :depends viennarna: 
    :requirements:
 

@@ -27,13 +27,13 @@ submission-tool-validator
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends openjdk: ``>=8``
-   :depends python: 
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
