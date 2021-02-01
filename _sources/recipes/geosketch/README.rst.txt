@@ -28,7 +28,7 @@ geosketch
       
       
 
-      ``1.1-0``,  ``1.0-0``
+      ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
@@ -36,7 +36,7 @@ geosketch
    :depends fbpca: ``>=1``
    :depends numpy: ``>=1.12``
    :depends python: ``>=3.6``
-   :depends scikit-learn: ``>=0.20``
+   :depends scikit-learn: ``>=0.24``
    :requirements:
 
    .. rubric:: Installation

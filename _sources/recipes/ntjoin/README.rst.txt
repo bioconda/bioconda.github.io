@@ -27,7 +27,7 @@ ntjoin
       
       
 
-      ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -39,10 +39,11 @@ ntjoin
    :depends make: 
    :depends pybedtools: 
    :depends pymannkendall: 
+   :depends pysam: ``>=0.16.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python-igraph: 
    :depends python_abi: ``3.6.* *_cp36m``
-   :depends samtools: 
+   :depends samtools: ``>=1.10``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

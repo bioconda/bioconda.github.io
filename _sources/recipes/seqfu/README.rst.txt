@@ -12,14 +12,15 @@ seqfu
 
    DNA sequence utilities
 
-   :homepage: http://github.com/telatin/seqfu/
+   :homepage: https://github.com/telatin/seqfu2/
    :license: mit
    :recipe: /`seqfu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqfu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqfu/meta.yaml>`_
    :links: biotools: :biotools:`seqfu`
 
    A collection of utilities to work with FASTX \(FASTA or FASTQ\) files
    that accept gzipped input.
-   Tools to interleave and deinterleave
+   Tools to interleave and deinterleave\, to calculate stats\, and extract
+   portions of sequence datasets.
 
 
 

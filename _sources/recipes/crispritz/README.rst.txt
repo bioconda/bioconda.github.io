@@ -28,10 +28,10 @@ crispritz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.6-1</code>,  <code>2.3.6-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  <code>2.3.2-1</code>,  <code>2.3.2-0</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.7-0</code>,  <code>2.3.6-2</code>,  <code>2.3.6-1</code>,  <code>2.3.6-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  <code>2.3.2-1</code>,  <code>2.3.2-0</code>,  </span></summary>
       
 
-      ``2.3.6-1``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.3-0``
+      ``2.3.7-0``,  ``2.3.6-2``,  ``2.3.6-1``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -65,7 +65,7 @@ crispritz
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends rename: 
-   :depends scikit-learn: ``<0.24.0``
+   :depends scikit-learn: ``0.23.2.*``
    :depends scipy: 
    :depends statsmodels: 
    :depends tk: ``>=8.6.10,<8.7.0a0``
