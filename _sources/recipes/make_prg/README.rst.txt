@@ -27,7 +27,7 @@ make_prg
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -36,7 +36,6 @@ make_prg
    :depends numpy: ``>=1.14``
    :depends python: 
    :depends scikit-learn: ``>=0.19.1``
-   :depends scipy: ``>=1.0.1``
    :requirements:
 
    .. rubric:: Installation

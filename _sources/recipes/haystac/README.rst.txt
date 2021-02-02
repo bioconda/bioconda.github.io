@@ -13,6 +13,8 @@ haystac
    Species identification pipeline for both single species and metagenomic samples.
 
    :homepage: https://github.com/antonisdim/haystac
+   :documentation: https://haystac.readthedocs.io/en/latest/
+   
    :license: MIT / MIT
    :recipe: /`haystac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haystac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haystac/meta.yaml>`_
 

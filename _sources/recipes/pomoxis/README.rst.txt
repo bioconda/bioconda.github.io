@@ -30,10 +30,10 @@ pomoxis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.4-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  </span></summary>
       
 
-      ``0.3.4-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -55,7 +55,7 @@ pomoxis
    :depends pandas: ``>=0.24.2``
    :depends porechop: 
    :depends pysam: ``>=0.15.2``
-   :depends python: ``>=3.4,<3.7``
+   :depends python: ``>=3.6``
    :depends racon: ``>=1.3.1``
    :depends samtools: ``>=1.9``
    :depends seqkit: ``>=0.8.0``

@@ -32,10 +32,10 @@ tobias
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.6-0</code>,  <code>0.12.4-0</code>,  <code>0.12.3-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.6-1</code>,  <code>0.11.6-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.7-0</code>,  <code>0.12.6-0</code>,  <code>0.12.4-0</code>,  <code>0.12.3-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.6-1</code>,  <code>0.11.6-0</code>,  <code>0.11.4-0</code>,  </span></summary>
       
 
-      ``0.12.6-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.6-1``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.1-0``,  ``0.5.0-0``
+      ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.6-1``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.1-0``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ tobias
    :depends logomaker: 
    :depends matplotlib-base: ``>=2``
    :depends moods: 
-   :depends numpy: ``>=1.16.5,<2.0a0``
+   :depends numpy: ``>=1.16.6,<2.0a0``
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
