@@ -30,10 +30,10 @@ pomoxis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  </span></summary>
       
 
-      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -45,9 +45,7 @@ pomoxis
    :depends bcftools: ``>=1.9``
    :depends bedtools: ``>=2.29.0``
    :depends biopython: ``>=1.63``
-   :depends fast5-research: 
    :depends intervaltree: ``>=3``
-   :depends mappy: ``>=2.17``
    :depends matplotlib-base: ``>=3.2.1``
    :depends miniasm: ``>=0.3_r179``
    :depends minimap2: ``>=2.17``
