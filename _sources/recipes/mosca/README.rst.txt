@@ -41,7 +41,7 @@ mosca
       
       
 
-      ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -58,7 +58,7 @@ mosca
    :depends diamond: ``>=2.0.2``
    :depends fastqc: ``>=0.11.9``
    :depends fraggenescan: ``>=1.31``
-   :depends htseq: ``>=0.12.4``
+   :depends htseq: ``0.12.*``
    :depends keggcharter: ``>=0.1.1``
    :depends krona: ``>=2.7.1``
    :depends lxml: ``>=4.6.1``
@@ -71,12 +71,12 @@ mosca
    :depends peptide-shaker: ``1.16.*``
    :depends perl: 
    :depends progressbar33: ``>=2.4``
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends quast: ``>=5.0.2``
    :depends r-optparse: 
    :depends r-pheatmap: 
    :depends r-rcolorbrewer: ``>=1.1.2``
-   :depends recognizer: ``>=1.3.2``
+   :depends recognizer: ``>=1.4.0``
    :depends reportlab: ``>=3.5.45``
    :depends samtools: ``>=1.11``
    :depends scikit-learn: ``>=0.23.1``
@@ -90,7 +90,7 @@ mosca
    :depends tqdm: ``>=4.33.0``
    :depends trimmomatic: ``>=0.39``
    :depends upimapi: ``>=1.0.4``
-   :depends xlrd: ``>=0.9.0``
+   :depends xlrd: ``1.2.*``
    :depends xlsxwriter: ``>=1.3.7``
    :requirements:
 

@@ -12,8 +12,8 @@ rdp_classifier
 
    Naive Bayesian classifier that can rapidly and accurately provide taxonomic assignments from domain to genus
 
-   :homepage: http://rdp.cme.msu.edu/
-   :license: GPLv2
+   :homepage: http://rdp.cme.msu.edu/classifier/
+   :license: GPL-2.0-only
    :recipe: /`rdp_classifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdp_classifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdp_classifier/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ rdp_classifier
       
       
 
-      ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.13-0``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
    
-   :depends openjdk: 
+   :depends openjdk: ``>=11``
    :requirements:
 
    .. rubric:: Installation

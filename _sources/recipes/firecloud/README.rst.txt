@@ -29,19 +29,15 @@ firecloud
       
       
 
-      ``0.16.28-0``,  ``0.16.27-1``,  ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
+      ``0.16.31-0``,  ``0.16.30-0``,  ``0.16.28-0``,  ``0.16.27-1``,  ``0.16.27-0``,  ``0.16.26-1``,  ``0.16.26-0``,  ``0.16.25-0``,  ``0.16.20-0``
 
       
 
    
-   :depends google-auth: ``1.4.2``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends nose: 
+   :depends google-auth: ``>=1.6.3``
+   :depends google-cloud-sdk: 
    :depends pydot: 
-   :depends pylint: ``>=1.7.2``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: 
    :depends requests: 
    :depends six: 
    :requirements:

@@ -13,13 +13,13 @@ cellrank
    Continuous Lineage Decisions Uncovered by RNA Velocity
 
    :homepage: https://github.com/theislab/cellrank
-   :documentation: http://cellrank.org
+   :documentation: https://cellrank.org
    
    :license: BSD
    :recipe: /`cellrank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellrank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellrank/meta.yaml>`_
 
    CellRank is a toolkit to uncover cellular dynamics based on scRNA\-seq data with RNA velocity annotation\,
-   see La Manno et al. \(2018\) and Bergen et al. \(2019\). CellRank models cellular dynamics as a Markov chain\,
+   see La Manno et al. \(2018\) and Bergen et al. \(2020\). CellRank models cellular dynamics as a Markov chain\,
    where transition probabilities are computed based on RNA velocity and transcriptomic similarity\,
    taking into account uncertainty in the velocities.
 

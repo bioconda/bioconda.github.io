@@ -30,18 +30,18 @@ trtools
       
       
 
-      ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
+      ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
 
       
 
    
+   :depends cyvcf2: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: ``>=0.15.3``
    :depends python: ``>=3.5``
-   :depends pyvcf: 
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:
