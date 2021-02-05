@@ -27,7 +27,7 @@ mimseq
       
       
 
-      ``0.2.6-0``,  ``0.2.5.6-0``,  ``0.2.5.5-1``,  ``0.2.5.5-0``,  ``0.2.5.4-0``,  ``0.2.5.3-0``
+      ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5.6-0``,  ``0.2.5.5-1``,  ``0.2.5.5-0``,  ``0.2.5.4-0``,  ``0.2.5.3-0``
 
       
 
@@ -35,7 +35,7 @@ mimseq
    :depends bedtools: 
    :depends bioconductor-complexheatmap: 
    :depends bioconductor-deseq2: 
-   :depends biopython: ``<1.78``
+   :depends biopython: 
    :depends blast: 
    :depends gmap: ``2019.02.26.*``
    :depends infernal: 
@@ -55,6 +55,7 @@ mimseq
    :depends r-pheatmap: 
    :depends r-plyr: 
    :depends r-tidyverse: 
+   :depends requests: 
    :depends samtools: 
    :depends seaborn: 
    :requirements:
