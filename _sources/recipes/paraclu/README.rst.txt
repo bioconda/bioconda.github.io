@@ -12,8 +12,8 @@ paraclu
 
    Paraclu finds clusters in data attached to sequences.
 
-   :homepage: http://cbrc3.cbrc.jp/~martin/paraclu/
-   :license: GNU-GPL
+   :homepage: https://gitlab.com/mcfrith/paraclu
+   :license: GPL-3.0-or-later
    :recipe: /`paraclu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paraclu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paraclu/meta.yaml>`_
    :links: biotools: :biotools:`paraclu`
 
@@ -28,7 +28,7 @@ paraclu
       
       
 
-      ``9-0``
+      ``10-0``,  ``9-0``
 
       
 

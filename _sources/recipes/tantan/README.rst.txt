@@ -10,10 +10,10 @@ tantan
    :replaces_section_title:
    :noindex:
 
-   tantan is a tool for masking simple regions \(low complexity and short\-period tandem repeats\) in biological sequences.
+   tantan masks simple regions \(low complexity \& short\-period tandem repeats\) in biological sequences.
 
-   :homepage: http://cbrc3.cbrc.jp/~martin/tantan/
-   :license: GPLv3
+   :homepage: https://gitlab.com/mcfrith/tantan
+   :license: GPL-3.0-or-later
    :recipe: /`tantan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tantan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tantan/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ tantan
       
       
 
-      ``13-2``,  ``13-1``,  ``13-0``
+      ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
 
       
 

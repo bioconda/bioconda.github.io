@@ -27,7 +27,7 @@ dadaist2
       
       
 
-      ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
+      ``0.4.00-2``,  ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
 
       
 
@@ -38,8 +38,11 @@ dadaist2
    :depends clustalo: 
    :depends fastp: 
    :depends fasttree: 
+   :depends pandas: ``>=1.0``
    :depends perl: 
    :depends perl-fastx-reader: ``>=0.90``
+   :depends python: ``>=3``
+   :depends seqfu: 
    :depends vsearch: 
    :requirements:
 
