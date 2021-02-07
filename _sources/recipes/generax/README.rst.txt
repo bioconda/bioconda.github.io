@@ -28,14 +28,14 @@ generax
       
       
 
-      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openmpi: ``>=4.0.4,<4.1.0a0``
+   :depends openmpi: ``>=4.0.5,<4.1.0a0``
    :requirements:
 
    .. rubric:: Installation

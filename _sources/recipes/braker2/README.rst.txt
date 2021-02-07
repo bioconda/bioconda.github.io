@@ -28,7 +28,7 @@ braker2
       
       
 
-      ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
+      ``2.1.5-2``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
 
       
 
@@ -53,6 +53,7 @@ braker2
    :depends perl-list-moreutils: 
    :depends perl-list-util: 
    :depends perl-logger-simple: 
+   :depends perl-math-utils: 
    :depends perl-mce: 
    :depends perl-module-load-conditional: 
    :depends perl-parallel-forkmanager: 
