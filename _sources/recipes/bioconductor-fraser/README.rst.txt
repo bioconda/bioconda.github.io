@@ -13,8 +13,10 @@ bioconductor-fraser
    Find RAre Splicing Events in RNA\-Seq Data
 
    :homepage: https://bioconductor.org/packages/3.12/bioc/html/FRASER.html
+   :developer docs: https://github.com/c-mertes/FRASER
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fraser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fraser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fraser/meta.yaml>`_
+   :links: https: :https:`//doi.org/10.1038/s41467-020-20573-7`
 
    Detection of rare aberrant splicing events in transcriptome profiles. The workflow aims to assist the diagnostics in the field of rare diseases where RNA\-seq is performed to identify aberrant splicing defects.
 
@@ -27,7 +29,7 @@ bioconductor-fraser
       
       
 
-      ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 

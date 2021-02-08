@@ -28,10 +28,10 @@ parasail-python
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.19-0</code>,  <code>1.1.17-1</code>,  <code>1.1.17-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.19-0</code>,  <code>1.1.17-1</code>,  </span></summary>
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1.19-0``,  ``1.1.17-1``,  ``1.1.17-0``,  ``1.1.16-0``,  ``1.1.12-2``,  ``1.1.12-1``
+      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1.19-0``,  ``1.1.17-1``,  ``1.1.17-0``,  ``1.1.16-0``,  ``1.1.12-2``,  ``1.1.12-1``
 
       
       .. raw:: html

@@ -29,9 +29,17 @@ r-saige
    :versions:
       
       
+      .. raw:: html
 
-      ``0.43.0-0``,  ``0.42.1-1``,  ``0.42.1-0``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.39.0-1``,  ``0.39.0-0``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
+         <details><summary><span class="truncated-version-list"><code>0.43.3-0</code>,  <code>0.43.0-0</code>,  <code>0.42.1-1</code>,  <code>0.42.1-0</code>,  <code>0.42.0-1</code>,  <code>0.42.0-0</code>,  <code>0.39.0-1</code>,  <code>0.39.0-0</code>,  <code>0.35.8.8-1</code>,  </span></summary>
+      
 
+      ``0.43.3-0``,  ``0.43.0-0``,  ``0.42.1-1``,  ``0.42.1-0``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.39.0-1``,  ``0.39.0-0``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -51,9 +59,9 @@ r-saige
    :depends r-rcppparallel: 
    :depends r-spatest: ``3.1.2.*``
    :depends savvy: 
-   :depends sqlite: ``>=3.33.0,<4.0a0``
+   :depends sqlite: ``>=3.34.0,<4.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
-   :depends zstd: ``>=1.4.5,<1.5.0a0``
+   :depends zstd: ``>=1.4.8,<1.5.0a0``
    :requirements:
 
    .. rubric:: Installation

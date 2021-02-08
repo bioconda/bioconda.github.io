@@ -17,7 +17,7 @@ drop
    
    :license: OTHER / MIT
    :recipe: /`drop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drop/meta.yaml>`_
-   :links: https: :https:`//dx.doi.org/10.21203/rs.2.19080/v1`
+   :links: https: :https:`//doi.org/10.1038/s41596-020-00462-5`
 
    
 
@@ -30,7 +30,7 @@ drop
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
@@ -38,9 +38,9 @@ drop
    :depends bc: 
    :depends bcftools: ``>=1.7``
    :depends bioconductor-deseq2: 
-   :depends bioconductor-fraser: ``>=1.2.0``
+   :depends bioconductor-fraser: ``>=1.2.1``
    :depends bioconductor-genomicscores: 
-   :depends bioconductor-outrider: 
+   :depends bioconductor-outrider: ``>=1.6.1``
    :depends bioconductor-variantannotation: 
    :depends click: ``>=7.0``
    :depends click-log: 
