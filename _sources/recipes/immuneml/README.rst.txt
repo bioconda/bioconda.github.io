@@ -29,7 +29,7 @@ immuneml
       
       
 
-      ``1.1.3-0``
+      ``1.1.3-1``,  ``1.1.3-0``
 
       
 
@@ -48,7 +48,7 @@ immuneml
    :depends plotly: ``>=4``
    :depends pystache: ``0.5.4``
    :depends pytest: ``>=4``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.7,<3.9``
    :depends pytorch: ``>=1.5.1``
    :depends pyyaml: ``>=5.3``
    :depends regex: 

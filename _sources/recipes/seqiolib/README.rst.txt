@@ -27,15 +27,15 @@ seqiolib
       
       
 
-      ``0.2.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends numpy: 
+   :depends numpy: ``<1.19.0``
    :depends pyfaidx: 
    :depends python: ``>=3``
-   :depends tensorflow: ``2.2.0``
+   :depends tensorflow: ``>=2.2``
    :requirements:
 
    .. rubric:: Installation
