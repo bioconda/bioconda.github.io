@@ -27,7 +27,7 @@ balrog
       
       
 
-      ``0.3.1-0``,  ``0.2.19-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.19-0``
 
       
 
@@ -38,7 +38,7 @@ balrog
    :depends mmseqs2: 
    :depends python: ``>=3.7,<3.8.0a0``
    :depends python_abi: ``3.7.* *_cp37m``
-   :depends pytorch: ``>=1.5.0``
+   :depends pytorch: ``1.7.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

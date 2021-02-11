@@ -13,7 +13,7 @@ mikado
    A Python3 annotation program to select the best gene model in each locus
 
    :homepage: https://github.com/EI-CoreBioinformatics/mikado
-   :license: LGPLLR
+   :license: LGPL-3.0-or-later
    :recipe: /`mikado <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ mikado
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>2.0rc2-1</code>,  <code>2.0rc2-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>2.0rc2-1</code>,  <code>2.0rc2-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html

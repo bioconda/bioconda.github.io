@@ -10,14 +10,14 @@ last
    :replaces_section_title:
    :noindex:
 
-   LAST finds similar regions between sequences\, and aligns them.
+   LAST finds \& aligns related regions of sequences.
 
-   :homepage: http://last.cbrc.jp/
+   :homepage: https://gitlab.com/mcfrith/last
    :license: GPL / GPL-3.0-or-later
    :recipe: /`last <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last/meta.yaml>`_
    :links: biotools: :biotools:`last`
 
-   LAST finds similar regions between sequences\, and aligns them. It is designed for comparing large datasets to each other \(e.g. vertebrate genomes and\/or large numbers of DNA reads\).
+   LAST finds \& aligns related regions of sequences. It is designed for moderately large data \(e.g. genomes\, DNA reads\, proteomes\).  It\'s especially good at\: finding rearrangements and recombinations\; finding DNA\-versus\-protein related regions\; unusual data like AT\-rich DNA\; sensitive DNA\-DNA search.
 
 
 .. conda:package:: last
@@ -29,10 +29,10 @@ last
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1060-0</code>,  <code>1047-0</code>,  <code>1021-0</code>,  <code>992-0</code>,  <code>982-0</code>,  <code>963-1</code>,  <code>963-0</code>,  <code>941-2</code>,  <code>941-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1186-0</code>,  <code>1060-0</code>,  <code>1047-0</code>,  <code>1021-0</code>,  <code>992-0</code>,  <code>982-0</code>,  <code>963-1</code>,  <code>963-0</code>,  <code>941-2</code>,  </span></summary>
       
 
-      ``1060-0``,  ``1047-0``,  ``1021-0``,  ``992-0``,  ``982-0``,  ``963-1``,  ``963-0``,  ``941-2``,  ``941-0``,  ``876-0``,  ``874-3``,  ``874-2``,  ``874-1``,  ``874-0``,  ``847-0``,  ``719-2``,  ``719-1``,  ``638-6``,  ``638-5``,  ``638-4``,  ``638-3``,  ``638-2``,  ``638-1``,  ``490-5``,  ``490-4``,  ``490-3``,  ``490-2``,  ``490-1``
+      ``1186-0``,  ``1060-0``,  ``1047-0``,  ``1021-0``,  ``992-0``,  ``982-0``,  ``963-1``,  ``963-0``,  ``941-2``,  ``941-0``,  ``876-0``,  ``874-3``,  ``874-2``,  ``874-1``,  ``874-0``,  ``847-0``,  ``719-2``,  ``719-1``,  ``638-6``,  ``638-5``,  ``638-4``,  ``638-3``,  ``638-2``,  ``638-1``,  ``490-5``,  ``490-4``,  ``490-3``,  ``490-2``,  ``490-1``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ last
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends parallel: 
    :depends pillow: 
    :depends python: 
