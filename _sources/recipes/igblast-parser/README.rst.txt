@@ -27,7 +27,7 @@ igblast-parser
       
       
 
-      ``0.0.3-0``
+      ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -35,8 +35,8 @@ igblast-parser
    :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
    .. rubric:: Installation
