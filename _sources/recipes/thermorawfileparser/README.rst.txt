@@ -15,7 +15,7 @@ thermorawfileparser
    :homepage: https://github.com/compomics/ThermoRawFileParser
    :documentation: https://github.com/compomics/ThermoRawFileParser/blob/master/README.md
    
-   :license: Other
+   :license: APACHE / Apache Software
    :recipe: /`thermorawfileparser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/thermorawfileparser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/thermorawfileparser/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ thermorawfileparser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.11-0</code>,  <code>1.1.10-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.11-0</code>,  <code>1.1.10-0</code>,  </span></summary>
       
 
-      ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``0.0.2018.09.07-1``,  ``0.0.2018.09.07-0``
+      ``1.3.2-1``,  ``1.3.2-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``0.0.2018.09.07-1``,  ``0.0.2018.09.07-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ thermorawfileparser
 
    
    :depends mono: ``>=5``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

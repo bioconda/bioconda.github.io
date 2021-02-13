@@ -13,7 +13,7 @@ lca
    LCA \- Lowest Common Ancestor calculation tool
 
    :homepage: https://github.com/hildebra/LCA/
-   :license: GPLv3
+   :license: GPL-3.0-only
    :recipe: /`lca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lca/meta.yaml>`_
 
    
@@ -27,13 +27,13 @@ lca
       
       
 
-      ``0.18-0``
+      ``0.21-0``,  ``0.18-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

@@ -27,12 +27,13 @@ jvarkit-wgscoverageplotter
       
       
 
-      ``20201223-0``
+      ``20201223-2``,  ``20201223-1``,  ``20201223-0``
 
       
 
    
    :depends openjdk: ``>=11``
+   :depends python: ``>=2``
    :requirements:
 
    .. rubric:: Installation

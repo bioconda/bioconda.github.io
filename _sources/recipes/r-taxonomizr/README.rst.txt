@@ -27,12 +27,12 @@ r-taxonomizr
       
       
 
-      ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.1-0``
+      ``0.6.0-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends parallel: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
