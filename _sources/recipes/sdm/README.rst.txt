@@ -13,7 +13,7 @@ sdm
    sdm \- simple demultiplex tool for FASTQ demultiplexing and dereplication
 
    :homepage: https://github.com/hildebra/sdm/
-   :license: GPLv3
+   :license: GPL-3.0-only
    :recipe: /`sdm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdm/meta.yaml>`_
 
    
@@ -27,13 +27,13 @@ sdm
       
       
 
-      ``1.47-0``
+      ``1.73-0``,  ``1.47-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

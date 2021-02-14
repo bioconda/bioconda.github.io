@@ -10,7 +10,7 @@ vulcan
    :replaces_section_title:
    :noindex:
 
-   vulcan\, map long and prosper🖖\, a pipeline melds minimap2 and NGMLR
+   vulcan\, map long reads and prosper🖖\, a long read mapping pipeline that melds minimap2 and NGMLR
 
    :homepage: https://gitlab.com/treangenlab/vulcan
    :license: MIT
@@ -27,7 +27,7 @@ vulcan
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 
