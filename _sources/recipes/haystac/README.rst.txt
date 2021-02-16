@@ -29,7 +29,7 @@ haystac
       
       
 
-      ``0.3-0``,  ``0.2-0``
+      ``0.3.1-0``,  ``0.3-0``,  ``0.2-0``
 
       
 
@@ -43,6 +43,7 @@ haystac
    :depends mapdamage2: ``>=2.2.1``
    :depends numpy: ``>=1.19.2``
    :depends pandas: ``>=1.0.3``
+   :depends picard: ``>=2.24.0``
    :depends psutil: ``>=5.7.2``
    :depends pysam: ``>=0.16``
    :depends python: ``>=3.6``
