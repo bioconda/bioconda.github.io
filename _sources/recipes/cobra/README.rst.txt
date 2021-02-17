@@ -40,22 +40,22 @@ cobra
       
 
    
-   :depends appdirs: ``>=1.4``
-   :depends depinfo: ``>=1.5.1``
-   :depends diskcache: ``>=5.0``
+   :depends appdirs: 
+   :depends depinfo: 
+   :depends diskcache: 
    :depends future: 
-   :depends httpx: ``>=0.14``
+   :depends httpx: 
+   :depends importlib_resources: 
    :depends numpy: ``>=1.13``
-   :depends optlang: ``<1.4.6``
+   :depends optlang: ``>=1.4.2,<1.4.6``
    :depends pandas: ``>=1.0``
-   :depends pydantic: ``>=1.6``
-   :depends python: 
-   :depends python-libsbml: ``>=5.18.0``
-   :depends rich: ``>=6.0``
+   :depends pydantic: 
+   :depends python: ``>=3.6``
+   :depends python-libsbml: ``5.19.0``
+   :depends rich: ``<7.0``
    :depends ruamel.yaml: ``>=0.16``
    :depends six: 
-   :depends swiglpk: ``>=4.65``
-   :depends tabulate: 
+   :depends swiglpk: 
    :requirements:
 
    .. rubric:: Installation
