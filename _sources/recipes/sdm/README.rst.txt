@@ -13,7 +13,7 @@ sdm
    sdm \- simple demultiplex tool for FASTQ demultiplexing and dereplication
 
    :homepage: https://github.com/hildebra/sdm/
-   :license: GPL-3.0-only
+   :license: GPL-3.0-or-later
    :recipe: /`sdm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdm/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ sdm
       
       
 
-      ``1.73-0``,  ``1.47-0``
+      ``1.73-1``,  ``1.73-0``,  ``1.47-0``
 
       
 

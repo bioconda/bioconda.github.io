@@ -28,10 +28,10 @@ blasr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.3.3-2</code>,  <code>5.3.3-1</code>,  <code>5.3.3-0</code>,  <code>5.3.2-5</code>,  <code>5.3.2-4</code>,  <code>5.3.2-3</code>,  <code>5.3.2-2</code>,  <code>5.3.2-1</code>,  <code>5.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3.5-0</code>,  <code>5.3.3-2</code>,  <code>5.3.3-1</code>,  <code>5.3.3-0</code>,  <code>5.3.2-5</code>,  <code>5.3.2-4</code>,  <code>5.3.2-3</code>,  <code>5.3.2-2</code>,  <code>5.3.2-1</code>,  </span></summary>
       
 
-      ``5.3.3-2``,  ``5.3.3-1``,  ``5.3.3-0``,  ``5.3.2-5``,  ``5.3.2-4``,  ``5.3.2-3``,  ``5.3.2-2``,  ``5.3.2-1``,  ``5.3.2-0``,  ``5.3.1-0``,  ``5.2p1-0``
+      ``5.3.5-0``,  ``5.3.3-2``,  ``5.3.3-1``,  ``5.3.3-0``,  ``5.3.2-5``,  ``5.3.2-4``,  ``5.3.2-3``,  ``5.3.2-2``,  ``5.3.2-1``,  ``5.3.2-0``,  ``5.3.1-0``,  ``5.2p1-0``
 
       
       .. raw:: html
@@ -40,11 +40,6 @@ blasr
       
 
    
-   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends htslib: ``>=1.9,<1.10.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

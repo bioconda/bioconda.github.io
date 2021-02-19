@@ -27,7 +27,7 @@ samap
       
       
 
-      ``0.1.4-1``,  ``0.1.4-0``
+      ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
@@ -37,7 +37,7 @@ samap
    :depends hnswlib: 
    :depends leidenalg: 
    :depends python: ``<3.8``
-   :depends sam-algorithm: ``>=0.8.1``
+   :depends sam-algorithm: ``>=0.8.4``
    :depends scanpy: 
    :requirements:
 
