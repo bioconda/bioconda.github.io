@@ -30,7 +30,7 @@ phate
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``0.4.5-0``
+      ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``0.4.5-0``
 
       
 
@@ -38,7 +38,7 @@ phate
    :depends deprecated: 
    :depends future: 
    :depends graphtools: ``>=1.3.1``
-   :depends matplotlib: ``>=3.0``
+   :depends matplotlib-base: ``>=3.0``
    :depends numpy: ``>=1.16.0``
    :depends python: ``>=3.5``
    :depends s_gd2: ``>=1.5``

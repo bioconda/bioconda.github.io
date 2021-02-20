@@ -30,7 +30,7 @@ open-cravat
       
       
 
-      ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
+      ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
 
       
 
@@ -41,6 +41,7 @@ open-cravat
    :depends intervaltree: 
    :depends markdown: 
    :depends nest-asyncio: 
+   :depends openpyxl: 
    :depends oyaml: 
    :depends psutil: 
    :depends pyliftover: 

@@ -27,14 +27,13 @@ pileuppy
       
       
 
-      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends argparse: 
    :depends colored: 
-   :depends pysam: 
+   :depends pysam: ``>=0.15``
    :depends python: ``>=3``
    :requirements:
 

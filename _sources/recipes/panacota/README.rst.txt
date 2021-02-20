@@ -29,7 +29,7 @@ panacota
       
       
 
-      ``1.1.0-0``,  ``1.0.1.2-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1.2-0``
 
       
 
@@ -48,7 +48,7 @@ panacota
    :depends numpy: ``>=1.11``
    :depends prodigal: ``>=2.6.2``
    :depends progressbar2: ``>=3.18.0``
-   :depends prokka: ``>=1.11,<=1.14.5``
+   :depends prokka: ``1.14.5``
    :depends python: ``>=3.4``
    :depends quicktree: 
    :depends scipy: 

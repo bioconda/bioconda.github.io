@@ -30,14 +30,15 @@ blksheep
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
-   :depends matplotlib: ``>=3.1.0``
+   :depends matplotlib-base: ``>=3.1.0``
    :depends numpy: ``>=1.16.4``
    :depends pandas: ``>=0.24.2``
+   :depends python: 
    :depends scikit-learn: ``>=0.21.2``
    :depends scipy: ``>=1.2.1``
    :depends seaborn: ``>=0.9.0``

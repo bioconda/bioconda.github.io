@@ -27,7 +27,7 @@ ggcaller
       
       
 
-      ``1.1.1-0``,  ``1.0.0-0``
+      ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
@@ -36,11 +36,23 @@ ggcaller
    :depends bifrost: 
    :depends biopython: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends graph-tool: 
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :depends pthread-stubs: 
    :depends python: ``>=3.9,<3.10.0a0``
    :depends python_abi: ``3.9.* *_cp39``
+   :depends pytorch: 
+   :depends tqdm: 
+   :depends xorg-libxaw: 
+   :depends xorg-libxcomposite: 
+   :depends xorg-libxcursor: 
+   :depends xorg-libxdamage: 
+   :depends xorg-libxfixes: 
+   :depends xorg-libxi: 
+   :depends xorg-libxinerama: 
+   :depends xorg-libxpm: 
+   :depends xorg-libxrandr: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

@@ -28,10 +28,10 @@ pangolin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-1</code>,  <code>2.1.10-0</code>,  <code>2.1.7-0</code>,  <code>1.1.14-0</code>,  <code>1.1.13-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-1</code>,  <code>2.1.10-0</code>,  <code>2.1.7-0</code>,  <code>1.1.14-0</code>,  </span></summary>
       
 
-      ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.7-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.11-0``,  ``1.1.5-0``,  ``1.1-0``
+      ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.7-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.11-0``,  ``1.1.5-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -40,20 +40,15 @@ pangolin
       
 
    
-   :depends biopython: ``>=1.70``
-   :depends cov-lineages: 
-   :depends datafunk: 
-   :depends dendropy: ``>=4.4.0``
-   :depends iqtree: ``<2``
+   :depends biopython: ``>=1.74``
+   :depends gofasta: 
    :depends joblib: ``>=0.11``
-   :depends mafft: 
    :depends minimap2: 
    :depends pandas: ``>=1.0.1``
-   :depends pangolearn: ``>=2021.02.01``
+   :depends pangolearn: ``>=2021.02.12``
    :depends pulp: ``>=2``
-   :depends pysam: ``>=0.15.4``
+   :depends pysam: ``>=0.16.0``
    :depends python: ``>=3.6``
-   :depends pytools: ``>=2020.1``
    :depends scikit-learn: ``0.23.1``
    :depends snakemake-minimal: ``>=5.13``
    :requirements:
