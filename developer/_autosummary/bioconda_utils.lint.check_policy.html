@@ -159,13 +159,13 @@ can be mechanically checked).</p>
 <p class="rubric">Documentation</p>
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_policy.cran_packages_to_conda_forge">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_policy.</code><code class="sig-name descname">cran_packages_to_conda_forge</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#cran_packages_to_conda_forge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_policy.</span></code><code class="sig-name descname"><span class="pre">cran_packages_to_conda_forge</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#cran_packages_to_conda_forge"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge" title="Permalink to this definition">¶</a></dt>
 <dd><p>CRAN packages not depending on Bioconda should go to Conda-Forge</p>
 <p>This recipe builds a CRAN package and does not depend on packages
 from Bioconda. It should therefore be moved to Conda-Forge.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.check_deps">
-<code class="sig-name descname">check_deps</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">deps</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#cran_packages_to_conda_forge.check_deps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.check_deps" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_deps</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deps</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#cran_packages_to_conda_forge.check_deps"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.cran_packages_to_conda_forge.check_deps" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe dependencies</p>
 <p>Example format for <strong>deps</strong>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
@@ -189,13 +189,13 @@ to their locations within the recipe.</p>
 
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_policy.folder_and_package_name_must_match">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_policy.</code><code class="sig-name descname">folder_and_package_name_must_match</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#folder_and_package_name_must_match"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.folder_and_package_name_must_match" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_policy.</span></code><code class="sig-name descname"><span class="pre">folder_and_package_name_must_match</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#folder_and_package_name_must_match"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.folder_and_package_name_must_match" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe folder and package name do not match.</p>
 <p>For clarity, the name of the folder the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> resides,
 in and the name of the toplevel package should match.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_policy.folder_and_package_name_must_match.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#folder_and_package_name_must_match.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.folder_and_package_name_must_match.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_recipe</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#folder_and_package_name_must_match.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.folder_and_package_name_must_match.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -210,7 +210,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_policy.gpl_requires_license_distributed">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_policy.</code><code class="sig-name descname">gpl_requires_license_distributed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#gpl_requires_license_distributed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.gpl_requires_license_distributed" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_policy.</span></code><code class="sig-name descname"><span class="pre">gpl_requires_license_distributed</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#gpl_requires_license_distributed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.gpl_requires_license_distributed" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe packages GPL software but is missing copy of license.</p>
 <p>The GPL requires that a copy of the license accompany all distributions
 of the software. Please add:</p>
@@ -222,7 +222,7 @@ of the software. Please add:</p>
 authors of the software to add it to their distribution archive.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_policy.gpl_requires_license_distributed.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#gpl_requires_license_distributed.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.gpl_requires_license_distributed.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_recipe</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#gpl_requires_license_distributed.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.gpl_requires_license_distributed.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -237,7 +237,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_policy.has_windows_bat_file">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_policy.</code><code class="sig-name descname">has_windows_bat_file</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#has_windows_bat_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.has_windows_bat_file" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_policy.</span></code><code class="sig-name descname"><span class="pre">has_windows_bat_file</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#has_windows_bat_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.has_windows_bat_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe directory contains a <code class="docutils literal notranslate"><span class="pre">bat</span></code> file.</p>
 <p>Bioconda does not currently build packages for Windows (and has at
 this time no plans to change this), so these files cannot be
@@ -246,7 +246,7 @@ tested.</p>
 from the recipe directory.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_policy.has_windows_bat_file.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#has_windows_bat_file.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.has_windows_bat_file.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_recipe</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#has_windows_bat_file.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.has_windows_bat_file.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -261,7 +261,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_policy.long_summary">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_policy.</code><code class="sig-name descname">long_summary</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#long_summary"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.long_summary" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_policy.</span></code><code class="sig-name descname"><span class="pre">long_summary</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#long_summary"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.long_summary" title="Permalink to this definition">¶</a></dt>
 <dd><p>The summary line is rather long</p>
 <p>Consider using the description field for longer text:</p>
 <dl>
@@ -280,7 +280,7 @@ recipes, which assume the summary to be a title and the
 description to be one or more paragraphs.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_policy.long_summary.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#long_summary.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.long_summary.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_recipe</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#long_summary.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.long_summary.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -295,13 +295,13 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_policy.should_not_use_fn">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_policy.</code><code class="sig-name descname">should_not_use_fn</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#should_not_use_fn"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.should_not_use_fn" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_policy.</span></code><code class="sig-name descname"><span class="pre">should_not_use_fn</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#should_not_use_fn"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.should_not_use_fn" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe uses source/fn</p>
 <p>There is no need to specify the filename as the URL should give a name
 and it will in most cases be unpacked automatically.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_policy.should_not_use_fn.check_source">
-<code class="sig-name descname">check_source</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">source</span></em>, <em class="sig-param"><span class="n">section</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#should_not_use_fn.check_source"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.should_not_use_fn.check_source" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_source</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">section</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#should_not_use_fn.check_source"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.should_not_use_fn.check_source" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on each source</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -318,13 +318,13 @@ and it will in most cases be unpacked automatically.</p>
 
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_policy.uses_vcs_url">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_policy.</code><code class="sig-name descname">uses_vcs_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#uses_vcs_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.uses_vcs_url" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_policy.</span></code><code class="sig-name descname"><span class="pre">uses_vcs_url</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#uses_vcs_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.uses_vcs_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe downloads source from a VCS</p>
 <p>Please build from source archives and don’t use the <code class="docutils literal notranslate"><span class="pre">git_url</span></code>,
 <code class="docutils literal notranslate"><span class="pre">svn_url</span></code> or <code class="docutils literal notranslate"><span class="pre">hg_url</span></code> feature of conda.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_policy.uses_vcs_url.check_source">
-<code class="sig-name descname">check_source</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">source</span></em>, <em class="sig-param"><span class="n">section</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#uses_vcs_url.check_source"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.uses_vcs_url.check_source" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_source</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">section</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_policy.html#uses_vcs_url.check_source"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_policy.uses_vcs_url.check_source" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on each source</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -352,7 +352,7 @@ and it will in most cases be unpacked automatically.</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

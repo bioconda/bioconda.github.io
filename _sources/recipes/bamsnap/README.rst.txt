@@ -12,7 +12,7 @@ bamsnap
 
    A converter from .bam to .png for specific genomic region.
 
-   :homepage: https://github.com/danielmsk/bamsnap
+   :homepage: https://github.com/parklab/bamsnap
    :license: MIT / MIT
    :recipe: /`bamsnap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamsnap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamsnap/meta.yaml>`_
 
@@ -27,7 +27,7 @@ bamsnap
       
       
 
-      ``0.2.17-0``
+      ``0.2.18-0``,  ``0.2.17-0``
 
       
 

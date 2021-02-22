@@ -166,7 +166,7 @@
 <p class="rubric">Documentation</p>
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.add_to_navbar">
-<code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">add_to_navbar</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">title</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#add_to_navbar"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.add_to_navbar" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">add_to_navbar</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#add_to_navbar"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.add_to_navbar" title="Permalink to this definition">¶</a></dt>
 <dd><p>Decorator adding a view to the navigation bar</p>
 <p>Must be “above” the <code class="docutils literal notranslate"><span class="pre">&#64;web_routes</span></code> decorator.</p>
 <dl class="field-list simple">
@@ -179,7 +179,7 @@ and the name in the navbar.</p>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.auth_github">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">auth_github</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#auth_github"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.auth_github" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">auth_github</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#auth_github"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.auth_github" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for signing in with Github</p>
 <p>Currently the only authentication method (and probably will remain so).</p>
 <p>This will redirect to Github to allow OAUTH authentication if
@@ -188,7 +188,7 @@ necessary.</p>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.check_permission">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">check_permission</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em>, <em class="sig-param"><span class="n">permission</span></em>, <em class="sig-param"><span class="n">context</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#check_permission"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.check_permission" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">check_permission</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">permission</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#check_permission"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.check_permission" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks permissions</p>
 <p>Custom implementation replacing aiohttp-security one. This one
 adds the requested permissions to the request so they can
@@ -202,7 +202,7 @@ be presented in the error handler.</p>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.generic_circleci_dispatch">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">generic_circleci_dispatch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#generic_circleci_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.generic_circleci_dispatch" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">generic_circleci_dispatch</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#generic_circleci_dispatch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.generic_circleci_dispatch" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for incoming webhooks from CircleCI</p>
 <p>These are actually slack messages. We try to deparse them, but
 nothing is implemented on acting upon them yet.</p>
@@ -210,7 +210,7 @@ nothing is implemented on acting upon them yet.</p>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.generic_webhook_dispatch">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">generic_webhook_dispatch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#generic_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.generic_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">generic_webhook_dispatch</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#generic_webhook_dispatch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.generic_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for all other incoming webhooks</p>
 <p>This is just for debugging, so we can see what we would be
 receiving</p>
@@ -218,7 +218,7 @@ receiving</p>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.github_webhook_dispatch">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">github_webhook_dispatch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#github_webhook_dispatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">github_webhook_dispatch</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#github_webhook_dispatch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.github_webhook_dispatch" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for incoming webhooks from Github</p>
 <p>Here, webhooks (events) from Github are accepted and dispatched to
 the event handlers defined in <a class="reference internal" href="bioconda_utils.bot.events.html#module-bioconda_utils.bot.events" title="bioconda_utils.bot.events"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">events</span></code></a> module and registered with
@@ -227,13 +227,13 @@ the event handlers defined in <a class="reference internal" href="bioconda_utils
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.list_commands">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">list_commands</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#list_commands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.list_commands" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">list_commands</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#list_commands"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.list_commands" title="Permalink to this definition">¶</a></dt>
 <dd><p>Self documents available commands</p>
 </dd></dl>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.login">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">login</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#login"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.login" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">login</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#login"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.login" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for login page</p>
 <p>Redirects to <code class="docutils literal notranslate"><span class="pre">/auth/github</span></code> in all cases - no other login
 methods supported.</p>
@@ -241,7 +241,7 @@ methods supported.</p>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.logout">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">logout</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#logout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.logout" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">logout</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#logout"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.logout" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for logging out user</p>
 <p>Accepts a <strong>next</strong> parameter in the URL. This is where the user is
 sent back to (via HTTP redirect) after logging out.</p>
@@ -249,20 +249,20 @@ sent back to (via HTTP redirect) after logging out.</p>
 
 <dl class="py data">
 <dt id="bioconda_utils.bot.views.navigation_bar">
-<code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">navigation_bar</code><em class="property"> = [('/', 'home', 'Home'), ('/status', 'status', 'Status'), ('/commands', 'commands', 'Commands')]</em><a class="headerlink" href="#bioconda_utils.bot.views.navigation_bar" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">navigation_bar</span></code><em class="property"> <span class="pre">=</span> <span class="pre">[('/',</span> <span class="pre">'home',</span> <span class="pre">'Home'),</span> <span class="pre">('/status',</span> <span class="pre">'status',</span> <span class="pre">'Status'),</span> <span class="pre">('/commands',</span> <span class="pre">'commands',</span> <span class="pre">'Commands')]</span></em><a class="headerlink" href="#bioconda_utils.bot.views.navigation_bar" title="Permalink to this definition">¶</a></dt>
 <dd><p>List of navigation bar entries defined by this module</p>
 </dd></dl>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.show_index">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_index</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#show_index"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_index" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">show_index</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#show_index"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_index" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for the Bot’s home page.</p>
 <p>Renders nothing special at the moment, just the template.</p>
 </dd></dl>
 
 <dl class="py function">
 <dt id="bioconda_utils.bot.views.show_status">
-<em class="property">async </em><code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">show_status</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#show_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_status" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">show_status</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/views.html#show_status"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.views.show_status" title="Permalink to this definition">¶</a></dt>
 <dd><p>View for checking in on the bots status</p>
 <p>Shows the status of each responsding worker.  This page may take
 100ms extra to render. If workers are busy, they may not respons
@@ -271,7 +271,7 @@ within that time.</p>
 
 <dl class="py data">
 <dt id="bioconda_utils.bot.views.web_routes">
-<code class="sig-prename descclassname">bioconda_utils.bot.views.</code><code class="sig-name descname">web_routes</code><em class="property"> = &lt;RouteTableDef count=9&gt;</em><a class="headerlink" href="#bioconda_utils.bot.views.web_routes" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.views.</span></code><code class="sig-name descname"><span class="pre">web_routes</span></code><em class="property"> <span class="pre">=</span> <span class="pre">&lt;RouteTableDef</span> <span class="pre">count=9&gt;</span></em><a class="headerlink" href="#bioconda_utils.bot.views.web_routes" title="Permalink to this definition">¶</a></dt>
 <dd><p>List of routes from url path to handler defined in this module</p>
 </dd></dl>
 
@@ -288,7 +288,7 @@ within that time.</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -150,14 +150,14 @@ other channels, existing versions).</p>
 <p class="rubric">Documentation</p>
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_repo.build_number_needs_bump">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_repo.</code><code class="sig-name descname">build_number_needs_bump</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_bump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_bump" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_repo.</span></code><code class="sig-name descname"><span class="pre">build_number_needs_bump</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_bump"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_bump" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe build number should be incremented</p>
 <p>A package with the same name and version and a build number at
 least as high as specified in the recipe already exists in the
 channel. Please increase the build number.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_repo.build_number_needs_bump.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_bump.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_bump.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_recipe</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_bump.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_bump.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -170,7 +170,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_repo.build_number_needs_bump.fix">
-<code class="sig-name descname">fix</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_message</span></em>, <em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_bump.fix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_bump.fix" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">fix</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_bump.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_bump.fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Attempt to fix the problem</p>
 </dd></dl>
 
@@ -178,13 +178,13 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_repo.build_number_needs_reset">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_repo.</code><code class="sig-name descname">build_number_needs_reset</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_reset"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_reset" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_repo.</span></code><code class="sig-name descname"><span class="pre">build_number_needs_reset</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_reset" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe build number should be reset to 0</p>
 <p>No previous build of a package of this name and this version exists,
 the build number should therefore be 0.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_repo.build_number_needs_reset.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_reset.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_reset.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_recipe</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_reset.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_reset.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -197,7 +197,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_repo.build_number_needs_reset.fix">
-<code class="sig-name descname">fix</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_message</span></em>, <em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_reset.fix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_reset.fix" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">fix</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#build_number_needs_reset.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.build_number_needs_reset.fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Attempt to fix the problem</p>
 </dd></dl>
 
@@ -205,7 +205,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_repo.in_other_channels">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_repo.</code><code class="sig-name descname">in_other_channels</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#in_other_channels"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.in_other_channels" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_repo.</span></code><code class="sig-name descname"><span class="pre">in_other_channels</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#in_other_channels"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.in_other_channels" title="Permalink to this definition">¶</a></dt>
 <dd><p>A package of the same name already exists in another channel</p>
 <p>Bioconda and Conda-Forge occupy the same name space and have
 agreed not to add packages if a package of the same name is
@@ -216,7 +216,7 @@ already present in the respective other channel.</p>
 new home at conda-forge.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_repo.in_other_channels.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#in_other_channels.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.in_other_channels.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_recipe</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#in_other_channels.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.in_other_channels.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -231,13 +231,13 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py class">
 <dt id="bioconda_utils.lint.check_repo.recipe_is_blacklisted">
-<em class="property">class </em><code class="sig-prename descclassname">bioconda_utils.lint.check_repo.</code><code class="sig-name descname">recipe_is_blacklisted</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">linter</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#recipe_is_blacklisted"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.recipe_is_blacklisted" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_repo.</span></code><code class="sig-name descname"><span class="pre">recipe_is_blacklisted</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#recipe_is_blacklisted"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.recipe_is_blacklisted" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe is currently blacklisted and will not be built.</p>
 <p>If you are intending to repair this recipe, remove it from
 the build fail blacklist.</p>
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_repo.recipe_is_blacklisted.check_recipe">
-<code class="sig-name descname">check_recipe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">recipe</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#recipe_is_blacklisted.check_recipe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.recipe_is_blacklisted.check_recipe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">check_recipe</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#recipe_is_blacklisted.check_recipe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.recipe_is_blacklisted.check_recipe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute check on recipe</p>
 <p>Override this method in subclasses, using <code class="docutils literal notranslate"><span class="pre">self.message()</span></code>
 to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LintMessage</span></code></a> as failures are encountered.</p>
@@ -250,7 +250,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
 
 <dl class="py method">
 <dt id="bioconda_utils.lint.check_repo.recipe_is_blacklisted.fix">
-<code class="sig-name descname">fix</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">_message</span></em>, <em class="sig-param"><span class="n">_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#recipe_is_blacklisted.fix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.recipe_is_blacklisted.fix" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">fix</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_repo.html#recipe_is_blacklisted.fix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_repo.recipe_is_blacklisted.fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Attempt to fix the problem</p>
 </dd></dl>
 
@@ -269,7 +269,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
