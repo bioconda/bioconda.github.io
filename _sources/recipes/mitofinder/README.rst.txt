@@ -12,7 +12,7 @@ mitofinder
 
    Mitofinder is a pipeline to assemble mitochondrial genomes and annotate mitochondrial genes from trimmed read sequencing data.
 
-   :homepage: https://github.com/parklab/xTea
+   :homepage: https://github.com/RemiAllio/MitoFinder
    :license: MIT
    :recipe: /`mitofinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mitofinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mitofinder/meta.yaml>`_
 
