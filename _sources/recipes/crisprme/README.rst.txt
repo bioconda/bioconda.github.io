@@ -28,10 +28,10 @@ crisprme
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.5-0</code>,  <code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  </span></summary>
       
 
-      ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.4.5-0``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,22 @@ crisprme
 
    
    :depends crispritz: 
-   :depends python: ``>3.6``
+   :depends dash: ``1.10.0.*``
+   :depends dash-bootstrap-components: ``0.10.0.*``
+   :depends dash-core-components: ``1.9.0.*``
+   :depends dash-daq: ``0.4.0.*``
+   :depends dash-html-components: ``1.0.3.*``
+   :depends dash-renderer: ``1.3.0.*``
+   :depends dash-table: ``4.6.2.*``
+   :depends flask: ``1.1.2.*``
+   :depends flask-caching: ``1.7.1.*``
+   :depends flask-compress: ``1.5.0.*``
+   :depends fontconfig: ``2.13.1.*``
+   :depends freetype: ``2.10.1.*``
+   :depends future: ``0.18.2.*``
+   :depends gettext: ``0.19.8.1.*``
+   :depends gunicorn: ``20.0.4.*``
+   :depends zip: 
    :requirements:
 
    .. rubric:: Installation

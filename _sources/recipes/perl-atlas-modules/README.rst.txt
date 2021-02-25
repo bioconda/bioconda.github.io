@@ -27,7 +27,7 @@ perl-atlas-modules
       
       
 
-      ``0.1.6-0``
+      ``0.1.6-1``,  ``0.1.6-0``
 
       
 
@@ -49,7 +49,7 @@ perl-atlas-modules
    :depends perl-date-manip: 
    :depends perl-datetime: 
    :depends perl-datetime-format-strptime: 
-   :depends perl-dbd-pg: 
+   :depends perl-dbd-pg: ``>3.5.3``
    :depends perl-dbi: 
    :depends perl-devel-symdump: 
    :depends perl-extutils-cbuilder: 

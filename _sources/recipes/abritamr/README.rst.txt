@@ -27,17 +27,19 @@ abritamr
       
       
 
-      ``0.1.0-0``
+      ``0.2.2-0``,  ``0.1.0-0``
 
       
 
    
-   :depends blast: ``2.9 pl526h3066fca_4``
+   :depends blast: 
    :depends click: 
+   :depends hmmer: 
    :depends jinja2: 
+   :depends libcurl: 
    :depends ncbi-amrfinderplus: 
    :depends pandas: 
-   :depends python: ``>=3.6``
+   :depends python: ``3.7.*``
    :depends snakemake: 
    :requirements:
 
