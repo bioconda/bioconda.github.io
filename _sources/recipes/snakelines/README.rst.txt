@@ -27,7 +27,7 @@ snakelines
       
       
 
-      ``0.9.2-0``
+      ``0.10.0-0``,  ``0.9.2-0``
 
       
 
@@ -40,6 +40,7 @@ snakelines
    :depends oyaml: ``0.9``
    :depends pandas: ``1.1.3``
    :depends pysam: ``0.16.0.1``
+   :depends python: ``3.7.6``
    :depends scikit-bio: ``0.5.6``
    :depends seaborn: ``0.11.0``
    :depends snakemake: ``5.13.0``

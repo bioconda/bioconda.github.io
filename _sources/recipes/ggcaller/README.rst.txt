@@ -27,7 +27,7 @@ ggcaller
       
       
 
-      ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
@@ -43,7 +43,6 @@ ggcaller
    :depends python: ``>=3.9,<3.10.0a0``
    :depends python_abi: ``3.9.* *_cp39``
    :depends pytorch: 
-   :depends tqdm: 
    :depends xorg-libxaw: 
    :depends xorg-libxcomposite: 
    :depends xorg-libxcursor: 

@@ -27,13 +27,14 @@ illumiprocessor
       
       
 
-      ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``
+      ``2.10-0``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``
 
       
 
    
-   :depends python: ``<3``
-   :depends trimmomatic: 
+   :depends openjdk: ``11.0.8.*``
+   :depends python: ``3.6.*``
+   :depends trimmomatic: ``0.39.*``
    :requirements:
 
    .. rubric:: Installation
