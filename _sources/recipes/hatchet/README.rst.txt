@@ -30,11 +30,24 @@ hatchet
       
       
 
-      
+      ``0.2.9-0``
 
       
 
    
+   :depends biopython: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends matplotlib-base: 
+   :depends pandas: 
+   :depends psutil: 
+   :depends pysam: 
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
+   :depends requests: 
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seaborn: 
    :requirements:
 
    .. rubric:: Installation

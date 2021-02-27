@@ -28,10 +28,10 @@ bohra
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.16-0</code>,  <code>1.2.15-0</code>,  <code>1.2.14-0</code>,  <code>1.2.12-0</code>,  <code>1.2.11-0</code>,  <code>1.2.10-1</code>,  <code>1.2.10-0</code>,  <code>1.2.9-0</code>,  <code>1.2.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.18-0</code>,  <code>1.2.16-0</code>,  <code>1.2.15-0</code>,  <code>1.2.14-0</code>,  <code>1.2.12-0</code>,  <code>1.2.11-0</code>,  <code>1.2.10-1</code>,  <code>1.2.10-0</code>,  <code>1.2.9-0</code>,  </span></summary>
       
 
-      ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.27-0``,  ``1.0.26-0``,  ``1.0.25-0``,  ``1.0.24-0``,  ``1.0.23-0``,  ``1.0.22-0``,  ``1.0.20-1``,  ``1.0.20-0``,  ``1.0.19-0``
+      ``1.2.18-0``,  ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.27-0``,  ``1.0.26-0``,  ``1.0.25-0``,  ``1.0.24-0``,  ``1.0.23-0``,  ``1.0.22-0``,  ``1.0.20-1``,  ``1.0.20-0``,  ``1.0.19-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ bohra
       
 
    
-   :depends abricate: ``>=0.9.9``
-   :depends abritamr: 
+   :depends abritamr: ``0.2.2``
    :depends biopython: ``>=1.70``
    :depends iqtree: 
    :depends jinja2: 
@@ -56,7 +55,9 @@ bohra
    :depends pytest: 
    :depends pytest-runner: 
    :depends python: ``>=3.7``
+   :depends quicktree: 
    :depends roary: 
+   :depends samtools: ``1.9``
    :depends seqtk: 
    :depends sh: 
    :depends shovill: ``>=1.0.9``
