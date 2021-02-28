@@ -27,13 +27,14 @@ flanker
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.4-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends abricate: ``>=1.0.1``
    :depends biopython: ``>=1.78``
+   :depends jellyfish: ``>=0.8.2``
    :depends mash: ``>=2.2.2``
    :depends networkx: ``>=2.5``
    :depends pandas: ``>=1.2``

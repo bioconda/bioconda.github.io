@@ -29,7 +29,7 @@ matchms
       
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
+      ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
 
       
 
@@ -41,9 +41,9 @@ matchms
    :depends numpy: 
    :depends pyteomics: ``>=4.2``
    :depends python: 
-   :depends pyyaml: 
+   :depends rdkit: ``>=2020.03.1``
    :depends requests: 
-   :depends scipy: 
+   :depends scipy: ``>=1.4.0``
    :requirements:
 
    .. rubric:: Installation
