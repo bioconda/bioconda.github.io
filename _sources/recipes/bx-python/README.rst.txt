@@ -28,10 +28,10 @@ bx-python
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.9-2</code>,  <code>0.8.9-1</code>,  <code>0.8.9-0</code>,  <code>0.8.8-1</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.10-0</code>,  <code>0.8.9-2</code>,  <code>0.8.9-1</code>,  <code>0.8.9-0</code>,  <code>0.8.8-1</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  </span></summary>
       
 
-      ``0.8.9-2``,  ``0.8.9-1``,  ``0.8.9-0``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.4-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-1``,  ``0.7.1-0``
+      ``0.8.10-0``,  ``0.8.9-2``,  ``0.8.9-1``,  ``0.8.9-0``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.4-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-1``,  ``0.7.1-0``
 
       
       .. raw:: html
@@ -42,10 +42,9 @@ bx-python
    
    :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends python-lzo: 
-   :depends python_abi: ``2.7.* *_cp27mu``
-   :depends six: ``>=1.13.0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

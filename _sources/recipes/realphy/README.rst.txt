@@ -13,7 +13,7 @@ realphy
    The Reference sequence Alignment based Phylogeny
 
    :homepage: https://realphy.unibas.ch/fcgi/realphy
-   :license: GPL >=3
+   :license: No commercial use
    :recipe: /`realphy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/realphy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/realphy/meta.yaml>`_
 
    
@@ -27,12 +27,13 @@ realphy
       
       
 
-      ``1.12-1``,  ``1.12-0``
+      ``1.12-2``
 
       
 
    
    :depends openjdk: ``>8.0.121``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation
