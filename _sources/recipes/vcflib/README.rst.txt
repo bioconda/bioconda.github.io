@@ -29,10 +29,10 @@ vcflib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.0_rc3-0</code>,  <code>1.0.0_rc2-2</code>,  <code>1.0.0_rc2-1</code>,  <code>1.0.0_rc2-0</code>,  <code>1.0.0_rc1-3</code>,  <code>1.0.0_rc1-1</code>,  <code>1.0.0_rc1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.0_rc3-0</code>,  <code>1.0.0_rc2-2</code>,  <code>1.0.0_rc2-1</code>,  <code>1.0.0_rc2-0</code>,  <code>1.0.0_rc1-3</code>,  <code>1.0.0_rc1-1</code>,  </span></summary>
       
 
-      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.0_rc3-0``,  ``1.0.0_rc2-2``,  ``1.0.0_rc2-1``,  ``1.0.0_rc2-0``,  ``1.0.0_rc1-3``,  ``1.0.0_rc1-1``,  ``1.0.0_rc1-0``,  ``1.0.0_rc0-0``
+      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.0_rc3-0``,  ``1.0.0_rc2-2``,  ``1.0.0_rc2-1``,  ``1.0.0_rc2-0``,  ``1.0.0_rc1-3``,  ``1.0.0_rc1-1``,  ``1.0.0_rc1-0``,  ``1.0.0_rc0-0``
 
       
       .. raw:: html

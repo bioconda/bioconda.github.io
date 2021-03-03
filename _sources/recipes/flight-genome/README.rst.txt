@@ -27,13 +27,14 @@ flight-genome
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends biopython: 
    :depends hdbscan: 
+   :depends imageio: 
    :depends joblib: ``0.17.0``
    :depends matplotlib-base: 
    :depends numba: 

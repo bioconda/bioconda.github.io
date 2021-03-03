@@ -12,9 +12,9 @@ r-goalie
 
    Assertive check functions for defensive R programming.
 
-   :homepage: https://goalie.acidgenomics.com/
-   :developer docs: https://github.com/acidgenomics/goalie
-   :license: GPL-3
+   :homepage: https://r.acidgenomics.com/packages/goalie/
+   :developer docs: https://github.com/acidgenomics/r-goalie
+   :license: GPL / AGPL-3
    :recipe: /`r-goalie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-goalie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-goalie/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-goalie
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  </span></summary>
       
 
-      ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.19-0``,  ``0.2.16-0``,  ``0.2.9-0``,  ``0.2.8-0``
+      ``0.5.0-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.19-0``,  ``0.2.16-0``,  ``0.2.9-0``,  ``0.2.8-0``
 
       
       .. raw:: html
@@ -41,7 +41,6 @@ r-goalie
       
 
    
-   :depends r-acidbase: ``>=0.2``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

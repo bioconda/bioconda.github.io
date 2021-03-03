@@ -10,9 +10,9 @@ curves
    :replaces_section_title:
    :noindex:
 
-   CURVES\+ for analyzing and visualizing the helical\, backbone and groove parameters of nucleic acid structures.
+   CURVES\+\: Conformational analysis of single nucleic acid structures or of molecular dynamics trajectories
 
-   :homepage: https://bisi.ibcp.fr/tools/curves_plus/index.html
+   :homepage: http://curvesplus.bsc.es/misc
    :license: APACHE / Apache Software License
    :recipe: /`curves <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/curves>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/curves/meta.yaml>`_
 
@@ -27,14 +27,19 @@ curves
       
       
 
-      ``2.6.0-0``
+      ``3.0.0-0``,  ``2.6.0-0``
 
       
 
    
+   :depends ambertools: ``20.*``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libgfortran-ng: 
    :depends libgfortran4: ``>=7.5.0``
+   :depends libnetcdf: ``>=4.7.*``
+   :depends libnetcdf: ``>=4.7.4,<4.7.5.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends netcdf-fortran: ``>=4.5.3,<4.6.0a0``
    :requirements:
 
    .. rubric:: Installation

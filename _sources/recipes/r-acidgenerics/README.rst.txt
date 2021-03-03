@@ -10,11 +10,11 @@ r-acidgenerics
    :replaces_section_title:
    :noindex:
 
-   S4 generics for Acid Genomics R packages.
+   S4 generic functions for Acid Genomics packages.
 
-   :homepage: https://acidgenerics.acidgenomics.com/
-   :developer docs: https://github.com/acidgenomics/AcidGenerics
-   :license: GPL / GPL-3.0
+   :homepage: https://r.acidgenomics.com/packages/acidgenerics/
+   :developer docs: https://github.com/acidgenomics/r-acidgenerics
+   :license: GPL / AGPL-3.0
    :recipe: /`r-acidgenerics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenerics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenerics/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-acidgenerics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.14-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.16-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.14-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  </span></summary>
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.14-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.0-0``
+      ``0.5.16-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.14-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -41,6 +41,10 @@ r-acidgenerics
       
 
    
+   :depends bioconductor-biobase: ``>=2.50``
+   :depends bioconductor-biocgenerics: ``>=0.36``
+   :depends bioconductor-iranges: ``>=2.24``
+   :depends bioconductor-s4vectors: ``>=0.28``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
