@@ -27,13 +27,15 @@ ddipy
       
       
 
-      ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
+   :depends click: 
+   :depends pyopenssl: 
    :depends python: ``>=3``
-   :depends requests: 
+   :depends requests: ``2.22.0``
    :requirements:
 
    .. rubric:: Installation

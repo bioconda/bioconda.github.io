@@ -29,7 +29,7 @@ deepnog
       
       
 
-      ``1.2.3-0``,  ``1.2.1-0``
+      ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.1-0``
 
       
 
@@ -38,6 +38,7 @@ deepnog
    :depends numpy: 
    :depends pandas: 
    :depends python: 
+   :depends pytorch: 
    :depends pyyaml: 
    :depends scikit-learn: 
    :depends tensorboard: 

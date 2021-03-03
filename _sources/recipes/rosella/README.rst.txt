@@ -10,7 +10,7 @@ rosella
    :replaces_section_title:
    :noindex:
 
-   Metagenomic binning algorithm using UMAP and HDBSCAN
+   Metagenomic binning pipeline and algorithm using UMAP and HDBSCAN
 
    :homepage: https://github.com/rhysnewell/rosella.git
    :license: GPL3
@@ -27,7 +27,7 @@ rosella
       
       
 
-      ``0.2.4-0``,  ``0.2.3-0``
+      ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
@@ -38,6 +38,7 @@ rosella
    :depends flight-genome: 
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends hdbscan: 
+   :depends imageio: 
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
@@ -46,7 +47,7 @@ rosella
    :depends numba: 
    :depends numpy: 
    :depends openblas: 
-   :depends openssl: ``>=1.1.1i,<1.1.2a``
+   :depends openssl: ``>=1.1.1j,<1.1.2a``
    :depends parallel: 
    :depends pkg-config: 
    :depends pynndescent: 

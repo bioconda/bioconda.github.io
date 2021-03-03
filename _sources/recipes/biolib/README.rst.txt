@@ -28,10 +28,10 @@ biolib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.8-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.52-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  </span></summary>
       
 
-      ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.52-0``,  ``0.0.51-0``,  ``0.0.46-1``,  ``0.0.46-0``
+      ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.52-0``,  ``0.0.51-0``,  ``0.0.46-1``,  ``0.0.46-0``
 
       
       .. raw:: html
@@ -40,8 +40,10 @@ biolib
       
 
    
-   :depends future: ``>=0.16.0``
+   :depends matplotlib-base: 
+   :depends numpy: 
    :depends python: ``>=3.6``
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
