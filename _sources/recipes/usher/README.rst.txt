@@ -27,11 +27,19 @@ usher
       
       
 
-      
+      ``0.1.3-0``
 
       
 
    
+   :depends biopython: 
+   :depends boost-cpp: ``>=1.75.0,<1.75.1.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libprotobuf: ``>=3.11.4,<3.12.0a0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends mafft: 
+   :depends python: 
+   :depends ucsc-fatovcf: 
    :requirements:
 
    .. rubric:: Installation

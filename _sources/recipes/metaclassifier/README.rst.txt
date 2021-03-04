@@ -13,8 +13,6 @@ metaclassifier
    MetaClassifier is an integrated pipeline for classifying and quantifying DNA metabarcoding data into taxonomy groups
 
    :homepage: https://github.com/ewafula/MetaClassifier
-   :documentation: https://github.com/ewafula/MetaClassifier/blob/main/docs/MetaClassifier.md
-   
    :license: GPL3 / GNU General Public v3 (GPLv3)
    :recipe: /`metaclassifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaclassifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaclassifier/meta.yaml>`_
 

@@ -31,7 +31,7 @@ galaxy-data
       
       
 
-      ``20.9.1-0``
+      ``20.9.1-1``,  ``20.9.1-0``
 
       
 
@@ -47,7 +47,7 @@ galaxy-data
    :depends parsley: 
    :depends pycryptodome: 
    :depends pydantic: 
-   :depends pysam: 
+   :depends pysam: ``>=0.15``
    :depends python: ``>=3.6``
    :depends six: ``>=1.9.0``
    :depends social-auth-core: 
