@@ -29,11 +29,12 @@ mokapot
       
       
 
-      ``0.5.1-0``,  ``0.5-0``
+      ``0.6.0-0``,  ``0.5.1-0``,  ``0.5-0``
 
       
 
    
+   :depends lxml: ``>=4.6.2``
    :depends matplotlib-base: ``>=3.1.3``
    :depends numba: ``>=0.48.0``
    :depends numpy: ``>=1.18.1``

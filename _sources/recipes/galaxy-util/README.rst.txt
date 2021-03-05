@@ -31,14 +31,16 @@ galaxy-util
       
       
 
-      ``20.9.1-0``,  ``20.9.0-0``,  ``20.5.0-0``,  ``19.9.0-1``,  ``19.9.0-0``
+      ``20.9.1-1``,  ``20.9.1-0``,  ``20.9.0-0``,  ``20.5.0-0``,  ``19.9.0-1``,  ``19.9.0-0``
 
       
 
    
    :depends bleach: 
    :depends boltons: 
+   :depends cheetah3: 
    :depends docutils: 
+   :depends future: 
    :depends markupsafe: 
    :depends packaging: 
    :depends python: ``>=3.5``
