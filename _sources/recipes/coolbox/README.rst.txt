@@ -27,29 +27,15 @@ coolbox
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends cooler: ``>=0.8.10``
-   :depends dna_features_viewer: 
-   :depends fire: 
-   :depends h5py: 
-   :depends intervaltree: 
-   :depends ipywidgets: ``>=7.5.1``
-   :depends jupyter: ``>=1.0.0``
-   :depends matplotlib-base: ``>=3.1.1``
-   :depends nbformat: 
-   :depends numpy: 
    :depends pairix: 
-   :depends pandas: 
-   :depends pybigwig: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends samtools: ``>=1.10``
-   :depends scipy: ``>=1.0.0``
    :depends tabix: 
-   :depends voila: 
    :requirements:
 
    .. rubric:: Installation
