@@ -28,10 +28,10 @@ deepbgc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.23-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  <code>0.1.18-1</code>,  <code>0.1.18-0</code>,  <code>0.1.17-0</code>,  <code>0.1.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.26-0</code>,  <code>0.1.23-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  <code>0.1.18-1</code>,  <code>0.1.18-0</code>,  <code>0.1.17-0</code>,  </span></summary>
       
 
-      ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``
+      ``0.1.26-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -41,15 +41,16 @@ deepbgc
 
    
    :depends appdirs: ``>=1.4.3``
-   :depends biopython: ``>=1.70,<=1.76``
+   :depends biopython: ``1.76``
    :depends hmmer: ``>=3.1b2``
-   :depends keras: ``>=2.2.4,<2.3.0``
-   :depends matplotlib-base: ``>=2.2.3``
-   :depends numpy: ``>=1.16.1``
-   :depends pandas: ``>=0.24.1``
+   :depends keras: ``2.2.4``
+   :depends matplotlib-base: ``2.2.3``
+   :depends numpy: ``1.16.1``
+   :depends pandas: ``0.24.1``
    :depends prodigal: 
    :depends python: ``>=3.5``
-   :depends scikit-learn: ``>=0.18.2``
+   :depends scikit-learn: ``0.21.3``
+   :depends scipy: ``1.2.0``
    :depends tensorflow: ``>=1.12.0,<2.0.0``
    :requirements:
 
