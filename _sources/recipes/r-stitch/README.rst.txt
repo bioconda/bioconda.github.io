@@ -26,15 +26,24 @@ r-stitch
    :versions:
       
       
+      .. raw:: html
 
-      ``1.6.5-0``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.6.5-2</code>,  <code>1.6.5-0</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.7-0</code>,  <code>1.5.5-0</code>,  </span></summary>
+      
 
+      ``1.6.5-2``,  ``1.6.5-0``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.7-0``,  ``1.5.5-0``,  ``1.5.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends gmp: ``>=6.2.0,<7.0a0``
+   :depends gmp: ``>=6.2.1,<7.0a0``
    :depends htslib: ``>=1.4``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.1.0,<2.0a0``
    :depends mpfr: ``>=4.0.2,<5.0a0``

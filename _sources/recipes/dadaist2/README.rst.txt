@@ -16,7 +16,7 @@ dadaist2
    :license: MIT
    :recipe: /`dadaist2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dadaist2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dadaist2/meta.yaml>`_
 
-   Command line wrapper to run DADA2 on a set of paired\-end reads
+   Command line wrapper to run DADA2 on a set of paired\-end reads with several exporting tools to generate plots and numerical ecology analyses
 
 
 .. conda:package:: dadaist2
@@ -27,7 +27,7 @@ dadaist2
       
       
 
-      ``0.7.3-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.00-2``,  ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
+      ``0.7.3-1``,  ``0.7.3-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.00-2``,  ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
 
       
 
@@ -37,6 +37,7 @@ dadaist2
    :depends bioconductor-microbiome: 
    :depends bioconductor-phyloseq: 
    :depends clustalo: 
+   :depends cutadapt: 
    :depends fastp: 
    :depends fasttree: 
    :depends pandas: ``>=1.0``
@@ -44,7 +45,6 @@ dadaist2
    :depends perl-fastx-reader: ``>=0.90``
    :depends python: ``>=3``
    :depends seqfu: 
-   :depends vsearch: 
    :requirements:
 
    .. rubric:: Installation

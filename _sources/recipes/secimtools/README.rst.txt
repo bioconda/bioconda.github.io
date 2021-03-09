@@ -27,27 +27,26 @@ secimtools
       
       
 
-      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``21.3.4.2-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-impute: ``1.46.0``
+   :depends bioconductor-impute: 
    :depends lxml: 
-   :depends matplotlib: ``>=1.5.1,<2.0.0``
-   :depends matplotlib-venn: ``>=0.11.1``
-   :depends numpy: ``>=1.9.3,<2.0a0``
-   :depends palettable: ``>=3.0.0``
-   :depends pandas: ``0.18.1``
-   :depends patsy: ``>=0.4.0``
-   :depends pymc: ``>=2.3.6``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends r-glmnet: ``2.0_5``
-   :depends rpy2: ``>=2.3.10,<2.9``
-   :depends scikit-learn: ``0.18.1``
-   :depends scipy: ``>=0.18.1,<1.0.0``
-   :depends seaborn: ``0.7.0``
-   :depends statsmodels: ``0.6.1``
+   :depends matplotlib-base: 
+   :depends matplotlib-venn: 
+   :depends numpy: ``>=1.16``
+   :depends palettable: 
+   :depends pandas: 
+   :depends pymc: 
+   :depends python: ``>=3.7``
+   :depends r-glmnet: 
+   :depends rpy2: 
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seaborn: 
+   :depends statsmodels: 
    :requirements:
 
    .. rubric:: Installation

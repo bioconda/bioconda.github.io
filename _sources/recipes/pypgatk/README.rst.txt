@@ -29,9 +29,17 @@ pypgatk
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.16-0</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-0</code>,  <code>0.0.12-0</code>,  <code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  </span></summary>
+      
 
+      ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -54,11 +62,14 @@ pypgatk
    :depends numpy: 
    :depends paramiko: 
    :depends pyasn1: 
+   :depends pybedtools: 
    :depends pycparser: 
    :depends pyfaidx: 
    :depends pylint: 
    :depends pynacl: 
+   :depends pysam: ``>=0.16``
    :depends pysftp: 
+   :depends pyteomics: 
    :depends python: ``>=3``
    :depends pyvcf: 
    :depends pyyaml: 
