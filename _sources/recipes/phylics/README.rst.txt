@@ -10,10 +10,10 @@ phylics
    :replaces_section_title:
    :noindex:
 
-   A tool to perform multi\-sample Phylogenetic analysis of Single Cell CNV profiles
+   Single\-cell CNV data analysis toolkit
 
    :homepage: https://github.com/bioinformatics-polito/PhyliCS
-   :license: AGPLv3 / BSD 2-Clause
+   :license: AGPL3
    :recipe: /`phylics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylics/meta.yaml>`_
 
    
@@ -27,43 +27,28 @@ phylics
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends aioeasywebdav: 
-   :depends bioconductor-ctc: 
-   :depends bioconductor-dnacopy: 
-   :depends boto3: 
-   :depends dicttoxml: 
-   :depends filechunkio: 
-   :depends jupyter: ``1.0.0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends matplotlib: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends patsy: 
-   :depends plumbum: 
-   :depends psutil: 
-   :depends pygraphviz: ``1.3.1``
-   :depends pysocks: 
-   :depends python: ``>=3.6``
-   :depends python-irodsclient: 
-   :depends r-base: ``>=3.6,<3.7.0a0``
-   :depends r-ggplot2: 
-   :depends r-gplots: 
-   :depends r-gridextra: 
-   :depends r-inline: 
-   :depends r-plyr: 
-   :depends r-scales: 
-   :depends scikit-learn: ``0.21.3``
-   :depends scipy: 
-   :depends sctools: 
-   :depends seaborn: ``0.9.0``
-   :depends statsmodels: ``0.9.0``
-   :depends wheel: ``0.33.6``
+   :depends anndata: ``>=0.7.5``
+   :depends hdbscan: ``>=0.8.26``
+   :depends ipython: ``>=7.19.0``
+   :depends joblib: ``>=1.0.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends matplotlib-base: ``>=3.3.1``
+   :depends numpy: ``>=1.19.5``
+   :depends pandas: ``>=1.1.3``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
+   :depends scikit-learn: ``>=0.24``
+   :depends scipy: ``>=1.6.0``
+   :depends seaborn: ``>=0.11.1``
+   :depends statsmodels: ``>=0.12.0``
+   :depends typing: 
+   :depends umap-learn: ``>=0.4.6``
    :requirements:
 
    .. rubric:: Installation

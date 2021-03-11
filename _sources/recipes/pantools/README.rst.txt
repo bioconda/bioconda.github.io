@@ -13,9 +13,9 @@ pantools
    PanTools is a pangenomic toolkit for comparative analysis of large number of genomes.
 
    :homepage: https://git.wur.nl/bioinformatics/pantools
-   :license: GPL3 / GNU GPL version 3
+   :license: GPL / GPL-3.0
    :recipe: /`pantools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools/meta.yaml>`_
-   :links: doi: :doi:`https://doi.org/10.1093/bioinformatics/btw455`, doi: :doi:`https://doi.org/10.1186/s12859-018-2362-4`
+   :links: doi: :doi:`https://doi.org/10.1093/bioinformatics/btw455`, doi: :doi:`https://doi.org/10.1186/s12859-018-2362-4`, doi: :doi:`https://doi.org/10.1101/813634`
 
    PanTools is a pangenomic toolkit for comparative analysis of large number
    of genomes. It is developed in the Bioinformatics Group of Wageningen
@@ -32,7 +32,7 @@ pantools
       
       
 
-      ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+      ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
 
       
 

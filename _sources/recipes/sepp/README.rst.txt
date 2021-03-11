@@ -28,7 +28,7 @@ sepp
       
       
 
-      ``4.4.0-0``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
+      ``4.5.1-0``,  ``4.4.0-0``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
 
       
 
@@ -36,8 +36,7 @@ sepp
    :depends dendropy: 
    :depends hmmer: ``3.1b2``
    :depends openjdk: 
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.7,<3.8.0a0``
    :requirements:
 
    .. rubric:: Installation
