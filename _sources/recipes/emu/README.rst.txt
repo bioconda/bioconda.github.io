@@ -27,19 +27,19 @@ emu
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends bioawk: 
    :depends biopython: 
-   :depends flatten-dict: ``>=0.3.0``
+   :depends flatten-dict: 
    :depends minimap2: 
-   :depends numpy: ``>=1.19.2``
+   :depends numpy: ``>=1.11``
    :depends pandas: ``>=1.1.3``
-   :depends pysam: ``>=0.15.3``
-   :depends python: ``>=3``
+   :depends pysam: ``>=0.15``
+   :depends python: ``>=3.6,<=3.8``
    :requirements:
 
    .. rubric:: Installation

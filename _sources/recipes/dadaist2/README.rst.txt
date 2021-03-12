@@ -26,9 +26,17 @@ dadaist2
    :versions:
       
       
+      .. raw:: html
 
-      ``0.7.3-1``,  ``0.7.3-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.00-2``,  ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
+         <details><summary><span class="truncated-version-list"><code>0.7.3-2</code>,  <code>0.7.3-1</code>,  <code>0.7.3-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.4.00-2</code>,  <code>0.4.00-1</code>,  <code>0.4.00-0</code>,  <code>0.2.00-0</code>,  </span></summary>
+      
 
+      ``0.7.3-2``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.00-2``,  ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,6 +44,7 @@ dadaist2
    :depends bioconductor-decipher: 
    :depends bioconductor-microbiome: 
    :depends bioconductor-phyloseq: 
+   :depends biom-format: 
    :depends clustalo: 
    :depends cutadapt: 
    :depends fastp: 
@@ -44,6 +53,7 @@ dadaist2
    :depends perl: 
    :depends perl-fastx-reader: ``>=0.90``
    :depends python: ``>=3``
+   :depends qax: 
    :depends seqfu: 
    :requirements:
 
