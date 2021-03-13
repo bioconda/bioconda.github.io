@@ -26,17 +26,26 @@ refgenie
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  </span></summary>
+      
 
+      ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends logmuse: ``>=0.2.6``
    :depends piper: ``>=0.12.1``
    :depends pyfaidx: ``>=0.5.5.2``
-   :depends python: ``>=3``
-   :depends refgenconf: ``>=0.9.1``
+   :depends python: ``>=3.6``
+   :depends refgenconf: ``>=0.10.0``
+   :depends yacman: ``>=0.8.0``
    :requirements:
 
    .. rubric:: Installation

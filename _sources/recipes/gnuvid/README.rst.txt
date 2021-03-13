@@ -27,17 +27,19 @@ gnuvid
       
       
 
-      ``2.1-0``,  ``2.0-1``,  ``2.0-0``
+      ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends blast: ``>=2.9.0``
+   :depends gofasta: ``>=0.0.3``
    :depends mafft: ``>=7.453``
    :depends matplotlib-base: ``>=3.3.3``
+   :depends minimap2: ``>=2.17``
    :depends pandas: ``>=1.1.5``
    :depends python: ``>=3.8``
-   :depends scikit-learn: ``>=0.23.2``
+   :depends scikit-learn: ``0.23.2.*``
    :requirements:
 
    .. rubric:: Installation

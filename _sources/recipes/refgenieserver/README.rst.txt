@@ -27,7 +27,7 @@ refgenieserver
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
+      ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
 
       
 
@@ -36,8 +36,9 @@ refgenieserver
    :depends fastapi: 
    :depends jinja2: 
    :depends logmuse: ``>=0.2``
-   :depends python: 
-   :depends refgenconf: ``>=0.5.2``
+   :depends python: ``>=3.6``
+   :depends refgenconf: ``>=0.10.0``
+   :depends ubiquerg: ``>=0.6.1``
    :depends uvicorn: ``>=0.7.1``
    :requirements:
 
