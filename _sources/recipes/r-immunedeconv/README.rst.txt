@@ -28,16 +28,13 @@ r-immunedeconv
       
       
 
-      ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
+      ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
 
       
 
    
    :depends bioconductor-biobase: 
-   :depends bioconductor-biocgenerics: 
    :depends bioconductor-biocparallel: 
-   :depends bioconductor-gseabase: 
-   :depends bioconductor-gsva: 
    :depends bioconductor-preprocesscore: 
    :depends bioconductor-sva: 
    :depends r-base: ``>=4.0,<4.1.0a0``

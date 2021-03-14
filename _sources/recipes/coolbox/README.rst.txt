@@ -27,7 +27,7 @@ coolbox
       
       
 
-      ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -49,6 +49,7 @@ coolbox
    :depends python: ``>=3.7``
    :depends samtools: ``>=1.10``
    :depends scipy: ``>=1.0.0``
+   :depends statsmodels: 
    :depends svgutils: 
    :depends tabix: 
    :depends voila: 
