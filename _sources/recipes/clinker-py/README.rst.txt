@@ -28,12 +28,13 @@ clinker-py
       
       
 
-      ``0.0.12-0``
+      ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.12-0``
 
       
 
    
    :depends biopython: ``>=1.75``
+   :depends disjoint-set: ``>=0.7.1``
    :depends gffutils: 
    :depends numpy: ``>=1.13.3``
    :depends python: 
