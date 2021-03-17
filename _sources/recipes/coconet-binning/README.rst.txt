@@ -29,23 +29,26 @@ coconet-binning
       
       
 
-      ``0.54-0``,  ``0.52-0``
+      ``1.0.0-0``,  ``0.54-0``,  ``0.52-0``
 
       
 
    
-   :depends argparse: 
    :depends biopython: 
    :depends h5py: 
-   :depends leidenalg: ``>=0.7.0``
+   :depends hnswlib: 
    :depends numpy: 
    :depends pandas: ``>=1.0``
-   :depends python: ``>=3.6``
-   :depends python-igraph: ``>=0.7.1.post6``
+   :depends psutil: 
+   :depends pybind11: 
+   :depends pysam: ``>=0.16``
+   :depends python: ``3.7.*``
+   :depends python-igraph: ``>=0.8``
    :depends pytorch: ``>=1.0``
-   :depends pyyaml: ``5.1.0``
+   :depends pyyaml: 
+   :depends scikit-bio: ``>=0.5.6``
    :depends scikit-learn: 
-   :depends tqdm: ``>=4.40.0``
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation

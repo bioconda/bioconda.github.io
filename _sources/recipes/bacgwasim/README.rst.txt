@@ -29,7 +29,7 @@ bacgwasim
       
       
 
-      ``2.0.0-0``
+      ``2.0.0-1``,  ``2.0.0-0``
 
       
 
@@ -39,7 +39,7 @@ bacgwasim
    :depends gcta: 
    :depends haploview: 
    :depends numpy: 
-   :depends openjdk: 
+   :depends openjdk: ``=8|10``
    :depends pandas: 
    :depends plink: 
    :depends python: ``>=3``
