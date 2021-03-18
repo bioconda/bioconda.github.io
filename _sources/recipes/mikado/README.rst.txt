@@ -28,10 +28,10 @@ mikado
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>2.0rc2-1</code>,  <code>2.0rc2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>2.0rc2-1</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -65,7 +65,7 @@ mikado
    :depends scipy: ``>=1.3.1``
    :depends six: ``>=1.12.0``
    :depends snakemake: ``>=5.7.0``
-   :depends sqlalchemy: ``>=1.3.9``
+   :depends sqlalchemy: ``>=1.3.9,<1.4.0``
    :depends sqlalchemy-utils: ``>=0.34.1``
    :depends sqlite: ``>=3.34.0,<4.0a0``
    :depends tabulate: ``>=0.8.5``
