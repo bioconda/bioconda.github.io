@@ -27,7 +27,7 @@ coolbox
       
       
 
-      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -44,7 +44,7 @@ coolbox
    :depends numpy: 
    :depends numpydoc: 
    :depends pairix: 
-   :depends pandas: 
+   :depends pandas: ``>=1.0.0``
    :depends pybbi: 
    :depends python: ``>=3.7``
    :depends samtools: ``>=1.10``

@@ -27,7 +27,7 @@ fastqc-rs
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -37,7 +37,7 @@ fastqc-rs
    :depends freetype: ``>=2.9.1,<3.0a0``
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openssl: ``>=1.1.1i,<1.1.2a``
+   :depends openssl: ``>=1.1.1j,<1.1.2a``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
