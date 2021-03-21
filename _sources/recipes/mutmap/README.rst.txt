@@ -29,10 +29,10 @@ mutmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  <code>2.1.6-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  <code>2.1.6-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``
+      ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ mutmap
    :depends bwa: 
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends openssl: ``>=1.1.1g,<1.1.2a``
+   :depends openssl: ``>=1.1.1j,<1.1.2a``
    :depends pandas: 
    :depends python: ``>=3.5``
    :depends samtools: ``>=1.7``

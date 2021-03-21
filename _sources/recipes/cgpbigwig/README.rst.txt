@@ -28,10 +28,10 @@ cgpbigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.4-0</code>,  </span></summary>
       
 
-      ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ cgpbigwig
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends gmp: ``>=6.2.0,<7.0a0``
+   :depends gmp: ``>=6.2.1,<7.0a0``
    :depends gnutls: ``>=3.6.13,<3.7.0a0``
    :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libbigwig: 

@@ -27,18 +27,19 @@ xtea
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
-   :depends bwa: 
+   :depends bwa: ``>=0.7.17``
    :depends minimap2: 
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: 
-   :depends samtools: 
-   :depends scikit-learn: 
+   :depends pysam: ``>=0.16.0``
+   :depends python: 
+   :depends samtools: ``>=1.0``
+   :depends scikit-learn: ``0.18.1``
    :depends sortedcontainers: 
    :depends wtdbg: 
    :requirements:
