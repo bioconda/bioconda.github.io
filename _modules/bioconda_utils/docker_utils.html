@@ -164,6 +164,7 @@
 <span class="kn">import</span> <span class="nn">conda_build</span>
 
 <span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">__version__</span>
 
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
@@ -220,7 +221,7 @@
 <span class="c1"># This template can be used for last-minute changes to the docker image, such</span>
 <span class="c1"># as adding proxies.</span>
 <span class="c1">#</span>
-<span class="c1"># The default image is created automatically on DockerHub using the Dockerfile</span>
+<span class="c1"># The default image is created automatically for releases using the Dockerfile</span>
 <span class="c1"># in the bioconda-utils repo.</span>
 
 <span class="n">DOCKERFILE_TEMPLATE</span> <span class="o">=</span> \
@@ -266,7 +267,7 @@
         <span class="n">keep_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
         <span class="n">build_image</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
         <span class="n">image_build_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-        <span class="n">docker_base_image</span><span class="o">=</span><span class="s1">&#39;bioconda/bioconda-utils-build-env:latest&#39;</span>
+        <span class="n">docker_base_image</span><span class="o">=</span><span class="s1">&#39;quay.io/bioconda/bioconda-utils-build-env:</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">__version__</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">,</span> <span class="s1">&#39;_&#39;</span><span class="p">))</span>
     <span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Class to handle building a custom docker container that can be used for</span>
@@ -348,7 +349,7 @@
 
 <span class="sd">        docker_base_image : str or None</span>
 <span class="sd">            Name of base image that can be used in **dockerfile_template**.</span>
-<span class="sd">            Defaults to &#39;bioconda/bioconda-utils-build-env:latest&#39;</span>
+<span class="sd">            Defaults to &#39;quay.io/bioconda/bioconda-utils-build-env:bioconda-utils-version&#39;</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">requirements</span> <span class="o">=</span> <span class="n">requirements</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">conda_build_args</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
@@ -592,7 +593,7 @@
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.3</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

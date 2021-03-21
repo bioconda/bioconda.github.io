@@ -150,7 +150,7 @@ extended build time).  Each build on CircleCI starts with a fresh VM, so we
 need to create the entire bioconda-build system environment from scratch for
 each build.</p>
 <p>When testing locally with <code class="docutils literal notranslate"><span class="pre">circleci</span> <span class="pre">build</span></code>, we use the
-<code class="docutils literal notranslate"><span class="pre">bioconda/bioconda-utils-build-env</span></code> Docker container to avoid changing the
+<code class="docutils literal notranslate"><span class="pre">quay.io/bioconda/bioconda-utils-build-env</span></code> Docker container to avoid changing the
 local system. This container is defined by <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/Dockerfile">this Dockerfile</a>.</p>
 <p>Otherwise, when running on CircleCI, a new Linux or MacOS VM is created for
 each build.</p>
@@ -321,7 +321,7 @@ that uploads of biocontainers to quay.io will still occur!</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.3</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

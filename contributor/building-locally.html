@@ -138,7 +138,7 @@ do so, each with their own caveats.</p>
 <a class="reference external" href="https://circleci.com/docs/2.0/local-cli">installing the CircleCI client locally</a> and running it from the
 folder where your copy of <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> resides:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ensure the build container is up-to-date</span>
-<span class="n">docker</span> <span class="n">pull</span> <span class="n">bioconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span><span class="o">-</span><span class="n">build</span><span class="o">-</span><span class="n">env</span><span class="p">:</span><span class="n">latest</span>
+<span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">bioconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span><span class="o">-</span><span class="n">build</span><span class="o">-</span><span class="n">env</span><span class="p">:</span><span class="n">latest</span>
 
 <span class="c1"># Run the build locally</span>
 <span class="n">circleci</span> <span class="n">build</span>
@@ -253,7 +253,7 @@ telling the bootstrap setup to not use docker, and by excluding the
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.3</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -15,6 +15,7 @@ krakentools
    :homepage: https://github.com/jenniferlu717/KrakenTools
    :license: GPL / GPL-3.0
    :recipe: /`krakentools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krakentools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krakentools/meta.yaml>`_
+   :links: biotools: :biotools:`krakentools`
 
    
 
@@ -27,12 +28,13 @@ krakentools
       
       
 
-      ``0.1-0``
+      ``1.0.1-0``,  ``0.1-0``
 
       
 
    
    :depends biopython: 
+   :depends numpy: 
    :depends python: 
    :requirements:
 
