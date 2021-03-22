@@ -150,7 +150,7 @@ extended build time).  Each build on CircleCI starts with a fresh VM, so we
 need to create the entire bioconda-build system environment from scratch for
 each build.</p>
 <p>When testing locally with <code class="docutils literal notranslate"><span class="pre">circleci</span> <span class="pre">build</span></code>, we use the
-<code class="docutils literal notranslate"><span class="pre">quay.io/bioconda/bioconda-utils-build-env</span></code> Docker container to avoid changing the
+<code class="docutils literal notranslate"><span class="pre">quay.io/bioconda/bioconda-utils-build-env-cos7</span></code> Docker container to avoid changing the
 local system. This container is defined by <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/Dockerfile">this Dockerfile</a>.</p>
 <p>Otherwise, when running on CircleCI, a new Linux or MacOS VM is created for
 each build.</p>
@@ -200,7 +200,7 @@ bioconda channel (we check the channel for each of the changed recipes)</p></li>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Download the configured Docker container (currently based on CentOS 6)</dt><dd><ul class="simple">
+<dt>Download the configured Docker container (currently based on CentOS 7)</dt><dd><ul class="simple">
 <li><p>default configured in <code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">docker_utils.py</span></code></p></li>
 </ul>
 </dd>
@@ -238,8 +238,8 @@ is added to a minimal BusyBox container using <code class="docutils literal notr
 <a class="reference external" href="https://github.com/galaxyproject/galaxy-lib">galaxy-lib</a>). This acts as
 a more stringent test than <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> alone. The BusyBox container
 purposefully is missing many system libraries (like libgcc) that may be
-present in the CentOS 6 container. Note that it is common for a package to
-build in the CentOS 6 container but fail in the BusyBox container. When this
+present in the CentOS 7 container. Note that it is common for a package to
+build in the CentOS 7 container but fail in the BusyBox container. When this
 happens, it is often because a dependency needs to be added to the recipe.</p></li>
 <li><p>Upon successfully testing the package in the BusyBox container, we have a branch point:</p>
 <blockquote>

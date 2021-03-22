@@ -433,7 +433,7 @@
 
 <div class="viewcode-block" id="GithubTag"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.GithubTag">[docs]</a><span class="k">class</span> <span class="nc">GithubTag</span><span class="p">(</span><span class="n">GithubBase</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Matches GitHub repository archives created automatically from tags&quot;&quot;&quot;</span>
-    <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/archive/</span><span class="si">{tag}{ext}</span><span class="s2">&quot;</span>
+    <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/archive(/refs/tags)?/</span><span class="si">{tag}{ext}</span><span class="s2">&quot;</span>
     <span class="n">releases_formats</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;https://github.com/</span><span class="si">{account}</span><span class="s2">/</span><span class="si">{project}</span><span class="s2">/tags&quot;</span><span class="p">]</span></div>
 
 
