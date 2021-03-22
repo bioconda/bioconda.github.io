@@ -28,16 +28,16 @@ spacepharer
       
       
 
-      ``4.228b9e5-0``,  ``3.5b8c86d-0``,  ``2.fc5e668-0``,  ``1.56925d2-0``
+      ``4.228b9e5-1``,  ``4.228b9e5-0``,  ``3.5b8c86d-0``,  ``2.fc5e668-0``,  ``1.56925d2-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
    :depends libgcc-ng: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openmp: 
    :depends wget: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

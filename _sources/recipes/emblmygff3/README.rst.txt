@@ -27,7 +27,7 @@ emblmygff3
       
       
 
-      ``2-1``,  ``2-0``,  ``1.3-0``
+      ``2.1-0``,  ``2-1``,  ``2-0``,  ``1.3-0``
 
       
 
@@ -35,7 +35,7 @@ emblmygff3
    :depends bcbio-gff: ``>=0.6.4``
    :depends biopython: ``>=1.67,<=1.77``
    :depends numpy: ``<1.16.5``
-   :depends python: ``>=3``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
