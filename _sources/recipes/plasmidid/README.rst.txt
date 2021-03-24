@@ -27,7 +27,7 @@ plasmidid
       
       
 
-      ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.5.2-0``
+      ``1.6.4-0``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.5.2-0``
 
       
 
@@ -42,13 +42,14 @@ plasmidid
    :depends mash: ``>=2``
    :depends numpy: 
    :depends pandas: 
-   :depends prokka: 
-   :depends python: ``3.6.*``
+   :depends prokka: ``>=1.14``
+   :depends python: ``>=3.6``
    :depends samtools: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends spades: 
    :depends tabulate: 
+   :depends tbb: ``2020.2``
    :depends trimmomatic: 
    :depends wget: 
    :requirements:

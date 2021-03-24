@@ -29,11 +29,16 @@ ngmaster
       
       
 
-      
+      ``0.5.8-0``
 
       
 
    
+   :depends biopython: 
+   :depends bs4: 
+   :depends ispcr: 
+   :depends python: ``>=3.6``
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
