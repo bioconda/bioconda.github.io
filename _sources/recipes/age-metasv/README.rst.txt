@@ -27,14 +27,14 @@ age-metasv
       
       
 
-      ``2015.01.29.3-3``,  ``2015.01.29.3-2``,  ``2015.01.29.3-1``,  ``2015.01.29.3-0``
+      ``2015.01.29.3-4``,  ``2015.01.29.3-3``,  ``2015.01.29.3-2``,  ``2015.01.29.3-1``,  ``2015.01.29.3-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

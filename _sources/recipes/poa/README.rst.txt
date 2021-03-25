@@ -27,13 +27,13 @@ poa
       
       
 
-      ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends blast-legacy: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

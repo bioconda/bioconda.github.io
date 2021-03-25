@@ -27,22 +27,21 @@ msproteomicstools
       
       
 
-      ``0.11.0-1``,  ``0.11.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.11.0-2``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
    :depends biopython: 
    :depends configobj: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends lxml: 
    :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pymzml: ``0.7.8``
    :depends pyteomics: ``>=2.4.0``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python-cluster: ``1.3.3``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends scikits-datasmooth: 
    :depends scipy: 
    :depends xlsxwriter: ``>=0.5.3``

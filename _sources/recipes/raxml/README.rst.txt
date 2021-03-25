@@ -29,10 +29,10 @@ raxml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.2.12-2</code>,  <code>8.2.12-1</code>,  <code>8.2.12-0</code>,  <code>8.2.10-1</code>,  <code>8.2.10-0</code>,  <code>8.2.9-3</code>,  <code>8.2.9-2</code>,  <code>8.2.9-1</code>,  <code>8.2.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.2.12-3</code>,  <code>8.2.12-2</code>,  <code>8.2.12-1</code>,  <code>8.2.12-0</code>,  <code>8.2.10-1</code>,  <code>8.2.10-0</code>,  <code>8.2.9-4</code>,  <code>8.2.9-3</code>,  <code>8.2.9-2</code>,  </span></summary>
       
 
-      ``8.2.12-2``,  ``8.2.12-1``,  ``8.2.12-0``,  ``8.2.10-1``,  ``8.2.10-0``,  ``8.2.9-3``,  ``8.2.9-2``,  ``8.2.9-1``,  ``8.2.9-0``,  ``8.2.4-3``,  ``8.2.4-2``,  ``8.2.4-1``,  ``8.2.4-0``,  ``7.3.0-1``,  ``7.3.0-0``
+      ``8.2.12-3``,  ``8.2.12-2``,  ``8.2.12-1``,  ``8.2.12-0``,  ``8.2.10-1``,  ``8.2.10-0``,  ``8.2.9-4``,  ``8.2.9-3``,  ``8.2.9-2``,  ``8.2.9-1``,  ``8.2.9-0``,  ``8.2.4-4``,  ``8.2.4-3``,  ``8.2.4-2``,  ``8.2.4-1``,  ``8.2.4-0``,  ``7.3.0-1``,  ``7.3.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,6 @@ raxml
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

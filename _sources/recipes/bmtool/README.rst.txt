@@ -27,13 +27,12 @@ bmtool
       
       
 
-      ``3.101-3``,  ``3.101-2``,  ``3.101-1``
+      ``3.101-4``,  ``3.101-3``,  ``3.101-2``,  ``3.101-1``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,13 +27,12 @@ gemma
       
       
 
-      ``0.98.3-0``,  ``0.98.1-1``,  ``0.98.1-0``,  ``0.98-0``
+      ``0.98.3-1``,  ``0.98.3-0``,  ``0.98.1-1``,  ``0.98.1-0``,  ``0.98-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends openblas: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

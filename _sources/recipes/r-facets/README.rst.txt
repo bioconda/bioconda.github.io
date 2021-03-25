@@ -28,13 +28,13 @@ r-facets
       
       
 
-      ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``
+      ``0.5.14-4``,  ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-pctgcdata: 
    :requirements:

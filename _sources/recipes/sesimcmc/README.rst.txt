@@ -27,13 +27,12 @@ sesimcmc
       
       
 
-      ``4.36-0``
+      ``4.36-1``,  ``4.36-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

@@ -32,14 +32,14 @@ ancestry_hmm-s
       
       
 
-      ``0.9.0.2-0``
+      ``0.9.0.2-1``,  ``0.9.0.2-0``
 
       
 
    
    :depends armadillo: ``>=9.900,<10.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,22 +27,21 @@ swga
       
       
 
-      ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3.p1-0``,  ``0.4.2-1``,  ``0.4.2-0``
+      ``0.4.4-3``,  ``0.4.4-2``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3.p1-0``,  ``0.4.2-1``,  ``0.4.2-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends argutils: 
    :depends click: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
+   :depends llvm-openmp: ``>=11.1.0``
    :depends melt: 
    :depends peewee: ``>=2.7.3,<3.0``
    :depends pyfaidx: ``>0.4.5.2``
    :depends pytest: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends pyyaml: 
    :depends semantic_version: 
    :depends workspace: 

@@ -27,14 +27,13 @@ minys
       
       
 
-      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
    :depends bwa: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends mindthegap: 
    :depends minia: 
    :depends numpy: 

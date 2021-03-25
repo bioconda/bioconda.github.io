@@ -27,7 +27,7 @@ sshmm
       
       
 
-      ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``
+      ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``
 
       
 
@@ -36,7 +36,7 @@ sshmm
    :depends forgi: 
    :depends ghmm: 
    :depends graphviz: ``>=2.40.1,<3.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libxml2: ``>=2.9.10,<2.10.0a0``
    :depends numpy: ``1.11.*``
    :depends pygraphviz: 

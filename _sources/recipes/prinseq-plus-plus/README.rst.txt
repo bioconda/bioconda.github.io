@@ -27,14 +27,13 @@ prinseq-plus-plus
       
       
 
-      ``1.2.3-0``
+      ``1.2.3-1``,  ``1.2.3-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.73.0,<1.73.1.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends boost-cpp: ``>=1.75.0,<1.75.1.0a0``
+   :depends libcxx: ``>=11.1.0``
    :depends pthread-stubs: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

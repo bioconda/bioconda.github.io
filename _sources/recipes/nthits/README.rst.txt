@@ -27,13 +27,13 @@ nthits
       
       
 
-      ``0.0.1-0``
+      ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
+   :depends llvm-openmp: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

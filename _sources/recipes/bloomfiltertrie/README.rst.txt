@@ -27,14 +27,14 @@ bloomfiltertrie
       
       
 
-      ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.1-0``
+      ``0.8.7-2``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.1-0``
 
       
 
    
    :depends jemalloc: ``>=5.2.1``
    :depends judy: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

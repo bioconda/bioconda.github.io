@@ -28,13 +28,12 @@ dagchainer
       
       
 
-      ``r120920-0``
+      ``r120920-1``,  ``r120920-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends perl-carp: 
    :depends perl-data-dumper: 
    :depends perl-getopt-long: 

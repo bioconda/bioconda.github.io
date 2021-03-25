@@ -27,12 +27,11 @@ smudgeplot_rn
       
       
 
-      ``0.2.5_RN-0``,  ``0.2.4_RN-0``
+      ``0.2.5_RN-1``,  ``0.2.5_RN-0``,  ``0.2.4_RN-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends python: ``>=3.9,<3.10.0a0``
    :depends r-argparse: 

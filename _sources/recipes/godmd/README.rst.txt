@@ -27,16 +27,15 @@ godmd
       
       
 
-      ``1.0.0-2``,  ``1.0.0-0``
+      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: 
-   :depends libgfortran4: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends libcxx: ``>=11.1.0``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=9.3.0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :requirements:
 
    .. rubric:: Installation

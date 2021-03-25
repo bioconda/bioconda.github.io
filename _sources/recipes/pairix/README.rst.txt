@@ -28,10 +28,10 @@ pairix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.7-2</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.7-3</code>,  <code>0.3.7-2</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  </span></summary>
       
 
-      ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-4``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.1.6-0``
+      ``0.3.7-3``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-4``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -41,9 +41,8 @@ pairix
 
    
    :depends htslib: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

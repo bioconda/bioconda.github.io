@@ -28,10 +28,10 @@ biotradis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.5-3</code>,  <code>1.4.5-2</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.1-0</code>,  <code>1.4.1.dev-4</code>,  <code>1.4.1.dev-3</code>,  <code>1.4.1.dev-2</code>,  <code>1.4.1.dev-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.5-4</code>,  <code>1.4.5-3</code>,  <code>1.4.5-2</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.1-0</code>,  <code>1.4.1.dev-4</code>,  <code>1.4.1.dev-3</code>,  <code>1.4.1.dev-2</code>,  </span></summary>
       
 
-      ``1.4.5-3``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.1-0``,  ``1.4.1.dev-4``,  ``1.4.1.dev-3``,  ``1.4.1.dev-2``,  ``1.4.1.dev-1``,  ``1.4.1.dev-0``
+      ``1.4.5-4``,  ``1.4.5-3``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.1-0``,  ``1.4.1.dev-4``,  ``1.4.1.dev-3``,  ``1.4.1.dev-2``,  ``1.4.1.dev-1``,  ``1.4.1.dev-0``
 
       
       .. raw:: html

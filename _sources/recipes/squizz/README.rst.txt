@@ -27,12 +27,12 @@ squizz
       
       
 
-      ``0.99d-2``,  ``0.99d-1``,  ``0.99d-0``
+      ``0.99d-3``,  ``0.99d-2``,  ``0.99d-1``,  ``0.99d-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

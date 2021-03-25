@@ -28,15 +28,14 @@ kerneltree
       
       
 
-      ``0.0.5-0``
+      ``0.0.5-1``,  ``0.0.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :depends pip: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :requirements:
 
    .. rubric:: Installation

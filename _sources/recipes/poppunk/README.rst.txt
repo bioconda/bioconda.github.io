@@ -29,10 +29,10 @@ poppunk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  </span></summary>
       
 
-      ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -41,21 +41,31 @@ poppunk
       
 
    
-   :depends dendropy: 
+   :depends _openmp_mutex: ``>=4.5``
+   :depends dendropy: ``>=4.4.0``
    :depends flask: 
+   :depends flask-apscheduler: 
    :depends flask-cors: 
-   :depends graph-tool: 
+   :depends graph-tool: ``>=2.35``
+   :depends gunicorn: 
+   :depends h5py: 
    :depends hdbscan: 
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgfortran-ng: 
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends matplotlib-base: 
    :depends networkx: 
    :depends numpy: 
+   :depends openblas: 
    :depends pandas: 
-   :depends pp-sketchlib: ``>=1.6.0``
-   :depends python: ``>=3.8``
+   :depends pp-sketchlib: ``>=1.7.0``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :depends rapidnj: 
    :depends requests: 
-   :depends scikit-learn: 
+   :depends scikit-learn: ``>=0.24``
    :depends scipy: 
+   :depends tqdm: 
    :depends xorg-libxaw: 
    :depends xorg-libxcomposite: 
    :depends xorg-libxcursor: 
@@ -65,6 +75,7 @@ poppunk
    :depends xorg-libxinerama: 
    :depends xorg-libxpm: 
    :depends xorg-libxrandr: 
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

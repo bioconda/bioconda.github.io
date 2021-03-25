@@ -27,19 +27,15 @@ cogent
       
       
 
-      ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
+      ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib: ``>=1.1.0``
-   :depends mpi4py: ``>=1.0``
-   :depends mysql-python: ``>=1.2.2``
    :depends numpy: ``>=1.3``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
-   :depends sqlalchemy: ``>=0.5``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
