@@ -36,7 +36,8 @@ cassiopee
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends glog: ``>=0.4.0,<0.5.0a0``
    :depends icu: ``>=68.1,<69.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

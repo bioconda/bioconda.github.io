@@ -26,14 +26,22 @@ samblaster
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-3``,  ``0.1.24-2``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.20-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.26-1</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.24-3</code>,  <code>0.1.24-2</code>,  <code>0.1.24-1</code>,  <code>0.1.24-0</code>,  <code>0.1.23-0</code>,  <code>0.1.22-0</code>,  </span></summary>
+      
 
+      ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-3``,  ``0.1.24-2``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.20-1``,  ``0.1.20-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

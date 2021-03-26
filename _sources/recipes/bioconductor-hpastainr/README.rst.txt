@@ -27,12 +27,13 @@ bioconductor-hpastainr
       
       
 
-      ``1.0.0-1``
+      ``1.0.3-0``,  ``1.0.0-1``
 
       
 
    
    :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-scales: 
    :depends r-shiny: 

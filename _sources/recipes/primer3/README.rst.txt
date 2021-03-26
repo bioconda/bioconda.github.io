@@ -41,7 +41,8 @@ primer3
       
 
    
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 

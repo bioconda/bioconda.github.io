@@ -34,18 +34,18 @@ fastspar
       
       
 
-      ``1.0.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``
 
       
 
    
    :depends armadillo: ``>=7.800.1``
    :depends armadillo: ``>=9.900,<10.0a0``
+   :depends gnu-getopt: 
    :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: 
-   :depends libgfortran4: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=9.3.0``
    :depends openblas: ``* *openmp*``
    :requirements:
 

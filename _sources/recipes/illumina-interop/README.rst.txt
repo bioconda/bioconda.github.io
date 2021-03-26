@@ -29,10 +29,10 @@ illumina-interop
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.21-0</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-0</code>,  <code>1.1.16-0</code>,  <code>1.1.15-0</code>,  <code>1.1.14-0</code>,  <code>1.1.12-0</code>,  <code>1.1.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.21-1</code>,  <code>1.1.21-0</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-0</code>,  <code>1.1.16-0</code>,  <code>1.1.15-0</code>,  <code>1.1.14-0</code>,  <code>1.1.12-0</code>,  </span></summary>
       
 
-      ``1.1.21-0``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-0``,  ``1.1.16-0``,  ``1.1.15-0``,  ``1.1.14-0``,  ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-3``,  ``1.1.4-0``,  ``1.0.25-1``,  ``1.0.25-0``
+      ``1.1.21-1``,  ``1.1.21-0``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-0``,  ``1.1.16-0``,  ``1.1.15-0``,  ``1.1.14-0``,  ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-3``,  ``1.1.4-0``,  ``1.0.25-1``,  ``1.0.25-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ illumina-interop
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

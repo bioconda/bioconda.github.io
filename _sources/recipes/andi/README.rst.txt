@@ -27,15 +27,22 @@ andi
    :versions:
       
       
+      .. raw:: html
 
-      ``0.13-2``,  ``0.13-1``,  ``0.13-0``,  ``0.12-4``,  ``0.12-3``,  ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-0``
+         <details><summary><span class="truncated-version-list"><code>0.13-3</code>,  <code>0.13-2</code>,  <code>0.13-1</code>,  <code>0.13-0</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  <code>0.12-0</code>,  <code>0.11-1</code>,  <code>0.11-0</code>,  </span></summary>
+      
 
+      ``0.13-3``,  ``0.13-2``,  ``0.13-1``,  ``0.13-0``,  ``0.12-4``,  ``0.12-3``,  ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libdivsufsort: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends openblas: 
    :requirements:
 

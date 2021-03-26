@@ -28,10 +28,10 @@ treesapp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-0</code>,  <code>0.9.6-1</code>,  <code>0.9.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.4-0</code>,  <code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-0</code>,  <code>0.9.6-1</code>,  </span></summary>
       
 
-      ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
+      ``0.10.4-0``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``
 
       
       .. raw:: html
@@ -47,8 +47,8 @@ treesapp
    :depends fasttree: ``>=2.1.10``
    :depends hmmer: ``>=3.3``
    :depends joblib: ``1.0.0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends mafft: ``>=7.471``
    :depends matplotlib-base: ``>=3.3.0``
    :depends mmseqs2: ``>=12.113e3``

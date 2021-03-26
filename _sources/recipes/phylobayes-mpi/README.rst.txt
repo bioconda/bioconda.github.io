@@ -27,14 +27,13 @@ phylobayes-mpi
       
       
 
-      ``1.8c-0``,  ``1.8b-0``
+      ``1.8c-1``,  ``1.8c-0``,  ``1.8b-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openmpi: ``>=4.0.5,<4.1.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends openmpi: ``>=4.1.0,<5.0a0``
    :requirements:
 
    .. rubric:: Installation

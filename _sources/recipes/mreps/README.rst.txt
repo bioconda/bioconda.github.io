@@ -28,12 +28,12 @@ mreps
       
       
 
-      ``2.6.01-0``,  ``0.1-0``
+      ``2.6.01-1``,  ``2.6.01-0``,  ``0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

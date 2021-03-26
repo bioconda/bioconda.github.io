@@ -40,11 +40,12 @@ python-hyphy-python
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libcurl: ``>=7.75.0,<8.0a0``
-   :depends libcxx: ``>=11.1.0``
-   :depends llvm-openmp: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    .. rubric:: Installation

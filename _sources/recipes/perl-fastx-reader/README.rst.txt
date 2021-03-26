@@ -27,9 +27,17 @@ perl-fastx-reader
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0-0``,  ``0.92-0``,  ``0.90-0``,  ``0.88-0``,  ``0.87-0``,  ``0.61-0``,  ``0.60-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.92-1</code>,  <code>0.92-0</code>,  <code>0.90-0</code>,  <code>0.88-0</code>,  <code>0.87-0</code>,  <code>0.61-0</code>,  </span></summary>
+      
 
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.92-1``,  ``0.92-0``,  ``0.90-0``,  ``0.88-0``,  ``0.87-0``,  ``0.61-0``,  ``0.60-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

@@ -28,12 +28,12 @@ strainseeker
       
       
 
-      ``1.5.1-0``
+      ``1.5.1-1``,  ``1.5.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends perl: 
    :depends r-base: 
    :depends zlib: 

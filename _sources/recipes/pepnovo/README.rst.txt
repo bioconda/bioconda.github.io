@@ -28,13 +28,13 @@ pepnovo
       
       
 
-      ``20101117-2``,  ``20101117-1``,  ``20101117-0``
+      ``20101117-3``,  ``20101117-2``,  ``20101117-1``,  ``20101117-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,12 +27,12 @@ lz4-bin
       
       
 
-      ``131-3``,  ``131-2``,  ``131-1``
+      ``131-4``,  ``131-3``,  ``131-2``,  ``131-1``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

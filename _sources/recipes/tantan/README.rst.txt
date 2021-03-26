@@ -27,13 +27,13 @@ tantan
       
       
 
-      ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
+      ``26-1``,  ``26-0``,  ``13-2``,  ``13-1``,  ``13-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

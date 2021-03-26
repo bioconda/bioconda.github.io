@@ -28,14 +28,14 @@ ray
       
       
 
-      ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``
+      ``2.3.1-3``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends openmpi: ``>=4.0.2,<4.1.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends openmpi: ``>=4.1.0,<5.0a0``
    :requirements:
 
    .. rubric:: Installation

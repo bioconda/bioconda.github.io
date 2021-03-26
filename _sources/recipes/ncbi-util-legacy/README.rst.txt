@@ -27,14 +27,14 @@ ncbi-util-legacy
       
       
 
-      ``6.1-1``,  ``6.1-0``
+      ``6.1-2``,  ``6.1-1``,  ``6.1-0``
 
       
 
    
-   :depends gmp: ``>=6.2.0,<7.0a0``
+   :depends gmp: ``>=6.2.1,<7.0a0``
    :depends gnutls: ``>=3.6.13,<3.7.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends openmotif: ``>=2.3.8,<3.0a0``
    :depends tcsh: 
    :depends xorg-libx11: 

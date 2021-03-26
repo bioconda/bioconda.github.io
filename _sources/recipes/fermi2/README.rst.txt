@@ -27,13 +27,13 @@ fermi2
       
       
 
-      ``r193-4``,  ``r193-3``,  ``r193-2``,  ``r193-1``,  ``r193-0``,  ``r188-0``,  ``r170-0``
+      ``r193-5``,  ``r193-4``,  ``r193-3``,  ``r193-2``,  ``r193-1``,  ``r193-0``,  ``r188-0``,  ``r170-1``,  ``r170-0``
 
       
 
    
    :depends bfc: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends make: 
    :depends perl: 
    :depends ropebwt2: 

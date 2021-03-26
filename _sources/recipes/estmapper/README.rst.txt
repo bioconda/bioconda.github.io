@@ -27,14 +27,14 @@ estmapper
       
       
 
-      ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
+      ``2008-4``,  ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``

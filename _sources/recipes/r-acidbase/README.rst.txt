@@ -12,9 +12,9 @@ r-acidbase
 
    Low\-level base functions imported by Acid Genomics packages.
 
-   :homepage: https://acidbase.acidgenomics.com/
-   :developer docs: https://github.com/acidgenomics/AcidBase
-   :license: GPL / GPL-3.0
+   :homepage: https://r.acidgenomics.com/packages/acidbase/
+   :developer docs: https://github.com/acidgenomics/r-acidbase
+   :license: GPL / AGPL-3.0
    :recipe: /`r-acidbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidbase/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-acidbase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.13-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  </span></summary>
       
 
-      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.3.13-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,8 +41,10 @@ r-acidbase
       
 
    
-   :depends r-acidgenerics: ``>=0.4.1``
+   :depends r-acidcli: ``>=0.1.0``
+   :depends r-acidgenerics: ``>=0.5.17``
    :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-goalie: ``>=0.5.0``
    :requirements:
 
    .. rubric:: Installation

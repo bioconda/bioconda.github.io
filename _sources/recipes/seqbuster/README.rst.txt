@@ -29,10 +29,10 @@ seqbuster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5-0</code>,  <code>3.4-0</code>,  <code>3.2-1</code>,  <code>3.2-0</code>,  <code>3.1-3</code>,  <code>3.1-2</code>,  <code>3.1-1</code>,  <code>3.1a-0</code>,  <code>3.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5-1</code>,  <code>3.5-0</code>,  <code>3.4-0</code>,  <code>3.2-1</code>,  <code>3.2-0</code>,  <code>3.1-3</code>,  <code>3.1-2</code>,  <code>3.1-1</code>,  <code>3.1a-0</code>,  </span></summary>
       
 
-      ``3.5-0``,  ``3.4-0``,  ``3.2-1``,  ``3.2-0``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1a-0``,  ``3.0-2``,  ``3.0-1``,  ``2.3-3``,  ``2.3-2``,  ``2.3-1``
+      ``3.5-1``,  ``3.5-0``,  ``3.4-0``,  ``3.2-1``,  ``3.2-0``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1a-0``,  ``3.0-2``,  ``3.0-1``,  ``2.3-3``,  ``2.3-2``,  ``2.3-1``
 
       
       .. raw:: html

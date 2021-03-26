@@ -28,10 +28,10 @@ hmftools-linx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14-0</code>,  <code>1.13-0</code>,  <code>1.12-0</code>,  <code>1.11-0</code>,  <code>1.10-1</code>,  <code>1.10-0</code>,  <code>1.7-0</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.14-1</code>,  <code>1.14-0</code>,  <code>1.13-0</code>,  <code>1.12-0</code>,  <code>1.11-0</code>,  <code>1.10-1</code>,  <code>1.10-0</code>,  <code>1.7-0</code>,  <code>1.6-0</code>,  </span></summary>
       
 
-      ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-1``,  ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
+      ``1.14-1``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-1``,  ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
 
       
       .. raw:: html

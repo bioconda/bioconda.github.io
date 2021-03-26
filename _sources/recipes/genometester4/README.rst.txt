@@ -28,12 +28,12 @@ genometester4
       
       
 
-      ``4.0-2``,  ``4.0-1``,  ``4.0-0``
+      ``4.0-3``,  ``4.0-2``,  ``4.0-1``,  ``4.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

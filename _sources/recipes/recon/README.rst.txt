@@ -27,12 +27,12 @@ recon
       
       
 
-      ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+      ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

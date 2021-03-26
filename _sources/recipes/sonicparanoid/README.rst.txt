@@ -28,17 +28,16 @@ sonicparanoid
       
       
 
-      ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
+      ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
 
       
 
    
    :depends biopython: ``>=1.67``
+   :depends clang_osx-64: ``11.*``
+   :depends clangxx_osx-64: ``11.*``
    :depends cython: 
-   :depends gcc_linux-64: ``7.*``
-   :depends gxx_linux-64: ``7.*``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends make: 
    :depends mmseqs2: ``6.f5a1c``
    :depends numpy: ``>=1.13.0``

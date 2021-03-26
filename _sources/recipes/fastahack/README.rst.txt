@@ -27,13 +27,13 @@ fastahack
       
       
 
-      ``2016.07.2-2``,  ``2016.07.2-1``,  ``2016.07.2-0``
+      ``2016.07.2-3``,  ``2016.07.2-2``,  ``2016.07.2-1``,  ``2016.07.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,12 +27,12 @@ coils
       
       
 
-      ``2.2.1-0``
+      ``2.2.1-1``,  ``2.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

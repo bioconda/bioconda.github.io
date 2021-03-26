@@ -27,14 +27,14 @@ r-tmae
       
       
 
-      ``0.9.0-0``
+      ``0.9.0-1``,  ``0.9.0-0``
 
       
 
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-genomicscores: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 

@@ -27,14 +27,15 @@ wise2
       
       
 
-      ``2.4.1-0``
+      ``2.4.1-1``,  ``2.4.1-0``
 
       
 
    
-   :depends glib: ``>=2.58.3,<3.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends glib: 
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libglib: ``>=2.68.0,<3.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

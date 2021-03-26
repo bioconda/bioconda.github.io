@@ -27,13 +27,13 @@ sdm
       
       
 
-      ``1.73-1``,  ``1.73-0``,  ``1.47-0``
+      ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.47-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

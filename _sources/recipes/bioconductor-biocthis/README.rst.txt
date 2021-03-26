@@ -27,7 +27,7 @@ bioconductor-biocthis
       
       
 
-      ``1.0.0-1``
+      ``1.0.10-0``,  ``1.0.0-1``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-biocthis
    :depends r-glue: 
    :depends r-rlang: 
    :depends r-styler: 
-   :depends r-usethis: 
+   :depends r-usethis: ``>=2.0.1``
    :requirements:
 
    .. rubric:: Installation

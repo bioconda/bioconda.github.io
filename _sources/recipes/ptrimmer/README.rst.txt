@@ -32,6 +32,7 @@ ptrimmer
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
    :depends ncurses: ``>=6.2,<6.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

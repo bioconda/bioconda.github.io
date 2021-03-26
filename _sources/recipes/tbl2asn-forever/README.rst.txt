@@ -32,8 +32,9 @@ tbl2asn-forever
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libidn11: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    .. rubric:: Installation

@@ -27,13 +27,13 @@ hr2
       
       
 
-      ``1.04-1``,  ``1.04-0``
+      ``1.04-2``,  ``1.04-1``,  ``1.04-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

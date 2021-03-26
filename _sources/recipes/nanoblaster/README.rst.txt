@@ -27,13 +27,12 @@ nanoblaster
       
       
 
-      ``0.16-2``,  ``0.16-1``,  ``0.16-0``
+      ``0.16-3``,  ``0.16-2``,  ``0.16-1``,  ``0.16-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,13 +27,14 @@ cmip
       
       
 
-      ``2.6.1-4``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``
+      ``2.6.2-0``,  ``2.6.1-5``,  ``2.6.1-4``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libgfortran-ng: 
+   :depends libgfortran4: ``>=7.5.0``
    :depends libstdcxx-ng: ``>=7.5.0``
    :requirements:
 

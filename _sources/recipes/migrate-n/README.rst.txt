@@ -28,14 +28,14 @@ migrate-n
       
       
 
-      ``3.6.11-2``,  ``3.6.11-1``,  ``3.6.11-0``
+      ``3.6.11-3``,  ``3.6.11-2``,  ``3.6.11-1``,  ``3.6.11-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openmpi: ``>=4.0.4,<4.1.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends openmpi: ``>=4.1.0,<5.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

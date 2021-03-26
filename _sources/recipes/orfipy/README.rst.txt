@@ -27,14 +27,13 @@ orfipy
       
       
 
-      ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
    :depends colorama: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends psutil: 
    :depends pyahocorasick: 
    :depends pyfastx: 

@@ -28,10 +28,10 @@ sequana
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.0-0</code>,  <code>0.6.3.post1-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.0-0</code>,  <code>0.6.3.post1-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -52,9 +52,7 @@ sequana
    :depends graphviz: ``>=2.42.3``
    :depends itolapi: 
    :depends khmer: 
-   :depends kraken: ``1.1``
    :depends krona: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends lxml: 
    :depends matplotlib: ``<3.1.2``
    :depends mock: 

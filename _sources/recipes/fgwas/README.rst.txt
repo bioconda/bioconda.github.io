@@ -27,15 +27,14 @@ fgwas
       
       
 
-      ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``
+      ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``
 
       
 
    
    :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=11.1.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

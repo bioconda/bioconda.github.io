@@ -27,14 +27,14 @@ f5c
       
       
 
-      ``0.6-0``,  ``0.5-0``,  ``0.4-0``
+      ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``
 
       
 
    
-   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

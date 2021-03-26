@@ -27,12 +27,11 @@ sfld
       
       
 
-      ``1.1-0``
+      ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

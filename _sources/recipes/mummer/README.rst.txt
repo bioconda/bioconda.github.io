@@ -29,10 +29,10 @@ mummer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.23-11</code>,  <code>3.23-10</code>,  <code>3.23-9</code>,  <code>3.23-8</code>,  <code>3.23-7</code>,  <code>3.23-6</code>,  <code>3.23-5</code>,  <code>3.23-4</code>,  <code>3.23-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.23-12</code>,  <code>3.23-11</code>,  <code>3.23-10</code>,  <code>3.23-9</code>,  <code>3.23-8</code>,  <code>3.23-7</code>,  <code>3.23-6</code>,  <code>3.23-5</code>,  <code>3.23-4</code>,  </span></summary>
       
 
-      ``3.23-11``,  ``3.23-10``,  ``3.23-9``,  ``3.23-8``,  ``3.23-7``,  ``3.23-6``,  ``3.23-5``,  ``3.23-4``,  ``3.23-3``,  ``3.23-2``,  ``3.23-1``,  ``3.23-0``
+      ``3.23-12``,  ``3.23-11``,  ``3.23-10``,  ``3.23-9``,  ``3.23-8``,  ``3.23-7``,  ``3.23-6``,  ``3.23-5``,  ``3.23-4``,  ``3.23-3``,  ``3.23-2``,  ``3.23-1``,  ``3.23-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ mummer
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 

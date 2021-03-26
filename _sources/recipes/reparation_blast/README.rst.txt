@@ -28,10 +28,10 @@ reparation_blast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-2</code>,  <code>1.0.7-0</code>,  <code>v1.0.7-1</code>,  <code>v1.0.7-0</code>,  <code>v1.0.6-0</code>,  <code>v1.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-2</code>,  <code>1.0.7-0</code>,  <code>v1.0.7-1</code>,  <code>v1.0.7-0</code>,  <code>v1.0.6-0</code>,  </span></summary>
       
 
-      ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-2``,  ``1.0.7-0``,  ``v1.0.7-1``,  ``v1.0.7-0``,  ``v1.0.6-0``,  ``v1.0.5-0``,  ``v1.0.4-0``,  ``v1.0.3-2``,  ``v1.0.2-1``,  ``v1.0.1-0``
+      ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-2``,  ``1.0.7-0``,  ``v1.0.7-1``,  ``v1.0.7-0``,  ``v1.0.6-0``,  ``v1.0.5-0``,  ``v1.0.4-0``,  ``v1.0.3-2``,  ``v1.0.2-1``,  ``v1.0.1-0``
 
       
       .. raw:: html

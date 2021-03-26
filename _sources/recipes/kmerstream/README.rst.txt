@@ -33,7 +33,8 @@ kmerstream
       
 
    
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends python: 
    :depends scipy: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
