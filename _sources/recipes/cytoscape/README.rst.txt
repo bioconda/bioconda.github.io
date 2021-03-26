@@ -29,14 +29,14 @@ cytoscape
       
       
 
-      ``3.7.2-0``,  ``3.7.1-0``
+      ``3.7.2-1``,  ``3.7.2-0``,  ``3.7.1-0``
 
       
 
    
    :depends font-ttf-dejavu-sans-mono: 
    :depends fontconfig: ``>=2.13.1,<3.0a0``
-   :depends freetype: ``>=2.9.1,<3.0a0``
+   :depends freetype: ``>=2.10.4,<3.0a0``
    :depends openjdk: ``8.*``
    :depends xorg-libxtst: 
    :requirements:

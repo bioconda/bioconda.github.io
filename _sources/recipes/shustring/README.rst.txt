@@ -27,12 +27,12 @@ shustring
       
       
 
-      ``2.6-3``,  ``2.6-2``,  ``2.6-1``,  ``2.6-0``
+      ``2.6-4``,  ``2.6-3``,  ``2.6-2``,  ``2.6-1``,  ``2.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

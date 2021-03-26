@@ -27,18 +27,17 @@ emirge
       
       
 
-      ``0.61.1-5``,  ``0.61.1-4``,  ``0.61.1-3``,  ``0.61.1-2``,  ``0.61.1-1``,  ``0.61.1-0``
+      ``0.61.1-6``,  ``0.61.1-5``,  ``0.61.1-4``,  ``0.61.1-3``,  ``0.61.1-2``,  ``0.61.1-1``,  ``0.61.1-0``
 
       
 
    
    :depends biopython: 
    :depends bowtie: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pysam: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends samtools: 
    :depends scipy: 
    :depends vsearch: 

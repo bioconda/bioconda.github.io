@@ -27,7 +27,7 @@ sensv
       
       
 
-      ``1.0.2-0``,  ``v1.0.1-0``
+      ``1.0.2-1``,  ``1.0.2-0``,  ``v1.0.1-0``
 
       
 
@@ -35,8 +35,8 @@ sensv
    :depends grabix: ``0.1.8.*``
    :depends htslib: ``1.10.2.*``
    :depends intervaltree: ``3.0.2.*``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends minimap2: ``2.17.*``
    :depends pandas: ``1.0.1.*``
    :depends pigz: ``2.3.4.*``

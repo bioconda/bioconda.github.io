@@ -27,13 +27,13 @@ plink2
       
       
 
-      ``2.00a2.3-0``,  ``1.90b3.35-0``
+      ``2.00a2.3-1``,  ``2.00a2.3-0``,  ``1.90b3.35-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends openblas: 
    :requirements:
 

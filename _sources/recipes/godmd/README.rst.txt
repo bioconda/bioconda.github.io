@@ -32,10 +32,11 @@ godmd
       
 
    
-   :depends libcxx: ``>=11.1.0``
-   :depends libgfortran: ``5.*``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgfortran-ng: 
    :depends libgfortran5: ``>=9.3.0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    .. rubric:: Installation

@@ -27,12 +27,11 @@ pulchra
       
       
 
-      ``3.06-0``
+      ``3.06-1``,  ``3.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

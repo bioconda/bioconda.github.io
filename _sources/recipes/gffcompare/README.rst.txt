@@ -28,13 +28,12 @@ gffcompare
       
       
 
-      ``0.11.2-1``,  ``0.11.2-0``,  ``0.10.6-0``,  ``0.9.8-0``
+      ``0.11.2-2``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.10.6-0``,  ``0.9.8-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

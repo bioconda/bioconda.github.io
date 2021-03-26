@@ -28,10 +28,10 @@ pbcopper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-2</code>,  </span></summary>
       
 
-      ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ pbcopper
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

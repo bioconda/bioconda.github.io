@@ -41,10 +41,11 @@ gat
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
    :depends matplotlib: ``>=1.3.0``
    :depends numpy: ``>=1.7``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scipy: ``>=0.11``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

@@ -28,14 +28,13 @@ splicemap
       
       
 
-      ``3.3.5.2-2``,  ``3.3.5.2-1``,  ``3.3.5.2-0``
+      ``3.3.5.2-3``,  ``3.3.5.2-2``,  ``3.3.5.2-1``,  ``3.3.5.2-0``
 
       
 
    
    :depends bowtie: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

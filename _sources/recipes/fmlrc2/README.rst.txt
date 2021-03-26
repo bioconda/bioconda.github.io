@@ -27,15 +27,15 @@ fmlrc2
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
    :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libopenblas: ``>=0.3.13,<1.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends openssl: ``>=1.1.1j,<1.1.2a``
    :depends starcode: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

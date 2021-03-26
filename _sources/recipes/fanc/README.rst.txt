@@ -29,7 +29,7 @@ fanc
       
       
 
-      ``0.9.0-0``
+      ``0.9.0-1``,  ``0.9.0-0``
 
       
 
@@ -41,7 +41,6 @@ fanc
    :depends gridmap: ``>=0.14.0``
    :depends h5py: 
    :depends intervaltree: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib-base: 
    :depends msgpack-numpy: ``>=0.4.4.3``
    :depends msgpack-python: 

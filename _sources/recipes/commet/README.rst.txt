@@ -28,15 +28,16 @@ commet
       
       
 
-      ``24.7.14-4``,  ``24.7.14-3``,  ``24.7.14-2``,  ``24.7.14-1``,  ``24.7.14-0``
+      ``24.7.14-5``,  ``24.7.14-4``,  ``24.7.14-3``,  ``24.7.14-2``,  ``24.7.14-1``,  ``24.7.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends python: ``>=3.8,<3.9.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends python: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

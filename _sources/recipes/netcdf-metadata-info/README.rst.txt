@@ -27,12 +27,12 @@ netcdf-metadata-info
       
       
 
-      ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
+      ``1.1.6-3``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libnetcdf: ``4.4.*``
    :depends libnetcdf: ``>=4.4.1.1,<5.0a0``
    :requirements:

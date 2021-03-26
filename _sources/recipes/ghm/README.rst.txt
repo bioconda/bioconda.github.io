@@ -26,13 +26,21 @@ ghm
    :versions:
       
       
+      .. raw:: html
 
-      ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.1-4</code>,  <code>3.1-3</code>,  <code>3.1-2</code>,  <code>3.1-1</code>,  <code>3.1-0</code>,  <code>3.0-4</code>,  <code>3.0-3</code>,  <code>3.0-2</code>,  <code>3.0-1</code>,  </span></summary>
+      
 
+      ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

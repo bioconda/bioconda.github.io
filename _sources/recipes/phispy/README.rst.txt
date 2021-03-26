@@ -32,10 +32,10 @@ phispy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.6-0</code>,  <code>4.1.22-0</code>,  <code>4.1.20-0</code>,  <code>4.1.17-0</code>,  <code>4.1.16-0</code>,  <code>4.1.14-0</code>,  <code>4.1.7-0</code>,  <code>4.1.0-0</code>,  <code>4.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.6-1</code>,  <code>4.2.6-0</code>,  <code>4.1.22-0</code>,  <code>4.1.20-0</code>,  <code>4.1.17-0</code>,  <code>4.1.16-0</code>,  <code>4.1.14-0</code>,  <code>4.1.7-0</code>,  <code>4.1.0-0</code>,  </span></summary>
       
 
-      ``4.2.6-0``,  ``4.1.22-0``,  ``4.1.20-0``,  ``4.1.17-0``,  ``4.1.16-0``,  ``4.1.14-0``,  ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
+      ``4.2.6-1``,  ``4.2.6-0``,  ``4.1.22-0``,  ``4.1.20-0``,  ``4.1.17-0``,  ``4.1.16-0``,  ``4.1.14-0``,  ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
 
       
       .. raw:: html
@@ -45,8 +45,7 @@ phispy
 
    
    :depends biopython: ``>=1.74``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends numpy: ``>=1.17.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``

@@ -27,15 +27,15 @@ svaba
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends xz: ``>=5.2.4,<5.3.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

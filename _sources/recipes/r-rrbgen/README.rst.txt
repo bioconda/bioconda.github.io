@@ -27,13 +27,12 @@ r-rrbgen
       
       
 
-      ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``
+      ``0.0.6-4``,  ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcpp: ``>=0.12.18``
    :depends r-rcpparmadillo: ``>=0.8.600.0.0``

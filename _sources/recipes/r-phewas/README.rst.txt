@@ -28,13 +28,14 @@ r-phewas
       
       
 
-      ``0.12.1-1``,  ``0.12.1-0``
+      ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-dt: 

@@ -27,7 +27,7 @@ iva
       
       
 
-      ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``
+      ``1.0.11-0``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``
 
       
 
@@ -35,6 +35,7 @@ iva
    :depends kmc: 
    :depends mummer: 
    :depends networkx: ``>=1.7``
+   :depends packaging: 
    :depends pyfastaq: ``>=3.10.0``
    :depends pysam: ``>=0.8.1``
    :depends python: ``>=3``

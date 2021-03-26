@@ -28,13 +28,12 @@ genform
       
       
 
-      ``r8-0``
+      ``r8-1``,  ``r8-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

@@ -29,15 +29,15 @@ swipe
       
       
 
-      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
+      ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.12-1``,  ``2.0.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openmpi: ``>=4.0.4,<4.1.0a0``
-   :depends tbb: ``>=2020.1``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends openmpi: ``>=4.1.0,<5.0a0``
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
    :requirements:
 
    .. rubric:: Installation

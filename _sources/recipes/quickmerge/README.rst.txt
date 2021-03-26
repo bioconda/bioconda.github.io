@@ -27,13 +27,13 @@ quickmerge
       
       
 
-      ``0.3-0``
+      ``0.3-1``,  ``0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends mummer: ``3.23.*``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends python: 

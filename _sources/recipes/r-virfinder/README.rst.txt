@@ -28,14 +28,14 @@ r-virfinder
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
    :depends bioconductor-qvalue: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-glmnet: 
    :depends r-rcpp: 

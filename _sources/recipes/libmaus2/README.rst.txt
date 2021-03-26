@@ -27,15 +27,15 @@ libmaus2
       
       
 
-      ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
+      ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends libcurl: ``>=7.75.0,<8.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends snappy: ``>=1.1.8,<2.0a0``
    :depends staden_io_lib: 
    :requirements:

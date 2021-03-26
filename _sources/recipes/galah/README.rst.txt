@@ -27,14 +27,14 @@ galah
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends dashing: 
    :depends fastani: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

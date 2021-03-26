@@ -27,14 +27,13 @@ pairsnp
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends armadillo: ``>=9.200,<10.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends armadillo: ``>=9.900,<10.0a0``
+   :depends libcxx: ``>=11.1.0``
    :depends openblas: 
    :depends openmp: 
    :requirements:

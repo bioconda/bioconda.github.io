@@ -28,10 +28,10 @@ damageprofiler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.6-2</code>,  <code>0.4.6-1</code>,  <code>0.4.5-1</code>,  <code>0.4.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1-1</code>,  <code>1.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.6-2</code>,  <code>0.4.6-1</code>,  <code>0.4.5-1</code>,  </span></summary>
       
 
-      ``1.1-0``,  ``0.5.0-0``,  ``0.4.9-0``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.5-1``,  ``0.4.4-1``,  ``0.4.3-1``,  ``0.4.2-1``,  ``0.3.11-1``,  ``0.3.11-0``
+      ``1.1-1``,  ``1.1-0``,  ``0.5.0-0``,  ``0.4.9-0``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.5-1``,  ``0.4.4-1``,  ``0.4.3-1``,  ``0.4.2-1``,  ``0.3.11-1``,  ``0.3.11-0``
 
       
       .. raw:: html

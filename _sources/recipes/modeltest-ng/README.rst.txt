@@ -27,14 +27,13 @@ modeltest-ng
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends openmpi: ``>=4.0.1,<4.1.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends openmpi: ``>=4.1.0,<5.0a0``
    :requirements:
 
    .. rubric:: Installation

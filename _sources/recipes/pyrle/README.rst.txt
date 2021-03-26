@@ -28,10 +28,10 @@ pyrle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.32-0</code>,  <code>0.0.31-1</code>,  <code>0.0.31-0</code>,  <code>0.0.30-0</code>,  <code>0.0.29-0</code>,  <code>0.0.28-0</code>,  <code>0.0.27-0</code>,  <code>0.0.26-0</code>,  <code>0.0.25-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.32-1</code>,  <code>0.0.32-0</code>,  <code>0.0.31-1</code>,  <code>0.0.31-0</code>,  <code>0.0.30-0</code>,  <code>0.0.29-0</code>,  <code>0.0.28-0</code>,  <code>0.0.27-0</code>,  <code>0.0.26-0</code>,  </span></summary>
       
 
-      ``0.0.32-0``,  ``0.0.31-1``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-1``,  ``0.0.24-0``,  ``0.0.23-0``
+      ``0.0.32-1``,  ``0.0.32-0``,  ``0.0.31-1``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-1``,  ``0.0.24-0``,  ``0.0.23-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ pyrle
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 

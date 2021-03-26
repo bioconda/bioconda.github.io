@@ -27,12 +27,11 @@ perl-text-csv_xs
       
       
 
-      ``1.40-0``
+      ``1.40-1``,  ``1.40-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-test-harness: 
    :depends perl-text-csv: 

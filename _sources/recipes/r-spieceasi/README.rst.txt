@@ -32,7 +32,8 @@ r-spieceasi
       
 
    
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-glmnet: 
    :depends r-huge: ``>=1.3.2``

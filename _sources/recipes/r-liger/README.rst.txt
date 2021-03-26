@@ -27,14 +27,14 @@ r-liger
       
       
 
-      ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
+      ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
 
       
 
    
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends openjdk: ``>=6``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 

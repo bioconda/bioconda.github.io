@@ -40,8 +40,8 @@ unifrac
    :depends biom-format: 
    :depends h5py: ``>=3.1.0,<4.0a0``
    :depends hdf5: 
-   :depends libcxx: ``>=11.1.0``
-   :depends liblapacke: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends lz4: 
    :depends numpy: ``>=1.19.5,<2.0a0``
    :depends python: ``>=3.6,<3.7.0a0``

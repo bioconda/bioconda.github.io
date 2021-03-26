@@ -28,15 +28,16 @@ xhmm
       
       
 
-      ``0.0.0.2016_01_04.cc14e52-1``,  ``0.0.0.2016_01_04.cc14e52-0``
+      ``0.0.0.2016_01_04.cc14e52-2``,  ``0.0.0.2016_01_04.cc14e52-1``,  ``0.0.0.2016_01_04.cc14e52-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.3.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

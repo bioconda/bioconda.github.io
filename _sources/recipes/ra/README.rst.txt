@@ -27,13 +27,13 @@ ra
       
       
 
-      ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.2.1-0``
+      ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

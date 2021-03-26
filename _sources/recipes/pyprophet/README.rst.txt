@@ -26,15 +26,23 @@ pyprophet
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.10-1</code>,  <code>2.1.10-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>0.24.1-1</code>,  <code>0.24.1-0</code>,  </span></summary>
+      
 
+      ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends click: 
    :depends hyperopt: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends matplotlib-base: 
    :depends numexpr: ``>=2.1``
    :depends numpy: ``>=1.19.5,<2.0a0``

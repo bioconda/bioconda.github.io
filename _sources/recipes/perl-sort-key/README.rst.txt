@@ -27,12 +27,11 @@ perl-sort-key
       
       
 
-      ``1.33-0``
+      ``1.33-1``,  ``1.33-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 

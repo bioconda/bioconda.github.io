@@ -27,13 +27,13 @@ faststructure
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends matplotlib: 
    :depends numpy: 
    :depends openblas: 

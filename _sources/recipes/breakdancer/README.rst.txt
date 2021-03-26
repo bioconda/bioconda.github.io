@@ -28,13 +28,14 @@ breakdancer
       
       
 
-      ``1.4.5-8``,  ``1.4.5-7``,  ``1.4.5-6``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``
+      ``1.4.5-9``,  ``1.4.5-8``,  ``1.4.5-7``,  ``1.4.5-6``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends ncurses: ``>=6.2,<6.3.0a0``
    :depends perl-gdgraph-histogram: 
    :depends perl-math-cdf: 
    :depends perl-statistics-descriptive: 

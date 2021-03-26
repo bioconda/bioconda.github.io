@@ -27,13 +27,13 @@ ltr_finder
       
       
 
-      ``1.07-0``
+      ``1.07-1``,  ``1.07-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: 
    :depends perl-gd: 
    :requirements:

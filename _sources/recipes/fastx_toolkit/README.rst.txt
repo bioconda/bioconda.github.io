@@ -43,16 +43,23 @@ fastx_toolkit
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.14-8``,  ``0.0.14-7``,  ``0.0.14-6``,  ``0.0.14-5``,  ``0.0.14-4``,  ``0.0.14-3``,  ``0.0.14-2``,  ``0.0.14-1``,  ``0.0.14-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.14-9</code>,  <code>0.0.14-8</code>,  <code>0.0.14-7</code>,  <code>0.0.14-6</code>,  <code>0.0.14-5</code>,  <code>0.0.14-4</code>,  <code>0.0.14-3</code>,  <code>0.0.14-2</code>,  <code>0.0.14-1</code>,  </span></summary>
+      
 
+      ``0.0.14-9``,  ``0.0.14-8``,  ``0.0.14-7``,  ``0.0.14-6``,  ``0.0.14-5``,  ``0.0.14-4``,  ``0.0.14-3``,  ``0.0.14-2``,  ``0.0.14-1``,  ``0.0.14-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gnuplot: ``>=5.0.5``
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends libgtextutils: 
-   :depends libstdcxx-ng: ``>=7.3.0``
    :depends perl: 
    :depends perl-gd: 
    :depends perl-gdgraph-histogram: 

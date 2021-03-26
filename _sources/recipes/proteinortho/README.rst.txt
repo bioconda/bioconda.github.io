@@ -40,12 +40,13 @@ proteinortho
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends diamond: ``>=0.9.29``
-   :depends libcxx: ``>=11.1.0``
-   :depends libgfortran: ``5.*``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgfortran-ng: 
    :depends libgfortran5: ``>=9.3.0``
    :depends liblapacke: ``>=3.8.0,<4.0a0``
-   :depends llvm-openmp: ``>=11.1.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: 
    :depends python: 
    :requirements:

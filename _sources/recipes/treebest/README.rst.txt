@@ -27,13 +27,13 @@ treebest
       
       
 
-      ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
+      ``1.9.2.post1-2``,  ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

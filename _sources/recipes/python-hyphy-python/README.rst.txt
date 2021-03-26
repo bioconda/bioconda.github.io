@@ -26,18 +26,25 @@ python-hyphy-python
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.10-0``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.10-1</code>,  <code>0.1.10-0</code>,  <code>0.1.9-4</code>,  <code>0.1.9-3</code>,  <code>0.1.9-2</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.6-1</code>,  <code>0.1.6-0</code>,  </span></summary>
+      
 
+      ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libcurl: ``>=7.71.1,<8.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcurl: ``>=7.75.0,<8.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends llvm-openmp: ``>=11.1.0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :requirements:
 
    .. rubric:: Installation

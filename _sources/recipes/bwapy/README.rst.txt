@@ -33,6 +33,7 @@ bwapy
 
    
    :depends cffi: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

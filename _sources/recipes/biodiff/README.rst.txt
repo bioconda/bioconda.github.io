@@ -27,13 +27,12 @@ biodiff
       
       
 
-      ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``
+      ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends perl: 
+   :depends perl: ``>=5.32.0,<5.32.1.0a0``
    :requirements:
 
    .. rubric:: Installation

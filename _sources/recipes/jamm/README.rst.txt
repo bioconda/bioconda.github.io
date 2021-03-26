@@ -28,10 +28,10 @@ jamm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.8.0-0</code>,  <code>1.0.7.6-0</code>,  <code>1.0.7.5-2</code>,  <code>1.0.7.5-1</code>,  <code>1.0.7.5-0</code>,  <code>1.0.7.4-0</code>,  <code>1.0.7.2-3</code>,  <code>1.0.7.2-2</code>,  <code>1.0.7.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.8.0-1</code>,  <code>1.0.8.0-0</code>,  <code>1.0.7.6-0</code>,  <code>1.0.7.5-2</code>,  <code>1.0.7.5-1</code>,  <code>1.0.7.5-0</code>,  <code>1.0.7.4-0</code>,  <code>1.0.7.2-3</code>,  <code>1.0.7.2-2</code>,  </span></summary>
       
 
-      ``1.0.8.0-0``,  ``1.0.7.6-0``,  ``1.0.7.5-2``,  ``1.0.7.5-1``,  ``1.0.7.5-0``,  ``1.0.7.4-0``,  ``1.0.7.2-3``,  ``1.0.7.2-2``,  ``1.0.7.2-1``,  ``1.0.7.2-0``
+      ``1.0.8.0-1``,  ``1.0.8.0-0``,  ``1.0.7.6-0``,  ``1.0.7.5-2``,  ``1.0.7.5-1``,  ``1.0.7.5-0``,  ``1.0.7.4-0``,  ``1.0.7.2-3``,  ``1.0.7.2-2``,  ``1.0.7.2-1``,  ``1.0.7.2-0``
 
       
       .. raw:: html

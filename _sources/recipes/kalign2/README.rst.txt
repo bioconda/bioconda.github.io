@@ -28,12 +28,11 @@ kalign2
       
       
 
-      ``2.04-1``,  ``2.04-0``
+      ``2.04-2``,  ``2.04-1``,  ``2.04-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,12 +27,11 @@ fasta_ushuffle
       
       
 
-      ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+      ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -28,14 +28,13 @@ verifyidintensity
       
       
 
-      ``0.0.1-0``
+      ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends libcxx: ``>=11.1.0``
    :depends tclap: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

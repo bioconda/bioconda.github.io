@@ -27,16 +27,16 @@ sibeliaz
       
       
 
-      ``1.2.2-0``
+      ``1.2.2-1``,  ``1.2.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends maf2synteny: 
    :depends spoa: ``4.0.3-0.*``
-   :depends tbb: ``>=2020.2``
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
    :depends twopaco: 
    :requirements:
 

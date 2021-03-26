@@ -28,14 +28,22 @@ rust-ncbitaxonomy
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.5-0</code>,  <code>1.0.3-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  </span></summary>
+      
 
+      ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends sqlite: ``>=3.32.3,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends sqlite: ``>=3.35.2,<4.0a0``
    :requirements:
 
    .. rubric:: Installation

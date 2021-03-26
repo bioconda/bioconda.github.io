@@ -28,15 +28,14 @@ rnablueprint
       
       
 
-      ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2-1``,  ``1.2-0``
+      ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation

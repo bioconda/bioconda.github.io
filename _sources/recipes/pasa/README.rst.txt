@@ -28,7 +28,7 @@ pasa
       
       
 
-      ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+      ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
 
       
 
@@ -37,8 +37,8 @@ pasa
    :depends cdbtools: 
    :depends fasta3: 
    :depends gmap: ``2017.11.15``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends lighttpd: 
    :depends perl: 
    :depends perl-cgi: 

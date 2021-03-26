@@ -27,12 +27,12 @@ duplomap
       
       
 
-      ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``
+      ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends samtools: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

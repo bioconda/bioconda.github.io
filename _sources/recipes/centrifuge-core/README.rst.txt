@@ -28,13 +28,13 @@ centrifuge-core
       
       
 
-      ``1.0.4_beta-0``
+      ``1.0.4_beta-1``,  ``1.0.4_beta-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: 
    :depends tar: 
    :depends wget: 

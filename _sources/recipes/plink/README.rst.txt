@@ -28,10 +28,10 @@ plink
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.90b6.18-0</code>,  <code>1.90b6.12-2</code>,  <code>1.90b6.12-1</code>,  <code>1.90b6.12-0</code>,  <code>1.90b5-1</code>,  <code>1.90b5-0</code>,  <code>1.90b4-3</code>,  <code>1.90b4-2</code>,  <code>1.90b4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.90b6.21-0</code>,  <code>1.90b6.18-1</code>,  <code>1.90b6.18-0</code>,  <code>1.90b6.12-2</code>,  <code>1.90b6.12-1</code>,  <code>1.90b6.12-0</code>,  <code>1.90b5-1</code>,  <code>1.90b5-0</code>,  <code>1.90b4-3</code>,  </span></summary>
       
 
-      ``1.90b6.18-0``,  ``1.90b6.12-2``,  ``1.90b6.12-1``,  ``1.90b6.12-0``,  ``1.90b5-1``,  ``1.90b5-0``,  ``1.90b4-3``,  ``1.90b4-2``,  ``1.90b4-1``,  ``1.90b4-0``
+      ``1.90b6.21-0``,  ``1.90b6.18-1``,  ``1.90b6.18-0``,  ``1.90b6.12-2``,  ``1.90b6.12-1``,  ``1.90b6.12-0``,  ``1.90b5-1``,  ``1.90b5-0``,  ``1.90b4-3``,  ``1.90b4-2``,  ``1.90b4-1``,  ``1.90b4-0``
 
       
       .. raw:: html

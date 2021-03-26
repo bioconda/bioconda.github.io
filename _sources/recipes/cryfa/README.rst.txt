@@ -27,13 +27,12 @@ cryfa
       
       
 
-      ``18.06-0``
+      ``18.06-1``,  ``18.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

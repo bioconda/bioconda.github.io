@@ -27,12 +27,11 @@ meningotype
       
       
 
-      ``0.8.4-0``
+      ``0.8.4-1``,  ``0.8.4-0``
 
       
 
    
-   :depends argparse: 
    :depends biopython: 
    :depends blast: 
    :depends ispcr: 

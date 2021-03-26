@@ -27,14 +27,22 @@ centrifuge
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.4_beta-5``,  ``1.0.4_beta-4``,  ``1.0.4_beta-3``,  ``1.0.4_beta-2``,  ``1.0.4_beta-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.4_beta-6</code>,  <code>1.0.4_beta-5</code>,  <code>1.0.4_beta-4</code>,  <code>1.0.4_beta-3</code>,  <code>1.0.4_beta-2</code>,  <code>1.0.4_beta-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  </span></summary>
+      
 
+      ``1.0.4_beta-6``,  ``1.0.4_beta-5``,  ``1.0.4_beta-4``,  ``1.0.4_beta-3``,  ``1.0.4_beta-2``,  ``1.0.4_beta-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: 
    :depends python: ``<3``
    :depends tar: 

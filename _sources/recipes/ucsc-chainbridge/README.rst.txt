@@ -27,16 +27,16 @@ ucsc-chainbridge
       
       
 
-      ``377-1``,  ``377-0``
+      ``377-2``,  ``377-1``,  ``377-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libpng: ``>=1.6.37,<1.7.0a0``
    :depends libuuid: ``>=2.32.1,<3.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends openssl: ``>=1.1.1g,<1.1.2a``
+   :depends openssl: ``>=1.1.1j,<1.1.2a``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

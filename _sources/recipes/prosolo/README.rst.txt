@@ -28,10 +28,10 @@ prosolo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-4</code>,  <code>0.4.0-3</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.1-2</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-4</code>,  <code>0.4.0-3</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  </span></summary>
       
 
-      ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.3.1-0``,  ``0.2.0-0``
+      ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.3.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,6 @@ prosolo
    :depends clangdev: 
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

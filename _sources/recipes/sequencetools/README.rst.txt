@@ -27,13 +27,13 @@ sequencetools
       
       
 
-      ``1.4.0.6-0``,  ``1.2.2-0``
+      ``1.4.0.6-1``,  ``1.4.0.6-0``,  ``1.2.2-0``
 
       
 
    
    :depends gmp: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends samtools: 
    :depends xz: 
    :depends zlib: 

@@ -28,13 +28,13 @@ red
       
       
 
-      ``2015.05.22-1``,  ``2015.05.22-0``
+      ``2015.05.22-2``,  ``2015.05.22-1``,  ``2015.05.22-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

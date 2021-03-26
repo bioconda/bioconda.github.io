@@ -27,13 +27,13 @@ sirius-csifingerid
       
       
 
-      ``4.0.1-0``
+      ``4.0.1-1``,  ``4.0.1-0``
 
       
 
    
    :depends glpk: ``>=4.65,<4.66.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends openjdk: ``>=7``
    :requirements:
 

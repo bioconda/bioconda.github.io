@@ -28,13 +28,13 @@ expressbetadiversity
       
       
 
-      ``1.0.10-1``,  ``1.0.10-0``
+      ``1.0.10-2``,  ``1.0.10-1``,  ``1.0.10-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends python: ``>=3``

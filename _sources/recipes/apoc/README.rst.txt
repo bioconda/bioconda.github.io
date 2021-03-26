@@ -27,13 +27,14 @@ apoc
       
       
 
-      ``1b16-3``,  ``1b16-2``,  ``1b16-1``,  ``1b16-0``
+      ``1b16-4``,  ``1b16-3``,  ``1b16-2``,  ``1b16-1``,  ``1b16-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

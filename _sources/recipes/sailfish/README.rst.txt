@@ -27,17 +27,17 @@ sailfish
       
       
 
-      ``0.10.1-4``,  ``0.10.1-3``,  ``0.10.1-2``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.7.6-0``
+      ``0.10.1-5``,  ``0.10.1-4``,  ``0.10.1-3``,  ``0.10.1-2``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.7.6-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends icu: ``>=64.2,<65.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends tbb: ``>=2020.1``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends icu: ``>=68.1,<69.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -12,7 +12,7 @@ realphy
 
    The Reference sequence Alignment based Phylogeny
 
-   :homepage: https://realphy.unibas.ch/fcgi/realphy
+   :homepage: https://realphy.unibas.ch/realphy
    :license: No commercial use
    :recipe: /`realphy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/realphy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/realphy/meta.yaml>`_
 
@@ -27,7 +27,7 @@ realphy
       
       
 
-      ``1.12-3``,  ``1.12-2``
+      ``1.13-0``,  ``1.12-3``,  ``1.12-2``
 
       
 

@@ -27,18 +27,19 @@ pirs
       
       
 
-      ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``
+      ``2.0.2-5``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``
 
       
 
    
-   :depends boost: ``>=1.70.0,<1.70.1.0a0``
+   :depends boost: ``>=1.74.0,<1.74.1.0a0``
    :depends bwa: 
    :depends coreutils: 
    :depends gnuplot: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: 
    :depends samtools: 
    :depends soapaligner: 

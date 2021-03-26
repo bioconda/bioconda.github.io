@@ -27,7 +27,7 @@ aegean
       
       
 
-      ``0.16.0-0``
+      ``0.16.0-1``,  ``0.16.0-0``
 
       
 
@@ -35,7 +35,7 @@ aegean
    :depends cairo: ``>=1.16.0,<1.17.0a0``
    :depends genometools-genometools: 
    :depends git: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

@@ -27,16 +27,16 @@ phyx
       
       
 
-      ``1.1-0``
+      ``1.1-1``,  ``1.1-0``
 
       
 
    
    :depends armadillo: ``>=9.900,<10.0a0``
    :depends lapack: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends nlopt: ``>=2.6.2,<2.6.3.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends nlopt: ``>=2.7.0,<2.7.1.0a0``
    :depends openblas: 
    :requirements:
 

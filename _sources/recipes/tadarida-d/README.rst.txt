@@ -27,15 +27,15 @@ tadarida-d
       
       
 
-      ``1.03-4``,  ``1.03-3``,  ``1.03-1``,  ``1.03-0``,  ``1.02-0``,  ``1.01-0``,  ``1.0-0``
+      ``1.03-5``,  ``1.03-4``,  ``1.03-3``,  ``1.03-1``,  ``1.03-0``,  ``1.02-0``,  ``1.01-0``,  ``1.0-0``
 
       
 
    
-   :depends fftw: ``>=3.3.8,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libsndfile: ``>=1.0.28,<1.1.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends fftw: ``>=3.3.9,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libsndfile: ``>=1.0.31,<1.1.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends qt: ``>=4.8.7,<4.9.0a0``
    :depends xorg-libsm: 
    :depends xorg-libx11: 

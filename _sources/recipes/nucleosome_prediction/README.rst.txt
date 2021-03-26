@@ -27,13 +27,13 @@ nucleosome_prediction
       
       
 
-      ``3.0-1``,  ``3.0-0``
+      ``3.0-2``,  ``3.0-1``,  ``3.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 

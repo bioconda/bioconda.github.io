@@ -28,15 +28,14 @@ fastphylo
       
       
 
-      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends liblapack: ``>=3.8.0,<3.9.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libxml2: ``>=2.9.10,<2.10.0a0``
    :depends openmpi: ``<4.0.2``
    :depends openmpi: ``>=4.0.1,<4.1.0a0``

@@ -28,10 +28,10 @@ rmats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.1-0</code>,  <code>4.1.0-4</code>,  <code>4.1.0-3</code>,  <code>4.1.0-2</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.2-4</code>,  <code>4.0.2-3</code>,  <code>4.0.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.1-1</code>,  <code>4.1.1-0</code>,  <code>4.1.0-4</code>,  <code>4.1.0-3</code>,  <code>4.1.0-2</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.2-4</code>,  <code>4.0.2-3</code>,  </span></summary>
       
 
-      ``4.1.1-0``,  ``4.1.0-4``,  ``4.1.0-3``,  ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-4``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``3.2.5-2``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.2beta-0``
+      ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-4``,  ``4.1.0-3``,  ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-4``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``3.2.5-2``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.2beta-0``
 
       
       .. raw:: html
@@ -42,10 +42,10 @@ rmats
    
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libgfortran-ng: 
-   :depends libgfortran4: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgfortran5: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends numpy: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``

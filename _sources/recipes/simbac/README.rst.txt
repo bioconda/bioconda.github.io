@@ -28,14 +28,13 @@ simbac
       
       
 
-      ``0.1a-0``
+      ``0.1a-1``,  ``0.1a-0``
 
       
 
    
    :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

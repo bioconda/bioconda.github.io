@@ -27,7 +27,7 @@ terminus
       
       
 
-      ``0.1.0-1``,  ``0.1.0-0``,  ``v0.1.0-0``
+      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``,  ``v0.1.0-0``
 
       
 
@@ -35,8 +35,7 @@ terminus
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

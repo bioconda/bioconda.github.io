@@ -27,9 +27,17 @@ fusioncatcher
    :versions:
       
       
+      .. raw:: html
 
-      ``1.30-0``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``,  ``1.10-3``,  ``1.10-2``,  ``1.10-0``,  ``1.00-1``,  ``1.00-0``
+         <details><summary><span class="truncated-version-list"><code>1.30-1</code>,  <code>1.30-0</code>,  <code>1.20-2</code>,  <code>1.20-1</code>,  <code>1.20-0</code>,  <code>1.10-3</code>,  <code>1.10-2</code>,  <code>1.10-0</code>,  <code>1.00-1</code>,  </span></summary>
+      
 
+      ``1.30-1``,  ``1.30-0``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``,  ``1.10-3``,  ``1.10-2``,  ``1.10-0``,  ``1.00-1``,  ``1.00-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

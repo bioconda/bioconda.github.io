@@ -27,13 +27,13 @@ booster
       
       
 
-      ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
+      ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

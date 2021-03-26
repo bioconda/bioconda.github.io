@@ -27,14 +27,13 @@ tbl2asn-forever
       
       
 
-      ``25.7.2f-0``,  ``25.7.1f-0``,  ``25.7f-0``
+      ``25.7.2f-1``,  ``25.7.2f-0``,  ``25.7.1f-0``,  ``25.7f-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :depends libidn11: 
-   :depends zlib: 
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

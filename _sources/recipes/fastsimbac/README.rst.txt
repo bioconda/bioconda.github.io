@@ -27,14 +27,14 @@ fastsimbac
       
       
 
-      ``1.0.1_bd3ad13d8f79-1``,  ``1.0.1_bd3ad13d8f79-0``
+      ``1.0.1_bd3ad13d8f79-2``,  ``1.0.1_bd3ad13d8f79-1``,  ``1.0.1_bd3ad13d8f79-0``
 
       
 
    
-   :depends boost: ``>=1.70.0,<1.70.1.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends boost: ``>=1.74.0,<1.74.1.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

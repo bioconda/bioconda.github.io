@@ -27,15 +27,14 @@ pycluster
       
       
 
-      ``1.54-4``,  ``1.54-3``,  ``1.54-2``,  ``1.54-1``,  ``1.54-0``,  ``1.52-1``
+      ``1.54-5``,  ``1.54-4``,  ``1.54-3``,  ``1.54-2``,  ``1.54-1``,  ``1.54-0``,  ``1.52-1``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: ``>=1.16.5,<2.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :requirements:
 
    .. rubric:: Installation

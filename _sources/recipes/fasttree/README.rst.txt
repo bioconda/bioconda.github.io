@@ -29,10 +29,10 @@ fasttree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.10-4</code>,  <code>2.1.10-3</code>,  <code>2.1.10-2</code>,  <code>2.1.10-0</code>,  <code>2.1.9-2</code>,  <code>2.1.9-1</code>,  <code>2.1.9-0</code>,  <code>2.1.8-5</code>,  <code>2.1.8-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.10-5</code>,  <code>2.1.10-4</code>,  <code>2.1.10-3</code>,  <code>2.1.10-2</code>,  <code>2.1.10-0</code>,  <code>2.1.9-2</code>,  <code>2.1.9-1</code>,  <code>2.1.9-0</code>,  <code>2.1.8-6</code>,  </span></summary>
       
 
-      ``2.1.10-4``,  ``2.1.10-3``,  ``2.1.10-2``,  ``2.1.10-0``,  ``2.1.9-2``,  ``2.1.9-1``,  ``2.1.9-0``,  ``2.1.8-5``,  ``2.1.8-4``,  ``2.1.8-2``,  ``2.1.8-1``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-0``
+      ``2.1.10-5``,  ``2.1.10-4``,  ``2.1.10-3``,  ``2.1.10-2``,  ``2.1.10-0``,  ``2.1.9-2``,  ``2.1.9-1``,  ``2.1.9-0``,  ``2.1.8-6``,  ``2.1.8-5``,  ``2.1.8-4``,  ``2.1.8-2``,  ``2.1.8-1``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ fasttree
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

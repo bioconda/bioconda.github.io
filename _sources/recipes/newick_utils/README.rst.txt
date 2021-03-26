@@ -27,12 +27,12 @@ newick_utils
       
       
 
-      ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+      ``1.6-4``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libxml2: ``2.9.*``
    :requirements:
 

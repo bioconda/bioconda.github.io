@@ -28,7 +28,7 @@ bioconductor-hopach
       
       
 
-      ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``
+      ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``
 
       
 
@@ -36,7 +36,6 @@ bioconductor-hopach
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 

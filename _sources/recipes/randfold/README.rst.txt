@@ -28,12 +28,12 @@ randfold
       
       
 
-      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

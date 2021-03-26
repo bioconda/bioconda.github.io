@@ -27,14 +27,14 @@ smudgeplot
       
       
 
-      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: 
-   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python: ``>=3.9,<3.10.0a0``
    :depends r-argparse: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-viridis: 

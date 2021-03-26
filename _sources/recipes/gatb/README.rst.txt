@@ -27,15 +27,14 @@ gatb
       
       
 
-      ``1.4.1-1``,  ``1.4.1-0``
+      ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
 
    
-   :depends boost: ``>=1.70.0,<1.70.1.0a0``
-   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends boost: ``>=1.74.0,<1.74.1.0a0``
+   :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
+   :depends libcxx: ``>=11.1.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
