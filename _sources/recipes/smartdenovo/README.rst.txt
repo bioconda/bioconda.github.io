@@ -32,6 +32,7 @@ smartdenovo
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
    :depends perl: 
    :requirements:
 

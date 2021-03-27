@@ -32,6 +32,7 @@ cap3
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

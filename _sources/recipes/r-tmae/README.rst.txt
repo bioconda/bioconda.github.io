@@ -13,7 +13,7 @@ r-tmae
    Tests and visualizes for Mono\-allelic expressed variants.
 
    :homepage: https://github.com/mumichae/tMAE
-   :license: OTHER / UNKOWN
+   :license: MIT / MIT
    :recipe: /`r-tmae <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tmae>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tmae/meta.yaml>`_
 
    
@@ -27,17 +27,24 @@ r-tmae
       
       
 
-      ``0.9.0-1``,  ``0.9.0-0``
+      ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
    
+   :depends bioconductor-biocgenerics: 
    :depends bioconductor-deseq2: 
+   :depends bioconductor-genomicranges: 
    :depends bioconductor-genomicscores: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends bioconductor-iranges: 
+   :depends bioconductor-s4vectors: 
+   :depends libgcc-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-biocmanager: 
    :depends r-data.table: 
    :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-magrittr: 
    :requirements:
 
    .. rubric:: Installation
