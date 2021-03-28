@@ -33,6 +33,7 @@ novobreak
 
    
    :depends bwa: ``>=0.7.10``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends perl: 
    :depends samtools: ``1.*``
    :depends ssake: 

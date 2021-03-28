@@ -29,7 +29,7 @@ pegasusio
       
       
 
-      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
+      ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
 
       
 
@@ -37,7 +37,7 @@ pegasusio
    :depends anndata: ``>=0.7``
    :depends docopt: 
    :depends importlib_metadata: ``>=0.7``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends loompy: 
    :depends natsort: 
    :depends numpy: 

@@ -27,15 +27,14 @@ molpopgen-analysis
       
       
 
-      ``0.8.8-5``,  ``0.8.8-4``,  ``0.8.8-3``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``
+      ``0.8.8-6``,  ``0.8.8-5``,  ``0.8.8-4``,  ``0.8.8-3``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``
 
       
 
    
    :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends libsequence: ``1.8.4.*``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openblas: 
    :requirements:
 

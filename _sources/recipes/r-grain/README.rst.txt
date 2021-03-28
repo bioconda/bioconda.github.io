@@ -27,14 +27,13 @@ r-grain
       
       
 
-      ``1.3_0-3``,  ``1.3_0-2``,  ``1.3_0-1``,  ``1.3_0-0``
+      ``1.3_0-4``,  ``1.3_0-3``,  ``1.3_0-2``,  ``1.3_0-1``,  ``1.3_0-0``
 
       
 
    
    :depends bioconductor-graph: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-functional: 
    :depends r-grbase: ``>=1.7_2``

@@ -27,14 +27,14 @@ samsum
       
       
 
-      ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends numpy: ``>=1.16.6,<2.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends numpy: ``>=1.17.5,<2.0a0``
    :depends pyfastx: 
    :depends pytest: 
    :depends python: ``>=3.6,<3.7.0a0``

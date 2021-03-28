@@ -27,13 +27,13 @@ bamaddrg
       
       
 
-      ``9baba65f88228e55639689a3cea38dd150e6284f-0``
+      ``9baba65f88228e55639689a3cea38dd150e6284f-1``,  ``9baba65f88228e55639689a3cea38dd150e6284f-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

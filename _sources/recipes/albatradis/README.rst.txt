@@ -28,10 +28,10 @@ albatradis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  </span></summary>
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.5-4``
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.5-4``
 
       
       .. raw:: html
@@ -41,11 +41,10 @@ albatradis
 
    
    :depends biopython: ``>=1.68``
-   :depends biotradis: ``>=1.4.5 1``
+   :depends biotradis: ``>=1.4.5``
    :depends cython: 
    :depends dendropy: 
    :depends graphviz: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pandas: 
    :depends pyfastaq: ``>=3.12.0``

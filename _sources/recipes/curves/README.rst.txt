@@ -33,11 +33,12 @@ curves
 
    
    :depends ambertools: ``20.*``
-   :depends libcxx: ``>=11.1.0``
-   :depends libgfortran: ``5.*``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgfortran-ng: 
    :depends libgfortran5: ``>=9.3.0``
    :depends libnetcdf: ``>=4.7.*``
    :depends libnetcdf: ``>=4.7.4,<4.7.5.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends netcdf-fortran: ``>=4.5.3,<4.6.0a0``
    :requirements:
 

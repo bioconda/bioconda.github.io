@@ -27,13 +27,13 @@ necat
       
       
 
-      ``0.0.1_update20200803-0``
+      ``0.0.1_update20200803-1``,  ``0.0.1_update20200803-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: 
    :depends perl-env: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

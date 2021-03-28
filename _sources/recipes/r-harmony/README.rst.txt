@@ -27,14 +27,13 @@ r-harmony
       
       
 
-      ``0.1-0``
+      ``0.1-1``,  ``0.1-0``
 
       
 
    
    :depends bioconductor-singlecellexperiment: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 

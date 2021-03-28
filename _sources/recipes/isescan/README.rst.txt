@@ -27,7 +27,7 @@ isescan
       
       
 
-      ``1.7.2.1-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``
+      ``1.7.2.2.2-0``,  ``1.7.2.2.1-0``,  ``1.7.2.1-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``
 
       
 
@@ -37,7 +37,7 @@ isescan
    :depends fastcluster: 
    :depends fraggenescan: ``<=1.30``
    :depends hmmer: ``>=3.1b2``
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: ``>=1.8``
    :depends python: ``>=3``
    :depends scipy: ``>=0.13.1``

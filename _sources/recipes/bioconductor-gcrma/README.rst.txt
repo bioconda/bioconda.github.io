@@ -28,7 +28,7 @@ bioconductor-gcrma
       
       
 
-      ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``
+      ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``
 
       
 
@@ -39,7 +39,6 @@ bioconductor-gcrma
    :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
    :depends bioconductor-xvector: ``>=0.30.0,<0.31.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 

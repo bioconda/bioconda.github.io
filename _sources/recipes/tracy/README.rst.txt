@@ -28,10 +28,10 @@ tracy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.8-0</code>,  <code>0.5.7-1</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-1</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  </span></summary>
       
 
-      ``0.5.8-0``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.3.10-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``
+      ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.3.10-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ tracy
    
    :depends _openmp_mutex: ``* *_llvm``
    :depends _openmp_mutex: ``>=4.5``
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends llvm-openmp: ``>=11.0.1``
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends llvm-openmp: ``>=11.1.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

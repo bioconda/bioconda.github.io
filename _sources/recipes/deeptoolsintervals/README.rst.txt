@@ -32,8 +32,9 @@ deeptoolsintervals
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    .. rubric:: Installation

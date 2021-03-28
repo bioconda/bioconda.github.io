@@ -27,15 +27,15 @@ bolt
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends tbb: ``>=2020.1``
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

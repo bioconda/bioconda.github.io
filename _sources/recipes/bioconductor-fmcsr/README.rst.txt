@@ -27,7 +27,7 @@ bioconductor-fmcsr
       
       
 
-      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-0``
+      ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-0``
 
       
 
@@ -35,9 +35,8 @@ bioconductor-fmcsr
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends bioconductor-chemminer: ``>=3.42.0,<3.43.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-runit: 
    :requirements:

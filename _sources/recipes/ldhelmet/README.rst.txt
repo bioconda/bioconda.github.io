@@ -28,16 +28,16 @@ ldhelmet
       
       
 
-      ``1.10-1``,  ``1.10-0``
+      ``1.10-2``,  ``1.10-1``,  ``1.10-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

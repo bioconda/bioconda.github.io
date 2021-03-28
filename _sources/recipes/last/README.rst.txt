@@ -41,7 +41,8 @@ last
       
 
    
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends parallel: 
    :depends pillow: 
    :depends python: 

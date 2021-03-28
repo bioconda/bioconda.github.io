@@ -27,13 +27,13 @@ smashpp
       
       
 
-      ``20.04-0``,  ``19.12-0``
+      ``20.04-1``,  ``20.04-0``,  ``19.12-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

@@ -32,7 +32,8 @@ biodiff
       
 
    
-   :depends perl: ``>=5.32.0,<5.32.1.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends perl: 
    :requirements:
 
    .. rubric:: Installation

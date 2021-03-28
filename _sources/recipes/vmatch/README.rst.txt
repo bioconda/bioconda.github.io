@@ -33,6 +33,7 @@ vmatch
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
    :depends perl: ``>=5.10,<6``
    :requirements:
 

@@ -33,6 +33,7 @@ lace
 
    
    :depends blat: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends matplotlib: 
    :depends networkx: 
    :depends numpy: 

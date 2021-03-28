@@ -28,13 +28,13 @@ migraine
       
       
 
-      ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-0``
+      ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

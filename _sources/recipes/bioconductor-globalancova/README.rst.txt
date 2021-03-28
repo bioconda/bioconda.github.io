@@ -28,7 +28,7 @@ bioconductor-globalancova
       
       
 
-      ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
+      ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
 
       
 
@@ -39,7 +39,6 @@ bioconductor-globalancova
    :depends bioconductor-globaltest: ``>=5.44.0,<5.45.0``
    :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corpcor: 

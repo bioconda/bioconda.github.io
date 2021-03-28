@@ -10,11 +10,11 @@ r-acidplyr
    :replaces_section_title:
    :noindex:
 
-   A dplyr\-like approach for classes defined in S4Vectors.
+   A grammar of S4 class data manipulation.
 
-   :homepage: https://acidplyr.acidgenomics.com/
-   :developer docs: https://github.com/acidgenomics/acidplyr
-   :license: MIT
+   :homepage: https://r.acidgenomics.com/packages/acidplyr/
+   :developer docs: https://github.com/acidgenomics/r-acidplyr
+   :license: GPL / AGPL-3.0
    :recipe: /`r-acidplyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidplyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidplyr/meta.yaml>`_
 
    
@@ -28,18 +28,16 @@ r-acidplyr
       
       
 
-      ``0.1.4-0``
+      ``0.1.17-0``,  ``0.1.4-0``
 
       
 
    
-   :depends bioconductor-s4vectors: 
-   :depends r-acidbase: ``>=0.2.3``
-   :depends r-acidgenerics: ``>=0.4.0``
+   :depends r-acidcli: ``>=0.1.0``
+   :depends r-acidgenerics: ``>=0.5.17``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-cli: ``>=2.0``
-   :depends r-goalie: ``>=0.4.9``
-   :depends r-tibble: ``>=3.0``
+   :depends r-goalie: ``>=0.5.0``
+   :depends r-purrr: ``>=0.3.4``
    :requirements:
 
    .. rubric:: Installation

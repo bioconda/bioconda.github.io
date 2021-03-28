@@ -27,16 +27,16 @@ bioconductor-gpumagic
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
    
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends pocl: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-deriv: 

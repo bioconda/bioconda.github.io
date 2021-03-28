@@ -27,9 +27,17 @@ phyloflash
    :versions:
       
       
+      .. raw:: html
 
-      ``3.4-0``,  ``3.3b4-0``,  ``3.3b3-0``,  ``3.3b2-0``,  ``3.3b1-1``,  ``3.3b1-0``,  ``3.0b1-1``,  ``3.0b1-0``,  ``2.0beta6-0``
+         <details><summary><span class="truncated-version-list"><code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3b4-0</code>,  <code>3.3b3-0</code>,  <code>3.3b2-0</code>,  <code>3.3b1-1</code>,  <code>3.3b1-0</code>,  <code>3.0b1-1</code>,  <code>3.0b1-0</code>,  </span></summary>
+      
 
+      ``3.4-1``,  ``3.4-0``,  ``3.3b4-0``,  ``3.3b3-0``,  ``3.3b2-0``,  ``3.3b1-1``,  ``3.3b1-0``,  ``3.0b1-1``,  ``3.0b1-0``,  ``2.0beta6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

@@ -27,7 +27,7 @@ bioconductor-delayedarray
       
       
 
-      ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
+      ``0.16.3-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
 
       
 
@@ -37,7 +37,6 @@ bioconductor-delayedarray
    :depends bioconductor-matrixgenerics: ``>=1.2.0,<1.3.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrix: 

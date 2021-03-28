@@ -29,15 +29,15 @@ kinsimriboswitch
       
       
 
-      ``0.3-2``,  ``0.3-1``,  ``0.3-0``
+      ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``
 
       
 
    
    :depends coreutils: 
-   :depends gmp: ``>=6.2.0,<7.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends gmp: ``>=6.2.1,<7.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-clone: 
    :depends perl-devel-assert: 
@@ -56,7 +56,7 @@ kinsimriboswitch
    :depends r-argparser: 
    :depends r-rcolorbrewer: 
    :depends treekin: 
-   :depends viennarna: ``>=2.4.14,<2.5.0a0``
+   :depends viennarna: ``>=2.4.17,<2.5.0a0``
    :requirements:
 
    .. rubric:: Installation

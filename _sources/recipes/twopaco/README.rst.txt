@@ -27,14 +27,14 @@ twopaco
       
       
 
-      ``0.9.4-0``,  ``0.9.2-3``,  ``0.9.2-2``,  ``0.9.2-0``
+      ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.2-3``,  ``0.9.2-2``,  ``0.9.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends tbb: ``>=2020.2``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
    :requirements:
 
    .. rubric:: Installation

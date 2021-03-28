@@ -43,6 +43,7 @@ macrel
 
    
    :depends atomicwrites: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends megahit: 
    :depends ngless: 
    :depends paladin: 

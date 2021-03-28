@@ -27,15 +27,14 @@ howdesbt
       
       
 
-      ``2.00.02-0``,  ``1.00.03-1``,  ``1.00.03-0``,  ``1.00.00-0``
+      ``2.00.02-1``,  ``2.00.02-0``,  ``1.00.03-1``,  ``1.00.03-0``,  ``1.00.00-0``
 
       
 
    
-   :depends croaring: ``>=0.2.63,<0.2.64.0a0``
+   :depends croaring: ``>=0.2.66,<0.2.67.0a0``
    :depends kmer-jellyfish: ``>=2.2``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends sdsl-lite: 
    :requirements:
 

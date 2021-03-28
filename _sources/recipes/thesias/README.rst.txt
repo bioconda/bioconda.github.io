@@ -28,12 +28,12 @@ thesias
       
       
 
-      ``3.1.1-1``,  ``3.1.1-0``
+      ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends openjdk: ``>=11``
    :depends python: 
    :requirements:

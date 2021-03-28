@@ -27,7 +27,7 @@ bioconductor-pd.ragene.1.1.st.v1
       
       
 
-      ``3.14.1-6``,  ``3.14.1-5``,  ``3.14.1-4``,  ``3.14.1-3``,  ``3.14.1-1``,  ``3.14.1-0``
+      ``3.14.1-7``,  ``3.14.1-6``,  ``3.14.1-5``,  ``3.14.1-4``,  ``3.14.1-3``,  ``3.14.1-1``,  ``3.14.1-0``
 
       
 
@@ -37,7 +37,7 @@ bioconductor-pd.ragene.1.1.st.v1
    :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
    :depends bioconductor-oligoclasses: ``>=1.52.0,<1.53.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-rsqlite: ``>=1.0.0``

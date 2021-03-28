@@ -27,14 +27,13 @@ r-metacoder
       
       
 
-      ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
    
    :depends bioconductor-biomformat: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends r-ape: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 

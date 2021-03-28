@@ -28,10 +28,10 @@ rcorrector
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3.1-1</code>,  <code>1.0.3.1-0</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3.1-1</code>,  <code>1.0.3.1-0</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-2</code>,  </span></summary>
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3.1-1``,  ``1.0.3.1-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3.1-1``,  ``1.0.3.1-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ rcorrector
 
    
    :depends kmer-jellyfish: ``2.*``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

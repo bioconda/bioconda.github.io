@@ -28,7 +28,7 @@ r-histonehmm
       
       
 
-      ``1.8-1``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``
+      ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``
 
       
 
@@ -36,9 +36,9 @@ r-histonehmm
    :depends bioconductor-biocstyle: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mvtnorm: 
    :depends r-optparse: 

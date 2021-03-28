@@ -30,14 +30,14 @@ scramble
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends bioconductor-rsamtools: ``>=2.4.0``
-   :depends htslib: ``>=1.11,<1.12.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0.3``
    :depends r-optparse: ``>=1.6.6``
    :depends r-rblast: ``>=0.99.1``

@@ -28,7 +28,7 @@ bioconductor-sim
       
       
 
-      ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``
+      ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``
 
       
 
@@ -36,7 +36,6 @@ bioconductor-sim
    :depends bioconductor-globaltest: ``>=5.44.0,<5.45.0``
    :depends bioconductor-quantsmooth: ``>=1.56.0,<1.57.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-quantreg: 

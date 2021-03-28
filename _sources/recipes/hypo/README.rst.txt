@@ -27,15 +27,15 @@ hypo
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
    :depends kmc: ``>=3.0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends openmp: 
    :depends sdsl-lite: ``>=2.1.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

@@ -27,9 +27,17 @@ bioconductor-vsn
    :versions:
       
       
+      .. raw:: html
 
-      ``3.58.0-0``,  ``3.56.0-0``,  ``3.54.0-0``,  ``3.52.0-1``,  ``3.50.0-0``,  ``3.48.1-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.38.0-1``
+         <details><summary><span class="truncated-version-list"><code>3.58.0-1</code>,  <code>3.58.0-0</code>,  <code>3.56.0-0</code>,  <code>3.54.0-0</code>,  <code>3.52.0-1</code>,  <code>3.50.0-0</code>,  <code>3.48.1-0</code>,  <code>3.46.0-0</code>,  <code>3.44.0-0</code>,  </span></summary>
+      
 
+      ``3.58.0-1``,  ``3.58.0-0``,  ``3.56.0-0``,  ``3.54.0-0``,  ``3.52.0-1``,  ``3.50.0-0``,  ``3.48.1-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.38.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,7 +45,6 @@ bioconductor-vsn
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-ggplot2: 

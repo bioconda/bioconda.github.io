@@ -29,10 +29,10 @@ bioconductor-pcamethods
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.82.0-0</code>,  <code>1.80.0-0</code>,  <code>1.78.0-0</code>,  <code>1.76.0-1</code>,  <code>1.74.0-0</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  <code>1.64.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.82.0-1</code>,  <code>1.82.0-0</code>,  <code>1.80.0-0</code>,  <code>1.78.0-0</code>,  <code>1.76.0-1</code>,  <code>1.74.0-0</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  </span></summary>
       
 
-      ``1.82.0-0``,  ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-1``,  ``1.74.0-0``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``
+      ``1.82.0-1``,  ``1.82.0-0``,  ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-1``,  ``1.74.0-0``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``
 
       
       .. raw:: html
@@ -44,9 +44,8 @@ bioconductor-pcamethods
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-mass: 
    :depends r-rcpp: ``>=0.11.3``

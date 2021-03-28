@@ -27,7 +27,7 @@ bioconductor-biocneighbors
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
@@ -35,13 +35,12 @@ bioconductor-biocneighbors
    :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 
-   :depends r-rcppannoy: 
    :depends r-rcpphnsw: 
    :requirements:
 

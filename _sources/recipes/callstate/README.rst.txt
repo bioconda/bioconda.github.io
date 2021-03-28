@@ -27,14 +27,14 @@ callstate
       
       
 
-      ``0.0.2-0``
+      ``0.0.2-1``,  ``0.0.2-0``
 
       
 
    
    :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends pcre: ``>=8.43,<9.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends pcre: ``>=8.44,<9.0a0``
    :requirements:
 
    .. rubric:: Installation

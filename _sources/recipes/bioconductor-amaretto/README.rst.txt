@@ -27,7 +27,7 @@ bioconductor-amaretto
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
 
       
 
@@ -39,9 +39,8 @@ bioconductor-amaretto
    :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-callr: ``>=3.0.0.9001``
    :depends r-circlize: 

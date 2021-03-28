@@ -34,12 +34,13 @@ dcmtk
    
    :depends icu: ``>=68.1,<69.0a0``
    :depends jpeg: ``>=9d,<10a``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libpng: ``>=1.6.37,<1.7.0a0``
    :depends libsndfile: ``>=1.0.31,<1.1.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends libtiff: ``>=4.2.0,<5.0a0``
    :depends libxml2: ``>=2.9.10,<2.10.0a0``
-   :depends openssl: ``>=1.1.1j,<1.1.2a``
+   :depends openssl: ``>=1.1.1k,<1.1.2a``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

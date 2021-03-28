@@ -27,14 +27,13 @@ r-genomictools
       
       
 
-      ``0.2.9.7-0``
+      ``0.2.9.7-1``,  ``0.2.9.7-0``
 
       
 
    
    :depends bioconductor-snpstats: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-data.table: ``>=1.9.6``

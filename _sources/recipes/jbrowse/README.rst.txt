@@ -42,8 +42,8 @@ jbrowse
 
    
    :depends gff3sort: 
-   :depends libcxx: ``>=11.1.0``
-   :depends nodejs: ``>=15.12.0,<16.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-featureio: 
    :depends perl-bio-gff3: 
@@ -67,7 +67,7 @@ jbrowse
    :depends perl-test-simple: 
    :depends perl-test-warn: 
    :depends perl-uri: 
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
    .. rubric:: Installation

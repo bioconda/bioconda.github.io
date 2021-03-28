@@ -27,7 +27,7 @@ xtea
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -36,7 +36,7 @@ xtea
    :depends minimap2: 
    :depends numpy: 
    :depends pandas: 
-   :depends pysam: ``>=0.16.0``
+   :depends pysam: ``>=0.15.0``
    :depends python: 
    :depends samtools: ``>=1.0``
    :depends scikit-learn: ``0.18.1``

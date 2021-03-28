@@ -27,9 +27,17 @@ roary
    :versions:
       
       
+      .. raw:: html
 
-      ``3.13.0-0``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.9.1-0``,  ``3.8.2-0``,  ``3.8.0-1``,  ``3.7.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.13.0-1</code>,  <code>3.13.0-0</code>,  <code>3.12.0-2</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.10.2-0</code>,  <code>3.9.1-0</code>,  <code>3.8.2-0</code>,  <code>3.8.0-1</code>,  </span></summary>
+      
 
+      ``3.13.0-1``,  ``3.13.0-0``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.9.1-0``,  ``3.8.2-0``,  ``3.8.0-1``,  ``3.7.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,7 +45,6 @@ roary
    :depends blast: 
    :depends cd-hit: 
    :depends fasttree: 
-   :depends libgcc-ng: ``>=7.3.0``
    :depends mafft: 
    :depends mcl: 
    :depends parallel: ``>=20180522``

@@ -28,10 +28,10 @@ scalpel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.4-2</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-2</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.4-3</code>,  <code>0.5.4-2</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-2</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  </span></summary>
       
 
-      ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
+      ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ scalpel
    
    :depends bamtools: 
    :depends bcftools: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: 
    :depends samtools: 
    :requirements:

@@ -34,8 +34,8 @@ lofreq
 
    
    :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends samtools: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

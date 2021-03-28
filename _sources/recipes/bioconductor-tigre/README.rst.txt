@@ -28,7 +28,7 @@ bioconductor-tigre
       
       
 
-      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
+      ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
 
       
 
@@ -38,7 +38,6 @@ bioconductor-tigre
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 

@@ -32,9 +32,10 @@ pybbi
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libpng: ``>=1.6.37,<1.7.0a0``
    :depends numpy: ``>=1.17.5,<2.0a0``
-   :depends openssl: ``>=1.1.1j,<1.1.2a``
+   :depends openssl: ``>=1.1.1k,<1.1.2a``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends six: 

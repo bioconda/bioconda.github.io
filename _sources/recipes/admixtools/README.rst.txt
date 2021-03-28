@@ -34,6 +34,7 @@ admixtools
 
    
    :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends openblas: 
    :requirements:
 

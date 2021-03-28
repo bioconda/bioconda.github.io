@@ -33,6 +33,7 @@ metilene
 
    
    :depends bedtools: ``>=2.24``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends perl: 
    :depends r-base: 
    :depends r-ggplot2: ``>=2.0.0``

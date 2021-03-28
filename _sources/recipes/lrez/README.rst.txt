@@ -27,15 +27,15 @@ lrez
       
       
 
-      ``1.1-0``,  ``1.0-0``
+      ``1.1-1``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
    :depends indexed_gzip: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends python: ``>=3``
    :requirements:
 

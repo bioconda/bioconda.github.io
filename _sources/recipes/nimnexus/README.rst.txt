@@ -27,13 +27,13 @@ nimnexus
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-2``
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-2``
 
       
 
    
    :depends htslib: ``>=1.9,<1.10.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends pcre: ``>=8.44,<9.0a0``
    :requirements:
 

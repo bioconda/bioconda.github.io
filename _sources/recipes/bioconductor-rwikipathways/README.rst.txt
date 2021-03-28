@@ -27,7 +27,7 @@ bioconductor-rwikipathways
       
       
 
-      ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
@@ -35,6 +35,7 @@ bioconductor-rwikipathways
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-httr: 
+   :depends r-rcurl: 
    :depends r-rjson: 
    :depends r-tidyr: 
    :depends r-xml: 

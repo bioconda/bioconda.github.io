@@ -27,7 +27,7 @@ crispresso
       
       
 
-      ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0-0``
+      ``1.0.13-4``,  ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0-0``
 
       
 
@@ -37,7 +37,6 @@ crispresso
    :depends bowtie2: 
    :depends emboss: 
    :depends flash: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib: ``>=1.3.1``
    :depends mock: 
    :depends nose: 
@@ -45,7 +44,7 @@ crispresso
    :depends openjdk: ``>=8``
    :depends pandas: ``>=0.16``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends samtools: 
    :depends seaborn: 
    :depends trimmomatic: 

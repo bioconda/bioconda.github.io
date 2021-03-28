@@ -34,11 +34,12 @@ svviz
    
    :depends flask: 
    :depends joblib: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: 
    :depends pyfaidx: 
    :depends pysam: ``>=0.7.8``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends requests: 
    :requirements:
 

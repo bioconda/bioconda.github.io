@@ -27,14 +27,14 @@ tpmcalculator
       
       
 
-      ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

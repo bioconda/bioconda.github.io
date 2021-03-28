@@ -27,14 +27,13 @@ r-tidygenomics
       
       
 
-      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-0``
+      ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-0``
 
       
 
    
    :depends bioconductor-iranges: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-fuzzyjoin: ``>=0.1.3``
