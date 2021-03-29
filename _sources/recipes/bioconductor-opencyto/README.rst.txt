@@ -27,7 +27,7 @@ bioconductor-opencyto
       
       
 
-      ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.1-0``
+      ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.1-0``
 
       
 
@@ -43,9 +43,9 @@ bioconductor-opencyto
    :depends bioconductor-ncdfflow: ``>=2.36.0,<2.37.0``
    :depends bioconductor-rbgl: ``>=1.66.0,<1.67.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-clue: 
    :depends r-data.table: 

@@ -27,7 +27,7 @@ bioconductor-scuttle
       
       
 
-      ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.0-0``
 
       
 
@@ -37,13 +37,13 @@ bioconductor-scuttle
    :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
    :depends bioconductor-delayedarray: ``>=0.16.0,<0.17.0``
    :depends bioconductor-delayedmatrixstats: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 

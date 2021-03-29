@@ -45,6 +45,7 @@ albatradis
    :depends cython: 
    :depends dendropy: 
    :depends graphviz: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: 
    :depends pandas: 
    :depends pyfastaq: ``>=3.12.0``

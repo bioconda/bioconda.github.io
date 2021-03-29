@@ -27,7 +27,7 @@ bioconductor-metaseqr2
       
       
 
-      ``1.2.0-0``,  ``1.0.11-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.11-0``
 
       
 
@@ -58,7 +58,6 @@ bioconductor-metaseqr2
    :depends bioconductor-survcomp: ``>=1.40.0,<1.41.0``
    :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corrplot: 

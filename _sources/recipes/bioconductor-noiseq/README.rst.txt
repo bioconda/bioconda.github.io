@@ -29,10 +29,10 @@ bioconductor-noiseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.31.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.26.1-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.31.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.26.1-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  </span></summary>
       
 
-      ``2.34.0-0``,  ``2.31.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.1-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``
+      ``2.34.0-1``,  ``2.34.0-0``,  ``2.31.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.1-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``
 
       
       .. raw:: html

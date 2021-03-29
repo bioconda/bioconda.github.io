@@ -44,11 +44,12 @@ cyvcf2
    :depends coloredlogs: 
    :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libcurl: ``>=7.75.0,<8.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: 
    :depends openssl: ``>=1.1.1k,<1.1.2a``
    :depends pathlib2: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

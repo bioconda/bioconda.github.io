@@ -27,7 +27,7 @@ rop
       
       
 
-      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``
+      ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
 
@@ -39,7 +39,7 @@ rop
    :depends fastx_toolkit: 
    :depends intervaltree: 
    :depends kmer-jellyfish: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: 
    :depends pandas: 
    :depends pysam: 

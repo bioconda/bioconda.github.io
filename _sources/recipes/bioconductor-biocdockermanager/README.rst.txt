@@ -27,7 +27,7 @@ bioconductor-biocdockermanager
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -35,6 +35,7 @@ bioconductor-biocdockermanager
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-httr: 
+   :depends r-memoise: 
    :depends r-readr: 
    :depends r-whisker: 
    :requirements:

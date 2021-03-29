@@ -34,6 +34,7 @@ exonerate
 
    
    :depends glib: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libglib: ``>=2.68.0,<3.0a0``
    :depends pcre: ``>=8.44,<9.0a0``
    :requirements:

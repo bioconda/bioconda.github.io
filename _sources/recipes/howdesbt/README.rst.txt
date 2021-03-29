@@ -34,7 +34,8 @@ howdesbt
    
    :depends croaring: ``>=0.2.66,<0.2.67.0a0``
    :depends kmer-jellyfish: ``>=2.2``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends sdsl-lite: 
    :requirements:
 

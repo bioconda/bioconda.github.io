@@ -33,7 +33,8 @@ r-grain
 
    
    :depends bioconductor-graph: 
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-functional: 
    :depends r-grbase: ``>=1.7_2``

@@ -27,7 +27,7 @@ bioconductor-alevinqc
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
@@ -41,7 +41,7 @@ bioconductor-alevinqc
    :depends r-ggplot2: 
    :depends r-rjson: 
    :depends r-rlang: 
-   :depends r-rmarkdown: 
+   :depends r-rmarkdown: ``>=2.5``
    :depends r-shiny: 
    :depends r-shinydashboard: 
    :requirements:

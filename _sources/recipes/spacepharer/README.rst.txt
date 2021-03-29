@@ -33,10 +33,11 @@ spacepharer
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libcxx: ``>=11.1.0``
-   :depends llvm-openmp: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends wget: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

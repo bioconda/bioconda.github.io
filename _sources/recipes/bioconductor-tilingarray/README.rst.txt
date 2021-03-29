@@ -27,7 +27,7 @@ bioconductor-tilingarray
       
       
 
-      ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``
+      ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.60.0-0``
 
       
 
@@ -37,7 +37,6 @@ bioconductor-tilingarray
    :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
    :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-pixmap: 

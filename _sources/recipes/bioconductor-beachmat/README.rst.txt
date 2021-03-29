@@ -27,7 +27,7 @@ bioconductor-beachmat
       
       
 
-      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``
+      ``2.6.4-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``
 
       
 
@@ -35,9 +35,8 @@ bioconductor-beachmat
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends bioconductor-delayedarray: ``>=0.16.0,<0.17.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrix: 
    :requirements:

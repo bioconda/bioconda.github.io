@@ -27,12 +27,11 @@ edd
       
       
 
-      ``1.1.19-2``,  ``1.1.19-1``,  ``1.1.19-0``,  ``1.1.18-1``,  ``1.1.18-0``
+      ``1.1.19-3``,  ``1.1.19-2``,  ``1.1.19-1``,  ``1.1.19-0``,  ``1.1.18-1``,  ``1.1.18-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :depends logbook: 
    :depends numpy: 
    :depends pandas: 
@@ -41,7 +40,7 @@ edd
    :depends pysam: ``0.10.0.*``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python-dateutil: 
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends scipy: 
    :depends setuptools: 
    :depends statsmodels: 

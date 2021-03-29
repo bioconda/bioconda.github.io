@@ -34,10 +34,11 @@ sonicparanoid
 
    
    :depends biopython: ``>=1.67``
-   :depends clang_osx-64: ``11.*``
-   :depends clangxx_osx-64: ``11.*``
    :depends cython: 
-   :depends libcxx: ``>=11.1.0``
+   :depends gcc_linux-64: ``9.*``
+   :depends gxx_linux-64: ``9.*``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends make: 
    :depends mmseqs2: ``6.f5a1c``
    :depends numpy: ``>=1.13.0``

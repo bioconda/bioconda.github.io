@@ -43,6 +43,7 @@ bioconductor-methylmnm
    
    :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-statmod: 

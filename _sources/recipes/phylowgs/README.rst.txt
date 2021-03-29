@@ -26,9 +26,17 @@ phylowgs
    :versions:
       
       
+      .. raw:: html
 
-      ``20181105-4``,  ``20181105-3``,  ``20181105-2``,  ``20181105-1``,  ``20181105-0``,  ``20180317-2``,  ``20180317-1``,  ``20180317-0``,  ``20150714-1``
+         <details><summary><span class="truncated-version-list"><code>20181105-5</code>,  <code>20181105-4</code>,  <code>20181105-3</code>,  <code>20181105-2</code>,  <code>20181105-1</code>,  <code>20181105-0</code>,  <code>20180317-2</code>,  <code>20180317-1</code>,  <code>20180317-0</code>,  </span></summary>
+      
 
+      ``20181105-5``,  ``20181105-4``,  ``20181105-3``,  ``20181105-2``,  ``20181105-1``,  ``20181105-0``,  ``20180317-2``,  ``20180317-1``,  ``20180317-0``,  ``20150714-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,8 +44,8 @@ phylowgs
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends numpy: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``

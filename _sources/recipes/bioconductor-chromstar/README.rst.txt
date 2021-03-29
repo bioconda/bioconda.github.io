@@ -27,9 +27,17 @@ bioconductor-chromstar
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.0-1</code>,  <code>1.10.0-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.6.2-0</code>,  </span></summary>
+      
 
+      ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -43,9 +51,9 @@ bioconductor-chromstar
    :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 

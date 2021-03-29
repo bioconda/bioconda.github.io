@@ -27,7 +27,7 @@ bioconductor-rmassbank
       
       
 
-      ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
+      ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
 
       
 
@@ -37,9 +37,8 @@ bioconductor-rmassbank
    :depends bioconductor-mzr: ``>=2.24.0,<2.25.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openbabel: 
    :depends r-assertthat: 
    :depends r-base: ``>=4.0,<4.1.0a0``

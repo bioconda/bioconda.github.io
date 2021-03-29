@@ -29,10 +29,10 @@ qualimap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.2d-1</code>,  <code>2.2.2d-0</code>,  <code>2.2.2c-1</code>,  <code>2.2.2c-0</code>,  <code>2.2.2b-1</code>,  <code>2.2.2b-0</code>,  <code>2.2.2a-3</code>,  <code>2.2.2a-2</code>,  <code>2.2.2a-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2d-2</code>,  <code>2.2.2d-1</code>,  <code>2.2.2d-0</code>,  <code>2.2.2c-1</code>,  <code>2.2.2c-0</code>,  <code>2.2.2b-1</code>,  <code>2.2.2b-0</code>,  <code>2.2.2a-3</code>,  <code>2.2.2a-2</code>,  </span></summary>
       
 
-      ``2.2.2d-1``,  ``2.2.2d-0``,  ``2.2.2c-1``,  ``2.2.2c-0``,  ``2.2.2b-1``,  ``2.2.2b-0``,  ``2.2.2a-3``,  ``2.2.2a-2``,  ``2.2.2a-1``,  ``2.2.2a-0``,  ``2.2-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-0``
+      ``2.2.2d-2``,  ``2.2.2d-1``,  ``2.2.2d-0``,  ``2.2.2c-1``,  ``2.2.2c-0``,  ``2.2.2b-1``,  ``2.2.2b-0``,  ``2.2.2a-3``,  ``2.2.2a-2``,  ``2.2.2a-1``,  ``2.2.2a-0``,  ``2.2-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-1``,  ``2.1.1-0``
 
       
       .. raw:: html

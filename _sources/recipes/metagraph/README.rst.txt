@@ -35,10 +35,13 @@ metagraph
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libcxx: ``>=11.1.0``
-   :depends llvm-openmp: ``>=11.1.0``
+   :depends jemalloc: ``>=5.2.1``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgomp: 
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

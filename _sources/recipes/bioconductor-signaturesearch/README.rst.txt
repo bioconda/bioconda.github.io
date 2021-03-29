@@ -27,7 +27,7 @@ bioconductor-signaturesearch
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -42,12 +42,12 @@ bioconductor-signaturesearch
    :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
    :depends bioconductor-hdf5array: ``>=1.18.0,<1.19.0``
    :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-reactome.db: ``>=1.74.0,<1.75.0``
    :depends bioconductor-rhdf5: ``>=2.34.0,<2.35.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 

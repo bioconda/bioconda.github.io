@@ -43,7 +43,8 @@ fwdpy11
    :depends attrs: 
    :depends black: 
    :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends numpy: ``>=1.10``
    :depends openblas: 
    :depends python: ``>=3.6,<3.7.0a0``

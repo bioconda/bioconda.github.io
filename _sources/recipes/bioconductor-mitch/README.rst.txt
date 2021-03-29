@@ -27,7 +27,7 @@ bioconductor-mitch
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -41,7 +41,6 @@ bioconductor-mitch
    :depends r-gridextra: 
    :depends r-knitr: 
    :depends r-mass: 
-   :depends r-pbmcapply: 
    :depends r-plyr: 
    :depends r-reshape2: 
    :depends r-rmarkdown: 

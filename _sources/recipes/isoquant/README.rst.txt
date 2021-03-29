@@ -13,7 +13,7 @@ isoquant
    IsoQuant is a tool for reference\-based analysis of long RNA reads.
 
    :homepage: https://github.com/ablab/IsoQuant
-   :license: GPLv2
+   :license: GPL2
    :recipe: /`isoquant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoquant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoquant/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ isoquant
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 

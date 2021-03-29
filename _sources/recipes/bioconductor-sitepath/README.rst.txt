@@ -34,8 +34,9 @@ bioconductor-sitepath
    
    :depends bioconductor-ggtree: ``>=2.4.0,<2.5.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-ape: 
    :depends r-aplot: 
    :depends r-base: ``>=4.0,<4.1.0a0``

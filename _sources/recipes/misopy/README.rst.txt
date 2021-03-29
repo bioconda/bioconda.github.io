@@ -27,18 +27,17 @@ misopy
       
       
 
-      ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``
+      ``0.5.4-4``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``
 
       
 
    
    :depends bedtools: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib: 
    :depends numpy: ``>=1.5.0``
    :depends pysam: ``>=0.6.0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends samtools: ``<=1.2``
    :depends scipy: ``>=0.9.0``
    :requirements:

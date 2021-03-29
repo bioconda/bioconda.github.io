@@ -27,7 +27,7 @@ bioconductor-glmgampoi
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -38,9 +38,8 @@ bioconductor-glmgampoi
    :depends bioconductor-hdf5array: ``>=1.18.0,<1.19.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-matrixstats: 
    :depends r-rcpp: 

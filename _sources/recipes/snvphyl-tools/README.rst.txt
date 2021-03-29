@@ -28,15 +28,15 @@ snvphyl-tools
       
       
 
-      ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``
+      ``1.8.2-3``,  ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``
 
       
 
    
    :depends bcftools-snvphyl-plugin: ``>=1.9``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends mummer: 
-   :depends openssl: ``>=1.1.1g,<1.1.2a``
+   :depends openssl: ``>=1.1.1k,<1.1.2a``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl: ``>=1.7.2``
    :depends perl-hash-merge: 

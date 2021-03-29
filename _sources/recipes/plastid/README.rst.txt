@@ -26,9 +26,17 @@ plastid
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.8-5</code>,  <code>0.4.8-4</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-1</code>,  </span></summary>
+      
 
+      ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.8-5``,  ``0.4.8-4``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-1``,  ``0.4.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,13 +44,12 @@ plastid
    :depends bowtie: 
    :depends cython: ``>=0.22.0``
    :depends fastx_toolkit: 
-   :depends libgcc-ng: ``>=7.5.0``
    :depends matplotlib-base: ``>=1.4.0``
    :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pandas: ``>=0.17.0``
    :depends pysam: ``>=0.16.0.1,<0.16.1.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends scipy: ``>=0.15.1``
    :depends termcolor: 
    :depends twobitreader: ``>=3.0.0``

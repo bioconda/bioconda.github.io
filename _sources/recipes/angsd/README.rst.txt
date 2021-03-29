@@ -29,10 +29,10 @@ angsd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.935-0</code>,  <code>0.933-1</code>,  <code>0.933-0</code>,  <code>0.931-1</code>,  <code>0.931-0</code>,  <code>0.923-0</code>,  <code>0.921-2</code>,  <code>0.921-1</code>,  <code>0.921-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.935-1</code>,  <code>0.935-0</code>,  <code>0.933-1</code>,  <code>0.933-0</code>,  <code>0.931-1</code>,  <code>0.931-0</code>,  <code>0.923-0</code>,  <code>0.921-2</code>,  <code>0.921-1</code>,  </span></summary>
       
 
-      ``0.935-0``,  ``0.933-1``,  ``0.933-0``,  ``0.931-1``,  ``0.931-0``,  ``0.923-0``,  ``0.921-2``,  ``0.921-1``,  ``0.921-0``,  ``0.910-0``
+      ``0.935-1``,  ``0.935-0``,  ``0.933-1``,  ``0.933-0``,  ``0.931-1``,  ``0.931-0``,  ``0.923-0``,  ``0.921-2``,  ``0.921-1``,  ``0.921-0``,  ``0.910-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ angsd
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

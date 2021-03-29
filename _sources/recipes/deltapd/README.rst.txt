@@ -28,7 +28,7 @@ deltapd
       
       
 
-      ``0.1.5-0``
+      ``0.1.5-1``,  ``0.1.5-0``
 
       
 
@@ -36,13 +36,12 @@ deltapd
    :depends dendropy: 
    :depends ete3: 
    :depends jinja2: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``>=1.17.5,<2.0a0``
    :depends phylodm: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends seaborn: 
    :depends tqdm: 
    :requirements:

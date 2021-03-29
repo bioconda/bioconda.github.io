@@ -28,14 +28,14 @@ pindel
       
       
 
-      ``0.2.5b9-4``,  ``0.2.5b9-3``,  ``0.2.5b9-2``,  ``0.2.5b9-1``,  ``0.2.5b9-0``,  ``0.2.5b8-2``
+      ``0.2.5b9-5``,  ``0.2.5b9-4``,  ``0.2.5b9-3``,  ``0.2.5b9-2``,  ``0.2.5b9-1``,  ``0.2.5b9-0``,  ``0.2.5b8-2``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

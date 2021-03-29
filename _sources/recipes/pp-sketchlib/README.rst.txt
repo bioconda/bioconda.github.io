@@ -35,10 +35,11 @@ pp-sketchlib
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends h5py: 
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends lapack: 
-   :depends libcxx: ``>=11.1.0``
+   :depends intel-openmp: 
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends mkl: ``>=2019.5,<2020.0a0``
    :depends numpy: 
-   :depends openblas: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

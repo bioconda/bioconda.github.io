@@ -27,7 +27,7 @@ bioconductor-powertcr
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.3-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
@@ -39,7 +39,6 @@ bioconductor-powertcr
    :depends r-foreach: 
    :depends r-magrittr: 
    :depends r-purrr: 
-   :depends r-tcr: 
    :depends r-truncdist: 
    :depends r-vegan: 
    :depends r-vgam: 

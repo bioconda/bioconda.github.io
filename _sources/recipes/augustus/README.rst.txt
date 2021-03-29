@@ -50,7 +50,8 @@ augustus
    :depends htslib: ``>=1.12,<1.13.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends lp_solve: 
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-app-cpanminus: 

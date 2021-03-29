@@ -38,6 +38,7 @@ gembs
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gem3-mapper: ``3.6.1.*``
    :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends matplotlib: 
    :depends multiprocess: 
    :depends pigz: 

@@ -27,14 +27,14 @@ bioconductor-ecolileucine
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
 
    
    :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
    :depends bioconductor-ecolicdf: ``>=2.18.0,<2.19.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

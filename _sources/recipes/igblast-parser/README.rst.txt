@@ -27,12 +27,11 @@ igblast-parser
       
       
 
-      ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.9,<3.10.0a0``
