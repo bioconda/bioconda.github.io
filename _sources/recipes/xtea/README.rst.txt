@@ -27,7 +27,7 @@ xtea
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -39,7 +39,7 @@ xtea
    :depends pysam: ``>=0.15.0``
    :depends python: 
    :depends samtools: ``>=1.0``
-   :depends scikit-learn: ``0.18.1``
+   :depends scikit-learn: ``0.20.0``
    :depends sortedcontainers: 
    :depends wtdbg: 
    :requirements:

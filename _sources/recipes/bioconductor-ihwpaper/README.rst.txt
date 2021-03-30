@@ -27,7 +27,7 @@ bioconductor-ihwpaper
       
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
@@ -40,11 +40,10 @@ bioconductor-ihwpaper
    :depends bioconductor-ihw: ``>=1.18.0,<1.19.0``
    :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 

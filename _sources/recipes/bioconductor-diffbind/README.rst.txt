@@ -29,10 +29,10 @@ bioconductor-diffbind
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.3-0</code>,  <code>2.16.0-2</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-1</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.15-0</code>,  <code>3.0.3-0</code>,  <code>2.16.0-2</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-1</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  </span></summary>
       
 
-      ``3.0.3-0``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
+      ``3.0.15-0``,  ``3.0.3-0``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
 
       
       .. raw:: html
@@ -55,9 +55,8 @@ bioconductor-diffbind
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends bioconductor-systempiper: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-amap: 
    :depends r-ashr: 
    :depends r-base: ``>=4.0,<4.1.0a0``

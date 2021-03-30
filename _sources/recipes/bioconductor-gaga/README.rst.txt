@@ -44,6 +44,7 @@ bioconductor-gaga
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-ebarrays: ``>=2.54.0,<2.55.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-coda: 

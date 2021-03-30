@@ -27,7 +27,7 @@ bioconductor-mogamun
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -36,7 +36,6 @@ bioconductor-mogamun
    :depends bioconductor-rcy3: ``>=2.10.0,<2.11.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-igraph: 
-   :depends r-nsga2r: 
    :depends r-runit: 
    :depends r-stringr: 
    :requirements:

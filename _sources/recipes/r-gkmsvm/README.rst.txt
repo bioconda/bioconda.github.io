@@ -27,7 +27,7 @@ r-gkmsvm
       
       
 
-      ``0.81.0-0``,  ``0.80.0-1``,  ``0.80.0-0``,  ``0.79.0-1``,  ``0.79.0-0``,  ``0.71.0-0``
+      ``0.81.0-1``,  ``0.81.0-0``,  ``0.80.0-1``,  ``0.80.0-0``,  ``0.79.0-1``,  ``0.79.0-0``,  ``0.71.0-0``
 
       
 
@@ -39,8 +39,7 @@ r-gkmsvm
    :depends bioconductor-iranges: 
    :depends bioconductor-rtracklayer: 
    :depends bioconductor-s4vectors: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-kernlab: 
    :depends r-rcpp: 

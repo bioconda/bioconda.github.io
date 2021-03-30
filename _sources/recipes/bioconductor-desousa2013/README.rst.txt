@@ -27,7 +27,7 @@ bioconductor-desousa2013
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
@@ -42,7 +42,7 @@ bioconductor-desousa2013
    :depends bioconductor-hgu133plus2frmavecs: ``>=1.5.0,<1.6.0``
    :depends bioconductor-siggenes: ``>=1.64.0,<1.65.0``
    :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-gplots: 

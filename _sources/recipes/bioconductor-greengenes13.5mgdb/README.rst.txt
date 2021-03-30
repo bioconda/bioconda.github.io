@@ -27,13 +27,13 @@ bioconductor-greengenes13.5mgdb
       
       
 
-      ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-0``
+      ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-0``
 
       
 
    
    :depends bioconductor-metagenomefeatures: ``>=2.10.0,<2.11.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

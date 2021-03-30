@@ -28,7 +28,7 @@ bioconductor-mlinterfaces
       
       
 
-      ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``
+      ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``
 
       
 
@@ -38,9 +38,8 @@ bioconductor-mlinterfaces
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-fpc: 

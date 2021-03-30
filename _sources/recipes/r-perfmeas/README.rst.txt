@@ -35,6 +35,7 @@ r-perfmeas
    :depends bioconductor-graph: 
    :depends bioconductor-limma: 
    :depends bioconductor-rbgl: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

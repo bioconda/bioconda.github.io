@@ -29,10 +29,10 @@ bioconductor-rtracklayer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.2-1</code>,  <code>1.44.2-0</code>,  <code>1.44.0-1</code>,  <code>1.42.1-1</code>,  <code>1.42.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-2</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.2-1</code>,  <code>1.44.2-0</code>,  <code>1.44.0-1</code>,  <code>1.42.1-1</code>,  </span></summary>
       
 
-      ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.2-1``,  ``1.44.2-0``,  ``1.44.0-1``,  ``1.42.1-1``,  ``1.42.1-0``,  ``1.40.6-0``,  ``1.38.3-0``,  ``1.38.0-0``,  ``1.36.6-0``,  ``1.34.2-1``,  ``1.34.1-0``,  ``1.32.2-1``,  ``1.30.1-0``,  ``1.30.0-1``
+      ``1.50.0-2``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.2-1``,  ``1.44.2-0``,  ``1.44.0-1``,  ``1.42.1-1``,  ``1.42.1-0``,  ``1.40.6-0``,  ``1.38.3-0``,  ``1.38.0-0``,  ``1.36.6-0``,  ``1.34.2-1``,  ``1.34.1-0``,  ``1.32.2-1``,  ``1.30.1-0``,  ``1.30.0-1``
 
       
       .. raw:: html
@@ -52,9 +52,8 @@ bioconductor-rtracklayer
    :depends bioconductor-xvector: ``>=0.30.0,<0.31.0``
    :depends bioconductor-zlibbioc: ``>=1.36.0,<1.37.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends openssl: ``>=1.1.1h,<1.1.2a``
+   :depends openssl: ``>=1.1.1k,<1.1.2a``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-rcurl: ``>=1.4-2``
    :depends r-xml: ``>=1.98-0``

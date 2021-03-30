@@ -27,7 +27,7 @@ r-exomedepth
       
       
 
-      ``1.1.15-1``,  ``1.1.15-0``,  ``1.1.12-0``,  ``1.1.10-4``,  ``1.1.10-3``,  ``1.1.10-2``,  ``1.1.10-0``
+      ``1.1.15-2``,  ``1.1.15-1``,  ``1.1.15-0``,  ``1.1.12-0``,  ``1.1.10-4``,  ``1.1.10-3``,  ``1.1.10-2``,  ``1.1.10-0``
 
       
 
@@ -37,9 +37,9 @@ r-exomedepth
    :depends bioconductor-genomicranges: ``>=1.23.0``
    :depends bioconductor-iranges: 
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libgfortran-ng: ``>=7,<8.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=9.3.0``
    :depends r-aod: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 

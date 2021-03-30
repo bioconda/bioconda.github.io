@@ -27,7 +27,7 @@ bioconductor-spicyr
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,16 +37,18 @@ bioconductor-spicyr
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-class: 
    :depends r-concaveman: 
+   :depends r-data.table: 
+   :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-lme4: 
    :depends r-lmertest: 
    :depends r-mgcv: 
    :depends r-pheatmap: 
-   :depends r-purrr: 
    :depends r-rlang: 
-   :depends r-spatstat: 
+   :depends r-spatstat.core: 
+   :depends r-spatstat.geom: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

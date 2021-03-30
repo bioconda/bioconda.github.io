@@ -28,7 +28,7 @@ bioconductor-simpleaffy
       
       
 
-      ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-0``,  ``2.60.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-0``
+      ``2.66.0-1``,  ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-0``,  ``2.60.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-0``
 
       
 
@@ -39,7 +39,6 @@ bioconductor-simpleaffy
    :depends bioconductor-gcrma: ``>=2.62.0,<2.63.0``
    :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:

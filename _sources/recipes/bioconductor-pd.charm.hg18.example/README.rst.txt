@@ -27,7 +27,7 @@ bioconductor-pd.charm.hg18.example
       
       
 
-      ``0.99.4-5``,  ``0.99.4-4``,  ``0.99.4-3``,  ``0.99.4-2``,  ``0.99.4-0``
+      ``0.99.4-6``,  ``0.99.4-5``,  ``0.99.4-4``,  ``0.99.4-3``,  ``0.99.4-2``,  ``0.99.4-0``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-pd.charm.hg18.example
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
    :depends bioconductor-oligoclasses: ``>=1.52.0,<1.53.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.7-1``

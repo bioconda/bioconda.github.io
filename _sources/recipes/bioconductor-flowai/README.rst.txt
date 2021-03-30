@@ -29,10 +29,10 @@ bioconductor-flowai
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.7-0</code>,  <code>1.12.1-0</code>,  <code>1.10.1-0</code>,  <code>1.6.2-0</code>,  <code>1.4.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.7-0</code>,  <code>1.12.1-0</code>,  <code>1.10.1-0</code>,  <code>1.6.2-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.7-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.6.2-0``,  ``1.4.4-0``,  ``1.2.9-0``,  ``1.2.8-0``
+      ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.7-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.6.2-0``,  ``1.4.4-0``,  ``1.2.9-0``,  ``1.2.8-0``
 
       
       .. raw:: html

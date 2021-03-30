@@ -28,7 +28,7 @@ bioconductor-qsea
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
@@ -45,7 +45,6 @@ bioconductor-qsea
    :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
    :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gtools: 

@@ -28,7 +28,7 @@ bioconductor-isoformswitchanalyzer
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -48,7 +48,6 @@ bioconductor-isoformswitchanalyzer
    :depends bioconductor-tximport: ``>=1.18.0,<1.19.0``
    :depends bioconductor-xvector: ``>=0.30.0,<0.31.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 

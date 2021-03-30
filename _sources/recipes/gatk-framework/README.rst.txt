@@ -28,10 +28,10 @@ gatk-framework
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.24-5</code>,  <code>3.6.24-4</code>,  <code>3.6.24-3</code>,  <code>3.6.24-2</code>,  <code>3.6.24-1</code>,  <code>3.6.24-0</code>,  <code>3.5.21-0</code>,  <code>3.4.46-3</code>,  <code>3.4.46-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.24-6</code>,  <code>3.6.24-5</code>,  <code>3.6.24-4</code>,  <code>3.6.24-3</code>,  <code>3.6.24-2</code>,  <code>3.6.24-1</code>,  <code>3.6.24-0</code>,  <code>3.5.21-0</code>,  <code>3.4.46-3</code>,  </span></summary>
       
 
-      ``3.6.24-5``,  ``3.6.24-4``,  ``3.6.24-3``,  ``3.6.24-2``,  ``3.6.24-1``,  ``3.6.24-0``,  ``3.5.21-0``,  ``3.4.46-3``,  ``3.4.46-2``,  ``3.4.46-1``,  ``3.4.46-0``
+      ``3.6.24-6``,  ``3.6.24-5``,  ``3.6.24-4``,  ``3.6.24-3``,  ``3.6.24-2``,  ``3.6.24-1``,  ``3.6.24-0``,  ``3.5.21-0``,  ``3.4.46-3``,  ``3.4.46-2``,  ``3.4.46-1``,  ``3.4.46-0``
 
       
       .. raw:: html

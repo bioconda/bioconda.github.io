@@ -27,7 +27,7 @@ bioconductor-pd.2006.07.18.mm8.refseq.promoter
       
       
 
-      ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-0``
+      ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-0``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-pd.2006.07.18.mm8.refseq.promoter
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
    :depends bioconductor-oligoclasses: ``>=1.52.0,<1.53.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.7-1``

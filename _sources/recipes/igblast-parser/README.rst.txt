@@ -32,6 +32,7 @@ igblast-parser
       
 
    
+   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.9,<3.10.0a0``

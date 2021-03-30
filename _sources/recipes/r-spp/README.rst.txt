@@ -42,7 +42,8 @@ r-spp
 
    
    :depends bioconductor-rsamtools: 
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-bh: ``>=1.66``
    :depends r-catools: 

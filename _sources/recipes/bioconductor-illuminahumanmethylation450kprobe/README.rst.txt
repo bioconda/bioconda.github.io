@@ -27,13 +27,13 @@ bioconductor-illuminahumanmethylation450kprobe
       
       
 
-      ``2.0.6-5``,  ``2.0.6-4``,  ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-0``
+      ``2.0.6-6``,  ``2.0.6-5``,  ``2.0.6-4``,  ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-0``
 
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -27,7 +27,7 @@ bioconductor-genesis
       
       
 
-      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.3-0``,  ``2.12.0-0``
+      ``2.20.1-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.3-0``,  ``2.12.0-0``
 
       
 
@@ -43,7 +43,6 @@ bioconductor-genesis
    :depends bioconductor-seqvartools: ``>=1.28.0,<1.29.0``
    :depends bioconductor-snprelate: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 

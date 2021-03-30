@@ -15,7 +15,7 @@ genewalk
    :homepage: https://github.com/churchmanlab/genewalk
    :documentation: https://genewalk.readthedocs.io/en/latest/
    
-   :license: BSD / BSD
+   :license: BSD / BSD-2-Clause
    :recipe: /`genewalk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genewalk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genewalk/meta.yaml>`_
 
    
@@ -29,12 +29,12 @@ genewalk
       
       
 
-      ``1.5.1-0``
+      ``1.5.2-0``,  ``1.5.1-0``
 
       
 
    
-   :depends gensim: 
+   :depends gensim: ``<4.0``
    :depends goatools: 
    :depends matplotlib-base: 
    :depends networkx: ``>=2.1``

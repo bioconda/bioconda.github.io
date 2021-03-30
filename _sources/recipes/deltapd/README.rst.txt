@@ -36,7 +36,8 @@ deltapd
    :depends dendropy: 
    :depends ete3: 
    :depends jinja2: 
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.17.5,<2.0a0``
    :depends phylodm: 
