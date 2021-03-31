@@ -33,7 +33,8 @@ r-orqa
 
    
    :depends bioconductor-genefilter: ``>=1.24.3``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gtools: ``>=2.6.1``
    :depends r-nlme: ``>=3.1_96``

@@ -27,7 +27,7 @@ bioconductor-raggedexperiment
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
@@ -40,6 +40,7 @@ bioconductor-raggedexperiment
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-matrix: 
    :requirements:
 
    .. rubric:: Installation

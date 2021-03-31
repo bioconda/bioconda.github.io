@@ -27,7 +27,7 @@ bioconductor-gghumanmethcancerpanelv1.db
       
       
 
-      ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``
+      ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-gghumanmethcancerpanelv1.db
    :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
    :depends bioconductor-annotationforge: ``>=1.32.0,<1.33.0``
    :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

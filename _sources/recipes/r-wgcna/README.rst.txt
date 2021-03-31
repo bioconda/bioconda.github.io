@@ -45,7 +45,8 @@ r-wgcna
    :depends bioconductor-go.db: 
    :depends bioconductor-impute: 
    :depends bioconductor-preprocesscore: 
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-doparallel: 
    :depends r-dynamictreecut: ``>=1.62``

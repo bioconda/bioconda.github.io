@@ -27,7 +27,7 @@ hopla
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -40,6 +40,7 @@ hopla
    :depends r-data.table: ``>=1.13.2``
    :depends r-htmltools: ``>=0.5.0``
    :depends r-kinship2: ``>=1.8.5``
+   :depends r-knitr: ``>=1.29``
    :depends r-plotly: ``>=4.9.2.1``
    :depends r-rcolorbrewer: ``>=1.1_2``
    :depends r-vcfr: ``>=1.8.0``

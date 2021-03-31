@@ -27,15 +27,17 @@ bioconductor-meskit
       
       
 
-      ``1.0.0-0``,  ``0.99.16-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.99.16-0``
 
       
 
    
+   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
    :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
    :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends r-ape: 
+   :depends r-ape: ``>=5.4.1``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-circlize: 
    :depends r-cowplot: 

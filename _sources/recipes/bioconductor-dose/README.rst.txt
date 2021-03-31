@@ -29,10 +29,10 @@ bioconductor-dose
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-0</code>,  <code>3.10.2-0</code>,  <code>3.8.0-0</code>,  <code>3.6.1-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>2.10.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.16.0-1</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-0</code>,  <code>3.10.2-0</code>,  <code>3.8.0-0</code>,  <code>3.6.1-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  </span></summary>
       
 
-      ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.10.7-0``,  ``2.10.6-0``,  ``2.8.3-0``,  ``2.8.2-0``
+      ``3.16.0-1``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.2-0``,  ``3.8.0-0``,  ``3.6.1-0``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.10.7-0``,  ``2.10.6-0``,  ``2.8.3-0``,  ``2.8.2-0``
 
       
       .. raw:: html

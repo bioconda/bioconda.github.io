@@ -27,7 +27,7 @@ bioconductor-evaluomer
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.5-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
@@ -35,13 +35,20 @@ bioconductor-evaluomer
    :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-cluster: ``>=2.0.7-1``
+   :depends r-class: 
+   :depends r-cluster: ``>=2.0.9``
    :depends r-corrplot: ``>=0.84``
+   :depends r-flexmix: ``>=2.3.15``
    :depends r-fpc: ``>=2.2-3``
    :depends r-ggdendro: 
    :depends r-ggplot2: 
+   :depends r-kableextra: 
+   :depends r-mass: 
    :depends r-matrixstats: 
+   :depends r-mclust: 
    :depends r-plotrix: 
+   :depends r-prabclus: 
+   :depends r-randomforest: ``>=4.6.14``
    :depends r-rdpack: 
    :depends r-reshape2: 
    :requirements:

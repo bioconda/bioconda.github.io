@@ -13,7 +13,8 @@ iqtree
    Efficient phylogenomic software by maximum likelihood.
 
    :homepage: http://www.iqtree.org/
-   :license: GPL-2.0
+   :developer docs: https://github.com/iqtree/iqtree2
+   :license: GPL-2.0-or-later
    :recipe: /`iqtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree/meta.yaml>`_
    :links: biotools: :biotools:`iq-tree`, doi: :doi:`10.1093/molbev/msu300`, usegalaxy-eu: :usegalaxy-eu:`iqtree`
 
@@ -29,10 +30,10 @@ iqtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>1.6.12-1</code>,  <code>1.6.12-0</code>,  <code>1.6.11.1-0</code>,  <code>1.6.11-0</code>,  <code>1.6.10-0</code>,  <code>1.6.9-1</code>,  <code>1.6.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>1.6.12-1</code>,  <code>1.6.12-0</code>,  <code>1.6.11.1-0</code>,  <code>1.6.11-0</code>,  <code>1.6.10-0</code>,  <code>1.6.9-1</code>,  </span></summary>
       
 
-      ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
+      ``2.1.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
 
       
       .. raw:: html

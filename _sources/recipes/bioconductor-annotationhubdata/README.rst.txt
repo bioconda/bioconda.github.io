@@ -28,7 +28,7 @@ bioconductor-annotationhubdata
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.8.0-0``
+      ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.8.0-0``
 
       
 
@@ -45,7 +45,6 @@ bioconductor-annotationhubdata
    :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-organismdbi: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-rbiopaxparser: ``>=2.30.0,<2.31.0``
    :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
    :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``

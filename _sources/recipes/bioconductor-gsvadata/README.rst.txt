@@ -27,7 +27,7 @@ bioconductor-gsvadata
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-gsvadata
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
    :depends bioconductor-hgu95a.db: ``>=3.2.0,<3.3.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

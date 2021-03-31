@@ -27,14 +27,14 @@ bioconductor-tcgawgbsdata.hg19
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-bsseq: ``>=1.26.0,<1.27.0``
    :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-knitr: 
    :requirements:

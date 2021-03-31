@@ -27,7 +27,7 @@ bioconductor-hmp2data
       
       
 
-      ``1.4.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-hmp2data
    :depends bioconductor-phyloseq: ``>=1.34.0,<1.35.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 

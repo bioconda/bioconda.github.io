@@ -29,11 +29,12 @@ dipcall
       
       
 
-      ``0.2-0``
+      ``0.3-0``,  ``0.2-0``
 
       
 
    
+   :depends bedtk: 
    :depends htsbox: 
    :depends k8: 
    :depends make: 

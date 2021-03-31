@@ -27,14 +27,14 @@ bioconductor-moex10stprobeset.db
       
       
 
-      ``8.7.0-5``,  ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-2``,  ``8.7.0-0``
+      ``8.7.0-6``,  ``8.7.0-5``,  ``8.7.0-4``,  ``8.7.0-3``,  ``8.7.0-2``,  ``8.7.0-0``
 
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
    :depends bioconductor-org.mm.eg.db: ``>=3.12.0,<3.13.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -27,14 +27,12 @@ bioconductor-microbiotaprocess
       
       
 
-      ``1.2.0-0``,  ``1.0.3-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biomformat: ``>=1.18.0,<1.19.0``
    :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-decipher: ``>=2.18.0,<2.19.0``
    :depends bioconductor-ggtree: ``>=2.4.0,<2.5.0``
    :depends bioconductor-phyloseq: ``>=1.34.0,<1.35.0``
    :depends r-ape: 
@@ -44,22 +42,19 @@ bioconductor-microbiotaprocess
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-ggsignif: 
+   :depends r-ggstar: 
    :depends r-gtools: 
    :depends r-magrittr: 
    :depends r-mass: 
    :depends r-patchwork: 
-   :depends r-phangorn: 
    :depends r-plyr: 
-   :depends r-randomforest: 
    :depends r-reshape: 
    :depends r-rlang: 
    :depends r-rmisc: 
-   :depends r-scales: 
    :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-tidytree: 
    :depends r-vegan: 
-   :depends r-yaml: 
    :depends r-zoo: 
    :requirements:
 

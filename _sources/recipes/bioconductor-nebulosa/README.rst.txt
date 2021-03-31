@@ -27,7 +27,7 @@ bioconductor-nebulosa
       
       
 
-      ``1.0.0-1``
+      ``1.0.2-0``,  ``1.0.0-1``
 
       
 
@@ -40,6 +40,7 @@ bioconductor-nebulosa
    :depends r-matrix: 
    :depends r-patchwork: 
    :depends r-seurat: 
+   :depends r-seuratobject: 
    :requirements:
 
    .. rubric:: Installation

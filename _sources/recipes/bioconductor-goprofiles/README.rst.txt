@@ -27,14 +27,14 @@ bioconductor-goprofiles
       
       
 
-      ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-1``,  ``1.44.0-0``
+      ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-1``,  ``1.44.0-0``
 
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-go.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-compquadform: 
    :depends r-stringr: 

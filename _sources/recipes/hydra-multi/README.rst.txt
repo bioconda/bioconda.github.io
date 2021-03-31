@@ -27,14 +27,14 @@ hydra-multi
       
       
 
-      ``0.5.4-0``
+      ``0.5.4-1``,  ``0.5.4-0``
 
       
 
    
    :depends bedtools: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends pysam: ``0.7.7.*``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
