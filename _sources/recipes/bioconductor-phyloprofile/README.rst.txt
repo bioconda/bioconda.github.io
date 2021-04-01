@@ -27,7 +27,7 @@ bioconductor-phyloprofile
       
       
 
-      ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-phyloprofile
    :depends bioconductor-biodist: ``>=1.62.0,<1.63.0``
    :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
    :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-omadb: ``>=2.5.0,<2.6.0``
+   :depends bioconductor-omadb: ``>=2.6.0,<2.7.0``
    :depends r-ape: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-colourpicker: 

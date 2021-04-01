@@ -28,10 +28,10 @@ ppanggolin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.136-0</code>,  <code>1.1.131-0</code>,  <code>1.1.96-0</code>,  <code>1.1.85-1</code>,  <code>1.1.85-0</code>,  <code>1.1.72-0</code>,  <code>1.0.13-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.136-1</code>,  <code>1.1.136-0</code>,  <code>1.1.131-0</code>,  <code>1.1.96-0</code>,  <code>1.1.85-1</code>,  <code>1.1.85-0</code>,  <code>1.1.72-0</code>,  <code>1.0.13-0</code>,  <code>1.0.1-0</code>,  </span></summary>
       
 
-      ``1.1.136-0``,  ``1.1.131-0``,  ``1.1.96-0``,  ``1.1.85-1``,  ``1.1.85-0``,  ``1.1.72-0``,  ``1.0.13-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``v0.3.88-1``,  ``v0.3.88-0``
+      ``1.1.136-1``,  ``1.1.136-0``,  ``1.1.131-0``,  ``1.1.96-0``,  ``1.1.85-1``,  ``1.1.85-0``,  ``1.1.72-0``,  ``1.0.13-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``v0.3.88-1``,  ``v0.3.88-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ ppanggolin
    :depends colorlover: ``0.3.*``
    :depends gmpy2: ``2.*``
    :depends infernal: ``1.1.*``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends mafft: 
    :depends mmseqs2: 
    :depends networkx: ``2.3.*``

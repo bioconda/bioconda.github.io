@@ -33,10 +33,10 @@ seqfu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.13-0</code>,  <code>0.8.12-0</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.5-0</code>,  <code>0.8.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.13-0</code>,  <code>0.8.12-0</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.5-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.13-0``,  ``0.8.12-0``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.5-0``,  ``0.8.2-0``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.13-0``,  ``0.8.12-0``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.5-0``,  ``0.8.2-0``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ seqfu
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends pcre: ``>=8.44,<9.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

@@ -27,7 +27,7 @@ r-tmae
       
       
 
-      ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
@@ -38,7 +38,7 @@ r-tmae
    :depends bioconductor-genomicscores: 
    :depends bioconductor-iranges: 
    :depends bioconductor-s4vectors: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :depends r-data.table: 

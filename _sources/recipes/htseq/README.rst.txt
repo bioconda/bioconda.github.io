@@ -41,7 +41,8 @@ htseq
       
 
    
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends matplotlib-base: ``>=1.4``
    :depends numpy: ``>=1.17.5,<2.0a0``
    :depends pysam: ``>=0.15.1``

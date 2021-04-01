@@ -27,7 +27,7 @@ bioconductor-chipenrich.data
       
       
 
-      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``
+      ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``
 
       
 
@@ -39,7 +39,7 @@ bioconductor-chipenrich.data
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-readr: 
    :requirements:

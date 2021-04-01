@@ -27,7 +27,7 @@ bioconductor-hdcytodata
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-hdcytodata
    :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
    :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

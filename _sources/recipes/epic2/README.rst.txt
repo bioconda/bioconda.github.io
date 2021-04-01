@@ -29,10 +29,10 @@ epic2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.48-0</code>,  <code>0.0.47-0</code>,  <code>0.0.44-0</code>,  <code>0.0.43-0</code>,  <code>0.0.41-3</code>,  <code>0.0.41-2</code>,  <code>0.0.41-1</code>,  <code>0.0.41-0</code>,  <code>0.0.40-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.48-1</code>,  <code>0.0.48-0</code>,  <code>0.0.47-0</code>,  <code>0.0.44-0</code>,  <code>0.0.43-0</code>,  <code>0.0.41-3</code>,  <code>0.0.41-2</code>,  <code>0.0.41-1</code>,  <code>0.0.41-0</code>,  </span></summary>
       
 
-      ``0.0.48-0``,  ``0.0.47-0``,  ``0.0.44-0``,  ``0.0.43-0``,  ``0.0.41-3``,  ``0.0.41-2``,  ``0.0.41-1``,  ``0.0.41-0``,  ``0.0.40-0``,  ``0.0.39-0``,  ``0.0.37-0``,  ``0.0.36-0``,  ``0.0.35-0``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.26-0``,  ``0.0.16-0``,  ``0.0.15-0``
+      ``0.0.48-1``,  ``0.0.48-0``,  ``0.0.47-0``,  ``0.0.44-0``,  ``0.0.43-0``,  ``0.0.41-3``,  ``0.0.41-2``,  ``0.0.41-1``,  ``0.0.41-0``,  ``0.0.40-0``,  ``0.0.39-0``,  ``0.0.37-0``,  ``0.0.36-0``,  ``0.0.35-0``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.26-0``,  ``0.0.16-0``,  ``0.0.15-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ epic2
       
 
    
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends natsort: 
    :depends numpy: 
    :depends pysam: 

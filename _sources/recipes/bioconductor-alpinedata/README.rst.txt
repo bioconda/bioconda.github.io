@@ -27,7 +27,7 @@ bioconductor-alpinedata
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-alpinedata
    :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
    :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
    :depends bioconductor-genomicalignments: ``>=1.26.0,<1.27.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

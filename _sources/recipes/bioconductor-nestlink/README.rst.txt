@@ -27,7 +27,7 @@ bioconductor-nestlink
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-nestlink
    :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
    :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
    :depends bioconductor-shortread: ``>=1.48.0,<1.49.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-gplots: ``>=3.0``
    :depends r-protviz: ``>=0.4``

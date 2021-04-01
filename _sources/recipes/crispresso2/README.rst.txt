@@ -28,10 +28,10 @@ crispresso2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.45-1</code>,  <code>2.0.45-0</code>,  <code>2.0.44-0</code>,  <code>2.0.43-0</code>,  <code>2.0.42-0</code>,  <code>2.0.40-0</code>,  <code>2.0.39-0</code>,  <code>2.0.38-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.45-1</code>,  <code>2.0.45-0</code>,  <code>2.0.44-0</code>,  <code>2.0.43-0</code>,  <code>2.0.42-0</code>,  <code>2.0.40-0</code>,  <code>2.0.39-0</code>,  </span></summary>
       
 
-      ``2.1.0-0``,  ``2.0.45-1``,  ``2.0.45-0``,  ``2.0.44-0``,  ``2.0.43-0``,  ``2.0.42-0``,  ``2.0.40-0``,  ``2.0.39-0``,  ``2.0.38-0``,  ``2.0.32-0``,  ``2.0.31-0``,  ``2.0.30-0``,  ``2.0.29-0``,  ``2.0.28-0``,  ``2.0.27-3``,  ``2.0.23-1``,  ``2.0.23-0``
+      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.45-1``,  ``2.0.45-0``,  ``2.0.44-0``,  ``2.0.43-0``,  ``2.0.42-0``,  ``2.0.40-0``,  ``2.0.39-0``,  ``2.0.38-0``,  ``2.0.32-0``,  ``2.0.31-0``,  ``2.0.30-0``,  ``2.0.29-0``,  ``2.0.28-0``,  ``2.0.27-3``,  ``2.0.23-1``,  ``2.0.23-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ crispresso2
    :depends bowtie2: 
    :depends flash: 
    :depends jinja2: ``2.10``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends matplotlib-base: ``>=1.3.1,<=2.2.3``
    :depends numpy: ``>=1.9,<=1.16.6``
    :depends pandas: ``>=0.15,<=0.24``

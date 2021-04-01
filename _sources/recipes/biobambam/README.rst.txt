@@ -28,10 +28,10 @@ biobambam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.180-0</code>,  <code>2.0.179-1</code>,  <code>2.0.179-0</code>,  <code>2.0.87-2</code>,  <code>2.0.87-1</code>,  <code>2.0.87-0</code>,  <code>2.0.79-0</code>,  <code>2.0.78-0</code>,  <code>2.0.72-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.180-1</code>,  <code>2.0.180-0</code>,  <code>2.0.179-1</code>,  <code>2.0.179-0</code>,  <code>2.0.87-2</code>,  <code>2.0.87-1</code>,  <code>2.0.87-0</code>,  <code>2.0.79-0</code>,  <code>2.0.78-0</code>,  </span></summary>
       
 
-      ``2.0.180-0``,  ``2.0.179-1``,  ``2.0.179-0``,  ``2.0.87-2``,  ``2.0.87-1``,  ``2.0.87-0``,  ``2.0.79-0``,  ``2.0.78-0``,  ``2.0.72-0``,  ``2.0.62-0``,  ``2.0.58-0``,  ``2.0.57-0``,  ``2.0.44-0``,  ``2.0.42-0``,  ``2.0.39-0``,  ``2.0.25-0``
+      ``2.0.180-1``,  ``2.0.180-0``,  ``2.0.179-1``,  ``2.0.179-0``,  ``2.0.87-2``,  ``2.0.87-1``,  ``2.0.87-0``,  ``2.0.79-0``,  ``2.0.78-0``,  ``2.0.72-0``,  ``2.0.62-0``,  ``2.0.58-0``,  ``2.0.57-0``,  ``2.0.44-0``,  ``2.0.42-0``,  ``2.0.39-0``,  ``2.0.25-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ biobambam
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libmaus2: ``>=2.0.774``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation

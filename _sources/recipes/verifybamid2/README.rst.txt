@@ -28,10 +28,10 @@ verifybamid2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>1.0.6-3</code>,  <code>1.0.6-2</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  <code>1.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>1.0.6-3</code>,  <code>1.0.6-2</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  </span></summary>
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ verifybamid2
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends curl: ``>=7.75.0,<8.0a0``
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openssl: ``>=1.1.1k,<1.1.2a``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

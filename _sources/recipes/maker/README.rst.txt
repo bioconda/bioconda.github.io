@@ -45,6 +45,7 @@ maker
    :depends blast: ``2.9.0.*``
    :depends evidencemodeler: 
    :depends exonerate: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends mpich: ``>=3.4.1,<4.0a0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bioperl-core: ``>=1.007002``
@@ -59,6 +60,7 @@ maker
    :depends perl-perl-unsafe-signals: 
    :depends perl-perlio-gzip: 
    :depends postgresql: 
+   :depends rapsearch: 
    :depends repeatmasker: ``>=4.1.1``
    :depends rmblast: ``2.9.0.*``
    :depends snap: 

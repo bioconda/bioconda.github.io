@@ -27,7 +27,7 @@ bioconductor-enrichmentbrowser
       
       
 
-      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.3-0``,  ``2.12.0-0``,  ``2.10.11-0``
+      ``2.20.7-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.3-0``,  ``2.12.0-0``,  ``2.10.11-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-enrichmentbrowser
    :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
    :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
    :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
+   :depends bioconductor-go.db: ``>=3.12.0,<3.13.0``
    :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
    :depends bioconductor-graphite: ``>=1.36.0,<1.37.0``
    :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``

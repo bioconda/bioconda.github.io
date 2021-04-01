@@ -27,13 +27,13 @@ zorro
       
       
 
-      ``2011.12.01-1``,  ``2011.12.01-0``
+      ``2011.12.01-2``,  ``2011.12.01-1``,  ``2011.12.01-0``
 
       
 
    
    :depends fasttree: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends perl: 
    :requirements:
 

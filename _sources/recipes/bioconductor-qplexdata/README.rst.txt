@@ -27,14 +27,14 @@ bioconductor-qplexdata
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.1-0``
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.1-0``
 
       
 
    
    :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
    :depends bioconductor-qplexanalyzer: ``>=1.8.0,<1.9.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: 
    :depends r-knitr: 

@@ -27,7 +27,7 @@ bioconductor-flowclust
       
       
 
-      ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
+      ``3.28.0-2``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-flowclust
    :depends bioconductor-flowviz: ``>=1.54.0,<1.55.0``
    :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-clue: 

@@ -27,7 +27,7 @@ bioconductor-flowsorted.blood.epic
       
       
 
-      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-flowsorted.blood.epic
    :depends bioconductor-minfi: ``>=1.36.0,<1.37.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.75.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-nlme: 
    :depends r-quadprog: 
