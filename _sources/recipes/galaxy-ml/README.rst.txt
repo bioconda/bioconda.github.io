@@ -46,7 +46,8 @@ galaxy-ml
    :depends imbalanced-learn: ``<0.6``
    :depends joblib: 
    :depends keras: ``2.3.1``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends matplotlib-base: 
    :depends mlxtend: ``<0.18``
    :depends numpy: ``>=1.17.0,<1.19``

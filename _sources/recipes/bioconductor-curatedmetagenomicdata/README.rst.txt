@@ -27,7 +27,7 @@ bioconductor-curatedmetagenomicdata
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
+      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
 
       
 
@@ -36,7 +36,7 @@ bioconductor-curatedmetagenomicdata
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-dplyr: ``>=0.5.0``
    :depends r-magrittr: 

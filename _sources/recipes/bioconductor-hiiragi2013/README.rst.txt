@@ -27,7 +27,7 @@ bioconductor-hiiragi2013
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-hiiragi2013
    :depends bioconductor-geneplotter: ``>=1.68.0,<1.69.0``
    :depends bioconductor-keggrest: ``>=1.30.0,<1.31.0``
    :depends bioconductor-mouse4302.db: ``>=3.2.0,<3.3.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-boot: 
    :depends r-clue: 

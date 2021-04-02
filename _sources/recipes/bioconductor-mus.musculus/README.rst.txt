@@ -27,7 +27,7 @@ bioconductor-mus.musculus
       
       
 
-      ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-0``
+      ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-mus.musculus
    :depends bioconductor-org.mm.eg.db: ``>=3.12.0,<3.13.0``
    :depends bioconductor-organismdbi: ``>=1.32.0,<1.33.0``
    :depends bioconductor-txdb.mmusculus.ucsc.mm10.knowngene: ``>=3.10.0,<3.11.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

@@ -27,7 +27,7 @@ bioconductor-rattus.norvegicus
       
       
 
-      ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-0``
+      ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-rattus.norvegicus
    :depends bioconductor-org.rn.eg.db: ``>=3.12.0,<3.13.0``
    :depends bioconductor-organismdbi: ``>=1.32.0,<1.33.0``
    :depends bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene: ``>=3.12.0,<3.13.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

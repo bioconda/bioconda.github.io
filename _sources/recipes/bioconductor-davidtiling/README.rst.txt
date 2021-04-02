@@ -27,7 +27,7 @@ bioconductor-davidtiling
       
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-davidtiling
    :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-go.db: ``>=3.12.0,<3.13.0``
    :depends bioconductor-tilingarray: ``>=1.68.0,<1.69.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

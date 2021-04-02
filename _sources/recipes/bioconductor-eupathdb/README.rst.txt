@@ -27,7 +27,7 @@ bioconductor-eupathdb
       
       
 
-      ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
+      ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-eupathdb
    :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
    :depends bioconductor-genomeinfodbdata: ``>=1.2.0,<1.3.0``
    :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
    :requirements:

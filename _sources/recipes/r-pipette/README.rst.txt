@@ -12,9 +12,9 @@ r-pipette
 
    Pipette biological data in and out of R.
 
-   :homepage: https://pipette.acidgenomics.com/
-   :developer docs: https://github.com/acidgenomics/pipette
-   :license: GPL / GPL-3.0
+   :homepage: https://r.acidgenomics.com/packages/pipette/
+   :developer docs: https://github.com/acidgenomics/r-pipette
+   :license: GPL / AGPL-3.0
    :recipe: /`r-pipette <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pipette>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pipette/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-pipette
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.22-1</code>,  <code>0.4.22-0</code>,  <code>0.4.20-0</code>,  <code>0.4.19-0</code>,  <code>0.4.14-0</code>,  <code>0.4.13-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.14-0</code>,  <code>0.4.22-1</code>,  <code>0.4.22-0</code>,  <code>0.4.20-0</code>,  <code>0.4.19-0</code>,  <code>0.4.14-0</code>,  <code>0.4.13-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  </span></summary>
       
 
-      ``0.4.22-1``,  ``0.4.22-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.5.14-0``,  ``0.4.22-1``,  ``0.4.22-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -41,31 +41,29 @@ r-pipette
       
 
    
-   :depends bioconductor-biocfilecache: 
-   :depends bioconductor-biocgenerics: 
-   :depends bioconductor-genomicranges: 
-   :depends bioconductor-iranges: 
-   :depends bioconductor-rtracklayer: 
-   :depends bioconductor-s4vectors: 
-   :depends bioconductor-singlecellexperiment: 
-   :depends bioconductor-summarizedexperiment: 
-   :depends r-acidbase: ``>=0.2.4``
-   :depends r-acidgenerics: ``>=0.4.1``
+   :depends bioconductor-biocfilecache: ``>=1.14``
+   :depends bioconductor-genomicranges: ``>=1.42``
+   :depends bioconductor-iranges: ``>=2.24``
+   :depends bioconductor-rtracklayer: ``>=1.50``
+   :depends r-acidbase: ``>=0.3.13``
+   :depends r-acidcli: ``>=0.1.0``
+   :depends r-acidgenerics: ``>=0.5.17``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-cli: ``>=2.2``
-   :depends r-data.table: ``>=1.13``
-   :depends r-goalie: ``>=0.4.11``
+   :depends r-data.table: ``>=1.14.0``
+   :depends r-digest: ``>=0.6.27``
+   :depends r-goalie: ``>=0.5.1``
+   :depends r-httr: ``>=1.4.2``
    :depends r-jsonlite: ``>=1.7``
-   :depends r-matrix: ``>=1.2``
-   :depends r-rappdirs: ``>=0.3``
+   :depends r-matrix: ``>=1.3``
+   :depends r-rappdirs: ``>=0.3.3``
    :depends r-rcurl: ``>=1.98``
-   :depends r-readr: ``>=1.4``
-   :depends r-readxl: ``>=1.3``
-   :depends r-rio: ``>=0.5.16``
+   :depends r-readr: ``>=1.4.0``
+   :depends r-readxl: ``>=1.3.1``
+   :depends r-rio: ``>=0.5.26``
    :depends r-stringr: ``>=1.4``
-   :depends r-syntactic: ``>=0.4.3``
-   :depends r-tibble: ``>=3.0``
-   :depends r-vroom: ``>=1.3``
+   :depends r-syntactic: ``>=0.4.4``
+   :depends r-tibble: ``>=3.1.0``
+   :depends r-vroom: ``>=1.4.0``
    :depends r-yaml: ``>=2.2``
    :requirements:
 

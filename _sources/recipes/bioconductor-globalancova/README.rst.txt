@@ -39,6 +39,7 @@ bioconductor-globalancova
    :depends bioconductor-globaltest: ``>=5.44.0,<5.45.0``
    :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-corpcor: 

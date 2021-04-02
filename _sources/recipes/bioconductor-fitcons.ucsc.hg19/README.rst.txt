@@ -27,7 +27,7 @@ bioconductor-fitcons.ucsc.hg19
       
       
 
-      ``3.7.1-5``,  ``3.7.1-4``,  ``3.7.1-3``,  ``3.7.1-2``,  ``3.7.1-0``
+      ``3.7.1-6``,  ``3.7.1-5``,  ``3.7.1-4``,  ``3.7.1-3``,  ``3.7.1-2``,  ``3.7.1-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-fitcons.ucsc.hg19
    :depends bioconductor-genomicscores: ``>=2.2.0,<2.3.0``
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

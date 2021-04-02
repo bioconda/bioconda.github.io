@@ -27,14 +27,22 @@ bioconductor-gage
    :versions:
       
       
+      .. raw:: html
 
-      ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.3-0``,  ``2.21.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.40.1-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.3-0</code>,  </span></summary>
+      
 
+      ``2.40.1-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.3-0``,  ``2.21.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
+   :depends bioconductor-go.db: ``>=3.12.0,<3.13.0``
    :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
    :depends bioconductor-keggrest: ``>=1.30.0,<1.31.0``
    :depends r-base: ``>=4.0,<4.1.0a0``

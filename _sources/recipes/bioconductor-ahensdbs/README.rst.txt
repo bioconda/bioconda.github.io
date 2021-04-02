@@ -27,14 +27,14 @@ bioconductor-ahensdbs
       
       
 
-      ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.12-0``,  ``1.0.9-1``,  ``1.0.8-0``
+      ``1.0.18-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.12-0``,  ``1.0.9-1``,  ``1.0.8-0``
 
       
 
    
    :depends bioconductor-annotationhubdata: ``>=1.20.0,<1.21.0``
    :depends bioconductor-ensembldb: ``>=2.14.0,<2.15.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

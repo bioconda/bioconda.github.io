@@ -12,9 +12,9 @@ r-acidgenomes
 
    Toolkit for downloading and processing genome annotations.
 
-   :homepage: https://acidgenomes.acidgenomics.com/
-   :developer docs: https://github.com/acidgenomics/acidgenomes
-   :license: GPL / GPL-3.0
+   :homepage: https://r.acidgenomics.com/packages/acidgenomes/
+   :developer docs: https://github.com/acidgenomics/r-acidgenomes
+   :license: GPL / AGPL-3.0
    :recipe: /`r-acidgenomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenomes/meta.yaml>`_
 
    
@@ -28,34 +28,28 @@ r-acidgenomes
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: 
-   :depends bioconductor-annotationhub: 
-   :depends bioconductor-biocgenerics: 
-   :depends bioconductor-biocparallel: 
-   :depends bioconductor-biomart: 
-   :depends bioconductor-ensdb.hsapiens.v75: 
-   :depends bioconductor-ensembldb: 
-   :depends bioconductor-genomicfeatures: 
-   :depends bioconductor-genomicranges: 
-   :depends bioconductor-iranges: 
-   :depends bioconductor-s4vectors: 
-   :depends bioconductor-summarizedexperiment: 
-   :depends r-acidbase: ``>=0.2.3``
-   :depends r-acidgenerics: ``>=0.4.0``
-   :depends r-acidplyr: ``>=0.1.2``
+   :depends bioconductor-annotationdbi: ``>=1.52``
+   :depends bioconductor-annotationhub: ``>=2.22``
+   :depends bioconductor-biomart: ``>=2.46``
+   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99``
+   :depends bioconductor-ensembldb: ``>=2.14``
+   :depends bioconductor-genomeinfodb: ``>=1.26``
+   :depends bioconductor-genomicfeatures: ``>=1.42``
+   :depends r-acidbase: ``>=0.3.13``
+   :depends r-acidcli: ``>=0.1.0``
+   :depends r-acidgenerics: ``>=0.5.17``
+   :depends r-acidplyr: ``>=0.1.17``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-cli: ``>=2.0``
-   :depends r-goalie: ``>=0.4.9``
-   :depends r-knitr: 
-   :depends r-pipette: ``>=0.4.18``
-   :depends r-rmarkdown: 
+   :depends r-goalie: ``>=0.5.1``
+   :depends r-httr: ``>=1.4``
+   :depends r-pipette: ``>=0.5.14``
    :depends r-stringr: ``>=1.4``
-   :depends r-syntactic: ``>=0.4.3``
+   :depends r-syntactic: ``>=0.4.4``
    :requirements:
 
    .. rubric:: Installation

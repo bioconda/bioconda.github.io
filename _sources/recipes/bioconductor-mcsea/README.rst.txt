@@ -27,7 +27,7 @@ bioconductor-mcsea
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.10.0-2``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
@@ -40,7 +40,7 @@ bioconductor-mcsea
    :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-mcseadata: ``>=1.9.0,<1.10.0``
+   :depends bioconductor-mcseadata: ``>=1.10.0,<1.11.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``

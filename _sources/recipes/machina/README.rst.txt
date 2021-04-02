@@ -28,16 +28,16 @@ machina
       
       
 
-      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends glpk: ``>=4.65,<4.66.0a0``
    :depends lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

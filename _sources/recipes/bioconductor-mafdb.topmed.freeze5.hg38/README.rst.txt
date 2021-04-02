@@ -27,7 +27,7 @@ bioconductor-mafdb.topmed.freeze5.hg38
       
       
 
-      ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.9.0-1``,  ``3.7.1-0``
+      ``3.10.0-3``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.9.0-1``,  ``3.7.1-0``
 
       
 
@@ -38,7 +38,7 @@ bioconductor-mafdb.topmed.freeze5.hg38
    :depends bioconductor-genomicscores: ``>=2.2.0,<2.3.0``
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

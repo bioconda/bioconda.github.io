@@ -27,13 +27,14 @@ bioconductor-debrowser
       
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``
+      ``1.18.2-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``
 
       
 
    
    :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
    :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-apeglm: ``>=1.12.0,<1.13.0``
    :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
    :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
    :depends bioconductor-dose: ``>=3.16.0,<3.17.0``
@@ -49,6 +50,7 @@ bioconductor-debrowser
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
+   :depends r-ashr: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-colourpicker: 
    :depends r-dt: 

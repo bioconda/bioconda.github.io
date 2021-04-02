@@ -42,7 +42,9 @@ r-stitch
    
    :depends gmp: ``>=6.2.1,<7.0a0``
    :depends htslib: ``>=1.4``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends mkl: ``>=2019.5,<2020.0a0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.1.0,<2.0a0``
    :depends mpfr: ``>=4.0.2,<5.0a0``
@@ -56,6 +58,7 @@ r-stitch
    :depends rsync: 
    :depends samtools: ``>=1.4``
    :depends xz: ``>=5.2.5,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

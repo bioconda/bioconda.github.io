@@ -27,24 +27,19 @@ bioconductor-knowseq
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.4.4-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
    :depends bioconductor-cqn: ``>=1.36.0,<1.37.0``
    :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
    :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-pathview: ``>=1.30.0,<1.31.0``
    :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-caret: 
-   :depends r-class: 
    :depends r-e1071: 
    :depends r-ggplot2: ``>=3.3.0``
-   :depends r-gplots: 
    :depends r-gridextra: 
    :depends r-hmisc: ``>=4.4.0``
    :depends r-httr: 

@@ -27,7 +27,7 @@ bioconductor-tenxbusdata
       
       
 
-      ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,7 @@ bioconductor-tenxbusdata
    :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
    :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
    :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
