@@ -27,7 +27,7 @@ bioconductor-regionreport
       
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.1-0``
+      ``1.24.2-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.1-0``
 
       
 
@@ -41,7 +41,6 @@ bioconductor-regionreport
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-knitcitations: ``>=1.0.1``
    :depends r-knitr: ``>=1.6``
    :depends r-knitrbootstrap: ``>=0.9.0``
    :depends r-refmanager: 

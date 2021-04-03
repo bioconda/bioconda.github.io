@@ -27,7 +27,7 @@ bioconductor-leebamviews
       
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
@@ -39,7 +39,7 @@ bioconductor-leebamviews
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

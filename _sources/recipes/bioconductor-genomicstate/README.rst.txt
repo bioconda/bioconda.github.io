@@ -27,7 +27,7 @@ bioconductor-genomicstate
       
       
 
-      ``0.99.9-1``,  ``0.99.9-0``
+      ``0.99.9-2``,  ``0.99.9-1``,  ``0.99.9-0``
 
       
 
@@ -41,7 +41,7 @@ bioconductor-genomicstate
    :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
    :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
    :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

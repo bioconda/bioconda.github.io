@@ -27,7 +27,7 @@ bioconductor-countsimqc
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
@@ -43,7 +43,7 @@ bioconductor-countsimqc
    :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-randtests: 
-   :depends r-rmarkdown: ``>=0.9.5``
+   :depends r-rmarkdown: ``>=2.5``
    :depends r-tidyr: 
    :requirements:
 

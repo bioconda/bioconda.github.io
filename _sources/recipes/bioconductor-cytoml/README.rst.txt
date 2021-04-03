@@ -27,7 +27,7 @@ bioconductor-cytoml
       
       
 
-      ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
+      ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
 
       
 
@@ -44,9 +44,9 @@ bioconductor-cytoml
    :depends bioconductor-rhdf5lib: ``>=1.12.0,<1.13.0``
    :depends bioconductor-rprotobuflib: ``>=2.2.0,<2.3.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends libxml2: ``>=2.9.10,<2.10.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-base64enc: 

@@ -27,7 +27,7 @@ bioconductor-netdx
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -49,6 +49,7 @@ bioconductor-netdx
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
+   :depends r-httr: 
    :depends r-igraph: 
    :depends r-pracma: 
    :depends r-rappdirs: 

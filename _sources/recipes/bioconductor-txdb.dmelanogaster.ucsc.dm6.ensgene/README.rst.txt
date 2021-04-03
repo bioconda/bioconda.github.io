@@ -26,15 +26,23 @@ bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
    :versions:
       
       
+      .. raw:: html
 
-      ``3.12.0-0``,  ``3.11.0-0``,  ``3.4.6-2``,  ``3.4.6-1``,  ``3.4.4-0``,  ``3.4.1-3``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.3.0-2``
+         <details><summary><span class="truncated-version-list"><code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.11.0-0</code>,  <code>3.4.6-2</code>,  <code>3.4.6-1</code>,  <code>3.4.4-0</code>,  <code>3.4.1-3</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  </span></summary>
+      
 
+      ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.0-0``,  ``3.4.6-2``,  ``3.4.6-1``,  ``3.4.4-0``,  ``3.4.1-3``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.3.0-2``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
    :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 

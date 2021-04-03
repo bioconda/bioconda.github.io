@@ -27,7 +27,7 @@ bioconductor-methrix
       
       
 
-      ``1.4.0-0``,  ``1.2.05-0``,  ``1.0.0-0``
+      ``1.4.07-0``,  ``1.4.0-0``,  ``1.2.05-0``,  ``1.0.0-0``
 
       
 
@@ -44,7 +44,6 @@ bioconductor-methrix
    :depends r-data.table: ``>=1.12.4``
    :depends r-ggplot2: 
    :depends r-matrixstats: 
-   :depends r-rjson: 
    :requirements:
 
    .. rubric:: Installation

@@ -28,10 +28,10 @@ cobra
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.1-1</code>,  <code>0.18.1-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.21.0-1</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.1-1</code>,  <code>0.18.1-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  </span></summary>
       
 
-      ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.4-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.4.0b6-0``
+      ``0.21.0-1``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.4-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.4.0b6-0``
 
       
       .. raw:: html
@@ -40,22 +40,22 @@ cobra
       
 
    
-   :depends appdirs: 
-   :depends depinfo: 
-   :depends diskcache: 
+   :depends appdirs: ``>=1.4``
+   :depends depinfo: ``>=1.5.1``
+   :depends diskcache: ``>=5.0``
    :depends future: 
-   :depends httpx: 
-   :depends importlib_resources: 
+   :depends httpx: ``>=0.14``
    :depends numpy: ``>=1.13``
-   :depends optlang: ``>=1.4.2,<1.4.6``
+   :depends optlang: ``<1.4.6``
    :depends pandas: ``>=1.0``
-   :depends pydantic: 
-   :depends python: ``>=3.6``
-   :depends python-libsbml: ``5.19.0``
-   :depends rich: ``<7.0``
+   :depends pydantic: ``>=1.6``
+   :depends python: 
+   :depends python-libsbml: ``>=5.18.0``
+   :depends rich: ``>=6.0``
    :depends ruamel.yaml: ``>=0.16``
    :depends six: 
-   :depends swiglpk: 
+   :depends swiglpk: ``>=4.65``
+   :depends tabulate: 
    :requirements:
 
    .. rubric:: Installation

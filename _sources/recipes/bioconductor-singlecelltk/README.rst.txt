@@ -27,7 +27,7 @@ bioconductor-singlecelltk
       
       
 
-      ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.2.3-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.2.3-0``
 
       
 
@@ -57,7 +57,7 @@ bioconductor-singlecelltk
    :depends bioconductor-scds: ``>=1.6.0,<1.7.0``
    :depends bioconductor-scmerge: ``>=1.6.0,<1.7.0``
    :depends bioconductor-scran: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-scrnaseq: ``>=2.3.0,<2.4.0``
+   :depends bioconductor-scrnaseq: ``>=2.4.0,<2.5.0``
    :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
    :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
    :depends bioconductor-sva: ``>=3.38.0,<3.39.0``

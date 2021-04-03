@@ -13,7 +13,7 @@ pangolin
    Phylogenetic Assignment of Named Global Outbreak LINeages
 
    :homepage: https://github.com/cov-lineages/pangolin
-   :license: GPL-3.0
+   :license: GPL-3.0-only
    :recipe: /`pangolin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ pangolin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.6-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  <code>2.3.2-0</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.1.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.8-0</code>,  <code>2.3.6-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  <code>2.3.2-0</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  </span></summary>
       
 
-      ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.7-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.11-0``,  ``1.1.5-0``,  ``1.1-0``
+      ``2.3.8-0``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.7-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.11-0``,  ``1.1.5-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ pangolin
       
 
    
-   :depends biopython: ``>=1.74``
+   :depends biopython: ``1.74``
    :depends gofasta: 
    :depends joblib: ``>=0.11``
-   :depends minimap2: 
+   :depends minimap2: ``>=2.16``
    :depends pandas: ``>=1.0.1``
    :depends pangolearn: ``>=2021.02.12``
    :depends pulp: ``>=2``

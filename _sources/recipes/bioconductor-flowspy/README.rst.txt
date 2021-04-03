@@ -27,7 +27,7 @@ bioconductor-flowspy
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
+      ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
 
       
 
@@ -41,9 +41,9 @@ bioconductor-flowspy
    :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
    :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-cluster: 
    :depends r-ggplot2: 
