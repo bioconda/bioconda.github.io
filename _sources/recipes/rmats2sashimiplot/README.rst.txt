@@ -27,7 +27,7 @@ rmats2sashimiplot
       
       
 
-      ``2.0.4-0``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-0``,  ``2.0.0-0``
+      ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-0``,  ``2.0.0-0``
 
       
 
@@ -36,7 +36,8 @@ rmats2sashimiplot
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pysam: 
-   :depends python: 
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends samtools: 
    :depends scipy: 
    :requirements:

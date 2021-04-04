@@ -26,14 +26,22 @@ bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.0-10``,  ``0.6.0-9``,  ``0.6.0-8``,  ``0.6.0-7``,  ``0.6.0-5``,  ``0.6.0-4``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.0-11</code>,  <code>0.6.0-10</code>,  <code>0.6.0-9</code>,  <code>0.6.0-8</code>,  <code>0.6.0-7</code>,  <code>0.6.0-5</code>,  <code>0.6.0-4</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  </span></summary>
+      
 
+      ``0.6.0-11``,  ``0.6.0-10``,  ``0.6.0-9``,  ``0.6.0-8``,  ``0.6.0-7``,  ``0.6.0-5``,  ``0.6.0-4``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-minfi: ``>=1.36.0,<1.37.0``
-   :depends curl: ``>=7.71.1,<8.0a0``
+   :depends curl: ``>=7.76.0,<8.0a0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
