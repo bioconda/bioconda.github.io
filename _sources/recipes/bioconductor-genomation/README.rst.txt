@@ -53,8 +53,9 @@ bioconductor-genomation
    :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
    :depends bioconductor-seqpattern: ``>=1.22.0,<1.23.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 

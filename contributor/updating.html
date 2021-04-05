@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
     <title>Updating recipes &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
@@ -123,7 +124,7 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="updating-recipes">
+  <section id="updating-recipes">
 <span id="updating"></span><h1>Updating recipes<a class="headerlink" href="#updating-recipes" title="Permalink to this headline">¶</a></h1>
 <p><a class="conda-package reference internal" href="../recipes/bioconda-utils/README.html#package-bioconda-utils" title="bioconda-utils package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a> now has the ability to automatically update packages and
 submit a PR on your behalf. Note that the auto-updater does not yet know how to
@@ -152,12 +153,12 @@ they specifically have the following in their <code class="docutils literal notr
 <p>E.g., <code class="docutils literal notranslate"><span class="pre">packagename/meta.yaml</span></code> is the main recipe, and
 <code class="docutils literal notranslate"><span class="pre">packagename/0.5/meta.yaml</span></code> is a subrecipe. So <code class="docutils literal notranslate"><span class="pre">packagename/0.5/meta.yaml</span></code>
 needs the above <code class="docutils literal notranslate"><span class="pre">extra</span></code> block if it should ever be automatically updated.</p>
-<div class="section" id="how-it-works">
+<section id="how-it-works">
 <h2>How it works<a class="headerlink" href="#how-it-works" title="Permalink to this headline">¶</a></h2>
 <p>This section describes the system in more detail for developers looking to
 expand the functionality of the update scanner or anyone interested in the
 inner workings.</p>
-<div class="section" id="the-components">
+<section id="the-components">
 <h3>The components<a class="headerlink" href="#the-components" title="Permalink to this headline">¶</a></h3>
 <p>The <a class="reference internal" href="../developer/_autosummary/bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref any py py-class docutils literal notranslate"><span class="pre">bioconda_utils.recipe.Recipe</span></code></a> object contains logic for finding and
 replacing text that may contain version information (such as within <code class="docutils literal notranslate"><span class="pre">package:</span></code>
@@ -179,8 +180,8 @@ complicated things, and will do so in the asyncio loop.</p>
 which recipes came from which site and how to find links to new source code
 from that site. There are existing hosters for e.g. GitHub, PyPI, CRAN, CPAN,
 Bioconductor, and more. These are primarily used by the <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> filter.</p>
-</div>
-<div class="section" id="writing-a-filter">
+</section>
+<section id="writing-a-filter">
 <h3>Writing a filter<a class="headerlink" href="#writing-a-filter" title="Permalink to this headline">¶</a></h3>
 <p>To add additional functionality to the scanner, create a filter in
 <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#module-bioconda_utils.autobump" title="bioconda_utils.autobump"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.autobump</span></code></a> and add it to the scanner in
@@ -192,8 +193,8 @@ more.</p>
 <p>Filters can be arbitrarily complex, like any Python function. See the
 <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#module-bioconda_utils.autobump" title="bioconda_utils.autobump"><code class="xref any py py-mod docutils literal notranslate"><span class="pre">bioconda_utils.autobump</span></code></a> source for examples when writing a new filter –
 <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.ExcludeSubrecipe" title="bioconda_utils.autobump.ExcludeSubrecipe"><code class="xref any py py-class docutils literal notranslate"><span class="pre">ExcludeSubrecipe</span></code></a> is a relatively simple one; <a class="reference internal" href="../developer/_autosummary/bioconda_utils.autobump.html#bioconda_utils.autobump.UpdateVersion" title="bioconda_utils.autobump.UpdateVersion"><code class="xref any py py-class docutils literal notranslate"><span class="pre">UpdateVersion</span></code></a> is more complex.</p>
-</div>
-<div class="section" id="writing-a-new-hoster">
+</section>
+<section id="writing-a-new-hoster">
 <h3>Writing a new hoster<a class="headerlink" href="#writing-a-new-hoster" title="Permalink to this headline">¶</a></h3>
 <p>A <a class="reference internal" href="../developer/_autosummary/bioconda_utils.hosters.html#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Hoster</span></code></a> is a mechanism for scraping links of new releases off of a site and
 is the means by which we detect new releases. It works primarily by regular
@@ -270,10 +271,10 @@ update the checksum in the recipe.</p></li>
 which filters were conditionally added) the scanner will do other things like
 exclude recipes, create a new branch or push a new pull request to GitHub for
 testing.</p>
-</div>
-</div>
-</div>
-<div class="section" id="updating-recipes-for-a-pinning-change">
+</section>
+</section>
+</section>
+<section id="updating-recipes-for-a-pinning-change">
 <h1>Updating recipes for a pinning change<a class="headerlink" href="#updating-recipes-for-a-pinning-change" title="Permalink to this headline">¶</a></h1>
 <p>For compatibility reasons, sometimes packages need to be built for specific versions of dependency (e.g., R, Python, or boost). The packages produced for a particular version of a dependency are said to be <em>pinned</em> to that dependency version.</p>
 <p>Bioconda has project wide pinnings for many common dependencies, such as numpy, R, and boost. These pinnings allow for consistency between package and facilitates adding multiple packages to the same conda environment (due to not requiring differing boost versions, for example). These pinnings are largely inherited from the <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock">conda-forge project</a> and Bioconda then uses a particular version of them.</p>
@@ -317,7 +318,7 @@ Changes not staged <span class="k">for</span> commit:
 </pre></div>
 </div>
 <p>This incremented the build number for the deepTools package as well as all of its dependencies. Note that the 2 dependencies not updated were skipped because it was determined that they were unaffected by the dependency change. In most cases the <code class="docutils literal notranslate"><span class="pre">--bump-only-python</span></code> should be used. This results in packages that simply need a rebuild due to a change in Python version to have their build numbers incremented. Such packages would eventually be built anyway, but this facilitates the update process.</p>
-</div>
+</section>
 
 
           </div>

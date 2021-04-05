@@ -16,7 +16,7 @@ bioconductor-megadepth
    :license: Artistic-2.0
    :recipe: /`bioconductor-megadepth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-megadepth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-megadepth/meta.yaml>`_
 
-   This package provides an R interface to Megadepth by Christopher Wilks available at \(\<https\:\/\/github.com\/ChristopherWilks\/megadepth\>\). It is particularly useful for computing the coverage of a set of genomic regions across bigWig or BAM files. With this package\, you can build base\-pair coverage matrices for regions or annotations of your choice from BigWig files. Megadepth was used to create the raw files provided by \<https\:\/\/bioconductor.org\/packages\/recount3\>.
+   This package provides an R interface to Megadepth by Christopher Wilks available at https\:\/\/github.com\/ChristopherWilks\/megadepth. It is particularly useful for computing the coverage of a set of genomic regions across bigWig or BAM files. With this package\, you can build base\-pair coverage matrices for regions or annotations of your choice from BigWig files. Megadepth was used to create the raw files provided by https\:\/\/bioconductor.org\/packages\/recount3.
 
 
 .. conda:package:: bioconductor-megadepth

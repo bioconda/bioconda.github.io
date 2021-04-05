@@ -10,7 +10,7 @@ bioconductor-vasp
    :replaces_section_title:
    :noindex:
 
-   Quantification and Visulization of Variations of Splicing in Population
+   Quantification and Visualization of Variations of Splicing in Population
 
    :homepage: https://bioconductor.org/packages/3.12/bioc/html/vasp.html
    :license: GPL (>= 2.0)

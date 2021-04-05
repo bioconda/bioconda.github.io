@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
     <title>Testing Recipes Locally &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
@@ -120,7 +121,7 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="testing-recipes-locally">
+  <section id="testing-recipes-locally">
 <h1>Testing Recipes Locally<a class="headerlink" href="#testing-recipes-locally" title="Permalink to this headline">¶</a></h1>
 <p>Queue times on CircleCI may sometimes make it more convenient and
 faster to work on complex packages locally. There are several ways to
@@ -132,7 +133,7 @@ do so, each with their own caveats.</p>
 <li><p><a class="reference internal" href="#using-the-debug-method" id="id4">Using the “Debug” Method</a></p></li>
 </ul>
 </div>
-<div class="section" id="using-the-circle-ci-client">
+<section id="using-the-circle-ci-client">
 <span id="circleci-client"></span><h2><a class="toc-backref" href="#id2">Using the Circle CI Client</a><a class="headerlink" href="#using-the-circle-ci-client" title="Permalink to this headline">¶</a></h2>
 <p>You can execute an almost exact copy of our Linux build pipeline by
 <a class="reference external" href="https://circleci.com/docs/2.0/local-cli">installing the CircleCI client locally</a> and running it from the
@@ -166,8 +167,8 @@ build string in your package spec to ensure your local build is
 installed, e.g.  <code class="docutils literal notranslate"><span class="pre">your-package</span> <span class="pre">==x.y.z</span> <span class="pre">build_string</span></code>.  See
 <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/package-spec.html" title="(in conda-build v3.21.4+3.g3b99b222.dirty)"><code class="docutils literal notranslate"><span class="pre">Conda</span> <span class="pre">package</span> <span class="pre">specification</span></code></a> for more details on how to specify
 packages.</p>
-</div>
-<div class="section" id="using-the-bootstrap-method">
+</section>
+<section id="using-the-bootstrap-method">
 <span id="bootstrap"></span><h2><a class="toc-backref" href="#id3">Using the “Bootstrap” Method</a><a class="headerlink" href="#using-the-bootstrap-method" title="Permalink to this headline">¶</a></h2>
 <p>Due to technical limitations of the Circle CI client, the above test does
 <strong>not</strong> run the more stringent <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests. To do so, use the
@@ -229,8 +230,8 @@ telling the bootstrap setup to not use docker, and by excluding the
 <span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">build</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span>
 </pre></div>
 </div>
-</div>
-<div class="section" id="using-the-debug-method">
+</section>
+<section id="using-the-debug-method">
 <h2><a class="toc-backref" href="#id4">Using the “Debug” Method</a><a class="headerlink" href="#using-the-debug-method" title="Permalink to this headline">¶</a></h2>
 <div class="admonition-todo admonition" id="id1">
 <p class="admonition-title">Todo</p>
@@ -239,8 +240,8 @@ telling the bootstrap setup to not use docker, and by excluding the
 <li><p>Explain how to create patch series.</p></li>
 </ul>
 </div>
-</div>
-</div>
+</section>
+</section>
 
 
           </div>

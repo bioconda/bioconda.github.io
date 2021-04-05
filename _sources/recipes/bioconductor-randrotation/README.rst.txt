@@ -16,7 +16,7 @@ bioconductor-randrotation
    :license: GPL-3
    :recipe: /`bioconductor-randrotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randrotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randrotation/meta.yaml>`_
 
-   A collection of methods for performing random rotations on high\-dimensional\, normally distributed data \(e.g. microarray or RNA\-seq data\) with batch structure. The random rotation approach allows exact testing of dependent test statistics with linear models following arbitrary \(also non\-linear\) batch effect correction methods.
+   A collection of methods for performing random rotations on high\-dimensional\, normally distributed data \(e.g. microarray or RNA\-seq data\) with batch structure. The random rotation approach allows exact testing of dependent test statistics with linear models following arbitrary batch effect correction methods.
 
 
 .. conda:package:: bioconductor-randrotation

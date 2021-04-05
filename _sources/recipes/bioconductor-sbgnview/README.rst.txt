@@ -10,13 +10,13 @@ bioconductor-sbgnview
    :replaces_section_title:
    :noindex:
 
-   Overlay omics data onto SBGN pathway diagram
+   \"SBGNview\: Data Analysis\, Integration and Visualization on SBGN Pathways\"
 
    :homepage: https://bioconductor.org/packages/3.12/bioc/html/SBGNview.html
    :license: AGPL-3
    :recipe: /`bioconductor-sbgnview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbgnview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbgnview/meta.yaml>`_
 
-   SBGNview is an R package for visualizing omics data on SBGN pathway maps. Given omics data and a SBGN\-ML file with layout information\, SBGNview can display omics data as colors on glyphs and output image files. SBGNview provides extensive options to control glyph and edge features \(e.g. color\, line width etc.\). To facilitate pathway based analysis\, SBGNview also provides functions to extract molecule sets from SBGN\-ML files. SBGNview can map a large collection of gene\, protein and compound ID typs to glyphs.
+   SBGNview is a tool set for pathway based data visalization\, integration and analysis. SBGNview is similar and complementary to the widely used Pathview\, with the following key features\: 1. Pathway definition by the widely adopted Systems Biology Graphical Notation \(SBGN\)\; 2. Supports multiple major pathway databases beyond KEGG \(Reactome\, MetaCyc\, SMPDB\, PANTHER\, METACROP\) and user defined pathways\; 3. Covers 5\,200 reference pathways and over 3\,000 species by default\; 4. Extensive graphics controls\, including glyph and edge attributes\, graph layout and sub\-pathway highlight\; 5. SBGN pathway data manipulation\, processing\, extraction and analysis.
 
 
 .. conda:package:: bioconductor-sbgnview

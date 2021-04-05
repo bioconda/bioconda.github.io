@@ -16,7 +16,7 @@ bioconductor-ancombc
    :license: Artistic-2.0
    :recipe: /`bioconductor-ancombc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ancombc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ancombc/meta.yaml>`_
 
-   ANCOMBC is a package for normalizing the microbial absolute abundance data due to unequal sampling fractions across samples\, and identifying taxa \(e.g. phyla\, families\, genera\, species\, etc.\) that are differentially abundant with respect to the covariate of interest \(e.g. study groups\) between two or more groups of multiple samples.
+   ANCOMBC is a package for normalizing the microbial observed abundance data due to unequal sampling fractions across samples\, and identifying taxa \(e.g. phyla\, families\, genera\, species\, etc.\) that are differentially abundant with respect to the covariate of interest \(e.g. study groups\) between two or more groups of multiple samples.
 
 
 .. conda:package:: bioconductor-ancombc

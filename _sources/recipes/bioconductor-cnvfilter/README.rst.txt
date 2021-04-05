@@ -16,7 +16,7 @@ bioconductor-cnvfilter
    :license: Artistic-2.0
    :recipe: /`bioconductor-cnvfilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvfilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvfilter/meta.yaml>`_
 
-   CNVfilteR identifies those CNVs that can be discarded by using the single nucleotide variant \(SNV\) calls that are usually obtained in common NGS pipelines.
+   CNVfilteR identifies false positives produced by germline NGS copy number variant detection tools by using single nucleotide variants.
 
 
 .. conda:package:: bioconductor-cnvfilter

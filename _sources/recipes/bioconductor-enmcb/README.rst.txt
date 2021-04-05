@@ -27,7 +27,7 @@ bioconductor-enmcb
       
       
 
-      ``1.2.0-0``,  ``1.0.2-0``
+      ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
@@ -39,6 +39,7 @@ bioconductor-enmcb
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
+   :depends r-rms: 
    :depends r-survival: 
    :depends r-survivalroc: 
    :depends r-survivalsvm: 

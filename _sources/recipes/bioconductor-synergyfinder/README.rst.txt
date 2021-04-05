@@ -17,7 +17,7 @@ bioconductor-synergyfinder
    :recipe: /`bioconductor-synergyfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synergyfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synergyfinder/meta.yaml>`_
    :links: biotools: :biotools:`synergyfinder`, doi: :doi:`10.1093/bioinformatics/btx162`
 
-   Efficient implementations for all the popular synergy scoring models for drug combinations\, including HSA\, Loewe\, Bliss and ZIP and visualization of the synergy scores as either a two\-dimensional or a three\-dimensional interaction surface over the dose matrix.
+   Efficient implementations for analyzing pre\-clinical multiple drug combination datasets. 1. Synergy scores valuculation via all the popular models\, including HSA\, Loewe\, Bliss and ZIP\; 2. Drug Sensitivity Score \(CSS\) and Relitave Inhibition \(RI\) for drug sensitivity evaluation\; 3. Visualization for drug combination matrices and scores. Based on this package\, we also provide a web application \(http\:\/\/synergyfinder.org\/\) for users who prefer more friendly user interface.
 
 
 .. conda:package:: bioconductor-synergyfinder

@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
     <title>Guidelines for bioconda recipes &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
@@ -147,9 +148,9 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="guidelines-for-bioconda-recipes">
+  <section id="guidelines-for-bioconda-recipes">
 <span id="guidelines"></span><h1>Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes<a class="headerlink" href="#guidelines-for-bioconda-recipes" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="bioconda-recipe-checklist">
+<section id="bioconda-recipe-checklist">
 <h2>bioconda recipe checklist<a class="headerlink" href="#bioconda-recipe-checklist" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Source URL is stable (<a class="reference internal" href="#stable-url"><span class="std std-ref">details</span></a>)</p></li>
@@ -170,7 +171,7 @@ channels with some exceptions (<a class="reference internal" href="#channel-exce
 <li><p><strong>Update 7 Mar 2018</strong>: When patching a recipe, please provide details on how
 you tried to address the problem upstream (<a class="reference internal" href="#patching"><span class="std std-ref">details</span></a>)</p></li>
 </ul>
-<div class="section" id="stable-urls">
+<section id="stable-urls">
 <span id="stable-url"></span><h3>Stable urls<a class="headerlink" href="#stable-urls" title="Permalink to this headline">¶</a></h3>
 <p>While supported by conda, <code class="docutils literal notranslate"><span class="pre">git_url</span></code> and <code class="docutils literal notranslate"><span class="pre">git_rev</span></code> are not as stable as a git
 tarball. Ideally, a github repo should have tagged releases that are accessible
@@ -178,8 +179,8 @@ as tarballs from the “releases” section of the github repo. Correspondingly,
 bitbucket repo should have have tagged versions that are accessible as tarballs
 from the “Downloads” -&gt; “tags” section of the bitbucket repo.</p>
 <p>TODO: additional info on the various R and bioconductor URLs</p>
-</div>
-<div class="section" id="hashes">
+</section>
+<section id="hashes">
 <span id="id1"></span><h3>Hashes<a class="headerlink" href="#hashes" title="Permalink to this headline">¶</a></h3>
 <p>We support either sha256 or md5 checksums to verify the integrity of the source
 package. If a checksum is provided alongside the source package, then use that.
@@ -191,21 +192,21 @@ file to compute its sha256 hash, and copy this into the recipe, for example:</p>
 </div>
 <p>Likewise use <code class="docutils literal notranslate"><span class="pre">md5sum</span></code> (Linux) or <code class="docutils literal notranslate"><span class="pre">md5</span></code> (OSX) on a file to compute its md5 hash,
 and copy this into the recipe.</p>
-</div>
-<div class="section" id="build-numbers">
+</section>
+<section id="build-numbers">
 <span id="buildnum"></span><h3>Build numbers<a class="headerlink" href="#build-numbers" title="Permalink to this headline">¶</a></h3>
 <p>The build number (see <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-build" title="(in conda-build v3.21.4+3.g3b99b222.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">docs</span></code></a>) can be
 used to trigger a new build for a package whose version has not
 changed.  This is useful for fixing errors in recipes. The first
 recipe for a new version should always have a build number of 0.</p>
-</div>
-<div class="section" id="bat-files">
+</section>
+<section id="bat-files">
 <span id="id2"></span><h3><code class="docutils literal notranslate"><span class="pre">.bat</span></code> files<a class="headerlink" href="#bat-files" title="Permalink to this headline">¶</a></h3>
 <p>When creating a recipe using one of the <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code> tools, a <code class="docutils literal notranslate"><span class="pre">.bat</span></code>
 file for Windows will be created. Since bioconda does not support Windows and
 to reduce clutter, please remove these files</p>
-</div>
-<div class="section" id="comments-in-recipes">
+</section>
+<section id="comments-in-recipes">
 <span id="comments-in-meta"></span><h3>Comments in recipes<a class="headerlink" href="#comments-in-recipes" title="Permalink to this headline">¶</a></h3>
 <p>When creating a recipe using one of the <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code> tools, often many
 comments are included, for example, to point out sections that can be
@@ -213,21 +214,21 @@ uncommented and used. Please delete all auto-generated comments in
 <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> and <code class="docutils literal notranslate"><span class="pre">build.sh</span></code>. But please add any comments that you feel could
 help future maintainers of the recipe, especially if there’s something
 non-standard.</p>
-</div>
-<div class="section" id="filesystem-hierarchy-standard">
+</section>
+<section id="filesystem-hierarchy-standard">
 <span id="fsh-section"></span><h3>Filesystem Hierarchy Standard<a class="headerlink" href="#filesystem-hierarchy-standard" title="Permalink to this headline">¶</a></h3>
 <p>Recipes should conform to the Filesystem Hierarchy Standard (<a class="reference external" href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard">FSH</a>). This is most
 important for libraries and Java packages; for these cases use one of the
 recipes below as a guideline.</p>
-</div>
-<div class="section" id="existing-package-exceptions">
+</section>
+<section id="existing-package-exceptions">
 <span id="channel-exceptions"></span><h3>Existing package exceptions<a class="headerlink" href="#existing-package-exceptions" title="Permalink to this headline">¶</a></h3>
 <p>If a package already exists in one of the dependent channels but is broken or
 cannot be used as-is, please first consider fixing the package in that channel.
 If this is not possible, please indicate this in the PR and notify
 <code class="docutils literal notranslate"><span class="pre">&#64;bioconda/core</span></code> in the PR.</p>
-</div>
-<div class="section" id="packages-appropriate-for-bioconda">
+</section>
+<section id="packages-appropriate-for-bioconda">
 <span id="appropriate-for-bioconda"></span><h3>Packages appropriate for bioconda<a class="headerlink" href="#packages-appropriate-for-bioconda" title="Permalink to this headline">¶</a></h3>
 <p>Bioconda is a bioinformatics channel, so we prefer to host packages specific to
 this domain. If a bioinformatics recipe has more general dependencies, please
@@ -238,8 +239,8 @@ related to bioinformatics.</p>
 <p>If uploading of an unreleased version is necessary, please follow the
 versioning scheme of conda for pre- and post-releases (e.g. using a, b, rc, and
 dev suffixes, see <a class="reference external" href="https://github.com/conda/conda/blob/d1348cf3eca0f78093c7c46157989509572e9c25/conda/version.py#L30">here</a>).</p>
-</div>
-<div class="section" id="noarch-packages">
+</section>
+<section id="noarch-packages">
 <span id="id3"></span><h3>“Noarch” packages<a class="headerlink" href="#noarch-packages" title="Permalink to this headline">¶</a></h3>
 <p>A <a class="reference internal" href="#id3"><span class="std std-ref">“Noarch” packages</span></a> package must be created for pure python packages. To do so,
 add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the <code class="docutils literal notranslate"><span class="pre">build</span></code> section of the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file.</p>
@@ -247,8 +248,8 @@ add <code class="docutils literal notranslate"><span class="pre">noarch:</span> 
 <dt>For other generic packages (like a data package), add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to</dt><dd><p>the <code class="docutils literal notranslate"><span class="pre">build</span></code> section.</p>
 </dd>
 </dl>
-</div>
-<div class="section" id="dependencies">
+</section>
+<section id="dependencies">
 <h3>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h3>
 <p>There is currently no mechanism to define, in the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file, that
 a particular dependency should come from a particular channel. This means that
@@ -264,8 +265,8 @@ include them in the PR. One shortcut is to use <code class="docutils literal not
 <span class="pre">&lt;dependency</span> <span class="pre">name&gt;</span></code> to look for other packages built by others. Inspecting those
 recipes can give some clues into building a version of the dependency for
 bioconda.</p>
-</div>
-<div class="section" id="test-dependencies">
+</section>
+<section id="test-dependencies">
 <span id="id4"></span><h3>Test Dependencies<a class="headerlink" href="#test-dependencies" title="Permalink to this headline">¶</a></h3>
 <p>During a Bioconda package build, the stringent <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> test
 runs the tests listed in the <code class="docutils literal notranslate"><span class="pre">test</span></code> section of the recipe’s <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>
@@ -276,8 +277,8 @@ Tests that rely on the test-time dependencies listed in <code class="docutils li
 the <code class="docutils literal notranslate"><span class="pre">run_test.sh</span></code> file in the same directory as the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file. This file is
 picked up and run by the standard build that occurs before the <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>, but is
 not passed on to and run by the <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code>.</p>
-</div>
-<div class="section" id="patching">
+</section>
+<section id="patching">
 <span id="id5"></span><h3>Patching<a class="headerlink" href="#patching" title="Permalink to this headline">¶</a></h3>
 <p>Some recipes require small patches to get the tests to pass, for example,
 fixing hard-coded shebang lines (as described at
@@ -291,9 +292,9 @@ users) might be having. Ideally, upstream would fix the issue quickly and the
 PR could be modified, but it’s fine to merge with the patches and if/when
 upstream fixes, a separate bioconda PR could be opened that pulls in those
 upstream changes.</p>
-</div>
-</div>
-<div class="section" id="python">
+</section>
+</section>
+<section id="python">
 <h2>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h2>
 <p>If a Python package is available on PyPI, use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span>
 <span class="pre">&lt;packagename&gt;</span></code> to create a recipe, then remove the <code class="docutils literal notranslate"><span class="pre">bld.bat</span></code> and any extra
@@ -338,8 +339,8 @@ following:</p>
 </div>
 <p>Alternatively, for straightforward compatibility fixes you can apply a <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-yaml" title="(in conda-build v3.21.4+3.g3b99b222.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">patch</span>
 <span class="pre">in</span> <span class="pre">the</span> <span class="pre">meta.yaml</span></code></a>.</p>
-</div>
-<div class="section" id="r-cran">
+</section>
+<section id="r-cran">
 <span id="id6"></span><h2>R (CRAN)<a class="headerlink" href="#r-cran" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -396,8 +397,8 @@ performed for R packages.</p>
 <ul class="simple">
 <li><p>recipe for R package not on CRAN, also with patch: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spp">spp</a></p></li>
 </ul>
-</div>
-<div class="section" id="r-bioconductor">
+</section>
+<section id="r-bioconductor">
 <h2>R (Bioconductor)<a class="headerlink" href="#r-bioconductor" title="Permalink to this headline">¶</a></h2>
 <p>Use the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">bioconductor-skeleton</span></code> tool to build a Bioconductor
 skeleton. After using the <a class="reference internal" href="building-locally.html#bootstrap"><span class="std std-ref">Using the “Bootstrap” Method</span></a> method to set up a testing
@@ -418,8 +419,8 @@ Bioconductor dependency; see <a class="reference internal" href="#r-cran"><span 
 <ul class="simple">
 <li><p>typical bioconductor recipe: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma">bioconductor-limma/meta.yaml</a></p></li>
 </ul>
-</div>
-<div class="section" id="r-other-sources">
+</section>
+<section id="r-other-sources">
 <h2>R (other sources)<a class="headerlink" href="#r-other-sources" title="Permalink to this headline">¶</a></h2>
 <p>If a package is only provided in a public repository (e.g. at github or
 bitbucket) or via some other website, first check with the authors of the
@@ -433,8 +434,8 @@ repository or website disappearing should be taken.</p>
 <p>Once you have obtained a <a class="reference internal" href="#stable-url"><span class="std std-ref">stable URL</span></a> to the package, follow
 the <a class="reference internal" href="#r-cran"><span class="std std-ref">guidelines for R packages on CRAN</span></a> above and adjust the URL
 and checksum accordingly.</p>
-</div>
-<div class="section" id="java">
+</section>
+<section id="java">
 <h2>Java<a class="headerlink" href="#java" title="Permalink to this headline">¶</a></h2>
 <p>Add a wrapper script if the software is typically called via <code class="docutils literal notranslate"><span class="pre">java</span> <span class="pre">-jar</span> <span class="pre">...</span></code>.
 Sometimes the software already comes with one; for example, <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc">fastqc</a>
@@ -449,8 +450,8 @@ A wrapper script should be placed here as well, and symlinked to
 <li><p>Example with added wrapper script: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker">peptide-shaker</a></p></li>
 <li><p>Example with patch to fix memory: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc">fastqc</a></p></li>
 </ul>
-</div>
-<div class="section" id="perl">
+</section>
+<section id="perl">
 <h2>Perl<a class="headerlink" href="#perl" title="Permalink to this headline">¶</a></h2>
 <p>Use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cpan</span> <span class="pre">&lt;packagename&gt;</span></code> to build a recipe for Perl and
 place the recipe in the <code class="docutils literal notranslate"><span class="pre">recipes</span></code> dir. The recipe will have the
@@ -472,8 +473,8 @@ are necessary to satisfy bioconda policies:</p>
 <li><p>the <code class="docutils literal notranslate"><span class="pre">requirements/build</span></code> keyword in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> should be changed to
 <code class="docutils literal notranslate"><span class="pre">requirements/host</span></code></p></li>
 </ul>
-</div>
-<div class="section" id="c-c">
+</section>
+<section id="c-c">
 <h2>C/C++<a class="headerlink" href="#c-c" title="Permalink to this headline">¶</a></h2>
 <p>Build tools (e.g., <code class="docutils literal notranslate"><span class="pre">autoconf</span></code>) and compilers (e.g., <code class="docutils literal notranslate"><span class="pre">gcc</span></code>) should be
 specified in the build requirements. Compilers are handled via a special macro.
@@ -531,8 +532,8 @@ other sets <code class="docutils literal notranslate"><span class="pre">BLD_PLAT
 and <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo">soapdenovo</a>
 have many fixes to makefiles</p></li>
 </ul>
-</div>
-<div class="section" id="haskell">
+</section>
+<section id="haskell">
 <h2>Haskell<a class="headerlink" href="#haskell" title="Permalink to this headline">¶</a></h2>
 <p>Bioconda has a small number of haskell tools. Most often they are built with
 <code class="docutils literal notranslate"><span class="pre">stack</span></code> (which is available on <a class="reference external" href="https://github.com/conda-forge/stack-feedstock">conda-forge</a>). <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/recipes/ngless/build.sh">NGLess</a>
@@ -546,8 +547,8 @@ fail).</p></li>
 <code class="docutils literal notranslate"><span class="pre">$HOME</span></code>.</p></li>
 </ul>
 <p>Mac OS X support is generally missing (any help is appreciated, see <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/issues/6607">#6607</a>).</p>
-</div>
-<div class="section" id="general-command-line-tools">
+</section>
+<section id="general-command-line-tools">
 <h2>General command-line tools<a class="headerlink" href="#general-command-line-tools" title="Permalink to this headline">¶</a></h2>
 <p>If a command-line tool is installed, it should be tested. If it has a
 shebang line, it should be patched to use <code class="docutils literal notranslate"><span class="pre">/usr/bin/env</span></code> for more
@@ -567,8 +568,8 @@ is piped to <code class="docutils literal notranslate"><span class="pre">/dev/nu
 will be automatically pinned to one minor version, resulting in dependency
 conflicts with other packages. See <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapsplice">mapsplice</a>
 for an example of this.</p>
-</div>
-<div class="section" id="metapackages">
+</section>
+<section id="metapackages">
 <h2>Metapackages<a class="headerlink" href="#metapackages" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://conda.pydata.org/docs/building/meta-pkg.html">Metapackages</a> tie
 together other packages. All they do is define dependencies. For example, the
@@ -581,8 +582,8 @@ calling.</p>
 <p>For packages that are not anchored to a particular package (as in the last
 example above), we recommended <a class="reference external" href="http://semver.org/">semantic versioning</a>
 starting at 1.0.0 for metapackages.</p>
-</div>
-<div class="section" id="other-examples-of-interest">
+</section>
+<section id="other-examples-of-interest">
 <h2>Other examples of interest<a class="headerlink" href="#other-examples-of-interest" title="Permalink to this headline">¶</a></h2>
 <p>Packaging is hard. Here are some examples, in no particular order, of how
 contributors have solved various problems:</p>
@@ -612,8 +613,8 @@ to alert the user if the program is not installed, along with a separate
 script (<code class="docutils literal notranslate"><span class="pre">gatk-register</span></code>) to copy in a user-supplied archive/binary to the
 conda environment</p></li>
 </ul>
-</div>
-<div class="section" id="name-collisions-identical-names">
+</section>
+<section id="name-collisions-identical-names">
 <h2>Name collisions (identical names)<a class="headerlink" href="#name-collisions-identical-names" title="Permalink to this headline">¶</a></h2>
 <p>In rare cases, a new recipe may have an identical name as an existing conda, conda-forge, bioconda, or Python package. This sort of naming collision should be avoided. For example, the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weblogo">weblogo</a>
 recipe is for the standard command-line tool. There is also a Python package
@@ -621,8 +622,8 @@ called <code class="docutils literal notranslate"><span class="pre">weblogo</spa
 we prefixed the Python package with <code class="docutils literal notranslate"><span class="pre">python-</span></code> (see <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-weblogo">python-weblogo</a>).</p>
 <p>If in doubt about how to handle a naming collision, please submit an
 issue, or ask <code class="docutils literal notranslate"><span class="pre">&#64;bioconda/core</span></code> in a PR.</p>
-</div>
-<div class="section" id="tests">
+</section>
+<section id="tests">
 <span id="id12"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
 <p>An adequate test must be included in the recipe. An “adequate” test
 depends on the recipe, but must be able to detect a successful
@@ -636,8 +637,8 @@ docs</a> for
 testing).</p>
 <p>It is recommended to pipe unneeded stdout/stderr to /dev/null to avoid
 cluttering the output in the CircleCI build environment.</p>
-</div>
-<div class="section" id="link-and-unlink-scripts-pre-and-post-install-hooks">
+</section>
+<section id="link-and-unlink-scripts-pre-and-post-install-hooks">
 <h2>Link and unlink scripts (pre- and post- install hooks)<a class="headerlink" href="#link-and-unlink-scripts-pre-and-post-install-hooks" title="Permalink to this headline">¶</a></h2>
 <p>It is possible to include <a class="reference external" href="https://docs.conda.io/projects/conda-build/en/latest/resources/link-scripts.html#adding-pre-link-post-link-and-pre-unlink-scripts">scripts</a> that are
 executed before or after installing a package, or before uninstalling
@@ -664,8 +665,8 @@ are ignored. Used for cleanup.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">$PKG_VERSION</span></code> The version of the package</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">$PKG_BUILDNUM</span></code> The build number of the package</p></li>
 </ul>
-</div>
-<div class="section" id="versions">
+</section>
+<section id="versions">
 <h2>Versions<a class="headerlink" href="#versions" title="Permalink to this headline">¶</a></h2>
 <p>In general, recipes can be updated in-place. The older package[s] will continue
 to be hosted and available on anaconda.org while the recipe will reflect just
@@ -675,8 +676,8 @@ a package built, create a subdirectory of the recipe named after the old
 version and put the recipe there. Examples of this can be found in <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie2">bowtie2</a>,
 <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bx-python">bx-python</a>,
 and others.</p>
-</div>
-</div>
+</section>
+</section>
 
 
           </div>

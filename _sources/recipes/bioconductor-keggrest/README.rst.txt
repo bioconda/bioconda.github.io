@@ -10,14 +10,14 @@ bioconductor-keggrest
    :replaces_section_title:
    :noindex:
 
-   Client\-side REST access to KEGG
+   Client\-side REST access to the Kyoto Encyclopedia of Genes and Genomes \(KEGG\)
 
    :homepage: https://bioconductor.org/packages/3.12/bioc/html/KEGGREST.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-keggrest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggrest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggrest/meta.yaml>`_
    :links: biotools: :biotools:`keggrest`, doi: :doi:`10.1007/s11845-015-1283-8`
 
-   A package that provides a client interface to the KEGG REST server. Based on KEGGSOAP by J. Zhang\, R. Gentleman\, and Marc Carlson\, and KEGG \(python package\) by Aurelien Mazurie.
+   A package that provides a client interface to the Kyoto Encyclopedia of Genes and Genomes \(KEGG\) REST server. Based on KEGGSOAP by J. Zhang\, R. Gentleman\, and Marc Carlson\, and KEGG \(python package\) by Aurelien Mazurie.
 
 
 .. conda:package:: bioconductor-keggrest
