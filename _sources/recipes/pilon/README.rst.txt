@@ -28,10 +28,10 @@ pilon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.23-3</code>,  <code>1.23-2</code>,  <code>1.23-1</code>,  <code>1.23-0</code>,  <code>1.22-1</code>,  <code>1.22-0</code>,  <code>1.20-1</code>,  <code>1.20-0</code>,  <code>1.19-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24-0</code>,  <code>1.23-3</code>,  <code>1.23-2</code>,  <code>1.23-1</code>,  <code>1.23-0</code>,  <code>1.22-1</code>,  <code>1.22-0</code>,  <code>1.20-1</code>,  <code>1.20-0</code>,  </span></summary>
       
 
-      ``1.23-3``,  ``1.23-2``,  ``1.23-1``,  ``1.23-0``,  ``1.22-1``,  ``1.22-0``,  ``1.20-1``,  ``1.20-0``,  ``1.19-0``,  ``1.18-0``,  ``1.17-0``,  ``1.16-0``
+      ``1.24-0``,  ``1.23-3``,  ``1.23-2``,  ``1.23-1``,  ``1.23-0``,  ``1.22-1``,  ``1.22-0``,  ``1.20-1``,  ``1.20-0``,  ``1.19-0``,  ``1.18-0``,  ``1.17-0``,  ``1.16-0``
 
       
       .. raw:: html

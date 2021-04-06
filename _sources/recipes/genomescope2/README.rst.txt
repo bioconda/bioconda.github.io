@@ -27,12 +27,12 @@ genomescope2
       
       
 
-      ``2.0-1``,  ``2.0-0``
+      ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
-   :depends python: ``>=3.2``
+   :depends python: ``>=3.6``
    :depends r-argparse: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-minpack.lm: 

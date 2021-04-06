@@ -28,7 +28,7 @@ zga
       
       
 
-      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``
+      ``0.0.9.post2-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``
 
       
 
@@ -37,7 +37,7 @@ zga
    :depends biopython: ``<=1.77``
    :depends blast: 
    :depends checkm-genome: ``>=1.1.0``
-   :depends dfast: 
+   :depends dfast: ``>=1.2.12``
    :depends fastp: 
    :depends flye: ``>=2.6``
    :depends mash: ``>=2``

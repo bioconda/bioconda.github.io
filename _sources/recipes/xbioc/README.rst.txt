@@ -27,7 +27,7 @@ xbioc
       
       
 
-      ``0.1.18-2``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.16-0``
+      ``0.1.19-0``,  ``0.1.18-2``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.16-0``
 
       
 
@@ -37,6 +37,7 @@ xbioc
    :depends r-assertthat: 
    :depends r-base: ``>=4.0,<4.1.0a0``
    :depends r-biocmanager: 
+   :depends r-checkmate: 
    :depends r-digest: 
    :depends r-pkgmaker: ``>=0.26.6``
    :depends r-plyr: 

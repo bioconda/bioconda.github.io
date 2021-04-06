@@ -28,10 +28,10 @@ r-aroma.core
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.3-2</code>,  <code>3.1.3-1</code>,  <code>3.1.3-0</code>,  <code>3.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.2-0</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.3-2</code>,  <code>3.1.3-1</code>,  <code>3.1.3-0</code>,  </span></summary>
       
 
-      ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.1-0``,  ``3.0.0-0``
+      ``3.2.2-0``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.1-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -44,15 +44,15 @@ r-aroma.core
    :depends r-biocmanager: 
    :depends r-future: 
    :depends r-listenv: 
-   :depends r-matrixstats: ``>=0.55.0``
+   :depends r-matrixstats: ``>=0.57.0``
    :depends r-pscbs: ``>=0.65.0``
    :depends r-r.cache: ``>=0.14.0``
-   :depends r-r.devices: ``>=2.16.0``
-   :depends r-r.filesets: ``>=2.13.0``
-   :depends r-r.methodss3: ``>=1.7.1``
-   :depends r-r.oo: ``>=1.23.0``
-   :depends r-r.rsp: ``>=0.43.2``
-   :depends r-r.utils: ``>=2.9.0``
+   :depends r-r.devices: ``>=2.16.1``
+   :depends r-r.filesets: ``>=2.14.0``
+   :depends r-r.methodss3: ``>=1.8.1``
+   :depends r-r.oo: ``>=1.24.0``
+   :depends r-r.rsp: ``>=0.44.0``
+   :depends r-r.utils: ``>=2.10.1``
    :depends r-rcolorbrewer: ``>=1.1_2``
    :requirements:
 
