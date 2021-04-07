@@ -28,7 +28,7 @@ mapseq
       
       
 
-      ``1.2.6-0``
+      ``1.2.6-1``,  ``1.2.6-0``
 
       
 
@@ -36,9 +36,9 @@ mapseq
    :depends blis: 
    :depends curl: 
    :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libopenblas: ``>=0.3.13,<1.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends ncurses: ``>=6.2,<6.3.0a0``
    :depends openssl: ``>=1.1.1k,<1.1.2a``
    :depends readline: ``>=8.0,<9.0a0``

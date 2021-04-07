@@ -28,12 +28,12 @@ megan
       
       
 
-      ``6.12.3-0``
+      ``6.21.2-0``,  ``6.12.3-0``
 
       
 
    
-   :depends openjdk: ``>=8.0.144``
+   :depends openjdk: ``>=11``
    :requirements:
 
    .. rubric:: Installation

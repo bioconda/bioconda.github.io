@@ -27,7 +27,7 @@ cami-opal
       
       
 
-      ``1.0.9-0``,  ``1.0.8.post0-0``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8.post0-0``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -39,7 +39,7 @@ cami-opal
    :depends matplotlib-base: ``>=3.1.1``
    :depends numpy: ``>=1.16.4``
    :depends pandas: ``>=0.24.2``
-   :depends python: ``>=3.6``
+   :depends python: ``3.7``
    :depends scikit-bio: ``>=0.5.5``
    :depends seaborn: ``>=0.9.0``
    :requirements:

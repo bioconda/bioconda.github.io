@@ -13,7 +13,7 @@ constax
    A software for accurate taxonomic classification of environmental DNA markers
 
    :homepage: https://github.com/liberjul/CONSTAXv2
-   :documentation: https://constax.readthedocs.io/en/stable/
+   :documentation: https://constax.readthedocs.io/en/latest/
    
    :license: MIT
    :recipe: /`constax <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/constax>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/constax/meta.yaml>`_
@@ -30,10 +30,10 @@ constax
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.8-0</code>,  <code>2.0.7-2</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.9-0</code>,  <code>2.0.8-1</code>,  <code>2.0.8-0</code>,  <code>2.0.7-2</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-1</code>,  </span></summary>
       
 
-      ``2.0.8-0``,  ``2.0.7-2``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-2``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ constax
       
 
    
-   :depends blast: ``>=2.10``
+   :depends blast: 
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.6``

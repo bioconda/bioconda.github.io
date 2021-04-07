@@ -12,9 +12,9 @@ r-basejump
 
    Base functions for bioinformatics and R package development.
 
-   :homepage: https://basejump.acidgenomics.com/
-   :developer docs: https://github.com/acidgenomics/basejump
-   :license: GPL / GPL-3.0
+   :homepage: https://r.acidgenomics.com/packages/basejump/
+   :developer docs: https://github.com/acidgenomics/r-basejump
+   :license: GPL / AGPL-3.0
    :recipe: /`r-basejump <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-basejump>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-basejump/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-basejump
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.4-0</code>,  <code>0.13.2-0</code>,  <code>0.12.16-0</code>,  <code>0.12.15-0</code>,  <code>0.12.14-0</code>,  <code>0.12.13-0</code>,  <code>0.12.10-0</code>,  <code>0.12.9-0</code>,  <code>0.12.8-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.17-0</code>,  <code>0.13.4-0</code>,  <code>0.13.2-0</code>,  <code>0.12.16-0</code>,  <code>0.12.15-0</code>,  <code>0.12.14-0</code>,  <code>0.12.13-0</code>,  <code>0.12.10-0</code>,  <code>0.12.9-0</code>,  </span></summary>
       
 
-      ``0.13.4-0``,  ``0.13.2-0``,  ``0.12.16-0``,  ``0.12.15-0``,  ``0.12.14-0``,  ``0.12.13-0``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-1``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.23-0``,  ``0.11.22-0``,  ``0.11.21-0``,  ``0.11.20-1``,  ``0.11.20-0``,  ``0.11.19-0``,  ``0.11.18-0``,  ``0.11.17-0``,  ``0.11.16-0``,  ``0.11.15-0``,  ``0.11.14-0``,  ``0.11.13-0``,  ``0.11.12-0``,  ``0.11.11-0``,  ``0.11.10-0``,  ``0.11.8-0``,  ``0.11.7-0``,  ``0.11.5-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.9.11-0``,  ``0.9.9-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.5.9-0``,  ``0.5.3-0``,  ``0.1.1-0``
+      ``0.14.17-0``,  ``0.13.4-0``,  ``0.13.2-0``,  ``0.12.16-0``,  ``0.12.15-0``,  ``0.12.14-0``,  ``0.12.13-0``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-1``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.23-0``,  ``0.11.22-0``,  ``0.11.21-0``,  ``0.11.20-1``,  ``0.11.20-0``,  ``0.11.19-0``,  ``0.11.18-0``,  ``0.11.17-0``,  ``0.11.16-0``,  ``0.11.15-0``,  ``0.11.14-0``,  ``0.11.13-0``,  ``0.11.12-0``,  ``0.11.11-0``,  ``0.11.10-0``,  ``0.11.8-0``,  ``0.11.7-0``,  ``0.11.5-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.9.11-0``,  ``0.9.9-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.5.9-0``,  ``0.5.3-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,32 +41,19 @@ r-basejump
       
 
    
-   :depends bioconductor-biobase: 
-   :depends bioconductor-biocgenerics: 
-   :depends bioconductor-biostrings: 
-   :depends bioconductor-genomicranges: 
-   :depends bioconductor-iranges: 
-   :depends bioconductor-s4vectors: 
-   :depends bioconductor-singlecellexperiment: 
-   :depends bioconductor-summarizedexperiment: 
-   :depends r-acidbase: ``>=0.2.4``
-   :depends r-acidgenerics: ``>=0.4.1``
-   :depends r-acidgenomes: ``>=0.1.1``
-   :depends r-acidplyr: ``>=0.1.4``
+   :depends r-acidbase: ``>=0.3.13``
+   :depends r-acidcli: ``>=0.1.0``
+   :depends r-acidexperiment: ``>=0.1.10``
+   :depends r-acidgenerics: ``>=0.5.17``
+   :depends r-acidgenomes: ``>=0.2.9``
+   :depends r-acidmarkdown: ``>=0.1.1``
+   :depends r-acidplyr: ``>=0.1.17``
+   :depends r-acidsinglecell: ``>=0.1.7``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-cli: ``>=2.2``
-   :depends r-goalie: ``>=0.4.11``
-   :depends r-knitr: 
    :depends r-magrittr: ``>=2.0``
-   :depends r-matrix: ``>=1.2``
-   :depends r-matrixstats: ``>=0.57``
-   :depends r-pipette: ``>=0.4.19``
-   :depends r-rmarkdown: 
-   :depends r-scales: ``>=1.1``
-   :depends r-sessioninfo: ``>=1.1``
+   :depends r-pipette: ``>=0.5.13``
    :depends r-stringr: ``>=1.4``
-   :depends r-syntactic: ``>=0.4.3``
-   :depends r-tibble: ``>=3.0``
+   :depends r-syntactic: ``>=0.4.4``
    :requirements:
 
    .. rubric:: Installation
