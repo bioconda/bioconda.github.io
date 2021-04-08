@@ -27,16 +27,25 @@ referenceseeker
    :versions:
       
       
+      .. raw:: html
 
-      ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.7.1-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6-0</code>,  <code>1.5-0</code>,  <code>1.4-0</code>,  <code>1.3-0</code>,  </span></summary>
+      
 
+      ``1.7.1-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biopython: ``>=1.71``
-   :depends mash: ``>=2.1.0``
+   :depends biopython: ``>=1.78``
+   :depends mash: ``>=2.3.0``
    :depends mummer4: ``>=4.0.0beta2``
    :depends python: ``>=3``
+   :depends xopen: ``>=1.1.0``
    :requirements:
 
    .. rubric:: Installation

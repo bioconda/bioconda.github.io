@@ -15,7 +15,7 @@ braker2
    :homepage: https://github.com/Gaius-Augustus/BRAKER
    :license: Other / Artistic License
    :recipe: /`braker2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/braker2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/braker2/meta.yaml>`_
-   :links: doi: :doi:`10.13140/RG.2.2.12857.62564`
+   :links: doi: :doi:`10.1093/nargab/lqaa108`
 
    BRAKER2 is an extension of BRAKER1 which allows for fully automated training of the gene prediction tools GeneMark\-EX and AUGUSTUS from RNA\-Seq and\/or protein homology information\, and that integrates the extrinsic evidence from RNA\-Seq and protein homology information into the prediction.
 
@@ -29,10 +29,10 @@ braker2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.6-1</code>,  <code>2.1.6-0</code>,  <code>2.1.5-3</code>,  <code>2.1.5-2</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.6-2</code>,  <code>2.1.6-1</code>,  <code>2.1.6-0</code>,  <code>2.1.5-3</code>,  <code>2.1.5-2</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  </span></summary>
       
 
-      ``2.1.6-1``,  ``2.1.6-0``,  ``2.1.5-3``,  ``2.1.5-2``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
+      ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``,  ``2.1.5-3``,  ``2.1.5-2``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
 
       
       .. raw:: html

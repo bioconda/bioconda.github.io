@@ -10,7 +10,7 @@ dadaist2-full
    :replaces_section_title:
    :noindex:
 
-   Meta\-package for Dadaist2 with full R packages\, VSEARCH and MultiQC
+   Meta\-package for Dadaist2 with full R packages\, VSEARCH\, CD\-HIT and MultiQC
 
    :homepage: 
    :license: The license for this meta-package is MIT; individual tools vary
@@ -27,11 +27,12 @@ dadaist2-full
       
       
 
-      ``0.7-1``,  ``0.7-0``
+      ``1.0-0``,  ``0.7-1``,  ``0.7-0``
 
       
 
    
+   :depends cd-hit: 
    :depends dadaist2: 
    :depends multiqc: 
    :depends r-ade4: 

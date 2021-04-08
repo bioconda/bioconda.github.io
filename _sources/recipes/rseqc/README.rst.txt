@@ -29,10 +29,10 @@ rseqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-3</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.6.4-2</code>,  <code>2.6.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-3</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.6.4-2</code>,  </span></summary>
       
 
-      ``4.0.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
+      ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ rseqc
 
    
    :depends bx-python: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: 
    :depends pip: 
    :depends pybigwig: 

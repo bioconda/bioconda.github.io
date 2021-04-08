@@ -32,7 +32,7 @@ tritimap
       
       
 
-      ``0.9.0-0``
+      ``0.9.1-0``,  ``0.9.0-0``
 
       
 
@@ -41,6 +41,7 @@ tritimap
    :depends bedops: ``2.4.39.*``
    :depends bioawk: 
    :depends biopython: 
+   :depends blast: ``>=2.5.0``
    :depends bwa: ``0.7.17.*``
    :depends bwa-mem2: ``2.2.1.*``
    :depends click: ``>=7``

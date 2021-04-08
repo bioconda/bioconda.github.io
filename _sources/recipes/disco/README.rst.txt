@@ -27,16 +27,19 @@ disco
       
       
 
-      ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bbmap: 
    :depends biopython: 
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends openmpi: ``>=1.8``
-   :depends openmpi: ``>=3.1,<3.2.0a0``
+   :depends openmpi: ``>=4.1.0,<5.0a0``
+   :depends openssh: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
