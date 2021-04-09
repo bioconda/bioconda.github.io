@@ -26,9 +26,17 @@ plasmidid
    :versions:
       
       
+      .. raw:: html
 
-      ``1.6.4-2``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.5.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.6.4-3</code>,  <code>1.6.4-2</code>,  <code>1.6.4-1</code>,  <code>1.6.4-0</code>,  <code>1.6.3-2</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+      
 
+      ``1.6.4-3``,  ``1.6.4-2``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.5.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -42,6 +50,7 @@ plasmidid
    :depends mash: ``>=2``
    :depends numpy: 
    :depends pandas: 
+   :depends perl-gd: ``>=2.71``
    :depends prokka: ``>=1.14``
    :depends python: ``>=3.6``
    :depends samtools: 

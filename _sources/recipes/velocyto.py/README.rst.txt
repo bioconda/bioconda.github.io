@@ -28,18 +28,19 @@ velocyto.py
       
       
 
-      ``0.17.17-2``,  ``0.17.17-1``,  ``0.17.17-0``
+      ``0.17.17-3``,  ``0.17.17-2``,  ``0.17.17-1``,  ``0.17.17-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends click: 
    :depends h5py: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends loompy: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numba: 
-   :depends numpy: ``>=1.16.5,<2.0a0``
+   :depends numpy: ``>=1.17.5,<2.0a0``
    :depends pandas: 
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``

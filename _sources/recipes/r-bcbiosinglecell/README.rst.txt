@@ -29,10 +29,10 @@ r-bcbiosinglecell
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.13-0</code>,  <code>0.4.12-1</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-1</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.16-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-1</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-1</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.7-0</code>,  </span></summary>
       
 
-      ``0.4.13-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-1``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
+      ``0.4.16-0``,  ``0.4.13-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-1``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
 
       
       .. raw:: html
@@ -41,29 +41,16 @@ r-bcbiosinglecell
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.32``
-   :depends bioconductor-biocparallel: ``>=1.20``
-   :depends bioconductor-biocstyle: ``>=2.14``
-   :depends bioconductor-iranges: ``>=2.20``
-   :depends bioconductor-s4vectors: ``>=0.24``
-   :depends bioconductor-singlecellexperiment: ``>=1.8``
-   :depends bioconductor-summarizedexperiment: ``>=1.16``
-   :depends r-acidgenerics: ``>=0.3.4``
-   :depends r-acidplots: ``>=0.2.23``
+   :depends bioconductor-biocparallel: ``>=1.24``
+   :depends r-acidgenerics: ``>=0.5.17``
+   :depends r-acidplots: ``>=0.3.5``
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-basejump: ``>=0.12.2``
-   :depends r-bcbiobase: ``>=0.6.13``
-   :depends r-cli: ``>=2.0``
-   :depends r-ggplot2: ``>=3.2``
+   :depends r-basejump: ``>=0.14.17``
+   :depends r-bcbiobase: ``>=0.6.21``
+   :depends r-ggplot2: ``>=3.3``
    :depends r-ggridges: ``>=0.5``
-   :depends r-goalie: ``>=0.4.2``
-   :depends r-knitr: ``>=1.27``
-   :depends r-r.utils: ``>=2.9``
-   :depends r-rlang: ``>=0.4``
+   :depends r-goalie: ``>=0.5.1``
    :depends r-rmarkdown: ``>=2.0``
-   :depends r-sessioninfo: ``>=1.1``
-   :depends r-stringr: ``>=1.4``
-   :depends r-tidyverse: ``>=1.3``
    :requirements:
 
    .. rubric:: Installation

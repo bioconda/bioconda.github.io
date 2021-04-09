@@ -27,16 +27,16 @@ varifier
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends biopython: 
-   :depends cluster_vcf_records: 
+   :depends cluster_vcf_records: ``>=0.13.2``
    :depends mappy: ``>=2.17``
    :depends minimap2: ``>=2.17``
-   :depends mummer: 
+   :depends mummer4: 
    :depends pandas: 
    :depends pyfastaq: ``>=3.14.0``
    :depends pymummer: 
