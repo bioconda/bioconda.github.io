@@ -28,10 +28,10 @@ mikado
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  </span></summary>
       
 
-      ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -41,33 +41,30 @@ mikado
 
    
    :depends biopython: ``>=1.78``
-   :depends dataclasses: 
    :depends datrie: ``>=0.8``
-   :depends docutils: 
    :depends drmaa: 
    :depends hypothesis: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends marshmallow: ``>=3.1.0``
    :depends marshmallow-dataclass: ``>=8.3.1``
    :depends msgpack-python: ``>=1.0.0``
    :depends networkx: ``>=2.3``
-   :depends numpy: ``>=1.17.2``
+   :depends numpy: ``>=1.17.5,<2.0a0``
    :depends pandas: ``>=1.0``
-   :depends pip: 
    :depends pyfaidx: ``>=0.5.8``
    :depends pysam: ``>=0.15.3``
-   :depends pytest: ``>=5.4.1``
-   :depends python: ``>=3.6,<3.7.0a0``
+   :depends pytest: 
+   :depends python: ``>=3.7,<3.8.0a0``
    :depends python-rapidjson: ``>=1.0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends pyyaml: ``>=5.1.2``
-   :depends scipy: ``>=1.3.1``
+   :depends scipy: ``>=1.6.2,<2.0a0``
    :depends six: ``>=1.12.0``
    :depends snakemake: ``>=5.7.0``
    :depends sqlalchemy: ``>=1.3.9,<1.4.0``
    :depends sqlalchemy-utils: ``>=0.34.1``
-   :depends sqlite: ``>=3.35.2,<4.0a0``
+   :depends sqlite: ``>=3.35.4,<4.0a0``
    :depends tabulate: ``>=0.8.5``
    :depends toml: ``>=0.10.0``
    :depends typeguard: ``>=2.9.1``

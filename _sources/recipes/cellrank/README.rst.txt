@@ -10,7 +10,7 @@ cellrank
    :replaces_section_title:
    :noindex:
 
-   Continuous Lineage Decisions Uncovered by RNA Velocity
+   CellRank for directed single\-cell fate mapping
 
    :homepage: https://github.com/theislab/cellrank
    :documentation: https://cellrank.org
@@ -18,10 +18,9 @@ cellrank
    :license: BSD
    :recipe: /`cellrank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellrank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellrank/meta.yaml>`_
 
-   CellRank is a toolkit to uncover cellular dynamics based on scRNA\-seq data with RNA velocity annotation\,
-   see La Manno et al. \(2018\) and Bergen et al. \(2020\). CellRank models cellular dynamics as a Markov chain\,
-   where transition probabilities are computed based on RNA velocity and transcriptomic similarity\,
-   taking into account uncertainty in the velocities.
+   CellRank is a toolkit to uncover cellular dynamics based on Markov state modeling of single\-cell data.
+   It contains two main modules\: kernels compute cell\-cell transition probabilities and
+   estimators generate hypothesis based on these.
 
 
 
@@ -34,10 +33,10 @@ cellrank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  <code>1.0.0rc7-0</code>,  <code>1.0.0rc6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  <code>1.0.0rc7-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
+      ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
 
       
       .. raw:: html
@@ -54,10 +53,10 @@ cellrank
    :depends matplotlib-base: ``>=3.3.0``
    :depends networkx: ``>=2.2``
    :depends numba: ``>=0.51.0``
-   :depends numpy: ``>=1.19.1``
-   :depends pandas: ``>=1.0.0``
+   :depends numpy: ``>=1.2.0``
+   :depends pandas: ``>=1.2.0``
    :depends pygam: ``>=0.8.0``
-   :depends pygpcca: ``>=1.0.0``
+   :depends pygpcca: ``>=1.0.2``
    :depends python: ``>=3.6``
    :depends scanpy: ``>=1.6.0``
    :depends scikit-learn: ``>=0.21.3``
@@ -65,6 +64,7 @@ cellrank
    :depends scvelo: ``>=0.2.2``
    :depends seaborn: ``>=0.10.0``
    :depends setuptools: ``>=41.0.1``
+   :depends typing_extensions: 
    :depends tzlocal: ``>=1.5.1``
    :depends wrapt: ``>=1.12.1``
    :requirements:
@@ -104,10 +104,10 @@ cellrank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  <code>1.0.0rc7-0</code>,  <code>1.0.0rc6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  <code>1.0.0rc7-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
+      ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ cellrank
       
 
    
-   :depends cellrank: ``1.2.0 py_0``
+   :depends cellrank: ``1.3.1 pyhdfd78af_0``
    :depends mpi4py: ``>=3.0.3``
    :depends openmpi: ``>=3.0.3``
    :depends petsc: ``>=3.13.0``

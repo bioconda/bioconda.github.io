@@ -27,7 +27,7 @@ rnaquast
       
       
 
-      ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``
+      ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.1-0``
 
       
 
@@ -37,7 +37,7 @@ rnaquast
    :depends busco: ``>=4``
    :depends emboss: 
    :depends gffutils: 
-   :depends gmap: 
+   :depends gmap: ``<2021.02.22``
    :depends joblib: 
    :depends matplotlib-base: 
    :depends python: 
