@@ -28,20 +28,19 @@ gromacs_mpi
       
       
 
-      ``2021-0``
+      ``2021-1``,  ``2021-0``
 
       
 
    
    :depends fftw: ``>=3.3.9,<4.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends libhwloc: ``2.*``
    :depends libhwloc: ``>=2.4.1,<2.4.2.0a0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends ocl-icd: ``>=2.2.14,<3.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends mpich: ``>=3.4.1,<4.0a0``
+   :depends ocl-icd: ``>=2.3.0,<3.0a0``
    :depends openmp: 
-   :depends openmpi: ``>=4.0.5,<4.1.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
    .. rubric:: Installation

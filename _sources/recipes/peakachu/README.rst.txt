@@ -27,25 +27,25 @@ peakachu
       
       
 
-      ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends bcbiogff: 
-   :depends bioconductor-deseq2: ``1.18.1.*``
+   :depends bcbiogff: ``>=0.6.6``
+   :depends bioconductor-deseq2: ``>=1.18.1``
    :depends bioconductor-edger: 
-   :depends biopython: 
+   :depends biopython: ``>=1.77``
    :depends blockbuster: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends matplotlib: 
-   :depends numexpr: 
-   :depends pandas: 
-   :depends pysam: 
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends matplotlib-base: ``>=3.3.1``
+   :depends numexpr: ``>=2.7.0``
+   :depends pandas: ``>=0.25.1``
+   :depends pysam: ``>=0.16.0.1``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends rpy2: 
-   :depends statsmodels: 
+   :depends statsmodels: ``>=0.10.1``
    :requirements:
 
    .. rubric:: Installation

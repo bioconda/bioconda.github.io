@@ -29,7 +29,7 @@ immuneml
       
       
 
-      ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
+      ``1.2.4-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
 
       
 
@@ -38,7 +38,7 @@ immuneml
    :depends dill: ``>=0.3``
    :depends editdistance: ``0.5.3``
    :depends fishersapi: 
-   :depends gensim: ``>=3.8``
+   :depends gensim: ``>=3.8,<4``
    :depends h5py: ``>=2.9.0``
    :depends logomaker: ``>=0.8``
    :depends matplotlib-base: ``>=3.1``

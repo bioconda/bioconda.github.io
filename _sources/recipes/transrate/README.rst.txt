@@ -28,15 +28,16 @@ transrate
       
       
 
-      ``1.0.3-0``
+      ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
    :depends blast: 
-   :depends libgcc-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends rb-bundler: 
    :depends ruby: ``>=2``
-   :depends ruby: ``>=2.6.5,<2.7.0a0``
+   :depends ruby: ``>=2.5.7,<2.6.0a0``
    :depends salmon: ``0.6.*``
    :depends snap: 
    :depends transrate-tools: 
