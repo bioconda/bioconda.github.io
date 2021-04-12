@@ -27,37 +27,27 @@ r-dartr
       
       
 
-      ``1.1.11-2``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0-0``
+      ``1.9.4-0``,  ``1.1.11-2``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0-0``
 
       
 
    
-   :depends bioconductor-qvalue: 
    :depends bioconductor-snprelate: 
    :depends r-adegenet: ``>=2.0.0``
    :depends r-ape: 
    :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-data.table: 
-   :depends r-directlabels: 
-   :depends r-dismo: 
-   :depends r-doparallel: 
+   :depends r-crayon: 
+   :depends r-devtools: 
+   :depends r-dplyr: 
    :depends r-foreach: 
-   :depends r-gdistance: 
    :depends r-ggplot2: 
+   :depends r-gridextra: 
+   :depends r-hardyweinberg: 
    :depends r-hierfstat: 
-   :depends r-igraph: 
-   :depends r-leaflet: 
    :depends r-mass: 
-   :depends r-mmod: 
-   :depends r-pca3d: 
-   :depends r-pegas: 
    :depends r-plyr: 
    :depends r-popgenreport: 
-   :depends r-reshape2: 
-   :depends r-rgdal: 
-   :depends r-rrblup: 
-   :depends r-seqinr: 
-   :depends r-snpassoc: 
+   :depends r-robustbase: 
    :depends r-sp: 
    :depends r-stampp: 
    :depends r-stringr: 

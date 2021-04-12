@@ -27,7 +27,7 @@ hits
       
       
 
-      ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+      ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
 
       
 
@@ -36,8 +36,8 @@ hits
    :depends bokeh: ``>=1.0.4``
    :depends ipython: ``>=7.8.0``
    :depends ipywidgets: ``>=7.4.2``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends matplotlib: ``>=3.0.2``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends matplotlib-base: ``>=3.0.2``
    :depends numpy: ``>=1.15.4``
    :depends pandas: ``>=0.23.4``
    :depends pillow: ``>=5.3.0``
