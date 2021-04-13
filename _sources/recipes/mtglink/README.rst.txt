@@ -27,7 +27,7 @@ mtglink
       
       
 
-      ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.0-2``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -36,7 +36,7 @@ mtglink
    :depends blast: 
    :depends gfapy: 
    :depends indexed_gzip: 
-   :depends lrez: 
+   :depends lrez: ``1.1.*``
    :depends mindthegap: 
    :depends mummer: 
    :depends pathos: 

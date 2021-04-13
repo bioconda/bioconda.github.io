@@ -208,9 +208,9 @@
     <span class="n">is_noarch</span> <span class="o">=</span> <span class="nb">bool</span><span class="p">(</span><span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;build/noarch&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
     <span class="n">use_base_image</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;extra/container&#39;</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;extended-base&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">use_base_image</span><span class="p">:</span>
-        <span class="n">base_image</span> <span class="o">=</span> <span class="s1">&#39;quay.io/bioconda/base-glibc-debian-bash:2.0.0&#39;</span>
+        <span class="n">base_image</span> <span class="o">=</span> <span class="s1">&#39;quay.io/bioconda/base-glibc-debian-bash:2.1.0&#39;</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="n">base_image</span> <span class="o">=</span> <span class="s1">&#39;quay.io/bioconda/base-glibc-busybox-bash:2.0.0&#39;</span>
+        <span class="n">base_image</span> <span class="o">=</span> <span class="s1">&#39;quay.io/bioconda/base-glibc-busybox-bash:2.1.0&#39;</span>
 
     <span class="k">try</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">docker_builder</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>

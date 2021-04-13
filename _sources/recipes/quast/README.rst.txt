@@ -29,10 +29,10 @@ quast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.2-3</code>,  <code>5.0.2-2</code>,  <code>5.0.2-1</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.6.3-2</code>,  <code>4.6.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.2-4</code>,  <code>5.0.2-3</code>,  <code>5.0.2-2</code>,  <code>5.0.2-1</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.6.3-2</code>,  </span></summary>
       
 
-      ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.6.3-2``,  ``4.6.3-1``,  ``4.6.3-0``,  ``4.6.1-0``,  ``4.5-1``,  ``4.4-1``,  ``4.4-0``,  ``4.3-2``,  ``4.3-1``,  ``4.1-1``,  ``4.1-0``,  ``3.2-1``
+      ``5.0.2-4``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.6.3-2``,  ``4.6.3-1``,  ``4.6.3-0``,  ``4.6.1-0``,  ``4.5-1``,  ``4.4-1``,  ``4.4-0``,  ``4.3-2``,  ``4.3-1``,  ``4.1-1``,  ``4.1-0``,  ``3.2-1``
 
       
       .. raw:: html
@@ -45,12 +45,13 @@ quast
    :depends circos: 
    :depends glimmerhmm: 
    :depends joblib: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends matplotlib-base: 
    :depends minimap2: ``>=2.10``
    :depends openjdk: ``>=8``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends simplejson: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

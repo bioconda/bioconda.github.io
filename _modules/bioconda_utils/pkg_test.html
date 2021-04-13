@@ -121,7 +121,7 @@
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
 
 <span class="c1"># TODO: Make this configurable in bioconda_utils.build and bioconda_utils.cli.</span>
-<span class="n">MULLED_CONDA_IMAGE</span> <span class="o">=</span> <span class="s2">&quot;quay.io/bioconda/create-env:1.0.2&quot;</span>
+<span class="n">MULLED_CONDA_IMAGE</span> <span class="o">=</span> <span class="s2">&quot;quay.io/bioconda/create-env:2.0.0&quot;</span>
 
 
 <div class="viewcode-block" id="get_tests"><a class="viewcode-back" href="../../developer/_autosummary/bioconda_utils.pkg_test.html#bioconda_utils.pkg_test.get_tests">[docs]</a><span class="k">def</span> <span class="nf">get_tests</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
@@ -131,7 +131,10 @@
     <span class="n">t</span><span class="o">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
     <span class="n">input_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tmp</span><span class="p">,</span> <span class="s1">&#39;info&#39;</span><span class="p">,</span> <span class="s1">&#39;recipe&#39;</span><span class="p">)</span>
 
-    <span class="n">tests</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">tests</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s1">&#39;/usr/local/env-execute true&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;. /usr/local/env-activate.sh&#39;</span><span class="p">,</span>
+    <span class="p">]</span>
     <span class="n">recipe_meta</span> <span class="o">=</span> <span class="n">MetaData</span><span class="p">(</span><span class="n">input_dir</span><span class="p">)</span>
 
     <span class="n">tests_commands</span> <span class="o">=</span> <span class="n">recipe_meta</span><span class="o">.</span><span class="n">get_value</span><span class="p">(</span><span class="s1">&#39;test/commands&#39;</span><span class="p">)</span>
