@@ -27,18 +27,17 @@ merqury
       
       
 
-      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
+      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
 
       
 
    
    :depends bedtools: ``>=2.29.2``
-   :depends fonts-conda-ecosystem: 
    :depends igvtools: ``>=2.5.3``
    :depends meryl: ``>=v1.0,<2000``
    :depends openjdk: ``>=11.0.1``
    :depends r-argparse: ``>=2.0.1``
-   :depends r-base: 
+   :depends r-base: ``>=4``
    :depends r-ggplot2: ``>=3.3.2``
    :depends r-scales: ``>=1.1.1``
    :depends samtools: ``>=1.10``
