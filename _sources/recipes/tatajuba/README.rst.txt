@@ -10,7 +10,7 @@ tatajuba
    :replaces_section_title:
    :noindex:
 
-   Identification and classification of homopolymeric tracts from reads \(EXPERIMENTAL\)
+   Identification and classification of homopolymeric tracts from reads
 
    :homepage: https://github.com/quadram-institute-bioscience/tatajuba
    :license: GPLv3
@@ -28,11 +28,12 @@ tatajuba
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends xz: ``>=5.2.5,<5.3.0a0``

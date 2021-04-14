@@ -42,15 +42,17 @@ bioservices
    
    :depends appdirs: 
    :depends beautifulsoup4: 
+   :depends colorlog: 
    :depends easydev: ``>=0.9.36``
    :depends grequests: 
-   :depends numpydoc: 
+   :depends lxml: 
    :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends requests: 
-   :depends requests-cache: 
+   :depends requests_cache: 
    :depends suds-jurko: 
    :depends wrapt: 
+   :depends xmltodict: 
    :requirements:
 
    .. rubric:: Installation

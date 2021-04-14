@@ -28,14 +28,13 @@ chromeister
       
       
 
-      ``1.5.a-1``,  ``1.5.a-0``,  ``1.4-0``,  ``1.3.c-0``,  ``1.2-0``,  ``1.1.c-0``,  ``1.1.b-0``,  ``1.1.a-0``
+      ``1.5.a-2``,  ``1.5.a-1``,  ``1.5.a-0``,  ``1.4-0``,  ``1.3.c-0``,  ``1.2-0``,  ``1.1.c-0``,  ``1.1.b-0``,  ``1.1.a-0``
 
       
 
    
    :depends cycler: 
    :depends kiwisolver: 
-   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: 
    :depends opencv: 
    :depends pillow: 
