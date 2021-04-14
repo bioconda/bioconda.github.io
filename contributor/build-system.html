@@ -4,8 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Build system &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
@@ -124,7 +123,7 @@
 
           <div class="body" role="main">
             
-  <section id="build-system">
+  <div class="section" id="build-system">
 <h1>Build system<a class="headerlink" href="#build-system" title="Permalink to this headline">¶</a></h1>
 <p>The build system for Bioconda takes recipes and converts them into conda
 packages that are uploaded to anaconda.org as well as Docker containers that
@@ -142,7 +141,7 @@ to (one day!) make it general enough that others can use the framework for
 their own specific channels. So there are a lot of moving parts that have to be
 coordinated, resulting in a complex system. That said, we do have some room to
 simplify, and do so where we can.</p>
-<section id="stages-of-a-bioconda-build">
+<div class="section" id="stages-of-a-bioconda-build">
 <h2>Stages of a bioconda build<a class="headerlink" href="#stages-of-a-bioconda-build" title="Permalink to this headline">¶</a></h2>
 <p>A GitHub pull request, or any pushed changes to a GitHub pull request, triggers
 a new build on CircleCI. One build can contain mulitple recipes, limited only
@@ -156,7 +155,7 @@ local system. This container is defined by <a class="reference external" href="h
 <p>Otherwise, when running on CircleCI, a new Linux or MacOS VM is created for
 each build.</p>
 <p>The steps are orchestrated by the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">circleci config file</a>.</p>
-<section id="configure-the-environment">
+<div class="section" id="configure-the-environment">
 <h3>Configure the environment<a class="headerlink" href="#configure-the-environment" title="Permalink to this headline">¶</a></h3>
 <ul>
 <li><dl class="simple">
@@ -268,9 +267,9 @@ can be merged into the master branch</p></li>
 <p>As soon as the package is uploaded to anaconda.org, it is available for
 installing via <code class="docutils literal notranslate"><span class="pre">conda</span></code>. As soon as the BusyBox container is uploaded to
 quay.io, it is available for use via <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">pull</span></code>.</p>
-</section>
-</section>
-<section id="the-bulk-branch">
+</div>
+</div>
+<div class="section" id="the-bulk-branch">
 <h2>The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch<a class="headerlink" href="#the-bulk-branch" title="Permalink to this headline">¶</a></h2>
 <p>Periodically, large-scale maintenance needs to be done on the channel. For
 example, when a new version of Bioconductor comes out, we need to update all
@@ -300,16 +299,16 @@ successfully built, our work is saved and we can start the next build where we
 left off. Failing tests are fixed in another round of commits, and these
 changes are then pushed to <code class="docutils literal notranslate"><span class="pre">bulk</span></code> and the process repeats. Once <code class="docutils literal notranslate"><span class="pre">bulk</span></code> is
 fully successful, a PR is opened to merge the changes into master.</p>
-</section>
-<section id="labels">
+</div>
+<div class="section" id="labels">
 <h2>Labels<a class="headerlink" href="#labels" title="Permalink to this headline">¶</a></h2>
 <p>If the <code class="docutils literal notranslate"><span class="pre">BIOCONDA_LABEL</span></code> environment variable is set, then all uploads will
 have that label assigned to them, rather than <code class="docutils literal notranslate"><span class="pre">main</span></code>. Consequently, they can
 only be installed by adding <code class="docutils literal notranslate"><span class="pre">-c</span> <span class="pre">bioconda/BIOCONDA_LABEL</span></code> to the channels,
 where <code class="docutils literal notranslate"><span class="pre">BIOCONDA_LABEL</span></code> is whatever that environment variable is set to. Note
 that uploads of biocontainers to quay.io will still occur!</p>
-</section>
-</section>
+</div>
+</div>
 
 
           </div>
@@ -322,7 +321,7 @@ that uploads of biocontainers to quay.io will still occur!</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.4</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
