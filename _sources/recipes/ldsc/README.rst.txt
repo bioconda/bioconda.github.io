@@ -27,14 +27,14 @@ ldsc
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends bitarray: 
    :depends numpy: 
-   :depends pandas: 
+   :depends pandas: ``<0.21.0``
    :depends pybedtools: 
    :depends python: ``<3``
    :depends scipy: 

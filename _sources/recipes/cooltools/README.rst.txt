@@ -12,7 +12,7 @@ cooltools
 
    Analysis tools for genomic interaction data stored in .cool format
 
-   :homepage: https://github.com/mirnylab/cooltools
+   :homepage: https://github.com/open2c/cooltools
    :documentation: https://cooltools.readthedocs.io
    
    :license: MIT / MIT
@@ -29,17 +29,17 @@ cooltools
       
       
 
-      ``0.3.2-0``
+      ``0.4.0-0``,  ``0.3.2-1``,  ``0.3.2-0``
 
       
 
    
-   :depends bioframe: ``<0.1.0``
+   :depends bioframe: ``>=0.2.0``
    :depends click: ``>=7``
    :depends cooler: ``>=0.8.5``
    :depends cytoolz: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends matplotlib-base: 
    :depends multiprocess: 
    :depends numba: 

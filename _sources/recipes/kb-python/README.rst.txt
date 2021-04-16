@@ -29,14 +29,16 @@ kb-python
       
       
 
-      ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.4-0``
+      ``0.26.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.4-0``
 
       
 
    
    :depends anndata: ``>=0.6.22.post1``
+   :depends bustools: ``>=0.40.0``
    :depends h5py: ``>=2.10.0``
    :depends jinja2: ``>2.10.1``
+   :depends kallisto: ``>=0.46.2``
    :depends loompy: ``>=3.0.6``
    :depends nbconvert: ``>=5.6.0``
    :depends nbformat: ``>=4.4.0``

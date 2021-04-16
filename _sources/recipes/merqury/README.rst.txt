@@ -27,14 +27,13 @@ merqury
       
       
 
-      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
+      ``1.3-0``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
 
       
 
    
    :depends bedtools: ``>=2.29.2``
-   :depends igvtools: ``>=2.5.3``
-   :depends meryl: ``>=v1.0,<2000``
+   :depends meryl: ``1.3.*``
    :depends openjdk: ``>=11.0.1``
    :depends r-argparse: ``>=2.0.1``
    :depends r-base: ``>=4``
