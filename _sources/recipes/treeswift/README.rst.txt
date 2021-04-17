@@ -13,7 +13,7 @@ treeswift
    TreeSwift\: Fast tree module for Python 2 and 3
 
    :homepage: https://github.com/niemasd/TreeSwift
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`treeswift <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treeswift>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treeswift/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ treeswift
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.15-0</code>,  <code>1.1.14-0</code>,  <code>1.1.13-0</code>,  <code>1.1.12-0</code>,  <code>1.1.11-0</code>,  <code>1.1.10-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  </span></summary>
+      
 
+      ``1.1.15-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

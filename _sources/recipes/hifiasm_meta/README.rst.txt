@@ -27,7 +27,7 @@ hifiasm_meta
       
       
 
-      ``hamtv0.1-1``,  ``hamtv0.1-0``
+      ``hamtv0.2-0``,  ``hamtv0.1-1``,  ``hamtv0.1-0``
 
       
 

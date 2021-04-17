@@ -27,7 +27,7 @@ gifrop
       
       
 
-      ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.1-0``
+      ``0.0.9-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.1-0``
 
       
 
@@ -38,10 +38,11 @@ gifrop
    :depends parallel: 
    :depends prokka: ``>=1.14.6``
    :depends r-base: ``>=3.6``
+   :depends r-digest: 
    :depends r-dplyr: ``>=1.0.0``
    :depends r-ggplot2: 
    :depends r-igraph: 
-   :depends r-pheatmap: 
+   :depends r-paralleldist: 
    :depends r-purrr: 
    :depends r-readr: 
    :depends r-tibble: 

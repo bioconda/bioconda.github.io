@@ -13,7 +13,7 @@ simug
    A simple\, flexible\, and powerful tool to simulate genome sequences with pre\-defined or random genomic variants.
 
    :homepage: https://github.com/yjx1217/simuG
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`simug <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simug>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simug/meta.yaml>`_
 
    
@@ -27,12 +27,13 @@ simug
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends perl: ``5.*``
+   :depends gzip: 
+   :depends perl: ``*``
    :depends perl-getopt-long: 
    :depends perl-list-util: 
    :depends perl-pod-usage: 
