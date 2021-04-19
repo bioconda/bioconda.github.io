@@ -28,10 +28,10 @@ nanovar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.9-0</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.9-1</code>,  <code>1.3.9-0</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``
+      ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ nanovar
    :depends biopython: ``>=1.74``
    :depends blast: ``>=2.5.0``
    :depends hs-blastn: ``>=0.0.5``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends matplotlib-base: ``>=2.2.3``
    :depends minimap2: ``>=2.17``
    :depends natsort: ``>=6.2.0``
