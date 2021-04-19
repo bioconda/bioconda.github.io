@@ -27,13 +27,13 @@ svtk
       
       
 
-      ``0.0.20190615-1``,  ``0.0.20190615-0``
+      ``0.0.20190615-2``,  ``0.0.20190615-1``,  ``0.0.20190615-0``
 
       
 
    
    :depends boto3: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
