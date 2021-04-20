@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>FAQs &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
@@ -126,11 +127,11 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="faqs">
+  <section id="faqs">
 <h1>FAQs<a class="headerlink" href="#faqs" title="Permalink to this headline">¶</a></h1>
 <p>This section is to help contributors get up to speed on various topics related
 to building and testing conda packages.</p>
-<div class="section" id="what-s-the-difference-between-anaconda-conda-and-miniconda">
+<section id="what-s-the-difference-between-anaconda-conda-and-miniconda">
 <span id="conda-anaconda-minconda"></span><h2>What’s the difference between Anaconda, conda, and Miniconda?<a class="headerlink" href="#what-s-the-difference-between-anaconda-conda-and-miniconda" title="Permalink to this headline">¶</a></h2>
 <p>The <a class="reference external" href="https://www.continuum.io/downloads">Anaconda Python distribution</a>
 started out as a bundle of scientific Python packages that were otherwise
@@ -146,8 +147,8 @@ needs to be installed in a language-agnostic manner. The conda installer is
 called Miniconda, to differentiate it from the full-size Anaconda.</p>
 <p>So: conda is a package manager, Miniconda is the conda installer, and Anaconda
 is a scientific Python distribution that also includes conda.</p>
-</div>
-<div class="section" id="recipe-vs-package">
+</section>
+<section id="recipe-vs-package">
 <h2>Recipe vs package<a class="headerlink" href="#recipe-vs-package" title="Permalink to this headline">¶</a></h2>
 <p>A <em>recipe</em> is a directory containing small set of files that defines name,
 version, dependencies, and URL for source code. A recipe typically contains
@@ -162,8 +163,8 @@ users can install them with <code class="docutils literal notranslate"><span cla
 what a package contains and how it is installed into an
 environment.</p>
 </div>
-</div>
-<div class="section" id="continuous-integration-circle-ci">
+</section>
+<section id="continuous-integration-circle-ci">
 <h2>Continuous integration (Circle CI)<a class="headerlink" href="#continuous-integration-circle-ci" title="Permalink to this headline">¶</a></h2>
 <p>We use the Circle CI continuous integration service. Continuous integration
 tests each small incremental change to code to ensure that everything is
@@ -172,8 +173,8 @@ open-source projects. It is connected to GitHub such that each time a pull
 request or merge occurs, a new Circle CI build is created. For bioconda,
 a “build” means identifying any recipes that need to built, running
 <a class="conda-forge reference external" href="https://github.com/conda-forge/conda-build-feedstock"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">conda-build</span></code></a> on them, and testing to make sure they work.</p>
-</div>
-<div class="section" id="how-is-circle-ci-set-up-and-configured">
+</section>
+<section id="how-is-circle-ci-set-up-and-configured">
 <h2>How is Circle CI set up and configured?<a class="headerlink" href="#how-is-circle-ci-set-up-and-configured" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">.circleci/config.yml</span></code> is read by the Circle CI worker.</p></li>
@@ -187,8 +188,8 @@ additional tests that are executed in the online version. Thus, it can be that
 a local test passes while the online test fails.
 Nevertheless, the local test should capture most problems, such that it is highly
 encouraged to first run a local test in order to save quota on Circle CI.</p>
-</div>
-<div class="section" id="how-are-dependencies-pinned-to-particular-versions">
+</section>
+<section id="how-are-dependencies-pinned-to-particular-versions">
 <h2>How are dependencies pinned to particular versions?<a class="headerlink" href="#how-are-dependencies-pinned-to-particular-versions" title="Permalink to this headline">¶</a></h2>
 <p>In some cases a recipe may need to pin the version of a dependency.
 A global set of default versions to pin against is shared with conda-forge and
@@ -198,8 +199,8 @@ please update the list via a pull request.
 Local pinnings can be achieved by adding a file <code class="docutils literal notranslate"><span class="pre">conda_build_config.yaml</span></code> next
 to your <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
 <p>To find out against which version you can pin a package, e.g. x.y.* or x.* please use <a class="reference external" href="https://abi-laboratory.pro/tracker/">ABI-Laboratory</a>.</p>
-</div>
-<div class="section" id="what-s-the-lifecycle-of-a-bioconda-package">
+</section>
+<section id="what-s-the-lifecycle-of-a-bioconda-package">
 <h2>What’s the lifecycle of a bioconda package?<a class="headerlink" href="#what-s-the-lifecycle-of-a-bioconda-package" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Submit a pull request with a new recipe or an updated recipe</p></li>
@@ -223,8 +224,8 @@ the <code class="docutils literal notranslate"><span class="pre">broken</span></
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge -c bioconda -c defaults -c bioconda/label/broken my-package<span class="o">=</span>&lt;broken-version&gt;
 </pre></div>
 </div>
-</div>
-<div class="section" id="circleci-macos-plans">
+</section>
+<section id="circleci-macos-plans">
 <span id="circlecimacos"></span><h2>CircleCI macOS plans<a class="headerlink" href="#circleci-macos-plans" title="Permalink to this headline">¶</a></h2>
 <p>In the past we had recommended enabling CircleCI for your fork to help conserve
 the bioconda team’s build time quota. However this did not work very well:
@@ -235,8 +236,8 @@ macOS builds to the bioconda team.</p>
 <p>To ensure that CircleCI uses the bioconda team account, please <strong>disable</strong>
 CircleCI on your fork (look for the big red “Stop Building” button at
 <a class="reference external" href="https://circleci.com/dashboard">https://circleci.com/dashboard</a> under the settings for your fork).</p>
-</div>
-<div class="section" id="testing-bioconda-utils-locally">
+</section>
+<section id="testing-bioconda-utils-locally">
 <h2>Testing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally<a class="headerlink" href="#testing-bioconda-utils-locally" title="Permalink to this headline">¶</a></h2>
 <p>Follow the instructions at <a class="reference internal" href="building-locally.html#bootstrap"><span class="std std-ref">Using the “Bootstrap” Method</span></a> to create a separate Miniconda
 installation using the <code class="docutils literal notranslate"><span class="pre">bootstrap.py</span></code> script in the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repo.</p>
@@ -263,16 +264,16 @@ python setup.py develop
 pytest <span class="nb">test</span> -vv
 </pre></div>
 </div>
-</div>
-<div class="section" id="where-can-i-find-more-info-on-meta-yaml">
+</section>
+<section id="where-can-i-find-more-info-on-meta-yaml">
 <h2>Where can I find more info on <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>?<a class="headerlink" href="#where-can-i-find-more-info-on-meta-yaml" title="Permalink to this headline">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file is conda’s metadata definition file for recipes.
 If you are developing a new recipe or are trying to update or improve an existing one, it can be helpful to know
 which elements and values can appear in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
 <p>Conda has this information available <a class="reference external" href="https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html">here</a>.
 Please check that you are looking at the correct version of the documentation for the current conda version used by bioconda.</p>
-</div>
-</div>
+</section>
+</section>
 
 
           </div>
@@ -285,7 +286,7 @@ Please check that you are looking at the correct version of the documentation fo
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.3</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
