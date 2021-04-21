@@ -27,14 +27,18 @@ metasnv
       
       
 
-      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
-   :depends htslib: ``>=1.9,<1.10.0a0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends numpy: 
    :depends pandas: 
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

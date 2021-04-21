@@ -13,7 +13,7 @@ toulligqc
    A post sequencing QC tool for Oxford Nanopore sequencers
 
    :homepage: https://github.com/GenomicParisCentre/toulligQC
-   :license: GPL / GPL-3.0
+   :license: CECILL-2.1
    :recipe: /`toulligqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc/meta.yaml>`_
 
    
@@ -27,18 +27,20 @@ toulligqc
       
       
 
-      ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
+      ``2.0.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
 
       
 
    
-   :depends h5py: ``>=2.7,<2.8``
-   :depends matplotlib: ``>=2.1,<2.2``
-   :depends numpy: ``>=1.13,<1.14``
-   :depends pandas: ``>=0.22,<0.23``
-   :depends plotly: ``>=2.2,<2.3``
-   :depends python: ``>=3``
-   :depends seaborn: ``>=0.8,<0.9``
+   :depends h5py: ``>=2.10``
+   :depends matplotlib-base: ``>=3.1.2``
+   :depends numpy: ``>=1.17.4``
+   :depends pandas: ``>=0.25.3``
+   :depends plotly: ``>=4.5.0``
+   :depends python: ``>=3.8``
+   :depends scikit-learn: ``>=0.22``
+   :depends scipy: ``>=1.3.3``
+   :depends seaborn: ``>=0.10``
    :requirements:
 
    .. rubric:: Installation
