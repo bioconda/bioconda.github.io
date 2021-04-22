@@ -30,15 +30,15 @@ hatchet
       
       
 
-      ``0.2.9-3``,  ``0.2.9-1``,  ``0.2.9-0``
+      ``0.2.10-0``,  ``0.2.9-3``,  ``0.2.9-1``,  ``0.2.9-0``
 
       
 
    
    :depends bcftools: 
    :depends biopython: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends matplotlib-base: 
    :depends pandas: 
    :depends psutil: 

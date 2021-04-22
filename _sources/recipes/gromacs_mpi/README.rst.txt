@@ -28,11 +28,12 @@ gromacs_mpi
       
       
 
-      ``2021-1``,  ``2021-0``
+      ``2021.1-0``,  ``2021-1``,  ``2021-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends fftw: ``>=3.3.9,<4.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends libhwloc: ``2.*``
@@ -40,7 +41,6 @@ gromacs_mpi
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends mpich: ``>=3.4.1,<4.0a0``
    :depends ocl-icd: ``>=2.3.0,<3.0a0``
-   :depends openmp: 
    :requirements:
 
    .. rubric:: Installation

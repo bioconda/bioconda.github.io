@@ -29,10 +29,10 @@ igblast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.15.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.4.0-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.17.1-0</code>,  <code>1.15.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  </span></summary>
       
 
-      ``1.15.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.4.0-6``,  ``1.4.0-5``,  ``1.4.0-4``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.17.1-0``,  ``1.15.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.4.0-6``,  ``1.4.0-5``,  ``1.4.0-4``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ igblast
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends libxml2: ``>=2.9.10,<2.10.0a0``
    :depends ncbi-vdb: ``>=2.9.6``
    :depends perl: 

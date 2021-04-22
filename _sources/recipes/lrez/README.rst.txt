@@ -10,10 +10,10 @@ lrez
    :replaces_section_title:
    :noindex:
 
-   LRez \- tools for manipulating 10X fastq and bam files
+   Standalone tool and library allowing to work with barcoded linked\-reads
 
-   :homepage: https://github.com/flegeai/LRez
-   :license: file
+   :homepage: https://github.com/morispi/LRez
+   :license: AGPL-3.0-or-later AND MIT
    :recipe: /`lrez <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lrez>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lrez/meta.yaml>`_
 
    
@@ -27,16 +27,15 @@ lrez
       
       
 
-      ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+      ``2.0-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends indexed_gzip: 
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends python: ``>=3``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
