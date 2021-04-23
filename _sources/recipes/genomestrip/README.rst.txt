@@ -27,15 +27,15 @@ genomestrip
       
       
 
-      ``2.00.1833-3``,  ``2.00.1833-2``,  ``2.00.1833-1``,  ``2.00.1833-0``
+      ``2.00.1833-4``,  ``2.00.1833-3``,  ``2.00.1833-2``,  ``2.00.1833-1``,  ``2.00.1833-0``
 
       
 
    
+   :depends htslib: 
    :depends openjdk: ``>=8``
    :depends r-base: ``>=3.4``
    :depends samtools: 
-   :depends tabix: 
    :requirements:
 
    .. rubric:: Installation

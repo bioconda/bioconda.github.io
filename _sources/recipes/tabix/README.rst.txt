@@ -6,15 +6,15 @@
 tabix
 =====
 
-.. conda:recipe:: tabix/0.2.5
+.. conda:recipe:: tabix
    :replaces_section_title:
    :noindex:
 
-   A set of tools written in Perl and C\+\+ for working with VCF files.
+   C library and command line tools for high\-throughput sequencing data formats.
 
-   :homepage: https://sourceforge.net/projects/samtools
-   :license: BSD
-   :recipe: /`tabix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix>`_/`0.2.5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/0.2.5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/0.2.5/meta.yaml>`_
+   :homepage: https://github.com/samtools/htslib
+   :license: MIT
+   :recipe: /`tabix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/meta.yaml>`_
 
    
 
@@ -27,13 +27,12 @@ tabix
       
       
 
-      ``0.2.6-0``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``1.11-0``,  ``0.2.6-0``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.9``
    :requirements:
 
    .. rubric:: Installation

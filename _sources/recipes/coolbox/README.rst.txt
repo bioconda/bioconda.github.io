@@ -26,9 +26,17 @@ coolbox
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+      
 
+      ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,6 +44,7 @@ coolbox
    :depends dna_features_viewer: 
    :depends fire: 
    :depends h5py: 
+   :depends htslib: 
    :depends intervaltree: 
    :depends ipywidgets: ``>=7.5.1``
    :depends jupyter: ``>=1.0.0``
@@ -51,7 +60,6 @@ coolbox
    :depends scipy: ``>=1.0.0``
    :depends statsmodels: 
    :depends svgutils: 
-   :depends tabix: 
    :depends voila: 
    :requirements:
 

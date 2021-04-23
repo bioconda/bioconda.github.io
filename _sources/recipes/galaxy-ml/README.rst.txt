@@ -28,10 +28,10 @@ galaxy-ml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-5</code>,  <code>0.8.2-4</code>,  <code>0.8.2-3</code>,  <code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-5</code>,  <code>0.8.2-4</code>,  <code>0.8.2-3</code>,  <code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  </span></summary>
       
 
-      ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
+      ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ galaxy-ml
    :depends asteval: ``>=0.9``
    :depends graphviz: ``>=2.38``
    :depends h5py: ``>=2.10.0,<3.0``
+   :depends htslib: 
    :depends imbalanced-learn: ``<0.6``
    :depends joblib: 
    :depends keras: ``2.3.1``
@@ -66,7 +67,6 @@ galaxy-ml
    :depends scikit-optimize: ``>=0.7,<0.8``
    :depends scipy: ``>=1.3``
    :depends skrebate: ``<0.7``
-   :depends tabix: 
    :depends tensorflow: ``>=1.15.0,<2.0``
    :depends tensorflow-estimator: ``1.15.1``
    :depends xgboost: ``<=0.80``

@@ -27,20 +27,21 @@ grafimo
       
       
 
-      ``1.1.3-0``,  ``1.1.1-0``,  ``1.0.1-0``
+      ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.0.1-0``
 
       
 
    
+   :depends colorama: 
    :depends graphviz: ``>=2.40.1,<3.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends htslib: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends numba: ``>=0.47,<1``
    :depends numpy: ``>=1.16,<1.17``
    :depends pandas: ``>=0.24.2,<0.25``
    :depends python: ``>=3.8,<3.9.0a0``
    :depends python_abi: ``3.8.* *_cp38``
    :depends statsmodels: ``>=0.10.0,<0.11``
-   :depends tabix: 
    :depends vg: 
    :requirements:
 

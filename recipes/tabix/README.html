@@ -104,17 +104,17 @@
   <section id="tabix">
 <dl class="conda recipe">
 <dt>
-<em class="property"><span class="pre">recipe</span> </em><code class="sig-name descname"><span class="pre">tabix/0.2.5</span></code></dt>
-<dd><p>A set of tools written in Perl and C++ for working with VCF files.</p>
+<em class="property"><span class="pre">recipe</span> </em><code class="sig-name descname"><span class="pre">tabix</span></code></dt>
+<dd><p>C library and command line tools for high-throughput sequencing data formats.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://sourceforge.net/projects/samtools">https://sourceforge.net/projects/samtools</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/samtools/htslib">https://github.com/samtools/htslib</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>BSD</p>
+<dd class="field-even"><p>MIT</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix">tabix</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/0.2.5">0.2.5</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/0.2.5/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix">tabix</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -125,30 +125,20 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/tabix"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/tabix.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/tabix"><img alt="docker_tabix" src="https://quay.io/repository/biocontainers/tabix/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.11-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.9</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/zlib-feedstock"><strong>zlib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.11,&lt;1.3.0a0</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../htslib/README.html#package-htslib" title="htslib package"><strong>htslib</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../qtlseq/README.html#qtlseq"><strong class="xref backref">qtlseq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../drop/README.html#drop"><strong class="xref backref">drop</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mutmap/README.html#mutmap"><strong class="xref backref">mutmap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../crispritz/README.html#crispritz"><strong class="xref backref">crispritz</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../genomestrip/README.html#genomestrip"><strong class="xref backref">genomestrip</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ctat-mutations/README.html#ctat-mutations"><strong class="xref backref">ctat-mutations</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../sequenza-utils/README.html#sequenza-utils"><strong class="xref backref">sequenza-utils</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../vcflib/README.html#vcflib"><strong class="xref backref">vcflib</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../grafimo/README.html#grafimo"><strong class="xref backref">grafimo</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pbhoover/README.html#pbhoover"><strong class="xref backref">pbhoover</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../gnali/README.html#gnali"><strong class="xref backref">gnali</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../galaxy-ml/README.html#galaxy-ml"><strong class="xref backref">galaxy-ml</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../coolbox/README.html#coolbox"><strong class="xref backref">coolbox</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../panpasco/README.html#panpasco"><strong class="xref backref">panpasco</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../gnali/README.html#gnali"><strong class="xref backref">gnali</strong></a></p></li>
 </ul>
 </dd>
 </dl>

@@ -30,7 +30,7 @@ drop
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
@@ -46,6 +46,7 @@ drop
    :depends click-log: 
    :depends gatk4: ``>=4.0.4``
    :depends graphviz: 
+   :depends htslib: 
    :depends pandas: 
    :depends pandoc: 
    :depends python: ``>=3.6``
@@ -65,7 +66,6 @@ drop
    :depends samtools: ``>=1.7``
    :depends snakemake: ``>=5.5.2``
    :depends star: ``>=2.7``
-   :depends tabix: 
    :depends wbuild: ``>=1.7.1``
    :depends wget: 
    :requirements:
