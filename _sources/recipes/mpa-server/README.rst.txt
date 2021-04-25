@@ -31,13 +31,13 @@ mpa-server
       
       
 
-      ``3.4-2``,  ``3.4-1``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``
+      ``3.4-3``,  ``3.4-2``,  ``3.4-1``,  ``3.4-0``,  ``3.3-1``,  ``3.3-0``
 
       
 
    
-   :depends mysql: 
-   :depends openjdk: ``>=8``
+   :depends mysql: ``5.*``
+   :depends openjdk: ``8.*``
    :depends perl: 
    :depends python: 
    :depends requests: 
