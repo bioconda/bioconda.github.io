@@ -26,31 +26,35 @@ gnali
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.1.1-0</code>,  </span></summary>
+      
 
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends ensembl-vep: 
    :depends filelock: 
    :depends git: ``>=2``
-   :depends libcurl: ``>=7.75.0,<8.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends htslib: 
    :depends numpy: 
    :depends pandas: 
    :depends perl-bio-bigfile: 
    :depends progress: 
    :depends py-bgzip: 
    :depends pybiomart: 
-   :depends pysam: ``<0.16``
-   :depends pytest: 
-   :depends python: ``>=3.7,<3.8.0a0``
+   :depends pysam: 
+   :depends python: ``>=3``
    :depends python-magic: 
-   :depends python_abi: ``3.7.* *_cp37m``
    :depends pyyaml: 
    :depends samtools: 
-   :depends tabix: 
    :requirements:
 
    .. rubric:: Installation

@@ -27,18 +27,18 @@ pbhoover
       
       
 
-      ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-0``,  ``1.0.6-0``
+      ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-0``,  ``1.0.6-0``
 
       
 
    
    :depends bcftools: 
+   :depends htslib: 
    :depends numpy: 
    :depends pbcore: ``>=1.2.10``
    :depends pbh5tools: 
    :depends python: ``<3``
    :depends pyvcf: 
-   :depends tabix: 
    :requirements:
 
    .. rubric:: Installation
