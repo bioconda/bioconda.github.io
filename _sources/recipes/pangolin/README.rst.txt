@@ -15,6 +15,7 @@ pangolin
    :homepage: https://github.com/cov-lineages/pangolin
    :license: GPL-3.0-only
    :recipe: /`pangolin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangolin/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`pangolin`
 
    
 

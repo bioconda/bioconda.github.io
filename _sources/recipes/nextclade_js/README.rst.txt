@@ -15,6 +15,7 @@ nextclade_js
    :homepage: https://github.com/nextstrain/nextclade
    :license: MIT
    :recipe: /`nextclade_js <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextclade_js>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextclade_js/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`nextclade`
 
    
 

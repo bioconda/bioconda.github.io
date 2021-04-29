@@ -30,10 +30,10 @@ scirpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4-0</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  <code>0.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4-0</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  </span></summary>
       
 
-      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -43,19 +43,19 @@ scirpy
 
    
    :depends airr: ``>=1.2``
-   :depends anndata: ``>=0.7.3``
+   :depends anndata: ``>=0.7.6``
    :depends networkx: 
    :depends numpy: 
-   :depends pandas: ``>=0.21``
+   :depends pandas: ``>=1.0``
    :depends parasail-python: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends python-igraph: 
    :depends python-levenshtein: 
    :depends scanpy: ``>=1.6.0``
    :depends scikit-learn: 
    :depends scipy: 
    :depends squarify: 
-   :depends tqdm: ``>=4.29.1``
+   :depends tqdm: ``>=4.42.0``
    :requirements:
 
    .. rubric:: Installation

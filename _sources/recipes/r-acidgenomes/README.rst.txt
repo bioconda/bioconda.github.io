@@ -28,7 +28,7 @@ r-acidgenomes
       
       
 
-      ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -41,7 +41,7 @@ r-acidgenomes
    :depends bioconductor-genomeinfodb: ``>=1.26``
    :depends bioconductor-genomicfeatures: ``>=1.42``
    :depends r-acidbase: ``>=0.3.13``
-   :depends r-acidcli: ``>=0.1.0``
+   :depends r-acidcli: ``>=0.1.1``
    :depends r-acidgenerics: ``>=0.5.17``
    :depends r-acidplyr: ``>=0.1.17``
    :depends r-base: ``>=4.0,<4.1.0a0``
@@ -49,7 +49,7 @@ r-acidgenomes
    :depends r-httr: ``>=1.4``
    :depends r-pipette: ``>=0.5.14``
    :depends r-stringr: ``>=1.4``
-   :depends r-syntactic: ``>=0.4.4``
+   :depends r-syntactic: ``>=0.4.5``
    :requirements:
 
    .. rubric:: Installation
