@@ -27,15 +27,15 @@ usher
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
+      ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
 
    
    :depends biopython: 
-   :depends boost-cpp: ``>=1.75.0,<1.75.1.0a0``
+   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends libgcc-ng: ``>=9.3.0``
-   :depends libprotobuf: ``>=3.15.6,<3.16.0a0``
+   :depends libprotobuf: ``>=3.15.8,<3.16.0a0``
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends mafft: 
    :depends python: 
