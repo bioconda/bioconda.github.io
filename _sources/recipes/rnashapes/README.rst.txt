@@ -27,13 +27,21 @@ rnashapes
    :versions:
       
       
+      .. raw:: html
 
-      ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-0``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
+         <details><summary><span class="truncated-version-list"><code>3.3.2-0</code>,  <code>3.3.0-5</code>,  <code>3.3.0-4</code>,  <code>3.3.0-3</code>,  <code>3.3.0-0</code>,  <code>2.1.6-4</code>,  <code>2.1.6-3</code>,  <code>2.1.6-2</code>,  <code>2.1.6-1</code>,  </span></summary>
+      
 
+      ``3.3.2-0``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-0``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bellmans-gapc: ``>=2020.12.08``
+   :depends bellmans-gapc: ``>=2021.04.28``
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
