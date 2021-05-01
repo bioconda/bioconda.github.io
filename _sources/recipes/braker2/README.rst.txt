@@ -29,10 +29,10 @@ braker2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.6-3</code>,  <code>2.1.6-2</code>,  <code>2.1.6-1</code>,  <code>2.1.6-0</code>,  <code>2.1.5-3</code>,  <code>2.1.5-2</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.6-4</code>,  <code>2.1.6-3</code>,  <code>2.1.6-2</code>,  <code>2.1.6-1</code>,  <code>2.1.6-0</code>,  <code>2.1.5-3</code>,  <code>2.1.5-2</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  </span></summary>
       
 
-      ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``,  ``2.1.5-3``,  ``2.1.5-2``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
+      ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``,  ``2.1.5-3``,  ``2.1.5-2``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
 
       
       .. raw:: html
@@ -48,6 +48,7 @@ braker2
    :depends cdbtools: ``>=0.99``
    :depends diamond: ``>=0.9.24``
    :depends exonerate: ``>=2.2.0``
+   :depends gemoma: ``1.6.4``
    :depends genomethreader: ``>=1.7.0``
    :depends makehub: 
    :depends perl: 
