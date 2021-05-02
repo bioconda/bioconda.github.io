@@ -27,7 +27,7 @@ varfish-cli
       
       
 
-      ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
+      ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
 
       
 
@@ -36,8 +36,10 @@ varfish-cli
    :depends cattrs: 
    :depends logzero: 
    :depends python: ``>=3``
+   :depends python-dateutil: 
    :depends python-levenshtein: 
    :depends requests: 
+   :depends simplejson: 
    :depends tabulate: 
    :depends toml: 
    :depends tqdm: 
