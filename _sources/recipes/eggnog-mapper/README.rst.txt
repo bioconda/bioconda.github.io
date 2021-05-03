@@ -12,10 +12,10 @@ eggnog-mapper
 
    Fast genome\-wide functional annotation through orthology assignment.
 
-   :homepage: https://github.com/jhcepas/eggnog-mapper
+   :homepage: https://github.com/eggnogdb/eggnog-mapper
    :documentation: https://github.com/eggnogdb/eggnog-mapper/wiki
    
-   :license: GPL / GPL-2.0
+   :license: GPL / AGPL-3.0-only
    :recipe: /`eggnog-mapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gky1085`, usegalaxy-eu: :usegalaxy-eu:`eggnog_mapper`
 
@@ -31,10 +31,10 @@ eggnog-mapper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.1.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,9 +43,14 @@ eggnog-mapper
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.76``
    :depends diamond: ``>0.9``
-   :depends python: ``<3``
+   :depends easel: 
+   :depends hmmer: 
+   :depends mmseqs2: 
+   :depends prodigal: 
+   :depends psutil: ``>=5.7.0``
+   :depends python: ``>=3``
    :depends wget: 
    :requirements:
 
