@@ -10,14 +10,14 @@ akt
    :replaces_section_title:
    :noindex:
 
-   Ancestry and Kinship Tools \(AKT\) provides a handful of useful statistical genetics routines using the htslib API for input\/output. This means it can seamlessly read BCF\/VCF files and play nicely with bcftools.
+   Ancestry and Kinship Tools \(AKT\)
 
    :homepage: https://github.com/Illumina/akt
    :license: GPL3
    :recipe: /`akt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/akt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/akt/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btw576`
 
-   
+   Ancestry and Kinship Tools \(AKT\) provides a handful of useful statistical genetics routines using the htslib API for input\/output. This means it can seamlessly read BCF\/VCF files and play nicely with bcftools.
 
 
 .. conda:package:: akt
@@ -28,7 +28,7 @@ akt
       
       
 
-      ``0.3.2-4``,  ``0.3.2-3``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-0``
+      ``0.3.3-0``,  ``0.3.2-4``,  ``0.3.2-3``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-0``
 
       
 

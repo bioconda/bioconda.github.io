@@ -27,7 +27,7 @@ homopolish
       
       
 
-      ``0.0.1-0``
+      ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -40,6 +40,8 @@ homopolish
    :depends more-itertools: ``8.4.0.*``
    :depends numpy: ``1.18.5.*``
    :depends pandas: ``0.23.4.*``
+   :depends pyarrow: ``0.17.1.*``
+   :depends pycurl: 
    :depends python: 
    :depends python-wget: ``3.2.*``
    :depends requests: ``2.24.0.*``
