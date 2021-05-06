@@ -13,7 +13,7 @@ python-newick
    A python module to read and write the Newick format
 
    :homepage: https://github.com/glottobank/python-newick
-   :license: Apache / Apache License 2.0
+   :license: Apache / Apache-2.0
    :recipe: /`python-newick <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-newick>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-newick/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ python-newick
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.9.2-2``,  ``0.9.2-0``,  ``0.8.0-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.9.2-2``,  ``0.9.2-0``,  ``0.8.0-0``
 
       
 
