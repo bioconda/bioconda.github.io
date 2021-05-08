@@ -28,13 +28,13 @@ humann
       
       
 
-      ``3.0.0a4-0``
+      ``3.0.0-1``,  ``3.0.0-0``,  ``3.0.0a4-0``
 
       
 
    
    :depends bowtie2: ``>2.1``
-   :depends diamond: ``>=0.9.24``
+   :depends diamond: ``>=0.9.36``
    :depends glpk: 
    :depends metaphlan: ``>=3.0``
    :depends python: 

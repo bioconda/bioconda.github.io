@@ -28,10 +28,10 @@ mimseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.4-0</code>,  <code>0.3.3.2-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5.6-0</code>,  <code>0.2.5.5-1</code>,  <code>0.2.5.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.4.1-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3.2-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5.6-0</code>,  <code>0.2.5.5-1</code>,  </span></summary>
       
 
-      ``0.3.4-0``,  ``0.3.3.2-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5.6-0``,  ``0.2.5.5-1``,  ``0.2.5.5-0``,  ``0.2.5.4-0``,  ``0.2.5.3-0``
+      ``0.3.4.1-0``,  ``0.3.4-0``,  ``0.3.3.2-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5.6-0``,  ``0.2.5.5-1``,  ``0.2.5.5-0``,  ``0.2.5.4-0``,  ``0.2.5.3-0``
 
       
       .. raw:: html
