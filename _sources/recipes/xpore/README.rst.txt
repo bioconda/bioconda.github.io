@@ -31,7 +31,7 @@ xpore
       
       
 
-      ``0.5.6-0``
+      ``1.0-0``,  ``0.5.6-0``
 
       
 
@@ -43,6 +43,7 @@ xpore
    :depends python: 
    :depends pyyaml: 
    :depends scipy: ``>=1.4.1``
+   :depends ujson: ``>=4.0.1``
    :requirements:
 
    .. rubric:: Installation

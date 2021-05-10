@@ -27,23 +27,23 @@ cellprofiler-core
       
       
 
-      ``4.1.3-0``,  ``4.0.7-0``,  ``4.0.6-0``
+      ``4.1.3-1``,  ``4.1.3-0``,  ``4.0.7-0``,  ``4.0.6-0``
 
       
 
    
    :depends boto3: ``>=1.12.28``
-   :depends centrosome: ``1.2.0``
-   :depends docutils: ``0.15.2``
+   :depends centrosome: ``>=1.2.0``
+   :depends docutils: ``>=0.15.2``
    :depends h5py: ``>=2.10.0``
    :depends matplotlib-base: ``>=3.1.3``
    :depends numpy: ``>=1.18.2``
-   :depends prokaryote: ``2.4.2``
+   :depends prokaryote: ``>=2.4.2``
    :depends psutil: ``>=5.7.0``
-   :depends python: ``>=3.6,<4.0``
-   :depends python-bioformats: ``4.0.0``
-   :depends python-javabridge: ``4.0.0``
-   :depends pyzmq: ``18.0.1``
+   :depends python: ``>=3.6``
+   :depends python-bioformats: ``>=4.0.0``
+   :depends python-javabridge: ``>=4.0.0``
+   :depends pyzmq: ``18.*``
    :depends scikit-image: ``>=0.16.2``
    :depends scipy: ``>=1.4.1``
    :requirements:

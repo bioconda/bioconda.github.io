@@ -27,14 +27,13 @@ chia-rep
       
       
 
-      ``1.0.0-0``
+      ``2.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends matplotlib-base: 
    :depends numpy: ``>=1.17.0``
    :depends prettytable: ``>=0.7.2``
    :depends pybedgraph: ``>=0.5.40``

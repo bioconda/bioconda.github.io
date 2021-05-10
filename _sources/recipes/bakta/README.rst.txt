@@ -28,22 +28,24 @@ bakta
       
       
 
-      ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
+      ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
 
       
 
    
    :depends aragorn: ``>=1.2.38``
-   :depends biopython: ``>=1.72``
+   :depends biopython: ``>=1.78``
    :depends blast: ``>=2.7.1``
-   :depends diamond: ``>=2.0.4``
+   :depends diamond: ``>=2.0.6``
    :depends hmmer: ``>=3.3.1``
-   :depends infernal: ``>=1.1.2``
+   :depends infernal: ``>=1.1.4``
+   :depends ncbi-amrfinderplus: ``>=3.10.1``
    :depends piler-cr: 
    :depends prodigal: ``>=2.6.3``
    :depends python: ``>=3``
+   :depends requests: ``>=2.25.1``
    :depends trnascan-se: ``>=2.0.6``
-   :depends xopen: ``>=0.9.0``
+   :depends xopen: ``>=1.1.0``
    :requirements:
 
    .. rubric:: Installation
