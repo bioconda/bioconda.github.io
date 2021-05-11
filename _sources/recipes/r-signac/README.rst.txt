@@ -27,18 +27,14 @@ r-signac
       
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
-   :depends bioconductor-annotationfilter: 
    :depends bioconductor-biocgenerics: 
-   :depends bioconductor-biostrings: 
-   :depends bioconductor-biovizbase: 
    :depends bioconductor-genomeinfodb: 
    :depends bioconductor-genomicranges: 
-   :depends bioconductor-ggbio: 
    :depends bioconductor-iranges: 
    :depends bioconductor-rsamtools: 
    :depends bioconductor-s4vectors: 
@@ -59,10 +55,12 @@ r-signac
    :depends r-matrix: 
    :depends r-patchwork: 
    :depends r-pbapply: 
+   :depends r-qlcmatrix: 
    :depends r-rcpp: 
    :depends r-rcpproll: 
    :depends r-scales: 
-   :depends r-seurat: ``>=3.2.0``
+   :depends r-seurat: ``>=4.0.0``
+   :depends r-seuratobject: ``>=4.0.0``
    :depends r-stringi: 
    :depends r-tidyr: 
    :requirements:

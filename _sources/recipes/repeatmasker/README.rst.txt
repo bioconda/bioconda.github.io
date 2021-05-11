@@ -29,10 +29,10 @@ repeatmasker
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.1-2</code>,  <code>4.1.1-1</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.9_p2-2</code>,  <code>4.0.9_p2-1</code>,  <code>4.0.9_p2-0</code>,  <code>4.0.8-14</code>,  <code>4.0.8-13</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.2.p1-0</code>,  <code>4.1.1-2</code>,  <code>4.1.1-1</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.9_p2-2</code>,  <code>4.0.9_p2-1</code>,  <code>4.0.9_p2-0</code>,  <code>4.0.8-14</code>,  </span></summary>
       
 
-      ``4.1.1-2``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.9_p2-2``,  ``4.0.9_p2-1``,  ``4.0.9_p2-0``,  ``4.0.8-14``,  ``4.0.8-13``,  ``4.0.7-13``,  ``4.0.7-11``,  ``4.0.7-10``,  ``4.0.6-10``,  ``4.0.6-9``,  ``4.0.6-8``,  ``4.0.6-7``,  ``4.0.6-6``,  ``4.0.6-5``,  ``4.0.6-4``
+      ``4.1.2.p1-0``,  ``4.1.1-2``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.9_p2-2``,  ``4.0.9_p2-1``,  ``4.0.9_p2-0``,  ``4.0.8-14``,  ``4.0.8-13``,  ``4.0.7-13``,  ``4.0.7-11``,  ``4.0.7-10``,  ``4.0.6-10``,  ``4.0.6-9``,  ``4.0.6-8``,  ``4.0.6-7``,  ``4.0.6-6``,  ``4.0.6-5``,  ``4.0.6-4``
 
       
       .. raw:: html
@@ -44,7 +44,6 @@ repeatmasker
    :depends h5py: 
    :depends hmmer: 
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends perl-text-soundex: 
    :depends rmblast: 
    :depends trf: 
    :requirements:
