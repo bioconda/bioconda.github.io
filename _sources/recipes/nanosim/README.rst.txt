@@ -13,8 +13,9 @@ nanosim
    NanoSim is a fast and scalable read simulator that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of nanopore sequencing technology.
 
    :homepage: https://github.com/bcgsc/NanoSim
-   :license: GPL
+   :license: GPL-3.0-only
    :recipe: /`nanosim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim/meta.yaml>`_
+   :links: doi: :doi:`10.1093/gigascience/gix010`
 
    
 
@@ -28,10 +29,10 @@ nanosim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  </span></summary>
       
 
-      ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
+      ``3.0.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
 
       
       .. raw:: html

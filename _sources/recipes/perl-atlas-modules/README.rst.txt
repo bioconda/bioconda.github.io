@@ -27,20 +27,22 @@ perl-atlas-modules
       
       
 
-      ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+      ``0.2.0-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl-algorithm-diff: 
    :depends perl-archive-extract: 
+   :depends perl-archive-zip: 
    :depends perl-array-compare: 
    :depends perl-array-utils: 
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-carp-clan: 
+   :depends perl-class-accessor: 
    :depends perl-class-std: 
    :depends perl-clone: 
    :depends perl-data-compare: 
@@ -58,6 +60,7 @@ perl-atlas-modules
    :depends perl-extutils-helpers: 
    :depends perl-extutils-installpaths: 
    :depends perl-file-spec: 
+   :depends perl-graphviz: 
    :depends perl-io-scalar: 
    :depends perl-io-stringy: 
    :depends perl-ipc-cmd: 

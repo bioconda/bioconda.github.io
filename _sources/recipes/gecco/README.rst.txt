@@ -28,7 +28,7 @@ gecco
       
       
 
-      ``0.6.2-0``
+      ``0.6.3-0``,  ``0.6.2-0``
 
       
 
@@ -37,13 +37,12 @@ gecco
    :depends docopt: ``>=0.6.2``
    :depends numpy: ``>=1.16``
    :depends psutil: ``>=5.8``
-   :depends pyhmmer: ``>=0.3.0``
+   :depends pyhmmer: ``>=0.3.1``
    :depends pyrodigal: ``>=0.4.2``
    :depends python: ``>=3.6``
    :depends rich: ``>=9.0.0``
    :depends scikit-learn: ``>=0.24.0``
    :depends scipy: ``>=1.4``
-   :depends setuptools: 
    :depends sklearn-crfsuite: ``>=0.3.6``
    :requirements:
 
