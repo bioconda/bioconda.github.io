@@ -27,14 +27,14 @@ snakedeploy
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
    :depends jinja2: 
    :depends pandas: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.8``
    :depends requests: 
    :requirements:
 
