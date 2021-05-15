@@ -13,7 +13,7 @@ r-ramclustr
    A feature clustering algorithm for non\-targeted mass spectrometric metabolomics data. This method is compatible with gas and liquid chromatography coupled mass spectrometry\, including indiscriminant tandem mass spectrometry \<DOI\: 10.1021\/ac501530d\> data.
 
    :homepage: https://github.com/cbroeckl/RAMClustR
-   :license: GPL2 / GPL-2
+   :license: GPL2 / GPL-2.0-or-later
    :recipe: /`r-ramclustr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ramclustr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ramclustr/meta.yaml>`_
 
    
@@ -27,11 +27,12 @@ r-ramclustr
       
       
 
-      ``1.0.9-1``,  ``1.0.9-0``
+      ``1.2.1-0``,  ``1.0.9-1``,  ``1.0.9-0``
 
       
 
    
+   :depends bioconductor-msnbase: 
    :depends bioconductor-pcamethods: 
    :depends bioconductor-preprocesscore: 
    :depends r-base: ``>=4.0,<4.1.0a0``
@@ -39,7 +40,8 @@ r-ramclustr
    :depends r-dynamictreecut: 
    :depends r-e1071: 
    :depends r-fastcluster: 
-   :depends r-ff: ``<4.0``
+   :depends r-ff: 
+   :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-httr: 
    :depends r-interpretmsspectrum: 

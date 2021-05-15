@@ -12,6 +12,7 @@ fastqc-rs
 
    A fast quality control tool for FASTQ files written in rust.
 
+
    :homepage: https://fastqc-rs.github.io
    :license: MIT
    :recipe: /`fastqc-rs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc-rs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc-rs/meta.yaml>`_
@@ -27,7 +28,7 @@ fastqc-rs
       
       
 
-      ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.2-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 

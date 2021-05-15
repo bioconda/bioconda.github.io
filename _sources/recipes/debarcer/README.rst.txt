@@ -27,22 +27,22 @@ debarcer
       
       
 
-      ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``
+      ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``
 
       
 
    
-   :depends matplotlib-base: ``>=3.1``
+   :depends matplotlib-base: ``>=3.1,<=3.3``
    :depends mistune: ``>=0.8``
-   :depends networkx: ``>=1.11``
+   :depends networkx: ``2.4.*``
    :depends numpy: ``>=1.14``
    :depends pandas: ``>=0.22``
    :depends pygal: ``>=2.4``
    :depends pysam: ``>=0.14``
    :depends python: ``>=3.6``
    :depends pyyaml: ``>=5.1``
-   :depends scipy: ``>=1.0``
-   :depends seaborn: ``>=0.9``
+   :depends scipy: ``>=1.1,<=1.2``
+   :depends seaborn: ``>=0.9,<=0.10``
    :requirements:
 
    .. rubric:: Installation

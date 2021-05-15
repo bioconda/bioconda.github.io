@@ -27,7 +27,7 @@ contigtax
       
       
 
-      ``0.5.9-0``
+      ``0.5.10-0``,  ``0.5.9-0``
 
       
 
@@ -37,8 +37,8 @@ contigtax
    :depends ete3: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.5``
-   :depends tqdm: 
+   :depends python: ``>=3.6``
+   :depends tqdm: ``>4.7.2``
    :requirements:
 
    .. rubric:: Installation
