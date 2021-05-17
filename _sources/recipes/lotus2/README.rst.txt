@@ -28,7 +28,7 @@ lotus2
       
       
 
-      ``2.04-0``,  ``2.02-0``,  ``2.01-1``,  ``2.01-0``
+      ``2.04-1``,  ``2.04-0``,  ``2.02-0``,  ``2.01-1``,  ``2.01-0``
 
       
 
@@ -51,7 +51,7 @@ lotus2
    :depends r-dplyr: 
    :depends rdp_classifier: 
    :depends rtk: 
-   :depends sdm: ``1.83``
+   :depends sdm: ``1.83post0``
    :depends swarm: 
    :depends unzip: 
    :depends vsearch: 
