@@ -29,7 +29,7 @@ pegasusio
       
       
 
-      ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
+      ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
 
       
 
@@ -41,9 +41,9 @@ pegasusio
    :depends loompy: 
    :depends natsort: 
    :depends numpy: 
-   :depends pandas: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends pandas: ``>=1.2.0``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends scipy: 
    :depends zarr: 
    :requirements:
