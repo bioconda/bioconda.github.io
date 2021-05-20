@@ -29,21 +29,21 @@ bacgwasim
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``
+      ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
    :depends bcftools: ``1.10.2``
-   :depends ete3: 
+   :depends dendropy: 
    :depends gcta: 
-   :depends haploview: 
+   :depends matplotlib-base: ``>=3.4``
    :depends numpy: 
-   :depends openjdk: ``=8|10``
    :depends pandas: 
    :depends plink: 
    :depends python: ``>=3``
    :depends pyvcf: 
+   :depends scipy: 
    :depends simbac: 
    :depends snakemake: 
    :depends snp-sites: 

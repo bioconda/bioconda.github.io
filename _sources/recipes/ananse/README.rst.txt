@@ -28,17 +28,17 @@ ananse
       
       
 
-      ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``v0.1.2-0``
+      ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``v0.1.2-0``
 
       
 
    
    :depends adjusttext: 
    :depends dask: 
-   :depends gimmemotifs: ``0.15.2.*``
+   :depends gimmemotifs: ``>=0.15.3``
    :depends loguru: 
    :depends networkx: 
-   :depends pandas: ``1.1.5.*``
+   :depends pyranges: 
    :depends pytables: 
    :depends python: ``>=3.7``
    :requirements:

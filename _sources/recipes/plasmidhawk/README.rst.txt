@@ -27,14 +27,14 @@ plasmidhawk
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends biopython: 
    :depends mummer4: 
-   :depends pan-plaster: ``1.1.2``
+   :depends pan-plaster: ``>=1.1.2``
    :depends python: ``>=3``
    :depends tqdm: 
    :requirements:
