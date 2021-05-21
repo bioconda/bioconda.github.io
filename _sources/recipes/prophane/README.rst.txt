@@ -27,14 +27,18 @@ prophane
       
       
 
-      ``4.0.5-1``,  ``4.0.5-0``,  ``4.0.3-0``,  ``4.0.2-0``
+      ``6.0.1-0``,  ``4.0.5-1``,  ``4.0.5-0``,  ``4.0.3-0``,  ``4.0.2-0``
 
       
 
    
    :depends biopython: 
+   :depends click: 
    :depends gitpython: 
+   :depends mamba: 
+   :depends openpyxl: 
    :depends pandas: 
+   :depends pyteomics: 
    :depends pytools: 
    :depends snakemake: ``>=5.7``
    :requirements:
