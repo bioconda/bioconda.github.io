@@ -27,19 +27,19 @@ squeegee
       
       
 
-      ``0.1.3-0``
+      ``0.2.0-0``,  ``0.1.3-0``
 
       
 
    
    :depends biopython: 
-   :depends bowtie2: 
-   :depends kraken: 
-   :depends mash: 
-   :depends meryl: 
+   :depends bowtie2: ``>=2.3.5``
+   :depends kraken: ``>=1.1.1``
+   :depends mash: ``>=2.2.2``
+   :depends meryl: ``>=1.2``
    :depends numpy: 
    :depends python: ``>=3.6``
-   :depends samtools: 
+   :depends samtools: ``>=1.11``
    :requirements:
 
    .. rubric:: Installation
