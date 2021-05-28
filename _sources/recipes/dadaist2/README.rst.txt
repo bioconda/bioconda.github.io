@@ -28,10 +28,10 @@ dadaist2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.7-1</code>,  <code>0.7.7-0</code>,  <code>0.7.5-0</code>,  <code>0.7.3-2</code>,  <code>0.7.3-1</code>,  <code>0.7.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.7-1</code>,  <code>0.7.7-0</code>,  <code>0.7.5-0</code>,  <code>0.7.3-2</code>,  <code>0.7.3-1</code>,  </span></summary>
       
 
-      ``1.0.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.3-2``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.00-2``,  ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.3-2``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.00-2``,  ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ dadaist2
       
 
    
-   :depends bioconductor-dada2: 
+   :depends bioconductor-dada2: ``1.18.0.*``
    :depends bioconductor-decipher: 
    :depends bioconductor-microbiome: 
    :depends bioconductor-phyloseq: 
-   :depends biom-format: 
+   :depends biom-format: ``2.1.10.*``
    :depends clustalo: 
-   :depends cutadapt: 
+   :depends cutadapt: ``>=3.4``
    :depends fastp: 
    :depends fasttree: 
    :depends pandas: ``>=1.0``
@@ -54,6 +54,7 @@ dadaist2
    :depends perl-fastx-reader: ``>=0.90``
    :depends python: ``>=3``
    :depends qax: 
+   :depends r-matrix: ``1.3-2.*``
    :depends seqfu: 
    :requirements:
 

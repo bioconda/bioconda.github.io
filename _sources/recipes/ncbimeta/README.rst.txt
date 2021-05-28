@@ -27,16 +27,16 @@ ncbimeta
       
       
 
-      ``0.7.0-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
+      ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
 
       
 
    
    :depends biopython: ``>=1.74,<1.77``
-   :depends lxml: ``>=4.4.2``
-   :depends numpy: ``>=1.16.4``
-   :depends python: ``>3``
-   :depends pyyaml: ``>=5.1.2``
+   :depends lxml: ``>=4.6.3``
+   :depends numpy: ``>=1.19.3,<=1.19.5``
+   :depends python: ``>=3.6``
+   :depends pyyaml: ``>=5.4``
    :requirements:
 
    .. rubric:: Installation

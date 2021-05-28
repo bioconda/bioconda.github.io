@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>chat &#8212; Bioconda  documentation</title>
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -81,8 +81,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.config.html">config</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.events.html">events</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.tasks.html">tasks</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.views.html">views</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.web.html">web</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.worker.html">worker</a></li>
 </ul>
 </li>
@@ -136,8 +134,8 @@
 </table>
 <p class="rubric">Documentation</p>
 <dl class="py class">
-<dt id="bioconda_utils.bot.chat.GitterListener">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.chat.</span></code><code class="sig-name descname"><span class="pre">GitterListener</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">token</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rooms</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">session</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghappapi</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.chat.GitterListener">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.chat.</span></span><span class="sig-name descname"><span class="pre">GitterListener</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">token</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rooms</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">session</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghappapi</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener" title="Permalink to this definition">¶</a></dt>
 <dd><p>Listens to messages in a Gitter chat room</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -149,8 +147,8 @@
 </dd>
 </dl>
 <dl class="py method">
-<dt id="bioconda_utils.bot.chat.GitterListener.handle_msg">
-<em class="property"><span class="pre">async</span> </em><code class="sig-name descname"><span class="pre">handle_msg</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">room</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener.handle_msg"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener.handle_msg" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.chat.GitterListener.handle_msg">
+<em class="property"><span class="pre">async</span> </em><span class="sig-name descname"><span class="pre">handle_msg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">room</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">message</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener.handle_msg"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener.handle_msg" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse Gitter message and dispatch via command_routes</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -160,8 +158,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt id="bioconda_utils.bot.chat.GitterListener.listen">
-<em class="property"><span class="pre">async</span> </em><code class="sig-name descname"><span class="pre">listen</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">room_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener.listen"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener.listen" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.chat.GitterListener.listen">
+<em class="property"><span class="pre">async</span> </em><span class="sig-name descname"><span class="pre">listen</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">room_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener.listen"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener.listen" title="Permalink to this definition">¶</a></dt>
 <dd><p>Main run loop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -171,8 +169,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt id="bioconda_utils.bot.chat.GitterListener.shutdown">
-<em class="property"><span class="pre">async</span> </em><code class="sig-name descname"><span class="pre">shutdown</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_app</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener.shutdown"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener.shutdown" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.chat.GitterListener.shutdown">
+<em class="property"><span class="pre">async</span> </em><span class="sig-name descname"><span class="pre">shutdown</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_app</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener.shutdown"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener.shutdown" title="Permalink to this definition">¶</a></dt>
 <dd><p>Send cancel signal to listener</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -182,8 +180,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt id="bioconda_utils.bot.chat.GitterListener.start">
-<em class="property"><span class="pre">async</span> </em><code class="sig-name descname"><span class="pre">start</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener.start"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener.start" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.chat.GitterListener.start">
+<em class="property"><span class="pre">async</span> </em><span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/chat.html#GitterListener.start"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.chat.GitterListener.start" title="Permalink to this definition">¶</a></dt>
 <dd><p>Start listeners</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -195,8 +193,8 @@
 </dd></dl>
 
 <dl class="py data">
-<dt id="bioconda_utils.bot.chat.logger">
-<code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.chat.</span></code><code class="sig-name descname"><span class="pre">logger</span></code><em class="property"> <span class="pre">=</span> <span class="pre">&lt;Logger</span> <span class="pre">bioconda_utils.bot.chat</span> <span class="pre">(WARNING)&gt;</span></em><a class="headerlink" href="#bioconda_utils.bot.chat.logger" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.chat.logger">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.chat.</span></span><span class="sig-name descname"><span class="pre">logger</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;Logger</span> <span class="pre">bioconda_utils.bot.chat</span> <span class="pre">(WARNING)&gt;</span></em><a class="headerlink" href="#bioconda_utils.bot.chat.logger" title="Permalink to this definition">¶</a></dt>
 <dd><p>//webhooks.gitter.im/e/b9e5fad23b9cf034879083a</p>
 <p>POST
 { message: ‘message’, level=’error|normal’ }</p>
@@ -220,7 +218,7 @@
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -29,10 +29,10 @@ sortmerna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.2-1</code>,  <code>4.3.2-0</code>,  <code>4.3.1-1</code>,  <code>4.3.1-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>2.1b-4</code>,  <code>2.1b-3</code>,  <code>2.1b-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.3-0</code>,  <code>4.3.2-1</code>,  <code>4.3.2-0</code>,  <code>4.3.1-1</code>,  <code>4.3.1-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>2.1b-4</code>,  <code>2.1b-3</code>,  </span></summary>
       
 
-      ``4.3.2-1``,  ``4.3.2-0``,  ``4.3.1-1``,  ``4.3.1-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``2.1b-4``,  ``2.1b-3``,  ``2.1b-2``,  ``2.1b-1``,  ``2.1b-0``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``4.3.3-0``,  ``4.3.2-1``,  ``4.3.2-0``,  ``4.3.1-1``,  ``4.3.1-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``2.1b-4``,  ``2.1b-3``,  ``2.1b-2``,  ``2.1b-1``,  ``2.1b-0``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html

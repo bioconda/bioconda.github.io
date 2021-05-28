@@ -15,6 +15,7 @@ mosdepth
    :homepage: https://github.com/brentp/mosdepth
    :license: MIT
    :recipe: /`mosdepth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosdepth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosdepth/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btx699`, biotools: :biotools:`mosdepth`
 
    
 
@@ -28,10 +29,10 @@ mosdepth
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.2.9-1</code>,  <code>0.2.9-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.2.9-1</code>,  <code>0.2.9-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  </span></summary>
       
 
-      ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.9-1``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4a-0``,  ``0.1.3-0``,  ``0.1.1-0``
+      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.9-1``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4a-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -40,7 +41,7 @@ mosdepth
       
 
    
-   :depends htslib: ``>=1.11,<1.12.0a0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends pcre: ``>=8.44,<9.0a0``
    :requirements:

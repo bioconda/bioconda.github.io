@@ -27,19 +27,20 @@ scaden
       
       
 
-      ``0.9.4-0``,  ``0.9.2-0``,  ``0.9.0-0``
+      ``1.1.1-0``,  ``0.9.4-0``,  ``0.9.2-0``,  ``0.9.0-0``
 
       
 
    
    :depends click: 
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``>=1.16.0,<1.19.0``
    :depends pandas: 
    :depends python: ``>=3``
+   :depends rich: 
    :depends scanpy: 
    :depends scikit-learn: 
-   :depends scipy: 
+   :depends scipy: ``1.4.1.*``
    :depends seaborn: 
    :depends tensorflow: ``>=2``
    :depends tqdm: 

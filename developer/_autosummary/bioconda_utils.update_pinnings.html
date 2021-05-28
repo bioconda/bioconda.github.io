@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>update_pinnings &#8212; Bioconda  documentation</title>
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -184,36 +184,36 @@
 </table>
 <p class="rubric">Documentation</p>
 <dl class="py class">
-<dt id="bioconda_utils.update_pinnings.State">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></code><code class="sig-name descname"><span class="pre">State</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.State">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></span><span class="sig-name descname"><span class="pre">State</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe Pinning State</p>
 <dl class="py attribute">
-<dt id="bioconda_utils.update_pinnings.State.BUMP">
-<code class="sig-name descname"><span class="pre">BUMP</span></code><em class="property"> <span class="pre">=</span> <span class="pre">16</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.BUMP" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.State.BUMP">
+<span class="sig-name descname"><span class="pre">BUMP</span></span><em class="property"> <span class="pre">=</span> <span class="pre">16</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.BUMP" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe has a variant that needs bumping</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="bioconda_utils.update_pinnings.State.BUMPED">
-<code class="sig-name descname"><span class="pre">BUMPED</span></code><em class="property"> <span class="pre">=</span> <span class="pre">8</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.BUMPED" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.State.BUMPED">
+<span class="sig-name descname"><span class="pre">BUMPED</span></span><em class="property"> <span class="pre">=</span> <span class="pre">8</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.BUMPED" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe has a variant that was bumped already</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="bioconda_utils.update_pinnings.State.FAIL">
-<code class="sig-name descname"><span class="pre">FAIL</span></code><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.FAIL" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.State.FAIL">
+<span class="sig-name descname"><span class="pre">FAIL</span></span><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.FAIL" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe had a failure rendering</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="bioconda_utils.update_pinnings.State.HAVE">
-<code class="sig-name descname"><span class="pre">HAVE</span></code><em class="property"> <span class="pre">=</span> <span class="pre">4</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.HAVE" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.State.HAVE">
+<span class="sig-name descname"><span class="pre">HAVE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">4</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.HAVE" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe has a variant that exists already</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="bioconda_utils.update_pinnings.State.HAVE_NOARCH_PYTHON">
-<code class="sig-name descname"><span class="pre">HAVE_NOARCH_PYTHON</span></code><em class="property"> <span class="pre">=</span> <span class="pre">32</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.HAVE_NOARCH_PYTHON" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.State.HAVE_NOARCH_PYTHON">
+<span class="sig-name descname"><span class="pre">HAVE_NOARCH_PYTHON</span></span><em class="property"> <span class="pre">=</span> <span class="pre">32</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.HAVE_NOARCH_PYTHON" title="Permalink to this definition">¶</a></dt>
 <dd><p>python variant that exists already</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -223,14 +223,14 @@
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="bioconda_utils.update_pinnings.State.SKIP">
-<code class="sig-name descname"><span class="pre">SKIP</span></code><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.SKIP" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.State.SKIP">
+<span class="sig-name descname"><span class="pre">SKIP</span></span><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#bioconda_utils.update_pinnings.State.SKIP" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recipe has a variant that will be skipped</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="bioconda_utils.update_pinnings.State.failed">
-<code class="sig-name descname"><span class="pre">failed</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State.failed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.failed" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.State.failed">
+<span class="sig-name descname"><span class="pre">failed</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State.failed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.failed" title="Permalink to this definition">¶</a></dt>
 <dd><p>True if the update pinning check failed</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -240,8 +240,8 @@
 </dd></dl>
 
 <dl class="py method">
-<dt id="bioconda_utils.update_pinnings.State.needs_bump">
-<code class="sig-name descname"><span class="pre">needs_bump</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State.needs_bump"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.needs_bump" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.State.needs_bump">
+<span class="sig-name descname"><span class="pre">needs_bump</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#State.needs_bump"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.State.needs_bump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks if the state indicates that the recipe needs to be bumped</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -253,8 +253,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt id="bioconda_utils.update_pinnings.check">
-<code class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></code><code class="sig-name descname"><span class="pre">check</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">build_config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">keep_metas</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_variant_keys</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">frozenset({})</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#check"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.check" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.check">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></span><span class="sig-name descname"><span class="pre">check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">recipe</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">build_config</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">keep_metas</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_variant_keys</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">frozenset({})</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#check"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Determine if a given recipe should have its build number increments
 (bumped) due to a recent change in pinnings.</p>
 <dl class="field-list simple">
@@ -276,8 +276,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt id="bioconda_utils.update_pinnings.have_noarch_python_build_number">
-<code class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></code><code class="sig-name descname"><span class="pre">have_noarch_python_build_number</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">meta</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#have_noarch_python_build_number"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.have_noarch_python_build_number" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.have_noarch_python_build_number">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></span><span class="sig-name descname"><span class="pre">have_noarch_python_build_number</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">meta</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#have_noarch_python_build_number"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.have_noarch_python_build_number" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks if we have a noarch:python build with same version+build_number</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -293,8 +293,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt id="bioconda_utils.update_pinnings.have_variant">
-<code class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></code><code class="sig-name descname"><span class="pre">have_variant</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">meta</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#have_variant"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.have_variant" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.have_variant">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></span><span class="sig-name descname"><span class="pre">have_variant</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">meta</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#have_variant"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.have_variant" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks if we have an exact match to name/version/buildstring</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -310,8 +310,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt id="bioconda_utils.update_pinnings.skip_for_variants">
-<code class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></code><code class="sig-name descname"><span class="pre">skip_for_variants</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">meta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">variant_keys</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#skip_for_variants"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.skip_for_variants" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.skip_for_variants">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></span><span class="sig-name descname"><span class="pre">skip_for_variants</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">meta</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">variant_keys</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#skip_for_variants"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.skip_for_variants" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if the recipe uses any given variant keys</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -327,8 +327,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt id="bioconda_utils.update_pinnings.will_build_only_missing">
-<code class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></code><code class="sig-name descname"><span class="pre">will_build_only_missing</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">metas</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#will_build_only_missing"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.will_build_only_missing" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.will_build_only_missing">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></span><span class="sig-name descname"><span class="pre">will_build_only_missing</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">metas</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#will_build_only_missing"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.will_build_only_missing" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks if only new builds will be added (no divergent build ids exist)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -344,8 +344,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt id="bioconda_utils.update_pinnings.will_build_variant">
-<code class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></code><code class="sig-name descname"><span class="pre">will_build_variant</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">meta</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#will_build_variant"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.will_build_variant" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.update_pinnings.will_build_variant">
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.update_pinnings.</span></span><span class="sig-name descname"><span class="pre">will_build_variant</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">meta</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/update_pinnings.html#will_build_variant"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.update_pinnings.will_build_variant" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if the recipe variant will be built as currently rendered</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -374,7 +374,7 @@ by the variant MetaData.</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

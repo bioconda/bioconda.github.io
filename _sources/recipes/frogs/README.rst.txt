@@ -16,7 +16,7 @@ frogs
    :license: GNU GPL v3
    :recipe: /`frogs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs/meta.yaml>`_
 
-   FROGS produces an OTUs count matrix from high depth sequencing amplicon data. This is the official release 3.2.2 of FROGS. To fully install FROGS dependencies\, please refer to the frogs\-conda\-requirements.txt available at https\:\/\/github.com\/geraldinepascal\/FROGS
+   FROGS produces an OTUs count matrix from high depth sequencing amplicon data. This is the official release 3.2.3 of FROGS. To fully install FROGS dependencies\, please refer to the frogs\-conda\-requirements.txt available at https\:\/\/github.com\/geraldinepascal\/FROGS
 
 
 .. conda:package:: frogs
@@ -27,7 +27,7 @@ frogs
       
       
 
-      ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 

@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>tasks &#8212; Bioconda  documentation</title>
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css" />
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="views" href="bioconda_utils.bot.views.html" />
+    <link rel="next" title="worker" href="bioconda_utils.bot.worker.html" />
     <link rel="prev" title="events" href="bioconda_utils.bot.events.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
@@ -81,8 +81,6 @@
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.config.html">config</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.events.html">events</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">tasks</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.views.html">views</a></li>
-<li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.web.html">web</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bioconda_utils.bot.worker.html">worker</a></li>
 </ul>
 </li>
@@ -181,8 +179,8 @@
 </table>
 <p class="rubric">Documentation</p>
 <dl class="py class">
-<dt id="bioconda_utils.bot.tasks.Checkout">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">Checkout</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">issue_number</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">branch_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'master'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/tasks.html#Checkout"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.tasks.Checkout" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Checkout">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">Checkout</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">issue_number</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">branch_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'master'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/bot/tasks.html#Checkout"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.bot.tasks.Checkout" title="Permalink to this definition">¶</a></dt>
 <dd><p>Async context manager checking out git repo</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -203,62 +201,62 @@
 </dd></dl>
 
 <dl class="py class">
-<dt id="bioconda_utils.bot.tasks.Image">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">Image</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tag</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.Image" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Image">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">Image</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tag</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.Image" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create new instance of Image(url, name, tag)</p>
-<dl class="py method">
-<dt id="bioconda_utils.bot.tasks.Image.name">
-<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">name</span></code><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.name" title="Permalink to this definition">¶</a></dt>
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Image.name">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">name</span></span><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.name" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 1</p>
 </dd></dl>
 
-<dl class="py method">
-<dt id="bioconda_utils.bot.tasks.Image.tag">
-<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">tag</span></code><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.tag" title="Permalink to this definition">¶</a></dt>
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Image.tag">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">tag</span></span><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.tag" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 2</p>
 </dd></dl>
 
-<dl class="py method">
-<dt id="bioconda_utils.bot.tasks.Image.url">
-<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">url</span></code><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.url" title="Permalink to this definition">¶</a></dt>
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Image.url">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">url</span></span><a class="headerlink" href="#bioconda_utils.bot.tasks.Image.url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 0</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py class">
-<dt id="bioconda_utils.bot.tasks.Package">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">Package</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fname</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">repodata_md</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.Package" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Package">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">Package</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fname</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">repodata_md</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.Package" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create new instance of Package(arch, fname, url, repodata_md)</p>
-<dl class="py method">
-<dt id="bioconda_utils.bot.tasks.Package.arch">
-<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">arch</span></code><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.arch" title="Permalink to this definition">¶</a></dt>
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Package.arch">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">arch</span></span><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.arch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 0</p>
 </dd></dl>
 
-<dl class="py method">
-<dt id="bioconda_utils.bot.tasks.Package.fname">
-<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">fname</span></code><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.fname" title="Permalink to this definition">¶</a></dt>
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Package.fname">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">fname</span></span><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.fname" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 1</p>
 </dd></dl>
 
-<dl class="py method">
-<dt id="bioconda_utils.bot.tasks.Package.repodata_md">
-<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">repodata_md</span></code><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.repodata_md" title="Permalink to this definition">¶</a></dt>
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Package.repodata_md">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">repodata_md</span></span><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.repodata_md" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 3</p>
 </dd></dl>
 
-<dl class="py method">
-<dt id="bioconda_utils.bot.tasks.Package.url">
-<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">url</span></code><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.url" title="Permalink to this definition">¶</a></dt>
+<dl class="py property">
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.Package.url">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">url</span></span><a class="headerlink" href="#bioconda_utils.bot.tasks.Package.url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 2</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.bump">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">bump</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">issue_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.bump" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.bump">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">bump</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">issue_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.bump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bump the build number in each recipe in PR</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -268,8 +266,8 @@
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.check_circle_artifacts">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">check_circle_artifacts</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.check_circle_artifacts" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.check_circle_artifacts">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">check_circle_artifacts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.check_circle_artifacts" title="Permalink to this definition">¶</a></dt>
 <dd><p>Checks for packages and images uploaded to CircleCI artifacts</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -279,8 +277,8 @@
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.create_check_run">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">create_check_run</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head_sha</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recreate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.create_check_run" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.create_check_run">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">create_check_run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head_sha</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recreate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.create_check_run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Creates a <code class="docutils literal notranslate"><span class="pre">check_run</span></code> on GitHub</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -294,20 +292,20 @@ one already exists</p></li>
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.create_welcome_post">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">create_welcome_post</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.create_welcome_post" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.create_welcome_post">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">create_welcome_post</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.create_welcome_post" title="Permalink to this definition">¶</a></dt>
 <dd><p>Post welcome message for first timers</p>
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.get_latest_pr_commit">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">get_latest_pr_commit</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">issue_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.get_latest_pr_commit" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.get_latest_pr_commit">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">get_latest_pr_commit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">issue_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.get_latest_pr_commit" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns last commit</p>
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.lint_check">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">lint_check</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">check_run_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.lint_check" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.lint_check">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">lint_check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">check_run_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.lint_check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute linter</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -320,8 +318,8 @@ one already exists</p></li>
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.lint_fix">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">lint_fix</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head_branch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_sha</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.lint_fix" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.lint_fix">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">lint_fix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head_branch</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_sha</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.lint_fix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Execute linter in fix mode</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -334,8 +332,8 @@ one already exists</p></li>
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.merge_pr">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">merge_pr</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">comment_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.merge_pr" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.merge_pr">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">merge_pr</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">comment_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.merge_pr" title="Permalink to this definition">¶</a></dt>
 <dd><p>Merges a PR</p>
 <ul class="simple">
 <li><p>Downloads artifacts from CircleCI</p></li>
@@ -358,8 +356,8 @@ one already exists</p></li>
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.post_result">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">post_result</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">result</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_comment_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.post_result" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.post_result">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">post_result</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">result</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">_comment_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.post_result" title="Permalink to this definition">¶</a></dt>
 <dd><p>Proxy that evaluates object once.</p>
 <p><code class="xref py py-class docutils literal notranslate"><span class="pre">Proxy</span></code> will evaluate the object each time, while the
 promise will only evaluate it once.</p>
@@ -371,8 +369,8 @@ promise will only evaluate it once.</p>
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.run_autobump">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">run_autobump</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package_names</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">_args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.run_autobump" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.run_autobump">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">run_autobump</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package_names</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">_args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.run_autobump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Runs <code class="docutils literal notranslate"><span class="pre">autobump</span></code> on packages</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -382,8 +380,8 @@ promise will only evaluate it once.</p>
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.trigger_circle_rebuild">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">trigger_circle_rebuild</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.trigger_circle_rebuild" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.trigger_circle_rebuild">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">trigger_circle_rebuild</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pr_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.trigger_circle_rebuild" title="Permalink to this definition">¶</a></dt>
 <dd><p>Triggers a rebuild of the latest commit for a PR on CircleCI</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -393,8 +391,8 @@ promise will only evaluate it once.</p>
 </dd></dl>
 
 <dl class="py task">
-<dt id="bioconda_utils.bot.tasks.update_pr_project_columns">
-<em class="property"><span class="pre">(task)</span></em><code class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></code><code class="sig-name descname"><span class="pre">update_pr_project_columns</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">issue_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">_args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.update_pr_project_columns" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="bioconda_utils.bot.tasks.update_pr_project_columns">
+<em class="property"><span class="pre">(task)</span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.bot.tasks.</span></span><span class="sig-name descname"><span class="pre">update_pr_project_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">issue_number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghapi</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">_args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.bot.tasks.update_pr_project_columns" title="Permalink to this definition">¶</a></dt>
 <dd><p>Updates project columns for PR according to labels</p>
 </dd></dl>
 
@@ -411,7 +409,7 @@ promise will only evaluate it once.</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
