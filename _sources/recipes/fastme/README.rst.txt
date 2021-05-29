@@ -13,7 +13,7 @@ fastme
    a comprehensive\, accurate and fast distance\-based phylogeny inference program.
 
    :homepage: http://www.atgc-montpellier.fr/fastme/binaries.php
-   :license: GPLv3
+   :license: GPL / GPLv3
    :recipe: /`fastme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastme/meta.yaml>`_
    :links: biotools: :biotools:`fastme`, doi: :doi:`10.1093/molbev/msv150`
 
@@ -28,12 +28,12 @@ fastme
       
       
 
-      ``2.1.5-0``
+      ``2.1.6.1-0``,  ``2.1.5-0``
 
       
 
    
-   :depends libgcc: 
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
