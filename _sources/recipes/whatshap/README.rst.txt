@@ -44,7 +44,8 @@ whatshap
    :depends biopython: ``>=1.73``
    :depends dataclasses: 
    :depends htslib: 
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends networkx: ``>=2.4``
    :depends pyfaidx: ``>=0.5.5.2``
    :depends pysam: ``0.16.*``

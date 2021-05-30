@@ -30,7 +30,7 @@ demuxem
       
       
 
-      ``0.1.5.post1-0``
+      ``0.1.6-0``,  ``0.1.5.post1-0``
 
       
 
@@ -38,8 +38,8 @@ demuxem
    :depends importlib_metadata: ``>=0.7``
    :depends numpy: 
    :depends pandas: 
-   :depends pegasusio: 
-   :depends python: ``>=3.6``
+   :depends pegasusio: ``>=0.2.12``
+   :depends python: ``>=3.7``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 

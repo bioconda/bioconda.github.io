@@ -13,7 +13,7 @@ cnvkit
    Copy number variant detection from high\-throughput sequencing
 
    :homepage: https://github.com/etal/cnvkit
-   :license: Apache License 2.0
+   :license: Apache-2.0
    :recipe: /`cnvkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cnvkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cnvkit/meta.yaml>`_
    :links: biotools: :biotools:`cnvkit`, doi: :doi:`10.1371/journal.pcbi.1004873`
 
@@ -29,10 +29,10 @@ cnvkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.8-0</code>,  <code>0.9.7-1</code>,  <code>0.9.7-0</code>,  <code>0.9.6-2</code>,  <code>0.9.6-1</code>,  <code>0.9.6-0</code>,  <code>0.9.6a0-2</code>,  <code>0.9.6a0-1</code>,  <code>0.9.6a0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.9-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-1</code>,  <code>0.9.7-0</code>,  <code>0.9.6-2</code>,  <code>0.9.6-1</code>,  <code>0.9.6-0</code>,  <code>0.9.6a0-2</code>,  <code>0.9.6a0-1</code>,  </span></summary>
       
 
-      ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.6a0-2``,  ``0.9.6a0-1``,  ``0.9.6a0-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4a0-0``,  ``0.9.3-2``,  ``0.9.2-2``,  ``0.9.2a0-2``,  ``0.9.2a0-1``,  ``0.9.2a0-0``,  ``0.9.1-0``,  ``0.9.1a0-0``,  ``0.9.0-0``,  ``0.8.6a0-2``,  ``0.8.6a0-1``,  ``0.8.6a0-0``,  ``0.8.5-0``,  ``0.8.5dev0-1``,  ``0.8.5dev0-0``,  ``0.8.4-0``,  ``0.8.3a0-1``,  ``0.8.3a0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``
+      ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.6a0-2``,  ``0.9.6a0-1``,  ``0.9.6a0-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4a0-0``,  ``0.9.3-2``,  ``0.9.2-2``,  ``0.9.2a0-2``,  ``0.9.2a0-1``,  ``0.9.2a0-0``,  ``0.9.1-0``,  ``0.9.1a0-0``,  ``0.9.0-0``,  ``0.8.6a0-2``,  ``0.8.6a0-1``,  ``0.8.6a0-0``,  ``0.8.5-0``,  ``0.8.5dev0-1``,  ``0.8.5dev0-0``,  ``0.8.4-0``,  ``0.8.3a0-1``,  ``0.8.3a0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``
 
       
       .. raw:: html
@@ -43,15 +43,15 @@ cnvkit
    
    :depends bioconductor-dnacopy: 
    :depends biopython: ``>=1.62``
-   :depends future: ``>=0.15.2``
+   :depends joblib: ``<1.0``
    :depends matplotlib-base: ``>=1.3.1``
+   :depends networkx: ``>=2.4``
    :depends numpy: ``>=1.9``
-   :depends pandas: ``>=0.22.0``
+   :depends pandas: ``>=0.23.3``
    :depends pomegranate: ``>=0.9.0``
    :depends pyfaidx: ``>=0.4.7``
    :depends pysam: ``>=0.10.0``
    :depends python: ``>=3.5``
-   :depends python-dateutil: ``>=2.5.0``
    :depends r-base: ``>=3.4.1``
    :depends r-cghflasso: 
    :depends reportlab: ``>=3.0``

@@ -27,7 +27,7 @@ motulizer
       
       
 
-      ``0.2.1a0-0``
+      ``0.2.1a0-1``,  ``0.2.1a0-0``
 
       
 
@@ -35,9 +35,12 @@ motulizer
    :depends biopython: 
    :depends cd-hit: 
    :depends fastani: 
+   :depends h5py: 
+   :depends hdf5plugin: 
    :depends mmseqs2: 
    :depends python: 
    :depends python-igraph: 
+   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation

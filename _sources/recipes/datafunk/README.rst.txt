@@ -27,7 +27,7 @@ datafunk
       
       
 
-      ``0.0.8-0``
+      ``0.0.9-0``,  ``0.0.8-0``
 
       
 
@@ -39,6 +39,7 @@ datafunk
    :depends pycountry: ``>=19.8.18``
    :depends pysam: ``>=0.15.4``
    :depends python: 
+   :depends unidecode: 
    :requirements:
 
    .. rubric:: Installation

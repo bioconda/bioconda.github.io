@@ -28,15 +28,15 @@ tb_variant_filter
       
       
 
-      ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
+      ``0.3.5-0``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.1-0``
 
       
 
    
    :depends intervaltree: 
    :depends lxml: 
+   :depends neo4j-python-driver: 
    :depends pandas: 
-   :depends py2neo: ``>=4.2.0``
    :depends python: ``>=3.7``
    :depends requests: 
    :depends vcfpy: 
