@@ -26,14 +26,22 @@ bioconductor-cmap
    :versions:
       
       
+      .. raw:: html
 
-      ``1.15.1-9``,  ``1.15.1-8``,  ``1.15.1-7``,  ``1.15.1-6``,  ``1.15.1-5``,  ``1.15.1-4``,  ``1.15.1-3``,  ``1.15.1-2``,  ``1.15.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.15.1-10</code>,  <code>1.15.1-9</code>,  <code>1.15.1-8</code>,  <code>1.15.1-7</code>,  <code>1.15.1-6</code>,  <code>1.15.1-5</code>,  <code>1.15.1-4</code>,  <code>1.15.1-3</code>,  <code>1.15.1-2</code>,  </span></summary>
+      
 
+      ``1.15.1-10``,  ``1.15.1-9``,  ``1.15.1-8``,  ``1.15.1-7``,  ``1.15.1-6``,  ``1.15.1-5``,  ``1.15.1-4``,  ``1.15.1-3``,  ``1.15.1-2``,  ``1.15.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

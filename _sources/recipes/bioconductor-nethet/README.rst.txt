@@ -27,17 +27,16 @@ bioconductor-nethet
       
       
 
-      ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.0-0``
+      ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-multtest: ``>=2.48.0,<2.49.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-compquadform: 
    :depends r-genenet: 
    :depends r-ggm: 

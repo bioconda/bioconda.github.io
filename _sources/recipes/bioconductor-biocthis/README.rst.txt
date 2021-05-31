@@ -27,12 +27,12 @@ bioconductor-biocthis
       
       
 
-      ``1.0.10-0``,  ``1.0.0-1``
+      ``1.2.0-0``,  ``1.0.10-0``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-fs: 
    :depends r-glue: 

@@ -28,10 +28,10 @@ bioconductor-yeastexpdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.36.0-1</code>,  <code>0.36.0-0</code>,  <code>0.34.0-0</code>,  <code>0.32.0-0</code>,  <code>0.30.0-1</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  <code>0.24.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.38.0-0</code>,  <code>0.36.0-1</code>,  <code>0.36.0-0</code>,  <code>0.34.0-0</code>,  <code>0.32.0-0</code>,  <code>0.30.0-1</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  </span></summary>
       
 
-      ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.22.0-0``
+      ``0.38.0-0``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.22.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-yeastexpdata
       
 
    
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

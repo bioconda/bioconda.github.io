@@ -27,21 +27,19 @@ bioconductor-carnival
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.2.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-category: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-uniprot.ws: ``>=2.29.0,<2.30.0``
-   :depends bioconductor-viper: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-doparallel: 
-   :depends r-ggplot2: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-dplyr: 
    :depends r-igraph: 
    :depends r-lpsolve: 
    :depends r-readr: 
+   :depends r-rjson: 
+   :depends r-rmarkdown: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

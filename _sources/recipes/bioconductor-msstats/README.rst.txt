@@ -27,34 +27,38 @@ bioconductor-msstats
    :versions:
       
       
+      .. raw:: html
 
-      ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.22.1-1</code>,  <code>3.22.1-0</code>,  <code>3.22.0-0</code>,  <code>3.20.1-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-1</code>,  <code>3.14.1-0</code>,  </span></summary>
+      
 
+      ``4.0.0-0``,  ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-marray: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-broom: 
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-marray: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-msstatsconvert: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-checkmate: 
    :depends r-data.table: 
-   :depends r-dosnow: 
-   :depends r-dplyr: 
-   :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gplots: 
    :depends r-lme4: 
    :depends r-mass: 
-   :depends r-minpack.lm: 
-   :depends r-purrr: 
-   :depends r-reshape2: 
-   :depends r-snow: 
-   :depends r-statmod: 
-   :depends r-stringr: 
+   :depends r-rcpp: 
+   :depends r-rcpparmadillo: 
    :depends r-survival: 
-   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

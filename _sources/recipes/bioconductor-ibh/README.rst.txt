@@ -27,14 +27,22 @@ bioconductor-ibh
    :versions:
       
       
+      .. raw:: html
 
-      ``1.38.0-2``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-2</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
+      
 
+      ``1.40.0-0``,  ``1.38.0-2``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-simpintlists: ``>=1.26.0,<1.27.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-simpintlists: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

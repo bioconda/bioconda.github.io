@@ -27,12 +27,12 @@ bioconductor-omixer
       
       
 
-      ``1.0.4-0``,  ``1.0.0-1``
+      ``1.2.1-0``,  ``1.0.4-0``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-ggplot2: 

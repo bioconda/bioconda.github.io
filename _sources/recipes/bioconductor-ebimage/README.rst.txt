@@ -29,10 +29,10 @@ bioconductor-ebimage
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.32.0-1</code>,  <code>4.32.0-0</code>,  <code>4.30.0-0</code>,  <code>4.28.0-0</code>,  <code>4.26.0-1</code>,  <code>4.24.0-0</code>,  <code>4.22.1-0</code>,  <code>4.20.0-0</code>,  <code>4.18.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.34.0-0</code>,  <code>4.32.0-1</code>,  <code>4.32.0-0</code>,  <code>4.30.0-0</code>,  <code>4.28.0-0</code>,  <code>4.26.0-1</code>,  <code>4.24.0-0</code>,  <code>4.22.1-0</code>,  <code>4.20.0-0</code>,  </span></summary>
       
 
-      ``4.32.0-1``,  ``4.32.0-0``,  ``4.30.0-0``,  ``4.28.0-0``,  ``4.26.0-1``,  ``4.24.0-0``,  ``4.22.1-0``,  ``4.20.0-0``,  ``4.18.3-0``,  ``4.13.0-0``,  ``4.12.2-0``
+      ``4.34.0-0``,  ``4.32.0-1``,  ``4.32.0-0``,  ``4.30.0-0``,  ``4.28.0-0``,  ``4.26.0-1``,  ``4.24.0-0``,  ``4.22.1-0``,  ``4.20.0-0``,  ``4.18.3-0``,  ``4.13.0-0``,  ``4.12.2-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-ebimage
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-abind: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-fftwtools: ``>=0.9-7``
    :depends r-htmltools: 
    :depends r-htmlwidgets: 

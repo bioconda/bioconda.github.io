@@ -29,10 +29,10 @@ bioconductor-edger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.32.1-0</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-1</code>,  <code>3.28.0-0</code>,  <code>3.26.5-0</code>,  <code>3.26.0-0</code>,  <code>3.24.3-0</code>,  <code>3.24.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.34.0-0</code>,  <code>3.32.1-0</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-1</code>,  <code>3.28.0-0</code>,  <code>3.26.5-0</code>,  <code>3.26.0-0</code>,  <code>3.24.3-0</code>,  </span></summary>
       
 
-      ``3.32.1-0``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.5-0``,  ``3.26.0-0``,  ``3.24.3-0``,  ``3.24.1-0``,  ``3.22.5-0``,  ``3.20.7-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.1-0``,  ``3.16.5-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.1-1``,  ``3.12.1-0``,  ``3.12.0-0``,  ``3.10.5-0``
+      ``3.34.0-0``,  ``3.32.1-0``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.5-0``,  ``3.26.0-0``,  ``3.24.3-0``,  ``3.24.1-0``,  ``3.22.5-0``,  ``3.20.7-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.1-0``,  ``3.16.5-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.1-1``,  ``3.12.1-0``,  ``3.12.0-0``,  ``3.10.5-0``
 
       
       .. raw:: html
@@ -41,12 +41,11 @@ bioconductor-edger
       
 
    
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-locfit: 
    :depends r-rcpp: 
    :requirements:
