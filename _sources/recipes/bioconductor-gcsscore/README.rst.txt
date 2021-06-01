@@ -27,14 +27,14 @@ bioconductor-gcsscore
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-affxparser: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-affxparser: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-data.table: 
    :depends r-devtools: 

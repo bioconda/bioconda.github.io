@@ -27,14 +27,14 @@ bioconductor-treeandleaf
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-reder: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-reder: ``>=1.40.0,<1.41.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :requirements:
 

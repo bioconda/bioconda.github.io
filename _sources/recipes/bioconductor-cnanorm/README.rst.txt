@@ -43,7 +43,8 @@ bioconductor-cnanorm
    
    :depends bioconductor-dnacopy: ``>=1.66.0,<1.67.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgfortran: ``5.*``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgfortran-ng: 
    :depends libgfortran5: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``

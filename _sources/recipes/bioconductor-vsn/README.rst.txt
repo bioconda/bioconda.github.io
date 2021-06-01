@@ -29,10 +29,10 @@ bioconductor-vsn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.58.0-1</code>,  <code>3.58.0-0</code>,  <code>3.56.0-0</code>,  <code>3.54.0-0</code>,  <code>3.52.0-1</code>,  <code>3.50.0-0</code>,  <code>3.48.1-0</code>,  <code>3.46.0-0</code>,  <code>3.44.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.60.0-0</code>,  <code>3.58.0-1</code>,  <code>3.58.0-0</code>,  <code>3.56.0-0</code>,  <code>3.54.0-0</code>,  <code>3.52.0-1</code>,  <code>3.50.0-0</code>,  <code>3.48.1-0</code>,  <code>3.46.0-0</code>,  </span></summary>
       
 
-      ``3.58.0-1``,  ``3.58.0-0``,  ``3.56.0-0``,  ``3.54.0-0``,  ``3.52.0-1``,  ``3.50.0-0``,  ``3.48.1-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.38.0-1``
+      ``3.60.0-0``,  ``3.58.0-1``,  ``3.58.0-0``,  ``3.56.0-0``,  ``3.54.0-0``,  ``3.52.0-1``,  ``3.50.0-0``,  ``3.48.1-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.38.0-1``
 
       
       .. raw:: html
@@ -41,13 +41,12 @@ bioconductor-vsn
       
 
    
-   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
+   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-lattice: 
    :requirements:

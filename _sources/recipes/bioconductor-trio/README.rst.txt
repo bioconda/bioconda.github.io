@@ -27,14 +27,22 @@ bioconductor-trio
    :versions:
       
       
+      .. raw:: html
 
-      ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.30.0-0</code>,  <code>3.28.0-1</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-1</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  </span></summary>
+      
 
+      ``3.30.0-0``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-siggenes: ``>=1.64.0,<1.65.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-siggenes: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-logicreg: ``>=1.6.1``
    :depends r-survival: 
    :requirements:

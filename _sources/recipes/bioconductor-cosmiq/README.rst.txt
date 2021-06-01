@@ -28,19 +28,18 @@ bioconductor-cosmiq
       
       
 
-      ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.12.0-0``
+      ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-faahko: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-massspecwavelet: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-xcms: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-faahko: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-massspecwavelet: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-xcms: ``>=3.14.0,<3.15.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-pracma: 
    :depends r-rcpp: 
    :requirements:

@@ -27,12 +27,12 @@ bioconductor-herper
       
       
 
-      ``1.0.2-0``,  ``1.0.0-1``
+      ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-reticulate: 
    :depends r-rjson: 
    :depends r-withr: 

@@ -27,13 +27,13 @@ bioconductor-deconrnaseq
       
       
 
-      ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-1``,  ``1.24.0-0``
+      ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-1``,  ``1.24.0-0``
 
       
 
    
-   :depends bioconductor-pcamethods: ``>=1.82.0,<1.83.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-pcamethods: ``>=1.84.0,<1.85.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-limsolve: 
    :requirements:

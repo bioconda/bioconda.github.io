@@ -27,19 +27,27 @@ bioconductor-cohcap
    :versions:
       
       
+      .. raw:: html
 
-      ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.26.0-0``,  ``1.24.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.1-0</code>,  <code>1.32.0-1</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.1-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+      
 
+      ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.26.0-0``,  ``1.24.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-cohcapanno: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-cohcapanno: ``>=1.28.0,<1.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends perl: ``>=5.32.0,<5.32.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: 
    :depends r-gplots: 
    :depends r-rcolorbrewer: 

@@ -29,10 +29,10 @@ bioconductor-phyloseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.26.1-0</code>,  <code>1.26.0-0</code>,  <code>1.24.2-0</code>,  <code>1.22.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.26.1-0</code>,  <code>1.26.0-0</code>,  <code>1.24.2-0</code>,  </span></summary>
       
 
-      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.1-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.22.3-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.1-0``,  ``1.16.2-1``,  ``1.14.0-0``
+      ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.1-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.22.3-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.1-0``,  ``1.16.2-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-phyloseq
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-biomformat: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biomformat: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-multtest: ``>=2.48.0,<2.49.0``
    :depends r-ade4: ``>=1.7.4``
    :depends r-ape: ``>=5.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: ``>=2.0.4``
    :depends r-data.table: ``>=1.10.4``
    :depends r-foreach: ``>=1.4.3``

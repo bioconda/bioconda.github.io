@@ -28,25 +28,32 @@ bioconductor-dialignr
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.5-0``
+      ``2.0.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.5-0``
 
       
 
    
-   :depends bioconductor-mzr: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-mzr: ``>=2.26.0,<2.27.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-ape: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-bit64: 
+   :depends r-data.table: 
    :depends r-dbi: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
-   :depends r-gridextra: 
+   :depends r-magrittr: 
+   :depends r-phangorn: 
+   :depends r-pracma: 
    :depends r-rcpp: 
+   :depends r-rcppeigen: 
+   :depends r-reticulate: 
    :depends r-rlang: 
+   :depends r-rmsnumpress: 
    :depends r-rsqlite: 
-   :depends r-scales: 
    :depends r-signal: 
    :depends r-tidyr: 
    :depends r-zoo: ``>=1.8-3``

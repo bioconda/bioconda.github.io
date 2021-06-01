@@ -28,16 +28,16 @@ bioconductor-hyperdraw
       
       
 
-      ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
+      ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-hypergraph: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-rgraphviz: ``>=2.34.0,<2.35.0``
-   :depends graphviz: ``>=2.40.1,<3.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-hypergraph: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
+   :depends graphviz: ``>=2.47.2,<3.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

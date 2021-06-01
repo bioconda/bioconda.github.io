@@ -27,16 +27,16 @@ bioconductor-rcwl
       
       
 
-      ``1.6.0-0``,  ``1.4.2-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends cwltool: ``>=1.0.2018``
+   :depends bioconductor-basilisk: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
    :depends python: ``>=2.7``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-batchtools: 
    :depends r-codetools: 
    :depends r-diagrammer: 

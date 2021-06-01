@@ -29,10 +29,10 @@ bioconductor-msnbase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.1-0</code>,  <code>2.16.0-0</code>,  <code>2.14.1-0</code>,  <code>2.12.0-0</code>,  <code>2.10.1-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.1-0</code>,  <code>2.16.0-0</code>,  <code>2.14.1-0</code>,  <code>2.12.0-0</code>,  <code>2.10.1-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.4.0-1</code>,  </span></summary>
       
 
-      ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
+      ``2.18.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -41,24 +41,23 @@ bioconductor-msnbase
       
 
    
-   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-mzid: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-mzr: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-pcamethods: ``>=1.82.0,<1.83.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-protgenerics: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-mscoreutils: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-mzid: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-mzr: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-pcamethods: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-protgenerics: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-digest: 
    :depends r-ggplot2: 
    :depends r-lattice: 

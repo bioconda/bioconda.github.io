@@ -27,19 +27,28 @@ bioconductor-msstatsptm
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``
+      ``1.2.2-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-broom: 
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-msstats: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-msstatsconvert: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-msstatstmt: ``>=2.0.0,<2.1.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-checkmate: 
+   :depends r-data.table: 
    :depends r-dplyr: 
-   :depends r-rlang: 
-   :depends r-tibble: 
-   :depends r-tidyr: 
-   :depends r-tidyselect: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-gridextra: 
+   :depends r-rcpp: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation

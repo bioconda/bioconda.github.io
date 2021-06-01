@@ -27,16 +27,16 @@ bioconductor-olingui
       
       
 
-      ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``
+      ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``
 
       
 
    
-   :depends bioconductor-marray: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-olin: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-tkwidgets: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-widgettools: ``>=1.68.0,<1.69.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-marray: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-olin: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-tkwidgets: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-widgettools: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

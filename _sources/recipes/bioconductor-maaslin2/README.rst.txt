@@ -27,15 +27,15 @@ bioconductor-maaslin2
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-lpsymphony: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-metagenomeseq: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-lpsymphony: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-metagenomeseq: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biglm: 
    :depends r-car: 
    :depends r-chemometrics: 

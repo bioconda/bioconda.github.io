@@ -27,23 +27,20 @@ bioconductor-msstatstmt
       
       
 
-      ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.5-0``,  ``1.1.2-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.5-0``,  ``1.1.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-msstats: ``>=3.22.0,<3.23.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-msstats: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-msstatsconvert: ``>=1.2.0,<1.3.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-checkmate: 
    :depends r-data.table: 
-   :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-lme4: 
    :depends r-lmertest: 
-   :depends r-matrixstats: 
-   :depends r-reshape2: 
-   :depends r-statmod: 
-   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

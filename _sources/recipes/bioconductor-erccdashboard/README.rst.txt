@@ -27,15 +27,15 @@ bioconductor-erccdashboard
       
       
 
-      ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.16.0-0``
+      ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.16.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: ``>=2.1.0``
    :depends r-gplots: 
    :depends r-gridextra: ``>=2.0.0``

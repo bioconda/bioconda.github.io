@@ -27,27 +27,30 @@ bioconductor-opossom
       
       
 
-      ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.0.0-0``
+      ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-fastica: 
    :depends r-fdrtool: 
    :depends r-igraph: ``>=1.0.0``
    :depends r-pixmap: 
+   :depends r-png: 
    :depends r-rcpp: 
    :depends r-rcppparallel: 
+   :depends r-rcurl: 
    :depends r-scatterplot3d: 
    :depends r-tsne: 
+   :depends r-xml: 
    :requirements:
 
    .. rubric:: Installation

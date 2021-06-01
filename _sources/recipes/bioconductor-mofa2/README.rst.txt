@@ -27,21 +27,20 @@ bioconductor-mofa2
       
       
 
-      ``1.0.1-0``,  ``1.0.0-1``
+      ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-delayedarray: ``>=0.16.0,<0.17.0``
-   :depends bioconductor-hdf5array: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-rhdf5: ``>=2.34.0,<2.35.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-basilisk: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
+   :depends bioconductor-hdf5array: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corrplot: 
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-forcats: 
-   :depends r-ggally: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-magrittr: 
@@ -50,6 +49,7 @@ bioconductor-mofa2
    :depends r-reshape2: 
    :depends r-reticulate: 
    :depends r-rtsne: 
+   :depends r-stringi: 
    :depends r-tidyr: 
    :depends r-uwot: 
    :requirements:

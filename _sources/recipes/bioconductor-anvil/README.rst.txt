@@ -27,14 +27,13 @@ bioconductor-anvil
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.3-0``
+      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
-   :depends r-curl: 
    :depends r-dplyr: 
    :depends r-futile.logger: 
    :depends r-httr: 
@@ -42,6 +41,7 @@ bioconductor-anvil
    :depends r-rapiclient: ``>=0.1.3``
    :depends r-rlang: 
    :depends r-tibble: 
+   :depends r-tidyr: 
    :depends r-tidyselect: 
    :requirements:
 

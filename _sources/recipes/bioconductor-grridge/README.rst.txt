@@ -27,13 +27,13 @@ bioconductor-grridge
       
       
 
-      ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-glmnet: 
    :depends r-iso: 
    :depends r-mvtnorm: 

@@ -29,10 +29,10 @@ bioconductor-kcsmart
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.48.0-1</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.50.0-0</code>,  <code>2.48.0-1</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  </span></summary>
       
 
-      ``2.48.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``
+      ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-kcsmart
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-siggenes: ``>=1.64.0,<1.65.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-multtest: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-siggenes: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-kernsmooth: 
    :requirements:
 

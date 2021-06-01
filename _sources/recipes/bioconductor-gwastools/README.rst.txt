@@ -27,16 +27,16 @@ bioconductor-gwastools
       
       
 
-      ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+      ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-dnacopy: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-gdsfmt: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-quantsmooth: ``>=1.56.0,<1.57.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-dnacopy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-gdsfmt: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-quantsmooth: ``>=1.58.0,<1.59.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dbi: 
    :depends r-gwasexacthw: 

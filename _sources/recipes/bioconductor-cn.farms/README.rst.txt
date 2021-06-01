@@ -28,22 +28,21 @@ bioconductor-cn.farms
       
       
 
-      ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+      ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
 
       
 
    
-   :depends bioconductor-affxparser: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-dnacopy: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-oligoclasses: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-affxparser: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-dnacopy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-oligo: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-ff: 
    :depends r-lattice: 

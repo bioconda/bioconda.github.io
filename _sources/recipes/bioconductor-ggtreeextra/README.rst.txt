@@ -27,12 +27,13 @@ bioconductor-ggtreeextra
       
       
 
-      ``1.0.2-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-ggtree: ``>=3.0.0,<3.1.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggnewscale: 
    :depends r-ggplot2: 
    :depends r-rlang: 

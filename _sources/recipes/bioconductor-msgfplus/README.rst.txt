@@ -27,15 +27,15 @@ bioconductor-msgfplus
       
       
 
-      ``1.24.0-1``,  ``1.24.0-0``,  ``1.18.0-0``,  ``1.16.1-0``
+      ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.18.0-0``,  ``1.16.1-0``
 
       
 
    
-   :depends bioconductor-mzid: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-protgenerics: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-mzid: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-protgenerics: ``>=1.24.0,<1.25.0``
    :depends openjdk: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation
