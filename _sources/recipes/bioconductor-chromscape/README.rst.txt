@@ -27,38 +27,48 @@ bioconductor-chromscape
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``
+      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-batchelor: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-consensusclusterplus: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-scater: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-scran: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-batchelor: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-scater: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-scran: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-sushi: ``>=1.30.0,<1.31.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-colorramps: 
    :depends r-colourpicker: 
+   :depends r-coop: 
    :depends r-dplyr: 
    :depends r-dt: 
+   :depends r-forcats: 
    :depends r-fs: 
    :depends r-ggplot2: 
    :depends r-irlba: 
    :depends r-jsonlite: 
    :depends r-kableextra: 
    :depends r-matrix: 
+   :depends r-matrixtests: 
    :depends r-msigdbr: 
    :depends r-plotly: 
+   :depends r-qs: 
    :depends r-qualv: 
+   :depends r-rcpp: 
    :depends r-rlist: 
    :depends r-rtsne: 
    :depends r-shiny: 

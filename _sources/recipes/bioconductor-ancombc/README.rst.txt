@@ -27,14 +27,14 @@ bioconductor-ancombc
       
       
 
-      ``1.0.5-0``,  ``1.0.0-2``
+      ``1.2.0-0``,  ``1.0.5-0``,  ``1.0.0-2``
 
       
 
    
-   :depends bioconductor-microbiome: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-phyloseq: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-microbiome: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-phyloseq: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mass: 
    :depends r-nloptr: 
    :depends r-rdpack: 

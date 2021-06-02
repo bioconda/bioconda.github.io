@@ -27,37 +27,45 @@ bioconductor-eventpointer
       
       
 
-      ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.4-0``,  ``2.0.1-0``
+      ``3.0.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.4-0``,  ``2.0.1-0``
 
       
 
    
-   :depends bioconductor-affxparser: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rbgl: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-rhdf5: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-sgseq: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-affxparser: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-rbgl: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-sgseq: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-tximport: ``>=1.20.0,<1.21.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends r-abind: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cobs: 
    :depends r-doparallel: 
    :depends r-foreach: 
+   :depends r-glmnet: 
    :depends r-igraph: 
+   :depends r-iterators: 
+   :depends r-lpsolve: 
    :depends r-mass: 
    :depends r-matrix: 
    :depends r-matrixstats: 
    :depends r-nnls: 
+   :depends r-poibin: 
    :depends r-prodlim: 
+   :depends r-speedglm: 
    :depends r-stringr: 
    :requirements:
 

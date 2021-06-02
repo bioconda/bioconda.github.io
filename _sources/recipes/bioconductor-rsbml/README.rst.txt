@@ -27,19 +27,18 @@ bioconductor-rsbml
       
       
 
-      ``2.48.0-1``,  ``2.48.0-0``
+      ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libsbml: ``>=5.18.0,<6.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends libsbml: ``>=5.10.2``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,16 +27,16 @@ bioconductor-autotuner
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-mzr: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-msnbase: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-mzr: ``>=2.26.0,<2.27.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-entropy: 
    :depends r-rcolorbrewer: 

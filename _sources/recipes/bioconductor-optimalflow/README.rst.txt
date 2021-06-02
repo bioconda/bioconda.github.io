@@ -27,14 +27,14 @@ bioconductor-optimalflow
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-flowmeans: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-optimalflowdata: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-flowmeans: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-optimalflowdata: ``>=1.4.0,<1.5.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbscan: 
    :depends r-doparallel: 
    :depends r-dplyr: 

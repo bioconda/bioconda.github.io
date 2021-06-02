@@ -39,8 +39,9 @@ bioconductor-bamsignals
    :depends bioconductor-rhtslib: ``>=1.24.0,<1.25.0``
    :depends bioconductor-zlibbioc: ``>=1.38.0,<1.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcpp: ``>=0.10.6``
    :requirements:

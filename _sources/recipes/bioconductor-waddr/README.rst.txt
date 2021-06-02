@@ -27,20 +27,21 @@ bioconductor-waddr
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-arm: ``>=1.10-1``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-eva: 
    :depends r-rcpp: ``>=1.0.1``
    :depends r-rcpparmadillo: 
    :requirements:

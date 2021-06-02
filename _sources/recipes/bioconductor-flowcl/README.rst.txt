@@ -29,10 +29,10 @@ bioconductor-flowcl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.20.1-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.20.1-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+      ``1.30.0-0``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-flowcl
       
 
    
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-rgraphviz: ``>=2.34.0,<2.35.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-sparql: 
    :requirements:
 

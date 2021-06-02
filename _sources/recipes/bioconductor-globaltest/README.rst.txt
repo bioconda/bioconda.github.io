@@ -29,10 +29,10 @@ bioconductor-globaltest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.44.0-1</code>,  <code>5.44.0-0</code>,  <code>5.42.0-0</code>,  <code>5.40.0-0</code>,  <code>5.38.0-1</code>,  <code>5.36.0-1</code>,  <code>5.36.0-0</code>,  <code>5.34.1-0</code>,  <code>5.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.46.0-0</code>,  <code>5.44.0-1</code>,  <code>5.44.0-0</code>,  <code>5.42.0-0</code>,  <code>5.40.0-0</code>,  <code>5.38.0-1</code>,  <code>5.36.0-1</code>,  <code>5.36.0-0</code>,  <code>5.34.1-0</code>,  </span></summary>
       
 
-      ``5.44.0-1``,  ``5.44.0-0``,  ``5.42.0-0``,  ``5.40.0-0``,  ``5.38.0-1``,  ``5.36.0-1``,  ``5.36.0-0``,  ``5.34.1-0``,  ``5.32.0-0``,  ``5.30.0-0``
+      ``5.46.0-0``,  ``5.44.0-1``,  ``5.44.0-0``,  ``5.42.0-0``,  ``5.40.0-0``,  ``5.38.0-1``,  ``5.36.0-1``,  ``5.36.0-0``,  ``5.34.1-0``,  ``5.32.0-0``,  ``5.30.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-globaltest
       
 
    
-   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotate: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-survival: 
    :requirements:
 

@@ -28,16 +28,16 @@ bioconductor-pwmenrich
       
       
 
-      ``4.26.0-1``,  ``4.26.0-0``,  ``4.23.0-0``,  ``4.22.0-0``,  ``4.20.0-1``,  ``4.18.0-0``,  ``4.16.0-0``,  ``4.14.0-0``
+      ``4.28.1-0``,  ``4.26.0-1``,  ``4.26.0-0``,  ``4.23.0-0``,  ``4.22.0-0``,  ``4.20.0-1``,  ``4.18.0-0``,  ``4.16.0-0``,  ``4.14.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-seqlogo: ``>=1.56.0,<1.57.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-seqlogo: ``>=1.58.0,<1.59.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-evd: 
    :depends r-gdata: 
    :requirements:

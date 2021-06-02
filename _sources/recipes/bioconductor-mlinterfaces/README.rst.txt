@@ -28,26 +28,26 @@ bioconductor-mlinterfaces
       
       
 
-      ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``
+      ``1.72.0-0``,  ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-annotate: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-fpc: 
    :depends r-gbm: 
    :depends r-gdata: 
    :depends r-ggvis: 
    :depends r-hwriter: 
+   :depends r-magrittr: 
    :depends r-mass: 
    :depends r-mlbench: 
    :depends r-pls: 

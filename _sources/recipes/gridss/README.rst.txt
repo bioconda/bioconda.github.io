@@ -15,7 +15,7 @@ gridss
    :homepage: https://github.com/PapenfussLab/gridss
    :license: GPL / GPL-3.0-only
    :recipe: /`gridss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gridss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gridss/meta.yaml>`_
-   :links: biotools: :biotools:`gridss`, doi: :doi:`10.1101/110387`
+   :links: biotools: :biotools:`gridss`, doi: :doi:`10.1101/gr.222109.117`
 
    
 
@@ -29,10 +29,10 @@ gridss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.1-1</code>,  <code>2.11.1-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.2-0</code>,  <code>2.10.1-0</code>,  <code>2.10.0-0</code>,  <code>2.9.4-0</code>,  <code>2.9.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.11.1-1</code>,  <code>2.11.1-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.2-0</code>,  <code>2.10.1-0</code>,  <code>2.10.0-0</code>,  <code>2.9.4-0</code>,  </span></summary>
       
 
-      ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.4-0``,  ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.2-2``,  ``1.7.2-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.4-0``
+      ``2.12.0-0``,  ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.4-0``,  ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.2-2``,  ``1.7.2-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.4-0``
 
       
       .. raw:: html
@@ -41,16 +41,22 @@ gridss
       
 
    
-   :depends bioconductor-structuralvariantannotation: 
+   :depends bioconductor-structuralvariantannotation: ``>=1.6``
    :depends bwa: ``>=0.7``
-   :depends kraken2: 
+   :depends entrez-direct: 
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends kraken2: ``>=2.1``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends ncurses: ``>=6.2,<6.3.0a0``
    :depends openjdk: ``>=8``
    :depends r-argparser: 
-   :depends r-base: ``>=3.6``
+   :depends r-base: ``>=4.0``
    :depends r-stringdist: 
    :depends r-testthat: 
    :depends r-tidyverse: 
+   :depends repeatmasker: ``>=4.1.1``
    :depends samtools: ``>=1.10``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -81,6 +87,10 @@ gridss
 
 
 
+
+Notes
+-----
+The package contains additional command line wrappers for the GRIDSS java\-based utilities.
 
 
 Link to this page

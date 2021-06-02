@@ -27,38 +27,18 @@ bioconductor-structtoolbox
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: 
-   :depends bioconductor-biocstyle: 
-   :depends bioconductor-pmp: 
-   :depends bioconductor-ropls: 
-   :depends bioconductor-struct: ``>=1.2.0,<1.3.0``
-   :depends r-agricolae: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-car: 
-   :depends r-covr: 
-   :depends r-cowplot: 
-   :depends r-e1071: 
-   :depends r-emmeans: 
-   :depends r-ggdendro: 
+   :depends bioconductor-struct: ``>=1.4.0,<1.5.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-ggthemes: 
    :depends r-gridextra: 
-   :depends r-knitr: 
-   :depends r-magick: 
-   :depends r-nlme: 
-   :depends r-openxlsx: 
-   :depends r-pls: 
-   :depends r-reshape2: 
-   :depends r-rmarkdown: 
-   :depends r-rtsne: 
    :depends r-scales: 
    :depends r-sp: 
-   :depends r-testthat: 
    :requirements:
 
    .. rubric:: Installation

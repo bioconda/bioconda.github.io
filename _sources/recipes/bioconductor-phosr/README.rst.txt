@@ -27,23 +27,32 @@ bioconductor-phosr
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``
+      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-pcamethods: ``>=1.82.0,<1.83.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-calibrate: 
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-pcamethods: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
    :depends r-dendextend: 
    :depends r-dplyr: 
    :depends r-e1071: 
+   :depends r-ggally: 
+   :depends r-ggdendro: 
+   :depends r-ggplot2: 
+   :depends r-ggpubr: 
+   :depends r-ggtext: 
    :depends r-igraph: 
+   :depends r-network: 
    :depends r-pheatmap: 
    :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
    :depends r-rlang: 
    :depends r-ruv: 
    :depends r-tidyr: 

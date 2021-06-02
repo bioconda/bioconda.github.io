@@ -31,10 +31,10 @@ scvi-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.7.0b0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  </span></summary>
       
 
-      ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.7.0b0-0``,  ``0.7.0a6-0``,  ``0.7.0a5-0``,  ``0.7.0a4-1``,  ``0.7.0a4-0``
+      ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.7.0b0-0``,  ``0.7.0a6-0``,  ``0.7.0a5-0``,  ``0.7.0a4-1``,  ``0.7.0a4-0``
 
       
       .. raw:: html
@@ -52,10 +52,10 @@ scvi-tools
    :depends openpyxl: ``>=3.0``
    :depends pandas: ``>=1.0``
    :depends poetry: ``>=1.0.9``
-   :depends pyro-ppl: ``>=1.5.2``
+   :depends pyro-ppl: ``>=1.6.0``
    :depends python: ``>=3.7``
-   :depends pytorch: ``>=1.7.1``
-   :depends pytorch-lightning: ``>=1.2.1,<1.3``
+   :depends pytorch: ``>=1.8.0``
+   :depends pytorch-lightning: ``>=1.3``
    :depends rich: ``>=9.12.4``
    :depends scikit-learn: ``>=0.21.2``
    :depends toml: ``>=0.10.1``

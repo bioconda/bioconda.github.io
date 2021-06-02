@@ -27,18 +27,17 @@ bioconductor-rforproteomics
       
       
 
-      ``1.28.1-0``,  ``1.27.1-0``,  ``1.26.0-0``,  ``1.23.1-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.30.0-0``,  ``1.28.1-0``,  ``1.27.1-0``,  ``1.26.0-0``,  ``1.23.1-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-biocviews: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocviews: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-msnbase: ``>=2.18.0,<2.19.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-r.utils: 
-   :depends r-shiny: 
    :requirements:
 
    .. rubric:: Installation

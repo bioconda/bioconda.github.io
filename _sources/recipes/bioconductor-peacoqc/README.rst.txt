@@ -27,15 +27,15 @@ bioconductor-peacoqc
       
       
 
-      ``0.99.25-2``,  ``0.99.25-1``
+      ``1.2.0-0``,  ``0.99.25-2``,  ``0.99.25-1``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-flowworkspace: ``>=4.2.0,<4.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-flowworkspace: ``>=4.4.0,<4.5.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
    :depends r-ggplot2: 
    :depends r-gridextra: 

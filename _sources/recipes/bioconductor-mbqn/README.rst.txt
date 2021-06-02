@@ -27,17 +27,17 @@ bioconductor-mbqn
       
       
 
-      ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``
+      ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rpx: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-rpx: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-paireddata: 
    :depends r-rappdirs: 

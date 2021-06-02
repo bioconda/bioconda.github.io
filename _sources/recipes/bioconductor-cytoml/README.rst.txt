@@ -27,28 +27,27 @@ bioconductor-cytoml
       
       
 
-      ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
+      ``2.4.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-cytolib: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-flowworkspace: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-ggcyto: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-opencyto: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-rbgl: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-rgraphviz: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rhdf5lib: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-rprotobuflib: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-cytolib: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-flowworkspace: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-ggcyto: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-opencyto: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-rbgl: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rhdf5lib: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-rprotobuflib: ``>=2.4.0,<2.5.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends libxml2: ``>=2.9.10,<2.10.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends libxml2: ``>=2.9.12,<2.10.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-base64enc: 
    :depends r-bh: ``>=1.62.0-1``
    :depends r-corpcor: 

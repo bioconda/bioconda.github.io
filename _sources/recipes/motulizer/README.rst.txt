@@ -27,7 +27,7 @@ motulizer
       
       
 
-      ``0.2.1a0-1``,  ``0.2.1a0-0``
+      ``0.2.2-0``,  ``0.2.1a0-1``,  ``0.2.1a0-0``
 
       
 
@@ -38,7 +38,7 @@ motulizer
    :depends h5py: 
    :depends hdf5plugin: 
    :depends mmseqs2: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends python-igraph: 
    :depends tqdm: 
    :requirements:

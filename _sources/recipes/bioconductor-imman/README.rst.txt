@@ -27,14 +27,14 @@ bioconductor-imman
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-stringdb: ``>=2.1.0,<2.2.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-stringdb: ``>=2.4.0,<2.5.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :depends r-seqinr: 
    :requirements:

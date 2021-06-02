@@ -27,14 +27,14 @@ bioconductor-rtnsurvival
       
       
 
-      ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``
+      ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-rtn: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-rtnduals: ``>=1.14.0,<1.15.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-rtn: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-rtnduals: ``>=1.16.0,<1.17.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dunn.test: 
    :depends r-egg: 

@@ -27,19 +27,17 @@ bioconductor-delayedmatrixstats
       
       
 
-      ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-delayedarray: ``>=0.16.0,<0.17.0``
-   :depends bioconductor-hdf5array: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-matrixgenerics: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-sparsematrixstats: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-matrixgenerics: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-sparsematrixstats: ``>=1.4.0,<1.5.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
    :depends r-matrixstats: ``>=0.56.0``
    :requirements:

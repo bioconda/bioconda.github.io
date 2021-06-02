@@ -27,17 +27,17 @@ bioconductor-sangeranalyser
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-decipher: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-sangerseqr: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biocstyle: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-decipher: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-sangerseqr: ``>=1.28.0,<1.29.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dt: 
    :depends r-excelr: 

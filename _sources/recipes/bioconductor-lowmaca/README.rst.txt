@@ -27,17 +27,17 @@ bioconductor-lowmaca
       
       
 
-      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
+      ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
    :depends bioconductor-lowmacaannotation: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-motifstack: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-motifstack: ``>=1.36.0,<1.37.0``
    :depends clustalo: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cgdsr: 
    :depends r-data.table: 
    :depends r-gridbase: 

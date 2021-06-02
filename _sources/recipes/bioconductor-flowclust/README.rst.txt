@@ -27,20 +27,20 @@ bioconductor-flowclust
       
       
 
-      ``3.28.0-2``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
+      ``3.30.0-0``,  ``3.28.0-2``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-flowviz: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-flowviz: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clue: 
    :depends r-corpcor: 
    :depends r-ellipse: 

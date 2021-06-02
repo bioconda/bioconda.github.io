@@ -28,13 +28,16 @@ gecco
       
       
 
-      ``0.6.3-0``,  ``0.6.2-0``
+      ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
 
       
 
    
    :depends biopython: ``>=1.78``
+   :depends dataclasses: ``>=0.8``
    :depends docopt: ``>=0.6.2``
+   :depends importlib_metadata: ``>=1.4``
+   :depends importlib_resources: ``>=1.0``
    :depends numpy: ``>=1.16``
    :depends psutil: ``>=5.8``
    :depends pyhmmer: ``>=0.3.1``

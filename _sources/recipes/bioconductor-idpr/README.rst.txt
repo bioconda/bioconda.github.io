@@ -27,13 +27,13 @@ bioconductor-idpr
       
       
 
-      ``1.0.007-0``,  ``1.0.0-1``
+      ``1.2.0-0``,  ``1.0.007-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=0.8.5``
    :depends r-ggplot2: ``>=3.3.0``
    :depends r-jsonlite: ``>=1.6.1``

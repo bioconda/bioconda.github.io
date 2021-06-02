@@ -27,13 +27,13 @@ bioconductor-metavolcanor
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``0.99.14-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``0.99.14-0``
 
       
 
    
-   :depends bioconductor-topconfects: ``>=1.6.0,<1.7.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-topconfects: ``>=1.8.0,<1.9.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-dplyr: 

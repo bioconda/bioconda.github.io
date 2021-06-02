@@ -27,14 +27,14 @@ bioconductor-metaboliteidmapping
       
       
 
-      ``0.99.8-1``,  ``0.99.8-0``
+      ``1.0.0-0``,  ``0.99.8-1``,  ``0.99.8-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,16 +27,16 @@ bioconductor-asics
       
       
 
-      ``2.6.1-1``,  ``2.6.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.2.0-0``
+      ``2.8.0-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-pepsnmr: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-ropls: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-pepsnmr: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-ropls: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-glmnet: 
    :depends r-gridextra: 

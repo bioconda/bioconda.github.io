@@ -27,20 +27,21 @@ bioconductor-peakpanther
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-mzr: ``>=2.24.0,<2.25.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-msnbase: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-mzr: ``>=2.26.0,<2.27.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-doparallel: ``>=1.0.11``
    :depends r-dt: ``>=0.15``
    :depends r-foreach: ``>=1.4.4``
    :depends r-ggplot2: ``>=2.2.1``
    :depends r-gridextra: ``>=2.3``
    :depends r-minpack.lm: ``>=1.2.1``
+   :depends r-pracma: ``>=2.2.3``
    :depends r-scales: ``>=0.5.0``
    :depends r-shiny: ``>=1.0.5``
    :depends r-shinycssloaders: ``>=1.0.0``
