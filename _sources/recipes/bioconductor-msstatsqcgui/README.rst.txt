@@ -27,13 +27,13 @@ bioconductor-msstatsqcgui
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``
+      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``
 
       
 
    
-   :depends bioconductor-msstatsqc: ``>=2.8.0,<2.9.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-msstatsqc: ``>=2.10.0,<2.11.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ggextra: 
    :depends r-gridextra: 

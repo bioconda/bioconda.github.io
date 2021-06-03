@@ -27,12 +27,12 @@ r-xmlrpc
       
       
 
-      ``0.2_4-4``,  ``0.2_4-3``,  ``0.2_4-0``
+      ``0.2_4-5``,  ``0.2_4-4``,  ``0.2_4-3``,  ``0.2_4-0``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcurl: 
    :depends r-xml: 
    :requirements:

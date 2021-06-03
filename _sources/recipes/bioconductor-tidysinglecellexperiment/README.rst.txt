@@ -27,14 +27,15 @@ bioconductor-tidysinglecellexperiment
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cli: 
    :depends r-dplyr: 
    :depends r-ellipsis: 

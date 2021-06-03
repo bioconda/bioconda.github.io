@@ -27,13 +27,13 @@ r-ggbiplot
       
       
 
-      ``0.55-4``,  ``0.55-3``,  ``0.55-2``,  ``0.55-1``
+      ``0.55-5``,  ``0.55-4``,  ``0.55-3``,  ``0.55-2``,  ``0.55-1``
 
       
 
    
    :depends libgcc-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-devtools: 
    :depends r-ggplot2: 
    :depends r-gridbase: 

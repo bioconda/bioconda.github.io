@@ -27,13 +27,13 @@ r-htscluster
       
       
 
-      ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-1``,  ``2.0.8-0``
+      ``2.0.8-5``,  ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-1``,  ``2.0.8-0``
 
       
 
    
    :depends bioconductor-edger: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-capushe: 
    :depends r-plotrix: 
    :requirements:

@@ -27,7 +27,7 @@ r-velocyto.r
       
       
 
-      ``0.6-2``,  ``0.6-1``,  ``0.6-0``
+      ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``
 
       
 
@@ -37,7 +37,7 @@ r-velocyto.r
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-abind: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-hdf5r: 
    :depends r-igraph: 

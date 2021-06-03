@@ -26,15 +26,23 @@ r-aroma.affymetrix
    :versions:
       
       
+      .. raw:: html
 
-      ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.0-4</code>,  <code>3.2.0-3</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.1-2</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  </span></summary>
+      
 
+      ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends r-aroma.apd: ``>=0.6.0``
    :depends r-aroma.core: ``>=3.2.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-future: 
    :depends r-listenv: 
    :depends r-mass: 

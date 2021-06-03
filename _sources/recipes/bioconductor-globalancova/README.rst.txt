@@ -28,20 +28,19 @@ bioconductor-globalancova
       
       
 
-      ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
+      ``4.10.0-0``,  ``4.8.0-1``,  ``4.8.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.0.0-0``,  ``3.48.0-0``,  ``3.46.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-globaltest: ``>=5.44.0,<5.45.0``
-   :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-annotate: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-globaltest: ``>=5.46.0,<5.47.0``
+   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corpcor: 
    :depends r-dendextend: 
    :depends r-vgam: 

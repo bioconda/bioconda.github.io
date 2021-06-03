@@ -27,16 +27,17 @@ bioconductor-rebook
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``
+      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-callr: 
+   :depends bioconductor-biocstyle: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-dir.expiry: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-codedepends: 
-   :depends r-knitr: 
+   :depends r-filelock: 
+   :depends r-knitr: ``>=1.32``
    :depends r-rmarkdown: 
    :requirements:
 

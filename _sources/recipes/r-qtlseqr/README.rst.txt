@@ -27,14 +27,14 @@ r-qtlseqr
       
       
 
-      ``0.7.5.2-1``,  ``0.7.5.2-0``
+      ``0.7.5.2-2``,  ``0.7.5.2-1``,  ``0.7.5.2-0``
 
       
 
    
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-gtools: 

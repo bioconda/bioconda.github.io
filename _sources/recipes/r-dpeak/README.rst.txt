@@ -27,7 +27,7 @@ r-dpeak
       
       
 
-      ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
@@ -37,7 +37,7 @@ r-dpeak
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends perl: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mass: 
    :depends r-rcpp: 
    :requirements:

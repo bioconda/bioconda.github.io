@@ -27,7 +27,7 @@ r-msqrob
       
       
 
-      ``0.7.7-0``,  ``0.7.6-3``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-1``,  ``0.7.5-0``
+      ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.6-3``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-1``,  ``0.7.5-0``
 
       
 
@@ -42,7 +42,7 @@ r-msqrob
    :depends bioconductor-mzid: 
    :depends bioconductor-mzr: 
    :depends bioconductor-protgenerics: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-colorspace: 
    :depends r-dichromat: 
    :depends r-dt: 

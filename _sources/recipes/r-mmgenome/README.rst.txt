@@ -27,13 +27,13 @@ r-mmgenome
       
       
 
-      ``0.7.1-3``,  ``0.7.1-2``,  ``0.7.1-0``,  ``0.6.3-0``
+      ``0.7.1-4``,  ``0.7.1-3``,  ``0.7.1-2``,  ``0.7.1-0``,  ``0.6.3-0``
 
       
 
    
    :depends bioconductor-biostrings: ``>=2.32.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=0.4.0``
    :depends r-ggplot2: ``>=1.0.0``
    :depends r-gridextra: ``>=0.9.1``

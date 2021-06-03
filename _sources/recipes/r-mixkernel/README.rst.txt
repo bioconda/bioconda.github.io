@@ -27,14 +27,14 @@ r-mixkernel
       
       
 
-      ``0.5-1``,  ``0.5-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+      ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
 
       
 
    
    :depends bioconductor-mixomics: 
    :depends bioconductor-phyloseq: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corrplot: 
    :depends r-ggplot2: 
    :depends r-ldrtools: 

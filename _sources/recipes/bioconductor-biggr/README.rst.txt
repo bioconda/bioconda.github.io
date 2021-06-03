@@ -27,15 +27,15 @@ bioconductor-biggr
       
       
 
-      ``1.26.0-1``,  ``1.26.0-0``
+      ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``
 
       
 
    
-   :depends bioconductor-hyperdraw: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-hypergraph: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-rsbml: ``>=2.48.0,<2.49.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-hyperdraw: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-hypergraph: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-rsbml: ``>=2.50.0,<2.51.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-lim: 
    :depends r-limsolve: 
    :depends r-stringr: 

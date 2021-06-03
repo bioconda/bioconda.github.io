@@ -39,6 +39,7 @@ bioconductor-puma
    :depends bioconductor-oligo: ``>=1.56.0,<1.57.0``
    :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mclust: 

@@ -27,13 +27,13 @@ r-codedepends
       
       
 
-      ``0.6.5-1``,  ``0.6.5-0``
+      ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``
 
       
 
    
    :depends bioconductor-graph: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-codetools: 
    :depends r-xml: 
    :requirements:

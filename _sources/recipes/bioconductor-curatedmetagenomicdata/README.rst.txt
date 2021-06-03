@@ -27,20 +27,26 @@ bioconductor-curatedmetagenomicdata
       
       
 
-      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
+      ``3.0.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.3-0``,  ``1.10.2-0``,  ``1.8.1-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends curl: ``>=7.76.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-dplyr: ``>=0.5.0``
+   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.0.0,<2.1.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-dplyr: 
    :depends r-magrittr: 
+   :depends r-purrr: 
+   :depends r-rlang: 
+   :depends r-stringr: 
+   :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-tidyselect: 
    :requirements:
 
    .. rubric:: Installation

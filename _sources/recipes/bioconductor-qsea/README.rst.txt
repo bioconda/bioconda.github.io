@@ -45,6 +45,7 @@ bioconductor-qsea
    :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
    :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gtools: 

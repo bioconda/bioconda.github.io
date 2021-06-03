@@ -27,12 +27,12 @@ r-firebrowser
       
       
 
-      ``1.1.35-2``,  ``1.1.35-1``,  ``1.1.35-0``
+      ``1.1.35-3``,  ``1.1.35-2``,  ``1.1.35-1``,  ``1.1.35-0``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

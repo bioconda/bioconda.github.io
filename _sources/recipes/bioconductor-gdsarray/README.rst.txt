@@ -27,18 +27,18 @@ bioconductor-gdsarray
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-delayedarray: ``>=0.16.0,<0.17.0``
-   :depends bioconductor-gdsfmt: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-seqarray: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-snprelate: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
+   :depends bioconductor-gdsfmt: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-seqarray: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-snprelate: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

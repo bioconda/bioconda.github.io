@@ -27,9 +27,17 @@ r-histonehmm
    :versions:
       
       
+      .. raw:: html
 
-      ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.8-3</code>,  <code>1.8-2</code>,  <code>1.8-1</code>,  <code>1.8-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7-1</code>,  <code>1.7-0</code>,  <code>1.6-1</code>,  </span></summary>
+      
 
+      ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -40,7 +48,7 @@ r-histonehmm
    :depends libgfortran-ng: 
    :depends libgfortran5: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mvtnorm: 
    :depends r-optparse: 
    :depends r-rcpp: 

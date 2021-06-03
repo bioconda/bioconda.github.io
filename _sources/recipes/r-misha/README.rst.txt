@@ -26,15 +26,23 @@ r-misha
    :versions:
       
       
+      .. raw:: html
 
-      ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.11-0``,  ``4.0.10-1``,  ``4.0.10-0``,  ``4.0.6-1``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-1``
+         <details><summary><span class="truncated-version-list"><code>4.1.0-2</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.11-0</code>,  <code>4.0.10-1</code>,  <code>4.0.10-0</code>,  <code>4.0.6-1</code>,  <code>4.0.6-0</code>,  <code>4.0.5-0</code>,  </span></summary>
+      
 
+      ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.11-0``,  ``4.0.10-1``,  ``4.0.10-0``,  ``4.0.6-1``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

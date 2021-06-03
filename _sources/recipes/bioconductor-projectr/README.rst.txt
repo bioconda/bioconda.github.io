@@ -27,14 +27,14 @@ bioconductor-projectr
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-cogaps: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-cogaps: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-dplyr: 
    :depends r-ggalluvial: 

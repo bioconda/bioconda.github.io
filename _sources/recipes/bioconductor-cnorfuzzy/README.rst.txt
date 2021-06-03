@@ -35,6 +35,7 @@ bioconductor-cnorfuzzy
    
    :depends bioconductor-cellnoptr: ``>=1.38.0,<1.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-nloptr: ``>=0.8.5``

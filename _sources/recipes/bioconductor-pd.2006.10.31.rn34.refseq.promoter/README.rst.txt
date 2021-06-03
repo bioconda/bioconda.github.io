@@ -27,17 +27,17 @@ bioconductor-pd.2006.10.31.rn34.refseq.promoter
       
       
 
-      ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-0``
+      ``0.99.3-7``,  ``0.99.3-6``,  ``0.99.3-5``,  ``0.99.3-4``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.3-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-oligoclasses: ``>=1.52.0,<1.53.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-oligo: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.7-1``
    :requirements:

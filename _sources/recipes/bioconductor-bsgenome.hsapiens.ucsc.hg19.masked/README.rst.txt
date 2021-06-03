@@ -27,15 +27,15 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19.masked
       
       
 
-      ``1.3.993-2``,  ``1.3.993-1``,  ``1.3.993-0``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
+      ``1.3.993-3``,  ``1.3.993-2``,  ``1.3.993-1``,  ``1.3.993-0``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends curl: ``>=7.76.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,14 +27,14 @@ r-crmn
       
       
 
-      ``0.0.21-1``,  ``0.0.21-0``
+      ``0.0.21-2``,  ``0.0.21-1``,  ``0.0.21-0``
 
       
 
    
    :depends bioconductor-biobase: 
    :depends bioconductor-pcamethods: ``>=1.56.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

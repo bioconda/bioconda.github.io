@@ -27,16 +27,16 @@ bioconductor-beadarrayusecases
       
       
 
-      ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-beadarray: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-geoquery: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-beadarray: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-geoquery: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

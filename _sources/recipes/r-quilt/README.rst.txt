@@ -27,7 +27,7 @@ r-quilt
       
       
 
-      ``0.1.9-0``
+      ``0.1.9-1``,  ``0.1.9-0``
 
       
 
@@ -35,12 +35,11 @@ r-quilt
    :depends gmp: ``>=6.2.1,<7.0a0``
    :depends htslib: ``>=1.12,<1.13.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.1.0,<2.0a0``
    :depends mpfr: ``>=4.0.2,<5.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: ``>=1.11.8``
    :depends r-rcpp: ``>=0.12.18``
    :depends r-rcpparmadillo: ``>=0.8.600.0.0``

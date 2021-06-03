@@ -27,12 +27,12 @@ r-tftargets
       
       
 
-      ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+      ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

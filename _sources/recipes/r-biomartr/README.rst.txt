@@ -27,14 +27,14 @@ r-biomartr
       
       
 
-      ``0.9.2-1``,  ``0.9.2-0``
+      ``0.9.2-2``,  ``0.9.2-1``,  ``0.9.2-0``
 
       
 
    
    :depends bioconductor-biomart: 
    :depends bioconductor-biostrings: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-curl: 
    :depends r-data.table: ``>=1.9.4``
    :depends r-downloader: ``>=0.3``

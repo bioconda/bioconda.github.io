@@ -27,17 +27,17 @@ bioconductor-snplocs.hsapiens.dbsnp142.grch37
       
       
 
-      ``0.99.5-6``,  ``0.99.5-5``,  ``0.99.5-4``,  ``0.99.5-3``,  ``0.99.5-2``,  ``0.99.5-0``
+      ``0.99.5-7``,  ``0.99.5-6``,  ``0.99.5-5``,  ``0.99.5-4``,  ``0.99.5-3``,  ``0.99.5-2``,  ``0.99.5-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends curl: ``>=7.76.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

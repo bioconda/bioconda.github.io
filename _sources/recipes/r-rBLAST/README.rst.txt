@@ -27,14 +27,14 @@ r-rblast
       
       
 
-      ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-0``
+      ``0.99.1-5``,  ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-0``
 
       
 
    
    :depends bioconductor-biostrings: 
    :depends blast: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

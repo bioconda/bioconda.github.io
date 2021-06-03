@@ -27,7 +27,7 @@ r-tailfindr
       
       
 
-      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -36,7 +36,7 @@ r-tailfindr
    :depends bioconductor-rsamtools: 
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cli: 
    :depends r-crayon: 
    :depends r-data.table: 

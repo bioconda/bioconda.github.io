@@ -27,13 +27,13 @@ r-mkmisc
       
       
 
-      ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+      ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
 
       
 
    
    :depends bioconductor-limma: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-rcolorbrewer: 
    :depends r-robustbase: 

@@ -27,26 +27,26 @@ bioconductor-glmsparsenet
       
       
 
-      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-stringdb: ``>=2.1.0,<2.2.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-futile.logger: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
+   :depends r-glue: 
+   :depends r-httr: 
    :depends r-loose.rock: ``>=1.0.12``
    :depends r-matrix: 
    :depends r-readr: 
    :depends r-reshape2: 
-   :depends r-rlang: 
    :depends r-sparsebn: 
    :depends r-sparsebnutils: 
    :depends r-stringr: 

@@ -27,13 +27,13 @@ r-coloc
       
       
 
-      ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.3_1-0``
+      ``3.1-5``,  ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.3_1-0``
 
       
 
    
    :depends bioconductor-snpstats: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bma: 
    :depends r-flashclust: 
    :depends r-ggplot2: 

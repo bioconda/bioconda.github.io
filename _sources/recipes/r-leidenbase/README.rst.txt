@@ -27,7 +27,7 @@ r-leidenbase
       
       
 
-      ``0.1.3-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -36,7 +36,7 @@ r-leidenbase
    :depends libgfortran-ng: 
    :depends libgfortran5: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :requirements:
 

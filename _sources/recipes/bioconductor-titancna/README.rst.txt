@@ -29,10 +29,10 @@ bioconductor-titancna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.19.1-4</code>,  <code>1.19.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.19.1-4</code>,  </span></summary>
       
 
-      ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.19.1-4``,  ``1.19.1-3``,  ``1.19.1-2``,  ``1.19.1-1``,  ``1.19.1-0``,  ``1.18.0-0``,  ``1.17.2-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.0-0``
+      ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.19.1-4``,  ``1.19.1-3``,  ``1.19.1-2``,  ``1.19.1-1``,  ``1.19.1-0``,  ``1.18.0-0``,  ``1.17.2-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,14 @@ bioconductor-titancna
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-variantannotation: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: ``>=1.10.4``
    :depends r-dplyr: ``>=0.5.0``
    :depends r-foreach: ``>=1.4.3``

@@ -27,9 +27,17 @@ r-monocle3
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
 
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -42,10 +50,9 @@ r-monocle3
    :depends bioconductor-s4vectors: 
    :depends bioconductor-singlecellexperiment: 
    :depends bioconductor-summarizedexperiment: ``>=1.11.5``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends r-assertthat: ``>=0.2.1``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=0.8.0.1``
    :depends r-ggplot2: ``>=3.1.1``
    :depends r-ggrepel: ``>=0.8.1``

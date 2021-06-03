@@ -27,17 +27,17 @@ bioconductor-pd.mirna.3.1
       
       
 
-      ``3.8.1-6``,  ``3.8.1-5``,  ``3.8.1-4``,  ``3.8.1-3``,  ``3.8.1-2``,  ``3.8.1-0``
+      ``3.8.1-7``,  ``3.8.1-6``,  ``3.8.1-5``,  ``3.8.1-4``,  ``3.8.1-3``,  ``3.8.1-2``,  ``3.8.1-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-oligo: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-oligoclasses: ``>=1.52.0,<1.53.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-oligo: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.11.1``
    :requirements:

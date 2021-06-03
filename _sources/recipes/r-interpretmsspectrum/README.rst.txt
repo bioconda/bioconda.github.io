@@ -27,13 +27,13 @@ r-interpretmsspectrum
       
       
 
-      ``1.2-1``,  ``1.2-0``
+      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
    
    :depends bioconductor-rdisop: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-doparallel: 
    :depends r-envipat: 

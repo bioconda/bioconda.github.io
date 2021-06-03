@@ -27,13 +27,13 @@ r-genomictools.filehandler
       
       
 
-      ``0.1.5.9-1``,  ``0.1.5.9-0``
+      ``0.1.5.9-2``,  ``0.1.5.9-1``,  ``0.1.5.9-0``
 
       
 
    
    :depends bioconductor-snpstats: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: ``>=1.9.6``
    :requirements:
 

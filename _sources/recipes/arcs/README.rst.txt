@@ -10,7 +10,7 @@ arcs
    :replaces_section_title:
    :noindex:
 
-   Scaffolding genome sequence assemblies using 10X Genomics data
+   Scaffolding genome sequence assemblies using linked or long reads
 
    :homepage: https://github.com/bcgsc/arcs
    :license: GPL-3.0
@@ -27,7 +27,7 @@ arcs
       
       
 
-      ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 

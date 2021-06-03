@@ -29,10 +29,10 @@ r-acidgenerics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.17-0</code>,  <code>0.5.16-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.14-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.17-1</code>,  <code>0.5.17-0</code>,  <code>0.5.16-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.14-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  </span></summary>
       
 
-      ``0.5.17-0``,  ``0.5.16-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.14-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.0-0``
+      ``0.5.17-1``,  ``0.5.17-0``,  ``0.5.16-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.14-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ r-acidgenerics
    :depends bioconductor-biocgenerics: ``>=0.36``
    :depends bioconductor-iranges: ``>=2.24``
    :depends bioconductor-s4vectors: ``>=0.28``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

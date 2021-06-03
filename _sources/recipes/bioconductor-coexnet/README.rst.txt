@@ -27,22 +27,22 @@ bioconductor-coexnet
       
       
 
-      ``1.12.0-1``,  ``1.12.0-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-acde: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-geoquery: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-minet: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-siggenes: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-stringdb: ``>=2.1.0,<2.2.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-acde: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-geoquery: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-minet: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-siggenes: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-stringdb: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :depends r-rmarkdown: 
    :requirements:

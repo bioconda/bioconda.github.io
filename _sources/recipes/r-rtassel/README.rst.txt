@@ -27,7 +27,7 @@ r-rtassel
       
       
 
-      ``0.1.2019.07.25-2``,  ``0.1.2019.07.25-1``,  ``0.1.2019.07.25-0``
+      ``0.1.2019.07.25-3``,  ``0.1.2019.07.25-2``,  ``0.1.2019.07.25-1``,  ``0.1.2019.07.25-0``
 
       
 
@@ -35,7 +35,7 @@ r-rtassel
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
    :depends bioconductor-summarizedexperiment: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-knitr: 

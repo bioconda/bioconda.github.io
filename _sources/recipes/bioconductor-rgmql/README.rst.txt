@@ -27,17 +27,17 @@ bioconductor-rgmql
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.2.0-0``
+      ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-rgmqllib: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-rgmqllib: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-glue: 

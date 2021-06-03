@@ -27,20 +27,20 @@ bioconductor-methrix
       
       
 
-      ``1.4.07-0``,  ``1.4.0-0``,  ``1.2.05-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.07-0``,  ``1.4.0-0``,  ``1.2.05-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-delayedarray: ``>=0.16.0,<0.17.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-hdf5array: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-hdf5array: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: ``>=1.12.4``
    :depends r-ggplot2: 
    :depends r-matrixstats: 

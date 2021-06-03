@@ -27,22 +27,21 @@ bioconductor-multihiccompare
       
       
 
-      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-blma: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
    :depends bioconductor-genomeinfodbdata: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-hiccompare: ``>=1.12.0,<1.13.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-hiccompare: ``>=1.14.0,<1.15.0``
+   :depends r-aggregation: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
-   :depends r-metap: 
    :depends r-pbapply: 
    :depends r-pheatmap: 
    :depends r-qqman: 
