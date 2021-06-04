@@ -28,14 +28,14 @@ bioconductor-mygene
       
       
 
-      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.14.0-0``
+      ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-hmisc: 
    :depends r-httr: ``>=0.3``
    :depends r-jsonlite: ``>=0.9.7``

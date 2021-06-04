@@ -46,6 +46,7 @@ bioconductor-profia
    :depends bioconductor-ropls: ``>=1.24.0,<1.25.0``
    :depends bioconductor-xcms: ``>=3.14.0,<3.15.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-minpack.lm: 

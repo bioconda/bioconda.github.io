@@ -37,6 +37,7 @@ bioconductor-edge
    :depends bioconductor-snm: ``>=1.40.0,<1.41.0``
    :depends bioconductor-sva: ``>=3.40.0,<3.41.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-jackstraw: 

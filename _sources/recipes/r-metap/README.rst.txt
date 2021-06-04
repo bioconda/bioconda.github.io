@@ -27,12 +27,12 @@ r-metap
       
       
 
-      ``1.4-0``
+      ``1.4-1``,  ``1.4-0``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-lattice: 
    :depends r-mathjaxr: ``>=0.8_3``
    :depends r-mutoss: 

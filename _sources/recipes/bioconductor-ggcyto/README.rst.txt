@@ -29,10 +29,10 @@ bioconductor-ggcyto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.2-0</code>,  <code>1.10.0-0</code>,  <code>1.8.2-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.2-0</code>,  <code>1.10.0-0</code>,  <code>1.8.2-0</code>,  </span></summary>
       
 
-      ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
+      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-ggcyto
       
 
    
-   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-flowworkspace: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-ncdfflow: ``>=2.36.0,<2.37.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-flowworkspace: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-ncdfflow: ``>=2.38.0,<2.39.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: ``>=3.3.0``
    :depends r-gridextra: 

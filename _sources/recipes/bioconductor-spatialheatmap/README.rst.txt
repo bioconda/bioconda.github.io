@@ -27,18 +27,22 @@ bioconductor-spatialheatmap
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-rols: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-hdf5array: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-rols: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
    :depends r-av: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-data.table: 
    :depends r-dynamictreecut: 
    :depends r-flashclust: 
    :depends r-ggdendro: 
@@ -50,6 +54,7 @@ bioconductor-spatialheatmap
    :depends r-htmlwidgets: 
    :depends r-igraph: 
    :depends r-plotly: 
+   :depends r-rappdirs: 
    :depends r-rsvg: 
    :depends r-shiny: 
    :depends r-shinydashboard: 

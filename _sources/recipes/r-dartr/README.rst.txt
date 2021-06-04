@@ -26,16 +26,24 @@ r-dartr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9.9.1-0``,  ``1.9.6-0``,  ``1.9.4-0``,  ``1.1.11-2``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.9.9.1-1</code>,  <code>1.9.9.1-0</code>,  <code>1.9.6-0</code>,  <code>1.9.4-0</code>,  <code>1.1.11-2</code>,  <code>1.1.11-1</code>,  <code>1.1.11-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  </span></summary>
+      
 
+      ``1.9.9.1-1``,  ``1.9.9.1-0``,  ``1.9.6-0``,  ``1.9.4-0``,  ``1.1.11-2``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-snprelate: 
    :depends r-adegenet: ``>=2.0.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-crayon: 
    :depends r-devtools: 
    :depends r-dplyr: 

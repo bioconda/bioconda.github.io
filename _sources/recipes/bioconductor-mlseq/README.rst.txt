@@ -28,18 +28,18 @@ bioconductor-mlseq
       
       
 
-      ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.0.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
+      ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.0.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-sseq: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-sseq: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-caret: 
    :depends r-foreach: 
    :depends r-ggplot2: 

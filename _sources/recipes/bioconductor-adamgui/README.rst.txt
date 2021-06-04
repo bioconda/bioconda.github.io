@@ -27,14 +27,14 @@ bioconductor-adamgui
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-adam: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-adam: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-colorramps: ``>=2.3``
    :depends r-data.table: ``>=1.11.4``
    :depends r-dplyr: ``>=0.7.6``

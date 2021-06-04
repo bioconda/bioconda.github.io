@@ -28,7 +28,7 @@ lotus2
       
       
 
-      ``2.06-0``,  ``2.05.1-0``,  ``2.04-1``,  ``2.04-0``,  ``2.02-0``,  ``2.01-1``,  ``2.01-0``
+      ``2.07-0``,  ``2.06-0``,  ``2.05.1-0``,  ``2.04-1``,  ``2.04-0``,  ``2.02-0``,  ``2.01-1``,  ``2.01-0``
 
       
 
@@ -51,11 +51,12 @@ lotus2
    :depends r-dplyr: 
    :depends rdp_classifier: 
    :depends rtk: 
-   :depends sdm: ``1.84.1``
+   :depends sdm: ``1.85``
    :depends swarm: 
    :depends unzip: 
    :depends vsearch: 
    :depends wget: 
+   :depends zip: 
    :requirements:
 
    .. rubric:: Installation

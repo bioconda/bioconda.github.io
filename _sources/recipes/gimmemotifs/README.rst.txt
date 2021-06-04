@@ -43,6 +43,7 @@ gimmemotifs
    
    :depends biofluff: ``>=3.0.4``
    :depends configparser: 
+   :depends dinamo: 
    :depends diskcache: 
    :depends feather-format: 
    :depends future: 
@@ -50,7 +51,8 @@ gimmemotifs
    :depends genomepy: ``>=0.9.0``
    :depends homer: 
    :depends jinja2: 
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends logomaker: 
    :depends loguru: 
    :depends matplotlib-base: ``>=3.1.2``

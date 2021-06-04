@@ -27,16 +27,16 @@ bioconductor-scbfa
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-zinbwave: ``>=1.12.0,<1.13.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-zinbwave: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-copula: 
    :depends r-ggplot2: 
    :depends r-mass: 

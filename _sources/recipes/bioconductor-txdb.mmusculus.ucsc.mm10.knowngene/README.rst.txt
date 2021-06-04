@@ -26,16 +26,24 @@ bioconductor-txdb.mmusculus.ucsc.mm10.knowngene
    :versions:
       
       
+      .. raw:: html
 
-      ``3.10.0-3``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.4.7-1``,  ``3.4.4-0``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.10.0-4</code>,  <code>3.10.0-3</code>,  <code>3.10.0-2</code>,  <code>3.10.0-1</code>,  <code>3.10.0-0</code>,  <code>3.4.7-1</code>,  <code>3.4.4-0</code>,  <code>3.4.0-3</code>,  <code>3.4.0-1</code>,  </span></summary>
+      
 
+      ``3.10.0-4``,  ``3.10.0-3``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.4.7-1``,  ``3.4.4-0``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends curl: ``>=7.76.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

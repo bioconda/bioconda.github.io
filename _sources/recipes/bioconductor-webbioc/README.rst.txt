@@ -28,19 +28,19 @@ bioconductor-webbioc
       
       
 
-      ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+      ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annaffy: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-gcrma: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-multtest: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-qvalue: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annaffy: ``>=1.63.0,<1.64.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-gcrma: ``>=2.64.0,<2.65.0``
+   :depends bioconductor-multtest: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :requirements:
 

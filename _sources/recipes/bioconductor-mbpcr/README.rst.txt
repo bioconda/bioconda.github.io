@@ -27,15 +27,15 @@ bioconductor-mbpcr
       
       
 
-      ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``
+      ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-gwastools: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-oligoclasses: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-gwastools: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

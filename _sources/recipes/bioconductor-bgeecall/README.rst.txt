@@ -27,20 +27,23 @@ bioconductor-bgeecall
       
       
 
-      ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-rhdf5: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-tximport: ``>=1.18.0,<1.19.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-tximport: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-data.table: 
+   :depends r-dplyr: 
    :depends r-jsonlite: 
    :depends r-rslurm: 
+   :depends r-sjmisc: 
    :requirements:
 
    .. rubric:: Installation

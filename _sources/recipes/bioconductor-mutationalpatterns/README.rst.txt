@@ -26,21 +26,29 @@ bioconductor-mutationalpatterns
    :versions:
       
       
+      .. raw:: html
 
-      ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.3-0</code>,  </span></summary>
+      
 
+      ``3.2.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-variantannotation: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: ``>=0.9.2``
    :depends r-dplyr: ``>=0.8.3``
    :depends r-ggalluvial: ``>=0.12.2``

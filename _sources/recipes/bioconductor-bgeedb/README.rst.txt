@@ -27,16 +27,24 @@ bioconductor-bgeedb
    :versions:
       
       
+      .. raw:: html
 
-      ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.2-0</code>,  <code>2.4.0-0</code>,  </span></summary>
+      
 
+      ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-topgo: ``>=2.41.0,<2.42.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-topgo: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-curl: 
    :depends r-data.table: 
    :depends r-digest: 

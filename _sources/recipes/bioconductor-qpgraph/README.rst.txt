@@ -45,6 +45,7 @@ bioconductor-qpgraph
    :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
    :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: ``>=1.0``

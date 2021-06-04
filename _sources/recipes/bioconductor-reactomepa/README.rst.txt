@@ -28,17 +28,17 @@ bioconductor-reactomepa
       
       
 
-      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-dose: ``>=3.16.0,<3.17.0``
-   :depends bioconductor-enrichplot: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-graphite: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-reactome.db: ``>=1.74.0,<1.75.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-dose: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-enrichplot: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-graphite: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-reactome.db: ``>=1.76.0,<1.77.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-ggraph: 
    :depends r-igraph: 

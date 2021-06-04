@@ -28,19 +28,19 @@ bioconductor-kegglincs
       
       
 
-      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
+      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
    :depends bioconductor-hgu133a.db: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-kegggraph: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-keggrest: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-kodata: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-kegggraph: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-keggrest: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-kodata: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
    :depends cytoscape: ``>=3.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gtools: 
    :depends r-httr: 
    :depends r-igraph: 

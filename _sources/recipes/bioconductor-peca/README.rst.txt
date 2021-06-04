@@ -27,20 +27,28 @@ bioconductor-peca
    :versions:
       
       
+      .. raw:: html
 
-      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+      
 
+      ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rots: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-rots: ``>=1.20.0,<1.21.0``
    :depends r-aroma.affymetrix: 
    :depends r-aroma.core: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

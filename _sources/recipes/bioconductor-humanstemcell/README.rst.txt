@@ -27,15 +27,15 @@ bioconductor-humanstemcell
       
       
 
-      ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
+      ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.2.0,<3.3.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

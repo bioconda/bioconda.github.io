@@ -27,20 +27,20 @@ bioconductor-dominoeffect
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-variantannotation: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :requirements:
 

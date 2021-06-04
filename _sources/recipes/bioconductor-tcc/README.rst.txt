@@ -28,16 +28,16 @@ bioconductor-tcc
       
       
 
-      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.0-0``
+      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-bayseq: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-roc: ``>=1.66.0,<1.67.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-bayseq: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-roc: ``>=1.68.0,<1.69.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

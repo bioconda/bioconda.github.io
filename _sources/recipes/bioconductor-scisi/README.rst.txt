@@ -28,18 +28,18 @@ bioconductor-scisi
       
       
 
-      ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+      ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-apcomplex: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
-   :depends bioconductor-org.sc.sgd.db: ``>=3.12.0,<3.13.0``
-   :depends bioconductor-rpsixml: ``>=2.32.0,<2.33.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotate: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-apcomplex: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-org.sc.sgd.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-rpsixml: ``>=2.34.0,<2.35.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

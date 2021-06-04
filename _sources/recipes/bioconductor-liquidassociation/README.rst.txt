@@ -28,15 +28,15 @@ bioconductor-liquidassociation
       
       
 
-      ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``
+      ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-org.sc.sgd.db: ``>=3.12.0,<3.13.0``
-   :depends bioconductor-yeastcc: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-org.sc.sgd.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-yeastcc: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-geepack: 
    :requirements:
 

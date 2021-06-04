@@ -27,24 +27,22 @@ bioconductor-psichomics
       
       
 
-      ``1.16.0-1``,  ``1.16.0-0``,  ``1.13.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
+      ``1.18.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.13.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
-   :depends bioconductor-recount: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-recount: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-colourpicker: 
    :depends r-data.table: 

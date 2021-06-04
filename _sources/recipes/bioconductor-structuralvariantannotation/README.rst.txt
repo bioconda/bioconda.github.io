@@ -27,18 +27,18 @@ bioconductor-structuralvariantannotation
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-variantannotation: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-rlang: 
    :depends r-stringr: 

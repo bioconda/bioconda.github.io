@@ -27,20 +27,20 @@ bioconductor-hmp2data
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-phyloseq: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
+   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-phyloseq: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-kableextra: 

@@ -27,19 +27,19 @@ bioconductor-affylmgui
       
       
 
-      ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``
+      ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-affyio: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-affyplm: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-gcrma: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-affyio: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-affyplm: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-gcrma: ``>=2.64.0,<2.65.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-r2html: 
    :depends r-tkrplot: 

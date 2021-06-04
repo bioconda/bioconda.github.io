@@ -27,16 +27,16 @@ bioconductor-immunespacer
       
       
 
-      ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.5-0``,  ``1.10.1-0``
+      ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.5-0``,  ``1.10.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-flowcore: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-flowworkspace: ``>=4.2.0,<4.3.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-flowworkspace: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-curl: 
    :depends r-data.table: 
    :depends r-digest: 

@@ -28,10 +28,10 @@ bioconductor-illuminamousev2.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-11</code>,  <code>1.26.0-10</code>,  <code>1.26.0-9</code>,  <code>1.26.0-8</code>,  <code>1.26.0-7</code>,  <code>1.26.0-5</code>,  <code>1.26.0-4</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-12</code>,  <code>1.26.0-11</code>,  <code>1.26.0-10</code>,  <code>1.26.0-9</code>,  <code>1.26.0-8</code>,  <code>1.26.0-7</code>,  <code>1.26.0-5</code>,  <code>1.26.0-4</code>,  <code>1.26.0-2</code>,  </span></summary>
       
 
-      ``1.26.0-11``,  ``1.26.0-10``,  ``1.26.0-9``,  ``1.26.0-8``,  ``1.26.0-7``,  ``1.26.0-5``,  ``1.26.0-4``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``
+      ``1.26.0-12``,  ``1.26.0-11``,  ``1.26.0-10``,  ``1.26.0-9``,  ``1.26.0-8``,  ``1.26.0-7``,  ``1.26.0-5``,  ``1.26.0-4``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-illuminamousev2.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.12.0,<3.13.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.13.0,<3.14.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

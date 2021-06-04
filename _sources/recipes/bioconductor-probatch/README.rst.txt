@@ -27,16 +27,16 @@ bioconductor-probatch
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-pvca: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-sva: ``>=3.38.0,<3.39.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-pvca: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-sva: ``>=3.40.0,<3.41.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corrplot: 
    :depends r-data.table: 
    :depends r-dplyr: 

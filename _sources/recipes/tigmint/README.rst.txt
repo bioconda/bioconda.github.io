@@ -10,7 +10,7 @@ tigmint
    :replaces_section_title:
    :noindex:
 
-   Correct misassemblies using linked reads
+   Correct misassemblies using linked or long reads
 
    :homepage: https://bcgsc.github.io/tigmint/
    :documentation: https://github.com/bcgsc/tigmint#readme
@@ -31,18 +31,23 @@ tigmint
       
       
 
-      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-0``
+      ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bwa: 
    :depends intervaltree: 
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends make: 
    :depends minimap2: 
    :depends pybedtools: 
    :depends pysam: ``>=0.15.3``
-   :depends python: ``>=3``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation

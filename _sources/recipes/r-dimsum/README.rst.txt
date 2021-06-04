@@ -27,7 +27,7 @@ r-dimsum
       
       
 
-      ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``
+      ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
 
@@ -38,7 +38,7 @@ r-dimsum
    :depends cutadapt: ``2.4.*``
    :depends fastqc: ``0.11.9.*``
    :depends pandoc: ``1.17.2.*``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cairo: 
    :depends r-cowplot: 
    :depends r-data.table: 

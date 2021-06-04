@@ -27,18 +27,25 @@ bioconductor-compartmap
       
       
 
-      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``
+      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-minfi: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-mixomics: ``>=6.14.0,<6.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-gtools: 
+   :depends bioconductor-biocsingular: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-hdf5array: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-raggedexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-ggplot2: 
+   :depends r-matrix: 
+   :depends r-reshape2: 
+   :depends r-rmtstat: 
+   :depends r-scales: 
    :requirements:
 
    .. rubric:: Installation

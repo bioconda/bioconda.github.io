@@ -27,14 +27,14 @@ bioconductor-missrows
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-gtools: 
    :depends r-plyr: 

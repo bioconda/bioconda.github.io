@@ -48,8 +48,9 @@ bioconductor-signer
    :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
    :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-class: 
    :depends r-nloptr: 

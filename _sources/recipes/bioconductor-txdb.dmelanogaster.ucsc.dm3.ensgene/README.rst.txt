@@ -28,10 +28,10 @@ bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.2-11</code>,  <code>3.2.2-10</code>,  <code>3.2.2-9</code>,  <code>3.2.2-8</code>,  <code>3.2.2-7</code>,  <code>3.2.2-5</code>,  <code>3.2.2-4</code>,  <code>3.2.2-2</code>,  <code>3.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.2-12</code>,  <code>3.2.2-11</code>,  <code>3.2.2-10</code>,  <code>3.2.2-9</code>,  <code>3.2.2-8</code>,  <code>3.2.2-7</code>,  <code>3.2.2-5</code>,  <code>3.2.2-4</code>,  <code>3.2.2-2</code>,  </span></summary>
       
 
-      ``3.2.2-11``,  ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-8``,  ``3.2.2-7``,  ``3.2.2-5``,  ``3.2.2-4``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``
+      ``3.2.2-12``,  ``3.2.2-11``,  ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-8``,  ``3.2.2-7``,  ``3.2.2-5``,  ``3.2.2-4``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends curl: ``>=7.76.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

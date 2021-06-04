@@ -28,18 +28,18 @@ bioconductor-genefu
       
       
 
-      ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+      ``2.24.2-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
 
       
 
    
-   :depends bioconductor-aims: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-survcomp: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-aims: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-survcomp: ``>=1.42.0,<1.43.0``
    :depends r-amap: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ic10: 
    :depends r-mclust: 
    :requirements:

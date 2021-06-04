@@ -27,14 +27,14 @@ r-diffcorr
       
       
 
-      ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``0.4.1-6``,  ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
 
    
    :depends bioconductor-multtest: 
    :depends bioconductor-pcamethods: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-fdrtool: 
    :depends r-igraph: 
    :requirements:

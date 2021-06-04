@@ -27,14 +27,14 @@ r-autospill
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends bioconductor-flowcore: 
    :depends bioconductor-flowworkspace: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-deldir: 
    :depends r-fields: 
    :depends r-ggplot2: 

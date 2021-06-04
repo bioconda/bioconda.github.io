@@ -27,17 +27,17 @@ bioconductor-sbgnview
       
       
 
-      ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-keggrest: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-pathview: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-sbgnview.data: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-keggrest: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-pathview: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-sbgnview.data: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bookdown: 
    :depends r-httr: 
    :depends r-igraph: 

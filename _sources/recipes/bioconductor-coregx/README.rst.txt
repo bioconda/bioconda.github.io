@@ -27,21 +27,25 @@ bioconductor-coregx
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-piano: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-matrixgenerics: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-piano: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-crayon: 
    :depends r-data.table: 
+   :depends r-glue: 
    :depends r-lsa: 
+   :depends r-rlang: 
    :requirements:
 
    .. rubric:: Installation

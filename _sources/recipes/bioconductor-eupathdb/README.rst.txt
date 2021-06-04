@@ -27,19 +27,19 @@ bioconductor-eupathdb
       
       
 
-      ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
+      ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-annotationhubdata: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-annotationhubdata: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
    :depends bioconductor-genomeinfodbdata: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends curl: ``>=7.76.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :requirements:
 

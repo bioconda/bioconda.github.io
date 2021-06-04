@@ -27,19 +27,21 @@ bioconductor-scone
       
       
 
-      ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.6.0-0``
+      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-aroma.light: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-rhdf5: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-ruvseq: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-aroma.light: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-matrixgenerics: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-ruvseq: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-boot: 
    :depends r-class: 
    :depends r-cluster: 

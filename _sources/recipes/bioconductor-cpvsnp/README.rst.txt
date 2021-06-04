@@ -28,15 +28,15 @@ bioconductor-cpvsnp
       
       
 
-      ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+      ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corpcor: 
    :depends r-ggplot2: 
    :depends r-plyr: 

@@ -27,14 +27,14 @@ bioconductor-tidybulk
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-lifecycle: 
    :depends r-magrittr: 

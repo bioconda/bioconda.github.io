@@ -27,25 +27,22 @@ bioconductor-screpertoire
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-powertcr: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-colorramps: 
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-powertcr: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-ggalluvial: 
-   :depends r-ggdendro: 
-   :depends r-ggfittext: 
    :depends r-ggplot2: 
-   :depends r-rcolorbrewer: 
+   :depends r-plyr: 
    :depends r-reshape2: 
-   :depends r-seurat: 
+   :depends r-rlang: 
    :depends r-stringr: 
    :depends r-vegan: 
    :requirements:

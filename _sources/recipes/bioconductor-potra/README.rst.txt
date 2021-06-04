@@ -27,16 +27,16 @@ bioconductor-potra
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-graphite: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-graphite: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :requirements:
 

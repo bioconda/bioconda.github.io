@@ -26,16 +26,24 @@ bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene
    :versions:
       
       
+      .. raw:: html
 
-      ``3.2.2-16``,  ``3.2.2-15``,  ``3.2.2-14``,  ``3.2.2-13``,  ``3.2.2-12``,  ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-7``,  ``3.2.2-6``
+         <details><summary><span class="truncated-version-list"><code>3.2.2-17</code>,  <code>3.2.2-16</code>,  <code>3.2.2-15</code>,  <code>3.2.2-14</code>,  <code>3.2.2-13</code>,  <code>3.2.2-12</code>,  <code>3.2.2-10</code>,  <code>3.2.2-9</code>,  <code>3.2.2-7</code>,  </span></summary>
+      
 
+      ``3.2.2-17``,  ``3.2.2-16``,  ``3.2.2-15``,  ``3.2.2-14``,  ``3.2.2-13``,  ``3.2.2-12``,  ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-7``,  ``3.2.2-6``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends curl: ``>=7.76.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

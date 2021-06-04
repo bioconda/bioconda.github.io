@@ -32,7 +32,7 @@ r-txrevise
       
       
 
-      ``0.1-1``,  ``0.1-0``
+      ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
@@ -40,7 +40,7 @@ r-txrevise
    :depends bioconductor-genomicfeatures: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-purrr: 

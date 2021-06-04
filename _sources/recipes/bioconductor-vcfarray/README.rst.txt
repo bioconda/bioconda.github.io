@@ -27,19 +27,19 @@ bioconductor-vcfarray
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``
+      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-delayedarray: ``>=0.16.0,<0.17.0``
-   :depends bioconductor-genomicfiles: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-variantannotation: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
+   :depends bioconductor-genomicfiles: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

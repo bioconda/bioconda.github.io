@@ -28,10 +28,10 @@ bioconductor-ppinfer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.0-1</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.0-1</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``
+      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-ppinfer
       
 
    
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-fgsea: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-stringdb: ``>=2.1.0,<2.2.0``
-   :depends bioconductor-yeastexpdata: ``>=0.36.0,<0.37.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-fgsea: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-stringdb: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-yeastexpdata: ``>=0.38.0,<0.39.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-igraph: 
    :depends r-kernlab: 
