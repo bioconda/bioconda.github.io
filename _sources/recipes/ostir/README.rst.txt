@@ -12,7 +12,7 @@ ostir
 
    Open Source Transcription Initiation Rates
 
-   :homepage: https://github.com/barricklab/rbs-calculator
+   :homepage: https://github.com/barricklab/ostir
    :license: GPL3 / GNU General Public v3 or later (GPLv3+)
    :recipe: /`ostir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ostir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ostir/meta.yaml>`_
 
@@ -27,13 +27,13 @@ ostir
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
    
    :depends python: ``>=3.7``
-   :depends viennarna: ``>=2.4.17``
+   :depends viennarna: ``>=2.4.18``
    :requirements:
 
    .. rubric:: Installation

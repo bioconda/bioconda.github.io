@@ -27,14 +27,14 @@ bioconductor-illuminahumanmethylationepicmanifest
       
       
 
-      ``0.3.0-10``,  ``0.3.0-9``,  ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-0``
+      ``0.3.0-11``,  ``0.3.0-10``,  ``0.3.0-9``,  ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-0``
 
       
 
    
-   :depends bioconductor-minfi: ``>=1.36.0,<1.37.0``
-   :depends curl: ``>=7.76.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -27,16 +27,16 @@ bioconductor-pwrewas
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-pwrewas.data: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-pwrewas.data: ``>=1.6.0,<1.7.0``
    :depends r-abind: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-cpgassoc: 
    :depends r-doparallel: 

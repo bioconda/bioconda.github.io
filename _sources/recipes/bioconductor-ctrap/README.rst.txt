@@ -27,21 +27,22 @@ bioconductor-ctrap
       
       
 
-      ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
+      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-fgsea: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-rhdf5: ``>=2.34.0,<2.35.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-fgsea: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-binr: 
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-dt: 
+   :depends r-fastmatch: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-highcharter: 
@@ -52,6 +53,7 @@ bioconductor-ctrap
    :depends r-reshape2: 
    :depends r-scales: 
    :depends r-shiny: 
+   :depends r-tibble: 
    :requirements:
 
    .. rubric:: Installation

@@ -28,7 +28,7 @@ bioconductor-dropletutils
       
       
 
-      ``1.12.0-0``,  ``1.10.3-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.2-0``,  ``1.2.1-0``,  ``1.0.3-0``
+      ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.2-0``,  ``1.2.1-0``,  ``1.0.3-0``
 
       
 
@@ -47,8 +47,9 @@ bioconductor-dropletutils
    :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
    :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: 
    :depends r-dqrng: 

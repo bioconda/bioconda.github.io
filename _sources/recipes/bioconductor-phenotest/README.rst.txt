@@ -27,23 +27,23 @@ bioconductor-phenotest
       
       
 
-      ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
+      ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-category: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-genefilter: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-heatplus: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-annotate: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-category: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-heatplus: ``>=3.0.0,<3.1.0``
    :depends bioconductor-hgu133a.db: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-hopach: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-hopach: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bma: 
    :depends r-ellipse: 
    :depends r-ggplot2: 

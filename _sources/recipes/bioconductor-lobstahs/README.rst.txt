@@ -28,14 +28,14 @@ bioconductor-lobstahs
       
       
 
-      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.4.0-0``
+      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-camera: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-xcms: ``>=3.12.0,<3.13.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-camera: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-xcms: ``>=3.14.0,<3.15.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

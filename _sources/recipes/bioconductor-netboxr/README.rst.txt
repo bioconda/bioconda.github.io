@@ -27,13 +27,13 @@ bioconductor-netboxr
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dt: 
    :depends r-gplots: 

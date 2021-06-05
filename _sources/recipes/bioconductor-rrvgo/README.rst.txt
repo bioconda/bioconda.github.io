@@ -27,15 +27,15 @@ bioconductor-rrvgo
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
-   :depends bioconductor-gosemsim: ``>=2.16.0,<2.17.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-gosemsim: ``>=2.18.0,<2.19.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-pheatmap: 

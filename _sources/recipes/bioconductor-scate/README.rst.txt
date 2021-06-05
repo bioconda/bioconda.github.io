@@ -27,16 +27,16 @@ bioconductor-scate
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicalignments: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-scatedata: ``>=1.0.0,<1.1.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-scatedata: ``>=1.2.0,<1.3.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mclust: 
    :depends r-rtsne: 
    :depends r-splines2: 

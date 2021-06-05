@@ -32,17 +32,19 @@ r-viscorvar
       
       
 
-      ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``
+      ``0.8-0``,  ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``
 
       
 
    
-   :depends bioconductor-mixomics: ``6.12``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-mixomics: ``>=6.14.1``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-dplyr: 
    :depends r-ellipse: 
    :depends r-igraph: 
    :depends r-knitr: 
    :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
    :depends r-rmarkdown: 
    :depends r-testthat: 
    :depends r-xtable: 

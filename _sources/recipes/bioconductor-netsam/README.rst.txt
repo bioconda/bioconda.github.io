@@ -27,15 +27,23 @@ bioconductor-netsam
       
       
 
-      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-dbi: ``>=0.5-1``
+   :depends r-doparallel: ``>=1.0.10``
+   :depends r-foreach: ``>=1.4.0``
    :depends r-igraph: ``>=0.6-1``
+   :depends r-r2html: ``>=2.2.0``
    :depends r-seriation: ``>=1.0-6``
+   :depends r-survival: ``>=2.37-7``
+   :depends r-wgcna: ``>=1.34.0``
    :requirements:
 
    .. rubric:: Installation

@@ -28,7 +28,7 @@ r-immunedeconv
       
       
 
-      ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
+      ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``
 
       
 
@@ -37,7 +37,7 @@ r-immunedeconv
    :depends bioconductor-biocparallel: 
    :depends bioconductor-preprocesscore: 
    :depends bioconductor-sva: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.tree: ``>=0.7``
    :depends r-dplyr: ``>=0.7``
    :depends r-e1071: ``>=1.6``

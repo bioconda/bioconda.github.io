@@ -28,15 +28,15 @@ bioconductor-shinymethyl
       
       
 
-      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
    :depends bioconductor-illuminahumanmethylation450kmanifest: ``>=0.4.0,<0.5.0``
-   :depends bioconductor-minfi: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrixstats: 
    :depends r-rcolorbrewer: 
    :depends r-shiny: ``>=0.13.2``

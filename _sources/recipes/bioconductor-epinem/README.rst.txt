@@ -27,19 +27,20 @@ bioconductor-epinem
       
       
 
-      ``1.14.1-1``,  ``1.14.1-0``
+      ``1.16.0-0``,  ``1.14.1-1``,  ``1.14.1-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-minet: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-mnem: ``>=1.6.0,<1.7.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-minet: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-mnem: ``>=1.8.0,<1.9.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-boolnet: 
    :depends r-e1071: 
    :depends r-gtools: 
    :depends r-igraph: 
+   :depends r-latex2exp: 
    :depends r-lattice: 
    :depends r-latticeextra: 
    :depends r-pcalg: 

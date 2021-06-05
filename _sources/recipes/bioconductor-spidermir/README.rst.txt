@@ -28,18 +28,18 @@ bioconductor-spidermir
       
       
 
-      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.2-0``
+      ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.2-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-mageckflute: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-mirnatap: ``>=1.23.0,<1.24.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-mageckflute: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-mirnatap: ``>=1.26.0,<1.27.0``
    :depends bioconductor-mirnatap.db: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
-   :depends bioconductor-tcgabiolinks: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-tcgabiolinks: ``>=2.20.0,<2.21.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gdata: 
    :depends r-ggplot2: 
    :depends r-gplots: 

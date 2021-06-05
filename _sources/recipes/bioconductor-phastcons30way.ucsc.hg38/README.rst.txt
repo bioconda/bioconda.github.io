@@ -27,15 +27,15 @@ bioconductor-phastcons30way.ucsc.hg38
       
       
 
-      ``3.11.1-2``,  ``3.11.1-1``,  ``3.11.1-0``
+      ``3.11.1-3``,  ``3.11.1-2``,  ``3.11.1-1``,  ``3.11.1-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-genomicscores: ``>=2.2.0,<2.3.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-genomicscores: ``>=2.4.0,<2.5.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

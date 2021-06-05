@@ -27,23 +27,29 @@ bioconductor-timirgen
       
       
 
-      ``1.0.3-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-mfuzz: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-rcy3: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-rwikipathways: ``>=1.10.0,<1.11.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-mfuzz: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-rcy3: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-rwikipathways: ``>=1.12.0,<1.13.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=0.8.4``
+   :depends r-freqprof: 
+   :depends r-ggdendro: 
+   :depends r-gghighlight: 
    :depends r-ggplot2: 
+   :depends r-gplots: 
    :depends r-gtools: ``>=3.8.1``
    :depends r-igraph: ``>=1.2.4.2``
    :depends r-readxl: 
+   :depends r-reshape2: 
+   :depends r-scales: 
    :depends r-stringr: ``>=1.4.0``
    :depends r-tidyr: ``>=1.0.2``
    :requirements:

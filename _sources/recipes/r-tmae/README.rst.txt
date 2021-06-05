@@ -38,6 +38,7 @@ r-tmae
    :depends bioconductor-genomicscores: 
    :depends bioconductor-iranges: 
    :depends bioconductor-s4vectors: 
+   :depends libgcc-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-data.table: 

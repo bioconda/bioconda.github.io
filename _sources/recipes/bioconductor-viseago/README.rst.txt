@@ -27,19 +27,19 @@ bioconductor-viseago
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-annotationforge: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-fgsea: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-go.db: ``>=3.12.1,<3.13.0``
-   :depends bioconductor-gosemsim: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-topgo: ``>=2.41.0,<2.42.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-annotationforge: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-fgsea: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-gosemsim: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-topgo: ``>=2.44.0,<2.45.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dendextend: 
    :depends r-diagrammer: 

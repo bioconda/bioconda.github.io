@@ -27,42 +27,42 @@ bioconductor-systempipeshiny
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends r-assertthat: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-colourpicker: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-bsplus: 
    :depends r-crayon: 
-   :depends r-dot: 
    :depends r-dplyr: 
+   :depends r-drawer: 
    :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-glue: 
+   :depends r-htmltools: 
    :depends r-magrittr: 
-   :depends r-markdown: 
-   :depends r-networkd3: 
    :depends r-openssl: 
    :depends r-plotly: 
    :depends r-r6: 
-   :depends r-rhandsontable: 
    :depends r-rlang: 
    :depends r-rsqlite: 
    :depends r-rstudioapi: 
    :depends r-shiny: ``>=1.5.0``
    :depends r-shinyace: 
    :depends r-shinydashboard: 
-   :depends r-shinydashboardplus: 
+   :depends r-shinydashboardplus: ``>=2.0.0``
    :depends r-shinyfiles: 
    :depends r-shinyjqui: 
    :depends r-shinyjs: 
    :depends r-shinytoastr: 
-   :depends r-shinytree: 
    :depends r-shinywidgets: 
+   :depends r-spscomps: ``>=0.3.0``
+   :depends r-spsutil: ``>=0.1.2``
    :depends r-stringr: 
    :depends r-styler: 
+   :depends r-tibble: 
    :depends r-vroom: ``>=1.3.1``
    :depends r-yaml: 
    :requirements:

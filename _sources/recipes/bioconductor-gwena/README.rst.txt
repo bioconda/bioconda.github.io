@@ -27,13 +27,14 @@ bioconductor-gwena
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-cluster: ``>=2.1.0``
    :depends r-dplyr: ``>=0.8.3``
    :depends r-dynamictreecut: ``>=1.63-1``
    :depends r-ggplot2: ``>=3.1.1``

@@ -27,26 +27,26 @@ bioconductor-dapar
       
       
 
-      ``1.22.6-0``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.1-0``,  ``1.16.7-0``,  ``1.14.4-0``
+      ``1.24.3-0``,  ``1.22.6-0``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.1-0``,  ``1.16.7-0``,  ``1.14.4-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-dapardata: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-mfuzz: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-msnbase: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-pcamethods: ``>=1.82.0,<1.83.0``
-   :depends bioconductor-preprocesscore: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-siggenes: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-vsn: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-dapardata: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-mfuzz: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-msnbase: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-pcamethods: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-siggenes: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
    :depends r-apcluster: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cairo: 
    :depends r-cluster: 
    :depends r-cp4p: ``>=0.3.5``
@@ -62,7 +62,7 @@ bioconductor-dapar
    :depends r-gplots: 
    :depends r-highcharter: 
    :depends r-igraph: 
-   :depends r-imp4p: ``>=0.8``
+   :depends r-imp4p: ``>=1.1``
    :depends r-knitr: 
    :depends r-lattice: 
    :depends r-lme4: 

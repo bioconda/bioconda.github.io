@@ -27,7 +27,7 @@ r-sigqc
       
       
 
-      ``0.1.22-0``,  ``0.1.21-4``,  ``0.1.21-3``,  ``0.1.21-2``,  ``0.1.21-1``,  ``0.1.21-0``,  ``0.1.14-0``
+      ``0.1.22-1``,  ``0.1.22-0``,  ``0.1.21-4``,  ``0.1.21-3``,  ``0.1.21-2``,  ``0.1.21-1``,  ``0.1.21-0``,  ``0.1.14-0``
 
       
 
@@ -35,7 +35,7 @@ r-sigqc
    :depends bioconductor-complexheatmap: 
    :depends bioconductor-gsva: 
    :depends bioconductor-rankprod: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biclust: 
    :depends r-circlize: 
    :depends r-class: 

@@ -27,21 +27,21 @@ bioconductor-clipper
       
       
 
-      ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-kegggraph: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-qpgraph: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-rbgl: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-kegggraph: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-qpgraph: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rbgl: ``>=1.68.0,<1.69.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corpcor: 
    :depends r-grbase: ``>=1.6.6``
    :depends r-igraph: 

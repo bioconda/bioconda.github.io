@@ -35,7 +35,8 @@ r-quilt
    :depends gmp: ``>=6.2.1,<7.0a0``
    :depends htslib: ``>=1.12,<1.13.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends mpc: ``>=1.1.0``
    :depends mpc: ``>=1.1.0,<2.0a0``
    :depends mpfr: ``>=4.0.2,<5.0a0``

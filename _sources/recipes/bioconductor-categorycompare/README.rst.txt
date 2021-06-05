@@ -27,22 +27,22 @@ bioconductor-categorycompare
       
       
 
-      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
+      ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-category: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-gostats: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-graph: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rcy3: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-annotate: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-category: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-gostats: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-rcy3: ``>=2.12.0,<2.13.0``
    :depends cytoscape: ``>=3.6.1``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-colorspace: 
    :depends r-hwriter: 
    :requirements:

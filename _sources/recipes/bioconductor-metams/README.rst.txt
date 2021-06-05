@@ -27,16 +27,24 @@ bioconductor-metams
    :versions:
       
       
+      .. raw:: html
 
-      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
+      
 
+      ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-camera: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-xcms: ``>=3.12.0,<3.13.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-camera: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-xcms: ``>=3.14.0,<3.15.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
    :depends r-robustbase: 
    :requirements:

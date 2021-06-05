@@ -27,16 +27,16 @@ bioconductor-consensusov
       
       
 
-      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-genefu: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-gsva: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-genefu: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-gsva: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gdata: 
    :depends r-matrixstats: 
    :depends r-randomforest: 

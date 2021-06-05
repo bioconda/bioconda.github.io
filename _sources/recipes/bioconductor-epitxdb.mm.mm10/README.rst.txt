@@ -27,15 +27,15 @@ bioconductor-epitxdb.mm.mm10
       
       
 
-      ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``
+      ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-epitxdb: ``>=1.2.0,<1.3.0``
-   :depends curl: ``>=7.76.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-epitxdb: ``>=1.4.0,<1.5.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

@@ -39,8 +39,9 @@ bioconductor-amaretto
    :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
    :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-callr: ``>=3.0.0.9001``
    :depends r-circlize: 

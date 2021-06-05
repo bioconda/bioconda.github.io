@@ -27,15 +27,15 @@ bioconductor-mageckflute
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-enrichplot: ``>=1.10.0,<1.11.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-enrichplot: ``>=1.12.0,<1.13.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gridextra: 
