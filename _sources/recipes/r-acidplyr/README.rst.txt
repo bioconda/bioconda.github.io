@@ -28,7 +28,7 @@ r-acidplyr
       
       
 
-      ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-1``,  ``0.1.17-0``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``0.1.18-2``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-1``,  ``0.1.17-0``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
@@ -36,7 +36,7 @@ r-acidplyr
    :depends r-acidbase: ``>=0.3.13``
    :depends r-acidcli: ``>=0.1.0``
    :depends r-acidgenerics: ``>=0.5.17``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-goalie: ``>=0.5.0``
    :depends r-purrr: ``>=0.3.4``
    :requirements:

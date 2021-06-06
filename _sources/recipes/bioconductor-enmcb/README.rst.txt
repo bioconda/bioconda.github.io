@@ -27,18 +27,20 @@ bioconductor-enmcb
       
       
 
-      ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.4.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
-   :depends bioconductor-minfi: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-boot: 
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
+   :depends r-mboost: 
    :depends r-rms: 
    :depends r-survival: 
    :depends r-survivalroc: 

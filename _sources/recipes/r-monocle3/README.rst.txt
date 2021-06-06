@@ -50,7 +50,8 @@ r-monocle3
    :depends bioconductor-s4vectors: 
    :depends bioconductor-singlecellexperiment: 
    :depends bioconductor-summarizedexperiment: ``>=1.11.5``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-assertthat: ``>=0.2.1``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=0.8.0.1``

@@ -16,7 +16,7 @@ secimtools
    :license: MIT / MIT License
    :recipe: /`secimtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/secimtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/secimtools/meta.yaml>`_
 
-   SECIMTools project aims to develop a suite of tools for processing of metabolomics data\, which can be run in a standalone mode or via Galaxy Genomics Framework.
+   suite of standalone and Galaxy tools for processing of metabolomics data.
 
 
 .. conda:package:: secimtools
@@ -27,7 +27,7 @@ secimtools
       
       
 
-      ``21.3.4.2-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``21.6.3-0``,  ``21.3.4.2-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -39,6 +39,7 @@ secimtools
    :depends numpy: ``>=1.16``
    :depends palettable: 
    :depends pandas: 
+   :depends perl-vcftools-vcf: 
    :depends pymc: 
    :depends python: ``>=3.7``
    :depends r-glmnet: 

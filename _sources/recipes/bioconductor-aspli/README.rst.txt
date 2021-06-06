@@ -27,30 +27,39 @@ bioconductor-aspli
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.3-0``
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+      
 
+      ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-biocstyle: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-genomicalignments: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-gviz: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biocstyle: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-genomicalignments: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-gviz: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dt: 
    :depends r-htmltools: 
    :depends r-igraph: 
    :depends r-mass: 
+   :depends r-pbmcapply: 
    :depends r-tidyr: 
    :depends r-upsetr: 
    :requirements:

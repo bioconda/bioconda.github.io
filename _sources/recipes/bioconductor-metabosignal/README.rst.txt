@@ -28,21 +28,21 @@ bioconductor-metabosignal
       
       
 
-      ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
    :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
-   :depends bioconductor-hpar: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-kegggraph: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-keggrest: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-mwastools: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-mygene: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-hpar: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-kegggraph: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-keggrest: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-mwastools: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-mygene: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :depends r-rcurl: 
    :requirements:

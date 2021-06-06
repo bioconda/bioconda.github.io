@@ -27,23 +27,26 @@ bioconductor-biocsklearn
       
       
 
-      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.3-1``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.3-1``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-basilisk: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends h5py: 
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-knitr: 
    :depends r-rcpp: 
    :depends r-reticulate: 
+   :depends scikit-learn: 
    :requirements:
 
    .. rubric:: Installation

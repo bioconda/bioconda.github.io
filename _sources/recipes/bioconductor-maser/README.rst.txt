@@ -27,18 +27,18 @@ bioconductor-maser
       
       
 
-      ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-gviz: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-gviz: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-dt: 

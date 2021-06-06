@@ -28,24 +28,24 @@ bioconductor-affycoretools
       
       
 
-      ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.2-0``,  ``1.50.6-0``
+      ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.2-0``,  ``1.50.6-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-gcrma: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-glimma: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-gostats: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-oligoclasses: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-reportingtools: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-gcrma: ``>=2.64.0,<2.65.0``
+   :depends bioconductor-glimma: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-gostats: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-reportingtools: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-ggplot2: 
    :depends r-gplots: 

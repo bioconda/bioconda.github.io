@@ -29,10 +29,10 @@ bioconductor-chipqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.2-0</code>,  <code>1.18.0-0</code>,  <code>1.16.1-0</code>,  <code>1.14.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.2-0</code>,  <code>1.18.0-0</code>,  <code>1.16.1-0</code>,  </span></summary>
       
 
-      ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.2-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.3-0``,  ``1.10.3-0``
+      ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.2-0``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.3-0``,  ``1.10.3-0``
 
       
       .. raw:: html
@@ -41,17 +41,17 @@ bioconductor-chipqc
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-chipseq: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-diffbind: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-genomicalignments: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-chipseq: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-diffbind: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-genomicalignments: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
    :depends bioconductor-txdb.celegans.ucsc.ce6.ensgene: ``>=3.2.0,<3.3.0``
    :depends bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene: ``>=3.2.0,<3.3.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: ``>=3.2.0,<3.3.0``
@@ -59,7 +59,7 @@ bioconductor-chipqc
    :depends bioconductor-txdb.mmusculus.ucsc.mm10.knowngene: ``>=3.10.0,<3.11.0``
    :depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene: ``>=3.2.0,<3.3.0``
    :depends bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene: ``>=3.2.0,<3.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-gtools: 
    :depends r-nozzle.r1: 

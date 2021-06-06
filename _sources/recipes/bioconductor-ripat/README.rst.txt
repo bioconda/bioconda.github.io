@@ -27,18 +27,18 @@ bioconductor-ripat
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``
+      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-karyoploter: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-regioner: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-karyoploter: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-regioner: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: ``>=3.1.0``
    :depends r-openxlsx: ``>=4.1.4``
    :depends r-plyr: ``>=1.8.4``

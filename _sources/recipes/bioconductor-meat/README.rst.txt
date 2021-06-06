@@ -27,16 +27,16 @@ bioconductor-meat
       
       
 
-      ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-impute: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-minfi: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-watermelon: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-watermelon: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-dynamictreecut: ``>=1.63``
    :depends r-glmnet: ``>=2.0``

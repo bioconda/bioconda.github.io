@@ -27,19 +27,17 @@ bioconductor-pi
       
       
 
-      ``2.2.0-0``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-ggbio: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-gviz: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-suprahex: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-suprahex: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-caret: 
    :depends r-dnet: 
    :depends r-dplyr: 
@@ -53,10 +51,13 @@ bioconductor-pi
    :depends r-matrix: 
    :depends r-osfr: 
    :depends r-plot3d: 
+   :depends r-purrr: 
    :depends r-randomforest: 
    :depends r-rcircos: 
+   :depends r-readr: 
    :depends r-rocr: 
    :depends r-scales: 
+   :depends r-tibble: 
    :depends r-tidyr: 
    :requirements:
 

@@ -56,6 +56,7 @@ bioconductor-tfbstools
    :depends bioconductor-seqlogo: ``>=1.58.0,<1.59.0``
    :depends bioconductor-xvector: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-catools: ``>=1.17.1``

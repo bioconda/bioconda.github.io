@@ -29,10 +29,10 @@ bioconductor-cummerbund
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  </span></summary>
       
 
-      ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.1-1``,  ``2.12.1-0``,  ``2.8.2-1``,  ``2.8.2-0``
+      ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.1-1``,  ``2.12.1-0``,  ``2.8.2-1``,  ``2.8.2-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-cummerbund
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-gviz: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-gviz: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-fastcluster: 
    :depends r-ggplot2: 
    :depends r-plyr: 

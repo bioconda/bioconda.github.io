@@ -27,12 +27,12 @@ r-ngsplotdb-mm10
       
       
 
-      ``3.00-6``,  ``3.00-5``,  ``3.00-4``,  ``3.00-1``,  ``3.00-0``
+      ``3.00-7``,  ``3.00-6``,  ``3.00-5``,  ``3.00-4``,  ``3.00-1``,  ``3.00-0``
 
       
 
    
-   :depends python: ``<3.0a0``
+   :depends python: ``>=2,<3.0a0``
    :depends r-base: 
    :depends r-ngsplot: 
    :depends wget: 

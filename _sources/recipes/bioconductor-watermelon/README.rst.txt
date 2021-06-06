@@ -28,19 +28,19 @@ bioconductor-watermelon
       
       
 
-      ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
-   :depends bioconductor-illuminaio: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-lumi: ``>=2.42.0,<2.43.0``
-   :depends bioconductor-methylumi: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-roc: ``>=1.66.0,<1.67.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-illuminaio: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-lumi: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-methylumi: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-roc: ``>=1.68.0,<1.69.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrixstats: 
    :requirements:
 

@@ -27,14 +27,14 @@ wade
       
       
 
-      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
    
    :depends bioconductor-biostrings: 
    :depends blast: 
-   :depends r-base: ``>=3.6,<3.7.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-dplyr: 
    :depends r-here: 

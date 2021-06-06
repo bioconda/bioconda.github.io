@@ -27,23 +27,23 @@ bioconductor-meal
       
       
 
-      ``1.20.3-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.15.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+      ``1.22.0-0``,  ``1.20.3-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.15.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-gviz: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-minfi: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-missmethyl: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-multidataset: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-gviz: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-missmethyl: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-multidataset: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: ``>=2.0.0``
    :depends r-isva: 
    :depends r-matrixstats: 

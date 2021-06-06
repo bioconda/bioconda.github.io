@@ -27,20 +27,20 @@ bioconductor-regionreport
       
       
 
-      ``1.24.2-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.1-0``
+      ``1.26.0-0``,  ``1.24.2-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.1-0``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-deformats: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-derfinder: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocstyle: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-deformats: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-derfinder: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-knitr: ``>=1.6``
    :depends r-knitrbootstrap: ``>=0.9.0``
    :depends r-refmanager: 

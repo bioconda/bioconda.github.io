@@ -27,14 +27,14 @@ r-sigminer
       
       
 
-      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.1-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.1-0``
 
       
 
    
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
    :depends bioconductor-maftools: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cli: 
    :depends r-cluster: 
    :depends r-cowplot: 

@@ -28,21 +28,21 @@ bioconductor-yapsa
       
       
 
-      ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-gtrellis: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-keggrest: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-somaticsignatures: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-variantannotation: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-gtrellis: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-keggrest: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-somaticsignatures: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
    :depends r-corrplot: 
    :depends r-dendextend: 
