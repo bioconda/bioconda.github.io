@@ -27,14 +27,14 @@ bioconductor-cemitool
       
       
 
-      ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.3-0``,  ``1.6.10-0``
+      ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.3-0``,  ``1.6.10-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-fgsea: ``>=1.16.0,<1.17.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-fgsea: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: ``>=1.9.4``
    :depends r-dplyr: 
    :depends r-dt: 

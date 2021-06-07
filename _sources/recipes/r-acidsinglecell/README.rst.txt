@@ -28,7 +28,7 @@ r-acidsinglecell
       
       
 
-      ``0.1.7-1``,  ``0.1.7-0``
+      ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
 
@@ -39,7 +39,7 @@ r-acidsinglecell
    :depends r-acidexperiment: ``>=0.1.9``
    :depends r-acidgenerics: ``>=0.5.17``
    :depends r-acidplyr: ``>=0.1.15``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-goalie: ``>=0.5.0``
    :depends r-pipette: ``>=0.5.12``
    :depends r-scales: ``>=1.1``

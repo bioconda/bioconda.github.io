@@ -27,22 +27,22 @@ bioconductor-netdx
       
       
 
-      ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-clusterexperiment: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-netsmooth: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-rcy3: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-scater: ``>=1.18.0,<1.19.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-clusterexperiment: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-netsmooth: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-rcy3: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-scater: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bigmemory: 
    :depends r-combinat: 
    :depends r-doparallel: 

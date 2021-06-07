@@ -29,10 +29,10 @@ r-bcbiosinglecell
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.16-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-1</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-1</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.16-1</code>,  <code>0.4.16-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-1</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-1</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  </span></summary>
       
 
-      ``0.4.16-0``,  ``0.4.13-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-1``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
+      ``0.4.16-1``,  ``0.4.16-0``,  ``0.4.13-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-1``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ r-bcbiosinglecell
    :depends bioconductor-biocparallel: ``>=1.24``
    :depends r-acidgenerics: ``>=0.5.17``
    :depends r-acidplots: ``>=0.3.5``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-basejump: ``>=0.14.17``
    :depends r-bcbiobase: ``>=0.6.21``
    :depends r-ggplot2: ``>=3.3``

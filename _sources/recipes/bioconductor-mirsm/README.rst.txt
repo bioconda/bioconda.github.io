@@ -27,25 +27,24 @@ bioconductor-mirsm
       
       
 
-      ``1.8.3-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-1``
+      ``1.10.0-0``,  ``1.8.3-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-1``
 
       
 
    
-   :depends bioconductor-bicare: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-fabia: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-gseabase: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-ibbig: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-mirsponger: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
-   :depends bioconductor-rqubic: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends bioconductor-bicare: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-fabia: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-ibbig: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-mirsponger: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-rqubic: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libopenblas: ``>=0.3.13,<1.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bibitr: 
    :depends r-biclust: 
    :depends r-dbscan: 

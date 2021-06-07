@@ -28,7 +28,7 @@ r-acidgenomes
       
       
 
-      ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -44,7 +44,7 @@ r-acidgenomes
    :depends r-acidcli: ``>=0.1.1``
    :depends r-acidgenerics: ``>=0.5.17``
    :depends r-acidplyr: ``>=0.1.17``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-goalie: ``>=0.5.1``
    :depends r-httr: ``>=1.4``
    :depends r-pipette: ``>=0.5.14``

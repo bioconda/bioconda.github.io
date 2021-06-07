@@ -27,23 +27,21 @@ bioconductor-cetf
       
       
 
-      ``1.2.4-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``1.4.0-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-rcy3: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-complexheatmap: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rcy3: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
+   :depends r-crayon: 
+   :depends r-dplyr: 
    :depends r-genomictools: 
    :depends r-genomictools.filehandler: 
    :depends r-ggally: 
@@ -52,10 +50,12 @@ bioconductor-cetf
    :depends r-ggpubr: 
    :depends r-ggrepel: 
    :depends r-igraph: 
-   :depends r-matrix: 
    :depends r-network: 
-   :depends r-rcpp: 
-   :depends r-rcpparmadillo: 
+   :depends r-pbapply: 
+   :depends r-rcolorbrewer: 
+   :depends r-reshape2: 
+   :depends r-scales: 
+   :depends r-tidyr: 
    :depends r-webgestaltr: 
    :requirements:
 

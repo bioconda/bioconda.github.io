@@ -28,7 +28,7 @@ r-acidexperiment
       
       
 
-      ``0.1.10-1``,  ``0.1.10-0``
+      ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
 
@@ -40,7 +40,7 @@ r-acidexperiment
    :depends r-acidgenerics: ``>=0.5.17``
    :depends r-acidgenomes: ``>=0.2.9``
    :depends r-acidplyr: ``>=0.1.16``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-goalie: ``>=0.5.1``
    :depends r-matrix: ``>=1.3``
    :depends r-pipette: ``>=0.5.13``
