@@ -12,7 +12,7 @@ bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/TxDb.Dmelanogaster.UCSC.dm3.ensGene.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/TxDb.Dmelanogaster.UCSC.dm3.ensGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene/meta.yaml>`_
 

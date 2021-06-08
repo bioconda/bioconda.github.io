@@ -12,7 +12,7 @@ bioconductor-psichomics
 
    Graphical Interface for Alternative Splicing Quantification\, Analysis and Visualisation
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/psichomics.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/psichomics.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-psichomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psichomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psichomics/meta.yaml>`_
 

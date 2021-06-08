@@ -12,7 +12,7 @@ bioconductor-muscdata
 
    Multi\-sample multi\-group scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/muscData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/muscData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-muscdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-muscdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-muscdata/meta.yaml>`_
 

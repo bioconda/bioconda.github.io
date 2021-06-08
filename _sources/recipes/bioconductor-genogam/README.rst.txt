@@ -12,7 +12,7 @@ bioconductor-genogam
 
    A GAM based framework for analysis of ChIP\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GenoGAM.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GenoGAM.html
    :license: GPL-2
    :recipe: /`bioconductor-genogam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genogam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genogam/meta.yaml>`_
    :links: biotools: :biotools:`genogam`, doi: :doi:`10.1093/bioinformatics/btx150`

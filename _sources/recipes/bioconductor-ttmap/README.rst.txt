@@ -12,7 +12,7 @@ bioconductor-ttmap
 
    Two\-Tier Mapper\: a clustering tool based on topological data analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/TTMap.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/TTMap.html
    :license: GPL-2
    :recipe: /`bioconductor-ttmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ttmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ttmap/meta.yaml>`_
 

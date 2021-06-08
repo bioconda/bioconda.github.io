@@ -12,7 +12,7 @@ bioconductor-gcsconnection
 
    Creating R Connection with Google Cloud Storage
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GCSConnection.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GCSConnection.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gcsconnection <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcsconnection>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcsconnection/meta.yaml>`_
 

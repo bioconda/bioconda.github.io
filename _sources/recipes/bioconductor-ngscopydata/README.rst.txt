@@ -12,7 +12,7 @@ bioconductor-ngscopydata
 
    Subset of BAM files of human tumor and pooled normal sequencing data \(Zhao et al. 2014\) for the NGScopy package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/NGScopyData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/NGScopyData.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-ngscopydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngscopydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngscopydata/meta.yaml>`_
 

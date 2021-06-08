@@ -12,7 +12,7 @@ bioconductor-dmelsgi
 
    Experimental data and documented source code for the paper \"A Map of Directional Genetic Interactions in a Metazoan Cell\"
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/DmelSGI.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/DmelSGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dmelsgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmelsgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmelsgi/meta.yaml>`_
 

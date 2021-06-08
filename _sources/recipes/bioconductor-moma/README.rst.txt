@@ -12,7 +12,7 @@ bioconductor-moma
 
    Multi Omic Master Regulator Analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MOMA.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MOMA.html
    :license: GPL-3
    :recipe: /`bioconductor-moma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moma/meta.yaml>`_
 

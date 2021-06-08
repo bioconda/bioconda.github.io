@@ -12,7 +12,7 @@ bioconductor-scfa
 
    SCFA\: Subtyping via Consensus Factor Analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SCFA.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SCFA.html
    :license: LGPL
    :recipe: /`bioconductor-scfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfa/meta.yaml>`_
 

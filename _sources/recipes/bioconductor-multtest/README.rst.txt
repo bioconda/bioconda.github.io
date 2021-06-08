@@ -12,7 +12,7 @@ bioconductor-multtest
 
    Resampling\-based multiple hypothesis testing
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/multtest.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/multtest.html
    :license: LGPL
    :recipe: /`bioconductor-multtest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multtest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multtest/meta.yaml>`_
    :links: biotools: :biotools:`multtest`, doi: :doi:`10.1007/0-387-29362-0_15`

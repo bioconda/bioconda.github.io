@@ -12,7 +12,7 @@ bioconductor-tadcompare
 
    TADCompare\: Identification and characterization of differential TADs
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/TADCompare.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/TADCompare.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tadcompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tadcompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tadcompare/meta.yaml>`_
 

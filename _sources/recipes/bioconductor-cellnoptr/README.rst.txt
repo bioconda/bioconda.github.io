@@ -12,7 +12,7 @@ bioconductor-cellnoptr
 
    Training of boolean logic models of signalling networks using prior knowledge networks and perturbation data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CellNOptR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CellNOptR.html
    :license: GPL-3
    :recipe: /`bioconductor-cellnoptr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellnoptr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellnoptr/meta.yaml>`_
    :links: biotools: :biotools:`cellnoptr`, doi: :doi:`10.1186/1752-0509-6-133`

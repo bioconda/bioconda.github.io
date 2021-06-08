@@ -12,7 +12,7 @@ bioconductor-org.mmu.eg.db
 
    Genome wide annotation for Rhesus
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/org.Mmu.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/org.Mmu.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.mmu.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.mmu.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.mmu.eg.db/meta.yaml>`_
 

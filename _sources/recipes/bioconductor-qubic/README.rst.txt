@@ -12,7 +12,7 @@ bioconductor-qubic
 
    An R package for qualitative biclustering in support of gene co\-expression analyses
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/QUBIC.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/QUBIC.html
    :license: CC BY-NC-ND 4.0 + file LICENSE
    :recipe: /`bioconductor-qubic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qubic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qubic/meta.yaml>`_
 

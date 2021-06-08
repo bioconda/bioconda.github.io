@@ -10,13 +10,13 @@ bioconductor-treeandleaf
    :replaces_section_title:
    :noindex:
 
-   An alternative to dendrogram visualization and insertion of multiple layers of information
+   Displaying binary trees with focus on dendrogram leaves
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/TreeAndLeaf.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/TreeAndLeaf.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-treeandleaf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treeandleaf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treeandleaf/meta.yaml>`_
 
-   TreeAndLeaf package comes as an alternative to solve problems regarding dendrogram plotting\, such as the lack of space when the dendrogram is too large and the need for adding more layers of information. It treats a whole dendrogram as a tree\, in which the observations are represented by the leaves.
+   The TreeAndLeaf package combines unrooted and force\-directed graph algorithms in order to layout binary trees\, aiming to represent multiple layers of information onto dendrogram leaves.
 
 
 .. conda:package:: bioconductor-treeandleaf

@@ -12,7 +12,7 @@ bioconductor-flowsorted.cordbloodcombined.450k
 
    Illumina 450k\/EPIC data on FACS and MACS umbilical blood cells
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/FlowSorted.CordBloodCombined.450k.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/FlowSorted.CordBloodCombined.450k.html
    :license: GPL-3
    :recipe: /`bioconductor-flowsorted.cordbloodcombined.450k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordbloodcombined.450k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.cordbloodcombined.450k/meta.yaml>`_
 

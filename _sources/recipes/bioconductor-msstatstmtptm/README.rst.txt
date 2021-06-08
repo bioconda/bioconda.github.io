@@ -12,7 +12,7 @@ bioconductor-msstatstmtptm
 
    Post Translational Modification \(PTM\) Significance Analysis in shotgun mass spectrometry\-based proteomic experiments with tandem mass tag \(TMT\) labeling
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MSstatsTMTPTM.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MSstatsTMTPTM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatstmtptm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatstmtptm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatstmtptm/meta.yaml>`_
 

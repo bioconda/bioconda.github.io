@@ -12,7 +12,7 @@ bioconductor-networkbma
 
    Regression\-based network inference using Bayesian Model Averaging
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/networkBMA.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/networkBMA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-networkbma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-networkbma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-networkbma/meta.yaml>`_
    :links: biotools: :biotools:`networkbma`, doi: :doi:`10.1186/1752-0509-8-47`

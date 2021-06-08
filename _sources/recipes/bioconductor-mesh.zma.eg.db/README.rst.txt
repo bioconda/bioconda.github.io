@@ -12,7 +12,7 @@ bioconductor-mesh.zma.eg.db
 
    Mapping table for Zea mays Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Zma.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/MeSH.Zma.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.zma.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.zma.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.zma.eg.db/meta.yaml>`_
 

@@ -10,9 +10,9 @@ bioconductor-lrbase.ssc.eg.db
    :replaces_section_title:
    :noindex:
 
-   An annotation package for the LRBaseDb object
+   Ligand\-Receptor list for Sus scrofa \(Ssc\, Pig\, Taxonomy ID\: 9823\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/LRBase.Ssc.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/LRBase.Ssc.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.ssc.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ssc.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ssc.eg.db/meta.yaml>`_
 

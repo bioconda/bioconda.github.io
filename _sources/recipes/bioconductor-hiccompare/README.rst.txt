@@ -12,7 +12,7 @@ bioconductor-hiccompare
 
    HiCcompare\: Joint normalization and comparative analysis of multiple Hi\-C datasets
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/HiCcompare.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/HiCcompare.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hiccompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiccompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiccompare/meta.yaml>`_
    :links: biotools: :biotools:`HiCcompare`, doi: :doi:`10.1186/s12859-018-2288-x`

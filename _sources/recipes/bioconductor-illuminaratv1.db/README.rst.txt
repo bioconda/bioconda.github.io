@@ -12,7 +12,7 @@ bioconductor-illuminaratv1.db
 
    Illumina Ratv1 annotation data \(chip illuminaRatv1\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/illuminaRatv1.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/illuminaRatv1.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminaratv1.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminaratv1.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminaratv1.db/meta.yaml>`_
 

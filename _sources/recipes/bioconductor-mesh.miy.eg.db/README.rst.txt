@@ -12,7 +12,7 @@ bioconductor-mesh.miy.eg.db
 
    Mapping table for Lotus japonicus Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Miy.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/MeSH.Miy.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.miy.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.miy.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.miy.eg.db/meta.yaml>`_
 

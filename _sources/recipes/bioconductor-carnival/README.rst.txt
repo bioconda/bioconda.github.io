@@ -12,8 +12,8 @@ bioconductor-carnival
 
    A CAusal Reasoning tool for Network Identification \(from gene expression data\) using Integer VALue programming
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CARNIVAL.html
-   :license: Apache License (== 3.0) | file LICENSE
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CARNIVAL.html
+   :license: GPL-3
    :recipe: /`bioconductor-carnival <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-carnival>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-carnival/meta.yaml>`_
 
    An upgraded causal reasoning tool from Melas et al in R with updated assignments of TFs\' weights from PROGENy scores. Optimization parameters can be freely adjusted and multiple solutions can be obtained and aggregated.

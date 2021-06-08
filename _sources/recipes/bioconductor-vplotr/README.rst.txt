@@ -12,7 +12,7 @@ bioconductor-vplotr
 
    Set of tools to make V\-plots and compute footprint profiles
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/VplotR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/VplotR.html
    :license: GPL-3
    :recipe: /`bioconductor-vplotr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vplotr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vplotr/meta.yaml>`_
 

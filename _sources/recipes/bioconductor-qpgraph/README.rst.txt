@@ -12,7 +12,7 @@ bioconductor-qpgraph
 
    Estimation of genetic and molecular regulatory networks from high\-throughput genomics data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/qpgraph.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/qpgraph.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-qpgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpgraph/meta.yaml>`_
    :links: biotools: :biotools:`qpgraph`

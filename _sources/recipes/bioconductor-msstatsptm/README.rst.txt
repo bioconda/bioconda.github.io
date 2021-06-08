@@ -12,11 +12,11 @@ bioconductor-msstatsptm
 
    Statistical Characterization of Post\-translational Modifications
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MSstatsPTM.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MSstatsPTM.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatsptm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsptm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsptm/meta.yaml>`_
 
-   MSstatsPTM provides general statistical methods for quantitative characterization of post\-translational modifications \(PTMs\). Typically\, the analysis involves the quantification of PTM sites \(i.e.\, modified residues\) and their corresponding proteins\, as well as the integration of the quantification results. MSstatsPTM provides functions for summarization\, estimation of PTM site abundance\, and detection of changes in PTMs across experimental conditions.
+   MSstatsPTM provides general statistical methods for quantitative characterization of post\-translational modifications \(PTMs\). Supports DDA\, DIA\, and tandem mass tag \(TMT\) labeling. Typically\, the analysis involves the quantification of PTM sites \(i.e.\, modified residues\) and their corresponding proteins\, as well as the integration of the quantification results. MSstatsPTM provides functions for summarization\, estimation of PTM site abundance\, and detection of changes in PTMs across experimental conditions.
 
 
 .. conda:package:: bioconductor-msstatsptm

@@ -12,11 +12,11 @@ bioconductor-anvil
 
    Bioconductor on the AnVIL compute environment
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/AnVIL.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/AnVIL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-anvil <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvil>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvil/meta.yaml>`_
 
-   The AnVIL is cloud computing resource developed in part by the National Human Genome Research Institute. The AnVIL package provides end\-user and devloper functionality. For the end\-user\, AnVIL provides fast binary package installation\, utitlities for working with Terra \/ AnVIL table and data resources\, and convenient functions for file movement to and from Google cloud storage. For developers\, AnVIL provides programatic access to the Terra\, Leonardo\, Dockstore\, and Gen3 RESTful programming interface\, including helper functions to transform JSON responses to more formats more amenable to manipulation in R.
+   The AnVIL is a cloud computing resource developed in part by the National Human Genome Research Institute. The AnVIL package provides end\-user and developer functionality. For the end\-user\, AnVIL provides fast binary package installation\, utitlities for working with Terra \/ AnVIL table and data resources\, and convenient functions for file movement to and from Google cloud storage. For developers\, AnVIL provides programatic access to the Terra\, Leonardo\, Rawls\, Dockstore\, and Gen3 RESTful programming interface\, including helper functions to transform JSON responses to formats more amenable to manipulation in R.
 
 
 .. conda:package:: bioconductor-anvil

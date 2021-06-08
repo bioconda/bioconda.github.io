@@ -12,7 +12,7 @@ bioconductor-gigseadata
 
    Gene set collections for the GIGSEA package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/GIGSEAdata.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/GIGSEAdata.html
    :license: LGPL-3
    :recipe: /`bioconductor-gigseadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gigseadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gigseadata/meta.yaml>`_
 

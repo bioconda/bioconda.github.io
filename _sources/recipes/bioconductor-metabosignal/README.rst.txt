@@ -12,7 +12,7 @@ bioconductor-metabosignal
 
    MetaboSignal\: a network\-based approach to overlay and explore metabolic and signaling KEGG pathways
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MetaboSignal.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MetaboSignal.html
    :license: GPL-3
    :recipe: /`bioconductor-metabosignal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabosignal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabosignal/meta.yaml>`_
    :links: biotools: :biotools:`metabosignal`

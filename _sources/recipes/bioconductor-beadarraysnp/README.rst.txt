@@ -12,7 +12,7 @@ bioconductor-beadarraysnp
 
    Normalization and reporting of Illumina SNP bead arrays
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/beadarraySNP.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/beadarraySNP.html
    :license: GPL-2
    :recipe: /`bioconductor-beadarraysnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarraysnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarraysnp/meta.yaml>`_
    :links: biotools: :biotools:`beadarraysnp`, doi: :doi:`10.1093/bioinformatics/btm311`

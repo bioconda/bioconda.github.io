@@ -12,7 +12,7 @@ bioconductor-timeseriesexperiment
 
    Analysis for short time\-series data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/TimeSeriesExperiment.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/TimeSeriesExperiment.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-timeseriesexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timeseriesexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timeseriesexperiment/meta.yaml>`_
 

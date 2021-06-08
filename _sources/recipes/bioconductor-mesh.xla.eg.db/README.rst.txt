@@ -10,9 +10,9 @@ bioconductor-mesh.xla.eg.db
    :replaces_section_title:
    :noindex:
 
-   Mapping table for Xenopus laevis Gene ID to MeSH
+   Mapping table for Xenopus tropicalis Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Xla.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/MeSH.Xla.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.xla.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.xla.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.xla.eg.db/meta.yaml>`_
 

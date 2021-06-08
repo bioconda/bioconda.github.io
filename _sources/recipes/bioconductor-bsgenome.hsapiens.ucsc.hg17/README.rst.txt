@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg17
 
    Full genome sequences for Homo sapiens \(UCSC version hg17\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Hsapiens.UCSC.hg17.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Hsapiens.UCSC.hg17.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg17 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg17>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg17/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-xhybcasneuf
 
    EBI\/PSB cross\-hybridisation study package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/XhybCasneuf.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/XhybCasneuf.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-xhybcasneuf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xhybcasneuf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xhybcasneuf/meta.yaml>`_
 

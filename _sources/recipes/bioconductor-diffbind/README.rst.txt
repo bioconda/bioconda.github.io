@@ -12,7 +12,7 @@ bioconductor-diffbind
 
    Differential Binding Analysis of ChIP\-Seq Peak Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DiffBind.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DiffBind.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-diffbind <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffbind>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffbind/meta.yaml>`_
    :links: biotools: :biotools:`diffbind`, usegalaxy-eu: :usegalaxy-eu:`diffbind`

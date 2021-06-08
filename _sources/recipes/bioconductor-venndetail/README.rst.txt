@@ -12,7 +12,7 @@ bioconductor-venndetail
 
    A package for visualization and extract details
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/VennDetail.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/VennDetail.html
    :license: GPL-2
    :recipe: /`bioconductor-venndetail <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-venndetail>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-venndetail/meta.yaml>`_
 

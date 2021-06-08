@@ -12,7 +12,7 @@ bioconductor-citrusprobe
 
    Probe sequence data for microarrays of type citrus
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/citrusprobe.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/citrusprobe.html
    :license: LGPL
    :recipe: /`bioconductor-citrusprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citrusprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citrusprobe/meta.yaml>`_
 

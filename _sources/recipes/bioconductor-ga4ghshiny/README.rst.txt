@@ -12,7 +12,7 @@ bioconductor-ga4ghshiny
 
    Shiny application for interacting with GA4GH\-based data servers
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GA4GHshiny.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GA4GHshiny.html
    :license: GPL-3
    :recipe: /`bioconductor-ga4ghshiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghshiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghshiny/meta.yaml>`_
 

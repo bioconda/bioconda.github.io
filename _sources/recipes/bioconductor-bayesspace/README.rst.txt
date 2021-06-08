@@ -12,7 +12,7 @@ bioconductor-bayesspace
 
    Clustering and Resolution Enhancement of Spatial Transcriptomes
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BayesSpace.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BayesSpace.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-bayesspace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayesspace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayesspace/meta.yaml>`_
 

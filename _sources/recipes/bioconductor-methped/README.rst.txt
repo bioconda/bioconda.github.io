@@ -12,7 +12,7 @@ bioconductor-methped
 
    A DNA methylation classifier tool for the identification of pediatric brain tumor subtypes
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MethPed.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MethPed.html
    :license: GPL-2
    :recipe: /`bioconductor-methped <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methped>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methped/meta.yaml>`_
    :links: biotools: :biotools:`methped`, doi: :doi:`10.1186/s13148-015-0103-3`

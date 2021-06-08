@@ -12,7 +12,7 @@ bioconductor-tinesath1probe
 
    Probe sequence data for microarrays of type tinesath1
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/tinesath1probe.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/tinesath1probe.html
    :license: LGPL
    :recipe: /`bioconductor-tinesath1probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1probe/meta.yaml>`_
 

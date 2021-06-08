@@ -12,7 +12,7 @@ bioconductor-rnaseqrdata
 
    RNASeqRData\: sample data for RNASeqR software package demonstration
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/RNASeqRData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/RNASeqRData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnaseqrdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqrdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqrdata/meta.yaml>`_
 

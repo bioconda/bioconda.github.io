@@ -12,11 +12,11 @@ bioconductor-metabcombiner
 
    Method for Combining LC\-MS Metabolomics Feature Measurements
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/metabCombiner.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/metabCombiner.html
    :license: GPL-3
    :recipe: /`bioconductor-metabcombiner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabcombiner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabcombiner/meta.yaml>`_
 
-   This package aligns LC\-HRMS metabolomics datasets acquired from biologically similar specimens analyzed under similar\, but not necessarily identical\, conditions. Two peak\-picked and aligned metabolomics feature tables \(consisting of m\/z\, rt\, and per\-sample abundance measurements\, plus optional identifiers \& adduct annotations\) are accepted as input. The package outputs a combined table of feature pair alignments\, organized into groups of similar m\/z\, and ranked by a similarity score. Input tables are assumed to be acquired using similar \(but not necessarily identical\) analytical methods.
+   This package aligns LC\-HRMS metabolomics datasets acquired from biologically similar specimens analyzed under similar\, but not necessarily identical\, conditions. Peak\-picked and simply aligned metabolomics feature tables \(consisting of m\/z\, rt\, and per\-sample abundance measurements\, plus optional identifiers \& adduct annotations\) are accepted as input. The package outputs a combined table of feature pair alignments\, organized into groups of similar m\/z\, and ranked by a similarity score. Input tables are assumed to be acquired using similar \(but not necessarily identical\) analytical methods.
 
 
 .. conda:package:: bioconductor-metabcombiner

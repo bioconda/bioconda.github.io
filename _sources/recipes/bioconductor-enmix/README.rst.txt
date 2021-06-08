@@ -12,7 +12,7 @@ bioconductor-enmix
 
    Quality control and analysis tools for Illumina DNA methylation BeadChip
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ENmix.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ENmix.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-enmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enmix/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked
 
    Full masked genome sequences for Gasterosteus aculeatus \(UCSC version gasAcu1\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Gaculeatus.UCSC.gasAcu1.masked.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Gaculeatus.UCSC.gasAcu1.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked/meta.yaml>`_
 

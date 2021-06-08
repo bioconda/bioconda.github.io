@@ -12,7 +12,7 @@ bioconductor-ccl4
 
    Carbon Tetrachloride \(CCl4\) treated hepatocytes
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/CCl4.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/CCl4.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ccl4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccl4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccl4/meta.yaml>`_
 

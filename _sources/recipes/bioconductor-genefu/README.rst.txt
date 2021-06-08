@@ -12,12 +12,12 @@ bioconductor-genefu
 
    Computation of Gene Expression\-Based Signatures in Breast Cancer
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/genefu.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/genefu.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genefu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefu/meta.yaml>`_
    :links: biotools: :biotools:`genefu`, doi: :doi:`10.1093/bioinformatics/btv693`
 
-   Description\: This package contains functions implementing various tasks usually required by gene expression analysis\, especially in breast cancer studies\: gene mapping between different microarray platforms\, identification of molecular subtypes\, implementation of published gene signatures\, gene selection\, and survival analysis.
+   This package contains functions implementing various tasks usually required by gene expression analysis\, especially in breast cancer studies\: gene mapping between different microarray platforms\, identification of molecular subtypes\, implementation of published gene signatures\, gene selection\, and survival analysis.
 
 
 .. conda:package:: bioconductor-genefu

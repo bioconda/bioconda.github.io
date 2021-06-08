@@ -12,7 +12,7 @@ bioconductor-diffhic
 
    Differential Analyis of Hi\-C Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/diffHic.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/diffHic.html
    :license: GPL-3
    :recipe: /`bioconductor-diffhic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffhic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffhic/meta.yaml>`_
 

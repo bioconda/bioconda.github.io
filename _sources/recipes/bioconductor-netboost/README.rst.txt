@@ -12,7 +12,7 @@ bioconductor-netboost
 
    Network Analysis Supported by Boosting
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/netboost.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/netboost.html
    :license: GPL-3
    :recipe: /`bioconductor-netboost <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netboost>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netboost/meta.yaml>`_
 

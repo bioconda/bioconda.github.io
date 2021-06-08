@@ -12,7 +12,7 @@ bioconductor-eatonetalchipseq
 
    ChIP\-seq data of ORC\-binding sites in Yeast excerpted from Eaton et al. 2010
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/EatonEtAlChIPseq.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/EatonEtAlChIPseq.html
    :license: Artistic 2.0
    :recipe: /`bioconductor-eatonetalchipseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eatonetalchipseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eatonetalchipseq/meta.yaml>`_
 

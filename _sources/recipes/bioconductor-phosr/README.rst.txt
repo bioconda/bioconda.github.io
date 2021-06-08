@@ -12,7 +12,7 @@ bioconductor-phosr
 
    A set of methods and tools for comprehensive analysis of phosphoproteomics data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PhosR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/PhosR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-phosr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phosr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phosr/meta.yaml>`_
 

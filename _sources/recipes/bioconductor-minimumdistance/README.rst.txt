@@ -12,7 +12,7 @@ bioconductor-minimumdistance
 
    A Package for De Novo CNV Detection in Case\-Parent Trios
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MinimumDistance.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MinimumDistance.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minimumdistance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minimumdistance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minimumdistance/meta.yaml>`_
    :links: biotools: :biotools:`minimumdistance`, doi: :doi:`10.1186/1471-2105-13-330`

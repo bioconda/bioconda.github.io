@@ -12,7 +12,7 @@ bioconductor-curatedbladderdata
 
    Bladder Cancer Gene Expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/curatedBladderData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/curatedBladderData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedbladderdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbladderdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbladderdata/meta.yaml>`_
 

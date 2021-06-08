@@ -12,7 +12,7 @@ bioconductor-genomicscores
 
    Infrastructure to work with genomewide position\-specific scores
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GenomicScores.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GenomicScores.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicscores <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicscores>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicscores/meta.yaml>`_
 

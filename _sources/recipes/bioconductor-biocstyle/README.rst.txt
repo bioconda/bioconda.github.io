@@ -12,7 +12,7 @@ bioconductor-biocstyle
 
    Standard styles for vignettes and other Bioconductor documents
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BiocStyle.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BiocStyle.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocstyle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocstyle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocstyle/meta.yaml>`_
    :links: biotools: :biotools:`biocstyle`, doi: :doi:`10.1038/nmeth.3252`

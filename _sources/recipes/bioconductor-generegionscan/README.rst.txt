@@ -12,7 +12,7 @@ bioconductor-generegionscan
 
    GeneRegionScan
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GeneRegionScan.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GeneRegionScan.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-generegionscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generegionscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-generegionscan/meta.yaml>`_
    :links: biotools: :biotools:`generegionscan`

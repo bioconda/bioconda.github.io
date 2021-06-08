@@ -12,7 +12,7 @@ bioconductor-rnaseqdata.hnrnpc.bam.chr14
 
    Aligned reads from RNAseq experiment\: Transcription profiling by high throughput sequencing of HNRNPC knockdown and control HeLa cells
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/RNAseqData.HNRNPC.bam.chr14.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/RNAseqData.HNRNPC.bam.chr14.html
    :license: LGPL
    :recipe: /`bioconductor-rnaseqdata.hnrnpc.bam.chr14 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqdata.hnrnpc.bam.chr14>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqdata.hnrnpc.bam.chr14/meta.yaml>`_
 

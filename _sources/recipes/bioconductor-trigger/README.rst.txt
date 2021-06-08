@@ -12,7 +12,7 @@ bioconductor-trigger
 
    Transcriptional Regulatory Inference from Genetics of Gene ExpRession
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/trigger.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/trigger.html
    :license: GPL-3
    :recipe: /`bioconductor-trigger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trigger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trigger/meta.yaml>`_
    :links: biotools: :biotools:`trigger`, doi: :doi:`10.1038/nmeth.3252`

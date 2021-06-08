@@ -12,7 +12,7 @@ bioconductor-fmcsr
 
    Mismatch Tolerant Maximum Common Substructure Searching
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/fmcsR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/fmcsR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fmcsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fmcsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fmcsr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rdisop
 
    Decomposition of Isotopic Patterns
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Rdisop.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Rdisop.html
    :license: GPL-2
    :recipe: /`bioconductor-rdisop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdisop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdisop/meta.yaml>`_
 

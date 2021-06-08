@@ -12,7 +12,7 @@ bioconductor-pcaexplorer
 
    Interactive Visualization of RNA\-seq Data Using a Principal Components Approach
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/pcaExplorer.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pcaExplorer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pcaexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcaexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcaexplorer/meta.yaml>`_
    :links: biotools: :biotools:`pcaexplorer`, doi: :doi:`10.18547/gcb.2017.vol3.iss1.e39`

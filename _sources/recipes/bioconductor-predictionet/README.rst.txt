@@ -12,7 +12,7 @@ bioconductor-predictionet
 
    Inference for predictive networks designed for \(but not limited to\) genomic data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/predictionet.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/predictionet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-predictionet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predictionet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predictionet/meta.yaml>`_
 

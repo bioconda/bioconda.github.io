@@ -12,7 +12,7 @@ bioconductor-gsealm
 
    Linear Model Toolset for Gene Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GSEAlm.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GSEAlm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gsealm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsealm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsealm/meta.yaml>`_
    :links: biotools: :biotools:`gsealm`, doi: :doi:`10.1093/bioinformatics/btn465`

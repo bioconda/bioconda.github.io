@@ -12,7 +12,7 @@ bioconductor-txdb.mmusculus.ucsc.mm39.refgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/TxDb.Mmusculus.UCSC.mm39.refGene.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/TxDb.Mmusculus.UCSC.mm39.refGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.mmusculus.ucsc.mm39.refgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm39.refgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm39.refgene/meta.yaml>`_
 

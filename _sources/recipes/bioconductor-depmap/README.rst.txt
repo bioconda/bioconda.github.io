@@ -12,7 +12,7 @@ bioconductor-depmap
 
    Cancer Dependency Map Data Package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/depmap.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/depmap.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-depmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-depmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-depmap/meta.yaml>`_
 

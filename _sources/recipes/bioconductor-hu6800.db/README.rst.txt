@@ -12,7 +12,7 @@ bioconductor-hu6800.db
 
    Affymetrix HuGeneFL Genome Array annotation data \(chip hu6800\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hu6800.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hu6800.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hu6800.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu6800.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu6800.db/meta.yaml>`_
 

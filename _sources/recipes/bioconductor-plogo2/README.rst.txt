@@ -12,7 +12,7 @@ bioconductor-plogo2
 
    Plot Gene Ontology and KEGG pathway Annotation and Abundance
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PloGO2.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/PloGO2.html
    :license: GPL-2
    :recipe: /`bioconductor-plogo2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plogo2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plogo2/meta.yaml>`_
 

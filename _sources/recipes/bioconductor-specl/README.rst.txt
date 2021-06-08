@@ -12,7 +12,7 @@ bioconductor-specl
 
    specL \- Prepare Peptide Spectrum Matches for Use in Targeted Proteomics
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/specL.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/specL.html
    :license: GPL-3
    :recipe: /`bioconductor-specl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specl/meta.yaml>`_
    :links: biotools: :biotools:`specl`

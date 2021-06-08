@@ -12,7 +12,7 @@ bioconductor-flowworkspace
 
    Infrastructure for representing and interacting with gated and ungated cytometry data sets.
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/flowWorkspace.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/flowWorkspace.html
    :license: file LICENSE
    :recipe: /`bioconductor-flowworkspace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspace/meta.yaml>`_
    :links: biotools: :biotools:`flowworkspace`, doi: :doi:`10.1186/1471-2105-13-252`

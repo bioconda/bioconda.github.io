@@ -12,7 +12,7 @@ bioconductor-tomoda
 
    Tomo\-seq data analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/tomoda.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/tomoda.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tomoda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tomoda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tomoda/meta.yaml>`_
 

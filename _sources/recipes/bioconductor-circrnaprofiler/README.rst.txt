@@ -12,7 +12,7 @@ bioconductor-circrnaprofiler
 
    circRNAprofiler\: An R\-Based Computational Framework for the Downstream Analysis of Circular RNAs
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/circRNAprofiler.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/circRNAprofiler.html
    :license: GPL-3
    :recipe: /`bioconductor-circrnaprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-circrnaprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-circrnaprofiler/meta.yaml>`_
 

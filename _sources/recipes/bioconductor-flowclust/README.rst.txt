@@ -12,7 +12,7 @@ bioconductor-flowclust
 
    Clustering for Flow Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/flowClust.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/flowClust.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowclust/meta.yaml>`_
 

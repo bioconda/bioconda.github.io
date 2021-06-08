@@ -12,7 +12,7 @@ bioconductor-htrat230pmcdf
 
    htrat230pmcdf
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/htrat230pmcdf.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/htrat230pmcdf.html
    :license: LGPL
    :recipe: /`bioconductor-htrat230pmcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pmcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htrat230pmcdf/meta.yaml>`_
 

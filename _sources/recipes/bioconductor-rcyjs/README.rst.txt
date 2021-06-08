@@ -12,7 +12,7 @@ bioconductor-rcyjs
 
    Display and manipulate graphs in cytoscape.js
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RCyjs.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RCyjs.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rcyjs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcyjs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcyjs/meta.yaml>`_
 

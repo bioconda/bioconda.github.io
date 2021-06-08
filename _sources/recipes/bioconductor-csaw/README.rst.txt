@@ -12,7 +12,7 @@ bioconductor-csaw
 
    ChIP\-Seq Analysis with Windows
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/csaw.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/csaw.html
    :license: GPL-3
    :recipe: /`bioconductor-csaw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csaw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csaw/meta.yaml>`_
    :links: biotools: :biotools:`csaw`

@@ -12,7 +12,7 @@ bioconductor-timecourse
 
    Statistical Analysis for Developmental Microarray Time Course Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/timecourse.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/timecourse.html
    :license: LGPL
    :recipe: /`bioconductor-timecourse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timecourse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timecourse/meta.yaml>`_
    :links: biotools: :biotools:`timecourse`, doi: :doi:`10.1038/nmeth.3252`

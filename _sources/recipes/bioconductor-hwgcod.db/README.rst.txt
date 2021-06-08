@@ -12,7 +12,7 @@ bioconductor-hwgcod.db
 
    Codelink Human Whole Genome Bioarray \(\~55 000 human genes\) annotation data \(chip hwgcod\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hwgcod.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hwgcod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hwgcod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hwgcod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hwgcod.db/meta.yaml>`_
 

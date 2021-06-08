@@ -12,7 +12,7 @@ bioconductor-motifbreakr
 
    A Package For Predicting The Disruptiveness Of Single Nucleotide Polymorphisms On Transcription Factor Binding Sites
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/motifbreakR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/motifbreakR.html
    :license: GPL-2
    :recipe: /`bioconductor-motifbreakr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifbreakr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifbreakr/meta.yaml>`_
    :links: biotools: :biotools:`motifbreakr`

@@ -12,7 +12,7 @@ bioconductor-icnv
 
    Integrated Copy Number Variation detection
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/iCNV.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/iCNV.html
    :license: GPL-2
    :recipe: /`bioconductor-icnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icnv/meta.yaml>`_
 

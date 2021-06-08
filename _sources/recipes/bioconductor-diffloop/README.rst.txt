@@ -12,7 +12,7 @@ bioconductor-diffloop
 
    Identifying differential DNA loops from chromatin topology data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/diffloop.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/diffloop.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-diffloop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffloop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffloop/meta.yaml>`_
    :links: biotools: :biotools:`diffloop`, doi: :doi:`10.1101/087338`

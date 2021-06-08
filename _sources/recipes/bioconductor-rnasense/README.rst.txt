@@ -12,7 +12,7 @@ bioconductor-rnasense
 
    Analysis of Time\-Resolved RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RNAsense.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RNAsense.html
    :license: GPL-3
    :recipe: /`bioconductor-rnasense <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnasense>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnasense/meta.yaml>`_
 

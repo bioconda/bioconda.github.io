@@ -12,7 +12,7 @@ bioconductor-spatialheatmap
 
    spatialHeatmap
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/spatialHeatmap.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/spatialHeatmap.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spatialheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialheatmap/meta.yaml>`_
 

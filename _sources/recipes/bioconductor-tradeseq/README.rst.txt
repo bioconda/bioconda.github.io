@@ -12,7 +12,7 @@ bioconductor-tradeseq
 
    trajectory\-based differential expression analysis for sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/tradeSeq.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/tradeSeq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tradeseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tradeseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tradeseq/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pharmacogx
 
    Analysis of Large\-Scale Pharmacogenomic Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PharmacoGx.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/PharmacoGx.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pharmacogx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pharmacogx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pharmacogx/meta.yaml>`_
 

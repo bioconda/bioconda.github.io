@@ -12,7 +12,7 @@ bioconductor-chromstar
 
    Combinatorial and Differential Chromatin State Analysis for ChIP\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/chromstaR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/chromstaR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chromstar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstar/meta.yaml>`_
    :links: biotools: :biotools:`chromstar`, doi: :doi:`10.1101/038612`

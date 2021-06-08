@@ -12,7 +12,7 @@ bioconductor-dmrforpairs
 
    DMRforPairs\: identifying Differentially Methylated Regions between unique samples using array based methylation profiles
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DMRforPairs.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DMRforPairs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dmrforpairs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrforpairs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrforpairs/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-scdblfinder
 
    scDblFinder
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/scDblFinder.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/scDblFinder.html
    :license: GPL-3
    :recipe: /`bioconductor-scdblfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdblfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdblfinder/meta.yaml>`_
 

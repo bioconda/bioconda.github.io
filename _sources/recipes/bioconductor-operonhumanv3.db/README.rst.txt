@@ -12,7 +12,7 @@ bioconductor-operonhumanv3.db
 
    FHCRC Nelson Lab OperonHumanV3 Annotation Data \(OperonHumanV3\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/OperonHumanV3.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/OperonHumanV3.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-operonhumanv3.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-operonhumanv3.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-operonhumanv3.db/meta.yaml>`_
 

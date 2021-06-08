@@ -12,7 +12,7 @@ bioconductor-pagerank
 
    Temporal and Multiplex PageRank for Gene Regulatory Network Analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/pageRank.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pageRank.html
    :license: GPL-2
    :recipe: /`bioconductor-pagerank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pagerank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pagerank/meta.yaml>`_
 

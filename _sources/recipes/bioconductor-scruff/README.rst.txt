@@ -12,7 +12,7 @@ bioconductor-scruff
 
    Single Cell RNA\-Seq UMI Filtering Facilitator \(scruff\)
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/scruff.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/scruff.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scruff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scruff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scruff/meta.yaml>`_
 

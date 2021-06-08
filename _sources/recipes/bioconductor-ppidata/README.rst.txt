@@ -12,7 +12,7 @@ bioconductor-ppidata
 
    A package that contains the bait to prey directed graphs for protein\-protein interactions.
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/ppiData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/ppiData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ppidata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppidata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppidata/meta.yaml>`_
 

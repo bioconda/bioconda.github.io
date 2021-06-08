@@ -12,7 +12,7 @@ bioconductor-biocsklearn
 
    interface to python sklearn via Rstudio reticulate
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BiocSklearn.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BiocSklearn.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocsklearn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsklearn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocsklearn/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-flowsorted.blood.epic
 
    Illumina EPIC data on immunomagnetic sorted peripheral adult blood cells
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/FlowSorted.Blood.EPIC.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/FlowSorted.Blood.EPIC.html
    :license: GPL-3
    :recipe: /`bioconductor-flowsorted.blood.epic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.epic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.epic/meta.yaml>`_
 

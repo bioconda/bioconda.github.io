@@ -12,7 +12,7 @@ bioconductor-cancer
 
    A Graphical User Interface for accessing and modeling the Cancer Genomics Data of MSKCC
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/canceR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/canceR.html
    :license: GPL-2
    :recipe: /`bioconductor-cancer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancer/meta.yaml>`_
 

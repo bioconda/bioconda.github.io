@@ -12,7 +12,7 @@ bioconductor-batchelor
 
    Single\-Cell Batch Correction Methods
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/batchelor.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/batchelor.html
    :license: GPL-3
    :recipe: /`bioconductor-batchelor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchelor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchelor/meta.yaml>`_
 

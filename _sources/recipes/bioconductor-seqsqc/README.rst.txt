@@ -12,7 +12,7 @@ bioconductor-seqsqc
 
    A bioconductor package for sample quality check with next generation sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SeqSQC.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SeqSQC.html
    :license: GPL-3
    :recipe: /`bioconductor-seqsqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsqc/meta.yaml>`_
 

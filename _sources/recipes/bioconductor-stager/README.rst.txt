@@ -12,7 +12,7 @@ bioconductor-stager
 
    stageR\: stage\-wise analysis of high throughput gene expression data in R
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/stageR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/stageR.html
    :license: GNU General Public License version 3
    :recipe: /`bioconductor-stager <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stager>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stager/meta.yaml>`_
 

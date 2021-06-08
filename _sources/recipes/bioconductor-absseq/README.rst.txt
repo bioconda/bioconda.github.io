@@ -12,7 +12,7 @@ bioconductor-absseq
 
    ABSSeq\: a new RNA\-Seq analysis method based on modelling absolute expression differences
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ABSSeq.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ABSSeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-absseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-absseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-absseq/meta.yaml>`_
    :links: biotools: :biotools:`absseq`

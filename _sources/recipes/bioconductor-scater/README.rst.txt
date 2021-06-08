@@ -12,7 +12,7 @@ bioconductor-scater
 
    Single\-Cell Analysis Toolkit for Gene Expression Data in R
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/scater.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/scater.html
    :license: GPL-3
    :recipe: /`bioconductor-scater <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scater>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scater/meta.yaml>`_
    :links: biotools: :biotools:`scater`

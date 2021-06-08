@@ -12,7 +12,7 @@ bioconductor-velociraptor
 
    Toolkit for Single\-Cell Velocity
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/velociraptor.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/velociraptor.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-velociraptor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-velociraptor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-velociraptor/meta.yaml>`_
 

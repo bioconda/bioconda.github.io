@@ -12,7 +12,7 @@ bioconductor-bovine.db
 
    Affymetrix bovine annotation data \(chip bovine\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/bovine.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/bovine.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bovine.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovine.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovine.db/meta.yaml>`_
 

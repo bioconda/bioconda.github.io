@@ -12,7 +12,7 @@ bioconductor-bsgenome.cfamiliaris.ucsc.canfam3
 
    Full genome sequences for Canis lupus familiaris \(UCSC version canFam3\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam3.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam3.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.cfamiliaris.ucsc.canfam3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3/meta.yaml>`_
 

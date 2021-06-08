@@ -12,7 +12,7 @@ bioconductor-omicplotr
 
    Visual Exploration of Omic Datasets Using a Shiny App
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/omicplotR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/omicplotR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omicplotr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicplotr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicplotr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-beat
 
    BEAT \- BS\-Seq Epimutation Analysis Toolkit
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BEAT.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BEAT.html
    :license: LGPL (>= 3.0)
    :recipe: /`bioconductor-beat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beat/meta.yaml>`_
    :links: biotools: :biotools:`beat`, doi: :doi:`10.1038/nmeth.3252`

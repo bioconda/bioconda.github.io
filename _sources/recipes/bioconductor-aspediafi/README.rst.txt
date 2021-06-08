@@ -12,7 +12,7 @@ bioconductor-aspediafi
 
    ASpedia\-FI\: Functional Interaction Analysis of Alternative Splicing Events
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ASpediaFI.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ASpediaFI.html
    :license: GPL-3
    :recipe: /`bioconductor-aspediafi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aspediafi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aspediafi/meta.yaml>`_
 

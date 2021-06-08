@@ -12,7 +12,7 @@ bioconductor-nucleosim
 
    Generate synthetic nucleosome maps
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/nucleoSim.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/nucleoSim.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-nucleosim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucleosim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucleosim/meta.yaml>`_
    :links: biotools: :biotools:`nucleosim`, doi: :doi:`10.1515/sagmb-2014-0098`

@@ -12,7 +12,7 @@ bioconductor-nugomm1a520177probe
 
    Probe sequence data for microarrays of type nugomm1a520177
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/nugomm1a520177probe.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/nugomm1a520177probe.html
    :license: LGPL
    :recipe: /`bioconductor-nugomm1a520177probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177probe/meta.yaml>`_
 

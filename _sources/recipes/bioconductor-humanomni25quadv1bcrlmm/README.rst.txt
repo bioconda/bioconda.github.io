@@ -12,7 +12,7 @@ bioconductor-humanomni25quadv1bcrlmm
 
    Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/humanomni25quadv1bCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/humanomni25quadv1bCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humanomni25quadv1bcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanomni25quadv1bcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanomni25quadv1bcrlmm/meta.yaml>`_
 

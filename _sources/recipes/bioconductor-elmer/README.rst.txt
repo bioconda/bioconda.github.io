@@ -12,7 +12,7 @@ bioconductor-elmer
 
    Inferring Regulatory Element Landscapes and Transcription Factor Networks Using Cancer Methylomes
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ELMER.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ELMER.html
    :license: GPL-3
    :recipe: /`bioconductor-elmer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elmer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elmer/meta.yaml>`_
 

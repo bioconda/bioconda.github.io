@@ -12,7 +12,7 @@ bioconductor-adme16cod.db
 
    Codelink ADME Rat 16\-Assay Bioarray annotation data \(chip adme16cod\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/adme16cod.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/adme16cod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-adme16cod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adme16cod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adme16cod.db/meta.yaml>`_
 

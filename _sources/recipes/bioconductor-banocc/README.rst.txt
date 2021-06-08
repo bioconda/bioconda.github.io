@@ -12,7 +12,7 @@ bioconductor-banocc
 
    Bayesian ANalysis Of Compositional Covariance
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/banocc.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/banocc.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-banocc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-banocc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-banocc/meta.yaml>`_
 

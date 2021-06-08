@@ -12,7 +12,7 @@ bioconductor-promise
 
    PRojection Onto the Most Interesting Statistical Evidence
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PROMISE.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/PROMISE.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-promise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-promise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-promise/meta.yaml>`_
    :links: biotools: :biotools:`promise`, doi: :doi:`10.1093/bioinformatics/btp357`

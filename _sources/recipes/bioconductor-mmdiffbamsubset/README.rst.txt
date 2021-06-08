@@ -12,7 +12,7 @@ bioconductor-mmdiffbamsubset
 
    Example ChIP\-Seq data for the MMDiff package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/MMDiffBamSubset.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/MMDiffBamSubset.html
    :license: LGPL
    :recipe: /`bioconductor-mmdiffbamsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmdiffbamsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmdiffbamsubset/meta.yaml>`_
 

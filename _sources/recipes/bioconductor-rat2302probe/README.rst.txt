@@ -12,7 +12,7 @@ bioconductor-rat2302probe
 
    Probe sequence data for microarrays of type rat2302
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/rat2302probe.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/rat2302probe.html
    :license: LGPL
    :recipe: /`bioconductor-rat2302probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302probe/meta.yaml>`_
 

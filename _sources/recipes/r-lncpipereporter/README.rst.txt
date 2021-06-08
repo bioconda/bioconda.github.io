@@ -27,16 +27,16 @@ r-lncpipereporter
       
       
 
-      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-4``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``1.20.0.*``
+   :depends bioconductor-deseq2: 
    :depends bioconductor-edger: 
    :depends bioconductor-noiseq: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-devtools: 

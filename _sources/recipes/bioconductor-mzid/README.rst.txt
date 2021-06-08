@@ -12,7 +12,7 @@ bioconductor-mzid
 
    An mzIdentML parser for R
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/mzID.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/mzID.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mzid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzid/meta.yaml>`_
    :links: biotools: :biotools:`mzid`, doi: :doi:`10.1038/nmeth.3252`

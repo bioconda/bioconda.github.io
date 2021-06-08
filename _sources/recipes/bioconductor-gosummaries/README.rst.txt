@@ -12,7 +12,7 @@ bioconductor-gosummaries
 
    Word cloud summaries of GO enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GOsummaries.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GOsummaries.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gosummaries <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosummaries>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosummaries/meta.yaml>`_
 

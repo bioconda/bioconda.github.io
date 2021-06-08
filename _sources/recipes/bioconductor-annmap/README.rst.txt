@@ -12,7 +12,7 @@ bioconductor-annmap
 
    Genome annotation and visualisation package pertaining to Affymetrix arrays and NGS analysis.
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/annmap.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/annmap.html
    :license: GPL-2
    :recipe: /`bioconductor-annmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annmap/meta.yaml>`_
    :links: biotools: :biotools:`annmap`, doi: :doi:`10.1093/nar/gkm779`

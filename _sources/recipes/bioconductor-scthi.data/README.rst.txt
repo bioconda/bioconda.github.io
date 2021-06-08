@@ -12,7 +12,7 @@ bioconductor-scthi.data
 
    The package contains examples of single cell data used in vignettes and examples of the scTHI package\; data contain both tumor cells and immune cells from public dataset of glioma
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/scTHI.data.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/scTHI.data.html
    :license: GPL-2
    :recipe: /`bioconductor-scthi.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scthi.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scthi.data/meta.yaml>`_
 

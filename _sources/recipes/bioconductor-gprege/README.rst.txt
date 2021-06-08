@@ -12,7 +12,7 @@ bioconductor-gprege
 
    Gaussian Process Ranking and Estimation of Gene Expression time\-series
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/gprege.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/gprege.html
    :license: AGPL-3
    :recipe: /`bioconductor-gprege <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gprege>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gprege/meta.yaml>`_
 

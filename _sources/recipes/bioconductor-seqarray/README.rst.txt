@@ -12,7 +12,7 @@ bioconductor-seqarray
 
    Data management of large\-scale whole\-genome sequence variant calls
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SeqArray.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SeqArray.html
    :license: GPL-3
    :recipe: /`bioconductor-seqarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqarray/meta.yaml>`_
 

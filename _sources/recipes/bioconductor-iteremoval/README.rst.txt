@@ -12,7 +12,7 @@ bioconductor-iteremoval
 
    Iteration removal method for feature selection
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/iteremoval.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/iteremoval.html
    :license: GPL-2
    :recipe: /`bioconductor-iteremoval <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iteremoval>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iteremoval/meta.yaml>`_
 

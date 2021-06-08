@@ -12,7 +12,7 @@ bioconductor-mta10transcriptcluster.db
 
    Affymetrix mta10 annotation data \(chip mta10transcriptcluster\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/mta10transcriptcluster.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/mta10transcriptcluster.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mta10transcriptcluster.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mta10transcriptcluster.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mta10transcriptcluster.db/meta.yaml>`_
 

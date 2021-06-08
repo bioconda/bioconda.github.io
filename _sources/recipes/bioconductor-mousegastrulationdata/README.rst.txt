@@ -10,13 +10,13 @@ bioconductor-mousegastrulationdata
    :replaces_section_title:
    :noindex:
 
-   Single\-Cell Transcriptomics Data across Mouse Gastrulation and Early Organogenesis
+   Single\-Cell \-omics Data across Mouse Gastrulation and Early Organogenesis
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/MouseGastrulationData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/MouseGastrulationData.html
    :license: GPL-3
    :recipe: /`bioconductor-mousegastrulationdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousegastrulationdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousegastrulationdata/meta.yaml>`_
 
-   Provides processed and raw count matrices for single\-cell RNA sequencing data from a timecourse of mouse gastrulation and early organogenesis.
+   Provides processed and raw count data for single\-cell RNA sequencing\, single\-cell ATAC\-seq\, and seqFISH \(spatial transcriptomic\) experiments performed along a timecourse of mouse gastrulation and early organogenesis.
 
 
 .. conda:package:: bioconductor-mousegastrulationdata
@@ -27,18 +27,20 @@ bioconductor-mousegastrulationdata
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-bumpymatrix: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-spatialexperiment: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation

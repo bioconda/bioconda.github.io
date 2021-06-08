@@ -12,7 +12,7 @@ bioconductor-snphood
 
    SNPhood\: Investigate\, quantify and visualise the epigenomic neighbourhood of SNPs using NGS data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SNPhood.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SNPhood.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-snphood <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphood>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphood/meta.yaml>`_
    :links: biotools: :biotools:`snphood`, doi: :doi:`10.1093/bioinformatics/btw127`

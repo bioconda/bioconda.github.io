@@ -12,7 +12,7 @@ bioconductor-geuvadistranscriptexpr
 
    Data package with transcript expression and bi\-allelic genotypes from the GEUVADIS project
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/GeuvadisTranscriptExpr.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/GeuvadisTranscriptExpr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-geuvadistranscriptexpr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvadistranscriptexpr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvadistranscriptexpr/meta.yaml>`_
 

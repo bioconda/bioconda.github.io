@@ -12,7 +12,7 @@ bioconductor-delayeddataframe
 
    Delayed operation on DataFrame using standard DataFrame metaphor
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DelayedDataFrame.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DelayedDataFrame.html
    :license: GPL-3
    :recipe: /`bioconductor-delayeddataframe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayeddataframe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayeddataframe/meta.yaml>`_
 

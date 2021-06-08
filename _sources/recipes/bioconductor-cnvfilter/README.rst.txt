@@ -12,11 +12,11 @@ bioconductor-cnvfilter
 
    Identifies false positives of CNV calling tools by using SNV calls
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CNVfilteR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CNVfilteR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cnvfilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvfilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvfilter/meta.yaml>`_
 
-   CNVfilteR identifies false positives produced by germline NGS copy number variant detection tools by using single nucleotide variants.
+   CNVfilteR identifies those CNVs that can be discarded by using the single nucleotide variant \(SNV\) calls that are usually obtained in common NGS pipelines.
 
 
 .. conda:package:: bioconductor-cnvfilter

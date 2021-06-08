@@ -10,9 +10,9 @@ bioconductor-lrbase.cel.eg.db
    :replaces_section_title:
    :noindex:
 
-   An annotation package for the LRBaseDb object
+   Ligand\-Receptor list for Caenorhabditis elegans \(Cel\, Worm\, Taxonomy ID\: 6239\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/LRBase.Cel.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/LRBase.Cel.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.cel.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.cel.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.cel.eg.db/meta.yaml>`_
 

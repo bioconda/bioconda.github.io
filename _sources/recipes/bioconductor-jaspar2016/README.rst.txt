@@ -12,7 +12,7 @@ bioconductor-jaspar2016
 
    Data package for JASPAR 2016
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/JASPAR2016.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/JASPAR2016.html
    :license: GPL-2
    :recipe: /`bioconductor-jaspar2016 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2016>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2016/meta.yaml>`_
 

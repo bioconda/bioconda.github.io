@@ -12,11 +12,11 @@ bioconductor-wpm
 
    Well Plate Maker
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/wpm.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/wpm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-wpm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wpm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wpm/meta.yaml>`_
 
-   This is a shiny application for creating well\-plate plans. It uses a backtracking\-inspired algorithm to place samples on plates based on specific neighborhood constraints.
+   The Well\-Plate Maker \(WPM\) is a shiny application deployed as an R package. Functions for a command\-line\/script use are also available. The WPM allows users to generate well plate maps to carry out their experiments while improving the handling of batch effects. In particular\, it helps controlling the \"plate effect\" thanks to its ability to randomize samples over multiple well plates. The algorithm for placing the samples is inspired by the backtracking algorithm\: the samples are placed at random while respecting specific spatial constraints.
 
 
 .. conda:package:: bioconductor-wpm

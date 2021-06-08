@@ -12,7 +12,7 @@ bioconductor-discordant
 
    The Discordant Method\: A Novel Approach for Differential Correlation
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/discordant.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/discordant.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-discordant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-discordant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-discordant/meta.yaml>`_
 

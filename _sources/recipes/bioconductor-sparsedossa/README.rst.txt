@@ -12,7 +12,7 @@ bioconductor-sparsedossa
 
    Sparse Data Observations for Simulating Synthetic Abundance
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/sparseDOSSA.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/sparseDOSSA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sparsedossa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsedossa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsedossa/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-hapmap370k
 
    Example Illumina 370k HapMap Data
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hapmap370k.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hapmap370k.html
    :license: GPL
    :recipe: /`bioconductor-hapmap370k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap370k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap370k/meta.yaml>`_
 

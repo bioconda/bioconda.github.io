@@ -12,7 +12,7 @@ bioconductor-arrmdata
 
    Example dataset for normalization of Illumina 450k Methylation data
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/ARRmData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/ARRmData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-arrmdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmdata/meta.yaml>`_
 

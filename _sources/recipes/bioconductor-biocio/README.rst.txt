@@ -12,7 +12,7 @@ bioconductor-biocio
 
    Standard Input and Output for Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BiocIO.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BiocIO.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocio/meta.yaml>`_
 

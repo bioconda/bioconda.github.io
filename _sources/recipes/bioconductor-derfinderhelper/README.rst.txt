@@ -12,7 +12,7 @@ bioconductor-derfinderhelper
 
    derfinder helper package
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/derfinderHelper.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/derfinderHelper.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-derfinderhelper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderhelper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderhelper/meta.yaml>`_
    :links: biotools: :biotools:`derfinderhelper`

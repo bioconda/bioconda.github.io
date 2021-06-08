@@ -10,9 +10,9 @@ bioconductor-swfdr
    :replaces_section_title:
    :noindex:
 
-   Science\-wise false discovery rate and proportion of true null hypotheses estimation
+   Estimation of the science\-wise false discovery rate and the false discovery rate conditional on covariates
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/swfdr.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/swfdr.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-swfdr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swfdr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swfdr/meta.yaml>`_
 

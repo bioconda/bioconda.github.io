@@ -12,7 +12,7 @@ bioconductor-dexseq
 
    Inference of differential exon usage in RNA\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DEXSeq.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DEXSeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-dexseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexseq/meta.yaml>`_
    :links: biotools: :biotools:`dexseq`, usegalaxy-eu: :usegalaxy-eu:`dexseq`

@@ -12,7 +12,7 @@ bioconductor-snadata
 
    Social Networks Analysis Data Examples
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/SNAData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/SNAData.html
    :license: LGPL
    :recipe: /`bioconductor-snadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snadata/meta.yaml>`_
 

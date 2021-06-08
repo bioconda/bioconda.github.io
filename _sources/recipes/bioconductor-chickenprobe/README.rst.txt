@@ -12,7 +12,7 @@ bioconductor-chickenprobe
 
    Probe sequence data for microarrays of type chicken
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/chickenprobe.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/chickenprobe.html
    :license: LGPL
    :recipe: /`bioconductor-chickenprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chickenprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chickenprobe/meta.yaml>`_
 

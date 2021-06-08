@@ -12,7 +12,7 @@ bioconductor-hilbertcurve
 
    Making 2D Hilbert Curve
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/HilbertCurve.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/HilbertCurve.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hilbertcurve <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertcurve>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertcurve/meta.yaml>`_
 

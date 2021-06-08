@@ -12,12 +12,12 @@ bioconductor-ternarynet
 
    Ternary Network Estimation
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ternarynet.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ternarynet.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ternarynet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ternarynet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ternarynet/meta.yaml>`_
    :links: biotools: :biotools:`ternarynet`
 
-   A computational Bayesian approach to ternary gene regulatory network estimation from gene perturbation experiments.
+   Gene\-regulatory network \(GRN\) modeling seeks to infer dependencies between genes and thereby provide insight into the regulatory relationships that exist within a cell. This package provides a computational Bayesian approach to GRN estimation from perturbation experiments using a ternary network model\, in which gene expression is discretized into one of 3 states\: up\, unchanged\, or down\). The ternarynet package includes a parallel implementation of the replica exchange Monte Carlo algorithm for fitting network models\, using MPI.
 
 
 .. conda:package:: bioconductor-ternarynet

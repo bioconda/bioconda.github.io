@@ -12,7 +12,7 @@ bioconductor-acde
 
    Artificial Components Detection of Differentially Expressed Genes
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/acde.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/acde.html
    :license: GPL-3
    :recipe: /`bioconductor-acde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acde/meta.yaml>`_
    :links: biotools: :biotools:`acde`, doi: :doi:`10.1007/978-0-387-49317-6_9`

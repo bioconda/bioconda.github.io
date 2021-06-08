@@ -12,7 +12,7 @@ bioconductor-gsgalgor
 
    An Evolutionary Framework for the Identification and Study of Prognostic Gene Expression Signatures in Cancer
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GSgalgoR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GSgalgoR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gsgalgor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsgalgor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsgalgor/meta.yaml>`_
 

@@ -12,8 +12,8 @@ bioconductor-martini
 
    GWAS Incorporating Networks
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/martini.html
-   :license: MIT + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/martini.html
+   :license: GPL-3
    :recipe: /`bioconductor-martini <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-martini>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-martini/meta.yaml>`_
 
    martini deals with the low power inherent to GWAS studies by using prior knowledge represented as a network. SNPs are the vertices of the network\, and the edges represent biological relationships between them \(genomic adjacency\, belonging to the same gene\, physical interaction between protein products\). The network is scanned using SConES\, which looks for groups of SNPs maximally associated with the phenotype\, that form a close subnetwork.

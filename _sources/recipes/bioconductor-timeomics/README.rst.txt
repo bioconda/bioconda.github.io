@@ -12,7 +12,7 @@ bioconductor-timeomics
 
    Time\-Course Multi\-Omics data integration
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/timeOmics.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/timeOmics.html
    :license: GPL-3
    :recipe: /`bioconductor-timeomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timeomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timeomics/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rnamodr.ml
 
    Detecting patterns of post\-transcriptional modifications using machine learning
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RNAmodR.ML.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RNAmodR.ML.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnamodr.ml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr.ml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnamodr.ml/meta.yaml>`_
 

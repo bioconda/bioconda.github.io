@@ -12,7 +12,7 @@ bioconductor-hierinf
 
    Hierarchical Inference
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/hierinf.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/hierinf.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-hierinf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hierinf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hierinf/meta.yaml>`_
 

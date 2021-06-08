@@ -10,13 +10,13 @@ bioconductor-sdams
    :replaces_section_title:
    :noindex:
 
-   Differential Abundant Analysis for Metabolomics\, Proteomics and single\-cell RNA sequencing Data
+   Differential Abundant\/Expression Analysis for Metabolomics\, Proteomics and single\-cell RNA sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SDAMS.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SDAMS.html
    :license: GPL
    :recipe: /`bioconductor-sdams <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sdams>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sdams/meta.yaml>`_
 
-   This Package utilizes a Semi\-parametric Differential Abundance analysis \(SDA\) method for metabolomics and proteomics data from mass spectrometry as well as single cell RNA sequencing data. SDA is able to robustly handle non\-normally distributed data and provides a clear quantification of the effect size.
+   This Package utilizes a Semi\-parametric Differential Abundance\/expression analysis \(SDA\) method for metabolomics and proteomics data from mass spectrometry as well as single\-cell RNA sequencing data. SDA is able to robustly handle non\-normally distributed data and provides a clear quantification of the effect size.
 
 
 .. conda:package:: bioconductor-sdams

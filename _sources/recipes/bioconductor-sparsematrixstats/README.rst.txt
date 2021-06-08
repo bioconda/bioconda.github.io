@@ -12,7 +12,7 @@ bioconductor-sparsematrixstats
 
    Summary Statistics for Rows and Columns of Sparse Matrices
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/sparseMatrixStats.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/sparseMatrixStats.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sparsematrixstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsematrixstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsematrixstats/meta.yaml>`_
 

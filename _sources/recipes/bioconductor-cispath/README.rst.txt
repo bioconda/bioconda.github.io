@@ -12,7 +12,7 @@ bioconductor-cispath
 
    Visualization and management of the protein\-protein interaction networks.
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/cisPath.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/cisPath.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-cispath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cispath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cispath/meta.yaml>`_
    :links: biotools: :biotools:`cispath`, doi: :doi:`10.1186/1752-0509-9-s1-s1`

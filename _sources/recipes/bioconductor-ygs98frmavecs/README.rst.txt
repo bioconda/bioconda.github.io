@@ -12,7 +12,7 @@ bioconductor-ygs98frmavecs
 
    Vectors used by frma for microarrays of type ygs98
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/ygs98frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/ygs98frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ygs98frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98frmavecs/meta.yaml>`_
 

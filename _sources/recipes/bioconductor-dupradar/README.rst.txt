@@ -12,7 +12,7 @@ bioconductor-dupradar
 
    Assessment of duplication rates in RNA\-Seq datasets
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/dupRadar.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/dupRadar.html
    :license: GPL-3
    :recipe: /`bioconductor-dupradar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupradar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dupradar/meta.yaml>`_
    :links: biotools: :biotools:`dupradar`

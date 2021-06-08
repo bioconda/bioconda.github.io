@@ -10,9 +10,9 @@ bioconductor-lrbase.xtr.eg.db
    :replaces_section_title:
    :noindex:
 
-   An annotation package for the LRBaseDb object
+   Ligand\-Receptor list for Xenopus tropicalis \(Xtr\, Tropical clawed frog\, Taxonomy ID\: 8364\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/LRBase.Xtr.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/LRBase.Xtr.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.xtr.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.xtr.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.xtr.eg.db/meta.yaml>`_
 

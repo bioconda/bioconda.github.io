@@ -12,7 +12,7 @@ bioconductor-fastliquidassociation
 
    functions for genome\-wide application of Liquid Association
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/fastLiquidAssociation.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/fastLiquidAssociation.html
    :license: GPL-2
    :recipe: /`bioconductor-fastliquidassociation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastliquidassociation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastliquidassociation/meta.yaml>`_
 

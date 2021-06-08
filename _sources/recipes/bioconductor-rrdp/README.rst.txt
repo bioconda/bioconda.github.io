@@ -12,7 +12,7 @@ bioconductor-rrdp
 
    Interface to the RDP Classifier
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/rRDP.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rRDP.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-rrdp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdp/meta.yaml>`_
    :links: biotools: :biotools:`rrdp`, doi: :doi:`10.1038/nmeth.3252`

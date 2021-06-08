@@ -12,7 +12,7 @@ bioconductor-macat
 
    MicroArray Chromosome Analysis Tool
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/macat.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/macat.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-macat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macat/meta.yaml>`_
    :links: biotools: :biotools:`macat`

@@ -12,7 +12,7 @@ bioconductor-mpranalyze
 
    Statistical Analysis of MPRA data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MPRAnalyze.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MPRAnalyze.html
    :license: GPL-3
    :recipe: /`bioconductor-mpranalyze <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpranalyze>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpranalyze/meta.yaml>`_
 

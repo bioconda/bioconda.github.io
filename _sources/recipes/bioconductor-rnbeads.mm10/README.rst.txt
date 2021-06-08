@@ -12,7 +12,7 @@ bioconductor-rnbeads.mm10
 
    RnBeads.mm10
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/RnBeads.mm10.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/RnBeads.mm10.html
    :license: GPL-3
    :recipe: /`bioconductor-rnbeads.mm10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.mm10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.mm10/meta.yaml>`_
 

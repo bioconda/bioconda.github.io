@@ -12,7 +12,7 @@ bioconductor-bridge
 
    Bayesian Robust Inference for Differential Gene Expression
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/bridge.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/bridge.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-bridge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bridge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bridge/meta.yaml>`_
    :links: biotools: :biotools:`bridge`, doi: :doi:`10.1111/j.1541-0420.2005.00397.x`

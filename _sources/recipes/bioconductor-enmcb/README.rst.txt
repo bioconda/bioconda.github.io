@@ -12,11 +12,11 @@ bioconductor-enmcb
 
    Predicting Disease Progression Based on Methylation Correlated Blocks using Ensemble Models
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/EnMCB.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/EnMCB.html
    :license: GPL-2
    :recipe: /`bioconductor-enmcb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enmcb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enmcb/meta.yaml>`_
 
-   Creation of the correlated blocks using DNA methylation profiles. A stacked ensemble of machine learning models\, which combined the support vector machine and elastic\-net regression model\, can be constructed to predict disease progression.
+   Creation of the correlated blocks using DNA methylation profiles. A stacked ensemble of machine learning models\, which combined the cox\, support vector machine and elastic\-net regression model\, can be constructed to predict disease progression.
 
 
 .. conda:package:: bioconductor-enmcb

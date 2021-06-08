@@ -12,7 +12,7 @@ bioconductor-aucell
 
    AUCell\: Analysis of \'gene set\' activity in single\-cell RNA\-seq data \(e.g. identify cells with specific gene signatures\)
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/AUCell.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/AUCell.html
    :license: GPL-3
    :recipe: /`bioconductor-aucell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aucell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aucell/meta.yaml>`_
 

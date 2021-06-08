@@ -12,7 +12,7 @@ bioconductor-iyer517
 
    exprSets for Iyer\, Eisen et all 1999 Science paper
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/Iyer517.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/Iyer517.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iyer517 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iyer517>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iyer517/meta.yaml>`_
 

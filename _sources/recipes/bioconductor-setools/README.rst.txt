@@ -12,7 +12,7 @@ bioconductor-setools
 
    SEtools\: tools for working with SummarizedExperiment
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SEtools.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SEtools.html
    :license: GPL
    :recipe: /`bioconductor-setools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-setools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-setools/meta.yaml>`_
 

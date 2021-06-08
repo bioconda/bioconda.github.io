@@ -12,7 +12,7 @@ bioconductor-panr
 
    Posterior association networks and functional modules inferred from rich phenotypes of gene perturbations
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PANR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/PANR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-panr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panr/meta.yaml>`_
    :links: biotools: :biotools:`panr`, doi: :doi:`10.1371/journal.pcbi.1002566`

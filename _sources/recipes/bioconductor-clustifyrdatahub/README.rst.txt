@@ -12,7 +12,7 @@ bioconductor-clustifyrdatahub
 
    External data sets for clustifyr in ExperimentHub
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/clustifyrdatahub.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/clustifyrdatahub.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-clustifyrdatahub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustifyrdatahub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustifyrdatahub/meta.yaml>`_
 

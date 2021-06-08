@@ -12,7 +12,7 @@ bioconductor-cicero
 
    Precict cis\-co\-accessibility from single\-cell chromatin accessibility data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/cicero.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/cicero.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cicero <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cicero>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cicero/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-snplocs.hsapiens.dbsnp.20120608
 
    SNP locations for Homo sapiens \(dbSNP Build 137\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/SNPlocs.Hsapiens.dbSNP.20120608.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/SNPlocs.Hsapiens.dbSNP.20120608.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-snplocs.hsapiens.dbsnp.20120608 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp.20120608>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp.20120608/meta.yaml>`_
 

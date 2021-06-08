@@ -12,11 +12,11 @@ bioconductor-transcriptogramer
 
    Transcriptional analysis based on transcriptograms
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/transcriptogramer.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/transcriptogramer.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-transcriptogramer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transcriptogramer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transcriptogramer/meta.yaml>`_
 
-   R package for transcriptional analysis based on transcriptograms\, a method to analyze transcriptomes that projects expression values on a set of ordered proteins\, arranged such that the probability that gene products participate in the same metabolic pathway exponentially decreases with the increase of the distance between two proteins of the ordering. Transcriptograms are\, hence\, genome wide gene expression profiles that provide a global view for the cellular metabolism\, while indicating gene sets whose expression are altered.
+   R package for transcriptional analysis based on transcriptograms\, a method to analyze transcriptomes that projects expression values on a set of ordered proteins\, arranged such that the probability that gene products participate in the same metabolic pathway exponentially decreases with the increase of the distance between two proteins of the ordering. Transcriptograms are\, hence\, genome wide gene expression profiles that provide a global view for the cellular metabolism\, while indicating gene sets whose expressions are altered.
 
 
 .. conda:package:: bioconductor-transcriptogramer

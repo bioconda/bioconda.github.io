@@ -10,9 +10,9 @@ bioconductor-tmexplorer
    :replaces_section_title:
    :noindex:
 
-   A Collection of Tumour Microenvironment Single\-cell RNA Sequencing Datasets and Correspodnding Metadata
+   A Collection of Tumour Microenvironment Single\-cell RNA Sequencing Datasets and Corresponding Metadata
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/TMExplorer.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/TMExplorer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tmexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tmexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tmexplorer/meta.yaml>`_
 

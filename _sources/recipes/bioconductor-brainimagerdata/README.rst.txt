@@ -12,7 +12,7 @@ bioconductor-brainimagerdata
 
    Image masks and expression data for use with BrainImageR
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/brainImageRdata.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/brainImageRdata.html
    :license: CC BY-SA 4.0
    :recipe: /`bioconductor-brainimagerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimagerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimagerdata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-flowmerge
 
    Cluster Merging for Flow Cytometry Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/flowMerge.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/flowMerge.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowmerge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmerge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmerge/meta.yaml>`_
 

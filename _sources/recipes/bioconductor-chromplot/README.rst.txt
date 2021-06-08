@@ -12,7 +12,7 @@ bioconductor-chromplot
 
    Global visualization tool of genomic data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/chromPlot.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/chromPlot.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-chromplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromplot/meta.yaml>`_
    :links: biotools: :biotools:`chromplot`, doi: :doi:`10.1093/bioinformatics/btw137`

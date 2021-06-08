@@ -12,7 +12,7 @@ bioconductor-gpart
 
    Human genome partitioning of dense sequencing data by identifying haplotype blocks
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/gpart.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/gpart.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gpart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpart/meta.yaml>`_
 

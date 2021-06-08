@@ -12,7 +12,7 @@ bioconductor-experimentsubset
 
    Manages subsets of data with Bioconductor Experiment objects
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ExperimentSubset.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ExperimentSubset.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-experimentsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimentsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimentsubset/meta.yaml>`_
 
@@ -27,14 +27,17 @@ bioconductor-experimentsubset
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``
+      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-spatialexperiment: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.0.0,<2.1.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
    :requirements:
 

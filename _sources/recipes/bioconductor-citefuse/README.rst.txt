@@ -12,7 +12,7 @@ bioconductor-citefuse
 
    CiteFuse\: multi\-modal analysis of CITE\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CiteFuse.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CiteFuse.html
    :license: GPL-3
    :recipe: /`bioconductor-citefuse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citefuse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-citefuse/meta.yaml>`_
 

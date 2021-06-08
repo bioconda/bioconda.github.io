@@ -12,7 +12,7 @@ bioconductor-bioassayr
 
    Cross\-target analysis of small molecule bioactivity
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/bioassayR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/bioassayR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bioassayr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioassayr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioassayr/meta.yaml>`_
 

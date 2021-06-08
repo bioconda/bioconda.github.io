@@ -12,11 +12,11 @@ bioconductor-simplifyenrichment
 
    Simplify Functional Enrichment Results
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/simplifyEnrichment.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/simplifyEnrichment.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-simplifyenrichment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simplifyenrichment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simplifyenrichment/meta.yaml>`_
 
-   A new method \(binary cut\) is proposed to effectively cluster GO terms into groups from the semantic similarity matrix. Summaries of GO terms in each cluster are visualized by word clouds.
+   A new clustering algorithm\, binary cut\, for clustering similarity matrices of functional terms is implemeted in this package. It also provideds functionalities for visualizing\, summarizing and comparing the clusterings.
 
 
 .. conda:package:: bioconductor-simplifyenrichment

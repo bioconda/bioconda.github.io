@@ -12,7 +12,7 @@ bioconductor-scfeaturefilter
 
    A correlation\-based method for quality filtering of single\-cell RNAseq data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/scFeatureFilter.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/scFeatureFilter.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scfeaturefilter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeaturefilter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeaturefilter/meta.yaml>`_
 

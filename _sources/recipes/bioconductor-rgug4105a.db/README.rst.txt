@@ -12,7 +12,7 @@ bioconductor-rgug4105a.db
 
    Agilent annotation data \(chip rgug4105a\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/rgug4105a.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/rgug4105a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgug4105a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgug4105a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgug4105a.db/meta.yaml>`_
 

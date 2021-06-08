@@ -12,7 +12,7 @@ bioconductor-rnadecay
 
    Maximum Likelihood Decay Modeling of RNA Degradation Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RNAdecay.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RNAdecay.html
    :license: GPL-2
    :recipe: /`bioconductor-rnadecay <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnadecay>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnadecay/meta.yaml>`_
 

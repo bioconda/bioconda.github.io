@@ -12,7 +12,7 @@ bioconductor-powertcr
 
    Model\-Based Comparative Analysis of the TCR Repertoire
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/powerTCR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/powerTCR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-powertcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powertcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powertcr/meta.yaml>`_
 

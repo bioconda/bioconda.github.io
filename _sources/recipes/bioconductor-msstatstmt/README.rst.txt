@@ -12,11 +12,11 @@ bioconductor-msstatstmt
 
    Protein Significance Analysis in shotgun mass spectrometry\-based proteomic experiments with tandem mass tag \(TMT\) labeling
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MSstatsTMT.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MSstatsTMT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msstatstmt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatstmt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatstmt/meta.yaml>`_
 
-   Tools for protein significance analysis in shotgun mass spectrometry\-based proteomic experiments with tandem mass tag \(TMT\) labeling.
+   The package provides statistical tools for detecting differentially abundant proteins in shotgun mass spectrometry\-based proteomic experiments with tandem mass tag \(TMT\) labeling. It provides multiple functionalities\, including aata visualization\, protein quantification and normalization\, and statistical modeling and inference. Furthermore\, it is inter\-operable with other data processing tools\, such as Proteome Discoverer\, MaxQuant\, OpenMS and SpectroMine.
 
 
 .. conda:package:: bioconductor-msstatstmt

@@ -12,7 +12,7 @@ bioconductor-minionsummarydata
 
    Summarised MinION sequencing data published by Ashton et al. 2015
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/minionSummaryData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/minionSummaryData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-minionsummarydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minionsummarydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minionsummarydata/meta.yaml>`_
 

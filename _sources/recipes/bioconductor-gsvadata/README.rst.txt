@@ -12,8 +12,8 @@ bioconductor-gsvadata
 
    Data employed in the vignette of the GSVA package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/GSVAdata.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/GSVAdata.html
+   :license: Artistic-2.0
    :recipe: /`bioconductor-gsvadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsvadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsvadata/meta.yaml>`_
 
    This package stores the data employed in the vignette of the GSVA package. These data belong to the following publications\: Armstrong et al. Nat Genet 30\:41\-47\, 2002\; Cahoy et al. J Neurosci 28\:264\-278\, 2008\; Carrel and Willard\, Nature\, 434\:400\-404\, 2005\; Huang et al. PNAS\, 104\:9758\-9763\, 2007\; Pickrell et al. Nature\, 464\:768\-722\, 2010\; Skaletsky et al. Nature\, 423\:825\-837\; Verhaak et al. Cancer Cell 17\:98\-110\, 2010

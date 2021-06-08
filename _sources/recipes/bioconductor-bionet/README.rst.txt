@@ -12,7 +12,7 @@ bioconductor-bionet
 
    Routines for the functional analysis of biological networks
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BioNet.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BioNet.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-bionet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionet/meta.yaml>`_
    :links: biotools: :biotools:`bionet`

@@ -12,7 +12,7 @@ bioconductor-hcadata
 
    Accessing The Datasets Of The Human Cell Atlas in R\/Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/HCAData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/HCAData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hcadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcadata/meta.yaml>`_
 

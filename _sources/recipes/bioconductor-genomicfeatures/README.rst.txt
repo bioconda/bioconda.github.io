@@ -12,7 +12,7 @@ bioconductor-genomicfeatures
 
    Conveniently import and query gene models
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GenomicFeatures.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GenomicFeatures.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicfeatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfeatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfeatures/meta.yaml>`_
    :links: biotools: :biotools:`genomicfeatures`

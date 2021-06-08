@@ -12,11 +12,11 @@ bioconductor-spaniel
 
    Spatial Transcriptomics Analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Spaniel.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Spaniel.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spaniel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spaniel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spaniel/meta.yaml>`_
 
-   Spaniel includes a series of tools to aid the quality control and analysis of Spatial Transcriptomics data. The package contains functions to create either a Seurat object or SingleCellExperiment from a count matrix and spatial barcode file and provides a method of loading a histologial image into R. The spanielPlot function allows visualisation of metrics contained within the S4 object overlaid onto the image of the tissue.
+   Spaniel includes a series of tools to aid the quality control and analysis of Spatial Transcriptomics data. Spaniel can import data from either the original Spatial Transcriptomics system or 10X Visium technology. The package contains functions to create a SingleCellExperiment Seurat object and provides a method of loading a histologial image into R. The spanielPlot function allows visualisation of metrics contained within the S4 object overlaid onto the image of the tissue.
 
 
 .. conda:package:: bioconductor-spaniel

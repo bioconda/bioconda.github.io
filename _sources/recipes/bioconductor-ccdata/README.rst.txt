@@ -12,7 +12,7 @@ bioconductor-ccdata
 
    Data for Combination Connectivity Mapping \(ccmap\) Package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/ccdata.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/ccdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ccdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccdata/meta.yaml>`_
 

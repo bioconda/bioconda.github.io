@@ -12,11 +12,11 @@ bioconductor-singlecellmultimodal
 
    Integrating Multi\-modal Single Cell Experiment datasets
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/SingleCellMultiModal.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/SingleCellMultiModal.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-singlecellmultimodal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellmultimodal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellmultimodal/meta.yaml>`_
 
-   SingleCellMultiModal is an ExperimentHub package that serves multiple datasets obtained from GEO and other sources and represents them as MultiAssayExperiment objects. The current focus is on datasets that use new technologies such as scNMT and scM\&T.
+   SingleCellMultiModal is an ExperimentHub package that serves multiple datasets obtained from GEO and other sources and represents them as MultiAssayExperiment objects. We provide several multi\-modal datasets including scNMT\, 10X Multiome\, seqFISH\, CITEseq\, SCoPE2\, and others. The scope of the package is is to provide data for benchmarking and analysis.
 
 
 .. conda:package:: bioconductor-singlecellmultimodal
@@ -27,24 +27,23 @@ bioconductor-singlecellmultimodal
       
       
 
-      ``1.2.4-0``,  ``1.1.19-0``,  ``1.0.0-0``
+      ``1.4.1-0``,  ``1.2.4-0``,  ``1.1.19-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-biocfilecache: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-biocgenerics: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-experimenthub: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-hcamatrixbrowser: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-hdf5array: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-spatialexperiment: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends curl: ``>=7.75.0,<8.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-hdf5array: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-spatialexperiment: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
    :requirements:
 

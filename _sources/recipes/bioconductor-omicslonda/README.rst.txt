@@ -12,7 +12,7 @@ bioconductor-omicslonda
 
    Omics Longitudinal Differential Analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/OmicsLonDA.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/OmicsLonDA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omicslonda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicslonda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicslonda/meta.yaml>`_
 

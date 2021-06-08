@@ -12,7 +12,7 @@ bioconductor-mbpcr
 
    Bayesian Piecewise Constant Regression for DNA copy number estimation
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/mBPCR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/mBPCR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mbpcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbpcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbpcr/meta.yaml>`_
 

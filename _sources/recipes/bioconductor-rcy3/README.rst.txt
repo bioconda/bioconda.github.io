@@ -12,11 +12,11 @@ bioconductor-rcy3
 
    Functions to Access and Control Cytoscape
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RCy3.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RCy3.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rcy3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcy3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcy3/meta.yaml>`_
 
-   Vizualize\, analyze and explore networks using Cytoscape via R.
+   Vizualize\, analyze and explore networks using Cytoscape via R. Anything you can do using the graphical user interface of Cytoscape\, you can now do with a single RCy3 function.
 
 
 .. conda:package:: bioconductor-rcy3

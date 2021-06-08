@@ -12,11 +12,11 @@ bioconductor-simffpe
 
    NGS Read Simulator for FFPE Tissue
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SimFFPE.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SimFFPE.html
    :license: LGPL-3
    :recipe: /`bioconductor-simffpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simffpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simffpe/meta.yaml>`_
 
-   This package simulates artifact chimeric reads specifically generated in next\-generation sequencing \(NGS\) process of formalin\-fixed paraffin\-embedded \(FFPE\) tissue.
+   The NGS \(Next\-Generation Sequencing\) reads from FFPE \(Formalin\-Fixed Paraffin\-Embedded\) samples contain numerous artifact chimeric reads \(ACRS\)\, which can lead to false positive structural variant calls. These ACRs are derived from the combination of two single\-stranded DNA \(ss\-DNA\) fragments with short reverse complementary regions \(SRCRs\). This package simulates these artifact chimeric reads as well as normal reads for FFPE samples on the whole genome \/ several chromosomes \/ large regions.
 
 
 .. conda:package:: bioconductor-simffpe

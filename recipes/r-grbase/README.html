@@ -105,13 +105,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">r-grbase</span></span></dt>
-<dd><p>The 'gRbase' package provides general features which are used by other graphical modelling packages, in particular by the packages 'gRain', 'gRim' and 'gRc'. 'gRbase' contains several data sets relevant for use in connection with graphical models. Almost all data sets used in the book Graphical Models with R (2012) are contained in 'gRbase'. 'gRbase' implements several graph algorithms (based mainly on representing graphs as adjacency matrices - either in the form of a standard matrix or a sparse matrix). Some graph algorithms are: (i) maximum cardinality search (for marked and unmarked graphs). (ii) moralize. (iii) triangulate. (iv) junction tree. 'gRbase' facilitates array operations, 'gRbase' implements functions for testing for conditional independence. 'gRbase' illustrates how hierarchical log-linear models may be implemented and describes concept of graphical meta data. These features, however, are not maintained anymore and remains in 'gRbase' only because there exists a paper describing these facilities: A Common Platform for Graphical Models in R: The 'gRbase' Package, Journal of Statistical Software, Vol 14, No 17, 2005. NOTICE Proper functionality of 'gRbase' requires that the packages graph, 'Rgraphviz' and 'RBGL' are installed from 'bioconductor'; for installation instructions please refer to the web page given below.</p>
+<dd><p>The 'gRbase' package provides graphical modelling features used by e.g. the packages 'gRain', 'gRim' and 'gRc'. 'gRbase' implements graph algorithms including (i) maximum cardinality search (for marked and unmarked graphs). (ii) moralization, (iii) triangulation, (iv) creation of junction tree. 'gRbase' facilitates array operations, 'gRbase' implements functions for testing for conditional independence. 'gRbase' illustrates how hierarchical log-linear models may be implemented and describes concept of graphical meta data. The facilities of the package are documented in the book by Højsgaard, Edwards and Lauritzen (2012, &lt;doi:10.1007/978-1-4614-2299-0&gt;) and in the paper by Dethlefsen and Højsgaard, (2005, &lt;doi:10.18637/jss.v014.i17&gt;). Please see 'citation(&quot;gRbase&quot;)' for citation details. NOTICE  'gRbase' requires that the packages graph, 'Rgraphviz' and 'RBGL' are installed from 'bioconductor'; for installation instructions please refer to the web page given below.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="http://people.math.aau.dk/~sorenh/software/gR/">http://people.math.aau.dk/~sorenh/software/gR/</a></p>
 </dd>
 <dt class="field-even">License</dt>
-<dd class="field-even"><p>GPL3 / GPL (&gt;= 2)</p>
+<dd class="field-even"><p>GPL2 / GPL-2.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grbase">r-grbase</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grbase/meta.yaml">meta.yaml</a></p>
@@ -125,13 +125,13 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-grbase"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-grbase.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-grbase"><img alt="docker_r-grbase" src="https://quay.io/repository/biocontainers/r-grbase/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.8_3.4-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.8_6.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8_3.4-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
 <li><p><a class="conda-package reference internal" href="../bioconductor-graph/README.html#package-bioconductor-graph" title="bioconductor-graph package"><strong>bioconductor-graph</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-rbgl/README.html#package-bioconductor-rbgl" title="bioconductor-rbgl package"><strong>bioconductor-rbgl</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libblas-feedstock"><strong>libblas</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.8.0,&lt;4.0a0</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-rgraphviz/README.html#package-bioconductor-rgraphviz" title="bioconductor-rgraphviz package"><strong>bioconductor-rgraphviz</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libgcc-ng-feedstock"><strong>libgcc-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=9.3.0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/libstdcxx-ng-feedstock"><strong>libstdcxx-ng</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=9.3.0</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.1,&lt;4.2.0a0</span></code></p></li>
@@ -145,10 +145,11 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-topaseq/README.html#bioconductor-topaseq"><strong class="xref backref">bioconductor-topaseq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-gmicr/README.html#bioconductor-gmicr"><strong class="xref backref">bioconductor-gmicr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-fgga/README.html#bioconductor-fgga"><strong class="xref backref">bioconductor-fgga</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-clipper/README.html#bioconductor-clipper"><strong class="xref backref">bioconductor-clipper</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-sponge/README.html#bioconductor-sponge"><strong class="xref backref">bioconductor-sponge</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-gmicr/README.html#bioconductor-gmicr"><strong class="xref backref">bioconductor-gmicr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-topaseq/README.html#bioconductor-topaseq"><strong class="xref backref">bioconductor-topaseq</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../r-grain/README.html#r-grain"><strong class="xref backref">r-grain</strong></a></p></li>
 </ul>
 </dd>

@@ -12,7 +12,7 @@ bioconductor-human550v3bcrlmm
 
    Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/human550v3bCrlmm.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/human550v3bCrlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-human550v3bcrlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human550v3bcrlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human550v3bcrlmm/meta.yaml>`_
 

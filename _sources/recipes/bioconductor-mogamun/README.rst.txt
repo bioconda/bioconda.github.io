@@ -12,7 +12,7 @@ bioconductor-mogamun
 
    MOGAMUN\: A Multi\-Objective Genetic Algorithm to Find Active Modules in Multiplex Biological Networks
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MOGAMUN.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MOGAMUN.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-mogamun <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogamun>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogamun/meta.yaml>`_
 

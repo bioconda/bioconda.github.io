@@ -12,7 +12,7 @@ bioconductor-compcoder
 
    RNAseq data simulation\, differential expression analysis and performance comparison of differential expression methods
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/compcodeR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/compcodeR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-compcoder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compcoder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compcoder/meta.yaml>`_
 

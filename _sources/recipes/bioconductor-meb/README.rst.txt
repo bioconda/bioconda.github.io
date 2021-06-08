@@ -12,7 +12,7 @@ bioconductor-meb
 
    A normalization\-invariant minimum enclosing ball method to detect differentially expressed genes for RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MEB.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MEB.html
    :license: GPL-2
    :recipe: /`bioconductor-meb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meb/meta.yaml>`_
 

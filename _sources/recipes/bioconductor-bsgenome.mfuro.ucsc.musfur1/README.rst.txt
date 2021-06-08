@@ -12,7 +12,7 @@ bioconductor-bsgenome.mfuro.ucsc.musfur1
 
    Full genome sequences for Mustela putorius furo \(UCSC version musFur1\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Mfuro.UCSC.musFur1.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Mfuro.UCSC.musFur1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mfuro.ucsc.musfur1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mfuro.ucsc.musfur1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mfuro.ucsc.musfur1/meta.yaml>`_
 

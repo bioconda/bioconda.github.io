@@ -12,7 +12,7 @@ bioconductor-pvac
 
    PCA\-based gene filtering for Affymetrix arrays
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/pvac.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pvac.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-pvac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvac/meta.yaml>`_
    :links: biotools: :biotools:`pvac`, doi: :doi:`10.1093/nar/gkr241`

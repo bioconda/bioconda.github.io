@@ -12,7 +12,7 @@ bioconductor-mlseq
 
    Machine Learning Interface for RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MLSeq.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MLSeq.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-mlseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlseq/meta.yaml>`_
    :links: biotools: :biotools:`mlseq`, doi: :doi:`10.1038/nmeth.3252`

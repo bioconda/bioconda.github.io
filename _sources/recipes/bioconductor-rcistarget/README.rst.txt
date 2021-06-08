@@ -10,9 +10,9 @@ bioconductor-rcistarget
    :replaces_section_title:
    :noindex:
 
-   RcisTarget\: Identify transcription factor binding motifs enriched on a gene list
+   RcisTarget Identify transcription factor binding motifs enriched on a list of genes or genomic regions
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RcisTarget.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RcisTarget.html
    :license: GPL-3
    :recipe: /`bioconductor-rcistarget <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget/meta.yaml>`_
 

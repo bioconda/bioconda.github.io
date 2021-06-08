@@ -10,13 +10,13 @@ bioconductor-poma
    :replaces_section_title:
    :noindex:
 
-   User\-friendly Workflow for Pre\-processing and Statistical Analysis of Mass Spectrometry Data
+   User\-friendly Workflow for Metabolomics and Proteomics Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/POMA.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/POMA.html
    :license: GPL-3
    :recipe: /`bioconductor-poma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma/meta.yaml>`_
 
-   POMA introduces a structured\, reproducible and easy\-to\-use workflow for the visualization\, pre\-processing\, exploratory and statistical analysis of mass spectrometry data. The main aim of POMA is to enable a flexible data cleaning and statistical analysis processes in one comprehensible and user\-friendly R package. This package also has a Shiny app version that implements all POMA functions. See https\:\/\/github.com\/pcastellanoescuder\/POMAShiny.
+   A structured\, reproducible and easy\-to\-use workflow for the visualization\, pre\-processing\, exploratory data analysis\, and statistical analysis of metabolomics and proteomics data. The main aim of POMA is to enable a flexible data cleaning and statistical analysis processes in one comprehensible and user\-friendly R package. This package also has a Shiny app version that implements all POMA functions. See https\:\/\/github.com\/pcastellanoescuder\/POMAShiny.
 
 
 .. conda:package:: bioconductor-poma

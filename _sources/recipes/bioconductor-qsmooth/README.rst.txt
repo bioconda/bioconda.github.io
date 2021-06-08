@@ -12,7 +12,7 @@ bioconductor-qsmooth
 
    Smooth quantile normalization
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/qsmooth.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/qsmooth.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-qsmooth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsmooth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsmooth/meta.yaml>`_
 

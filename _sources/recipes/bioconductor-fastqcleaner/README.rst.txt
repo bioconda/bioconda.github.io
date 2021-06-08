@@ -12,7 +12,7 @@ bioconductor-fastqcleaner
 
    A Shiny Application for Quality Control\, Filtering and Trimming of FASTQ Files
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/FastqCleaner.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/FastqCleaner.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fastqcleaner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastqcleaner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastqcleaner/meta.yaml>`_
 

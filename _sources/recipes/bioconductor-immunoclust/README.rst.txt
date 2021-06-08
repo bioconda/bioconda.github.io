@@ -12,7 +12,7 @@ bioconductor-immunoclust
 
    immunoClust \- Automated Pipeline for Population Detection in Flow Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/immunoClust.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/immunoClust.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-immunoclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunoclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunoclust/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-reactomegsa
 
    Client for the Reactome Analysis Service for comparative multi\-omics gene set analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ReactomeGSA.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ReactomeGSA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-reactomegsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomegsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomegsa/meta.yaml>`_
 

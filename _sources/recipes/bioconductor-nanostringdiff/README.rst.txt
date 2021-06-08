@@ -12,7 +12,7 @@ bioconductor-nanostringdiff
 
    Differential Expression Analysis of NanoString nCounter Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/NanoStringDiff.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/NanoStringDiff.html
    :license: GPL
    :recipe: /`bioconductor-nanostringdiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringdiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringdiff/meta.yaml>`_
 

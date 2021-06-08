@@ -12,11 +12,11 @@ bioconductor-tidysummarizedexperiment
 
    Brings SummarizedExperiment to the Tidyverse
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/tidySummarizedExperiment.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/tidySummarizedExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-tidysummarizedexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysummarizedexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysummarizedexperiment/meta.yaml>`_
 
-   tidySummarizedExperiment is an adapter that abstracts the \'SingleCellExperiment\' container in the form of tibble and allows the data manipulation\, plotting and nesting using \'tidyverse\'
+   tidySummarizedExperiment is an adapter that abstracts the \'SummarizedExperiment\' container in the form of tibble and allows the data manipulation\, plotting and nesting using \'tidyverse\'
 
 
 .. conda:package:: bioconductor-tidysummarizedexperiment

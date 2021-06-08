@@ -12,7 +12,7 @@ bioconductor-bnbc
 
    Bandwise normalization and batch correction of Hi\-C data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/bnbc.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/bnbc.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bnbc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnbc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnbc/meta.yaml>`_
 

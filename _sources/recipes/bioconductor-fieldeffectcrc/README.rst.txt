@@ -12,7 +12,7 @@ bioconductor-fieldeffectcrc
 
    Tumor\, tumor\-adjacent normal\, and healthy colorectal transcriptomes as SummarizedExperiment objects
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/FieldEffectCrc.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/FieldEffectCrc.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fieldeffectcrc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fieldeffectcrc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fieldeffectcrc/meta.yaml>`_
 

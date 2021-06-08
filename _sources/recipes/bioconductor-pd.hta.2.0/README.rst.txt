@@ -12,7 +12,7 @@ bioconductor-pd.hta.2.0
 
    Platform Design Info for Affymetrix HTA\-2\_0
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/pd.hta.2.0.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/pd.hta.2.0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hta.2.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hta.2.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hta.2.0/meta.yaml>`_
 

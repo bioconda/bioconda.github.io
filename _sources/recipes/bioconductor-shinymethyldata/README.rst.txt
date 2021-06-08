@@ -12,7 +12,7 @@ bioconductor-shinymethyldata
 
    Example dataset of input data for shinyMethyl
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/shinyMethylData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/shinyMethylData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-shinymethyldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinymethyldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinymethyldata/meta.yaml>`_
 

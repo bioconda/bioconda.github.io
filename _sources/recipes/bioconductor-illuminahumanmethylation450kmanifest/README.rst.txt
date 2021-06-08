@@ -12,7 +12,7 @@ bioconductor-illuminahumanmethylation450kmanifest
 
    Annotation for Illumina\'s 450k methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/IlluminaHumanMethylation450kmanifest.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/IlluminaHumanMethylation450kmanifest.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanmethylation450kmanifest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kmanifest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kmanifest/meta.yaml>`_
 

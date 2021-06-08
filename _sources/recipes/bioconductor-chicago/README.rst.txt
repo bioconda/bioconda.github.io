@@ -12,7 +12,7 @@ bioconductor-chicago
 
    CHiCAGO\: Capture Hi\-C Analysis of Genomic Organization
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Chicago.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Chicago.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chicago <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chicago>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chicago/meta.yaml>`_
    :links: biotools: :biotools:`chicago`

@@ -12,12 +12,12 @@ bioconductor-splots
 
    Visualization of high\-throughput assays in microtitre plate or slide format
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/splots.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/splots.html
    :license: LGPL
    :recipe: /`bioconductor-splots <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splots>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splots/meta.yaml>`_
    :links: biotools: :biotools:`splots`, doi: :doi:`10.1038/nmeth.3252`
 
-   The splots package provides the plotScreen function for visualising data in microtitre plate or slide format.
+   This package is provided to support legacy code and reverse dependencies\, but it should not be used as a dependency for new code development. It provides a single function\, plotScreen\, for visualising data in microtitre plate or slide format. As a better alternative for such functionality\, please consider the platetools package on CRAN \(https\:\/\/cran.r\-project.org\/package\=platetools and https\:\/\/github.com\/Swarchal\/platetools\)\, or generic ggplot2 graphics functionality.
 
 
 .. conda:package:: bioconductor-splots

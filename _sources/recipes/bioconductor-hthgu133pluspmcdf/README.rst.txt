@@ -12,7 +12,7 @@ bioconductor-hthgu133pluspmcdf
 
    hthgu133pluspmcdf
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hthgu133pluspmcdf.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hthgu133pluspmcdf.html
    :license: LGPL
    :recipe: /`bioconductor-hthgu133pluspmcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133pluspmcdf/meta.yaml>`_
 

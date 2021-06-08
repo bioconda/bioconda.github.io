@@ -12,7 +12,7 @@ bioconductor-hu35ksuba.db
 
    Affymetrix Human Genome HU35K Set annotation data \(chip hu35ksuba\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hu35ksuba.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hu35ksuba.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hu35ksuba.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksuba.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksuba.db/meta.yaml>`_
 

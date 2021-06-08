@@ -12,7 +12,7 @@ bioconductor-ga4ghclient
 
    A Bioconductor package for accessing GA4GH API data servers
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GA4GHclient.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GA4GHclient.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ga4ghclient <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghclient>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghclient/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-silva128.1mgdb
 
    SILVA SSR rRNA release 128.1 Annotation Data
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/silva128.1MgDb.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/silva128.1MgDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-silva128.1mgdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-silva128.1mgdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-silva128.1mgdb/meta.yaml>`_
 

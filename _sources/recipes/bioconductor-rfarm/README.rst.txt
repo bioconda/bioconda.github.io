@@ -12,7 +12,7 @@ bioconductor-rfarm
 
    An R interface to the Rfam database
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/rfaRm.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rfaRm.html
    :license: GPL-3
    :recipe: /`bioconductor-rfarm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfarm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfarm/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-rfarm
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-httr: 
    :depends r-magick: 

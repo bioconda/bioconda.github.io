@@ -12,7 +12,7 @@ bioconductor-mogene10stv1probe
 
    Probe sequence data for microarrays of type mogene10stv1
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/mogene10stv1probe.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/mogene10stv1probe.html
    :license: LGPL
    :recipe: /`bioconductor-mogene10stv1probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene10stv1probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene10stv1probe/meta.yaml>`_
 

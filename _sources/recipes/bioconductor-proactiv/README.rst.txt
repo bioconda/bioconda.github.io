@@ -12,11 +12,11 @@ bioconductor-proactiv
 
    Estimate Promoter Activity from RNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/proActiv.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/proActiv.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-proactiv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proactiv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proactiv/meta.yaml>`_
 
-   Most human genes have multiple promoters that control the expression of different isoforms. The use of these alternative promoters enables the regulation of isoform expression pre\-transcriptionally. Alternative promoters have been found to be important in a wide number of cell types and diseases. proActiv is an R package that enables the analysis of promoters from RNA\-seq data. proActiv uses aligned reads as input\, and generates counts and normalized promoter activity estimates for each annotated promoter. In particular\, proActiv accepts junction files from TopHat2 or STAR or BAM files as inputs. These estimates can then be used to identify which promoter is active\, which promoter is inactive\, and which promoters change their activity across conditions.
+   Most human genes have multiple promoters that control the expression of different isoforms. The use of these alternative promoters enables the regulation of isoform expression pre\-transcriptionally. Alternative promoters have been found to be important in a wide number of cell types and diseases. proActiv is an R package that enables the analysis of promoters from RNA\-seq data. proActiv uses aligned reads as input\, and generates counts and normalized promoter activity estimates for each annotated promoter. In particular\, proActiv accepts junction files from TopHat2 or STAR or BAM files as inputs. These estimates can then be used to identify which promoter is active\, which promoter is inactive\, and which promoters change their activity across conditions. proActiv also allows visualization of promoter activity across conditions.
 
 
 .. conda:package:: bioconductor-proactiv

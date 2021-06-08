@@ -12,11 +12,11 @@ bioconductor-rwikipathways
 
    rWikiPathways \- R client library for the WikiPathways API
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/rWikiPathways.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rWikiPathways.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rwikipathways <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rwikipathways>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rwikipathways/meta.yaml>`_
 
-   Use this package to interface with the WikiPathways API.
+   Use this package to interface with the WikiPathways API. It provides programmatic access to WikiPathways content in multiple data and image formats\, including official monthly release files and convenient GMT read\/write functions.
 
 
 .. conda:package:: bioconductor-rwikipathways

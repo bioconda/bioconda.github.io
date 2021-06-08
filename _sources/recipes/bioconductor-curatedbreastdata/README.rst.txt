@@ -12,7 +12,7 @@ bioconductor-curatedbreastdata
 
    Curated breast cancer gene expression data with survival and treatment information
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/curatedBreastData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/curatedBreastData.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-curatedbreastdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbreastdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedbreastdata/meta.yaml>`_
 

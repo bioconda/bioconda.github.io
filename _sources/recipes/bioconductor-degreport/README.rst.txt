@@ -12,7 +12,7 @@ bioconductor-degreport
 
    Report of DEG analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DEGreport.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DEGreport.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-degreport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degreport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degreport/meta.yaml>`_
    :links: biotools: :biotools:`degreport`, doi: :doi:`10.1038/nmeth.3252`

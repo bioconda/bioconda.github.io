@@ -12,7 +12,7 @@ bioconductor-bovine.db0
 
    Base Level Annotation databases for bovine
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/bovine.db0.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/bovine.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bovine.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovine.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bovine.db0/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-farms
 
    FARMS \- Factor Analysis for Robust Microarray Summarization
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/farms.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/farms.html
    :license: LGPL (>= 2.1)
    :recipe: /`bioconductor-farms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-farms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-farms/meta.yaml>`_
    :links: biotools: :biotools:`farms`

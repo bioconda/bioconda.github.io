@@ -12,7 +12,7 @@ bioconductor-cernanetsim
 
    Regulation Simulator of Interaction between miRNA and Competing RNAs \(ceRNA\)
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ceRNAnetsim.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ceRNAnetsim.html
    :license: GPL (>= 3.0)
    :recipe: /`bioconductor-cernanetsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cernanetsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cernanetsim/meta.yaml>`_
 

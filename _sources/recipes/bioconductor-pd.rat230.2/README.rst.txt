@@ -12,7 +12,7 @@ bioconductor-pd.rat230.2
 
    Platform Design Info for The Manufacturer\'s Name Rat230\_2
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/pd.rat230.2.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/pd.rat230.2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.rat230.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rat230.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rat230.2/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-canine2.db
 
    Affymetrix canine2 annotation data \(chip canine2\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/canine2.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/canine2.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-canine2.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canine2.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canine2.db/meta.yaml>`_
 

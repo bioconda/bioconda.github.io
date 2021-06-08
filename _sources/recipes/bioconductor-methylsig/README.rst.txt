@@ -12,7 +12,7 @@ bioconductor-methylsig
 
    MethylSig\: Differential Methylation Testing for WGBS and RRBS Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/methylSig.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/methylSig.html
    :license: GPL-3
    :recipe: /`bioconductor-methylsig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylsig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylsig/meta.yaml>`_
 

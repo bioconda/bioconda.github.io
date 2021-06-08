@@ -12,7 +12,7 @@ bioconductor-qvalue
 
    Q\-value estimation for false discovery rate control
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/qvalue.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/qvalue.html
    :license: LGPL
    :recipe: /`bioconductor-qvalue <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qvalue>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qvalue/meta.yaml>`_
 

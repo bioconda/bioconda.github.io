@@ -12,7 +12,7 @@ bioconductor-mesh.mmu.eg.db
 
    Mapping table for Mus musculus Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Mmu.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/MeSH.Mmu.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.mmu.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.mmu.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.mmu.eg.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-bgmix
 
    Bayesian models for differential gene expression
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/BGmix.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BGmix.html
    :license: GPL-2
    :recipe: /`bioconductor-bgmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgmix/meta.yaml>`_
    :links: biotools: :biotools:`bgmix`, doi: :doi:`10.2202/1544-6115.1314`

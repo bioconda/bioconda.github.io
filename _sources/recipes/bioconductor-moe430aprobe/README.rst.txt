@@ -12,7 +12,7 @@ bioconductor-moe430aprobe
 
    Probe sequence data for microarrays of type moe430a
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/moe430aprobe.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/moe430aprobe.html
    :license: LGPL
    :recipe: /`bioconductor-moe430aprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430aprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430aprobe/meta.yaml>`_
 

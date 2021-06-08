@@ -12,7 +12,7 @@ bioconductor-phemd
 
    Phenotypic EMD for comparison of single\-cell samples
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/phemd.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/phemd.html
    :license: GPL-2
    :recipe: /`bioconductor-phemd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phemd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phemd/meta.yaml>`_
 

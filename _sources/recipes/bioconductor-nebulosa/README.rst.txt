@@ -12,7 +12,7 @@ bioconductor-nebulosa
 
    Single\-Cell Data Visualisation Using Kernel Gene\-Weighted Density Estimation
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Nebulosa.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Nebulosa.html
    :license: GPL-3
    :recipe: /`bioconductor-nebulosa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nebulosa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nebulosa/meta.yaml>`_
 

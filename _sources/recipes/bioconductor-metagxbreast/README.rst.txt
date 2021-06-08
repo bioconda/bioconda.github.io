@@ -12,8 +12,8 @@ bioconductor-metagxbreast
 
    Transcriptomic Breast Cancer Datasets
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/MetaGxBreast.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/MetaGxBreast.html
+   :license: Apache License (>= 2)
    :recipe: /`bioconductor-metagxbreast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxbreast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxbreast/meta.yaml>`_
 
    A collection of Breast Cancer Transcriptomic Datasets that are part of the MetaGxData package compendium.

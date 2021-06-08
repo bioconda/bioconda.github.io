@@ -12,7 +12,7 @@ bioconductor-ncigraph
 
    Pathways from the NCI Pathways Database
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/NCIgraph.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/NCIgraph.html
    :license: GPL-3
    :recipe: /`bioconductor-ncigraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraph/meta.yaml>`_
    :links: biotools: :biotools:`ncigraph`, doi: :doi:`10.1038/nmeth.3252`

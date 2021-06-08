@@ -12,7 +12,7 @@ bioconductor-omicspca
 
    An R package for quantitative integration and analysis of multiple omics assays from heterogeneous samples
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/OMICsPCA.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/OMICsPCA.html
    :license: GPL-3
    :recipe: /`bioconductor-omicspca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicspca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicspca/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-omicspca
       
       
 
-      ``1.8.0-1``,  ``1.8.0-0``,  ``1.5.0-0``,  ``1.2.0-1``
+      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.5.0-0``,  ``1.2.0-1``
 
       
 
    
-   :depends bioconductor-genomeinfodb: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-helloranges: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-omicspcadata: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-rtracklayer: ``>=1.50.0,<1.51.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-helloranges: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-omicspcadata: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-clvalid: 
    :depends r-corrplot: 

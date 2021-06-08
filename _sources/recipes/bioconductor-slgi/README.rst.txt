@@ -12,7 +12,7 @@ bioconductor-slgi
 
    Synthetic Lethal Genetic Interaction
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SLGI.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SLGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-slgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slgi/meta.yaml>`_
    :links: biotools: :biotools:`slgi`, doi: :doi:`10.1186/gb-2008-9-9-r135`

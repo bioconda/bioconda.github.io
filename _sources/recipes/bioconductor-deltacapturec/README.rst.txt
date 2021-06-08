@@ -12,7 +12,7 @@ bioconductor-deltacapturec
 
    This Package Discovers Meso\-scale Chromatin Remodeling from 3C Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/deltaCaptureC.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/deltaCaptureC.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-deltacapturec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deltacapturec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deltacapturec/meta.yaml>`_
 

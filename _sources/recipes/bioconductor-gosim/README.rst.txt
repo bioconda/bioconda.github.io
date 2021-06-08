@@ -12,7 +12,7 @@ bioconductor-gosim
 
    Computation of functional similarities between GO terms and gene products\; GO enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GOSim.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GOSim.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gosim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosim/meta.yaml>`_
 

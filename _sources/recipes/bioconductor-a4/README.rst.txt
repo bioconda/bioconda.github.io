@@ -12,7 +12,7 @@ bioconductor-a4
 
    Automated Affymetrix Array Analysis Umbrella Package
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/a4.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/a4.html
    :license: GPL-3
    :recipe: /`bioconductor-a4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4/meta.yaml>`_
 

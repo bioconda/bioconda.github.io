@@ -10,9 +10,9 @@ bioconductor-lrbase.ath.eg.db
    :replaces_section_title:
    :noindex:
 
-   An annotation package for the LRBaseDb object
+   Ligand\-Receptor list for Arabidopsis thaliana \(Ath\, Thale cress\, Taxonomy ID\: 3702\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/LRBase.Ath.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/LRBase.Ath.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.ath.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ath.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.ath.eg.db/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-nadfinder
 
    Call wide peaks for sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/NADfinder.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/NADfinder.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-nadfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nadfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nadfinder/meta.yaml>`_
 

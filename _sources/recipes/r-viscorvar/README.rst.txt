@@ -32,12 +32,12 @@ r-viscorvar
       
       
 
-      ``0.8-0``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``
+      ``0.8-1``,  ``0.8-0``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``
 
       
 
    
-   :depends bioconductor-mixomics: ``>=6.14.1``
+   :depends bioconductor-mixomics: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ellipse: 

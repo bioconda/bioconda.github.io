@@ -10,13 +10,13 @@ bioconductor-mirsm
    :replaces_section_title:
    :noindex:
 
-   Inferring miRNA sponge modules by integrating expression data and miRNA\-target binding information
+   Inferring miRNA sponge modules in heterogeneous data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/miRSM.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/miRSM.html
    :license: GPL-3
    :recipe: /`bioconductor-mirsm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsm/meta.yaml>`_
 
-   The package aims to identify miRNA sponge modules by integrating expression data and miRNA\-target binding information. It provides several functions to study miRNA sponge modules\, including popular methods for inferring gene modules \(candidate miRNA sponge modules\)\, and a function to identify miRNA sponge modules\, as well as several functions to conduct modular analysis of miRNA sponge modules.
+   The package aims to identify miRNA sponge modules in heterogeneous data. It provides several functions to study miRNA sponge modules\, including popular methods for inferring gene modules \(candidate miRNA sponge modules\)\, and a function to identify miRNA sponge modules\, as well as several functions to conduct modular analysis of miRNA sponge modules.
 
 
 .. conda:package:: bioconductor-mirsm
@@ -42,8 +42,9 @@ bioconductor-mirsm
    :depends bioconductor-rqubic: ``>=1.38.0,<1.39.0``
    :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bibitr: 
    :depends r-biclust: 

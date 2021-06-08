@@ -12,11 +12,11 @@ bioconductor-curatedmetagenomicdata
 
    Curated Metagenomic Data of the Human Microbiome
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/curatedMetagenomicData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/curatedMetagenomicData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedmetagenomicdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedmetagenomicdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedmetagenomicdata/meta.yaml>`_
 
-   The curatedMetagenomicData package provides microbial taxonomic\, functional\, and gene marker abundance for samples collected from different bodysites.
+   The curatedMetagenomicData package provides standardized\, curated human microbiome data for novel analyses. It includes gene families\, marker abundance\, marker presence\, pathway abundance\, pathway coverage\, and relative abundance for samples collected from different body sites. The bacterial\, fungal\, and archaeal taxonomic abundances for each sample were calculated with MetaPhlAn3 and metabolic functional potential was calculated with HUMAnN3. The manually curated sample metadata and standardized metagenomic data are available as \(Tree\)SummarizedExperiment objects.
 
 
 .. conda:package:: bioconductor-curatedmetagenomicdata

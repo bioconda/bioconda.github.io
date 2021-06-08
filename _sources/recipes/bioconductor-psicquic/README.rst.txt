@@ -12,7 +12,7 @@ bioconductor-psicquic
 
    Proteomics Standard Initiative Common QUery InterfaCe
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/PSICQUIC.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/PSICQUIC.html
    :license: Apache License 2.0
    :recipe: /`bioconductor-psicquic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psicquic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psicquic/meta.yaml>`_
    :links: biotools: :biotools:`psicquic`, doi: :doi:`10.1038/nmeth.3252`

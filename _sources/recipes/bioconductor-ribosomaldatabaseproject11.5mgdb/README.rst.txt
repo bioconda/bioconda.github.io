@@ -12,7 +12,7 @@ bioconductor-ribosomaldatabaseproject11.5mgdb
 
    Ribosomal Database Project 16S rRNA release 11.5 Annotation Data
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/ribosomaldatabaseproject11.5MgDb.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/ribosomaldatabaseproject11.5MgDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ribosomaldatabaseproject11.5mgdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribosomaldatabaseproject11.5mgdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribosomaldatabaseproject11.5mgdb/meta.yaml>`_
 

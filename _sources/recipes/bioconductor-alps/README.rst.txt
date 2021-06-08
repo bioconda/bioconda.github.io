@@ -12,7 +12,7 @@ bioconductor-alps
 
    AnaLysis routines for ePigenomicS data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ALPS.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ALPS.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alps/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-affycoretools
 
    Functions useful for those doing repetitive analyses with Affymetrix GeneChips
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/affycoretools.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/affycoretools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-affycoretools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycoretools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycoretools/meta.yaml>`_
    :links: biotools: :biotools:`affycoretools`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-synapterdata
 
    Data accompanying the synapter package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/synapterdata.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/synapterdata.html
    :license: GPL-2
    :recipe: /`bioconductor-synapterdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapterdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapterdata/meta.yaml>`_
 

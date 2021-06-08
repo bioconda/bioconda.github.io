@@ -12,7 +12,7 @@ bioconductor-degnorm
 
    DegNorm\: degradation normalization for RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DegNorm.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DegNorm.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-degnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degnorm/meta.yaml>`_
 

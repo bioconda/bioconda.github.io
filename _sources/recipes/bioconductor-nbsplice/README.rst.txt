@@ -12,7 +12,7 @@ bioconductor-nbsplice
 
    Negative Binomial Models to detect Differential Splicing
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/NBSplice.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/NBSplice.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-nbsplice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nbsplice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nbsplice/meta.yaml>`_
 

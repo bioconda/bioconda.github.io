@@ -12,7 +12,7 @@ bioconductor-viseago
 
    ViSEAGO\: a Bioconductor package for clustering biological functions using Gene Ontology and semantic similarity
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ViSEAGO.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ViSEAGO.html
    :license: GPL-3
    :recipe: /`bioconductor-viseago <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viseago>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viseago/meta.yaml>`_
 

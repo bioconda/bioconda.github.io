@@ -10,13 +10,13 @@ bioconductor-inpas
    :replaces_section_title:
    :noindex:
 
-   InPAS\: a bioconductor package for the identification of novel alternative PolyAdenylation Sites \(PAS\) using RNA\-seq data
+   A Bioconductor package for identifying novel Alternative PolyAdenylation Sites \(PAS\) from RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/InPAS.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/InPAS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-inpas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpas/meta.yaml>`_
 
-   Alternative polyadenylation \(APA\) is one of the important post\-transcriptional regulation mechanisms which occurs in most human genes. InPAS facilitates the discovery of novel APA sites and the differential usage of APA sites from RNA\-Seq data. It leverages cleanUpdTSeq to fine tune identified APA sites by removing false sites due to internal\-priming.
+   Alternative polyadenylation \(APA\) is one of the important post\- transcriptional regulation mechanisms which occurs in most human genes. InPAS facilitates the discovery of novel APA sites and the differential usage of APA sites from RNA\-Seq data. It leverages cleanUpdTSeq to fine tune identified APA sites by removing false sites.
 
 
 .. conda:package:: bioconductor-inpas

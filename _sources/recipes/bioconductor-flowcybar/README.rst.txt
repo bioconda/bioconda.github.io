@@ -12,7 +12,7 @@ bioconductor-flowcybar
 
    Analyze flow cytometric data using gate information
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/flowCyBar.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/flowCyBar.html
    :license: GPL-2
    :recipe: /`bioconductor-flowcybar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcybar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcybar/meta.yaml>`_
 

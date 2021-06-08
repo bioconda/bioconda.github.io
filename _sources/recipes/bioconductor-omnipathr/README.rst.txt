@@ -10,13 +10,13 @@ bioconductor-omnipathr
    :replaces_section_title:
    :noindex:
 
-   OmniPath web service client
+   OmniPath web service client and more
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/OmnipathR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/OmnipathR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omnipathr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr/meta.yaml>`_
 
-   A client for the OmniPath web service \(https\:\/\/www.omnipathdb.org\). It also includes functions to transform and pretty print some of the downloaded data.
+   A client for the OmniPath web service \(https\:\/\/www.omnipathdb.org\) and many other resources. It also includes functions to transform and pretty print some of the downloaded data\, functions to access a number of other resources such as BioPlex\, ConsensusPathDB\, EVEX\, Gene Ontology\, Guide to Pharmacology \(IUPHAR\/BPS\)\, Harmonizome\, HTRIdb\, Human Phenotype Ontology\, InWeb InBioMap\, KEGG Pathway\, Pathway Commons\, Ramilowski et al. 2015\, RegNetwork\, ReMap\, TF census\, TRRUST and Vinayagam et al. 2011. Furthermore\, OmnipathR features a close integration with the NicheNet method for ligand activity prediction from transcriptomics data\, and its R implementation \`nichenetr\` \(available only on github\).
 
 
 .. conda:package:: bioconductor-omnipathr

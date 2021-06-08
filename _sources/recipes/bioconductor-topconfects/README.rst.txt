@@ -12,7 +12,7 @@ bioconductor-topconfects
 
    Top Confident Effect Sizes
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/topconfects.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/topconfects.html
    :license: LGPL-2.1 | file LICENSE
    :recipe: /`bioconductor-topconfects <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topconfects>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topconfects/meta.yaml>`_
 

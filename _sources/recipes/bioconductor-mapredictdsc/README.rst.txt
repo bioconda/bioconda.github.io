@@ -12,7 +12,7 @@ bioconductor-mapredictdsc
 
    Phenotype prediction using microarray data\: approach of the best overall team in the IMPROVER Diagnostic Signature Challenge
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/maPredictDSC.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/maPredictDSC.html
    :license: GPL-2
    :recipe: /`bioconductor-mapredictdsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapredictdsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapredictdsc/meta.yaml>`_
    :links: biotools: :biotools:`mapredictdsc`, doi: :doi:`10.1093/bioinformatics/btt492`

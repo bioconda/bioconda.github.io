@@ -12,7 +12,7 @@ bioconductor-mesh.cpo.eg.db
 
    Mapping table for Cavia porcellus Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Cpo.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/MeSH.Cpo.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.cpo.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.cpo.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.cpo.eg.db/meta.yaml>`_
 

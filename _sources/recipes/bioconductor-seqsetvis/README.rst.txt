@@ -12,7 +12,7 @@ bioconductor-seqsetvis
 
    Set Based Visualizations for Next\-Gen Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/seqsetvis.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/seqsetvis.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-seqsetvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsetvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsetvis/meta.yaml>`_
 

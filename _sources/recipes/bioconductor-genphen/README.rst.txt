@@ -12,7 +12,7 @@ bioconductor-genphen
 
    A tool for quantification of associations between genotypes and phenotypes in genome wide association studies \(GWAS\) with Bayesian inference and statistical learning
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/genphen.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/genphen.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genphen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genphen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genphen/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pathview
 
    a tool set for pathway based data integration and visualization
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/pathview.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pathview.html
    :license: GPL (>=3.0)
    :recipe: /`bioconductor-pathview <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathview>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathview/meta.yaml>`_
    :links: biotools: :biotools:`pathview`

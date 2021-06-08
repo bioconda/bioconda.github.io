@@ -12,7 +12,7 @@ bioconductor-branchpointer
 
    Prediction of intronic splicing branchpoints
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/branchpointer.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/branchpointer.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-branchpointer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-branchpointer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-branchpointer/meta.yaml>`_
 

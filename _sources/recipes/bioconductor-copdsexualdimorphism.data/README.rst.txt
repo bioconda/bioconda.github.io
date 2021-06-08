@@ -12,7 +12,7 @@ bioconductor-copdsexualdimorphism.data
 
    Data to support sexually dimorphic and COPD differential analysis for gene expression and methylation.
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/COPDSexualDimorphism.data.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/COPDSexualDimorphism.data.html
    :license: LGPL-2.1
    :recipe: /`bioconductor-copdsexualdimorphism.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copdsexualdimorphism.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copdsexualdimorphism.data/meta.yaml>`_
 

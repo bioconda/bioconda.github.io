@@ -12,7 +12,7 @@ bioconductor-icare
 
    A Tool for Individualized Coherent Absolute Risk Estimation \(iCARE\)
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/iCARE.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/iCARE.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-icare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icare/meta.yaml>`_
 

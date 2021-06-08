@@ -12,11 +12,11 @@ bioconductor-sesamedata
 
    Supporting Data for SeSAMe Package
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/sesameData.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/sesameData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sesamedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesamedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesamedata/meta.yaml>`_
 
-   Provides supporting annotation and test data for SeSAMe package.
+   Provides supporting annotation and test data for SeSAMe package. This includes chip tango addresses\, mapping information\, performance annotation\, and trained predictor for Infinium array data. This package provides user access to essential annotation data for working with many generations of the Infinium DNA methylation array. Current we support human array \(HM27\, HM450\, EPIC\)\, mouse array \(MM285\) and the HorvathMethylChip40 \(Mammal40\) array.
 
 
 .. conda:package:: bioconductor-sesamedata

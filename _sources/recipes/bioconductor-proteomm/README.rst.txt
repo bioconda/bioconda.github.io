@@ -12,7 +12,7 @@ bioconductor-proteomm
 
    Multi\-Dataset Model\-based Differential Expression Proteomics Analysis Platform
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ProteoMM.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ProteoMM.html
    :license: MIT
    :recipe: /`bioconductor-proteomm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomm/meta.yaml>`_
 

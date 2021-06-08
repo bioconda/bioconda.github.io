@@ -12,7 +12,7 @@ bioconductor-ideal
 
    Interactive Differential Expression AnaLysis
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ideal.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ideal.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ideal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ideal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ideal/meta.yaml>`_
 

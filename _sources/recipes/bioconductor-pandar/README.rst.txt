@@ -12,7 +12,7 @@ bioconductor-pandar
 
    PANDA Algorithm
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/pandaR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pandaR.html
    :license: GPL-2
    :recipe: /`bioconductor-pandar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pandar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pandar/meta.yaml>`_
    :links: biotools: :biotools:`pandar`

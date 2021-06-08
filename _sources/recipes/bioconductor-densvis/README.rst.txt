@@ -12,7 +12,7 @@ bioconductor-densvis
 
    Density\-Preserving Data Visualization via Non\-Linear Dimensionality Reduction
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/densvis.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/densvis.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-densvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-densvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-densvis/meta.yaml>`_
 

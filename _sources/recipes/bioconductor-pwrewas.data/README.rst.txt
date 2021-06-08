@@ -12,7 +12,7 @@ bioconductor-pwrewas.data
 
    pwrEWAS.data\: Reference data accompanying pwrEWAS
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/pwrEWAS.data.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/pwrEWAS.data.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pwrewas.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwrewas.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwrewas.data/meta.yaml>`_
 

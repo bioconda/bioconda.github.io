@@ -10,9 +10,9 @@ bioconductor-lrbase.dre.eg.db
    :replaces_section_title:
    :noindex:
 
-   An annotation package for the LRBaseDb object
+   Ligand\-Receptor list for Danio rerio \(Dre\, Zebrafish\, Taxonomy ID\: 7955\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/LRBase.Dre.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/LRBase.Dre.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbase.dre.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.dre.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbase.dre.eg.db/meta.yaml>`_
 

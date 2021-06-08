@@ -12,7 +12,7 @@ bioconductor-packfinder
 
    de novo Annotation of Pack\-TYPE Transposable Elements
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/packFinder.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/packFinder.html
    :license: GPL-2
    :recipe: /`bioconductor-packfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-packfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-packfinder/meta.yaml>`_
 

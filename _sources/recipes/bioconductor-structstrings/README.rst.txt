@@ -12,7 +12,7 @@ bioconductor-structstrings
 
    Implementation of the dot bracket annotations with Biostrings
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Structstrings.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Structstrings.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-structstrings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structstrings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-structstrings/meta.yaml>`_
 

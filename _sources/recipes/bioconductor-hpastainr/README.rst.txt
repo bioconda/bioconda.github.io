@@ -12,11 +12,11 @@ bioconductor-hpastainr
 
    Queries the Human Protein Atlas Staining Data for Multiple Proteins and Genes
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/HPAStainR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/HPAStainR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hpastainr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpastainr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpastainr/meta.yaml>`_
 
-   This package is built around the HPAStainR function. The purpose of the HPAStainR function is to query the visual staining data in the Human Protein Atlas to return a table of staining ranked cell types. The function also has multiple arguements to personalize to output as well to include cancer data\, csv readable names\, modify the confidence levels of the results and more. The other functions exist exlcusively to easily acquire the data required to run HPAStainR.
+   This package is built around the HPAStainR function. The purpose of the HPAStainR function is to query the visual staining data in the Human Protein Atlas to return a table of staining ranked cell types. The function also has multiple arguments to personalize to output as well to include cancer data\, csv readable names\, modify the confidence levels of the results and more. The other functions exist exclusively to easily acquire the data required to run HPAStainR.
 
 
 .. conda:package:: bioconductor-hpastainr

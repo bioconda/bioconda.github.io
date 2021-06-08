@@ -12,7 +12,7 @@ bioconductor-selectksigs
 
    Selecting the number of mutational signatures using a perplexity\-based measure and cross\-validation
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/selectKSigs.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/selectKSigs.html
    :license: GPL-3
    :recipe: /`bioconductor-selectksigs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-selectksigs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-selectksigs/meta.yaml>`_
 

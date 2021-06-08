@@ -12,7 +12,7 @@ bioconductor-motifstack
 
    Plot stacked logos for single or multiple DNA\, RNA and amino acid sequence
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/motifStack.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/motifStack.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-motifstack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifstack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifstack/meta.yaml>`_
    :links: biotools: :biotools:`motifstack`, doi: :doi:`10.1038/nmeth.3252`

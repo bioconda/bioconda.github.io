@@ -12,7 +12,7 @@ bioconductor-spatialdecon
 
    Deconvolution of mixed cells from spatial and\/or bulk gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/SpatialDecon.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SpatialDecon.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-spatialdecon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialdecon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialdecon/meta.yaml>`_
 

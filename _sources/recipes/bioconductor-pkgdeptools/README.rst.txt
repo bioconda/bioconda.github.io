@@ -12,7 +12,7 @@ bioconductor-pkgdeptools
 
    Package Dependency Tools
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/pkgDepTools.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pkgDepTools.html
    :license: GPL-2
    :recipe: /`bioconductor-pkgdeptools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pkgdeptools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pkgdeptools/meta.yaml>`_
    :links: biotools: :biotools:`pkgdeptools`, doi: :doi:`10.1038/nmeth.3252`

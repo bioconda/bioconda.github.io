@@ -12,7 +12,7 @@ bioconductor-copywriter
 
    Copy number information from targeted sequencing using off\-target reads
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CopywriteR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CopywriteR.html
    :license: GPL-2
    :recipe: /`bioconductor-copywriter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copywriter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copywriter/meta.yaml>`_
    :links: biotools: :biotools:`copywriter`, doi: :doi:`10.1186/s13059-015-0617-1`

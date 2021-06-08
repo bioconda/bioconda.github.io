@@ -10,13 +10,13 @@ bioconductor-compartmap
    :replaces_section_title:
    :noindex:
 
-   A\/B compartment inference from ATAC\-seq and methylation array data
+   Higher\-order chromatin domain inference in single cells from scRNA\-seq and scATAC\-seq
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/compartmap.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/compartmap.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-compartmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compartmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compartmap/meta.yaml>`_
 
-   Compartmap performs shrunken A\/B compartment inference from ATAC\-seq and methylation arrays.
+   Compartmap performs direct inference of higher\-order chromatin from scRNA\-seq and scATAC\-seq. This package implements a James\-Stein estimator for computing single\-cell level higher\-order chromatin domains. Further\, we utilize random matrix theory as a method to de\-noise correlation matrices to achieve a similar \"plaid\-like\" patterning as observed in Hi\-C and scHi\-C data.
 
 
 .. conda:package:: bioconductor-compartmap

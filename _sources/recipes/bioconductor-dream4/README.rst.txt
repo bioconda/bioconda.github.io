@@ -12,7 +12,7 @@ bioconductor-dream4
 
    Synthetic Expression Data for Gene Regulatory Network Inference from the 2009 DREAM4 challenge
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/DREAM4.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/DREAM4.html
    :license: GPL
    :recipe: /`bioconductor-dream4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dream4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dream4/meta.yaml>`_
 

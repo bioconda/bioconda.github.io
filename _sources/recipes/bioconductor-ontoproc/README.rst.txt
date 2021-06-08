@@ -12,7 +12,7 @@ bioconductor-ontoproc
 
    processing of ontologies of anatomy\, cell lines\, and so on
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ontoProc.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ontoProc.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ontoproc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoproc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoproc/meta.yaml>`_
 

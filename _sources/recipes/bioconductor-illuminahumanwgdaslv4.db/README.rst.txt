@@ -12,7 +12,7 @@ bioconductor-illuminahumanwgdaslv4.db
 
    Illumina HumanWGDASLv4 annotation data \(chip illuminaHumanWGDASLv4\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/illuminaHumanWGDASLv4.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/illuminaHumanWGDASLv4.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanwgdaslv4.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanwgdaslv4.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanwgdaslv4.db/meta.yaml>`_
 

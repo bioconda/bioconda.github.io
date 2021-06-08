@@ -12,7 +12,7 @@ bioconductor-msgfplus
 
    An interface between R and MS\-GF\+
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MSGFplus.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MSGFplus.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-msgfplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgfplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgfplus/meta.yaml>`_
 

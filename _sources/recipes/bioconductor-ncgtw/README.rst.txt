@@ -12,7 +12,7 @@ bioconductor-ncgtw
 
    Alignment of LC\-MS Profiles by Neighbor\-wise Compound\-specific Graphical Time Warping with Misalignment Detection
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/ncGTW.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ncGTW.html
    :license: GPL-2
    :recipe: /`bioconductor-ncgtw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncgtw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncgtw/meta.yaml>`_
 

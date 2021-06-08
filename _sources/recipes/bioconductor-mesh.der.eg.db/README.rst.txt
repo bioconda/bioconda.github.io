@@ -12,7 +12,7 @@ bioconductor-mesh.der.eg.db
 
    Mapping table for Drosophila eracta Gene ID to MeSH
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/MeSH.Der.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/MeSH.Der.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mesh.der.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.der.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.der.eg.db/meta.yaml>`_
 

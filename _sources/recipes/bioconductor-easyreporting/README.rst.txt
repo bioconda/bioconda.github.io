@@ -10,13 +10,13 @@ bioconductor-easyreporting
    :replaces_section_title:
    :noindex:
 
-   Helps creating report for improving Reproducible computational Research
+   Helps creating report for improving Reproducible Computational Research
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/easyreporting.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/easyreporting.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-easyreporting <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyreporting>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyreporting/meta.yaml>`_
 
-   An S4 class for facilitating the automated creation of rmarkdown files inside other packages\/software\, even without knowing rmarkdown language. Best if implemented in functions as \"recursive\" style programming.
+   An S4 class for facilitating the automated creation of rmarkdown files inside other packages\/software even without knowing rmarkdown language. Best if implemented in functions as \"recursive\" style programming.
 
 
 .. conda:package:: bioconductor-easyreporting

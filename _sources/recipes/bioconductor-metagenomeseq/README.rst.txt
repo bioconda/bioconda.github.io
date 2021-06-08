@@ -12,7 +12,7 @@ bioconductor-metagenomeseq
 
    Statistical analysis for sparse high\-throughput sequencing
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/metagenomeSeq.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/metagenomeSeq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metagenomeseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagenomeseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagenomeseq/meta.yaml>`_
    :links: biotools: :biotools:`metagenomeseq`, doi: :doi:`10.1038/nmeth.2658`

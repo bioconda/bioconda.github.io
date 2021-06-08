@@ -12,7 +12,7 @@ bioconductor-partheenmetadata.db
 
    PartheenMetaData http\:\/\/swegene.onk.lu.se Annotation Data \(PartheenMetaData\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/PartheenMetaData.db.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/PartheenMetaData.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-partheenmetadata.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-partheenmetadata.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-partheenmetadata.db/meta.yaml>`_
 

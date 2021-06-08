@@ -12,7 +12,7 @@ bioconductor-randpack
 
    Randomization routines for Clinical Trials
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/randPack.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/randPack.html
    :license: Artistic 2.0
    :recipe: /`bioconductor-randpack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randpack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randpack/meta.yaml>`_
    :links: biotools: :biotools:`randpack`, doi: :doi:`10.1038/nmeth.3252`

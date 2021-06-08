@@ -12,7 +12,7 @@ bioconductor-seqlogo
 
    Sequence logos for DNA sequence alignments
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/seqLogo.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/seqLogo.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-seqlogo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqlogo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqlogo/meta.yaml>`_
    :links: biotools: :biotools:`seqlogo`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-coregnet
 
    CoRegNet \: reconstruction and integrated analysis of co\-regulatory networks
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/CoRegNet.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CoRegNet.html
    :license: GPL-3
    :recipe: /`bioconductor-coregnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coregnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coregnet/meta.yaml>`_
 

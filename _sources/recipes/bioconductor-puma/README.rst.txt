@@ -12,7 +12,7 @@ bioconductor-puma
 
    Propagating Uncertainty in Microarray Analysis\(including Affymetrix tranditional 3\' arrays and exon arrays and Human Transcriptome Array 2.0\)
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/puma.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/puma.html
    :license: LGPL
    :recipe: /`bioconductor-puma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-puma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-puma/meta.yaml>`_
    :links: biotools: :biotools:`puma`

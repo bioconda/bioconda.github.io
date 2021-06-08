@@ -12,7 +12,7 @@ bioconductor-michip
 
    MiChip Parsing and Summarizing Functions
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MiChip.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MiChip.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-michip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-michip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-michip/meta.yaml>`_
    :links: biotools: :biotools:`michip`, doi: :doi:`10.1038/nmeth.3252`

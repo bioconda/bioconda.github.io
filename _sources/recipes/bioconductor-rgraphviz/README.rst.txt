@@ -12,7 +12,7 @@ bioconductor-rgraphviz
 
    Provides plotting capabilities for R graph objects
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Rgraphviz.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Rgraphviz.html
    :license: EPL
    :recipe: /`bioconductor-rgraphviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraphviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraphviz/meta.yaml>`_
 

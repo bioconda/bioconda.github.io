@@ -12,7 +12,7 @@ bioconductor-ripat
 
    Retroviral Integration Pattern Analysis Tool \(RIPAT\)
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/RIPAT.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RIPAT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ripat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ripat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ripat/meta.yaml>`_
 

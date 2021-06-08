@@ -63,9 +63,9 @@ gimmemotifs
    :depends prosampler: 
    :depends pyarrow: ``>=0.16.0``
    :depends pybedtools: 
-   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python: ``>=3.6,<3.7.0a0``
    :depends python-xxhash: 
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends pyyaml: ``>=3.10``
    :depends qnorm: ``>=0.5``
    :depends scikit-learn: ``>=0.23.2``

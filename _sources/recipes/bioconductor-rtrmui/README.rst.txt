@@ -12,7 +12,7 @@ bioconductor-rtrmui
 
    A shiny user interface for rTRM
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/rTRMui.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rTRMui.html
    :license: GPL-3
    :recipe: /`bioconductor-rtrmui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrmui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrmui/meta.yaml>`_
    :links: biotools: :biotools:`rtrmui`, doi: :doi:`10.1038/nmeth.3252`

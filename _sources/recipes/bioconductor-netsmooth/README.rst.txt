@@ -12,7 +12,7 @@ bioconductor-netsmooth
 
    Network smoothing for scRNAseq
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/netSmooth.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/netSmooth.html
    :license: GPL-3
    :recipe: /`bioconductor-netsmooth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netsmooth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netsmooth/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-osat
 
    OSAT\: Optimal Sample Assignment Tool
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/OSAT.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/OSAT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-osat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-osat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-osat/meta.yaml>`_
    :links: biotools: :biotools:`osat`, doi: :doi:`10.1186/1471-2164-13-689`

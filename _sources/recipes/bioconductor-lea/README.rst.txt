@@ -12,11 +12,11 @@ bioconductor-lea
 
    LEA\: an R package for Landscape and Ecological Association Studies
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/LEA.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/LEA.html
    :license: GPL-3
    :recipe: /`bioconductor-lea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lea/meta.yaml>`_
 
-   LEA is an R package dedicated to population genomics\, landscape genomics and ecological association tests. LEA can run analyses of population structure and genomewide tests for local adaptation. The package includes statistical methods for estimating ancestry coefficients from large genotypic matrices and for evaluating the number of ancestral populations \(snmf\, pca\). It performs statistical tests using latent factor mixed models for identifying genetic polymorphisms that exhibit association with environmental gradients or phenotypic traits \(lfmm and lfmm2\). LEA is mainly based on optimized programs that can scale with the dimension of large data sets.
+   LEA is an R package dedicated to population genomics\, landscape genomics and genotype\-environment association tests. LEA can run analyses of population structure and genome\-wide tests for local adaptation. The package includes statistical methods for estimating ancestry coefficients from large genotypic matrices and for evaluating the number of ancestral populations \(snmf\, pca\). It performs statistical tests using latent factor mixed models for identifying genetic polymorphisms that exhibit association with environmental gradients or phenotypic traits \(lfmm and lfmm2\). \{\\tt LEA\} also performs imputation of missing genotypes\, and computes predictive values of genetic offsets based on new or future environments. The package includes factor methods for estimating ancestry coefficients from large genotypic matrices and for evaluating the number of ancestral populations \(snmf\, pca\). It implements latent factor mixed models for identifying LEA is mainly based on optimized programs that can scale with the dimension of large data sets.
 
 
 .. conda:package:: bioconductor-lea

@@ -12,7 +12,7 @@ bioconductor-damefinder
 
    Finds DAMEs \- Differential Allelicly MEthylated regions
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/DAMEfinder.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DAMEfinder.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-damefinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-damefinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-damefinder/meta.yaml>`_
 

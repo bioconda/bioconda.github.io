@@ -12,7 +12,7 @@ bioconductor-methylumi
 
    Handle Illumina methylation data
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/methylumi.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/methylumi.html
    :license: GPL-2
    :recipe: /`bioconductor-methylumi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylumi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylumi/meta.yaml>`_
    :links: biotools: :biotools:`methylumi`, doi: :doi:`10.1186/1471-2164-14-293`

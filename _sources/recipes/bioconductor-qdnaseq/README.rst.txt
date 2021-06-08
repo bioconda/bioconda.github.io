@@ -12,7 +12,7 @@ bioconductor-qdnaseq
 
    Quantitative DNA Sequencing for Chromosomal Aberrations
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/QDNAseq.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/QDNAseq.html
    :license: GPL
    :recipe: /`bioconductor-qdnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qdnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qdnaseq/meta.yaml>`_
    :links: biotools: :biotools:`qdnaseq`

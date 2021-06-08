@@ -12,7 +12,7 @@ bioconductor-flowcatchr
 
    Tools to analyze in vivo microscopy imaging data focused on tracking flowing blood cells
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/flowcatchR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/flowcatchR.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-flowcatchr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcatchr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcatchr/meta.yaml>`_
 

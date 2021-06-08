@@ -12,7 +12,7 @@ bioconductor-omixer
 
    Randomize Samples for \-omics Profiling
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/Omixer.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Omixer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omixer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omixer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omixer/meta.yaml>`_
 

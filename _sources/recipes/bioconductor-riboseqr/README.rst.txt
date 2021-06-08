@@ -12,7 +12,7 @@ bioconductor-riboseqr
 
    Analysis of sequencing data from ribosome profiling experiments
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/riboSeqR.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/riboSeqR.html
    :license: GPL-3
    :recipe: /`bioconductor-riboseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboseqr/meta.yaml>`_
    :links: biotools: :biotools:`riboseqr`, doi: :doi:`10.1080/15476286.2016.1141862`

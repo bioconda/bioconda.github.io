@@ -12,7 +12,7 @@ bioconductor-pd.rg.u34a
 
    Platform Design Info for The Manufacturer\'s Name RG\_U34A
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/pd.rg.u34a.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/pd.rg.u34a.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.rg.u34a <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rg.u34a>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rg.u34a/meta.yaml>`_
 

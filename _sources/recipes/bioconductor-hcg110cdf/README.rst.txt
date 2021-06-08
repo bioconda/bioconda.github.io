@@ -12,7 +12,7 @@ bioconductor-hcg110cdf
 
    hcg110cdf
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/hcg110cdf.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hcg110cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hcg110cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcg110cdf/meta.yaml>`_
 

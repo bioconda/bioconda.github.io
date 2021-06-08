@@ -12,7 +12,7 @@ bioconductor-vulcandata
 
    VirtUaL ChIP\-Seq data Analysis using Networks\, dummy dataset
 
-   :homepage: https://bioconductor.org/packages/3.12/data/experiment/html/vulcandata.html
+   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/vulcandata.html
    :license: LGPL-3
    :recipe: /`bioconductor-vulcandata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcandata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcandata/meta.yaml>`_
 

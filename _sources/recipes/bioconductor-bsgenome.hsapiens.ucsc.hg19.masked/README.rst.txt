@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19.masked
 
    Full masked genome sequences for Homo sapiens \(UCSC version hg19\, based on GRCh37.p13\)
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.masked.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg19.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg19.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg19.masked/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-grridge
 
    Better prediction by use of co\-data\: Adaptive group\-regularized ridge regression
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/GRridge.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GRridge.html
    :license: GPL-3
    :recipe: /`bioconductor-grridge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grridge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grridge/meta.yaml>`_
 

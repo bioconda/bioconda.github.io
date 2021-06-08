@@ -12,7 +12,7 @@ bioconductor-mogene.1.0.st.v1frmavecs
 
    Vectors used by frma for microarrays of type mogene.1.0.st.v1frmavecs
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/mogene.1.0.st.v1frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/mogene.1.0.st.v1frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mogene.1.0.st.v1frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene.1.0.st.v1frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene.1.0.st.v1frmavecs/meta.yaml>`_
 

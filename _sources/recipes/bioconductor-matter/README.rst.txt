@@ -12,7 +12,7 @@ bioconductor-matter
 
    A framework for rapid prototyping with file\-based data structures
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/matter.html
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/matter.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-matter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matter/meta.yaml>`_
    :links: biotools: :biotools:`matter`, doi: :doi:`10.1038/nmeth.3252`

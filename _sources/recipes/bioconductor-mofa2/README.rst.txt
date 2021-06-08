@@ -12,11 +12,11 @@ bioconductor-mofa2
 
    Multi\-Omics Factor Analysis v2
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/MOFA2.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MOFA2.html
+   :license: GPL (>= 2) + file LICENSE
    :recipe: /`bioconductor-mofa2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofa2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mofa2/meta.yaml>`_
 
-   The MOFA2 package contains a collection of tools for running and analysing MOFA models.
+   The MOFA2 package contains a collection of tools for training and analysing multi\-omic factor analysis \(MOFA\). MOFA is a probabilistic factor model that aims to identify principal axes of variation from data sets that can comprise multiple omic layers and\/or groups of samples. Additional time or space information on the samples can be incorporated using the MEFISTO framework\, which is part of MOFA2. Downstream analysis functions to inspect molecular features underlying each factor\, vizualisation\, imputation etc are available.
 
 
 .. conda:package:: bioconductor-mofa2

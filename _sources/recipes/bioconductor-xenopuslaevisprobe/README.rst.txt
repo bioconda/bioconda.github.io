@@ -12,7 +12,7 @@ bioconductor-xenopuslaevisprobe
 
    Probe sequence data for microarrays of type xenopuslaevis
 
-   :homepage: https://bioconductor.org/packages/3.12/data/annotation/html/xenopuslaevisprobe.html
+   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/xenopuslaevisprobe.html
    :license: LGPL
    :recipe: /`bioconductor-xenopuslaevisprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xenopuslaevisprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xenopuslaevisprobe/meta.yaml>`_
 
