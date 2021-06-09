@@ -29,10 +29,10 @@ r-pipette
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.15-2</code>,  <code>0.5.15-1</code>,  <code>0.5.15-0</code>,  <code>0.5.14-2</code>,  <code>0.5.14-0</code>,  <code>0.4.22-1</code>,  <code>0.4.22-0</code>,  <code>0.4.20-0</code>,  <code>0.4.19-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.15-2</code>,  <code>0.5.15-1</code>,  <code>0.5.15-0</code>,  <code>0.5.14-2</code>,  <code>0.5.14-0</code>,  <code>0.4.22-1</code>,  <code>0.4.22-0</code>,  <code>0.4.20-0</code>,  </span></summary>
       
 
-      ``0.5.15-2``,  ``0.5.15-1``,  ``0.5.15-0``,  ``0.5.14-2``,  ``0.5.14-0``,  ``0.4.22-1``,  ``0.4.22-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.6.0-0``,  ``0.5.15-2``,  ``0.5.15-1``,  ``0.5.15-0``,  ``0.5.14-2``,  ``0.5.14-0``,  ``0.4.22-1``,  ``0.4.22-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -46,25 +46,25 @@ r-pipette
    :depends bioconductor-iranges: ``>=2.24``
    :depends bioconductor-rtracklayer: ``>=1.50``
    :depends r-acidbase: ``>=0.3.13``
-   :depends r-acidcli: ``>=0.1.0``
+   :depends r-acidcli: ``>=0.1.1``
    :depends r-acidgenerics: ``>=0.5.17``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: ``>=1.14.0``
    :depends r-digest: ``>=0.6.27``
    :depends r-goalie: ``>=0.5.1``
    :depends r-httr: ``>=1.4.2``
-   :depends r-jsonlite: ``>=1.7``
+   :depends r-jsonlite: ``>=1.7.2``
    :depends r-matrix: ``>=1.3``
-   :depends r-rappdirs: ``>=0.3.3``
    :depends r-rcurl: ``>=1.98``
    :depends r-readr: ``>=1.4.0``
    :depends r-readxl: ``>=1.3.1``
    :depends r-rio: ``>=0.5.26``
+   :depends r-stringi: ``>=1.6.2``
    :depends r-stringr: ``>=1.4``
-   :depends r-syntactic: ``>=0.4.4``
-   :depends r-tibble: ``>=3.1.0``
+   :depends r-syntactic: ``>=0.4.5``
+   :depends r-tibble: ``>=3.1.2``
    :depends r-vroom: ``>=1.4.0``
-   :depends r-yaml: ``>=2.2``
+   :depends r-yaml: ``>=2.2.1``
    :requirements:
 
    .. rubric:: Installation

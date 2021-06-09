@@ -12,7 +12,7 @@ isoplot
 
    Generate figures from Isocor output
 
-   :homepage: https://github.com/LoloPopoPy/Isoplot
+   :homepage: https://github.com/llegregam/Isoplot
    :documentation: https://isoplot.readthedocs.io/
    
    :license: GPL3 / GNU General Public v3 or later (GPLv3+)
@@ -29,7 +29,7 @@ isoplot
       
       
 
-      ``1.2.2-0``,  ``1.2.1-0``,  ``1.0.5-0``
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.0.5-0``
 
       
 

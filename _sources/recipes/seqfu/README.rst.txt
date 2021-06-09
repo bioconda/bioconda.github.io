@@ -13,9 +13,9 @@ seqfu
    DNA sequence utilities
 
    :homepage: https://github.com/telatin/seqfu2/
-   :license: mit
+   :license: GPL-3.0-only
    :recipe: /`seqfu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqfu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqfu/meta.yaml>`_
-   :links: biotools: :biotools:`seqfu`
+   :links: biotools: :biotools:`seqfu`, doi: :doi:`10.3390/bioengineering8050059`
 
    A collection of utilities to work with FASTX \(FASTA or FASTQ\) files
    that accept gzipped input.

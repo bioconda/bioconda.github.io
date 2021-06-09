@@ -27,33 +27,33 @@ bioconductor-appreci8r
       
       
 
-      ``1.8.0-1``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-cosmic.67: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomicfeatures: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicscores: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-cosmic.67: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-genomicscores: ``>=2.4.0,<2.5.0``
    :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-iranges: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
    :depends bioconductor-mafdb.1kgenomes.phase3.hs37d5: ``>=3.10.0,<3.11.0``
    :depends bioconductor-mafdb.exac.r1.0.hs37d5: ``>=3.10.0,<3.11.0``
    :depends bioconductor-mafdb.gnomadex.r2.1.hs37d5: ``>=3.10.0,<3.11.0``
    :depends bioconductor-polyphen.hsapiens.dbsnp131: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
+   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
    :depends bioconductor-sift.hsapiens.dbsnp137: ``>=1.0.0,<1.1.0``
    :depends bioconductor-snplocs.hsapiens.dbsnp144.grch37: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-variantannotation: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
    :depends bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37: ``>=0.99.0,<0.100.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dt: 
    :depends r-openxlsx: 
    :depends r-rentrez: 
