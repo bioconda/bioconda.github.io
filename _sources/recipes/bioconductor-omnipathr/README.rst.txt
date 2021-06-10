@@ -27,17 +27,34 @@ bioconductor-omnipathr
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-checkmate: 
+   :depends r-curl: 
+   :depends r-digest: 
    :depends r-dplyr: 
+   :depends r-httr: 
    :depends r-igraph: 
    :depends r-jsonlite: 
+   :depends r-later: 
+   :depends r-logger: 
+   :depends r-magrittr: 
+   :depends r-progress: 
+   :depends r-purrr: 
+   :depends r-rappdirs: 
+   :depends r-readr: 
+   :depends r-readxl: 
    :depends r-rlang: 
+   :depends r-stringr: 
+   :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-tidyselect: 
+   :depends r-xml2: 
+   :depends r-yaml: 
    :requirements:
 
    .. rubric:: Installation

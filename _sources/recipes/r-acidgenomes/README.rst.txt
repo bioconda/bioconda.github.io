@@ -28,27 +28,27 @@ r-acidgenomes
       
       
 
-      ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.13-0``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52``
-   :depends bioconductor-annotationhub: ``>=2.22``
-   :depends bioconductor-biomart: ``>=2.46``
-   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99``
-   :depends bioconductor-ensembldb: ``>=2.14``
-   :depends bioconductor-genomeinfodb: ``>=1.26``
-   :depends bioconductor-genomicfeatures: ``>=1.42``
+   :depends bioconductor-annotationdbi: ``>=1.52.0``
+   :depends bioconductor-annotationhub: ``>=2.22.0``
+   :depends bioconductor-biomart: ``>=2.46.0``
+   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0``
+   :depends bioconductor-ensembldb: ``>=2.14.0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.0``
+   :depends bioconductor-genomicfeatures: ``>=1.42.0``
    :depends r-acidbase: ``>=0.3.13``
    :depends r-acidcli: ``>=0.1.1``
    :depends r-acidgenerics: ``>=0.5.17``
-   :depends r-acidplyr: ``>=0.1.17``
+   :depends r-acidplyr: ``>=0.1.20``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-goalie: ``>=0.5.1``
-   :depends r-httr: ``>=1.4``
-   :depends r-pipette: ``>=0.5.14``
-   :depends r-stringr: ``>=1.4``
+   :depends r-httr: ``>=1.4.0``
+   :depends r-pipette: ``>=0.5.18``
+   :depends r-stringr: ``>=1.4.0``
    :depends r-syntactic: ``>=0.4.5``
    :requirements:
 

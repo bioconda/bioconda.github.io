@@ -27,11 +27,24 @@ bioconductor-wppi
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-omnipathr: ``>=3.0.0,<3.1.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-dplyr: 
+   :depends r-igraph: 
+   :depends r-logger: 
+   :depends r-magrittr: 
+   :depends r-matrix: 
+   :depends r-progress: 
+   :depends r-purrr: 
+   :depends r-rcurl: 
+   :depends r-rlang: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation

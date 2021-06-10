@@ -28,7 +28,7 @@ r-acidexperiment
       
       
 
-      ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
+      ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
 
@@ -36,18 +36,18 @@ r-acidexperiment
    :depends bioconductor-biostrings: ``>=2.58``
    :depends bioconductor-summarizedexperiment: ``>=1.20``
    :depends r-acidbase: ``>=0.3.13``
-   :depends r-acidcli: ``>=0.1.0``
+   :depends r-acidcli: ``>=0.1.1``
    :depends r-acidgenerics: ``>=0.5.17``
-   :depends r-acidgenomes: ``>=0.2.9``
-   :depends r-acidplyr: ``>=0.1.16``
+   :depends r-acidgenomes: ``>=0.2.13``
+   :depends r-acidplyr: ``>=0.1.20``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-goalie: ``>=0.5.1``
    :depends r-matrix: ``>=1.3``
-   :depends r-pipette: ``>=0.5.13``
-   :depends r-scales: ``>=1.1``
+   :depends r-pipette: ``>=0.6.0``
+   :depends r-scales: ``>=1.1.1``
    :depends r-sessioninfo: ``>=1.1``
    :depends r-stringr: ``>=1.4``
-   :depends r-syntactic: ``>=0.4.4``
+   :depends r-syntactic: ``>=0.4.5``
    :requirements:
 
    .. rubric:: Installation

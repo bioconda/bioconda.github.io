@@ -27,24 +27,24 @@ bioconductor-trena
       
       
 
-      ``1.11.6-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.2-0``
+      ``1.14.0-0``,  ``1.11.6-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.2-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-biomart: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-biostrings: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-bsgenome: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.mmusculus.ucsc.mm10: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-genomicranges: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-motifdb: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-motifdb: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
    :depends bioconductor-snplocs.hsapiens.dbsnp150.grch38: ``>=0.99.0,<0.100.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-glmnet: ``>=2.0.3``
    :depends r-lassopv: 
