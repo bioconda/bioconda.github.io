@@ -29,7 +29,7 @@ fuc
       
       
 
-      ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``
+      ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``
 
       
 
@@ -37,6 +37,7 @@ fuc
    :depends biopython: 
    :depends lxml: 
    :depends matplotlib-base: 
+   :depends matplotlib-venn: 
    :depends numpy: 
    :depends pandas: 
    :depends pyranges: 

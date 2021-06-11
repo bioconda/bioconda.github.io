@@ -29,19 +29,23 @@ eukcc
       
       
 
-      ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
+      ``2.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
 
       
 
    
+   :depends bwa: 
    :depends configargparse: 
+   :depends epa-ng: ``0.3.8.*``
    :depends ete3: 
-   :depends hmmer: ``>=3.2``
-   :depends pplacer: 
-   :depends pyfaidx: 
-   :depends pygmes: 
+   :depends hmmer: ``3.3.*``
+   :depends jsonpickle: 
+   :depends metaeuk: ``4.a0f584d.*``
+   :depends numpy: 
+   :depends pysam: 
+   :depends python: 
    :depends python: ``>=3.6``
-   :depends pyyaml: 
+   :depends samtools: ``>=1.12``
    :requirements:
 
    .. rubric:: Installation

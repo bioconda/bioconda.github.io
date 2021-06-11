@@ -27,14 +27,14 @@ raiss
       
       
 
-      ``2.0-0``,  ``1.0-0``
+      ``3.0-0``,  ``2.0-0``,  ``1.0-0``
 
       
 
    
    :depends joblib: 
    :depends pandas: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.6``
    :depends scipy: 
    :requirements:
 
