@@ -13,7 +13,7 @@ r-jackstraw
    Test for association between the observed data and their systematic patterns of variations. Systematic patterns may be captured by latent variables using principal component analysis \(PCA\)\, factor analysis \(FA\)\, and related methods. The jackstraw enables statistical testing for association between observed variables and latent variables\, as captured by PCs or other estimates. Similarly\, unsupervised clustering\, such as K\-means clustering\, partition around medoids \(PAM\)\, and others\, finds subpopulations among the observed variables. The jackstraw estimates statistical significance of cluster membership\, including unsupervised evaluation of cell identities in single cell RNA\-seq. P\-values and posterior probabilities allows one to rigorously evaluate the strength of cluster membership assignments.
 
    :homepage: https://CRAN.R-project.org/package=jackstraw
-   :license: GPL2 / GPL-2
+   :license: GPL2 / GPL-2.0-only
    :recipe: /`r-jackstraw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-jackstraw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-jackstraw/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-jackstraw
       
       
 
-      ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+      ``1.3.1-0``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
 
       
 

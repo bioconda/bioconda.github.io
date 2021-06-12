@@ -43,15 +43,15 @@ scanpy
 
    
    :depends anndata: ``>=0.7.4``
-   :depends h5py: ``>=2.10.0``
-   :depends importlib_metadata: ``>=0.7``
+   :depends h5py: ``>=2.10``
+   :depends importlib_metadata: 
    :depends joblib: 
    :depends legacy-api-wrap: 
    :depends matplotlib-base: ``>=3.1.2``
    :depends natsort: 
    :depends networkx: ``>=2.3``
-   :depends numba: ``>=0.41.0``
-   :depends numpy: ``>=1.17.0``
+   :depends numba: ``>=0.41``
+   :depends numpy: ``>=1.17``
    :depends packaging: 
    :depends pandas: ``>=0.21``
    :depends patsy: 
@@ -60,9 +60,8 @@ scanpy
    :depends scikit-learn: ``>=0.21.2``
    :depends scipy: ``>=1.4``
    :depends seaborn: 
-   :depends setuptools_scm: 
    :depends sinfo: 
-   :depends statsmodels: ``>=0.10.0rc2``
+   :depends statsmodels: ``>=0.10``
    :depends tqdm: 
    :depends umap-learn: ``>=0.3.10``
    :requirements:
