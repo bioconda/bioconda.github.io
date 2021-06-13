@@ -30,10 +30,10 @@ bttoxin_digger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
       
 
-      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -42,13 +42,21 @@ bttoxin_digger
       
 
    
+   :depends abyss: 
    :depends blast: 
+   :depends bwa: 
+   :depends canu: 
+   :depends fastp: 
    :depends hmmer: 
    :depends libsvm: 
+   :depends perl-bioperl: ``>=1.7.2``
    :depends perl-file-tee: 
    :depends perl-getopt-long: 
+   :depends perl-list-util: 
    :depends perl-pod-usage: 
-   :depends pgcgap: ``>=1.0.24``
+   :depends racon: 
+   :depends spades: ``>=3.6.2,<=3.13.0``
+   :depends unicycler: ``0.4.7.*``
    :requirements:
 
    .. rubric:: Installation
