@@ -28,10 +28,10 @@ sdm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.86-0</code>,  <code>1.85-0</code>,  <code>1.84.1-0</code>,  <code>1.84-0</code>,  <code>1.83post0-0</code>,  <code>1.83-0</code>,  <code>1.73-2</code>,  <code>1.73-1</code>,  <code>1.73-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.87-0</code>,  <code>1.86-0</code>,  <code>1.85-0</code>,  <code>1.84.1-0</code>,  <code>1.84-0</code>,  <code>1.83post0-0</code>,  <code>1.83-0</code>,  <code>1.73-2</code>,  <code>1.73-1</code>,  </span></summary>
       
 
-      ``1.86-0``,  ``1.85-0``,  ``1.84.1-0``,  ``1.84-0``,  ``1.83post0-0``,  ``1.83-0``,  ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.47-0``
+      ``1.87-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84.1-0``,  ``1.84-0``,  ``1.83post0-0``,  ``1.83-0``,  ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.47-0``
 
       
       .. raw:: html

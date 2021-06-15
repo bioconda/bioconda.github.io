@@ -13,7 +13,7 @@ mindthegap
    MindTheGap performs detection and assembly of DNA insertion variants in NGS read datasets with respect to a reference genome. MindTheGap can also be used as a genome assembly finishing tool\, it can fill the gaps between a set of input contigs without any a priori on their relative order and orientation.
 
    :homepage: https://github.com/GATB/mindthegap
-   :license: file
+   :license: AGPL-3.0-or-later
    :recipe: /`mindthegap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mindthegap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mindthegap/meta.yaml>`_
    :links: biotools: :biotools:`mindthegap`, doi: :doi:`10.1093/bioinformatics/btu545`
 
@@ -28,7 +28,7 @@ mindthegap
       
       
 
-      ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``
+      ``2.2.3-0``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``
 
       
 
