@@ -10,7 +10,7 @@ easel
    :replaces_section_title:
    :noindex:
 
-   Easel is an ANSI C code library developed by the Eddy\/Rivas laboratory at Harvard for computational analysis of biological sequences using probabilistic models.
+   Easel is an ANSI C code library for computational analysis of biological sequences using probabilistic models.
 
    :homepage: https://github.com/EddyRivasLab/easel
    :license: BSD / BSD
@@ -27,12 +27,12 @@ easel
       
       
 
-      ``0.47-0``,  ``0.45-1``,  ``0.45-0``
+      ``0.48-0``,  ``0.47-0``,  ``0.45-1``,  ``0.45-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
