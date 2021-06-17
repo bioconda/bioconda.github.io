@@ -28,13 +28,13 @@ r-recetox-aplcms
       
       
 
-      ``0-0``
+      ``0.9.2-0``,  ``0-0``
 
       
 
    
    :depends bioconductor-mzr: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-doparallel: 
    :depends r-e1071: 
    :depends r-foreach: 

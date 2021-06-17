@@ -27,7 +27,7 @@ midas
       
       
 
-      ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``
+      ``1.3.2-5``,  ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
 
@@ -70,6 +70,10 @@ midas
 
 
 
+
+Notes
+-----
+MIDAS requires reference database that needs to be additionally downloaded and set\, https\:\/\/github.com\/snayfach\/MIDAS\/blob\/master\/docs\/ref\_db.md.
 
 
 Link to this page

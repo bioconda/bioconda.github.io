@@ -28,10 +28,10 @@ metaquantome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0a0-3</code>,  <code>0.99.5-3</code>,  <code>0.99.4a0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0a0-3</code>,  <code>0.99.5-3</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0a0-3``,  ``0.99.5-3``,  ``0.99.4a0-3``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.2-2``,  ``0.99.2-0``
+      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0a0-3``,  ``0.99.5-3``,  ``0.99.4a0-3``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.2-2``,  ``0.99.2-0``
 
       
       .. raw:: html
