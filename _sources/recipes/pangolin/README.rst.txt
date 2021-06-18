@@ -29,10 +29,10 @@ pangolin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.5-0</code>,  <code>3.0.3-0</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4-0</code>,  <code>2.3.8-0</code>,  <code>2.3.6-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.0.5-0</code>,  <code>3.0.3-0</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4-0</code>,  <code>2.3.8-0</code>,  <code>2.3.6-0</code>,  </span></summary>
       
 
-      ``3.0.5-0``,  ``3.0.3-0``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4-0``,  ``2.3.8-0``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.7-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.11-0``,  ``1.1.5-0``,  ``1.1-0``
+      ``3.1.3-0``,  ``3.1.2-0``,  ``3.0.5-0``,  ``3.0.3-0``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4-0``,  ``2.3.8-0``,  ``2.3.6-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.7-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.11-0``,  ``1.1.5-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -42,11 +42,12 @@ pangolin
 
    
    :depends biopython: ``1.74``
-   :depends constellations: ``>=0.0.2``
+   :depends constellations: ``>=0.0.5``
    :depends gofasta: 
    :depends joblib: ``>=0.11``
    :depends minimap2: ``>=2.16``
    :depends pandas: ``>=1.0.1``
+   :depends pango-designation: ``>=1.2.14``
    :depends pangolearn: ``>=2021.05.27``
    :depends pulp: ``>=2``
    :depends pysam: ``>=0.16.0``

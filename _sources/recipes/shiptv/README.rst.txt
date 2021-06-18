@@ -27,18 +27,19 @@ shiptv
       
       
 
-      ``0.4.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``
 
       
 
    
    :depends biopython: 
+   :depends click: 
    :depends jinja2: 
    :depends pandas: 
    :depends python: 
    :depends requests: 
    :depends rich: 
-   :depends typer: 
+   :depends typer: ``>=0.3.2``
    :requirements:
 
    .. rubric:: Installation

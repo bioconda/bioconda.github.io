@@ -10,9 +10,9 @@ odgi
    :replaces_section_title:
    :noindex:
 
-   An optimized dynamic genome graph implementation
+   An optimized dynamic genome\/graph implementation
 
-   :homepage: https://github.com/vgteam/odgi
+   :homepage: https://github.com/pangenome/odgi
    :license: MIT
    :recipe: /`odgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/odgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/odgi/meta.yaml>`_
 
@@ -27,11 +27,12 @@ odgi
       
       
 
-      ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
+      ``0.6-1``,  ``0.6-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
 
       
 
    
+   :depends jemalloc: ``>=5.2.1``
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends python: ``>=3.6,<3.7.0a0``
