@@ -26,9 +26,17 @@ r-mixkernel
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6-0``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.7-0</code>,  <code>0.6-0</code>,  <code>0.5-2</code>,  <code>0.5-1</code>,  <code>0.5-0</code>,  <code>0.4-2</code>,  <code>0.4-1</code>,  <code>0.4-0</code>,  <code>0.3-1</code>,  </span></summary>
+      
 
+      ``0.7-0``,  ``0.6-0``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
