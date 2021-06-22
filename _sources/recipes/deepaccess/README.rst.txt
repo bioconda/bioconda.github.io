@@ -13,6 +13,8 @@ deepaccess
    A package for training and interpreting an ensemble of neural networks for chromatin accessibility
 
    :homepage: https://github.com/gifford-lab/deepaccess-package
+   :documentation: https://pypi.org/project/deepaccess/
+   
    :license: MIT / MIT
    :recipe: /`deepaccess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepaccess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepaccess/meta.yaml>`_
    :links: doi: :doi:`10.1101/2021.02.26.433073`
@@ -28,7 +30,7 @@ deepaccess
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
