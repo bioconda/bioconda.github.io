@@ -27,22 +27,18 @@ phylics
       
       
 
-      ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends anndata: ``>=0.7.5``
-   :depends hdbscan: ``>=0.8.26``
    :depends ipython: ``>=7.19.0``
    :depends joblib: ``>=1.0.0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
    :depends matplotlib-base: ``>=3.3.1``
    :depends numpy: ``>=1.19.5``
    :depends pandas: ``>=1.1.3``
-   :depends python: ``>=3.7,<3.8.0a0``
-   :depends python_abi: ``3.7.* *_cp37m``
+   :depends python: ``>=3.7,<3.9``
    :depends scikit-learn: ``>=0.24``
    :depends scipy: ``>=1.6.0``
    :depends seaborn: ``>=0.11.1``

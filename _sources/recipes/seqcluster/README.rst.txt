@@ -29,10 +29,10 @@ seqcluster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.4a15-1</code>,  <code>1.2.4a15-0</code>,  <code>1.2.4a14-2</code>,  <code>1.2.4a14-1</code>,  <code>1.2.4a14-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.8-0</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.4a15-1</code>,  <code>1.2.4a15-0</code>,  <code>1.2.4a14-2</code>,  <code>1.2.4a14-1</code>,  </span></summary>
       
 
-      ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.4a15-1``,  ``1.2.4a15-0``,  ``1.2.4a14-2``,  ``1.2.4a14-1``,  ``1.2.4a14-0``,  ``1.2.4a12-1``,  ``1.2.4a12-0``,  ``1.2.4a6-0``,  ``1.2.4a5-0``,  ``1.2.4a-6``,  ``1.2.4a-5``,  ``1.2.4a-4``,  ``1.2.4a-2``,  ``1.2.4a-1``,  ``1.2.4a-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.14-0``,  ``1.1.13-3``,  ``1.1.13-2``,  ``1.1.13-1``,  ``1.1.13-0``
+      ``1.2.8-0``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.4a15-1``,  ``1.2.4a15-0``,  ``1.2.4a14-2``,  ``1.2.4a14-1``,  ``1.2.4a14-0``,  ``1.2.4a12-1``,  ``1.2.4a12-0``,  ``1.2.4a6-0``,  ``1.2.4a5-0``,  ``1.2.4a-6``,  ``1.2.4a-5``,  ``1.2.4a-4``,  ``1.2.4a-2``,  ``1.2.4a-1``,  ``1.2.4a-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.14-0``,  ``1.1.13-3``,  ``1.1.13-2``,  ``1.1.13-1``,  ``1.1.13-0``
 
       
       .. raw:: html
@@ -42,11 +42,11 @@ seqcluster
 
    
    :depends biopython: 
-   :depends mirtop: ``>=0.4.17a``
+   :depends mirtop: 
    :depends pandas: 
    :depends progressbar2: 
    :depends pybedtools: 
-   :depends pysam: ``>=0.8.1``
+   :depends pysam: 
    :depends python: 
    :depends pyyaml: 
    :depends scipy: 
