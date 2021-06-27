@@ -27,12 +27,13 @@ ffq
       
       
 
-      ``0.0.3-0``
+      ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
    :depends beautifulsoup4: ``>=4.8.2``
+   :depends frozendict: 
    :depends lxml: ``>=4.5.0``
    :depends python: ``>=3``
    :depends requests: ``>=2.23.0``

@@ -15,6 +15,7 @@ checkv
    :homepage: https://bitbucket.org/berkeleylab/checkv
    :license: BSD / Modified BSD
    :recipe: /`checkv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkv/meta.yaml>`_
+   :links: biotools: :biotools:`checkv`, doi: :doi:`10.1038/s41587-020-00774-7`
 
    
 
@@ -28,10 +29,10 @@ checkv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  </span></summary>
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,7 +43,7 @@ checkv
    
    :depends biopython: 
    :depends blast: 
-   :depends diamond: 
+   :depends diamond: ``2.0.9``
    :depends hmmer: 
    :depends importlib-metadata: ``>=0.12``
    :depends kcounter: 
