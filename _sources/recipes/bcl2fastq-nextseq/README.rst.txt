@@ -27,16 +27,16 @@ bcl2fastq-nextseq
       
       
 
-      ``1.2.6-0``,  ``1.2.4-3``,  ``1.2.4-2``,  ``1.2.4-0``,  ``0.1.0-0``
+      ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.4-3``,  ``1.2.4-2``,  ``1.2.4-0``,  ``0.1.0-0``
 
       
 
    
    :depends click: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``<3``
+   :depends python: 
    :depends seaborn: 
    :requirements:
 

@@ -27,35 +27,26 @@ r-sigminer
       
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.1-0``
+      ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.1-0``
 
       
 
    
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
    :depends bioconductor-maftools: 
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-cli: 
-   :depends r-cluster: 
+   :depends r-cli: ``>=2.0.0``
    :depends r-cowplot: 
    :depends r-data.table: 
-   :depends r-digest: 
-   :depends r-dofuture: 
    :depends r-dplyr: 
-   :depends r-foreach: 
-   :depends r-furrr: 
+   :depends r-furrr: ``>=0.2.0``
    :depends r-future: 
-   :depends r-ggplot2: 
+   :depends r-ggplot2: ``>=3.3.0``
    :depends r-ggpubr: 
    :depends r-magrittr: 
    :depends r-nmf: 
    :depends r-purrr: 
-   :depends r-r.utils: 
-   :depends r-rcolorbrewer: 
    :depends r-rcpp: 
-   :depends r-reticulate: 
-   :depends r-rlang: 
-   :depends r-scales: 
+   :depends r-rlang: ``>=0.1.2``
    :depends r-tidyr: 
    :requirements:
 

@@ -27,12 +27,11 @@ r-metacoder
       
       
 
-      ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``0.3.5-0``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
    
-   :depends bioconductor-biomformat: 
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-ape: 
@@ -43,29 +42,19 @@ r-metacoder
    :depends r-ga: 
    :depends r-ggfittext: 
    :depends r-ggplot2: 
-   :depends r-ggrepel: 
    :depends r-igraph: 
    :depends r-lazyeval: 
    :depends r-magrittr: 
-   :depends r-phylotate: 
-   :depends r-rcolorbrewer: 
+   :depends r-r6: 
    :depends r-rcpp: 
    :depends r-rcurl: 
    :depends r-readr: 
-   :depends r-reshape: 
-   :depends r-reshape2: 
    :depends r-rlang: 
-   :depends r-scales: 
    :depends r-seqinr: 
    :depends r-stringr: 
-   :depends r-svglite: 
-   :depends r-taxa: 
    :depends r-taxize: 
    :depends r-tibble: 
-   :depends r-traits: 
    :depends r-vegan: 
-   :depends r-viridislite: 
-   :depends r-zoo: 
    :requirements:
 
    .. rubric:: Installation

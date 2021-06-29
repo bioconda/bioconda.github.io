@@ -32,13 +32,13 @@ biobb_vs
       
       
 
-      ``3.5.1-0``,  ``3.5.0-0``
+      ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``
 
       
 
    
    :depends autodock-vina: ``1.1.2``
-   :depends biobb_common: ``3.5.1``
+   :depends biobb_common: ``3.6.0``
    :depends biopython: 
    :depends fpocket: ``3.1.4.2``
    :depends python: ``3.7.*``
