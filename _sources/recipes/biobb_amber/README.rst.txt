@@ -32,13 +32,14 @@ biobb_amber
       
       
 
-      ``3.5.0-0``
+      ``3.6.0-0``,  ``3.5.0-0``
 
       
 
    
    :depends ambertools: ``20.0``
-   :depends biobb_common: ``3.5.1``
+   :depends biobb_common: ``3.6.0``
+   :depends gfortran_linux-64: ``7.2.0``
    :depends python: ``3.7.*``
    :requirements:
 

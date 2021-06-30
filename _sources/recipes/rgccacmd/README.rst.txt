@@ -15,7 +15,7 @@ rgccacmd
    :homepage: https://CRAN.R-project.org/package=RGCCA
    :documentation: https://github.com/ecamenen/rgcca-conda/blob/master/README.md
    
-   :license: GPL3 / GPL (>= 2)
+   :license: GPL3 / GPL-2.0-or-later
    :recipe: /`rgccacmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgccacmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgccacmd/meta.yaml>`_
 
    
@@ -29,12 +29,12 @@ rgccacmd
       
       
 
-      ``3.0.0-1``,  ``3.0.0-0``
+      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-deriv: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -43,6 +43,8 @@ rgccacmd
    :depends r-mass: 
    :depends r-openxlsx: 
    :depends r-optparse: 
+   :depends r-pbapply: 
+   :depends r-plotly: 
    :depends r-rlang: 
    :depends r-scales: 
    :depends r-vegan: 

@@ -27,17 +27,19 @@ ngsderive
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.2.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends colorlog: 
+   :depends colorlog: ``>=4.0.2``
+   :depends gtfparse: ``>=1.2.1``
    :depends poetry: 
    :depends pysam: ``0.15.3.*``
-   :depends pytabix: 
+   :depends pytabix: ``>=0.1``
    :depends python: ``>=3.7``
-   :depends rstr: ``2.2.6.*``
+   :depends rstr: ``>=2.2.6``
+   :depends sortedcontainers: ``>=2.3.0``
    :requirements:
 
    .. rubric:: Installation

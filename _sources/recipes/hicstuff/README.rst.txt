@@ -29,7 +29,7 @@ hicstuff
       
       
 
-      ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
+      ``3.0.2-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
 
       
 
@@ -41,6 +41,7 @@ hicstuff
    :depends minimap2: 
    :depends numpy: 
    :depends pandas: 
+   :depends pyfastx: 
    :depends pysam: 
    :depends python: ``>=3.6,<3.8``
    :depends requests: 

@@ -27,22 +27,19 @@ stringdecomposer
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-0``
+      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends biopython: ``<1.78``
-   :depends joblib: 
+   :depends biopython: 
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python-edlib: 
    :depends python_abi: ``3.6.* *_cp36m``
-   :depends scikit-learn: ``<0.22``
    :requirements:
 
    .. rubric:: Installation
