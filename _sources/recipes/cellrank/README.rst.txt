@@ -33,10 +33,10 @@ cellrank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  <code>1.0.0rc7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  </span></summary>
       
 
-      ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
+      ``1.4.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
 
       
       .. raw:: html
@@ -45,27 +45,23 @@ cellrank
       
 
    
-   :depends anndata: ``>=0.7.2``
    :depends docrep: ``>=0.3.0``
-   :depends future_fstrings: 
-   :depends ipywidgets: ``>=7.5.1``
    :depends joblib: ``>=0.13.1``
    :depends matplotlib-base: ``>=3.3.0``
    :depends networkx: ``>=2.2``
-   :depends numba: ``>=0.51.0``
+   :depends numba: ``>=0.51.0,<0.53.0``
    :depends numpy: ``>=1.2.0``
    :depends pandas: ``>=1.2.0``
    :depends pygam: ``>=0.8.0``
    :depends pygpcca: ``>=1.0.2``
-   :depends python: ``>=3.6``
-   :depends scanpy: ``>=1.6.0``
-   :depends scikit-learn: ``>=0.21.3``
+   :depends python: ``>=3.7``
+   :depends scanpy: ``>=1.7.2``
+   :depends scikit-learn: ``>=0.24.0``
    :depends scipy: ``>=1.2.0``
-   :depends scvelo: ``>=0.2.2``
+   :depends scvelo: ``>=0.2.3``
    :depends seaborn: ``>=0.10.0``
    :depends setuptools: ``>=41.0.1``
    :depends typing_extensions: 
-   :depends tzlocal: ``>=1.5.1``
    :depends wrapt: ``>=1.12.1``
    :requirements:
 
@@ -104,10 +100,10 @@ cellrank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  <code>1.0.0rc7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  <code>1.0.0rc8-0</code>,  </span></summary>
       
 
-      ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
+      ``1.4.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
 
       
       .. raw:: html
@@ -116,12 +112,12 @@ cellrank
       
 
    
-   :depends cellrank: ``1.3.1 pyhdfd78af_0``
+   :depends cellrank: ``1.4.0 pyhdfd78af_0``
    :depends mpi4py: ``>=3.0.3``
    :depends openmpi: ``>=3.0.3``
    :depends petsc: ``>=3.13.0``
    :depends petsc4py: ``>=3.13.0``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends slepc: ``>=3.13.0``
    :depends slepc4py: ``>=3.13.0``
    :requirements:

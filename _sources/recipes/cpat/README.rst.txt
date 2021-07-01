@@ -12,7 +12,7 @@ cpat
 
    Coding Potential Assessment Tool
 
-   :homepage: http://rna-cpat.sourceforge.net/
+   :homepage: https://cpat.readthedocs.io/en/latest/
    :license: GNU General Public v2 or later (GPLv2+)
    :recipe: /`cpat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat/meta.yaml>`_
 
@@ -28,10 +28,10 @@ cpat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-4</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.4-0</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  </span></summary>
       
 
-      ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-2``
+      ``3.0.4-0``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-2``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ cpat
 
    
    :depends bx-python: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: 
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``
