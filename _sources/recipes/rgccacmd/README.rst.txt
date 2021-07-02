@@ -13,7 +13,7 @@ rgccacmd
    Multiblock data analysis concerns the analysis of several sets of variables \(blocks\) observed on the same group of individuals. The main aims of the RGCCA package are \(i\) to study the relationships between blocks and \(ii\) to identify subsets of variables of each block which are active in their relationships with the other blocks.
 
    :homepage: https://CRAN.R-project.org/package=RGCCA
-   :documentation: https://github.com/ecamenen/rgcca-conda/blob/master/README.md
+   :documentation: https://github.com/BrainAndSpineInstitute/rgcca_ui#readme
    
    :license: GPL3 / GPL-2.0-or-later
    :recipe: /`rgccacmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgccacmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgccacmd/meta.yaml>`_
@@ -29,7 +29,7 @@ rgccacmd
       
       
 
-      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
+      ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
 
       
 
@@ -48,6 +48,7 @@ rgccacmd
    :depends r-rlang: 
    :depends r-scales: 
    :depends r-vegan: 
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation

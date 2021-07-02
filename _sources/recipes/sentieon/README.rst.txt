@@ -12,7 +12,7 @@ sentieon
 
    Accelerated performance bioinformatics tools for mapping and variant calling
 
-   :homepage: http://sentieon.com
+   :homepage: https://www.sentieon.com
    :license: Commercial (requires license for use; redistribution allowed)
    :recipe: /`sentieon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sentieon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sentieon/meta.yaml>`_
 
@@ -28,10 +28,10 @@ sentieon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>201808.08-1</code>,  <code>201808.08-0</code>,  <code>201808.07-0</code>,  <code>201808.05-0</code>,  <code>201808.03-0</code>,  <code>201808.02-0</code>,  <code>201808.01-0</code>,  <code>201808-0</code>,  <code>201711.04-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>202010.02-0</code>,  <code>201808.08-1</code>,  <code>201808.08-0</code>,  <code>201808.07-0</code>,  <code>201808.05-0</code>,  <code>201808.03-0</code>,  <code>201808.02-0</code>,  <code>201808.01-0</code>,  <code>201808-0</code>,  </span></summary>
       
 
-      ``201808.08-1``,  ``201808.08-0``,  ``201808.07-0``,  ``201808.05-0``,  ``201808.03-0``,  ``201808.02-0``,  ``201808.01-0``,  ``201808-0``,  ``201711.04-3``,  ``201711.04-2``,  ``201711.03-1``,  ``201711.03-0``,  ``201711.02-0``,  ``201711.01-2``,  ``201711.01-1``,  ``201711.01-0``,  ``201711-0``,  ``201704.03-0``,  ``201704.02-0``,  ``201704-0``,  ``201611.03-0``,  ``201611-0``,  ``201606-0``,  ``201603.02-1``,  ``201603.02-0``
+      ``202010.02-0``,  ``201808.08-1``,  ``201808.08-0``,  ``201808.07-0``,  ``201808.05-0``,  ``201808.03-0``,  ``201808.02-0``,  ``201808.01-0``,  ``201808-0``,  ``201711.04-3``,  ``201711.04-2``,  ``201711.03-1``,  ``201711.03-0``,  ``201711.02-0``,  ``201711.01-2``,  ``201711.01-1``,  ``201711.01-0``,  ``201711-0``,  ``201704.03-0``,  ``201704.02-0``,  ``201704-0``,  ``201611.03-0``,  ``201611-0``,  ``201606-0``,  ``201603.02-1``,  ``201603.02-0``
 
       
       .. raw:: html
@@ -40,11 +40,7 @@ sentieon
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends python: ``>=2.7,<3.0a0``
+   :depends python: ``>=2.7``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

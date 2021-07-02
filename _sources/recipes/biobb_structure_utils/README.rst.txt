@@ -46,13 +46,13 @@ biobb_structure_utils
       
       
 
-      ``3.6.0-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``
+      ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``
 
       
 
    
    :depends biobb_common: ``3.6.0``
-   :depends biobb_structure_checking: ``3.7.3``
+   :depends biobb_structure_checking: ``3.8.5``
    :depends python: ``3.7.*``
    :requirements:
 

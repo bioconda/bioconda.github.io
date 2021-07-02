@@ -27,14 +27,14 @@ plasclass
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends joblib: ``0.14.*``
-   :depends numpy: ``1.17.4``
-   :depends python: ``>=3.7``
+   :depends numpy: ``1.17.*``
+   :depends python: ``3.7.*``
    :depends scikit-learn: ``0.21.3``
    :depends scipy: ``1.3.2``
    :requirements:
