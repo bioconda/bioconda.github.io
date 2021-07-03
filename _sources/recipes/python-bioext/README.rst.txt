@@ -27,16 +27,16 @@ python-bioext
       
       
 
-      ``0.19.7-1``,  ``0.19.7-0``,  ``0.18.6-2``,  ``0.18.6-1``,  ``0.18.6-0``,  ``0.17.4-0``
+      ``0.20.1-0``,  ``0.19.7-1``,  ``0.19.7-0``,  ``0.18.6-2``,  ``0.18.6-1``,  ``0.18.6-0``,  ``0.17.4-0``
 
       
 
    
    :depends biopython: ``>=1.58``
-   :depends freetype: ``>=2.9.1,<3.0a0``
+   :depends freetype: ``>=2.10.4,<3.0a0``
    :depends joblib: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends numpy: ``>=1.14``
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``

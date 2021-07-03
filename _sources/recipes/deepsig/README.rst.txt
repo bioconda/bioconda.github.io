@@ -27,14 +27,14 @@ deepsig
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends biopython: ``>=1.78``
    :depends keras: ``2.4.3.*``
-   :depends python: ``>=3``
+   :depends python: ``=3.6|3.7|3.8``
    :depends tensorflow: ``2.2.0.*``
    :requirements:
 
