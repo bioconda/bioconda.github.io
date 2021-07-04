@@ -27,20 +27,19 @@ correlationplus
       
       
 
-      ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.6-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.6-0``
 
       
 
    
-   :depends biopython: ``1.77``
-   :depends matplotlib-base: ``>=3.2.2,<=3.3.2``
-   :depends mdanalysis: ``1.0.0``
-   :depends networkx: ``2.4``
-   :depends numba: ``>=0.50.0``
-   :depends numpy: ``1.20.1``
-   :depends prody: ``>=1.10.8,<=1.10.11``
-   :depends python: ``>=3.6``
-   :depends scipy: ``1.5.2``
+   :depends matplotlib-base: 
+   :depends mdanalysis: 
+   :depends networkx: 
+   :depends numba: 
+   :depends numpy: 
+   :depends prody: 
+   :depends python: 
+   :depends scipy: 
    :requirements:
 
    .. rubric:: Installation
