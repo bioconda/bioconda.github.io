@@ -12,8 +12,8 @@ tbvcfreport
 
    Parses SnpEff annotated M.tb VCF\(s\) and generates an interactive HTML\-based report.
 
-   :homepage: http://github.com/COMBAT-TB/tbvcfreport
-   :documentation: http://github.com/COMBAT-TB/tbvcfreport/blob/master/README.md
+   :homepage: https://github.com/COMBAT-TB/tbvcfreport
+   :documentation: https://github.com/COMBAT-TB/tbvcfreport/blob/master/README.md
    
    :license: GPL3 / GNU General Public v3 (GPLv3)
    :recipe: /`tbvcfreport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbvcfreport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbvcfreport/meta.yaml>`_
@@ -29,18 +29,16 @@ tbvcfreport
       
       
 
-      ``0.1.7-0``
+      ``0.1.8-0``,  ``0.1.7-0``
 
       
 
    
    :depends click: 
    :depends jinja2: 
-   :depends mtb-snp-it: 
-   :depends py2neo: ``>=4.2.0``
+   :depends neo4j-python-driver: 
    :depends python: ``>=3.6``
    :depends pyvcf: 
-   :depends tqdm: 
    :requirements:
 
    .. rubric:: Installation
