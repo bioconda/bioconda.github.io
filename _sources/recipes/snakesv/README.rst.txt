@@ -27,13 +27,14 @@ snakesv
       
       
 
-      ``0.2-0``
+      ``0.3.1-0``,  ``0.2-0``
 
       
 
    
-   :depends pandas: 
-   :depends snakemake-minimal: 
+   :depends mamba: ``>=0.14.1``
+   :depends pandas: ``>=1.3.0``
+   :depends snakemake: ``>=6.5.2``
    :requirements:
 
    .. rubric:: Installation
