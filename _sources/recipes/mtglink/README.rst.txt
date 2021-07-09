@@ -27,7 +27,7 @@ mtglink
       
       
 
-      ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -35,8 +35,8 @@ mtglink
    :depends biopython: 
    :depends blast: 
    :depends gfapy: 
-   :depends lrez: ``2.1.1.*``
-   :depends mindthegap: ``2.2.2.*``
+   :depends lrez: ``>=2.1.1``
+   :depends mindthegap: ``>=2.2.3``
    :depends mummer: 
    :depends pathos: 
    :depends python: ``>=3``

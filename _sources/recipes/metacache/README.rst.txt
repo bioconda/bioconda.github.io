@@ -27,7 +27,7 @@ metacache
       
       
 
-      ``1.1.1-0``
+      ``2.0.0-0``,  ``1.1.1-0``
 
       
 
@@ -37,6 +37,7 @@ metacache
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends python: ``<3``
    :depends wget: 
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
