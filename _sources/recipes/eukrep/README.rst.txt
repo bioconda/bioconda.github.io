@@ -27,7 +27,7 @@ eukrep
       
       
 
-      ``0.6.7-1``,  ``0.6.7-0``
+      ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``
 
       
 
@@ -36,7 +36,7 @@ eukrep
    :depends kpal: 
    :depends numpy: 
    :depends python: 
-   :depends scikit-learn: 
+   :depends scikit-learn: ``0.19.2.*``
    :requirements:
 
    .. rubric:: Installation

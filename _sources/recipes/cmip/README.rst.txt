@@ -28,10 +28,10 @@ cmip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.9-0</code>,  <code>2.6.8-0</code>,  <code>2.6.7-0</code>,  <code>2.6.5-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-5</code>,  <code>2.6.1-4</code>,  <code>2.6.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.0-0</code>,  <code>2.6.9-0</code>,  <code>2.6.8-0</code>,  <code>2.6.7-0</code>,  <code>2.6.5-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-5</code>,  <code>2.6.1-4</code>,  </span></summary>
       
 
-      ``2.6.9-0``,  ``2.6.8-0``,  ``2.6.7-0``,  ``2.6.5-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-5``,  ``2.6.1-4``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``
+      ``2.7.0-0``,  ``2.6.9-0``,  ``2.6.8-0``,  ``2.6.7-0``,  ``2.6.5-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-5``,  ``2.6.1-4``,  ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``,  ``2.6.1-0``
 
       
       .. raw:: html
