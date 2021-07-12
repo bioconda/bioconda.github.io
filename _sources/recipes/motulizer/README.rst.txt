@@ -27,7 +27,7 @@ motulizer
       
       
 
-      ``0.3.1-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1a0-1``,  ``0.2.1a0-0``
+      ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1a0-1``,  ``0.2.1a0-0``
 
       
 
@@ -36,7 +36,7 @@ motulizer
    :depends cd-hit: 
    :depends fastani: 
    :depends mmseqs2: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3``
    :depends python-igraph: 
    :depends tqdm: 
    :requirements:
