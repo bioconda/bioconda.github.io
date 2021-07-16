@@ -27,13 +27,13 @@ pore-c
       
       
 
-      ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.0-0``
 
       
 
    
    :depends biopython: ``1.77``
-   :depends click: ``7.0.*,>=7.0.0``
+   :depends click: ``>=7.0.0,<8.0``
    :depends cooler: ``0.8.*,>=0.8.5``
    :depends dask: ``2.*,>=2.0.0``
    :depends distributed: ``2.*,>=2.9.3``
@@ -41,14 +41,13 @@ pore-c
    :depends intake-parquet: 
    :depends ncls: 
    :depends networkx: ``2.*,>=2.4.0``
-   :depends numpy: ``>=1.16.1``
-   :depends ont-fast5-api: ``>=1.1``
+   :depends numpy: ``<1.20.0``
    :depends pairtools: 
    :depends pandas: ``>=1.0.5``
    :depends pyarrow: ``1.*,>=1.0.0``
    :depends pydantic: ``1.6.1``
    :depends pyranges: ``0.0.71``
-   :depends pysam: ``>=0.15``
+   :depends pysam: 
    :depends python: 
    :depends streamz: ``0.*,>=0.5.2``
    :depends tqdm: 

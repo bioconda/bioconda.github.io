@@ -27,16 +27,18 @@ jcast
       
       
 
-      ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
    
    :depends biopython: ``>=1.7,<2``
    :depends gtfparse: ``>=1,<2``
+   :depends matplotlib-base: ``>=3.4,<4``
    :depends pandas: ``>=1.0,<2``
    :depends python: ``>=3.7``
    :depends requests: ``>=2,<3``
+   :depends scikit-learn: ``>=0.24.2``
    :depends tqdm: ``>=4,<5``
    :requirements:
 
