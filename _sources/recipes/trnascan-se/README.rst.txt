@@ -28,10 +28,10 @@ trnascan-se
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.7-1</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-0</code>,  <code>2.0-1</code>,  <code>2.0-0</code>,  <code>1.3.1-7</code>,  <code>1.3.1-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.9-0</code>,  <code>2.0.7-1</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-0</code>,  <code>2.0-1</code>,  <code>2.0-0</code>,  <code>1.3.1-7</code>,  </span></summary>
       
 
-      ``2.0.7-1``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0-1``,  ``2.0-0``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``
+      ``2.0.9-0``,  ``2.0.7-1``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0-1``,  ``2.0-0``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``
 
       
       .. raw:: html
