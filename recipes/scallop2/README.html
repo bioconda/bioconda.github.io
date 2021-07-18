@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Package Recipe &#39;scallop-umi&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;scallop2&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
@@ -101,31 +101,31 @@
 
           <div class="body" role="main">
             
-  <section id="scallop-umi">
+  <section id="scallop2">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">scallop-umi</span></span></dt>
-<dd><p>A reference-based transcript assembler for linked-reads RNA-seq data.</p>
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">scallop2</span></span></dt>
+<dd><p>A reference-based transcript assembler optimized for paired-/multiple-end RNA-seq data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/Shao-Group/scallop-umi">https://github.com/Shao-Group/scallop-umi</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/Shao-Group/scallop2">https://github.com/Shao-Group/scallop2</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>BSD-3-Clause</p>
 </dd>
 <dt class="field-odd">Recipe</dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scallop-umi">scallop-umi</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scallop-umi/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scallop2">scallop2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scallop2/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-scallop-umi">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">scallop-umi</span></span><a class="headerlink" href="#package-scallop-umi" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/scallop-umi"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/scallop-umi.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/scallop-umi"><img alt="docker_scallop-umi" src="https://quay.io/repository/biocontainers/scallop-umi/status" /></a></p>
+<dt class="sig sig-object conda" id="package-scallop2">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">scallop2</span></span><a class="headerlink" href="#package-scallop2" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/scallop2"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/scallop2.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/scallop2"><img alt="docker_scallop2" src="https://quay.io/repository/biocontainers/scallop2/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -142,24 +142,24 @@
 </dl>
 <p class="rubric">Installation</p>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../user/install.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">scallop</span><span class="o">-</span><span class="n">umi</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">scallop2</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">scallop</span><span class="o">-</span><span class="n">umi</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">scallop2</span>
 </pre></div>
 </div>
 <p>or use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">scallop</span><span class="o">-</span><span class="n">umi</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">scallop2</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/scallop-umi?tab=tags">scallop-umi/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/scallop2?tab=tags">scallop2/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/scallop-umi/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/scallop-umi/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/scallop2/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/scallop2/README.html)
 </pre></div>
 </div>
 </section>
@@ -180,14 +180,14 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/scallop-umi/README.rst.txt"
+      <a href="../../_sources/recipes/scallop2/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/scallop-umi/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/scallop2/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
