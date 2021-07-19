@@ -10,7 +10,7 @@ iptkl
    :replaces_section_title:
    :noindex:
 
-   IPTK is a library specialized in the analysis of HLA\-peptidomes identified through an immunopeptidomics pipeline
+   IPTK is a library specialized in the analysis of HLA\-peptidomes identified through an immunopeptidomics pipeline.
 
    :homepage: https://github.com/ikmb/iptoolkit
    :documentation: https://iptk.readthedocs.io/en/latest/
@@ -29,7 +29,7 @@ iptkl
       
       
 
-      ``0.6.5-0``,  ``0.6.4-0``
+      ``0.6.8-0``,  ``0.6.5-0``,  ``0.6.4-0``
 
       
 
@@ -37,6 +37,8 @@ iptkl
    :depends biopython: 
    :depends bokeh: 
    :depends colour: 
+   :depends dash: 
+   :depends goatools: 
    :depends h5py: 
    :depends holoviews: 
    :depends logomaker: 
@@ -53,7 +55,6 @@ iptkl
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
-   :depends statannot: 
    :depends tqdm: 
    :requirements:
 
