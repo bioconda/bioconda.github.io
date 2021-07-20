@@ -27,18 +27,18 @@ chia-rep
       
       
 
-      ``3.1.1-0``,  ``3.1.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``1.0.0-0``
+      ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``1.0.0-0``
 
       
 
    
+   :depends click: ``>=7.0``
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
    :depends numpy: ``>=1.17.0``
-   :depends prettytable: ``>=0.7.2``
    :depends pybedgraph: ``>=0.5.40``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends scipy: ``>=1.3.1``
    :requirements:
 
