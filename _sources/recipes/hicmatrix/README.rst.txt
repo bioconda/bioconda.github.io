@@ -28,10 +28,10 @@ hicmatrix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>15-0</code>,  <code>14-0</code>,  <code>13-0</code>,  <code>12-0</code>,  <code>11-0</code>,  <code>10-1</code>,  <code>10-0</code>,  <code>9-0</code>,  <code>8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>16-0</code>,  <code>15-0</code>,  <code>14-0</code>,  <code>13-0</code>,  <code>12-0</code>,  <code>11-0</code>,  <code>10-1</code>,  <code>10-0</code>,  <code>9-0</code>,  </span></summary>
       
 
-      ``15-0``,  ``14-0``,  ``13-0``,  ``12-0``,  ``11-0``,  ``10-1``,  ``10-0``,  ``9-0``,  ``8-0``,  ``7-0``,  ``6-1``,  ``6-0``,  ``5-0``,  ``4-0``,  ``3-0``,  ``2.2-1``,  ``2.2-0``
+      ``16-0``,  ``15-0``,  ``14-0``,  ``13-0``,  ``12-0``,  ``11-0``,  ``10-1``,  ``10-0``,  ``9-0``,  ``8-0``,  ``7-0``,  ``6-1``,  ``6-0``,  ``5-0``,  ``4-0``,  ``3-0``,  ``2.2-1``,  ``2.2-0``
 
       
       .. raw:: html
