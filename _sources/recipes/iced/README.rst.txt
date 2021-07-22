@@ -28,10 +28,10 @@ iced
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.6-3</code>,  <code>0.5.6-2</code>,  <code>0.5.6-1</code>,  <code>0.5.6-0</code>,  <code>0.5.4-0</code>,  <code>0.5.2-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.9-0</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.6-3</code>,  <code>0.5.6-2</code>,  <code>0.5.6-1</code>,  <code>0.5.6-0</code>,  <code>0.5.4-0</code>,  <code>0.5.2-0</code>,  </span></summary>
       
 
-      ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.6-3``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.2-0``
+      ``0.5.9-0``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.6-3``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.2-0``
 
       
       .. raw:: html
