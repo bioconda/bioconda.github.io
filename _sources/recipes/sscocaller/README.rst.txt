@@ -28,7 +28,7 @@ sscocaller
       
       
 
-      ``0.2.1-0``
+      ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -40,7 +40,7 @@ sscocaller
    :depends libgfortran-ng: 
    :depends libgfortran5: ``>=9.3.0``
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends pcre: ``>=8.44,<9.0a0``
+   :depends pcre: ``>=8.45,<9.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

@@ -29,10 +29,10 @@ r-bcbiornaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.40-1</code>,  <code>0.3.40-0</code>,  <code>0.3.39-0</code>,  <code>0.3.37-0</code>,  <code>0.3.36-0</code>,  <code>0.3.34-0</code>,  <code>0.3.33-1</code>,  <code>0.3.33-0</code>,  <code>0.3.32-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.41-0</code>,  <code>0.3.40-1</code>,  <code>0.3.40-0</code>,  <code>0.3.39-0</code>,  <code>0.3.37-0</code>,  <code>0.3.36-0</code>,  <code>0.3.34-0</code>,  <code>0.3.33-1</code>,  <code>0.3.33-0</code>,  </span></summary>
       
 
-      ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
+      ``0.3.41-0``,  ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -56,7 +56,7 @@ r-bcbiornaseq
    :depends bioconductor-tximport: ``>=1.18``
    :depends bioconductor-vsn: 
    :depends r-acidgenerics: ``>=0.5.16``
-   :depends r-acidplots: ``>=0.3.3``
+   :depends r-acidplots: ``>=0.3.7``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-basejump: ``>=0.14.13``
    :depends r-bcbiobase: ``>=0.6.19``

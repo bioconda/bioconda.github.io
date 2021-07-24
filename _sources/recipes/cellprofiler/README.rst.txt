@@ -28,12 +28,12 @@ cellprofiler
       
       
 
-      ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
+      ``4.2.1-0``,  ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
 
       
 
    
-   :depends cellprofiler-core: ``4.2.0.*``
+   :depends cellprofiler-core: ``4.2.1.*``
    :depends centrosome: 
    :depends docutils: 
    :depends h5py: ``>=2.10``
