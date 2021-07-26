@@ -27,7 +27,7 @@ aquilasv
       
       
 
-      ``1.1-0``
+      ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
 
       
 
@@ -38,6 +38,7 @@ aquilasv
    :depends python: ``>=3``
    :depends samtools: 
    :depends scipy: 
+   :depends spades: 
    :requirements:
 
    .. rubric:: Installation
