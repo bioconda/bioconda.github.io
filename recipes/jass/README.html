@@ -87,7 +87,7 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -125,13 +125,15 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/jass"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/jass.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/jass"><img alt="docker_jass" src="https://quay.io/repository/biocontainers/jass/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/aiohttp-feedstock"><strong>aiohttp</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/celery-feedstock"><strong>celery</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/connexion-feedstock"><strong>connexion</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-feedstock"><strong>matplotlib</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/flask-smorest-feedstock"><strong>flask-smorest</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/h5py-feedstock"><strong>h5py</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/matplotlib-base-feedstock"><strong>matplotlib-base</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pytables-feedstock"><strong>pytables</strong></a></p></li>
@@ -181,7 +183,7 @@
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

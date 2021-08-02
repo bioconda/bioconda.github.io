@@ -28,18 +28,18 @@ dragonflye
       
       
 
-      ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends any2fasta: 
    :depends assembly-scan: ``>=0.4.0``
-   :depends filtlong: 
    :depends flye: 
    :depends kmc: ``>=3.1``
    :depends medaka: 
    :depends miniasm: 
+   :depends nanoq: 
    :depends perl: 
    :depends perl-file-spec: 
    :depends perl-findbin: 

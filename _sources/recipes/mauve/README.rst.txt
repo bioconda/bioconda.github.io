@@ -28,15 +28,18 @@ mauve
       
       
 
-      ``2.4.0.snapshot_2015_02_13-3``,  ``2.4.0.snapshot_2015_02_13-2``,  ``2.4.0.snapshot_2015_02_13-1``,  ``2.4.0.snapshot_2015_02_13-0``,  ``2.4.0.r4736-2``,  ``2.4.0.r4736-1``,  ``2.4.0.r4736-0``
+      ``2.4.0.snapshot_2015_02_13-4``,  ``2.4.0.snapshot_2015_02_13-3``,  ``2.4.0.snapshot_2015_02_13-2``,  ``2.4.0.snapshot_2015_02_13-1``,  ``2.4.0.snapshot_2015_02_13-0``,  ``2.4.0.r4736-2``,  ``2.4.0.r4736-1``,  ``2.4.0.r4736-0``
 
       
 
    
    :depends font-ttf-dejavu-sans-mono: 
-   :depends fontconfig: ``>=2.13.1,<3.0a0``
+   :depends fontconfig: 
    :depends mauvealigner: 
    :depends openjdk: ``8.0.192.*``
+   :depends xorg-libxi: 
+   :depends xorg-libxrender: 
+   :depends xorg-libxtst: 
    :requirements:
 
    .. rubric:: Installation

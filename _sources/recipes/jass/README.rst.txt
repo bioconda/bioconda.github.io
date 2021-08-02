@@ -27,14 +27,16 @@ jass
       
       
 
-      ``2.0-0``,  ``1.0.1-0``
+      ``2.2-0``,  ``2.0-0``,  ``1.0.1-0``
 
       
 
    
+   :depends aiohttp: 
    :depends celery: 
-   :depends connexion: 
-   :depends matplotlib: 
+   :depends flask-smorest: 
+   :depends h5py: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends pytables: 

@@ -28,10 +28,10 @@ genomepy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-1</code>,  </span></summary>
       
 
-      ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-0``
+      ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -45,8 +45,13 @@ genomepy
    :depends bucketcache: ``>=0.12.1``
    :depends click: 
    :depends colorama: 
-   :depends htslib: 
+   :depends joblib: 
+   :depends loguru: 
+   :depends mygene: 
+   :depends mysql-connector-python: 
    :depends norns: ``>=0.1.5``
+   :depends numpy: 
+   :depends pandas: 
    :depends pyfaidx: ``>=0.5.7``
    :depends python: ``>=3``
    :depends requests: 
@@ -56,7 +61,6 @@ genomepy
    :depends ucsc-genepredtogtf: 
    :depends ucsc-gff3togenepred: 
    :depends ucsc-gtftogenepred: 
-   :depends xmltodict: 
    :requirements:
 
    .. rubric:: Installation

@@ -12,9 +12,9 @@ r-bcbiornaseq
 
    R package for bcbio RNA\-seq analysis.
 
-   :homepage: http://bioinformatics.sph.harvard.edu/bcbioRNASeq/
+   :homepage: https://r.acidgenomics.com/packages/bcbiornaseq/
    :developer docs: https://github.com/hbc/bcbioRNASeq
-   :license: GPL / GPL-3.0
+   :license: GPL / AGPL-3.0
    :recipe: /`r-bcbiornaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiornaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiornaseq/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-bcbiornaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.41-0</code>,  <code>0.3.40-1</code>,  <code>0.3.40-0</code>,  <code>0.3.39-0</code>,  <code>0.3.37-0</code>,  <code>0.3.36-0</code>,  <code>0.3.34-0</code>,  <code>0.3.33-1</code>,  <code>0.3.33-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.42-0</code>,  <code>0.3.41-0</code>,  <code>0.3.40-1</code>,  <code>0.3.40-0</code>,  <code>0.3.39-0</code>,  <code>0.3.37-0</code>,  <code>0.3.36-0</code>,  <code>0.3.34-0</code>,  <code>0.3.33-1</code>,  </span></summary>
       
 
-      ``0.3.41-0``,  ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
+      ``0.3.42-0``,  ``0.3.41-0``,  ``0.3.40-1``,  ``0.3.40-0``,  ``0.3.39-0``,  ``0.3.37-0``,  ``0.3.36-0``,  ``0.3.34-0``,  ``0.3.33-1``,  ``0.3.33-0``,  ``0.3.32-0``,  ``0.3.31-0``,  ``0.3.30-0``,  ``0.3.29-0``,  ``0.3.28-0``,  ``0.3.27-0``,  ``0.3.26-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.4-0``,  ``0.2.4a-0``,  ``0.2.3a-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -41,34 +41,34 @@ r-bcbiornaseq
       
 
    
-   :depends bioconductor-biocgenerics: 
-   :depends bioconductor-biocstyle: 
-   :depends bioconductor-clusterprofiler: 
-   :depends bioconductor-degreport: 
+   :depends bioconductor-biocstyle: ``>=2.18``
+   :depends bioconductor-clusterprofiler: ``>=3.18``
+   :depends bioconductor-degreport: ``>=1.26``
    :depends bioconductor-deseq2: ``>=1.30``
-   :depends bioconductor-dose: 
+   :depends bioconductor-dose: ``>=3.16``
    :depends bioconductor-edger: ``>=3.32``
-   :depends bioconductor-ensdb.hsapiens.v75: 
-   :depends bioconductor-org.hs.eg.db: 
-   :depends bioconductor-org.mm.eg.db: 
-   :depends bioconductor-pathview: 
-   :depends bioconductor-rhdf5: 
+   :depends bioconductor-enrichplot: ``>=1.10``
+   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99``
+   :depends bioconductor-org.hs.eg.db: ``>=3.12``
+   :depends bioconductor-org.mm.eg.db: ``>=3.12``
+   :depends bioconductor-pathview: ``>=1.30``
+   :depends bioconductor-rhdf5: ``>=2.34``
    :depends bioconductor-tximport: ``>=1.18``
-   :depends bioconductor-vsn: 
-   :depends r-acidgenerics: ``>=0.5.16``
+   :depends bioconductor-vsn: ``>=3.58``
+   :depends r-acidgenerics: ``>=0.5.18``
+   :depends r-acidgsea: ``>=0.6.4``
    :depends r-acidplots: ``>=0.3.7``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-basejump: ``>=0.14.13``
-   :depends r-bcbiobase: ``>=0.6.19``
-   :depends r-deseqanalysis: 
-   :depends r-ggplot2: ``>=3.3``
-   :depends r-goalie: ``>=0.4.11``
-   :depends r-hexbin: 
-   :depends r-knitr: 
-   :depends r-rmarkdown: 
-   :depends r-roxygen2: 
-   :depends r-tidyverse: 
-   :depends r-viridis: 
+   :depends r-basejump: ``>=0.14.19``
+   :depends r-bcbiobase: ``>=0.6.21``
+   :depends r-deseqanalysis: ``>=0.4.2``
+   :depends r-ggnewscale: ``>=0.4.5``
+   :depends r-ggplot2: ``>=3.3.5``
+   :depends r-goalie: ``>=0.5.2``
+   :depends r-hexbin: ``>=1.28``
+   :depends r-knitr: ``>=1.33``
+   :depends r-rmarkdown: ``>=2.9``
+   :depends r-viridis: ``>=0.6.1``
    :requirements:
 
    .. rubric:: Installation

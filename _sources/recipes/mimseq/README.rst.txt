@@ -28,10 +28,10 @@ mimseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.4.1-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3.2-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5.6-0</code>,  <code>0.2.5.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.4.3-0</code>,  <code>0.3.4.1-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3.2-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5.6-0</code>,  </span></summary>
       
 
-      ``0.3.4.1-0``,  ``0.3.4-0``,  ``0.3.3.2-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5.6-0``,  ``0.2.5.5-1``,  ``0.2.5.5-0``,  ``0.2.5.4-0``,  ``0.2.5.3-0``
+      ``0.3.4.3-0``,  ``0.3.4.1-0``,  ``0.3.4-0``,  ``0.3.3.2-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5.6-0``,  ``0.2.5.5-1``,  ``0.2.5.5-0``,  ``0.2.5.4-0``,  ``0.2.5.3-0``
 
       
       .. raw:: html
@@ -40,32 +40,32 @@ mimseq
       
 
    
-   :depends bedtools: 
-   :depends bioconductor-complexheatmap: 
-   :depends bioconductor-deseq2: 
-   :depends biopython: 
-   :depends blast: 
+   :depends bedtools: ``2.30.0.*``
+   :depends bioconductor-complexheatmap: ``2.2.0.*``
+   :depends bioconductor-deseq2: ``1.26.0.*``
+   :depends biopython: ``1.79.*``
+   :depends blast: ``2.10.1.*``
    :depends gmap: ``2019.02.26.*``
-   :depends infernal: 
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends pybedtools: 
-   :depends pyfiglet: 
-   :depends pysam: 
-   :depends python: ``>=3``
-   :depends r-base: ``<3.7.0a0``
-   :depends r-calibrate: 
-   :depends r-devtools: 
-   :depends r-dplyr: 
+   :depends infernal: ``1.1.4.*``
+   :depends matplotlib-base: ``3.4.2.*``
+   :depends numpy: ``1.21.1.*``
+   :depends pandas: ``1.3.1.*``
+   :depends pybedtools: ``0.8.2.*``
+   :depends pyfiglet: ``0.8.post1.*``
+   :depends pysam: ``0.16.0.1.*``
+   :depends python: ``3.7.*``
+   :depends r-base: ``3.6.3.*``
+   :depends r-calibrate: ``1.7.7.*``
+   :depends r-devtools: ``2.4.1.*``
+   :depends r-dplyr: ``1.0.6.*``
    :depends r-ggplot2: ``3.2.1.*``
-   :depends r-gridextra: 
-   :depends r-pheatmap: 
-   :depends r-plyr: 
-   :depends r-tidyverse: 
-   :depends requests: 
+   :depends r-gridextra: ``2.3.*``
+   :depends r-pheatmap: ``1.0.12.*``
+   :depends r-plyr: ``1.8.6.*``
+   :depends r-tidyverse: ``1.3.0.*``
+   :depends requests: ``2.26.0.*``
    :depends samtools: ``1.11.*``
-   :depends seaborn: 
+   :depends seaborn: ``0.11.1.*``
    :requirements:
 
    .. rubric:: Installation

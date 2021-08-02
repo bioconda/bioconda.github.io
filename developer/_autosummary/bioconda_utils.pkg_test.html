@@ -118,7 +118,7 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -185,8 +185,8 @@ local build channel.</p></li>
 <li><p><strong>mulled_args</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Mechanism for passing arguments to the mulled-build command. They will
 be split with shlex.split and passed to the mulled-build command. E.g.,
 mulled_args=”–dry-run –involucro-path /opt/involucro”</p></li>
-<li><p><strong>base_image</strong> (<em>None | str</em>) – Specify custom base image. Busybox is used in the default case.</p></li>
-<li><p><strong>conda_image</strong> (<em>None | str</em>) – Conda Docker image to install the package with during the mulled based
+<li><p><strong>base_image</strong> (<a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><em>None</em></a><em> | </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Specify custom base image. Busybox is used in the default case.</p></li>
+<li><p><strong>conda_image</strong> (<a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><em>None</em></a><em> | </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Conda Docker image to install the package with during the mulled based
 tests.</p></li>
 </ul>
 </dd>
@@ -206,7 +206,7 @@ tests.</p></li>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

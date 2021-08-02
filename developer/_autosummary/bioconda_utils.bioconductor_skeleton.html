@@ -118,7 +118,7 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -337,7 +337,7 @@ and returns the latest.</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>package</strong> – Case-sensitive Bioconductor package name</p></li>
 <li><p><strong>version</strong> – Bioconductor package version</p></li>
-<li><p><strong>None if no valid package found.</strong> (<em>Returns</em>) – </p></li>
+<li><p><strong>found.</strong> (<em>Returns None if no valid package</em>) – </p></li>
 </ul>
 </dd>
 </dl>
@@ -423,7 +423,7 @@ build dependencies and test environment variables.</p></li>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -12,7 +12,7 @@ cgat-apps
 
    Computational Genomics Analysis Toolkit
 
-   :homepage: https://www.cgat.org/downloads/public/cgat/documentation
+   :homepage: https://cgat-apps.readthedocs.io/en/latest/
    :license: MIT
    :recipe: /`cgat-apps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-apps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-apps/meta.yaml>`_
 
@@ -27,7 +27,7 @@ cgat-apps
       
       
 
-      ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+      ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
 
       
 
@@ -39,19 +39,21 @@ cgat-apps
    :depends coreutils: 
    :depends future: 
    :depends grep: 
-   :depends libcxx: ``>=9.0.1``
-   :depends libpng: ``>=1.6.37,<1.7.0a0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends jinja2: 
+   :depends libgcc-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.3.0``
    :depends matplotlib-base: 
-   :depends numpy: ``>=1.14.6,<2.0a0``
+   :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
-   :depends pysam: ``<=0.15.2``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python-lzo: 
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends pysam: 
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends pyyaml: 
    :depends quicksect: 
+   :depends scikit-learn: 
    :depends scipy: 
    :depends six: 
    :depends sortedcontainers: 

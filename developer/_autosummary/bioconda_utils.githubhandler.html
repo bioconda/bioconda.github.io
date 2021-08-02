@@ -118,7 +118,7 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -228,7 +228,6 @@
 <dt class="sig sig-object py" id="bioconda_utils.githubhandler.CheckRunStatus">
 <span class="sig-prename descclassname"><span class="pre">bioconda_utils.githubhandler.</span></span><span class="sig-name descname"><span class="pre">CheckRunStatus</span></span><a class="headerlink" href="#bioconda_utils.githubhandler.CheckRunStatus" title="Permalink to this definition">¶</a></dt>
 <dd><p>State of Github Check Run</p>
-<p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">bioconda_utils.githubhandler.CheckRunState</span></code></p>
 </dd></dl>
 
 <dl class="py class">
@@ -1076,7 +1075,7 @@ is provided, if user is member of that team.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="bioconda_utils.githubhandler.GitHubHandler.merge_pr">
-<em class="property"><span class="pre">async</span> </em><span class="sig-name descname"><span class="pre">merge_pr</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">number</span></em>, <em class="sig-param"><span class="pre">title=None</span></em>, <em class="sig-param"><span class="pre">message=None</span></em>, <em class="sig-param"><span class="pre">sha=None</span></em>, <em class="sig-param"><span class="pre">method=&lt;MergeMethod.squash:</span> <span class="pre">2&gt;</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githubhandler.html#GitHubHandler.merge_pr"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.merge_pr" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">async</span> </em><span class="sig-name descname"><span class="pre">merge_pr</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">number</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">message</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sha</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">MergeMethod.squash</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/githubhandler.html#GitHubHandler.merge_pr"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.githubhandler.GitHubHandler.merge_pr" title="Permalink to this definition">¶</a></dt>
 <dd><p>Merge a PR</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -1306,7 +1305,7 @@ and <code class="docutils literal notranslate"><span class="pre">identifier</spa
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

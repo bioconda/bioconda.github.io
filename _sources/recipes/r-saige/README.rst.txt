@@ -31,10 +31,10 @@ r-saige
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.44.5-1</code>,  <code>0.44.5-0</code>,  <code>0.44.2-0</code>,  <code>0.44.1-0</code>,  <code>0.44.0-0</code>,  <code>0.43.3-0</code>,  <code>0.43.0-0</code>,  <code>0.42.1-1</code>,  <code>0.42.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.44.6.1-0</code>,  <code>0.44.6-0</code>,  <code>0.44.5-1</code>,  <code>0.44.5-0</code>,  <code>0.44.2-0</code>,  <code>0.44.1-0</code>,  <code>0.44.0-0</code>,  <code>0.43.3-0</code>,  <code>0.43.0-0</code>,  </span></summary>
       
 
-      ``0.44.5-1``,  ``0.44.5-0``,  ``0.44.2-0``,  ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.0-0``,  ``0.42.1-1``,  ``0.42.1-0``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.39.0-1``,  ``0.39.0-0``,  ``0.35.8.8-2``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
+      ``0.44.6.1-0``,  ``0.44.6-0``,  ``0.44.5-1``,  ``0.44.5-0``,  ``0.44.2-0``,  ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.0-0``,  ``0.42.1-1``,  ``0.42.1-0``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.39.0-1``,  ``0.39.0-0``,  ``0.35.8.8-2``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
 
       
       .. raw:: html
@@ -53,11 +53,12 @@ r-saige
    :depends r-data.table: 
    :depends r-matrix: 
    :depends r-optparse: 
+   :depends r-qlcmatrix: 
    :depends r-rcpp: 
    :depends r-rcppparallel: 
    :depends r-spatest: ``3.1.2.*``
    :depends savvy: ``2.0.1.*``
-   :depends sqlite: ``>=3.35.5,<4.0a0``
+   :depends sqlite: ``>=3.36.0,<4.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :depends zstd: ``>=1.4.9,<1.5.0a0``
    :requirements:

@@ -87,7 +87,7 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -108,13 +108,13 @@
 <dd><p>Toolkit for performing differential expression with DESeq2.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://deseqanalysis.acidgenomics.com/">https://deseqanalysis.acidgenomics.com/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://r.acidgenomics.com/packages/deseqanalysis/">https://r.acidgenomics.com/packages/deseqanalysis/</a></p>
 </dd>
 <dt class="field-even">Developer docs</dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/acidgenomics/DESeqAnalysis">https://github.com/acidgenomics/DESeqAnalysis</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/acidgenomics/r-deseqanalysis">https://github.com/acidgenomics/r-deseqanalysis</a></p>
 </dd>
 <dt class="field-odd">License</dt>
-<dd class="field-odd"><p>MIT</p>
+<dd class="field-odd"><p>GPL / AGPL-3.0</p>
 </dd>
 <dt class="field-even">Recipe</dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deseqanalysis">r-deseqanalysis</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deseqanalysis/meta.yaml">meta.yaml</a></p>
@@ -128,31 +128,25 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-deseqanalysis"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-deseqanalysis.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-deseqanalysis"><img alt="docker_r-deseqanalysis" src="https://quay.io/repository/biocontainers/r-deseqanalysis/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.3.10-2</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.2.20-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.3.10-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.20-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.20-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.19-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.18-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.18-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.17-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.16-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.15-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.14-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.13-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.12-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.11-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.3.10-2</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.2-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.4.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.10-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.20-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.20-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.19-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.18-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.18-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.17-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.16-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.15-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.14-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.13-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.12-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.11-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocgenerics/README.html#package-bioconductor-biocgenerics" title="bioconductor-biocgenerics package"><strong>bioconductor-biocgenerics</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.32</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-deseq2/README.html#package-bioconductor-deseq2" title="bioconductor-deseq2 package"><strong>bioconductor-deseq2</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.26</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-iranges/README.html#package-bioconductor-iranges" title="bioconductor-iranges package"><strong>bioconductor-iranges</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.20</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-s4vectors/README.html#package-bioconductor-s4vectors" title="bioconductor-s4vectors package"><strong>bioconductor-s4vectors</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.24</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-summarizedexperiment/README.html#package-bioconductor-summarizedexperiment" title="bioconductor-summarizedexperiment package"><strong>bioconductor-summarizedexperiment</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.16</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../r-acidgenerics/README.html#package-r-acidgenerics" title="r-acidgenerics package"><strong>r-acidgenerics</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.3.0</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../r-acidplots/README.html#package-r-acidplots" title="r-acidplots package"><strong>r-acidplots</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.2.22</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-apeglm/README.html#package-bioconductor-apeglm" title="bioconductor-apeglm package"><strong>bioconductor-apeglm</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.12</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-deseq2/README.html#package-bioconductor-deseq2" title="bioconductor-deseq2 package"><strong>bioconductor-deseq2</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.30</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tximport/README.html#package-bioconductor-tximport" title="bioconductor-tximport package"><strong>bioconductor-tximport</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.18</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../r-acidgenerics/README.html#package-r-acidgenerics" title="r-acidgenerics package"><strong>r-acidgenerics</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.5.18</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../r-acidplots/README.html#package-r-acidplots" title="r-acidplots package"><strong>r-acidplots</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.3.7</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ashr-feedstock"><strong>r-ashr</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.2</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-base-feedstock"><strong>r-base</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=4.1,&lt;4.2.0a0</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../r-basejump/README.html#package-r-basejump" title="r-basejump package"><strong>r-basejump</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.12.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-cowplot-feedstock"><strong>r-cowplot</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.2</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../r-goalie/README.html#package-r-goalie" title="r-goalie package"><strong>r-goalie</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.4.1</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-knitr-feedstock"><strong>r-knitr</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.25</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-rlang-feedstock"><strong>r-rlang</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.4</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-stringr-feedstock"><strong>r-stringr</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-upsetr-feedstock"><strong>r-upsetr</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-viridis-feedstock"><strong>r-viridis</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.5</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../r-basejump/README.html#package-r-basejump" title="r-basejump package"><strong>r-basejump</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.14.19</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/r-ggplot2-feedstock"><strong>r-ggplot2</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.3.5</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../r-goalie/README.html#package-r-goalie" title="r-goalie package"><strong>r-goalie</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.5.2</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../r-acidgsea/README.html#r-acidgsea"><strong class="xref backref">r-acidgsea</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../r-bcbiornaseq/README.html#r-bcbiornaseq"><strong class="xref backref">r-bcbiornaseq</strong></a></p></li>
 </ul>
 </dd>
@@ -193,7 +187,7 @@
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.3</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

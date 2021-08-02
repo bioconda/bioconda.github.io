@@ -27,20 +27,20 @@ prophane
       
       
 
-      ``6.1-0``,  ``6.0.5-0``,  ``6.0.1-0``,  ``4.0.5-1``,  ``4.0.5-0``,  ``4.0.3-0``,  ``4.0.2-0``
+      ``6.2.1-0``,  ``6.1-0``,  ``6.0.5-0``,  ``6.0.1-0``,  ``4.0.5-1``,  ``4.0.5-0``,  ``4.0.3-0``,  ``4.0.2-0``
 
       
 
    
-   :depends biopython: 
-   :depends click: 
-   :depends gitpython: 
-   :depends mamba: 
-   :depends openpyxl: 
-   :depends pandas: 
-   :depends pyteomics: 
-   :depends pytools: 
-   :depends snakemake: ``>=5.7``
+   :depends biopython: ``>=1.79``
+   :depends click: ``>=8.0.1``
+   :depends gitpython: ``>=3.1.18``
+   :depends mamba: ``>=0.14.1``
+   :depends openpyxl: ``>=3.0.7``
+   :depends pandas: ``>=1.3.0``
+   :depends pyteomics: ``>=4.4.2``
+   :depends pytools: ``>=2021.2.7``
+   :depends snakemake-minimal: ``>=6.5.3``
    :requirements:
 
    .. rubric:: Installation
