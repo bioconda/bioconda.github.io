@@ -28,14 +28,15 @@ genonets
       
       
 
-      ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
+      ``2.0-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
 
       
 
    
-   :depends numpy: ``>=1.8.2``
+   :depends numpy: ``>=1.19``
    :depends python: 
-   :depends python-igraph: ``>=0.7.1.post6``
+   :depends python-igraph: ``>=0.8.2``
+   :depends tqdm: ``>=4.49.0``
    :requirements:
 
    .. rubric:: Installation

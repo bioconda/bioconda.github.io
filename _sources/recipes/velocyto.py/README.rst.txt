@@ -28,7 +28,7 @@ velocyto.py
       
       
 
-      ``0.17.17-3``,  ``0.17.17-2``,  ``0.17.17-1``,  ``0.17.17-0``
+      ``0.17.17-4``,  ``0.17.17-3``,  ``0.17.17-2``,  ``0.17.17-1``,  ``0.17.17-0``
 
       
 
@@ -45,6 +45,7 @@ velocyto.py
    :depends pysam: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
+   :depends samtools: 
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:
