@@ -27,11 +27,30 @@ megapath-nano
       
       
 
-      
+      ``1.0-0``
 
       
 
    
+   :depends bcftools: ``1.9.*``
+   :depends bioconvert: ``0.4.3.*``
+   :depends biopython: ``1.72.*``
+   :depends cgecore: ``1.5.6.*``
+   :depends filetype: ``1.0.7.*``
+   :depends libdeflate: ``1.6.*``
+   :depends minimap2: ``2.21.*``
+   :depends ncbi-amrfinderplus: ``3.10.5.*``
+   :depends pandas: ``1.1.5.*``
+   :depends porechop: ``0.2.4.*``
+   :depends psutil: ``5.6.5.*``
+   :depends pyahocorasick: ``1.1.7.*``
+   :depends pybedtools: ``0.8.0.*``
+   :depends pysam: ``0.16.0.*``
+   :depends python: ``3.6.10.*``
+   :depends rgi: ``5.2.0.*``
+   :depends samtools: ``1.9.*``
+   :depends seqtk: ``1.3.*``
+   :depends tabulate: ``0.8.9.*``
    :requirements:
 
    .. rubric:: Installation
