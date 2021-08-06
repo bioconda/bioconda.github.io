@@ -27,13 +27,16 @@ orsum
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
+   :depends matplotlib-base: ``>=3.3.0``
    :depends numpy: ``>=1.18.0``
+   :depends pandas: ``>=1.2.0``
    :depends python: ``>=3.6``
+   :depends seaborn: ``>=0.11.0``
    :requirements:
 
    .. rubric:: Installation

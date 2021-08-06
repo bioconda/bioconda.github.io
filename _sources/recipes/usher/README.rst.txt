@@ -28,10 +28,10 @@ usher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
+      ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ usher
    
    :depends biopython: 
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libprotobuf: ``>=3.15.8,<3.16.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends mafft: 
    :depends python: 
    :depends ucsc-fatovcf: 

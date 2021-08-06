@@ -27,14 +27,14 @@ jass_preprocessing
       
       
 
-      ``2.0.1-0``,  ``2.0-0``,  ``1.0-0``
+      ``2.1-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0-0``
 
       
 
    
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.6``
    :depends scipy: 
    :depends seaborn: 
    :requirements:
