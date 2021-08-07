@@ -28,13 +28,14 @@ rnastructure
       
       
 
-      ``6.1-2``,  ``6.1-1``,  ``6.1-0``,  ``6.0-1``,  ``6.0-0``,  ``5.7-2``,  ``5.7-1``,  ``5.7-0``
+      ``6.3-0``,  ``6.1-2``,  ``6.1-1``,  ``6.1-0``,  ``6.0-1``,  ``6.0-0``,  ``5.7-2``,  ``5.7-1``,  ``5.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
