@@ -29,10 +29,10 @@ r-acidgenomes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.15-0</code>,  <code>0.2.14-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-2</code>,  <code>0.2.12-1</code>,  <code>0.2.12-0</code>,  <code>0.2.11-2</code>,  <code>0.2.11-0</code>,  <code>0.1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.16-0</code>,  <code>0.2.15-0</code>,  <code>0.2.14-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-2</code>,  <code>0.2.12-1</code>,  <code>0.2.12-0</code>,  <code>0.2.11-2</code>,  <code>0.2.11-0</code>,  </span></summary>
       
 
-      ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html

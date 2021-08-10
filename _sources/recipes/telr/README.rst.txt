@@ -27,12 +27,12 @@ telr
       
       
 
-      ``0.2-0``
+      ``0.2-1``,  ``0.2-0``
 
       
 
    
-   :depends bcftools: 
+   :depends bcftools: ``1.9.*``
    :depends bedtools: 
    :depends biopython: 
    :depends flye: 
@@ -45,7 +45,7 @@ telr
    :depends python: ``>=3.6``
    :depends repeatmasker: ``4.0.7.*``
    :depends rmblast: ``2.6.0.*``
-   :depends samtools: ``>=1.9``
+   :depends samtools: ``1.9.*``
    :depends seqtk: 
    :depends sniffles: ``>=1.0.12``
    :depends wtdbg: ``>=2.5``
