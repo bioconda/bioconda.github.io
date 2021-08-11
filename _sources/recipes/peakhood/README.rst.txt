@@ -10,7 +10,7 @@ peakhood
    :replaces_section_title:
    :noindex:
 
-   Authentic site context extraction for CLIP\-Seq peak regions
+   Individual site context extraction for CLIP\-Seq peak regions
 
    :homepage: https://github.com/BackofenLab/Peakhood
    :license: MIT
@@ -27,7 +27,7 @@ peakhood
       
       
 
-      ``0.1-0``
+      ``0.2-0``,  ``0.1-0``
 
       
 

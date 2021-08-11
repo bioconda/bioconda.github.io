@@ -27,18 +27,41 @@ metasnv
       
       
 
-      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``2.0.0-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
+   :depends bioconductor-biocparallel: ``>=1.26``
    :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends pandoc: ``>=2.1``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
+   :depends r-ape: 
+   :depends r-base: ``>=4.0``
+   :depends r-batchtools: 
+   :depends r-cairo: 
+   :depends r-cluster: 
+   :depends r-data.table: 
+   :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-forcats: 
+   :depends r-fpc: 
+   :depends r-futile.logger: 
+   :depends r-getopt: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-gridextra: 
+   :depends r-kableextra: 
+   :depends r-optparse: 
+   :depends r-readr: 
+   :depends r-reshape2: 
+   :depends r-rmarkdown: 
+   :depends r-tidyr: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 

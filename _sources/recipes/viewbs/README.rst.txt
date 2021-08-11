@@ -27,12 +27,12 @@ viewbs
       
       
 
-      ``0.1.10-0``,  ``0.1.9-0``
+      ``0.1.10-1``,  ``0.1.10-0``,  ``0.1.9-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-db-hts: ``>=3.0.1``
    :depends perl-bioperl: ``>=1.7.2``
