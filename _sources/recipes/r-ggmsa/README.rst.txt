@@ -27,7 +27,7 @@ r-ggmsa
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -42,9 +42,9 @@ r-ggmsa
    :depends r-ggplot2: 
    :depends r-magrittr: 
    :depends r-rcolorbrewer: 
+   :depends r-seqmagick: 
    :depends r-stringr: 
    :depends r-tidyr: 
-   :depends seqmagick: 
    :requirements:
 
    .. rubric:: Installation

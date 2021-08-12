@@ -10,7 +10,7 @@ duet
    :replaces_section_title:
    :noindex:
 
-   Fast and Accurate Novel SV Calling and Haplotyping
+   SNP\-Assisted Phased SV Detection from Low\-depth Long\-reads
 
    :homepage: https://github.com/yekaizhou/duet
    :license: BSD / BSD-3-Clause
@@ -27,7 +27,7 @@ duet
       
       
 
-      ``0.2-0``
+      ``0.3-0``,  ``0.2-0``
 
       
 
