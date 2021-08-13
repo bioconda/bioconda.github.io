@@ -27,7 +27,7 @@ semibin
       
       
 
-      ``0.2-1``,  ``0.2-0``
+      ``0.3-0``,  ``0.2-1``,  ``0.2-0``
 
       
 
@@ -35,14 +35,14 @@ semibin
    :depends atomicwrites: 
    :depends bedtools: 
    :depends biopython: 
-   :depends fraggenescan: 
+   :depends fraggenescan: ``1.30.*``
    :depends hmmer: 
    :depends mmseqs2: ``13.45111.*``
-   :depends numpy: 
+   :depends numpy: ``>=1.20``
    :depends pandas: 
    :depends python: 
    :depends python-igraph: 
-   :depends pytorch: ``1.5.*``
+   :depends pytorch: ``1.8.*``
    :depends pyyaml: 
    :depends requests: 
    :depends scikit-learn: 

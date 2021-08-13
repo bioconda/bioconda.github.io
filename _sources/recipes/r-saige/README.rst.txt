@@ -31,10 +31,10 @@ r-saige
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.44.6.1-0</code>,  <code>0.44.6-0</code>,  <code>0.44.5-1</code>,  <code>0.44.5-0</code>,  <code>0.44.2-0</code>,  <code>0.44.1-0</code>,  <code>0.44.0-0</code>,  <code>0.43.3-0</code>,  <code>0.43.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.44.6.2-0</code>,  <code>0.44.6.1-0</code>,  <code>0.44.6-0</code>,  <code>0.44.5-1</code>,  <code>0.44.5-0</code>,  <code>0.44.2-0</code>,  <code>0.44.1-0</code>,  <code>0.44.0-0</code>,  <code>0.43.3-0</code>,  </span></summary>
       
 
-      ``0.44.6.1-0``,  ``0.44.6-0``,  ``0.44.5-1``,  ``0.44.5-0``,  ``0.44.2-0``,  ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.0-0``,  ``0.42.1-1``,  ``0.42.1-0``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.39.0-1``,  ``0.39.0-0``,  ``0.35.8.8-2``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
+      ``0.44.6.2-0``,  ``0.44.6.1-0``,  ``0.44.6-0``,  ``0.44.5-1``,  ``0.44.5-0``,  ``0.44.2-0``,  ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.0-0``,  ``0.42.1-1``,  ``0.42.1-0``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.39.0-1``,  ``0.39.0-0``,  ``0.35.8.8-2``,  ``0.35.8.8-1``,  ``0.35.8.8-0``
 
       
       .. raw:: html
@@ -46,9 +46,9 @@ r-saige
    :depends bgenix: ``1.1.4.*``
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=3.6,<3.7.0a0``
    :depends r-data.table: 
    :depends r-matrix: 

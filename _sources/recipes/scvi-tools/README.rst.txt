@@ -31,10 +31,10 @@ scvi-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.2-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  </span></summary>
       
 
-      ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.7.0b0-0``,  ``0.7.0a6-0``,  ``0.7.0a5-0``,  ``0.7.0a4-1``,  ``0.7.0a4-0``
+      ``0.12.2-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.7.0b0-0``,  ``0.7.0a6-0``,  ``0.7.0a5-0``,  ``0.7.0a4-1``,  ``0.7.0a4-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ scvi-tools
    
    :depends anndata: ``>=0.7.5``
    :depends h5py: ``>=2.9.0``
-   :depends hyperopt: ``0.1.2``
+   :depends importlib_metadata: 
    :depends ipywidgets: ``>=7.5.1``
    :depends numba: ``>=0.41.0``
    :depends numpy: ``>=1.17.0``
@@ -55,7 +55,7 @@ scvi-tools
    :depends pyro-ppl: ``>=1.6.0``
    :depends python: ``>=3.7``
    :depends pytorch: ``>=1.8.0``
-   :depends pytorch-lightning: ``>=1.3``
+   :depends pytorch-lightning: ``>=1.3,<1.4``
    :depends rich: ``>=9.12.4``
    :depends scikit-learn: ``>=0.21.2``
    :depends toml: ``>=0.10.1``
