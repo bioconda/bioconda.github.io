@@ -27,7 +27,7 @@ celltypist
       
       
 
-      ``0.1.3-1``,  ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``
 
       
 
@@ -37,7 +37,7 @@ celltypist
    :depends numpy: ``>=1.19.0``
    :depends openpyxl: ``>=3.0.4``
    :depends pandas: ``>=1.0.5``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.6``
    :depends requests: ``>=2.23.0``
    :depends scanpy: ``>=1.7.0``
    :depends scikit-learn: ``>=0.24.1``
