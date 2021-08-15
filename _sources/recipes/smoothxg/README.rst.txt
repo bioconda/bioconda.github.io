@@ -27,14 +27,14 @@ smoothxg
       
       
 
-      ``0.5.2-0``
+      ``0.6.0-0``,  ``0.5.2-0``
 
       
 
    
    :depends jemalloc: ``>=5.2.1``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :depends zstd: ``>=1.4.9,<1.5.0a0``
    :requirements:
