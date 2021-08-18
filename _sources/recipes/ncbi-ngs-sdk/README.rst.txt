@@ -28,10 +28,10 @@ ncbi-ngs-sdk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.0-0</code>,  <code>2.10.9-1</code>,  <code>2.10.9-0</code>,  <code>2.10.4-1</code>,  <code>2.10.4-0</code>,  <code>2.10.2-0</code>,  <code>2.10.1-0</code>,  <code>2.10.0-0</code>,  <code>2.9.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11.1-0</code>,  <code>2.11.0-0</code>,  <code>2.10.9-1</code>,  <code>2.10.9-0</code>,  <code>2.10.4-1</code>,  <code>2.10.4-0</code>,  <code>2.10.2-0</code>,  <code>2.10.1-0</code>,  <code>2.10.0-0</code>,  </span></summary>
       
 
-      ``2.11.0-0``,  ``2.10.9-1``,  ``2.10.9-0``,  ``2.10.4-1``,  ``2.10.4-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
+      ``2.11.1-0``,  ``2.11.0-0``,  ``2.10.9-1``,  ``2.10.9-0``,  ``2.10.4-1``,  ``2.10.4-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.3-0``,  ``2.9.1-0``,  ``2.9.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ ncbi-ngs-sdk
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libiconv: ``>=1.16,<1.17.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends libxml2: ``>=2.9.10,<2.10.0a0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libxml2: ``>=2.9.12,<2.10.0a0``
    :requirements:
 
    .. rubric:: Installation
