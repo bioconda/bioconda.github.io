@@ -27,7 +27,7 @@ ultra_bioinformatics
       
       
 
-      ``0.0.3.3-0``
+      ``0.0.3.3-1``,  ``0.0.3.3-0``
 
       
 
@@ -36,6 +36,7 @@ ultra_bioinformatics
    :depends edlib: 
    :depends gffutils: 
    :depends intervaltree: 
+   :depends minimap2: 
    :depends mummer: 
    :depends parasail-python: 
    :depends pysam: 

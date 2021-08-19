@@ -15,7 +15,7 @@ labrat
    :homepage: https://github.com/TaliaferroLab/LABRAT
    :license: MIT / MIT
    :recipe: /`labrat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/labrat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/labrat/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1101/2020.10.05.326702`
+   :links: https: :https:`//bmcgenomics.biomedcentral.com/articles/10.1186/s12864-021-07781-1`
 
    
 
@@ -28,7 +28,7 @@ labrat
       
       
 
-      ``0.3.0-0``,  ``0.2.2-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``
 
       
 
