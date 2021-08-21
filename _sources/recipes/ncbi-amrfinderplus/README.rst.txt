@@ -33,10 +33,10 @@ ncbi-amrfinderplus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.10.5-0</code>,  <code>3.10.1-1</code>,  <code>3.10.1-0</code>,  <code>3.9.8-0</code>,  <code>3.9.3-0</code>,  <code>3.8.28-0</code>,  <code>3.8.4-1</code>,  <code>3.8.4-0</code>,  <code>3.6.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.10.14-0</code>,  <code>3.10.5-0</code>,  <code>3.10.1-1</code>,  <code>3.10.1-0</code>,  <code>3.9.8-0</code>,  <code>3.9.3-0</code>,  <code>3.8.28-0</code>,  <code>3.8.4-1</code>,  <code>3.8.4-0</code>,  </span></summary>
       
 
-      ``3.10.5-0``,  ``3.10.1-1``,  ``3.10.1-0``,  ``3.9.8-0``,  ``3.9.3-0``,  ``3.8.28-0``,  ``3.8.4-1``,  ``3.8.4-0``,  ``3.6.15-0``,  ``3.6.10-0``,  ``3.6.7-0``,  ``3.6.4-0``,  ``3.2.3-0``,  ``3.2.1-0``,  ``3.1.1b-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.9-0``,  ``3.0.8-0``
+      ``3.10.14-0``,  ``3.10.5-0``,  ``3.10.1-1``,  ``3.10.1-0``,  ``3.9.8-0``,  ``3.9.3-0``,  ``3.8.28-0``,  ``3.8.4-1``,  ``3.8.4-0``,  ``3.6.15-0``,  ``3.6.10-0``,  ``3.6.7-0``,  ``3.6.4-0``,  ``3.2.3-0``,  ``3.2.1-0``,  ``3.1.1b-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.9-0``,  ``3.0.8-0``
 
       
       .. raw:: html
@@ -48,9 +48,9 @@ ncbi-amrfinderplus
    :depends blast: ``>=2.9``
    :depends curl: 
    :depends hmmer: ``>=3.2``
-   :depends libcurl: ``>=7.76.0,<8.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcurl: ``>=7.78.0,<8.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
