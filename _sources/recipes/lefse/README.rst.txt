@@ -13,7 +13,7 @@ lefse
    LDA Effect Size \(LEfSe\) \(Segata et. al 2010\) is an algorithm for high\-dimensional biomarker discovery and explanation that identifies genomic features \(genes\, pathways\, or taxa\) characterizing the differences between two or more biological conditions.
 
    :homepage: https://github.com/SegataLab/lefse
-   :license: Custom
+   :license: MIT
    :recipe: /`lefse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lefse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lefse/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ lefse
       
       
 
-      ``1.1.1-0``,  ``1.0.8.post1-2``,  ``1.0.8.post1-1``,  ``1.0.8.post1-0``,  ``1.0.7.post1-0``,  ``1.0.7-2``,  ``1.0.7-1``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.8.post1-2``,  ``1.0.8.post1-1``,  ``1.0.8.post1-0``,  ``1.0.7.post1-0``,  ``1.0.7-2``,  ``1.0.7-1``
 
       
 
@@ -74,10 +74,6 @@ lefse
 
 
 
-
-Notes
------
-Prefix with \'lefse\-\'\' some script names that are rather generic\: \'format\_input.py\'\, \'plot\_cladogram.py\'\, \'plot\_features.py\'\, \'plot\_res.py\'.
 
 
 Link to this page
