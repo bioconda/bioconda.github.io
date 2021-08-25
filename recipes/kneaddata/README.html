@@ -105,7 +105,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">kneaddata</span></span></dt>
-<dd><p>KneadData is a tool designed to perform quality control on metagenomic and metatranscriptomic sequencing data, especially data from microbiome experiments.</p>
+<dd><p>KneadData is a tool designed to perform quality control on metagenomic sequencing data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="http://huttenhower.sph.harvard.edu/kneaddata">http://huttenhower.sph.harvard.edu/kneaddata</a></p>
@@ -117,22 +117,22 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kneaddata">kneaddata</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kneaddata/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>KneadData is a tool designed to perform quality control on metagenomic sequencing data, especially data from microbiome experiments. In these experiments, samples are typically taken from a host in hopes of learning something about the microbial community on the host. However, metagenomic sequencing data from such experiments will often contain a high ratio of host to bacterial reads. This tool aims to perform principled in silico separation of bacterial reads from these &quot;contaminant&quot; reads, be they from the host, from bacterial 16S sequences, or other user-defined sources.</p>
 </dd></dl>
 
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-kneaddata">
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">kneaddata</span></span><a class="headerlink" href="#package-kneaddata" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/kneaddata"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/kneaddata.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/kneaddata"><img alt="docker_kneaddata" src="https://quay.io/repository/biocontainers/kneaddata/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.7.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.2-0</span></code></p>
-</dd>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.7.4-1</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.9.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.2-0</span></code></p>
+</details></dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bmtagger/README.html#package-bmtagger" title="bmtagger package"><strong>bmtagger</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bowtie2/README.html#package-bowtie2" title="bowtie2 package"><strong>bowtie2</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bowtie2/README.html#package-bowtie2" title="bowtie2 package"><strong>bowtie2</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=2.2</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../fastqc/README.html#package-fastqc" title="fastqc package"><strong>fastqc</strong></a></p></li>
-<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../trf/README.html#package-trf" title="trf package"><strong>trf</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../trimmomatic/README.html#package-trimmomatic" title="trimmomatic package"><strong>trimmomatic</strong></a></p></li>

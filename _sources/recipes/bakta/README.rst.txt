@@ -29,10 +29,10 @@ bakta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0-0</code>,  <code>0.5-0</code>,  <code>0.4-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0-0</code>,  <code>0.5-0</code>,  <code>0.4-0</code>,  <code>0.3.2-0</code>,  </span></summary>
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
+      ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
 
       
       .. raw:: html
@@ -41,13 +41,14 @@ bakta
       
 
    
+   :depends alive-progress: ``>=1.6.2``
    :depends aragorn: ``>=1.2.38``
    :depends biopython: ``>=1.78``
    :depends blast: ``>=2.7.1``
-   :depends diamond: ``>=2.0.6``
+   :depends diamond: ``>=2.0.11``
    :depends hmmer: ``>=3.3.1``
    :depends infernal: ``>=1.1.4``
-   :depends ncbi-amrfinderplus: ``>=3.10.1``
+   :depends ncbi-amrfinderplus: ``>=3.10.14``
    :depends piler-cr: 
    :depends prodigal: ``>=2.6.3``
    :depends python: ``>=3``

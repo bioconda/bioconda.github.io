@@ -27,17 +27,20 @@ smallgenomeutilities
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``,  ``0.1-0``
+      ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
+   :depends bcbio-gff: 
    :depends biopython: 
+   :depends mafft: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends progress: 
    :depends pysam: ``>=0.16``
+   :depends pysamstats: 
    :depends python: ``>=3.6``
    :depends pyyaml: 
    :depends scikit-learn: 

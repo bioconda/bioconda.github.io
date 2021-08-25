@@ -10,13 +10,13 @@ kneaddata
    :replaces_section_title:
    :noindex:
 
-   KneadData is a tool designed to perform quality control on metagenomic and metatranscriptomic sequencing data\, especially data from microbiome experiments.
+   KneadData is a tool designed to perform quality control on metagenomic sequencing data.
 
    :homepage: http://huttenhower.sph.harvard.edu/kneaddata
    :license: MIT / MIT
    :recipe: /`kneaddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kneaddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kneaddata/meta.yaml>`_
 
-   
+   KneadData is a tool designed to perform quality control on metagenomic sequencing data\, especially data from microbiome experiments. In these experiments\, samples are typically taken from a host in hopes of learning something about the microbial community on the host. However\, metagenomic sequencing data from such experiments will often contain a high ratio of host to bacterial reads. This tool aims to perform principled in silico separation of bacterial reads from these \"contaminant\" reads\, be they from the host\, from bacterial 16S sequences\, or other user\-defined sources.
 
 
 .. conda:package:: kneaddata
@@ -26,16 +26,23 @@ kneaddata
    :versions:
       
       
+      .. raw:: html
 
-      ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.5.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.7.4-1</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-0</code>,  </span></summary>
+      
 
+      ``0.9.0-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.5.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bmtagger: 
-   :depends bowtie2: 
+   :depends bowtie2: ``>=2.2``
    :depends fastqc: 
-   :depends python: 
+   :depends python: ``>=3``
    :depends samtools: 
    :depends trf: 
    :depends trimmomatic: 
