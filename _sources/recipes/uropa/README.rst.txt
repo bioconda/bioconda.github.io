@@ -87,10 +87,23 @@ uropa
 .. _`uropa/tags`: https://quay.io/repository/biocontainers/uropa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "uropa";
+        var versions = ["4.0.2","4.0.1","4.0.0","3.5.3","3.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

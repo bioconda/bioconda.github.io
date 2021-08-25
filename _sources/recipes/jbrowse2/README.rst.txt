@@ -28,7 +28,7 @@ jbrowse2
       
       
 
-      ``1.3.3-0``,  ``1.3.2-0``
+      ``1.3.5-0``,  ``1.3.3-0``,  ``1.3.2-0``
 
       
 
@@ -65,10 +65,23 @@ jbrowse2
 .. _`jbrowse2/tags`: https://quay.io/repository/biocontainers/jbrowse2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jbrowse2";
+        var versions = ["1.3.5","1.3.3","1.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

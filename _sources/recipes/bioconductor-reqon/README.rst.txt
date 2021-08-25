@@ -64,10 +64,23 @@ bioconductor-reqon
 .. _`bioconductor-reqon/tags`: https://quay.io/repository/biocontainers/bioconductor-reqon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-reqon";
+        var versions = ["1.38.0","1.36.0","1.36.0","1.32.0","1.30.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

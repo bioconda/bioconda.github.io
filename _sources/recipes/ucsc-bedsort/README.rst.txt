@@ -73,10 +73,23 @@ ucsc-bedsort
 .. _`ucsc-bedsort/tags`: https://quay.io/repository/biocontainers/ucsc-bedsort?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-bedsort";
+        var versions = ["377","377","377","377","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

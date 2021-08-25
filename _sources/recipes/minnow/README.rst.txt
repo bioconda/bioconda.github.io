@@ -63,10 +63,23 @@ minnow
 .. _`minnow/tags`: https://quay.io/repository/biocontainers/minnow?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "minnow";
+        var versions = ["1.2","1.1","beta_1.3","beta_1.3","beta_1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

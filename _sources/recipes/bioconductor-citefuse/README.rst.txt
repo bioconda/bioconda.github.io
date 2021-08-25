@@ -82,10 +82,23 @@ bioconductor-citefuse
 .. _`bioconductor-citefuse/tags`: https://quay.io/repository/biocontainers/bioconductor-citefuse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-citefuse";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

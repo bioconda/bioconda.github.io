@@ -62,10 +62,23 @@ perl-module-runtime-conflicts
 .. _`perl-module-runtime-conflicts/tags`: https://quay.io/repository/biocontainers/perl-module-runtime-conflicts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-runtime-conflicts";
+        var versions = ["0.003"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

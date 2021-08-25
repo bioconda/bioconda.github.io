@@ -63,10 +63,23 @@ perl-version-next
 .. _`perl-version-next/tags`: https://quay.io/repository/biocontainers/perl-version-next?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-version-next";
+        var versions = ["1.000","1.000","1.000"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

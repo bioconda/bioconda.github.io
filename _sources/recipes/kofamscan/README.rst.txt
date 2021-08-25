@@ -67,10 +67,23 @@ kofamscan
 .. _`kofamscan/tags`: https://quay.io/repository/biocontainers/kofamscan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kofamscan";
+        var versions = ["1.3.0","1.3.0","1.3.0","1.2.0","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

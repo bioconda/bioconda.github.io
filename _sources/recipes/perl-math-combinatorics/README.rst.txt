@@ -60,10 +60,23 @@ perl-math-combinatorics
 .. _`perl-math-combinatorics/tags`: https://quay.io/repository/biocontainers/perl-math-combinatorics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-combinatorics";
+        var versions = ["0.09","0.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

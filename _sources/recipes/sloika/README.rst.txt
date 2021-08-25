@@ -65,10 +65,23 @@ sloika
 .. _`sloika/tags`: https://quay.io/repository/biocontainers/sloika?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sloika";
+        var versions = ["2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

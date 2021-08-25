@@ -63,10 +63,23 @@ perl-ensembl-io
 .. _`perl-ensembl-io/tags`: https://quay.io/repository/biocontainers/perl-ensembl-io?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ensembl-io";
+        var versions = ["98"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

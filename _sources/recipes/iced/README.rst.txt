@@ -76,10 +76,23 @@ iced
 .. _`iced/tags`: https://quay.io/repository/biocontainers/iced?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "iced";
+        var versions = ["0.5.10","0.5.9","0.5.8","0.5.8","0.5.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

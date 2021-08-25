@@ -68,10 +68,23 @@ geneimpacts
 .. _`geneimpacts/tags`: https://quay.io/repository/biocontainers/geneimpacts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "geneimpacts";
+        var versions = ["0.3.7","0.3.7","0.3.7","0.3.6","0.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -81,10 +81,23 @@ biobb_structure_utils
 .. _`biobb_structure_utils/tags`: https://quay.io/repository/biocontainers/biobb_structure_utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biobb_structure_utils";
+        var versions = ["3.6.1","3.6.0","3.5.3","3.5.2","3.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

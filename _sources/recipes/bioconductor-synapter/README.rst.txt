@@ -72,10 +72,23 @@ bioconductor-synapter
 .. _`bioconductor-synapter/tags`: https://quay.io/repository/biocontainers/bioconductor-synapter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-synapter";
+        var versions = ["2.14.0","2.14.0","2.12.0","2.10.0","2.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

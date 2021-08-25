@@ -60,10 +60,23 @@ smof
 .. _`smof/tags`: https://quay.io/repository/biocontainers/smof?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "smof";
+        var versions = ["2.22.1","2.22.0","2.21.1","2.19.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ mnnpy
 .. _`mnnpy/tags`: https://quay.io/repository/biocontainers/mnnpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mnnpy";
+        var versions = ["0.1.9.5","0.1.9.5","0.1.9.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

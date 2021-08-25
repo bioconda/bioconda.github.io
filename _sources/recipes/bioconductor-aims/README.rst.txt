@@ -71,10 +71,23 @@ bioconductor-aims
 .. _`bioconductor-aims/tags`: https://quay.io/repository/biocontainers/bioconductor-aims?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-aims";
+        var versions = ["1.24.0","1.22.0","1.22.0","1.20.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

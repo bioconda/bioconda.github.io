@@ -62,10 +62,23 @@ r-genomictools.filehandler
 .. _`r-genomictools.filehandler/tags`: https://quay.io/repository/biocontainers/r-genomictools.filehandler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-genomictools.filehandler";
+        var versions = ["0.1.5.9","0.1.5.9","0.1.5.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

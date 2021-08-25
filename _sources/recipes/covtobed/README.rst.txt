@@ -71,10 +71,23 @@ covtobed
 .. _`covtobed/tags`: https://quay.io/repository/biocontainers/covtobed?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "covtobed";
+        var versions = ["1.2.0","1.2.0","1.1.4","1.1.2","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

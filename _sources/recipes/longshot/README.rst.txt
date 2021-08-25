@@ -63,10 +63,23 @@ longshot
 .. _`longshot/tags`: https://quay.io/repository/biocontainers/longshot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "longshot";
+        var versions = ["0.4.1","0.4.1","0.4.0","0.3.5","v0.3.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

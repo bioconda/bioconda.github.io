@@ -69,10 +69,23 @@ bioconductor-biocneighbors
 .. _`bioconductor-biocneighbors/tags`: https://quay.io/repository/biocontainers/bioconductor-biocneighbors?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-biocneighbors";
+        var versions = ["1.10.0","1.8.2","1.8.0","1.6.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

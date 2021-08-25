@@ -83,10 +83,23 @@ r-popgenreport
 .. _`r-popgenreport/tags`: https://quay.io/repository/biocontainers/r-popgenreport?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-popgenreport";
+        var versions = ["3.0.4","3.0.4","3.0.4","3.0.4","3.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

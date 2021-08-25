@@ -63,10 +63,23 @@ bioconductor-illuminamousev1.db
 .. _`bioconductor-illuminamousev1.db/tags`: https://quay.io/repository/biocontainers/bioconductor-illuminamousev1.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-illuminamousev1.db";
+        var versions = ["1.26.0","1.26.0","1.26.0","1.26.0","1.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

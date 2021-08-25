@@ -62,10 +62,23 @@ ococo
 .. _`ococo/tags`: https://quay.io/repository/biocontainers/ococo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ococo";
+        var versions = ["0.1.2.7","0.1.2.7","0.1.2.7","0.1.2.6","0.1.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ dawg
 .. _`dawg/tags`: https://quay.io/repository/biocontainers/dawg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dawg";
+        var versions = ["2.0.beta1","2.0.beta1","2.0.beta1","2.0.beta1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

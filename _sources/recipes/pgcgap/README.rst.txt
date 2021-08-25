@@ -108,10 +108,23 @@ pgcgap
 .. _`pgcgap/tags`: https://quay.io/repository/biocontainers/pgcgap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pgcgap";
+        var versions = ["1.0.32","1.0.31","1.0.30","1.0.29","1.0.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

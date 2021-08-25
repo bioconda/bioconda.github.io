@@ -61,10 +61,23 @@ qiime-default-reference
 .. _`qiime-default-reference/tags`: https://quay.io/repository/biocontainers/qiime-default-reference?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "qiime-default-reference";
+        var versions = ["0.1.3","0.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

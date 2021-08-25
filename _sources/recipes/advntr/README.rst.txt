@@ -84,10 +84,23 @@ advntr
 .. _`advntr/tags`: https://quay.io/repository/biocontainers/advntr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "advntr";
+        var versions = ["1.4.1","1.4.1","1.4.0","1.4.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

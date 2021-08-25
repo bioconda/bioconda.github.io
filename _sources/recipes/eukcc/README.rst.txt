@@ -73,10 +73,23 @@ eukcc
 .. _`eukcc/tags`: https://quay.io/repository/biocontainers/eukcc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "eukcc";
+        var versions = ["2.0","0.3","0.2","0.2","0.1.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

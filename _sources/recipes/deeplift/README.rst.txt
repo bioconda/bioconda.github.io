@@ -65,10 +65,23 @@ deeplift
 .. _`deeplift/tags`: https://quay.io/repository/biocontainers/deeplift?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deeplift";
+        var versions = ["0.6.13.0","0.6.12.0","0.6.10.0","0.6.9.3","0.6.9.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -78,10 +78,23 @@ umi_tools
 .. _`umi_tools/tags`: https://quay.io/repository/biocontainers/umi_tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "umi_tools";
+        var versions = ["1.1.2","1.1.1","1.1.1","1.1.0","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

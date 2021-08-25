@@ -65,10 +65,23 @@ hicup
 .. _`hicup/tags`: https://quay.io/repository/biocontainers/hicup?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hicup";
+        var versions = ["0.8.2","0.8.1","0.7.3","0.7.3","0.7.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

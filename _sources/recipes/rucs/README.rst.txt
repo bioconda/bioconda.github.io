@@ -69,10 +69,23 @@ rucs
 .. _`rucs/tags`: https://quay.io/repository/biocontainers/rucs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rucs";
+        var versions = ["1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

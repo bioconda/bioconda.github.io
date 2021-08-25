@@ -74,10 +74,23 @@ mageck-vispr
 .. _`mageck-vispr/tags`: https://quay.io/repository/biocontainers/mageck-vispr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mageck-vispr";
+        var versions = ["0.5.6","0.5.5","0.5.4","0.5.4","0.5.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

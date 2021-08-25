@@ -67,10 +67,23 @@ bioconductor-rtpca
 .. _`bioconductor-rtpca/tags`: https://quay.io/repository/biocontainers/bioconductor-rtpca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rtpca";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -72,10 +72,23 @@ phanotate
 .. _`phanotate/tags`: https://quay.io/repository/biocontainers/phanotate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phanotate";
+        var versions = ["1.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

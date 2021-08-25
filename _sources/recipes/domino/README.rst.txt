@@ -27,16 +27,16 @@ domino
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends matplotlib-base: 
    :depends networkx: ``2.4.*``
    :depends numpy: ``1.18.1.*``
    :depends pandas: ``1.0.1.*``
    :depends pcst-fast: ``1.0.7.*``
+   :depends python: ``>=3.6,<3.8``
    :depends python-louvain: ``0.14.*``
    :depends scipy: ``1.4.1.*``
    :depends statsmodels: ``0.11.0.*``
@@ -67,10 +67,23 @@ domino
 .. _`domino/tags`: https://quay.io/repository/biocontainers/domino?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "domino";
+        var versions = ["0.1.1","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

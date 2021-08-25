@@ -60,10 +60,23 @@ perl-warnings-register
 .. _`perl-warnings-register/tags`: https://quay.io/repository/biocontainers/perl-warnings-register?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-warnings-register";
+        var versions = ["1.03","1.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

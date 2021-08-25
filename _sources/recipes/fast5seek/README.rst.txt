@@ -62,10 +62,23 @@ fast5seek
 .. _`fast5seek/tags`: https://quay.io/repository/biocontainers/fast5seek?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fast5seek";
+        var versions = ["0.1.1","0.1.1","0.1.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

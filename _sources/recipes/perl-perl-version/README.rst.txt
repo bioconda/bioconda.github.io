@@ -65,10 +65,23 @@ perl-perl-version
 .. _`perl-perl-version/tags`: https://quay.io/repository/biocontainers/perl-perl-version?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-perl-version";
+        var versions = ["1.013","1.013","1.013","1.013"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-chipxpressdata
 .. _`bioconductor-chipxpressdata/tags`: https://quay.io/repository/biocontainers/bioconductor-chipxpressdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-chipxpressdata";
+        var versions = ["1.30.0","1.28.0","1.24.0","1.22.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

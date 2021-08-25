@@ -67,10 +67,23 @@ bioconductor-celltree
 .. _`bioconductor-celltree/tags`: https://quay.io/repository/biocontainers/bioconductor-celltree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-celltree";
+        var versions = ["1.22.0","1.20.0","1.20.0","1.19.0","1.17.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

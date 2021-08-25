@@ -62,10 +62,23 @@ diamond_add_taxonomy
 .. _`diamond_add_taxonomy/tags`: https://quay.io/repository/biocontainers/diamond_add_taxonomy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "diamond_add_taxonomy";
+        var versions = ["0.1.2","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

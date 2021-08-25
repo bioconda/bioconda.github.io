@@ -71,10 +71,23 @@ bioconductor-reder
 .. _`bioconductor-reder/tags`: https://quay.io/repository/biocontainers/bioconductor-reder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-reder";
+        var versions = ["1.40.0","1.38.0","1.38.0","1.36.0","1.34.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

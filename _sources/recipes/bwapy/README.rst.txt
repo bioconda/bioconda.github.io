@@ -64,10 +64,23 @@ bwapy
 .. _`bwapy/tags`: https://quay.io/repository/biocontainers/bwapy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bwapy";
+        var versions = ["0.1.4","0.1.4","0.1.4","0.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

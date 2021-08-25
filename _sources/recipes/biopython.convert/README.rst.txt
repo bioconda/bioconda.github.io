@@ -64,10 +64,23 @@ biopython.convert
 .. _`biopython.convert/tags`: https://quay.io/repository/biocontainers/biopython.convert?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biopython.convert";
+        var versions = ["1.2.0","1.1.0","1.0.4","1.0.3","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

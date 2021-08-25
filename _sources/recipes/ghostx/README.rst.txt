@@ -62,10 +62,23 @@ ghostx
 .. _`ghostx/tags`: https://quay.io/repository/biocontainers/ghostx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ghostx";
+        var versions = ["1.3.7","1.3.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

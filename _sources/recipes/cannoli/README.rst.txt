@@ -69,10 +69,23 @@ cannoli
 .. _`cannoli/tags`: https://quay.io/repository/biocontainers/cannoli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cannoli";
+        var versions = ["0.14.0","0.13.0","0.12.0","0.12.0","0.11.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

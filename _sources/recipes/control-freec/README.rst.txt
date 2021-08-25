@@ -68,6 +68,13 @@ control-freec
 .. _`control-freec/tags`: https://quay.io/repository/biocontainers/control-freec?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "control-freec";
+        var versions = ["11.6","11.6","11.5","11.5","11.4"];
+    </script>
+
 
 
 
@@ -80,6 +87,12 @@ like e.g. freec2bed.pl and freec2circos.pl \(see homepage\) are available in the
 command line as well.
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

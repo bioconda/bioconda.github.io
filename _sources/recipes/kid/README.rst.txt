@@ -60,10 +60,23 @@ kid
 .. _`kid/tags`: https://quay.io/repository/biocontainers/kid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kid";
+        var versions = ["0.9.6","0.9.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

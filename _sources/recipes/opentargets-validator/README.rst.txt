@@ -67,10 +67,23 @@ opentargets-validator
 .. _`opentargets-validator/tags`: https://quay.io/repository/biocontainers/opentargets-validator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "opentargets-validator";
+        var versions = ["0.7.0","0.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

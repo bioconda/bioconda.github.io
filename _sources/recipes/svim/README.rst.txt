@@ -76,10 +76,23 @@ svim
 .. _`svim/tags`: https://quay.io/repository/biocontainers/svim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "svim";
+        var versions = ["1.4.2","1.4.1","1.4.0","1.3.1","1.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

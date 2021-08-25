@@ -61,10 +61,23 @@ prophex
 .. _`prophex/tags`: https://quay.io/repository/biocontainers/prophex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "prophex";
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

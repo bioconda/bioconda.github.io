@@ -61,10 +61,23 @@ perl-sub-attribute
 .. _`perl-sub-attribute/tags`: https://quay.io/repository/biocontainers/perl-sub-attribute?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sub-attribute";
+        var versions = ["0.05","0.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

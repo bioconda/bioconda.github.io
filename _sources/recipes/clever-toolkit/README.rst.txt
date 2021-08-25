@@ -79,10 +79,23 @@ clever-toolkit
 .. _`clever-toolkit/tags`: https://quay.io/repository/biocontainers/clever-toolkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clever-toolkit";
+        var versions = ["2.4","2.4","2.4","2.4","2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ scagaire
 .. _`scagaire/tags`: https://quay.io/repository/biocontainers/scagaire?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scagaire";
+        var versions = ["0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

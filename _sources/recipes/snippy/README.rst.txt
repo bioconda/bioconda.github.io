@@ -85,10 +85,23 @@ snippy
 .. _`snippy/tags`: https://quay.io/repository/biocontainers/snippy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snippy";
+        var versions = ["4.6.0","4.6.0","4.5.1","4.5.0","4.4.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

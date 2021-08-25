@@ -65,10 +65,23 @@ perl-autodie
 .. _`perl-autodie/tags`: https://quay.io/repository/biocontainers/perl-autodie?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-autodie";
+        var versions = ["2.29"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

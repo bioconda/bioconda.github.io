@@ -62,10 +62,23 @@ duplomap
 .. _`duplomap/tags`: https://quay.io/repository/biocontainers/duplomap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "duplomap";
+        var versions = ["0.9.5","0.9.5","0.9.4","0.9.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

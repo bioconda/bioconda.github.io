@@ -64,10 +64,23 @@ seqan3
 .. _`seqan3/tags`: https://quay.io/repository/biocontainers/seqan3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqan3";
+        var versions = ["3.0.3","3.0.2","3.0.2","3.0.1","3.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bioconductor-snifter
 .. _`bioconductor-snifter/tags`: https://quay.io/repository/biocontainers/bioconductor-snifter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-snifter";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

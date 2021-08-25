@@ -71,10 +71,23 @@ vphaser2
 .. _`vphaser2/tags`: https://quay.io/repository/biocontainers/vphaser2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vphaser2";
+        var versions = ["2.0","2.0","2.0","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

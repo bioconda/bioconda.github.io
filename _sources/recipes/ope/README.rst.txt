@@ -65,10 +65,23 @@ ope
 .. _`ope/tags`: https://quay.io/repository/biocontainers/ope?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ope";
+        var versions = ["0.8","0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

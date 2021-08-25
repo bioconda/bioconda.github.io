@@ -62,10 +62,23 @@ bioconductor-mesh.dre.eg.db
 .. _`bioconductor-mesh.dre.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mesh.dre.eg.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mesh.dre.eg.db";
+        var versions = ["1.15.0","1.13.0","1.13.0","1.13.0","1.13.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ genform
 .. _`genform/tags`: https://quay.io/repository/biocontainers/genform?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genform";
+        var versions = ["r8","r8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

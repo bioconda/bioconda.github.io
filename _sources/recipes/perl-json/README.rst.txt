@@ -61,10 +61,23 @@ perl-json
 .. _`perl-json/tags`: https://quay.io/repository/biocontainers/perl-json?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-json";
+        var versions = ["4.02","4.00","2.97001","2.90","2.90"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

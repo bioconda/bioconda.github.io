@@ -65,10 +65,23 @@ lordec
 .. _`lordec/tags`: https://quay.io/repository/biocontainers/lordec?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lordec";
+        var versions = ["0.9","0.9","0.9","0.6","0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

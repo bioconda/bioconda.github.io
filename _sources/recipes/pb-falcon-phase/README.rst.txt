@@ -63,10 +63,23 @@ pb-falcon-phase
 .. _`pb-falcon-phase/tags`: https://quay.io/repository/biocontainers/pb-falcon-phase?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pb-falcon-phase";
+        var versions = ["0.1.0","0.1.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

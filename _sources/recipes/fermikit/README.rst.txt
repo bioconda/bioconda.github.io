@@ -68,10 +68,23 @@ fermikit
 .. _`fermikit/tags`: https://quay.io/repository/biocontainers/fermikit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fermikit";
+        var versions = ["0.14.dev1","0.14.dev1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ clinker-py
 .. _`clinker-py/tags`: https://quay.io/repository/biocontainers/clinker-py?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clinker-py";
+        var versions = ["0.0.21","0.0.20","0.0.19","0.0.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

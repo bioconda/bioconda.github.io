@@ -64,10 +64,23 @@ hilive2
 .. _`hilive2/tags`: https://quay.io/repository/biocontainers/hilive2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hilive2";
+        var versions = ["2.0a","2.0a","2.0a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

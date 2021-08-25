@@ -67,10 +67,23 @@ bioconductor-pd.charm.hg18.example
 .. _`bioconductor-pd.charm.hg18.example/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.charm.hg18.example?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.charm.hg18.example";
+        var versions = ["0.99.4","0.99.4","0.99.4","0.99.4","0.99.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

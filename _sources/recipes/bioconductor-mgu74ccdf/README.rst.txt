@@ -62,10 +62,23 @@ bioconductor-mgu74ccdf
 .. _`bioconductor-mgu74ccdf/tags`: https://quay.io/repository/biocontainers/bioconductor-mgu74ccdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mgu74ccdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

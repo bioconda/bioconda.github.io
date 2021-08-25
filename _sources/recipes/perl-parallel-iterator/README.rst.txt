@@ -61,10 +61,23 @@ perl-parallel-iterator
 .. _`perl-parallel-iterator/tags`: https://quay.io/repository/biocontainers/perl-parallel-iterator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-parallel-iterator";
+        var versions = ["1.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

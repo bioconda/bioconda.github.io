@@ -60,10 +60,23 @@ python-rnacentral
 .. _`python-rnacentral/tags`: https://quay.io/repository/biocontainers/python-rnacentral?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-rnacentral";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

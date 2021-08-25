@@ -62,10 +62,23 @@ bamaddrg
 .. _`bamaddrg/tags`: https://quay.io/repository/biocontainers/bamaddrg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bamaddrg";
+        var versions = ["9baba65f88228e55639689a3cea38dd150e6284f","9baba65f88228e55639689a3cea38dd150e6284f"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

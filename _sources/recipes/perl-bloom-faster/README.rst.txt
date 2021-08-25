@@ -61,10 +61,23 @@ perl-bloom-faster
 .. _`perl-bloom-faster/tags`: https://quay.io/repository/biocontainers/perl-bloom-faster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bloom-faster";
+        var versions = ["1.7","1.7","1.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

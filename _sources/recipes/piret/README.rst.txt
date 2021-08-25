@@ -74,10 +74,23 @@ piret
 .. _`piret/tags`: https://quay.io/repository/biocontainers/piret?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "piret";
+        var versions = ["0.3.4","0.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

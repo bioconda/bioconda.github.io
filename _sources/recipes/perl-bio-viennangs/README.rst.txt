@@ -95,10 +95,23 @@ perl-bio-viennangs
 .. _`perl-bio-viennangs/tags`: https://quay.io/repository/biocontainers/perl-bio-viennangs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-viennangs";
+        var versions = ["v0.19.2","v0.19","v0.18","v0.18","v0.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

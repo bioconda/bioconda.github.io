@@ -64,10 +64,23 @@ perl-moosex-nonmoose
 .. _`perl-moosex-nonmoose/tags`: https://quay.io/repository/biocontainers/perl-moosex-nonmoose?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-nonmoose";
+        var versions = ["0.26","0.26","0.26","0.26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

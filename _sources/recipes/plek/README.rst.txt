@@ -64,10 +64,23 @@ plek
 .. _`plek/tags`: https://quay.io/repository/biocontainers/plek?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plek";
+        var versions = ["1.2","1.2","1.2","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

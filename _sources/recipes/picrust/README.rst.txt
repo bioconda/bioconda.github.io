@@ -66,6 +66,13 @@ picrust
 .. _`picrust/tags`: https://quay.io/repository/biocontainers/picrust?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "picrust";
+        var versions = ["1.1.4","1.1.4","1.1.3","1.1.3","1.1.3"];
+    </script>
+
 
 
 
@@ -74,6 +81,12 @@ Notes
 -----
 PICRUSt requires a set of large pre\-calculated data files. PICRUSt contains a script\, \"download\_picrust\_files.py\"\, which downloads the data in the proper location\, and which can be run after PICRUSt has been installed.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

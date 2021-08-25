@@ -61,10 +61,23 @@ grep
 .. _`grep/tags`: https://quay.io/repository/biocontainers/grep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "grep";
+        var versions = ["3.4","3.4","2.14","2.14","2.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ scxa-plots
 .. _`scxa-plots/tags`: https://quay.io/repository/biocontainers/scxa-plots?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scxa-plots";
+        var versions = ["0.0.1","0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ libbambamc
 .. _`libbambamc/tags`: https://quay.io/repository/biocontainers/libbambamc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libbambamc";
+        var versions = ["0.0.50","0.0.50","0.0.50"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

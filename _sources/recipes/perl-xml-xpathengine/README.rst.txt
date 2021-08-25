@@ -60,10 +60,23 @@ perl-xml-xpathengine
 .. _`perl-xml-xpathengine/tags`: https://quay.io/repository/biocontainers/perl-xml-xpathengine?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-xpathengine";
+        var versions = ["0.14","0.14","0.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

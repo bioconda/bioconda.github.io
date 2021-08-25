@@ -74,10 +74,23 @@ seq-seq-pan
 .. _`seq-seq-pan/tags`: https://quay.io/repository/biocontainers/seq-seq-pan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seq-seq-pan";
+        var versions = ["1.1.0","1.1.0","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

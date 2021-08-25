@@ -62,10 +62,23 @@ pytriangle
 .. _`pytriangle/tags`: https://quay.io/repository/biocontainers/pytriangle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pytriangle";
+        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

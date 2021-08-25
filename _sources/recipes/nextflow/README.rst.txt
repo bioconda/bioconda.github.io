@@ -70,10 +70,23 @@ nextflow
 .. _`nextflow/tags`: https://quay.io/repository/biocontainers/nextflow?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nextflow";
+        var versions = ["21.04.0","20.10.0","20.10.0","20.07.1","20.04.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

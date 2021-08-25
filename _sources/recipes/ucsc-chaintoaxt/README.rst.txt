@@ -65,10 +65,23 @@ ucsc-chaintoaxt
 .. _`ucsc-chaintoaxt/tags`: https://quay.io/repository/biocontainers/ucsc-chaintoaxt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-chaintoaxt";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

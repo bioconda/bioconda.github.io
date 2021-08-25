@@ -61,10 +61,23 @@ genesplicer
 .. _`genesplicer/tags`: https://quay.io/repository/biocontainers/genesplicer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genesplicer";
+        var versions = ["1.0","1.0","0_2003.04.03","0_2003.04.03","0_2003.04.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

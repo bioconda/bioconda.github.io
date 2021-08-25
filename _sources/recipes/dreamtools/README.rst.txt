@@ -73,10 +73,23 @@ dreamtools
 .. _`dreamtools/tags`: https://quay.io/repository/biocontainers/dreamtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dreamtools";
+        var versions = ["1.3.0","1.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

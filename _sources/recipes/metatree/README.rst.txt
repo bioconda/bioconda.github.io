@@ -72,10 +72,23 @@ metatree
 .. _`metatree/tags`: https://quay.io/repository/biocontainers/metatree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metatree";
+        var versions = ["0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

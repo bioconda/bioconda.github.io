@@ -75,10 +75,23 @@ chromosight
 .. _`chromosight/tags`: https://quay.io/repository/biocontainers/chromosight?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chromosight";
+        var versions = ["1.6.1","1.6.0","1.5.1","1.5.0","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

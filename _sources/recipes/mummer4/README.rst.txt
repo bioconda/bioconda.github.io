@@ -62,10 +62,23 @@ mummer4
 .. _`mummer4/tags`: https://quay.io/repository/biocontainers/mummer4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mummer4";
+        var versions = ["4.0.0rc1","4.0.0rc1","4.0.0beta2","4.0.0beta2","4.0.0beta2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

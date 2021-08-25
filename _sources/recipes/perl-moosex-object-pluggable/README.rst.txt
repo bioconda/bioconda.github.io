@@ -65,10 +65,23 @@ perl-moosex-object-pluggable
 .. _`perl-moosex-object-pluggable/tags`: https://quay.io/repository/biocontainers/perl-moosex-object-pluggable?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-object-pluggable";
+        var versions = ["0.0014"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

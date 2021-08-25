@@ -64,10 +64,23 @@ perl-sub-exporter
 .. _`perl-sub-exporter/tags`: https://quay.io/repository/biocontainers/perl-sub-exporter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sub-exporter";
+        var versions = ["0.987","0.987","0.987"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

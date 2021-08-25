@@ -61,10 +61,23 @@ perl-data-compare
 .. _`perl-data-compare/tags`: https://quay.io/repository/biocontainers/perl-data-compare?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-compare";
+        var versions = ["1.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

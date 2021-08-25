@@ -73,10 +73,23 @@ bioconductor-globaltest
 .. _`bioconductor-globaltest/tags`: https://quay.io/repository/biocontainers/bioconductor-globaltest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-globaltest";
+        var versions = ["5.46.0","5.44.0","5.44.0","5.42.0","5.40.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

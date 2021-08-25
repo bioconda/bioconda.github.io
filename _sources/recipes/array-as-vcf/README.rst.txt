@@ -62,10 +62,23 @@ array-as-vcf
 .. _`array-as-vcf/tags`: https://quay.io/repository/biocontainers/array-as-vcf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "array-as-vcf";
+        var versions = ["1.0.1","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

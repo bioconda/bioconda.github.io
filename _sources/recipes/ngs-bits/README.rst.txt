@@ -76,10 +76,23 @@ ngs-bits
 .. _`ngs-bits/tags`: https://quay.io/repository/biocontainers/ngs-bits?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ngs-bits";
+        var versions = ["2021_06","2021_03","2021_03","2020_12","2020_09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

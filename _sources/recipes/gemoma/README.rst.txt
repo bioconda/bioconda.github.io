@@ -68,6 +68,13 @@ gemoma
 .. _`gemoma/tags`: https://quay.io/repository/biocontainers/gemoma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gemoma";
+        var versions = ["1.7.1","1.6.4","1.6.4"];
+    </script>
+
 
 
 
@@ -80,6 +87,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ clairvoyante
 .. _`clairvoyante/tags`: https://quay.io/repository/biocontainers/clairvoyante?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clairvoyante";
+        var versions = ["1.02","1.02","1.02","1.01","1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

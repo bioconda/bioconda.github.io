@@ -66,10 +66,23 @@ sprai
 .. _`sprai/tags`: https://quay.io/repository/biocontainers/sprai?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sprai";
+        var versions = ["0.9.9.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-carp-clan
 .. _`perl-carp-clan/tags`: https://quay.io/repository/biocontainers/perl-carp-clan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-carp-clan";
+        var versions = ["6.07","6.07","6.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

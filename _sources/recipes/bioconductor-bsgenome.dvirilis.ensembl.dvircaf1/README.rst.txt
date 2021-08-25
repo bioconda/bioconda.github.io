@@ -62,10 +62,23 @@ bioconductor-bsgenome.dvirilis.ensembl.dvircaf1
 .. _`bioconductor-bsgenome.dvirilis.ensembl.dvircaf1/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.dvirilis.ensembl.dvircaf1?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.dvirilis.ensembl.dvircaf1";
+        var versions = ["1.4.3","1.4.3","1.4.3","1.4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

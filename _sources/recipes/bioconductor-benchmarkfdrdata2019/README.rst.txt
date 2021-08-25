@@ -63,10 +63,23 @@ bioconductor-benchmarkfdrdata2019
 .. _`bioconductor-benchmarkfdrdata2019/tags`: https://quay.io/repository/biocontainers/bioconductor-benchmarkfdrdata2019?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-benchmarkfdrdata2019";
+        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

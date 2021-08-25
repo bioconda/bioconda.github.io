@@ -65,6 +65,13 @@ mpa-portable
 .. _`mpa-portable/tags`: https://quay.io/repository/biocontainers/mpa-portable?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mpa-portable";
+        var versions = ["2.0.0","2.0.0","2.0.0","2.0.0","1.9.0"];
+    </script>
+
 
 
 
@@ -73,6 +80,12 @@ Notes
 -----
 mpa\-protable is Java program that comes with a custom wrapper Python script.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

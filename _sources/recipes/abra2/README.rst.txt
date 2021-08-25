@@ -63,10 +63,23 @@ abra2
 .. _`abra2/tags`: https://quay.io/repository/biocontainers/abra2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "abra2";
+        var versions = ["2.24","2.23","2.23","2.22","2.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -75,10 +75,23 @@ dunovo
 .. _`dunovo/tags`: https://quay.io/repository/biocontainers/dunovo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dunovo";
+        var versions = ["2.16","2.15","2.15","2.15","2.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

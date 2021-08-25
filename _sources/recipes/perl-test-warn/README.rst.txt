@@ -61,10 +61,23 @@ perl-test-warn
 .. _`perl-test-warn/tags`: https://quay.io/repository/biocontainers/perl-test-warn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-warn";
+        var versions = ["0.36","0.36","0.30","0.30","0.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

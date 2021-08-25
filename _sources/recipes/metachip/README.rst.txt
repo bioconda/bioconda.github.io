@@ -76,10 +76,23 @@ metachip
 .. _`metachip/tags`: https://quay.io/repository/biocontainers/metachip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metachip";
+        var versions = ["1.10.5","1.10.4","1.10.3","1.10.2","1.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

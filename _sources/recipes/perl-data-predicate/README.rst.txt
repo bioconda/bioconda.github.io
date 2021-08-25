@@ -61,10 +61,23 @@ perl-data-predicate
 .. _`perl-data-predicate/tags`: https://quay.io/repository/biocontainers/perl-data-predicate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-predicate";
+        var versions = ["2.1.1","2.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

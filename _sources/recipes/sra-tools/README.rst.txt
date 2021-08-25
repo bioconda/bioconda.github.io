@@ -80,6 +80,13 @@ sra-tools
 .. _`sra-tools/tags`: https://quay.io/repository/biocontainers/sra-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sra-tools";
+        var versions = ["2.11.0","2.10.9","2.10.8","2.10.7","2.10.7"];
+    </script>
+
 
 
 
@@ -88,6 +95,12 @@ Notes
 -----
 After installation\, you should run the configuration tool\: .\/vdb\-config \-i. This tool will setup your download\/cache area for downloaded files and references.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

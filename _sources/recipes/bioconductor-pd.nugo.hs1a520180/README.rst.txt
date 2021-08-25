@@ -68,10 +68,23 @@ bioconductor-pd.nugo.hs1a520180
 .. _`bioconductor-pd.nugo.hs1a520180/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.nugo.hs1a520180?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.nugo.hs1a520180";
+        var versions = ["3.4.0","3.4.0","3.4.0","3.4.0","3.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

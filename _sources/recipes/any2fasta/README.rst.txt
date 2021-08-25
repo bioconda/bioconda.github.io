@@ -60,10 +60,23 @@ any2fasta
 .. _`any2fasta/tags`: https://quay.io/repository/biocontainers/any2fasta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "any2fasta";
+        var versions = ["0.4.2","0.4.2","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

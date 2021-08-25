@@ -62,10 +62,23 @@ egglib
 .. _`egglib/tags`: https://quay.io/repository/biocontainers/egglib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "egglib";
+        var versions = ["3.0.0b21","3.0.0b21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

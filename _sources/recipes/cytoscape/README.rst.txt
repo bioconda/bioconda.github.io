@@ -66,10 +66,23 @@ cytoscape
 .. _`cytoscape/tags`: https://quay.io/repository/biocontainers/cytoscape?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cytoscape";
+        var versions = ["3.8.2","3.7.2","3.7.2","3.7.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

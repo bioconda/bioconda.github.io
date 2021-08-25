@@ -67,10 +67,23 @@ bioconductor-pd.feinberg.mm8.me.hx1
 .. _`bioconductor-pd.feinberg.mm8.me.hx1/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.feinberg.mm8.me.hx1?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.feinberg.mm8.me.hx1";
+        var versions = ["0.99.3","0.99.3","0.99.3","0.99.3","0.99.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

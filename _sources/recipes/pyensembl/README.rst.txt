@@ -79,10 +79,23 @@ pyensembl
 .. _`pyensembl/tags`: https://quay.io/repository/biocontainers/pyensembl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyensembl";
+        var versions = ["1.9.1","1.9.0","1.8.8","1.8.7","1.8.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

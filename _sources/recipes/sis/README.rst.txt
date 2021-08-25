@@ -61,10 +61,23 @@ sis
 .. _`sis/tags`: https://quay.io/repository/biocontainers/sis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sis";
+        var versions = ["0.1.2","0.1.2","0.1.2","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

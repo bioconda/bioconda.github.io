@@ -66,10 +66,23 @@ popgen-entropy
 .. _`popgen-entropy/tags`: https://quay.io/repository/biocontainers/popgen-entropy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "popgen-entropy";
+        var versions = ["2.0","2.0","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

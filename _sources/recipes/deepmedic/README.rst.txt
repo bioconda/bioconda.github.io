@@ -66,10 +66,23 @@ deepmedic
 .. _`deepmedic/tags`: https://quay.io/repository/biocontainers/deepmedic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deepmedic";
+        var versions = ["0.6.1","0.6.1","0.6","0.5.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ tablet
 .. _`tablet/tags`: https://quay.io/repository/biocontainers/tablet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tablet";
+        var versions = ["1.17.08.17","1.17.08.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

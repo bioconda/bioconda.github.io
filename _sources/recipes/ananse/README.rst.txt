@@ -78,10 +78,23 @@ ananse
 .. _`ananse/tags`: https://quay.io/repository/biocontainers/ananse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ananse";
+        var versions = ["0.3.0","0.2.2","0.2.2","0.2.1","0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

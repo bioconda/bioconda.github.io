@@ -62,10 +62,23 @@ lap
 .. _`lap/tags`: https://quay.io/repository/biocontainers/lap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lap";
+        var versions = ["1.1.r186"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

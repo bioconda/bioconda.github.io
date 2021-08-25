@@ -74,10 +74,23 @@ semibin
 .. _`semibin/tags`: https://quay.io/repository/biocontainers/semibin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "semibin";
+        var versions = ["0.3","0.2","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

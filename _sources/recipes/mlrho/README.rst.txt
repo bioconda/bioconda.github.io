@@ -63,10 +63,23 @@ mlrho
 .. _`mlrho/tags`: https://quay.io/repository/biocontainers/mlrho?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mlrho";
+        var versions = ["2.9","2.9","2.9","2.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

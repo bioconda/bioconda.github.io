@@ -83,10 +83,23 @@ iptkl
 .. _`iptkl/tags`: https://quay.io/repository/biocontainers/iptkl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "iptkl";
+        var versions = ["0.6.8","0.6.5","0.6.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

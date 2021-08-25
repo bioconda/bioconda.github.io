@@ -87,10 +87,23 @@ ddocent
 .. _`ddocent/tags`: https://quay.io/repository/biocontainers/ddocent?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ddocent";
+        var versions = ["2.8.13","2.8.13","2.8.13","2.8.13","2.8.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

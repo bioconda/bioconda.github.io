@@ -74,10 +74,23 @@ bioconductor-curatedmetagenomicdata
 .. _`bioconductor-curatedmetagenomicdata/tags`: https://quay.io/repository/biocontainers/bioconductor-curatedmetagenomicdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-curatedmetagenomicdata";
+        var versions = ["3.0.1","1.20.0","1.20.0","1.18.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -82,10 +82,23 @@ agat
 .. _`agat/tags`: https://quay.io/repository/biocontainers/agat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "agat";
+        var versions = ["0.6.2","0.6.1","0.6.0","0.5.1","0.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

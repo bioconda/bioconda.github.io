@@ -67,10 +67,23 @@ glimpse-bio
 .. _`glimpse-bio/tags`: https://quay.io/repository/biocontainers/glimpse-bio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "glimpse-bio";
+        var versions = ["v1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

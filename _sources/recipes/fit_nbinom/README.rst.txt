@@ -62,10 +62,23 @@ fit_nbinom
 .. _`fit_nbinom/tags`: https://quay.io/repository/biocontainers/fit_nbinom?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fit_nbinom";
+        var versions = ["1.1","1.1","1.1","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

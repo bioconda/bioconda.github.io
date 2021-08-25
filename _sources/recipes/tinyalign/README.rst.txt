@@ -62,10 +62,23 @@ tinyalign
 .. _`tinyalign/tags`: https://quay.io/repository/biocontainers/tinyalign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tinyalign";
+        var versions = ["0.2","0.2","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

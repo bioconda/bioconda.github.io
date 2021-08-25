@@ -76,10 +76,23 @@ pysradb
 .. _`pysradb/tags`: https://quay.io/repository/biocontainers/pysradb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pysradb";
+        var versions = ["1.0.1","1.0.0","0.11.1","0.11.0","0.10.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

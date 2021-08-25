@@ -60,10 +60,23 @@ enabrowsertools
 .. _`enabrowsertools/tags`: https://quay.io/repository/biocontainers/enabrowsertools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "enabrowsertools";
+        var versions = ["1.5.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

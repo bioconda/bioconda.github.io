@@ -60,10 +60,23 @@ perl-io-zlib
 .. _`perl-io-zlib/tags`: https://quay.io/repository/biocontainers/perl-io-zlib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-zlib";
+        var versions = ["1.10","1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

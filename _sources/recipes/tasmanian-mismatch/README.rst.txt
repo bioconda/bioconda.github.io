@@ -70,10 +70,23 @@ tasmanian-mismatch
 .. _`tasmanian-mismatch/tags`: https://quay.io/repository/biocontainers/tasmanian-mismatch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tasmanian-mismatch";
+        var versions = ["1.0.7","1.0.6","1.0.4","0.1.3","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

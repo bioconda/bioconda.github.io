@@ -74,10 +74,23 @@ sourmash
 .. _`sourmash/tags`: https://quay.io/repository/biocontainers/sourmash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sourmash";
+        var versions = ["4.2.2","4.2.1","4.2.0","4.1.2","4.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

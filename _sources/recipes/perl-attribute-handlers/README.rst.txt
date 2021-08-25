@@ -60,10 +60,23 @@ perl-attribute-handlers
 .. _`perl-attribute-handlers/tags`: https://quay.io/repository/biocontainers/perl-attribute-handlers?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-attribute-handlers";
+        var versions = ["0.96","0.96","0.96"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

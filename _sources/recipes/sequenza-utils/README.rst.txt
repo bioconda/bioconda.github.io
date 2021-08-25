@@ -65,10 +65,23 @@ sequenza-utils
 .. _`sequenza-utils/tags`: https://quay.io/repository/biocontainers/sequenza-utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sequenza-utils";
+        var versions = ["3.0.0","3.0.0","3.0.0","3.0.0","3.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

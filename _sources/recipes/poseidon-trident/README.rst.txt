@@ -62,10 +62,23 @@ poseidon-trident
 .. _`poseidon-trident/tags`: https://quay.io/repository/biocontainers/poseidon-trident?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "poseidon-trident";
+        var versions = ["0.18.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

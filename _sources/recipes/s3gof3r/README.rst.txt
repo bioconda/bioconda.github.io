@@ -59,10 +59,23 @@ s3gof3r
 .. _`s3gof3r/tags`: https://quay.io/repository/biocontainers/s3gof3r?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "s3gof3r";
+        var versions = ["0.5.0","0.5.0","0.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

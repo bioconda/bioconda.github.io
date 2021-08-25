@@ -63,10 +63,23 @@ bioconductor-obmiti
 .. _`bioconductor-obmiti/tags`: https://quay.io/repository/biocontainers/bioconductor-obmiti?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-obmiti";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

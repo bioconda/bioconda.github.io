@@ -62,10 +62,23 @@ bioconductor-rtcga.clinical
 .. _`bioconductor-rtcga.clinical/tags`: https://quay.io/repository/biocontainers/bioconductor-rtcga.clinical?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rtcga.clinical";
+        var versions = ["20151101.22.0","20151101.20.0","20151101.20.0","20151101.19.0","20151101.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

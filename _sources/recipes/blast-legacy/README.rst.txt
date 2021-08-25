@@ -59,10 +59,23 @@ blast-legacy
 .. _`blast-legacy/tags`: https://quay.io/repository/biocontainers/blast-legacy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "blast-legacy";
+        var versions = ["2.2.26","2.2.26","2.2.26","2.2.26","2.2.22"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

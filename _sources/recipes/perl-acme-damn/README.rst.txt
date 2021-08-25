@@ -62,10 +62,23 @@ perl-acme-damn
 .. _`perl-acme-damn/tags`: https://quay.io/repository/biocontainers/perl-acme-damn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-acme-damn";
+        var versions = ["0.08","0.08","0.08","0.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

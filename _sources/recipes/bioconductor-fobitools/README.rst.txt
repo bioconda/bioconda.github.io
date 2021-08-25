@@ -76,10 +76,23 @@ bioconductor-fobitools
 .. _`bioconductor-fobitools/tags`: https://quay.io/repository/biocontainers/bioconductor-fobitools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-fobitools";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

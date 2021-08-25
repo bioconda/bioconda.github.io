@@ -84,10 +84,23 @@ bioconductor-shinyepico
 .. _`bioconductor-shinyepico/tags`: https://quay.io/repository/biocontainers/bioconductor-shinyepico?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-shinyepico";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

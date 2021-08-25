@@ -91,10 +91,23 @@ bioconductor-profileplyr
 .. _`bioconductor-profileplyr/tags`: https://quay.io/repository/biocontainers/bioconductor-profileplyr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-profileplyr";
+        var versions = ["1.8.0","1.6.0","1.6.0","1.4.3","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

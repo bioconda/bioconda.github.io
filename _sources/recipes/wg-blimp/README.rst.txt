@@ -84,10 +84,23 @@ wg-blimp
 .. _`wg-blimp/tags`: https://quay.io/repository/biocontainers/wg-blimp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wg-blimp";
+        var versions = ["0.9.8","0.9.7","0.9.6","0.9.6","0.9.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

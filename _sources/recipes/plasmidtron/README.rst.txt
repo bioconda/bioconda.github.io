@@ -65,10 +65,23 @@ plasmidtron
 .. _`plasmidtron/tags`: https://quay.io/repository/biocontainers/plasmidtron?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plasmidtron";
+        var versions = ["0.4.1","0.4.1","0.4.1","0.3.5","0.3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

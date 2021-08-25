@@ -61,10 +61,23 @@ ogdf
 .. _`ogdf/tags`: https://quay.io/repository/biocontainers/ogdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ogdf";
+        var versions = ["201207","201207","201207","201207"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

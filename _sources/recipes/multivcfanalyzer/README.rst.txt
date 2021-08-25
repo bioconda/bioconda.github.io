@@ -61,10 +61,23 @@ multivcfanalyzer
 .. _`multivcfanalyzer/tags`: https://quay.io/repository/biocontainers/multivcfanalyzer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "multivcfanalyzer";
+        var versions = ["0.85.2","0.85.2","0.85.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

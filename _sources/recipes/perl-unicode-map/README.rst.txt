@@ -62,10 +62,23 @@ perl-unicode-map
 .. _`perl-unicode-map/tags`: https://quay.io/repository/biocontainers/perl-unicode-map?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-unicode-map";
+        var versions = ["0.112","0.112","0.112","0.112"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

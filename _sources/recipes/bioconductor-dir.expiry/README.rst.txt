@@ -61,10 +61,23 @@ bioconductor-dir.expiry
 .. _`bioconductor-dir.expiry/tags`: https://quay.io/repository/biocontainers/bioconductor-dir.expiry?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-dir.expiry";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

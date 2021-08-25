@@ -69,10 +69,23 @@ r-workflowscriptscommon
 .. _`r-workflowscriptscommon/tags`: https://quay.io/repository/biocontainers/r-workflowscriptscommon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-workflowscriptscommon";
+        var versions = ["0.0.7","0.0.7","0.0.7","0.0.7","0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

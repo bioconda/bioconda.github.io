@@ -62,10 +62,23 @@ perl-config-any
 .. _`perl-config-any/tags`: https://quay.io/repository/biocontainers/perl-config-any?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-config-any";
+        var versions = ["0.32","0.32","0.27","0.27","0.27"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

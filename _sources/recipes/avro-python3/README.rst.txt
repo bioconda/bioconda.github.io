@@ -60,10 +60,23 @@ avro-python3
 .. _`avro-python3/tags`: https://quay.io/repository/biocontainers/avro-python3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "avro-python3";
+        var versions = ["1.9.0","1.8.2","1.8.2","1.8.1","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

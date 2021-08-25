@@ -61,10 +61,23 @@ dbgraph
 .. _`dbgraph/tags`: https://quay.io/repository/biocontainers/dbgraph?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dbgraph";
+        var versions = ["1.0.0","v1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

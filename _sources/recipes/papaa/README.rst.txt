@@ -78,10 +78,23 @@ papaa
 .. _`papaa/tags`: https://quay.io/repository/biocontainers/papaa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "papaa";
+        var versions = ["0.1.9","0.1.9","0.1.8","0.1.7","0.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ csvtk
 .. _`csvtk/tags`: https://quay.io/repository/biocontainers/csvtk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "csvtk";
+        var versions = ["0.23.0","0.22.0","0.22.0","0.21.0","0.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

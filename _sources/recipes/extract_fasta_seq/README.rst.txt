@@ -61,10 +61,23 @@ extract_fasta_seq
 .. _`extract_fasta_seq/tags`: https://quay.io/repository/biocontainers/extract_fasta_seq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "extract_fasta_seq";
+        var versions = ["0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

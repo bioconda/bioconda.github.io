@@ -62,10 +62,23 @@ perl-digest-sha1
 .. _`perl-digest-sha1/tags`: https://quay.io/repository/biocontainers/perl-digest-sha1?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-digest-sha1";
+        var versions = ["2.13","2.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

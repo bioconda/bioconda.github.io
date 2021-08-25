@@ -80,10 +80,23 @@ pipits
 .. _`pipits/tags`: https://quay.io/repository/biocontainers/pipits?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pipits";
+        var versions = ["2.7","2.6","2.5","2.4","2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

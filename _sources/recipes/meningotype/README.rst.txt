@@ -64,10 +64,23 @@ meningotype
 .. _`meningotype/tags`: https://quay.io/repository/biocontainers/meningotype?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "meningotype";
+        var versions = ["0.8.5","0.8.4","0.8.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

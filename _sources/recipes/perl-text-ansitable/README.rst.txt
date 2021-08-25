@@ -73,10 +73,23 @@ perl-text-ansitable
 .. _`perl-text-ansitable/tags`: https://quay.io/repository/biocontainers/perl-text-ansitable?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-ansitable";
+        var versions = ["0.48","0.48"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ perl-mldbm-sync
 .. _`perl-mldbm-sync/tags`: https://quay.io/repository/biocontainers/perl-mldbm-sync?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mldbm-sync";
+        var versions = ["0.30","0.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

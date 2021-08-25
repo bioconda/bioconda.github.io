@@ -72,10 +72,23 @@ fastqc
 .. _`fastqc/tags`: https://quay.io/repository/biocontainers/fastqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastqc";
+        var versions = ["0.11.9","0.11.9","0.11.8","0.11.8","0.11.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

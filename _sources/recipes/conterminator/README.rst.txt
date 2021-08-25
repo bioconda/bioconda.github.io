@@ -66,10 +66,23 @@ conterminator
 .. _`conterminator/tags`: https://quay.io/repository/biocontainers/conterminator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "conterminator";
+        var versions = ["1.c74b5","1.c74b5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

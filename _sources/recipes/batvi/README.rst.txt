@@ -68,10 +68,23 @@ batvi
 .. _`batvi/tags`: https://quay.io/repository/biocontainers/batvi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "batvi";
+        var versions = ["1.04","1.04","1.04","1.04","1.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

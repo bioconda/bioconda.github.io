@@ -16,6 +16,9 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -147,15 +150,15 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../vsnp/README.html#vsnp"><strong class="xref backref">vsnp</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../phyluce/README.html#phyluce"><strong class="xref backref">phyluce</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../tritimap/README.html#tritimap"><strong class="xref backref">tritimap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ntlink/README.html#ntlink"><strong class="xref backref">ntlink</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bttoxin_digger/README.html#bttoxin_digger"><strong class="xref backref">bttoxin_digger</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pgcgap/README.html#pgcgap"><strong class="xref backref">pgcgap</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../secapr/README.html#secapr"><strong class="xref backref">secapr</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../komb/README.html#komb"><strong class="xref backref">komb</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bttoxin_digger/README.html#bttoxin_digger"><strong class="xref backref">bttoxin_digger</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../phyluce/README.html#phyluce"><strong class="xref backref">phyluce</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ntlink/README.html#ntlink"><strong class="xref backref">ntlink</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../transabyss/README.html#transabyss"><strong class="xref backref">transabyss</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../tritimap/README.html#tritimap"><strong class="xref backref">tritimap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../vsnp/README.html#vsnp"><strong class="xref backref">vsnp</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../intemap/README.html#intemap"><strong class="xref backref">intemap</strong></a></p></li>
 </ul>
 </dd>
@@ -176,6 +179,67 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/abyss?tab=tags">abyss/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
+<script>
+    var package = "abyss";
+    var versions = ["2.3.1","2.3.0","2.2.5","2.2.5","2.2.4"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+
+<script>
+    window.onload = async function() {
+        versions = [...new Set(versions)];
+
+        let download_data = [];
+
+        for (const version of versions) {
+            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
+            await $.get({
+                url: url,
+                success: function( data ) {
+                    data = JSON.parse(data);
+                    data = data["downloads_per_date"];
+                    let first;
+                    if (data.length > 14) {
+                        first = data.length - 14;
+                    } else {
+                        first = 1;
+                    }
+                    for (let i = first; i < data.length; i++) {
+                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
+                        data[i]["version"] = version;
+                        download_data.push(data[i]);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log('error fetching data from bioconda stats repo!');
+                }
+            });
+        }
+
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart with embedded data.",
+            "data": {"values": []},
+            "width": "container",
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": true,
+                }
+            },
+            "encoding": {
+                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
+                 "color": {"field": "version", "type": "nominal"},
+                 "tooltip": {"field": "delta"}
+            }
+        };
+
+        spec.data.values = download_data;
+        vegaEmbed('#download_plot', spec);
+    }
+</script></section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/abyss/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

@@ -68,10 +68,23 @@ misopy
 .. _`misopy/tags`: https://quay.io/repository/biocontainers/misopy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "misopy";
+        var versions = ["0.5.4","0.5.4","0.5.4","0.5.4","0.5.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

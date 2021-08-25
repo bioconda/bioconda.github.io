@@ -76,10 +76,23 @@ msi
 .. _`msi/tags`: https://quay.io/repository/biocontainers/msi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "msi";
+        var versions = ["0.3.5","0.3.5","0.3.5","0.3.3","0.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

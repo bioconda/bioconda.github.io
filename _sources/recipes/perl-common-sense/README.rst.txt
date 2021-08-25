@@ -60,10 +60,23 @@ perl-common-sense
 .. _`perl-common-sense/tags`: https://quay.io/repository/biocontainers/perl-common-sense?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-common-sense";
+        var versions = ["3.74","3.74","3.74"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

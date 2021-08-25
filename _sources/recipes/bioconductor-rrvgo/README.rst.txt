@@ -70,10 +70,23 @@ bioconductor-rrvgo
 .. _`bioconductor-rrvgo/tags`: https://quay.io/repository/biocontainers/bioconductor-rrvgo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rrvgo";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

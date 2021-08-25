@@ -65,10 +65,23 @@ bioconductor-vtpnet
 .. _`bioconductor-vtpnet/tags`: https://quay.io/repository/biocontainers/bioconductor-vtpnet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-vtpnet";
+        var versions = ["0.32.0","0.30.0","0.30.0","0.28.0","0.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

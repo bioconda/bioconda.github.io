@@ -63,10 +63,23 @@ mantis
 .. _`mantis/tags`: https://quay.io/repository/biocontainers/mantis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mantis";
+        var versions = ["0.2","0.2","0.2","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

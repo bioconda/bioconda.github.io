@@ -60,10 +60,23 @@ perl-io-null
 .. _`perl-io-null/tags`: https://quay.io/repository/biocontainers/perl-io-null?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-null";
+        var versions = ["1.01","1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

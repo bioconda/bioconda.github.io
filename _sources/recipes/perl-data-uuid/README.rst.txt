@@ -63,10 +63,23 @@ perl-data-uuid
 .. _`perl-data-uuid/tags`: https://quay.io/repository/biocontainers/perl-data-uuid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-uuid";
+        var versions = ["1.224","1.221","1.221","1.221","1.221"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

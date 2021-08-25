@@ -67,10 +67,23 @@ clipcontext
 .. _`clipcontext/tags`: https://quay.io/repository/biocontainers/clipcontext?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clipcontext";
+        var versions = ["0.7","0.6","0.3","0.2","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ bioconductor-msqrob2
 .. _`bioconductor-msqrob2/tags`: https://quay.io/repository/biocontainers/bioconductor-msqrob2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-msqrob2";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

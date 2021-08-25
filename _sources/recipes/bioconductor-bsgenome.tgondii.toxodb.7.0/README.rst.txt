@@ -62,10 +62,23 @@ bioconductor-bsgenome.tgondii.toxodb.7.0
 .. _`bioconductor-bsgenome.tgondii.toxodb.7.0/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.tgondii.toxodb.7.0?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.tgondii.toxodb.7.0";
+        var versions = ["0.99.1","0.99.0","0.99.0","0.99.0","0.99.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

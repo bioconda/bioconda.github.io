@@ -61,10 +61,23 @@ gb_taxonomy_tools
 .. _`gb_taxonomy_tools/tags`: https://quay.io/repository/biocontainers/gb_taxonomy_tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gb_taxonomy_tools";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

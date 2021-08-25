@@ -62,10 +62,23 @@ perl-test-simple
 .. _`perl-test-simple/tags`: https://quay.io/repository/biocontainers/perl-test-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-simple";
+        var versions = ["1.302164","1.302156","1.302141","1.302140","1.302075"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

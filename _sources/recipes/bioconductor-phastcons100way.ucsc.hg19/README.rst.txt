@@ -75,10 +75,23 @@ bioconductor-phastcons100way.ucsc.hg19
 .. _`bioconductor-phastcons100way.ucsc.hg19/tags`: https://quay.io/repository/biocontainers/bioconductor-phastcons100way.ucsc.hg19?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-phastcons100way.ucsc.hg19";
+        var versions = ["3.7.2","3.7.2","3.7.2","3.7.2","3.7.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

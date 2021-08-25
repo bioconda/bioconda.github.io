@@ -67,10 +67,23 @@ stringdecomposer
 .. _`stringdecomposer/tags`: https://quay.io/repository/biocontainers/stringdecomposer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stringdecomposer";
+        var versions = ["1.1.1","1.1.0","1.0.0","1.0.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

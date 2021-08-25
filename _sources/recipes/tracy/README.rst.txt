@@ -76,10 +76,23 @@ tracy
 .. _`tracy/tags`: https://quay.io/repository/biocontainers/tracy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tracy";
+        var versions = ["0.6.1","0.5.9","0.5.8","0.5.8","0.5.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

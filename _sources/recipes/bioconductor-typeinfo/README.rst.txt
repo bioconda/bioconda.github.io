@@ -60,10 +60,23 @@ bioconductor-typeinfo
 .. _`bioconductor-typeinfo/tags`: https://quay.io/repository/biocontainers/bioconductor-typeinfo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-typeinfo";
+        var versions = ["1.58.0","1.56.0","1.56.0","1.54.0","1.52.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

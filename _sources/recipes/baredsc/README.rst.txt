@@ -67,10 +67,23 @@ baredsc
 .. _`baredsc/tags`: https://quay.io/repository/biocontainers/baredsc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "baredsc";
+        var versions = ["1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

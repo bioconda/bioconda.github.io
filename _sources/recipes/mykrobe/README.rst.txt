@@ -80,10 +80,23 @@ mykrobe
 .. _`mykrobe/tags`: https://quay.io/repository/biocontainers/mykrobe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mykrobe";
+        var versions = ["0.10.0","0.9.0","0.9.0","0.9.0","0.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

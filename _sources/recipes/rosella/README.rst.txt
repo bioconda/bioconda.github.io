@@ -88,10 +88,23 @@ rosella
 .. _`rosella/tags`: https://quay.io/repository/biocontainers/rosella?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rosella";
+        var versions = ["0.3.3","0.3.2","0.3.0","0.2.4","0.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

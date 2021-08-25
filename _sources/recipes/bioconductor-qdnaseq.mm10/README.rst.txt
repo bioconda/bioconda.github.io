@@ -70,10 +70,23 @@ bioconductor-qdnaseq.mm10
 .. _`bioconductor-qdnaseq.mm10/tags`: https://quay.io/repository/biocontainers/bioconductor-qdnaseq.mm10?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-qdnaseq.mm10";
+        var versions = ["1.22.0","1.20.0","1.20.0","1.18.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

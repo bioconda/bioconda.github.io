@@ -67,10 +67,23 @@ perl-params-validationcompiler
 .. _`perl-params-validationcompiler/tags`: https://quay.io/repository/biocontainers/perl-params-validationcompiler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-params-validationcompiler";
+        var versions = ["0.23","0.23","0.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

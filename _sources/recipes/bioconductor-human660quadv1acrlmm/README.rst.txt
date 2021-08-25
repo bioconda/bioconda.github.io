@@ -61,10 +61,23 @@ bioconductor-human660quadv1acrlmm
 .. _`bioconductor-human660quadv1acrlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-human660quadv1acrlmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-human660quadv1acrlmm";
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

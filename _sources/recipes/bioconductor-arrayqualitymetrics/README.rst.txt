@@ -77,10 +77,23 @@ bioconductor-arrayqualitymetrics
 .. _`bioconductor-arrayqualitymetrics/tags`: https://quay.io/repository/biocontainers/bioconductor-arrayqualitymetrics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-arrayqualitymetrics";
+        var versions = ["3.48.0","3.46.0","3.46.0","3.44.0","3.42.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

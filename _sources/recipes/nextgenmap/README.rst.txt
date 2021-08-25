@@ -62,10 +62,23 @@ nextgenmap
 .. _`nextgenmap/tags`: https://quay.io/repository/biocontainers/nextgenmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nextgenmap";
+        var versions = ["0.5.5","0.5.5","0.5.5","0.5.5","0.5.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

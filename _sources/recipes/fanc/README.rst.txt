@@ -87,10 +87,23 @@ fanc
 .. _`fanc/tags`: https://quay.io/repository/biocontainers/fanc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fanc";
+        var versions = ["0.9.0","0.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

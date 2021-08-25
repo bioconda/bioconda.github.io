@@ -65,10 +65,23 @@ perl-svg-graph
 .. _`perl-svg-graph/tags`: https://quay.io/repository/biocontainers/perl-svg-graph?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-svg-graph";
+        var versions = ["0.02","0.02","0.02","0.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-graphics-colorobject
 .. _`perl-graphics-colorobject/tags`: https://quay.io/repository/biocontainers/perl-graphics-colorobject?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-graphics-colorobject";
+        var versions = ["0.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

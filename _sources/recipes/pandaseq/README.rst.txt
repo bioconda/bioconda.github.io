@@ -70,10 +70,23 @@ pandaseq
 .. _`pandaseq/tags`: https://quay.io/repository/biocontainers/pandaseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pandaseq";
+        var versions = ["2.11","2.11","2.11","2.11","2.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

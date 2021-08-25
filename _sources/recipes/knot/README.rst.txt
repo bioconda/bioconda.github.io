@@ -59,10 +59,23 @@ knot
 .. _`knot/tags`: https://quay.io/repository/biocontainers/knot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "knot";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ bioconductor-marr
 .. _`bioconductor-marr/tags`: https://quay.io/repository/biocontainers/bioconductor-marr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-marr";
+        var versions = ["1.2.0","1.00.02","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

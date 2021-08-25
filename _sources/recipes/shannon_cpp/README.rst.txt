@@ -72,10 +72,23 @@ shannon_cpp
 .. _`shannon_cpp/tags`: https://quay.io/repository/biocontainers/shannon_cpp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shannon_cpp";
+        var versions = ["0.5.0","0.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

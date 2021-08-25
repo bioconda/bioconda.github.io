@@ -79,10 +79,23 @@ hca
 .. _`hca/tags`: https://quay.io/repository/biocontainers/hca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hca";
+        var versions = ["7.0.1","7.0.0","6.5.1","6.5.0","6.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

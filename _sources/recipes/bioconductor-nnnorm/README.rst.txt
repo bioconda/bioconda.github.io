@@ -71,10 +71,23 @@ bioconductor-nnnorm
 .. _`bioconductor-nnnorm/tags`: https://quay.io/repository/biocontainers/bioconductor-nnnorm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-nnnorm";
+        var versions = ["2.56.0","2.54.0","2.54.0","2.52.0","2.50.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

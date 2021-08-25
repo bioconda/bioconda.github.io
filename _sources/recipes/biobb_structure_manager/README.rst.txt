@@ -65,10 +65,23 @@ biobb_structure_manager
 .. _`biobb_structure_manager/tags`: https://quay.io/repository/biocontainers/biobb_structure_manager?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biobb_structure_manager";
+        var versions = ["3.0.2","3.0.1","3.0.0","1.0.0","0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

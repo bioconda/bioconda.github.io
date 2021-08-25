@@ -60,10 +60,23 @@ perl-tie-ixhash
 .. _`perl-tie-ixhash/tags`: https://quay.io/repository/biocontainers/perl-tie-ixhash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tie-ixhash";
+        var versions = ["1.23","1.23","1.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

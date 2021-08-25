@@ -65,10 +65,23 @@ r-metap
 .. _`r-metap/tags`: https://quay.io/repository/biocontainers/r-metap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-metap";
+        var versions = ["1.4","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

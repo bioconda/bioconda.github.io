@@ -67,10 +67,23 @@ sample-sheet
 .. _`sample-sheet/tags`: https://quay.io/repository/biocontainers/sample-sheet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sample-sheet";
+        var versions = ["0.12.0","0.11.0","0.10.0","0.9.4","0.9.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

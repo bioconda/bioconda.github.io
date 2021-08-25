@@ -61,10 +61,23 @@ gecko
 .. _`gecko/tags`: https://quay.io/repository/biocontainers/gecko?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gecko";
+        var versions = ["1.2","1.2","1.1","1.1.b","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

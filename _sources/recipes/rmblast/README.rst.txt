@@ -72,10 +72,23 @@ rmblast
 .. _`rmblast/tags`: https://quay.io/repository/biocontainers/rmblast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rmblast";
+        var versions = ["2.10.0","2.9.0","2.6.0","2.2.28","2.2.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

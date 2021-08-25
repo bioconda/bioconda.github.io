@@ -62,10 +62,23 @@ bioconductor-bsgenome.rnorvegicus.ucsc.rn4
 .. _`bioconductor-bsgenome.rnorvegicus.ucsc.rn4/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.rnorvegicus.ucsc.rn4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.rnorvegicus.ucsc.rn4";
+        var versions = ["1.4.0","1.4.0","1.4.0","1.4.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

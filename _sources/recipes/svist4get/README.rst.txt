@@ -73,10 +73,23 @@ svist4get
 .. _`svist4get/tags`: https://quay.io/repository/biocontainers/svist4get?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "svist4get";
+        var versions = ["1.2.24","1.2.23","1.2.22","1.2.21","1.2.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

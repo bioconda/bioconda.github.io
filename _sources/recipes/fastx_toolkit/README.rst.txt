@@ -91,10 +91,23 @@ fastx_toolkit
 .. _`fastx_toolkit/tags`: https://quay.io/repository/biocontainers/fastx_toolkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastx_toolkit";
+        var versions = ["0.0.14","0.0.14","0.0.14","0.0.14","0.0.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

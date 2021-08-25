@@ -62,10 +62,23 @@ showit
 .. _`showit/tags`: https://quay.io/repository/biocontainers/showit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "showit";
+        var versions = ["1.1.4","1.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ repeatscout
 .. _`repeatscout/tags`: https://quay.io/repository/biocontainers/repeatscout?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "repeatscout";
+        var versions = ["1.0.6","1.0.6","1.0.6","1.0.5","1.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

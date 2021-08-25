@@ -67,10 +67,23 @@ perl-ensembl-variation
 .. _`perl-ensembl-variation/tags`: https://quay.io/repository/biocontainers/perl-ensembl-variation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ensembl-variation";
+        var versions = ["98"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ bioconductor-lumihumanidmapping
 .. _`bioconductor-lumihumanidmapping/tags`: https://quay.io/repository/biocontainers/bioconductor-lumihumanidmapping?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-lumihumanidmapping";
+        var versions = ["1.10.1","1.10.1","1.10.1","1.10.1","1.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

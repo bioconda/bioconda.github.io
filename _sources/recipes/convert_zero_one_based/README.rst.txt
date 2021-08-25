@@ -61,10 +61,23 @@ convert_zero_one_based
 .. _`convert_zero_one_based/tags`: https://quay.io/repository/biocontainers/convert_zero_one_based?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "convert_zero_one_based";
+        var versions = ["0.0.1","0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

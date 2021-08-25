@@ -70,10 +70,23 @@ perl-obogaf-parser
 .. _`perl-obogaf-parser/tags`: https://quay.io/repository/biocontainers/perl-obogaf-parser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-obogaf-parser";
+        var versions = ["1.373","1.373","1.272","1.271","1.016"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

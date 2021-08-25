@@ -60,10 +60,23 @@ mendelscan
 .. _`mendelscan/tags`: https://quay.io/repository/biocontainers/mendelscan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mendelscan";
+        var versions = ["1.2.2","1.2.2","v1.2.2","v1.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

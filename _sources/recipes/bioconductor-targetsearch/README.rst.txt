@@ -65,10 +65,23 @@ bioconductor-targetsearch
 .. _`bioconductor-targetsearch/tags`: https://quay.io/repository/biocontainers/bioconductor-targetsearch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-targetsearch";
+        var versions = ["1.48.0","1.46.3","1.46.0","1.44.0","1.42.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

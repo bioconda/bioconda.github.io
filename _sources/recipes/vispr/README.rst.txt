@@ -75,10 +75,23 @@ vispr
 .. _`vispr/tags`: https://quay.io/repository/biocontainers/vispr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vispr";
+        var versions = ["0.4.17","0.4.16","0.4.15","0.4.14","0.4.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ ms2pip
 .. _`ms2pip/tags`: https://quay.io/repository/biocontainers/ms2pip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ms2pip";
+        var versions = ["3.6.3","3.6.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

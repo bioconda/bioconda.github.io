@@ -75,10 +75,23 @@ perl-ensembl-compara
 .. _`perl-ensembl-compara/tags`: https://quay.io/repository/biocontainers/perl-ensembl-compara?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ensembl-compara";
+        var versions = ["98"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

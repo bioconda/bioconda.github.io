@@ -65,10 +65,23 @@ omero-py
 .. _`omero-py/tags`: https://quay.io/repository/biocontainers/omero-py?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "omero-py";
+        var versions = ["5.9.1","5.9.0","5.8.3","5.8.2","5.8.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

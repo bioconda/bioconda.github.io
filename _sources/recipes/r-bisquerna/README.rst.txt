@@ -70,10 +70,23 @@ r-bisquerna
 .. _`r-bisquerna/tags`: https://quay.io/repository/biocontainers/r-bisquerna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-bisquerna";
+        var versions = ["1.0.5","1.0.4","1.0.4","1.0.4","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

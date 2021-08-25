@@ -68,10 +68,23 @@ start-asap
 .. _`start-asap/tags`: https://quay.io/repository/biocontainers/start-asap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "start-asap";
+        var versions = ["1.3.0","1.3.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ pythonpy
 .. _`pythonpy/tags`: https://quay.io/repository/biocontainers/pythonpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pythonpy";
+        var versions = ["0.4.11","0.4.2","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

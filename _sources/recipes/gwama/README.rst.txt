@@ -63,10 +63,23 @@ gwama
 .. _`gwama/tags`: https://quay.io/repository/biocontainers/gwama?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gwama";
+        var versions = ["2.2.2","2.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

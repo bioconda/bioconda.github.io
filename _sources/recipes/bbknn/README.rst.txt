@@ -78,10 +78,23 @@ bbknn
 .. _`bbknn/tags`: https://quay.io/repository/biocontainers/bbknn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bbknn";
+        var versions = ["1.5.1","1.5.1","1.4.1","1.4.0","1.3.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

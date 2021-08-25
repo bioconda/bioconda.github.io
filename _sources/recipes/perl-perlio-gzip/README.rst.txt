@@ -62,10 +62,23 @@ perl-perlio-gzip
 .. _`perl-perlio-gzip/tags`: https://quay.io/repository/biocontainers/perl-perlio-gzip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-perlio-gzip";
+        var versions = ["0.20","0.20","0.19","0.19","0.19"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

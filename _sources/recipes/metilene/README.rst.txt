@@ -64,10 +64,23 @@ metilene
 .. _`metilene/tags`: https://quay.io/repository/biocontainers/metilene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metilene";
+        var versions = ["0.2.8","0.2.8","0.2.6","0.2.6","0.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

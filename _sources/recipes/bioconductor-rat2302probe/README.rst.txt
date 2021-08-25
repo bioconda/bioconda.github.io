@@ -62,10 +62,23 @@ bioconductor-rat2302probe
 .. _`bioconductor-rat2302probe/tags`: https://quay.io/repository/biocontainers/bioconductor-rat2302probe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rat2302probe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

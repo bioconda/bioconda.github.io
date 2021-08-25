@@ -62,10 +62,23 @@ perl-http-server-simple
 .. _`perl-http-server-simple/tags`: https://quay.io/repository/biocontainers/perl-http-server-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-http-server-simple";
+        var versions = ["0.52","0.52","0.52"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

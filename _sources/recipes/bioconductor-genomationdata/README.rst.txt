@@ -61,10 +61,23 @@ bioconductor-genomationdata
 .. _`bioconductor-genomationdata/tags`: https://quay.io/repository/biocontainers/bioconductor-genomationdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genomationdata";
+        var versions = ["1.24.0","1.22.0","1.22.0","1.21.0","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

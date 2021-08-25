@@ -61,10 +61,23 @@ ssu-align
 .. _`ssu-align/tags`: https://quay.io/repository/biocontainers/ssu-align?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ssu-align";
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ gcnvkernel
 .. _`gcnvkernel/tags`: https://quay.io/repository/biocontainers/gcnvkernel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gcnvkernel";
+        var versions = ["0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

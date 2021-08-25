@@ -65,10 +65,23 @@ ucsc-paranodestop
 .. _`ucsc-paranodestop/tags`: https://quay.io/repository/biocontainers/ucsc-paranodestop?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-paranodestop";
+        var versions = ["377","377","377","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

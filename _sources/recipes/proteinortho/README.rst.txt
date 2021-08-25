@@ -76,10 +76,23 @@ proteinortho
 .. _`proteinortho/tags`: https://quay.io/repository/biocontainers/proteinortho?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "proteinortho";
+        var versions = ["6.0.31","6.0.30","6.0.29","6.0.29","6.0.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

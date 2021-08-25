@@ -65,10 +65,23 @@ ucsc-fanoise
 .. _`ucsc-fanoise/tags`: https://quay.io/repository/biocontainers/ucsc-fanoise?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-fanoise";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

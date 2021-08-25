@@ -61,10 +61,23 @@ genologics
 .. _`genologics/tags`: https://quay.io/repository/biocontainers/genologics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genologics";
+        var versions = ["0.4.1","0.3.12.post0","0.3.12.post0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

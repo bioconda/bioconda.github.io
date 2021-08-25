@@ -62,10 +62,23 @@ bioconductor-iterclust
 .. _`bioconductor-iterclust/tags`: https://quay.io/repository/biocontainers/bioconductor-iterclust?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-iterclust";
+        var versions = ["1.14.0","1.12.0","1.12.0","1.10.0","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

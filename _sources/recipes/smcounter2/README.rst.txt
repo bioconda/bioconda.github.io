@@ -67,10 +67,23 @@ smcounter2
 .. _`smcounter2/tags`: https://quay.io/repository/biocontainers/smcounter2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "smcounter2";
+        var versions = ["0.1.2018.08.28","0.1.2018.08.28","0.1.2018.08.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

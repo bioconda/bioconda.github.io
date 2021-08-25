@@ -60,10 +60,23 @@ perl-statistics-lite
 .. _`perl-statistics-lite/tags`: https://quay.io/repository/biocontainers/perl-statistics-lite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-statistics-lite";
+        var versions = ["3.62","3.62"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

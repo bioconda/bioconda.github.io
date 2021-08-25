@@ -65,10 +65,23 @@ ucsc-liftup
 .. _`ucsc-liftup/tags`: https://quay.io/repository/biocontainers/ucsc-liftup?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-liftup";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

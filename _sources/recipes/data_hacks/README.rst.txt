@@ -60,10 +60,23 @@ data_hacks
 .. _`data_hacks/tags`: https://quay.io/repository/biocontainers/data_hacks?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "data_hacks";
+        var versions = ["0.3.1","0.3.1","0.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

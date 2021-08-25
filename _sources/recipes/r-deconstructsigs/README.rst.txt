@@ -64,10 +64,23 @@ r-deconstructsigs
 .. _`r-deconstructsigs/tags`: https://quay.io/repository/biocontainers/r-deconstructsigs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-deconstructsigs";
+        var versions = ["1.9.0","1.9.0","1.8.0.1","1.8.0.1","1.8.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

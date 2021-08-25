@@ -75,10 +75,23 @@ sensv
 .. _`sensv/tags`: https://quay.io/repository/biocontainers/sensv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sensv";
+        var versions = ["1.0.4","1.0.2","1.0.2","v1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

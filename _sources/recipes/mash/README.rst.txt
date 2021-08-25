@@ -73,10 +73,23 @@ mash
 .. _`mash/tags`: https://quay.io/repository/biocontainers/mash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mash";
+        var versions = ["2.3","2.3","2.2.2","2.2.2","2.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

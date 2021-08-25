@@ -65,10 +65,23 @@ ucsc-maffrags
 .. _`ucsc-maffrags/tags`: https://quay.io/repository/biocontainers/ucsc-maffrags?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-maffrags";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

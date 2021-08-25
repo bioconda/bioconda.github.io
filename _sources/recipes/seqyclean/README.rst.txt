@@ -62,10 +62,23 @@ seqyclean
 .. _`seqyclean/tags`: https://quay.io/repository/biocontainers/seqyclean?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqyclean";
+        var versions = ["1.10.09","1.10.09","1.10.09","1.10.07","1.10.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

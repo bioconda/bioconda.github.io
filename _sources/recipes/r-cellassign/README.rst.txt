@@ -65,10 +65,23 @@ r-cellassign
 .. _`r-cellassign/tags`: https://quay.io/repository/biocontainers/r-cellassign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-cellassign";
+        var versions = ["0.99.2","0.99.2","0.99.2","0.99.2","0.99.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

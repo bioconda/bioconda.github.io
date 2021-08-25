@@ -60,10 +60,23 @@ c-ares
 .. _`c-ares/tags`: https://quay.io/repository/biocontainers/c-ares?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "c-ares";
+        var versions = ["1.11.0","1.11.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

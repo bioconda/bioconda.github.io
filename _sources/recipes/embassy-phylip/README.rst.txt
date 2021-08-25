@@ -62,10 +62,23 @@ embassy-phylip
 .. _`embassy-phylip/tags`: https://quay.io/repository/biocontainers/embassy-phylip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "embassy-phylip";
+        var versions = ["3.69.650","3.69.650","3.69.650"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

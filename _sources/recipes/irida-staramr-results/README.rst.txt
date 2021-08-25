@@ -67,10 +67,23 @@ irida-staramr-results
 .. _`irida-staramr-results/tags`: https://quay.io/repository/biocontainers/irida-staramr-results?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "irida-staramr-results";
+        var versions = ["0.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

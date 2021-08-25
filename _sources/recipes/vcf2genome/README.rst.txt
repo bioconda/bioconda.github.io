@@ -61,10 +61,23 @@ vcf2genome
 .. _`vcf2genome/tags`: https://quay.io/repository/biocontainers/vcf2genome?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vcf2genome";
+        var versions = ["0.91","0.91","0.91"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

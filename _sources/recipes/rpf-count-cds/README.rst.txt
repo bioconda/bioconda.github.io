@@ -61,10 +61,23 @@ rpf-count-cds
 .. _`rpf-count-cds/tags`: https://quay.io/repository/biocontainers/rpf-count-cds?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rpf-count-cds";
+        var versions = ["0.0.1","0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

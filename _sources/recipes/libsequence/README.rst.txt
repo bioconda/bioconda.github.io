@@ -69,10 +69,23 @@ libsequence
 .. _`libsequence/tags`: https://quay.io/repository/biocontainers/libsequence?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libsequence";
+        var versions = ["1.9.8","1.9.8","1.9.8","1.9.7","1.9.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

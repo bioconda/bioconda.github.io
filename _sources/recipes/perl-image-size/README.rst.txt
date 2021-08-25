@@ -60,10 +60,23 @@ perl-image-size
 .. _`perl-image-size/tags`: https://quay.io/repository/biocontainers/perl-image-size?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-image-size";
+        var versions = ["3.300","3.300","3.300"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ aragorn
 .. _`aragorn/tags`: https://quay.io/repository/biocontainers/aragorn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "aragorn";
+        var versions = ["1.2.38","1.2.38","1.2.38","1.2.38","1.2.36"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

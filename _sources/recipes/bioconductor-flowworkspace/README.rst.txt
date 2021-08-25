@@ -100,10 +100,23 @@ bioconductor-flowworkspace
 .. _`bioconductor-flowworkspace/tags`: https://quay.io/repository/biocontainers/bioconductor-flowworkspace?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-flowworkspace";
+        var versions = ["4.4.0","4.2.0","4.2.0","4.2.0","4.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

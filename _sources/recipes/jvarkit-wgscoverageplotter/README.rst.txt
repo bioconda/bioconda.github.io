@@ -61,10 +61,23 @@ jvarkit-wgscoverageplotter
 .. _`jvarkit-wgscoverageplotter/tags`: https://quay.io/repository/biocontainers/jvarkit-wgscoverageplotter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jvarkit-wgscoverageplotter";
+        var versions = ["20201223","20201223","20201223","20201223"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

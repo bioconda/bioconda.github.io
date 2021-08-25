@@ -72,10 +72,23 @@ bioconductor-trio
 .. _`bioconductor-trio/tags`: https://quay.io/repository/biocontainers/bioconductor-trio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-trio";
+        var versions = ["3.30.0","3.28.0","3.28.0","3.26.0","3.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

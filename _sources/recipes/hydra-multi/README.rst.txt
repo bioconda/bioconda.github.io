@@ -67,10 +67,23 @@ hydra-multi
 .. _`hydra-multi/tags`: https://quay.io/repository/biocontainers/hydra-multi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hydra-multi";
+        var versions = ["0.5.4","0.5.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ perl-test-cleannamespaces
 .. _`perl-test-cleannamespaces/tags`: https://quay.io/repository/biocontainers/perl-test-cleannamespaces?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-cleannamespaces";
+        var versions = ["0.24","0.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

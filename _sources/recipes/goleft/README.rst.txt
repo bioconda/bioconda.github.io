@@ -68,10 +68,23 @@ goleft
 .. _`goleft/tags`: https://quay.io/repository/biocontainers/goleft?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "goleft";
+        var versions = ["0.2.4","0.2.4","0.2.0","0.1.18","0.1.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ r-xmlrpc
 .. _`r-xmlrpc/tags`: https://quay.io/repository/biocontainers/r-xmlrpc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-xmlrpc";
+        var versions = ["0.2_4","0.2_4","0.2_4","0.2_4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

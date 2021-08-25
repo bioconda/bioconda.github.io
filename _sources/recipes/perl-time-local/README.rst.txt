@@ -60,10 +60,23 @@ perl-time-local
 .. _`perl-time-local/tags`: https://quay.io/repository/biocontainers/perl-time-local?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-time-local";
+        var versions = ["1.2300","1.28","1.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ fusioncatcher-seqtk
 .. _`fusioncatcher-seqtk/tags`: https://quay.io/repository/biocontainers/fusioncatcher-seqtk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fusioncatcher-seqtk";
+        var versions = ["1.2","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

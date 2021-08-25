@@ -61,10 +61,23 @@ targetfinder
 .. _`targetfinder/tags`: https://quay.io/repository/biocontainers/targetfinder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "targetfinder";
+        var versions = ["1.7","1.7","1.7","1.7","1.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

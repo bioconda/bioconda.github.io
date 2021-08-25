@@ -74,10 +74,23 @@ socru
 .. _`socru/tags`: https://quay.io/repository/biocontainers/socru?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "socru";
+        var versions = ["2.2.4","2.2.4","2.2.3","2.2.2","2.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

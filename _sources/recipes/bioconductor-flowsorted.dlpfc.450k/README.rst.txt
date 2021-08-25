@@ -62,10 +62,23 @@ bioconductor-flowsorted.dlpfc.450k
 .. _`bioconductor-flowsorted.dlpfc.450k/tags`: https://quay.io/repository/biocontainers/bioconductor-flowsorted.dlpfc.450k?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-flowsorted.dlpfc.450k";
+        var versions = ["1.28.0","1.26.0","1.26.0","1.24.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ bioconductor-ahcytobands
 .. _`bioconductor-ahcytobands/tags`: https://quay.io/repository/biocontainers/bioconductor-ahcytobands?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ahcytobands";
+        var versions = ["0.99.0","0.99.0","0.99.0","0.99.0","0.99.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

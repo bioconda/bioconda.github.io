@@ -75,10 +75,23 @@ methylpy
 .. _`methylpy/tags`: https://quay.io/repository/biocontainers/methylpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "methylpy";
+        var versions = ["1.4.3","1.4.3","1.4.2","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

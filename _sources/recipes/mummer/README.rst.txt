@@ -71,10 +71,23 @@ mummer
 .. _`mummer/tags`: https://quay.io/repository/biocontainers/mummer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mummer";
+        var versions = ["3.23","3.23","3.23","3.23","3.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

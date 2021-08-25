@@ -71,6 +71,13 @@ snpsift
 .. _`snpsift/tags`: https://quay.io/repository/biocontainers/snpsift?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snpsift";
+        var versions = ["4.3.1t","4.3.1t","4.3.1t","4.3.1t","4.3.1r"];
+    </script>
+
 
 
 
@@ -79,6 +86,12 @@ Notes
 -----
 The tool is available as command \`SnpSift\`. Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

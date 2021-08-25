@@ -66,10 +66,23 @@ combined-pvalues
 .. _`combined-pvalues/tags`: https://quay.io/repository/biocontainers/combined-pvalues?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "combined-pvalues";
+        var versions = ["0.50.2","0.50.0","0.48","0.48","0.48"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

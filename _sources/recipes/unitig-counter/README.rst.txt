@@ -64,10 +64,23 @@ unitig-counter
 .. _`unitig-counter/tags`: https://quay.io/repository/biocontainers/unitig-counter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "unitig-counter";
+        var versions = ["1.1.0","1.0.5","1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

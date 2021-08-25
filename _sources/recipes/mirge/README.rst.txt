@@ -68,10 +68,23 @@ mirge
 .. _`mirge/tags`: https://quay.io/repository/biocontainers/mirge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mirge";
+        var versions = ["2.0.6","2.0.6","2.0.6","2.0.5","2.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

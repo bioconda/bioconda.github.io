@@ -123,10 +123,23 @@ r-monocle3
 .. _`r-monocle3/tags`: https://quay.io/repository/biocontainers/r-monocle3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-monocle3";
+        var versions = ["1.0.0","1.0.0","0.2.3","0.2.3","0.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

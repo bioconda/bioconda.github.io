@@ -71,10 +71,23 @@ bioconductor-rankprod
 .. _`bioconductor-rankprod/tags`: https://quay.io/repository/biocontainers/bioconductor-rankprod?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rankprod";
+        var versions = ["3.18.0","3.16.0","3.16.0","3.14.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

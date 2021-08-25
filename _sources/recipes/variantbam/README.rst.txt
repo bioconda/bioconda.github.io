@@ -64,10 +64,23 @@ variantbam
 .. _`variantbam/tags`: https://quay.io/repository/biocontainers/variantbam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "variantbam";
+        var versions = ["1.4.4a","1.4.4a","1.4.4a","1.4.4a","1.4.4a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -59,10 +59,23 @@ gblocks
 .. _`gblocks/tags`: https://quay.io/repository/biocontainers/gblocks?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gblocks";
+        var versions = ["0.91b","0.91b","0.91b"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

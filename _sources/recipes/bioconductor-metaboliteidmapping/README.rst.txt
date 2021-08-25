@@ -62,10 +62,23 @@ bioconductor-metaboliteidmapping
 .. _`bioconductor-metaboliteidmapping/tags`: https://quay.io/repository/biocontainers/bioconductor-metaboliteidmapping?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-metaboliteidmapping";
+        var versions = ["1.0.0","0.99.8","0.99.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

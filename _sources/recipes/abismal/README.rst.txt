@@ -64,10 +64,23 @@ abismal
 .. _`abismal/tags`: https://quay.io/repository/biocontainers/abismal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "abismal";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

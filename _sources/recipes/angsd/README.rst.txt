@@ -74,10 +74,23 @@ angsd
 .. _`angsd/tags`: https://quay.io/repository/biocontainers/angsd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "angsd";
+        var versions = ["0.935","0.935","0.933","0.933","0.931"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ pangolearn
 .. _`pangolearn/tags`: https://quay.io/repository/biocontainers/pangolearn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pangolearn";
+        var versions = ["2021.08.09","2021.07.28","2021.07.09","2021.06.15","2021.06.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

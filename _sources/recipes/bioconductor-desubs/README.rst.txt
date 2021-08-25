@@ -74,10 +74,23 @@ bioconductor-desubs
 .. _`bioconductor-desubs/tags`: https://quay.io/repository/biocontainers/bioconductor-desubs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-desubs";
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.8.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

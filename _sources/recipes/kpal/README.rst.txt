@@ -64,10 +64,23 @@ kpal
 .. _`kpal/tags`: https://quay.io/repository/biocontainers/kpal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kpal";
+        var versions = ["2.1.1","2.1.1","2.1.1","2.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

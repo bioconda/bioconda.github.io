@@ -64,10 +64,23 @@ spliced_bam2gff
 .. _`spliced_bam2gff/tags`: https://quay.io/repository/biocontainers/spliced_bam2gff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "spliced_bam2gff";
+        var versions = ["1.3","1.3","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

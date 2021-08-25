@@ -59,10 +59,23 @@ dxua
 .. _`dxua/tags`: https://quay.io/repository/biocontainers/dxua?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dxua";
+        var versions = ["1.5.31","1.5.26","1.5.26","1.5.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

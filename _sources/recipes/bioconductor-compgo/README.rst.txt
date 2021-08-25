@@ -69,10 +69,23 @@ bioconductor-compgo
 .. _`bioconductor-compgo/tags`: https://quay.io/repository/biocontainers/bioconductor-compgo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-compgo";
+        var versions = ["1.26.0","1.26.0","1.22.0","1.20.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

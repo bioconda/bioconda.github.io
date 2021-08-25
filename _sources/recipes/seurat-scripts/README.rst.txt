@@ -67,10 +67,23 @@ seurat-scripts
 .. _`seurat-scripts/tags`: https://quay.io/repository/biocontainers/seurat-scripts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seurat-scripts";
+        var versions = ["0.0.9","0.0.9","0.0.8","0.0.7","0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

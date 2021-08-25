@@ -80,10 +80,23 @@ nanoplot
 .. _`nanoplot/tags`: https://quay.io/repository/biocontainers/nanoplot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanoplot";
+        var versions = ["1.38.1","1.38.0","1.37.0","1.36.2","1.36.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

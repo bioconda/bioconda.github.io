@@ -60,10 +60,23 @@ perl-math-bezier
 .. _`perl-math-bezier/tags`: https://quay.io/repository/biocontainers/perl-math-bezier?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-bezier";
+        var versions = ["0.01","0.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

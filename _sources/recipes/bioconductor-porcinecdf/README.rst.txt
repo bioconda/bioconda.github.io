@@ -62,10 +62,23 @@ bioconductor-porcinecdf
 .. _`bioconductor-porcinecdf/tags`: https://quay.io/repository/biocontainers/bioconductor-porcinecdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-porcinecdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

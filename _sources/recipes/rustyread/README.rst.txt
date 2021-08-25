@@ -63,10 +63,23 @@ rustyread
 .. _`rustyread/tags`: https://quay.io/repository/biocontainers/rustyread?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rustyread";
+        var versions = ["0.4","0.3","0.2","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

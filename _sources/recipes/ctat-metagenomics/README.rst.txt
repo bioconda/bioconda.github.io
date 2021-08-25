@@ -62,10 +62,23 @@ ctat-metagenomics
 .. _`ctat-metagenomics/tags`: https://quay.io/repository/biocontainers/ctat-metagenomics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ctat-metagenomics";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

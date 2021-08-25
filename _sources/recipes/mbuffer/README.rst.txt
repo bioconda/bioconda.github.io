@@ -60,10 +60,23 @@ mbuffer
 .. _`mbuffer/tags`: https://quay.io/repository/biocontainers/mbuffer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mbuffer";
+        var versions = ["20160228","20160228","20160228","20160228"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

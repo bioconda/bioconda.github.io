@@ -67,10 +67,23 @@ bioconductor-nparc
 .. _`bioconductor-nparc/tags`: https://quay.io/repository/biocontainers/bioconductor-nparc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-nparc";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

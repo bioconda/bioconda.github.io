@@ -64,10 +64,23 @@ bioconductor-tdaracne
 .. _`bioconductor-tdaracne/tags`: https://quay.io/repository/biocontainers/bioconductor-tdaracne?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-tdaracne";
+        var versions = ["1.42.0","1.40.0","1.40.0","1.38.0","1.36.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

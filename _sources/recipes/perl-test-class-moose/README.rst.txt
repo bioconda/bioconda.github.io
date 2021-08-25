@@ -75,10 +75,23 @@ perl-test-class-moose
 .. _`perl-test-class-moose/tags`: https://quay.io/repository/biocontainers/perl-test-class-moose?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-class-moose";
+        var versions = ["0.96","0.96","0.95","0.94","0.80"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

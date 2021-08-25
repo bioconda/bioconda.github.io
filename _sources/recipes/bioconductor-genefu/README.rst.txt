@@ -69,10 +69,23 @@ bioconductor-genefu
 .. _`bioconductor-genefu/tags`: https://quay.io/repository/biocontainers/bioconductor-genefu?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genefu";
+        var versions = ["2.24.2","2.22.1","2.22.0","2.20.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

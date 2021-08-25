@@ -62,10 +62,23 @@ abawaca
 .. _`abawaca/tags`: https://quay.io/repository/biocontainers/abawaca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "abawaca";
+        var versions = ["1.00","1.00","1.00","1.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

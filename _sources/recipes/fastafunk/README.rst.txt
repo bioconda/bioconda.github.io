@@ -64,10 +64,23 @@ fastafunk
 .. _`fastafunk/tags`: https://quay.io/repository/biocontainers/fastafunk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastafunk";
+        var versions = ["0.1.2","0.1.1","0.1.0","0.0.9","0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

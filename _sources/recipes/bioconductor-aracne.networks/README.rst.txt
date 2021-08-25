@@ -62,10 +62,23 @@ bioconductor-aracne.networks
 .. _`bioconductor-aracne.networks/tags`: https://quay.io/repository/biocontainers/bioconductor-aracne.networks?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-aracne.networks";
+        var versions = ["1.18.0","1.16.0","1.16.0","1.15.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

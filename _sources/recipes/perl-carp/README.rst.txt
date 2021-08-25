@@ -62,10 +62,23 @@ perl-carp
 .. _`perl-carp/tags`: https://quay.io/repository/biocontainers/perl-carp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-carp";
+        var versions = ["1.38","1.38","1.38","1.38"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

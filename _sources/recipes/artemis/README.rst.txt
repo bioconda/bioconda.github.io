@@ -61,6 +61,13 @@ artemis
 .. _`artemis/tags`: https://quay.io/repository/biocontainers/artemis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "artemis";
+        var versions = ["18.1.0","18.1.0","18.0.3","18.0.2","18.0.1"];
+    </script>
+
 
 
 
@@ -69,6 +76,12 @@ Notes
 -----
 The applications can be run using the following commands\: art\, act\, dnaplotter or bamview
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-text-tabs-wrap
 .. _`perl-text-tabs-wrap/tags`: https://quay.io/repository/biocontainers/perl-text-tabs-wrap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-tabs-wrap";
+        var versions = ["2013.0523","2013.0523"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

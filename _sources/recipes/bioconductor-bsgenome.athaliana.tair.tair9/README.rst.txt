@@ -62,10 +62,23 @@ bioconductor-bsgenome.athaliana.tair.tair9
 .. _`bioconductor-bsgenome.athaliana.tair.tair9/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.athaliana.tair.tair9?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.athaliana.tair.tair9";
+        var versions = ["1.3.1000","1.3.1000","1.3.1000","1.3.1000","1.3.1000"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

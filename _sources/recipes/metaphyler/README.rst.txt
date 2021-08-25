@@ -62,10 +62,23 @@ metaphyler
 .. _`metaphyler/tags`: https://quay.io/repository/biocontainers/metaphyler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metaphyler";
+        var versions = ["1.25","1.25","1.25","1.25","1.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

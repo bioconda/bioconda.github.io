@@ -65,10 +65,23 @@ rmetl
 .. _`rmetl/tags`: https://quay.io/repository/biocontainers/rmetl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rmetl";
+        var versions = ["1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

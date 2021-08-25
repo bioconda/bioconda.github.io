@@ -73,10 +73,23 @@ fargene
 .. _`fargene/tags`: https://quay.io/repository/biocontainers/fargene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fargene";
+        var versions = ["0.1","0.1","0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

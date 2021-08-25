@@ -79,10 +79,23 @@ mothur
 .. _`mothur/tags`: https://quay.io/repository/biocontainers/mothur?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mothur";
+        var versions = ["1.45.3","1.44.11","1.44.1","1.44.1","1.44.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

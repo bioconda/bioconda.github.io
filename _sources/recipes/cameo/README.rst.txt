@@ -80,10 +80,23 @@ cameo
 .. _`cameo/tags`: https://quay.io/repository/biocontainers/cameo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cameo";
+        var versions = ["0.13.0","0.12.0","0.11.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

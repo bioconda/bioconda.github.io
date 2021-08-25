@@ -63,10 +63,23 @@ perl-escape-houdini
 .. _`perl-escape-houdini/tags`: https://quay.io/repository/biocontainers/perl-escape-houdini?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-escape-houdini";
+        var versions = ["0.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

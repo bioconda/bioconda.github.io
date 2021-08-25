@@ -62,10 +62,23 @@ gvcftools
 .. _`gvcftools/tags`: https://quay.io/repository/biocontainers/gvcftools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gvcftools";
+        var versions = ["0.17.0","0.17.0","0.17.0","0.17.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

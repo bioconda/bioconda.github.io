@@ -70,10 +70,23 @@ ectyper
 .. _`ectyper/tags`: https://quay.io/repository/biocontainers/ectyper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ectyper";
+        var versions = ["1.0.0","1.0.0","0.9.1","0.9.0","0.8.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

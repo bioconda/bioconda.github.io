@@ -60,10 +60,23 @@ perl-net-netrc
 .. _`perl-net-netrc/tags`: https://quay.io/repository/biocontainers/perl-net-netrc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-net-netrc";
+        var versions = ["2.14","2.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

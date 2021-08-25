@@ -65,10 +65,23 @@ fsa
 .. _`fsa/tags`: https://quay.io/repository/biocontainers/fsa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fsa";
+        var versions = ["1.15.9","1.15.9","1.15.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

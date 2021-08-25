@@ -62,10 +62,23 @@ hts-nim-tools
 .. _`hts-nim-tools/tags`: https://quay.io/repository/biocontainers/hts-nim-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hts-nim-tools";
+        var versions = ["0.3.11","0.2.0","0.1.5","0.1.5","0.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

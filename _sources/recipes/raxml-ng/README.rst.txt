@@ -64,10 +64,23 @@ raxml-ng
 .. _`raxml-ng/tags`: https://quay.io/repository/biocontainers/raxml-ng?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "raxml-ng";
+        var versions = ["1.0.3","1.0.2","1.0.2","1.0.1","0.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

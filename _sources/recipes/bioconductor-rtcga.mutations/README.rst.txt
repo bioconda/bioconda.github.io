@@ -62,10 +62,23 @@ bioconductor-rtcga.mutations
 .. _`bioconductor-rtcga.mutations/tags`: https://quay.io/repository/biocontainers/bioconductor-rtcga.mutations?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rtcga.mutations";
+        var versions = ["20151101.22.0","20151101.20.0","20151101.20.0","20151101.18.0","20151101.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

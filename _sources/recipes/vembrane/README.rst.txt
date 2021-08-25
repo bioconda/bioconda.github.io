@@ -71,10 +71,23 @@ vembrane
 .. _`vembrane/tags`: https://quay.io/repository/biocontainers/vembrane?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vembrane";
+        var versions = ["0.6.1","0.6.0","0.5.3","0.5.2","0.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

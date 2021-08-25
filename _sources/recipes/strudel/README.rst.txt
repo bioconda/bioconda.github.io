@@ -60,10 +60,23 @@ strudel
 .. _`strudel/tags`: https://quay.io/repository/biocontainers/strudel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "strudel";
+        var versions = ["1.15.08.25","1.15.08.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

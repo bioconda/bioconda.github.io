@@ -63,10 +63,23 @@ perl-devel-checkos
 .. _`perl-devel-checkos/tags`: https://quay.io/repository/biocontainers/perl-devel-checkos?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-devel-checkos";
+        var versions = ["1.81"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

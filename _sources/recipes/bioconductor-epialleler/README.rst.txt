@@ -74,10 +74,23 @@ bioconductor-epialleler
 .. _`bioconductor-epialleler/tags`: https://quay.io/repository/biocontainers/bioconductor-epialleler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-epialleler";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

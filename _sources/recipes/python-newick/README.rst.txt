@@ -60,10 +60,23 @@ python-newick
 .. _`python-newick/tags`: https://quay.io/repository/biocontainers/python-newick?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-newick";
+        var versions = ["1.3.0","1.2.0","1.1.0","1.0.0","0.9.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

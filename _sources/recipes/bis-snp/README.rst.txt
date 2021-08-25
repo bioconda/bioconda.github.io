@@ -60,10 +60,23 @@ bis-snp
 .. _`bis-snp/tags`: https://quay.io/repository/biocontainers/bis-snp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bis-snp";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","0.82.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

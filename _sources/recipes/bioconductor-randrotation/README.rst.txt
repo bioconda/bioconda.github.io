@@ -61,10 +61,23 @@ bioconductor-randrotation
 .. _`bioconductor-randrotation/tags`: https://quay.io/repository/biocontainers/bioconductor-randrotation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-randrotation";
+        var versions = ["1.4.0","1.2.1","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

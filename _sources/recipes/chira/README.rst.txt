@@ -79,10 +79,23 @@ chira
 .. _`chira/tags`: https://quay.io/repository/biocontainers/chira?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chira";
+        var versions = ["1.4.3","1.4.3","1.4.2","1.4.0","1.3.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

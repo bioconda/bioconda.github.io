@@ -78,10 +78,23 @@ knock-knock
 .. _`knock-knock/tags`: https://quay.io/repository/biocontainers/knock-knock?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "knock-knock";
+        var versions = ["0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

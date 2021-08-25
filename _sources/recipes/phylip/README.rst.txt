@@ -62,10 +62,23 @@ phylip
 .. _`phylip/tags`: https://quay.io/repository/biocontainers/phylip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phylip";
+        var versions = ["3.697","3.697","3.696","3.696","3.696"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

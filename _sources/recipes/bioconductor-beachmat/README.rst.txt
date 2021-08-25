@@ -76,10 +76,23 @@ bioconductor-beachmat
 .. _`bioconductor-beachmat/tags`: https://quay.io/repository/biocontainers/bioconductor-beachmat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-beachmat";
+        var versions = ["2.8.0","2.6.4","2.6.0","2.4.0","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

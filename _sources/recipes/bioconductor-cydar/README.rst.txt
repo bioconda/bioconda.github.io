@@ -75,10 +75,23 @@ bioconductor-cydar
 .. _`bioconductor-cydar/tags`: https://quay.io/repository/biocontainers/bioconductor-cydar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cydar";
+        var versions = ["1.16.0","1.14.0","1.14.0","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

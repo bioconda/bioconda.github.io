@@ -61,10 +61,23 @@ gprofiler-official
 .. _`gprofiler-official/tags`: https://quay.io/repository/biocontainers/gprofiler-official?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gprofiler-official";
+        var versions = ["1.0.0","0.2.3","0.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

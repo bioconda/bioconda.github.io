@@ -65,10 +65,23 @@ hicap
 .. _`hicap/tags`: https://quay.io/repository/biocontainers/hicap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hicap";
+        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

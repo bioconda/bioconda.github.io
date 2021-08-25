@@ -62,10 +62,23 @@ perl-extutils-depends
 .. _`perl-extutils-depends/tags`: https://quay.io/repository/biocontainers/perl-extutils-depends?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-depends";
+        var versions = ["0.8000","0.405","0.405","0.405"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

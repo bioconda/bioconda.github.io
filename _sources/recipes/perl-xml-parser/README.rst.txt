@@ -62,10 +62,23 @@ perl-xml-parser
 .. _`perl-xml-parser/tags`: https://quay.io/repository/biocontainers/perl-xml-parser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-parser";
+        var versions = ["2.44","2.44","2.44","2.44","2.44"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

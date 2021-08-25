@@ -78,10 +78,23 @@ r-deseqanalysis
 .. _`r-deseqanalysis/tags`: https://quay.io/repository/biocontainers/r-deseqanalysis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-deseqanalysis";
+        var versions = ["0.4.4","0.4.3","0.3.10","0.3.10","0.3.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

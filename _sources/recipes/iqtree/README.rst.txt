@@ -72,10 +72,23 @@ iqtree
 .. _`iqtree/tags`: https://quay.io/repository/biocontainers/iqtree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "iqtree";
+        var versions = ["2.1.4_beta","2.1.2","2.0.3","2.0.3","1.6.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

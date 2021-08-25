@@ -68,10 +68,23 @@ bioconductor-pd.ragene.2.1.st
 .. _`bioconductor-pd.ragene.2.1.st/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.ragene.2.1.st?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.ragene.2.1.st";
+        var versions = ["3.14.1","3.14.1","3.14.1","3.14.1","3.14.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

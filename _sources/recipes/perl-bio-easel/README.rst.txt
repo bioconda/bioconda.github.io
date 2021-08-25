@@ -63,10 +63,23 @@ perl-bio-easel
 .. _`perl-bio-easel/tags`: https://quay.io/repository/biocontainers/perl-bio-easel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-easel";
+        var versions = ["0.15","0.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

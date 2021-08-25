@@ -59,10 +59,23 @@ gustaf
 .. _`gustaf/tags`: https://quay.io/repository/biocontainers/gustaf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gustaf";
+        var versions = ["1.0.8","1.0.8","1.0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

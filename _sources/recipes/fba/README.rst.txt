@@ -75,10 +75,23 @@ fba
 .. _`fba/tags`: https://quay.io/repository/biocontainers/fba?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fba";
+        var versions = ["0.0.11","0.0.10.post1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

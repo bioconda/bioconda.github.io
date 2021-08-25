@@ -70,10 +70,23 @@ minimap2
 .. _`minimap2/tags`: https://quay.io/repository/biocontainers/minimap2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "minimap2";
+        var versions = ["2.22","2.21","2.20","2.19","2.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -94,10 +94,23 @@ bioconductor-artms
 .. _`bioconductor-artms/tags`: https://quay.io/repository/biocontainers/bioconductor-artms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-artms";
+        var versions = ["1.10.0","1.8.2","1.8.0","1.6.3","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

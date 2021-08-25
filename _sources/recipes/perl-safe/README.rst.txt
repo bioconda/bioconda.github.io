@@ -60,10 +60,23 @@ perl-safe
 .. _`perl-safe/tags`: https://quay.io/repository/biocontainers/perl-safe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-safe";
+        var versions = ["2.37","2.37"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

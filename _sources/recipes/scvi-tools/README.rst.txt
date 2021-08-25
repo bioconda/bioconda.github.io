@@ -87,10 +87,23 @@ scvi-tools
 .. _`scvi-tools/tags`: https://quay.io/repository/biocontainers/scvi-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scvi-tools";
+        var versions = ["0.13.0","0.12.2","0.11.0","0.10.1","0.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-sort-mergesort
 .. _`perl-sort-mergesort/tags`: https://quay.io/repository/biocontainers/perl-sort-mergesort?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sort-mergesort";
+        var versions = ["0.31","0.31"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

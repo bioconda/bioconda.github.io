@@ -68,10 +68,23 @@ bioconductor-pd.ht.mg.430a
 .. _`bioconductor-pd.ht.mg.430a/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.ht.mg.430a?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.ht.mg.430a";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

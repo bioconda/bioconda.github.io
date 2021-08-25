@@ -61,10 +61,23 @@ chexmix
 .. _`chexmix/tags`: https://quay.io/repository/biocontainers/chexmix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chexmix";
+        var versions = ["0.51","0.45","0.5","0.5","0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bioconductor-txdb.athaliana.biomart.plantsmart25
 .. _`bioconductor-txdb.athaliana.biomart.plantsmart25/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.athaliana.biomart.plantsmart25?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.athaliana.biomart.plantsmart25";
+        var versions = ["3.1.3","3.1.3","3.1.3","3.1.3","3.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

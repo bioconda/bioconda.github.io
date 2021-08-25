@@ -79,10 +79,23 @@ nanopolish
 .. _`nanopolish/tags`: https://quay.io/repository/biocontainers/nanopolish?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanopolish";
+        var versions = ["0.13.2","0.13.2","0.13.2","0.13.2","0.13.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

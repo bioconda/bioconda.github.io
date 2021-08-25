@@ -63,10 +63,23 @@ figaro
 .. _`figaro/tags`: https://quay.io/repository/biocontainers/figaro?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "figaro";
+        var versions = ["1.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

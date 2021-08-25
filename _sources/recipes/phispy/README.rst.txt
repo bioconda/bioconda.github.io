@@ -80,10 +80,23 @@ phispy
 .. _`phispy/tags`: https://quay.io/repository/biocontainers/phispy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phispy";
+        var versions = ["4.2.19","4.2.17","4.2.12","4.2.6","4.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

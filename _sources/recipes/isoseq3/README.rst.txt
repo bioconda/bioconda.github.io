@@ -67,10 +67,23 @@ isoseq3
 .. _`isoseq3/tags`: https://quay.io/repository/biocontainers/isoseq3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "isoseq3";
+        var versions = ["3.4.0","3.3.0","3.2.2","3.2.1","3.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

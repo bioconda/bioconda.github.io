@@ -61,10 +61,23 @@ perl-variable-magic
 .. _`perl-variable-magic/tags`: https://quay.io/repository/biocontainers/perl-variable-magic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-variable-magic";
+        var versions = ["0.61","0.61"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

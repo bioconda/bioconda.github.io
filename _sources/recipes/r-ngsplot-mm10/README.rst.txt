@@ -63,10 +63,23 @@ r-ngsplotdb-mm10
 .. _`r-ngsplotdb-mm10/tags`: https://quay.io/repository/biocontainers/r-ngsplotdb-mm10?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ngsplotdb-mm10";
+        var versions = ["3.00","3.00","3.00","3.00","3.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

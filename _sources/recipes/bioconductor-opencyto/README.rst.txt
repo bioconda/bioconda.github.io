@@ -85,10 +85,23 @@ bioconductor-opencyto
 .. _`bioconductor-opencyto/tags`: https://quay.io/repository/biocontainers/bioconductor-opencyto?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-opencyto";
+        var versions = ["2.4.0","2.2.0","2.2.0","2.2.0","2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

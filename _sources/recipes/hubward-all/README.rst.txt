@@ -70,10 +70,23 @@ hubward-all
 .. _`hubward-all/tags`: https://quay.io/repository/biocontainers/hubward-all?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hubward-all";
+        var versions = ["0.2.1","0.2.1","0.2.1","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

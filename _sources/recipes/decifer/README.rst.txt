@@ -68,10 +68,23 @@ decifer
 .. _`decifer/tags`: https://quay.io/repository/biocontainers/decifer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "decifer";
+        var versions = ["1.1.4","1.1","1.0.0","0.0.2","0.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

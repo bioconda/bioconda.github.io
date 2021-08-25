@@ -61,10 +61,23 @@ libidn
 .. _`libidn/tags`: https://quay.io/repository/biocontainers/libidn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libidn";
+        var versions = ["7.45.0","7.45.0","7.45.0","7.45.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

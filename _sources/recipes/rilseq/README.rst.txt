@@ -74,10 +74,23 @@ rilseq
 .. _`rilseq/tags`: https://quay.io/repository/biocontainers/rilseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rilseq";
+        var versions = ["0.81","0.80","0.78","0.78","0.77"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

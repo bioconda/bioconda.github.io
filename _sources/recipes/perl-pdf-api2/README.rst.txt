@@ -61,10 +61,23 @@ perl-pdf-api2
 .. _`perl-pdf-api2/tags`: https://quay.io/repository/biocontainers/perl-pdf-api2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pdf-api2";
+        var versions = ["2.035","2.034","2.033","2.025","2.025"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

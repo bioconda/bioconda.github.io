@@ -61,10 +61,23 @@ bioconductor-derfinderdata
 .. _`bioconductor-derfinderdata/tags`: https://quay.io/repository/biocontainers/bioconductor-derfinderdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-derfinderdata";
+        var versions = ["2.10.0","2.8.1","2.8.0","2.7.1","2.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

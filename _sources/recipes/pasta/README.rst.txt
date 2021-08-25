@@ -66,10 +66,23 @@ pasta
 .. _`pasta/tags`: https://quay.io/repository/biocontainers/pasta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pasta";
+        var versions = ["1.7.8","1.7.8","1.7.8","1.7.8","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

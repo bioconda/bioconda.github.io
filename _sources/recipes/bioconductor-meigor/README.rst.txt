@@ -65,10 +65,23 @@ bioconductor-meigor
 .. _`bioconductor-meigor/tags`: https://quay.io/repository/biocontainers/bioconductor-meigor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-meigor";
+        var versions = ["1.26.0","1.24.0","1.24.0","1.21.0","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

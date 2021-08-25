@@ -61,10 +61,23 @@ proteowizard
 .. _`proteowizard/tags`: https://quay.io/repository/biocontainers/proteowizard?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "proteowizard";
+        var versions = ["3_0_9992","3_0_9992"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

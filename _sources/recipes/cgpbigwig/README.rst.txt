@@ -78,10 +78,23 @@ cgpbigwig
 .. _`cgpbigwig/tags`: https://quay.io/repository/biocontainers/cgpbigwig?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cgpbigwig";
+        var versions = ["1.6.0","1.6.0","1.5.2","1.5.1","1.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

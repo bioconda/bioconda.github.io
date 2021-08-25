@@ -62,10 +62,23 @@ bioconductor-drosgenome1probe
 .. _`bioconductor-drosgenome1probe/tags`: https://quay.io/repository/biocontainers/bioconductor-drosgenome1probe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-drosgenome1probe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

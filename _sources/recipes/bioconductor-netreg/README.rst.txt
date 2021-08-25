@@ -70,10 +70,23 @@ bioconductor-netreg
 .. _`bioconductor-netreg/tags`: https://quay.io/repository/biocontainers/bioconductor-netreg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-netreg";
+        var versions = ["1.13.1","1.13.1","1.11.0","1.10.0","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ cryfa
 .. _`cryfa/tags`: https://quay.io/repository/biocontainers/cryfa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cryfa";
+        var versions = ["18.06","18.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

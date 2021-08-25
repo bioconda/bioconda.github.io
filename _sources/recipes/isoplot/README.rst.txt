@@ -72,10 +72,23 @@ isoplot
 .. _`isoplot/tags`: https://quay.io/repository/biocontainers/isoplot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "isoplot";
+        var versions = ["1.3.0","1.2.4","1.2.3.2","1.2.3","1.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

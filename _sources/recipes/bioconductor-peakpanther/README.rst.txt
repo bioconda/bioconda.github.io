@@ -75,10 +75,23 @@ bioconductor-peakpanther
 .. _`bioconductor-peakpanther/tags`: https://quay.io/repository/biocontainers/bioconductor-peakpanther?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-peakpanther";
+        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

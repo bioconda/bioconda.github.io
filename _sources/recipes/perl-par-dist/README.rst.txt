@@ -62,10 +62,23 @@ perl-par-dist
 .. _`perl-par-dist/tags`: https://quay.io/repository/biocontainers/perl-par-dist?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-par-dist";
+        var versions = ["0.49","0.49"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

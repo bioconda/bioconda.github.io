@@ -63,10 +63,23 @@ visceral-evaluatesegmentation
 .. _`visceral-evaluatesegmentation/tags`: https://quay.io/repository/biocontainers/visceral-evaluatesegmentation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "visceral-evaluatesegmentation";
+        var versions = ["2015.07.03","2015.07.03","2015.07.02","2015.07.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

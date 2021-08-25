@@ -74,10 +74,23 @@ mageck
 .. _`mageck/tags`: https://quay.io/repository/biocontainers/mageck?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mageck";
+        var versions = ["0.5.9.4","0.5.9.4","0.5.9.3","0.5.9.3","0.5.9.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

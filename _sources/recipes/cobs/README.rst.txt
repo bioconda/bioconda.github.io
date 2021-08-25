@@ -66,10 +66,23 @@ cobs
 .. _`cobs/tags`: https://quay.io/repository/biocontainers/cobs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cobs";
+        var versions = ["0.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

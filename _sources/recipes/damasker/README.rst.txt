@@ -60,10 +60,23 @@ damasker
 .. _`damasker/tags`: https://quay.io/repository/biocontainers/damasker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "damasker";
+        var versions = ["1.0p1","1.0p1","1.0p1","1.0p1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

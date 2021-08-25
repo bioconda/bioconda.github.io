@@ -84,10 +84,23 @@ hiline
 .. _`hiline/tags`: https://quay.io/repository/biocontainers/hiline?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hiline";
+        var versions = ["0.2.2","0.2.2","0.2.1","0.1","0.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

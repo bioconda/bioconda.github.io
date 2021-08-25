@@ -86,10 +86,23 @@ bioconductor-atacseqqc
 .. _`bioconductor-atacseqqc/tags`: https://quay.io/repository/biocontainers/bioconductor-atacseqqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-atacseqqc";
+        var versions = ["1.16.0","1.14.4","1.14.4","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

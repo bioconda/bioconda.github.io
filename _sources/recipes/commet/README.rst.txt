@@ -68,10 +68,23 @@ commet
 .. _`commet/tags`: https://quay.io/repository/biocontainers/commet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "commet";
+        var versions = ["24.7.14","24.7.14","24.7.14","24.7.14","24.7.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

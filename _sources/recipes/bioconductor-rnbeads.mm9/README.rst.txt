@@ -62,10 +62,23 @@ bioconductor-rnbeads.mm9
 .. _`bioconductor-rnbeads.mm9/tags`: https://quay.io/repository/biocontainers/bioconductor-rnbeads.mm9?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rnbeads.mm9";
+        var versions = ["1.24.0","1.22.0","1.22.0","1.20.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ gvcfgenotyper
 .. _`gvcfgenotyper/tags`: https://quay.io/repository/biocontainers/gvcfgenotyper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gvcfgenotyper";
+        var versions = ["2019.02.26","2019.02.26","2018.10.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

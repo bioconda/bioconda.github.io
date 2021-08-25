@@ -60,10 +60,23 @@ perl-file-tee
 .. _`perl-file-tee/tags`: https://quay.io/repository/biocontainers/perl-file-tee?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-tee";
+        var versions = ["0.07","0.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

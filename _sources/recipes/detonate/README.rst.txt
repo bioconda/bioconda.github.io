@@ -66,10 +66,23 @@ detonate
 .. _`detonate/tags`: https://quay.io/repository/biocontainers/detonate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "detonate";
+        var versions = ["1.11","1.11","1.11","1.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ r-crmn
 .. _`r-crmn/tags`: https://quay.io/repository/biocontainers/r-crmn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-crmn";
+        var versions = ["0.0.21","0.0.21","0.0.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

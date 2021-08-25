@@ -65,10 +65,23 @@ perl-metabolomics-fragment-annotation
 .. _`perl-metabolomics-fragment-annotation/tags`: https://quay.io/repository/biocontainers/perl-metabolomics-fragment-annotation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-metabolomics-fragment-annotation";
+        var versions = ["0.6.3","0.6.3","0.6.2","0.5.2","0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

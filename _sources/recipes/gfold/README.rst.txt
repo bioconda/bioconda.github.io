@@ -62,10 +62,23 @@ gfold
 .. _`gfold/tags`: https://quay.io/repository/biocontainers/gfold?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gfold";
+        var versions = ["1.1.4","1.1.4","1.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

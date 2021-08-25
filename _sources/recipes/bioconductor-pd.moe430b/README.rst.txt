@@ -68,10 +68,23 @@ bioconductor-pd.moe430b
 .. _`bioconductor-pd.moe430b/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.moe430b?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.moe430b";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ ucsc-bigwigsummary
 .. _`ucsc-bigwigsummary/tags`: https://quay.io/repository/biocontainers/ucsc-bigwigsummary?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-bigwigsummary";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

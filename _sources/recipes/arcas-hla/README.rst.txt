@@ -73,10 +73,23 @@ arcas-hla
 .. _`arcas-hla/tags`: https://quay.io/repository/biocontainers/arcas-hla?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "arcas-hla";
+        var versions = ["0.2.5","0.2.0","0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

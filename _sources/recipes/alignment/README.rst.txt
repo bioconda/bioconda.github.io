@@ -60,10 +60,23 @@ alignment
 .. _`alignment/tags`: https://quay.io/repository/biocontainers/alignment?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "alignment";
+        var versions = ["1.0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

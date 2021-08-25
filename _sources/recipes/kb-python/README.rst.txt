@@ -77,10 +77,23 @@ kb-python
 .. _`kb-python/tags`: https://quay.io/repository/biocontainers/kb-python?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kb-python";
+        var versions = ["0.26.3","0.26.2","0.26.1","0.26.0","0.25.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

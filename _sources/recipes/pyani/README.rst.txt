@@ -69,10 +69,23 @@ pyani
 .. _`pyani/tags`: https://quay.io/repository/biocontainers/pyani?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyani";
+        var versions = ["0.2.11","0.2.10","0.2.9","0.2.7","0.2.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

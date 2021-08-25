@@ -71,10 +71,23 @@ bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene
 .. _`bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.11.0","3.4.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

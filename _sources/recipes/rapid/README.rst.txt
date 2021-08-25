@@ -81,10 +81,23 @@ rapid
 .. _`rapid/tags`: https://quay.io/repository/biocontainers/rapid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rapid";
+        var versions = ["1.0","1.0","1.0","0.8","0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

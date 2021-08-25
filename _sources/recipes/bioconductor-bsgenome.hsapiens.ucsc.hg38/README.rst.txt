@@ -70,10 +70,23 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
 .. _`bioconductor-bsgenome.hsapiens.ucsc.hg38/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.ucsc.hg38?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.hsapiens.ucsc.hg38";
+        var versions = ["1.4.3","1.4.3","1.4.3","1.4.3","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

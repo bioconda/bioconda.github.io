@@ -27,7 +27,7 @@ pcst-fast
       
       
 
-      ``1.0.7-0``
+      ``1.0.7.1-0``,  ``1.0.7-0``
 
       
 
@@ -64,10 +64,23 @@ pcst-fast
 .. _`pcst-fast/tags`: https://quay.io/repository/biocontainers/pcst-fast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pcst-fast";
+        var versions = ["1.0.7.1","1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

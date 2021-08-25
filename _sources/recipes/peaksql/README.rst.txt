@@ -65,10 +65,23 @@ peaksql
 .. _`peaksql/tags`: https://quay.io/repository/biocontainers/peaksql?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "peaksql";
+        var versions = ["0.0.4","0.0.3","0.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

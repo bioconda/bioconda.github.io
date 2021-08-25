@@ -63,10 +63,23 @@ bioconductor-maskbad
 .. _`bioconductor-maskbad/tags`: https://quay.io/repository/biocontainers/bioconductor-maskbad?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-maskbad";
+        var versions = ["1.36.0","1.34.0","1.34.0","1.32.0","1.30.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

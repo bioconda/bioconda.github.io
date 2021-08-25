@@ -61,10 +61,23 @@ bgt
 .. _`bgt/tags`: https://quay.io/repository/biocontainers/bgt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bgt";
+        var versions = ["r283","r283","r283","r283","r277"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

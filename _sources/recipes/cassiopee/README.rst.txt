@@ -66,10 +66,23 @@ cassiopee
 .. _`cassiopee/tags`: https://quay.io/repository/biocontainers/cassiopee?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cassiopee";
+        var versions = ["1.0.9","1.0.9","1.0.5","1.0.5","1.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ perl-forks
 .. _`perl-forks/tags`: https://quay.io/repository/biocontainers/perl-forks?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-forks";
+        var versions = ["0.36","0.36","0.36","0.36"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

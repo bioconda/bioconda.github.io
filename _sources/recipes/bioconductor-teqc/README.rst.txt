@@ -74,10 +74,23 @@ bioconductor-teqc
 .. _`bioconductor-teqc/tags`: https://quay.io/repository/biocontainers/bioconductor-teqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-teqc";
+        var versions = ["4.14.0","4.12.0","4.12.0","4.10.0","4.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

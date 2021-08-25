@@ -62,10 +62,23 @@ r-chbutils
 .. _`r-chbutils/tags`: https://quay.io/repository/biocontainers/r-chbutils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-chbutils";
+        var versions = ["0.1_2017_10_26","0.1_2017_10_26","0.1_2017_10_26","0.1_2017_10_26","0.1_2017_10_26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

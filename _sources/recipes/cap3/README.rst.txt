@@ -60,10 +60,23 @@ cap3
 .. _`cap3/tags`: https://quay.io/repository/biocontainers/cap3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cap3";
+        var versions = ["10.2011","10.2011","10.2011","10.2011"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

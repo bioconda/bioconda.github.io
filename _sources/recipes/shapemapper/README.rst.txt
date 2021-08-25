@@ -65,10 +65,23 @@ shapemapper
 .. _`shapemapper/tags`: https://quay.io/repository/biocontainers/shapemapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shapemapper";
+        var versions = ["1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

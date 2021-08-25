@@ -60,10 +60,23 @@ bftools
 .. _`bftools/tags`: https://quay.io/repository/biocontainers/bftools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bftools";
+        var versions = ["5.7.1","5.7.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

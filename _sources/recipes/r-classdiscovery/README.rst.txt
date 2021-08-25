@@ -73,10 +73,23 @@ r-classdiscovery
 .. _`r-classdiscovery/tags`: https://quay.io/repository/biocontainers/r-classdiscovery?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-classdiscovery";
+        var versions = ["3.4.0","3.3.13","3.3.13","3.3.13","3.3.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

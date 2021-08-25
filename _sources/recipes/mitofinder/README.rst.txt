@@ -70,10 +70,23 @@ mitofinder
 .. _`mitofinder/tags`: https://quay.io/repository/biocontainers/mitofinder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mitofinder";
+        var versions = ["1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

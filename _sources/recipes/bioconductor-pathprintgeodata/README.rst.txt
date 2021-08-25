@@ -61,10 +61,23 @@ bioconductor-pathprintgeodata
 .. _`bioconductor-pathprintgeodata/tags`: https://quay.io/repository/biocontainers/bioconductor-pathprintgeodata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pathprintgeodata";
+        var versions = ["1.20.0","1.20.0","1.19.1","1.18.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

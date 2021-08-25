@@ -79,10 +79,23 @@ vsnp
 .. _`vsnp/tags`: https://quay.io/repository/biocontainers/vsnp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vsnp";
+        var versions = ["2.03","2.03","2.03","0.2.02","0.2.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

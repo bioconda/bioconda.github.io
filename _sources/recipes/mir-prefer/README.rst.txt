@@ -63,10 +63,23 @@ mir-prefer
 .. _`mir-prefer/tags`: https://quay.io/repository/biocontainers/mir-prefer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mir-prefer";
+        var versions = ["0.24","0.24","0.24","0.24","0.24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

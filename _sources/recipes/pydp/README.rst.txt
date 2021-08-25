@@ -63,10 +63,23 @@ pydp
 .. _`pydp/tags`: https://quay.io/repository/biocontainers/pydp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pydp";
+        var versions = ["0.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

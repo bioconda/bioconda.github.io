@@ -74,6 +74,13 @@ jmztab-m
 .. _`jmztab-m/tags`: https://quay.io/repository/biocontainers/jmztab-m?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jmztab-m";
+        var versions = ["1.0.6","1.0.6","1.0.5","1.0.4"];
+    </script>
+
 
 
 
@@ -88,6 +95,12 @@ set globally this will take precedence.
 For example run it with \"jmztab\-m \-Xms512m \-Xmx1g\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

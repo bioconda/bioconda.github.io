@@ -65,10 +65,23 @@ neptune
 .. _`neptune/tags`: https://quay.io/repository/biocontainers/neptune?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "neptune";
+        var versions = ["1.2.5","1.2.5","1.2.5","1.2.5","1.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-type-tiny
 .. _`perl-type-tiny/tags`: https://quay.io/repository/biocontainers/perl-type-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-type-tiny";
+        var versions = ["1.004004","1.004003","1.004002","1.002002","1.000005"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

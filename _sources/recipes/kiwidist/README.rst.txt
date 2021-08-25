@@ -67,10 +67,23 @@ kiwidist
 .. _`kiwidist/tags`: https://quay.io/repository/biocontainers/kiwidist?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kiwidist";
+        var versions = ["0.3.6","0.3.6","0.3.6","0.3.5","0.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

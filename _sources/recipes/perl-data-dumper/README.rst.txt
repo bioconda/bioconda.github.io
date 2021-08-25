@@ -60,10 +60,23 @@ perl-data-dumper
 .. _`perl-data-dumper/tags`: https://quay.io/repository/biocontainers/perl-data-dumper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-dumper";
+        var versions = ["2.173","2.161","2.161","2.161"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

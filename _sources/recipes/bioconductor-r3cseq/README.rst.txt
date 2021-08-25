@@ -80,10 +80,23 @@ bioconductor-r3cseq
 .. _`bioconductor-r3cseq/tags`: https://quay.io/repository/biocontainers/bioconductor-r3cseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-r3cseq";
+        var versions = ["1.38.0","1.36.0","1.36.0","1.34.0","1.32.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

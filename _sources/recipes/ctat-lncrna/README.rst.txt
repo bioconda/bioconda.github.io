@@ -60,10 +60,23 @@ ctat-lncrna
 .. _`ctat-lncrna/tags`: https://quay.io/repository/biocontainers/ctat-lncrna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ctat-lncrna";
+        var versions = ["1.0.1","1.0.1","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

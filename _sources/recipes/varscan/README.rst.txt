@@ -70,10 +70,23 @@ varscan
 .. _`varscan/tags`: https://quay.io/repository/biocontainers/varscan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "varscan";
+        var versions = ["2.4.4","2.4.4","2.4.3","2.4.3","2.4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

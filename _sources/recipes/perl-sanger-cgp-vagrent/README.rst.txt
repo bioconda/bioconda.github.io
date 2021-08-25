@@ -65,10 +65,23 @@ perl-sanger-cgp-vagrent
 .. _`perl-sanger-cgp-vagrent/tags`: https://quay.io/repository/biocontainers/perl-sanger-cgp-vagrent?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sanger-cgp-vagrent";
+        var versions = ["3.7.0","3.6.1","3.5.2","3.5.0","3.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

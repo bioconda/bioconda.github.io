@@ -60,10 +60,23 @@ perl-xml-parser-lite
 .. _`perl-xml-parser-lite/tags`: https://quay.io/repository/biocontainers/perl-xml-parser-lite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-parser-lite";
+        var versions = ["0.722","0.721","0.721","0.721"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

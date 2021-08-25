@@ -74,10 +74,23 @@ hicmatrix
 .. _`hicmatrix/tags`: https://quay.io/repository/biocontainers/hicmatrix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hicmatrix";
+        var versions = ["16","15","14","13","12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

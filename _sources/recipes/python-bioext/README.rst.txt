@@ -70,10 +70,23 @@ python-bioext
 .. _`python-bioext/tags`: https://quay.io/repository/biocontainers/python-bioext?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-bioext";
+        var versions = ["0.20.1","0.20.1","0.19.7","0.19.7","0.18.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

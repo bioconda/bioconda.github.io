@@ -61,10 +61,23 @@ trackhub
 .. _`trackhub/tags`: https://quay.io/repository/biocontainers/trackhub?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trackhub";
+        var versions = ["0.2.4","0.2.4","0.2.4","0.1.2019.12.24","0.1.2019.12.24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ perl-extutils-installpaths
 .. _`perl-extutils-installpaths/tags`: https://quay.io/repository/biocontainers/perl-extutils-installpaths?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-installpaths";
+        var versions = ["0.012","0.011","0.011"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

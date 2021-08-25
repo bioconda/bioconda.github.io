@@ -69,10 +69,23 @@ raxml
 .. _`raxml/tags`: https://quay.io/repository/biocontainers/raxml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "raxml";
+        var versions = ["8.2.12","8.2.12","8.2.12","8.2.12","8.2.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

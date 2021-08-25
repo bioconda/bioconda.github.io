@@ -60,10 +60,23 @@ perl-graph
 .. _`perl-graph/tags`: https://quay.io/repository/biocontainers/perl-graph?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-graph";
+        var versions = ["0.9704","0.9704"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

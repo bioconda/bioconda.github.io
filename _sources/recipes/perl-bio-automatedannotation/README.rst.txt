@@ -74,10 +74,23 @@ perl-bio-automatedannotation
 .. _`perl-bio-automatedannotation/tags`: https://quay.io/repository/biocontainers/perl-bio-automatedannotation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-automatedannotation";
+        var versions = ["1.182770","1.182770"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

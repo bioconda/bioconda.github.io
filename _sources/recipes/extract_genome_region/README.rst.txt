@@ -62,10 +62,23 @@ extract_genome_region
 .. _`extract_genome_region/tags`: https://quay.io/repository/biocontainers/extract_genome_region?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "extract_genome_region";
+        var versions = ["0.0.3","0.0.3","0.0.3","0.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

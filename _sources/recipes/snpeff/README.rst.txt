@@ -71,6 +71,13 @@ snpeff
 .. _`snpeff/tags`: https://quay.io/repository/biocontainers/snpeff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snpeff";
+        var versions = ["5.0","5.0","4.5covid19","4.5covid19","4.5covid19"];
+    </script>
+
 
 
 
@@ -79,6 +86,12 @@ Notes
 -----
 The tool is available as command \`snpEff\`. Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

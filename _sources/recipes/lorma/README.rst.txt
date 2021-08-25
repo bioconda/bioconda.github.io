@@ -62,10 +62,23 @@ lorma
 .. _`lorma/tags`: https://quay.io/repository/biocontainers/lorma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lorma";
+        var versions = ["0.4","0.4","0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

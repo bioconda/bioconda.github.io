@@ -63,10 +63,23 @@ perl-xml-semanticdiff
 .. _`perl-xml-semanticdiff/tags`: https://quay.io/repository/biocontainers/perl-xml-semanticdiff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-semanticdiff";
+        var versions = ["1.0007","1.0004","1.0004","1.0004"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

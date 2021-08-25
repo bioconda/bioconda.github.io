@@ -69,10 +69,23 @@ fasttree
 .. _`fasttree/tags`: https://quay.io/repository/biocontainers/fasttree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fasttree";
+        var versions = ["2.1.10","2.1.10","2.1.10","2.1.10","2.1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

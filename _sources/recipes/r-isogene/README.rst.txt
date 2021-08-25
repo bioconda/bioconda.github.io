@@ -65,10 +65,23 @@ r-isogene
 .. _`r-isogene/tags`: https://quay.io/repository/biocontainers/r-isogene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-isogene";
+        var versions = ["1.0_24","1.0_24","1.0_24","1.0_24","1.0_24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

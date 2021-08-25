@@ -71,10 +71,23 @@ bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene
 .. _`bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene";
+        var versions = ["3.2.2","3.2.2","3.2.2","3.2.2","3.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

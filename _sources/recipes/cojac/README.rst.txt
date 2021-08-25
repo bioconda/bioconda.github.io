@@ -64,10 +64,23 @@ cojac
 .. _`cojac/tags`: https://quay.io/repository/biocontainers/cojac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cojac";
+        var versions = ["0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ ucsc-genepredcheck
 .. _`ucsc-genepredcheck/tags`: https://quay.io/repository/biocontainers/ucsc-genepredcheck?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-genepredcheck";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

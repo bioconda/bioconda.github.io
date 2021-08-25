@@ -72,10 +72,23 @@ pairix
 .. _`pairix/tags`: https://quay.io/repository/biocontainers/pairix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pairix";
+        var versions = ["0.3.7","0.3.7","0.3.7","0.3.7","0.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

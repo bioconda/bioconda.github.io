@@ -62,10 +62,23 @@ perl-log-any
 .. _`perl-log-any/tags`: https://quay.io/repository/biocontainers/perl-log-any?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-log-any";
+        var versions = ["1.045","1.045"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ perl-storable
 .. _`perl-storable/tags`: https://quay.io/repository/biocontainers/perl-storable?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-storable";
+        var versions = ["3.15","3.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

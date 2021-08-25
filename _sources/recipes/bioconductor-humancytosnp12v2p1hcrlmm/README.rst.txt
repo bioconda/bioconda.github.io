@@ -61,10 +61,23 @@ bioconductor-humancytosnp12v2p1hcrlmm
 .. _`bioconductor-humancytosnp12v2p1hcrlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-humancytosnp12v2p1hcrlmm";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

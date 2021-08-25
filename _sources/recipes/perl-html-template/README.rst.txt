@@ -62,10 +62,23 @@ perl-html-template
 .. _`perl-html-template/tags`: https://quay.io/repository/biocontainers/perl-html-template?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-template";
+        var versions = ["2.97","2.95","2.95"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

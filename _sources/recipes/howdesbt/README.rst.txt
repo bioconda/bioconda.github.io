@@ -64,10 +64,23 @@ howdesbt
 .. _`howdesbt/tags`: https://quay.io/repository/biocontainers/howdesbt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "howdesbt";
+        var versions = ["2.00.02","2.00.02","1.00.03","1.00.03","1.00.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

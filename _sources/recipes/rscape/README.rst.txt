@@ -71,10 +71,23 @@ rscape
 .. _`rscape/tags`: https://quay.io/repository/biocontainers/rscape?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rscape";
+        var versions = ["1.4.0","1.4.0","1.2.2","1.2.2","1.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -91,10 +91,23 @@ rgi
 .. _`rgi/tags`: https://quay.io/repository/biocontainers/rgi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rgi";
+        var versions = ["5.2.0","5.1.1","5.1.0","5.1.0","5.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

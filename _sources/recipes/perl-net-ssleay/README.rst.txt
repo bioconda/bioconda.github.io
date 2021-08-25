@@ -64,10 +64,23 @@ perl-net-ssleay
 .. _`perl-net-ssleay/tags`: https://quay.io/repository/biocontainers/perl-net-ssleay?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-net-ssleay";
+        var versions = ["1.88","1.86","1.85","1.84","1.84"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

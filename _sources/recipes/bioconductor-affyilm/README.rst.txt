@@ -73,10 +73,23 @@ bioconductor-affyilm
 .. _`bioconductor-affyilm/tags`: https://quay.io/repository/biocontainers/bioconductor-affyilm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-affyilm";
+        var versions = ["1.44.0","1.42.0","1.42.0","1.40.0","1.38.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

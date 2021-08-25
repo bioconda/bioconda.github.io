@@ -62,10 +62,23 @@ super_distance
 .. _`super_distance/tags`: https://quay.io/repository/biocontainers/super_distance?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "super_distance";
+        var versions = ["1.1.0","1.1.0","1.1.0","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

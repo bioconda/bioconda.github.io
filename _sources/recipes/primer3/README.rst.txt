@@ -71,10 +71,23 @@ primer3
 .. _`primer3/tags`: https://quay.io/repository/biocontainers/primer3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "primer3";
+        var versions = ["2.5.0","2.5.0","2.4.1a","2.4.1a","2.4.1a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ ucsc-blat
 .. _`ucsc-blat/tags`: https://quay.io/repository/biocontainers/ucsc-blat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-blat";
+        var versions = ["377","377","377","377","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

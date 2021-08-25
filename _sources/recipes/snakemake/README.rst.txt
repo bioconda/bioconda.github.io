@@ -96,6 +96,13 @@ snakemake
 .. _`snakemake/tags`: https://quay.io/repository/biocontainers/snakemake?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snakemake";
+        var versions = ["6.7.0","6.6.1","6.6.0","6.5.3","6.5.2"];
+    </script>
+
 
 .. conda:package:: snakemake-minimal
 
@@ -166,10 +173,23 @@ snakemake
 .. _`snakemake-minimal/tags`: https://quay.io/repository/biocontainers/snakemake-minimal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snakemake";
+        var versions = ["6.7.0","6.6.1","6.6.0","6.5.3","6.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

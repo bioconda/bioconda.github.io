@@ -60,10 +60,23 @@ perl-postscript
 .. _`perl-postscript/tags`: https://quay.io/repository/biocontainers/perl-postscript?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-postscript";
+        var versions = ["0.06","0.06","0.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

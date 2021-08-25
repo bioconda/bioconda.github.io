@@ -82,10 +82,23 @@ plastid
 .. _`plastid/tags`: https://quay.io/repository/biocontainers/plastid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plastid";
+        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1","0.4.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

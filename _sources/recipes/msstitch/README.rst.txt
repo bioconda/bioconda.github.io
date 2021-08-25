@@ -71,10 +71,23 @@ msstitch
 .. _`msstitch/tags`: https://quay.io/repository/biocontainers/msstitch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "msstitch";
+        var versions = ["3.7","3.6","3.5","3.4","3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

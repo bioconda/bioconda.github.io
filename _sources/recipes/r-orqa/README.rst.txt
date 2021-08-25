@@ -66,10 +66,23 @@ r-orqa
 .. _`r-orqa/tags`: https://quay.io/repository/biocontainers/r-orqa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-orqa";
+        var versions = ["0.2.1","0.2.1","0.2.1","0.2.1","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

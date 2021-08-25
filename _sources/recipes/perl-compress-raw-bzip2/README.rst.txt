@@ -62,10 +62,23 @@ perl-compress-raw-bzip2
 .. _`perl-compress-raw-bzip2/tags`: https://quay.io/repository/biocontainers/perl-compress-raw-bzip2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-compress-raw-bzip2";
+        var versions = ["2.087","2.086","2.084","2.083","2.081"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

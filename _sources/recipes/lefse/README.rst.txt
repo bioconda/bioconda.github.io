@@ -71,10 +71,23 @@ lefse
 .. _`lefse/tags`: https://quay.io/repository/biocontainers/lefse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lefse";
+        var versions = ["1.1.2","1.1.1","1.0.8.post1","1.0.8.post1","1.0.8.post1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

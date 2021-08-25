@@ -62,10 +62,23 @@ seqprep
 .. _`seqprep/tags`: https://quay.io/repository/biocontainers/seqprep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqprep";
+        var versions = ["1.3.2","1.3.2","1.3.2","1.3.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

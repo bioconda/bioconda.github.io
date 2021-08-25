@@ -87,10 +87,23 @@ r-statvisual
 .. _`r-statvisual/tags`: https://quay.io/repository/biocontainers/r-statvisual?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-statvisual";
+        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1","1.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

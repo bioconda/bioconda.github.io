@@ -65,10 +65,23 @@ quickmerge
 .. _`quickmerge/tags`: https://quay.io/repository/biocontainers/quickmerge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "quickmerge";
+        var versions = ["0.3","0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

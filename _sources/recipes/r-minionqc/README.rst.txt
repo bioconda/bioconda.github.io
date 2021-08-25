@@ -70,10 +70,23 @@ r-minionqc
 .. _`r-minionqc/tags`: https://quay.io/repository/biocontainers/r-minionqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-minionqc";
+        var versions = ["1.4.2","1.4.2","1.4.2","1.4.1","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

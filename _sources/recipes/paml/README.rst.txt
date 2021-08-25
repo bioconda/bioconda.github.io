@@ -61,10 +61,23 @@ paml
 .. _`paml/tags`: https://quay.io/repository/biocontainers/paml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "paml";
+        var versions = ["4.9","4.9","4.9","4.9","4.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

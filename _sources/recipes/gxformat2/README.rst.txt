@@ -71,10 +71,23 @@ gxformat2
 .. _`gxformat2/tags`: https://quay.io/repository/biocontainers/gxformat2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gxformat2";
+        var versions = ["0.15.0","0.14.0","0.13.1","0.13.0","0.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

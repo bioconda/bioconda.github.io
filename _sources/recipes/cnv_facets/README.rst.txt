@@ -81,10 +81,23 @@ cnv_facets
 .. _`cnv_facets/tags`: https://quay.io/repository/biocontainers/cnv_facets?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cnv_facets";
+        var versions = ["0.16.0","0.16.0","0.15.0","0.15.0","0.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -83,10 +83,23 @@ r-eacon
 .. _`r-eacon/tags`: https://quay.io/repository/biocontainers/r-eacon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-eacon";
+        var versions = ["0.3.6","0.3.6","0.3.5","0.3.5","0.3.4_1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

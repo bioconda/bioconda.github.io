@@ -68,10 +68,23 @@ proteomiqon-peptidedb
 .. _`proteomiqon-peptidedb/tags`: https://quay.io/repository/biocontainers/proteomiqon-peptidedb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "proteomiqon-peptidedb";
+        var versions = ["0.0.7","0.0.6","0.0.4","0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

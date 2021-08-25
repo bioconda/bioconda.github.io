@@ -69,10 +69,23 @@ mrbayes
 .. _`mrbayes/tags`: https://quay.io/repository/biocontainers/mrbayes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mrbayes";
+        var versions = ["3.2.7","3.2.7","3.2.7","3.2.7a","3.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

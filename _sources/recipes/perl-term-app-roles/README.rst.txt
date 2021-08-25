@@ -62,10 +62,23 @@ perl-term-app-roles
 .. _`perl-term-app-roles/tags`: https://quay.io/repository/biocontainers/perl-term-app-roles?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-term-app-roles";
+        var versions = ["0.030","0.02","0.01","0.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

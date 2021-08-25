@@ -60,10 +60,23 @@ perl-test-cpan-meta
 .. _`perl-test-cpan-meta/tags`: https://quay.io/repository/biocontainers/perl-test-cpan-meta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-cpan-meta";
+        var versions = ["0.25","0.25","0.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ gdc-client
 .. _`gdc-client/tags`: https://quay.io/repository/biocontainers/gdc-client?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gdc-client";
+        var versions = ["1.6.1","1.6.0","1.5.0","1.4.0","1.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

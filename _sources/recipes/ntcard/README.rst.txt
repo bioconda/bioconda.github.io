@@ -63,10 +63,23 @@ ntcard
 .. _`ntcard/tags`: https://quay.io/repository/biocontainers/ntcard?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ntcard";
+        var versions = ["1.2.2","1.2.2","1.2.1","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

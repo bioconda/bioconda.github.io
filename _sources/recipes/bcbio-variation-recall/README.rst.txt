@@ -69,10 +69,23 @@ bcbio-variation-recall
 .. _`bcbio-variation-recall/tags`: https://quay.io/repository/biocontainers/bcbio-variation-recall?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bcbio-variation-recall";
+        var versions = ["0.2.6","0.2.6","0.2.5","0.2.4","0.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

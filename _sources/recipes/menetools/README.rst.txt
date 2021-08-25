@@ -61,10 +61,23 @@ menetools
 .. _`menetools/tags`: https://quay.io/repository/biocontainers/menetools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "menetools";
+        var versions = ["2.0.6","1.0.4_1","1.0.4_1","1.0.4_1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

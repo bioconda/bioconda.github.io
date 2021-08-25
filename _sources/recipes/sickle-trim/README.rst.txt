@@ -61,10 +61,23 @@ sickle-trim
 .. _`sickle-trim/tags`: https://quay.io/repository/biocontainers/sickle-trim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sickle-trim";
+        var versions = ["1.33","1.33","1.33","1.33","1.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

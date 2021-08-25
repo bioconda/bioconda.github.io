@@ -67,10 +67,23 @@ perl-moo
 .. _`perl-moo/tags`: https://quay.io/repository/biocontainers/perl-moo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moo";
+        var versions = ["2.003004","2.001000","2.001000","2.001000","2.000002"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

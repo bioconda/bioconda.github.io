@@ -60,10 +60,23 @@ perl-params-check
 .. _`perl-params-check/tags`: https://quay.io/repository/biocontainers/perl-params-check?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-params-check";
+        var versions = ["0.38","0.38"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

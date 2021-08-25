@@ -63,6 +63,13 @@ quasirecomb
 .. _`quasirecomb/tags`: https://quay.io/repository/biocontainers/quasirecomb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "quasirecomb";
+        var versions = ["1.2","1.2"];
+    </script>
+
 
 
 
@@ -72,6 +79,12 @@ Notes
 QuasiRecomb is a Java program that comes with a custom wrapper shell script.
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

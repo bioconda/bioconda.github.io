@@ -64,10 +64,23 @@ perl-perl4-corelibs
 .. _`perl-perl4-corelibs/tags`: https://quay.io/repository/biocontainers/perl-perl4-corelibs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-perl4-corelibs";
+        var versions = ["0.004","0.004"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

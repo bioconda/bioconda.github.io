@@ -75,10 +75,23 @@ bioconductor-uniprot.ws
 .. _`bioconductor-uniprot.ws/tags`: https://quay.io/repository/biocontainers/bioconductor-uniprot.ws?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-uniprot.ws";
+        var versions = ["2.32.0","2.30.0","2.30.0","2.29.0","2.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

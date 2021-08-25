@@ -67,10 +67,23 @@ bioconductor-fitcons.ucsc.hg19
 .. _`bioconductor-fitcons.ucsc.hg19/tags`: https://quay.io/repository/biocontainers/bioconductor-fitcons.ucsc.hg19?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-fitcons.ucsc.hg19";
+        var versions = ["3.7.1","3.7.1","3.7.1","3.7.1","3.7.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

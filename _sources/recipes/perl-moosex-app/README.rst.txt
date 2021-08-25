@@ -77,10 +77,23 @@ perl-moosex-app
 .. _`perl-moosex-app/tags`: https://quay.io/repository/biocontainers/perl-moosex-app?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-app";
+        var versions = ["1.3701","1.3701","1.3701","1.39","1.39"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ msaprobs
 .. _`msaprobs/tags`: https://quay.io/repository/biocontainers/msaprobs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "msaprobs";
+        var versions = ["0.9.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

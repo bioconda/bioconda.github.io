@@ -76,10 +76,23 @@ bioconductor-biocviews
 .. _`bioconductor-biocviews/tags`: https://quay.io/repository/biocontainers/bioconductor-biocviews?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-biocviews";
+        var versions = ["1.60.0","1.58.1","1.58.0","1.56.0","1.54.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

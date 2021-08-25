@@ -61,10 +61,23 @@ perl-types-serialiser
 .. _`perl-types-serialiser/tags`: https://quay.io/repository/biocontainers/perl-types-serialiser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-types-serialiser";
+        var versions = ["1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

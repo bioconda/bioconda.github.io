@@ -68,10 +68,23 @@ bioconductor-pd.atdschip.tiling
 .. _`bioconductor-pd.atdschip.tiling/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.atdschip.tiling?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.atdschip.tiling";
+        var versions = ["0.30.0","0.28.0","0.28.0","0.26.0","0.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

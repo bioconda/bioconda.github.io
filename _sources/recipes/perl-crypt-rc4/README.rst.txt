@@ -60,10 +60,23 @@ perl-crypt-rc4
 .. _`perl-crypt-rc4/tags`: https://quay.io/repository/biocontainers/perl-crypt-rc4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-crypt-rc4";
+        var versions = ["2.02","2.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

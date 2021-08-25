@@ -88,10 +88,23 @@ genomepy
 .. _`genomepy/tags`: https://quay.io/repository/biocontainers/genomepy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genomepy";
+        var versions = ["0.10.0","0.9.3","0.9.2","0.9.1","0.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

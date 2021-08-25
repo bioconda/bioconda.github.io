@@ -60,10 +60,23 @@ perl-digest-hmac
 .. _`perl-digest-hmac/tags`: https://quay.io/repository/biocontainers/perl-digest-hmac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-digest-hmac";
+        var versions = ["1.03","1.03","1.03","1.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

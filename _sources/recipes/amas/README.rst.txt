@@ -60,10 +60,23 @@ amas
 .. _`amas/tags`: https://quay.io/repository/biocontainers/amas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "amas";
+        var versions = ["1.0","0.98","0.98"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ metaeuk
 .. _`metaeuk/tags`: https://quay.io/repository/biocontainers/metaeuk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metaeuk";
+        var versions = ["4.a0f584d","4.a0f584d","4.a0f584d","3.8dc7e0b","2.ddf2742"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

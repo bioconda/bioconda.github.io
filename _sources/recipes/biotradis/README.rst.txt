@@ -85,10 +85,23 @@ biotradis
 .. _`biotradis/tags`: https://quay.io/repository/biocontainers/biotradis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biotradis";
+        var versions = ["1.4.5","1.4.5","1.4.5","1.4.5","1.4.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

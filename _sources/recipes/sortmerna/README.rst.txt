@@ -68,10 +68,23 @@ sortmerna
 .. _`sortmerna/tags`: https://quay.io/repository/biocontainers/sortmerna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sortmerna";
+        var versions = ["4.3.4","4.3.3","4.3.2","4.3.2","4.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

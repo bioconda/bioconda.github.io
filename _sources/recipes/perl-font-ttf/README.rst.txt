@@ -62,10 +62,23 @@ perl-font-ttf
 .. _`perl-font-ttf/tags`: https://quay.io/repository/biocontainers/perl-font-ttf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-font-ttf";
+        var versions = ["1.06","1.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

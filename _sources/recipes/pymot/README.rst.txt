@@ -61,10 +61,23 @@ pymot
 .. _`pymot/tags`: https://quay.io/repository/biocontainers/pymot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pymot";
+        var versions = ["13.09.2016","13.09.2016","13.09.2016"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

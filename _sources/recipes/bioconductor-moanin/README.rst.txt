@@ -72,10 +72,23 @@ bioconductor-moanin
 .. _`bioconductor-moanin/tags`: https://quay.io/repository/biocontainers/bioconductor-moanin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-moanin";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

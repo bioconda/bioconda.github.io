@@ -68,10 +68,23 @@ capc-map
 .. _`capc-map/tags`: https://quay.io/repository/biocontainers/capc-map?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "capc-map";
+        var versions = ["1.1.3","1.1.3","1.1.3","1.1.3","1.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -96,10 +96,23 @@ bioconductor-diffbind
 .. _`bioconductor-diffbind/tags`: https://quay.io/repository/biocontainers/bioconductor-diffbind?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-diffbind";
+        var versions = ["3.2.1","3.0.15","3.0.3","2.16.0","2.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

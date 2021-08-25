@@ -66,10 +66,23 @@ fermi2
 .. _`fermi2/tags`: https://quay.io/repository/biocontainers/fermi2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fermi2";
+        var versions = ["r193","r193","r193","r193","r193"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

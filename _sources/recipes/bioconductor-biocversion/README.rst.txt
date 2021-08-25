@@ -60,10 +60,23 @@ bioconductor-biocversion
 .. _`bioconductor-biocversion/tags`: https://quay.io/repository/biocontainers/bioconductor-biocversion?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-biocversion";
+        var versions = ["3.13.1","3.12.0","3.12.0","3.11.1","3.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

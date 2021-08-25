@@ -63,10 +63,23 @@ corset
 .. _`corset/tags`: https://quay.io/repository/biocontainers/corset?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "corset";
+        var versions = ["1.09","1.09","1.09","1.07","1.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

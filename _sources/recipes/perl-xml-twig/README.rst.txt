@@ -68,10 +68,23 @@ perl-xml-twig
 .. _`perl-xml-twig/tags`: https://quay.io/repository/biocontainers/perl-xml-twig?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-twig";
+        var versions = ["3.52","3.52","3.49"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

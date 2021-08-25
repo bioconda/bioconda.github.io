@@ -63,10 +63,23 @@ chicagotools
 .. _`chicagotools/tags`: https://quay.io/repository/biocontainers/chicagotools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chicagotools";
+        var versions = ["1.2.0","1.2.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-clone-pp
 .. _`perl-clone-pp/tags`: https://quay.io/repository/biocontainers/perl-clone-pp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-clone-pp";
+        var versions = ["1.07","1.07","1.06","1.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

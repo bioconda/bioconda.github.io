@@ -66,6 +66,13 @@ lace
 .. _`lace/tags`: https://quay.io/repository/biocontainers/lace?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lace";
+        var versions = ["1.00","1.00","1.00","1.00","0.99"];
+    </script>
+
 
 
 
@@ -74,6 +81,12 @@ Notes
 -----
 Prefix with \'Lace\_\' for the script name that is rather generic\: \'Checker.py\'.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

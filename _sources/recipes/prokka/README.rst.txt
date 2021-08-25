@@ -80,10 +80,23 @@ prokka
 .. _`prokka/tags`: https://quay.io/repository/biocontainers/prokka?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "prokka";
+        var versions = ["1.14.6","1.14.6","1.14.5","1.14.5","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

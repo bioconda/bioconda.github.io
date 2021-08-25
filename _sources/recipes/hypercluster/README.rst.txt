@@ -72,10 +72,23 @@ hypercluster
 .. _`hypercluster/tags`: https://quay.io/repository/biocontainers/hypercluster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hypercluster";
+        var versions = ["0.1.13","0.1.12","0.1.10","0.1.9","0.1.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

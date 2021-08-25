@@ -75,10 +75,23 @@ qualimap
 .. _`qualimap/tags`: https://quay.io/repository/biocontainers/qualimap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "qualimap";
+        var versions = ["2.2.2d","2.2.2d","2.2.2d","2.2.2c","2.2.2c"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

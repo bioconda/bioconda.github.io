@@ -62,10 +62,23 @@ bioconductor-ragene10stv1probe
 .. _`bioconductor-ragene10stv1probe/tags`: https://quay.io/repository/biocontainers/bioconductor-ragene10stv1probe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ragene10stv1probe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

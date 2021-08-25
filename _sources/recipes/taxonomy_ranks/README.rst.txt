@@ -63,10 +63,23 @@ taxonomy_ranks
 .. _`taxonomy_ranks/tags`: https://quay.io/repository/biocontainers/taxonomy_ranks?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "taxonomy_ranks";
+        var versions = ["0.0.10","0.0.8","0.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ ucsc-overlapselect
 .. _`ucsc-overlapselect/tags`: https://quay.io/repository/biocontainers/ucsc-overlapselect?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-overlapselect";
+        var versions = ["366","357","357","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

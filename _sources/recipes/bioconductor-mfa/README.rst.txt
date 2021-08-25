@@ -74,10 +74,23 @@ bioconductor-mfa
 .. _`bioconductor-mfa/tags`: https://quay.io/repository/biocontainers/bioconductor-mfa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mfa";
+        var versions = ["1.14.0","1.12.0","1.12.0","1.10.0","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -79,10 +79,23 @@ crispresso2
 .. _`crispresso2/tags`: https://quay.io/repository/biocontainers/crispresso2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crispresso2";
+        var versions = ["2.2.2","2.2.0","2.1.3","2.1.2","2.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

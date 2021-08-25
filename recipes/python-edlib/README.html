@@ -16,6 +16,9 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -137,20 +140,20 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../ultra_bioinformatics/README.html#ultra_bioinformatics"><strong class="xref backref">ultra_bioinformatics</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../isoncorrect/README.html#isoncorrect"><strong class="xref backref">isoncorrect</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pb-falcon/README.html#pb-falcon"><strong class="xref backref">pb-falcon</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../minipolish/README.html#minipolish"><strong class="xref backref">minipolish</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../crispector/README.html#crispector"><strong class="xref backref">crispector</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../trycycler/README.html#trycycler"><strong class="xref backref">trycycler</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ultra_bioinformatics/README.html#ultra_bioinformatics"><strong class="xref backref">ultra_bioinformatics</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pychopper/README.html#pychopper"><strong class="xref backref">pychopper</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pb-falcon/README.html#pb-falcon"><strong class="xref backref">pb-falcon</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../medaka/README.html#medaka"><strong class="xref backref">medaka</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../minipolish/README.html#minipolish"><strong class="xref backref">minipolish</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../stringdecomposer/README.html#stringdecomposer"><strong class="xref backref">stringdecomposer</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../circle-map/README.html#circle-map"><strong class="xref backref">circle-map</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../amptk/README.html#amptk"><strong class="xref backref">amptk</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../panaroo/README.html#panaroo"><strong class="xref backref">panaroo</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pgx-variant-tools/README.html#pgx-variant-tools"><strong class="xref backref">pgx-variant-tools</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../svim-asm/README.html#svim-asm"><strong class="xref backref">svim-asm</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../medaka/README.html#medaka"><strong class="xref backref">medaka</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../circle-map/README.html#circle-map"><strong class="xref backref">circle-map</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../crispector/README.html#crispector"><strong class="xref backref">crispector</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../trycycler/README.html#trycycler"><strong class="xref backref">trycycler</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -170,6 +173,67 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/python-edlib?tab=tags">python-edlib/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
+<script>
+    var package = "python-edlib";
+    var versions = ["1.3.9","1.3.8.post2","1.3.8.post2","1.3.8.post1","1.3.8.post1"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+
+<script>
+    window.onload = async function() {
+        versions = [...new Set(versions)];
+
+        let download_data = [];
+
+        for (const version of versions) {
+            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
+            await $.get({
+                url: url,
+                success: function( data ) {
+                    data = JSON.parse(data);
+                    data = data["downloads_per_date"];
+                    let first;
+                    if (data.length > 14) {
+                        first = data.length - 14;
+                    } else {
+                        first = 1;
+                    }
+                    for (let i = first; i < data.length; i++) {
+                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
+                        data[i]["version"] = version;
+                        download_data.push(data[i]);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log('error fetching data from bioconda stats repo!');
+                }
+            });
+        }
+
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart with embedded data.",
+            "data": {"values": []},
+            "width": "container",
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": true,
+                }
+            },
+            "encoding": {
+                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
+                 "color": {"field": "version", "type": "nominal"},
+                 "tooltip": {"field": "delta"}
+            }
+        };
+
+        spec.data.values = download_data;
+        vegaEmbed('#download_plot', spec);
+    }
+</script></section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/python-edlib/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

@@ -63,10 +63,23 @@ bioconductor-canine.db
 .. _`bioconductor-canine.db/tags`: https://quay.io/repository/biocontainers/bioconductor-canine.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-canine.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

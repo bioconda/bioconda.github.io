@@ -73,10 +73,23 @@ bioconductor-topaseq
 .. _`bioconductor-topaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-topaseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-topaseq";
+        var versions = ["1.24.0","1.24.0","1.22.0","1.20.0","1.17.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

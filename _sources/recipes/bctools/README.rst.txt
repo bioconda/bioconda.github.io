@@ -65,10 +65,23 @@ bctools
 .. _`bctools/tags`: https://quay.io/repository/biocontainers/bctools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bctools";
+        var versions = ["0.2.2","0.2.2","0.2.2","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

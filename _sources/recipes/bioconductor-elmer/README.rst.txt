@@ -99,10 +99,23 @@ bioconductor-elmer
 .. _`bioconductor-elmer/tags`: https://quay.io/repository/biocontainers/bioconductor-elmer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-elmer";
+        var versions = ["2.16.0","2.14.0","2.14.0","2.12.0","2.9.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

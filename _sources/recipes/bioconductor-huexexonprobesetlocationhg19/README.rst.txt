@@ -62,10 +62,23 @@ bioconductor-huexexonprobesetlocationhg19
 .. _`bioconductor-huexexonprobesetlocationhg19/tags`: https://quay.io/repository/biocontainers/bioconductor-huexexonprobesetlocationhg19?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-huexexonprobesetlocationhg19";
+        var versions = ["0.0.3","0.0.3","0.0.3","0.0.3","0.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

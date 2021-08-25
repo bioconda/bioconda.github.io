@@ -74,10 +74,23 @@ cpgeneprofiler
 .. _`cpgeneprofiler/tags`: https://quay.io/repository/biocontainers/cpgeneprofiler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cpgeneprofiler";
+        var versions = ["2.1.1","2.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

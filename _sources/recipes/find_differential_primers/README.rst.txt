@@ -67,10 +67,23 @@ find_differential_primers
 .. _`find_differential_primers/tags`: https://quay.io/repository/biocontainers/find_differential_primers?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "find_differential_primers";
+        var versions = ["0.1.4","0.1.4","0.1.4","0.1.3","0.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

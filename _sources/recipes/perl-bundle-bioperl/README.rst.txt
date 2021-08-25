@@ -60,10 +60,23 @@ perl-bundle-bioperl
 .. _`perl-bundle-bioperl/tags`: https://quay.io/repository/biocontainers/perl-bundle-bioperl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bundle-bioperl";
+        var versions = ["2.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ perl-class-methodmaker
 .. _`perl-class-methodmaker/tags`: https://quay.io/repository/biocontainers/perl-class-methodmaker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-class-methodmaker";
+        var versions = ["2.24","2.24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

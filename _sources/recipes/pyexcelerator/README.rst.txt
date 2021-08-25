@@ -60,10 +60,23 @@ pyexcelerator
 .. _`pyexcelerator/tags`: https://quay.io/repository/biocontainers/pyexcelerator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyexcelerator";
+        var versions = ["0.6.4a","0.6.4a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

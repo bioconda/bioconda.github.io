@@ -61,10 +61,23 @@ embl-api-validator
 .. _`embl-api-validator/tags`: https://quay.io/repository/biocontainers/embl-api-validator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "embl-api-validator";
+        var versions = ["1.1.180","1.1.180","1.1.173"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

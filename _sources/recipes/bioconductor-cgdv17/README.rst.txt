@@ -67,10 +67,23 @@ bioconductor-cgdv17
 .. _`bioconductor-cgdv17/tags`: https://quay.io/repository/biocontainers/bioconductor-cgdv17?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cgdv17";
+        var versions = ["0.28.0","0.28.0","0.26.0","0.24.0","0.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

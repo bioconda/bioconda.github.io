@@ -62,10 +62,23 @@ bioconductor-htrat230pmcdf
 .. _`bioconductor-htrat230pmcdf/tags`: https://quay.io/repository/biocontainers/bioconductor-htrat230pmcdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-htrat230pmcdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

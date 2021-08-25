@@ -72,10 +72,23 @@ weblogo
 .. _`weblogo/tags`: https://quay.io/repository/biocontainers/weblogo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "weblogo";
+        var versions = ["3.7.8","3.7.7","3.7.5","3.7.4","3.7.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

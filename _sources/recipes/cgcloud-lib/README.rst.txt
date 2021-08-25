@@ -63,10 +63,23 @@ cgcloud-lib
 .. _`cgcloud-lib/tags`: https://quay.io/repository/biocontainers/cgcloud-lib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cgcloud-lib";
+        var versions = ["1.6.0","1.6.0","1.6.0","1.6.0","1.4a1.dev195"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ epa-ng
 .. _`epa-ng/tags`: https://quay.io/repository/biocontainers/epa-ng?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "epa-ng";
+        var versions = ["0.3.8","0.3.8","0.3.6","0.3.5","0.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

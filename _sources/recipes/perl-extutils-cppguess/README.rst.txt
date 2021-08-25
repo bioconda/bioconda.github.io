@@ -63,10 +63,23 @@ perl-extutils-cppguess
 .. _`perl-extutils-cppguess/tags`: https://quay.io/repository/biocontainers/perl-extutils-cppguess?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-cppguess";
+        var versions = ["0.12","0.12","0.12","0.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

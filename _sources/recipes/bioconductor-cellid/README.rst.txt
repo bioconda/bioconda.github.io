@@ -85,10 +85,23 @@ bioconductor-cellid
 .. _`bioconductor-cellid/tags`: https://quay.io/repository/biocontainers/bioconductor-cellid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cellid";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

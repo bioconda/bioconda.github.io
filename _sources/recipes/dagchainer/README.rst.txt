@@ -67,10 +67,23 @@ dagchainer
 .. _`dagchainer/tags`: https://quay.io/repository/biocontainers/dagchainer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dagchainer";
+        var versions = ["r120920","r120920"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

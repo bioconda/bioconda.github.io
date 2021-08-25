@@ -60,10 +60,23 @@ quicktree
 .. _`quicktree/tags`: https://quay.io/repository/biocontainers/quicktree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "quicktree";
+        var versions = ["2.5","2.5","2.4","2.2","2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

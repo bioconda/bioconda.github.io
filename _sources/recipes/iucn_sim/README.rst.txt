@@ -74,10 +74,23 @@ iucn_sim
 .. _`iucn_sim/tags`: https://quay.io/repository/biocontainers/iucn_sim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "iucn_sim";
+        var versions = ["2.2.0","2.1.2","2.1.1","2.1","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-data-lock
 .. _`perl-data-lock/tags`: https://quay.io/repository/biocontainers/perl-data-lock?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-lock";
+        var versions = ["1.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

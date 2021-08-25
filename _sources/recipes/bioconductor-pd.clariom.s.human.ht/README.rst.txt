@@ -68,10 +68,23 @@ bioconductor-pd.clariom.s.human.ht
 .. _`bioconductor-pd.clariom.s.human.ht/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.human.ht?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.clariom.s.human.ht";
+        var versions = ["3.14.1","3.14.1","3.14.1","3.14.1","3.14.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

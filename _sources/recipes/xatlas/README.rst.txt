@@ -64,10 +64,23 @@ xatlas
 .. _`xatlas/tags`: https://quay.io/repository/biocontainers/xatlas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "xatlas";
+        var versions = ["0.2.1","0.2.1","0.2.1","0.2.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

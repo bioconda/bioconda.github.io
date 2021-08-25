@@ -63,10 +63,23 @@ simbac
 .. _`simbac/tags`: https://quay.io/repository/biocontainers/simbac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "simbac";
+        var versions = ["0.1a","0.1a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

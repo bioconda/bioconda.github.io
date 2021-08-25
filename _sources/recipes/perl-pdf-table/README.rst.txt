@@ -60,10 +60,23 @@ perl-pdf-table
 .. _`perl-pdf-table/tags`: https://quay.io/repository/biocontainers/perl-pdf-table?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pdf-table";
+        var versions = ["0.11.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

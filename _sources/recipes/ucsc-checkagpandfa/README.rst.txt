@@ -65,10 +65,23 @@ ucsc-checkagpandfa
 .. _`ucsc-checkagpandfa/tags`: https://quay.io/repository/biocontainers/ucsc-checkagpandfa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-checkagpandfa";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

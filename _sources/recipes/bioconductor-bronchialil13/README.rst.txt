@@ -62,10 +62,23 @@ bioconductor-bronchialil13
 .. _`bioconductor-bronchialil13/tags`: https://quay.io/repository/biocontainers/bioconductor-bronchialil13?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bronchialil13";
+        var versions = ["1.30.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

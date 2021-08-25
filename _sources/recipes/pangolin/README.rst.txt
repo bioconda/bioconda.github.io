@@ -83,10 +83,23 @@ pangolin
 .. _`pangolin/tags`: https://quay.io/repository/biocontainers/pangolin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pangolin";
+        var versions = ["3.1.11","3.1.10","3.1.9","3.1.8","3.1.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

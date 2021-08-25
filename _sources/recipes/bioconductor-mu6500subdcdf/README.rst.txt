@@ -62,10 +62,23 @@ bioconductor-mu6500subdcdf
 .. _`bioconductor-mu6500subdcdf/tags`: https://quay.io/repository/biocontainers/bioconductor-mu6500subdcdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mu6500subdcdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

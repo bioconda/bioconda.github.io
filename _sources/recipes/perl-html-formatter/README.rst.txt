@@ -67,10 +67,23 @@ perl-html-formatter
 .. _`perl-html-formatter/tags`: https://quay.io/repository/biocontainers/perl-html-formatter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-formatter";
+        var versions = ["2.16","2.14","2.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

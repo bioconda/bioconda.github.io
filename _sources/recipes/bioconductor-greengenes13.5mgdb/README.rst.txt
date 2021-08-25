@@ -62,10 +62,23 @@ bioconductor-greengenes13.5mgdb
 .. _`bioconductor-greengenes13.5mgdb/tags`: https://quay.io/repository/biocontainers/bioconductor-greengenes13.5mgdb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-greengenes13.5mgdb";
+        var versions = ["2.0.0","2.0.0","2.0.0","2.0.0","2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

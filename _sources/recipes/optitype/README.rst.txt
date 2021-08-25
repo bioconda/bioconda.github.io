@@ -80,10 +80,23 @@ optitype
 .. _`optitype/tags`: https://quay.io/repository/biocontainers/optitype?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "optitype";
+        var versions = ["1.3.5","1.3.5","1.3.4","1.3.2","1.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

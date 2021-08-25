@@ -76,10 +76,23 @@ bioconductor-gsca
 .. _`bioconductor-gsca/tags`: https://quay.io/repository/biocontainers/bioconductor-gsca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gsca";
+        var versions = ["2.22.0","2.20.0","2.20.0","2.17.0","2.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

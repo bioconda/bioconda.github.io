@@ -60,10 +60,23 @@ fasta3
 .. _`fasta3/tags`: https://quay.io/repository/biocontainers/fasta3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fasta3";
+        var versions = ["36.3.8","36.3.8","36.3.8","36.3.8","36.3.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

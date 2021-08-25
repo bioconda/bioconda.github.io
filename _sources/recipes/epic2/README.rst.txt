@@ -77,10 +77,23 @@ epic2
 .. _`epic2/tags`: https://quay.io/repository/biocontainers/epic2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "epic2";
+        var versions = ["0.0.51","0.0.50","0.0.48","0.0.48","0.0.47"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

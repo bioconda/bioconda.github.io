@@ -66,10 +66,23 @@ ucsc-fatovcf
 .. _`ucsc-fatovcf/tags`: https://quay.io/repository/biocontainers/ucsc-fatovcf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-fatovcf";
+        var versions = ["407"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

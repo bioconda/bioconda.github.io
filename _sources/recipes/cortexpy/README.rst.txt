@@ -73,10 +73,23 @@ cortexpy
 .. _`cortexpy/tags`: https://quay.io/repository/biocontainers/cortexpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cortexpy";
+        var versions = ["0.46.5","0.46.5","0.46.5","0.46.4","0.45.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

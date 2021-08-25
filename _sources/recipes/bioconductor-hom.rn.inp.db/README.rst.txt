@@ -62,10 +62,23 @@ bioconductor-hom.rn.inp.db
 .. _`bioconductor-hom.rn.inp.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hom.rn.inp.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hom.rn.inp.db";
+        var versions = ["3.1.3","3.1.3","3.1.3","3.1.2","3.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

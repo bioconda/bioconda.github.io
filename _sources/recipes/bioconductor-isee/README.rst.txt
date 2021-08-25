@@ -80,10 +80,23 @@ bioconductor-isee
 .. _`bioconductor-isee/tags`: https://quay.io/repository/biocontainers/bioconductor-isee?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-isee";
+        var versions = ["2.4.0","2.2.4","2.2.0","2.0.0","1.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

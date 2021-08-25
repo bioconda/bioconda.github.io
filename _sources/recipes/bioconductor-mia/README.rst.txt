@@ -82,10 +82,23 @@ bioconductor-mia
 .. _`bioconductor-mia/tags`: https://quay.io/repository/biocontainers/bioconductor-mia?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mia";
+        var versions = ["1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

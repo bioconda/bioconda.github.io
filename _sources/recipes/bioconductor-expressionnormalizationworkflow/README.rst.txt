@@ -73,10 +73,23 @@ bioconductor-expressionnormalizationworkflow
 .. _`bioconductor-expressionnormalizationworkflow/tags`: https://quay.io/repository/biocontainers/bioconductor-expressionnormalizationworkflow?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-expressionnormalizationworkflow";
+        var versions = ["1.16.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

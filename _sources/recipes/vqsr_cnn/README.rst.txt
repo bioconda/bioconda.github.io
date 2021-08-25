@@ -70,10 +70,23 @@ vqsr_cnn
 .. _`vqsr_cnn/tags`: https://quay.io/repository/biocontainers/vqsr_cnn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vqsr_cnn";
+        var versions = ["0.0.194","0.0.132","0.0.132"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

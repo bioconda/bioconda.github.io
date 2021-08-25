@@ -63,10 +63,23 @@ probcons
 .. _`probcons/tags`: https://quay.io/repository/biocontainers/probcons?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "probcons";
+        var versions = ["1.12","1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

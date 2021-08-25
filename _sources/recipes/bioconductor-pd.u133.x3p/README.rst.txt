@@ -68,10 +68,23 @@ bioconductor-pd.u133.x3p
 .. _`bioconductor-pd.u133.x3p/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.u133.x3p?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.u133.x3p";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,6 +60,13 @@ lz4-bin
 .. _`lz4-bin/tags`: https://quay.io/repository/biocontainers/lz4-bin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lz4-bin";
+        var versions = ["131","131","131","131"];
+    </script>
+
 
 
 
@@ -68,6 +75,12 @@ Notes
 -----
 This package is for the lz4 C binary\, while the package in the default channel is \(as of 9\/9\/16\) for the lz4 Python bindings \(hence the \'\-bin\' suffix of this package\)
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

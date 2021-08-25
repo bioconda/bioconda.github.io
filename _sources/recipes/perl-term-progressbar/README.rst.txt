@@ -62,10 +62,23 @@ perl-term-progressbar
 .. _`perl-term-progressbar/tags`: https://quay.io/repository/biocontainers/perl-term-progressbar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-term-progressbar";
+        var versions = ["2.22","2.21","2.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

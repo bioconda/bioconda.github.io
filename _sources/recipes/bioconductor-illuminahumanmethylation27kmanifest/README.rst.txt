@@ -62,10 +62,23 @@ bioconductor-illuminahumanmethylation27kmanifest
 .. _`bioconductor-illuminahumanmethylation27kmanifest/tags`: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation27kmanifest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-illuminahumanmethylation27kmanifest";
+        var versions = ["0.4.0","0.4.0","0.4.0","0.4.0","0.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

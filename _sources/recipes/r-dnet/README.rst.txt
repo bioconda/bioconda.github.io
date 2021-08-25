@@ -65,10 +65,23 @@ r-dnet
 .. _`r-dnet/tags`: https://quay.io/repository/biocontainers/r-dnet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-dnet";
+        var versions = ["1.1.7","1.1.7","1.1.7","1.1.7","1.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

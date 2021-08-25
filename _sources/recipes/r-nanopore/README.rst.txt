@@ -97,10 +97,23 @@ r-nanopore
 .. _`r-nanopore/tags`: https://quay.io/repository/biocontainers/r-nanopore?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-nanopore";
+        var versions = ["0.2.9","0.2.9","0.2.9","0.2.9","0.2.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

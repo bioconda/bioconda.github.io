@@ -72,10 +72,23 @@ bioconductor-sparsesignatures
 .. _`bioconductor-sparsesignatures/tags`: https://quay.io/repository/biocontainers/bioconductor-sparsesignatures?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sparsesignatures";
+        var versions = ["2.2.0","2.0.0","2.0.0","1.8.0","1.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ bioconductor-densvis
 .. _`bioconductor-densvis/tags`: https://quay.io/repository/biocontainers/bioconductor-densvis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-densvis";
+        var versions = ["1.2.0","1.00.6","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

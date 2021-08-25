@@ -60,10 +60,23 @@ perl-canary-stability
 .. _`perl-canary-stability/tags`: https://quay.io/repository/biocontainers/perl-canary-stability?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-canary-stability";
+        var versions = ["2013","2012","2006"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

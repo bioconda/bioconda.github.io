@@ -62,10 +62,23 @@ stecfinder
 .. _`stecfinder/tags`: https://quay.io/repository/biocontainers/stecfinder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stecfinder";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

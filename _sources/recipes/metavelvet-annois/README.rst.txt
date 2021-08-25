@@ -61,10 +61,23 @@ metavelvet-annois
 .. _`metavelvet-annois/tags`: https://quay.io/repository/biocontainers/metavelvet-annois?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metavelvet-annois";
+        var versions = ["0.2.01","0.2.01","0.2.01","0.2.01","0.2.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

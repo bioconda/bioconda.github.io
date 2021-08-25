@@ -69,10 +69,23 @@ bioconductor-ctggem
 .. _`bioconductor-ctggem/tags`: https://quay.io/repository/biocontainers/bioconductor-ctggem?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ctggem";
+        var versions = ["1.2.0","1.2.0","0.99.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

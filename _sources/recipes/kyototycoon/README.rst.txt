@@ -63,10 +63,23 @@ kyototycoon
 .. _`kyototycoon/tags`: https://quay.io/repository/biocontainers/kyototycoon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kyototycoon";
+        var versions = ["20170410","20170410","2017.04.10","2017.04.10","2017.04.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

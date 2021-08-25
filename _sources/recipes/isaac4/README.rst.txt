@@ -67,10 +67,23 @@ isaac4
 .. _`isaac4/tags`: https://quay.io/repository/biocontainers/isaac4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "isaac4";
+        var versions = ["04.18.11.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

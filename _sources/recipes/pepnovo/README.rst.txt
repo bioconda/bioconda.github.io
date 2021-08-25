@@ -62,10 +62,23 @@ pepnovo
 .. _`pepnovo/tags`: https://quay.io/repository/biocontainers/pepnovo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pepnovo";
+        var versions = ["20101117","20101117","20101117","20101117"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

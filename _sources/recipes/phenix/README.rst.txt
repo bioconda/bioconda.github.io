@@ -78,10 +78,23 @@ phenix
 .. _`phenix/tags`: https://quay.io/repository/biocontainers/phenix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phenix";
+        var versions = ["1.4.1a","1.4.1a","1.4.1a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

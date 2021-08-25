@@ -106,10 +106,23 @@ r-msqrob
 .. _`r-msqrob/tags`: https://quay.io/repository/biocontainers/r-msqrob?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-msqrob";
+        var versions = ["0.7.7","0.7.7","0.7.6","0.7.6","0.7.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

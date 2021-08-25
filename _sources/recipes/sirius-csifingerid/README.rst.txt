@@ -62,10 +62,23 @@ sirius-csifingerid
 .. _`sirius-csifingerid/tags`: https://quay.io/repository/biocontainers/sirius-csifingerid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sirius-csifingerid";
+        var versions = ["4.0.1","4.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

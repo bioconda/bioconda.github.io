@@ -68,10 +68,23 @@ bioconductor-pd.ecoli
 .. _`bioconductor-pd.ecoli/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.ecoli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.ecoli";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

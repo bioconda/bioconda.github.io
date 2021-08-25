@@ -79,10 +79,23 @@ bioconductor-networkbma
 .. _`bioconductor-networkbma/tags`: https://quay.io/repository/biocontainers/bioconductor-networkbma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-networkbma";
+        var versions = ["2.32.0","2.30.1","2.29.0","2.28.0","2.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

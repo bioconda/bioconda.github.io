@@ -62,10 +62,23 @@ taco
 .. _`taco/tags`: https://quay.io/repository/biocontainers/taco?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "taco";
+        var versions = ["0.7.3","0.7.3","v0.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

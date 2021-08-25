@@ -77,10 +77,23 @@ bioconductor-meal
 .. _`bioconductor-meal/tags`: https://quay.io/repository/biocontainers/bioconductor-meal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-meal";
+        var versions = ["1.22.0","1.20.3","1.20.0","1.18.0","1.15.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

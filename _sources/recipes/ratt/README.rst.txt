@@ -61,10 +61,23 @@ ratt
 .. _`ratt/tags`: https://quay.io/repository/biocontainers/ratt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ratt";
+        var versions = ["1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-file-copy-link
 .. _`perl-file-copy-link/tags`: https://quay.io/repository/biocontainers/perl-file-copy-link?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-copy-link";
+        var versions = ["0.140","0.140","0.140"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

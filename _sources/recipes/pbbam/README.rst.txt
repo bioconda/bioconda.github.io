@@ -71,10 +71,23 @@ pbbam
 .. _`pbbam/tags`: https://quay.io/repository/biocontainers/pbbam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pbbam";
+        var versions = ["1.6.0","1.6.0","1.3.0","1.3.0","1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

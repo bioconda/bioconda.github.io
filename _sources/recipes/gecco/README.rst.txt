@@ -74,10 +74,23 @@ gecco
 .. _`gecco/tags`: https://quay.io/repository/biocontainers/gecco?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gecco";
+        var versions = ["0.8.0","0.7.0","0.6.3","0.6.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

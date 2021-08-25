@@ -64,10 +64,23 @@ musicc
 .. _`musicc/tags`: https://quay.io/repository/biocontainers/musicc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "musicc";
+        var versions = ["1.0.4","1.0.3","1.0.3","1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

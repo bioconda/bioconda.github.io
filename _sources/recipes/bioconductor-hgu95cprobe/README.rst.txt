@@ -62,10 +62,23 @@ bioconductor-hgu95cprobe
 .. _`bioconductor-hgu95cprobe/tags`: https://quay.io/repository/biocontainers/bioconductor-hgu95cprobe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hgu95cprobe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

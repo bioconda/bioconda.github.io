@@ -71,10 +71,23 @@ genenotebook
 .. _`genenotebook/tags`: https://quay.io/repository/biocontainers/genenotebook?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genenotebook";
+        var versions = ["0.1.16","0.1.16","0.1.15","0.1.14","0.1.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-termreadkey
 .. _`perl-termreadkey/tags`: https://quay.io/repository/biocontainers/perl-termreadkey?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-termreadkey";
+        var versions = ["2.38","2.38","2.37","2.32","2.32"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

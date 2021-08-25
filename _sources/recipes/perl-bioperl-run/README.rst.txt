@@ -63,10 +63,23 @@ perl-bioperl-run
 .. _`perl-bioperl-run/tags`: https://quay.io/repository/biocontainers/perl-bioperl-run?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bioperl-run";
+        var versions = ["1.007002","1.007002","1.007002","1.006900","1.006900"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

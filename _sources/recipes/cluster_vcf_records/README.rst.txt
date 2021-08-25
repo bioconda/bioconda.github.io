@@ -65,10 +65,23 @@ cluster_vcf_records
 .. _`cluster_vcf_records/tags`: https://quay.io/repository/biocontainers/cluster_vcf_records?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cluster_vcf_records";
+        var versions = ["0.13.2","0.13.1","0.13.0","0.12.4","0.12.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

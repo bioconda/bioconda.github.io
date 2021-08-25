@@ -61,10 +61,23 @@ perl-test-leaktrace
 .. _`perl-test-leaktrace/tags`: https://quay.io/repository/biocontainers/perl-test-leaktrace?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-leaktrace";
+        var versions = ["0.16","0.16","0.16","0.15","0.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

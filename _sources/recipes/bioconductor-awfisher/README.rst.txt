@@ -66,10 +66,23 @@ bioconductor-awfisher
 .. _`bioconductor-awfisher/tags`: https://quay.io/repository/biocontainers/bioconductor-awfisher?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-awfisher";
+        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

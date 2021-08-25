@@ -64,10 +64,23 @@ sequencetools
 .. _`sequencetools/tags`: https://quay.io/repository/biocontainers/sequencetools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sequencetools";
+        var versions = ["1.4.0.6","1.4.0.6","1.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

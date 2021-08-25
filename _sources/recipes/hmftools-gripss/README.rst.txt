@@ -68,10 +68,23 @@ hmftools-gripss
 .. _`hmftools-gripss/tags`: https://quay.io/repository/biocontainers/hmftools-gripss?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmftools-gripss";
+        var versions = ["1.11","1.9","1.9","1.8","1.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

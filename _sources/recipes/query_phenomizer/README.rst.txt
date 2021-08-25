@@ -63,10 +63,23 @@ query_phenomizer
 .. _`query_phenomizer/tags`: https://quay.io/repository/biocontainers/query_phenomizer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "query_phenomizer";
+        var versions = ["1.2","0.5","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

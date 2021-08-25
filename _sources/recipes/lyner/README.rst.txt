@@ -77,10 +77,23 @@ lyner
 .. _`lyner/tags`: https://quay.io/repository/biocontainers/lyner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lyner";
+        var versions = ["0.4.3","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

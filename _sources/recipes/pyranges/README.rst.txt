@@ -74,10 +74,23 @@ pyranges
 .. _`pyranges/tags`: https://quay.io/repository/biocontainers/pyranges?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyranges";
+        var versions = ["0.0.104","0.0.103","0.0.101","0.0.100","0.0.99"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

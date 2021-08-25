@@ -67,10 +67,23 @@ bioconductor-peacoqc
 .. _`bioconductor-peacoqc/tags`: https://quay.io/repository/biocontainers/bioconductor-peacoqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-peacoqc";
+        var versions = ["1.2.0","0.99.25","0.99.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

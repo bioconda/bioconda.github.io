@@ -61,10 +61,23 @@ perl-sort-key
 .. _`perl-sort-key/tags`: https://quay.io/repository/biocontainers/perl-sort-key?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sort-key";
+        var versions = ["1.33","1.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

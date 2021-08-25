@@ -61,10 +61,23 @@ perl-config-tiny
 .. _`perl-config-tiny/tags`: https://quay.io/repository/biocontainers/perl-config-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-config-tiny";
+        var versions = ["2.24","2.23","2.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

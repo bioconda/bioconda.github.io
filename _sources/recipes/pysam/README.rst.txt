@@ -77,10 +77,23 @@ pysam
 .. _`pysam/tags`: https://quay.io/repository/biocontainers/pysam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pysam";
+        var versions = ["0.16.0.1","0.16.0.1","0.16.0.1","0.16.0.1","0.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

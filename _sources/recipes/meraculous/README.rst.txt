@@ -69,10 +69,23 @@ meraculous
 .. _`meraculous/tags`: https://quay.io/repository/biocontainers/meraculous?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "meraculous";
+        var versions = ["2.2.6","2.2.6","2.2.6","2.2.5.1.1.ga103cd6","2.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

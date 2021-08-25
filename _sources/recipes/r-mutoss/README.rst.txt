@@ -64,10 +64,23 @@ r-mutoss
 .. _`r-mutoss/tags`: https://quay.io/repository/biocontainers/r-mutoss?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-mutoss";
+        var versions = ["0.1_12","0.1_12","0.1_12","0.1_12","0.1_12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

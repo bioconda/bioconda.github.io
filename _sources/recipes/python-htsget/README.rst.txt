@@ -63,10 +63,23 @@ python-htsget
 .. _`python-htsget/tags`: https://quay.io/repository/biocontainers/python-htsget?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-htsget";
+        var versions = ["0.2.5","0.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

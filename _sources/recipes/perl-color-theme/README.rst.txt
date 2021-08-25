@@ -60,10 +60,23 @@ perl-color-theme
 .. _`perl-color-theme/tags`: https://quay.io/repository/biocontainers/perl-color-theme?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-color-theme";
+        var versions = ["0.10.1","0.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

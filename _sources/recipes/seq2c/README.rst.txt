@@ -61,10 +61,23 @@ seq2c
 .. _`seq2c/tags`: https://quay.io/repository/biocontainers/seq2c?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seq2c";
+        var versions = ["2019.05.30","2019.04.18","2019.04.08","2018.12.05","2016.03.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

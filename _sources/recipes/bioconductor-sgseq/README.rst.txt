@@ -83,10 +83,23 @@ bioconductor-sgseq
 .. _`bioconductor-sgseq/tags`: https://quay.io/repository/biocontainers/bioconductor-sgseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sgseq";
+        var versions = ["1.26.0","1.24.0","1.24.0","1.22.0","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

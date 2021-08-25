@@ -64,10 +64,23 @@ primedrpa
 .. _`primedrpa/tags`: https://quay.io/repository/biocontainers/primedrpa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "primedrpa";
+        var versions = ["1.0.2","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

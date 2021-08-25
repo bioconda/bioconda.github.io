@@ -69,10 +69,23 @@ sentieon
 .. _`sentieon/tags`: https://quay.io/repository/biocontainers/sentieon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sentieon";
+        var versions = ["202010.02","201808.08","201808.08","201808.07","201808.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-set-scalar
 .. _`perl-set-scalar/tags`: https://quay.io/repository/biocontainers/perl-set-scalar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-set-scalar";
+        var versions = ["1.29","1.29","1.29"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

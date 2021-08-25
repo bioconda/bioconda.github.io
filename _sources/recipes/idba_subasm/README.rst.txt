@@ -64,10 +64,23 @@ idba_subasm
 .. _`idba_subasm/tags`: https://quay.io/repository/biocontainers/idba_subasm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "idba_subasm";
+        var versions = ["1.1.3a2","1.1.3a2","1.1.3a2","1.1.3a2","1.1.3a1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

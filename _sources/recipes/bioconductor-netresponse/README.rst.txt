@@ -74,10 +74,23 @@ bioconductor-netresponse
 .. _`bioconductor-netresponse/tags`: https://quay.io/repository/biocontainers/bioconductor-netresponse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-netresponse";
+        var versions = ["1.52.0","1.50.0","1.50.0","1.48.0","1.46.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

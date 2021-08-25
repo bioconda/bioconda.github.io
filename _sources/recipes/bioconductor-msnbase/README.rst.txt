@@ -95,10 +95,23 @@ bioconductor-msnbase
 .. _`bioconductor-msnbase/tags`: https://quay.io/repository/biocontainers/bioconductor-msnbase?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-msnbase";
+        var versions = ["2.18.0","2.16.1","2.16.0","2.14.1","2.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

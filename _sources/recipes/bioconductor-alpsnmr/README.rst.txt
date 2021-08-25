@@ -92,10 +92,23 @@ bioconductor-alpsnmr
 .. _`bioconductor-alpsnmr/tags`: https://quay.io/repository/biocontainers/bioconductor-alpsnmr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-alpsnmr";
+        var versions = ["3.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

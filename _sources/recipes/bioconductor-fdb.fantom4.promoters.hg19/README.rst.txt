@@ -64,10 +64,23 @@ bioconductor-fdb.fantom4.promoters.hg19
 .. _`bioconductor-fdb.fantom4.promoters.hg19/tags`: https://quay.io/repository/biocontainers/bioconductor-fdb.fantom4.promoters.hg19?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-fdb.fantom4.promoters.hg19";
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

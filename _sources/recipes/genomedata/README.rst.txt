@@ -79,10 +79,23 @@ genomedata
 .. _`genomedata/tags`: https://quay.io/repository/biocontainers/genomedata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genomedata";
+        var versions = ["1.5.0","1.5.0","1.4.4","1.4.4","1.4.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

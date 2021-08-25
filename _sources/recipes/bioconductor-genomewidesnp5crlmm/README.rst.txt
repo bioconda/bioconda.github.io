@@ -61,10 +61,23 @@ bioconductor-genomewidesnp5crlmm
 .. _`bioconductor-genomewidesnp5crlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-genomewidesnp5crlmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genomewidesnp5crlmm";
+        var versions = ["1.0.6","1.0.6","1.0.6","1.0.6","1.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

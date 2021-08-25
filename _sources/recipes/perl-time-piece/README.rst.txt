@@ -60,10 +60,23 @@ perl-time-piece
 .. _`perl-time-piece/tags`: https://quay.io/repository/biocontainers/perl-time-piece?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-time-piece";
+        var versions = ["1.27","1.27"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

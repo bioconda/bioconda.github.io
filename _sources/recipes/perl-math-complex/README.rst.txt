@@ -61,10 +61,23 @@ perl-math-complex
 .. _`perl-math-complex/tags`: https://quay.io/repository/biocontainers/perl-math-complex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-complex";
+        var versions = ["1.59"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

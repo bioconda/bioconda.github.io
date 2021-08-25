@@ -61,10 +61,23 @@ perl-devel-globaldestruction
 .. _`perl-devel-globaldestruction/tags`: https://quay.io/repository/biocontainers/perl-devel-globaldestruction?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-devel-globaldestruction";
+        var versions = ["0.14","0.13","0.13","0.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

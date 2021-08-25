@@ -65,10 +65,23 @@ gait-gm
 .. _`gait-gm/tags`: https://quay.io/repository/biocontainers/gait-gm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gait-gm";
+        var versions = ["21.7.22","21.6.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

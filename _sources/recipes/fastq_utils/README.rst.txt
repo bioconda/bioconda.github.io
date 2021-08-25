@@ -71,10 +71,23 @@ fastq_utils
 .. _`fastq_utils/tags`: https://quay.io/repository/biocontainers/fastq_utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastq_utils";
+        var versions = ["0.25.1","0.24.1","0.24.1","0.24.0","0.23.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

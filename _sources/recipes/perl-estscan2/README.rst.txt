@@ -61,10 +61,23 @@ perl-estscan2
 .. _`perl-estscan2/tags`: https://quay.io/repository/biocontainers/perl-estscan2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-estscan2";
+        var versions = ["2.1","2.1","2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

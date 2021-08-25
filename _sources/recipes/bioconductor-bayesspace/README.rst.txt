@@ -86,10 +86,23 @@ bioconductor-bayesspace
 .. _`bioconductor-bayesspace/tags`: https://quay.io/repository/biocontainers/bioconductor-bayesspace?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bayesspace";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

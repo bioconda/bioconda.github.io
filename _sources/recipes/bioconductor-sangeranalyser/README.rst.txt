@@ -85,10 +85,23 @@ bioconductor-sangeranalyser
 .. _`bioconductor-sangeranalyser/tags`: https://quay.io/repository/biocontainers/bioconductor-sangeranalyser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sangeranalyser";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

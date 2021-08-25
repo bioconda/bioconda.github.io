@@ -65,10 +65,23 @@ tbox-scan
 .. _`tbox-scan/tags`: https://quay.io/repository/biocontainers/tbox-scan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tbox-scan";
+        var versions = ["1.0.2","1.0.2","1.0.1","0.1.3","0.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

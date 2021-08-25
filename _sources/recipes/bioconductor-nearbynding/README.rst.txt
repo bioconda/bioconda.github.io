@@ -77,10 +77,23 @@ bioconductor-nearbynding
 .. _`bioconductor-nearbynding/tags`: https://quay.io/repository/biocontainers/bioconductor-nearbynding?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-nearbynding";
+        var versions = ["1.2.0","1.0.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

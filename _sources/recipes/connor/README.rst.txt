@@ -65,10 +65,23 @@ connor
 .. _`connor/tags`: https://quay.io/repository/biocontainers/connor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "connor";
+        var versions = ["0.6.1","0.6.1","0.6.1","0.6","0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ bioconductor-ancombc
 .. _`bioconductor-ancombc/tags`: https://quay.io/repository/biocontainers/bioconductor-ancombc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ancombc";
+        var versions = ["1.2.0","1.0.5","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-alternativesplicingevents.hg19
 .. _`bioconductor-alternativesplicingevents.hg19/tags`: https://quay.io/repository/biocontainers/bioconductor-alternativesplicingevents.hg19?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-alternativesplicingevents.hg19";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

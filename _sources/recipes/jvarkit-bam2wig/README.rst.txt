@@ -60,10 +60,23 @@ jvarkit-bam2wig
 .. _`jvarkit-bam2wig/tags`: https://quay.io/repository/biocontainers/jvarkit-bam2wig?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jvarkit-bam2wig";
+        var versions = ["201904251722","201904251722"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

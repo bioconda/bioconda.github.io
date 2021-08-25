@@ -61,10 +61,23 @@ bioconductor-lymphoseqdb
 .. _`bioconductor-lymphoseqdb/tags`: https://quay.io/repository/biocontainers/bioconductor-lymphoseqdb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-lymphoseqdb";
+        var versions = ["0.99.2","0.99.2","0.99.2","0.99.2","0.99.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

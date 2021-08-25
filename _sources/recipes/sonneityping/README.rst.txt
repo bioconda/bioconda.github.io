@@ -61,10 +61,23 @@ sonneityping
 .. _`sonneityping/tags`: https://quay.io/repository/biocontainers/sonneityping?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sonneityping";
+        var versions = ["20210201"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ fastahack
 .. _`fastahack/tags`: https://quay.io/repository/biocontainers/fastahack?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastahack";
+        var versions = ["2016.07.2","2016.07.2","2016.07.2","2016.07.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ chisel
 .. _`chisel/tags`: https://quay.io/repository/biocontainers/chisel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chisel";
+        var versions = ["1.0.0","0.0.5","0.0.4","0.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

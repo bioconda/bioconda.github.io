@@ -76,10 +76,23 @@ octopus
 .. _`octopus/tags`: https://quay.io/repository/biocontainers/octopus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "octopus";
+        var versions = ["0.7.4","0.6.3b","0.6.3b","0.6.3b","0.6.3b"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

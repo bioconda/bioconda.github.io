@@ -63,10 +63,23 @@ auspice
 .. _`auspice/tags`: https://quay.io/repository/biocontainers/auspice?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "auspice";
+        var versions = ["2.29.1","2.23.0","2.23.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

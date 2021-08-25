@@ -69,10 +69,23 @@ outrigger
 .. _`outrigger/tags`: https://quay.io/repository/biocontainers/outrigger?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "outrigger";
+        var versions = ["1.1.1","1.1.1","1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

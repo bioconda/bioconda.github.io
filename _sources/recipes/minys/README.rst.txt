@@ -68,10 +68,23 @@ minys
 .. _`minys/tags`: https://quay.io/repository/biocontainers/minys?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "minys";
+        var versions = ["1.1","1.1","1.1","1.1","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bioconductor-roseq
 .. _`bioconductor-roseq/tags`: https://quay.io/repository/biocontainers/bioconductor-roseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-roseq";
+        var versions = ["1.4.0","1.2.10","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

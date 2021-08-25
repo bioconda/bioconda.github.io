@@ -62,10 +62,23 @@ bioconductor-bsgenome.btaurus.ucsc.bostau4
 .. _`bioconductor-bsgenome.btaurus.ucsc.bostau4/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.btaurus.ucsc.bostau4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.btaurus.ucsc.bostau4";
+        var versions = ["1.4.0","1.4.0","1.4.0","1.4.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -70,10 +70,23 @@ bioconductor-bsgenome.celegans.ucsc.ce10
 .. _`bioconductor-bsgenome.celegans.ucsc.ce10/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.celegans.ucsc.ce10?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.celegans.ucsc.ce10";
+        var versions = ["1.4.0","1.4.0","1.4.0","1.4.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

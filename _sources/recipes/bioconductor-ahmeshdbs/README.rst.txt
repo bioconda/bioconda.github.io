@@ -62,10 +62,23 @@ bioconductor-ahmeshdbs
 .. _`bioconductor-ahmeshdbs/tags`: https://quay.io/repository/biocontainers/bioconductor-ahmeshdbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ahmeshdbs";
+        var versions = ["0.99.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

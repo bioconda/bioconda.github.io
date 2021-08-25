@@ -62,10 +62,23 @@ perl-mac-systemdirectory
 .. _`perl-mac-systemdirectory/tags`: https://quay.io/repository/biocontainers/perl-mac-systemdirectory?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mac-systemdirectory";
+        var versions = ["0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

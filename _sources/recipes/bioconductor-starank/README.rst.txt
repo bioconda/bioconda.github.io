@@ -61,10 +61,23 @@ bioconductor-starank
 .. _`bioconductor-starank/tags`: https://quay.io/repository/biocontainers/bioconductor-starank?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-starank";
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.24.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

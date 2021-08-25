@@ -78,10 +78,23 @@ ncbi-amrfinderplus
 .. _`ncbi-amrfinderplus/tags`: https://quay.io/repository/biocontainers/ncbi-amrfinderplus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncbi-amrfinderplus";
+        var versions = ["3.10.14","3.10.5","3.10.1","3.10.1","3.9.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

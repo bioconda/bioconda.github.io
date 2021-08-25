@@ -85,10 +85,23 @@ pyseer
 .. _`pyseer/tags`: https://quay.io/repository/biocontainers/pyseer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyseer";
+        var versions = ["1.3.9","1.3.8","1.3.7","1.3.6","1.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

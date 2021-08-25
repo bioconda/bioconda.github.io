@@ -60,10 +60,23 @@ perl-parse-recdescent
 .. _`perl-parse-recdescent/tags`: https://quay.io/repository/biocontainers/perl-parse-recdescent?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-parse-recdescent";
+        var versions = ["1.967015","1.967013","1.967013"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

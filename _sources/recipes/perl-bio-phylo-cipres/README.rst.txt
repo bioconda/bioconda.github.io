@@ -63,10 +63,23 @@ perl-bio-phylo-cipres
 .. _`perl-bio-phylo-cipres/tags`: https://quay.io/repository/biocontainers/perl-bio-phylo-cipres?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-phylo-cipres";
+        var versions = ["v0.2.1","v0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

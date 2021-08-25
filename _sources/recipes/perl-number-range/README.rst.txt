@@ -61,10 +61,23 @@ perl-number-range
 .. _`perl-number-range/tags`: https://quay.io/repository/biocontainers/perl-number-range?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-number-range";
+        var versions = ["0.12","0.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

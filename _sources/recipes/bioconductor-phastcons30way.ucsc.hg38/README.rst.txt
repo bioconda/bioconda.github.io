@@ -63,10 +63,23 @@ bioconductor-phastcons30way.ucsc.hg38
 .. _`bioconductor-phastcons30way.ucsc.hg38/tags`: https://quay.io/repository/biocontainers/bioconductor-phastcons30way.ucsc.hg38?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-phastcons30way.ucsc.hg38";
+        var versions = ["3.11.1","3.11.1","3.11.1","3.11.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

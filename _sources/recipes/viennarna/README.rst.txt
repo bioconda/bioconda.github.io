@@ -72,10 +72,23 @@ viennarna
 .. _`viennarna/tags`: https://quay.io/repository/biocontainers/viennarna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "viennarna";
+        var versions = ["2.4.18","2.4.17","2.4.17","2.4.15","2.4.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

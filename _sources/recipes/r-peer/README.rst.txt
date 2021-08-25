@@ -61,10 +61,23 @@ r-peer
 .. _`r-peer/tags`: https://quay.io/repository/biocontainers/r-peer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-peer";
+        var versions = ["1.3","1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

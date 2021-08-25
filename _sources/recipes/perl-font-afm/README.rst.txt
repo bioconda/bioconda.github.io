@@ -60,10 +60,23 @@ perl-font-afm
 .. _`perl-font-afm/tags`: https://quay.io/repository/biocontainers/perl-font-afm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-font-afm";
+        var versions = ["1.20","1.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

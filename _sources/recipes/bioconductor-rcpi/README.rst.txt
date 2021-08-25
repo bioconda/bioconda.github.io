@@ -69,10 +69,23 @@ bioconductor-rcpi
 .. _`bioconductor-rcpi/tags`: https://quay.io/repository/biocontainers/bioconductor-rcpi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rcpi";
+        var versions = ["1.28.0","1.26.0","1.26.0","1.22.0","1.20.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bel-resources
 .. _`bel-resources/tags`: https://quay.io/repository/biocontainers/bel-resources?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bel-resources";
+        var versions = ["0.0.3","0.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

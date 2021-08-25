@@ -62,10 +62,23 @@ dextractor
 .. _`dextractor/tags`: https://quay.io/repository/biocontainers/dextractor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dextractor";
+        var versions = ["1.0p2","1.0p2","1.0p2","1.0p2","1.0p1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

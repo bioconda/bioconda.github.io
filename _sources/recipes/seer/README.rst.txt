@@ -66,10 +66,23 @@ seer
 .. _`seer/tags`: https://quay.io/repository/biocontainers/seer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seer";
+        var versions = ["1.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

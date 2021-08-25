@@ -71,10 +71,23 @@ pydnase
 .. _`pydnase/tags`: https://quay.io/repository/biocontainers/pydnase?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pydnase";
+        var versions = ["0.3.0","0.3.0","0.3.0","0.3.0","0.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

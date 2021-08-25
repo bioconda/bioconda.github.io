@@ -62,10 +62,23 @@ contrafold
 .. _`contrafold/tags`: https://quay.io/repository/biocontainers/contrafold?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "contrafold";
+        var versions = ["2.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

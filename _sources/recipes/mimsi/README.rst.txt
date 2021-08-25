@@ -67,10 +67,23 @@ mimsi
 .. _`mimsi/tags`: https://quay.io/repository/biocontainers/mimsi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mimsi";
+        var versions = ["0.4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ kalign2
 .. _`kalign2/tags`: https://quay.io/repository/biocontainers/kalign2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kalign2";
+        var versions = ["2.04","2.04","2.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

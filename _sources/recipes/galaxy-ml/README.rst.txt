@@ -93,10 +93,23 @@ galaxy-ml
 .. _`galaxy-ml/tags`: https://quay.io/repository/biocontainers/galaxy-ml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-ml";
+        var versions = ["0.9.0","0.8.3","0.8.3","0.8.3","0.8.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

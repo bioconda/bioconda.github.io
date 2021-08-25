@@ -78,10 +78,23 @@ gtdbtk
 .. _`gtdbtk/tags`: https://quay.io/repository/biocontainers/gtdbtk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gtdbtk";
+        var versions = ["1.6.0","1.5.1","1.5.0","1.4.1","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

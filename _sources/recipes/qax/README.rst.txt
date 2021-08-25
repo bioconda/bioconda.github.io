@@ -63,10 +63,23 @@ qax
 .. _`qax/tags`: https://quay.io/repository/biocontainers/qax?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "qax";
+        var versions = ["0.9.5","0.9.2","0.9.2","0.9.1","0.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -74,10 +74,23 @@ bioconductor-rols
 .. _`bioconductor-rols/tags`: https://quay.io/repository/biocontainers/bioconductor-rols?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rols";
+        var versions = ["2.20.0","2.18.2","2.18.0","2.16.1","2.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

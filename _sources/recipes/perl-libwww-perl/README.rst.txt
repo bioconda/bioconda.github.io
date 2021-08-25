@@ -77,10 +77,23 @@ perl-libwww-perl
 .. _`perl-libwww-perl/tags`: https://quay.io/repository/biocontainers/perl-libwww-perl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-libwww-perl";
+        var versions = ["6.39","6.36","6.36","6.15","6.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

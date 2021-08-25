@@ -61,10 +61,23 @@ parafly
 .. _`parafly/tags`: https://quay.io/repository/biocontainers/parafly?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "parafly";
+        var versions = ["r2013_01_21","r2013_01_21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

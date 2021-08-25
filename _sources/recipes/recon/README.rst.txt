@@ -60,10 +60,23 @@ recon
 .. _`recon/tags`: https://quay.io/repository/biocontainers/recon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "recon";
+        var versions = ["1.08","1.08","1.08","1.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

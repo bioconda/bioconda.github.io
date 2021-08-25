@@ -61,10 +61,23 @@ arvados-cli
 .. _`arvados-cli/tags`: https://quay.io/repository/biocontainers/arvados-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "arvados-cli";
+        var versions = ["0.1.20151207150126"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

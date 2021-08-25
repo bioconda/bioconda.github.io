@@ -67,10 +67,23 @@ firecloud
 .. _`firecloud/tags`: https://quay.io/repository/biocontainers/firecloud?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "firecloud";
+        var versions = ["0.16.31","0.16.30","0.16.28","0.16.27","0.16.27"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

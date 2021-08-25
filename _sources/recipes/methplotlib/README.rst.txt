@@ -77,10 +77,23 @@ methplotlib
 .. _`methplotlib/tags`: https://quay.io/repository/biocontainers/methplotlib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "methplotlib";
+        var versions = ["0.20.0","0.19.0","0.18.1","0.17.0","0.14.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

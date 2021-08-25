@@ -78,10 +78,23 @@ arvados-python-client
 .. _`arvados-python-client/tags`: https://quay.io/repository/biocontainers/arvados-python-client?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "arvados-python-client";
+        var versions = ["2.2.1","2.2.0","2.1.2","2.1.1","2.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

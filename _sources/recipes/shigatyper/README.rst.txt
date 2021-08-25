@@ -64,10 +64,23 @@ shigatyper
 .. _`shigatyper/tags`: https://quay.io/repository/biocontainers/shigatyper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shigatyper";
+        var versions = ["1.0.6","1.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

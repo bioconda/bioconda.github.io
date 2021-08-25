@@ -61,10 +61,23 @@ wdltool
 .. _`wdltool/tags`: https://quay.io/repository/biocontainers/wdltool?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wdltool";
+        var versions = ["0.14","0.14","0.9","0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ bioconductor-methrix
 .. _`bioconductor-methrix/tags`: https://quay.io/repository/biocontainers/bioconductor-methrix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-methrix";
+        var versions = ["1.6.0","1.4.07","1.4.0","1.2.05","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -85,10 +85,23 @@ dammit
 .. _`dammit/tags`: https://quay.io/repository/biocontainers/dammit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dammit";
+        var versions = ["1.2","1.1.1","1.1","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

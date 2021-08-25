@@ -66,10 +66,23 @@ atac
 .. _`atac/tags`: https://quay.io/repository/biocontainers/atac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "atac";
+        var versions = ["2008","2008","2008","2008"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

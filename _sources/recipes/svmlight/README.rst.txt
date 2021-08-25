@@ -60,6 +60,13 @@ svmlight
 .. _`svmlight/tags`: https://quay.io/repository/biocontainers/svmlight?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "svmlight";
+        var versions = ["6.02","6.02","6.02"];
+    </script>
+
 
 
 
@@ -72,6 +79,12 @@ Practical. Advances in Kernel Methods \- Support Vector
 Learning\, B. Schölkopf and C. Burges and A. Smola \(ed.\)\,
 MIT\-Press\, 1999. 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

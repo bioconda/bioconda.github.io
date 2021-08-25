@@ -62,10 +62,23 @@ bioconductor-rtcga.pancan12
 .. _`bioconductor-rtcga.pancan12/tags`: https://quay.io/repository/biocontainers/bioconductor-rtcga.pancan12?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rtcga.pancan12";
+        var versions = ["1.20.0","1.18.0","1.18.0","1.17.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

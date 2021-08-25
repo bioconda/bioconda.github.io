@@ -71,10 +71,23 @@ scaden
 .. _`scaden/tags`: https://quay.io/repository/biocontainers/scaden?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scaden";
+        var versions = ["1.1.2","1.1.1","0.9.4","0.9.2","0.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-bsgenome.tguttata.ucsc.taegut2
 .. _`bioconductor-bsgenome.tguttata.ucsc.taegut2/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.tguttata.ucsc.taegut2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.tguttata.ucsc.taegut2";
+        var versions = ["1.4.2","1.4.2","1.4.2","1.4.2","1.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

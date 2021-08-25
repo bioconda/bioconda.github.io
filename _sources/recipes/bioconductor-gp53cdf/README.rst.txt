@@ -62,10 +62,23 @@ bioconductor-gp53cdf
 .. _`bioconductor-gp53cdf/tags`: https://quay.io/repository/biocontainers/bioconductor-gp53cdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gp53cdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

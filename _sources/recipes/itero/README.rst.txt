@@ -73,10 +73,23 @@ itero
 .. _`itero/tags`: https://quay.io/repository/biocontainers/itero?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "itero";
+        var versions = ["1.1.2","1.1.2","1.1.1","1.1.1","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

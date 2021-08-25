@@ -60,6 +60,13 @@ consensusfixer
 .. _`consensusfixer/tags`: https://quay.io/repository/biocontainers/consensusfixer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "consensusfixer";
+        var versions = ["0.4","0.4","0.4","0.3.1"];
+    </script>
+
 
 
 
@@ -73,6 +80,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"ConsensusFixer \-Xms512m \-Xmx1G\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

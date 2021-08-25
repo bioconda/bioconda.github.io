@@ -65,6 +65,13 @@ bmtagger
 .. _`bmtagger/tags`: https://quay.io/repository/biocontainers/bmtagger?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bmtagger";
+        var versions = ["3.101","3.101","3.101","3.101"];
+    </script>
+
 
 
 
@@ -73,6 +80,12 @@ Notes
 -----
 You may find it necessary to create a bmtagger.conf file to specify paired or single\-end searching. The file should contain the line \'srprismopts\=\"\-b 100000000 \-n 5 \-R 0 \-r 1 \-M 7168\"\' along with \'\-p true\' or \'\-p false\' for paired\, and single\, respectively. This config file can be passed to bmtagger.sh via the \'\-C\' option.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

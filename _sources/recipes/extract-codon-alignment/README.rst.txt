@@ -61,10 +61,23 @@ extract-codon-alignment
 .. _`extract-codon-alignment/tags`: https://quay.io/repository/biocontainers/extract-codon-alignment?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "extract-codon-alignment";
+        var versions = ["0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

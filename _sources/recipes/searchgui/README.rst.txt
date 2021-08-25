@@ -78,6 +78,13 @@ searchgui
 .. _`searchgui/tags`: https://quay.io/repository/biocontainers/searchgui?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "searchgui";
+        var versions = ["4.0.41","4.0.41","4.0.33","4.0.32","4.0.25"];
+    </script>
+
 
 
 
@@ -92,6 +99,12 @@ set globally this will take precedence.
 For example run it with \"searchgui \-Xms512m \-Xmx8g\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

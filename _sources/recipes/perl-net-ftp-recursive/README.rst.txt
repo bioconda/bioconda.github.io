@@ -61,10 +61,23 @@ perl-net-ftp-recursive
 .. _`perl-net-ftp-recursive/tags`: https://quay.io/repository/biocontainers/perl-net-ftp-recursive?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-net-ftp-recursive";
+        var versions = ["2.04","2.04","2.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

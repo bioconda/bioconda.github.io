@@ -60,10 +60,23 @@ fastaindex
 .. _`fastaindex/tags`: https://quay.io/repository/biocontainers/fastaindex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastaindex";
+        var versions = ["0.11c","0.11c","0.11c","0.11c"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

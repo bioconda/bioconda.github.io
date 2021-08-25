@@ -92,10 +92,23 @@ anvio
 .. _`anvio/tags`: https://quay.io/repository/biocontainers/anvio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "anvio";
+        var versions = ["7","7","6.2","6.1","6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

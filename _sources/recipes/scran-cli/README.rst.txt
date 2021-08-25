@@ -64,10 +64,23 @@ scran-cli
 .. _`scran-cli/tags`: https://quay.io/repository/biocontainers/scran-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scran-cli";
+        var versions = ["v0.0.1","v0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

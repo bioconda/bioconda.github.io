@@ -63,10 +63,23 @@ bioconductor-epitxdb.hs.hg38
 .. _`bioconductor-epitxdb.hs.hg38/tags`: https://quay.io/repository/biocontainers/bioconductor-epitxdb.hs.hg38?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-epitxdb.hs.hg38";
+        var versions = ["0.99.7","0.99.7","0.99.7","0.99.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

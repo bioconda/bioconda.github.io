@@ -76,10 +76,23 @@ ont-fast5-api
 .. _`ont-fast5-api/tags`: https://quay.io/repository/biocontainers/ont-fast5-api?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ont-fast5-api";
+        var versions = ["4.0.0","3.3.0","3.2.0","3.1.6","3.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

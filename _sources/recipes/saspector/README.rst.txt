@@ -73,10 +73,23 @@ saspector
 .. _`saspector/tags`: https://quay.io/repository/biocontainers/saspector?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "saspector";
+        var versions = ["0.0.3","0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

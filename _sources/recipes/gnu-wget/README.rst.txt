@@ -64,10 +64,23 @@ gnu-wget
 .. _`gnu-wget/tags`: https://quay.io/repository/biocontainers/gnu-wget?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gnu-wget";
+        var versions = ["1.18","1.18","1.18","1.18","1.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

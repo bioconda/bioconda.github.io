@@ -73,10 +73,23 @@ pronto
 .. _`pronto/tags`: https://quay.io/repository/biocontainers/pronto?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pronto";
+        var versions = ["2.4.3","2.4.2","2.4.1","2.3.2","2.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

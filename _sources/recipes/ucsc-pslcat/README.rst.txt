@@ -65,10 +65,23 @@ ucsc-pslcat
 .. _`ucsc-pslcat/tags`: https://quay.io/repository/biocontainers/ucsc-pslcat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-pslcat";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

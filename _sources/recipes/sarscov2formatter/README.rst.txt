@@ -66,10 +66,23 @@ sarscov2formatter
 .. _`sarscov2formatter/tags`: https://quay.io/repository/biocontainers/sarscov2formatter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sarscov2formatter";
+        var versions = ["0.5.3","0.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

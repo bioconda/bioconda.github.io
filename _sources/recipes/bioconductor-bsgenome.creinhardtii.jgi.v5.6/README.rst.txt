@@ -62,10 +62,23 @@ bioconductor-bsgenome.creinhardtii.jgi.v5.6
 .. _`bioconductor-bsgenome.creinhardtii.jgi.v5.6/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.creinhardtii.jgi.v5.6?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.creinhardtii.jgi.v5.6";
+        var versions = ["1.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

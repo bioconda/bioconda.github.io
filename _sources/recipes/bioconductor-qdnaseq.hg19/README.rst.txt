@@ -62,10 +62,23 @@ bioconductor-qdnaseq.hg19
 .. _`bioconductor-qdnaseq.hg19/tags`: https://quay.io/repository/biocontainers/bioconductor-qdnaseq.hg19?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-qdnaseq.hg19";
+        var versions = ["1.22.0","1.20.0","1.20.0","1.18.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ thermorawfileparser
 .. _`thermorawfileparser/tags`: https://quay.io/repository/biocontainers/thermorawfileparser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "thermorawfileparser";
+        var versions = ["1.3.4","1.3.3","1.3.3","1.3.2","1.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

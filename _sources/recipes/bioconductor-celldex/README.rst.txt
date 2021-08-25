@@ -68,10 +68,23 @@ bioconductor-celldex
 .. _`bioconductor-celldex/tags`: https://quay.io/repository/biocontainers/bioconductor-celldex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-celldex";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -82,10 +82,23 @@ targqc
 .. _`targqc/tags`: https://quay.io/repository/biocontainers/targqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "targqc";
+        var versions = ["1.8.1","1.8.1","1.4.4","1.4.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

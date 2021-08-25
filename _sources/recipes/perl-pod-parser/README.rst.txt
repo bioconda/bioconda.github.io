@@ -61,10 +61,23 @@ perl-pod-parser
 .. _`perl-pod-parser/tags`: https://quay.io/repository/biocontainers/perl-pod-parser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pod-parser";
+        var versions = ["1.63","1.63"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

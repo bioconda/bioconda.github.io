@@ -60,10 +60,23 @@ perl-io-interactive
 .. _`perl-io-interactive/tags`: https://quay.io/repository/biocontainers/perl-io-interactive?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-interactive";
+        var versions = ["1.022","1.021","1.021"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

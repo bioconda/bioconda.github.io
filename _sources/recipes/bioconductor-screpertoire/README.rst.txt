@@ -72,10 +72,23 @@ bioconductor-screpertoire
 .. _`bioconductor-screpertoire/tags`: https://quay.io/repository/biocontainers/bioconductor-screpertoire?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-screpertoire";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -84,10 +84,23 @@ srax
 .. _`srax/tags`: https://quay.io/repository/biocontainers/srax?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "srax";
+        var versions = ["1.5","1.5","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

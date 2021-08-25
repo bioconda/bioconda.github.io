@@ -62,10 +62,23 @@ perl-lwp-simple
 .. _`perl-lwp-simple/tags`: https://quay.io/repository/biocontainers/perl-lwp-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-lwp-simple";
+        var versions = ["6.15","6.15","6.15","6.15","6.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ rna-seqc
 .. _`rna-seqc/tags`: https://quay.io/repository/biocontainers/rna-seqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rna-seqc";
+        var versions = ["2.3.5","2.3.5","2.3.5","2.3.4","2.3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

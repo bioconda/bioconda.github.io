@@ -69,10 +69,23 @@ r-rtassel
 .. _`r-rtassel/tags`: https://quay.io/repository/biocontainers/r-rtassel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-rtassel";
+        var versions = ["0.1.2019.07.25","0.1.2019.07.25","0.1.2019.07.25","0.1.2019.07.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

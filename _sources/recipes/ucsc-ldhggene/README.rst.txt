@@ -65,10 +65,23 @@ ucsc-ldhggene
 .. _`ucsc-ldhggene/tags`: https://quay.io/repository/biocontainers/ucsc-ldhggene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-ldhggene";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

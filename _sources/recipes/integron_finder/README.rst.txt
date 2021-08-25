@@ -68,10 +68,23 @@ integron_finder
 .. _`integron_finder/tags`: https://quay.io/repository/biocontainers/integron_finder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "integron_finder";
+        var versions = ["2.0rc6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

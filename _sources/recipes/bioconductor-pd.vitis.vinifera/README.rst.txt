@@ -68,10 +68,23 @@ bioconductor-pd.vitis.vinifera
 .. _`bioconductor-pd.vitis.vinifera/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.vitis.vinifera?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.vitis.vinifera";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

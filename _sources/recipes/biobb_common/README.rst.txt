@@ -97,10 +97,23 @@ biobb_common
 .. _`biobb_common/tags`: https://quay.io/repository/biocontainers/biobb_common?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biobb_common";
+        var versions = ["3.6.0","3.5.1","3.5.0","3.0.1","3.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-sort-naturally
 .. _`perl-sort-naturally/tags`: https://quay.io/repository/biocontainers/perl-sort-naturally?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sort-naturally";
+        var versions = ["1.03","1.03","1.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

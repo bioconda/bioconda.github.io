@@ -78,10 +78,23 @@ bioconductor-topgo
 .. _`bioconductor-topgo/tags`: https://quay.io/repository/biocontainers/bioconductor-topgo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-topgo";
+        var versions = ["2.44.0","2.42.0","2.42.0","2.41.0","2.40.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

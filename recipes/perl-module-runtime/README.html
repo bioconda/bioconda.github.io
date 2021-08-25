@@ -16,6 +16,9 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -134,22 +137,22 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../perl-specio/README.html#perl-specio"><strong class="xref backref">perl-specio</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-moo/README.html#perl-moo"><strong class="xref backref">perl-moo</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-sql-statement/README.html#perl-sql-statement"><strong class="xref backref">perl-sql-statement</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-datetime-timezone/README.html#perl-datetime-timezone"><strong class="xref backref">perl-datetime-timezone</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-moose/README.html#perl-moose"><strong class="xref backref">perl-moose</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-class-load/README.html#perl-class-load"><strong class="xref backref">perl-class-load</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-module-runtime-conflicts/README.html#perl-module-runtime-conflicts"><strong class="xref backref">perl-module-runtime-conflicts</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-sql-statement/README.html#perl-sql-statement"><strong class="xref backref">perl-sql-statement</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-moosex-object-pluggable/README.html#perl-moosex-object-pluggable"><strong class="xref backref">perl-moosex-object-pluggable</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-import-into/README.html#perl-import-into"><strong class="xref backref">perl-import-into</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-module-implementation/README.html#perl-module-implementation"><strong class="xref backref">perl-module-implementation</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-datetime-timezone/README.html#perl-datetime-timezone"><strong class="xref backref">perl-datetime-timezone</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-moosex-role-parameterized/README.html#perl-moosex-role-parameterized"><strong class="xref backref">perl-moosex-role-parameterized</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-cleannamespaces/README.html#perl-test-cleannamespaces"><strong class="xref backref">perl-test-cleannamespaces</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-dist-checkconflicts/README.html#perl-dist-checkconflicts"><strong class="xref backref">perl-dist-checkconflicts</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-moosex-nonmoose/README.html#perl-moosex-nonmoose"><strong class="xref backref">perl-moosex-nonmoose</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-moosex-role-parameterized/README.html#perl-moosex-role-parameterized"><strong class="xref backref">perl-moosex-role-parameterized</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-specio/README.html#perl-specio"><strong class="xref backref">perl-specio</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-import-into/README.html#perl-import-into"><strong class="xref backref">perl-import-into</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-module-runtime-conflicts/README.html#perl-module-runtime-conflicts"><strong class="xref backref">perl-module-runtime-conflicts</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-module-implementation/README.html#perl-module-implementation"><strong class="xref backref">perl-module-implementation</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-test-class-moose/README.html#perl-test-class-moose"><strong class="xref backref">perl-test-class-moose</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-moo/README.html#perl-moo"><strong class="xref backref">perl-moo</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-moosex-types/README.html#perl-moosex-types"><strong class="xref backref">perl-moosex-types</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-test-cleannamespaces/README.html#perl-test-cleannamespaces"><strong class="xref backref">perl-test-cleannamespaces</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-moosex-object-pluggable/README.html#perl-moosex-object-pluggable"><strong class="xref backref">perl-moosex-object-pluggable</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-dist-checkconflicts/README.html#perl-dist-checkconflicts"><strong class="xref backref">perl-dist-checkconflicts</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -169,6 +172,67 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-module-runtime?tab=tags">perl-module-runtime/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
+<script>
+    var package = "perl-module-runtime";
+    var versions = ["0.016","0.016","0.014","0.014"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+
+<script>
+    window.onload = async function() {
+        versions = [...new Set(versions)];
+
+        let download_data = [];
+
+        for (const version of versions) {
+            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
+            await $.get({
+                url: url,
+                success: function( data ) {
+                    data = JSON.parse(data);
+                    data = data["downloads_per_date"];
+                    let first;
+                    if (data.length > 14) {
+                        first = data.length - 14;
+                    } else {
+                        first = 1;
+                    }
+                    for (let i = first; i < data.length; i++) {
+                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
+                        data[i]["version"] = version;
+                        download_data.push(data[i]);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log('error fetching data from bioconda stats repo!');
+                }
+            });
+        }
+
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart with embedded data.",
+            "data": {"values": []},
+            "width": "container",
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": true,
+                }
+            },
+            "encoding": {
+                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
+                 "color": {"field": "version", "type": "nominal"},
+                 "tooltip": {"field": "delta"}
+            }
+        };
+
+        spec.data.values = download_data;
+        vegaEmbed('#download_plot', spec);
+    }
+</script></section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-module-runtime/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

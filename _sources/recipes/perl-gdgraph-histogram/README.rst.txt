@@ -62,10 +62,23 @@ perl-gdgraph-histogram
 .. _`perl-gdgraph-histogram/tags`: https://quay.io/repository/biocontainers/perl-gdgraph-histogram?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-gdgraph-histogram";
+        var versions = ["1.1","1.1","1.1","1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

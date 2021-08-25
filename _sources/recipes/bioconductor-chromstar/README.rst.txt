@@ -87,10 +87,23 @@ bioconductor-chromstar
 .. _`bioconductor-chromstar/tags`: https://quay.io/repository/biocontainers/bioconductor-chromstar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-chromstar";
+        var versions = ["1.18.0","1.16.0","1.16.0","1.16.0","1.14.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

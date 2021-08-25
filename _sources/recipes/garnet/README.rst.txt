@@ -67,10 +67,23 @@ garnet
 .. _`garnet/tags`: https://quay.io/repository/biocontainers/garnet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "garnet";
+        var versions = ["0.4.5","0.4.3","0.4.0","0.2.20","0.2.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ sepp-refgg138
 .. _`sepp-refgg138/tags`: https://quay.io/repository/biocontainers/sepp-refgg138?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sepp-refgg138";
+        var versions = ["4.5.1","4.5.1","4.3.6","v4.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

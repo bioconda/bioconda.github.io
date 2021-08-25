@@ -62,10 +62,23 @@ cdbtools
 .. _`cdbtools/tags`: https://quay.io/repository/biocontainers/cdbtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cdbtools";
+        var versions = ["0.99","0.99","0.99","0.99","0.99"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

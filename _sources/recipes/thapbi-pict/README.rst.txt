@@ -86,10 +86,23 @@ thapbi-pict
 .. _`thapbi-pict/tags`: https://quay.io/repository/biocontainers/thapbi-pict?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "thapbi-pict";
+        var versions = ["0.10.1","0.9.9","0.9.8","0.9.7","0.9.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

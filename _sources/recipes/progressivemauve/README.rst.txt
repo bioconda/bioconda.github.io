@@ -59,10 +59,23 @@ progressivemauve
 .. _`progressivemauve/tags`: https://quay.io/repository/biocontainers/progressivemauve?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "progressivemauve";
+        var versions = ["snapshot_2015_02_13","snapshot_2015_02_13","snapshot_2015_02_13","snapshot_2015_02_13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

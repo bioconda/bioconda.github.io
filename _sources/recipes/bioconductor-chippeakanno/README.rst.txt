@@ -94,10 +94,23 @@ bioconductor-chippeakanno
 .. _`bioconductor-chippeakanno/tags`: https://quay.io/repository/biocontainers/bioconductor-chippeakanno?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-chippeakanno";
+        var versions = ["3.26.0","3.24.1","3.24.0","3.22.0","3.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

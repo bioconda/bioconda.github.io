@@ -60,10 +60,23 @@ bd2k-python-lib
 .. _`bd2k-python-lib/tags`: https://quay.io/repository/biocontainers/bd2k-python-lib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bd2k-python-lib";
+        var versions = ["1.14a1.dev48","1.14a1.dev48","1.14a1.dev48","1.14a1.dev37","1.14a1.dev37"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

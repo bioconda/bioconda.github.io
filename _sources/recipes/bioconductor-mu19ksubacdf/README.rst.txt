@@ -62,10 +62,23 @@ bioconductor-mu19ksubacdf
 .. _`bioconductor-mu19ksubacdf/tags`: https://quay.io/repository/biocontainers/bioconductor-mu19ksubacdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mu19ksubacdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

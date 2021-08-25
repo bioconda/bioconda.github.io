@@ -70,10 +70,23 @@ trimmomatic
 .. _`trimmomatic/tags`: https://quay.io/repository/biocontainers/trimmomatic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trimmomatic";
+        var versions = ["0.39","0.39","0.39","0.38","0.36"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

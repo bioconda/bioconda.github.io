@@ -64,10 +64,23 @@ sampei
 .. _`sampei/tags`: https://quay.io/repository/biocontainers/sampei?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sampei";
+        var versions = ["0.0.9","0.0.8","0.0.3","0.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -75,6 +75,13 @@ jalview
 .. _`jalview/tags`: https://quay.io/repository/biocontainers/jalview?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jalview";
+        var versions = ["2.11.1.4","2.11.1.4","2.11.1.3","2.11.1.2","2.11.1.0"];
+    </script>
+
 
 
 
@@ -86,6 +93,12 @@ Set JALVIEW\_JRE\=j1.8 or JALVIEW\_JRE\=j11 to specify the java runtime if you n
 Set JALVIEW\_MAXMEM\=2g to restrict jalviews maximal memory consumption \(here to 2G RAM\). Otherwise 90\% of physical memory
 \(capped at 32G\) is allocated.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

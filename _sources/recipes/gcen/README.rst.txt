@@ -62,10 +62,23 @@ gcen
 .. _`gcen/tags`: https://quay.io/repository/biocontainers/gcen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gcen";
+        var versions = ["0.5.1","0.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

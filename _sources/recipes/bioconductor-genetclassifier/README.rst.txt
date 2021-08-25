@@ -65,10 +65,23 @@ bioconductor-genetclassifier
 .. _`bioconductor-genetclassifier/tags`: https://quay.io/repository/biocontainers/bioconductor-genetclassifier?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genetclassifier";
+        var versions = ["1.32.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

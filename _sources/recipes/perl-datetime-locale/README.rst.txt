@@ -65,10 +65,23 @@ perl-datetime-locale
 .. _`perl-datetime-locale/tags`: https://quay.io/repository/biocontainers/perl-datetime-locale?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-datetime-locale";
+        var versions = ["1.12","1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

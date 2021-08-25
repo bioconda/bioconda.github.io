@@ -62,10 +62,23 @@ perl-experimental
 .. _`perl-experimental/tags`: https://quay.io/repository/biocontainers/perl-experimental?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-experimental";
+        var versions = ["0.020"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

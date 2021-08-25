@@ -65,10 +65,23 @@ umap
 .. _`umap/tags`: https://quay.io/repository/biocontainers/umap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "umap";
+        var versions = ["1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

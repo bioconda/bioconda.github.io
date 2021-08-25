@@ -64,10 +64,23 @@ fwdpy
 .. _`fwdpy/tags`: https://quay.io/repository/biocontainers/fwdpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fwdpy";
+        var versions = ["0.0.4pre1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -93,10 +93,23 @@ capcruncher
 .. _`capcruncher/tags`: https://quay.io/repository/biocontainers/capcruncher?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "capcruncher";
+        var versions = ["0.1.0a2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ perl-string-truncate
 .. _`perl-string-truncate/tags`: https://quay.io/repository/biocontainers/perl-string-truncate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-string-truncate";
+        var versions = ["1.100602"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

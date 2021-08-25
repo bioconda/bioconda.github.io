@@ -67,10 +67,23 @@ breakdancer
 .. _`breakdancer/tags`: https://quay.io/repository/biocontainers/breakdancer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "breakdancer";
+        var versions = ["1.4.5","1.4.5","1.4.5","1.4.5","1.4.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

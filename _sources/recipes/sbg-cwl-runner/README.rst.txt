@@ -63,10 +63,23 @@ sbg-cwl-runner
 .. _`sbg-cwl-runner/tags`: https://quay.io/repository/biocontainers/sbg-cwl-runner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sbg-cwl-runner";
+        var versions = ["2018.11","2018.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ perl-datetime-format-strptime
 .. _`perl-datetime-format-strptime/tags`: https://quay.io/repository/biocontainers/perl-datetime-format-strptime?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-datetime-format-strptime";
+        var versions = ["1.75","1.73"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

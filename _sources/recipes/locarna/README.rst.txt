@@ -73,10 +73,23 @@ locarna
 .. _`locarna/tags`: https://quay.io/repository/biocontainers/locarna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "locarna";
+        var versions = ["2.0.0RC8","2.0.0RC8","2.0.0RC6","2.0.0RC6","1.9.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

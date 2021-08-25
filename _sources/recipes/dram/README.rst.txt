@@ -79,6 +79,13 @@ dram
 .. _`dram/tags`: https://quay.io/repository/biocontainers/dram?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dram";
+        var versions = ["1.2.4","1.2.2","1.2.1","1.2.0","1.1.1"];
+    </script>
+
 
 
 
@@ -87,6 +94,12 @@ Notes
 -----
 Databases are required. Please run \'DRAM\-setup.py prepare\_databases\' with the respective options.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

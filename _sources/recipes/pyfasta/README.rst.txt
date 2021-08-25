@@ -62,10 +62,23 @@ pyfasta
 .. _`pyfasta/tags`: https://quay.io/repository/biocontainers/pyfasta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyfasta";
+        var versions = ["0.5.2","0.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

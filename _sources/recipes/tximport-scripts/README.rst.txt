@@ -63,10 +63,23 @@ tximport-scripts
 .. _`tximport-scripts/tags`: https://quay.io/repository/biocontainers/tximport-scripts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tximport-scripts";
+        var versions = ["0.0.1","0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

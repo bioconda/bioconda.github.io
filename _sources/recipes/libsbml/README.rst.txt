@@ -64,10 +64,23 @@ libsbml
 .. _`libsbml/tags`: https://quay.io/repository/biocontainers/libsbml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libsbml";
+        var versions = ["5.18.0","5.18.0","5.18.0","5.18.0","5.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -88,10 +88,23 @@ bioconductor-cytotree
 .. _`bioconductor-cytotree/tags`: https://quay.io/repository/biocontainers/bioconductor-cytotree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cytotree";
+        var versions = ["1.0.3","1.0.3","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ r-sigtree
 .. _`r-sigtree/tags`: https://quay.io/repository/biocontainers/r-sigtree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-sigtree";
+        var versions = ["1.10.6","1.10.6","1.10.6","1.10.6","1.10.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

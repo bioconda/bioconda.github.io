@@ -60,10 +60,23 @@ pulchra
 .. _`pulchra/tags`: https://quay.io/repository/biocontainers/pulchra?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pulchra";
+        var versions = ["3.06","3.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

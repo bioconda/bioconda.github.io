@@ -63,6 +63,13 @@ spectacle
 .. _`spectacle/tags`: https://quay.io/repository/biocontainers/spectacle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "spectacle";
+        var versions = ["1.4","1.4","1.4","1.4"];
+    </script>
+
 
 
 
@@ -71,6 +78,12 @@ Notes
 -----
 The Spectacle github repo weighs in at around 500MB\, a large portion of which is data files. These have been removed from the conda recipe\, but a script \(download\_spectacle\_data.sh\) has been included here which will download those files from github.  In addition\, a wrapper script \`Spectacle.sh\` has been included in this recipe and should be used when calling the program.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

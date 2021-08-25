@@ -82,10 +82,23 @@ bioconductor-somaticsignatures
 .. _`bioconductor-somaticsignatures/tags`: https://quay.io/repository/biocontainers/bioconductor-somaticsignatures?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-somaticsignatures";
+        var versions = ["2.28.0","2.26.0","2.26.0","2.24.0","2.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

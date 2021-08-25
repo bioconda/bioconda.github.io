@@ -60,10 +60,23 @@ tabix
 .. _`tabix/tags`: https://quay.io/repository/biocontainers/tabix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tabix";
+        var versions = ["1.11","0.2.6","0.2.5","0.2.5","0.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

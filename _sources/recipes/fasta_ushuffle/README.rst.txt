@@ -60,10 +60,23 @@ fasta_ushuffle
 .. _`fasta_ushuffle/tags`: https://quay.io/repository/biocontainers/fasta_ushuffle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fasta_ushuffle";
+        var versions = ["0.2","0.2","0.2","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

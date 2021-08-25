@@ -62,10 +62,23 @@ bpp-popgen
 .. _`bpp-popgen/tags`: https://quay.io/repository/biocontainers/bpp-popgen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bpp-popgen";
+        var versions = ["2.4.1","2.4.1","2.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

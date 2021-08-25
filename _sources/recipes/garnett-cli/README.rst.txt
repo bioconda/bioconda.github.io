@@ -66,10 +66,23 @@ garnett-cli
 .. _`garnett-cli/tags`: https://quay.io/repository/biocontainers/garnett-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "garnett-cli";
+        var versions = ["0.0.5","0.0.5","0.0.4","0.0.3","0.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

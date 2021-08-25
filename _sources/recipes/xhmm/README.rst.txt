@@ -65,10 +65,23 @@ xhmm
 .. _`xhmm/tags`: https://quay.io/repository/biocontainers/xhmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "xhmm";
+        var versions = ["0.0.0.2016_01_04.cc14e52","0.0.0.2016_01_04.cc14e52","0.0.0.2016_01_04.cc14e52"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

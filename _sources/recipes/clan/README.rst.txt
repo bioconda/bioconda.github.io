@@ -62,10 +62,23 @@ clan
 .. _`clan/tags`: https://quay.io/repository/biocontainers/clan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clan";
+        var versions = ["0.05","0.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

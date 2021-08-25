@@ -81,10 +81,23 @@ bioconductor-enmix
 .. _`bioconductor-enmix/tags`: https://quay.io/repository/biocontainers/bioconductor-enmix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-enmix";
+        var versions = ["1.28.2","1.26.8","1.26.0","1.25.1","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

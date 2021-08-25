@@ -37,7 +37,7 @@ proteomiqon-psmstatistics
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -70,10 +70,23 @@ proteomiqon-psmstatistics
 .. _`proteomiqon-psmstatistics/tags`: https://quay.io/repository/biocontainers/proteomiqon-psmstatistics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "proteomiqon-psmstatistics";
+        var versions = ["0.0.7","0.0.6","0.0.5","0.0.4","0.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

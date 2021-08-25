@@ -62,10 +62,23 @@ bioconductor-bsgenome.mmulatta.ucsc.rhemac10
 .. _`bioconductor-bsgenome.mmulatta.ucsc.rhemac10/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mmulatta.ucsc.rhemac10?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.mmulatta.ucsc.rhemac10";
+        var versions = ["1.4.2","1.4.2","1.4.2","1.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -79,10 +79,23 @@ blast
 .. _`blast/tags`: https://quay.io/repository/biocontainers/blast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "blast";
+        var versions = ["2.12.0","2.11.0","2.11.0","2.10.1","2.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -93,10 +93,23 @@ deepvariant
 .. _`deepvariant/tags`: https://quay.io/repository/biocontainers/deepvariant?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deepvariant";
+        var versions = ["1.2.0","1.1.0","1.1.0","1.1.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

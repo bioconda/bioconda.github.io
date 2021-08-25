@@ -60,10 +60,23 @@ perl-spiffy
 .. _`perl-spiffy/tags`: https://quay.io/repository/biocontainers/perl-spiffy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-spiffy";
+        var versions = ["0.46","0.46","0.46","0.46"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

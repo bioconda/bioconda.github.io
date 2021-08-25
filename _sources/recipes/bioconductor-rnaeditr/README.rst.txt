@@ -70,10 +70,23 @@ bioconductor-rnaeditr
 .. _`bioconductor-rnaeditr/tags`: https://quay.io/repository/biocontainers/bioconductor-rnaeditr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rnaeditr";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

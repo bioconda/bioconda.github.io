@@ -63,10 +63,23 @@ perl-pod-coverage-trustpod
 .. _`perl-pod-coverage-trustpod/tags`: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pod-coverage-trustpod";
+        var versions = ["0.100003","0.100003"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

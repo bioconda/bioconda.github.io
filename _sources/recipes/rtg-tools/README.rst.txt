@@ -71,10 +71,23 @@ rtg-tools
 .. _`rtg-tools/tags`: https://quay.io/repository/biocontainers/rtg-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rtg-tools";
+        var versions = ["3.12.1","3.12","3.12","3.11","3.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ lordfast
 .. _`lordfast/tags`: https://quay.io/repository/biocontainers/lordfast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lordfast";
+        var versions = ["0.0.10","0.0.10","0.0.10","0.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

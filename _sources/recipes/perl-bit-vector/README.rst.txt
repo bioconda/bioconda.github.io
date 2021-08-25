@@ -60,10 +60,23 @@ perl-bit-vector
 .. _`perl-bit-vector/tags`: https://quay.io/repository/biocontainers/perl-bit-vector?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bit-vector";
+        var versions = ["7.4","7.4","7.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

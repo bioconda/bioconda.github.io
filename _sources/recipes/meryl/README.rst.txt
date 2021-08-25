@@ -60,10 +60,23 @@ meryl
 .. _`meryl/tags`: https://quay.io/repository/biocontainers/meryl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "meryl";
+        var versions = ["2013","1.3","1.2","1.2","v1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-symbol-util
 .. _`perl-symbol-util/tags`: https://quay.io/repository/biocontainers/perl-symbol-util?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-symbol-util";
+        var versions = ["0.0203","0.0203"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -72,10 +72,23 @@ graphclust-wrappers
 .. _`graphclust-wrappers/tags`: https://quay.io/repository/biocontainers/graphclust-wrappers?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "graphclust-wrappers";
+        var versions = ["0.6.0","0.6.0","0.5.2","0.5.2","0.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

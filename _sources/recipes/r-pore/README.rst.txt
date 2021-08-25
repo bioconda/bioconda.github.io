@@ -66,10 +66,23 @@ r-pore
 .. _`r-pore/tags`: https://quay.io/repository/biocontainers/r-pore?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-pore";
+        var versions = ["0.24","0.24","0.24","0.24","0.16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

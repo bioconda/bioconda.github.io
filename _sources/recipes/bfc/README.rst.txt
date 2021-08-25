@@ -61,10 +61,23 @@ bfc
 .. _`bfc/tags`: https://quay.io/repository/biocontainers/bfc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bfc";
+        var versions = ["r181","r181","r181","r181","r181"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

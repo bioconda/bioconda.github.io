@@ -63,10 +63,23 @@ bioconductor-tbx20bamsubset
 .. _`bioconductor-tbx20bamsubset/tags`: https://quay.io/repository/biocontainers/bioconductor-tbx20bamsubset?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-tbx20bamsubset";
+        var versions = ["1.28.0","1.26.0","1.26.0","1.24.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

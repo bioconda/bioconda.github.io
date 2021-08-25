@@ -62,10 +62,23 @@ plink2
 .. _`plink2/tags`: https://quay.io/repository/biocontainers/plink2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plink2";
+        var versions = ["2.00a2.3","2.00a2.3","1.90b3.35"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

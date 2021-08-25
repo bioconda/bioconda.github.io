@@ -67,6 +67,13 @@ cistrome-ceas
 .. _`cistrome-ceas/tags`: https://quay.io/repository/biocontainers/cistrome-ceas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cistrome-ceas";
+        var versions = ["1.0.2b1","1.0.2b1","1.0.2b1"];
+    </script>
+
 
 
 
@@ -84,6 +91,12 @@ The CEAS code is under the published\-packages\/CEAS\/ subdirectory
 Cistrome data files and documentation can be found at
 http\:\/\/liulab.dfci.harvard.edu\/CEAS\/index.html
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

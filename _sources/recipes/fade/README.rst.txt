@@ -62,10 +62,23 @@ fade
 .. _`fade/tags`: https://quay.io/repository/biocontainers/fade?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fade";
+        var versions = ["0.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

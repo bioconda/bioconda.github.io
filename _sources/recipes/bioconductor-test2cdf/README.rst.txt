@@ -62,10 +62,23 @@ bioconductor-test2cdf
 .. _`bioconductor-test2cdf/tags`: https://quay.io/repository/biocontainers/bioconductor-test2cdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-test2cdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

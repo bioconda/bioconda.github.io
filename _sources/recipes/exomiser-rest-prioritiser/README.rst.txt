@@ -61,10 +61,23 @@ exomiser-rest-prioritiser
 .. _`exomiser-rest-prioritiser/tags`: https://quay.io/repository/biocontainers/exomiser-rest-prioritiser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "exomiser-rest-prioritiser";
+        var versions = ["12.1.0","12.1.0","12.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

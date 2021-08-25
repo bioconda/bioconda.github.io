@@ -67,10 +67,23 @@ mitgard
 .. _`mitgard/tags`: https://quay.io/repository/biocontainers/mitgard?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mitgard";
+        var versions = ["1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

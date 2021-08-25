@@ -62,10 +62,23 @@ muscle
 .. _`muscle/tags`: https://quay.io/repository/biocontainers/muscle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "muscle";
+        var versions = ["3.8.1551","3.8.1551","3.8.1551","3.8.1551","3.8.1551"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

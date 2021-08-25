@@ -62,10 +62,23 @@ oligoarrayaux
 .. _`oligoarrayaux/tags`: https://quay.io/repository/biocontainers/oligoarrayaux?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "oligoarrayaux";
+        var versions = ["3.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

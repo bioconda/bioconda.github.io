@@ -63,10 +63,23 @@ rnastructure
 .. _`rnastructure/tags`: https://quay.io/repository/biocontainers/rnastructure?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rnastructure";
+        var versions = ["6.3","6.1","6.1","6.1","6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -72,10 +72,23 @@ bioconductor-scclassifr
 .. _`bioconductor-scclassifr/tags`: https://quay.io/repository/biocontainers/bioconductor-scclassifr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-scclassifr";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

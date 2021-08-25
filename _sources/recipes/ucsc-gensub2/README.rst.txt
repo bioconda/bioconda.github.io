@@ -65,10 +65,23 @@ ucsc-gensub2
 .. _`ucsc-gensub2/tags`: https://quay.io/repository/biocontainers/ucsc-gensub2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-gensub2";
+        var versions = ["377","377","377","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

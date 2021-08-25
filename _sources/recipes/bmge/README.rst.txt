@@ -63,10 +63,23 @@ bmge
 .. _`bmge/tags`: https://quay.io/repository/biocontainers/bmge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bmge";
+        var versions = ["1.12","1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

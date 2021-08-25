@@ -69,10 +69,23 @@ bwakit
 .. _`bwakit/tags`: https://quay.io/repository/biocontainers/bwakit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bwakit";
+        var versions = ["0.7.17.dev1","0.7.17.dev1","0.7.15","0.7.15","0.7.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

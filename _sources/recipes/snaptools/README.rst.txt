@@ -66,10 +66,23 @@ snaptools
 .. _`snaptools/tags`: https://quay.io/repository/biocontainers/snaptools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snaptools";
+        var versions = ["1.4.8","1.4.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

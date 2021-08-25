@@ -60,10 +60,23 @@ perl-parent
 .. _`perl-parent/tags`: https://quay.io/repository/biocontainers/perl-parent?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-parent";
+        var versions = ["0.236","0.236"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

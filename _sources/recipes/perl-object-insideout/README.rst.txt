@@ -62,10 +62,23 @@ perl-object-insideout
 .. _`perl-object-insideout/tags`: https://quay.io/repository/biocontainers/perl-object-insideout?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-object-insideout";
+        var versions = ["4.05","4.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

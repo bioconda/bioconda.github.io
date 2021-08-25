@@ -65,10 +65,23 @@ ucsc-hgloadnet
 .. _`ucsc-hgloadnet/tags`: https://quay.io/repository/biocontainers/ucsc-hgloadnet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-hgloadnet";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

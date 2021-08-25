@@ -64,10 +64,23 @@ dna_features_viewer
 .. _`dna_features_viewer/tags`: https://quay.io/repository/biocontainers/dna_features_viewer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dna_features_viewer";
+        var versions = ["3.0.3","3.0.2","3.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

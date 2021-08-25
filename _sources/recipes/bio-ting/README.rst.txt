@@ -62,6 +62,13 @@ bio-ting
 .. _`bio-ting/tags`: https://quay.io/repository/biocontainers/bio-ting?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bio-ting";
+        var versions = ["1.1.0","1.0.2","1.0.1"];
+    </script>
+
 
 
 
@@ -70,6 +77,12 @@ Notes
 -----
 The tool is available as command \`ting\`.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

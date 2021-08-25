@@ -64,10 +64,23 @@ genomescope2
 .. _`genomescope2/tags`: https://quay.io/repository/biocontainers/genomescope2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genomescope2";
+        var versions = ["2.0","2.0","2.0","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

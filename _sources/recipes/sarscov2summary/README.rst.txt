@@ -63,10 +63,23 @@ sarscov2summary
 .. _`sarscov2summary/tags`: https://quay.io/repository/biocontainers/sarscov2summary?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sarscov2summary";
+        var versions = ["0.5","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

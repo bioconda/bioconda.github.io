@@ -63,10 +63,23 @@ ema
 .. _`ema/tags`: https://quay.io/repository/biocontainers/ema?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ema";
+        var versions = ["0.6.2","0.6.2","0.6.2","0.6.2","v0.6.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

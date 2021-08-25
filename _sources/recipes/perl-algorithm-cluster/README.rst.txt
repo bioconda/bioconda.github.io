@@ -61,10 +61,23 @@ perl-algorithm-cluster
 .. _`perl-algorithm-cluster/tags`: https://quay.io/repository/biocontainers/perl-algorithm-cluster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-algorithm-cluster";
+        var versions = ["1.58","1.57","1.56","1.52","1.52"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

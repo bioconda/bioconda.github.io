@@ -78,10 +78,23 @@ r-pcalg
 .. _`r-pcalg/tags`: https://quay.io/repository/biocontainers/r-pcalg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-pcalg";
+        var versions = ["2.6_12","2.6_12","2.6_12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

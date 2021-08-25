@@ -65,10 +65,23 @@ krbalancing
 .. _`krbalancing/tags`: https://quay.io/repository/biocontainers/krbalancing?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "krbalancing";
+        var versions = ["0.0.5","0.0.5","0.0.5","0.0.5","0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

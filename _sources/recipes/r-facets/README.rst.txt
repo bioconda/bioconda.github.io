@@ -65,10 +65,23 @@ r-facets
 .. _`r-facets/tags`: https://quay.io/repository/biocontainers/r-facets?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-facets";
+        var versions = ["0.6.1","0.6.1","0.5.14","0.5.14","0.5.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

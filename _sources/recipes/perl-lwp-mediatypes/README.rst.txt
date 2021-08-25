@@ -62,10 +62,23 @@ perl-lwp-mediatypes
 .. _`perl-lwp-mediatypes/tags`: https://quay.io/repository/biocontainers/perl-lwp-mediatypes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-lwp-mediatypes";
+        var versions = ["6.04","6.02","6.02","6.02","6.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

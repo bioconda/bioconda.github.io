@@ -84,10 +84,23 @@ hap.py
 .. _`hap.py/tags`: https://quay.io/repository/biocontainers/hap.py?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hap.py";
+        var versions = ["0.3.14","0.3.13","0.3.12","0.3.12","0.3.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

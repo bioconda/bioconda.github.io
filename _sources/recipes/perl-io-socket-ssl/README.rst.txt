@@ -61,10 +61,23 @@ perl-io-socket-ssl
 .. _`perl-io-socket-ssl/tags`: https://quay.io/repository/biocontainers/perl-io-socket-ssl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-socket-ssl";
+        var versions = ["2.066","2.060","2.056","2.024","2.024"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

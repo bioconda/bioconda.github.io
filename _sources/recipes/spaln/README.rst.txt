@@ -78,10 +78,23 @@ spaln
 .. _`spaln/tags`: https://quay.io/repository/biocontainers/spaln?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "spaln";
+        var versions = ["2.4.5","2.4.4","2.4.03","2.4.03","2.4.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

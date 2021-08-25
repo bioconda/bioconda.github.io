@@ -95,10 +95,23 @@ treesapp
 .. _`treesapp/tags`: https://quay.io/repository/biocontainers/treesapp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "treesapp";
+        var versions = ["0.11.2","0.11.0","0.10.4","0.10.4","0.10.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

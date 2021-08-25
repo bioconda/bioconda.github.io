@@ -63,10 +63,23 @@ perl-module-list
 .. _`perl-module-list/tags`: https://quay.io/repository/biocontainers/perl-module-list?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-list";
+        var versions = ["0.004"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ bioconductor-msbackendmassbank
 .. _`bioconductor-msbackendmassbank/tags`: https://quay.io/repository/biocontainers/bioconductor-msbackendmassbank?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-msbackendmassbank";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

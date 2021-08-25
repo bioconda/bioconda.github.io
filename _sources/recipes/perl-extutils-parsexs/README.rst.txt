@@ -64,10 +64,23 @@ perl-extutils-parsexs
 .. _`perl-extutils-parsexs/tags`: https://quay.io/repository/biocontainers/perl-extutils-parsexs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-parsexs";
+        var versions = ["3.35","3.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ jvarkit-msa2vcf
 .. _`jvarkit-msa2vcf/tags`: https://quay.io/repository/biocontainers/jvarkit-msa2vcf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jvarkit-msa2vcf";
+        var versions = ["201904251722","201904251722"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ mrsfast
 .. _`mrsfast/tags`: https://quay.io/repository/biocontainers/mrsfast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mrsfast";
+        var versions = ["3.4.2","3.4.2","3.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

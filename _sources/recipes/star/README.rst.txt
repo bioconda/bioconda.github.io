@@ -68,10 +68,23 @@ star
 .. _`star/tags`: https://quay.io/repository/biocontainers/star?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "star";
+        var versions = ["2.7.9a","2.7.8a","2.7.8a","2.7.7a","2.7.6a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

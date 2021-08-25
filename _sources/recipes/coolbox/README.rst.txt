@@ -88,10 +88,23 @@ coolbox
 .. _`coolbox/tags`: https://quay.io/repository/biocontainers/coolbox?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "coolbox";
+        var versions = ["0.3.8","0.3.7","0.3.7","0.3.6","0.3.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

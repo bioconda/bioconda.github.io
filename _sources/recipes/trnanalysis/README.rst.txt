@@ -113,10 +113,23 @@ trnanalysis
 .. _`trnanalysis/tags`: https://quay.io/repository/biocontainers/trnanalysis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trnanalysis";
+        var versions = ["0.1.10","0.1.10","0.1.9","0.1.8","0.1.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ tbl2asn
 .. _`tbl2asn/tags`: https://quay.io/repository/biocontainers/tbl2asn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tbl2asn";
+        var versions = ["25.7","25.7","25.6","25.6","25.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

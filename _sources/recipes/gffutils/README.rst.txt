@@ -68,10 +68,23 @@ gffutils
 .. _`gffutils/tags`: https://quay.io/repository/biocontainers/gffutils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gffutils";
+        var versions = ["0.10.1","0.10.1","0.9","0.9","0.8.7.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

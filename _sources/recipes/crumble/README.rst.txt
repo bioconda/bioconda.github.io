@@ -63,10 +63,23 @@ crumble
 .. _`crumble/tags`: https://quay.io/repository/biocontainers/crumble?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crumble";
+        var versions = ["0.8.3","0.8.3","0.8.3","0.8.3","0.8.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

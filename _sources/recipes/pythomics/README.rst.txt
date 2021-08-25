@@ -62,10 +62,23 @@ pythomics
 .. _`pythomics/tags`: https://quay.io/repository/biocontainers/pythomics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pythomics";
+        var versions = ["0.3.46","0.3.46","0.3.46","0.3.42","0.3.42"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

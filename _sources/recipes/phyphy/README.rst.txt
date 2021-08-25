@@ -61,10 +61,23 @@ phyphy
 .. _`phyphy/tags`: https://quay.io/repository/biocontainers/phyphy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phyphy";
+        var versions = ["0.4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

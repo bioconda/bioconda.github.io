@@ -62,10 +62,23 @@ quicksect
 .. _`quicksect/tags`: https://quay.io/repository/biocontainers/quicksect?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "quicksect";
+        var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

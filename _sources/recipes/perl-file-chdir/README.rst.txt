@@ -61,10 +61,23 @@ perl-file-chdir
 .. _`perl-file-chdir/tags`: https://quay.io/repository/biocontainers/perl-file-chdir?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-chdir";
+        var versions = ["0.1010","0.1010","0.1010"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

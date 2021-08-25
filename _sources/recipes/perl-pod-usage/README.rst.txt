@@ -64,10 +64,23 @@ perl-pod-usage
 .. _`perl-pod-usage/tags`: https://quay.io/repository/biocontainers/perl-pod-usage?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pod-usage";
+        var versions = ["1.69","1.69"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

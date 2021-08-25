@@ -67,10 +67,23 @@ popscle
 .. _`popscle/tags`: https://quay.io/repository/biocontainers/popscle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "popscle";
+        var versions = ["0.1beta","0.1beta"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

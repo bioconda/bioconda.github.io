@@ -60,10 +60,23 @@ jali
 .. _`jali/tags`: https://quay.io/repository/biocontainers/jali?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jali";
+        var versions = ["1.3","1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

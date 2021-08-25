@@ -67,10 +67,23 @@ lrphase
 .. _`lrphase/tags`: https://quay.io/repository/biocontainers/lrphase?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lrphase";
+        var versions = ["0.7.6","0.7.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

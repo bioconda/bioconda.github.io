@@ -70,10 +70,23 @@ bioconductor-reactomegraph4r
 .. _`bioconductor-reactomegraph4r/tags`: https://quay.io/repository/biocontainers/bioconductor-reactomegraph4r?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-reactomegraph4r";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

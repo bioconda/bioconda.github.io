@@ -63,10 +63,23 @@ r-ontologyplot
 .. _`r-ontologyplot/tags`: https://quay.io/repository/biocontainers/r-ontologyplot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ontologyplot";
+        var versions = ["1.6","1.6","1.6","1.4","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

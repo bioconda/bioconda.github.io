@@ -69,10 +69,23 @@ seidr
 .. _`seidr/tags`: https://quay.io/repository/biocontainers/seidr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seidr";
+        var versions = ["0.14.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

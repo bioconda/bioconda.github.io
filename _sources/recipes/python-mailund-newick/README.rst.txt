@@ -60,10 +60,23 @@ python-mailund-newick
 .. _`python-mailund-newick/tags`: https://quay.io/repository/biocontainers/python-mailund-newick?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-mailund-newick";
+        var versions = ["1.3","1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

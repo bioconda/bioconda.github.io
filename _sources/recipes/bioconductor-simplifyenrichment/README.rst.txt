@@ -75,10 +75,23 @@ bioconductor-simplifyenrichment
 .. _`bioconductor-simplifyenrichment/tags`: https://quay.io/repository/biocontainers/bioconductor-simplifyenrichment?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-simplifyenrichment";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

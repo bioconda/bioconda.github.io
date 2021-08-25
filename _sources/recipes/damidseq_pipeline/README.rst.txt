@@ -64,10 +64,23 @@ damidseq_pipeline
 .. _`damidseq_pipeline/tags`: https://quay.io/repository/biocontainers/damidseq_pipeline?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "damidseq_pipeline";
+        var versions = ["1.4","1.4","1.4","1.4","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

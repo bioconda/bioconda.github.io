@@ -61,10 +61,23 @@ perl-text-abbrev
 .. _`perl-text-abbrev/tags`: https://quay.io/repository/biocontainers/perl-text-abbrev?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-abbrev";
+        var versions = ["1.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

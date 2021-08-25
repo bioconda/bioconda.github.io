@@ -62,10 +62,23 @@ bioconductor-bsgenome.drerio.ucsc.danrer6
 .. _`bioconductor-bsgenome.drerio.ucsc.danrer6/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.drerio.ucsc.danrer6?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.drerio.ucsc.danrer6";
+        var versions = ["1.4.0","1.4.0","1.4.0","1.4.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

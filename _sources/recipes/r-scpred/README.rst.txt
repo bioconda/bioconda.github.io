@@ -74,10 +74,23 @@ r-scpred
 .. _`r-scpred/tags`: https://quay.io/repository/biocontainers/r-scpred?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-scpred";
+        var versions = ["1.0","1.0","1.0","v1.9.0","v1.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ nanocall
 .. _`nanocall/tags`: https://quay.io/repository/biocontainers/nanocall?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanocall";
+        var versions = ["v0.7.4","v0.7.4","v0.7.4","v0.7.4","v0.6.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

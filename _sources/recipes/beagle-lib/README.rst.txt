@@ -71,10 +71,23 @@ beagle-lib
 .. _`beagle-lib/tags`: https://quay.io/repository/biocontainers/beagle-lib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "beagle-lib";
+        var versions = ["3.1.2","3.1.2","3.1.2","3.1.2","3.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

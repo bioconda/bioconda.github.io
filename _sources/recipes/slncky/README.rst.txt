@@ -64,10 +64,23 @@ slncky
 .. _`slncky/tags`: https://quay.io/repository/biocontainers/slncky?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "slncky";
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

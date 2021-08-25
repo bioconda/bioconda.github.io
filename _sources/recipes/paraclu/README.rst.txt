@@ -63,10 +63,23 @@ paraclu
 .. _`paraclu/tags`: https://quay.io/repository/biocontainers/paraclu?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "paraclu";
+        var versions = ["10","10","9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -75,10 +75,23 @@ regenie
 .. _`regenie/tags`: https://quay.io/repository/biocontainers/regenie?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "regenie";
+        var versions = ["1.0.6.9","1.0.6.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

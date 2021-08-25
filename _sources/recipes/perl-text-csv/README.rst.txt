@@ -61,10 +61,23 @@ perl-text-csv
 .. _`perl-text-csv/tags`: https://quay.io/repository/biocontainers/perl-text-csv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-csv";
+        var versions = ["2.00","1.99","1.97","1.33","1.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

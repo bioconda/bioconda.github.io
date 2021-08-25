@@ -67,10 +67,23 @@ bioconductor-mafdb.gnomadex.r2.1.hs37d5
 .. _`bioconductor-mafdb.gnomadex.r2.1.hs37d5/tags`: https://quay.io/repository/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mafdb.gnomadex.r2.1.hs37d5";
+        var versions = ["3.10.0","3.10.0","3.10.0","3.10.0","3.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

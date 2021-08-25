@@ -60,10 +60,23 @@ sprinkles
 .. _`sprinkles/tags`: https://quay.io/repository/biocontainers/sprinkles?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sprinkles";
+        var versions = ["0.4.6","0.4.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

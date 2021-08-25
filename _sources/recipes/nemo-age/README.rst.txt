@@ -62,10 +62,23 @@ nemo-age
 .. _`nemo-age/tags`: https://quay.io/repository/biocontainers/nemo-age?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nemo-age";
+        var versions = ["0.29.0","0.29.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

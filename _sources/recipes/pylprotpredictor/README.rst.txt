@@ -68,10 +68,23 @@ pylprotpredictor
 .. _`pylprotpredictor/tags`: https://quay.io/repository/biocontainers/pylprotpredictor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pylprotpredictor";
+        var versions = ["1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

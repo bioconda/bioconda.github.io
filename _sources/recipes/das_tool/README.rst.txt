@@ -76,10 +76,23 @@ das_tool
 .. _`das_tool/tags`: https://quay.io/repository/biocontainers/das_tool?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "das_tool";
+        var versions = ["1.1.3","1.1.2","1.1.2","1.1.2","1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

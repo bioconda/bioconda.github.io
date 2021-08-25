@@ -64,10 +64,23 @@ perl-dbd-pg
 .. _`perl-dbd-pg/tags`: https://quay.io/repository/biocontainers/perl-dbd-pg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-dbd-pg";
+        var versions = ["3.8.1","3.8.0","3.7.4","3.5.3","3.5.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -59,10 +59,23 @@ sam
 .. _`sam/tags`: https://quay.io/repository/biocontainers/sam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sam";
+        var versions = ["3.5","3.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ mgltools
 .. _`mgltools/tags`: https://quay.io/repository/biocontainers/mgltools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mgltools";
+        var versions = ["1.5.7","1.5.7","1.5.6","1.5.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

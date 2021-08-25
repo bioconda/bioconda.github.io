@@ -89,10 +89,23 @@ bioconductor-pdatk
 .. _`bioconductor-pdatk/tags`: https://quay.io/repository/biocontainers/bioconductor-pdatk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pdatk";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

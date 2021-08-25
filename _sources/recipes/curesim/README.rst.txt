@@ -61,10 +61,23 @@ curesim
 .. _`curesim/tags`: https://quay.io/repository/biocontainers/curesim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "curesim";
+        var versions = ["1.3","1.3","1.3","1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ malder
 .. _`malder/tags`: https://quay.io/repository/biocontainers/malder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "malder";
+        var versions = ["1.0.1e83d4e","1.0.1e83d4e","1.0.1e83d4e"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

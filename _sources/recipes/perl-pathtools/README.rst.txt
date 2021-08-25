@@ -62,10 +62,23 @@ perl-pathtools
 .. _`perl-pathtools/tags`: https://quay.io/repository/biocontainers/perl-pathtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pathtools";
+        var versions = ["3.75","3.75","3.73","3.73","3.73"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

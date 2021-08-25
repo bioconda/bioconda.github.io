@@ -60,10 +60,23 @@ qcli
 .. _`qcli/tags`: https://quay.io/repository/biocontainers/qcli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "qcli";
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

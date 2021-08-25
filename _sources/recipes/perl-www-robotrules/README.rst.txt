@@ -61,10 +61,23 @@ perl-www-robotrules
 .. _`perl-www-robotrules/tags`: https://quay.io/repository/biocontainers/perl-www-robotrules?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-www-robotrules";
+        var versions = ["6.02","6.02","6.02","6.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-ipc-run3
 .. _`perl-ipc-run3/tags`: https://quay.io/repository/biocontainers/perl-ipc-run3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ipc-run3";
+        var versions = ["0.048"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

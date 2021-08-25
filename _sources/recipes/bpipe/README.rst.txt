@@ -62,10 +62,23 @@ bpipe
 .. _`bpipe/tags`: https://quay.io/repository/biocontainers/bpipe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bpipe";
+        var versions = ["0.9.10","0.9.10","0.9.9.9","0.9.9.8","0.9.9.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

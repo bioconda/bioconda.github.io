@@ -71,10 +71,23 @@ bioconductor-antiprofiles
 .. _`bioconductor-antiprofiles/tags`: https://quay.io/repository/biocontainers/bioconductor-antiprofiles?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-antiprofiles";
+        var versions = ["1.32.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

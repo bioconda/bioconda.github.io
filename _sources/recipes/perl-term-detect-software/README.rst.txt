@@ -62,10 +62,23 @@ perl-term-detect-software
 .. _`perl-term-detect-software/tags`: https://quay.io/repository/biocontainers/perl-term-detect-software?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-term-detect-software";
+        var versions = ["0.21","0.21","0.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

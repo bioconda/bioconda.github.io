@@ -61,10 +61,23 @@ perl-test-base
 .. _`perl-test-base/tags`: https://quay.io/repository/biocontainers/perl-test-base?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-base";
+        var versions = ["0.89","0.88","0.88","0.88"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

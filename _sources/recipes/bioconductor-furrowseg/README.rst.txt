@@ -66,10 +66,23 @@ bioconductor-furrowseg
 .. _`bioconductor-furrowseg/tags`: https://quay.io/repository/biocontainers/bioconductor-furrowseg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-furrowseg";
+        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

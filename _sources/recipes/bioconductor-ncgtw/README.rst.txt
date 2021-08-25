@@ -67,10 +67,23 @@ bioconductor-ncgtw
 .. _`bioconductor-ncgtw/tags`: https://quay.io/repository/biocontainers/bioconductor-ncgtw?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ncgtw";
+        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ cov-lineages
 .. _`cov-lineages/tags`: https://quay.io/repository/biocontainers/cov-lineages?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cov-lineages";
+        var versions = ["2020.05.19.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

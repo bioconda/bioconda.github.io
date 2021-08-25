@@ -66,10 +66,23 @@ perl-bio-asn1-entrezgene
 .. _`perl-bio-asn1-entrezgene/tags`: https://quay.io/repository/biocontainers/perl-bio-asn1-entrezgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-asn1-entrezgene";
+        var versions = ["1.73","1.73","1.73","1.72","1.72"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

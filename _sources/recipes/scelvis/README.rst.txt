@@ -90,10 +90,23 @@ scelvis
 .. _`scelvis/tags`: https://quay.io/repository/biocontainers/scelvis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scelvis";
+        var versions = ["0.8.4","0.8.3","0.8.2","0.8.2","0.8.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

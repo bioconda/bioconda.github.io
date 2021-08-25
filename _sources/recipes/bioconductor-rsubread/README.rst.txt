@@ -73,10 +73,23 @@ bioconductor-rsubread
 .. _`bioconductor-rsubread/tags`: https://quay.io/repository/biocontainers/bioconductor-rsubread?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rsubread";
+        var versions = ["2.6.1","2.4.3","2.4.0","2.2.1","2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

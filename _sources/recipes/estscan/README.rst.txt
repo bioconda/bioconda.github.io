@@ -60,10 +60,23 @@ estscan
 .. _`estscan/tags`: https://quay.io/repository/biocontainers/estscan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "estscan";
+        var versions = ["3.0","3.0","3.0","3.0","3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

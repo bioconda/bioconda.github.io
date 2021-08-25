@@ -75,10 +75,23 @@ dr-disco
 .. _`dr-disco/tags`: https://quay.io/repository/biocontainers/dr-disco?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dr-disco";
+        var versions = ["0.18.0","0.16.3","0.14.0","0.11.0","0.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

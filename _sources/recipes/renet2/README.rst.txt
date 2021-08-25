@@ -67,10 +67,23 @@ renet2
 .. _`renet2/tags`: https://quay.io/repository/biocontainers/renet2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "renet2";
+        var versions = ["1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

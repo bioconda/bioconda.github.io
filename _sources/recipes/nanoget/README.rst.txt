@@ -73,10 +73,23 @@ nanoget
 .. _`nanoget/tags`: https://quay.io/repository/biocontainers/nanoget?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanoget";
+        var versions = ["1.16.1","1.16.0","1.15.0","1.14.0","1.13.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

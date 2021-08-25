@@ -65,10 +65,23 @@ r-rrbgen
 .. _`r-rrbgen/tags`: https://quay.io/repository/biocontainers/r-rrbgen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-rrbgen";
+        var versions = ["0.0.6","0.0.6","0.0.6","0.0.6","0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

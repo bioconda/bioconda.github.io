@@ -63,10 +63,23 @@ bedtk
 .. _`bedtk/tags`: https://quay.io/repository/biocontainers/bedtk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bedtk";
+        var versions = ["0.0.r25.dirty","0.0.r25.dirty"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

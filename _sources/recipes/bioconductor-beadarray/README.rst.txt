@@ -83,10 +83,23 @@ bioconductor-beadarray
 .. _`bioconductor-beadarray/tags`: https://quay.io/repository/biocontainers/bioconductor-beadarray?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-beadarray";
+        var versions = ["2.42.0","2.40.0","2.40.0","2.38.0","2.36.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

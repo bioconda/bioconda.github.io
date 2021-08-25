@@ -86,10 +86,23 @@ ppanggolin
 .. _`ppanggolin/tags`: https://quay.io/repository/biocontainers/ppanggolin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ppanggolin";
+        var versions = ["1.1.136","1.1.136","1.1.131","1.1.96","1.1.85"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

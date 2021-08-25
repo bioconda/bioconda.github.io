@@ -68,10 +68,23 @@ flextaxd
 .. _`flextaxd/tags`: https://quay.io/repository/biocontainers/flextaxd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "flextaxd";
+        var versions = ["0.4.2","0.4.1","0.4.0","0.3.6","0.3.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

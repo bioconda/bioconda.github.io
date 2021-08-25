@@ -63,10 +63,23 @@ bioconductor-hta20probeset.db
 .. _`bioconductor-hta20probeset.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hta20probeset.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hta20probeset.db";
+        var versions = ["8.7.0","8.7.0","8.7.0","8.7.0","8.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

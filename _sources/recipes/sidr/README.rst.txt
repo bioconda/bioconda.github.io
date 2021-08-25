@@ -67,10 +67,23 @@ sidr
 .. _`sidr/tags`: https://quay.io/repository/biocontainers/sidr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sidr";
+        var versions = ["0.0.2a2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

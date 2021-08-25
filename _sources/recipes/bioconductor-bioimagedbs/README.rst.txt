@@ -65,10 +65,23 @@ bioconductor-bioimagedbs
 .. _`bioconductor-bioimagedbs/tags`: https://quay.io/repository/biocontainers/bioconductor-bioimagedbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bioimagedbs";
+        var versions = ["1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

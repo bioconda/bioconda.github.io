@@ -60,10 +60,23 @@ perl-cpan-meta-validator
 .. _`perl-cpan-meta-validator/tags`: https://quay.io/repository/biocontainers/perl-cpan-meta-validator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-cpan-meta-validator";
+        var versions = ["2.140640","2.140640"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

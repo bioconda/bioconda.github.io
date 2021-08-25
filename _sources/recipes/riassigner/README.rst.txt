@@ -66,10 +66,23 @@ riassigner
 .. _`riassigner/tags`: https://quay.io/repository/biocontainers/riassigner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "riassigner";
+        var versions = ["0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

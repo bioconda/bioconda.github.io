@@ -73,10 +73,23 @@ flye
 .. _`flye/tags`: https://quay.io/repository/biocontainers/flye?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "flye";
+        var versions = ["2.9","2.8.3","2.8.3","2.8.2","2.8.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

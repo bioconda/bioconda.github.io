@@ -61,10 +61,23 @@ mathstats
 .. _`mathstats/tags`: https://quay.io/repository/biocontainers/mathstats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mathstats";
+        var versions = ["0.2.6.5","0.2.6.5","0.2.6","0.2.6","0.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

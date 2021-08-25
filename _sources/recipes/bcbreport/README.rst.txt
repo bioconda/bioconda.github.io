@@ -68,10 +68,23 @@ bcbreport
 .. _`bcbreport/tags`: https://quay.io/repository/biocontainers/bcbreport?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bcbreport";
+        var versions = ["0.99.29","0.99.29","0.99.29","0.99.28","0.99.27"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

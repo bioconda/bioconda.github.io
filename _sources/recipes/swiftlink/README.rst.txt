@@ -64,10 +64,23 @@ swiftlink
 .. _`swiftlink/tags`: https://quay.io/repository/biocontainers/swiftlink?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "swiftlink";
+        var versions = ["1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ bedparse
 .. _`bedparse/tags`: https://quay.io/repository/biocontainers/bedparse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bedparse";
+        var versions = ["0.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

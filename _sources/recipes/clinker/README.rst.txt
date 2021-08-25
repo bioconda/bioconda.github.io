@@ -65,6 +65,13 @@ clinker
 .. _`clinker/tags`: https://quay.io/repository/biocontainers/clinker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clinker";
+        var versions = ["1.32","1.32","1.32"];
+    </script>
+
 
 
 
@@ -73,6 +80,12 @@ Notes
 -----
 Wrapper script provided to indicate clinker is a bpipe pipeline\, provide example command from wiki\, and also a passthrough option.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

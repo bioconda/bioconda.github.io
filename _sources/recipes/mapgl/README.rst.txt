@@ -63,10 +63,23 @@ mapgl
 .. _`mapgl/tags`: https://quay.io/repository/biocontainers/mapgl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mapgl";
+        var versions = ["1.3.1","1.3.0","1.2.0","1.0.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

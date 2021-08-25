@@ -60,10 +60,23 @@ proot
 .. _`proot/tags`: https://quay.io/repository/biocontainers/proot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "proot";
+        var versions = ["5.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

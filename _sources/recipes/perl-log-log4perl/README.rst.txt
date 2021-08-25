@@ -62,10 +62,23 @@ perl-log-log4perl
 .. _`perl-log-log4perl/tags`: https://quay.io/repository/biocontainers/perl-log-log4perl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-log-log4perl";
+        var versions = ["1.49","1.47","1.47","1.47"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ mdust
 .. _`mdust/tags`: https://quay.io/repository/biocontainers/mdust?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mdust";
+        var versions = ["2006.10.17","2006.10.17","2006.10.17","2006.10.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

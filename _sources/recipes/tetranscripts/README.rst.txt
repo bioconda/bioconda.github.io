@@ -64,10 +64,23 @@ tetranscripts
 .. _`tetranscripts/tags`: https://quay.io/repository/biocontainers/tetranscripts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tetranscripts";
+        var versions = ["2.2.1","2.2.1","2.2.0","2.2.0","2.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

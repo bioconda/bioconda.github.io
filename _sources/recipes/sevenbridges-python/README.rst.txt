@@ -69,10 +69,23 @@ sevenbridges-python
 .. _`sevenbridges-python/tags`: https://quay.io/repository/biocontainers/sevenbridges-python?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sevenbridges-python";
+        var versions = ["2.5.0","2.4.0","2.3.0","2.2.1","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

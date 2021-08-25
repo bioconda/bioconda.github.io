@@ -72,10 +72,23 @@ bioconductor-limma
 .. _`bioconductor-limma/tags`: https://quay.io/repository/biocontainers/bioconductor-limma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-limma";
+        var versions = ["3.48.0","3.46.0","3.46.0","3.44.1","3.42.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

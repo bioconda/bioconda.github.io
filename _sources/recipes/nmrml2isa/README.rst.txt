@@ -64,10 +64,23 @@ nmrml2isa
 .. _`nmrml2isa/tags`: https://quay.io/repository/biocontainers/nmrml2isa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nmrml2isa";
+        var versions = ["0.3.1","0.3.0","0.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

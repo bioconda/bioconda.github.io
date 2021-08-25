@@ -63,10 +63,23 @@ minialign
 .. _`minialign/tags`: https://quay.io/repository/biocontainers/minialign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "minialign";
+        var versions = ["0.5.3","0.5.3","0.5.3","0.5.2","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

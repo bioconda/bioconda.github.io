@@ -131,10 +131,23 @@ pmx_biobb
 .. _`pmx_biobb/tags`: https://quay.io/repository/biocontainers/pmx_biobb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pmx_biobb";
+        var versions = ["1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

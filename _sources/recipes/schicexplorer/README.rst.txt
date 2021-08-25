@@ -71,10 +71,23 @@ schicexplorer
 .. _`schicexplorer/tags`: https://quay.io/repository/biocontainers/schicexplorer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "schicexplorer";
+        var versions = ["7","6","5","4","3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

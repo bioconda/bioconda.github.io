@@ -67,10 +67,23 @@ super-focus
 .. _`super-focus/tags`: https://quay.io/repository/biocontainers/super-focus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "super-focus";
+        var versions = ["0.35","0.34","0.34","0.33","0.32"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

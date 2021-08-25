@@ -66,10 +66,23 @@ bioconductor-vegamc
 .. _`bioconductor-vegamc/tags`: https://quay.io/repository/biocontainers/bioconductor-vegamc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-vegamc";
+        var versions = ["3.30.0","3.28.0","3.28.0","3.26.0","3.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

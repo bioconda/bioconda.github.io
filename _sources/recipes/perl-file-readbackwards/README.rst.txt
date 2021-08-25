@@ -60,10 +60,23 @@ perl-file-readbackwards
 .. _`perl-file-readbackwards/tags`: https://quay.io/repository/biocontainers/perl-file-readbackwards?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-readbackwards";
+        var versions = ["1.05","1.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

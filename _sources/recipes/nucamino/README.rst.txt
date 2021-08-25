@@ -59,10 +59,23 @@ nucamino
 .. _`nucamino/tags`: https://quay.io/repository/biocontainers/nucamino?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nucamino";
+        var versions = ["0.1.3","0.1.3","0.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

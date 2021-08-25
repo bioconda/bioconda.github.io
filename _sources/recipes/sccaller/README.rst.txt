@@ -64,10 +64,23 @@ sccaller
 .. _`sccaller/tags`: https://quay.io/repository/biocontainers/sccaller?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sccaller";
+        var versions = ["2.0.0","2.0.0","1.21","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

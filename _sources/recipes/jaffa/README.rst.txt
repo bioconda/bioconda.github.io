@@ -73,10 +73,23 @@ jaffa
 .. _`jaffa/tags`: https://quay.io/repository/biocontainers/jaffa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jaffa";
+        var versions = ["2.1","2.00","2.00","1.09","1.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

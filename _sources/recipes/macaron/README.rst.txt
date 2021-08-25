@@ -64,10 +64,23 @@ macaron
 .. _`macaron/tags`: https://quay.io/repository/biocontainers/macaron?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "macaron";
+        var versions = ["1.0","1.0","0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

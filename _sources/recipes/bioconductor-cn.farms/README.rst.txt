@@ -75,10 +75,23 @@ bioconductor-cn.farms
 .. _`bioconductor-cn.farms/tags`: https://quay.io/repository/biocontainers/bioconductor-cn.farms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cn.farms";
+        var versions = ["1.40.0","1.38.0","1.38.0","1.36.0","1.34.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

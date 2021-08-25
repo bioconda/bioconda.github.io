@@ -62,10 +62,23 @@ perl-xml-dom-xpath
 .. _`perl-xml-dom-xpath/tags`: https://quay.io/repository/biocontainers/perl-xml-dom-xpath?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-dom-xpath";
+        var versions = ["0.14","0.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

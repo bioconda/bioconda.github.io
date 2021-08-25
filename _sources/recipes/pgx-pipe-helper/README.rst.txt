@@ -63,10 +63,23 @@ pgx-pipe-helper
 .. _`pgx-pipe-helper/tags`: https://quay.io/repository/biocontainers/pgx-pipe-helper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pgx-pipe-helper";
+        var versions = ["0.0.4","0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

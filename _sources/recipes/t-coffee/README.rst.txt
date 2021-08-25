@@ -91,10 +91,23 @@ t-coffee
 .. _`t-coffee/tags`: https://quay.io/repository/biocontainers/t-coffee?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "t-coffee";
+        var versions = ["13.45.0.4846264","13.45.0.4846264","13.45.0.4846264","13.45.0.4846264","13.39.0.d675aed"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

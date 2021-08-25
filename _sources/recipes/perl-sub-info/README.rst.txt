@@ -62,10 +62,23 @@ perl-sub-info
 .. _`perl-sub-info/tags`: https://quay.io/repository/biocontainers/perl-sub-info?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sub-info";
+        var versions = ["0.002"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

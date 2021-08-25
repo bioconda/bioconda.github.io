@@ -62,10 +62,23 @@ twopaco
 .. _`twopaco/tags`: https://quay.io/repository/biocontainers/twopaco?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "twopaco";
+        var versions = ["0.9.4","0.9.4","0.9.2","0.9.2","0.9.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

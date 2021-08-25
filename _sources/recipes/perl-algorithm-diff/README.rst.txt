@@ -60,10 +60,23 @@ perl-algorithm-diff
 .. _`perl-algorithm-diff/tags`: https://quay.io/repository/biocontainers/perl-algorithm-diff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-algorithm-diff";
+        var versions = ["1.1903","1.1903","1.1903"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

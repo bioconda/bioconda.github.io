@@ -73,10 +73,23 @@ bioconductor-kcsmart
 .. _`bioconductor-kcsmart/tags`: https://quay.io/repository/biocontainers/bioconductor-kcsmart?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-kcsmart";
+        var versions = ["2.50.0","2.48.0","2.48.0","2.46.0","2.44.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ bioconductor-humanchrloc
 .. _`bioconductor-humanchrloc/tags`: https://quay.io/repository/biocontainers/bioconductor-humanchrloc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-humanchrloc";
+        var versions = ["2.1.6","2.1.6","2.1.6","2.1.6","2.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -75,10 +75,23 @@ crossmap
 .. _`crossmap/tags`: https://quay.io/repository/biocontainers/crossmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crossmap";
+        var versions = ["0.5.2","0.4.2","0.4.1","0.3.9","0.3.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

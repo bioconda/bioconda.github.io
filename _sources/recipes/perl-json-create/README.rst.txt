@@ -63,10 +63,23 @@ perl-json-create
 .. _`perl-json-create/tags`: https://quay.io/repository/biocontainers/perl-json-create?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-json-create";
+        var versions = ["0.24","0.24","0.24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ easel
 .. _`easel/tags`: https://quay.io/repository/biocontainers/easel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "easel";
+        var versions = ["0.48","0.47","0.45","0.45"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

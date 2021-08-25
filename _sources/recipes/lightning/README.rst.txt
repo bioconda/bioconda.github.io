@@ -63,10 +63,23 @@ lightning
 .. _`lightning/tags`: https://quay.io/repository/biocontainers/lightning?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lightning";
+        var versions = ["0.2.dev0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

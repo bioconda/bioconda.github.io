@@ -67,10 +67,23 @@ bioconductor-experimenthub
 .. _`bioconductor-experimenthub/tags`: https://quay.io/repository/biocontainers/bioconductor-experimenthub?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-experimenthub";
+        var versions = ["2.0.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

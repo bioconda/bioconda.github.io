@@ -67,10 +67,23 @@ galaxy-parsec
 .. _`galaxy-parsec/tags`: https://quay.io/repository/biocontainers/galaxy-parsec?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-parsec";
+        var versions = ["1.15.0","1.13.0","1.13.0","1.12.0","1.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -76,10 +76,23 @@ bioconductor-biocfilecache
 .. _`bioconductor-biocfilecache/tags`: https://quay.io/repository/biocontainers/bioconductor-biocfilecache?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-biocfilecache";
+        var versions = ["2.0.0","1.14.0","1.14.0","1.12.0","1.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

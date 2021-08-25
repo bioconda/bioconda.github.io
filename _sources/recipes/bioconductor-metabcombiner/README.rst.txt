@@ -70,10 +70,23 @@ bioconductor-metabcombiner
 .. _`bioconductor-metabcombiner/tags`: https://quay.io/repository/biocontainers/bioconductor-metabcombiner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-metabcombiner";
+        var versions = ["1.2.0","1.0.1","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

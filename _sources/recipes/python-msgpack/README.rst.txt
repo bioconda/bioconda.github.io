@@ -63,10 +63,23 @@ python-msgpack
 .. _`python-msgpack/tags`: https://quay.io/repository/biocontainers/python-msgpack?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-msgpack";
+        var versions = ["0.6.1","0.6.1","0.6.1","0.6.1","0.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

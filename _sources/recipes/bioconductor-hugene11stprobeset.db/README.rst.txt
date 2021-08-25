@@ -63,10 +63,23 @@ bioconductor-hugene11stprobeset.db
 .. _`bioconductor-hugene11stprobeset.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hugene11stprobeset.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hugene11stprobeset.db";
+        var versions = ["8.7.0","8.7.0","8.7.0","8.7.0","8.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ glimmer
 .. _`glimmer/tags`: https://quay.io/repository/biocontainers/glimmer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "glimmer";
+        var versions = ["3.02","3.02","3.02","3.02","3.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

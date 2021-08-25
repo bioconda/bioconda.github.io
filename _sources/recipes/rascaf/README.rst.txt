@@ -62,10 +62,23 @@ rascaf
 .. _`rascaf/tags`: https://quay.io/repository/biocontainers/rascaf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rascaf";
+        var versions = ["20161129","20161129","20161129","20161129","20161129"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

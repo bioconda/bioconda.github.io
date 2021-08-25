@@ -63,10 +63,23 @@ bioconductor-isolde
 .. _`bioconductor-isolde/tags`: https://quay.io/repository/biocontainers/bioconductor-isolde?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-isolde";
+        var versions = ["1.20.0","1.15.0","1.14.0","1.12.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

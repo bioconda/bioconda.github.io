@@ -85,10 +85,23 @@ bioconductor-ensembldb
 .. _`bioconductor-ensembldb/tags`: https://quay.io/repository/biocontainers/bioconductor-ensembldb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ensembldb";
+        var versions = ["2.16.0","2.14.0","2.14.0","2.12.1","2.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

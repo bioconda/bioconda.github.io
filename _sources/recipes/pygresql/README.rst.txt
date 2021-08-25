@@ -61,10 +61,23 @@ pygresql
 .. _`pygresql/tags`: https://quay.io/repository/biocontainers/pygresql?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pygresql";
+        var versions = ["5.0.1","5.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

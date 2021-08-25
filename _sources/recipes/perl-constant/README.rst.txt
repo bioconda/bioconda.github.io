@@ -60,10 +60,23 @@ perl-constant
 .. _`perl-constant/tags`: https://quay.io/repository/biocontainers/perl-constant?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-constant";
+        var versions = ["1.33","1.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ ribotaper
 .. _`ribotaper/tags`: https://quay.io/repository/biocontainers/ribotaper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ribotaper";
+        var versions = ["1.3.1","1.3.1a","1.3.1a","1.3.1a","1.3.1a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

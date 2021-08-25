@@ -74,10 +74,23 @@ samplot
 .. _`samplot/tags`: https://quay.io/repository/biocontainers/samplot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "samplot";
+        var versions = ["1.3.0","1.2.0","1.1.6","1.1.5","1.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

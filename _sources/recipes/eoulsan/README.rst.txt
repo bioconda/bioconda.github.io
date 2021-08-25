@@ -61,10 +61,23 @@ eoulsan
 .. _`eoulsan/tags`: https://quay.io/repository/biocontainers/eoulsan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "eoulsan";
+        var versions = ["2.5","2.4","2.4","2.3","2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

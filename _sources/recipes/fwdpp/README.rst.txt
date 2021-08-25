@@ -64,10 +64,23 @@ fwdpp
 .. _`fwdpp/tags`: https://quay.io/repository/biocontainers/fwdpp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fwdpp";
+        var versions = ["0.5.7","0.5.7","0.5.7","0.5.7","0.5.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-test-harness
 .. _`perl-test-harness/tags`: https://quay.io/repository/biocontainers/perl-test-harness?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-harness";
+        var versions = ["3.42","3.36","3.36","3.30","3.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

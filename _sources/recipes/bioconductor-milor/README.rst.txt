@@ -84,10 +84,23 @@ bioconductor-milor
 .. _`bioconductor-milor/tags`: https://quay.io/repository/biocontainers/bioconductor-milor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-milor";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

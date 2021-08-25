@@ -72,10 +72,23 @@ perl-module-fromperlver
 .. _`perl-module-fromperlver/tags`: https://quay.io/repository/biocontainers/perl-module-fromperlver?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-fromperlver";
+        var versions = ["0.008002","0.008002"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

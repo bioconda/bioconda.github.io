@@ -72,10 +72,23 @@ bioconductor-iterativebmasurv
 .. _`bioconductor-iterativebmasurv/tags`: https://quay.io/repository/biocontainers/bioconductor-iterativebmasurv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-iterativebmasurv";
+        var versions = ["1.50.0","1.48.0","1.48.0","1.46.0","1.44.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

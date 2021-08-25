@@ -65,10 +65,23 @@ trinculo
 .. _`trinculo/tags`: https://quay.io/repository/biocontainers/trinculo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trinculo";
+        var versions = ["0.96","0.96","0.96","0.96"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

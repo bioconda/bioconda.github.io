@@ -67,10 +67,23 @@ bioconductor-eisar
 .. _`bioconductor-eisar/tags`: https://quay.io/repository/biocontainers/bioconductor-eisar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-eisar";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

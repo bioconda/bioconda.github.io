@@ -62,10 +62,23 @@ bioconductor-ahwikipathwaysdbs
 .. _`bioconductor-ahwikipathwaysdbs/tags`: https://quay.io/repository/biocontainers/bioconductor-ahwikipathwaysdbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ahwikipathwaysdbs";
+        var versions = ["0.99.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19
 .. _`bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19/tags`: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19";
+        var versions = ["0.6.0","0.6.0","0.6.0","0.6.0","0.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

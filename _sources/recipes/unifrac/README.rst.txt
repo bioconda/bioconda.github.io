@@ -74,10 +74,23 @@ unifrac
 .. _`unifrac/tags`: https://quay.io/repository/biocontainers/unifrac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "unifrac";
+        var versions = ["0.20.2","0.20.2","0.20.1","0.20.0","0.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

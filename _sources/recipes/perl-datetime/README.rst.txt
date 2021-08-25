@@ -71,10 +71,23 @@ perl-datetime
 .. _`perl-datetime/tags`: https://quay.io/repository/biocontainers/perl-datetime?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-datetime";
+        var versions = ["1.42","1.42"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

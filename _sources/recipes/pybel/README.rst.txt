@@ -73,10 +73,23 @@ pybel
 .. _`pybel/tags`: https://quay.io/repository/biocontainers/pybel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pybel";
+        var versions = ["0.13.2","0.9.3","0.9.3","0.5.4","0.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

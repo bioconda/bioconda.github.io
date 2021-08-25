@@ -70,10 +70,23 @@ varfish-cli
 .. _`varfish-cli/tags`: https://quay.io/repository/biocontainers/varfish-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "varfish-cli";
+        var versions = ["0.2.7","0.2.7","0.2.6","0.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

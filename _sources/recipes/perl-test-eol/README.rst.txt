@@ -60,10 +60,23 @@ perl-test-eol
 .. _`perl-test-eol/tags`: https://quay.io/repository/biocontainers/perl-test-eol?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-eol";
+        var versions = ["2.00","1.6","1.6","1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

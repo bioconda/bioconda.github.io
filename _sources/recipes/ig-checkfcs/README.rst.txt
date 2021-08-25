@@ -61,10 +61,23 @@ ig-checkfcs
 .. _`ig-checkfcs/tags`: https://quay.io/repository/biocontainers/ig-checkfcs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ig-checkfcs";
+        var versions = ["1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

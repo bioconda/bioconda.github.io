@@ -69,10 +69,23 @@ miniasm
 .. _`miniasm/tags`: https://quay.io/repository/biocontainers/miniasm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "miniasm";
+        var versions = ["0.3_r179","0.3_r179","0.3_r179","0.2","0.2_r168"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

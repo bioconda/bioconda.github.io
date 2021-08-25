@@ -71,10 +71,23 @@ fastq-screen
 .. _`fastq-screen/tags`: https://quay.io/repository/biocontainers/fastq-screen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastq-screen";
+        var versions = ["0.14.0","0.14.0","0.13.0","0.13.0","0.11.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

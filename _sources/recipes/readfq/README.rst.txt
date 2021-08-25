@@ -61,10 +61,23 @@ readfq
 .. _`readfq/tags`: https://quay.io/repository/biocontainers/readfq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "readfq";
+        var versions = ["2015.08.30","2015.08.30","2015.08.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

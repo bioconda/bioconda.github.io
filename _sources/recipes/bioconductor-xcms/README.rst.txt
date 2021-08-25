@@ -88,10 +88,23 @@ bioconductor-xcms
 .. _`bioconductor-xcms/tags`: https://quay.io/repository/biocontainers/bioconductor-xcms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-xcms";
+        var versions = ["3.14.0","3.12.0","3.12.0","3.10.0","3.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

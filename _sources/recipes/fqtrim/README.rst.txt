@@ -63,10 +63,23 @@ fqtrim
 .. _`fqtrim/tags`: https://quay.io/repository/biocontainers/fqtrim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fqtrim";
+        var versions = ["0.9.7","0.9.7","0.9.7","0.9.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

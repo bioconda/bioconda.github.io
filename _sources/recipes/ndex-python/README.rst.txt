@@ -64,10 +64,23 @@ ndex-python
 .. _`ndex-python/tags`: https://quay.io/repository/biocontainers/ndex-python?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ndex-python";
+        var versions = ["3.0.11.23","3.0.11.23","3.0.11.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ dammet
 .. _`dammet/tags`: https://quay.io/repository/biocontainers/dammet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dammet";
+        var versions = ["1.0.1a","1.0.1a","1.0.1a","1.0.1a","1.0.1a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

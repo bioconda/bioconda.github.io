@@ -61,10 +61,23 @@ realphy
 .. _`realphy/tags`: https://quay.io/repository/biocontainers/realphy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "realphy";
+        var versions = ["1.13","1.13","1.12","1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

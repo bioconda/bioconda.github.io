@@ -70,10 +70,23 @@ bioconductor-genoset
 .. _`bioconductor-genoset/tags`: https://quay.io/repository/biocontainers/bioconductor-genoset?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genoset";
+        var versions = ["1.45.1","1.45.1","1.44.0","1.42.0","1.40.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

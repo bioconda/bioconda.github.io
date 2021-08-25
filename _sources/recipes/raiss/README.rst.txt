@@ -63,10 +63,23 @@ raiss
 .. _`raiss/tags`: https://quay.io/repository/biocontainers/raiss?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "raiss";
+        var versions = ["3.0","2.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

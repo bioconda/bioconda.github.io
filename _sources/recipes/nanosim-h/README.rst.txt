@@ -64,10 +64,23 @@ nanosim-h
 .. _`nanosim-h/tags`: https://quay.io/repository/biocontainers/nanosim-h?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanosim-h";
+        var versions = ["1.1.0.4","1.1.0.4","1.1.0.4","1.1.0.3","1.1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ mhcnames
 .. _`mhcnames/tags`: https://quay.io/repository/biocontainers/mhcnames?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mhcnames";
+        var versions = ["0.4.8","0.4.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

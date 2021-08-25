@@ -70,10 +70,23 @@ perl-ms
 .. _`perl-ms/tags`: https://quay.io/repository/biocontainers/perl-ms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ms";
+        var versions = ["0.206003","0.206003","0.204003","0.204001"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

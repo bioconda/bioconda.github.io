@@ -62,10 +62,23 @@ phylobayes-mpi
 .. _`phylobayes-mpi/tags`: https://quay.io/repository/biocontainers/phylobayes-mpi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phylobayes-mpi";
+        var versions = ["1.8c","1.8c","1.8b"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

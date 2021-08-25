@@ -63,10 +63,23 @@ bioconductor-mu11ksubb.db
 .. _`bioconductor-mu11ksubb.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mu11ksubb.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mu11ksubb.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

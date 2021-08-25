@@ -62,10 +62,23 @@ prank
 .. _`prank/tags`: https://quay.io/repository/biocontainers/prank?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "prank";
+        var versions = ["v.170427","v.170427","v.170427","v.170427","v.170427"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

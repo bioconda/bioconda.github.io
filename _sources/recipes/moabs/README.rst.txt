@@ -80,10 +80,23 @@ moabs
 .. _`moabs/tags`: https://quay.io/repository/biocontainers/moabs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "moabs";
+        var versions = ["1.3.9.6","1.3.9.6","1.3.9.6","1.3.9.5","1.3.9.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ bioconductor-mitoodedata
 .. _`bioconductor-mitoodedata/tags`: https://quay.io/repository/biocontainers/bioconductor-mitoodedata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mitoodedata";
+        var versions = ["1.26.0","1.26.0","1.25.2","1.23.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

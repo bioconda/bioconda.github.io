@@ -71,10 +71,23 @@ python-edlib
 .. _`python-edlib/tags`: https://quay.io/repository/biocontainers/python-edlib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-edlib";
+        var versions = ["1.3.9","1.3.8.post2","1.3.8.post2","1.3.8.post1","1.3.8.post1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

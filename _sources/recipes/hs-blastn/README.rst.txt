@@ -62,10 +62,23 @@ hs-blastn
 .. _`hs-blastn/tags`: https://quay.io/repository/biocontainers/hs-blastn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hs-blastn";
+        var versions = ["0.0.5","0.0.5","0.0.5","0.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

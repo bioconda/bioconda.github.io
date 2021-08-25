@@ -64,10 +64,23 @@ mimodd
 .. _`mimodd/tags`: https://quay.io/repository/biocontainers/mimodd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mimodd";
+        var versions = ["0.1.9","0.1.8","0.1.7.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

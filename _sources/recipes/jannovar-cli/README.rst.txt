@@ -68,10 +68,23 @@ jannovar-cli
 .. _`jannovar-cli/tags`: https://quay.io/repository/biocontainers/jannovar-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jannovar-cli";
+        var versions = ["0.36","0.35","0.35","0.34","0.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

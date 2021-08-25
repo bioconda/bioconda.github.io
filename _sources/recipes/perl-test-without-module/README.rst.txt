@@ -60,10 +60,23 @@ perl-test-without-module
 .. _`perl-test-without-module/tags`: https://quay.io/repository/biocontainers/perl-test-without-module?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-without-module";
+        var versions = ["0.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

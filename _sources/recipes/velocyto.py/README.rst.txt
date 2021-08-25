@@ -75,10 +75,23 @@ velocyto.py
 .. _`velocyto.py/tags`: https://quay.io/repository/biocontainers/velocyto.py?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "velocyto.py";
+        var versions = ["0.17.17","0.17.17","0.17.17","0.17.17","0.17.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

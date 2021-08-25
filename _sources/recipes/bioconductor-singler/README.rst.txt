@@ -74,10 +74,23 @@ bioconductor-singler
 .. _`bioconductor-singler/tags`: https://quay.io/repository/biocontainers/bioconductor-singler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-singler";
+        var versions = ["1.6.1","1.4.1","1.4.0","1.2.2","1.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

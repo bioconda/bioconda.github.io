@@ -60,10 +60,23 @@ perl-ensembl-core
 .. _`perl-ensembl-core/tags`: https://quay.io/repository/biocontainers/perl-ensembl-core?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ensembl-core";
+        var versions = ["98","98"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

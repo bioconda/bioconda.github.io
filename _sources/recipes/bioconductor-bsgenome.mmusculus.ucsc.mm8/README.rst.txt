@@ -62,10 +62,23 @@ bioconductor-bsgenome.mmusculus.ucsc.mm8
 .. _`bioconductor-bsgenome.mmusculus.ucsc.mm8/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mmusculus.ucsc.mm8?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.mmusculus.ucsc.mm8";
+        var versions = ["1.4.0","1.4.0","1.4.0","1.4.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

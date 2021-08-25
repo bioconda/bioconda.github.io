@@ -70,10 +70,23 @@ perl-compress-raw-zlib
 .. _`perl-compress-raw-zlib/tags`: https://quay.io/repository/biocontainers/perl-compress-raw-zlib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-compress-raw-zlib";
+        var versions = ["2.087","2.086","2.086","2.084","2.084"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

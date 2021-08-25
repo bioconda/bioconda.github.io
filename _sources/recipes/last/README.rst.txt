@@ -74,10 +74,23 @@ last
 .. _`last/tags`: https://quay.io/repository/biocontainers/last?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "last";
+        var versions = ["1256","1254","1250","1238","1219"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

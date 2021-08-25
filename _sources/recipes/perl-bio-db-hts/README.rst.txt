@@ -64,10 +64,23 @@ perl-bio-db-hts
 .. _`perl-bio-db-hts/tags`: https://quay.io/repository/biocontainers/perl-bio-db-hts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-db-hts";
+        var versions = ["3.01","3.01","3.01","3.01","2.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

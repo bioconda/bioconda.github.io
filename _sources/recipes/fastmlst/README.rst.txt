@@ -72,10 +72,23 @@ fastmlst
 .. _`fastmlst/tags`: https://quay.io/repository/biocontainers/fastmlst?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastmlst";
+        var versions = ["0.0.15","0.0.14","0.0.13","0.0.12","0.0.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ perl-http-tiny
 .. _`perl-http-tiny/tags`: https://quay.io/repository/biocontainers/perl-http-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-http-tiny";
+        var versions = ["0.076"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

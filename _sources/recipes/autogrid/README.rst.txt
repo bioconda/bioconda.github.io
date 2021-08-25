@@ -62,10 +62,23 @@ autogrid
 .. _`autogrid/tags`: https://quay.io/repository/biocontainers/autogrid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "autogrid";
+        var versions = ["4.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

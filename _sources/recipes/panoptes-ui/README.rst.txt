@@ -66,10 +66,23 @@ panoptes-ui
 .. _`panoptes-ui/tags`: https://quay.io/repository/biocontainers/panoptes-ui?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "panoptes-ui";
+        var versions = ["0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

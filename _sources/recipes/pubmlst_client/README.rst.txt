@@ -60,10 +60,23 @@ pubmlst_client
 .. _`pubmlst_client/tags`: https://quay.io/repository/biocontainers/pubmlst_client?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pubmlst_client";
+        var versions = ["0.2.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

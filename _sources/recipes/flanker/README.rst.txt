@@ -66,10 +66,23 @@ flanker
 .. _`flanker/tags`: https://quay.io/repository/biocontainers/flanker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "flanker";
+        var versions = ["0.1.5","0.1.4","0.1.1","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

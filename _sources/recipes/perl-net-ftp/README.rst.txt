@@ -60,10 +60,23 @@ perl-net-ftp
 .. _`perl-net-ftp/tags`: https://quay.io/repository/biocontainers/perl-net-ftp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-net-ftp";
+        var versions = ["2.79","2.79"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

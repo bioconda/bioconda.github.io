@@ -71,10 +71,23 @@ bioconductor-duoclustering2018
 .. _`bioconductor-duoclustering2018/tags`: https://quay.io/repository/biocontainers/bioconductor-duoclustering2018?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-duoclustering2018";
+        var versions = ["1.10.0","1.8.0","1.8.0","1.6.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

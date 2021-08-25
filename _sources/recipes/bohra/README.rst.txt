@@ -93,10 +93,23 @@ bohra
 .. _`bohra/tags`: https://quay.io/repository/biocontainers/bohra?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bohra";
+        var versions = ["1.2.19","1.2.19","1.2.18","1.2.16","1.2.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

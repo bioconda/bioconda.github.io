@@ -59,10 +59,23 @@ evofold2
 .. _`evofold2/tags`: https://quay.io/repository/biocontainers/evofold2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "evofold2";
+        var versions = ["0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

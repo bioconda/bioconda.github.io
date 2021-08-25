@@ -70,10 +70,23 @@ r-misha
 .. _`r-misha/tags`: https://quay.io/repository/biocontainers/r-misha?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-misha";
+        var versions = ["4.1.0","4.1.0","4.1.0","4.0.11","4.0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

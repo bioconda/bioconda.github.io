@@ -76,10 +76,23 @@ bioconductor-maigespack
 .. _`bioconductor-maigespack/tags`: https://quay.io/repository/biocontainers/bioconductor-maigespack?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-maigespack";
+        var versions = ["1.56.0","1.56.0","1.54.0","1.54.0","1.52.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

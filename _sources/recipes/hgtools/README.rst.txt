@@ -61,10 +61,23 @@ hgtools
 .. _`hgtools/tags`: https://quay.io/repository/biocontainers/hgtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hgtools";
+        var versions = ["8.2.1","8.2.0","8.1.1","8.1.1","8.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

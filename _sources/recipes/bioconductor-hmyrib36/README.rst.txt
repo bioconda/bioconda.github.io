@@ -63,10 +63,23 @@ bioconductor-hmyrib36
 .. _`bioconductor-hmyrib36/tags`: https://quay.io/repository/biocontainers/bioconductor-hmyrib36?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hmyrib36";
+        var versions = ["1.26.0","1.26.0","1.24.0","1.22.0","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

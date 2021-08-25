@@ -63,10 +63,23 @@ bioconductor-txdb.sscrofa.ucsc.susscr3.refgene
 .. _`bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.sscrofa.ucsc.susscr3.refgene";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.11.0","3.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

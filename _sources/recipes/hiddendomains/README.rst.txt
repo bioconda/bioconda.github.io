@@ -65,10 +65,23 @@ hiddendomains
 .. _`hiddendomains/tags`: https://quay.io/repository/biocontainers/hiddendomains?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hiddendomains";
+        var versions = ["3.1","3.1","3.1","3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

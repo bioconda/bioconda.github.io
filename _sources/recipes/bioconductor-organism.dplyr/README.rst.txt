@@ -74,10 +74,23 @@ bioconductor-organism.dplyr
 .. _`bioconductor-organism.dplyr/tags`: https://quay.io/repository/biocontainers/bioconductor-organism.dplyr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-organism.dplyr";
+        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

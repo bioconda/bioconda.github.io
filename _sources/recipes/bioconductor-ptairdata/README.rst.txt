@@ -61,10 +61,23 @@ bioconductor-ptairdata
 .. _`bioconductor-ptairdata/tags`: https://quay.io/repository/biocontainers/bioconductor-ptairdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ptairdata";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

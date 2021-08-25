@@ -63,10 +63,23 @@ bioconductor-yri1kgv
 .. _`bioconductor-yri1kgv/tags`: https://quay.io/repository/biocontainers/bioconductor-yri1kgv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-yri1kgv";
+        var versions = ["0.32.0","0.32.0","0.30.0","0.28.0","0.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

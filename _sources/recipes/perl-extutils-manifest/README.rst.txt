@@ -60,10 +60,23 @@ perl-extutils-manifest
 .. _`perl-extutils-manifest/tags`: https://quay.io/repository/biocontainers/perl-extutils-manifest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-manifest";
+        var versions = ["1.72","1.71","1.70","1.70","1.70"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

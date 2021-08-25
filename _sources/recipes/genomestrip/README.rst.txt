@@ -63,10 +63,23 @@ genomestrip
 .. _`genomestrip/tags`: https://quay.io/repository/biocontainers/genomestrip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genomestrip";
+        var versions = ["2.00.1833","2.00.1833","2.00.1833","2.00.1833","2.00.1833"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

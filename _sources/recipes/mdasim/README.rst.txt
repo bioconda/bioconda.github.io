@@ -62,10 +62,23 @@ mdasim
 .. _`mdasim/tags`: https://quay.io/repository/biocontainers/mdasim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mdasim";
+        var versions = ["2.1.1","2.1.1","2.1.1","2.1.0","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

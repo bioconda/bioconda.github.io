@@ -65,6 +65,13 @@ biotransformer
 .. _`biotransformer/tags`: https://quay.io/repository/biocontainers/biotransformer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biotransformer";
+        var versions = ["1.1.5","1.1.5","1.1.5"];
+    </script>
+
 
 
 
@@ -79,6 +86,12 @@ set globally this will take precedence.
 For example run it with \"biotransformer \-Xms512m \-Xmx1g\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

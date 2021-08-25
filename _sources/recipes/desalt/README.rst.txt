@@ -69,10 +69,23 @@ desalt
 .. _`desalt/tags`: https://quay.io/repository/biocontainers/desalt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "desalt";
+        var versions = ["1.5.6","1.5.6","1.5.5","1.5.4","1.5.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

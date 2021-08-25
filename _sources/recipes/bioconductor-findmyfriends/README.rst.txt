@@ -82,10 +82,23 @@ bioconductor-findmyfriends
 .. _`bioconductor-findmyfriends/tags`: https://quay.io/repository/biocontainers/bioconductor-findmyfriends?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-findmyfriends";
+        var versions = ["1.22.0","1.20.0","1.20.0","1.18.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

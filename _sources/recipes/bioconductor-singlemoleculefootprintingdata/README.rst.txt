@@ -62,10 +62,23 @@ bioconductor-singlemoleculefootprintingdata
 .. _`bioconductor-singlemoleculefootprintingdata/tags`: https://quay.io/repository/biocontainers/bioconductor-singlemoleculefootprintingdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-singlemoleculefootprintingdata";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

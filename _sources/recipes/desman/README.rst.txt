@@ -77,10 +77,23 @@ desman
 .. _`desman/tags`: https://quay.io/repository/biocontainers/desman?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "desman";
+        var versions = ["2.1","2.1","2.1","2.1","2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

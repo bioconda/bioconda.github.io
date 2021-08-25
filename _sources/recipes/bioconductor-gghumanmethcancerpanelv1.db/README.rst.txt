@@ -64,10 +64,23 @@ bioconductor-gghumanmethcancerpanelv1.db
 .. _`bioconductor-gghumanmethcancerpanelv1.db/tags`: https://quay.io/repository/biocontainers/bioconductor-gghumanmethcancerpanelv1.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gghumanmethcancerpanelv1.db";
+        var versions = ["1.4.1","1.4.1","1.4.1","1.4.1","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -70,10 +70,23 @@ illumina-interop
 .. _`illumina-interop/tags`: https://quay.io/repository/biocontainers/illumina-interop?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "illumina-interop";
+        var versions = ["1.1.23","1.1.22","1.1.21","1.1.21","1.1.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ metavelvet
 .. _`metavelvet/tags`: https://quay.io/repository/biocontainers/metavelvet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metavelvet";
+        var versions = ["1.2.02","1.2.02","1.1.01","1.1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

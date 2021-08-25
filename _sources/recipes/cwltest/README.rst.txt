@@ -70,10 +70,23 @@ cwltest
 .. _`cwltest/tags`: https://quay.io/repository/biocontainers/cwltest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cwltest";
+        var versions = ["2.0.20200220223835","1.0.20190906212748","1.0.20190228134645","1.0.20180601100346","1.0.20180209171722"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

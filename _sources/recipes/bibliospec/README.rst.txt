@@ -60,10 +60,23 @@ bibliospec
 .. _`bibliospec/tags`: https://quay.io/repository/biocontainers/bibliospec?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bibliospec";
+        var versions = ["1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

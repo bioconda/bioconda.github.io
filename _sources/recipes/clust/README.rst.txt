@@ -68,10 +68,23 @@ clust
 .. _`clust/tags`: https://quay.io/repository/biocontainers/clust?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clust";
+        var versions = ["1.12.0","1.10.12","1.10.10","1.10.8","1.10.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

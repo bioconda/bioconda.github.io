@@ -64,10 +64,23 @@ locus_processing
 .. _`locus_processing/tags`: https://quay.io/repository/biocontainers/locus_processing?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "locus_processing";
+        var versions = ["0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ perl-mime-lite
 .. _`perl-mime-lite/tags`: https://quay.io/repository/biocontainers/perl-mime-lite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mime-lite";
+        var versions = ["3.030","3.030"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

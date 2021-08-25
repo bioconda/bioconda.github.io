@@ -66,10 +66,23 @@ perl-file-temp
 .. _`perl-file-temp/tags`: https://quay.io/repository/biocontainers/perl-file-temp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-temp";
+        var versions = ["0.2304","0.2304","0.2304"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

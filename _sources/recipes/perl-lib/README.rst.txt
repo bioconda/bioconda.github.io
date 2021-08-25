@@ -60,10 +60,23 @@ perl-lib
 .. _`perl-lib/tags`: https://quay.io/repository/biocontainers/perl-lib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-lib";
+        var versions = ["0.63","0.63"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

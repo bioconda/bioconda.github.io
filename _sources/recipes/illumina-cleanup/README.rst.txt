@@ -65,10 +65,23 @@ illumina-cleanup
 .. _`illumina-cleanup/tags`: https://quay.io/repository/biocontainers/illumina-cleanup?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "illumina-cleanup";
+        var versions = ["1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ perl-xml-libxml
 .. _`perl-xml-libxml/tags`: https://quay.io/repository/biocontainers/perl-xml-libxml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-libxml";
+        var versions = ["2.0132","2.0132","2.0124"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

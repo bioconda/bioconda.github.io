@@ -66,10 +66,23 @@ bolt-lmm
 .. _`bolt-lmm/tags`: https://quay.io/repository/biocontainers/bolt-lmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bolt-lmm";
+        var versions = ["2.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

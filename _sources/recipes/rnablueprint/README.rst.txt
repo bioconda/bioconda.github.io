@@ -64,10 +64,23 @@ rnablueprint
 .. _`rnablueprint/tags`: https://quay.io/repository/biocontainers/rnablueprint?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rnablueprint";
+        var versions = ["1.3.2","1.3.2","1.3.2","1.3.0","1.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

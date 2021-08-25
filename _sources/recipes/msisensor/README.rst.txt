@@ -65,10 +65,23 @@ msisensor
 .. _`msisensor/tags`: https://quay.io/repository/biocontainers/msisensor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "msisensor";
+        var versions = ["0.5","0.5","0.5","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ knot-asm-analysis
 .. _`knot-asm-analysis/tags`: https://quay.io/repository/biocontainers/knot-asm-analysis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "knot-asm-analysis";
+        var versions = ["1.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

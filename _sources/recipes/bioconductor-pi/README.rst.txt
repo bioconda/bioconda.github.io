@@ -86,10 +86,23 @@ bioconductor-pi
 .. _`bioconductor-pi/tags`: https://quay.io/repository/biocontainers/bioconductor-pi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pi";
+        var versions = ["2.4.0","2.2.0","2.0.0","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

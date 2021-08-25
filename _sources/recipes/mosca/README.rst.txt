@@ -127,10 +127,23 @@ mosca
 .. _`mosca/tags`: https://quay.io/repository/biocontainers/mosca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mosca";
+        var versions = ["1.3.5","1.3.4","1.3.3","1.3.2","1.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

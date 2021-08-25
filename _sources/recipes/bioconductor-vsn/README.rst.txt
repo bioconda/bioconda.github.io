@@ -77,10 +77,23 @@ bioconductor-vsn
 .. _`bioconductor-vsn/tags`: https://quay.io/repository/biocontainers/bioconductor-vsn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-vsn";
+        var versions = ["3.60.0","3.58.0","3.58.0","3.56.0","3.54.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

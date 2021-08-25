@@ -68,10 +68,23 @@ ruffus
 .. _`ruffus/tags`: https://quay.io/repository/biocontainers/ruffus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ruffus";
+        var versions = ["2.8.4","2.8.4","2.8.3","2.8.2","2.8.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

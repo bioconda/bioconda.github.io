@@ -61,10 +61,23 @@ igvtools
 .. _`igvtools/tags`: https://quay.io/repository/biocontainers/igvtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "igvtools";
+        var versions = ["2.5.3","2.5.3","2.3.93","2.3.75","2.3.48"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

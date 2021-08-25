@@ -70,10 +70,23 @@ bioconductor-illuminahumanmethylation450kmanifest
 .. _`bioconductor-illuminahumanmethylation450kmanifest/tags`: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation450kmanifest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-illuminahumanmethylation450kmanifest";
+        var versions = ["0.4.0","0.4.0","0.4.0","0.4.0","0.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

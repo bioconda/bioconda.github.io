@@ -72,10 +72,23 @@ bioconductor-genomicozone
 .. _`bioconductor-genomicozone/tags`: https://quay.io/repository/biocontainers/bioconductor-genomicozone?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genomicozone";
+        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

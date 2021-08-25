@@ -63,10 +63,23 @@ ezclermont
 .. _`ezclermont/tags`: https://quay.io/repository/biocontainers/ezclermont?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ezclermont";
+        var versions = ["0.6.3","0.6.2","0.6.1","0.5.0","0.4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

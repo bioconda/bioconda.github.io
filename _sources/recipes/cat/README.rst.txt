@@ -71,10 +71,23 @@ cat
 .. _`cat/tags`: https://quay.io/repository/biocontainers/cat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cat";
+        var versions = ["5.2.3","5.2.3","5.2.2","5.2.1","5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

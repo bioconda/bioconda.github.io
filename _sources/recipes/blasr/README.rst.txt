@@ -67,10 +67,23 @@ blasr
 .. _`blasr/tags`: https://quay.io/repository/biocontainers/blasr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "blasr";
+        var versions = ["5.3.5","5.3.3","5.3.3","5.3.3","5.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

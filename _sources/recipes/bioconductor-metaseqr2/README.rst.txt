@@ -111,10 +111,23 @@ bioconductor-metaseqr2
 .. _`bioconductor-metaseqr2/tags`: https://quay.io/repository/biocontainers/bioconductor-metaseqr2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-metaseqr2";
+        var versions = ["1.4.0","1.4.0","1.2.0","1.2.0","1.0.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

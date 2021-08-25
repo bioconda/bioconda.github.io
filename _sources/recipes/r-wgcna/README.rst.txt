@@ -84,10 +84,23 @@ r-wgcna
 .. _`r-wgcna/tags`: https://quay.io/repository/biocontainers/r-wgcna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-wgcna";
+        var versions = ["1.69","1.69","1.69","1.69","1.69"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

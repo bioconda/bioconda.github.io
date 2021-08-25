@@ -62,10 +62,23 @@ ntm-profiler
 .. _`ntm-profiler/tags`: https://quay.io/repository/biocontainers/ntm-profiler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ntm-profiler";
+        var versions = ["0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

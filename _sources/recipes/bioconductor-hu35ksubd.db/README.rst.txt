@@ -63,10 +63,23 @@ bioconductor-hu35ksubd.db
 .. _`bioconductor-hu35ksubd.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hu35ksubd.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hu35ksubd.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

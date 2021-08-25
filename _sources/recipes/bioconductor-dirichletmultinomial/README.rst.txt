@@ -76,10 +76,23 @@ bioconductor-dirichletmultinomial
 .. _`bioconductor-dirichletmultinomial/tags`: https://quay.io/repository/biocontainers/bioconductor-dirichletmultinomial?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-dirichletmultinomial";
+        var versions = ["1.34.0","1.32.0","1.32.0","1.30.0","1.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

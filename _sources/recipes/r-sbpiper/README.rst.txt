@@ -70,10 +70,23 @@ r-sbpiper
 .. _`r-sbpiper/tags`: https://quay.io/repository/biocontainers/r-sbpiper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-sbpiper";
+        var versions = ["1.9.0","1.9.0","1.9.0","1.9.0","1.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

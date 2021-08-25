@@ -68,10 +68,23 @@ bioconductor-pd.xenopus.laevis
 .. _`bioconductor-pd.xenopus.laevis/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.xenopus.laevis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.xenopus.laevis";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

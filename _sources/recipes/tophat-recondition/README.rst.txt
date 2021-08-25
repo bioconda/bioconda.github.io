@@ -62,10 +62,23 @@ tophat-recondition
 .. _`tophat-recondition/tags`: https://quay.io/repository/biocontainers/tophat-recondition?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tophat-recondition";
+        var versions = ["1.4","1.4","1.4","1.4","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

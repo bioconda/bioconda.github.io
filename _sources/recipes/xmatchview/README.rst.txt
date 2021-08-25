@@ -65,10 +65,23 @@ xmatchview
 .. _`xmatchview/tags`: https://quay.io/repository/biocontainers/xmatchview?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "xmatchview";
+        var versions = ["1.2.5","1.2.5","1.2.4","1.2.2","1.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

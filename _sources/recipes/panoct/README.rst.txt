@@ -60,10 +60,23 @@ panoct
 .. _`panoct/tags`: https://quay.io/repository/biocontainers/panoct?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "panoct";
+        var versions = ["3.23","3.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

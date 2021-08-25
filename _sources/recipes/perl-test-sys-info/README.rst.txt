@@ -64,10 +64,23 @@ perl-test-sys-info
 .. _`perl-test-sys-info/tags`: https://quay.io/repository/biocontainers/perl-test-sys-info?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-sys-info";
+        var versions = ["0.23","0.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

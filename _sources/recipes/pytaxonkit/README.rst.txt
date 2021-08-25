@@ -63,10 +63,23 @@ pytaxonkit
 .. _`pytaxonkit/tags`: https://quay.io/repository/biocontainers/pytaxonkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pytaxonkit";
+        var versions = ["0.7.2","0.6.1","0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

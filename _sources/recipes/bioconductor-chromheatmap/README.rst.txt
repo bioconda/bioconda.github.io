@@ -68,10 +68,23 @@ bioconductor-chromheatmap
 .. _`bioconductor-chromheatmap/tags`: https://quay.io/repository/biocontainers/bioconductor-chromheatmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-chromheatmap";
+        var versions = ["1.46.0","1.44.0","1.44.0","1.42.0","1.40.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

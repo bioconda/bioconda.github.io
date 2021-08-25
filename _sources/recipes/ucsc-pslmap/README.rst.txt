@@ -65,10 +65,23 @@ ucsc-pslmap
 .. _`ucsc-pslmap/tags`: https://quay.io/repository/biocontainers/ucsc-pslmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-pslmap";
+        var versions = ["366","357","357","357","332"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ perl-b-hooks-endofscope
 .. _`perl-b-hooks-endofscope/tags`: https://quay.io/repository/biocontainers/perl-b-hooks-endofscope?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-b-hooks-endofscope";
+        var versions = ["0.21","0.21","0.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

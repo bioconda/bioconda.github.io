@@ -62,10 +62,23 @@ bioconductor-ye6100subacdf
 .. _`bioconductor-ye6100subacdf/tags`: https://quay.io/repository/biocontainers/bioconductor-ye6100subacdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ye6100subacdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

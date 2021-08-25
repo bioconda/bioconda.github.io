@@ -63,10 +63,23 @@ perl-file-remove
 .. _`perl-file-remove/tags`: https://quay.io/repository/biocontainers/perl-file-remove?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-remove";
+        var versions = ["1.57","1.57","1.57"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

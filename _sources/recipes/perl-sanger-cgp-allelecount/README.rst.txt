@@ -65,10 +65,23 @@ perl-sanger-cgp-allelecount
 .. _`perl-sanger-cgp-allelecount/tags`: https://quay.io/repository/biocontainers/perl-sanger-cgp-allelecount?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sanger-cgp-allelecount";
+        var versions = ["4.2.1","4.1.0","4.0.0","4.0.0","4.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

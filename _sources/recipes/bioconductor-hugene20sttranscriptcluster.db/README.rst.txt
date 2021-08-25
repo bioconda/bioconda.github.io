@@ -63,10 +63,23 @@ bioconductor-hugene20sttranscriptcluster.db
 .. _`bioconductor-hugene20sttranscriptcluster.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hugene20sttranscriptcluster.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hugene20sttranscriptcluster.db";
+        var versions = ["8.7.0","8.7.0","8.7.0","8.7.0","8.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

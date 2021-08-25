@@ -69,10 +69,23 @@ dimspy
 .. _`dimspy/tags`: https://quay.io/repository/biocontainers/dimspy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dimspy";
+        var versions = ["2.0.0","2.0.0","1.4.0","1.3.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -88,10 +88,23 @@ r-liger
 .. _`r-liger/tags`: https://quay.io/repository/biocontainers/r-liger?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-liger";
+        var versions = ["0.5.0.9000","0.5.0.9000","0.5.0.9000","0.5.0.9000","0.4.2.9000"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ lca
 .. _`lca/tags`: https://quay.io/repository/biocontainers/lca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lca";
+        var versions = ["0.21","0.21","0.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

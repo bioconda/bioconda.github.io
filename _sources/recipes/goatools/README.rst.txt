@@ -77,10 +77,23 @@ goatools
 .. _`goatools/tags`: https://quay.io/repository/biocontainers/goatools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "goatools";
+        var versions = ["1.1.6","1.1.5","1.0.15","1.0.14","1.0.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

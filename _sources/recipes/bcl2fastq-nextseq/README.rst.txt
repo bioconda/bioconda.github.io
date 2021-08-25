@@ -65,10 +65,23 @@ bcl2fastq-nextseq
 .. _`bcl2fastq-nextseq/tags`: https://quay.io/repository/biocontainers/bcl2fastq-nextseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bcl2fastq-nextseq";
+        var versions = ["1.3.0","1.2.6","1.2.4","1.2.4","1.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

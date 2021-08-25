@@ -72,10 +72,23 @@ biobb_md
 .. _`biobb_md/tags`: https://quay.io/repository/biocontainers/biobb_md?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biobb_md";
+        var versions = ["3.6.0","3.5.1","3.5.0","3.0.1","3.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

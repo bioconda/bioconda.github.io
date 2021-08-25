@@ -64,10 +64,23 @@ taxtastic
 .. _`taxtastic/tags`: https://quay.io/repository/biocontainers/taxtastic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "taxtastic";
+        var versions = ["0.9.2","0.9.1","0.8.11","0.8.9","0.8.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

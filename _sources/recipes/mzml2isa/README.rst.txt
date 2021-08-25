@@ -74,10 +74,23 @@ mzml2isa
 .. _`mzml2isa/tags`: https://quay.io/repository/biocontainers/mzml2isa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mzml2isa";
+        var versions = ["1.0.3","1.0.3","1.0.2","1.0.2","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

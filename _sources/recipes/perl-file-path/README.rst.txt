@@ -61,10 +61,23 @@ perl-file-path
 .. _`perl-file-path/tags`: https://quay.io/repository/biocontainers/perl-file-path?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-path";
+        var versions = ["2.16","2.15","2.15","2.12","2.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

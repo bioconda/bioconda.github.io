@@ -67,10 +67,23 @@ bioconductor-cfdnapro
 .. _`bioconductor-cfdnapro/tags`: https://quay.io/repository/biocontainers/bioconductor-cfdnapro?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cfdnapro";
+        var versions = ["1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ break-point-inspector
 .. _`break-point-inspector/tags`: https://quay.io/repository/biocontainers/break-point-inspector?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "break-point-inspector";
+        var versions = ["1.5","1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

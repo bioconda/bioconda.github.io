@@ -60,10 +60,23 @@ perl-test-deep
 .. _`perl-test-deep/tags`: https://quay.io/repository/biocontainers/perl-test-deep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-deep";
+        var versions = ["1.128","1.128","1.120","1.120","1.120"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

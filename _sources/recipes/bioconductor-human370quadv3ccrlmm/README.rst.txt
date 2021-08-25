@@ -61,10 +61,23 @@ bioconductor-human370quadv3ccrlmm
 .. _`bioconductor-human370quadv3ccrlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-human370quadv3ccrlmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-human370quadv3ccrlmm";
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

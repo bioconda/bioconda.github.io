@@ -82,10 +82,23 @@ bioconductor-linnorm
 .. _`bioconductor-linnorm/tags`: https://quay.io/repository/biocontainers/bioconductor-linnorm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-linnorm";
+        var versions = ["2.16.0","2.14.0","2.14.0","2.12.0","2.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

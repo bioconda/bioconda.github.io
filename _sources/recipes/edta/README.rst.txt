@@ -91,10 +91,23 @@ edta
 .. _`edta/tags`: https://quay.io/repository/biocontainers/edta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "edta";
+        var versions = ["1.9.6","1.9.6","1.9.6","1.9.5","1.9.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

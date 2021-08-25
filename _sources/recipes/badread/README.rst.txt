@@ -65,10 +65,23 @@ badread
 .. _`badread/tags`: https://quay.io/repository/biocontainers/badread?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "badread";
+        var versions = ["0.2.0","0.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,6 +61,13 @@ revtrans
 .. _`revtrans/tags`: https://quay.io/repository/biocontainers/revtrans?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "revtrans";
+        var versions = ["1.4","1.4"];
+    </script>
+
 
 
 
@@ -69,6 +76,12 @@ Notes
 -----
 This package includes a modified version of the program named \'revtrans\_jarmo.py\' that works with peptide fragments instead of full length sequences.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

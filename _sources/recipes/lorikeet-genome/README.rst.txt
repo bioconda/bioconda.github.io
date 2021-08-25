@@ -88,10 +88,23 @@ lorikeet-genome
 .. _`lorikeet-genome/tags`: https://quay.io/repository/biocontainers/lorikeet-genome?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lorikeet-genome";
+        var versions = ["0.5.0","0.4.0","0.3.7","0.3.7","0.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -81,10 +81,23 @@ pymisc-utils
 .. _`pymisc-utils/tags`: https://quay.io/repository/biocontainers/pymisc-utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pymisc-utils";
+        var versions = ["0.2.11","0.2.11","0.2.11","0.2.11","0.2.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

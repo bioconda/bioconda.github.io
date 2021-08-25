@@ -63,10 +63,23 @@ jpredapi
 .. _`jpredapi/tags`: https://quay.io/repository/biocontainers/jpredapi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jpredapi";
+        var versions = ["1.5.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

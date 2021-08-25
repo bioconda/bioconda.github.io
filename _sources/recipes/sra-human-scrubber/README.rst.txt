@@ -61,10 +61,23 @@ sra-human-scrubber
 .. _`sra-human-scrubber/tags`: https://quay.io/repository/biocontainers/sra-human-scrubber?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sra-human-scrubber";
+        var versions = ["1.0.2021_05_05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

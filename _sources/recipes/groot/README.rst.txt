@@ -68,10 +68,23 @@ groot
 .. _`groot/tags`: https://quay.io/repository/biocontainers/groot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "groot";
+        var versions = ["1.1.2","1.1.2","1.1.0","1.0.2","0.8.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

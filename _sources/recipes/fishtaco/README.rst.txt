@@ -66,6 +66,13 @@ fishtaco
 .. _`fishtaco/tags`: https://quay.io/repository/biocontainers/fishtaco?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fishtaco";
+        var versions = ["1.0.5","1.0.5","1.0.5"];
+    </script>
+
 
 
 
@@ -74,6 +81,12 @@ Notes
 -----
 With FishTaco 1.1.0 the license has been changed such that 1.1.0 and 1.1.1 cannot be distributed in the Bioconda channel. DO NOT update the recipe to those versions\! See https\:\/\/github.com\/borenstein\-lab\/fishtaco\/issues\/2.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

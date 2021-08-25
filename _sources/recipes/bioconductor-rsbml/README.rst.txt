@@ -67,10 +67,23 @@ bioconductor-rsbml
 .. _`bioconductor-rsbml/tags`: https://quay.io/repository/biocontainers/bioconductor-rsbml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rsbml";
+        var versions = ["2.50.0","2.48.0","2.48.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

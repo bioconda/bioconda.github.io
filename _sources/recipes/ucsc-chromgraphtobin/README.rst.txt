@@ -65,10 +65,23 @@ ucsc-chromgraphtobin
 .. _`ucsc-chromgraphtobin/tags`: https://quay.io/repository/biocontainers/ucsc-chromgraphtobin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-chromgraphtobin";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

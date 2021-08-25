@@ -64,10 +64,23 @@ amplicon_coverage_plot
 .. _`amplicon_coverage_plot/tags`: https://quay.io/repository/biocontainers/amplicon_coverage_plot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "amplicon_coverage_plot";
+        var versions = ["0.3.1","0.3.0","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

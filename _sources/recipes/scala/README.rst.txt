@@ -60,10 +60,23 @@ scala
 .. _`scala/tags`: https://quay.io/repository/biocontainers/scala?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scala";
+        var versions = ["2.11.8","2.11.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ bioconductor-anf
 .. _`bioconductor-anf/tags`: https://quay.io/repository/biocontainers/bioconductor-anf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-anf";
+        var versions = ["1.13.0","1.12.0","1.12.0","1.10.0","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

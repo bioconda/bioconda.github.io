@@ -76,10 +76,23 @@ perl-uri
 .. _`perl-uri/tags`: https://quay.io/repository/biocontainers/perl-uri?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-uri";
+        var versions = ["1.76","1.74","1.71","1.71","1.71"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-proc-fork
 .. _`perl-proc-fork/tags`: https://quay.io/repository/biocontainers/perl-proc-fork?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-proc-fork";
+        var versions = ["0.806","0.804","0.804"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

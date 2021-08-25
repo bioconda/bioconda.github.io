@@ -77,10 +77,23 @@ oncotator
 .. _`oncotator/tags`: https://quay.io/repository/biocontainers/oncotator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "oncotator";
+        var versions = ["1.9.9.0","1.9.9.0","1.9.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -80,10 +80,23 @@ bioconductor-mzr
 .. _`bioconductor-mzr/tags`: https://quay.io/repository/biocontainers/bioconductor-mzr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mzr";
+        var versions = ["2.26.0","2.24.1","2.24.0","2.22.0","2.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

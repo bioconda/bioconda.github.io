@@ -68,6 +68,13 @@ pantools
 .. _`pantools/tags`: https://quay.io/repository/biocontainers/pantools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pantools";
+        var versions = ["3.1.0","3.1.0","2.0.0","1.2","1.2"];
+    </script>
+
 
 
 
@@ -82,6 +89,12 @@ set globally this will take precedence.
 For example run it with \"pantools \-Xms512m \-Xmx1g\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

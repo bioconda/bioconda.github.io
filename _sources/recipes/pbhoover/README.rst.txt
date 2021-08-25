@@ -66,10 +66,23 @@ pbhoover
 .. _`pbhoover/tags`: https://quay.io/repository/biocontainers/pbhoover?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pbhoover";
+        var versions = ["1.0.7","1.0.7","1.0.7","1.0.7","1.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

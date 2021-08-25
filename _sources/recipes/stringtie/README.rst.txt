@@ -72,10 +72,23 @@ stringtie
 .. _`stringtie/tags`: https://quay.io/repository/biocontainers/stringtie?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stringtie";
+        var versions = ["2.1.7","2.1.6","2.1.5","2.1.5","2.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

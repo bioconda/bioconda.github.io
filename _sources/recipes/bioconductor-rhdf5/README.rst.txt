@@ -75,10 +75,23 @@ bioconductor-rhdf5
 .. _`bioconductor-rhdf5/tags`: https://quay.io/repository/biocontainers/bioconductor-rhdf5?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rhdf5";
+        var versions = ["2.36.0","2.34.0","2.34.0","2.32.0","2.30.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

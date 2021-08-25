@@ -70,10 +70,23 @@ r-genomictools
 .. _`r-genomictools/tags`: https://quay.io/repository/biocontainers/r-genomictools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-genomictools";
+        var versions = ["0.2.9.7","0.2.9.7","0.2.9.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

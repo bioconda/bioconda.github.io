@@ -74,10 +74,23 @@ gatk
 .. _`gatk/tags`: https://quay.io/repository/biocontainers/gatk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gatk";
+        var versions = ["3.8","3.8","3.8","3.8","3.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

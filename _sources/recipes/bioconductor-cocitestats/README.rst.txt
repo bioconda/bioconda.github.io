@@ -62,10 +62,23 @@ bioconductor-cocitestats
 .. _`bioconductor-cocitestats/tags`: https://quay.io/repository/biocontainers/bioconductor-cocitestats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cocitestats";
+        var versions = ["1.64.0","1.62.0","1.62.0","1.60.0","1.58.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

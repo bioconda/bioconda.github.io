@@ -68,10 +68,23 @@ isescan
 .. _`isescan/tags`: https://quay.io/repository/biocontainers/isescan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "isescan";
+        var versions = ["1.7.2.3","1.7.2.2.2","1.7.2.2.1","1.7.2.1","1.7.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

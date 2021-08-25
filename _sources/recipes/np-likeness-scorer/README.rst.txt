@@ -62,10 +62,23 @@ np-likeness-scorer
 .. _`np-likeness-scorer/tags`: https://quay.io/repository/biocontainers/np-likeness-scorer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "np-likeness-scorer";
+        var versions = ["2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

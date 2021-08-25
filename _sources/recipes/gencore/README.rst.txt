@@ -63,10 +63,23 @@ gencore
 .. _`gencore/tags`: https://quay.io/repository/biocontainers/gencore?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gencore";
+        var versions = ["0.13.0","0.13.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

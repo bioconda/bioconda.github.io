@@ -61,10 +61,23 @@ domclust
 .. _`domclust/tags`: https://quay.io/repository/biocontainers/domclust?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "domclust";
+        var versions = ["1.2.8a","1.2.8a","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

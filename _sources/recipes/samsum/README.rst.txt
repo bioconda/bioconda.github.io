@@ -66,10 +66,23 @@ samsum
 .. _`samsum/tags`: https://quay.io/repository/biocontainers/samsum?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "samsum";
+        var versions = ["0.1.4","0.1.4","0.1.2","0.1.2","0.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

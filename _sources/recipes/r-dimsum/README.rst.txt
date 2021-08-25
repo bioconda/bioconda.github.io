@@ -81,10 +81,23 @@ r-dimsum
 .. _`r-dimsum/tags`: https://quay.io/repository/biocontainers/r-dimsum?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-dimsum";
+        var versions = ["1.2.8","1.2.7","1.2.7","1.2.7","1.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -95,10 +95,23 @@ bioconductor-esatac
 .. _`bioconductor-esatac/tags`: https://quay.io/repository/biocontainers/bioconductor-esatac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-esatac";
+        var versions = ["1.14.0","1.12.0","1.12.0","1.8.0","1.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ jamm
 .. _`jamm/tags`: https://quay.io/repository/biocontainers/jamm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jamm";
+        var versions = ["1.0.8.0","1.0.8.0","1.0.7.6","1.0.7.5","1.0.7.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

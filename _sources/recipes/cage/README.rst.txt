@@ -65,10 +65,23 @@ cage
 .. _`cage/tags`: https://quay.io/repository/biocontainers/cage?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cage";
+        var versions = ["2016.05.13","2016.05.13","2016.05.13","2016.05.13","2016.05.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

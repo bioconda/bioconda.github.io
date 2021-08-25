@@ -72,10 +72,23 @@ msisensor-pro
 .. _`msisensor-pro/tags`: https://quay.io/repository/biocontainers/msisensor-pro?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "msisensor-pro";
+        var versions = ["1.1.a","1.1.a","1.0.a","1.0.a","1.0.a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

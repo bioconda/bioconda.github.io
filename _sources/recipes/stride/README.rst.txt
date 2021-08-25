@@ -63,10 +63,23 @@ stride
 .. _`stride/tags`: https://quay.io/repository/biocontainers/stride?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stride";
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

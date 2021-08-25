@@ -62,10 +62,23 @@ perl-data-munge
 .. _`perl-data-munge/tags`: https://quay.io/repository/biocontainers/perl-data-munge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-munge";
+        var versions = ["0.097"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ sff2fastq
 .. _`sff2fastq/tags`: https://quay.io/repository/biocontainers/sff2fastq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sff2fastq";
+        var versions = ["0.9.2","0.9.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

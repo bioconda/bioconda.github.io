@@ -63,10 +63,23 @@ rfmix
 .. _`rfmix/tags`: https://quay.io/repository/biocontainers/rfmix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rfmix";
+        var versions = ["2.03.r0.9505bfa","2.03.r0.9505bfa","2.03.r0.9505bfa"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

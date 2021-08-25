@@ -72,10 +72,23 @@ bioconductor-safe
 .. _`bioconductor-safe/tags`: https://quay.io/repository/biocontainers/bioconductor-safe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-safe";
+        var versions = ["3.32.0","3.30.0","3.30.0","3.27.0","3.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

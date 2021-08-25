@@ -64,10 +64,23 @@ perl-class-load-xs
 .. _`perl-class-load-xs/tags`: https://quay.io/repository/biocontainers/perl-class-load-xs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-class-load-xs";
+        var versions = ["0.10","0.10","0.10","0.09","0.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

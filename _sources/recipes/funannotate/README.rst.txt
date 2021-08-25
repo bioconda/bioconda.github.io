@@ -124,10 +124,23 @@ funannotate
 .. _`funannotate/tags`: https://quay.io/repository/biocontainers/funannotate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "funannotate";
+        var versions = ["1.8.9","1.8.7","1.8.5","1.8.5","1.8.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

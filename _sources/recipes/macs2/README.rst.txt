@@ -73,10 +73,23 @@ macs2
 .. _`macs2/tags`: https://quay.io/repository/biocontainers/macs2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "macs2";
+        var versions = ["2.2.7.1","2.2.7.1","2.2.7.1","2.2.6","2.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -70,10 +70,23 @@ r-scimpute
 .. _`r-scimpute/tags`: https://quay.io/repository/biocontainers/r-scimpute?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-scimpute";
+        var versions = ["0.0.8","0.0.8","0.0.8","0.0.6","0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

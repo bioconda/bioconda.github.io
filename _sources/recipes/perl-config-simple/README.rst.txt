@@ -60,10 +60,23 @@ perl-config-simple
 .. _`perl-config-simple/tags`: https://quay.io/repository/biocontainers/perl-config-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-config-simple";
+        var versions = ["4.58","4.58"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

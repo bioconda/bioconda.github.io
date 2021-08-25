@@ -61,10 +61,23 @@ perl-string-approx
 .. _`perl-string-approx/tags`: https://quay.io/repository/biocontainers/perl-string-approx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-string-approx";
+        var versions = ["3.27","3.27"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

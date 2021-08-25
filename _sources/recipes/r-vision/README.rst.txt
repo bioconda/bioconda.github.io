@@ -80,10 +80,23 @@ r-vision
 .. _`r-vision/tags`: https://quay.io/repository/biocontainers/r-vision?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-vision";
+        var versions = ["2.0.0","2.0.0","2.0.0","2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

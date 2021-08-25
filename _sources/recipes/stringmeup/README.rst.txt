@@ -61,10 +61,23 @@ stringmeup
 .. _`stringmeup/tags`: https://quay.io/repository/biocontainers/stringmeup?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stringmeup";
+        var versions = ["0.1.4","0.1.3","0.1.2","0.1.1","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

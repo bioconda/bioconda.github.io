@@ -61,10 +61,23 @@ perl-math-spline
 .. _`perl-math-spline/tags`: https://quay.io/repository/biocontainers/perl-math-spline?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-spline";
+        var versions = ["0.02","0.02","0.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

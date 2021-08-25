@@ -61,10 +61,23 @@ ropebwt2
 .. _`ropebwt2/tags`: https://quay.io/repository/biocontainers/ropebwt2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ropebwt2";
+        var versions = ["r187","r187","r187","r187","r187"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

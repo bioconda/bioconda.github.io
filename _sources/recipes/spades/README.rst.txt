@@ -84,10 +84,23 @@ spades
 .. _`spades/tags`: https://quay.io/repository/biocontainers/spades?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "spades";
+        var versions = ["3.15.3","3.15.2","3.15.2","3.15.0","3.14.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

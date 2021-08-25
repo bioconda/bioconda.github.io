@@ -61,10 +61,23 @@ bioconductor-ratchrloc
 .. _`bioconductor-ratchrloc/tags`: https://quay.io/repository/biocontainers/bioconductor-ratchrloc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ratchrloc";
+        var versions = ["2.1.6","2.1.6","2.1.6","2.1.6","2.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

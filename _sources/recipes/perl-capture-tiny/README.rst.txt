@@ -60,10 +60,23 @@ perl-capture-tiny
 .. _`perl-capture-tiny/tags`: https://quay.io/repository/biocontainers/perl-capture-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-capture-tiny";
+        var versions = ["0.48","0.36","0.36","0.36","0.34"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

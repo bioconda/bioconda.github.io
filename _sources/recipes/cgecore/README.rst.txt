@@ -61,10 +61,23 @@ cgecore
 .. _`cgecore/tags`: https://quay.io/repository/biocontainers/cgecore?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cgecore";
+        var versions = ["1.5.6","1.5.5","1.5.5","1.5.4","1.5.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

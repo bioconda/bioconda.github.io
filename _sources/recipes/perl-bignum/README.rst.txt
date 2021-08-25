@@ -62,10 +62,23 @@ perl-bignum
 .. _`perl-bignum/tags`: https://quay.io/repository/biocontainers/perl-bignum?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bignum";
+        var versions = ["0.51"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

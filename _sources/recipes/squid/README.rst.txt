@@ -63,10 +63,23 @@ squid
 .. _`squid/tags`: https://quay.io/repository/biocontainers/squid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "squid";
+        var versions = ["1.5","1.5","1.5","1.5","1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

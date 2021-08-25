@@ -60,10 +60,23 @@ perl-dbi
 .. _`perl-dbi/tags`: https://quay.io/repository/biocontainers/perl-dbi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-dbi";
+        var versions = ["1.642","1.641","1.641","1.641","1.640"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ autodock
 .. _`autodock/tags`: https://quay.io/repository/biocontainers/autodock?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "autodock";
+        var versions = ["4.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

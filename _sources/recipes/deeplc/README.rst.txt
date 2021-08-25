@@ -78,10 +78,23 @@ deeplc
 .. _`deeplc/tags`: https://quay.io/repository/biocontainers/deeplc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deeplc";
+        var versions = ["0.1.35","0.1.34","0.1.33","0.1.31","0.1.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

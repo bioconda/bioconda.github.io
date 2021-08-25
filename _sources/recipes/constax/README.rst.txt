@@ -75,10 +75,23 @@ constax
 .. _`constax/tags`: https://quay.io/repository/biocontainers/constax?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "constax";
+        var versions = ["2.0.15","2.0.14","2.0.13","2.0.12","2.0.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

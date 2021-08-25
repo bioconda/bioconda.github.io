@@ -62,10 +62,23 @@ famsa
 .. _`famsa/tags`: https://quay.io/repository/biocontainers/famsa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "famsa";
+        var versions = ["1.6.2","1.6.2","1.6.1","1.5.12","1.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

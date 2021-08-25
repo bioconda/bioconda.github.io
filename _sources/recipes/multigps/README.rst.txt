@@ -63,10 +63,23 @@ multigps
 .. _`multigps/tags`: https://quay.io/repository/biocontainers/multigps?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "multigps";
+        var versions = ["0.74","0.74","0.74","0.74","0.73"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

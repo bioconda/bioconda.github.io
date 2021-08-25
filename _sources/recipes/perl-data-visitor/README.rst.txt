@@ -65,10 +65,23 @@ perl-data-visitor
 .. _`perl-data-visitor/tags`: https://quay.io/repository/biocontainers/perl-data-visitor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-visitor";
+        var versions = ["0.30","0.30","0.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

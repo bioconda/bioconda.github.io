@@ -61,10 +61,23 @@ perl-inline
 .. _`perl-inline/tags`: https://quay.io/repository/biocontainers/perl-inline?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-inline";
+        var versions = ["0.83","0.82","0.80","0.80","0.80"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

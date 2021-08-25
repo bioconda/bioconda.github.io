@@ -79,10 +79,23 @@ dxpy
 .. _`dxpy/tags`: https://quay.io/repository/biocontainers/dxpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dxpy";
+        var versions = ["0.313.0","0.312.0","0.311.0","0.310.0","0.309.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

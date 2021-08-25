@@ -67,10 +67,23 @@ bioconductor-mafdb.gnomad.r3.0.grch38
 .. _`bioconductor-mafdb.gnomad.r3.0.grch38/tags`: https://quay.io/repository/biocontainers/bioconductor-mafdb.gnomad.r3.0.grch38?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mafdb.gnomad.r3.0.grch38";
+        var versions = ["3.13.0","3.11.0","3.11.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

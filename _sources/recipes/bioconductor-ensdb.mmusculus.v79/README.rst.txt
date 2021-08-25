@@ -62,10 +62,23 @@ bioconductor-ensdb.mmusculus.v79
 .. _`bioconductor-ensdb.mmusculus.v79/tags`: https://quay.io/repository/biocontainers/bioconductor-ensdb.mmusculus.v79?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ensdb.mmusculus.v79";
+        var versions = ["2.99.0","2.99.0","2.99.0","2.99.0","2.99.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

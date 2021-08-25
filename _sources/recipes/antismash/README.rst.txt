@@ -96,10 +96,23 @@ antismash
 .. _`antismash/tags`: https://quay.io/repository/biocontainers/antismash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "antismash";
+        var versions = ["6.0.1","6.0.0","5.1.2","5.1.2","5.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

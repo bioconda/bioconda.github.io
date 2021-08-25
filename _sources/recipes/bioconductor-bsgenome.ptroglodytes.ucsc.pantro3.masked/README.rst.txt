@@ -63,10 +63,23 @@ bioconductor-bsgenome.ptroglodytes.ucsc.pantro3.masked
 .. _`bioconductor-bsgenome.ptroglodytes.ucsc.pantro3.masked/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.ptroglodytes.ucsc.pantro3.masked?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.ptroglodytes.ucsc.pantro3.masked";
+        var versions = ["1.3.99","1.3.99","1.3.99","1.3.99","1.3.99"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

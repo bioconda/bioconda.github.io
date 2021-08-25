@@ -90,10 +90,23 @@ rgt
 .. _`rgt/tags`: https://quay.io/repository/biocontainers/rgt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rgt";
+        var versions = ["0.12.3","0.12.3","0.12.3","0.12.2","0.11.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

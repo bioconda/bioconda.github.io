@@ -65,10 +65,23 @@ perl-ipc-cmd
 .. _`perl-ipc-cmd/tags`: https://quay.io/repository/biocontainers/perl-ipc-cmd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ipc-cmd";
+        var versions = ["1.02","1.00","1.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

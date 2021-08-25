@@ -88,10 +88,23 @@ plasmidid
 .. _`plasmidid/tags`: https://quay.io/repository/biocontainers/plasmidid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plasmidid";
+        var versions = ["1.6.5","1.6.4","1.6.4","1.6.4","1.6.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

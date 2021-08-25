@@ -62,6 +62,13 @@ je-suite
 .. _`je-suite/tags`: https://quay.io/repository/biocontainers/je-suite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "je-suite";
+        var versions = ["2.0.RC","1.2","1.2","1.2"];
+    </script>
+
 
 
 
@@ -74,6 +81,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"je \-Xms512m \-Xmx1g\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

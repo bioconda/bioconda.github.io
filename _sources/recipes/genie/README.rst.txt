@@ -61,10 +61,23 @@ genie
 .. _`genie/tags`: https://quay.io/repository/biocontainers/genie?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genie";
+        var versions = ["0.7.0","0.6.0","0.5.0","0.5.0","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

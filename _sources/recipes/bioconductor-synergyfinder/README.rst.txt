@@ -93,10 +93,23 @@ bioconductor-synergyfinder
 .. _`bioconductor-synergyfinder/tags`: https://quay.io/repository/biocontainers/bioconductor-synergyfinder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-synergyfinder";
+        var versions = ["3.0.3","2.4.10","2.4.0","2.2.0","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

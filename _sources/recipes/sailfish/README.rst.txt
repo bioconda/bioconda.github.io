@@ -65,10 +65,23 @@ sailfish
 .. _`sailfish/tags`: https://quay.io/repository/biocontainers/sailfish?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sailfish";
+        var versions = ["0.10.1","0.10.1","0.10.1","0.10.1","0.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

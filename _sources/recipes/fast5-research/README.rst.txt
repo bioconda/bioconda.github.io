@@ -72,10 +72,23 @@ fast5-research
 .. _`fast5-research/tags`: https://quay.io/repository/biocontainers/fast5-research?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fast5-research";
+        var versions = ["1.2.22","1.2.20","1.2.20","1.2.19","1.2.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

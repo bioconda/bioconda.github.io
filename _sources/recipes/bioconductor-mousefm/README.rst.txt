@@ -75,10 +75,23 @@ bioconductor-mousefm
 .. _`bioconductor-mousefm/tags`: https://quay.io/repository/biocontainers/bioconductor-mousefm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mousefm";
+        var versions = ["1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -77,10 +77,23 @@ hmftools-purple
 .. _`hmftools-purple/tags`: https://quay.io/repository/biocontainers/hmftools-purple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmftools-purple";
+        var versions = ["3.1","2.54","2.53","2.53","2.52"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

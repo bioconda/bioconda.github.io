@@ -68,10 +68,23 @@ genome_updater
 .. _`genome_updater/tags`: https://quay.io/repository/biocontainers/genome_updater?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genome_updater";
+        var versions = ["0.2.5","0.2.4","0.2.4","0.2.3","0.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

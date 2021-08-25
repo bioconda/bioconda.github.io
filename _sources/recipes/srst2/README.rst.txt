@@ -64,10 +64,23 @@ srst2
 .. _`srst2/tags`: https://quay.io/repository/biocontainers/srst2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "srst2";
+        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0","0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

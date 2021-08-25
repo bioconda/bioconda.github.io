@@ -73,10 +73,23 @@ expansionhunter
 .. _`expansionhunter/tags`: https://quay.io/repository/biocontainers/expansionhunter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "expansionhunter";
+        var versions = ["4.0.2","4.0.1","3.2.2","3.2.2","3.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

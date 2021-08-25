@@ -62,10 +62,23 @@ anarci
 .. _`anarci/tags`: https://quay.io/repository/biocontainers/anarci?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "anarci";
+        var versions = ["2021.02.04","2020.04.23","2020.04.23","2020.04.23","2020.04.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

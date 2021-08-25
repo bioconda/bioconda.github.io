@@ -66,10 +66,23 @@ fmlrc2
 .. _`fmlrc2/tags`: https://quay.io/repository/biocontainers/fmlrc2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fmlrc2";
+        var versions = ["0.1.4","0.1.4","0.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

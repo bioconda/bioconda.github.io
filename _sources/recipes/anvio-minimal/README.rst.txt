@@ -91,10 +91,23 @@ anvio-minimal
 .. _`anvio-minimal/tags`: https://quay.io/repository/biocontainers/anvio-minimal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "anvio-minimal";
+        var versions = ["7","6.2","6.2","6.1","6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

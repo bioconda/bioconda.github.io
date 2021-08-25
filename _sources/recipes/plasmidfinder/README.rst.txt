@@ -66,10 +66,23 @@ plasmidfinder
 .. _`plasmidfinder/tags`: https://quay.io/repository/biocontainers/plasmidfinder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plasmidfinder";
+        var versions = ["2.1.1","2.1.1","2.1","2.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

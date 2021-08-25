@@ -70,10 +70,23 @@ bioconductor-genomicstate
 .. _`bioconductor-genomicstate/tags`: https://quay.io/repository/biocontainers/bioconductor-genomicstate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genomicstate";
+        var versions = ["0.99.9","0.99.9","0.99.9","0.99.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

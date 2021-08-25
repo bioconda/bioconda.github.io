@@ -63,10 +63,23 @@ logomaker
 .. _`logomaker/tags`: https://quay.io/repository/biocontainers/logomaker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "logomaker";
+        var versions = ["0.8","0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

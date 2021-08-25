@@ -89,10 +89,23 @@ bioconductor-signaturesearch
 .. _`bioconductor-signaturesearch/tags`: https://quay.io/repository/biocontainers/bioconductor-signaturesearch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-signaturesearch";
+        var versions = ["1.6.1","1.4.3","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

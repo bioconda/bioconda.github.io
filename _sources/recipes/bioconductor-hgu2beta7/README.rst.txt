@@ -61,10 +61,23 @@ bioconductor-hgu2beta7
 .. _`bioconductor-hgu2beta7/tags`: https://quay.io/repository/biocontainers/bioconductor-hgu2beta7?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hgu2beta7";
+        var versions = ["1.32.0","1.30.0","1.30.0","1.29.0","1.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

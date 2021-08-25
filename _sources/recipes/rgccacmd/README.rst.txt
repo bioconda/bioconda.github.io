@@ -76,10 +76,23 @@ rgccacmd
 .. _`rgccacmd/tags`: https://quay.io/repository/biocontainers/rgccacmd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rgccacmd";
+        var versions = ["3.0.2","3.0.1","3.0.0","3.0.0","3.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ dadaist2-full
 .. _`dadaist2-full/tags`: https://quay.io/repository/biocontainers/dadaist2-full?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dadaist2-full";
+        var versions = ["1.0","0.7","0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

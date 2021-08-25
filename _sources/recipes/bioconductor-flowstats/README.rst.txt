@@ -74,10 +74,23 @@ bioconductor-flowstats
 .. _`bioconductor-flowstats/tags`: https://quay.io/repository/biocontainers/bioconductor-flowstats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-flowstats";
+        var versions = ["4.4.0","4.2.0","4.2.0","4.0.0","3.44.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

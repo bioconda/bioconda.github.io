@@ -70,10 +70,23 @@ bioconductor-brainflowprobes
 .. _`bioconductor-brainflowprobes/tags`: https://quay.io/repository/biocontainers/bioconductor-brainflowprobes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-brainflowprobes";
+        var versions = ["1.6.0","1.4.1","1.4.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

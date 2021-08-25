@@ -69,10 +69,23 @@ bioconductor-breastcancervdx
 .. _`bioconductor-breastcancervdx/tags`: https://quay.io/repository/biocontainers/bioconductor-breastcancervdx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-breastcancervdx";
+        var versions = ["1.30.0","1.28.0","1.28.0","1.28.0","1.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

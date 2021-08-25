@@ -63,10 +63,23 @@ clark
 .. _`clark/tags`: https://quay.io/repository/biocontainers/clark?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clark";
+        var versions = ["1.2.6.1","1.2.6.1","1.2.5.1","1.2.5","1.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

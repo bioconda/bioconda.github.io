@@ -62,10 +62,23 @@ perl-bio-das
 .. _`perl-bio-das/tags`: https://quay.io/repository/biocontainers/perl-bio-das?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-das";
+        var versions = ["1.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

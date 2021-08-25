@@ -65,10 +65,23 @@ besst
 .. _`besst/tags`: https://quay.io/repository/biocontainers/besst?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "besst";
+        var versions = ["2.2.8","2.2.8","2.2.8","2.2.7","2.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

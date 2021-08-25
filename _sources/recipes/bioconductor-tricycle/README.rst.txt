@@ -72,10 +72,23 @@ bioconductor-tricycle
 .. _`bioconductor-tricycle/tags`: https://quay.io/repository/biocontainers/bioconductor-tricycle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-tricycle";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

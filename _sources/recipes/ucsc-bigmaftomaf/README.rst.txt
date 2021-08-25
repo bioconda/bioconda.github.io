@@ -65,10 +65,23 @@ ucsc-bigmaftomaf
 .. _`ucsc-bigmaftomaf/tags`: https://quay.io/repository/biocontainers/ucsc-bigmaftomaf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-bigmaftomaf";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

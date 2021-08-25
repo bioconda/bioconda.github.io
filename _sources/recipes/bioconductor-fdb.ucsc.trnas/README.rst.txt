@@ -63,10 +63,23 @@ bioconductor-fdb.ucsc.trnas
 .. _`bioconductor-fdb.ucsc.trnas/tags`: https://quay.io/repository/biocontainers/bioconductor-fdb.ucsc.trnas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-fdb.ucsc.trnas";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

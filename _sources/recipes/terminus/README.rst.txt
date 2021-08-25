@@ -64,10 +64,23 @@ terminus
 .. _`terminus/tags`: https://quay.io/repository/biocontainers/terminus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "terminus";
+        var versions = ["0.1.0","0.1.0","0.1.0","v0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

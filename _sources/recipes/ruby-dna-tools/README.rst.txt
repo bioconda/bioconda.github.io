@@ -63,10 +63,23 @@ ruby-dna-tools
 .. _`ruby-dna-tools/tags`: https://quay.io/repository/biocontainers/ruby-dna-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ruby-dna-tools";
+        var versions = ["1.0","1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

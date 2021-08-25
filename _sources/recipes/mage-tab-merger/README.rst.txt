@@ -67,10 +67,23 @@ mage-tab-merger
 .. _`mage-tab-merger/tags`: https://quay.io/repository/biocontainers/mage-tab-merger?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mage-tab-merger";
+        var versions = ["0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

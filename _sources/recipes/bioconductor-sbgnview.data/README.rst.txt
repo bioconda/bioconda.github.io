@@ -64,10 +64,23 @@ bioconductor-sbgnview.data
 .. _`bioconductor-sbgnview.data/tags`: https://quay.io/repository/biocontainers/bioconductor-sbgnview.data?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sbgnview.data";
+        var versions = ["1.6.0","1.4.1","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

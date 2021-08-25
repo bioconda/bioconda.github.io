@@ -88,10 +88,23 @@ bioconductor-contibait
 .. _`bioconductor-contibait/tags`: https://quay.io/repository/biocontainers/bioconductor-contibait?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-contibait";
+        var versions = ["1.20.0","1.18.0","1.18.0","1.15.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

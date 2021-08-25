@@ -69,10 +69,23 @@ dcmtk
 .. _`dcmtk/tags`: https://quay.io/repository/biocontainers/dcmtk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dcmtk";
+        var versions = ["3.6.5","3.6.5","3.6.1","3.6.1","3.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

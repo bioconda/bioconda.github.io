@@ -60,10 +60,23 @@ python-codon-tables
 .. _`python-codon-tables/tags`: https://quay.io/repository/biocontainers/python-codon-tables?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-codon-tables";
+        var versions = ["0.1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

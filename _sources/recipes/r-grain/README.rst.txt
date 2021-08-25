@@ -70,10 +70,23 @@ r-grain
 .. _`r-grain/tags`: https://quay.io/repository/biocontainers/r-grain?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-grain";
+        var versions = ["1.3_0","1.3_0","1.3_0","1.3_0","1.3_0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

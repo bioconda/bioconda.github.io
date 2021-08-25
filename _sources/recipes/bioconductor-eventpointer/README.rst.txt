@@ -95,10 +95,23 @@ bioconductor-eventpointer
 .. _`bioconductor-eventpointer/tags`: https://quay.io/repository/biocontainers/bioconductor-eventpointer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-eventpointer";
+        var versions = ["3.0.0","2.8.0","2.8.0","2.6.0","2.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

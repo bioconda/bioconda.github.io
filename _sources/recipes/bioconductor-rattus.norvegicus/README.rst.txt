@@ -67,10 +67,23 @@ bioconductor-rattus.norvegicus
 .. _`bioconductor-rattus.norvegicus/tags`: https://quay.io/repository/biocontainers/bioconductor-rattus.norvegicus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rattus.norvegicus";
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1","1.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

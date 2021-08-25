@@ -60,10 +60,23 @@ mugsy
 .. _`mugsy/tags`: https://quay.io/repository/biocontainers/mugsy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mugsy";
+        var versions = ["1.2.3","1.2.3","1.2.3","1.2.3","1.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

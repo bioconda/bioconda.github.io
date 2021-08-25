@@ -62,10 +62,23 @@ mapdia
 .. _`mapdia/tags`: https://quay.io/repository/biocontainers/mapdia?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mapdia";
+        var versions = ["3.1.0","3.1.0","3.1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

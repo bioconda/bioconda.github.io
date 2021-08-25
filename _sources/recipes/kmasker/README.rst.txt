@@ -73,10 +73,23 @@ kmasker
 .. _`kmasker/tags`: https://quay.io/repository/biocontainers/kmasker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kmasker";
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

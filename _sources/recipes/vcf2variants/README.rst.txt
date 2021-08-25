@@ -61,10 +61,23 @@ vcf2variants
 .. _`vcf2variants/tags`: https://quay.io/repository/biocontainers/vcf2variants?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vcf2variants";
+        var versions = ["0.3","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

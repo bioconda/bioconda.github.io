@@ -65,10 +65,23 @@ bioconductor-metapod
 .. _`bioconductor-metapod/tags`: https://quay.io/repository/biocontainers/bioconductor-metapod?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-metapod";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

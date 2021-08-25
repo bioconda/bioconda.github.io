@@ -70,6 +70,13 @@ gatk4
 .. _`gatk4/tags`: https://quay.io/repository/biocontainers/gatk4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gatk4";
+        var versions = ["4.2.2.0","4.2.1.0","4.2.0.0","4.2.0.0","4.1.9.0"];
+    </script>
+
 
 .. conda:package:: gatk4-spark
 
@@ -122,10 +129,23 @@ gatk4
 .. _`gatk4-spark/tags`: https://quay.io/repository/biocontainers/gatk4-spark?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gatk4";
+        var versions = ["4.2.2.0","4.2.1.0","4.2.0.0","4.2.0.0","4.1.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

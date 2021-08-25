@@ -70,6 +70,13 @@ encyclopedia
 .. _`encyclopedia/tags`: https://quay.io/repository/biocontainers/encyclopedia?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "encyclopedia";
+        var versions = ["1.2.2","0.9.5","0.9.5","0.9.5","0.9.5"];
+    </script>
+
 
 
 
@@ -84,6 +91,12 @@ set globally this will take precedence.
 For example run it with \"EncyclopeDIA \-Xms512m \-Xmx16g\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -59,10 +59,23 @@ gofasta
 .. _`gofasta/tags`: https://quay.io/repository/biocontainers/gofasta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gofasta";
+        var versions = ["0.0.5","0.0.4","0.0.3","0.0.3","0.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

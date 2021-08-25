@@ -67,10 +67,23 @@ perl-spreadsheet-parseexcel
 .. _`perl-spreadsheet-parseexcel/tags`: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-spreadsheet-parseexcel";
+        var versions = ["0.65","0.65","0.65"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

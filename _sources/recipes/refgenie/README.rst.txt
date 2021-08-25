@@ -73,10 +73,23 @@ refgenie
 .. _`refgenie/tags`: https://quay.io/repository/biocontainers/refgenie?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "refgenie";
+        var versions = ["0.12.0","0.11.0","0.10.0","0.9.3","0.9.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

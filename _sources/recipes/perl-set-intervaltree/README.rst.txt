@@ -62,10 +62,23 @@ perl-set-intervaltree
 .. _`perl-set-intervaltree/tags`: https://quay.io/repository/biocontainers/perl-set-intervaltree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-set-intervaltree";
+        var versions = ["0.12","0.11","0.11","0.10","0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

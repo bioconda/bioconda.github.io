@@ -65,10 +65,23 @@ ega2
 .. _`ega2/tags`: https://quay.io/repository/biocontainers/ega2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ega2";
+        var versions = ["2.2.2","2.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

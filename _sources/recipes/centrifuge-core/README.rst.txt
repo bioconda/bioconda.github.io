@@ -66,10 +66,23 @@ centrifuge-core
 .. _`centrifuge-core/tags`: https://quay.io/repository/biocontainers/centrifuge-core?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "centrifuge-core";
+        var versions = ["1.0.4_beta","1.0.4_beta"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

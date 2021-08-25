@@ -65,10 +65,23 @@ bs_call
 .. _`bs_call/tags`: https://quay.io/repository/biocontainers/bs_call?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bs_call";
+        var versions = ["2.02","2.02","2.02","2.02","2.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

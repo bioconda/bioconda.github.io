@@ -63,10 +63,23 @@ ssake
 .. _`ssake/tags`: https://quay.io/repository/biocontainers/ssake?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ssake";
+        var versions = ["4.0","4.0","4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

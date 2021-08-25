@@ -69,10 +69,23 @@ yamda
 .. _`yamda/tags`: https://quay.io/repository/biocontainers/yamda?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "yamda";
+        var versions = ["0.1.00e9c9d"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

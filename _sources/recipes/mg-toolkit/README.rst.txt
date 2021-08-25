@@ -64,10 +64,23 @@ mg-toolkit
 .. _`mg-toolkit/tags`: https://quay.io/repository/biocontainers/mg-toolkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mg-toolkit";
+        var versions = ["0.10.0","0.9.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

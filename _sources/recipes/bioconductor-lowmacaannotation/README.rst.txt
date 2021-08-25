@@ -61,10 +61,23 @@ bioconductor-lowmacaannotation
 .. _`bioconductor-lowmacaannotation/tags`: https://quay.io/repository/biocontainers/bioconductor-lowmacaannotation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-lowmacaannotation";
+        var versions = ["0.99.3","0.99.3","0.99.3","0.99.3","0.99.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

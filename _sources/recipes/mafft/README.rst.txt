@@ -69,10 +69,23 @@ mafft
 .. _`mafft/tags`: https://quay.io/repository/biocontainers/mafft?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mafft";
+        var versions = ["7.487","7.486","7.480","7.475","7.475"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

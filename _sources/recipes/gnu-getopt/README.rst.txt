@@ -61,6 +61,13 @@ gnu-getopt
 .. _`gnu-getopt/tags`: https://quay.io/repository/biocontainers/gnu-getopt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gnu-getopt";
+        var versions = ["1.1.6","1.1.6","1.1.6","1.1.6"];
+    </script>
+
 
 
 
@@ -69,6 +76,12 @@ Notes
 -----
 On Linux systems gnu\-getopt is simply called \'getopt\'\, however due to potential collision with the native BSD getopt on OSX\, this binary is renamed \'gnu\-getopt\'.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

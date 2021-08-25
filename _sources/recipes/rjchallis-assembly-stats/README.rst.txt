@@ -62,10 +62,23 @@ rjchallis-assembly-stats
 .. _`rjchallis-assembly-stats/tags`: https://quay.io/repository/biocontainers/rjchallis-assembly-stats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rjchallis-assembly-stats";
+        var versions = ["17.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
 .. _`bioconductor-bsgenome.hsapiens.1000genomes.hs37d5/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.1000genomes.hs37d5?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.hsapiens.1000genomes.hs37d5";
+        var versions = ["0.99.1","0.99.1","0.99.1","0.99.1","0.99.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

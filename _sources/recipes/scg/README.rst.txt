@@ -64,10 +64,23 @@ scg
 .. _`scg/tags`: https://quay.io/repository/biocontainers/scg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scg";
+        var versions = ["0.3.1","0.3.1","0.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

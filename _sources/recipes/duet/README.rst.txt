@@ -63,10 +63,23 @@ duet
 .. _`duet/tags`: https://quay.io/repository/biocontainers/duet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "duet";
+        var versions = ["0.3","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

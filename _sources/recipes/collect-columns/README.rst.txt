@@ -61,10 +61,23 @@ collect-columns
 .. _`collect-columns/tags`: https://quay.io/repository/biocontainers/collect-columns?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "collect-columns";
+        var versions = ["1.0.0","0.2.0","0.2.0","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

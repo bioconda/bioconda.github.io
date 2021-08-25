@@ -85,10 +85,23 @@ r-stitch
 .. _`r-stitch/tags`: https://quay.io/repository/biocontainers/r-stitch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-stitch";
+        var versions = ["1.6.6","1.6.6","1.6.5","1.6.5","1.6.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

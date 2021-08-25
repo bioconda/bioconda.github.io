@@ -61,10 +61,23 @@ cyntenator
 .. _`cyntenator/tags`: https://quay.io/repository/biocontainers/cyntenator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cyntenator";
+        var versions = ["0.0.r2326"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

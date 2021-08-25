@@ -65,10 +65,23 @@ ucsc-localtime
 .. _`ucsc-localtime/tags`: https://quay.io/repository/biocontainers/ucsc-localtime?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-localtime";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

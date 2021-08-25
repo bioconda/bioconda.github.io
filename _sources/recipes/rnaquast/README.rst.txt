@@ -71,10 +71,23 @@ rnaquast
 .. _`rnaquast/tags`: https://quay.io/repository/biocontainers/rnaquast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rnaquast";
+        var versions = ["2.2.0","2.2.0","2.2.0","2.1.0","2.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

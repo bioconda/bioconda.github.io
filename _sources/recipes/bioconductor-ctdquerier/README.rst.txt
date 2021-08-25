@@ -68,10 +68,23 @@ bioconductor-ctdquerier
 .. _`bioconductor-ctdquerier/tags`: https://quay.io/repository/biocontainers/bioconductor-ctdquerier?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ctdquerier";
+        var versions = ["2.0.0","1.5.0","1.4.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

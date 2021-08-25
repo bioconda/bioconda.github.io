@@ -74,10 +74,23 @@ mavis
 .. _`mavis/tags`: https://quay.io/repository/biocontainers/mavis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mavis";
+        var versions = ["2.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

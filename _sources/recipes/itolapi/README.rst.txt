@@ -61,10 +61,23 @@ itolapi
 .. _`itolapi/tags`: https://quay.io/repository/biocontainers/itolapi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "itolapi";
+        var versions = ["4.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

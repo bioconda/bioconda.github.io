@@ -70,10 +70,23 @@ kma
 .. _`kma/tags`: https://quay.io/repository/biocontainers/kma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kma";
+        var versions = ["1.3.23","1.3.22","1.3.21","1.3.19","1.3.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

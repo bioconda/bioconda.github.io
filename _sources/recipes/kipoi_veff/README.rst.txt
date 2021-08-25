@@ -82,10 +82,23 @@ kipoi_veff
 .. _`kipoi_veff/tags`: https://quay.io/repository/biocontainers/kipoi_veff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kipoi_veff";
+        var versions = ["0.3.1","0.3.1","0.3.0","0.2.2","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

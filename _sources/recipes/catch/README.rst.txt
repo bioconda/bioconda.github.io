@@ -63,10 +63,23 @@ catch
 .. _`catch/tags`: https://quay.io/repository/biocontainers/catch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "catch";
+        var versions = ["1.4.0","1.3.1","1.3.0","1.2.0","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

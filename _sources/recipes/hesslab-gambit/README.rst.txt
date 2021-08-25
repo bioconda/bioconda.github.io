@@ -27,7 +27,7 @@ hesslab-gambit
       
       
 
-      ``0.2.1-0``
+      ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -71,10 +71,23 @@ hesslab-gambit
 .. _`hesslab-gambit/tags`: https://quay.io/repository/biocontainers/hesslab-gambit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hesslab-gambit";
+        var versions = ["0.2.2","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

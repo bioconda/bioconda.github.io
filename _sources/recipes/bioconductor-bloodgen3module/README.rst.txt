@@ -73,10 +73,23 @@ bioconductor-bloodgen3module
 .. _`bioconductor-bloodgen3module/tags`: https://quay.io/repository/biocontainers/bioconductor-bloodgen3module?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bloodgen3module";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

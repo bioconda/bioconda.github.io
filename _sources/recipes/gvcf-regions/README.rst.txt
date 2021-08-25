@@ -60,10 +60,23 @@ gvcf-regions
 .. _`gvcf-regions/tags`: https://quay.io/repository/biocontainers/gvcf-regions?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gvcf-regions";
+        var versions = ["2016.06.23","2016.06.23","2016.06.21","2016.05.24","2016.05.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

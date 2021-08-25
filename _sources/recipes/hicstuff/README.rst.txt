@@ -75,10 +75,23 @@ hicstuff
 .. _`hicstuff/tags`: https://quay.io/repository/biocontainers/hicstuff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hicstuff";
+        var versions = ["3.1.0","3.0.3","3.0.2","2.3.2","2.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

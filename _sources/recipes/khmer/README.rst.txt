@@ -78,10 +78,23 @@ khmer
 .. _`khmer/tags`: https://quay.io/repository/biocontainers/khmer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "khmer";
+        var versions = ["3.0.0a3","3.0.0a3","3.0.0a3","3.0.0a2","3.0.0a2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

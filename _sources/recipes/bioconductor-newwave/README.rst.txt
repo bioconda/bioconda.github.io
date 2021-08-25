@@ -67,10 +67,23 @@ bioconductor-newwave
 .. _`bioconductor-newwave/tags`: https://quay.io/repository/biocontainers/bioconductor-newwave?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-newwave";
+        var versions = ["1.2.0","1.0.2","0.99.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

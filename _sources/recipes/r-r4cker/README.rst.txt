@@ -68,10 +68,23 @@ r-r4cker
 .. _`r-r4cker/tags`: https://quay.io/repository/biocontainers/r-r4cker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-r4cker";
+        var versions = ["1.0","1.0","1.0","1.0","0.0.0.9000"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

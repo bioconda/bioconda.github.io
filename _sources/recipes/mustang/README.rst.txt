@@ -61,10 +61,23 @@ mustang
 .. _`mustang/tags`: https://quay.io/repository/biocontainers/mustang?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mustang";
+        var versions = ["3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

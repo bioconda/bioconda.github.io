@@ -62,10 +62,23 @@ bufet
 .. _`bufet/tags`: https://quay.io/repository/biocontainers/bufet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bufet";
+        var versions = ["1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

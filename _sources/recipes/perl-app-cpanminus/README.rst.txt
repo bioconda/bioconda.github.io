@@ -60,10 +60,23 @@ perl-app-cpanminus
 .. _`perl-app-cpanminus/tags`: https://quay.io/repository/biocontainers/perl-app-cpanminus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-app-cpanminus";
+        var versions = ["1.7044","1.7044","1.7043","1.7039","1.7039"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

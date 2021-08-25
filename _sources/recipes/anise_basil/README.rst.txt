@@ -64,10 +64,23 @@ anise_basil
 .. _`anise_basil/tags`: https://quay.io/repository/biocontainers/anise_basil?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "anise_basil";
+        var versions = ["1.2.0","1.2.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ bioconductor-pd.s.aureus
 .. _`bioconductor-pd.s.aureus/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.s.aureus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.s.aureus";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

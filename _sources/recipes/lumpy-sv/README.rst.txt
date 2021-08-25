@@ -78,10 +78,23 @@ lumpy-sv
 .. _`lumpy-sv/tags`: https://quay.io/repository/biocontainers/lumpy-sv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lumpy-sv";
+        var versions = ["0.3.1","0.3.1","0.3.1","0.3.1","0.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ perl-test-prereq
 .. _`perl-test-prereq/tags`: https://quay.io/repository/biocontainers/perl-test-prereq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-prereq";
+        var versions = ["2.002","2.002","2.002"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

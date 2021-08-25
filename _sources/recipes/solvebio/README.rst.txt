@@ -72,10 +72,23 @@ solvebio
 .. _`solvebio/tags`: https://quay.io/repository/biocontainers/solvebio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "solvebio";
+        var versions = ["2.16.0","2.15.0","2.14.1","2.14.0","2.13.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

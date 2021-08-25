@@ -60,10 +60,23 @@ semidbm
 .. _`semidbm/tags`: https://quay.io/repository/biocontainers/semidbm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "semidbm";
+        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

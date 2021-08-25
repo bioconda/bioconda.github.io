@@ -62,10 +62,23 @@ perl-ipc-sharelite
 .. _`perl-ipc-sharelite/tags`: https://quay.io/repository/biocontainers/perl-ipc-sharelite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ipc-sharelite";
+        var versions = ["0.17","0.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

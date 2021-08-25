@@ -72,6 +72,13 @@ ngsep
 .. _`ngsep/tags`: https://quay.io/repository/biocontainers/ngsep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ngsep";
+        var versions = ["4.0.1"];
+    </script>
+
 
 
 
@@ -84,6 +91,12 @@ correction\, de\-novo analysis of Genotype\-by\-sequencing data and \(coming soo
 de\-novo assembly of long read whole genome sequencing \(WGS\) data.
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

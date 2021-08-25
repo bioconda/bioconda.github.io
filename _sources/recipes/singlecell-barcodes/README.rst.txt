@@ -59,10 +59,23 @@ singlecell-barcodes
 .. _`singlecell-barcodes/tags`: https://quay.io/repository/biocontainers/singlecell-barcodes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "singlecell-barcodes";
+        var versions = ["0.2","0.2","0.2","0.2","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

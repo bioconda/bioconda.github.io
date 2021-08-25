@@ -70,10 +70,23 @@ bioconductor-pepxmltab
 .. _`bioconductor-pepxmltab/tags`: https://quay.io/repository/biocontainers/bioconductor-pepxmltab?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pepxmltab";
+        var versions = ["1.26.0","1.24.0","1.24.0","1.22.0","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

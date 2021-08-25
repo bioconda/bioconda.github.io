@@ -74,10 +74,23 @@ enasearch
 .. _`enasearch/tags`: https://quay.io/repository/biocontainers/enasearch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "enasearch";
+        var versions = ["0.2.2","0.2.2","0.2.2","0.1.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

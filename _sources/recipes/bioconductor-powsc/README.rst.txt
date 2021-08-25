@@ -68,10 +68,23 @@ bioconductor-powsc
 .. _`bioconductor-powsc/tags`: https://quay.io/repository/biocontainers/bioconductor-powsc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-powsc";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

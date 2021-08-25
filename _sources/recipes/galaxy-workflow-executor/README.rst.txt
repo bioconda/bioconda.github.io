@@ -61,10 +61,23 @@ galaxy-workflow-executor
 .. _`galaxy-workflow-executor/tags`: https://quay.io/repository/biocontainers/galaxy-workflow-executor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-workflow-executor";
+        var versions = ["0.2.6","0.2.4","0.2.3","0.2.2","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

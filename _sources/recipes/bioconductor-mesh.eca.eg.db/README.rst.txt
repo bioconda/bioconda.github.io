@@ -62,10 +62,23 @@ bioconductor-mesh.eca.eg.db
 .. _`bioconductor-mesh.eca.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mesh.eca.eg.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mesh.eca.eg.db";
+        var versions = ["1.15.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

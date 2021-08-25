@@ -61,10 +61,23 @@ genepender
 .. _`genepender/tags`: https://quay.io/repository/biocontainers/genepender?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genepender";
+        var versions = ["v2.6","v2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

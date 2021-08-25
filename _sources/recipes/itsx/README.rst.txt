@@ -61,10 +61,23 @@ itsx
 .. _`itsx/tags`: https://quay.io/repository/biocontainers/itsx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "itsx";
+        var versions = ["1.1.3","1.1.3","1.1.2","1.1b","1.1b"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

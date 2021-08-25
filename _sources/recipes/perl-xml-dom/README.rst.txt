@@ -64,10 +64,23 @@ perl-xml-dom
 .. _`perl-xml-dom/tags`: https://quay.io/repository/biocontainers/perl-xml-dom?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-dom";
+        var versions = ["1.46","1.45","1.45"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

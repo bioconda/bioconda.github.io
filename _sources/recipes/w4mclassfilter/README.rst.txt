@@ -68,10 +68,23 @@ w4mclassfilter
 .. _`w4mclassfilter/tags`: https://quay.io/repository/biocontainers/w4mclassfilter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "w4mclassfilter";
+        var versions = ["0.98.19","0.98.19","0.98.18","0.98.18","0.98.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

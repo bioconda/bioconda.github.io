@@ -65,10 +65,23 @@ perl-statistics-r
 .. _`perl-statistics-r/tags`: https://quay.io/repository/biocontainers/perl-statistics-r?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-statistics-r";
+        var versions = ["0.34","0.34","0.34","0.34"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

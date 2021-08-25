@@ -65,6 +65,13 @@ dia_umpire
 .. _`dia_umpire/tags`: https://quay.io/repository/biocontainers/dia_umpire?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dia_umpire";
+        var versions = ["2.1.6","2.1.6","2.1.3","2.1.3","2.1.2"];
+    </script>
+
 
 
 
@@ -74,6 +81,12 @@ Notes
 DIA\-Umpire is a Java program.
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

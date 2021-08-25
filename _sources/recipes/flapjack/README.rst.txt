@@ -60,10 +60,23 @@ flapjack
 .. _`flapjack/tags`: https://quay.io/repository/biocontainers/flapjack?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "flapjack";
+        var versions = ["1.20.10.07","1.20.10.07","1.18.06.29","1.18.06.29","1.18.06.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

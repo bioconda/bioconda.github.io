@@ -63,10 +63,23 @@ bioconductor-moex10stprobeset.db
 .. _`bioconductor-moex10stprobeset.db/tags`: https://quay.io/repository/biocontainers/bioconductor-moex10stprobeset.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-moex10stprobeset.db";
+        var versions = ["8.7.0","8.7.0","8.7.0","8.7.0","8.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

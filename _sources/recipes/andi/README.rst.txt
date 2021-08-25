@@ -71,10 +71,23 @@ andi
 .. _`andi/tags`: https://quay.io/repository/biocontainers/andi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "andi";
+        var versions = ["0.13","0.13","0.13","0.13","0.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ wisestork
 .. _`wisestork/tags`: https://quay.io/repository/biocontainers/wisestork?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wisestork";
+        var versions = ["0.1.2","0.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

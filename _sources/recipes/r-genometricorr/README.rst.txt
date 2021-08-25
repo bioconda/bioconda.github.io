@@ -73,10 +73,23 @@ r-genometricorr
 .. _`r-genometricorr/tags`: https://quay.io/repository/biocontainers/r-genometricorr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-genometricorr";
+        var versions = ["1.1.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

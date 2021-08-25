@@ -62,10 +62,23 @@ modeltest-ng
 .. _`modeltest-ng/tags`: https://quay.io/repository/biocontainers/modeltest-ng?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "modeltest-ng";
+        var versions = ["0.1.6","0.1.6","0.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

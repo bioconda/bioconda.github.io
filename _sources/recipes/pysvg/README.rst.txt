@@ -62,10 +62,23 @@ pysvg
 .. _`pysvg/tags`: https://quay.io/repository/biocontainers/pysvg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pysvg";
+        var versions = ["0.2.2","0.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

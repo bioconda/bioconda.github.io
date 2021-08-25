@@ -61,10 +61,23 @@ mgf-formatter
 .. _`mgf-formatter/tags`: https://quay.io/repository/biocontainers/mgf-formatter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mgf-formatter";
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

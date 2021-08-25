@@ -60,10 +60,23 @@ gtf_to_genes
 .. _`gtf_to_genes/tags`: https://quay.io/repository/biocontainers/gtf_to_genes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gtf_to_genes";
+        var versions = ["1.40","1.40","1.40"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

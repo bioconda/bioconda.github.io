@@ -70,10 +70,23 @@ nim-falcon
 .. _`nim-falcon/tags`: https://quay.io/repository/biocontainers/nim-falcon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nim-falcon";
+        var versions = ["3.0.2","3.0.2","3.0.1","2.3.0","1.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

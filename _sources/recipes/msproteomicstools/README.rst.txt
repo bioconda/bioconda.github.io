@@ -74,10 +74,23 @@ msproteomicstools
 .. _`msproteomicstools/tags`: https://quay.io/repository/biocontainers/msproteomicstools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "msproteomicstools";
+        var versions = ["0.11.0","0.11.0","0.11.0","0.8.0","0.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

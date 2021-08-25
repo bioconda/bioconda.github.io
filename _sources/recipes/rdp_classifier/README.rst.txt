@@ -60,10 +60,23 @@ rdp_classifier
 .. _`rdp_classifier/tags`: https://quay.io/repository/biocontainers/rdp_classifier?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rdp_classifier";
+        var versions = ["2.13","2.13","2.2","2.2","2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

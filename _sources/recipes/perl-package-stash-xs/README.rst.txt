@@ -63,10 +63,23 @@ perl-package-stash-xs
 .. _`perl-package-stash-xs/tags`: https://quay.io/repository/biocontainers/perl-package-stash-xs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-package-stash-xs";
+        var versions = ["0.28","0.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

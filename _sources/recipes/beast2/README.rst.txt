@@ -73,10 +73,23 @@ beast2
 .. _`beast2/tags`: https://quay.io/repository/biocontainers/beast2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "beast2";
+        var versions = ["2.6.3","2.6.2","2.6.1","2.6.0","2.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

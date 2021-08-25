@@ -61,10 +61,23 @@ meneco
 .. _`meneco/tags`: https://quay.io/repository/biocontainers/meneco?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "meneco";
+        var versions = ["1.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

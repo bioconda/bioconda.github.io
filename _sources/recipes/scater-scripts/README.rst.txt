@@ -65,10 +65,23 @@ scater-scripts
 .. _`scater-scripts/tags`: https://quay.io/repository/biocontainers/scater-scripts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scater-scripts";
+        var versions = ["0.0.5","0.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

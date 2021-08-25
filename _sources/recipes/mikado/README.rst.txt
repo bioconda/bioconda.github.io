@@ -95,10 +95,23 @@ mikado
 .. _`mikado/tags`: https://quay.io/repository/biocontainers/mikado?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mikado";
+        var versions = ["2.3.0","2.2.5","2.2.4","2.2.3","2.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

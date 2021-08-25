@@ -69,10 +69,23 @@ bumbershoot
 .. _`bumbershoot/tags`: https://quay.io/repository/biocontainers/bumbershoot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bumbershoot";
+        var versions = ["3_0_21142_0e4f4a4","3_0_20295_bfe5db0","3_0_20290_13f6ea4","3_0_20178_35b8bd1","3_0_20175_cbf82d0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

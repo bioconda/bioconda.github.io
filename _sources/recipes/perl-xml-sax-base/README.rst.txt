@@ -60,10 +60,23 @@ perl-xml-sax-base
 .. _`perl-xml-sax-base/tags`: https://quay.io/repository/biocontainers/perl-xml-sax-base?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-sax-base";
+        var versions = ["1.09","1.08","1.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

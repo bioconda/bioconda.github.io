@@ -73,10 +73,23 @@ ena-upload-cli
 .. _`ena-upload-cli/tags`: https://quay.io/repository/biocontainers/ena-upload-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ena-upload-cli";
+        var versions = ["0.4.0","0.3.1","0.3.0","0.2.8","0.2.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

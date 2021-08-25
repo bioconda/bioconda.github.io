@@ -60,10 +60,23 @@ perl-ole-storage_lite
 .. _`perl-ole-storage_lite/tags`: https://quay.io/repository/biocontainers/perl-ole-storage_lite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ole-storage_lite";
+        var versions = ["0.19","0.19","0.19","0.19"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

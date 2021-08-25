@@ -67,10 +67,23 @@ hotspot3d
 .. _`hotspot3d/tags`: https://quay.io/repository/biocontainers/hotspot3d?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hotspot3d";
+        var versions = ["1.8.2","1.8.2","1.8.2","0.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

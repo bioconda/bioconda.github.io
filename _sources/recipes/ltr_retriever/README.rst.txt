@@ -63,10 +63,23 @@ ltr_retriever
 .. _`ltr_retriever/tags`: https://quay.io/repository/biocontainers/ltr_retriever?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ltr_retriever";
+        var versions = ["2.9.0","2.9.0","2.8.7","2.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

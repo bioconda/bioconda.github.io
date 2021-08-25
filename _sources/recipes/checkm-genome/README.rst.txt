@@ -77,10 +77,23 @@ checkm-genome
 .. _`checkm-genome/tags`: https://quay.io/repository/biocontainers/checkm-genome?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "checkm-genome";
+        var versions = ["1.1.3","1.1.3","1.1.2","1.1.2","1.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

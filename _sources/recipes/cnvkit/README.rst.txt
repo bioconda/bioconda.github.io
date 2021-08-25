@@ -83,10 +83,23 @@ cnvkit
 .. _`cnvkit/tags`: https://quay.io/repository/biocontainers/cnvkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cnvkit";
+        var versions = ["0.9.9","0.9.8","0.9.7","0.9.7","0.9.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

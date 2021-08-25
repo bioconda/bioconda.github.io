@@ -74,10 +74,23 @@ metaseq
 .. _`metaseq/tags`: https://quay.io/repository/biocontainers/metaseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metaseq";
+        var versions = ["0.5.6","0.5.6","0.5.6","0.5.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

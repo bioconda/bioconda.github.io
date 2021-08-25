@@ -62,10 +62,23 @@ velvet
 .. _`velvet/tags`: https://quay.io/repository/biocontainers/velvet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "velvet";
+        var versions = ["1.2.10","1.2.10","1.2.10","1.2.10","1.2.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

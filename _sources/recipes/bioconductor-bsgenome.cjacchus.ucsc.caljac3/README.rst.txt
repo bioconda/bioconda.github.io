@@ -62,10 +62,23 @@ bioconductor-bsgenome.cjacchus.ucsc.caljac3
 .. _`bioconductor-bsgenome.cjacchus.ucsc.caljac3/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.cjacchus.ucsc.caljac3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.cjacchus.ucsc.caljac3";
+        var versions = ["1.4.2","1.4.2","1.4.2","1.4.2","1.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

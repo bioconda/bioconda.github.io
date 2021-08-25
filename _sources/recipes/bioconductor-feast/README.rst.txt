@@ -71,10 +71,23 @@ bioconductor-feast
 .. _`bioconductor-feast/tags`: https://quay.io/repository/biocontainers/bioconductor-feast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-feast";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

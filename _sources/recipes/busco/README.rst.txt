@@ -81,10 +81,23 @@ busco
 .. _`busco/tags`: https://quay.io/repository/biocontainers/busco?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "busco";
+        var versions = ["5.2.2","5.2.1","5.2.0","5.1.3","5.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

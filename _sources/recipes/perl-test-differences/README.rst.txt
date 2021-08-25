@@ -62,10 +62,23 @@ perl-test-differences
 .. _`perl-test-differences/tags`: https://quay.io/repository/biocontainers/perl-test-differences?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-differences";
+        var versions = ["0.67","0.64","0.64","0.64"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

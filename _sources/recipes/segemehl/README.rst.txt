@@ -73,10 +73,23 @@ segemehl
 .. _`segemehl/tags`: https://quay.io/repository/biocontainers/segemehl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "segemehl";
+        var versions = ["0.3.4","0.3.4","0.3.4","0.3.4","0.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

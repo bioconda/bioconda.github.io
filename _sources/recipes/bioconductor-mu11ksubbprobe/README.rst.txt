@@ -62,10 +62,23 @@ bioconductor-mu11ksubbprobe
 .. _`bioconductor-mu11ksubbprobe/tags`: https://quay.io/repository/biocontainers/bioconductor-mu11ksubbprobe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mu11ksubbprobe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

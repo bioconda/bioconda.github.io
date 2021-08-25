@@ -63,10 +63,23 @@ csb
 .. _`csb/tags`: https://quay.io/repository/biocontainers/csb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "csb";
+        var versions = ["1.2.5","1.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

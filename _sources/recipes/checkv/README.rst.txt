@@ -78,10 +78,23 @@ checkv
 .. _`checkv/tags`: https://quay.io/repository/biocontainers/checkv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "checkv";
+        var versions = ["0.8.1","0.8.1","0.8.0","0.7.0","0.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

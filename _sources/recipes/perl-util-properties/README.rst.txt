@@ -63,10 +63,23 @@ perl-util-properties
 .. _`perl-util-properties/tags`: https://quay.io/repository/biocontainers/perl-util-properties?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-util-properties";
+        var versions = ["0.18","0.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

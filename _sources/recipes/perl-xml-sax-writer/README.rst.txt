@@ -63,10 +63,23 @@ perl-xml-sax-writer
 .. _`perl-xml-sax-writer/tags`: https://quay.io/repository/biocontainers/perl-xml-sax-writer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-sax-writer";
+        var versions = ["0.57","0.56","0.56","0.56"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

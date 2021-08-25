@@ -65,10 +65,23 @@ perl-mac-propertylist
 .. _`perl-mac-propertylist/tags`: https://quay.io/repository/biocontainers/perl-mac-propertylist?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mac-propertylist";
+        var versions = ["1.413"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

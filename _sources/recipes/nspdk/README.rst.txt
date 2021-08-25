@@ -61,10 +61,23 @@ nspdk
 .. _`nspdk/tags`: https://quay.io/repository/biocontainers/nspdk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nspdk";
+        var versions = ["9.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

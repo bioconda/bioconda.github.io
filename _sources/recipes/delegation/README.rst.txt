@@ -60,10 +60,23 @@ delegation
 .. _`delegation/tags`: https://quay.io/repository/biocontainers/delegation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "delegation";
+        var versions = ["1.1","1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

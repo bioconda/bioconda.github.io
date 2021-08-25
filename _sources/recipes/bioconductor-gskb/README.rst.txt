@@ -61,10 +61,23 @@ bioconductor-gskb
 .. _`bioconductor-gskb/tags`: https://quay.io/repository/biocontainers/bioconductor-gskb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gskb";
+        var versions = ["1.22.0","1.22.0","1.21.0","1.20.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ bioconductor-polyphen.hsapiens.dbsnp131
 .. _`bioconductor-polyphen.hsapiens.dbsnp131/tags`: https://quay.io/repository/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-polyphen.hsapiens.dbsnp131";
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

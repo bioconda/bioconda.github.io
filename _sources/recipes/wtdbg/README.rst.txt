@@ -62,10 +62,23 @@ wtdbg
 .. _`wtdbg/tags`: https://quay.io/repository/biocontainers/wtdbg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wtdbg";
+        var versions = ["2.5","2.5","2.3","2.1","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ pycluster
 .. _`pycluster/tags`: https://quay.io/repository/biocontainers/pycluster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pycluster";
+        var versions = ["1.54","1.54","1.54","1.54","1.54"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

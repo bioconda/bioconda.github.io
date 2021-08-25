@@ -61,10 +61,23 @@ perl-ntlm
 .. _`perl-ntlm/tags`: https://quay.io/repository/biocontainers/perl-ntlm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ntlm";
+        var versions = ["1.09","1.09","1.09","1.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

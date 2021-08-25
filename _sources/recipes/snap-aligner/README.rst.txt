@@ -59,10 +59,23 @@ snap-aligner
 .. _`snap-aligner/tags`: https://quay.io/repository/biocontainers/snap-aligner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snap-aligner";
+        var versions = ["1.0beta.23","1.0beta.18","1.0dev.97","1.0dev.97","1.0dev.97"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

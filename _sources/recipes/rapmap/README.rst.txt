@@ -74,10 +74,23 @@ rapmap
 .. _`rapmap/tags`: https://quay.io/repository/biocontainers/rapmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rapmap";
+        var versions = ["0.6.0","0.6.0","0.6.0","0.5.0","v0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

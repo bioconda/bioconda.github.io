@@ -65,10 +65,23 @@ estmapper
 .. _`estmapper/tags`: https://quay.io/repository/biocontainers/estmapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "estmapper";
+        var versions = ["2008","2008","2008","2008","2008"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

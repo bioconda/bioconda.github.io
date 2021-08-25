@@ -61,10 +61,23 @@ fasta-splitter
 .. _`fasta-splitter/tags`: https://quay.io/repository/biocontainers/fasta-splitter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fasta-splitter";
+        var versions = ["0.2.6","0.2.6","0.2.4","0.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

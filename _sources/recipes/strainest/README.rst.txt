@@ -71,10 +71,23 @@ strainest
 .. _`strainest/tags`: https://quay.io/repository/biocontainers/strainest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "strainest";
+        var versions = ["1.2.4","1.2.4","1.2.4","1.2.4","1.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

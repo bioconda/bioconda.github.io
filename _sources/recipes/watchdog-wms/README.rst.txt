@@ -71,10 +71,23 @@ watchdog-wms
 .. _`watchdog-wms/tags`: https://quay.io/repository/biocontainers/watchdog-wms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "watchdog-wms";
+        var versions = ["2.0.7","2.0.7","2.0.6","2.0.6","2.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

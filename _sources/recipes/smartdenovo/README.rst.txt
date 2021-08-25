@@ -61,10 +61,23 @@ smartdenovo
 .. _`smartdenovo/tags`: https://quay.io/repository/biocontainers/smartdenovo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "smartdenovo";
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

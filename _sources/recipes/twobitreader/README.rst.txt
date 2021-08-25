@@ -60,10 +60,23 @@ twobitreader
 .. _`twobitreader/tags`: https://quay.io/repository/biocontainers/twobitreader?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "twobitreader";
+        var versions = ["3.1.7","3.1.7","3.1.6","3.1.6","3.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

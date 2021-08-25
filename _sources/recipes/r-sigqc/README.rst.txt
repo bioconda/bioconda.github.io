@@ -76,10 +76,23 @@ r-sigqc
 .. _`r-sigqc/tags`: https://quay.io/repository/biocontainers/r-sigqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-sigqc";
+        var versions = ["0.1.22","0.1.22","0.1.21","0.1.21","0.1.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

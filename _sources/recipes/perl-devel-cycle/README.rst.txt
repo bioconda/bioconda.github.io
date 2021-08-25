@@ -60,10 +60,23 @@ perl-devel-cycle
 .. _`perl-devel-cycle/tags`: https://quay.io/repository/biocontainers/perl-devel-cycle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-devel-cycle";
+        var versions = ["1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

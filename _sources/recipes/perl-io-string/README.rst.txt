@@ -60,10 +60,23 @@ perl-io-string
 .. _`perl-io-string/tags`: https://quay.io/repository/biocontainers/perl-io-string?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-string";
+        var versions = ["1.08","1.08","1.08","1.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

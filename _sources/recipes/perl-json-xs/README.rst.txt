@@ -64,10 +64,23 @@ perl-json-xs
 .. _`perl-json-xs/tags`: https://quay.io/repository/biocontainers/perl-json-xs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-json-xs";
+        var versions = ["4.02","4.02","4.02","4.0","3.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

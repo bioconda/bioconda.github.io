@@ -73,10 +73,23 @@ shmlast
 .. _`shmlast/tags`: https://quay.io/repository/biocontainers/shmlast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shmlast";
+        var versions = ["1.6","1.4","1.4","1.4","1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

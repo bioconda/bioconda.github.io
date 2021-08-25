@@ -60,10 +60,23 @@ perl-sys-sigaction
 .. _`perl-sys-sigaction/tags`: https://quay.io/repository/biocontainers/perl-sys-sigaction?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sys-sigaction";
+        var versions = ["0.23","0.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

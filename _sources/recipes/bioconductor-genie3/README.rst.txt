@@ -65,10 +65,23 @@ bioconductor-genie3
 .. _`bioconductor-genie3/tags`: https://quay.io/repository/biocontainers/bioconductor-genie3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genie3";
+        var versions = ["1.14.0","1.12.0","1.12.0","1.10.0","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -94,10 +94,23 @@ roary
 .. _`roary/tags`: https://quay.io/repository/biocontainers/roary?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "roary";
+        var versions = ["3.13.0","3.13.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ perl-config-autoconf
 .. _`perl-config-autoconf/tags`: https://quay.io/repository/biocontainers/perl-config-autoconf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-config-autoconf";
+        var versions = ["0.317","0.311","0.311","0.311"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

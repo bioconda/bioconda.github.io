@@ -62,10 +62,23 @@ perl-gd-svg
 .. _`perl-gd-svg/tags`: https://quay.io/repository/biocontainers/perl-gd-svg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-gd-svg";
+        var versions = ["0.33","0.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

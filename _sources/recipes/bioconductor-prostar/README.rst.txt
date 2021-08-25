@@ -87,10 +87,23 @@ bioconductor-prostar
 .. _`bioconductor-prostar/tags`: https://quay.io/repository/biocontainers/bioconductor-prostar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-prostar";
+        var versions = ["1.24.3","1.22.8","1.22.0","1.20.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

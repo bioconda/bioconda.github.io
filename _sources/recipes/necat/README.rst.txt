@@ -64,10 +64,23 @@ necat
 .. _`necat/tags`: https://quay.io/repository/biocontainers/necat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "necat";
+        var versions = ["0.0.1_update20200803","0.0.1_update20200803"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ clair3
 .. _`clair3/tags`: https://quay.io/repository/biocontainers/clair3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clair3";
+        var versions = ["0.1.5","0.1.4.2","0.1.4.1","0.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ bioconductor-genotypeeval
 .. _`bioconductor-genotypeeval/tags`: https://quay.io/repository/biocontainers/bioconductor-genotypeeval?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genotypeeval";
+        var versions = ["1.24.0","1.22.0","1.22.0","1.20.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

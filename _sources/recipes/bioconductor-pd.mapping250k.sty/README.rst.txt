@@ -68,10 +68,23 @@ bioconductor-pd.mapping250k.sty
 .. _`bioconductor-pd.mapping250k.sty/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.mapping250k.sty?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.mapping250k.sty";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

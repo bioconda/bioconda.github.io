@@ -80,10 +80,23 @@ bioconductor-isogenegui
 .. _`bioconductor-isogenegui/tags`: https://quay.io/repository/biocontainers/bioconductor-isogenegui?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-isogenegui";
+        var versions = ["2.28.0","2.26.0","2.26.0","2.22.0","2.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

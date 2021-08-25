@@ -79,10 +79,23 @@ pathogen-profiler
 .. _`pathogen-profiler/tags`: https://quay.io/repository/biocontainers/pathogen-profiler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pathogen-profiler";
+        var versions = ["1.7.3","1.7.3","1.7.2","1.7.1","1.7.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -94,6 +94,13 @@ augustus
 .. _`augustus/tags`: https://quay.io/repository/biocontainers/augustus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "augustus";
+        var versions = ["3.4.0","3.4.0","3.4.0","3.3.3","3.3.3"];
+    </script>
+
 
 
 
@@ -102,6 +109,12 @@ Notes
 -----
 Builds with sqlite support are currently only available on Linux due to compile issues with macOS.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

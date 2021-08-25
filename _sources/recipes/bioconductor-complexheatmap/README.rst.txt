@@ -82,10 +82,23 @@ bioconductor-complexheatmap
 .. _`bioconductor-complexheatmap/tags`: https://quay.io/repository/biocontainers/bioconductor-complexheatmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-complexheatmap";
+        var versions = ["2.8.0","2.6.2","2.6.2","2.6.0","2.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

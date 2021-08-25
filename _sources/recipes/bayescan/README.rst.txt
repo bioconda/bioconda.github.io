@@ -61,10 +61,23 @@ bayescan
 .. _`bayescan/tags`: https://quay.io/repository/biocontainers/bayescan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bayescan";
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

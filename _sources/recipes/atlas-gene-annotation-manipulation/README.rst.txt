@@ -64,10 +64,23 @@ atlas-gene-annotation-manipulation
 .. _`atlas-gene-annotation-manipulation/tags`: https://quay.io/repository/biocontainers/atlas-gene-annotation-manipulation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "atlas-gene-annotation-manipulation";
+        var versions = ["1.0.2","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

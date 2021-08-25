@@ -64,10 +64,23 @@ exonerate
 .. _`exonerate/tags`: https://quay.io/repository/biocontainers/exonerate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "exonerate";
+        var versions = ["2.4.0","2.4.0","2.4.0","2.4.0","2.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ perl-archive-zip
 .. _`perl-archive-zip/tags`: https://quay.io/repository/biocontainers/perl-archive-zip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-archive-zip";
+        var versions = ["1.64","1.60","1.55","1.55","1.55"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

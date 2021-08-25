@@ -64,10 +64,23 @@ perl-io-socket-inet6
 .. _`perl-io-socket-inet6/tags`: https://quay.io/repository/biocontainers/perl-io-socket-inet6?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-socket-inet6";
+        var versions = ["2.72","2.72"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ tadarida-d
 .. _`tadarida-d/tags`: https://quay.io/repository/biocontainers/tadarida-d?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tadarida-d";
+        var versions = ["1.03","1.03","1.03","1.03","1.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

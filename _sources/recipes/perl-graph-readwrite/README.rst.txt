@@ -67,10 +67,23 @@ perl-graph-readwrite
 .. _`perl-graph-readwrite/tags`: https://quay.io/repository/biocontainers/perl-graph-readwrite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-graph-readwrite";
+        var versions = ["2.09","2.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

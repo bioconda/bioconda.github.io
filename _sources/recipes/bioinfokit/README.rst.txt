@@ -78,10 +78,23 @@ bioinfokit
 .. _`bioinfokit/tags`: https://quay.io/repository/biocontainers/bioinfokit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioinfokit";
+        var versions = ["2.0.6","2.0.5","2.0.4","2.0.3","2.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

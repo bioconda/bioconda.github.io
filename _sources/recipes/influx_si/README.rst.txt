@@ -84,10 +84,23 @@ influx_si
 .. _`influx_si/tags`: https://quay.io/repository/biocontainers/influx_si?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "influx_si";
+        var versions = ["5.4.0","5.3.0","5.2.0","5.1.0","5.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

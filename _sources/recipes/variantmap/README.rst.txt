@@ -63,10 +63,23 @@ variantmap
 .. _`variantmap/tags`: https://quay.io/repository/biocontainers/variantmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "variantmap";
+        var versions = ["1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ bioconductor-omixer
 .. _`bioconductor-omixer/tags`: https://quay.io/repository/biocontainers/bioconductor-omixer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-omixer";
+        var versions = ["1.2.1","1.0.4","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ bioconductor-sarks
 .. _`bioconductor-sarks/tags`: https://quay.io/repository/biocontainers/bioconductor-sarks?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sarks";
+        var versions = ["1.4.0","1.2.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

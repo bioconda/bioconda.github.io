@@ -61,10 +61,23 @@ rseg
 .. _`rseg/tags`: https://quay.io/repository/biocontainers/rseg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rseg";
+        var versions = ["0.4.9","0.4.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

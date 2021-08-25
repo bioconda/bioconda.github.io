@@ -66,10 +66,23 @@ bioconductor-rwikipathways
 .. _`bioconductor-rwikipathways/tags`: https://quay.io/repository/biocontainers/bioconductor-rwikipathways?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rwikipathways";
+        var versions = ["1.12.0","1.10.1","1.10.0","1.8.2","1.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -72,10 +72,23 @@ seqlogo
 .. _`seqlogo/tags`: https://quay.io/repository/biocontainers/seqlogo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqlogo";
+        var versions = ["5.29.8","5.29.7","5.29.6","5.29.5","5.29.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

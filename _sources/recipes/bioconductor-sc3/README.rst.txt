@@ -83,10 +83,23 @@ bioconductor-sc3
 .. _`bioconductor-sc3/tags`: https://quay.io/repository/biocontainers/bioconductor-sc3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sc3";
+        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

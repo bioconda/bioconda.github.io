@@ -70,10 +70,23 @@ pyfba
 .. _`pyfba/tags`: https://quay.io/repository/biocontainers/pyfba?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyfba";
+        var versions = ["2.59","2.58","2.55"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

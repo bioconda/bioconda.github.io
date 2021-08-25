@@ -62,10 +62,23 @@ nanopolishcomp
 .. _`nanopolishcomp/tags`: https://quay.io/repository/biocontainers/nanopolishcomp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanopolishcomp";
+        var versions = ["0.6.12","0.6.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

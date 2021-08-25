@@ -61,10 +61,23 @@ perl-list-moreutils-xs
 .. _`perl-list-moreutils-xs/tags`: https://quay.io/repository/biocontainers/perl-list-moreutils-xs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-list-moreutils-xs";
+        var versions = ["0.428"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

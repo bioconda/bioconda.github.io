@@ -60,10 +60,23 @@ perl-blib
 .. _`perl-blib/tags`: https://quay.io/repository/biocontainers/perl-blib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-blib";
+        var versions = ["1.06","1.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

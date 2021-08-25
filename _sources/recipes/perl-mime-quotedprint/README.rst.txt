@@ -60,10 +60,23 @@ perl-mime-quotedprint
 .. _`perl-mime-quotedprint/tags`: https://quay.io/repository/biocontainers/perl-mime-quotedprint?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mime-quotedprint";
+        var versions = ["3.13","3.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

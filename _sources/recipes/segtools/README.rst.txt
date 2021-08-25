@@ -81,10 +81,23 @@ segtools
 .. _`segtools/tags`: https://quay.io/repository/biocontainers/segtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "segtools";
+        var versions = ["1.2.4","1.2.4","1.2.3","1.2.2","1.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

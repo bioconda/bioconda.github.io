@@ -85,10 +85,23 @@ bioconductor-signer
 .. _`bioconductor-signer/tags`: https://quay.io/repository/biocontainers/bioconductor-signer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-signer";
+        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ opentargets
 .. _`opentargets/tags`: https://quay.io/repository/biocontainers/opentargets?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "opentargets";
+        var versions = ["3.1.16","3.1.16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

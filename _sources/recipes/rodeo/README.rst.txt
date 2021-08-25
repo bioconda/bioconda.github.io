@@ -65,10 +65,23 @@ rodeo
 .. _`rodeo/tags`: https://quay.io/repository/biocontainers/rodeo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rodeo";
+        var versions = ["2.3.3","2.3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

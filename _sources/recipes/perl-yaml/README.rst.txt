@@ -68,10 +68,23 @@ perl-yaml
 .. _`perl-yaml/tags`: https://quay.io/repository/biocontainers/perl-yaml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-yaml";
+        var versions = ["1.29","1.28","1.27","1.26","1.26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

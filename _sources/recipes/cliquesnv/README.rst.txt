@@ -61,10 +61,23 @@ cliquesnv
 .. _`cliquesnv/tags`: https://quay.io/repository/biocontainers/cliquesnv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cliquesnv";
+        var versions = ["2.0.2","2.0.0","1.5.7","1.5.7","1.5.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene
 .. _`bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene";
+        var versions = ["3.4.6","3.4.6","3.4.6","3.4.6","3.4.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

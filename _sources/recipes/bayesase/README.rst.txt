@@ -68,10 +68,23 @@ bayesase
 .. _`bayesase/tags`: https://quay.io/repository/biocontainers/bayesase?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bayesase";
+        var versions = ["21.1.13.1","21.1.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

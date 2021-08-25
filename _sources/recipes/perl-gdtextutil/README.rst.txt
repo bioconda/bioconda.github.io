@@ -62,10 +62,23 @@ perl-gdtextutil
 .. _`perl-gdtextutil/tags`: https://quay.io/repository/biocontainers/perl-gdtextutil?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-gdtextutil";
+        var versions = ["0.86","0.86","0.86","0.86","0.86"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

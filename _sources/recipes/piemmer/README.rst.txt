@@ -68,10 +68,23 @@ piemmer
 .. _`piemmer/tags`: https://quay.io/repository/biocontainers/piemmer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "piemmer";
+        var versions = ["1.0.5","1.0.4.dev0","1.0.2.dev0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

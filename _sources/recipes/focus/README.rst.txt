@@ -65,10 +65,23 @@ focus
 .. _`focus/tags`: https://quay.io/repository/biocontainers/focus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "focus";
+        var versions = ["1.6","1.5","1.4","1.4","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

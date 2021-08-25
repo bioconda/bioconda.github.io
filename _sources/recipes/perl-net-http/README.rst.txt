@@ -65,10 +65,23 @@ perl-net-http
 .. _`perl-net-http/tags`: https://quay.io/repository/biocontainers/perl-net-http?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-net-http";
+        var versions = ["6.19","6.18","6.09","6.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

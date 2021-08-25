@@ -78,10 +78,23 @@ brass
 .. _`brass/tags`: https://quay.io/repository/biocontainers/brass?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "brass";
+        var versions = ["5.1.6","5.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

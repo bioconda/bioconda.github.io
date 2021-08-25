@@ -59,10 +59,23 @@ burst
 .. _`burst/tags`: https://quay.io/repository/biocontainers/burst?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "burst";
+        var versions = ["v1.0","v1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

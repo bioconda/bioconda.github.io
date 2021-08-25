@@ -68,10 +68,23 @@ xpressplot
 .. _`xpressplot/tags`: https://quay.io/repository/biocontainers/xpressplot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "xpressplot";
+        var versions = ["0.2.5","0.2.5","0.2.3","0.2.2","0.0.8b0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

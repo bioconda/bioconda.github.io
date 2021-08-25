@@ -78,10 +78,23 @@ cactus
 .. _`cactus/tags`: https://quay.io/repository/biocontainers/cactus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cactus";
+        var versions = ["2019.03.01","2019.03.01","0.0.2019.03.01","0.0.2019.03.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

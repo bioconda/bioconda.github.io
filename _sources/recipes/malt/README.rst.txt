@@ -28,12 +28,12 @@ malt
       
       
 
-      ``0.41-1``,  ``0.41-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``0.53-0``,  ``0.41-1``,  ``0.41-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
    
-   :depends openjdk: ``>=8.0.144,<9``
+   :depends openjdk: ``>=11``
    :requirements:
 
    .. rubric:: Installation
@@ -61,10 +61,23 @@ malt
 .. _`malt/tags`: https://quay.io/repository/biocontainers/malt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "malt";
+        var versions = ["0.53","0.41","0.41","0.5.2","0.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,6 +61,13 @@ clove
 .. _`clove/tags`: https://quay.io/repository/biocontainers/clove?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clove";
+        var versions = ["0.17","0.17","0.17"];
+    </script>
+
 
 
 
@@ -74,6 +81,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"clove \-Xms512m \-Xmx1g\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

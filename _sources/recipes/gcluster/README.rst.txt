@@ -65,10 +65,23 @@ gcluster
 .. _`gcluster/tags`: https://quay.io/repository/biocontainers/gcluster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gcluster";
+        var versions = ["2.0.5","2.0.4","2.0.3","2.0.2","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

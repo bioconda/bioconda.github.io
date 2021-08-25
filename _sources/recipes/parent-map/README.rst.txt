@@ -62,10 +62,23 @@ parent-map
 .. _`parent-map/tags`: https://quay.io/repository/biocontainers/parent-map?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "parent-map";
+        var versions = ["1.1.2","1.1.1","1.1.0","1.0.4","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

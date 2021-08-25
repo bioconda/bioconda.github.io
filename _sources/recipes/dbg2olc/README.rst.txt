@@ -65,10 +65,23 @@ dbg2olc
 .. _`dbg2olc/tags`: https://quay.io/repository/biocontainers/dbg2olc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dbg2olc";
+        var versions = ["20180222","20180222","20180222","20160205","20160205"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

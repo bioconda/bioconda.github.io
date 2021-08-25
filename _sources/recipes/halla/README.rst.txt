@@ -68,10 +68,23 @@ halla
 .. _`halla/tags`: https://quay.io/repository/biocontainers/halla?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "halla";
+        var versions = ["0.8.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

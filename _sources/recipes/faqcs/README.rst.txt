@@ -64,10 +64,23 @@ faqcs
 .. _`faqcs/tags`: https://quay.io/repository/biocontainers/faqcs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "faqcs";
+        var versions = ["2.10","2.10","2.09","2.09","2.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

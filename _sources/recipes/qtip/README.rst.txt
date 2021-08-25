@@ -66,6 +66,13 @@ qtip
 .. _`qtip/tags`: https://quay.io/repository/biocontainers/qtip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "qtip";
+        var versions = ["1.6.2","1.6.2","1.6.2"];
+    </script>
+
 
 
 
@@ -75,6 +82,12 @@ Notes
 For running qtip\, you will need to install any of the supported read mappers\,
 \(e.g.\, bowtie2\)\, in the minimum required version. See homepage for details.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

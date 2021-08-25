@@ -66,10 +66,23 @@ medusa-data-fusion
 .. _`medusa-data-fusion/tags`: https://quay.io/repository/biocontainers/medusa-data-fusion?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "medusa-data-fusion";
+        var versions = ["0.1","0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

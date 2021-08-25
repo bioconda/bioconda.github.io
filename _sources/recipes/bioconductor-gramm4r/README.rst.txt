@@ -68,10 +68,23 @@ bioconductor-gramm4r
 .. _`bioconductor-gramm4r/tags`: https://quay.io/repository/biocontainers/bioconductor-gramm4r?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gramm4r";
+        var versions = ["1.4.0","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -92,10 +92,23 @@ lotus2
 .. _`lotus2/tags`: https://quay.io/repository/biocontainers/lotus2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lotus2";
+        var versions = ["2.12","2.12","2.11","2.09.2","2.09.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

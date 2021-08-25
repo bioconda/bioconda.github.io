@@ -61,10 +61,23 @@ bioconductor-copdsexualdimorphism.data
 .. _`bioconductor-copdsexualdimorphism.data/tags`: https://quay.io/repository/biocontainers/bioconductor-copdsexualdimorphism.data?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-copdsexualdimorphism.data";
+        var versions = ["1.28.0","1.26.0","1.26.0","1.25.0","1.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

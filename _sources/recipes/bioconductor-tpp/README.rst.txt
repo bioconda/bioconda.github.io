@@ -88,10 +88,23 @@ bioconductor-tpp
 .. _`bioconductor-tpp/tags`: https://quay.io/repository/biocontainers/bioconductor-tpp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-tpp";
+        var versions = ["3.20.0","3.18.0","3.18.0","3.16.0","3.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

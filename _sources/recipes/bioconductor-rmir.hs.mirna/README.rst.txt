@@ -62,10 +62,23 @@ bioconductor-rmir.hs.mirna
 .. _`bioconductor-rmir.hs.mirna/tags`: https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rmir.hs.mirna";
+        var versions = ["1.0.7","1.0.7","1.0.7","1.0.7","1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

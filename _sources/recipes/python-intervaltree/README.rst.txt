@@ -61,10 +61,23 @@ python-intervaltree
 .. _`python-intervaltree/tags`: https://quay.io/repository/biocontainers/python-intervaltree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-intervaltree";
+        var versions = ["3.1.0","3.0.2","3.0.2","3.0.1","2.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

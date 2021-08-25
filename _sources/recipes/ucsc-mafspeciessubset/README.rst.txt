@@ -65,10 +65,23 @@ ucsc-mafspeciessubset
 .. _`ucsc-mafspeciessubset/tags`: https://quay.io/repository/biocontainers/ucsc-mafspeciessubset?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-mafspeciessubset";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ ucsc-hgvstovcf
 .. _`ucsc-hgvstovcf/tags`: https://quay.io/repository/biocontainers/ucsc-hgvstovcf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-hgvstovcf";
+        var versions = ["377","377","377"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

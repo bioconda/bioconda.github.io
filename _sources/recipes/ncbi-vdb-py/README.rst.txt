@@ -64,10 +64,23 @@ ncbi-vdb-py
 .. _`ncbi-vdb-py/tags`: https://quay.io/repository/biocontainers/ncbi-vdb-py?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncbi-vdb-py";
+        var versions = ["2.11.0","2.10.9","2.10.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ goenrichment
 .. _`goenrichment/tags`: https://quay.io/repository/biocontainers/goenrichment?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "goenrichment";
+        var versions = ["2.0.1","2.0.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

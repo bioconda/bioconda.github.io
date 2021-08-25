@@ -74,10 +74,23 @@ r-recetox-aplcms
 .. _`r-recetox-aplcms/tags`: https://quay.io/repository/biocontainers/r-recetox-aplcms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-recetox-aplcms";
+        var versions = ["0.9.3","0.9.2","0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

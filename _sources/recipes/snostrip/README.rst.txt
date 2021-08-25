@@ -66,10 +66,23 @@ snostrip
 .. _`snostrip/tags`: https://quay.io/repository/biocontainers/snostrip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snostrip";
+        var versions = ["2.0.2","2.0.2","2.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

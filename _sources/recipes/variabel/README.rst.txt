@@ -64,10 +64,23 @@ variabel
 .. _`variabel/tags`: https://quay.io/repository/biocontainers/variabel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "variabel";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

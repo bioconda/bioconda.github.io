@@ -69,10 +69,23 @@ bioconductor-semisup
 .. _`bioconductor-semisup/tags`: https://quay.io/repository/biocontainers/bioconductor-semisup?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-semisup";
+        var versions = ["1.16.0","1.14.0","1.14.0","1.12.3","1.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

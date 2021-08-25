@@ -63,10 +63,23 @@ ddipy
 .. _`ddipy/tags`: https://quay.io/repository/biocontainers/ddipy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ddipy";
+        var versions = ["0.0.5","0.0.4","0.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ multiz
 .. _`multiz/tags`: https://quay.io/repository/biocontainers/multiz?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "multiz";
+        var versions = ["11.2","11.2","11.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

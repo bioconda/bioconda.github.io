@@ -61,10 +61,23 @@ fastme
 .. _`fastme/tags`: https://quay.io/repository/biocontainers/fastme?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastme";
+        var versions = ["2.1.6.1","2.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

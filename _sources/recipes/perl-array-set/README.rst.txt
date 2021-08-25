@@ -61,10 +61,23 @@ perl-array-set
 .. _`perl-array-set/tags`: https://quay.io/repository/biocontainers/perl-array-set?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-array-set";
+        var versions = ["0.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

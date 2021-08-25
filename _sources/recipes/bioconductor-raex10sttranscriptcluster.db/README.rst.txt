@@ -63,10 +63,23 @@ bioconductor-raex10sttranscriptcluster.db
 .. _`bioconductor-raex10sttranscriptcluster.db/tags`: https://quay.io/repository/biocontainers/bioconductor-raex10sttranscriptcluster.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-raex10sttranscriptcluster.db";
+        var versions = ["8.7.0","8.7.0","8.7.0","8.7.0","8.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

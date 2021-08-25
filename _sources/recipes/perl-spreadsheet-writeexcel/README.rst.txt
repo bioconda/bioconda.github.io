@@ -62,10 +62,23 @@ perl-spreadsheet-writeexcel
 .. _`perl-spreadsheet-writeexcel/tags`: https://quay.io/repository/biocontainers/perl-spreadsheet-writeexcel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-spreadsheet-writeexcel";
+        var versions = ["2.40","2.40","2.40"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

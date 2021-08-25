@@ -98,10 +98,23 @@ comparative-annotation-toolkit
 .. _`comparative-annotation-toolkit/tags`: https://quay.io/repository/biocontainers/comparative-annotation-toolkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "comparative-annotation-toolkit";
+        var versions = ["0.1","0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

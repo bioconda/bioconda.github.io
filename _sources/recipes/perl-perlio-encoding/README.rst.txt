@@ -60,10 +60,23 @@ perl-perlio-encoding
 .. _`perl-perlio-encoding/tags`: https://quay.io/repository/biocontainers/perl-perlio-encoding?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-perlio-encoding";
+        var versions = ["0.18","0.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

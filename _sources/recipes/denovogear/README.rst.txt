@@ -64,10 +64,23 @@ denovogear
 .. _`denovogear/tags`: https://quay.io/repository/biocontainers/denovogear?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "denovogear";
+        var versions = ["1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

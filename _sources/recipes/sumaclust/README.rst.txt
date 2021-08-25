@@ -60,10 +60,23 @@ sumaclust
 .. _`sumaclust/tags`: https://quay.io/repository/biocontainers/sumaclust?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sumaclust";
+        var versions = ["1.0.31","1.0.31","1.0.31","1.0.31"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

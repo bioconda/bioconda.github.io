@@ -74,10 +74,23 @@ metamaps
 .. _`metamaps/tags`: https://quay.io/repository/biocontainers/metamaps?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metamaps";
+        var versions = ["0.1.98102e9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

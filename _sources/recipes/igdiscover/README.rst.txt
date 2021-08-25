@@ -84,10 +84,23 @@ igdiscover
 .. _`igdiscover/tags`: https://quay.io/repository/biocontainers/igdiscover?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "igdiscover";
+        var versions = ["0.12.3","0.12.3","0.12.2","0.12.1","0.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

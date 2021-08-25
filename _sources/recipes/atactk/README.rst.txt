@@ -67,6 +67,13 @@ atactk
 .. _`atactk/tags`: https://quay.io/repository/biocontainers/atactk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "atactk";
+        var versions = ["0.1.9","0.1.6","0.1.6","0.1.6","0.1.6"];
+    </script>
+
 
 
 
@@ -75,6 +82,12 @@ Notes
 -----
 Adds 3 scripts\, namely \"trim\_adapters\"\, \"make\_cut\_matrix\" and \"plot\_aggregate\_matrix.R\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

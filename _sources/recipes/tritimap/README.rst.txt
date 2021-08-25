@@ -86,10 +86,23 @@ tritimap
 .. _`tritimap/tags`: https://quay.io/repository/biocontainers/tritimap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tritimap";
+        var versions = ["0.9.7","0.9.6","0.9.5","0.9.4","0.9.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

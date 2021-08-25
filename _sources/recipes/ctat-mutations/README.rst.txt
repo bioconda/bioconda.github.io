@@ -77,10 +77,23 @@ ctat-mutations
 .. _`ctat-mutations/tags`: https://quay.io/repository/biocontainers/ctat-mutations?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ctat-mutations";
+        var versions = ["2.1.0","2.0.1","2.0.1","2.0.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

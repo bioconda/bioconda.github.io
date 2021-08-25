@@ -62,10 +62,23 @@ bioconductor-bsubtilisprobe
 .. _`bioconductor-bsubtilisprobe/tags`: https://quay.io/repository/biocontainers/bioconductor-bsubtilisprobe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsubtilisprobe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

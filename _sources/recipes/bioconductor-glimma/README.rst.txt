@@ -76,10 +76,23 @@ bioconductor-glimma
 .. _`bioconductor-glimma/tags`: https://quay.io/repository/biocontainers/bioconductor-glimma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-glimma";
+        var versions = ["2.2.0","2.0.0","2.0.0","1.16.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

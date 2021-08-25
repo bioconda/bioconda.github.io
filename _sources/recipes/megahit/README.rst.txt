@@ -73,10 +73,23 @@ megahit
 .. _`megahit/tags`: https://quay.io/repository/biocontainers/megahit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "megahit";
+        var versions = ["1.2.9","1.2.9","1.2.8","1.2.7","1.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

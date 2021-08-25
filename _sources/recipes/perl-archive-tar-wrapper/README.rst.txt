@@ -64,10 +64,23 @@ perl-archive-tar-wrapper
 .. _`perl-archive-tar-wrapper/tags`: https://quay.io/repository/biocontainers/perl-archive-tar-wrapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-archive-tar-wrapper";
+        var versions = ["0.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

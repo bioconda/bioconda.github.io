@@ -61,10 +61,23 @@ ispcr
 .. _`ispcr/tags`: https://quay.io/repository/biocontainers/ispcr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ispcr";
+        var versions = ["33","33","33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

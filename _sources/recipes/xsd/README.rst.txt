@@ -62,10 +62,23 @@ xsd
 .. _`xsd/tags`: https://quay.io/repository/biocontainers/xsd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "xsd";
+        var versions = ["4.0.0_dep","4.0.0_dep","4.0.0_dep","4.0.0_dep","4.0.0_dep"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

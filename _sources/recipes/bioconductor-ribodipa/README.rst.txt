@@ -81,10 +81,23 @@ bioconductor-ribodipa
 .. _`bioconductor-ribodipa/tags`: https://quay.io/repository/biocontainers/bioconductor-ribodipa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ribodipa";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

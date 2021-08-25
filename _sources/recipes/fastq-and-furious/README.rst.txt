@@ -62,10 +62,23 @@ fastq-and-furious
 .. _`fastq-and-furious/tags`: https://quay.io/repository/biocontainers/fastq-and-furious?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastq-and-furious";
+        var versions = ["0.3.1","0.3.1","0.3.1","0.3.0","0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

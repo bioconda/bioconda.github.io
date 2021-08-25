@@ -64,10 +64,23 @@ r-imputelcmd
 .. _`r-imputelcmd/tags`: https://quay.io/repository/biocontainers/r-imputelcmd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-imputelcmd";
+        var versions = ["2.0","2.0","2.0","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

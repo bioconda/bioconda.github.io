@@ -75,10 +75,23 @@ abeona
 .. _`abeona/tags`: https://quay.io/repository/biocontainers/abeona?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "abeona";
+        var versions = ["0.45.0","0.45.0","0.44.3","0.44.0","0.43.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

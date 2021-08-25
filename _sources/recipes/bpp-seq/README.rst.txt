@@ -62,10 +62,23 @@ bpp-seq
 .. _`bpp-seq/tags`: https://quay.io/repository/biocontainers/bpp-seq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bpp-seq";
+        var versions = ["2.4.1","2.4.1","2.4.1","2.2.0","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

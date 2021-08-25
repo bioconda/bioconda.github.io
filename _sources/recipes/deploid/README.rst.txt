@@ -63,10 +63,23 @@ deploid
 .. _`deploid/tags`: https://quay.io/repository/biocontainers/deploid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deploid";
+        var versions = ["0.5","0.5","v0.5","v0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

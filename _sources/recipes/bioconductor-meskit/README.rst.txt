@@ -78,10 +78,23 @@ bioconductor-meskit
 .. _`bioconductor-meskit/tags`: https://quay.io/repository/biocontainers/bioconductor-meskit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-meskit";
+        var versions = ["1.2.0","1.0.1","1.0.0","0.99.16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

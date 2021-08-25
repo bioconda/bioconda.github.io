@@ -88,10 +88,23 @@ bcbio-nextgen-vm
 .. _`bcbio-nextgen-vm/tags`: https://quay.io/repository/biocontainers/bcbio-nextgen-vm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bcbio-nextgen-vm";
+        var versions = ["0.1.6","0.1.6","0.1.6","0.1.6","0.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

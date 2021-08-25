@@ -63,10 +63,23 @@ karyopype
 .. _`karyopype/tags`: https://quay.io/repository/biocontainers/karyopype?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "karyopype";
+        var versions = ["0.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

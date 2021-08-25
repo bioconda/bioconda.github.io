@@ -62,10 +62,23 @@ bioconductor-htmg430acdf
 .. _`bioconductor-htmg430acdf/tags`: https://quay.io/repository/biocontainers/bioconductor-htmg430acdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-htmg430acdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ vawk
 .. _`vawk/tags`: https://quay.io/repository/biocontainers/vawk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vawk";
+        var versions = ["0.0.2","0.0.2","0.0.2","0.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

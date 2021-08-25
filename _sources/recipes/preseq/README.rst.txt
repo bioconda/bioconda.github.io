@@ -65,10 +65,23 @@ preseq
 .. _`preseq/tags`: https://quay.io/repository/biocontainers/preseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "preseq";
+        var versions = ["3.1.2","3.1.2","2.0.3","2.0.3","2.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

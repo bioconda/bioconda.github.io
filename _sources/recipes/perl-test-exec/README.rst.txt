@@ -61,10 +61,23 @@ perl-test-exec
 .. _`perl-test-exec/tags`: https://quay.io/repository/biocontainers/perl-test-exec?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-exec";
+        var versions = ["0.04","0.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

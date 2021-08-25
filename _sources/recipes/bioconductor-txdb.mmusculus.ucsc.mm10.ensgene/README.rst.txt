@@ -71,10 +71,23 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 .. _`bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.mmusculus.ucsc.mm10.ensgene";
+        var versions = ["3.4.0","3.4.0","3.4.0","3.4.0","3.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

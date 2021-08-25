@@ -62,10 +62,23 @@ bioconductor-prostatecancervarambally
 .. _`bioconductor-prostatecancervarambally/tags`: https://quay.io/repository/biocontainers/bioconductor-prostatecancervarambally?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-prostatecancervarambally";
+        var versions = ["1.20.0","1.18.0","1.18.0","1.17.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ perl-dist-checkconflicts
 .. _`perl-dist-checkconflicts/tags`: https://quay.io/repository/biocontainers/perl-dist-checkconflicts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-dist-checkconflicts";
+        var versions = ["0.11","0.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

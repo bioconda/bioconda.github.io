@@ -60,10 +60,23 @@ tidyp
 .. _`tidyp/tags`: https://quay.io/repository/biocontainers/tidyp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tidyp";
+        var versions = ["1.04","1.04","1.04","1.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ seqmagick
 .. _`seqmagick/tags`: https://quay.io/repository/biocontainers/seqmagick?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqmagick";
+        var versions = ["0.8.4","0.8.4","0.8.0","0.7.0","0.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

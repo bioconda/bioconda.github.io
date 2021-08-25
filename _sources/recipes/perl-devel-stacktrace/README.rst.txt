@@ -60,10 +60,23 @@ perl-devel-stacktrace
 .. _`perl-devel-stacktrace/tags`: https://quay.io/repository/biocontainers/perl-devel-stacktrace?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-devel-stacktrace";
+        var versions = ["2.04","2.03","2.03","2.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

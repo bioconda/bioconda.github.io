@@ -73,10 +73,23 @@ bioconductor-mgsa
 .. _`bioconductor-mgsa/tags`: https://quay.io/repository/biocontainers/bioconductor-mgsa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mgsa";
+        var versions = ["1.40.0","1.38.0","1.38.0","1.36.0","1.34.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

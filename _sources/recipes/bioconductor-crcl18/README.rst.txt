@@ -62,10 +62,23 @@ bioconductor-crcl18
 .. _`bioconductor-crcl18/tags`: https://quay.io/repository/biocontainers/bioconductor-crcl18?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-crcl18";
+        var versions = ["1.12.0","1.10.0","1.10.0","1.9.0","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

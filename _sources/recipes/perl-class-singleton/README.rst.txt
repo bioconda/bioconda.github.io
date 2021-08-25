@@ -60,10 +60,23 @@ perl-class-singleton
 .. _`perl-class-singleton/tags`: https://quay.io/repository/biocontainers/perl-class-singleton?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-class-singleton";
+        var versions = ["1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

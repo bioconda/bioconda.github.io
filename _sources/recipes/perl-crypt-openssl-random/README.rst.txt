@@ -61,10 +61,23 @@ perl-crypt-openssl-random
 .. _`perl-crypt-openssl-random/tags`: https://quay.io/repository/biocontainers/perl-crypt-openssl-random?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-crypt-openssl-random";
+        var versions = ["0.11","0.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

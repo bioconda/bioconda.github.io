@@ -77,10 +77,23 @@ r-metalonda
 .. _`r-metalonda/tags`: https://quay.io/repository/biocontainers/r-metalonda?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-metalonda";
+        var versions = ["1.1.8","1.1.8","1.1.8","1.1.8","1.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

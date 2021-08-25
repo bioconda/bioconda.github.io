@@ -75,10 +75,23 @@ dcplib
 .. _`dcplib/tags`: https://quay.io/repository/biocontainers/dcplib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dcplib";
+        var versions = ["3.12.0","3.11.0","3.9.0","3.8.0","3.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

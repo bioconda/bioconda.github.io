@@ -61,10 +61,23 @@ edittag
 .. _`edittag/tags`: https://quay.io/repository/biocontainers/edittag?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "edittag";
+        var versions = ["1.1","1.1","1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

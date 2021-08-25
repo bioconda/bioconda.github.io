@@ -73,10 +73,23 @@ ngless
 .. _`ngless/tags`: https://quay.io/repository/biocontainers/ngless?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ngless";
+        var versions = ["1.3.0","1.3.0","1.2.0","1.2.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -80,10 +80,23 @@ confindr
 .. _`confindr/tags`: https://quay.io/repository/biocontainers/confindr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "confindr";
+        var versions = ["0.7.4","0.7.3","0.7.2","0.7.1","0.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

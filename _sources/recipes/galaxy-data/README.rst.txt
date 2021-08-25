@@ -82,10 +82,23 @@ galaxy-data
 .. _`galaxy-data/tags`: https://quay.io/repository/biocontainers/galaxy-data?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-data";
+        var versions = ["20.9.1","20.9.1","20.9.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

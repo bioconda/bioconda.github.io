@@ -65,10 +65,23 @@ swipe
 .. _`swipe/tags`: https://quay.io/repository/biocontainers/swipe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "swipe";
+        var versions = ["2.1.1","2.1.0","2.1.0","2.1.0","2.0.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

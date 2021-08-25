@@ -66,10 +66,23 @@ ismapper
 .. _`ismapper/tags`: https://quay.io/repository/biocontainers/ismapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ismapper";
+        var versions = ["2.0.2","2.0.2","2.0.1","2.0.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

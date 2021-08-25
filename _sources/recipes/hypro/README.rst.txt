@@ -64,10 +64,23 @@ hypro
 .. _`hypro/tags`: https://quay.io/repository/biocontainers/hypro?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hypro";
+        var versions = ["0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ circularmapper
 .. _`circularmapper/tags`: https://quay.io/repository/biocontainers/circularmapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "circularmapper";
+        var versions = ["1.93.5","1.93.5","1.93.4","1.93.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

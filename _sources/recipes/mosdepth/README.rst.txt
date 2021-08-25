@@ -71,10 +71,23 @@ mosdepth
 .. _`mosdepth/tags`: https://quay.io/repository/biocontainers/mosdepth?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mosdepth";
+        var versions = ["0.3.2","0.3.1","0.3.1","0.3.1","0.2.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

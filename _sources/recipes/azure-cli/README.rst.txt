@@ -60,10 +60,23 @@ azure-cli
 .. _`azure-cli/tags`: https://quay.io/repository/biocontainers/azure-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "azure-cli";
+        var versions = ["0.10.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

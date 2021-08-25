@@ -63,10 +63,23 @@ links
 .. _`links/tags`: https://quay.io/repository/biocontainers/links?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "links";
+        var versions = ["1.8.7","1.8.7","1.8.7","1.8.7","1.8.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

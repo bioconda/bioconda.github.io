@@ -62,10 +62,23 @@ setuptools_cython
 .. _`setuptools_cython/tags`: https://quay.io/repository/biocontainers/setuptools_cython?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "setuptools_cython";
+        var versions = ["0.2.1","0.2.1","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

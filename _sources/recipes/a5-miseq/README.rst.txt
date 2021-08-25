@@ -61,10 +61,23 @@ a5-miseq
 .. _`a5-miseq/tags`: https://quay.io/repository/biocontainers/a5-miseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "a5-miseq";
+        var versions = ["20160825","20160825","20160825"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

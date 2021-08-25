@@ -64,10 +64,23 @@ perl-ensembl-api
 .. _`perl-ensembl-api/tags`: https://quay.io/repository/biocontainers/perl-ensembl-api?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ensembl-api";
+        var versions = ["98","98"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

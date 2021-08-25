@@ -65,10 +65,23 @@ sga
 .. _`sga/tags`: https://quay.io/repository/biocontainers/sga?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sga";
+        var versions = ["0.10.15","0.10.15","0.10.15","0.10.15","0.10.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

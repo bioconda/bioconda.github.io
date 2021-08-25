@@ -62,10 +62,23 @@ eigenstratdatabasetools
 .. _`eigenstratdatabasetools/tags`: https://quay.io/repository/biocontainers/eigenstratdatabasetools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "eigenstratdatabasetools";
+        var versions = ["1.0.2","1.0.2","1.0.1","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

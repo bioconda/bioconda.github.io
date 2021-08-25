@@ -74,10 +74,23 @@ bioconductor-hmp2data
 .. _`bioconductor-hmp2data/tags`: https://quay.io/repository/biocontainers/bioconductor-hmp2data?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hmp2data";
+        var versions = ["1.6.0","1.4.0","1.4.0","1.1.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -80,10 +80,23 @@ r-basejump
 .. _`r-basejump/tags`: https://quay.io/repository/biocontainers/r-basejump?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-basejump";
+        var versions = ["0.14.21","0.14.20","0.14.19","0.14.18","0.14.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

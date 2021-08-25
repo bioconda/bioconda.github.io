@@ -62,10 +62,23 @@ tbl2asn-forever
 .. _`tbl2asn-forever/tags`: https://quay.io/repository/biocontainers/tbl2asn-forever?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tbl2asn-forever";
+        var versions = ["25.7.2f","25.7.2f","25.7.1f","25.7f"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

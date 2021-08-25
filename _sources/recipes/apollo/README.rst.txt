@@ -76,10 +76,23 @@ apollo
 .. _`apollo/tags`: https://quay.io/repository/biocontainers/apollo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "apollo";
+        var versions = ["4.2.13","4.2.12","4.2.11","4.2.10","4.2.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

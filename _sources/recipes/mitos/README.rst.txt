@@ -79,10 +79,23 @@ mitos
 .. _`mitos/tags`: https://quay.io/repository/biocontainers/mitos?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mitos";
+        var versions = ["2.0.8","2.0.6","2.0.5","2.0.4","2.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

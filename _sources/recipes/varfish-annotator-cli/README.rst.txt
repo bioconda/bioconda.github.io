@@ -68,10 +68,23 @@ varfish-annotator-cli
 .. _`varfish-annotator-cli/tags`: https://quay.io/repository/biocontainers/varfish-annotator-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "varfish-annotator-cli";
+        var versions = ["0.15","0.14","0.14","0.13","0.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

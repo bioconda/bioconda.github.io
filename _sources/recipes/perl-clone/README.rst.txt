@@ -64,10 +64,23 @@ perl-clone
 .. _`perl-clone/tags`: https://quay.io/repository/biocontainers/perl-clone?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-clone";
+        var versions = ["0.42","0.41","0.41","0.39","0.38"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ hichipper
 .. _`hichipper/tags`: https://quay.io/repository/biocontainers/hichipper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hichipper";
+        var versions = ["0.7.7","0.7.7","0.7.0","0.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bioformats
 .. _`bioformats/tags`: https://quay.io/repository/biocontainers/bioformats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioformats";
+        var versions = ["0.1.15","0.1.15","0.1.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

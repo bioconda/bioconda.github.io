@@ -62,10 +62,23 @@ perl-term-table
 .. _`perl-term-table/tags`: https://quay.io/repository/biocontainers/perl-term-table?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-term-table";
+        var versions = ["0.013","0.012"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

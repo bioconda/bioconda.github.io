@@ -61,10 +61,23 @@ perl-mime-base64
 .. _`perl-mime-base64/tags`: https://quay.io/repository/biocontainers/perl-mime-base64?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mime-base64";
+        var versions = ["3.15","3.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ tpp
 .. _`tpp/tags`: https://quay.io/repository/biocontainers/tpp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tpp";
+        var versions = ["5.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

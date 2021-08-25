@@ -63,10 +63,23 @@ perl-pegex
 .. _`perl-pegex/tags`: https://quay.io/repository/biocontainers/perl-pegex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pegex";
+        var versions = ["0.61","0.61"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

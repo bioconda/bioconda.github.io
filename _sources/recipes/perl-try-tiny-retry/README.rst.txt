@@ -61,10 +61,23 @@ perl-try-tiny-retry
 .. _`perl-try-tiny-retry/tags`: https://quay.io/repository/biocontainers/perl-try-tiny-retry?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-try-tiny-retry";
+        var versions = ["0.004","0.002","0.002"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

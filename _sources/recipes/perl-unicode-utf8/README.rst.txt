@@ -65,10 +65,23 @@ perl-unicode-utf8
 .. _`perl-unicode-utf8/tags`: https://quay.io/repository/biocontainers/perl-unicode-utf8?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-unicode-utf8";
+        var versions = ["0.62","0.62"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

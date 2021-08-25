@@ -77,10 +77,23 @@ metabinkit
 .. _`metabinkit/tags`: https://quay.io/repository/biocontainers/metabinkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metabinkit";
+        var versions = ["0.2.2","0.2.2","0.2.2","0.2.1","0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

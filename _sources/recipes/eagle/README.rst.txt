@@ -68,10 +68,23 @@ eagle
 .. _`eagle/tags`: https://quay.io/repository/biocontainers/eagle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "eagle";
+        var versions = ["0.9.4.6","0.9.3.3","0.9.3.3","0.9.3.3","0.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

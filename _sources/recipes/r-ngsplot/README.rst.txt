@@ -67,10 +67,23 @@ r-ngsplot
 .. _`r-ngsplot/tags`: https://quay.io/repository/biocontainers/r-ngsplot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ngsplot";
+        var versions = ["2.63","2.63","2.63","2.63","2.63"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

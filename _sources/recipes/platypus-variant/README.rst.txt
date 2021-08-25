@@ -63,10 +63,23 @@ platypus-variant
 .. _`platypus-variant/tags`: https://quay.io/repository/biocontainers/platypus-variant?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "platypus-variant";
+        var versions = ["0.8.1.2","0.8.1.2","0.8.1.2","0.8.1.1","0.8.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

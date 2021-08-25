@@ -73,10 +73,23 @@ pybigwig
 .. _`pybigwig/tags`: https://quay.io/repository/biocontainers/pybigwig?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pybigwig";
+        var versions = ["0.3.18","0.3.18","0.3.17","0.3.17","0.3.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

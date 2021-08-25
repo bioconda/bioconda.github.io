@@ -63,10 +63,23 @@ fineradstructure
 .. _`fineradstructure/tags`: https://quay.io/repository/biocontainers/fineradstructure?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fineradstructure";
+        var versions = ["0.3.2r109","0.3.2r109","0.3.2r109"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

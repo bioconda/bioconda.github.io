@@ -63,10 +63,23 @@ admixtools
 .. _`admixtools/tags`: https://quay.io/repository/biocontainers/admixtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "admixtools";
+        var versions = ["7.0.2","7.0.1","7.0.1","6.0","6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

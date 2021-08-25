@@ -61,10 +61,23 @@ lorikeet
 .. _`lorikeet/tags`: https://quay.io/repository/biocontainers/lorikeet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lorikeet";
+        var versions = ["20","19","17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

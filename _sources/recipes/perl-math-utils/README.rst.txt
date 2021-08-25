@@ -60,10 +60,23 @@ perl-math-utils
 .. _`perl-math-utils/tags`: https://quay.io/repository/biocontainers/perl-math-utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-utils";
+        var versions = ["1.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ bioconductor-snageedata
 .. _`bioconductor-snageedata/tags`: https://quay.io/repository/biocontainers/bioconductor-snageedata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-snageedata";
+        var versions = ["1.28.0","1.26.0","1.26.0","1.26.0","1.25.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

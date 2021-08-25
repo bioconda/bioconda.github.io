@@ -62,10 +62,23 @@ age-metasv
 .. _`age-metasv/tags`: https://quay.io/repository/biocontainers/age-metasv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "age-metasv";
+        var versions = ["2015.01.29.3","2015.01.29.3","2015.01.29.3","2015.01.29.3","2015.01.29.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

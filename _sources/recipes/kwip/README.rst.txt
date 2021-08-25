@@ -64,6 +64,13 @@ kwip
 .. _`kwip/tags`: https://quay.io/repository/biocontainers/kwip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kwip";
+        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0","0.2.0"];
+    </script>
+
 
 
 
@@ -72,6 +79,12 @@ Notes
 -----
 The k\-mer Weighted Inner Product \(kWIP\) implements a de novo\, alignment free measure of sample genetic dissimilarity which operates upon raw sequencing reads. It is able to calculate the genetic dissimilarity between samples without any reference genome\, and without assembling one.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

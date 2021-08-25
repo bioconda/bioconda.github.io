@@ -65,10 +65,23 @@ chipseq-greylist
 .. _`chipseq-greylist/tags`: https://quay.io/repository/biocontainers/chipseq-greylist?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chipseq-greylist";
+        var versions = ["1.0.2","1.0.2","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

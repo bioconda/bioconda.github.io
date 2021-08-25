@@ -63,10 +63,23 @@ perl-array-compare
 .. _`perl-array-compare/tags`: https://quay.io/repository/biocontainers/perl-array-compare?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-array-compare";
+        var versions = ["3.0.1","3.0.1","2.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

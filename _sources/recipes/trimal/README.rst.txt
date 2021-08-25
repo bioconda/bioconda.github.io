@@ -62,10 +62,23 @@ trimal
 .. _`trimal/tags`: https://quay.io/repository/biocontainers/trimal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trimal";
+        var versions = ["1.4.1","1.4.1","1.4.1","1.4.1","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

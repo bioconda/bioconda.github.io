@@ -71,10 +71,23 @@ bioconductor-noiseq
 .. _`bioconductor-noiseq/tags`: https://quay.io/repository/biocontainers/bioconductor-noiseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-noiseq";
+        var versions = ["2.36.0","2.34.0","2.34.0","2.31.0","2.30.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

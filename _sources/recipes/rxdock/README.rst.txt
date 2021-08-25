@@ -67,10 +67,23 @@ rxdock
 .. _`rxdock/tags`: https://quay.io/repository/biocontainers/rxdock?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rxdock";
+        var versions = ["2013.1.1_148c5bd1","2013.1.1_148c5bd1","2013.1.0_b93747f3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

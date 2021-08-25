@@ -84,10 +84,23 @@ bioconductor-genomicfeatures
 .. _`bioconductor-genomicfeatures/tags`: https://quay.io/repository/biocontainers/bioconductor-genomicfeatures?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genomicfeatures";
+        var versions = ["1.44.0","1.42.2","1.42.0","1.40.0","1.38.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ metalign
 .. _`metalign/tags`: https://quay.io/repository/biocontainers/metalign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metalign";
+        var versions = ["0.12.5","0.12.5","0.12.3","0.12.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

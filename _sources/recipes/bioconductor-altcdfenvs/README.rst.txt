@@ -68,10 +68,23 @@ bioconductor-altcdfenvs
 .. _`bioconductor-altcdfenvs/tags`: https://quay.io/repository/biocontainers/bioconductor-altcdfenvs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-altcdfenvs";
+        var versions = ["2.54.0","2.52.0","2.52.0","2.50.0","2.48.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

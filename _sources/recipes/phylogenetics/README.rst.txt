@@ -66,10 +66,23 @@ phylogenetics
 .. _`phylogenetics/tags`: https://quay.io/repository/biocontainers/phylogenetics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phylogenetics";
+        var versions = ["0.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

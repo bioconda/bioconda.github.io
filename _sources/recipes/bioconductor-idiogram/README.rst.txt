@@ -64,10 +64,23 @@ bioconductor-idiogram
 .. _`bioconductor-idiogram/tags`: https://quay.io/repository/biocontainers/bioconductor-idiogram?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-idiogram";
+        var versions = ["1.68.0","1.66.0","1.66.0","1.64.0","1.62.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

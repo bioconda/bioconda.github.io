@@ -74,10 +74,23 @@ discosnp
 .. _`discosnp/tags`: https://quay.io/repository/biocontainers/discosnp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "discosnp";
+        var versions = ["2.5.4","2.5.4","2.4.4","2.4.3","2.4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

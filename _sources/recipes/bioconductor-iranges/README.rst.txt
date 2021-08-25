@@ -74,10 +74,23 @@ bioconductor-iranges
 .. _`bioconductor-iranges/tags`: https://quay.io/repository/biocontainers/bioconductor-iranges?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-iranges";
+        var versions = ["2.26.0","2.24.1","2.24.0","2.22.1","2.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

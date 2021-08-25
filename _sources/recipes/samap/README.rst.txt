@@ -74,10 +74,23 @@ samap
 .. _`samap/tags`: https://quay.io/repository/biocontainers/samap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "samap";
+        var versions = ["0.2.2","0.2.1","0.2.0","0.1.9","0.1.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

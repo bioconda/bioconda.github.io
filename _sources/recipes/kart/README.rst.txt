@@ -66,10 +66,23 @@ kart
 .. _`kart/tags`: https://quay.io/repository/biocontainers/kart?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kart";
+        var versions = ["2.5.6","2.5.6","2.5.5","2.5.4","2.5.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

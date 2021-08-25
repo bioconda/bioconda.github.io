@@ -69,10 +69,23 @@ mokapot
 .. _`mokapot/tags`: https://quay.io/repository/biocontainers/mokapot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mokapot";
+        var versions = ["0.7.3","0.7.2","0.7.1","0.6.2","0.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

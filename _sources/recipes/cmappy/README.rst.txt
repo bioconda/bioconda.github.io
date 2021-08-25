@@ -75,10 +75,23 @@ cmappy
 .. _`cmappy/tags`: https://quay.io/repository/biocontainers/cmappy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cmappy";
+        var versions = ["4.0.1","4.0.1","4.0.1","3.3.3","3.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

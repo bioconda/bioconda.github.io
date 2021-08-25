@@ -78,10 +78,23 @@ r-phytools
 .. _`r-phytools/tags`: https://quay.io/repository/biocontainers/r-phytools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-phytools";
+        var versions = ["0.6_99","0.6_99","0.6_60","0.6_60","0.6_60"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

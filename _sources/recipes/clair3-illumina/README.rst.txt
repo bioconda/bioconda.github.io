@@ -62,10 +62,23 @@ clair3-illumina
 .. _`clair3-illumina/tags`: https://quay.io/repository/biocontainers/clair3-illumina?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clair3-illumina";
+        var versions = ["0.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

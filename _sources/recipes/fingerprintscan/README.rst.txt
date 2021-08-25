@@ -61,10 +61,23 @@ fingerprintscan
 .. _`fingerprintscan/tags`: https://quay.io/repository/biocontainers/fingerprintscan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fingerprintscan";
+        var versions = ["3_597","3_597"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

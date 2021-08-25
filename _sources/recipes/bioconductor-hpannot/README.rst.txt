@@ -61,10 +61,23 @@ bioconductor-hpannot
 .. _`bioconductor-hpannot/tags`: https://quay.io/repository/biocontainers/bioconductor-hpannot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hpannot";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

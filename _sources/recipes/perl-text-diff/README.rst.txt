@@ -61,10 +61,23 @@ perl-text-diff
 .. _`perl-text-diff/tags`: https://quay.io/repository/biocontainers/perl-text-diff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-diff";
+        var versions = ["1.45","1.44","1.44","1.44"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

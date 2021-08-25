@@ -63,10 +63,23 @@ nxtrim
 .. _`nxtrim/tags`: https://quay.io/repository/biocontainers/nxtrim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nxtrim";
+        var versions = ["0.4.3","0.4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

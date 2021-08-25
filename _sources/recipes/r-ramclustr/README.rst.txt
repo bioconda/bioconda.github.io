@@ -78,10 +78,23 @@ r-ramclustr
 .. _`r-ramclustr/tags`: https://quay.io/repository/biocontainers/r-ramclustr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ramclustr";
+        var versions = ["1.2.2","1.2.1","1.2.1","1.0.9","1.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

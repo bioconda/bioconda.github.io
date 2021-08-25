@@ -73,10 +73,23 @@ atropos
 .. _`atropos/tags`: https://quay.io/repository/biocontainers/atropos?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "atropos";
+        var versions = ["1.1.31","1.1.29","1.1.29","1.1.28","1.1.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

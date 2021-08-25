@@ -60,10 +60,23 @@ python-cluster
 .. _`python-cluster/tags`: https://quay.io/repository/biocontainers/python-cluster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-cluster";
+        var versions = ["1.4.1.post3","1.4.1.post1","1.4.1.post1","1.4.1.post1","1.4.1.post1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

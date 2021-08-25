@@ -61,10 +61,23 @@ bioconductor-human550v3bcrlmm
 .. _`bioconductor-human550v3bcrlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-human550v3bcrlmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-human550v3bcrlmm";
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.4","1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

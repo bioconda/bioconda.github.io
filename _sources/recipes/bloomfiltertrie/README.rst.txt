@@ -62,10 +62,23 @@ bloomfiltertrie
 .. _`bloomfiltertrie/tags`: https://quay.io/repository/biocontainers/bloomfiltertrie?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bloomfiltertrie";
+        var versions = ["0.8.7","0.8.7","0.8.7","0.8.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

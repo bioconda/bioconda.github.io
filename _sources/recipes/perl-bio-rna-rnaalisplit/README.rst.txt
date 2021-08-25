@@ -84,10 +84,23 @@ perl-bio-rna-rnaalisplit
 .. _`perl-bio-rna-rnaalisplit/tags`: https://quay.io/repository/biocontainers/perl-bio-rna-rnaalisplit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-rna-rnaalisplit";
+        var versions = ["v0.09","v0.08","v0.07","v0.06","v0.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

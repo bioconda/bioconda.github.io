@@ -64,10 +64,23 @@ dkfz-bias-filter
 .. _`dkfz-bias-filter/tags`: https://quay.io/repository/biocontainers/dkfz-bias-filter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dkfz-bias-filter";
+        var versions = ["1.2.3a","1.2.3a","1.2.3a","1.2.3a","1.2.3a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

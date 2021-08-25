@@ -79,10 +79,23 @@ bioconductor-barcodetrackr
 .. _`bioconductor-barcodetrackr/tags`: https://quay.io/repository/biocontainers/bioconductor-barcodetrackr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-barcodetrackr";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

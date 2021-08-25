@@ -83,10 +83,23 @@ phyloflash
 .. _`phyloflash/tags`: https://quay.io/repository/biocontainers/phyloflash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phyloflash";
+        var versions = ["3.4","3.4","3.3b4","3.3b3","3.3b2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

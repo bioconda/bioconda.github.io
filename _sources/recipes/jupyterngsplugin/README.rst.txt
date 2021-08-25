@@ -65,10 +65,23 @@ jupyterngsplugin
 .. _`jupyterngsplugin/tags`: https://quay.io/repository/biocontainers/jupyterngsplugin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jupyterngsplugin";
+        var versions = ["0.0.13a3","0.0.11a3","0.0.10a3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

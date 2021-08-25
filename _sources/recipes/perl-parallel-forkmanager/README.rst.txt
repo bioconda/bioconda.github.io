@@ -65,10 +65,23 @@ perl-parallel-forkmanager
 .. _`perl-parallel-forkmanager/tags`: https://quay.io/repository/biocontainers/perl-parallel-forkmanager?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-parallel-forkmanager";
+        var versions = ["2.02","1.17","1.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

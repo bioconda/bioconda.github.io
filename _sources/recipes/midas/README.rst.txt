@@ -75,6 +75,13 @@ midas
 .. _`midas/tags`: https://quay.io/repository/biocontainers/midas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "midas";
+        var versions = ["1.3.2","1.3.2","1.3.2","1.3.2","1.3.2"];
+    </script>
+
 
 
 
@@ -83,6 +90,12 @@ Notes
 -----
 MIDAS requires reference database that needs to be additionally downloaded and set\, https\:\/\/github.com\/snayfach\/MIDAS\/blob\/master\/docs\/ref\_db.md.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

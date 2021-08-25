@@ -96,10 +96,23 @@ metagenome-atlas
 .. _`metagenome-atlas/tags`: https://quay.io/repository/biocontainers/metagenome-atlas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metagenome-atlas";
+        var versions = ["2.6a2","2.6a1","2.5.0","2.4.5","2.4.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

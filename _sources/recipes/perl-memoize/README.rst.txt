@@ -61,10 +61,23 @@ perl-memoize
 .. _`perl-memoize/tags`: https://quay.io/repository/biocontainers/perl-memoize?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-memoize";
+        var versions = ["1.03","1.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

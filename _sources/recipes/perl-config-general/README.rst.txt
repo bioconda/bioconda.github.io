@@ -61,10 +61,23 @@ perl-config-general
 .. _`perl-config-general/tags`: https://quay.io/repository/biocontainers/perl-config-general?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-config-general";
+        var versions = ["2.63","2.61","2.61"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

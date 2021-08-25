@@ -80,10 +80,23 @@ open-cravat
 .. _`open-cravat/tags`: https://quay.io/repository/biocontainers/open-cravat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "open-cravat";
+        var versions = ["2.2.5","2.2.3","2.2.2","2.2.1","2.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ sequip
 .. _`sequip/tags`: https://quay.io/repository/biocontainers/sequip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sequip";
+        var versions = ["0.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

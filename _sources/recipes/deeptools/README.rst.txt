@@ -77,10 +77,23 @@ deeptools
 .. _`deeptools/tags`: https://quay.io/repository/biocontainers/deeptools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deeptools";
+        var versions = ["3.5.1","3.5.0","3.4.3","3.4.2","3.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

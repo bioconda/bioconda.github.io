@@ -60,10 +60,23 @@ perl-importer
 .. _`perl-importer/tags`: https://quay.io/repository/biocontainers/perl-importer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-importer";
+        var versions = ["0.025","0.025","0.024","0.024"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ kmergenie
 .. _`kmergenie/tags`: https://quay.io/repository/biocontainers/kmergenie?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kmergenie";
+        var versions = ["1.7051","1.7051","1.7016","1.7016","1.7016"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

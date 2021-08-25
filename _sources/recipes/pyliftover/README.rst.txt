@@ -60,10 +60,23 @@ pyliftover
 .. _`pyliftover/tags`: https://quay.io/repository/biocontainers/pyliftover?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyliftover";
+        var versions = ["0.4","0.3","0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

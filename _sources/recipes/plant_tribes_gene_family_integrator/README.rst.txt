@@ -60,10 +60,23 @@ plant_tribes_gene_family_integrator
 .. _`plant_tribes_gene_family_integrator/tags`: https://quay.io/repository/biocontainers/plant_tribes_gene_family_integrator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plant_tribes_gene_family_integrator";
+        var versions = ["1.0.4","1.0.4","1.0.3","1.0.3","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

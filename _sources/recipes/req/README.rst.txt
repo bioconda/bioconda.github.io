@@ -60,10 +60,23 @@ req
 .. _`req/tags`: https://quay.io/repository/biocontainers/req?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "req";
+        var versions = ["1.3.190304ac","1.3.190304ac","v1.3.190304ac","v1.3.190304ac"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

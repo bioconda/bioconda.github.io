@@ -83,10 +83,23 @@ bioconductor-ebimage
 .. _`bioconductor-ebimage/tags`: https://quay.io/repository/biocontainers/bioconductor-ebimage?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ebimage";
+        var versions = ["4.34.0","4.32.0","4.32.0","4.30.0","4.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

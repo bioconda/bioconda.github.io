@@ -61,10 +61,23 @@ perl-text-parsewords
 .. _`perl-text-parsewords/tags`: https://quay.io/repository/biocontainers/perl-text-parsewords?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-parsewords";
+        var versions = ["3.30","3.29","3.29","3.29"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

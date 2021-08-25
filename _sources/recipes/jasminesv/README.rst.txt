@@ -70,10 +70,23 @@ jasminesv
 .. _`jasminesv/tags`: https://quay.io/repository/biocontainers/jasminesv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jasminesv";
+        var versions = ["1.1.4","1.1.3","1.1.2","1.1.1","1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

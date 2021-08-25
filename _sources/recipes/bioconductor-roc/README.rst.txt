@@ -74,10 +74,23 @@ bioconductor-roc
 .. _`bioconductor-roc/tags`: https://quay.io/repository/biocontainers/bioconductor-roc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-roc";
+        var versions = ["1.68.0","1.66.0","1.66.0","1.64.0","1.62.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

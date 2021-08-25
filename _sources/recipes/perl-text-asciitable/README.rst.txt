@@ -62,10 +62,23 @@ perl-text-asciitable
 .. _`perl-text-asciitable/tags`: https://quay.io/repository/biocontainers/perl-text-asciitable?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-asciitable";
+        var versions = ["0.22","0.22","0.22"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

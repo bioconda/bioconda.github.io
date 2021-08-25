@@ -63,10 +63,23 @@ ghmm
 .. _`ghmm/tags`: https://quay.io/repository/biocontainers/ghmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ghmm";
+        var versions = ["0.9","0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ seqwish
 .. _`seqwish/tags`: https://quay.io/repository/biocontainers/seqwish?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqwish";
+        var versions = ["0.7.1","0.4.1","0.4.1","0.4","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

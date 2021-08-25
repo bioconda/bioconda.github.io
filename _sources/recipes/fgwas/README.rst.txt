@@ -64,10 +64,23 @@ fgwas
 .. _`fgwas/tags`: https://quay.io/repository/biocontainers/fgwas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fgwas";
+        var versions = ["0.3.6","0.3.6","0.3.6","0.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

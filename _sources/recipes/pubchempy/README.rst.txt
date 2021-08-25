@@ -62,10 +62,23 @@ pubchempy
 .. _`pubchempy/tags`: https://quay.io/repository/biocontainers/pubchempy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pubchempy";
+        var versions = ["1.0.4","1.0.4","1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

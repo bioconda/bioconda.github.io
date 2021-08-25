@@ -65,10 +65,23 @@ ucsc-gff3togenepred
 .. _`ucsc-gff3togenepred/tags`: https://quay.io/repository/biocontainers/ucsc-gff3togenepred?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-gff3togenepred";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

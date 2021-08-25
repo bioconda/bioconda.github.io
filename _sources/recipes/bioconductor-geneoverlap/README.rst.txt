@@ -71,10 +71,23 @@ bioconductor-geneoverlap
 .. _`bioconductor-geneoverlap/tags`: https://quay.io/repository/biocontainers/bioconductor-geneoverlap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-geneoverlap";
+        var versions = ["1.28.0","1.26.0","1.26.0","1.23.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bioconductor-mogene21sttranscriptcluster.db
 .. _`bioconductor-mogene21sttranscriptcluster.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mogene21sttranscriptcluster.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mogene21sttranscriptcluster.db";
+        var versions = ["8.7.0","8.7.0","8.7.0","8.7.0","8.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

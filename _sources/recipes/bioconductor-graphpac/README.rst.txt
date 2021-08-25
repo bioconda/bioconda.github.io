@@ -65,10 +65,23 @@ bioconductor-graphpac
 .. _`bioconductor-graphpac/tags`: https://quay.io/repository/biocontainers/bioconductor-graphpac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-graphpac";
+        var versions = ["1.34.0","1.32.0","1.32.0","1.30.0","1.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

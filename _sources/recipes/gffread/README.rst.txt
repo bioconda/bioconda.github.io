@@ -64,10 +64,23 @@ gffread
 .. _`gffread/tags`: https://quay.io/repository/biocontainers/gffread?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gffread";
+        var versions = ["0.12.1","0.12.1","0.11.7","0.11.6","0.11.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

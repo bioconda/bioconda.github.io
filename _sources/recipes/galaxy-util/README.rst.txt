@@ -75,10 +75,23 @@ galaxy-util
 .. _`galaxy-util/tags`: https://quay.io/repository/biocontainers/galaxy-util?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-util";
+        var versions = ["21.1.0","20.9.1","20.9.1","20.9.0","20.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

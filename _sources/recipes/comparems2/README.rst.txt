@@ -61,10 +61,23 @@ comparems2
 .. _`comparems2/tags`: https://quay.io/repository/biocontainers/comparems2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "comparems2";
+        var versions = ["1","1","1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

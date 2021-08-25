@@ -63,10 +63,23 @@ fastani
 .. _`fastani/tags`: https://quay.io/repository/biocontainers/fastani?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastani";
+        var versions = ["1.32","1.31","1.3","1.2","1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

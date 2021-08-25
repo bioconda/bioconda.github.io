@@ -60,10 +60,23 @@ kggseq
 .. _`kggseq/tags`: https://quay.io/repository/biocontainers/kggseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kggseq";
+        var versions = ["1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

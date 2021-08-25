@@ -72,10 +72,23 @@ bismark
 .. _`bismark/tags`: https://quay.io/repository/biocontainers/bismark?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bismark";
+        var versions = ["0.23.1","0.23.0","0.23.0","0.22.3","0.22.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

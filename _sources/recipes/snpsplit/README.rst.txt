@@ -62,10 +62,23 @@ snpsplit
 .. _`snpsplit/tags`: https://quay.io/repository/biocontainers/snpsplit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snpsplit";
+        var versions = ["0.5.0","0.4.0","0.4.0","0.3.4","0.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

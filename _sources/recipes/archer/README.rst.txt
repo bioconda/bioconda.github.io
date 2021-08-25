@@ -59,10 +59,23 @@ archer
 .. _`archer/tags`: https://quay.io/repository/biocontainers/archer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "archer";
+        var versions = ["0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

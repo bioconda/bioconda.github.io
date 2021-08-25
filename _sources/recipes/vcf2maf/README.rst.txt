@@ -70,6 +70,13 @@ vcf2maf
 .. _`vcf2maf/tags`: https://quay.io/repository/biocontainers/vcf2maf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vcf2maf";
+        var versions = ["1.6.21","1.6.20","1.6.20","1.6.19","1.6.19"];
+    </script>
+
 
 
 
@@ -79,6 +86,12 @@ Notes
 This package installs only vcf2maf and does not integrate with the variant\-effect\-predictor \(VEP\). To
 do so\, please follow the instructions at https\:\/\/github.com\/mskcc\/vcf2maf\/blob\/master\/README.md.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

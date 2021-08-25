@@ -61,10 +61,23 @@ ena-webin-cli
 .. _`ena-webin-cli/tags`: https://quay.io/repository/biocontainers/ena-webin-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ena-webin-cli";
+        var versions = ["4.0.0","3.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -73,10 +73,23 @@ alfred
 .. _`alfred/tags`: https://quay.io/repository/biocontainers/alfred?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "alfred";
+        var versions = ["0.2.3","0.2.3","0.2.1","0.2.1","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -75,10 +75,23 @@ plant_tribes_assembly_post_processor
 .. _`plant_tribes_assembly_post_processor/tags`: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plant_tribes_assembly_post_processor";
+        var versions = ["1.0.4","1.0.4","1.0.3","1.0.3","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ ffindex-dbkit
 .. _`ffindex-dbkit/tags`: https://quay.io/repository/biocontainers/ffindex-dbkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ffindex-dbkit";
+        var versions = ["0.2","0.2","0.2","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

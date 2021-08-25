@@ -65,10 +65,23 @@ protmapper
 .. _`protmapper/tags`: https://quay.io/repository/biocontainers/protmapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "protmapper";
+        var versions = ["0.0.21","0.0.20","0.0.19","0.0.17","0.0.16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

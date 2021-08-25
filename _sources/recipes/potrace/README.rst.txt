@@ -61,10 +61,23 @@ potrace
 .. _`potrace/tags`: https://quay.io/repository/biocontainers/potrace?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "potrace";
+        var versions = ["1.11","1.11","1.11","1.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

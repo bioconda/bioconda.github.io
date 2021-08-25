@@ -61,10 +61,23 @@ perl-module-extract-use
 .. _`perl-module-extract-use/tags`: https://quay.io/repository/biocontainers/perl-module-extract-use?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-extract-use";
+        var versions = ["1.043","1.043","1.043"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

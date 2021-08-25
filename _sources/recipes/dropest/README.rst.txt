@@ -75,10 +75,23 @@ dropest
 .. _`dropest/tags`: https://quay.io/repository/biocontainers/dropest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dropest";
+        var versions = ["0.8.6","0.8.6","0.8.6","0.8.5","0.8.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

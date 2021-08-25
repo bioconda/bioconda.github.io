@@ -60,10 +60,23 @@ perl-term-encoding
 .. _`perl-term-encoding/tags`: https://quay.io/repository/biocontainers/perl-term-encoding?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-term-encoding";
+        var versions = ["0.03","0.02","0.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

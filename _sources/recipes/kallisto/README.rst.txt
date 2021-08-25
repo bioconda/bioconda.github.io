@@ -72,10 +72,23 @@ kallisto
 .. _`kallisto/tags`: https://quay.io/repository/biocontainers/kallisto?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kallisto";
+        var versions = ["0.46.2","0.46.2","0.46.2","0.46.1","0.46.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

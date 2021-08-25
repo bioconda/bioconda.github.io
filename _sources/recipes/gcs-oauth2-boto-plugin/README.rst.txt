@@ -66,10 +66,23 @@ gcs-oauth2-boto-plugin
 .. _`gcs-oauth2-boto-plugin/tags`: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gcs-oauth2-boto-plugin";
+        var versions = ["1.9","1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

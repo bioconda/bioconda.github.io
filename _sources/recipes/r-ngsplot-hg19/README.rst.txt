@@ -63,10 +63,23 @@ r-ngsplotdb-hg19
 .. _`r-ngsplotdb-hg19/tags`: https://quay.io/repository/biocontainers/r-ngsplotdb-hg19?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ngsplotdb-hg19";
+        var versions = ["3.00","3.00","3.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

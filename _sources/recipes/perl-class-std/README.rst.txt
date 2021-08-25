@@ -61,10 +61,23 @@ perl-class-std
 .. _`perl-class-std/tags`: https://quay.io/repository/biocontainers/perl-class-std?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-class-std";
+        var versions = ["0.013","0.013"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

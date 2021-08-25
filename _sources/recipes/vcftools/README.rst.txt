@@ -71,10 +71,23 @@ vcftools
 .. _`vcftools/tags`: https://quay.io/repository/biocontainers/vcftools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vcftools";
+        var versions = ["0.1.16","0.1.16","0.1.16","0.1.16","0.1.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

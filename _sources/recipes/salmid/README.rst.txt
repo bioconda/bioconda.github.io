@@ -61,10 +61,23 @@ salmid
 .. _`salmid/tags`: https://quay.io/repository/biocontainers/salmid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "salmid";
+        var versions = ["0.1.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ bioconductor-pwmenrich
 .. _`bioconductor-pwmenrich/tags`: https://quay.io/repository/biocontainers/bioconductor-pwmenrich?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pwmenrich";
+        var versions = ["4.28.1","4.26.0","4.26.0","4.23.0","4.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

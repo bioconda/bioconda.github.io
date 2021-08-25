@@ -71,10 +71,23 @@ ncbi-vdb
 .. _`ncbi-vdb/tags`: https://quay.io/repository/biocontainers/ncbi-vdb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncbi-vdb";
+        var versions = ["2.11.0","2.11.0","2.10.9","2.10.8","2.10.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

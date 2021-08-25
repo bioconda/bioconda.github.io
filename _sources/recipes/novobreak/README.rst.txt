@@ -65,6 +65,13 @@ novobreak
 .. _`novobreak/tags`: https://quay.io/repository/biocontainers/novobreak?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "novobreak";
+        var versions = ["1.1.3rc","1.1.3rc","1.1.3rc","1.1.3rc","1.1.3rc"];
+    </script>
+
 
 
 
@@ -75,6 +82,12 @@ This package makes novobreak available via a wrapper in PATH\, called \`run\_nov
 takes all arguments of the run\_novoBreak.sh script except the first\, which is automatically
 inferred.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

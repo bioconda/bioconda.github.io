@@ -60,10 +60,23 @@ perl-role-tiny-with
 .. _`perl-role-tiny-with/tags`: https://quay.io/repository/biocontainers/perl-role-tiny-with?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-role-tiny-with";
+        var versions = ["2.000005","2.000005"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

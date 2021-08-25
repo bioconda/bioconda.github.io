@@ -62,10 +62,23 @@ dudes
 .. _`dudes/tags`: https://quay.io/repository/biocontainers/dudes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dudes";
+        var versions = ["0.08","0.08","0.08","0.07","0.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

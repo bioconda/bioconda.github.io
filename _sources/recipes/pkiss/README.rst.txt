@@ -64,10 +64,23 @@ pkiss
 .. _`pkiss/tags`: https://quay.io/repository/biocontainers/pkiss?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pkiss";
+        var versions = ["2.2.14","2.2.12","2.2.12","2.2.12","2.2.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ gbmunge
 .. _`gbmunge/tags`: https://quay.io/repository/biocontainers/gbmunge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gbmunge";
+        var versions = ["2018.07.06","2018.07.06","2018.07.06","2018.07.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

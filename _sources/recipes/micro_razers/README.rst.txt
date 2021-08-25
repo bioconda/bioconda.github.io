@@ -63,10 +63,23 @@ micro_razers
 .. _`micro_razers/tags`: https://quay.io/repository/biocontainers/micro_razers?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "micro_razers";
+        var versions = ["1.0.6","1.0.6","1.0.6","1.0.6","1.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

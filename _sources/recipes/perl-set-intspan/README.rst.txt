@@ -60,10 +60,23 @@ perl-set-intspan
 .. _`perl-set-intspan/tags`: https://quay.io/repository/biocontainers/perl-set-intspan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-set-intspan";
+        var versions = ["1.19","1.19"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ python-goenrichment
 .. _`python-goenrichment/tags`: https://quay.io/repository/biocontainers/python-goenrichment?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-goenrichment";
+        var versions = ["1.0.2","0.0.10a3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

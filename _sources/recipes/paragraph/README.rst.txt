@@ -68,10 +68,23 @@ paragraph
 .. _`paragraph/tags`: https://quay.io/repository/biocontainers/paragraph?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "paragraph";
+        var versions = ["2.3","2.3","2.2b","2.2a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

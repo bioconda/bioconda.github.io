@@ -83,10 +83,23 @@ scirpy
 .. _`scirpy/tags`: https://quay.io/repository/biocontainers/scirpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scirpy";
+        var versions = ["0.8.0","0.7.1","0.7.0","0.6.1","0.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

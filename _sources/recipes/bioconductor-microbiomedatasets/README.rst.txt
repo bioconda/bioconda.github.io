@@ -68,10 +68,23 @@ bioconductor-microbiomedatasets
 .. _`bioconductor-microbiomedatasets/tags`: https://quay.io/repository/biocontainers/bioconductor-microbiomedatasets?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-microbiomedatasets";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

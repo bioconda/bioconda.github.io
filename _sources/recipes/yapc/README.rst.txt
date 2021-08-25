@@ -65,10 +65,23 @@ yapc
 .. _`yapc/tags`: https://quay.io/repository/biocontainers/yapc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "yapc";
+        var versions = ["0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

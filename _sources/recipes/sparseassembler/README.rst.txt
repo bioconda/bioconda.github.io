@@ -61,10 +61,23 @@ sparseassembler
 .. _`sparseassembler/tags`: https://quay.io/repository/biocontainers/sparseassembler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sparseassembler";
+        var versions = ["20160205","20160205","20160205","20160205","20160205"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

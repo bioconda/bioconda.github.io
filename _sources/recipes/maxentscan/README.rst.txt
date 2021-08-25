@@ -60,6 +60,13 @@ maxentscan
 .. _`maxentscan/tags`: https://quay.io/repository/biocontainers/maxentscan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "maxentscan";
+        var versions = ["0_2004.04.21","0_2004.04.21","0_2004.04.21","0_2004.04.21"];
+    </script>
+
 
 
 
@@ -68,6 +75,12 @@ Notes
 -----
 Due to the generic name of the included scripts\, \"maxentscan\_\" has been prefixed all executables\, e.g. score3.pl can be called as maxentscan\_score3.pl.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

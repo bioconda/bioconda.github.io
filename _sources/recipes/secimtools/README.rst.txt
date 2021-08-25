@@ -75,10 +75,23 @@ secimtools
 .. _`secimtools/tags`: https://quay.io/repository/biocontainers/secimtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "secimtools";
+        var versions = ["21.6.3","21.3.4.2","1.0.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

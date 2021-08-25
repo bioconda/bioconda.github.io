@@ -64,10 +64,23 @@ miru-hero
 .. _`miru-hero/tags`: https://quay.io/repository/biocontainers/miru-hero?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "miru-hero";
+        var versions = ["0.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

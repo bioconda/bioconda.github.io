@@ -70,10 +70,23 @@ bioconductor-rfastp
 .. _`bioconductor-rfastp/tags`: https://quay.io/repository/biocontainers/bioconductor-rfastp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rfastp";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

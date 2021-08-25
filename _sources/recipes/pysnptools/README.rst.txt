@@ -66,10 +66,23 @@ pysnptools
 .. _`pysnptools/tags`: https://quay.io/repository/biocontainers/pysnptools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pysnptools";
+        var versions = ["0.3.13","0.3.13","0.3.13","0.3.13","0.3.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,6 +68,13 @@ opsin
 .. _`opsin/tags`: https://quay.io/repository/biocontainers/opsin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "opsin";
+        var versions = ["2.4.0","2.4.0","2.4.0","2.4.0","2.1.0"];
+    </script>
+
 
 
 
@@ -81,6 +88,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run opsin with \"opsin \-Xms512m \-Xmx1g \-\-help\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

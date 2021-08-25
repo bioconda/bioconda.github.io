@@ -62,10 +62,23 @@ perl-json-parse
 .. _`perl-json-parse/tags`: https://quay.io/repository/biocontainers/perl-json-parse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-json-parse";
+        var versions = ["0.55","0.55","0.49","0.49"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

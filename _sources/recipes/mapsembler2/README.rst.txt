@@ -60,10 +60,23 @@ mapsembler2
 .. _`mapsembler2/tags`: https://quay.io/repository/biocontainers/mapsembler2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mapsembler2";
+        var versions = ["2.2.4","2.2.4","2.2.4","2.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

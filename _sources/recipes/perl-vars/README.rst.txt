@@ -60,10 +60,23 @@ perl-vars
 .. _`perl-vars/tags`: https://quay.io/repository/biocontainers/perl-vars?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-vars";
+        var versions = ["1.03","1.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

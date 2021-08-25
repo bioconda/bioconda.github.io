@@ -67,10 +67,23 @@ segmentation-fold
 .. _`segmentation-fold/tags`: https://quay.io/repository/biocontainers/segmentation-fold?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "segmentation-fold";
+        var versions = ["1.7.0","1.7.0","1.7.0","1.7.0","1.6.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

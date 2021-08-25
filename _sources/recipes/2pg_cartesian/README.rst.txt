@@ -62,10 +62,23 @@
 .. _`2pg_cartesian/tags`: https://quay.io/repository/biocontainers/2pg_cartesian?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "2pg_cartesian";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -81,10 +81,23 @@ hitea
 .. _`hitea/tags`: https://quay.io/repository/biocontainers/hitea?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hitea";
+        var versions = ["0.1.5","0.1.5","0.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

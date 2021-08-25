@@ -60,6 +60,13 @@ edlib
 .. _`edlib/tags`: https://quay.io/repository/biocontainers/edlib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "edlib";
+        var versions = ["1.2.3","1.2.3","1.2.1","1.2.0","1.1.2"];
+    </script>
+
 
 
 
@@ -68,6 +75,12 @@ Notes
 -----
 From version 1.1.0 onward\, the \`aligner\` executable has been renamed to \`edlib\-aligner\`.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

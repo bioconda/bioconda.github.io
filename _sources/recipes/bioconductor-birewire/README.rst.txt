@@ -76,10 +76,23 @@ bioconductor-birewire
 .. _`bioconductor-birewire/tags`: https://quay.io/repository/biocontainers/bioconductor-birewire?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-birewire";
+        var versions = ["3.24.0","3.22.0","3.22.0","3.20.0","3.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

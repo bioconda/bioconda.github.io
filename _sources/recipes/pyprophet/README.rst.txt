@@ -82,10 +82,23 @@ pyprophet
 .. _`pyprophet/tags`: https://quay.io/repository/biocontainers/pyprophet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyprophet";
+        var versions = ["2.1.10","2.1.10","2.1.6","2.1.5","2.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

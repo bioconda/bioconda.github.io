@@ -78,10 +78,23 @@ parsnp
 .. _`parsnp/tags`: https://quay.io/repository/biocontainers/parsnp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "parsnp";
+        var versions = ["1.5.6","1.5.4","1.5.4","1.5.3","1.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

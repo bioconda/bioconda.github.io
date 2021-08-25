@@ -69,6 +69,13 @@ scramble
 .. _`scramble/tags`: https://quay.io/repository/biocontainers/scramble?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scramble";
+        var versions = ["1.0.1","1.0.1"];
+    </script>
+
 
 
 
@@ -80,6 +87,12 @@ read cluster consensus sequences. Second\, SCRAMble.R analyzes the cluster file 
 Custom wrapper script scramble.sh is provided to help setting location of SCRAMble.R script\,
 and values for \-\-install\-dir and \-\-mei\-refs params.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

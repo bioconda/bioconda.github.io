@@ -66,10 +66,23 @@ shasta
 .. _`shasta/tags`: https://quay.io/repository/biocontainers/shasta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shasta";
+        var versions = ["0.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

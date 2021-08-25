@@ -65,10 +65,23 @@ ucsc-bedweedoverlapping
 .. _`ucsc-bedweedoverlapping/tags`: https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-bedweedoverlapping";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-ahlrbasedbs
 .. _`bioconductor-ahlrbasedbs/tags`: https://quay.io/repository/biocontainers/bioconductor-ahlrbasedbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ahlrbasedbs";
+        var versions = ["0.99.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

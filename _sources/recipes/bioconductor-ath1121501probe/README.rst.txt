@@ -62,10 +62,23 @@ bioconductor-ath1121501probe
 .. _`bioconductor-ath1121501probe/tags`: https://quay.io/repository/biocontainers/bioconductor-ath1121501probe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ath1121501probe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

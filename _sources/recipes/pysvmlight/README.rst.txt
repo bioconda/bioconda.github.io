@@ -62,10 +62,23 @@ pysvmlight
 .. _`pysvmlight/tags`: https://quay.io/repository/biocontainers/pysvmlight?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pysvmlight";
+        var versions = ["0.4","0.4","0.4","0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

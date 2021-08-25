@@ -71,10 +71,23 @@ bioconductor-txdb.celegans.ucsc.ce11.refgene
 .. _`bioconductor-txdb.celegans.ucsc.ce11.refgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.celegans.ucsc.ce11.refgene";
+        var versions = ["3.4.6","3.4.6","3.4.6","3.4.6","3.4.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

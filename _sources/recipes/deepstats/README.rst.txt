@@ -76,10 +76,23 @@ deepstats
 .. _`deepstats/tags`: https://quay.io/repository/biocontainers/deepstats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deepstats";
+        var versions = ["0.4","0.4","0.3.1","0.3","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ ngs-disambiguate
 .. _`ngs-disambiguate/tags`: https://quay.io/repository/biocontainers/ngs-disambiguate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ngs-disambiguate";
+        var versions = ["2018.05.03","2018.05.03","2018.05.03","2018.05.03","2018.05.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

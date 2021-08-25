@@ -62,10 +62,23 @@ pal2nal
 .. _`pal2nal/tags`: https://quay.io/repository/biocontainers/pal2nal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pal2nal";
+        var versions = ["14.1","14.1","14.1","14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

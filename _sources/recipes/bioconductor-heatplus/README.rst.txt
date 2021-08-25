@@ -70,10 +70,23 @@ bioconductor-heatplus
 .. _`bioconductor-heatplus/tags`: https://quay.io/repository/biocontainers/bioconductor-heatplus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-heatplus";
+        var versions = ["3.0.0","2.36.0","2.36.0","2.34.0","2.32.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

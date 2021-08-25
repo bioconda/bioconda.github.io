@@ -60,10 +60,23 @@ rdp-readseq
 .. _`rdp-readseq/tags`: https://quay.io/repository/biocontainers/rdp-readseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rdp-readseq";
+        var versions = ["2.0.2","2.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

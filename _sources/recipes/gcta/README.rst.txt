@@ -60,10 +60,23 @@ gcta
 .. _`gcta/tags`: https://quay.io/repository/biocontainers/gcta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gcta";
+        var versions = ["1.93.2beta","1.93.2beta"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

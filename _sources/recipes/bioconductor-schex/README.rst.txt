@@ -71,10 +71,23 @@ bioconductor-schex
 .. _`bioconductor-schex/tags`: https://quay.io/repository/biocontainers/bioconductor-schex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-schex";
+        var versions = ["1.5.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

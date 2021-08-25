@@ -65,10 +65,23 @@ libmaus2
 .. _`libmaus2/tags`: https://quay.io/repository/biocontainers/libmaus2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libmaus2";
+        var versions = ["2.0.777","2.0.774","2.0.774","2.0.772","2.0.772"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

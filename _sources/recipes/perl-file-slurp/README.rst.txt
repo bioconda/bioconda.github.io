@@ -62,10 +62,23 @@ perl-file-slurp
 .. _`perl-file-slurp/tags`: https://quay.io/repository/biocontainers/perl-file-slurp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-slurp";
+        var versions = ["9999.27","9999.25","9999.24","9999.19","9999.19"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

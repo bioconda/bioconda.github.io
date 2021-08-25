@@ -62,10 +62,23 @@ clinvar-tsv
 .. _`clinvar-tsv/tags`: https://quay.io/repository/biocontainers/clinvar-tsv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clinvar-tsv";
+        var versions = ["0.1.1","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

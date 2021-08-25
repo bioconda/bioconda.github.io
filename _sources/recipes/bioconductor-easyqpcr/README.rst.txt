@@ -64,10 +64,23 @@ bioconductor-easyqpcr
 .. _`bioconductor-easyqpcr/tags`: https://quay.io/repository/biocontainers/bioconductor-easyqpcr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-easyqpcr";
+        var versions = ["1.31.0","1.31.0","1.30.0","1.28.0","1.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

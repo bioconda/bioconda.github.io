@@ -73,10 +73,23 @@ bioconductor-swimr
 .. _`bioconductor-swimr/tags`: https://quay.io/repository/biocontainers/bioconductor-swimr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-swimr";
+        var versions = ["1.29.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

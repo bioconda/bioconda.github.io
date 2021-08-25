@@ -62,10 +62,23 @@ allegro
 .. _`allegro/tags`: https://quay.io/repository/biocontainers/allegro?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "allegro";
+        var versions = ["3","3","3","3","2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

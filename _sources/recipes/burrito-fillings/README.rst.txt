@@ -62,10 +62,23 @@ burrito-fillings
 .. _`burrito-fillings/tags`: https://quay.io/repository/biocontainers/burrito-fillings?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "burrito-fillings";
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

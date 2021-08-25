@@ -61,10 +61,23 @@ igor_vdj
 .. _`igor_vdj/tags`: https://quay.io/repository/biocontainers/igor_vdj?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "igor_vdj";
+        var versions = ["1.4.0","1.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

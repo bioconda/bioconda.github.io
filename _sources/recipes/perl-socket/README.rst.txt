@@ -60,10 +60,23 @@ perl-socket
 .. _`perl-socket/tags`: https://quay.io/repository/biocontainers/perl-socket?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-socket";
+        var versions = ["2.027","2.027"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

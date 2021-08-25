@@ -86,10 +86,23 @@ bioconductor-catalyst
 .. _`bioconductor-catalyst/tags`: https://quay.io/repository/biocontainers/bioconductor-catalyst?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-catalyst";
+        var versions = ["1.16.0","1.14.0","1.14.0","1.12.1","1.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-file-grep
 .. _`perl-file-grep/tags`: https://quay.io/repository/biocontainers/perl-file-grep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-grep";
+        var versions = ["0.02","0.02","0.02","0.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

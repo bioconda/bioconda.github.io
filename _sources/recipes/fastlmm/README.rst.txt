@@ -71,10 +71,23 @@ fastlmm
 .. _`fastlmm/tags`: https://quay.io/repository/biocontainers/fastlmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastlmm";
+        var versions = ["0.2.32","0.2.32","0.2.32","0.2.32","0.2.32"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

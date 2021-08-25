@@ -62,10 +62,23 @@ perl-file-sharedir-install
 .. _`perl-file-sharedir-install/tags`: https://quay.io/repository/biocontainers/perl-file-sharedir-install?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-sharedir-install";
+        var versions = ["0.13","0.10","0.10","0.10","0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

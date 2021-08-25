@@ -89,10 +89,23 @@ deepac
 .. _`deepac/tags`: https://quay.io/repository/biocontainers/deepac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deepac";
+        var versions = ["0.13.6","0.13.5","0.13.4","0.13.3","0.13.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

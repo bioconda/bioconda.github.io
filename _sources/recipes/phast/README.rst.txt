@@ -60,10 +60,23 @@ phast
 .. _`phast/tags`: https://quay.io/repository/biocontainers/phast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phast";
+        var versions = ["1.5","1.5","1.5","1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

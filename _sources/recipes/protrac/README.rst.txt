@@ -61,10 +61,23 @@ protrac
 .. _`protrac/tags`: https://quay.io/repository/biocontainers/protrac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "protrac";
+        var versions = ["2.4.2","2.4.2","2.4.2","2.3.1","2.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -72,10 +72,23 @@ breseq
 .. _`breseq/tags`: https://quay.io/repository/biocontainers/breseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "breseq";
+        var versions = ["0.36.0","0.35.7","0.35.6","0.35.5","0.35.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

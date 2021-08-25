@@ -62,10 +62,23 @@ bioconductor-hthgu133aprobe
 .. _`bioconductor-hthgu133aprobe/tags`: https://quay.io/repository/biocontainers/bioconductor-hthgu133aprobe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hthgu133aprobe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

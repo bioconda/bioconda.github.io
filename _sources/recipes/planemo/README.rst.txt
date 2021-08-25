@@ -88,10 +88,23 @@ planemo
 .. _`planemo/tags`: https://quay.io/repository/biocontainers/planemo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "planemo";
+        var versions = ["0.74.6","0.74.5","0.74.4","0.74.4","0.74.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

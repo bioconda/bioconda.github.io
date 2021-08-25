@@ -60,10 +60,23 @@ perl-html-tagset
 .. _`perl-html-tagset/tags`: https://quay.io/repository/biocontainers/perl-html-tagset?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-tagset";
+        var versions = ["3.20","3.20","3.20","3.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

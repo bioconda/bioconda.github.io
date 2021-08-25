@@ -79,10 +79,23 @@ chewbbaca
 .. _`chewbbaca/tags`: https://quay.io/repository/biocontainers/chewbbaca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chewbbaca";
+        var versions = ["2.8.5","2.8.4","2.7.0","2.6.0","2.5.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

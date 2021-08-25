@@ -64,10 +64,23 @@ metabat2
 .. _`metabat2/tags`: https://quay.io/repository/biocontainers/metabat2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metabat2";
+        var versions = ["2.15","2.15","2.14","2.13","2.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

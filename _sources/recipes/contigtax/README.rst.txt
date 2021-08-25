@@ -66,10 +66,23 @@ contigtax
 .. _`contigtax/tags`: https://quay.io/repository/biocontainers/contigtax?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "contigtax";
+        var versions = ["0.5.10","0.5.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

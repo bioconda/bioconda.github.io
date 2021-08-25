@@ -76,10 +76,23 @@ biasaway
 .. _`biasaway/tags`: https://quay.io/repository/biocontainers/biasaway?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biasaway";
+        var versions = ["3.3.0","3.2.7","3.2.5","3.2.4","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ rambo-k
 .. _`rambo-k/tags`: https://quay.io/repository/biocontainers/rambo-k?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rambo-k";
+        var versions = ["1.21","1.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

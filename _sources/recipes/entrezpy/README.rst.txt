@@ -62,10 +62,23 @@ entrezpy
 .. _`entrezpy/tags`: https://quay.io/repository/biocontainers/entrezpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "entrezpy";
+        var versions = ["2.1.3","2.1.2","2.1.1","2.0.5","2.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ snns
 .. _`snns/tags`: https://quay.io/repository/biocontainers/snns?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snns";
+        var versions = ["4.3","4.3","4.3","4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

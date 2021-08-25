@@ -61,10 +61,23 @@ fastq-multx
 .. _`fastq-multx/tags`: https://quay.io/repository/biocontainers/fastq-multx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastq-multx";
+        var versions = ["1.4.2","1.4.2","1.4.0","1.3.1","1.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

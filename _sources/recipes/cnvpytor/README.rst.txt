@@ -68,6 +68,13 @@ cnvpytor
 .. _`cnvpytor/tags`: https://quay.io/repository/biocontainers/cnvpytor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cnvpytor";
+        var versions = ["1.0","1.0","1.0","1.0b3","1.0b3"];
+    </script>
+
 
 
 
@@ -76,6 +83,12 @@ Notes
 -----
 The package comes with downloaded reference data\, such that \`cnvpytor \-download\` can be omitted.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -85,10 +85,23 @@ stream_atac
 .. _`stream_atac/tags`: https://quay.io/repository/biocontainers/stream_atac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stream_atac";
+        var versions = ["0.3.5","0.3.5","0.3.5","0.3.5","0.3.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -70,10 +70,23 @@ taranis
 .. _`taranis/tags`: https://quay.io/repository/biocontainers/taranis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "taranis";
+        var versions = ["2.0.1","2.0.0edge"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

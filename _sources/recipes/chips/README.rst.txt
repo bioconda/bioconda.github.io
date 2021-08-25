@@ -63,10 +63,23 @@ chips
 .. _`chips/tags`: https://quay.io/repository/biocontainers/chips?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chips";
+        var versions = ["2.4","2.4","2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ pilon
 .. _`pilon/tags`: https://quay.io/repository/biocontainers/pilon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pilon";
+        var versions = ["1.24","1.23","1.23","1.23","1.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

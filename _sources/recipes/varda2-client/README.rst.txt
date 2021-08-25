@@ -61,10 +61,23 @@ varda2-client
 .. _`varda2-client/tags`: https://quay.io/repository/biocontainers/varda2-client?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "varda2-client";
+        var versions = ["0.9","0.8","0.7","0.6","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

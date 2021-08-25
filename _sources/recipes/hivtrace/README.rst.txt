@@ -66,10 +66,23 @@ hivtrace
 .. _`hivtrace/tags`: https://quay.io/repository/biocontainers/hivtrace?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hivtrace";
+        var versions = ["1.5.0","0.5.0","0.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

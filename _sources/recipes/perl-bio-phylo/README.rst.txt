@@ -72,10 +72,23 @@ perl-bio-phylo
 .. _`perl-bio-phylo/tags`: https://quay.io/repository/biocontainers/perl-bio-phylo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-phylo";
+        var versions = ["0.58","0.58","0.58","0.58"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

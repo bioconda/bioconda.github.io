@@ -94,10 +94,23 @@ tobias
 .. _`tobias/tags`: https://quay.io/repository/biocontainers/tobias?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tobias";
+        var versions = ["0.12.11","0.12.10","0.12.10","0.12.9","0.12.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

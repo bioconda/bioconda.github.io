@@ -61,10 +61,23 @@ perl-file-listing
 .. _`perl-file-listing/tags`: https://quay.io/repository/biocontainers/perl-file-listing?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-listing";
+        var versions = ["6.04","6.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ bioconductor-sampleclassifier
 .. _`bioconductor-sampleclassifier/tags`: https://quay.io/repository/biocontainers/bioconductor-sampleclassifier?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sampleclassifier";
+        var versions = ["1.16.0","1.11.0","1.10.0","1.8.0","1.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

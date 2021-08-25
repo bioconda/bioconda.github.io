@@ -106,10 +106,23 @@ bioconda-utils
 .. _`bioconda-utils/tags`: https://quay.io/repository/biocontainers/bioconda-utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconda-utils";
+        var versions = ["0.17.8","0.17.6","0.17.5","0.17.4","0.17.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

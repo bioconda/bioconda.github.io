@@ -65,10 +65,23 @@ bioconductor-rhdf5filters
 .. _`bioconductor-rhdf5filters/tags`: https://quay.io/repository/biocontainers/bioconductor-rhdf5filters?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rhdf5filters";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

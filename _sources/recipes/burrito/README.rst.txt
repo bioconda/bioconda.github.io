@@ -62,10 +62,23 @@ burrito
 .. _`burrito/tags`: https://quay.io/repository/biocontainers/burrito?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "burrito";
+        var versions = ["0.9.1","0.9.1","0.9.1","0.9.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

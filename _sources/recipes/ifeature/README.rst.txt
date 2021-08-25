@@ -67,10 +67,23 @@ ifeature
 .. _`ifeature/tags`: https://quay.io/repository/biocontainers/ifeature?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ifeature";
+        var versions = ["0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

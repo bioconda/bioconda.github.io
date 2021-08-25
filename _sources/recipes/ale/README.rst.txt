@@ -66,10 +66,23 @@ ale
 .. _`ale/tags`: https://quay.io/repository/biocontainers/ale?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ale";
+        var versions = ["20180904","20160127","20160127"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

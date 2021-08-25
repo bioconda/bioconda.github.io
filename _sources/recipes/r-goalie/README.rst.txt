@@ -69,10 +69,23 @@ r-goalie
 .. _`r-goalie/tags`: https://quay.io/repository/biocontainers/r-goalie?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-goalie";
+        var versions = ["0.5.4","0.5.3","0.5.2","0.5.1","0.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

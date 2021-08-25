@@ -70,10 +70,23 @@ bioconductor-xeva
 .. _`bioconductor-xeva/tags`: https://quay.io/repository/biocontainers/bioconductor-xeva?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-xeva";
+        var versions = ["1.8.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

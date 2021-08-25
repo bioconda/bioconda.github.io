@@ -82,10 +82,23 @@ r-metacoder
 .. _`r-metacoder/tags`: https://quay.io/repository/biocontainers/r-metacoder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-metacoder";
+        var versions = ["0.3.5","0.3.4","0.3.4","0.3.4","0.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

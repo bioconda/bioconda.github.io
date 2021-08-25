@@ -60,10 +60,23 @@ perl-io-scalar
 .. _`perl-io-scalar/tags`: https://quay.io/repository/biocontainers/perl-io-scalar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-scalar";
+        var versions = ["2.111","2.111"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -87,10 +87,23 @@ phyluce
 .. _`phyluce/tags`: https://quay.io/repository/biocontainers/phyluce?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phyluce";
+        var versions = ["1.6.8","1.6.7","1.6.6","1.6.5","1.6.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

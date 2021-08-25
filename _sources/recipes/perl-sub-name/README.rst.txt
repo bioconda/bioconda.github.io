@@ -60,10 +60,23 @@ perl-sub-name
 .. _`perl-sub-name/tags`: https://quay.io/repository/biocontainers/perl-sub-name?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sub-name";
+        var versions = ["0.21","0.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

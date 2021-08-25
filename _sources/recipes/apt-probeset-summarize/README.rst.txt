@@ -61,10 +61,23 @@ apt-probeset-summarize
 .. _`apt-probeset-summarize/tags`: https://quay.io/repository/biocontainers/apt-probeset-summarize?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "apt-probeset-summarize";
+        var versions = ["2.10.0","2.10.0","2.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

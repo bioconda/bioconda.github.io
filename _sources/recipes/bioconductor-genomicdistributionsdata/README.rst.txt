@@ -70,10 +70,23 @@ bioconductor-genomicdistributionsdata
 .. _`bioconductor-genomicdistributionsdata/tags`: https://quay.io/repository/biocontainers/bioconductor-genomicdistributionsdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genomicdistributionsdata";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

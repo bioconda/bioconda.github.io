@@ -65,10 +65,23 @@ ea-utils
 .. _`ea-utils/tags`: https://quay.io/repository/biocontainers/ea-utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ea-utils";
+        var versions = ["1.1.2.779","1.1.2.779","1.1.2.779","1.1.2.537"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

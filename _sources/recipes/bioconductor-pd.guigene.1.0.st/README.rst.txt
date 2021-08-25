@@ -68,10 +68,23 @@ bioconductor-pd.guigene.1.0.st
 .. _`bioconductor-pd.guigene.1.0.st/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.guigene.1.0.st?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.guigene.1.0.st";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

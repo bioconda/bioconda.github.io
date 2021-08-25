@@ -62,10 +62,23 @@ snipit
 .. _`snipit/tags`: https://quay.io/repository/biocontainers/snipit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snipit";
+        var versions = ["1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

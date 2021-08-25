@@ -70,10 +70,23 @@ dfast_qc
 .. _`dfast_qc/tags`: https://quay.io/repository/biocontainers/dfast_qc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dfast_qc";
+        var versions = ["0.2.9","0.2.8","0.2.7","0.2.6","0.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

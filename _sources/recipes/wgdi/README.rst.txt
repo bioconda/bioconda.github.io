@@ -70,10 +70,23 @@ wgdi
 .. _`wgdi/tags`: https://quay.io/repository/biocontainers/wgdi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wgdi";
+        var versions = ["0.4.9","0.4.7","0.4.6","0.4.5","0.4.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

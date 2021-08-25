@@ -72,10 +72,23 @@ cancerit-allelecount
 .. _`cancerit-allelecount/tags`: https://quay.io/repository/biocontainers/cancerit-allelecount?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cancerit-allelecount";
+        var versions = ["4.3.0","4.2.1","4.2.1","4.2.0","4.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

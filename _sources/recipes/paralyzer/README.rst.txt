@@ -61,10 +61,23 @@ paralyzer
 .. _`paralyzer/tags`: https://quay.io/repository/biocontainers/paralyzer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "paralyzer";
+        var versions = ["1.5","1.5","1.5","1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

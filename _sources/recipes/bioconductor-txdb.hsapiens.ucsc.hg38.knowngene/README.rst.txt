@@ -71,10 +71,23 @@ bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
 .. _`bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.hsapiens.ucsc.hg38.knowngene";
+        var versions = ["3.13.0","3.10.0","3.10.0","3.10.0","3.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

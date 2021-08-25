@@ -73,10 +73,23 @@ bioconductor-illuminaio
 .. _`bioconductor-illuminaio/tags`: https://quay.io/repository/biocontainers/bioconductor-illuminaio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-illuminaio";
+        var versions = ["0.34.0","0.32.0","0.32.0","0.30.0","0.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

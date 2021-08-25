@@ -60,10 +60,23 @@ screamingbackpack
 .. _`screamingbackpack/tags`: https://quay.io/repository/biocontainers/screamingbackpack?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "screamingbackpack";
+        var versions = ["0.2.333","0.2.333"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

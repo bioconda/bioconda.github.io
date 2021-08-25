@@ -60,10 +60,23 @@ r-firebrowser
 .. _`r-firebrowser/tags`: https://quay.io/repository/biocontainers/r-firebrowser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-firebrowser";
+        var versions = ["1.1.35","1.1.35","1.1.35","1.1.35"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

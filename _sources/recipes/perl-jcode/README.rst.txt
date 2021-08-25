@@ -60,10 +60,23 @@ perl-jcode
 .. _`perl-jcode/tags`: https://quay.io/repository/biocontainers/perl-jcode?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-jcode";
+        var versions = ["2.07","2.07","2.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

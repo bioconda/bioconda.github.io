@@ -60,10 +60,23 @@ chexalign
 .. _`chexalign/tags`: https://quay.io/repository/biocontainers/chexalign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chexalign";
+        var versions = ["0.12","0.12","0.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

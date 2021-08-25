@@ -62,10 +62,23 @@ r-whopgenome
 .. _`r-whopgenome/tags`: https://quay.io/repository/biocontainers/r-whopgenome?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-whopgenome";
+        var versions = ["0.9.7","0.9.7","0.9.7","0.9.7","0.9.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

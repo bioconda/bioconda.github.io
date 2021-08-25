@@ -67,10 +67,23 @@ bioconductor-mus.musculus
 .. _`bioconductor-mus.musculus/tags`: https://quay.io/repository/biocontainers/bioconductor-mus.musculus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mus.musculus";
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1","1.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

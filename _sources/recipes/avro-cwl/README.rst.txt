@@ -60,10 +60,23 @@ avro-cwl
 .. _`avro-cwl/tags`: https://quay.io/repository/biocontainers/avro-cwl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "avro-cwl";
+        var versions = ["1.8.9","1.8.4","1.8.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ dca
 .. _`dca/tags`: https://quay.io/repository/biocontainers/dca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dca";
+        var versions = ["0.3.2","0.2.3","0.2.2","0.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

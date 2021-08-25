@@ -64,10 +64,23 @@ perl-namespace-autoclean
 .. _`perl-namespace-autoclean/tags`: https://quay.io/repository/biocontainers/perl-namespace-autoclean?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-namespace-autoclean";
+        var versions = ["0.28","0.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ discovardenovo
 .. _`discovardenovo/tags`: https://quay.io/repository/biocontainers/discovardenovo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "discovardenovo";
+        var versions = ["52488","52488"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ svtk
 .. _`svtk/tags`: https://quay.io/repository/biocontainers/svtk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "svtk";
+        var versions = ["0.0.20190615","0.0.20190615","0.0.20190615"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

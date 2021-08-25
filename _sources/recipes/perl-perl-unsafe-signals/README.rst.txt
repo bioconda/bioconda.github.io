@@ -62,10 +62,23 @@ perl-perl-unsafe-signals
 .. _`perl-perl-unsafe-signals/tags`: https://quay.io/repository/biocontainers/perl-perl-unsafe-signals?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-perl-unsafe-signals";
+        var versions = ["0.03","0.03","0.03","0.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bioconductor-selex
 .. _`bioconductor-selex/tags`: https://quay.io/repository/biocontainers/bioconductor-selex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-selex";
+        var versions = ["1.24.0","1.22.0","1.22.0","1.18.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

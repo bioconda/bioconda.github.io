@@ -74,10 +74,23 @@ deepmod
 .. _`deepmod/tags`: https://quay.io/repository/biocontainers/deepmod?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deepmod";
+        var versions = ["0.1.3","0.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bioconductor-mu19ksubc.db
 .. _`bioconductor-mu19ksubc.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mu19ksubc.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mu19ksubc.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

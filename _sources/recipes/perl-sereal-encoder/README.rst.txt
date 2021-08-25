@@ -61,10 +61,23 @@ perl-sereal-encoder
 .. _`perl-sereal-encoder/tags`: https://quay.io/repository/biocontainers/perl-sereal-encoder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sereal-encoder";
+        var versions = ["4.007","4.005","3.015","3.015"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

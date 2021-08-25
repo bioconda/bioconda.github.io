@@ -122,10 +122,23 @@ easypqp
 .. _`easypqp/tags`: https://quay.io/repository/biocontainers/easypqp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "easypqp";
+        var versions = ["0.1.25","0.1.24","0.1.23","0.1.22","0.1.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

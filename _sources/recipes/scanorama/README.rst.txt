@@ -69,10 +69,23 @@ scanorama
 .. _`scanorama/tags`: https://quay.io/repository/biocontainers/scanorama?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scanorama";
+        var versions = ["1.7.1","1.7","1.6","1.5.2","1.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

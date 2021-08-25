@@ -85,10 +85,23 @@ ymp
 .. _`ymp/tags`: https://quay.io/repository/biocontainers/ymp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ymp";
+        var versions = ["0.2.1","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

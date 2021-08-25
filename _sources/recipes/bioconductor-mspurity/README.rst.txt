@@ -89,10 +89,23 @@ bioconductor-mspurity
 .. _`bioconductor-mspurity/tags`: https://quay.io/repository/biocontainers/bioconductor-mspurity?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mspurity";
+        var versions = ["1.18.0","1.16.2","1.16.2","1.16.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

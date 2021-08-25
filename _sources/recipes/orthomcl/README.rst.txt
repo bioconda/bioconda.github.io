@@ -65,10 +65,23 @@ orthomcl
 .. _`orthomcl/tags`: https://quay.io/repository/biocontainers/orthomcl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "orthomcl";
+        var versions = ["2.0.9","2.0.9","2.0.9","2.0.9","2.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

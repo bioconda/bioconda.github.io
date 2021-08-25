@@ -65,10 +65,23 @@ expressbetadiversity
 .. _`expressbetadiversity/tags`: https://quay.io/repository/biocontainers/expressbetadiversity?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "expressbetadiversity";
+        var versions = ["1.0.10","1.0.10","1.0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

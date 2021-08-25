@@ -67,10 +67,23 @@ bioconductor-bioassayr
 .. _`bioconductor-bioassayr/tags`: https://quay.io/repository/biocontainers/bioconductor-bioassayr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bioassayr";
+        var versions = ["1.30.0","1.28.2","1.28.0","1.26.0","1.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

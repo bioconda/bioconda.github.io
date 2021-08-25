@@ -60,10 +60,23 @@ genblasta
 .. _`genblasta/tags`: https://quay.io/repository/biocontainers/genblasta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genblasta";
+        var versions = ["1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

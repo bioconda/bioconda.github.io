@@ -66,10 +66,23 @@ assemblerflow
 .. _`assemblerflow/tags`: https://quay.io/repository/biocontainers/assemblerflow?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "assemblerflow";
+        var versions = ["1.1.0.post3","1.1.0.post3","1.1.0.post3","1.1.0.post1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

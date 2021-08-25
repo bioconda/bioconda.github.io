@@ -65,10 +65,23 @@ bioconductor-agimicrorna
 .. _`bioconductor-agimicrorna/tags`: https://quay.io/repository/biocontainers/bioconductor-agimicrorna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-agimicrorna";
+        var versions = ["2.42.0","2.40.0","2.40.0","2.38.0","2.36.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

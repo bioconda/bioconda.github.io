@@ -68,10 +68,23 @@ bioconductor-pd.mu11ksuba
 .. _`bioconductor-pd.mu11ksuba/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.mu11ksuba?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.mu11ksuba";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

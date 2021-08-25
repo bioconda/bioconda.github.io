@@ -61,10 +61,23 @@ cwl2wdl
 .. _`cwl2wdl/tags`: https://quay.io/repository/biocontainers/cwl2wdl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cwl2wdl";
+        var versions = ["0.1dev44","0.1dev44","0.1dev44","0.1dev37"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -81,10 +81,23 @@ bioconductor-trena
 .. _`bioconductor-trena/tags`: https://quay.io/repository/biocontainers/bioconductor-trena?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-trena";
+        var versions = ["1.14.0","1.11.6","1.8.0","1.6.1","1.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

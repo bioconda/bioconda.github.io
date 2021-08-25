@@ -64,10 +64,23 @@ lrzip
 .. _`lrzip/tags`: https://quay.io/repository/biocontainers/lrzip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lrzip";
+        var versions = ["0.621","0.621","0.621","0.621"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

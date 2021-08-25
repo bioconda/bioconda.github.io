@@ -62,10 +62,23 @@ graphmap
 .. _`graphmap/tags`: https://quay.io/repository/biocontainers/graphmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "graphmap";
+        var versions = ["0.6.3","0.6.3","0.5.2","0.5.2","0.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

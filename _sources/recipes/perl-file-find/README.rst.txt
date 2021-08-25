@@ -60,10 +60,23 @@ perl-file-find
 .. _`perl-file-find/tags`: https://quay.io/repository/biocontainers/perl-file-find?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-find";
+        var versions = ["1.27","1.27"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

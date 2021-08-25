@@ -62,10 +62,23 @@ biolite-tools
 .. _`biolite-tools/tags`: https://quay.io/repository/biocontainers/biolite-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biolite-tools";
+        var versions = ["0.4.0","0.4.0","0.4.0","0.4.0","0.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

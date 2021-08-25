@@ -76,10 +76,23 @@ varlociraptor
 .. _`varlociraptor/tags`: https://quay.io/repository/biocontainers/varlociraptor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "varlociraptor";
+        var versions = ["4.1.3","4.1.2","4.1.1","4.1.0","4.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

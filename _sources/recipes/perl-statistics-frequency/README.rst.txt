@@ -60,10 +60,23 @@ perl-statistics-frequency
 .. _`perl-statistics-frequency/tags`: https://quay.io/repository/biocontainers/perl-statistics-frequency?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-statistics-frequency";
+        var versions = ["0.04","0.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

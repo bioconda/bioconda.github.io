@@ -69,10 +69,23 @@ galaxy-tool-util
 .. _`galaxy-tool-util/tags`: https://quay.io/repository/biocontainers/galaxy-tool-util?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-tool-util";
+        var versions = ["21.1.2","21.1.1","21.1.0","20.9.1","20.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

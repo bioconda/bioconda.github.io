@@ -71,10 +71,23 @@ bioconductor-dittoseq
 .. _`bioconductor-dittoseq/tags`: https://quay.io/repository/biocontainers/bioconductor-dittoseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-dittoseq";
+        var versions = ["1.4.1","1.2.5","1.2.0","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

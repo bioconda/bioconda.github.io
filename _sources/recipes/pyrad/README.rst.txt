@@ -64,10 +64,23 @@ pyrad
 .. _`pyrad/tags`: https://quay.io/repository/biocontainers/pyrad?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyrad";
+        var versions = ["3.0.66","3.0.66","3.0.66","3.0.64"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

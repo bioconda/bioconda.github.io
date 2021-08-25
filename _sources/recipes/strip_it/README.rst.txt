@@ -63,10 +63,23 @@ strip_it
 .. _`strip_it/tags`: https://quay.io/repository/biocontainers/strip_it?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "strip_it";
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

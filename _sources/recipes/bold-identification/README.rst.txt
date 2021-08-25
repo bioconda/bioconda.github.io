@@ -65,10 +65,23 @@ bold-identification
 .. _`bold-identification/tags`: https://quay.io/repository/biocontainers/bold-identification?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bold-identification";
+        var versions = ["0.0.27","0.0.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ talon
 .. _`talon/tags`: https://quay.io/repository/biocontainers/talon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "talon";
+        var versions = ["v5.0","v5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

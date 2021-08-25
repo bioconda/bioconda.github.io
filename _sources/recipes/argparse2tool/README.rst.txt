@@ -63,10 +63,23 @@ argparse2tool
 .. _`argparse2tool/tags`: https://quay.io/repository/biocontainers/argparse2tool?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "argparse2tool";
+        var versions = ["0.4.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

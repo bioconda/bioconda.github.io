@@ -71,10 +71,23 @@ picard-slim
 .. _`picard-slim/tags`: https://quay.io/repository/biocontainers/picard-slim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "picard-slim";
+        var versions = ["2.26.0","2.25.7","2.25.6","2.25.5","2.25.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

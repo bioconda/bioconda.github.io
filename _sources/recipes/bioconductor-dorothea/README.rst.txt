@@ -65,10 +65,23 @@ bioconductor-dorothea
 .. _`bioconductor-dorothea/tags`: https://quay.io/repository/biocontainers/bioconductor-dorothea?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-dorothea";
+        var versions = ["1.4.0","1.2.1","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

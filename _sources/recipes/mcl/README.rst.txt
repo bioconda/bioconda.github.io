@@ -62,10 +62,23 @@ mcl
 .. _`mcl/tags`: https://quay.io/repository/biocontainers/mcl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mcl";
+        var versions = ["14.137","14.137","14.137","14.137","14.137"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ predex
 .. _`predex/tags`: https://quay.io/repository/biocontainers/predex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "predex";
+        var versions = ["0.9.3","0.9.2","0.9.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ sickle
 .. _`sickle/tags`: https://quay.io/repository/biocontainers/sickle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sickle";
+        var versions = ["0.7.0","0.6.5","0.6.4","0.6.4","0.6.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

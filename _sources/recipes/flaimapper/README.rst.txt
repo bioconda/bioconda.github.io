@@ -69,10 +69,23 @@ flaimapper
 .. _`flaimapper/tags`: https://quay.io/repository/biocontainers/flaimapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "flaimapper";
+        var versions = ["3.0.0","3.0.0","3.0.0","2.5.0","2.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

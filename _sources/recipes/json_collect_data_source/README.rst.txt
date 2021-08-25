@@ -60,10 +60,23 @@ json_collect_data_source
 .. _`json_collect_data_source/tags`: https://quay.io/repository/biocontainers/json_collect_data_source?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "json_collect_data_source";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

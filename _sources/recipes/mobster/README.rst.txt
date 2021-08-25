@@ -62,6 +62,13 @@ mobster
 .. _`mobster/tags`: https://quay.io/repository/biocontainers/mobster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mobster";
+        var versions = ["0.2.4.1","0.2.4.1","0.2.3.1","0.2.2","0.2.2"];
+    </script>
+
 
 
 
@@ -71,6 +78,12 @@ Notes
 After installation\, mobster is available as command \`mobster\`.
 Further\, you can convert mobster output to vcf with the command \`mobster\-to\-vcf\`.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

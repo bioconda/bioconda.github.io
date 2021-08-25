@@ -76,10 +76,23 @@ bioconductor-rariant
 .. _`bioconductor-rariant/tags`: https://quay.io/repository/biocontainers/bioconductor-rariant?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rariant";
+        var versions = ["1.25.0","1.25.0","1.24.0","1.22.0","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

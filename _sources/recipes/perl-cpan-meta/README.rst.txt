@@ -67,10 +67,23 @@ perl-cpan-meta
 .. _`perl-cpan-meta/tags`: https://quay.io/repository/biocontainers/perl-cpan-meta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-cpan-meta";
+        var versions = ["2.150010","2.120921","2.120921"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

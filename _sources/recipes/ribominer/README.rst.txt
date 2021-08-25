@@ -70,10 +70,23 @@ ribominer
 .. _`ribominer/tags`: https://quay.io/repository/biocontainers/ribominer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ribominer";
+        var versions = ["0.2.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

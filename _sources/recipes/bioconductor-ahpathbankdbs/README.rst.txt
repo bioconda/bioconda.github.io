@@ -62,10 +62,23 @@ bioconductor-ahpathbankdbs
 .. _`bioconductor-ahpathbankdbs/tags`: https://quay.io/repository/biocontainers/bioconductor-ahpathbankdbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ahpathbankdbs";
+        var versions = ["0.99.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

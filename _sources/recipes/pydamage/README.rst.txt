@@ -71,10 +71,23 @@ pydamage
 .. _`pydamage/tags`: https://quay.io/repository/biocontainers/pydamage?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pydamage";
+        var versions = ["0.62","0.61","0.60","0.60"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

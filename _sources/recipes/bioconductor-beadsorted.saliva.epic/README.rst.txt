@@ -63,10 +63,23 @@ bioconductor-beadsorted.saliva.epic
 .. _`bioconductor-beadsorted.saliva.epic/tags`: https://quay.io/repository/biocontainers/bioconductor-beadsorted.saliva.epic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-beadsorted.saliva.epic";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

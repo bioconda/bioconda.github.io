@@ -72,10 +72,23 @@ bioconductor-globalancova
 .. _`bioconductor-globalancova/tags`: https://quay.io/repository/biocontainers/bioconductor-globalancova?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-globalancova";
+        var versions = ["4.10.0","4.8.0","4.8.0","4.6.0","4.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

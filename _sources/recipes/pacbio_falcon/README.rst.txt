@@ -65,10 +65,23 @@ pacbio_falcon
 .. _`pacbio_falcon/tags`: https://quay.io/repository/biocontainers/pacbio_falcon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pacbio_falcon";
+        var versions = ["052016","052016","052016"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

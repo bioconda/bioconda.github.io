@@ -71,10 +71,23 @@ bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts
 .. _`bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts";
+        var versions = ["3.2.2","3.2.2","3.2.2","3.2.2","3.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

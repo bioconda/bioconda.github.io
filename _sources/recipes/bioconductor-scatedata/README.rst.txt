@@ -64,10 +64,23 @@ bioconductor-scatedata
 .. _`bioconductor-scatedata/tags`: https://quay.io/repository/biocontainers/bioconductor-scatedata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-scatedata";
+        var versions = ["1.2.0","1.0.0","1.0.0","0.99.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

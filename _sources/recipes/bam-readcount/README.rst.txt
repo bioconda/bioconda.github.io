@@ -64,10 +64,23 @@ bam-readcount
 .. _`bam-readcount/tags`: https://quay.io/repository/biocontainers/bam-readcount?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bam-readcount";
+        var versions = ["0.8","0.8","0.8","0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

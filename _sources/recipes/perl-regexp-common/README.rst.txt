@@ -60,10 +60,23 @@ perl-regexp-common
 .. _`perl-regexp-common/tags`: https://quay.io/repository/biocontainers/perl-regexp-common?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-regexp-common";
+        var versions = ["2017060201","2016060801","2016060801"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

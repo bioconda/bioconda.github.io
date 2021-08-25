@@ -63,10 +63,23 @@ bioconductor-fdrame
 .. _`bioconductor-fdrame/tags`: https://quay.io/repository/biocontainers/bioconductor-fdrame?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-fdrame";
+        var versions = ["1.64.0","1.62.0","1.62.0","1.60.0","1.58.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

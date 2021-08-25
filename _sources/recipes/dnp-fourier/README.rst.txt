@@ -61,10 +61,23 @@ dnp-fourier
 .. _`dnp-fourier/tags`: https://quay.io/repository/biocontainers/dnp-fourier?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dnp-fourier";
+        var versions = ["1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -78,10 +78,23 @@ bioconductor-gcrma
 .. _`bioconductor-gcrma/tags`: https://quay.io/repository/biocontainers/bioconductor-gcrma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gcrma";
+        var versions = ["2.64.0","2.62.0","2.62.0","2.60.0","2.58.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

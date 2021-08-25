@@ -69,10 +69,23 @@ cami-opal
 .. _`cami-opal/tags`: https://quay.io/repository/biocontainers/cami-opal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cami-opal";
+        var versions = ["1.0.9","1.0.9","1.0.8.post0","1.0.5","1.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

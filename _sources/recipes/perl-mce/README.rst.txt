@@ -68,10 +68,23 @@ perl-mce
 .. _`perl-mce/tags`: https://quay.io/repository/biocontainers/perl-mce?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mce";
+        var versions = ["1.837","1.836","1.835","1.835","1.814"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

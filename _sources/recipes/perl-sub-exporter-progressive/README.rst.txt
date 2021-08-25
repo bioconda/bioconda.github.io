@@ -60,10 +60,23 @@ perl-sub-exporter-progressive
 .. _`perl-sub-exporter-progressive/tags`: https://quay.io/repository/biocontainers/perl-sub-exporter-progressive?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sub-exporter-progressive";
+        var versions = ["0.001013","0.001011","0.001011","0.001011","0.001011"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

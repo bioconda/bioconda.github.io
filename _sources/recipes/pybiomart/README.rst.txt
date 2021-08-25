@@ -66,10 +66,23 @@ pybiomart
 .. _`pybiomart/tags`: https://quay.io/repository/biocontainers/pybiomart?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pybiomart";
+        var versions = ["0.2.0","0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

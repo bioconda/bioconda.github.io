@@ -61,10 +61,23 @@ bioconductor-gigseadata
 .. _`bioconductor-gigseadata/tags`: https://quay.io/repository/biocontainers/bioconductor-gigseadata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gigseadata";
+        var versions = ["1.10.0","1.8.0","1.8.0","1.7.0","1.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

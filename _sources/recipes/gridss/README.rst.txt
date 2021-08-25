@@ -85,6 +85,13 @@ gridss
 .. _`gridss/tags`: https://quay.io/repository/biocontainers/gridss?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gridss";
+        var versions = ["2.12.0","2.12.0","2.11.1","2.11.1","2.11.0"];
+    </script>
+
 
 
 
@@ -93,6 +100,12 @@ Notes
 -----
 The package contains additional command line wrappers for the GRIDSS java\-based utilities.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

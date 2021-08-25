@@ -61,10 +61,23 @@ perl-apache-test
 .. _`perl-apache-test/tags`: https://quay.io/repository/biocontainers/perl-apache-test?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-apache-test";
+        var versions = ["1.40","1.40"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

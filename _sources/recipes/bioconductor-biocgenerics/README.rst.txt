@@ -69,10 +69,23 @@ bioconductor-biocgenerics
 .. _`bioconductor-biocgenerics/tags`: https://quay.io/repository/biocontainers/bioconductor-biocgenerics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-biocgenerics";
+        var versions = ["0.38.0","0.36.0","0.36.0","0.34.0","0.32.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

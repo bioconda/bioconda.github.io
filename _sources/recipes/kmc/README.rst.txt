@@ -75,10 +75,23 @@ kmc
 .. _`kmc/tags`: https://quay.io/repository/biocontainers/kmc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kmc";
+        var versions = ["3.1.2rc1","3.1.1","3.1.1","3.1.1rc1","3.1.1rc1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

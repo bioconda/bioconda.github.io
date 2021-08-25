@@ -60,10 +60,23 @@ perl-pod-plaintext
 .. _`perl-pod-plaintext/tags`: https://quay.io/repository/biocontainers/perl-pod-plaintext?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pod-plaintext";
+        var versions = ["2.07","2.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

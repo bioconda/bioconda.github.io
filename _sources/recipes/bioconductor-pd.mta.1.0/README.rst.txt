@@ -68,10 +68,23 @@ bioconductor-pd.mta.1.0
 .. _`bioconductor-pd.mta.1.0/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.mta.1.0?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.mta.1.0";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ seedme
 .. _`seedme/tags`: https://quay.io/repository/biocontainers/seedme?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seedme";
+        var versions = ["1.2.4","1.2.4","1.2.4","1.2.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

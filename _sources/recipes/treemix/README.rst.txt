@@ -68,10 +68,23 @@ treemix
 .. _`treemix/tags`: https://quay.io/repository/biocontainers/treemix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "treemix";
+        var versions = ["1.13","1.13","1.13","1.13","1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

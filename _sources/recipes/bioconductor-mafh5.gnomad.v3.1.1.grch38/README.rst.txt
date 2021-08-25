@@ -69,10 +69,23 @@ bioconductor-mafh5.gnomad.v3.1.1.grch38
 .. _`bioconductor-mafh5.gnomad.v3.1.1.grch38/tags`: https://quay.io/repository/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mafh5.gnomad.v3.1.1.grch38";
+        var versions = ["3.13.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

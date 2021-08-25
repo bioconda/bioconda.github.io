@@ -66,10 +66,23 @@ r-ggbiplot
 .. _`r-ggbiplot/tags`: https://quay.io/repository/biocontainers/r-ggbiplot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ggbiplot";
+        var versions = ["0.55","0.55","0.55","0.55","0.55"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

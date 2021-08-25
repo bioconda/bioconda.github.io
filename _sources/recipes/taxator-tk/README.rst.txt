@@ -60,10 +60,23 @@ taxator-tk
 .. _`taxator-tk/tags`: https://quay.io/repository/biocontainers/taxator-tk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "taxator-tk";
+        var versions = ["1.3.3e","1.3.3e","1.3.3e"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

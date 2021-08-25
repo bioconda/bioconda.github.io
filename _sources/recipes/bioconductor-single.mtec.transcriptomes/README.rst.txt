@@ -61,10 +61,23 @@ bioconductor-single.mtec.transcriptomes
 .. _`bioconductor-single.mtec.transcriptomes/tags`: https://quay.io/repository/biocontainers/bioconductor-single.mtec.transcriptomes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-single.mtec.transcriptomes";
+        var versions = ["1.20.0","1.18.0","1.18.0","1.17.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

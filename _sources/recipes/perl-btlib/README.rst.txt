@@ -60,10 +60,23 @@ perl-btlib
 .. _`perl-btlib/tags`: https://quay.io/repository/biocontainers/perl-btlib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-btlib";
+        var versions = ["0.19","0.19"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

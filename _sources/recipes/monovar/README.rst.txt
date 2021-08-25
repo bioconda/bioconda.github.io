@@ -64,10 +64,23 @@ monovar
 .. _`monovar/tags`: https://quay.io/repository/biocontainers/monovar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "monovar";
+        var versions = ["0.0.1","0.0.1","v0.0.1","v0.0.1","v0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

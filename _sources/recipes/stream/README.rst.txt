@@ -95,10 +95,23 @@ stream
 .. _`stream/tags`: https://quay.io/repository/biocontainers/stream?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stream";
+        var versions = ["1.0","0.4.1","0.4.0","0.3.9","0.3.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

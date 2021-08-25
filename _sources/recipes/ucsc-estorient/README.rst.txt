@@ -65,10 +65,23 @@ ucsc-estorient
 .. _`ucsc-estorient/tags`: https://quay.io/repository/biocontainers/ucsc-estorient?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-estorient";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ bioconductor-mouse4302frmavecs
 .. _`bioconductor-mouse4302frmavecs/tags`: https://quay.io/repository/biocontainers/bioconductor-mouse4302frmavecs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mouse4302frmavecs";
+        var versions = ["1.5.0","1.5.0","1.5.0","1.5.0","1.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ bioconductor-gseamining
 .. _`bioconductor-gseamining/tags`: https://quay.io/repository/biocontainers/bioconductor-gseamining?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gseamining";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

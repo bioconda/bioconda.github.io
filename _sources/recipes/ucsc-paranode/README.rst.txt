@@ -65,10 +65,23 @@ ucsc-paranode
 .. _`ucsc-paranode/tags`: https://quay.io/repository/biocontainers/ucsc-paranode?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-paranode";
+        var versions = ["377","377","377","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

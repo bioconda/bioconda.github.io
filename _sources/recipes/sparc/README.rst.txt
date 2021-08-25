@@ -62,10 +62,23 @@ sparc
 .. _`sparc/tags`: https://quay.io/repository/biocontainers/sparc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sparc";
+        var versions = ["20160205","20160205","20160205","20160205","20160205"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

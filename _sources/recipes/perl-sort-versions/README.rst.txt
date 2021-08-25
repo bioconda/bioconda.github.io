@@ -61,10 +61,23 @@ perl-sort-versions
 .. _`perl-sort-versions/tags`: https://quay.io/repository/biocontainers/perl-sort-versions?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sort-versions";
+        var versions = ["1.62","1.62","1.62"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

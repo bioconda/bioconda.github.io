@@ -62,10 +62,23 @@ perl-statistics-basic
 .. _`perl-statistics-basic/tags`: https://quay.io/repository/biocontainers/perl-statistics-basic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-statistics-basic";
+        var versions = ["1.6611","1.6611","1.6611"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

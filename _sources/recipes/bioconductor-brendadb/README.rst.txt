@@ -78,10 +78,23 @@ bioconductor-brendadb
 .. _`bioconductor-brendadb/tags`: https://quay.io/repository/biocontainers/bioconductor-brendadb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-brendadb";
+        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

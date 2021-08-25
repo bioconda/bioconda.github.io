@@ -61,6 +61,13 @@ pepgenome
 .. _`pepgenome/tags`: https://quay.io/repository/biocontainers/pepgenome?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pepgenome";
+        var versions = ["1.1.beta","1.1.beta","1.0.beta"];
+    </script>
+
 
 
 
@@ -74,6 +81,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"PepGenome \-Xms512m \-Xmx1g\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

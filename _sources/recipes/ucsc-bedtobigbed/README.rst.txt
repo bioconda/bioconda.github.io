@@ -73,10 +73,23 @@ ucsc-bedtobigbed
 .. _`ucsc-bedtobigbed/tags`: https://quay.io/repository/biocontainers/ucsc-bedtobigbed?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-bedtobigbed";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

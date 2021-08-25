@@ -64,10 +64,23 @@ bioconductor-mungesumstats
 .. _`bioconductor-mungesumstats/tags`: https://quay.io/repository/biocontainers/bioconductor-mungesumstats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mungesumstats";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ tantan
 .. _`tantan/tags`: https://quay.io/repository/biocontainers/tantan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tantan";
+        var versions = ["26","26","13","13","13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ bioconductor-netboxr
 .. _`bioconductor-netboxr/tags`: https://quay.io/repository/biocontainers/bioconductor-netboxr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-netboxr";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

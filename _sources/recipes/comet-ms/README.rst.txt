@@ -70,10 +70,23 @@ comet-ms
 .. _`comet-ms/tags`: https://quay.io/repository/biocontainers/comet-ms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "comet-ms";
+        var versions = ["2019015","2019014","2019013","2019012","2019011"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

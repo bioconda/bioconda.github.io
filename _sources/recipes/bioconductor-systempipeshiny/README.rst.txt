@@ -92,10 +92,23 @@ bioconductor-systempipeshiny
 .. _`bioconductor-systempipeshiny/tags`: https://quay.io/repository/biocontainers/bioconductor-systempipeshiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-systempipeshiny";
+        var versions = ["1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

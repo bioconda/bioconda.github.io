@@ -70,10 +70,23 @@ grafimo
 .. _`grafimo/tags`: https://quay.io/repository/biocontainers/grafimo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "grafimo";
+        var versions = ["1.1.4","1.1.3","1.1.3","1.1.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

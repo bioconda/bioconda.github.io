@@ -71,10 +71,23 @@ triform2
 .. _`triform2/tags`: https://quay.io/repository/biocontainers/triform2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "triform2";
+        var versions = ["0.0.5","0.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

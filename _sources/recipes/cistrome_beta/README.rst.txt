@@ -64,10 +64,23 @@ cistrome_beta
 .. _`cistrome_beta/tags`: https://quay.io/repository/biocontainers/cistrome_beta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cistrome_beta";
+        var versions = ["1.0.7","1.0.7","1.0.7","1.0.7","1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

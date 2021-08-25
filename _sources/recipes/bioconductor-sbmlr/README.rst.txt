@@ -62,10 +62,23 @@ bioconductor-sbmlr
 .. _`bioconductor-sbmlr/tags`: https://quay.io/repository/biocontainers/bioconductor-sbmlr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sbmlr";
+        var versions = ["1.88.0","1.86.0","1.86.0","1.84.0","1.82.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ perl-scalar-list-utils
 .. _`perl-scalar-list-utils/tags`: https://quay.io/repository/biocontainers/perl-scalar-list-utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-scalar-list-utils";
+        var versions = ["1.52","1.51","1.50","1.45","1.45"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -75,6 +75,13 @@ peptide-shaker
 .. _`peptide-shaker/tags`: https://quay.io/repository/biocontainers/peptide-shaker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "peptide-shaker";
+        var versions = ["2.0.33","2.0.25","2.0.18","2.0.18","2.0.15"];
+    </script>
+
 
 
 
@@ -89,6 +96,12 @@ set globally this will take precedence.
 For example run it with \"peptide\-shaker \-Xms512m \-Xmx1g\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

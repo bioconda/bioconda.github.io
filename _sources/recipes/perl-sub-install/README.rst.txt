@@ -61,10 +61,23 @@ perl-sub-install
 .. _`perl-sub-install/tags`: https://quay.io/repository/biocontainers/perl-sub-install?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sub-install";
+        var versions = ["0.928","0.928","0.928"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

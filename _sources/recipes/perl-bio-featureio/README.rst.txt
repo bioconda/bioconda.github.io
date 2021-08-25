@@ -65,10 +65,23 @@ perl-bio-featureio
 .. _`perl-bio-featureio/tags`: https://quay.io/repository/biocontainers/perl-bio-featureio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-featureio";
+        var versions = ["1.6.905","1.6.905","1.6.905","1.6.905"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -86,10 +86,23 @@ troika-tb
 .. _`troika-tb/tags`: https://quay.io/repository/biocontainers/troika-tb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "troika-tb";
+        var versions = ["0.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

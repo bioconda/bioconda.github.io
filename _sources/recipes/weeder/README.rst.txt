@@ -63,6 +63,13 @@ weeder
 .. _`weeder/tags`: https://quay.io/repository/biocontainers/weeder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "weeder";
+        var versions = ["2.0","2.0","2.0","2.0","2.0"];
+    </script>
+
 
 
 
@@ -71,6 +78,12 @@ Notes
 -----
 Includes a simple wrapper script to be able to run weeder from any directory. It passes arguments transparently to the weeder2 executable.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

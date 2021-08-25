@@ -70,10 +70,23 @@ metapi
 .. _`metapi/tags`: https://quay.io/repository/biocontainers/metapi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metapi";
+        var versions = ["1.1.0","1.0.5","1.0.4","1.0.3","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ r-wasabi
 .. _`r-wasabi/tags`: https://quay.io/repository/biocontainers/r-wasabi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-wasabi";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

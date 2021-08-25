@@ -63,10 +63,23 @@ bioconductor-hs25kresogen.db
 .. _`bioconductor-hs25kresogen.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hs25kresogen.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hs25kresogen.db";
+        var versions = ["2.5.0","2.5.0","2.5.0","2.5.0","2.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

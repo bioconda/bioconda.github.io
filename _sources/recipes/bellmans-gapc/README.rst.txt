@@ -66,10 +66,23 @@ bellmans-gapc
 .. _`bellmans-gapc/tags`: https://quay.io/repository/biocontainers/bellmans-gapc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bellmans-gapc";
+        var versions = ["2021.04.28","2020.12.08","2020.12.08","2020.07.07","2020.01.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

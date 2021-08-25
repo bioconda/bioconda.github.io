@@ -75,10 +75,23 @@ seqfu
 .. _`seqfu/tags`: https://quay.io/repository/biocontainers/seqfu?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqfu";
+        var versions = ["1.6.0","1.5.2","1.5.0","1.4.0","1.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

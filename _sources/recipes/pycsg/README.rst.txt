@@ -60,10 +60,23 @@ pycsg
 .. _`pycsg/tags`: https://quay.io/repository/biocontainers/pycsg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pycsg";
+        var versions = ["0.3.12","0.3.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

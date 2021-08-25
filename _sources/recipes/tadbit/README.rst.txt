@@ -73,10 +73,23 @@ tadbit
 .. _`tadbit/tags`: https://quay.io/repository/biocontainers/tadbit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tadbit";
+        var versions = ["1.0.1","1.0","1.0","0.5","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

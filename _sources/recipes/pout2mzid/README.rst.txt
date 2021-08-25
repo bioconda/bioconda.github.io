@@ -63,10 +63,23 @@ pout2mzid
 .. _`pout2mzid/tags`: https://quay.io/repository/biocontainers/pout2mzid?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pout2mzid";
+        var versions = ["0.3.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

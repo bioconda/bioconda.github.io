@@ -64,10 +64,23 @@ r-diffcorr
 .. _`r-diffcorr/tags`: https://quay.io/repository/biocontainers/r-diffcorr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-diffcorr";
+        var versions = ["0.4.1","0.4.1","0.4.1","0.4.1","0.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

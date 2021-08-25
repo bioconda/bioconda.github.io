@@ -64,10 +64,23 @@ r-acidmarkdown
 .. _`r-acidmarkdown/tags`: https://quay.io/repository/biocontainers/r-acidmarkdown?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-acidmarkdown";
+        var versions = ["0.1.2","0.1.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

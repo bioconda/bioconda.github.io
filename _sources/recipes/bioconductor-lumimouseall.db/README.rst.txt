@@ -63,10 +63,23 @@ bioconductor-lumimouseall.db
 .. _`bioconductor-lumimouseall.db/tags`: https://quay.io/repository/biocontainers/bioconductor-lumimouseall.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-lumimouseall.db";
+        var versions = ["1.22.0","1.22.0","1.22.0","1.22.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

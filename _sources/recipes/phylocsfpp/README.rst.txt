@@ -65,10 +65,23 @@ phylocsfpp
 .. _`phylocsfpp/tags`: https://quay.io/repository/biocontainers/phylocsfpp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phylocsfpp";
+        var versions = ["1.1.0_519b603e","1.0.0_f5ab2559","1.0.0_f5ab2559"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

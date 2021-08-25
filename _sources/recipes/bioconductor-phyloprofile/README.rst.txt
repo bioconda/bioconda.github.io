@@ -80,10 +80,23 @@ bioconductor-phyloprofile
 .. _`bioconductor-phyloprofile/tags`: https://quay.io/repository/biocontainers/bioconductor-phyloprofile?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-phyloprofile";
+        var versions = ["1.6.1","1.4.9","1.4.0","1.2.8","1.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

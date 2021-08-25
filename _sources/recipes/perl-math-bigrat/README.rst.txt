@@ -61,10 +61,23 @@ perl-math-bigrat
 .. _`perl-math-bigrat/tags`: https://quay.io/repository/biocontainers/perl-math-bigrat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-bigrat";
+        var versions = ["0.2614"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

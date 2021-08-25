@@ -66,10 +66,23 @@ im-pipelines
 .. _`im-pipelines/tags`: https://quay.io/repository/biocontainers/im-pipelines?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "im-pipelines";
+        var versions = ["1.1.6","1.1.5","1.1.5","1.1.4","1.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

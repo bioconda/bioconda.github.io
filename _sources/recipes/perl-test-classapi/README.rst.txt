@@ -63,10 +63,23 @@ perl-test-classapi
 .. _`perl-test-classapi/tags`: https://quay.io/repository/biocontainers/perl-test-classapi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-classapi";
+        var versions = ["1.07","1.07","1.06","1.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

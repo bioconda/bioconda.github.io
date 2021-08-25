@@ -60,10 +60,23 @@ perl-module-util
 .. _`perl-module-util/tags`: https://quay.io/repository/biocontainers/perl-module-util?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-util";
+        var versions = ["1.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

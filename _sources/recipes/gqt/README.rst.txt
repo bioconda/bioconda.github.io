@@ -61,10 +61,23 @@ gqt
 .. _`gqt/tags`: https://quay.io/repository/biocontainers/gqt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gqt";
+        var versions = ["1.1.3","1.1.3","1.1.3","1.1.3","1.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

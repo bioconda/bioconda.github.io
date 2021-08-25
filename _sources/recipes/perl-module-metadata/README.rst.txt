@@ -62,10 +62,23 @@ perl-module-metadata
 .. _`perl-module-metadata/tags`: https://quay.io/repository/biocontainers/perl-module-metadata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-metadata";
+        var versions = ["1.000036","1.000033","1.000019","1.000019"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

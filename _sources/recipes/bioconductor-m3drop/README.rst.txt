@@ -79,10 +79,23 @@ bioconductor-m3drop
 .. _`bioconductor-m3drop/tags`: https://quay.io/repository/biocontainers/bioconductor-m3drop?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-m3drop";
+        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

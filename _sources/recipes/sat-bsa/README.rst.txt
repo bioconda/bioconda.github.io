@@ -66,10 +66,23 @@ sat-bsa
 .. _`sat-bsa/tags`: https://quay.io/repository/biocontainers/sat-bsa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sat-bsa";
+        var versions = ["1.12","1.12","1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

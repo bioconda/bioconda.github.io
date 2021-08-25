@@ -68,10 +68,23 @@ perl-class-load
 .. _`perl-class-load/tags`: https://quay.io/repository/biocontainers/perl-class-load?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-class-load";
+        var versions = ["0.25","0.23","0.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

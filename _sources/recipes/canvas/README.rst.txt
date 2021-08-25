@@ -59,10 +59,23 @@ canvas
 .. _`canvas/tags`: https://quay.io/repository/biocontainers/canvas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "canvas";
+        var versions = ["1.35.1.1316","1.25.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

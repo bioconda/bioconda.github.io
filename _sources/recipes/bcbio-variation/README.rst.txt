@@ -60,10 +60,23 @@ bcbio-variation
 .. _`bcbio-variation/tags`: https://quay.io/repository/biocontainers/bcbio-variation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bcbio-variation";
+        var versions = ["0.2.6","0.2.6","0.2.6","0.2.6","0.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

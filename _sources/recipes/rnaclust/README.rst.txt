@@ -74,10 +74,23 @@ rnaclust
 .. _`rnaclust/tags`: https://quay.io/repository/biocontainers/rnaclust?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rnaclust";
+        var versions = ["1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

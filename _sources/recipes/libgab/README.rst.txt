@@ -64,10 +64,23 @@ libgab
 .. _`libgab/tags`: https://quay.io/repository/biocontainers/libgab?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libgab";
+        var versions = ["1.0.5","1.0.5","1.0.5","1.0.5","1.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

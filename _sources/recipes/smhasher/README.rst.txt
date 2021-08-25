@@ -63,10 +63,23 @@ smhasher
 .. _`smhasher/tags`: https://quay.io/repository/biocontainers/smhasher?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "smhasher";
+        var versions = ["0.150.1","0.150.1","0.150.1","0.150.1","0.150.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

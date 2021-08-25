@@ -65,10 +65,23 @@ aquila_stlfr
 .. _`aquila_stlfr/tags`: https://quay.io/repository/biocontainers/aquila_stlfr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "aquila_stlfr";
+        var versions = ["1.2.11","1.2.10","1.2.9","1.2.8","1.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

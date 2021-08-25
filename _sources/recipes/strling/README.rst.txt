@@ -71,10 +71,23 @@ strling
 .. _`strling/tags`: https://quay.io/repository/biocontainers/strling?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "strling";
+        var versions = ["0.5.0","0.4.2","0.4.2","0.4.1","0.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

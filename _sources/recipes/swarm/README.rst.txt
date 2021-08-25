@@ -72,10 +72,23 @@ swarm
 .. _`swarm/tags`: https://quay.io/repository/biocontainers/swarm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "swarm";
+        var versions = ["3.1.0","3.1.0","3.0.0","2.2.2","2.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

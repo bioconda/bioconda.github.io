@@ -70,10 +70,23 @@ spoa
 .. _`spoa/tags`: https://quay.io/repository/biocontainers/spoa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "spoa";
+        var versions = ["4.0.7","4.0.7","4.0.6","4.0.5","4.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

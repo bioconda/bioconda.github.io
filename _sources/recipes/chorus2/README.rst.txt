@@ -79,10 +79,23 @@ chorus2
 .. _`chorus2/tags`: https://quay.io/repository/biocontainers/chorus2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chorus2";
+        var versions = ["2.01","2.0.1","2.0","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

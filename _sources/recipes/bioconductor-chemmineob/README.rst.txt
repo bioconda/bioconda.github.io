@@ -59,10 +59,23 @@ bioconductor-chemmineob
 .. _`bioconductor-chemmineob/tags`: https://quay.io/repository/biocontainers/bioconductor-chemmineob?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-chemmineob";
+        var versions = [];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

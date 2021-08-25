@@ -62,10 +62,23 @@ opentargets-urlzsource
 .. _`opentargets-urlzsource/tags`: https://quay.io/repository/biocontainers/opentargets-urlzsource?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "opentargets-urlzsource";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -59,10 +59,23 @@ bioconductor-travel
 .. _`bioconductor-travel/tags`: https://quay.io/repository/biocontainers/bioconductor-travel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-travel";
+        var versions = [];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

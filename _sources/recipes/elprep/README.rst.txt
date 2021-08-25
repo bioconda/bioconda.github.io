@@ -67,10 +67,23 @@ elprep
 .. _`elprep/tags`: https://quay.io/repository/biocontainers/elprep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "elprep";
+        var versions = ["5.0.2","5.0.1","5.0.1","4.1.6","4.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

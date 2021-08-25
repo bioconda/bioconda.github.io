@@ -61,10 +61,23 @@ perl-html-element-extended
 .. _`perl-html-element-extended/tags`: https://quay.io/repository/biocontainers/perl-html-element-extended?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-element-extended";
+        var versions = ["1.18","1.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

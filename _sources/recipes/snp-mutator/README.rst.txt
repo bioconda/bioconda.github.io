@@ -62,10 +62,23 @@ snp-mutator
 .. _`snp-mutator/tags`: https://quay.io/repository/biocontainers/snp-mutator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snp-mutator";
+        var versions = ["1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ python-bioformats
 .. _`python-bioformats/tags`: https://quay.io/repository/biocontainers/python-bioformats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-bioformats";
+        var versions = ["4.0.5","4.0.4","4.0.0","1.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

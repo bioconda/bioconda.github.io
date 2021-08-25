@@ -64,10 +64,23 @@ megadepth
 .. _`megadepth/tags`: https://quay.io/repository/biocontainers/megadepth?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "megadepth";
+        var versions = ["1.1.0","1.1.0","1.0.9b"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

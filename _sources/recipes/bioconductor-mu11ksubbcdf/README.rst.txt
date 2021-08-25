@@ -62,10 +62,23 @@ bioconductor-mu11ksubbcdf
 .. _`bioconductor-mu11ksubbcdf/tags`: https://quay.io/repository/biocontainers/bioconductor-mu11ksubbcdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mu11ksubbcdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

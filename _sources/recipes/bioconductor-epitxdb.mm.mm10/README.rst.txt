@@ -63,10 +63,23 @@ bioconductor-epitxdb.mm.mm10
 .. _`bioconductor-epitxdb.mm.mm10/tags`: https://quay.io/repository/biocontainers/bioconductor-epitxdb.mm.mm10?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-epitxdb.mm.mm10";
+        var versions = ["0.99.6","0.99.6","0.99.6","0.99.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

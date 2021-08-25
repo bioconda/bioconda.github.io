@@ -62,10 +62,23 @@ perl-ensembl-genomes
 .. _`perl-ensembl-genomes/tags`: https://quay.io/repository/biocontainers/perl-ensembl-genomes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ensembl-genomes";
+        var versions = ["44"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

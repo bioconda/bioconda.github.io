@@ -64,10 +64,23 @@ mgs-canopy
 .. _`mgs-canopy/tags`: https://quay.io/repository/biocontainers/mgs-canopy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mgs-canopy";
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

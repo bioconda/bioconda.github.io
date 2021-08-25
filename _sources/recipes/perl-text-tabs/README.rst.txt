@@ -60,10 +60,23 @@ perl-text-tabs
 .. _`perl-text-tabs/tags`: https://quay.io/repository/biocontainers/perl-text-tabs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-tabs";
+        var versions = ["2013.0523","2013.0523"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

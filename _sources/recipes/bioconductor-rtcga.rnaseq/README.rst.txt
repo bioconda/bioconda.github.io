@@ -62,10 +62,23 @@ bioconductor-rtcga.rnaseq
 .. _`bioconductor-rtcga.rnaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-rtcga.rnaseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rtcga.rnaseq";
+        var versions = ["20151101.22.0","20151101.20.0","20151101.20.0","20151101.19.0","20151101.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

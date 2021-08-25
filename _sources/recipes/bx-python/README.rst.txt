@@ -73,10 +73,23 @@ bx-python
 .. _`bx-python/tags`: https://quay.io/repository/biocontainers/bx-python?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bx-python";
+        var versions = ["0.8.11","0.8.11","0.8.10","0.8.9","0.8.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

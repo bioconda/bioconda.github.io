@@ -89,10 +89,23 @@ crispritz
 .. _`crispritz/tags`: https://quay.io/repository/biocontainers/crispritz?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crispritz";
+        var versions = ["2.6.0","2.5.9","2.5.8","2.5.7","2.5.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

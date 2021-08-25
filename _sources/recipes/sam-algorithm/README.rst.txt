@@ -70,10 +70,23 @@ sam-algorithm
 .. _`sam-algorithm/tags`: https://quay.io/repository/biocontainers/sam-algorithm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sam-algorithm";
+        var versions = ["0.8.6","0.8.5","0.8.4","0.8.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ sword
 .. _`sword/tags`: https://quay.io/repository/biocontainers/sword?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sword";
+        var versions = ["1.0.4","1.0.4","1.0.3","1.0.1","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

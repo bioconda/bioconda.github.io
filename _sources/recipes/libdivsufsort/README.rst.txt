@@ -60,10 +60,23 @@ libdivsufsort
 .. _`libdivsufsort/tags`: https://quay.io/repository/biocontainers/libdivsufsort?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libdivsufsort";
+        var versions = ["2.0.2","2.0.2","2.0.2","2.0.2","2.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

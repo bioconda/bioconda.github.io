@@ -62,10 +62,23 @@ chip-r
 .. _`chip-r/tags`: https://quay.io/repository/biocontainers/chip-r?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chip-r";
+        var versions = ["1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

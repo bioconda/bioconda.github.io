@@ -62,10 +62,23 @@ bioconductor-htrat230pmprobe
 .. _`bioconductor-htrat230pmprobe/tags`: https://quay.io/repository/biocontainers/bioconductor-htrat230pmprobe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-htrat230pmprobe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

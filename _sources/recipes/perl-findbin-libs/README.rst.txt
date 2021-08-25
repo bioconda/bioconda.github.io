@@ -66,10 +66,23 @@ perl-findbin-libs
 .. _`perl-findbin-libs/tags`: https://quay.io/repository/biocontainers/perl-findbin-libs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-findbin-libs";
+        var versions = ["2.017008","2.017008"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

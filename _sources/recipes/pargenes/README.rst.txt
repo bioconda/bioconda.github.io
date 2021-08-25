@@ -66,10 +66,23 @@ pargenes
 .. _`pargenes/tags`: https://quay.io/repository/biocontainers/pargenes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pargenes";
+        var versions = ["1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

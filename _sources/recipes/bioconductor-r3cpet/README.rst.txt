@@ -79,10 +79,23 @@ bioconductor-r3cpet
 .. _`bioconductor-r3cpet/tags`: https://quay.io/repository/biocontainers/bioconductor-r3cpet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-r3cpet";
+        var versions = ["1.24.0","1.22.0","1.22.0","1.20.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

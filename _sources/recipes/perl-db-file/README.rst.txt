@@ -70,10 +70,23 @@ perl-db-file
 .. _`perl-db-file/tags`: https://quay.io/repository/biocontainers/perl-db-file?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-db-file";
+        var versions = ["1.855","1.852","1.852","1.843","1.835"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

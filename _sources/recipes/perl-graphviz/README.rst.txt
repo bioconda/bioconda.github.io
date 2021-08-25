@@ -71,10 +71,23 @@ perl-graphviz
 .. _`perl-graphviz/tags`: https://quay.io/repository/biocontainers/perl-graphviz?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-graphviz";
+        var versions = ["2.24","2.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

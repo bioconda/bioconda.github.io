@@ -65,10 +65,23 @@ humann
 .. _`humann/tags`: https://quay.io/repository/biocontainers/humann?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "humann";
+        var versions = ["3.0.0","3.0.0","3.0.0a4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

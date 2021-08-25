@@ -68,10 +68,23 @@ unitem
 .. _`unitem/tags`: https://quay.io/repository/biocontainers/unitem?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "unitem";
+        var versions = ["0.0.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

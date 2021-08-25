@@ -65,10 +65,23 @@ gmap-fusion
 .. _`gmap-fusion/tags`: https://quay.io/repository/biocontainers/gmap-fusion?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gmap-fusion";
+        var versions = ["0.4.0","0.4.0","0.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

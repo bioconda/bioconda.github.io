@@ -93,10 +93,23 @@ maker
 .. _`maker/tags`: https://quay.io/repository/biocontainers/maker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "maker";
+        var versions = ["3.01.03","3.01.03","2.31.11","2.31.10","2.31.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

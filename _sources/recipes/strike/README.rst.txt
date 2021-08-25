@@ -62,10 +62,23 @@ strike
 .. _`strike/tags`: https://quay.io/repository/biocontainers/strike?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "strike";
+        var versions = ["1.2","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

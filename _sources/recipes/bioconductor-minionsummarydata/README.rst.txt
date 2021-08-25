@@ -61,10 +61,23 @@ bioconductor-minionsummarydata
 .. _`bioconductor-minionsummarydata/tags`: https://quay.io/repository/biocontainers/bioconductor-minionsummarydata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-minionsummarydata";
+        var versions = ["1.22.0","1.20.0","1.20.0","1.19.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

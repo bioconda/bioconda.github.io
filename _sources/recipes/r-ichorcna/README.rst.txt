@@ -64,10 +64,23 @@ r-ichorcna
 .. _`r-ichorcna/tags`: https://quay.io/repository/biocontainers/r-ichorcna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ichorcna";
+        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0","0.1.0.20180710"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

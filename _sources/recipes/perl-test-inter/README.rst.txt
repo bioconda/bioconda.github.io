@@ -60,10 +60,23 @@ perl-test-inter
 .. _`perl-test-inter/tags`: https://quay.io/repository/biocontainers/perl-test-inter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-inter";
+        var versions = ["1.09","1.07","1.06","1.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

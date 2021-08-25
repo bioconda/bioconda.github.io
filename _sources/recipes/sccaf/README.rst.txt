@@ -75,10 +75,23 @@ sccaf
 .. _`sccaf/tags`: https://quay.io/repository/biocontainers/sccaf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sccaf";
+        var versions = ["0.0.10","0.0.9","0.0.8","0.0.7.post1","0.0.7.post1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

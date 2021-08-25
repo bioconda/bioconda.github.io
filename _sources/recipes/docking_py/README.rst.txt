@@ -71,10 +71,23 @@ docking_py
 .. _`docking_py/tags`: https://quay.io/repository/biocontainers/docking_py?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "docking_py";
+        var versions = ["0.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

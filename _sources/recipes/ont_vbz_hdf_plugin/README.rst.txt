@@ -63,10 +63,23 @@ ont_vbz_hdf_plugin
 .. _`ont_vbz_hdf_plugin/tags`: https://quay.io/repository/biocontainers/ont_vbz_hdf_plugin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ont_vbz_hdf_plugin";
+        var versions = ["1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

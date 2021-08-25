@@ -62,10 +62,23 @@ alv
 .. _`alv/tags`: https://quay.io/repository/biocontainers/alv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "alv";
+        var versions = ["1.6.0","1.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

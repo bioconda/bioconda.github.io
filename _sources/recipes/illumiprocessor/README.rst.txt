@@ -62,10 +62,23 @@ illumiprocessor
 .. _`illumiprocessor/tags`: https://quay.io/repository/biocontainers/illumiprocessor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "illumiprocessor";
+        var versions = ["2.10","2.0.9","2.0.9","2.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

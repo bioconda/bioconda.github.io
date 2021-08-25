@@ -71,10 +71,23 @@ ncbi-ngs-sdk
 .. _`ncbi-ngs-sdk/tags`: https://quay.io/repository/biocontainers/ncbi-ngs-sdk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncbi-ngs-sdk";
+        var versions = ["2.11.1","2.11.0","2.10.9","2.10.9","2.10.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

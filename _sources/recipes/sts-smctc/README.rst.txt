@@ -63,6 +63,13 @@ sts-smctc
 .. _`sts-smctc/tags`: https://quay.io/repository/biocontainers/sts-smctc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sts-smctc";
+        var versions = ["1.0","1.0","1.0","1.0","1.0"];
+    </script>
+
 
 
 
@@ -71,6 +78,12 @@ Notes
 -----
 This fork of smctc is maintained by the \[Matsen research group at the Fred Hutchinson Cancer Research Centre\]\(http\:\/\/matsen.fredhutch.org\/\) for use in the \[Sequential Tree Sampler online phylogenetics package\]\(https\:\/\/github.com\/OnlinePhylo\/sts\)
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

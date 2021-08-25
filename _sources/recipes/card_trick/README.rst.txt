@@ -63,10 +63,23 @@ card_trick
 .. _`card_trick/tags`: https://quay.io/repository/biocontainers/card_trick?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "card_trick";
+        var versions = ["0.2.1","0.2.0","0.1.3","0.1.2","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

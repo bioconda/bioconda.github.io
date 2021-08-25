@@ -61,10 +61,23 @@ perl-module-pluggable
 .. _`perl-module-pluggable/tags`: https://quay.io/repository/biocontainers/perl-module-pluggable?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-pluggable";
+        var versions = ["5.2","5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

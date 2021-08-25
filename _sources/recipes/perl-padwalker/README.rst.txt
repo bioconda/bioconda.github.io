@@ -62,10 +62,23 @@ perl-padwalker
 .. _`perl-padwalker/tags`: https://quay.io/repository/biocontainers/perl-padwalker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-padwalker";
+        var versions = ["2.3","2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

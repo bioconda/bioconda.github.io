@@ -60,10 +60,23 @@ ls-gkm
 .. _`ls-gkm/tags`: https://quay.io/repository/biocontainers/ls-gkm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ls-gkm";
+        var versions = ["0.0.1","0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-posix
 .. _`perl-posix/tags`: https://quay.io/repository/biocontainers/perl-posix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-posix";
+        var versions = ["1.38_03","1.38_03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

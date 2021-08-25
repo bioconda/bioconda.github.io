@@ -66,10 +66,23 @@ arboreto
 .. _`arboreto/tags`: https://quay.io/repository/biocontainers/arboreto?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "arboreto";
+        var versions = ["0.1.6","0.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

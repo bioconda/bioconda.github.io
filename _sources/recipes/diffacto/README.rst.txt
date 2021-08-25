@@ -66,10 +66,23 @@ diffacto
 .. _`diffacto/tags`: https://quay.io/repository/biocontainers/diffacto?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "diffacto";
+        var versions = ["1.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

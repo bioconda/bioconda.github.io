@@ -63,10 +63,23 @@ circminer
 .. _`circminer/tags`: https://quay.io/repository/biocontainers/circminer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "circminer";
+        var versions = ["0.4.2","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

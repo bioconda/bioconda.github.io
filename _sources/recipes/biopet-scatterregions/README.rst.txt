@@ -64,6 +64,13 @@ biopet-scatterregions
 .. _`biopet-scatterregions/tags`: https://quay.io/repository/biocontainers/biopet-scatterregions?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biopet-scatterregions";
+        var versions = ["0.2","0.2","0.1","0.1"];
+    </script>
+
 
 
 
@@ -77,6 +84,12 @@ If you want to overwrite it you can specify memory options directly after your b
 If you have \_JAVA\_OPTIONS set globally this will take precedence.
 For example run it with \'biopet\-scatterregions \-Xms512m \-Xmx1g\'.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -78,10 +78,23 @@ gseapy
 .. _`gseapy/tags`: https://quay.io/repository/biocontainers/gseapy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gseapy";
+        var versions = ["0.10.5","0.10.4","0.10.3","0.10.2","0.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

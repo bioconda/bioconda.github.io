@@ -60,10 +60,23 @@ bio-vcf
 .. _`bio-vcf/tags`: https://quay.io/repository/biocontainers/bio-vcf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bio-vcf";
+        var versions = ["0.9.2","0.9.1","0.9.1","0.9.1","0.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

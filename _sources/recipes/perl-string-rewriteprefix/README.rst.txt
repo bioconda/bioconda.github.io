@@ -62,10 +62,23 @@ perl-string-rewriteprefix
 .. _`perl-string-rewriteprefix/tags`: https://quay.io/repository/biocontainers/perl-string-rewriteprefix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-string-rewriteprefix";
+        var versions = ["0.007"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

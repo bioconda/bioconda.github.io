@@ -73,10 +73,23 @@ r-velocyto.r
 .. _`r-velocyto.r/tags`: https://quay.io/repository/biocontainers/r-velocyto.r?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-velocyto.r";
+        var versions = ["0.6","0.6","0.6","0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

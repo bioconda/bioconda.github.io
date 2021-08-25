@@ -74,10 +74,23 @@ pyhmmer
 .. _`pyhmmer/tags`: https://quay.io/repository/biocontainers/pyhmmer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyhmmer";
+        var versions = ["0.4.5","0.4.4","0.4.3","0.4.2","0.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

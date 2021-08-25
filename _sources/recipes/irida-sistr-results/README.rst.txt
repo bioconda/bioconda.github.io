@@ -67,10 +67,23 @@ irida-sistr-results
 .. _`irida-sistr-results/tags`: https://quay.io/repository/biocontainers/irida-sistr-results?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "irida-sistr-results";
+        var versions = ["0.6.0","0.6.0","0.5.0","0.4.0","0.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

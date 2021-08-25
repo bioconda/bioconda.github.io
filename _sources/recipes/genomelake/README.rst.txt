@@ -68,10 +68,23 @@ genomelake
 .. _`genomelake/tags`: https://quay.io/repository/biocontainers/genomelake?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genomelake";
+        var versions = ["0.1.4","0.1.4","0.1.4","0.1.4","0.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

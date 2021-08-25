@@ -83,10 +83,23 @@ bioconductor-dropletutils
 .. _`bioconductor-dropletutils/tags`: https://quay.io/repository/biocontainers/bioconductor-dropletutils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-dropletutils";
+        var versions = ["1.12.1","1.12.0","1.10.3","1.10.0","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

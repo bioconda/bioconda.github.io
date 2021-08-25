@@ -60,10 +60,23 @@ perl-math-derivative
 .. _`perl-math-derivative/tags`: https://quay.io/repository/biocontainers/perl-math-derivative?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-derivative";
+        var versions = ["1.01","0.04","0.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

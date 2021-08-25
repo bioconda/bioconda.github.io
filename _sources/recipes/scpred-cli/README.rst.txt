@@ -72,10 +72,23 @@ scpred-cli
 .. _`scpred-cli/tags`: https://quay.io/repository/biocontainers/scpred-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scpred-cli";
+        var versions = ["0.1.0","0.1.0","0.1.0","0.0.9","0.0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

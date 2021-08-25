@@ -61,10 +61,23 @@ yaha
 .. _`yaha/tags`: https://quay.io/repository/biocontainers/yaha?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "yaha";
+        var versions = ["0.1.83","0.1.83","0.1.83","0.1.83"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

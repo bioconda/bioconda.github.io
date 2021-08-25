@@ -68,10 +68,23 @@ md-cogent
 .. _`md-cogent/tags`: https://quay.io/repository/biocontainers/md-cogent?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "md-cogent";
+        var versions = ["8.0.0","7.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

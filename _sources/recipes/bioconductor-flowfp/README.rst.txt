@@ -76,10 +76,23 @@ bioconductor-flowfp
 .. _`bioconductor-flowfp/tags`: https://quay.io/repository/biocontainers/bioconductor-flowfp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-flowfp";
+        var versions = ["1.50.0","1.48.0","1.48.0","1.48.0","1.46.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

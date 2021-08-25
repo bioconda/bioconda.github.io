@@ -64,10 +64,23 @@ balrog
 .. _`balrog/tags`: https://quay.io/repository/biocontainers/balrog?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "balrog";
+        var versions = ["0.5.1","0.5.1","0.3.2","0.3.1","0.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

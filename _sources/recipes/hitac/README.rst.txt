@@ -65,10 +65,23 @@ hitac
 .. _`hitac/tags`: https://quay.io/repository/biocontainers/hitac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hitac";
+        var versions = ["1.5.9","1.5.8","1.5.4","1.5.1","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

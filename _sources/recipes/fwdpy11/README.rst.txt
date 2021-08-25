@@ -79,10 +79,23 @@ fwdpy11
 .. _`fwdpy11/tags`: https://quay.io/repository/biocontainers/fwdpy11?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fwdpy11";
+        var versions = ["0.15.2","0.15.1","0.15.0","0.13.2","0.13.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

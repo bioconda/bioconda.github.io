@@ -71,10 +71,23 @@ bioconductor-mirtarrnaseq
 .. _`bioconductor-mirtarrnaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-mirtarrnaseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mirtarrnaseq";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

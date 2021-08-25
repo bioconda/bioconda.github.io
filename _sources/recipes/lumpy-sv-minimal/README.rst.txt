@@ -63,10 +63,23 @@ lumpy-sv-minimal
 .. _`lumpy-sv-minimal/tags`: https://quay.io/repository/biocontainers/lumpy-sv-minimal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lumpy-sv-minimal";
+        var versions = ["0.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

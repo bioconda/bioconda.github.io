@@ -71,10 +71,23 @@ damageprofiler
 .. _`damageprofiler/tags`: https://quay.io/repository/biocontainers/damageprofiler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "damageprofiler";
+        var versions = ["1.1","1.1","1.1","0.5.0","0.4.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

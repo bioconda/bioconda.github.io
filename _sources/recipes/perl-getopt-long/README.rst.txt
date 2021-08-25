@@ -60,10 +60,23 @@ perl-getopt-long
 .. _`perl-getopt-long/tags`: https://quay.io/repository/biocontainers/perl-getopt-long?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-getopt-long";
+        var versions = ["2.50","2.50","2.49"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

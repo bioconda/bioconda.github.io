@@ -65,10 +65,23 @@ bioconductor-panther.db
 .. _`bioconductor-panther.db/tags`: https://quay.io/repository/biocontainers/bioconductor-panther.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-panther.db";
+        var versions = ["1.0.11","1.0.10","1.0.10","1.0.10","1.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

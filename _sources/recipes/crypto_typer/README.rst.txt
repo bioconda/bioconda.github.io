@@ -63,10 +63,23 @@ crypto_typer
 .. _`crypto_typer/tags`: https://quay.io/repository/biocontainers/crypto_typer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crypto_typer";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

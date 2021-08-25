@@ -64,10 +64,23 @@ moods
 .. _`moods/tags`: https://quay.io/repository/biocontainers/moods?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "moods";
+        var versions = ["1.9.4.1","1.9.4.1","1.9.3","1.9.3","1.9.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

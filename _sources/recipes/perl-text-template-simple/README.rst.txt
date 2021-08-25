@@ -61,10 +61,23 @@ perl-text-template-simple
 .. _`perl-text-template-simple/tags`: https://quay.io/repository/biocontainers/perl-text-template-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-template-simple";
+        var versions = ["0.91"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

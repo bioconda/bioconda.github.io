@@ -60,10 +60,23 @@ mason
 .. _`mason/tags`: https://quay.io/repository/biocontainers/mason?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mason";
+        var versions = ["2.0.9","2.0.9","2.0.8","2.0.8","2.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

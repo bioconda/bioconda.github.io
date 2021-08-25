@@ -73,10 +73,23 @@ crispector
 .. _`crispector/tags`: https://quay.io/repository/biocontainers/crispector?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crispector";
+        var versions = ["1.0.4","1.0.3","1.0.2b9","1.0.2b7","1.0.2b6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

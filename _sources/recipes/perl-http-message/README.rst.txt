@@ -72,10 +72,23 @@ perl-http-message
 .. _`perl-http-message/tags`: https://quay.io/repository/biocontainers/perl-http-message?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-http-message";
+        var versions = ["6.18","6.11","6.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -70,10 +70,23 @@ subread
 .. _`subread/tags`: https://quay.io/repository/biocontainers/subread?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "subread";
+        var versions = ["2.0.1","2.0.1","2.0.0","1.6.4","1.6.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

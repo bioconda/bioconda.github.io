@@ -65,10 +65,23 @@ deepsignal-plant
 .. _`deepsignal-plant/tags`: https://quay.io/repository/biocontainers/deepsignal-plant?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deepsignal-plant";
+        var versions = ["0.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

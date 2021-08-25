@@ -61,10 +61,23 @@ pgma-simple
 .. _`pgma-simple/tags`: https://quay.io/repository/biocontainers/pgma-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pgma-simple";
+        var versions = ["0.1","0.1","0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

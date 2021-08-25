@@ -92,10 +92,23 @@ r-hemdag
 .. _`r-hemdag/tags`: https://quay.io/repository/biocontainers/r-hemdag?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-hemdag";
+        var versions = ["2.7.4","2.7.4","2.7.4","2.7.3","2.7.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

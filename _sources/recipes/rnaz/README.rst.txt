@@ -63,10 +63,23 @@ rnaz
 .. _`rnaz/tags`: https://quay.io/repository/biocontainers/rnaz?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rnaz";
+        var versions = ["2.1.1","2.1.1","2.1.1","2.1","2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

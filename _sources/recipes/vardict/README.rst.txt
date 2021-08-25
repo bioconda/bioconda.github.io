@@ -69,10 +69,23 @@ vardict
 .. _`vardict/tags`: https://quay.io/repository/biocontainers/vardict?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vardict";
+        var versions = ["2019.06.04","2018.10.18","2018.10.18","2018.09.21","2018.07.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

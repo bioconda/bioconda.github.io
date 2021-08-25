@@ -63,10 +63,23 @@ bioconductor-hgubeta7.db
 .. _`bioconductor-hgubeta7.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hgubeta7.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hgubeta7.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

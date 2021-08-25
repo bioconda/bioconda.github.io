@@ -76,10 +76,23 @@ bioconductor-edger
 .. _`bioconductor-edger/tags`: https://quay.io/repository/biocontainers/bioconductor-edger?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-edger";
+        var versions = ["3.34.0","3.32.1","3.32.0","3.30.0","3.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

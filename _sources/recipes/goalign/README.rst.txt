@@ -59,10 +59,23 @@ goalign
 .. _`goalign/tags`: https://quay.io/repository/biocontainers/goalign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "goalign";
+        var versions = ["0.3.4","0.3.2","0.3.2","0.3.2","0.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

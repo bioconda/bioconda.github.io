@@ -60,10 +60,23 @@ perl-error
 .. _`perl-error/tags`: https://quay.io/repository/biocontainers/perl-error?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-error";
+        var versions = ["0.17027","0.17027","0.17024","0.17024"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

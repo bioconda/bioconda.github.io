@@ -62,10 +62,23 @@ platypus-conquistador
 .. _`platypus-conquistador/tags`: https://quay.io/repository/biocontainers/platypus-conquistador?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "platypus-conquistador";
+        var versions = ["0.9.0","0.9.0","0.9.0","0.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

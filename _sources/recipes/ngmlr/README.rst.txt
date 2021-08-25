@@ -70,10 +70,23 @@ ngmlr
 .. _`ngmlr/tags`: https://quay.io/repository/biocontainers/ngmlr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ngmlr";
+        var versions = ["0.2.7","0.2.7","0.2.7","0.2.7","0.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ bioconductor-gse13015
 .. _`bioconductor-gse13015/tags`: https://quay.io/repository/biocontainers/bioconductor-gse13015?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gse13015";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

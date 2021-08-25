@@ -65,10 +65,23 @@ haploflow
 .. _`haploflow/tags`: https://quay.io/repository/biocontainers/haploflow?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "haploflow";
+        var versions = ["0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

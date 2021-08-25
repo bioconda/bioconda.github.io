@@ -72,10 +72,23 @@ edd
 .. _`edd/tags`: https://quay.io/repository/biocontainers/edd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "edd";
+        var versions = ["1.1.19","1.1.19","1.1.19","1.1.19","1.1.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

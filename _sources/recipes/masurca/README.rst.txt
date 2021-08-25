@@ -78,10 +78,23 @@ masurca
 .. _`masurca/tags`: https://quay.io/repository/biocontainers/masurca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "masurca";
+        var versions = ["3.4.2","3.4.2","3.4.1","3.4.0","3.3.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -84,10 +84,23 @@ bioconductor-genogam
 .. _`bioconductor-genogam/tags`: https://quay.io/repository/biocontainers/bioconductor-genogam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genogam";
+        var versions = ["2.10.0","2.8.0","2.8.0","2.6.0","2.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

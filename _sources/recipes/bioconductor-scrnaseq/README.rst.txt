@@ -71,10 +71,23 @@ bioconductor-scrnaseq
 .. _`bioconductor-scrnaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-scrnaseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-scrnaseq";
+        var versions = ["2.6.1","2.4.0","2.4.0","2.3.17","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -78,10 +78,23 @@ perl-bioperl
 .. _`perl-bioperl/tags`: https://quay.io/repository/biocontainers/perl-bioperl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bioperl";
+        var versions = ["1.7.2","1.7.2","1.7.2","1.7.2","1.6.924"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

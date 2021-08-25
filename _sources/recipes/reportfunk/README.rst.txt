@@ -63,10 +63,23 @@ reportfunk
 .. _`reportfunk/tags`: https://quay.io/repository/biocontainers/reportfunk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "reportfunk";
+        var versions = ["1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -59,10 +59,23 @@ bax2bam
 .. _`bax2bam/tags`: https://quay.io/repository/biocontainers/bax2bam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bax2bam";
+        var versions = ["0.0.11","0.0.9","0.0.9","0.0.9","0.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

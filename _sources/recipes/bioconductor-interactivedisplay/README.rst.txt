@@ -73,10 +73,23 @@ bioconductor-interactivedisplay
 .. _`bioconductor-interactivedisplay/tags`: https://quay.io/repository/biocontainers/bioconductor-interactivedisplay?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-interactivedisplay";
+        var versions = ["1.30.0","1.28.0","1.28.0","1.18.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

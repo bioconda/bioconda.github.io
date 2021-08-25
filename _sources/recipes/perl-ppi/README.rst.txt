@@ -70,10 +70,23 @@ perl-ppi
 .. _`perl-ppi/tags`: https://quay.io/repository/biocontainers/perl-ppi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-ppi";
+        var versions = ["1.236","1.236","1.236"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

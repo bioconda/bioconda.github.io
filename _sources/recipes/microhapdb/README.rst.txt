@@ -61,10 +61,23 @@ microhapdb
 .. _`microhapdb/tags`: https://quay.io/repository/biocontainers/microhapdb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "microhapdb";
+        var versions = ["0.6","0.5","0.4.3","0.4.1","0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

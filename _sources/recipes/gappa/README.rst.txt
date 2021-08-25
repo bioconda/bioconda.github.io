@@ -71,10 +71,23 @@ gappa
 .. _`gappa/tags`: https://quay.io/repository/biocontainers/gappa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gappa";
+        var versions = ["0.7.1","0.7.1","0.7.0","0.7.0","0.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

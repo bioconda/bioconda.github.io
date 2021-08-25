@@ -63,10 +63,23 @@ bioconductor-fdb.ucsc.snp137common.hg19
 .. _`bioconductor-fdb.ucsc.snp137common.hg19/tags`: https://quay.io/repository/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-fdb.ucsc.snp137common.hg19";
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

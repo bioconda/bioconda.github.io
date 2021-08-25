@@ -62,10 +62,23 @@ perl-number-witherror
 .. _`perl-number-witherror/tags`: https://quay.io/repository/biocontainers/perl-number-witherror?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-number-witherror";
+        var versions = ["1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

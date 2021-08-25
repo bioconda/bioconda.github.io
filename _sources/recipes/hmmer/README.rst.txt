@@ -69,10 +69,23 @@ hmmer
 .. _`hmmer/tags`: https://quay.io/repository/biocontainers/hmmer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmmer";
+        var versions = ["3.3.2","3.3.2","3.3.1","3.3","3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ r-tftargets
 .. _`r-tftargets/tags`: https://quay.io/repository/biocontainers/r-tftargets?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-tftargets";
+        var versions = ["1.3","1.3","1.3","1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ staden_io_lib
 .. _`staden_io_lib/tags`: https://quay.io/repository/biocontainers/staden_io_lib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "staden_io_lib";
+        var versions = ["1.14.14","1.14.14","1.14.13","1.14.13","1.14.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

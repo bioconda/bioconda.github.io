@@ -70,10 +70,23 @@ bioconductor-cellhts2
 .. _`bioconductor-cellhts2/tags`: https://quay.io/repository/biocontainers/bioconductor-cellhts2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cellhts2";
+        var versions = ["2.56.0","2.52.0","2.50.0","2.48.0","2.46.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

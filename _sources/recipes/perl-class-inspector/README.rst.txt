@@ -60,10 +60,23 @@ perl-class-inspector
 .. _`perl-class-inspector/tags`: https://quay.io/repository/biocontainers/perl-class-inspector?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-class-inspector";
+        var versions = ["1.34","1.32","1.32","1.28","1.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

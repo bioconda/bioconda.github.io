@@ -68,10 +68,23 @@ bioconductor-pd.hg.focus
 .. _`bioconductor-pd.hg.focus/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.hg.focus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.hg.focus";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -75,10 +75,23 @@ bioconductor-mixomics
 .. _`bioconductor-mixomics/tags`: https://quay.io/repository/biocontainers/bioconductor-mixomics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mixomics";
+        var versions = ["6.16.0","6.14.0","6.14.0","6.12.0","6.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

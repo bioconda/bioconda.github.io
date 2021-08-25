@@ -63,10 +63,23 @@ perl-data-match
 .. _`perl-data-match/tags`: https://quay.io/repository/biocontainers/perl-data-match?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-match";
+        var versions = ["0.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

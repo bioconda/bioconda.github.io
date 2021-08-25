@@ -67,10 +67,23 @@ spacepharer
 .. _`spacepharer/tags`: https://quay.io/repository/biocontainers/spacepharer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "spacepharer";
+        var versions = ["5.c2e680a","4.228b9e5","4.228b9e5","4.228b9e5","3.5b8c86d"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

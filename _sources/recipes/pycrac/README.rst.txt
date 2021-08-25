@@ -63,10 +63,23 @@ pycrac
 .. _`pycrac/tags`: https://quay.io/repository/biocontainers/pycrac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pycrac";
+        var versions = ["1.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

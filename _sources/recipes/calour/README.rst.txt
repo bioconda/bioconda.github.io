@@ -76,10 +76,23 @@ calour
 .. _`calour/tags`: https://quay.io/repository/biocontainers/calour?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "calour";
+        var versions = ["2019.5.1","2018.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-bsgenome.vvinifera.urgi.iggp8x
 .. _`bioconductor-bsgenome.vvinifera.urgi.iggp8x/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.vvinifera.urgi.iggp8x?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.vvinifera.urgi.iggp8x";
+        var versions = ["0.1","0.1","0.1","0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -77,10 +77,23 @@ bioconductor-geoquery
 .. _`bioconductor-geoquery/tags`: https://quay.io/repository/biocontainers/bioconductor-geoquery?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-geoquery";
+        var versions = ["2.60.0","2.58.0","2.58.0","2.56.0","2.56.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

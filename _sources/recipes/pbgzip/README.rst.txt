@@ -62,10 +62,23 @@ pbgzip
 .. _`pbgzip/tags`: https://quay.io/repository/biocontainers/pbgzip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pbgzip";
+        var versions = ["2016.08.04","2016.08.04","2016.08.04","2015.10.28","2015.10.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

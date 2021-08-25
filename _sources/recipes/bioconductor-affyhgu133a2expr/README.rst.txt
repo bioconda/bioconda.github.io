@@ -61,10 +61,23 @@ bioconductor-affyhgu133a2expr
 .. _`bioconductor-affyhgu133a2expr/tags`: https://quay.io/repository/biocontainers/bioconductor-affyhgu133a2expr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-affyhgu133a2expr";
+        var versions = ["1.28.0","1.26.0","1.26.0","1.25.0","1.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

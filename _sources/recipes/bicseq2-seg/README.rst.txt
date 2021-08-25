@@ -63,10 +63,23 @@ bicseq2-seg
 .. _`bicseq2-seg/tags`: https://quay.io/repository/biocontainers/bicseq2-seg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bicseq2-seg";
+        var versions = ["0.7.2","0.7.2","0.7.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

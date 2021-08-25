@@ -66,10 +66,23 @@ ncfp
 .. _`ncfp/tags`: https://quay.io/repository/biocontainers/ncfp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncfp";
+        var versions = ["0.2.0","0.1.1","0.1.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

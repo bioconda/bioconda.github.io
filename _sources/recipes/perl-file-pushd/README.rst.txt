@@ -64,10 +64,23 @@ perl-file-pushd
 .. _`perl-file-pushd/tags`: https://quay.io/repository/biocontainers/perl-file-pushd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-pushd";
+        var versions = ["1.016","1.016"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

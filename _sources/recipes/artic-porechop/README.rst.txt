@@ -63,10 +63,23 @@ artic-porechop
 .. _`artic-porechop/tags`: https://quay.io/repository/biocontainers/artic-porechop?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "artic-porechop";
+        var versions = ["0.3.2pre","0.3.2pre","0.3.2pre"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

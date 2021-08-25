@@ -62,10 +62,23 @@ fcp
 .. _`fcp/tags`: https://quay.io/repository/biocontainers/fcp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fcp";
+        var versions = ["1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

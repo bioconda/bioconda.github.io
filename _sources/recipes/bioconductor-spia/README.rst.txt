@@ -70,10 +70,23 @@ bioconductor-spia
 .. _`bioconductor-spia/tags`: https://quay.io/repository/biocontainers/bioconductor-spia?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-spia";
+        var versions = ["2.44.0","2.42.0","2.42.0","2.40.0","2.38.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

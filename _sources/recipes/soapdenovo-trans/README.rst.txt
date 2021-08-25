@@ -61,10 +61,23 @@ soapdenovo-trans
 .. _`soapdenovo-trans/tags`: https://quay.io/repository/biocontainers/soapdenovo-trans?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "soapdenovo-trans";
+        var versions = ["1.04","1.04","1.04","1.04","1.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

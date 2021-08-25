@@ -62,10 +62,23 @@ nextclade_js
 .. _`nextclade_js/tags`: https://quay.io/repository/biocontainers/nextclade_js?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nextclade_js";
+        var versions = ["0.14.4","0.14.3","0.14.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -88,10 +88,23 @@ hail
 .. _`hail/tags`: https://quay.io/repository/biocontainers/hail?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hail";
+        var versions = ["0.2.61","0.2.61","0.2.58","0.2.33","0.2.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

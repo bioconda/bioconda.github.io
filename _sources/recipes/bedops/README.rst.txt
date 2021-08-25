@@ -71,10 +71,23 @@ bedops
 .. _`bedops/tags`: https://quay.io/repository/biocontainers/bedops?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bedops";
+        var versions = ["2.4.39","2.4.39","2.4.38","2.4.37","2.4.36"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

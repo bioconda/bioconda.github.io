@@ -67,10 +67,23 @@ pvacseq
 .. _`pvacseq/tags`: https://quay.io/repository/biocontainers/pvacseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pvacseq";
+        var versions = ["4.0.10","4.0.10","4.0.10","4.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

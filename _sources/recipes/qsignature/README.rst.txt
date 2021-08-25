@@ -60,10 +60,23 @@ qsignature
 .. _`qsignature/tags`: https://quay.io/repository/biocontainers/qsignature?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "qsignature";
+        var versions = ["0.1pre","0.1pre","0.1pre","0.1pre","0.1pre"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

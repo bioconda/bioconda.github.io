@@ -69,10 +69,23 @@ adam
 .. _`adam/tags`: https://quay.io/repository/biocontainers/adam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "adam";
+        var versions = ["0.36.0","0.35.0","0.34.0","0.34.0","0.33.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

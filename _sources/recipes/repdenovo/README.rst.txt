@@ -67,10 +67,23 @@ repdenovo
 .. _`repdenovo/tags`: https://quay.io/repository/biocontainers/repdenovo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "repdenovo";
+        var versions = ["0.0.1","0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

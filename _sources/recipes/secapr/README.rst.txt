@@ -82,10 +82,23 @@ secapr
 .. _`secapr/tags`: https://quay.io/repository/biocontainers/secapr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "secapr";
+        var versions = ["2.2.3","2.2.1","2.1.1","2.1.0","2.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

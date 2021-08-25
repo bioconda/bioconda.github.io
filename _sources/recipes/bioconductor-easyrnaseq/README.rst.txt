@@ -79,10 +79,23 @@ bioconductor-easyrnaseq
 .. _`bioconductor-easyrnaseq/tags`: https://quay.io/repository/biocontainers/bioconductor-easyrnaseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-easyrnaseq";
+        var versions = ["2.28.0","2.24.1","2.22.0","2.20.0","2.18.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

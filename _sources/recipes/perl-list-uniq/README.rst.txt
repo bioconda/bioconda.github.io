@@ -60,10 +60,23 @@ perl-list-uniq
 .. _`perl-list-uniq/tags`: https://quay.io/repository/biocontainers/perl-list-uniq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-list-uniq";
+        var versions = ["0.20","0.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ bioconductor-human1mduov3bcrlmm
 .. _`bioconductor-human1mduov3bcrlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-human1mduov3bcrlmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-human1mduov3bcrlmm";
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.4","1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

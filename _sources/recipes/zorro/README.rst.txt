@@ -62,10 +62,23 @@ zorro
 .. _`zorro/tags`: https://quay.io/repository/biocontainers/zorro?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "zorro";
+        var versions = ["2011.12.01","2011.12.01","2011.12.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

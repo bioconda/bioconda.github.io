@@ -63,10 +63,23 @@ bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked
 .. _`bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.cfamiliaris.ucsc.canfam3.masked";
+        var versions = ["1.3.99","1.3.99","1.3.99","1.3.99","1.3.99"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

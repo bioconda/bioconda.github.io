@@ -62,10 +62,23 @@ suma_package
 .. _`suma_package/tags`: https://quay.io/repository/biocontainers/suma_package?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "suma_package";
+        var versions = ["1.0.00","1.0.00","1.0.00","1.0.00","1.0.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

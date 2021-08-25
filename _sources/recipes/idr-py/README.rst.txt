@@ -107,10 +107,23 @@ idr-py
 .. _`idr-py/tags`: https://quay.io/repository/biocontainers/idr-py?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "idr-py";
+        var versions = ["0.4.2","0.4.0","0.4.0.dev3","0.3.0","0.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-math-bigint
 .. _`perl-math-bigint/tags`: https://quay.io/repository/biocontainers/perl-math-bigint?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-bigint";
+        var versions = ["1.999816","1.999813"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

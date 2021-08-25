@@ -61,10 +61,23 @@ bioconductor-hugene.1.0.st.v1frmavecs
 .. _`bioconductor-hugene.1.0.st.v1frmavecs/tags`: https://quay.io/repository/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hugene.1.0.st.v1frmavecs";
+        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ starcode
 .. _`starcode/tags`: https://quay.io/repository/biocontainers/starcode?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "starcode";
+        var versions = ["1.4","1.4","1.3","1.3","1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

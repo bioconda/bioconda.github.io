@@ -72,10 +72,23 @@ nanonet
 .. _`nanonet/tags`: https://quay.io/repository/biocontainers/nanonet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanonet";
+        var versions = ["2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

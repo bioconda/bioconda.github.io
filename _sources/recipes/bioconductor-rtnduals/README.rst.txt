@@ -61,10 +61,23 @@ bioconductor-rtnduals
 .. _`bioconductor-rtnduals/tags`: https://quay.io/repository/biocontainers/bioconductor-rtnduals?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rtnduals";
+        var versions = ["1.16.0","1.14.1","1.14.0","1.12.0","1.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

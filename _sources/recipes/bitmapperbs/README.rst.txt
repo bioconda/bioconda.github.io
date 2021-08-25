@@ -66,10 +66,23 @@ bitmapperbs
 .. _`bitmapperbs/tags`: https://quay.io/repository/biocontainers/bitmapperbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bitmapperbs";
+        var versions = ["1.0.2.3","1.0.2.3","1.0.2.3","1.0.2.3","1.0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ escher
 .. _`escher/tags`: https://quay.io/repository/biocontainers/escher?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "escher";
+        var versions = ["1.7.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

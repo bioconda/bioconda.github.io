@@ -61,10 +61,23 @@ uniprot
 .. _`uniprot/tags`: https://quay.io/repository/biocontainers/uniprot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "uniprot";
+        var versions = ["1.3","1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

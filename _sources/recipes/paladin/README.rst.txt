@@ -65,10 +65,23 @@ paladin
 .. _`paladin/tags`: https://quay.io/repository/biocontainers/paladin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "paladin";
+        var versions = ["1.4.6","1.4.6","1.4.6","1.4.4","1.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

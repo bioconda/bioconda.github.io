@@ -64,10 +64,23 @@ wes-service-client
 .. _`wes-service-client/tags`: https://quay.io/repository/biocontainers/wes-service-client?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wes-service-client";
+        var versions = ["2.7","2.5","2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

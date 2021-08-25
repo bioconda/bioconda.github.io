@@ -62,10 +62,23 @@ legsta
 .. _`legsta/tags`: https://quay.io/repository/biocontainers/legsta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "legsta";
+        var versions = ["0.5.1","0.5.1","0.3.7","0.3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

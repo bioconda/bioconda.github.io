@@ -63,10 +63,23 @@ bioexcel_seqqc
 .. _`bioexcel_seqqc/tags`: https://quay.io/repository/biocontainers/bioexcel_seqqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioexcel_seqqc";
+        var versions = ["0.6","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

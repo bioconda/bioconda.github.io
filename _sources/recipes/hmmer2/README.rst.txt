@@ -60,10 +60,23 @@ hmmer2
 .. _`hmmer2/tags`: https://quay.io/repository/biocontainers/hmmer2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmmer2";
+        var versions = ["2.3.2","2.3.2","2.3.2","2.3.2","2.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

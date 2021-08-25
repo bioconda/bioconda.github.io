@@ -78,10 +78,23 @@ cyvcf2
 .. _`cyvcf2/tags`: https://quay.io/repository/biocontainers/cyvcf2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cyvcf2";
+        var versions = ["0.30.11","0.30.11","0.30.11","0.30.9","0.30.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

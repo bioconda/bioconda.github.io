@@ -72,10 +72,23 @@ r-bcbiobase
 .. _`r-bcbiobase/tags`: https://quay.io/repository/biocontainers/r-bcbiobase?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-bcbiobase";
+        var versions = ["0.6.21","0.6.21","0.6.16","0.6.16","0.6.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

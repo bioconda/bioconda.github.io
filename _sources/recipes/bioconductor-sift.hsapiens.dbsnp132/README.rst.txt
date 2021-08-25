@@ -64,10 +64,23 @@ bioconductor-sift.hsapiens.dbsnp132
 .. _`bioconductor-sift.hsapiens.dbsnp132/tags`: https://quay.io/repository/biocontainers/bioconductor-sift.hsapiens.dbsnp132?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sift.hsapiens.dbsnp132";
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

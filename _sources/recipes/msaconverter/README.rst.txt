@@ -61,10 +61,23 @@ msaconverter
 .. _`msaconverter/tags`: https://quay.io/repository/biocontainers/msaconverter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "msaconverter";
+        var versions = ["0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

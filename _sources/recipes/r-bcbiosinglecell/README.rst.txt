@@ -78,10 +78,23 @@ r-bcbiosinglecell
 .. _`r-bcbiosinglecell/tags`: https://quay.io/repository/biocontainers/r-bcbiosinglecell?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-bcbiosinglecell";
+        var versions = ["0.4.16","0.4.16","0.4.13","0.4.12","0.4.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

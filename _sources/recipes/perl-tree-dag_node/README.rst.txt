@@ -61,10 +61,23 @@ perl-tree-dag_node
 .. _`perl-tree-dag_node/tags`: https://quay.io/repository/biocontainers/perl-tree-dag_node?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tree-dag_node";
+        var versions = ["1.31","1.29","1.29","1.29"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

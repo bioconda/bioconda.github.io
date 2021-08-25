@@ -72,10 +72,23 @@ bioconductor-brain
 .. _`bioconductor-brain/tags`: https://quay.io/repository/biocontainers/bioconductor-brain?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-brain";
+        var versions = ["1.38.0","1.36.0","1.36.0","1.34.0","1.32.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

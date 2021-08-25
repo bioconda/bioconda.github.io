@@ -74,10 +74,23 @@ pyteomics
 .. _`pyteomics/tags`: https://quay.io/repository/biocontainers/pyteomics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyteomics";
+        var versions = ["4.4.2","4.4.1","4.4.0","4.3.3","4.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

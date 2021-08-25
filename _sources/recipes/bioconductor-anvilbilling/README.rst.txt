@@ -70,10 +70,23 @@ bioconductor-anvilbilling
 .. _`bioconductor-anvilbilling/tags`: https://quay.io/repository/biocontainers/bioconductor-anvilbilling?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-anvilbilling";
+        var versions = ["1.2.0","1.0.1","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

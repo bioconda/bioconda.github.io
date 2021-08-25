@@ -62,10 +62,23 @@ perl-aceperl
 .. _`perl-aceperl/tags`: https://quay.io/repository/biocontainers/perl-aceperl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-aceperl";
+        var versions = ["1.92","1.92","1.92"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

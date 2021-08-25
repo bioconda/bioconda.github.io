@@ -75,10 +75,23 @@ targetdb
 .. _`targetdb/tags`: https://quay.io/repository/biocontainers/targetdb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "targetdb";
+        var versions = ["1.3.1","1.3.0","1.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

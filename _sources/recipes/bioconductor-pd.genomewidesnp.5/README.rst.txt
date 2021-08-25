@@ -68,10 +68,23 @@ bioconductor-pd.genomewidesnp.5
 .. _`bioconductor-pd.genomewidesnp.5/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.genomewidesnp.5?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.genomewidesnp.5";
+        var versions = ["3.14.1","3.14.1","3.14.1","3.14.1","3.14.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -91,10 +91,23 @@ bactopia
 .. _`bactopia/tags`: https://quay.io/repository/biocontainers/bactopia?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bactopia";
+        var versions = ["1.7.1","1.7.0","1.6.5","1.6.5","1.6.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

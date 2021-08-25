@@ -70,10 +70,23 @@ xbioc
 .. _`xbioc/tags`: https://quay.io/repository/biocontainers/xbioc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "xbioc";
+        var versions = ["0.1.19","0.1.18","0.1.18","0.1.18","0.1.16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

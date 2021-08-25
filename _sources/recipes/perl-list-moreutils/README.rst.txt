@@ -62,10 +62,23 @@ perl-list-moreutils
 .. _`perl-list-moreutils/tags`: https://quay.io/repository/biocontainers/perl-list-moreutils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-list-moreutils";
+        var versions = ["0.428","0.428","0.413","0.15","0.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

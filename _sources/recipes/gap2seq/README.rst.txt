@@ -73,6 +73,13 @@ gap2seq
 .. _`gap2seq/tags`: https://quay.io/repository/biocontainers/gap2seq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gap2seq";
+        var versions = ["3.1","3.1","3.1","2.1","2.1"];
+    </script>
+
 
 
 
@@ -81,6 +88,12 @@ Notes
 -----
 Gap2Seq is only tested on Linux x86\_64 by its author.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

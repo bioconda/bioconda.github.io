@@ -72,10 +72,23 @@ bioconductor-rgmql
 .. _`bioconductor-rgmql/tags`: https://quay.io/repository/biocontainers/bioconductor-rgmql?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rgmql";
+        var versions = ["1.12.1","1.10.0","1.10.0","1.6.0","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

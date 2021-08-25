@@ -96,10 +96,23 @@ gemini
 .. _`gemini/tags`: https://quay.io/repository/biocontainers/gemini?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gemini";
+        var versions = ["0.30.2","0.30.2","0.30.2","0.30.2","0.30.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

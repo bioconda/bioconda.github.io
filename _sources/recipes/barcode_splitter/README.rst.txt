@@ -61,10 +61,23 @@ barcode_splitter
 .. _`barcode_splitter/tags`: https://quay.io/repository/biocontainers/barcode_splitter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "barcode_splitter";
+        var versions = ["0.18.6","0.18.5","0.18.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

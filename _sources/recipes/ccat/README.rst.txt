@@ -61,10 +61,23 @@ ccat
 .. _`ccat/tags`: https://quay.io/repository/biocontainers/ccat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ccat";
+        var versions = ["3.0","3.0","3.0","3.0","3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

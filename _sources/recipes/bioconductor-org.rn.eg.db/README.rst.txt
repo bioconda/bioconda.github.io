@@ -70,10 +70,23 @@ bioconductor-org.rn.eg.db
 .. _`bioconductor-org.rn.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-org.rn.eg.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-org.rn.eg.db";
+        var versions = ["3.13.0","3.12.0","3.12.0","3.11.1","3.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ primerclip
 .. _`primerclip/tags`: https://quay.io/repository/biocontainers/primerclip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "primerclip";
+        var versions = ["0.3.8","0.3.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

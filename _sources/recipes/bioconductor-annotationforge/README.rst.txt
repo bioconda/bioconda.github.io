@@ -77,10 +77,23 @@ bioconductor-annotationforge
 .. _`bioconductor-annotationforge/tags`: https://quay.io/repository/biocontainers/bioconductor-annotationforge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-annotationforge";
+        var versions = ["1.34.0","1.32.0","1.32.0","1.30.1","1.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

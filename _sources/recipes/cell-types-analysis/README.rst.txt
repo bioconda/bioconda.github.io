@@ -81,10 +81,23 @@ cell-types-analysis
 .. _`cell-types-analysis/tags`: https://quay.io/repository/biocontainers/cell-types-analysis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cell-types-analysis";
+        var versions = ["0.1.11","0.1.11","0.1.10","0.1.9","0.1.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

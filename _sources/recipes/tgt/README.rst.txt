@@ -61,10 +61,23 @@ tgt
 .. _`tgt/tags`: https://quay.io/repository/biocontainers/tgt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tgt";
+        var versions = ["1.4.3","1.4.3","1.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

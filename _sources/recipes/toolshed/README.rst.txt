@@ -60,10 +60,23 @@ toolshed
 .. _`toolshed/tags`: https://quay.io/repository/biocontainers/toolshed?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "toolshed";
+        var versions = ["0.4.6","0.4.6","0.4.6","0.4.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

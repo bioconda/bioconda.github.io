@@ -68,10 +68,23 @@ bioconductor-pd.mg.u74a
 .. _`bioconductor-pd.mg.u74a/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.mg.u74a?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.mg.u74a";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

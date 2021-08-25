@@ -61,10 +61,23 @@ perl-specio-exporter
 .. _`perl-specio-exporter/tags`: https://quay.io/repository/biocontainers/perl-specio-exporter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-specio-exporter";
+        var versions = ["0.36","0.36","0.36","0.36"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

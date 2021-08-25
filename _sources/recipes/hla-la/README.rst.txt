@@ -75,10 +75,23 @@ hla-la
 .. _`hla-la/tags`: https://quay.io/repository/biocontainers/hla-la?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hla-la";
+        var versions = ["1.0.1","1.0.1","1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

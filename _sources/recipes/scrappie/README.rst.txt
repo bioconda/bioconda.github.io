@@ -69,10 +69,23 @@ scrappie
 .. _`scrappie/tags`: https://quay.io/repository/biocontainers/scrappie?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scrappie";
+        var versions = ["1.4.2","1.4.2","1.4.2","1.4.1","1.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

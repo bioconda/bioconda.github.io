@@ -69,10 +69,23 @@ bioconductor-tcgabiolinksgui.data
 .. _`bioconductor-tcgabiolinksgui.data/tags`: https://quay.io/repository/biocontainers/bioconductor-tcgabiolinksgui.data?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-tcgabiolinksgui.data";
+        var versions = ["1.12.0","1.10.0","1.10.0","1.9.2","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

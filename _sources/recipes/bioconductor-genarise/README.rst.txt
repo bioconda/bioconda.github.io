@@ -63,10 +63,23 @@ bioconductor-genarise
 .. _`bioconductor-genarise/tags`: https://quay.io/repository/biocontainers/bioconductor-genarise?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genarise";
+        var versions = ["1.68.0","1.66.0","1.66.0","1.64.0","1.62.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ r-rtfbs
 .. _`r-rtfbs/tags`: https://quay.io/repository/biocontainers/r-rtfbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-rtfbs";
+        var versions = ["0.3.15","0.3.15","0.3.15","0.3.15","0.3.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

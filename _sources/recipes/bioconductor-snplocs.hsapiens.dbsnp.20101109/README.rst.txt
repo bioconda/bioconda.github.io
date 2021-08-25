@@ -64,10 +64,23 @@ bioconductor-snplocs.hsapiens.dbsnp.20101109
 .. _`bioconductor-snplocs.hsapiens.dbsnp.20101109/tags`: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-snplocs.hsapiens.dbsnp.20101109";
+        var versions = ["0.99.7","0.99.7","0.99.7","0.99.7","0.99.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

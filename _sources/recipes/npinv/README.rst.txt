@@ -62,6 +62,13 @@ npinv
 .. _`npinv/tags`: https://quay.io/repository/biocontainers/npinv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "npinv";
+        var versions = ["1.24","1.24","1.24","1.24","1.24"];
+    </script>
+
 
 
 
@@ -75,6 +82,12 @@ set globally this will take precedence.
 For example run it with \"npinv \-Xms512m \-Xmx1g\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

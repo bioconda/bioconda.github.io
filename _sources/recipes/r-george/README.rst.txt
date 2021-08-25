@@ -63,10 +63,23 @@ r-george
 .. _`r-george/tags`: https://quay.io/repository/biocontainers/r-george?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-george";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

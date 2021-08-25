@@ -61,10 +61,23 @@ perl-prefork
 .. _`perl-prefork/tags`: https://quay.io/repository/biocontainers/perl-prefork?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-prefork";
+        var versions = ["1.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -72,10 +72,23 @@ dx-cwl
 .. _`dx-cwl/tags`: https://quay.io/repository/biocontainers/dx-cwl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dx-cwl";
+        var versions = ["0.1.0a20180905","0.1.0a20180905","0.1.0a20180905","0.1.0a20180905","0.1.0a20180829"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

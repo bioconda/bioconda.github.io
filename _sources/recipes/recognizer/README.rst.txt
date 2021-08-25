@@ -85,10 +85,23 @@ recognizer
 .. _`recognizer/tags`: https://quay.io/repository/biocontainers/recognizer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "recognizer";
+        var versions = ["1.4.9","1.4.8","1.4.7","1.4.6","1.4.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-nugohs1a520180cdf
 .. _`bioconductor-nugohs1a520180cdf/tags`: https://quay.io/repository/biocontainers/bioconductor-nugohs1a520180cdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-nugohs1a520180cdf";
+        var versions = ["3.4.0","3.4.0","3.4.0","3.4.0","3.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

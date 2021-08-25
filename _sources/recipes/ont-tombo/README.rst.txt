@@ -82,10 +82,23 @@ ont-tombo
 .. _`ont-tombo/tags`: https://quay.io/repository/biocontainers/ont-tombo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ont-tombo";
+        var versions = ["1.5.1","1.5.1","1.5","1.5","1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

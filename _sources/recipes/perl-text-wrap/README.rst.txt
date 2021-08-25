@@ -60,10 +60,23 @@ perl-text-wrap
 .. _`perl-text-wrap/tags`: https://quay.io/repository/biocontainers/perl-text-wrap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-wrap";
+        var versions = ["2013.0523","2013.0523"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-bsgenome.hsapiens.ncbi.grch38
 .. _`bioconductor-bsgenome.hsapiens.ncbi.grch38/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.ncbi.grch38?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.hsapiens.ncbi.grch38";
+        var versions = ["1.3.1000","1.3.1000","1.3.1000","1.3.1000","1.3.1000"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

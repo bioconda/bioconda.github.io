@@ -60,10 +60,23 @@ slamem
 .. _`slamem/tags`: https://quay.io/repository/biocontainers/slamem?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "slamem";
+        var versions = ["v0.8.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

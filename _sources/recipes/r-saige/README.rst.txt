@@ -88,10 +88,23 @@ r-saige
 .. _`r-saige/tags`: https://quay.io/repository/biocontainers/r-saige?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-saige";
+        var versions = ["0.44.6.2","0.44.6.1","0.44.6","0.44.5","0.44.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

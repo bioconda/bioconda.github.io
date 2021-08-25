@@ -72,10 +72,23 @@ kleborate
 .. _`kleborate/tags`: https://quay.io/repository/biocontainers/kleborate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kleborate";
+        var versions = ["2.1.0","2.0.4","2.0.4","2.0.3","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

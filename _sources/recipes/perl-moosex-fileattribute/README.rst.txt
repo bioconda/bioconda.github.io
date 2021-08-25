@@ -62,10 +62,23 @@ perl-moosex-fileattribute
 .. _`perl-moosex-fileattribute/tags`: https://quay.io/repository/biocontainers/perl-moosex-fileattribute?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-fileattribute";
+        var versions = ["0.03","0.02","0.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

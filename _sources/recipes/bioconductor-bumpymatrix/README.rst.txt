@@ -63,10 +63,23 @@ bioconductor-bumpymatrix
 .. _`bioconductor-bumpymatrix/tags`: https://quay.io/repository/biocontainers/bioconductor-bumpymatrix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bumpymatrix";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

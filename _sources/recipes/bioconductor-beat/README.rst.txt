@@ -73,10 +73,23 @@ bioconductor-beat
 .. _`bioconductor-beat/tags`: https://quay.io/repository/biocontainers/bioconductor-beat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-beat";
+        var versions = ["1.30.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -59,10 +59,23 @@ gotree
 .. _`gotree/tags`: https://quay.io/repository/biocontainers/gotree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gotree";
+        var versions = ["0.4.1","0.4.1","0.4.0","0.2.10","0.2.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

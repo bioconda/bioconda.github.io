@@ -61,10 +61,23 @@ perl-statistics-descriptive
 .. _`perl-statistics-descriptive/tags`: https://quay.io/repository/biocontainers/perl-statistics-descriptive?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-statistics-descriptive";
+        var versions = ["3.0702","3.0612","3.0612","3.0612","3.0609"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

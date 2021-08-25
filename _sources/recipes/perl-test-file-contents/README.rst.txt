@@ -65,10 +65,23 @@ perl-test-file-contents
 .. _`perl-test-file-contents/tags`: https://quay.io/repository/biocontainers/perl-test-file-contents?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-file-contents";
+        var versions = ["0.23","0.23","0.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

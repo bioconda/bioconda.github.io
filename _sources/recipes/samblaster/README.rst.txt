@@ -69,10 +69,23 @@ samblaster
 .. _`samblaster/tags`: https://quay.io/repository/biocontainers/samblaster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "samblaster";
+        var versions = ["0.1.26","0.1.26","0.1.25","0.1.24","0.1.24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

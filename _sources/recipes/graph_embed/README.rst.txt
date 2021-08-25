@@ -67,10 +67,23 @@ graph_embed
 .. _`graph_embed/tags`: https://quay.io/repository/biocontainers/graph_embed?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "graph_embed";
+        var versions = ["2.4","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

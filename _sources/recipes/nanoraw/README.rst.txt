@@ -70,10 +70,23 @@ nanoraw
 .. _`nanoraw/tags`: https://quay.io/repository/biocontainers/nanoraw?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanoraw";
+        var versions = ["0.5","0.5","0.5","0.5","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

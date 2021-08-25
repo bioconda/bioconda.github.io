@@ -61,10 +61,23 @@ perl-pod-checker
 .. _`perl-pod-checker/tags`: https://quay.io/repository/biocontainers/perl-pod-checker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pod-checker";
+        var versions = ["1.60","1.60"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -70,10 +70,23 @@ biobambam
 .. _`biobambam/tags`: https://quay.io/repository/biocontainers/biobambam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biobambam";
+        var versions = ["2.0.182","2.0.180","2.0.180","2.0.179","2.0.179"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

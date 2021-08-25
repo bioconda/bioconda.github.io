@@ -73,10 +73,23 @@ r-acidgenerics
 .. _`r-acidgenerics/tags`: https://quay.io/repository/biocontainers/r-acidgenerics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-acidgenerics";
+        var versions = ["0.5.19","0.5.18","0.5.17","0.5.17","0.5.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

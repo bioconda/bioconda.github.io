@@ -60,10 +60,23 @@ perl-test-requires
 .. _`perl-test-requires/tags`: https://quay.io/repository/biocontainers/perl-test-requires?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-requires";
+        var versions = ["0.10","0.10","0.10","0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

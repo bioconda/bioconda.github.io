@@ -75,10 +75,23 @@ bioconductor-meshr
 .. _`bioconductor-meshr/tags`: https://quay.io/repository/biocontainers/bioconductor-meshr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-meshr";
+        var versions = ["1.28.0","1.26.0","1.24.1","1.22.0","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

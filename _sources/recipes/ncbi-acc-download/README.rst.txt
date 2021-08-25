@@ -62,10 +62,23 @@ ncbi-acc-download
 .. _`ncbi-acc-download/tags`: https://quay.io/repository/biocontainers/ncbi-acc-download?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncbi-acc-download";
+        var versions = ["0.2.7","0.2.6","0.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ r-ngsplotdb-hg38
 .. _`r-ngsplotdb-hg38/tags`: https://quay.io/repository/biocontainers/r-ngsplotdb-hg38?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ngsplotdb-hg38";
+        var versions = ["3.00","3.00","3.00","3.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

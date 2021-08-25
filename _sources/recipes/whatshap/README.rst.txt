@@ -80,10 +80,23 @@ whatshap
 .. _`whatshap/tags`: https://quay.io/repository/biocontainers/whatshap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "whatshap";
+        var versions = ["1.1","1.1","1.0","1.0","0.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ bioconductor-neve2006
 .. _`bioconductor-neve2006/tags`: https://quay.io/repository/biocontainers/bioconductor-neve2006?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-neve2006";
+        var versions = ["0.30.0","0.28.0","0.28.0","0.26.0","0.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

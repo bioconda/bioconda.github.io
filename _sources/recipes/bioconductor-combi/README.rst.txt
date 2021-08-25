@@ -73,10 +73,23 @@ bioconductor-combi
 .. _`bioconductor-combi/tags`: https://quay.io/repository/biocontainers/bioconductor-combi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-combi";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

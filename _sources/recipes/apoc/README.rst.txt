@@ -62,10 +62,23 @@ apoc
 .. _`apoc/tags`: https://quay.io/repository/biocontainers/apoc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "apoc";
+        var versions = ["1b16","1b16","1b16","1b16","1b16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

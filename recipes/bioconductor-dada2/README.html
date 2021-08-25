@@ -16,6 +16,9 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -129,7 +132,7 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-dada2"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-dada2.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-dada2"><img alt="docker_bioconductor-dada2" src="https://quay.io/repository/biocontainers/bioconductor-dada2/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.20.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.18.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.18.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.16.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.14.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.10.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.99.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.10.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.10.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.10.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.10.0-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.20.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.18.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.18.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.16.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.14.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.10.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.99.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.10.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.10.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.10.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.10.0-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
@@ -151,10 +154,10 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../dadaist2/README.html#dadaist2"><strong class="xref backref">dadaist2</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-rbec/README.html#bioconductor-rbec"><strong class="xref backref">bioconductor-rbec</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../amptk/README.html#amptk"><strong class="xref backref">amptk</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-rbec/README.html#bioconductor-rbec"><strong class="xref backref">bioconductor-rbec</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../lotus2/README.html#lotus2"><strong class="xref backref">lotus2</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../dadaist2/README.html#dadaist2"><strong class="xref backref">dadaist2</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -174,6 +177,67 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-dada2?tab=tags">bioconductor-dada2/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
+<script>
+    var package = "bioconductor-dada2";
+    var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+
+<script>
+    window.onload = async function() {
+        versions = [...new Set(versions)];
+
+        let download_data = [];
+
+        for (const version of versions) {
+            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
+            await $.get({
+                url: url,
+                success: function( data ) {
+                    data = JSON.parse(data);
+                    data = data["downloads_per_date"];
+                    let first;
+                    if (data.length > 14) {
+                        first = data.length - 14;
+                    } else {
+                        first = 1;
+                    }
+                    for (let i = first; i < data.length; i++) {
+                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
+                        data[i]["version"] = version;
+                        download_data.push(data[i]);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log('error fetching data from bioconda stats repo!');
+                }
+            });
+        }
+
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart with embedded data.",
+            "data": {"values": []},
+            "width": "container",
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": true,
+                }
+            },
+            "encoding": {
+                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
+                 "color": {"field": "version", "type": "nominal"},
+                 "tooltip": {"field": "delta"}
+            }
+        };
+
+        spec.data.values = download_data;
+        vegaEmbed('#download_plot', spec);
+    }
+</script></section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-dada2/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

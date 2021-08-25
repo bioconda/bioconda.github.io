@@ -62,10 +62,23 @@ bioconductor-silva128.1mgdb
 .. _`bioconductor-silva128.1mgdb/tags`: https://quay.io/repository/biocontainers/bioconductor-silva128.1mgdb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-silva128.1mgdb";
+        var versions = ["1.00.0","1.00.0","1.00.0","1.00.0","1.00.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

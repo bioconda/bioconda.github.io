@@ -64,10 +64,23 @@ python-hppy
 .. _`python-hppy/tags`: https://quay.io/repository/biocontainers/python-hppy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-hppy";
+        var versions = ["0.9.8","0.9.8","0.9.8","0.9.8","0.9.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

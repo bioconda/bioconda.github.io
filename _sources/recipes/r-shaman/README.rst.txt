@@ -67,10 +67,23 @@ r-shaman
 .. _`r-shaman/tags`: https://quay.io/repository/biocontainers/r-shaman?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-shaman";
+        var versions = ["2.0","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ stacks_summary
 .. _`stacks_summary/tags`: https://quay.io/repository/biocontainers/stacks_summary?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stacks_summary";
+        var versions = ["1.1","1.1","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

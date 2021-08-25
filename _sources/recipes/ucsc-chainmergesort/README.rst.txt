@@ -65,10 +65,23 @@ ucsc-chainmergesort
 .. _`ucsc-chainmergesort/tags`: https://quay.io/repository/biocontainers/ucsc-chainmergesort?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-chainmergesort";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ rmats2sashimiplot
 .. _`rmats2sashimiplot/tags`: https://quay.io/repository/biocontainers/rmats2sashimiplot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rmats2sashimiplot";
+        var versions = ["2.0.4","2.0.4","2.0.4","2.0.3","2.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

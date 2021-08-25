@@ -65,10 +65,23 @@ ucsc-netchainsubset
 .. _`ucsc-netchainsubset/tags`: https://quay.io/repository/biocontainers/ucsc-netchainsubset?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-netchainsubset";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

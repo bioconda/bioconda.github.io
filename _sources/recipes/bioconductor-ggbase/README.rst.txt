@@ -73,10 +73,23 @@ bioconductor-ggbase
 .. _`bioconductor-ggbase/tags`: https://quay.io/repository/biocontainers/bioconductor-ggbase?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ggbase";
+        var versions = ["3.52.0","3.52.0","3.50.0","3.48.0","3.46.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

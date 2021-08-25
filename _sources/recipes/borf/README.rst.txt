@@ -64,10 +64,23 @@ borf
 .. _`borf/tags`: https://quay.io/repository/biocontainers/borf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "borf";
+        var versions = ["1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

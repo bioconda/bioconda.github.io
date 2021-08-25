@@ -62,10 +62,23 @@ muse
 .. _`muse/tags`: https://quay.io/repository/biocontainers/muse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "muse";
+        var versions = ["1.0.rc","1.0.rc","1.0.rc","1.0.rc","1.0.rc"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

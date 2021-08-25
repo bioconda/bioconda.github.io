@@ -64,10 +64,23 @@ plasclass
 .. _`plasclass/tags`: https://quay.io/repository/biocontainers/plasclass?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plasclass";
+        var versions = ["0.1.1","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

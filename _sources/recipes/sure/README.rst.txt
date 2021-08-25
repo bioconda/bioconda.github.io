@@ -62,10 +62,23 @@ sure
 .. _`sure/tags`: https://quay.io/repository/biocontainers/sure?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sure";
+        var versions = ["2.0.0","1.4.11","1.2.24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ deepacstrain
 .. _`deepacstrain/tags`: https://quay.io/repository/biocontainers/deepacstrain?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deepacstrain";
+        var versions = ["0.2.1","0.2.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

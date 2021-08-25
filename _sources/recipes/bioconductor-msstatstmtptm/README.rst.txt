@@ -71,10 +71,23 @@ bioconductor-msstatstmtptm
 .. _`bioconductor-msstatstmtptm/tags`: https://quay.io/repository/biocontainers/bioconductor-msstatstmtptm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-msstatstmtptm";
+        var versions = ["1.1.2","1.0.2","0.99.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

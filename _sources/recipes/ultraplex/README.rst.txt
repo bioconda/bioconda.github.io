@@ -65,10 +65,23 @@ ultraplex
 .. _`ultraplex/tags`: https://quay.io/repository/biocontainers/ultraplex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ultraplex";
+        var versions = ["1.2.3","1.1.5","1.1.4","1.1.3","1.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

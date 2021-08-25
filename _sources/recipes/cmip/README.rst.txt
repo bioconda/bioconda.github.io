@@ -71,10 +71,23 @@ cmip
 .. _`cmip/tags`: https://quay.io/repository/biocontainers/cmip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cmip";
+        var versions = ["2.7.0","2.6.9","2.6.8","2.6.7","2.6.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

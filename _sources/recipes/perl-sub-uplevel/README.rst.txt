@@ -61,10 +61,23 @@ perl-sub-uplevel
 .. _`perl-sub-uplevel/tags`: https://quay.io/repository/biocontainers/perl-sub-uplevel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sub-uplevel";
+        var versions = ["0.2800","0.2800","0.2800","0.25","0.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

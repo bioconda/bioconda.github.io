@@ -66,10 +66,23 @@ perl-graphics-colornames
 .. _`perl-graphics-colornames/tags`: https://quay.io/repository/biocontainers/perl-graphics-colornames?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-graphics-colornames";
+        var versions = ["2.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

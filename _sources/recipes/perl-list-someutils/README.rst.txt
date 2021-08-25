@@ -65,10 +65,23 @@ perl-list-someutils
 .. _`perl-list-someutils/tags`: https://quay.io/repository/biocontainers/perl-list-someutils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-list-someutils";
+        var versions = ["0.56","0.56","0.53"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ bioconductor-curatedadipoarray
 .. _`bioconductor-curatedadipoarray/tags`: https://quay.io/repository/biocontainers/bioconductor-curatedadipoarray?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-curatedadipoarray";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.1.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

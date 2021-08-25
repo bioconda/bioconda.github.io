@@ -61,10 +61,23 @@ adapterremovalfixprefix
 .. _`adapterremovalfixprefix/tags`: https://quay.io/repository/biocontainers/adapterremovalfixprefix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "adapterremovalfixprefix";
+        var versions = ["0.0.5","0.0.5","0.0.5","0.0.4","0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

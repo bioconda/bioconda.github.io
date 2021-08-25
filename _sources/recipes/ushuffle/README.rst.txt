@@ -62,10 +62,23 @@ ushuffle
 .. _`ushuffle/tags`: https://quay.io/repository/biocontainers/ushuffle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ushuffle";
+        var versions = ["1.2.2","1.2.2","1.2.2","1.2.2","1.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

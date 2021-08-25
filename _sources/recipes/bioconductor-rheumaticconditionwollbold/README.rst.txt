@@ -61,10 +61,23 @@ bioconductor-rheumaticconditionwollbold
 .. _`bioconductor-rheumaticconditionwollbold/tags`: https://quay.io/repository/biocontainers/bioconductor-rheumaticconditionwollbold?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rheumaticconditionwollbold";
+        var versions = ["1.30.0","1.28.0","1.28.0","1.27.0","1.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

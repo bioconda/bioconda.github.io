@@ -61,10 +61,23 @@ tedna
 .. _`tedna/tags`: https://quay.io/repository/biocontainers/tedna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tedna";
+        var versions = ["1.2.2","1.2.2","1.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

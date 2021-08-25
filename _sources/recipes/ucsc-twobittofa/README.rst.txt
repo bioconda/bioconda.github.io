@@ -73,10 +73,23 @@ ucsc-twobittofa
 .. _`ucsc-twobittofa/tags`: https://quay.io/repository/biocontainers/ucsc-twobittofa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-twobittofa";
+        var versions = ["377","377","377","377","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

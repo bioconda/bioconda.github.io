@@ -72,10 +72,23 @@ bioconductor-gpa
 .. _`bioconductor-gpa/tags`: https://quay.io/repository/biocontainers/bioconductor-gpa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gpa";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -83,10 +83,23 @@ bioconductor-phemd
 .. _`bioconductor-phemd/tags`: https://quay.io/repository/biocontainers/bioconductor-phemd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-phemd";
+        var versions = ["1.6.0","1.6.0","1.4.0","1.1.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

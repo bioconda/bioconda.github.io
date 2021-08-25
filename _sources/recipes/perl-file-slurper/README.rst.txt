@@ -64,10 +64,23 @@ perl-file-slurper
 .. _`perl-file-slurper/tags`: https://quay.io/repository/biocontainers/perl-file-slurper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-slurper";
+        var versions = ["0.012","0.008","0.008","0.008"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

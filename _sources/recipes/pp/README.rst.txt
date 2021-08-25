@@ -60,10 +60,23 @@ pp
 .. _`pp/tags`: https://quay.io/repository/biocontainers/pp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pp";
+        var versions = ["1.6.5","1.6.5","1.6.5","1.6.4.4","1.6.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

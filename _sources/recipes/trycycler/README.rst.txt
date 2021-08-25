@@ -70,10 +70,23 @@ trycycler
 .. _`trycycler/tags`: https://quay.io/repository/biocontainers/trycycler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trycycler";
+        var versions = ["0.4.2","0.4.1","0.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

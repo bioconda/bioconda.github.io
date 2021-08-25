@@ -76,10 +76,23 @@ mlst
 .. _`mlst/tags`: https://quay.io/repository/biocontainers/mlst?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mlst";
+        var versions = ["2.19.0","2.19.0","2.18.1","2.18.0","2.17.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

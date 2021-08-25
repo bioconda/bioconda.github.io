@@ -75,10 +75,23 @@ cgat-report
 .. _`cgat-report/tags`: https://quay.io/repository/biocontainers/cgat-report?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cgat-report";
+        var versions = ["0.9.1","0.9.0","0.8.4","0.8.1","0.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

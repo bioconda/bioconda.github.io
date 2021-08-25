@@ -62,10 +62,23 @@ hanselx
 .. _`hanselx/tags`: https://quay.io/repository/biocontainers/hanselx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hanselx";
+        var versions = ["0.0.92","0.0.92","0.0.81","0.0.81"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

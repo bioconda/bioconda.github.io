@@ -62,6 +62,13 @@ clinod
 .. _`clinod/tags`: https://quay.io/repository/biocontainers/clinod?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clinod";
+        var versions = ["1.3","1.3","1.3","1.3","1.3"];
+    </script>
+
 
 
 
@@ -75,6 +82,12 @@ to overwrite it you can specify these values directly after your binaries.
 If you have \_JAVA\_OPTIONS set globally this will take precedence.
 For example run it with \"clinod \-Xms512m \-Xmx1g ...\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-io-stringy
 .. _`perl-io-stringy/tags`: https://quay.io/repository/biocontainers/perl-io-stringy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-stringy";
+        var versions = ["2.111","2.111"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

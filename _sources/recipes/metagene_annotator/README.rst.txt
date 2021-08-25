@@ -60,10 +60,23 @@ metagene_annotator
 .. _`metagene_annotator/tags`: https://quay.io/repository/biocontainers/metagene_annotator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metagene_annotator";
+        var versions = ["1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

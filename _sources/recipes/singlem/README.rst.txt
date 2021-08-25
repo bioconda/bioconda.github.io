@@ -80,10 +80,23 @@ singlem
 .. _`singlem/tags`: https://quay.io/repository/biocontainers/singlem?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "singlem";
+        var versions = ["0.13.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

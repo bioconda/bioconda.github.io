@@ -81,10 +81,23 @@ epic
 .. _`epic/tags`: https://quay.io/repository/biocontainers/epic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "epic";
+        var versions = ["0.2.12","0.2.12","0.2.12","0.2.12","0.2.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

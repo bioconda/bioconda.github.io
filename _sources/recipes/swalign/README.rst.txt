@@ -60,10 +60,23 @@ swalign
 .. _`swalign/tags`: https://quay.io/repository/biocontainers/swalign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "swalign";
+        var versions = ["0.3.4","0.3.4","0.3.3","0.3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ pgx-variant-tools
 .. _`pgx-variant-tools/tags`: https://quay.io/repository/biocontainers/pgx-variant-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pgx-variant-tools";
+        var versions = ["0.0.5","0.0.4","0.0.3","0.0.2","0.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

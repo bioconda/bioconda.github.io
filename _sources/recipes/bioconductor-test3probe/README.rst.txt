@@ -62,10 +62,23 @@ bioconductor-test3probe
 .. _`bioconductor-test3probe/tags`: https://quay.io/repository/biocontainers/bioconductor-test3probe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-test3probe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

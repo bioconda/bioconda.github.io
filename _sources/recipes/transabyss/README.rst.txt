@@ -73,10 +73,23 @@ transabyss
 .. _`transabyss/tags`: https://quay.io/repository/biocontainers/transabyss?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "transabyss";
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

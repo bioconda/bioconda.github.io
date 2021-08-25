@@ -67,10 +67,23 @@ pydna
 .. _`pydna/tags`: https://quay.io/repository/biocontainers/pydna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pydna";
+        var versions = ["3.1.0","3.0.2","3.0.1","2.0.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

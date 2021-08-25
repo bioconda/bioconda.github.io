@@ -66,10 +66,23 @@ py_fasta_validator
 .. _`py_fasta_validator/tags`: https://quay.io/repository/biocontainers/py_fasta_validator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "py_fasta_validator";
+        var versions = ["0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ csblast
 .. _`csblast/tags`: https://quay.io/repository/biocontainers/csblast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "csblast";
+        var versions = ["2.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

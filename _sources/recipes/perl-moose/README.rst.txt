@@ -83,10 +83,23 @@ perl-moose
 .. _`perl-moose/tags`: https://quay.io/repository/biocontainers/perl-moose?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moose";
+        var versions = ["2.2011","2.2011","2.2009","2.1804","2.1804"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

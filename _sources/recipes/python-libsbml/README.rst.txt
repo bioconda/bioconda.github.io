@@ -66,10 +66,23 @@ python-libsbml
 .. _`python-libsbml/tags`: https://quay.io/repository/biocontainers/python-libsbml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-libsbml";
+        var versions = ["5.18.0","5.18.0","5.18.0","5.18.0","5.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,6 +64,13 @@ jgoslin
 .. _`jgoslin/tags`: https://quay.io/repository/biocontainers/jgoslin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jgoslin";
+        var versions = ["1.1.2","1.1.2"];
+    </script>
+
 
 
 
@@ -78,6 +85,12 @@ set globally this will take precedence.
 For example run it with \"jgoslin \-Xms512m \-Xmx1g\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

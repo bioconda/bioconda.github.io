@@ -65,10 +65,23 @@ perl-test-memory-cycle
 .. _`perl-test-memory-cycle/tags`: https://quay.io/repository/biocontainers/perl-test-memory-cycle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-memory-cycle";
+        var versions = ["1.06","1.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

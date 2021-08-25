@@ -69,10 +69,23 @@ submission-tool-validator
 .. _`submission-tool-validator/tags`: https://quay.io/repository/biocontainers/submission-tool-validator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "submission-tool-validator";
+        var versions = ["1.0.4","1.0.3","1.0.2","1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

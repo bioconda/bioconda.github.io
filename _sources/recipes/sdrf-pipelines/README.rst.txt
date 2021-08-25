@@ -72,10 +72,23 @@ sdrf-pipelines
 .. _`sdrf-pipelines/tags`: https://quay.io/repository/biocontainers/sdrf-pipelines?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sdrf-pipelines";
+        var versions = ["0.0.18","0.0.17","0.0.14","0.0.13","0.0.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

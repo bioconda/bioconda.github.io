@@ -74,10 +74,23 @@ bioconductor-minet
 .. _`bioconductor-minet/tags`: https://quay.io/repository/biocontainers/bioconductor-minet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-minet";
+        var versions = ["3.50.0","3.48.0","3.48.0","3.46.0","3.44.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

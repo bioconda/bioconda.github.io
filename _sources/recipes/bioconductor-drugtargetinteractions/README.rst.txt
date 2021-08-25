@@ -69,10 +69,23 @@ bioconductor-drugtargetinteractions
 .. _`bioconductor-drugtargetinteractions/tags`: https://quay.io/repository/biocontainers/bioconductor-drugtargetinteractions?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-drugtargetinteractions";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

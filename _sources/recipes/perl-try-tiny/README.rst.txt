@@ -60,10 +60,23 @@ perl-try-tiny
 .. _`perl-try-tiny/tags`: https://quay.io/repository/biocontainers/perl-try-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-try-tiny";
+        var versions = ["0.30","0.30","0.24","0.24","0.24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ phylotoast
 .. _`phylotoast/tags`: https://quay.io/repository/biocontainers/phylotoast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phylotoast";
+        var versions = ["1.4.0rc2","1.3.0","1.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

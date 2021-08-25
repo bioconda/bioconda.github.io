@@ -63,10 +63,23 @@ r-codedepends
 .. _`r-codedepends/tags`: https://quay.io/repository/biocontainers/r-codedepends?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-codedepends";
+        var versions = ["0.6.5","0.6.5","0.6.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

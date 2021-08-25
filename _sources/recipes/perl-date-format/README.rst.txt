@@ -60,10 +60,23 @@ perl-date-format
 .. _`perl-date-format/tags`: https://quay.io/repository/biocontainers/perl-date-format?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-date-format";
+        var versions = ["2.30","2.30","2.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ haploconduct
 .. _`haploconduct/tags`: https://quay.io/repository/biocontainers/haploconduct?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "haploconduct";
+        var versions = ["0.2.1","0.2.1","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

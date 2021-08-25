@@ -63,10 +63,23 @@ magetab-curation-scripts
 .. _`magetab-curation-scripts/tags`: https://quay.io/repository/biocontainers/magetab-curation-scripts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "magetab-curation-scripts";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

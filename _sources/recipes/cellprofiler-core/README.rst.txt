@@ -73,10 +73,23 @@ cellprofiler-core
 .. _`cellprofiler-core/tags`: https://quay.io/repository/biocontainers/cellprofiler-core?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cellprofiler-core";
+        var versions = ["4.2.1","4.2.0","4.1.3","4.1.3","4.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

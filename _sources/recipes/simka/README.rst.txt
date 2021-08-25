@@ -64,10 +64,23 @@ simka
 .. _`simka/tags`: https://quay.io/repository/biocontainers/simka?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "simka";
+        var versions = ["1.5.3","1.5.3","1.5.2","1.5.1","1.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

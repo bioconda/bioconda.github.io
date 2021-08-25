@@ -69,10 +69,23 @@ bioconductor-simpleaffy
 .. _`bioconductor-simpleaffy/tags`: https://quay.io/repository/biocontainers/bioconductor-simpleaffy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-simpleaffy";
+        var versions = ["2.66.0","2.66.0","2.64.0","2.62.0","2.60.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

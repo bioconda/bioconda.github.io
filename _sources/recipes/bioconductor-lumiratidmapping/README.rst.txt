@@ -63,10 +63,23 @@ bioconductor-lumiratidmapping
 .. _`bioconductor-lumiratidmapping/tags`: https://quay.io/repository/biocontainers/bioconductor-lumiratidmapping?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-lumiratidmapping";
+        var versions = ["1.10.0","1.10.0","1.10.0","1.10.0","1.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

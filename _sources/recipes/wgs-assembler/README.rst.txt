@@ -70,10 +70,23 @@ wgs-assembler
 .. _`wgs-assembler/tags`: https://quay.io/repository/biocontainers/wgs-assembler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wgs-assembler";
+        var versions = ["8.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

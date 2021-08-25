@@ -60,10 +60,23 @@ minimap
 .. _`minimap/tags`: https://quay.io/repository/biocontainers/minimap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "minimap";
+        var versions = ["0.2","0.2_r124","0.2_r124","0.2_r124","0.2_r124"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

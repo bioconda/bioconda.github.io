@@ -73,10 +73,23 @@ bioconductor-gwas.bayes
 .. _`bioconductor-gwas.bayes/tags`: https://quay.io/repository/biocontainers/bioconductor-gwas.bayes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gwas.bayes";
+        var versions = ["1.1.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

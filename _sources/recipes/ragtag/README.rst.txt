@@ -69,10 +69,23 @@ ragtag
 .. _`ragtag/tags`: https://quay.io/repository/biocontainers/ragtag?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ragtag";
+        var versions = ["2.0.1","2.0.0","1.1.1","1.1.0","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

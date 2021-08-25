@@ -73,10 +73,23 @@ r-htssip
 .. _`r-htssip/tags`: https://quay.io/repository/biocontainers/r-htssip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-htssip";
+        var versions = ["1.4.1","1.4.1","1.4.1","1.4.1","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

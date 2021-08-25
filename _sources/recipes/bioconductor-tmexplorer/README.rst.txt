@@ -64,10 +64,23 @@ bioconductor-tmexplorer
 .. _`bioconductor-tmexplorer/tags`: https://quay.io/repository/biocontainers/bioconductor-tmexplorer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-tmexplorer";
+        var versions = ["1.2.1","1.0.1","0.99.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

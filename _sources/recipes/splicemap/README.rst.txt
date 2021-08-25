@@ -63,10 +63,23 @@ splicemap
 .. _`splicemap/tags`: https://quay.io/repository/biocontainers/splicemap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "splicemap";
+        var versions = ["3.3.5.2","3.3.5.2","3.3.5.2","3.3.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

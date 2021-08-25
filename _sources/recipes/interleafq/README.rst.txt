@@ -62,10 +62,23 @@ interleafq
 .. _`interleafq/tags`: https://quay.io/repository/biocontainers/interleafq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "interleafq";
+        var versions = ["1.1.0","1.1.0","0.99","0.92"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

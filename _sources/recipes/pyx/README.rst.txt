@@ -60,10 +60,23 @@ pyx
 .. _`pyx/tags`: https://quay.io/repository/biocontainers/pyx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyx";
+        var versions = ["0.14.1","0.14.1","0.12.1","0.12.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

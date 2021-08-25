@@ -62,10 +62,23 @@ perl-class-std-fast
 .. _`perl-class-std-fast/tags`: https://quay.io/repository/biocontainers/perl-class-std-fast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-class-std-fast";
+        var versions = ["0.0.8","0.0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

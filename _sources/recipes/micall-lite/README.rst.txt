@@ -65,10 +65,23 @@ micall-lite
 .. _`micall-lite/tags`: https://quay.io/repository/biocontainers/micall-lite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "micall-lite";
+        var versions = ["0.1rc5","0.1rc5","0.1rc5","0.1rc4","0.1rc3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

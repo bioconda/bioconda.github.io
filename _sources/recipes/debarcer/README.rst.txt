@@ -70,10 +70,23 @@ debarcer
 .. _`debarcer/tags`: https://quay.io/repository/biocontainers/debarcer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "debarcer";
+        var versions = ["2.1.4","2.1.4","2.1.3","2.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

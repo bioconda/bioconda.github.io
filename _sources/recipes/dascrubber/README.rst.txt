@@ -60,10 +60,23 @@ dascrubber
 .. _`dascrubber/tags`: https://quay.io/repository/biocontainers/dascrubber?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dascrubber";
+        var versions = ["0.0.1a2","0.0.1a2","0.0.1a2","0.0.1a2","0.0.1a1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

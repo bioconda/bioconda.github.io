@@ -61,10 +61,23 @@ perl-file-copy-recursive
 .. _`perl-file-copy-recursive/tags`: https://quay.io/repository/biocontainers/perl-file-copy-recursive?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-copy-recursive";
+        var versions = ["0.45","0.44","0.44","0.38","0.38"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

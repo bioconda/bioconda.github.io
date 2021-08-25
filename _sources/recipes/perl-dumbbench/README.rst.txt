@@ -69,10 +69,23 @@ perl-dumbbench
 .. _`perl-dumbbench/tags`: https://quay.io/repository/biocontainers/perl-dumbbench?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-dumbbench";
+        var versions = ["0.111"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

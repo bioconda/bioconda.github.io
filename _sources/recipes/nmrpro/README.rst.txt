@@ -63,10 +63,23 @@ nmrpro
 .. _`nmrpro/tags`: https://quay.io/repository/biocontainers/nmrpro?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nmrpro";
+        var versions = ["20161019","20161019","20161019"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

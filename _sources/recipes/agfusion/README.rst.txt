@@ -67,10 +67,23 @@ agfusion
 .. _`agfusion/tags`: https://quay.io/repository/biocontainers/agfusion?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "agfusion";
+        var versions = ["1.252","1.252","1.251","1.231","1.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

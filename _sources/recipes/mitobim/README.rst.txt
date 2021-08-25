@@ -63,10 +63,23 @@ mitobim
 .. _`mitobim/tags`: https://quay.io/repository/biocontainers/mitobim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mitobim";
+        var versions = ["1.9.1","1.9.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

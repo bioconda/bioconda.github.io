@@ -61,10 +61,23 @@ satsuma2
 .. _`satsuma2/tags`: https://quay.io/repository/biocontainers/satsuma2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "satsuma2";
+        var versions = ["20161123","20161123","20161123","20161123"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ r-lme4qtl
 .. _`r-lme4qtl/tags`: https://quay.io/repository/biocontainers/r-lme4qtl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-lme4qtl";
+        var versions = ["0.1.10","0.1.10","0.1.10","0.1.10","0.1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

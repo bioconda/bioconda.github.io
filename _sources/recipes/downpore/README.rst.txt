@@ -59,10 +59,23 @@ downpore
 .. _`downpore/tags`: https://quay.io/repository/biocontainers/downpore?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "downpore";
+        var versions = ["0.3.4","0.3.4","0.3.3","0.3.3","0.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

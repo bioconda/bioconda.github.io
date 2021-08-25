@@ -62,10 +62,23 @@ perl-test-longstring
 .. _`perl-test-longstring/tags`: https://quay.io/repository/biocontainers/perl-test-longstring?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-longstring";
+        var versions = ["0.17","0.17","0.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

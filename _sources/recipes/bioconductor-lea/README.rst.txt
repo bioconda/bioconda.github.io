@@ -63,10 +63,23 @@ bioconductor-lea
 .. _`bioconductor-lea/tags`: https://quay.io/repository/biocontainers/bioconductor-lea?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-lea";
+        var versions = ["3.4.0","3.2.0","3.2.0","3.0.0","2.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

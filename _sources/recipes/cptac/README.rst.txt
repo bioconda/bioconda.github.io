@@ -73,10 +73,23 @@ cptac
 .. _`cptac/tags`: https://quay.io/repository/biocontainers/cptac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cptac";
+        var versions = ["0.9.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

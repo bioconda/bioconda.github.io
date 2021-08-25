@@ -63,10 +63,23 @@ make_prg
 .. _`make_prg/tags`: https://quay.io/repository/biocontainers/make_prg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "make_prg";
+        var versions = ["0.1.1","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

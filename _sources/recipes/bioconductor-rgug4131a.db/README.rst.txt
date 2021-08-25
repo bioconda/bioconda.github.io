@@ -63,10 +63,23 @@ bioconductor-rgug4131a.db
 .. _`bioconductor-rgug4131a.db/tags`: https://quay.io/repository/biocontainers/bioconductor-rgug4131a.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rgug4131a.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

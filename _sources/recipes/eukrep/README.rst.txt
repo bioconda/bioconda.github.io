@@ -64,10 +64,23 @@ eukrep
 .. _`eukrep/tags`: https://quay.io/repository/biocontainers/eukrep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "eukrep";
+        var versions = ["0.6.7","0.6.7","0.6.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ perl-module-implementation
 .. _`perl-module-implementation/tags`: https://quay.io/repository/biocontainers/perl-module-implementation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-implementation";
+        var versions = ["0.09","0.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

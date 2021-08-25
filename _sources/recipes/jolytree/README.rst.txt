@@ -63,10 +63,23 @@ jolytree
 .. _`jolytree/tags`: https://quay.io/repository/biocontainers/jolytree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jolytree";
+        var versions = ["1.1b","1.1b"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

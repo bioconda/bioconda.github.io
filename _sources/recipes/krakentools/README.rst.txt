@@ -63,10 +63,23 @@ krakentools
 .. _`krakentools/tags`: https://quay.io/repository/biocontainers/krakentools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "krakentools";
+        var versions = ["1.2","1.1","1.0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

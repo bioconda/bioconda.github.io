@@ -84,10 +84,23 @@ ganon
 .. _`ganon/tags`: https://quay.io/repository/biocontainers/ganon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ganon";
+        var versions = ["1.0.0","0.4.1","0.4.0","0.4.0","0.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

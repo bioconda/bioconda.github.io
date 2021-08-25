@@ -61,10 +61,23 @@ sequnwinder
 .. _`sequnwinder/tags`: https://quay.io/repository/biocontainers/sequnwinder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sequnwinder";
+        var versions = ["0.1.4","0.1.4","0.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

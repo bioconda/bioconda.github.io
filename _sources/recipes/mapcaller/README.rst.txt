@@ -73,10 +73,23 @@ mapcaller
 .. _`mapcaller/tags`: https://quay.io/repository/biocontainers/mapcaller?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mapcaller";
+        var versions = ["0.9.9.41","0.9.9.41","0.9.9.40","0.9.9.39","0.9.9.38"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

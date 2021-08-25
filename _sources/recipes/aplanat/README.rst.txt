@@ -76,10 +76,23 @@ aplanat
 .. _`aplanat/tags`: https://quay.io/repository/biocontainers/aplanat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "aplanat";
+        var versions = ["0.5.3","0.5.2","0.5.1","0.5.0","0.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

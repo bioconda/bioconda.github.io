@@ -66,10 +66,23 @@ pal_finder
 .. _`pal_finder/tags`: https://quay.io/repository/biocontainers/pal_finder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pal_finder";
+        var versions = ["0.02.04","0.02.04","0.02.04","0.02.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

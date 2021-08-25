@@ -79,10 +79,23 @@ prophyle
 .. _`prophyle/tags`: https://quay.io/repository/biocontainers/prophyle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "prophyle";
+        var versions = ["0.3.2.0","0.3.1.0","0.3.1.0","0.3.1.0","0.3.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

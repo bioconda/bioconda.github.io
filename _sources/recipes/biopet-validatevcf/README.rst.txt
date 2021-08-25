@@ -64,6 +64,13 @@ biopet-validatevcf
 .. _`biopet-validatevcf/tags`: https://quay.io/repository/biocontainers/biopet-validatevcf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biopet-validatevcf";
+        var versions = ["0.1","0.1"];
+    </script>
+
 
 
 
@@ -72,6 +79,12 @@ Notes
 -----
 biopet\-validatevcf is a Java program that comes with a custom wrapper shell script. By default \'no default java option\' is set in the wrapper. The command that runs the program is \'biopet\-validatevcf\'. If you want to overwrite it you can specify memory options directly after your binaries. If you have \_JAVA\_OPTIONS set globally this will take precedence. For example run it with \'biopet\-validatevcf \-Xms512m \-Xmx1g\'. 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

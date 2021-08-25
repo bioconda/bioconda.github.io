@@ -66,10 +66,23 @@ mauvealigner
 .. _`mauvealigner/tags`: https://quay.io/repository/biocontainers/mauvealigner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mauvealigner";
+        var versions = ["1.2.0","1.2.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

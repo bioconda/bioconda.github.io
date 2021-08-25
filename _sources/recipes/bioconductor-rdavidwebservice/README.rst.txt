@@ -67,10 +67,23 @@ bioconductor-rdavidwebservice
 .. _`bioconductor-rdavidwebservice/tags`: https://quay.io/repository/biocontainers/bioconductor-rdavidwebservice?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rdavidwebservice";
+        var versions = ["1.28.0","1.28.0","1.24.0","1.22.0","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

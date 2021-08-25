@@ -75,10 +75,23 @@ perl-sanger-cgp-vcf
 .. _`perl-sanger-cgp-vcf/tags`: https://quay.io/repository/biocontainers/perl-sanger-cgp-vcf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sanger-cgp-vcf";
+        var versions = ["2.2.1","2.2.1","2.2.1","2.2.1","2.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

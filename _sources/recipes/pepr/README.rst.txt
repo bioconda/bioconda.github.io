@@ -64,10 +64,23 @@ pepr
 .. _`pepr/tags`: https://quay.io/repository/biocontainers/pepr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pepr";
+        var versions = ["1.1.24","1.1.24","1.1.24","1.1.24","1.1.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

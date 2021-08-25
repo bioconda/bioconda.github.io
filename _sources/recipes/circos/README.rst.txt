@@ -86,10 +86,23 @@ circos
 .. _`circos/tags`: https://quay.io/repository/biocontainers/circos?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "circos";
+        var versions = ["0.69.8","0.69.8","0.69.6","0.69.6","0.69.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

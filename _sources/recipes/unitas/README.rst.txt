@@ -68,10 +68,23 @@ unitas
 .. _`unitas/tags`: https://quay.io/repository/biocontainers/unitas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "unitas";
+        var versions = ["1.6.1","1.6.1","1.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

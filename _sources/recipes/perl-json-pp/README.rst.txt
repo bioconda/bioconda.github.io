@@ -60,10 +60,23 @@ perl-json-pp
 .. _`perl-json-pp/tags`: https://quay.io/repository/biocontainers/perl-json-pp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-json-pp";
+        var versions = ["4.04","4.03","4.02","4.00","2.97001"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

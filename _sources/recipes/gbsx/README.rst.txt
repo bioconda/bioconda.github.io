@@ -67,6 +67,13 @@ gbsx
 .. _`gbsx/tags`: https://quay.io/repository/biocontainers/gbsx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gbsx";
+        var versions = ["1.3","1.3"];
+    </script>
+
 
 
 
@@ -81,6 +88,12 @@ set globally this will take precedence.
 For example run it with \"gbsx \-Xms512m \-Xmx1g\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

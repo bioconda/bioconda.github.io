@@ -64,10 +64,23 @@ mobidic-mpa
 .. _`mobidic-mpa/tags`: https://quay.io/repository/biocontainers/mobidic-mpa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mobidic-mpa";
+        var versions = ["1.2.2","1.2.1","1.2.0","1.1.3","1.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

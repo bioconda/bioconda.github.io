@@ -64,10 +64,23 @@ pfam_scan
 .. _`pfam_scan/tags`: https://quay.io/repository/biocontainers/pfam_scan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pfam_scan";
+        var versions = ["1.6","1.6","1.6","1.6","1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

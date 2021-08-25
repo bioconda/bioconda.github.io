@@ -74,10 +74,23 @@ perl-devel-cover
 .. _`perl-devel-cover/tags`: https://quay.io/repository/biocontainers/perl-devel-cover?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-devel-cover";
+        var versions = ["1.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

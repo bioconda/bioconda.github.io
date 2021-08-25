@@ -66,10 +66,23 @@ perl-test-xml
 .. _`perl-test-xml/tags`: https://quay.io/repository/biocontainers/perl-test-xml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-xml";
+        var versions = ["0.08","0.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

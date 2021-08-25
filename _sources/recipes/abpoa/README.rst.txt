@@ -69,10 +69,23 @@ abpoa
 .. _`abpoa/tags`: https://quay.io/repository/biocontainers/abpoa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "abpoa";
+        var versions = ["1.2.5","1.2.4","1.2.3","1.2.2","1.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

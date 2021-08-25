@@ -62,10 +62,23 @@ perl-json-maybexs
 .. _`perl-json-maybexs/tags`: https://quay.io/repository/biocontainers/perl-json-maybexs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-json-maybexs";
+        var versions = ["1.004000","1.003008","1.003008"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

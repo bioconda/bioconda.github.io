@@ -62,10 +62,23 @@ microbecensus
 .. _`microbecensus/tags`: https://quay.io/repository/biocontainers/microbecensus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "microbecensus";
+        var versions = ["1.1.1","1.1.1","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

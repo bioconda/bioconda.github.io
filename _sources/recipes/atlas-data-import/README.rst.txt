@@ -65,10 +65,23 @@ atlas-data-import
 .. _`atlas-data-import/tags`: https://quay.io/repository/biocontainers/atlas-data-import?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "atlas-data-import";
+        var versions = ["0.1.1","0.1.0","0.0.11","0.0.11","0.0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

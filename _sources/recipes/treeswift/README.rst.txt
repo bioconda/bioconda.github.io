@@ -68,10 +68,23 @@ treeswift
 .. _`treeswift/tags`: https://quay.io/repository/biocontainers/treeswift?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "treeswift";
+        var versions = ["1.1.20","1.1.19","1.1.16","1.1.15","1.1.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

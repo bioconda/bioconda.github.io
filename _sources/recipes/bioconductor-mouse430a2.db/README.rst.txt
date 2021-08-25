@@ -63,10 +63,23 @@ bioconductor-mouse430a2.db
 .. _`bioconductor-mouse430a2.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mouse430a2.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mouse430a2.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

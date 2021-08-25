@@ -67,10 +67,23 @@ bioconductor-cgen
 .. _`bioconductor-cgen/tags`: https://quay.io/repository/biocontainers/bioconductor-cgen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cgen";
+        var versions = ["3.28.0","3.23.0","3.22.0","3.20.0","3.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

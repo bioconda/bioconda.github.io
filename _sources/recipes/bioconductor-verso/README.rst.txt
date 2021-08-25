@@ -62,10 +62,23 @@ bioconductor-verso
 .. _`bioconductor-verso/tags`: https://quay.io/repository/biocontainers/bioconductor-verso?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-verso";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

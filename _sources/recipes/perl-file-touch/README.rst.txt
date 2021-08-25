@@ -62,10 +62,23 @@ perl-file-touch
 .. _`perl-file-touch/tags`: https://quay.io/repository/biocontainers/perl-file-touch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-touch";
+        var versions = ["0.11","0.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

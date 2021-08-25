@@ -64,10 +64,23 @@ perl-cpan-meta-check
 .. _`perl-cpan-meta-check/tags`: https://quay.io/repository/biocontainers/perl-cpan-meta-check?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-cpan-meta-check";
+        var versions = ["0.014","0.012","0.012","0.012"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

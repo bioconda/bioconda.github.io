@@ -61,10 +61,23 @@ gfinisher
 .. _`gfinisher/tags`: https://quay.io/repository/biocontainers/gfinisher?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gfinisher";
+        var versions = ["1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

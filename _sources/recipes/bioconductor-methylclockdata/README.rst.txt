@@ -63,10 +63,23 @@ bioconductor-methylclockdata
 .. _`bioconductor-methylclockdata/tags`: https://quay.io/repository/biocontainers/bioconductor-methylclockdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-methylclockdata";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bioconductor-msgfplus
 .. _`bioconductor-msgfplus/tags`: https://quay.io/repository/biocontainers/bioconductor-msgfplus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-msgfplus";
+        var versions = ["1.26.0","1.24.0","1.24.0","1.18.0","1.16.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

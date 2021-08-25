@@ -63,10 +63,23 @@ r-htscluster
 .. _`r-htscluster/tags`: https://quay.io/repository/biocontainers/r-htscluster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-htscluster";
+        var versions = ["2.0.8","2.0.8","2.0.8","2.0.8","2.0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bamtocov
 .. _`bamtocov/tags`: https://quay.io/repository/biocontainers/bamtocov?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bamtocov";
+        var versions = ["2.0.4","2.0.2","2.0.2","2.0.001","2.0.000"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

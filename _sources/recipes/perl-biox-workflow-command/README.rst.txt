@@ -103,10 +103,23 @@ perl-biox-workflow-command
 .. _`perl-biox-workflow-command/tags`: https://quay.io/repository/biocontainers/perl-biox-workflow-command?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-biox-workflow-command";
+        var versions = ["2.4.1","2.4.1","2.3.2","2.3.0","2.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

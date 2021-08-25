@@ -72,10 +72,23 @@ bioconductor-interactivecomplexheatmap
 .. _`bioconductor-interactivecomplexheatmap/tags`: https://quay.io/repository/biocontainers/bioconductor-interactivecomplexheatmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-interactivecomplexheatmap";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ razers3
 .. _`razers3/tags`: https://quay.io/repository/biocontainers/razers3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "razers3";
+        var versions = ["3.5.8","3.5.8","3.5.3","3.5.3","3.5.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

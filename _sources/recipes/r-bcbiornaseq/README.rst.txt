@@ -96,10 +96,23 @@ r-bcbiornaseq
 .. _`r-bcbiornaseq/tags`: https://quay.io/repository/biocontainers/r-bcbiornaseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-bcbiornaseq";
+        var versions = ["0.3.42","0.3.41","0.3.40","0.3.40","0.3.39"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ shapeit4
 .. _`shapeit4/tags`: https://quay.io/repository/biocontainers/shapeit4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shapeit4";
+        var versions = ["4.2.1","4.2.0","4.2.0","4.1.3","4.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

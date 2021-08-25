@@ -63,10 +63,23 @@ slow5tools
 .. _`slow5tools/tags`: https://quay.io/repository/biocontainers/slow5tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "slow5tools";
+        var versions = ["0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

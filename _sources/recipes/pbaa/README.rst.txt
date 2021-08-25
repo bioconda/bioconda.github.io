@@ -59,10 +59,23 @@ pbaa
 .. _`pbaa/tags`: https://quay.io/repository/biocontainers/pbaa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pbaa";
+        var versions = ["1.0.2","1.0.1","1.0.0","0.1.4","0.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bloocoo
 .. _`bloocoo/tags`: https://quay.io/repository/biocontainers/bloocoo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bloocoo";
+        var versions = ["1.0.7","1.0.7","1.0.7","1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

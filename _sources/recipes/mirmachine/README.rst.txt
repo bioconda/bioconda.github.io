@@ -93,10 +93,23 @@ mirmachine
 .. _`mirmachine/tags`: https://quay.io/repository/biocontainers/mirmachine?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mirmachine";
+        var versions = ["0.2.11","0.2.11","0.2.10","0.1.31","0.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

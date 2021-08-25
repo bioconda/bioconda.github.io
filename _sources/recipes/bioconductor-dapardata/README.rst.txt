@@ -63,10 +63,23 @@ bioconductor-dapardata
 .. _`bioconductor-dapardata/tags`: https://quay.io/repository/biocontainers/bioconductor-dapardata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-dapardata";
+        var versions = ["1.22.1","1.20.1","1.20.0","1.18.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

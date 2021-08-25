@@ -64,10 +64,23 @@ traitar
 .. _`traitar/tags`: https://quay.io/repository/biocontainers/traitar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "traitar";
+        var versions = ["1.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

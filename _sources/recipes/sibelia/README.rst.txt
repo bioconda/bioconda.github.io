@@ -61,10 +61,23 @@ sibelia
 .. _`sibelia/tags`: https://quay.io/repository/biocontainers/sibelia?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sibelia";
+        var versions = ["3.0.7","3.0.7","3.0.7","3.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

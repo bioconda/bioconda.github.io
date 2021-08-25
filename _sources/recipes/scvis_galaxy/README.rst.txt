@@ -69,6 +69,13 @@ scvis_galaxy
 .. _`scvis_galaxy/tags`: https://quay.io/repository/biocontainers/scvis_galaxy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scvis_galaxy";
+        var versions = ["0.1.1"];
+    </script>
+
 
 
 
@@ -77,6 +84,12 @@ Notes
 -----
 conda\-forge\:\:tensorflow requires GLIBC \>\=2.16. It should be present on most\, but not all systems. See https\:\/\/github.com\/conda\-forge\/tensorflow\-feedstock\/issues\/67
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

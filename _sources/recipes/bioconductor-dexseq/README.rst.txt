@@ -86,10 +86,23 @@ bioconductor-dexseq
 .. _`bioconductor-dexseq/tags`: https://quay.io/repository/biocontainers/bioconductor-dexseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-dexseq";
+        var versions = ["1.38.0","1.36.0","1.36.0","1.34.0","1.32.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

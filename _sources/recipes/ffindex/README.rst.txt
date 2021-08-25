@@ -61,10 +61,23 @@ ffindex
 .. _`ffindex/tags`: https://quay.io/repository/biocontainers/ffindex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ffindex";
+        var versions = ["0.98","0.98"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ idemux
 .. _`idemux/tags`: https://quay.io/repository/biocontainers/idemux?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "idemux";
+        var versions = ["0.1.6","0.1.5","0.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

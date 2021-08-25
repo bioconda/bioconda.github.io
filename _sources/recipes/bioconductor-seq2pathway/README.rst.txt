@@ -75,10 +75,23 @@ bioconductor-seq2pathway
 .. _`bioconductor-seq2pathway/tags`: https://quay.io/repository/biocontainers/bioconductor-seq2pathway?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-seq2pathway";
+        var versions = ["1.24.0","1.22.0","1.22.0","1.20.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

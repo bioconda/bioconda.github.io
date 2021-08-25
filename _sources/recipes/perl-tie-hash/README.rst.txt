@@ -60,10 +60,23 @@ perl-tie-hash
 .. _`perl-tie-hash/tags`: https://quay.io/repository/biocontainers/perl-tie-hash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tie-hash";
+        var versions = ["1.05","1.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ alignstats
 .. _`alignstats/tags`: https://quay.io/repository/biocontainers/alignstats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "alignstats";
+        var versions = ["0.9.1","0.9.1","0.9","0.8","0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

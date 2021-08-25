@@ -88,10 +88,23 @@ smeg
 .. _`smeg/tags`: https://quay.io/repository/biocontainers/smeg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "smeg";
+        var versions = ["1.1.5","1.1.5","1.1.5","1.1.4","1.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

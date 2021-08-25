@@ -62,10 +62,23 @@ gemma
 .. _`gemma/tags`: https://quay.io/repository/biocontainers/gemma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gemma";
+        var versions = ["0.98.3","0.98.3","0.98.1","0.98.1","0.98"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

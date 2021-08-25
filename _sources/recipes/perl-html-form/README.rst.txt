@@ -75,10 +75,23 @@ perl-html-form
 .. _`perl-html-form/tags`: https://quay.io/repository/biocontainers/perl-html-form?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-form";
+        var versions = ["6.04","6.03","6.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

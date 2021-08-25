@@ -62,10 +62,23 @@ bioconductor-pwmenrich.hsapiens.background
 .. _`bioconductor-pwmenrich.hsapiens.background/tags`: https://quay.io/repository/biocontainers/bioconductor-pwmenrich.hsapiens.background?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pwmenrich.hsapiens.background";
+        var versions = ["4.26.1","4.24.0","4.24.0","4.22.0","4.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

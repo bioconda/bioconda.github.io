@@ -61,10 +61,23 @@ perl-xml-namespacesupport
 .. _`perl-xml-namespacesupport/tags`: https://quay.io/repository/biocontainers/perl-xml-namespacesupport?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-namespacesupport";
+        var versions = ["1.12","1.11","1.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

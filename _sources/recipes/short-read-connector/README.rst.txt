@@ -61,10 +61,23 @@ shortreadconnector
 .. _`shortreadconnector/tags`: https://quay.io/repository/biocontainers/shortreadconnector?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shortreadconnector";
+        var versions = ["1.1.3","1.1.3","1.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

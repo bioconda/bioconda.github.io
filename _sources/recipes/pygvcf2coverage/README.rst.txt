@@ -61,10 +61,23 @@ pygvcf2coverage
 .. _`pygvcf2coverage/tags`: https://quay.io/repository/biocontainers/pygvcf2coverage?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pygvcf2coverage";
+        var versions = ["0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

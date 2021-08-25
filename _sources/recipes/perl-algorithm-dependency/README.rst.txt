@@ -61,10 +61,23 @@ perl-algorithm-dependency
 .. _`perl-algorithm-dependency/tags`: https://quay.io/repository/biocontainers/perl-algorithm-dependency?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-algorithm-dependency";
+        var versions = ["1.111","1.110","1.110","1.110"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ perl-bio-cigar
 .. _`perl-bio-cigar/tags`: https://quay.io/repository/biocontainers/perl-bio-cigar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-cigar";
+        var versions = ["1.01","1.01","1.01","1.01","1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

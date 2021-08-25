@@ -62,10 +62,23 @@ red
 .. _`red/tags`: https://quay.io/repository/biocontainers/red?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "red";
+        var versions = ["2015.05.22","2015.05.22","2015.05.22"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

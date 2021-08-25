@@ -80,10 +80,23 @@ stacks
 .. _`stacks/tags`: https://quay.io/repository/biocontainers/stacks?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stacks";
+        var versions = ["2.55","2.55","2.53","2.53","2.52"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

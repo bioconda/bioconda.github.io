@@ -62,10 +62,23 @@ perl-moosex-app-role-log4perl
 .. _`perl-moosex-app-role-log4perl/tags`: https://quay.io/repository/biocontainers/perl-moosex-app-role-log4perl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-app-role-log4perl";
+        var versions = ["0.03","0.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

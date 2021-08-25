@@ -64,10 +64,23 @@ tadtool
 .. _`tadtool/tags`: https://quay.io/repository/biocontainers/tadtool?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tadtool";
+        var versions = ["0.82","0.81","0.81","0.80","0.79"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ rnasnp
 .. _`rnasnp/tags`: https://quay.io/repository/biocontainers/rnasnp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rnasnp";
+        var versions = ["1.2","1.2","1.2","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

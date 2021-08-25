@@ -69,10 +69,23 @@ irida-linker
 .. _`irida-linker/tags`: https://quay.io/repository/biocontainers/irida-linker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "irida-linker";
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.0","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

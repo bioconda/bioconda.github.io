@@ -66,10 +66,23 @@ nanopore_simulation
 .. _`nanopore_simulation/tags`: https://quay.io/repository/biocontainers/nanopore_simulation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanopore_simulation";
+        var versions = ["0.3","0.3","0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

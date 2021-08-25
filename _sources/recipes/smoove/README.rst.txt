@@ -76,10 +76,23 @@ smoove
 .. _`smoove/tags`: https://quay.io/repository/biocontainers/smoove?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "smoove";
+        var versions = ["0.2.8","0.2.7","0.2.6","0.2.6","0.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

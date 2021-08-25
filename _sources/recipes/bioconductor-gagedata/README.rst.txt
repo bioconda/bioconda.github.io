@@ -69,10 +69,23 @@ bioconductor-gagedata
 .. _`bioconductor-gagedata/tags`: https://quay.io/repository/biocontainers/bioconductor-gagedata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gagedata";
+        var versions = ["2.30.0","2.28.0","2.28.0","2.27.0","2.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

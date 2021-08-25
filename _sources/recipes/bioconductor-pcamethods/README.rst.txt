@@ -77,10 +77,23 @@ bioconductor-pcamethods
 .. _`bioconductor-pcamethods/tags`: https://quay.io/repository/biocontainers/bioconductor-pcamethods?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pcamethods";
+        var versions = ["1.84.0","1.82.0","1.82.0","1.80.0","1.78.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

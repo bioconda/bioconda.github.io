@@ -69,10 +69,23 @@ cmv
 .. _`cmv/tags`: https://quay.io/repository/biocontainers/cmv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cmv";
+        var versions = ["1.0.8","1.0.8","1.0.7","1.0.6","1.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

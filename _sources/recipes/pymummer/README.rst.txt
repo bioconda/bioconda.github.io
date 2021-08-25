@@ -70,10 +70,23 @@ pymummer
 .. _`pymummer/tags`: https://quay.io/repository/biocontainers/pymummer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pymummer";
+        var versions = ["0.11.0","0.10.3","0.10.3","0.10.3","0.10.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

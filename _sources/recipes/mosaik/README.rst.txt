@@ -62,10 +62,23 @@ mosaik
 .. _`mosaik/tags`: https://quay.io/repository/biocontainers/mosaik?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mosaik";
+        var versions = ["2.2.26","2.2.26","2.2.26","2.2.26","2.2.26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

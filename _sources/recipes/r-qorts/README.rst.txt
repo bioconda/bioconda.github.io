@@ -62,6 +62,13 @@ r-qorts
 .. _`r-qorts/tags`: https://quay.io/repository/biocontainers/r-qorts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-qorts";
+        var versions = ["1.3.6","1.3.0","1.3.0","1.3.0"];
+    </script>
+
 
 
 
@@ -71,6 +78,12 @@ Notes
 This package is a requirement of the main QoRTs package\; \"qorts\".
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

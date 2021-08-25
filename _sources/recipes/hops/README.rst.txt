@@ -68,10 +68,23 @@ hops
 .. _`hops/tags`: https://quay.io/repository/biocontainers/hops?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hops";
+        var versions = ["0.35","0.35","0.34","0.33","0.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -74,10 +74,23 @@ dart
 .. _`dart/tags`: https://quay.io/repository/biocontainers/dart?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dart";
+        var versions = ["1.4.6","1.4.6","1.4.5","1.4.3","1.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

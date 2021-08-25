@@ -66,10 +66,23 @@ bioconductor-biocthis
 .. _`bioconductor-biocthis/tags`: https://quay.io/repository/biocontainers/bioconductor-biocthis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-biocthis";
+        var versions = ["1.2.0","1.0.10","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

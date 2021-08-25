@@ -73,10 +73,23 @@ pyhalcyon
 .. _`pyhalcyon/tags`: https://quay.io/repository/biocontainers/pyhalcyon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyhalcyon";
+        var versions = ["0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

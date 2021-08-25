@@ -70,10 +70,23 @@ tssv
 .. _`tssv/tags`: https://quay.io/repository/biocontainers/tssv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tssv";
+        var versions = ["1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ perl-test-object
 .. _`perl-test-object/tags`: https://quay.io/repository/biocontainers/perl-test-object?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-object";
+        var versions = ["0.08","0.08","0.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

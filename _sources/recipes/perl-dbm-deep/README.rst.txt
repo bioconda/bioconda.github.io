@@ -63,10 +63,23 @@ perl-dbm-deep
 .. _`perl-dbm-deep/tags`: https://quay.io/repository/biocontainers/perl-dbm-deep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-dbm-deep";
+        var versions = ["2.0013","2.0013"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

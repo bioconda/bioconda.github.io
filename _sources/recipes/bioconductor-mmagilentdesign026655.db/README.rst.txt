@@ -63,10 +63,23 @@ bioconductor-mmagilentdesign026655.db
 .. _`bioconductor-mmagilentdesign026655.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mmagilentdesign026655.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mmagilentdesign026655.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

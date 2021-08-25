@@ -62,10 +62,23 @@ hifiasm_meta
 .. _`hifiasm_meta/tags`: https://quay.io/repository/biocontainers/hifiasm_meta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hifiasm_meta";
+        var versions = ["hamtv0.2","hamtv0.1","hamtv0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

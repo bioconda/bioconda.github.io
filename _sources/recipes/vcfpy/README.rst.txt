@@ -69,10 +69,23 @@ vcfpy
 .. _`vcfpy/tags`: https://quay.io/repository/biocontainers/vcfpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vcfpy";
+        var versions = ["0.13.3","0.13.2","0.13.0","0.12.2","0.12.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

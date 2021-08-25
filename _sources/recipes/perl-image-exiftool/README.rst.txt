@@ -60,10 +60,23 @@ perl-image-exiftool
 .. _`perl-image-exiftool/tags`: https://quay.io/repository/biocontainers/perl-image-exiftool?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-image-exiftool";
+        var versions = ["11.50","11.30","11.11","11.01","11.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

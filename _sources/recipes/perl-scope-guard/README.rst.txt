@@ -60,10 +60,23 @@ perl-scope-guard
 .. _`perl-scope-guard/tags`: https://quay.io/repository/biocontainers/perl-scope-guard?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-scope-guard";
+        var versions = ["0.21","0.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

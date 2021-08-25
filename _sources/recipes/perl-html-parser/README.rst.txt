@@ -64,10 +64,23 @@ perl-html-parser
 .. _`perl-html-parser/tags`: https://quay.io/repository/biocontainers/perl-html-parser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-parser";
+        var versions = ["3.72","3.72","3.72","3.72","3.72"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

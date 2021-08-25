@@ -60,10 +60,23 @@ ocrad
 .. _`ocrad/tags`: https://quay.io/repository/biocontainers/ocrad?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ocrad";
+        var versions = ["0.21","0.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

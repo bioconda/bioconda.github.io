@@ -75,10 +75,23 @@ insilicoseq
 .. _`insilicoseq/tags`: https://quay.io/repository/biocontainers/insilicoseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "insilicoseq";
+        var versions = ["1.5.3","1.5.2","1.5.1","1.5.0","1.4.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

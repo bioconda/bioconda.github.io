@@ -68,10 +68,23 @@ r-acidplyr
 .. _`r-acidplyr/tags`: https://quay.io/repository/biocontainers/r-acidplyr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-acidplyr";
+        var versions = ["0.1.20","0.1.18","0.1.18","0.1.18","0.1.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ alder
 .. _`alder/tags`: https://quay.io/repository/biocontainers/alder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "alder";
+        var versions = ["1.03","1.03","1.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

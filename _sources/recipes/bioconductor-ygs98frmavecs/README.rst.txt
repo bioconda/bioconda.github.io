@@ -61,10 +61,23 @@ bioconductor-ygs98frmavecs
 .. _`bioconductor-ygs98frmavecs/tags`: https://quay.io/repository/biocontainers/bioconductor-ygs98frmavecs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ygs98frmavecs";
+        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

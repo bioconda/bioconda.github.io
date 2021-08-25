@@ -65,10 +65,23 @@ perl-sql-statement
 .. _`perl-sql-statement/tags`: https://quay.io/repository/biocontainers/perl-sql-statement?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sql-statement";
+        var versions = ["1.412","1.407","1.407"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

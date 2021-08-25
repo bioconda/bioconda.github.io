@@ -63,10 +63,23 @@ bamutil
 .. _`bamutil/tags`: https://quay.io/repository/biocontainers/bamutil?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bamutil";
+        var versions = ["1.0.15","1.0.15","1.0.14","1.0.14","1.0.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

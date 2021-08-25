@@ -29,7 +29,7 @@ dipcall
       
       
 
-      ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+      ``0.3-0``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
@@ -70,10 +70,23 @@ dipcall
 .. _`dipcall/tags`: https://quay.io/repository/biocontainers/dipcall?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dipcall";
+        var versions = ["0.3","0.2","0.2","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

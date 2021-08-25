@@ -63,10 +63,23 @@ perl-sys-info-driver-osx
 .. _`perl-sys-info-driver-osx/tags`: https://quay.io/repository/biocontainers/perl-sys-info-driver-osx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sys-info-driver-osx";
+        var versions = ["0.7959","0.7958"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

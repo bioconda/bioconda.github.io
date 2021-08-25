@@ -63,10 +63,23 @@ perl-sys-info-driver-linux
 .. _`perl-sys-info-driver-linux/tags`: https://quay.io/repository/biocontainers/perl-sys-info-driver-linux?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sys-info-driver-linux";
+        var versions = ["0.7905","0.7904","0.7903"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

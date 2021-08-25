@@ -60,10 +60,23 @@ perl-tie-refhash
 .. _`perl-tie-refhash/tags`: https://quay.io/repository/biocontainers/perl-tie-refhash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tie-refhash";
+        var versions = ["1.39","1.39","1.39"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-xml-entities
 .. _`perl-xml-entities/tags`: https://quay.io/repository/biocontainers/perl-xml-entities?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-entities";
+        var versions = ["1.0002","1.0002"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

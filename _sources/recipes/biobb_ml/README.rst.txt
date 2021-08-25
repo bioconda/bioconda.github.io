@@ -100,10 +100,23 @@ biobb_ml
 .. _`biobb_ml/tags`: https://quay.io/repository/biocontainers/biobb_ml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biobb_ml";
+        var versions = ["3.6.1","3.6.1","3.6.0","3.5.0","3.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

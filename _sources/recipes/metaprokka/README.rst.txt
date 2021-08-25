@@ -62,10 +62,23 @@ metaprokka
 .. _`metaprokka/tags`: https://quay.io/repository/biocontainers/metaprokka?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metaprokka";
+        var versions = ["1.14.6_1","1.14.6_1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

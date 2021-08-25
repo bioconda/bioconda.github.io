@@ -60,10 +60,23 @@ perl-html-entities-numbered
 .. _`perl-html-entities-numbered/tags`: https://quay.io/repository/biocontainers/perl-html-entities-numbered?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-entities-numbered";
+        var versions = ["0.04","0.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

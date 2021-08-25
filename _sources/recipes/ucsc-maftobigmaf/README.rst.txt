@@ -65,10 +65,23 @@ ucsc-maftobigmaf
 .. _`ucsc-maftobigmaf/tags`: https://quay.io/repository/biocontainers/ucsc-maftobigmaf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-maftobigmaf";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

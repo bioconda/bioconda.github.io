@@ -70,10 +70,23 @@ bioconductor-gewist
 .. _`bioconductor-gewist/tags`: https://quay.io/repository/biocontainers/bioconductor-gewist?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gewist";
+        var versions = ["1.36.0","1.34.0","1.34.0","1.32.0","1.30.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

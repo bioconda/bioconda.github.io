@@ -74,10 +74,23 @@ artic-tools
 .. _`artic-tools/tags`: https://quay.io/repository/biocontainers/artic-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "artic-tools";
+        var versions = ["0.3.0","0.2.6","0.2.5","0.2.4","0.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

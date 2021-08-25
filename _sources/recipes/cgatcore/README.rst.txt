@@ -85,10 +85,23 @@ cgatcore
 .. _`cgatcore/tags`: https://quay.io/repository/biocontainers/cgatcore?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cgatcore";
+        var versions = ["0.6.7","0.6.5","0.6.5","0.6.4","0.6.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

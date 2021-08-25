@@ -70,10 +70,23 @@ snp-dists
 .. _`snp-dists/tags`: https://quay.io/repository/biocontainers/snp-dists?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snp-dists";
+        var versions = ["0.8.2","0.7.0","0.7.0","0.6.3","0.6.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

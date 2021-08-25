@@ -60,10 +60,23 @@ perl-test-unit-lite
 .. _`perl-test-unit-lite/tags`: https://quay.io/repository/biocontainers/perl-test-unit-lite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-unit-lite";
+        var versions = ["0.1202","0.1202"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

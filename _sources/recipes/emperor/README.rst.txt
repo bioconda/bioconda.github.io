@@ -63,10 +63,23 @@ emperor
 .. _`emperor/tags`: https://quay.io/repository/biocontainers/emperor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "emperor";
+        var versions = ["0.9.51","0.9.3","0.9.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

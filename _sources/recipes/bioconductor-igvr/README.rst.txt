@@ -70,10 +70,23 @@ bioconductor-igvr
 .. _`bioconductor-igvr/tags`: https://quay.io/repository/biocontainers/bioconductor-igvr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-igvr";
+        var versions = ["1.10.0","1.10.0","1.7.8","1.6.1","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ gff3sort
 .. _`gff3sort/tags`: https://quay.io/repository/biocontainers/gff3sort?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gff3sort";
+        var versions = ["0.1.a1a2bc9","0.1.a1a2bc9","0.1.a1a2bc9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

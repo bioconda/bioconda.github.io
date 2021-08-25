@@ -64,10 +64,23 @@ align_it
 .. _`align_it/tags`: https://quay.io/repository/biocontainers/align_it?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "align_it";
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

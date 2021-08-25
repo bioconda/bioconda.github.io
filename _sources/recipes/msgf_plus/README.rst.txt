@@ -70,10 +70,23 @@ msgf_plus
 .. _`msgf_plus/tags`: https://quay.io/repository/biocontainers/msgf_plus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "msgf_plus";
+        var versions = ["2021.03.22","2021.03.22","2021.01.08","2021.01.08","2020.08.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

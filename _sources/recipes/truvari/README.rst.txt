@@ -65,10 +65,23 @@ truvari
 .. _`truvari/tags`: https://quay.io/repository/biocontainers/truvari?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "truvari";
+        var versions = ["0.1.2018.08.10","0.1.2018.08.10","0.1.2018.08.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

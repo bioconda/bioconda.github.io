@@ -83,6 +83,13 @@ vsclust
 .. _`vsclust/tags`: https://quay.io/repository/biocontainers/vsclust?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vsclust";
+        var versions = ["0.87"];
+    </script>
+
 
 
 
@@ -93,6 +100,12 @@ The shiny app can be run with the run\_vsclust\_app.sh command. Alternatively\,
 a command\-line version is available\: runVSClust.R
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -80,10 +80,23 @@ bioconductor-organismdbi
 .. _`bioconductor-organismdbi/tags`: https://quay.io/repository/biocontainers/bioconductor-organismdbi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-organismdbi";
+        var versions = ["1.34.0","1.32.0","1.32.0","1.30.0","1.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

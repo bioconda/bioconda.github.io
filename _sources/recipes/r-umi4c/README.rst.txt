@@ -62,10 +62,23 @@ r-umi4c
 .. _`r-umi4c/tags`: https://quay.io/repository/biocontainers/r-umi4c?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-umi4c";
+        var versions = ["0.0.1","0.0.0.9000","0.0.0.9000","0.0.0.9000","0.0.0.9000"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

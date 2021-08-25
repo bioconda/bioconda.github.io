@@ -63,10 +63,23 @@ frc
 .. _`frc/tags`: https://quay.io/repository/biocontainers/frc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "frc";
+        var versions = ["5b3f53e"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

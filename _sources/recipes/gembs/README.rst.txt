@@ -76,10 +76,23 @@ gembs
 .. _`gembs/tags`: https://quay.io/repository/biocontainers/gembs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gembs";
+        var versions = ["3.2.0","3.2.0","3.2.0","3.2.0","3.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

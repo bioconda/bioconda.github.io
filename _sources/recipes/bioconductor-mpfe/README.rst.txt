@@ -69,10 +69,23 @@ bioconductor-mpfe
 .. _`bioconductor-mpfe/tags`: https://quay.io/repository/biocontainers/bioconductor-mpfe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mpfe";
+        var versions = ["1.28.0","1.26.0","1.26.0","1.23.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

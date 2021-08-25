@@ -64,10 +64,23 @@ jass_preprocessing
 .. _`jass_preprocessing/tags`: https://quay.io/repository/biocontainers/jass_preprocessing?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jass_preprocessing";
+        var versions = ["2.1","2.0.1","2.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

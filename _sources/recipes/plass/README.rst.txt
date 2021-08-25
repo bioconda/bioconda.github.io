@@ -66,10 +66,23 @@ plass
 .. _`plass/tags`: https://quay.io/repository/biocontainers/plass?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plass";
+        var versions = ["4.687d7","4.687d7","4.687d7","3.764a3","2.c7e35"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

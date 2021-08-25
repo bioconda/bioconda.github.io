@@ -61,10 +61,23 @@ bioconductor-ashkenazimsonchr21
 .. _`bioconductor-ashkenazimsonchr21/tags`: https://quay.io/repository/biocontainers/bioconductor-ashkenazimsonchr21?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ashkenazimsonchr21";
+        var versions = ["1.22.0","1.20.0","1.20.0","1.19.0","1.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

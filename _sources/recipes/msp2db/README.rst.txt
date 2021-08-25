@@ -62,10 +62,23 @@ msp2db
 .. _`msp2db/tags`: https://quay.io/repository/biocontainers/msp2db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "msp2db";
+        var versions = ["0.0.9","0.0.9","0.0.7","0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

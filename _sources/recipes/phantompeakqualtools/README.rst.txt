@@ -70,10 +70,23 @@ phantompeakqualtools
 .. _`phantompeakqualtools/tags`: https://quay.io/repository/biocontainers/phantompeakqualtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phantompeakqualtools";
+        var versions = ["1.2.2","1.2.2","1.2.1.1","1.2.1","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

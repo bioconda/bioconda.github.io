@@ -62,10 +62,23 @@ crb-blast
 .. _`crb-blast/tags`: https://quay.io/repository/biocontainers/crb-blast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crb-blast";
+        var versions = ["0.6.6","0.6.6","0.6.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

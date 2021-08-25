@@ -62,10 +62,23 @@ divvier
 .. _`divvier/tags`: https://quay.io/repository/biocontainers/divvier?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "divvier";
+        var versions = ["1.01","1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ ucsc-gaptolift
 .. _`ucsc-gaptolift/tags`: https://quay.io/repository/biocontainers/ucsc-gaptolift?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-gaptolift";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

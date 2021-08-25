@@ -61,10 +61,23 @@ cortex_con
 .. _`cortex_con/tags`: https://quay.io/repository/biocontainers/cortex_con?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cortex_con";
+        var versions = ["0.04c","0.04c"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

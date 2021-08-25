@@ -81,10 +81,23 @@ bioconductor-qrqc
 .. _`bioconductor-qrqc/tags`: https://quay.io/repository/biocontainers/bioconductor-qrqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-qrqc";
+        var versions = ["1.46.0","1.44.0","1.44.0","1.42.0","1.40.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

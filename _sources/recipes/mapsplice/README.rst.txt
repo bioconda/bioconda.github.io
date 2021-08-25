@@ -65,10 +65,23 @@ mapsplice
 .. _`mapsplice/tags`: https://quay.io/repository/biocontainers/mapsplice?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mapsplice";
+        var versions = ["2.2.1","2.2.0","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

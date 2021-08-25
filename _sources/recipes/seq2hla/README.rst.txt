@@ -64,10 +64,23 @@ seq2hla
 .. _`seq2hla/tags`: https://quay.io/repository/biocontainers/seq2hla?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seq2hla";
+        var versions = ["2.2","2.2","2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

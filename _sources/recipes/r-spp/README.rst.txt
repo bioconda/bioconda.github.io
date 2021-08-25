@@ -75,10 +75,23 @@ r-spp
 .. _`r-spp/tags`: https://quay.io/repository/biocontainers/r-spp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-spp";
+        var versions = ["1.16.0","1.16.0","1.16.0","1.16.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

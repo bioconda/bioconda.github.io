@@ -75,10 +75,23 @@ protgraph
 .. _`protgraph/tags`: https://quay.io/repository/biocontainers/protgraph?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "protgraph";
+        var versions = ["0.2.0","0.1.2","0.1.0","0.0.2b3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

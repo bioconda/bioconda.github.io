@@ -63,10 +63,23 @@ ptools_bin
 .. _`ptools_bin/tags`: https://quay.io/repository/biocontainers/ptools_bin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ptools_bin";
+        var versions = ["0.0.7","0.0.5","0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

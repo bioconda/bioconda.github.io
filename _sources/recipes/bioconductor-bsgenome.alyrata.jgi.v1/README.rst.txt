@@ -62,10 +62,23 @@ bioconductor-bsgenome.alyrata.jgi.v1
 .. _`bioconductor-bsgenome.alyrata.jgi.v1/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.alyrata.jgi.v1?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.alyrata.jgi.v1";
+        var versions = ["1.0.1","1.0.0","1.0.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

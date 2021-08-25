@@ -74,10 +74,23 @@ bioconductor-universalmotif
 .. _`bioconductor-universalmotif/tags`: https://quay.io/repository/biocontainers/bioconductor-universalmotif?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-universalmotif";
+        var versions = ["1.10.1","1.8.3","1.8.0","1.6.3","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

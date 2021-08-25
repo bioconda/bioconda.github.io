@@ -68,10 +68,23 @@ bioconductor-tloh
 .. _`bioconductor-tloh/tags`: https://quay.io/repository/biocontainers/bioconductor-tloh?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-tloh";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

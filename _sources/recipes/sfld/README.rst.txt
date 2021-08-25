@@ -60,10 +60,23 @@ sfld
 .. _`sfld/tags`: https://quay.io/repository/biocontainers/sfld?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sfld";
+        var versions = ["1.1","1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

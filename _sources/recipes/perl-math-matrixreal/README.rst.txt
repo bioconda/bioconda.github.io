@@ -60,10 +60,23 @@ perl-math-matrixreal
 .. _`perl-math-matrixreal/tags`: https://quay.io/repository/biocontainers/perl-math-matrixreal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-matrixreal";
+        var versions = ["2.13","2.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

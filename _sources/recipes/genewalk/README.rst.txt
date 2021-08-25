@@ -71,10 +71,23 @@ genewalk
 .. _`genewalk/tags`: https://quay.io/repository/biocontainers/genewalk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genewalk";
+        var versions = ["1.5.3","1.5.2","1.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

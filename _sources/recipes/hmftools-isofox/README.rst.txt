@@ -60,10 +60,23 @@ hmftools-isofox
 .. _`hmftools-isofox/tags`: https://quay.io/repository/biocontainers/hmftools-isofox?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmftools-isofox";
+        var versions = ["1.1","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -59,10 +59,23 @@ recalladapters
 .. _`recalladapters/tags`: https://quay.io/repository/biocontainers/recalladapters?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "recalladapters";
+        var versions = ["9.0.0","9.0.0","7.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

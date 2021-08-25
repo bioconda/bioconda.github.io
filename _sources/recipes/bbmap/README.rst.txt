@@ -75,6 +75,13 @@ bbmap
 .. _`bbmap/tags`: https://quay.io/repository/biocontainers/bbmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bbmap";
+        var versions = ["38.92","38.91","38.91","38.90","38.90"];
+    </script>
+
 
 
 
@@ -86,6 +93,12 @@ wrapper shell scripts. Each of these is symlinked to the conda bin directory
 during install.
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

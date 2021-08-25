@@ -62,10 +62,23 @@ perl-text-levenshteinxs
 .. _`perl-text-levenshteinxs/tags`: https://quay.io/repository/biocontainers/perl-text-levenshteinxs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-levenshteinxs";
+        var versions = ["0.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

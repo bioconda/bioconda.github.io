@@ -79,10 +79,23 @@ krakenuniq
 .. _`krakenuniq/tags`: https://quay.io/repository/biocontainers/krakenuniq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "krakenuniq";
+        var versions = ["0.5.8","0.5.8","0.5.8","0.5.8","0.5.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

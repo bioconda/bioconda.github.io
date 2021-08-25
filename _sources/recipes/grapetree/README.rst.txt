@@ -69,10 +69,23 @@ grapetree
 .. _`grapetree/tags`: https://quay.io/repository/biocontainers/grapetree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "grapetree";
+        var versions = ["2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

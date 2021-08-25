@@ -63,10 +63,23 @@ bioconductor-ppidata
 .. _`bioconductor-ppidata/tags`: https://quay.io/repository/biocontainers/bioconductor-ppidata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ppidata";
+        var versions = ["0.30.0","0.28.0","0.28.0","0.26.0","0.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ bmfilter
 .. _`bmfilter/tags`: https://quay.io/repository/biocontainers/bmfilter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bmfilter";
+        var versions = ["3.101","3.101","3.101"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

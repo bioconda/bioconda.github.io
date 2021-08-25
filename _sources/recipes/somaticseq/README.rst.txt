@@ -82,10 +82,23 @@ somaticseq
 .. _`somaticseq/tags`: https://quay.io/repository/biocontainers/somaticseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "somaticseq";
+        var versions = ["3.6.2","3.6.0","3.5.1","3.5.0","3.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -86,10 +86,23 @@ ariba
 .. _`ariba/tags`: https://quay.io/repository/biocontainers/ariba?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ariba";
+        var versions = ["2.14.6","2.14.5","2.14.5","2.14.5","2.14.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

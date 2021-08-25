@@ -62,10 +62,23 @@ intermine
 .. _`intermine/tags`: https://quay.io/repository/biocontainers/intermine?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "intermine";
+        var versions = ["1.11.0","1.11.0","1.10.0","1.10.0","1.09.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

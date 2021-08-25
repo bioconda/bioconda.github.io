@@ -62,10 +62,23 @@ r-empiricalfdr.deseq2
 .. _`r-empiricalfdr.deseq2/tags`: https://quay.io/repository/biocontainers/r-empiricalfdr.deseq2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-empiricalfdr.deseq2";
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

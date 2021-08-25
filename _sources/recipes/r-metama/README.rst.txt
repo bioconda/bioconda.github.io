@@ -62,10 +62,23 @@ r-metama
 .. _`r-metama/tags`: https://quay.io/repository/biocontainers/r-metama?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-metama";
+        var versions = ["3.1.2","3.1.2","3.1.2","3.1.2","3.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

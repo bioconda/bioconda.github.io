@@ -70,10 +70,23 @@ graphaligner
 .. _`graphaligner/tags`: https://quay.io/repository/biocontainers/graphaligner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "graphaligner";
+        var versions = ["1.0.13","1.0.12","1.0.11","1.0.10","1.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ ms
 .. _`ms/tags`: https://quay.io/repository/biocontainers/ms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ms";
+        var versions = ["2014_03_04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

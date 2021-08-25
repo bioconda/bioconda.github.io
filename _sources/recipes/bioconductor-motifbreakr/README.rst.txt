@@ -87,10 +87,23 @@ bioconductor-motifbreakr
 .. _`bioconductor-motifbreakr/tags`: https://quay.io/repository/biocontainers/bioconductor-motifbreakr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-motifbreakr";
+        var versions = ["2.6.0","2.4.0","2.4.0","2.2.0","2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

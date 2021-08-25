@@ -62,10 +62,23 @@ perl-dbd-sqlite
 .. _`perl-dbd-sqlite/tags`: https://quay.io/repository/biocontainers/perl-dbd-sqlite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-dbd-sqlite";
+        var versions = ["1.64","1.62","1.62","1.60","1.58"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

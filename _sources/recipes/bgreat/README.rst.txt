@@ -62,10 +62,23 @@ bgreat
 .. _`bgreat/tags`: https://quay.io/repository/biocontainers/bgreat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bgreat";
+        var versions = ["2.0.0","2.0.0","2.0.0","2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

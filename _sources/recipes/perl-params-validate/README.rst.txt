@@ -65,10 +65,23 @@ perl-params-validate
 .. _`perl-params-validate/tags`: https://quay.io/repository/biocontainers/perl-params-validate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-params-validate";
+        var versions = ["1.29","1.29","1.26","1.26","1.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ dsh-bio
 .. _`dsh-bio/tags`: https://quay.io/repository/biocontainers/dsh-bio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dsh-bio";
+        var versions = ["2.0.5","2.0.4","2.0.3","2.0.3","2.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

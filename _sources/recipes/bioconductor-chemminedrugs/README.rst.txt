@@ -64,10 +64,23 @@ bioconductor-chemminedrugs
 .. _`bioconductor-chemminedrugs/tags`: https://quay.io/repository/biocontainers/bioconductor-chemminedrugs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-chemminedrugs";
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

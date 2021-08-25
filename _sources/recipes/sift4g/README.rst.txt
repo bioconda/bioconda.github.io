@@ -61,10 +61,23 @@ sift4g
 .. _`sift4g/tags`: https://quay.io/repository/biocontainers/sift4g?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sift4g";
+        var versions = ["2.0.0","2.0.0","2.0.0","2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

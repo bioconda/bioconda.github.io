@@ -61,10 +61,23 @@ ncrf
 .. _`ncrf/tags`: https://quay.io/repository/biocontainers/ncrf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncrf";
+        var versions = ["1.01.02","1.01.02","1.01.02","1.00.06","1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

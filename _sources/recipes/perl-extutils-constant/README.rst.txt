@@ -61,10 +61,23 @@ perl-extutils-constant
 .. _`perl-extutils-constant/tags`: https://quay.io/repository/biocontainers/perl-extutils-constant?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-constant";
+        var versions = ["0.25","0.24","0.24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

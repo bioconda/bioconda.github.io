@@ -68,10 +68,23 @@ viewbs
 .. _`viewbs/tags`: https://quay.io/repository/biocontainers/viewbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "viewbs";
+        var versions = ["0.1.10","0.1.10","0.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

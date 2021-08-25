@@ -76,10 +76,23 @@ pasa
 .. _`pasa/tags`: https://quay.io/repository/biocontainers/pasa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pasa";
+        var versions = ["2.4.1","2.4.1","2.3.3","2.3.3","2.3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

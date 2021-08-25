@@ -64,10 +64,23 @@ genomeconstellation
 .. _`genomeconstellation/tags`: https://quay.io/repository/biocontainers/genomeconstellation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genomeconstellation";
+        var versions = ["0.21.1","0.21.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

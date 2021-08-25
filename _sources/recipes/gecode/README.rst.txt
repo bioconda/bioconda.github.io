@@ -71,10 +71,23 @@ gecode
 .. _`gecode/tags`: https://quay.io/repository/biocontainers/gecode?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gecode";
+        var versions = ["6.2.0","6.2.0","5.1.0","5.1.0","5.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ bioconductor-metnet
 .. _`bioconductor-metnet/tags`: https://quay.io/repository/biocontainers/bioconductor-metnet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-metnet";
+        var versions = ["1.8.0","1.8.0","1.6.0","1.4.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

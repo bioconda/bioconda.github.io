@@ -61,10 +61,23 @@ clipandmerge
 .. _`clipandmerge/tags`: https://quay.io/repository/biocontainers/clipandmerge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clipandmerge";
+        var versions = ["1.7.8","1.7.8","1.7.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ wtforms-alchemy
 .. _`wtforms-alchemy/tags`: https://quay.io/repository/biocontainers/wtforms-alchemy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wtforms-alchemy";
+        var versions = ["0.16.9","0.16.8","0.16.7","0.15.0","0.15.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

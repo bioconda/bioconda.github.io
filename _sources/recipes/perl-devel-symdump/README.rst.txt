@@ -60,10 +60,23 @@ perl-devel-symdump
 .. _`perl-devel-symdump/tags`: https://quay.io/repository/biocontainers/perl-devel-symdump?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-devel-symdump";
+        var versions = ["2.18","2.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

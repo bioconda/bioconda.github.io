@@ -60,10 +60,23 @@ codonw
 .. _`codonw/tags`: https://quay.io/repository/biocontainers/codonw?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "codonw";
+        var versions = ["1.4.4","1.4.4","1.4.4","1.4.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

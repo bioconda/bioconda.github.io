@@ -75,10 +75,23 @@ behst
 .. _`behst/tags`: https://quay.io/repository/biocontainers/behst?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "behst";
+        var versions = ["3.8","3.7","3.7","3.6","3.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

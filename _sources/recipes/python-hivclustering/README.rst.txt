@@ -63,10 +63,23 @@ python-hivclustering
 .. _`python-hivclustering/tags`: https://quay.io/repository/biocontainers/python-hivclustering?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-hivclustering";
+        var versions = ["1.5.6","1.5.3","1.4.0","1.3.2","1.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

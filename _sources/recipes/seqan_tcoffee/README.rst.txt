@@ -65,10 +65,23 @@ seqan_tcoffee
 .. _`seqan_tcoffee/tags`: https://quay.io/repository/biocontainers/seqan_tcoffee?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqan_tcoffee";
+        var versions = ["1.13.8","1.13.8","1.13.3","1.13.3","1.13.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

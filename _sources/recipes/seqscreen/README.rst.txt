@@ -82,10 +82,23 @@ seqscreen
 .. _`seqscreen/tags`: https://quay.io/repository/biocontainers/seqscreen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqscreen";
+        var versions = ["1.6.3","1.6.2","1.6.1","1.6.0","1.5.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

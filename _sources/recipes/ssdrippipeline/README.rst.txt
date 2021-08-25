@@ -80,10 +80,23 @@ ssdrippipeline
 .. _`ssdrippipeline/tags`: https://quay.io/repository/biocontainers/ssdrippipeline?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ssdrippipeline";
+        var versions = ["0.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

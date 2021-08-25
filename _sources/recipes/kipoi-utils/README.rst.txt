@@ -76,10 +76,23 @@ kipoi-utils
 .. _`kipoi-utils/tags`: https://quay.io/repository/biocontainers/kipoi-utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kipoi-utils";
+        var versions = ["0.6.0","0.5.0","0.3.8","0.3.8","0.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

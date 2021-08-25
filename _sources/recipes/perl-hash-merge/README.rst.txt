@@ -61,10 +61,23 @@ perl-hash-merge
 .. _`perl-hash-merge/tags`: https://quay.io/repository/biocontainers/perl-hash-merge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-hash-merge";
+        var versions = ["0.300","0.200","0.200"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

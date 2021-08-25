@@ -65,10 +65,23 @@ perl-extutils-cbuilder
 .. _`perl-extutils-cbuilder/tags`: https://quay.io/repository/biocontainers/perl-extutils-cbuilder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-cbuilder";
+        var versions = ["0.280230","0.280230"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

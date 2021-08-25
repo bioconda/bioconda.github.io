@@ -67,10 +67,23 @@ gmgc-mapper
 .. _`gmgc-mapper/tags`: https://quay.io/repository/biocontainers/gmgc-mapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gmgc-mapper";
+        var versions = ["0.2.0","0.2.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

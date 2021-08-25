@@ -61,10 +61,23 @@ tracer
 .. _`tracer/tags`: https://quay.io/repository/biocontainers/tracer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tracer";
+        var versions = ["1.7.2","1.7.1","1.7.0","1.7.0","1.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

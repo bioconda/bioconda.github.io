@@ -62,10 +62,23 @@ purge_dups
 .. _`purge_dups/tags`: https://quay.io/repository/biocontainers/purge_dups?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "purge_dups";
+        var versions = ["1.2.5","1.2.5","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

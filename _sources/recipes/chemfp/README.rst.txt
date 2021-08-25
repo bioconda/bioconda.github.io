@@ -85,10 +85,23 @@ chemfp
 .. _`chemfp/tags`: https://quay.io/repository/biocontainers/chemfp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chemfp";
+        var versions = ["1.6.1","1.6.1","1.6","1.5","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

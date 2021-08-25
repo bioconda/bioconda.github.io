@@ -60,10 +60,23 @@ perl-class-method-modifiers
 .. _`perl-class-method-modifiers/tags`: https://quay.io/repository/biocontainers/perl-class-method-modifiers?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-class-method-modifiers";
+        var versions = ["2.12","2.11","2.11","2.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

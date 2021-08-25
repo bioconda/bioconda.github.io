@@ -73,10 +73,23 @@ bioconductor-rsvsim
 .. _`bioconductor-rsvsim/tags`: https://quay.io/repository/biocontainers/bioconductor-rsvsim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rsvsim";
+        var versions = ["1.32.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

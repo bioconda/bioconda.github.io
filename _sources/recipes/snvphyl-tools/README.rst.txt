@@ -76,10 +76,23 @@ snvphyl-tools
 .. _`snvphyl-tools/tags`: https://quay.io/repository/biocontainers/snvphyl-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snvphyl-tools";
+        var versions = ["1.8.2","1.8.2","1.8.2","1.8.2","1.8.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

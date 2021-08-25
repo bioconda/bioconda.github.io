@@ -82,10 +82,23 @@ bioconductor-ribosomeprofilingqc
 .. _`bioconductor-ribosomeprofilingqc/tags`: https://quay.io/repository/biocontainers/bioconductor-ribosomeprofilingqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ribosomeprofilingqc";
+        var versions = ["1.4.0","1.2.1","1.2.0","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

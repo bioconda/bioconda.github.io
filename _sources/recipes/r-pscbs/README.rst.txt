@@ -77,10 +77,23 @@ r-pscbs
 .. _`r-pscbs/tags`: https://quay.io/repository/biocontainers/r-pscbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-pscbs";
+        var versions = ["0.65.0","0.65.0","0.65.0","0.65.0","0.65.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

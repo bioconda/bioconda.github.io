@@ -67,10 +67,23 @@ ancestry_hmm-s
 .. _`ancestry_hmm-s/tags`: https://quay.io/repository/biocontainers/ancestry_hmm-s?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ancestry_hmm-s";
+        var versions = ["0.9.0.2","0.9.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

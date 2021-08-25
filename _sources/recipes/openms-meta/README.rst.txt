@@ -68,6 +68,13 @@ openms-meta
 .. _`libopenms/tags`: https://quay.io/repository/biocontainers/libopenms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "openms-meta";
+        var versions = ["2.6.0","2.5.0","2.5.0","2.5.0","2.5.0"];
+    </script>
+
 
 .. conda:package:: openms
 
@@ -132,6 +139,13 @@ openms-meta
 .. _`openms/tags`: https://quay.io/repository/biocontainers/openms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "openms-meta";
+        var versions = ["2.6.0","2.5.0","2.5.0","2.5.0","2.5.0"];
+    </script>
+
 
 .. conda:package:: openms-meta
 
@@ -172,6 +186,13 @@ openms-meta
    :target: https://quay.io/repository/biocontainers/openms-meta
 .. _`openms-meta/tags`: https://quay.io/repository/biocontainers/openms-meta?tab=tags
 
+
+.. raw:: html
+
+    <script>
+        var package = "openms-meta";
+        var versions = [];
+    </script>
 
 
 .. conda:package:: openms-thirdparty
@@ -227,6 +248,13 @@ openms-meta
    :target: https://quay.io/repository/biocontainers/openms-meta
 .. _`openms-thirdparty/tags`: https://quay.io/repository/biocontainers/openms-thirdparty?tab=tags
 
+
+.. raw:: html
+
+    <script>
+        var package = "openms-meta";
+        var versions = ["2.6.0","2.5.0","2.5.0","2.5.0","2.5.0"];
+    </script>
 
 
 .. conda:package:: pyopenms
@@ -295,10 +323,23 @@ openms-meta
 .. _`pyopenms/tags`: https://quay.io/repository/biocontainers/pyopenms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "openms-meta";
+        var versions = ["2.6.0","2.5.0","2.5.0","2.5.0","2.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

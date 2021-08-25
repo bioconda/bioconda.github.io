@@ -62,10 +62,23 @@ sqlalchemy-datatables
 .. _`sqlalchemy-datatables/tags`: https://quay.io/repository/biocontainers/sqlalchemy-datatables?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sqlalchemy-datatables";
+        var versions = ["2.0.1","0.3.0","0.3.0","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

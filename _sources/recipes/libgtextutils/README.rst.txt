@@ -61,10 +61,23 @@ libgtextutils
 .. _`libgtextutils/tags`: https://quay.io/repository/biocontainers/libgtextutils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libgtextutils";
+        var versions = ["0.7","0.7","0.7","0.7","0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

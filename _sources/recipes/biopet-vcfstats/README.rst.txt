@@ -71,6 +71,13 @@ biopet-vcfstats
 .. _`biopet-vcfstats/tags`: https://quay.io/repository/biocontainers/biopet-vcfstats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biopet-vcfstats";
+        var versions = ["1.2","1.2","1.1","1.1","1.1"];
+    </script>
+
 
 
 
@@ -79,6 +86,12 @@ Notes
 -----
 biopet\-vcfstats is a Java program that comes with a custom wrapper shell script. By default \'no default java option\' is set in the wrapper. The command that runs the program is \'biopet\-vcfstats\'. If you want to overwrite it you can specify memory options directly after your binaries. If you have \_JAVA\_OPTIONS set globally this will take precedence. For example run it with \'biopet\-vcfstats \-Xms512m \-Xmx1g\'. 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

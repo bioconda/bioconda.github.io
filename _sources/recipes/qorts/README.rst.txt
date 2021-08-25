@@ -64,6 +64,13 @@ qorts
 .. _`qorts/tags`: https://quay.io/repository/biocontainers/qorts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "qorts";
+        var versions = ["1.3.6","1.3.6","1.3.0","1.3.0","1.3.0"];
+    </script>
+
 
 
 
@@ -76,6 +83,12 @@ Simplifies the call to the QoRTs JAVA utility so that you can just go \:\-
 which is equivalent to \:\-
   java \[Java Options\] \-jar \/path\/to\/jar\/QoRTs.jar QC \[QoRTs options\] input.bam annotation.gtf outputDir
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

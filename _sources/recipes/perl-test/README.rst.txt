@@ -61,10 +61,23 @@ perl-test
 .. _`perl-test/tags`: https://quay.io/repository/biocontainers/perl-test?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test";
+        var versions = ["1.26","1.26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

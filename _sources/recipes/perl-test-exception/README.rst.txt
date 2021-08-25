@@ -61,10 +61,23 @@ perl-test-exception
 .. _`perl-test-exception/tags`: https://quay.io/repository/biocontainers/perl-test-exception?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-exception";
+        var versions = ["0.43","0.43","0.43"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

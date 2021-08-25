@@ -68,10 +68,23 @@ smaca
 .. _`smaca/tags`: https://quay.io/repository/biocontainers/smaca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "smaca";
+        var versions = ["1.2.3","1.2.3","1.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

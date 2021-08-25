@@ -61,10 +61,23 @@ bioconductor-wavetilingdata
 .. _`bioconductor-wavetilingdata/tags`: https://quay.io/repository/biocontainers/bioconductor-wavetilingdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-wavetilingdata";
+        var versions = ["1.26.0","1.26.0","1.25.1","1.24.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

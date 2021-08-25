@@ -75,10 +75,23 @@ bioconductor-made4
 .. _`bioconductor-made4/tags`: https://quay.io/repository/biocontainers/bioconductor-made4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-made4";
+        var versions = ["1.66.0","1.64.0","1.64.0","1.61.0","1.60.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

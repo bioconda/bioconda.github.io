@@ -63,10 +63,23 @@ dsk
 .. _`dsk/tags`: https://quay.io/repository/biocontainers/dsk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dsk";
+        var versions = ["2.3.3","2.3.3","2.3.1","2.2.0","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-test-notabs
 .. _`perl-test-notabs/tags`: https://quay.io/repository/biocontainers/perl-test-notabs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-notabs";
+        var versions = ["2.02","1.4","1.4","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

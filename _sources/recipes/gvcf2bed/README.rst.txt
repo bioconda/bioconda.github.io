@@ -62,10 +62,23 @@ gvcf2bed
 .. _`gvcf2bed/tags`: https://quay.io/repository/biocontainers/gvcf2bed?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gvcf2bed";
+        var versions = ["0.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ perl-package-stash
 .. _`perl-package-stash/tags`: https://quay.io/repository/biocontainers/perl-package-stash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-package-stash";
+        var versions = ["0.38","0.38","0.37","0.37"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

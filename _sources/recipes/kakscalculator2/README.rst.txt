@@ -62,10 +62,23 @@ kakscalculator2
 .. _`kakscalculator2/tags`: https://quay.io/repository/biocontainers/kakscalculator2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kakscalculator2";
+        var versions = ["2.0.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

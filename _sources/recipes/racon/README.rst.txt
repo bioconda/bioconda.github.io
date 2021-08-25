@@ -71,10 +71,23 @@ racon
 .. _`racon/tags`: https://quay.io/repository/biocontainers/racon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "racon";
+        var versions = ["1.4.20","1.4.20","1.4.13","1.4.12","1.4.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

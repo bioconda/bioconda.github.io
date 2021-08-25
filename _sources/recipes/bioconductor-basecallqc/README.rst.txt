@@ -75,6 +75,13 @@ bioconductor-basecallqc
 .. _`bioconductor-basecallqc/tags`: https://quay.io/repository/biocontainers/bioconductor-basecallqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-basecallqc";
+        var versions = ["1.16.0","1.14.0","1.14.0","1.12.0","1.10.0"];
+    </script>
+
 
 
 
@@ -85,6 +92,12 @@ Notes
 restrictions Bioconda does not provide this package.\'
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

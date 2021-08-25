@@ -78,10 +78,23 @@ bioconductor-gostats
 .. _`bioconductor-gostats/tags`: https://quay.io/repository/biocontainers/bioconductor-gostats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gostats";
+        var versions = ["2.58.0","2.56.0","2.56.0","2.54.0","2.52.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

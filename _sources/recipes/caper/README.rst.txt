@@ -74,10 +74,23 @@ caper
 .. _`caper/tags`: https://quay.io/repository/biocontainers/caper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "caper";
+        var versions = ["1.1.0","1.0.0","0.8.2.1","0.8.2","0.8.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

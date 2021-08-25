@@ -61,10 +61,23 @@ galaxy_sequence_utils
 .. _`galaxy_sequence_utils/tags`: https://quay.io/repository/biocontainers/galaxy_sequence_utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy_sequence_utils";
+        var versions = ["1.1.5","1.1.4","1.1.3","1.1.2","1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

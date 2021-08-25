@@ -83,10 +83,23 @@ phylophlan
 .. _`phylophlan/tags`: https://quay.io/repository/biocontainers/phylophlan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phylophlan";
+        var versions = ["3.0.2","3.0.1","3.0","3.0","3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

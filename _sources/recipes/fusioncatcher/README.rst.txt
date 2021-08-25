@@ -95,6 +95,13 @@ fusioncatcher
 .. _`fusioncatcher/tags`: https://quay.io/repository/biocontainers/fusioncatcher?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fusioncatcher";
+        var versions = ["1.33","1.33","1.30","1.30","1.20"];
+    </script>
+
 
 
 
@@ -103,6 +110,12 @@ Notes
 -----
 download\-human\-db.sh should be updated when new version of FusionCatcher is released.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

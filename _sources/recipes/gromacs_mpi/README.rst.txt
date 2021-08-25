@@ -68,10 +68,23 @@ gromacs_mpi
 .. _`gromacs_mpi/tags`: https://quay.io/repository/biocontainers/gromacs_mpi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gromacs_mpi";
+        var versions = ["2021.1","2021","2021"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

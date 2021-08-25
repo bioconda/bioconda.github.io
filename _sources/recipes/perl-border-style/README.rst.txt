@@ -63,10 +63,23 @@ perl-border-style
 .. _`perl-border-style/tags`: https://quay.io/repository/biocontainers/perl-border-style?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-border-style";
+        var versions = ["0.01","0.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

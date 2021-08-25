@@ -71,10 +71,23 @@ bioconductor-gosummaries
 .. _`bioconductor-gosummaries/tags`: https://quay.io/repository/biocontainers/bioconductor-gosummaries?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gosummaries";
+        var versions = ["2.28.0","2.26.0","2.26.0","2.24.0","2.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

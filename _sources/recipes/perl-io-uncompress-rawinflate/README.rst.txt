@@ -60,10 +60,23 @@ perl-io-uncompress-rawinflate
 .. _`perl-io-uncompress-rawinflate/tags`: https://quay.io/repository/biocontainers/perl-io-uncompress-rawinflate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-uncompress-rawinflate";
+        var versions = ["2.064","2.064"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

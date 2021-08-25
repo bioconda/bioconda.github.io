@@ -65,10 +65,23 @@ sibeliaz
 .. _`sibeliaz/tags`: https://quay.io/repository/biocontainers/sibeliaz?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sibeliaz";
+        var versions = ["1.2.3","1.2.2","1.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -16,6 +16,9 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -140,26 +143,26 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../pispino/README.html#pispino"><strong class="xref backref">pispino</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pipits/README.html#pipits"><strong class="xref backref">pipits</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../amptk/README.html#amptk"><strong class="xref backref">amptk</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../lotus2/README.html#lotus2"><strong class="xref backref">lotus2</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../dadaist2-full/README.html#dadaist2-full"><strong class="xref backref">dadaist2-full</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../phyloflash/README.html#phyloflash"><strong class="xref backref">phyloflash</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pyrad/README.html#pyrad"><strong class="xref backref">pyrad</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../emirge/README.html#emirge"><strong class="xref backref">emirge</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../singlem/README.html#singlem"><strong class="xref backref">singlem</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../treesapp/README.html#treesapp"><strong class="xref backref">treesapp</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../lotus2/README.html#lotus2"><strong class="xref backref">lotus2</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../mothur/README.html#mothur"><strong class="xref backref">mothur</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../itsxpress/README.html#itsxpress"><strong class="xref backref">itsxpress</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../matam/README.html#matam"><strong class="xref backref">matam</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pyrad/README.html#pyrad"><strong class="xref backref">pyrad</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../dadaist2-full/README.html#dadaist2-full"><strong class="xref backref">dadaist2-full</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metaclassifier/README.html#metaclassifier"><strong class="xref backref">metaclassifier</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../phyloflash/README.html#phyloflash"><strong class="xref backref">phyloflash</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-dimsum/README.html#r-dimsum"><strong class="xref backref">r-dimsum</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metaxa/README.html#metaxa"><strong class="xref backref">metaxa</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../presto/README.html#presto"><strong class="xref backref">presto</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../deblur/README.html#deblur"><strong class="xref backref">deblur</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../emirge/README.html#emirge"><strong class="xref backref">emirge</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ipyrad/README.html#ipyrad"><strong class="xref backref">ipyrad</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../metaclassifier/README.html#metaclassifier"><strong class="xref backref">metaclassifier</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pipits/README.html#pipits"><strong class="xref backref">pipits</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pispino/README.html#pispino"><strong class="xref backref">pispino</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../constax/README.html#constax"><strong class="xref backref">constax</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../metaxa/README.html#metaxa"><strong class="xref backref">metaxa</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../amptk/README.html#amptk"><strong class="xref backref">amptk</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-dimsum/README.html#r-dimsum"><strong class="xref backref">r-dimsum</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../deblur/README.html#deblur"><strong class="xref backref">deblur</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -179,6 +182,67 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/vsearch?tab=tags">vsearch/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
+<script>
+    var package = "vsearch";
+    var versions = ["2.17.1","2.17.0","2.17.0","2.16.0","2.15.2"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+
+<script>
+    window.onload = async function() {
+        versions = [...new Set(versions)];
+
+        let download_data = [];
+
+        for (const version of versions) {
+            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
+            await $.get({
+                url: url,
+                success: function( data ) {
+                    data = JSON.parse(data);
+                    data = data["downloads_per_date"];
+                    let first;
+                    if (data.length > 14) {
+                        first = data.length - 14;
+                    } else {
+                        first = 1;
+                    }
+                    for (let i = first; i < data.length; i++) {
+                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
+                        data[i]["version"] = version;
+                        download_data.push(data[i]);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log('error fetching data from bioconda stats repo!');
+                }
+            });
+        }
+
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart with embedded data.",
+            "data": {"values": []},
+            "width": "container",
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": true,
+                }
+            },
+            "encoding": {
+                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
+                 "color": {"field": "version", "type": "nominal"},
+                 "tooltip": {"field": "delta"}
+            }
+        };
+
+        spec.data.values = download_data;
+        vegaEmbed('#download_plot', spec);
+    }
+</script></section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/vsearch/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

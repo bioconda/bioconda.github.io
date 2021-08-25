@@ -71,10 +71,23 @@ modlamp
 .. _`modlamp/tags`: https://quay.io/repository/biocontainers/modlamp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "modlamp";
+        var versions = ["4.2.1","4.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

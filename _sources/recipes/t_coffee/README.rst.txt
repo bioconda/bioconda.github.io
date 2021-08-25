@@ -66,10 +66,23 @@ t_coffee
 .. _`t_coffee/tags`: https://quay.io/repository/biocontainers/t_coffee?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "t_coffee";
+        var versions = ["11.0.8","11.0.8","11.0.8","11.0.8","11.0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

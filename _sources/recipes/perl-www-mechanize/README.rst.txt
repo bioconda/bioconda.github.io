@@ -67,10 +67,23 @@ perl-www-mechanize
 .. _`perl-www-mechanize/tags`: https://quay.io/repository/biocontainers/perl-www-mechanize?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-www-mechanize";
+        var versions = ["1.91","1.91"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

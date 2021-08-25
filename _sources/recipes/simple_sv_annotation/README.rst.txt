@@ -69,10 +69,23 @@ simple_sv_annotation
 .. _`simple_sv_annotation/tags`: https://quay.io/repository/biocontainers/simple_sv_annotation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "simple_sv_annotation";
+        var versions = ["2019.02.18","2018.05.29","2018.05.29","2017.05.14","2017.02.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

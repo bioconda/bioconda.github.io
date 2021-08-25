@@ -60,10 +60,23 @@ perl-yaml-tiny
 .. _`perl-yaml-tiny/tags`: https://quay.io/repository/biocontainers/perl-yaml-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-yaml-tiny";
+        var versions = ["1.73","1.70","1.70"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

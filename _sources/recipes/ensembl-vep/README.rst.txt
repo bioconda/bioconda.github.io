@@ -80,6 +80,13 @@ ensembl-vep
 .. _`ensembl-vep/tags`: https://quay.io/repository/biocontainers/ensembl-vep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ensembl-vep";
+        var versions = ["104.3","104.2","104.2","104.1","104.1"];
+    </script>
+
 
 
 
@@ -102,6 +109,12 @@ runs. See the VEP documentation for more details
 http\:\/\/www.ensembl.org\/info\/docs\/tools\/vep\/script\/vep\_cache.html
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

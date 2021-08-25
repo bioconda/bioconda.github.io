@@ -64,10 +64,23 @@ dsrc
 .. _`dsrc/tags`: https://quay.io/repository/biocontainers/dsrc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dsrc";
+        var versions = ["2015.06.04","2015.06.04","2015.06.04","2015.06.04","2014.12.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

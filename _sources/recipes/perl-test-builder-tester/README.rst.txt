@@ -60,10 +60,23 @@ perl-test-builder-tester
 .. _`perl-test-builder-tester/tags`: https://quay.io/repository/biocontainers/perl-test-builder-tester?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-builder-tester";
+        var versions = ["1.23_002","1.23_002"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

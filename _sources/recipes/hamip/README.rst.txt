@@ -71,10 +71,23 @@ hamip
 .. _`hamip/tags`: https://quay.io/repository/biocontainers/hamip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hamip";
+        var versions = ["0.0.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

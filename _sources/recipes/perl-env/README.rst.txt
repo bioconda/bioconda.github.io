@@ -60,10 +60,23 @@ perl-env
 .. _`perl-env/tags`: https://quay.io/repository/biocontainers/perl-env?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-env";
+        var versions = ["1.04","1.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

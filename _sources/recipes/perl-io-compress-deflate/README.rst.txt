@@ -60,10 +60,23 @@ perl-io-compress-deflate
 .. _`perl-io-compress-deflate/tags`: https://quay.io/repository/biocontainers/perl-io-compress-deflate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-compress-deflate";
+        var versions = ["2.064","2.064"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

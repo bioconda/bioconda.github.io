@@ -65,10 +65,23 @@ cpinsim
 .. _`cpinsim/tags`: https://quay.io/repository/biocontainers/cpinsim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cpinsim";
+        var versions = ["0.5.2","0.5.2","0.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

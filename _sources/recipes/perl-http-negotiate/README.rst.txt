@@ -61,10 +61,23 @@ perl-http-negotiate
 .. _`perl-http-negotiate/tags`: https://quay.io/repository/biocontainers/perl-http-negotiate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-http-negotiate";
+        var versions = ["6.01","6.01","6.01","6.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

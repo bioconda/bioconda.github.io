@@ -61,10 +61,23 @@ newick_utils
 .. _`newick_utils/tags`: https://quay.io/repository/biocontainers/newick_utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "newick_utils";
+        var versions = ["1.6","1.6","1.6","1.6","1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -80,10 +80,23 @@ gubbins
 .. _`gubbins/tags`: https://quay.io/repository/biocontainers/gubbins?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gubbins";
+        var versions = ["3.0.0","2.4.1","2.4.1","2.4.1","2.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

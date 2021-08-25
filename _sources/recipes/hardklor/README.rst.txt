@@ -62,10 +62,23 @@ hardklor
 .. _`hardklor/tags`: https://quay.io/repository/biocontainers/hardklor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hardklor";
+        var versions = ["2.3.2","2.3.2","2.3.0","2.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

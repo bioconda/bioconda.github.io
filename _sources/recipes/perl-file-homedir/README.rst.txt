@@ -64,10 +64,23 @@ perl-file-homedir
 .. _`perl-file-homedir/tags`: https://quay.io/repository/biocontainers/perl-file-homedir?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-homedir";
+        var versions = ["1.004","1.00","1.00","1.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

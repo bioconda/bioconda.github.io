@@ -66,10 +66,23 @@ r-soap-nmr
 .. _`r-soap-nmr/tags`: https://quay.io/repository/biocontainers/r-soap-nmr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-soap-nmr";
+        var versions = ["0.1.0.20170207","0.1.0.20170207","0.1.0.20170207","0.1.0.20170207","0.1.0.20170207"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

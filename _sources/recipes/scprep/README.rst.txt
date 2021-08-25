@@ -74,10 +74,23 @@ scprep
 .. _`scprep/tags`: https://quay.io/repository/biocontainers/scprep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scprep";
+        var versions = ["1.1.0","1.0.13","1.0.12","1.0.11","1.0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

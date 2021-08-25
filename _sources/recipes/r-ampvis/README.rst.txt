@@ -77,10 +77,23 @@ r-ampvis
 .. _`r-ampvis/tags`: https://quay.io/repository/biocontainers/r-ampvis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ampvis";
+        var versions = ["1.27.0","1.27.0","1.27.0","1.27.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

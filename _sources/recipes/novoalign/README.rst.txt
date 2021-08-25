@@ -72,6 +72,13 @@ novoalign
 .. _`novoalign/tags`: https://quay.io/repository/biocontainers/novoalign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "novoalign";
+        var versions = ["4.02.02","4.02.02","4.02.02","4.02.00","3.09.04"];
+    </script>
+
 
 
 
@@ -80,6 +87,12 @@ Notes
 -----
 Novoalign V4 will not run unless a \"novoalign.lic\" license file is provided in the same directory as its binaries. The license file can be copied in to the conda environment via the \"novoalign\-license\-register\" command.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

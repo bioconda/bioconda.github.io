@@ -63,10 +63,23 @@ dms
 .. _`dms/tags`: https://quay.io/repository/biocontainers/dms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dms";
+        var versions = ["1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

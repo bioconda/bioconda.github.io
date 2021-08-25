@@ -87,10 +87,23 @@ crisprme
 .. _`crisprme/tags`: https://quay.io/repository/biocontainers/crisprme?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crisprme";
+        var versions = ["1.9.7","1.9.6","1.9.5","1.9.4","1.9.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

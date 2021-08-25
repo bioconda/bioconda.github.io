@@ -71,10 +71,23 @@ kaptive
 .. _`kaptive/tags`: https://quay.io/repository/biocontainers/kaptive?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kaptive";
+        var versions = ["0.7.3","0.7.2","0.7.1","0.7.0","0.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

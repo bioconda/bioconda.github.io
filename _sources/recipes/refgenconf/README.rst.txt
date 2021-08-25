@@ -74,10 +74,23 @@ refgenconf
 .. _`refgenconf/tags`: https://quay.io/repository/biocontainers/refgenconf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "refgenconf";
+        var versions = ["0.12.0","0.11.1","0.11.0","0.10.0","0.9.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

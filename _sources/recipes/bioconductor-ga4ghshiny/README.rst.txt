@@ -74,10 +74,23 @@ bioconductor-ga4ghshiny
 .. _`bioconductor-ga4ghshiny/tags`: https://quay.io/repository/biocontainers/bioconductor-ga4ghshiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ga4ghshiny";
+        var versions = ["1.14.0","1.12.0","1.12.0","1.10.0","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

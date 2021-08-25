@@ -81,10 +81,23 @@ phyml
 .. _`phyml/tags`: https://quay.io/repository/biocontainers/phyml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phyml";
+        var versions = ["3.3.20200621","3.3.20200621","3.3.20190909","3.3.20190909","3.3.20190908"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

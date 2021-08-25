@@ -60,10 +60,23 @@ perl-statistics-distributions
 .. _`perl-statistics-distributions/tags`: https://quay.io/repository/biocontainers/perl-statistics-distributions?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-statistics-distributions";
+        var versions = ["1.02","1.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

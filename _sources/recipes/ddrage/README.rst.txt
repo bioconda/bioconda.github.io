@@ -75,10 +75,23 @@ ddrage
 .. _`ddrage/tags`: https://quay.io/repository/biocontainers/ddrage?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ddrage";
+        var versions = ["1.7.1","1.6.3","1.6.3","1.6.1","1.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

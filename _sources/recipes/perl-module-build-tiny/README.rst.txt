@@ -70,10 +70,23 @@ perl-module-build-tiny
 .. _`perl-module-build-tiny/tags`: https://quay.io/repository/biocontainers/perl-module-build-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-build-tiny";
+        var versions = ["0.039","0.039","0.039","0.039"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -78,10 +78,23 @@ r-quilt
 .. _`r-quilt/tags`: https://quay.io/repository/biocontainers/r-quilt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-quilt";
+        var versions = ["0.1.9","0.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

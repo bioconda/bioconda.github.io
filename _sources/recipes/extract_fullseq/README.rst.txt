@@ -59,10 +59,23 @@ extract_fullseq
 .. _`extract_fullseq/tags`: https://quay.io/repository/biocontainers/extract_fullseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "extract_fullseq";
+        var versions = ["3.101","3.101","3.101","3.101"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

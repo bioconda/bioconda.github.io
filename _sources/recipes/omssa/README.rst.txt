@@ -59,10 +59,23 @@ omssa
 .. _`omssa/tags`: https://quay.io/repository/biocontainers/omssa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "omssa";
+        var versions = ["2.1.9","2.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

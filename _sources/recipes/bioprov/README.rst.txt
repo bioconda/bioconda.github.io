@@ -76,10 +76,23 @@ bioprov
 .. _`bioprov/tags`: https://quay.io/repository/biocontainers/bioprov?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioprov";
+        var versions = ["0.1.23","0.1.22","0.1.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

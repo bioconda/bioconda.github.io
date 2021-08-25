@@ -62,10 +62,23 @@ fuma
 .. _`fuma/tags`: https://quay.io/repository/biocontainers/fuma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fuma";
+        var versions = ["3.0.6","3.0.5","3.0.5","3.0.5","3.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

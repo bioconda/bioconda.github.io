@@ -61,10 +61,23 @@ bioconductor-hapmap370k
 .. _`bioconductor-hapmap370k/tags`: https://quay.io/repository/biocontainers/bioconductor-hapmap370k?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hapmap370k";
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

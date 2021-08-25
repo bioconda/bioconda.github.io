@@ -62,10 +62,23 @@ perl-string-util
 .. _`perl-string-util/tags`: https://quay.io/repository/biocontainers/perl-string-util?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-string-util";
+        var versions = ["1.26","1.26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

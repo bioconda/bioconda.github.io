@@ -70,10 +70,23 @@ nanomod
 .. _`nanomod/tags`: https://quay.io/repository/biocontainers/nanomod?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanomod";
+        var versions = ["0.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

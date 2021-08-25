@@ -60,10 +60,23 @@ libmuscle
 .. _`libmuscle/tags`: https://quay.io/repository/biocontainers/libmuscle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libmuscle";
+        var versions = ["3.7","3.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

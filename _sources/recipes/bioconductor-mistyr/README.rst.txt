@@ -80,10 +80,23 @@ bioconductor-mistyr
 .. _`bioconductor-mistyr/tags`: https://quay.io/repository/biocontainers/bioconductor-mistyr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mistyr";
+        var versions = ["1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

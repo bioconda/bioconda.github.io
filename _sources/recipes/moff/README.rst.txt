@@ -79,10 +79,23 @@ moff
 .. _`moff/tags`: https://quay.io/repository/biocontainers/moff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "moff";
+        var versions = ["2.0.3","2.0.3","2.0.3","2.0.3","2.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

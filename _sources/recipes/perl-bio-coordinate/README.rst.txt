@@ -63,10 +63,23 @@ perl-bio-coordinate
 .. _`perl-bio-coordinate/tags`: https://quay.io/repository/biocontainers/perl-bio-coordinate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-coordinate";
+        var versions = ["1.007001","1.007001","1.007001"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

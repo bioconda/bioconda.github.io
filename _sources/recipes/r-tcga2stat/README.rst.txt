@@ -62,10 +62,23 @@ r-tcga2stat
 .. _`r-tcga2stat/tags`: https://quay.io/repository/biocontainers/r-tcga2stat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-tcga2stat";
+        var versions = ["1.2","1.2","1.2","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

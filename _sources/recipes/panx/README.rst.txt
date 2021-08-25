@@ -71,10 +71,23 @@ panx
 .. _`panx/tags`: https://quay.io/repository/biocontainers/panx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "panx";
+        var versions = ["1.6.0","1.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

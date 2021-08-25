@@ -61,10 +61,23 @@ perl-tie-log4perl
 .. _`perl-tie-log4perl/tags`: https://quay.io/repository/biocontainers/perl-tie-log4perl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tie-log4perl";
+        var versions = ["0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

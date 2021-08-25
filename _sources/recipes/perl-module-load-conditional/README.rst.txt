@@ -66,10 +66,23 @@ perl-module-load-conditional
 .. _`perl-module-load-conditional/tags`: https://quay.io/repository/biocontainers/perl-module-load-conditional?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-load-conditional";
+        var versions = ["0.68","0.68","0.68","0.62","0.62"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

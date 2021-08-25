@@ -60,10 +60,23 @@ consel
 .. _`consel/tags`: https://quay.io/repository/biocontainers/consel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "consel";
+        var versions = ["0.20","0.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

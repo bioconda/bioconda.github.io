@@ -62,10 +62,23 @@ soapec
 .. _`soapec/tags`: https://quay.io/repository/biocontainers/soapec?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "soapec";
+        var versions = ["2.03","2.03","2.03","2.03","2.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

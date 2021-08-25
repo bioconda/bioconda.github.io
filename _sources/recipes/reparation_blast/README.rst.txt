@@ -83,10 +83,23 @@ reparation_blast
 .. _`reparation_blast/tags`: https://quay.io/repository/biocontainers/reparation_blast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "reparation_blast";
+        var versions = ["1.0.9","1.0.9","1.0.9","1.0.8","1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

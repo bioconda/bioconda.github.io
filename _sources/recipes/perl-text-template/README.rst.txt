@@ -60,10 +60,23 @@ perl-text-template
 .. _`perl-text-template/tags`: https://quay.io/repository/biocontainers/perl-text-template?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-template";
+        var versions = ["1.46","1.46"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

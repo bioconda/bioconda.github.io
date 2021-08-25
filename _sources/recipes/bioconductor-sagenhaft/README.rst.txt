@@ -70,10 +70,23 @@ bioconductor-sagenhaft
 .. _`bioconductor-sagenhaft/tags`: https://quay.io/repository/biocontainers/bioconductor-sagenhaft?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sagenhaft";
+        var versions = ["1.62.0","1.60.0","1.60.0","1.58.0","1.56.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

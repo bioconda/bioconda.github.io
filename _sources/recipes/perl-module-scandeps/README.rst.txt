@@ -65,10 +65,23 @@ perl-module-scandeps
 .. _`perl-module-scandeps/tags`: https://quay.io/repository/biocontainers/perl-module-scandeps?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-scandeps";
+        var versions = ["1.27","1.26","1.26","1.25","1.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

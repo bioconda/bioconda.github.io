@@ -62,10 +62,23 @@ bioconductor-rnu34cdf
 .. _`bioconductor-rnu34cdf/tags`: https://quay.io/repository/biocontainers/bioconductor-rnu34cdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rnu34cdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

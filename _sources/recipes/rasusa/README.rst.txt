@@ -60,10 +60,23 @@ rasusa
 .. _`rasusa/tags`: https://quay.io/repository/biocontainers/rasusa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rasusa";
+        var versions = ["0.5.0","0.4.2","0.4.1","0.3.0","0.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

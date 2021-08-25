@@ -72,10 +72,23 @@ vsearch
 .. _`vsearch/tags`: https://quay.io/repository/biocontainers/vsearch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vsearch";
+        var versions = ["2.17.1","2.17.0","2.17.0","2.16.0","2.15.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

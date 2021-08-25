@@ -75,10 +75,23 @@ mmseqs2
 .. _`mmseqs2/tags`: https://quay.io/repository/biocontainers/mmseqs2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mmseqs2";
+        var versions = ["13.45111","13.45111","12.113e3","12.113e3","12.113e3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

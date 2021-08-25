@@ -63,10 +63,23 @@ aquila_umap
 .. _`aquila_umap/tags`: https://quay.io/repository/biocontainers/aquila_umap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "aquila_umap";
+        var versions = ["1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

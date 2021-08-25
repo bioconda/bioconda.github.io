@@ -67,10 +67,23 @@ bioconductor-pd.2006.10.31.rn34.refseq.promoter
 .. _`bioconductor-pd.2006.10.31.rn34.refseq.promoter/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.2006.10.31.rn34.refseq.promoter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.2006.10.31.rn34.refseq.promoter";
+        var versions = ["0.99.3","0.99.3","0.99.3","0.99.3","0.99.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

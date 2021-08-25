@@ -65,6 +65,13 @@ semeta
 .. _`semeta/tags`: https://quay.io/repository/biocontainers/semeta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "semeta";
+        var versions = ["1.0"];
+    </script>
+
 
 
 
@@ -73,6 +80,12 @@ Notes
 -----
 Databases are required. Please see the project homepage.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

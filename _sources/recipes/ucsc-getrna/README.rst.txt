@@ -65,10 +65,23 @@ ucsc-getrna
 .. _`ucsc-getrna/tags`: https://quay.io/repository/biocontainers/ucsc-getrna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-getrna";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

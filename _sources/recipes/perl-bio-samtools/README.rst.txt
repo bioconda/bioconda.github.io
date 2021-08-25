@@ -62,10 +62,23 @@ perl-bio-samtools
 .. _`perl-bio-samtools/tags`: https://quay.io/repository/biocontainers/perl-bio-samtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-samtools";
+        var versions = ["1.43","1.43"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

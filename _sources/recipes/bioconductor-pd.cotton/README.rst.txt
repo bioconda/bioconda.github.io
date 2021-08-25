@@ -68,10 +68,23 @@ bioconductor-pd.cotton
 .. _`bioconductor-pd.cotton/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.cotton?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.cotton";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

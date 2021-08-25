@@ -60,10 +60,23 @@ perl-math-vecstat
 .. _`perl-math-vecstat/tags`: https://quay.io/repository/biocontainers/perl-math-vecstat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-vecstat";
+        var versions = ["0.08","0.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

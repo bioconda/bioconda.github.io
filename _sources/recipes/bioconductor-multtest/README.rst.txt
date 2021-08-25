@@ -76,10 +76,23 @@ bioconductor-multtest
 .. _`bioconductor-multtest/tags`: https://quay.io/repository/biocontainers/bioconductor-multtest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-multtest";
+        var versions = ["2.48.0","2.46.0","2.46.0","2.44.0","2.42.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

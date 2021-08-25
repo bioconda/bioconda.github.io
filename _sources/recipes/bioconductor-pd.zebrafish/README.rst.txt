@@ -68,10 +68,23 @@ bioconductor-pd.zebrafish
 .. _`bioconductor-pd.zebrafish/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.zebrafish?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.zebrafish";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

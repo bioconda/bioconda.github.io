@@ -66,10 +66,23 @@ tbvcfreport
 .. _`tbvcfreport/tags`: https://quay.io/repository/biocontainers/tbvcfreport?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tbvcfreport";
+        var versions = ["0.1.8","0.1.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

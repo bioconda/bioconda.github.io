@@ -74,10 +74,23 @@ fusion-report
 .. _`fusion-report/tags`: https://quay.io/repository/biocontainers/fusion-report?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fusion-report";
+        var versions = ["2.1.4","2.1.3","2.1.2","2.1.1","2.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

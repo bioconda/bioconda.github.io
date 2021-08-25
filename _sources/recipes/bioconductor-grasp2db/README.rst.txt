@@ -67,10 +67,23 @@ bioconductor-grasp2db
 .. _`bioconductor-grasp2db/tags`: https://quay.io/repository/biocontainers/bioconductor-grasp2db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-grasp2db";
+        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

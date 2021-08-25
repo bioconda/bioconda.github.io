@@ -60,10 +60,23 @@ perl-parse-yapp
 .. _`perl-parse-yapp/tags`: https://quay.io/repository/biocontainers/perl-parse-yapp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-parse-yapp";
+        var versions = ["1.21","1.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

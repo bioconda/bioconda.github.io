@@ -77,10 +77,23 @@ getorganelle
 .. _`getorganelle/tags`: https://quay.io/repository/biocontainers/getorganelle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "getorganelle";
+        var versions = ["1.7.5.0","1.7.4.1","1.7.4","1.7.3.5","1.7.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

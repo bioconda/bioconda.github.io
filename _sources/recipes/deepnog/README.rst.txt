@@ -70,10 +70,23 @@ deepnog
 .. _`deepnog/tags`: https://quay.io/repository/biocontainers/deepnog?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deepnog";
+        var versions = ["1.2.3","1.2.3","1.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

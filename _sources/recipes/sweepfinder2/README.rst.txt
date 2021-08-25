@@ -60,10 +60,23 @@ sweepfinder2
 .. _`sweepfinder2/tags`: https://quay.io/repository/biocontainers/sweepfinder2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sweepfinder2";
+        var versions = ["1.0","1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

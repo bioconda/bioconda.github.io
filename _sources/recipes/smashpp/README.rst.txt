@@ -61,10 +61,23 @@ smashpp
 .. _`smashpp/tags`: https://quay.io/repository/biocontainers/smashpp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "smashpp";
+        var versions = ["20.04","20.04","19.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

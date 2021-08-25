@@ -62,10 +62,23 @@ virulign
 .. _`virulign/tags`: https://quay.io/repository/biocontainers/virulign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "virulign";
+        var versions = ["1.1.1","1.1.1","1.1","1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

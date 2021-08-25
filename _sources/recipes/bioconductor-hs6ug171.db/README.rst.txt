@@ -63,10 +63,23 @@ bioconductor-hs6ug171.db
 .. _`bioconductor-hs6ug171.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hs6ug171.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hs6ug171.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

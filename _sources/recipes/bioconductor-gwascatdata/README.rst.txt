@@ -62,10 +62,23 @@ bioconductor-gwascatdata
 .. _`bioconductor-gwascatdata/tags`: https://quay.io/repository/biocontainers/bioconductor-gwascatdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gwascatdata";
+        var versions = ["0.99.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

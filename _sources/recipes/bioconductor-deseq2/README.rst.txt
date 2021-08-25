@@ -86,10 +86,23 @@ bioconductor-deseq2
 .. _`bioconductor-deseq2/tags`: https://quay.io/repository/biocontainers/bioconductor-deseq2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-deseq2";
+        var versions = ["1.32.0","1.30.1","1.30.0","1.28.0","1.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

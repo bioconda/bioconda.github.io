@@ -86,10 +86,23 @@ bioconductor-chemminer
 .. _`bioconductor-chemminer/tags`: https://quay.io/repository/biocontainers/bioconductor-chemminer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-chemminer";
+        var versions = ["3.44.0","3.42.2","3.42.0","3.40.0","3.38.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

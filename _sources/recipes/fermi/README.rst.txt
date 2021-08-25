@@ -62,10 +62,23 @@ fermi
 .. _`fermi/tags`: https://quay.io/repository/biocontainers/fermi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fermi";
+        var versions = ["1.1_r751_beta","1.1_r751_beta","1.1_r751_beta","1.1_r751_beta","1.1_r751_beta"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

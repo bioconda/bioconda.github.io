@@ -61,10 +61,23 @@ mark-nonconverted-reads
 .. _`mark-nonconverted-reads/tags`: https://quay.io/repository/biocontainers/mark-nonconverted-reads?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mark-nonconverted-reads";
+        var versions = ["1.1","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

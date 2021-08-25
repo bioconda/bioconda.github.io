@@ -63,6 +63,13 @@ pizzly
 .. _`pizzly/tags`: https://quay.io/repository/biocontainers/pizzly?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pizzly";
+        var versions = ["0.37.3","0.37.3","0.37.1"];
+    </script>
+
 
 
 
@@ -71,6 +78,12 @@ Notes
 -----
 Auxilliary scripts are available as commands \`\`pizzly\_flatten\_json.py\`\` and \`\`pizzly\_get\_fragment\_length.py\`\` along with the \`\`pizzly\`\` binary.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

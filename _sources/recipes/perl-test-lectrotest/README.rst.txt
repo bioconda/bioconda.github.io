@@ -64,10 +64,23 @@ perl-test-lectrotest
 .. _`perl-test-lectrotest/tags`: https://quay.io/repository/biocontainers/perl-test-lectrotest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-lectrotest";
+        var versions = ["0.5001"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

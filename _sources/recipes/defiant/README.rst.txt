@@ -62,10 +62,23 @@ defiant
 .. _`defiant/tags`: https://quay.io/repository/biocontainers/defiant?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "defiant";
+        var versions = ["1.1.4","1.1.4","1.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

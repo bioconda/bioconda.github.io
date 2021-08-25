@@ -65,10 +65,23 @@ bioconductor-org.mxanthus.db
 .. _`bioconductor-org.mxanthus.db/tags`: https://quay.io/repository/biocontainers/bioconductor-org.mxanthus.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-org.mxanthus.db";
+        var versions = ["1.0.27","1.0.27","1.0.27","1.0.27","1.0.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

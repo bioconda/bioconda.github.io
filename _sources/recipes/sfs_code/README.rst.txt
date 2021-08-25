@@ -61,10 +61,23 @@ sfs_code
 .. _`sfs_code/tags`: https://quay.io/repository/biocontainers/sfs_code?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sfs_code";
+        var versions = ["20150910","20150910","20150910","20150910"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

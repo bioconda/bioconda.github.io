@@ -63,10 +63,23 @@ mp3treesim
 .. _`mp3treesim/tags`: https://quay.io/repository/biocontainers/mp3treesim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mp3treesim";
+        var versions = ["1.0.6","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

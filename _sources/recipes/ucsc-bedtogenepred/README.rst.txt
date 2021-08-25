@@ -65,10 +65,23 @@ ucsc-bedtogenepred
 .. _`ucsc-bedtogenepred/tags`: https://quay.io/repository/biocontainers/ucsc-bedtogenepred?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-bedtogenepred";
+        var versions = ["377","377","377","366","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

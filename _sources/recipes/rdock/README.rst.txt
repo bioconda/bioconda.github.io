@@ -65,10 +65,23 @@ rdock
 .. _`rdock/tags`: https://quay.io/repository/biocontainers/rdock?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rdock";
+        var versions = ["2013.1","2013.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ bioconductor-pd.cytogenetics.array
 .. _`bioconductor-pd.cytogenetics.array/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.cytogenetics.array?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.cytogenetics.array";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

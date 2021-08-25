@@ -61,10 +61,23 @@ perl-authen-sasl-saslprep
 .. _`perl-authen-sasl-saslprep/tags`: https://quay.io/repository/biocontainers/perl-authen-sasl-saslprep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-authen-sasl-saslprep";
+        var versions = ["1.100","1.011","1.011","1.011"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -16,6 +16,9 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -138,14 +141,14 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../ctat-mutations/README.html#ctat-mutations"><strong class="xref backref">ctat-mutations</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../macaron/README.html#macaron"><strong class="xref backref">macaron</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pathogen-profiler/README.html#pathogen-profiler"><strong class="xref backref">pathogen-profiler</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="#gatk4-spark"><strong class="xref backref">gatk4-spark</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../drop/README.html#drop"><strong class="xref backref">drop</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../tritimap/README.html#tritimap"><strong class="xref backref">tritimap</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../somaticseq/README.html#somaticseq"><strong class="xref backref">somaticseq</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../tb-profiler/README.html#tb-profiler"><strong class="xref backref">tb-profiler</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="#gatk4-spark"><strong class="xref backref">gatk4-spark</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../macaron/README.html#macaron"><strong class="xref backref">macaron</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pathogen-profiler/README.html#pathogen-profiler"><strong class="xref backref">pathogen-profiler</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../drop/README.html#drop"><strong class="xref backref">drop</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ctat-mutations/README.html#ctat-mutations"><strong class="xref backref">ctat-mutations</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -165,7 +168,10 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/gatk4?tab=tags">gatk4/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
-<dl class="conda package">
+<script>
+    var package = "gatk4";
+    var versions = ["4.2.2.0","4.2.1.0","4.2.0.0","4.2.0.0","4.1.9.0"];
+</script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-gatk4-spark">
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">gatk4-spark</span></span><a class="headerlink" href="#package-gatk4-spark" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/gatk4-spark"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/gatk4-spark.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/gatk4"><img alt="docker_gatk4-spark" src="https://quay.io/repository/biocontainers/gatk4/status" /></a></p>
@@ -201,6 +207,67 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/gatk4-spark?tab=tags">gatk4-spark/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
+<script>
+    var package = "gatk4";
+    var versions = ["4.2.2.0","4.2.1.0","4.2.0.0","4.2.0.0","4.1.9.0"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+
+<script>
+    window.onload = async function() {
+        versions = [...new Set(versions)];
+
+        let download_data = [];
+
+        for (const version of versions) {
+            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
+            await $.get({
+                url: url,
+                success: function( data ) {
+                    data = JSON.parse(data);
+                    data = data["downloads_per_date"];
+                    let first;
+                    if (data.length > 14) {
+                        first = data.length - 14;
+                    } else {
+                        first = 1;
+                    }
+                    for (let i = first; i < data.length; i++) {
+                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
+                        data[i]["version"] = version;
+                        download_data.push(data[i]);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log('error fetching data from bioconda stats repo!');
+                }
+            });
+        }
+
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart with embedded data.",
+            "data": {"values": []},
+            "width": "container",
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": true,
+                }
+            },
+            "encoding": {
+                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
+                 "color": {"field": "version", "type": "nominal"},
+                 "tooltip": {"field": "delta"}
+            }
+        };
+
+        spec.data.values = download_data;
+        vegaEmbed('#download_plot', spec);
+    }
+</script></section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/gatk4/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

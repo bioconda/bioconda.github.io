@@ -62,10 +62,23 @@ perl-test-output
 .. _`perl-test-output/tags`: https://quay.io/repository/biocontainers/perl-test-output?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-output";
+        var versions = ["1.031","1.03","1.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

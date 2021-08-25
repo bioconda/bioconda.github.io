@@ -78,10 +78,23 @@ freebayes
 .. _`freebayes/tags`: https://quay.io/repository/biocontainers/freebayes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "freebayes";
+        var versions = ["1.3.5","1.3.5","1.3.5","1.3.5","1.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

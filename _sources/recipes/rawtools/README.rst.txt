@@ -60,6 +60,13 @@ rawtools
 .. _`rawtools/tags`: https://quay.io/repository/biocontainers/rawtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rawtools";
+        var versions = ["2.0.3","2.0.3","2.0.2","1.4.2","1.4.1"];
+    </script>
+
 
 
 
@@ -71,6 +78,12 @@ RawTools is written in C\# and uses the Thermo RawFileReader library.
 RawTools is fully compatible with Windows\, Linux\, and MacOS operating systems.
 RawTools is the replacement for the previously described RawQuant Python package.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

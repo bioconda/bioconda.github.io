@@ -63,10 +63,23 @@ bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene
 .. _`bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene";
+        var versions = ["3.10.0","3.10.0","3.10.0","3.10.0","3.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

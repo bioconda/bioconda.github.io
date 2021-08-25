@@ -63,10 +63,23 @@ bioconductor-somnibus
 .. _`bioconductor-somnibus/tags`: https://quay.io/repository/biocontainers/bioconductor-somnibus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-somnibus";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

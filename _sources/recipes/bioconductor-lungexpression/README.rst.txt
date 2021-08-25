@@ -62,10 +62,23 @@ bioconductor-lungexpression
 .. _`bioconductor-lungexpression/tags`: https://quay.io/repository/biocontainers/bioconductor-lungexpression?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-lungexpression";
+        var versions = ["0.30.0","0.28.0","0.28.0","0.26.0","0.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

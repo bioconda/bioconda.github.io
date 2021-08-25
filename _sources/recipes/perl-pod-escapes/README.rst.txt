@@ -61,10 +61,23 @@ perl-pod-escapes
 .. _`perl-pod-escapes/tags`: https://quay.io/repository/biocontainers/perl-pod-escapes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pod-escapes";
+        var versions = ["1.07","1.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

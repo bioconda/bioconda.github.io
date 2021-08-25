@@ -87,10 +87,23 @@ cellxgene
 .. _`cellxgene/tags`: https://quay.io/repository/biocontainers/cellxgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cellxgene";
+        var versions = ["0.16.7","0.16.6","0.16.5","0.16.4","0.16.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

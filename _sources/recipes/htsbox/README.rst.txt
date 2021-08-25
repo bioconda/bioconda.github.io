@@ -61,10 +61,23 @@ htsbox
 .. _`htsbox/tags`: https://quay.io/repository/biocontainers/htsbox?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "htsbox";
+        var versions = ["r346","r346","r340","r340","r340"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

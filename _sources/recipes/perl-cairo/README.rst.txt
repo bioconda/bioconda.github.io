@@ -66,10 +66,23 @@ perl-cairo
 .. _`perl-cairo/tags`: https://quay.io/repository/biocontainers/perl-cairo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-cairo";
+        var versions = ["1.106","1.106"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

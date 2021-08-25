@@ -72,10 +72,23 @@ bioconductor-wppi
 .. _`bioconductor-wppi/tags`: https://quay.io/repository/biocontainers/bioconductor-wppi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-wppi";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

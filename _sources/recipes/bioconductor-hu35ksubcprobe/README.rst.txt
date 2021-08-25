@@ -62,10 +62,23 @@ bioconductor-hu35ksubcprobe
 .. _`bioconductor-hu35ksubcprobe/tags`: https://quay.io/repository/biocontainers/bioconductor-hu35ksubcprobe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hu35ksubcprobe";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

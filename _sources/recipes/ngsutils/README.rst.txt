@@ -68,10 +68,23 @@ ngsutils
 .. _`ngsutils/tags`: https://quay.io/repository/biocontainers/ngsutils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ngsutils";
+        var versions = ["0.5.9","0.5.9","0.5.9","0.5.9","0.5.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

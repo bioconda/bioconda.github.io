@@ -64,10 +64,23 @@ predicthaplo
 .. _`predicthaplo/tags`: https://quay.io/repository/biocontainers/predicthaplo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "predicthaplo";
+        var versions = ["2.1.4","2.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

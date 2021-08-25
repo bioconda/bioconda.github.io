@@ -60,10 +60,23 @@ perl-digest-crc32
 .. _`perl-digest-crc32/tags`: https://quay.io/repository/biocontainers/perl-digest-crc32?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-digest-crc32";
+        var versions = ["0.01","0.01","0.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

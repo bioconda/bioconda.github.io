@@ -78,10 +78,23 @@ pore-c
 .. _`pore-c/tags`: https://quay.io/repository/biocontainers/pore-c?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pore-c";
+        var versions = ["0.4.0","0.3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

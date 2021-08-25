@@ -71,10 +71,23 @@ beast
 .. _`beast/tags`: https://quay.io/repository/biocontainers/beast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "beast";
+        var versions = ["1.10.4","1.10.4","1.10.4","1.10.3","1.10.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

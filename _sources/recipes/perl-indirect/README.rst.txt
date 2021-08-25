@@ -62,10 +62,23 @@ perl-indirect
 .. _`perl-indirect/tags`: https://quay.io/repository/biocontainers/perl-indirect?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-indirect";
+        var versions = ["0.38","0.38"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

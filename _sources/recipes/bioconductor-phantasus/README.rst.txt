@@ -84,10 +84,23 @@ bioconductor-phantasus
 .. _`bioconductor-phantasus/tags`: https://quay.io/repository/biocontainers/bioconductor-phantasus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-phantasus";
+        var versions = ["1.12.0","1.10.0","1.10.0","1.8.0","1.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

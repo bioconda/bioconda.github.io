@@ -69,10 +69,23 @@ perl-test2-suite
 .. _`perl-test2-suite/tags`: https://quay.io/repository/biocontainers/perl-test2-suite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test2-suite";
+        var versions = ["0.000117","0.000116","0.000115","0.000061","0.000061"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

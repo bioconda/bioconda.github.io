@@ -62,10 +62,23 @@ bioconductor-hgu95dcdf
 .. _`bioconductor-hgu95dcdf/tags`: https://quay.io/repository/biocontainers/bioconductor-hgu95dcdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hgu95dcdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

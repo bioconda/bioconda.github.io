@@ -70,10 +70,23 @@ bioconductor-puma
 .. _`bioconductor-puma/tags`: https://quay.io/repository/biocontainers/bioconductor-puma?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-puma";
+        var versions = ["3.34.0","3.32.0","3.32.0","3.30.0","3.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

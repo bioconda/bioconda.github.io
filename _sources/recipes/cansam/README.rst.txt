@@ -62,10 +62,23 @@ cansam
 .. _`cansam/tags`: https://quay.io/repository/biocontainers/cansam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cansam";
+        var versions = ["21d64bb","21d64bb","21d64bb","21d64bb","21d64bb"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

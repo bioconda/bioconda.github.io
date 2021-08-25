@@ -63,10 +63,23 @@ prince
 .. _`prince/tags`: https://quay.io/repository/biocontainers/prince?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "prince";
+        var versions = ["2.3","2.3","2.2","2.1","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

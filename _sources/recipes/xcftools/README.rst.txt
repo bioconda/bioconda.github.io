@@ -62,10 +62,23 @@ xcftools
 .. _`xcftools/tags`: https://quay.io/repository/biocontainers/xcftools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "xcftools";
+        var versions = ["1.0.7","1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

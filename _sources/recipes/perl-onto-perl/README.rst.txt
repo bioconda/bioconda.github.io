@@ -64,10 +64,23 @@ perl-onto-perl
 .. _`perl-onto-perl/tags`: https://quay.io/repository/biocontainers/perl-onto-perl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-onto-perl";
+        var versions = ["1.45","1.45","1.45"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

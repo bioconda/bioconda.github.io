@@ -73,10 +73,23 @@ bioconductor-les
 .. _`bioconductor-les/tags`: https://quay.io/repository/biocontainers/bioconductor-les?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-les";
+        var versions = ["1.42.0","1.40.0","1.40.0","1.38.0","1.36.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

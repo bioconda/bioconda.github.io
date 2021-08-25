@@ -60,10 +60,23 @@ perl-test-fork
 .. _`perl-test-fork/tags`: https://quay.io/repository/biocontainers/perl-test-fork?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-fork";
+        var versions = ["0.02"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

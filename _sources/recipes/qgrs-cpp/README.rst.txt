@@ -62,10 +62,23 @@ qgrs-cpp
 .. _`qgrs-cpp/tags`: https://quay.io/repository/biocontainers/qgrs-cpp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "qgrs-cpp";
+        var versions = ["1.0","1.0","0.0.2017.08.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

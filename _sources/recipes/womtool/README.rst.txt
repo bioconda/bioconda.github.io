@@ -70,10 +70,23 @@ womtool
 .. _`womtool/tags`: https://quay.io/repository/biocontainers/womtool?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "womtool";
+        var versions = ["61","60","60","58","57"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

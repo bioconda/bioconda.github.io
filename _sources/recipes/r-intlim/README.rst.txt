@@ -71,10 +71,23 @@ r-intlim
 .. _`r-intlim/tags`: https://quay.io/repository/biocontainers/r-intlim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-intlim";
+        var versions = ["1.1.0","v.1.1.0","v.1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

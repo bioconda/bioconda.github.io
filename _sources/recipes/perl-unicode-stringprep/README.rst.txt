@@ -60,10 +60,23 @@ perl-unicode-stringprep
 .. _`perl-unicode-stringprep/tags`: https://quay.io/repository/biocontainers/perl-unicode-stringprep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-unicode-stringprep";
+        var versions = ["1.105","1.105","1.105"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

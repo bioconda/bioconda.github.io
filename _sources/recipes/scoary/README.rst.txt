@@ -65,10 +65,23 @@ scoary
 .. _`scoary/tags`: https://quay.io/repository/biocontainers/scoary?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scoary";
+        var versions = ["1.6.16","1.6.16","1.6.16","1.6.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

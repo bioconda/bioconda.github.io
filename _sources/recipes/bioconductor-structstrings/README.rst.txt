@@ -71,10 +71,23 @@ bioconductor-structstrings
 .. _`bioconductor-structstrings/tags`: https://quay.io/repository/biocontainers/bioconductor-structstrings?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-structstrings";
+        var versions = ["1.8.0","1.6.1","1.6.0","1.4.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

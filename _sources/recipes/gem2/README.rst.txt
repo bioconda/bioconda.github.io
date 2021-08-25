@@ -59,10 +59,23 @@ gem2
 .. _`gem2/tags`: https://quay.io/repository/biocontainers/gem2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gem2";
+        var versions = ["20200110","20200110"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

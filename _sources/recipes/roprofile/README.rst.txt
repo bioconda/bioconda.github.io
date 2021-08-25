@@ -64,10 +64,23 @@ roprofile
 .. _`roprofile/tags`: https://quay.io/repository/biocontainers/roprofile?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "roprofile";
+        var versions = ["1.4.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

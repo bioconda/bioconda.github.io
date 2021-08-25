@@ -73,10 +73,23 @@ intarna
 .. _`intarna/tags`: https://quay.io/repository/biocontainers/intarna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "intarna";
+        var versions = ["3.2.0","3.1.5","3.1.3","3.1.2","3.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

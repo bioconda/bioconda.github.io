@@ -61,10 +61,23 @@ perl-math-cdf
 .. _`perl-math-cdf/tags`: https://quay.io/repository/biocontainers/perl-math-cdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-cdf";
+        var versions = ["0.1","0.1","0.1","0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

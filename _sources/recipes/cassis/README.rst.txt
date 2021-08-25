@@ -63,10 +63,23 @@ cassis
 .. _`cassis/tags`: https://quay.io/repository/biocontainers/cassis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cassis";
+        var versions = ["0.0.20120106","0.0.20120106"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ plink
 .. _`plink/tags`: https://quay.io/repository/biocontainers/plink?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plink";
+        var versions = ["1.90b6.21","1.90b6.21","1.90b6.18","1.90b6.18","1.90b6.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

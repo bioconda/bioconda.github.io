@@ -72,10 +72,23 @@ vcontact2
 .. _`vcontact2/tags`: https://quay.io/repository/biocontainers/vcontact2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vcontact2";
+        var versions = ["0.9.19","0.9.18","0.9.17","0.9.16","0.9.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

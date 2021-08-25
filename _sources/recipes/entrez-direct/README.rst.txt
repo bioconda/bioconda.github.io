@@ -83,10 +83,23 @@ entrez-direct
 .. _`entrez-direct/tags`: https://quay.io/repository/biocontainers/entrez-direct?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "entrez-direct";
+        var versions = ["13.9","13.9","13.9","13.8","13.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

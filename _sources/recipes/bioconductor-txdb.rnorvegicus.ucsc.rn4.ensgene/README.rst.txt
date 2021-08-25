@@ -71,10 +71,23 @@ bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene
 .. _`bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene";
+        var versions = ["3.2.2","3.2.2","3.2.2","3.2.2","3.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

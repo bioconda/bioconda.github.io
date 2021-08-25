@@ -84,10 +84,23 @@ nanovar
 .. _`nanovar/tags`: https://quay.io/repository/biocontainers/nanovar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanovar";
+        var versions = ["1.3.9","1.3.9","1.3.8","1.3.8","1.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

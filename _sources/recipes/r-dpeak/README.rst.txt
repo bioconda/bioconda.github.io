@@ -67,10 +67,23 @@ r-dpeak
 .. _`r-dpeak/tags`: https://quay.io/repository/biocontainers/r-dpeak?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-dpeak";
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

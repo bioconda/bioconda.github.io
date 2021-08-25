@@ -61,10 +61,23 @@ collectl
 .. _`collectl/tags`: https://quay.io/repository/biocontainers/collectl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "collectl";
+        var versions = ["4.0.4","4.0.4","4.0.4","4.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

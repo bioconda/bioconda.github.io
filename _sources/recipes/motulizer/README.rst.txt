@@ -66,10 +66,23 @@ motulizer
 .. _`motulizer/tags`: https://quay.io/repository/biocontainers/motulizer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "motulizer";
+        var versions = ["0.3.1","0.3.1","0.3.1","0.2.4","0.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

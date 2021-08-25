@@ -59,10 +59,23 @@ bioconductor-xps
 .. _`bioconductor-xps/tags`: https://quay.io/repository/biocontainers/bioconductor-xps?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-xps";
+        var versions = [];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

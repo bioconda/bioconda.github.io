@@ -69,10 +69,23 @@ bioconductor-jaspar2018
 .. _`bioconductor-jaspar2018/tags`: https://quay.io/repository/biocontainers/bioconductor-jaspar2018?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-jaspar2018";
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,6 +63,13 @@ chromhmm
 .. _`chromhmm/tags`: https://quay.io/repository/biocontainers/chromhmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chromhmm";
+        var versions = ["1.21","1.21","1.20","1.20","1.19"];
+    </script>
+
 
 
 
@@ -71,6 +78,12 @@ Notes
 -----
 ChromHMM comes with about 36MB of example data which is not included in the recipe. This recipe installs a script\, \"download\_chromhmm\_data.sh\"\, which downloads the data in the proper location\, and which can be run after ChromHMM has been installed.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

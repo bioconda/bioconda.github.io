@@ -62,10 +62,23 @@ perl-local-lib
 .. _`perl-local-lib/tags`: https://quay.io/repository/biocontainers/perl-local-lib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-local-lib";
+        var versions = ["2.000024"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

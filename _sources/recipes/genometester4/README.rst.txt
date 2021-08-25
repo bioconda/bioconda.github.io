@@ -61,10 +61,23 @@ genometester4
 .. _`genometester4/tags`: https://quay.io/repository/biocontainers/genometester4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genometester4";
+        var versions = ["4.0","4.0","4.0","4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

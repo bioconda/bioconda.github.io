@@ -68,10 +68,23 @@ bioconductor-pd.pae.g1a
 .. _`bioconductor-pd.pae.g1a/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.pae.g1a?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.pae.g1a";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

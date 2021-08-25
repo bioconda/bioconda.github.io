@@ -63,10 +63,23 @@ bioconductor-hgug4845a.db
 .. _`bioconductor-hgug4845a.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hgug4845a.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hgug4845a.db";
+        var versions = ["0.0.3","0.0.3","0.0.3","0.0.3","0.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

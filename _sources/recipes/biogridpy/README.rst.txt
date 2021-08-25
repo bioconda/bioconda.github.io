@@ -60,10 +60,23 @@ biogridpy
 .. _`biogridpy/tags`: https://quay.io/repository/biocontainers/biogridpy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biogridpy";
+        var versions = ["0.1.1","0.1.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

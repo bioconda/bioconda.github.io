@@ -61,10 +61,23 @@ perl-filesys-df
 .. _`perl-filesys-df/tags`: https://quay.io/repository/biocontainers/perl-filesys-df?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-filesys-df";
+        var versions = ["0.92","0.92","0.92","0.92"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

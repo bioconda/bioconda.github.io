@@ -66,10 +66,23 @@ flexbar
 .. _`flexbar/tags`: https://quay.io/repository/biocontainers/flexbar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "flexbar";
+        var versions = ["3.5.0","3.5.0","3.5.0","3.3.0","2.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

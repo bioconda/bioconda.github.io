@@ -74,10 +74,23 @@ koeken
 .. _`koeken/tags`: https://quay.io/repository/biocontainers/koeken?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "koeken";
+        var versions = ["0.2.6","0.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

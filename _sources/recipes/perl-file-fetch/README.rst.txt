@@ -65,10 +65,23 @@ perl-file-fetch
 .. _`perl-file-fetch/tags`: https://quay.io/repository/biocontainers/perl-file-fetch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-fetch";
+        var versions = ["0.56","0.48","0.48","0.48","0.48"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

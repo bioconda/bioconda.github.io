@@ -61,10 +61,23 @@ perl-import-into
 .. _`perl-import-into/tags`: https://quay.io/repository/biocontainers/perl-import-into?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-import-into";
+        var versions = ["1.002005"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

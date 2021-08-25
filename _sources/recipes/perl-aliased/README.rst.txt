@@ -62,10 +62,23 @@ perl-aliased
 .. _`perl-aliased/tags`: https://quay.io/repository/biocontainers/perl-aliased?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-aliased";
+        var versions = ["0.34","0.34","0.34"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

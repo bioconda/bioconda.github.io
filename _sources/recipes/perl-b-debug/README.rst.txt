@@ -60,10 +60,23 @@ perl-b-debug
 .. _`perl-b-debug/tags`: https://quay.io/repository/biocontainers/perl-b-debug?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-b-debug";
+        var versions = ["1.26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

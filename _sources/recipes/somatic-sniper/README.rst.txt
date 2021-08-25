@@ -60,10 +60,23 @@ somatic-sniper
 .. _`somatic-sniper/tags`: https://quay.io/repository/biocontainers/somatic-sniper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "somatic-sniper";
+        var versions = ["1.0.5.0","1.0.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

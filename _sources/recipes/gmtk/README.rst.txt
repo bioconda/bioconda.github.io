@@ -64,10 +64,23 @@ gmtk
 .. _`gmtk/tags`: https://quay.io/repository/biocontainers/gmtk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gmtk";
+        var versions = ["1.4.4","1.4.4","1.4.4","1.4.4","1.4.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

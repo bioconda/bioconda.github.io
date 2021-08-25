@@ -60,10 +60,23 @@ perl-list-compare
 .. _`perl-list-compare/tags`: https://quay.io/repository/biocontainers/perl-list-compare?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-list-compare";
+        var versions = ["0.53","0.53"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

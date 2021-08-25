@@ -61,10 +61,23 @@ npyscreen
 .. _`npyscreen/tags`: https://quay.io/repository/biocontainers/npyscreen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "npyscreen";
+        var versions = ["4.10.5","4.10.5","4.10.5","4.10.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

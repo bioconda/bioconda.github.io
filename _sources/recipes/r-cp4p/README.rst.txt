@@ -64,10 +64,23 @@ r-cp4p
 .. _`r-cp4p/tags`: https://quay.io/repository/biocontainers/r-cp4p?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-cp4p";
+        var versions = ["0.3.6","0.3.6","0.3.6","0.3.6","0.3.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

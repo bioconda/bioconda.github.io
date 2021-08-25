@@ -73,10 +73,23 @@ python-hyphy-python
 .. _`python-hyphy-python/tags`: https://quay.io/repository/biocontainers/python-hyphy-python?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-hyphy-python";
+        var versions = ["0.1.10","0.1.10","0.1.9","0.1.9","0.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

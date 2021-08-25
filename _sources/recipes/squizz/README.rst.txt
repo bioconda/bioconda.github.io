@@ -60,10 +60,23 @@ squizz
 .. _`squizz/tags`: https://quay.io/repository/biocontainers/squizz?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "squizz";
+        var versions = ["0.99d","0.99d","0.99d","0.99d"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

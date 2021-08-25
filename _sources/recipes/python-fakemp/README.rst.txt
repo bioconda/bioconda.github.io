@@ -60,10 +60,23 @@ python-fakemp
 .. _`python-fakemp/tags`: https://quay.io/repository/biocontainers/python-fakemp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "python-fakemp";
+        var versions = ["0.9.1","0.9.1","0.9.1","0.9.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

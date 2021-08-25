@@ -61,10 +61,23 @@ bioconductor-huex.1.0.st.v2frmavecs
 .. _`bioconductor-huex.1.0.st.v2frmavecs/tags`: https://quay.io/repository/biocontainers/bioconductor-huex.1.0.st.v2frmavecs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-huex.1.0.st.v2frmavecs";
+        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

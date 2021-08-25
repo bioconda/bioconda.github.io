@@ -61,10 +61,23 @@ perl-sereal-decoder
 .. _`perl-sereal-decoder/tags`: https://quay.io/repository/biocontainers/perl-sereal-decoder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sereal-decoder";
+        var versions = ["4.007","4.005","3.015","3.015"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

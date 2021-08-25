@@ -64,10 +64,23 @@ ete2
 .. _`ete2/tags`: https://quay.io/repository/biocontainers/ete2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ete2";
+        var versions = ["2.3.10","2.3.10","2.3.10","2.3.10","2.3.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

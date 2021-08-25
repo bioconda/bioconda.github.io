@@ -65,10 +65,23 @@ bioconductor-apcomplex
 .. _`bioconductor-apcomplex/tags`: https://quay.io/repository/biocontainers/bioconductor-apcomplex?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-apcomplex";
+        var versions = ["2.58.0","2.56.0","2.56.0","2.54.0","2.52.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

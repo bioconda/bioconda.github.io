@@ -78,10 +78,23 @@ kipoiseq
 .. _`kipoiseq/tags`: https://quay.io/repository/biocontainers/kipoiseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kipoiseq";
+        var versions = ["0.6.0","0.5.2","0.4.1","0.3.4","0.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

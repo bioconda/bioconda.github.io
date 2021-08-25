@@ -82,10 +82,23 @@ bioconductor-flowcore
 .. _`bioconductor-flowcore/tags`: https://quay.io/repository/biocontainers/bioconductor-flowcore?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-flowcore";
+        var versions = ["2.4.0","2.2.0","2.2.0","2.2.0","2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

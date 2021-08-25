@@ -61,10 +61,23 @@ sharedmem
 .. _`sharedmem/tags`: https://quay.io/repository/biocontainers/sharedmem?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sharedmem";
+        var versions = ["0.3.6","0.3.5","0.3.5","0.3.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

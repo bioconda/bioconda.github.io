@@ -62,10 +62,23 @@ perl-go-perl
 .. _`perl-go-perl/tags`: https://quay.io/repository/biocontainers/perl-go-perl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-go-perl";
+        var versions = ["0.15","0.15","0.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

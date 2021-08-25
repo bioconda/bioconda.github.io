@@ -66,10 +66,23 @@ isocor
 .. _`isocor/tags`: https://quay.io/repository/biocontainers/isocor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "isocor";
+        var versions = ["2.2.0","2.1.4","2.1.3","2.1.2","2.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

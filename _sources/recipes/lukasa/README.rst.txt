@@ -66,10 +66,23 @@ lukasa
 .. _`lukasa/tags`: https://quay.io/repository/biocontainers/lukasa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lukasa";
+        var versions = ["0.0.7","0.0.7","0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -78,10 +78,23 @@ nanocomp
 .. _`nanocomp/tags`: https://quay.io/repository/biocontainers/nanocomp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanocomp";
+        var versions = ["1.15.0","1.14.1","1.13.1","1.13.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

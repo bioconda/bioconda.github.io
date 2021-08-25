@@ -61,10 +61,23 @@ bioconductor-geneplast.data.string.v91
 .. _`bioconductor-geneplast.data.string.v91/tags`: https://quay.io/repository/biocontainers/bioconductor-geneplast.data.string.v91?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-geneplast.data.string.v91";
+        var versions = ["0.99.6","0.99.6","0.99.6","0.99.6","0.99.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

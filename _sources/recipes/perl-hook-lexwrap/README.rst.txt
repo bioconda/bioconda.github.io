@@ -61,10 +61,23 @@ perl-hook-lexwrap
 .. _`perl-hook-lexwrap/tags`: https://quay.io/repository/biocontainers/perl-hook-lexwrap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-hook-lexwrap";
+        var versions = ["0.26","0.26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

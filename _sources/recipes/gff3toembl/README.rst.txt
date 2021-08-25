@@ -62,10 +62,23 @@ gff3toembl
 .. _`gff3toembl/tags`: https://quay.io/repository/biocontainers/gff3toembl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gff3toembl";
+        var versions = ["1.1.4","1.1.4","1.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

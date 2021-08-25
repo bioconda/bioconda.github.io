@@ -63,10 +63,23 @@ appspam
 .. _`appspam/tags`: https://quay.io/repository/biocontainers/appspam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "appspam";
+        var versions = ["1.03","1.03","1.02","1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

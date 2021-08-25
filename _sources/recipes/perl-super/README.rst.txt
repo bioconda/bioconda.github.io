@@ -62,10 +62,23 @@ perl-super
 .. _`perl-super/tags`: https://quay.io/repository/biocontainers/perl-super?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-super";
+        var versions = ["1.20190531","1.20141117","1.20141117"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

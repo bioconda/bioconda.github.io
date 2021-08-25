@@ -61,10 +61,23 @@ jobtree
 .. _`jobtree/tags`: https://quay.io/repository/biocontainers/jobtree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jobtree";
+        var versions = ["09.04.2017","3.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

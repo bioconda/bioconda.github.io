@@ -72,10 +72,23 @@ maaslin
 .. _`maaslin/tags`: https://quay.io/repository/biocontainers/maaslin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "maaslin";
+        var versions = ["0.05","0.04","0.04","0.0.5","0.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

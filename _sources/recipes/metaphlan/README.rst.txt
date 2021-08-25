@@ -89,10 +89,23 @@ metaphlan
 .. _`metaphlan/tags`: https://quay.io/repository/biocontainers/metaphlan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metaphlan";
+        var versions = ["3.0.13","3.0.12","3.0.11","3.0.10","3.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

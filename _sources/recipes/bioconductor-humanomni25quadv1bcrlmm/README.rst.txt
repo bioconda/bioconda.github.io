@@ -61,10 +61,23 @@ bioconductor-humanomni25quadv1bcrlmm
 .. _`bioconductor-humanomni25quadv1bcrlmm/tags`: https://quay.io/repository/biocontainers/bioconductor-humanomni25quadv1bcrlmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-humanomni25quadv1bcrlmm";
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

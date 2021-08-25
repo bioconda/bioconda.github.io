@@ -62,10 +62,23 @@ feature_merge
 .. _`feature_merge/tags`: https://quay.io/repository/biocontainers/feature_merge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "feature_merge";
+        var versions = ["1.3.0","1.2.1","1.2.1","1.1.0","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ tin-score-calculation
 .. _`tin-score-calculation/tags`: https://quay.io/repository/biocontainers/tin-score-calculation?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tin-score-calculation";
+        var versions = ["0.6.0","0.5.1","0.5","0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

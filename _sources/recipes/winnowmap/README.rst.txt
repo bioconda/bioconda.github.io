@@ -65,10 +65,23 @@ winnowmap
 .. _`winnowmap/tags`: https://quay.io/repository/biocontainers/winnowmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "winnowmap";
+        var versions = ["2.03","2.02","2.01","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

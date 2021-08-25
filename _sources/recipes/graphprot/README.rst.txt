@@ -72,10 +72,23 @@ graphprot
 .. _`graphprot/tags`: https://quay.io/repository/biocontainers/graphprot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "graphprot";
+        var versions = ["1.1.7","1.1.7","1.1.7","1.1.7","1.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

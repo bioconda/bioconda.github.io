@@ -67,10 +67,23 @@ mavenn
 .. _`mavenn/tags`: https://quay.io/repository/biocontainers/mavenn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mavenn";
+        var versions = ["0.25","0.24","0.23","0.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

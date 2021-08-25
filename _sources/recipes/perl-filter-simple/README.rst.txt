@@ -60,10 +60,23 @@ perl-filter-simple
 .. _`perl-filter-simple/tags`: https://quay.io/repository/biocontainers/perl-filter-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-filter-simple";
+        var versions = ["0.91","0.91"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

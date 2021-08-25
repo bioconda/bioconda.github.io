@@ -65,10 +65,23 @@ perl-archive-extract
 .. _`perl-archive-extract/tags`: https://quay.io/repository/biocontainers/perl-archive-extract?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-archive-extract";
+        var versions = ["0.80","0.76","0.76","0.76","0.76"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

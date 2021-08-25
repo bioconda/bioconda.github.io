@@ -65,10 +65,23 @@ perl-moosex-role-parameterized
 .. _`perl-moosex-role-parameterized/tags`: https://quay.io/repository/biocontainers/perl-moosex-role-parameterized?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-role-parameterized";
+        var versions = ["1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

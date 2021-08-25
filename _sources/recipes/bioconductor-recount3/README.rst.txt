@@ -70,10 +70,23 @@ bioconductor-recount3
 .. _`bioconductor-recount3/tags`: https://quay.io/repository/biocontainers/bioconductor-recount3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-recount3";
+        var versions = ["1.2.1","1.0.7","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

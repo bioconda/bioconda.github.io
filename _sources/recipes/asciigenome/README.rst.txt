@@ -69,10 +69,23 @@ asciigenome
 .. _`asciigenome/tags`: https://quay.io/repository/biocontainers/asciigenome?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "asciigenome";
+        var versions = ["1.16.0","1.16.0","1.15.0","1.14.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

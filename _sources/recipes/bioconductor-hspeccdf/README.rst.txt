@@ -62,10 +62,23 @@ bioconductor-hspeccdf
 .. _`bioconductor-hspeccdf/tags`: https://quay.io/repository/biocontainers/bioconductor-hspeccdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hspeccdf";
+        var versions = ["0.99.1","0.99.1","0.99.1","0.99.1","0.99.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

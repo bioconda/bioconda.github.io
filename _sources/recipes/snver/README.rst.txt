@@ -65,6 +65,13 @@ snver
 .. _`snver/tags`: https://quay.io/repository/biocontainers/snver?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snver";
+        var versions = ["0.5.3","0.5.3"];
+    </script>
+
 
 
 
@@ -78,6 +85,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"snver \-Xms512m \-Xmx1g\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

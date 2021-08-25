@@ -62,10 +62,23 @@ perl-html-treebuilder-xpath
 .. _`perl-html-treebuilder-xpath/tags`: https://quay.io/repository/biocontainers/perl-html-treebuilder-xpath?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-treebuilder-xpath";
+        var versions = ["0.14","0.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

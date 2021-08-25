@@ -61,10 +61,23 @@ reaper
 .. _`reaper/tags`: https://quay.io/repository/biocontainers/reaper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "reaper";
+        var versions = ["16.098","16.098","16.098","16.098"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

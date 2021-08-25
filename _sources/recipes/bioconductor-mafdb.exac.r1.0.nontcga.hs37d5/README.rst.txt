@@ -67,10 +67,23 @@ bioconductor-mafdb.exac.r1.0.nontcga.hs37d5
 .. _`bioconductor-mafdb.exac.r1.0.nontcga.hs37d5/tags`: https://quay.io/repository/biocontainers/bioconductor-mafdb.exac.r1.0.nontcga.hs37d5?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mafdb.exac.r1.0.nontcga.hs37d5";
+        var versions = ["3.10.0","3.10.0","3.10.0","3.10.0","3.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

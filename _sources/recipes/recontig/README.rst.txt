@@ -64,10 +64,23 @@ recontig
 .. _`recontig/tags`: https://quay.io/repository/biocontainers/recontig?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "recontig";
+        var versions = ["1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

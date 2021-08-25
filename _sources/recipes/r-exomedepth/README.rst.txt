@@ -73,10 +73,23 @@ r-exomedepth
 .. _`r-exomedepth/tags`: https://quay.io/repository/biocontainers/r-exomedepth?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-exomedepth";
+        var versions = ["1.1.15","1.1.15","1.1.15","1.1.15","1.1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

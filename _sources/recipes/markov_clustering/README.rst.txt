@@ -62,10 +62,23 @@ markov_clustering
 .. _`markov_clustering/tags`: https://quay.io/repository/biocontainers/markov_clustering?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "markov_clustering";
+        var versions = ["0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

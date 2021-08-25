@@ -65,10 +65,23 @@ gretel
 .. _`gretel/tags`: https://quay.io/repository/biocontainers/gretel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gretel";
+        var versions = ["0.0.94","0.0.94","0.0.93","0.0.93","0.0.92"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

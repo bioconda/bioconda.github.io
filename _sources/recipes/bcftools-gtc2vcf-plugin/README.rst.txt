@@ -66,10 +66,23 @@ bcftools-gtc2vcf-plugin
 .. _`bcftools-gtc2vcf-plugin/tags`: https://quay.io/repository/biocontainers/bcftools-gtc2vcf-plugin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bcftools-gtc2vcf-plugin";
+        var versions = ["1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

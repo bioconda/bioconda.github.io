@@ -72,10 +72,23 @@ pymzml
 .. _`pymzml/tags`: https://quay.io/repository/biocontainers/pymzml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pymzml";
+        var versions = ["2.4.7","2.4.6","2.4.5","2.4.4","2.4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

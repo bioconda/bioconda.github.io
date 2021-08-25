@@ -63,10 +63,23 @@ pyjaspar
 .. _`pyjaspar/tags`: https://quay.io/repository/biocontainers/pyjaspar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyjaspar";
+        var versions = ["1.6.0","1.5.5","1.5.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

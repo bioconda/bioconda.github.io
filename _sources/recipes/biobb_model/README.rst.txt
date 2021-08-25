@@ -95,10 +95,23 @@ biobb_model
 .. _`biobb_model/tags`: https://quay.io/repository/biocontainers/biobb_model?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biobb_model";
+        var versions = ["3.6.0","3.5.1","3.5.1","3.5.0","3.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

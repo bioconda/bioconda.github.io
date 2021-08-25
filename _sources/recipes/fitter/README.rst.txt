@@ -64,10 +64,23 @@ fitter
 .. _`fitter/tags`: https://quay.io/repository/biocontainers/fitter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fitter";
+        var versions = ["1.2.3","1.2.1","1.2.0","1.1.11","1.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

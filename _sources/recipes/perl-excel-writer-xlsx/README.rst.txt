@@ -62,10 +62,23 @@ perl-excel-writer-xlsx
 .. _`perl-excel-writer-xlsx/tags`: https://quay.io/repository/biocontainers/perl-excel-writer-xlsx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-excel-writer-xlsx";
+        var versions = ["1.00","0.98","0.95","0.95"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-compress-bgzf
 .. _`perl-compress-bgzf/tags`: https://quay.io/repository/biocontainers/perl-compress-bgzf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-compress-bgzf";
+        var versions = ["0.005"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

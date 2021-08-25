@@ -71,10 +71,23 @@ fusion-filter
 .. _`fusion-filter/tags`: https://quay.io/repository/biocontainers/fusion-filter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fusion-filter";
+        var versions = ["0.5.0","0.5.0","0.5.0","0.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

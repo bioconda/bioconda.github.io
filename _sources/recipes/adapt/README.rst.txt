@@ -64,10 +64,23 @@ adapt
 .. _`adapt/tags`: https://quay.io/repository/biocontainers/adapt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "adapt";
+        var versions = ["1.3.0","1.3.0","1.2.0","1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

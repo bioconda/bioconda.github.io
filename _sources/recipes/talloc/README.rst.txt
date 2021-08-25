@@ -59,10 +59,23 @@ talloc
 .. _`talloc/tags`: https://quay.io/repository/biocontainers/talloc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "talloc";
+        var versions = ["2.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

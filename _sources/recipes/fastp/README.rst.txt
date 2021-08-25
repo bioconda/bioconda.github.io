@@ -70,10 +70,23 @@ fastp
 .. _`fastp/tags`: https://quay.io/repository/biocontainers/fastp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastp";
+        var versions = ["0.22.0","0.20.1","0.20.1","0.20.0","0.19.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

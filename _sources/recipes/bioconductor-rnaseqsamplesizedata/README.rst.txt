@@ -70,10 +70,23 @@ bioconductor-rnaseqsamplesizedata
 .. _`bioconductor-rnaseqsamplesizedata/tags`: https://quay.io/repository/biocontainers/bioconductor-rnaseqsamplesizedata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rnaseqsamplesizedata";
+        var versions = ["1.24.0","1.22.0","1.22.0","1.21.2","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

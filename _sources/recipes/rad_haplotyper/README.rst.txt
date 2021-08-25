@@ -74,10 +74,23 @@ rad_haplotyper
 .. _`rad_haplotyper/tags`: https://quay.io/repository/biocontainers/rad_haplotyper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rad_haplotyper";
+        var versions = ["1.1.9","1.1.9","1.1.9","1.1.9","1.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

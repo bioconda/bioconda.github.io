@@ -63,10 +63,23 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
 .. _`bioconductor-bsgenome.mmusculus.ucsc.mm10.masked/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.mmusculus.ucsc.mm10.masked?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.mmusculus.ucsc.mm10.masked";
+        var versions = ["1.3.99","1.3.99","1.3.99","1.3.99","1.3.99"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

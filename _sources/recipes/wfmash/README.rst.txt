@@ -64,10 +64,23 @@ wfmash
 .. _`wfmash/tags`: https://quay.io/repository/biocontainers/wfmash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wfmash";
+        var versions = ["0.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

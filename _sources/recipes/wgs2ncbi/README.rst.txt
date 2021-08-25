@@ -62,10 +62,23 @@ wgs2ncbi
 .. _`wgs2ncbi/tags`: https://quay.io/repository/biocontainers/wgs2ncbi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wgs2ncbi";
+        var versions = ["1.1.2","1.1.2","1.0.3","1.0.3","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

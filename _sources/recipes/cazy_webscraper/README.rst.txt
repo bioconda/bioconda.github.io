@@ -71,10 +71,23 @@ cazy_webscraper
 .. _`cazy_webscraper/tags`: https://quay.io/repository/biocontainers/cazy_webscraper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cazy_webscraper";
+        var versions = ["1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

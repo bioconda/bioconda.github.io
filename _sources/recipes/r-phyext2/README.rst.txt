@@ -62,10 +62,23 @@ r-phyext2
 .. _`r-phyext2/tags`: https://quay.io/repository/biocontainers/r-phyext2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-phyext2";
+        var versions = ["0.0.4","0.0.4","0.0.4","0.0.4","0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ bioconductor-cghregions
 .. _`bioconductor-cghregions/tags`: https://quay.io/repository/biocontainers/bioconductor-cghregions?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cghregions";
+        var versions = ["1.50.0","1.48.0","1.48.0","1.46.0","1.44.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

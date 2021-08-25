@@ -63,10 +63,23 @@ bicseq2-norm
 .. _`bicseq2-norm/tags`: https://quay.io/repository/biocontainers/bicseq2-norm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bicseq2-norm";
+        var versions = ["0.2.4","0.2.4","0.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

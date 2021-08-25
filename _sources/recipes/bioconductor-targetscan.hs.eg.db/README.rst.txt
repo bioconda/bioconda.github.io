@@ -62,10 +62,23 @@ bioconductor-targetscan.hs.eg.db
 .. _`bioconductor-targetscan.hs.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-targetscan.hs.eg.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-targetscan.hs.eg.db";
+        var versions = ["0.6.1","0.6.1","0.6.1","0.6.1","0.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

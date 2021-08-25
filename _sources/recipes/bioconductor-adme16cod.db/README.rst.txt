@@ -63,10 +63,23 @@ bioconductor-adme16cod.db
 .. _`bioconductor-adme16cod.db/tags`: https://quay.io/repository/biocontainers/bioconductor-adme16cod.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-adme16cod.db";
+        var versions = ["3.4.0","3.4.0","3.4.0","3.4.0","3.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

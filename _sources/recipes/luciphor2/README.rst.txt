@@ -60,6 +60,13 @@ luciphor2
 .. _`luciphor2/tags`: https://quay.io/repository/biocontainers/luciphor2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "luciphor2";
+        var versions = ["2020_04_03","2020_04_03","2018_06_28","2018_06_28"];
+    </script>
+
 
 
 
@@ -73,6 +80,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run with \"luciphor \-Xms512m \-Xmx1g\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

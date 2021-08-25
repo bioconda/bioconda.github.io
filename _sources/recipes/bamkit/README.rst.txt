@@ -61,10 +61,23 @@ bamkit
 .. _`bamkit/tags`: https://quay.io/repository/biocontainers/bamkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bamkit";
+        var versions = ["16.07.26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-io-html
 .. _`perl-io-html/tags`: https://quay.io/repository/biocontainers/perl-io-html?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-html";
+        var versions = ["1.001","1.001","1.001"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

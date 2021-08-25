@@ -80,10 +80,23 @@ r-aroma.affymetrix
 .. _`r-aroma.affymetrix/tags`: https://quay.io/repository/biocontainers/r-aroma.affymetrix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-aroma.affymetrix";
+        var versions = ["3.2.0","3.2.0","3.2.0","3.2.0","3.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

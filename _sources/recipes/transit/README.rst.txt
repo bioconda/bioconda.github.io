@@ -78,10 +78,23 @@ transit
 .. _`transit/tags`: https://quay.io/repository/biocontainers/transit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "transit";
+        var versions = ["3.2.1","3.2.0","3.1.0","3.0.2","3.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

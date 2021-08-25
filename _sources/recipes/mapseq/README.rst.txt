@@ -70,10 +70,23 @@ mapseq
 .. _`mapseq/tags`: https://quay.io/repository/biocontainers/mapseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mapseq";
+        var versions = ["1.2.6","1.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

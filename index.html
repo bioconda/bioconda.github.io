@@ -16,6 +16,9 @@
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/vega.min.js"></script>
+    <script src="_static/vega-lite.min.js"></script>
+    <script src="_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="User Docs" href="user/index.html" />
@@ -136,6 +139,61 @@ Registry</a>.</p>
 <li><p>Nov 2017: Bioconda has been acknowledged by NATURE in their <a class="reference external" href="http://blogs.nature.com/naturejobs/2017/11/03/techblog-bioconda-promises-to-ease-bioinformatics-software-installation-woes">technology blog</a>.</p></li>
 </ul>
 </section>
+<section id="stats">
+<h1>Stats<a class="headerlink" href="#stats" title="Permalink to this headline">¶</a></h1>
+<div style="width: 100%" id="download_plot"></div>
+<div style="width: 100%" id="package_plot"></div>
+
+<script>
+window.onload = function() {
+    // Download download plot data
+    $.get( "https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda.json", function( data ) {
+    data = JSON.parse(data);
+    let bioconda_data = data["downloads_per_date"].slice(-30);
+
+    let spec = {
+       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+       "description": "Total bioconda downloads.",
+       "data": {"values": []},
+       "width": "container",
+       "mark": "line",
+       "encoding": {
+         "y": {"field": "total", "type": "quantitative", "title": "total downloads", "scale": {"domain": []}},
+         "x": {"field": "date", "timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+         "color": {"value": "#43AF4E"},
+         "tooltip": {"field": "total"}
+       }
+    };
+
+    spec.data.values = bioconda_data;
+    spec.encoding.y.scale.domain = [bioconda_data[0].total - 1000, bioconda_data[bioconda_data.length - 1].total + 1000];
+    vegaEmbed('#download_plot', spec);
+    });
+
+    // Download download plot data
+    $.get( "https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda.json", function( p_data ) {
+    p_data = JSON.parse(p_data);
+    let package_data = p_data["downloads_per_package"].slice(-10);
+
+    let package_spec = {
+       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+       "description": "Top downloaded packages.",
+       "data": {"values": []},
+       "width": "container",
+       "mark": "bar",
+       "encoding": {
+         "x": {"field": "total", "type": "quantitative", "title": "total downloads"},
+         "y": {"field": "package", "sort":"-x", "type":"nominal", "title": "package"},
+         "color": {"value": "#43AF4E"},
+         "tooltip": {"field": "total"}
+       }
+    };
+
+    package_spec.data.values = package_data;
+    vegaEmbed('#package_plot', package_spec);
+    });
+}
+</script></section>
 <section id="citing-bioconda">
 <h1>Citing Bioconda<a class="headerlink" href="#citing-bioconda" title="Permalink to this headline">¶</a></h1>
 <p>When using Bioconda please <strong>cite our article</strong>:</p>

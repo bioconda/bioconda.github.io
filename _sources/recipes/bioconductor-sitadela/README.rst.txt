@@ -72,10 +72,23 @@ bioconductor-sitadela
 .. _`bioconductor-sitadela/tags`: https://quay.io/repository/biocontainers/bioconductor-sitadela?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sitadela";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

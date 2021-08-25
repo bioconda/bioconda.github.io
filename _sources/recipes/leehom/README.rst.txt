@@ -65,10 +65,23 @@ leehom
 .. _`leehom/tags`: https://quay.io/repository/biocontainers/leehom?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "leehom";
+        var versions = ["1.2.15","1.2.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

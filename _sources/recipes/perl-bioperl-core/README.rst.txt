@@ -91,10 +91,23 @@ perl-bioperl-core
 .. _`perl-bioperl-core/tags`: https://quay.io/repository/biocontainers/perl-bioperl-core?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bioperl-core";
+        var versions = ["1.007002","1.007002","1.007002","1.007002","1.7.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -82,10 +82,23 @@ isatools
 .. _`isatools/tags`: https://quay.io/repository/biocontainers/isatools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "isatools";
+        var versions = ["0.12.2","0.12.1","0.12.0","0.11.0","0.10.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

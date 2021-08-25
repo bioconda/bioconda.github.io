@@ -64,10 +64,23 @@ perl-mixin-linewise
 .. _`perl-mixin-linewise/tags`: https://quay.io/repository/biocontainers/perl-mixin-linewise?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mixin-linewise";
+        var versions = ["0.108","0.108","0.108"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

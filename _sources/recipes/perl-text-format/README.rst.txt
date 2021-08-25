@@ -60,10 +60,23 @@ perl-text-format
 .. _`perl-text-format/tags`: https://quay.io/repository/biocontainers/perl-text-format?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-format";
+        var versions = ["0.59","0.59","0.59"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

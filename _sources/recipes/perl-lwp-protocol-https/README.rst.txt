@@ -65,10 +65,23 @@ perl-lwp-protocol-https
 .. _`perl-lwp-protocol-https/tags`: https://quay.io/repository/biocontainers/perl-lwp-protocol-https?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-lwp-protocol-https";
+        var versions = ["6.07","6.06","6.06","6.06","6.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

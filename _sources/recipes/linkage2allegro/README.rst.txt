@@ -60,10 +60,23 @@ linkage2allegro
 .. _`linkage2allegro/tags`: https://quay.io/repository/biocontainers/linkage2allegro?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "linkage2allegro";
+        var versions = ["2017.3","2017.3","2017.2","2017.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

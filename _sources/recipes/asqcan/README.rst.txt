@@ -67,10 +67,23 @@ asqcan
 .. _`asqcan/tags`: https://quay.io/repository/biocontainers/asqcan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "asqcan";
+        var versions = ["0.2","0.2","0.2","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ checkqc
 .. _`checkqc/tags`: https://quay.io/repository/biocontainers/checkqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "checkqc";
+        var versions = ["3.6.5","3.6.4","3.6.3","3.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

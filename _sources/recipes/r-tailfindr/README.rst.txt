@@ -87,10 +87,23 @@ r-tailfindr
 .. _`r-tailfindr/tags`: https://quay.io/repository/biocontainers/r-tailfindr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-tailfindr";
+        var versions = ["1.3","1.2","1.2","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

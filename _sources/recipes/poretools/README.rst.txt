@@ -73,10 +73,23 @@ poretools
 .. _`poretools/tags`: https://quay.io/repository/biocontainers/poretools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "poretools";
+        var versions = ["0.6.1a1","0.6.1a1","0.6.1a1","0.6.1a1","0.6.1a1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

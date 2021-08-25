@@ -75,10 +75,23 @@ bioconductor-visse
 .. _`bioconductor-visse/tags`: https://quay.io/repository/biocontainers/bioconductor-visse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-visse";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

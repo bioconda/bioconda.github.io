@@ -71,10 +71,23 @@ mappy
 .. _`mappy/tags`: https://quay.io/repository/biocontainers/mappy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mappy";
+        var versions = ["2.22","2.21","2.17","2.17","2.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

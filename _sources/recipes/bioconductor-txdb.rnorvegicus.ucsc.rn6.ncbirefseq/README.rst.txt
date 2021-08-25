@@ -63,10 +63,23 @@ bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq
 .. _`bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq";
+        var versions = ["3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

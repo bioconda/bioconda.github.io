@@ -62,10 +62,23 @@ perl-statistics-ttest
 .. _`perl-statistics-ttest/tags`: https://quay.io/repository/biocontainers/perl-statistics-ttest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-statistics-ttest";
+        var versions = ["1.1","1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

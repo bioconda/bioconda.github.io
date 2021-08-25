@@ -78,10 +78,23 @@ bioconductor-decomptumor2sig
 .. _`bioconductor-decomptumor2sig/tags`: https://quay.io/repository/biocontainers/bioconductor-decomptumor2sig?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-decomptumor2sig";
+        var versions = ["2.8.0","2.6.0","2.6.0","2.4.0","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

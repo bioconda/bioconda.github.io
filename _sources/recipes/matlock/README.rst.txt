@@ -65,10 +65,23 @@ matlock
 .. _`matlock/tags`: https://quay.io/repository/biocontainers/matlock?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "matlock";
+        var versions = ["20181227","20181227","20181227"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

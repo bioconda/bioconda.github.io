@@ -74,10 +74,23 @@ metabinner
 .. _`metabinner/tags`: https://quay.io/repository/biocontainers/metabinner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metabinner";
+        var versions = ["1.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -29,7 +29,7 @@ polystest
       
       
 
-      ``1.1-1``,  ``1.01-1``,  ``1.1-0``,  ``1.01-0``
+      ``1.1-1``,  ``1.01-1``,  ``1.01-0``,  ``1.1-0``
 
       
 
@@ -77,6 +77,13 @@ polystest
 .. _`polystest/tags`: https://quay.io/repository/biocontainers/polystest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "polystest";
+        var versions = ["1.1","1.01","1.01","1.1"];
+    </script>
+
 
 
 
@@ -86,6 +93,12 @@ Notes
 PolySTest is available as shiny app via run\_polystest\_app.R or as command\-line tool\: runPolySTestCLI.R
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

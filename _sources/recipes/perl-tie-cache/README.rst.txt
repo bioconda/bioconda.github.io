@@ -60,10 +60,23 @@ perl-tie-cache
 .. _`perl-tie-cache/tags`: https://quay.io/repository/biocontainers/perl-tie-cache?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tie-cache";
+        var versions = ["0.21","0.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ cdk-inchi-to-svg
 .. _`cdk-inchi-to-svg/tags`: https://quay.io/repository/biocontainers/cdk-inchi-to-svg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cdk-inchi-to-svg";
+        var versions = ["0.9","0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

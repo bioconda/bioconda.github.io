@@ -63,10 +63,23 @@ purple-bio
 .. _`purple-bio/tags`: https://quay.io/repository/biocontainers/purple-bio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "purple-bio";
+        var versions = ["0.4.2.5","0.4.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

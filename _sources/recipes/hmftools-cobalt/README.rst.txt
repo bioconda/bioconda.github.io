@@ -61,10 +61,23 @@ hmftools-cobalt
 .. _`hmftools-cobalt/tags`: https://quay.io/repository/biocontainers/hmftools-cobalt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmftools-cobalt";
+        var versions = ["1.11","1.11","1.10","1.9","1.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ r-loomr
 .. _`r-loomr/tags`: https://quay.io/repository/biocontainers/r-loomr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-loomr";
+        var versions = ["0.2.0_beta","0.2.0_beta","0.2.0_beta","0.2.0_beta"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

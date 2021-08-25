@@ -82,10 +82,23 @@ bioconductor-omnipathr
 .. _`bioconductor-omnipathr/tags`: https://quay.io/repository/biocontainers/bioconductor-omnipathr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-omnipathr";
+        var versions = ["3.0.0","2.0.0","2.0.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

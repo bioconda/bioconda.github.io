@@ -62,10 +62,23 @@ metavelvet-sl-feature-extraction
 .. _`metavelvet-sl-feature-extraction/tags`: https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metavelvet-sl-feature-extraction";
+        var versions = ["1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

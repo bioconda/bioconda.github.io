@@ -63,10 +63,23 @@ bioconductor-mwgcod.db
 .. _`bioconductor-mwgcod.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mwgcod.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mwgcod.db";
+        var versions = ["3.4.0","3.4.0","3.4.0","3.4.0","3.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

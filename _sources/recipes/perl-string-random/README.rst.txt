@@ -63,10 +63,23 @@ perl-string-random
 .. _`perl-string-random/tags`: https://quay.io/repository/biocontainers/perl-string-random?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-string-random";
+        var versions = ["0.30","0.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

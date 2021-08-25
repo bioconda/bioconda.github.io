@@ -76,10 +76,23 @@ perl-bio-mlst-check
 .. _`perl-bio-mlst-check/tags`: https://quay.io/repository/biocontainers/perl-bio-mlst-check?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-mlst-check";
+        var versions = ["2.1.1706216","2.1.1706216","2.1.1706216"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

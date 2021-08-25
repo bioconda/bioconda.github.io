@@ -107,10 +107,23 @@ pypgatk
 .. _`pypgatk/tags`: https://quay.io/repository/biocontainers/pypgatk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pypgatk";
+        var versions = ["0.0.19","0.0.18","0.0.17","0.0.16","0.0.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ perl-dbd-mysql
 .. _`perl-dbd-mysql/tags`: https://quay.io/repository/biocontainers/perl-dbd-mysql?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-dbd-mysql";
+        var versions = ["4.046","4.046","4.033","4.033","4.033"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ pispino
 .. _`pispino/tags`: https://quay.io/repository/biocontainers/pispino?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pispino";
+        var versions = ["1.1","1.1","1.1","1.1","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

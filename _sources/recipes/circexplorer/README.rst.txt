@@ -62,10 +62,23 @@ circexplorer
 .. _`circexplorer/tags`: https://quay.io/repository/biocontainers/circexplorer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "circexplorer";
+        var versions = ["1.1.10","1.1.10","1.1.10","1.1.10","1.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ netcdf-metadata-info
 .. _`netcdf-metadata-info/tags`: https://quay.io/repository/biocontainers/netcdf-metadata-info?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "netcdf-metadata-info";
+        var versions = ["1.1.6","1.1.6","1.1.6","1.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

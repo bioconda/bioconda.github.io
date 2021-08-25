@@ -59,10 +59,23 @@ pisces
 .. _`pisces/tags`: https://quay.io/repository/biocontainers/pisces?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pisces";
+        var versions = ["5.2.10.49","5.2.10.49","5.2.9.122","5.2.7.47","5.2.7.47"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

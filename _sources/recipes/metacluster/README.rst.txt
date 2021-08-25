@@ -66,10 +66,23 @@ metacluster
 .. _`metacluster/tags`: https://quay.io/repository/biocontainers/metacluster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metacluster";
+        var versions = ["5.1","5.1","5.1","5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

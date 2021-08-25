@@ -61,10 +61,23 @@ kraken-biom
 .. _`kraken-biom/tags`: https://quay.io/repository/biocontainers/kraken-biom?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kraken-biom";
+        var versions = ["1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

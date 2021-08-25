@@ -60,10 +60,23 @@ perl-path-tiny
 .. _`perl-path-tiny/tags`: https://quay.io/repository/biocontainers/perl-path-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-path-tiny";
+        var versions = ["0.108","0.082","0.082","0.082","0.076"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

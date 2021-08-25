@@ -66,10 +66,23 @@ cfm
 .. _`cfm/tags`: https://quay.io/repository/biocontainers/cfm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cfm";
+        var versions = ["33","33","33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

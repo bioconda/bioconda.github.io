@@ -63,10 +63,23 @@ f5c
 .. _`f5c/tags`: https://quay.io/repository/biocontainers/f5c?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "f5c";
+        var versions = ["0.7","0.6","0.6","0.6","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

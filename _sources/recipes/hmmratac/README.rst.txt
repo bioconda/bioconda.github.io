@@ -62,10 +62,23 @@ hmmratac
 .. _`hmmratac/tags`: https://quay.io/repository/biocontainers/hmmratac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmmratac";
+        var versions = ["1.2.10","1.2.10","1.2.9","1.2.8","1.2.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

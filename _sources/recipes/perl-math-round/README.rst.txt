@@ -60,10 +60,23 @@ perl-math-round
 .. _`perl-math-round/tags`: https://quay.io/repository/biocontainers/perl-math-round?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-round";
+        var versions = ["0.07","0.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -81,10 +81,23 @@ minvar
 .. _`minvar/tags`: https://quay.io/repository/biocontainers/minvar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "minvar";
+        var versions = ["2.2.2","2.2.2","2.2.1","2.2","2.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

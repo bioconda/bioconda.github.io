@@ -79,10 +79,23 @@ bioconductor-mofa2
 .. _`bioconductor-mofa2/tags`: https://quay.io/repository/biocontainers/bioconductor-mofa2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mofa2";
+        var versions = ["1.2.0","1.0.1","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-data-dump
 .. _`perl-data-dump/tags`: https://quay.io/repository/biocontainers/perl-data-dump?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-dump";
+        var versions = ["1.23","1.23","1.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ perl-sub-exporter-formethods
 .. _`perl-sub-exporter-formethods/tags`: https://quay.io/repository/biocontainers/perl-sub-exporter-formethods?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sub-exporter-formethods";
+        var versions = ["0.100052","0.100052"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

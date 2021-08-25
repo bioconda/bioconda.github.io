@@ -65,10 +65,23 @@ bioconductor-rforproteomics
 .. _`bioconductor-rforproteomics/tags`: https://quay.io/repository/biocontainers/bioconductor-rforproteomics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rforproteomics";
+        var versions = ["1.30.0","1.28.1","1.27.1","1.26.0","1.23.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

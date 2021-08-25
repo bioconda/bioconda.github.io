@@ -67,10 +67,23 @@ r-interpretmsspectrum
 .. _`r-interpretmsspectrum/tags`: https://quay.io/repository/biocontainers/r-interpretmsspectrum?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-interpretmsspectrum";
+        var versions = ["1.2","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

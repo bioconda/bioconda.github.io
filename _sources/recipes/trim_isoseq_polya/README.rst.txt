@@ -63,10 +63,23 @@ trim_isoseq_polya
 .. _`trim_isoseq_polya/tags`: https://quay.io/repository/biocontainers/trim_isoseq_polya?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trim_isoseq_polya";
+        var versions = ["0.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

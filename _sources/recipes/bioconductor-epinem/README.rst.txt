@@ -72,10 +72,23 @@ bioconductor-epinem
 .. _`bioconductor-epinem/tags`: https://quay.io/repository/biocontainers/bioconductor-epinem?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-epinem";
+        var versions = ["1.16.0","1.14.1","1.14.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

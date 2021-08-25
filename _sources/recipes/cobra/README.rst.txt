@@ -83,10 +83,23 @@ cobra
 .. _`cobra/tags`: https://quay.io/repository/biocontainers/cobra?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cobra";
+        var versions = ["0.21.0","0.21.0","0.20.0","0.19.0","0.18.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

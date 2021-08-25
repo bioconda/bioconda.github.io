@@ -100,6 +100,13 @@ braker2
 .. _`braker2/tags`: https://quay.io/repository/biocontainers/braker2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "braker2";
+        var versions = ["2.1.6","2.1.6","2.1.6","2.1.6","2.1.6"];
+    </script>
+
 
 
 
@@ -110,6 +117,12 @@ Notes
 
 - ProtHint software can be used for free\, but doesn\'t allow redistribution and should be additionally installed on the machine where the BRAKER2 environment is.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

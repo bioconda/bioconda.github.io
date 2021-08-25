@@ -61,10 +61,23 @@ galaxy-ie-helpers
 .. _`galaxy-ie-helpers/tags`: https://quay.io/repository/biocontainers/galaxy-ie-helpers?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-ie-helpers";
+        var versions = ["0.2.5","0.2.5","0.2.4","0.2.3","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

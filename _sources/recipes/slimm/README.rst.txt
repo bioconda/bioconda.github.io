@@ -65,10 +65,23 @@ slimm
 .. _`slimm/tags`: https://quay.io/repository/biocontainers/slimm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "slimm";
+        var versions = ["0.3.4","0.3.4","0.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

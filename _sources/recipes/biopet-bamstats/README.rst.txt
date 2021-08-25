@@ -92,6 +92,13 @@ biopet-bamstats
 .. _`biopet-bamstats/tags`: https://quay.io/repository/biocontainers/biopet-bamstats?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biopet-bamstats";
+        var versions = ["1.0.1","1.0.1","1.0","1.0"];
+    </script>
+
 
 
 
@@ -105,6 +112,12 @@ If you want to overwrite it you can specify memory options directly after your b
 If you have \_JAVA\_OPTIONS set globally this will take precedence.
 For example run it with \'biopet\-bamstats \-Xms512m \-Xmx1g\'.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

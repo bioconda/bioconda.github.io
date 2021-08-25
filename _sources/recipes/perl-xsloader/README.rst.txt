@@ -60,10 +60,23 @@ perl-xsloader
 .. _`perl-xsloader/tags`: https://quay.io/repository/biocontainers/perl-xsloader?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xsloader";
+        var versions = ["0.24","0.22","0.22","0.16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

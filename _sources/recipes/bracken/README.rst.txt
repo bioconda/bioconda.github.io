@@ -74,10 +74,23 @@ bracken
 .. _`bracken/tags`: https://quay.io/repository/biocontainers/bracken?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bracken";
+        var versions = ["2.6.1","2.6.1","2.6.1","2.6.0","2.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

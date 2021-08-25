@@ -65,10 +65,23 @@ plant_tribes_kaks_analysis
 .. _`plant_tribes_kaks_analysis/tags`: https://quay.io/repository/biocontainers/plant_tribes_kaks_analysis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plant_tribes_kaks_analysis";
+        var versions = ["1.0.4","1.0.4","1.0.3","1.0.3","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

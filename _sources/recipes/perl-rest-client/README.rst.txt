@@ -61,10 +61,23 @@ perl-rest-client
 .. _`perl-rest-client/tags`: https://quay.io/repository/biocontainers/perl-rest-client?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-rest-client";
+        var versions = ["273","273"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

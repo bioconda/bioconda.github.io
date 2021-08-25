@@ -60,10 +60,23 @@ epydoc
 .. _`epydoc/tags`: https://quay.io/repository/biocontainers/epydoc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "epydoc";
+        var versions = ["3.0.1","3.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

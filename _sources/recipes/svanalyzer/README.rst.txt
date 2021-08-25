@@ -66,10 +66,23 @@ svanalyzer
 .. _`svanalyzer/tags`: https://quay.io/repository/biocontainers/svanalyzer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "svanalyzer";
+        var versions = ["0.36","0.36","0.35","0.34","0.33"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

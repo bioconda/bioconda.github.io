@@ -93,10 +93,23 @@ jcvi
 .. _`jcvi/tags`: https://quay.io/repository/biocontainers/jcvi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jcvi";
+        var versions = ["1.1.17","1.1.17","1.1.17","1.1.16","1.1.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

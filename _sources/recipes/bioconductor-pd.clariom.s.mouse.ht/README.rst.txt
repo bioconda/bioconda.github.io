@@ -68,10 +68,23 @@ bioconductor-pd.clariom.s.mouse.ht
 .. _`bioconductor-pd.clariom.s.mouse.ht/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.clariom.s.mouse.ht?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.clariom.s.mouse.ht";
+        var versions = ["3.14.1","3.14.1","3.14.1","3.14.1","3.14.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

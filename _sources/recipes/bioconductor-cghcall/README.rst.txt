@@ -74,10 +74,23 @@ bioconductor-cghcall
 .. _`bioconductor-cghcall/tags`: https://quay.io/repository/biocontainers/bioconductor-cghcall?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cghcall";
+        var versions = ["2.54.0","2.52.0","2.52.0","2.50.0","2.48.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

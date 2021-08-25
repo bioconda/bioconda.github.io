@@ -65,10 +65,23 @@ codingquarry
 .. _`codingquarry/tags`: https://quay.io/repository/biocontainers/codingquarry?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "codingquarry";
+        var versions = ["2.0","2.0","2.0","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

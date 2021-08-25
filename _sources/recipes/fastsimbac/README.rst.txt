@@ -62,10 +62,23 @@ fastsimbac
 .. _`fastsimbac/tags`: https://quay.io/repository/biocontainers/fastsimbac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastsimbac";
+        var versions = ["1.0.1_bd3ad13d8f79","1.0.1_bd3ad13d8f79","1.0.1_bd3ad13d8f79"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

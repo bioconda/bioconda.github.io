@@ -60,10 +60,23 @@ pycli
 .. _`pycli/tags`: https://quay.io/repository/biocontainers/pycli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pycli";
+        var versions = ["2.0.3","2.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

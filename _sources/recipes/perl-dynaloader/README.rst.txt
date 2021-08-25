@@ -60,10 +60,23 @@ perl-dynaloader
 .. _`perl-dynaloader/tags`: https://quay.io/repository/biocontainers/perl-dynaloader?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-dynaloader";
+        var versions = ["1.25","1.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

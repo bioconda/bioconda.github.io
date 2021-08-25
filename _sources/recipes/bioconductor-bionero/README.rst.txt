@@ -80,10 +80,23 @@ bioconductor-bionero
 .. _`bioconductor-bionero/tags`: https://quay.io/repository/biocontainers/bioconductor-bionero?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bionero";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

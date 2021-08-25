@@ -74,10 +74,23 @@ fastspar
 .. _`fastspar/tags`: https://quay.io/repository/biocontainers/fastspar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastspar";
+        var versions = ["1.0.0","1.0.0","0.0.10","0.0.9","0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

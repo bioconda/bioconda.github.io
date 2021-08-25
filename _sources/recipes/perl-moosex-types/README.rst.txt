@@ -71,10 +71,23 @@ perl-moosex-types
 .. _`perl-moosex-types/tags`: https://quay.io/repository/biocontainers/perl-moosex-types?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-types";
+        var versions = ["0.50","0.50","0.46","0.46","0.46"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -99,10 +99,23 @@ bioconductor-champ
 .. _`bioconductor-champ/tags`: https://quay.io/repository/biocontainers/bioconductor-champ?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-champ";
+        var versions = ["2.22.0","2.20.1","2.18.1","2.16.0","2.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

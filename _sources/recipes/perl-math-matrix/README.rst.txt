@@ -60,10 +60,23 @@ perl-math-matrix
 .. _`perl-math-matrix/tags`: https://quay.io/repository/biocontainers/perl-math-matrix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-matrix";
+        var versions = ["0.94","0.94","0.92","0.91","0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

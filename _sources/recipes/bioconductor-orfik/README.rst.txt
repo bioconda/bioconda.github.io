@@ -90,10 +90,23 @@ bioconductor-orfik
 .. _`bioconductor-orfik/tags`: https://quay.io/repository/biocontainers/bioconductor-orfik?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-orfik";
+        var versions = ["1.12.0","1.10.1","1.8.1","1.6.0","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

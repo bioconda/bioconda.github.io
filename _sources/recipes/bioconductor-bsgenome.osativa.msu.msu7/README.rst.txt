@@ -62,10 +62,23 @@ bioconductor-bsgenome.osativa.msu.msu7
 .. _`bioconductor-bsgenome.osativa.msu.msu7/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.osativa.msu.msu7?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.osativa.msu.msu7";
+        var versions = ["0.99.2","0.99.1","0.99.1","0.99.1","0.99.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

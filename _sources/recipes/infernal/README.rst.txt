@@ -60,10 +60,23 @@ infernal
 .. _`infernal/tags`: https://quay.io/repository/biocontainers/infernal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "infernal";
+        var versions = ["1.1.4","1.1.3","1.1.3","1.1.2","1.1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

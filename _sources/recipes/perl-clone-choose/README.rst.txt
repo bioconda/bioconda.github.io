@@ -61,10 +61,23 @@ perl-clone-choose
 .. _`perl-clone-choose/tags`: https://quay.io/repository/biocontainers/perl-clone-choose?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-clone-choose";
+        var versions = ["0.010"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

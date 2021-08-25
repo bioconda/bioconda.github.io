@@ -64,10 +64,23 @@ ccmetagen
 .. _`ccmetagen/tags`: https://quay.io/repository/biocontainers/ccmetagen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ccmetagen";
+        var versions = ["1.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-test-pod
 .. _`perl-test-pod/tags`: https://quay.io/repository/biocontainers/perl-test-pod?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-pod";
+        var versions = ["1.52","1.51","1.51"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

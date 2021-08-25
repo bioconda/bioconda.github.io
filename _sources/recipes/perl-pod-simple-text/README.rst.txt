@@ -60,10 +60,23 @@ perl-pod-simple-text
 .. _`perl-pod-simple-text/tags`: https://quay.io/repository/biocontainers/perl-pod-simple-text?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pod-simple-text";
+        var versions = ["3.28","3.28"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

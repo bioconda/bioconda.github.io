@@ -68,10 +68,23 @@ perl-extutils-makemaker
 .. _`perl-extutils-makemaker/tags`: https://quay.io/repository/biocontainers/perl-extutils-makemaker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-makemaker";
+        var versions = ["7.36","7.36","7.34","7.34","7.34"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

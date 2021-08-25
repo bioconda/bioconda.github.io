@@ -64,10 +64,23 @@ perl-namespace-clean
 .. _`perl-namespace-clean/tags`: https://quay.io/repository/biocontainers/perl-namespace-clean?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-namespace-clean";
+        var versions = ["0.27","0.27","0.27"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

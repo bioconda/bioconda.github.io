@@ -63,10 +63,23 @@ illumina-utils
 .. _`illumina-utils/tags`: https://quay.io/repository/biocontainers/illumina-utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "illumina-utils";
+        var versions = ["2.12","2.11","2.10","2.9","2.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

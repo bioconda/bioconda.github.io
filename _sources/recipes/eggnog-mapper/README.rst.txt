@@ -79,10 +79,23 @@ eggnog-mapper
 .. _`eggnog-mapper/tags`: https://quay.io/repository/biocontainers/eggnog-mapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "eggnog-mapper";
+        var versions = ["2.1.5","2.1.3","2.1.2","2.0.1","2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

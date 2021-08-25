@@ -61,10 +61,23 @@ bioconductor-awst
 .. _`bioconductor-awst/tags`: https://quay.io/repository/biocontainers/bioconductor-awst?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-awst";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

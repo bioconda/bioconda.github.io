@@ -60,10 +60,23 @@ cas-offinder
 .. _`cas-offinder/tags`: https://quay.io/repository/biocontainers/cas-offinder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cas-offinder";
+        var versions = ["2.4","2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

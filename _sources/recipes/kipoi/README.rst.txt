@@ -88,10 +88,23 @@ kipoi
 .. _`kipoi/tags`: https://quay.io/repository/biocontainers/kipoi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kipoi";
+        var versions = ["0.6.31","0.6.30","0.6.29","0.6.25","0.6.25"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

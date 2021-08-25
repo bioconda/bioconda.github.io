@@ -65,10 +65,23 @@ cami-amber
 .. _`cami-amber/tags`: https://quay.io/repository/biocontainers/cami-amber?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cami-amber";
+        var versions = ["2.0.2","2.0.1","2.0.0.post0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

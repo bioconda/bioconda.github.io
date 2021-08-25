@@ -62,10 +62,23 @@ perl-xml-libxslt
 .. _`perl-xml-libxslt/tags`: https://quay.io/repository/biocontainers/perl-xml-libxslt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-libxslt";
+        var versions = ["1.94","1.94"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ yass
 .. _`yass/tags`: https://quay.io/repository/biocontainers/yass?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "yass";
+        var versions = ["1.14","1.14","1.14","1.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

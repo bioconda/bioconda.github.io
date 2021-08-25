@@ -63,10 +63,23 @@ tirmite
 .. _`tirmite/tags`: https://quay.io/repository/biocontainers/tirmite?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tirmite";
+        var versions = ["1.1.4","1.1.3","1.1.3","1.1.1","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

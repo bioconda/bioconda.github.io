@@ -70,10 +70,23 @@ transcov
 .. _`transcov/tags`: https://quay.io/repository/biocontainers/transcov?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "transcov";
+        var versions = ["1.1.3","1.1.2","1.1.1","1.0.7","1.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

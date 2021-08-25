@@ -62,10 +62,23 @@ perl-cpan-meta-yaml
 .. _`perl-cpan-meta-yaml/tags`: https://quay.io/repository/biocontainers/perl-cpan-meta-yaml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-cpan-meta-yaml";
+        var versions = ["0.018"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

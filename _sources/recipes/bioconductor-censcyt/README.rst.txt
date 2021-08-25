@@ -80,10 +80,23 @@ bioconductor-censcyt
 .. _`bioconductor-censcyt/tags`: https://quay.io/repository/biocontainers/bioconductor-censcyt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-censcyt";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

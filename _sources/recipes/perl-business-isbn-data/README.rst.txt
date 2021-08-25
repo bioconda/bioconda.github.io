@@ -61,10 +61,23 @@ perl-business-isbn-data
 .. _`perl-business-isbn-data/tags`: https://quay.io/repository/biocontainers/perl-business-isbn-data?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-business-isbn-data";
+        var versions = ["20140910.003"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

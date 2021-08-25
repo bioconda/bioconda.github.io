@@ -74,10 +74,23 @@ bioconductor-cogaps
 .. _`bioconductor-cogaps/tags`: https://quay.io/repository/biocontainers/bioconductor-cogaps?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cogaps";
+        var versions = ["3.12.0","3.10.0","3.10.0","3.8.0","3.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

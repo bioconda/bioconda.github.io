@@ -66,10 +66,23 @@ bioconductor-msgfgui
 .. _`bioconductor-msgfgui/tags`: https://quay.io/repository/biocontainers/bioconductor-msgfgui?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-msgfgui";
+        var versions = ["1.26.0","1.24.0","1.24.0","1.16.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

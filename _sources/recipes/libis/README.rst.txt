@@ -80,10 +80,23 @@ libis
 .. _`libis/tags`: https://quay.io/repository/biocontainers/libis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libis";
+        var versions = ["0.1.6","0.1.5.8","0.1.5.7","0.1.5.6","0.1.5.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

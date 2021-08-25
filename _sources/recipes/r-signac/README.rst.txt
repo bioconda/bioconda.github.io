@@ -90,10 +90,23 @@ r-signac
 .. _`r-signac/tags`: https://quay.io/repository/biocontainers/r-signac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-signac";
+        var versions = ["1.3.0","1.2.1","1.2.1","1.2.0","1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

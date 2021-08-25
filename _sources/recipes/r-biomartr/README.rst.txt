@@ -77,10 +77,23 @@ r-biomartr
 .. _`r-biomartr/tags`: https://quay.io/repository/biocontainers/r-biomartr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-biomartr";
+        var versions = ["0.9.2","0.9.2","0.9.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

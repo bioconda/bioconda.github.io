@@ -81,6 +81,13 @@ quast
 .. _`quast/tags`: https://quay.io/repository/biocontainers/quast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "quast";
+        var versions = ["5.0.2","5.0.2","5.0.2","5.0.2","5.0.2"];
+    </script>
+
 
 
 
@@ -90,6 +97,12 @@ Notes
 \- GeneMark gene prediction software is disabled due to licensing issues
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

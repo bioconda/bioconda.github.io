@@ -70,10 +70,23 @@ pyfaidx
 .. _`pyfaidx/tags`: https://quay.io/repository/biocontainers/pyfaidx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyfaidx";
+        var versions = ["0.6.1","0.6.0","0.5.9.5","0.5.9.4","0.5.9.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

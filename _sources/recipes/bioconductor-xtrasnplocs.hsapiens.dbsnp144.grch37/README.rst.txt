@@ -67,10 +67,23 @@ bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37
 .. _`bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37/tags`: https://quay.io/repository/biocontainers/bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37";
+        var versions = ["0.99.12","0.99.12","0.99.12","0.99.12","0.99.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

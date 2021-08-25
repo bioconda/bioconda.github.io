@@ -70,10 +70,23 @@ perl-pcap
 .. _`perl-pcap/tags`: https://quay.io/repository/biocontainers/perl-pcap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pcap";
+        var versions = ["3.5.2","1.11.1","1.11.1","1.11.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

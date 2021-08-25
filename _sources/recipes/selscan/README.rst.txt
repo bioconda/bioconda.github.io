@@ -64,10 +64,23 @@ selscan
 .. _`selscan/tags`: https://quay.io/repository/biocontainers/selscan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "selscan";
+        var versions = ["1.2.0a","1.2.0a","1.2.0a","1.1.0b","1.1.0b"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

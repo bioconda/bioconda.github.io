@@ -62,10 +62,23 @@ nucleosome_prediction
 .. _`nucleosome_prediction/tags`: https://quay.io/repository/biocontainers/nucleosome_prediction?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nucleosome_prediction";
+        var versions = ["3.0","3.0","3.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

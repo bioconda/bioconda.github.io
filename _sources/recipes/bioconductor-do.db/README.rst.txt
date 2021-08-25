@@ -70,10 +70,23 @@ bioconductor-do.db
 .. _`bioconductor-do.db/tags`: https://quay.io/repository/biocontainers/bioconductor-do.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-do.db";
+        var versions = ["2.9","2.9","2.9","2.9","2.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

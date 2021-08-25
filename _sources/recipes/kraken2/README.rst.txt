@@ -76,10 +76,23 @@ kraken2
 .. _`kraken2/tags`: https://quay.io/repository/biocontainers/kraken2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kraken2";
+        var versions = ["2.1.2","2.1.1","2.1.1","2.1.0","2.0.9beta"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

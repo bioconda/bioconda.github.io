@@ -63,10 +63,23 @@ perl-test-fatal
 .. _`perl-test-fatal/tags`: https://quay.io/repository/biocontainers/perl-test-fatal?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-fatal";
+        var versions = ["0.014","0.014","0.014","0.014"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

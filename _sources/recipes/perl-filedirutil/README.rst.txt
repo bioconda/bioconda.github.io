@@ -64,10 +64,23 @@ perl-filedirutil
 .. _`perl-filedirutil/tags`: https://quay.io/repository/biocontainers/perl-filedirutil?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-filedirutil";
+        var versions = ["v0.04","v0.03","v0.03","v0.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

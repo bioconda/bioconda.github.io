@@ -61,10 +61,23 @@ vcfsamplecompare
 .. _`vcfsamplecompare/tags`: https://quay.io/repository/biocontainers/vcfsamplecompare?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vcfsamplecompare";
+        var versions = ["2.013","2.013","v2.008","v2.008","v2.006"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

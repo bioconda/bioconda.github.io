@@ -61,10 +61,23 @@ strelka
 .. _`strelka/tags`: https://quay.io/repository/biocontainers/strelka?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "strelka";
+        var versions = ["2.9.10","2.9.10","2.9.7","2.9.4","2.9.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

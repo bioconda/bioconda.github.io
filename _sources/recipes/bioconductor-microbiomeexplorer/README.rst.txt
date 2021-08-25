@@ -91,10 +91,23 @@ bioconductor-microbiomeexplorer
 .. _`bioconductor-microbiomeexplorer/tags`: https://quay.io/repository/biocontainers/bioconductor-microbiomeexplorer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-microbiomeexplorer";
+        var versions = ["1.2.0","1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

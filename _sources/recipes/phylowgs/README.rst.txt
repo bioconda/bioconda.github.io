@@ -78,10 +78,23 @@ phylowgs
 .. _`phylowgs/tags`: https://quay.io/repository/biocontainers/phylowgs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phylowgs";
+        var versions = ["20181105","20181105","20181105","20181105","20181105"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

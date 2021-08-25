@@ -70,10 +70,23 @@ hifiasm
 .. _`hifiasm/tags`: https://quay.io/repository/biocontainers/hifiasm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hifiasm";
+        var versions = ["0.16.0","0.15.5","0.15.4","0.15.3","0.15.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ bioconductor-pcxndata
 .. _`bioconductor-pcxndata/tags`: https://quay.io/repository/biocontainers/bioconductor-pcxndata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pcxndata";
+        var versions = ["2.14.0","2.12.0","2.12.0","2.12.0","2.11.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

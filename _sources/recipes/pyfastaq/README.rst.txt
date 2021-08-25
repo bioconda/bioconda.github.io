@@ -60,10 +60,23 @@ pyfastaq
 .. _`pyfastaq/tags`: https://quay.io/repository/biocontainers/pyfastaq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyfastaq";
+        var versions = ["3.17.0","3.17.0","3.17.0","3.14.0","3.11.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

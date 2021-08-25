@@ -60,10 +60,23 @@ perl-b
 .. _`perl-b/tags`: https://quay.io/repository/biocontainers/perl-b?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-b";
+        var versions = ["1.48","1.48"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

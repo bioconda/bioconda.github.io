@@ -84,10 +84,23 @@ magicblast
 .. _`magicblast/tags`: https://quay.io/repository/biocontainers/magicblast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "magicblast";
+        var versions = ["1.5.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

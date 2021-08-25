@@ -72,10 +72,23 @@ r-acidsinglecell
 .. _`r-acidsinglecell/tags`: https://quay.io/repository/biocontainers/r-acidsinglecell?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-acidsinglecell";
+        var versions = ["0.1.7","0.1.7","0.1.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

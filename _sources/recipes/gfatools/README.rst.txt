@@ -61,10 +61,23 @@ gfatools
 .. _`gfatools/tags`: https://quay.io/repository/biocontainers/gfatools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gfatools";
+        var versions = ["0.5","0.5","0.4","0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

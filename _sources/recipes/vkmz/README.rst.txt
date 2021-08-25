@@ -60,10 +60,23 @@ vkmz
 .. _`vkmz/tags`: https://quay.io/repository/biocontainers/vkmz?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vkmz";
+        var versions = ["1.4.6","1.4.5","1.4.4","1.4.2","1.4dev2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

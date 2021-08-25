@@ -66,10 +66,23 @@ bioconductor-scpdata
 .. _`bioconductor-scpdata/tags`: https://quay.io/repository/biocontainers/bioconductor-scpdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-scpdata";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

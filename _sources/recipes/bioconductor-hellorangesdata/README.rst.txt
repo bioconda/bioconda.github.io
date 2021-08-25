@@ -61,10 +61,23 @@ bioconductor-hellorangesdata
 .. _`bioconductor-hellorangesdata/tags`: https://quay.io/repository/biocontainers/bioconductor-hellorangesdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hellorangesdata";
+        var versions = ["1.18.0","1.16.0","1.16.0","1.15.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ polymutt
 .. _`polymutt/tags`: https://quay.io/repository/biocontainers/polymutt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "polymutt";
+        var versions = ["0.18"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

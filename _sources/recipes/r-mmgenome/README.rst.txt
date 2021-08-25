@@ -69,10 +69,23 @@ r-mmgenome
 .. _`r-mmgenome/tags`: https://quay.io/repository/biocontainers/r-mmgenome?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-mmgenome";
+        var versions = ["0.7.1","0.7.1","0.7.1","0.7.1","0.6.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -73,10 +73,23 @@ repeatmasker
 .. _`repeatmasker/tags`: https://quay.io/repository/biocontainers/repeatmasker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "repeatmasker";
+        var versions = ["4.1.2.p1","4.1.1","4.1.1","4.1.1","4.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

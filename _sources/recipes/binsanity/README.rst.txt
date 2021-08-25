@@ -74,10 +74,23 @@ binsanity
 .. _`binsanity/tags`: https://quay.io/repository/biocontainers/binsanity?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "binsanity";
+        var versions = ["0.5.4","0.5.3","0.4.4","0.4.4","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

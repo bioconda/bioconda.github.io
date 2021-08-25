@@ -78,6 +78,13 @@ metawatt
 .. _`metawatt/tags`: https://quay.io/repository/biocontainers/metawatt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "metawatt";
+        var versions = ["3.5.3","3.5.3","3.5.3","3.5.3"];
+    </script>
+
 
 
 
@@ -86,6 +93,12 @@ Notes
 -----
 metawatt \-\-help
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

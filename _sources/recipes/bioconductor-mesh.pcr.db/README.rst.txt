@@ -62,10 +62,23 @@ bioconductor-mesh.pcr.db
 .. _`bioconductor-mesh.pcr.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mesh.pcr.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mesh.pcr.db";
+        var versions = ["1.15.0","1.13.0","1.13.0","1.13.0","1.13.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

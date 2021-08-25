@@ -60,10 +60,23 @@ mawk
 .. _`mawk/tags`: https://quay.io/repository/biocontainers/mawk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mawk";
+        var versions = ["1.3.4","1.3.4","1.3.4","1.3.4","1.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

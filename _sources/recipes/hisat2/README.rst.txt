@@ -75,6 +75,13 @@ hisat2
 .. _`hisat2/tags`: https://quay.io/repository/biocontainers/hisat2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hisat2";
+        var versions = ["2.2.1","2.2.1","2.2.1","2.2.0","2.2.0"];
+    </script>
+
 
 
 
@@ -83,6 +90,12 @@ Notes
 -----
 Pre\-built indices for HISAT2 can be downloaded from https\:\/\/daehwankimlab.github.io\/hisat2\/download\/.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

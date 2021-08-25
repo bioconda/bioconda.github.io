@@ -63,10 +63,23 @@ thesias
 .. _`thesias/tags`: https://quay.io/repository/biocontainers/thesias?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "thesias";
+        var versions = ["3.1.1","3.1.1","3.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

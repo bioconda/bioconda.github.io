@@ -60,10 +60,23 @@ perl-text-glob
 .. _`perl-text-glob/tags`: https://quay.io/repository/biocontainers/perl-text-glob?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-text-glob";
+        var versions = ["0.11","0.11","0.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

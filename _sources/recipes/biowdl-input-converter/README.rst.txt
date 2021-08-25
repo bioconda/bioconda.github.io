@@ -63,10 +63,23 @@ biowdl-input-converter
 .. _`biowdl-input-converter/tags`: https://quay.io/repository/biocontainers/biowdl-input-converter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biowdl-input-converter";
+        var versions = ["0.3.0","0.2.1","0.2.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

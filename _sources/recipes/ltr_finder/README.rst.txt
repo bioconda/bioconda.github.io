@@ -63,10 +63,23 @@ ltr_finder
 .. _`ltr_finder/tags`: https://quay.io/repository/biocontainers/ltr_finder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ltr_finder";
+        var versions = ["1.07","1.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

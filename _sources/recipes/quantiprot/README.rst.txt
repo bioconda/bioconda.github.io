@@ -62,10 +62,23 @@ quantiprot
 .. _`quantiprot/tags`: https://quay.io/repository/biocontainers/quantiprot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "quantiprot";
+        var versions = ["0.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

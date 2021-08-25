@@ -87,10 +87,23 @@ multiqc
 .. _`multiqc/tags`: https://quay.io/repository/biocontainers/multiqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "multiqc";
+        var versions = ["1.11","1.10.1","1.10.1","1.10","1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ trimadap
 .. _`trimadap/tags`: https://quay.io/repository/biocontainers/trimadap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trimadap";
+        var versions = ["r11","r11","r11","r10","r10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

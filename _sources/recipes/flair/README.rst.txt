@@ -80,10 +80,23 @@ flair
 .. _`flair/tags`: https://quay.io/repository/biocontainers/flair?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "flair";
+        var versions = ["1.5","1.5","1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

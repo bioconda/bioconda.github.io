@@ -63,10 +63,23 @@ clustergrammer
 .. _`clustergrammer/tags`: https://quay.io/repository/biocontainers/clustergrammer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clustergrammer";
+        var versions = ["1.13.6","1.13.6","1.13.6","1.13.6","1.13.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

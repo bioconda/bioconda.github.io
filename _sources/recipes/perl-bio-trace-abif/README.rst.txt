@@ -61,10 +61,23 @@ perl-bio-trace-abif
 .. _`perl-bio-trace-abif/tags`: https://quay.io/repository/biocontainers/perl-bio-trace-abif?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-trace-abif";
+        var versions = ["1.06","1.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

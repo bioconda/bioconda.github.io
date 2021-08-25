@@ -62,10 +62,23 @@ hmftools-amber
 .. _`hmftools-amber/tags`: https://quay.io/repository/biocontainers/hmftools-amber?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmftools-amber";
+        var versions = ["3.5","3.5","3.4","3.3","3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

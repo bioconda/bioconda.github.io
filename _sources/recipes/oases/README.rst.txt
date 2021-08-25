@@ -62,10 +62,23 @@ oases
 .. _`oases/tags`: https://quay.io/repository/biocontainers/oases?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "oases";
+        var versions = ["0.2.09","0.2.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

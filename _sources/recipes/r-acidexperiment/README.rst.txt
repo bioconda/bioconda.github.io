@@ -75,10 +75,23 @@ r-acidexperiment
 .. _`r-acidexperiment/tags`: https://quay.io/repository/biocontainers/r-acidexperiment?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-acidexperiment";
+        var versions = ["0.1.14","0.1.13","0.1.12","0.1.11","0.1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ beagle
 .. _`beagle/tags`: https://quay.io/repository/biocontainers/beagle?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "beagle";
+        var versions = ["5.2_21Apr21.304","5.1_24Aug19.3e8","5.1_24Aug19.3e8","4.1_21Jan17.6cc.jar","4.1_21Jan17.6cc.jar"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

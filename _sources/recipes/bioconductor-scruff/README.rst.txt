@@ -82,10 +82,23 @@ bioconductor-scruff
 .. _`bioconductor-scruff/tags`: https://quay.io/repository/biocontainers/bioconductor-scruff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-scruff";
+        var versions = ["1.10.0","1.8.3","1.8.1","1.6.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

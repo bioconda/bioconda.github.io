@@ -62,10 +62,23 @@ bioconductor-ecolisakai.db0
 .. _`bioconductor-ecolisakai.db0/tags`: https://quay.io/repository/biocontainers/bioconductor-ecolisakai.db0?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ecolisakai.db0";
+        var versions = ["3.13.0","3.12.0","3.12.0","3.11.2","3.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

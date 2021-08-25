@@ -67,10 +67,23 @@ ncbi-util-legacy
 .. _`ncbi-util-legacy/tags`: https://quay.io/repository/biocontainers/ncbi-util-legacy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncbi-util-legacy";
+        var versions = ["6.1","6.1","6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

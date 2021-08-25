@@ -65,10 +65,23 @@ tesorter
 .. _`tesorter/tags`: https://quay.io/repository/biocontainers/tesorter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tesorter";
+        var versions = ["1.3.0","1.2.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -73,10 +73,23 @@ obitools
 .. _`obitools/tags`: https://quay.io/repository/biocontainers/obitools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "obitools";
+        var versions = ["1.2.13","1.2.13","1.2.13","1.2.13","1.2.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

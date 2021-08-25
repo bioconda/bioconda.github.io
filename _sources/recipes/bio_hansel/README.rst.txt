@@ -75,10 +75,23 @@ bio_hansel
 .. _`bio_hansel/tags`: https://quay.io/repository/biocontainers/bio_hansel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bio_hansel";
+        var versions = ["2.6.1","2.5.0","2.4.0","2.2.0","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

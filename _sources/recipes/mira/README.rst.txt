@@ -60,10 +60,23 @@ mira
 .. _`mira/tags`: https://quay.io/repository/biocontainers/mira?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mira";
+        var versions = ["4.9.6","4.9.6","4.9.5","4.9.5","4.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

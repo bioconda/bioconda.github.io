@@ -61,10 +61,23 @@ asn2gb
 .. _`asn2gb/tags`: https://quay.io/repository/biocontainers/asn2gb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "asn2gb";
+        var versions = ["18.2","18.2","18.2","18.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

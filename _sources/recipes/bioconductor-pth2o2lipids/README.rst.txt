@@ -64,10 +64,23 @@ bioconductor-pth2o2lipids
 .. _`bioconductor-pth2o2lipids/tags`: https://quay.io/repository/biocontainers/bioconductor-pth2o2lipids?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pth2o2lipids";
+        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

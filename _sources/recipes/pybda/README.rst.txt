@@ -72,10 +72,23 @@ pybda
 .. _`pybda/tags`: https://quay.io/repository/biocontainers/pybda?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pybda";
+        var versions = ["0.1.0","0.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

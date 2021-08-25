@@ -62,10 +62,23 @@ perl-biox-seq
 .. _`perl-biox-seq/tags`: https://quay.io/repository/biocontainers/perl-biox-seq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-biox-seq";
+        var versions = ["0.006007","0.006007","0.006007","0.008","0.008"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

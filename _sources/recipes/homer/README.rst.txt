@@ -72,10 +72,23 @@ homer
 .. _`homer/tags`: https://quay.io/repository/biocontainers/homer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "homer";
+        var versions = ["4.11","4.11","4.11","4.11","4.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

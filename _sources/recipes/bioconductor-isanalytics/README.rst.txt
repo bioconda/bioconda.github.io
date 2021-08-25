@@ -83,10 +83,23 @@ bioconductor-isanalytics
 .. _`bioconductor-isanalytics/tags`: https://quay.io/repository/biocontainers/bioconductor-isanalytics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-isanalytics";
+        var versions = ["1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

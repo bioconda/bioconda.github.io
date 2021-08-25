@@ -73,10 +73,23 @@ transdecoder
 .. _`transdecoder/tags`: https://quay.io/repository/biocontainers/transdecoder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "transdecoder";
+        var versions = ["5.5.0","5.5.0","5.5.0","5.5.0","5.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

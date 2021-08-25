@@ -65,10 +65,23 @@ perl-io-compress
 .. _`perl-io-compress/tags`: https://quay.io/repository/biocontainers/perl-io-compress?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-compress";
+        var versions = ["2.087","2.086","2.084","2.083","2.081"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

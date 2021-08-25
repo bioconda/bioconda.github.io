@@ -60,10 +60,23 @@ perl-file-slurp-tiny
 .. _`perl-file-slurp-tiny/tags`: https://quay.io/repository/biocontainers/perl-file-slurp-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-slurp-tiny";
+        var versions = ["0.004","0.004"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

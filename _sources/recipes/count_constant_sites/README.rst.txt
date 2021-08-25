@@ -63,10 +63,23 @@ count_constant_sites
 .. _`count_constant_sites/tags`: https://quay.io/repository/biocontainers/count_constant_sites?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "count_constant_sites";
+        var versions = ["0.1.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ nanosplit
 .. _`nanosplit/tags`: https://quay.io/repository/biocontainers/nanosplit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nanosplit";
+        var versions = ["0.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

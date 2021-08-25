@@ -73,10 +73,23 @@ cutesv
 .. _`cutesv/tags`: https://quay.io/repository/biocontainers/cutesv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cutesv";
+        var versions = ["1.0.11","1.0.10","1.0.9","1.0.8","1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

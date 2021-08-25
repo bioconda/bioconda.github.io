@@ -65,10 +65,23 @@ eigensoft
 .. _`eigensoft/tags`: https://quay.io/repository/biocontainers/eigensoft?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "eigensoft";
+        var versions = ["7.2.1","7.2.1","7.2.1","7.2.1","6.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -70,10 +70,23 @@ ultra_bioinformatics
 .. _`ultra_bioinformatics/tags`: https://quay.io/repository/biocontainers/ultra_bioinformatics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ultra_bioinformatics";
+        var versions = ["0.0.3.3","0.0.3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

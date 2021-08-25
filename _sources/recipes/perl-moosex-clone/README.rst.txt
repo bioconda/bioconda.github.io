@@ -65,10 +65,23 @@ perl-moosex-clone
 .. _`perl-moosex-clone/tags`: https://quay.io/repository/biocontainers/perl-moosex-clone?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-clone";
+        var versions = ["0.06","0.06","0.06"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

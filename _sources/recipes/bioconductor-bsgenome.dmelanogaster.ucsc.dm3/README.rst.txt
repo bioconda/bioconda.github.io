@@ -70,10 +70,23 @@ bioconductor-bsgenome.dmelanogaster.ucsc.dm3
 .. _`bioconductor-bsgenome.dmelanogaster.ucsc.dm3/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.dmelanogaster.ucsc.dm3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.dmelanogaster.ucsc.dm3";
+        var versions = ["1.4.0","1.4.0","1.4.0","1.4.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

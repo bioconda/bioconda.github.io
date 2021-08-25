@@ -73,10 +73,23 @@ perl-time-hires
 .. _`perl-time-hires/tags`: https://quay.io/repository/biocontainers/perl-time-hires?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-time-hires";
+        var versions = ["1.9760","1.9760","1.9758","1.9758","1.9728"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

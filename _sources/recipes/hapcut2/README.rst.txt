@@ -64,10 +64,23 @@ hapcut2
 .. _`hapcut2/tags`: https://quay.io/repository/biocontainers/hapcut2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hapcut2";
+        var versions = ["1.3.3","1.3.2","1.3.2","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

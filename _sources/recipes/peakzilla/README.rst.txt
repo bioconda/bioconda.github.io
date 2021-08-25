@@ -61,10 +61,23 @@ peakzilla
 .. _`peakzilla/tags`: https://quay.io/repository/biocontainers/peakzilla?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "peakzilla";
+        var versions = ["1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

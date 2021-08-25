@@ -60,10 +60,23 @@ perl-array-utils
 .. _`perl-array-utils/tags`: https://quay.io/repository/biocontainers/perl-array-utils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-array-utils";
+        var versions = ["0.5","0.5","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

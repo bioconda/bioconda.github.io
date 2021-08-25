@@ -73,10 +73,23 @@ president
 .. _`president/tags`: https://quay.io/repository/biocontainers/president?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "president";
+        var versions = ["0.6.3","0.6.1","0.6.0","0.5.2","0.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

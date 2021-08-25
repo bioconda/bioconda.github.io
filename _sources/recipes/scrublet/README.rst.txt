@@ -69,10 +69,23 @@ scrublet
 .. _`scrublet/tags`: https://quay.io/repository/biocontainers/scrublet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scrublet";
+        var versions = ["0.2.3","0.2.3","0.2.1","0.2.1","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -72,10 +72,23 @@ bioconductor-debcam
 .. _`bioconductor-debcam/tags`: https://quay.io/repository/biocontainers/bioconductor-debcam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-debcam";
+        var versions = ["1.10.0","1.8.0","1.8.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

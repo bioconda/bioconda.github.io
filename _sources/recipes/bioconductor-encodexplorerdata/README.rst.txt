@@ -64,10 +64,23 @@ bioconductor-encodexplorerdata
 .. _`bioconductor-encodexplorerdata/tags`: https://quay.io/repository/biocontainers/bioconductor-encodexplorerdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-encodexplorerdata";
+        var versions = ["0.99.5","0.99.5","0.99.5","0.99.5","0.99.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ fiji
 .. _`fiji/tags`: https://quay.io/repository/biocontainers/fiji?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fiji";
+        var versions = ["20170530","20170530","20170530","20151222","20151222"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

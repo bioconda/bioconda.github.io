@@ -60,10 +60,23 @@ clearcut
 .. _`clearcut/tags`: https://quay.io/repository/biocontainers/clearcut?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "clearcut";
+        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

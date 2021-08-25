@@ -63,10 +63,23 @@ bioconductor-lrbase.rno.eg.db
 .. _`bioconductor-lrbase.rno.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-lrbase.rno.eg.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-lrbase.rno.eg.db";
+        var versions = ["2.0.0","1.2.0","1.2.0","1.2.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

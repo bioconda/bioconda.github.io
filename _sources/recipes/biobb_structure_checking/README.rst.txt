@@ -177,10 +177,23 @@ biobb_structure_checking
 .. _`biobb_structure_checking/tags`: https://quay.io/repository/biocontainers/biobb_structure_checking?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biobb_structure_checking";
+        var versions = ["3.8.5","3.7.3","3.7.2","3.7.1","3.5.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

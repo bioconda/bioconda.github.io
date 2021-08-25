@@ -60,10 +60,23 @@ perl-threaded
 .. _`perl-threaded/tags`: https://quay.io/repository/biocontainers/perl-threaded?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-threaded";
+        var versions = ["5.26.0","5.22.0","5.22.0","5.22.0","5.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ chanjo
 .. _`chanjo/tags`: https://quay.io/repository/biocontainers/chanjo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chanjo";
+        var versions = ["3.3.0","3.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

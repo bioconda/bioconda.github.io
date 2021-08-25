@@ -63,10 +63,23 @@ megagta
 .. _`megagta/tags`: https://quay.io/repository/biocontainers/megagta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "megagta";
+        var versions = ["0.1_alpha"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

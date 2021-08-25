@@ -76,10 +76,23 @@ perl-cgi
 .. _`perl-cgi/tags`: https://quay.io/repository/biocontainers/perl-cgi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-cgi";
+        var versions = ["4.44","4.44","4.43","4.40","4.40"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

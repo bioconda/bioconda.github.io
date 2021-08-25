@@ -69,10 +69,23 @@ pyclone
 .. _`pyclone/tags`: https://quay.io/repository/biocontainers/pyclone?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyclone";
+        var versions = ["0.13.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ hurry.filesize
 .. _`hurry.filesize/tags`: https://quay.io/repository/biocontainers/hurry.filesize?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hurry.filesize";
+        var versions = ["0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

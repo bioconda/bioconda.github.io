@@ -65,10 +65,23 @@ ucsc-xmltosql
 .. _`ucsc-xmltosql/tags`: https://quay.io/repository/biocontainers/ucsc-xmltosql?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-xmltosql";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

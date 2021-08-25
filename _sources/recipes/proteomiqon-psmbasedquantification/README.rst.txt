@@ -38,7 +38,7 @@ proteomiqon-psmbasedquantification
       
       
 
-      ``0.0.5-0``,  ``0.0.4-0``
+      ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
@@ -71,10 +71,23 @@ proteomiqon-psmbasedquantification
 .. _`proteomiqon-psmbasedquantification/tags`: https://quay.io/repository/biocontainers/proteomiqon-psmbasedquantification?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "proteomiqon-psmbasedquantification";
+        var versions = ["0.0.7","0.0.5","0.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

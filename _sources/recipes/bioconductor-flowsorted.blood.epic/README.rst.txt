@@ -69,10 +69,23 @@ bioconductor-flowsorted.blood.epic
 .. _`bioconductor-flowsorted.blood.epic/tags`: https://quay.io/repository/biocontainers/bioconductor-flowsorted.blood.epic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-flowsorted.blood.epic";
+        var versions = ["1.10.0","1.8.0","1.8.0","1.6.1","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

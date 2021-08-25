@@ -73,10 +73,23 @@ treetime
 .. _`treetime/tags`: https://quay.io/repository/biocontainers/treetime?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "treetime";
+        var versions = ["0.8.3","0.8.2","0.8.1","0.7.5","0.7.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

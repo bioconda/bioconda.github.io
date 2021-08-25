@@ -73,10 +73,23 @@ ucsc-liftover
 .. _`ucsc-liftover/tags`: https://quay.io/repository/biocontainers/ucsc-liftover?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-liftover";
+        var versions = ["377","377","377","377","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

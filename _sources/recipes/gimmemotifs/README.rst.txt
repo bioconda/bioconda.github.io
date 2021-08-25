@@ -107,10 +107,23 @@ gimmemotifs
 .. _`gimmemotifs/tags`: https://quay.io/repository/biocontainers/gimmemotifs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gimmemotifs";
+        var versions = ["0.16.1","0.16.1","0.16.0","0.16.0","0.15.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

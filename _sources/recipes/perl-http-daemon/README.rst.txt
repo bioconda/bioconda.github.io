@@ -63,10 +63,23 @@ perl-http-daemon
 .. _`perl-http-daemon/tags`: https://quay.io/repository/biocontainers/perl-http-daemon?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-http-daemon";
+        var versions = ["6.01","6.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

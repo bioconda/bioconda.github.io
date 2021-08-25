@@ -73,10 +73,23 @@ ucsc-fatotwobit
 .. _`ucsc-fatotwobit/tags`: https://quay.io/repository/biocontainers/ucsc-fatotwobit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-fatotwobit";
+        var versions = ["377","377","377","377","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

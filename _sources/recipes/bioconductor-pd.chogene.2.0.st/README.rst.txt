@@ -68,10 +68,23 @@ bioconductor-pd.chogene.2.0.st
 .. _`bioconductor-pd.chogene.2.0.st/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.chogene.2.0.st?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.chogene.2.0.st";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

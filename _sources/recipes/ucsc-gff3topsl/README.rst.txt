@@ -65,10 +65,23 @@ ucsc-gff3topsl
 .. _`ucsc-gff3topsl/tags`: https://quay.io/repository/biocontainers/ucsc-gff3topsl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-gff3topsl";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

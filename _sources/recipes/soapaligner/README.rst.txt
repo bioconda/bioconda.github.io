@@ -61,10 +61,23 @@ soapaligner
 .. _`soapaligner/tags`: https://quay.io/repository/biocontainers/soapaligner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "soapaligner";
+        var versions = ["2.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

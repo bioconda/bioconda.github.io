@@ -67,10 +67,23 @@ ncbitk
 .. _`ncbitk/tags`: https://quay.io/repository/biocontainers/ncbitk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncbitk";
+        var versions = ["1.0a17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

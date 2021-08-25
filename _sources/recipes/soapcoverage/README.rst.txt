@@ -61,10 +61,23 @@ soapcoverage
 .. _`soapcoverage/tags`: https://quay.io/repository/biocontainers/soapcoverage?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "soapcoverage";
+        var versions = ["2.7.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

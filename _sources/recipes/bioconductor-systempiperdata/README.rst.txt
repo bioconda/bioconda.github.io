@@ -70,10 +70,23 @@ bioconductor-systempiperdata
 .. _`bioconductor-systempiperdata/tags`: https://quay.io/repository/biocontainers/bioconductor-systempiperdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-systempiperdata";
+        var versions = ["1.20.0","1.18.1","1.18.0","1.17.4","1.16.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

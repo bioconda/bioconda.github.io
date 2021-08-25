@@ -61,10 +61,23 @@ dnp-mapping
 .. _`dnp-mapping/tags`: https://quay.io/repository/biocontainers/dnp-mapping?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dnp-mapping";
+        var versions = ["1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ lissero
 .. _`lissero/tags`: https://quay.io/repository/biocontainers/lissero?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lissero";
+        var versions = ["0.4.9","0.4.8","0.4.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

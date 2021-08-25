@@ -81,10 +81,23 @@ n50
 .. _`n50/tags`: https://quay.io/repository/biocontainers/n50?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "n50";
+        var versions = ["1.4.1","1.3.0","1.3.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

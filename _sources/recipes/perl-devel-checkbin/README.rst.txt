@@ -60,10 +60,23 @@ perl-devel-checkbin
 .. _`perl-devel-checkbin/tags`: https://quay.io/repository/biocontainers/perl-devel-checkbin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-devel-checkbin";
+        var versions = ["0.04","0.04","0.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

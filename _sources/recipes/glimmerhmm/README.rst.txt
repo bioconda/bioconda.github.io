@@ -62,10 +62,23 @@ glimmerhmm
 .. _`glimmerhmm/tags`: https://quay.io/repository/biocontainers/glimmerhmm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "glimmerhmm";
+        var versions = ["3.0.4","3.0.4","3.0.4","3.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

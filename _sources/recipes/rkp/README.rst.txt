@@ -76,10 +76,23 @@ rkp
 .. _`rkp/tags`: https://quay.io/repository/biocontainers/rkp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rkp";
+        var versions = ["0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ bionetcomp
 .. _`bionetcomp/tags`: https://quay.io/repository/biocontainers/bionetcomp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bionetcomp";
+        var versions = ["1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

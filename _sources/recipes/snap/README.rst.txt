@@ -61,10 +61,23 @@ snap
 .. _`snap/tags`: https://quay.io/repository/biocontainers/snap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snap";
+        var versions = ["2013_11_29","2013_11_29","2013_11_29","2013_11_29"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

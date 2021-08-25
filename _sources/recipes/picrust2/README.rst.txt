@@ -84,10 +84,23 @@ picrust2
 .. _`picrust2/tags`: https://quay.io/repository/biocontainers/picrust2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "picrust2";
+        var versions = ["2.4.1","2.4.0","2.3.0_b","2.2.0_b","2.1.4_b"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

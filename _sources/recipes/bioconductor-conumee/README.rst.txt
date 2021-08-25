@@ -70,10 +70,23 @@ bioconductor-conumee
 .. _`bioconductor-conumee/tags`: https://quay.io/repository/biocontainers/bioconductor-conumee?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-conumee";
+        var versions = ["1.26.0","1.24.0","1.24.0","1.22.0","1.20.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

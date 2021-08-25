@@ -28,7 +28,7 @@ seqsero2
       
       
 
-      ``1.2.1-0``,  ``1.1.1-0``,  ``1.01-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.2.1-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.01-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -69,10 +69,23 @@ seqsero2
 .. _`seqsero2/tags`: https://quay.io/repository/biocontainers/seqsero2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqsero2";
+        var versions = ["1.2.1","1.1.1","1.1.0","1.01","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

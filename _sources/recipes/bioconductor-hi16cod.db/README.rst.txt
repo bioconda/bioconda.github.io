@@ -63,10 +63,23 @@ bioconductor-hi16cod.db
 .. _`bioconductor-hi16cod.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hi16cod.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hi16cod.db";
+        var versions = ["3.4.0","3.4.0","3.4.0","3.4.0","3.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

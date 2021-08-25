@@ -66,10 +66,23 @@ ngmaster
 .. _`ngmaster/tags`: https://quay.io/repository/biocontainers/ngmaster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ngmaster";
+        var versions = ["0.5.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

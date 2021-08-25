@@ -63,10 +63,23 @@ bioconductor-transomics2cytoscape
 .. _`bioconductor-transomics2cytoscape/tags`: https://quay.io/repository/biocontainers/bioconductor-transomics2cytoscape?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-transomics2cytoscape";
+        var versions = ["1.2.1","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -70,10 +70,23 @@ bioconductor-hcamatrixbrowser
 .. _`bioconductor-hcamatrixbrowser/tags`: https://quay.io/repository/biocontainers/bioconductor-hcamatrixbrowser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hcamatrixbrowser";
+        var versions = ["1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ bioconductor-tenxvisiumdata
 .. _`bioconductor-tenxvisiumdata/tags`: https://quay.io/repository/biocontainers/bioconductor-tenxvisiumdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-tenxvisiumdata";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,10 +63,23 @@ demuxlet
 .. _`demuxlet/tags`: https://quay.io/repository/biocontainers/demuxlet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "demuxlet";
+        var versions = ["1.0","1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

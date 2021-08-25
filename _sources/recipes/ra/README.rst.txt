@@ -61,10 +61,23 @@ ra
 .. _`ra/tags`: https://quay.io/repository/biocontainers/ra?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ra";
+        var versions = ["0.9","0.9","0.9","0.9","0.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

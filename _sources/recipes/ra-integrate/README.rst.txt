@@ -63,10 +63,23 @@ ra-integrate
 .. _`ra-integrate/tags`: https://quay.io/repository/biocontainers/ra-integrate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ra-integrate";
+        var versions = ["0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

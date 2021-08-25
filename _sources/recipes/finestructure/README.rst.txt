@@ -67,10 +67,23 @@ finestructure
 .. _`finestructure/tags`: https://quay.io/repository/biocontainers/finestructure?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "finestructure";
+        var versions = ["2.1.3","2.1.3","2.1.3","2.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

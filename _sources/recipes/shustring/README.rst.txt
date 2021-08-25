@@ -60,10 +60,23 @@ shustring
 .. _`shustring/tags`: https://quay.io/repository/biocontainers/shustring?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shustring";
+        var versions = ["2.6","2.6","2.6","2.6","2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

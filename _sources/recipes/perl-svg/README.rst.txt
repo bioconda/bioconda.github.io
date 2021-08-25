@@ -60,10 +60,23 @@ perl-svg
 .. _`perl-svg/tags`: https://quay.io/repository/biocontainers/perl-svg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-svg";
+        var versions = ["2.84","2.64","2.64","2.64"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -63,6 +63,13 @@ kinamine_y_shaker
 .. _`kinamine_y_shaker/tags`: https://quay.io/repository/biocontainers/kinamine_y_shaker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kinamine_y_shaker";
+        var versions = ["1.0.0","1.0.0"];
+    </script>
+
 
 
 
@@ -72,6 +79,12 @@ Notes
 Kinamine is a Java program originally written by Kevin Murray of UMN and updated by John Blankenhorn also of UMN
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

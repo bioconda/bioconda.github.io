@@ -63,10 +63,23 @@ bioconductor-herper
 .. _`bioconductor-herper/tags`: https://quay.io/repository/biocontainers/bioconductor-herper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-herper";
+        var versions = ["1.2.0","1.0.2","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

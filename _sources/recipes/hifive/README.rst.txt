@@ -79,10 +79,23 @@ hifive
 .. _`hifive/tags`: https://quay.io/repository/biocontainers/hifive?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hifive";
+        var versions = ["1.5.7","1.5.7","1.5.7","1.5.7","1.5.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

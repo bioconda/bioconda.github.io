@@ -71,10 +71,23 @@ art
 .. _`art/tags`: https://quay.io/repository/biocontainers/art?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "art";
+        var versions = ["2016.06.05","2016.06.05","2016.06.05","2016.06.05","2016.06.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

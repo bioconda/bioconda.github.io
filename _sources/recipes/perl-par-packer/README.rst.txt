@@ -66,10 +66,23 @@ perl-par-packer
 .. _`perl-par-packer/tags`: https://quay.io/repository/biocontainers/perl-par-packer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-par-packer";
+        var versions = ["1.036","1.036","1.036"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

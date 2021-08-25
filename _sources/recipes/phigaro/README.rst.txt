@@ -74,10 +74,23 @@ phigaro
 .. _`phigaro/tags`: https://quay.io/repository/biocontainers/phigaro?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phigaro";
+        var versions = ["2.3.0","2.3.0","2.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

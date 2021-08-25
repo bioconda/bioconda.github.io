@@ -60,10 +60,23 @@ vnl
 .. _`vnl/tags`: https://quay.io/repository/biocontainers/vnl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vnl";
+        var versions = ["1.17.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ manorm
 .. _`manorm/tags`: https://quay.io/repository/biocontainers/manorm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "manorm";
+        var versions = ["1.3.0","1.1.4","1.1.4","1.1.3","1.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ bioconductor-hopach
 .. _`bioconductor-hopach/tags`: https://quay.io/repository/biocontainers/bioconductor-hopach?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hopach";
+        var versions = ["2.52.0","2.50.0","2.50.0","2.48.0","2.46.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ perl-params-util
 .. _`perl-params-util/tags`: https://quay.io/repository/biocontainers/perl-params-util?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-params-util";
+        var versions = ["1.07","1.07","1.07","1.07","1.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

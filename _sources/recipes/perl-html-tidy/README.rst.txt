@@ -66,10 +66,23 @@ perl-html-tidy
 .. _`perl-html-tidy/tags`: https://quay.io/repository/biocontainers/perl-html-tidy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-tidy";
+        var versions = ["1.60","1.56","1.56"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ phylovega
 .. _`phylovega/tags`: https://quay.io/repository/biocontainers/phylovega?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "phylovega";
+        var versions = ["0.3","0.2","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

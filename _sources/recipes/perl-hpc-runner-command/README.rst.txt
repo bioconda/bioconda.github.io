@@ -113,10 +113,23 @@ perl-hpc-runner-command
 .. _`perl-hpc-runner-command/tags`: https://quay.io/repository/biocontainers/perl-hpc-runner-command?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-hpc-runner-command";
+        var versions = ["3.2.13","3.2.13","3.2.11","3.2.10","3.2.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ pyega3
 .. _`pyega3/tags`: https://quay.io/repository/biocontainers/pyega3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyega3";
+        var versions = ["3.4.1","3.4.0","3.1.0","3.0.44","3.0.40"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

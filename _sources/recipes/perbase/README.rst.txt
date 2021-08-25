@@ -74,10 +74,23 @@ perbase
 .. _`perbase/tags`: https://quay.io/repository/biocontainers/perbase?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perbase";
+        var versions = ["0.7.3","0.7.2","0.6.3","0.6.3","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

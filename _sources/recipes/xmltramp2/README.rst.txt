@@ -61,10 +61,23 @@ xmltramp2
 .. _`xmltramp2/tags`: https://quay.io/repository/biocontainers/xmltramp2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "xmltramp2";
+        var versions = ["3.1.1","3.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

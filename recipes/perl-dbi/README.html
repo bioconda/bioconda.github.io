@@ -16,6 +16,9 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -134,24 +137,24 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../augustus/README.html#augustus"><strong class="xref backref">augustus</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../ensembl-vep/README.html#ensembl-vep"><strong class="xref backref">ensembl-vep</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../rsat-core/README.html#rsat-core"><strong class="xref backref">rsat-core</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-dbm-deep/README.html#perl-dbm-deep"><strong class="xref backref">perl-dbm-deep</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-atlas-modules/README.html#perl-atlas-modules"><strong class="xref backref">perl-atlas-modules</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-dbd-sqlite/README.html#perl-dbd-sqlite"><strong class="xref backref">perl-dbd-sqlite</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../trinotate/README.html#trinotate"><strong class="xref backref">trinotate</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../mqc/README.html#mqc"><strong class="xref backref">mqc</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-hpc-runner-command-plugin-logger-sqlite/README.html#perl-hpc-runner-command-plugin-logger-sqlite"><strong class="xref backref">perl-hpc-runner-command-plugin-logger-sqlite</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-log-log4perl/README.html#perl-log-log4perl"><strong class="xref backref">perl-log-log4perl</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../maker/README.html#maker"><strong class="xref backref">maker</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../evidencemodeler/README.html#evidencemodeler"><strong class="xref backref">evidencemodeler</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../orthomcl/README.html#orthomcl"><strong class="xref backref">orthomcl</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-cg-pipeline/README.html#perl-cg-pipeline"><strong class="xref backref">perl-cg-pipeline</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-dbd-mysql/README.html#perl-dbd-mysql"><strong class="xref backref">perl-dbd-mysql</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../evidencemodeler/README.html#evidencemodeler"><strong class="xref backref">evidencemodeler</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../maker/README.html#maker"><strong class="xref backref">maker</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-log-log4perl/README.html#perl-log-log4perl"><strong class="xref backref">perl-log-log4perl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-dbd-pg/README.html#perl-dbd-pg"><strong class="xref backref">perl-dbd-pg</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../trinotate/README.html#trinotate"><strong class="xref backref">trinotate</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../augustus/README.html#augustus"><strong class="xref backref">augustus</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../amos/README.html#amos"><strong class="xref backref">amos</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-atlas-modules/README.html#perl-atlas-modules"><strong class="xref backref">perl-atlas-modules</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-dbm-deep/README.html#perl-dbm-deep"><strong class="xref backref">perl-dbm-deep</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-hpc-runner-command-plugin-logger-sqlite/README.html#perl-hpc-runner-command-plugin-logger-sqlite"><strong class="xref backref">perl-hpc-runner-command-plugin-logger-sqlite</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-dbd-pg/README.html#perl-dbd-pg"><strong class="xref backref">perl-dbd-pg</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../rsat-core/README.html#rsat-core"><strong class="xref backref">rsat-core</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-bioperl-core/README.html#perl-bioperl-core"><strong class="xref backref">perl-bioperl-core</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-dbd-sqlite/README.html#perl-dbd-sqlite"><strong class="xref backref">perl-dbd-sqlite</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -171,6 +174,67 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/perl-dbi?tab=tags">perl-dbi/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
+<script>
+    var package = "perl-dbi";
+    var versions = ["1.642","1.641","1.641","1.641","1.640"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+
+<script>
+    window.onload = async function() {
+        versions = [...new Set(versions)];
+
+        let download_data = [];
+
+        for (const version of versions) {
+            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
+            await $.get({
+                url: url,
+                success: function( data ) {
+                    data = JSON.parse(data);
+                    data = data["downloads_per_date"];
+                    let first;
+                    if (data.length > 14) {
+                        first = data.length - 14;
+                    } else {
+                        first = 1;
+                    }
+                    for (let i = first; i < data.length; i++) {
+                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
+                        data[i]["version"] = version;
+                        download_data.push(data[i]);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log('error fetching data from bioconda stats repo!');
+                }
+            });
+        }
+
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart with embedded data.",
+            "data": {"values": []},
+            "width": "container",
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": true,
+                }
+            },
+            "encoding": {
+                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
+                 "color": {"field": "version", "type": "nominal"},
+                 "tooltip": {"field": "delta"}
+            }
+        };
+
+        spec.data.values = download_data;
+        vegaEmbed('#download_plot', spec);
+    }
+</script></section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-dbi/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

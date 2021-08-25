@@ -60,10 +60,23 @@ pplacer
 .. _`pplacer/tags`: https://quay.io/repository/biocontainers/pplacer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pplacer";
+        var versions = ["1.1.alpha19","1.1.alpha19","1.1.alpha19","1.1.alpha17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

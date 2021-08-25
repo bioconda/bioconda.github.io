@@ -66,10 +66,23 @@ galaxy-containers
 .. _`galaxy-containers/tags`: https://quay.io/repository/biocontainers/galaxy-containers?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-containers";
+        var versions = ["21.1.0","20.5.0","19.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

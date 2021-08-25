@@ -61,10 +61,23 @@ flash2
 .. _`flash2/tags`: https://quay.io/repository/biocontainers/flash2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "flash2";
+        var versions = ["2.2.00","2.2.00","2.2.00","2.2.00"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

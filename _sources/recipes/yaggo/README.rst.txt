@@ -60,10 +60,23 @@ yaggo
 .. _`yaggo/tags`: https://quay.io/repository/biocontainers/yaggo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "yaggo";
+        var versions = ["1.5.10","1.5.9","1.5.9","1.5.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

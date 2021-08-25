@@ -67,10 +67,23 @@ perl-mce-shared
 .. _`perl-mce-shared/tags`: https://quay.io/repository/biocontainers/perl-mce-shared?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mce-shared";
+        var versions = ["1.840","1.839","1.838","1.836","1.836"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

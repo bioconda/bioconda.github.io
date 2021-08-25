@@ -63,10 +63,23 @@ pan-plaster
 .. _`pan-plaster/tags`: https://quay.io/repository/biocontainers/pan-plaster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pan-plaster";
+        var versions = ["1.2.1","1.2.0","1.1.2","1.1.2","1.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

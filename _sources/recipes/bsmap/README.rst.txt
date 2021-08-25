@@ -66,10 +66,23 @@ bsmap
 .. _`bsmap/tags`: https://quay.io/repository/biocontainers/bsmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bsmap";
+        var versions = ["2.90","2.90","2.90","2.90"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

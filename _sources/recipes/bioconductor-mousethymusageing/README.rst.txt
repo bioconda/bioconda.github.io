@@ -66,10 +66,23 @@ bioconductor-mousethymusageing
 .. _`bioconductor-mousethymusageing/tags`: https://quay.io/repository/biocontainers/bioconductor-mousethymusageing?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mousethymusageing";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

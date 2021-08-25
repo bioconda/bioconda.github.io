@@ -62,10 +62,23 @@ bioconductor-genomes
 .. _`bioconductor-genomes/tags`: https://quay.io/repository/biocontainers/bioconductor-genomes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-genomes";
+        var versions = ["3.22.0","3.20.0","3.20.0","3.18.0","3.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

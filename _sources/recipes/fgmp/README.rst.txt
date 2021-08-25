@@ -69,10 +69,23 @@ fgmp
 .. _`fgmp/tags`: https://quay.io/repository/biocontainers/fgmp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fgmp";
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

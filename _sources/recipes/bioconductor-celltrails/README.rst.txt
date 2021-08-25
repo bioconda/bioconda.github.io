@@ -75,10 +75,23 @@ bioconductor-celltrails
 .. _`bioconductor-celltrails/tags`: https://quay.io/repository/biocontainers/bioconductor-celltrails?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-celltrails";
+        var versions = ["1.10.0","1.8.0","1.8.0","1.5.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

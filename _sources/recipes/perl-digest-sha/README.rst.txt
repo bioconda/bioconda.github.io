@@ -60,10 +60,23 @@ perl-digest-sha
 .. _`perl-digest-sha/tags`: https://quay.io/repository/biocontainers/perl-digest-sha?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-digest-sha";
+        var versions = ["5.88","5.88"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

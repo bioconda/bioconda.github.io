@@ -76,10 +76,23 @@ galaxy-lib
 .. _`galaxy-lib/tags`: https://quay.io/repository/biocontainers/galaxy-lib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-lib";
+        var versions = ["19.5.2","19.5.2","19.5.1","18.9.2","18.9.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

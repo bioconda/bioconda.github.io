@@ -68,10 +68,23 @@ biocommons.seqrepo
 .. _`biocommons.seqrepo/tags`: https://quay.io/repository/biocontainers/biocommons.seqrepo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biocommons.seqrepo";
+        var versions = ["0.6.4","0.6.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

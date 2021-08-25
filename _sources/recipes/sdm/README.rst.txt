@@ -70,10 +70,23 @@ sdm
 .. _`sdm/tags`: https://quay.io/repository/biocontainers/sdm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sdm";
+        var versions = ["1.90","1.89","1.87","1.86","1.85"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

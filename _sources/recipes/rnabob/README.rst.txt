@@ -60,10 +60,23 @@ rnabob
 .. _`rnabob/tags`: https://quay.io/repository/biocontainers/rnabob?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rnabob";
+        var versions = ["2.2.1","2.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

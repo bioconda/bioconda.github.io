@@ -70,10 +70,23 @@ elasticluster
 .. _`elasticluster/tags`: https://quay.io/repository/biocontainers/elasticluster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "elasticluster";
+        var versions = ["0.1.3bcbio","0.1.3bcbio"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

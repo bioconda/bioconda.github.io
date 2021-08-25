@@ -62,10 +62,23 @@ k8
 .. _`k8/tags`: https://quay.io/repository/biocontainers/k8?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "k8";
+        var versions = ["0.2.5","0.2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

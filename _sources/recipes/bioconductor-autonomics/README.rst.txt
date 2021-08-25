@@ -84,10 +84,23 @@ bioconductor-autonomics
 .. _`bioconductor-autonomics/tags`: https://quay.io/repository/biocontainers/bioconductor-autonomics?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-autonomics";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

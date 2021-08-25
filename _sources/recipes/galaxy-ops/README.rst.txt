@@ -61,10 +61,23 @@ galaxy-ops
 .. _`galaxy-ops/tags`: https://quay.io/repository/biocontainers/galaxy-ops?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxy-ops";
+        var versions = ["1.1.0","1.1.0","1.1.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ longstitch
 .. _`longstitch/tags`: https://quay.io/repository/biocontainers/longstitch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "longstitch";
+        var versions = ["1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

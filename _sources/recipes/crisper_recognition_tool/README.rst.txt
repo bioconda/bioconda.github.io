@@ -61,10 +61,23 @@ crisper_recognition_tool
 .. _`crisper_recognition_tool/tags`: https://quay.io/repository/biocontainers/crisper_recognition_tool?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crisper_recognition_tool";
+        var versions = ["1.2","1.2","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

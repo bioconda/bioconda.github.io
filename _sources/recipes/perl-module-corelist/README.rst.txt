@@ -61,10 +61,23 @@ perl-module-corelist
 .. _`perl-module-corelist/tags`: https://quay.io/repository/biocontainers/perl-module-corelist?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-corelist";
+        var versions = ["5.20190524","5.20190420","5.20181218","5.20181130","5.20180820"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-file-spec
 .. _`perl-file-spec/tags`: https://quay.io/repository/biocontainers/perl-file-spec?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-spec";
+        var versions = ["3.48_01","3.48_01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

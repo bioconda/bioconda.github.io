@@ -66,10 +66,23 @@ r-restfulr
 .. _`r-restfulr/tags`: https://quay.io/repository/biocontainers/r-restfulr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-restfulr";
+        var versions = ["0.0.13","0.0.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

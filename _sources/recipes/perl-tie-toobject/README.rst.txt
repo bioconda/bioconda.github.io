@@ -62,10 +62,23 @@ perl-tie-toobject
 .. _`perl-tie-toobject/tags`: https://quay.io/repository/biocontainers/perl-tie-toobject?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tie-toobject";
+        var versions = ["0.03","0.03","0.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

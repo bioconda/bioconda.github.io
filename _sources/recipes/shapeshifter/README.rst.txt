@@ -67,10 +67,23 @@ shapeshifter
 .. _`shapeshifter/tags`: https://quay.io/repository/biocontainers/shapeshifter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shapeshifter";
+        var versions = ["1.1.1","1.1.1","0.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

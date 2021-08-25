@@ -61,6 +61,13 @@ spectra-cluster-cli
 .. _`spectra-cluster-cli/tags`: https://quay.io/repository/biocontainers/spectra-cluster-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "spectra-cluster-cli";
+        var versions = ["1.1.2","1.1.2","1.0.1","1.0.1"];
+    </script>
+
 
 
 
@@ -74,6 +81,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"spectra\-cluster\-cli \-Xms512m \-Xmx1g\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

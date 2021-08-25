@@ -60,10 +60,23 @@ snpomatic
 .. _`snpomatic/tags`: https://quay.io/repository/biocontainers/snpomatic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snpomatic";
+        var versions = ["1.0","1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

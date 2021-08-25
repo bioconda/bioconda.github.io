@@ -61,10 +61,23 @@ perl-perl-ostype
 .. _`perl-perl-ostype/tags`: https://quay.io/repository/biocontainers/perl-perl-ostype?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-perl-ostype";
+        var versions = ["1.010","1.010"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

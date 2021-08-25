@@ -61,10 +61,23 @@ trimns_vgp
 .. _`trimns_vgp/tags`: https://quay.io/repository/biocontainers/trimns_vgp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trimns_vgp";
+        var versions = ["1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

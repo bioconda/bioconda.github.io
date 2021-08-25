@@ -68,10 +68,23 @@ bttoxin_scanner
 .. _`bttoxin_scanner/tags`: https://quay.io/repository/biocontainers/bttoxin_scanner?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bttoxin_scanner";
+        var versions = ["2.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

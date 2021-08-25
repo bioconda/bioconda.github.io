@@ -61,10 +61,23 @@ soapdenovo2-gapcloser
 .. _`soapdenovo2-gapcloser/tags`: https://quay.io/repository/biocontainers/soapdenovo2-gapcloser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "soapdenovo2-gapcloser";
+        var versions = ["1.12","1.12","1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

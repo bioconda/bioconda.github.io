@@ -69,10 +69,23 @@ ribocode
 .. _`ribocode/tags`: https://quay.io/repository/biocontainers/ribocode?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ribocode";
+        var versions = ["1.2.11","1.2.11","1.2.10","1.2.10","1.2.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

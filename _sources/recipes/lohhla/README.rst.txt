@@ -70,6 +70,13 @@ lohhla
 .. _`lohhla/tags`: https://quay.io/repository/biocontainers/lohhla?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lohhla";
+        var versions = ["20171108","20171108","20171108","20171108"];
+    </script>
+
 
 
 
@@ -78,6 +85,12 @@ Notes
 -----
 The tool is available as command \`lohhla\`.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

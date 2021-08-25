@@ -78,10 +78,23 @@ pygenometracks
 .. _`pygenometracks/tags`: https://quay.io/repository/biocontainers/pygenometracks?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pygenometracks";
+        var versions = ["3.6","3.5.1","3.5","3.5","3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

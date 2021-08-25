@@ -59,10 +59,23 @@ perl-lockfile-simple
 .. _`perl-lockfile-simple/tags`: https://quay.io/repository/biocontainers/perl-lockfile-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-lockfile-simple";
+        var versions = ["0.208"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-exporter-tiny
 .. _`perl-exporter-tiny/tags`: https://quay.io/repository/biocontainers/perl-exporter-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-exporter-tiny";
+        var versions = ["1.002001","1.000000","0.042","0.042"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

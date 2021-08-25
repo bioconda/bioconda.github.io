@@ -61,10 +61,23 @@ mygene
 .. _`mygene/tags`: https://quay.io/repository/biocontainers/mygene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mygene";
+        var versions = ["3.2.2","3.2.1","3.2.0","3.1.0","3.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

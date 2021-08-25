@@ -60,10 +60,23 @@ cityhash
 .. _`cityhash/tags`: https://quay.io/repository/biocontainers/cityhash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cityhash";
+        var versions = ["0.2.3.post9","0.1.7","0.1.7","0.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

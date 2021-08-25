@@ -62,10 +62,23 @@ novoplasty
 .. _`novoplasty/tags`: https://quay.io/repository/biocontainers/novoplasty?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "novoplasty";
+        var versions = ["4.2","4.2","4.0","3.8.3","3.7.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

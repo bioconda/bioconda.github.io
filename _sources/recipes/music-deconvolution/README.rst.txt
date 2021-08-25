@@ -66,10 +66,23 @@ music-deconvolution
 .. _`music-deconvolution/tags`: https://quay.io/repository/biocontainers/music-deconvolution?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "music-deconvolution";
+        var versions = ["0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

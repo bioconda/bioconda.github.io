@@ -78,10 +78,23 @@ bioconductor-cytomapper
 .. _`bioconductor-cytomapper/tags`: https://quay.io/repository/biocontainers/bioconductor-cytomapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cytomapper";
+        var versions = ["1.4.1","1.2.1","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

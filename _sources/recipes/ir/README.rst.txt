@@ -60,10 +60,23 @@ ir
 .. _`ir/tags`: https://quay.io/repository/biocontainers/ir?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ir";
+        var versions = ["2.8.0","2.8.0","2.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

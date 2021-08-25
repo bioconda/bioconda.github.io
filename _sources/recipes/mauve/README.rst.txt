@@ -67,10 +67,23 @@ mauve
 .. _`mauve/tags`: https://quay.io/repository/biocontainers/mauve?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mauve";
+        var versions = ["2.4.0.snapshot_2015_02_13","2.4.0.snapshot_2015_02_13","2.4.0.snapshot_2015_02_13","2.4.0.snapshot_2015_02_13","2.4.0.snapshot_2015_02_13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

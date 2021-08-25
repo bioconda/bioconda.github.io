@@ -63,10 +63,23 @@ perl-tie-refhash-weak
 .. _`perl-tie-refhash-weak/tags`: https://quay.io/repository/biocontainers/perl-tie-refhash-weak?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tie-refhash-weak";
+        var versions = ["0.09","0.09","0.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

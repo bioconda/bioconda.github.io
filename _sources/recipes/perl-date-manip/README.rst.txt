@@ -64,10 +64,23 @@ perl-date-manip
 .. _`perl-date-manip/tags`: https://quay.io/repository/biocontainers/perl-date-manip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-date-manip";
+        var versions = ["6.76","6.75","6.73","6.72","6.57"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

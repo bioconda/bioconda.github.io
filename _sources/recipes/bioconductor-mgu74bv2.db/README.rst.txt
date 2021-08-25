@@ -63,10 +63,23 @@ bioconductor-mgu74bv2.db
 .. _`bioconductor-mgu74bv2.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mgu74bv2.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mgu74bv2.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

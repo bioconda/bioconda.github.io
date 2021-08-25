@@ -73,10 +73,23 @@ cmash
 .. _`cmash/tags`: https://quay.io/repository/biocontainers/cmash?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cmash";
+        var versions = ["0.5.2","0.5.1","0.5.1","0.5.0","0.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

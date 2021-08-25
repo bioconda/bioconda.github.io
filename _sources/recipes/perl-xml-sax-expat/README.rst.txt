@@ -64,10 +64,23 @@ perl-xml-sax-expat
 .. _`perl-xml-sax-expat/tags`: https://quay.io/repository/biocontainers/perl-xml-sax-expat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-sax-expat";
+        var versions = ["0.51","0.51","0.51","0.51"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

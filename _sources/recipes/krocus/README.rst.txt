@@ -66,10 +66,23 @@ krocus
 .. _`krocus/tags`: https://quay.io/repository/biocontainers/krocus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "krocus";
+        var versions = ["1.0.1","1.0.1","1.0.0","0.2.3","0.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

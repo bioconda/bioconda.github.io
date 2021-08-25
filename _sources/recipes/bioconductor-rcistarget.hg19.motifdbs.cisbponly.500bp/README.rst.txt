@@ -62,10 +62,23 @@ bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
 .. _`bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp/tags`: https://quay.io/repository/biocontainers/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp";
+        var versions = ["1.12.0","1.10.0","1.10.0","1.9.0","1.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

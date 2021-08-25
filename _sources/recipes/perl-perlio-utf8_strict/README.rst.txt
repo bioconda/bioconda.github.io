@@ -63,10 +63,23 @@ perl-perlio-utf8_strict
 .. _`perl-perlio-utf8_strict/tags`: https://quay.io/repository/biocontainers/perl-perlio-utf8_strict?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-perlio-utf8_strict";
+        var versions = ["0.007","0.007","0.006","0.006"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

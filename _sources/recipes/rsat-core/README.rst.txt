@@ -138,10 +138,23 @@ rsat-core
 .. _`rsat-core/tags`: https://quay.io/repository/biocontainers/rsat-core?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rsat-core";
+        var versions = ["2020.02.29","2020.02.29","2020.02.28","2020.01.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

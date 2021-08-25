@@ -65,10 +65,23 @@ verifyidintensity
 .. _`verifyidintensity/tags`: https://quay.io/repository/biocontainers/verifyidintensity?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "verifyidintensity";
+        var versions = ["0.0.1","0.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

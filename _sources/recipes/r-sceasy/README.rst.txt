@@ -66,10 +66,23 @@ r-sceasy
 .. _`r-sceasy/tags`: https://quay.io/repository/biocontainers/r-sceasy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-sceasy";
+        var versions = ["0.0.6","0.0.6","0.0.6","0.0.5","0.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

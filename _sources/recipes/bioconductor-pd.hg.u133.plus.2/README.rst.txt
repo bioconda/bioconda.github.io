@@ -68,10 +68,23 @@ bioconductor-pd.hg.u133.plus.2
 .. _`bioconductor-pd.hg.u133.plus.2/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.hg.u133.plus.2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.hg.u133.plus.2";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

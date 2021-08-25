@@ -63,10 +63,23 @@ perl-heap-simple
 .. _`perl-heap-simple/tags`: https://quay.io/repository/biocontainers/perl-heap-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-heap-simple";
+        var versions = ["0.13","0.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

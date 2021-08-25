@@ -83,10 +83,23 @@ bioconductor-arrayexpresshts
 .. _`bioconductor-arrayexpresshts/tags`: https://quay.io/repository/biocontainers/bioconductor-arrayexpresshts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-arrayexpresshts";
+        var versions = ["1.42.0","1.36.0","1.34.2","1.32.1","1.32.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

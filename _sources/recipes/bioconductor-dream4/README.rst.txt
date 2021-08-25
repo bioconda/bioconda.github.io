@@ -62,10 +62,23 @@ bioconductor-dream4
 .. _`bioconductor-dream4/tags`: https://quay.io/repository/biocontainers/bioconductor-dream4?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-dream4";
+        var versions = ["1.28.0","1.26.0","1.26.0","1.24.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

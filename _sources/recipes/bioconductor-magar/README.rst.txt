@@ -77,10 +77,23 @@ bioconductor-magar
 .. _`bioconductor-magar/tags`: https://quay.io/repository/biocontainers/bioconductor-magar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-magar";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

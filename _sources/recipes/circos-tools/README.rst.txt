@@ -78,10 +78,23 @@ circos-tools
 .. _`circos-tools/tags`: https://quay.io/repository/biocontainers/circos-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "circos-tools";
+        var versions = ["0.23","0.23","0.23","0.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ velvet-sc
 .. _`velvet-sc/tags`: https://quay.io/repository/biocontainers/velvet-sc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "velvet-sc";
+        var versions = ["0.7.62","0.7.62","0.7.62","0.7.62","0.7.62"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

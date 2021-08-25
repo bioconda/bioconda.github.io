@@ -63,10 +63,23 @@ shortstack
 .. _`shortstack/tags`: https://quay.io/repository/biocontainers/shortstack?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shortstack";
+        var versions = ["3.8.5","3.8.5","3.8.5","3.8.5","3.8.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

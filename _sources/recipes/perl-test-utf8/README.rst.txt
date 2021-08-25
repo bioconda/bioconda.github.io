@@ -60,10 +60,23 @@ perl-test-utf8
 .. _`perl-test-utf8/tags`: https://quay.io/repository/biocontainers/perl-test-utf8?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-utf8";
+        var versions = ["1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

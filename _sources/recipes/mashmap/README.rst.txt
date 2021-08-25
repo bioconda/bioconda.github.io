@@ -63,10 +63,23 @@ mashmap
 .. _`mashmap/tags`: https://quay.io/repository/biocontainers/mashmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mashmap";
+        var versions = ["2.0","2.0","2.0","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

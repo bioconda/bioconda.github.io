@@ -65,10 +65,23 @@ treekin
 .. _`treekin/tags`: https://quay.io/repository/biocontainers/treekin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "treekin";
+        var versions = ["0.5.1","0.5.1","0.4.2","0.4.2","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -66,10 +66,23 @@ perl-moosex-role-withoverloading
 .. _`perl-moosex-role-withoverloading/tags`: https://quay.io/repository/biocontainers/perl-moosex-role-withoverloading?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-role-withoverloading";
+        var versions = ["0.17","0.17"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

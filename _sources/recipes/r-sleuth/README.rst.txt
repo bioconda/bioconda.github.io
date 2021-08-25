@@ -71,10 +71,23 @@ r-sleuth
 .. _`r-sleuth/tags`: https://quay.io/repository/biocontainers/r-sleuth?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-sleuth";
+        var versions = ["0.30.0","0.30.0","0.30.0","0.30.0","0.30.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

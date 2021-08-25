@@ -61,6 +61,13 @@ dropseq_tools
 .. _`dropseq_tools/tags`: https://quay.io/repository/biocontainers/dropseq_tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dropseq_tools";
+        var versions = ["2.4.1","2.4.0","2.4.0","2.3.0","2.0.0"];
+    </script>
+
 
 
 
@@ -69,6 +76,12 @@ Notes
 -----
 Drop\-seq\_tools utilities are wrapper shell scripts. To get help on individual tool\, use e.g. \`PolyATrimmer \-\- \-\-help\`
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

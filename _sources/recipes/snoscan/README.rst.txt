@@ -62,10 +62,23 @@ snoscan
 .. _`snoscan/tags`: https://quay.io/repository/biocontainers/snoscan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snoscan";
+        var versions = ["1.0","1.0","0.9.1","0.9.1","0.9b"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

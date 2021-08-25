@@ -74,10 +74,23 @@ bcftools
 .. _`bcftools/tags`: https://quay.io/repository/biocontainers/bcftools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bcftools";
+        var versions = ["1.13","1.12","1.12","1.11","1.10.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

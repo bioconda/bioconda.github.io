@@ -76,10 +76,23 @@ bioconductor-rtreemix
 .. _`bioconductor-rtreemix/tags`: https://quay.io/repository/biocontainers/bioconductor-rtreemix?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rtreemix";
+        var versions = ["1.54.0","1.52.0","1.52.0","1.50.0","1.48.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

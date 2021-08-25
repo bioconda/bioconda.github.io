@@ -86,10 +86,23 @@ ipyrad
 .. _`ipyrad/tags`: https://quay.io/repository/biocontainers/ipyrad?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ipyrad";
+        var versions = ["0.9.81","0.9.80","0.9.78","0.9.77","0.9.74"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

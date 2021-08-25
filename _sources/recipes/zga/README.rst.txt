@@ -74,10 +74,23 @@ zga
 .. _`zga/tags`: https://quay.io/repository/biocontainers/zga?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "zga";
+        var versions = ["0.0.9.post2","0.0.9","0.0.8","0.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

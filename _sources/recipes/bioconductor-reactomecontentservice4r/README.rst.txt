@@ -66,10 +66,23 @@ bioconductor-reactomecontentservice4r
 .. _`bioconductor-reactomecontentservice4r/tags`: https://quay.io/repository/biocontainers/bioconductor-reactomecontentservice4r?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-reactomecontentservice4r";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

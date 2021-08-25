@@ -60,10 +60,23 @@ bioconductor-widgettools
 .. _`bioconductor-widgettools/tags`: https://quay.io/repository/biocontainers/bioconductor-widgettools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-widgettools";
+        var versions = ["1.70.0","1.68.0","1.68.0","1.66.0","1.64.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

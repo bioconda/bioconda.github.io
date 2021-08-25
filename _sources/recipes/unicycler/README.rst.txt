@@ -81,10 +81,23 @@ unicycler
 .. _`unicycler/tags`: https://quay.io/repository/biocontainers/unicycler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "unicycler";
+        var versions = ["0.4.8","0.4.8","0.4.8","0.4.8","0.4.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

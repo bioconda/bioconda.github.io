@@ -76,10 +76,23 @@ shorah
 .. _`shorah/tags`: https://quay.io/repository/biocontainers/shorah?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shorah";
+        var versions = ["1.99.2","1.99.2","1.99.2","1.99.1","1.99.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-data-walk
 .. _`perl-data-walk/tags`: https://quay.io/repository/biocontainers/perl-data-walk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-walk";
+        var versions = ["2.01","2.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

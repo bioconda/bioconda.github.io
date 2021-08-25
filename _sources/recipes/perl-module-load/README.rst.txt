@@ -60,10 +60,23 @@ perl-module-load
 .. _`perl-module-load/tags`: https://quay.io/repository/biocontainers/perl-module-load?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-load";
+        var versions = ["0.32","0.32"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

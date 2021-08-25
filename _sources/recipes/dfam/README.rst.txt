@@ -65,10 +65,23 @@ dfam
 .. _`dfam/tags`: https://quay.io/repository/biocontainers/dfam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dfam";
+        var versions = ["3.3","2.0","2.0","2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

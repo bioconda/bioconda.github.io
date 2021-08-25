@@ -66,10 +66,23 @@ smudgeplot_rn
 .. _`smudgeplot_rn/tags`: https://quay.io/repository/biocontainers/smudgeplot_rn?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "smudgeplot_rn";
+        var versions = ["0.2.5_RN","0.2.5_RN","0.2.4_RN"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

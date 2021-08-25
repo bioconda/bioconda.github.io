@@ -65,10 +65,23 @@ oncopipe
 .. _`oncopipe/tags`: https://quay.io/repository/biocontainers/oncopipe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "oncopipe";
+        var versions = ["1.0.11","1.0.10","1.0.8","1.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

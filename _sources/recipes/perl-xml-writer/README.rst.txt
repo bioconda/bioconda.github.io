@@ -60,10 +60,23 @@ perl-xml-writer
 .. _`perl-xml-writer/tags`: https://quay.io/repository/biocontainers/perl-xml-writer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-writer";
+        var versions = ["0.625","0.625","0.625"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ bioconductor-epivizr
 .. _`bioconductor-epivizr/tags`: https://quay.io/repository/biocontainers/bioconductor-epivizr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-epivizr";
+        var versions = ["2.22.0","2.20.0","2.20.0","2.18.0","2.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

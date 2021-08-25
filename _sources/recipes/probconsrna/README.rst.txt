@@ -62,10 +62,23 @@ probconsrna
 .. _`probconsrna/tags`: https://quay.io/repository/biocontainers/probconsrna?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "probconsrna";
+        var versions = ["1.10","1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

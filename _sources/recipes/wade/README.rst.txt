@@ -69,10 +69,23 @@ wade
 .. _`wade/tags`: https://quay.io/repository/biocontainers/wade?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wade";
+        var versions = ["0.2.6","0.2.6","0.2.5","0.2.4","0.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

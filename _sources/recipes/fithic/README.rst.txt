@@ -66,10 +66,23 @@ fithic
 .. _`fithic/tags`: https://quay.io/repository/biocontainers/fithic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fithic";
+        var versions = ["2.0.7","2.0.6","2.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

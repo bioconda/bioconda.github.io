@@ -61,10 +61,23 @@ perl-heap-simple-xs
 .. _`perl-heap-simple-xs/tags`: https://quay.io/repository/biocontainers/perl-heap-simple-xs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-heap-simple-xs";
+        var versions = ["0.10","0.10","0.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

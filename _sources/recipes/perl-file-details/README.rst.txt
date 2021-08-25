@@ -61,10 +61,23 @@ perl-file-details
 .. _`perl-file-details/tags`: https://quay.io/repository/biocontainers/perl-file-details?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-details";
+        var versions = ["0.003","0.003"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

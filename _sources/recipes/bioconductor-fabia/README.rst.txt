@@ -65,10 +65,23 @@ bioconductor-fabia
 .. _`bioconductor-fabia/tags`: https://quay.io/repository/biocontainers/bioconductor-fabia?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-fabia";
+        var versions = ["2.38.0","2.36.0","2.36.0","2.34.0","2.32.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

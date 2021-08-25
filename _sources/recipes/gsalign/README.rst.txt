@@ -72,10 +72,23 @@ gsalign
 .. _`gsalign/tags`: https://quay.io/repository/biocontainers/gsalign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gsalign";
+        var versions = ["1.0.22","1.0.22","1.0.21","1.0.20","1.0.16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

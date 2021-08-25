@@ -84,10 +84,23 @@ instrain
 .. _`instrain/tags`: https://quay.io/repository/biocontainers/instrain?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "instrain";
+        var versions = ["1.5.4","1.5.3","1.5.2","1.5.1","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

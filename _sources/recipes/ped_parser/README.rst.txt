@@ -62,10 +62,23 @@ ped_parser
 .. _`ped_parser/tags`: https://quay.io/repository/biocontainers/ped_parser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ped_parser";
+        var versions = ["1.6.6","1.6.6","1.6.6","1.6.5","1.6.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

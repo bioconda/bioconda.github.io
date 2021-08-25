@@ -60,10 +60,23 @@ bmtool
 .. _`bmtool/tags`: https://quay.io/repository/biocontainers/bmtool?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bmtool";
+        var versions = ["3.101","3.101","3.101","3.101"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

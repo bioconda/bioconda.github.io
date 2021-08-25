@@ -73,10 +73,23 @@ chromeister
 .. _`chromeister/tags`: https://quay.io/repository/biocontainers/chromeister?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chromeister";
+        var versions = ["1.5.a","1.5.a","1.5.a","1.4","1.3.c"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

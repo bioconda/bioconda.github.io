@@ -73,10 +73,23 @@ genometools-genometools
 .. _`genometools-genometools/tags`: https://quay.io/repository/biocontainers/genometools-genometools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genometools-genometools";
+        var versions = ["1.6.1","1.6.1","1.6.1","1.6.0","1.5.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

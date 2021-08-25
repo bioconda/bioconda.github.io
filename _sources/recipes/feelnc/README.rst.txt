@@ -69,10 +69,23 @@ feelnc
 .. _`feelnc/tags`: https://quay.io/repository/biocontainers/feelnc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "feelnc";
+        var versions = ["0.2","0.1.1","0.1.1","0.1.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

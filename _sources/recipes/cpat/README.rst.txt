@@ -74,10 +74,23 @@ cpat
 .. _`cpat/tags`: https://quay.io/repository/biocontainers/cpat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cpat";
+        var versions = ["3.0.4","2.0.0","2.0.0","2.0.0","2.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

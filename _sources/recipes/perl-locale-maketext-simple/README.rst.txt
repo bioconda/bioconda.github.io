@@ -60,10 +60,23 @@ perl-locale-maketext-simple
 .. _`perl-locale-maketext-simple/tags`: https://quay.io/repository/biocontainers/perl-locale-maketext-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-locale-maketext-simple";
+        var versions = ["0.21","0.21","0.21"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

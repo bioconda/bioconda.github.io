@@ -62,10 +62,23 @@ perl-convert-binary-c
 .. _`perl-convert-binary-c/tags`: https://quay.io/repository/biocontainers/perl-convert-binary-c?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-convert-binary-c";
+        var versions = ["0.78","0.78","0.78","0.78"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

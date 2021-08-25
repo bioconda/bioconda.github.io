@@ -61,10 +61,23 @@ hr2
 .. _`hr2/tags`: https://quay.io/repository/biocontainers/hr2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hr2";
+        var versions = ["1.04","1.04","1.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

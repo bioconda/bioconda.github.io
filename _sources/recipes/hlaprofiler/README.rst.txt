@@ -67,10 +67,23 @@ hlaprofiler
 .. _`hlaprofiler/tags`: https://quay.io/repository/biocontainers/hlaprofiler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hlaprofiler";
+        var versions = ["1.0.5","1.0.5","1.0.5","1.0.5","1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

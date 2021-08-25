@@ -63,10 +63,23 @@ r-ic10
 .. _`r-ic10/tags`: https://quay.io/repository/biocontainers/r-ic10?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-ic10";
+        var versions = ["1.5","1.5","1.5","1.5","1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

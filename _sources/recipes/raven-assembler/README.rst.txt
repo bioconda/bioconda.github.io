@@ -70,10 +70,23 @@ raven-assembler
 .. _`raven-assembler/tags`: https://quay.io/repository/biocontainers/raven-assembler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "raven-assembler";
+        var versions = ["1.5.3","1.5.1","1.5.0","1.5.0","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

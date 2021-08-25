@@ -62,10 +62,23 @@ bioconductor-prostatecancergrasso
 .. _`bioconductor-prostatecancergrasso/tags`: https://quay.io/repository/biocontainers/bioconductor-prostatecancergrasso?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-prostatecancergrasso";
+        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

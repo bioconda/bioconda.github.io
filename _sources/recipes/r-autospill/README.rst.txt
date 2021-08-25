@@ -71,10 +71,23 @@ r-autospill
 .. _`r-autospill/tags`: https://quay.io/repository/biocontainers/r-autospill?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-autospill";
+        var versions = ["0.2.0","0.1.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

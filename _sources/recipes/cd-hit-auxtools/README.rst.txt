@@ -61,10 +61,23 @@ cd-hit-auxtools
 .. _`cd-hit-auxtools/tags`: https://quay.io/repository/biocontainers/cd-hit-auxtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cd-hit-auxtools";
+        var versions = ["4.8.1","4.8.1","4.6.8","4.6.8","4.6.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

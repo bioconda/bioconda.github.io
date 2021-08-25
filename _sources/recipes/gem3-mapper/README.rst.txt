@@ -71,10 +71,23 @@ gem3-mapper
 .. _`gem3-mapper/tags`: https://quay.io/repository/biocontainers/gem3-mapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gem3-mapper";
+        var versions = ["3.6.1","3.6.1","3.6.1","3.6.1","3.6.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

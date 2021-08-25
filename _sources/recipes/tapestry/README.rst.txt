@@ -71,10 +71,23 @@ tapestry
 .. _`tapestry/tags`: https://quay.io/repository/biocontainers/tapestry?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tapestry";
+        var versions = ["1.0.0","0.9.3","0.9.3","0.9.2","0.9.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

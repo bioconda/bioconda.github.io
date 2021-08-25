@@ -76,10 +76,23 @@ hyphy
 .. _`hyphy/tags`: https://quay.io/repository/biocontainers/hyphy?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hyphy";
+        var versions = ["2.5.32","2.5.31","2.5.30","2.5.30","2.5.29"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

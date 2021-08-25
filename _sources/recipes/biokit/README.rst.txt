@@ -80,10 +80,23 @@ biokit
 .. _`biokit/tags`: https://quay.io/repository/biocontainers/biokit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "biokit";
+        var versions = ["0.4.6","0.4.6","0.4.4","0.4.4","0.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

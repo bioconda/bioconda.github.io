@@ -66,10 +66,23 @@ unitig-caller
 .. _`unitig-caller/tags`: https://quay.io/repository/biocontainers/unitig-caller?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "unitig-caller";
+        var versions = ["1.2.0","1.2.0","1.2.0","1.1.0","1.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

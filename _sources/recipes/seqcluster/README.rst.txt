@@ -79,10 +79,23 @@ seqcluster
 .. _`seqcluster/tags`: https://quay.io/repository/biocontainers/seqcluster?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "seqcluster";
+        var versions = ["1.2.8","1.2.7","1.2.7","1.2.5","1.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

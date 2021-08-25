@@ -70,10 +70,23 @@ liftoff
 .. _`liftoff/tags`: https://quay.io/repository/biocontainers/liftoff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "liftoff";
+        var versions = ["1.6.1","1.6.0","1.6.0","1.5.2","1.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -84,10 +84,23 @@ bioconductor-splinter
 .. _`bioconductor-splinter/tags`: https://quay.io/repository/biocontainers/bioconductor-splinter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-splinter";
+        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

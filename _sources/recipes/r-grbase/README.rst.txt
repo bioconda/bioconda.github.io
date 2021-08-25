@@ -71,10 +71,23 @@ r-grbase
 .. _`r-grbase/tags`: https://quay.io/repository/biocontainers/r-grbase?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-grbase";
+        var versions = ["1.8_6.7","1.8_3.4","1.8_3.4","1.8_3.4","1.8_3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

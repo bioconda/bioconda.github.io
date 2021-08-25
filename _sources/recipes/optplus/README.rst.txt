@@ -61,10 +61,23 @@ optplus
 .. _`optplus/tags`: https://quay.io/repository/biocontainers/optplus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "optplus";
+        var versions = ["0.2","0.2","0.1.1","0.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

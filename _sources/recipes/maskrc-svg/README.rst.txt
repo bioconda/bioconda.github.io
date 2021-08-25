@@ -64,10 +64,23 @@ maskrc-svg
 .. _`maskrc-svg/tags`: https://quay.io/repository/biocontainers/maskrc-svg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "maskrc-svg";
+        var versions = ["0.5","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -82,10 +82,23 @@ r-speaq
 .. _`r-speaq/tags`: https://quay.io/repository/biocontainers/r-speaq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-speaq";
+        var versions = ["2.6.1","2.6.1","2.6.1","2.6.1","2.6.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

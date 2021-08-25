@@ -73,10 +73,23 @@ mirtop
 .. _`mirtop/tags`: https://quay.io/repository/biocontainers/mirtop?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mirtop";
+        var versions = ["0.4.23","0.4.23","0.4.22","0.4.21","0.4.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

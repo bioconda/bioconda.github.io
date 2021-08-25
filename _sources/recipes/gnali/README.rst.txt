@@ -82,10 +82,23 @@ gnali
 .. _`gnali/tags`: https://quay.io/repository/biocontainers/gnali?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gnali";
+        var versions = ["1.1.0","1.0.5","1.0.5","1.0.4","1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

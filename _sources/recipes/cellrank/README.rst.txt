@@ -90,6 +90,13 @@ cellrank
 .. _`cellrank/tags`: https://quay.io/repository/biocontainers/cellrank?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cellrank";
+        var versions = ["1.4.0","1.3.1","1.2.0","1.1.0","1.0.0"];
+    </script>
+
 
 .. conda:package:: cellrank-krylov
 
@@ -147,10 +154,23 @@ cellrank
 .. _`cellrank-krylov/tags`: https://quay.io/repository/biocontainers/cellrank-krylov?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cellrank";
+        var versions = ["1.4.0","1.3.1","1.2.0","1.1.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

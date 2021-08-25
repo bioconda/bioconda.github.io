@@ -65,10 +65,23 @@ perl-template-toolkit
 .. _`perl-template-toolkit/tags`: https://quay.io/repository/biocontainers/perl-template-toolkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-template-toolkit";
+        var versions = ["2.26","2.26"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

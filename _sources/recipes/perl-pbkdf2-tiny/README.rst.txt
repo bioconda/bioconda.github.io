@@ -60,10 +60,23 @@ perl-pbkdf2-tiny
 .. _`perl-pbkdf2-tiny/tags`: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pbkdf2-tiny";
+        var versions = ["0.005","0.005"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

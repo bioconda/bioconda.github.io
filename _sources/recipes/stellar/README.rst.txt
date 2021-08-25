@@ -59,10 +59,23 @@ stellar
 .. _`stellar/tags`: https://quay.io/repository/biocontainers/stellar?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "stellar";
+        var versions = ["1.4.9","1.4.9","1.4.9","1.4.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

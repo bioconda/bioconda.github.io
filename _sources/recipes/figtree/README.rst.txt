@@ -62,6 +62,13 @@ figtree
 .. _`figtree/tags`: https://quay.io/repository/biocontainers/figtree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "figtree";
+        var versions = ["1.4.4","1.4.4"];
+    </script>
+
 
 
 
@@ -75,6 +82,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"figtree \-Xms512m \-Xmx1g\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

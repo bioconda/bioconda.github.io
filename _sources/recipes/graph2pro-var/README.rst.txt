@@ -67,10 +67,23 @@ graph2pro-var
 .. _`graph2pro-var/tags`: https://quay.io/repository/biocontainers/graph2pro-var?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "graph2pro-var";
+        var versions = ["1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

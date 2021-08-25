@@ -63,10 +63,23 @@ perl-bio-tools-run-alignment-clustalw
 .. _`perl-bio-tools-run-alignment-clustalw/tags`: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-clustalw?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-tools-run-alignment-clustalw";
+        var versions = ["1.7.4","1.7.4","1.7.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

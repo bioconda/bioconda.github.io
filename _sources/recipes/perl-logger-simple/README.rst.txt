@@ -65,10 +65,23 @@ perl-logger-simple
 .. _`perl-logger-simple/tags`: https://quay.io/repository/biocontainers/perl-logger-simple?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-logger-simple";
+        var versions = ["2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

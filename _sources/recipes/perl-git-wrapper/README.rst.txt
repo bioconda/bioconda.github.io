@@ -64,10 +64,23 @@ perl-git-wrapper
 .. _`perl-git-wrapper/tags`: https://quay.io/repository/biocontainers/perl-git-wrapper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-git-wrapper";
+        var versions = ["0.048","0.047","0.047"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -95,10 +95,23 @@ jbrowse
 .. _`jbrowse/tags`: https://quay.io/repository/biocontainers/jbrowse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jbrowse";
+        var versions = ["1.16.11","1.16.11","1.16.11","1.16.10","1.16.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

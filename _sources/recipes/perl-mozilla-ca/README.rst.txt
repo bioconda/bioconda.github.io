@@ -60,10 +60,23 @@ perl-mozilla-ca
 .. _`perl-mozilla-ca/tags`: https://quay.io/repository/biocontainers/perl-mozilla-ca?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-mozilla-ca";
+        var versions = ["20180117","20180117","20160104","20160104","20160104"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

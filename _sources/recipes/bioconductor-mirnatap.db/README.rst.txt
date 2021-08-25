@@ -65,10 +65,23 @@ bioconductor-mirnatap.db
 .. _`bioconductor-mirnatap.db/tags`: https://quay.io/repository/biocontainers/bioconductor-mirnatap.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mirnatap.db";
+        var versions = ["0.99.10","0.99.10","0.99.10","0.99.10","0.99.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

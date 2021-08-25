@@ -91,10 +91,23 @@ bioconductor-gviz
 .. _`bioconductor-gviz/tags`: https://quay.io/repository/biocontainers/bioconductor-gviz?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gviz";
+        var versions = ["1.36.1","1.34.1","1.34.0","1.32.0","1.30.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

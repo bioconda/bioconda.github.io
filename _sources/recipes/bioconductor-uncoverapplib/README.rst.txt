@@ -85,10 +85,23 @@ bioconductor-uncoverapplib
 .. _`bioconductor-uncoverapplib/tags`: https://quay.io/repository/biocontainers/bioconductor-uncoverapplib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-uncoverapplib";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

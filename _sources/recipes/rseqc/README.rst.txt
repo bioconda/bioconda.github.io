@@ -77,10 +77,23 @@ rseqc
 .. _`rseqc/tags`: https://quay.io/repository/biocontainers/rseqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rseqc";
+        var versions = ["4.0.0","4.0.0","3.0.1","3.0.1","3.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

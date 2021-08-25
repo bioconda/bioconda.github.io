@@ -68,10 +68,23 @@ bioconductor-simffpe
 .. _`bioconductor-simffpe/tags`: https://quay.io/repository/biocontainers/bioconductor-simffpe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-simffpe";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

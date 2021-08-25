@@ -75,10 +75,23 @@ sparse-neighbors-search
 .. _`sparse-neighbors-search/tags`: https://quay.io/repository/biocontainers/sparse-neighbors-search?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sparse-neighbors-search";
+        var versions = ["0.7","0.7","0.6","0.6","0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

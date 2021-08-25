@@ -64,10 +64,23 @@ gatb
 .. _`gatb/tags`: https://quay.io/repository/biocontainers/gatb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gatb";
+        var versions = ["1.4.1","1.4.1","1.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

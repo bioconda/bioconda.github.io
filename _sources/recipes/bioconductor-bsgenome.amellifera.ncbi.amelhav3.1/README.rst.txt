@@ -62,10 +62,23 @@ bioconductor-bsgenome.amellifera.ncbi.amelhav3.1
 .. _`bioconductor-bsgenome.amellifera.ncbi.amelhav3.1/tags`: https://quay.io/repository/biocontainers/bioconductor-bsgenome.amellifera.ncbi.amelhav3.1?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bsgenome.amellifera.ncbi.amelhav3.1";
+        var versions = ["1.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

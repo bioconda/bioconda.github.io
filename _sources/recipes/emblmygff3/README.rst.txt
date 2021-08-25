@@ -63,10 +63,23 @@ emblmygff3
 .. _`emblmygff3/tags`: https://quay.io/repository/biocontainers/emblmygff3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "emblmygff3";
+        var versions = ["2.1","2","2","1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

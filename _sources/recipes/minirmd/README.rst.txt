@@ -62,10 +62,23 @@ minirmd
 .. _`minirmd/tags`: https://quay.io/repository/biocontainers/minirmd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "minirmd";
+        var versions = ["1.1","1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

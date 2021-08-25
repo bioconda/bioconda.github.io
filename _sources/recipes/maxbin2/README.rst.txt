@@ -70,10 +70,23 @@ maxbin2
 .. _`maxbin2/tags`: https://quay.io/repository/biocontainers/maxbin2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "maxbin2";
+        var versions = ["2.2.7","2.2.7","2.2.7","2.2.7","2.2.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

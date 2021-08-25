@@ -74,10 +74,23 @@ bioconductor-decoupler
 .. _`bioconductor-decoupler/tags`: https://quay.io/repository/biocontainers/bioconductor-decoupler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-decoupler";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

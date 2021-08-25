@@ -60,10 +60,23 @@ perl-test2
 .. _`perl-test2/tags`: https://quay.io/repository/biocontainers/perl-test2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test2";
+        var versions = ["1.302075","1.302075"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

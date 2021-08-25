@@ -74,10 +74,23 @@ bioconductor-singlecellsignalr
 .. _`bioconductor-singlecellsignalr/tags`: https://quay.io/repository/biocontainers/bioconductor-singlecellsignalr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-singlecellsignalr";
+        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

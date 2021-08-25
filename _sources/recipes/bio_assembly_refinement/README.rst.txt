@@ -62,10 +62,23 @@ bio_assembly_refinement
 .. _`bio_assembly_refinement/tags`: https://quay.io/repository/biocontainers/bio_assembly_refinement?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bio_assembly_refinement";
+        var versions = ["0.5.1","0.5.1","0.5.1","0.5.0","0.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

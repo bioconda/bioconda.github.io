@@ -61,10 +61,23 @@ cosi2
 .. _`cosi2/tags`: https://quay.io/repository/biocontainers/cosi2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cosi2";
+        var versions = ["2.3.0rc4","2.3.0rc4","2.3.0rc3","2.3.0rc2","2.3.0rc1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

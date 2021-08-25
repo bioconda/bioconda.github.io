@@ -62,10 +62,23 @@ pywdl
 .. _`pywdl/tags`: https://quay.io/repository/biocontainers/pywdl?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pywdl";
+        var versions = ["1.0.22","1.0.22","1.0.22","1.0.22"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

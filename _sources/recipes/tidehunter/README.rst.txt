@@ -70,10 +70,23 @@ tidehunter
 .. _`tidehunter/tags`: https://quay.io/repository/biocontainers/tidehunter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tidehunter";
+        var versions = ["1.5.1","1.5.0","1.4.3","1.4.3","1.4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

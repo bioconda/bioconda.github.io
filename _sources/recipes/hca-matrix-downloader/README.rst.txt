@@ -61,10 +61,23 @@ hca-matrix-downloader
 .. _`hca-matrix-downloader/tags`: https://quay.io/repository/biocontainers/hca-matrix-downloader?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hca-matrix-downloader";
+        var versions = ["0.0.4","0.0.3","0.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

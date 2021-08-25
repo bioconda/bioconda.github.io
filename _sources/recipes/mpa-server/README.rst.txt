@@ -69,10 +69,23 @@ mpa-server
 .. _`mpa-server/tags`: https://quay.io/repository/biocontainers/mpa-server?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mpa-server";
+        var versions = ["3.4","3.4","3.4","3.4","3.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

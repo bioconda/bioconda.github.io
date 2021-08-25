@@ -69,10 +69,23 @@ bioconductor-rnaseqdata.hnrnpc.bam.chr14
 .. _`bioconductor-rnaseqdata.hnrnpc.bam.chr14/tags`: https://quay.io/repository/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rnaseqdata.hnrnpc.bam.chr14";
+        var versions = ["0.30.0","0.28.0","0.28.0","0.27.0","0.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -70,10 +70,23 @@ bioconductor-diffgeneanalysis
 .. _`bioconductor-diffgeneanalysis/tags`: https://quay.io/repository/biocontainers/bioconductor-diffgeneanalysis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-diffgeneanalysis";
+        var versions = ["1.74.0","1.72.0","1.72.0","1.70.0","1.68.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ haploview
 .. _`haploview/tags`: https://quay.io/repository/biocontainers/haploview?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "haploview";
+        var versions = ["4.2","4.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ rtk
 .. _`rtk/tags`: https://quay.io/repository/biocontainers/rtk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rtk";
+        var versions = ["0.93.2","0.93.2","0.93.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

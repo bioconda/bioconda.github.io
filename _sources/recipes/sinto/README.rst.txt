@@ -63,10 +63,23 @@ sinto
 .. _`sinto/tags`: https://quay.io/repository/biocontainers/sinto?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sinto";
+        var versions = ["0.7.4","0.7.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

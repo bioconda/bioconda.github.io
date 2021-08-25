@@ -74,10 +74,23 @@ bioconductor-rnainteract
 .. _`bioconductor-rnainteract/tags`: https://quay.io/repository/biocontainers/bioconductor-rnainteract?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rnainteract";
+        var versions = ["1.40.0","1.36.0","1.34.0","1.32.0","1.30.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

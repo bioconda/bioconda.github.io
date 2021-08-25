@@ -62,10 +62,23 @@ scaffold_builder
 .. _`scaffold_builder/tags`: https://quay.io/repository/biocontainers/scaffold_builder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scaffold_builder";
+        var versions = ["2.2","2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

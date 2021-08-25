@@ -66,10 +66,23 @@ graftm
 .. _`graftm/tags`: https://quay.io/repository/biocontainers/graftm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "graftm";
+        var versions = ["0.13.1","0.12.2","0.11.1","0.10.1","0.10.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

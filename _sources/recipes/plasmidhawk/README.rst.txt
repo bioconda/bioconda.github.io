@@ -64,10 +64,23 @@ plasmidhawk
 .. _`plasmidhawk/tags`: https://quay.io/repository/biocontainers/plasmidhawk?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plasmidhawk";
+        var versions = ["1.0.3","1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

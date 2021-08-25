@@ -62,10 +62,23 @@ perl-sys-info
 .. _`perl-sys-info/tags`: https://quay.io/repository/biocontainers/perl-sys-info?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sys-info";
+        var versions = ["0.7811","0.78"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

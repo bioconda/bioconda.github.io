@@ -61,10 +61,23 @@ perl-test-pod-coverage
 .. _`perl-test-pod-coverage/tags`: https://quay.io/repository/biocontainers/perl-test-pod-coverage?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-pod-coverage";
+        var versions = ["1.10","1.10","1.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

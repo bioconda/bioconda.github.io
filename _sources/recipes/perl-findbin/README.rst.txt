@@ -60,10 +60,23 @@ perl-findbin
 .. _`perl-findbin/tags`: https://quay.io/repository/biocontainers/perl-findbin?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-findbin";
+        var versions = ["1.51","1.51","1.51"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

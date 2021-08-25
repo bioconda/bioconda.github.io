@@ -78,10 +78,23 @@ wgfast
 .. _`wgfast/tags`: https://quay.io/repository/biocontainers/wgfast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wgfast";
+        var versions = ["1.0.4","1.0.3","1.0.3","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -73,10 +73,23 @@ bedtools
 .. _`bedtools/tags`: https://quay.io/repository/biocontainers/bedtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bedtools";
+        var versions = ["2.30.0","2.30.0","2.30.0","2.29.2","2.29.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

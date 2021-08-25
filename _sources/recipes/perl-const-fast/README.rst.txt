@@ -63,10 +63,23 @@ perl-const-fast
 .. _`perl-const-fast/tags`: https://quay.io/repository/biocontainers/perl-const-fast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-const-fast";
+        var versions = ["0.014"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

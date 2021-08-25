@@ -78,10 +78,23 @@ bioconductor-summarizedexperiment
 .. _`bioconductor-summarizedexperiment/tags`: https://quay.io/repository/biocontainers/bioconductor-summarizedexperiment?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-summarizedexperiment";
+        var versions = ["1.22.0","1.20.0","1.20.0","1.18.1","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

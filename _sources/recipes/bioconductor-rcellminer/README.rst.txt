@@ -66,10 +66,23 @@ bioconductor-rcellminer
 .. _`bioconductor-rcellminer/tags`: https://quay.io/repository/biocontainers/bioconductor-rcellminer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rcellminer";
+        var versions = ["2.14.0","2.12.1","2.11.1","2.10.0","2.8.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

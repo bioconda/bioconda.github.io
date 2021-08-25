@@ -60,10 +60,23 @@ wheezy.template
 .. _`wheezy.template/tags`: https://quay.io/repository/biocontainers/wheezy.template?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wheezy.template";
+        var versions = ["0.1.178","0.1.169","0.1.167","0.1.167"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

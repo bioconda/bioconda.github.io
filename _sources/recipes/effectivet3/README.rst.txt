@@ -62,6 +62,13 @@ effectivet3
 .. _`effectivet3/tags`: https://quay.io/repository/biocontainers/effectivet3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "effectivet3";
+        var versions = ["1.0.1"];
+    </script>
+
 
 
 
@@ -76,6 +83,12 @@ If you have \_JAVA\_OPTIONS set globally this will take precedence.
 For example run it with \"effectivet3 \-Xms512m \-Xmx1g ...\"
 
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

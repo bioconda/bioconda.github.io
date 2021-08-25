@@ -73,10 +73,23 @@ perl-specio
 .. _`perl-specio/tags`: https://quay.io/repository/biocontainers/perl-specio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-specio";
+        var versions = ["0.43","0.42"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

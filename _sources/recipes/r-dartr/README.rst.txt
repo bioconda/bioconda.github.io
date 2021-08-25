@@ -88,10 +88,23 @@ r-dartr
 .. _`r-dartr/tags`: https://quay.io/repository/biocontainers/r-dartr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-dartr";
+        var versions = ["1.9.9.1","1.9.9.1","1.9.6","1.9.4","1.1.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

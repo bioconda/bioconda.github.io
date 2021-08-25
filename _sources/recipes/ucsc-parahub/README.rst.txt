@@ -65,10 +65,23 @@ ucsc-parahub
 .. _`ucsc-parahub/tags`: https://quay.io/repository/biocontainers/ucsc-parahub?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-parahub";
+        var versions = ["377","377","377","366"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

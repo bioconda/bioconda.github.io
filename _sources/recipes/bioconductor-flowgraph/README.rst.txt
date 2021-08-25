@@ -77,10 +77,23 @@ bioconductor-flowgraph
 .. _`bioconductor-flowgraph/tags`: https://quay.io/repository/biocontainers/bioconductor-flowgraph?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-flowgraph";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

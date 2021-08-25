@@ -61,10 +61,23 @@ pyscaf
 .. _`pyscaf/tags`: https://quay.io/repository/biocontainers/pyscaf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyscaf";
+        var versions = ["0.12a4","0.12a4","0.12a4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

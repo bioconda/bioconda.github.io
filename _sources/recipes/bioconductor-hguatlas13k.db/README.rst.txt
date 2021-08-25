@@ -63,10 +63,23 @@ bioconductor-hguatlas13k.db
 .. _`bioconductor-hguatlas13k.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hguatlas13k.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hguatlas13k.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

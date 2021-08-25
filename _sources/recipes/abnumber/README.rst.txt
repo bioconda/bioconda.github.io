@@ -71,10 +71,23 @@ abnumber
 .. _`abnumber/tags`: https://quay.io/repository/biocontainers/abnumber?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "abnumber";
+        var versions = ["0.2.7","0.2.7","0.2.6","0.2.5","0.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

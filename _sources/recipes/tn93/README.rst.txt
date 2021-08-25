@@ -62,10 +62,23 @@ tn93
 .. _`tn93/tags`: https://quay.io/repository/biocontainers/tn93?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tn93";
+        var versions = ["1.0.6","1.0.6","1.0.6","1.0.4","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

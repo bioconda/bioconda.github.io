@@ -63,10 +63,23 @@ arcs
 .. _`arcs/tags`: https://quay.io/repository/biocontainers/arcs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "arcs";
+        var versions = ["1.2.2","1.2.1","1.2.1","1.2.1","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

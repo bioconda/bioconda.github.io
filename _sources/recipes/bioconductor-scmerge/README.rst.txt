@@ -74,10 +74,23 @@ bioconductor-scmerge
 .. _`bioconductor-scmerge/tags`: https://quay.io/repository/biocontainers/bioconductor-scmerge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-scmerge";
+        var versions = ["1.8.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ assemblyutility
 .. _`assemblyutility/tags`: https://quay.io/repository/biocontainers/assemblyutility?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "assemblyutility";
+        var versions = ["20160209","20160209","20160209","20160209","20160209"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

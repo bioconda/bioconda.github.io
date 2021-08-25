@@ -67,10 +67,23 @@ imctools
 .. _`imctools/tags`: https://quay.io/repository/biocontainers/imctools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "imctools";
+        var versions = ["1.0.8","1.0.7","1.0.6","1.0.5","1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

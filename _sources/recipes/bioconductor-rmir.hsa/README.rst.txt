@@ -62,10 +62,23 @@ bioconductor-rmir.hsa
 .. _`bioconductor-rmir.hsa/tags`: https://quay.io/repository/biocontainers/bioconductor-rmir.hsa?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rmir.hsa";
+        var versions = ["1.0.5","1.0.5","1.0.5","1.0.5","1.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

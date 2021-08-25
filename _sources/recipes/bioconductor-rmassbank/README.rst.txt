@@ -78,10 +78,23 @@ bioconductor-rmassbank
 .. _`bioconductor-rmassbank/tags`: https://quay.io/repository/biocontainers/bioconductor-rmassbank?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rmassbank";
+        var versions = ["3.2.0","3.0.0","3.0.0","2.13.0","2.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

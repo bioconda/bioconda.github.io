@@ -64,6 +64,13 @@ pblat
 .. _`pblat/tags`: https://quay.io/repository/biocontainers/pblat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pblat";
+        var versions = ["2.5","2.5","2.4","2.3"];
+    </script>
+
 
 
 
@@ -72,6 +79,12 @@ Notes
 -----
 pblat is modified from blat\, the licence is the same as blat. The source code and executables are freely available for academic\, nonprofit and personal use. Commercial licensing information is available on the Kent Informatics website. To cite\: Wang M \& Kong L. pblat\: a multithread blat algorithm speeding up aligning sequences to genomes. BMC Bioinformatics 2019\, 20\(1\).
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

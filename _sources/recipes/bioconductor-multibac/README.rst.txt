@@ -64,10 +64,23 @@ bioconductor-multibac
 .. _`bioconductor-multibac/tags`: https://quay.io/repository/biocontainers/bioconductor-multibac?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-multibac";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

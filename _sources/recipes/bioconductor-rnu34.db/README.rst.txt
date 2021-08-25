@@ -63,10 +63,23 @@ bioconductor-rnu34.db
 .. _`bioconductor-rnu34.db/tags`: https://quay.io/repository/biocontainers/bioconductor-rnu34.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rnu34.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

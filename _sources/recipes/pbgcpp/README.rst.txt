@@ -59,10 +59,23 @@ pbgcpp
 .. _`pbgcpp/tags`: https://quay.io/repository/biocontainers/pbgcpp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pbgcpp";
+        var versions = ["2.0.2","2.0.2","2.0.0","1.9.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

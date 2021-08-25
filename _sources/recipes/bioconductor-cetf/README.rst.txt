@@ -84,10 +84,23 @@ bioconductor-cetf
 .. _`bioconductor-cetf/tags`: https://quay.io/repository/biocontainers/bioconductor-cetf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cetf";
+        var versions = ["1.4.0","1.2.4","1.2.2","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -76,10 +76,23 @@ sabre
 .. _`sabre/tags`: https://quay.io/repository/biocontainers/sabre?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sabre";
+        var versions = ["1.000","1.000","1.000"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

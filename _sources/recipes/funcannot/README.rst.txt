@@ -61,10 +61,23 @@ funcannot
 .. _`funcannot/tags`: https://quay.io/repository/biocontainers/funcannot?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "funcannot";
+        var versions = ["v2.8","v2.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

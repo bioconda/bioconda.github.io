@@ -60,10 +60,23 @@ jvarkit-bam2svg
 .. _`jvarkit-bam2svg/tags`: https://quay.io/repository/biocontainers/jvarkit-bam2svg?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "jvarkit-bam2svg";
+        var versions = ["201904251722","201904251722"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

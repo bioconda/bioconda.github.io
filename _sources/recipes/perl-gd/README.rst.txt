@@ -72,10 +72,23 @@ perl-gd
 .. _`perl-gd/tags`: https://quay.io/repository/biocontainers/perl-gd?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-gd";
+        var versions = ["2.71","2.70","2.70","2.69","2.68"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

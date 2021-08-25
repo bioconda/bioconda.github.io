@@ -74,10 +74,23 @@ ldblockshow
 .. _`ldblockshow/tags`: https://quay.io/repository/biocontainers/ldblockshow?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ldblockshow";
+        var versions = ["1.40","1.38","1.37","1.36","1.35"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

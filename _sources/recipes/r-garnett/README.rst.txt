@@ -83,10 +83,23 @@ r-garnett
 .. _`r-garnett/tags`: https://quay.io/repository/biocontainers/r-garnett?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-garnett";
+        var versions = ["0.2.8","0.2.8","0.2.8","0.2.8","0.1.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

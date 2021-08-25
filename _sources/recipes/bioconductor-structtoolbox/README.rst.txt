@@ -86,10 +86,23 @@ bioconductor-structtoolbox
 .. _`bioconductor-structtoolbox/tags`: https://quay.io/repository/biocontainers/bioconductor-structtoolbox?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-structtoolbox";
+        var versions = ["1.4.1","1.4.0","1.4.0","1.2.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

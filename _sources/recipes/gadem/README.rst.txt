@@ -60,10 +60,23 @@ gadem
 .. _`gadem/tags`: https://quay.io/repository/biocontainers/gadem?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gadem";
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

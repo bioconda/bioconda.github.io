@@ -60,10 +60,23 @@ perl-file-sort
 .. _`perl-file-sort/tags`: https://quay.io/repository/biocontainers/perl-file-sort?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-sort";
+        var versions = ["1.01","1.01","1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

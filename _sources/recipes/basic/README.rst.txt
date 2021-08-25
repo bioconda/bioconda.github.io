@@ -61,10 +61,23 @@ basic
 .. _`basic/tags`: https://quay.io/repository/biocontainers/basic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "basic";
+        var versions = ["1.5.1","1.5.1","1.5.0","1.4.1","1.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

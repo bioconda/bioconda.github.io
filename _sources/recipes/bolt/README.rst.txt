@@ -64,10 +64,23 @@ bolt
 .. _`bolt/tags`: https://quay.io/repository/biocontainers/bolt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bolt";
+        var versions = ["0.3.0","0.3.0","0.3.0","0.2.3","0.2.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

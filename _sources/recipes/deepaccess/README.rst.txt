@@ -70,10 +70,23 @@ deepaccess
 .. _`deepaccess/tags`: https://quay.io/repository/biocontainers/deepaccess?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deepaccess";
+        var versions = ["0.1.3","0.1.2","0.1.1","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

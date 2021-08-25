@@ -60,10 +60,23 @@ perl-email-date-format
 .. _`perl-email-date-format/tags`: https://quay.io/repository/biocontainers/perl-email-date-format?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-email-date-format";
+        var versions = ["1.005","1.005","1.005"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

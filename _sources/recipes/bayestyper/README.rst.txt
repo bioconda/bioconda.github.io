@@ -62,10 +62,23 @@ bayestyper
 .. _`bayestyper/tags`: https://quay.io/repository/biocontainers/bayestyper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bayestyper";
+        var versions = ["1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

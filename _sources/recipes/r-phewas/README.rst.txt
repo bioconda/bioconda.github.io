@@ -74,10 +74,23 @@ r-phewas
 .. _`r-phewas/tags`: https://quay.io/repository/biocontainers/r-phewas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-phewas";
+        var versions = ["0.12.1","0.12.1","0.12.1","0.12.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

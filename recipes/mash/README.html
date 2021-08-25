@@ -16,6 +16,9 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -139,41 +142,41 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../genometreetk/README.html#genometreetk"><strong class="xref backref">genometreetk</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../scagaire/README.html#scagaire"><strong class="xref backref">scagaire</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../parsnp/README.html#parsnp"><strong class="xref backref">parsnp</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../plasmidid/README.html#plasmidid"><strong class="xref backref">plasmidid</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mashtree/README.html#mashtree"><strong class="xref backref">mashtree</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mob_suite/README.html#mob_suite"><strong class="xref backref">mob_suite</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pyseer/README.html#pyseer"><strong class="xref backref">pyseer</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../jolytree/README.html#jolytree"><strong class="xref backref">jolytree</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../flanker/README.html#flanker"><strong class="xref backref">flanker</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bohra/README.html#bohra"><strong class="xref backref">bohra</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../referenceseeker/README.html#referenceseeker"><strong class="xref backref">referenceseeker</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../taranis/README.html#taranis"><strong class="xref backref">taranis</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../zga/README.html#zga"><strong class="xref backref">zga</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../panaroo/README.html#panaroo"><strong class="xref backref">panaroo</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../sistr_cmd/README.html#sistr_cmd"><strong class="xref backref">sistr_cmd</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../nullarbor/README.html#nullarbor"><strong class="xref backref">nullarbor</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../homopolish/README.html#homopolish"><strong class="xref backref">homopolish</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../magpurify/README.html#magpurify"><strong class="xref backref">magpurify</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pgcgap/README.html#pgcgap"><strong class="xref backref">pgcgap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../squeegee/README.html#squeegee"><strong class="xref backref">squeegee</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bactopia/README.html#bactopia"><strong class="xref backref">bactopia</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../trycycler/README.html#trycycler"><strong class="xref backref">trycycler</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../gtdbtk/README.html#gtdbtk"><strong class="xref backref">gtdbtk</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../refseq_masher/README.html#refseq_masher"><strong class="xref backref">refseq_masher</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../drep/README.html#drep"><strong class="xref backref">drep</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../panacota/README.html#panacota"><strong class="xref backref">panacota</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../kleborate/README.html#kleborate"><strong class="xref backref">kleborate</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ectyper/README.html#ectyper"><strong class="xref backref">ectyper</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../phylophlan/README.html#phylophlan"><strong class="xref backref">phylophlan</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../meta-sparse/README.html#meta-sparse"><strong class="xref backref">meta-sparse</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../sketchy/README.html#sketchy"><strong class="xref backref">sketchy</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../confindr/README.html#confindr"><strong class="xref backref">confindr</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../wgfast/README.html#wgfast"><strong class="xref backref">wgfast</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pyseer/README.html#pyseer"><strong class="xref backref">pyseer</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../meta-sparse/README.html#meta-sparse"><strong class="xref backref">meta-sparse</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../phylophlan/README.html#phylophlan"><strong class="xref backref">phylophlan</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bohra/README.html#bohra"><strong class="xref backref">bohra</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../drep/README.html#drep"><strong class="xref backref">drep</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../squeegee/README.html#squeegee"><strong class="xref backref">squeegee</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../taranis/README.html#taranis"><strong class="xref backref">taranis</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../trycycler/README.html#trycycler"><strong class="xref backref">trycycler</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../jolytree/README.html#jolytree"><strong class="xref backref">jolytree</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../panacota/README.html#panacota"><strong class="xref backref">panacota</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../genometreetk/README.html#genometreetk"><strong class="xref backref">genometreetk</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../zga/README.html#zga"><strong class="xref backref">zga</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../nullarbor/README.html#nullarbor"><strong class="xref backref">nullarbor</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../scagaire/README.html#scagaire"><strong class="xref backref">scagaire</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../flanker/README.html#flanker"><strong class="xref backref">flanker</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bactopia/README.html#bactopia"><strong class="xref backref">bactopia</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../sistr_cmd/README.html#sistr_cmd"><strong class="xref backref">sistr_cmd</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../magpurify/README.html#magpurify"><strong class="xref backref">magpurify</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ectyper/README.html#ectyper"><strong class="xref backref">ectyper</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../aquamis/README.html#aquamis"><strong class="xref backref">aquamis</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../referenceseeker/README.html#referenceseeker"><strong class="xref backref">referenceseeker</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../mob_suite/README.html#mob_suite"><strong class="xref backref">mob_suite</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pgcgap/README.html#pgcgap"><strong class="xref backref">pgcgap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../mashtree/README.html#mashtree"><strong class="xref backref">mashtree</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../homopolish/README.html#homopolish"><strong class="xref backref">homopolish</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../sketchy/README.html#sketchy"><strong class="xref backref">sketchy</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../panaroo/README.html#panaroo"><strong class="xref backref">panaroo</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../skmer/README.html#skmer"><strong class="xref backref">skmer</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../gtdbtk/README.html#gtdbtk"><strong class="xref backref">gtdbtk</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../kleborate/README.html#kleborate"><strong class="xref backref">kleborate</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../confindr/README.html#confindr"><strong class="xref backref">confindr</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../parsnp/README.html#parsnp"><strong class="xref backref">parsnp</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../refseq_masher/README.html#refseq_masher"><strong class="xref backref">refseq_masher</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -193,6 +196,67 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/mash?tab=tags">mash/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
+<script>
+    var package = "mash";
+    var versions = ["2.3","2.3","2.2.2","2.2.2","2.2.2"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+
+<script>
+    window.onload = async function() {
+        versions = [...new Set(versions)];
+
+        let download_data = [];
+
+        for (const version of versions) {
+            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
+            await $.get({
+                url: url,
+                success: function( data ) {
+                    data = JSON.parse(data);
+                    data = data["downloads_per_date"];
+                    let first;
+                    if (data.length > 14) {
+                        first = data.length - 14;
+                    } else {
+                        first = 1;
+                    }
+                    for (let i = first; i < data.length; i++) {
+                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
+                        data[i]["version"] = version;
+                        download_data.push(data[i]);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log('error fetching data from bioconda stats repo!');
+                }
+            });
+        }
+
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart with embedded data.",
+            "data": {"values": []},
+            "width": "container",
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": true,
+                }
+            },
+            "encoding": {
+                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
+                 "color": {"field": "version", "type": "nominal"},
+                 "tooltip": {"field": "delta"}
+            }
+        };
+
+        spec.data.values = download_data;
+        vegaEmbed('#download_plot', spec);
+    }
+</script></section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/mash/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

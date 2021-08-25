@@ -63,10 +63,23 @@ kmer-jellyfish
 .. _`kmer-jellyfish/tags`: https://quay.io/repository/biocontainers/kmer-jellyfish?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kmer-jellyfish";
+        var versions = ["2.3.0","2.3.0","2.3.0","1.1.12","1.1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-findbin-real
 .. _`perl-findbin-real/tags`: https://quay.io/repository/biocontainers/perl-findbin-real?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-findbin-real";
+        var versions = ["1.05"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

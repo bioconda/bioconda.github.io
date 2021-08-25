@@ -60,10 +60,23 @@ genepop
 .. _`genepop/tags`: https://quay.io/repository/biocontainers/genepop?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genepop";
+        var versions = ["4.6","4.5.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

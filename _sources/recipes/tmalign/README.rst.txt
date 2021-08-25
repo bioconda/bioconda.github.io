@@ -63,10 +63,23 @@ tmalign
 .. _`tmalign/tags`: https://quay.io/repository/biocontainers/tmalign?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tmalign";
+        var versions = ["20170708","20170708","20170708","20170708"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-hgu133atagcdf
 .. _`bioconductor-hgu133atagcdf/tags`: https://quay.io/repository/biocontainers/bioconductor-hgu133atagcdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hgu133atagcdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

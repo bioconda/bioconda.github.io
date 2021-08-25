@@ -68,10 +68,23 @@ bioconductor-ensemblvep
 .. _`bioconductor-ensemblvep/tags`: https://quay.io/repository/biocontainers/bioconductor-ensemblvep?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ensemblvep";
+        var versions = ["1.34.0","1.32.1","1.32.0","1.30.0","1.28.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

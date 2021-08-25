@@ -63,10 +63,23 @@ bioconductor-txdb.rnorvegicus.biomart.igis
 .. _`bioconductor-txdb.rnorvegicus.biomart.igis/tags`: https://quay.io/repository/biocontainers/bioconductor-txdb.rnorvegicus.biomart.igis?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-txdb.rnorvegicus.biomart.igis";
+        var versions = ["2.3.2","2.3.2","2.3.2","2.3.2","2.3.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

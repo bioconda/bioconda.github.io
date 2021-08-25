@@ -62,10 +62,23 @@ skewer
 .. _`skewer/tags`: https://quay.io/repository/biocontainers/skewer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "skewer";
+        var versions = ["0.2.2","0.2.2","0.2.2","0.2.2","0.1.126"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

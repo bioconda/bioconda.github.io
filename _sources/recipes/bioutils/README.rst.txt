@@ -62,10 +62,23 @@ bioutils
 .. _`bioutils/tags`: https://quay.io/repository/biocontainers/bioutils?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioutils";
+        var versions = ["0.5.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

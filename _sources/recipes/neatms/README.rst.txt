@@ -70,10 +70,23 @@ neatms
 .. _`neatms/tags`: https://quay.io/repository/biocontainers/neatms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "neatms";
+        var versions = ["0.7","0.6","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

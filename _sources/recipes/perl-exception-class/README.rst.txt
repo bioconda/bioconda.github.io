@@ -62,10 +62,23 @@ perl-exception-class
 .. _`perl-exception-class/tags`: https://quay.io/repository/biocontainers/perl-exception-class?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-exception-class";
+        var versions = ["1.44","1.40","1.40","1.40"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ sorted_nearest
 .. _`sorted_nearest/tags`: https://quay.io/repository/biocontainers/sorted_nearest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sorted_nearest";
+        var versions = ["0.0.33","0.0.32","0.0.32","0.0.31","0.0.31"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

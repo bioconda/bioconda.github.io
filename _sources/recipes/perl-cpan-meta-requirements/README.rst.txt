@@ -62,10 +62,23 @@ perl-cpan-meta-requirements
 .. _`perl-cpan-meta-requirements/tags`: https://quay.io/repository/biocontainers/perl-cpan-meta-requirements?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-cpan-meta-requirements";
+        var versions = ["2.140"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

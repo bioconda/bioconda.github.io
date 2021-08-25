@@ -71,10 +71,23 @@ ncbi-genome-download
 .. _`ncbi-genome-download/tags`: https://quay.io/repository/biocontainers/ncbi-genome-download?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncbi-genome-download";
+        var versions = ["0.3.0","0.3.0","0.2.12","0.2.11","0.2.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

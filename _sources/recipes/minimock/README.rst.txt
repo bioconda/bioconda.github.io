@@ -60,10 +60,23 @@ minimock
 .. _`minimock/tags`: https://quay.io/repository/biocontainers/minimock?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "minimock";
+        var versions = ["1.2.8","1.2.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

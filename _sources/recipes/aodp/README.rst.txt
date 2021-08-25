@@ -64,10 +64,23 @@ aodp
 .. _`aodp/tags`: https://quay.io/repository/biocontainers/aodp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "aodp";
+        var versions = ["2.5.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

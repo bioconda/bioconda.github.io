@@ -62,10 +62,23 @@ perl-bio-db-sam
 .. _`perl-bio-db-sam/tags`: https://quay.io/repository/biocontainers/perl-bio-db-sam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-db-sam";
+        var versions = ["1.41","1.41","1.41"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

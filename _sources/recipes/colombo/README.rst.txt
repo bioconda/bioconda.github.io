@@ -73,6 +73,13 @@ colombo
 .. _`colombo/tags`: https://quay.io/repository/biocontainers/colombo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "colombo";
+        var versions = ["4.0","4.0","3.8","3.8","v4.0"];
+    </script>
+
 
 
 
@@ -81,6 +88,12 @@ Notes
 -----
 Wrapper scripts are provided to handle Colombo needing to be run with the working directory in its own folder
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

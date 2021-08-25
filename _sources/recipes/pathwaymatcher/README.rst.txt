@@ -62,6 +62,13 @@ pathwaymatcher
 .. _`pathwaymatcher/tags`: https://quay.io/repository/biocontainers/pathwaymatcher?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pathwaymatcher";
+        var versions = ["1.9.1","1.9.1","1.9.1","1.8.1","1.8.1"];
+    </script>
+
 
 
 
@@ -75,6 +82,12 @@ specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"java \-Xms512m \-Xmx1g \-jar PathwayMatcher.jar\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ perl-test-mockmodule
 .. _`perl-test-mockmodule/tags`: https://quay.io/repository/biocontainers/perl-test-mockmodule?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-test-mockmodule";
+        var versions = ["0.13","0.13","0.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

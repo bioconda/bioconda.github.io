@@ -61,10 +61,23 @@ dedup
 .. _`dedup/tags`: https://quay.io/repository/biocontainers/dedup?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dedup";
+        var versions = ["0.12.8","0.12.8","0.12.7","0.12.6","0.12.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

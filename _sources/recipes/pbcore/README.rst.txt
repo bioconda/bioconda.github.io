@@ -72,10 +72,23 @@ pbcore
 .. _`pbcore/tags`: https://quay.io/repository/biocontainers/pbcore?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pbcore";
+        var versions = ["2.1.2","2.1.2","2.1.2","1.7.1","1.6.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

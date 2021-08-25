@@ -73,10 +73,23 @@ scalpel
 .. _`scalpel/tags`: https://quay.io/repository/biocontainers/scalpel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scalpel";
+        var versions = ["0.5.4","0.5.4","0.5.4","0.5.4","0.5.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ ibdseq
 .. _`ibdseq/tags`: https://quay.io/repository/biocontainers/ibdseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ibdseq";
+        var versions = ["r1206","r1206","r1206","r1206"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

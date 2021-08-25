@@ -60,10 +60,23 @@ ibdne
 .. _`ibdne/tags`: https://quay.io/repository/biocontainers/ibdne?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ibdne";
+        var versions = ["04Sep15.e78","04Sep15.e78","04Sep15.e78","04Sep15.e78"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

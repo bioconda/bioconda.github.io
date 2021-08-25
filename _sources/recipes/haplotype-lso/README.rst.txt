@@ -87,10 +87,23 @@ haplotype-lso
 .. _`haplotype-lso/tags`: https://quay.io/repository/biocontainers/haplotype-lso?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "haplotype-lso";
+        var versions = ["0.4.4","0.4.4","0.4.4","0.4.4","0.4.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

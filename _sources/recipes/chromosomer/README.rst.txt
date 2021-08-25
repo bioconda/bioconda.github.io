@@ -63,10 +63,23 @@ chromosomer
 .. _`chromosomer/tags`: https://quay.io/repository/biocontainers/chromosomer?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chromosomer";
+        var versions = ["0.1.4a","0.1.4a","0.1.4a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

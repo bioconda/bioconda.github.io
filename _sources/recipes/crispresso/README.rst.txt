@@ -76,10 +76,23 @@ crispresso
 .. _`crispresso/tags`: https://quay.io/repository/biocontainers/crispresso?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crispresso";
+        var versions = ["1.0.13","1.0.13","1.0.13","1.0.13","1.0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

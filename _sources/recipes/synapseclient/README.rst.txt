@@ -76,10 +76,23 @@ synapseclient
 .. _`synapseclient/tags`: https://quay.io/repository/biocontainers/synapseclient?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "synapseclient";
+        var versions = ["2.4.0","2.3.1","2.3.0","2.2.2","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

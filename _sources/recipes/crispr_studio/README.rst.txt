@@ -65,10 +65,23 @@ crispr_studio
 .. _`crispr_studio/tags`: https://quay.io/repository/biocontainers/crispr_studio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "crispr_studio";
+        var versions = ["1","1","1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

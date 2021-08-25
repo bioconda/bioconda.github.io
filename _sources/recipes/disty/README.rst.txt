@@ -62,10 +62,23 @@ disty
 .. _`disty/tags`: https://quay.io/repository/biocontainers/disty?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "disty";
+        var versions = ["0.1.0","0.1.0","0.1.0","0.1.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

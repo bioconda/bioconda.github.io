@@ -60,10 +60,23 @@ roary2fripan.py
 .. _`roary2fripan.py/tags`: https://quay.io/repository/biocontainers/roary2fripan.py?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "roary2fripan.py";
+        var versions = ["0.1","0.1","0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

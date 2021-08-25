@@ -62,10 +62,23 @@ bioconductor-rae230acdf
 .. _`bioconductor-rae230acdf/tags`: https://quay.io/repository/biocontainers/bioconductor-rae230acdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rae230acdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

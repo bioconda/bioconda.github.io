@@ -80,10 +80,23 @@ scmap-cli
 .. _`scmap-cli/tags`: https://quay.io/repository/biocontainers/scmap-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scmap-cli";
+        var versions = ["0.0.11","0.0.11","0.0.10","0.0.9","0.0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

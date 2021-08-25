@@ -84,10 +84,23 @@ bttoxin_digger
 .. _`bttoxin_digger/tags`: https://quay.io/repository/biocontainers/bttoxin_digger?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bttoxin_digger";
+        var versions = ["1.0.10","1.0.9","1.0.8","1.0.7","1.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

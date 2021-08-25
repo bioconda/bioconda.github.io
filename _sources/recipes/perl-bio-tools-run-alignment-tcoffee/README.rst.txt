@@ -62,10 +62,23 @@ perl-bio-tools-run-alignment-tcoffee
 .. _`perl-bio-tools-run-alignment-tcoffee/tags`: https://quay.io/repository/biocontainers/perl-bio-tools-run-alignment-tcoffee?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-tools-run-alignment-tcoffee";
+        var versions = ["1.7.4","1.7.4","1.7.4","1.7.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

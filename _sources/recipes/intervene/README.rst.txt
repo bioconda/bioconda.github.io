@@ -81,10 +81,23 @@ intervene
 .. _`intervene/tags`: https://quay.io/repository/biocontainers/intervene?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "intervene";
+        var versions = ["0.6.5","0.6.5","0.6.4","0.6.4","0.6.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ wtforms-components
 .. _`wtforms-components/tags`: https://quay.io/repository/biocontainers/wtforms-components?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wtforms-components";
+        var versions = ["0.10.0","0.10.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

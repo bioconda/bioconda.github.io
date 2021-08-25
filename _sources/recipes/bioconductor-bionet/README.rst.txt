@@ -74,10 +74,23 @@ bioconductor-bionet
 .. _`bioconductor-bionet/tags`: https://quay.io/repository/biocontainers/bioconductor-bionet?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-bionet";
+        var versions = ["1.52.0","1.50.0","1.50.0","1.47.0","1.46.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

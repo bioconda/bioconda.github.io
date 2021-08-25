@@ -63,10 +63,23 @@ bioconductor-epitxdb.sc.saccer3
 .. _`bioconductor-epitxdb.sc.saccer3/tags`: https://quay.io/repository/biocontainers/bioconductor-epitxdb.sc.saccer3?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-epitxdb.sc.saccer3";
+        var versions = ["0.99.5","0.99.3","0.99.3","0.99.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -81,10 +81,23 @@ pegasusio
 .. _`pegasusio/tags`: https://quay.io/repository/biocontainers/pegasusio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pegasusio";
+        var versions = ["0.3.1.post2","0.3.1.post1","0.3.1","0.3.0","0.2.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

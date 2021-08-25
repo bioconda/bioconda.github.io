@@ -65,10 +65,23 @@ run-dbcan
 .. _`run-dbcan/tags`: https://quay.io/repository/biocontainers/run-dbcan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "run-dbcan";
+        var versions = ["2.0.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

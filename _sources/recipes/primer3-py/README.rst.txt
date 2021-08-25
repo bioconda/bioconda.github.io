@@ -62,10 +62,23 @@ primer3-py
 .. _`primer3-py/tags`: https://quay.io/repository/biocontainers/primer3-py?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "primer3-py";
+        var versions = ["0.6.1","0.6.0","0.6.0","0.6.0","0.5.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

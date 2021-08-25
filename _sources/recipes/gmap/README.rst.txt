@@ -72,10 +72,23 @@ gmap
 .. _`gmap/tags`: https://quay.io/repository/biocontainers/gmap?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gmap";
+        var versions = ["2021.05.27","2021.03.08","2021.02.22","2021.02.22","2021.02.22"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

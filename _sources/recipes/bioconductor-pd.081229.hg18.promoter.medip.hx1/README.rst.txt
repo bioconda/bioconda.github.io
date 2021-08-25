@@ -67,10 +67,23 @@ bioconductor-pd.081229.hg18.promoter.medip.hx1
 .. _`bioconductor-pd.081229.hg18.promoter.medip.hx1/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.081229.hg18.promoter.medip.hx1?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.081229.hg18.promoter.medip.hx1";
+        var versions = ["0.99.4","0.99.4","0.99.4","0.99.4","0.99.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

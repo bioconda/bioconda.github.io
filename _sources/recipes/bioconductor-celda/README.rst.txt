@@ -95,10 +95,23 @@ bioconductor-celda
 .. _`bioconductor-celda/tags`: https://quay.io/repository/biocontainers/bioconductor-celda?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-celda";
+        var versions = ["1.8.1","1.6.1","1.6.1","1.4.5","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

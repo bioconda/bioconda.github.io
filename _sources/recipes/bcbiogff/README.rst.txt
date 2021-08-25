@@ -62,10 +62,23 @@ bcbiogff
 .. _`bcbiogff/tags`: https://quay.io/repository/biocontainers/bcbiogff?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bcbiogff";
+        var versions = ["0.6.6","0.6.6","0.6.6","0.6.4","0.6.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

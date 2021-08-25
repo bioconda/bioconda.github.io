@@ -61,10 +61,23 @@ megan
 .. _`megan/tags`: https://quay.io/repository/biocontainers/megan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "megan";
+        var versions = ["6.21.7","6.21.2","6.12.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

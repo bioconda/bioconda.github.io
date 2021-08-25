@@ -63,10 +63,23 @@ nemo
 .. _`nemo/tags`: https://quay.io/repository/biocontainers/nemo?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nemo";
+        var versions = ["2.3.51","2.3.51","2.3.51"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

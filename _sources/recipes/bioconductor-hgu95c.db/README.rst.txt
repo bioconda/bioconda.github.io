@@ -63,10 +63,23 @@ bioconductor-hgu95c.db
 .. _`bioconductor-hgu95c.db/tags`: https://quay.io/repository/biocontainers/bioconductor-hgu95c.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hgu95c.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

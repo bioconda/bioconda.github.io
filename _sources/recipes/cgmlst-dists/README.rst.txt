@@ -60,10 +60,23 @@ cgmlst-dists
 .. _`cgmlst-dists/tags`: https://quay.io/repository/biocontainers/cgmlst-dists?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cgmlst-dists";
+        var versions = ["0.4.0","0.4.0","0.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

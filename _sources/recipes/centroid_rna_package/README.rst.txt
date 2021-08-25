@@ -61,10 +61,23 @@ centroid_rna_package
 .. _`centroid_rna_package/tags`: https://quay.io/repository/biocontainers/centroid_rna_package?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "centroid_rna_package";
+        var versions = ["0.0.16","0.0.16","0.0.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ bioconductor-asafe
 .. _`bioconductor-asafe/tags`: https://quay.io/repository/biocontainers/bioconductor-asafe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-asafe";
+        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

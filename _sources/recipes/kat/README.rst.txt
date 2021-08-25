@@ -78,10 +78,23 @@ kat
 .. _`kat/tags`: https://quay.io/repository/biocontainers/kat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kat";
+        var versions = ["2.4.2","2.4.2","2.4.2","2.4.1","2.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ perl-cpan-shell
 .. _`perl-cpan-shell/tags`: https://quay.io/repository/biocontainers/perl-cpan-shell?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-cpan-shell";
+        var versions = ["5.5004","5.5004"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

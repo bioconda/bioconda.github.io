@@ -61,10 +61,23 @@ bioconductor-meebodata
 .. _`bioconductor-meebodata/tags`: https://quay.io/repository/biocontainers/bioconductor-meebodata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-meebodata";
+        var versions = ["1.30.0","1.28.0","1.28.0","1.27.0","1.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ panphlan
 .. _`panphlan/tags`: https://quay.io/repository/biocontainers/panphlan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "panphlan";
+        var versions = ["3.1","3.0","1.3","1.3","1.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

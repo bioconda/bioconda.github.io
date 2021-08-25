@@ -86,10 +86,23 @@ cooler
 .. _`cooler/tags`: https://quay.io/repository/biocontainers/cooler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cooler";
+        var versions = ["0.8.11","0.8.10","0.8.9","0.8.8","0.8.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

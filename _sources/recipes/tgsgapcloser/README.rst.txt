@@ -63,10 +63,23 @@ tgsgapcloser
 .. _`tgsgapcloser/tags`: https://quay.io/repository/biocontainers/tgsgapcloser?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tgsgapcloser";
+        var versions = ["1.0.3","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

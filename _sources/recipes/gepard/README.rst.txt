@@ -61,10 +61,23 @@ gepard
 .. _`gepard/tags`: https://quay.io/repository/biocontainers/gepard?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gepard";
+        var versions = ["1.40.0","1.40.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

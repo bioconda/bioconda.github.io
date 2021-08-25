@@ -69,10 +69,23 @@ rnaredprint
 .. _`rnaredprint/tags`: https://quay.io/repository/biocontainers/rnaredprint?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rnaredprint";
+        var versions = ["0.3pre","0.3pre","0.3pre"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

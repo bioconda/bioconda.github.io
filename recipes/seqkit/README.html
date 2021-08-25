@@ -16,6 +16,9 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/vega.min.js"></script>
+    <script src="../../_static/vega-lite.min.js"></script>
+    <script src="../../_static/vega-embed.min.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
@@ -129,16 +132,16 @@
 </details></dd>
 <dt class="field-even">Required By</dt>
 <dd class="field-even"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../haystac/README.html#haystac"><strong class="xref backref">haystac</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../tritimap/README.html#tritimap"><strong class="xref backref">tritimap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../rkp/README.html#rkp"><strong class="xref backref">rkp</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../drax/README.html#drax"><strong class="xref backref">drax</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../pomoxis/README.html#pomoxis"><strong class="xref backref">pomoxis</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../mosca/README.html#mosca"><strong class="xref backref">mosca</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../pipits/README.html#pipits"><strong class="xref backref">pipits</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../agrvate/README.html#agrvate"><strong class="xref backref">agrvate</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../pomoxis/README.html#pomoxis"><strong class="xref backref">pomoxis</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../rkp/README.html#rkp"><strong class="xref backref">rkp</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../metaplatanus/README.html#metaplatanus"><strong class="xref backref">metaplatanus</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../drax/README.html#drax"><strong class="xref backref">drax</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../batch_brb/README.html#batch_brb"><strong class="xref backref">batch_brb</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../tritimap/README.html#tritimap"><strong class="xref backref">tritimap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../haystac/README.html#haystac"><strong class="xref backref">haystac</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -158,6 +161,67 @@
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/seqkit?tab=tags">seqkit/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>)</p>
 </dd></dl>
 
+<script>
+    var package = "seqkit";
+    var versions = ["0.16.1","0.16.0","0.15.0","0.14.0","0.13.2"];
+</script><section id="download-stats">
+<h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
+<div style="width: 100%" id="download_plot"></div>
+
+<script>
+    window.onload = async function() {
+        versions = [...new Set(versions)];
+
+        let download_data = [];
+
+        for (const version of versions) {
+            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
+            await $.get({
+                url: url,
+                success: function( data ) {
+                    data = JSON.parse(data);
+                    data = data["downloads_per_date"];
+                    let first;
+                    if (data.length > 14) {
+                        first = data.length - 14;
+                    } else {
+                        first = 1;
+                    }
+                    for (let i = first; i < data.length; i++) {
+                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
+                        data[i]["version"] = version;
+                        download_data.push(data[i]);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log('error fetching data from bioconda stats repo!');
+                }
+            });
+        }
+
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "description": "A simple bar chart with embedded data.",
+            "data": {"values": []},
+            "width": "container",
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": true,
+                }
+            },
+            "encoding": {
+                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
+                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
+                 "color": {"field": "version", "type": "nominal"},
+                 "tooltip": {"field": "delta"}
+            }
+        };
+
+        spec.data.values = download_data;
+        vegaEmbed('#download_plot', spec);
+    }
+</script></section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/seqkit/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

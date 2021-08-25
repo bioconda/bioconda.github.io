@@ -61,10 +61,23 @@ perl-tie-cacher
 .. _`perl-tie-cacher/tags`: https://quay.io/repository/biocontainers/perl-tie-cacher?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tie-cacher";
+        var versions = ["0.09","0.09","0.09"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

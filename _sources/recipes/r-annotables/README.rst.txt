@@ -62,10 +62,23 @@ r-annotables
 .. _`r-annotables/tags`: https://quay.io/repository/biocontainers/r-annotables?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-annotables";
+        var versions = ["0.1.90","0.1.90","0.1.90","0.1.90","v0.1.90"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

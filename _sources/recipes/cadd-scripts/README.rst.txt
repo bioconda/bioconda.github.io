@@ -68,10 +68,23 @@ cadd-scripts
 .. _`cadd-scripts/tags`: https://quay.io/repository/biocontainers/cadd-scripts?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cadd-scripts";
+        var versions = ["1.6","1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

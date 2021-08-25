@@ -70,10 +70,23 @@ plant_tribes_gene_family_classifier
 .. _`plant_tribes_gene_family_classifier/tags`: https://quay.io/repository/biocontainers/plant_tribes_gene_family_classifier?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "plant_tribes_gene_family_classifier";
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3","1.0.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -73,10 +73,23 @@ bleties
 .. _`bleties/tags`: https://quay.io/repository/biocontainers/bleties?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bleties";
+        var versions = ["0.1.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

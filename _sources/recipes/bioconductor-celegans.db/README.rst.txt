@@ -63,10 +63,23 @@ bioconductor-celegans.db
 .. _`bioconductor-celegans.db/tags`: https://quay.io/repository/biocontainers/bioconductor-celegans.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-celegans.db";
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

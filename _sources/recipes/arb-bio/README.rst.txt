@@ -109,6 +109,13 @@ arb-bio
 .. _`arb-bio/tags`: https://quay.io/repository/biocontainers/arb-bio?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "arb-bio";
+        var versions = ["6.0.6","6.0.6","6.0.6","6.0.6","6.0.6"];
+    </script>
+
 
 .. conda:package:: arb-bio-devel
 
@@ -153,6 +160,13 @@ arb-bio
    :target: https://quay.io/repository/biocontainers/arb-bio
 .. _`arb-bio-devel/tags`: https://quay.io/repository/biocontainers/arb-bio-devel?tab=tags
 
+
+.. raw:: html
+
+    <script>
+        var package = "arb-bio";
+        var versions = ["6.0.6","6.0.6","6.0.6","6.0.6","6.0.6"];
+    </script>
 
 
 .. conda:package:: arb-bio-tools
@@ -199,6 +213,13 @@ arb-bio
 .. _`arb-bio-tools/tags`: https://quay.io/repository/biocontainers/arb-bio-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "arb-bio";
+        var versions = ["6.0.6","6.0.6","6.0.6","6.0.6","6.0.6"];
+    </script>
+
 
 .. conda:package:: libarbdb
 
@@ -244,10 +265,23 @@ arb-bio
 .. _`libarbdb/tags`: https://quay.io/repository/biocontainers/libarbdb?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "arb-bio";
+        var versions = ["6.0.6","6.0.6","6.0.6","6.0.6","6.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

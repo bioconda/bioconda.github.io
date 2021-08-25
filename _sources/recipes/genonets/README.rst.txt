@@ -64,10 +64,23 @@ genonets
 .. _`genonets/tags`: https://quay.io/repository/biocontainers/genonets?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "genonets";
+        var versions = ["2.0","1.1.10","1.1.8","1.1.6","1.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ yara
 .. _`yara/tags`: https://quay.io/repository/biocontainers/yara?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "yara";
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","0.9.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

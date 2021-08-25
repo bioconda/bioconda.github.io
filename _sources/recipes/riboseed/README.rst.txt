@@ -88,10 +88,23 @@ riboseed
 .. _`riboseed/tags`: https://quay.io/repository/biocontainers/riboseed?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "riboseed";
+        var versions = ["0.4.90","0.4.89","0.4.88","0.4.87","0.4.86"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

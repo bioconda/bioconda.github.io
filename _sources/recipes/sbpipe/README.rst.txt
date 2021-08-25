@@ -64,10 +64,23 @@ sbpipe
 .. _`sbpipe/tags`: https://quay.io/repository/biocontainers/sbpipe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sbpipe";
+        var versions = ["4.21.0","4.21.0","4.20.0","4.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

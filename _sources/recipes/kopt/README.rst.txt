@@ -69,10 +69,23 @@ kopt
 .. _`kopt/tags`: https://quay.io/repository/biocontainers/kopt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kopt";
+        var versions = ["0.1.0","0.1.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

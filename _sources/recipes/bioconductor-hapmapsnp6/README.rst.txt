@@ -61,10 +61,23 @@ bioconductor-hapmapsnp6
 .. _`bioconductor-hapmapsnp6/tags`: https://quay.io/repository/biocontainers/bioconductor-hapmapsnp6?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hapmapsnp6";
+        var versions = ["1.34.0","1.32.0","1.32.0","1.31.0","1.30.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

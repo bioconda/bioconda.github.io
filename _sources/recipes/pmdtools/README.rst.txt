@@ -63,10 +63,23 @@ pmdtools
 .. _`pmdtools/tags`: https://quay.io/repository/biocontainers/pmdtools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pmdtools";
+        var versions = ["0.60","0.60","0.60"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

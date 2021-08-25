@@ -62,10 +62,23 @@ galah
 .. _`galah/tags`: https://quay.io/repository/biocontainers/galah?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galah";
+        var versions = ["0.3.0","0.3.0","0.2.0","0.1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

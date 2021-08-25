@@ -67,10 +67,23 @@ adpred
 .. _`adpred/tags`: https://quay.io/repository/biocontainers/adpred?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "adpred";
+        var versions = ["1.2.7","1.2.5","1.2.4","1.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

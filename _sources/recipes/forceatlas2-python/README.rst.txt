@@ -66,10 +66,23 @@ forceatlas2-python
 .. _`forceatlas2-python/tags`: https://quay.io/repository/biocontainers/forceatlas2-python?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "forceatlas2-python";
+        var versions = ["1.1","1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

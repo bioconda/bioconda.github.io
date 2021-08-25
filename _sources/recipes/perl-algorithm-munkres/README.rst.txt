@@ -60,10 +60,23 @@ perl-algorithm-munkres
 .. _`perl-algorithm-munkres/tags`: https://quay.io/repository/biocontainers/perl-algorithm-munkres?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-algorithm-munkres";
+        var versions = ["0.08","0.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

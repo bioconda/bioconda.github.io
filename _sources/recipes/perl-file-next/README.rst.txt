@@ -62,10 +62,23 @@ perl-file-next
 .. _`perl-file-next/tags`: https://quay.io/repository/biocontainers/perl-file-next?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-file-next";
+        var versions = ["1.16","1.16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

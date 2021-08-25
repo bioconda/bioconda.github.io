@@ -73,10 +73,23 @@ referenceseeker
 .. _`referenceseeker/tags`: https://quay.io/repository/biocontainers/referenceseeker?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "referenceseeker";
+        var versions = ["1.7.3","1.7.1","1.6.4","1.6.3","1.6.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -71,10 +71,23 @@ ncls
 .. _`ncls/tags`: https://quay.io/repository/biocontainers/ncls?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ncls";
+        var versions = ["0.0.60","0.0.57","0.0.57","0.0.56","0.0.54"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

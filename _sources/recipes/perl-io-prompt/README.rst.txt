@@ -62,10 +62,23 @@ perl-io-prompt
 .. _`perl-io-prompt/tags`: https://quay.io/repository/biocontainers/perl-io-prompt?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-prompt";
+        var versions = ["0.997004","0.997004","0.997004"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

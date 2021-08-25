@@ -61,10 +61,23 @@ treebest
 .. _`treebest/tags`: https://quay.io/repository/biocontainers/treebest?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "treebest";
+        var versions = ["1.9.2.post1","1.9.2.post1","1.9.2.post1","1.9.2.post0","1.9.2_ep78"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

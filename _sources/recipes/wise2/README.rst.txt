@@ -63,10 +63,23 @@ wise2
 .. _`wise2/tags`: https://quay.io/repository/biocontainers/wise2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "wise2";
+        var versions = ["2.4.1","2.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

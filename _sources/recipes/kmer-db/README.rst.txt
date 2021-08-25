@@ -62,10 +62,23 @@ kmer-db
 .. _`kmer-db/tags`: https://quay.io/repository/biocontainers/kmer-db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kmer-db";
+        var versions = ["1.9.2","1.7.6","1.7.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

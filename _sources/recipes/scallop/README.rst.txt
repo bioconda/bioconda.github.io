@@ -63,10 +63,23 @@ scallop
 .. _`scallop/tags`: https://quay.io/repository/biocontainers/scallop?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scallop";
+        var versions = ["0.10.5","0.10.5","0.10.4","0.10.4","0.10.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

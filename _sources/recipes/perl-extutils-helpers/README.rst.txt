@@ -63,10 +63,23 @@ perl-extutils-helpers
 .. _`perl-extutils-helpers/tags`: https://quay.io/repository/biocontainers/perl-extutils-helpers?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-helpers";
+        var versions = ["0.026","0.022"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

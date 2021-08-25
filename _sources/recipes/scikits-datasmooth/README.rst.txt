@@ -63,10 +63,23 @@ scikits-datasmooth
 .. _`scikits-datasmooth/tags`: https://quay.io/repository/biocontainers/scikits-datasmooth?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "scikits-datasmooth";
+        var versions = ["0.7.1","0.7.1","0.7.1","0.7.0","0.7.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

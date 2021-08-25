@@ -82,10 +82,23 @@ bioconductor-clusterprofiler
 .. _`bioconductor-clusterprofiler/tags`: https://quay.io/repository/biocontainers/bioconductor-clusterprofiler?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-clusterprofiler";
+        var versions = ["4.0.0","3.18.1","3.18.0","3.16.0","3.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

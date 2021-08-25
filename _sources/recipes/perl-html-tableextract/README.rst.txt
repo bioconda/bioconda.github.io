@@ -62,10 +62,23 @@ perl-html-tableextract
 .. _`perl-html-tableextract/tags`: https://quay.io/repository/biocontainers/perl-html-tableextract?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-tableextract";
+        var versions = ["2.13","2.13","2.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

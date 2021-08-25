@@ -61,6 +61,13 @@ dinosaur
 .. _`dinosaur/tags`: https://quay.io/repository/biocontainers/dinosaur?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "dinosaur";
+        var versions = ["1.2.0","1.2.0","1.1.3"];
+    </script>
+
 
 
 
@@ -73,6 +80,12 @@ it you can specify these values after calling the wrapper. If you have
 \_JAVA\_OPTIONS set globally this will take precedence.
 For example run it with \"dinosaur \-Xmx4g\"
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

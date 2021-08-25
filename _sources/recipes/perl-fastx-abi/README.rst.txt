@@ -65,10 +65,23 @@ perl-fastx-abi
 .. _`perl-fastx-abi/tags`: https://quay.io/repository/biocontainers/perl-fastx-abi?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-fastx-abi";
+        var versions = ["0.11","0.11","0.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

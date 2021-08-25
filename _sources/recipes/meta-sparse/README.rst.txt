@@ -70,10 +70,23 @@ meta-sparse
 .. _`meta-sparse/tags`: https://quay.io/repository/biocontainers/meta-sparse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "meta-sparse";
+        var versions = ["0.1.12","0.1.12","0.1.12","0.1.12","0.1.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -65,10 +65,23 @@ ucsc-bigwigmerge
 .. _`ucsc-bigwigmerge/tags`: https://quay.io/repository/biocontainers/ucsc-bigwigmerge?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ucsc-bigwigmerge";
+        var versions = ["377","377","377","366","357"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

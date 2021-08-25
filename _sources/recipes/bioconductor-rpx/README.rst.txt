@@ -72,10 +72,23 @@ bioconductor-rpx
 .. _`bioconductor-rpx/tags`: https://quay.io/repository/biocontainers/bioconductor-rpx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rpx";
+        var versions = ["2.0.0","1.26.2","1.26.0","1.24.0","1.22.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

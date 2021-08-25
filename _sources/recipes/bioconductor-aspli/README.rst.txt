@@ -89,10 +89,23 @@ bioconductor-aspli
 .. _`bioconductor-aspli/tags`: https://quay.io/repository/biocontainers/bioconductor-aspli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-aspli";
+        var versions = ["2.2.0","2.0.0","2.0.0","1.14.0","1.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

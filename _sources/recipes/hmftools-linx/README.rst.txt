@@ -76,10 +76,23 @@ hmftools-linx
 .. _`hmftools-linx/tags`: https://quay.io/repository/biocontainers/hmftools-linx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmftools-linx";
+        var versions = ["1.16","1.15","1.14","1.14","1.13"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

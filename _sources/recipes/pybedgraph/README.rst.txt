@@ -65,10 +65,23 @@ pybedgraph
 .. _`pybedgraph/tags`: https://quay.io/repository/biocontainers/pybedgraph?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pybedgraph";
+        var versions = ["0.5.43","0.5.43","0.5.43","0.5.42","0.5.39"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -78,10 +78,23 @@ bioconductor-sva
 .. _`bioconductor-sva/tags`: https://quay.io/repository/biocontainers/bioconductor-sva?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-sva";
+        var versions = ["3.40.0","3.38.0","3.38.0","3.36.0","3.34.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

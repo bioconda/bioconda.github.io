@@ -60,10 +60,23 @@ perl-symbol
 .. _`perl-symbol/tags`: https://quay.io/repository/biocontainers/perl-symbol?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-symbol";
+        var versions = ["1.07","1.07"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

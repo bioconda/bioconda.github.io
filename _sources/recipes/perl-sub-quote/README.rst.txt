@@ -60,10 +60,23 @@ perl-sub-quote
 .. _`perl-sub-quote/tags`: https://quay.io/repository/biocontainers/perl-sub-quote?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-sub-quote";
+        var versions = ["2.006003","2.006003","2.005001"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

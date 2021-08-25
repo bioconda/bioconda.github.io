@@ -62,10 +62,23 @@ snp-pileup
 .. _`snp-pileup/tags`: https://quay.io/repository/biocontainers/snp-pileup?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "snp-pileup";
+        var versions = ["0.6.1","0.6.1","0.5.14","0.5.14","0.5.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

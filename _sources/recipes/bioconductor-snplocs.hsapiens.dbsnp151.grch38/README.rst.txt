@@ -67,10 +67,23 @@ bioconductor-snplocs.hsapiens.dbsnp151.grch38
 .. _`bioconductor-snplocs.hsapiens.dbsnp151.grch38/tags`: https://quay.io/repository/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-snplocs.hsapiens.dbsnp151.grch38";
+        var versions = ["0.99.20","0.99.20","0.99.20","0.99.20","0.99.20"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

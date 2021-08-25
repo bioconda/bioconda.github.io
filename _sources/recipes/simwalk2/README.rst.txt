@@ -62,10 +62,23 @@ simwalk2
 .. _`simwalk2/tags`: https://quay.io/repository/biocontainers/simwalk2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "simwalk2";
+        var versions = ["2.91","2.91","2.91","2.91"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

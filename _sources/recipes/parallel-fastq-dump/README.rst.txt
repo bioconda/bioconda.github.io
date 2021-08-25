@@ -69,10 +69,23 @@ parallel-fastq-dump
 .. _`parallel-fastq-dump/tags`: https://quay.io/repository/biocontainers/parallel-fastq-dump?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "parallel-fastq-dump";
+        var versions = ["0.6.7","0.6.6","0.6.6","0.6.5","0.6.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

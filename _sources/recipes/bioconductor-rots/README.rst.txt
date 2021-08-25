@@ -75,10 +75,23 @@ bioconductor-rots
 .. _`bioconductor-rots/tags`: https://quay.io/repository/biocontainers/bioconductor-rots?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rots";
+        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

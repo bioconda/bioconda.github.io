@@ -81,10 +81,23 @@ perl-bio-eutilities
 .. _`perl-bio-eutilities/tags`: https://quay.io/repository/biocontainers/perl-bio-eutilities?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-bio-eutilities";
+        var versions = ["1.75","1.75"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-moosex-types-stringlike
 .. _`perl-moosex-types-stringlike/tags`: https://quay.io/repository/biocontainers/perl-moosex-types-stringlike?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-types-stringlike";
+        var versions = ["0.003"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

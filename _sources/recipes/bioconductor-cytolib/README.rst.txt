@@ -78,10 +78,23 @@ bioconductor-cytolib
 .. _`bioconductor-cytolib/tags`: https://quay.io/repository/biocontainers/bioconductor-cytolib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cytolib";
+        var versions = ["2.4.0","2.2.1","2.2.1","2.2.0","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -79,10 +79,23 @@ bioconductor-mina
 .. _`bioconductor-mina/tags`: https://quay.io/repository/biocontainers/bioconductor-mina?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-mina";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

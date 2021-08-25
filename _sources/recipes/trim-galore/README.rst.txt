@@ -72,10 +72,23 @@ trim-galore
 .. _`trim-galore/tags`: https://quay.io/repository/biocontainers/trim-galore?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "trim-galore";
+        var versions = ["0.6.7","0.6.6","0.6.6","0.6.5","0.6.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

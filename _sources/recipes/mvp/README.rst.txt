@@ -62,10 +62,23 @@ mvp
 .. _`mvp/tags`: https://quay.io/repository/biocontainers/mvp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mvp";
+        var versions = ["0.4.3","0.4.3","0.4.1","0.4.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

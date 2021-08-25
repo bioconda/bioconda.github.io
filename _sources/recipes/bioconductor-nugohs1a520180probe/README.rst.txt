@@ -62,10 +62,23 @@ bioconductor-nugohs1a520180probe
 .. _`bioconductor-nugohs1a520180probe/tags`: https://quay.io/repository/biocontainers/bioconductor-nugohs1a520180probe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-nugohs1a520180probe";
+        var versions = ["3.4.0","3.4.0","3.4.0","3.4.0","3.4.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

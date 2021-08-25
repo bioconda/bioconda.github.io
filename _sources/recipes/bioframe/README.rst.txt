@@ -70,10 +70,23 @@ bioframe
 .. _`bioframe/tags`: https://quay.io/repository/biocontainers/bioframe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioframe";
+        var versions = ["0.2.0","0.1.0","0.0.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

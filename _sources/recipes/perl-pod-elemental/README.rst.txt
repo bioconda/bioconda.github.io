@@ -68,10 +68,23 @@ perl-pod-elemental
 .. _`perl-pod-elemental/tags`: https://quay.io/repository/biocontainers/perl-pod-elemental?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-pod-elemental";
+        var versions = ["0.103004","0.103004","0.103004","0.103004"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

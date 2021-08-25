@@ -73,10 +73,23 @@ tiddit
 .. _`tiddit/tags`: https://quay.io/repository/biocontainers/tiddit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tiddit";
+        var versions = ["2.12.1","2.12.0","2.12.0","2.12.0","2.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

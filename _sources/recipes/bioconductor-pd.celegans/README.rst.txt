@@ -68,10 +68,23 @@ bioconductor-pd.celegans
 .. _`bioconductor-pd.celegans/tags`: https://quay.io/repository/biocontainers/bioconductor-pd.celegans?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pd.celegans";
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0","3.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

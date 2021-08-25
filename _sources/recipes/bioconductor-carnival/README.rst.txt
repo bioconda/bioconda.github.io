@@ -67,10 +67,23 @@ bioconductor-carnival
 .. _`bioconductor-carnival/tags`: https://quay.io/repository/biocontainers/bioconductor-carnival?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-carnival";
+        var versions = ["2.2.0","1.2.0","1.2.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

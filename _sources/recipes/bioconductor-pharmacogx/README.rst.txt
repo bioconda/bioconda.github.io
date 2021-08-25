@@ -76,10 +76,23 @@ bioconductor-pharmacogx
 .. _`bioconductor-pharmacogx/tags`: https://quay.io/repository/biocontainers/bioconductor-pharmacogx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-pharmacogx";
+        var versions = ["2.4.0","2.2.4","2.2.0","2.0.0","1.16.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -73,10 +73,23 @@ variant_tools
 .. _`variant_tools/tags`: https://quay.io/repository/biocontainers/variant_tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "variant_tools";
+        var versions = ["3.1.3","3.1.3","3.1.3","3.1.2","3.1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

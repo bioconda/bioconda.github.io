@@ -81,10 +81,23 @@ augur
 .. _`augur/tags`: https://quay.io/repository/biocontainers/augur?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "augur";
+        var versions = ["13.0.0","12.1.1","12.0.0","11.3.0","11.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

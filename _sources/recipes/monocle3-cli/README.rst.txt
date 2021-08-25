@@ -71,10 +71,23 @@ monocle3-cli
 .. _`monocle3-cli/tags`: https://quay.io/repository/biocontainers/monocle3-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "monocle3-cli";
+        var versions = ["0.0.9","0.0.9","0.0.8","0.0.7","0.0.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

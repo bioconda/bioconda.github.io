@@ -62,10 +62,23 @@ rappas
 .. _`rappas/tags`: https://quay.io/repository/biocontainers/rappas?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rappas";
+        var versions = ["1.21","1.20","1.12"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

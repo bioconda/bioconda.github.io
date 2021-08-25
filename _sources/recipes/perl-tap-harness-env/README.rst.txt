@@ -60,10 +60,23 @@ perl-tap-harness-env
 .. _`perl-tap-harness-env/tags`: https://quay.io/repository/biocontainers/perl-tap-harness-env?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-tap-harness-env";
+        var versions = ["3.30","3.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

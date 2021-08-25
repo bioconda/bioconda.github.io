@@ -61,10 +61,23 @@ perl-math-random
 .. _`perl-math-random/tags`: https://quay.io/repository/biocontainers/perl-math-random?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-math-random";
+        var versions = ["0.72","0.72","0.72"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ constellations
 .. _`constellations/tags`: https://quay.io/repository/biocontainers/constellations?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "constellations";
+        var versions = ["0.0.14","0.0.13","0.0.11","0.0.10","0.0.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

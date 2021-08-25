@@ -63,10 +63,23 @@ ray
 .. _`ray/tags`: https://quay.io/repository/biocontainers/ray?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ray";
+        var versions = ["2.3.1","2.3.1","2.3.1","2.3.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

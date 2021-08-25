@@ -60,10 +60,23 @@ perl-number-compare
 .. _`perl-number-compare/tags`: https://quay.io/repository/biocontainers/perl-number-compare?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-number-compare";
+        var versions = ["0.03","0.03","0.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

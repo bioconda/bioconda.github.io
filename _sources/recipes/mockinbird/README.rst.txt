@@ -79,10 +79,23 @@ mockinbird
 .. _`mockinbird/tags`: https://quay.io/repository/biocontainers/mockinbird?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mockinbird";
+        var versions = ["1.0.0a1","1.0.0a1","1.0.0a1","1.0.0a1","1.0.0a1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

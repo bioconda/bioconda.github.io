@@ -83,10 +83,23 @@ bioconductor-tximeta
 .. _`bioconductor-tximeta/tags`: https://quay.io/repository/biocontainers/bioconductor-tximeta?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-tximeta";
+        var versions = ["1.10.0","1.8.4","1.8.0","1.6.3","1.6.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

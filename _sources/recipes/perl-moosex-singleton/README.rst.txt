@@ -62,10 +62,23 @@ perl-moosex-singleton
 .. _`perl-moosex-singleton/tags`: https://quay.io/repository/biocontainers/perl-moosex-singleton?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-moosex-singleton";
+        var versions = ["0.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

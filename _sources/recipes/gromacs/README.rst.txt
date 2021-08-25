@@ -75,10 +75,23 @@ gromacs
 .. _`gromacs/tags`: https://quay.io/repository/biocontainers/gromacs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gromacs";
+        var versions = ["2021.1","2021.1","2021.1","2021","2021"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

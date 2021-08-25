@@ -60,10 +60,23 @@ perl-io-uncompress-bunzip2
 .. _`perl-io-uncompress-bunzip2/tags`: https://quay.io/repository/biocontainers/perl-io-uncompress-bunzip2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-uncompress-bunzip2";
+        var versions = ["2.064","2.064"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

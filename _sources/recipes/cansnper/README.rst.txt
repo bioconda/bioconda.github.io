@@ -64,10 +64,23 @@ cansnper
 .. _`cansnper/tags`: https://quay.io/repository/biocontainers/cansnper?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cansnper";
+        var versions = ["1.0.10","1.0.10","1.0.8","1.0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

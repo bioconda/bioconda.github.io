@@ -61,10 +61,23 @@ soapdenovo2
 .. _`soapdenovo2/tags`: https://quay.io/repository/biocontainers/soapdenovo2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "soapdenovo2";
+        var versions = ["2.40","2.40","2.40"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

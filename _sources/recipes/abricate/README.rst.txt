@@ -77,10 +77,23 @@ abricate
 .. _`abricate/tags`: https://quay.io/repository/biocontainers/abricate?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "abricate";
+        var versions = ["1.0.1","1.0.1","1.0.0","0.9.9","0.9.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

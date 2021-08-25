@@ -66,10 +66,23 @@ aquilasv
 .. _`aquilasv/tags`: https://quay.io/repository/biocontainers/aquilasv?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "aquilasv";
+        var versions = ["1.5","1.4","1.3","1.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

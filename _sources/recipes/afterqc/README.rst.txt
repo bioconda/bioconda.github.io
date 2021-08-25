@@ -60,10 +60,23 @@ afterqc
 .. _`afterqc/tags`: https://quay.io/repository/biocontainers/afterqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "afterqc";
+        var versions = ["0.9.7","0.9.7","0.9.7","0.9.7","0.9.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

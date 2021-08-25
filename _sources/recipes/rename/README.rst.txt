@@ -60,10 +60,23 @@ rename
 .. _`rename/tags`: https://quay.io/repository/biocontainers/rename?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "rename";
+        var versions = ["1.601","1.601","1.600","1.600"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

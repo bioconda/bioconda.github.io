@@ -62,10 +62,23 @@ bioconductor-illuminahumanmethylation450kprobe
 .. _`bioconductor-illuminahumanmethylation450kprobe/tags`: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation450kprobe?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-illuminahumanmethylation450kprobe";
+        var versions = ["2.0.6","2.0.6","2.0.6","2.0.6","2.0.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

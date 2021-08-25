@@ -61,10 +61,23 @@ k-slam
 .. _`k-slam/tags`: https://quay.io/repository/biocontainers/k-slam?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "k-slam";
+        var versions = ["1.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -76,10 +76,23 @@ bioconductor-gosemsim
 .. _`bioconductor-gosemsim/tags`: https://quay.io/repository/biocontainers/bioconductor-gosemsim?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-gosemsim";
+        var versions = ["2.18.0","2.16.1","2.16.0","2.14.0","2.12.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

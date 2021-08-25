@@ -61,10 +61,23 @@ bioconductor-affymetrixdatatestfiles
 .. _`bioconductor-affymetrixdatatestfiles/tags`: https://quay.io/repository/biocontainers/bioconductor-affymetrixdatatestfiles?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-affymetrixdatatestfiles";
+        var versions = ["0.30.0","0.28.0","0.28.0","0.27.0","0.26.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

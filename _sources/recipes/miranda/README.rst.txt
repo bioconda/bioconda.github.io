@@ -60,10 +60,23 @@ miranda
 .. _`miranda/tags`: https://quay.io/repository/biocontainers/miranda?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "miranda";
+        var versions = ["3.3a","3.3a","3.3a","3.3a"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

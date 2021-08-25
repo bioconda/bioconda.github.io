@@ -66,10 +66,23 @@ microhapulator
 .. _`microhapulator/tags`: https://quay.io/repository/biocontainers/microhapulator?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "microhapulator";
+        var versions = ["0.4.1","0.3","0.2","0.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

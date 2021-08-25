@@ -63,10 +63,23 @@ libstatgen
 .. _`libstatgen/tags`: https://quay.io/repository/biocontainers/libstatgen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "libstatgen";
+        var versions = ["1.0.15","1.0.15","1.0.14","1.0.14","1.0.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

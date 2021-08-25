@@ -62,10 +62,23 @@ cmfinder
 .. _`cmfinder/tags`: https://quay.io/repository/biocontainers/cmfinder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "cmfinder";
+        var versions = ["0.4.1.9","0.4.1.9","0.4.1.9","0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

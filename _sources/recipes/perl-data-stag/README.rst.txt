@@ -67,10 +67,23 @@ perl-data-stag
 .. _`perl-data-stag/tags`: https://quay.io/repository/biocontainers/perl-data-stag?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-data-stag";
+        var versions = ["0.14","0.14"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

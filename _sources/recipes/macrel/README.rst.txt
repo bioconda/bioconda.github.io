@@ -83,10 +83,23 @@ macrel
 .. _`macrel/tags`: https://quay.io/repository/biocontainers/macrel?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "macrel";
+        var versions = ["1.0.0","1.0.0","0.6.1","0.6.0","0.5.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

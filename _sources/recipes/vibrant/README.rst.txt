@@ -70,6 +70,13 @@ vibrant
 .. _`vibrant/tags`: https://quay.io/repository/biocontainers/vibrant?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vibrant";
+        var versions = ["1.2.1","1.2.1","1.2.1","1.2.0","1.2.0"];
+    </script>
+
 
 
 
@@ -78,6 +85,12 @@ Notes
 -----
 Read post\-link.sh on how to download 11GB required data files.
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -77,10 +77,23 @@ r-sgtr
 .. _`r-sgtr/tags`: https://quay.io/repository/biocontainers/r-sgtr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-sgtr";
+        var versions = ["1.1.4","1.1.4","1.1.4","1.1.3","1.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

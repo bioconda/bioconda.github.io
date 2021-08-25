@@ -62,10 +62,23 @@ bioconductor-reactome.db
 .. _`bioconductor-reactome.db/tags`: https://quay.io/repository/biocontainers/bioconductor-reactome.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-reactome.db";
+        var versions = ["1.76.0","1.74.0","1.74.0","1.70.0","1.70.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

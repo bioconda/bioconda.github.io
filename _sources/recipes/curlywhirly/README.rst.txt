@@ -60,10 +60,23 @@ curlywhirly
 .. _`curlywhirly/tags`: https://quay.io/repository/biocontainers/curlywhirly?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "curlywhirly";
+        var versions = ["1.17.08.31","1.17.08.31","1.17.08.31"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

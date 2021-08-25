@@ -61,10 +61,23 @@ bioconductor-estrogen
 .. _`bioconductor-estrogen/tags`: https://quay.io/repository/biocontainers/bioconductor-estrogen?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-estrogen";
+        var versions = ["1.38.0","1.36.0","1.36.0","1.35.0","1.34.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

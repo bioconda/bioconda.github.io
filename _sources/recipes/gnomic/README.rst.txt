@@ -62,10 +62,23 @@ gnomic
 .. _`gnomic/tags`: https://quay.io/repository/biocontainers/gnomic?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gnomic";
+        var versions = ["1.0.1","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

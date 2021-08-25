@@ -70,10 +70,23 @@ pbmm2
 .. _`pbmm2/tags`: https://quay.io/repository/biocontainers/pbmm2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pbmm2";
+        var versions = ["1.4.0","1.4.0","1.3.0","1.3.0","1.2.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

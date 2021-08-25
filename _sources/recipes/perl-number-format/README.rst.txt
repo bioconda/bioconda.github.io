@@ -61,10 +61,23 @@ perl-number-format
 .. _`perl-number-format/tags`: https://quay.io/repository/biocontainers/perl-number-format?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-number-format";
+        var versions = ["1.75","1.75","1.75","1.75"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

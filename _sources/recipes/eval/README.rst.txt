@@ -64,10 +64,23 @@ eval
 .. _`eval/tags`: https://quay.io/repository/biocontainers/eval?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "eval";
+        var versions = ["2.2.8","2.2.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

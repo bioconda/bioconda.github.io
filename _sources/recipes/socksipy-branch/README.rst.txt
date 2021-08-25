@@ -60,10 +60,23 @@ socksipy-branch
 .. _`socksipy-branch/tags`: https://quay.io/repository/biocontainers/socksipy-branch?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "socksipy-branch";
+        var versions = ["1.01","1.01"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

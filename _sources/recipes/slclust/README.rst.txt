@@ -60,10 +60,23 @@ slclust
 .. _`slclust/tags`: https://quay.io/repository/biocontainers/slclust?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "slclust";
+        var versions = ["02022010","02022010","02022010","02022010"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

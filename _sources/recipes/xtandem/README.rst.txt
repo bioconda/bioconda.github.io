@@ -64,10 +64,23 @@ xtandem
 .. _`xtandem/tags`: https://quay.io/repository/biocontainers/xtandem?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "xtandem";
+        var versions = ["15.12.15.2","15.12.15.2","15.12.15.2","15.12.15.2","15.12.15.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

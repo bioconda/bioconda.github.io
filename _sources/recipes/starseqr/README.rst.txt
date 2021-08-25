@@ -70,10 +70,23 @@ starseqr
 .. _`starseqr/tags`: https://quay.io/repository/biocontainers/starseqr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "starseqr";
+        var versions = ["0.6.7","0.6.7","0.6.7","0.6.7","0.6.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

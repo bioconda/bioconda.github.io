@@ -60,10 +60,23 @@ perl-exporter
 .. _`perl-exporter/tags`: https://quay.io/repository/biocontainers/perl-exporter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-exporter";
+        var versions = ["5.72","5.72"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -61,10 +61,23 @@ perl-parallel-loops
 .. _`perl-parallel-loops/tags`: https://quay.io/repository/biocontainers/perl-parallel-loops?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-parallel-loops";
+        var versions = ["0.10","0.08"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ bioconductor-ahpubmeddbs
 .. _`bioconductor-ahpubmeddbs/tags`: https://quay.io/repository/biocontainers/bioconductor-ahpubmeddbs?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-ahpubmeddbs";
+        var versions = ["0.99.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

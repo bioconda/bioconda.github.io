@@ -61,10 +61,23 @@ perl-io-all
 .. _`perl-io-all/tags`: https://quay.io/repository/biocontainers/perl-io-all?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-io-all";
+        var versions = ["0.87","0.86","0.86"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

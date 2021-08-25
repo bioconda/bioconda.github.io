@@ -62,10 +62,23 @@ bioconductor-cancerdata
 .. _`bioconductor-cancerdata/tags`: https://quay.io/repository/biocontainers/bioconductor-cancerdata?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-cancerdata";
+        var versions = ["1.30.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

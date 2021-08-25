@@ -61,10 +61,23 @@ morpheus
 .. _`morpheus/tags`: https://quay.io/repository/biocontainers/morpheus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "morpheus";
+        var versions = ["287","287","272","272","255"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

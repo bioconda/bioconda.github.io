@@ -79,10 +79,23 @@ vcfkit
 .. _`vcfkit/tags`: https://quay.io/repository/biocontainers/vcfkit?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vcfkit";
+        var versions = ["0.2.9","0.2.8","0.1.6","0.1.6","0.1.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

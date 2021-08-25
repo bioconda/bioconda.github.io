@@ -69,10 +69,23 @@ export2graphlan
 .. _`export2graphlan/tags`: https://quay.io/repository/biocontainers/export2graphlan?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "export2graphlan";
+        var versions = ["0.22","0.20","0.19","0.19","0.19"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

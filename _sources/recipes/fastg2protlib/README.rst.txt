@@ -66,10 +66,23 @@ fastg2protlib
 .. _`fastg2protlib/tags`: https://quay.io/repository/biocontainers/fastg2protlib?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "fastg2protlib";
+        var versions = ["1.0.2","1.0.1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

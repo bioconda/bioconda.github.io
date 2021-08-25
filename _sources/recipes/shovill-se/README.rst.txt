@@ -76,10 +76,23 @@ shovill-se
 .. _`shovill-se/tags`: https://quay.io/repository/biocontainers/shovill-se?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "shovill-se";
+        var versions = ["1.1.0se","1.1.0se","1.1.0se"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

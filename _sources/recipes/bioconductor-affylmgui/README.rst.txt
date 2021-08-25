@@ -71,10 +71,23 @@ bioconductor-affylmgui
 .. _`bioconductor-affylmgui/tags`: https://quay.io/repository/biocontainers/bioconductor-affylmgui?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-affylmgui";
+        var versions = ["1.66.0","1.64.0","1.64.0","1.62.0","1.60.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -69,10 +69,23 @@ islandpath
 .. _`islandpath/tags`: https://quay.io/repository/biocontainers/islandpath?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "islandpath";
+        var versions = ["1.0.6","1.0.5","1.0.4","1.0.4","1.0.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

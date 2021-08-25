@@ -60,10 +60,23 @@ perl-module-runtime
 .. _`perl-module-runtime/tags`: https://quay.io/repository/biocontainers/perl-module-runtime?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-module-runtime";
+        var versions = ["0.016","0.016","0.014","0.014"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

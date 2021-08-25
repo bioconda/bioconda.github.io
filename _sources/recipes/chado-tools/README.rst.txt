@@ -76,10 +76,23 @@ chado-tools
 .. _`chado-tools/tags`: https://quay.io/repository/biocontainers/chado-tools?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "chado-tools";
+        var versions = ["0.2.15","0.2.14","0.2.13","0.2.12","0.2.11"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

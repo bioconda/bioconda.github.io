@@ -64,10 +64,23 @@ pygmes
 .. _`pygmes/tags`: https://quay.io/repository/biocontainers/pygmes?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pygmes";
+        var versions = ["0.1.7","0.1.6","0.1.5","0.1.4","0.1.3.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

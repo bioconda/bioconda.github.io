@@ -66,10 +66,23 @@ lofreq
 .. _`lofreq/tags`: https://quay.io/repository/biocontainers/lofreq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "lofreq";
+        var versions = ["2.1.5","2.1.5","2.1.5","2.1.5","2.1.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

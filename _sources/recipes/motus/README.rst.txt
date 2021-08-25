@@ -73,6 +73,13 @@ motus
 .. _`motus/tags`: https://quay.io/repository/biocontainers/motus?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "motus";
+        var versions = ["3.0.1","3.0.0","2.6.1","2.6.0","2.5.1"];
+    </script>
+
 
 
 
@@ -81,6 +88,12 @@ Notes
 -----
 A tiny wrapper to the command motus was added. See build.sh for additional notes
 
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -62,10 +62,23 @@ galaxyxml
 .. _`galaxyxml/tags`: https://quay.io/repository/biocontainers/galaxyxml?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galaxyxml";
+        var versions = ["0.4.14","0.4.13","0.4.12","0.4.11","0.4.10"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

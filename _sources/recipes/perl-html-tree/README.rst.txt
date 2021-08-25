@@ -64,10 +64,23 @@ perl-html-tree
 .. _`perl-html-tree/tags`: https://quay.io/repository/biocontainers/perl-html-tree?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-html-tree";
+        var versions = ["5.07","5.07","5.03"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

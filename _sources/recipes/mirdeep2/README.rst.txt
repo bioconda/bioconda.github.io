@@ -75,10 +75,23 @@ mirdeep2
 .. _`mirdeep2/tags`: https://quay.io/repository/biocontainers/mirdeep2?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mirdeep2";
+        var versions = ["2.0.1.3","2.0.1.3","2.0.1.2","2.0.0.8","2.0.0.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

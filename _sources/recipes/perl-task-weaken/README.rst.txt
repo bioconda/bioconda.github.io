@@ -60,10 +60,23 @@ perl-task-weaken
 .. _`perl-task-weaken/tags`: https://quay.io/repository/biocontainers/perl-task-weaken?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-task-weaken";
+        var versions = ["1.06","1.04","1.04"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

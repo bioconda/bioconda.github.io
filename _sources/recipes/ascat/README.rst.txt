@@ -72,10 +72,23 @@ ascat
 .. _`ascat/tags`: https://quay.io/repository/biocontainers/ascat?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "ascat";
+        var versions = ["2.5.2","2.5.2","2.5.2","2.5.2","2.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -60,10 +60,23 @@ readseq
 .. _`readseq/tags`: https://quay.io/repository/biocontainers/readseq?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "readseq";
+        var versions = ["2.1.30","2.1.30"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

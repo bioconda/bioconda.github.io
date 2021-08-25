@@ -69,10 +69,23 @@ digestiflow-cli
 .. _`digestiflow-cli/tags`: https://quay.io/repository/biocontainers/digestiflow-cli?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "digestiflow-cli";
+        var versions = ["0.5.8","0.5.8","0.5.8","0.5.7","0.5.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

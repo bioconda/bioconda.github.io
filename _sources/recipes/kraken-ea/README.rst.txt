@@ -63,10 +63,23 @@ kraken-ea
 .. _`kraken-ea/tags`: https://quay.io/repository/biocontainers/kraken-ea?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kraken-ea";
+        var versions = ["0.10.5ea.3","0.10.5ea.3","0.10.5ea.3","0.10.5ea.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -75,10 +75,23 @@ hmftools-sage
 .. _`hmftools-sage/tags`: https://quay.io/repository/biocontainers/hmftools-sage?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "hmftools-sage";
+        var versions = ["2.8","2.7","2.7","2.6","2.5"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

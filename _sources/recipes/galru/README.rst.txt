@@ -71,10 +71,23 @@ galru
 .. _`galru/tags`: https://quay.io/repository/biocontainers/galru?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "galru";
+        var versions = ["1.0.0","0.0.2","0.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

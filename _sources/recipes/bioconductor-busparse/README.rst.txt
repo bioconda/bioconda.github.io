@@ -89,10 +89,23 @@ bioconductor-busparse
 .. _`bioconductor-busparse/tags`: https://quay.io/repository/biocontainers/bioconductor-busparse?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-busparse";
+        var versions = ["1.5.3","1.4.2","1.4.0","1.2.1","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

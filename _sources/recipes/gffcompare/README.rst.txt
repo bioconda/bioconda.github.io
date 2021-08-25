@@ -62,10 +62,23 @@ gffcompare
 .. _`gffcompare/tags`: https://quay.io/repository/biocontainers/gffcompare?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gffcompare";
+        var versions = ["0.11.2","0.11.2","0.11.2","0.10.6","0.9.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

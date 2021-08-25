@@ -64,10 +64,23 @@ kissplice
 .. _`kissplice/tags`: https://quay.io/repository/biocontainers/kissplice?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "kissplice";
+        var versions = ["2.4.0","2.4.0","2.4.0","2.4.0p1","2.4.0p1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -64,10 +64,23 @@ sepp
 .. _`sepp/tags`: https://quay.io/repository/biocontainers/sepp?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sepp";
+        var versions = ["4.5.1","4.4.0","4.3.10","4.3.10","4.3.9"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -68,10 +68,23 @@ bioconductor-epidecoder
 .. _`bioconductor-epidecoder/tags`: https://quay.io/repository/biocontainers/bioconductor-epidecoder?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-epidecoder";
+        var versions = ["1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

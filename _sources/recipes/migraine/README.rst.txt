@@ -62,10 +62,23 @@ migraine
 .. _`migraine/tags`: https://quay.io/repository/biocontainers/migraine?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "migraine";
+        var versions = ["0.6.0","0.5.4","0.5.4","0.5.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

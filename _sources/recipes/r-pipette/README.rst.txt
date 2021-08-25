@@ -92,10 +92,23 @@ r-pipette
 .. _`r-pipette/tags`: https://quay.io/repository/biocontainers/r-pipette?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-pipette";
+        var versions = ["0.6.3","0.6.2","0.6.1","0.6.0","0.5.15"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

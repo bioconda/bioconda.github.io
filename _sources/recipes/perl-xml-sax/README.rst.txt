@@ -63,10 +63,23 @@ perl-xml-sax
 .. _`perl-xml-sax/tags`: https://quay.io/repository/biocontainers/perl-xml-sax?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-xml-sax";
+        var versions = ["1.02","1.00","0.99","0.99"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ haslr
 .. _`haslr/tags`: https://quay.io/repository/biocontainers/haslr?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "haslr";
+        var versions = ["0.8a1","0.8a1","0.8a1"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -73,10 +73,23 @@ r-gkmsvm
 .. _`r-gkmsvm/tags`: https://quay.io/repository/biocontainers/r-gkmsvm?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "r-gkmsvm";
+        var versions = ["0.81.0","0.81.0","0.81.0","0.80.0","0.80.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

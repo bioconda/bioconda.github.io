@@ -75,10 +75,23 @@ igblast
 .. _`igblast/tags`: https://quay.io/repository/biocontainers/igblast?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "igblast";
+        var versions = ["1.17.1","1.15.0","1.10.0","1.10.0","1.9.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

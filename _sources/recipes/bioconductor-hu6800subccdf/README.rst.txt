@@ -62,10 +62,23 @@ bioconductor-hu6800subccdf
 .. _`bioconductor-hu6800subccdf/tags`: https://quay.io/repository/biocontainers/bioconductor-hu6800subccdf?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hu6800subccdf";
+        var versions = ["2.18.0","2.18.0","2.18.0","2.18.0","2.18.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

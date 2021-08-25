@@ -81,10 +81,23 @@ mqc
 .. _`mqc/tags`: https://quay.io/repository/biocontainers/mqc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "mqc";
+        var versions = ["1.10","1.10","1.9","1.8","1.7"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

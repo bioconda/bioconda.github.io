@@ -62,10 +62,23 @@ deeptoolsintervals
 .. _`deeptoolsintervals/tags`: https://quay.io/repository/biocontainers/deeptoolsintervals?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "deeptoolsintervals";
+        var versions = ["0.1.9","0.1.9","0.1.9","0.1.9","0.1.8"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

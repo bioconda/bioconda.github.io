@@ -79,10 +79,23 @@ pyquant-ms
 .. _`pyquant-ms/tags`: https://quay.io/repository/biocontainers/pyquant-ms?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "pyquant-ms";
+        var versions = ["0.2.4","0.2.4","0.2.4","0.2.4","0.2.4"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

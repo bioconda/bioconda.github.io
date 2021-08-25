@@ -62,10 +62,23 @@ psiclass
 .. _`psiclass/tags`: https://quay.io/repository/biocontainers/psiclass?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "psiclass";
+        var versions = ["1.0.2","1.0.2"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

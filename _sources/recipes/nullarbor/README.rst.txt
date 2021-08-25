@@ -94,10 +94,23 @@ nullarbor
 .. _`nullarbor/tags`: https://quay.io/repository/biocontainers/nullarbor?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "nullarbor";
+        var versions = ["2.0.20191013","2.0.20191013","2.0.20191013","2.0.20191007","2.0.20191003"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -59,10 +59,23 @@ bioconductor-hilbertvisgui
 .. _`bioconductor-hilbertvisgui/tags`: https://quay.io/repository/biocontainers/bioconductor-hilbertvisgui?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-hilbertvisgui";
+        var versions = [];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

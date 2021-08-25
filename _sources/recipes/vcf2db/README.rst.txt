@@ -76,10 +76,23 @@ vcf2db
 .. _`vcf2db/tags`: https://quay.io/repository/biocontainers/vcf2db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "vcf2db";
+        var versions = ["2020.02.24","2020.02.24","2018.10.26","2018.10.26","2018.05.23"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

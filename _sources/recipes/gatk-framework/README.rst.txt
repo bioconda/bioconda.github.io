@@ -68,10 +68,23 @@ gatk-framework
 .. _`gatk-framework/tags`: https://quay.io/repository/biocontainers/gatk-framework?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "gatk-framework";
+        var versions = ["3.6.24","3.6.24","3.6.24","3.6.24","3.6.24"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -73,10 +73,23 @@ bioconductor-radiogx
 .. _`bioconductor-radiogx/tags`: https://quay.io/repository/biocontainers/bioconductor-radiogx?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-radiogx";
+        var versions = ["1.2.0","1.0.0","1.0.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

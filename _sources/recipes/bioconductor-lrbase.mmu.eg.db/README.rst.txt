@@ -63,10 +63,23 @@ bioconductor-lrbase.mmu.eg.db
 .. _`bioconductor-lrbase.mmu.eg.db/tags`: https://quay.io/repository/biocontainers/bioconductor-lrbase.mmu.eg.db?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-lrbase.mmu.eg.db";
+        var versions = ["2.0.0","1.2.0","1.2.0","1.2.0","1.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

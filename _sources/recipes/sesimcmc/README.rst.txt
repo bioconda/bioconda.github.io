@@ -61,10 +61,23 @@ sesimcmc
 .. _`sesimcmc/tags`: https://quay.io/repository/biocontainers/sesimcmc?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "sesimcmc";
+        var versions = ["4.36","4.36"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

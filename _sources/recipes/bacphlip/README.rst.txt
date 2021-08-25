@@ -64,10 +64,23 @@ bacphlip
 .. _`bacphlip/tags`: https://quay.io/repository/biocontainers/bacphlip?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bacphlip";
+        var versions = ["0.9.6"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

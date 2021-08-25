@@ -60,10 +60,23 @@ perl-extutils-pkgconfig
 .. _`perl-extutils-pkgconfig/tags`: https://quay.io/repository/biocontainers/perl-extutils-pkgconfig?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "perl-extutils-pkgconfig";
+        var versions = ["1.16","1.16"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

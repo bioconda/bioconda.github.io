@@ -76,10 +76,23 @@ bioconductor-rnbeads
 .. _`bioconductor-rnbeads/tags`: https://quay.io/repository/biocontainers/bioconductor-rnbeads?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bioconductor-rnbeads";
+        var versions = ["2.10.0","2.8.1","2.8.0","2.4.0","2.2.0"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

@@ -67,10 +67,23 @@ tb_variant_filter
 .. _`tb_variant_filter/tags`: https://quay.io/repository/biocontainers/tb_variant_filter?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "tb_variant_filter";
+        var versions = ["0.3.5","0.3.0","0.2.0","0.2.0","0.1.3"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

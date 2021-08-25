@@ -63,10 +63,23 @@ bugseq-porechop
 .. _`bugseq-porechop/tags`: https://quay.io/repository/biocontainers/bugseq-porechop?tab=tags
 
 
+.. raw:: html
+
+    <script>
+        var package = "bugseq-porechop";
+        var versions = ["0.3.4pre","0.3.4pre"];
+    </script>
 
 
 
 
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------
