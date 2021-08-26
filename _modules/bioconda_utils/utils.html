@@ -525,13 +525,35 @@
     <span class="c1"># `bypass_env_check=True` prevents evaluating (=environment solving) the</span>
     <span class="c1"># package versions used for `pin_compatible` and the like.</span>
     <span class="c1"># To avoid adding a separate `bypass_env_check` alongside every `finalize`</span>
-    <span class="c1"># parameter, just assume we always want to bypass if `finalize is True`.</span>
-    <span class="n">bypass_env_check</span> <span class="o">=</span> <span class="p">(</span><span class="ow">not</span> <span class="n">finalize</span><span class="p">)</span>
-    <span class="k">return</span> <span class="p">[</span><span class="n">meta</span> <span class="k">for</span> <span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">)</span> <span class="ow">in</span> <span class="n">api</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="n">recipe</span><span class="p">,</span>
-                                                <span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">,</span>
-                                                <span class="n">finalize</span><span class="o">=</span><span class="n">finalize</span><span class="p">,</span>
-                                                <span class="n">bypass_env_check</span><span class="o">=</span><span class="n">bypass_env_check</span><span class="p">,</span>
-                                                <span class="p">)]</span></div>
+    <span class="c1"># parameter, just assume we do not want to bypass if `finalize is True`.</span>
+    <span class="n">metas</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">meta</span>
+        <span class="k">for</span> <span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">)</span> <span class="ow">in</span> <span class="n">api</span><span class="o">.</span><span class="n">render</span><span class="p">(</span>
+            <span class="n">recipe</span><span class="p">,</span>
+            <span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">,</span>
+            <span class="n">finalize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">bypass_env_check</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="p">)</span>
+    <span class="p">]</span>
+    <span class="c1"># Render again if we want the finalized version.</span>
+    <span class="c1"># Rendering the non-finalized version beforehand lets us filter out</span>
+    <span class="c1"># variants that get skipped. (E.g., with a global `numpy 1.16` pin for</span>
+    <span class="c1"># py==27 the env check fails when evaluating `pin_compatible(&#39;numpy&#39;)` for</span>
+    <span class="c1"># recipes that use a pinned `numpy` and also require `numpy&gt;=1.17` but</span>
+    <span class="c1"># actually skip py==27. Filtering out that variant beforehand avoids this.</span>
+    <span class="k">if</span> <span class="n">finalize</span><span class="p">:</span>
+        <span class="n">metas</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="n">meta</span>
+            <span class="k">for</span> <span class="n">non_finalized_meta</span> <span class="ow">in</span> <span class="n">metas</span>
+            <span class="k">for</span> <span class="p">(</span><span class="n">meta</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">)</span> <span class="ow">in</span> <span class="n">api</span><span class="o">.</span><span class="n">render</span><span class="p">(</span>
+                <span class="n">recipe</span><span class="p">,</span>
+                <span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">,</span>
+                <span class="n">variants</span><span class="o">=</span><span class="n">non_finalized_meta</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">variant</span><span class="p">,</span>
+                <span class="n">finalize</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                <span class="n">bypass_env_check</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="p">]</span>
+    <span class="k">return</span> <span class="n">metas</span></div>
 
 
 
