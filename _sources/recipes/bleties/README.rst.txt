@@ -28,7 +28,7 @@ bleties
       
       
 
-      ``0.1.9-0``
+      ``0.1.11-0``,  ``0.1.9-0``
 
       
 
@@ -77,7 +77,7 @@ bleties
 
     <script>
         var package = "bleties";
-        var versions = ["0.1.9"];
+        var versions = ["0.1.11","0.1.9"];
     </script>
 
 

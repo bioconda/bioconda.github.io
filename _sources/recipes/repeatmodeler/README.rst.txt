@@ -29,7 +29,7 @@ repeatmodeler
       
       
 
-      ``2.0.1-0``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.8-1``,  ``1.0.8-0``
+      ``2.0.2a-0``,  ``2.0.1-0``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.8-1``,  ``1.0.8-0``
 
       
 
@@ -39,12 +39,16 @@ repeatmodeler
    :depends ltr_retriever: ``>=2.6``
    :depends mafft: ``>=7.407``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends perl-text-soundex: 
+   :depends perl-devel-size: 
+   :depends perl-file-which: 
    :depends recon: ``>=1.08``
    :depends repeatmasker: 
    :depends repeatscout: ``>=1.0.6``
-   :depends rmblast: ``>=2.9.0``
+   :depends rmblast: ``2.10.0.*``
    :depends trf: ``>=4.09``
+   :depends ucsc-fatotwobit: 
+   :depends ucsc-twobitinfo: 
+   :depends ucsc-twobittofa: 
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +80,7 @@ repeatmodeler
 
     <script>
         var package = "repeatmodeler";
-        var versions = ["2.0.1","1.0.11","1.0.11","1.0.11","1.0.11"];
+        var versions = ["2.0.2a","2.0.1","1.0.11","1.0.11","1.0.11"];
     </script>
 
 

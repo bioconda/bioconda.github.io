@@ -27,7 +27,7 @@ scvelo
       
       
 
-      ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.25-0``,  ``0.1.24-0``
+      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.25-0``,  ``0.1.24-0``
 
       
 
@@ -41,6 +41,7 @@ scvelo
    :depends scanpy: ``>=1.5.0``
    :depends scikit-learn: ``>=0.21.2``
    :depends scipy: ``>=1.4.1``
+   :depends typing_extensions: 
    :depends umap-learn: ``>=0.3.10``
    :requirements:
 
@@ -73,7 +74,7 @@ scvelo
 
     <script>
         var package = "scvelo";
-        var versions = ["0.2.3","0.2.2","0.2.2","0.2.1","0.1.25"];
+        var versions = ["0.2.4","0.2.3","0.2.2","0.2.2","0.2.1"];
     </script>
 
 

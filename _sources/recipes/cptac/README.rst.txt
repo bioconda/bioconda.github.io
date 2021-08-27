@@ -12,7 +12,7 @@ cptac
 
    Python packaging for CPTAC data
 
-   :homepage: http://github.com/PayneLab/cptac
+   :homepage: https://github.com/PayneLab/cptac
    :license: Apache-2.0
    :recipe: /`cptac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cptac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cptac/meta.yaml>`_
 
@@ -27,7 +27,7 @@ cptac
       
       
 
-      ``0.9.6-0``
+      ``0.9.7-0``,  ``0.9.6-0``
 
       
 
@@ -77,7 +77,7 @@ cptac
 
     <script>
         var package = "cptac";
-        var versions = ["0.9.6"];
+        var versions = ["0.9.7","0.9.6"];
     </script>
 
 
