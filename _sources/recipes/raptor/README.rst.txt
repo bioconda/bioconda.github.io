@@ -15,7 +15,7 @@ raptor
    :homepage: https://github.com/seqan/raptor
    :license: BSD / BSD-3-Clause License
    :recipe: /`raptor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/raptor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/raptor/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2020.10.08.330985`
+   :links: doi: :doi:`10.1016/j.isci.2021.102782`
 
    Raptor is a tool for approximately searching many queries in large collections of nucleotide sequences.
 
@@ -28,14 +28,14 @@ raptor
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ raptor
 
     <script>
         var package = "raptor";
-        var versions = ["1.1.0","1.1.0","1.0.1","1.0.0"];
+        var versions = ["2.0.0","1.1.0","1.1.0","1.0.1","1.0.0"];
     </script>
 
 

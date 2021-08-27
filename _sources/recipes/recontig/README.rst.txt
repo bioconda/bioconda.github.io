@@ -27,13 +27,13 @@ recontig
       
       
 
-      ``1.1.1-0``
+      ``1.2.0-0``,  ``1.1.1-0``
 
       
 
    
    :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends pandas: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
@@ -68,7 +68,7 @@ recontig
 
     <script>
         var package = "recontig";
-        var versions = ["1.1.1"];
+        var versions = ["1.2.0","1.1.1"];
     </script>
 
 
