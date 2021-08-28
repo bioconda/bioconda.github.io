@@ -27,7 +27,7 @@ cgat-apps
       
       
 
-      ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+      ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
 
       
 
@@ -41,16 +41,16 @@ cgat-apps
    :depends grep: 
    :depends htslib: ``>=1.12,<1.13.0a0``
    :depends jinja2: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
    :depends pysam: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends pyyaml: 
    :depends quicksect: 
    :depends scikit-learn: 
@@ -92,7 +92,7 @@ cgat-apps
 
     <script>
         var package = "cgat-apps";
-        var versions = ["0.6.4","0.6.0","0.6.0","0.6.0","0.5.6"];
+        var versions = ["0.6.4","0.6.4","0.6.0","0.6.0","0.6.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ ntm-profiler
       
       
 
-      ``0.0.1-0``
+      ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -66,7 +66,7 @@ ntm-profiler
 
     <script>
         var package = "ntm-profiler";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.2","0.0.1"];
     </script>
 
 

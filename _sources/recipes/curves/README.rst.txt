@@ -27,18 +27,18 @@ curves
       
       
 
-      ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.0-0``
+      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.0-0``
 
       
 
    
    :depends ambertools: ``20.*``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
+   :depends libgfortran5: ``>=9.4.0``
    :depends libnetcdf: ``>=4.7.*``
    :depends libnetcdf: ``>=4.7.4,<4.7.5.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends netcdf-fortran: ``>=4.5.3,<4.6.0a0``
    :requirements:
 
@@ -71,7 +71,7 @@ curves
 
     <script>
         var package = "curves";
-        var versions = ["3.0.0","3.0.0","2.6.0"];
+        var versions = ["3.0.0","3.0.0","3.0.0","2.6.0"];
     </script>
 
 
