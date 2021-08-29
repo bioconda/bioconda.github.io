@@ -27,11 +27,12 @@ mimsi
       
       
 
-      ``0.4.3-0``
+      ``0.4.4-0``,  ``0.4.3-0``
 
       
 
    
+   :depends matplotlib-base: 
    :depends nose: ``>=1.3.7``
    :depends numpy: 
    :depends pandas: 
@@ -39,7 +40,6 @@ mimsi
    :depends python: ``>=3.6,<3.9``
    :depends pytorch: 
    :depends scikit-learn: 
-   :depends torchvision: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ mimsi
 
     <script>
         var package = "mimsi";
-        var versions = ["0.4.3"];
+        var versions = ["0.4.4","0.4.3"];
     </script>
 
 

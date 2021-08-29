@@ -13,8 +13,11 @@ sambamba
    Tools for working with SAM\/BAM data
 
    :homepage: https://github.com/biod/sambamba
-   :license: GPLv2
+   :documentation: https://lomereiter.github.io/sambamba/docs/sambamba-view.html
+   
+   :license: GPL2 / GPL2
    :recipe: /`sambamba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sambamba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sambamba/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btv098`
 
    
 
@@ -28,10 +31,10 @@ sambamba
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.1-3</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.9-0</code>,  <code>0.6.8-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-3</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.9-0</code>,  </span></summary>
       
 
-      ``0.8.0-0``,  ``0.7.1-3``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.9-0``,  ``0.6.8-2``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.6-2``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.9-1``,  ``0.5.9-0``
+      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-3``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.9-0``,  ``0.6.8-2``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.6-2``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.9-1``,  ``0.5.9-0``
 
       
       .. raw:: html
@@ -41,9 +44,9 @@ sambamba
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
    :depends ldc: ``>=1.20.0,<1.21.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -77,7 +80,7 @@ sambamba
 
     <script>
         var package = "sambamba";
-        var versions = ["0.8.0","0.7.1","0.7.1","0.7.1","0.7.1"];
+        var versions = ["0.8.1","0.8.0","0.7.1","0.7.1","0.7.1"];
     </script>
 
 
