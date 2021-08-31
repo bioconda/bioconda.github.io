@@ -28,7 +28,7 @@ gadma
       
       
 
-      ``2.0.0rc16-0``
+      ``2.0.0rc17-0``,  ``2.0.0rc16-0``
 
       
 
@@ -76,7 +76,7 @@ gadma
 
     <script>
         var package = "gadma";
-        var versions = ["2.0.0rc16"];
+        var versions = ["2.0.0rc17","2.0.0rc16"];
     </script>
 
 

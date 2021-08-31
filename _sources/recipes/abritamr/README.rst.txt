@@ -27,20 +27,17 @@ abritamr
       
       
 
-      ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
+      ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
 
       
 
    
    :depends blast: 
-   :depends click: 
    :depends hmmer: 
-   :depends jinja2: 
    :depends libcurl: 
-   :depends ncbi-amrfinderplus: 
+   :depends ncbi-amrfinderplus: ``3.10.5.*``
    :depends pandas: 
-   :depends python: ``3.7.*``
-   :depends snakemake: 
+   :depends xlsxwriter: 
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +69,7 @@ abritamr
 
     <script>
         var package = "abritamr";
-        var versions = ["1.0.0","0.2.2","0.1.0"];
+        var versions = ["1.0.3","1.0.0","0.2.2","0.1.0"];
     </script>
 
 
