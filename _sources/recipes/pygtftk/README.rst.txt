@@ -28,10 +28,10 @@ pygtftk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.7-2</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.7-2</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.2-0</code>,  </span></summary>
       
 
-      ``1.3.0-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -48,8 +48,8 @@ pygtftk
    :depends cloudpickle: ``>=0.4.0``
    :depends ftputil: ``>=3.3.1,<4.0.0``
    :depends future: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends matplotlib-base: ``>=2.0.2``
    :depends mpmath: ``>=1.1.0``
    :depends nose: 
@@ -100,7 +100,7 @@ pygtftk
 
     <script>
         var package = "pygtftk";
-        var versions = ["1.3.0","1.2.7","1.2.7","1.2.7","1.2.6"];
+        var versions = ["1.4.0","1.3.0","1.2.7","1.2.7","1.2.7"];
     </script>
 
 

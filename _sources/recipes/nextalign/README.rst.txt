@@ -10,10 +10,10 @@ nextalign
    :replaces_section_title:
    :noindex:
 
-   Viral genome clade assignment\, mutation calling\, and sequence quality checks
+   Viral genome sequence alignment tool
 
    :homepage: https://github.com/nextstrain/nextclade/tree/master/packages/nextalign_cli
-   :documentation: https://github.com/nextstrain/nextclade
+   :documentation: https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextalign-cli.html
    
    :developer docs: https://github.com/nextstrain/nextclade
    :license: MIT / MIT
@@ -30,7 +30,7 @@ nextalign
       
       
 
-      ``1.2.3-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+      ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
 
@@ -66,7 +66,7 @@ nextalign
 
     <script>
         var package = "nextalign";
-        var versions = ["1.2.3","1.2.1","1.2.0","0.2.0","0.2.0"];
+        var versions = ["1.3.0","1.2.3","1.2.1","1.2.0","0.2.0"];
     </script>
 
 

@@ -30,7 +30,7 @@ dram
       
       
 
-      ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-0``
+      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-0``
 
       
 
@@ -43,10 +43,10 @@ dram
    :depends networkx: 
    :depends numpy: 
    :depends openpyxl: 
-   :depends pandas: 
+   :depends pandas: ``>=1``
    :depends parallel: 
    :depends prodigal: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.6``
    :depends ruby: 
    :depends scikit-bio: 
    :depends sqlalchemy: 
@@ -83,7 +83,7 @@ dram
 
     <script>
         var package = "dram";
-        var versions = ["1.2.4","1.2.2","1.2.1","1.2.0","1.1.1"];
+        var versions = ["1.2.4","1.2.4","1.2.2","1.2.1","1.2.0"];
     </script>
 
 

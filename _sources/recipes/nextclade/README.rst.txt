@@ -13,7 +13,7 @@ nextclade
    SARS\-CoV\-2 genome clade assignment\, mutation calling\, and sequence quality checks
 
    :homepage: https://github.com/nextstrain/nextclade/tree/master/packages/nextclade_cli
-   :documentation: https://github.com/nextstrain/nextclade
+   :documentation: https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli.html#
    
    :developer docs: https://github.com/nextstrain/nextclade
    :license: MIT / MIT
@@ -30,7 +30,7 @@ nextclade
       
       
 
-      ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.3.0-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -66,7 +66,7 @@ nextclade
 
     <script>
         var package = "nextclade";
-        var versions = ["1.2.3","1.2.3","1.2.1","1.2.0","1.1.0"];
+        var versions = ["1.3.0","1.2.3","1.2.3","1.2.1","1.2.0"];
     </script>
 
 
