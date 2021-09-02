@@ -29,10 +29,10 @@ lotus2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12-1</code>,  <code>2.12-0</code>,  <code>2.11-0</code>,  <code>2.09.2-0</code>,  <code>2.09.1-0</code>,  <code>2.09-0</code>,  <code>2.08-0</code>,  <code>2.07-0</code>,  <code>2.06-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14-0</code>,  <code>2.12-1</code>,  <code>2.12-0</code>,  <code>2.11-0</code>,  <code>2.09.2-0</code>,  <code>2.09.1-0</code>,  <code>2.09-0</code>,  <code>2.08-0</code>,  <code>2.07-0</code>,  </span></summary>
       
 
-      ``2.12-1``,  ``2.12-0``,  ``2.11-0``,  ``2.09.2-0``,  ``2.09.1-0``,  ``2.09-0``,  ``2.08-0``,  ``2.07-0``,  ``2.06-0``,  ``2.05.1-0``,  ``2.04-1``,  ``2.04-0``,  ``2.02-0``,  ``2.01-1``,  ``2.01-0``
+      ``2.14-0``,  ``2.12-1``,  ``2.12-0``,  ``2.11-0``,  ``2.09.2-0``,  ``2.09.1-0``,  ``2.09-0``,  ``2.08-0``,  ``2.07-0``,  ``2.06-0``,  ``2.05.1-0``,  ``2.04-1``,  ``2.04-0``,  ``2.02-0``,  ``2.01-1``,  ``2.01-0``
 
       
       .. raw:: html
@@ -59,7 +59,7 @@ lotus2
    :depends r-dplyr: 
    :depends rdp_classifier: 
    :depends rtk: 
-   :depends sdm: ``1.90``
+   :depends sdm: ``1.92``
    :depends swarm: 
    :depends unzip: 
    :depends vsearch: 
@@ -96,7 +96,7 @@ lotus2
 
     <script>
         var package = "lotus2";
-        var versions = ["2.12","2.12","2.11","2.09.2","2.09.1"];
+        var versions = ["2.14","2.12","2.12","2.11","2.09.2"];
     </script>
 
 
