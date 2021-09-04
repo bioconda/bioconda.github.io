@@ -28,7 +28,7 @@ riassigner
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -70,7 +70,7 @@ riassigner
 
     <script>
         var package = "riassigner";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 

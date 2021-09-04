@@ -28,26 +28,26 @@ r-acidexperiment
       
       
 
-      ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
+      ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.58``
-   :depends bioconductor-summarizedexperiment: ``>=1.20``
-   :depends r-acidbase: ``>=0.3.13``
-   :depends r-acidcli: ``>=0.1.1``
-   :depends r-acidgenerics: ``>=0.5.17``
-   :depends r-acidgenomes: ``>=0.2.13``
+   :depends bioconductor-biostrings: ``>=2.60.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.22.0``
+   :depends r-acidbase: ``>=0.4.3``
+   :depends r-acidcli: ``>=0.1.5``
+   :depends r-acidgenerics: ``>=0.5.19``
+   :depends r-acidgenomes: ``>=0.2.17``
    :depends r-acidplyr: ``>=0.1.20``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-goalie: ``>=0.5.1``
+   :depends r-goalie: ``>=0.5.4``
    :depends r-matrix: ``>=1.3``
-   :depends r-pipette: ``>=0.6.0``
+   :depends r-pipette: ``>=0.7.0``
    :depends r-scales: ``>=1.1.1``
-   :depends r-sessioninfo: ``>=1.1``
-   :depends r-stringr: ``>=1.4``
-   :depends r-syntactic: ``>=0.4.5``
+   :depends r-sessioninfo: ``>=1.1.1``
+   :depends r-stringr: ``>=1.4.0``
+   :depends r-syntactic: ``>=0.5.0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +79,7 @@ r-acidexperiment
 
     <script>
         var package = "r-acidexperiment";
-        var versions = ["0.1.14","0.1.13","0.1.12","0.1.11","0.1.10"];
+        var versions = ["0.2.0","0.1.14","0.1.13","0.1.12","0.1.11"];
     </script>
 
 

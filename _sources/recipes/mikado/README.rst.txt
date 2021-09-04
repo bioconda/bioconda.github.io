@@ -28,10 +28,10 @@ mikado
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  </span></summary>
       
 
-      ``2.3.0-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -44,8 +44,8 @@ mikado
    :depends datrie: ``>=0.8``
    :depends drmaa: 
    :depends hypothesis: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends marshmallow: ``>=3.1.0``
    :depends marshmallow-dataclass: ``>=8.3.1``
    :depends msgpack-python: ``>=1.0.0``
@@ -59,12 +59,12 @@ mikado
    :depends python-rapidjson: ``>=1.0``
    :depends python_abi: ``3.7.* *_cp37m``
    :depends pyyaml: ``>=5.1.2``
-   :depends scipy: ``>=1.6.3,<2.0a0``
+   :depends scipy: ``>=1.7.0,<2.0a0``
    :depends six: ``>=1.12.0``
-   :depends snakemake: ``>=5.7.0``
-   :depends sqlalchemy: ``>=1.3.9,<1.4.0``
+   :depends snakemake-minimal: ``>=5.7.0``
+   :depends sqlalchemy: ``>=1.4.0``
    :depends sqlalchemy-utils: ``>=0.34.1``
-   :depends sqlite: ``>=3.35.5,<4.0a0``
+   :depends sqlite: ``>=3.36.0,<4.0a0``
    :depends tabulate: ``>=0.8.5``
    :depends toml: ``>=0.10.0``
    :depends typeguard: ``>=2.9.1``
@@ -99,7 +99,7 @@ mikado
 
     <script>
         var package = "mikado";
-        var versions = ["2.3.0","2.2.5","2.2.4","2.2.3","2.2.2"];
+        var versions = ["2.3.2","2.3.1","2.3.0","2.2.5","2.2.4"];
     </script>
 
 
