@@ -48,10 +48,10 @@ metagenome-atlas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6a2-0</code>,  <code>2.6a1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.5-0</code>,  <code>2.4.4-0</code>,  <code>2.4.3-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6a4-0</code>,  <code>2.6a2-0</code>,  <code>2.6a1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.5-0</code>,  <code>2.4.4-0</code>,  <code>2.4.3-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  </span></summary>
       
 
-      ``2.6a2-0``,  ``2.6a1-0``,  ``2.5.0-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.beta2-0``,  ``2.2.0-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``,  ``2.0.6-1``,  ``2.0.5-1``,  ``2.0.4-1``,  ``2.0.3-1``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.6a4-0``,  ``2.6a2-0``,  ``2.6a1-0``,  ``2.5.0-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.beta2-0``,  ``2.2.0-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.1-0``,  ``2.0.6-1``,  ``2.0.5-1``,  ``2.0.4-1``,  ``2.0.3-1``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
       .. raw:: html
@@ -60,15 +60,16 @@ metagenome-atlas
       
 
    
-   :depends bbmap: 
-   :depends biopython: ``>=1.70,<2``
-   :depends click: ``>=7``
+   :depends bbmap: ``38.*``
+   :depends biopython: ``1.74.*``
+   :depends click: ``7.*``
    :depends cookiecutter: 
-   :depends git: 
-   :depends pandas: ``>1``
-   :depends python: ``>3.6,<3.8``
-   :depends ruamel.yaml: ``0.15.99.*``
-   :depends snakemake: ``>=6.1``
+   :depends mamba: 
+   :depends numpy: ``1.21.*``
+   :depends pandas: ``1.2.*``
+   :depends python: ``3.8.*``
+   :depends ruamel.yaml: ``0.17.*``
+   :depends snakemake-minimal: ``6.7.*``
    :requirements:
 
    .. rubric:: Installation
@@ -100,7 +101,7 @@ metagenome-atlas
 
     <script>
         var package = "metagenome-atlas";
-        var versions = ["2.6a2","2.6a1","2.5.0","2.4.5","2.4.4"];
+        var versions = ["2.6a4","2.6a2","2.6a1","2.5.0","2.4.5"];
     </script>
 
 

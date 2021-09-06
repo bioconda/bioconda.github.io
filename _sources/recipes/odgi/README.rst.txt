@@ -27,14 +27,14 @@ odgi
       
       
 
-      ``0.6-1``,  ``0.6-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
+      ``0.6.1-0``,  ``0.6-1``,  ``0.6-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
 
       
 
    
    :depends jemalloc: ``>=5.2.1``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -69,7 +69,7 @@ odgi
 
     <script>
         var package = "odgi";
-        var versions = ["0.6","0.6","0.4.1","0.4.1","0.3"];
+        var versions = ["0.6.1","0.6","0.6","0.4.1","0.4.1"];
     </script>
 
 
