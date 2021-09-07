@@ -28,7 +28,7 @@ harmony-pytorch
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
@@ -70,7 +70,7 @@ harmony-pytorch
 
     <script>
         var package = "harmony-pytorch";
-        var versions = ["0.1.6","0.1.5"];
+        var versions = ["0.1.7","0.1.6","0.1.5"];
     </script>
 
 

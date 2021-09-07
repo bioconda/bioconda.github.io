@@ -27,12 +27,12 @@ bwread
       
       
 
-      ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.0.4-0``,  ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
@@ -72,7 +72,7 @@ bwread
 
     <script>
         var package = "bwread";
-        var versions = ["0.0.3","0.0.3","0.0.3"];
+        var versions = ["0.0.4","0.0.3","0.0.3","0.0.3"];
     </script>
 
 
