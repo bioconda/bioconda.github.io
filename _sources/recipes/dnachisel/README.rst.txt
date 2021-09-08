@@ -27,7 +27,7 @@ dnachisel
       
       
 
-      ``3.2.7-0``,  ``3.2.6-0``
+      ``3.2.8-0``,  ``3.2.7-0``,  ``3.2.6-0``
 
       
 
@@ -70,7 +70,7 @@ dnachisel
 
     <script>
         var package = "dnachisel";
-        var versions = ["3.2.7","3.2.6"];
+        var versions = ["3.2.8","3.2.7","3.2.6"];
     </script>
 
 
