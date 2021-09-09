@@ -13,7 +13,7 @@ nanovar
    Structural variant caller using low\-depth long reads
 
    :homepage: https://github.com/cytham/nanovar
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`nanovar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanovar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanovar/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ nanovar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.9-1</code>,  <code>1.3.9-0</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.2-0</code>,  </span></summary>
       
 
-      ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``
+      ``1.4.0-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``
 
       
       .. raw:: html
@@ -43,8 +43,9 @@ nanovar
    :depends bedtools: ``>=2.26.0``
    :depends biopython: ``>=1.74``
    :depends blast: ``>=2.5.0``
+   :depends cytocad: ``>=1.0.0``
    :depends hs-blastn: ``>=0.0.5``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends matplotlib-base: ``>=2.2.3``
    :depends minimap2: ``>=2.17``
    :depends natsort: ``>=6.2.0``
@@ -52,8 +53,8 @@ nanovar
    :depends progress: ``>=1.4``
    :depends pybedtools: ``>=0.8.2``
    :depends pysam: ``>=0.15.3``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :depends samtools: ``>=1.3``
    :depends scipy: ``>=1.2.1``
    :depends tensorflow-mkl: ``>=2.0.0``
@@ -88,7 +89,7 @@ nanovar
 
     <script>
         var package = "nanovar";
-        var versions = ["1.3.9","1.3.9","1.3.8","1.3.8","1.3.6"];
+        var versions = ["1.4.0","1.3.9","1.3.9","1.3.8","1.3.8"];
     </script>
 
 

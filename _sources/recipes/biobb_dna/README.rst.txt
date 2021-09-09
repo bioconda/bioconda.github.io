@@ -51,7 +51,7 @@ biobb_dna
       
       
 
-      ``1.1.1-0``
+      ``3.6.1-0``,  ``1.1.1-0``
 
       
 
@@ -93,7 +93,7 @@ biobb_dna
 
     <script>
         var package = "biobb_dna";
-        var versions = ["1.1.1"];
+        var versions = ["3.6.1","1.1.1"];
     </script>
 
 

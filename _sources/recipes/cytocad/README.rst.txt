@@ -27,7 +27,7 @@ cytocad
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -41,6 +41,7 @@ cytocad
    :depends pysam: ``>=0.15.3``
    :depends python: ``>=3.9,<3.10.0a0``
    :depends python_abi: ``3.9.* *_cp39``
+   :depends ruptures: ``>=1.1.3``
    :depends samtools: ``>=1.3``
    :depends scipy: ``>=1.2.1``
    :depends tagore: ``>=1.1.0``
@@ -75,7 +76,7 @@ cytocad
 
     <script>
         var package = "cytocad";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.2","1.0.1"];
     </script>
 
 

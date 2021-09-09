@@ -27,14 +27,14 @@ seqwish
       
       
 
-      ``0.7.1-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4-0``,  ``0.2.1-0``
+      ``0.7.2-0``,  ``0.7.1-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4-0``,  ``0.2.1-0``
 
       
 
    
    :depends jemalloc: ``>=5.2.1``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends python: ``>=3.6``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -68,7 +68,7 @@ seqwish
 
     <script>
         var package = "seqwish";
-        var versions = ["0.7.1","0.4.1","0.4.1","0.4","0.2.1"];
+        var versions = ["0.7.2","0.7.1","0.4.1","0.4.1","0.4"];
     </script>
 
 
