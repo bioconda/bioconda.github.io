@@ -27,15 +27,23 @@ align_it
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.3-8``,  ``1.0.3-7``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.4-0</code>,  <code>1.0.3-8</code>,  <code>1.0.3-7</code>,  <code>1.0.3-6</code>,  <code>1.0.3-5</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  </span></summary>
+      
 
+      ``1.0.4-0``,  ``1.0.3-8``,  ``1.0.3-7``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends openbabel: ``2.4.1``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends openbabel: ``<=2.4.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -68,7 +76,7 @@ align_it
 
     <script>
         var package = "align_it";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
+        var versions = ["1.0.4","1.0.3","1.0.3","1.0.3","1.0.3"];
     </script>
 
 

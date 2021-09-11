@@ -27,15 +27,15 @@ wfmash
       
       
 
-      ``0.6.1-0``
+      ``0.7.0-0``,  ``0.6.1-0``
 
       
 
    
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends jemalloc: ``>=5.2.1``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ wfmash
 
     <script>
         var package = "wfmash";
-        var versions = ["0.6.1"];
+        var versions = ["0.7.0","0.6.1"];
     </script>
 
 

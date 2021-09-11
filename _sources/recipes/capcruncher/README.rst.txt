@@ -10,7 +10,7 @@ capcruncher
    :replaces_section_title:
    :noindex:
 
-   An end\-to\-end solution for processing Capture\-C\, Tri\-C and Tiled\-C data.
+   An end\-to\-end solution for processing Capture\-C Tri\-C and Tiled\-C data
 
    :homepage: https://github.com/sims-lab/CapCruncher.git
    :license: GPL-3.0
@@ -27,14 +27,15 @@ capcruncher
       
       
 
-      ``0.1.0a2-0``
+      ``0.1.1a1-0``,  ``0.1.0a2-0``
 
       
 
    
    :depends apsw: 
-   :depends bowtie2: 
-   :depends cgatcore: ``>=0.6.7``
+   :depends bedtools: 
+   :depends bowtie2: ``>=2.4.4``
+   :depends cgatcore: 
    :depends click: 
    :depends cooler: 
    :depends drmaa: 
@@ -46,18 +47,19 @@ capcruncher
    :depends joblib: 
    :depends multiqc: 
    :depends natsort: 
-   :depends pandas: ``>=1``
-   :depends papermill: ``>=2.1.1``
-   :depends paramiko: ``>=2.7.1``
-   :depends plotly: ``>=4.8.0``
-   :depends pybedtools: ``>=0.8.1``
-   :depends pysam: ``>=0.15.3``
+   :depends nbconvert: 
+   :depends pandas: ``>=1.2.0``
+   :depends papermill: 
+   :depends paramiko: 
+   :depends plotly: 
+   :depends pybedtools: 
+   :depends pysam: 
    :depends python: ``>=3.8``
    :depends python-xxhash: 
    :depends ruffus: 
    :depends samtools: 
    :depends seaborn: 
-   :depends sqlalchemy: ``>=1.3.18``
+   :depends sqlalchemy: 
    :depends trackhub: 
    :depends trim-galore: 
    :depends ucsc-bedgraphtobigwig: 
@@ -65,7 +67,7 @@ capcruncher
    :depends ucsc-fatotwobit: 
    :depends ucsc-fetchchromsizes: 
    :depends ujson: 
-   :depends xopen: ``>=0.7.3``
+   :depends xopen: 
    :requirements:
 
    .. rubric:: Installation
@@ -97,7 +99,7 @@ capcruncher
 
     <script>
         var package = "capcruncher";
-        var versions = ["0.1.0a2"];
+        var versions = ["0.1.1a1","0.1.0a2"];
     </script>
 
 

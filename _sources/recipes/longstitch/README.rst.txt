@@ -30,12 +30,13 @@ longstitch
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends arcs: ``>=1.2.2``
+   :depends links: 
    :depends make: 
    :depends ntlink: 
    :depends python: 
@@ -72,7 +73,7 @@ longstitch
 
     <script>
         var package = "longstitch";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.1","1.0.1"];
     </script>
 
 

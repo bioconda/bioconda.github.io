@@ -31,10 +31,10 @@ pyhmmer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ pyhmmer
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends psutil: ``>=5.8``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -78,7 +78,7 @@ pyhmmer
 
     <script>
         var package = "pyhmmer";
-        var versions = ["0.4.5","0.4.4","0.4.3","0.4.2","0.4.1"];
+        var versions = ["0.4.6","0.4.5","0.4.4","0.4.3","0.4.2"];
     </script>
 
 

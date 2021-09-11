@@ -27,9 +27,17 @@ super-focus
    :versions:
       
       
+      .. raw:: html
 
-      ``0.35-0``,  ``0.34-1``,  ``0.34-0``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.31-0``,  ``0.30-0``,  ``0.29-0``
+         <details><summary><span class="truncated-version-list"><code>1.0-0</code>,  <code>0.35-0</code>,  <code>0.34-1</code>,  <code>0.34-0</code>,  <code>0.33-0</code>,  <code>0.32-1</code>,  <code>0.32-0</code>,  <code>0.31-0</code>,  <code>0.30-0</code>,  </span></summary>
+      
 
+      ``1.0-0``,  ``0.35-0``,  ``0.34-1``,  ``0.34-0``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.31-0``,  ``0.30-0``,  ``0.29-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -71,7 +79,7 @@ super-focus
 
     <script>
         var package = "super-focus";
-        var versions = ["0.35","0.34","0.34","0.33","0.32"];
+        var versions = ["1.0","0.35","0.34","0.34","0.33"];
     </script>
 
 

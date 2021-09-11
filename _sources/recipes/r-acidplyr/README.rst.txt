@@ -27,19 +27,27 @@ r-acidplyr
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.18-2``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-1``,  ``0.1.17-0``,  ``0.1.4-1``,  ``0.1.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.20-0</code>,  <code>0.1.18-2</code>,  <code>0.1.18-1</code>,  <code>0.1.18-0</code>,  <code>0.1.17-1</code>,  <code>0.1.17-0</code>,  <code>0.1.4-1</code>,  </span></summary>
+      
 
+      ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-0``,  ``0.1.18-2``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-1``,  ``0.1.17-0``,  ``0.1.4-1``,  ``0.1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-acidbase: ``>=0.3.13``
-   :depends r-acidcli: ``>=0.1.1``
-   :depends r-acidgenerics: ``>=0.5.17``
+   :depends r-acidbase: ``>=0.4.5``
+   :depends r-acidcli: ``>=0.1.6``
+   :depends r-acidgenerics: ``>=0.5.20``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-dplyr: ``>=1.0.6``
-   :depends r-goalie: ``>=0.5.0``
-   :depends r-pipette: ``>=0.5.17``
+   :depends r-dplyr: ``>=1.0.7``
+   :depends r-goalie: ``>=0.5.4``
+   :depends r-pipette: ``>=0.7.1``
    :depends r-purrr: ``>=0.3.4``
    :requirements:
 
@@ -72,7 +80,7 @@ r-acidplyr
 
     <script>
         var package = "r-acidplyr";
-        var versions = ["0.1.21","0.1.20","0.1.18","0.1.18","0.1.18"];
+        var versions = ["0.1.22","0.1.21","0.1.20","0.1.18","0.1.18"];
     </script>
 
 

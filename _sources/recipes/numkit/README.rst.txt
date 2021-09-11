@@ -13,7 +13,7 @@ numkit
    Numerical first aid kit \(with numpy\/scipy\).
 
    :homepage: https://github.com/Becksteinlab/numkit
-   :documentation: hhttps://numkit.readthedocs.io
+   :documentation: https://numkit.readthedocs.io
    
    :license: BSD / Modified BSD
    :recipe: /`numkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/numkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/numkit/meta.yaml>`_
@@ -32,7 +32,7 @@ numkit
       
       
 
-      ``1.2.2-0``,  ``1.2.1-0``
+      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
 
@@ -72,7 +72,7 @@ numkit
 
     <script>
         var package = "numkit";
-        var versions = ["1.2.2","1.2.1"];
+        var versions = ["1.2.2","1.2.2","1.2.1"];
     </script>
 
 

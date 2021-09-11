@@ -32,7 +32,7 @@ gromacswrapper
       
       
 
-      ``0.8.1-1``,  ``0.8.1-0``
+      ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``
 
       
 
@@ -73,7 +73,7 @@ gromacswrapper
 
     <script>
         var package = "gromacswrapper";
-        var versions = ["0.8.1","0.8.1"];
+        var versions = ["0.8.2","0.8.1","0.8.1"];
     </script>
 
 
