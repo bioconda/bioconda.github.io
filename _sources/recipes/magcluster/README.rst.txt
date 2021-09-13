@@ -27,7 +27,7 @@ magcluster
       
       
 
-      ``0.1.6-0``
+      ``0.1.8-0``,  ``0.1.6-0``
 
       
 
@@ -69,7 +69,7 @@ magcluster
 
     <script>
         var package = "magcluster";
-        var versions = ["0.1.6"];
+        var versions = ["0.1.8","0.1.6"];
     </script>
 
 
