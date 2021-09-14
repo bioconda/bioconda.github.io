@@ -27,9 +27,17 @@ r-acidexperiment
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-2</code>,  <code>0.1.10-1</code>,  </span></summary>
+      
 
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -79,7 +87,7 @@ r-acidexperiment
 
     <script>
         var package = "r-acidexperiment";
-        var versions = ["0.2.1","0.2.0","0.1.14","0.1.13","0.1.12"];
+        var versions = ["0.2.2","0.2.1","0.2.0","0.1.14","0.1.13"];
     </script>
 
 

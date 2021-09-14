@@ -12,7 +12,7 @@ r-bcbiobase
 
    Base functions and generics for bcbio R packages.
 
-   :homepage: http://bioinformatics.sph.harvard.edu/bcbioBase/
+   :homepage: https://r.acidgenomics.com/packages/bcbiobase/
    :developer docs: https://github.com/hbc/bcbioBase
    :license: GPL / GPL-3.0
    :recipe: /`r-bcbiobase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiobase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiobase/meta.yaml>`_
@@ -29,10 +29,10 @@ r-bcbiobase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.21-1</code>,  <code>0.6.21-0</code>,  <code>0.6.16-1</code>,  <code>0.6.16-0</code>,  <code>0.6.14-0</code>,  <code>0.6.13-1</code>,  <code>0.6.13-0</code>,  <code>0.6.12-0</code>,  <code>0.6.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.22-0</code>,  <code>0.6.21-1</code>,  <code>0.6.21-0</code>,  <code>0.6.16-1</code>,  <code>0.6.16-0</code>,  <code>0.6.14-0</code>,  <code>0.6.13-1</code>,  <code>0.6.13-0</code>,  <code>0.6.12-0</code>,  </span></summary>
       
 
-      ``0.6.21-1``,  ``0.6.21-0``,  ``0.6.16-1``,  ``0.6.16-0``,  ``0.6.14-0``,  ``0.6.13-1``,  ``0.6.13-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.2.15-1``,  ``0.2.15-0``,  ``0.2.12-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.0.3-0``
+      ``0.6.22-0``,  ``0.6.21-1``,  ``0.6.21-0``,  ``0.6.16-1``,  ``0.6.16-0``,  ``0.6.14-0``,  ``0.6.13-1``,  ``0.6.13-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.2.15-1``,  ``0.2.15-0``,  ``0.2.12-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ r-bcbiobase
 
    
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-basejump: ``>=0.14.17``
-   :depends r-goalie: ``>=0.5.1``
+   :depends r-basejump: ``>=0.14.22``
+   :depends r-goalie: ``>=0.5.4``
    :depends r-rdrop2: 
    :requirements:
 
@@ -76,7 +76,7 @@ r-bcbiobase
 
     <script>
         var package = "r-bcbiobase";
-        var versions = ["0.6.21","0.6.21","0.6.16","0.6.16","0.6.14"];
+        var versions = ["0.6.22","0.6.21","0.6.21","0.6.16","0.6.16"];
     </script>
 
 

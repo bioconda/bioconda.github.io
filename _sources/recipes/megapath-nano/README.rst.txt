@@ -10,7 +10,7 @@ megapath-nano
    :replaces_section_title:
    :noindex:
 
-   MegaPath\-Nano\: Accurate Compositional Analysis and Drug\-level Antimicrobial Resistance Detection Software for Oxford Nanopore Long\-read Metagenomics
+   MegaPath\-Nano\: Accurate Compositional Analysis and Drug\-level Antimicrobial Resistance Detection Software for Oxford Nanopore Long\-read Metagenomics\; MegaPath\-Nano\-Amplicon\: filtering module for metagenomic amplicon data\; MegaPath\-Nano\-Amplicon\: filtering module for metagenomic amplicon data
 
    :homepage: https://github.com/HKU-BAL/MegaPath-Nano
    :license: BSD-3-Clause
@@ -27,30 +27,31 @@ megapath-nano
       
       
 
-      ``1.0-0``
+      ``2-0``,  ``1.0-0``
 
       
 
    
-   :depends bcftools: ``1.9.*``
-   :depends bioconvert: ``0.4.3.*``
-   :depends biopython: ``1.72.*``
+   :depends bcftools: 
+   :depends bioconvert: 
    :depends cgecore: ``1.5.6.*``
-   :depends filetype: ``1.0.7.*``
-   :depends libdeflate: ``1.6.*``
-   :depends minimap2: ``2.21.*``
-   :depends ncbi-amrfinderplus: ``3.10.5.*``
-   :depends pandas: ``1.1.5.*``
+   :depends clair: ``2.1.1.*``
+   :depends colorlog: ``5.0.1.*``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends minimap2: 
+   :depends ncbi-amrfinderplus: ``>=3.10``
+   :depends pandas: 
+   :depends parallel: ``20191122.*``
    :depends porechop: ``0.2.4.*``
-   :depends psutil: ``5.6.5.*``
-   :depends pyahocorasick: ``1.1.7.*``
-   :depends pybedtools: ``0.8.0.*``
-   :depends pysam: ``0.16.0.*``
+   :depends psutil: 
+   :depends pybedtools: 
+   :depends pysam: ``>=0.16.0``
    :depends python: ``3.6.10.*``
-   :depends rgi: ``5.2.0.*``
+   :depends rgi: ``>=5``
    :depends samtools: ``1.9.*``
-   :depends seqtk: ``1.3.*``
-   :depends tabulate: ``0.8.9.*``
+   :depends seqtk: 
+   :depends tabulate: 
    :requirements:
 
    .. rubric:: Installation
@@ -82,7 +83,7 @@ megapath-nano
 
     <script>
         var package = "megapath-nano";
-        var versions = ["1.0"];
+        var versions = ["2","1.0"];
     </script>
 
 
