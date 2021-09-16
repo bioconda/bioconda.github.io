@@ -27,7 +27,7 @@ irida-staramr-results
       
       
 
-      ``0.1.2-0``
+      ``0.2.0-0``,  ``0.1.2-0``
 
       
 
@@ -71,7 +71,7 @@ irida-staramr-results
 
     <script>
         var package = "irida-staramr-results";
-        var versions = ["0.1.2"];
+        var versions = ["0.2.0","0.1.2"];
     </script>
 
 

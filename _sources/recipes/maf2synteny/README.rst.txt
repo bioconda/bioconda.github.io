@@ -27,13 +27,13 @@ maf2synteny
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.1-0``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ maf2synteny
 
     <script>
         var package = "maf2synteny";
-        var versions = ["1.0","1.0"];
+        var versions = ["1.1","1.0","1.0"];
     </script>
 
 

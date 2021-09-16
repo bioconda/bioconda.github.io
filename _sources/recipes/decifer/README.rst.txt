@@ -27,14 +27,14 @@ decifer
       
       
 
-      ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
    
    :depends lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends numpy: ``>=1.16.1``
    :depends pandas: 
    :depends python: ``>=2.7,<2.8.0a0``
@@ -72,7 +72,7 @@ decifer
 
     <script>
         var package = "decifer";
-        var versions = ["1.1.4","1.1","1.0.0","0.0.2","0.0.2"];
+        var versions = ["1.1.5","1.1.4","1.1","1.0.0","0.0.2"];
     </script>
 
 
