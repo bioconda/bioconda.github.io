@@ -28,7 +28,7 @@ metaeuk
       
       
 
-      ``4.a0f584d-2``,  ``4.a0f584d-1``,  ``4.a0f584d-0``,  ``3.8dc7e0b-0``,  ``2.ddf2742-0``,  ``1.ea903e5-0``
+      ``5.34c21f2-0``,  ``4.a0f584d-2``,  ``4.a0f584d-1``,  ``4.a0f584d-0``,  ``3.8dc7e0b-0``,  ``2.ddf2742-0``,  ``1.ea903e5-0``
 
       
 
@@ -36,8 +36,8 @@ metaeuk
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends wget: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -71,7 +71,7 @@ metaeuk
 
     <script>
         var package = "metaeuk";
-        var versions = ["4.a0f584d","4.a0f584d","4.a0f584d","3.8dc7e0b","2.ddf2742"];
+        var versions = ["5.34c21f2","4.a0f584d","4.a0f584d","4.a0f584d","3.8dc7e0b"];
     </script>
 
 
