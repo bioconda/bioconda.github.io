@@ -27,7 +27,7 @@ pyslow5
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -68,7 +68,7 @@ pyslow5
 
     <script>
         var package = "pyslow5";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 
