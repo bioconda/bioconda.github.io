@@ -151,16 +151,16 @@
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI" title="bioconda_utils.gitter.GitterAPI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GitterAPI</span></code></a>(token)</p></td>
 <td><p>Sans-IO Base Class for Gitter API</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.Mention" title="bioconda_utils.gitter.Mention"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Mention</span></code></a>(screenName, userId, userIds)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.Mention" title="bioconda_utils.gitter.Mention"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Mention</span></code></a>(screenName[, userId, userIds])</p></td>
 <td><p>Gitter User Mention</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.Message" title="bioconda_utils.gitter.Message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Message</span></code></a>(id, text, html, sent, fromUser, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.Message" title="bioconda_utils.gitter.Message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Message</span></code></a>(id, text, html, sent, fromUser, ...)</p></td>
 <td><p>Gitter Chat Message</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.Room" title="bioconda_utils.gitter.Room"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Room</span></code></a>(id, name, topic, userCount, mentions, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.Room" title="bioconda_utils.gitter.Room"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Room</span></code></a>(id, name, topic, userCount, mentions, ...)</p></td>
 <td><p>Gitter Chat Room</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.User" title="bioconda_utils.gitter.User"><code class="xref py py-obj docutils literal notranslate"><span class="pre">User</span></code></a>(id, username, displayName, url, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.User" title="bioconda_utils.gitter.User"><code class="xref py py-obj docutils literal notranslate"><span class="pre">User</span></code></a>(id, username, displayName, url, ...[, ...])</p></td>
 <td><p>Gitter User</p></td>
 </tr>
 </tbody>
@@ -184,7 +184,7 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.list_rooms" title="bioconda_utils.gitter.GitterAPI.list_rooms"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list_rooms</span></code></a>([name])</p></td>
-<td><p>Get list of current user’s rooms</p></td>
+<td><p>Get list of current user's rooms</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.get_room" title="bioconda_utils.gitter.GitterAPI.get_room"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_room</span></code></a>(uri)</p></td>
 <td><p>Get a room using its URI</p></td>
@@ -214,7 +214,7 @@
 <td><p>Edit a message</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.list_groups" title="bioconda_utils.gitter.GitterAPI.list_groups"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list_groups</span></code></a>()</p></td>
-<td><p>Get list of current user’s groups</p></td>
+<td><p>Get list of current user's groups</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.gitter.GitterAPI.get_user" title="bioconda_utils.gitter.GitterAPI.get_user"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_user</span></code></a>()</p></td>
 <td><p>Get current user</p></td>
@@ -745,7 +745,7 @@ those in which the user was &#64;Mentioned.</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

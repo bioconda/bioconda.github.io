@@ -246,10 +246,10 @@ checks for specific recipes, add strings of the following form:</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.LintCheck" title="bioconda_utils.lint.LintCheck"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LintCheck</span></code></a>(_linter)</p></td>
 <td><p>Base class for lint checks</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.LintCheckMeta" title="bioconda_utils.lint.LintCheckMeta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LintCheckMeta</span></code></a>(name, bases, …], namespace, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.LintCheckMeta" title="bioconda_utils.lint.LintCheckMeta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LintCheckMeta</span></code></a>(name, bases, namespace, **kwargs)</p></td>
 <td><p>Meta class for lint checks</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LintMessage</span></code></a>(recipe, check, severity, title, …)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.lint.LintMessage" title="bioconda_utils.lint.LintMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LintMessage</span></code></a>(recipe, check[, severity, ...])</p></td>
 <td><p>Message issued by LintChecks</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.lint.Linter" title="bioconda_utils.lint.Linter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Linter</span></code></a>(config, recipe_folder[, exclude, nocatch])</p></td>
@@ -770,7 +770,7 @@ named <code class="docutils literal notranslate"><span class="pre">meta.yml</spa
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

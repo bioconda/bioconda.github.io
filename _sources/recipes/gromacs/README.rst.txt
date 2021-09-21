@@ -12,10 +12,10 @@ gromacs
 
    GROMACS is a versatile package to perform molecular dynamics.
 
-   :homepage: http://www.gromacs.org/
+   :homepage: https://www.gromacs.org/
    :license: LGPL-2.1-or-later
    :recipe: /`gromacs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs>`_/`2021 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2021>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs/2021/meta.yaml>`_
-   :links: biotools: :biotools:`gromacs`, doi: :doi:`10.5281/zenodo.2564764`, doi: :doi:`10.5281/zenodo.2564761`, doi: :doi:`10.1016/j.softx.2015.06.001`, rrid: :rrid:`SCR_014565`, usegalaxy-eu: :usegalaxy-eu:`gmx_sim`
+   :links: biotools: :biotools:`gromacs`, doi: :doi:`10.5281/zenodo.5053201`, doi: :doi:`10.5281/zenodo.5053200`, doi: :doi:`10.1016/j.softx.2015.06.001`, rrid: :rrid:`SCR_014565`, usegalaxy-eu: :usegalaxy-eu:`gmx_sim`
 
    
 
@@ -29,10 +29,10 @@ gromacs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2021.1-102</code>,  <code>2021.1-101</code>,  <code>2021.1-2</code>,  <code>2021.1-1</code>,  <code>2021.1-0</code>,  <code>2021-1</code>,  <code>2021-0</code>,  <code>2020.6-0</code>,  <code>2020.5-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2021.3-0</code>,  <code>2021.1-102</code>,  <code>2021.1-101</code>,  <code>2021.1-2</code>,  <code>2021.1-1</code>,  <code>2021.1-0</code>,  <code>2021-1</code>,  <code>2021-0</code>,  <code>2020.6-0</code>,  </span></summary>
       
 
-      ``2021.1-102``,  ``2021.1-101``,  ``2021.1-2``,  ``2021.1-1``,  ``2021.1-0``,  ``2021-1``,  ``2021-0``,  ``2020.6-0``,  ``2020.5-5``,  ``2020.5-4``,  ``2020.5-3``,  ``2020.5-2``,  ``2020.5-1``,  ``2020.5-0``,  ``2020.4-0``,  ``2020.3-0``,  ``2020.2-0``,  ``2020-2``,  ``2020-1``,  ``2020-0``,  ``2019.5-1``,  ``2019.5-0``,  ``2019.1-3``,  ``2019.1-2``,  ``2019.1-1``,  ``2019.1-0``,  ``2019-0``,  ``2018.6-2``,  ``2018.6-1``,  ``2018.6-0``,  ``2018.5-0``,  ``2018.4-0``,  ``2018.3-0``,  ``2018.2-0``,  ``2018-3``,  ``2018-2``,  ``2018-1``,  ``2018-0``,  ``4.6.5-0``
+      ``2021.3-0``,  ``2021.1-102``,  ``2021.1-101``,  ``2021.1-2``,  ``2021.1-1``,  ``2021.1-0``,  ``2021-1``,  ``2021-0``,  ``2020.6-0``,  ``2020.5-5``,  ``2020.5-4``,  ``2020.5-3``,  ``2020.5-2``,  ``2020.5-1``,  ``2020.5-0``,  ``2020.4-0``,  ``2020.3-0``,  ``2020.2-0``,  ``2020-2``,  ``2020-1``,  ``2020-0``,  ``2019.5-1``,  ``2019.5-0``,  ``2019.1-3``,  ``2019.1-2``,  ``2019.1-1``,  ``2019.1-0``,  ``2019-0``,  ``2018.6-2``,  ``2018.6-1``,  ``2018.6-0``,  ``2018.5-0``,  ``2018.4-0``,  ``2018.3-0``,  ``2018.2-0``,  ``2018-3``,  ``2018-2``,  ``2018-1``,  ``2018-0``,  ``4.6.5-0``
 
       
       .. raw:: html
@@ -48,6 +48,7 @@ gromacs
    :depends libhwloc: ``>=2.5.0,<2.5.1.0a0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends ocl-icd: ``>=2.3.1,<3.0a0``
+   :depends openmpi: ``>=4.1.1,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +80,7 @@ gromacs
 
     <script>
         var package = "gromacs";
-        var versions = ["2021.1","2021.1","2021.1","2021.1","2021.1"];
+        var versions = ["2021.3","2021.1","2021.1","2021.1","2021.1"];
     </script>
 
 

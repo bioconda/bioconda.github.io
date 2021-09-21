@@ -224,7 +224,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.hosters.Hoster" title="bioconda_utils.hosters.Hoster"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Hoster</span></code></a>(url, match)</p></td>
 <td><p>Hoster Baseclass</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.hosters.HosterMeta" title="bioconda_utils.hosters.HosterMeta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HosterMeta</span></code></a>(name, bases, …], namespace, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#bioconda_utils.hosters.HosterMeta" title="bioconda_utils.hosters.HosterMeta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HosterMeta</span></code></a>(name, bases, namespace, **kwargs)</p></td>
 <td><p>Meta-Class for Hosters</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="#bioconda_utils.hosters.HrefParser" title="bioconda_utils.hosters.HrefParser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HrefParser</span></code></a>(link_re)</p></td>
@@ -406,7 +406,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="bioconda_utils.hosters.Hoster.link_pattern">
-<em class="property"><span class="pre">abstract</span> <span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">link_pattern</span></span><em class="property"><span class="pre">:</span> <span class="pre">str</span></em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.link_pattern" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">abstract</span> <span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">link_pattern</span></span><em class="property"><span class="pre">:</span> <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a></em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.link_pattern" title="Permalink to this definition">¶</a></dt>
 <dd><p>matches links on relase page</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -417,7 +417,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="bioconda_utils.hosters.Hoster.releases_formats">
-<em class="property"><span class="pre">abstract</span> <span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">releases_formats</span></span><em class="property"><span class="pre">:</span> <span class="pre">List[str]</span></em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.releases_formats" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">abstract</span> <span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">releases_formats</span></span><em class="property"><span class="pre">:</span> <span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.releases_formats" title="Permalink to this definition">¶</a></dt>
 <dd><p>format template for release page URL</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -439,7 +439,7 @@ type syntax to define the patterns - implementers welcome).</p></li>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="bioconda_utils.hosters.Hoster.url_pattern">
-<em class="property"><span class="pre">abstract</span> <span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">url_pattern</span></span><em class="property"><span class="pre">:</span> <span class="pre">str</span></em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.url_pattern" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">abstract</span> <span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">url_pattern</span></span><em class="property"><span class="pre">:</span> <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a></em><a class="headerlink" href="#bioconda_utils.hosters.Hoster.url_pattern" title="Permalink to this definition">¶</a></dt>
 <dd><p>matches upstream package url</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
@@ -628,7 +628,7 @@ Requires regex package for recursion.</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
