@@ -29,13 +29,14 @@ dna_features_viewer
       
       
 
-      ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
+      ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
 
       
 
    
    :depends biopython: 
    :depends matplotlib-base: ``>=3``
+   :depends packaging: 
    :depends python: 
    :requirements:
 
@@ -68,7 +69,7 @@ dna_features_viewer
 
     <script>
         var package = "dna_features_viewer";
-        var versions = ["3.0.3","3.0.2","3.0.1"];
+        var versions = ["3.1.0","3.0.3","3.0.2","3.0.1"];
     </script>
 
 

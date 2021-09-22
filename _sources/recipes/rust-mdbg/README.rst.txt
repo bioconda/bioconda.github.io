@@ -1,0 +1,91 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'rust-mdbg'
+.. highlight: bash
+
+rust-mdbg
+=========
+
+.. conda:recipe:: rust-mdbg
+   :replaces_section_title:
+   :noindex:
+
+   An ultra\-fast minimizer\-space de Bruijn graph \(mdBG\) implementation\, geared towards the assembly of long and accurate reads.
+
+
+   :homepage: https://github.com/ekimb/rust-mdbg
+   :license: MIT
+   :recipe: /`rust-mdbg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-mdbg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-mdbg/meta.yaml>`_
+
+   
+
+
+.. conda:package:: rust-mdbg
+
+   |downloads_rust-mdbg| |docker_rust-mdbg|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install rust-mdbg
+
+   and update with::
+
+      conda update rust-mdbg
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/rust-mdbg:<tag>
+
+   (see `rust-mdbg/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_rust-mdbg| image:: https://img.shields.io/conda/dn/bioconda/rust-mdbg.svg?style=flat
+   :target: https://anaconda.org/bioconda/rust-mdbg
+   :alt:   (downloads)
+.. |docker_rust-mdbg| image:: https://quay.io/repository/biocontainers/rust-mdbg/status
+   :target: https://quay.io/repository/biocontainers/rust-mdbg
+.. _`rust-mdbg/tags`: https://quay.io/repository/biocontainers/rust-mdbg?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "rust-mdbg";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rust-mdbg/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/rust-mdbg/README.html

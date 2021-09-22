@@ -27,14 +27,14 @@ chromap
       
       
 
-      ``0.1-0``
+      ``0.1.2-0``,  ``0.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ chromap
 
     <script>
         var package = "chromap";
-        var versions = ["0.1"];
+        var versions = ["0.1.2","0.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ miidl
       
       
 
-      ``0.0.2-0``
+      ``0.0.4-0``,  ``0.0.2-0``
 
       
 
@@ -67,7 +67,7 @@ miidl
 
     <script>
         var package = "miidl";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.4","0.0.2"];
     </script>
 
 

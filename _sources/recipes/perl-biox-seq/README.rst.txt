@@ -27,14 +27,13 @@ perl-biox-seq
       
       
 
-      ``0.006007-2``,  ``0.006007-1``,  ``0.006007-0``,  ``0.008-1``,  ``0.008-0``
+      ``0.008002-0``,  ``0.006007-2``,  ``0.006007-1``,  ``0.006007-0``,  ``0.008-1``,  ``0.008-0``
 
       
 
    
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-compress-bgzf: 
-   :depends perl-file-which: 
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ perl-biox-seq
 
     <script>
         var package = "perl-biox-seq";
-        var versions = ["0.006007","0.006007","0.006007","0.008","0.008"];
+        var versions = ["0.008002","0.006007","0.006007","0.006007","0.008"];
     </script>
 
 
