@@ -10,7 +10,7 @@ magcluster
    :replaces_section_title:
    :noindex:
 
-   Magnetosome gene cluster annotation\, screening and mapping tool
+   Magnetosome gene cluster identification\, annotation and visualization tool
 
    :homepage: https://github.com/runjiaji/magcluster
    :license: GPL2 / GPL-2.0-or-later
@@ -27,17 +27,16 @@ magcluster
       
       
 
-      ``0.1.8-0``,  ``0.1.6-0``
+      ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.6-0``
 
       
 
    
-   :depends blast: 
+   :depends blast: ``<=2.9``
    :depends clinker-py: 
    :depends pandas: 
-   :depends prokka: 
+   :depends prokka: ``1.13.4.*``
    :depends python: ``>=3.6``
-   :depends tbl2asn: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +68,7 @@ magcluster
 
     <script>
         var package = "magcluster";
-        var versions = ["0.1.8","0.1.6"];
+        var versions = ["0.2.0","0.1.8","0.1.6"];
     </script>
 
 
