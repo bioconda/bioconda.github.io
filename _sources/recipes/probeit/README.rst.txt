@@ -27,7 +27,7 @@ probeit
       
       
 
-      ``v1.9-0``
+      ``v1.9-1``,  ``v1.9-0``
 
       
 
@@ -41,8 +41,8 @@ probeit
    :depends numpy: 
    :depends pandas: 
    :depends primer3-py: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends seqkit: 
    :requirements:
 
@@ -75,7 +75,7 @@ probeit
 
     <script>
         var package = "probeit";
-        var versions = ["v1.9"];
+        var versions = ["v1.9","v1.9"];
     </script>
 
 

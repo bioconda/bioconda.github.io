@@ -28,24 +28,18 @@ sonicparanoid
       
       
 
-      ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
+      ``1.3.6-0``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
 
       
 
    
-   :depends biopython: ``>=1.67``
-   :depends cython: 
-   :depends gcc_linux-64: ``9.*``
-   :depends gxx_linux-64: ``9.*``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends make: 
-   :depends mmseqs2: ``6.f5a1c``
-   :depends numpy: ``>=1.13.0``
-   :depends pandas: ``>=0.22.0``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
-   :depends sh: ``>=1.12.14``
+   :depends blast: ``2.12.0``
+   :depends diamond: ``2.0.11``
+   :depends libcxx: ``>=11.1.0``
+   :depends mcl: ``14.137``
+   :depends mmseqs2: ``13.45111``
+   :depends pip: ``>=21.2.4``
+   :depends python: ``>=3.8,<3.9.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +71,7 @@ sonicparanoid
 
     <script>
         var package = "sonicparanoid";
-        var versions = ["1.0.14","1.0.14","1.0.14","1.0.14","1.0.14"];
+        var versions = ["1.3.6","1.0.14","1.0.14","1.0.14","1.0.14"];
     </script>
 
 

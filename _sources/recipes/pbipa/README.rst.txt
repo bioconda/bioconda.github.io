@@ -28,10 +28,10 @@ pbipa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  </span></summary>
       
 
-      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.0.1-0``
+      ``1.5.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -40,16 +40,14 @@ pbipa
       
 
    
-   :depends htslib: ``>=1.10``
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends minimap2: 
    :depends networkx: 
    :depends pb-falconc: 
-   :depends pbmm2: 
-   :depends pcre: ``>=8.44,<9.0a0``
+   :depends pcre: ``>=8.45,<9.0a0``
    :depends racon: 
-   :depends samtools: ``>=1.10``
+   :depends samtools: 
    :depends snakemake-minimal: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -83,7 +81,7 @@ pbipa
 
     <script>
         var package = "pbipa";
-        var versions = ["1.3.2","1.3.1","1.3.0","1.3.0","1.2.0"];
+        var versions = ["1.5.0","1.3.2","1.3.1","1.3.0","1.3.0"];
     </script>
 
 

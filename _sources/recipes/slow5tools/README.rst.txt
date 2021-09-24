@@ -27,7 +27,7 @@ slow5tools
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
@@ -67,7 +67,7 @@ slow5tools
 
     <script>
         var package = "slow5tools";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0","0.2.0"];
     </script>
 
 

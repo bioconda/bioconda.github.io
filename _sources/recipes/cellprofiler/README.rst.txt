@@ -28,7 +28,7 @@ cellprofiler
       
       
 
-      ``4.2.1-0``,  ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
+      ``4.2.1-1``,  ``4.2.1-0``,  ``4.2.0-0``,  ``3.1.9-1``,  ``3.1.9-0``
 
       
 
@@ -40,11 +40,11 @@ cellprofiler
    :depends inflect: 
    :depends jinja2: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends mahotas: 
    :depends matplotlib-base: 
    :depends mysqlclient: 
-   :depends numpy: ``>=1.18.2``
+   :depends numpy: ``>=1.18.2,<=1.20.0``
    :depends pillow: 
    :depends prokaryote: 
    :depends python: ``>=3.8,<3.9.0a0``
@@ -89,7 +89,7 @@ cellprofiler
 
     <script>
         var package = "cellprofiler";
-        var versions = ["4.2.1","4.2.0","3.1.9","3.1.9"];
+        var versions = ["4.2.1","4.2.1","4.2.0","3.1.9","3.1.9"];
     </script>
 
 

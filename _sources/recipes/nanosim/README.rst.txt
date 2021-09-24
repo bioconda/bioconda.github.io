@@ -10,12 +10,12 @@ nanosim
    :replaces_section_title:
    :noindex:
 
-   NanoSim is a fast and scalable read simulator that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of nanopore sequencing technology.
+   NanoSim is a fast and scalable read simulator for Nanopore sequencing data.
 
    :homepage: https://github.com/bcgsc/NanoSim
-   :license: GPL-3.0-only
+   :license: GPL-3.0
    :recipe: /`nanosim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim/meta.yaml>`_
-   :links: doi: :doi:`10.1093/gigascience/gix010`
+   :links: doi: :doi:`10.1093/gigascience/gix010`, doi: :doi:`10.1093/gigascience/giaa061`
 
    
 
@@ -29,10 +29,10 @@ nanosim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.2-0</code>,  <code>3.0.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``3.0.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
+      ``3.0.2-0``,  ``3.0.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ nanosim
       
 
    
+   :depends genometools-genometools: 
    :depends htseq: ``>=0.9.1``
    :depends joblib: 
    :depends last: 
@@ -49,6 +50,7 @@ nanosim
    :depends pybedtools: ``>=0.7.10``
    :depends pysam: ``>=0.13``
    :depends python: 
+   :depends samtools: 
    :depends scikit-learn: ``>=0.20.0``
    :depends scipy: ``>=1.0.0``
    :depends six: ``>=1.10.0``
@@ -83,7 +85,7 @@ nanosim
 
     <script>
         var package = "nanosim";
-        var versions = ["3.0.0","2.6.0","2.6.0","2.5.1","2.5.1"];
+        var versions = ["3.0.2","3.0.0","2.6.0","2.6.0","2.5.1"];
     </script>
 
 

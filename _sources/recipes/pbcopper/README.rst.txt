@@ -28,10 +28,10 @@ pbcopper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.1-1</code>,  <code>1.9.1-0</code>,  <code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>0.4.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.3-0</code>,  <code>1.9.1-1</code>,  <code>1.9.1-0</code>,  <code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``1.9.3-0``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ pbcopper
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ pbcopper
 
     <script>
         var package = "pbcopper";
-        var versions = ["1.9.1","1.9.1","1.9.0","1.9.0","1.8.0"];
+        var versions = ["1.9.3","1.9.1","1.9.1","1.9.0","1.9.0"];
     </script>
 
 
