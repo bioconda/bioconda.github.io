@@ -35,7 +35,8 @@ sonicparanoid
    
    :depends blast: ``2.12.0``
    :depends diamond: ``2.0.11``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends mcl: ``14.137``
    :depends mmseqs2: ``13.45111``
    :depends pip: ``>=21.2.4``

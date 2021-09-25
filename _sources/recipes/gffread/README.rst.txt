@@ -28,14 +28,22 @@ gffread
    :versions:
       
       
+      .. raw:: html
 
-      ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
+         <details><summary><span class="truncated-version-list"><code>0.12.7-0</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  <code>0.11.7-0</code>,  <code>0.11.6-0</code>,  <code>0.11.4-0</code>,  <code>0.9.12-0</code>,  <code>0.9.9-1</code>,  <code>0.9.9-0</code>,  </span></summary>
+      
 
+      ``0.12.7-0``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -68,7 +76,7 @@ gffread
 
     <script>
         var package = "gffread";
-        var versions = ["0.12.1","0.12.1","0.11.7","0.11.6","0.11.4"];
+        var versions = ["0.12.7","0.12.1","0.12.1","0.11.7","0.11.6"];
     </script>
 
 
