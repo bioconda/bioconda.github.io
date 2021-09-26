@@ -27,14 +27,14 @@ fuma
       
       
 
-      ``3.0.6-0``,  ``3.0.5-2``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.3-0``
+      ``4.0.0-0``,  ``3.0.6-0``,  ``3.0.5-2``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.3-0``
 
       
 
    
    :depends htseq: ``>=0.6.1``
    :depends numpy: 
-   :depends python: ``<3``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ fuma
 
     <script>
         var package = "fuma";
-        var versions = ["3.0.6","3.0.5","3.0.5","3.0.5","3.0.3"];
+        var versions = ["4.0.0","3.0.6","3.0.5","3.0.5","3.0.5"];
     </script>
 
 

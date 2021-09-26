@@ -10,7 +10,7 @@ miidl
    :replaces_section_title:
    :noindex:
 
-   Python package for identification of biomarkers powered by interpretable Convolutional Neural Networks
+   A Python package for microbial biomarkers identification powered by interpretable deep learning
 
    :homepage: https://github.com/chunribu/miidl/
    :license: MIT / MIT
@@ -27,7 +27,7 @@ miidl
       
       
 
-      ``0.0.4-0``,  ``0.0.2-0``
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-0``
 
       
 
@@ -35,6 +35,7 @@ miidl
    :depends pandas: 
    :depends python: 
    :depends pytorch: 
+   :depends scikit-learn: 
    :depends torchvision: 
    :requirements:
 
@@ -67,7 +68,7 @@ miidl
 
     <script>
         var package = "miidl";
-        var versions = ["0.0.4","0.0.2"];
+        var versions = ["0.0.5","0.0.4","0.0.2"];
     </script>
 
 
