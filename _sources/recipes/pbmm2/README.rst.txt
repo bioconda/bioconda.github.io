@@ -28,10 +28,10 @@ pbmm2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.12.0-0</code>,  </span></summary>
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``
+      ``1.7.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,8 @@ pbmm2
 
    
    :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -74,7 +75,7 @@ pbmm2
 
     <script>
         var package = "pbmm2";
-        var versions = ["1.4.0","1.4.0","1.3.0","1.3.0","1.2.1"];
+        var versions = ["1.7.0","1.4.0","1.4.0","1.3.0","1.3.0"];
     </script>
 
 

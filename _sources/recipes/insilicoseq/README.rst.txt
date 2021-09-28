@@ -28,10 +28,10 @@ insilicoseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-1</code>,  </span></summary>
       
 
-      ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.6-1``,  ``1.3.5-1``,  ``1.3.5-0``
+      ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.6-1``,  ``1.3.5-1``,  ``1.3.5-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ insilicoseq
       
 
    
-   :depends biopython: 
+   :depends biopython: ``<=1.78``
    :depends future: 
    :depends joblib: 
    :depends numpy: 
@@ -79,7 +79,7 @@ insilicoseq
 
     <script>
         var package = "insilicoseq";
-        var versions = ["1.5.3","1.5.2","1.5.1","1.5.0","1.4.6"];
+        var versions = ["1.5.3","1.5.3","1.5.2","1.5.1","1.5.0"];
     </script>
 
 
