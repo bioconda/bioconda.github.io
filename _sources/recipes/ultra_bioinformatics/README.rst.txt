@@ -27,7 +27,7 @@ ultra_bioinformatics
       
       
 
-      ``0.0.4-0``,  ``0.0.3.3-1``,  ``0.0.3.3-0``
+      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3.3-1``,  ``0.0.3.3-0``
 
       
 
@@ -43,6 +43,7 @@ ultra_bioinformatics
    :depends python: 
    :depends python-edlib: 
    :depends slamem: 
+   :depends strobemap: 
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +75,7 @@ ultra_bioinformatics
 
     <script>
         var package = "ultra_bioinformatics";
-        var versions = ["0.0.4","0.0.3.3","0.0.3.3"];
+        var versions = ["0.0.4","0.0.4","0.0.3.3","0.0.3.3"];
     </script>
 
 
