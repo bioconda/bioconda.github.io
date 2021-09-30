@@ -146,18 +146,18 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bioconductor-pcatools/README.html#bioconductor-pcatools"><strong class="xref backref">bioconductor-pcatools</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-singler/README.html#bioconductor-singler"><strong class="xref backref">bioconductor-singler</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-bsseq/README.html#bioconductor-bsseq"><strong class="xref backref">bioconductor-bsseq</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-biocsingular/README.html#bioconductor-biocsingular"><strong class="xref backref">bioconductor-biocsingular</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mumosa/README.html#bioconductor-mumosa"><strong class="xref backref">bioconductor-mumosa</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-dropletutils/README.html#bioconductor-dropletutils"><strong class="xref backref">bioconductor-dropletutils</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scater/README.html#bioconductor-scater"><strong class="xref backref">bioconductor-scater</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mbkmeans/README.html#bioconductor-mbkmeans"><strong class="xref backref">bioconductor-mbkmeans</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-glmgampoi/README.html#bioconductor-glmgampoi"><strong class="xref backref">bioconductor-glmgampoi</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-batchelor/README.html#bioconductor-batchelor"><strong class="xref backref">bioconductor-batchelor</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-singler/README.html#bioconductor-singler"><strong class="xref backref">bioconductor-singler</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-scater/README.html#bioconductor-scater"><strong class="xref backref">bioconductor-scater</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-scuttle/README.html#bioconductor-scuttle"><strong class="xref backref">bioconductor-scuttle</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-bsseq/README.html#bioconductor-bsseq"><strong class="xref backref">bioconductor-bsseq</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-mbkmeans/README.html#bioconductor-mbkmeans"><strong class="xref backref">bioconductor-mbkmeans</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-mumosa/README.html#bioconductor-mumosa"><strong class="xref backref">bioconductor-mumosa</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-scran/README.html#bioconductor-scran"><strong class="xref backref">bioconductor-scran</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-pcatools/README.html#bioconductor-pcatools"><strong class="xref backref">bioconductor-pcatools</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-biocsingular/README.html#bioconductor-biocsingular"><strong class="xref backref">bioconductor-biocsingular</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -183,59 +183,25 @@
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
+<div style="width: 100%" id="cdf_plot"></div>
 
 <script>
     window.onload = async function() {
-        versions = [...new Set(versions)];
-
-        let download_data = [];
-
-        for (const version of versions) {
-            let url = `https://raw.githubusercontent.com/bioconda/bioconda-stats/main/package-downloads/anaconda.org/bioconda/${package}/${version}.json`;
-            await $.get({
-                url: url,
-                success: function( data ) {
-                    data = JSON.parse(data);
-                    data = data["downloads_per_date"];
-                    let first;
-                    if (data.length > 14) {
-                        first = data.length - 14;
-                    } else {
-                        first = 1;
-                    }
-                    for (let i = first; i < data.length; i++) {
-                        data[i]["delta"] = data[i]["total"] - data[i - 1]["total"];
-                        data[i]["version"] = version;
-                        download_data.push(data[i]);
-                    }
-                },
-                error: function (xhr, ajaxOptions, thrownError) {
-                    console.log('error fetching data from bioconda stats repo!');
-                }
+        $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
+            let spec = JSON.parse(data);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
+                spec.data.values = JSON.parse(plot_data);
+                vegaEmbed('#cdf_plot', spec);
             });
-        }
+        });
 
-        let spec = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "description": "A simple bar chart with embedded data.",
-            "data": {"values": []},
-            "width": "container",
-            "mark": {
-                "type": "line",
-                "point": {
-                    "filled": true,
-                }
-            },
-            "encoding": {
-                 "x": {"field": "date", "type": "temporal","timeUnit": "yearmonthdate", "title": "date", "axis": {"labelAngle": -15}},
-                 "y": {"field": "delta", "type": "quantitative", "title": "downloads"},
-                 "color": {"field": "version", "type": "nominal"},
-                 "tooltip": {"field": "delta"}
-            }
-        };
-
-        spec.data.values = download_data;
-        vegaEmbed('#download_plot', spec);
+        $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json`, function( data ) {
+            let spec = JSON.parse(data);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/versions.json`, function( plot_data ) {
+                spec.data.values = JSON.parse(plot_data);
+                vegaEmbed('#download_plot', spec);
+            });
+        });
     }
 </script></section>
 <section id="link-to-this-page">
