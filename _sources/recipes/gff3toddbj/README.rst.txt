@@ -27,7 +27,7 @@ gff3toddbj
       
       
 
-      ``0.1.1-0``
+      ``0.2.1-0``,  ``0.1.1-0``
 
       
 
@@ -67,7 +67,7 @@ gff3toddbj
 
     <script>
         var package = "gff3toddbj";
-        var versions = ["0.1.1"];
+        var versions = ["0.2.1","0.1.1"];
     </script>
 
 

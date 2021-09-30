@@ -28,7 +28,7 @@ gecco
       
       
 
-      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
+      ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
 
       
 
@@ -41,7 +41,7 @@ gecco
    :depends numpy: ``>=1.16``
    :depends psutil: ``>=5.8``
    :depends pyhmmer: ``>=0.4.2``
-   :depends pyrodigal: ``>=0.5.0``
+   :depends pyrodigal: ``>=0.6.2``
    :depends python: ``>=3.6``
    :depends rich: ``>=9.0.0``
    :depends scikit-learn: ``>=0.24.0``
@@ -78,7 +78,7 @@ gecco
 
     <script>
         var package = "gecco";
-        var versions = ["0.8.0","0.7.0","0.6.3","0.6.2"];
+        var versions = ["0.8.4","0.8.0","0.7.0","0.6.3","0.6.2"];
     </script>
 
 

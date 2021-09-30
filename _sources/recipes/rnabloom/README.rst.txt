@@ -17,8 +17,9 @@ rnabloom
    
    :license: GPL-3.0
    :recipe: /`rnabloom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnabloom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnabloom/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.260174.119`
 
-   RNA\-Bloom is a lightweight reference\-free transcript sequence assembly tool for short reads and nanopore reads.
+   RNA\-Bloom is a reference\-free and reference\-guided transcriptome assembly tool for short and long RNA\-seq reads.
 
 
 .. conda:package:: rnabloom
@@ -29,14 +30,14 @@ rnabloom
       
       
 
-      ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
 
    
    :depends minimap2: 
    :depends ntcard: ``>=1.2.1``
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=11``
    :depends racon: 
    :requirements:
 
@@ -69,7 +70,7 @@ rnabloom
 
     <script>
         var package = "rnabloom";
-        var versions = ["1.3.1","1.3.1","1.3.0","1.2.3","1.2.2"];
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.0","1.2.3"];
     </script>
 
 

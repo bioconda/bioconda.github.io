@@ -27,13 +27,14 @@ parascopy
       
       
 
-      ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends biopython: ``>=1.70``
    :depends bwa: ``>=0.7``
+   :depends intervaltree: ``>=3.0``
    :depends numpy: ``>=1.15``
    :depends parasail-python: ``>=1.2``
    :depends pysam: ``>=0.15``
@@ -72,7 +73,7 @@ parascopy
 
     <script>
         var package = "parascopy";
-        var versions = ["1.2.0","1.1.2","1.1.0","1.0.0"];
+        var versions = ["1.2.1","1.2.0","1.1.2","1.1.0","1.0.0"];
     </script>
 
 

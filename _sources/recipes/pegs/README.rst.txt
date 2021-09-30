@@ -29,7 +29,7 @@ pegs
       
       
 
-      ``0.6.1-0``
+      ``0.6.2-0``,  ``0.6.1-0``
 
       
 
@@ -73,7 +73,7 @@ pegs
 
     <script>
         var package = "pegs";
-        var versions = ["0.6.1"];
+        var versions = ["0.6.2","0.6.1"];
     </script>
 
 

@@ -27,15 +27,14 @@ graphtyper
       
       
 
-      ``2.7.1-0``,  ``2.5.1-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``
+      ``2.7.2-0``,  ``2.7.1-0``,  ``2.5.1-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -69,7 +68,7 @@ graphtyper
 
     <script>
         var package = "graphtyper";
-        var versions = ["2.7.1","2.5.1","2.5","2.4","2.3"];
+        var versions = ["2.7.2","2.7.1","2.5.1","2.5","2.4"];
     </script>
 
 
