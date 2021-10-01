@@ -10,14 +10,14 @@ gcen
    :replaces_section_title:
    :noindex:
 
-   an easy toolkit of Gene Co\-Expression Network analysis for lncRNAs annotation
+   An easy toolkit of Gene Co\-Expression Network analysis for lncRNAs annotation
 
-   :homepage: https://www.biochen.com/gcen/
+   :homepage: https://www.biochen.org/gcen/
    :license: GPL v3
    :recipe: /`gcen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcen/meta.yaml>`_
    :links: biotools: :biotools:`gcen`
 
-   
+   GCEN is a command\-line toolkit that allows biologists to easily build gene co\-expression network and predict gene function\, especially in RNA\-Seq research or lncRNAs annotation. GCEN is primarily designed to be used in lncRNAs annotation\, but is not limited to those scenarios. It is an efficient and easy\-to\-use solution that will allow everyone to perform gene co\-expression network analysis without sophisticated programming skills. The recommended pipeline consists of four parts\: data pretreatment\, network construction\, module identification\, and function annotation. A README file and sample data are included in the software package. Because of its modular design\, the GCEN can be easily integrated into another pipeline. Also\, the multithreaded implementation of GCEN makes it fast and efficient for RNA\-Seq data.
 
 
 .. conda:package:: gcen
@@ -28,13 +28,13 @@ gcen
       
       
 
-      ``0.5.1-1``,  ``0.5.1-0``
+      ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ gcen
 
     <script>
         var package = "gcen";
-        var versions = ["0.5.1","0.5.1"];
+        var versions = ["0.5.2","0.5.1","0.5.1"];
     </script>
 
 

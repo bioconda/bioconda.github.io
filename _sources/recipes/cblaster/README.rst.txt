@@ -29,7 +29,7 @@ cblaster
       
       
 
-      ``1.3.9-0``
+      ``1.3.11-0``,  ``1.3.9-0``
 
       
 
@@ -75,7 +75,7 @@ cblaster
 
     <script>
         var package = "cblaster";
-        var versions = ["1.3.9"];
+        var versions = ["1.3.11","1.3.9"];
     </script>
 
 
