@@ -10,10 +10,10 @@ nanoq
    :replaces_section_title:
    :noindex:
 
-   Minimal but speedy quality control for nanopore reads.
+   Ultra\-fast quality control and summary reports for nanopore reads
 
    :homepage: https://github.com/esteinig/nanoq
-   :license: MIT / MIT
+   :license: MIT
    :recipe: /`nanoq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoq/meta.yaml>`_
 
    
@@ -27,13 +27,12 @@ nanoq
       
       
 
-      ``0.2.1-0``
+      ``0.8.1-0``,  ``0.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ nanoq
 
     <script>
         var package = "nanoq";
-        var versions = ["0.2.1"];
+        var versions = ["0.8.1","0.2.1"];
     </script>
 
 

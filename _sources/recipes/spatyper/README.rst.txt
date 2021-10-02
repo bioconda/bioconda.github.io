@@ -28,12 +28,13 @@ spatyper
       
       
 
-      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.1-0``
+      ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.1-0``
 
       
 
    
    :depends python: ``>=3.6``
+   :depends wget: 
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +66,7 @@ spatyper
 
     <script>
         var package = "spatyper";
-        var versions = ["0.3.3","0.3.3","0.3.1"];
+        var versions = ["0.3.3","0.3.3","0.3.3","0.3.1"];
     </script>
 
 

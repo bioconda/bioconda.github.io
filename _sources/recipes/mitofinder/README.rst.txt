@@ -27,7 +27,7 @@ mitofinder
       
       
 
-      ``1.4-0``
+      ``1.4.1-0``,  ``1.4-0``
 
       
 
@@ -35,7 +35,7 @@ mitofinder
    :depends biopython: 
    :depends blast: 
    :depends idba: 
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends megahit: 
    :depends openjdk: 
    :depends pandas: 
@@ -74,7 +74,7 @@ mitofinder
 
     <script>
         var package = "mitofinder";
-        var versions = ["1.4"];
+        var versions = ["1.4.1","1.4"];
     </script>
 
 
