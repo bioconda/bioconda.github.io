@@ -27,7 +27,7 @@ emu
       
       
 
-      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -35,6 +35,7 @@ emu
    :depends bioawk: 
    :depends biopython: 
    :depends flatten-dict: 
+   :depends importlib-metadata: 
    :depends minimap2: 
    :depends numpy: ``>=1.11``
    :depends pandas: ``>=1.1.3``
@@ -71,7 +72,7 @@ emu
 
     <script>
         var package = "emu";
-        var versions = ["1.0.2","1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.0.3","1.0.2","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

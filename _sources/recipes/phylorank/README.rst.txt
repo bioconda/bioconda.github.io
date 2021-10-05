@@ -29,9 +29,17 @@ phylorank
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.43-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.6-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  </span></summary>
+      
 
+      ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.43-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -74,7 +82,7 @@ phylorank
 
     <script>
         var package = "phylorank";
-        var versions = ["0.1.10","0.1.9","0.1.8","0.1.6","0.1.3"];
+        var versions = ["0.1.11","0.1.10","0.1.9","0.1.8","0.1.6"];
     </script>
 
 
