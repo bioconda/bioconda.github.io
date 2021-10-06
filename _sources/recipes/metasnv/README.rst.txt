@@ -12,7 +12,7 @@ metasnv
 
    SNV calling software
 
-   :homepage: http:// metasnv.embl.de
+   :homepage: http://metasnv.embl.de
    :license: GPLv3
    :recipe: /`metasnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metasnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metasnv/meta.yaml>`_
 
@@ -26,9 +26,17 @@ metasnv
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  </span></summary>
+      
 
+      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,6 +44,7 @@ metasnv
    :depends htslib: ``>=1.12,<1.13.0a0``
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends numpy: 
    :depends pandas: 
    :depends pandoc: ``>=2.1``
@@ -95,7 +104,7 @@ metasnv
 
     <script>
         var package = "metasnv";
-        var versions = ["2.0.1","2.0.0","2.0.0","1.0.3","1.0.3"];
+        var versions = ["2.0.2","2.0.1","2.0.0","2.0.0","1.0.3"];
     </script>
 
 
