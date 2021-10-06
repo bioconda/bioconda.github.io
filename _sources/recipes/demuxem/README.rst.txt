@@ -30,7 +30,7 @@ demuxem
       
       
 
-      ``0.1.6-0``,  ``0.1.5.post1-0``
+      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5.post1-0``
 
       
 
@@ -74,7 +74,7 @@ demuxem
 
     <script>
         var package = "demuxem";
-        var versions = ["0.1.6","0.1.5.post1"];
+        var versions = ["0.1.7","0.1.6","0.1.5.post1"];
     </script>
 
 
