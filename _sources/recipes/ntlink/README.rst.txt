@@ -27,15 +27,16 @@ ntlink
       
       
 
-      ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends abyss: ``>=2.3.0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends make: 
    :depends numpy: 
    :depends python: ``>=3.6,<3.7.0a0``
@@ -73,7 +74,7 @@ ntlink
 
     <script>
         var package = "ntlink";
-        var versions = ["1.0.1"];
+        var versions = ["1.1.0","1.0.1"];
     </script>
 
 

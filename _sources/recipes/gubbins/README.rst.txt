@@ -28,10 +28,10 @@ gubbins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-1</code>,  </span></summary>
       
 
-      ``3.0.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
+      ``3.1.0-0``,  ``3.0.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -43,7 +43,8 @@ gubbins
    :depends biopython: ``>=1.59``
    :depends dendropy: ``>=4.0.2``
    :depends fasttree: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends multiprocess: ``>=0.70``
    :depends nose: ``>=1.3``
    :depends python: ``>=3.9,<3.10.0a0``
@@ -52,7 +53,6 @@ gubbins
    :depends reportlab: ``>=3.0``
    :depends scipy: ``>=1.5.3``
    :depends setuptools: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -84,7 +84,7 @@ gubbins
 
     <script>
         var package = "gubbins";
-        var versions = ["3.0.0","2.4.1","2.4.1","2.4.1","2.4.0"];
+        var versions = ["3.1.0","3.0.0","2.4.1","2.4.1","2.4.1"];
     </script>
 
 
