@@ -140,7 +140,7 @@
 <p>Updates packages when new upstream releases become available</p>
 <p>Overview:</p>
 <ul class="simple">
-<li><p>The <a class="reference internal" href="#bioconda_utils.autobump.Scanner" title="bioconda_utils.autobump.Scanner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Scanner</span></code></a> initializes the <a class="reference external" href="https://docs.python.org/3/library/asyncio.html#module-asyncio" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">asyncio</span></code></a> loop and for each recipe,
+<li><p>The <a class="reference internal" href="#bioconda_utils.autobump.Scanner" title="bioconda_utils.autobump.Scanner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Scanner</span></code></a> initializes the <a class="reference external" href="https://docs.python.org/3/library/asyncio.html#module-asyncio" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">asyncio</span></code></a> loop and for each recipe,
 loads the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> using <a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a> and executes its <a class="reference internal" href="#bioconda_utils.autobump.Filter" title="bioconda_utils.autobump.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a>
 objects for each recipe.</p></li>
 <li><p>The <a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a> handles reading, modification and writing of
@@ -256,7 +256,7 @@ have come past it, to avoid too many PRs opened at once.</p></li>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -309,7 +309,7 @@ indication that the update should not be repeated</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -329,7 +329,7 @@ the account name from the source URL, so that we can add an &#64;mention
 notifying the upstream author of the update.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.9)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
 </dd>
 </dl>
 </dd></dl>
@@ -365,7 +365,7 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -376,7 +376,7 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 <dd><p>Return description of filter for logging</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -399,7 +399,7 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -422,7 +422,7 @@ or filled in later by the <a class="reference internal" href="#bioconda_utils.au
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -448,7 +448,7 @@ exists (which is checked by GitLoadRecipe).</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -472,7 +472,7 @@ in at least one other channel</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -483,7 +483,7 @@ in at least one other channel</p>
 <dd><p>Return description of filter for logging</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -508,7 +508,7 @@ in at least one other channel</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -528,7 +528,7 @@ in many cases (there is work to change this going on).</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -551,7 +551,7 @@ in many cases (there is work to change this going on).</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -562,7 +562,7 @@ in many cases (there is work to change this going on).</p>
 <dd><p>Return description of filter for logging</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -587,7 +587,7 @@ in many cases (there is work to change this going on).</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -605,7 +605,7 @@ Note: this will break if we have <code class="docutils literal notranslate"><spa
 </ul>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -640,7 +640,7 @@ work from there so that we don’t recreate the “same” update.</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -657,7 +657,7 @@ work from there so that we don’t recreate the “same” update.</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -674,7 +674,7 @@ work from there so that we don’t recreate the “same” update.</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -691,7 +691,7 @@ work from there so that we don’t recreate the “same” update.</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -702,7 +702,7 @@ work from there so that we don’t recreate the “same” update.</p>
 <dd><p>Return description of filter for logging</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -721,8 +721,8 @@ work from there so that we don’t recreate the “same” update.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>packages</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – list of packages, may contain globs</p></li>
-<li><p><strong>shuffle</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – If true, package order will be randomized.</p></li>
+<li><p><strong>packages</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.List" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – list of packages, may contain globs</p></li>
+<li><p><strong>shuffle</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – If true, package order will be randomized.</p></li>
 </ul>
 </dd>
 </dl>
@@ -735,9 +735,9 @@ work from there so that we don’t recreate the “same” update.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>recipe_source</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Iterable" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Iterable</span></code></a>[<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>]) – Iteratable providing Recipe stubs</p></li>
-<li><p><strong>cache_fn</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.9)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Filename prefix for caching</p></li>
-<li><p><strong>status_fn</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.9)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Filename for status output</p></li>
+<li><p><strong>recipe_source</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Iterable" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Iterable</span></code></a>[<a class="reference internal" href="bioconda_utils.recipe.html#bioconda_utils.recipe.Recipe" title="bioconda_utils.recipe.Recipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">Recipe</span></code></a>]) – Iteratable providing Recipe stubs</p></li>
+<li><p><strong>cache_fn</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Filename prefix for caching</p></li>
+<li><p><strong>status_fn</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Filename for status output</p></li>
 </ul>
 </dd>
 </dl>
@@ -747,7 +747,7 @@ work from there so that we don’t recreate the “same” update.</p>
 <dd><p>Applies the filters to a recipe</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -770,26 +770,26 @@ work from there so that we don’t recreate the “same” update.</p>
 <dd><p>Runs scanner</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.autobump.Scanner.stats">
-<span class="sig-name descname"><span class="pre">stats</span></span><em class="property"><span class="pre">:</span> <a class="reference external" href="https://docs.python.org/3/library/collections.html#collections.Counter" title="(in Python v3.9)"><span class="pre">collections.Counter</span></a></em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.stats" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">stats</span></span><em class="property"><span class="pre">:</span> <a class="reference external" href="https://docs.python.org/3/library/collections.html#collections.Counter" title="(in Python v3.10)"><span class="pre">collections.Counter</span></a></em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.stats" title="Permalink to this definition">¶</a></dt>
 <dd><p>counter to gather stats on various states</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.autobump.Scanner.status">
-<span class="sig-name descname"><span class="pre">status</span></span><em class="property"><span class="pre">:</span> <span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">status</span></span><em class="property"><span class="pre">:</span> <span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span> </span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status" title="Permalink to this definition">¶</a></dt>
 <dd><p>collect end status for each recipe</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.autobump.Scanner.status_fn">
-<span class="sig-name descname"><span class="pre">status_fn</span></span><em class="property"><span class="pre">:</span> <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a></em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status_fn" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">status_fn</span></span><em class="property"><span class="pre">:</span> <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></em><a class="headerlink" href="#bioconda_utils.autobump.Scanner.status_fn" title="Permalink to this definition">¶</a></dt>
 <dd><p>filename to write statuses to</p>
 </dd></dl>
 
@@ -810,7 +810,7 @@ the checksums calculated and the recipe updated accordingly.</p>
 </ul>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>failed_file</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.9)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Store the list of URLs for which downloading failed to this
+<dd class="field-odd"><p><strong>failed_file</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.10)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – Store the list of URLs for which downloading failed to this
 file upon pipeline completion.</p>
 </dd>
 </dl>
@@ -848,7 +848,7 @@ file upon pipeline completion.</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -861,7 +861,7 @@ file upon pipeline completion.</p>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.autobump.UpdateChecksums.failed_urls">
-<span class="sig-name descname"><span class="pre">failed_urls</span></span><em class="property"><span class="pre">:</span> <span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_urls" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">failed_urls</span></span><em class="property"><span class="pre">:</span> <span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.autobump.UpdateChecksums.failed_urls" title="Permalink to this definition">¶</a></dt>
 <dd><p>failed urls - for later inspection</p>
 </dd></dl>
 
@@ -881,7 +881,7 @@ the same checksum (if the link is available).</p>
 after the recipe was built and uploaded</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -964,7 +964,7 @@ the recipe</p>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -984,7 +984,7 @@ the recipe</p>
 <p>TODO: currently, this only logs an error</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -995,7 +995,7 @@ the recipe</p>
 <dd><p>Save unparsed urls to file and print stats to log</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -1031,7 +1031,7 @@ defined by parse_version)</p></li>
 </ul>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -1044,7 +1044,7 @@ defined by parse_version)</p></li>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.autobump.UpdateVersion.unparsed_urls">
-<span class="sig-name descname"><span class="pre">unparsed_urls</span></span><em class="property"><span class="pre">:</span> <span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_urls" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">unparsed_urls</span></span><em class="property"><span class="pre">:</span> <span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#bioconda_utils.autobump.UpdateVersion.unparsed_urls" title="Permalink to this definition">¶</a></dt>
 <dd><p>output file name for unparsed urls</p>
 </dd></dl>
 
@@ -1060,7 +1060,7 @@ defined by parse_version)</p></li>
 <dd><p>Process a recipe. Returns False if processing should stop</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>

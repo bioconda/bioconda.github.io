@@ -28,13 +28,14 @@ msi
       
       
 
-      ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``0.3.5-3``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
    
    :depends cd-hit: 
    :depends cutadapt: 
+   :depends emboss: 
    :depends fastq_utils: 
    :depends fastqc: 
    :depends isonclust: 
@@ -80,7 +81,7 @@ msi
 
     <script>
         var package = "msi";
-        var versions = ["0.3.5","0.3.5","0.3.5","0.3.3","0.3.1"];
+        var versions = ["0.3.5","0.3.5","0.3.5","0.3.5","0.3.3"];
     </script>
 
 
