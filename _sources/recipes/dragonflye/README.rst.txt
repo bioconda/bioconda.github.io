@@ -28,25 +28,25 @@ dragonflye
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends any2fasta: 
+   :depends any2fasta: ``>=0.4.2``
    :depends assembly-scan: ``>=0.4.0``
-   :depends flye: 
+   :depends flye: ``>=2.9``
    :depends kmc: ``>=3.1``
-   :depends medaka: 
-   :depends miniasm: 
-   :depends nanoq: 
-   :depends perl: 
+   :depends medaka: ``>=1.4.4``
+   :depends miniasm: ``>=0.3_r179``
+   :depends nanoq: ``>=0.8.1``
+   :depends perl: ``>=5.26``
    :depends perl-file-spec: 
    :depends perl-findbin: 
-   :depends pigz: 
-   :depends racon: 
-   :depends rasusa: 
-   :depends raven-assembler: 
+   :depends pigz: ``>=2.6``
+   :depends racon: ``>=1.4.20``
+   :depends rasusa: ``>=0.6``
+   :depends raven-assembler: ``>=1.6.1``
    :depends seqtk: ``>=1.3``
    :requirements:
 
@@ -79,7 +79,7 @@ dragonflye
 
     <script>
         var package = "dragonflye";
-        var versions = ["1.0.5","1.0.4","1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.0.6","1.0.5","1.0.4","1.0.3","1.0.2"];
     </script>
 
 

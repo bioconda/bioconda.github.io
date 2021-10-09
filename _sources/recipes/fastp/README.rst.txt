@@ -10,7 +10,7 @@ fastp
    :replaces_section_title:
    :noindex:
 
-   A FASTQ preprocessor with full features \(QC\/adapters\/trimming\/filtering\/splitting...\)
+   A ultra\-fast FASTQ preprocessor with full features \(QC\/adapters\/trimming\/filtering\/splitting...\)
 
    :homepage: https://github.com/OpenGene/fastp
    :license: MIT
@@ -28,10 +28,10 @@ fastp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.22.0-0</code>,  <code>0.20.1-1</code>,  <code>0.20.1-0</code>,  <code>0.20.0-0</code>,  <code>0.19.7-0</code>,  <code>0.19.6-0</code>,  <code>0.19.5-0</code>,  <code>0.19.4-0</code>,  <code>0.19.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.23.0-0</code>,  <code>0.22.0-0</code>,  <code>0.20.1-1</code>,  <code>0.20.1-0</code>,  <code>0.20.0-0</code>,  <code>0.19.7-0</code>,  <code>0.19.6-0</code>,  <code>0.19.5-0</code>,  <code>0.19.4-0</code>,  </span></summary>
       
 
-      ``0.22.0-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.20.0-0``,  ``0.19.7-0``,  ``0.19.6-0``,  ``0.19.5-0``,  ``0.19.4-0``,  ``0.19.3-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.14.1-0``,  ``0.13.1-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-1``,  ``0.12.2-0``
+      ``0.23.0-0``,  ``0.22.0-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.20.0-0``,  ``0.19.7-0``,  ``0.19.6-0``,  ``0.19.5-0``,  ``0.19.4-0``,  ``0.19.3-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.14.1-0``,  ``0.13.1-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-1``,  ``0.12.2-0``
 
       
       .. raw:: html
@@ -40,9 +40,10 @@ fastp
       
 
    
+   :depends isa-l: 
+   :depends libdeflate: ``>=1.7,<1.8.0a0``
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +75,7 @@ fastp
 
     <script>
         var package = "fastp";
-        var versions = ["0.22.0","0.20.1","0.20.1","0.20.0","0.19.7"];
+        var versions = ["0.23.0","0.22.0","0.20.1","0.20.1","0.20.0"];
     </script>
 
 
