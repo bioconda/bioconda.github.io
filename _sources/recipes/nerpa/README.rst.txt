@@ -31,7 +31,7 @@ nerpa
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -40,8 +40,8 @@ nerpa
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends networkx: 
    :depends openjdk: 
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends rdkit: 
    :requirements:
 
@@ -74,7 +74,7 @@ nerpa
 
     <script>
         var package = "nerpa";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 
