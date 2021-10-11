@@ -27,7 +27,7 @@ amplify
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -71,7 +71,7 @@ amplify
 
     <script>
         var package = "amplify";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0"];
     </script>
 
 

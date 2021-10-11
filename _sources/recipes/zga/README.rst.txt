@@ -28,19 +28,20 @@ zga
       
       
 
-      ``0.0.9.post2-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``
+      ``0.0.9.post2-1``,  ``0.0.9.post2-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``
 
       
 
    
    :depends bbmap: 
-   :depends biopython: ``<=1.77``
+   :depends biopython: 
    :depends blast: 
    :depends checkm-genome: ``>=1.1.0``
    :depends dfast: ``>=1.2.12``
    :depends fastp: 
    :depends flye: ``>=2.6``
    :depends mash: ``>=2``
+   :depends minimap2: 
    :depends nxtrim: 
    :depends python: ``>=3.6``
    :depends racon: 
@@ -78,7 +79,7 @@ zga
 
     <script>
         var package = "zga";
-        var versions = ["0.0.9.post2","0.0.9","0.0.8","0.0.7"];
+        var versions = ["0.0.9.post2","0.0.9.post2","0.0.9","0.0.8","0.0.7"];
     </script>
 
 

@@ -27,7 +27,7 @@ gfaffix
       
       
 
-      ``0.1.2.1-0``
+      ``0.1.2.2-0``,  ``0.1.2.1-0``
 
       
 
@@ -64,7 +64,7 @@ gfaffix
 
     <script>
         var package = "gfaffix";
-        var versions = ["0.1.2.1"];
+        var versions = ["0.1.2.2","0.1.2.1"];
     </script>
 
 

@@ -28,7 +28,7 @@ scaffold_builder
       
       
 
-      ``2.2-1``,  ``2.2-0``
+      ``2.3-0``,  ``2.2-1``,  ``2.2-0``
 
       
 
@@ -66,7 +66,7 @@ scaffold_builder
 
     <script>
         var package = "scaffold_builder";
-        var versions = ["2.2","2.2"];
+        var versions = ["2.3","2.2","2.2"];
     </script>
 
 
