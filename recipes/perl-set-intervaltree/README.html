@@ -139,15 +139,15 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../metamaps/README.html#metamaps"><strong class="xref backref">metamaps</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-ensembl-compara/README.html#perl-ensembl-compara"><strong class="xref backref">perl-ensembl-compara</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../star-fusion/README.html#star-fusion"><strong class="xref backref">star-fusion</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-ensembl-variation/README.html#perl-ensembl-variation"><strong class="xref backref">perl-ensembl-variation</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../fusion-inspector/README.html#fusion-inspector"><strong class="xref backref">fusion-inspector</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../ensembl-vep/README.html#ensembl-vep"><strong class="xref backref">ensembl-vep</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-sanger-cgp-vagrent/README.html#perl-sanger-cgp-vagrent"><strong class="xref backref">perl-sanger-cgp-vagrent</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../fusion-filter/README.html#fusion-filter"><strong class="xref backref">fusion-filter</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-ensembl-variation/README.html#perl-ensembl-variation"><strong class="xref backref">perl-ensembl-variation</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../ensembl-vep/README.html#ensembl-vep"><strong class="xref backref">ensembl-vep</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../fusion-inspector/README.html#fusion-inspector"><strong class="xref backref">fusion-inspector</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-ensembl-compara/README.html#perl-ensembl-compara"><strong class="xref backref">perl-ensembl-compara</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../metamaps/README.html#metamaps"><strong class="xref backref">metamaps</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../gmap-fusion/README.html#gmap-fusion"><strong class="xref backref">gmap-fusion</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../star-fusion/README.html#star-fusion"><strong class="xref backref">star-fusion</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -179,9 +179,12 @@
     window.onload = async function() {
         $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
             let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#cdf_plot', spec);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
             });
         });
 
@@ -193,7 +196,8 @@
             });
         });
     }
-</script></section>
+</script>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-set-intervaltree/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

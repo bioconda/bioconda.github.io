@@ -140,16 +140,16 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-flowsorted.cordbloodcombined.450k/README.html#bioconductor-flowsorted.cordbloodcombined.450k"><strong class="xref backref">bioconductor-flowsorted.cordbloodcombined.450k</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-dmrcatedata/README.html#bioconductor-dmrcatedata"><strong class="xref backref">bioconductor-dmrcatedata</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-funtoonorm/README.html#bioconductor-funtoonorm"><strong class="xref backref">bioconductor-funtoonorm</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-conumee/README.html#bioconductor-conumee"><strong class="xref backref">bioconductor-conumee</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-enmcb/README.html#bioconductor-enmcb"><strong class="xref backref">bioconductor-enmcb</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-methylcc/README.html#bioconductor-methylcc"><strong class="xref backref">bioconductor-methylcc</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-missmethyl/README.html#bioconductor-missmethyl"><strong class="xref backref">bioconductor-missmethyl</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-conumee/README.html#bioconductor-conumee"><strong class="xref backref">bioconductor-conumee</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-funtoonorm/README.html#bioconductor-funtoonorm"><strong class="xref backref">bioconductor-funtoonorm</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-minfidata/README.html#bioconductor-minfidata"><strong class="xref backref">bioconductor-minfidata</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-watermelon/README.html#bioconductor-watermelon"><strong class="xref backref">bioconductor-watermelon</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-missmethyl/README.html#bioconductor-missmethyl"><strong class="xref backref">bioconductor-missmethyl</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-flowsorted.cordbloodcombined.450k/README.html#bioconductor-flowsorted.cordbloodcombined.450k"><strong class="xref backref">bioconductor-flowsorted.cordbloodcombined.450k</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-dmrcatedata/README.html#bioconductor-dmrcatedata"><strong class="xref backref">bioconductor-dmrcatedata</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-methylgsa/README.html#bioconductor-methylgsa"><strong class="xref backref">bioconductor-methylgsa</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-methylcc/README.html#bioconductor-methylcc"><strong class="xref backref">bioconductor-methylcc</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -181,9 +181,12 @@
     window.onload = async function() {
         $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
             let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#cdf_plot', spec);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
             });
         });
 
@@ -195,7 +198,8 @@
             });
         });
     }
-</script></section>
+</script>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

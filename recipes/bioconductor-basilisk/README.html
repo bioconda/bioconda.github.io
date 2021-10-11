@@ -141,16 +141,16 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-velociraptor/README.html#bioconductor-velociraptor"><strong class="xref backref">bioconductor-velociraptor</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-rcwl/README.html#bioconductor-rcwl"><strong class="xref backref">bioconductor-rcwl</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-snifter/README.html#bioconductor-snifter"><strong class="xref backref">bioconductor-snifter</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-densvis/README.html#bioconductor-densvis"><strong class="xref backref">bioconductor-densvis</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-zellkonverter/README.html#bioconductor-zellkonverter"><strong class="xref backref">bioconductor-zellkonverter</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-biocsklearn/README.html#bioconductor-biocsklearn"><strong class="xref backref">bioconductor-biocsklearn</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-mofa2/README.html#bioconductor-mofa2"><strong class="xref backref">bioconductor-mofa2</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-macsr/README.html#bioconductor-macsr"><strong class="xref backref">bioconductor-macsr</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-dasper/README.html#bioconductor-dasper"><strong class="xref backref">bioconductor-dasper</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-densvis/README.html#bioconductor-densvis"><strong class="xref backref">bioconductor-densvis</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-mofa2/README.html#bioconductor-mofa2"><strong class="xref backref">bioconductor-mofa2</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-snifter/README.html#bioconductor-snifter"><strong class="xref backref">bioconductor-snifter</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-rcwl/README.html#bioconductor-rcwl"><strong class="xref backref">bioconductor-rcwl</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-cbpmanager/README.html#bioconductor-cbpmanager"><strong class="xref backref">bioconductor-cbpmanager</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-velociraptor/README.html#bioconductor-velociraptor"><strong class="xref backref">bioconductor-velociraptor</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -182,9 +182,12 @@
     window.onload = async function() {
         $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
             let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#cdf_plot', spec);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
             });
         });
 
@@ -196,7 +199,8 @@
             });
         });
     }
-</script></section>
+</script>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-basilisk/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

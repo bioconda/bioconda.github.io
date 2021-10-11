@@ -139,22 +139,22 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../metamaps/README.html#metamaps"><strong class="xref backref">metamaps</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../abricate/README.html#abricate"><strong class="xref backref">abricate</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-bio-phylo/README.html#perl-bio-phylo"><strong class="xref backref">perl-bio-phylo</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-ensembl-compara/README.html#perl-ensembl-compara"><strong class="xref backref">perl-ensembl-compara</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-bio-mlst-check/README.html#perl-bio-mlst-check"><strong class="xref backref">perl-bio-mlst-check</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-pcap/README.html#perl-pcap"><strong class="xref backref">perl-pcap</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../rsat-core/README.html#rsat-core"><strong class="xref backref">rsat-core</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../metamaps/README.html#metamaps"><strong class="xref backref">metamaps</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../srax/README.html#srax"><strong class="xref backref">srax</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../unitas/README.html#unitas"><strong class="xref backref">unitas</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../abricate/README.html#abricate"><strong class="xref backref">abricate</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../mirdeep2/README.html#mirdeep2"><strong class="xref backref">mirdeep2</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../gaas/README.html#gaas"><strong class="xref backref">gaas</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../hotspot3d/README.html#hotspot3d"><strong class="xref backref">hotspot3d</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../irida-linker/README.html#irida-linker"><strong class="xref backref">irida-linker</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-atlas-modules/README.html#perl-atlas-modules"><strong class="xref backref">perl-atlas-modules</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../maxbin2/README.html#maxbin2"><strong class="xref backref">maxbin2</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../agat/README.html#agat"><strong class="xref backref">agat</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../hotspot3d/README.html#hotspot3d"><strong class="xref backref">hotspot3d</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-ensembl-compara/README.html#perl-ensembl-compara"><strong class="xref backref">perl-ensembl-compara</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../srax/README.html#srax"><strong class="xref backref">srax</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-atlas-modules/README.html#perl-atlas-modules"><strong class="xref backref">perl-atlas-modules</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../gaas/README.html#gaas"><strong class="xref backref">gaas</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-mlst-check/README.html#perl-bio-mlst-check"><strong class="xref backref">perl-bio-mlst-check</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-phylo/README.html#perl-bio-phylo"><strong class="xref backref">perl-bio-phylo</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../irida-linker/README.html#irida-linker"><strong class="xref backref">irida-linker</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../mirdeep2/README.html#mirdeep2"><strong class="xref backref">mirdeep2</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../unitas/README.html#unitas"><strong class="xref backref">unitas</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -186,9 +186,12 @@
     window.onload = async function() {
         $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
             let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#cdf_plot', spec);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
             });
         });
 
@@ -200,7 +203,8 @@
             });
         });
     }
-</script></section>
+</script>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-lwp-simple/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

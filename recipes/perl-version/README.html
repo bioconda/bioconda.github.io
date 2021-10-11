@@ -137,17 +137,17 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../perl-experimental/README.html#perl-experimental"><strong class="xref backref">perl-experimental</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-module-build/README.html#perl-module-build"><strong class="xref backref">perl-module-build</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-specio/README.html#perl-specio"><strong class="xref backref">perl-specio</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-cpan-meta-requirements/README.html#perl-cpan-meta-requirements"><strong class="xref backref">perl-cpan-meta-requirements</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-html-form/README.html#perl-html-form"><strong class="xref backref">perl-html-form</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-module-load-conditional/README.html#perl-module-load-conditional"><strong class="xref backref">perl-module-load-conditional</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-module-scandeps/README.html#perl-module-scandeps"><strong class="xref backref">perl-module-scandeps</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-trap/README.html#perl-test-trap"><strong class="xref backref">perl-test-trap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-cpan-meta/README.html#perl-cpan-meta"><strong class="xref backref">perl-cpan-meta</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-module-corelist/README.html#perl-module-corelist"><strong class="xref backref">perl-module-corelist</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-module-metadata/README.html#perl-module-metadata"><strong class="xref backref">perl-module-metadata</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-experimental/README.html#perl-experimental"><strong class="xref backref">perl-experimental</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-specio/README.html#perl-specio"><strong class="xref backref">perl-specio</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-test-trap/README.html#perl-test-trap"><strong class="xref backref">perl-test-trap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-module-scandeps/README.html#perl-module-scandeps"><strong class="xref backref">perl-module-scandeps</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-module-corelist/README.html#perl-module-corelist"><strong class="xref backref">perl-module-corelist</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-cpan-meta-requirements/README.html#perl-cpan-meta-requirements"><strong class="xref backref">perl-cpan-meta-requirements</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-module-build/README.html#perl-module-build"><strong class="xref backref">perl-module-build</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-html-form/README.html#perl-html-form"><strong class="xref backref">perl-html-form</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-cpan-meta/README.html#perl-cpan-meta"><strong class="xref backref">perl-cpan-meta</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-module-load-conditional/README.html#perl-module-load-conditional"><strong class="xref backref">perl-module-load-conditional</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -179,9 +179,12 @@
     window.onload = async function() {
         $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
             let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#cdf_plot', spec);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
             });
         });
 
@@ -193,7 +196,8 @@
             });
         });
     }
-</script></section>
+</script>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-version/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

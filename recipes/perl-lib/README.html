@@ -137,15 +137,15 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../perl-bio-mlst-check/README.html#perl-bio-mlst-check"><strong class="xref backref">perl-bio-mlst-check</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-graphviz/README.html#perl-graphviz"><strong class="xref backref">perl-graphviz</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-test-trap/README.html#perl-test-trap"><strong class="xref backref">perl-test-trap</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-bio-viennangs/README.html#perl-bio-viennangs"><strong class="xref backref">perl-bio-viennangs</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../perl-bio-rna-rnaalisplit/README.html#perl-bio-rna-rnaalisplit"><strong class="xref backref">perl-bio-rna-rnaalisplit</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-module-fromperlver/README.html#perl-module-fromperlver"><strong class="xref backref">perl-module-fromperlver</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-test-prereq/README.html#perl-test-prereq"><strong class="xref backref">perl-test-prereq</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../snmf/README.html#snmf"><strong class="xref backref">snmf</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-file-util/README.html#perl-file-util"><strong class="xref backref">perl-file-util</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-test-trap/README.html#perl-test-trap"><strong class="xref backref">perl-test-trap</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-rna-rnaalisplit/README.html#perl-bio-rna-rnaalisplit"><strong class="xref backref">perl-bio-rna-rnaalisplit</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-graphviz/README.html#perl-graphviz"><strong class="xref backref">perl-graphviz</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-mlst-check/README.html#perl-bio-mlst-check"><strong class="xref backref">perl-bio-mlst-check</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../perl-bio-viennangs/README.html#perl-bio-viennangs"><strong class="xref backref">perl-bio-viennangs</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../perl-pod-coverage-trustpod/README.html#perl-pod-coverage-trustpod"><strong class="xref backref">perl-pod-coverage-trustpod</strong></a></p></li>
 </ul>
 </dd>
@@ -178,9 +178,12 @@
     window.onload = async function() {
         $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
             let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#cdf_plot', spec);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
             });
         });
 
@@ -192,7 +195,8 @@
             });
         });
     }
-</script></section>
+</script>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-lib/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

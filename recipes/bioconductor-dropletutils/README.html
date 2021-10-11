@@ -163,15 +163,15 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-singlecelltk/README.html#bioconductor-singlecelltk"><strong class="xref backref">bioconductor-singlecelltk</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../r-acidplots/README.html#r-acidplots"><strong class="xref backref">r-acidplots</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../scxa-plots/README.html#scxa-plots"><strong class="xref backref">scxa-plots</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../tximport-scripts/README.html#tximport-scripts"><strong class="xref backref">tximport-scripts</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-sccb2/README.html#bioconductor-sccb2"><strong class="xref backref">bioconductor-sccb2</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../dropletutils-scripts/README.html#dropletutils-scripts"><strong class="xref backref">dropletutils-scripts</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-spatialexperiment/README.html#bioconductor-spatialexperiment"><strong class="xref backref">bioconductor-spatialexperiment</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-spaniel/README.html#bioconductor-spaniel"><strong class="xref backref">bioconductor-spaniel</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../scxa-plots/README.html#scxa-plots"><strong class="xref backref">scxa-plots</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../cell-types-analysis/README.html#cell-types-analysis"><strong class="xref backref">cell-types-analysis</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../tximport-scripts/README.html#tximport-scripts"><strong class="xref backref">tximport-scripts</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spaniel/README.html#bioconductor-spaniel"><strong class="xref backref">bioconductor-spaniel</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../r-acidplots/README.html#r-acidplots"><strong class="xref backref">r-acidplots</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-spatialexperiment/README.html#bioconductor-spatialexperiment"><strong class="xref backref">bioconductor-spatialexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sccb2/README.html#bioconductor-sccb2"><strong class="xref backref">bioconductor-sccb2</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-singlecelltk/README.html#bioconductor-singlecelltk"><strong class="xref backref">bioconductor-singlecelltk</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -203,9 +203,12 @@
     window.onload = async function() {
         $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
             let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#cdf_plot', spec);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
             });
         });
 
@@ -217,7 +220,8 @@
             });
         });
     }
-</script></section>
+</script>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-dropletutils/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

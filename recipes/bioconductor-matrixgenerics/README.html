@@ -139,20 +139,20 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../bioconductor-variantannotation/README.html#bioconductor-variantannotation"><strong class="xref backref">bioconductor-variantannotation</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-summarizedexperiment/README.html#bioconductor-summarizedexperiment"><strong class="xref backref">bioconductor-summarizedexperiment</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-coregx/README.html#bioconductor-coregx"><strong class="xref backref">bioconductor-coregx</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-pdatk/README.html#bioconductor-pdatk"><strong class="xref backref">bioconductor-pdatk</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-scone/README.html#bioconductor-scone"><strong class="xref backref">bioconductor-scone</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-scpca/README.html#bioconductor-scpca"><strong class="xref backref">bioconductor-scpca</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-vanillaice/README.html#bioconductor-vanillaice"><strong class="xref backref">bioconductor-vanillaice</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-minimumdistance/README.html#bioconductor-minimumdistance"><strong class="xref backref">bioconductor-minimumdistance</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-tloh/README.html#bioconductor-tloh"><strong class="xref backref">bioconductor-tloh</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-delayedarray/README.html#bioconductor-delayedarray"><strong class="xref backref">bioconductor-delayedarray</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-genomicfiles/README.html#bioconductor-genomicfiles"><strong class="xref backref">bioconductor-genomicfiles</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../bioconductor-sparsematrixstats/README.html#bioconductor-sparsematrixstats"><strong class="xref backref">bioconductor-sparsematrixstats</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-delayedmatrixstats/README.html#bioconductor-delayedmatrixstats"><strong class="xref backref">bioconductor-delayedmatrixstats</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../bioconductor-raggedexperiment/README.html#bioconductor-raggedexperiment"><strong class="xref backref">bioconductor-raggedexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-variantannotation/README.html#bioconductor-variantannotation"><strong class="xref backref">bioconductor-variantannotation</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-coregx/README.html#bioconductor-coregx"><strong class="xref backref">bioconductor-coregx</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-delayedarray/README.html#bioconductor-delayedarray"><strong class="xref backref">bioconductor-delayedarray</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scone/README.html#bioconductor-scone"><strong class="xref backref">bioconductor-scone</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-tloh/README.html#bioconductor-tloh"><strong class="xref backref">bioconductor-tloh</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-genomicfiles/README.html#bioconductor-genomicfiles"><strong class="xref backref">bioconductor-genomicfiles</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-pdatk/README.html#bioconductor-pdatk"><strong class="xref backref">bioconductor-pdatk</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-sparsematrixstats/README.html#bioconductor-sparsematrixstats"><strong class="xref backref">bioconductor-sparsematrixstats</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-scpca/README.html#bioconductor-scpca"><strong class="xref backref">bioconductor-scpca</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-summarizedexperiment/README.html#bioconductor-summarizedexperiment"><strong class="xref backref">bioconductor-summarizedexperiment</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-vanillaice/README.html#bioconductor-vanillaice"><strong class="xref backref">bioconductor-vanillaice</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../bioconductor-minimumdistance/README.html#bioconductor-minimumdistance"><strong class="xref backref">bioconductor-minimumdistance</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -184,9 +184,12 @@
     window.onload = async function() {
         $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
             let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#cdf_plot', spec);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
             });
         });
 
@@ -198,7 +201,8 @@
             });
         });
     }
-</script></section>
+</script>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-matrixgenerics/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>

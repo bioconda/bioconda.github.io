@@ -148,13 +148,13 @@
 </dd>
 <dt class="field-odd">Required By</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><a class="conda-package reference internal" href="../funannotate/README.html#funannotate"><strong class="xref backref">funannotate</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../group_humann2_uniref_abundances_to_go/README.html#group_humann2_uniref_abundances_to_go"><strong class="xref backref">group_humann2_uniref_abundances_to_go</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metaquant/README.html#metaquant"><strong class="xref backref">metaquant</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../jcvi/README.html#jcvi"><strong class="xref backref">jcvi</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../genewalk/README.html#genewalk"><strong class="xref backref">genewalk</strong></a></p></li>
-<li><p><a class="conda-package reference internal" href="../metaquantome/README.html#metaquantome"><strong class="xref backref">metaquantome</strong></a></p></li>
 <li><p><a class="conda-package reference internal" href="../iptkl/README.html#iptkl"><strong class="xref backref">iptkl</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../funannotate/README.html#funannotate"><strong class="xref backref">funannotate</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../metaquantome/README.html#metaquantome"><strong class="xref backref">metaquantome</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../metaquant/README.html#metaquant"><strong class="xref backref">metaquant</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../genewalk/README.html#genewalk"><strong class="xref backref">genewalk</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../group_humann2_uniref_abundances_to_go/README.html#group_humann2_uniref_abundances_to_go"><strong class="xref backref">group_humann2_uniref_abundances_to_go</strong></a></p></li>
+<li><p><a class="conda-package reference internal" href="../jcvi/README.html#jcvi"><strong class="xref backref">jcvi</strong></a></p></li>
 </ul>
 </dd>
 </dl>
@@ -186,9 +186,12 @@
     window.onload = async function() {
         $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json`, function( data ) {
             let spec = JSON.parse(data);
-            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( plot_data ) {
-                spec.data.values = JSON.parse(plot_data);
-                vegaEmbed('#cdf_plot', spec);
+            $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json`, function( plot_data ) {
+                $.get(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`, function( single_point ) {
+                    spec.data.values = JSON.parse(plot_data);
+                    spec.data.values.push(JSON.parse(single_point).pop());
+                    vegaEmbed('#cdf_plot', spec);
+                });
             });
         });
 
@@ -200,7 +203,8 @@
             });
         });
     }
-</script></section>
+</script>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/goatools/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
