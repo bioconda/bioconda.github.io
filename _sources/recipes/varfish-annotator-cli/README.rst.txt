@@ -28,10 +28,10 @@ varfish-annotator-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16-0</code>,  <code>0.15-0</code>,  <code>0.14-1</code>,  <code>0.14-0</code>,  <code>0.13-0</code>,  <code>0.12-0</code>,  <code>0.11-0</code>,  <code>0.10-0</code>,  <code>0.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.17-0</code>,  <code>0.16-0</code>,  <code>0.15-0</code>,  <code>0.14-1</code>,  <code>0.14-0</code>,  <code>0.13-0</code>,  <code>0.12-0</code>,  <code>0.11-0</code>,  <code>0.10-0</code>,  </span></summary>
       
 
-      ``0.16-0``,  ``0.15-0``,  ``0.14-1``,  ``0.14-0``,  ``0.13-0``,  ``0.12-0``,  ``0.11-0``,  ``0.10-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.17-0``,  ``0.16-0``,  ``0.15-0``,  ``0.14-1``,  ``0.14-0``,  ``0.13-0``,  ``0.12-0``,  ``0.11-0``,  ``0.10-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -72,7 +72,7 @@ varfish-annotator-cli
 
     <script>
         var package = "varfish-annotator-cli";
-        var versions = ["0.16","0.15","0.14","0.14","0.13"];
+        var versions = ["0.17","0.16","0.15","0.14","0.14"];
     </script>
 
 
