@@ -27,7 +27,7 @@ gs-tama
       
       
 
-      ``1.0.1-0``,  ``1.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -69,7 +69,7 @@ gs-tama
 
     <script>
         var package = "gs-tama";
-        var versions = ["1.0.1","1.0"];
+        var versions = ["1.0.2","1.0.1","1.0"];
     </script>
 
 

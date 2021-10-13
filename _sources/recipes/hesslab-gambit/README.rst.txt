@@ -27,7 +27,7 @@ hesslab-gambit
       
       
 
-      ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -40,8 +40,8 @@ hesslab-gambit
    :depends h5py: ``>=3.0``
    :depends libgcc-ng: ``>=9.4.0``
    :depends numpy: ``>=1.13``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends setuptools: 
    :depends sqlalchemy: ``>=1.1``
    :requirements:
@@ -75,7 +75,7 @@ hesslab-gambit
 
     <script>
         var package = "hesslab-gambit";
-        var versions = ["0.3.0","0.2.2","0.2.1"];
+        var versions = ["0.3.0","0.3.0","0.2.2","0.2.1"];
     </script>
 
 

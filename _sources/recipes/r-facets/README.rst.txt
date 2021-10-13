@@ -28,14 +28,14 @@ r-facets
       
       
 
-      ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.14-4``,  ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``
+      ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.14-4``,  ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
+   :depends libgfortran5: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-pctgcdata: 
    :requirements:
@@ -69,7 +69,7 @@ r-facets
 
     <script>
         var package = "r-facets";
-        var versions = ["0.6.1","0.6.1","0.5.14","0.5.14","0.5.14"];
+        var versions = ["0.6.2","0.6.1","0.6.1","0.5.14","0.5.14"];
     </script>
 
 

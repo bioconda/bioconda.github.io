@@ -27,14 +27,14 @@ snp-pileup
       
       
 
-      ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``,  ``v0.5.14-0``
+      ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.14-3``,  ``0.5.14-2``,  ``0.5.14-1``,  ``0.5.14-0``,  ``v0.5.14-0``
 
       
 
    
    :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ snp-pileup
 
     <script>
         var package = "snp-pileup";
-        var versions = ["0.6.1","0.6.1","0.5.14","0.5.14","0.5.14"];
+        var versions = ["0.6.2","0.6.1","0.6.1","0.5.14","0.5.14"];
     </script>
 
 
