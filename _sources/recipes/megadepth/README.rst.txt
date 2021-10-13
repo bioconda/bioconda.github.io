@@ -27,7 +27,7 @@ megadepth
       
       
 
-      ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9b-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9b-0``
 
       
 
@@ -36,7 +36,7 @@ megadepth
    :depends libbigwig: 
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ megadepth
 
     <script>
         var package = "megadepth";
-        var versions = ["1.1.1","1.1.0","1.1.0","1.0.9b"];
+        var versions = ["1.1.2","1.1.1","1.1.0","1.1.0","1.0.9b"];
     </script>
 
 
