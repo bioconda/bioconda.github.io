@@ -28,7 +28,7 @@ medicc2
       
       
 
-      ``0.5b3-0``
+      ``0.5b4-0``,  ``0.5b3-0``
 
       
 
@@ -76,7 +76,7 @@ medicc2
 
     <script>
         var package = "medicc2";
-        var versions = ["0.5b3"];
+        var versions = ["0.5b4","0.5b3"];
     </script>
 
 

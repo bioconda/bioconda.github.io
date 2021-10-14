@@ -27,7 +27,7 @@ vafator
       
       
 
-      ``0.3.4-0``,  ``0.3.3-0``
+      ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
@@ -67,7 +67,7 @@ vafator
 
     <script>
         var package = "vafator";
-        var versions = ["0.3.4","0.3.3"];
+        var versions = ["0.4.0","0.3.4","0.3.3"];
     </script>
 
 
