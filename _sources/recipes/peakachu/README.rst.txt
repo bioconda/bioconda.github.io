@@ -27,17 +27,17 @@ peakachu
       
       
 
-      ``0.2.0-0``,  ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends bcbiogff: ``>=0.6.6``
+   :depends bcbio-gff: ``>=0.6.6``
    :depends bioconductor-deseq2: ``>=1.18.1``
    :depends bioconductor-edger: 
    :depends biopython: ``>=1.77``
    :depends blockbuster: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends matplotlib-base: ``>=3.3.1``
    :depends numexpr: ``>=2.7.0``
    :depends pandas: ``>=0.25.1``
@@ -77,7 +77,7 @@ peakachu
 
     <script>
         var package = "peakachu";
-        var versions = ["0.2.0","0.1.0","0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.2.0","0.2.0","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

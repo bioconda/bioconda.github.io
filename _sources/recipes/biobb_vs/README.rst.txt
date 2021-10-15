@@ -32,14 +32,13 @@ biobb_vs
       
       
 
-      ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``
+      ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``
 
       
 
    
    :depends autodock-vina: ``1.1.2``
-   :depends biobb_common: ``3.6.0``
-   :depends biopython: 
+   :depends biobb_common: ``3.7.0``
    :depends fpocket: ``3.1.4.2``
    :depends python: ``3.7.*``
    :requirements:
@@ -73,7 +72,7 @@ biobb_vs
 
     <script>
         var package = "biobb_vs";
-        var versions = ["3.6.0","3.5.1","3.5.0"];
+        var versions = ["3.7.0","3.6.0","3.5.1","3.5.0"];
     </script>
 
 

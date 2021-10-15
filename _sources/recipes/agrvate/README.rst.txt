@@ -27,12 +27,13 @@ agrvate
       
       
 
-      ``1.0.1-0``,  ``1.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
    
    :depends blast: 
+   :depends file: 
    :depends hmmer: 
    :depends mummer: 
    :depends seqkit: 
@@ -68,7 +69,7 @@ agrvate
 
     <script>
         var package = "agrvate";
-        var versions = ["1.0.1","1.0"];
+        var versions = ["1.0.1","1.0.1","1.0"];
     </script>
 
 

@@ -14,7 +14,7 @@ pftools
 
    :homepage: https://web.expasy.org/pftools/
    :developer docs: https://github.com/sib-swiss/pftools3
-   :license: GPLv2
+   :license: GPL / GPLv2
    :recipe: /`pftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pftools/meta.yaml>`_
 
    
@@ -28,14 +28,20 @@ pftools
       
       
 
-      ``2.3.5-1``,  ``2.3.5-0``
+      ``3.2.10-0``,  ``2.3.5-1``,  ``2.3.5-0``
 
       
 
    
-   :depends libcxx: ``>=9.0.1``
-   :depends libgfortran: ``>=4.0.0,<5.0.0.a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl-file-slurp: 
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +73,7 @@ pftools
 
     <script>
         var package = "pftools";
-        var versions = ["2.3.5","2.3.5"];
+        var versions = ["3.2.10","2.3.5","2.3.5"];
     </script>
 
 

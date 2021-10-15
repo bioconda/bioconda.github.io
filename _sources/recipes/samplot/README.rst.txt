@@ -12,7 +12,7 @@ samplot
 
    Plot structural variant signals from BAMs and CRAMs.
 
-   :homepage: https://github.com/jbelyeu/samplot
+   :homepage: https://github.com/ryanlayer/samplot
    :license: MIT
    :recipe: /`samplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samplot/meta.yaml>`_
 
@@ -28,10 +28,10 @@ samplot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  <code>1.1.0-0</code>,  <code>1.0.21-0</code>,  <code>1.0.20-0</code>,  <code>1.0.19-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  <code>1.1.0-0</code>,  <code>1.0.21-0</code>,  <code>1.0.20-0</code>,  </span></summary>
       
 
-      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.0-0``,  ``1.0.21-0``,  ``1.0.20-0``,  ``1.0.19-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.1-0``
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.0-0``,  ``1.0.21-0``,  ``1.0.20-0``,  ``1.0.19-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ samplot
 
     <script>
         var package = "samplot";
-        var versions = ["1.3.0","1.2.0","1.1.6","1.1.5","1.1.3"];
+        var versions = ["1.3.0","1.3.0","1.2.0","1.1.6","1.1.5"];
     </script>
 
 
