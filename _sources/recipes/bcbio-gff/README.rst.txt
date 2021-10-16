@@ -10,7 +10,7 @@ bcbio-gff
    :replaces_section_title:
    :noindex:
 
-   A python library to read and write Generic Feature Format \(GFF\).
+   A Python library to read and write Generic Feature Format \(GFF\).
 
    :homepage: https://github.com/chapmanb/bcbb/tree/master/gff
    :license: Biopython License Agreement
@@ -27,7 +27,7 @@ bcbio-gff
       
       
 
-      ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``
+      ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``
 
       
 
@@ -67,7 +67,7 @@ bcbio-gff
 
     <script>
         var package = "bcbio-gff";
-        var versions = ["0.6.6","0.6.6","0.6.4","0.6.4","0.6.2"];
+        var versions = ["0.6.7","0.6.6","0.6.6","0.6.4","0.6.4"];
     </script>
 
 
