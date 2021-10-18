@@ -27,7 +27,7 @@ metabolabpy
       
       
 
-      ``0.6.48-0``,  ``0.6.46-0``
+      ``0.6.49-0``,  ``0.6.48-0``,  ``0.6.46-0``
 
       
 
@@ -72,7 +72,7 @@ metabolabpy
 
     <script>
         var package = "metabolabpy";
-        var versions = ["0.6.48","0.6.46"];
+        var versions = ["0.6.49","0.6.48","0.6.46"];
     </script>
 
 

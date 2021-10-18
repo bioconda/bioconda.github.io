@@ -27,13 +27,13 @@ alevin-fry
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ alevin-fry
 
     <script>
         var package = "alevin-fry";
-        var versions = ["0.4.1","0.4.0","0.3.0","0.2.0","0.1.0"];
+        var versions = ["0.4.2","0.4.1","0.4.0","0.3.0","0.2.0"];
     </script>
 
 
