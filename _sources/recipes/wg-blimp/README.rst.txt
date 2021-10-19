@@ -30,10 +30,10 @@ wg-blimp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.8-0</code>,  <code>0.9.7-0</code>,  <code>0.9.6-1</code>,  <code>0.9.6-0</code>,  <code>0.9.5-1</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.8-1</code>,  <code>0.9.8-0</code>,  <code>0.9.7-0</code>,  <code>0.9.6-1</code>,  <code>0.9.6-0</code>,  <code>0.9.5-1</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  </span></summary>
       
 
-      ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,6 @@ wg-blimp
    
    :depends click: 
    :depends h5py: 
-   :depends mamba: 
    :depends pysam: 
    :depends python: 
    :depends r-base: 
@@ -88,7 +87,7 @@ wg-blimp
 
     <script>
         var package = "wg-blimp";
-        var versions = ["0.9.8","0.9.7","0.9.6","0.9.6","0.9.5"];
+        var versions = ["0.9.8","0.9.8","0.9.7","0.9.6","0.9.6"];
     </script>
 
 

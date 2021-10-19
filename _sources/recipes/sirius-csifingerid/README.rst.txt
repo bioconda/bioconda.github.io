@@ -10,13 +10,13 @@ sirius-csifingerid
    :replaces_section_title:
    :noindex:
 
-   SIRIUS is new java\-based software framework for discovering a landscape of de\-novo identification of metabolites using single and tandem mass spectrometry. SIRIUS uses isotope pattern analysis for detecting the molecular formula and further analyses the fragmentation pattern of a compound using fragmentation trees.
+   SIRIUS LC\-MS\/MS data analyses framework. Includes\: SIRIUS\, ZODIAC\, CSI\:FingerID \(with COSMIC\) and CANOPUS
 
    :homepage: https://bio.informatik.uni-jena.de/software/sirius/
-   :license: GPLv3
+   :license: AGPL-3.0-only
    :recipe: /`sirius-csifingerid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sirius-csifingerid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sirius-csifingerid/meta.yaml>`_
 
-   
+   SIRIUS is a java\-based software framework for the analysis of LC\-MS\/MS data of metabolites and other small molecules of biological interest. SIRIUS integrates a collection of our tools\, including CSI\:FingerID \(with COSMIC\)\, ZODIAC and CANOPUS.  In particular\, both the graphical user interface and the command line version of SIRIUS seamlessly integrate the CSI\:FingerID and CANOPUS web services.
 
 
 .. conda:package:: sirius-csifingerid
@@ -27,14 +27,13 @@ sirius-csifingerid
       
       
 
-      ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
+      ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
 
       
 
    
-   :depends glpk: ``>=4.65,<4.66.0a0``
    :depends libgcc-ng: ``>=9.4.0``
-   :depends openjdk: ``>=7``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ sirius-csifingerid
 
     <script>
         var package = "sirius-csifingerid";
-        var versions = ["4.9.3","4.0.1","4.0.1"];
+        var versions = ["4.9.4","4.9.3","4.0.1","4.0.1"];
     </script>
 
 

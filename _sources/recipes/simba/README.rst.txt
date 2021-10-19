@@ -27,20 +27,25 @@ simba
       
       
 
-      ``0.1a-0``
+      ``0.1-0``,  ``0.1a-0``
 
       
 
    
+   :depends adjusttext: ``>=0.7.3``
    :depends anndata: ``>=0.7.4``
    :depends kneed: ``>=0.7``
    :depends matplotlib-base: ``>=3.3``
    :depends numpy: ``>=1.17.0``
    :depends pandas: ``>=1.0,!=1.1``
+   :depends pybedtools: ``>=0.8.0``
    :depends python: 
    :depends scikit-learn: ``>=0.19``
+   :depends scikit-misc: ``>=0.1.3``
    :depends scipy: ``>=1.4``
    :depends seaborn: ``>=0.11``
+   :depends simba_pbg: ``>=1.1``
+   :depends umap-learn: ``>=0.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +77,7 @@ simba
 
     <script>
         var package = "simba";
-        var versions = ["0.1a"];
+        var versions = ["0.1","0.1a"];
     </script>
 
 

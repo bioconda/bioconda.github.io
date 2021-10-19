@@ -13,7 +13,7 @@ haystac
    Species identification pipeline for both single species and metagenomic samples.
 
    :homepage: https://github.com/antonisdim/haystac
-   :documentation: https://haystac.readthedocs.io/en/latest/
+   :documentation: https://haystac.readthedocs.io/en/master/
    
    :license: MIT / MIT
    :recipe: /`haystac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haystac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haystac/meta.yaml>`_
@@ -29,39 +29,20 @@ haystac
       
       
 
-      ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2-0``
+      ``0.4.7-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2-0``
 
       
 
    
-   :depends adapterremoval: ``>=2.3.1``
-   :depends argcomplete: ``>=1.12.1``
-   :depends argparse: ``>=1.4.0``
-   :depends biopython: ``>=1.77``
-   :depends bowtie2: ``>=2.3.5.1``
-   :depends dedup: ``>=0.12.5``
-   :depends mapdamage2: ``>=2.2.1``
-   :depends numpy: ``>=1.19.2``
-   :depends pandas: ``>=1.0.3``
-   :depends picard: ``>=2.24.0``
-   :depends psutil: ``>=5.7.2``
-   :depends pysam: ``>=0.16``
-   :depends python: ``>=3.6``
-   :depends pyyaml: ``>=5.3.1``
-   :depends r-gam: ``>=1.16.1``
-   :depends r-ggplot2: ``>=3.3.0``
-   :depends r-inline: ``>=0.3.15``
-   :depends r-rcpp: ``>=1.0.4.6``
-   :depends r-rcppgsl: ``>=0.3.8``
-   :depends requests: ``>=2.24.0``
-   :depends samtools: ``>=1.9``
-   :depends scipy: ``>=1.4.1``
-   :depends seqkit: ``>=0.13.2``
-   :depends seqtk: ``>=1.3``
-   :depends setuptools: ``>=49.6.0``
-   :depends snakemake: ``>=5.20.1``
-   :depends sra-tools: ``>=2.9.1``
-   :depends wget: ``>=1.20.1``
+   :depends argparse: ``1.4.0.*``
+   :depends numpy: ``1.19.2.*``
+   :depends pandas: ``1.0.3.*``
+   :depends psutil: ``5.7.2.*``
+   :depends python: 
+   :depends python: ``3.6.7.*``
+   :depends pyyaml: ``5.4.1.*``
+   :depends requests: ``2.24.0.*``
+   :depends snakemake-minimal: ``6.3.0.*``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +74,7 @@ haystac
 
     <script>
         var package = "haystac";
-        var versions = ["0.4","0.3.2","0.3.1","0.3","0.2"];
+        var versions = ["0.4.7","0.4","0.3.2","0.3.1","0.3"];
     </script>
 
 
