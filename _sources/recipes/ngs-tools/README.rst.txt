@@ -28,9 +28,17 @@ ngs-tools
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.5.8-0</code>,  <code>1.5.7-0</code>,  <code>1.5.6-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+      
 
+      ``1.5.8-0``,  ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -74,7 +82,7 @@ ngs-tools
 
     <script>
         var package = "ngs-tools";
-        var versions = ["1.5.7","1.5.6","1.5.5","1.5.4","1.5.3"];
+        var versions = ["1.5.8","1.5.7","1.5.6","1.5.5","1.5.4"];
     </script>
 
 

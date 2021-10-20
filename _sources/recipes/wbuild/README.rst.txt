@@ -27,7 +27,7 @@ wbuild
       
       
 
-      ``1.8.0-0``,  ``1.7.1-0``,  ``1.7.0-0``
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.1-0``,  ``1.7.0-0``
 
       
 
@@ -36,7 +36,7 @@ wbuild
    :depends click-log: 
    :depends python: ``>=3.5``
    :depends pyyaml: ``>=4.2b1``
-   :depends snakemake: ``>=5.5.2``
+   :depends snakemake-minimal: ``>=5.5.2``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ wbuild
 
     <script>
         var package = "wbuild";
-        var versions = ["1.8.0","1.7.1","1.7.0"];
+        var versions = ["1.8.0","1.8.0","1.7.1","1.7.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ maf2synteny
       
       
 
-      ``1.1-0``,  ``1.0-1``,  ``1.0-0``
+      ``1.2-0``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -65,7 +65,7 @@ maf2synteny
 
     <script>
         var package = "maf2synteny";
-        var versions = ["1.1","1.0","1.0"];
+        var versions = ["1.2","1.1","1.0","1.0"];
     </script>
 
 
