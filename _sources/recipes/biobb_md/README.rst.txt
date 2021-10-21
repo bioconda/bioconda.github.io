@@ -30,10 +30,10 @@ biobb_md
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>0.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  </span></summary>
       
 
-      ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ biobb_md
       
 
    
-   :depends biobb_common: ``3.6.0``
+   :depends biobb_common: ``3.7.0``
    :depends gromacs: ``2019.1``
    :depends python: ``3.7.*``
    :requirements:
@@ -76,7 +76,7 @@ biobb_md
 
     <script>
         var package = "biobb_md";
-        var versions = ["3.6.0","3.5.1","3.5.0","3.0.1","3.0.0"];
+        var versions = ["3.7.0","3.6.0","3.5.1","3.5.0","3.0.1"];
     </script>
 
 

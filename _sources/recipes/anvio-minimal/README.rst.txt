@@ -29,10 +29,10 @@ anvio-minimal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7-0</code>,  <code>6.2-1</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.1-0</code>,  <code>7-0</code>,  <code>6.2-1</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  <code>5.4.0-0</code>,  </span></summary>
       
 
-      ``7-0``,  ``6.2-1``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-1``,  ``5.2.0-0``
+      ``7.1-0``,  ``7-0``,  ``6.2-1``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-1``,  ``5.2.0-0``
 
       
       .. raw:: html
@@ -61,7 +61,7 @@ anvio-minimal
    :depends scipy: 
    :depends six: 
    :depends snakemake-minimal: ``5.10.0``
-   :depends sqlite: ``>=3.34.0,<4.0a0``
+   :depends sqlite: ``>=3.36.0,<4.0a0``
    :depends statsmodels: 
    :depends tabulate: 
    :requirements:
@@ -95,7 +95,7 @@ anvio-minimal
 
     <script>
         var package = "anvio-minimal";
-        var versions = ["7","6.2","6.2","6.1","6.1"];
+        var versions = ["7.1","7","6.2","6.2","6.1"];
     </script>
 
 
