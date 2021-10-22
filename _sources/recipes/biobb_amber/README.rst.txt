@@ -32,13 +32,13 @@ biobb_amber
       
       
 
-      ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``
+      ``3.7.1-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``
 
       
 
    
    :depends ambertools: ``20.0``
-   :depends biobb_common: ``3.6.0``
+   :depends biobb_common: ``3.7.0``
    :depends python: ``3.7.*``
    :requirements:
 
@@ -71,7 +71,7 @@ biobb_amber
 
     <script>
         var package = "biobb_amber";
-        var versions = ["3.6.2","3.6.1","3.6.0","3.6.0","3.5.0"];
+        var versions = ["3.7.1","3.6.2","3.6.1","3.6.0","3.6.0"];
     </script>
 
 
