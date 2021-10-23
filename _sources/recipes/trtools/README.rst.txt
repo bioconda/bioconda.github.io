@@ -30,20 +30,20 @@ trtools
       
       
 
-      ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
+      ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
 
       
 
    
    :depends cyvcf2: ``>=0.30.1``
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends pybedtools: 
-   :depends pysam: ``>=0.15.3``
+   :depends matplotlib-base: ``>=3.2.2``
+   :depends numpy: ``>=1.18.5``
+   :depends pandas: ``>=1.0.5``
+   :depends pybedtools: ``>=0.8.1``
+   :depends pysam: ``>=0.16.0.1``
    :depends python: ``>=3.5``
-   :depends scikit-learn: 
-   :depends scipy: 
+   :depends scikit-learn: ``>=0.23.1``
+   :depends scipy: ``>=1.4.1``
    :requirements:
 
    .. rubric:: Installation
@@ -75,7 +75,7 @@ trtools
 
     <script>
         var package = "trtools";
-        var versions = ["4.0.0","4.0.0","4.0.0","3.0.3","3.0.2"];
+        var versions = ["4.0.1","4.0.0","4.0.0","4.0.0","3.0.3"];
     </script>
 
 

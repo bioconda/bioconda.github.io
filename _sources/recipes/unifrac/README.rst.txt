@@ -31,17 +31,25 @@ unifrac
    :versions:
       
       
+      .. raw:: html
 
-      ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.20.3-0</code>,  <code>0.20.2-1</code>,  <code>0.20.2-0</code>,  <code>0.20.1-0</code>,  <code>0.20.0-1</code>,  <code>0.20.0-0</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.3-1</code>,  </span></summary>
+      
 
+      ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends biom-format: 
    :depends h5py: ``>=3.1.0,<4.0a0``
    :depends hdf5: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends lz4: 
    :depends numpy: ``>=1.19.5,<2.0a0``
    :depends python: ``>=3.6,<3.7.0a0``
@@ -78,7 +86,7 @@ unifrac
 
     <script>
         var package = "unifrac";
-        var versions = ["0.20.2","0.20.2","0.20.1","0.20.0","0.20.0"];
+        var versions = ["0.20.3","0.20.2","0.20.2","0.20.1","0.20.0"];
     </script>
 
 

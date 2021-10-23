@@ -27,7 +27,7 @@ agrvate
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -37,7 +37,7 @@ agrvate
    :depends hmmer: 
    :depends mummer: 
    :depends seqkit: 
-   :depends snippy: 
+   :depends snippy: ``>=4.6.0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ agrvate
 
     <script>
         var package = "agrvate";
-        var versions = ["1.0.1","1.0.1","1.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0"];
     </script>
 
 

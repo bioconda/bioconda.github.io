@@ -30,10 +30,10 @@ funannotate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.9-0</code>,  <code>1.8.7-0</code>,  <code>1.8.5-1</code>,  <code>1.8.5-0</code>,  <code>1.8.3-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.7.4-1</code>,  <code>1.7.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.9-1</code>,  <code>1.8.9-0</code>,  <code>1.8.7-0</code>,  <code>1.8.5-1</code>,  <code>1.8.5-0</code>,  <code>1.8.3-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.7.4-1</code>,  </span></summary>
       
 
-      ``1.8.9-0``,  ``1.8.7-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.3-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
+      ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.7-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.3-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
 
       
       .. raw:: html
@@ -73,6 +73,8 @@ funannotate
    :depends perl-hash-merge: 
    :depends perl-json: 
    :depends perl-logger-simple: 
+   :depends perl-math-utils: 
+   :depends perl-mce: 
    :depends perl-parallel-forkmanager: 
    :depends perl-scalar-util-numeric: 
    :depends perl-soap-lite: 
@@ -128,7 +130,7 @@ funannotate
 
     <script>
         var package = "funannotate";
-        var versions = ["1.8.9","1.8.7","1.8.5","1.8.5","1.8.3"];
+        var versions = ["1.8.9","1.8.9","1.8.7","1.8.5","1.8.5"];
     </script>
 
 

@@ -27,13 +27,13 @@ r-spieceasi
       
       
 
-      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``1.1.1-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-glmnet: 
    :depends r-huge: ``>=1.3.2``
@@ -74,7 +74,7 @@ r-spieceasi
 
     <script>
         var package = "r-spieceasi";
-        var versions = ["1.1.0","1.1.0","1.1.0","1.0.7","1.0.7"];
+        var versions = ["1.1.1","1.1.0","1.1.0","1.1.0","1.0.7"];
     </script>
 
 

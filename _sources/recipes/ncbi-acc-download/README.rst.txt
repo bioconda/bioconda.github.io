@@ -27,7 +27,7 @@ ncbi-acc-download
       
       
 
-      ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``
+      ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``
 
       
 
@@ -66,7 +66,7 @@ ncbi-acc-download
 
     <script>
         var package = "ncbi-acc-download";
-        var versions = ["0.2.7","0.2.6","0.2.5"];
+        var versions = ["0.2.8","0.2.7","0.2.6","0.2.5"];
     </script>
 
 

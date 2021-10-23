@@ -16,7 +16,7 @@ liquorice
    :license: GPL / GPL-3.0
    :recipe: /`liquorice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liquorice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liquorice/meta.yaml>`_
 
-   See the https\:\/\/liquorice.readthedocs.io for more information.
+   See https\:\/\/liquorice.readthedocs.io for more information.
 
 
 .. conda:package:: liquorice
@@ -27,7 +27,7 @@ liquorice
       
       
 
-      ``0.5.3-0``
+      ``0.5.4-0``,  ``0.5.3-0``
 
       
 
@@ -80,7 +80,7 @@ liquorice
 
     <script>
         var package = "liquorice";
-        var versions = ["0.5.3"];
+        var versions = ["0.5.4","0.5.3"];
     </script>
 
 
