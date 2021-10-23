@@ -37,7 +37,8 @@ pyfba
    :depends beautifulsoup4: 
    :depends glpk: ``>=4.65,<4.66.0a0``
    :depends jupyter: 
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends lxml: 
    :depends pyglpk: 
    :depends python: ``>=3.9,<3.10.0a0``
