@@ -29,7 +29,7 @@ mirmachine
       
       
 
-      ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
+      ``0.2.11.1-0``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
 
       
 
@@ -40,7 +40,7 @@ mirmachine
    :depends biopython: ``>=1.76``
    :depends configargparse: ``>=1.1``
    :depends coreutils: ``>=8.31``
-   :depends datrie: ``>=0.8``
+   :depends datrie: 
    :depends decorator: ``>=4.4.2``
    :depends docopt: ``>=0.6.2``
    :depends docutils: ``>=0.16``
@@ -52,16 +52,16 @@ mirmachine
    :depends jsonschema: ``>=3.2.0``
    :depends moreutils: ``>=0.5.7``
    :depends nbformat: ``>=5.0.4``
-   :depends numpy: 
+   :depends numpy: ``>=1.18``
    :depends psutil: ``>=5.7.0``
    :depends pyrsistent: ``>=0.15.7``
    :depends python: 
    :depends python-newick: ``>=1.0.0``
-   :depends pyyaml: ``>=5.3.1``
+   :depends pyyaml: 
    :depends ratelimiter: 
    :depends samtools: ``>=1.6``
    :depends smmap: ``>=3.0.1``
-   :depends snakemake: ``>=5.11.1``
+   :depends snakemake-minimal: ``>=5.11.1``
    :depends toposort: ``>=1.5``
    :depends traitlets: ``>=4.3.3``
    :depends wrapt: ``>=1.12.1``
@@ -97,7 +97,7 @@ mirmachine
 
     <script>
         var package = "mirmachine";
-        var versions = ["0.2.11","0.2.11","0.2.10","0.1.31","0.1.2"];
+        var versions = ["0.2.11.1","0.2.11","0.2.11","0.2.10","0.1.31"];
     </script>
 
 
