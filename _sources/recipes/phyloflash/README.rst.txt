@@ -29,10 +29,10 @@ phyloflash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3b4-0</code>,  <code>3.3b3-0</code>,  <code>3.3b2-0</code>,  <code>3.3b1-1</code>,  <code>3.3b1-0</code>,  <code>3.0b1-1</code>,  <code>3.0b1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3b4-0</code>,  <code>3.3b3-0</code>,  <code>3.3b2-0</code>,  <code>3.3b1-1</code>,  <code>3.3b1-0</code>,  <code>3.0b1-1</code>,  </span></summary>
       
 
-      ``3.4-1``,  ``3.4-0``,  ``3.3b4-0``,  ``3.3b3-0``,  ``3.3b2-0``,  ``3.3b1-1``,  ``3.3b1-0``,  ``3.0b1-1``,  ``3.0b1-0``,  ``2.0beta6-0``
+      ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3b4-0``,  ``3.3b3-0``,  ``3.3b2-0``,  ``3.3b1-1``,  ``3.3b1-0``,  ``3.0b1-1``,  ``3.0b1-0``,  ``2.0beta6-0``
 
       
       .. raw:: html
@@ -47,13 +47,13 @@ phyloflash
    :depends mafft: 
    :depends perl: ``>=5.13.2``
    :depends pigz: 
-   :depends r-base: 
+   :depends r-base: ``>=4.1.0``
    :depends r-ggdendro: 
-   :depends r-ggplot2: 
+   :depends r-ggplot2: ``>=3.3.0``
    :depends r-gtable: 
    :depends r-optparse: 
    :depends r-reshape2: 
-   :depends samtools: 
+   :depends samtools: ``>=1.13``
    :depends spades: 
    :depends vsearch: 
    :requirements:
@@ -87,7 +87,7 @@ phyloflash
 
     <script>
         var package = "phyloflash";
-        var versions = ["3.4","3.4","3.3b4","3.3b3","3.3b2"];
+        var versions = ["3.4.1","3.4","3.4","3.3b4","3.3b3"];
     </script>
 
 

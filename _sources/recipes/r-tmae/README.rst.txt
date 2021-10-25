@@ -10,9 +10,9 @@ r-tmae
    :replaces_section_title:
    :noindex:
 
-   Tests and visualizes for Mono\-allelic expressed variants.
+   Tests and visualizations for mono\-allelicly expressed variants.
 
-   :homepage: https://github.com/mumichae/tMAE
+   :homepage: https://github.com/gagneurlab/tMAE
    :license: MIT / MIT
    :recipe: /`r-tmae <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tmae>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tmae/meta.yaml>`_
 
@@ -27,7 +27,7 @@ r-tmae
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``1.0.2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
@@ -38,7 +38,6 @@ r-tmae
    :depends bioconductor-genomicscores: 
    :depends bioconductor-iranges: 
    :depends bioconductor-s4vectors: 
-   :depends libgcc-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-data.table: 
@@ -76,7 +75,7 @@ r-tmae
 
     <script>
         var package = "r-tmae";
-        var versions = ["1.0.0","1.0.0","1.0.0","0.9.0","0.9.0"];
+        var versions = ["1.0.2","1.0.0","1.0.0","1.0.0","0.9.0"];
     </script>
 
 
