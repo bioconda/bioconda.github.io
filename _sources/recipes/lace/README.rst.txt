@@ -13,7 +13,7 @@ lace
    Building SuperTranscripts\: A linear representation of transcriptome data
 
    :homepage: https://github.com/Oshlack/Lace
-   :license: Unknown
+   :license: GPL
    :recipe: /`lace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lace/meta.yaml>`_
 
    
@@ -27,14 +27,13 @@ lace
       
       
 
-      ``1.00-3``,  ``1.00-2``,  ``1.00-1``,  ``1.00-0``,  ``0.99-0``,  ``0.80-0``
+      ``1.14.1-0``,  ``1.00-3``,  ``1.00-2``,  ``1.00-1``,  ``1.00-0``,  ``0.99-0``,  ``0.80-0``
 
       
 
    
    :depends blat: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
@@ -70,16 +69,12 @@ lace
 
     <script>
         var package = "lace";
-        var versions = ["1.00","1.00","1.00","1.00","0.99"];
+        var versions = ["1.14.1","1.00","1.00","1.00","1.00"];
     </script>
 
 
 
 
-
-Notes
------
-Prefix with \'Lace\_\' for the script name that is rather generic\: \'Checker.py\'.
 
 
 Download stats
