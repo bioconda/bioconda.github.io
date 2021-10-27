@@ -27,14 +27,14 @@ bamtocov
       
       
 
-      ``2.0.4-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.001-0``,  ``2.0.000-0``
+      ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.001-0``,  ``2.0.000-0``
 
       
 
    
    :depends htslib: ``>=1.11,<1.12.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends pcre: ``>=8.44,<9.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends pcre: ``>=8.45,<9.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ bamtocov
 
     <script>
         var package = "bamtocov";
-        var versions = ["2.0.4","2.0.2","2.0.2","2.0.001","2.0.000"];
+        var versions = ["2.1.0","2.0.4","2.0.2","2.0.2","2.0.001"];
     </script>
 
 

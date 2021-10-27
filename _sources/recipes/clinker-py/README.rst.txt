@@ -28,12 +28,12 @@ clinker-py
       
       
 
-      ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.12-0``
+      ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.12-0``
 
       
 
    
-   :depends biopython: ``>=1.75``
+   :depends biopython: ``>=1.78``
    :depends disjoint-set: ``>=0.7.1``
    :depends gffutils: 
    :depends numpy: ``>=1.13.3``
@@ -70,7 +70,7 @@ clinker-py
 
     <script>
         var package = "clinker-py";
-        var versions = ["0.0.22","0.0.21","0.0.20","0.0.19","0.0.12"];
+        var versions = ["0.0.23","0.0.22","0.0.21","0.0.20","0.0.19"];
     </script>
 
 
