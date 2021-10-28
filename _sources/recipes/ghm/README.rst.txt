@@ -6,7 +6,7 @@
 ghm
 ===
 
-.. conda:recipe:: ghm/3.1
+.. conda:recipe:: ghm/3.0
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ ghm
 
    :homepage: https://www.helmholtz-muenchen.de/en/ige/service/software-download/genehunter-modscore/index.html
    :license: INDIVIDUAL
-   :recipe: /`ghm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghm>`_/`3.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghm/3.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghm/3.1/meta.yaml>`_
+   :recipe: /`ghm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghm>`_/`3.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghm/3.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghm/3.0/meta.yaml>`_
 
    
 

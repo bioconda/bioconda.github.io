@@ -27,20 +27,23 @@ dadaist2-full
       
       
 
-      ``1.0-0``,  ``0.7-1``,  ``0.7-0``
+      ``1.1-0``,  ``1.0-0``,  ``0.7-1``,  ``0.7-0``
 
       
 
    
    :depends cd-hit: 
-   :depends dadaist2: 
+   :depends dadaist2: ``>=1.1``
+   :depends itsxpress: 
    :depends multiqc: 
    :depends r-ade4: 
+   :depends r-base: ``>=4``
    :depends r-cluster: 
    :depends r-corrplot: 
    :depends r-fpc: 
    :depends r-hmisc: 
    :depends r-phangorn: 
+   :depends rich: 
    :depends vsearch: 
    :requirements:
 
@@ -73,7 +76,7 @@ dadaist2-full
 
     <script>
         var package = "dadaist2-full";
-        var versions = ["1.0","0.7","0.7"];
+        var versions = ["1.1","1.0","0.7","0.7"];
     </script>
 
 

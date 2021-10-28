@@ -27,7 +27,7 @@ opfi
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -77,7 +77,7 @@ opfi
 
     <script>
         var package = "opfi";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

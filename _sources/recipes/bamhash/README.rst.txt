@@ -6,7 +6,7 @@
 bamhash
 =======
 
-.. conda:recipe:: bamhash/1.0
+.. conda:recipe:: bamhash/1.1
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ bamhash
 
    :homepage: https://github.com/DecodeGenetics/BamHash
    :license: GPL-3-0
-   :recipe: /`bamhash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash>`_/`1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.0/meta.yaml>`_
+   :recipe: /`bamhash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash>`_/`1.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.1/meta.yaml>`_
 
    
 

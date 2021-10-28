@@ -60,10 +60,10 @@ biobb_pmx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.0-0</code>,  <code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``3.6.0-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -72,7 +72,7 @@ biobb_pmx
       
 
    
-   :depends biobb_common: ``3.6.0``
+   :depends biobb_common: ``3.7.0``
    :depends pmx_biobb: ``1.0.0``
    :depends python: ``3.7.*``
    :requirements:
@@ -106,7 +106,7 @@ biobb_pmx
 
     <script>
         var package = "biobb_pmx";
-        var versions = ["3.6.0","3.5.0","3.0.2","3.0.1","3.0.0"];
+        var versions = ["3.7.0","3.6.0","3.5.0","3.0.2","3.0.1"];
     </script>
 
 

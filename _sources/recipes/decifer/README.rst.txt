@@ -27,7 +27,7 @@ decifer
       
       
 
-      ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
@@ -37,8 +37,8 @@ decifer
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends numpy: ``>=1.16.1``
    :depends pandas: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends scipy: ``>=1.2.1``
    :depends seaborn: ``>=0.7.1``
    :requirements:
@@ -72,7 +72,7 @@ decifer
 
     <script>
         var package = "decifer";
-        var versions = ["1.1.5","1.1.4","1.1","1.0.0","0.0.2"];
+        var versions = ["2.0.1","1.1.5","1.1.4","1.1","1.0.0"];
     </script>
 
 
