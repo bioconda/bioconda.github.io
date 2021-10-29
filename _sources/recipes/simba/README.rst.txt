@@ -27,7 +27,7 @@ simba
       
       
 
-      ``1.0-0``,  ``0.1-0``,  ``0.1a-0``
+      ``1.1-0``,  ``1.0-0``,  ``0.1-0``,  ``0.1a-0``
 
       
 
@@ -39,6 +39,7 @@ simba
    :depends numpy: ``>=1.17.0``
    :depends pandas: ``>=1.0,!=1.1``
    :depends pybedtools: ``>=0.8.0``
+   :depends pytables: 
    :depends python: 
    :depends scikit-learn: ``>=0.19``
    :depends scikit-misc: ``>=0.1.3``
@@ -77,7 +78,7 @@ simba
 
     <script>
         var package = "simba";
-        var versions = ["1.0","0.1","0.1a"];
+        var versions = ["1.1","1.0","0.1","0.1a"];
     </script>
 
 
