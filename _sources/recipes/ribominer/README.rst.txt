@@ -27,14 +27,14 @@ ribominer
       
       
 
-      ``0.2.3.1-0``
+      ``0.2.3.2-0``,  ``0.2.3.1-0``
 
       
 
    
    :depends biopython: ``>=1.70``
    :depends htseq: 
-   :depends matplotlib-base: ``>=2.1.0``
+   :depends matplotlib-base: 
    :depends numpy: ``>=1.16.4``
    :depends pandas: ``>=0.24.2``
    :depends pysam: ``>=0.15.2``
@@ -74,7 +74,7 @@ ribominer
 
     <script>
         var package = "ribominer";
-        var versions = ["0.2.3.1"];
+        var versions = ["0.2.3.2","0.2.3.1"];
     </script>
 
 

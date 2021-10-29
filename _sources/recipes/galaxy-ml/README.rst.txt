@@ -28,10 +28,10 @@ galaxy-ml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-5</code>,  <code>0.8.2-4</code>,  <code>0.8.2-3</code>,  <code>0.8.2-2</code>,  <code>0.8.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.2-5</code>,  <code>0.8.2-4</code>,  <code>0.8.2-3</code>,  <code>0.8.2-2</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
+      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.12-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.4.1-0``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ galaxy-ml
    
    :depends asteval: ``>=0.9.14``
    :depends graphviz: ``>=2.40.1``
-   :depends h5py: ``>=2.10.0,<3.0``
+   :depends h5py: ``>=3.1,<3.4``
    :depends htslib: 
    :depends imbalanced-learn: ``>=0.8.0,<0.9``
    :depends joblib: ``>=0.13.2,<1.0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends matplotlib-base: 
    :depends mlxtend: ``>=0.17,<0.18``
    :depends numpy: ``>=1.18.0,<1.21``
@@ -56,15 +56,15 @@ galaxy-ml
    :depends pydot: ``>=1.4``
    :depends pyfaidx: 
    :depends pytabix: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends scikit-learn: ``>=0.24,<0.25``
-   :depends scikit-optimize: ``>=0.8,<0.9``
+   :depends scikit-optimize: ``>=0.9,<1.0``
    :depends scipy: ``>=1.3.1``
    :depends skrebate: ``>=0.60,<0.70``
    :depends tabix: 
-   :depends tensorflow: ``>=2.3.0,<2.5``
-   :depends tensorflow-estimator: ``>=2.3.0,<2.5``
+   :depends tensorflow: ``>=2.5,<2.6``
+   :depends tensorflow-estimator: ``>=2.5,<2.6``
    :depends xgboost: ``>=1.3,<1.4``
    :requirements:
 
@@ -97,7 +97,7 @@ galaxy-ml
 
     <script>
         var package = "galaxy-ml";
-        var versions = ["0.9.0","0.8.3","0.8.3","0.8.3","0.8.2"];
+        var versions = ["0.9.1","0.9.0","0.8.3","0.8.3","0.8.3"];
     </script>
 
 

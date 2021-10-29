@@ -27,7 +27,7 @@ simba
       
       
 
-      ``0.1-0``,  ``0.1a-0``
+      ``1.0-0``,  ``0.1-0``,  ``0.1a-0``
 
       
 
@@ -77,7 +77,7 @@ simba
 
     <script>
         var package = "simba";
-        var versions = ["0.1","0.1a"];
+        var versions = ["1.0","0.1","0.1a"];
     </script>
 
 
