@@ -29,7 +29,7 @@ isafe
       
       
 
-      ``1.0.7-0``
+      ``1.1.0-0``,  ``1.0.7-0``
 
       
 
@@ -70,7 +70,7 @@ isafe
 
     <script>
         var package = "isafe";
-        var versions = ["1.0.7"];
+        var versions = ["1.1.0","1.0.7"];
     </script>
 
 
