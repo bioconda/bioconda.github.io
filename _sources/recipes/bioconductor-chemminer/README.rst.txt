@@ -29,10 +29,10 @@ bioconductor-chemminer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.44.0-0</code>,  <code>3.42.2-0</code>,  <code>3.42.0-0</code>,  <code>3.40.0-0</code>,  <code>3.38.0-0</code>,  <code>3.36.0-1</code>,  <code>3.34.1-0</code>,  <code>3.32.1-0</code>,  <code>2.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.46.0-0</code>,  <code>3.44.0-0</code>,  <code>3.42.2-0</code>,  <code>3.42.0-0</code>,  <code>3.40.0-0</code>,  <code>3.38.0-0</code>,  <code>3.36.0-1</code>,  <code>3.34.1-0</code>,  <code>3.32.1-0</code>,  </span></summary>
       
 
-      ``3.44.0-0``,  ``3.42.2-0``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-1``,  ``3.34.1-0``,  ``3.32.1-0``,  ``2.30.0-0``,  ``2.28.3-0``
+      ``3.46.0-0``,  ``3.44.0-0``,  ``3.42.2-0``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-1``,  ``3.34.1-0``,  ``3.32.1-0``,  ``2.30.0-0``,  ``2.28.3-0``
 
       
       .. raw:: html
@@ -41,11 +41,10 @@ bioconductor-chemminer
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-base64enc: 
    :depends r-bh: 
@@ -54,11 +53,13 @@ bioconductor-chemminer
    :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
+   :depends r-jsonlite: 
    :depends r-png: 
    :depends r-rcpp: ``>=0.11.0``
    :depends r-rcurl: 
    :depends r-rjson: 
    :depends r-rsvg: 
+   :depends r-stringi: 
    :requirements:
 
    .. rubric:: Installation
@@ -90,7 +91,7 @@ bioconductor-chemminer
 
     <script>
         var package = "bioconductor-chemminer";
-        var versions = ["3.44.0","3.42.2","3.42.0","3.40.0","3.38.0"];
+        var versions = ["3.46.0","3.44.0","3.42.2","3.42.0","3.40.0"];
     </script>
 
 

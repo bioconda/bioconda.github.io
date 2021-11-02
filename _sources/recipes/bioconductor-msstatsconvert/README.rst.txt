@@ -27,7 +27,7 @@ bioconductor-msstatsconvert
       
       
 
-      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
@@ -68,7 +68,7 @@ bioconductor-msstatsconvert
 
     <script>
         var package = "bioconductor-msstatsconvert";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

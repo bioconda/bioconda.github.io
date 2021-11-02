@@ -27,12 +27,12 @@ bioconductor-parglms
       
       
 
-      ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-batchjobs: 
    :depends r-doparallel: 
@@ -68,7 +68,7 @@ bioconductor-parglms
 
     <script>
         var package = "bioconductor-parglms";
-        var versions = ["1.24.0","1.22.0","1.22.0","1.20.0","1.18.0"];
+        var versions = ["1.26.0","1.24.0","1.22.0","1.22.0","1.20.0"];
     </script>
 
 

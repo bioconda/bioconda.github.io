@@ -26,13 +26,21 @@ bioconductor-affyhgu133plus2expr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.23.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-2``,  ``1.18.0-1``,  ``1.16.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.23.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-2</code>,  <code>1.18.0-1</code>,  </span></summary>
+      
 
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.23.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-2``,  ``1.18.0-1``,  ``1.16.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +73,7 @@ bioconductor-affyhgu133plus2expr
 
     <script>
         var package = "bioconductor-affyhgu133plus2expr";
-        var versions = ["1.26.0","1.24.0","1.24.0","1.23.0","1.22.0"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.24.0","1.23.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-biocthis
       
       
 
-      ``1.2.0-0``,  ``1.0.10-0``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.10-0``,  ``1.0.0-1``
 
       
 
@@ -70,7 +70,7 @@ bioconductor-biocthis
 
     <script>
         var package = "bioconductor-biocthis";
-        var versions = ["1.2.0","1.0.10","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.10","1.0.0"];
     </script>
 
 

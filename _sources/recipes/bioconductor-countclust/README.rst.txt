@@ -26,13 +26,21 @@ bioconductor-countclust
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.15.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.21.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.15.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.1-0</code>,  </span></summary>
+      
 
+      ``1.21.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.15.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
    :depends r-flexmix: 
@@ -75,7 +83,7 @@ bioconductor-countclust
 
     <script>
         var package = "bioconductor-countclust";
-        var versions = ["1.20.0","1.18.0","1.18.0","1.15.0","1.14.0"];
+        var versions = ["1.21.0","1.20.0","1.18.0","1.18.0","1.15.0"];
     </script>
 
 

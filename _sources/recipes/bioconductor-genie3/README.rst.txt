@@ -26,14 +26,22 @@ bioconductor-genie3
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.3-0</code>,  </span></summary>
+      
 
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
@@ -69,7 +77,7 @@ bioconductor-genie3
 
     <script>
         var package = "bioconductor-genie3";
-        var versions = ["1.14.0","1.12.0","1.12.0","1.10.0","1.8.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.0"];
     </script>
 
 

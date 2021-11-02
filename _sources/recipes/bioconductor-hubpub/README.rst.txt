@@ -27,12 +27,12 @@ bioconductor-hubpub
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocthis: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-biocthis: ``>=1.4.0,<1.5.0``
    :depends r-available: 
    :depends r-aws.s3: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -71,7 +71,7 @@ bioconductor-hubpub
 
     <script>
         var package = "bioconductor-hubpub";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

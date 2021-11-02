@@ -27,14 +27,13 @@ bioconductor-rebet
       
       
 
-      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-asset: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-asset: ``>=2.12.0,<2.13.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
@@ -68,7 +67,7 @@ bioconductor-rebet
 
     <script>
         var package = "bioconductor-rebet";
-        var versions = ["1.10.0","1.8.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
     </script>
 
 

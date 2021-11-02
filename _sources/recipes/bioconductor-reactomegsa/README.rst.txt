@@ -27,18 +27,20 @@ bioconductor-reactomegsa
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-httr: 
    :depends r-jsonlite: 
    :depends r-progress: 
    :depends r-rcolorbrewer: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +72,7 @@ bioconductor-reactomegsa
 
     <script>
         var package = "bioconductor-reactomegsa";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
     </script>
 
 

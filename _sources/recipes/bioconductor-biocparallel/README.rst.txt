@@ -29,10 +29,10 @@ bioconductor-biocparallel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.1-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.6-0</code>,  <code>1.16.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.1-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.6-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.6-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.14.2-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.22-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.6-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.14.2-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.22-0``
 
       
       .. raw:: html
@@ -42,9 +42,8 @@ bioconductor-biocparallel
 
    
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: 
    :depends r-futile.logger: 
@@ -80,7 +79,7 @@ bioconductor-biocparallel
 
     <script>
         var package = "bioconductor-biocparallel";
-        var versions = ["1.26.0","1.24.1","1.24.0","1.22.0","1.20.0"];
+        var versions = ["1.28.0","1.26.0","1.24.1","1.24.0","1.22.0"];
     </script>
 
 

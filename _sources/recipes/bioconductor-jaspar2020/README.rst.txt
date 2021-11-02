@@ -27,12 +27,12 @@ bioconductor-jaspar2020
       
       
 
-      ``0.99.10-2``,  ``0.99.10-1``,  ``0.99.10-0``
+      ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-1``,  ``0.99.10-0``
 
       
 
    
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +65,7 @@ bioconductor-jaspar2020
 
     <script>
         var package = "bioconductor-jaspar2020";
-        var versions = ["0.99.10","0.99.10","0.99.10"];
+        var versions = ["0.99.10","0.99.10","0.99.10","0.99.10"];
     </script>
 
 

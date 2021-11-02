@@ -27,7 +27,7 @@ python-goenrichment
       
       
 
-      ``1.0.2-0``,  ``0.0.10a3-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``0.0.10a3-0``
 
       
 
@@ -69,7 +69,7 @@ python-goenrichment
 
     <script>
         var package = "python-goenrichment";
-        var versions = ["1.0.2","0.0.10a3"];
+        var versions = ["1.0.3","1.0.2","0.0.10a3"];
     </script>
 
 

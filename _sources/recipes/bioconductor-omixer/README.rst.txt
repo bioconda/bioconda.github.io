@@ -27,7 +27,7 @@ bioconductor-omixer
       
       
 
-      ``1.2.1-0``,  ``1.0.4-0``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.4-0``,  ``1.0.0-1``
 
       
 
@@ -73,7 +73,7 @@ bioconductor-omixer
 
     <script>
         var package = "bioconductor-omixer";
-        var versions = ["1.2.1","1.0.4","1.0.0"];
+        var versions = ["1.4.0","1.2.1","1.0.4","1.0.0"];
     </script>
 
 

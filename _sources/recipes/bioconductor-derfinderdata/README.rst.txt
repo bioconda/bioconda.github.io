@@ -26,13 +26,21 @@ bioconductor-derfinderdata
    :versions:
       
       
+      .. raw:: html
 
-      ``2.10.0-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  <code>2.7.1-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  </span></summary>
+      
 
+      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +73,7 @@ bioconductor-derfinderdata
 
     <script>
         var package = "bioconductor-derfinderdata";
-        var versions = ["2.10.0","2.8.1","2.8.0","2.7.1","2.6.0"];
+        var versions = ["2.12.0","2.10.0","2.8.1","2.8.0","2.7.1"];
     </script>
 
 

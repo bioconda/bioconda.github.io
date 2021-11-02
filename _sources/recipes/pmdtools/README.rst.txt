@@ -28,13 +28,13 @@ pmdtools
       
       
 
-      ``0.60-4``,  ``0.60-3``,  ``0.60-2``,  ``0.60-1``
+      ``0.60-5``,  ``0.60-4``,  ``0.60-3``,  ``0.60-2``,  ``0.60-1``
 
       
 
    
    :depends python: 
-   :depends r-base: 
+   :depends r-base: ``>=4.0``
    :depends samtools: ``>=1.13``
    :requirements:
 
@@ -67,7 +67,7 @@ pmdtools
 
     <script>
         var package = "pmdtools";
-        var versions = ["0.60","0.60","0.60","0.60"];
+        var versions = ["0.60","0.60","0.60","0.60","0.60"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-msstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.22.1-1</code>,  <code>3.22.1-0</code>,  <code>3.22.0-0</code>,  <code>3.20.1-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-1</code>,  <code>3.14.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.22.1-1</code>,  <code>3.22.1-0</code>,  <code>3.22.0-0</code>,  <code>3.20.1-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-1</code>,  </span></summary>
       
 
-      ``4.0.0-0``,  ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
+      ``4.2.0-0``,  ``4.0.0-0``,  ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,13 @@ bioconductor-msstats
       
 
    
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-marray: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-msstatsconvert: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-marray: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-msstatsconvert: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
@@ -91,7 +90,7 @@ bioconductor-msstats
 
     <script>
         var package = "bioconductor-msstats";
-        var versions = ["4.0.0","3.22.1","3.22.1","3.22.0","3.20.1"];
+        var versions = ["4.2.0","4.0.0","3.22.1","3.22.1","3.22.0"];
     </script>
 
 
