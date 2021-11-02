@@ -27,12 +27,12 @@ bioconductor-onassisjavalibs
       
       
 
-      ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.2-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.2-0``
 
       
 
    
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends openjdk: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rjava: 
@@ -67,7 +67,7 @@ bioconductor-onassisjavalibs
 
     <script>
         var package = "bioconductor-onassisjavalibs";
-        var versions = ["1.14.0","1.12.0","1.12.0","1.11.0","1.8.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.11.0"];
     </script>
 
 

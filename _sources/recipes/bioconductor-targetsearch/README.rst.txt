@@ -27,13 +27,12 @@ bioconductor-targetsearch
       
       
 
-      ``1.48.0-0``,  ``1.46.3-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.2-0``,  ``1.40.0-0``,  ``1.38.1-0``
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.3-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.2-0``,  ``1.40.0-0``,  ``1.38.1-0``
 
       
 
    
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -69,7 +68,7 @@ bioconductor-targetsearch
 
     <script>
         var package = "bioconductor-targetsearch";
-        var versions = ["1.48.0","1.46.3","1.46.0","1.44.0","1.42.0"];
+        var versions = ["1.50.0","1.48.0","1.46.3","1.46.0","1.44.0"];
     </script>
 
 

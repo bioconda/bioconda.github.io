@@ -27,7 +27,7 @@ bioconductor-hpastainr
       
       
 
-      ``1.2.0-0``,  ``1.0.3-0``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``,  ``1.0.0-1``
 
       
 
@@ -71,7 +71,7 @@ bioconductor-hpastainr
 
     <script>
         var package = "bioconductor-hpastainr";
-        var versions = ["1.2.0","1.0.3","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.3","1.0.0"];
     </script>
 
 

@@ -27,16 +27,15 @@ bioconductor-gosummaries
       
       
 
-      ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``
+      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-gprofiler: 
@@ -75,7 +74,7 @@ bioconductor-gosummaries
 
     <script>
         var package = "bioconductor-gosummaries";
-        var versions = ["2.28.0","2.26.0","2.26.0","2.24.0","2.22.0"];
+        var versions = ["2.30.0","2.28.0","2.26.0","2.26.0","2.24.0"];
     </script>
 
 

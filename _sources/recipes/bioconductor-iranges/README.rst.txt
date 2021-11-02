@@ -29,10 +29,10 @@ bioconductor-iranges
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.24.1-0</code>,  <code>2.24.0-0</code>,  <code>2.22.1-0</code>,  <code>2.20.0-0</code>,  <code>2.18.2-0</code>,  <code>2.18.1-0</code>,  <code>2.16.0-0</code>,  <code>2.14.12-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.1-0</code>,  <code>2.24.0-0</code>,  <code>2.22.1-0</code>,  <code>2.20.0-0</code>,  <code>2.18.2-0</code>,  <code>2.18.1-0</code>,  <code>2.16.0-0</code>,  </span></summary>
       
 
-      ``2.26.0-0``,  ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.1-0``,  ``2.20.0-0``,  ``2.18.2-0``,  ``2.18.1-0``,  ``2.16.0-0``,  ``2.14.12-0``,  ``2.12.0-0``,  ``2.10.5-0``,  ``2.8.2-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.4.8-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.9-0``
+      ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.1-0``,  ``2.20.0-0``,  ``2.18.2-0``,  ``2.18.1-0``,  ``2.16.0-0``,  ``2.14.12-0``,  ``2.12.0-0``,  ``2.10.5-0``,  ``2.8.2-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.4.8-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.9-0``
 
       
       .. raw:: html
@@ -41,10 +41,9 @@ bioconductor-iranges
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
@@ -78,7 +77,7 @@ bioconductor-iranges
 
     <script>
         var package = "bioconductor-iranges";
-        var versions = ["2.26.0","2.24.1","2.24.0","2.22.1","2.20.0"];
+        var versions = ["2.28.0","2.26.0","2.24.1","2.24.0","2.22.1"];
     </script>
 
 

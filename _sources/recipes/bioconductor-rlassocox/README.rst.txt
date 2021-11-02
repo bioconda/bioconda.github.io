@@ -27,7 +27,7 @@ bioconductor-rlassocox
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -68,7 +68,7 @@ bioconductor-rlassocox
 
     <script>
         var package = "bioconductor-rlassocox";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

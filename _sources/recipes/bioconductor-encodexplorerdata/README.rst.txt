@@ -27,12 +27,12 @@ bioconductor-encodexplorerdata
       
       
 
-      ``0.99.5-3``,  ``0.99.5-2``,  ``0.99.5-1``,  ``0.99.5-0``,  ``0.99.4-0``,  ``0.99.1-1``
+      ``0.99.5-4``,  ``0.99.5-3``,  ``0.99.5-2``,  ``0.99.5-1``,  ``0.99.5-0``,  ``0.99.4-0``,  ``0.99.1-1``
 
       
 
    
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-jsonlite: 
@@ -68,7 +68,7 @@ bioconductor-encodexplorerdata
 
     <script>
         var package = "bioconductor-encodexplorerdata";
-        var versions = ["0.99.5","0.99.5","0.99.5","0.99.5","0.99.4"];
+        var versions = ["0.99.5","0.99.5","0.99.5","0.99.5","0.99.5"];
     </script>
 
 

@@ -27,18 +27,20 @@ bioconductor-dearseq
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-compquadform: 
    :depends r-ggplot2: 
    :depends r-kernsmooth: 
    :depends r-matrixstats: 
+   :depends r-patchwork: 
    :depends r-pbapply: 
    :depends r-statmod: 
+   :depends r-survey: 
+   :depends r-viridislite: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +72,7 @@ bioconductor-dearseq
 
     <script>
         var package = "bioconductor-dearseq";
-        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

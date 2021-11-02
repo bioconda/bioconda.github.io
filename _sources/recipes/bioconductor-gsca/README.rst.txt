@@ -29,10 +29,10 @@ bioconductor-gsca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.17.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.17.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-1</code>,  </span></summary>
       
 
-      ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.17.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+      ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.17.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-gsca
       
 
    
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-gplots: 
@@ -80,7 +80,7 @@ bioconductor-gsca
 
     <script>
         var package = "bioconductor-gsca";
-        var versions = ["2.22.0","2.20.0","2.20.0","2.17.0","2.16.0"];
+        var versions = ["2.24.0","2.22.0","2.20.0","2.20.0","2.17.0"];
     </script>
 
 

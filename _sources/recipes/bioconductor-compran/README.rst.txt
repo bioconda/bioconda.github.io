@@ -27,7 +27,7 @@ bioconductor-compran
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -82,7 +82,7 @@ bioconductor-compran
 
     <script>
         var package = "bioconductor-compran";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

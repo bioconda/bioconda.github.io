@@ -27,17 +27,16 @@ bioconductor-eir
       
       
 
-      ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-chemminer: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-chemminer: ``>=3.46.0,<3.47.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-digest: 
@@ -77,7 +76,7 @@ bioconductor-eir
 
     <script>
         var package = "bioconductor-eir";
-        var versions = ["1.32.0","1.28.0","1.26.0","1.24.0","1.22.0"];
+        var versions = ["1.34.0","1.32.0","1.28.0","1.26.0","1.24.0"];
     </script>
 
 

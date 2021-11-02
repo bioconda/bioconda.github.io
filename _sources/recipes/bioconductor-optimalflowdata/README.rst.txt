@@ -27,12 +27,12 @@ bioconductor-optimalflowdata
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +65,7 @@ bioconductor-optimalflowdata
 
     <script>
         var package = "bioconductor-optimalflowdata";
-        var versions = ["1.4.0","1.2.0","1.2.0","1.1.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.1.0"];
     </script>
 
 
