@@ -27,13 +27,13 @@ bioconductor-intramirexplorer
       
       
 
-      ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-fgnet: ``>=3.23.0,<3.24.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-fgnet: ``>=3.28.0,<3.29.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: ``>=1.0.1``
    :depends r-knitr: ``>=1.12.3``
    :requirements:
@@ -67,7 +67,7 @@ bioconductor-intramirexplorer
 
     <script>
         var package = "bioconductor-intramirexplorer";
-        var versions = ["1.12.0","1.12.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.12.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

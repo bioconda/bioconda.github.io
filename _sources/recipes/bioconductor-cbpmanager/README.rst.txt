@@ -27,23 +27,23 @@ bioconductor-cbpmanager
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-basilisk: ``>=1.6.0,<1.7.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-htmltools: 
    :depends r-jsonlite: 
    :depends r-magrittr: 
+   :depends r-markdown: 
    :depends r-plyr: 
    :depends r-rapportools: 
    :depends r-reticulate: 
    :depends r-rintrojs: 
-   :depends r-rmarkdown: 
    :depends r-shiny: 
    :depends r-shinybs: 
    :depends r-shinycssloaders: 
@@ -80,7 +80,7 @@ bioconductor-cbpmanager
 
     <script>
         var package = "bioconductor-cbpmanager";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

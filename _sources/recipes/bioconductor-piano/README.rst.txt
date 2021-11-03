@@ -29,10 +29,10 @@ bioconductor-piano
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.2-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.2-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.2-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.0-0``,  ``1.16.4-0``,  ``1.12.1-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.2-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.0-0``,  ``1.16.4-0``,  ``1.12.1-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-piano
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-fgsea: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-marray: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-fgsea: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-marray: ``>=1.72.0,<1.73.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dt: 
    :depends r-gplots: 
@@ -87,7 +87,7 @@ bioconductor-piano
 
     <script>
         var package = "bioconductor-piano";
-        var versions = ["2.8.0","2.6.0","2.6.0","2.4.0","2.2.0"];
+        var versions = ["2.10.0","2.8.0","2.6.0","2.6.0","2.4.0"];
     </script>
 
 

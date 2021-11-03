@@ -27,7 +27,7 @@ bioconductor-paxtoolsr
       
       
 
-      ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
 
@@ -39,6 +39,7 @@ bioconductor-paxtoolsr
    :depends r-jsonlite: 
    :depends r-plyr: 
    :depends r-r.utils: 
+   :depends r-rappdirs: 
    :depends r-readr: 
    :depends r-rjava: ``>=0.9-8``
    :depends r-rjson: 
@@ -74,7 +75,7 @@ bioconductor-paxtoolsr
 
     <script>
         var package = "bioconductor-paxtoolsr";
-        var versions = ["1.26.0","1.24.0","1.24.0","1.20.0","1.18.0"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.24.0","1.20.0"];
     </script>
 
 

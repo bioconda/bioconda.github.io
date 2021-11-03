@@ -27,13 +27,14 @@ r-ichorcna
       
       
 
-      ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
+      ``0.3.2-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
 
       
 
    
-   :depends bioconductor-genomeinfodb: ``>=1.8.7``
-   :depends bioconductor-hmmcopy: ``>=1.14.0``
+   :depends bioconductor-genomeinfodb: ``>=1.26.7``
+   :depends bioconductor-genomicranges: ``>=1.42.0``
+   :depends bioconductor-hmmcopy: ``>=1.32.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-optparse: 
    :depends r-plyr: 
@@ -68,7 +69,7 @@ r-ichorcna
 
     <script>
         var package = "r-ichorcna";
-        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0","0.1.0.20180710"];
+        var versions = ["0.3.2","0.2.0","0.2.0","0.2.0","0.2.0"];
     </script>
 
 
