@@ -27,13 +27,13 @@ bioconductor-clippda
       
       
 
-      ``1.42.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-0``
+      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-lattice: 
    :depends r-rgl: 
@@ -70,7 +70,7 @@ bioconductor-clippda
 
     <script>
         var package = "bioconductor-clippda";
-        var versions = ["1.42.0","1.40.0","1.40.0","1.38.0","1.36.0"];
+        var versions = ["1.44.0","1.42.0","1.40.0","1.40.0","1.38.0"];
     </script>
 
 

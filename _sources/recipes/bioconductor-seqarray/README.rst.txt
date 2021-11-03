@@ -27,21 +27,20 @@ bioconductor-seqarray
       
       
 
-      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.22.2-0``
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.22.2-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-gdsfmt: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-gdsfmt: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -74,7 +73,7 @@ bioconductor-seqarray
 
     <script>
         var package = "bioconductor-seqarray";
-        var versions = ["1.32.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.28.0"];
     </script>
 
 

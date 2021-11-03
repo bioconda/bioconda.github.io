@@ -27,12 +27,12 @@ bioconductor-sevenbridges
       
       
 
-      ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.5-0``,  ``1.12.3-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.5-0``,  ``1.12.3-0``
 
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-curl: 
    :depends r-data.table: 
@@ -74,7 +74,7 @@ bioconductor-sevenbridges
 
     <script>
         var package = "bioconductor-sevenbridges";
-        var versions = ["1.22.0","1.20.1","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.24.0","1.22.0","1.20.1","1.20.0","1.18.0"];
     </script>
 
 

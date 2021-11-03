@@ -26,13 +26,21 @@ bioconductor-ebseqhmm
    :versions:
       
       
+      .. raw:: html
 
-      ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.16.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.1-0</code>,  </span></summary>
+      
 
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.16.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-ebseq: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-ebseq: ``>=1.34.0,<1.35.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +73,7 @@ bioconductor-ebseqhmm
 
     <script>
         var package = "bioconductor-ebseqhmm";
-        var versions = ["1.26.0","1.24.0","1.24.0","1.22.0","1.20.0"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.24.0","1.22.0"];
     </script>
 
 

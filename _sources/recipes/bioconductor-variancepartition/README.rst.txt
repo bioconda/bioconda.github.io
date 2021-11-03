@@ -29,10 +29,10 @@ bioconductor-variancepartition
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-1</code>,  <code>1.12.3-0</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-1</code>,  <code>1.12.3-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-1``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.4-0``,  ``1.8.1-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-1``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.4-0``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -41,11 +41,10 @@ bioconductor-variancepartition
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-colorramps: 
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-ggplot2: 
@@ -54,9 +53,11 @@ bioconductor-variancepartition
    :depends r-lme4: ``>=1.1-10``
    :depends r-lmertest: 
    :depends r-mass: 
+   :depends r-matrix: 
    :depends r-pbkrtest: ``>=0.4-4``
    :depends r-progress: 
    :depends r-reshape2: 
+   :depends r-rlang: 
    :depends r-scales: 
    :requirements:
 
@@ -89,7 +90,7 @@ bioconductor-variancepartition
 
     <script>
         var package = "bioconductor-variancepartition";
-        var versions = ["1.22.0","1.20.0","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.18.0"];
     </script>
 
 

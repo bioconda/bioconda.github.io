@@ -29,10 +29,10 @@ bioconductor-hypergraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-1</code>,  <code>1.54.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-1</code>,  <code>1.54.0-1</code>,  <code>1.54.0-0</code>,  </span></summary>
       
 
-      ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-hypergraph
       
 
    
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -74,7 +74,7 @@ bioconductor-hypergraph
 
     <script>
         var package = "bioconductor-hypergraph";
-        var versions = ["1.64.0","1.62.0","1.62.0","1.60.0","1.58.0"];
+        var versions = ["1.66.0","1.64.0","1.62.0","1.62.0","1.60.0"];
     </script>
 
 

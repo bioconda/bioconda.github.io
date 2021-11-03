@@ -27,12 +27,12 @@ bioconductor-metid
       
       
 
-      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-chemminer: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-chemminer: ``>=3.46.0,<3.47.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-devtools: ``>=1.13.0``
    :depends r-igraph: ``>=1.2.1``
@@ -69,7 +69,7 @@ bioconductor-metid
 
     <script>
         var package = "bioconductor-metid";
-        var versions = ["1.10.0","1.8.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
     </script>
 
 

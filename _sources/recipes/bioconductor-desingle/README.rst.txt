@@ -27,12 +27,12 @@ bioconductor-desingle
       
       
 
-      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bbmle: ``>=1.0.18``
    :depends r-gamlss: ``>=4.4-0``
@@ -72,7 +72,7 @@ bioconductor-desingle
 
     <script>
         var package = "bioconductor-desingle";
-        var versions = ["1.12.0","1.10.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
     </script>
 
 

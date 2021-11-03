@@ -27,15 +27,23 @@ bioconductor-nondetects
    :versions:
       
       
+      .. raw:: html
 
-      ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  </span></summary>
+      
 
+      ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-htqpcr: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-htqpcr: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends r-arm: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mvtnorm: 
@@ -70,7 +78,7 @@ bioconductor-nondetects
 
     <script>
         var package = "bioconductor-nondetects";
-        var versions = ["2.22.0","2.20.0","2.20.0","2.18.0","2.16.0"];
+        var versions = ["2.24.0","2.22.0","2.20.0","2.20.0","2.18.0"];
     </script>
 
 

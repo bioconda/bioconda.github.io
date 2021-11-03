@@ -27,15 +27,15 @@ bioconductor-mofa2
       
       
 
-      ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
-   :depends bioconductor-hdf5array: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-basilisk: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
+   :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corrplot: 
    :depends r-cowplot: 
@@ -83,7 +83,7 @@ bioconductor-mofa2
 
     <script>
         var package = "bioconductor-mofa2";
-        var versions = ["1.2.0","1.0.1","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.1","1.0.0"];
     </script>
 
 

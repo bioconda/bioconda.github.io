@@ -29,10 +29,10 @@ bioconductor-metagenomeseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.2-0</code>,  <code>1.24.1-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.2-0</code>,  <code>1.24.1-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.2-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.2-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-metagenomeseq
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-wrench: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-wrench: ``>=1.12.0,<1.13.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-foreach: 
    :depends r-glmnet: 
@@ -82,7 +82,7 @@ bioconductor-metagenomeseq
 
     <script>
         var package = "bioconductor-metagenomeseq";
-        var versions = ["1.34.0","1.32.0","1.32.0","1.30.0","1.28.0"];
+        var versions = ["1.36.0","1.34.0","1.32.0","1.32.0","1.30.0"];
     </script>
 
 

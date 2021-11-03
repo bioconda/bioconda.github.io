@@ -27,12 +27,12 @@ bioconductor-biobroom
       
       
 
-      ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-broom: 
    :depends r-dplyr: 
@@ -68,7 +68,7 @@ bioconductor-biobroom
 
     <script>
         var package = "bioconductor-biobroom";
-        var versions = ["1.24.0","1.22.0","1.22.0","1.20.0","1.18.0"];
+        var versions = ["1.26.0","1.24.0","1.22.0","1.22.0","1.20.0"];
     </script>
 
 

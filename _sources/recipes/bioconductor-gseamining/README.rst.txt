@@ -27,7 +27,7 @@ bioconductor-gseamining
       
       
 
-      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
@@ -73,7 +73,7 @@ bioconductor-gseamining
 
     <script>
         var package = "bioconductor-gseamining";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

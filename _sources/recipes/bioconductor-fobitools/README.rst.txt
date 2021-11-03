@@ -27,12 +27,12 @@ bioconductor-fobitools
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-fgsea: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-fgsea: ``>=1.20.0,<1.21.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clisymbols: 
    :depends r-crayon: 
@@ -80,7 +80,7 @@ bioconductor-fobitools
 
     <script>
         var package = "bioconductor-fobitools";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

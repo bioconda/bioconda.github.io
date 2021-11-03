@@ -27,21 +27,20 @@ bioconductor-biocsingular
       
       
 
-      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-beachmat: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-scaledmatrix: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-beachmat: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-scaledmatrix: ``>=1.2.0,<1.3.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-irlba: 
    :depends r-matrix: 
@@ -78,7 +77,7 @@ bioconductor-biocsingular
 
     <script>
         var package = "bioconductor-biocsingular";
-        var versions = ["1.8.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
     </script>
 
 

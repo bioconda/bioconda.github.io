@@ -27,12 +27,12 @@ bioconductor-twoddpcr
       
       
 
-      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-class: 
    :depends r-ggplot2: 
@@ -71,7 +71,7 @@ bioconductor-twoddpcr
 
     <script>
         var package = "bioconductor-twoddpcr";
-        var versions = ["1.16.0","1.14.0","1.14.0","1.12.0","1.10.0"];
+        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.12.0"];
     </script>
 
 

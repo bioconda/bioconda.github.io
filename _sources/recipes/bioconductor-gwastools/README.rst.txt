@@ -27,15 +27,15 @@ bioconductor-gwastools
       
       
 
-      ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-dnacopy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-gdsfmt: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-quantsmooth: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-dnacopy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-gdsfmt: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-quantsmooth: ``>=1.60.0,<1.61.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dbi: 
@@ -76,7 +76,7 @@ bioconductor-gwastools
 
     <script>
         var package = "bioconductor-gwastools";
-        var versions = ["1.38.0","1.36.0","1.36.0","1.34.0","1.32.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.34.0"];
     </script>
 
 

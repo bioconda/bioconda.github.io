@@ -29,10 +29,10 @@ bioconductor-rgraph2js
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-rgraph2js
       
 
    
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends jquery: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-digest: 
@@ -78,7 +78,7 @@ bioconductor-rgraph2js
 
     <script>
         var package = "bioconductor-rgraph2js";
-        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.16.0"];
     </script>
 
 

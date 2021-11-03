@@ -27,17 +27,16 @@ bioconductor-dpeak
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mass: 
    :depends r-rcpp: 
@@ -72,7 +71,7 @@ bioconductor-dpeak
 
     <script>
         var package = "bioconductor-dpeak";
-        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

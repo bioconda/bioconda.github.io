@@ -27,17 +27,19 @@ bioconductor-anvilpublish
       
       
 
-      ``1.2.0-0``,  ``1.0.0-3``,  ``1.0.0-2``
+      ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-3``,  ``1.0.0-2``
 
       
 
    
-   :depends bioconductor-anvil: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-anvil: ``>=1.6.0,<1.7.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-httr: 
    :depends r-jsonlite: 
+   :depends r-readr: 
    :depends r-rmarkdown: 
    :depends r-whisker: 
+   :depends r-yaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +71,7 @@ bioconductor-anvilpublish
 
     <script>
         var package = "bioconductor-anvilpublish";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.1","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

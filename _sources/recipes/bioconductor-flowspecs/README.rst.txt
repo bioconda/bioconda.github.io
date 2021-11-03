@@ -27,15 +27,15 @@ bioconductor-flowspecs
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: ``>=3.1.0``
    :depends r-reshape2: ``>=1.4.3``
@@ -71,7 +71,7 @@ bioconductor-flowspecs
 
     <script>
         var package = "bioconductor-flowspecs";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
     </script>
 
 

@@ -27,17 +27,18 @@ bioconductor-netresponse
       
       
 
-      ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``
+      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-minet: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-minet: ``>=3.52.0,<3.53.0``
+   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dmt: 
@@ -47,6 +48,7 @@ bioconductor-netresponse
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-rmarkdown: 
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +80,7 @@ bioconductor-netresponse
 
     <script>
         var package = "bioconductor-netresponse";
-        var versions = ["1.52.0","1.50.0","1.50.0","1.48.0","1.46.0"];
+        var versions = ["1.54.0","1.52.0","1.50.0","1.50.0","1.48.0"];
     </script>
 
 

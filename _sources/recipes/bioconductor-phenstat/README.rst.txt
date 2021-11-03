@@ -27,12 +27,12 @@ bioconductor-phenstat
       
       
 
-      ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.1-0``,  ``2.18.0-0``
+      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.1-0``,  ``2.18.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-car: 
    :depends r-corrplot: 
@@ -78,7 +78,7 @@ bioconductor-phenstat
 
     <script>
         var package = "bioconductor-phenstat";
-        var versions = ["2.28.0","2.26.0","2.26.0","2.24.0","2.22.0"];
+        var versions = ["2.30.0","2.28.0","2.26.0","2.26.0","2.24.0"];
     </script>
 
 

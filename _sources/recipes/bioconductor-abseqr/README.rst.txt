@@ -26,14 +26,22 @@ bioconductor-abseqr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-biocstyle: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
    :depends pandoc: ``>=1.19.2.1``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
@@ -83,7 +91,7 @@ bioconductor-abseqr
 
     <script>
         var package = "bioconductor-abseqr";
-        var versions = ["1.10.0","1.8.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
     </script>
 
 

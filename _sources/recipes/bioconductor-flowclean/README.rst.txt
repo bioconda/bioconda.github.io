@@ -27,13 +27,21 @@ bioconductor-flowclean
    :versions:
       
       
+      .. raw:: html
 
-      ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
+      
 
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bit: 
    :depends r-changepoint: 
@@ -69,7 +77,7 @@ bioconductor-flowclean
 
     <script>
         var package = "bioconductor-flowclean";
-        var versions = ["1.30.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+        var versions = ["1.32.0","1.30.0","1.28.0","1.28.0","1.26.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ bioconductor-tpp2d
       
       
 
-      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 
@@ -75,7 +75,7 @@ bioconductor-tpp2d
 
     <script>
         var package = "bioconductor-tpp2d";
-        var versions = ["1.8.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
     </script>
 
 

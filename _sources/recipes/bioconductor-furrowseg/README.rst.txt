@@ -27,13 +27,13 @@ bioconductor-furrowseg
       
       
 
-      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-ebimage: ``>=4.34.0,<4.35.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-ebimage: ``>=4.36.0,<4.37.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
@@ -70,7 +70,7 @@ bioconductor-furrowseg
 
     <script>
         var package = "bioconductor-furrowseg";
-        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.16.0"];
     </script>
 
 

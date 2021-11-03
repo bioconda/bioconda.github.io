@@ -27,13 +27,13 @@ bioconductor-snadata
       
       
 
-      ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-snadata
 
     <script>
         var package = "bioconductor-snadata";
-        var versions = ["1.38.0","1.36.0","1.36.0","1.34.0","1.32.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.34.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-noiseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.36.0-0</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.31.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.26.1-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.31.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.26.1-0</code>,  <code>2.26.0-0</code>,  </span></summary>
       
 
-      ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.31.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.1-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``
+      ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.31.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.1-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-noiseq
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: ``>=1.2``
    :requirements:
@@ -75,7 +75,7 @@ bioconductor-noiseq
 
     <script>
         var package = "bioconductor-noiseq";
-        var versions = ["2.36.0","2.34.0","2.34.0","2.31.0","2.30.0"];
+        var versions = ["2.38.0","2.36.0","2.34.0","2.34.0","2.31.0"];
     </script>
 
 

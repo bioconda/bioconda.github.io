@@ -27,12 +27,12 @@ bioconductor-factdesign
       
       
 
-      ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.58.0-0``
+      ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.58.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +65,7 @@ bioconductor-factdesign
 
     <script>
         var package = "bioconductor-factdesign";
-        var versions = ["1.68.0","1.66.0","1.66.0","1.64.0","1.62.0"];
+        var versions = ["1.70.0","1.68.0","1.66.0","1.66.0","1.64.0"];
     </script>
 
 

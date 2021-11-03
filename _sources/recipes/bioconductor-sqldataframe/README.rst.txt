@@ -27,13 +27,13 @@ bioconductor-sqldataframe
       
       
 
-      ``1.6.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-dbplyr: ``>=1.4.0``
@@ -72,7 +72,7 @@ bioconductor-sqldataframe
 
     <script>
         var package = "bioconductor-sqldataframe";
-        var versions = ["1.6.0","1.4.2","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.2","1.4.0","1.2.0"];
     </script>
 
 

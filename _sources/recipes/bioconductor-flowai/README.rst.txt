@@ -29,10 +29,10 @@ bioconductor-flowai
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.7-0</code>,  <code>1.12.1-0</code>,  <code>1.10.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.7-0</code>,  <code>1.12.1-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.7-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.6.2-0``,  ``1.4.4-0``,  ``1.2.9-0``,  ``1.2.8-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.7-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.6.2-0``,  ``1.4.4-0``,  ``1.2.9-0``,  ``1.2.8-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-flowai
       
 
    
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-changepoint: 
    :depends r-ggplot2: 
@@ -82,7 +82,7 @@ bioconductor-flowai
 
     <script>
         var package = "bioconductor-flowai";
-        var versions = ["1.22.0","1.20.1","1.20.0","1.18.1","1.16.0"];
+        var versions = ["1.24.0","1.22.0","1.20.1","1.20.0","1.18.1"];
     </script>
 
 

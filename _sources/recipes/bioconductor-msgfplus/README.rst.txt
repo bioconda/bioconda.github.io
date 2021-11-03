@@ -27,13 +27,13 @@ bioconductor-msgfplus
       
       
 
-      ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.18.0-0``,  ``1.16.1-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.18.0-0``,  ``1.16.1-0``
 
       
 
    
-   :depends bioconductor-mzid: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-protgenerics: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-mzid: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-protgenerics: ``>=1.26.0,<1.27.0``
    :depends openjdk: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
@@ -67,7 +67,7 @@ bioconductor-msgfplus
 
     <script>
         var package = "bioconductor-msgfplus";
-        var versions = ["1.26.0","1.24.0","1.24.0","1.18.0","1.16.1"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.24.0","1.18.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ bioconductor-bioassayr
       
       
 
-      ``1.30.0-0``,  ``1.28.2-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-chemminer: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-chemminer: ``>=3.46.0,<3.47.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-matrix: 
@@ -71,7 +71,7 @@ bioconductor-bioassayr
 
     <script>
         var package = "bioconductor-bioassayr";
-        var versions = ["1.30.0","1.28.2","1.28.0","1.26.0","1.24.0"];
+        var versions = ["1.32.0","1.30.0","1.28.2","1.28.0","1.26.0"];
     </script>
 
 

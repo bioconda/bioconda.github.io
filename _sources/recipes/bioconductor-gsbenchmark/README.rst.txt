@@ -26,13 +26,21 @@ bioconductor-gsbenchmark
    :versions:
       
       
+      .. raw:: html
 
-      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  </span></summary>
+      
 
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +73,7 @@ bioconductor-gsbenchmark
 
     <script>
         var package = "bioconductor-gsbenchmark";
-        var versions = ["1.12.0","1.10.0","1.10.0","1.9.0","1.8.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.9.0"];
     </script>
 
 

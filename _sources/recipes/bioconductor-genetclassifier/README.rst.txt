@@ -27,15 +27,23 @@ bioconductor-genetclassifier
    :versions:
       
       
+      .. raw:: html
 
-      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+      
 
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-ebarrays: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-minet: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-ebarrays: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-minet: ``>=3.52.0,<3.53.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-e1071: 
    :requirements:
@@ -69,7 +77,7 @@ bioconductor-genetclassifier
 
     <script>
         var package = "bioconductor-genetclassifier";
-        var versions = ["1.32.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.28.0"];
     </script>
 
 

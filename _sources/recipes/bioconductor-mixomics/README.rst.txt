@@ -26,13 +26,21 @@ bioconductor-mixomics
    :versions:
       
       
+      .. raw:: html
 
-      ``6.16.0-0``,  ``6.14.0-1``,  ``6.14.0-0``,  ``6.12.0-0``,  ``6.10.1-0``,  ``6.8.0-1``,  ``6.8.0-0``,  ``6.6.2-0``,  ``6.6.0-0``
+         <details><summary><span class="truncated-version-list"><code>6.17.26-0</code>,  <code>6.16.0-0</code>,  <code>6.14.0-1</code>,  <code>6.14.0-0</code>,  <code>6.12.0-0</code>,  <code>6.10.1-0</code>,  <code>6.8.0-1</code>,  <code>6.8.0-0</code>,  <code>6.6.2-0</code>,  </span></summary>
+      
 
+      ``6.17.26-0``,  ``6.16.0-0``,  ``6.14.0-1``,  ``6.14.0-0``,  ``6.12.0-0``,  ``6.10.1-0``,  ``6.8.0-1``,  ``6.8.0-0``,  ``6.6.2-0``,  ``6.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corpcor: 
    :depends r-dplyr: 
@@ -79,7 +87,7 @@ bioconductor-mixomics
 
     <script>
         var package = "bioconductor-mixomics";
-        var versions = ["6.16.0","6.14.0","6.14.0","6.12.0","6.10.1"];
+        var versions = ["6.17.26","6.16.0","6.14.0","6.14.0","6.12.0"];
     </script>
 
 

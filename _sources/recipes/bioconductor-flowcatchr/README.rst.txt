@@ -27,13 +27,13 @@ bioconductor-flowcatchr
       
       
 
-      ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-ebimage: ``>=4.34.0,<4.35.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-ebimage: ``>=4.36.0,<4.37.0``
    :depends imagemagick: 
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -71,7 +71,7 @@ bioconductor-flowcatchr
 
     <script>
         var package = "bioconductor-flowcatchr";
-        var versions = ["1.26.0","1.24.0","1.24.0","1.22.0","1.20.0"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.24.0","1.22.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-yeastcc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.29.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.29.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.29.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.29.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-yeastcc
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -74,7 +74,7 @@ bioconductor-yeastcc
 
     <script>
         var package = "bioconductor-yeastcc";
-        var versions = ["1.32.0","1.30.0","1.30.0","1.29.0","1.28.0"];
+        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.29.0"];
     </script>
 
 

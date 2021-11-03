@@ -27,7 +27,7 @@ bioconductor-mistyr
       
       
 
-      ``1.0.2-0``
+      ``1.2.1-0``,  ``1.0.2-0``
 
       
 
@@ -84,7 +84,7 @@ bioconductor-mistyr
 
     <script>
         var package = "bioconductor-mistyr";
-        var versions = ["1.0.2"];
+        var versions = ["1.2.1","1.0.2"];
     </script>
 
 

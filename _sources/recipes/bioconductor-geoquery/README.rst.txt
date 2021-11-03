@@ -29,10 +29,10 @@ bioconductor-geoquery
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.60.0-0</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.50.5-0</code>,  <code>2.50.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.50.5-0</code>,  </span></summary>
       
 
-      ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.5-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.42.0-0``,  ``2.38.4-0``,  ``2.36.0-0``
+      ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.5-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.42.0-0``,  ``2.38.4-0``,  ``2.36.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,10 @@ bioconductor-geoquery
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-httr: 
    :depends r-magrittr: 
@@ -81,7 +82,7 @@ bioconductor-geoquery
 
     <script>
         var package = "bioconductor-geoquery";
-        var versions = ["2.60.0","2.58.0","2.58.0","2.56.0","2.56.0"];
+        var versions = ["2.62.0","2.60.0","2.58.0","2.58.0","2.56.0"];
     </script>
 
 

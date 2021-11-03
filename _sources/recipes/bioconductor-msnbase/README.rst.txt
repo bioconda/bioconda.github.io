@@ -29,10 +29,10 @@ bioconductor-msnbase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.1-0</code>,  <code>2.16.0-0</code>,  <code>2.14.1-0</code>,  <code>2.12.0-0</code>,  <code>2.10.1-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  <code>2.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.1-0</code>,  <code>2.16.0-0</code>,  <code>2.14.1-0</code>,  <code>2.12.0-0</code>,  <code>2.10.1-0</code>,  <code>2.8.3-0</code>,  <code>2.8.2-0</code>,  </span></summary>
       
 
-      ``2.18.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
+      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -41,23 +41,23 @@ bioconductor-msnbase
       
 
    
-   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-mscoreutils: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-mzid: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-mzr: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-pcamethods: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-protgenerics: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
+   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-mscoreutils: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-mzid: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-mzr: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-pcamethods: ``>=1.86.0,<1.87.0``
+   :depends bioconductor-protgenerics: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-vsn: ``>=3.62.0,<3.63.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-digest: 
    :depends r-ggplot2: 
@@ -99,7 +99,7 @@ bioconductor-msnbase
 
     <script>
         var package = "bioconductor-msnbase";
-        var versions = ["2.18.0","2.16.1","2.16.0","2.14.1","2.12.0"];
+        var versions = ["2.20.0","2.18.0","2.16.1","2.16.0","2.14.1"];
     </script>
 
 

@@ -27,18 +27,26 @@ bioconductor-oncosimulr
    :versions:
       
       
+      .. raw:: html
 
-      ``3.0.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  </span></summary>
+      
 
+      ``3.2.0-0``,  ``3.0.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-car: 
    :depends r-data.table: 
@@ -82,7 +90,7 @@ bioconductor-oncosimulr
 
     <script>
         var package = "bioconductor-oncosimulr";
-        var versions = ["3.0.0","2.20.0","2.20.0","2.18.0","2.16.0"];
+        var versions = ["3.2.0","3.0.0","2.20.0","2.20.0","2.18.0"];
     </script>
 
 

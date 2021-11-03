@@ -27,13 +27,13 @@ bioconductor-gcsscore
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-affxparser: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-affxparser: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-data.table: 
@@ -72,7 +72,7 @@ bioconductor-gcsscore
 
     <script>
         var package = "bioconductor-gcsscore";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
     </script>
 
 

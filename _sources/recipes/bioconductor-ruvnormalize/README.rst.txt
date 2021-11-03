@@ -27,14 +27,22 @@ bioconductor-ruvnormalize
    :versions:
       
       
+      .. raw:: html
 
-      ``1.26.0-0``,  ``1.24.0-2``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-2</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+      
 
+      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-2``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-ruvnormalizedata: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-ruvnormalizedata: ``>=1.14.0,<1.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +75,7 @@ bioconductor-ruvnormalize
 
     <script>
         var package = "bioconductor-ruvnormalize";
-        var versions = ["1.26.0","1.24.0","1.24.0","1.22.0","1.20.0"];
+        var versions = ["1.28.0","1.26.0","1.24.0","1.24.0","1.22.0"];
     </script>
 
 

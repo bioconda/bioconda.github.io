@@ -29,10 +29,10 @@ bioconductor-subseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-subseq
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-digest: 
@@ -81,7 +81,7 @@ bioconductor-subseq
 
     <script>
         var package = "bioconductor-subseq";
-        var versions = ["1.22.0","1.20.0","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.18.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-rsemmed
       
       
 
-      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -68,7 +68,7 @@ bioconductor-rsemmed
 
     <script>
         var package = "bioconductor-rsemmed";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

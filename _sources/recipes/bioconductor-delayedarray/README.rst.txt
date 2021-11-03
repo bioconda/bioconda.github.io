@@ -28,10 +28,10 @@ bioconductor-delayedarray
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.18.0-0</code>,  <code>0.16.3-0</code>,  <code>0.16.0-0</code>,  <code>0.14.0-0</code>,  <code>0.12.0-0</code>,  <code>0.10.0-1</code>,  <code>0.8.0-0</code>,  <code>0.6.6-0</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.20.0-0</code>,  <code>0.18.0-0</code>,  <code>0.16.3-0</code>,  <code>0.16.0-0</code>,  <code>0.14.0-0</code>,  <code>0.12.0-0</code>,  <code>0.10.0-1</code>,  <code>0.8.0-0</code>,  <code>0.6.6-0</code>,  </span></summary>
       
 
-      ``0.18.0-0``,  ``0.16.3-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
+      ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.3-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.12.0-0``,  ``0.10.0-1``,  ``0.8.0-0``,  ``0.6.6-0``,  ``0.4.1-0``,  ``0.2.7-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-delayedarray
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-matrixgenerics: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-matrixgenerics: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
@@ -80,7 +80,7 @@ bioconductor-delayedarray
 
     <script>
         var package = "bioconductor-delayedarray";
-        var versions = ["0.18.0","0.16.3","0.16.0","0.14.0","0.12.0"];
+        var versions = ["0.20.0","0.18.0","0.16.3","0.16.0","0.14.0"];
     </script>
 
 

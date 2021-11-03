@@ -27,7 +27,7 @@ bioconductor-summix
       
       
 
-      ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.0-0``
 
       
 
@@ -65,7 +65,7 @@ bioconductor-summix
 
     <script>
         var package = "bioconductor-summix";
-        var versions = ["1.0.0"];
+        var versions = ["2.0.0","1.0.0"];
     </script>
 
 

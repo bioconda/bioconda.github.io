@@ -27,12 +27,12 @@ bioconductor-tronco
       
       
 
-      ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.2-0``,  ``2.14.2-0``
+      ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.2-0``,  ``2.14.2-0``
 
       
 
    
-   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bnlearn: 
    :depends r-cgdsr: 
@@ -79,7 +79,7 @@ bioconductor-tronco
 
     <script>
         var package = "bioconductor-tronco";
-        var versions = ["2.24.0","2.22.0","2.22.0","2.20.0","2.18.0"];
+        var versions = ["2.26.0","2.24.0","2.22.0","2.22.0","2.20.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-pcxn
       
       
 
-      ``2.14.0-0``,  ``2.12.0-2``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-2``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
 
    
-   :depends bioconductor-pcxndata: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-pcxndata: ``>=2.16.0,<2.17.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-pheatmap: 
    :requirements:
@@ -66,7 +66,7 @@ bioconductor-pcxn
 
     <script>
         var package = "bioconductor-pcxn";
-        var versions = ["2.14.0","2.12.0","2.12.0","2.10.0","2.8.0"];
+        var versions = ["2.16.0","2.14.0","2.12.0","2.12.0","2.10.0"];
     </script>
 
 

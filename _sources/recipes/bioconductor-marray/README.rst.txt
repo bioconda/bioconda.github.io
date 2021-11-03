@@ -29,10 +29,10 @@ bioconductor-marray
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  </span></summary>
       
 
-      ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.50.0-1``,  ``1.50.0-0``
+      ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.50.0-1``,  ``1.50.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-marray
       
 
    
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -74,7 +74,7 @@ bioconductor-marray
 
     <script>
         var package = "bioconductor-marray";
-        var versions = ["1.70.0","1.68.0","1.68.0","1.66.0","1.64.0"];
+        var versions = ["1.72.0","1.70.0","1.68.0","1.68.0","1.66.0"];
     </script>
 
 

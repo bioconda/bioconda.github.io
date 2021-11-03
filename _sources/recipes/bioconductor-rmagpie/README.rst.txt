@@ -27,12 +27,12 @@ bioconductor-rmagpie
       
       
 
-      ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-0``
+      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-e1071: 
    :depends r-kernlab: 
@@ -68,7 +68,7 @@ bioconductor-rmagpie
 
     <script>
         var package = "bioconductor-rmagpie";
-        var versions = ["1.48.0","1.46.0","1.46.0","1.44.0","1.42.0"];
+        var versions = ["1.50.0","1.48.0","1.46.0","1.46.0","1.44.0"];
     </script>
 
 

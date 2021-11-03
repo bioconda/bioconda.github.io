@@ -27,12 +27,13 @@ bioconductor-modcon
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends perl: ``>=5.32.0,<5.32.1.0a0``
+   :depends perl: ``>=5.32.1,<5.32.2.0a0``
+   :depends perl: ``>=5.32.1,<5.32.2.0a0 *_perl5``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :requirements:
@@ -66,7 +67,7 @@ bioconductor-modcon
 
     <script>
         var package = "bioconductor-modcon";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-ggtreeextra
       
       
 
-      ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-ggtree: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-ggtree: ``>=3.2.0,<3.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggnewscale: 
    :depends r-ggplot2: 
@@ -68,7 +68,7 @@ bioconductor-ggtreeextra
 
     <script>
         var package = "bioconductor-ggtreeextra";
-        var versions = ["1.2.0","1.0.2","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.2","1.0.0"];
     </script>
 
 

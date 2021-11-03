@@ -27,13 +27,13 @@ bioconductor-normalize450k
       
       
 
-      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-illuminaio: ``>=0.34.0,<0.35.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-illuminaio: ``>=0.36.0,<0.37.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-quadprog: 
    :requirements:
@@ -67,7 +67,7 @@ bioconductor-normalize450k
 
     <script>
         var package = "bioconductor-normalize450k";
-        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.16.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-compass
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-compass
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clue: 
@@ -95,7 +95,7 @@ bioconductor-compass
 
     <script>
         var package = "bioconductor-compass";
-        var versions = ["1.30.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+        var versions = ["1.32.0","1.30.0","1.28.0","1.28.0","1.26.0"];
     </script>
 
 

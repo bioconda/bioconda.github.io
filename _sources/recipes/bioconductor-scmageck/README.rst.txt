@@ -27,12 +27,13 @@ bioconductor-scmageck
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-ggplot2: 
    :depends r-seurat: 
    :requirements:
 
@@ -65,7 +66,7 @@ bioconductor-scmageck
 
     <script>
         var package = "bioconductor-scmageck";
-        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

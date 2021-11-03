@@ -28,10 +28,10 @@ bioconductor-maftools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.6.05-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.10-0</code>,  <code>2.0.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.05-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.10-0</code>,  <code>2.0.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.6.05-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.10-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.15-0``,  ``1.4.27-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.05-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.10-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.15-0``,  ``1.4.27-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-maftools
       
 
    
-   :depends bioconductor-rhtslib: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-zlibbioc: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-rhtslib: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-zlibbioc: ``>=1.40.0,<1.41.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
@@ -80,7 +80,7 @@ bioconductor-maftools
 
     <script>
         var package = "bioconductor-maftools";
-        var versions = ["2.8.0","2.6.05","2.6.0","2.4.0","2.2.0"];
+        var versions = ["2.10.0","2.8.0","2.6.05","2.6.0","2.4.0"];
     </script>
 
 

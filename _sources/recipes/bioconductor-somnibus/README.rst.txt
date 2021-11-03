@@ -27,7 +27,7 @@ bioconductor-somnibus
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -67,7 +67,7 @@ bioconductor-somnibus
 
     <script>
         var package = "bioconductor-somnibus";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

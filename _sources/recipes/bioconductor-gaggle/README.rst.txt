@@ -27,12 +27,12 @@ bioconductor-gaggle
       
       
 
-      ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``
+      ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rjava: ``>=0.4``
    :depends r-runit: ``>=0.4.17``
@@ -67,7 +67,7 @@ bioconductor-gaggle
 
     <script>
         var package = "bioconductor-gaggle";
-        var versions = ["1.60.0","1.58.0","1.58.0","1.54.0","1.52.0"];
+        var versions = ["1.62.0","1.60.0","1.58.0","1.58.0","1.54.0"];
     </script>
 
 

@@ -26,9 +26,17 @@ bioconductor-fgnet
    :versions:
       
       
+      .. raw:: html
 
-      ``3.26.0-0``,  ``3.24.0-1``,  ``3.24.0-0``,  ``3.23.1-0``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-1</code>,  <code>3.24.0-0</code>,  <code>3.23.1-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  </span></summary>
+      
 
+      ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-1``,  ``3.24.0-0``,  ``3.23.1-0``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -72,7 +80,7 @@ bioconductor-fgnet
 
     <script>
         var package = "bioconductor-fgnet";
-        var versions = ["3.26.0","3.24.0","3.24.0","3.23.1","3.22.0"];
+        var versions = ["3.28.0","3.26.0","3.24.0","3.24.0","3.23.1"];
     </script>
 
 

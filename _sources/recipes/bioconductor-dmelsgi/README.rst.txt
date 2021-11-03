@@ -27,14 +27,14 @@ bioconductor-dmelsgi
       
       
 
-      ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gplots: 
@@ -72,7 +72,7 @@ bioconductor-dmelsgi
 
     <script>
         var package = "bioconductor-dmelsgi";
-        var versions = ["1.24.0","1.22.1","1.22.0","1.20.0","1.18.0"];
+        var versions = ["1.26.0","1.24.0","1.22.1","1.22.0","1.20.0"];
     </script>
 
 

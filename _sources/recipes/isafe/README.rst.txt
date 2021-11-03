@@ -29,7 +29,7 @@ isafe
       
       
 
-      ``1.1.0-0``,  ``1.0.7-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.7-0``
 
       
 
@@ -37,7 +37,6 @@ isafe
    :depends bcftools: ``>=1.2``
    :depends numpy: ``>=1.9.0``
    :depends pandas: ``>=0.18.0``
-   :depends pysam: 
    :depends python: 
    :requirements:
 
@@ -70,7 +69,7 @@ isafe
 
     <script>
         var package = "isafe";
-        var versions = ["1.1.0","1.0.7"];
+        var versions = ["1.1.1","1.1.0","1.0.7"];
     </script>
 
 

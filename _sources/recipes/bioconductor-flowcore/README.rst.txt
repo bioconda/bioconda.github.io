@@ -29,10 +29,10 @@ bioconductor-flowcore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.48.1-0</code>,  <code>1.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.48.1-0</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.48.1-0``,  ``1.48.0-0``,  ``1.46.2-0``,  ``1.44.0-0``,  ``1.42.3-0``,  ``1.42.0-0``,  ``1.38.2-1``,  ``1.38.2-0``
+      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.48.1-0``,  ``1.48.0-0``,  ``1.46.2-0``,  ``1.44.0-0``,  ``1.42.3-0``,  ``1.42.0-0``,  ``1.38.2-1``,  ``1.38.2-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-flowcore
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-cytolib: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-rprotobuflib: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-cytolib: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-rprotobuflib: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: ``>=1.65.0.1``
    :depends r-matrixstats: 
@@ -86,7 +86,7 @@ bioconductor-flowcore
 
     <script>
         var package = "bioconductor-flowcore";
-        var versions = ["2.4.0","2.2.0","2.2.0","2.2.0","2.0.0"];
+        var versions = ["2.6.0","2.4.0","2.2.0","2.2.0","2.2.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-cnvgears
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -66,7 +66,7 @@ bioconductor-cnvgears
 
     <script>
         var package = "bioconductor-cnvgears";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

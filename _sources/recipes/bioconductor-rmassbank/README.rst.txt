@@ -27,27 +27,28 @@ bioconductor-rmassbank
       
       
 
-      ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
+      ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-msnbase: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-mzr: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-mzr: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends openbabel: 
    :depends r-assertthat: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-digest: 
    :depends r-envipat: 
    :depends r-httr: 
+   :depends r-logger: 
    :depends r-rcdk: 
    :depends r-rcpp: 
+   :depends r-rcurl: 
    :depends r-rjson: 
    :depends r-xml: 
    :depends r-yaml: 
@@ -82,7 +83,7 @@ bioconductor-rmassbank
 
     <script>
         var package = "bioconductor-rmassbank";
-        var versions = ["3.2.0","3.0.0","3.0.0","2.13.0","2.12.0"];
+        var versions = ["3.4.0","3.2.0","3.0.0","3.0.0","2.13.0"];
     </script>
 
 

@@ -46,8 +46,9 @@ bioconductor-msstats
    :depends bioconductor-msstatsconvert: ``>=1.4.0,<1.5.0``
    :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 

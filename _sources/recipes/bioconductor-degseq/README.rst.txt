@@ -29,10 +29,10 @@ bioconductor-degseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.1-0</code>,  <code>1.34.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.1-0</code>,  </span></summary>
       
 
-      ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.1-0``,  ``1.32.0-0``,  ``1.30.0-0``
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.1-0``,  ``1.32.0-0``,  ``1.30.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-degseq
       
 
    
-   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -78,7 +78,7 @@ bioconductor-degseq
 
     <script>
         var package = "bioconductor-degseq";
-        var versions = ["1.46.0","1.44.0","1.44.0","1.42.0","1.40.0"];
+        var versions = ["1.48.0","1.46.0","1.44.0","1.44.0","1.42.0"];
     </script>
 
 

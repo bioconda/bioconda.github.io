@@ -27,12 +27,12 @@ bioconductor-cellscore
       
       
 
-      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gplots: ``>=3.0.1``
    :depends r-lsa: ``>=0.73.1``
@@ -69,7 +69,7 @@ bioconductor-cellscore
 
     <script>
         var package = "bioconductor-cellscore";
-        var versions = ["1.12.0","1.10.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
     </script>
 
 

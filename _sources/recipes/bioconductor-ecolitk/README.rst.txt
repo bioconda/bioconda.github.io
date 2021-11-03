@@ -27,12 +27,12 @@ bioconductor-ecolitk
       
       
 
-      ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``
+      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -65,7 +65,7 @@ bioconductor-ecolitk
 
     <script>
         var package = "bioconductor-ecolitk";
-        var versions = ["1.64.0","1.62.0","1.62.0","1.60.0","1.58.0"];
+        var versions = ["1.66.0","1.64.0","1.62.0","1.62.0","1.60.0"];
     </script>
 
 

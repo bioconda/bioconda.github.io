@@ -27,7 +27,7 @@ bioconductor-openstats
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
@@ -73,7 +73,7 @@ bioconductor-openstats
 
     <script>
         var package = "bioconductor-openstats";
-        var versions = ["1.4.0","1.2.0","1.2.0","1.0.2"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.2"];
     </script>
 
 
