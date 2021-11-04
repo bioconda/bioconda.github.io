@@ -27,13 +27,13 @@ bioconductor-cnorfeeder
       
       
 
-      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-cellnoptr: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-cellnoptr: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-cnorfeeder
 
     <script>
         var package = "bioconductor-cnorfeeder";
-        var versions = ["1.32.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.28.0"];
     </script>
 
 

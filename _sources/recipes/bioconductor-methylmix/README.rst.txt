@@ -27,13 +27,13 @@ bioconductor-methylmix
       
       
 
-      ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``
+      ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``
 
       
 
    
-   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-digest: 
@@ -74,7 +74,7 @@ bioconductor-methylmix
 
     <script>
         var package = "bioconductor-methylmix";
-        var versions = ["2.22.0","2.20.0","2.20.0","2.18.0","2.16.0"];
+        var versions = ["2.24.0","2.22.0","2.20.0","2.20.0","2.18.0"];
     </script>
 
 

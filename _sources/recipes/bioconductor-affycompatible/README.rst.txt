@@ -29,10 +29,10 @@ bioconductor-affycompatible
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  </span></summary>
       
 
-      ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``
+      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-affycompatible
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcurl: ``>=0.8-1``
    :depends r-xml: ``>=2.8-1``
@@ -76,7 +76,7 @@ bioconductor-affycompatible
 
     <script>
         var package = "bioconductor-affycompatible";
-        var versions = ["1.52.0","1.50.0","1.50.0","1.48.0","1.46.0"];
+        var versions = ["1.54.0","1.52.0","1.50.0","1.50.0","1.48.0"];
     </script>
 
 

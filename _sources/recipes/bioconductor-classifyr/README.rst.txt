@@ -29,10 +29,10 @@ bioconductor-classifyr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.4-0</code>,  <code>2.2.6-0</code>,  <code>2.2.4-0</code>,  <code>2.0.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.4-0</code>,  <code>2.2.6-0</code>,  <code>2.2.4-0</code>,  </span></summary>
       
 
-      ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.6-0``,  ``2.2.4-0``,  ``2.0.10-0``,  ``1.12.2-0``
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.6-0``,  ``2.2.4-0``,  ``2.0.10-0``,  ``1.12.2-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-classifyr
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-locfit: 
    :depends r-plyr: 
@@ -78,7 +78,7 @@ bioconductor-classifyr
 
     <script>
         var package = "bioconductor-classifyr";
-        var versions = ["2.12.0","2.10.0","2.10.0","2.8.0","2.6.0"];
+        var versions = ["2.14.0","2.12.0","2.10.0","2.10.0","2.8.0"];
     </script>
 
 

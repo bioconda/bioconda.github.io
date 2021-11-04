@@ -27,12 +27,12 @@ bioconductor-idpr
       
       
 
-      ``1.2.0-0``,  ``1.0.007-0``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.007-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=0.8.5``
    :depends r-ggplot2: ``>=3.3.0``
@@ -71,7 +71,7 @@ bioconductor-idpr
 
     <script>
         var package = "bioconductor-idpr";
-        var versions = ["1.2.0","1.0.007","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.007","1.0.0"];
     </script>
 
 

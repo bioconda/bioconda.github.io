@@ -27,15 +27,15 @@ bioconductor-asics
       
       
 
-      ``2.8.0-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.2.0-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-pepsnmr: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-ropls: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-pepsnmr: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-ropls: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-glmnet: 
@@ -76,7 +76,7 @@ bioconductor-asics
 
     <script>
         var package = "bioconductor-asics";
-        var versions = ["2.8.0","2.6.1","2.6.1","2.4.0","2.2.0"];
+        var versions = ["2.10.0","2.8.0","2.6.1","2.6.1","2.4.0"];
     </script>
 
 

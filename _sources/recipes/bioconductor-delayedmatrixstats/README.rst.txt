@@ -26,20 +26,28 @@ bioconductor-delayedmatrixstats
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-0``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.3-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
+      
 
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-matrixgenerics: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-sparsematrixstats: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-matrixgenerics: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-sparsematrixstats: ``>=1.6.0,<1.7.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
-   :depends r-matrixstats: ``>=0.56.0``
+   :depends r-matrixstats: ``>=0.60.0``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +79,7 @@ bioconductor-delayedmatrixstats
 
     <script>
         var package = "bioconductor-delayedmatrixstats";
-        var versions = ["1.14.0","1.12.3","1.12.0","1.10.0","1.8.0"];
+        var versions = ["1.16.0","1.14.0","1.12.3","1.12.0","1.10.0"];
     </script>
 
 

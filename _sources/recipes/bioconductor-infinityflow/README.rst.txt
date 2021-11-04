@@ -27,13 +27,13 @@ bioconductor-infinityflow
       
       
 
-      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-generics: 
    :depends r-gtools: 
@@ -74,7 +74,7 @@ bioconductor-infinityflow
 
     <script>
         var package = "bioconductor-infinityflow";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

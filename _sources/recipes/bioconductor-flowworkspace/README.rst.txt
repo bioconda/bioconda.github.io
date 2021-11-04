@@ -29,10 +29,10 @@ bioconductor-flowworkspace
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.4.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.1-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  <code>3.30.2-0</code>,  <code>3.30.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.6.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.1-0</code>,  <code>3.34.0-0</code>,  <code>3.32.0-1</code>,  <code>3.30.2-0</code>,  </span></summary>
       
 
-      ``4.4.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.1-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.30.2-0``,  ``3.30.1-0``,  ``3.28.2-0``,  ``3.26.2-0``,  ``3.24.4-0``
+      ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.1-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.30.2-0``,  ``3.30.1-0``,  ``3.28.2-0``,  ``3.26.2-0``,  ``3.24.4-0``
 
       
       .. raw:: html
@@ -41,22 +41,22 @@ bioconductor-flowworkspace
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-cytolib: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-ncdfflow: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-rbgl: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rhdf5lib: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-rprotobuflib: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-cytolib: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-ncdfflow: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-rhdf5lib: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-rprotobuflib: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-aws.s3: 
    :depends r-aws.signature: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -104,7 +104,7 @@ bioconductor-flowworkspace
 
     <script>
         var package = "bioconductor-flowworkspace";
-        var versions = ["4.4.0","4.2.0","4.2.0","4.2.0","4.0.1"];
+        var versions = ["4.6.0","4.4.0","4.2.0","4.2.0","4.2.0"];
     </script>
 
 

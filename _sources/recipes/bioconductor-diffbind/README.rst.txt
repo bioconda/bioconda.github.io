@@ -29,10 +29,10 @@ bioconductor-diffbind
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.7-0</code>,  <code>3.2.1-0</code>,  <code>3.0.15-0</code>,  <code>3.0.3-0</code>,  <code>2.16.0-2</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-0</code>,  <code>3.2.7-0</code>,  <code>3.2.1-0</code>,  <code>3.0.15-0</code>,  <code>3.0.3-0</code>,  <code>2.16.0-2</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  </span></summary>
       
 
-      ``3.2.7-0``,  ``3.2.1-0``,  ``3.0.15-0``,  ``3.0.3-0``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
+      ``3.4.0-0``,  ``3.2.7-0``,  ``3.2.1-0``,  ``3.0.15-0``,  ``3.0.3-0``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
 
       
       .. raw:: html
@@ -41,23 +41,22 @@ bioconductor-diffbind
       
 
    
-   :depends bioconductor-apeglm: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-genomicalignments: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-greylistchip: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-rhtslib: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-systempiper: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-apeglm: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-greylistchip: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-rhtslib: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-systempiper: ``>=2.0.0,<2.1.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-amap: 
    :depends r-ashr: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -100,7 +99,7 @@ bioconductor-diffbind
 
     <script>
         var package = "bioconductor-diffbind";
-        var versions = ["3.2.7","3.2.1","3.0.15","3.0.3","2.16.0"];
+        var versions = ["3.4.0","3.2.7","3.2.1","3.0.15","3.0.3"];
     </script>
 
 

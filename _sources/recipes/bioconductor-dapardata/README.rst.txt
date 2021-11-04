@@ -27,13 +27,13 @@ bioconductor-dapardata
       
       
 
-      ``1.22.1-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.1-0``
+      ``1.24.0-0``,  ``1.22.1-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.1-0``
 
       
 
    
-   :depends bioconductor-msnbase: ``>=2.18.0,<2.19.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-knitr: 
    :requirements:
@@ -67,7 +67,7 @@ bioconductor-dapardata
 
     <script>
         var package = "bioconductor-dapardata";
-        var versions = ["1.22.1","1.20.1","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.24.0","1.22.1","1.20.1","1.20.0","1.18.0"];
     </script>
 
 

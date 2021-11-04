@@ -27,26 +27,22 @@ bioconductor-biocsklearn
       
       
 
-      ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.3-1``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.3-1``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends h5py: 
+   :depends bioconductor-basilisk: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends numpy: 
-   :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-knitr: 
    :depends r-rcpp: 
    :depends r-reticulate: 
-   :depends scikit-learn: 
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +74,7 @@ bioconductor-biocsklearn
 
     <script>
         var package = "bioconductor-biocsklearn";
-        var versions = ["1.14.0","1.12.0","1.12.0","1.10.3","1.10.3"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.3"];
     </script>
 
 

@@ -18,7 +18,7 @@ n50
    :developer docs: https://github.com/quadram-institute-bioscience/seqfu/
    :license: mit
    :recipe: /`n50 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50/meta.yaml>`_
-   :links: biotools: :biotools:`n50`
+   :links: biotools: :biotools:`n50`, doi: :doi:`10.3390/bioengineering8050059`
 
    a program to calculate size metrics of a FASTA \(or FASTQ\) file\: minimum\, maximum\, average length\, N50\, N75\, N90 and the area of the Nx curve \(auN\).
    Gzipped files are supported as input\, and the output can be in compact\, csv\, tsv\, json or screen friendly format.
@@ -34,10 +34,10 @@ n50
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-0</code>,  <code>0.92-0</code>,  <code>0.90-0</code>,  <code>0.83-0</code>,  <code>0.82-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-0</code>,  <code>0.92-0</code>,  <code>0.90-0</code>,  </span></summary>
       
 
-      ``1.4.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.92-0``,  ``0.90-0``,  ``0.83-0``,  ``0.82-0``,  ``0.80-0``,  ``0.60-2``,  ``0.60-1``,  ``0.60-0``
+      ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.92-0``,  ``0.90-0``,  ``0.83-0``,  ``0.82-0``,  ``0.80-0``,  ``0.60-2``,  ``0.60-1``,  ``0.60-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ n50
    
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-exporter: 
-   :depends perl-fastx-reader: 
+   :depends perl-fastx-reader: ``>=1.2.1``
    :depends perl-file-which: 
    :depends perl-getopt-long: 
    :depends perl-json-pp: 
@@ -85,7 +85,7 @@ n50
 
     <script>
         var package = "n50";
-        var versions = ["1.4.1","1.3.0","1.3.0","1.2.0","1.0.0"];
+        var versions = ["1.4.2","1.4.2","1.4.1","1.3.0","1.3.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-reconsi
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-phyloseq: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-phyloseq: ``>=1.38.0,<1.39.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-kernsmooth: 
@@ -69,7 +69,7 @@ bioconductor-reconsi
 
     <script>
         var package = "bioconductor-reconsi";
-        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

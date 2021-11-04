@@ -26,15 +26,23 @@ bioconductor-champdata
    :versions:
       
       
+      .. raw:: html
 
-      ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.1-0``,  ``2.14.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.14.1-0</code>,  </span></summary>
+      
 
+      ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.1-0``,  ``2.14.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +75,7 @@ bioconductor-champdata
 
     <script>
         var package = "bioconductor-champdata";
-        var versions = ["2.24.0","2.22.0","2.22.0","2.20.0","2.20.0"];
+        var versions = ["2.26.0","2.24.0","2.22.0","2.22.0","2.20.0"];
     </script>
 
 

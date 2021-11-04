@@ -27,17 +27,21 @@ bioconductor-geomxtools
       
       
 
-      ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-nanostringnctools: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-nanostringnctools: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-data.table: 
+   :depends r-dplyr: 
    :depends r-envstats: 
+   :depends r-lmertest: 
+   :depends r-outliers: 
    :depends r-readxl: 
    :depends r-reshape2: 
    :depends r-rjson: 
@@ -72,7 +76,7 @@ bioconductor-geomxtools
 
     <script>
         var package = "bioconductor-geomxtools";
-        var versions = ["1.0.0"];
+        var versions = ["2.0.0","1.0.0"];
     </script>
 
 

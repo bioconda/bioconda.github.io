@@ -27,14 +27,14 @@ bioconductor-memes
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-universalmotif: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-universalmotif: ``>=1.12.0,<1.13.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cmdfun: ``>=1.0.2``
    :depends r-dplyr: 
@@ -82,7 +82,7 @@ bioconductor-memes
 
     <script>
         var package = "bioconductor-memes";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

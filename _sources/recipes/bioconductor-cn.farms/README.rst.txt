@@ -27,22 +27,29 @@ bioconductor-cn.farms
    :versions:
       
       
+      .. raw:: html
 
-      ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
+      
 
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affxparser: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-dnacopy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-oligo: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-affxparser: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-dnacopy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-oligo: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-ff: 
@@ -79,7 +86,7 @@ bioconductor-cn.farms
 
     <script>
         var package = "bioconductor-cn.farms";
-        var versions = ["1.40.0","1.38.0","1.38.0","1.36.0","1.34.0"];
+        var versions = ["1.42.0","1.40.0","1.38.0","1.38.0","1.36.0"];
     </script>
 
 

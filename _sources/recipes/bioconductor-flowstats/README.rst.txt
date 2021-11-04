@@ -27,17 +27,17 @@ bioconductor-flowstats
       
       
 
-      ``4.4.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.40.1-0``
+      ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.40.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-flowviz: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-flowworkspace: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-ncdfflow: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-flowviz: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-flowworkspace: ``>=4.6.0,<4.7.0``
+   :depends bioconductor-ncdfflow: ``>=2.40.0,<2.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-fda: ``>=2.2.6``
@@ -78,7 +78,7 @@ bioconductor-flowstats
 
     <script>
         var package = "bioconductor-flowstats";
-        var versions = ["4.4.0","4.2.0","4.2.0","4.0.0","3.44.0"];
+        var versions = ["4.6.0","4.4.0","4.2.0","4.2.0","4.0.0"];
     </script>
 
 

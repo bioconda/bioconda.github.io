@@ -27,15 +27,15 @@ bioconductor-synextend
       
       
 
-      ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-decipher: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-decipher: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-synextend
 
     <script>
         var package = "bioconductor-synextend";
-        var versions = ["1.4.1","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.4.1","1.2.0","1.2.0","1.0.0"];
     </script>
 
 
