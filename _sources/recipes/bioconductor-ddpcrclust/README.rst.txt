@@ -27,15 +27,15 @@ bioconductor-ddpcrclust
       
       
 
-      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-flowdensity: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-flowpeaks: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-samspectral: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-flowdensity: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-flowpeaks: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-samspectral: ``>=1.48.0,<1.49.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clue: 
    :depends r-ggplot2: 
@@ -73,7 +73,7 @@ bioconductor-ddpcrclust
 
     <script>
         var package = "bioconductor-ddpcrclust";
-        var versions = ["1.12.0","1.10.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
     </script>
 
 

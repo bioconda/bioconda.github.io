@@ -29,10 +29,10 @@ bioconductor-xde
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  </span></summary>
       
 
-      ``2.38.0-0``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``
+      ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,14 @@ bioconductor-xde
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-genemeta: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-siggenes: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-genemeta: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-siggenes: ``>=1.68.0,<1.69.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gtools: 
    :depends r-mvtnorm: 
@@ -85,7 +84,7 @@ bioconductor-xde
 
     <script>
         var package = "bioconductor-xde";
-        var versions = ["2.38.0","2.36.0","2.36.0","2.34.0","2.32.0"];
+        var versions = ["2.40.0","2.38.0","2.36.0","2.36.0","2.34.0"];
     </script>
 
 

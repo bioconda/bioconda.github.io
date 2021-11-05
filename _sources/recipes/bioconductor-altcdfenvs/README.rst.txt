@@ -27,19 +27,27 @@ bioconductor-altcdfenvs
    :versions:
       
       
+      .. raw:: html
 
-      ``2.54.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-1</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  </span></summary>
+      
 
+      ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-hypergraph: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-makecdfenv: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-hypergraph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-makecdfenv: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -72,7 +80,7 @@ bioconductor-altcdfenvs
 
     <script>
         var package = "bioconductor-altcdfenvs";
-        var versions = ["2.54.0","2.52.0","2.52.0","2.50.0","2.48.0"];
+        var versions = ["2.56.0","2.54.0","2.52.0","2.52.0","2.50.0"];
     </script>
 
 

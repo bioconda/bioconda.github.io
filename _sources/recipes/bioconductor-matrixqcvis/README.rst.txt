@@ -27,19 +27,19 @@ bioconductor-matrixqcvis
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-pcamethods: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-proda: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
+   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-pcamethods: ``>=1.86.0,<1.87.0``
+   :depends bioconductor-proda: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-vsn: ``>=3.62.0,<3.63.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=1.0.5``
    :depends r-ggplot2: ``>=3.3.3``
@@ -91,7 +91,7 @@ bioconductor-matrixqcvis
 
     <script>
         var package = "bioconductor-matrixqcvis";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

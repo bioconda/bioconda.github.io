@@ -27,13 +27,13 @@ bioconductor-panvizgenerator
       
       
 
-      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
 
    
-   :depends bioconductor-findmyfriends: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-pcamethods: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-findmyfriends: ``>=1.23.0,<1.24.0``
+   :depends bioconductor-pcamethods: ``>=1.86.0,<1.87.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :depends r-jsonlite: 
@@ -69,7 +69,7 @@ bioconductor-panvizgenerator
 
     <script>
         var package = "bioconductor-panvizgenerator";
-        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.16.0"];
     </script>
 
 

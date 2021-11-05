@@ -27,13 +27,13 @@ bioconductor-reqon
       
       
 
-      ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
 
       
 
    
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-seqbias: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-seqbias: ``>=1.42.0,<1.43.0``
    :depends openjdk: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rjava: 
@@ -68,7 +68,7 @@ bioconductor-reqon
 
     <script>
         var package = "bioconductor-reqon";
-        var versions = ["1.38.0","1.36.0","1.36.0","1.32.0","1.30.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.32.0"];
     </script>
 
 

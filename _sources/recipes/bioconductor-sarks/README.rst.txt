@@ -27,13 +27,13 @@ bioconductor-sarks
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
    :depends openjdk: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-binom: 
@@ -70,7 +70,7 @@ bioconductor-sarks
 
     <script>
         var package = "bioconductor-sarks";
-        var versions = ["1.4.0","1.2.0","1.2.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0"];
     </script>
 
 

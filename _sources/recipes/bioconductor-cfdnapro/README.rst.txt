@@ -27,13 +27,13 @@ bioconductor-cfdnapro
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``
+      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-rsamtools: ``>=2.6.0,<2.7.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=0.8.3``
    :depends r-ggplot2: ``>=3.2.1``
    :depends r-magrittr: ``>=1.5.0``
@@ -71,7 +71,7 @@ bioconductor-cfdnapro
 
     <script>
         var package = "bioconductor-cfdnapro";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

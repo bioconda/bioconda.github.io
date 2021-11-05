@@ -27,15 +27,15 @@ bioconductor-lisaclust
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-spicyr: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-spicyr: ``>=1.6.0,<1.7.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-class: 
    :depends r-concaveman: 
@@ -77,7 +77,7 @@ bioconductor-lisaclust
 
     <script>
         var package = "bioconductor-lisaclust";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

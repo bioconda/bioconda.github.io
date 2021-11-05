@@ -29,10 +29,10 @@ bioconductor-sva
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.40.0-0</code>,  <code>3.38.0-1</code>,  <code>3.38.0-0</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.1-0</code>,  <code>3.30.1-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.42.0-0</code>,  <code>3.40.0-0</code>,  <code>3.38.0-1</code>,  <code>3.38.0-0</code>,  <code>3.36.0-0</code>,  <code>3.34.0-0</code>,  <code>3.32.1-0</code>,  <code>3.30.1-0</code>,  <code>3.30.0-0</code>,  </span></summary>
       
 
-      ``3.40.0-0``,  ``3.38.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.30.1-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.4-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.15.0-0``
+      ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.30.1-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.4-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.15.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,11 @@ bioconductor-sva
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrixstats: 
@@ -82,7 +81,7 @@ bioconductor-sva
 
     <script>
         var package = "bioconductor-sva";
-        var versions = ["3.40.0","3.38.0","3.38.0","3.36.0","3.34.0"];
+        var versions = ["3.42.0","3.40.0","3.38.0","3.38.0","3.36.0"];
     </script>
 
 

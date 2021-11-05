@@ -27,17 +27,17 @@ bioconductor-seqcna
       
       
 
-      ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``
 
       
 
    
-   :depends bioconductor-glad: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-seqcna.annot: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-glad: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-seqcna.annot: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-adehabitatlt: ``>=0.3.4``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dosnow: ``>=1.0.5``
@@ -73,7 +73,7 @@ bioconductor-seqcna
 
     <script>
         var package = "bioconductor-seqcna";
-        var versions = ["1.38.0","1.36.0","1.36.0","1.34.0","1.32.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.34.0"];
     </script>
 
 

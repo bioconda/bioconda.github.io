@@ -29,10 +29,10 @@ bioconductor-biomart
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.48.0-0</code>,  <code>2.46.3-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.3-0</code>,  <code>2.38.0-0</code>,  <code>2.36.1-0</code>,  <code>2.34.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.3-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.3-0</code>,  <code>2.38.0-0</code>,  <code>2.36.1-0</code>,  </span></summary>
       
 
-      ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.3-0``,  ``2.38.0-0``,  ``2.36.1-0``,  ``2.34.2-0``,  ``2.34.0-0``,  ``2.32.1-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.27.0-0``,  ``2.26.1-0``,  ``2.26.0-0``
+      ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.3-0``,  ``2.38.0-0``,  ``2.36.1-0``,  ``2.34.2-0``,  ``2.34.0-0``,  ``2.32.1-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.27.0-0``,  ``2.26.1-0``,  ``2.26.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-biomart
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-digest: 
    :depends r-httr: 
@@ -50,6 +50,7 @@ bioconductor-biomart
    :depends r-rappdirs: 
    :depends r-stringr: 
    :depends r-xml: 
+   :depends r-xml2: 
    :requirements:
 
    .. rubric:: Installation
@@ -81,7 +82,7 @@ bioconductor-biomart
 
     <script>
         var package = "bioconductor-biomart";
-        var versions = ["2.48.0","2.46.3","2.46.0","2.44.0","2.42.0"];
+        var versions = ["2.50.0","2.48.0","2.46.3","2.46.0","2.44.0"];
     </script>
 
 

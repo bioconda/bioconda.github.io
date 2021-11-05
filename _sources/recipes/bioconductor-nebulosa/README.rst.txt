@@ -27,13 +27,13 @@ bioconductor-nebulosa
       
       
 
-      ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-ks: 
@@ -71,7 +71,7 @@ bioconductor-nebulosa
 
     <script>
         var package = "bioconductor-nebulosa";
-        var versions = ["1.2.0","1.0.2","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.2","1.0.0"];
     </script>
 
 

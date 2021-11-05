@@ -29,10 +29,10 @@ bioconductor-teqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.14.0-0</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-0</code>,  <code>4.6.0-1</code>,  <code>4.4.0-0</code>,  <code>4.2.0-0</code>,  <code>3.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.16.0-0</code>,  <code>4.14.0-0</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-0</code>,  <code>4.6.0-1</code>,  <code>4.4.0-0</code>,  <code>4.2.0-0</code>,  </span></summary>
       
 
-      ``4.14.0-0``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-0``,  ``4.6.0-1``,  ``4.4.0-0``,  ``4.2.0-0``,  ``3.18.0-0``,  ``3.16.0-0``
+      ``4.16.0-0``,  ``4.14.0-0``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-0``,  ``4.6.0-1``,  ``4.4.0-0``,  ``4.2.0-0``,  ``3.18.0-0``,  ``3.16.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-teqc
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-hwriter: 
    :requirements:
@@ -78,7 +78,7 @@ bioconductor-teqc
 
     <script>
         var package = "bioconductor-teqc";
-        var versions = ["4.14.0","4.12.0","4.12.0","4.10.0","4.8.0"];
+        var versions = ["4.16.0","4.14.0","4.12.0","4.12.0","4.10.0"];
     </script>
 
 

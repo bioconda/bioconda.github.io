@@ -29,10 +29,10 @@ bioconductor-oligo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.56.0-0</code>,  <code>1.54.1-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.1-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  </span></summary>
       
 
-      ``1.56.0-0``,  ``1.54.1-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.2-0``,  ``1.40.1-0``
+      ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.1-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.2-0``,  ``1.40.1-0``
 
       
       .. raw:: html
@@ -41,16 +41,16 @@ bioconductor-oligo
       
 
    
-   :depends bioconductor-affxparser: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-affyio: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-zlibbioc: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-affxparser: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-affyio: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-zlibbioc: ``>=1.40.0,<1.41.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: ``>=0.3.1``
@@ -87,7 +87,7 @@ bioconductor-oligo
 
     <script>
         var package = "bioconductor-oligo";
-        var versions = ["1.56.0","1.54.1","1.54.0","1.52.0","1.50.0"];
+        var versions = ["1.58.0","1.56.0","1.54.1","1.54.0","1.52.0"];
     </script>
 
 

@@ -1,0 +1,92 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'hecatomb'
+.. highlight: bash
+
+hecatomb
+========
+
+.. conda:recipe:: hecatomb
+   :replaces_section_title:
+   :noindex:
+
+   Accurate classification of viral sequences from metagenome samples
+
+   :homepage: https://github.com/shandley/hecatomb
+   :license: MIT
+   :recipe: /`hecatomb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hecatomb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hecatomb/meta.yaml>`_
+
+   
+
+
+.. conda:package:: hecatomb
+
+   |downloads_hecatomb| |docker_hecatomb|
+
+   :versions:
+      
+      
+
+      ``1.0.0.beta.2-0``
+
+      
+
+   
+   :depends mamba: ``>=0.15.3``
+   :depends python: ``3.*``
+   :depends pyyaml: ``>=5.4.1``
+   :depends snakemake-minimal: ``6.4.1.*``
+   :requirements:
+
+   .. rubric:: Installation
+
+   With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+      conda install hecatomb
+
+   and update with::
+
+      conda update hecatomb
+
+   or use the docker container::
+
+      docker pull quay.io/biocontainers/hecatomb:<tag>
+
+   (see `hecatomb/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_hecatomb| image:: https://img.shields.io/conda/dn/bioconda/hecatomb.svg?style=flat
+   :target: https://anaconda.org/bioconda/hecatomb
+   :alt:   (downloads)
+.. |docker_hecatomb| image:: https://quay.io/repository/biocontainers/hecatomb/status
+   :target: https://quay.io/repository/biocontainers/hecatomb
+.. _`hecatomb/tags`: https://quay.io/repository/biocontainers/hecatomb?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "hecatomb";
+        var versions = ["1.0.0.beta.2"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hecatomb/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/hecatomb/README.html

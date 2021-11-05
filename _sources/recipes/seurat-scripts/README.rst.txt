@@ -10,10 +10,10 @@ seurat-scripts
    :replaces_section_title:
    :noindex:
 
-   A set of wrappers for individual components of the Seurat package. Functions R packages are hard to call when building workflows outside of R\, so this package adds a set of simple wrappers with robust argument parsing. Intermediate steps are currently mainly serialized R objects\, but the ultimate objective is to have language\-agnostic intermediate formats allowing composite workflows using a variety of software packages.
+   A set of wrappers for individual components of the Seurat package.
 
    :homepage: https://github.com/ebi-gene-expression-group/r-seurat-scripts
-   :license: GPL / GPL-3
+   :license: Apache / Apache-2.0
    :recipe: /`seurat-scripts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seurat-scripts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seurat-scripts/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ seurat-scripts
       
       
 
-      ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``
+      ``0.0.9-2``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``
 
       
 
@@ -38,8 +38,8 @@ seurat-scripts
    :depends r-cairo: 
    :depends r-loom: 
    :depends r-optparse: 
-   :depends r-seurat: ``3.1.1.*``
-   :depends r-workflowscriptscommon: ``>=0.0.6``
+   :depends r-seurat: ``<3.2.0``
+   :depends r-workflowscriptscommon: ``>=0.0.6,<=0.0.7``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ seurat-scripts
 
     <script>
         var package = "seurat-scripts";
-        var versions = ["0.0.9","0.0.9","0.0.8","0.0.7","0.0.6"];
+        var versions = ["0.0.9","0.0.9","0.0.9","0.0.8","0.0.7"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-eatonetalchipseq
       
       
 
-      ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+      ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-shortread: ``>=1.50.0,<1.51.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-shortread: ``>=1.52.0,<1.53.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-eatonetalchipseq
 
     <script>
         var package = "bioconductor-eatonetalchipseq";
-        var versions = ["0.30.0","0.28.0","0.28.0","0.26.0","0.24.0"];
+        var versions = ["0.32.0","0.30.0","0.28.0","0.28.0","0.26.0"];
     </script>
 
 

@@ -27,14 +27,14 @@ bioconductor-epinem
       
       
 
-      ``1.16.0-0``,  ``1.14.1-1``,  ``1.14.1-0``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-1``,  ``1.14.1-0``
 
       
 
    
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-minet: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-mnem: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-minet: ``>=3.52.0,<3.53.0``
+   :depends bioconductor-mnem: ``>=1.10.0,<1.11.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-boolnet: 
    :depends r-e1071: 
@@ -76,7 +76,7 @@ bioconductor-epinem
 
     <script>
         var package = "bioconductor-epinem";
-        var versions = ["1.16.0","1.14.1","1.14.1"];
+        var versions = ["1.18.0","1.16.0","1.14.1","1.14.1"];
     </script>
 
 

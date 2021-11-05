@@ -31,12 +31,12 @@ galaxy-containers
       
       
 
-      ``21.1.0-0``,  ``20.5.0-0``,  ``19.9.0-0``
+      ``21.9.0-0``,  ``21.1.0-0``,  ``20.5.0-0``,  ``19.9.0-0``
 
       
 
    
-   :depends galaxy-util: ``>=21.1``
+   :depends galaxy-util: ``>=21.9``
    :depends python: ``>=3.5``
    :depends requests: 
    :requirements:
@@ -70,7 +70,7 @@ galaxy-containers
 
     <script>
         var package = "galaxy-containers";
-        var versions = ["21.1.0","20.5.0","19.9.0"];
+        var versions = ["21.9.0","21.1.0","20.5.0","19.9.0"];
     </script>
 
 

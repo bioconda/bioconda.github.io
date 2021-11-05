@@ -27,12 +27,12 @@ bioconductor-scalign
       
       
 
-      ``1.6.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends python: ``<3.7``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-fnn: 
@@ -73,7 +73,7 @@ bioconductor-scalign
 
     <script>
         var package = "bioconductor-scalign";
-        var versions = ["1.6.0","1.3.0","1.3.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.3.0","1.3.0","1.0.0"];
     </script>
 
 

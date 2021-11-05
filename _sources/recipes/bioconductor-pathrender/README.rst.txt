@@ -27,16 +27,24 @@ bioconductor-pathrender
    :versions:
       
       
+      .. raw:: html
 
-      ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  </span></summary>
+      
 
+      ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
    :depends bioconductor-cmap: ``>=1.15.0,<1.16.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcolorbrewer: 
    :requirements:
@@ -70,7 +78,7 @@ bioconductor-pathrender
 
     <script>
         var package = "bioconductor-pathrender";
-        var versions = ["1.60.0","1.58.0","1.58.0","1.56.0","1.54.0"];
+        var versions = ["1.62.0","1.60.0","1.58.0","1.58.0","1.56.0"];
     </script>
 
 

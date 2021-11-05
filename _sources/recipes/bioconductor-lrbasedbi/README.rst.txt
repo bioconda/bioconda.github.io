@@ -27,13 +27,13 @@ bioconductor-lrbasedbi
       
       
 
-      ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 
@@ -68,7 +68,7 @@ bioconductor-lrbasedbi
 
     <script>
         var package = "bioconductor-lrbasedbi";
-        var versions = ["2.2.0","2.0.0","2.0.0","1.6.0","1.4.0"];
+        var versions = ["2.4.0","2.2.0","2.0.0","2.0.0","1.6.0"];
     </script>
 
 

@@ -29,7 +29,7 @@ ngmaster
       
       
 
-      ``0.5.8-0``
+      ``0.5.8-1``,  ``0.5.8-0``
 
       
 
@@ -70,7 +70,7 @@ ngmaster
 
     <script>
         var package = "ngmaster";
-        var versions = ["0.5.8"];
+        var versions = ["0.5.8","0.5.8"];
     </script>
 
 
