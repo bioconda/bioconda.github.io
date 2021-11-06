@@ -29,10 +29,10 @@ bioconductor-flowsom
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.22.0-2</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.22.0-2</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.14.1-0</code>,  </span></summary>
       
 
-      ``2.0.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``2.2.0-0``,  ``2.0.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,12 @@ bioconductor-flowsom
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-consensusclusterplus: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-cytoml: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-flowworkspace: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-cytoml: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-flowworkspace: ``>=4.6.0,<4.7.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-colorramps: 
@@ -98,7 +97,7 @@ bioconductor-flowsom
 
     <script>
         var package = "bioconductor-flowsom";
-        var versions = ["2.0.0","1.22.0","1.22.0","1.22.0","1.20.0"];
+        var versions = ["2.2.0","2.0.0","1.22.0","1.22.0","1.22.0"];
     </script>
 
 

@@ -27,14 +27,14 @@ bioconductor-moma
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
    :depends r-cluster: 
@@ -80,7 +80,7 @@ bioconductor-moma
 
     <script>
         var package = "bioconductor-moma";
-        var versions = ["1.4.0","1.2.0","1.2.0","1.0.1"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.1"];
     </script>
 
 

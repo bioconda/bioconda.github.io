@@ -35,8 +35,9 @@ bioconductor-cliquems
    :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
    :depends bioconductor-xcms: ``>=3.16.0,<3.17.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: 
    :depends r-igraph: 

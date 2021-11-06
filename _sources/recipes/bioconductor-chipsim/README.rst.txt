@@ -27,16 +27,24 @@ bioconductor-chipsim
    :versions:
       
       
+      .. raw:: html
 
-      ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  </span></summary>
+      
 
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-shortread: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-xvector: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-shortread: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-xvector: ``>=0.34.0,<0.35.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -69,7 +77,7 @@ bioconductor-chipsim
 
     <script>
         var package = "bioconductor-chipsim";
-        var versions = ["1.46.0","1.44.0","1.44.0","1.42.0","1.40.0"];
+        var versions = ["1.48.0","1.46.0","1.44.0","1.44.0","1.42.0"];
     </script>
 
 
