@@ -27,7 +27,7 @@ metaclassifier
       
       
 
-      ``v1.0.1-0``
+      ``1.0.1-0``,  ``v1.0.1-0``
 
       
 
@@ -69,7 +69,7 @@ metaclassifier
 
     <script>
         var package = "metaclassifier";
-        var versions = ["v1.0.1"];
+        var versions = ["1.0.1","v1.0.1"];
     </script>
 
 

@@ -30,34 +30,35 @@ cellxgene
       
       
 
-      ``0.16.7-0``,  ``0.16.6-0``,  ``0.16.5-0``,  ``0.16.4-0``,  ``0.16.2-0``,  ``0.16.0-0``
+      ``1.0.0-0``,  ``0.16.7-0``,  ``0.16.6-0``,  ``0.16.5-0``,  ``0.16.4-0``,  ``0.16.2-0``,  ``0.16.0-0``
 
       
 
    
-   :depends anndata: ``>=0.6.20``
+   :depends anndata: ``>=0.7.6``
    :depends boto3: ``>=1.12.18``
    :depends click: ``>=7.1.2``
    :depends fastobo: ``>=0.6.1``
    :depends flask: ``>=1.0.2``
    :depends flask-compress: ``>=1.4.0``
-   :depends flask-cors: ``>=3.0.6``
+   :depends flask-cors: ``>=3.0.9``
    :depends flask-restful: ``>=0.3.6``
    :depends flask-server-timing: ``>=0.1.2``
    :depends flask-talisman: ``>=0.7.0``
    :depends flatten-dict: ``>=0.2.0``
-   :depends fsspec: ``>=0.4.4``
+   :depends fsspec: ``>=0.4.4,<0.8.0``
    :depends gunicorn: ``>=20.0.4``
-   :depends numba: ``>=0.49.1``
-   :depends numpy: ``>=1.16.0``
+   :depends h5py: ``>=3.0.0``
+   :depends numba: ``>=0.51.2``
+   :depends numpy: ``>=1.17.5``
    :depends packaging: ``>=20.0``
-   :depends pandas: ``>=0.24.2``
+   :depends pandas: ``>=1.0,!=1.1``
    :depends python: ``>=3.6``
-   :depends python-flatbuffers: ``>=1.10.0``
-   :depends pyyaml: ``>=5.3``
+   :depends python-flatbuffers: ``>=1.11.0,<2.0.0``
+   :depends pyyaml: ``>=5.4``
    :depends requests: ``>=2.22.0``
-   :depends s3fs: ``>=0.4.2``
-   :depends scipy: ``>=1.3.0``
+   :depends s3fs: ``0.4.2``
+   :depends scipy: ``>=1.4.0``
    :depends sqlalchemy: 
    :depends tiledb-py: ``>=0.6.2``
    :requirements:
@@ -91,7 +92,7 @@ cellxgene
 
     <script>
         var package = "cellxgene";
-        var versions = ["0.16.7","0.16.6","0.16.5","0.16.4","0.16.2"];
+        var versions = ["1.0.0","0.16.7","0.16.6","0.16.5","0.16.4"];
     </script>
 
 

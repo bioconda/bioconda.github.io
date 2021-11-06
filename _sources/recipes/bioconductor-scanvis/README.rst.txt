@@ -27,13 +27,13 @@ bioconductor-scanvis
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.7.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-plotrix: 
    :depends r-rcurl: 
@@ -68,7 +68,7 @@ bioconductor-scanvis
 
     <script>
         var package = "bioconductor-scanvis";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.7.0","1.6.0","1.4.0","1.4.0","1.2.0"];
     </script>
 
 

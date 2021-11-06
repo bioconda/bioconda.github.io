@@ -27,7 +27,7 @@ codingorf
       
       
 
-      ``v1.0.0-0``
+      ``1.0.0-0``,  ``v1.0.0-0``
 
       
 
@@ -65,7 +65,7 @@ codingorf
 
     <script>
         var package = "codingorf";
-        var versions = ["v1.0.0"];
+        var versions = ["1.0.0","v1.0.0"];
     </script>
 
 

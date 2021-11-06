@@ -46,10 +46,11 @@ bioconductor-genefilter
    :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-survival: 
    :requirements:

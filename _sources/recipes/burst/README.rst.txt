@@ -27,7 +27,7 @@ burst
       
       
 
-      ``v1.0-1``,  ``v1.0-0``
+      ``1.0-0``,  ``v1.0-1``,  ``v1.0-0``
 
       
 
@@ -63,7 +63,7 @@ burst
 
     <script>
         var package = "burst";
-        var versions = ["v1.0","v1.0"];
+        var versions = ["1.0","v1.0","v1.0"];
     </script>
 
 

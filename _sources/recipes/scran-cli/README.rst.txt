@@ -27,7 +27,7 @@ scran-cli
       
       
 
-      ``v0.0.1-1``,  ``v0.0.1-0``
+      ``0.0.1-0``,  ``v0.0.1-1``,  ``v0.0.1-0``
 
       
 
@@ -68,7 +68,7 @@ scran-cli
 
     <script>
         var package = "scran-cli";
-        var versions = ["v0.0.1","v0.0.1"];
+        var versions = ["0.0.1","v0.0.1","v0.0.1"];
     </script>
 
 

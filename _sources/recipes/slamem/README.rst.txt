@@ -27,7 +27,7 @@ slamem
       
       
 
-      ``v0.8.5-0``
+      ``0.8.5-0``,  ``v0.8.5-0``
 
       
 
@@ -64,7 +64,7 @@ slamem
 
     <script>
         var package = "slamem";
-        var versions = ["v0.8.5"];
+        var versions = ["0.8.5","v0.8.5"];
     </script>
 
 

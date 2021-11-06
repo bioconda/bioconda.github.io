@@ -31,7 +31,7 @@ talon
       
       
 
-      ``v5.0-1``,  ``v5.0-0``
+      ``5.0-0``,  ``v5.0-1``,  ``v5.0-0``
 
       
 
@@ -72,7 +72,7 @@ talon
 
     <script>
         var package = "talon";
-        var versions = ["v5.0","v5.0"];
+        var versions = ["5.0","v5.0","v5.0"];
     </script>
 
 

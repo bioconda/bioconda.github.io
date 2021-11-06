@@ -27,13 +27,13 @@ bioconductor-nempi
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-epinem: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-mnem: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-epinem: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-mnem: ``>=1.10.0,<1.11.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-e1071: 
    :depends r-matrixstats: 
@@ -71,7 +71,7 @@ bioconductor-nempi
 
     <script>
         var package = "bioconductor-nempi";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

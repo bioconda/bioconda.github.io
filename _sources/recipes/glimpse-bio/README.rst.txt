@@ -27,7 +27,7 @@ glimpse-bio
       
       
 
-      ``v1.1.1-0``
+      ``1.1.1-0``,  ``v1.1.1-0``
 
       
 
@@ -37,9 +37,9 @@ glimpse-bio
    :depends htslib: ``>=1.12,<1.13.0a0``
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
-   :depends openssl: ``>=1.1.1k,<1.1.2a``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends pthread-stubs: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ glimpse-bio
 
     <script>
         var package = "glimpse-bio";
-        var versions = ["v1.1.1"];
+        var versions = ["1.1.1","v1.1.1"];
     </script>
 
 

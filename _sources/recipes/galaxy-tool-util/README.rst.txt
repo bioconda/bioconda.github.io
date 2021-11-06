@@ -39,8 +39,7 @@ galaxy-tool-util
    :depends conda: 
    :depends galaxy-containers: ``>=20.5.0``
    :depends galaxy-util: ``>=21.9``
-   :depends python: ``>=3.5``
-   :depends six: 
+   :depends python: ``>=3.6``
    :depends whoosh: 
    :requirements:
 

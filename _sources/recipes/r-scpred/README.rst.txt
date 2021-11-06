@@ -14,7 +14,7 @@ r-scpred
 
    :homepage: https://github.com/powellgenomicslab/scPred
    :developer docs: https://github.com/powellgenomicslab/scPred/tree/development
-   :license: GPL-3
+   :license: MIT
    :recipe: /`r-scpred <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scpred>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scpred/meta.yaml>`_
 
    
@@ -28,25 +28,23 @@ r-scpred
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``v1.9.0-2``,  ``v1.9.0-1``,  ``v1.9.0-0``
+      ``1.9.2-0``,  ``1.9.0-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``v1.9.0-2``,  ``v1.9.0-1``,  ``v1.9.0-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``1.6.0.*``
    :depends r-caret: 
-   :depends r-cowplot: 
-   :depends r-dplyr: ``<1``
+   :depends r-cli: 
+   :depends r-crayon: 
+   :depends r-ggbeeswarm: 
    :depends r-ggplot2: 
-   :depends r-irlba: 
+   :depends r-harmony: 
    :depends r-kernlab: 
-   :depends r-magrittr: 
+   :depends r-knitr: 
    :depends r-mlmetrics: 
    :depends r-pbapply: 
    :depends r-proc: 
-   :depends r-tibble: 
-   :depends r-tidyr: 
-   :depends r-tidyverse: 
+   :depends r-seuratobject: 
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +76,7 @@ r-scpred
 
     <script>
         var package = "r-scpred";
-        var versions = ["1.0","1.0","1.0","v1.9.0","v1.9.0"];
+        var versions = ["1.9.2","1.9.0","1.0","1.0","1.0"];
     </script>
 
 

@@ -43,11 +43,12 @@ galaxy-util
    :depends future: 
    :depends markupsafe: 
    :depends packaging: 
-   :depends python: ``>=3.5``
+   :depends pycryptodome: 
+   :depends python: ``>=3.6``
    :depends pyyaml: 
    :depends requests: 
    :depends routes: 
-   :depends six: ``>=1.9.0``
+   :depends zipstream-new: 
    :requirements:
 
    .. rubric:: Installation
