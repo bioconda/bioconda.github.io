@@ -27,15 +27,15 @@ bioconductor-imagehts
       
       
 
-      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``
+      ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-cellhts2: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-ebimage: ``>=4.34.0,<4.35.0``
-   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-cellhts2: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-ebimage: ``>=4.36.0,<4.37.0``
+   :depends bioconductor-vsn: ``>=3.62.0,<3.63.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-e1071: 
    :depends r-hwriter: 
@@ -70,7 +70,7 @@ bioconductor-imagehts
 
     <script>
         var package = "bioconductor-imagehts";
-        var versions = ["1.42.0","1.38.0","1.36.0","1.34.0","1.32.0"];
+        var versions = ["1.44.0","1.42.0","1.38.0","1.36.0","1.34.0"];
     </script>
 
 

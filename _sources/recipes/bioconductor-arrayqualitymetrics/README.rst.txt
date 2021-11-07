@@ -27,19 +27,27 @@ bioconductor-arrayqualitymetrics
    :versions:
       
       
+      .. raw:: html
 
-      ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.42.0-0``,  ``3.40.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.50.0-0</code>,  <code>3.48.0-0</code>,  <code>3.46.0-1</code>,  <code>3.46.0-0</code>,  <code>3.44.0-0</code>,  <code>3.42.0-0</code>,  <code>3.40.0-1</code>,  <code>3.38.0-0</code>,  <code>3.36.0-0</code>,  </span></summary>
+      
 
+      ``3.50.0-0``,  ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.42.0-0``,  ``3.40.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-affyplm: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-beadarray: ``>=2.42.0,<2.43.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
+   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-affyplm: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-beadarray: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-vsn: ``>=3.62.0,<3.63.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-gridsvg: ``>=1.4-3``
    :depends r-hmisc: 
@@ -81,7 +89,7 @@ bioconductor-arrayqualitymetrics
 
     <script>
         var package = "bioconductor-arrayqualitymetrics";
-        var versions = ["3.48.0","3.46.0","3.46.0","3.44.0","3.42.0"];
+        var versions = ["3.50.0","3.48.0","3.46.0","3.46.0","3.44.0"];
     </script>
 
 

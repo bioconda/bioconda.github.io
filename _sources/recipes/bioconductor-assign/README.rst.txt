@@ -27,12 +27,12 @@ bioconductor-assign
       
       
 
-      ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.1-1``,  ``1.18.0-0``
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.1-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-sva: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-gplots: 
@@ -70,7 +70,7 @@ bioconductor-assign
 
     <script>
         var package = "bioconductor-assign";
-        var versions = ["1.28.0","1.26.0","1.26.0","1.24.0","1.22.0"];
+        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
     </script>
 
 

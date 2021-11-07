@@ -38,6 +38,7 @@ bioconductor-genextender
    :depends bioconductor-org.rn.eg.db: ``>=3.14.0,<3.15.0``
    :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 

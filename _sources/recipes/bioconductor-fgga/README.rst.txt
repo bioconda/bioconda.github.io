@@ -27,18 +27,18 @@ bioconductor-fgga
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-rbgl: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-curl: 
    :depends r-e1071: 
-   :depends r-grbase: ``>=1.8_6.7``
+   :depends r-grbase: 
    :depends r-jsonlite: 
    :requirements:
 
@@ -71,7 +71,7 @@ bioconductor-fgga
 
     <script>
         var package = "bioconductor-fgga";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 
