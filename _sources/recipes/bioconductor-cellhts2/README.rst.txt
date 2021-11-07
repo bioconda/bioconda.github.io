@@ -27,18 +27,18 @@ bioconductor-cellhts2
       
       
 
-      ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+      ``2.58.0-0``,  ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-category: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-splots: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-category: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-splots: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-vsn: ``>=3.62.0,<3.63.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-hwriter: 
    :depends r-locfit: 
@@ -74,7 +74,7 @@ bioconductor-cellhts2
 
     <script>
         var package = "bioconductor-cellhts2";
-        var versions = ["2.56.0","2.52.0","2.50.0","2.48.0","2.46.0"];
+        var versions = ["2.58.0","2.56.0","2.52.0","2.50.0","2.48.0"];
     </script>
 
 

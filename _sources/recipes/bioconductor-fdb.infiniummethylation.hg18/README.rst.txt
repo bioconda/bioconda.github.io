@@ -27,17 +27,17 @@ bioconductor-fdb.infiniummethylation.hg18
       
       
 
-      ``2.2.0-7``,  ``2.2.0-6``,  ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-0``
+      ``2.2.0-8``,  ``2.2.0-7``,  ``2.2.0-6``,  ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg18.knowngene: ``>=3.2.0,<3.3.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

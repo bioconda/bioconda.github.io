@@ -27,15 +27,16 @@ bioconductor-ctrap
       
       
 
-      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-fgsea: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-fgsea: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-binr: 
    :depends r-cowplot: 
@@ -46,13 +47,18 @@ bioconductor-ctrap
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-highcharter: 
+   :depends r-htmltools: 
    :depends r-httr: 
    :depends r-pbapply: 
+   :depends r-purrr: 
+   :depends r-qs: 
    :depends r-r.utils: 
    :depends r-readxl: 
    :depends r-reshape2: 
+   :depends r-rlang: 
    :depends r-scales: 
-   :depends r-shiny: 
+   :depends r-shiny: ``>=1.7.0``
+   :depends r-shinycssloaders: 
    :depends r-tibble: 
    :requirements:
 
@@ -85,7 +91,7 @@ bioconductor-ctrap
 
     <script>
         var package = "bioconductor-ctrap";
-        var versions = ["1.10.0","1.8.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
     </script>
 
 

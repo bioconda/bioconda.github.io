@@ -27,20 +27,20 @@ bioconductor-restfulse
       
       
 
-      ``1.13.1-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.16.0-0``,  ``1.13.1-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
-   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-rhdf5client: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
+   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-rhdf5client: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bigrquery: 
    :depends r-dbi: 
@@ -79,7 +79,7 @@ bioconductor-restfulse
 
     <script>
         var package = "bioconductor-restfulse";
-        var versions = ["1.13.1","1.12.0","1.12.0","1.10.0","1.8.0"];
+        var versions = ["1.16.0","1.13.1","1.12.0","1.12.0","1.10.0"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-alpinedata
       
       
 
-      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-genomicalignments: ``>=1.28.0,<1.29.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-alpinedata
 
     <script>
         var package = "bioconductor-alpinedata";
-        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
     </script>
 
 

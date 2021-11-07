@@ -27,13 +27,13 @@ bioconductor-rrdpdata
       
       
 
-      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-rrdp: ``>=1.26.0,<1.27.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-rrdp: ``>=1.28.0,<1.29.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends openjdk: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
@@ -67,7 +67,7 @@ bioconductor-rrdpdata
 
     <script>
         var package = "bioconductor-rrdpdata";
-        var versions = ["1.12.0","1.10.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
     </script>
 
 

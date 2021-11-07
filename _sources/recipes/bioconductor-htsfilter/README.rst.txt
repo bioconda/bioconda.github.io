@@ -27,15 +27,15 @@ bioconductor-htsfilter
       
       
 
-      ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-htsfilter
 
     <script>
         var package = "bioconductor-htsfilter";
-        var versions = ["1.32.0","1.28.0","1.26.0","1.24.0","1.22.1"];
+        var versions = ["1.34.0","1.32.0","1.28.0","1.26.0","1.24.0"];
     </script>
 
 

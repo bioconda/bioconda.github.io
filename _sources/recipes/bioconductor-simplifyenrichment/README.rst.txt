@@ -27,17 +27,17 @@ bioconductor-simplifyenrichment
       
       
 
-      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-complexheatmap: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-gosemsim: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-gosemsim: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
    :depends r-clue: 
@@ -79,7 +79,7 @@ bioconductor-simplifyenrichment
 
     <script>
         var package = "bioconductor-simplifyenrichment";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

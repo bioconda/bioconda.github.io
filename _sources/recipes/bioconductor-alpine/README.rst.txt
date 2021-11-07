@@ -29,10 +29,10 @@ bioconductor-alpine
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,17 +41,17 @@ bioconductor-alpine
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicalignments: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rbgl: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-speedglm: 
    :depends r-stringr: 
@@ -86,7 +86,7 @@ bioconductor-alpine
 
     <script>
         var package = "bioconductor-alpine";
-        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
     </script>
 
 

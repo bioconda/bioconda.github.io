@@ -27,16 +27,24 @@ bioconductor-refplus
    :versions:
       
       
+      .. raw:: html
 
-      ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  </span></summary>
+      
 
+      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.54.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-affyplm: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-affyplm: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -69,7 +77,7 @@ bioconductor-refplus
 
     <script>
         var package = "bioconductor-refplus";
-        var versions = ["1.62.0","1.60.0","1.60.0","1.58.0","1.56.0"];
+        var versions = ["1.64.0","1.62.0","1.60.0","1.60.0","1.58.0"];
     </script>
 
 

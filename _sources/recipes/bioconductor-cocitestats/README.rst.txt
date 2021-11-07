@@ -27,13 +27,13 @@ bioconductor-cocitestats
       
       
 
-      ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``
+      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-cocitestats
 
     <script>
         var package = "bioconductor-cocitestats";
-        var versions = ["1.64.0","1.62.0","1.62.0","1.60.0","1.58.0"];
+        var versions = ["1.66.0","1.64.0","1.62.0","1.62.0","1.60.0"];
     </script>
 
 

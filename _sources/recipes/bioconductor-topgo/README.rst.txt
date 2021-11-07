@@ -29,10 +29,10 @@ bioconductor-topgo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.41.0-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  <code>2.36.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.41.0-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  <code>2.36.0-1</code>,  <code>2.34.0-0</code>,  </span></summary>
       
 
-      ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.41.0-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-1``,  ``2.22.0-0``
+      ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.41.0-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.0-1``,  ``2.22.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-topgo
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-lattice: 
@@ -82,7 +82,7 @@ bioconductor-topgo
 
     <script>
         var package = "bioconductor-topgo";
-        var versions = ["2.44.0","2.42.0","2.42.0","2.41.0","2.40.0"];
+        var versions = ["2.46.0","2.44.0","2.42.0","2.42.0","2.41.0"];
     </script>
 
 

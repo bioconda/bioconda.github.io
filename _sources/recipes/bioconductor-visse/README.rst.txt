@@ -27,26 +27,27 @@ bioconductor-visse
       
       
 
-      ``1.0.0-0``
+      ``1.2.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-msigdb: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-msigdb: ``>=1.2.0,<1.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggforce: 
-   :depends r-ggnewscale: 
    :depends r-ggplot2: 
+   :depends r-ggraph: 
    :depends r-ggrepel: 
    :depends r-ggwordcloud: 
    :depends r-igraph: 
-   :depends r-matrix: 
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-scales: 
    :depends r-scico: 
    :depends r-textstem: 
+   :depends r-tidygraph: 
    :depends r-tm: 
    :requirements:
 
@@ -79,7 +80,7 @@ bioconductor-visse
 
     <script>
         var package = "bioconductor-visse";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.2","1.0.0"];
     </script>
 
 

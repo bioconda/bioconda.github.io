@@ -28,10 +28,10 @@ bioconductor-hgu133plus2.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.3-11</code>,  <code>3.2.3-10</code>,  <code>3.2.3-9</code>,  <code>3.2.3-8</code>,  <code>3.2.3-7</code>,  <code>3.2.3-6</code>,  <code>3.2.3-4</code>,  <code>3.2.3-3</code>,  <code>3.2.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.13.0-0</code>,  <code>3.2.3-11</code>,  <code>3.2.3-10</code>,  <code>3.2.3-9</code>,  <code>3.2.3-8</code>,  <code>3.2.3-7</code>,  <code>3.2.3-6</code>,  <code>3.2.3-4</code>,  <code>3.2.3-3</code>,  </span></summary>
       
 
-      ``3.2.3-11``,  ``3.2.3-10``,  ``3.2.3-9``,  ``3.2.3-8``,  ``3.2.3-7``,  ``3.2.3-6``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-1``,  ``3.2.3-0``
+      ``3.13.0-0``,  ``3.2.3-11``,  ``3.2.3-10``,  ``3.2.3-9``,  ``3.2.3-8``,  ``3.2.3-7``,  ``3.2.3-6``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-1``,  ``3.2.3-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-hgu133plus2.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -75,7 +75,7 @@ bioconductor-hgu133plus2.db
 
     <script>
         var package = "bioconductor-hgu133plus2.db";
-        var versions = ["3.2.3","3.2.3","3.2.3","3.2.3","3.2.3"];
+        var versions = ["3.13.0","3.2.3","3.2.3","3.2.3","3.2.3"];
     </script>
 
 

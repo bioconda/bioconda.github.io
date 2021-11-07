@@ -27,23 +27,34 @@ bioconductor-mlseq
    :versions:
       
       
+      .. raw:: html
 
-      ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.0.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.1-1</code>,  <code>2.0.0-0</code>,  <code>1.20.3-0</code>,  </span></summary>
+      
 
+      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.1-1``,  ``2.0.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-sseq: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-sseq: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-caret: 
    :depends r-foreach: 
    :depends r-ggplot2: 
+   :depends r-pamr: 
    :depends r-plyr: 
+   :depends r-testthat: 
+   :depends r-venndiagram: 
    :depends r-xtable: 
    :requirements:
 
@@ -76,7 +87,7 @@ bioconductor-mlseq
 
     <script>
         var package = "bioconductor-mlseq";
-        var versions = ["2.10.0","2.8.0","2.8.0","2.6.0","2.4.0"];
+        var versions = ["2.12.0","2.10.0","2.8.0","2.8.0","2.6.0"];
     </script>
 
 

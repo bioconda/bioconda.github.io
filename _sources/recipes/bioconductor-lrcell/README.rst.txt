@@ -27,14 +27,14 @@ bioconductor-lrcell
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -71,7 +71,7 @@ bioconductor-lrcell
 
     <script>
         var package = "bioconductor-lrcell";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

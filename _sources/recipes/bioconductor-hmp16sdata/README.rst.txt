@@ -27,16 +27,16 @@ bioconductor-hmp16sdata
       
       
 
-      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
@@ -77,7 +77,7 @@ bioconductor-hmp16sdata
 
     <script>
         var package = "bioconductor-hmp16sdata";
-        var versions = ["1.12.0","1.10.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
     </script>
 
 

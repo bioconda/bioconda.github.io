@@ -27,21 +27,21 @@ bioconductor-gapgom
       
       
 
-      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-geoquery: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-gosemsim: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-rbgl: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-gosemsim: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -82,7 +82,7 @@ bioconductor-gapgom
 
     <script>
         var package = "bioconductor-gapgom";
-        var versions = ["1.8.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
     </script>
 
 

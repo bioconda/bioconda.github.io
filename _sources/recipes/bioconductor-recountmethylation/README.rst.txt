@@ -27,16 +27,16 @@ bioconductor-recountmethylation
       
       
 
-      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-hdf5array: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-r.utils: 
    :depends r-rcurl: 
@@ -71,7 +71,7 @@ bioconductor-recountmethylation
 
     <script>
         var package = "bioconductor-recountmethylation";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

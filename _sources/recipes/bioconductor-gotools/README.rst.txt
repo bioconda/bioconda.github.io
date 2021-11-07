@@ -27,14 +27,22 @@ bioconductor-gotools
    :versions:
       
       
+      .. raw:: html
 
-      ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-1</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  </span></summary>
+      
 
+      ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +75,7 @@ bioconductor-gotools
 
     <script>
         var package = "bioconductor-gotools";
-        var versions = ["1.66.0","1.64.0","1.64.0","1.62.0","1.60.0"];
+        var versions = ["1.68.0","1.66.0","1.64.0","1.64.0","1.62.0"];
     </script>
 
 

@@ -27,22 +27,23 @@ bioconductor-msimpute
       
       
 
-      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-scran: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-scran: ``>=1.22.0,<1.23.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
+   :depends r-dplyr: 
    :depends r-fnn: 
    :depends r-matrixstats: 
    :depends r-mvtnorm: 
    :depends r-pdist: 
-   :depends r-rdetools: 
    :depends r-reticulate: 
    :depends r-softimpute: 
+   :depends r-tidyr: 
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +75,7 @@ bioconductor-msimpute
 
     <script>
         var package = "bioconductor-msimpute";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

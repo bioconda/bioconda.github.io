@@ -29,10 +29,10 @@ bioconductor-annotationhub
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.14.5-0</code>,  <code>2.14.2-0</code>,  <code>2.12.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.14.5-0</code>,  <code>2.14.2-0</code>,  </span></summary>
       
 
-      ``3.0.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.5-0``,  ``2.14.2-0``,  ``2.12.1-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.6.0-0``
+      ``3.2.0-0``,  ``3.0.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.5-0``,  ``2.14.2-0``,  ``2.12.1-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-annotationhub
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biocversion: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-interactivedisplaybase: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocversion: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-interactivedisplaybase: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :depends r-curl: 
@@ -86,7 +86,7 @@ bioconductor-annotationhub
 
     <script>
         var package = "bioconductor-annotationhub";
-        var versions = ["3.0.0","2.22.0","2.22.0","2.20.0","2.18.0"];
+        var versions = ["3.2.0","3.0.0","2.22.0","2.22.0","2.20.0"];
     </script>
 
 

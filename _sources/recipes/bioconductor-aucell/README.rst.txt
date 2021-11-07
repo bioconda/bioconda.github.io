@@ -27,15 +27,15 @@ bioconductor-aucell
       
       
 
-      ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.4.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-mixtools: 
@@ -72,7 +72,7 @@ bioconductor-aucell
 
     <script>
         var package = "bioconductor-aucell";
-        var versions = ["1.14.0","1.12.0","1.12.0","1.10.0","1.8.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.0"];
     </script>
 
 

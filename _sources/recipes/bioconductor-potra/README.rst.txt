@@ -27,15 +27,15 @@ bioconductor-potra
       
       
 
-      ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.0-0``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-graphite: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-graphite: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :requirements:
@@ -69,7 +69,7 @@ bioconductor-potra
 
     <script>
         var package = "bioconductor-potra";
-        var versions = ["1.7.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.7.0","1.6.0","1.6.0","1.4.0"];
     </script>
 
 

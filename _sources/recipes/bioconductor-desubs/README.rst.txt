@@ -27,17 +27,17 @@ bioconductor-desubs
       
       
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-1``,  ``1.8.1-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-ebseq: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-rbgl: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-ebseq: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
    :depends r-ggplot2: 
@@ -78,7 +78,7 @@ bioconductor-desubs
 
     <script>
         var package = "bioconductor-desubs";
-        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.8.1"];
+        var versions = ["1.20.0","1.18.0","1.14.0","1.12.0","1.10.0"];
     </script>
 
 

@@ -27,16 +27,16 @@ bioconductor-citefuse
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-scran: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-scran: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
    :depends r-dbscan: 
@@ -86,7 +86,7 @@ bioconductor-citefuse
 
     <script>
         var package = "bioconductor-citefuse";
-        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -27,16 +27,24 @@ bioconductor-gsri
    :versions:
       
       
+      .. raw:: html
 
-      ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  </span></summary>
+      
 
+      ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-les: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-les: ``>=1.44.0,<1.45.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-fdrtool: 
    :requirements:
@@ -70,7 +78,7 @@ bioconductor-gsri
 
     <script>
         var package = "bioconductor-gsri";
-        var versions = ["2.40.0","2.38.0","2.38.0","2.36.0","2.34.0"];
+        var versions = ["2.42.0","2.40.0","2.38.0","2.38.0","2.36.0"];
     </script>
 
 

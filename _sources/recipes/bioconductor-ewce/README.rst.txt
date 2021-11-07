@@ -27,17 +27,17 @@ bioconductor-ewce
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-ewcedata: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-ewcedata: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
    :depends r-future: 
@@ -81,7 +81,7 @@ bioconductor-ewce
 
     <script>
         var package = "bioconductor-ewce";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

@@ -27,15 +27,23 @@ bioconductor-keggorthology
    :versions:
       
       
+      .. raw:: html
 
-      ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  </span></summary>
+      
 
+      ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-hgu95av2.db: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-hgu95av2.db: ``>=3.13.0,<3.14.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :requirements:
@@ -69,7 +77,7 @@ bioconductor-keggorthology
 
     <script>
         var package = "bioconductor-keggorthology";
-        var versions = ["2.44.0","2.42.0","2.42.0","2.40.0","2.38.0"];
+        var versions = ["2.46.0","2.44.0","2.42.0","2.42.0","2.40.0"];
     </script>
 
 

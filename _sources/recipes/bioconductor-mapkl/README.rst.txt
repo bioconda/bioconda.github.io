@@ -27,16 +27,16 @@ bioconductor-mapkl
       
       
 
-      ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-multtest: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-reactome.db: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-multtest: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-reactome.db: ``>=1.77.0,<1.78.0``
    :depends r-apcluster: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-clustersim: 
@@ -74,7 +74,7 @@ bioconductor-mapkl
 
     <script>
         var package = "bioconductor-mapkl";
-        var versions = ["1.22.0","1.20.0","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.18.0"];
     </script>
 
 

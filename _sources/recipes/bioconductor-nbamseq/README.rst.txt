@@ -27,16 +27,16 @@ bioconductor-nbamseq
       
       
 
-      ``1.8.0-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-mgcv: ``>=1.8-24``
    :requirements:
@@ -70,7 +70,7 @@ bioconductor-nbamseq
 
     <script>
         var package = "bioconductor-nbamseq";
-        var versions = ["1.8.0","1.6.1","1.6.1","1.4.1","1.2.0"];
+        var versions = ["1.10.0","1.8.0","1.6.1","1.6.1","1.4.1"];
     </script>
 
 

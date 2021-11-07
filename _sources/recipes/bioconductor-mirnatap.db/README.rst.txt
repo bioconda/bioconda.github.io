@@ -26,15 +26,23 @@ bioconductor-mirnatap.db
    :versions:
       
       
+      .. raw:: html
 
-      ``0.99.10-10``,  ``0.99.10-9``,  ``0.99.10-8``,  ``0.99.10-7``,  ``0.99.10-6``,  ``0.99.10-5``,  ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-0``
+         <details><summary><span class="truncated-version-list"><code>0.99.10-11</code>,  <code>0.99.10-10</code>,  <code>0.99.10-9</code>,  <code>0.99.10-8</code>,  <code>0.99.10-7</code>,  <code>0.99.10-6</code>,  <code>0.99.10-5</code>,  <code>0.99.10-3</code>,  <code>0.99.10-2</code>,  </span></summary>
+      
 
+      ``0.99.10-11``,  ``0.99.10-10``,  ``0.99.10-9``,  ``0.99.10-8``,  ``0.99.10-7``,  ``0.99.10-6``,  ``0.99.10-5``,  ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-mirnatap: ``>=1.26.0,<1.27.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-mirnatap: ``>=1.28.0,<1.29.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 

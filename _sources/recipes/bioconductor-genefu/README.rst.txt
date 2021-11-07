@@ -27,17 +27,25 @@ bioconductor-genefu
    :versions:
       
       
+      .. raw:: html
 
-      ``2.24.2-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.24.2-0</code>,  <code>2.22.1-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  </span></summary>
+      
 
+      ``2.26.0-0``,  ``2.24.2-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-aims: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-survcomp: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-aims: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-survcomp: ``>=1.44.0,<1.45.0``
    :depends r-amap: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ic10: 
@@ -73,7 +81,7 @@ bioconductor-genefu
 
     <script>
         var package = "bioconductor-genefu";
-        var versions = ["2.24.2","2.22.1","2.22.0","2.20.0","2.18.0"];
+        var versions = ["2.26.0","2.24.2","2.22.1","2.22.0","2.20.0"];
     </script>
 
 

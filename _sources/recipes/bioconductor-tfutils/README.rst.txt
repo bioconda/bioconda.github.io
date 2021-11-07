@@ -27,14 +27,16 @@ bioconductor-tfutils
       
       
 
-      ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-gseabase: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-gseabase: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
@@ -75,7 +77,7 @@ bioconductor-tfutils
 
     <script>
         var package = "bioconductor-tfutils";
-        var versions = ["1.12.0","1.10.1","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.10.1","1.10.0","1.8.0"];
     </script>
 
 

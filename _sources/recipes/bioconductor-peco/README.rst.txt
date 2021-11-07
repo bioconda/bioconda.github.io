@@ -27,14 +27,14 @@ bioconductor-peco
       
       
 
-      ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-scater: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-scater: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-assertthat: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circular: 
@@ -73,7 +73,7 @@ bioconductor-peco
 
     <script>
         var package = "bioconductor-peco";
-        var versions = ["1.4.0","1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

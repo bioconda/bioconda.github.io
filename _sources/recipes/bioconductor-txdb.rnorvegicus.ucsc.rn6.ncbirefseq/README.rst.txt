@@ -27,14 +27,14 @@ bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq
       
       
 
-      ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``
+      ``3.12.0-3``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq
 
     <script>
         var package = "bioconductor-txdb.rnorvegicus.ucsc.rn6.ncbirefseq";
-        var versions = ["3.12.0","3.12.0","3.12.0"];
+        var versions = ["3.12.0","3.12.0","3.12.0","3.12.0"];
     </script>
 
 

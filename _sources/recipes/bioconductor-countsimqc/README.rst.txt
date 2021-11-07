@@ -27,16 +27,16 @@ bioconductor-countsimqc
       
       
 
-      ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
    :depends bioconductor-genomeinfodbdata: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-catools: 
    :depends r-dplyr: 
@@ -76,7 +76,7 @@ bioconductor-countsimqc
 
     <script>
         var package = "bioconductor-countsimqc";
-        var versions = ["1.10.0","1.8.1","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.12.0","1.10.0","1.8.1","1.8.0","1.6.0"];
     </script>
 
 

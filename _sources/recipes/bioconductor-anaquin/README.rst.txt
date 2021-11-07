@@ -27,13 +27,13 @@ bioconductor-anaquin
       
       
 
-      ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``
+      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: ``>=2.2.0``
    :depends r-knitr: 
@@ -71,7 +71,7 @@ bioconductor-anaquin
 
     <script>
         var package = "bioconductor-anaquin";
-        var versions = ["2.16.0","2.14.0","2.14.0","2.12.0","2.10.0"];
+        var versions = ["2.18.0","2.16.0","2.14.0","2.14.0","2.12.0"];
     </script>
 
 

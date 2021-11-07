@@ -27,18 +27,18 @@ bioconductor-hipathia
       
       
 
-      ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.3.1-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.3.1-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-coin: 
    :depends r-igraph: ``>=1.0.1``
@@ -75,7 +75,7 @@ bioconductor-hipathia
 
     <script>
         var package = "bioconductor-hipathia";
-        var versions = ["2.8.0","2.6.0","2.6.0","2.4.0","2.2.0"];
+        var versions = ["2.10.0","2.8.0","2.6.0","2.6.0","2.4.0"];
     </script>
 
 

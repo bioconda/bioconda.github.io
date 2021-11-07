@@ -27,16 +27,16 @@ bioconductor-cctutorial
       
       
 
-      ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-ringo: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-topgo: ``>=2.44.0,<2.45.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-ringo: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-topgo: ``>=2.46.0,<2.47.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -69,7 +69,7 @@ bioconductor-cctutorial
 
     <script>
         var package = "bioconductor-cctutorial";
-        var versions = ["1.30.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+        var versions = ["1.32.0","1.30.0","1.28.0","1.28.0","1.26.0"];
     </script>
 
 

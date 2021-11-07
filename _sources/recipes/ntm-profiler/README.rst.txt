@@ -27,13 +27,14 @@ ntm-profiler
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
    :depends dsk: 
    :depends python: ``>=3.6``
+   :depends tb-profiler: ``>=4.0.1``
    :depends tqdm: 
    :requirements:
 
@@ -66,7 +67,7 @@ ntm-profiler
 
     <script>
         var package = "ntm-profiler";
-        var versions = ["0.0.2","0.0.1"];
+        var versions = ["0.1.0","0.0.2","0.0.1"];
     </script>
 
 

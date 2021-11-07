@@ -27,16 +27,16 @@ bioconductor-microbiomeexplorer
       
       
 
-      ``1.2.0-0``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biomformat: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-metagenomeseq: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biomformat: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-metagenomeseq: ``>=1.36.0,<1.37.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-broom: 
    :depends r-car: 
@@ -95,7 +95,7 @@ bioconductor-microbiomeexplorer
 
     <script>
         var package = "bioconductor-microbiomeexplorer";
-        var versions = ["1.2.0","1.0.1","1.0.1"];
+        var versions = ["1.4.0","1.2.0","1.0.1","1.0.1"];
     </script>
 
 

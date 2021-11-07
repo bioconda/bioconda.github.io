@@ -27,13 +27,13 @@ bioconductor-cbaf
       
       
 
-      ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cgdsr: 
    :depends r-gplots: 
@@ -70,7 +70,7 @@ bioconductor-cbaf
 
     <script>
         var package = "bioconductor-cbaf";
-        var versions = ["1.14.0","1.12.1","1.12.0","1.8.0","1.6.0"];
+        var versions = ["1.16.0","1.14.0","1.12.1","1.12.0","1.8.0"];
     </script>
 
 

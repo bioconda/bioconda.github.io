@@ -27,13 +27,13 @@ bioconductor-isobar
       
       
 
-      ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-distr: 
    :depends r-ggplot2: 
@@ -69,7 +69,7 @@ bioconductor-isobar
 
     <script>
         var package = "bioconductor-isobar";
-        var versions = ["1.38.0","1.36.0","1.36.0","1.34.0","1.32.0"];
+        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.34.0"];
     </script>
 
 

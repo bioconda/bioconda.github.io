@@ -26,14 +26,22 @@ bioconductor-ensdb.hsapiens.v75
    :versions:
       
       
+      .. raw:: html
 
-      ``2.99.0-10``,  ``2.99.0-9``,  ``2.99.0-8``,  ``2.99.0-7``,  ``2.99.0-6``,  ``2.99.0-5``,  ``2.99.0-3``,  ``2.99.0-2``,  ``2.99.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.99.0-11</code>,  <code>2.99.0-10</code>,  <code>2.99.0-9</code>,  <code>2.99.0-8</code>,  <code>2.99.0-7</code>,  <code>2.99.0-6</code>,  <code>2.99.0-5</code>,  <code>2.99.0-3</code>,  <code>2.99.0-2</code>,  </span></summary>
+      
 
+      ``2.99.0-11``,  ``2.99.0-10``,  ``2.99.0-9``,  ``2.99.0-8``,  ``2.99.0-7``,  ``2.99.0-6``,  ``2.99.0-5``,  ``2.99.0-3``,  ``2.99.0-2``,  ``2.99.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-ensembldb: ``>=2.16.0,<2.17.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-ensembldb: ``>=2.18.0,<2.19.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

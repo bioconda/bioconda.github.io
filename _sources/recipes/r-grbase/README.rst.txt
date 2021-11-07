@@ -27,7 +27,7 @@ r-grbase
       
       
 
-      ``1.8_6.7-0``,  ``1.8_3.4-6``,  ``1.8_3.4-5``,  ``1.8_3.4-4``,  ``1.8_3.4-3``,  ``1.8_3.4-2``,  ``1.8_3.4-1``,  ``1.8_3.4-0``
+      ``1.8_6.7-1``,  ``1.8_6.7-0``,  ``1.8_3.4-6``,  ``1.8_3.4-5``,  ``1.8_3.4-4``,  ``1.8_3.4-3``,  ``1.8_3.4-2``,  ``1.8_3.4-1``,  ``1.8_3.4-0``
 
       
 
@@ -35,8 +35,10 @@ r-grbase
    :depends bioconductor-graph: 
    :depends bioconductor-rbgl: 
    :depends bioconductor-rgraphviz: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :depends r-magrittr: 
@@ -75,7 +77,7 @@ r-grbase
 
     <script>
         var package = "r-grbase";
-        var versions = ["1.8_6.7","1.8_3.4","1.8_3.4","1.8_3.4","1.8_3.4"];
+        var versions = ["1.8_6.7","1.8_6.7","1.8_3.4","1.8_3.4","1.8_3.4"];
     </script>
 
 

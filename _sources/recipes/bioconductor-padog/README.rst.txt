@@ -27,19 +27,27 @@ bioconductor-padog
    :versions:
       
       
+      .. raw:: html
 
-      ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.26.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+      
 
+      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-hgu133a.db: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-hgu133plus2.db: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-keggdzpathwaysgeo: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-keggrest: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-hgu133plus2.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-keggdzpathwaysgeo: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-keggrest: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dorng: 
    :depends r-foreach: 
@@ -76,7 +84,7 @@ bioconductor-padog
 
     <script>
         var package = "bioconductor-padog";
-        var versions = ["1.34.0","1.32.0","1.32.0","1.30.0","1.28.0"];
+        var versions = ["1.36.0","1.34.0","1.32.0","1.32.0","1.30.0"];
     </script>
 
 

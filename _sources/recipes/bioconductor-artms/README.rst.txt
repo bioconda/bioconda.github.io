@@ -27,18 +27,15 @@ bioconductor-artms
       
       
 
-      ``1.10.0-0``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.4.0-0``,  ``1.2.6-0``,  ``1.0.10-0``,  ``1.0.1-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.4.0-0``,  ``1.2.6-0``,  ``1.0.10-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-complexheatmap: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-msstats: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-msstats: ``>=4.2.0,<4.3.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bit64: 
    :depends r-circlize: 
@@ -46,16 +43,12 @@ bioconductor-artms
    :depends r-corrplot: 
    :depends r-data.table: 
    :depends r-dplyr: 
-   :depends r-factoextra: 
-   :depends r-factominer: 
    :depends r-getopt: 
    :depends r-ggdendro: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gplots: 
-   :depends r-gprofiler: 
    :depends r-openxlsx: 
-   :depends r-performanceanalytics: 
    :depends r-pheatmap: 
    :depends r-plotly: 
    :depends r-plyr: 
@@ -98,7 +91,7 @@ bioconductor-artms
 
     <script>
         var package = "bioconductor-artms";
-        var versions = ["1.10.0","1.8.2","1.8.0","1.6.3","1.4.0"];
+        var versions = ["1.12.0","1.10.0","1.8.2","1.8.0","1.6.3"];
     </script>
 
 

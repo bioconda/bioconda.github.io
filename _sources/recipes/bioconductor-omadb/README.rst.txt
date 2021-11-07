@@ -27,15 +27,15 @@ bioconductor-omadb
       
       
 
-      ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.2.0-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-topgo: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-topgo: ``>=2.46.0,<2.47.0``
    :depends r-ape: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-httr: ``>=1.2.1``
@@ -72,7 +72,7 @@ bioconductor-omadb
 
     <script>
         var package = "bioconductor-omadb";
-        var versions = ["2.8.0","2.6.1","2.6.0","2.5.0","2.4.0"];
+        var versions = ["2.10.0","2.8.0","2.6.1","2.6.0","2.5.0"];
     </script>
 
 

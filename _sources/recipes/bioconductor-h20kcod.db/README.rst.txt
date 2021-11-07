@@ -27,14 +27,14 @@ bioconductor-h20kcod.db
       
       
 
-      ``3.4.0-7``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-0``
+      ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

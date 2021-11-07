@@ -27,23 +27,22 @@ bioconductor-irisfgm
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-desingle: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-scater: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-scran: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
+   :depends bioconductor-desingle: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-scater: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-scran: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-adaptgauss: 
    :depends r-anocva: 
    :depends r-base: ``>=4.1,<4.2.0a0``
@@ -93,7 +92,7 @@ bioconductor-irisfgm
 
     <script>
         var package = "bioconductor-irisfgm";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

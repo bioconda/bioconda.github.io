@@ -27,14 +27,14 @@ bioconductor-clusterseq
       
       
 
-      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-bayseq: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-bayseq: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-clusterseq
 
     <script>
         var package = "bioconductor-clusterseq";
-        var versions = ["1.16.0","1.14.0","1.14.0","1.12.0","1.10.0"];
+        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.12.0"];
     </script>
 
 

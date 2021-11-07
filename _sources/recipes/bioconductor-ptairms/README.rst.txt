@@ -27,18 +27,17 @@ bioconductor-ptairms
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-msnbase: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bit64: 
    :depends r-chron: 
@@ -57,6 +56,7 @@ bioconductor-ptairms
    :depends r-rlang: 
    :depends r-scales: 
    :depends r-shiny: 
+   :depends r-shinyscreenshot: 
    :depends r-signal: 
    :requirements:
 
@@ -89,7 +89,7 @@ bioconductor-ptairms
 
     <script>
         var package = "bioconductor-ptairms";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

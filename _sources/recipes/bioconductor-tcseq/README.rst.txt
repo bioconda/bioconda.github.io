@@ -27,18 +27,18 @@ bioconductor-tcseq
       
       
 
-      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-genomicalignments: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-e1071: 
@@ -76,7 +76,7 @@ bioconductor-tcseq
 
     <script>
         var package = "bioconductor-tcseq";
-        var versions = ["1.16.0","1.14.0","1.14.0","1.12.0","1.10.0"];
+        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.12.0"];
     </script>
 
 

@@ -27,17 +27,17 @@ bioconductor-anota2seq
       
       
 
-      ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-multtest: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-multtest: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcolorbrewer: 
    :requirements:
@@ -71,7 +71,7 @@ bioconductor-anota2seq
 
     <script>
         var package = "bioconductor-anota2seq";
-        var versions = ["1.14.0","1.12.0","1.12.0","1.10.0","1.8.0"];
+        var versions = ["1.16.0","1.14.0","1.12.0","1.12.0","1.10.0"];
     </script>
 
 
