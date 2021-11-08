@@ -27,14 +27,14 @@ bioconductor-mbpcr
       
       
 
-      ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``
+      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.36.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-gwastools: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-gwastools: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ bioconductor-mbpcr
 
     <script>
         var package = "bioconductor-mbpcr";
-        var versions = ["1.46.0","1.44.0","1.44.0","1.42.0","1.40.0"];
+        var versions = ["1.48.0","1.46.0","1.44.0","1.44.0","1.42.0"];
     </script>
 
 

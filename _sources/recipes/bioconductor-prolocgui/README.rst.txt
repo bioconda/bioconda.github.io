@@ -28,15 +28,15 @@ bioconductor-prolocgui
       
       
 
-      ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.12.0-0``
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-msnbase: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-proloc: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-msnbase: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-proloc: ``>=1.34.0,<1.35.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-colorspace: 
    :depends r-colourpicker: 
@@ -81,7 +81,7 @@ bioconductor-prolocgui
 
     <script>
         var package = "bioconductor-prolocgui";
-        var versions = ["2.2.0","2.0.0","2.0.0","1.22.0","1.20.0"];
+        var versions = ["2.4.0","2.2.0","2.0.0","2.0.0","1.22.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ bioconductor-diffcoexp
       
       
 
-      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-diffcorr: 
    :depends r-igraph: 
@@ -70,7 +70,7 @@ bioconductor-diffcoexp
 
     <script>
         var package = "bioconductor-diffcoexp";
-        var versions = ["1.12.0","1.10.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.0"];
     </script>
 
 

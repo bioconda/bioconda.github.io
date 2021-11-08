@@ -29,10 +29,10 @@ bioconductor-chipseeker
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.3-1</code>,  <code>1.28.3-0</code>,  <code>1.26.2-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.3-1</code>,  <code>1.28.3-0</code>,  <code>1.26.2-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.28.3-1``,  ``1.28.3-0``,  ``1.26.2-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.2-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.6.6-0``
+      ``1.30.0-0``,  ``1.28.3-1``,  ``1.28.3-0``,  ``1.26.2-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.1-0``,  ``1.14.2-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.6.6-0``
 
       
       .. raw:: html
@@ -41,21 +41,20 @@ bioconductor-chipseeker
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-enrichplot: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-enrichplot: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-boot: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
-   :depends r-ggupset: 
    :depends r-gplots: 
    :depends r-gtools: 
    :depends r-magrittr: 
@@ -92,7 +91,7 @@ bioconductor-chipseeker
 
     <script>
         var package = "bioconductor-chipseeker";
-        var versions = ["1.28.3","1.28.3","1.26.2","1.26.0","1.24.0"];
+        var versions = ["1.30.0","1.28.3","1.28.3","1.26.2","1.26.0"];
     </script>
 
 

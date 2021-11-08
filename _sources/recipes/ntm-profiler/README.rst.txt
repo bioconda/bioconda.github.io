@@ -10,7 +10,7 @@ ntm-profiler
    :replaces_section_title:
    :noindex:
 
-   Profiling tool for NTM to detect species from WGS data
+   Profiling tool for NTM to detect species and resistance from WGS data
 
    :homepage: https://github.com/jodyphelan/NTM-Profiler
    :license: GPL3
@@ -27,14 +27,14 @@ ntm-profiler
       
       
 
-      ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
    :depends dsk: 
    :depends python: ``>=3.6``
-   :depends tb-profiler: ``>=4.0.1``
+   :depends tb-profiler: ``>=4.0.2``
    :depends tqdm: 
    :requirements:
 
@@ -67,7 +67,7 @@ ntm-profiler
 
     <script>
         var package = "ntm-profiler";
-        var versions = ["0.1.0","0.0.2","0.0.1"];
+        var versions = ["0.1.1","0.1.0","0.0.2","0.0.1"];
     </script>
 
 

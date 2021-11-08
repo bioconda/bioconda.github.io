@@ -27,34 +27,33 @@ bioconductor-animalcules
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.6-0``
+      ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.6-0``
 
       
 
    
-   :depends bioconductor-biomformat: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-limma: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-biomformat: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-ape: 
    :depends r-assertthat: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-caret: 
    :depends r-covr: 
-   :depends r-dmwr: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-forcats: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
+   :depends r-gunifrac: 
    :depends r-lattice: 
    :depends r-magrittr: 
    :depends r-matrix: 
    :depends r-plotly: 
    :depends r-plotroc: 
-   :depends r-reactable: 
    :depends r-rentrez: 
    :depends r-reshape2: 
    :depends r-scales: 
@@ -96,7 +95,7 @@ bioconductor-animalcules
 
     <script>
         var package = "bioconductor-animalcules";
-        var versions = ["1.6.0","1.6.0","1.4.0","1.2.0","1.0.6"];
+        var versions = ["1.10.0","1.6.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

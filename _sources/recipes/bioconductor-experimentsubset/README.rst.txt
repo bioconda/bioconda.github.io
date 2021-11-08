@@ -27,16 +27,16 @@ bioconductor-experimentsubset
       
       
 
-      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-spatialexperiment: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-spatialexperiment: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.2.0,<2.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrix: 
    :requirements:
@@ -70,7 +70,7 @@ bioconductor-experimentsubset
 
     <script>
         var package = "bioconductor-experimentsubset";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -27,17 +27,20 @@ bioconductor-cyanofilter
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-flowdensity: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-flowclust: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-flowdensity: ``>=1.28.0,<1.29.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-cytometree: 
    :depends r-ggally: 
    :depends r-ggplot2: 
+   :depends r-mrfdepth: 
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +72,7 @@ bioconductor-cyanofilter
 
     <script>
         var package = "bioconductor-cyanofilter";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

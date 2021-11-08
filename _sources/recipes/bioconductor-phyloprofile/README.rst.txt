@@ -27,16 +27,16 @@ bioconductor-phyloprofile
       
       
 
-      ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-biodist: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-omadb: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-biodist: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-omadb: ``>=2.10.0,<2.11.0``
    :depends r-ape: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-colourpicker: 
@@ -48,10 +48,12 @@ bioconductor-phyloprofile
    :depends r-pbapply: 
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
+   :depends r-rcurl: 
    :depends r-shiny: 
    :depends r-shinybs: 
    :depends r-shinyjs: 
    :depends r-xml2: 
+   :depends r-yaml: 
    :depends r-zoo: 
    :requirements:
 
@@ -84,7 +86,7 @@ bioconductor-phyloprofile
 
     <script>
         var package = "bioconductor-phyloprofile";
-        var versions = ["1.6.1","1.4.9","1.4.0","1.2.8","1.2.6"];
+        var versions = ["1.8.0","1.6.1","1.4.9","1.4.0","1.2.8"];
     </script>
 
 

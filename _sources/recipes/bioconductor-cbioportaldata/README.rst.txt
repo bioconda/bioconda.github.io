@@ -27,22 +27,22 @@ bioconductor-cbioportaldata
       
       
 
-      ``2.4.0-0``,  ``2.2.8-0``,  ``2.2.3-0``,  ``2.0.3-0``
+      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.8-0``,  ``2.2.3-0``,  ``2.0.3-0``
 
       
 
    
-   :depends bioconductor-anvil: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-raggedexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-rtcgatoolbox: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-tcgautils: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-anvil: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-raggedexperiment: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-rtcgatoolbox: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-tcgautils: ``>=1.14.0,<1.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-digest: 
    :depends r-dplyr: 
@@ -81,7 +81,7 @@ bioconductor-cbioportaldata
 
     <script>
         var package = "bioconductor-cbioportaldata";
-        var versions = ["2.4.0","2.2.8","2.2.3","2.0.3"];
+        var versions = ["2.6.0","2.4.0","2.2.8","2.2.3","2.0.3"];
     </script>
 
 

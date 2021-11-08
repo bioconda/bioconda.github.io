@@ -27,14 +27,14 @@ bioconductor-fastliquidassociation
       
       
 
-      ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-liquidassociation: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-liquidassociation: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-doparallel: 
    :depends r-hmisc: 
@@ -70,7 +70,7 @@ bioconductor-fastliquidassociation
 
     <script>
         var package = "bioconductor-fastliquidassociation";
-        var versions = ["1.28.0","1.26.0","1.26.0","1.24.0","1.22.0"];
+        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
     </script>
 
 

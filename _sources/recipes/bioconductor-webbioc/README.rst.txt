@@ -27,19 +27,27 @@ bioconductor-webbioc
    :versions:
       
       
+      .. raw:: html
 
-      ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  </span></summary>
+      
 
+      ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-affy: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-annaffy: ``>=1.63.0,<1.64.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-gcrma: ``>=2.64.0,<2.65.0``
-   :depends bioconductor-multtest: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-qvalue: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-vsn: ``>=3.60.0,<3.61.0``
+   :depends bioconductor-affy: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-annaffy: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-gcrma: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-multtest: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-qvalue: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-vsn: ``>=3.62.0,<3.63.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
    :requirements:
@@ -73,7 +81,7 @@ bioconductor-webbioc
 
     <script>
         var package = "bioconductor-webbioc";
-        var versions = ["1.64.0","1.62.0","1.62.0","1.60.0","1.58.0"];
+        var versions = ["1.66.0","1.64.0","1.62.0","1.62.0","1.60.0"];
     </script>
 
 

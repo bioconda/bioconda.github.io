@@ -27,16 +27,16 @@ bioconductor-italics
       
       
 
-      ``2.52.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-1``
+      ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-1``
 
       
 
    
-   :depends bioconductor-affxparser: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-glad: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-italicsdata: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-oligo: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-oligoclasses: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-affxparser: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-glad: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-italicsdata: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-oligo: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-oligoclasses: ``>=1.56.0,<1.57.0``
    :depends bioconductor-pd.mapping50k.xba240: ``>=3.12.0,<3.13.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
@@ -71,7 +71,7 @@ bioconductor-italics
 
     <script>
         var package = "bioconductor-italics";
-        var versions = ["2.52.0","2.50.0","2.50.0","2.48.0","2.46.0"];
+        var versions = ["2.54.0","2.52.0","2.50.0","2.50.0","2.48.0"];
     </script>
 
 

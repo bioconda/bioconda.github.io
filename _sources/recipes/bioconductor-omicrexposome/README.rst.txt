@@ -27,18 +27,18 @@ bioconductor-omicrexposome
       
       
 
-      ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-multidataset: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-omicade4: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-rexposome: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-sva: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-multidataset: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-omicade4: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-rexposome: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -78,7 +78,7 @@ bioconductor-omicrexposome
 
     <script>
         var package = "bioconductor-omicrexposome";
-        var versions = ["1.14.0","1.12.1","1.12.0","1.9.0","1.8.0"];
+        var versions = ["1.16.0","1.14.0","1.12.1","1.12.0","1.9.0"];
     </script>
 
 

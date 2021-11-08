@@ -27,16 +27,16 @@ bioconductor-enrichplot
       
       
 
-      ``1.12.0-0``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-dose: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-ggtree: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-gosemsim: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-dose: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-ggtree: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-gosemsim: ``>=2.20.0,<2.21.0``
+   :depends r-aplot: 
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-cowplot: 
    :depends r-ggplot2: 
    :depends r-ggraph: 
    :depends r-igraph: 
@@ -45,8 +45,10 @@ bioconductor-enrichplot
    :depends r-purrr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-rvcheck: ``<0.2.0``
    :depends r-scatterpie: 
    :depends r-shadowtext: 
+   :depends r-yulab.utils: ``>=0.0.4``
    :requirements:
 
    .. rubric:: Installation
@@ -78,7 +80,7 @@ bioconductor-enrichplot
 
     <script>
         var package = "bioconductor-enrichplot";
-        var versions = ["1.12.0","1.10.2","1.10.0","1.8.1","1.6.0"];
+        var versions = ["1.14.1","1.12.0","1.10.2","1.10.0","1.8.1"];
     </script>
 
 

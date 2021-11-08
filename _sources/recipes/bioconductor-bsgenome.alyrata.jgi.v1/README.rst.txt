@@ -27,13 +27,13 @@ bioconductor-bsgenome.alyrata.jgi.v1
       
       
 
-      ``1.0.1-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-bsgenome.alyrata.jgi.v1
 
     <script>
         var package = "bioconductor-bsgenome.alyrata.jgi.v1";
-        var versions = ["1.0.1","1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

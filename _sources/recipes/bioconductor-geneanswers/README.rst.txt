@@ -27,16 +27,17 @@ bioconductor-geneanswers
       
       
 
-      ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``
+      ``2.36.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-heatplus: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rbgl: ``>=1.66.0,<1.67.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends bioconductor-annotate: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-heatplus: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-keggrest: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-rbgl: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-downloader: 
    :depends r-igraph: 
    :depends r-mass: 
@@ -75,7 +76,7 @@ bioconductor-geneanswers
 
     <script>
         var package = "bioconductor-geneanswers";
-        var versions = ["2.32.0","2.32.0","2.30.0","2.28.0","2.26.0"];
+        var versions = ["2.36.0","2.32.0","2.32.0","2.30.0","2.28.0"];
     </script>
 
 

@@ -27,15 +27,20 @@ bioconductor-bioimagedbs
       
       
 
-      ``1.0.2-0``
+      ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-ebimage: ``>=4.34.0,<4.35.0``
-   :depends bioconductor-experimenthub: ``>=2.0.0,<2.1.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-ebimage: ``>=4.36.0,<4.37.0``
+   :depends bioconductor-experimenthub: ``>=2.2.0,<2.3.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends r-animation: 
    :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-einsum: 
+   :depends r-filesstrings: 
+   :depends r-magick: 
+   :depends r-magrittr: 
    :depends r-markdown: 
    :depends r-rmarkdown: 
    :requirements:
@@ -69,7 +74,7 @@ bioconductor-bioimagedbs
 
     <script>
         var package = "bioconductor-bioimagedbs";
-        var versions = ["1.0.2"];
+        var versions = ["1.2.0","1.0.2"];
     </script>
 
 
