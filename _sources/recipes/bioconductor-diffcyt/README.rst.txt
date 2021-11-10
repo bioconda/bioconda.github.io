@@ -27,18 +27,18 @@ bioconductor-diffcyt
       
       
 
-      ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.6-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.2.23-1``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.6-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.2.23-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-flowcore: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-flowsom: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-flowcore: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-flowsom: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-circlize: 
    :depends r-dplyr: 
@@ -78,7 +78,7 @@ bioconductor-diffcyt
 
     <script>
         var package = "bioconductor-diffcyt";
-        var versions = ["1.12.0","1.10.0","1.10.0","1.8.6","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.10.0","1.10.0","1.8.6"];
     </script>
 
 

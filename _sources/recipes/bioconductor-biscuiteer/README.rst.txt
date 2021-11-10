@@ -27,30 +27,30 @@ bioconductor-biscuiteer
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-biscuiteerdata: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-bsseq: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-dmrseq: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-hdf5array: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biscuiteerdata: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-bsseq: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-dmrseq: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-hdf5array: ``>=1.22.0,<1.23.0``
    :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
    :depends bioconductor-mus.musculus: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-qdnaseq: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-qdnaseq: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-gtools: 
@@ -90,7 +90,7 @@ bioconductor-biscuiteer
 
     <script>
         var package = "bioconductor-biscuiteer";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
     </script>
 
 

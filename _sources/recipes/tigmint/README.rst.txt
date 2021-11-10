@@ -31,7 +31,7 @@ tigmint
       
       
 
-      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-0``
+      ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-0``
 
       
 
@@ -41,13 +41,13 @@ tigmint
    :depends intervaltree: 
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends make: 
    :depends minimap2: 
    :depends pybedtools: 
    :depends pysam: ``>=0.15.3``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :depends zsh: 
    :requirements:
 
@@ -80,7 +80,7 @@ tigmint
 
     <script>
         var package = "tigmint";
-        var versions = ["1.2.4","1.2.4","1.2.3","1.2.2","1.2.2"];
+        var versions = ["1.2.5","1.2.4","1.2.4","1.2.3","1.2.2"];
     </script>
 
 

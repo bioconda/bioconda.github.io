@@ -27,12 +27,12 @@ bioconductor-tadcompare
       
       
 
-      ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-hiccompare: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-hiccompare: ``>=1.16.0,<1.17.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-cowplot: 
@@ -76,7 +76,7 @@ bioconductor-tadcompare
 
     <script>
         var package = "bioconductor-tadcompare";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

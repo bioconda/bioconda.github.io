@@ -27,21 +27,24 @@ bioconductor-treekor
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-ggtree: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-hopach: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-diffcyt: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-ggtree: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-hopach: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends r-ape: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggiraph: 
    :depends r-ggplot2: 
-   :depends r-magrittr: 
+   :depends r-lme4: 
+   :depends r-multcomp: 
    :depends r-patchwork: 
    :depends r-tidyr: 
    :requirements:
@@ -75,7 +78,7 @@ bioconductor-treekor
 
     <script>
         var package = "bioconductor-treekor";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 
