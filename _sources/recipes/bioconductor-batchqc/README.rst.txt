@@ -27,14 +27,22 @@ bioconductor-batchqc
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.10.1-0</code>,  <code>1.8.1-0</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-sva: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-sva: ``>=3.42.0,<3.43.0``
    :depends pandoc: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corpcor: 
@@ -81,7 +89,7 @@ bioconductor-batchqc
 
     <script>
         var package = "bioconductor-batchqc";
-        var versions = ["1.20.0","1.18.0","1.18.0","1.16.0","1.14.0"];
+        var versions = ["1.22.0","1.20.0","1.18.0","1.18.0","1.16.0"];
     </script>
 
 

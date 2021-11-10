@@ -27,19 +27,28 @@ bioconductor-meshes
    :versions:
       
       
+      .. raw:: html
 
-      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  </span></summary>
+      
 
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-dose: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-enrichplot: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-gosemsim: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-mesh.db: ``>=1.15.0,<1.16.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-dose: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-enrichplot: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-gosemsim: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-meshdbi: ``>=1.30.0,<1.31.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-rvcheck: 
+   :depends r-yulab.utils: 
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +80,7 @@ bioconductor-meshes
 
     <script>
         var package = "bioconductor-meshes";
-        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
     </script>
 
 

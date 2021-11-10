@@ -27,21 +27,21 @@ bioconductor-copynumberplots
       
       
 
-      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-cn.mops: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-karyoploter: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-regioner: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-cn.mops: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-karyoploter: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-regioner: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -74,7 +74,7 @@ bioconductor-copynumberplots
 
     <script>
         var package = "bioconductor-copynumberplots";
-        var versions = ["1.8.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
     </script>
 
 

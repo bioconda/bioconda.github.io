@@ -27,11 +27,16 @@ parallel-meta-suite
       
       
 
-      
+      ``1.0-0``
 
       
 
    
+   :depends hmmer: 
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends r-pheatmap: 
+   :depends vsearch: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +68,7 @@ parallel-meta-suite
 
     <script>
         var package = "parallel-meta-suite";
-        var versions = [];
+        var versions = ["1.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ bioconductor-listeretalbsseq
       
       
 
-      ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-1``,  ``1.14.0-0``
+      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-1``,  ``1.14.0-0``
 
       
 
    
-   :depends bioconductor-methylpipe: ``>=1.26.0,<1.27.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-methylpipe: ``>=1.27.0,<1.28.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-listeretalbsseq
 
     <script>
         var package = "bioconductor-listeretalbsseq";
-        var versions = ["1.24.0","1.22.0","1.22.0","1.20.0","1.18.0"];
+        var versions = ["1.26.0","1.24.0","1.22.0","1.22.0","1.20.0"];
     </script>
 
 

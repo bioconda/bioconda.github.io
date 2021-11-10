@@ -27,14 +27,14 @@ bioconductor-netsam
       
       
 
-      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: ``>=0.5-1``
    :depends r-doparallel: ``>=1.0.10``
@@ -75,7 +75,7 @@ bioconductor-netsam
 
     <script>
         var package = "bioconductor-netsam";
-        var versions = ["1.32.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.28.0"];
     </script>
 
 

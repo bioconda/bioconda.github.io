@@ -30,7 +30,7 @@ perl-fastx-abi
       
       
 
-      ``0.11-1``,  ``0.11-0``,  ``0.08-0``
+      ``1.0.0-0``,  ``0.11-1``,  ``0.11-0``,  ``0.08-0``
 
       
 
@@ -69,7 +69,7 @@ perl-fastx-abi
 
     <script>
         var package = "perl-fastx-abi";
-        var versions = ["0.11","0.11","0.08"];
+        var versions = ["1.0.0","0.11","0.11","0.08"];
     </script>
 
 

@@ -29,7 +29,7 @@ eukcc
       
       
 
-      ``2.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
+      ``2.1.0-0``,  ``2.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
 
       
 
@@ -42,6 +42,7 @@ eukcc
    :depends jsonpickle: 
    :depends metaeuk: ``4.a0f584d.*``
    :depends numpy: 
+   :depends pplacer: 
    :depends pysam: 
    :depends python: 
    :depends python: ``>=3.6``
@@ -77,7 +78,7 @@ eukcc
 
     <script>
         var package = "eukcc";
-        var versions = ["2.0","0.3","0.2","0.2","0.1.5.1"];
+        var versions = ["2.1.0","2.0","0.3","0.2","0.2"];
     </script>
 
 

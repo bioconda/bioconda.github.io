@@ -27,20 +27,20 @@ bioconductor-scone
       
       
 
-      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.6.0-0``
+      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.1-0``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-aroma.light: ``>=3.22.0,<3.23.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-matrixgenerics: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-ruvseq: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-aroma.light: ``>=3.24.0,<3.25.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-matrixgenerics: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-ruvseq: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-boot: 
    :depends r-class: 
@@ -85,7 +85,7 @@ bioconductor-scone
 
     <script>
         var package = "bioconductor-scone";
-        var versions = ["1.16.0","1.14.0","1.14.0","1.12.0","1.10.0"];
+        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.12.0"];
     </script>
 
 

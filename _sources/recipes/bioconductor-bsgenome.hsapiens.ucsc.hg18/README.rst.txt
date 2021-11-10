@@ -26,14 +26,22 @@ bioconductor-bsgenome.hsapiens.ucsc.hg18
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1000-10``,  ``1.3.1000-9``,  ``1.3.1000-8``,  ``1.3.1000-7``,  ``1.3.1000-6``,  ``1.3.1000-5``,  ``1.3.1000-3``,  ``1.3.1000-2``,  ``1.3.1000-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.1000-11</code>,  <code>1.3.1000-10</code>,  <code>1.3.1000-9</code>,  <code>1.3.1000-8</code>,  <code>1.3.1000-7</code>,  <code>1.3.1000-6</code>,  <code>1.3.1000-5</code>,  <code>1.3.1000-3</code>,  <code>1.3.1000-2</code>,  </span></summary>
+      
 
+      ``1.3.1000-11``,  ``1.3.1000-10``,  ``1.3.1000-9``,  ``1.3.1000-8``,  ``1.3.1000-7``,  ``1.3.1000-6``,  ``1.3.1000-5``,  ``1.3.1000-3``,  ``1.3.1000-2``,  ``1.3.1000-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

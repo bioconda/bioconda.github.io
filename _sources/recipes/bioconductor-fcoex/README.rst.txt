@@ -27,15 +27,15 @@ bioconductor-fcoex
       
       
 
-      ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-fcbf: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-pathwaypca: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
+   :depends bioconductor-fcbf: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-pathwaypca: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -80,7 +80,7 @@ bioconductor-fcoex
 
     <script>
         var package = "bioconductor-fcoex";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.2.0"];
     </script>
 
 

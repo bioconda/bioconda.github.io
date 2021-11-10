@@ -13,6 +13,8 @@ hecatomb
    Accurate classification of viral sequences from metagenome samples
 
    :homepage: https://github.com/shandley/hecatomb
+   :documentation: https://hecatomb.readthedocs.io/en/latest/
+   
    :license: MIT
    :recipe: /`hecatomb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hecatomb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hecatomb/meta.yaml>`_
 
@@ -27,15 +29,19 @@ hecatomb
       
       
 
-      ``1.0.0.beta.2-0``
+      ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
 
       
 
    
+   :depends jinja2: ``>=3.0.2``
    :depends mamba: ``>=0.15.3``
+   :depends networkx: ``>=2.6.3``
+   :depends pygments: ``>=2.10.0``
+   :depends pygraphviz: ``>=1.7``
    :depends python: ``3.*``
    :depends pyyaml: ``>=5.4.1``
-   :depends snakemake-minimal: ``6.4.1.*``
+   :depends snakemake-minimal: ``>=6.10.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +73,7 @@ hecatomb
 
     <script>
         var package = "hecatomb";
-        var versions = ["1.0.0.beta.2"];
+        var versions = ["1.0.0.beta.2","1.0.0.beta.2"];
     </script>
 
 

@@ -27,24 +27,29 @@ bioconductor-pigengene
       
       
 
-      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-preprocesscore: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
+   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-preprocesscore: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-reactomepa: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-bnlearn: ``>=4.4.1``
+   :depends r-bnlearn: ``>=4.7``
    :depends r-c50: ``>=0.1.2``
+   :depends r-dbi: 
    :depends r-dplyr: 
    :depends r-gdata: 
+   :depends r-ggplot2: 
    :depends r-mass: 
    :depends r-matrixstats: 
+   :depends r-openxlsx: 
    :depends r-partykit: 
    :depends r-pheatmap: ``>=1.0.8``
    :depends r-wgcna: 
@@ -79,7 +84,7 @@ bioconductor-pigengene
 
     <script>
         var package = "bioconductor-pigengene";
-        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
     </script>
 
 

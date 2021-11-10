@@ -27,14 +27,14 @@ bioconductor-pfp
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-kegggraph: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-kegggraph: ``>=1.54.0,<1.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-igraph: 
@@ -72,7 +72,7 @@ bioconductor-pfp
 
     <script>
         var package = "bioconductor-pfp";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

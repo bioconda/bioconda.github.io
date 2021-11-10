@@ -27,16 +27,16 @@ bioconductor-a4
       
       
 
-      ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
+      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
 
       
 
    
-   :depends bioconductor-a4base: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-a4classif: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-a4core: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-a4preproc: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-a4reporting: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-a4base: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-a4classif: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-a4core: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-a4preproc: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-a4reporting: ``>=1.42.0,<1.43.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -69,7 +69,7 @@ bioconductor-a4
 
     <script>
         var package = "bioconductor-a4";
-        var versions = ["1.40.0","1.38.0","1.38.0","1.36.0","1.34.0"];
+        var versions = ["1.42.0","1.40.0","1.38.0","1.38.0","1.36.0"];
     </script>
 
 

@@ -27,21 +27,21 @@ bioconductor-gdcrnatools
       
       
 
-      ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-deseq2: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-dose: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-edger: ``>=3.34.0,<3.35.0``
-   :depends bioconductor-genomicdatacommons: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-pathview: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-dose: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-genomicdatacommons: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-pathview: ``>=1.34.0,<1.35.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dt: 
    :depends r-ggplot2: 
@@ -83,7 +83,7 @@ bioconductor-gdcrnatools
 
     <script>
         var package = "bioconductor-gdcrnatools";
-        var versions = ["1.12.0","1.10.1","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.14.0","1.12.0","1.10.1","1.10.0","1.8.0"];
     </script>
 
 

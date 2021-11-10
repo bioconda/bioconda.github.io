@@ -27,17 +27,17 @@ bioconductor-omicspca
       
       
 
-      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.5.0-0``,  ``1.2.0-1``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.5.0-0``,  ``1.2.0-1``
 
       
 
    
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-helloranges: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-omicspcadata: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-helloranges: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-omicspcadata: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-clvalid: 
@@ -89,7 +89,7 @@ bioconductor-omicspca
 
     <script>
         var package = "bioconductor-omicspca";
-        var versions = ["1.10.0","1.8.0","1.8.0","1.5.0","1.2.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.5.0"];
     </script>
 
 

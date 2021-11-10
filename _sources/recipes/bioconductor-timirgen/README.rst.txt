@@ -27,17 +27,17 @@ bioconductor-timirgen
       
       
 
-      ``1.2.0-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-mfuzz: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-rcy3: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-rwikipathways: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
+   :depends bioconductor-mfuzz: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-rcy3: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-rwikipathways: ``>=1.14.0,<1.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: ``>=0.8.4``
    :depends r-freqprof: 
@@ -83,7 +83,7 @@ bioconductor-timirgen
 
     <script>
         var package = "bioconductor-timirgen";
-        var versions = ["1.2.0","1.0.3","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.3","1.0.0"];
     </script>
 
 

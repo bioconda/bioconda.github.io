@@ -28,10 +28,10 @@ scelvis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.7-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  </span></summary>
       
 
-      ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.8.7-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,28 +40,28 @@ scelvis
       
 
    
-   :depends anndata: 
-   :depends attrs: 
+   :depends anndata: ``>=0.7.6``
+   :depends attrs: ``>=21.2``
    :depends dash: 
    :depends dash-bootstrap-components: 
-   :depends dash-core-components: 
-   :depends dash-html-components: 
-   :depends dash-renderer: 
-   :depends dash-table: 
-   :depends flask: 
-   :depends flask-caching: 
-   :depends fs: 
-   :depends fs.sshfs: 
-   :depends htmllistparse: 
-   :depends logzero: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends plotly: 
+   :depends dash-core-components: ``>1.0,<2.0``
+   :depends dash-html-components: ``>1.0,<2.0``
+   :depends dash-renderer: ``>=1.9.1,<2.0``
+   :depends dash-table: ``>=5.0``
+   :depends flask: ``>=2.0``
+   :depends flask-caching: ``>=1.10``
+   :depends fs: ``>=2.4.11``
+   :depends fs.sshfs: ``>=1.0.0``
+   :depends htmllistparse: ``>=0.5``
+   :depends logzero: ``>=1.7.0``
+   :depends numpy: ``>=1.21.4``
+   :depends pandas: ``>=1.3.4``
+   :depends plotly: ``>=5.3.1``
    :depends python: ``>=3.6``
    :depends python-irodsclient: ``>=0.8.2``
-   :depends requests: 
-   :depends ruamel.yaml: 
-   :depends s3fs: 
+   :depends requests: ``>=2.26.0``
+   :depends ruamel.yaml: ``>=0.17.17``
+   :depends s3fs: ``>=2021.11.0``
    :depends scanpy: 
    :requirements:
 
@@ -94,7 +94,7 @@ scelvis
 
     <script>
         var package = "scelvis";
-        var versions = ["0.8.4","0.8.3","0.8.2","0.8.2","0.8.1"];
+        var versions = ["0.8.7","0.8.4","0.8.3","0.8.2","0.8.2"];
     </script>
 
 

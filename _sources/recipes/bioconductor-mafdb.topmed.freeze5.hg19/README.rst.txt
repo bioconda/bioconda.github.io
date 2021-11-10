@@ -27,18 +27,18 @@ bioconductor-mafdb.topmed.freeze5.hg19
       
       
 
-      ``3.10.0-4``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.9.0-1``,  ``3.7.1-0``
+      ``3.10.0-5``,  ``3.10.0-4``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.9.0-1``,  ``3.7.1-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-genomicscores: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicscores: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -71,7 +71,7 @@ bioconductor-mafdb.topmed.freeze5.hg19
 
     <script>
         var package = "bioconductor-mafdb.topmed.freeze5.hg19";
-        var versions = ["3.10.0","3.10.0","3.10.0","3.10.0","3.9.0"];
+        var versions = ["3.10.0","3.10.0","3.10.0","3.10.0","3.10.0"];
     </script>
 
 

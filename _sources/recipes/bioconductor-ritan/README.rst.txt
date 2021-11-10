@@ -27,14 +27,14 @@ bioconductor-ritan
       
       
 
-      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-1``,  ``1.6.0-1``,  ``1.6.0-0``
+      ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-1``,  ``1.6.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bioconductor-bgeedb: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-ritandata: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-stringdb: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-bgeedb: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-ritandata: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-stringdb: ``>=2.6.0,<2.7.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dynamictreecut: 
    :depends r-ggplot2: 
@@ -82,7 +82,7 @@ bioconductor-ritan
 
     <script>
         var package = "bioconductor-ritan";
-        var versions = ["1.16.0","1.14.0","1.14.0","1.12.0","1.10.0"];
+        var versions = ["1.17.0","1.16.0","1.14.0","1.14.0","1.12.0"];
     </script>
 
 

@@ -27,16 +27,16 @@ bioconductor-rgmql
       
       
 
-      ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-rgmqllib: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-rgmqllib: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -76,7 +76,7 @@ bioconductor-rgmql
 
     <script>
         var package = "bioconductor-rgmql";
-        var versions = ["1.12.1","1.10.0","1.10.0","1.6.0","1.4.1"];
+        var versions = ["1.14.0","1.12.1","1.10.0","1.10.0","1.6.0"];
     </script>
 
 

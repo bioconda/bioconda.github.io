@@ -27,17 +27,18 @@ bioconductor-pipeframe
       
       
 
-      ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-digest: 
    :depends r-magrittr: 
+   :depends r-rmarkdown: 
    :depends r-visnetwork: 
    :requirements:
 
@@ -70,7 +71,7 @@ bioconductor-pipeframe
 
     <script>
         var package = "bioconductor-pipeframe";
-        var versions = ["1.8.0","1.6.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.8.0","1.6.0","1.6.0","1.4.0"];
     </script>
 
 

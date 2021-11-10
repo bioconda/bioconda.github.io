@@ -45,6 +45,7 @@ bioconductor-qrqc
    :depends bioconductor-biovizbase: ``>=1.42.0,<1.43.0``
    :depends bioconductor-rhtslib: ``>=1.26.0,<1.27.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-brew: 

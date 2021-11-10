@@ -29,10 +29,10 @@ bioconductor-sispa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-sispa
       
 
    
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-gsva: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-gsva: ``>=1.42.0,<1.43.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-changepoint: 
    :depends r-data.table: 
@@ -79,7 +79,7 @@ bioconductor-sispa
 
     <script>
         var package = "bioconductor-sispa";
-        var versions = ["1.22.0","1.20.0","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.18.0"];
     </script>
 
 

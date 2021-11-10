@@ -27,16 +27,27 @@ bioconductor-mungesumstats
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
+   :depends r-dplyr: 
+   :depends r-googleauthr: 
+   :depends r-httr: 
+   :depends r-jsonlite: 
+   :depends r-magrittr: 
+   :depends r-r.utils: 
+   :depends r-rcurl: 
+   :depends r-stringr: 
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +79,7 @@ bioconductor-mungesumstats
 
     <script>
         var package = "bioconductor-mungesumstats";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

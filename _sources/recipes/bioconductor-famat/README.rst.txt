@@ -27,17 +27,17 @@ bioconductor-famat
       
       
 
-      ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-keggrest: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-reactome.db: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-rwikipathways: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-clusterprofiler: ``>=4.2.0,<4.3.0``
+   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-keggrest: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-reactome.db: ``>=1.77.0,<1.78.0``
+   :depends bioconductor-rwikipathways: ``>=1.14.0,<1.15.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
@@ -82,7 +82,7 @@ bioconductor-famat
 
     <script>
         var package = "bioconductor-famat";
-        var versions = ["1.1.1","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.1.1","1.0.0","1.0.0"];
     </script>
 
 

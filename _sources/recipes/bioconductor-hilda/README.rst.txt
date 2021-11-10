@@ -27,23 +27,22 @@ bioconductor-hilda
       
       
 
-      ``1.6.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-xvector: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-xvector: ``>=0.34.0,<0.35.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
@@ -84,7 +83,7 @@ bioconductor-hilda
 
     <script>
         var package = "bioconductor-hilda";
-        var versions = ["1.6.0","1.4.0","1.4.0","1.4.0","1.2.0"];
+        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.4.0"];
     </script>
 
 

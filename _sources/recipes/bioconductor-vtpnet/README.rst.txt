@@ -27,14 +27,14 @@ bioconductor-vtpnet
       
       
 
-      ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
+      ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-gwascat: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-gwascat: ``>=2.26.0,<2.27.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -69,7 +69,7 @@ bioconductor-vtpnet
 
     <script>
         var package = "bioconductor-vtpnet";
-        var versions = ["0.32.0","0.30.0","0.30.0","0.28.0","0.26.0"];
+        var versions = ["0.34.0","0.32.0","0.30.0","0.30.0","0.28.0"];
     </script>
 
 

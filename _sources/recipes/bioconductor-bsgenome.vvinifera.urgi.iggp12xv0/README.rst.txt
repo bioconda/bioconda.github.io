@@ -27,13 +27,13 @@ bioconductor-bsgenome.vvinifera.urgi.iggp12xv0
       
       
 
-      ``0.1-7``,  ``0.1-6``,  ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-0``
+      ``0.1-8``,  ``0.1-7``,  ``0.1-6``,  ``0.1-5``,  ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

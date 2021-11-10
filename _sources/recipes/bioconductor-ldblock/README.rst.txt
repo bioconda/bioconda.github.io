@@ -27,19 +27,19 @@ bioconductor-ldblock
       
       
 
-      ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
    :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
-   :depends bioconductor-ensembldb: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicfiles: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-snpstats: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-ensembldb: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicfiles: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-snpstats: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-httr: 
    :depends r-matrix: 
@@ -74,7 +74,7 @@ bioconductor-ldblock
 
     <script>
         var package = "bioconductor-ldblock";
-        var versions = ["1.22.0","1.20.0","1.20.0","1.18.0","1.16.0"];
+        var versions = ["1.24.0","1.22.0","1.20.0","1.20.0","1.18.0"];
     </script>
 
 

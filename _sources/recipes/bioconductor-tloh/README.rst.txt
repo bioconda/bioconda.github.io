@@ -27,14 +27,14 @@ bioconductor-tloh
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-matrixgenerics: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-matrixgenerics: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -72,7 +72,7 @@ bioconductor-tloh
 
     <script>
         var package = "bioconductor-tloh";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

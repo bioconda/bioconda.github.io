@@ -27,13 +27,13 @@ bioconductor-pagerank
       
       
 
-      ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-motifmatchr: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-motifmatchr: ``>=1.16.0,<1.17.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-igraph: 
    :requirements:
@@ -67,7 +67,7 @@ bioconductor-pagerank
 
     <script>
         var package = "bioconductor-pagerank";
-        var versions = ["1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

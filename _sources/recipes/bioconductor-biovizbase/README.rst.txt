@@ -56,6 +56,7 @@ bioconductor-biovizbase
    :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dichromat: 

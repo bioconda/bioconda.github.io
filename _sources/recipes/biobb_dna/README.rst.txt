@@ -51,12 +51,12 @@ biobb_dna
       
       
 
-      ``3.7.0-0``,  ``3.6.2-1``,  ``3.6.2-0``,  ``3.6.1-0``,  ``1.1.1-0``
+      ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.2-1``,  ``3.6.2-0``,  ``3.6.1-0``,  ``1.1.1-0``
 
       
 
    
-   :depends biobb_common: ``3.7.0``
+   :depends biobb_common: ``>=3.7``
    :depends curves: ``3.0.0``
    :depends matplotlib-base: ``3.4.2``
    :depends pandas: ``1.3.0``
@@ -93,7 +93,7 @@ biobb_dna
 
     <script>
         var package = "biobb_dna";
-        var versions = ["3.7.0","3.6.2","3.6.2","3.6.1","1.1.1"];
+        var versions = ["3.7.1","3.7.0","3.6.2","3.6.2","3.6.1"];
     </script>
 
 

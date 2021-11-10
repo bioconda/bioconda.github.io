@@ -27,19 +27,19 @@ bioconductor-mirlab
       
       
 
-      ``1.22.0-0``
+      ``1.24.0-0``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-category: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-ctc: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-gostats: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-impute: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-tcgabiolinks: ``>=2.20.0,<2.21.0``
+   :depends bioconductor-category: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-ctc: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-gostats: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-impute: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-tcgabiolinks: ``>=2.22.0,<2.23.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-energy: 
@@ -83,7 +83,7 @@ bioconductor-mirlab
 
     <script>
         var package = "bioconductor-mirlab";
-        var versions = ["1.22.0"];
+        var versions = ["1.24.0","1.22.0"];
     </script>
 
 

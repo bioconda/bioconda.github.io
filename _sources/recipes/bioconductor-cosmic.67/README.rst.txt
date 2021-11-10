@@ -27,15 +27,15 @@ bioconductor-cosmic.67
       
       
 
-      ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-cosmic.67
 
     <script>
         var package = "bioconductor-cosmic.67";
-        var versions = ["1.28.0","1.26.0","1.26.0","1.24.0","1.22.0"];
+        var versions = ["1.30.0","1.28.0","1.26.0","1.26.0","1.24.0"];
     </script>
 
 

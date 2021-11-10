@@ -27,20 +27,20 @@ bioconductor-regutools
       
       
 
-      ``1.4.0-0``,  ``1.2.3-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.3-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-biocfilecache: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-gviz: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rcy3: ``>=2.12.0,<2.13.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-biocfilecache: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-gviz: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rcy3: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 
@@ -75,7 +75,7 @@ bioconductor-regutools
 
     <script>
         var package = "bioconductor-regutools";
-        var versions = ["1.4.0","1.2.3","1.2.0","1.0.1"];
+        var versions = ["1.6.0","1.4.0","1.2.3","1.2.0","1.0.1"];
     </script>
 
 

@@ -27,36 +27,30 @@ bioconductor-tbsignatureprofiler
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-assign: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-biocparallel: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-biodist: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-complexheatmap: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-deseq2: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-edger: ``>=3.32.0,<3.33.0``
-   :depends bioconductor-gsva: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-s4vectors: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-singscore: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends r-boot: 
-   :depends r-caret: 
-   :depends r-circlize: 
+   :depends bioconductor-assign: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-complexheatmap: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-edger: ``>=3.36.0,<3.37.0``
+   :depends bioconductor-gsva: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-singscore: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dt: 
-   :depends r-e1071: 
    :depends r-gdata: 
-   :depends r-ggfortify: 
    :depends r-ggplot2: 
-   :depends r-glmnet: 
+   :depends r-magrittr: 
    :depends r-rcolorbrewer: 
-   :depends r-readr: 
    :depends r-reshape2: 
+   :depends r-rlang: 
    :depends r-rocit: 
-   :depends r-shiny: 
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +82,7 @@ bioconductor-tbsignatureprofiler
 
     <script>
         var package = "bioconductor-tbsignatureprofiler";
-        var versions = ["1.2.0","1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-cager
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.1-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.3-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>1.34.0-0</code>,  <code>1.32.1-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.3-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.1-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.3-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``
+      ``2.0.1-0``,  ``1.34.0-0``,  ``1.32.1-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.3-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -41,21 +41,21 @@ bioconductor-cager
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biocparallel: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-bsgenome: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-delayedarray: ``>=0.18.0,<0.19.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicalignments: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocparallel: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-bsgenome: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-delayedarray: ``>=0.20.0,<0.21.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicalignments: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-beanplot: 
    :depends r-data.table: 
    :depends r-formula.tools: 
    :depends r-ggplot2: ``>=2.2.0``
@@ -63,7 +63,7 @@ bioconductor-cager
    :depends r-kernsmooth: 
    :depends r-memoise: 
    :depends r-plyr: 
-   :depends r-reshape: 
+   :depends r-reshape2: 
    :depends r-som: 
    :depends r-stringdist: 
    :depends r-stringi: 
@@ -100,7 +100,7 @@ bioconductor-cager
 
     <script>
         var package = "bioconductor-cager";
-        var versions = ["1.34.0","1.32.1","1.32.0","1.30.0","1.28.0"];
+        var versions = ["2.0.1","1.34.0","1.32.1","1.32.0","1.30.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-purecn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>1.22.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.22.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.2-0``,  ``1.14.0-0``,  ``1.13.1-2``,  ``1.12.1-0``,  ``1.11.20-2``,  ``1.11.20-1``,  ``1.11.13-1``,  ``1.11.13-0``,  ``1.8.0-0``,  ``1.6.3-0``
+      ``2.0.1-0``,  ``1.22.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.2-0``,  ``1.14.0-0``,  ``1.13.1-2``,  ``1.12.1-0``,  ``1.11.20-2``,  ``1.11.20-1``,  ``1.11.13-1``,  ``1.11.13-0``,  ``1.8.0-0``,  ``1.6.3-0``
 
       
       .. raw:: html
@@ -41,25 +41,27 @@ bioconductor-purecn
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-dnacopy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicfeatures: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rhdf5: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-rtracklayer: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-dnacopy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rhdf5: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-rtracklayer: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-data.table: 
    :depends r-futile.logger: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-matrix: 
+   :depends r-mclust: 
    :depends r-rcolorbrewer: 
    :depends r-vgam: 
    :requirements:
@@ -93,7 +95,7 @@ bioconductor-purecn
 
     <script>
         var package = "bioconductor-purecn";
-        var versions = ["1.22.1","1.20.0","1.20.0","1.18.1","1.18.0"];
+        var versions = ["2.0.1","1.22.1","1.20.0","1.20.0","1.18.1"];
     </script>
 
 

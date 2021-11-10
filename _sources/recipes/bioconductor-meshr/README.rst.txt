@@ -27,26 +27,21 @@ bioconductor-meshr
       
       
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.18.0-0``
+      ``2.0.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-category: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-cummerbund: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-mesh.aca.eg.db: ``>=1.15.0,<1.16.0``
-   :depends bioconductor-mesh.aor.db: ``>=1.15.0,<1.16.0``
-   :depends bioconductor-mesh.bsu.168.eg.db: ``>=1.15.0,<1.16.0``
-   :depends bioconductor-mesh.db: ``>=1.15.0,<1.16.0``
-   :depends bioconductor-mesh.hsa.eg.db: ``>=1.15.0,<1.16.0``
-   :depends bioconductor-mesh.pcr.db: ``>=1.15.0,<1.16.0``
-   :depends bioconductor-mesh.syn.eg.db: ``>=1.15.0,<1.16.0``
-   :depends bioconductor-meshdbi: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-category: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-meshdbi: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-fdrtool: 
+   :depends r-knitr: 
+   :depends r-markdown: 
+   :depends r-rmarkdown: 
    :depends r-rsqlite: 
    :requirements:
 
@@ -79,7 +74,7 @@ bioconductor-meshr
 
     <script>
         var package = "bioconductor-meshr";
-        var versions = ["1.28.0","1.26.0","1.24.1","1.22.0","1.20.0"];
+        var versions = ["2.0.0","1.28.0","1.26.0","1.24.1","1.22.0"];
     </script>
 
 

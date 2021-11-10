@@ -27,15 +27,15 @@ bioconductor-cnvrd2
       
       
 
-      ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-dnacopy: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rsamtools: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-dnacopy: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rsamtools: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
@@ -71,7 +71,7 @@ bioconductor-cnvrd2
 
     <script>
         var package = "bioconductor-cnvrd2";
-        var versions = ["1.30.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+        var versions = ["1.32.0","1.30.0","1.28.0","1.28.0","1.26.0"];
     </script>
 
 

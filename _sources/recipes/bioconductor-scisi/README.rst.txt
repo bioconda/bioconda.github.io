@@ -27,18 +27,26 @@ bioconductor-scisi
    :versions:
       
       
+      .. raw:: html
 
-      ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.65.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-1</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  </span></summary>
+      
 
+      ``1.65.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotate: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-apcomplex: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-go.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-org.sc.sgd.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-rpsixml: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-annotate: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-apcomplex: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-go.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-org.sc.sgd.db: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-rpsixml: ``>=2.36.0,<2.37.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -71,7 +79,7 @@ bioconductor-scisi
 
     <script>
         var package = "bioconductor-scisi";
-        var versions = ["1.64.0","1.62.0","1.62.0","1.60.0","1.58.0"];
+        var versions = ["1.65.0","1.64.0","1.62.0","1.62.0","1.60.0"];
     </script>
 
 
