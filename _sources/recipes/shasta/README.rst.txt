@@ -30,15 +30,15 @@ shasta
       
       
 
-      ``0.6.0-0``
+      ``0.8.0-0``,  ``0.6.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libpng: 
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends python: ``3.*``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends python: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +70,7 @@ shasta
 
     <script>
         var package = "shasta";
-        var versions = ["0.6.0"];
+        var versions = ["0.8.0","0.6.0"];
     </script>
 
 

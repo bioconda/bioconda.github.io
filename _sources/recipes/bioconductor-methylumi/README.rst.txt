@@ -29,10 +29,10 @@ bioconductor-methylumi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.40.1-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  </span></summary>
       
 
-      ``2.38.0-0``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.22.0-1``,  ``2.22.0-0``
+      ``2.40.1-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.22.0-1``,  ``2.22.0-0``
 
       
       .. raw:: html
@@ -41,19 +41,20 @@ bioconductor-methylumi
       
 
    
-   :depends bioconductor-annotate: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
+   :depends bioconductor-annotate: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
    :depends bioconductor-fdb.infiniummethylation.hg19: ``>=2.2.0,<2.3.0``
-   :depends bioconductor-genefilter: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-genomeinfodb: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-genomicranges: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-illuminaio: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-iranges: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-genefilter: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-genomeinfodb: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-genomicfeatures: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-illuminaio: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-iranges: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-ggplot2: 
    :depends r-lattice: 
@@ -91,7 +92,7 @@ bioconductor-methylumi
 
     <script>
         var package = "bioconductor-methylumi";
-        var versions = ["2.38.0","2.36.0","2.36.0","2.34.0","2.32.0"];
+        var versions = ["2.40.1","2.38.0","2.36.0","2.36.0","2.34.0"];
     </script>
 
 

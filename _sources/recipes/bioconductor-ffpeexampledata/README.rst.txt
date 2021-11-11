@@ -27,13 +27,13 @@ bioconductor-ffpeexampledata
       
       
 
-      ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
 
    
-   :depends bioconductor-lumi: ``>=2.44.0,<2.45.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-lumi: ``>=2.46.0,<2.47.0``
+   :depends curl: ``>=7.80.0,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -66,7 +66,7 @@ bioconductor-ffpeexampledata
 
     <script>
         var package = "bioconductor-ffpeexampledata";
-        var versions = ["1.30.0","1.28.0","1.28.0","1.26.0","1.24.0"];
+        var versions = ["1.32.0","1.30.0","1.28.0","1.28.0","1.26.0"];
     </script>
 
 

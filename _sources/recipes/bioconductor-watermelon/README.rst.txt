@@ -27,19 +27,27 @@ bioconductor-watermelon
    :versions:
       
       
+      .. raw:: html
 
-      ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
+      
 
+      ``2.0.0-1``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
-   :depends bioconductor-illuminaio: ``>=0.34.0,<0.35.0``
-   :depends bioconductor-limma: ``>=3.48.0,<3.49.0``
-   :depends bioconductor-lumi: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-methylumi: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-roc: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-illuminaio: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-limma: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-lumi: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-methylumi: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-roc: ``>=1.70.0,<1.71.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrixstats: 
    :requirements:
@@ -73,7 +81,7 @@ bioconductor-watermelon
 
     <script>
         var package = "bioconductor-watermelon";
-        var versions = ["1.36.0","1.34.0","1.34.0","1.32.0","1.30.0"];
+        var versions = ["2.0.0","1.36.0","1.34.0","1.34.0","1.32.0"];
     </script>
 
 

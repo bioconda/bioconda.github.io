@@ -27,41 +27,42 @@ bioconductor-sctensor
       
       
 
-      ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.12-0``
+      ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.12-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-annotationhub: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-biocstyle: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-category: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-dose: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-gostats: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-meshdbi: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-meshr: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-reactome.db: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-reactomepa: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-s4vectors: ``>=0.30.0,<0.31.0``
-   :depends bioconductor-schex: ``>=1.5.0,<1.6.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-annotationhub: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-biocstyle: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-category: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-dose: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-gostats: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-meshdbi: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-meshr: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-reactome.db: ``>=1.77.0,<1.78.0``
+   :depends bioconductor-reactomepa: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-s4vectors: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-schex: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
    :depends r-abind: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-biocmanager: 
+   :depends r-cctensor: ``>=1.0.2``
    :depends r-checkmate: 
    :depends r-crayon: 
    :depends r-ggplot2: 
    :depends r-heatmaply: 
    :depends r-igraph: 
    :depends r-knitr: 
-   :depends r-nntensor: 
+   :depends r-nntensor: ``>=1.1.5``
    :depends r-outliers: 
    :depends r-plotly: 
    :depends r-plotrix: 
    :depends r-rmarkdown: 
    :depends r-rsqlite: 
-   :depends r-rtensor: 
+   :depends r-rtensor: ``>=1.4.8``
    :depends r-tagcloud: 
    :depends r-visnetwork: 
    :requirements:
@@ -95,7 +96,7 @@ bioconductor-sctensor
 
     <script>
         var package = "bioconductor-sctensor";
-        var versions = ["2.2.0","2.0.0","2.0.0","1.4.0","1.2.0"];
+        var versions = ["2.4.0","2.2.0","2.0.0","2.0.0","1.4.0"];
     </script>
 
 

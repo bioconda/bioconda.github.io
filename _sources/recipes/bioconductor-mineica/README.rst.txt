@@ -28,22 +28,22 @@ bioconductor-mineica
       
       
 
-      ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.18.0-0``
+      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``,  ``1.18.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-biomart: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-gostats: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-graph: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-lumi: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-annotate: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biomart: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-gostats: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-graph: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-lumi: ``>=2.46.0,<2.47.0``
    :depends bioconductor-lumihumanall.db: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-marray: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-rgraphviz: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-marray: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-rgraphviz: ``>=2.38.0,<2.39.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cluster: 
    :depends r-colorspace: 
@@ -91,7 +91,7 @@ bioconductor-mineica
 
     <script>
         var package = "bioconductor-mineica";
-        var versions = ["1.32.0","1.30.0","1.30.0","1.28.0","1.26.0"];
+        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.28.0"];
     </script>
 
 

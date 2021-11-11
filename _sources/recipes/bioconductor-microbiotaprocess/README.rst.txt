@@ -27,33 +27,34 @@ bioconductor-microbiotaprocess
       
       
 
-      ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.3-0``
+      ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-ggtree: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-phyloseq: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biostrings: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-ggtree: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-phyloseq: 
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-treeio: ``>=1.18.0,<1.19.0``
    :depends r-ape: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-coin: 
    :depends r-dplyr: 
+   :depends r-foreach: 
+   :depends r-ggnewscale: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-ggsignif: 
    :depends r-ggstar: 
-   :depends r-gtools: 
    :depends r-magrittr: 
    :depends r-mass: 
    :depends r-patchwork: 
-   :depends r-plyr: 
-   :depends r-reshape: 
    :depends r-rlang: 
-   :depends r-rmisc: 
    :depends r-tibble: 
    :depends r-tidyr: 
-   :depends r-tidytree: 
+   :depends r-tidyselect: 
+   :depends r-tidytree: ``>=0.3.5``
    :depends r-vegan: 
    :depends r-zoo: 
    :requirements:
@@ -87,7 +88,7 @@ bioconductor-microbiotaprocess
 
     <script>
         var package = "bioconductor-microbiotaprocess";
-        var versions = ["1.4.0","1.2.1","1.2.0","1.0.3"];
+        var versions = ["1.6.1","1.4.0","1.2.1","1.2.0","1.0.3"];
     </script>
 
 

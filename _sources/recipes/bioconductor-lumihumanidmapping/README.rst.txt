@@ -27,14 +27,14 @@ bioconductor-lumihumanidmapping
       
       
 
-      ``1.10.1-7``,  ``1.10.1-6``,  ``1.10.1-5``,  ``1.10.1-4``,  ``1.10.1-3``,  ``1.10.1-2``,  ``1.10.1-0``
+      ``1.10.1-8``,  ``1.10.1-7``,  ``1.10.1-6``,  ``1.10.1-5``,  ``1.10.1-4``,  ``1.10.1-3``,  ``1.10.1-2``,  ``1.10.1-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-lumi: ``>=2.44.0,<2.45.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-lumi: ``>=2.46.0,<2.47.0``
+   :depends curl: ``>=7.79.1,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dbi: 
    :requirements:

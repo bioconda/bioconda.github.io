@@ -27,15 +27,15 @@ bioconductor-gwasurvivr
       
       
 
-      ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-gwastools: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-snprelate: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-variantannotation: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-gwastools: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-snprelate: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-variantannotation: ``>=1.40.0,<1.41.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-matrixstats: 
    :depends r-survival: 
@@ -70,7 +70,7 @@ bioconductor-gwasurvivr
 
     <script>
         var package = "bioconductor-gwasurvivr";
-        var versions = ["1.10.0","1.8.0","1.8.0","1.6.0","1.4.0"];
+        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.6.0"];
     </script>
 
 
