@@ -12,7 +12,7 @@ bioconductor-bigmelon
 
    Illumina methylation array analysis for large experiments
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/bigmelon.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/bigmelon.html
    :license: GPL-3
    :recipe: /`bioconductor-bigmelon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmelon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmelon/meta.yaml>`_
 
@@ -27,18 +27,19 @@ bioconductor-bigmelon
       
       
 
-      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-gdsfmt: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-geoquery: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-methylumi: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-watermelon: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biobase: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-biocgenerics: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-gdsfmt: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-geoquery: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-illuminaio: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-methylumi: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-watermelon: ``>=2.0.0,<2.1.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -71,7 +72,7 @@ bioconductor-bigmelon
 
     <script>
         var package = "bioconductor-bigmelon";
-        var versions = ["1.18.0","1.16.0","1.16.0","1.14.0","1.12.0"];
+        var versions = ["1.20.0","1.18.0","1.16.0","1.16.0","1.14.0"];
     </script>
 
 

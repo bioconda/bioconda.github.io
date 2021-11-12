@@ -12,7 +12,7 @@ bioconductor-yeast.db0
 
    Base Level Annotation databases for yeast
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/yeast.db0.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/yeast.db0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-yeast.db0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeast.db0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeast.db0/meta.yaml>`_
 

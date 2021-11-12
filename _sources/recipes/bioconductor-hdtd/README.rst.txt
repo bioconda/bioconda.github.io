@@ -12,7 +12,7 @@ bioconductor-hdtd
 
    Statistical Inference about the Mean Matrix and the Covariance Matrices in High\-Dimensional Transposable Data \(HDTD\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/HDTD.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/HDTD.html
    :license: GPL-3
    :recipe: /`bioconductor-hdtd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdtd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdtd/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-eupathdb
 
    Provides access to pathogen annotation resources available on EuPathDB databases
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/EuPathDB.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/EuPathDB.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-eupathdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eupathdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eupathdb/meta.yaml>`_
 

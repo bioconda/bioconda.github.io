@@ -10,9 +10,9 @@ bioconductor-samspectral
    :replaces_section_title:
    :noindex:
 
-   Identifies cell population in flow cytometry data.
+   Identifies cell population in flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SamSPECTRAL.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SamSPECTRAL.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-samspectral <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samspectral>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samspectral/meta.yaml>`_
 

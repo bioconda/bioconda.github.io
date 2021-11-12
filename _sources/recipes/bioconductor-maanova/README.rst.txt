@@ -12,7 +12,7 @@ bioconductor-maanova
 
    Tools for analyzing Micro Array experiments
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/maanova.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/maanova.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-maanova <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maanova>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maanova/meta.yaml>`_
    :links: biotools: :biotools:`maanova`, doi: :doi:`10.1007/0-387-21679-0_14`

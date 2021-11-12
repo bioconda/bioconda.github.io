@@ -12,7 +12,7 @@ bioconductor-wavcluster
 
    Sensitive and highly resolved identification of RNA\-protein interaction sites in PAR\-CLIP data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/wavClusteR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/wavClusteR.html
    :license: GPL-2
    :recipe: /`bioconductor-wavcluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavcluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavcluster/meta.yaml>`_
    :links: biotools: :biotools:`wavcluster`

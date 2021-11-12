@@ -12,7 +12,7 @@ bioconductor-desubs
 
    DEsubs\: an R package for flexible identification of differentially expressed subpathways using RNA\-seq expression experiments
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DEsubs.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DEsubs.html
    :license: GPL-3
    :recipe: /`bioconductor-desubs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-desubs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-desubs/meta.yaml>`_
 

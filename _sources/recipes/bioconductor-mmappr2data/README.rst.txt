@@ -12,7 +12,7 @@ bioconductor-mmappr2data
 
    Sample Data for MMAPPR2
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/MMAPPR2data.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/MMAPPR2data.html
    :license: GPL-3
    :recipe: /`bioconductor-mmappr2data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmappr2data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmappr2data/meta.yaml>`_
 

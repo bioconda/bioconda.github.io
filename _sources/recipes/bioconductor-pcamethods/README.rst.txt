@@ -12,7 +12,7 @@ bioconductor-pcamethods
 
    A collection of PCA methods
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pcaMethods.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/pcaMethods.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-pcamethods <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcamethods>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcamethods/meta.yaml>`_
    :links: biotools: :biotools:`pcamethods`, doi: :doi:`10.1093/bioinformatics/btm069`

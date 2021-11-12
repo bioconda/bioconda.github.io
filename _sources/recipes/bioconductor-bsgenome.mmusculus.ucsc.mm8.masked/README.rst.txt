@@ -12,7 +12,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm8.masked
 
    Full masked genome sequences for Mus musculus \(UCSC version mm8\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.masked.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmusculus.ucsc.mm8.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm8.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm8.masked/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-biocor
 
    Functional similarities
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BioCor.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BioCor.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biocor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocor/meta.yaml>`_
 

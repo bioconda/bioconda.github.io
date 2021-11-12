@@ -12,7 +12,7 @@ bioconductor-vtpnet
 
    variant\-transcription factor\-phenotype networks
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/vtpnet.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/vtpnet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-vtpnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vtpnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vtpnet/meta.yaml>`_
 

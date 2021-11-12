@@ -10,13 +10,13 @@ bioconductor-celegans.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix celegans annotation data \(chip celegans\)
+   Affymetrix Affymetrix Celegans Array annotation data \(chip celegans\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/celegans.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/celegans.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-celegans.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celegans.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celegans.db/meta.yaml>`_
 
-   Affymetrix celegans annotation data \(chip celegans\) assembled using data from public repositories
+   Affymetrix Affymetrix Celegans Array annotation data \(chip celegans\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-celegans.db

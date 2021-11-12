@@ -12,7 +12,7 @@ bioconductor-ffpeexampledata
 
    Illumina DASL example microarray data
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/ffpeExampleData.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/ffpeExampleData.html
    :license: GPL (>2)
    :recipe: /`bioconductor-ffpeexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpeexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpeexampledata/meta.yaml>`_
 

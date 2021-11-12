@@ -12,7 +12,7 @@ bioconductor-celda
 
    CEllular Latent Dirichlet Allocation
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/celda.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/celda.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-celda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celda/meta.yaml>`_
 

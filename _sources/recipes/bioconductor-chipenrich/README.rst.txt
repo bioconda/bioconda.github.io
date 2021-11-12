@@ -12,7 +12,7 @@ bioconductor-chipenrich
 
    Gene Set Enrichment For ChIP\-seq Peak Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/chipenrich.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/chipenrich.html
    :license: GPL-3
    :recipe: /`bioconductor-chipenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich/meta.yaml>`_
 

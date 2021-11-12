@@ -12,7 +12,7 @@ bioconductor-metacca
 
    Summary Statistics\-Based Multivariate Meta\-Analysis of Genome\-Wide Association Studies Using Canonical Correlation Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/metaCCA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/metaCCA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-metacca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metacca/meta.yaml>`_
    :links: biotools: :biotools:`metacca`

@@ -12,7 +12,7 @@ bioconductor-cohcap
 
    CpG Island Analysis Pipeline for Illumina Methylation Array and Targeted BS\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/COHCAP.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/COHCAP.html
    :license: GPL-3
    :recipe: /`bioconductor-cohcap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcap/meta.yaml>`_
    :links: biotools: :biotools:`cohcap`

@@ -12,7 +12,7 @@ bioconductor-goseq
 
    Gene Ontology analyser for RNA\-seq and other length biased data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/goseq.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/goseq.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-goseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goseq/meta.yaml>`_
    :links: biotools: :biotools:`goseq`

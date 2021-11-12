@@ -12,7 +12,7 @@ bioconductor-profia
 
    Preprocessing of FIA\-HRMS data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/proFIA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/proFIA.html
    :license: CeCILL
    :recipe: /`bioconductor-profia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profia/meta.yaml>`_
    :links: biotools: :biotools:`profia`, doi: :doi:`10.1038/nmeth.3252`

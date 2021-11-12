@@ -12,7 +12,7 @@ bioconductor-ivygapse
 
    A SummarizedExperiment for Ivy\-GAP data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ivygapSE.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ivygapSE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ivygapse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ivygapse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ivygapse/meta.yaml>`_
 

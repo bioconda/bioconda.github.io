@@ -12,7 +12,7 @@ bioconductor-npgsea
 
    Permutation approximation methods for gene set enrichment analysis \(non\-permutation GSEA\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/npGSEA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/npGSEA.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-npgsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-npgsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-npgsea/meta.yaml>`_
    :links: biotools: :biotools:`npgsea`

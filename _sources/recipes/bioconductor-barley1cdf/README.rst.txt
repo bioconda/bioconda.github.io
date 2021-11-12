@@ -12,7 +12,7 @@ bioconductor-barley1cdf
 
    barley1cdf
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/barley1cdf.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/barley1cdf.html
    :license: LGPL
    :recipe: /`bioconductor-barley1cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-barley1cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-barley1cdf/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-antiprofilesdata
 
    Normal colon and cancer preprocessed affy data for antiProfile building.
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/antiProfilesData.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/antiProfilesData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-antiprofilesdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-antiprofilesdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-antiprofilesdata/meta.yaml>`_
 

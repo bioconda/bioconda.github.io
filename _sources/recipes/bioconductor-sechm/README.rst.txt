@@ -12,7 +12,7 @@ bioconductor-sechm
 
    sechm\: Complex Heatmaps from a SummarizedExperiment
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/sechm.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sechm.html
    :license: GPL-3
    :recipe: /`bioconductor-sechm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sechm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sechm/meta.yaml>`_
 

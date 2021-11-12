@@ -12,7 +12,7 @@ bioconductor-mbcb
 
    MBCB \(Model\-based Background Correction for Beadarray\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MBCB.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MBCB.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mbcb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbcb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbcb/meta.yaml>`_
 

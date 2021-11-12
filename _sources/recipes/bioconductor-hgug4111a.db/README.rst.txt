@@ -12,7 +12,7 @@ bioconductor-hgug4111a.db
 
    Agilent Human 1B annotation data \(chip hgug4111a\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hgug4111a.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/hgug4111a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgug4111a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgug4111a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgug4111a.db/meta.yaml>`_
 

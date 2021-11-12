@@ -12,7 +12,7 @@ bioconductor-celarefdata
 
    Processed scRNA data for celaref Vignette \- cell labelling by reference
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/celarefData.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/celarefData.html
    :license: GPL-3
    :recipe: /`bioconductor-celarefdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celarefdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celarefdata/meta.yaml>`_
 

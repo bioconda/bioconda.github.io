@@ -12,7 +12,7 @@ bioconductor-tofsims
 
    Import\, process and analysis of Time\-of\-Flight Secondary Ion Mass Spectrometry \(ToF\-SIMS\) imaging data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/tofsims.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/tofsims.html
    :license: GPL-3
    :recipe: /`bioconductor-tofsims <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tofsims>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tofsims/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-mosim
 
    Multi\-Omics Simulation \(MOSim\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MOSim.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MOSim.html
    :license: GPL-3
    :recipe: /`bioconductor-mosim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosim/meta.yaml>`_
 

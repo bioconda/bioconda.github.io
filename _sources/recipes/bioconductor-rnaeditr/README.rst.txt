@@ -12,7 +12,7 @@ bioconductor-rnaeditr
 
    Statistical analysis of RNA editing sites and hyper\-editing regions
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rnaEditr.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rnaEditr.html
    :license: GPL-3
    :recipe: /`bioconductor-rnaeditr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaeditr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaeditr/meta.yaml>`_
 

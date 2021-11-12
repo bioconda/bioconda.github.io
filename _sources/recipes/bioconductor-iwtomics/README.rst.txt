@@ -12,7 +12,7 @@ bioconductor-iwtomics
 
    Interval\-Wise Testing for Omics Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/IWTomics.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/IWTomics.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-iwtomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iwtomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iwtomics/meta.yaml>`_
 

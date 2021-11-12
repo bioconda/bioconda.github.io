@@ -12,7 +12,7 @@ bioconductor-bluster
 
    Clustering Algorithms for Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/bluster.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/bluster.html
    :license: GPL-3
    :recipe: /`bioconductor-bluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bluster/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pd.mg.u74cv2
 
    Platform Design Info for The Manufacturer\'s Name MG\_U74Cv2
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/pd.mg.u74cv2.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.mg.u74cv2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.mg.u74cv2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mg.u74cv2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mg.u74cv2/meta.yaml>`_
 

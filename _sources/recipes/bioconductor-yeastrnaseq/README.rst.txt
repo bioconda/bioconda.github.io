@@ -12,7 +12,7 @@ bioconductor-yeastrnaseq
 
    Yeast RNA\-Seq Experimental Data from Lee et al. 2008
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/yeastRNASeq.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/yeastRNASeq.html
    :license: GPL
    :recipe: /`bioconductor-yeastrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastrnaseq/meta.yaml>`_
 

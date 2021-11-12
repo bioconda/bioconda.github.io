@@ -12,7 +12,7 @@ bioconductor-ttgsea
 
    Tokenizing Text of Gene Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ttgsea.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ttgsea.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ttgsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ttgsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ttgsea/meta.yaml>`_
 

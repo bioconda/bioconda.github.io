@@ -12,7 +12,7 @@ bioconductor-allelicimbalance
 
    Investigates Allele Specific Expression
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/AllelicImbalance.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/AllelicImbalance.html
    :license: GPL-3
    :recipe: /`bioconductor-allelicimbalance <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allelicimbalance>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-allelicimbalance/meta.yaml>`_
 

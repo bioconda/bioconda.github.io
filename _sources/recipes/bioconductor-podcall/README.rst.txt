@@ -12,7 +12,7 @@ bioconductor-podcall
 
    Positive Droplet Calling for DNA Methylation Droplet Digital PCR
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/PoDCall.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/PoDCall.html
    :license: GPL-3
    :recipe: /`bioconductor-podcall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-podcall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-podcall/meta.yaml>`_
 

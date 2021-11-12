@@ -12,7 +12,7 @@ bioconductor-residualmatrix
 
    Creating a DelayedMatrix of Regression Residuals
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ResidualMatrix.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ResidualMatrix.html
    :license: GPL-3
    :recipe: /`bioconductor-residualmatrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-residualmatrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-residualmatrix/meta.yaml>`_
 

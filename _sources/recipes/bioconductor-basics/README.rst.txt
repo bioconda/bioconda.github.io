@@ -12,7 +12,7 @@ bioconductor-basics
 
    Bayesian Analysis of Single\-Cell Sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BASiCS.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BASiCS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-basics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basics/meta.yaml>`_
 

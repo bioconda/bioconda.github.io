@@ -12,7 +12,7 @@ bioconductor-poma
 
    User\-friendly Workflow for Metabolomics and Proteomics Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/POMA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/POMA.html
    :license: GPL-3
    :recipe: /`bioconductor-poma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma/meta.yaml>`_
 

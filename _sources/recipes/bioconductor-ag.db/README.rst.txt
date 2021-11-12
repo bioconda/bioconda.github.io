@@ -10,13 +10,13 @@ bioconductor-ag.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Arabidopsis Genome Array annotation data \(chip ag\)
+   Affymetrix Affymetrix AG Array annotation data \(chip ag\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/ag.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/ag.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ag.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ag.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ag.db/meta.yaml>`_
 
-   Affymetrix Arabidopsis Genome Array annotation data \(chip ag\) assembled using data from public repositories
+   Affymetrix Affymetrix AG Array annotation data \(chip ag\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-ag.db

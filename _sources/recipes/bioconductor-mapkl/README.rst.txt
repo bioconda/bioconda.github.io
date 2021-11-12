@@ -12,7 +12,7 @@ bioconductor-mapkl
 
    A Hybrid Feature Selection method for gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/mAPKL.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/mAPKL.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mapkl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapkl/meta.yaml>`_
 

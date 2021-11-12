@@ -12,7 +12,7 @@ bioconductor-pram
 
    Pooling RNA\-seq datasets for assembling transcript models
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pram.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/pram.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-pram <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pram>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pram/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tsrchitect
 
    Promoter identification from large\-scale TSS profiling data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/TSRchitect.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TSRchitect.html
    :license: GPL-3
    :recipe: /`bioconductor-tsrchitect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tsrchitect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tsrchitect/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-lpeadj
 
    A correction of the local pooled error \(LPE\) method to replace the asymptotic variance adjustment with an unbiased adjustment based on sample size.
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/LPEadj.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/LPEadj.html
    :license: LGPL
    :recipe: /`bioconductor-lpeadj <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpeadj>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpeadj/meta.yaml>`_
    :links: biotools: :biotools:`lpeadj`, doi: :doi:`10.1038/nmeth.3252`

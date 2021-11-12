@@ -12,7 +12,7 @@ bioconductor-flowcore
 
    flowCore\: Basic structures for flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/flowCore.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/flowCore.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowcore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcore/meta.yaml>`_
    :links: biotools: :biotools:`flowcore`, doi: :doi:`10.1186/1471-2105-10-106`

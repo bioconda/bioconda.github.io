@@ -12,11 +12,11 @@ bioconductor-dearseq
 
    Differential Expression Analysis for RNA\-seq data through a robust variance component test
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/dearseq.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/dearseq.html
    :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-dearseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dearseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dearseq/meta.yaml>`_
 
-   Differential Expression Analysis RNA\-seq data with variance component score test accounting for data heteroscedasticity through precision weights. Perform both gene\-wise and gene set analyses\, and can deal with repeated or longitudinal data. Methods are detailed in\: Agniel D \& Hejblum BP \(2017\) Variance component score test for time\-course gene set analysis of longitudinal RNA\-seq data\, Biostatistics\, 18\(4\)\:589\-604. and Gauthier M\, Agniel D\, Thiébaut R \& Hejblum BP \(2019\). dearseq\: a variance component score test for RNA\-Seq differential analysis that effectively controls the false discovery rate\, \*bioRxiv\* 635714.
+   Differential Expression Analysis RNA\-seq data with variance component score test accounting for data heteroscedasticity through precision weights. Perform both gene\-wise and gene set analyses\, and can deal with repeated or longitudinal data. Methods are detailed in\: i\) Agniel D \& Hejblum BP \(2017\) Variance component score test for time\-course gene set analysis of longitudinal RNA\-seq data\, Biostatistics\, 18\(4\)\:589\-604 \; and ii\) Gauthier M\, Agniel D\, Thiébaut R \& Hejblum BP \(2020\) dearseq\: a variance component score test for RNA\-Seq differential analysis that effectively controls the false discovery rate\, NAR Genomics and Bioinformatics\, 2\(4\)\:lqaa093.
 
 
 .. conda:package:: bioconductor-dearseq

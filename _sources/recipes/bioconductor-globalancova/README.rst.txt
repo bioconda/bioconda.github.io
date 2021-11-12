@@ -12,7 +12,7 @@ bioconductor-globalancova
 
    Global test for groups of variables via model comparisons
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GlobalAncova.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GlobalAncova.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-globalancova <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalancova>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalancova/meta.yaml>`_
    :links: biotools: :biotools:`globalancova`, doi: :doi:`10.1093/bioinformatics/btm531`

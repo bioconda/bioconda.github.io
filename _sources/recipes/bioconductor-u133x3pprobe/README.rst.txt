@@ -12,7 +12,7 @@ bioconductor-u133x3pprobe
 
    Probe sequence data for microarrays of type u133x3p
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/u133x3pprobe.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/u133x3pprobe.html
    :license: LGPL
    :recipe: /`bioconductor-u133x3pprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3pprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133x3pprobe/meta.yaml>`_
 

@@ -10,13 +10,13 @@ bioconductor-mouse430a2.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Mouse Genome 430A 2.0 Array annotation data \(chip mouse430a2\)
+   Affymetrix Affymetrix Mouse430A\_2 Array annotation data \(chip mouse430a2\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/mouse430a2.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/mouse430a2.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mouse430a2.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse430a2.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse430a2.db/meta.yaml>`_
 
-   Affymetrix Mouse Genome 430A 2.0 Array annotation data \(chip mouse430a2\) assembled using data from public repositories
+   Affymetrix Affymetrix Mouse430A\_2 Array annotation data \(chip mouse430a2\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mouse430a2.db

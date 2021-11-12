@@ -12,7 +12,7 @@ bioconductor-rhdf5
 
    R Interface to HDF5
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rhdf5.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rhdf5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rhdf5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5/meta.yaml>`_
    :links: biotools: :biotools:`rhdf5`

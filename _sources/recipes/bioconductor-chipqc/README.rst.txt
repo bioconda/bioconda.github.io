@@ -12,7 +12,7 @@ bioconductor-chipqc
 
    Quality metrics for ChIPseq data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ChIPQC.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ChIPQC.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-chipqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipqc/meta.yaml>`_
    :links: biotools: :biotools:`chipqc`

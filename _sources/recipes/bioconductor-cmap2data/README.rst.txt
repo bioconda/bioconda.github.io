@@ -12,7 +12,7 @@ bioconductor-cmap2data
 
    Connectivity Map \(version 2\) Data
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/cMap2data.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/cMap2data.html
    :license: GPL-3
    :recipe: /`bioconductor-cmap2data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap2data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap2data/meta.yaml>`_
 

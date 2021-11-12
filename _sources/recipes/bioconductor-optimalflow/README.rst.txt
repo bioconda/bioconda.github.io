@@ -12,7 +12,7 @@ bioconductor-optimalflow
 
    optimalFlow
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/optimalFlow.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/optimalFlow.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-optimalflow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-optimalflow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-optimalflow/meta.yaml>`_
 

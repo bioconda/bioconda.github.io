@@ -12,7 +12,7 @@ bioconductor-rnbeads.hg38
 
    RnBeads.hg38
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/RnBeads.hg38.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/RnBeads.hg38.html
    :license: GPL-3
    :recipe: /`bioconductor-rnbeads.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.hg38/meta.yaml>`_
 

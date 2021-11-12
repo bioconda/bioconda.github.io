@@ -12,7 +12,7 @@ bioconductor-dfp
 
    Gene Selection
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DFP.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DFP.html
    :license: GPL-2
    :recipe: /`bioconductor-dfp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dfp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dfp/meta.yaml>`_
    :links: biotools: :biotools:`dfp`, doi: :doi:`10.1038/nmeth.3252`

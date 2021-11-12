@@ -12,7 +12,7 @@ bioconductor-genega
 
    Design gene based on both mRNA secondary structure and codon usage bias using Genetic algorithm
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GeneGA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GeneGA.html
    :license: GPL version 2
    :recipe: /`bioconductor-genega <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genega>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genega/meta.yaml>`_
    :links: biotools: :biotools:`genega`, doi: :doi:`10.1186/1748-7188-6-26`

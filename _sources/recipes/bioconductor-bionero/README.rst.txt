@@ -12,7 +12,7 @@ bioconductor-bionero
 
    Biological Network Reconstruction Omnibus
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BioNERO.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BioNERO.html
    :license: GPL-3
    :recipe: /`bioconductor-bionero <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionero>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionero/meta.yaml>`_
 

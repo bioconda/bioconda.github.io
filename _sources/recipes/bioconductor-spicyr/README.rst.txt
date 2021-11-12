@@ -12,7 +12,7 @@ bioconductor-spicyr
 
    Spatial analysis of in situ cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/spicyR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/spicyR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-spicyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spicyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spicyr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-cnvrd2
 
    CNVrd2\: a read depth\-based method to detect and genotype complex common copy number variants from next generation sequencing data.
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CNVrd2.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CNVrd2.html
    :license: GPL-2
    :recipe: /`bioconductor-cnvrd2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvrd2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvrd2/meta.yaml>`_
 

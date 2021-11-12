@@ -12,7 +12,7 @@ bioconductor-bloodgen3module
 
    This R package for performing module repertoire analyses and generating fingerprint representations
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BloodGen3Module.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BloodGen3Module.html
    :license: GPL-2
    :recipe: /`bioconductor-bloodgen3module <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bloodgen3module>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bloodgen3module/meta.yaml>`_
 

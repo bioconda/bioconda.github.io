@@ -12,7 +12,7 @@ bioconductor-mouse4302probe
 
    Probe sequence data for microarrays of type mouse4302
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/mouse4302probe.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/mouse4302probe.html
    :license: LGPL
    :recipe: /`bioconductor-mouse4302probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302probe/meta.yaml>`_
 

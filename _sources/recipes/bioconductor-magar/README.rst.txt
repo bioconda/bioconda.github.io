@@ -12,7 +12,7 @@ bioconductor-magar
 
    MAGAR\: R\-package to compute methylation Quantitative Trait Loci \(methQTL\) from DNA methylation and genotyping data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MAGAR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MAGAR.html
    :license: GPL-3
    :recipe: /`bioconductor-magar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-magar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-magar/meta.yaml>`_
 

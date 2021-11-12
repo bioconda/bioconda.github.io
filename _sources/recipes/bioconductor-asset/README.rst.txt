@@ -12,11 +12,11 @@ bioconductor-asset
 
    An R package for subset\-based association analysis of heterogeneous traits and subtypes
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ASSET.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ASSET.html
    :license: GPL-2 + file LICENSE
    :recipe: /`bioconductor-asset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asset/meta.yaml>`_
 
-   An R package for subset\-based analysis of heterogeneous traits and subtypes
+   An R package for subset\-based analysis of heterogeneous traits and disease subtypes. The package allows the user to search through all possible subsets of z\-scores to identify the subset of traits giving the best meta\-analyzed z\-score. Further\, it returns a p\-value adjusting for the multiple\-testing involved in the search. It also allows for searching for the best combination of disease subtypes associated with each variant.
 
 
 .. conda:package:: bioconductor-asset

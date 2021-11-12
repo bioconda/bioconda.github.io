@@ -12,7 +12,7 @@ bioconductor-spatialcpie
 
    Cluster analysis of Spatial Transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SpatialCPie.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SpatialCPie.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spatialcpie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialcpie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialcpie/meta.yaml>`_
 

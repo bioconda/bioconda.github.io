@@ -12,7 +12,7 @@ bioconductor-clusterexperiment
 
    Compare Clusterings for Single\-Cell Sequencing
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/clusterExperiment.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/clusterExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterexperiment/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-kboost
 
    Inference of gene regulatory networks from gene expression data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/KBoost.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/KBoost.html
    :license: GPL-2 | GPL-3
    :recipe: /`bioconductor-kboost <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kboost>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kboost/meta.yaml>`_
 

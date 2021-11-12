@@ -10,13 +10,13 @@ bioconductor-mgu74a.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Murine Genome U74v2 annotation data \(chip mgu74a\)
+   Affymetrix Affymetrix MG\_U74A Array annotation data \(chip mgu74a\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/mgu74a.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/mgu74a.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mgu74a.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74a.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74a.db/meta.yaml>`_
 
-   Affymetrix Murine Genome U74v2 annotation data \(chip mgu74a\) assembled using data from public repositories
+   Affymetrix Affymetrix MG\_U74A Array annotation data \(chip mgu74a\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mgu74a.db

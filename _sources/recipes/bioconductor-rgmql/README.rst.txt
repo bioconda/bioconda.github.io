@@ -12,7 +12,7 @@ bioconductor-rgmql
 
    GenoMetric Query Language for R\/Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RGMQL.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RGMQL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgmql <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgmql>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgmql/meta.yaml>`_
 

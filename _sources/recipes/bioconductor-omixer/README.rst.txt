@@ -10,13 +10,13 @@ bioconductor-omixer
    :replaces_section_title:
    :noindex:
 
-   Randomize Samples for \-omics Profiling
+   Omixer\: multivariate and reproducible sample randomization to proactively counter batch effects in omics studies
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Omixer.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Omixer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omixer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omixer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omixer/meta.yaml>`_
 
-   Omixer \- an R package for multivariate and reproducible randomization with lab\-friendly sample layouts. Omixer ensures optimal sample distribution across batches with well\-documented methods\, and can output intuitive sample sheets for the wet lab if needed.
+   Omixer \- an Bioconductor package for multivariate and reproducible sample randomization\, which ensures optimal sample distribution across batches with well\-documented methods. It outputs lab\-friendly sample layouts\, reducing the risk of sample mixups when manually pipetting randomized samples.
 
 
 .. conda:package:: bioconductor-omixer

@@ -12,7 +12,7 @@ bioconductor-org.dm.eg.db
 
    Genome wide annotation for Fly
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/org.Dm.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/org.Dm.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.dm.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.dm.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.dm.eg.db/meta.yaml>`_
 

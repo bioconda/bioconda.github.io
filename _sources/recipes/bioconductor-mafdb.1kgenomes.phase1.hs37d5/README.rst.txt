@@ -12,7 +12,7 @@ bioconductor-mafdb.1kgenomes.phase1.hs37d5
 
    Minor allele frequency data from 1000 Genomes Phase 1 for hs37d5
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/MafDb.1Kgenomes.phase1.hs37d5.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/MafDb.1Kgenomes.phase1.hs37d5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.1kgenomes.phase1.hs37d5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.1kgenomes.phase1.hs37d5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.1kgenomes.phase1.hs37d5/meta.yaml>`_
 

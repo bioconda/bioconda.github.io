@@ -12,7 +12,7 @@ bioconductor-geometadb
 
    A compilation of metadata from NCBI GEO
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GEOmetadb.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GEOmetadb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geometadb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geometadb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geometadb/meta.yaml>`_
    :links: biotools: :biotools:`geometadb`

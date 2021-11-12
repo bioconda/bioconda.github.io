@@ -12,7 +12,7 @@ bioconductor-droplettestfiles
 
    Test Files for Single\-Cell Droplet Utilities
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/DropletTestFiles.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/DropletTestFiles.html
    :license: GPL-3
    :recipe: /`bioconductor-droplettestfiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-droplettestfiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-droplettestfiles/meta.yaml>`_
 

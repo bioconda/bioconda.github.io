@@ -12,7 +12,7 @@ bioconductor-soybeanprobe
 
    Probe sequence data for microarrays of type soybean
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/soybeanprobe.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/soybeanprobe.html
    :license: LGPL
    :recipe: /`bioconductor-soybeanprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeanprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soybeanprobe/meta.yaml>`_
 

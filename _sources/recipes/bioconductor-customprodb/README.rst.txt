@@ -12,7 +12,7 @@ bioconductor-customprodb
 
    Generate customized protein database from NGS data\, with a focus on RNA\-Seq data\, for proteomics search
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/customProDB.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/customProDB.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-customprodb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-customprodb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-customprodb/meta.yaml>`_
 

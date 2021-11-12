@@ -12,7 +12,7 @@ bioconductor-cemitool
 
    Co\-expression Modules identification Tool
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CEMiTool.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CEMiTool.html
    :license: GPL-3
    :recipe: /`bioconductor-cemitool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cemitool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cemitool/meta.yaml>`_
 

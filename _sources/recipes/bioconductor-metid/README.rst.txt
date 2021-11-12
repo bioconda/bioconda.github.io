@@ -12,7 +12,7 @@ bioconductor-metid
 
    Network\-based prioritization of putative metabolite IDs
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MetID.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MetID.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metid/meta.yaml>`_
 

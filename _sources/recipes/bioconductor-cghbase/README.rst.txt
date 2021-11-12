@@ -12,7 +12,7 @@ bioconductor-cghbase
 
    CGHbase\: Base functions and classes for arrayCGH data analysis.
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CGHbase.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CGHbase.html
    :license: GPL
    :recipe: /`bioconductor-cghbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghbase/meta.yaml>`_
    :links: biotools: :biotools:`cghbase`, doi: :doi:`10.1016/j.ejmg.2005.10.046`

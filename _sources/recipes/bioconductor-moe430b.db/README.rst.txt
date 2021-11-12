@@ -10,13 +10,13 @@ bioconductor-moe430b.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Mouse Expression Set 430 annotation data \(chip moe430b\)
+   Affymetrix Affymetrix MOE430B Array annotation data \(chip moe430b\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/moe430b.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/moe430b.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-moe430b.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430b.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430b.db/meta.yaml>`_
 
-   Affymetrix Mouse Expression Set 430 annotation data \(chip moe430b\) assembled using data from public repositories
+   Affymetrix Affymetrix MOE430B Array annotation data \(chip moe430b\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-moe430b.db

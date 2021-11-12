@@ -12,7 +12,7 @@ bioconductor-proactiv
 
    Estimate Promoter Activity from RNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/proActiv.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/proActiv.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-proactiv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proactiv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proactiv/meta.yaml>`_
 

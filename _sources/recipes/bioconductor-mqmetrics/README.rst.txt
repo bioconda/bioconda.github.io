@@ -12,11 +12,11 @@ bioconductor-mqmetrics
 
    Quality Control of Protemics Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MQmetrics.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MQmetrics.html
    :license: GPL-3
    :recipe: /`bioconductor-mqmetrics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mqmetrics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mqmetrics/meta.yaml>`_
 
-   The package MQmetrics \(MaxQuant metrics\) provides a workflow to analyze the quality and reproducibility of your proteomics mass spectrometry analysis from MaxQuant.Input data are extracted from several MaxQuant output tables\, and produces a pdf report. It includes several visualization tools to check numerous parameters regarding the quality of the runs.It also includes two functions to visualize the iRT peptides from Biognosysin case they were spiked in the samples.
+   The package MQmetrics \(MaxQuant metrics\) provides a workflow to analyze the quality and reproducibility of your proteomics mass spectrometry analysis from MaxQuant.Input data are extracted from several MaxQuant output tables and produces a pdf report. It includes several visualization tools to check numerous parameters regarding the quality of the runs. It also includes two functions to visualize the iRT peptides from Biognosys in case they were spiked in the samples.
 
 
 .. conda:package:: bioconductor-mqmetrics

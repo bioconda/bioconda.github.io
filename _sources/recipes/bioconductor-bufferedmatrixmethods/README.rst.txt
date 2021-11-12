@@ -12,7 +12,7 @@ bioconductor-bufferedmatrixmethods
 
    Microarray Data related methods that utlize BufferedMatrix objects
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BufferedMatrixMethods.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BufferedMatrixMethods.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-bufferedmatrixmethods <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrixmethods>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrixmethods/meta.yaml>`_
    :links: biotools: :biotools:`bufferedmatrixmethods`, doi: :doi:`10.1038/nmeth.3252`

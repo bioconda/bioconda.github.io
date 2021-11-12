@@ -12,7 +12,7 @@ bioconductor-ensdb.mmusculus.v79
 
    Ensembl based annotation package
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/EnsDb.Mmusculus.v79.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/EnsDb.Mmusculus.v79.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ensdb.mmusculus.v79 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.mmusculus.v79>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.mmusculus.v79/meta.yaml>`_
 

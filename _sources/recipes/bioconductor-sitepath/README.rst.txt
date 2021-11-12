@@ -10,13 +10,13 @@ bioconductor-sitepath
    :replaces_section_title:
    :noindex:
 
-   Detection of site fixation in molecular evolution
+   Phylogenetic pathway–dependent recognition of fixed substitutions and parallel mutations
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/sitePath.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sitePath.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sitepath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sitepath/meta.yaml>`_
 
-   The package does hierarchical search for fixation mutations given multiple sequence alignment and phylogenetic tree. These fixation mutations can be specific to a phylogenetic lineages or shared by multiple lineages. The package also provides visualization of these mutations on the tree.
+   The package does hierarchical search for fixation and parallel mutations given multiple sequence alignment and phylogenetic tree. The package also provides visualization of these mutations on the tree.
 
 
 .. conda:package:: bioconductor-sitepath

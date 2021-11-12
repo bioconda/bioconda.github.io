@@ -12,7 +12,7 @@ bioconductor-org.sc.sgd.db
 
    Genome wide annotation for Yeast
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/org.Sc.sgd.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/org.Sc.sgd.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-org.sc.sgd.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.sc.sgd.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.sc.sgd.db/meta.yaml>`_
 

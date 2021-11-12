@@ -12,7 +12,7 @@ bioconductor-erccdashboard
 
    Assess Differential Gene Expression Experiments with ERCC Controls
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/erccdashboard.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/erccdashboard.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-erccdashboard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erccdashboard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erccdashboard/meta.yaml>`_
 

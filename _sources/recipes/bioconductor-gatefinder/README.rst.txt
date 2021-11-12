@@ -12,7 +12,7 @@ bioconductor-gatefinder
 
    Projection\-based Gating Strategy Optimization for Flow and Mass Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GateFinder.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GateFinder.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gatefinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatefinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatefinder/meta.yaml>`_
 

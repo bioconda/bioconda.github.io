@@ -12,11 +12,11 @@ bioconductor-ihwpaper
 
    Reproduce figures in IHW paper
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/IHWpaper.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/IHWpaper.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ihwpaper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihwpaper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihwpaper/meta.yaml>`_
 
-   This package conveniently wraps all functions needed to reproduce the figures in the IHW paper \(https\:\/\/www.nature.com\/articles\/nmeth.3885\) and the latest arXiv preprint available under http\:\/\/arxiv.org\/abs\/1701.05179. Thus it is a companion package to the Bioconductor IHW package.
+   This package conveniently wraps all functions needed to reproduce the figures in the IHW paper \(https\:\/\/www.nature.com\/articles\/nmeth.3885\) and the data analysis in https\:\/\/rss.onlinelibrary.wiley.com\/doi\/10.1111\/rssb.12411\, cf. the arXiv preprint \(http\:\/\/arxiv.org\/abs\/1701.05179\). Thus it is a companion package to the Bioconductor IHW package.
 
 
 .. conda:package:: bioconductor-ihwpaper

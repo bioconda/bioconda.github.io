@@ -12,7 +12,7 @@ bioconductor-rfarm
 
    An R interface to the Rfam database
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rfaRm.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rfaRm.html
    :license: GPL-3
    :recipe: /`bioconductor-rfarm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfarm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfarm/meta.yaml>`_
 

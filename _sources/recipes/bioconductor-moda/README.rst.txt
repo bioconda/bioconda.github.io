@@ -12,7 +12,7 @@ bioconductor-moda
 
    MODA\: MOdule Differential Analysis for weighted gene co\-expression network
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MODA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MODA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-moda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moda/meta.yaml>`_
 

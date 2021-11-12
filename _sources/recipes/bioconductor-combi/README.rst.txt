@@ -12,7 +12,7 @@ bioconductor-combi
 
    Compositional omics model based visual integration
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/combi.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/combi.html
    :license: GPL-2
    :recipe: /`bioconductor-combi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-combi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-combi/meta.yaml>`_
 

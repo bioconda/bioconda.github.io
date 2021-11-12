@@ -12,7 +12,7 @@ bioconductor-ideoviz
 
    Plots data \(continuous\/discrete\) along chromosomal ideogram
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/IdeoViz.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/IdeoViz.html
    :license: GPL-2
    :recipe: /`bioconductor-ideoviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ideoviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ideoviz/meta.yaml>`_
    :links: biotools: :biotools:`ideoviz`, doi: :doi:`10.1038/nmeth.3252`

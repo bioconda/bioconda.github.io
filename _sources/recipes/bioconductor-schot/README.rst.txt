@@ -12,7 +12,7 @@ bioconductor-schot
 
    single\-cell higher order testing
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/scHOT.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scHOT.html
    :license: GPL-3
    :recipe: /`bioconductor-schot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-schot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-schot/meta.yaml>`_
 

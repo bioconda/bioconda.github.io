@@ -12,7 +12,7 @@ bioconductor-sangerseqr
 
    Tools for Sanger Sequencing Data in R
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/sangerseqR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sangerseqR.html
    :license: GPL-2
    :recipe: /`bioconductor-sangerseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sangerseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sangerseqr/meta.yaml>`_
    :links: biotools: :biotools:`sangerseqr`

@@ -12,7 +12,7 @@ bioconductor-geneaccord
 
    Detection of clonally exclusive gene or pathway pairs in a cohort of cancer patients
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GeneAccord.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GeneAccord.html
    :license: file LICENSE
    :recipe: /`bioconductor-geneaccord <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneaccord>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneaccord/meta.yaml>`_
 

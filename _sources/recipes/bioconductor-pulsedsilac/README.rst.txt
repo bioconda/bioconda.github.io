@@ -12,7 +12,7 @@ bioconductor-pulsedsilac
 
    Analysis of pulsed\-SILAC quantitative proteomics data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pulsedSilac.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/pulsedSilac.html
    :license: GPL-3
    :recipe: /`bioconductor-pulsedsilac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pulsedsilac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pulsedsilac/meta.yaml>`_
 

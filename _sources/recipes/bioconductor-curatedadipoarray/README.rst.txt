@@ -12,7 +12,7 @@ bioconductor-curatedadipoarray
 
    A Curated Microarrays Dataset of MDI\-induced Differentiated Adipocytes \(3T3\-L1\) Under Genetic and Pharmacological Perturbations
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/curatedAdipoArray.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/curatedAdipoArray.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-curatedadipoarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadipoarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadipoarray/meta.yaml>`_
 

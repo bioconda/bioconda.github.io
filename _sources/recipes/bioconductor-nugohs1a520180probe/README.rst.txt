@@ -12,7 +12,7 @@ bioconductor-nugohs1a520180probe
 
    Probe sequence data for microarrays of type nugohs1a520180
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/nugohs1a520180probe.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/nugohs1a520180probe.html
    :license: LGPL
    :recipe: /`bioconductor-nugohs1a520180probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugohs1a520180probe/meta.yaml>`_
 

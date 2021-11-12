@@ -12,7 +12,7 @@ bioconductor-findmyfriends
 
    Microbial Comparative Genomics in R
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/FindMyFriends.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/FindMyFriends.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-findmyfriends <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-findmyfriends>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-findmyfriends/meta.yaml>`_
    :links: biotools: :biotools:`findmyfriends`, doi: :doi:`10.1038/nmeth.3252`

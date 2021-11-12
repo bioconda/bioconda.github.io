@@ -111,7 +111,7 @@
 <dd><p>Imputation of label-free mass spectrometry peptides</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.13/bioc/html/msImpute.html">https://bioconductor.org/packages/3.13/bioc/html/msImpute.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.14/bioc/html/msImpute.html">https://bioconductor.org/packages/3.14/bioc/html/msImpute.html</a></p>
 </dd>
 <dt class="field-even">License</dt>
 <dd class="field-even"><p>GPL (&gt;=2)</p>
@@ -120,7 +120,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msimpute">bioconductor-msimpute</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msimpute/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>MsImpute is a package for imputation of peptide intensity in proteomics experiments. It additionally contains tools for MAR/MNAR diagnosis and assessment of distortions to the probability distribution of the data post imputation. Currently, msImpute completes missing values by low-rank approximation of the underlying data matrix.</p>
+<p>MsImpute is a package for imputation of peptide intensity in proteomics experiments. It additionally contains tools for MAR/MNAR diagnosis and assessment of distortions to the probability distribution of the data post imputation.  The missing values are imputed by low-rank approximation of the underlying data matrix if they are MAR (method = &quot;v2&quot;), by Barycenter approach if missingness is MNAR (&quot;v2-mnar&quot;), or by Peptide Identity Propagation (PIP).</p>
 </dd></dl>
 
 <dl class="conda package">

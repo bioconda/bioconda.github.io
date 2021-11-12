@@ -12,7 +12,7 @@ bioconductor-vbmp
 
    Variational Bayesian Multinomial Probit Regression
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/vbmp.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/vbmp.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-vbmp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vbmp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vbmp/meta.yaml>`_
    :links: biotools: :biotools:`vbmp`, doi: :doi:`10.1093/bioinformatics/btm535`

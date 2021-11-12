@@ -12,7 +12,7 @@ bioconductor-maqcexpression4plex
 
    Sample Expression Data \- MAQC \/ HG18 \- NimbleGen
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/maqcExpression4plex.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/maqcExpression4plex.html
    :license: GPL
    :recipe: /`bioconductor-maqcexpression4plex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcexpression4plex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maqcexpression4plex/meta.yaml>`_
 

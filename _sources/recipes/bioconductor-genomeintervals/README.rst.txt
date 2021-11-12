@@ -12,7 +12,7 @@ bioconductor-genomeintervals
 
    Operations on genomic intervals
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/genomeIntervals.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/genomeIntervals.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomeintervals <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeintervals>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeintervals/meta.yaml>`_
    :links: biotools: :biotools:`genomeintervals`, doi: :doi:`10.1038/nmeth.3252`

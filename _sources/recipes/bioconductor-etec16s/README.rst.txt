@@ -12,7 +12,7 @@ bioconductor-etec16s
 
    Individual\-specific changes in the human gut microbiota after challenge with enterotoxigenic Escherichia coli and subsequent ciprofloxacin treatment
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/etec16s.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/etec16s.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-etec16s <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-etec16s>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-etec16s/meta.yaml>`_
 

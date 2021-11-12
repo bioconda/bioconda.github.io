@@ -12,7 +12,7 @@ bioconductor-dta
 
    Dynamic Transcriptome Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DTA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DTA.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dta/meta.yaml>`_
    :links: biotools: :biotools:`dta`, doi: :doi:`10.1093/bioinformatics/bts052`

@@ -12,7 +12,7 @@ bioconductor-adamgui
 
    Activity and Diversity Analysis Module Graphical User Interface
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ADAMgui.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ADAMgui.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-adamgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adamgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adamgui/meta.yaml>`_
 

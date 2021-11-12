@@ -12,7 +12,7 @@ bioconductor-titancna
 
    Subclonal copy number and LOH prediction from whole genome sequencing of tumours
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/TitanCNA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TitanCNA.html
    :license: GPL-3
    :recipe: /`bioconductor-titancna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-titancna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-titancna/meta.yaml>`_
    :links: biotools: :biotools:`titancna`

@@ -12,7 +12,7 @@ bioconductor-splinetimer
 
    Time\-course differential gene expression data analysis using spline regression models followed by gene association network reconstruction
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/splineTimeR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/splineTimeR.html
    :license: GPL-3
    :recipe: /`bioconductor-splinetimer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splinetimer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splinetimer/meta.yaml>`_
    :links: biotools: :biotools:`splinetimer`, doi: :doi:`10.1371/journal.pone.0160791`

@@ -12,7 +12,7 @@ bioconductor-xeva
 
    Analysis of patient\-derived xenograft \(PDX\) data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Xeva.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Xeva.html
    :license: GPL-3
    :recipe: /`bioconductor-xeva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xeva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xeva/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-selex
 
    Functions for analyzing SELEX\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SELEX.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SELEX.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-selex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-selex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-selex/meta.yaml>`_
 

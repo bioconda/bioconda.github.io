@@ -12,7 +12,7 @@ bioconductor-sseq
 
    Shrinkage estimation of dispersion in Negative Binomial models for RNA\-seq experiments with small sample size
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/sSeq.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sSeq.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-sseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sseq/meta.yaml>`_
    :links: biotools: :biotools:`sseq`, doi: :doi:`10.1093/bioinformatics/btt143`

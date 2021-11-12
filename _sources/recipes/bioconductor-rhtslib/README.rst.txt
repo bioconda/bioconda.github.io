@@ -12,7 +12,7 @@ bioconductor-rhtslib
 
    HTSlib high\-throughput sequencing library as an R package
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Rhtslib.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Rhtslib.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-rhtslib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhtslib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhtslib/meta.yaml>`_
    :links: biotools: :biotools:`rhtslib`, doi: :doi:`10.1038/nmeth.3252`

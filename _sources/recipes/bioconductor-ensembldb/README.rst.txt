@@ -12,7 +12,7 @@ bioconductor-ensembldb
 
    Utilities to create and use Ensembl\-based annotation databases
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ensembldb.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ensembldb.html
    :license: LGPL
    :recipe: /`bioconductor-ensembldb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensembldb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensembldb/meta.yaml>`_
    :links: biotools: :biotools:`ensembldb`, doi: :doi:`10.1038/nmeth.3252`

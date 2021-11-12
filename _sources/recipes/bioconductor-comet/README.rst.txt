@@ -12,7 +12,7 @@ bioconductor-comet
 
    coMET\: visualisation of regional epigenome\-wide association scan \(EWAS\) results and DNA co\-methylation patterns
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/coMET.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/coMET.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-comet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-comet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-comet/meta.yaml>`_
 

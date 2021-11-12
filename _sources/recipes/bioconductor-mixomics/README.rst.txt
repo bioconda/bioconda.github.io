@@ -12,7 +12,7 @@ bioconductor-mixomics
 
    Omics Data Integration Project
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/mixOmics.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/mixOmics.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mixomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mixomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mixomics/meta.yaml>`_
 

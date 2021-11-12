@@ -12,7 +12,7 @@ bioconductor-sqldataframe
 
    Representation of SQL database in DataFrame metaphor
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SQLDataFrame.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SQLDataFrame.html
    :license: GPL-3
    :recipe: /`bioconductor-sqldataframe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sqldataframe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sqldataframe/meta.yaml>`_
 

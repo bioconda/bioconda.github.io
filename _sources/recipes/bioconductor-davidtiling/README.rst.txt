@@ -12,7 +12,7 @@ bioconductor-davidtiling
 
    Data and analysis scripts for David\, Huber et al. yeast tiling array paper
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/davidTiling.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/davidTiling.html
    :license: LGPL
    :recipe: /`bioconductor-davidtiling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-davidtiling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-davidtiling/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-metnet
 
    Inferring metabolic networks from untargeted high\-resolution mass spectrometry data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MetNet.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MetNet.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-metnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metnet/meta.yaml>`_
 

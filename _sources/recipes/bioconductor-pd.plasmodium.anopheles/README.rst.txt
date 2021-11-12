@@ -12,7 +12,7 @@ bioconductor-pd.plasmodium.anopheles
 
    Platform Design Info for The Manufacturer\'s Name Plasmodium\_Anopheles
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/pd.plasmodium.anopheles.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.plasmodium.anopheles.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.plasmodium.anopheles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.plasmodium.anopheles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.plasmodium.anopheles/meta.yaml>`_
 

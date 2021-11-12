@@ -12,7 +12,7 @@ bioconductor-htratfocuscdf
 
    htratfocuscdf
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/htratfocuscdf.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/htratfocuscdf.html
    :license: LGPL
    :recipe: /`bioconductor-htratfocuscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htratfocuscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htratfocuscdf/meta.yaml>`_
 

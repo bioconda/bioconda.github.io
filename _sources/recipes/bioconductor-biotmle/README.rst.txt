@@ -12,8 +12,8 @@ bioconductor-biotmle
 
    Targeted Learning with Moderated Statistics for Biomarker Discovery
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/biotmle.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/biotmle.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-biotmle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmle/meta.yaml>`_
 
    Tools for differential expression biomarker discovery based on microarray and next\-generation sequencing data that leverage efficient semiparametric estimators of the average treatment effect for variable importance analysis. Estimation and inference of the \(marginal\) average treatment effects of potential biomarkers are computed by targeted minimum loss\-based estimation\, with joint\, stable inference constructed across all biomarkers using a generalization of moderated statistics for use with the estimated efficient influence function. The procedure accommodates the use of ensemble machine learning for the estimation of nuisance functions.

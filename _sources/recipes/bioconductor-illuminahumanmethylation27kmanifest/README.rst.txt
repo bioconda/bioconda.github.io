@@ -12,7 +12,7 @@ bioconductor-illuminahumanmethylation27kmanifest
 
    Annotation for Illumina\'s 27k methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/IlluminaHumanMethylation27kmanifest.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/IlluminaHumanMethylation27kmanifest.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanmethylation27kmanifest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation27kmanifest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation27kmanifest/meta.yaml>`_
 
@@ -27,13 +27,13 @@ bioconductor-illuminahumanmethylation27kmanifest
       
       
 
-      ``0.4.0-7``,  ``0.4.0-6``,  ``0.4.0-5``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``
+      ``0.4.0-8``,  ``0.4.0-7``,  ``0.4.0-6``,  ``0.4.0-5``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``
 
       
 
    
-   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.80.0,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

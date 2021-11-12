@@ -12,7 +12,7 @@ bioconductor-bsgenome.mmulatta.ucsc.rhemac2.masked
 
    Full masked genome sequences for Macaca mulatta \(UCSC version rheMac2\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac2.masked.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac2.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmulatta.ucsc.rhemac2.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmulatta.ucsc.rhemac2.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmulatta.ucsc.rhemac2.masked/meta.yaml>`_
 

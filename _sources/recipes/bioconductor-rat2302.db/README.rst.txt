@@ -10,13 +10,13 @@ bioconductor-rat2302.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Rat Genome 230 2.0 Array annotation data \(chip rat2302\)
+   Affymetrix Affymetrix Rat230\_2 Array annotation data \(chip rat2302\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/rat2302.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/rat2302.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rat2302.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rat2302.db/meta.yaml>`_
 
-   Affymetrix Rat Genome 230 2.0 Array annotation data \(chip rat2302\) assembled using data from public repositories
+   Affymetrix Affymetrix Rat230\_2 Array annotation data \(chip rat2302\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-rat2302.db

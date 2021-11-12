@@ -12,7 +12,7 @@ bioconductor-deepbluer
 
    DeepBlueR
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DeepBlueR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DeepBlueR.html
    :license: GPL (>=2.0)
    :recipe: /`bioconductor-deepbluer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepbluer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepbluer/meta.yaml>`_
    :links: biotools: :biotools:`deepbluer`

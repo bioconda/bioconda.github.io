@@ -12,8 +12,8 @@ bioconductor-geomxtools
 
    NanoString GeoMx Tools
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GeomxTools.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GeomxTools.html
+   :license: MIT
    :recipe: /`bioconductor-geomxtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geomxtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geomxtools/meta.yaml>`_
 
    Tools for NanoString Technologies GeoMx Technology. Package provides functions for reading in DCC and PKC files based on an ExpressionSet derived object.  Normalization and QC functions are also included.

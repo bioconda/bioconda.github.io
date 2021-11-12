@@ -12,7 +12,7 @@ bioconductor-pvca
 
    Principal Variance Component Analysis \(PVCA\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pvca.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/pvca.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-pvca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvca/meta.yaml>`_
    :links: biotools: :biotools:`pvca`, doi: :doi:`10.1002/9780470685983.ch12`

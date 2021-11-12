@@ -12,7 +12,7 @@ bioconductor-leebamviews
 
    leeBamViews \-\- multiple yeast RNAseq samples excerpted from Lee 2009
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/leeBamViews.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/leeBamViews.html
    :license: Artistic 2.0
    :recipe: /`bioconductor-leebamviews <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-leebamviews>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-leebamviews/meta.yaml>`_
 

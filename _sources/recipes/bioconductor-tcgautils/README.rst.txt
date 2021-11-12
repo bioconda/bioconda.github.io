@@ -12,7 +12,7 @@ bioconductor-tcgautils
 
    TCGA utility functions for data management
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/TCGAutils.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/TCGAutils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tcgautils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgautils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgautils/meta.yaml>`_
 

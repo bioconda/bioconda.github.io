@@ -12,7 +12,7 @@ bioconductor-drosophila2probe
 
    Probe sequence data for microarrays of type drosophila2
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/drosophila2probe.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/drosophila2probe.html
    :license: LGPL
    :recipe: /`bioconductor-drosophila2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drosophila2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drosophila2probe/meta.yaml>`_
 

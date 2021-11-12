@@ -12,11 +12,11 @@ bioconductor-hilda
 
    Conducting statistical inference on comparing the mutational exposures of mutational signatures by using hierarchical latent Dirichlet allocation
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/HiLDA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/HiLDA.html
    :license: GPL-3
    :recipe: /`bioconductor-hilda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilda/meta.yaml>`_
 
-   A package built under the Bayesian framework of applying hierarchical latent Dirichlet allocation to statistically test whether the mutational exposures of mutational signatures \(Shiraishi\-model signatures\) are different between two groups.
+   A package built under the Bayesian framework of applying hierarchical latent Dirichlet allocation. It statistically tests whether the mutational exposures of mutational signatures \(Shiraishi\-model signatures\) are different between two groups. The package also provides inference and visualization.
 
 
 .. conda:package:: bioconductor-hilda

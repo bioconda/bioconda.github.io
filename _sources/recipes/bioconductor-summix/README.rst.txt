@@ -10,9 +10,9 @@ bioconductor-summix
    :replaces_section_title:
    :noindex:
 
-   Summix R Package
+   Summix\: A method to estimate and adjust for population structure in genetic summary data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Summix.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Summix.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-summix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summix/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-sracipe
 
    Systems biology tool to simulate gene regulatory circuits
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/sRACIPE.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sRACIPE.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sracipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sracipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sracipe/meta.yaml>`_
 

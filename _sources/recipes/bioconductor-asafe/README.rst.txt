@@ -12,7 +12,7 @@ bioconductor-asafe
 
    Ancestry Specific Allele Frequency Estimation
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ASAFE.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ASAFE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-asafe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asafe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asafe/meta.yaml>`_
    :links: biotools: :biotools:`asafe`, doi: :doi:`10.1093/bioinformatics/btw220`

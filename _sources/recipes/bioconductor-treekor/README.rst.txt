@@ -10,13 +10,13 @@ bioconductor-treekor
    :replaces_section_title:
    :noindex:
 
-   Cytometry Cluster Hierarchy and Proportions to Parent
+   Cytometry Cluster Hierarchy and Cellular\-to\-phenotype Associations
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/treekoR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/treekoR.html
    :license: GPL-3
    :recipe: /`bioconductor-treekor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treekor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treekor/meta.yaml>`_
 
-   treekoR is a novel framework that aims to utilise the hierarchical nature of single cell cytometry data to find robust and interpretable associations between cell subsets and patient clinical end points. These associations are aimed to recapitulate the nested proportions prevalent in workflows inovlving manual gating\, which are often overlooked in workflows using automatic clustering to identify cell populations. We developed treekoR to\: Derive a hierarchical tree structure of cell clusters\; measure the proportions to parent \(proportions of cells each node in the tree relative to the number of cells belonging its parent node\)\, in addition to the proportions to all \(proportion of cells in each node relative to all cells\)\; perform significance testing using the calculated proportions\; and provide an interactive html visualisation to help highlight key results.
+   treekoR is a novel framework that aims to utilise the hierarchical nature of single cell cytometry data to find robust and interpretable associations between cell subsets and patient clinical end points. These associations are aimed to recapitulate the nested proportions prevalent in workflows inovlving manual gating\, which are often overlooked in workflows using automatic clustering to identify cell populations. We developed treekoR to\: Derive a hierarchical tree structure of cell clusters\; quantify a cell types as a proportion relative to all cells in a sample \(\%total\)\, and\, as the proportion relative to a parent population \(\%parent\)\; perform significance testing using the calculated proportions\; and provide an interactive html visualisation to help highlight key results.
 
 
 .. conda:package:: bioconductor-treekor

@@ -12,7 +12,7 @@ bioconductor-cardinal
 
    A mass spectrometry imaging toolbox for statistical analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Cardinal.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Cardinal.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cardinal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinal/meta.yaml>`_
    :links: biotools: :biotools:`cardinal`, usegalaxy-eu: :usegalaxy-eu:`cardinal_segmentations`

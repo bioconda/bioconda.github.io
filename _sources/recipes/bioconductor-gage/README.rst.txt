@@ -12,7 +12,7 @@ bioconductor-gage
 
    Generally Applicable Gene\-set Enrichment for Pathway Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/gage.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/gage.html
    :license: GPL (>=2.0)
    :recipe: /`bioconductor-gage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gage/meta.yaml>`_
    :links: biotools: :biotools:`gage`

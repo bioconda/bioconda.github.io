@@ -12,7 +12,7 @@ bioconductor-bicare
 
    Biclustering Analysis and Results Exploration
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BicARE.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BicARE.html
    :license: GPL-2
    :recipe: /`bioconductor-bicare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bicare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bicare/meta.yaml>`_
    :links: biotools: :biotools:`bicare`, doi: :doi:`10.1038/nmeth.3252`

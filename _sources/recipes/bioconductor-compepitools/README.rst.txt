@@ -12,7 +12,7 @@ bioconductor-compepitools
 
    Tools for computational epigenomics
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/compEpiTools.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/compEpiTools.html
    :license: GPL
    :recipe: /`bioconductor-compepitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compepitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compepitools/meta.yaml>`_
    :links: biotools: :biotools:`compepitools`

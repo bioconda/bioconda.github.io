@@ -12,7 +12,7 @@ bioconductor-wgsmapp
 
    Mappability tracks of Whole\-genome Sequencing from the ENCODE Project
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/WGSmapp.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/WGSmapp.html
    :license: GPL-2
    :recipe: /`bioconductor-wgsmapp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wgsmapp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wgsmapp/meta.yaml>`_
 

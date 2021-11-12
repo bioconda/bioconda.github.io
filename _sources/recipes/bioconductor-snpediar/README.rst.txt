@@ -12,7 +12,7 @@ bioconductor-snpediar
 
    Query data from SNPedia
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SNPediaR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SNPediaR.html
    :license: GPL-2
    :recipe: /`bioconductor-snpediar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpediar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpediar/meta.yaml>`_
    :links: biotools: :biotools:`snpediar`, doi: :doi:`10.1007/978-1-4419-9863-7_1039`

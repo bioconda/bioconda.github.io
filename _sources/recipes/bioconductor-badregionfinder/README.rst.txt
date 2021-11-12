@@ -12,7 +12,7 @@ bioconductor-badregionfinder
 
    BadRegionFinder\: an R\/Bioconductor package for identifying regions with bad coverage
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BadRegionFinder.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BadRegionFinder.html
    :license: LGPL-3
    :recipe: /`bioconductor-badregionfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-badregionfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-badregionfinder/meta.yaml>`_
    :links: biotools: :biotools:`badregionfinder`, doi: :doi:`10.1038/nmeth.3252`

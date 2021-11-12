@@ -12,7 +12,7 @@ bioconductor-chimphumanbraindata
 
    Chimp and human brain data package
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/ChimpHumanBrainData.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/ChimpHumanBrainData.html
    :license: MIT
    :recipe: /`bioconductor-chimphumanbraindata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimphumanbraindata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimphumanbraindata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-toxicogx
 
    Analysis of Large\-Scale Toxico\-Genomic Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ToxicoGx.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ToxicoGx.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-toxicogx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-toxicogx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-toxicogx/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-profilescoredist
 
    Profile score distributions
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/profileScoreDist.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/profileScoreDist.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-profilescoredist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profilescoredist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profilescoredist/meta.yaml>`_
 

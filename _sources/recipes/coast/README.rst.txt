@@ -28,14 +28,15 @@ coast
       
       
 
-      ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends biopython: ``>=1.78``
    :depends blast: ``>=2.10``
-   :depends dominate: 
+   :depends bokeh: ``>=2.4.0``
+   :depends jinja2: ``>=3.0.0``
    :depends pandas: ``>=1.2.0``
    :depends python: 
    :depends requests: ``>=2.25.1``
@@ -72,7 +73,7 @@ coast
 
     <script>
         var package = "coast";
-        var versions = ["0.2.0","0.1.2","0.1.1"];
+        var versions = ["0.2.0","0.2.0","0.1.2","0.1.1"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-gse13015
 
    GEO accession data GSE13015\_GPL6106 as a SummarizedExperiment
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/GSE13015.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/GSE13015.html
    :license: MIT License
    :recipe: /`bioconductor-gse13015 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse13015>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse13015/meta.yaml>`_
 

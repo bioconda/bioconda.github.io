@@ -12,7 +12,7 @@ bioconductor-rnaseqcomp
 
    Benchmarks for RNA\-seq Quantification Pipelines
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rnaseqcomp.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rnaseqcomp.html
    :license: GPL-3
    :recipe: /`bioconductor-rnaseqcomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcomp/meta.yaml>`_
    :links: biotools: :biotools:`rnaseqcomp`

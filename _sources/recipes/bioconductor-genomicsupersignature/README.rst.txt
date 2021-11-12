@@ -12,11 +12,11 @@ bioconductor-genomicsupersignature
 
    Interpretation of RNA\-seq experiments through robust\, efficient comparison to public databases
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GenomicSuperSignature.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GenomicSuperSignature.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicsupersignature <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicsupersignature>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicsupersignature/meta.yaml>`_
 
-   This package contains the index\, which is the Replicable and interpretable Axes of Variation \(RAV\) extracted from public RNA sequencing datasets by clustering and averaging top PCs. This index\, named as RAVindex\, is further annotated with MeSH terms and GSEA. Functions to connect PCs from new datasets to RAVs\, extract interpretable annotations\, and provide intuitive visualization\, are implemented in this package. Overall\, this package enables researchers to analyze new data in the context of existing databases with minimal computing resources.
+   This package provides a novel method for interpreting new transcriptomic datasets through near\-instantaneous comparison to public archives without high\-performance computing requirements. Through the pre\-computed index\, users can identify public resources associated with their dataset such as gene sets\, MeSH term\, and publication. Functions to identify interpretable annotations and intuitive visualization options are implemented in this package.
 
 
 .. conda:package:: bioconductor-genomicsupersignature

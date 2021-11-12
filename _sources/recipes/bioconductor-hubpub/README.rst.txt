@@ -12,7 +12,7 @@ bioconductor-hubpub
 
    Utilities to create and use Bioconductor Hubs
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/HubPub.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/HubPub.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hubpub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hubpub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hubpub/meta.yaml>`_
 

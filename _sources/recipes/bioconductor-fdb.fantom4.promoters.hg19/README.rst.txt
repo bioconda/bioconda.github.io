@@ -12,7 +12,7 @@ bioconductor-fdb.fantom4.promoters.hg19
 
    Annotation package for FANTOM4 promoters identified from THP\-1 cells
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/FDb.FANTOM4.promoters.hg19.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/FDb.FANTOM4.promoters.hg19.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fdb.fantom4.promoters.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.fantom4.promoters.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.fantom4.promoters.hg19/meta.yaml>`_
 

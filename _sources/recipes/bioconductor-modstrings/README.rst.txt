@@ -12,7 +12,7 @@ bioconductor-modstrings
 
    Working with modified nucleotide sequences
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Modstrings.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Modstrings.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-modstrings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-modstrings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-modstrings/meta.yaml>`_
 

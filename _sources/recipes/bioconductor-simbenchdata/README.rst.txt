@@ -12,7 +12,7 @@ bioconductor-simbenchdata
 
    SimBenchData\: a collection of 35 single\-cell RNA\-seq data covering a wide range of data characteristics
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/SimBenchData.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/SimBenchData.html
    :license: GPL-3
    :recipe: /`bioconductor-simbenchdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simbenchdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simbenchdata/meta.yaml>`_
 

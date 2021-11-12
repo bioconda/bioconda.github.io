@@ -12,7 +12,7 @@ bioconductor-msstatsqcgui
 
    A graphical user interface for MSstatsQC package
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MSstatsQCgui.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MSstatsQCgui.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-msstatsqcgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsqcgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsqcgui/meta.yaml>`_
 

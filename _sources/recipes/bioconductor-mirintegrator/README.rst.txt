@@ -12,7 +12,7 @@ bioconductor-mirintegrator
 
    Integrating microRNA expression into signaling pathways for pathway analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/mirIntegrator.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/mirIntegrator.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-mirintegrator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirintegrator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirintegrator/meta.yaml>`_
    :links: biotools: :biotools:`mirintegrator`, doi: :doi:`10.1038/srep29251`

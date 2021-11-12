@@ -12,12 +12,12 @@ bioconductor-fccac
 
    functional Canonical Correlation Analysis to evaluate Covariance between nucleic acid sequencing datasets
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/fCCAC.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/fCCAC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fccac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fccac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fccac/meta.yaml>`_
    :links: biotools: :biotools:`fccac`
 
-   An application of functional canonical correlation analysis to assess covariance of nucleic acid sequencing datasets such as chromatin immunoprecipitation followed by deep sequencing \(ChIP\-seq\). The package can be used as well with other types of sequencing data such as neMeRIP\-seq \(see PMID\: 29489750\).
+   An application of functional Canonical Correlation Analysis to allow the assessment of\: \(i\) reproducibility of biological or technical replicates\, analyzing their shared covariance in higher order components\; and \(ii\) the associations between different datasets.
 
 
 .. conda:package:: bioconductor-fccac

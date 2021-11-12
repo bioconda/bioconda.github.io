@@ -12,7 +12,7 @@ bioconductor-duoclustering2018
 
    Data\, Clustering Results and Visualization Functions From Duò et al \(2018\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/DuoClustering2018.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/DuoClustering2018.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-duoclustering2018 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-duoclustering2018>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-duoclustering2018/meta.yaml>`_
 

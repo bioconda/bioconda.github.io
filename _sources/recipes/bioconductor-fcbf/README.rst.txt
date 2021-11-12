@@ -12,7 +12,7 @@ bioconductor-fcbf
 
    Fast Correlation Based Filter for Feature Selection
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/FCBF.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/FCBF.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fcbf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcbf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fcbf/meta.yaml>`_
 

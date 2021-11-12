@@ -12,7 +12,7 @@ bioconductor-epigrahmm
 
    Epigenomic R\-based analysis with hidden Markov models
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/epigraHMM.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/epigraHMM.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epigrahmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epigrahmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epigrahmm/meta.yaml>`_
 

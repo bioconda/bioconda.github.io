@@ -12,7 +12,7 @@ bioconductor-hgu95av2probe
 
    Probe sequence data for microarrays of type hgu95av2
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hgu95av2probe.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/hgu95av2probe.html
    :license: LGPL
    :recipe: /`bioconductor-hgu95av2probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95av2probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95av2probe/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rbec
 
    Rbec\: a tool for analysis of amplicon sequencing data from synthetic microbial communities
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Rbec.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Rbec.html
    :license: LGPL-3
    :recipe: /`bioconductor-rbec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbec/meta.yaml>`_
 

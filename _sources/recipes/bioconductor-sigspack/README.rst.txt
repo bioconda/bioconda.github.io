@@ -12,7 +12,7 @@ bioconductor-sigspack
 
    Mutational Signature Estimation for Single Samples
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SigsPack.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SigsPack.html
    :license: GPL-3
    :recipe: /`bioconductor-sigspack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigspack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigspack/meta.yaml>`_
 

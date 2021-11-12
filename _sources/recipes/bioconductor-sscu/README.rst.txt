@@ -12,7 +12,7 @@ bioconductor-sscu
 
    Strength of Selected Codon Usage
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/sscu.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/sscu.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sscu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sscu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sscu/meta.yaml>`_
    :links: biotools: :biotools:`sscu`, doi: :doi:`10.1038/nmeth.3252`

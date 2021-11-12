@@ -12,7 +12,7 @@ bioconductor-cghmcr
 
    Find chromosome regions showing common gains\/losses
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/cghMCR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cghMCR.html
    :license: LGPL
    :recipe: /`bioconductor-cghmcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghmcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghmcr/meta.yaml>`_
    :links: biotools: :biotools:`cghmcr`, doi: :doi:`10.1093/bioinformatics/btv298`

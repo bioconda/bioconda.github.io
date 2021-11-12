@@ -10,13 +10,13 @@ bioconductor-rgu34b.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Rat Genome U34 Set annotation data \(chip rgu34b\)
+   Affymetrix Affymetrix RG\_U34B Array annotation data \(chip rgu34b\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/rgu34b.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/rgu34b.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgu34b.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34b.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgu34b.db/meta.yaml>`_
 
-   Affymetrix Rat Genome U34 Set annotation data \(chip rgu34b\) assembled using data from public repositories
+   Affymetrix Affymetrix RG\_U34B Array annotation data \(chip rgu34b\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-rgu34b.db

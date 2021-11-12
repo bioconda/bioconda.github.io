@@ -12,7 +12,7 @@ bioconductor-primeviewprobe
 
    Probe sequence data for microarrays of type primeview
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/primeviewprobe.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/primeviewprobe.html
    :license: LGPL
    :recipe: /`bioconductor-primeviewprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primeviewprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primeviewprobe/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-panp
 
    Presence\-Absence Calls from Negative Strand Matching Probesets
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/panp.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/panp.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-panp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panp/meta.yaml>`_
    :links: biotools: :biotools:`panp`, doi: :doi:`10.1109/BIBE.2007.4375552`

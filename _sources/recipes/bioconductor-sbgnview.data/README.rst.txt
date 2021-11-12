@@ -12,7 +12,7 @@ bioconductor-sbgnview.data
 
    Supporting datasets for SBGNview package
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/SBGNview.data.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/SBGNview.data.html
    :license: AGPL-3
    :recipe: /`bioconductor-sbgnview.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbgnview.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sbgnview.data/meta.yaml>`_
 

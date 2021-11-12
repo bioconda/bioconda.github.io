@@ -12,7 +12,7 @@ bioconductor-geneattribution
 
    Identification of candidate genes associated with genetic variation
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/geneAttribution.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/geneAttribution.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geneattribution <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneattribution>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneattribution/meta.yaml>`_
    :links: biotools: :biotools:`geneattribution`, doi: :doi:`10.1093/bioinformatics/btw698`

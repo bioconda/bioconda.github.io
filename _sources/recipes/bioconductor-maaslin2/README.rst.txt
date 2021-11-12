@@ -12,7 +12,7 @@ bioconductor-maaslin2
 
    \"Multivariable Association Discovery in Population\-scale Meta\-omics Studies\"
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Maaslin2.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Maaslin2.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-maaslin2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maaslin2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maaslin2/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-travel
 
    An utility to create an ALTREP object with a virtual pointer
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Travel.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Travel.html
    :license: GPL-3
    :recipe: /`bioconductor-travel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-travel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-travel/meta.yaml>`_
 

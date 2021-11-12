@@ -12,7 +12,7 @@ bioconductor-affixcan
 
    A Functional Approach To Impute Genetically Regulated Expression
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/AffiXcan.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/AffiXcan.html
    :license: GPL-3
    :recipe: /`bioconductor-affixcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affixcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affixcan/meta.yaml>`_
 

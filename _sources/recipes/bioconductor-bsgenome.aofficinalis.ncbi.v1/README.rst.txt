@@ -12,7 +12,7 @@ bioconductor-bsgenome.aofficinalis.ncbi.v1
 
    Asparagus officinalis \(Garden asparagus\) full genome \(NCBI version Aspof.V1\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Aofficinalis.NCBI.V1.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Aofficinalis.NCBI.V1.html
    :license: GPL-3
    :recipe: /`bioconductor-bsgenome.aofficinalis.ncbi.v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.aofficinalis.ncbi.v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.aofficinalis.ncbi.v1/meta.yaml>`_
 

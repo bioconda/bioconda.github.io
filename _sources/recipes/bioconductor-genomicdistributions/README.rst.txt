@@ -10,9 +10,9 @@ bioconductor-genomicdistributions
    :replaces_section_title:
    :noindex:
 
-   Produces Summaries and Plots of Features Distributed Across Genomes
+   GenomicDistributions\: fast analysis of genomic intervals with Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GenomicDistributions.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GenomicDistributions.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-genomicdistributions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicdistributions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicdistributions/meta.yaml>`_
 

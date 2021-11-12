@@ -12,7 +12,7 @@ bioconductor-appreci8r
 
    appreci8R\: an R\/Bioconductor package for filtering SNVs and short indels with high sensitivity and high PPV
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/appreci8R.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/appreci8R.html
    :license: LGPL-3
    :recipe: /`bioconductor-appreci8r <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-appreci8r>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-appreci8r/meta.yaml>`_
 

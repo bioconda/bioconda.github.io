@@ -12,7 +12,7 @@ bioconductor-multiclust
 
    multiClust\: An R\-package for Identifying Biologically Relevant Clusters in Cancer Transcriptome Profiles
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/multiClust.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/multiClust.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-multiclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiclust/meta.yaml>`_
    :links: biotools: :biotools:`multiclust`, doi: :doi:`10.4137/cin.s38000`

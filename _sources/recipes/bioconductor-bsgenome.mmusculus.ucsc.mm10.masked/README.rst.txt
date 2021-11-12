@@ -10,13 +10,13 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
    :replaces_section_title:
    :noindex:
 
-   Full masked genome sequences for Mus musculus \(UCSC version mm10\)
+   Full masked genome sequences for Mus musculus \(UCSC genome mm10\, based on GRCm38.p6\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Mmusculus.UCSC.mm10.masked.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Mmusculus.UCSC.mm10.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmusculus.ucsc.mm10.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm10.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm10.masked/meta.yaml>`_
 
-   Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(mm10\, Dec. 2011\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Mmusculus.UCSC.mm10\, except that each of them has the 2 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, and \(2\) the mask of intra\-contig ambiguities \(AMB mask\).
+   Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(genome mm10\, based on GRCm38.p6\) and stored in Biostrings objects. The sequences are the same as in BSgenome.Mmusculus.UCSC.mm10\, except that each of them has the 2 following masks on top\: \(1\) the mask of assembly gaps \(AGAPS mask\)\, and \(2\) the mask of intra\-contig ambiguities \(AMB mask\).
 
 
 .. conda:package:: bioconductor-bsgenome.mmusculus.ucsc.mm10.masked

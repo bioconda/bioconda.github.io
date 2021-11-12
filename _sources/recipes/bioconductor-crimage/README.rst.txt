@@ -12,7 +12,7 @@ bioconductor-crimage
 
    CRImage a package to classify cells and calculate tumour cellularity
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CRImage.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CRImage.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-crimage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crimage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crimage/meta.yaml>`_
    :links: biotools: :biotools:`crimage`, doi: :doi:`10.1126/scitranslmed.3004330`

@@ -12,7 +12,7 @@ bioconductor-cghregions
 
    Dimension Reduction for Array CGH Data with Minimal Information Loss.
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CGHregions.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CGHregions.html
    :license: GPL (http://www.gnu.org/copyleft/gpl.html)
    :recipe: /`bioconductor-cghregions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghregions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghregions/meta.yaml>`_
    :links: biotools: :biotools:`cghregions`, doi: :doi:`10.1002/9783527678679.dg00687`

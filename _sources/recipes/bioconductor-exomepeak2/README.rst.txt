@@ -12,7 +12,7 @@ bioconductor-exomepeak2
 
    Bias\-aware Peak Calling and Quantification for MeRIP\-Seq
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/exomePeak2.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/exomePeak2.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-exomepeak2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exomepeak2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exomepeak2/meta.yaml>`_
 

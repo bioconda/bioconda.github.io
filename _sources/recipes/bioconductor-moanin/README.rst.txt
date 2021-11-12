@@ -12,7 +12,7 @@ bioconductor-moanin
 
    An R Package for Time Course RNASeq Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/moanin.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/moanin.html
    :license: BSD 3-clause License + file LICENSE
    :recipe: /`bioconductor-moanin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moanin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moanin/meta.yaml>`_
 

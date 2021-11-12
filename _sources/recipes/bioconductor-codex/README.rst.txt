@@ -12,7 +12,7 @@ bioconductor-codex
 
    A Normalization and Copy Number Variation Detection Method for Whole Exome Sequencing
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CODEX.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CODEX.html
    :license: GPL-2
    :recipe: /`bioconductor-codex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-codex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-codex/meta.yaml>`_
    :links: biotools: :biotools:`codex`, doi: :doi:`10.1093/nar/gku1363`

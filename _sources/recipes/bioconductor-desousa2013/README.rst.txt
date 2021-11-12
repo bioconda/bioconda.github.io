@@ -12,7 +12,7 @@ bioconductor-desousa2013
 
    Poor prognosis colon cancer is defined by a molecularly distinct subtype and precursor lesion
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/DeSousa2013.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/DeSousa2013.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-desousa2013 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-desousa2013>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-desousa2013/meta.yaml>`_
 

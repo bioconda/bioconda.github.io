@@ -12,7 +12,7 @@ bioconductor-isolde
 
    Integrative Statistics of alleLe Dependent Expression
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ISoLDE.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ISoLDE.html
    :license: GPL (>= 2.0)
    :recipe: /`bioconductor-isolde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isolde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isolde/meta.yaml>`_
 

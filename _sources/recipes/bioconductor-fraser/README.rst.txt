@@ -12,7 +12,7 @@ bioconductor-fraser
 
    Find RAre Splicing Events in RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/FRASER.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/FRASER.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fraser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fraser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fraser/meta.yaml>`_
    :links: https: :https:`//doi.org/10.1038/s41467-020-20573-7`

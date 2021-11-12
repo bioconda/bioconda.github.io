@@ -12,7 +12,7 @@ bioconductor-mogene10stprobeset.db
 
    Affymetrix mogene10 annotation data \(chip mogene10stprobeset\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/mogene10stprobeset.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/mogene10stprobeset.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mogene10stprobeset.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene10stprobeset.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mogene10stprobeset.db/meta.yaml>`_
 

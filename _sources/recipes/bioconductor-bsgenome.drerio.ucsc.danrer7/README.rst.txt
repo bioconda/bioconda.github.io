@@ -12,7 +12,7 @@ bioconductor-bsgenome.drerio.ucsc.danrer7
 
    Full genome sequences for Danio rerio \(UCSC version danRer7\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Drerio.UCSC.danRer7.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Drerio.UCSC.danRer7.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.drerio.ucsc.danrer7 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.drerio.ucsc.danrer7>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.drerio.ucsc.danrer7/meta.yaml>`_
 

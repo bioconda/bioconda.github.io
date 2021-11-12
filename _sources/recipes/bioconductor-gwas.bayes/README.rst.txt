@@ -12,7 +12,7 @@ bioconductor-gwas.bayes
 
    GWAS for Selfing Species
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GWAS.BAYES.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GWAS.BAYES.html
    :license: GPL-2 | GPL-3
    :recipe: /`bioconductor-gwas.bayes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwas.bayes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwas.bayes/meta.yaml>`_
 

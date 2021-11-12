@@ -12,7 +12,7 @@ bioconductor-idpr
 
    Profiling and Analyzing Intrinsically Disordered Proteins in R
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/idpr.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/idpr.html
    :license: LGPL-3
    :recipe: /`bioconductor-idpr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idpr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idpr/meta.yaml>`_
 

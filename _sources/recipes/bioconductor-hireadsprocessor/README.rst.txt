@@ -12,7 +12,7 @@ bioconductor-hireadsprocessor
 
    Functions to process LM\-PCR reads from 454\/Illumina data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/hiReadsProcessor.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/hiReadsProcessor.html
    :license: GPL-3
    :recipe: /`bioconductor-hireadsprocessor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireadsprocessor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireadsprocessor/meta.yaml>`_
 

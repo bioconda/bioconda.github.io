@@ -12,7 +12,7 @@ bioconductor-miqc
 
    Flexible\, probabilistic metrics for quality control of scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/miQC.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/miQC.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-miqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miqc/meta.yaml>`_
 

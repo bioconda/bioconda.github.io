@@ -12,7 +12,7 @@ bioconductor-gmoviz
 
    Seamless visualization of complex genomic variations in GMOs and edited cell lines
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/gmoviz.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/gmoviz.html
    :license: GPL-3
    :recipe: /`bioconductor-gmoviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmoviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmoviz/meta.yaml>`_
 

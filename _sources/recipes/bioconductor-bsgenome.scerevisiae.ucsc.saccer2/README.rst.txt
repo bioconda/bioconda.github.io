@@ -12,7 +12,7 @@ bioconductor-bsgenome.scerevisiae.ucsc.saccer2
 
    Saccharomyces cerevisiae \(Yeast\) full genome \(UCSC version sacCer2\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer2.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.scerevisiae.ucsc.saccer2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.scerevisiae.ucsc.saccer2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.scerevisiae.ucsc.saccer2/meta.yaml>`_
 

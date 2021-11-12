@@ -12,7 +12,7 @@ bioconductor-apeglm
 
    Approximate posterior estimation for GLM coefficients
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/apeglm.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/apeglm.html
    :license: GPL-2
    :recipe: /`bioconductor-apeglm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apeglm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-apeglm/meta.yaml>`_
 

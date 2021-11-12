@@ -12,7 +12,7 @@ bioconductor-mutationalpatterns
 
    Comprehensive genome\-wide analysis of mutational processes
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MutationalPatterns.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MutationalPatterns.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mutationalpatterns <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns/meta.yaml>`_
 

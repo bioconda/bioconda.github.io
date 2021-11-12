@@ -12,7 +12,7 @@ bioconductor-scaledmatrix
 
    Creating a DelayedMatrix of Scaled and Centered Values
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ScaledMatrix.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ScaledMatrix.html
    :license: GPL-3
    :recipe: /`bioconductor-scaledmatrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scaledmatrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scaledmatrix/meta.yaml>`_
 

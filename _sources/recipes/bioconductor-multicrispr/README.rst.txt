@@ -12,7 +12,7 @@ bioconductor-multicrispr
 
    Multi\-locus multi\-purpose Crispr\/Cas design
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/multicrispr.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/multicrispr.html
    :license: GPL-2
    :recipe: /`bioconductor-multicrispr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multicrispr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multicrispr/meta.yaml>`_
 

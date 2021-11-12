@@ -12,7 +12,7 @@ bioconductor-gmapr
 
    An R interface to the GMAP\/GSNAP\/GSTRUCT suite
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/gmapR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/gmapR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gmapr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmapr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmapr/meta.yaml>`_
 

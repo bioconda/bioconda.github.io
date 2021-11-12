@@ -12,7 +12,7 @@ bioconductor-frenchfish
 
    Poisson Models for Quantifying DNA Copy\-number from FISH Images of Tissue Sections
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/frenchFISH.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/frenchFISH.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-frenchfish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frenchfish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frenchfish/meta.yaml>`_
 

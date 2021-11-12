@@ -12,7 +12,7 @@ bioconductor-ternarynet
 
    Ternary Network Estimation
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ternarynet.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ternarynet.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ternarynet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ternarynet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ternarynet/meta.yaml>`_
    :links: biotools: :biotools:`ternarynet`

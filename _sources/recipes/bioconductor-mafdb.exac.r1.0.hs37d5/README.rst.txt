@@ -12,7 +12,7 @@ bioconductor-mafdb.exac.r1.0.hs37d5
 
    Minor allele frequency data from ExAC release 1.0 for hs37d5
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/MafDb.ExAC.r1.0.hs37d5.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/MafDb.ExAC.r1.0.hs37d5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mafdb.exac.r1.0.hs37d5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.exac.r1.0.hs37d5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.exac.r1.0.hs37d5/meta.yaml>`_
 

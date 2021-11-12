@@ -12,8 +12,8 @@ bioconductor-muscat
 
    Multi\-sample multi\-group scRNA\-seq data analysis tools
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/muscat.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/muscat.html
+   :license: GPL-3
    :recipe: /`bioconductor-muscat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-muscat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-muscat/meta.yaml>`_
 
    \`muscat\` provides various methods and visualization tools for DS analysis in multi\-sample\, multi\-group\, multi\-\(cell\-\)subpopulation scRNA\-seq data\, including cell\-level mixed models and methods based on aggregated “pseudobulk” data\, as well as a flexible simulation platform that mimics both single and multi\-sample scRNA\-seq data.

@@ -12,7 +12,7 @@ bioconductor-hypergraph
 
    A package providing hypergraph data structures
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/hypergraph.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/hypergraph.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hypergraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hypergraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hypergraph/meta.yaml>`_
    :links: biotools: :biotools:`hypergraph`, doi: :doi:`10.1038/nmeth.3252`

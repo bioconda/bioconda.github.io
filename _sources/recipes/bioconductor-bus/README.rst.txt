@@ -12,7 +12,7 @@ bioconductor-bus
 
    Gene network reconstruction
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/BUS.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/BUS.html
    :license: GPL-3
    :recipe: /`bioconductor-bus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bus/meta.yaml>`_
    :links: biotools: :biotools:`bus`, doi: :doi:`10.1038/nmeth.3252`

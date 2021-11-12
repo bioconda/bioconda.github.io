@@ -10,13 +10,13 @@ bioconductor-canine.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix canine annotation data \(chip canine\)
+   Affymetrix Affymetrix Canine Array annotation data \(chip canine\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/canine.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/canine.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-canine.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canine.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canine.db/meta.yaml>`_
 
-   Affymetrix canine annotation data \(chip canine\) assembled using data from public repositories
+   Affymetrix Affymetrix Canine Array annotation data \(chip canine\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-canine.db

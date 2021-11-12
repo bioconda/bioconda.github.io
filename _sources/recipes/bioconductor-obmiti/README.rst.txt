@@ -12,11 +12,11 @@ bioconductor-obmiti
 
    Ob\/ob Mice Data on Normal and High Fat Diet
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/ObMiTi.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/ObMiTi.html
    :license: GPL-3
    :recipe: /`bioconductor-obmiti <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-obmiti>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-obmiti/meta.yaml>`_
 
-   The package provide RNA\-seq count for 2 strains of mus musclus\; Wild type and Ob\/Ob. Each strain was divided into two groups\, and each group received either chow diet or high fat diet. RNA expression was measured after 12 weeks in 7 tissues.
+   The package provide RNA\-seq count for 2 strains of mus musclus\; Wild type and Ob\/Ob. Each strain was divided into two groups\, and each group received either chow diet or high fat diet. RNA expression was measured after 20 weeks in 7 tissues.
 
 
 .. conda:package:: bioconductor-obmiti

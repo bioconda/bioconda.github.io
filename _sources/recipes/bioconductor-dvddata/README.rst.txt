@@ -12,7 +12,7 @@ bioconductor-dvddata
 
    Drug versus Disease Data
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/DvDdata.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/DvDdata.html
    :license: GPL-3
    :recipe: /`bioconductor-dvddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dvddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dvddata/meta.yaml>`_
 

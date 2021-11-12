@@ -12,7 +12,7 @@ bioconductor-gsar
 
    Gene Set Analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GSAR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GSAR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-gsar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsar/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-multisight
 
    Multi\-omics Classification\, Functional Enrichment and Network Inference analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/multiSight.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/multiSight.html
    :license: CeCILL + file LICENSE
    :recipe: /`bioconductor-multisight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multisight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multisight/meta.yaml>`_
 

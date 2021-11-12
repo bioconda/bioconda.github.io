@@ -12,7 +12,7 @@ bioconductor-clippda
 
    A package for the clinical proteomic profiling data analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/clippda.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/clippda.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-clippda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clippda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clippda/meta.yaml>`_
 

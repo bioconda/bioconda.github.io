@@ -12,7 +12,7 @@ bioconductor-visse
 
    Visualising Set Enrichment Analysis Results
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/vissE.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/vissE.html
    :license: GPL-3
    :recipe: /`bioconductor-visse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-visse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-visse/meta.yaml>`_
 

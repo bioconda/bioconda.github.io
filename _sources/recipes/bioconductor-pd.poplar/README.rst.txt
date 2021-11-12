@@ -12,7 +12,7 @@ bioconductor-pd.poplar
 
    Platform Design Info for The Manufacturer\'s Name Poplar
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/pd.poplar.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.poplar.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.poplar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.poplar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.poplar/meta.yaml>`_
 

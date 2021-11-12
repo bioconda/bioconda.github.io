@@ -12,7 +12,7 @@ bioconductor-phantasus
 
    Visual and interactive gene expression analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/phantasus.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/phantasus.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-phantasus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phantasus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phantasus/meta.yaml>`_
 

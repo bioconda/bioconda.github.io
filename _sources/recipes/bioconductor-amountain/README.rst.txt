@@ -12,7 +12,7 @@ bioconductor-amountain
 
    Active modules for multilayer weighted gene co\-expression networks\: a continuous optimization approach
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/AMOUNTAIN.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/AMOUNTAIN.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-amountain <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amountain>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amountain/meta.yaml>`_
    :links: biotools: :biotools:`amountain`, doi: :doi:`10.1101/056952`

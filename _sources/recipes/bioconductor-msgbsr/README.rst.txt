@@ -12,7 +12,7 @@ bioconductor-msgbsr
 
    msgbsR\: methylation sensitive genotyping by sequencing \(MS\-GBS\) R functions
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/msgbsR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/msgbsR.html
    :license: GPL-2
    :recipe: /`bioconductor-msgbsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgbsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msgbsr/meta.yaml>`_
 

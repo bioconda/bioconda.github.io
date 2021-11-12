@@ -12,12 +12,12 @@ bioconductor-synergyfinder
 
    Calculate and Visualize Synergy Scores for Drug Combinations
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/synergyfinder.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/synergyfinder.html
    :license: Mozilla Public License 2.0
    :recipe: /`bioconductor-synergyfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synergyfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synergyfinder/meta.yaml>`_
    :links: biotools: :biotools:`synergyfinder`, doi: :doi:`10.1093/bioinformatics/btx162`
 
-   Efficient implementations for analyzing pre\-clinical multiple drug combination datasets. 1. Synergy scores valuculation via all the popular models\, including HSA\, Loewe\, Bliss and ZIP\; 2. Drug Sensitivity Score \(CSS\) and Relitave Inhibition \(RI\) for drug sensitivity evaluation\; 3. Visualization for drug combination matrices and scores. Based on this package\, we also provide a web application \(http\:\/\/synergyfinder.org\/\) for users who prefer more friendly user interface.
+   Efficient implementations for analyzing pre\-clinical multiple drug combination datasets. It provides efficient implementations for 1.the popular synergy scoring models\, including HSA\, Loewe\, Bliss\, and ZIP to quantify the degree of drug combination synergy\; 2. higher order drug combination data analysis and synergy landscape visualization for unlimited number of drugs in a combination\; 3. statistical analysis of drug combination synergy and sensitivity with confidence intervals and p\-values\; 4. synergy barometer for harmonizing multiple synergy scoring methods to provide a consensus metric of synergy\; 5. evaluation of synergy and sensitivity simultaneously to provide an unbiased interpretation of the clinical potential of the drug combinations. Based on this package\, we also provide a web application \(https\:\/\/synergyfinderplus.org\/\) for users who prefer graphical user interface.
 
 
 .. conda:package:: bioconductor-synergyfinder

@@ -12,7 +12,7 @@ bioconductor-spatialexperiment
 
    S4 Class for Spatial Experiments handling
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SpatialExperiment.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SpatialExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-spatialexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialexperiment/meta.yaml>`_
 

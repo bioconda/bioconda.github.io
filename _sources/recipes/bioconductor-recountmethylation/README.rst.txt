@@ -12,7 +12,7 @@ bioconductor-recountmethylation
 
    Access and analyze DNA methylation database compilations
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/recountmethylation.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/recountmethylation.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-recountmethylation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recountmethylation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recountmethylation/meta.yaml>`_
 

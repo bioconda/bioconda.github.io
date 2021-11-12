@@ -12,7 +12,7 @@ bioconductor-casper
 
    Characterization of Alternative Splicing based on Paired\-End Reads
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/casper.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/casper.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-casper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-casper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-casper/meta.yaml>`_
 

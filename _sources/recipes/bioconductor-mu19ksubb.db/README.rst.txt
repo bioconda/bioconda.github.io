@@ -10,13 +10,13 @@ bioconductor-mu19ksubb.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Murine Genome 19k Set annotation data \(chip mu19ksubb\)
+   Affymetrix Affymetrix Mu19KsubB Array annotation data \(chip mu19ksubb\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/mu19ksubb.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/mu19ksubb.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mu19ksubb.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu19ksubb.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu19ksubb.db/meta.yaml>`_
 
-   Affymetrix Murine Genome 19k Set annotation data \(chip mu19ksubb\) assembled using data from public repositories
+   Affymetrix Affymetrix Mu19KsubB Array annotation data \(chip mu19ksubb\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-mu19ksubb.db

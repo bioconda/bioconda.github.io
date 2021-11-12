@@ -12,7 +12,7 @@ bioconductor-repviz
 
    Replicate oriented Visualization of a genomic region
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RepViz.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RepViz.html
    :license: GPL-3
    :recipe: /`bioconductor-repviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-repviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-repviz/meta.yaml>`_
 

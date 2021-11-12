@@ -12,7 +12,7 @@ bioconductor-microbiome
 
    Microbiome Analytics
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/microbiome.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/microbiome.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-microbiome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiome/meta.yaml>`_
 

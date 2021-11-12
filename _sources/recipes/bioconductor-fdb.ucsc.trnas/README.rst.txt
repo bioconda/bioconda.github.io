@@ -12,7 +12,7 @@ bioconductor-fdb.ucsc.trnas
 
    Annotation package for FeatureDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/FDb.UCSC.tRNAs.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/FDb.UCSC.tRNAs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fdb.ucsc.trnas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.ucsc.trnas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.ucsc.trnas/meta.yaml>`_
 

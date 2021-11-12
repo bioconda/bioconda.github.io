@@ -10,13 +10,13 @@ bioconductor-ygs98.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Yeast Genome S98 Array annotation data \(chip ygs98\)
+   Affymetrix Affymetrix YG\_S98 Array annotation data \(chip ygs98\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/ygs98.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/ygs98.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ygs98.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ygs98.db/meta.yaml>`_
 
-   Affymetrix Yeast Genome S98 Array annotation data \(chip ygs98\) assembled using data from public repositories
+   Affymetrix Affymetrix YG\_S98 Array annotation data \(chip ygs98\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-ygs98.db

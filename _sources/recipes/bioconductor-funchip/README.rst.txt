@@ -12,7 +12,7 @@ bioconductor-funchip
 
    Clustering and Alignment of ChIP\-Seq peaks based on their shapes
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/FunChIP.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/FunChIP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-funchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funchip/meta.yaml>`_
    :links: biotools: :biotools:`funchip`, doi: :doi:`10.1093/bioinformatics/btx201`

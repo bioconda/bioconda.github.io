@@ -12,7 +12,7 @@ bioconductor-eegc
 
    Engineering Evaluation by Gene Categorization \(eegc\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/eegc.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/eegc.html
    :license: GPL-2
    :recipe: /`bioconductor-eegc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eegc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eegc/meta.yaml>`_
 

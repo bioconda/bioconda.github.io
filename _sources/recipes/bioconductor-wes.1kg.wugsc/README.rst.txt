@@ -12,7 +12,7 @@ bioconductor-wes.1kg.wugsc
 
    Whole Exome Sequencing \(WES\) of chromosome 22 401st to 500th exon from the 1000 Genomes \(1KG\) Project by the Washington University Genome Sequencing Center \(WUGSC\).
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/WES.1KG.WUGSC.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/WES.1KG.WUGSC.html
    :license: GPL-2
    :recipe: /`bioconductor-wes.1kg.wugsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wes.1kg.wugsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wes.1kg.wugsc/meta.yaml>`_
 

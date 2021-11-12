@@ -12,11 +12,11 @@ bioconductor-ramr
 
    Detection of Rare Aberrantly Methylated Regions in Array and NGS Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ramr.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ramr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ramr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramr/meta.yaml>`_
 
-   ramr is an R package for detection of low\-frequency aberrant methylation events in large datasets obtained by methylation profiling using array or high\-throughput bisulfite sequencing. In addition\, package provides functions to visualize found aberrantly methylated regions \(AMRs\)\, and to generate sets of all possible regions to be used as reference sets for enrichment analysis.
+   ramr is an R package for detection of low\-frequency aberrant methylation events in large data sets obtained by methylation profiling using array or high\-throughput bisulfite sequencing. In addition\, package provides functions to visualize found aberrantly methylated regions \(AMRs\)\, to generate sets of all possible regions to be used as reference sets for enrichment analysis\, and to generate biologically relevant test data sets for performance evaluation of AMR\/DMR search algorithms.
 
 
 .. conda:package:: bioconductor-ramr

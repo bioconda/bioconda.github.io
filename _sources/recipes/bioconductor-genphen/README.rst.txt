@@ -10,13 +10,13 @@ bioconductor-genphen
    :replaces_section_title:
    :noindex:
 
-   A tool for quantification of associations between genotypes and phenotypes in genome wide association studies \(GWAS\) with Bayesian inference and statistical learning
+   genphen\: tool for quantification of genotype\-phenotype associations in genome wide association studies \(GWAS\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/genphen.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/genphen.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genphen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genphen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genphen/meta.yaml>`_
 
-   Genetic association studies are an essential tool for studying the relationship between genotypes and phenotypes. With genphen we can jointly study multiple phenotypes of different types\, by quantifying the association between different genotypes and each phenotype using a hybrid method which uses statistical learning techniques such as random forest and support vector machines\, and Bayesian inference using hierarchical models.
+   Genetic association studies help us discover relationships between genotypes and phenotype. genphen is a computational tool for quantification of genotype\-phenotype associations using a hybrid approach based on statistical learning techniques and probabilistic models that are analyzed computationally by Bayes inference.
 
 
 .. conda:package:: bioconductor-genphen

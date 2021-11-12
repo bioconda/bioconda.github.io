@@ -12,7 +12,7 @@ bioconductor-lipidr
 
    Data Mining and Analysis of Lipidomics Datasets
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/lipidr.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/lipidr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lipidr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lipidr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lipidr/meta.yaml>`_
 

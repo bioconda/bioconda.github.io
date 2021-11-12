@@ -12,11 +12,11 @@ bioconductor-struct
 
    Statistics in R Using Class\-based Templates
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/struct.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/struct.html
    :license: GPL-3
    :recipe: /`bioconductor-struct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-struct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-struct/meta.yaml>`_
 
-   Defines and includes a set of class\-based templates for developing and implementing data processing and analysis workflows\, with a strong emphasis on statistics and machine learning. The templates can be used and where needed extended to \'wrap\' tools and methods from other packages into a common standardised structure to allow for effective and fast integration. Model objects can be combined into sequences\, and sequences nested in iterators using overloaded operators to simplify and improve readability of the code. STATistics Ontology \(STATO\) has been integrated and implemented to provide standardised definitions for methods\, inputs and outputs wrapped using the class\-based templates.
+   Defines and includes a set of class\-based templates for developing and implementing data processing and analysis workflows\, with a strong emphasis on statistics and machine learning. The templates can be used and where needed extended to \'wrap\' tools and methods from other packages into a common standardised structure to allow for effective and fast integration. Model objects can be combined into sequences\, and sequences nested in iterators using overloaded operators to simplify and improve readability of the code. Ontology lookup has been integrated and implemented to provide standardised definitions for methods\, inputs and outputs wrapped using the class\-based templates.
 
 
 .. conda:package:: bioconductor-struct

@@ -12,7 +12,7 @@ bioconductor-illuminahumanmethylation450kmanifest
 
    Annotation for Illumina\'s 450k methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/IlluminaHumanMethylation450kmanifest.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/IlluminaHumanMethylation450kmanifest.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanmethylation450kmanifest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kmanifest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kmanifest/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-illuminahumanmethylation450kmanifest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.0-11</code>,  <code>0.4.0-10</code>,  <code>0.4.0-9</code>,  <code>0.4.0-8</code>,  <code>0.4.0-7</code>,  <code>0.4.0-6</code>,  <code>0.4.0-4</code>,  <code>0.4.0-3</code>,  <code>0.4.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-12</code>,  <code>0.4.0-11</code>,  <code>0.4.0-10</code>,  <code>0.4.0-9</code>,  <code>0.4.0-8</code>,  <code>0.4.0-7</code>,  <code>0.4.0-6</code>,  <code>0.4.0-4</code>,  <code>0.4.0-3</code>,  </span></summary>
       
 
-      ``0.4.0-11``,  ``0.4.0-10``,  ``0.4.0-9``,  ``0.4.0-8``,  ``0.4.0-7``,  ``0.4.0-6``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``
+      ``0.4.0-12``,  ``0.4.0-11``,  ``0.4.0-10``,  ``0.4.0-9``,  ``0.4.0-8``,  ``0.4.0-7``,  ``0.4.0-6``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-illuminahumanmethylation450kmanifest
       
 
    
-   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.80.0,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

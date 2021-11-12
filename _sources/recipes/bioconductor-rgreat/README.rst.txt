@@ -12,7 +12,7 @@ bioconductor-rgreat
 
    Client for GREAT Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rGREAT.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rGREAT.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rgreat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgreat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgreat/meta.yaml>`_
    :links: biotools: :biotools:`rgreat`, doi: :doi:`10.1038/nmeth.3252`

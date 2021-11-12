@@ -12,7 +12,7 @@ bioconductor-fitcons.ucsc.hg19
 
    UCSC fitCons fitness consequences scores for hg19
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/fitCons.UCSC.hg19.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/fitCons.UCSC.hg19.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-fitcons.ucsc.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fitcons.ucsc.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fitcons.ucsc.hg19/meta.yaml>`_
 

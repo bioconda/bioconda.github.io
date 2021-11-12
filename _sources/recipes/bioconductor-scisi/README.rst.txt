@@ -12,7 +12,7 @@ bioconductor-scisi
 
    In Silico Interactome
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ScISI.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ScISI.html
    :license: LGPL
    :recipe: /`bioconductor-scisi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scisi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scisi/meta.yaml>`_
    :links: biotools: :biotools:`scisi`, doi: :doi:`10.1038/nmeth.3252`

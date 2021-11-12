@@ -10,13 +10,13 @@ bioconductor-ecoli2.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix E. coli Genome 2.0 Array annotation data \(chip ecoli2\)
+   Affymetrix Affymetrix E\_coli\_2 Array annotation data \(chip ecoli2\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/ecoli2.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/ecoli2.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ecoli2.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2.db/meta.yaml>`_
 
-   Affymetrix E. coli Genome 2.0 Array annotation data \(chip ecoli2\) assembled using data from public repositories
+   Affymetrix Affymetrix E\_coli\_2 Array annotation data \(chip ecoli2\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-ecoli2.db

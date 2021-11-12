@@ -12,7 +12,7 @@ bioconductor-pumadata
 
    Various data sets for use with the puma package
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/pumadata.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/pumadata.html
    :license: LGPL
    :recipe: /`bioconductor-pumadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pumadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pumadata/meta.yaml>`_
 

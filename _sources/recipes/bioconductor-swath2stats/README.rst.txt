@@ -12,7 +12,7 @@ bioconductor-swath2stats
 
    Transform and Filter SWATH Data for Statistical Packages
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SWATH2stats.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SWATH2stats.html
    :license: GPL-3
    :recipe: /`bioconductor-swath2stats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swath2stats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swath2stats/meta.yaml>`_
    :links: biotools: :biotools:`swath2stats`

@@ -12,7 +12,7 @@ bioconductor-mpra
 
    Analyze massively parallel reporter assays
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/mpra.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/mpra.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mpra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpra/meta.yaml>`_
 

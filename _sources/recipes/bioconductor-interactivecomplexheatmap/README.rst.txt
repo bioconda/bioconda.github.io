@@ -12,7 +12,7 @@ bioconductor-interactivecomplexheatmap
 
    Make Interactive Complex Heatmaps
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/InteractiveComplexHeatmap.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/InteractiveComplexHeatmap.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-interactivecomplexheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactivecomplexheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactivecomplexheatmap/meta.yaml>`_
 

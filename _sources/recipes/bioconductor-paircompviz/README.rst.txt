@@ -12,7 +12,7 @@ bioconductor-paircompviz
 
    Multiple comparison test visualization
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/paircompviz.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/paircompviz.html
    :license: GPL (>=3.0)
    :recipe: /`bioconductor-paircompviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paircompviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-paircompviz/meta.yaml>`_
    :links: biotools: :biotools:`paircompviz`, doi: :doi:`10.1038/nmeth.3252`

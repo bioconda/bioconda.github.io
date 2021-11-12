@@ -12,7 +12,7 @@ bioconductor-mirlab
 
    Dry lab for exploring miRNA\-mRNA relationships
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/miRLAB.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/miRLAB.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-mirlab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab/meta.yaml>`_
 

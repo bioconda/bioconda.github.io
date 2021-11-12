@@ -12,7 +12,7 @@ bioconductor-awst
 
    Asymmetric Within\-Sample Transformation
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/awst.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/awst.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-awst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-awst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-awst/meta.yaml>`_
 

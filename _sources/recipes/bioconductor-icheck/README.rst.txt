@@ -12,7 +12,7 @@ bioconductor-icheck
 
    QC Pipeline and Data Analysis Tools for High\-Dimensional Illumina mRNA Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/iCheck.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/iCheck.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-icheck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icheck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icheck/meta.yaml>`_
 

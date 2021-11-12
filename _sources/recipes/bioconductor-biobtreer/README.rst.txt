@@ -12,7 +12,7 @@ bioconductor-biobtreer
 
    Using biobtree tool from R
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/biobtreeR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/biobtreeR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biobtreer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobtreer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobtreer/meta.yaml>`_
 

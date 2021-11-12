@@ -12,7 +12,7 @@ bioconductor-rrvgo
 
    Reduce \+ Visualize GO
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rrvgo.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rrvgo.html
    :license: GPL-3
    :recipe: /`bioconductor-rrvgo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrvgo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrvgo/meta.yaml>`_
 

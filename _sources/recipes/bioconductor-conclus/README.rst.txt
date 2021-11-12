@@ -12,7 +12,7 @@ bioconductor-conclus
 
    ScRNA\-seq Workflow CONCLUS \- From CONsensus CLUSters To A Meaningful CONCLUSion
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/conclus.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/conclus.html
    :license: GPL-3
    :recipe: /`bioconductor-conclus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-conclus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-conclus/meta.yaml>`_
 

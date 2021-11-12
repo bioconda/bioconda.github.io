@@ -12,7 +12,7 @@ bioconductor-simlr
 
    Single\-cell Interpretation via Multi\-kernel LeaRning \(SIMLR\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SIMLR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SIMLR.html
    :license: file LICENSE
    :recipe: /`bioconductor-simlr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simlr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simlr/meta.yaml>`_
    :links: biotools: :biotools:`simlr`, doi: :doi:`10.1101/118901`

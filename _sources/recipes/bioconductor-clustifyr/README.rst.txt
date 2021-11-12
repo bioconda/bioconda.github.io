@@ -12,7 +12,7 @@ bioconductor-clustifyr
 
    Classifier for Single\-cell RNA\-seq Using Cell Clusters
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/clustifyr.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/clustifyr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-clustifyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustifyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustifyr/meta.yaml>`_
 

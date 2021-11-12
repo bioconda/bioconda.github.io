@@ -12,7 +12,7 @@ bioconductor-curatedadiporna
 
    A Curated RNA\-Seq Dataset of MDI\-induced Differentiated Adipocytes \(3T3\-L1\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/curatedAdipoRNA.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/curatedAdipoRNA.html
    :license: GPL-3
    :recipe: /`bioconductor-curatedadiporna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadiporna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedadiporna/meta.yaml>`_
 

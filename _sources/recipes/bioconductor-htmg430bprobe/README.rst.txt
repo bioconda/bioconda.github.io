@@ -12,7 +12,7 @@ bioconductor-htmg430bprobe
 
    Probe sequence data for microarrays of type htmg430b
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/htmg430bprobe.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/htmg430bprobe.html
    :license: LGPL
    :recipe: /`bioconductor-htmg430bprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430bprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htmg430bprobe/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-alsace
 
    ALS for the Automatic Chemical Exploration of mixtures
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/alsace.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/alsace.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-alsace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alsace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alsace/meta.yaml>`_
 

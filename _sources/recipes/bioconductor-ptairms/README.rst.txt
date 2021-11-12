@@ -12,7 +12,7 @@ bioconductor-ptairms
 
    Pre\-processing PTR\-TOF\-MS Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ptairMS.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ptairMS.html
    :license: GPL-3
    :recipe: /`bioconductor-ptairms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ptairms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ptairms/meta.yaml>`_
 

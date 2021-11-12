@@ -12,11 +12,11 @@ bioconductor-msimpute
 
    Imputation of label\-free mass spectrometry peptides
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/msImpute.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/msImpute.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-msimpute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msimpute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msimpute/meta.yaml>`_
 
-   MsImpute is a package for imputation of peptide intensity in proteomics experiments. It additionally contains tools for MAR\/MNAR diagnosis and assessment of distortions to the probability distribution of the data post imputation. Currently\, msImpute completes missing values by low\-rank approximation of the underlying data matrix.
+   MsImpute is a package for imputation of peptide intensity in proteomics experiments. It additionally contains tools for MAR\/MNAR diagnosis and assessment of distortions to the probability distribution of the data post imputation.  The missing values are imputed by low\-rank approximation of the underlying data matrix if they are MAR \(method \= \"v2\"\)\, by Barycenter approach if missingness is MNAR \(\"v2\-mnar\"\)\, or by Peptide Identity Propagation \(PIP\).
 
 
 .. conda:package:: bioconductor-msimpute

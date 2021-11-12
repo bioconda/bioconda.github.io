@@ -12,7 +12,7 @@ bioconductor-multigsea
 
    Combining GSEA\-based pathway enrichment with multi omics data integration
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/multiGSEA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/multiGSEA.html
    :license: GPL-3
    :recipe: /`bioconductor-multigsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multigsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multigsea/meta.yaml>`_
 

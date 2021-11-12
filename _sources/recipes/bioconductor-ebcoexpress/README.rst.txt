@@ -12,7 +12,7 @@ bioconductor-ebcoexpress
 
    EBcoexpress for Differential Co\-Expression Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/EBcoexpress.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/EBcoexpress.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ebcoexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebcoexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebcoexpress/meta.yaml>`_
 

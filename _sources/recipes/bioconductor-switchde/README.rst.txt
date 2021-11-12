@@ -12,7 +12,7 @@ bioconductor-switchde
 
    Switch\-like differential expression across single\-cell trajectories
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/switchde.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/switchde.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-switchde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchde/meta.yaml>`_
    :links: biotools: :biotools:`switchde`, doi: :doi:`10.1093/bioinformatics/btw798`

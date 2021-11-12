@@ -12,11 +12,11 @@ bioconductor-intercellar
 
    InterCellar\: an R\-Shiny app for interactive analysis and exploration of cell\-cell communication in single\-cell transcriptomics
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/InterCellar.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/InterCellar.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-intercellar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intercellar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intercellar/meta.yaml>`_
 
-   InterCellar is implemented as an R\/Bioconductor Package containing a Shiny app that allows users to interactively analyze cell\-cell communication from scRNA\-seq data. Starting from precomputed ligand\-receptor interactions\, InterCellar provides filtering options\, annotations and multiple visualizations to explore clusters\, genes and functions. Finally\, the user can define interaction\-pairs modules and link them to significant functional terms from Pathways or Gene Ontology.
+   InterCellar is implemented as an R\/Bioconductor Package containing a Shiny app that allows users to interactively analyze cell\-cell communication from scRNA\-seq data. Starting from precomputed ligand\-receptor interactions\, InterCellar provides filtering options\, annotations and multiple visualizations to explore clusters\, genes and functions. Finally\, based on functional annotation from Gene Ontology and pathway databases\, InterCellar implements data\-driven analyses to investigate cell\-cell communication in one or multiple conditions.
 
 
 .. conda:package:: bioconductor-intercellar

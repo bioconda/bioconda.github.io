@@ -12,7 +12,7 @@ bioconductor-eir
 
    Accelerated similarity searching of small molecules
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/eiR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/eiR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-eir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eir/meta.yaml>`_
 

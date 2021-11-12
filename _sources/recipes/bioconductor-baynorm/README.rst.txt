@@ -12,7 +12,7 @@ bioconductor-baynorm
 
    Single\-cell RNA sequencing data normalization
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/bayNorm.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/bayNorm.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-baynorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-baynorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-baynorm/meta.yaml>`_
 

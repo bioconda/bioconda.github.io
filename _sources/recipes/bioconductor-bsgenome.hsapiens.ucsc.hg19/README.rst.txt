@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19
 
    Full genome sequences for Homo sapiens \(UCSC version hg19\, based on GRCh37.p13\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg19/meta.yaml>`_
 

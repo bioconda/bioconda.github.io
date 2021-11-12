@@ -12,7 +12,7 @@ bioconductor-mouse4302frmavecs
 
    Vectors used by frma for microarrays of type mouse4302
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/mouse4302frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/mouse4302frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mouse4302frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302frmavecs/meta.yaml>`_
 

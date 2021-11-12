@@ -12,7 +12,7 @@ bioconductor-plasmodiumanophelescdf
 
    plasmodiumanophelescdf
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/plasmodiumanophelescdf.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/plasmodiumanophelescdf.html
    :license: LGPL
    :recipe: /`bioconductor-plasmodiumanophelescdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasmodiumanophelescdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasmodiumanophelescdf/meta.yaml>`_
 

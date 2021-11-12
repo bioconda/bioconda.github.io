@@ -12,8 +12,8 @@ bioconductor-alpsnmr
 
    Automated spectraL Processing System for NMR
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/AlpsNMR.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/AlpsNMR.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-alpsnmr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpsnmr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpsnmr/meta.yaml>`_
 
    Reads Bruker NMR data directories both zipped and unzipped. It provides automated and efficient signal processing for untargeted NMR metabolomics. It is able to interpolate the samples\, detect outliers\, exclude regions\, normalize\, detect peaks\, align the spectra\, integrate peaks\, manage metadata and visualize the spectra. After spectra proccessing\, it can apply multivariate analysis on extracted data. Efficient plotting with 1\-D data is also available. Basic reading of 1D ACD\/Labs exported JDX samples is also available.

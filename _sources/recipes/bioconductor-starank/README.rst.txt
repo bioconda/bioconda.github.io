@@ -12,7 +12,7 @@ bioconductor-starank
 
    Stability Ranking
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/staRank.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/staRank.html
    :license: GPL
    :recipe: /`bioconductor-starank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starank/meta.yaml>`_
 

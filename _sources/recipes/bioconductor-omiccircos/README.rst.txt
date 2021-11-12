@@ -12,7 +12,7 @@ bioconductor-omiccircos
 
    High\-quality circular visualization of omics data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/OmicCircos.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/OmicCircos.html
    :license: GPL-2
    :recipe: /`bioconductor-omiccircos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omiccircos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omiccircos/meta.yaml>`_
    :links: biotools: :biotools:`omiccircos`, doi: :doi:`10.4137/cin.s13495`

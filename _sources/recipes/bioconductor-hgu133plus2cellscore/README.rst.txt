@@ -12,7 +12,7 @@ bioconductor-hgu133plus2cellscore
 
    CellScore Standard Cell Types Expression Dataset \[hgu133plus2\]
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/hgu133plus2CellScore.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/hgu133plus2CellScore.html
    :license: GPL-3
    :recipe: /`bioconductor-hgu133plus2cellscore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2cellscore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2cellscore/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-synextend
 
    Tools for Working With Synteny Objects
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SynExtend.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SynExtend.html
    :license: GPL-3
    :recipe: /`bioconductor-synextend <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synextend>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synextend/meta.yaml>`_
 

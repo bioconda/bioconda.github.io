@@ -12,7 +12,7 @@ bioconductor-genomeinfodbdata
 
    Species and taxonomy ID look up tables used by GenomeInfoDb
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/GenomeInfoDbData.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/GenomeInfoDbData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomeinfodbdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodbdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodbdata/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-genomeinfodbdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  </span></summary>
       
 
-      ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.99.0-1``,  ``0.99.0-0``
+      ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.99.0-1``,  ``0.99.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ bioconductor-genomeinfodbdata
       
 
    
-   :depends curl: ``>=7.79.1,<8.0a0``
+   :depends curl: ``>=7.80.0,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -73,7 +73,7 @@ bioconductor-genomeinfodbdata
 
     <script>
         var package = "bioconductor-genomeinfodbdata";
-        var versions = ["1.2.7","1.2.6","1.2.4","1.2.4","1.2.4"];
+        var versions = ["1.2.7","1.2.7","1.2.6","1.2.4","1.2.4"];
     </script>
 
 

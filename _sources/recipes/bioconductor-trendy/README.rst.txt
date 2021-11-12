@@ -12,7 +12,7 @@ bioconductor-trendy
 
    Breakpoint analysis of time\-course expression data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Trendy.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Trendy.html
    :license: GPL-3
    :recipe: /`bioconductor-trendy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trendy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trendy/meta.yaml>`_
 

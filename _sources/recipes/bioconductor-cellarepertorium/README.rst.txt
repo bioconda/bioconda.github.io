@@ -12,7 +12,7 @@ bioconductor-cellarepertorium
 
    Data structures\, clustering and testing for single cell immune receptor repertoires \(scRNAseq RepSeq\/AIRR\-seq\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CellaRepertorium.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CellaRepertorium.html
    :license: GPL-3
    :recipe: /`bioconductor-cellarepertorium <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellarepertorium>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellarepertorium/meta.yaml>`_
 

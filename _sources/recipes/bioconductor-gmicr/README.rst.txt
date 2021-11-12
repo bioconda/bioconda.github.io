@@ -12,7 +12,7 @@ bioconductor-gmicr
 
    Combines WGCNA and xCell readouts with bayesian network learrning to generate a Gene\-Module Immune\-Cell network \(GMIC\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GmicR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GmicR.html
    :license: GPL-2 + file LICENSE
    :recipe: /`bioconductor-gmicr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmicr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmicr/meta.yaml>`_
 

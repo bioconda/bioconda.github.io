@@ -12,7 +12,7 @@ bioconductor-spaniel
 
    Spatial Transcriptomics Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/Spaniel.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/Spaniel.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spaniel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spaniel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spaniel/meta.yaml>`_
 

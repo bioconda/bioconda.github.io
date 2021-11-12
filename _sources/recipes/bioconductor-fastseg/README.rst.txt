@@ -12,7 +12,7 @@ bioconductor-fastseg
 
    fastseg \- a fast segmentation algorithm
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/fastseg.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/fastseg.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-fastseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastseg/meta.yaml>`_
    :links: biotools: :biotools:`fastseg`

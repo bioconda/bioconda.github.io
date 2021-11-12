@@ -12,7 +12,7 @@ bioconductor-pd.clariom.s.human.ht
 
    Platform Design Info for Affymetrix Clariom\_S\_Human\_HT
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/pd.clariom.s.human.ht.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.clariom.s.human.ht.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.clariom.s.human.ht <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.s.human.ht>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.clariom.s.human.ht/meta.yaml>`_
 

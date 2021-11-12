@@ -12,7 +12,7 @@ bioconductor-arrayexpresshts
 
    ArrayExpress High Throughput Sequencing Processing Pipeline
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ArrayExpressHTS.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ArrayExpressHTS.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-arrayexpresshts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpresshts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpresshts/meta.yaml>`_
 

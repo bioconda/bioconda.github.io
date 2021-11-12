@@ -12,7 +12,7 @@ bioconductor-cghnormaliter
 
    Normalization of array CGH data with imbalanced aberrations.
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CGHnormaliter.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CGHnormaliter.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-cghnormaliter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghnormaliter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghnormaliter/meta.yaml>`_
    :links: biotools: :biotools:`cghnormaliter`, doi: :doi:`10.1186/1471-2164-10-401`

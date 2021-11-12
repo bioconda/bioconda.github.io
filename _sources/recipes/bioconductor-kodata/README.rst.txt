@@ -12,7 +12,7 @@ bioconductor-kodata
 
    LINCS Knock\-Out Data Package
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/KOdata.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/KOdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-kodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kodata/meta.yaml>`_
 

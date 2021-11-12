@@ -12,7 +12,7 @@ bioconductor-countclust
 
    Clustering and Visualizing RNA\-Seq Expression Data using Grade of Membership Models
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/CountClust.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/CountClust.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-countclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-countclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-countclust/meta.yaml>`_
 

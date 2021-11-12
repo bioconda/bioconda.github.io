@@ -12,7 +12,7 @@ bioconductor-pwmenrich
 
    PWM enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/PWMEnrich.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/PWMEnrich.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-pwmenrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich/meta.yaml>`_
    :links: biotools: :biotools:`pwmenrich`, doi: :doi:`10.1038/nmeth.3252`

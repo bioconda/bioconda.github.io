@@ -12,7 +12,7 @@ bioconductor-clustcomp
 
    Clustering Comparison Package
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/clustComp.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/clustComp.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-clustcomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustcomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustcomp/meta.yaml>`_
    :links: biotools: :biotools:`clustcomp`, doi: :doi:`10.1038/nmeth.3252`

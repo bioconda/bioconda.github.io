@@ -12,7 +12,7 @@ bioconductor-mungesumstats
 
    Standardise summary statistics from GWAS
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MungeSumstats.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MungeSumstats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mungesumstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mungesumstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mungesumstats/meta.yaml>`_
 

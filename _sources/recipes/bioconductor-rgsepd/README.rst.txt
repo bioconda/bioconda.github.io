@@ -12,7 +12,7 @@ bioconductor-rgsepd
 
    Gene Set Enrichment \/ Projection Displays
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rgsepd.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rgsepd.html
    :license: GPL-3
    :recipe: /`bioconductor-rgsepd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsepd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsepd/meta.yaml>`_
    :links: biotools: :biotools:`rgsepd`, doi: :doi:`10.1038/nmeth.3252`

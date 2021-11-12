@@ -12,7 +12,7 @@ bioconductor-sampleclassifierdata
 
    Pre\-processed data for use with the sampleClassifier package
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/sampleClassifierData.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/sampleClassifierData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sampleclassifierdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sampleclassifierdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sampleclassifierdata/meta.yaml>`_
 

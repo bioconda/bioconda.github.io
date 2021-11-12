@@ -12,7 +12,7 @@ bioconductor-genetclassifier
 
    Classify diseases and build associated gene networks using gene expression profiles
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/geNetClassifier.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/geNetClassifier.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genetclassifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genetclassifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genetclassifier/meta.yaml>`_
    :links: biotools: :biotools:`genetclassifier`

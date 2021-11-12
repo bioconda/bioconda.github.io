@@ -10,13 +10,13 @@ bioconductor-hgu95e.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Human Genome U95 Set annotation data \(chip hgu95e\)
+   Affymetrix Affymetrix HG U95E Array annotation data \(chip hgu95e\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hgu95e.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/hgu95e.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hgu95e.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95e.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95e.db/meta.yaml>`_
 
-   Affymetrix Human Genome U95 Set annotation data \(chip hgu95e\) assembled using data from public repositories
+   Affymetrix Affymetrix HG U95E Array annotation data \(chip hgu95e\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hgu95e.db

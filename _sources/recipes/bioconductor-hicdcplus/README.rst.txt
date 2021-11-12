@@ -12,7 +12,7 @@ bioconductor-hicdcplus
 
    Hi\-C Direct Caller Plus
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/HiCDCPlus.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/HiCDCPlus.html
    :license: GPL-3
    :recipe: /`bioconductor-hicdcplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdcplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdcplus/meta.yaml>`_
 

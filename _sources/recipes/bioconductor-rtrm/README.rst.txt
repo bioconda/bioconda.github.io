@@ -10,9 +10,9 @@ bioconductor-rtrm
    :replaces_section_title:
    :noindex:
 
-   Identification of transcriptional regulatory modules from PPI networks
+   Identification of Transcriptional Regulatory Modules from Protein\-Protein Interaction Networks
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/rTRM.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/rTRM.html
    :license: GPL-3
    :recipe: /`bioconductor-rtrm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrm/meta.yaml>`_
    :links: biotools: :biotools:`rtrm`

@@ -12,7 +12,7 @@ bioconductor-scalign
 
    An alignment and integration method for single cell genomics
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/scAlign.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scAlign.html
    :license: GPL-3
    :recipe: /`bioconductor-scalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scalign/meta.yaml>`_
 

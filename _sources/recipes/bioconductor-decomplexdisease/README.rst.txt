@@ -12,7 +12,7 @@ bioconductor-decomplexdisease
 
    A tool for differential expression analysis and DEGs based investigation to complex diseases by bi\-clustering analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DEComplexDisease.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DEComplexDisease.html
    :license: GPL-3
    :recipe: /`bioconductor-decomplexdisease <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decomplexdisease>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decomplexdisease/meta.yaml>`_
 

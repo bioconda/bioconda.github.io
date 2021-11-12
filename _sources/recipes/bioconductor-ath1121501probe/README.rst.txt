@@ -12,7 +12,7 @@ bioconductor-ath1121501probe
 
    Probe sequence data for microarrays of type ath1121501
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/ath1121501probe.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/ath1121501probe.html
    :license: LGPL
    :recipe: /`bioconductor-ath1121501probe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501probe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501probe/meta.yaml>`_
 

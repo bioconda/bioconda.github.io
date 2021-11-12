@@ -10,13 +10,13 @@ bioconductor-zebrafish.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix zebrafish annotation data \(chip zebrafish\)
+   Affymetrix Affymetrix Zebrafish Array annotation data \(chip zebrafish\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/zebrafish.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/zebrafish.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-zebrafish.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafish.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zebrafish.db/meta.yaml>`_
 
-   Affymetrix zebrafish annotation data \(chip zebrafish\) assembled using data from public repositories
+   Affymetrix Affymetrix Zebrafish Array annotation data \(chip zebrafish\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-zebrafish.db

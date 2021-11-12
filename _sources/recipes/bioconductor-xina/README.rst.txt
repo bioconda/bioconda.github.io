@@ -12,7 +12,7 @@ bioconductor-xina
 
    Multiplexes Isobaric Mass Tagged\-based Kinetics Data for Network Analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/XINA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/XINA.html
    :license: GPL-3
    :recipe: /`bioconductor-xina <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xina>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xina/meta.yaml>`_
 

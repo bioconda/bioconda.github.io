@@ -12,7 +12,7 @@ bioconductor-illuminahumanmethylationepicmanifest
 
    Manifest for Illumina\'s EPIC methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/IlluminaHumanMethylationEPICmanifest.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/IlluminaHumanMethylationEPICmanifest.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanmethylationepicmanifest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicmanifest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicmanifest/meta.yaml>`_
 
@@ -26,14 +26,22 @@ bioconductor-illuminahumanmethylationepicmanifest
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.0-11``,  ``0.3.0-10``,  ``0.3.0-9``,  ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.0-12</code>,  <code>0.3.0-11</code>,  <code>0.3.0-10</code>,  <code>0.3.0-9</code>,  <code>0.3.0-7</code>,  <code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  </span></summary>
+      
 
+      ``0.3.0-12``,  ``0.3.0-11``,  ``0.3.0-10``,  ``0.3.0-9``,  ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.80.0,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 

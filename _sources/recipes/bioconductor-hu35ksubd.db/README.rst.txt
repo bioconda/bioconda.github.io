@@ -10,13 +10,13 @@ bioconductor-hu35ksubd.db
    :replaces_section_title:
    :noindex:
 
-   Affymetrix Human Genome HU35K Set annotation data \(chip hu35ksubd\)
+   Affymetrix Affymetrix Hu35KsubD Array annotation data \(chip hu35ksubd\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/hu35ksubd.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/hu35ksubd.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hu35ksubd.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubd.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu35ksubd.db/meta.yaml>`_
 
-   Affymetrix Human Genome HU35K Set annotation data \(chip hu35ksubd\) assembled using data from public repositories
+   Affymetrix Affymetrix Hu35KsubD Array annotation data \(chip hu35ksubd\) assembled using data from public repositories
 
 
 .. conda:package:: bioconductor-hu35ksubd.db

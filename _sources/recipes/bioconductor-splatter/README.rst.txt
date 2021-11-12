@@ -12,7 +12,7 @@ bioconductor-splatter
 
    Simple Simulation of Single\-cell RNA Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/splatter.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/splatter.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-splatter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splatter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splatter/meta.yaml>`_
 

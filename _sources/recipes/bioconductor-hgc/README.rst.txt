@@ -12,11 +12,11 @@ bioconductor-hgc
 
    A fast hierarchical graph\-based clustering method
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/HGC.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/HGC.html
    :license: GPL-3
    :recipe: /`bioconductor-hgc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgc/meta.yaml>`_
 
-   \`HGC\` \(short for Hierarchical Graph\-based Clustering\) is a R package for conducting hierarchical clustering on large\-scale single\-cell RNA\-seq \(scRNA\-seq\) data. The key idea is to construct a dendrogram of cells on their shared nearest neighbor \(SNN\) graph. \`HGC\` provides functions for building cell graphs and for conducting hierarchical clustering on the graph.
+   HGC \(short for Hierarchical Graph\-based Clustering\) is an R package for conducting hierarchical clustering on large\-scale single\-cell RNA\-seq \(scRNA\-seq\) data. The key idea is to construct a dendrogram of cells on their shared nearest neighbor \(SNN\) graph. HGC provides functions for building graphs and for conducting hierarchical clustering on the graph. The users with old R version could visit https\:\/\/github.com\/XuegongLab\/HGC\/tree\/HGC4oldRVersion to get HGC package built for R 3.6.
 
 
 .. conda:package:: bioconductor-hgc

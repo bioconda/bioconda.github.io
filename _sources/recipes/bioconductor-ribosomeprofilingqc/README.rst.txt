@@ -12,7 +12,7 @@ bioconductor-ribosomeprofilingqc
 
    Ribosome Profiling Quality Control
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/ribosomeProfilingQC.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/ribosomeProfilingQC.html
    :license: GPL (>=3) + file LICENSE
    :recipe: /`bioconductor-ribosomeprofilingqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribosomeprofilingqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribosomeprofilingqc/meta.yaml>`_
 

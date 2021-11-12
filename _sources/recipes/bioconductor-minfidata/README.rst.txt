@@ -12,7 +12,7 @@ bioconductor-minfidata
 
    Example data for the Illumina Methylation 450k array
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/minfiData.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/minfiData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minfidata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidata/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-minfidata
       
       
 
-      ``0.38.0-0``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.28.0-1``,  ``0.28.0-0``
+      ``0.40.0-0``,  ``0.38.0-0``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.28.0-1``,  ``0.28.0-0``
 
       
 
    
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
    :depends bioconductor-illuminahumanmethylation450kmanifest: ``>=0.4.0,<0.5.0``
-   :depends bioconductor-minfi: ``>=1.38.0,<1.39.0``
-   :depends curl: ``>=7.77.0,<8.0a0``
+   :depends bioconductor-minfi: ``>=1.40.0,<1.41.0``
+   :depends curl: ``>=7.80.0,<8.0a0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
@@ -68,7 +68,7 @@ bioconductor-minfidata
 
     <script>
         var package = "bioconductor-minfidata";
-        var versions = ["0.38.0","0.36.0","0.36.0","0.34.0","0.32.0"];
+        var versions = ["0.40.0","0.38.0","0.36.0","0.36.0","0.34.0"];
     </script>
 
 

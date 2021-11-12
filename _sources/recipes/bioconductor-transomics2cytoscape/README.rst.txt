@@ -12,7 +12,7 @@ bioconductor-transomics2cytoscape
 
    A tool set for 3D Trans\-Omic network visualization with Cytoscape
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/transomics2cytoscape.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/transomics2cytoscape.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-transomics2cytoscape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transomics2cytoscape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transomics2cytoscape/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pd.ragene.2.1.st
 
    Platform Design Info for Affymetrix RaGene\-2\_1\-st
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/pd.ragene.2.1.st.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.ragene.2.1.st.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.ragene.2.1.st <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ragene.2.1.st>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ragene.2.1.st/meta.yaml>`_
 

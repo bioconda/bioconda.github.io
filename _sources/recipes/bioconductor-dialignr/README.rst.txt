@@ -12,7 +12,7 @@ bioconductor-dialignr
 
    Dynamic Programming Based Alignment of MS2 Chromatograms
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/DIAlignR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/DIAlignR.html
    :license: GPL-3
    :recipe: /`bioconductor-dialignr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dialignr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dialignr/meta.yaml>`_
    :links: usegalaxy-eu: :usegalaxy-eu:`dialignr`

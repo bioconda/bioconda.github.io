@@ -12,7 +12,7 @@ bioconductor-river
 
    R package for RIVER \(RNA\-Informed Variant Effect on Regulation\)
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/RIVER.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/RIVER.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-river <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-river>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-river/meta.yaml>`_
 

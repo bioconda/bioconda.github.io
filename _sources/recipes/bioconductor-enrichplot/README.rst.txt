@@ -12,11 +12,11 @@ bioconductor-enrichplot
 
    Visualization of Functional Enrichment Result
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/enrichplot.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/enrichplot.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-enrichplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichplot/meta.yaml>`_
 
-   The \'enrichplot\' package implements several visualization methods for interpreting functional enrichment results obtained from ORA or GSEA analysis. All the visualization methods are developed based on \'ggplot2\' graphics.
+   The \'enrichplot\' package implements several visualization methods for interpreting functional enrichment results obtained from ORA or GSEA analysis. It is mainly designed to work with the \'clusterProfiler\' package suite. All the visualization methods are developed based on \'ggplot2\' graphics.
 
 
 .. conda:package:: bioconductor-enrichplot

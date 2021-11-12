@@ -12,7 +12,7 @@ bioconductor-muscle
 
    Multiple Sequence Alignment with MUSCLE
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/muscle.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/muscle.html
    :license: Unlimited
    :recipe: /`bioconductor-muscle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-muscle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-muscle/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-aggregatebiovar
 
    Differential Gene Expression Analysis for Multi\-subject scRNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/aggregateBioVar.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/aggregateBioVar.html
    :license: GPL-3
    :recipe: /`bioconductor-aggregatebiovar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aggregatebiovar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aggregatebiovar/meta.yaml>`_
 

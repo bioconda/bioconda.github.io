@@ -12,7 +12,7 @@ bioconductor-greylistchip
 
    Grey Lists \-\- Mask Artefact Regions Based on ChIP Inputs
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/GreyListChIP.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/GreyListChIP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-greylistchip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-greylistchip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-greylistchip/meta.yaml>`_
 

@@ -27,7 +27,7 @@ atlas-gene-annotation-manipulation
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -68,7 +68,7 @@ atlas-gene-annotation-manipulation
 
     <script>
         var package = "atlas-gene-annotation-manipulation";
-        var versions = ["1.0.2","1.0.1"];
+        var versions = ["1.1.0","1.0.2","1.0.1"];
     </script>
 
 

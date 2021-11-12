@@ -12,7 +12,7 @@ bioconductor-simat
 
    GC\-SIM\-MS data processing and alaysis tool
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SIMAT.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SIMAT.html
    :license: GPL-2
    :recipe: /`bioconductor-simat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simat/meta.yaml>`_
    :links: biotools: :biotools:`simat`, doi: :doi:`10.1186/s12859-015-0681-2`

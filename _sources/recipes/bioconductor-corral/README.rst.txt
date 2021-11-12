@@ -12,7 +12,7 @@ bioconductor-corral
 
    Correspondence Analysis for Single Cell Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/corral.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/corral.html
    :license: GPL-2
    :recipe: /`bioconductor-corral <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-corral>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-corral/meta.yaml>`_
 

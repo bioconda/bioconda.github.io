@@ -12,7 +12,7 @@ bioconductor-rnagilentdesign028282.db
 
    Agilent Chips that use Agilent design number 028282 annotation data \(chip RnAgilentDesign028282\)
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/RnAgilentDesign028282.db.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/RnAgilentDesign028282.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rnagilentdesign028282.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnagilentdesign028282.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnagilentdesign028282.db/meta.yaml>`_
 

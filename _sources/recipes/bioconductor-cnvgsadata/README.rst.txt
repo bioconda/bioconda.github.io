@@ -12,7 +12,7 @@ bioconductor-cnvgsadata
 
    Data used in the vignette of the cnvGSA package
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/cnvGSAdata.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/cnvGSAdata.html
    :license: LGPL
    :recipe: /`bioconductor-cnvgsadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsadata/meta.yaml>`_
 

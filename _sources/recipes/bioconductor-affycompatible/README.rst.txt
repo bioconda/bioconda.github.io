@@ -12,7 +12,7 @@ bioconductor-affycompatible
 
    Affymetrix GeneChip software compatibility
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/AffyCompatible.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/AffyCompatible.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-affycompatible <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompatible>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycompatible/meta.yaml>`_
    :links: biotools: :biotools:`affycompatible`, doi: :doi:`10.1038/nmeth.3252`

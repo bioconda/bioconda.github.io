@@ -12,7 +12,7 @@ bioconductor-prolocgui
 
    Interactive visualisation of spatial proteomics data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/pRolocGUI.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/pRolocGUI.html
    :license: GPL-2
    :recipe: /`bioconductor-prolocgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocgui/meta.yaml>`_
    :links: biotools: :biotools:`prolocgui`, doi: :doi:`10.1038/ncomms9992`

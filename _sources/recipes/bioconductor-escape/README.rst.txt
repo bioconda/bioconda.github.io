@@ -12,7 +12,7 @@ bioconductor-escape
 
    Easy single cell analysis platform for enrichment
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/escape.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/escape.html
    :license: Apache License 2.0
    :recipe: /`bioconductor-escape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-escape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-escape/meta.yaml>`_
 

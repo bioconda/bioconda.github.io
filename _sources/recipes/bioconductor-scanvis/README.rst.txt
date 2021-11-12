@@ -12,7 +12,7 @@ bioconductor-scanvis
 
    SCANVIS \- a tool for SCoring\, ANnotating and VISualizing splice junctions
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SCANVIS.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SCANVIS.html
    :license: file LICENSE
    :recipe: /`bioconductor-scanvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scanvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scanvis/meta.yaml>`_
 

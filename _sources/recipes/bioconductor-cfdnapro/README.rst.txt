@@ -10,9 +10,9 @@ bioconductor-cfdnapro
    :replaces_section_title:
    :noindex:
 
-   This Package Helps Characterise and Visualise Whole Genome Sequencing Data from Liquid Biopsy
+   cfDNAPro Helps Characterise and Visualise Whole Genome Sequencing Data from Liquid Biopsy
 
-   :homepage: https://bioconductor.org/packages/3.12/bioc/html/cfDNAPro.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/cfDNAPro.html
    :license: GPL-3
    :recipe: /`bioconductor-cfdnapro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfdnapro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfdnapro/meta.yaml>`_
 

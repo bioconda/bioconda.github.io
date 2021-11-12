@@ -12,7 +12,7 @@ bioconductor-flowviz
 
    Visualization for flow cytometry
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/flowViz.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/flowViz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowviz/meta.yaml>`_
    :links: biotools: :biotools:`flowviz`, doi: :doi:`10.1093/bioinformatics/btn021`

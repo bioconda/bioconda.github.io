@@ -12,11 +12,11 @@ bioconductor-tartare
 
    Raw ground spectra recorded on Thermo Fisher Scientific mass spectrometers
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/tartare.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/tartare.html
    :license: GPL-3
    :recipe: /`bioconductor-tartare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tartare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tartare/meta.yaml>`_
 
-   Provides raw files recorded on different Liquid Chromatography Mass Spectrometry \(LC\-MS\) instruments. All included MS instruments are manufactured by Thermo Fisher Scientific and belong to the Orbitrap Tribrid or Q Exactive Orbitrap family of instruments. Despite their common origin and shared hardware components \,e.g.\, Orbitrap mass analyser\, the above instruments tend to write data in different \"dialects\" in a shared binary file format \(.raw\). The intention behind tartare is to provide complex but slim real\-world files that can be used to make code robust with respect to this diversity. In other words\, it is intended for enhanced unit testing. The package is considered to be used with the rawDiag package \(Trachsel\, 2018 \<doi\:10.1021\/acs.jproteome.8b00173\>\) and the Spectra MsBackends.
+   Provides raw files recorded on different Liquid Chromatography Mass Spectrometry \(LC\-MS\) instruments. All included MS instruments are manufactured by Thermo Fisher Scientific and belong to the Orbitrap Tribrid or Q Exactive Orbitrap family of instruments. Despite their common origin and shared hardware components \,e.g.\, Orbitrap mass analyser\, the above instruments tend to write data in different \"dialects\" in a shared binary file format \(.raw\). The intention behind tartare is to provide complex but slim real\-world files that can be used to make code robust with respect to this diversity. In other words\, it is intended for enhanced unit testing. The package is considered to be used with the rawrr package and the Spectra MsBackends.
 
 
 .. conda:package:: bioconductor-tartare

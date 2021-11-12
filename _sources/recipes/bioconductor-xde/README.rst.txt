@@ -12,7 +12,7 @@ bioconductor-xde
 
    XDE\: a Bayesian hierarchical model for cross\-study analysis of differential gene expression
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/XDE.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/XDE.html
    :license: LGPL-2
    :recipe: /`bioconductor-xde <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xde>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xde/meta.yaml>`_
    :links: biotools: :biotools:`xde`

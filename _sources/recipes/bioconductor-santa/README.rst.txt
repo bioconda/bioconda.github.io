@@ -12,7 +12,7 @@ bioconductor-santa
 
    Spatial Analysis of Network Associations
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/SANTA.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/SANTA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-santa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-santa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-santa/meta.yaml>`_
 

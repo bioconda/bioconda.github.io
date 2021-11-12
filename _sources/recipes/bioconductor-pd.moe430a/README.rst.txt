@@ -12,7 +12,7 @@ bioconductor-pd.moe430a
 
    Platform Design Info for The Manufacturer\'s Name MOE430A
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/pd.moe430a.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/pd.moe430a.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.moe430a <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.moe430a>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.moe430a/meta.yaml>`_
 

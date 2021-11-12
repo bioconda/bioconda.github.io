@@ -12,7 +12,7 @@ bioconductor-frma
 
    Frozen RMA and Barcode
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/frma.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/frma.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-frma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frma/meta.yaml>`_
    :links: biotools: :biotools:`frma`

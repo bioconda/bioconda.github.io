@@ -12,7 +12,7 @@ bioconductor-scdataviz
 
    scDataviz\: single cell dataviz and downstream analyses
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/scDataviz.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/scDataviz.html
    :license: GPL-3
    :recipe: /`bioconductor-scdataviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdataviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdataviz/meta.yaml>`_
 

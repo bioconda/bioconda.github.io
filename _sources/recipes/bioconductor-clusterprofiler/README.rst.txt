@@ -10,14 +10,14 @@ bioconductor-clusterprofiler
    :replaces_section_title:
    :noindex:
 
-   statistical analysis and visualization of functional profiles for genes and gene clusters
+   A universal enrichment tool for interpreting omics data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/clusterProfiler.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/clusterProfiler.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler/meta.yaml>`_
    :links: biotools: :biotools:`clusterprofiler`
 
-   This package implements methods to analyze and visualize functional profiles \(GO and KEGG\) of gene and gene clusters.
+   This package supports functional characteristics of both coding and non\-coding genomics data for thousands of species with up\-to\-date gene annotation. It provides a univeral interface for gene functional annotation from a variety of sources and thus can be applied in diverse scenarios. It provides a tidy interface to access\, manipulate\, and visualize enrichment results to help users achieve efficient data interpretation. Datasets obtained from multiple treatments and time points can be analyzed and compared in a single run\, easily revealing functional consensus and differences among distinct conditions.
 
 
 .. conda:package:: bioconductor-clusterprofiler

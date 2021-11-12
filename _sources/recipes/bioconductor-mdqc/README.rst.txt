@@ -12,7 +12,7 @@ bioconductor-mdqc
 
    Mahalanobis Distance Quality Control for microarrays
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/mdqc.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/mdqc.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-mdqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdqc/meta.yaml>`_
    :links: biotools: :biotools:`mdqc`, doi: :doi:`10.1093/bioinformatics/btm487`

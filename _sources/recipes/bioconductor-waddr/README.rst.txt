@@ -12,7 +12,7 @@ bioconductor-waddr
 
    Statistical tests for detecting differential distributions based on the 2\-Wasserstein distance
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/waddR.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/waddR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-waddr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-waddr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-waddr/meta.yaml>`_
 

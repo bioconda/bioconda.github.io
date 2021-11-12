@@ -12,7 +12,7 @@ bioconductor-diggitdata
 
    Example data for the diggit package
 
-   :homepage: https://bioconductor.org/packages/3.13/data/experiment/html/diggitdata.html
+   :homepage: https://bioconductor.org/packages/3.14/data/experiment/html/diggitdata.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-diggitdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diggitdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diggitdata/meta.yaml>`_
 

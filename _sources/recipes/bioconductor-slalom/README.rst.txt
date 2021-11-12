@@ -12,11 +12,11 @@ bioconductor-slalom
 
    Factorial Latent Variable Modeling of Single\-Cell RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/slalom.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/slalom.html
    :license: GPL-2
    :recipe: /`bioconductor-slalom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slalom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slalom/meta.yaml>`_
 
-   slalom is a scalable modelling framework for single\-cell RNA\-seq data that uses gene set annotations to dissect single\-cell transcriptome heterogeneity\, thereby allowing to identify biological drivers of cell\-to\-cell variability and model confounding factors.
+   slalom is a scalable modelling framework for single\-cell RNA\-seq data that uses gene set annotations to dissect single\-cell transcriptome heterogeneity\, thereby allowing to identify biological drivers of cell\-to\-cell variability and model confounding factors. The method uses Bayesian factor analysis with a latent variable model to identify active pathways \(selected by the user\, e.g. KEGG pathways\) that explain variation in a single\-cell RNA\-seq dataset. This an R\/C\+\+ implementation of the f\-scLVM Python package. See the publication describing the method at https\:\/\/doi.org\/10.1186\/s13059\-017\-1334\-8.
 
 
 .. conda:package:: bioconductor-slalom

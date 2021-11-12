@@ -12,8 +12,8 @@ bioconductor-nanostringnctools
 
    NanoString nCounter Tools
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/NanoStringNCTools.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/NanoStringNCTools.html
+   :license: MIT
    :recipe: /`bioconductor-nanostringnctools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringnctools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringnctools/meta.yaml>`_
 
    Tools for NanoString Technologies nCounter Technology. Provides support for reading RCC files into an ExpressionSet derived object.  Also includes methods for QC and normalizaztion of NanoString data.

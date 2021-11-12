@@ -12,7 +12,7 @@ bioconductor-meal
 
    Perform methylation analysis
 
-   :homepage: https://bioconductor.org/packages/3.13/bioc/html/MEAL.html
+   :homepage: https://bioconductor.org/packages/3.14/bioc/html/MEAL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-meal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meal/meta.yaml>`_
 

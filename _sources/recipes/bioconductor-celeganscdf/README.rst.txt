@@ -12,7 +12,7 @@ bioconductor-celeganscdf
 
    celeganscdf
 
-   :homepage: https://bioconductor.org/packages/3.13/data/annotation/html/celeganscdf.html
+   :homepage: https://bioconductor.org/packages/3.14/data/annotation/html/celeganscdf.html
    :license: LGPL
    :recipe: /`bioconductor-celeganscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celeganscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celeganscdf/meta.yaml>`_
 
