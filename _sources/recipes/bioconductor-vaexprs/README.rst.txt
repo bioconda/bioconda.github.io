@@ -27,11 +27,23 @@ bioconductor-vaexprs
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-deeppincs: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-scater: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.24.0,<1.25.0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-catencoders: 
+   :depends r-diagrammer: 
+   :depends r-graddescent: 
+   :depends r-keras: 
+   :depends r-mclust: 
+   :depends r-purrr: 
+   :depends r-tensorflow: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +75,7 @@ bioconductor-vaexprs
 
     <script>
         var package = "bioconductor-vaexprs";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

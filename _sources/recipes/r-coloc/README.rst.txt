@@ -27,18 +27,16 @@ r-coloc
       
       
 
-      ``3.1-5``,  ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.3_1-0``
+      ``5.1.0-0``,  ``3.1-5``,  ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.3_1-0``
 
       
 
    
-   :depends bioconductor-snpstats: 
    :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-bma: 
-   :depends r-flashclust: 
+   :depends r-data.table: 
    :depends r-ggplot2: 
-   :depends r-reshape: 
-   :depends r-speedglm: 
+   :depends r-susier: ``>=0.11.33``
+   :depends r-viridis: 
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +68,7 @@ r-coloc
 
     <script>
         var package = "r-coloc";
-        var versions = ["3.1","3.1","3.1","3.1","3.1"];
+        var versions = ["5.1.0","3.1","3.1","3.1","3.1"];
     </script>
 
 
