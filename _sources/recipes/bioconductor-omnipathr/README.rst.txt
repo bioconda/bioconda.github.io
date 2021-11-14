@@ -27,13 +27,14 @@ bioconductor-omnipathr
       
       
 
-      ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``3.2.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-checkmate: 
+   :depends r-crayon: 
    :depends r-curl: 
    :depends r-digest: 
    :depends r-dplyr: 
@@ -46,7 +47,7 @@ bioconductor-omnipathr
    :depends r-progress: 
    :depends r-purrr: 
    :depends r-rappdirs: 
-   :depends r-readr: 
+   :depends r-readr: ``>=2.0.0``
    :depends r-readxl: 
    :depends r-rlang: 
    :depends r-stringr: 
@@ -86,7 +87,7 @@ bioconductor-omnipathr
 
     <script>
         var package = "bioconductor-omnipathr";
-        var versions = ["3.0.0","2.0.0","2.0.0","1.2.0","1.0.0"];
+        var versions = ["3.2.0","3.0.0","2.0.0","2.0.0","1.2.0"];
     </script>
 
 

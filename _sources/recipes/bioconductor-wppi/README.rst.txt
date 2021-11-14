@@ -27,12 +27,12 @@ bioconductor-wppi
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-omnipathr: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-omnipathr: ``>=3.2.0,<3.3.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-igraph: 
@@ -76,7 +76,7 @@ bioconductor-wppi
 
     <script>
         var package = "bioconductor-wppi";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 
