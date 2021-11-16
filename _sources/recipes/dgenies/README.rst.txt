@@ -12,8 +12,8 @@ dgenies
 
    Dotplot large Genomes in an Interactive\, Efficient and Simple way
 
-   :homepage: http://dgenies.toulouse.inra.fr
-   :documentation: http://dgenies.toulouse.inra.fr/
+   :homepage: http://dgenies.toulouse.inrae.fr
+   :documentation: http://dgenies.toulouse.inrae.fr/
    
    :developer docs: https://github.com/genotoul-bioinfo/dgenies
    :license: GPL / GPL-3
@@ -30,25 +30,24 @@ dgenies
       
       
 
-      ``1.2.0.1-0``
+      ``1.2.0.2-0``,  ``1.2.0.1-0``
 
       
 
    
-   :depends argparse: 
-   :depends biopython: 
-   :depends flask: 
-   :depends intervaltree: 
-   :depends jinja2: 
-   :depends markdown: 
-   :depends matplotlib-base: 
+   :depends biopython: ``>=1.70``
+   :depends flask: ``1.0.*``
+   :depends intervaltree: ``2.1.*``
+   :depends jinja2: ``>=2.11.3,<3``
+   :depends markdown: ``2.6.*``
+   :depends matplotlib-base: ``>=2.1``
    :depends numpy: 
-   :depends psutil: 
-   :depends python: ``>=3.5``
-   :depends python-crontab: 
-   :depends pyyaml: 
-   :depends requests: 
-   :depends tendo: 
+   :depends psutil: ``>=5.6.6,<5.7``
+   :depends python: ``>=3.5,<3.10``
+   :depends python-crontab: ``>=2.2``
+   :depends pyyaml: ``>=5.4.1,<5.5``
+   :depends requests: ``>=2.20.1,2.21``
+   :depends tendo: ``0.2.*``
    :requirements:
 
    .. rubric:: Installation
@@ -80,7 +79,7 @@ dgenies
 
     <script>
         var package = "dgenies";
-        var versions = ["1.2.0.1"];
+        var versions = ["1.2.0.2","1.2.0.1"];
     </script>
 
 

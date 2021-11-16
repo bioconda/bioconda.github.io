@@ -27,15 +27,15 @@ trust4
       
       
 
-      ``1.0.5.1-0``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``1.0.6-0``,  ``1.0.5.1-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ trust4
 
     <script>
         var package = "trust4";
-        var versions = ["1.0.5.1","1.0.5","1.0.4"];
+        var versions = ["1.0.6","1.0.5.1","1.0.5","1.0.4"];
     </script>
 
 
