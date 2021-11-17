@@ -27,13 +27,15 @@ vafator
       
       
 
-      ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``1.1.0-0``,  ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
    
    :depends cyvcf2: ``0.30.11``
+   :depends logzero: ``1.7.0``
    :depends pandas: ``1.3.3``
+   :depends pybedtools: ``0.8.2``
    :depends pysam: ``0.17.0``
    :depends python: ``3.7.*``
    :requirements:
@@ -67,7 +69,7 @@ vafator
 
     <script>
         var package = "vafator";
-        var versions = ["0.4.0","0.3.4","0.3.3"];
+        var versions = ["1.1.0","0.4.0","0.3.4","0.3.3"];
     </script>
 
 

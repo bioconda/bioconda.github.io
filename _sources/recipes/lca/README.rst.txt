@@ -27,13 +27,14 @@ lca
       
       
 
-      ``0.21-1``,  ``0.21-0``,  ``0.18-0``
+      ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -66,7 +67,7 @@ lca
 
     <script>
         var package = "lca";
-        var versions = ["0.21","0.21","0.18"];
+        var versions = ["0.22","0.21","0.21","0.18"];
     </script>
 
 

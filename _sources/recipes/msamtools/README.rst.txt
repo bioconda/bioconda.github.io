@@ -27,7 +27,7 @@ msamtools
       
       
 
-      ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -67,7 +67,7 @@ msamtools
 
     <script>
         var package = "msamtools";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.3","1.0.2"];
     </script>
 
 

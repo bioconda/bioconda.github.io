@@ -30,10 +30,10 @@ scirpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -45,7 +45,8 @@ scirpy
    :depends adjusttext: 
    :depends airr: ``>=1.2``
    :depends anndata: ``>=0.7.6``
-   :depends networkx: 
+   :depends networkx: ``>=2.5``
+   :depends numba: ``>=0.41.0``
    :depends numpy: 
    :depends pandas: ``>=1.0``
    :depends parasail-python: 
@@ -56,7 +57,7 @@ scirpy
    :depends scikit-learn: 
    :depends scipy: 
    :depends squarify: 
-   :depends tqdm: ``>=4.42.0``
+   :depends tqdm: ``>=4.44.1``
    :requirements:
 
    .. rubric:: Installation
@@ -88,7 +89,7 @@ scirpy
 
     <script>
         var package = "scirpy";
-        var versions = ["0.9.1","0.9.0","0.8.0","0.7.1","0.7.0"];
+        var versions = ["0.10.0","0.9.1","0.9.0","0.8.0","0.7.1"];
     </script>
 
 
