@@ -13,6 +13,7 @@ cirtap
    A CLI to handle PATRIC data from the FTP
 
    :homepage: https://github.com/MGXlab/cirtap/
+   :developer docs: https://github.com/MGXlab/cirtap
    :license: MIT
    :recipe: /`cirtap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cirtap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cirtap/meta.yaml>`_
 
@@ -27,13 +28,14 @@ cirtap
       
       
 
-      ``0.2.1-0``
+      ``0.3.0-0``,  ``0.2.1-0``
 
       
 
    
    :depends biopython: 
    :depends click: ``>=8.0``
+   :depends ete3: 
    :depends pandas: ``>=1.1.4``
    :depends python: 
    :depends tqdm: 
@@ -68,7 +70,7 @@ cirtap
 
     <script>
         var package = "cirtap";
-        var versions = ["0.2.1"];
+        var versions = ["0.3.0","0.2.1"];
     </script>
 
 

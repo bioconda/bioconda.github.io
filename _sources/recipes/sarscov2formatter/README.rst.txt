@@ -29,7 +29,7 @@ sarscov2formatter
       
       
 
-      ``0.5.3-0``,  ``0.5.2-0``
+      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
 
       
 
@@ -70,7 +70,7 @@ sarscov2formatter
 
     <script>
         var package = "sarscov2formatter";
-        var versions = ["0.5.3","0.5.2"];
+        var versions = ["0.5.4","0.5.3","0.5.2"];
     </script>
 
 
