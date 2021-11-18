@@ -307,24 +307,24 @@
 <p class="rubric">Documentation</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.utils.AsyncRequests">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">AsyncRequests</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#AsyncRequests"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">AsyncRequests</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#AsyncRequests"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests" title="Permalink to this definition">¶</a></dt>
 <dd><p>Download a bunch of files in parallel</p>
 <p>This is not really a class, more a name space encapsulating a bunch of calls.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.utils.AsyncRequests.CONNECTIONS_PER_HOST">
-<span class="sig-name descname"><span class="pre">CONNECTIONS_PER_HOST</span></span><em class="property"> <span class="pre">=</span> <span class="pre">4</span></em><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests.CONNECTIONS_PER_HOST" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">CONNECTIONS_PER_HOST</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">4</span></em><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests.CONNECTIONS_PER_HOST" title="Permalink to this definition">¶</a></dt>
 <dd><p>Max connections to each server</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.utils.AsyncRequests.USER_AGENT">
-<span class="sig-name descname"><span class="pre">USER_AGENT</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'bioconda/bioconda-utils'</span></em><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests.USER_AGENT" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">USER_AGENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'bioconda/bioconda-utils'</span></em><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests.USER_AGENT" title="Permalink to this definition">¶</a></dt>
 <dd><p>Identify ourselves</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="bioconda_utils.utils.AsyncRequests.fetch">
-<em class="property"><span class="pre">classmethod</span> </em><span class="sig-name descname"><span class="pre">fetch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urls</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">descs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cb</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">datas</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#AsyncRequests.fetch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests.fetch" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">fetch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urls</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">descs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cb</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">datas</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#AsyncRequests.fetch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.AsyncRequests.fetch" title="Permalink to this definition">¶</a></dt>
 <dd><p>Fetch data from URLs.</p>
 <p>This will use asyncio to manage a pool of connections at once, speeding
 up download as compared to iterative use of <code class="docutils literal notranslate"><span class="pre">requests</span></code> significantly.
@@ -346,22 +346,22 @@ Use to e.g. offload json parsing into download loop.</p></li>
 
 <dl class="py exception">
 <dt class="sig sig-object py" id="bioconda_utils.utils.BiocondaUtilsWarning">
-<em class="property"><span class="pre">exception</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">BiocondaUtilsWarning</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#BiocondaUtilsWarning"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.BiocondaUtilsWarning" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">BiocondaUtilsWarning</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#BiocondaUtilsWarning"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.BiocondaUtilsWarning" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.utils.CondaBuildConfigFile">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">CondaBuildConfigFile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.utils.CondaBuildConfigFile" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">CondaBuildConfigFile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#bioconda_utils.utils.CondaBuildConfigFile" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create new instance of CondaBuildConfigFile(arg, path)</p>
 <dl class="py property">
 <dt class="sig sig-object py" id="bioconda_utils.utils.CondaBuildConfigFile.arg">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">arg</span></span><a class="headerlink" href="#bioconda_utils.utils.CondaBuildConfigFile.arg" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">arg</span></span><a class="headerlink" href="#bioconda_utils.utils.CondaBuildConfigFile.arg" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 0</p>
 </dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="bioconda_utils.utils.CondaBuildConfigFile.path">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">path</span></span><a class="headerlink" href="#bioconda_utils.utils.CondaBuildConfigFile.path" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">path</span></span><a class="headerlink" href="#bioconda_utils.utils.CondaBuildConfigFile.path" title="Permalink to this definition">¶</a></dt>
 <dd><p>Alias for field number 1</p>
 </dd></dl>
 
@@ -369,12 +369,12 @@ Use to e.g. offload json parsing into download loop.</p></li>
 
 <dl class="py exception">
 <dt class="sig sig-object py" id="bioconda_utils.utils.DivergentBuildsError">
-<em class="property"><span class="pre">exception</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">DivergentBuildsError</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#DivergentBuildsError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.DivergentBuildsError" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">DivergentBuildsError</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#DivergentBuildsError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.DivergentBuildsError" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.utils.EnvMatrix">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">EnvMatrix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">env</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#EnvMatrix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.EnvMatrix" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">EnvMatrix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">env</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#EnvMatrix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.EnvMatrix" title="Permalink to this definition">¶</a></dt>
 <dd><p>Intended to be initialized with a YAML file and iterated over to yield all
 combinations of environments.</p>
 <p>YAML file has the following format:</p>
@@ -398,12 +398,12 @@ into a dict. If a dict is provided, use it directly.</p>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.utils.JinjaSilentUndefined">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">JinjaSilentUndefined</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">hint=None</span></em>, <em class="sig-param"><span class="pre">obj=missing</span></em>, <em class="sig-param"><span class="pre">name=None</span></em>, <em class="sig-param"><span class="pre">exc=&lt;class</span> <span class="pre">'jinja2.exceptions.UndefinedError'&gt;</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#JinjaSilentUndefined"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.JinjaSilentUndefined" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">JinjaSilentUndefined</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hint=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">obj=missing</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">exc=&lt;class</span> <span class="pre">'jinja2.exceptions.UndefinedError'&gt;</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#JinjaSilentUndefined"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.JinjaSilentUndefined" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.utils.LogFuncFilter">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">LogFuncFilter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trunc_msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_lines</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">consecutive</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#LogFuncFilter"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.LogFuncFilter" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">LogFuncFilter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trunc_msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_lines</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">consecutive</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#LogFuncFilter"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.LogFuncFilter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Logging filter capping the number of messages emitted from given function</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -426,7 +426,7 @@ if a message from a different source is encountered.</p></li>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.utils.LoggingSourceRenameFilter">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">LoggingSourceRenameFilter</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#LoggingSourceRenameFilter"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.LoggingSourceRenameFilter" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">LoggingSourceRenameFilter</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#LoggingSourceRenameFilter"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.LoggingSourceRenameFilter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Logging filter for abbreviating module name in logs</p>
 <p>Maps <code class="docutils literal notranslate"><span class="pre">bioconda_utils</span></code> to <code class="docutils literal notranslate"><span class="pre">BIOCONDA</span></code> and for everything else
 to just the top level package uppercased.</p>
@@ -434,7 +434,7 @@ to just the top level package uppercased.</p>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.utils.RepoData">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">RepoData</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#RepoData"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.RepoData" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">RepoData</span></span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#RepoData"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.RepoData" title="Permalink to this definition">¶</a></dt>
 <dd><p>Singleton providing access to package directory on anaconda cloud</p>
 <p>If the first call provides a filename as <strong>cache</strong> argument, the
 file is used to cache the directory in CSV format.</p>
@@ -474,25 +474,25 @@ removed from the repository.</p>
 <p>Makes RepoData a singleton</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.utils.RepoData.cache_timeout">
-<span class="sig-name descname"><span class="pre">cache_timeout</span></span><em class="property"> <span class="pre">=</span> <span class="pre">28800</span></em><a class="headerlink" href="#bioconda_utils.utils.RepoData.cache_timeout" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">cache_timeout</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">28800</span></em><a class="headerlink" href="#bioconda_utils.utils.RepoData.cache_timeout" title="Permalink to this definition">¶</a></dt>
 <dd><p>default lifetime for repodata cache</p>
 </dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="bioconda_utils.utils.RepoData.channels">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">channels</span></span><a class="headerlink" href="#bioconda_utils.utils.RepoData.channels" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">channels</span></span><a class="headerlink" href="#bioconda_utils.utils.RepoData.channels" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return channels to load.</p>
 </dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.utils.RepoData.columns">
-<span class="sig-name descname"><span class="pre">columns</span></span><em class="property"> <span class="pre">=</span> <span class="pre">['build',</span> <span class="pre">'build_number',</span> <span class="pre">'name',</span> <span class="pre">'version',</span> <span class="pre">'depends',</span> <span class="pre">'channel',</span> <span class="pre">'subdir',</span> <span class="pre">'platform']</span></em><a class="headerlink" href="#bioconda_utils.utils.RepoData.columns" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">columns</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['build',</span> <span class="pre">'build_number',</span> <span class="pre">'name',</span> <span class="pre">'version',</span> <span class="pre">'depends',</span> <span class="pre">'channel',</span> <span class="pre">'subdir',</span> <span class="pre">'platform']</span></em><a class="headerlink" href="#bioconda_utils.utils.RepoData.columns" title="Permalink to this definition">¶</a></dt>
 <dd><p>Columns available in internal dataframe</p>
 </dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="bioconda_utils.utils.RepoData.df">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">df</span></span><a class="headerlink" href="#bioconda_utils.utils.RepoData.df" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">df</span></span><a class="headerlink" href="#bioconda_utils.utils.RepoData.df" title="Permalink to this definition">¶</a></dt>
 <dd><p>Internal Pandas DataFrame object</p>
 <p>Try not to use this … the point of this class is to be able to
 change the structure in which the data is held.</p>
@@ -530,7 +530,7 @@ e.g. {‘0.1’: [‘linux’], ‘0.2’: [‘linux’, ‘osx’], ‘0.3’: 
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="bioconda_utils.utils.RepoData.platforms">
-<span class="sig-name descname"><span class="pre">platforms</span></span><em class="property"> <span class="pre">=</span> <span class="pre">['linux',</span> <span class="pre">'osx',</span> <span class="pre">'noarch']</span></em><a class="headerlink" href="#bioconda_utils.utils.RepoData.platforms" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">platforms</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['linux',</span> <span class="pre">'osx',</span> <span class="pre">'noarch']</span></em><a class="headerlink" href="#bioconda_utils.utils.RepoData.platforms" title="Permalink to this definition">¶</a></dt>
 <dd><p>Platforms loaded</p>
 </dd></dl>
 
@@ -544,7 +544,7 @@ e.g. {‘0.1’: [‘linux’], ‘0.2’: [‘linux’, ‘osx’], ‘0.3’: 
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.utils.TqdmHandler">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">TqdmHandler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#TqdmHandler"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.TqdmHandler" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">TqdmHandler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#TqdmHandler"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.TqdmHandler" title="Permalink to this definition">¶</a></dt>
 <dd><p>Tqdm aware logging StreamHandler</p>
 <p>Passes all log writes through tqdm to allow progress bars and log
 messages to coexist without clobbering terminal</p>
@@ -799,7 +799,7 @@ specified, then use those commits directly via <code class="docutils literal not
 
 <dl class="py function">
 <dt class="sig sig-object py" id="bioconda_utils.utils.run">
-<span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">cmds</span></em>, <em class="sig-param"><span class="pre">env=None</span></em>, <em class="sig-param"><span class="pre">mask=None</span></em>, <em class="sig-param"><span class="pre">live=True</span></em>, <em class="sig-param"><span class="pre">mylogger=&lt;Logger</span> <span class="pre">bioconda_utils.utils</span> <span class="pre">(WARNING)&gt;</span></em>, <em class="sig-param"><span class="pre">loglevel=20</span></em>, <em class="sig-param"><span class="pre">**kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#run"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.run" title="Permalink to this definition">¶</a></dt>
+<span class="sig-prename descclassname"><span class="pre">bioconda_utils.utils.</span></span><span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cmds</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">env=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mask=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">live=True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mylogger=&lt;Logger</span> <span class="pre">bioconda_utils.utils</span> <span class="pre">(WARNING)&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">loglevel=20</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">**kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/utils.html#run"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.utils.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>Run a command (with logging, masking, etc)</p>
 <ul class="simple">
 <li><p>Explicitly decodes stdout to avoid UnicodeDecodeErrors that can occur when
@@ -954,7 +954,7 @@ that it allows <em>adding</em> keyword arguments to the function signature.</p>
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

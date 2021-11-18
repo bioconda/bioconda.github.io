@@ -160,7 +160,7 @@
 <p class="rubric">Documentation</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.lint.check_build_help.compilers_must_be_in_build">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">compilers_must_be_in_build</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#compilers_must_be_in_build"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.compilers_must_be_in_build" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">compilers_must_be_in_build</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#compilers_must_be_in_build"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.compilers_must_be_in_build" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe requests a compiler in a section other than build</p>
 <p>Please move the <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('language')</span> <span class="pre">}}</span></code> line into the
 <code class="docutils literal notranslate"><span class="pre">requirements:</span> <span class="pre">build:</span></code> section.</p>
@@ -190,7 +190,7 @@ to their locations within the recipe.</p>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.lint.check_build_help.cython_must_be_in_host">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">cython_must_be_in_host</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#cython_must_be_in_host"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.cython_must_be_in_host" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">cython_must_be_in_host</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#cython_must_be_in_host"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.cython_must_be_in_host" title="Permalink to this definition">¶</a></dt>
 <dd><p>Cython should be in the host section</p>
 <p>Move cython to <code class="docutils literal notranslate"><span class="pre">host</span></code>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
@@ -224,7 +224,7 @@ to their locations within the recipe.</p>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.lint.check_build_help.cython_needs_compiler">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">cython_needs_compiler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#cython_needs_compiler"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.cython_needs_compiler" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">cython_needs_compiler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#cython_needs_compiler"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.cython_needs_compiler" title="Permalink to this definition">¶</a></dt>
 <dd><p>Cython generates C code, which will need to be compiled</p>
 <p>Add the compiler to the recipe:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
@@ -258,7 +258,7 @@ to their locations within the recipe.</p>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.lint.check_build_help.setup_py_install_args">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">setup_py_install_args</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#setup_py_install_args"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.setup_py_install_args" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">setup_py_install_args</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#setup_py_install_args"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.setup_py_install_args" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe uses setuptools without required arguments</p>
 <p>Please use:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$PYTHON setup.py install --single-version-externally-managed --record=record.txt
@@ -293,7 +293,7 @@ to their locations within the recipe.</p>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.lint.check_build_help.should_use_compilers">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">should_use_compilers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#should_use_compilers"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.should_use_compilers" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">should_use_compilers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#should_use_compilers"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.should_use_compilers" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe requires a compiler directly</p>
 <p>Since version 3, <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> uses a special syntax to require
 compilers for a given language matching the architecture for which
@@ -334,7 +334,7 @@ to their locations within the recipe.</p>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="bioconda_utils.lint.check_build_help.uses_setuptools">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">uses_setuptools</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#uses_setuptools"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.uses_setuptools" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">bioconda_utils.lint.check_build_help.</span></span><span class="sig-name descname"><span class="pre">uses_setuptools</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_linter</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/bioconda_utils/lint/check_build_help.html#uses_setuptools"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#bioconda_utils.lint.check_build_help.uses_setuptools" title="Permalink to this definition">¶</a></dt>
 <dd><p>The recipe uses setuptools in run depends</p>
 <p>Most Python packages only need setuptools during installation.
 Check if the package really needs setuptools (e.g. because it uses
@@ -367,7 +367,7 @@ to issue <a class="reference internal" href="bioconda_utils.lint.html#bioconda_u
       &copy;2016-2021, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

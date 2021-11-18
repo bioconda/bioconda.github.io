@@ -27,11 +27,19 @@ freyja
       
       
 
-      
+      ``1.1-0``
 
       
 
    
+   :depends click: 
+   :depends cvxpy: 
+   :depends ivar: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends python: ``3.7.*``
+   :depends samtools: 
+   :depends usher: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +71,7 @@ freyja
 
     <script>
         var package = "freyja";
-        var versions = [];
+        var versions = ["1.1"];
     </script>
 
 
