@@ -27,13 +27,12 @@ naf
       
       
 
-      ``1.3.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``
 
       
 
    
    :depends libgcc-ng: ``>=9.4.0``
-   :depends zstd: ``>=1.4.9,<1.5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ naf
 
     <script>
         var package = "naf";
-        var versions = ["1.3.0"];
+        var versions = ["1.3.0","1.3.0"];
     </script>
 
 
