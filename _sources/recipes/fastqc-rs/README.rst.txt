@@ -28,18 +28,18 @@ fastqc-rs
       
       
 
-      ``0.2.2-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends expat: ``>=2.2.10,<2.3.0a0``
+   :depends expat: ``>=2.4.1,<3.0a0``
    :depends freetype: ``>=2.10.4,<3.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends openssl: ``>=1.1.1k,<1.1.2a``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends openssl: ``>=1.1.1l,<1.1.2a``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ fastqc-rs
 
     <script>
         var package = "fastqc-rs";
-        var versions = ["0.2.2","0.2.1","0.2.1","0.2.1","0.2.0"];
+        var versions = ["0.3.0","0.2.2","0.2.1","0.2.1","0.2.1"];
     </script>
 
 

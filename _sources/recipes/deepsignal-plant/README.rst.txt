@@ -27,7 +27,7 @@ deepsignal-plant
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -69,7 +69,7 @@ deepsignal-plant
 
     <script>
         var package = "deepsignal-plant";
-        var versions = ["0.1.3","0.1.2"];
+        var versions = ["0.1.4","0.1.3","0.1.2"];
     </script>
 
 
