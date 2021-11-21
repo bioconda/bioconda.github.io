@@ -27,15 +27,14 @@ links
       
       
 
-      ``1.8.7-3``,  ``1.8.7-2``,  ``1.8.7-1``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.4-0``,  ``1.5.2-0``
+      ``2.0.0-0``,  ``1.8.7-3``,  ``1.8.7-2``,  ``1.8.7-1``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.4-0``,  ``1.5.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends perl: ``>=5.32.1,<5.32.2.0a0``
-   :depends perl: ``>=5.32.1,<5.32.2.0a0 *_perl5``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends make: 
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ links
 
     <script>
         var package = "links";
-        var versions = ["1.8.7","1.8.7","1.8.7","1.8.7","1.8.6"];
+        var versions = ["2.0.0","1.8.7","1.8.7","1.8.7","1.8.7"];
     </script>
 
 

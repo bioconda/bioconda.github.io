@@ -28,7 +28,7 @@ pirate
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -41,6 +41,8 @@ pirate
    :depends mcl: ``>=14.137``
    :depends parallel: ``>=20170422``
    :depends perl-bioperl: ``>=1.7.2``
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
    :depends unzip: 
    :requirements:
 
@@ -73,7 +75,7 @@ pirate
 
     <script>
         var package = "pirate";
-        var versions = ["1.0.4","1.0.4","1.0.3","1.0.3","1.0.3"];
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3","1.0.3"];
     </script>
 
 
