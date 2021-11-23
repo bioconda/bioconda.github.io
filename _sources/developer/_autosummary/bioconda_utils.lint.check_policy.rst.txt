@@ -23,6 +23,7 @@ check\_policy
       long_summary
       should_not_use_fn
       uses_vcs_url
+      version_starts_with_v
    
    
 

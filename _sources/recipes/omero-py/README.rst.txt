@@ -13,7 +13,7 @@ omero-py
    Client library offering helper methods to access an OMERO server.
 
    :homepage: https://www.openmicroscopy.org/
-   :license: GPL 2
+   :license: GPL-2.0-only
    :recipe: /`omero-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/omero-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/omero-py/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ omero-py
       
       
 
-      ``5.9.1-0``,  ``5.9.0-0``,  ``5.8.3-0``,  ``5.8.2-0``,  ``5.8.1-0``,  ``5.8.0-0``,  ``5.7.1-0``
+      ``5.10.1-0``,  ``5.9.1-0``,  ``5.9.0-0``,  ``5.8.3-0``,  ``5.8.2-0``,  ``5.8.1-0``,  ``5.8.0-0``,  ``5.7.1-0``
 
       
 
@@ -37,7 +37,9 @@ omero-py
    :depends numpy: 
    :depends pillow: 
    :depends python: ``>=3``
-   :depends zeroc-ice: ``3.6.5.*``
+   :depends pyyaml: 
+   :depends requests: 
+   :depends zeroc-ice: ``>=3.6.4,<3.7``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +71,7 @@ omero-py
 
     <script>
         var package = "omero-py";
-        var versions = ["5.9.1","5.9.0","5.8.3","5.8.2","5.8.1"];
+        var versions = ["5.10.1","5.9.1","5.9.0","5.8.3","5.8.2"];
     </script>
 
 

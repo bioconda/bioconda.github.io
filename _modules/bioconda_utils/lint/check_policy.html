@@ -229,6 +229,16 @@
                    <span class="k">for</span> <span class="n">dep</span> <span class="ow">in</span> <span class="n">deps</span><span class="p">):</span>
                    <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">()</span></div></div>
 
+
+<div class="viewcode-block" id="version_starts_with_v"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.version_starts_with_v">[docs]</a><span class="k">class</span> <span class="nc">version_starts_with_v</span><span class="p">(</span><span class="n">LintCheck</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;The version string should not start with a &quot;v&quot; character</span>
+
+<span class="sd">    Version numbers in Conda recipes need to follow PEP 386</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="version_starts_with_v.check_recipe"><a class="viewcode-back" href="../../../developer/_autosummary/bioconda_utils.lint.check_policy.html#bioconda_utils.lint.check_policy.version_starts_with_v.check_recipe">[docs]</a>    <span class="k">def</span> <span class="nf">check_recipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">recipe</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">recipe</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;package/version&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;v&#39;</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">message</span><span class="p">()</span></div></div>
 </pre></div>
 
           </div>

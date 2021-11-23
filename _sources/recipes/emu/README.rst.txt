@@ -26,9 +26,17 @@ emu
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -40,7 +48,7 @@ emu
    :depends numpy: ``>=1.11``
    :depends pandas: ``>=1.1.3``
    :depends pysam: ``>=0.15``
-   :depends python: ``>=3.6,<3.9``
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +80,7 @@ emu
 
     <script>
         var package = "emu";
-        var versions = ["2.0.1","2.0.1","2.0.0","1.0.3","1.0.2"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.0","1.0.3"];
     </script>
 
 
