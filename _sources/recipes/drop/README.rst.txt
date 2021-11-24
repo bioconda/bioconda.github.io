@@ -31,10 +31,10 @@ drop
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
       .. raw:: html
@@ -70,7 +70,7 @@ drop
    :depends r-magrittr: 
    :depends r-rmarkdown: 
    :depends r-tidyr: 
-   :depends r-tmae: 
+   :depends r-tmae: ``>=1.0.2``
    :depends samtools: ``>=1.9``
    :depends snakemake-minimal: ``>=5.5.2``
    :depends star: ``>=2.7``
@@ -107,7 +107,7 @@ drop
 
     <script>
         var package = "drop";
-        var versions = ["1.1.0","1.0.5","1.0.4","1.0.3","1.0.3"];
+        var versions = ["1.1.1","1.1.0","1.0.5","1.0.4","1.0.3"];
     </script>
 
 

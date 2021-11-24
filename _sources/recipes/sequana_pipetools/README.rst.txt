@@ -27,11 +27,19 @@ sequana_pipetools
       
       
 
-      
+      ``0.7.5-0``
 
       
 
    
+   :depends deprecated: 
+   :depends easydev: 
+   :depends importlib_resources: 
+   :depends parse: 
+   :depends pykwalify: 
+   :depends python: ``>=3.7``
+   :depends pyyaml: 
+   :depends ruamel.yaml: 
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +71,7 @@ sequana_pipetools
 
     <script>
         var package = "sequana_pipetools";
-        var versions = [];
+        var versions = ["0.7.5"];
     </script>
 
 
