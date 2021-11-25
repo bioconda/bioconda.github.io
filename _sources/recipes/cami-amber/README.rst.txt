@@ -27,7 +27,7 @@ cami-amber
       
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0.post0-0``
+      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0.post0-0``
 
       
 
@@ -69,7 +69,7 @@ cami-amber
 
     <script>
         var package = "cami-amber";
-        var versions = ["2.0.2","2.0.1","2.0.0.post0"];
+        var versions = ["2.0.3","2.0.2","2.0.1","2.0.0.post0"];
     </script>
 
 

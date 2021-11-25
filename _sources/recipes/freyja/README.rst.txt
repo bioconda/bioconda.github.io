@@ -27,7 +27,7 @@ freyja
       
       
 
-      ``1.1-0``
+      ``1.2-0``,  ``1.1-0``
 
       
 
@@ -35,6 +35,7 @@ freyja
    :depends click: 
    :depends cvxpy: 
    :depends ivar: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends python: ``3.7.*``
@@ -71,7 +72,7 @@ freyja
 
     <script>
         var package = "freyja";
-        var versions = ["1.1"];
+        var versions = ["1.2","1.1"];
     </script>
 
 
