@@ -26,9 +26,17 @@ cgat-daisy
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.10-0</code>,  <code>0.1.9-2</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  </span></summary>
+      
 
+      ``0.1.10-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -70,7 +78,7 @@ cgat-daisy
 
     <script>
         var package = "cgat-daisy";
-        var versions = ["0.1.9","0.1.9","0.1.8","0.1.7","0.1.6"];
+        var versions = ["0.1.10","0.1.9","0.1.9","0.1.9","0.1.8"];
     </script>
 
 

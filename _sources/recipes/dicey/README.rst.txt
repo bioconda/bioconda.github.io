@@ -27,7 +27,7 @@ dicey
       
       
 
-      ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+      ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
 
@@ -37,9 +37,10 @@ dicey
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends llvm-openmp: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends llvm-openmp: ``>=12.0.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -72,7 +73,7 @@ dicey
 
     <script>
         var package = "dicey";
-        var versions = ["0.1.7","0.1.7","0.1.7","0.1.6","0.1.6"];
+        var versions = ["0.1.8","0.1.7","0.1.7","0.1.7","0.1.6"];
     </script>
 
 

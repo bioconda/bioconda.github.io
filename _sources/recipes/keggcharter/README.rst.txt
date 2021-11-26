@@ -40,10 +40,10 @@ keggcharter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.2-0</code>,  <code>0.3.0-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ keggcharter
 
     <script>
         var package = "keggcharter";
-        var versions = ["0.3.0","0.2.5","0.2.4","0.2.3","0.2.3"];
+        var versions = ["0.3.2","0.3.0","0.2.5","0.2.4","0.2.3"];
     </script>
 
 

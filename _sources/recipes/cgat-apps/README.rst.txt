@@ -26,9 +26,17 @@ cgat-apps
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  </span></summary>
+      
 
+      ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -48,9 +56,9 @@ cgat-apps
    :depends pandas: 
    :depends pybedtools: 
    :depends pybigwig: 
-   :depends pysam: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends pysam: ``>=0.17.0``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends pyyaml: 
    :depends quicksect: 
    :depends scikit-learn: 
@@ -92,7 +100,7 @@ cgat-apps
 
     <script>
         var package = "cgat-apps";
-        var versions = ["0.6.4","0.6.4","0.6.0","0.6.0","0.6.0"];
+        var versions = ["0.6.5","0.6.4","0.6.4","0.6.0","0.6.0"];
     </script>
 
 
