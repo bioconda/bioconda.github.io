@@ -30,10 +30,10 @@ deepac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.6-0</code>,  <code>0.13.5-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.0-0</code>,  <code>0.13.6-0</code>,  <code>0.13.5-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  </span></summary>
       
 
-      ``0.13.6-0``,  ``0.13.5-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``
+      ``0.14.0-0``,  ``0.13.6-0``,  ``0.13.5-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``
 
       
       .. raw:: html
@@ -42,26 +42,25 @@ deepac
       
 
    
-   :depends bedtools: ``>=2.29``
-   :depends biopython: ``>=1.78``
+   :depends bedtools: ``>=2.30.0``
+   :depends biopython: ``>=1.79``
    :depends h5py: ``2.10``
-   :depends matplotlib-base: ``>=3.1.3``
-   :depends numpy: ``>=1.17``
-   :depends pandas: ``>=1.0.3``
-   :depends psutil: ``>=5.6.7``
-   :depends pybedtools: ``>=0.8.1``
-   :depends python: ``>=3.6``
+   :depends matplotlib-base: ``>=3.5.0``
+   :depends numpy: ``1.19.5``
+   :depends pandas: ``>=1.3.4``
+   :depends psutil: ``>=5.8.0``
+   :depends pybedtools: ``>=0.8.2``
+   :depends python: ``>=3.7,<3.10``
    :depends python-wget: ``>=3.2``
-   :depends requests: ``>=2.24``
-   :depends scikit-learn: ``>=0.22.1``
-   :depends scipy: ``>=1.4.1``
-   :depends seaborn: ``>=0.11``
-   :depends shap: ``>=0.35``
-   :depends statsmodels: ``>=0.11``
-   :depends tensorboard: ``>=2.1``
-   :depends tensorflow: ``>=2.1``
-   :depends tqdm: ``>=4.49``
-   :depends weblogo: ``>=3.7.4``
+   :depends requests: ``>=2.26.0``
+   :depends scikit-learn: ``>=1.0.1``
+   :depends scipy: ``>=1.7.3``
+   :depends seaborn: ``>=0.11.2``
+   :depends shap: ``>=0.40.0``
+   :depends statsmodels: ``>=0.13.1``
+   :depends tensorflow: ``2.4.1``
+   :depends tqdm: ``>=4.62.3``
+   :depends weblogo: ``>=3.7.8``
    :requirements:
 
    .. rubric:: Installation
@@ -93,7 +92,7 @@ deepac
 
     <script>
         var package = "deepac";
-        var versions = ["0.13.6","0.13.5","0.13.4","0.13.3","0.13.2"];
+        var versions = ["0.14.0","0.13.6","0.13.5","0.13.4","0.13.3"];
     </script>
 
 
