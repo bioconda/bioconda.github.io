@@ -27,7 +27,7 @@ hits
       
       
 
-      ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+      ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
 
       
 
@@ -36,7 +36,7 @@ hits
    :depends bokeh: ``>=1.0.4``
    :depends ipython: ``>=7.8.0``
    :depends ipywidgets: ``>=7.4.2``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends matplotlib-base: ``>=3.0.2``
    :depends numpy: ``>=1.15.4``
    :depends pandas: ``>=0.23.4``
@@ -46,6 +46,7 @@ hits
    :depends python_abi: ``3.6.* *_cp36m``
    :depends pyyaml: ``>=3.13``
    :depends scipy: ``>=1.2.1``
+   :depends seaborn: 
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +78,7 @@ hits
 
     <script>
         var package = "hits";
-        var versions = ["0.1","0.1","0.1","0.0.7"];
+        var versions = ["0.3.0","0.1","0.1","0.1","0.0.7"];
     </script>
 
 
