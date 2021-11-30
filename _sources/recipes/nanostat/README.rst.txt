@@ -28,10 +28,10 @@ nanostat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.8.1-0``,  ``0.7.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
+      ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.8.1-0``,  ``0.7.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
       .. raw:: html
@@ -75,7 +75,7 @@ nanostat
 
     <script>
         var package = "nanostat";
-        var versions = ["1.5.0","1.4.0","1.2.1","1.2.0","1.1.2"];
+        var versions = ["1.6.0","1.5.0","1.4.0","1.2.1","1.2.0"];
     </script>
 
 
