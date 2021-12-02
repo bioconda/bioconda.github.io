@@ -10,14 +10,14 @@ r-recetox-waveica
    :replaces_section_title:
    :noindex:
 
-   Removal of batch effects for large\-scale untargeted metabolomics data based on wavelet analysis.
+   Removal of batch effects for large\-scale untargeted metabolomics data based on wavelet transform.
 
    :homepage: https://github.com/recetox/waveica
    :license: MIT
    :recipe: /`r-recetox-waveica <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-recetox-waveica>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-recetox-waveica/meta.yaml>`_
-   :links: doi: :doi:`10.1016/j.aca.2019.02.010`
+   :links: doi: :doi:`10.1016/j.aca.2019.02.010`, doi: :doi:`10.1007/s11306-021-01839-7`
 
-   
+   Recetox\-waveica is a fork of WaveICA package customized by RECETOX. This package is used to remove batch effects from large\-scale untargeted metabolomics data and contains functionality of both original WaveICA and WaveICA 2.0 libraries.
 
 
 .. conda:package:: r-recetox-waveica
@@ -28,21 +28,15 @@ r-recetox-waveica
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-corpcor: 
-   :depends r-fdrtool: 
-   :depends r-ggfortify: 
-   :depends r-ggplot2: 
    :depends r-jade: 
-   :depends r-plsdepot: 
-   :depends r-proc: 
-   :depends r-rcolorbrewer: 
-   :depends r-scatterplot3d: 
+   :depends r-mgcv: 
    :depends r-waveslim: 
    :requirements:
 
@@ -75,7 +69,7 @@ r-recetox-waveica
 
     <script>
         var package = "r-recetox-waveica";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

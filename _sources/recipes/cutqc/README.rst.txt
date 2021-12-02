@@ -27,7 +27,7 @@ cutqc
       
       
 
-      ``0.06-0``
+      ``0.07-0``,  ``0.06-0``
 
       
 
@@ -71,7 +71,7 @@ cutqc
 
     <script>
         var package = "cutqc";
-        var versions = ["0.06"];
+        var versions = ["0.07","0.06"];
     </script>
 
 
