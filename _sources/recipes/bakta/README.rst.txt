@@ -15,7 +15,7 @@ bakta
    :homepage: https://github.com/oschwengers/bakta
    :license: GPL / GPLv3
    :recipe: /`bakta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bakta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bakta/meta.yaml>`_
-   :links: biotools: :biotools:`bakta`
+   :links: biotools: :biotools:`bakta`, doi: :doi:`10.1099/mgen.0.000685`, doi: :doi:`10.5281/zenodo.4247252`
 
    
 
@@ -29,10 +29,10 @@ bakta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1-0</code>,  <code>1.0.4-0</code>,  </span></summary>
       
 
-      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
+      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
 
       
       .. raw:: html
@@ -86,7 +86,7 @@ bakta
 
     <script>
         var package = "bakta";
-        var versions = ["1.2.4","1.2.3","1.2.2","1.2.1","1.2.0"];
+        var versions = ["1.2.4","1.2.4","1.2.3","1.2.2","1.2.1"];
     </script>
 
 

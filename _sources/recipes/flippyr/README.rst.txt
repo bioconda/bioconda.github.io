@@ -33,7 +33,7 @@ flippyr
       
       
 
-      ``0.4.0-0``
+      ``0.5.3-0``,  ``0.4.0-0``
 
       
 
@@ -72,7 +72,7 @@ flippyr
 
     <script>
         var package = "flippyr";
-        var versions = ["0.4.0"];
+        var versions = ["0.5.3","0.4.0"];
     </script>
 
 

@@ -198,7 +198,7 @@ and copy this into the recipe.</p>
 </section>
 <section id="build-numbers">
 <span id="buildnum"></span><h3>Build numbers<a class="headerlink" href="#build-numbers" title="Permalink to this headline">¶</a></h3>
-<p>The build number (see <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-build" title="(in conda-build v3.21.6+24.gb98d7ec0.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">docs</span></code></a>) can be
+<p>The build number (see <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-build" title="(in conda-build v3.21.7+1.g001bcc48.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">conda</span> <span class="pre">docs</span></code></a>) can be
 used to trigger a new build for a package whose version has not
 changed.  This is useful for fixing errors in recipes. The first
 recipe for a new version should always have a build number of 0.</p>
@@ -326,7 +326,7 @@ guidelines in <a class="reference internal" href="cb3.html#cb3-main"><span class
 <p>By default, Python recipes (those that have <code class="docutils literal notranslate"><span class="pre">python</span></code> listed as a dependency)
 must be successfully built and tested on Python 2.7, 3.6, and 3.7 in order to
 pass. However, many Python packages are not fully compatible across all Python
-versions. Use the <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#preprocess-selectors" title="(in conda-build v3.21.6+24.gb98d7ec0.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">preprocessing</span> <span class="pre">selectors</span></code></a>
+versions. Use the <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#preprocess-selectors" title="(in conda-build v3.21.7+1.g001bcc48.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">preprocessing</span> <span class="pre">selectors</span></code></a>
 in the meta.yaml file along with the <code class="docutils literal notranslate"><span class="pre">build/skip</span></code> entry to indicate that
 a recipe should be skipped.</p>
 <p>For example, a recipe that only runs on Python 2.7 should include the
@@ -340,7 +340,7 @@ following:</p>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">python &gt;=3.6</span>
 </pre></div>
 </div>
-<p>Alternatively, for straightforward compatibility fixes you can apply a <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-yaml" title="(in conda-build v3.21.6+24.gb98d7ec0.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">patch</span>
+<p>Alternatively, for straightforward compatibility fixes you can apply a <a class="reference external" href="https://conda.io/projects/conda-build/en/latest/resources/define-metadata.html#meta-yaml" title="(in conda-build v3.21.7+1.g001bcc48.dirty)"><code class="xref any docutils literal notranslate"><span class="pre">patch</span>
 <span class="pre">in</span> <span class="pre">the</span> <span class="pre">meta.yaml</span></code></a>.</p>
 </section>
 <section id="r-cran">
