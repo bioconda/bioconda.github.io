@@ -27,7 +27,7 @@ vadr
       
       
 
-      ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``
+      ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2.1-0``
 
       
 
@@ -39,7 +39,7 @@ vadr
    :depends infernal: ``1.1.4.*``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-bio-easel: ``0.15.*``
-   :depends perl-lwp-protocol-https: 
+   :depends perl-lwp-protocol-https: ``6.07.*``
    :depends perl-lwp-simple: 
    :depends sequip: ``0.08.*``
    :depends wget: 
@@ -74,7 +74,7 @@ vadr
 
     <script>
         var package = "vadr";
-        var versions = ["1.3","1.3","1.3","1.3","1.2.1"];
+        var versions = ["1.3","1.3","1.3","1.3","1.3"];
     </script>
 
 

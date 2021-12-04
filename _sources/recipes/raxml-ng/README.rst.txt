@@ -28,15 +28,15 @@ raxml-ng
       
       
 
-      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
 
    
    :depends gmp: ``>=6.2.1,<7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends openmpi: ``>=4.1.1,<5.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends openmpi: ``>=4.1.2,<5.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ raxml-ng
 
     <script>
         var package = "raxml-ng";
-        var versions = ["1.0.3","1.0.2","1.0.2","1.0.1","0.9.0"];
+        var versions = ["1.1.0","1.0.3","1.0.2","1.0.2","1.0.1"];
     </script>
 
 
