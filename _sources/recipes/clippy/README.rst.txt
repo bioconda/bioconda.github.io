@@ -27,7 +27,7 @@ clippy
       
       
 
-      ``1.3.1-0``
+      ``1.3.1-2``,  ``1.3.1-0``
 
       
 
@@ -36,8 +36,8 @@ clippy
    :depends dash: ``1.20.0.*``
    :depends dash-bootstrap-components: ``0.11.3.*``
    :depends matplotlib-base: 
-   :depends numpy: 
-   :depends numpy-base: 
+   :depends numpy: ``>=1.19.0,<1.20.3``
+   :depends numpy-base: ``>=1.19.0,<1.20.3``
    :depends numpydoc: 
    :depends pandas: 
    :depends pybedtools: 
@@ -74,7 +74,7 @@ clippy
 
     <script>
         var package = "clippy";
-        var versions = ["1.3.1"];
+        var versions = ["1.3.1","1.3.1"];
     </script>
 
 

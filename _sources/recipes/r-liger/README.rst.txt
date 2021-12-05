@@ -10,7 +10,7 @@ r-liger
    :replaces_section_title:
    :noindex:
 
-   R package for integrating and analyzing multiple single\-cell datasets
+   Uses an extension of nonnegative matrix factorization to identify shared and dataset\-specific factors. See Welch J\, Kozareva V\, et al \(2019\) \<doi\:10.1016\/j.cell.2019.05.006\>\, and Liu J\, Gao C\, Sodicoff J\, et al \(2020\) \<doi\:10.1038\/s41596\-020\-0391\-8\> for more details.
 
    :homepage: https://github.com/MacoskoLab/liger
    :license: GPL3 / GPL-3
@@ -27,23 +27,24 @@ r-liger
       
       
 
-      ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
+      ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
 
       
 
    
-   :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends openjdk: ``>=6``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-cowplot: 
+   :depends r-doparallel: 
    :depends r-dosnow: 
    :depends r-dplyr: 
    :depends r-fnn: 
    :depends r-foreach: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
+   :depends r-hdf5r: 
    :depends r-hmisc: 
    :depends r-ica: 
    :depends r-irlba: 
@@ -56,10 +57,12 @@ r-liger
    :depends r-rcpp: ``>=0.12.10``
    :depends r-rcpparmadillo: 
    :depends r-rcppeigen: 
+   :depends r-rcppprogress: 
    :depends r-reticulate: 
    :depends r-riverplot: 
    :depends r-rtsne: 
    :depends r-snow: 
+   :depends r-uwot: 
    :depends umap-learn: 
    :requirements:
 
@@ -92,7 +95,7 @@ r-liger
 
     <script>
         var package = "r-liger";
-        var versions = ["0.5.0.9000","0.5.0.9000","0.5.0.9000","0.5.0.9000","0.4.2.9000"];
+        var versions = ["1.0.0","0.5.0.9000","0.5.0.9000","0.5.0.9000","0.5.0.9000"];
     </script>
 
 
