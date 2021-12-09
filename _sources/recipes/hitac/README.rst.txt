@@ -13,11 +13,15 @@ hitac
    A hierarchical taxonomic classifier for fungal ITS sequences
 
    :homepage: https://gitlab.com/dacs-hpi/hitac
-   :license: GPL-3.0-only
+   :license: GPL / GPL-3.0-only
    :recipe: /`hitac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hitac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hitac/meta.yaml>`_
    :links: biotools: :biotools:`hitac`
 
-   
+   HiTaC is a software for hierarchical taxonomic classification
+   for fungal ITS sequences. It is pure python code compatible with
+   Python 3.8\+ and requires hiclass\, numpy\, pandas\, scikit\-bio and
+   scikit\-learn.
+
 
 
 .. conda:package:: hitac
