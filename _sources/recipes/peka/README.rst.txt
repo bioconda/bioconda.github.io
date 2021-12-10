@@ -27,11 +27,21 @@ peka
       
       
 
-      
+      ``0.1.2-0``
 
       
 
    
+   :depends matplotlib-base: ``3.1.2``
+   :depends numpy: ``1.17.4``
+   :depends pandas: ``0.24.2``
+   :depends plumbum: ``1.6.8``
+   :depends pybedtools: ``0.8.0``
+   :depends python: ``3.7``
+   :depends scikit-learn: ``0.21.3``
+   :depends scipy: ``1.6.2``
+   :depends seaborn: ``0.9.0``
+   :depends textdistance: ``4.1.3``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +73,7 @@ peka
 
     <script>
         var package = "peka";
-        var versions = [];
+        var versions = ["0.1.2"];
     </script>
 
 

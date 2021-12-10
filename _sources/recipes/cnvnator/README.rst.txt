@@ -27,18 +27,22 @@ cnvnator
       
       
 
-      ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends htslib: ``>=1.10.2,<1.11.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends matplotlib-base: 
    :depends ncurses: ``>=6.2,<6.3.0a0``
+   :depends numpy: 
+   :depends perl-getopt-long: 
+   :depends python: ``>=3.9,<3.10.0a0``
    :depends root_base: ``>=6.22.8,<6.22.9.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +74,7 @@ cnvnator
 
     <script>
         var package = "cnvnator";
-        var versions = ["0.4.1","0.4.1","0.4.1"];
+        var versions = ["0.4.1","0.4.1","0.4.1","0.4.1"];
     </script>
 
 

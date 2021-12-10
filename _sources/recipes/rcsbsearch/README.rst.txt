@@ -29,11 +29,14 @@ rcsbsearch
       
       
 
-      
+      ``0.2.3-0``
 
       
 
    
+   :depends jsonschema: 
+   :depends python: ``>=3.7``
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +68,7 @@ rcsbsearch
 
     <script>
         var package = "rcsbsearch";
-        var versions = [];
+        var versions = ["0.2.3"];
     </script>
 
 

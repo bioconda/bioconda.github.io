@@ -32,16 +32,17 @@ hitac
       
       
 
-      ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.4-0``,  ``1.5.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
+      ``2.0.4-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.4-0``,  ``1.5.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
 
       
 
    
-   :depends biopython: 
+   :depends hiclass: 
+   :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3``
-   :depends scikit-learn: ``>=0.21.3``
-   :depends tqdm: 
+   :depends python: ``>=3.8``
+   :depends scikit-bio: 
+   :depends scikit-learn: 
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +74,7 @@ hitac
 
     <script>
         var package = "hitac";
-        var versions = ["1.5.9","1.5.8","1.5.4","1.5.1","1.4"];
+        var versions = ["2.0.4","1.5.9","1.5.8","1.5.4","1.5.1"];
     </script>
 
 
