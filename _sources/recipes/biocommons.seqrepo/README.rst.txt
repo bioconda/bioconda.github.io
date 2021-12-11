@@ -27,7 +27,7 @@ biocommons.seqrepo
       
       
 
-      ``0.6.4-0``,  ``0.6.3-0``
+      ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
 
       
 
@@ -72,7 +72,7 @@ biocommons.seqrepo
 
     <script>
         var package = "biocommons.seqrepo";
-        var versions = ["0.6.4","0.6.3"];
+        var versions = ["0.6.5","0.6.4","0.6.3"];
     </script>
 
 

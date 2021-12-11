@@ -27,7 +27,7 @@ mseqtools
       
       
 
-      ``0.9.0-0``
+      ``0.9.1-0``,  ``0.9.0-0``
 
       
 
@@ -68,7 +68,7 @@ mseqtools
 
     <script>
         var package = "mseqtools";
-        var versions = ["0.9.0"];
+        var versions = ["0.9.1","0.9.0"];
     </script>
 
 
