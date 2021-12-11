@@ -29,7 +29,7 @@ veryfasttree
       
       
 
-      ``3.0.1-0``
+      ``3.1.0-0``,  ``3.0.1-0``
 
       
 
@@ -69,7 +69,7 @@ veryfasttree
 
     <script>
         var package = "veryfasttree";
-        var versions = ["3.0.1"];
+        var versions = ["3.1.0","3.0.1"];
     </script>
 
 
