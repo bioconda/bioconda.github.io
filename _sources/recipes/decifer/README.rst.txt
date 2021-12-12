@@ -26,9 +26,17 @@ decifer
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1-0</code>,  <code>1.0.0-0</code>,  <code>0.0.2-1</code>,  </span></summary>
+      
 
+      ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -72,7 +80,7 @@ decifer
 
     <script>
         var package = "decifer";
-        var versions = ["2.0.3","2.0.2","2.0.1","1.1.5","1.1.4"];
+        var versions = ["2.0.4","2.0.3","2.0.2","2.0.1","1.1.5"];
     </script>
 
 

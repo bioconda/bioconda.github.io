@@ -28,10 +28,10 @@ deepvariant
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.10.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.10.0-4``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.10.0-4``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -45,11 +45,12 @@ deepvariant
    :depends boost: 
    :depends contextlib2: 
    :depends crcmod: 
-   :depends curl: ``>=7.78.0,<8.0a0``
+   :depends curl: ``>=7.80.0,<8.0a0``
    :depends enum34: 
    :depends google-cloud-sdk: 
    :depends htslib: 
    :depends intervaltree: 
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends mock: 
    :depends numpy: ``1.16.*``
    :depends oauth2client: 
@@ -97,7 +98,7 @@ deepvariant
 
     <script>
         var package = "deepvariant";
-        var versions = ["1.2.0","1.1.0","1.1.0","1.1.0","1.0.0"];
+        var versions = ["1.3.0","1.2.0","1.1.0","1.1.0","1.1.0"];
     </script>
 
 
