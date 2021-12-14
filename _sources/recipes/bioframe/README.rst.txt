@@ -29,18 +29,19 @@ bioframe
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.12-0``
+      ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.12-0``
 
       
 
    
    :depends cytoolz: 
+   :depends matplotlib-base: 
    :depends numpy: ``>=1.9``
    :depends pairix: 
    :depends pandas: ``>=0.17``
    :depends pyfaidx: 
    :depends pysam: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends requests: 
    :depends six: 
    :requirements:
@@ -74,7 +75,7 @@ bioframe
 
     <script>
         var package = "bioframe";
-        var versions = ["0.2.0","0.1.0","0.0.12"];
+        var versions = ["0.3.1","0.2.0","0.1.0","0.0.12"];
     </script>
 
 
