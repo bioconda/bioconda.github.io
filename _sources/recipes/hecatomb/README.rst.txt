@@ -29,13 +29,13 @@ hecatomb
       
       
 
-      ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
+      ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
 
       
 
    
    :depends jinja2: ``>=3.0.2``
-   :depends mamba: ``>=0.15.3``
+   :depends mamba: ``>=0.19.0``
    :depends networkx: ``>=2.6.3``
    :depends pygments: ``>=2.10.0``
    :depends pygraphviz: ``>=1.7``
@@ -73,7 +73,7 @@ hecatomb
 
     <script>
         var package = "hecatomb";
-        var versions = ["1.0.0.beta.3","1.0.0.beta.2","1.0.0.beta.2"];
+        var versions = ["1.0.0.beta.4","1.0.0.beta.3","1.0.0.beta.2","1.0.0.beta.2"];
     </script>
 
 
