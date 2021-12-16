@@ -13,7 +13,7 @@ r-ichorcna
    Estimating tumor fraction in cell\-free DNA from ultra\-low\-pass whole genome sequencing.
 
    :homepage: https://github.com/broadinstitute/ichorCNA
-   :license: GPL-3
+   :license: GPL-3.0-only
    :recipe: /`r-ichorcna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ichorcna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ichorcna/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ r-ichorcna
       
       
 
-      ``0.3.2-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
+      ``0.3.2-1``,  ``0.3.2-0``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0.20180710-0``
 
       
 
@@ -69,7 +69,7 @@ r-ichorcna
 
     <script>
         var package = "r-ichorcna";
-        var versions = ["0.3.2","0.2.0","0.2.0","0.2.0","0.2.0"];
+        var versions = ["0.3.2","0.3.2","0.2.0","0.2.0","0.2.0"];
     </script>
 
 

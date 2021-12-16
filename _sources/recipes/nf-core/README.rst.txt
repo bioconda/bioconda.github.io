@@ -28,10 +28,10 @@ nf-core
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0.1-0</code>,  <code>1.14-0</code>,  <code>1.13.3-0</code>,  <code>1.13.2-0</code>,  <code>1.13.1-0</code>,  <code>1.13-0</code>,  <code>1.12.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2-1</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0.1-0</code>,  <code>1.14-0</code>,  <code>1.13.3-0</code>,  <code>1.13.2-0</code>,  <code>1.13.1-0</code>,  <code>1.13-0</code>,  </span></summary>
       
 
-      ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.14-0``,  ``1.13.3-0``,  ``1.13.2-0``,  ``1.13.1-0``,  ``1.13-0``,  ``1.12.1-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.2-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
+      ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.14-0``,  ``1.13.3-0``,  ``1.13.2-0``,  ``1.13.1-0``,  ``1.13-0``,  ``1.12.1-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.2-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ nf-core
    :depends git: 
    :depends gitpython: 
    :depends jinja2: 
-   :depends jsonschema: 
+   :depends jsonschema: ``>=3.0``
    :depends packaging: 
    :depends prompt_toolkit: ``>=3.0.3``
    :depends python: 
@@ -85,7 +85,7 @@ nf-core
 
     <script>
         var package = "nf-core";
-        var versions = ["2.2","2.1","2.0.1","1.14","1.13.3"];
+        var versions = ["2.2","2.2","2.1","2.0.1","1.14"];
     </script>
 
 
