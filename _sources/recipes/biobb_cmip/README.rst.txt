@@ -29,12 +29,12 @@ biobb_cmip
       
       
 
-      ``3.6.0-0``
+      ``3.7.2-0``,  ``3.6.0-0``
 
       
 
    
-   :depends biobb_common: ``3.6.0``
+   :depends biobb_common: ``3.7.0``
    :depends cmip: ``2.7.0``
    :depends python: ``3.7.*``
    :requirements:
@@ -68,7 +68,7 @@ biobb_cmip
 
     <script>
         var package = "biobb_cmip";
-        var versions = ["3.6.0"];
+        var versions = ["3.7.2","3.6.0"];
     </script>
 
 
