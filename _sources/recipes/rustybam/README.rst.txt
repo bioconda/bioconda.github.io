@@ -27,7 +27,7 @@ rustybam
       
       
 
-      ``0.1.20-0``
+      ``0.1.23-0``,  ``0.1.20-0``
 
       
 
@@ -71,7 +71,7 @@ rustybam
 
     <script>
         var package = "rustybam";
-        var versions = ["0.1.20"];
+        var versions = ["0.1.23","0.1.20"];
     </script>
 
 
