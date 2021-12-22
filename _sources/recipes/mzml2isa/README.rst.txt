@@ -28,10 +28,10 @@ mzml2isa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.24-2</code>,  <code>0.4.24-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.24-2</code>,  </span></summary>
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.24-2``,  ``0.4.24-1``,  ``0.4.24-0``
+      ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.24-2``,  ``0.4.24-1``,  ``0.4.24-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ mzml2isa
    :depends lxml: 
    :depends openpyxl: 
    :depends pronto: ``>=0.10.0,<1``
-   :depends python: 
+   :depends python: ``<3.10``
    :depends six: 
    :requirements:
 
@@ -78,7 +78,7 @@ mzml2isa
 
     <script>
         var package = "mzml2isa";
-        var versions = ["1.0.3","1.0.3","1.0.2","1.0.2","1.0.1"];
+        var versions = ["1.0.4","1.0.3","1.0.3","1.0.2","1.0.2"];
     </script>
 
 

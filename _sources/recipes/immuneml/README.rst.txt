@@ -30,10 +30,10 @@ immuneml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -43,11 +43,13 @@ immuneml
 
    
    :depends airr: ``>=1``
+   :depends cython: 
    :depends dill: ``>=0.3``
    :depends editdistance: ``0.5.3``
    :depends fishersapi: 
    :depends gensim: ``>=3.8,<4``
    :depends h5py: ``>=2.9.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends logomaker: ``>=0.8``
    :depends matplotlib-base: ``>=3.1``
    :depends matplotlib-venn: ``>=0.11``
@@ -56,7 +58,8 @@ immuneml
    :depends plotly: ``>=4``
    :depends pystache: ``0.5.4``
    :depends pytest: ``>=4``
-   :depends python: ``>=3.7,<3.9``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends pytorch: ``>=1.5.1``
    :depends pyyaml: ``>=5.3``
    :depends regex: 
@@ -97,7 +100,7 @@ immuneml
 
     <script>
         var package = "immuneml";
-        var versions = ["2.1.0","2.0.6","2.0.5","2.0.4","2.0.3"];
+        var versions = ["2.1.1","2.1.0","2.0.6","2.0.5","2.0.4"];
     </script>
 
 

@@ -30,10 +30,10 @@ iqtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.4_beta-0</code>,  <code>2.1.2-0</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>1.6.12-1</code>,  <code>1.6.12-0</code>,  <code>1.6.11.1-0</code>,  <code>1.6.11-0</code>,  <code>1.6.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0_beta-0</code>,  <code>2.1.4_beta-0</code>,  <code>2.1.2-0</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>1.6.12-1</code>,  <code>1.6.12-0</code>,  <code>1.6.11.1-0</code>,  <code>1.6.11-0</code>,  </span></summary>
       
 
-      ``2.1.4_beta-0``,  ``2.1.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
+      ``2.2.0_beta-0``,  ``2.1.4_beta-0``,  ``2.1.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ iqtree
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -76,7 +76,7 @@ iqtree
 
     <script>
         var package = "iqtree";
-        var versions = ["2.1.4_beta","2.1.2","2.0.3","2.0.3","1.6.12"];
+        var versions = ["2.2.0_beta","2.1.4_beta","2.1.2","2.0.3","2.0.3"];
     </script>
 
 
