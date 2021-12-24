@@ -27,12 +27,13 @@ deeparg
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends biopython: ``>=1.68``
+   :depends diamond: 
    :depends ete3: ``>=3.1.2``
    :depends joblib: ``>=0.14.1``
    :depends lasagne: ``>=0.1``
@@ -76,7 +77,7 @@ deeparg
 
     <script>
         var package = "deeparg";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.2","1.0.2"];
     </script>
 
 
