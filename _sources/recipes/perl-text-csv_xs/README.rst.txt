@@ -27,12 +27,12 @@ perl-text-csv_xs
       
       
 
-      ``1.46-0``,  ``1.40-1``,  ``1.40-0``
+      ``1.47-0``,  ``1.46-0``,  ``1.40-1``,  ``1.40-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends perl-test-harness: 
    :depends perl-text-csv: 
@@ -67,7 +67,7 @@ perl-text-csv_xs
 
     <script>
         var package = "perl-text-csv_xs";
-        var versions = ["1.46","1.40","1.40"];
+        var versions = ["1.47","1.46","1.40","1.40"];
     </script>
 
 

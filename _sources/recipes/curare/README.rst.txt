@@ -32,7 +32,7 @@ curare
       
       
 
-      ``0.4.3-0``
+      ``0.4.4-0``,  ``0.4.3-0``
 
       
 
@@ -74,7 +74,7 @@ curare
 
     <script>
         var package = "curare";
-        var versions = ["0.4.3"];
+        var versions = ["0.4.4","0.4.3"];
     </script>
 
 
