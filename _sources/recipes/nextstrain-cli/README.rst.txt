@@ -29,18 +29,20 @@ nextstrain-cli
       
       
 
-      ``3.0.3-0``
+      ``3.0.5-0``,  ``3.0.3-0``
 
       
 
    
    :depends boto3: 
+   :depends fasteners: 
    :depends fsspec: 
-   :depends netifaces: ``>=0.10.6``
+   :depends pyjwt: ``>=2.0.0``
    :depends python: ``>=3.6``
    :depends requests: 
    :depends s3fs: 
    :depends setuptools: ``>=8.0.3``
+   :depends typing_extensions: ``>=3.6.4``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +74,7 @@ nextstrain-cli
 
     <script>
         var package = "nextstrain-cli";
-        var versions = ["3.0.3"];
+        var versions = ["3.0.5","3.0.3"];
     </script>
 
 

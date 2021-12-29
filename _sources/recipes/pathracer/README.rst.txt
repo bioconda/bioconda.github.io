@@ -15,7 +15,7 @@ pathracer
    :homepage: http://cab.spbu.ru/software/pathracer/
    :license: GPL / GPLv2
    :recipe: /`pathracer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pathracer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pathracer/meta.yaml>`_
-   :links: biotools: :biotools:`pathracer`
+   :links: biotools: :biotools:`pathracer`, doi: :doi:`10.1007/978-3-030-18174-1_6`
 
    PathRacer is a novel standalone tool that aligns profile HMM directly to the assembly graph \(performing the codon translation on fly for amino acid 
    pHMMs\). The tool provides the set of most probable paths traversed by a HMM through the whole assembly graph\, regardless whether the sequence of 
@@ -32,17 +32,17 @@ pathracer
       
       
 
-      ``3.15.0.dev-0``
+      ``3.16.0.dev-0``,  ``3.15.0.dev-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openmp: 
-   :depends python: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends sysroot_linux-64: ``2.17.*``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ pathracer
 
     <script>
         var package = "pathracer";
-        var versions = ["3.15.0.dev"];
+        var versions = ["3.16.0.dev","3.15.0.dev"];
     </script>
 
 

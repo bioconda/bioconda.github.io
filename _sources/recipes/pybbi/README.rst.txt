@@ -27,19 +27,20 @@ pybbi
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``
+      ``0.3.2-0``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libclang: ``13.*``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libpng: ``>=1.6.37,<1.7.0a0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends numpy: ``>=1.17.5,<2.0a0``
-   :depends openssl: ``>=1.1.1k,<1.1.2a``
+   :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends six: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +72,7 @@ pybbi
 
     <script>
         var package = "pybbi";
-        var versions = ["0.3.0","0.3.0"];
+        var versions = ["0.3.2","0.3.0","0.3.0"];
     </script>
 
 

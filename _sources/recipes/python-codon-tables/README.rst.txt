@@ -27,7 +27,7 @@ python-codon-tables
       
       
 
-      ``0.1.10-0``
+      ``0.1.11-0``,  ``0.1.10-0``
 
       
 
@@ -64,7 +64,7 @@ python-codon-tables
 
     <script>
         var package = "python-codon-tables";
-        var versions = ["0.1.10"];
+        var versions = ["0.1.11","0.1.10"];
     </script>
 
 
