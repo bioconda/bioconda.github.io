@@ -27,7 +27,7 @@ guide-counter
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -65,7 +65,7 @@ guide-counter
 
     <script>
         var package = "guide-counter";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 
