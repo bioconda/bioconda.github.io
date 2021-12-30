@@ -29,7 +29,7 @@ mirmachine
       
       
 
-      ``0.2.11.1-0``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
+      ``0.2.11.2-0``,  ``0.2.11.1-0``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
 
       
 
@@ -59,6 +59,7 @@ mirmachine
    :depends python-newick: ``>=1.0.0``
    :depends pyyaml: 
    :depends ratelimiter: 
+   :depends rich: ``>=10.16.1``
    :depends samtools: ``>=1.6``
    :depends smmap: ``>=3.0.1``
    :depends snakemake-minimal: ``>=5.11.1``
@@ -97,7 +98,7 @@ mirmachine
 
     <script>
         var package = "mirmachine";
-        var versions = ["0.2.11.1","0.2.11","0.2.11","0.2.10","0.1.31"];
+        var versions = ["0.2.11.2","0.2.11.1","0.2.11","0.2.11","0.2.10"];
     </script>
 
 

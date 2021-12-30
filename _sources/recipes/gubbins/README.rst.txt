@@ -12,7 +12,7 @@ gubbins
 
    Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins.
 
-   :homepage: https://github.com/sanger-pathogens/gubbins
+   :homepage: https://github.com/nickjcroucher/gubbins
    :license: GPL-2.0
    :recipe: /`gubbins <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gubbins>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gubbins/meta.yaml>`_
 
@@ -28,10 +28,10 @@ gubbins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.4-0</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  </span></summary>
       
 
-      ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
+      ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -47,7 +47,8 @@ gubbins
    :depends libgcc-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends multiprocess: ``>=0.70``
-   :depends nose: ``>=1.3``
+   :depends numba: ``>=0.53``
+   :depends numpy: ``>=1.2``
    :depends python: ``>=3.8,<3.9.0a0``
    :depends python_abi: ``3.8.* *_cp38``
    :depends rapidnj: 
@@ -87,7 +88,7 @@ gubbins
 
     <script>
         var package = "gubbins";
-        var versions = ["3.1.3","3.1.2","3.1.0","3.1.0","3.0.0"];
+        var versions = ["3.1.4","3.1.3","3.1.2","3.1.0","3.1.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ focus
       
       
 
-      ``1.6-0``,  ``1.5-0``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
+      ``1.8-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
 
       
 
@@ -37,6 +37,8 @@ focus
    :depends numpy: ``>=1.12.1``
    :depends python: ``>=3``
    :depends scipy: ``>=0.19.0``
+   :depends setuptools: ``>=38.6.0``
+   :depends setuptools_scm: 
    :depends unzip: 
    :requirements:
 
@@ -69,7 +71,7 @@ focus
 
     <script>
         var package = "focus";
-        var versions = ["1.6","1.5","1.4","1.4","1.4"];
+        var versions = ["1.8","1.6","1.5","1.4","1.4"];
     </script>
 
 

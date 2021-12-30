@@ -28,7 +28,7 @@ medicc2
       
       
 
-      ``0.5b4-0``,  ``0.5b3-0``
+      ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
 
       
 
@@ -41,8 +41,9 @@ medicc2
    :depends numpy: ``>=1.20.1``
    :depends openfst: ``>=1.8.1``
    :depends pandas: ``>=1.2.2``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends pyranges: 
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends pyyaml: ``>=5.4.1``
    :depends scipy: ``>=1.7``
    :requirements:
@@ -76,7 +77,7 @@ medicc2
 
     <script>
         var package = "medicc2";
-        var versions = ["0.5b4","0.5b3"];
+        var versions = ["0.6b1","0.5b4","0.5b3"];
     </script>
 
 

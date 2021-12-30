@@ -29,10 +29,10 @@ super-focus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0-0</code>,  <code>0.35-0</code>,  <code>0.34-1</code>,  <code>0.34-0</code>,  <code>0.33-0</code>,  <code>0.32-1</code>,  <code>0.32-0</code>,  <code>0.31-0</code>,  <code>0.30-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.0-0</code>,  <code>0.35-0</code>,  <code>0.34-1</code>,  <code>0.34-0</code>,  <code>0.33-0</code>,  <code>0.32-1</code>,  <code>0.32-0</code>,  </span></summary>
       
 
-      ``1.0-0``,  ``0.35-0``,  ``0.34-1``,  ``0.34-0``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.31-0``,  ``0.30-0``,  ``0.29-0``
+      ``1.4.1-0``,  ``1.4-0``,  ``1.0-0``,  ``0.35-0``,  ``0.34-1``,  ``0.34-0``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.31-0``,  ``0.30-0``,  ``0.29-0``
 
       
       .. raw:: html
@@ -48,6 +48,8 @@ super-focus
    :depends python: ``>=3``
    :depends rapsearch: 
    :depends scipy: 
+   :depends setuptools: 
+   :depends setuptools_scm: 
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +81,7 @@ super-focus
 
     <script>
         var package = "super-focus";
-        var versions = ["1.0","0.35","0.34","0.34","0.33"];
+        var versions = ["1.4.1","1.4","1.0","0.35","0.34"];
     </script>
 
 
