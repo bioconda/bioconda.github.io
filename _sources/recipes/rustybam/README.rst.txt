@@ -27,19 +27,22 @@ rustybam
       
       
 
-      ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.20-0``
+      ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.20-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends htslib: ``>=1.12,<1.13.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
+   :depends libcurl: ``>=7.80.0,<8.0a0``
+   :depends libdeflate: ``>=1.7,<1.8.0a0``
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openssl: ``>=1.1.1l,<1.1.2a``
+   :depends xz: ``>=5.2.5,<5.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +74,7 @@ rustybam
 
     <script>
         var package = "rustybam";
-        var versions = ["0.1.24","0.1.23","0.1.20"];
+        var versions = ["0.1.24","0.1.24","0.1.23","0.1.20"];
     </script>
 
 
