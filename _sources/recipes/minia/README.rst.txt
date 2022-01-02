@@ -28,13 +28,14 @@ minia
       
       
 
-      ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``
+      ``3.2.6-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +68,7 @@ minia
 
     <script>
         var package = "minia";
-        var versions = ["3.2.4","3.2.4","3.2.3","3.2.2","3.2.1"];
+        var versions = ["3.2.6","3.2.4","3.2.4","3.2.3","3.2.2"];
     </script>
 
 
