@@ -27,7 +27,7 @@ r-lymphclon
       
       
 
-      ``1.3.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``
 
       
 
@@ -67,7 +67,7 @@ r-lymphclon
 
     <script>
         var package = "r-lymphclon";
-        var versions = ["1.3.0"];
+        var versions = ["1.3.0","1.3.0"];
     </script>
 
 

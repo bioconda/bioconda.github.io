@@ -27,20 +27,16 @@ unitem
       
       
 
-      ``0.0.18-0``
+      ``1.0.3-0``,  ``0.0.18-0``
 
       
 
    
-   :depends binsanity: ``>=0.2.5``
-   :depends biolib: ``>=0.0.46,<0.1.0``
-   :depends checkm-genome: ``>=1.0.7``
-   :depends future: 
-   :depends groopm: 
-   :depends maxbin2: ``>=2.2.2``
-   :depends metabat2: ``>=2.10.2``
-   :depends python: ``<3``
-   :depends svgwrite: ``>=1.1.9``
+   :depends maxbin2: ``>=2.2.7``
+   :depends metabat2: ``>=2.15``
+   :depends numpy: ``>=1.21.4``
+   :depends python: ``>=3``
+   :depends svgwrite: ``>=1.4.1``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +68,7 @@ unitem
 
     <script>
         var package = "unitem";
-        var versions = ["0.0.18"];
+        var versions = ["1.0.3","0.0.18"];
     </script>
 
 
