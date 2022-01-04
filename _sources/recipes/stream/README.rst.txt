@@ -10,7 +10,7 @@ stream
    :replaces_section_title:
    :noindex:
 
-   STREAM Single\-cell Trajectories Reconstruction\, Exploration And Mapping of single\-cell data http\:\/\/stream.pinellolab.org
+   STREAM\-Single\-cell Trajectories Reconstruction\, Exploration And Mapping
 
    :homepage: https://github.com/pinellolab/STREAM
    :license: AGPL-3

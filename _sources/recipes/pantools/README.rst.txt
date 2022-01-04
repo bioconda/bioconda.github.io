@@ -13,7 +13,7 @@ pantools
    PanTools is a pangenomic toolkit for comparative analysis of large number of genomes.
 
    :homepage: https://git.wur.nl/bioinformatics/pantools
-   :license: GPL / GPL-3.0
+   :license: GPL / GPL-3.0-only
    :recipe: /`pantools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools/meta.yaml>`_
    :links: doi: :doi:`https://doi.org/10.1093/bioinformatics/btw455`, doi: :doi:`https://doi.org/10.1186/s12859-018-2362-4`, doi: :doi:`https://doi.org/10.1101/813634`
 
@@ -32,14 +32,14 @@ pantools
       
       
 
-      ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+      ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
 
       
 
    
    :depends kmc: 
    :depends mcl: 
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``8.*``
    :depends python: 
    :requirements:
 
@@ -72,7 +72,7 @@ pantools
 
     <script>
         var package = "pantools";
-        var versions = ["3.1.0","3.1.0","2.0.0","1.2","1.2"];
+        var versions = ["3.3.3","3.1.0","3.1.0","2.0.0","1.2"];
     </script>
 
 
