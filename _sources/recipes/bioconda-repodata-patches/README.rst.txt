@@ -27,7 +27,7 @@ bioconda-repodata-patches
       
       
 
-      ``20220103-0``
+      ``20220104-0``,  ``20220103-0``
 
       
 
@@ -64,7 +64,7 @@ bioconda-repodata-patches
 
     <script>
         var package = "bioconda-repodata-patches";
-        var versions = ["20220103"];
+        var versions = ["20220104","20220103"];
     </script>
 
 
