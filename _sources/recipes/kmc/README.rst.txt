@@ -10,16 +10,14 @@ kmc
    :replaces_section_title:
    :noindex:
 
-   Tools for efficient k\-mer counting and filtering of reads based on k\-mer content
+   Tools for efficient k\-mer counting and filtering of reads based on k\-mer content.
 
-   :homepage: http://sun.aei.polsl.pl/kmc/
-   :license: GPL3 / GPL3
+   :homepage: https://github.com/refresh-bio/kmc
+   :license: GPL / GPL-3
    :recipe: /`kmc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmc/meta.yaml>`_
-   :links: biotools: :biotools:`KMC`, doi: :doi:`10.1093/bioinformatics/btx304`
 
-   K\-mer Counter is a utility designed for counting k\-mers \(sequences
-   of consecutive k symbols\) in a set of reads from genome sequencing
-   projects.
+   KMC is a utility designed for counting k\-mers \(sequences
+   of consecutive k symbols\) in a set of DNA sequences. KMC tools allow performing various operations on k\-mers sets.
 
 
 
@@ -32,10 +30,10 @@ kmc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.2rc1-0</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.1.1rc1-2</code>,  <code>3.1.1rc1-1</code>,  <code>3.1.1rc1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.1-0</code>,  <code>3.1.2rc1-0</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.1.1rc1-2</code>,  <code>3.1.1rc1-1</code>,  <code>3.1.1rc1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-2</code>,  </span></summary>
       
 
-      ``3.1.2rc1-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.1rc1-2``,  ``3.1.1rc1-1``,  ``3.1.1rc1-0``,  ``3.1.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``
+      ``3.2.1-0``,  ``3.1.2rc1-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.1rc1-2``,  ``3.1.1rc1-1``,  ``3.1.1rc1-0``,  ``3.1.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``
 
       
       .. raw:: html
@@ -44,10 +42,6 @@ kmc
       
 
    
-   :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -79,7 +73,7 @@ kmc
 
     <script>
         var package = "kmc";
-        var versions = ["3.1.2rc1","3.1.1","3.1.1","3.1.1rc1","3.1.1rc1"];
+        var versions = ["3.2.1","3.1.2rc1","3.1.1","3.1.1","3.1.1rc1"];
     </script>
 
 
