@@ -26,9 +26,17 @@ smallgenomeutilities
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``,  ``0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.1-1</code>,  </span></summary>
+      
 
+      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1-1``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -76,7 +84,7 @@ smallgenomeutilities
 
     <script>
         var package = "smallgenomeutilities";
-        var versions = ["0.3.4","0.3.2","0.3.1","0.3.0","0.2.1"];
+        var versions = ["0.3.5","0.3.4","0.3.2","0.3.1","0.3.0"];
     </script>
 
 
