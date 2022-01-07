@@ -187,20 +187,20 @@ file as another entry in the <code class="docutils literal notranslate"><span cl
 in the “Help” column to the <code class="docutils literal notranslate"><span class="pre">source:</span></code> section.</p></li>
 </ul>
 <p>For example, if this stopped working:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span>
-  <span class="nt">fn</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">argh-0.26.1.tar.gz</span>
-  <span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://pypi.python.org/packages/source/a/argh/argh-0.26.1.tar.gz</span>
-  <span class="nt">md5</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">5a97ce2ae74bbe3b63194906213f1184</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">fn</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">argh-0.26.1.tar.gz</span><span class="w"></span>
+<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://pypi.python.org/packages/source/a/argh/argh-0.26.1.tar.gz</span><span class="w"></span>
+<span class="w">  </span><span class="nt">md5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5a97ce2ae74bbe3b63194906213f1184</span><span class="w"></span>
 </pre></div>
 </div>
 <p>then change it to this:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span>
-  <span class="nt">fn</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">argh-0.26.1.tar.gz</span>
-  <span class="nt">url</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">https://pypi.python.org/packages/source/a/argh/argh-0.26.1.tar.gz</span>
-    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">https://depot.galaxyproject.org/software/argh/argh_0.26.1_src_all.tar.gz</span>
-  <span class="nt">md5</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">5a97ce2ae74bbe3b63194906213f1184</span>
-  <span class="nt">sha256</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">06a7442cb9130fb8806fe336000fcf20edf1f2f8ad205e7b62cec118505510db</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">fn</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">argh-0.26.1.tar.gz</span><span class="w"></span>
+<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://pypi.python.org/packages/source/a/argh/argh-0.26.1.tar.gz</span><span class="w"></span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://depot.galaxyproject.org/software/argh/argh_0.26.1_src_all.tar.gz</span><span class="w"></span>
+<span class="w">  </span><span class="nt">md5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5a97ce2ae74bbe3b63194906213f1184</span><span class="w"></span>
+<span class="w">  </span><span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">06a7442cb9130fb8806fe336000fcf20edf1f2f8ad205e7b62cec118505510db</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
@@ -289,9 +289,9 @@ extended base has been needed are:</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">openssl</span></code> dependency, e.g., through <code class="docutils literal notranslate"><span class="pre">openmpi</span></code></p></li>
 </ul>
 <p>To use the extended container, add the following to a recipe’s <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">extra</span><span class="p">:</span>
-  <span class="nt">container</span><span class="p">:</span>
-    <span class="nt">extended-base</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">extra</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">container</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="nt">extended-base</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span><span class="w"></span>
 </pre></div>
 </div>
 </section>

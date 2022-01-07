@@ -635,25 +635,25 @@ recipes/varlociraptor/
 </ul>
 <section id="package">
 <h3><code class="docutils literal notranslate"><span class="pre">package</span></code><a class="headerlink" href="#package" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">package</span><span class="p">:</span>
-  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">unifrac</span>
-  <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0.20.0</span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">package</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unifrac</span><span class="w"></span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.20.0</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Can also use Jinja variables:</p>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="cp">{%</span> <span class="k">set</span> <span class="nv">version</span> <span class="o">=</span> <span class="s2">&quot;0.20.0&quot;</span> <span class="cp">%}</span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="cp">{%</span> <span class="k">set</span> <span class="nv">version</span> <span class="o">=</span> <span class="s2">&quot;0.20.0&quot;</span> <span class="cp">%}</span><span class="w"></span>
 
-<span class="nt">package</span><span class="p">:</span>
-  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">unifrac</span>
-  <span class="nt">version</span><span class="p">:</span> <span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span>
+<span class="nt">package</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unifrac</span><span class="w"></span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span><span class="w"></span>
 </pre></div>
 </div>
 </section>
 <section id="source">
 <h3><code class="docutils literal notranslate"><span class="pre">source</span></code><a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span>
-  <span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://github.com/biocore/unifrac/archive/</span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span><span class="l l-Scalar l-Scalar-Plain">.tar.gz</span>
-  <span class="nt">sha256</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">e2692c683fddc6450ca4da049112b00264cf61aef1071d2ebc0f0539b86611b8</span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/biocore/unifrac/archive/</span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span><span class="l l-Scalar l-Scalar-Plain">.tar.gz</span><span class="w"></span>
+<span class="w">  </span><span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">e2692c683fddc6450ca4da049112b00264cf61aef1071d2ebc0f0539b86611b8</span><span class="w"></span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -663,17 +663,17 @@ recipes/varlociraptor/
 </section>
 <section id="build">
 <h3><code class="docutils literal notranslate"><span class="pre">build</span></code><a class="headerlink" href="#build" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
-  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
 </pre></div>
 </div>
 <ul>
 <li><p>Reset to <code class="docutils literal notranslate"><span class="pre">0</span></code> with new releases</p></li>
 <li><p>Increment with each change for same version</p></li>
 <li><dl>
-<dt>Can skip build on conditions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
-  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
-  <span class="nt">skip</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>  <span class="c1"># [osx or py&lt;36]</span>
+<dt>Can skip build on conditions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
+<span class="w">  </span><span class="nt">skip</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">True</span><span class="w">  </span><span class="c1"># [osx or py&lt;36]</span><span class="w"></span>
 </pre></div>
 </div>
 </dd>
@@ -685,18 +685,18 @@ recipes/varlociraptor/
 <blockquote>
 <div><ul>
 <li><dl>
-<dt><code class="docutils literal notranslate"><span class="pre">generic</span></code>: No platform-specific code (Java, pure Perl, pure R, etc.)</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
-  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
-  <span class="nt">noarch</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">generic</span>
+<dt><code class="docutils literal notranslate"><span class="pre">generic</span></code>: No platform-specific code (Java, pure Perl, pure R, etc.)</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
+<span class="w">  </span><span class="nt">noarch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">generic</span><span class="w"></span>
 </pre></div>
 </div>
 </dd>
 </dl>
 </li>
 <li><dl>
-<dt><code class="docutils literal notranslate"><span class="pre">python</span></code>: Pure Python packages, one build -&gt; all versions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
-  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
-  <span class="nt">noarch</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">python</span>
+<dt><code class="docutils literal notranslate"><span class="pre">python</span></code>: Pure Python packages, one build -&gt; all versions</dt><dd><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
+<span class="w">  </span><span class="nt">noarch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span><span class="w"></span>
 </pre></div>
 </div>
 </dd>
@@ -717,10 +717,10 @@ recipes/varlociraptor/
 <ul>
 <li><p>You can include entire build command</p>
 <blockquote>
-<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
-  <span class="nt">number</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
-  <span class="nt">noarch</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">python</span>
-  <span class="nt">script</span><span class="p">:</span> <span class="cp">{{</span> <span class="nv">PYTHON</span> <span class="cp">}}</span> <span class="l l-Scalar l-Scalar-Plain">-m pip install . --no-deps -vv</span>
+<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w"></span>
+<span class="w">  </span><span class="nt">noarch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span><span class="w"></span>
+<span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">PYTHON</span> <span class="cp">}}</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">-m pip install . --no-deps -vv</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -739,15 +739,15 @@ recipes/varlociraptor/
 </section>
 <section id="requirements">
 <h3><code class="docutils literal notranslate"><span class="pre">requirements</span></code><a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">requirements</span><span class="p">:</span>
-  <span class="nt">build</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="cp">{{</span> <span class="nv">compiler</span><span class="o">(</span><span class="s1">&#39;c&#39;</span><span class="o">)</span> <span class="cp">}}</span>
-  <span class="nt">host</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">htslib</span>
-    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib</span>
-  <span class="nt">run</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">htslib</span>
-    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib</span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">requirements</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">compiler</span><span class="o">(</span><span class="s1">&#39;c&#39;</span><span class="o">)</span> <span class="cp">}}</span><span class="w"></span>
+<span class="w">  </span><span class="nt">host</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">htslib</span><span class="w"></span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span><span class="w"></span>
+<span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">htslib</span><span class="w"></span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span><span class="w"></span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -774,10 +774,10 @@ samtools                        <span class="m">1</span>.10      h9402c20_2  bio
 <li><p>Bioconda uses <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">conda-forge-pinning</a></p></li>
 <li><p>Version ranges are very useful!</p>
 <blockquote>
-<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">importlib_metadata &gt;=1.7.0,&lt;2.0.0</span>
-<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pysam &gt;=0.16,&lt;0.17</span>
-<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">python &gt;=3.7</span>
-<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pyyaml &gt;=5.3,&lt;6</span>
+<div><div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">importlib_metadata &gt;=1.7.0,&lt;2.0.0</span><span class="w"></span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pysam &gt;=0.16,&lt;0.17</span><span class="w"></span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python &gt;=3.7</span><span class="w"></span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pyyaml &gt;=5.3,&lt;6</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -786,11 +786,11 @@ samtools                        <span class="m">1</span>.10      h9402c20_2  bio
 </section>
 <section id="test">
 <h3><code class="docutils literal notranslate"><span class="pre">test</span></code><a class="headerlink" href="#test" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span>
-  <span class="nt">imports</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">vembrane</span>
-  <span class="nt">commands</span><span class="p">:</span>
-    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">vembrane --help</span>
+<div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">imports</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vembrane</span><span class="w"></span>
+<span class="w">  </span><span class="nt">commands</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vembrane --help</span><span class="w"></span>
 </pre></div>
 </div>
 <ul class="simple">

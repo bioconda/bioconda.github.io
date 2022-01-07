@@ -353,10 +353,10 @@
             <span class="n">parser</span> <span class="o">=</span> <span class="n">HrefParser</span><span class="p">(</span><span class="n">link_re</span><span class="p">)</span>
             <span class="n">parser</span><span class="o">.</span><span class="n">feed</span><span class="p">(</span><span class="k">await</span> <span class="n">req</span><span class="o">.</span><span class="n">get_text_from_url</span><span class="p">(</span><span class="n">url</span><span class="p">))</span>
             <span class="k">for</span> <span class="n">match</span> <span class="ow">in</span> <span class="n">parser</span><span class="o">.</span><span class="n">get_matches</span><span class="p">():</span>
-                <span class="n">match</span><span class="p">[</span><span class="s2">&quot;link&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">urljoin</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">match</span><span class="p">[</span><span class="s2">&quot;href&quot;</span><span class="p">])</span>
-                <span class="n">match</span><span class="p">[</span><span class="s2">&quot;releases_url&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">url</span>
+                <span class="k">match</span><span class="p">[</span><span class="s2">&quot;link&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">urljoin</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">match</span><span class="p">[</span><span class="s2">&quot;href&quot;</span><span class="p">])</span>
+                <span class="k">match</span><span class="p">[</span><span class="s2">&quot;releases_url&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">url</span>
 
-                <span class="n">match</span><span class="p">[</span><span class="s2">&quot;vals&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">vals</span>
+                <span class="k">match</span><span class="p">[</span><span class="s2">&quot;vals&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">vals</span>
                 <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">match</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">result</span></div></div>
 
@@ -497,7 +497,7 @@
             <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
             <span class="n">matches</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_versions_from_json</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">orig_version</span><span class="p">)</span>
             <span class="k">for</span> <span class="n">match</span> <span class="ow">in</span> <span class="n">matches</span><span class="p">:</span>
-                <span class="n">match</span><span class="p">[</span><span class="s1">&#39;releases_url&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">url</span>
+                <span class="k">match</span><span class="p">[</span><span class="s1">&#39;releases_url&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">url</span>
             <span class="n">result</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">matches</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">result</span></div>
     <span class="n">link_pattern</span> <span class="o">=</span> <span class="s2">&quot;https://</span><span class="si">{url}</span><span class="s2">&quot;</span>
