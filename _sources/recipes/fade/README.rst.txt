@@ -28,13 +28,11 @@ fade
       
       
 
-      ``0.3.6-0``
+      ``0.5.5-0``,  ``0.3.6-0``
 
       
 
    
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +64,7 @@ fade
 
     <script>
         var package = "fade";
-        var versions = ["0.3.6"];
+        var versions = ["0.5.5","0.3.6"];
     </script>
 
 
