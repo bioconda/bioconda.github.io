@@ -32,10 +32,10 @@ masurca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.2-1</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  <code>3.3.7-0</code>,  <code>3.3.6-0</code>,  <code>3.3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.6-0</code>,  <code>3.4.2-1</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  <code>3.3.7-0</code>,  <code>3.3.6-0</code>,  </span></summary>
       
 
-      ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``
+      ``4.0.6-0``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``
 
       
       .. raw:: html
@@ -47,8 +47,9 @@ masurca
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends grep: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -82,7 +83,7 @@ masurca
 
     <script>
         var package = "masurca";
-        var versions = ["3.4.2","3.4.2","3.4.1","3.4.0","3.3.9"];
+        var versions = ["4.0.6","3.4.2","3.4.2","3.4.1","3.4.0"];
     </script>
 
 

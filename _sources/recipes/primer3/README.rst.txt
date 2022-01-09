@@ -29,10 +29,10 @@ primer3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.1a-2</code>,  <code>2.4.1a-1</code>,  <code>2.4.1a-0</code>,  <code>2.4.0-0</code>,  <code>2.3.7-1</code>,  <code>2.3.7-0</code>,  <code>2.0.0a-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.1a-2</code>,  <code>2.4.1a-1</code>,  <code>2.4.1a-0</code>,  <code>2.4.0-0</code>,  <code>2.3.7-1</code>,  <code>2.3.7-0</code>,  </span></summary>
       
 
-      ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.1a-2``,  ``2.4.1a-1``,  ``2.4.1a-0``,  ``2.4.0-0``,  ``2.3.7-1``,  ``2.3.7-0``,  ``2.0.0a-4``,  ``2.0.0a-3``,  ``2.0.0a-2``,  ``2.0.0a-1``,  ``2.0.0a-0``,  ``1.1.4-3``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``v2.5.0-0``
+      ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.1a-2``,  ``2.4.1a-1``,  ``2.4.1a-0``,  ``2.4.0-0``,  ``2.3.7-1``,  ``2.3.7-0``,  ``2.0.0a-4``,  ``2.0.0a-3``,  ``2.0.0a-2``,  ``2.0.0a-1``,  ``2.0.0a-0``,  ``1.1.4-3``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``v2.5.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ primer3
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :requirements:
 
@@ -75,7 +75,7 @@ primer3
 
     <script>
         var package = "primer3";
-        var versions = ["2.5.0","2.5.0","2.4.1a","2.4.1a","2.4.1a"];
+        var versions = ["2.6.0","2.5.0","2.5.0","2.4.1a","2.4.1a"];
     </script>
 
 

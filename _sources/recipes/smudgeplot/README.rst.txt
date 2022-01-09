@@ -27,15 +27,15 @@ smudgeplot
       
       
 
-      ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
    :depends libgcc-ng: ``>=9.4.0``
    :depends numpy: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends r-argparse: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-viridis: 
@@ -71,7 +71,7 @@ smudgeplot
 
     <script>
         var package = "smudgeplot";
-        var versions = ["0.2.4","0.2.4","0.2.4","0.2.3","0.2.2"];
+        var versions = ["0.2.4","0.2.4","0.2.4","0.2.4","0.2.3"];
     </script>
 
 
