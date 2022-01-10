@@ -28,10 +28,10 @@ somaticseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.2-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.0-0</code>,  <code>3.6.2-0</code>,  <code>3.6.0-0</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  </span></summary>
       
 
-      ``3.6.2-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``2.8.1-0``
+      ``3.7.0-0``,  ``3.6.2-0``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``2.8.1-0``
 
       
       .. raw:: html
@@ -86,7 +86,7 @@ somaticseq
 
     <script>
         var package = "somaticseq";
-        var versions = ["3.6.2","3.6.0","3.5.1","3.5.0","3.4.2"];
+        var versions = ["3.7.0","3.6.2","3.6.0","3.5.1","3.5.0"];
     </script>
 
 
