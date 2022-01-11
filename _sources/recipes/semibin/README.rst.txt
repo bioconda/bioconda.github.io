@@ -27,17 +27,17 @@ semibin
       
       
 
-      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
+      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
 
       
 
    
    :depends atomicwrites: 
    :depends bedtools: 
-   :depends biopython: 
    :depends fraggenescan: ``1.30.*``
    :depends hmmer: 
    :depends mmseqs2: ``13.45111.*``
+   :depends numexpr: 
    :depends numpy: ``>=1.20``
    :depends pandas: 
    :depends python: 
@@ -78,7 +78,7 @@ semibin
 
     <script>
         var package = "semibin";
-        var versions = ["0.5.0","0.4.0","0.3","0.2","0.2"];
+        var versions = ["0.5.0","0.5.0","0.4.0","0.3","0.2"];
     </script>
 
 

@@ -27,11 +27,15 @@ snap-aligner
       
       
 
-      ``1.0beta.23-0``,  ``1.0beta.18-0``,  ``1.0dev.97-3``,  ``1.0dev.97-2``,  ``1.0dev.97-1``,  ``1.0dev.97-0``,  ``1.0dev.96-0``
+      ``2.0.0-0``,  ``1.0beta.23-0``,  ``1.0beta.18-0``,  ``1.0dev.97-3``,  ``1.0dev.97-2``,  ``1.0dev.97-1``,  ``1.0dev.97-0``,  ``1.0dev.96-0``
 
       
 
    
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -63,7 +67,7 @@ snap-aligner
 
     <script>
         var package = "snap-aligner";
-        var versions = ["1.0beta.23","1.0beta.18","1.0dev.97","1.0dev.97","1.0dev.97"];
+        var versions = ["2.0.0","1.0beta.23","1.0beta.18","1.0dev.97","1.0dev.97"];
     </script>
 
 

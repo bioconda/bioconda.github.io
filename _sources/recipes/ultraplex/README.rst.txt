@@ -27,7 +27,7 @@ ultraplex
       
       
 
-      ``1.2.4-0``,  ``1.2.3-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.3-0``
+      ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.3-0``
 
       
 
@@ -35,8 +35,8 @@ ultraplex
    :depends dnaio: ``>=0.5.0``
    :depends libgcc-ng: ``>=9.4.0``
    :depends pigz: 
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.7,<3.8.0a0``
+   :depends python_abi: ``3.7.* *_cp37m``
    :depends xopen: ``>=1.0.0``
    :requirements:
 
@@ -69,7 +69,7 @@ ultraplex
 
     <script>
         var package = "ultraplex";
-        var versions = ["1.2.4","1.2.3","1.1.5","1.1.4","1.1.3"];
+        var versions = ["1.2.5","1.2.4","1.2.3","1.1.5","1.1.4"];
     </script>
 
 
