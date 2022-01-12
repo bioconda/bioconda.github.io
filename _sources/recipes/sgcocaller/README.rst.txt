@@ -28,7 +28,7 @@ sgcocaller
       
       
 
-      ``0.3.5-0``,  ``0.3.4-0``
+      ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``
 
       
 
@@ -74,7 +74,7 @@ sgcocaller
 
     <script>
         var package = "sgcocaller";
-        var versions = ["0.3.5","0.3.4"];
+        var versions = ["0.3.6","0.3.5","0.3.4"];
     </script>
 
 

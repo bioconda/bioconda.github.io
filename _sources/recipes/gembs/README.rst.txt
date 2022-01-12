@@ -28,26 +28,28 @@ gembs
       
       
 
-      ``3.2.0-5``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``
+      ``3.5.0-0``,  ``3.2.0-5``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``
 
       
 
    
    :depends bcftools: 
-   :depends bs_call: ``2.02.*``
+   :depends bs_call: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends gem3-mapper: ``3.6.1.*``
+   :depends gem3-mapper: 
    :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends matplotlib: 
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends matplotlib-base: 
    :depends multiprocess: 
+   :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends pigz: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
    :depends samtools: 
+   :depends setuptools: 
    :depends ucsc-bedtobigbed: 
    :depends ucsc-wigtobigwig: 
-   :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -80,7 +82,7 @@ gembs
 
     <script>
         var package = "gembs";
-        var versions = ["3.2.0","3.2.0","3.2.0","3.2.0","3.2.0"];
+        var versions = ["3.5.0","3.2.0","3.2.0","3.2.0","3.2.0"];
     </script>
 
 

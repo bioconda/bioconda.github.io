@@ -29,10 +29,10 @@ rgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.2-1</code>,  <code>4.2.2-0</code>,  <code>4.0.3-3</code>,  <code>4.0.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.1-1</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.2-1</code>,  <code>4.2.2-0</code>,  </span></summary>
       
 
-      ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.2-1``,  ``4.2.2-0``,  ``4.0.3-3``,  ``4.0.3-2``,  ``4.0.3-1``,  ``4.0.3-0``,  ``3.2.1-4``,  ``3.2.1-3``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.0-1``,  ``3.1.0-0``
+      ``5.2.1-1``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.2-1``,  ``4.2.2-0``,  ``4.0.3-3``,  ``4.0.3-2``,  ``4.0.3-1``,  ``4.0.3-0``,  ``3.2.1-4``,  ``3.2.1-3``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.0-1``,  ``3.1.0-0``
 
       
       .. raw:: html
@@ -44,13 +44,14 @@ rgi
    :depends bamtools: ``2.5.1.*``
    :depends beautifulsoup4: ``4.9.3``
    :depends bedtools: ``>=2.28.0``
-   :depends biopython: ``1.72.*``
+   :depends biopython: ``1.78.*``
    :depends blast: ``2.9.0.*``
    :depends bowtie2: ``>=2.3.4.3``
    :depends bwa: ``>=0.7.17``
    :depends diamond: ``0.8.36.*``
    :depends filetype: ``>=1.0.0``
    :depends kma: ``>=1.2.26``
+   :depends lxml: ``4.6.5``
    :depends matplotlib-base: ``>=2.1.2``
    :depends oligoarrayaux: ``3.8.*``
    :depends pandas: ``>=0.15.0``
@@ -58,7 +59,7 @@ rgi
    :depends pyahocorasick: ``>=1.1.7``
    :depends pyfaidx: ``>=0.5.4.1``
    :depends pysam: ``0.16.0.1``
-   :depends python: ``>=3.5,<3.7``
+   :depends python: ``>=3.5``
    :depends requests: ``2.24.0``
    :depends samtools: ``1.9.*``
    :depends seaborn: ``>=0.8.1``
@@ -95,7 +96,7 @@ rgi
 
     <script>
         var package = "rgi";
-        var versions = ["5.2.0","5.1.1","5.1.0","5.1.0","5.0.0"];
+        var versions = ["5.2.1","5.2.1","5.2.0","5.1.1","5.1.0"];
     </script>
 
 
