@@ -27,7 +27,7 @@ r-ampvis2
       
       
 
-      ``2.7.17-0``,  ``2.7.12-1``,  ``2.7.12-0``
+      ``2.7.17-1``,  ``2.7.17-0``,  ``2.7.12-1``,  ``2.7.12-0``
 
       
 
@@ -40,6 +40,7 @@ r-ampvis2
    :depends r-crayon: 
    :depends r-data.table: 
    :depends r-dplyr: 
+   :depends r-foreach: 
    :depends r-ggally: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -89,7 +90,7 @@ r-ampvis2
 
     <script>
         var package = "r-ampvis2";
-        var versions = ["2.7.17","2.7.12","2.7.12"];
+        var versions = ["2.7.17","2.7.17","2.7.12","2.7.12"];
     </script>
 
 

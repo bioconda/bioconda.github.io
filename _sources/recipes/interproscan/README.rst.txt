@@ -27,7 +27,7 @@ interproscan
       
       
 
-      ``5.52_86.0-0``
+      ``5.54_87.0-0``,  ``5.52_86.0-0``
 
       
 
@@ -74,7 +74,7 @@ interproscan
 
     <script>
         var package = "interproscan";
-        var versions = ["5.52_86.0"];
+        var versions = ["5.54_87.0","5.52_86.0"];
     </script>
 
 
