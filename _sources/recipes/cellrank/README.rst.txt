@@ -33,10 +33,10 @@ cellrank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``,  ``1.0.0b3-0``
 
       
       .. raw:: html
@@ -94,7 +94,7 @@ cellrank
 
     <script>
         var package = "cellrank";
-        var versions = ["1.5.0","1.4.0","1.3.1","1.2.0","1.1.0"];
+        var versions = ["1.5.1","1.5.0","1.4.0","1.3.1","1.2.0"];
     </script>
 
 
@@ -107,10 +107,10 @@ cellrank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  <code>1.0.0rc9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc12-0</code>,  <code>1.0.0rc10-0</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0.0rc12-0``,  ``1.0.0rc10-0``,  ``1.0.0rc9-0``,  ``1.0.0rc8-0``,  ``1.0.0rc7-0``,  ``1.0.0rc6-0``,  ``1.0.0rc4-0``,  ``1.0.0rc2-0``,  ``1.0.0rc0-0``
 
       
       .. raw:: html
@@ -119,7 +119,7 @@ cellrank
       
 
    
-   :depends cellrank: ``1.5.0 pyhdfd78af_0``
+   :depends cellrank: ``1.5.1 pyhdfd78af_0``
    :depends mpi4py: ``>=3.0.3``
    :depends openmpi: ``>=3.0.3``
    :depends petsc: ``>=3.13.0``
@@ -158,7 +158,7 @@ cellrank
 
     <script>
         var package = "cellrank";
-        var versions = ["1.5.0","1.4.0","1.3.1","1.2.0","1.1.0"];
+        var versions = ["1.5.1","1.5.0","1.4.0","1.3.1","1.2.0"];
     </script>
 
 
