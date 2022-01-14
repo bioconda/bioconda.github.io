@@ -31,7 +31,7 @@ mantis_pfa
       
       
 
-      ``1.4.3-0``
+      ``1.4.4-0``,  ``1.4.3-0``
 
       
 
@@ -41,6 +41,7 @@ mantis_pfa
    :depends hmmer: ``>=3.2.1``
    :depends libgcc-ng: ``>=9.4.0``
    :depends nltk: ``>=1.18.1``
+   :depends numpy: 
    :depends psutil: ``>=5.6.7``
    :depends python: ``>=3.7,<3.8.0a0``
    :depends python_abi: ``3.7.* *_cp37m``
@@ -76,7 +77,7 @@ mantis_pfa
 
     <script>
         var package = "mantis_pfa";
-        var versions = ["1.4.3"];
+        var versions = ["1.4.4","1.4.3"];
     </script>
 
 

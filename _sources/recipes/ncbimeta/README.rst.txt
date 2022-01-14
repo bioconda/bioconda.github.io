@@ -26,16 +26,24 @@ ncbimeta
    :versions:
       
       
+      .. raw:: html
 
-      ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.6-0</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  </span></summary>
+      
 
+      ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.0-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biopython: ``>=1.74,<1.77``
+   :depends biopython: ``>=1.74``
    :depends lxml: ``>=4.6.3``
-   :depends numpy: ``>=1.19.3,<=1.19.5``
-   :depends python: ``>=3.6``
+   :depends numpy: 
+   :depends python: ``>=3.6,<3.10``
    :depends pyyaml: ``>=5.4``
    :requirements:
 
@@ -68,7 +76,7 @@ ncbimeta
 
     <script>
         var package = "ncbimeta";
-        var versions = ["0.8.2","0.8.1","0.7.0","0.6.6","0.6.5"];
+        var versions = ["0.8.3","0.8.2","0.8.1","0.7.0","0.6.6"];
     </script>
 
 

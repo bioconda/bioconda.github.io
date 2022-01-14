@@ -27,9 +27,17 @@ jbrowse2
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5.5-0``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.4-0``,  ``1.4.1-0``,  ``1.3.5-0``,  ``1.3.3-0``,  ``1.3.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.5.8-0</code>,  <code>1.5.5-0</code>,  <code>1.5.3-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.4-0</code>,  <code>1.4.1-0</code>,  <code>1.3.5-0</code>,  <code>1.3.3-0</code>,  </span></summary>
+      
 
+      ``1.5.8-0``,  ``1.5.5-0``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.4-0``,  ``1.4.1-0``,  ``1.3.5-0``,  ``1.3.3-0``,  ``1.3.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -69,7 +77,7 @@ jbrowse2
 
     <script>
         var package = "jbrowse2";
-        var versions = ["1.5.5","1.5.3","1.5.1","1.5.0","1.4.4"];
+        var versions = ["1.5.8","1.5.5","1.5.3","1.5.1","1.5.0"];
     </script>
 
 

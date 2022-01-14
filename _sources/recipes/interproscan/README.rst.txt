@@ -27,12 +27,12 @@ interproscan
       
       
 
-      ``5.54_87.0-0``,  ``5.52_86.0-0``
+      ``5.54_87.0-1``,  ``5.54_87.0-0``,  ``5.52_86.0-0``
 
       
 
    
-   :depends blast: ``>=2.9``
+   :depends blast: ``>=2.12``
    :depends cath-tools: 
    :depends emboss: 
    :depends hmmer: ``>=3``
@@ -74,7 +74,7 @@ interproscan
 
     <script>
         var package = "interproscan";
-        var versions = ["5.54_87.0","5.52_86.0"];
+        var versions = ["5.54_87.0","5.54_87.0","5.52_86.0"];
     </script>
 
 

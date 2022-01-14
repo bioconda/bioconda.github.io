@@ -39,7 +39,7 @@ seqlike
    :depends pillow: 
    :depends pytest: 
    :depends pytest-regtest: 
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends python-codon-tables: 
    :depends scikit-learn: 
    :depends weblogo: 

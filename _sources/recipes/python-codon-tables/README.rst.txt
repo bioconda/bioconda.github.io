@@ -32,7 +32,7 @@ python-codon-tables
       
 
    
-   :depends python: 
+   :depends python: ``>=3.6``
    :requirements:
 
    .. rubric:: Installation
