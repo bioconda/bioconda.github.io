@@ -30,14 +30,14 @@ metagraph
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
    :depends jemalloc: 
    :depends libgcc-ng: ``>=9.4.0``
    :depends libgomp: 
@@ -74,7 +74,7 @@ metagraph
 
     <script>
         var package = "metagraph";
-        var versions = ["0.3.3","0.3.2","0.2.0","0.1.0","0.1.0"];
+        var versions = ["0.3.3","0.3.3","0.3.2","0.2.0","0.1.0"];
     </script>
 
 

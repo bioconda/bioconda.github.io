@@ -28,20 +28,20 @@ malder
       
       
 
-      ``1.0.1e83d4e-2``,  ``1.0.1e83d4e-1``,  ``1.0.1e83d4e-0``
+      ``1.0.1e83d4e-3``,  ``1.0.1e83d4e-2``,  ``1.0.1e83d4e-1``,  ``1.0.1e83d4e-0``
 
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends fftw: ``>=3.3.9,<4.0a0``
-   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends fftw: ``>=3.3.10,<4.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends liblapacke: ``>=3.8.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends llvm-openmp: ``>=11.1.0``
+   :depends llvm-openmp: ``>=12.0.1``
    :requirements:
 
    .. rubric:: Installation
@@ -73,7 +73,7 @@ malder
 
     <script>
         var package = "malder";
-        var versions = ["1.0.1e83d4e","1.0.1e83d4e","1.0.1e83d4e"];
+        var versions = ["1.0.1e83d4e","1.0.1e83d4e","1.0.1e83d4e","1.0.1e83d4e"];
     </script>
 
 

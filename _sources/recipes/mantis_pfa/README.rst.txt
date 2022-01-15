@@ -31,7 +31,7 @@ mantis_pfa
       
       
 
-      ``1.4.4-0``,  ``1.4.3-0``
+      ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
 
       
 
@@ -40,12 +40,12 @@ mantis_pfa
    :depends diamond: ``>=2.0.13``
    :depends hmmer: ``>=3.2.1``
    :depends libgcc-ng: ``>=9.4.0``
-   :depends nltk: ``>=1.18.1``
+   :depends nltk: ``>=3.6``
    :depends numpy: 
-   :depends psutil: ``>=5.6.7``
+   :depends psutil: 
    :depends python: ``>=3.7,<3.8.0a0``
    :depends python_abi: ``3.7.* *_cp37m``
-   :depends requests: ``>=2.22.0``
+   :depends requests: 
    :requirements:
 
    .. rubric:: Installation
@@ -77,7 +77,7 @@ mantis_pfa
 
     <script>
         var package = "mantis_pfa";
-        var versions = ["1.4.4","1.4.3"];
+        var versions = ["1.4.5","1.4.4","1.4.3"];
     </script>
 
 

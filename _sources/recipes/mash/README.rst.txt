@@ -28,10 +28,10 @@ mash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3-1</code>,  <code>2.3-0</code>,  <code>2.2.2-2</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3-2</code>,  <code>2.3-1</code>,  <code>2.3-0</code>,  <code>2.2.2-2</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  </span></summary>
       
 
-      ``2.3-1``,  ``2.3-0``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-1``,  ``2.1-0``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``,  ``1.1-0``,  ``1.0.2-2``,  ``1.0.2-1``
+      ``2.3-2``,  ``2.3-1``,  ``2.3-0``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-1``,  ``2.1-0``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``,  ``1.1-0``,  ``1.0.2-2``,  ``1.0.2-1``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ mash
 
    
    :depends capnproto: 
-   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -77,7 +77,7 @@ mash
 
     <script>
         var package = "mash";
-        var versions = ["2.3","2.3","2.2.2","2.2.2","2.2.2"];
+        var versions = ["2.3","2.3","2.3","2.2.2","2.2.2"];
     </script>
 
 

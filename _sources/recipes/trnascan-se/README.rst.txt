@@ -28,10 +28,10 @@ trnascan-se
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.7-1</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-0</code>,  <code>2.0-1</code>,  <code>2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.9-2</code>,  <code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.7-1</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-0</code>,  <code>2.0-1</code>,  </span></summary>
       
 
-      ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.7-1``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0-1``,  ``2.0-0``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``
+      ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.7-1``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0-1``,  ``2.0-0``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ trnascan-se
 
    
    :depends infernal: ``>=1.1.2``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ trnascan-se
 
     <script>
         var package = "trnascan-se";
-        var versions = ["2.0.9","2.0.9","2.0.7","2.0.7","2.0.6"];
+        var versions = ["2.0.9","2.0.9","2.0.9","2.0.7","2.0.7"];
     </script>
 
 

@@ -10,9 +10,9 @@ gofasta
    :replaces_section_title:
    :noindex:
 
-   Some functions for working on alignments in fasta format
+   Genomic epidemiology utilities for short genome alignments
 
-   :homepage: https://github.com/cov-ert/gofasta
+   :homepage: https://github.com/virus-evolution/gofasta
    :license: MIT
    :recipe: /`gofasta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gofasta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gofasta/meta.yaml>`_
 
@@ -27,7 +27,7 @@ gofasta
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -63,7 +63,7 @@ gofasta
 
     <script>
         var package = "gofasta";
-        var versions = ["0.0.6","0.0.5","0.0.4","0.0.3","0.0.3"];
+        var versions = ["0.0.6","0.0.6","0.0.5","0.0.4","0.0.3"];
     </script>
 
 

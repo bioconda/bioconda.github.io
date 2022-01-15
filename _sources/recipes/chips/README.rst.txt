@@ -27,14 +27,14 @@ chips
       
       
 
-      ``2.4-1``,  ``2.4-0``,  ``2.3-0``
+      ``2.4-2``,  ``2.4-1``,  ``2.4-0``,  ``2.3-0``
 
       
 
    
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +67,7 @@ chips
 
     <script>
         var package = "chips";
-        var versions = ["2.4","2.4","2.3"];
+        var versions = ["2.4","2.4","2.4","2.3"];
     </script>
 
 

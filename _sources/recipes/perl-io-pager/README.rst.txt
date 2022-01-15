@@ -27,12 +27,12 @@ perl-io-pager
       
       
 
-      ``2.10-0``
+      ``2.10-1``,  ``2.10-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-which: 
    :depends perl-termreadkey: 
    :requirements:
@@ -66,7 +66,7 @@ perl-io-pager
 
     <script>
         var package = "perl-io-pager";
-        var versions = ["2.10"];
+        var versions = ["2.10","2.10"];
     </script>
 
 

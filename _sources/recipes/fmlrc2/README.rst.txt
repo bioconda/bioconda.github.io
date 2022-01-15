@@ -27,16 +27,16 @@ fmlrc2
       
       
 
-      ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libopenblas: ``>=0.3.17,<1.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
-   :depends openssl: ``>=1.1.1k,<1.1.2a``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libopenblas: ``>=0.3.18,<1.0a0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends starcode: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -70,7 +70,7 @@ fmlrc2
 
     <script>
         var package = "fmlrc2";
-        var versions = ["0.1.5","0.1.4","0.1.4","0.1.3"];
+        var versions = ["0.1.5","0.1.5","0.1.4","0.1.4","0.1.3"];
     </script>
 
 

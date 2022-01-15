@@ -29,13 +29,13 @@ abacas
       
       
 
-      ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
    
    :depends mummer: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ abacas
 
     <script>
         var package = "abacas";
-        var versions = ["1.3.1","1.3.1"];
+        var versions = ["1.3.1","1.3.1","1.3.1"];
     </script>
 
 

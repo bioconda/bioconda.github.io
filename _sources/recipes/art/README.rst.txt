@@ -28,10 +28,10 @@ art
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2016.06.05-6</code>,  <code>2016.06.05-5</code>,  <code>2016.06.05-4</code>,  <code>2016.06.05-3</code>,  <code>2016.06.05-2</code>,  <code>2016.06.05-1</code>,  <code>2016.06.05-0</code>,  <code>3.19.15-1</code>,  <code>3.11.14-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2016.06.05-7</code>,  <code>2016.06.05-6</code>,  <code>2016.06.05-5</code>,  <code>2016.06.05-4</code>,  <code>2016.06.05-3</code>,  <code>2016.06.05-2</code>,  <code>2016.06.05-1</code>,  <code>2016.06.05-0</code>,  <code>3.19.15-1</code>,  </span></summary>
       
 
-      ``2016.06.05-6``,  ``2016.06.05-5``,  ``2016.06.05-4``,  ``2016.06.05-3``,  ``2016.06.05-2``,  ``2016.06.05-1``,  ``2016.06.05-0``,  ``3.19.15-1``,  ``3.11.14-1``,  ``3.11.14-0``
+      ``2016.06.05-7``,  ``2016.06.05-6``,  ``2016.06.05-5``,  ``2016.06.05-4``,  ``2016.06.05-3``,  ``2016.06.05-2``,  ``2016.06.05-1``,  ``2016.06.05-0``,  ``3.19.15-1``,  ``3.11.14-1``,  ``3.11.14-0``
 
       
       .. raw:: html
@@ -40,10 +40,9 @@ art
       
 
    
-   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation

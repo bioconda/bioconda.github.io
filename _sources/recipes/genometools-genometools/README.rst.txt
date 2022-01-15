@@ -31,21 +31,18 @@ genometools-genometools
       
       
 
-      ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
+      ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
 
       
 
    
-   :depends cairo: ``>=1.16.0,<1.17.0a0``
    :depends font-ttf-dejavu-sans-mono: 
-   :depends fontconfig: ``>=2.13.1,<3.0a0``
+   :depends fontconfig: 
    :depends gettext: 
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends libcxx: ``>=11.1.0``
    :depends libglib: ``>=2.66.3,<3.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
-   :depends pango: ``>=1.42.4,<1.43.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends xorg-libsm: 
    :depends xorg-libxext: 
    :depends xorg-libxrender: 
@@ -80,7 +77,7 @@ genometools-genometools
 
     <script>
         var package = "genometools-genometools";
-        var versions = ["1.6.2","1.6.1","1.6.1","1.6.1","1.6.0"];
+        var versions = ["1.6.2","1.6.2","1.6.1","1.6.1","1.6.1"];
     </script>
 
 

@@ -28,14 +28,13 @@ mlrho
       
       
 
-      ``2.9-3``,  ``2.9-2``,  ``2.9-1``,  ``2.9-0``
+      ``2.9-4``,  ``2.9-3``,  ``2.9-2``,  ``2.9-1``,  ``2.9-0``
 
       
 
    
-   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ mlrho
 
     <script>
         var package = "mlrho";
-        var versions = ["2.9","2.9","2.9","2.9"];
+        var versions = ["2.9","2.9","2.9","2.9","2.9"];
     </script>
 
 

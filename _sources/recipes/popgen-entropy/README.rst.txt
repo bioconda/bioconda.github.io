@@ -28,16 +28,16 @@ popgen-entropy
       
       
 
-      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
-   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends mkl: ``>=2019.5,<2020.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends mkl: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -70,7 +70,7 @@ popgen-entropy
 
     <script>
         var package = "popgen-entropy";
-        var versions = ["2.0","2.0","2.0","2.0"];
+        var versions = ["2.0","2.0","2.0","2.0","2.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ bioconductor-rcwlpipelines
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
@@ -71,7 +71,7 @@ bioconductor-rcwlpipelines
 
     <script>
         var package = "bioconductor-rcwlpipelines";
-        var versions = ["1.10.0","1.8.0","1.6.2","1.6.0","1.4.0"];
+        var versions = ["1.10.0","1.10.0","1.8.0","1.6.2","1.6.0"];
     </script>
 
 

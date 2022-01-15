@@ -26,17 +26,24 @@ savvy
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.1-3</code>,  <code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends shrinkwrap: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
-   :depends zstd: ``>=1.4.9,<1.5.0a0``
+   :depends zstd: ``>=1.5.1,<1.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +75,7 @@ savvy
 
     <script>
         var package = "savvy";
-        var versions = ["2.0.1","2.0.1","2.0.1","2.0.0","1.3.0"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1","2.0.0"];
     </script>
 
 

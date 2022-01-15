@@ -27,15 +27,14 @@ sansa
       
       
 
-      ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``
+      ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ sansa
 
     <script>
         var package = "sansa";
-        var versions = ["0.0.8","0.0.8","0.0.7","0.0.7","0.0.6"];
+        var versions = ["0.0.8","0.0.8","0.0.8","0.0.7","0.0.7"];
     </script>
 
 

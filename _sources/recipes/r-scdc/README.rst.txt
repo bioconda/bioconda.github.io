@@ -28,7 +28,7 @@ r-scdc
       
       
 
-      ``0-0``
+      ``0-1``,  ``0-0``
 
       
 
@@ -76,7 +76,7 @@ r-scdc
 
     <script>
         var package = "r-scdc";
-        var versions = ["0"];
+        var versions = ["0","0"];
     </script>
 
 

@@ -27,15 +27,15 @@ dawg
       
       
 
-      ``2.0.beta1-3``,  ``2.0.beta1-2``,  ``2.0.beta1-1``,  ``2.0.beta1-0``
+      ``2.0.beta1-4``,  ``2.0.beta1-3``,  ``2.0.beta1-2``,  ``2.0.beta1-1``,  ``2.0.beta1-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +67,7 @@ dawg
 
     <script>
         var package = "dawg";
-        var versions = ["2.0.beta1","2.0.beta1","2.0.beta1","2.0.beta1"];
+        var versions = ["2.0.beta1","2.0.beta1","2.0.beta1","2.0.beta1","2.0.beta1"];
     </script>
 
 

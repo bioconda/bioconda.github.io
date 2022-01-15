@@ -26,16 +26,25 @@ bamm
    :versions:
       
       
+      .. raw:: html
 
-      ``1.7.3-8``,  ``1.7.3-7``,  ``1.7.3-6``,  ``1.7.3-5``,  ``1.7.3-4``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.7.3-9</code>,  <code>1.7.3-8</code>,  <code>1.7.3-7</code>,  <code>1.7.3-6</code>,  <code>1.7.3-5</code>,  <code>1.7.3-4</code>,  <code>1.7.3-3</code>,  <code>1.7.3-2</code>,  <code>1.7.3-1</code>,  </span></summary>
+      
 
+      ``1.7.3-9``,  ``1.7.3-8``,  ``1.7.3-7``,  ``1.7.3-6``,  ``1.7.3-5``,  ``1.7.3-4``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bwa: ``>=0.7.12``
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends numpy: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``

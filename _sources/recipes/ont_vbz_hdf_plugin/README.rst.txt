@@ -27,15 +27,14 @@ ont_vbz_hdf_plugin
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends zstd: ``>=1.4.9,<1.5.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends zstd: ``>=1.5.1,<1.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ ont_vbz_hdf_plugin
 
     <script>
         var package = "ont_vbz_hdf_plugin";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.1","1.0.1"];
     </script>
 
 
