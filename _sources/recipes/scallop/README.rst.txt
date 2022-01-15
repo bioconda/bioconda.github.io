@@ -27,15 +27,14 @@ scallop
       
       
 
-      ``0.10.5-1``,  ``0.10.5-0``,  ``0.10.4-2``,  ``0.10.4-1``,  ``0.10.4-0``
+      ``0.10.5-2``,  ``0.10.5-1``,  ``0.10.5-0``,  ``0.10.4-2``,  ``0.10.4-1``,  ``0.10.4-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation
@@ -67,7 +66,7 @@ scallop
 
     <script>
         var package = "scallop";
-        var versions = ["0.10.5","0.10.5","0.10.4","0.10.4","0.10.4"];
+        var versions = ["0.10.5","0.10.5","0.10.5","0.10.4","0.10.4"];
     </script>
 
 

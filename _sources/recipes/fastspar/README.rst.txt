@@ -34,18 +34,18 @@ fastspar
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``
 
       
 
    
+   :depends armadillo: ``>=10.8,<11.0a0``
    :depends armadillo: ``>=7.800.1``
-   :depends armadillo: ``>=9.900,<10.0a0``
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgfortran5: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends openblas: ``* *openmp*``
    :requirements:
 
@@ -78,7 +78,7 @@ fastspar
 
     <script>
         var package = "fastspar";
-        var versions = ["1.0.0","1.0.0","0.0.10","0.0.9","0.0.6"];
+        var versions = ["1.0.0","1.0.0","1.0.0","0.0.10","0.0.9"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-flowpeaks
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.20.0-0``
+      ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.20.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-flowpeaks
       
 
    
-   :depends gsl: ``>=2.6,<2.7.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
@@ -78,7 +78,7 @@ bioconductor-flowpeaks
 
     <script>
         var package = "bioconductor-flowpeaks";
-        var versions = ["1.40.0","1.38.0","1.36.0","1.36.0","1.34.0"];
+        var versions = ["1.40.0","1.40.0","1.38.0","1.36.0","1.36.0"];
     </script>
 
 

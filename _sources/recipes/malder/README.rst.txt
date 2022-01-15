@@ -33,15 +33,15 @@ malder
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends fftw: ``>=3.3.10,<4.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
    :depends liblapacke: ``>=3.8.0,<4.0a0``
-   :depends llvm-openmp: ``>=11.1.0``
-   :depends llvm-openmp: ``>=12.0.1``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation

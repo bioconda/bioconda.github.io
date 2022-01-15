@@ -27,14 +27,14 @@ hiddendomains
       
       
 
-      ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0-0``
+      ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0-0``
 
       
 
    
    :depends bedtools: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-depmixs4: 
    :depends r-hiddenmarkov: 
    :depends samtools: 
@@ -69,7 +69,7 @@ hiddendomains
 
     <script>
         var package = "hiddendomains";
-        var versions = ["3.1","3.1","3.1","3.0"];
+        var versions = ["3.1","3.1","3.1","3.1","3.0"];
     </script>
 
 
