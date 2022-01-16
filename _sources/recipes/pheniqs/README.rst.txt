@@ -28,16 +28,16 @@ pheniqs
       
       
 
-      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.3-1``,  ``2.0.3-0``
+      ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.6-3``,  ``2.0.6-2``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.3-1``,  ``2.0.3-0``
 
       
 
    
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends rapidjson: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -71,7 +71,7 @@ pheniqs
 
     <script>
         var package = "pheniqs";
-        var versions = ["2.1.0","2.1.0","2.0.6","2.0.6","2.0.6"];
+        var versions = ["2.1.0","2.1.0","2.1.0","2.0.6","2.0.6"];
     </script>
 
 

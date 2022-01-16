@@ -34,7 +34,8 @@ phylocsfpp
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libbigwig: 
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openmp: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

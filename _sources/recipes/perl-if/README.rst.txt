@@ -27,12 +27,12 @@ perl-if
       
       
 
-      ``0.0608-1``,  ``0.0608-0``
+      ``0.0608-2``,  ``0.0608-1``,  ``0.0608-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-if
 
     <script>
         var package = "perl-if";
-        var versions = ["0.0608","0.0608"];
+        var versions = ["0.0608","0.0608","0.0608"];
     </script>
 
 

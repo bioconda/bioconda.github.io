@@ -27,14 +27,13 @@ nemo-age
       
       
 
-      ``0.30.0-0``,  ``0.29.0-1``,  ``0.29.0-0``
+      ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.0-1``,  ``0.29.0-0``
 
       
 
    
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libcxx: ``>=11.1.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ nemo-age
 
     <script>
         var package = "nemo-age";
-        var versions = ["0.30.0","0.29.0","0.29.0"];
+        var versions = ["0.30.0","0.30.0","0.29.0","0.29.0"];
     </script>
 
 

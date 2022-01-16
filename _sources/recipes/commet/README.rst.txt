@@ -33,9 +33,10 @@ commet
       
 
    
-   :depends libcxx: ``>=11.1.0``
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends python: 
    :depends r-base: ``>=4.1,<4.2.0a0``

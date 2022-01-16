@@ -28,12 +28,12 @@ vcfsamplecompare
       
       
 
-      ``2.013-1``,  ``2.013-0``,  ``v2.008-1``,  ``v2.008-0``,  ``v2.006-0``
+      ``2.013-2``,  ``2.013-1``,  ``2.013-0``,  ``v2.008-1``,  ``v2.008-0``,  ``v2.006-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ vcfsamplecompare
 
     <script>
         var package = "vcfsamplecompare";
-        var versions = ["2.013","2.013","v2.008","v2.008","v2.006"];
+        var versions = ["2.013","2.013","2.013","v2.008","v2.008"];
     </script>
 
 
