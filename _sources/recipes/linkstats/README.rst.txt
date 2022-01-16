@@ -27,13 +27,13 @@ linkstats
       
       
 
-      ``0.1.3-0``
+      ``0.1.3-1``,  ``0.1.3-0``
 
       
 
    
    :depends click: ``>=8.0.3``
-   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends matplotlib-base: ``>=3.5.1``
@@ -74,7 +74,7 @@ linkstats
 
     <script>
         var package = "linkstats";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.3","0.1.3"];
     </script>
 
 

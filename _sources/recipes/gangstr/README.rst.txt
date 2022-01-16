@@ -35,7 +35,8 @@ gangstr
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends nlopt: ``>=2.7.1,<2.7.2.0a0``
    :requirements:
 

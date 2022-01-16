@@ -27,18 +27,17 @@ wally
       
       
 
-      ``0.2.5-0``
+      ``0.2.5-1``,  ``0.2.5-0``
 
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libcxx: ``>=11.1.0``
    :depends libopencv: ``>=4.5.3``
-   :depends libopencv: ``>=4.5.3,<4.5.4.0a0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libopencv: ``>=4.5.5,<4.5.6.0a0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -72,7 +71,7 @@ wally
 
     <script>
         var package = "wally";
-        var versions = ["0.2.5"];
+        var versions = ["0.2.5","0.2.5"];
     </script>
 
 

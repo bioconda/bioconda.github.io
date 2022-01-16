@@ -29,21 +29,28 @@ ataqv
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.0-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends coreutils: 
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libcxx: ``>=11.1.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends ncurses: ``>=6.2,<6.3.0a0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -76,7 +83,7 @@ ataqv
 
     <script>
         var package = "ataqv";
-        var versions = ["1.3.0","1.2.1","1.2.1","1.2.1","1.1.1"];
+        var versions = ["1.3.0","1.3.0","1.2.1","1.2.1","1.2.1"];
     </script>
 
 

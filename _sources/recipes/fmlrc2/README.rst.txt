@@ -33,8 +33,9 @@ fmlrc2
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libopenblas: ``>=0.3.18,<1.0a0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openssl: ``>=1.1.1l,<1.1.2a``
    :depends starcode: 

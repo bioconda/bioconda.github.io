@@ -27,12 +27,12 @@ nopilesum
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
    :depends libgcc-ng: ``>=9.4.0``
    :requirements:
 
@@ -65,7 +65,7 @@ nopilesum
 
     <script>
         var package = "nopilesum";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

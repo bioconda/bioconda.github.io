@@ -35,6 +35,7 @@ mlrho
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation

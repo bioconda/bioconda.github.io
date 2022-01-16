@@ -35,6 +35,7 @@ bs_call
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends openmp: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

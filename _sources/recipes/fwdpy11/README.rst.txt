@@ -44,7 +44,8 @@ fwdpy11
    :depends black: 
    :depends demes: ``>=0.1.1``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends numpy: ``>=1.20``
    :depends openblas: 
    :depends python: ``>=3.7,<3.8.0a0``

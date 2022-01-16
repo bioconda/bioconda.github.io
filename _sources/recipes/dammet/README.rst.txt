@@ -27,16 +27,17 @@ dammet
       
       
 
-      ``1.0.1a-4``,  ``1.0.1a-3``,  ``1.0.1a-2``,  ``1.0.1a-1``,  ``1.0.1a-0``
+      ``1.0.1a-5``,  ``1.0.1a-4``,  ``1.0.1a-3``,  ``1.0.1a-2``,  ``1.0.1a-1``,  ``1.0.1a-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends nlopt: ``>=2.7.0,<2.7.1.0a0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends nlopt: ``>=2.7.1,<2.7.2.0a0``
    :depends xz: ``>=5.2.5,<5.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:

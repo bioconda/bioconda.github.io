@@ -42,7 +42,8 @@ art
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation

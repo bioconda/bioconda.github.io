@@ -42,8 +42,8 @@ kraken
 
    
    :depends kmer-jellyfish: ``1.*``
-   :depends libcxx: ``>=11.1.0``
-   :depends llvm-openmp: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends rsync: 
    :depends tar: 
