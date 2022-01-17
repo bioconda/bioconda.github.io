@@ -27,14 +27,14 @@ idba_subasm
       
       
 
-      ``1.1.3a2-3``,  ``1.1.3a2-2``,  ``1.1.3a2-1``,  ``1.1.3a2-0``,  ``1.1.3a1-0``
+      ``1.1.3a2-4``,  ``1.1.3a2-3``,  ``1.1.3a2-2``,  ``1.1.3a2-1``,  ``1.1.3a2-0``,  ``1.1.3a1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
@@ -68,7 +68,7 @@ idba_subasm
 
     <script>
         var package = "idba_subasm";
-        var versions = ["1.1.3a2","1.1.3a2","1.1.3a2","1.1.3a2","1.1.3a1"];
+        var versions = ["1.1.3a2","1.1.3a2","1.1.3a2","1.1.3a2","1.1.3a2"];
     </script>
 
 

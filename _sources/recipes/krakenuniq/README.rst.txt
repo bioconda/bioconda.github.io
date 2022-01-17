@@ -29,10 +29,10 @@ krakenuniq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6-0</code>,  <code>0.5.8-4</code>,  <code>0.5.8-3</code>,  <code>0.5.8-2</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5.8-4</code>,  <code>0.5.8-3</code>,  <code>0.5.8-2</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  </span></summary>
       
 
-      ``0.6-0``,  ``0.5.8-4``,  ``0.5.8-3``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.2-0``
+      ``0.6-1``,  ``0.6-0``,  ``0.5.8-4``,  ``0.5.8-3``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ krakenuniq
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-libwww-perl: 
    :depends perl-lwp-protocol-https: 
    :depends rsync: 
@@ -83,7 +83,7 @@ krakenuniq
 
     <script>
         var package = "krakenuniq";
-        var versions = ["0.6","0.5.8","0.5.8","0.5.8","0.5.8"];
+        var versions = ["0.6","0.6","0.5.8","0.5.8","0.5.8"];
     </script>
 
 

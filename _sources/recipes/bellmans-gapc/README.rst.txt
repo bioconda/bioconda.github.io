@@ -43,7 +43,8 @@ bellmans-gapc
    :depends blas: 
    :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends make: 
    :depends sed: 
    :requirements:

@@ -41,8 +41,9 @@ fastp
 
    
    :depends isa-l: 
-   :depends libcxx: ``>=11.1.0``
    :depends libdeflate: ``>=1.9,<1.10.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation

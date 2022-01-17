@@ -28,15 +28,14 @@ telescope
       
       
 
-      ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
    :depends future: ``>=0.17.1``
-   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
    :depends intervaltree: ``>=3.0.2``
-   :depends libgcc-ng: ``>=9.3.0``
    :depends numpy: ``>=1.19.5,<2.0a0``
    :depends pysam: ``>=0.15.2``
    :depends python: ``>=3.6,<3.7.0a0``
@@ -74,7 +73,7 @@ telescope
 
     <script>
         var package = "telescope";
-        var versions = ["1.0.3","1.0.3","1.0.3"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3"];
     </script>
 
 

@@ -32,6 +32,7 @@ kfoots
       
 
    
+   :depends libgcc-ng: ``>=9.4.0``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-rcpp: ``>=0.10.6``
    :requirements:

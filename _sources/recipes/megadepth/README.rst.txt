@@ -27,15 +27,14 @@ megadepth
       
       
 
-      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9b-0``
+      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9b-0``
 
       
 
    
-   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
    :depends libbigwig: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libcxx: ``>=11.1.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -68,7 +67,7 @@ megadepth
 
     <script>
         var package = "megadepth";
-        var versions = ["1.1.3","1.1.2","1.1.1","1.1.0","1.1.0"];
+        var versions = ["1.1.3","1.1.3","1.1.2","1.1.1","1.1.0"];
     </script>
 
 

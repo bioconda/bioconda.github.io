@@ -28,7 +28,7 @@ metaxa
       
       
 
-      ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
@@ -36,7 +36,7 @@ metaxa
    :depends blast: ``2.2.*``
    :depends hmmer: ``3.1.*``
    :depends mafft: ``7.*``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends vsearch: ``2.7.0.*``
    :requirements:
 
@@ -69,7 +69,7 @@ metaxa
 
     <script>
         var package = "metaxa";
-        var versions = ["2.2","2.2","2.2"];
+        var versions = ["2.2","2.2","2.2","2.2"];
     </script>
 
 

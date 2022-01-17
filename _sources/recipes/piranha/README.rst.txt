@@ -26,16 +26,24 @@ piranha
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.1-9``,  ``1.2.1-8``,  ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.1-10</code>,  <code>1.2.1-9</code>,  <code>1.2.1-8</code>,  <code>1.2.1-7</code>,  <code>1.2.1-6</code>,  <code>1.2.1-5</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  </span></summary>
+      
 
+      ``1.2.1-10``,  ``1.2.1-9``,  ``1.2.1-8``,  ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bamtools: ``>=2.5.1,<2.5.2.0a0``
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends python_abi: ``2.7.* *_cp27mu``
    :requirements:
 
