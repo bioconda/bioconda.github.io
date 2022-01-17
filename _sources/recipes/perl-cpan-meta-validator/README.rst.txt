@@ -27,12 +27,12 @@ perl-cpan-meta-validator
       
       
 
-      ``2.140640-1``,  ``2.140640-0``
+      ``2.140640-2``,  ``2.140640-1``,  ``2.140640-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-cpan-meta-validator
 
     <script>
         var package = "perl-cpan-meta-validator";
-        var versions = ["2.140640","2.140640"];
+        var versions = ["2.140640","2.140640","2.140640"];
     </script>
 
 

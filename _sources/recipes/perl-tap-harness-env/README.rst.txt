@@ -27,12 +27,12 @@ perl-tap-harness-env
       
       
 
-      ``3.30-1``,  ``3.30-0``
+      ``3.30-2``,  ``3.30-1``,  ``3.30-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-tap-harness-env
 
     <script>
         var package = "perl-tap-harness-env";
-        var versions = ["3.30","3.30"];
+        var versions = ["3.30","3.30","3.30"];
     </script>
 
 

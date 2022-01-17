@@ -27,12 +27,12 @@ perl-role-tiny-with
       
       
 
-      ``2.000005-1``,  ``2.000005-0``
+      ``2.000005-2``,  ``2.000005-1``,  ``2.000005-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-role-tiny-with
 
     <script>
         var package = "perl-role-tiny-with";
-        var versions = ["2.000005","2.000005"];
+        var versions = ["2.000005","2.000005","2.000005"];
     </script>
 
 

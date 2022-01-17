@@ -27,12 +27,12 @@ perl-vars
       
       
 
-      ``1.03-1``,  ``1.03-0``
+      ``1.03-2``,  ``1.03-1``,  ``1.03-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-vars
 
     <script>
         var package = "perl-vars";
-        var versions = ["1.03","1.03"];
+        var versions = ["1.03","1.03","1.03"];
     </script>
 
 

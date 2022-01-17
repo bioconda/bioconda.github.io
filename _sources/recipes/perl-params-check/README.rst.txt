@@ -27,12 +27,12 @@ perl-params-check
       
       
 
-      ``0.38-1``,  ``0.38-0``
+      ``0.38-2``,  ``0.38-1``,  ``0.38-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-params-check
 
     <script>
         var package = "perl-params-check";
-        var versions = ["0.38","0.38"];
+        var versions = ["0.38","0.38","0.38"];
     </script>
 
 

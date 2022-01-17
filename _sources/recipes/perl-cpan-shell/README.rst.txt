@@ -27,12 +27,12 @@ perl-cpan-shell
       
       
 
-      ``5.5004-1``,  ``5.5004-0``
+      ``5.5004-2``,  ``5.5004-1``,  ``5.5004-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-cpan-shell
 
     <script>
         var package = "perl-cpan-shell";
-        var versions = ["5.5004","5.5004"];
+        var versions = ["5.5004","5.5004","5.5004"];
     </script>
 
 

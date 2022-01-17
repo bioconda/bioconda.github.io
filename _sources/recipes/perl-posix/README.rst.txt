@@ -27,12 +27,12 @@ perl-posix
       
       
 
-      ``1.38_03-1``,  ``1.38_03-0``
+      ``1.38_03-2``,  ``1.38_03-1``,  ``1.38_03-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-posix
 
     <script>
         var package = "perl-posix";
-        var versions = ["1.38_03","1.38_03"];
+        var versions = ["1.38_03","1.38_03","1.38_03"];
     </script>
 
 

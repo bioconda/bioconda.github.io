@@ -27,12 +27,12 @@ perl-mime-quotedprint
       
       
 
-      ``3.13-1``,  ``3.13-0``
+      ``3.13-2``,  ``3.13-1``,  ``3.13-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-mime-quotedprint
 
     <script>
         var package = "perl-mime-quotedprint";
-        var versions = ["3.13","3.13"];
+        var versions = ["3.13","3.13","3.13"];
     </script>
 
 

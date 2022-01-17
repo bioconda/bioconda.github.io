@@ -27,12 +27,12 @@ perl-net-ftp
       
       
 
-      ``2.79-1``,  ``2.79-0``
+      ``2.79-2``,  ``2.79-1``,  ``2.79-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-net-ftp
 
     <script>
         var package = "perl-net-ftp";
-        var versions = ["2.79","2.79"];
+        var versions = ["2.79","2.79","2.79"];
     </script>
 
 

@@ -27,7 +27,7 @@ smoothxg
       
       
 
-      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
+      ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
 
@@ -36,7 +36,7 @@ smoothxg
    :depends libjemalloc: ``>=5.2.1``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends zstd: ``>=1.4.9,<1.5.0a0``
+   :depends zstd: ``>=1.5.1,<1.6.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ smoothxg
 
     <script>
         var package = "smoothxg";
-        var versions = ["0.6.1","0.6.0","0.5.2"];
+        var versions = ["0.6.1","0.6.1","0.6.0","0.5.2"];
     </script>
 
 

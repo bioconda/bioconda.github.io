@@ -27,13 +27,12 @@ perl-statistics-caseresampling
       
       
 
-      ``0.15-0``
+      ``0.15-1``,  ``0.15-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ perl-statistics-caseresampling
 
     <script>
         var package = "perl-statistics-caseresampling";
-        var versions = ["0.15"];
+        var versions = ["0.15","0.15"];
     </script>
 
 

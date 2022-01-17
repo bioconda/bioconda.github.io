@@ -27,12 +27,12 @@ perl-digest-sha
       
       
 
-      ``5.88-1``,  ``5.88-0``
+      ``5.88-2``,  ``5.88-1``,  ``5.88-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-digest-sha
 
     <script>
         var package = "perl-digest-sha";
-        var versions = ["5.88","5.88"];
+        var versions = ["5.88","5.88","5.88"];
     </script>
 
 

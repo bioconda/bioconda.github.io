@@ -27,12 +27,12 @@ perl-time-piece
       
       
 
-      ``1.27-1``,  ``1.27-0``
+      ``1.27-2``,  ``1.27-1``,  ``1.27-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-time-piece
 
     <script>
         var package = "perl-time-piece";
-        var versions = ["1.27","1.27"];
+        var versions = ["1.27","1.27","1.27"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-blib
       
       
 
-      ``1.06-1``,  ``1.06-0``
+      ``1.06-2``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-blib
 
     <script>
         var package = "perl-blib";
-        var versions = ["1.06","1.06"];
+        var versions = ["1.06","1.06","1.06"];
     </script>
 
 

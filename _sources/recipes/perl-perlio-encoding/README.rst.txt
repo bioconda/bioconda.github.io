@@ -27,12 +27,12 @@ perl-perlio-encoding
       
       
 
-      ``0.18-1``,  ``0.18-0``
+      ``0.18-2``,  ``0.18-1``,  ``0.18-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-perlio-encoding
 
     <script>
         var package = "perl-perlio-encoding";
-        var versions = ["0.18","0.18"];
+        var versions = ["0.18","0.18","0.18"];
     </script>
 
 

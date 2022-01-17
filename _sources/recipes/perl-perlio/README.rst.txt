@@ -27,12 +27,12 @@ perl-perlio
       
       
 
-      ``1.09-1``,  ``1.09-0``
+      ``1.09-2``,  ``1.09-1``,  ``1.09-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-perlio
 
     <script>
         var package = "perl-perlio";
-        var versions = ["1.09","1.09"];
+        var versions = ["1.09","1.09","1.09"];
     </script>
 
 

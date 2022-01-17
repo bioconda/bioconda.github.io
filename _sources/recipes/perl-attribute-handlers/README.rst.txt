@@ -27,12 +27,12 @@ perl-attribute-handlers
       
       
 
-      ``0.96-2``,  ``0.96-1``,  ``0.96-0``
+      ``0.96-3``,  ``0.96-2``,  ``0.96-1``,  ``0.96-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-attribute-handlers
 
     <script>
         var package = "perl-attribute-handlers";
-        var versions = ["0.96","0.96","0.96"];
+        var versions = ["0.96","0.96","0.96","0.96"];
     </script>
 
 
