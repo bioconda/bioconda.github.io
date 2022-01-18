@@ -33,15 +33,14 @@ sgcocaller
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends f2c: 
    :depends htslib: ``>=1.14,<1.15.0a0``
-   :depends libcxx: ``>=11.1.0``
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends llvm-openmp: ``>=11.1.0``
-   :depends llvm-openmp: ``>=12.0.1``
    :depends pcre: ``>=8.45,<9.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
