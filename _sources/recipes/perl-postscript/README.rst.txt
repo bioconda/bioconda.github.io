@@ -27,12 +27,12 @@ perl-postscript
       
       
 
-      ``0.06-2``,  ``0.06-1``,  ``0.06-0``
+      ``0.06-3``,  ``0.06-2``,  ``0.06-1``,  ``0.06-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-postscript
 
     <script>
         var package = "perl-postscript";
-        var versions = ["0.06","0.06","0.06"];
+        var versions = ["0.06","0.06","0.06","0.06"];
     </script>
 
 

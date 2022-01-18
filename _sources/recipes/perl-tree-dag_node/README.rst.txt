@@ -27,12 +27,12 @@ perl-tree-dag_node
       
       
 
-      ``1.31-0``,  ``1.29-2``,  ``1.29-1``,  ``1.29-0``
+      ``1.31-1``,  ``1.31-0``,  ``1.29-2``,  ``1.29-1``,  ``1.29-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-slurp-tiny: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-tree-dag_node
 
     <script>
         var package = "perl-tree-dag_node";
-        var versions = ["1.31","1.29","1.29","1.29"];
+        var versions = ["1.31","1.31","1.29","1.29","1.29"];
     </script>
 
 

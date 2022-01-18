@@ -27,14 +27,13 @@ perl-digest-sha1
       
       
 
-      ``2.13-1``,  ``2.13-0``
+      ``2.13-2``,  ``2.13-1``,  ``2.13-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +65,7 @@ perl-digest-sha1
 
     <script>
         var package = "perl-digest-sha1";
-        var versions = ["2.13","2.13"];
+        var versions = ["2.13","2.13","2.13"];
     </script>
 
 

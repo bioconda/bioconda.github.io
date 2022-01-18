@@ -27,13 +27,13 @@ perl-test-leaktrace
       
       
 
-      ``0.16-2``,  ``0.16-1``,  ``0.16-0``,  ``0.15-1``,  ``0.15-0``
+      ``0.16-3``,  ``0.16-2``,  ``0.16-1``,  ``0.16-0``,  ``0.15-1``,  ``0.15-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ perl-test-leaktrace
 
     <script>
         var package = "perl-test-leaktrace";
-        var versions = ["0.16","0.16","0.16","0.15","0.15"];
+        var versions = ["0.16","0.16","0.16","0.16","0.15"];
     </script>
 
 

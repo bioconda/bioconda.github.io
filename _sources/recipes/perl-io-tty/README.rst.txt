@@ -27,12 +27,13 @@ perl-io-tty
       
       
 
-      ``1.12-1``,  ``1.12-0``
+      ``1.12-2``,  ``1.12-1``,  ``1.12-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +65,7 @@ perl-io-tty
 
     <script>
         var package = "perl-io-tty";
-        var versions = ["1.12","1.12"];
+        var versions = ["1.12","1.12","1.12"];
     </script>
 
 

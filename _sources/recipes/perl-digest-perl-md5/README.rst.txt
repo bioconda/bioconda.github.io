@@ -27,12 +27,12 @@ perl-digest-perl-md5
       
       
 
-      ``1.9-1``,  ``1.9-0``
+      ``1.9-2``,  ``1.9-1``,  ``1.9-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-digest-perl-md5
 
     <script>
         var package = "perl-digest-perl-md5";
-        var versions = ["1.9","1.9"];
+        var versions = ["1.9","1.9","1.9"];
     </script>
 
 

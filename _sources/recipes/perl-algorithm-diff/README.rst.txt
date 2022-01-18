@@ -27,12 +27,12 @@ perl-algorithm-diff
       
       
 
-      ``1.1903-2``,  ``1.1903-1``,  ``1.1903-0``
+      ``1.1903-3``,  ``1.1903-2``,  ``1.1903-1``,  ``1.1903-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-algorithm-diff
 
     <script>
         var package = "perl-algorithm-diff";
-        var versions = ["1.1903","1.1903","1.1903"];
+        var versions = ["1.1903","1.1903","1.1903","1.1903"];
     </script>
 
 

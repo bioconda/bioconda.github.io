@@ -27,12 +27,12 @@ perl-net-ftp-recursive
       
       
 
-      ``2.04-2``,  ``2.04-1``,  ``2.04-0``
+      ``2.04-3``,  ``2.04-2``,  ``2.04-1``,  ``2.04-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-net-ftp: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-net-ftp-recursive
 
     <script>
         var package = "perl-net-ftp-recursive";
-        var versions = ["2.04","2.04","2.04"];
+        var versions = ["2.04","2.04","2.04","2.04"];
     </script>
 
 

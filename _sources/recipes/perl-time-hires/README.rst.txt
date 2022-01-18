@@ -28,10 +28,10 @@ perl-time-hires
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9760-1</code>,  <code>1.9760-0</code>,  <code>1.9758-1</code>,  <code>1.9758-0</code>,  <code>1.9728-5</code>,  <code>1.9728-4</code>,  <code>1.9728-2</code>,  <code>1.9728-1</code>,  <code>1.9728-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9760-2</code>,  <code>1.9760-1</code>,  <code>1.9760-0</code>,  <code>1.9758-1</code>,  <code>1.9758-0</code>,  <code>1.9728-5</code>,  <code>1.9728-4</code>,  <code>1.9728-2</code>,  <code>1.9728-1</code>,  </span></summary>
       
 
-      ``1.9760-1``,  ``1.9760-0``,  ``1.9758-1``,  ``1.9758-0``,  ``1.9728-5``,  ``1.9728-4``,  ``1.9728-2``,  ``1.9728-1``,  ``1.9728-0``,  ``1.9726-0``
+      ``1.9760-2``,  ``1.9760-1``,  ``1.9760-0``,  ``1.9758-1``,  ``1.9758-0``,  ``1.9728-5``,  ``1.9728-4``,  ``1.9728-2``,  ``1.9728-1``,  ``1.9728-0``,  ``1.9726-0``
 
       
       .. raw:: html
@@ -40,8 +40,7 @@ perl-time-hires
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-extutils-makemaker: 
@@ -77,7 +76,7 @@ perl-time-hires
 
     <script>
         var package = "perl-time-hires";
-        var versions = ["1.9760","1.9760","1.9758","1.9758","1.9728"];
+        var versions = ["1.9760","1.9760","1.9760","1.9758","1.9758"];
     </script>
 
 

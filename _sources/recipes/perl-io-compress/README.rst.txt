@@ -26,15 +26,22 @@ perl-io-compress
    :versions:
       
       
+      .. raw:: html
 
-      ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-5``,  ``2.069-4``,  ``2.069-2``,  ``2.069-1``
+         <details><summary><span class="truncated-version-list"><code>2.087-1</code>,  <code>2.087-0</code>,  <code>2.086-0</code>,  <code>2.084-0</code>,  <code>2.083-0</code>,  <code>2.081-0</code>,  <code>2.069-5</code>,  <code>2.069-4</code>,  <code>2.069-2</code>,  </span></summary>
+      
 
+      ``2.087-1``,  ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-5``,  ``2.069-4``,  ``2.069-2``,  ``2.069-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-compress-raw-bzip2: ``>=2.087``
    :depends perl-compress-raw-zlib: ``>=2.087``
    :depends perl-scalar-list-utils: 
@@ -69,7 +76,7 @@ perl-io-compress
 
     <script>
         var package = "perl-io-compress";
-        var versions = ["2.087","2.086","2.084","2.083","2.081"];
+        var versions = ["2.087","2.087","2.086","2.084","2.083"];
     </script>
 
 

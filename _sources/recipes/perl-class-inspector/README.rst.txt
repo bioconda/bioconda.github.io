@@ -27,12 +27,12 @@ perl-class-inspector
       
       
 
-      ``1.34-0``,  ``1.32-1``,  ``1.32-0``,  ``1.28-2``,  ``1.28-1``,  ``1.28-0``
+      ``1.34-1``,  ``1.34-0``,  ``1.32-1``,  ``1.32-0``,  ``1.28-2``,  ``1.28-1``,  ``1.28-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-class-inspector
 
     <script>
         var package = "perl-class-inspector";
-        var versions = ["1.34","1.32","1.32","1.28","1.28"];
+        var versions = ["1.34","1.34","1.32","1.32","1.28"];
     </script>
 
 

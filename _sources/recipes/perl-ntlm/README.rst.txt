@@ -27,12 +27,12 @@ perl-ntlm
       
       
 
-      ``1.09-4``,  ``1.09-3``,  ``1.09-2``,  ``1.09-1``
+      ``1.09-5``,  ``1.09-4``,  ``1.09-3``,  ``1.09-2``,  ``1.09-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-digest-hmac: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-ntlm
 
     <script>
         var package = "perl-ntlm";
-        var versions = ["1.09","1.09","1.09","1.09"];
+        var versions = ["1.09","1.09","1.09","1.09","1.09"];
     </script>
 
 

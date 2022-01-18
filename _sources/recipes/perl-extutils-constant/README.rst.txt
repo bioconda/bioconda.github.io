@@ -27,13 +27,12 @@ perl-extutils-constant
       
       
 
-      ``0.25-0``,  ``0.24-1``,  ``0.24-0``
+      ``0.25-1``,  ``0.25-0``,  ``0.24-1``,  ``0.24-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ perl-extutils-constant
 
     <script>
         var package = "perl-extutils-constant";
-        var versions = ["0.25","0.24","0.24"];
+        var versions = ["0.25","0.25","0.24","0.24"];
     </script>
 
 

@@ -27,15 +27,15 @@ msproteomicstools
       
       
 
-      ``0.11.0-2``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.11.0-3``,  ``0.11.0-2``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
    :depends biopython: 
    :depends configobj: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends lxml: 
    :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pymzml: ``0.7.8``
@@ -45,6 +45,7 @@ msproteomicstools
    :depends python_abi: ``2.7.* *_cp27mu``
    :depends scikits-datasmooth: 
    :depends scipy: 
+   :depends statsmodels: 
    :depends xlsxwriter: ``>=0.5.3``
    :depends xlwt: 
    :requirements:
@@ -78,7 +79,7 @@ msproteomicstools
 
     <script>
         var package = "msproteomicstools";
-        var versions = ["0.11.0","0.11.0","0.11.0","0.8.0","0.8.0"];
+        var versions = ["0.11.0","0.11.0","0.11.0","0.11.0","0.8.0"];
     </script>
 
 

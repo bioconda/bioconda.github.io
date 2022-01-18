@@ -27,13 +27,14 @@ perl-perlio-gzip
       
       
 
-      ``0.20-1``,  ``0.20-0``,  ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+      ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -66,7 +67,7 @@ perl-perlio-gzip
 
     <script>
         var package = "perl-perlio-gzip";
-        var versions = ["0.20","0.20","0.19","0.19","0.19"];
+        var versions = ["0.20","0.20","0.20","0.19","0.19"];
     </script>
 
 

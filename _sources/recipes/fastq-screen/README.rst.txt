@@ -28,10 +28,10 @@ fastq-screen
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.0-1</code>,  <code>0.14.0-0</code>,  <code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.11.3-1</code>,  <code>0.11.3-0</code>,  <code>0.11.1-1</code>,  <code>0.11.1-0</code>,  <code>0.5.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.0-2</code>,  <code>0.14.0-1</code>,  <code>0.14.0-0</code>,  <code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.11.3-1</code>,  <code>0.11.3-0</code>,  <code>0.11.1-1</code>,  <code>0.11.1-0</code>,  </span></summary>
       
 
-      ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.11.3-1``,  ``0.11.3-0``,  ``0.11.1-1``,  ``0.11.1-0``,  ``0.5.2-1``,  ``0.5.2-0``
+      ``0.14.0-2``,  ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.11.3-1``,  ``0.11.3-0``,  ``0.11.1-1``,  ``0.11.1-0``,  ``0.5.2-1``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ fastq-screen
    
    :depends bowtie: 
    :depends bowtie2: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-gdgraph: 
    :requirements:
 
@@ -75,7 +75,7 @@ fastq-screen
 
     <script>
         var package = "fastq-screen";
-        var versions = ["0.14.0","0.14.0","0.13.0","0.13.0","0.11.3"];
+        var versions = ["0.14.0","0.14.0","0.14.0","0.13.0","0.13.0"];
     </script>
 
 

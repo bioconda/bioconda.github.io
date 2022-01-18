@@ -27,12 +27,12 @@ perl-io-zlib
       
       
 
-      ``1.10-2``,  ``1.10-1``
+      ``1.10-3``,  ``1.10-2``,  ``1.10-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-io-zlib
 
     <script>
         var package = "perl-io-zlib";
-        var versions = ["1.10","1.10"];
+        var versions = ["1.10","1.10","1.10"];
     </script>
 
 

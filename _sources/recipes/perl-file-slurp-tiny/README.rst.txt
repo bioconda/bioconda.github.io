@@ -27,12 +27,12 @@ perl-file-slurp-tiny
       
       
 
-      ``0.004-1``,  ``0.004-0``
+      ``0.004-2``,  ``0.004-1``,  ``0.004-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-file-slurp-tiny
 
     <script>
         var package = "perl-file-slurp-tiny";
-        var versions = ["0.004","0.004"];
+        var versions = ["0.004","0.004","0.004"];
     </script>
 
 

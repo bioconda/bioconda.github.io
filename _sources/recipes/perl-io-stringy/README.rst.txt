@@ -27,12 +27,12 @@ perl-io-stringy
       
       
 
-      ``2.111-1``,  ``2.111-0``
+      ``2.111-2``,  ``2.111-1``,  ``2.111-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-io-stringy
 
     <script>
         var package = "perl-io-stringy";
-        var versions = ["2.111","2.111"];
+        var versions = ["2.111","2.111","2.111"];
     </script>
 
 

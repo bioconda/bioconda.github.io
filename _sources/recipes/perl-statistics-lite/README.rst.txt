@@ -27,12 +27,12 @@ perl-statistics-lite
       
       
 
-      ``3.62-1``,  ``3.62-0``
+      ``3.62-2``,  ``3.62-1``,  ``3.62-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-statistics-lite
 
     <script>
         var package = "perl-statistics-lite";
-        var versions = ["3.62","3.62"];
+        var versions = ["3.62","3.62","3.62"];
     </script>
 
 

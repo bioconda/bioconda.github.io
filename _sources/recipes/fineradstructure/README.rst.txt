@@ -27,14 +27,15 @@ fineradstructure
       
       
 
-      ``0.3.2r109-2``,  ``0.3.2r109-1``,  ``0.3.2r109-0``
+      ``0.3.2r109-3``,  ``0.3.2r109-2``,  ``0.3.2r109-1``,  ``0.3.2r109-0``
 
       
 
    
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -67,7 +68,7 @@ fineradstructure
 
     <script>
         var package = "fineradstructure";
-        var versions = ["0.3.2r109","0.3.2r109","0.3.2r109"];
+        var versions = ["0.3.2r109","0.3.2r109","0.3.2r109","0.3.2r109"];
     </script>
 
 

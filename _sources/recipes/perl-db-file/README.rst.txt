@@ -28,10 +28,10 @@ perl-db-file
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.855-0</code>,  <code>1.852-1</code>,  <code>1.852-0</code>,  <code>1.843-0</code>,  <code>1.835-6</code>,  <code>1.835-5</code>,  <code>1.835-4</code>,  <code>1.835-3</code>,  <code>1.835-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.855-1</code>,  <code>1.855-0</code>,  <code>1.852-1</code>,  <code>1.852-0</code>,  <code>1.843-0</code>,  <code>1.835-6</code>,  <code>1.835-5</code>,  <code>1.835-4</code>,  <code>1.835-3</code>,  </span></summary>
       
 
-      ``1.855-0``,  ``1.852-1``,  ``1.852-0``,  ``1.843-0``,  ``1.835-6``,  ``1.835-5``,  ``1.835-4``,  ``1.835-3``,  ``1.835-2``,  ``1.835-1``,  ``1.835-0``
+      ``1.855-1``,  ``1.855-0``,  ``1.852-1``,  ``1.852-0``,  ``1.843-0``,  ``1.835-6``,  ``1.835-5``,  ``1.835-4``,  ``1.835-3``,  ``1.835-2``,  ``1.835-1``,  ``1.835-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ perl-db-file
 
    
    :depends libdb: ``>=6.2.32,<6.3.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +74,7 @@ perl-db-file
 
     <script>
         var package = "perl-db-file";
-        var versions = ["1.855","1.852","1.852","1.843","1.835"];
+        var versions = ["1.855","1.855","1.852","1.852","1.843"];
     </script>
 
 

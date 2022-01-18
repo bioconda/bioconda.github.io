@@ -27,12 +27,12 @@ perl-class-accessor
       
       
 
-      ``0.51-0``,  ``0.34-1``,  ``0.34-0``
+      ``0.51-1``,  ``0.51-0``,  ``0.34-1``,  ``0.34-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-class-accessor
 
     <script>
         var package = "perl-class-accessor";
-        var versions = ["0.51","0.34","0.34"];
+        var versions = ["0.51","0.51","0.34","0.34"];
     </script>
 
 

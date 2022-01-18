@@ -27,13 +27,12 @@ perl-devel-assert
       
       
 
-      ``1.06-1``,  ``1.06-0``
+      ``1.06-2``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ perl-devel-assert
 
     <script>
         var package = "perl-devel-assert";
-        var versions = ["1.06","1.06"];
+        var versions = ["1.06","1.06","1.06"];
     </script>
 
 

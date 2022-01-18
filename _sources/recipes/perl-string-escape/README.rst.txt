@@ -27,12 +27,12 @@ perl-string-escape
       
       
 
-      ``2010.002-0``
+      ``2010.002-1``,  ``2010.002-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-string-escape
 
     <script>
         var package = "perl-string-escape";
-        var versions = ["2010.002"];
+        var versions = ["2010.002","2010.002"];
     </script>
 
 

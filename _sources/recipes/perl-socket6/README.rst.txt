@@ -27,12 +27,13 @@ perl-socket6
       
       
 
-      ``0.29-0``,  ``0.25-1``,  ``0.25-0``
+      ``0.29-1``,  ``0.29-0``,  ``0.25-1``,  ``0.25-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +65,7 @@ perl-socket6
 
     <script>
         var package = "perl-socket6";
-        var versions = ["0.29","0.25","0.25"];
+        var versions = ["0.29","0.29","0.25","0.25"];
     </script>
 
 

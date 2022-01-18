@@ -27,12 +27,12 @@ perl-parent
       
       
 
-      ``0.236-1``,  ``0.236-0``
+      ``0.236-2``,  ``0.236-1``,  ``0.236-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-parent
 
     <script>
         var package = "perl-parent";
-        var versions = ["0.236","0.236"];
+        var versions = ["0.236","0.236","0.236"];
     </script>
 
 

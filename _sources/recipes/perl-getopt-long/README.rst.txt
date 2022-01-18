@@ -27,12 +27,12 @@ perl-getopt-long
       
       
 
-      ``2.50-1``,  ``2.50-0``,  ``2.49-0``
+      ``2.50-2``,  ``2.50-1``,  ``2.50-0``,  ``2.49-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-getopt-long
 
     <script>
         var package = "perl-getopt-long";
-        var versions = ["2.50","2.50","2.49"];
+        var versions = ["2.50","2.50","2.50","2.49"];
     </script>
 
 

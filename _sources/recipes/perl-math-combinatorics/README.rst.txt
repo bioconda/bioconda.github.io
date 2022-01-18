@@ -27,12 +27,12 @@ perl-math-combinatorics
       
       
 
-      ``0.09-1``,  ``0.09-0``
+      ``0.09-2``,  ``0.09-1``,  ``0.09-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-math-combinatorics
 
     <script>
         var package = "perl-math-combinatorics";
-        var versions = ["0.09","0.09"];
+        var versions = ["0.09","0.09","0.09"];
     </script>
 
 

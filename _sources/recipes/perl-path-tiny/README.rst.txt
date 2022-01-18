@@ -26,13 +26,21 @@ perl-path-tiny
    :versions:
       
       
+      .. raw:: html
 
-      ``0.108-0``,  ``0.082-2``,  ``0.082-1``,  ``0.082-0``,  ``0.076-4``,  ``0.076-3``,  ``0.076-2``,  ``0.076-1``,  ``0.076-0``
+         <details><summary><span class="truncated-version-list"><code>0.108-1</code>,  <code>0.108-0</code>,  <code>0.082-2</code>,  <code>0.082-1</code>,  <code>0.082-0</code>,  <code>0.076-4</code>,  <code>0.076-3</code>,  <code>0.076-2</code>,  <code>0.076-1</code>,  </span></summary>
+      
 
+      ``0.108-1``,  ``0.108-0``,  ``0.082-2``,  ``0.082-1``,  ``0.082-0``,  ``0.076-4``,  ``0.076-3``,  ``0.076-2``,  ``0.076-1``,  ``0.076-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +72,7 @@ perl-path-tiny
 
     <script>
         var package = "perl-path-tiny";
-        var versions = ["0.108","0.082","0.082","0.082","0.076"];
+        var versions = ["0.108","0.108","0.082","0.082","0.082"];
     </script>
 
 

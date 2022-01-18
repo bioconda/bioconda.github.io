@@ -27,13 +27,13 @@ perl-termreadkey
       
       
 
-      ``2.38-1``,  ``2.38-0``,  ``2.37-0``,  ``2.32-1``,  ``2.32-0``
+      ``2.38-2``,  ``2.38-1``,  ``2.38-0``,  ``2.37-0``,  ``2.32-1``,  ``2.32-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ perl-termreadkey
 
     <script>
         var package = "perl-termreadkey";
-        var versions = ["2.38","2.38","2.37","2.32","2.32"];
+        var versions = ["2.38","2.38","2.38","2.37","2.32"];
     </script>
 
 

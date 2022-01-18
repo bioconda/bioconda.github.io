@@ -27,12 +27,12 @@ perl-findbin-real
       
       
 
-      ``1.05-0``
+      ``1.05-1``,  ``1.05-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -65,7 +65,7 @@ perl-findbin-real
 
     <script>
         var package = "perl-findbin-real";
-        var versions = ["1.05"];
+        var versions = ["1.05","1.05"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-file-compare
       
       
 
-      ``1.1006-1``,  ``1.1006-0``
+      ``1.1006-2``,  ``1.1006-1``,  ``1.1006-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-file-compare
 
     <script>
         var package = "perl-file-compare";
-        var versions = ["1.1006","1.1006"];
+        var versions = ["1.1006","1.1006","1.1006"];
     </script>
 
 

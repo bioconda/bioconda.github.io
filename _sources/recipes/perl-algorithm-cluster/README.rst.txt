@@ -27,13 +27,12 @@ perl-algorithm-cluster
       
       
 
-      ``1.58-0``,  ``1.57-0``,  ``1.56-0``,  ``1.52-1``,  ``1.52-0``
+      ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.56-0``,  ``1.52-1``,  ``1.52-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ perl-algorithm-cluster
 
     <script>
         var package = "perl-algorithm-cluster";
-        var versions = ["1.58","1.57","1.56","1.52","1.52"];
+        var versions = ["1.58","1.58","1.57","1.56","1.52"];
     </script>
 
 

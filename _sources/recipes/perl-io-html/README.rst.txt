@@ -27,12 +27,12 @@ perl-io-html
       
       
 
-      ``1.001-2``,  ``1.001-1``,  ``1.001-0``
+      ``1.001-3``,  ``1.001-2``,  ``1.001-1``,  ``1.001-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-io-html
 
     <script>
         var package = "perl-io-html";
-        var versions = ["1.001","1.001","1.001"];
+        var versions = ["1.001","1.001","1.001","1.001"];
     </script>
 
 

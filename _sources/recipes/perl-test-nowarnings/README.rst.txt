@@ -27,12 +27,12 @@ perl-test-nowarnings
       
       
 
-      ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
+      ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-test-nowarnings
 
     <script>
         var package = "perl-test-nowarnings";
-        var versions = ["1.04","1.04","1.04","1.04"];
+        var versions = ["1.04","1.04","1.04","1.04","1.04"];
     </script>
 
 

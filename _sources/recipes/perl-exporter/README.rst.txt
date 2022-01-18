@@ -27,12 +27,12 @@ perl-exporter
       
       
 
-      ``5.72-1``,  ``5.72-0``
+      ``5.72-2``,  ``5.72-1``,  ``5.72-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-exporter
 
     <script>
         var package = "perl-exporter";
-        var versions = ["5.72","5.72"];
+        var versions = ["5.72","5.72","5.72"];
     </script>
 
 

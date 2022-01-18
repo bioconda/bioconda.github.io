@@ -27,13 +27,13 @@ perl-bloom-faster
       
       
 
-      ``1.7-2``,  ``1.7-1``,  ``1.7-0``
+      ``1.7-3``,  ``1.7-2``,  ``1.7-1``,  ``1.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ perl-bloom-faster
 
     <script>
         var package = "perl-bloom-faster";
-        var versions = ["1.7","1.7","1.7"];
+        var versions = ["1.7","1.7","1.7","1.7"];
     </script>
 
 

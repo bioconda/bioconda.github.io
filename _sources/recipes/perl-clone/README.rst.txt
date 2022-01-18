@@ -27,13 +27,13 @@ perl-clone
       
       
 
-      ``0.42-0``,  ``0.41-1``,  ``0.41-0``,  ``0.39-0``,  ``0.38-1``,  ``0.38-0``
+      ``0.42-1``,  ``0.42-0``,  ``0.41-1``,  ``0.41-0``,  ``0.39-0``,  ``0.38-1``,  ``0.38-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-autoloader: 
    :depends perl-dynaloader: 
    :depends perl-exporter: 
@@ -68,7 +68,7 @@ perl-clone
 
     <script>
         var package = "perl-clone";
-        var versions = ["0.42","0.41","0.41","0.39","0.38"];
+        var versions = ["0.42","0.42","0.41","0.41","0.39"];
     </script>
 
 

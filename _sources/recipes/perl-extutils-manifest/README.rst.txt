@@ -27,12 +27,12 @@ perl-extutils-manifest
       
       
 
-      ``1.72-0``,  ``1.71-0``,  ``1.70-2``,  ``1.70-1``,  ``1.70-0``
+      ``1.72-1``,  ``1.72-0``,  ``1.71-0``,  ``1.70-2``,  ``1.70-1``,  ``1.70-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-extutils-manifest
 
     <script>
         var package = "perl-extutils-manifest";
-        var versions = ["1.72","1.71","1.70","1.70","1.70"];
+        var versions = ["1.72","1.72","1.71","1.70","1.70"];
     </script>
 
 

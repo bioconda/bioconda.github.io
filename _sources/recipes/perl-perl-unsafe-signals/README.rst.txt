@@ -27,14 +27,14 @@ perl-perl-unsafe-signals
       
       
 
-      ``0.03-3``,  ``0.03-2``,  ``0.03-1``,  ``0.03-0``
+      ``0.03-4``,  ``0.03-3``,  ``0.03-2``,  ``0.03-1``,  ``0.03-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ perl-perl-unsafe-signals
 
     <script>
         var package = "perl-perl-unsafe-signals";
-        var versions = ["0.03","0.03","0.03","0.03"];
+        var versions = ["0.03","0.03","0.03","0.03","0.03"];
     </script>
 
 

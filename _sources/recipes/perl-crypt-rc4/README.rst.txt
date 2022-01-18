@@ -27,12 +27,12 @@ perl-crypt-rc4
       
       
 
-      ``2.02-1``,  ``2.02-0``
+      ``2.02-2``,  ``2.02-1``,  ``2.02-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-crypt-rc4
 
     <script>
         var package = "perl-crypt-rc4";
-        var versions = ["2.02","2.02"];
+        var versions = ["2.02","2.02","2.02"];
     </script>
 
 

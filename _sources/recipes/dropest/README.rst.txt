@@ -27,16 +27,17 @@ dropest
       
       
 
-      ``0.8.6-2``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``
+      ``0.8.6-3``,  ``0.8.6-2``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``
 
       
 
    
    :depends boost: ``>=1.74.0,<1.74.1.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ks: 
@@ -79,7 +80,7 @@ dropest
 
     <script>
         var package = "dropest";
-        var versions = ["0.8.6","0.8.6","0.8.6","0.8.5","0.8.5"];
+        var versions = ["0.8.6","0.8.6","0.8.6","0.8.6","0.8.5"];
     </script>
 
 

@@ -27,14 +27,13 @@ perl-data-uuid
       
       
 
-      ``1.224-0``,  ``1.221-5``,  ``1.221-4``,  ``1.221-3``,  ``1.221-2``,  ``1.221-1``,  ``1.221-0``
+      ``1.224-1``,  ``1.224-0``,  ``1.221-5``,  ``1.221-4``,  ``1.221-3``,  ``1.221-2``,  ``1.221-1``,  ``1.221-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libcxx: ``>=11.1.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-digest-md5: 
    :requirements:
 
@@ -67,7 +66,7 @@ perl-data-uuid
 
     <script>
         var package = "perl-data-uuid";
-        var versions = ["1.224","1.221","1.221","1.221","1.221"];
+        var versions = ["1.224","1.224","1.221","1.221","1.221"];
     </script>
 
 

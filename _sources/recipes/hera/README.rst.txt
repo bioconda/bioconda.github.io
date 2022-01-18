@@ -36,6 +36,7 @@ hera
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
    :depends htslib: ``>=1.14,<1.15.0a0``
    :depends libdivsufsort: 
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends python: 
    :depends xz: ``>=5.2.5,<5.3.0a0``

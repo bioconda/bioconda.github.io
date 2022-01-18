@@ -27,12 +27,12 @@ perl-constant
       
       
 
-      ``1.33-1``,  ``1.33-0``
+      ``1.33-2``,  ``1.33-1``,  ``1.33-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-constant
 
     <script>
         var package = "perl-constant";
-        var versions = ["1.33","1.33"];
+        var versions = ["1.33","1.33","1.33"];
     </script>
 
 

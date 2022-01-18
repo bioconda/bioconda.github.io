@@ -27,12 +27,12 @@ perl-yaml-tiny
       
       
 
-      ``1.73-0``,  ``1.70-1``,  ``1.70-0``
+      ``1.73-1``,  ``1.73-0``,  ``1.70-1``,  ``1.70-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-yaml-tiny
 
     <script>
         var package = "perl-yaml-tiny";
-        var versions = ["1.73","1.70","1.70"];
+        var versions = ["1.73","1.73","1.70","1.70"];
     </script>
 
 

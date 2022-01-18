@@ -27,12 +27,12 @@ perl-digest-hmac
       
       
 
-      ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``
+      ``1.03-4``,  ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-digest-hmac
 
     <script>
         var package = "perl-digest-hmac";
-        var versions = ["1.03","1.03","1.03","1.03"];
+        var versions = ["1.03","1.03","1.03","1.03","1.03"];
     </script>
 
 

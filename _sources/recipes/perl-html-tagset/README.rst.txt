@@ -27,12 +27,12 @@ perl-html-tagset
       
       
 
-      ``3.20-3``,  ``3.20-2``,  ``3.20-1``,  ``3.20-0``
+      ``3.20-4``,  ``3.20-3``,  ``3.20-2``,  ``3.20-1``,  ``3.20-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-html-tagset
 
     <script>
         var package = "perl-html-tagset";
-        var versions = ["3.20","3.20","3.20","3.20"];
+        var versions = ["3.20","3.20","3.20","3.20","3.20"];
     </script>
 
 

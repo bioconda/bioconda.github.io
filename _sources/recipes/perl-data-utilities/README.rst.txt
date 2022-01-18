@@ -27,12 +27,12 @@ perl-data-utilities
       
       
 
-      ``0.04-1``,  ``0.04-0``
+      ``0.04-2``,  ``0.04-1``,  ``0.04-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-clone: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-data-utilities
 
     <script>
         var package = "perl-data-utilities";
-        var versions = ["0.04","0.04"];
+        var versions = ["0.04","0.04","0.04"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-graph
       
       
 
-      ``0.9704-1``,  ``0.9704-0``
+      ``0.9704-2``,  ``0.9704-1``,  ``0.9704-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-graph
 
     <script>
         var package = "perl-graph";
-        var versions = ["0.9704","0.9704"];
+        var versions = ["0.9704","0.9704","0.9704"];
     </script>
 
 

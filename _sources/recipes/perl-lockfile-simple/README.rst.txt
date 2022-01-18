@@ -27,7 +27,7 @@ perl-lockfile-simple
       
       
 
-      ``0.208-0``
+      ``0.208-1``,  ``0.208-0``
 
       
 
@@ -63,7 +63,7 @@ perl-lockfile-simple
 
     <script>
         var package = "perl-lockfile-simple";
-        var versions = ["0.208"];
+        var versions = ["0.208","0.208"];
     </script>
 
 

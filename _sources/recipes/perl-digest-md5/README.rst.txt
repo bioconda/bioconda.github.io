@@ -27,12 +27,12 @@ perl-digest-md5
       
       
 
-      ``2.55-0``,  ``2.52-3``,  ``2.52-2``,  ``2.52-1``,  ``2.52-0``
+      ``2.55-1``,  ``2.55-0``,  ``2.52-3``,  ``2.52-2``,  ``2.52-1``,  ``2.52-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-digest-md5
 
     <script>
         var package = "perl-digest-md5";
-        var versions = ["2.55","2.52","2.52","2.52","2.52"];
+        var versions = ["2.55","2.55","2.52","2.52","2.52"];
     </script>
 
 

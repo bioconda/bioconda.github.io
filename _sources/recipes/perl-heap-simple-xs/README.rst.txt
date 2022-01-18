@@ -27,13 +27,13 @@ perl-heap-simple-xs
       
       
 
-      ``0.10-2``,  ``0.10-1``,  ``0.10-0``
+      ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +65,7 @@ perl-heap-simple-xs
 
     <script>
         var package = "perl-heap-simple-xs";
-        var versions = ["0.10","0.10","0.10"];
+        var versions = ["0.10","0.10","0.10","0.10"];
     </script>
 
 

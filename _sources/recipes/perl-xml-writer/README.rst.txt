@@ -27,12 +27,12 @@ perl-xml-writer
       
       
 
-      ``0.625-2``,  ``0.625-1``,  ``0.625-0``
+      ``0.625-3``,  ``0.625-2``,  ``0.625-1``,  ``0.625-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-xml-writer
 
     <script>
         var package = "perl-xml-writer";
-        var versions = ["0.625","0.625","0.625"];
+        var versions = ["0.625","0.625","0.625","0.625"];
     </script>
 
 

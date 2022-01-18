@@ -27,12 +27,12 @@ perl-test-builder-tester
       
       
 
-      ``1.23_002-1``,  ``1.23_002-0``
+      ``1.23_002-2``,  ``1.23_002-1``,  ``1.23_002-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-test-builder-tester
 
     <script>
         var package = "perl-test-builder-tester";
-        var versions = ["1.23_002","1.23_002"];
+        var versions = ["1.23_002","1.23_002","1.23_002"];
     </script>
 
 

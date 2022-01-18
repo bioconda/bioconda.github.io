@@ -27,12 +27,12 @@ perl-safe
       
       
 
-      ``2.37-1``,  ``2.37-0``
+      ``2.37-2``,  ``2.37-1``,  ``2.37-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-safe
 
     <script>
         var package = "perl-safe";
-        var versions = ["2.37","2.37"];
+        var versions = ["2.37","2.37","2.37"];
     </script>
 
 

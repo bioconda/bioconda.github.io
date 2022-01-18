@@ -28,7 +28,7 @@ r-acidgsea
       
       
 
-      ``0.6.4-0``
+      ``0.6.4-1``,  ``0.6.4-0``
 
       
 
@@ -74,7 +74,7 @@ r-acidgsea
 
     <script>
         var package = "r-acidgsea";
-        var versions = ["0.6.4"];
+        var versions = ["0.6.4","0.6.4"];
     </script>
 
 

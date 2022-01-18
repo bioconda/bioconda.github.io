@@ -27,14 +27,14 @@ perl-unicode-map
       
       
 
-      ``0.112-3``,  ``0.112-2``,  ``0.112-1``,  ``0.112-0``
+      ``0.112-4``,  ``0.112-3``,  ``0.112-2``,  ``0.112-1``,  ``0.112-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ perl-unicode-map
 
     <script>
         var package = "perl-unicode-map";
-        var versions = ["0.112","0.112","0.112","0.112"];
+        var versions = ["0.112","0.112","0.112","0.112","0.112"];
     </script>
 
 

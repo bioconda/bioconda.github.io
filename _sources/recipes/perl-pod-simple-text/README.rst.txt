@@ -27,12 +27,12 @@ perl-pod-simple-text
       
       
 
-      ``3.28-1``,  ``3.28-0``
+      ``3.28-2``,  ``3.28-1``,  ``3.28-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-pod-simple-text
 
     <script>
         var package = "perl-pod-simple-text";
-        var versions = ["3.28","3.28"];
+        var versions = ["3.28","3.28","3.28"];
     </script>
 
 

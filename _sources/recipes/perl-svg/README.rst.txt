@@ -27,12 +27,12 @@ perl-svg
       
       
 
-      ``2.84-0``,  ``2.64-2``,  ``2.64-1``,  ``2.64-0``
+      ``2.84-1``,  ``2.84-0``,  ``2.64-2``,  ``2.64-1``,  ``2.64-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-svg
 
     <script>
         var package = "perl-svg";
-        var versions = ["2.84","2.64","2.64","2.64"];
+        var versions = ["2.84","2.84","2.64","2.64","2.64"];
     </script>
 
 
