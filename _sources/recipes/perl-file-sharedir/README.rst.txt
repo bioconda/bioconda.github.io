@@ -27,12 +27,12 @@ perl-file-sharedir
       
       
 
-      ``1.116-1``,  ``1.116-0``,  ``1.102-4``,  ``1.102-3``,  ``1.102-2``,  ``1.102-1``,  ``1.102-0``
+      ``1.116-2``,  ``1.116-1``,  ``1.116-0``,  ``1.102-4``,  ``1.102-3``,  ``1.102-2``,  ``1.102-1``,  ``1.102-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-class-inspector: 
    :requirements:
@@ -66,7 +66,7 @@ perl-file-sharedir
 
     <script>
         var package = "perl-file-sharedir";
-        var versions = ["1.116","1.116","1.102","1.102","1.102"];
+        var versions = ["1.116","1.116","1.116","1.102","1.102"];
     </script>
 
 

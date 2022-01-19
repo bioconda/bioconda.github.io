@@ -27,12 +27,12 @@ perl-text-diff
       
       
 
-      ``1.45-0``,  ``1.44-2``,  ``1.44-1``,  ``1.44-0``
+      ``1.45-1``,  ``1.45-0``,  ``1.44-2``,  ``1.44-1``,  ``1.44-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-algorithm-diff: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-text-diff
 
     <script>
         var package = "perl-text-diff";
-        var versions = ["1.45","1.44","1.44","1.44"];
+        var versions = ["1.45","1.45","1.44","1.44","1.44"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-exception-class
       
       
 
-      ``1.44-0``,  ``1.40-2``,  ``1.40-1``,  ``1.40-0``
+      ``1.44-1``,  ``1.44-0``,  ``1.40-2``,  ``1.40-1``,  ``1.40-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-class-data-inheritable: 
    :depends perl-devel-stacktrace: 
    :requirements:
@@ -66,7 +66,7 @@ perl-exception-class
 
     <script>
         var package = "perl-exception-class";
-        var versions = ["1.44","1.40","1.40","1.40"];
+        var versions = ["1.44","1.44","1.40","1.40","1.40"];
     </script>
 
 

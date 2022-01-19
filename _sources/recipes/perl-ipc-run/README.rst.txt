@@ -27,12 +27,12 @@ perl-ipc-run
       
       
 
-      ``20180523.0-0``,  ``0.94-1``,  ``0.94-0``
+      ``20180523.0-1``,  ``20180523.0-0``,  ``0.94-1``,  ``0.94-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-io-tty: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-ipc-run
 
     <script>
         var package = "perl-ipc-run";
-        var versions = ["20180523.0","0.94","0.94"];
+        var versions = ["20180523.0","20180523.0","0.94","0.94"];
     </script>
 
 

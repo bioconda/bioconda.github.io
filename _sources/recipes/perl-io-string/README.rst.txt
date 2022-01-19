@@ -27,12 +27,12 @@ perl-io-string
       
       
 
-      ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+      ``1.08-4``,  ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-io-string
 
     <script>
         var package = "perl-io-string";
-        var versions = ["1.08","1.08","1.08","1.08"];
+        var versions = ["1.08","1.08","1.08","1.08","1.08"];
     </script>
 
 

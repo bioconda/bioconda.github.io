@@ -27,12 +27,12 @@ perl-lib
       
       
 
-      ``0.63-1``,  ``0.63-0``
+      ``0.63-2``,  ``0.63-1``,  ``0.63-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-lib
 
     <script>
         var package = "perl-lib";
-        var versions = ["0.63","0.63"];
+        var versions = ["0.63","0.63","0.63"];
     </script>
 
 

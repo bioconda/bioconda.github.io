@@ -27,12 +27,12 @@ perl-module-load
       
       
 
-      ``0.32-1``,  ``0.32-0``
+      ``0.34-0``,  ``0.32-1``,  ``0.32-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-module-load
 
     <script>
         var package = "perl-module-load";
-        var versions = ["0.32","0.32"];
+        var versions = ["0.34","0.32","0.32"];
     </script>
 
 

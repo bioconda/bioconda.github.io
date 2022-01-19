@@ -27,16 +27,16 @@ igblast-parser
       
       
 
-      ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation
@@ -68,7 +68,7 @@ igblast-parser
 
     <script>
         var package = "igblast-parser";
-        var versions = ["0.0.4","0.0.4","0.0.3"];
+        var versions = ["0.0.4","0.0.4","0.0.4","0.0.3"];
     </script>
 
 

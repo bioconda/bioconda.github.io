@@ -44,6 +44,7 @@ wiggletools
    :depends htslib: ``>=1.14,<1.15.0a0``
    :depends libbigwig: 
    :depends libcblas: ``>=3.8.0,<4.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation

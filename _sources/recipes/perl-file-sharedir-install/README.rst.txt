@@ -27,12 +27,12 @@ perl-file-sharedir-install
       
       
 
-      ``0.13-0``,  ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``
+      ``0.13-1``,  ``0.13-0``,  ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :requirements:
@@ -66,7 +66,7 @@ perl-file-sharedir-install
 
     <script>
         var package = "perl-file-sharedir-install";
-        var versions = ["0.13","0.10","0.10","0.10","0.10"];
+        var versions = ["0.13","0.13","0.10","0.10","0.10"];
     </script>
 
 

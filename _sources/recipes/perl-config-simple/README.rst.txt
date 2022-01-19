@@ -27,12 +27,12 @@ perl-config-simple
       
       
 
-      ``4.58-1``,  ``4.58-0``
+      ``4.58-2``,  ``4.58-1``,  ``4.58-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-config-simple
 
     <script>
         var package = "perl-config-simple";
-        var versions = ["4.58","4.58"];
+        var versions = ["4.58","4.58","4.58"];
     </script>
 
 

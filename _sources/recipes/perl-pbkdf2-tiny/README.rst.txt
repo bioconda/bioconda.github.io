@@ -27,12 +27,12 @@ perl-pbkdf2-tiny
       
       
 
-      ``0.005-1``,  ``0.005-0``
+      ``0.005-2``,  ``0.005-1``,  ``0.005-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-pbkdf2-tiny
 
     <script>
         var package = "perl-pbkdf2-tiny";
-        var versions = ["0.005","0.005"];
+        var versions = ["0.005","0.005","0.005"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-devel-symdump
       
       
 
-      ``2.18-1``,  ``2.18-0``
+      ``2.18-2``,  ``2.18-1``,  ``2.18-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-devel-symdump
 
     <script>
         var package = "perl-devel-symdump";
-        var versions = ["2.18","2.18"];
+        var versions = ["2.18","2.18","2.18"];
     </script>
 
 

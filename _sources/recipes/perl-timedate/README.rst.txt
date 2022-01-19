@@ -27,12 +27,12 @@ perl-timedate
       
       
 
-      ``2.30-1``,  ``2.30-0``
+      ``2.33-2``,  ``2.30-1``,  ``2.30-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-timedate
 
     <script>
         var package = "perl-timedate";
-        var versions = ["2.30","2.30"];
+        var versions = ["2.33","2.30","2.30"];
     </script>
 
 

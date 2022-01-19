@@ -27,12 +27,12 @@ perl-devel-globaldestruction
       
       
 
-      ``0.14-0``,  ``0.13-2``,  ``0.13-1``,  ``0.13-0``
+      ``0.14-1``,  ``0.14-0``,  ``0.13-2``,  ``0.13-1``,  ``0.13-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-sub-exporter-progressive: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-devel-globaldestruction
 
     <script>
         var package = "perl-devel-globaldestruction";
-        var versions = ["0.14","0.13","0.13","0.13"];
+        var versions = ["0.14","0.14","0.13","0.13","0.13"];
     </script>
 
 

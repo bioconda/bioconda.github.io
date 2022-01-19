@@ -27,12 +27,12 @@ perl-devel-stacktrace
       
       
 
-      ``2.04-0``,  ``2.03-1``,  ``2.03-0``,  ``2.00-0``
+      ``2.04-1``,  ``2.04-0``,  ``2.03-1``,  ``2.03-0``,  ``2.00-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-devel-stacktrace
 
     <script>
         var package = "perl-devel-stacktrace";
-        var versions = ["2.04","2.03","2.03","2.00"];
+        var versions = ["2.04","2.04","2.03","2.03","2.00"];
     </script>
 
 

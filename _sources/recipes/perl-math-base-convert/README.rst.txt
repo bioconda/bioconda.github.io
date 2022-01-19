@@ -27,12 +27,12 @@ perl-math-base-convert
       
       
 
-      ``0.11-1``,  ``0.11-0``
+      ``0.11-2``,  ``0.11-1``,  ``0.11-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-math-base-convert
 
     <script>
         var package = "perl-math-base-convert";
-        var versions = ["0.11","0.11"];
+        var versions = ["0.11","0.11","0.11"];
     </script>
 
 

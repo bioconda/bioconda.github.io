@@ -43,8 +43,9 @@ bioconductor-cohcap
    
    :depends bioconductor-cohcapanno: ``>=1.30.0,<1.31.0``
    :depends libblas: ``>=3.8.0,<4.0a0``
-   :depends libcxx: ``>=11.1.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends liblapack: ``>=3.8.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-bh: 

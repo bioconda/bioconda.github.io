@@ -27,13 +27,12 @@ perl-sereal-encoder
       
       
 
-      ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+      ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ perl-sereal-encoder
 
     <script>
         var package = "perl-sereal-encoder";
-        var versions = ["4.007","4.005","3.015","3.015"];
+        var versions = ["4.007","4.007","4.005","3.015","3.015"];
     </script>
 
 

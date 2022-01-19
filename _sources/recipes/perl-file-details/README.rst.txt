@@ -27,12 +27,12 @@ perl-file-details
       
       
 
-      ``0.003-1``,  ``0.003-0``
+      ``0.003-2``,  ``0.003-1``,  ``0.003-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-class-accessor: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-file-details
 
     <script>
         var package = "perl-file-details";
-        var versions = ["0.003","0.003"];
+        var versions = ["0.003","0.003","0.003"];
     </script>
 
 
