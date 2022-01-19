@@ -27,12 +27,12 @@ perl-pod-coverage
       
       
 
-      ``0.23-3``,  ``0.23-2``,  ``0.23-1``,  ``0.23-0``
+      ``0.23-4``,  ``0.23-3``,  ``0.23-2``,  ``0.23-1``,  ``0.23-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-devel-symdump: 
    :depends perl-pod-parser: 
    :requirements:
@@ -66,7 +66,7 @@ perl-pod-coverage
 
     <script>
         var package = "perl-pod-coverage";
-        var versions = ["0.23","0.23","0.23","0.23"];
+        var versions = ["0.23","0.23","0.23","0.23","0.23"];
     </script>
 
 

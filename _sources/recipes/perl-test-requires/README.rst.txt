@@ -27,12 +27,12 @@ perl-test-requires
       
       
 
-      ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``
+      ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-test-requires
 
     <script>
         var package = "perl-test-requires";
-        var versions = ["0.10","0.10","0.10","0.10"];
+        var versions = ["0.10","0.10","0.10","0.10","0.10"];
     </script>
 
 

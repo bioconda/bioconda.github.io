@@ -27,12 +27,12 @@ perl-io-interactive
       
       
 
-      ``1.022-0``,  ``1.021-2``,  ``1.021-1``
+      ``1.022-1``,  ``1.022-0``,  ``1.021-2``,  ``1.021-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-io-interactive
 
     <script>
         var package = "perl-io-interactive";
-        var versions = ["1.022","1.021","1.021"];
+        var versions = ["1.022","1.022","1.021","1.021"];
     </script>
 
 

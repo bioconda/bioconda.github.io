@@ -27,12 +27,12 @@ perl-math-bigrat
       
       
 
-      ``0.2614-0``
+      ``0.2614-1``,  ``0.2614-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-math-bigint: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-math-bigrat
 
     <script>
         var package = "perl-math-bigrat";
-        var versions = ["0.2614"];
+        var versions = ["0.2614","0.2614"];
     </script>
 
 

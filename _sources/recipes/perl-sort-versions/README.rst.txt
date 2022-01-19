@@ -27,12 +27,12 @@ perl-sort-versions
       
       
 
-      ``1.62-2``,  ``1.62-1``,  ``1.62-0``
+      ``1.62-3``,  ``1.62-2``,  ``1.62-1``,  ``1.62-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-exporter: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-sort-versions
 
     <script>
         var package = "perl-sort-versions";
-        var versions = ["1.62","1.62","1.62"];
+        var versions = ["1.62","1.62","1.62","1.62"];
     </script>
 
 

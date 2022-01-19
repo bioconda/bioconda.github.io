@@ -27,12 +27,12 @@ perl-xml-xpath
       
       
 
-      ``1.44-0``,  ``1.33-1``,  ``1.33-0``
+      ``1.44-1``,  ``1.44-0``,  ``1.33-1``,  ``1.33-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-xml-parser: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-xml-xpath
 
     <script>
         var package = "perl-xml-xpath";
-        var versions = ["1.44","1.33","1.33"];
+        var versions = ["1.44","1.44","1.33","1.33"];
     </script>
 
 

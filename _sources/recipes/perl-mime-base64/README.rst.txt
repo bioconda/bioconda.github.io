@@ -27,12 +27,13 @@ perl-mime-base64
       
       
 
-      ``3.15-1``,  ``3.15-0``
+      ``3.15-2``,  ``3.15-1``,  ``3.15-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-xsloader: 
    :requirements:
 
@@ -65,7 +66,7 @@ perl-mime-base64
 
     <script>
         var package = "perl-mime-base64";
-        var versions = ["3.15","3.15"];
+        var versions = ["3.15","3.15","3.15"];
     </script>
 
 

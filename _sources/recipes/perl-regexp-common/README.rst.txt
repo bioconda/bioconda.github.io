@@ -27,12 +27,12 @@ perl-regexp-common
       
       
 
-      ``2017060201-0``,  ``2016060801-1``,  ``2016060801-0``
+      ``2017060201-1``,  ``2017060201-0``,  ``2016060801-1``,  ``2016060801-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-regexp-common
 
     <script>
         var package = "perl-regexp-common";
-        var versions = ["2017060201","2016060801","2016060801"];
+        var versions = ["2017060201","2017060201","2016060801","2016060801"];
     </script>
 
 

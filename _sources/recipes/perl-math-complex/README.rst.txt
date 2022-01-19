@@ -27,12 +27,12 @@ perl-math-complex
       
       
 
-      ``1.59-0``
+      ``1.59-1``,  ``1.59-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-exporter: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-math-complex
 
     <script>
         var package = "perl-math-complex";
-        var versions = ["1.59"];
+        var versions = ["1.59","1.59"];
     </script>
 
 

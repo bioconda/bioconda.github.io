@@ -27,12 +27,12 @@ perl-file-pushd
       
       
 
-      ``1.016-1``,  ``1.016-0``
+      ``1.016-2``,  ``1.016-1``,  ``1.016-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-file-path: 
@@ -68,7 +68,7 @@ perl-file-pushd
 
     <script>
         var package = "perl-file-pushd";
-        var versions = ["1.016","1.016"];
+        var versions = ["1.016","1.016","1.016"];
     </script>
 
 

@@ -28,10 +28,10 @@ coprarna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.3-7</code>,  <code>2.1.3-6</code>,  <code>2.1.3-5</code>,  <code>2.1.3-4</code>,  <code>2.1.3-3</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.3-8</code>,  <code>2.1.3-7</code>,  <code>2.1.3-6</code>,  <code>2.1.3-5</code>,  <code>2.1.3-4</code>,  <code>2.1.3-3</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  </span></summary>
       
 
-      ``2.1.3-7``,  ``2.1.3-6``,  ``2.1.3-5``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``
+      ``2.1.3-8``,  ``2.1.3-7``,  ``2.1.3-6``,  ``2.1.3-5``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -40,31 +40,31 @@ coprarna
       
 
    
-   :depends blast-legacy: ``2.2.22``
+   :depends blast-legacy: 
    :depends bzip2: 
    :depends clustalo: 
-   :depends coreutils: ``8.25``
+   :depends coreutils: 
    :depends domclust: 
-   :depends embassy-phylip: ``3.69.650``
-   :depends emboss: ``6.5.7``
+   :depends embassy-phylip: 
+   :depends emboss: 
    :depends gawk: 
    :depends grep: 
-   :depends intarna: ``2.3.1``
-   :depends mafft: ``7.310``
-   :depends perl: ``>=5.22``
-   :depends perl-bio-eutilities: ``1.75``
-   :depends perl-bioperl: ``1.6.924``
+   :depends intarna: ``>2.2``
+   :depends mafft: 
+   :depends perl: ``<6``
+   :depends perl-bio-eutilities: 
+   :depends perl-bioperl: 
    :depends perl-getopt-long: 
-   :depends perl-list-moreutils: ``0.428``
-   :depends perl-parallel-forkmanager: ``1.17``
+   :depends perl-list-moreutils: 
+   :depends perl-parallel-forkmanager: 
    :depends phantomjs: 
    :depends python: 
-   :depends r-base: ``3.4.1``
+   :depends r-base: ``<4``
    :depends r-pheatmap: 
    :depends r-robustrankaggreg: 
    :depends r-seqinr: 
    :depends sed: 
-   :depends suds-jurko: ``0.6``
+   :depends suds-jurko: 
    :requirements:
 
    .. rubric:: Installation

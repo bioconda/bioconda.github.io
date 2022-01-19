@@ -27,12 +27,12 @@ perl-test-longstring
       
       
 
-      ``0.17-2``,  ``0.17-1``,  ``0.17-0``
+      ``0.17-3``,  ``0.17-2``,  ``0.17-1``,  ``0.17-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-test-builder-tester: 
    :depends perl-test-simple: 
    :requirements:
@@ -66,7 +66,7 @@ perl-test-longstring
 
     <script>
         var package = "perl-test-longstring";
-        var versions = ["0.17","0.17","0.17"];
+        var versions = ["0.17","0.17","0.17","0.17"];
     </script>
 
 

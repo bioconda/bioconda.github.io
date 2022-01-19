@@ -27,12 +27,12 @@ perl-math-bigint
       
       
 
-      ``1.999816-0``,  ``1.999813-0``
+      ``1.999816-1``,  ``1.999816-0``,  ``1.999813-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-math-complex: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-math-bigint
 
     <script>
         var package = "perl-math-bigint";
-        var versions = ["1.999816","1.999813"];
+        var versions = ["1.999816","1.999816","1.999813"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-xml-namespacesupport
       
       
 
-      ``1.12-0``,  ``1.11-1``,  ``1.11-0``
+      ``1.12-1``,  ``1.12-0``,  ``1.11-1``,  ``1.11-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-constant: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-xml-namespacesupport
 
     <script>
         var package = "perl-xml-namespacesupport";
-        var versions = ["1.12","1.11","1.11"];
+        var versions = ["1.12","1.12","1.11","1.11"];
     </script>
 
 

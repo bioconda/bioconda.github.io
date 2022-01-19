@@ -27,12 +27,12 @@ perl-spiffy
       
       
 
-      ``0.46-3``,  ``0.46-2``,  ``0.46-1``,  ``0.46-0``
+      ``0.46-4``,  ``0.46-3``,  ``0.46-2``,  ``0.46-1``,  ``0.46-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-spiffy
 
     <script>
         var package = "perl-spiffy";
-        var versions = ["0.46","0.46","0.46","0.46"];
+        var versions = ["0.46","0.46","0.46","0.46","0.46"];
     </script>
 
 

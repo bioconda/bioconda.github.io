@@ -27,12 +27,12 @@ perl-test-output
       
       
 
-      ``1.031-0``,  ``1.03-1``,  ``1.03-0``
+      ``1.031-1``,  ``1.031-0``,  ``1.03-1``,  ``1.03-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-capture-tiny: 
    :depends perl-file-temp: 
    :requirements:
@@ -66,7 +66,7 @@ perl-test-output
 
     <script>
         var package = "perl-test-output";
-        var versions = ["1.031","1.03","1.03"];
+        var versions = ["1.031","1.031","1.03","1.03"];
     </script>
 
 

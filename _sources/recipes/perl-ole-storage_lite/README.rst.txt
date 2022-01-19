@@ -27,12 +27,12 @@ perl-ole-storage_lite
       
       
 
-      ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+      ``0.20-0``,  ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-ole-storage_lite
 
     <script>
         var package = "perl-ole-storage_lite";
-        var versions = ["0.19","0.19","0.19","0.19"];
+        var versions = ["0.20","0.19","0.19","0.19","0.19"];
     </script>
 
 

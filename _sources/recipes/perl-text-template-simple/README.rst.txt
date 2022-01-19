@@ -27,12 +27,12 @@ perl-text-template-simple
       
       
 
-      ``0.91-0``
+      ``0.91-1``,  ``0.91-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-digest-md5: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-text-template-simple
 
     <script>
         var package = "perl-text-template-simple";
-        var versions = ["0.91"];
+        var versions = ["0.91","0.91"];
     </script>
 
 

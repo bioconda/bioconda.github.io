@@ -27,12 +27,12 @@ perl-xml-sax-base
       
       
 
-      ``1.09-0``,  ``1.08-1``,  ``1.08-0``
+      ``1.09-1``,  ``1.09-0``,  ``1.08-1``,  ``1.08-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-xml-sax-base
 
     <script>
         var package = "perl-xml-sax-base";
-        var versions = ["1.09","1.08","1.08"];
+        var versions = ["1.09","1.09","1.08","1.08"];
     </script>
 
 

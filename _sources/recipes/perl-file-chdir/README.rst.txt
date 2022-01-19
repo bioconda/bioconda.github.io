@@ -27,12 +27,12 @@ perl-file-chdir
       
       
 
-      ``0.1010-2``,  ``0.1010-1``,  ``0.1010-0``
+      ``0.1010-3``,  ``0.1010-2``,  ``0.1010-1``,  ``0.1010-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-pathtools: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-file-chdir
 
     <script>
         var package = "perl-file-chdir";
-        var versions = ["0.1010","0.1010","0.1010"];
+        var versions = ["0.1010","0.1010","0.1010","0.1010"];
     </script>
 
 

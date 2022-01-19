@@ -27,12 +27,12 @@ perl-text-template
       
       
 
-      ``1.46-1``,  ``1.46-0``
+      ``1.46-2``,  ``1.46-1``,  ``1.46-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-text-template
 
     <script>
         var package = "perl-text-template";
-        var versions = ["1.46","1.46"];
+        var versions = ["1.46","1.46","1.46"];
     </script>
 
 

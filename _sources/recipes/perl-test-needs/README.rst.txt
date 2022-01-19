@@ -27,12 +27,12 @@ perl-test-needs
       
       
 
-      ``0.002006-0``,  ``0.002005-0``
+      ``0.002006-1``,  ``0.002006-0``,  ``0.002005-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-test-needs
 
     <script>
         var package = "perl-test-needs";
-        var versions = ["0.002006","0.002005"];
+        var versions = ["0.002006","0.002006","0.002005"];
     </script>
 
 

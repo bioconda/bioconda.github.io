@@ -27,12 +27,12 @@ perl-data-lock
       
       
 
-      ``1.03-0``
+      ``1.03-1``,  ``1.03-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-data-lock
 
     <script>
         var package = "perl-data-lock";
-        var versions = ["1.03"];
+        var versions = ["1.03","1.03"];
     </script>
 
 

@@ -27,12 +27,13 @@ perl-encode
       
       
 
-      ``2.88-1``,  ``2.88-0``
+      ``2.88-2``,  ``2.88-1``,  ``2.88-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-exporter: 
    :depends perl-parent: 
    :requirements:
@@ -66,7 +67,7 @@ perl-encode
 
     <script>
         var package = "perl-encode";
-        var versions = ["2.88","2.88"];
+        var versions = ["2.88","2.88","2.88"];
     </script>
 
 

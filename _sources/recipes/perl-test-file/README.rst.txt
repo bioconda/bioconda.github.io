@@ -27,12 +27,12 @@ perl-test-file
       
       
 
-      ``1.443-0``
+      ``1.443-1``,  ``1.443-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-test-file
 
     <script>
         var package = "perl-test-file";
-        var versions = ["1.443"];
+        var versions = ["1.443","1.443"];
     </script>
 
 

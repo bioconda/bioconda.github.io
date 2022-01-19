@@ -27,12 +27,12 @@ perl-exporter-tiny
       
       
 
-      ``1.002001-0``,  ``1.000000-0``,  ``0.042-2``,  ``0.042-1``
+      ``1.002001-1``,  ``1.002001-0``,  ``1.000000-0``,  ``0.042-2``,  ``0.042-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-exporter-tiny
 
     <script>
         var package = "perl-exporter-tiny";
-        var versions = ["1.002001","1.000000","0.042","0.042"];
+        var versions = ["1.002001","1.002001","1.000000","0.042","0.042"];
     </script>
 
 

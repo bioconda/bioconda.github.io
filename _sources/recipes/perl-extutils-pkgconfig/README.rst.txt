@@ -27,12 +27,12 @@ perl-extutils-pkgconfig
       
       
 
-      ``1.16-1``,  ``1.16-0``
+      ``1.16-2``,  ``1.16-1``,  ``1.16-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-extutils-pkgconfig
 
     <script>
         var package = "perl-extutils-pkgconfig";
-        var versions = ["1.16","1.16"];
+        var versions = ["1.16","1.16","1.16"];
     </script>
 
 

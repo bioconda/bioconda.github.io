@@ -29,20 +29,21 @@ pyfba
       
       
 
-      ``2.62-0``,  ``2.59-0``,  ``2.58-0``,  ``2.55-0``
+      ``2.62-1``,  ``2.62-0``,  ``2.59-0``,  ``2.58-0``,  ``2.55-0``
 
       
 
    
    :depends beautifulsoup4: 
    :depends glpk: ``>=4.65,<4.66.0a0``
+   :depends importlib_resources: 
    :depends jupyter: 
    :depends libgcc-ng: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends lxml: 
    :depends pyglpk: 
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :requirements:
 
    .. rubric:: Installation
@@ -74,7 +75,7 @@ pyfba
 
     <script>
         var package = "pyfba";
-        var versions = ["2.62","2.59","2.58","2.55"];
+        var versions = ["2.62","2.62","2.59","2.58","2.55"];
     </script>
 
 

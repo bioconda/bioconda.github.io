@@ -27,12 +27,12 @@ perl-importer
       
       
 
-      ``0.025-1``,  ``0.025-0``,  ``0.024-1``,  ``0.024-0``
+      ``0.025-2``,  ``0.025-1``,  ``0.025-0``,  ``0.024-1``,  ``0.024-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-importer
 
     <script>
         var package = "perl-importer";
-        var versions = ["0.025","0.025","0.024","0.024"];
+        var versions = ["0.025","0.025","0.025","0.024","0.024"];
     </script>
 
 

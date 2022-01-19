@@ -27,12 +27,12 @@ perl-types-serialiser
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-common-sense: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-types-serialiser
 
     <script>
         var package = "perl-types-serialiser";
-        var versions = ["1.0","1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0"];
     </script>
 
 

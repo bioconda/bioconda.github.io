@@ -27,12 +27,12 @@ perl-config-general
       
       
 
-      ``2.63-0``,  ``2.61-1``,  ``2.61-0``
+      ``2.63-1``,  ``2.63-0``,  ``2.61-1``,  ``2.61-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-pathtools: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-config-general
 
     <script>
         var package = "perl-config-general";
-        var versions = ["2.63","2.61","2.61"];
+        var versions = ["2.63","2.63","2.61","2.61"];
     </script>
 
 

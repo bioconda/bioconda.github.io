@@ -27,12 +27,12 @@ perl-font-ttf
       
       
 
-      ``1.06-0``,  ``1.05-0``
+      ``1.06-1``,  ``1.06-0``,  ``1.05-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-io-string: 
    :depends perl-xml-parser: 
    :requirements:
@@ -66,7 +66,7 @@ perl-font-ttf
 
     <script>
         var package = "perl-font-ttf";
-        var versions = ["1.06","1.05"];
+        var versions = ["1.06","1.06","1.05"];
     </script>
 
 

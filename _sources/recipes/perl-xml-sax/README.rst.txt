@@ -27,12 +27,12 @@ perl-xml-sax
       
       
 
-      ``1.02-0``,  ``1.00-0``,  ``0.99-1``,  ``0.99-0``
+      ``1.02-1``,  ``1.02-0``,  ``1.00-0``,  ``0.99-1``,  ``0.99-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-temp: 
    :depends perl-xml-namespacesupport: 
    :depends perl-xml-sax-base: 
@@ -67,7 +67,7 @@ perl-xml-sax
 
     <script>
         var package = "perl-xml-sax";
-        var versions = ["1.02","1.00","0.99","0.99"];
+        var versions = ["1.02","1.02","1.00","0.99","0.99"];
     </script>
 
 

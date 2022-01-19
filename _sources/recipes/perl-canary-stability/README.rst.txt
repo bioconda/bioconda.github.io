@@ -27,12 +27,12 @@ perl-canary-stability
       
       
 
-      ``2013-0``,  ``2012-0``,  ``2006-0``
+      ``2013-1``,  ``2013-0``,  ``2012-0``,  ``2006-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-canary-stability
 
     <script>
         var package = "perl-canary-stability";
-        var versions = ["2013","2012","2006"];
+        var versions = ["2013","2013","2012","2006"];
     </script>
 
 

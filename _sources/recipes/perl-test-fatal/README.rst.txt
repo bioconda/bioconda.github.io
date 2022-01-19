@@ -27,12 +27,12 @@ perl-test-fatal
       
       
 
-      ``0.014-3``,  ``0.014-2``,  ``0.014-1``,  ``0.014-0``
+      ``0.014-4``,  ``0.014-3``,  ``0.014-2``,  ``0.014-1``,  ``0.014-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-try-tiny: 
@@ -67,7 +67,7 @@ perl-test-fatal
 
     <script>
         var package = "perl-test-fatal";
-        var versions = ["0.014","0.014","0.014","0.014"];
+        var versions = ["0.014","0.014","0.014","0.014","0.014"];
     </script>
 
 

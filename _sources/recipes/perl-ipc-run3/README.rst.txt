@@ -27,12 +27,12 @@ perl-ipc-run3
       
       
 
-      ``0.048-0``
+      ``0.048-1``,  ``0.048-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-time-hires: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-ipc-run3
 
     <script>
         var package = "perl-ipc-run3";
-        var versions = ["0.048"];
+        var versions = ["0.048","0.048"];
     </script>
 
 

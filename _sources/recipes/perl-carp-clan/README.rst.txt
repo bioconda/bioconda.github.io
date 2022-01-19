@@ -27,12 +27,12 @@ perl-carp-clan
       
       
 
-      ``6.07-1``,  ``6.07-0``,  ``6.06-0``
+      ``6.07-2``,  ``6.07-1``,  ``6.07-0``,  ``6.06-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-test-exception: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-carp-clan
 
     <script>
         var package = "perl-carp-clan";
-        var versions = ["6.07","6.07","6.06"];
+        var versions = ["6.07","6.07","6.07","6.06"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-bit-vector
       
       
 
-      ``7.4-2``,  ``7.4-1``,  ``7.4-0``
+      ``7.4-3``,  ``7.4-2``,  ``7.4-1``,  ``7.4-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-bit-vector
 
     <script>
         var package = "perl-bit-vector";
-        var versions = ["7.4","7.4","7.4"];
+        var versions = ["7.4","7.4","7.4","7.4"];
     </script>
 
 

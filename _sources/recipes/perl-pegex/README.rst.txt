@@ -27,12 +27,12 @@ perl-pegex
       
       
 
-      ``0.61-1``,  ``0.61-0``
+      ``0.61-2``,  ``0.61-1``,  ``0.61-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-extutils-makemaker: 
    :depends perl-file-sharedir-install: 
    :depends perl-yaml-libyaml: 
@@ -67,7 +67,7 @@ perl-pegex
 
     <script>
         var package = "perl-pegex";
-        var versions = ["0.61","0.61"];
+        var versions = ["0.61","0.61","0.61"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-text-abbrev
       
       
 
-      ``1.02-0``
+      ``1.02-1``,  ``1.02-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-exporter: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-text-abbrev
 
     <script>
         var package = "perl-text-abbrev";
-        var versions = ["1.02"];
+        var versions = ["1.02","1.02"];
     </script>
 
 

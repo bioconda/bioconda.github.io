@@ -27,12 +27,12 @@ perl-b-debug
       
       
 
-      ``1.26-0``
+      ``1.26-1``,  ``1.26-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-b-debug
 
     <script>
         var package = "perl-b-debug";
-        var versions = ["1.26"];
+        var versions = ["1.26","1.26"];
     </script>
 
 

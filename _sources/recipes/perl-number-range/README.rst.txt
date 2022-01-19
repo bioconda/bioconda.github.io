@@ -27,12 +27,12 @@ perl-number-range
       
       
 
-      ``0.12-1``,  ``0.12-0``
+      ``0.12-2``,  ``0.12-1``,  ``0.12-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-extutils-makemaker: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-number-range
 
     <script>
         var package = "perl-number-range";
-        var versions = ["0.12","0.12"];
+        var versions = ["0.12","0.12","0.12"];
     </script>
 
 

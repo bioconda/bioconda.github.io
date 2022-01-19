@@ -27,14 +27,13 @@ perl-xml-libxml
       
       
 
-      ``2.0132-1``,  ``2.0132-0``,  ``2.0124-0``
+      ``2.0132-2``,  ``2.0132-1``,  ``2.0132-0``,  ``2.0124-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libxml2: ``>=2.9.9,<2.10.0a0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libxml2: ``>=2.9.12,<2.10.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-xml-namespacesupport: 
    :depends perl-xml-sax: 
    :requirements:
@@ -68,7 +67,7 @@ perl-xml-libxml
 
     <script>
         var package = "perl-xml-libxml";
-        var versions = ["2.0132","2.0132","2.0124"];
+        var versions = ["2.0132","2.0132","2.0132","2.0124"];
     </script>
 
 

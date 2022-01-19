@@ -27,12 +27,12 @@ perl-apache-test
       
       
 
-      ``1.40-1``,  ``1.40-0``
+      ``1.40-2``,  ``1.40-1``,  ``1.40-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-pathtools: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-apache-test
 
     <script>
         var package = "perl-apache-test";
-        var versions = ["1.40","1.40"];
+        var versions = ["1.40","1.40","1.40"];
     </script>
 
 

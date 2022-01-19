@@ -27,12 +27,12 @@ perl-graph-readwrite
       
       
 
-      ``2.09-2``,  ``2.09-0``
+      ``2.09-3``,  ``2.09-2``,  ``2.09-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-graph: 
@@ -71,7 +71,7 @@ perl-graph-readwrite
 
     <script>
         var package = "perl-graph-readwrite";
-        var versions = ["2.09","2.09"];
+        var versions = ["2.09","2.09","2.09"];
     </script>
 
 

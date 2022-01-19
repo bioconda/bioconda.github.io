@@ -27,12 +27,12 @@ perl-config-tiny
       
       
 
-      ``2.24-0``,  ``2.23-1``,  ``2.23-0``
+      ``2.24-1``,  ``2.24-0``,  ``2.23-1``,  ``2.23-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-pathtools: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-config-tiny
 
     <script>
         var package = "perl-config-tiny";
-        var versions = ["2.24","2.23","2.23"];
+        var versions = ["2.24","2.24","2.23","2.23"];
     </script>
 
 

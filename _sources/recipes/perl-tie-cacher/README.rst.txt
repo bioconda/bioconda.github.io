@@ -27,12 +27,12 @@ perl-tie-cacher
       
       
 
-      ``0.09-3``,  ``0.09-2``,  ``0.09-1``
+      ``0.09-4``,  ``0.09-3``,  ``0.09-2``,  ``0.09-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-test-simple: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-tie-cacher
 
     <script>
         var package = "perl-tie-cacher";
-        var versions = ["0.09","0.09","0.09"];
+        var versions = ["0.09","0.09","0.09","0.09"];
     </script>
 
 

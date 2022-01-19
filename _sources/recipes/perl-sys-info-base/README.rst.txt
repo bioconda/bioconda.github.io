@@ -27,12 +27,12 @@ perl-sys-info-base
       
       
 
-      ``0.7807-0``,  ``0.7804-0``
+      ``0.7807-1``,  ``0.7807-0``,  ``0.7804-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-text-template-simple: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-sys-info-base
 
     <script>
         var package = "perl-sys-info-base";
-        var versions = ["0.7807","0.7804"];
+        var versions = ["0.7807","0.7807","0.7804"];
     </script>
 
 

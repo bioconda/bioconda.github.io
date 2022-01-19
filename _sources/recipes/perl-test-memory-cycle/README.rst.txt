@@ -27,12 +27,12 @@ perl-test-memory-cycle
       
       
 
-      ``1.06-1``,  ``1.06-0``
+      ``1.06-2``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-devel-cycle: 
    :depends perl-getopt-long: 
    :depends perl-padwalker: 
@@ -69,7 +69,7 @@ perl-test-memory-cycle
 
     <script>
         var package = "perl-test-memory-cycle";
-        var versions = ["1.06","1.06"];
+        var versions = ["1.06","1.06","1.06"];
     </script>
 
 

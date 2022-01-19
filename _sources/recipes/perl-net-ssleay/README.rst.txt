@@ -27,14 +27,15 @@ perl-net-ssleay
       
       
 
-      ``1.88-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84-1``,  ``1.84-0``,  ``1.74-1``,  ``1.74-0``,  ``1.72-0``
+      ``1.88-1``,  ``1.88-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84-1``,  ``1.84-0``,  ``1.74-1``,  ``1.74-0``,  ``1.72-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends openssl: ``>=1.1.1a,<1.1.2a``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends openssl: ``>=1.1.1l,<1.1.2a``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-mime-base64: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -68,7 +69,7 @@ perl-net-ssleay
 
     <script>
         var package = "perl-net-ssleay";
-        var versions = ["1.88","1.86","1.85","1.84","1.84"];
+        var versions = ["1.88","1.88","1.86","1.85","1.84"];
     </script>
 
 

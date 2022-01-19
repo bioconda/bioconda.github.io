@@ -28,7 +28,7 @@ pftools
       
       
 
-      ``3.2.11-0``,  ``3.2.10-0``,  ``2.3.5-1``,  ``2.3.5-0``
+      ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.10-0``,  ``2.3.5-1``,  ``2.3.5-0``
 
       
 
@@ -38,7 +38,7 @@ pftools
    :depends libgfortran5: ``>=9.4.0``
    :depends libstdcxx-ng: ``>=9.4.0``
    :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-file-slurp: 
    :depends r-base: ``>=4.1,<4.2.0a0``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
@@ -73,7 +73,7 @@ pftools
 
     <script>
         var package = "pftools";
-        var versions = ["3.2.11","3.2.10","2.3.5","2.3.5"];
+        var versions = ["3.2.11","3.2.11","3.2.10","2.3.5","2.3.5"];
     </script>
 
 

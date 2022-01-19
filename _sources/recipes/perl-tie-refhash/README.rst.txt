@@ -27,12 +27,12 @@ perl-tie-refhash
       
       
 
-      ``1.39-2``,  ``1.39-1``,  ``1.39-0``
+      ``1.39-3``,  ``1.39-2``,  ``1.39-1``,  ``1.39-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-tie-refhash
 
     <script>
         var package = "perl-tie-refhash";
-        var versions = ["1.39","1.39","1.39"];
+        var versions = ["1.39","1.39","1.39","1.39"];
     </script>
 
 

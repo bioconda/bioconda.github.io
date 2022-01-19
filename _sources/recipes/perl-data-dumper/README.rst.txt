@@ -27,12 +27,13 @@ perl-data-dumper
       
       
 
-      ``2.173-0``,  ``2.161-2``,  ``2.161-1``,  ``2.161-0``
+      ``2.173-1``,  ``2.173-0``,  ``2.161-2``,  ``2.161-1``,  ``2.161-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +65,7 @@ perl-data-dumper
 
     <script>
         var package = "perl-data-dumper";
-        var versions = ["2.173","2.161","2.161","2.161"];
+        var versions = ["2.173","2.173","2.161","2.161","2.161"];
     </script>
 
 

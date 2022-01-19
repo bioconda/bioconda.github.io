@@ -27,12 +27,12 @@ perl-pod-parser
       
       
 
-      ``1.63-1``,  ``1.63-0``
+      ``1.63-2``,  ``1.63-1``,  ``1.63-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-pod-parser
 
     <script>
         var package = "perl-pod-parser";
-        var versions = ["1.63","1.63"];
+        var versions = ["1.63","1.63","1.63"];
     </script>
 
 

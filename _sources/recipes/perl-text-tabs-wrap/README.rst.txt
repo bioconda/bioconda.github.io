@@ -27,12 +27,12 @@ perl-text-tabs-wrap
       
       
 
-      ``2013.0523-1``,  ``2013.0523-0``
+      ``2013.0523-2``,  ``2013.0523-1``,  ``2013.0523-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-text-tabs-wrap
 
     <script>
         var package = "perl-text-tabs-wrap";
-        var versions = ["2013.0523","2013.0523"];
+        var versions = ["2013.0523","2013.0523","2013.0523"];
     </script>
 
 

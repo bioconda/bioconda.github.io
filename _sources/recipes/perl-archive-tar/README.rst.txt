@@ -27,12 +27,12 @@ perl-archive-tar
       
       
 
-      ``2.32-0``,  ``2.18-3``,  ``2.18-2``,  ``2.18-1``
+      ``2.32-1``,  ``2.32-0``,  ``2.18-3``,  ``2.18-2``,  ``2.18-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-io-compress: 
    :depends perl-io-zlib: 
    :depends perl-pathtools: 
@@ -67,7 +67,7 @@ perl-archive-tar
 
     <script>
         var package = "perl-archive-tar";
-        var versions = ["2.32","2.18","2.18","2.18"];
+        var versions = ["2.32","2.32","2.18","2.18","2.18"];
     </script>
 
 

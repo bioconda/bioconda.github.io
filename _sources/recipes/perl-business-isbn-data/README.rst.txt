@@ -27,12 +27,12 @@ perl-business-isbn-data
       
       
 
-      ``20140910.003-0``
+      ``20140910.003-1``,  ``20140910.003-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-business-isbn-data
 
     <script>
         var package = "perl-business-isbn-data";
-        var versions = ["20140910.003"];
+        var versions = ["20140910.003","20140910.003"];
     </script>
 
 
