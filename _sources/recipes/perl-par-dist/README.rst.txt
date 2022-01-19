@@ -27,12 +27,12 @@ perl-par-dist
       
       
 
-      ``0.49-1``,  ``0.49-0``
+      ``0.49-2``,  ``0.49-1``,  ``0.49-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-find: 
    :depends perl-file-path: 
    :requirements:
@@ -66,7 +66,7 @@ perl-par-dist
 
     <script>
         var package = "perl-par-dist";
-        var versions = ["0.49","0.49"];
+        var versions = ["0.49","0.49","0.49"];
     </script>
 
 

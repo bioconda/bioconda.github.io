@@ -27,12 +27,12 @@ perl-pod-escapes
       
       
 
-      ``1.07-1``,  ``1.07-0``
+      ``1.07-2``,  ``1.07-1``,  ``1.07-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-exporter: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-pod-escapes
 
     <script>
         var package = "perl-pod-escapes";
-        var versions = ["1.07","1.07"];
+        var versions = ["1.07","1.07","1.07"];
     </script>
 
 

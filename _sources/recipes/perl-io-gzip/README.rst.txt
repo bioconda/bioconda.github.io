@@ -27,12 +27,14 @@ perl-io-gzip
       
       
 
-      ``0.20-2``,  ``0.20-1``,  ``0.20-0``
+      ``0.20-3``,  ``0.20-2``,  ``0.20-1``,  ``0.20-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
@@ -65,7 +67,7 @@ perl-io-gzip
 
     <script>
         var package = "perl-io-gzip";
-        var versions = ["0.20","0.20","0.20"];
+        var versions = ["0.20","0.20","0.20","0.20"];
     </script>
 
 

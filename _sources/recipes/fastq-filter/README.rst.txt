@@ -27,15 +27,15 @@ fastq-filter
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends dnaio: ``>=0.6.0``
    :depends libgcc-ng: ``>=9.4.0``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends xopen: ``>=1.2.1``
    :requirements:
 
@@ -68,7 +68,7 @@ fastq-filter
 
     <script>
         var package = "fastq-filter";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.0"];
     </script>
 
 

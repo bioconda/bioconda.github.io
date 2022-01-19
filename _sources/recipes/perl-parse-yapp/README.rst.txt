@@ -27,12 +27,12 @@ perl-parse-yapp
       
       
 
-      ``1.21-0``,  ``1.05-0``
+      ``1.21-1``,  ``1.21-0``,  ``1.05-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-parse-yapp
 
     <script>
         var package = "perl-parse-yapp";
-        var versions = ["1.21","1.05"];
+        var versions = ["1.21","1.21","1.05"];
     </script>
 
 

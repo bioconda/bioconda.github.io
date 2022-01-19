@@ -27,12 +27,12 @@ perl-statistics-frequency
       
       
 
-      ``0.04-2``,  ``0.04-1``
+      ``0.04-3``,  ``0.04-2``,  ``0.04-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-statistics-frequency
 
     <script>
         var package = "perl-statistics-frequency";
-        var versions = ["0.04","0.04"];
+        var versions = ["0.04","0.04","0.04"];
     </script>
 
 

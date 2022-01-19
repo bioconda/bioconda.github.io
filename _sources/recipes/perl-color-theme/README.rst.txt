@@ -27,12 +27,12 @@ perl-color-theme
       
       
 
-      ``0.10.1-0``,  ``0.01-0``
+      ``0.10.1-1``,  ``0.10.1-0``,  ``0.01-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-color-theme
 
     <script>
         var package = "perl-color-theme";
-        var versions = ["0.10.1","0.01"];
+        var versions = ["0.10.1","0.10.1","0.01"];
     </script>
 
 

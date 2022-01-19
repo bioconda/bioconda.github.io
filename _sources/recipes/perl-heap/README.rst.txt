@@ -27,12 +27,12 @@ perl-heap
       
       
 
-      ``0.80-0``
+      ``0.80-1``,  ``0.80-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-heap
 
     <script>
         var package = "perl-heap";
-        var versions = ["0.80"];
+        var versions = ["0.80","0.80"];
     </script>
 
 

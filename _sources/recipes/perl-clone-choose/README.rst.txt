@@ -27,12 +27,12 @@ perl-clone-choose
       
       
 
-      ``0.010-0``
+      ``0.010-1``,  ``0.010-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-storable: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-clone-choose
 
     <script>
         var package = "perl-clone-choose";
-        var versions = ["0.010"];
+        var versions = ["0.010","0.010"];
     </script>
 
 

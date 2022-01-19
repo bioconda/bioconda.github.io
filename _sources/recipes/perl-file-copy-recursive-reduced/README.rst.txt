@@ -27,12 +27,12 @@ perl-file-copy-recursive-reduced
       
       
 
-      ``0.006-0``
+      ``0.006-1``,  ``0.006-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-path: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-file-copy-recursive-reduced
 
     <script>
         var package = "perl-file-copy-recursive-reduced";
-        var versions = ["0.006"];
+        var versions = ["0.006","0.006"];
     </script>
 
 

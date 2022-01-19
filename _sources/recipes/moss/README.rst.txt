@@ -27,14 +27,14 @@ moss
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends htslib: ``>=1.12,<1.13.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :requirements:
 
    .. rubric:: Installation
@@ -66,7 +66,7 @@ moss
 
     <script>
         var package = "moss";
-        var versions = ["0.1.1","0.1.1","0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.0"];
     </script>
 
 

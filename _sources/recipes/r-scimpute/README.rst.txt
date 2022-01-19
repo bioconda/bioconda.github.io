@@ -28,13 +28,13 @@ r-scimpute
       
       
 
-      ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.6-1``,  ``0.0.6-0``
+      ``0.0.8-3``,  ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.6-1``,  ``0.0.6-0``
 
       
 
    
    :depends parallel: 
-   :depends r: ``>=3.3.2``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :depends r-devtools: 
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -74,7 +74,7 @@ r-scimpute
 
     <script>
         var package = "r-scimpute";
-        var versions = ["0.0.8","0.0.8","0.0.8","0.0.6","0.0.6"];
+        var versions = ["0.0.8","0.0.8","0.0.8","0.0.8","0.0.6"];
     </script>
 
 

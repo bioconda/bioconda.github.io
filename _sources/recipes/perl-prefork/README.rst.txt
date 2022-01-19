@@ -27,12 +27,12 @@ perl-prefork
       
       
 
-      ``1.05-0``
+      ``1.05-1``,  ``1.05-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-prefork
 
     <script>
         var package = "perl-prefork";
-        var versions = ["1.05"];
+        var versions = ["1.05","1.05"];
     </script>
 
 

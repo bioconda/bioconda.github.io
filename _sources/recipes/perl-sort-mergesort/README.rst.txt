@@ -27,12 +27,12 @@ perl-sort-mergesort
       
       
 
-      ``0.31-1``,  ``0.31-0``
+      ``0.31-2``,  ``0.31-1``,  ``0.31-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-test-nowarnings: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-sort-mergesort
 
     <script>
         var package = "perl-sort-mergesort";
-        var versions = ["0.31","0.31"];
+        var versions = ["0.31","0.31","0.31"];
     </script>
 
 

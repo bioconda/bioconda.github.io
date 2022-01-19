@@ -27,7 +27,7 @@ perl-test-pod
       
       
 
-      ``1.52-0``,  ``1.51-1``,  ``1.51-0``
+      ``1.52-0``,  ``1.51-2``,  ``1.51-1``,  ``1.51-0``
 
       
 
@@ -64,7 +64,7 @@ perl-test-pod
 
     <script>
         var package = "perl-test-pod";
-        var versions = ["1.52","1.51","1.51"];
+        var versions = ["1.52","1.51","1.51","1.51"];
     </script>
 
 

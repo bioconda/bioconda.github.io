@@ -29,10 +29,10 @@ poppunk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
+      ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``
 
       
       .. raw:: html
@@ -41,26 +41,26 @@ poppunk
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends dendropy: ``>=4.4.0``
    :depends flask: 
    :depends flask-apscheduler: 
    :depends flask-cors: 
+   :depends gfortran_impl_osx-64: 
    :depends graph-tool: ``>=2.35``
    :depends gunicorn: 
    :depends h5py: 
    :depends hdbscan: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libgfortran-ng: 
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=11.1.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends llvm-openmp: ``>=11.1.0``
    :depends matplotlib-base: 
    :depends networkx: 
    :depends numpy: 
    :depends openblas: 
    :depends pandas: 
    :depends pp-sketchlib: ``>=1.7.0``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends rapidnj: 
    :depends requests: 
    :depends scikit-learn: ``>=0.24``
@@ -107,7 +107,7 @@ poppunk
 
     <script>
         var package = "poppunk";
-        var versions = ["2.4.0","2.3.0","2.2.0","2.1.1","2.0.2"];
+        var versions = ["2.4.0","2.4.0","2.3.0","2.2.0","2.1.1"];
     </script>
 
 

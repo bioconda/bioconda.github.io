@@ -28,7 +28,7 @@ gadma
       
       
 
-      ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
+      ``2.0.0rc18-1``,  ``2.0.0rc18-0``,  ``2.0.0rc17-0``,  ``2.0.0rc16-0``
 
       
 
@@ -41,8 +41,8 @@ gadma
    :depends numpy: 
    :depends pandas: 
    :depends pillow: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python_abi: ``3.6.* *_cp36m``
    :depends ruamel.yaml: 
    :depends scipy: 
    :requirements:
@@ -76,7 +76,7 @@ gadma
 
     <script>
         var package = "gadma";
-        var versions = ["2.0.0rc18","2.0.0rc17","2.0.0rc16"];
+        var versions = ["2.0.0rc18","2.0.0rc18","2.0.0rc17","2.0.0rc16"];
     </script>
 
 
