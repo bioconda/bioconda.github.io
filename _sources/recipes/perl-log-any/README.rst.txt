@@ -27,12 +27,12 @@ perl-log-any
       
       
 
-      ``1.045-1``,  ``1.045-0``
+      ``1.045-2``,  ``1.045-1``,  ``1.045-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-apache-test: 
    :depends perl-test-simple: 
    :requirements:
@@ -66,7 +66,7 @@ perl-log-any
 
     <script>
         var package = "perl-log-any";
-        var versions = ["1.045","1.045"];
+        var versions = ["1.045","1.045","1.045"];
     </script>
 
 

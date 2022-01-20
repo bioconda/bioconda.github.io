@@ -27,12 +27,12 @@ perl-test
       
       
 
-      ``1.26-1``,  ``1.26-0``
+      ``1.26-2``,  ``1.26-1``,  ``1.26-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-test-harness: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-test
 
     <script>
         var package = "perl-test";
-        var versions = ["1.26","1.26"];
+        var versions = ["1.26","1.26","1.26"];
     </script>
 
 

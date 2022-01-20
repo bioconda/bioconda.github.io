@@ -27,12 +27,12 @@ perl-test-base
       
       
 
-      ``0.89-0``,  ``0.88-2``,  ``0.88-1``,  ``0.88-0``
+      ``0.89-1``,  ``0.89-0``,  ``0.88-2``,  ``0.88-1``,  ``0.88-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-spiffy: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-test-base
 
     <script>
         var package = "perl-test-base";
-        var versions = ["0.89","0.88","0.88","0.88"];
+        var versions = ["0.89","0.89","0.88","0.88","0.88"];
     </script>
 
 

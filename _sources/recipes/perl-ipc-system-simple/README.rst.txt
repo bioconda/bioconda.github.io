@@ -27,12 +27,12 @@ perl-ipc-system-simple
       
       
 
-      ``1.25-5``,  ``1.25-4``,  ``1.25-3``,  ``1.25-2``,  ``1.25-1``,  ``1.25-0``
+      ``1.25-6``,  ``1.25-5``,  ``1.25-4``,  ``1.25-3``,  ``1.25-2``,  ``1.25-1``,  ``1.25-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-exporter: 

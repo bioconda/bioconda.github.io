@@ -27,17 +27,17 @@ perl-statistics-r
       
       
 
-      ``0.34-3``,  ``0.34-2``,  ``0.34-1``,  ``0.34-0``
+      ``0.34-4``,  ``0.34-3``,  ``0.34-2``,  ``0.34-1``,  ``0.34-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-ipc-run: 
    :depends perl-regexp-common: 
    :depends perl-text-balanced: ``>=1.97``
    :depends perl-text-wrap: 
-   :depends r-base: ``>=3.5.1,<3.5.2.0a0``
+   :depends r-base: ``>=4.1,<4.2.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +69,7 @@ perl-statistics-r
 
     <script>
         var package = "perl-statistics-r";
-        var versions = ["0.34","0.34","0.34","0.34"];
+        var versions = ["0.34","0.34","0.34","0.34","0.34"];
     </script>
 
 

@@ -27,14 +27,14 @@ perl-eval-closure
       
       
 
-      ``0.14-4``,  ``0.14-3``,  ``0.14-1``,  ``0.14-0``
+      ``0.14-5``,  ``0.14-4``,  ``0.14-3``,  ``0.14-1``,  ``0.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-exporter: 
@@ -69,7 +69,7 @@ perl-eval-closure
 
     <script>
         var package = "perl-eval-closure";
-        var versions = ["0.14","0.14","0.14","0.14"];
+        var versions = ["0.14","0.14","0.14","0.14","0.14"];
     </script>
 
 

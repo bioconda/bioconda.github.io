@@ -27,12 +27,12 @@ perl-xml-sax-expat
       
       
 
-      ``0.51-3``,  ``0.51-2``,  ``0.51-1``,  ``0.51-0``
+      ``0.51-4``,  ``0.51-3``,  ``0.51-2``,  ``0.51-1``,  ``0.51-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-xml-namespacesupport: 
    :depends perl-xml-parser: 
    :depends perl-xml-sax: 
@@ -68,7 +68,7 @@ perl-xml-sax-expat
 
     <script>
         var package = "perl-xml-sax-expat";
-        var versions = ["0.51","0.51","0.51","0.51"];
+        var versions = ["0.51","0.51","0.51","0.51","0.51"];
     </script>
 
 

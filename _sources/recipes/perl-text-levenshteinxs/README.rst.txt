@@ -27,13 +27,13 @@ perl-text-levenshteinxs
       
       
 
-      ``0.03-0``
+      ``0.03-1``,  ``0.03-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-test: 
    :requirements:
 
@@ -66,7 +66,7 @@ perl-text-levenshteinxs
 
     <script>
         var package = "perl-text-levenshteinxs";
-        var versions = ["0.03"];
+        var versions = ["0.03","0.03"];
     </script>
 
 

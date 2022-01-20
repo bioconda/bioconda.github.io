@@ -27,12 +27,12 @@ perl-version
       
       
 
-      ``0.9924-0``
+      ``0.9924-1``,  ``0.9924-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-version
 
     <script>
         var package = "perl-version";
-        var versions = ["0.9924"];
+        var versions = ["0.9924","0.9924"];
     </script>
 
 

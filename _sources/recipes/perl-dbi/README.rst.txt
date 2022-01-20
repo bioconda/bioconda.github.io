@@ -26,13 +26,22 @@ perl-dbi
    :versions:
       
       
+      .. raw:: html
 
-      ``1.642-0``,  ``1.641-2``,  ``1.641-1``,  ``1.641-0``,  ``1.640-0``,  ``1.636-0``,  ``1.634-2``,  ``1.634-1``,  ``1.634-0``
+         <details><summary><span class="truncated-version-list"><code>1.642-1</code>,  <code>1.642-0</code>,  <code>1.641-2</code>,  <code>1.641-1</code>,  <code>1.641-0</code>,  <code>1.640-0</code>,  <code>1.636-0</code>,  <code>1.634-2</code>,  <code>1.634-1</code>,  </span></summary>
+      
 
+      ``1.642-1``,  ``1.642-0``,  ``1.641-2``,  ``1.641-1``,  ``1.641-0``,  ``1.640-0``,  ``1.636-0``,  ``1.634-2``,  ``1.634-1``,  ``1.634-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +73,7 @@ perl-dbi
 
     <script>
         var package = "perl-dbi";
-        var versions = ["1.642","1.641","1.641","1.641","1.640"];
+        var versions = ["1.642","1.642","1.641","1.641","1.641"];
     </script>
 
 

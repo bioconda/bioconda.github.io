@@ -27,12 +27,12 @@ perl-xml-sax-writer
       
       
 
-      ``0.57-0``,  ``0.56-2``,  ``0.56-1``,  ``0.56-0``
+      ``0.57-1``,  ``0.57-0``,  ``0.56-2``,  ``0.56-1``,  ``0.56-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-xml-filter-buffertext: 
    :depends perl-xml-namespacesupport: 
    :depends perl-xml-sax-base: 
@@ -67,7 +67,7 @@ perl-xml-sax-writer
 
     <script>
         var package = "perl-xml-sax-writer";
-        var versions = ["0.57","0.56","0.56","0.56"];
+        var versions = ["0.57","0.57","0.56","0.56","0.56"];
     </script>
 
 
