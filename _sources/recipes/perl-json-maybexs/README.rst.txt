@@ -27,12 +27,12 @@ perl-json-maybexs
       
       
 
-      ``1.004000-0``,  ``1.003008-1``,  ``1.003008-0``
+      ``1.004000-1``,  ``1.004000-0``,  ``1.003008-1``,  ``1.003008-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-json-pp: 
    :requirements:
@@ -66,7 +66,7 @@ perl-json-maybexs
 
     <script>
         var package = "perl-json-maybexs";
-        var versions = ["1.004000","1.003008","1.003008"];
+        var versions = ["1.004000","1.004000","1.003008","1.003008"];
     </script>
 
 

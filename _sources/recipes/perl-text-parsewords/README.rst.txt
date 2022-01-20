@@ -27,12 +27,12 @@ perl-text-parsewords
       
       
 
-      ``3.30-0``,  ``3.29-3``,  ``3.29-2``,  ``3.29-1``
+      ``3.30-1``,  ``3.30-0``,  ``3.29-3``,  ``3.29-2``,  ``3.29-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-scalar-list-utils: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-text-parsewords
 
     <script>
         var package = "perl-text-parsewords";
-        var versions = ["3.30","3.29","3.29","3.29"];
+        var versions = ["3.30","3.30","3.29","3.29","3.29"];
     </script>
 
 

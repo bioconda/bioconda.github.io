@@ -27,12 +27,12 @@ perl-number-format
       
       
 
-      ``1.75-3``,  ``1.75-2``,  ``1.75-1``,  ``1.75-0``
+      ``1.75-4``,  ``1.75-3``,  ``1.75-2``,  ``1.75-1``,  ``1.75-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-number-format
 
     <script>
         var package = "perl-number-format";
-        var versions = ["1.75","1.75","1.75","1.75"];
+        var versions = ["1.75","1.75","1.75","1.75","1.75"];
     </script>
 
 

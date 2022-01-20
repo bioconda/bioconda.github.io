@@ -27,12 +27,12 @@ perl-test-yaml
       
       
 
-      ``1.07-0``,  ``1.06-2``,  ``1.06-1``,  ``1.06-0``
+      ``1.07-1``,  ``1.07-0``,  ``1.06-2``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-test-base: ``>=0.89``
    :requirements:
 
@@ -65,7 +65,7 @@ perl-test-yaml
 
     <script>
         var package = "perl-test-yaml";
-        var versions = ["1.07","1.06","1.06","1.06"];
+        var versions = ["1.07","1.07","1.06","1.06","1.06"];
     </script>
 
 

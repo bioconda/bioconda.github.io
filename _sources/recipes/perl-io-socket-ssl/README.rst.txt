@@ -27,12 +27,12 @@ perl-io-socket-ssl
       
       
 
-      ``2.066-0``,  ``2.060-0``,  ``2.056-0``,  ``2.024-1``,  ``2.024-0``
+      ``2.066-1``,  ``2.066-0``,  ``2.060-0``,  ``2.056-0``,  ``2.024-1``,  ``2.024-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-net-ssleay: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-io-socket-ssl
 
     <script>
         var package = "perl-io-socket-ssl";
-        var versions = ["2.066","2.060","2.056","2.024","2.024"];
+        var versions = ["2.066","2.066","2.060","2.056","2.024"];
     </script>
 
 
