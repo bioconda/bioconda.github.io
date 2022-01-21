@@ -27,12 +27,12 @@ perl-extutils-installpaths
       
       
 
-      ``0.012-0``,  ``0.011-1``,  ``0.011-0``
+      ``0.012-1``,  ``0.012-0``,  ``0.011-1``,  ``0.011-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-extutils-config: 
    :requirements:
@@ -66,7 +66,7 @@ perl-extutils-installpaths
 
     <script>
         var package = "perl-extutils-installpaths";
-        var versions = ["0.012","0.011","0.011"];
+        var versions = ["0.012","0.012","0.011","0.011"];
     </script>
 
 

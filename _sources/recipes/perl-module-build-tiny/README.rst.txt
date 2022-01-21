@@ -27,12 +27,12 @@ perl-module-build-tiny
       
       
 
-      ``0.039-3``,  ``0.039-2``,  ``0.039-1``,  ``0.039-0``
+      ``0.039-4``,  ``0.039-3``,  ``0.039-2``,  ``0.039-1``,  ``0.039-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-cpan-meta: 
    :depends perl-exporter: 
    :depends perl-extutils-cbuilder: 
@@ -74,7 +74,7 @@ perl-module-build-tiny
 
     <script>
         var package = "perl-module-build-tiny";
-        var versions = ["0.039","0.039","0.039","0.039"];
+        var versions = ["0.039","0.039","0.039","0.039","0.039"];
     </script>
 
 

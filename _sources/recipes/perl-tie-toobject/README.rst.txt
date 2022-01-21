@@ -27,12 +27,12 @@ perl-tie-toobject
       
       
 
-      ``0.03-2``,  ``0.03-1``,  ``0.03-0``
+      ``0.03-3``,  ``0.03-2``,  ``0.03-1``,  ``0.03-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-test-more: 
    :depends perl-tie-refhash: 
    :requirements:
@@ -66,7 +66,7 @@ perl-tie-toobject
 
     <script>
         var package = "perl-tie-toobject";
-        var versions = ["0.03","0.03","0.03"];
+        var versions = ["0.03","0.03","0.03","0.03"];
     </script>
 
 

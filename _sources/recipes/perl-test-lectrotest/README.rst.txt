@@ -27,12 +27,12 @@ perl-test-lectrotest
       
       
 
-      ``0.5001-0``
+      ``0.5001-1``,  ``0.5001-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-data-dumper: 
@@ -68,7 +68,7 @@ perl-test-lectrotest
 
     <script>
         var package = "perl-test-lectrotest";
-        var versions = ["0.5001"];
+        var versions = ["0.5001","0.5001"];
     </script>
 
 

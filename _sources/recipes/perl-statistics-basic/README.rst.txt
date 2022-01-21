@@ -27,12 +27,12 @@ perl-statistics-basic
       
       
 
-      ``1.6611-2``,  ``1.6611-1``,  ``1.6611-0``
+      ``1.6611-3``,  ``1.6611-2``,  ``1.6611-1``,  ``1.6611-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-number-format: 
    :depends perl-scalar-list-utils: 
    :requirements:
@@ -66,7 +66,7 @@ perl-statistics-basic
 
     <script>
         var package = "perl-statistics-basic";
-        var versions = ["1.6611","1.6611","1.6611"];
+        var versions = ["1.6611","1.6611","1.6611","1.6611"];
     </script>
 
 

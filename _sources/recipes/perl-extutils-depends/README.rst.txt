@@ -27,12 +27,12 @@ perl-extutils-depends
       
       
 
-      ``0.8000-0``,  ``0.405-2``,  ``0.405-1``,  ``0.405-0``
+      ``0.8000-1``,  ``0.8000-0``,  ``0.405-2``,  ``0.405-1``,  ``0.405-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-data-dumper: 
    :depends perl-pathtools: 
    :requirements:
@@ -66,7 +66,7 @@ perl-extutils-depends
 
     <script>
         var package = "perl-extutils-depends";
-        var versions = ["0.8000","0.405","0.405","0.405"];
+        var versions = ["0.8000","0.8000","0.405","0.405","0.405"];
     </script>
 
 

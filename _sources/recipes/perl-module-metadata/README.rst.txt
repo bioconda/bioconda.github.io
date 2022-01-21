@@ -27,12 +27,12 @@ perl-module-metadata
       
       
 
-      ``1.000036-0``,  ``1.000033-0``,  ``1.000019-1``,  ``1.000019-0``
+      ``1.000036-1``,  ``1.000036-0``,  ``1.000033-0``,  ``1.000019-1``,  ``1.000019-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-version: 
    :requirements:
@@ -66,7 +66,7 @@ perl-module-metadata
 
     <script>
         var package = "perl-module-metadata";
-        var versions = ["1.000036","1.000033","1.000019","1.000019"];
+        var versions = ["1.000036","1.000036","1.000033","1.000019","1.000019"];
     </script>
 
 

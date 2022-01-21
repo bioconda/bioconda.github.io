@@ -27,12 +27,12 @@ perl-lyve-set
       
       
 
-      ``2.0.1-0``
+      ``2.0.1-1``,  ``2.0.1-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-data-dumper: 
    :depends perl-exporter: 
    :depends perl-number-range: 
@@ -67,7 +67,7 @@ perl-lyve-set
 
     <script>
         var package = "perl-lyve-set";
-        var versions = ["2.0.1"];
+        var versions = ["2.0.1","2.0.1"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-fast
       
       
 
-      ``1.06-1``,  ``1.06-0``
+      ``1.06-2``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-bit-vector: 
    :depends perl-pod-usage: 
    :depends perl-sort-key: 
@@ -68,7 +68,7 @@ perl-fast
 
     <script>
         var package = "perl-fast";
-        var versions = ["1.06","1.06"];
+        var versions = ["1.06","1.06","1.06"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-pod-usage
       
       
 
-      ``1.69-1``,  ``1.69-0``
+      ``1.69-2``,  ``1.69-1``,  ``1.69-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-getopt-long: 
    :depends perl-pod-escapes: 
@@ -68,7 +68,7 @@ perl-pod-usage
 
     <script>
         var package = "perl-pod-usage";
-        var versions = ["1.69","1.69"];
+        var versions = ["1.69","1.69","1.69"];
     </script>
 
 

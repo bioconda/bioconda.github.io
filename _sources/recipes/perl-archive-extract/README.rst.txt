@@ -27,12 +27,12 @@ perl-archive-extract
       
       
 
-      ``0.80-0``,  ``0.76-4``,  ``0.76-3``,  ``0.76-2``,  ``0.76-1``,  ``0.76-0``
+      ``0.80-1``,  ``0.80-0``,  ``0.76-4``,  ``0.76-3``,  ``0.76-2``,  ``0.76-1``,  ``0.76-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-path: 
    :depends perl-ipc-cmd: 
    :depends perl-locale-maketext-simple: 
@@ -69,7 +69,7 @@ perl-archive-extract
 
     <script>
         var package = "perl-archive-extract";
-        var versions = ["0.80","0.76","0.76","0.76","0.76"];
+        var versions = ["0.80","0.80","0.76","0.76","0.76"];
     </script>
 
 

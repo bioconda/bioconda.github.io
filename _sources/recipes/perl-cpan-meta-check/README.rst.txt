@@ -27,12 +27,12 @@ perl-cpan-meta-check
       
       
 
-      ``0.014-0``,  ``0.012-3``,  ``0.012-2``,  ``0.012-1``
+      ``0.014-1``,  ``0.014-0``,  ``0.012-3``,  ``0.012-2``,  ``0.012-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-cpan-meta-requirements: 
    :depends perl-exporter: 
@@ -68,7 +68,7 @@ perl-cpan-meta-check
 
     <script>
         var package = "perl-cpan-meta-check";
-        var versions = ["0.014","0.012","0.012","0.012"];
+        var versions = ["0.014","0.014","0.012","0.012","0.012"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-experimental
       
       
 
-      ``0.020-0``
+      ``0.020-1``,  ``0.020-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-version: 
    :requirements:
@@ -66,7 +66,7 @@ perl-experimental
 
     <script>
         var package = "perl-experimental";
-        var versions = ["0.020"];
+        var versions = ["0.020","0.020"];
     </script>
 
 

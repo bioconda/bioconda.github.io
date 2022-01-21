@@ -27,7 +27,7 @@ genview
       
       
 
-      ``0.1-0``
+      ``0.1.1-0``,  ``0.1-0``
 
       
 
@@ -41,7 +41,7 @@ genview
    :depends pandas: 
    :depends prodigal: 
    :depends python: ``>=3``
-   :depends sqlite: ``>=3.36.0,<4.0a0``
+   :depends sqlite: ``>=3.37.0,<4.0a0``
    :depends time: 
    :requirements:
 
@@ -74,7 +74,7 @@ genview
 
     <script>
         var package = "genview";
-        var versions = ["0.1"];
+        var versions = ["0.1.1","0.1"];
     </script>
 
 

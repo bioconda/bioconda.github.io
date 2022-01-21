@@ -27,12 +27,12 @@ perl-appconfig
       
       
 
-      ``1.71-1``,  ``1.71-0``
+      ``1.71-2``,  ``1.71-1``,  ``1.71-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-appconfig
 
     <script>
         var package = "perl-appconfig";
-        var versions = ["1.71","1.71"];
+        var versions = ["1.71","1.71","1.71"];
     </script>
 
 

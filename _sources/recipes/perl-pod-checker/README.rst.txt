@@ -27,12 +27,13 @@ perl-pod-checker
       
       
 
-      ``1.60-2``,  ``1.60-0``
+      ``1.60-3``,  ``1.60-2``,  ``1.60-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-pod-parser: 
    :depends perl-pod-simple: 
    :requirements:
 
@@ -65,7 +66,7 @@ perl-pod-checker
 
     <script>
         var package = "perl-pod-checker";
-        var versions = ["1.60","1.60"];
+        var versions = ["1.60","1.60","1.60"];
     </script>
 
 

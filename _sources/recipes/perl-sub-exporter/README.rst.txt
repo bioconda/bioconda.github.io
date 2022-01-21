@@ -27,12 +27,12 @@ perl-sub-exporter
       
       
 
-      ``0.987-2``,  ``0.987-1``,  ``0.987-0``
+      ``0.987-3``,  ``0.987-2``,  ``0.987-1``,  ``0.987-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-data-optlist: 
    :depends perl-params-util: 
@@ -68,7 +68,7 @@ perl-sub-exporter
 
     <script>
         var package = "perl-sub-exporter";
-        var versions = ["0.987","0.987","0.987"];
+        var versions = ["0.987","0.987","0.987","0.987"];
     </script>
 
 

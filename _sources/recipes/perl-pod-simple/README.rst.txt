@@ -27,12 +27,12 @@ perl-pod-simple
       
       
 
-      ``3.35-1``,  ``3.35-0``
+      ``3.35-2``,  ``3.35-1``,  ``3.35-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-pod-escapes: 
    :depends perl-test: 
@@ -67,7 +67,7 @@ perl-pod-simple
 
     <script>
         var package = "perl-pod-simple";
-        var versions = ["3.35","3.35"];
+        var versions = ["3.35","3.35","3.35"];
     </script>
 
 

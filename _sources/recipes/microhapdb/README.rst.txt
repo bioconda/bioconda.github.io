@@ -27,12 +27,12 @@ microhapdb
       
       
 
-      ``0.6-0``,  ``0.5-0``,  ``0.4.3-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``
+      ``0.7-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4.3-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``
 
       
 
    
-   :depends pandas: 
+   :depends pandas: ``>=1.2``
    :depends python: ``>=3``
    :requirements:
 
@@ -65,7 +65,7 @@ microhapdb
 
     <script>
         var package = "microhapdb";
-        var versions = ["0.6","0.5","0.4.3","0.4.1","0.3"];
+        var versions = ["0.7","0.6","0.5","0.4.3","0.4.1"];
     </script>
 
 

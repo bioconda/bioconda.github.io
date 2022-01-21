@@ -27,7 +27,7 @@ corsid
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -70,7 +70,7 @@ corsid
 
     <script>
         var package = "corsid";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-cpan-meta-requirements
       
       
 
-      ``2.140-0``
+      ``2.140-1``,  ``2.140-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-version: 
    :requirements:
@@ -66,7 +66,7 @@ perl-cpan-meta-requirements
 
     <script>
         var package = "perl-cpan-meta-requirements";
-        var versions = ["2.140"];
+        var versions = ["2.140","2.140"];
     </script>
 
 

@@ -27,12 +27,13 @@ perl-string-approx
       
       
 
-      ``3.27-1``,  ``3.27-0``
+      ``3.27-2``,  ``3.27-1``,  ``3.27-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-test-more: 
    :requirements:
 
@@ -65,7 +66,7 @@ perl-string-approx
 
     <script>
         var package = "perl-string-approx";
-        var versions = ["3.27","3.27"];
+        var versions = ["3.27","3.27","3.27"];
     </script>
 
 

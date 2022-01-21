@@ -27,12 +27,12 @@ perl-text-csv
       
       
 
-      ``2.00-0``,  ``1.99-0``,  ``1.97-0``,  ``1.33-1``,  ``1.33-0``
+      ``2.00-1``,  ``2.00-0``,  ``1.99-0``,  ``1.97-0``,  ``1.33-1``,  ``1.33-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-test-harness: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-text-csv
 
     <script>
         var package = "perl-text-csv";
-        var versions = ["2.00","1.99","1.97","1.33","1.33"];
+        var versions = ["2.00","2.00","1.99","1.97","1.33"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-perl-version
       
       
 
-      ``1.013-3``,  ``1.013-2``,  ``1.013-1``,  ``1.013-0``
+      ``1.013-4``,  ``1.013-3``,  ``1.013-2``,  ``1.013-1``,  ``1.013-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-data-dumper: 
    :depends perl-file-slurp-tiny: 
@@ -69,7 +69,7 @@ perl-perl-version
 
     <script>
         var package = "perl-perl-version";
-        var versions = ["1.013","1.013","1.013","1.013"];
+        var versions = ["1.013","1.013","1.013","1.013","1.013"];
     </script>
 
 

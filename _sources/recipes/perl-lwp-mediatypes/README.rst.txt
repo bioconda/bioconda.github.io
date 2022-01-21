@@ -27,12 +27,12 @@ perl-lwp-mediatypes
       
       
 
-      ``6.04-0``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``,  ``6.02-0``
+      ``6.04-1``,  ``6.04-0``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``,  ``6.02-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :requirements:
@@ -66,7 +66,7 @@ perl-lwp-mediatypes
 
     <script>
         var package = "perl-lwp-mediatypes";
-        var versions = ["6.04","6.02","6.02","6.02","6.02"];
+        var versions = ["6.04","6.04","6.02","6.02","6.02"];
     </script>
 
 

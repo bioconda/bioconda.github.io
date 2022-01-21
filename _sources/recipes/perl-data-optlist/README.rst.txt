@@ -27,12 +27,12 @@ perl-data-optlist
       
       
 
-      ``0.110-2``,  ``0.110-1``,  ``0.110-0``
+      ``0.110-3``,  ``0.110-2``,  ``0.110-1``,  ``0.110-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-params-util: 
    :depends perl-sub-install: 
    :requirements:
@@ -66,7 +66,7 @@ perl-data-optlist
 
     <script>
         var package = "perl-data-optlist";
-        var versions = ["0.110","0.110","0.110"];
+        var versions = ["0.110","0.110","0.110","0.110"];
     </script>
 
 

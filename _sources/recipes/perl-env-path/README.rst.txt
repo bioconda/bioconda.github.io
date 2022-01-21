@@ -27,12 +27,12 @@ perl-env-path
       
       
 
-      ``0.19-2``,  ``0.19-1``,  ``0.19-0``
+      ``0.19-3``,  ``0.19-2``,  ``0.19-1``,  ``0.19-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-env-path
 
     <script>
         var package = "perl-env-path";
-        var versions = ["0.19","0.19","0.19"];
+        var versions = ["0.19","0.19","0.19","0.19"];
     </script>
 
 

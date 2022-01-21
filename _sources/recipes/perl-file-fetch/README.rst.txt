@@ -27,12 +27,12 @@ perl-file-fetch
       
       
 
-      ``0.56-0``,  ``0.48-4``,  ``0.48-3``,  ``0.48-2``,  ``0.48-1``,  ``0.48-0``
+      ``0.56-1``,  ``0.56-0``,  ``0.48-4``,  ``0.48-3``,  ``0.48-2``,  ``0.48-1``,  ``0.48-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-path: 
    :depends perl-ipc-cmd: 
    :depends perl-locale-maketext-simple: 
@@ -69,7 +69,7 @@ perl-file-fetch
 
     <script>
         var package = "perl-file-fetch";
-        var versions = ["0.56","0.48","0.48","0.48","0.48"];
+        var versions = ["0.56","0.56","0.48","0.48","0.48"];
     </script>
 
 

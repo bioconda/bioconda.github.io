@@ -27,12 +27,12 @@ perl-log-log4perl
       
       
 
-      ``1.49-0``,  ``1.47-2``,  ``1.47-1``,  ``1.47-0``
+      ``1.49-1``,  ``1.49-0``,  ``1.47-2``,  ``1.47-1``,  ``1.47-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-dbi: 
    :depends perl-file-path: 
    :requirements:
@@ -66,7 +66,7 @@ perl-log-log4perl
 
     <script>
         var package = "perl-log-log4perl";
-        var versions = ["1.49","1.47","1.47","1.47"];
+        var versions = ["1.49","1.49","1.47","1.47","1.47"];
     </script>
 
 

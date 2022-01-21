@@ -27,12 +27,12 @@ perl-extutils-cbuilder
       
       
 
-      ``0.280230-1``,  ``0.280230-0``
+      ``0.280230-2``,  ``0.280230-1``,  ``0.280230-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-extutils-makemaker: 
    :depends perl-file-temp: 
    :depends perl-ipc-cmd: 
@@ -69,7 +69,7 @@ perl-extutils-cbuilder
 
     <script>
         var package = "perl-extutils-cbuilder";
-        var versions = ["0.280230","0.280230"];
+        var versions = ["0.280230","0.280230","0.280230"];
     </script>
 
 

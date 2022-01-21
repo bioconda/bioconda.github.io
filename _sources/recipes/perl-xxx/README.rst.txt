@@ -27,12 +27,12 @@ perl-xxx
       
       
 
-      ``0.35-0``
+      ``0.35-1``,  ``0.35-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-yaml-pp: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-xxx
 
     <script>
         var package = "perl-xxx";
-        var versions = ["0.35"];
+        var versions = ["0.35","0.35"];
     </script>
 
 

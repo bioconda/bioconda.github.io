@@ -28,10 +28,10 @@ perl-uri
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.76-0</code>,  <code>1.74-0</code>,  <code>1.71-3</code>,  <code>1.71-2</code>,  <code>1.71-1</code>,  <code>1.71-0</code>,  <code>1.69-7</code>,  <code>1.69-6</code>,  <code>1.69-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.76-1</code>,  <code>1.76-0</code>,  <code>1.74-0</code>,  <code>1.71-3</code>,  <code>1.71-2</code>,  <code>1.71-1</code>,  <code>1.71-0</code>,  <code>1.69-7</code>,  <code>1.69-6</code>,  </span></summary>
       
 
-      ``1.76-0``,  ``1.74-0``,  ``1.71-3``,  ``1.71-2``,  ``1.71-1``,  ``1.71-0``,  ``1.69-7``,  ``1.69-6``,  ``1.69-5``,  ``1.69-4``,  ``1.69-3``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``
+      ``1.76-1``,  ``1.76-0``,  ``1.74-0``,  ``1.71-3``,  ``1.71-2``,  ``1.71-1``,  ``1.71-0``,  ``1.69-7``,  ``1.69-6``,  ``1.69-5``,  ``1.69-4``,  ``1.69-3``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ perl-uri
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-business-isbn: 
    :depends perl-carp: 
    :depends perl-constant: 
@@ -80,7 +80,7 @@ perl-uri
 
     <script>
         var package = "perl-uri";
-        var versions = ["1.76","1.74","1.71","1.71","1.71"];
+        var versions = ["1.76","1.76","1.74","1.71","1.71"];
     </script>
 
 

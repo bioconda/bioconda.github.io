@@ -27,12 +27,12 @@ perl-cpan-meta
       
       
 
-      ``2.150010-0``,  ``2.120921-1``,  ``2.120921-0``
+      ``2.150010-1``,  ``2.150010-0``,  ``2.120921-1``,  ``2.120921-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-cpan-meta-requirements: 
    :depends perl-cpan-meta-yaml: 
@@ -71,7 +71,7 @@ perl-cpan-meta
 
     <script>
         var package = "perl-cpan-meta";
-        var versions = ["2.150010","2.120921","2.120921"];
+        var versions = ["2.150010","2.150010","2.120921","2.120921"];
     </script>
 
 

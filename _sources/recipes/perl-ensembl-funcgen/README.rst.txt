@@ -27,11 +27,12 @@ perl-ensembl-funcgen
       
       
 
-      ``98-0``
+      ``98-1``,  ``98-0``
 
       
 
    
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-ensembl-core: 
    :depends perl-role-tiny: 
    :requirements:
@@ -65,7 +66,7 @@ perl-ensembl-funcgen
 
     <script>
         var package = "perl-ensembl-funcgen";
-        var versions = ["98"];
+        var versions = ["98","98"];
     </script>
 
 

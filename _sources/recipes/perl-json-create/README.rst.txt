@@ -27,12 +27,13 @@ perl-json-create
       
       
 
-      ``0.24-2``,  ``0.24-1``,  ``0.24-0``
+      ``0.24-3``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-json-parse: 
    :depends perl-unicode-utf8: 
@@ -67,7 +68,7 @@ perl-json-create
 
     <script>
         var package = "perl-json-create";
-        var versions = ["0.24","0.24","0.24"];
+        var versions = ["0.24","0.24","0.24","0.24"];
     </script>
 
 

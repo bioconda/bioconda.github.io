@@ -27,12 +27,12 @@ perl-term-detect-software
       
       
 
-      ``0.21-2``,  ``0.21-1``,  ``0.21-0``
+      ``0.21-3``,  ``0.21-2``,  ``0.21-1``,  ``0.21-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-experimental: 
    :depends perl-file-which: 
    :requirements:
@@ -66,7 +66,7 @@ perl-term-detect-software
 
     <script>
         var package = "perl-term-detect-software";
-        var versions = ["0.21","0.21","0.21"];
+        var versions = ["0.21","0.21","0.21","0.21"];
     </script>
 
 

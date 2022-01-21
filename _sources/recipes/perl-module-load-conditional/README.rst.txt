@@ -27,12 +27,12 @@ perl-module-load-conditional
       
       
 
-      ``0.68-2``,  ``0.68-1``,  ``0.68-0``,  ``0.62-1``,  ``0.62-0``
+      ``0.68-3``,  ``0.68-2``,  ``0.68-1``,  ``0.68-0``,  ``0.62-1``,  ``0.62-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-locale-maketext-simple: 
    :depends perl-module-corelist: 
    :depends perl-module-load: 
@@ -70,7 +70,7 @@ perl-module-load-conditional
 
     <script>
         var package = "perl-module-load-conditional";
-        var versions = ["0.68","0.68","0.68","0.62","0.62"];
+        var versions = ["0.68","0.68","0.68","0.68","0.62"];
     </script>
 
 

@@ -27,11 +27,12 @@ perl-ensembl-core
       
       
 
-      ``98-1``,  ``98-0``
+      ``98-2``,  ``98-1``,  ``98-0``
 
       
 
    
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-list-moreutils: 
    :requirements:
 
@@ -64,7 +65,7 @@ perl-ensembl-core
 
     <script>
         var package = "perl-ensembl-core";
-        var versions = ["98","98"];
+        var versions = ["98","98","98"];
     </script>
 
 

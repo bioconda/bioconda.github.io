@@ -27,12 +27,12 @@ perl-extutils-helpers
       
       
 
-      ``0.026-0``,  ``0.022-0``
+      ``0.026-1``,  ``0.026-0``,  ``0.022-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :depends perl-text-parsewords: 
@@ -67,7 +67,7 @@ perl-extutils-helpers
 
     <script>
         var package = "perl-extutils-helpers";
-        var versions = ["0.026","0.022"];
+        var versions = ["0.026","0.026","0.022"];
     </script>
 
 

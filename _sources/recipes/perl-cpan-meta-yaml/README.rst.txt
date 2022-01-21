@@ -27,12 +27,12 @@ perl-cpan-meta-yaml
       
       
 
-      ``0.018-0``
+      ``0.018-1``,  ``0.018-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
    :requirements:
@@ -66,7 +66,7 @@ perl-cpan-meta-yaml
 
     <script>
         var package = "perl-cpan-meta-yaml";
-        var versions = ["0.018"];
+        var versions = ["0.018","0.018"];
     </script>
 
 

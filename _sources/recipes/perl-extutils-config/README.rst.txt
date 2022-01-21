@@ -27,12 +27,12 @@ perl-extutils-config
       
       
 
-      ``0.008-2``,  ``0.008-1``,  ``0.008-0``
+      ``0.008-3``,  ``0.008-2``,  ``0.008-1``,  ``0.008-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-data-dumper: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-extutils-config
 
     <script>
         var package = "perl-extutils-config";
-        var versions = ["0.008","0.008","0.008"];
+        var versions = ["0.008","0.008","0.008","0.008"];
     </script>
 
 

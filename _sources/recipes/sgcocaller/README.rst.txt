@@ -28,14 +28,14 @@ sgcocaller
       
       
 
-      ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``
+      ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.14,<1.15.0a0``
+   :depends htslib: ``>=1.12,<1.13.0a0``
    :depends libgcc-ng: ``>=9.4.0``
    :depends libgfortran-ng: 
    :depends libgfortran5: ``>=9.4.0``
@@ -74,7 +74,7 @@ sgcocaller
 
     <script>
         var package = "sgcocaller";
-        var versions = ["0.3.6","0.3.6","0.3.5","0.3.4"];
+        var versions = ["0.3.7","0.3.6","0.3.6","0.3.5","0.3.4"];
     </script>
 
 

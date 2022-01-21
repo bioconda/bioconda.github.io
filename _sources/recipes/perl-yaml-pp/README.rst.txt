@@ -27,12 +27,12 @@ perl-yaml-pp
       
       
 
-      ``0.021-1``,  ``0.021-0``
+      ``0.021-2``,  ``0.021-1``,  ``0.021-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-constant: 
@@ -72,7 +72,7 @@ perl-yaml-pp
 
     <script>
         var package = "perl-yaml-pp";
-        var versions = ["0.021","0.021"];
+        var versions = ["0.021","0.021","0.021"];
     </script>
 
 

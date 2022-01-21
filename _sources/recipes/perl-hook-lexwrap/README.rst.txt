@@ -27,12 +27,12 @@ perl-hook-lexwrap
       
       
 
-      ``0.26-1``,  ``0.26-0``
+      ``0.26-2``,  ``0.26-1``,  ``0.26-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-hook-lexwrap
 
     <script>
         var package = "perl-hook-lexwrap";
-        var versions = ["0.26","0.26"];
+        var versions = ["0.26","0.26","0.26"];
     </script>
 
 
