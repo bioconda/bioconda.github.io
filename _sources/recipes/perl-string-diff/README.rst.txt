@@ -27,12 +27,12 @@ perl-string-diff
       
       
 
-      ``0.07-0``
+      ``0.07-1``,  ``0.07-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-algorithm-diff: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-string-diff
 
     <script>
         var package = "perl-string-diff";
-        var versions = ["0.07"];
+        var versions = ["0.07","0.07"];
     </script>
 
 

@@ -108,7 +108,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">microhapulator</span></span></dt>
-<dd><p>Software package for simulating and analyzing microhaplotype sequence data.</p>
+<dd><p>Tools for empirical microhaplotype calling, forensic interpretation, and simulation.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage</dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/bioforensics/MicroHapulator/">https://github.com/bioforensics/MicroHapulator/</a></p>
@@ -128,17 +128,21 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/microhapulator"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/microhapulator.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/microhapulator"><img alt="docker_microhapulator" src="https://quay.io/repository/biocontainers/microhapulator/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.3-0</span></code></p>
 </dd>
 <dt class="field-even">Depends</dt>
 <dd class="field-list-wrapped field-even"><ul class="simple">
+<li><p><a class="conda-package reference internal" href="../bwa/README.html#package-bwa" title="bwa package"><strong>bwa</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.7.17</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/flash-feedstock"><strong>flash</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../happer/README.html#package-happer" title="happer package"><strong>happer</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.1</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../insilicoseq/README.html#package-insilicoseq" title="insilicoseq package"><strong>insilicoseq</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.6</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/jsonschema-feedstock"><strong>jsonschema</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3.1</span></code></p></li>
-<li><p><a class="conda-package reference internal" href="../microhapdb/README.html#package-microhapdb" title="microhapdb package"><strong>microhapdb</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.4.3</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/numpy-feedstock"><strong>numpy</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.15.4</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/pandas-feedstock"><strong>pandas</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0</span></code></p></li>
 <li><p><a class="conda-package reference internal" href="../pysam/README.html#package-pysam" title="pysam package"><strong>pysam</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.15.2</span></code></p></li>
 <li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/python-feedstock"><strong>python</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=3</span></code></p></li>
+<li><p><a class="conda-package reference internal" href="../samtools/README.html#package-samtools" title="samtools package"><strong>samtools</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=1.12</span></code></p></li>
+<li><p><a class="conda-forge reference external" href="https://github.com/conda-forge/termgraph-feedstock"><strong>termgraph</strong></a> <code class="docutils literal notranslate"><span class="pre">&gt;=0.5</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Required By</dt>
@@ -164,7 +168,7 @@
 
 <script>
     var package = "microhapulator";
-    var versions = ["0.4.1","0.3","0.2","0.1.3"];
+    var versions = ["0.5","0.4.1","0.3","0.2","0.1.3"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Permalink to this headline">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

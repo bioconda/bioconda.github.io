@@ -10,7 +10,7 @@ microhapulator
    :replaces_section_title:
    :noindex:
 
-   Software package for simulating and analyzing microhaplotype sequence data.
+   Tools for empirical microhaplotype calling\, forensic interpretation\, and simulation.
 
    :homepage: https://github.com/bioforensics/MicroHapulator/
    :license: BSD / BSD License
@@ -27,18 +27,22 @@ microhapulator
       
       
 
-      ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
+      ``0.5-0``,  ``0.4.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.3-0``
 
       
 
    
+   :depends bwa: ``>=0.7.17``
+   :depends flash: ``>=1.2``
    :depends happer: ``>=0.1``
    :depends insilicoseq: ``>=1.3.6``
    :depends jsonschema: ``>=3.1``
-   :depends microhapdb: ``>=0.4.3``
    :depends numpy: ``>=1.15.4``
+   :depends pandas: ``>=1.0``
    :depends pysam: ``>=0.15.2``
    :depends python: ``>=3``
+   :depends samtools: ``>=1.12``
+   :depends termgraph: ``>=0.5``
    :requirements:
 
    .. rubric:: Installation
@@ -70,7 +74,7 @@ microhapulator
 
     <script>
         var package = "microhapulator";
-        var versions = ["0.4.1","0.3","0.2","0.1.3"];
+        var versions = ["0.5","0.4.1","0.3","0.2","0.1.3"];
     </script>
 
 

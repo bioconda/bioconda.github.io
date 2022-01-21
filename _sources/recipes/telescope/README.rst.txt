@@ -36,6 +36,7 @@ telescope
    :depends future: ``>=0.17.1``
    :depends htslib: ``>=1.14,<1.15.0a0``
    :depends intervaltree: ``>=3.0.2``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends numpy: ``>=1.19.5,<2.0a0``
    :depends pysam: ``>=0.15.2``
    :depends python: ``>=3.6,<3.7.0a0``
