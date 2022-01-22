@@ -27,7 +27,7 @@ micom
       
       
 
-      ``0.26.0-0``
+      ``0.28.0-0``,  ``0.26.0-0``
 
       
 
@@ -70,7 +70,7 @@ micom
 
     <script>
         var package = "micom";
-        var versions = ["0.26.0"];
+        var versions = ["0.28.0","0.26.0"];
     </script>
 
 

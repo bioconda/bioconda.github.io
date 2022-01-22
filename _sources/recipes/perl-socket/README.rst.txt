@@ -27,12 +27,13 @@ perl-socket
       
       
 
-      ``2.027-1``,  ``2.027-0``
+      ``2.027-2``,  ``2.027-1``,  ``2.027-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +65,7 @@ perl-socket
 
     <script>
         var package = "perl-socket";
-        var versions = ["2.027","2.027"];
+        var versions = ["2.027","2.027","2.027"];
     </script>
 
 

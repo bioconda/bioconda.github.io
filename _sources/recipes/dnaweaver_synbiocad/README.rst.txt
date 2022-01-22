@@ -27,7 +27,7 @@ dnaweaver_synbiocad
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -37,9 +37,9 @@ dnaweaver_synbiocad
    :depends openpyxl: 
    :depends pandas: 
    :depends proglog: 
+   :depends pysbol2: 
    :depends python: ``3.7.*``
    :depends requests: 
-   :depends sbml2sbol: ``>=0.1.13``
    :requirements:
 
    .. rubric:: Installation
@@ -71,7 +71,7 @@ dnaweaver_synbiocad
 
     <script>
         var package = "dnaweaver_synbiocad";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

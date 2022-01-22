@@ -27,12 +27,12 @@ perl-test-sys-info
       
       
 
-      ``0.23-0``,  ``0.21-0``
+      ``0.23-1``,  ``0.23-0``,  ``0.21-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-constant: 
@@ -68,7 +68,7 @@ perl-test-sys-info
 
     <script>
         var package = "perl-test-sys-info";
-        var versions = ["0.23","0.21"];
+        var versions = ["0.23","0.23","0.21"];
     </script>
 
 

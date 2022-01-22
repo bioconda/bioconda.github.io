@@ -27,12 +27,12 @@ perl-html-template
       
       
 
-      ``2.97-1``,  ``2.95-1``,  ``2.95-0``
+      ``2.97-2``,  ``2.97-1``,  ``2.95-1``,  ``2.95-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-cgi: 
    :depends perl-scalar-list-utils: 
    :requirements:
@@ -66,7 +66,7 @@ perl-html-template
 
     <script>
         var package = "perl-html-template";
-        var versions = ["2.97","2.95","2.95"];
+        var versions = ["2.97","2.97","2.95","2.95"];
     </script>
 
 

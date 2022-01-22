@@ -27,12 +27,12 @@ perl-string-truncate
       
       
 
-      ``1.100602-0``
+      ``1.100602-1``,  ``1.100602-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-sub-exporter: 
    :depends perl-sub-install: 
@@ -67,7 +67,7 @@ perl-string-truncate
 
     <script>
         var package = "perl-string-truncate";
-        var versions = ["1.100602"];
+        var versions = ["1.100602","1.100602"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-test-warnings
       
       
 
-      ``0.026-1``,  ``0.026-0``,  ``0.021-3``,  ``0.021-2``,  ``0.021-1``
+      ``0.026-2``,  ``0.026-1``,  ``0.026-0``,  ``0.021-3``,  ``0.021-2``,  ``0.021-1``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -64,7 +64,7 @@ perl-test-warnings
 
     <script>
         var package = "perl-test-warnings";
-        var versions = ["0.026","0.026","0.021","0.021","0.021"];
+        var versions = ["0.026","0.026","0.026","0.021","0.021"];
     </script>
 
 

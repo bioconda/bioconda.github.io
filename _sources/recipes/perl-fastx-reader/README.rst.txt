@@ -29,10 +29,10 @@ perl-fastx-reader
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
       
 
-      ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.92-1``,  ``0.92-0``,  ``0.90-0``,  ``0.88-0``,  ``0.87-0``,  ``0.61-0``,  ``0.60-0``
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.92-1``,  ``0.92-0``,  ``0.90-0``,  ``0.88-0``,  ``0.87-0``,  ``0.61-0``,  ``0.60-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ perl-fastx-reader
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-capture-tiny: 
    :depends perl-carp: 
    :requirements:
@@ -75,7 +75,7 @@ perl-fastx-reader
 
     <script>
         var package = "perl-fastx-reader";
-        var versions = ["1.3.0","1.2.1","1.1.0","1.0.5","1.0.4"];
+        var versions = ["1.3.0","1.3.0","1.2.1","1.1.0","1.0.5"];
     </script>
 
 

@@ -27,12 +27,12 @@ perl-http-tiny
       
       
 
-      ``0.076-0``
+      ``0.076-1``,  ``0.076-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-mime-base64: 
    :depends perl-socket: 
@@ -68,7 +68,7 @@ perl-http-tiny
 
     <script>
         var package = "perl-http-tiny";
-        var versions = ["0.076"];
+        var versions = ["0.076","0.076"];
     </script>
 
 

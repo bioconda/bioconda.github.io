@@ -27,12 +27,12 @@ interleafq
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``0.99-0``,  ``0.92-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``0.99-0``,  ``0.92-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-fastx-reader: 
    :depends perl-getopt-long: 
    :requirements:
@@ -66,7 +66,7 @@ interleafq
 
     <script>
         var package = "interleafq";
-        var versions = ["1.1.0","1.1.0","0.99","0.92"];
+        var versions = ["1.1.0","1.1.0","1.1.0","0.99","0.92"];
     </script>
 
 

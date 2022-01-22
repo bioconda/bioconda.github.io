@@ -28,10 +28,10 @@ perl-cgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.44-1</code>,  <code>4.44-0</code>,  <code>4.43-0</code>,  <code>4.40-2</code>,  <code>4.40-1</code>,  <code>4.40-0</code>,  <code>4.22-4</code>,  <code>4.22-3</code>,  <code>4.22-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.44-2</code>,  <code>4.44-1</code>,  <code>4.44-0</code>,  <code>4.43-0</code>,  <code>4.40-2</code>,  <code>4.40-1</code>,  <code>4.40-0</code>,  <code>4.22-4</code>,  <code>4.22-3</code>,  </span></summary>
       
 
-      ``4.44-1``,  ``4.44-0``,  ``4.43-0``,  ``4.40-2``,  ``4.40-1``,  ``4.40-0``,  ``4.22-4``,  ``4.22-3``,  ``4.22-2``,  ``4.22-1``,  ``4.22-0``
+      ``4.44-2``,  ``4.44-1``,  ``4.44-0``,  ``4.43-0``,  ``4.40-2``,  ``4.40-1``,  ``4.40-0``,  ``4.22-4``,  ``4.22-3``,  ``4.22-2``,  ``4.22-1``,  ``4.22-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ perl-cgi
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-encode: 
@@ -80,7 +80,7 @@ perl-cgi
 
     <script>
         var package = "perl-cgi";
-        var versions = ["4.44","4.44","4.43","4.40","4.40"];
+        var versions = ["4.44","4.44","4.44","4.43","4.40"];
     </script>
 
 

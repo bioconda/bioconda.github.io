@@ -27,12 +27,12 @@ perl-version-next
       
       
 
-      ``1.000-2``,  ``1.000-1``,  ``1.000-0``
+      ``1.000-3``,  ``1.000-2``,  ``1.000-1``,  ``1.000-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-apache-test: 
    :depends perl-perl-version: 
    :depends perl-sub-exporter: 
@@ -67,7 +67,7 @@ perl-version-next
 
     <script>
         var package = "perl-version-next";
-        var versions = ["1.000","1.000","1.000"];
+        var versions = ["1.000","1.000","1.000","1.000"];
     </script>
 
 

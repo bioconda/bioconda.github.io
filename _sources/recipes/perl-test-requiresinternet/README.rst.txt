@@ -27,12 +27,12 @@ perl-test-requiresinternet
       
       
 
-      ``0.05-0``
+      ``0.05-1``,  ``0.05-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-socket: 
    :requirements:
 
@@ -65,7 +65,7 @@ perl-test-requiresinternet
 
     <script>
         var package = "perl-test-requiresinternet";
-        var versions = ["0.05"];
+        var versions = ["0.05","0.05"];
     </script>
 
 

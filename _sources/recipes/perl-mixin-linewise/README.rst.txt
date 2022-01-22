@@ -27,12 +27,12 @@ perl-mixin-linewise
       
       
 
-      ``0.108-2``,  ``0.108-1``,  ``0.108-0``
+      ``0.108-3``,  ``0.108-2``,  ``0.108-1``,  ``0.108-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-extutils-makemaker: 
    :depends perl-pathtools: 
    :depends perl-perlio-utf8_strict: 
@@ -68,7 +68,7 @@ perl-mixin-linewise
 
     <script>
         var package = "perl-mixin-linewise";
-        var versions = ["0.108","0.108","0.108"];
+        var versions = ["0.108","0.108","0.108","0.108"];
     </script>
 
 

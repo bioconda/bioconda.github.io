@@ -27,12 +27,12 @@ perl-module-scandeps
       
       
 
-      ``1.27-0``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.23-1``,  ``1.23-0``
+      ``1.27-1``,  ``1.27-0``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.23-1``,  ``1.23-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-file-temp: 
    :depends perl-getopt-long: 
    :depends perl-module-metadata: 
@@ -69,7 +69,7 @@ perl-module-scandeps
 
     <script>
         var package = "perl-module-scandeps";
-        var versions = ["1.27","1.26","1.26","1.25","1.23"];
+        var versions = ["1.27","1.27","1.26","1.26","1.25"];
     </script>
 
 

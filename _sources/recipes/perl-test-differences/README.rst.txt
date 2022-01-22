@@ -27,12 +27,12 @@ perl-test-differences
       
       
 
-      ``0.67-0``,  ``0.64-2``,  ``0.64-1``,  ``0.64-0``
+      ``0.67-1``,  ``0.67-0``,  ``0.64-2``,  ``0.64-1``,  ``0.64-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-capture-tiny: 
    :depends perl-text-diff: 
    :requirements:
@@ -66,7 +66,7 @@ perl-test-differences
 
     <script>
         var package = "perl-test-differences";
-        var versions = ["0.67","0.64","0.64","0.64"];
+        var versions = ["0.67","0.67","0.64","0.64","0.64"];
     </script>
 
 
