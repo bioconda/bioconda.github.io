@@ -27,12 +27,12 @@ perl-data-munge
       
       
 
-      ``0.097-0``
+      ``0.097-1``,  ``0.097-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-exporter: 
    :requirements:
@@ -66,7 +66,7 @@ perl-data-munge
 
     <script>
         var package = "perl-data-munge";
-        var versions = ["0.097"];
+        var versions = ["0.097","0.097"];
     </script>
 
 

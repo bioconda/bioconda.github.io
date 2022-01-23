@@ -27,12 +27,12 @@ perl-http-server-simple
       
       
 
-      ``0.52-2``,  ``0.52-1``,  ``0.52-0``
+      ``0.52-3``,  ``0.52-2``,  ``0.52-1``,  ``0.52-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-cgi: 
    :depends perl-socket: 
    :requirements:
@@ -66,7 +66,7 @@ perl-http-server-simple
 
     <script>
         var package = "perl-http-server-simple";
-        var versions = ["0.52","0.52","0.52"];
+        var versions = ["0.52","0.52","0.52","0.52"];
     </script>
 
 

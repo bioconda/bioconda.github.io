@@ -27,17 +27,25 @@ malva
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.1-3</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends htslib: ``>=1.12,<1.13.0a0``
+   :depends htslib: ``>=1.14,<1.15.0a0``
    :depends kmc: 
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc-ng: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
@@ -69,7 +77,7 @@ malva
 
     <script>
         var package = "malva";
-        var versions = ["1.3.1","1.3.1","1.3.1","1.3.0","1.2.0"];
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1","1.3.0"];
     </script>
 
 

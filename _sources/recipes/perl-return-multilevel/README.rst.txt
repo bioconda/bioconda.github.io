@@ -27,12 +27,12 @@ perl-return-multilevel
       
       
 
-      ``0.05-0``
+      ``0.05-1``,  ``0.05-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-data-munge: 
    :depends perl-exporter: 
@@ -68,7 +68,7 @@ perl-return-multilevel
 
     <script>
         var package = "perl-return-multilevel";
-        var versions = ["0.05"];
+        var versions = ["0.05","0.05"];
     </script>
 
 

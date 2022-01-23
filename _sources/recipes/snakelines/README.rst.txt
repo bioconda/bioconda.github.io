@@ -27,21 +27,18 @@ snakelines
       
       
 
-      ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``
+      ``1.0.4-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``
 
       
 
    
-   :depends biopython: ``1.78``
    :depends bs4: ``4.9.3``
    :depends jinja2: ``2.11.2``
+   :depends multiqc: ``1.10.1``
    :depends numpy: ``1.19.2``
-   :depends openpyxl: ``3.0.5``
    :depends oyaml: ``0.9``
    :depends pandas: ``1.1.3``
-   :depends pysam: ``0.16.0.1``
    :depends python: ``3.7.6``
-   :depends scikit-bio: ``0.5.6``
    :depends seaborn: ``0.11.0``
    :depends snakemake: ``5.13.0``
    :depends tk: ``8.6.10``
@@ -77,7 +74,7 @@ snakelines
 
     <script>
         var package = "snakelines";
-        var versions = ["0.10.0","0.10.0","0.9.2"];
+        var versions = ["1.0.4","0.10.0","0.10.0","0.9.2"];
     </script>
 
 

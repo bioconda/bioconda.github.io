@@ -27,12 +27,12 @@ perl-term-progressbar
       
       
 
-      ``2.22-0``,  ``2.21-1``,  ``2.21-0``
+      ``2.22-1``,  ``2.22-0``,  ``2.21-1``,  ``2.21-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-class-methodmaker: 
    :requirements:
@@ -66,7 +66,7 @@ perl-term-progressbar
 
     <script>
         var package = "perl-term-progressbar";
-        var versions = ["2.22","2.21","2.21"];
+        var versions = ["2.22","2.22","2.21","2.21"];
     </script>
 
 

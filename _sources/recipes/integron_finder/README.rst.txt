@@ -27,20 +27,20 @@ integron_finder
       
       
 
-      ``2.0rc6-0``
+      ``2.0-0``,  ``2.0rc6-0``
 
       
 
    
-   :depends biopython: ``>=1.70``
-   :depends colorlog: 
-   :depends hmmer: ``>=3.1``
-   :depends infernal: ``>=1.1.2``
-   :depends matplotlib-base: 
-   :depends numpy: ``>=1.14.2``
-   :depends pandas: ``>=0.22.0``
-   :depends prodigal: ``>=2.6.2``
-   :depends python: ``>=3.4``
+   :depends biopython: ``1.78``
+   :depends colorlog: ``<=6.6.0``
+   :depends hmmer: ``>=3.1b2,<=3.3.2``
+   :depends infernal: ``>=1.1.2,<=1.1.4``
+   :depends matplotlib-base: ``3.3.3``
+   :depends numpy: ``1.19.4``
+   :depends pandas: ``1.1.5``
+   :depends prodigal: ``>=2.6.3``
+   :depends python: ``>=3.7,<=3.10``
    :requirements:
 
    .. rubric:: Installation
@@ -72,7 +72,7 @@ integron_finder
 
     <script>
         var package = "integron_finder";
-        var versions = ["2.0rc6"];
+        var versions = ["2.0","2.0rc6"];
     </script>
 
 

@@ -88,16 +88,16 @@ pmx_biobb
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends future: 
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libgfortran5: ``>=9.4.0``
+   :depends libstdcxx-ng: ``>=9.4.0``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends perl: 
@@ -135,7 +135,7 @@ pmx_biobb
 
     <script>
         var package = "pmx_biobb";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

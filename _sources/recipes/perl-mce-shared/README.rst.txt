@@ -27,12 +27,12 @@ perl-mce-shared
       
       
 
-      ``1.840-0``,  ``1.839-0``,  ``1.838-0``,  ``1.836-1``,  ``1.836-0``
+      ``1.840-1``,  ``1.840-0``,  ``1.839-0``,  ``1.838-0``,  ``1.836-1``,  ``1.836-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-constant: 
@@ -71,7 +71,7 @@ perl-mce-shared
 
     <script>
         var package = "perl-mce-shared";
-        var versions = ["1.840","1.839","1.838","1.836","1.836"];
+        var versions = ["1.840","1.840","1.839","1.838","1.836"];
     </script>
 
 
