@@ -27,12 +27,12 @@ perl-image-info
       
       
 
-      ``1.38-1``,  ``1.38-0``
+      ``1.38-2``,  ``1.38-1``,  ``1.38-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-io-stringy: 
    :depends perl-xml-libxml: 
    :requirements:
@@ -66,7 +66,7 @@ perl-image-info
 
     <script>
         var package = "perl-image-info";
-        var versions = ["1.38","1.38"];
+        var versions = ["1.38","1.38","1.38"];
     </script>
 
 

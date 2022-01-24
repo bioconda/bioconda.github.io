@@ -27,13 +27,12 @@ perl-file-copy-link
       
       
 
-      ``0.140-2``,  ``0.140-1``,  ``0.140-0``
+      ``0.140-3``,  ``0.140-2``,  ``0.140-1``,  ``0.140-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    .. rubric:: Installation
@@ -65,7 +64,7 @@ perl-file-copy-link
 
     <script>
         var package = "perl-file-copy-link";
-        var versions = ["0.140","0.140","0.140"];
+        var versions = ["0.140","0.140","0.140","0.140"];
     </script>
 
 
