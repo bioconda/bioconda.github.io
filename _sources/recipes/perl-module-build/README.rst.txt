@@ -27,12 +27,12 @@ perl-module-build
       
       
 
-      ``0.4224-3``,  ``0.4224-2``,  ``0.4224-1``,  ``0.4224-0``,  ``0.4214-3``,  ``0.4214-2``,  ``0.4214-1``,  ``0.4214-0``
+      ``0.4224-4``,  ``0.4224-3``,  ``0.4224-2``,  ``0.4224-1``,  ``0.4224-0``,  ``0.4214-3``,  ``0.4214-2``,  ``0.4214-1``,  ``0.4214-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-cpan-meta: 
    :depends perl-data-dumper: 
    :depends perl-extutils-cbuilder: 
@@ -76,7 +76,7 @@ perl-module-build
 
     <script>
         var package = "perl-module-build";
-        var versions = ["0.4224","0.4224","0.4224","0.4224","0.4214"];
+        var versions = ["0.4224","0.4224","0.4224","0.4224","0.4224"];
     </script>
 
 

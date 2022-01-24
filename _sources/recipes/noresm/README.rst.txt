@@ -43,7 +43,7 @@ noresm
       
       
 
-      ``2.0.2-0``
+      ``2.0.2-1``,  ``2.0.2-0``
 
       
 
@@ -52,16 +52,16 @@ noresm
    :depends cmake: 
    :depends gcc_linux-64: ``9.*``
    :depends gfortran_linux-64: ``9.*``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=9.3.0``
+   :depends libgfortran5: ``>=9.4.0``
    :depends libiconv: ``>=1.16,<1.17.0a0``
-   :depends libxml2: ``>=2.9.10,<2.10.0a0``
+   :depends libxml2: ``>=2.9.12,<2.10.0a0``
    :depends make: 
    :depends mkl: 
-   :depends mpich: ``>=3.4.1,<4.0a0``
+   :depends mpich: ``>=3.4.3,<4.0a0``
    :depends netcdf-fortran: ``* *mpich*``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-xml-libxml: 
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -99,7 +99,7 @@ noresm
 
     <script>
         var package = "noresm";
-        var versions = ["2.0.2"];
+        var versions = ["2.0.2","2.0.2"];
     </script>
 
 

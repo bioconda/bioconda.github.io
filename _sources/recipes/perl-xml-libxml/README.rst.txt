@@ -32,10 +32,13 @@ perl-xml-libxml
       
 
    
+   :depends libgcc-ng: ``>=9.4.0``
    :depends libxml2: ``>=2.9.12,<2.10.0a0``
+   :depends libzlib: ``>=1.2.11,<1.3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-xml-namespacesupport: 
    :depends perl-xml-sax: 
+   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    .. rubric:: Installation
